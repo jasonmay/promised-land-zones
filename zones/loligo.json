@@ -1,0 +1,178 @@
+{
+   "obj" : {
+      "suit@loligo" : {
+         "damage" : "0",
+         "location" : "IN_ROOM:surface1",
+         "oflags" : [
+            "Wearable",
+            "Armor",
+            "Breathe",
+            "Pressure"
+         ],
+         "armor" : "40",
+         "altname" : "label",
+         "name" : "suit",
+         "examine" : "ACME pressure suit - effective at depths up to 2000 fathoms.",
+         "size" : "1",
+         "state" : "0",
+         "weight" : "0",
+         "maxstate" : "0",
+         "bvalue" : "0",
+         "aflags" : [
+            "Head",
+            "Face",
+            "Back",
+            "Chest",
+            "Arms",
+            "Legs",
+            "Hands",
+            "Feet"
+         ],
+         "desc[0]" : "A pressure suit is lying here with a label attached."
+      }
+   },
+   "loc" : {
+      "surface4@loligo" : {
+         "exits" : {
+            "w" : "surface3",
+            "e" : "surface6",
+            "n" : "surface5",
+            "s" : "surface5"
+         },
+         "flags" : [
+            "Outdoors",
+            "Onwater"
+         ],
+         "zone" : "loligo",
+         "title" : "Upon The Ocean Waves",
+         "id" : "surface4",
+         "description" : "\n    Water, water everywhere...  Not a hint of land can be seen in any\ndirection.  Even the gulls are rarely to be seen here.  Your craft rises and\nfalls on the mid-ocean swell, and you begin to feel somewhat queasy.  You can\nhead in any direction from here.\n",
+         "altitude" : null
+      },
+      "surface3@loligo" : {
+         "exits" : {
+            "w" : "surface2",
+            "e" : "surface4"
+         },
+         "flags" : [
+            "Outdoors",
+            "Onwater"
+         ],
+         "zone" : "loligo",
+         "title" : "Over The Continental Shelf",
+         "id" : "surface3",
+         "description" : "\n    You are far out from the shore, drifting in the open ocean.  On the western\nhorizon the peak of a volcano looms above the waves, but the shore itself is\nhidden.  The water here is deep, but to the east it becomes even deeper as the\ncontinental shelf drops away to the vast ocean plain.\n",
+         "altitude" : null
+      },
+      "surface8@loligo" : {
+         "exits" : {
+            "w" : "surface7",
+            "e" : "fareast_bay@fareast",
+            "n" : "surface6",
+            "s" : "surface6"
+         },
+         "flags" : [
+            "Outdoors",
+            "Onwater"
+         ],
+         "zone" : "loligo",
+         "title" : "Upon The Ocean Waves",
+         "id" : "surface8",
+         "description" : "\n    You are drifting on the ocean waves, in sight of land which rises above\nthe hazy horizon to the east.  In all other directions the endless ocean waves\nrise and fall in a never-ceasing, ever-changing rhythm.\n",
+         "altitude" : null
+      },
+      "surface6@loligo" : {
+         "exits" : {
+            "w" : "surface4",
+            "e" : "surface6",
+            "n" : "surface7",
+            "s" : "surface7"
+         },
+         "flags" : [
+            "Outdoors",
+            "Onwater"
+         ],
+         "zone" : "loligo",
+         "title" : "Upon The Ocean Waves",
+         "id" : "surface6",
+         "description" : "\n    You are lost in the middle of the ocean.  You are thoroughly sick of life\non the sea, and you wonder how anyone could bear to make a living out of it.\nYou can go in any direction from here - all exits look the same.\n",
+         "altitude" : null
+      },
+      "surface2@loligo" : {
+         "exits" : {
+            "w" : "surface1",
+            "e" : "surface3"
+         },
+         "flags" : [
+            "Outdoors",
+            "Onwater"
+         ],
+         "zone" : "loligo",
+         "title" : "Coastal Waters",
+         "id" : "surface2",
+         "description" : "\n    You are floating on the seas just offshore.  Looking down you can see the\ntopmost fronds of a forest of kelp which reaches up from the sea bed and sways\nin the current.  To the east is deeper water, while to the west you could\nclamber out on to the land.\n",
+         "altitude" : null
+      },
+      "surface7@loligo" : {
+         "exits" : {
+            "w" : "surface5",
+            "e" : "surface8",
+            "n" : "surface6",
+            "s" : "surface6"
+         },
+         "flags" : [
+            "Outdoors",
+            "Onwater"
+         ],
+         "zone" : "loligo",
+         "title" : "Upon The Ocean Waves",
+         "id" : "surface7",
+         "description" : "\n    You are lost in the middle of the ocean.  You are thoroughly sick of life\non the sea, and you wonder how anyone could bear to make a living out of it.\nYou can go in any direction from here - all exits look the same.\n",
+         "altitude" : null
+      },
+      "surface5@loligo" : {
+         "exits" : {
+            "w" : "surface3",
+            "e" : "surface7",
+            "n" : "surface4",
+            "s" : "surface4"
+         },
+         "flags" : [
+            "Outdoors",
+            "Onwater"
+         ],
+         "zone" : "loligo",
+         "title" : "Upon The Ocean Waves",
+         "id" : "surface5",
+         "description" : "\n    You are drifting alone in the open ocean, far from the comforting firmness\nof land.  You feel rather uneasy since you are at the mercy of the elements\nhere - your craft is not an ocean-going vessel and the weather out here can be\nextremely violent at times.\n",
+         "altitude" : null
+      },
+      "surface1@loligo" : {
+         "exits" : {
+            "w" : "Waste1@island",
+            "e" : "surface2"
+         },
+         "flags" : [
+            "Outdoors",
+            "NoMobiles"
+         ],
+         "zone" : "loligo",
+         "title" : "Lava Shore",
+         "id" : "surface1",
+         "description" : "\n    You are standing on the shore of a vast ocean.  Beneath your feet the\nground is merely a vast expanse of congealed lava which extends right up to the\nwater's edge.  To the west the wasteland continues for some way before meeting\nthe foot of the volcano which created this bleak landscape.\n",
+         "altitude" : null
+      }
+   },
+   "mob" : {
+      "architeuthis@loligo" : {
+         "damage" : "30",
+         "location" : "devo5@evolution",
+         "speed" : "0",
+         "aggression" : "0",
+         "armor" : "0",
+         "name" : "Architeuthis",
+         "description" : "A pale glint of bioluminescent bacteria illuminates a vast shadowy shape.",
+         "strength" : "2300"
+      }
+   }
+}
