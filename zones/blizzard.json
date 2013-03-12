@@ -708,16 +708,16 @@
       },
       "key@blizzard" : {
          "location" : "IN_ROOM:robing",
-         "]" : "A small silver key has been dropped here.",
-         "weight" : "Desc[0",
          "oflags" : [
             "Key",
             "Destroyed"
          ],
          "altname" : "silver",
          "name" : "key",
+         "size" : "1",
+         "weight" : "0",
          "bvalue" : "50",
-         "size" : "1"
+         "desc[0]" : "A small silver key has been dropped here."
       },
       "blackrobe@blizzard" : {
          "location" : "IN_ROOM:robing",
