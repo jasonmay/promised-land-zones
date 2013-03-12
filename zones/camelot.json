@@ -30,57 +30,6 @@
             "Arms"
          ]
       },
-      "kobold_club@camelot" : {
-         "damage" : "10",
-         "location" : "WIELDED_BY:kurtulmak",
-         "oflags" : [
-            "Weapon"
-         ],
-         "altname" : "kobold",
-         "name" : "kobold_club",
-         "examine" : "There is some sort of writing on it. After a struggle, you manage\nto read it. It says \"National Champions, Gnomeball, 785\".\n",
-         "size" : "12",
-         "pname" : "club",
-         "weight" : "10",
-         "bvalue" : "75",
-         "desc[0]" : "A large heavy club lies here. It looks very stout."
-      },
-      "door2@camelot" : {
-         "desc[1]" : "The flap on this tent seems to have been moved recently...",
-         "location" : "IN_ROOM:camelot35",
-         "desc[3]" : "Looks like you can open a flap here on the tent.",
-         "oflags" : [
-            "Openable",
-            "NoGet",
-            "Lockable",
-            "UNLOCATABLE"
-         ],
-         "altname" : "flap",
-         "name" : "door2",
-         "desc[2]" : "The flap on the tent looked locked up.",
-         "linked" : "door3",
-         "state" : "3",
-         "pname" : "tent",
-         "maxstate" : "3",
-         "desc[0]" : "The flap on the tent has been opened."
-      },
-      "arthurs_crown@camelot" : {
-         "location" : "IN_CONTAINER:arthurs_throne",
-         "oflags" : [
-            "Wearable"
-         ],
-         "altname" : "arthurs",
-         "name" : "arthurs_crown",
-         "examine" : "This is King Arthurs crown! It sure is valuable, but don't you think\nhe may want it?\n",
-         "size" : "15",
-         "weight" : "10",
-         "pname" : "crown",
-         "bvalue" : "500",
-         "desc[0]" : "The Crown of Britany is here!",
-         "aflags" : [
-            "Head"
-         ]
-      },
       "displacement_cloak@camelot" : {
          "location" : "IN_ROOM:camelot25",
          "armor" : "67",
@@ -103,37 +52,6 @@
             "Back"
          ]
       },
-      "footlocker_chest@camelot" : {
-         "desc[1]" : "A large, heavy, metal bound chest is here. The chest in closed.",
-         "location" : "IN_ROOM:camelot303",
-         "oflags" : [
-            "Container",
-            "Openable",
-            "NoGet"
-         ],
-         "altname" : "footlocker",
-         "name" : "Footlocker_Chest",
-         "examine" : "It looks heavy, solid, and well locked. I don't think Merlin would\nappreciate anybody poking their nose in it without permission.\n",
-         "desc[2]" : "A large, heavy, metal bound chest is here. The chest is locked.",
-         "state" : "2",
-         "size" : "100",
-         "pname" : "chest",
-         "weight" : "10",
-         "maxstate" : "2",
-         "desc[0]" : "A large, heavy, metal bound chest is here. The chest is open."
-      },
-      "meat@camelot" : {
-         "location" : "IN_ROOM:camelot114",
-         "weight" : "8",
-         "oflags" : [
-            "Food"
-         ],
-         "name" : "meat",
-         "examine" : "Food cooked by Kobolds is usually best eaten without too close an\nexamination...\n",
-         "bvalue" : "10",
-         "desc[0]" : "The roast looks overcooked, but edible.",
-         "size" : "8"
-      },
       "warning_voice_2@camelot" : {
          "location" : "IN_ROOM:camelot23",
          "weight" : "10",
@@ -144,21 +62,6 @@
          "name" : "warning_voice_2",
          "desc[0]" : "A voice says 'OK, don't say you weren't warned....'",
          "size" : "10"
-      },
-      "door7@camelot" : {
-         "location" : "IN_ROOM:camelot307",
-         "oflags" : [
-            "Lockable",
-            "Openable",
-            "NoGet",
-            "UNLOCATABLE"
-         ],
-         "name" : "door7",
-         "linked" : "door6",
-         "state" : "3",
-         "pname" : "hatch",
-         "maxstate" : "3",
-         "desc[0]" : "The hatch is open."
       },
       "door6@camelot" : {
          "desc[1]" : "A closed hatch is here with light seeping through.",
@@ -196,57 +99,6 @@
          "maxstate" : "1",
          "desc[0]" : "The is an open panel in the base of the throne."
       },
-      "map_camelot@camelot" : {
-         "location" : "IN_ROOM:camelot284",
-         "oflags" : [
-            "NoGet"
-         ],
-         "altname" : "map",
-         "name" : "Map_Camelot",
-         "examine" : "This zone is currently under expansion, and as such, the map must\nbe protected from the prying eyes of interlopers.\n-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n              Oh dear, you seem to be slightly dead...\n-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\nConnection closed by remote machine.\n%\nOK, so you aren't dead. But you can't read my map either.\n",
-         "size" : "10",
-         "pname" : "camelot",
-         "weight" : "10",
-         "desc[0]" : "The map of the zone CAMELOT is pinned to the table."
-      },
-      "bushes@camelot" : {
-         "location" : "IN_ROOM:camelot231",
-         "oflags" : [
-            "noget",
-            "lightable"
-         ],
-         "altname" : "tree",
-         "name" : "bushes",
-         "examine" : "They are green but seem quite dry.",
-         "linked" : "busheswest",
-         "state" : "1",
-         "maxstate" : "1",
-         "desc[0]" : "Some bushes have been burned away."
-      },
-      "corpse@camelot" : {
-         "location" : "IN_ROOM:camelot139",
-         "weight" : "10",
-         "oflags" : [
-            "NoGet"
-         ],
-         "name" : "corpse",
-         "examine" : "Your scavenger instincts overcoming your revultion, you search the\nbody. Other then a few maggots, you find nothing of interest hidden\non it.\nNow go wash your hands.\n",
-         "desc[0]" : "There is a half rotten corpse lying here.",
-         "size" : "10"
-      },
-      "warning_sign3@camelot" : {
-         "location" : "IN_ROOM:camelot291",
-         "oflags" : [
-            "NoGet"
-         ],
-         "altname" : "warning",
-         "name" : "warning_sign3",
-         "examine" : "\n+--------------------------------------+\n|             WARNING!!!               |\n|  In case one warning wasn't enough   |\n|  let me say it again.                |\n|  The rooms beyond this point are     |\n|  filled with captured demons and     |\n|  devils. They are very strong, very  |\n|  mean, and very anxious to escape.   |\n|  If you choose to travel beyond this |\n|  point, I suggest you call all your  |\n|  friends and ask them to help.       |\n|        You will need it...           |\n|               Merlin                 |\n+--------------------------------------+\n",
-         "size" : "10",
-         "pname" : "sign",
-         "weight" : "10",
-         "desc[0]" : "There is a large sign on the wall, with a flashing red light on it."
-      },
       "volume@camelot" : {
          "location" : "IN_ROOM:camelot257",
          "oflags" : [
@@ -257,19 +109,6 @@
          "examine" : "\nIcestorm is the fiercest of the attack spells.  It requires 7\nmana to cast, but does 28 damage.  There is an iceball,\ncunningly mislabled as a snow ball, which enhances its effect.\nConsider carefully, however, for it does not become certain\nunless you have studied all 20 of the volumes of the Book of\nKnowledge.",
          "desc[0]" : "&+YVolume XX&N of the &+WBook of Knowledge&N lies here.",
          "size" : "20"
-      },
-      "red_rose@camelot" : {
-         "location" : "IN_ROOM:camelot280",
-         "oflags" : [
-            "NoGet"
-         ],
-         "altname" : "red",
-         "name" : "red_rose",
-         "examine" : "Under the rose is a card which reads:\nI brought this rose because it's beauty reminded me of you. But in my\nheart I know that even the beauty of the rose pales next to you.\n",
-         "size" : "10",
-         "pname" : "rose",
-         "weight" : "10",
-         "desc[0]" : "A single perfectly formed red rose has been placed here."
       },
       "scabbard@camelot" : {
          "location" : "WORN_BY:pellinore",
@@ -319,17 +158,6 @@
             "Head"
          ]
       },
-      "key@camelot" : {
-         "location" : "IN_ROOM:camelot303",
-         "weight" : "5",
-         "oflags" : [
-            "key"
-         ],
-         "name" : "key",
-         "bvalue" : "10",
-         "desc[0]" : "A large key carved of gold lies here.",
-         "size" : "5"
-      },
       "beef@camelot" : {
          "location" : "IN_ROOM:camelot7",
          "weight" : "10",
@@ -340,20 +168,6 @@
          "bvalue" : "10",
          "desc[0]" : "A haunch of beef has been left here.",
          "size" : "10"
-      },
-      "door5@camelot" : {
-         "location" : "IN_ROOM:camelot306",
-         "oflags" : [
-            "Lockable",
-            "Openable",
-            "NoGet",
-            "UNLOCATABLE"
-         ],
-         "pname" : "door",
-         "name" : "door5",
-         "maxstate" : "3",
-         "linked" : "door4",
-         "state" : "3"
       },
       "guestbed_bed@camelot" : {
          "desc[1]" : "The bed clothes are a shambles! Somebody must have had a good time!",
@@ -386,40 +200,6 @@
          "pname" : "whip",
          "weight" : "10",
          "desc[0]" : "There is a long black leather whip here."
-      },
-      "gold_bullion@camelot" : {
-         "location" : "IN_ROOM:camelot23",
-         "altname" : "gold",
-         "name" : "gold_bullion",
-         "size" : "10",
-         "pname" : "bullion",
-         "weight" : "10",
-         "bvalue" : "500",
-         "desc[0]" : "A bar of gold bullion is just sitting there, waiting to be taken."
-      },
-      "door3@camelot" : {
-         "location" : "IN_ROOM:camelot305",
-         "oflags" : [
-            "Lockable",
-            "Openable",
-            "NoGet",
-            "UNLOCATABLE"
-         ],
-         "altname" : "flap",
-         "name" : "door3",
-         "linked" : "door2",
-         "state" : "3",
-         "pname" : "tent",
-         "maxstate" : "3"
-      },
-      "compass@camelot" : {
-         "location" : "IN_ROOM:camelot135",
-         "weight" : "5",
-         "name" : "compass",
-         "examine" : "Isn't it amazing? No matter how much you twist and turn, it always\npoints north!\n",
-         "bvalue" : "50",
-         "desc[0]" : "Look! An official Cowboy Bob Compass!",
-         "size" : "5"
       },
       "door4@camelot" : {
          "desc[1]" : "A sparkling trap door sits here closed.",
@@ -455,36 +235,6 @@
          "bvalue" : "50",
          "desc[0]" : "A dark shield, painted with Mordreds coat of arms, lies here."
       },
-      "soulstone@camelot" : {
-         "desc[1]" : "     \nA blue glittering ball is here.",
-         "location" : "CARRIED_BY:buddy",
-         "weight" : "60",
-         "oflags" : [
-            "fireballspell",
-            "missilespell",
-            "frostspell",
-            "shockspell",
-            "aidspell",
-            "damagespell",
-            "armorspell",
-            "bhandsspell",
-            "blurspell",
-            "istormspell",
-            "lit"
-         ],
-         "name" : "soulstone",
-         "examine" : "     \nYou feel incredible magic powers coming from that stone. It is a perfect\nglittering blue sphere as light as air. It has a priceless value.",
-         "size" : "60"
-      },
-      "coins_1@camelot" : {
-         "location" : "IN_CONTAINER:pack",
-         "weight" : "5",
-         "pname" : "coins",
-         "name" : "coins_1",
-         "bvalue" : "50",
-         "desc[0]" : "A few small coins have been scattered here.",
-         "size" : "5"
-      },
       "zonemap_merlin@camelot" : {
          "location" : "IN_ROOM:camelot284",
          "oflags" : [
@@ -498,20 +248,17 @@
          "weight" : "10",
          "desc[0]" : "The map of the zone MERLIN is hung on the wall."
       },
-      "rope_rope@camelot" : {
-         "location" : "IN_CONTAINER:Footlocker_Chest",
+      "sofa_couch@camelot" : {
+         "location" : "IN_ROOM:camelot302",
          "oflags" : [
-            "Wearable"
+            "NoGet"
          ],
-         "altname" : "rope",
-         "name" : "rope_Rope",
-         "size" : "10",
-         "pname" : "rope",
+         "altname" : "sofa",
+         "name" : "Sofa_Couch",
+         "size" : "30",
+         "pname" : "couch",
          "weight" : "10",
-         "desc[0]" : "A coiled rope lies here.",
-         "aflags" : [
-            "Back"
-         ]
+         "desc[0]" : "There is a soft couch here, inviting you to rest a while."
       },
       "book_tome@camelot" : {
          "location" : "IN_ROOM:camelot285",
@@ -537,58 +284,6 @@
          "weight" : "10",
          "desc[0]" : "There is a large sign hanging on the wall."
       },
-      "merli@camelot" : {
-         "e" : "Sofa_Couch",
-         "n" : "s_Bed\nPName            = bed\nLocation         = IN_ROOM:camelot303\nOflags             { NoGet }\nSize             = 50\nWeight           = 10\nMaxState         = 1\nDesc[0]          = \"There is a large silk covered bed here.\"\nDesc[1]          = \"The bed is a mess! Somebody must have had a wild time in here!\"\nExamine          = \"The bed is large, and covered with silken sheets of a deep crimson.\nIt looks inviting and comfortable.\n\"\nEnd              = Merlin",
-         "location" : "IN_ROOM:camelot302",
-         "oflags" : [
-            "NoGet"
-         ],
-         "altname" : "sofa",
-         "name" : "Merli",
-         "s_bed" : "Nam",
-         "size" : "30",
-         "weight" : "10",
-         "pname" : "couch",
-         "desc[0]" : "There is a soft couch here, inviting you to rest a while."
-      },
-      "armor_platemail@camelot" : {
-         "location" : "WORN_BY:launcelot",
-         "armor" : "54",
-         "oflags" : [
-            "Container",
-            "Wearable",
-            "Armor"
-         ],
-         "altname" : "armor",
-         "name" : "armor_platemail",
-         "examine" : "You've never seen such bright armor. Somebody must have spent weeks\npolishing it. It's a shame you're going to get it all dented and\nscratched.\n",
-         "size" : "50",
-         "weight" : "10",
-         "pname" : "platemail",
-         "bvalue" : "500",
-         "desc[0]" : "A shiny set of platemail armor lies here, waiting to be worn.",
-         "aflags" : [
-            "Chest",
-            "Back",
-            "Arms",
-            "Legs",
-            "Hands"
-         ]
-      },
-      "mirror_portal@camelot" : {
-         "location" : "IN_ROOM:camelot302",
-         "oflags" : [
-            "NoGet"
-         ],
-         "altname" : "mirror",
-         "name" : "Mirror_Portal",
-         "examine" : "As you look into the mirror, your image pales, and you see the Temple\nof Paradise reflected instead. It looks so real, you think you could\nwalk right into it.\n",
-         "size" : "20",
-         "pname" : "portal",
-         "weight" : "10",
-         "desc[0]" : "There is a large shimmering mirror on the east wall."
-      },
       "holy_grail@camelot" : {
          "location" : "CARRIED_BY:galahad",
          "altname" : "holy",
@@ -599,17 +294,6 @@
          "weight" : "10",
          "bvalue" : "10",
          "desc[0]" : "You've found the Holy Grail! Now if only you can give it to Arthur!"
-      },
-      "bread@camelot" : {
-         "location" : "IN_ROOM:camelot114",
-         "weight" : "8",
-         "oflags" : [
-            "Food"
-         ],
-         "name" : "bread",
-         "bvalue" : "10",
-         "desc[0]" : "There is a loaf of bread here.",
-         "size" : "8"
       },
       "sword_supersword@camelot" : {
          "location" : "IN_ROOM:camelot286",
@@ -623,22 +307,6 @@
          "pname" : "SuperSword",
          "weight" : "10",
          "desc[0]" : "Merlin's new SuperSword is sitting here."
-      },
-      "null_pearls@camelot" : {
-         "location" : "IN_CONTAINER:Footlocker_Chest",
-         "oflags" : [
-            "Wearable"
-         ],
-         "altname" : "null",
-         "name" : "null_Pearls",
-         "examine" : "These are Raptures pearls. I don't think it would be wise to take them...\n",
-         "size" : "10",
-         "pname" : "pearls",
-         "weight" : "10",
-         "desc[0]" : "A perfect string of pearls rests here.",
-         "aflags" : [
-            "Neck"
-         ]
       },
       "coins@camelot" : {
          "location" : "IN_ROOM:camelot21",
@@ -709,18 +377,6 @@
          "bvalue" : "15",
          "desc[0]" : "There is a clean chamber pot here."
       },
-      "recliner_chair@camelot" : {
-         "location" : "IN_ROOM:camelot302",
-         "oflags" : [
-            "NoGet"
-         ],
-         "altname" : "recliner",
-         "name" : "Recliner_Chair",
-         "size" : "10",
-         "pname" : "chair",
-         "weight" : "10",
-         "desc[0]" : "An overstuffed chair in the corner looks very inviting."
-      },
       "pack@camelot" : {
          "location" : "IN_ROOM:camelot143",
          "oflags" : [
@@ -747,18 +403,6 @@
          "name" : "warning_voice_1",
          "desc[0]" : "A voice says 'This is not a good idea....'",
          "size" : "10"
-      },
-      "cheese@camelot" : {
-         "location" : "IN_ROOM:camelot114",
-         "weight" : "8",
-         "oflags" : [
-            "Food"
-         ],
-         "name" : "cheese",
-         "examine" : "What do you expect? Some sort of divine revelation carved in the\ncheese?\n",
-         "bvalue" : "10",
-         "desc[0]" : "The odor of Limburger cheese fills the air.",
-         "size" : "8"
       },
       "warning_sign2@camelot" : {
          "location" : "IN_ROOM:camelot287",
@@ -798,24 +442,6 @@
          "weight" : "10",
          "bvalue" : "200",
          "desc[0]" : "A large heavy hammer has been left here."
-      },
-      "armor_armorall@camelot" : {
-         "location" : "IN_ROOM:camelot286",
-         "oflags" : [
-            "Lightable",
-            "Wearable",
-            "NoGet"
-         ],
-         "altname" : "armor",
-         "name" : "Armor_ArmorAll",
-         "examine" : "It fits everybody, never gets dirty or needs polished, and nothing\nany mortal ever swung has a chance of hurting you in it. Now if\nonly you could pick it up...\n",
-         "size" : "10",
-         "pname" : "ArmorAll",
-         "weight" : "10",
-         "desc[0]" : "Merlin's new mega-armor is here.",
-         "aflags" : [
-            "Chest"
-         ]
       },
       "death_voice@camelot" : {
          "location" : "IN_ROOM:camelot24",
@@ -859,6 +485,402 @@
          "desc[0]" : "A sack of gems has been carelessly dropped here.",
          "size" : "10"
       },
+      "merlins_bed@camelot" : {
+         "desc[1]" : "The bed is a mess! Somebody must have had a wild time in here!",
+         "location" : "IN_ROOM:camelot303",
+         "oflags" : [
+            "NoGet"
+         ],
+         "name" : "Merlins_Bed",
+         "examine" : "The bed is large, and covered with silken sheets of a deep crimson.\nIt looks inviting and comfortable.\n",
+         "size" : "50",
+         "pname" : "bed",
+         "weight" : "10",
+         "maxstate" : "1",
+         "desc[0]" : "There is a large silk covered bed here."
+      },
+      "door2@camelot" : {
+         "desc[1]" : "The flap on this tent seems to have been moved recently...",
+         "location" : "IN_ROOM:camelot35",
+         "desc[3]" : "Looks like you can open a flap here on the tent.",
+         "oflags" : [
+            "Openable",
+            "NoGet",
+            "Lockable",
+            "UNLOCATABLE"
+         ],
+         "altname" : "flap",
+         "name" : "door2",
+         "desc[2]" : "The flap on the tent looked locked up.",
+         "linked" : "door3",
+         "state" : "3",
+         "pname" : "tent",
+         "maxstate" : "3",
+         "desc[0]" : "The flap on the tent has been opened."
+      },
+      "kobold_club@camelot" : {
+         "damage" : "10",
+         "location" : "WIELDED_BY:kurtulmak",
+         "oflags" : [
+            "Weapon"
+         ],
+         "altname" : "kobold",
+         "name" : "kobold_club",
+         "examine" : "There is some sort of writing on it. After a struggle, you manage\nto read it. It says \"National Champions, Gnomeball, 785\".\n",
+         "size" : "12",
+         "pname" : "club",
+         "weight" : "10",
+         "bvalue" : "75",
+         "desc[0]" : "A large heavy club lies here. It looks very stout."
+      },
+      "arthurs_crown@camelot" : {
+         "location" : "IN_CONTAINER:arthurs_throne",
+         "oflags" : [
+            "Wearable"
+         ],
+         "altname" : "arthurs",
+         "name" : "arthurs_crown",
+         "examine" : "This is King Arthurs crown! It sure is valuable, but don't you think\nhe may want it?\n",
+         "size" : "15",
+         "weight" : "10",
+         "pname" : "crown",
+         "bvalue" : "500",
+         "desc[0]" : "The Crown of Britany is here!",
+         "aflags" : [
+            "Head"
+         ]
+      },
+      "footlocker_chest@camelot" : {
+         "desc[1]" : "A large, heavy, metal bound chest is here. The chest in closed.",
+         "location" : "IN_ROOM:camelot303",
+         "oflags" : [
+            "Container",
+            "Openable",
+            "NoGet"
+         ],
+         "altname" : "footlocker",
+         "name" : "Footlocker_Chest",
+         "examine" : "It looks heavy, solid, and well locked. I don't think Merlin would\nappreciate anybody poking their nose in it without permission.\n",
+         "desc[2]" : "A large, heavy, metal bound chest is here. The chest is locked.",
+         "state" : "2",
+         "size" : "100",
+         "pname" : "chest",
+         "weight" : "10",
+         "maxstate" : "2",
+         "desc[0]" : "A large, heavy, metal bound chest is here. The chest is open."
+      },
+      "meat@camelot" : {
+         "location" : "IN_ROOM:camelot114",
+         "weight" : "8",
+         "oflags" : [
+            "Food"
+         ],
+         "name" : "meat",
+         "examine" : "Food cooked by Kobolds is usually best eaten without too close an\nexamination...\n",
+         "bvalue" : "10",
+         "desc[0]" : "The roast looks overcooked, but edible.",
+         "size" : "8"
+      },
+      "door7@camelot" : {
+         "location" : "IN_ROOM:camelot307",
+         "oflags" : [
+            "Lockable",
+            "Openable",
+            "NoGet",
+            "UNLOCATABLE"
+         ],
+         "name" : "door7",
+         "linked" : "door6",
+         "state" : "3",
+         "pname" : "hatch",
+         "maxstate" : "3",
+         "desc[0]" : "The hatch is open."
+      },
+      "bushes@camelot" : {
+         "location" : "IN_ROOM:camelot231",
+         "oflags" : [
+            "noget",
+            "lightable"
+         ],
+         "altname" : "tree",
+         "name" : "bushes",
+         "examine" : "They are green but seem quite dry.",
+         "linked" : "busheswest",
+         "state" : "1",
+         "maxstate" : "1",
+         "desc[0]" : "Some bushes have been burned away."
+      },
+      "map_camelot@camelot" : {
+         "location" : "IN_ROOM:camelot284",
+         "oflags" : [
+            "NoGet"
+         ],
+         "altname" : "map",
+         "name" : "Map_Camelot",
+         "examine" : "This zone is currently under expansion, and as such, the map must\nbe protected from the prying eyes of interlopers.\n-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n              Oh dear, you seem to be slightly dead...\n-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\nConnection closed by remote machine.\n%\nOK, so you aren't dead. But you can't read my map either.\n",
+         "size" : "10",
+         "pname" : "camelot",
+         "weight" : "10",
+         "desc[0]" : "The map of the zone CAMELOT is pinned to the table."
+      },
+      "corpse@camelot" : {
+         "location" : "IN_ROOM:camelot139",
+         "weight" : "10",
+         "oflags" : [
+            "NoGet"
+         ],
+         "name" : "corpse",
+         "examine" : "Your scavenger instincts overcoming your revultion, you search the\nbody. Other then a few maggots, you find nothing of interest hidden\non it.\nNow go wash your hands.\n",
+         "desc[0]" : "There is a half rotten corpse lying here.",
+         "size" : "10"
+      },
+      "warning_sign3@camelot" : {
+         "location" : "IN_ROOM:camelot291",
+         "oflags" : [
+            "NoGet"
+         ],
+         "altname" : "warning",
+         "name" : "warning_sign3",
+         "examine" : "\n+--------------------------------------+\n|             WARNING!!!               |\n|  In case one warning wasn't enough   |\n|  let me say it again.                |\n|  The rooms beyond this point are     |\n|  filled with captured demons and     |\n|  devils. They are very strong, very  |\n|  mean, and very anxious to escape.   |\n|  If you choose to travel beyond this |\n|  point, I suggest you call all your  |\n|  friends and ask them to help.       |\n|        You will need it...           |\n|               Merlin                 |\n+--------------------------------------+\n",
+         "size" : "10",
+         "pname" : "sign",
+         "weight" : "10",
+         "desc[0]" : "There is a large sign on the wall, with a flashing red light on it."
+      },
+      "red_rose@camelot" : {
+         "location" : "IN_ROOM:camelot280",
+         "oflags" : [
+            "NoGet"
+         ],
+         "altname" : "red",
+         "name" : "red_rose",
+         "examine" : "Under the rose is a card which reads:\nI brought this rose because it's beauty reminded me of you. But in my\nheart I know that even the beauty of the rose pales next to you.\n",
+         "size" : "10",
+         "pname" : "rose",
+         "weight" : "10",
+         "desc[0]" : "A single perfectly formed red rose has been placed here."
+      },
+      "key@camelot" : {
+         "location" : "IN_ROOM:camelot303",
+         "weight" : "5",
+         "oflags" : [
+            "key"
+         ],
+         "name" : "key",
+         "bvalue" : "10",
+         "desc[0]" : "A large key carved of gold lies here.",
+         "size" : "5"
+      },
+      "door5@camelot" : {
+         "location" : "IN_ROOM:camelot306",
+         "oflags" : [
+            "Lockable",
+            "Openable",
+            "NoGet",
+            "UNLOCATABLE"
+         ],
+         "pname" : "door",
+         "name" : "door5",
+         "maxstate" : "3",
+         "linked" : "door4",
+         "state" : "3"
+      },
+      "door3@camelot" : {
+         "location" : "IN_ROOM:camelot305",
+         "oflags" : [
+            "Lockable",
+            "Openable",
+            "NoGet",
+            "UNLOCATABLE"
+         ],
+         "altname" : "flap",
+         "name" : "door3",
+         "linked" : "door2",
+         "state" : "3",
+         "pname" : "tent",
+         "maxstate" : "3"
+      },
+      "gold_bullion@camelot" : {
+         "location" : "IN_ROOM:camelot23",
+         "altname" : "gold",
+         "name" : "gold_bullion",
+         "size" : "10",
+         "pname" : "bullion",
+         "weight" : "10",
+         "bvalue" : "500",
+         "desc[0]" : "A bar of gold bullion is just sitting there, waiting to be taken."
+      },
+      "compass@camelot" : {
+         "location" : "IN_ROOM:camelot135",
+         "weight" : "5",
+         "name" : "compass",
+         "examine" : "Isn't it amazing? No matter how much you twist and turn, it always\npoints north!\n",
+         "bvalue" : "50",
+         "desc[0]" : "Look! An official Cowboy Bob Compass!",
+         "size" : "5"
+      },
+      "soulstone@camelot" : {
+         "desc[1]" : "     \nA blue glittering ball is here.",
+         "location" : "CARRIED_BY:buddy",
+         "weight" : "60",
+         "oflags" : [
+            "fireballspell",
+            "missilespell",
+            "frostspell",
+            "shockspell",
+            "aidspell",
+            "damagespell",
+            "armorspell",
+            "bhandsspell",
+            "blurspell",
+            "istormspell",
+            "lit"
+         ],
+         "name" : "soulstone",
+         "examine" : "     \nYou feel incredible magic powers coming from that stone. It is a perfect\nglittering blue sphere as light as air. It has a priceless value.",
+         "size" : "60"
+      },
+      "coins_1@camelot" : {
+         "location" : "IN_CONTAINER:pack",
+         "weight" : "5",
+         "pname" : "coins",
+         "name" : "coins_1",
+         "bvalue" : "50",
+         "desc[0]" : "A few small coins have been scattered here.",
+         "size" : "5"
+      },
+      "rope_rope@camelot" : {
+         "location" : "IN_CONTAINER:Footlocker_Chest",
+         "oflags" : [
+            "Wearable"
+         ],
+         "altname" : "rope",
+         "name" : "rope_Rope",
+         "size" : "10",
+         "pname" : "rope",
+         "weight" : "10",
+         "desc[0]" : "A coiled rope lies here.",
+         "aflags" : [
+            "Back"
+         ]
+      },
+      "armor_platemail@camelot" : {
+         "location" : "WORN_BY:launcelot",
+         "armor" : "54",
+         "oflags" : [
+            "Container",
+            "Wearable",
+            "Armor"
+         ],
+         "altname" : "armor",
+         "name" : "armor_platemail",
+         "examine" : "You've never seen such bright armor. Somebody must have spent weeks\npolishing it. It's a shame you're going to get it all dented and\nscratched.\n",
+         "size" : "50",
+         "weight" : "10",
+         "pname" : "platemail",
+         "bvalue" : "500",
+         "desc[0]" : "A shiny set of platemail armor lies here, waiting to be worn.",
+         "aflags" : [
+            "Chest",
+            "Back",
+            "Arms",
+            "Legs",
+            "Hands"
+         ]
+      },
+      "mirror_portal@camelot" : {
+         "location" : "IN_ROOM:camelot302",
+         "oflags" : [
+            "NoGet"
+         ],
+         "altname" : "mirror",
+         "name" : "Mirror_Portal",
+         "examine" : "As you look into the mirror, your image pales, and you see the Temple\nof Paradise reflected instead. It looks so real, you think you could\nwalk right into it.\n",
+         "size" : "20",
+         "pname" : "portal",
+         "weight" : "10",
+         "desc[0]" : "There is a large shimmering mirror on the east wall."
+      },
+      "bread@camelot" : {
+         "location" : "IN_ROOM:camelot114",
+         "weight" : "8",
+         "oflags" : [
+            "Food"
+         ],
+         "name" : "bread",
+         "bvalue" : "10",
+         "desc[0]" : "There is a loaf of bread here.",
+         "size" : "8"
+      },
+      "null_pearls@camelot" : {
+         "location" : "IN_CONTAINER:Footlocker_Chest",
+         "oflags" : [
+            "Wearable"
+         ],
+         "altname" : "null",
+         "name" : "null_Pearls",
+         "examine" : "These are Raptures pearls. I don't think it would be wise to take them...\n",
+         "size" : "10",
+         "pname" : "pearls",
+         "weight" : "10",
+         "desc[0]" : "A perfect string of pearls rests here.",
+         "aflags" : [
+            "Neck"
+         ]
+      },
+      "recliner_chair@camelot" : {
+         "location" : "IN_ROOM:camelot302",
+         "oflags" : [
+            "NoGet"
+         ],
+         "altname" : "recliner",
+         "name" : "Recliner_Chair",
+         "size" : "10",
+         "pname" : "chair",
+         "weight" : "10",
+         "desc[0]" : "An overstuffed chair in the corner looks very inviting."
+      },
+      "cheese@camelot" : {
+         "location" : "IN_ROOM:camelot114",
+         "weight" : "8",
+         "oflags" : [
+            "Food"
+         ],
+         "name" : "cheese",
+         "examine" : "What do you expect? Some sort of divine revelation carved in the\ncheese?\n",
+         "bvalue" : "10",
+         "desc[0]" : "The odor of Limburger cheese fills the air.",
+         "size" : "8"
+      },
+      "armor_armorall@camelot" : {
+         "location" : "IN_ROOM:camelot286",
+         "oflags" : [
+            "Lightable",
+            "Wearable",
+            "NoGet"
+         ],
+         "altname" : "armor",
+         "name" : "Armor_ArmorAll",
+         "examine" : "It fits everybody, never gets dirty or needs polished, and nothing\nany mortal ever swung has a chance of hurting you in it. Now if\nonly you could pick it up...\n",
+         "size" : "10",
+         "pname" : "ArmorAll",
+         "weight" : "10",
+         "desc[0]" : "Merlin's new mega-armor is here.",
+         "aflags" : [
+            "Chest"
+         ]
+      },
+      "sign_poster@camelot" : {
+         "location" : "IN_ROOM:camelot78",
+         "oflags" : [
+            "NoGet"
+         ],
+         "altname" : "sign",
+         "pname" : "poster",
+         "name" : "sign_poster",
+         "examine" : "+-------------------------------------+\n|               WANTED                |\n| Brave adventurers needed. Must be   |\n| willing to risk lives in an attempt |\n| to clear the western mountains of   |\n| the band of Kobolds which have been |\n| raiding our village lately.         |\n| Success will entitle you to keep    |\n| any and all treasures found. The    |\n| town council has waived all taxes   |\n| on goods confiscated during a raid  |\n| on the Kobold stronghold.           |\n| Interested parties should proceed   |\n| at their leisure.                   |\n|      Thank You for your support,    |\n|        Mayor Numma Juanbos          |\n+-------------------------------------+\n",
+         "desc[0]" : "There is a large sign nailed to the wall."
+      },
       "bag_bookbag@camelot" : {
          "location" : "IN_ROOM:camelot257",
          "oflags" : [
@@ -876,17 +898,6 @@
          "aflags" : [
             "Back"
          ]
-      },
-      "sign_poster@camelot" : {
-         "location" : "IN_ROOM:camelot78",
-         "oflags" : [
-            "NoGet"
-         ],
-         "altname" : "sign",
-         "pname" : "poster",
-         "name" : "sign_poster",
-         "examine" : "+-------------------------------------+\n|               WANTED                |\n| Brave adventurers needed. Must be   |\n| willing to risk lives in an attempt |\n| to clear the western mountains of   |\n| the band of Kobolds which have been |\n| raiding our village lately.         |\n| Success will entitle you to keep    |\n| any and all treasures found. The    |\n| town council has waived all taxes   |\n| on goods confiscated during a raid  |\n| on the Kobold stronghold.           |\n| Interested parties should proceed   |\n| at their leisure.                   |\n|      Thank You for your support,    |\n|        Mayor Numma Juanbos          |\n+-------------------------------------+\n",
-         "desc[0]" : "There is a large sign nailed to the wall."
       },
       "tickler_feather@camelot" : {
          "location" : "IN_CONTAINER:Footlocker_Chest",
