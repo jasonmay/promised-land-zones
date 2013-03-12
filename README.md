@@ -12,3 +12,8 @@ What is Promised Land?
 ----------------------
 
 Promised Land (PL) is one of my favorite games growing up. It has been out of service for several years now, but I like to use its data and mechanics for nostalgic purposes.
+
+It's not perfect!
+-----------------
+
+Yeah, my parser is probably not air-tight. And the legacy zone stuff isn't in the best format, so if you spot something, send a pull request or even just give me a heads-up. Thanks!
