@@ -1,0 +1,509 @@
+
+
+
+
+%mobiles
+
+Name             = ratcatcher
+PName            = "Ratcatcher"
+Location         = opera17
+Strength         = 140
+Damage           = 10
+Armor            = 0
+Aggression       = 17
+Speed            = 2
+Description      = 'The Ratcatcher says "I am the Ratcatcher, let me pass with my rats."'
+End              = ratcatcher
+
+Name             = carlotta
+PName            = "Carlotta"
+Sflags             { Female }
+Location         = opera10
+Strength         = 100
+Damage           = 10
+Armor            = 0
+Aggression       = 18
+Speed            = 2
+Description      = 'La Carlotta says "Out of my way, churl!"'
+End              = carlotta
+
+Name             = andre
+PName            = "Andre"
+Location         = opera9
+Strength         = 90
+Damage           = 10
+Armor            = 0
+Aggression       = 19
+Speed            = 2
+Description      = "Mr. Andre, in his pressed tuxedo, stands here flitting nervously."
+End              = andre
+
+Name             = joseph
+PName            = "Joseph"
+Location         = opera25
+Strength         = 130
+Damage           = 10
+Armor            = 0
+Aggression       = 10
+Speed            = 2
+Description      = "Joseph, the scene-shifter, stands here shifting the scene."
+End              = joseph
+
+Name             = workman
+PName            = "Workman"
+Location         = limbo@limbo
+Strength         = 140
+Damage           = 10
+Armor            = 0
+Aggression       = 15
+Speed            = 0
+Description      = 'A workman looks at you and says, "Hey, get outta here."'
+End              = workman
+
+%objects
+
+Name             = mirror
+Location         = IN_ROOM:opera12
+Oflags             { NoGet Pushtoggle }
+Linked           = hole
+State            = 1
+MaxState         = 1
+Desc[0]          = "A large mirror on the north wall has been moved to reveal a secret passage
+leading north."
+Desc[1]          = "There is a large mirror against the north wall."
+Examine          = "You see a reflection of yourself.  You cower in fear.
+"
+End              = mirror
+
+Name             = hole
+Location         = IN_ROOM:opera13
+Oflags             { NoGet }
+Linked           = mirror
+MaxState         = 1
+State            = 1
+Desc[0]          = "A secret passage leads south."
+Examine          = "It's a hole.
+"
+End              = hole
+
+Name             = stone
+Location         = IN_ROOM:opera15
+Oflags             { NoGet }
+Desc[0]          = "A stone in the doorway does not appear to be attached the way the others are."
+Examine          = "It turns out to be fairly securely imbedded in the floor.
+"
+End              = stone
+
+Name             = rope
+Location         = IN_ROOM:opera25
+Oflags             { NoGet }
+Linked           = chandelier
+MaxState         = 1
+State            = 1
+Desc[0]          = "A frayed rope hangs here."
+Desc[1]          = "A tightly streched rope supports the chandelier."
+Examine          = "It looks tattered and old.
+"
+End              = rope
+
+Name             = chandelier
+Location         = IN_ROOM:opera25
+Oflags             { NoGet }
+Linked           = rope
+MaxState         = 1
+State            = 1
+Desc[1]          = "You see the chandelier hanging from the ceiling below your feet."
+End              = chandelier
+
+Name             = chandelier_1
+PName            = chandelier
+Location         = IN_ROOM:opera9
+Oflags             { NoGet }
+MaxState         = 1
+State            = 1
+Desc[0]          = "A shattered chandelier lies here."
+Desc[1]          = "You see a chandelier hanging above you."
+End              = chandelier_1
+
+Name             = boat
+Location         = IN_ROOM:opera9
+Oflags  { Boat }
+BValue           = 20
+Size             = 100
+Weight           = 10
+Desc[0]          = "A small rowing boat has been left here."
+Examine          = 'It has the words "Property of the Opera House" stamped on it.
+'
+End              = boat
+
+Name             = music_book
+PName            = book
+AltName          = music
+Location         = IN_ROOM:opera35
+BValue           = 400
+Size             = 5
+Weight           = 5
+Desc[0]          = "A book of music lies here."
+Examine          = 'It is titled "Don Juan Triumphant."
+'
+End              = music_book
+
+Name             = box
+Location         = IN_ROOM:opera35
+Oflags             { Container }
+BValue           = 300
+Size             = 40
+Weight           = 10
+Desc[0]          = "A paper mache music box in the shape of a barrel organ sits here."
+End              = box
+
+Name             = box_ivory
+PName            = ivory
+AltName          = box
+Location         = IN_ROOM:opera35
+Oflags             { Container Openable NoGet }
+MaxState         = 1
+State            = 1
+Desc[0]          = "The white ivory box is open."
+Desc[1]          = "A white ivory box sits on the mantle."
+End              = box_ivory
+
+Name             = box_ebony
+PName            = ebony
+AltName          = box
+Location         = IN_ROOM:opera35
+Oflags             { Container Openable NoGet }
+MaxState         = 1
+State            = 1
+Desc[0]          = "The black ebony box is open."
+Desc[1]          = "An black ebony box sits on the mantle."
+End              = box_ebony
+
+Name             = portcullis
+Location         = IN_ROOM:opera34
+Oflags             { NoGet }
+Linked           = portcullis_1
+State		 = 0
+MaxState         = 1
+Desc[0]          = "The portcullis is raised."
+Desc[1]          = "The heavy iron portcullis bars the way north."
+Examine          = "You find yourself examining a hard iron portcullis, which you have absolutely
+no chance of lifting or breaking through!
+"
+End              = portcullis
+
+Name             = portcullis_1
+PName            = portcullis
+Location         = IN_ROOM:opera35
+Oflags             { NoGet }
+Linked           = portcullis
+State		 = 0
+MaxState         = 1
+Desc[0]          = "A raised portcullis allows you to go south."
+Desc[1]          = "A heavy iron portcullis bars the way south."
+Examine          = "You find yourself examining a hard iron portcullis, which you have no chance in
+of lifting or breaking through!
+"
+End              = portcullis_1
+
+Name             = scorpion
+Location         = IN_CONTAINER:box_ebony
+BValue           = 500
+Size             = 20
+Weight           = 10
+Desc[0]          = "A beautifully crafted scorpion sits in the case."
+End              = scorpion
+
+Name             = crossbow
+Location         = IN_ROOM:opera10
+Oflags             { Weapon }
+BValue           = 75
+Damage           = 5
+Size             = 12
+Weight           = 10
+Desc[0]          = "A heavy crossbow is lying here."
+Examine          = "It is apparently out of arrows."
+End              = crossbow
+
+Name             = grasshopper
+Location         = IN_CONTAINER:box_ivory
+Oflags             { GetFlips }
+MaxState         = 1
+State            = 1
+Desc[0]          = "A cunningly crafted grasshopper lies on the ground here."
+Desc[1]          = "A cunningly crafted grasshopper is inside the box."
+Examine          = "It seems to be held down by a pin.
+"
+End              = grasshopper
+
+Name             = note
+Location         = CARRIED_BY:andre
+BValue           = 50
+Size             = 1
+Weight           = 1
+Desc[0]          = "A note lies here."
+Examine          = "The note reads:
+	Dear Mr. Manager:
+		I am sorry to have to trouble you at a time when you must
+	be so very busy, renewing important engagements, signing fresh ones
+	and generally displaying your excellent taste.  I know what you
+	have done for Carlotta and for a few others whose admirable
+	qualities of talent or genius you have suspected.  Of course when I
+	use these words, I do not mean to apply them to La Carlotta, who
+	sings like a squirt and who ought never to have been allowed to
+	leave the Cafe Jacquine.  And I am not speaking of Christine Daae
+	either, though her genius is certain, whereas your jealousy prevents
+	her from creating any important part.  All the same I should like
+	to take advantage of the fact that you have not yet turned her out
+	of doors by hearing her this evening.  I will watch the performance
+	from my normal seat in Box 5, which will be kept empty for me.
+	Should these commands be ignored, a disaster beyond your
+	imagination will occur.
+				Your Most Humble and Obedient Servant,
+				Opera Ghost
+"
+End              = note
+
+Name             = tux_tuxedo
+PName            = tuxedo
+AltName          = tux
+Location         = WORN_BY:andre
+Oflags             { Wearable }
+BValue           = 200
+Size             = 1
+Weight           = 1
+Desc[0]          = "A formal Tuxedo is here."
+Examine          = "It looks like a penguin suit!
+"
+End              = tux_tuxedo
+
+Name      = rubble
+Location  = IN_ROOM:road3e@newvillage
+Oflags      { NoGet }
+Linked    = rubble_1
+MaxState  = 1
+State     = 0
+Desc[0]   = "To the north, the doors of the Opera House stand open."
+Desc[1]   = "The entrance to the Opera House has been crushed in an explosion."
+End       = rubble
+
+Name  = rubble_1
+Pname = rubble
+Location = IN_ROOM:opera8
+Oflags { Noget }
+Linked  = rubble
+MaxState = 1
+State  = 0
+Desc[1] = "Uh oh, the opera's only exit is blocked by rubble!"
+End = rubble_1
+
+Name      = evening_gloves
+PName     = gloves
+Oflags    { Wearable Armor }
+Aflags    { Hands }
+Armor     = 8
+Location  = WORN_BY:carlotta
+BValue    = 100
+Size      = 10
+Weight    = 0
+Desc[0]   = "A pair of elegant looking gloves has been dropped here."
+Examine   = "Long and black, these elbow length gloves will enhance your 
+          appearance."
+End       = evening_gloves
+
+%locations
+
+opera8 n:opera9 s:^rubble_1 u:opera9;
+lflags { Nomobiles }
+The Grand Staircase^
+   You stand in the magnificant lobby of the opera house.  All around
+you are marble sculptures and ornate columns.  To the north lies the
+enormous marble Grand Staircase leading further into the theatre.  To
+the south lie the front doors of the opera house.
+^
+opera9 n:opera10 s:opera8;
+lflags { }
+In The Aisles^
+   Here amongst the soft, red velvet seats, you can look around at the
+ornate gold scrollwork that lines each tier of boxes, the magnificant
+frescoed ceiling, and the enormous, gas lit, crystal chandelier.  To
+the north is the stage and to the south is the lobby.
+^
+opera10 s:opera9 w:opera11;
+lflags { }
+The Stage^
+   From here you have an even better view of the ornate interior of the
+opera house.  You can also observe singers and dancers rehearsing as well
+as carpenters building the scenery for the next performance.  To the west
+is a hallway.
+^
+opera11 e:opera10 w:opera12;
+lflags { }
+The Hallway^
+   This hallway connects the stage to the main dressing rooms.  It is
+decorated with colorful posters advertising past operas.  To the east
+is the stage, to the west is a door.
+^
+opera12 n:^mirror e:opera11;
+lflags { }
+A Dressing Room^
+   You stand in a plainly furnished room in which there is a table
+and some chairs, a few makeup cases, and a vase with some flowers in it.
+^
+opera13 s:^hole d:opera14;
+lflags { }
+Secret Stairs^
+   A set of narrow stone steps leads downward into darkness.
+^
+opera14 e:opera16 u:opera13;
+lflags { }
+Bottom Of the Secret Stairs^
+   You guess you are at about the level of the third cellar underneath
+the opera house.  A flight of narrow stone steps leads upward and a
+passage leads off to the east.
+^
+opera15 e:opera19 u:opera10;
+lflags { }
+The Organ^
+   You are in the room under the stage from which all the stage
+lighting is controlled.  The mass of gas pipes and controls along
+one wall gives this room its name.  A dark passage leads east.
+^
+opera16 n:opera17 e:opera18 s:opera16 w:opera14;
+lflags { }
+The Third Cellar^
+   You are surrounded by old scenery and props from past operas.
+Passages lead off in all directions.
+^
+opera17 n:opera18 e:opera16 s:opera17 w:opera16;
+lflags { }
+The Third Cellar^
+   You are surrounded by old scenery and props from past operas.
+Passages lead off in all directions.
+^
+opera18 n:opera16 e:opera36 s:opera19 w:opera17;
+lflags { }
+The Furnaces^
+   From here you can see black sillouttes shoveling coal into the
+firey furnaces.  Passages lead off in all directions.
+^
+opera19 n:opera20 e:opera17 s:opera18 w:opera15;
+lflags { }
+The Third Cellar^
+   You are surrounded by old scenery and props from past operas.
+Passages lead off in all directions.
+^
+opera20 n:opera17 e:opera16 s:opera21 w:opera36;
+lflags { }
+The Furnaces^
+   From here you can see black sillouttes shoveling coal into the
+firey furnaces.  Passages lead off in all directions.
+^
+opera21 n:opera22 e:opera19 s:opera36 w:opera17;
+lflags { }
+The Third Cellar^
+   You are surrounded by old scenery and props from past operas.
+There is a narrow opening between a farmhouse and a scene from the
+"Roi de Lahore."  Passages lead north, east, and west.
+^
+opera22 s:opera21 u:opera23 d:opera26;
+lflags { }
+The Third Cellar^
+   Among the props and scenery you see a spriral staircase going both
+up and down.
+^
+opera23 u:opera24 d:opera22;
+lflags { }
+On the Spiral Stairs^
+   You stand on the spiral stone staircase that extends both up and down.
+^
+opera24 e:opera25 d:opera23;
+lflags { }
+Top of the Spiral Stairs^
+   At the top of the staircase you feel like you are much more then
+one storey up from the bottom.  To your east there is a passage.
+^
+opera25 w:opera24;
+lflags { }
+Above the Ceiling^
+   Here you are among the rafters and ropes in between the roof and the
+ceiling of the opera house.  You can see the seats below your feet through
+peepholes in the floor.
+^
+opera26 e:opera27 u:opera22;
+lflags { }
+The Bottom of the Spiral Stairs^
+   It feels much cooler here for some reason.  You also seem to hear the
+sound of water along the passage to the east.
+^
+opera27 n:opera28 w:opera26;
+lflags { OnWater }
+The Underground Lake^
+   You see to the north a large underground lake here in the fifth cellar
+of the opera house.  It is covered by a thick mist that seems to be
+mysteriously lit from within.  A passage leads west.
+^
+opera28 n:opera29 e:opera28 s:opera27 w:opera30;
+lflags { OnWater }
+Lost in the Mist^
+   As you cross the silent, mist-enshrouded waters, you lose sight
+of all landmarks and get a feeling of being completely alone.
+^
+opera29 n:opera30 e:opera31 s:opera29 w:opera29;
+lflags { OnWater }
+Lost in the Mist^
+   Here the mist swirls around you, then thins slightly, allowing you
+to look into the glass-like surface of the inky waters.
+^
+opera30 n:opera30 e:opera29 s:opera28 w:opera31;
+lflags { OnWater }
+Lost in the Mist^
+   As you cross the silent, mist-enshrouded waters, you lose sight
+of all landmarks and get a feeling of being completely alone.
+^
+opera31 n:opera31 e:opera32 s:opera29 w:opera30;
+lflags { OnWater }
+Lost in the Mist^
+   You pass near one of the iron candelabras that jut out of the
+dark water to light the mist.
+^
+opera32 n:opera29 e:opera30 s:opera33 w:opera31;
+lflags { OnWater }
+Lost in the Mist^
+   The mist seems to deaden all sound around you until all you can
+hear is the lapping of the water against the boat and the beating
+of your own heart.
+^
+opera33 n:opera34 e:opera31 s:opera30 w:opera29;
+lflags { OnWater }
+Lost in the Mist^
+   As you cross the silent, mist-enshrouded waters, you lose sight
+of all landmarks and get a feeling of being completely alone.
+^
+opera34 n:opera35 s:opera33;
+lflags { }
+The Far Shore^
+   A stone dock juts out into the dark waters.  There is a passage
+leading north.
+^
+opera35 s:opera34;
+lflags { }
+The Phantom's Lair^
+   The large room hung completely in black with an enormous stave of
+music containing the notes of the Dies Irae many times repeated.  Off
+to one side of the room there is a canopy, from which hangs curtains
+of red brocaded material, and, under the canopy, an open coffin.  An
+enormous organ covers one entire wall.  Against the far wall is a dais,
+upon which sits a black throne.
+^
+opera36;
+lflags { Death }
+The Torture Chamber^
+   You have fallen into a hexoganal room made of mirrors.  In one
+corner stands an iron tree with one branch, from which hangs a noose.
+In the bright light, the tree is reflected into a huge forest.  As the
+room is slowly heated up, you begin to hallucinate that you are in an
+African forest.  The room continues to get hotter until you either are
+roasted alive, or, unable to take the torture any longer, hang yourself
+on the iron tree.
+^

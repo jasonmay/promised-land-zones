@@ -1,0 +1,845 @@
+
+
+
+
+%mobiles
+
+Name           = guard1
+Pname          = "Abdul"
+Location       = palace2
+Speed          = 0
+Strength       = 100
+Damage         = 10
+Armor          = 0
+Aggression     = 100
+Description    = "Abdul is one of the more fashionably dressed castle guards."
+End            = guard1
+
+Name           = guard2
+Pname          = "Ali"
+Location       = palace3
+Speed          = 5
+Strength       = 100
+Damage         = 10
+Armor          = 0
+Aggression     = 50
+Description    = "Ali, a castle guard, prepares to attack."
+End            = guard2
+
+Name           = guard3
+Pname          = "Mohammed"
+Location       = palace4
+Speed          = 0
+Strength       = 100
+Damage         = 10
+Armor          = 0
+Aggression     = 100
+Description    = "Mohammed, a castle guard, prepares to attack."
+End            = guard3
+
+Name           = guard4
+Pname          = "Hooman"
+Location       = palace5
+Speed          = 5
+Strength       = 200
+Damage         = 10
+Armor          = 0
+Aggression     = 100
+Description    = "
+Hooman the guard sharpens his sword looking forward to killing you."
+End            = guard4
+
+Name           = guard5
+Pname          = "Mammad"
+Location       = palace7
+Speed          = 0
+Strength       = 125
+Damage         = 10
+Armor          = 0
+Aggression     = 100
+Description    = "Mammad has been awaiting your arrival."
+End            = guard5
+
+Name           = guard6
+Pname          = "Omid"
+Location       = palace7
+Speed          = 0
+Strength       = 150
+Damage         = 10
+Armor          = 0
+Aggression     = 50
+Description    = "Omid smiles, showing off his golden tooth."
+End            = guard6
+
+Name           = guard7
+Pname          = "Amon"
+Location       = palace4
+Speed          = 0
+Strength       = 100
+Damage         = 10
+Armor          = 0
+Aggression     = 50
+Description    = "Amon, a castle guard, prepares to attack."
+End            = guard7
+
+Name           = guard8
+Pname          = "Bijan"
+Location       = palace11
+Speed          = 5
+Strength       = 200
+Damage         = 10
+Armor          = 0
+Aggression     = 75
+Description    = "
+Bijan is really tired and really wants to kill you so he can take a nap."
+End            = guard8
+
+Name           = guard9
+Pname          = "Ashkan"
+MFlags        {GrabHostile}
+Location       = palace12
+Speed          = 0
+Strength       = 200
+Damage         = 10
+Armor          = 0
+Aggression     = 75
+Description    = "Ashkan, the guard leader, is not pleased to see you."
+End            = guard9
+
+Name           = iago
+Pname          = "Iago"
+Location       = palace8
+Speed          = 0
+Strength       = 400
+Damage         = 12
+Armor          = 0
+Aggression     = 60
+Description    = "Iago screechs 'I will kill you if you give me another cracker!'"
+End            = iago
+
+Name           = jafar
+Pname          = "Jafar"
+Mflags       {NoSteal BarUp}
+Location       = palace
+Speed          = 0
+Strength       = 700
+Damage         = 10
+Armor          = 0
+Aggression     = 50
+Description    = "Jafar says, 'I dare you to challenge me...  You street rat!'"
+End            = jafar
+
+Name           = beast
+Pname          = "The Icy Beast"
+Location       = cliff
+Speed          = 0
+Strength       = 200
+Damage         = 12
+Armor          = 5
+Aggression     = 40
+Description    = "The Icy Beast roars at the sight of its new found dinner."
+End            = beast
+
+Name           = abu
+Pname          = "Abu"
+PFlags       {NoHassle}
+Location       = cave
+Speed          = 100
+Strength       = 1000
+Damage         = 5
+Armor          = 100
+Aggression     = 0
+Description    = "There is a playful monkey swinging around here."
+Examine        = "Abu flips for you."
+End            = abu
+
+Name           = genie1
+Pname          = "Genie"
+PFlags       {NoHassle}
+Location       = lamp1
+Speed          = 0
+Strength       = 1000
+Damage         = 5
+Armor          = 100
+Aggression     = 0
+Description    = "An allpowerful, blue Genie floats here."
+End            = genie1
+
+Name           = genie2
+Pname          = "Genie"
+PFlags       {NoHassle}
+Location       = tower
+Speed          = 0
+Strength       = 1000
+Damage         = 5
+Armor          = 100
+Aggression     = 0
+Description    = "
+An all powerful, blue Genie floats here looking at you with hopeful eyes.
+He longs to be free and all you have to do is say it."
+End            = genie2
+
+Name           = sultan
+Pname          = "Sultan"
+Pflags      {NoHassle}
+Location       = palace
+Speed          = 0
+Strength       = 1000
+Damage         = 5
+Armor          = 100
+Aggression     = 0
+Description    = "The Sultan of Agrabah, Jasmine's father, is very pleased to see you."
+End            = sultan
+
+Name           = princess
+Pname          = "Princess Jasmine"
+PFlags      {NoHassle}
+Location       = palace
+Speed          = 0
+Strength       = 1000
+Damage         = 5
+Armor          = 100
+Aggression     = 0
+Description    = "Princess Jasmine stares deeply into your eyes."
+End            = princess
+
+Name           = snake
+Pname          = "Slimey the Snake"
+Location       = oasis3
+Speed          = 0
+Strength       = 150
+Damage         = 10
+Armor          = 0
+Aggression     = 100
+Description    = "Slimey the Snake hung quietly from a tree... until you wandered in."
+End            = snake
+
+
+%objects
+
+Name           = guardsword
+PName          = sword
+Location       = IN_ROOM:palace1
+Oflags         {Weapon}
+Damage         = 10
+MaxState       = 0
+BValue         = 50
+Size           = 15
+Weight         = 4
+Desc[0]        = "A castle guard has accidently left a sword lying around."
+End            = guardsword
+
+Name           = drawer
+PName          = drawer
+Location       = IN_ROOM:palace12
+Oflags         {Container NoGet}
+MaxState       = 0
+BValue         = 0
+Size           = 100
+Weight         = 100
+Examine        = "The drawer is partially open.  You may want to look inside." 
+End            = drawer
+
+Name           = key
+PName          = key
+Location       = IN_CONTAINER:drawer
+Oflags         {Key}
+MaxState       = 0
+BValue         = 0
+Size           = 1
+Weight         = 1
+Desc[0]        = "A key has been left here."
+End            = key
+
+Name           = turban
+PName          = turban
+Location       = IN_ROOM:oasis5
+Oflags         {Container Armor Destroyed Wearable GetFlips}
+Aflags	   { Head }
+Armor          = 3
+State          = 1
+MaxState       = 1
+BValue         = 50
+Size           = 10
+Weight         = 3
+Desc[0]        = "An arab turban has been left here."
+Desc[1]        = "You found a turban hanging here."
+Examine        = "There seem to be many folds to put things in."
+End            = turban
+
+Name           = cape
+PName          = cape
+Location       = IN_ROOM:parade
+Oflags         {Wearable GetFlips Armor}
+Aflags	{ Back }
+Armor          = 25
+State          = 1
+MaxState       = 1
+BValue         = 100
+Size           = 6
+Weight         = 1
+Desc[0]        = "A stunning cape lies at your feet."
+Desc[1]        = "The genie has left you a princess's cape."
+End            = cape
+
+Name           = lamp
+Location       = IN_ROOM:gold10
+Oflags         { GetFlips }
+State          = 1
+MaxState       = 1
+BValue         = 30
+Size           = 4
+Weight         = 1
+Desc[0]        = "An old lamp has been dropped here."
+Desc[1]        = "An old dirty lamp sits here on a lighted pedastal."
+Examine        = "There's some writing on it, but it's too dirty to read."
+End            = lamp
+
+Name           = carpet
+PName          = carpet
+Location       = IN_ROOM:gold5
+Oflags         { GetFlips }
+State          = 1
+MaxState       = 1
+BValue         = 200
+Size           = 1
+Weight         = 1
+Desc[0]        = "A carpet has been tossed to the side here."
+Desc[1]        = "A magic carpet stands here waving to you."
+Examine        = "The carpet beckons for you to sit on it."
+End            = carpet
+
+Name           = snakestaff
+PName          = SnakeStaff
+Location       = WIELDED_BY:jafar
+Oflags         {weapon lit}
+State          = 0
+MaxState       = 0
+Damage         = 23
+BValue         = 500
+Size           = 25
+Weight         = 10
+Desc[0]        = "Jafer's Snake Staff lies here, eyes glowing."
+End            = snakestaff
+
+Name           = tree
+Location       = IN_ROOM:oasis5
+Oflags         {NoGet}
+MaxState       = 0
+End            = tree
+
+Name           = block
+Altname        = stone
+Location       = IN_ROOM:palace6
+Oflags         {NoGet}
+MaxState       = 0
+Examine        = "
+There is a nicely scetched picture of Big Bird and Oscar the Grouch on 
+the block."
+End            = block
+
+Name           = orange
+PName          = orange
+Location       = IN_ROOM:oasis3
+Oflags         {food}
+MaxState       = 0
+BValue         = 25
+Size           = 2
+Weight         = 1
+Desc[0]        = "An orange lies here on the ground."
+End            = orange
+
+Name           = banana
+PName          = banana
+Location       = IN_ROOM:oasis4
+Oflags         {food}
+MaxState       = 0
+BValue         = 25
+Size           = 2
+Weight         = 1
+Desc[0]        = "A banana lies here on the ground."
+End            = banana
+
+Name           = apple
+PName          = apple
+Location       = IN_ROOM:oasis2
+Oflags         {food}
+MaxState       = 0
+BValue         = 25
+Size           = 2
+Weight         = 1
+Desc[0]        = "An apple lies here on the ground."
+End            = apple
+
+Name           = cracker
+PName          = cracker
+Location       = IN_ROOM:palace8
+Oflags         {Food GetFlips}
+State          = 1
+MaxState       = 1
+BValue         = 15
+Size           = 2
+Weight         = 1
+Desc[0]        = "A cracker has been left here."
+Desc[1]        = "A cracker, Iago least favorite food item, lies untouched on the floor."
+End            = cracker
+
+Name           = cracker1
+PName          = cracker
+Location       = IN_ROOM:palace8
+Oflags         {Food GetFlips}
+State          = 1
+MaxState       = 1
+BValue         = 15
+Size           = 2
+Weight         = 1
+Desc[0]        = "A cracker has been left here."
+Desc[1]        = "A cracker, Iago least favorite food item, lies untouched on the floor."
+End            = cracker1
+
+Name           = torch
+PName          = torch
+Location       = IN_ROOM:gold2
+Oflags         {Lightable Extinguish}
+MaxState       = 0
+BValue         = 5
+Size           = 4
+Weight         = 2
+Desc[0]        = "A worn and used old torch has been left here."
+End            = torch
+
+Name           = gems
+PName          = gems
+Location       = IN_ROOM:gold6
+Oflags         {}
+MaxState       = 0
+BValue         = 100
+Size           = 5
+Weight         = 6
+Desc[0]        = "A bag of gems lies here."
+End            = gems
+
+Name           = flame
+PName          = flame
+Location       = IN_ROOM:gold3
+Oflags         {NoGet Lit}
+MaxState       = 0
+Desc[0]        = "In the room's center sits a flame in a ring of stones."
+End            = flame
+
+Name           = ruby
+PName          = ruby
+Location       = IN_ROOM:gold7
+Oflags         {NoGet}
+MaxState       = 0
+Desc[0]        = "The Sacred Treasure is sitting here in a golden hand."
+End            = ruby
+
+Name           = coins
+PName          = coins
+Location       = IN_ROOM:gold4
+Oflags         {}
+MaxState       = 0
+BValue         = 75
+Size           = 4
+Weight         = 6
+Desc[0]        = "You notice some scattered coins."
+End            = coins
+
+Name           = hourglass
+PName          = hourglass
+Altname        = glass
+Location       = IN_ROOM:palace9
+Oflags         {NoGet}
+State          = 1
+MaxState       = 1
+Desc[0]        = "Sand is spilled everywhere from a broken hourglass."
+Desc[1]        = "Princess Jasmine is here, struggling to breathe in a quickly filling hourglass."
+End            = hourglass
+
+Name           = door1_east
+PName          = door
+Altname        = oak
+Linked         = door1_west
+Location       = IN_ROOM:palace8
+Oflags         {Openable NoGet Lockable}
+MaxState       = 2
+Desc[0]        = "There is an open oak door."
+Desc[1]        = "There is a closed oak door."
+Desc[2]        = "The oak door to the east is locked."
+End            = door1_east
+
+Name           = door1_west
+PName          = door
+Altname        = oak
+Linked         = door1_east
+Location       = IN_ROOM:palace7
+Oflags         {Openable NoGet Lockable}
+State          = 2
+MaxState       = 2
+Desc[0]        = "There is an open oak door."
+Desc[1]        = "There is a closed oak door."
+Desc[2]        = "The oak door to the west is locked."
+End            = door1_west
+
+Name           = door2_east
+PName          = door
+Altname        = steel
+Linked         = door2_west
+Location       = IN_ROOM:palace9
+Oflags         {Openable NoGet Lockable}
+State          = 2
+MaxState       = 2
+Desc[0]        = "There is an open steel door."
+Desc[1]        = "There is a closed steel door."
+Desc[2]        = "The steel door to the east is locked."
+End            = door2_east
+
+Name           = door2_west
+PName          = door
+Altname        = steel
+Linked         = door2_east
+Location       = IN_ROOM:palace8
+Oflags         {Openable NoGet Lockable}
+State          = 2
+MaxState       = 2
+Desc[0]        = "There is an open steel door."
+Desc[1]        = "There is a closed steel door."
+Desc[2]        = "The steel door to the west is locked."
+End            = door2_west
+
+Name           = door3_up
+PName          = door
+Altname        = oak
+Linked         = door3_down
+Location       = IN_ROOM:palace9
+Oflags         {Openable NoGet Lockable}
+MaxState       = 2
+Desc[0]        = "There is an open oak door."
+Desc[1]        = "There is a closed oak door."
+Desc[2]        = "The oak door to the east is locked."
+End            = door3_up
+
+Name           = door3_down
+PName          = door
+Altname        = oak
+Linked         = door3_up
+Location       = IN_ROOM:tower
+Oflags         {Openable NoGet Lockable}
+MaxState       = 2
+Desc[0]        = "There is an open oak door."
+Desc[1]        = "There is a closed oak door."
+Desc[2]        = "The oak door to the east is locked."
+End            = door3_down
+
+Name           = sesame_north
+PName          = sesame
+Linked         = sesame_south
+Location       = IN_ROOM:palace6
+Oflags         {Openable NoGet}
+State          = 1
+MaxState       = 1
+Desc[0]        = "A wall has been opened in the north wall allowing passage."
+End            = sesame_north
+
+Name           = sesame_south
+PName          = sesame
+Linked         = sesame_north
+location       = IN_ROOM:palace7
+Oflags         {Openable NoGet}
+State          = 1
+MaxState       = 1
+Desc[0]        = "A wall has been opened in the south wall allowing passage."
+End            = sesame_south
+
+Name           = blockage_down
+PName          = blockage
+Linked         = blockage_up
+location       = IN_ROOM:entry
+Oflags         {NoGet Openable Lockable}
+State          = 0
+MaxState       = 2
+Desc[2]        = "The lion's mouth has closed and sunk into the ground."
+End            = blockage_down
+
+Name           = blockage_up
+PName          = blockage
+Linked         = blockage_down
+location       = IN_ROOM:cave
+Oflags         {NoGet Openable Lockable}
+State          = 0
+MaxState       = 2
+Desc[2]        = "There is no longer an exit leading up."
+End            = blockage_up
+
+%locations
+
+sdesert w:entry e:desertSD48@sdesert d:entry;
+lflags { Outdoors Hot }
+The Southern Desert^
+    These desert sands seem endless, but in the distance you spot something
+poking out of the sand.  Is it another mirage?
+^
+entry d:^blockage_down e:sdesert u:sdesert;
+lflags {Light Outdoors Hot}
+Before the Cave of Wonders^
+   As you walk closer, a large head and mouth forms up from the sands ahead.
+You now stand before the entrance to the Cave of Wonders.  It doesn't look
+all that inviting.  But if you'd like to look a little closer, stairs lead
+down.  Safety is back up.
+^
+cave d:gold1 u:^blockage_up;
+lflags {Light Hot Nomobiles }
+Cave of Wonders^
+   You walk through a large open lion's mouth and find yourself in the Cave
+of Wonders.  As you move forward, a voice growls, "Only those of purest heart
+may enter."  There is a long stairway in front of you leading down into the
+darkness of the lion's throat. You may also chicken out and go back up.
+^
+gold1 e:gold2 w:gold5 s:gold3 u:cave;
+lflags {Light}
+Surrounded by Mounds of Gold^
+   You finish your descent of the stairs to find yourself in the middle of
+unbelievable mounds of treasure.  You are too scared to touch any of it
+though.
+^
+gold2 w:gold1;
+lflags {Light}
+Within the Mounds of Gold^
+   Piles and piles of riches and jewels everywhere.  The glitter is
+overwhelming, you've never seen such great amounts of riches.
+^
+gold3 n:gold1 e:gold4;
+lflags {Light}
+Within the Mounds of Gold^
+   Jewels, jewels, and more jewels...  It does not seem to end.  You stop for
+a second to pinch yourself, wondering if you are really awake.  A pile of
+gems block exit to the south while the largest golden urn you've ever seen
+blocks passage to the west.  This leaves north and east open.
+^
+gold4 w:gold3;
+lflags {Light}
+Within the Mounds of Gold^
+   Piles and piles of riches and jewels everywhere.  The glitter is
+overwhelming, you've never seen such a large amount of riches in your life.
+^
+gold5 e:gold1 s:gold6;
+lflags {Light}
+Within the Mounds of Gold^
+   Piles and piles of riches and jewels everywhere.  There must millions and
+millions of points worth of stuff here.  You take a quick break to dive into
+one large pile of coins.  After swimming for awhile, you decide to move
+along.
+^
+gold6 n:gold5 s:gold7;
+lflags {Light}
+Within the Mounds of Gold^
+   More gold and jewels.  How crazy is this?  If you could take all of this
+stuff you could probably wiz 1... 2... 3 thousand times!  But since you
+can't, you might as well just go north or south.
+^
+gold7 n:gold6 e:gold8;
+lflags {Light}
+Within the Mounds of Gold^
+   You are in a dark cave.  There are no fabulous mounds of gold and jewels
+here.  There is but one large glaring gem calling to you.  There is an exit
+to the north which will bring you into the caves of riches.  To the east
+you see a long stairway.
+^
+gold8 e:gold9 w:gold7;
+lflags {Dark}
+Base of the Stairs^
+   You stand before a stairway leading to a small stone pillar extending from
+who-knows-where.  At the top, you can see a bright light shining down onto a
+pedastal.
+^
+gold9 w:gold8 e:gold10 d:slip;
+lflags {Light}
+On the Stairs^
+   You are on a long, stone stairway with many cracks and chips deteriorating
+from time alone.  You look to over the stairs on both sides of you and see
+nothing but pure blackness.  This would not be a good time to slip.
+^
+slip;
+lflags {Death Light}
+You Slipped^
+   Didn't I say now would be a bad time to slip?  So why didn't you listen?
+You fall endlessly forever and ever, but die sometime within that.  Sorry.
+^
+gold10 w:gold9;
+lflags {Light}
+At the Top^
+   You have reached the top of the stairs.  A mysterious and bright light
+from the ceiling is intensely focused onto this point.  Shielding your eyes,
+you see a stone pedastal.
+^
+trapped;
+lflags {Dark}
+Trapped in the Cave of Wonders^
+   You appear to be trapped in the Cave of Wonders.  Abu's greedy mistake has
+caused the cave mouth to close down, leaving no obvious means of exiting
+this now dark and dreary place... but hey - It happens to the best of us.
+^
+oasis1 e:oasis2 w:oasis4 n:oasis3 s:oasis5;
+lflags {Light Outdoors}
+In an Oasis^
+   You are in a beautiful desert oasis.  There are trees surrounding you and
+a nice cool breeze blows through your hair.   Paths lead to the north, south,
+east, and west.
+^
+oasis2 w:oasis1;
+lflags {Light Outdoors}
+In an Oasis^
+   There is an abundance of exotic trees, bushes, and even some grass.  In
+the distance you see many cacti that deserts are known for.
+   You wish everyday in the desert were like this as you meander about
+lazily.
+^
+oasis3 s:oasis1;
+lflags {Light Outdoors}
+In an Oasis^
+   You wish everyday in the desert were like this as you meander about
+lazily.
+^
+oasis4 e:oasis1;
+lflags {Light Outdoors}
+In an Oasis^
+   You wish everyday in the desert were like this as you meander about
+lazily.  There is a beautiful pool of clear sparkling water.  It reflects
+the sun sending rays shooting off everywhere.
+^
+oasis5 n:oasis1;
+lflags {Light Outdoors}
+In an Oasis^
+   You have entered a piece of the oasis with oddly shaped trees.  One tree
+in particular appears to have the shape of a stick figure doing an improve
+to "Walk Like An Arab" as the wind causes it to sway.  While yet another one
+twists and turns high into the sky.
+^
+parade s:palace;
+lflags {Light}
+The Parade for a Prince^
+   Well, it looks like the Genie has granted your wish!  You are in a parade
+heading into Agrabah, home of the beautiful, and unmarried Princess Jasmine!
+Crowds line the streets just waiting to catch a single glimpse of you.  You
+bow and wave to your cheering fans as you are bombarded with an abundance
+of flowers.
+^
+palace;
+lflags {Light}
+Inside the Palace^
+   As make your way and finally enter the palace, you bow down before the
+princess and her father, the sultan.  Jafar, the evil sorceror of Agrabah,
+has forseen your arrival and is ready for you.
+^
+cliff;
+lflags {Light}
+On an Icy Cliff^
+   It appears as though you have lost the help of the genie this time around.
+Jafar has no lamp, and your doom is most likely sealed.  You are stuck
+miles upon miles away and to make matters worse,  you seem you have lost your
+carpet.  You better think quick.
+^
+palace1 s:palace2 e:palace10;
+lflags {Dark NoMobiles}
+Back in the Palace^
+   The palace does not seem the same as it was the last time you were here.
+You can feel Jafar's evil presence all around you.  He should know you have
+returned.  You can expect a nice welcome party awaiting you throughout the
+castle.  Halls lead to the east and south. There is a gate behind you, well,
+you are stuck.
+^
+palace2 s:palace3 n:palace1;
+lflags {Dark}
+Somewhere in the Palace^
+   This poor palace.  What Jafar has done to it.  Your heart swells with anger
+as you notice the slime covering the once polished marble castle walls.  You
+hear screams and moans of terror coming from far off areas of the castle.
+^
+palace3 n:palace2 e:palace4;
+lflags {Dark}
+Corner Hallway^
+   You wander through the palace.  Looking above, you notice the bright
+candle chandeliers that line the ceiling of these halls are no longer lit.
+Cob webs cover the walls, stringing everywhere.  The halls lead off to the
+north and east.
+^
+palace4 w:palace3 e:palace5;
+lflags {Dark}
+Long Straight Hall^
+   You are in a long straight hall leading east and west.
+^
+palace5 w:palace4 e:palace6;
+lflags {Dark}
+Palace Hallway^
+   You are still in the palace.  The floor is covered with dirt and you
+notice numerous footprints leading to the east.  The passage leads off to the
+east and west.
+^
+palace6 w:palace5 n:^sesame_north;
+lflags {Dark}
+Dead End?^
+   It appears you have come to a dead end.  The hall leads back to the west.
+You notice many foot prints in the dirt that appear to begin at the north
+wall.  Scanning over this north wall, one particular marble block catches
+your eye.
+^
+palace7 w:^door1_west s:^sesame_south;
+lflags {Dark}
+The Hidden Guard Room^
+   It appears as though Jafar assumed you would make it this far.  There is
+nothing of particular interest in this room.
+^
+palace8 w:^door2_west e:^door1_east;
+lflags {Dark}
+Iago's Room^
+   This room is filled with various perches, parrot toys, and gold coins.
+Pictures of various birds line the walls.  A "Playbird" centerfold featuring
+Rockin' Robin is posted to the ceiling.
+^
+palace9 e:^door2_east u:^door3_up;
+lflags {Light}
+Jafar's Throne Room^
+   Jafar has created himself quite a nice throne room since last you saw him.
+He has evidentally wished for great riches, for they are piled everywhere.
+^
+palace10 e:palace11 w:palace1;
+lflags {Dark}
+Somewhere in the Palace^
+   You are in the palace.  Halls lead east and west.
+^
+palace11 e:palace12 w:palace10;
+lflags {Dark}
+Another Hallway^
+   You are in an east/west hallway.  Looking around, you notice nothing worth
+taking note of.
+^
+palace12 w:palace11;
+lflags {Light}
+Ashkan's Room^
+   This is the head guardsman's room.  One thing's for sure...  If you save
+this place, the sultan's gonna need some new help.  There is no more than
+large oak desk with an open drawer and one chair.  You wonder why this Ashkan
+guy even needs his own room.
+^
+stairs d:^door3_down n:tower;
+lflags {Light}
+Stairway to Top of the Tower^
+   You are in a spiral stairway which appears to lead to the top of a tower.
+Soon remember how much you hate spiral stairways as you look down through the
+stairway's center.
+^
+tower d:e_pass@blizzard s:stairs;
+lflags {Light}
+Atop the Castle Tower^
+   Well, you've saved Agrabah from sure destruction and the evil rule of
+Jafar.  You will be held in high esteem forever and ever.
+   So 'Aladdin', you have but one wish left.  Choose wisely.
+^
+lamp1;
+lflags {Light}
+Genie's Dwelling^
+   What are you doing inside the Genie's Lamp??
+^
+
+

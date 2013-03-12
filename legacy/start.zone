@@ -1,0 +1,214 @@
+%zone:start
+
+%latitude:40
+
+%mobiles
+
+name		= puff
+location	= church
+strength	= 1500
+damage		= 32
+aggression      = 0
+armor		= 0
+eflags		{ NegFireball }
+sflags		{ Female }
+description	= "
+Puff The Fractal Dragon is here with a faraway look in her eyes."
+examine		= ""
+End             = puff
+
+name            = Bob
+location        = church
+strength        = 1000
+damage          = 32
+aggression      = 0
+armor           = 0
+speed           = 0
+pflags          {NoSummon}
+description     = "Bob is here, looking eager to answer your questions."
+End             = Bob
+
+%objects
+name      = Umbrella
+location  = IN_ROOM:temple
+oflags    {Weapon}
+state     = 1
+maxstate  = 1
+damage    = 5
+bvalue    = 30
+size      = 20
+weight    = 15
+desc[0]   = "An unfurled umbrella lies here."
+desc[1]   = "A furled umbrella lies here."
+examine   = "
+It is a large, black umbrella, somewhat battered.  The initials 'M.Poppins'
+are engraved on the handle.
+"
+end = Umbrella
+
+name      = fire
+location  = IN_ROOM:temple
+oflags    {Extinguish Lit NoGet}
+desc[0]   = "
+A roaring fire burns here.  Its flames make the temple sparkle and glitter."
+examine   = "
+In the fire you see faint images of the ghosts of dead players.  The sparkles
+fly up and away, disappearing amongst the pillars of the temple."
+end = fire
+
+name      = pit
+location  = IN_ROOM:temple
+oflags	  {NoGet Pit}
+desc[0]   = "
+   At your feet a huge sacrificial pit allows you to give valuables to the gods
+in the hope of being rewarded."
+end      = pit
+
+name      = Church_Pit
+pname	  = pit
+location  = IN_ROOM:church
+oflags	  {NoGet Pit}
+desc[0]   = "
+   At your feet a huge sacrificial pit allows you to give valuables to the gods
+in the hope of being rewarded."
+end      = Church_Pit
+
+name      = Donation_Pit
+pname     = pit
+location  = IN_ROOM:donation
+oflags    {NoGet Pit}
+desc[0]   = "
+   At your feet a huge sacrifical pit allows you to give valuables
+to the gods in the hope of being rewarded."
+End       = pit
+
+name      = Donate_Pit_Bal
+pname     = pit
+location  = IN_ROOM:donate_bal
+oflags    {NoGet Pit}
+desc[0]   = "
+   At your feet a huge sacrifical pit allows you to give valuables
+to the gods in the hope of being rewarded."
+
+name      = Donate_Pit_Sun
+pname     = pit
+location  = IN_ROOM:donate_sun
+oflags    {NoGet Pit}
+desc[0]   = "
+   At your feet a huge sacrifical pit allows you to give valuables
+to the gods in the hope of being rewarded."
+end = Donate_Pit_Sun
+
+
+name      = newbiesword 
+altname     = sword
+location  = IN_ROOM:donation 
+oflags    { weapon newbie }
+damage    = 20  
+desc[0]   = "A &+msword&* for new players is here."
+examine   = "Is has been specially designed for new players."
+end      = newbiesword 
+
+name      = newbieshield
+altname     = shield
+location  = IN_ROOM:donation
+oflags    { armor wearable shield newbie }
+armor     = 26
+desc[0]   = "A &+mshield&* for new players is here."
+examine   = "It has been especially designed for new players."
+end      = newbiesword 
+
+name  = newbieboots
+altname = boots
+location = IN_ROOM:donate_sun
+oflags { armor wearable newbie }
+aflags { feet }
+armor = 25
+desc[0] = "A pair of new hiking &+mboots&* for new players is here."
+examine = "It has been specially designed for new players."
+end  = newbieboots
+
+name = newbieaxe
+altname = axe
+location = IN_ROOM:donate_sun
+oflags { newbie weapon }
+damage = 16
+desc[0] = "A large battle &+maxe&* for new players is here."
+examine = "It has been specially designed for new players."
+end  = newbieaxe
+
+name = newbiemace
+altname = mace
+location = IN_ROOM:donate_bal
+oflags { newbie weapon }
+damage = 16
+desc[0] = "A large &+mmace&* for new players is here."
+examine = "It has been specially designed for new players."
+end = newbiemace
+
+name = newbiecloak
+altname = cloak
+location = IN_ROOM:donate_bal
+oflags { armor wearable newbie }
+aflags { arms back head }
+armor = 30
+desc[0] = "A long &+mcloak&* for new players is here."
+examine = "It has been especially designed for new players."
+end = newbiecloak
+
+%locations
+
+between n:temple s:church d:newbie1@newbie e:balhar48@balharbor u:sundhaven6602@sundhaven;
+lflags { Peaceful Party }
+Between Worlds^
+        You stand in a void, between several different worlds of the Promised
+Land.  Here you decide, which part of the world you wish to visit first...you
+see portals to the always familiar Temple of Paradise and Village Church. 
+You also see portals to a council chamber, an inn, and an altar.  There is 
+also a portal to the Promised Land Welcome Center.
+^
+
+temple e:donation d:Ftrack@Valley s:Ftrack@Valley u:mrealms@mrealms;
+lflags {Peace FastMana FastHeal Party }
+The Temple Of Paradise^
+   You stand in the Temple of Paradise, a huge stone structure whose walls are
+decorated with ancient carvings and runes, some so old that even the priests no
+longer know their meanings.
+   A single set of steps lead south, descending the huge mound upon which the
+temple is built and ending in the forests below.
+^
+
+church n:donation s:Green@Village u:mrealms@mrealms;
+lflags {Peace FastMana FastHeal Party }
+The Village Church^
+   You are in the village's small wooden church.  A gentle breeze blows into
+the church disturbing the dust which dances in the sunbeams that shine faintly
+through the windows.  A doorway leads south.
+^
+donation w:temple s:church u:newbie1@newbie;
+lflags { Peaceful Party NoMobiles }
+The Donations Room^
+   This room is full of things that players before you were thoughtful
+enough to donate.  Items found in this room are as good as they
+normally are, and have the same properties, but they aren't worth any
+points.  There are exits west and south from here.  Upstairs is the
+entrance to the Welcome Centre.
+^
+donate_bal d:balhar48@balharbor;
+lflags { Peaceful Party NoMobiles }
+The Store Room^
+   This room is full of things that players before you were thoughtful
+enough to donate.  Items found in this room are as good as they
+normally are, and have the same properties, but they aren't worth any
+points.  Players can change their personnas here.
+^
+
+donate_sun s:sundhaven6602@sundhaven;
+lflags { Peaceful Party Nomobiles }
+Chamber of Charity^
+   This room is full of things that players before you were thoughtful
+enough to donate.  Items found in this room are as good as they
+normally are, and have the same properties, but they aren't worth any
+points.  Players can change their personnas here.
+^
+

@@ -1,0 +1,876 @@
+
+
+
+
+%mobiles
+
+Name		= blanch
+PName		= "Blanche"
+Location	= chambers
+Eflags	{Fireball Frost Missile Shock NegFrost }
+Mflags 	{ QFood}
+Strength	= 500
+Damage	= 32
+Aggression	= 10
+Speed		= 0
+Armor		= 0
+Description	= "Blanche, Queen of the Orcs, frightens you with her visage."
+Examine 	= "She hungers, and would rather eat than fight with infidels."
+Sflags	{female}
+End		= blanch
+
+Name		= barthalamu
+Location	= guardroom
+Strength	= 200
+Damage	= 8 
+Aggression	= 80
+Speed		= 0
+Armor		= 0
+Description	= "Barthalamu, consort of the Queen, stands here guarding his charges."
+End		= barthalamu
+
+Name		= Buffy
+Location	= entry
+Sflags  { Female }
+Strength	= 84
+Damage	= 10
+Aggression	= 98
+Speed		= 0
+Armor		= 0
+Description	= "Buffy Orc in a ballroom dress rushes towards you menacingly."
+End		= Buffy
+
+Name		= Brad
+Location	= entry
+Strength	= 84
+Damage	= 10
+Aggression	= 95
+Speed		= 0
+Armor		= 0
+Description	= "Brad Orc in a tux charges you."
+End		= Brad
+
+Name		= veronica
+Location	= entry
+Sflags { Female }
+Strength	= 84
+Damage	= 10
+Aggression	= 98
+Speed		= 0
+Armor		= 0
+Description	= "Veronica Orc in a ballroom dress rushes towards you."
+End		= veronica
+
+Name		= jason
+Location	= entry
+Strength	= 84
+Damage	= 10
+Aggression	= 95
+Speed		= 0
+Armor		= 0
+Description	= "Jason Orc in a tux moves to the attack."
+End		= jason
+
+Name		= art 
+Location	= entry
+Strength	= 50
+Damage	= 7
+Aggression	= 10
+Speed		= 0
+Armor		= 0
+Description	= "Art the foppish Orc attempts to play a violin." 
+End		= art
+
+Name		= rover
+Location	= arch2
+Strength	= 150
+Damage	= 15
+Aggression	= 96
+Speed		= 5
+Armor		= 0
+Description	= "Rover the Orc guardsman in formal livery leaps to the attack."
+End 		= rover
+
+Name		= spot
+Location	= arch3
+Strength	= 150
+Damage	= 15
+Aggression	= 96
+Speed		= 5
+Armor		= 0
+Description	= "Spot the Orc guardsman in formal livery informs you that you don't belong here."
+End		= spot
+
+Name		= hilda
+Location	= arch1
+Sflags 	{ Female }
+Strength	= 50
+Damage	= 10
+Aggression	= 80
+Speed		= 5
+Armor		= 0
+Description	= "Hilda the Orcish maid charges you with her feather duster drawn."
+End		= hilda
+
+Name            = larry
+PName           = "Larry the Dwarf"
+Location        = cell1
+Strength        = 50
+Damage          = 10
+Aggression      = 0
+Speed           = 0
+Armor           = 0
+Description     = "A dwarf in tattered clothes stands here."
+End             =  larry
+
+Name            = curly
+PName           = "Curly the Dwarf"
+Location        = cell2
+Strength        = 50
+Damage          = 10
+Aggression      = 0
+Speed           = 0
+Armor           = 0
+Description     = "A dwarf in worn clothes stands here."
+End             =  curly   
+                              
+Name            = moe
+PName           = "Moe the Dwarf"
+Location        = cell3
+Strength        = 75
+Damage          = 10
+Aggression      = 0
+Speed           = 0
+Armor           = 0
+Description     = "A dwarf in clean clothes stands here."
+End             =  moe
+
+ 
+%objects
+
+Name		= breastplate
+AltName	= armor
+Location	= WORN_BY:Barthalamu
+Oflags	{Wearable Armor}
+Aflags	{ Chest }
+Armor		= 35
+BValue	= 250
+Size		= 25
+Desc[0]	= "A finely made breastplate lies here."
+End		= breastplate
+
+Name		= katana
+Location	= WIELDED_BY:Barthalamu
+Oflags	{Weapon}
+Damage	= 18
+BValue	= 250
+Size		= 25
+Desc[0]	= "A gleaming katana lies here."
+End		= katana
+
+Name		= blankets
+AltName	= straw
+Location	= IN_ROOM:nwroom1
+Oflags	{NoGet}
+End 		= blankets
+
+Name		= coin
+Location    = IN_ROOM:nwroom1
+Oflags      {Destroyed}
+BValue	= 90
+Desc[0]     = "A gold coin has been dropped here."
+End         = coin
+
+Name		= sconce
+Location	= IN_ROOM:arch1
+Oflags	{NoGet}
+End		= sconce
+
+Name		= globe
+Location	= IN_ROOM:arch1
+Oflags	{Destroyed Lightable Lit}
+BValue	= 25
+Size		= 1
+Desc[0]	= "A small globe of light floats here."
+End		= globe
+
+Name        = wardrobe
+AltName     = dresses
+Location    = IN_ROOM:nwroom1
+Oflags      {NoGet}
+End         = wardrobe
+
+Name        = cloak
+Location    = IN_ROOM:nwroom1
+Oflags      {Wearable Armor Destroyed}
+Aflags	{ Back Arms }
+Armor		= 14
+BValue      = 25
+Size		= 5
+Desc[0]     = "A study looking cloak lies here."
+Examine	= "It looks like it will offer good protection."
+End         = cloak
+		
+Name        = clothes
+AltName     = pigsty
+Location    = IN_ROOM:neroom1
+Oflags      {NoGet}
+End         = clothes
+
+Name        = boots
+Location    = IN_ROOM:neroom1
+Oflags      {Wearable Armor Destroyed}
+Aflags 	{ Feet }
+Armor       = 20
+BValue      = 20
+Size        = 3
+Desc[0]     = "A well-used pair of orcish boots lie here."
+Examine     = "They're orcish, need I say more?"
+End         = boots
+
+Name		= bed
+Location	= IN_ROOM:nwroom2
+Oflags	{NoGet}
+Examine	= "It looks very comfy, but you don't think you'll find anything in it."
+End		= bed
+
+Name 		= rug
+Location	= IN_ROOM:neroom2
+Oflags	{NoGet}
+Examine	= "It looks like it was made from... um well.... you probably don't want to know."
+End		= rug
+
+Name 		= suit
+Location	= IN_ROOM:neroom2
+Oflags	{GetFlips Wearable}
+State		= 1
+MaxState	= 0
+BValue	= 200
+Size		= 10
+Desc[0]	= "A crumpled suit lies discarded here."
+Desc[1]	= "A well starched suit lies on the bed."
+End		= suit
+
+Name		= roomdesk
+PName		= desk
+AltName	= table
+Location	= IN_ROOM:neroom2
+Oflags	{NoGet}
+End		= roomdesk
+
+Name		= jewels
+PName		= jewelry
+AltName	= gems
+Location	= IN_ROOM:neroom2
+Oflags	{Destroyed}
+BValue 	= 500
+Size		= 20
+Desc[0]	= "A mass of jewelery lies here."
+End		= jewels
+
+Name		= tape
+Location	= IN_ROOM:arch2
+Oflags	{NoGet}
+Examine	= "Some bright yellow tape with 'Do Not Enter' written all over the place."
+End		= tape
+
+Name		= cigars
+Location	= IN_ROOM:swroom2
+Oflags	{Lightable}
+BValue	= 20
+Size		= 1
+Desc[0]	= "A rumpled pack of cigars lies here."
+End		= cigars
+
+Name		= pick
+Location	= IN_ROOM:seroom2
+Oflags	{Weapon}
+Damage	= 11
+BValue	= 20
+Size		= 5
+Desc[0]	= "A well-used pick lies here."
+End		= pick
+
+Name		= flask
+AltName	= ale
+Location	= IN_ROOM:dining
+Oflags	{Food Alcohol}
+BValue	= 20
+Size		= 2
+Desc[0]	= "A small flask of ale lies here."
+End		= flask
+
+Name		= keg
+AltName	= barrel
+Location	= IN_ROOM:dining
+Oflags	{Food Alcohol}
+BValue	= 200
+Size 		= 20
+Desc[0]	= "A huge barrel of ale sits here."
+End		= keg
+
+Name		= cushions
+AltName	= cushion
+Location	= IN_ROOM:dining
+Oflags	{NoGet}
+End		= cushions
+
+Name		= lamb
+AltName	= leg
+Location	= IN_ROOM:dining
+Oflags	{Destroyed Food}
+BValue	= 15
+Size 		= 3
+Desc[0]	= "A huge leg of lamb lies here.  It only looks partially eaten."
+End		= lamb
+
+Name		= dinblankets
+AltName	= blanket
+Location	= IN_ROOM:dining
+Oflags	{NoGet}
+End		= dinblankets
+
+Name        = chocolate
+AltName     = candy
+Location    = IN_ROOM:dining
+Oflags      {Destroyed Food}
+BValue      = 50
+Size        = 2
+Desc[0]     = "A large piece of chocolate lies here."
+End         = chocolate
+
+Name		= pie
+Location	= IN_ROOM:kitchen
+Oflags	{Food}
+BValue	= 20
+Size 		= 2
+Desc[0]	= "A yummy looking cherry pie."
+End		= pie
+
+Name		= queenwardrobe
+AltName	= wardrobe
+Location	= IN_ROOM:chambers
+Oflags	{NoGet}
+Examine	= "You barely contain your lunch when you peek inside the wardrobe.  In it
+is the largest collection of langerie you have ever seen and you really
+wish you could have passed on having to imagine the queen in them.
+"
+End		= queenwardrobe
+
+Name	= vault_key
+Pname = key
+Location = IN_ROOM:chambers
+Oflags { Key Destroyed }
+Bvalue = 25
+Size = 1
+Weight = 1
+Desc[0] = "The key to the Orc Hold Vault has been left lying around."
+End = vault_key
+
+Name		= mattress
+AltName	= straw
+Location	= IN_ROOM:cell1
+Oflags	{NoGet}
+Examine	= "What, are you crazy?  How would a prisoner have something to hide in a
+mattress?  You should go get your head examined! "
+End		= mattress
+
+Name		= workbench
+Altname	= bench
+Location	= IN_ROOM:cell3
+Oflags	{NoGet}
+End		= workbench
+
+Name		= statue
+AltName	= figurine
+Location	= IN_ROOM:cell3
+Oflags	{GetFlips Destroyed}
+State		= 1
+MaxState	= 0
+BValue	= 50
+Size		= 5
+Desc[0]	= "A statue lies here, discarded."
+Desc[1]	= "A half-done statue has been placed on the workbench."
+End		= statue
+
+Name        = chisel
+Location    = IN_ROOM:cell3
+Oflags      {GetFlips Destroyed Weapon}
+Damage	= 3
+State       = 1
+MaxState    = 0
+BValue      = 10
+Size        = 1
+Desc[0]     = "A chisel lies here."
+Desc[1]     = "A chisel has been placed on the workbench."
+End         = chisel
+
+Name		= doorn1a
+PName		= door
+Altname	= westdoor
+Location	= IN_ROOM:arch3
+Oflags	{Openable Lockable NoGet}
+Linked	= doorn1b
+State		= 2
+MaxState	= 2
+Desc[0]	= "The west door is open."
+Desc[1]	= "The west door is closed."
+Desc[2]	= "The west door is locked."
+End		= doorn1a
+
+Name		= doorn1b
+PName		= door
+Location	= IN_ROOM:nwroom1
+Oflags	{Openable Lockable NoGet}
+Linked	= doorn1a
+State		= 2
+MaxState	= 2
+Desc[0] 	= "The door is open."
+Desc[1]	= "The door is closed."
+Desc[2] 	= "The door is locked."
+End		= doorn1b
+
+Name		= doorn2a
+PName		= door
+Altname	= eastdoor
+Location	= IN_ROOM:arch3
+Oflags	{Openable Lockable NoGet}
+Linked	= doorn2b
+State		= 2
+MaxState	= 2
+Desc[0]	= "The east door is open."
+Desc[1]	= "The east door is closed."
+Desc[2]	= "The east door is locked."
+End		= doorn2a
+
+Name		= doorn2b
+PName		= door
+Location	= IN_ROOM:neroom1
+Oflags	{Openable Lockable NoGet}
+Linked	= doorn2a
+State		= 2
+MaxState	= 2
+Desc[0] 	= "The door is open."
+Desc[1]	= "The door is closed."
+Desc[2] 	= "The door is locked."
+End		= doorn2b
+
+Name		= doorn3a
+PName		= door
+Altname	= westdoor
+Location	= IN_ROOM:arch3p2
+Oflags	{Openable Lockable NoGet}
+Linked	= doorn3b
+State		= 2
+MaxState	= 2
+Desc[0]	= "The west door is open."
+Desc[1]	= "The west door is closed."
+Desc[2]	= "The west door is locked."
+End		= doorn3a
+
+Name		= doorn3b
+PName		= door
+Location	= IN_ROOM:nwroom2
+Oflags	{Openable Lockable NoGet}
+Linked	= doorn3a
+State		= 2
+MaxState	= 2
+Desc[0]	= "The door is open."
+Desc[1]	= "The door is closed."
+Desc[2]	= "The door is locked."
+End		= doorn3b
+
+Name		= doorn4a
+PName		= door
+Altname 	= eastdoor
+Location	= IN_ROOM:arch3p2
+Oflags	{Openable Lockable NoGet}
+Linked	= doorn4b
+State		= 2
+MaxState	= 2
+Desc[0]	= "The east door is open."
+Desc[1]	= "The east door is closed."
+Desc[2] 	= "The east door is locked."
+End		= doorn4a
+
+Name		= doorn4b
+PName		= door
+Location	= IN_ROOM:neroom2
+Oflags	{Openable Lockable NoGet}
+Linked	= doorn4a
+State		= 2
+MaxState	= 2
+Desc[0]	= "The door is open."
+Desc[1]	= "The door is closed."
+Desc[2]	= "The door is locked."
+End		= doorn4b
+
+Name		= doors1a
+PName		= door
+Altname = westdoor
+Location	= IN_ROOM:arch2
+Oflags	{Openable Lockable NoGet}
+Linked	= doors1b
+State		= 2
+MaxState	= 2
+Desc[0]	= "The west door is open."
+Desc[1]	= "The west door is closed."
+Desc[2]	= "The west door is locked."
+End		= doors1a
+
+Name		= doors1b
+PName		= door
+Location	= IN_ROOM:swroom1
+Oflags	{Openable Lockable NoGet}
+Linked	= doors1a
+State		= 2
+MaxState	= 2
+Desc[0]	= "The door is open."
+Desc[1]	=  "The door is closed."
+Desc[2]	= "The door is locked."
+End		= doors1b
+
+Name		= doors2a
+PName		= door
+Altname	= eastdoor
+Location	= IN_ROOM:arch2
+Oflags	{Openable Lockable NoGet}
+Linked	= doors2b
+State		= 2
+MaxState	= 2
+Desc[0]	= "You can enter through the open east door, past the tattered tape."
+Desc[1]	= "The east door is closed and covered with yellow tape."
+Desc[2]	= "The east door is locked and covered with yellow tape."
+End		= doors2a
+
+Name		= doors2b
+PName		= door
+Location	= IN_ROOM:seroom1
+Oflags	{Openable Lockable NoGet}
+Linked	= doors2a
+State		= 2
+MaxState	= 2
+Desc[0]	= "The door is open."
+Desc[1]	= "The door is closed."
+Desc[2]	= "The door is locked."
+End		= doors2b
+
+Name		= doors3a
+PName		= door
+Altname = westdoor
+Location	= IN_ROOM:arch2p2
+Oflags	{Openable Lockable NoGet}
+Linked	= doors3b
+State		= 2
+MaxState	= 2
+Desc[0]	= "The west door is open."
+Desc[1]	= "The west door is closed."
+Desc[2]	= "The west door is locked."
+End		= doors3a
+
+Name		= doors3b
+PName		= door
+Location	= IN_ROOM:swroom2
+Oflags	{Openable Lockable NoGet}
+Linked	= doors3a
+State		= 2
+MaxState	= 2
+Desc[0]	= "The door is open."
+Desc[1]	= "The door is closed."
+Desc[2]	= "The door is locked."
+End		= doors3b
+
+Name		= doors4a
+PName		= door
+AltName	= eastdoor
+Location	= IN_ROOM:arch2p2
+Oflags	{Openable Lockable NoGet}
+Linked	= doors4b
+State		= 2
+MaxState	= 2
+Desc[0]	= "The east door is open."
+Desc[1]	= "The east door is closed."
+Desc[2]	= "The east door is locked."
+End		= doors4a
+
+Name		= doors4b
+PName		= door
+Location	= IN_ROOM:seroom2
+Oflags	{Openable Lockable NoGet}
+Linked	= doors4a
+State		= 2
+MaxState	= 2
+Desc[0]	= "The door is open."
+Desc[1]	= "The door is closed."
+Desc[2]	= "The door is locked."
+End		= doors4b
+
+Name		= stand
+AltName	= desk
+Location	= IN_ROOM:chambers
+Oflags 	{NoGet}
+End		= stand
+
+Name		= button
+Location	= IN_ROOM:chambers
+Oflags	{Destroyed NoGet Pushable}
+State		= 0
+MaxState	= 0
+Desc[0] = "There's a button on the night stand."
+End		= button
+
+Name		= wall1
+PName		= wall
+Location	= IN_ROOM:guardroom
+Oflags	{NoGet}
+Linked	= wall2
+State		= 1
+MaxState	= 1
+Desc[0]	= "The north wall has swung back to reveal another room."
+End		= wall1
+
+Name		= wall2
+PName		= wall
+Location	= IN_ROOM:sitting
+Oflags	{NoGet}
+Linked	= wall1
+State 	= 1
+MaxState	= 1
+Desc[0]	= "The South wall has swung back to reveal another room."
+End		= wall2
+
+%locations
+
+hallway w:entry e:Hallway3@orchold;
+lflags {DARK NoMobiles}
+Rough-Hewn Hallway^
+   Like most orc-built hallways, this one is crooked, rough, and damp.
+It looks as if there is a crowded open area to the west. You wonder what the
+commotion is.  The hallway also leads back to the east.
+^
+
+entry e:hallway n:arch3 s:arch2 w:arch1 u:balcony;
+lflags {}
+Grand Entry^
+   You have entered what appears to be a grand palace at first look.  There
+are stairs leading up to a balcony.  There is a rosy marble floor and what
+appears to be a genuine crystal chandalier.  There are grand archways leading
+north, south, and east.  Then you notice that the nobility are actually orcs
+in human finery and begin to wonder if perhaps you're in the wrong place!
+^
+
+balcony d:entry;
+lflags {}
+On the Balcony^
+   From up here you have a good view of the action down below.  The Orcs look
+no less silly all dressed up like that though.  You are amazed to notice
+however that there is absolutely no dust on the chandalier.
+^
+
+arch3 s:entry w:^doorn1a e:^doorn2a n:arch3p2;
+lflags {}
+Through the Arch^
+   This is a grand hallway that archs well over your head.  The floor is a
+soothing white marble and the light is provided by what seem to be smokeless
+torches set in pure gold sconces. You are almost positive that dwarves were 
+behind such magnificent craftmanship.  There are doors east and west and 
+the hallway continues to the north.
+^
+
+nwroom1 e:^doorn1b;
+lflags {DARK}
+Bedroom^
+   You are amazed at the poor quality of the bedroom.  It looks to be of the
+finest orcish make, that is to say the walls are somewhat rough and hewn out
+of the stone.  They must not have gotten to this room in their remodeling yet. 
+There is a pile of &+Cblankets&* and &+Cstraw&* on the floor that you take is the bed
+and an open &+Cwardrobe&* filled with &+Cdresses&* that look very un-orcish.
+^
+
+neroom1 w:^doorn2b;
+lflags {DARK}
+Bedroom^
+   You are amazed at the poor quality of the bedroom.  It looks to be of the
+finest orcish make, that is to say the walls are somewhat rough and hewn out
+of the stone.  They must not have gotten to this room in their remodeling yet.
+There is a pile of blankets and straw on the floor that you take is the bed
+and in a surprisingly human manner all manner of &+Cclothes&* are strewn about the 
+room.  You have no idea which are clean and which not.  
+^
+arch3p2 s:arch3 w:^doorn3a e:^doorn4a;
+lflags {}
+Grand Hallway^
+   You are standing at the end of the northern hallway.  The hall continues to
+be grandiose.  There is a painting at the end of the hallway that would give
+even the coldest person nightmares.  From the regalia it appears to be the
+queen of the orcs, Blanche.  She must surely be ugly, even by orcish standards
+and to you her visage is downright frightening.  There are doorways to the east
+and west, you should probably choose one fast.  
+^
+
+nwroom2 e:^doorn3b;
+lflags {}
+Fine Bedroom^
+   This room appears to be a bit more finished then the others.  The walls are
+smooth, though still just the rock of which they were carved.  There is a real
+&+Cbed&* sitting in the middle of the room properly made.  The room itself is
+immaculate in its cleanliness and you wonder that an orc lives here at all.
+^
+
+neroom2 w:^doorn4b;
+lflags {}
+Fine Bedroom^
+   This room is a bit more finished then the others closer to the entryway. 
+The walls have been smoothed and the floor is covered in a lush &+Cfur rug&*. 
+There is a fine suit on the bed, perfectly pressed.  The &+Cdesk&* however has a
+fine coating of dust, as if this room hasn't been used recently.
+^
+
+arch2 n:entry w:^doors1a e:^doors2a s:arch2p2;
+lflags{}
+Through the Arch^
+   This is a grand hallway that archs well over your head.  The floor is a
+deep blue quartz and the lights are what seem to be magical balls of continual
+light held in place by silver lanterns.  As you look around you become certain
+that this was not constructed by orcish hands.  The doorway to the east is
+blocked by yellow tape.  On the tape is written, "Do Not Enter."  There is a
+door to the west and the grand entry is to the north.
+^
+
+swroom1 e:^doors1b;
+lflags {DARK}
+Bedroom^
+   You are amazed at the poor quality of the bedroom.  It looks to be of the
+finest orcish make, that is to say the walls are somewhat rough and hewn out
+of the stone.  They must not have gotten to this room in their remodeling yet.
+This room is completely empty and doesn't look used.
+^
+
+seroom1 w:^doors2b;
+lflags {DEATH DARK}
+Bedroom^
+   You step blindly into the room and discover they dug a bit too deep in
+here.  You seem to fall forever before rejoining the body to the earth.
+^
+
+arch2p2 n:arch2 w:^doors3a e:^doors4a;
+lflags{}
+Grand Hallway^
+   You are standing at the end of the southern hallway.  The hall continues to
+be grandiose.  There is a painting at the end of the hallway.  It appears to be 
+of the King, Harold, looking majestic in some silly looking purple robes and 
+holding a bejeweled sceptre of office.     
+^
+
+swroom2 e:^doors3b;
+lflags {}
+Fine Bedroom^
+   This room appears to be a bit more finished then the others.  The walls are
+smooth, though still just the rock of which they were carved.  There is a real
+bed sitting in the middle of the room, it's sheets rumpled.  From the stench
+of stale Orc sweat and cigars you have a pretty good idea what occured here.
+You are somewhat thankful you missed it.
+^
+
+seroom2 w:^doors4b;
+lflags {}
+Unfinished Bedroom^
+   This bedroom seems to still be in its incipient stages.  The walls are only
+vaguely defined and there is loose stone all over the room.  
+^
+
+arch1 e:entry w:audience s:dining;
+lflags {}
+Grand Hallway^
+   This is perhaps the grandest of the three hallways exiting the hall.  The
+floor is done in a beautiful black marble and there are mithril &+Csconces
+holding globes of continual light.  The most amazing object in the room is the
+ceiling.  It is a mosiac of the history of the orcs done by a masterful
+artist.  It is almost enough to bring you to tears.  There are a pair of
+massive double doors standing open to the south and the hallway leads to an
+audience chamber to the west.
+^
+
+dining n:arch1 s:kitchen;
+lflags {}
+Dining Hall^
+   You have entered what can only be termed a dining hall, though you are
+shocked that orcs would even bother with one.  There is a massive chandalier
+above the dining room table.  The table though is only large enough for 6 to
+eat at and there are &+Ccushions and blankets&* piled all over this large room. 
+From the scraps of food lying about you would guess that the orcs just eat
+anywhere they choose in here.  A set of swinging doors leads south into the
+kitchen and the hallway is to the north.
+^
+
+kitchen n:dining;
+lflags {}
+Kitchen^
+   Just considering what an orcish diet consists off should make you ill. 
+Fortunately it looks like you caught them between meals.  Surprisingly enough
+there are a few things that almost look edible to you.
+^
+
+audience e:entry s:sitting;
+lflags {}
+The Queen's Audience Chamber^
+   It appears no expense was spared in preparing this room.  The entire room
+is done in black marble and there are tapestries looted from some of the
+finest castles adorning the walls.  There is a chandalier hanging from the
+ceiling and there are more of those magical balls of light about the room.  On
+the west wall is a massive dias with two thrones on it.  One is large, twice
+the size of the orc and obviously intended for the Queen.  The other is just a
+glorified chair intended for the King, though from the coat of dust on it, he
+rarely uses it prefering his old audience chamber.  There is a door to the
+south and the hallway leads back to the east.
+^
+
+sitting n:audience w:chambers s:^wall2;
+lflags {}
+The Queen's Sitting Room^
+    This is a somber chamber, cosy with comfy looking chairs.  There is a loom
+in a corner and a stool and stand for a musician, though you imagine those are
+few and far between here.  There are a set of double doors standing open to
+the west leading into the Queen's bedroom.
+^
+
+chambers e:sitting ;
+lflags {}
+The Queen's Bedroom^
+   Compared to the other rooms you have passed through, this chamber seems
+almost modest.  There is a four-poster queen sized canopy bed along the west 
+wall.  Next to the bed is a small &+Cnight stand&* and along the north wall is a
+large &+Cwardrobe&*.  It looks like the only exit is back the way you came.
+^
+
+guardroom n:^wall1 e:cell1 w:cell2 s:cell3;
+lflags {}
+Guard Room^
+   This chamber is very plain, having just a chair and a small table.  There
+are cell doors east, west, and south.  
+^
+
+cell1 w:guardroom;
+lflags {DARK}
+Prison Cell^
+   This is a plain little prison cell.  There is a straw mattress in the
+corner and a chamber pot in the other.  On the wall next to the bed there are
+a number of hatch marks.  You would guess that the inmate is counting the
+days of his imprisonment.  It looks like he has been here awhile.
+^
+
+cell2 e:guardroom;
+lflags {DARK}
+Prison Cell^
+   A small cell with none of the comforts of home.  The most that can be said
+for it is that it is dry.  A bed of straw does little to inspire comfort and
+you hope that the chamber pot is emptied frequently.
+^
+
+cell3 n:guardroom;
+lflags {DARK}
+Prison Cell^
+   It appears this prisoner has received a few concessions.  There is a
+&+Cworkbench&* in one corner covered with stoneworking tools.  There is a recesed
+alcove for the chamber pot and a real cot is set up on the west wall.
+^

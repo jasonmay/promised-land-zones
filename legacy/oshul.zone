@@ -1,0 +1,188 @@
+
+
+
+%mobiles
+
+
+
+Name		= ArchPriest
+Pname		= "ArchPriest"
+Location 	= oshul
+Strength	= 1000
+Damage		= 25
+Armor		= 10
+Eflags		{ Fireball NegFireball NegFrost NegMissile }
+Aggression	= 0
+Speed		= 0
+Description	= "
+Clad in red and black satin, an ArchPriest of Oshul measures you up!"
+Examine		= "
+The priest looks ready to protect Oshul's precious artifact with his life!"
+End		= ArchPriest
+
+Name        = Oshul
+Pname       = "Oshul"
+Location    = oshul
+Strength    = 10000
+Damage      = 500
+Armor       = 40
+Pflags   { NoPunt NoAlias NoZap NoExorcise NoHassle NoBurn NoSummon NoSteal }
+Eflags	 { Fireball NegFireball NegFrost NegMissile }
+Aggression   = 0
+Speed       = 0
+Description = "
+&+LThe dark god &+ROshul&+L, is here, in the form of a nightblack dragon.
+&+LHe sits atop his pile of gold, smirking down at you."
+Examine     = "
+He is busy counting his coins making sure not a single one is missing. He
+notices your staring at him and says impatiently, '&+RWell? What have you
+brought me?&+L'
+"
+End         = Oshul
+
+
+%locations
+
+/* about the descent into darkness rooms. Its like a spiral staircase.
+As a player moves counter-clockwise they go deeper underground. Clockwise
+brings them up. The descent into darkness rooms are skipped on the map.
+
+        Treasure1
+          |
+[Out] --- Foyer  ---  Oshul
+          |
+        Treasure2
+
+*/
+
+
+
+
+
+descent10 n:Misty2@moor e:descent9 ;
+lflags { Oshul nomobiles }
+&+LOminous Cavern^
+   Stalactites and stalagmites hang all around this vast cavern, making it
+look like one enormous maw of a hideous beast. You can hear dripping around
+you, but the strange hollow echo of this place makes it impossible to tell
+where. Occasionally fierce winds gust in and make an eerie sound as it
+bounces off the warped walls of the cavern. The room is dark except for
+a little torchlight coming from the east from what appears to be a gigantic
+tunnel.
+^
+
+descent9 w:descent10 s:descent8 ;
+lflags { Oshul}
+&+LDescent Into Darkness^
+   You are in a tunnel, dug by some unnatural means. The tunnel is carved
+through solid stone, yet the walls are incredibly smooth, and shows now
+evidence of the wall being hacked away. Torches are placed along with walls
+every twenty feet. The tunnel slopes up to the west and down to the south.
+^
+
+descent8 n:descent9 w:descent7 ;
+lflags {Oshul}
+&+LDescent Into Darkness^
+   You are in a tunnel, dug by some unnatural means. The tunnel is carved
+through solid stone, yet the walls are incredibly smooth, and shows now
+evidence of the wall being hacked away. Torches are placed along with walls
+every twenty feet. The tunnel slopes up to the north and down to the west.
+^
+
+descent7 n:descent6 e:descent8 ;
+lflags {Oshul}
+&+LDescent Into Darkness^
+   You are in a tunnel, dug by some unnatural means. The tunnel is carved
+through solid stone, yet the walls are incredibly smooth, and shows now
+evidence of the wall being hacked away. Torches are placed along with walls
+every twenty feet. The tunnel slopes up to the east and down to the north.
+^
+
+descent6 s:descent7 e:descent5 ;
+lflags {Oshul}
+&+LDescent Into Darkness^
+   You are in a tunnel, dug by some unnatural means. The tunnel is carved
+through solid stone, yet the walls are incredibly smooth, and shows now
+evidence of the wall being hacked away. Torches are placed along with walls
+every twenty feet. The tunnel slopes up to the south and down to the east.
+^
+
+descent5 w:descent6 s:descent4 ;
+lflags {Oshul}
+&+LDescent Into Darkness^
+   You are in a tunnel, dug by some unnatural means. The tunnel is carved
+through solid stone, yet the walls are incredibly smooth, and shows now
+evidence of the wall being hacked away. Torches are placed along with walls
+every twenty feet. The tunnel slopes up to the west and down to the south.
+^
+
+descent4 n:descent5 w:descent3 ;
+lflags {Oshul}
+&+LDescent Into Darkness^
+   You are in a tunnel, dug by some unnatural means. The tunnel is carved
+through solid stone, yet the walls are incredibly smooth, and shows now
+evidence of the wall being hacked away. Torches are placed along with walls
+every twenty feet. The tunnel slopes up to the north and down to the west.
+^
+
+descent3 n:descent2 e:descent4 ;
+lflags {Oshul}
+&+LDescent Into Darkness^
+   You are in a tunnel, dug by some unnatural means. The tunnel is carved
+through solid stone, yet the walls are incredibly smooth, and shows now
+evidence of the wall being hacked away. Torches are placed along with walls
+every twenty feet. The tunnel slopes up to the east and down to the north.
+^
+
+descent2 s:descent3 e:descent1 ;
+lflags {Oshul}
+&+LDescent Into Darkness^
+   You are in a tunnel, dug by some unnatural means. The tunnel is carved
+through solid stone, yet the walls are incredibly smooth, and shows now
+evidence of the wall being hacked away. Torches are placed along with walls
+every twenty feet. The tunnel slopes up to the north and down to the west.
+^
+
+descent1 w:descent2 e:foyer ;
+lflags {Oshul}
+&+LEnd Of The Tunnel^
+   You stand at the end of the tunnel. To the east the light gets slightly
+brighter.
+^
+
+foyer n:treasure s:treasure e:oshul w:descent1 ;
+lflags {Oshul}
+&+LShadowy Foyer^
+   You are within a luxurious foyer. The only illumination is from a
+platinum chandalier hanging in the black marble ceiling above. Its dim
+flickering light makes shadows dance off of the nearby black marble
+pillars. To the north and south you can see two very large rooms filled
+with gold and platinum! East is, through a doorway is a another large room,
+not quite as tantalizing as the ones to the north and east.
+^
+
+treasure d:temple@start ;
+lflags { Oshul archwizard }
+&+WTreasury^
+
+This room is flagged ArchWizard+ only to keep players out of it. If you're a
+mortal you're not supposed to be in here. Please send mail to a coder about
+this bug. If you're a power who has too much free time on your hands, write
+a zone or something! Go away! Shoo!
+
+-&+WV&+Ca&+cl&+Cu&+Cr&*
+^
+
+oshul w:foyer ;
+lflags {Oshul}
+&+LEnormous Black Marble Cathedral^
+   You are in a gigantic chamber. The domed black marble ceiling is at least
+fifty feet above you, carved with strange designs of dragons at war. Upon
+the walls hang beautiful crimson tapestries, priceless works of art. The
+floor is of icy blue marble, which you can see your own reflection in.
+Light comes from two large bowls of burning incense, the reflections off
+of the gold coins dazzling.
+
+   The entire center of the room is taken up by a colossal pile of gold
+coins. But more interesting is who sits upon the pile of gold coins...
+^

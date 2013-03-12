@@ -1,0 +1,948 @@
+/*	Written by Stress, January 1998. Not to be distributed without the
+	authors permission.
+	Should be linked to caledonia1 e:from there to eir1 if this zone is not
+	in then anywhere mountainous
+*/
+
+
+
+
+
+%mobiles
+
+Name		= gwion
+Location	= light
+Strength	= 50 
+PFlags	{ NoHassle NoMagic }
+Damage	= 0
+Armor		= 0
+Aggression	= 0
+Speed		= 0
+Description	= "A small man stands here watching you."
+Examine	= "
+Gwion is a smallish man, not very tall, with a strong-featured face creased by 
+humour at the eyes and mouth, though with no sign of a smile now. His hair is 
+grey, tightly curled, and he has a neat crisp curling grey beard with a curious 
+dark line down the centre like a stripe."
+End		= gwion
+
+Name		= minion
+Location	= garden
+MFlags	{ BarNorth }
+Strength	= 300
+Damage	= 8
+Armor		= 0
+Aggression	= 0
+Speed		= 0
+Description	= "A threatening minion of the dark powers blocks your way north." 
+Examine	= "You know this is the rider you saw from the coach."
+End		= minion
+
+Name		= skeleton
+Pname  	= "Mari Llwyd"
+Location	= clearing
+MFlags	{ BarNorth NoCorpse }
+SFlags	{ Female NoBody }
+PFlags	{ NoHassle NoMagic }
+Strength	= 100
+Damage	= 10
+Armor		= 0
+Aggression	= 0
+Speed		= 0
+Description	= "The skeleton of a giant horse prances in front of you blocking the way north."
+Examine	= "
+It is the Mari Llwyd, a nightmare figure from legend, used to frighten young
+children. It gets ever nearer you and you are terrified by it!"
+End		= skeleton
+
+Name		= rider
+Pname 	= "White Rider"
+Location	= river
+MFlags	{ BarEast }
+Eflags	{ NegFrost }
+Strength	= 500 
+Damage	= 10
+Armor		= 0
+Aggression	= 0
+Speed		= 0
+Description	= "The White Rider of the Dark stands here, sneering at you contemptuously."
+Examine	= "
+He is one of the mighty Lords of the Dark, and as such very powerful. Be wary."
+End		= rider
+
+Name		= blackrider
+PName		= "Black Rider"
+Location	= tree7
+MFlags	{ BarNorth }
+EFlags	{ NegFireball NegFrost NegShock }
+Strength	= 750 
+Damage	= 8
+Armor		= 0
+Aggression	= 0
+Speed		= 0
+Description	= "The Black Rider of the Dark stands here, barring your way to the seventh tree."
+Examine	= "Another of the mighty Lords of the Dark, he is probably even more powerful than
+the White Rider. Beware!"
+End		= blackrider
+
+Name		= gwyddno
+Location	= toproom
+PFlags		{ NoHassle NoMagic }
+Strength	= 20
+Damage		= 0
+Armor		= 0
+Aggression	= 0
+Speed		= 0
+Description	= "The King of the Lost Land, Gwyddno Garanhir, sits here."
+Examine	= "
+The Dark have shown Gwyddno his uncertainty, and trapped him within his own mind."
+End		= gwyddno
+
+%objects
+
+Name		= prosign
+PName		= sign
+Location	= IN_ROOM:mountain
+OFlags	{ NoGet }
+Desc[0]	= "An old weathered sign stands here."
+Examine	= "
+Eirias quest written by Stress, February 1998. Taken from 'The Dark is
+Rising' series by Susan Cooper, Book 5, 'Silver on the Tree'"
+End		= prosign
+
+Name		= parchment
+AltName	= roll
+Location	= IN_ROOM:mountain
+Desc[0]	= "An old forgotten roll of parchment lies here."
+Examine	"
+The parchment reads:
+        You must go to the Lost Land, in the moment when it shall
+        show itself between the land and the sea. And a white bone
+        will prevent you, and a flying maytree will save you, and
+        only the horn can stop the wheel. And in the glass tower
+        among the seven trees you will find the crystal sword of
+        the Light. There are five barriers to be broken to reach
+        the crystal sword, and they are told in five lines that are
+        written in letters of golden fire over the sword itself."
+End	= parchment
+
+
+Name		= sand
+Location	= IN_ROOM:shore
+OFlags	{ NoGet }
+Desc[0]	= "There is a little pile of disturbed sand here."
+Examine	= "If the sand has been disturbed what do you think that means?"
+End		= sand
+
+Name		= horn
+Location	= IN_ROOM:shore
+OFlags	{ Destroyed }
+BValue	= 50
+Desc[0]	= "An old horn lies here."
+Examine	= "
+It is a small curved horn. It seems old and battered yet it gleams in the 
+sunlight."
+End		= horn
+
+Name		= latticeup
+PName		= lattice
+AltName	= roof
+Location	= IN_ROOM:lostland
+OFlags	{ NoGet Pushable }
+Linked	= latticedown
+State		= 1
+MaxState	= 1
+Examine	= "A section of the lattice looks loose.."
+End		= latticeup
+
+Name		= latticedown
+PName		= lattice
+Location	= IN_ROOM:wooddoor
+OFlags	{ NoGet }
+Linked	= latticeup
+State		= 1
+MaxState	= 1
+End		= latticedown
+
+Name		= wooden
+PName		= door
+Location	= IN_ROOM:wooddoor
+OFlags	{ NoGet }
+Linked	= indoor
+State		= 1
+MaxState	= 1
+End		= wooden
+
+Name		= indoor
+PName		= door
+Location	= IN_ROOM:inside
+OFlags	{ NoGet Openable }
+Linked	= wooden
+State		= 1
+MaxState	= 1
+End		= indoor
+
+Name		= crest
+Location	= IN_ROOM:square
+OFlags	{ NoGet }
+Examine	= "
+It is a golden crest, of a leaping fish with some roses. It is called formally
+Azure, a Salmon naiant Or between three Roses Argent seeded and barbed.  It is
+the crest of Gwyddno the King."
+End		= crest
+
+Name		= seefountain
+PName		= fountain
+Location	= IN_ROOM:fountain
+OFlags	{ NoGet }
+End		= seefountain
+
+Name		= tapestry
+AltName	= wall
+Location	= IN_ROOM:vaulted
+OFlags	{ NoGet Pushable }
+Linked	= secret
+State		= 1
+MaxState	= 1
+Desc[0]	= "One of the tapestries has been moved aside."
+Desc[1]	= "One of the tapestries, a great battle, catches your eye."
+Examine	= "Part of the tapestry looks a little loose..."
+End		= tapestry
+
+Name		= secret
+PName		= door
+Location	= IN_ROOM:staircase
+OFlags	{ NoGet }
+Linked	= tapestry
+State		= 1
+MaxState	= 1
+End		= secret
+
+Name		= crosskey
+PName		= key
+Location	= IN_ROOM:balustrade
+OFlags	{ Key }
+BValue	= 100
+Desc[0]	= "A heavy iron key lies here."
+Examine	= "The top is wrought into a decorative pattern, a circle quartered by a cross.."
+End		= crosskey
+
+Name		= stairdoor
+PName		= door
+Location	= IN_ROOM:staircase
+OFLags	{ NoGet }
+Linked	= galdoor
+State		= 1
+MaxState	= 1
+Desc[0]	= "A door that you hadn't noticed before stands open here."
+End		= stairdoor
+
+Name		= galdoor
+PName		= door
+Location	= IN_ROOM:gallery
+OFlags	{ NoGet }
+Linked	= stairdoor
+State		= 1
+MaxState	= 1
+End		= galdoor
+		
+Name		= galbook
+PName		= book
+Location	= IN_ROOM:gallery
+OFlags	{ NoGet Destroyed }
+Desc[0]	= "There is a large book on one of the tables."
+End		= galbook
+
+Name		= doorcoach
+PName		= door
+Location	= IN_ROOM:wooddoor
+OFlags	{ NoGet }
+Linked	= doorcountry
+State		= 1
+MaxState	= 1
+Desc[0]	= "There is another coach waiting here for you."
+End		= doorcoach	
+
+Name		= doorcountry
+PName		= door
+Location	= IN_ROOM:country
+Oflags	{ NoGet }
+Linked	= doorcoach
+State		= 1
+MaxState	= 1
+End		= doorcountry
+
+Name		= smallmirror
+PName		= mirror
+Location	= IN_ROOM:cottage
+OFlags	{ NoGet }
+State		= 0
+MaxState	= 0
+Desc[0]	= "There is a small mirror on one of the shelves."
+Examine	= "
+You see an old face in the mirror. A voice says, 'Remember what you have been
+told here in the Lost Land. And when you have the sword the Light will carry
+you home.'"
+End		= smallmirror
+
+Name		= hazelnut
+Altname	= nut
+Location	= IN_ROOM:tree4
+OFlags	{ Food GetFlips }
+Desc[0]	= "A hazelnut lies here."
+Desc[1]	= "A hazelnut hangs off one of the branches."
+Examine	= "Haven't you seen one before.. nutlike and edible.."
+End		= hazelnut
+
+Name		= apple
+Location	= IN_ROOM:tree6
+OFlags	{ Food GetFlips }
+Desc[0]	= "A small apple lies here."
+Desc[1]	= "A small apple hangs off one of the branches."
+Examine	= "It's a small apple.. edible..."
+End		= apple
+
+Name		= twig
+Location	= IN_ROOM:tree1
+OFlags	{ Destroyed }
+Desc[0]	= "An alder twig lies here."
+Examine	= "Its a twig."
+End		= twig
+
+Name		= bundle
+AltName	= twigs
+Location	= IN_ROOM:tree2
+OFlags	{ Destroyed }
+Desc[0]	= "A bundle of twigs lies here."
+Examine	= "Know what twigs are? They have somehow made themselves into an arrow!"
+End		= bundle
+
+Name		= ascroll
+PName		= scroll
+Location	= IN_ROOM:fountain
+Oflags	{ Destroyed }
+State		= 0
+MaxState	= 0
+Desc[0]	= "An ancient scroll with some gold lettering on lies here."
+Examine	="The words on the first scroll say, 'I am the womb of every holt'"
+End		= ascroll
+
+Name		= bscroll
+PName		= scroll
+Location	= IN_ROOM:deadend
+OFlags	{ Destroyed }
+State		= 0
+MaxState	= 0
+Desc[0]     = "An ancient scroll with some gold lettering on lies here."
+Examine	= "The words on the second scroll say, 'I am the blaze on every hill'"
+End		= bscroll
+
+Name		= cscroll
+PName		= scroll
+Location	= IN_ROOM:gallery
+OFlags	{ Destroyed }
+State		= 0
+MaxState	= 0
+Desc[0]     = "An ancient scroll with some gold lettering on lies here."
+Examine	= "The words on the third scroll say, 'I am the queen of every hive'"
+End		= cscroll
+
+Name        = dscroll
+PName       = scroll
+Location    = IN_ROOM:cottage
+OFlags      { Destroyed }
+State       = 0
+MaxState    = 0
+Desc[0]     = "An ancient scroll with some gold lettering on lies here."
+Examine     = "The words on the fourth scroll say, 'I am the shield for every head'"
+End         = dscroll
+
+Name		= escroll
+PName		= scroll
+Location	= IN_ROOM:towerent
+OFlags	{ Destroyed }
+State		= 0
+MaxState	= 0
+Desc[0]     = "An ancient scroll with some gold lettering on lies here."
+Examine     = "The words on the fifth scroll say, 'I am the tomb of every hope'"
+End		= escroll
+
+Name		= wheel
+Location	= IN_ROOM:wydyr
+OFlags	= { NoGet }
+Linked	= castlewheel
+State		= 1
+MaxState	= 1
+Desc[0]	= "The wheel has spun to a halt."
+Desc[1]	= "The spinning, razor-sharp wheel blocks the way into the tower."
+Examine	= "Hmm, it's a large spinning wheel.. can you imagine that?"
+End		= wheel
+
+Name		= castlewheel
+PName		= wheel
+Location	= IN_ROOM:dark
+OFlags	{ NoGet }
+Linked	= wheel
+State		= 1
+MaxState	= 1
+Desc[0]	= "The wheel has spun to a halt."
+Examine	= "Hmm, it's a large spinning wheel.. can you imagine that?"
+End		= castlewheel
+
+Name		= shield
+Location	= IN_ROOM:towerent
+OFlags	{ Armor Shield Wearable Antimagic}
+BValue	= 100
+Armor		= 60 
+Damage	= 0
+State		= 1
+MaxState	= 1
+Desc[0]	= "There is an ornate golden shield lying here."
+Desc[1]	= "Your eye is caught by something high on the wall.. a golden shield."
+Examine	= "It is truly a beautiful shield, and it glows with the power of the Light."
+End		= shield
+
+Name		= jewelstone
+PName		= stone
+Location	= IN_ROOM:toproom
+OFlags	{ Destroyed }
+BValue	= 150
+Desc[0]	= "A small blue-green stone lies here."
+Examine	= "All shiny, as if it was polished by the sea."
+End		= jewelstone
+
+Name		= scabbard
+Location	= IN_ROOM:toproom
+OFlags	{ Armor Wearable Destroyed }
+AFlags	{ Chest Back }
+BValue	= 100
+Armor		= 35 
+Desc[0]	= "A white leather scabbard with jewels inset lies here"
+Examine	= "Truly a kings armor"
+End		= scabbard
+
+Name		= eiriassword
+PName		= eirias
+Location	= IN_ROOM:toproom
+OFlags	{ Weapon Lit Destroyed }
+BValue	= 200
+Damage	= 37
+Desc[0]	= "The glowing sword of the Light lies here."
+Examine	= "Made for the Light, this sword pulls towards the Light always."
+End		= eiriassword
+
+%locations
+
+mountain s:shore w:hills1@caledonia ;
+Altitude = 2500
+lflags { Outdoors }
+Mountain Path^
+   You are standing on a mountain path leading downwards towards a lake. A 
+mist covers the lake and everything around you.
+^
+
+shore n:mountain ;
+Altitude = 700
+lflags { Outdoors } 
+Shore^
+   You walk out of the mist into brilliant sunshine. Ahead of you is the lake, 
+with the sun glittering off the waves.  There is a vast expanse of trees all 
+around you, stretching for miles to either side of you.
+^
+
+lostland d:^latticeup ;
+Altitude = 1000
+lflags { Outdoors }
+The Lost Land^
+   You stand high up, on a golden roof, behind a low &+ylattice&* of wrought gold. 
+Behind you, and at either side, stretch the roofs of a great city, gleaming 
+spires, towers and turrets crowding the skyline, some as golden as the place 
+where you stand, some dark as night. You can see, amongst the peaks and ridges 
+of the roofs, a great golden dome, topped with a golden arrow pointing 
+westwards to the blue horizon-line of the sea. The sides of the dome are banded 
+with panels of crystal running between strips of gold.
+^
+
+wooddoor u:^latticedown e:^wooden w:^doorcoach ;
+Altitude = 1000
+lflags { Outdoors }
+Wooden Door^
+   You are standing in front of a &+ywooden door&*, its surface scarred and pitted 
+as if by age.
+^
+
+inside w:^indoor u:gallery ;
+lflags { Dark }
+Inside^
+   A glimmer of light from somewhere, untraceable, shows you that you are in a 
+narrow corridor, low-roofed, ending a few yards ahead where a ladder rises 
+upwards out of sight.
+^
+
+gallery d:inside e:light w:^galdoor;
+lflags {}
+Gallery^
+   You come up through a trapdoor, close to one end of a long gallery. The 
+floor stretches before you in curious sections, one after another, on different 
+levels, so that one might be higher than the one before, and the next lower 
+than either. The place seems to be a kind of library. Heavy square tables and 
+chairs fill it, separated by low stacks of bookshelves, and the wall on your 
+left is covered entirely in books. The ceiling is wood-panelled. There are 
+people throughout the room, looking at various books, but they don't seem to 
+see or hear you. You look at one book a man is holding, but the title seems to 
+be in a foreign language and the pages are completely blank. You walk up the 
+length of the gallery, past all the people. As you turn a corner, the last 
+section of the gallery is filled with strong light blazing in from whatever 
+lies beyond.
+^
+
+light w:gallery ;
+lflags {}
+Light^
+   A great empty expanse of floor stretches before you, its walls lost in 
+shadow, its roof too high to be seen. A strong resonant voice says, "Welcome to 
+the Lost Land. You may call me Gwion. Have you come for Eirias, the crystal 
+sword?"
+^
+
+square n:coach ;
+Altitude = 1000
+lflags { Outdoors }
+City Square^
+   You are in a great open city square. It is edged by pillared grey-white 
+buildings gleaming in the sunlight, filled with people and music and the calls 
+of traders at bright coloured stalls, and the sparkle and splash of water flung 
+high by fountains.
+   There is a stir in the crowd, heads turning. You can see a coach, its roof 
+dark blue and splendidly decorated with gold, and blue plumes tossing before it 
+from the foreheads of tall midnight-black horses. A &+Ycrest&* is engraved on the 
+glossy door of the coach in gold, higher than your head.
+^
+
+coach n:garden ;
+Altitude = 1000
+lflags { Outdoors }
+The Coach^
+   The coach begins to move as soon as you are inside. You look out of the 
+window, into the brightness of the street. You are moving along a broad street 
+lined with curving arcades of houses that seem to you strangely beautiful, with 
+their clear lines and arches doors and wide-set, even windows, and walls of 
+warm golden stone. Then the brightness of the sun seems to dim a little, and as 
+you look outside to see why, you can see a rider following the coach. You don't 
+know why, but you know he is evil. He gallops effortlessly past you and onwards 
+towards your destination. The coach follows him, and turns into the entrance to 
+a magnificent garden. It stops suddenly and you know you have arrived.
+^
+
+garden n:fountain ;
+Altitude = 1000
+lflags { Outdoors }
+The Garden^
+   You pause for a moment, held by delight. The air is heavy with fragrance, 
+and everywhere there are roses. Squares, triangles, circles of bright blossom 
+patch the grass all around, red and yellow and white and all colours between. 
+Before you is the entrance to an enclosed circular garden, a tall arch in a 
+high hedge of tumbling red roses.
+^
+
+fountain s:garden ;
+Altitude = 1000
+lflags { Outdoors }
+The Fountain^
+   In the great circle of the garden, formal balustrades and seats of white 
+marble are set around a glittering &+Cfountain&* where three white dolphins 
+endlessly leap, spouting a high triple spray of tasselled water drops, with a 
+faint arching rainbow caught all over by the sun. And as if to offset the cool 
+lines of the marble, mounds of roses grow everywhere, tall as trees.
+^
+
+palace u:mirror1 ;
+Altitude = 1000
+lflags { Outdoors }
+The Courtyard^
+   You are in the arched entrance to a courtyard. High pillared walls rise on 
+all sides, set with tall nine-paned windows, and fantastic pointed towers rise 
+above the balustraded line of the roof. Every window is blank, there are no
+faces anywhere. Before you, a narrowing stone staircase rises to a square
+pillared doorway, ornamented with carved stone scrolls and figures, and a 
+replica of the crest of the leaping fish from the coach door.
+^
+
+mirror1 e:mirror2 ;
+lflags {}
+Entrance to the Palace^
+  All around, in an endless fierce glitter, are countless repeated images of 
+yourself. It is a corridor of mirrors leading only one way, east. There is no
+way out back to the courtyard.
+^
+
+mirror2 n:mirror2 e:mirror3 s:mirror2 w:mirror2 ;
+lflags { Maze }
+Maze of Mirrors^
+  All around, in an endless fierce glitter, are countless repeated images of
+yourself. It is a maze of mirrors...
+^
+
+mirror3 n:mirror2 e:mirror3 s:mirror4 w:mirror3 ;
+lflags { Maze }
+Maze of Mirrors^
+  All around, in an endless fierce glitter, are countless repeated images of
+yourself. It is a maze of mirrors...
+^
+
+mirror4 n:mirror2 e:mirror3 s:mirror4 w:mirror5 ;
+lflags { Maze }
+Maze of Mirrors^
+  All around, in an endless fierce glitter, are countless repeated images of
+yourself. It is a maze of mirrors...
+^
+
+mirror5 n:mirror6 e:mirror3 s:mirror4 w:mirror5 ;
+lflags { Maze }
+Maze of Mirrors^
+  All around, in an endless fierce glitter, are countless repeated images of
+yourself. It is a maze of mirrors...
+^
+
+mirror6 n:mirror4 e:mirror7 s:mirror5 w:mirror6 ;
+lflags { Maze }
+Maze of Mirrors^
+  All around, in an endless fierce glitter, are countless repeated images of
+yourself. It is a maze of mirrors...
+^
+
+mirror7 n:mirror5 e:mirror6 s:mirror8 w:mirror7 ;
+lflags { Maze }
+Maze of Mirrors^
+  All around, in an endless fierce glitter, are countless repeated images of
+yourself. It is a maze of mirrors...
+^
+
+mirror8 n:mirror6 e:mirror7 s:mirror8 w:mirror9 ;
+lflags { Maze }
+Maze of Mirrors^
+  All around, in an endless fierce glitter, are countless repeated images of
+yourself. It is a maze of mirrors...
+^
+
+mirror9 n:mirror10 e:mirror7 s:mirror8 w:mirror9 ;
+lflags { Maze }
+Maze of Mirrors^
+  All around, in an endless fierce glitter, are countless repeated images of
+yourself. It is a maze of mirrors...
+^
+
+mirror10 n:mirror8 e:deadend s:mirror9 w:mirror10 ;
+lflags { Maze }
+Maze of Mirrors^
+  All around, in an endless fierce glitter, are countless repeated images of
+yourself. It is a maze of mirrors...but you think you see something different
+to the east...
+^
+
+deadend w:mirror10 ;
+lflags {}
+Dead End?^
+   Suddenly, after the last turn, you come face to face with yourself in a 
+blank mirrored wall. Is it a dead end? You seem to hear a voice whispering "I
+think you should perhaps remember it..."
+^
+
+vaulted u:^tapestry ;
+lflags { Dark }
+Vaulted Hall^
+   You are in a high vaulted hall, whose white walls are hung with rich 
+tapestries and brilliant paintings. You look and there is the door that slammed 
+shut behind you at the start of the maze, but there is no sign of the maze. You 
+wonder if it was real...
+^
+
+staircase d:^secret e:^stairdoor u:balustrade ;
+lflags { Dark }
+Staircase^
+   The stairs seem to wind endlessly up and up. You feel like you have been 
+on the stairs forever.
+^
+
+balustrade d:staircase ;
+lflags {}
+Balustrade^
+   You find yourself behind a balustrade of pure wrought gold, looking out over 
+the gold and glittering roofs of the City and the mounded green sweep of the 
+park, just as you did at the very beginning, but you are much higher up now. 
+You see that the balcony you are on is the lower rim of a great curving white 
+and golden roof, and you realise that it is this, the Empty Palace of King 
+Gwyddno Garanhir, that is topped by the marvellous dome, banded in gold and 
+crystal, that you first saw glittering in the dawn. 
+^
+
+country n:forest1 ;
+Altitude = 1000
+lflags { Outdoors }
+The Coach^
+   You get into the coach and it moves off, out of the City. Before you lie 
+broad green fields, and a rough sandy road stretching brown-gold into the 
+distance with a wood beyond. Somewhere a lark sings in the summer sky, a blue 
+sky, patched here and there with puffy fair-weather clouds, the sun high 
+amongst them now.
+^
+
+forest1 n:forest2 ;
+Altitude = 900
+lflags { Outdoors }
+Forest^
+   The woodland through which you are passing is sparse and open at first, 
+leafy with bracken and undergrowth, still bright through the dappling shade. 
+The road, though narrowed to a track, winds through the trees, clear and sandy, 
+but gradually it becomes less distinct.
+^
+
+forest2 n:forest3 s:forest1 ;
+Altitude = 900
+lflags { Outdoors }
+Deeper into the Forest^
+   There are patches of grass growing in the sand of the track now, and the 
+arms of creeping plants reaching across. The air is cool as the forest grows 
+deeper. Few birds sing here. The trees are larger and thicker.. the forest goes
+on and on.
+^
+
+forest3 n:forest4 s:forest2 ;
+Altitude = 900
+lflags { Outdoors } 
+Deep Forest^
+  You can hear nothing now except the creaking of the coachs wheels as it 
+moves along the track. The path is completely overgrown, yet still visible; 
+covered, as if to mark it from its surroundings, by a mat of some small 
+creeping weed with dark green leaves. It is quite dark in here, and gloomy.
+^
+
+forest4 n:clearing s:forest3 ;
+Altitude = 900
+lflags { Outdoors }
+End of the Forest?^
+   The trees interlace overhead..it is dark, cold and gloomy, then.. suddenly..
+light begins to filter through the branches overhead once more, sand appears 
+between the tight-woven green leaves of the matted path. You feel an immense
+sense of relief.
+^
+
+clearing w:cottage n:road ;
+Altitude = 900
+lflags { Outdoors }
+Out of the Forest^
+   The coach stops here, and somehow you know you have to walk the rest of the
+way. You get out, and look around you. You have come out of the forest into
+a country area, with a little lane continuing on northwards and fields all 
+around. There is a little cottage to the west with a white maytree growing out
+of the roof.
+^
+
+road ;
+Altitude = 900
+lflags { Outdoors }
+Along the Road^
+  OK if you got this far you aren't mortal so WHAT THE HECK are you doing the
+quest for? *grin*
+^
+
+cottage e:clearing ;
+lflags {} 
+Cottage^
+   There is one small window that lets in a dim shadowy light, a broken shutter
+hangs from that wall. There are a couple of crude shelves on the wall, but 
+this cottage was never lived in. Probably used for animals, judging by the 
+smell.
+^
+
+clearing2 n:field1 s:field2 e:field3 w:cottage ;
+Altitude = 950
+lflags { Outdoors }
+Out of the Forest^
+   When you ran into the cottage, you seem to have lost track of the road
+somehow, and all you can see around you now are fields, stretching off into 
+the distance. You have no idea which way to go, but you do remember that the 
+road was going north of here, or at least you think it was.
+^
+
+field1 s:clearing2 e:field4 w:field2 n:field3 ;
+Altitude = 950
+lflags { Outdoors }
+Fields^
+   There is a lot of farmland round here, obviously. There are fields on every
+side of you, except south which is the clearing by the forest.
+^
+
+field2 n:clearing2 e:field1 w:field3 s:field4 ;
+Altitude = 950
+lflags { Outdoors }
+Fields^
+   There is a lot of farmland round here, obviously. There are fields on every
+side of you, except north which is the clearing by the forest.
+^
+
+field3 w:clearing2 s:field1 e:field2 n:field4 ;
+Altitude = 950
+lflags { Outdoors }
+Fields^
+   There is a lot of farmland round here, obviously. There are fields on every
+side of you, except west which is the clearing by the forest.
+^
+
+field4 w:field1 n:field2 s:field3 e:field5 ;
+Altitude = 950
+lflags { Outdoors }
+Fields^
+   There is a lot of farmland round here, obviously. There are fields on every
+side of you.
+^
+
+field5 w:field4 s:field3 n:field6 e:field2 ;
+Altitude = 950
+lflags { Outdoors }
+Fields^
+   There is a lot of farmland round here, obviously. There are fields on every
+side of you.
+^
+
+field6 s:field5 w:field3 e:field7 n:field1 ;
+Altitude = 950
+lflags { Outdoors }
+Fields^
+   There is a lot of farmland round here, obviously. There are fields on every
+side of you.
+^
+
+field7 w:field6 s:river n:field4 e:field2 ;
+Altitude = 950
+lflags { Outdoors }
+Fields^
+   There is a lot of farmland round here, obviously. There are fields on every
+side of you, except for the river which is to the south.
+^
+
+river n:field7 e:tree1 ;
+Altitude = 925
+lflags { Outdoors }
+River^
+   This is a little reed-fringed stream, running swiftly between high banks.
+^
+
+tree1 w:river n:tree2 ;
+Altitude = 950
+lflags { Outdoors }
+First Tree - Alder^
+   Facing you, with their backs to the river, are a crowded clump of slender
+trunks, green-barked, with broad round dancing leaves. Alder, growing with its
+feet wet, as the saying goes. The tree of fire, to free the earth from water.
+^
+
+tree2 s:tree1 n:tree3 ;
+Altitude = 950
+lflags { Outdoors }
+Second Tree - Willow^
+   A slender branched, long leaved, canopy of a tree. Willow, the enchanter's 
+tree. 'Strong as a young lion, pliant as a loving woman, and bitter to the 
+taste, as all enchantment in the end must be.'
+^
+
+tree3 s:tree2 n:tree4 ;
+Altitude = 950
+lflags { Outdoors }
+Third Tree - Birch^
+   A great knotted white tree rises before you, hard catkins dancing from its
+long thin brown twigs. Beneath the fluttering green leaves it is an old tree, 
+with white-spotted scarlet toadstools growing between its roots.
+^
+
+tree4 s:tree3 n:tree5 ;
+Altitude = 950
+lflags { Outdoors }
+Fourth Tree - Hazel^
+   The tree is broad and spreading, with the blunt rounded leaves and budding
+feathery nuts seen in a lot of country hedges. Hazel is said to be for healing,
+and for feeding starving travellers.
+^
+
+tree5 s:tree4 n:tree6 ;
+Altitude = 950
+lflags { Outdoors }
+Fifth Tree - Holly^
+   The tree has a smooth grey trunk, it glossy dark green leaves sharp-spined
+on the lower branches, and smooth ovals higher up.
+^
+
+tree6 s:tree5 n:tree7 ;
+Altitude = 950
+lflags { Outdoors }
+Sixth Tree - Apple^
+   An ancient sprawling apple tree curves to the ground before you like a bent-
+backed ancient man; it is the only tree that grows low and spreading and does
+not tower over your head.
+^
+
+tree7 s:tree6 n:wydyr ;
+Altitude = 950
+lflags { Outdoors }
+Seventh Tree - Oak^
+   The king of trees, the sturdy oak is massive, and towers above all the 
+other trees here. You could fit twenty men in the shade its branches cast, and
+it is cool and beautiful standing here.
+^
+
+wydyr s:tree7 n:dark ;
+Altitude = 950
+lflags { Outdoors }
+Caer Wydyr^
+   The great door of Caer Wydyr, the Tower of Glass, is visible at last, high
+on the rocky base at the top of a steep rough-hewn flight of steps. But it is
+a door barred against entry by an enchantment you could never have imagined. 
+Before it, spinning so fast that it is like a bright disc, hangs a gigantic
+&+Cwheel&*. There is no axle, nor any kind of support. The wheel hangs there in the
+air, deadly, forbidding approach, flashing round and round with a speed that
+gives out a menacing hum.
+^
+
+dark s:^castlewheel ;
+Altitude = 1000
+lflags { Outdoors }
+Beyond the Wheel^
+   A surge of darkness and fury and menace is streaming up the steps of the 
+Tower towards you. You feel the Terror of the Dark's Rising. You can't take 
+your eyes off the &+Cwheel&*, knowing that at any moment, the Dark could come
+pouring through to take what they see as rightfully theirs, Eirias!
+^
+
+towerent u:towerstairc ;
+Altitude = 1000
+lflags { Outdoors }
+Tower Entrance^
+   Brightness is everywhere: a soft greenish light filters through the quartz-
+like walls of the room. It could be a cave of ice. But it is a cluttered, busy
+place, as if someone left it in a hurry, while preoccupied with some great
+complex matter. Piles of curling manuscript lie on the tables and shelves, 
+and on the thick rush mat that covers the floor; against one wall an enormous
+heavy table is littered with strips of shining metal, and chunks of glass and
+rock, red and white, and greenish-blue, all among an array of gleaming tools
+which are obviously delicate jewelry tools.
+^
+
+towerstairc d:towerent u:toproom ;
+lflags {}
+Wrought-iron staircase^
+   You climb and climb this staircase, past rooms that are scattered with the
+impedimenta of living, of eating and sleeping, and yet had too, the strange
+deserted look of places left abandoned for a long time.
+^
+
+toproom ;
+lflags {}
+Dome of the Tower^
+   The light filtering through these walls is not cool and icy-green, but 
+dimmer, more subdued, for you now stand inside a great hemisphere, banded in
+gold and translucent glass. The dome is warm, its floor striped with the 
+sunlight that slants in through the banded roof; and yet it is a strangely
+gloomy place, bringing a heaviness to the senses. The room only holds one
+square table, a carved wooden screen, and a scattering of big high-backed
+chairs, as sturdy as if they were carved from solid blocks of wood.
+^

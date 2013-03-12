@@ -1,0 +1,2486 @@
+
+
+
+
+%mobiles
+
+Name            = chipmunk
+Pname           = "Chipmunk"
+Location        = oni2
+SFlags          { Female }
+Strength        = 40
+Damage          = 4
+Speed           = 5
+Description     = "A cute little chipmunk stares intently at you."
+Examine         = "Aww...what a cute chipmunk."
+End             = chipmunk
+
+Name            = treefrog1
+Pname           = "Frog"
+Location        = oni13
+Strength        = 100
+Damage          = 7
+Aggression      = 50
+Speed           = 5
+Description     = "A very large tree frog clings to a nearby tree."
+Examine         = "
+This tree frog is quite large. It stares back at you with unblinking eyes."
+End             = treefrog1
+
+Name            = treefrog2
+Pname           = "Frog"
+Location        = oni13
+Strength        = 125
+Damage          = 7
+Aggression      = 50
+Speed           = 5
+Description     = "A very large tree frog clings to a nearby tree."
+Examine         = "
+This tree frog is quite large. It stares back at you with unblinking eyes."
+End             = treefrog2
+
+Name            = treefrog3
+Pname           = "Frog"
+Location        = oni13
+Strength        = 75
+Damage          = 7
+Armor           = 0
+Aggression      = 50
+Speed           = 5
+Description     = "A large tree frog clings to a nearby tree."
+Examine         = "
+This tree frog is quite large. It stares back at you with unblinking eyes."
+End             = treefrog3
+
+Name            = spider
+Pname           = "Spider"
+Location        = oni31
+MFlags          { Venom }
+Strength        = 100
+Damage          = 15
+Armor           = 5
+Aggression      = 50
+Speed           = 10
+Description     = "A large black spider hangs from the ceiling."
+Examine         = "
+The large spider stares back at you with its many unmoving eyes."
+End             = spider
+
+Name            = ghoul1
+Pname           = "Ghoul"
+Location        = oni31
+MFlags          { Nocorpse }
+Strength        = 200
+Damage          = 15
+Armor           = 0
+Aggression      = 0
+Speed           = 1
+Description     = "The decaying carcass of a ghoul makes its way across the room."
+Examine         = "
+Pieces of flesh hang from multiple places, providing you with an indecent 
+view of the ghoul's internals."
+End             = ghoul1
+
+Name            = ghoul2
+Pname           = "Ghoul"
+Location        = oni31
+MFlags          { Nocorpse }
+Strength        = 200
+Damage          = 15
+Armor           = 0
+Aggression      = 0
+Speed           = 1
+Description     = "The decaying carcass of a ghoul makes its way across the room."
+Examine         = "
+Pieces of flesh hang from multiple places, providing you with an indecent 
+view of the ghoul's internals."
+End             = ghoul2
+
+Name            = statue1
+Pname           = "Statue"
+Location        = oni999
+EFlags		    { ImmMute ImmCripple Mute Cripple }
+Strength        = 300
+Damage          = 10
+Armor           = 40
+Aggression      = 100
+Speed           = 0
+Description     = "An ugly creature reminding you of a statue rushes towards you."
+Examine         = "
+This creature reminds you of one of the statues you saw in the hallway. 
+Protruding out of its long snout like mouth are numerous canine like teeth. 
+All that can be said about the rest of its face is that it is a malformed 
+mass of flesh with two bead like eyes set into it. Below the head he is 
+covered in a thick armor."
+End             = statue1
+
+Name            = statue2
+Pname           = "Statue"
+Location        = oni999
+EFlags		    {ImmMute ImmCripple Mute Cripple }
+Strength        = 400
+Damage          = 10
+Armor           = 30
+Aggression      = 100
+Speed           = 0
+Description     = "An ugly creature reminding you of a statue rushes towards you."
+Examine         = "
+This creature reminds you of one of the statues you saw in the hallway. 
+Protruding out of its long snout like mouth are numerous canine like teeth.
+All that can be said about the rest of its face is that it is a malformed 
+mass of flesh with two bead like eyes set into it. Below the head he is 
+covered in a thick armor."
+End             = statue2
+
+
+Name            = klink
+Pname           = "Klink"
+Location        = oni66
+EFlags		    {ImmMute Mute Fireball VTouch }
+Strength        = 50
+Damage          = 7
+Armor           = 0
+Aggression      = 0
+Speed           = 0
+Description     = "The owner, Klink, is behind the counter."
+Examine         = "
+Klink sits behind the counter reading a large tome. He answers any customer
+questions or sales, but promptly returns to reading."
+End             = klink
+
+Name            = citizen1
+Pname           = "citizen"
+Location        = oni64
+Strength        = 50
+Damage          = 7
+Armor           = 0
+Aggression      = 0
+Speed           = 4
+Description     = "A local citizen passes by."
+Examine         = "
+As you stare at the citizen, he gives you a sneer and continues on."
+End             = citizen1
+
+Name            = citizen2
+Pname           = "citizen"
+Location        = oni68
+Strength        = 50
+Damage          = 7
+Armor           = 0
+Aggression      = 0
+Speed           = 6
+Description     = "A local citizen passes by."
+Examine         = "
+As you stare at the citizen, he tries to avoid your eyes."
+End             = citizen2
+
+Name            = citizen3
+Pname           = "citizen"
+Location        = oni69
+SFlags          { Female }
+Strength        = 50
+Damage          = 7
+Armor           = 0
+Aggression      = 0
+Speed           = 7
+Description     = "A local citizen passes by."
+Examine         = "
+The citizen quickens her pace as you look at her."
+End             = citizen3
+
+Name            = citizen4
+Pname           = "citizen"
+Location        = oni70
+SFlags          { Female }
+Strength        = 50
+Damage          = 7
+Armor           = 0
+Aggression      = 0
+Speed           = 5
+Description     = "A local citizen passes by."
+Examine         = "
+As you stare at the citizen, she gives you a sneer and continues on."
+End             = citizen4
+
+Name            = knight1
+Pname           = "knight"
+Location        = oni200
+EFlags		    { ImmCripple ImmBlind }
+Strength        = 700
+Damage          = 20
+Armor           = 30
+Aggression      = 100
+Speed           = 2
+Description     = "A Knight of the White Phoenix prepares for battle!"
+Examine         = "
+Protected by a full suit of armor and a large shield and wielding a large
+broadsword, the Knights of the White Phoenix are prepared to battle anything,
+even a dangerous demon."
+End             = knight1
+
+Name            = knight2
+Pname           = "knight"
+Location        = oni200
+EFlags		    { ImmCripple ImmBlind }
+Strength        = 700
+Damage          = 30
+Armor           = 20
+Aggression      = 100
+Speed           = 2
+Description     = "A Knight of the White Phoenix prepares for battle!"
+Examine         = "
+Protected by a full suit of armor and a large shield and wielding a large
+broadsword, the Knights of the White Phoenix are prepared to battle anything,
+even a dangerous demon."
+End             = knight2
+
+Name            = knight3
+Pname           = "knight"
+Location        = oni200
+SFlags          { Female }
+EFlags		    { ImmCripple ImmBlind }
+Strength        = 700
+Damage          = 20
+Armor           = 30
+Aggression      = 100
+Speed           = 2
+Description     = "A Knight of the White Phoenix prepares for battle!"
+Examine         = "
+Protected by a full suit of armor and a large shield and wielding a large
+broadsword, the Knights of the White Phoenix are prepared to battle anything,
+even a dangerous demon."
+End             = knight3
+
+Name            = knight4
+Pname           = "knight"
+Location        = oni200
+EFlags		    { ImmCripple ImmBlind }
+Strength        = 700
+Damage          = 20
+Armor           = 30
+Aggression      = 100
+Speed           = 2
+Description     = "A Knight of the White Phoenix prepares for battle!"
+Examine         = "
+Protected by a full suit of armor and a large shield and wielding a large
+broadsword, the Knights of the White Phoenix are prepared to battle anything,
+even a dangerous demon."
+End             = knight4
+
+Name            = knight5
+Pname           = "knight"
+Location        = oni200
+EFlags		    { ImmCripple ImmBlind }
+Strength        = 700
+Damage          = 30
+Armor           = 20
+Aggression      = 100
+Speed           = 2
+Description     = "A Knight of the White Phoenix prepares for battle!"
+Examine         = "
+Protected by a full suit of armor and a large shield and wielding a large
+broadsword, the Knights of the White Phoenix are prepared to battle anything,
+even a dangerous demon."
+End             = knight5
+
+Name            = knight6
+Pname           = "knight"
+Location        = oni200
+SFlags          { Female }
+EFlags		    { ImmCripple ImmBlind }
+Strength        = 700
+Damage          = 20
+Armor           = 30
+Aggression      = 100
+Speed           = 2
+Description     = "A Knight of the White Phoenix prepares for battle!"
+Examine         = "
+Protected by a full suit of armor and a large shield and wielding a large
+broadsword, the Knights of the White Phoenix are prepared to battle anything,
+even a dangerous demon."
+End             = knight6
+
+Name            = wizard1
+Pname           = "sorceress"
+Location        = oni201
+SFlags          { Female }
+EFlags		    { Fireball Missile Frost VTouch IceStorm }
+PFlags          { NoMagic }
+Strength        = 300
+Damage          = 7
+Armor           = 10
+Aggression      = 100
+Speed           = 1
+Description     = "A Sorceress of the White Phoenix is beginning to cast a spell!"
+Examine         = "
+The Wizards of the White Phoenix have been trained to battle demons even
+without the aid of their brethren knights. Their arsenal of attack spells
+makes them very dangerous."
+End             = wizard1
+
+Name            = wizard2
+Pname           = "wizard"
+Location        = oni201
+SFlags          { }
+MFlags          { }
+EFlags		    { Fireball Missile Frost VTouch IceStorm }
+PFlags          { NoMagic }
+Strength        = 300
+Damage          = 7
+Armor           = 10
+Aggression      = 100
+Speed           = 1
+Description     = "A Wizard of the White Phoenix is beginning to cast a spell!"
+Examine         = "
+The Wizards of the White Phoenix have been trained to battle demons even
+without the aid of their brethren knights. Their arsenal of attack spells
+makes them very dangerous."
+End             = wizard2
+
+Name            = wizard3
+Pname           = "Sorceress"
+Location        = oni201
+SFlags          { Female }
+MFlags          { }
+EFlags		    { Fireball Missile Frost VTouch IceStorm }
+PFlags          { NoMagic }
+Strength        = 300
+Damage          = 7
+Armor           = 10
+Aggression      = 100
+Speed           = 1
+Description     = "A Sorceress of the White Phoenix is beginning to cast a spell!"
+Examine         = "
+The Wizards of the White Phoenix have been trained to battle demons even
+without the aid of their brethren knights. Their arsenal of attack spells
+makes them very dangerous."
+End             = wizard3
+
+Name            = wizard4
+Pname           = "wizard"
+Location        = oni201
+SFlags          { }
+MFlags          { }
+EFlags		    { Fireball Missile Frost VTouch IceStorm }
+PFlags          { NoMagic }
+Strength        = 300
+Damage          = 7
+Armor           = 10
+Aggression      = 100
+Speed           = 1
+Description     = "A Wizard of the White Phoenix is beginning to cast a spell!"
+Examine         = "
+The Wizards of the White Phoenix have been trained to battle demons even
+without the aid of their brethren knights. Their arsenal of attack spells
+makes them very dangerous."
+End             = wizard4
+
+Name            = wizard5
+Pname           = "Sorceress"
+Location        = oni201
+SFlags          { Female }
+MFlags          { }
+EFlags		    { Fireball Missile Frost VTouch IceStorm }
+PFlags          { NoMagic }
+Strength        = 300
+Damage          = 7
+Armor           = 10
+Aggression      = 100
+Speed           = 1
+Description     = "A Sorceress of the White Phoenix is beginning to cast a spell!"
+Examine         = "
+The Wizards of the White Phoenix have been trained to battle demons even
+without the aid of their brethren knights. Their arsenal of attack spells
+makes them very dangerous."
+End             = wizard5
+
+Name            = wizard6
+Pname           = "wizard"
+Location        = oni201
+SFlags          { }
+MFlags          { }
+EFlags		    { Fireball Missile Frost VTouch IceStorm }
+PFlags          { NoMagic }
+Strength        = 300
+Damage          = 7
+Armor           = 10
+Aggression      = 100
+Speed           = 1
+Description     = "A Wizard of the White Phoenix is beginning to cast a spell!"
+Examine         = "
+The Wizards of the White Phoenix have been trained to battle demons even
+without the aid of their brethren knights. Their arsenal of attack spells
+makes them very dangerous."
+End             = wizard6
+
+Name            = corrin
+Pname           = "Corrin"
+Location        = oni70
+Strength        = 100
+Damage          = 7
+Armor           = 0
+Aggression      = 0
+Speed           = 0
+Description     = "A odd person stands next to building with the sign 'Corrin's Home'"
+Examine         = "
+Corrin stares at you through squinted eyes."
+End             = corrin
+
+Name            = demon1
+Pname           = "The Minor Demon"
+Location        = oni87
+Strength        = 1000
+Damage          = 10
+Armor           = 10
+Aggression      = 0
+Speed           = 5
+Description     = "A minor demon quickly sees you!"
+Examine         = "
+This minor demon isn't very tough. But when it is attacked it teleports
+to escape."
+End             = demon1
+
+Name            = demon2
+Pname           = "The Medium Demon"
+Location        = oni91
+MFlags          { DrainScr }
+PFlags          { NoMagic }
+Strength        = 2000
+Damage          = 20
+Armor           = 5
+Aggression      = 100
+Speed           = 5
+Description     = "A medium threat demon charges at you!"
+Examine         = "
+This medium demon is difficult to kill because of it immunity to
+magic and its ability to weaken its victim in experience."
+End             = demon2
+
+Name            = demon3
+Pname           = "The Medium Demon"
+Location        = oni90
+PFlags          { NoMagic }
+Strength        = 2500
+Damage          = 5
+Armor           = 40
+Aggression      = 100
+Speed           = 0
+Description     = "A medium threat demon sits here unmoving."
+Examine         = "
+The demon is of immense size and has a hardened shell that protects it from
+most physical damage and magical damage. Luckily it's too slow to do any
+real damage."
+End             = demon3
+
+Name            = demon4
+Pname           = "The High Demon"
+Location        = oni93
+SFlags          { }
+MFlags          { BarWest BarNorth BarSouth BarEast Flyer Venom }
+EFlags	    { NegFireball NegMissile NegFrost NegShock NegVTouch NegBHands }
+PFlags          { }
+Strength        = 5000
+Damage          = 50
+Armor           = 40
+Aggression      = 100
+Speed           = 20
+Description     = "A high threat demon appears before you and surrounds you with its body."
+Examine         = "
+The demon has trapped you within its own body.  It doesn't look like there
+is anyway to escape except to hack through it."
+End             = demon4
+
+Name            = xergon
+Pname           = "Xergon"
+Location        = oni99
+EFlags          { Fireball }
+MFlags          { Flyer }
+Eflags		{ Fireball }
+Strength        = 9999
+Damage          = 60
+Armor           = 40
+Aggression      = 100
+Speed           = 20
+Description     = "Xergon the arch-demon stares cruelly at you."
+Examine         = "
+Years of imprisonment has caused Xergon's rage to build up to a point that
+he now blindly attacks anything that moves near him. He does so in a berserker
+like rage that makes him a terrifying opponent.
+"
+End             = xergon
+
+%objects
+
+Name            = warningsign
+AltName         = warning
+PName           = "sign" 
+Oflags          { NoGet } 
+State           = 0 
+MaxState        = 0 
+Location        = IN_ROOM:oni2
+Desc[0]         = "A sign is nailed on to one of the trees." 
+Examine         = " 
+W  NING! ! R v n  ah a .
+The sign has worn down to the point that it is difficult to read."
+End             = warningsign
+
+Name		= staff
+AltName         = staff 
+PName           = "branch" 
+State           = 0 
+MaxState        = 0 
+Armor           = 0 
+Damage          = 7 
+BValue          = 10 
+Size            = 5 
+Location        = IN_ROOM:oni4
+Oflags          { Weapon } 
+Desc[0]         = "A long stout branch has fallen here." 
+Examine         = "
+It is a stout branch, perfect for a walking stick. Could be used as a staff
+as well."
+End							= staff
+
+Name            = bushes
+AltName         = shrubs
+PName           = "bushes" 
+Oflags          { NoGet } 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni5
+Desc[0]		= "
+Someone seems to have gone through the bushes ahead, clearing a path through
+them. Looking through at the other side, you see a huge ravine, something you
+missed while looking over the top of the bushes. Going north would not be a
+good decision."
+Desc[1]         = "
+A group of large bushes blocks your path, but you can make out a small 
+building to the north over the top."
+Examine         = "
+You can see a small building to the north of the bushes. It looks like you
+should be able to walk through without much harm."
+End             = bushes
+
+Name            = medallion
+AltName         = necklace
+PName           = "medallion" 
+Oflags          { Wearable GetFlips} 
+Aflags		{ Neck }
+State           = 1 
+MaxState        = 1 
+BValue          = 300 
+Size            = 2
+Weight          = 2
+Location        = IN_ROOM:oni8
+Desc[0]         = "Someone has carelessly left a gold medallion on the floor."
+Desc[1]		= "
+A gold medallion is caught on one of the rocks, you might be able to
+reach for it as you pass by."
+Examine         = "It is a small gold medallion. Looks valuable."
+End             = medallion
+
+Name            = forestsign
+PName           = "sign" 
+Oflags          { NoGet } 
+State           = 0 
+MaxState        = 0 
+Location        = IN_ROOM:oni13
+Desc[0]         = "A sign is nailed on to one of the trees." 
+Examine         = " 
+.S L I
+"
+End             = forestsign
+
+Name    = door1_in
+AltName = doors
+PName   = door 
+Linked  = door1_out
+State   = 1 
+MaxState = 1
+Location = IN_ROOM:oni25
+oflags  { Openable NoGet } 
+Desc[0] = "Two large metal temple doors are open." 
+Desc[1] = "Two large metal temple doors bar you from continuing." 
+Examine = "
+The faces of the door have a carving on them. One depicts a large
+battle axe. The other depicts a full suit of armor."
+End     = door1_in
+
+Name    = door1_out
+AltName = doors
+PName   = door 
+Linked  = door1_in 
+State   = 1 
+MaxState = 1
+Location = IN_ROOM:oni26
+oflags  { Openable NoGet } 
+Desc[0] = "Two large metal temple doors are open." 
+Desc[1] = "Two large metal temple doors bar you from continuing." 
+Examine	= "This side of the door appears to be quite plain."
+End     = door1_out
+
+Name    = note
+AltName = paper
+PName   = note
+State   = 0
+MaxState = 0
+Location = IN_ROOM:oni37
+oflags  { } 
+Desc[0] = "A note sits precariously at the edge of the room." 
+Examine	= "
+legend
+ o :: stump
+ # :: plank
+
+    o-o- - -o
+    | | | | |
+S o###o- -o-o
+T   | | | # |
+A    -o-o-#-o
+R   | | | # |
+T   o- -o-#- -o exit
+    | | | # |
+    o#o- -o-o
+    
+>From the crude drawing, you guess you have to get across using the planks.
+But what is the catch?    
+"
+End     = note
+
+Name            = slot37e
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 0
+MaxState        = 1 
+Location        = IN_ROOM:oni37
+Desc[0]         = "A plank inserted into a slot extends to the east."
+Desc[1]         = "There is a slot cut into the east edge of the room." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot37e
+
+
+Name            = slot38e
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni38
+Desc[0]         = "A plank inserted into a slot extends to the east."
+Desc[1]         = "There is a slot cut into the east edge of the pillar." 
+Examine         = " 
+It looks like you can set one end of a plank in here.
+"
+End             = slot38e
+
+Name            = slot38s
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni38
+Desc[0]         = "A plank inserted into a slot extends to the south."
+Desc[1]         = "There is a slot cut into the south edge of the pillar." 
+Examine         = " 
+It looks like you can set one end of a plank in here.
+"
+End             = slot38s
+
+Name            = slot39e
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni39
+Desc[0]         = "A plank inserted into a slot extends to the east."
+Desc[1]         = "There is a slot cut into the east edge of the pillar." 
+Examine         = " 
+It looks like you can set one end of a plank in here.
+"
+End             = slot39e
+
+Name            = slot39s
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni39
+Desc[0]         = "A plank inserted into a slot extends to the south."
+Desc[1]         = "There is a slot cut into the south edge of the pillar." 
+Examine         = " 
+It looks like you can set one end of a plank in here.
+"
+End             = slot39s
+
+Name            = slot39w
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni39
+Desc[0]         = "A plank inserted into a slot extends to the west."
+Desc[1]         = "There is a slot cut into the west edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot39w
+Name            = slot40s
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni40
+Desc[0]         = "A plank inserted into a slot extends to the south."
+Desc[1]         = "There is a slot cut into the south edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot40s
+
+Name            = slot40w
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni40
+Desc[0]         = "A plank inserted into a slot extends to the west."
+Desc[1]         = "There is a slot cut into the west edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot40w
+
+Name            = slot41n
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni41
+Desc[0]         = "A plank inserted into a slot extends to the north."
+Desc[1]         = "There is a slot cut into the north edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot41n
+
+Name            = slot41e
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni41
+Desc[0]         = "A plank inserted into a slot extends to the east."
+Desc[1]         = "There is a slot cut into the east edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot41e
+
+Name            = slot41s
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni41
+Desc[0]         = "A plank inserted into a slot extends to the south."
+Desc[1]         = "There is a slot cut into the south edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot41s
+
+Name            = slot41w
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 0 
+MaxState        = 1 
+Location        = IN_ROOM:oni41
+Desc[0]         = "A plank inserted into a slot extends to the west."
+Desc[1]         = "There is a slot cut into the west edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot41w
+
+Name            = slot42e
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni42
+Desc[0]         = "A plank inserted into a slot extends to the east."
+Desc[1]         = "There is a slot cut into the east edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot42e
+
+Name            = slot42s
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 0 
+MaxState        = 1 
+Location        = IN_ROOM:oni42
+Desc[0]         = "A plank inserted into a slot extends to the south."
+Desc[1]         = "There is a slot cut into the south edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot42s
+
+Name            = slot42w
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni42
+Desc[0]         = "A plank inserted into a slot extends to the west."
+Desc[1]         = "There is a slot cut into the west edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot42w
+
+Name            = slot43n
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni43
+Desc[0]         = "A plank inserted into a slot extends to the north."
+Desc[1]         = "There is a slot cut into the north edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot43n
+
+Name            = slot43s
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni43
+Desc[0]         = "A plank inserted into a slot extends to the south."
+Desc[1]         = "There is a slot cut into the south edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot43s
+
+Name            = slot43w
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni43
+Desc[0]         = "A plank inserted into a slot extends to the west."
+Desc[1]         = "There is a slot cut into the west edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot43w
+
+Name            = slot44n
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni44
+Desc[0]         = "A plank inserted into a slot extends to the north."
+Desc[1]         = "There is a slot cut into the north edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot44n
+
+Name            = slot44e
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni44
+Desc[0]         = "A plank inserted into a slot extends to the east."
+Desc[1]         = "There is a slot cut into the east edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot44e
+
+Name            = slot44s
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni44
+Desc[0]         = "A plank inserted into a slot extends to the south."
+Desc[1]         = "There is a slot cut into the south edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot44s
+
+Name            = slot45e
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni45
+Desc[0]         = "A plank inserted into a slot extends to the east."
+Desc[1]         = "There is a slot cut into the east edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot45e
+
+Name            = slot45s
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni45
+Desc[0]         = "A plank inserted into a slot extends to the south."
+Desc[1]         = "There is a slot cut into the south edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot45s
+
+Name            = slot45w
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni45
+Desc[0]         = "A plank inserted into a slot extends to the west."
+Desc[1]         = "There is a slot cut into the west edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot45w
+
+Name            = slot46n
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni46
+Desc[0]         = "A plank inserted into a slot extends to the north."
+Desc[1]         = "There is a slot cut into the north edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot46n
+
+Name            = slot46s
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni46
+Desc[0]         = "A plank inserted into a slot extends to the south."
+Desc[1]         = "There is a slot cut into the south edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot46s
+
+Name            = slot46w
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni46
+Desc[0]         = "A plank inserted into a slot extends to the west."
+Desc[1]         = "There is a slot cut into the west edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot46w
+
+Name            = slot47n
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni47
+Desc[0]         = "A plank inserted into a slot extends to the north."
+Desc[1]         = "There is a slot cut into the north edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot47n
+
+Name            = slot47e
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni47
+Desc[0]         = "A plank inserted into a slot extends to the east."
+Desc[1]         = "There is a slot cut into the east edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot47e
+
+Name            = slot47s
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni47
+Desc[0]         = "A plank inserted into a slot extends to the south."
+Desc[1]         = "There is a slot cut into the south edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot47s
+
+Name            = slot48n
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni48
+Desc[0]         = "A plank inserted into a slot extends to the north."
+Desc[1]         = "There is a slot cut into the north edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot48n
+
+Name            = slot48e
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni48
+Desc[0]         = "A plank inserted into a slot extends to the east."
+Desc[1]         = "There is a slot cut into the east edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot48e
+
+Name            = slot48w
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni48
+Desc[0]         = "A plank inserted into a slot extends to the west."
+Desc[1]         = "There is a slot cut into the west edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot48w
+
+Name            = slot49n
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni49
+Desc[0]         = "A plank inserted into a slot extends to the north."
+Desc[1]         = "There is a slot cut into the north edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot49n
+
+Name            = slot49e
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 0 
+MaxState        = 1 
+Location        = IN_ROOM:oni49
+Desc[0]         = "A plank inserted into a slot extends to the east."
+Desc[1]         = "There is a slot cut into the east edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot49e
+
+Name            = slot50n
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni50
+Desc[0]         = "A plank inserted into a slot extends to the north."
+Desc[1]         = "There is a slot cut into the north edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot50n
+
+Name            = slot50e
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni50
+Desc[0]         = "A plank inserted into a slot extends to the east."
+Desc[1]         = "There is a slot cut into the east edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot50e
+
+Name            = slot50w
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 0 
+MaxState        = 1 
+Location        = IN_ROOM:oni50
+Desc[0]         = "A plank inserted into a slot extends to the west."
+Desc[1]         = "There is a slot cut into the west edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot50w
+
+Name            = slot51n
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 0 
+MaxState        = 1 
+Location        = IN_ROOM:oni51
+Desc[0]         = "A plank inserted into a slot extends to the north."
+Desc[1]         = "There is a slot cut into the north edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot51n
+
+Name            = slot51e
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni51
+Desc[0]         = "A plank inserted into a slot extends to the east."
+Desc[1]         = "There is a slot cut into the east edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot51e
+
+Name            = slot51w
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni51
+Desc[0]         = "A plank inserted into a slot extends to the west."
+Desc[1]         = "There is a slot cut into the west edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot51w
+
+Name            = slot52n
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni52
+Desc[0]         = "A plank inserted into a slot extends to the north."
+Desc[1]         = "There is a slot cut into the north edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot52n
+
+Name            = slot52w
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni52
+Desc[0]         = "A plank inserted into a slot extends to the west."
+Desc[1]         = "There is a slot cut into the west edge of the pillar." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot52w
+
+Name            = slot53w
+PName           = "slot" 
+Oflags          { NoGet Container} 
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:oni53
+Desc[0]         = "A plank inserted into a slot extends to the west."
+Desc[1]         = "There is a slot cut into the west edge of the room." 
+Examine         = "It looks like you can set one end of a plank in here."
+End             = slot53w
+
+Name            = plank3a
+PName           = "plank" 
+Oflags          { Unlocatable } 
+State           = 0 
+MaxState        = 0 
+Location        = IN_CONTAINER:slot37e
+Desc[0]         = "There is a medium sized plank here." 
+Examine         = " 
+The plank is medium sized compared to the other planks you see around
+the pit. It looks strong enough to support your weight and wide enough to
+walk across.
+"
+End             = plank3a
+
+Name            = plank3b
+PName           = "plank" 
+Oflags          { Unlocatable } 
+State           = 0 
+MaxState        = 0 
+Location        = IN_CONTAINER:slot41w
+Desc[0]         = "There is a medium sized plank here." 
+Examine         = " 
+The plank is medium sized compared to the other planks you see around
+the pit. It looks strong enough to support your weight and wide enough to
+walk across.
+"
+End             = plank3b
+
+Name            = plank1a
+PName           = "plank" 
+Oflags          { Unlocatable } 
+State           = 0 
+MaxState        = 0 
+Location        = IN_CONTAINER:slot49e
+Desc[0]         = "There is a small plank here." 
+Examine         = " 
+The plank is about short compared to the other planks you see around
+the pit. It looks strong enough to support your weight and wide enough to
+walk across.
+"
+End             = plank1a
+
+Name            = plank1b
+PName           = "plank" 
+Oflags          { Unlocatable } 
+State           = 0 
+MaxState        = 0 
+Location        = IN_CONTAINER:slot50w
+Desc[0]         = "There is a small plank here." 
+Examine         = " 
+The plank is about short compared to the other planks you see around
+the pit. It looks strong enough to support your weight and wide enough to
+walk across.
+"
+End             = plank1b
+
+Name            = plank5a
+PName           = "plank" 
+Oflags          { Unlocatable } 
+State           = 0 
+MaxState        = 0 
+Location        = IN_CONTAINER:slot42s
+Desc[0]         = "There is a large plank here." 
+Examine         = " 
+The plank is the largest compared to the other planks you see around
+the pit. It looks strong enough to support your weight and wide enough to
+walk across.
+"
+End             = plank5a
+
+Name            = plank5b
+PName           = "plank" 
+Oflags          { Unlocatable } 
+State           = 0 
+MaxState        = 0 
+Location        = IN_CONTAINER:slot51n
+Desc[0]         = "There is a large plank here." 
+Examine         = " 
+The plank is the largest compared to the other planks you see around
+the pit. It looks strong enough to support your weight and wide enough to
+walk across.
+"
+End             = plank5b
+
+Name            = statue1
+PName           = "statue" 
+Oflags          { NoGet } 
+State           = 0 
+MaxState        = 1
+Location        = IN_ROOM:oni55
+Desc[0]         = "There is a hideous stone statue standing at attention in the corner." 
+Examine         = " 
+The statue is indescribably ugly. Protruding out of its long snout like mouth 
+are numerous canine like teeth. All that can be said about the rest of its 
+face is that it is a malformed mass of flesh with two bead like eyes set into 
+it. The rest of the statue is finished off with a large amount of armor. 
+Probably a good thing.
+"
+End             = statue1
+
+Name            = statue2
+PName           = "statue" 
+Oflags          { NoGet } 
+State           = 0 
+MaxState        = 1
+Location        = IN_ROOM:oni56
+Desc[0]         = "There is a hideous stone statue standing at attention in the corner." 
+Examine         = " 
+The statue is indescribably ugly. Protruding out of its long snout like mouth 
+are numerous canine like teeth. All that can be said about the rest of its 
+face is that it is a malformed mass of flesh with two bead like eyes set into 
+it. The rest of the statue is finished off with a large amount of armor. 
+Probably a good thing.
+"
+End             = statue2
+
+Name            = sword1
+AltName         = sword
+PName           = "NamelessSword" 
+State           = 1 
+MaxState        = 2 
+Armor           = 0 
+Damage          = 30 
+BValue          = -500 
+Size            = 10 
+Location        = IN_ROOM:oni59
+Oflags          { Weapon UnLocatable GetFlips Cursed MissChance NegHealth NoSummon } 
+Desc[0]         = "A sword as tall as you has been left here." 
+Desc[1]         = "A sword as tall as you floats above the water."
+Desc[2]         = "A sword as tall as you with a gem in the hilt has been left here." 
+Examine         = "
+This is a sword of true craftsmanship. Although it stands as tall as you in
+height, it is as light as a normal sword. Its two edges are extremely sharp.
+Just touching it causes your finger to bleed. A sword of this quality surely
+has been given a name, but alas it has probably been forgotten as has the
+temple it had been found in."
+End             = sword1
+
+Name            = armor
+PName           = "NamelessArmor" 
+State           = 1 
+MaxState        = 1 
+Armor           = 50
+Damage          = 0
+BValue          = -500 
+Size            = 10 
+Location        = IN_ROOM:oni59
+Oflags          { Armor Wearable UnLocatable GetFlips Cursed SpellMiss NegMana NoSummon } 
+Aflags          { Head Face Neck Feet Hands Back Arms Chest Legs }
+Desc[0]         = "A full plate of armor as dark as night has been left here." 
+Desc[1]         = "A full plate of armor as dark as night floats above the water." 
+Examine         = "
+Although the armor feels highly polished, it does not reflect any light,
+giving it an eerie darkness to it. The large helmet molded in the shape of a
+dragon's head, plus the large spikes that protrude from the shoulder plate
+give the armor a sinister look. Giving it a quick test proves that it is
+quite strong. The name of this armor has probably been long forgotten."
+End             = armor
+
+Name            = bulletin
+PName           = "bulletin" 
+Oflags          { NoGet } 
+State           = 0 
+MaxState        = 0
+Location        = IN_ROOM:oni63
+Desc[0]         = "A bulletin is on the wall next to the gate." 
+Examine         = " 
+Various notices are tacked onto the bulletin. One notice catches your
+attention.
+
+Welcome to Deufel, home of the Order of the White Phoenix. For those who have
+never heard of the Order of the White Phoenix, they are an organization that
+has protected the lands against demons since the beginning of written history.
+Due to their efforts, demons are no longer a threat in this area. In fact, we
+offer to any demon that is brave enough to enter to do so. As long as no harm
+or wrong is done, demons are allowed within these town walls.
+
+Interesting...especially in your current situation.
+"
+End             = bulletin
+
+Name            = shelves
+PName           = "shelves" 
+Oflags          { NoGet } 
+State           = 1 
+MaxState        = 1
+Armor           = 15
+Location        = IN_ROOM:oni65
+End             = shelves
+
+Name            = poem
+PName           = "poem" 
+Oflags          { } 
+State           = 0 
+MaxState        = 0
+Location        = IN_ROOM:oni999
+Desc[0]         = "A poem has been carelessly dropped here." 
+Examine         = "
+Sent into the fire
+Across the fire
+Yearning the fire
+
+Artificial in nature
+Tested for nature
+
+Away from the light
+Loved by the light
+Tormented by the light
+Affected by the light
+Rendered by the light
+
+'oninoken'
+"
+End             = poem
+
+Name            = tome
+PName           = "tome" 
+Oflags          { NoGet } 
+State           = 1 
+MaxState        = 1
+Location        = IN_ROOM:oni66
+End             = tome
+
+Name            = free
+PName           = "free" 
+Oflags          { NoGet } 
+State           = 1 
+MaxState        = 1
+Location        = IN_ROOM:oni66
+End             = free
+
+Name            = prisonkey
+PName           = "key" 
+Oflags          { Getflips Key } 
+State           = 1 
+MaxState        = 1
+Location        = IN_ROOM:oni200
+Desc[0]         = "Someone has carelessly left the demon prison key here." 
+Desc[1]         = "The demon prison key hangs on the wall." 
+Examine         = "The prison key for the demon prison."
+End             = prisonkey
+
+Name    = pdoore1_in
+PName   = door 
+Linked  = pdoore1_out
+State   = 2 
+MaxState = 2
+Location = IN_ROOM:oni86
+oflags  { Lockable Openable NoGet } 
+Desc[0] = "The prison door to the east has been open." 
+Desc[1] = "A prison door bars you from the east." 
+Desc[2] = "A locked prison door bars you from the east." 
+Examine = "This door appears to be quite plain, but it is probably strengthened by magic."
+End     = pdoore1_in
+
+Name    = pdoore1_out
+PName   = door 
+Linked  = pdoore1_in 
+State   = 2 
+MaxState = 2
+Location = IN_ROOM:oni87
+oflags  { Lockable Openable NoGet } 
+Desc[0] = "The prison door has been open." 
+Desc[1] = "The prison door prevents you from exiting." 
+Desc[2] = "The locked prison door prevents you from escaping." 
+Examine	= "This door appears to be quite plain, but it is probably strengthened by magic."
+End     = pdoore1_out
+
+Name    = pdoorw1_in
+PName   = door 
+Linked  = pdoorw1_out
+State   = 2 
+MaxState = 2
+Location = IN_ROOM:oni86
+oflags  { Lockable Openable NoGet } 
+Desc[0] = "The prison door to the west has been open." 
+Desc[1] = "A prison door bars you from the west." 
+Desc[2] = "A locked prison door bars you from the west." 
+Examine = "This door appears to be quite plain, but it is probably strengthened by magic."
+End     = pdoorw1_in
+
+Name    = pdoorw1_out
+PName   = door 
+Linked  = pdoorw1_in 
+State   = 2 
+MaxState = 2
+Location = IN_ROOM:oni88
+oflags  { Lockable Openable NoGet } 
+Desc[0] = "The prison door has been open." 
+Desc[1] = "The prison door prevents you from exiting." 
+Desc[2] = "The locked prison door prevents you from escaping." 
+Examine	= "This door appears to be quite plain, but it is probably strengthened by magic."
+End     = pdoorw1_out
+
+Name    = pdoore2_in
+PName   = door 
+Linked  = pdoore2_out
+State   = 2 
+MaxState = 2
+Location = IN_ROOM:oni89
+oflags  { Lockable Openable NoGet } 
+Desc[0] = "The prison door to the east has been open." 
+Desc[1] = "A prison door bars you from the east." 
+Desc[2] = "A locked prison door bars you from the east." 
+Examine = "This door appears to be quite plain, but it is probably strengthened by magic."
+End     = pdoore2_in
+
+Name    = pdoore2_out
+PName   = door 
+Linked  = pdoore2_in 
+State   = 2 
+MaxState = 2
+Location = IN_ROOM:oni90
+oflags  { Lockable Openable NoGet } 
+Desc[0] = "The prison door has been open." 
+Desc[1] = "The prison door prevents you from exiting." 
+Desc[2] = "The locked prison door prevents you from escaping." 
+Examine	= "This door appears to be quite plain, but it is probably strengthened by magic."
+End     = pdoore2_out
+
+Name    = pdoorw2_in
+PName   = door 
+Linked  = pdoorw2_out
+State   = 2 
+MaxState = 2
+Location = IN_ROOM:oni89
+oflags  { Lockable Openable NoGet } 
+Desc[0] = "The prison door to the west has been open." 
+Desc[1] = "A prison door bars you from the west." 
+Desc[2] = "A locked prison door bars you from the west." 
+Examine = "This door appears to be quite plain, but it is probably strengthened by magic."
+End     = pdoorw2_in
+
+Name    = pdoorw2_out
+PName   = door 
+Linked  = pdoorw2_in 
+State   = 2 
+MaxState = 2
+Location = IN_ROOM:oni91
+oflags  { Lockable Openable NoGet } 
+Desc[0] = "The prison door has been open." 
+Desc[1] = "The prison door prevents you from exiting." 
+Desc[2] = "The locked prison door prevents you from escaping." 
+Examine	= "This door appears to be quite plain, but it is probably strengthened by magic."
+End     = pdoorw2_out
+
+Name    = pdoore3_in
+PName   = door 
+Linked  = pdoore3_out
+State   = 2 
+MaxState = 2
+Location = IN_ROOM:oni92
+oflags  { Lockable Openable NoGet } 
+Desc[0] = "The prison door to the east has been open." 
+Desc[1] = "A prison door bars you from the east." 
+Desc[2] = "A locked prison door bars you from the east." 
+Examine = "This door appears to be quite plain, but it is probably strengthened by magic."
+End     = pdoore3_in
+
+Name    = pdoore3_out
+PName   = door 
+Linked  = pdoore3_in 
+State   = 2 
+MaxState = 2
+Location = IN_ROOM:oni93
+oflags  { Lockable Openable NoGet } 
+Desc[0] = "The prison door has been open." 
+Desc[1] = "The prison door prevents you from exiting." 
+Desc[2] = "The locked prison door prevents you from escaping." 
+Examine	= "This door appears to be quite plain, but it is probably strengthened by magic."
+End     = pdoore3_out
+
+Name    = pdoorw3_in
+PName   = door 
+Linked  = pdoorw3_out
+State   = 2 
+MaxState = 2
+Location = IN_ROOM:oni92
+oflags  { Lockable Openable NoGet } 
+Desc[0] = "The prison door to the west has been open." 
+Desc[1] = "A prison door bars you from the west." 
+Desc[2] = "A locked prison door bars you from the west." 
+Examine = "This door appears to be quite plain, but it is probably strengthened by magic."
+End     = pdoorw3_in
+
+Name    = pdoorw3_out
+PName   = door 
+Linked  = pdoorw3_in 
+State   = 2 
+MaxState = 2
+Location = IN_ROOM:oni94
+oflags  { Lockable Openable NoGet } 
+Desc[0] = "The prison door has been open." 
+Desc[1] = "The prison door prevents you from exiting." 
+Desc[2] = "The locked prison door prevents you from escaping." 
+Examine	= "This door appears to be quite plain, but it is probably strengthened by magic."
+End     = pdoorw3_out
+
+Name            = notice
+PName           = "notice" 
+Oflags          { NoGet } 
+State           = 0 
+MaxState        = 0 
+Location        = IN_ROOM:oni92
+Desc[0]         = "A notice hangs next to the portal." 
+Examine         = " 
+Remember, if you are planning to enter the portal be sure to have someone
+waiting to let you out if necessary. There is no portal on the other side
+unless someone is here to open it or Xergon is defeated. We of the Order
+of the White Phoenix salute your bravery and wish you the best of luck."
+End             = notice
+
+Name            = treasure
+PName           = "treasure" 
+Oflags          { } 
+State           = 0
+MaxState        = 0 
+BValue          = 500 
+Size            = 5
+Weight          = 5
+Location        = IN_ROOM:oni100
+Desc[0]         = "Someone has carelessly left a pile of treasure in the corner."
+Examine         = "A pile of treasure, what more needs to be said."
+End             = treasure
+
+Name            = altar
+PName           = "altar" 
+Oflags          { NoGet } 
+State           = 2
+MaxState        = 2 
+Location        = IN_ROOM:oni102
+Examine         = "The altar is intricately carved with mystical symbols."
+End             = altar
+
+Name            = gem
+PName           = "gem" 
+Oflags          { GetFlips} 
+State           = 1
+MaxState        = 1
+BValue          = 100 
+Size            = 1
+Weight          = 1
+Location        = IN_ROOM:oni999
+Desc[0]         = "Someone has carelessly left a small gem here."
+Desc[1]         = "A small gem lies upon the altar."
+Examine         = "
+It's a small ruby like gem. Staring intently into it seems to provide
+pictures of another place."
+End             = gem
+
+Name            = notes
+altname         = note
+PName           = "notes" 
+Oflags          { GetFlips} 
+State           = 1
+MaxState        = 1
+BValue          = 100 
+Size            = 1
+Weight          = 1
+Location        = IN_ROOM:oni999
+Desc[0]         = "A pile of notes lies crumpled in the corner."
+Desc[0]         = "A pile of notes lies upon the altar."
+Examine         = "
+Reading through the notes explains the use of the gem. Apparently the gem is
+a rarity known as a banishment gem. It can be used to banish a creature for
+eternity to an empty plane. The Order of the White Phoenix had been collecting
+them to use with a weapon to fight demons, but the project had turned out to
+be a failure due to one of the side effects of the enchanted items. The gem
+had never actually been tested with the sword though."
+End             = notes
+
+Name            = sword2
+AltName         = sword
+PName           = "Oninoken" 
+State           = 0 
+MaxState        = 2 
+Armor           = 0 
+Damage          = 30 
+BValue          = 600 
+Size            = 10 
+Location        = IN_ROOM:oni999
+Oflags          { Weapon UnLocatable} 
+Desc[0]         = "A sword as tall as you with a gem in the hilt has been left here." 
+Desc[1]         = "A short sword with a gem in the hilt lies on the ground."
+Desc[2]         = "A long sword with a gem in the hilt lies here." 
+Examine         = "
+This is a sword of true craftsmanship. Although it stands as tall as you in
+height, it is as light as a normal sword. Its two edges are extremely sharp.
+Just touching it causes your finger to bleed. The ruby like gem in the hilt
+seems to be alive with the face of a demon."
+End             = sword2
+
+name = resetwand
+pname = wand
+Location = IN_ROOM:oni37
+Desc[0] = "A wand of stumping has been left here."
+Examine = "Wave me if you become stuck or wish to start over."
+End = resetwand
+
+%locations 
+
+oni1 n:oni2 s:sundforest6078@haondor;
+lflags { Outdoors NoMobiles } 
+Hidden Forest Path^ 
+   You are on a hidden forest path. The path continues further into the forest,
+but you cannot tell where it leads. The sound of rushing water can be barely
+made out. To the south you can still make out the main path.
+^
+
+oni2 n:oni3 s:oni1;
+lflags { Outdoors } 
+Hidden Forest Path^ 
+   You are on a hidden forest path. The path continues further into the forest,
+but you cannot tell where it leads. The sound of rushing water is getting
+louder. Looking back to the south, you try to make out the main path, but you
+cannot find it in the abundance of shrubs and foliage.
+^
+
+oni3 n:oni5 e:oni4 s:oni2;
+lflags { Outdoors } 
+Hidden Forest Path^ 
+   You are on a hidden forest path. The path continues further into the forest,
+but you cannot tell where it leads. The sound of rushing water is getting
+louder. Looking back to the south, you try to make out the main path, but you
+cannot find it in the abundance of shrubs and foliage. There is another path
+heading east here as well.
+^
+
+oni4 w:oni3;
+lflags { Outdoors } 
+Dead End^ 
+   Tall sheer cliff walls surround you, as you find yourself at a dead end.
+Upon examining the walls, you find it impossible to climb. The cliff walls seem
+to amplify the sound of the nearby rushing water, making it difficult to stay
+here without covering your ears.
+^
+
+oni5 n:oni6 s:oni3;
+lflags { Outdoors }
+Hidden Forest Path^
+   You are still on a hidden forest path. The path continues further into the
+forest, but you cannot tell where it leads. The sound of rushing water is
+getting quite loud, almost deafening in fact. Looking to the south, you see
+nothing but trees and shrubs.
+^
+
+oni6 d:oni8;
+lflags { Outdoors NoMobiles }
+Hidden Forest Path...still^
+   Wait...you are no longer on the hidden forest path. Instead, you are
+standing in mid-air over a ravine.
+^
+
+oni7;
+lflags { Outdoors NoMobiles Death }
+Ravine^
+   You try to peer further over the ravine edge. As you inch your way forward
+you lose your balance and tumble forward toward the rapids below.
+^
+
+oni8;
+lflags { Outdoors }
+Roaring Rapids^
+   You thrash about wildly as you are jostled around by the rapids. The current
+is just too strong for you to fight. You watch helplessly as the river pushes
+you towards a large grouping of rocks in the middle of the river.
+^
+
+oni9 e:oni10;
+lflags { Outdoors }
+Shore of a Calm River^
+   You find yourself on the shore of small river. From your position you can
+make out a tower jutting out of the forest to the north. There does not appear
+to be a path to the north, but you see a well traveled path to the east. 
+Looking across the river to the south, you cannot make out anything. The path
+to the west appears to be flooded, and looks impassible at the time.
+^
+
+oni10 e:oni11 w:oni9;
+lflags { Outdoors }
+Path by a River^
+   You are on an east-west path the follows the shores of a small river. The
+area is surrounded by a lush forest with plants that you are unfamiliar with.
+Amongst the trees you spot its various inhabitants, which you are equally
+unfamiliar with. They appear harmless, as many of them quickly dart out of view
+upon spotting you.
+^
+
+oni11 e:oni12 w:oni10;
+lflags { Outdoors }
+Path by a River^
+   You are on an east-west path the follows the shores of a small river. The
+area is surrounded by a lush forest with plants that you are unfamiliar with.
+Amongst the trees you spot its various inhabitants, which you are equally
+unfamiliar with. They appear harmless, as many of them quickly dart out of view
+upon spotting you. As you look towards the north, the forest appears to grow
+more dark and sinister.
+^
+
+oni12 n:oni13 w:oni11;
+lflags { Outdoors NoMobiles }
+Turn in the Path^
+   The path turns away from the river and heads north. It looks like you will
+have to enter the forest, which you cannot see more than 200 feet into, or head
+back to the west.
+^
+
+oni13 n:oni14 s:oni12;
+lflags{ Outdoors }
+Forest Entrance^
+   You stand near the entrance of the forest. To the south you can see the 
+light of day. To the north you see nothing but trees and darkness. From the 
+darkness you can make out glowing orbs, which appear to be staring directly 
+at you.
+^
+
+oni14 n:oni14 e:oni15 s:oni13 w:oni14;
+lflags { Outdoors Maze }
+Forest^
+   You are in a dense forest path. Very little light passes through the tall
+canopy above, making it difficult to tell which way to go.
+^
+
+oni15 n:oni16 e:oni15 s:oni14 w:oni14;
+lflags { Outdoors Maze }
+Forest^
+   You are in a dense forest path. Very little light passes through the tall
+canopy above, making it difficult to tell which way to go.
+^
+
+oni16 w:oni17 e:oni16 s:oni14 n:oni14;
+lflags { Outdoors Maze }
+Forest^
+   You are in a dense forest path. Very little light passes through the tall
+canopy above, making it difficult to tell which way to go.
+^
+
+oni17 n:oni18 e:oni14 s:oni14 w:oni17;
+lflags { Outdoors Maze }
+Forest^
+   You are in a dense forest path. Very little light passes through the tall
+canopy above, making it difficult to tell which way to go.
+^
+
+oni18 e:oni19 n:oni14 s:oni14 w:oni14;
+lflags { Outdoors Maze }
+Forest^
+   You are in a dense forest path. Very little light passes through the tall
+canopy above, making it difficult to tell which way to go.
+^
+
+oni19 s:oni20 e:oni14 n:oni14 w:oni14;
+lflags { Outdoors Maze }
+Forest^
+   You are in a dense forest path. Very little light passes through the tall
+canopy above, making it difficult to tell which way to go.
+^
+
+oni20 s:oni21 e:oni14 n:oni14 w:oni14;
+lflags { Outdoors Maze }
+Forest^
+   You are in a dense forest path. Very little light passes through the tall
+canopy above, making it difficult to tell which way to go.
+^
+
+oni21 e:oni22 n:oni14 s:oni14 w:oni21;
+lflags { Outdoors Maze }
+Forest^
+   You are in a dense forest path. Very little light passes through the tall
+canopy above, making it difficult to tell which way to go.
+^
+
+oni22 n:oni23 e:oni14 s:oni14 w:oni14;
+lflags { Outdoors Maze }
+Forest^
+   You are in a dense forest path. Very little light passes through the tall
+canopy above, making it difficult to tell which way to go.
+^
+
+oni23 n:oni24 e:oni14 s:oni23 w:oni14;
+lflags { Outdoors Maze }
+Forest^
+   Finally...an exit. Through the trees, you see an open clearing. At the
+center of the clearing is a small stone building. From this distance you cannot
+make out too much detail, except for that many of the walls have fallen and
+become piles of rubble.
+^
+
+oni24 n:oni25 s:oni23;
+lflags { Outdoors NoMobiles }
+Forest Clearing^
+   You stand in a clearing. Before you is what appears to be a very decrepit
+shrine or temple of some forgotten culture. The high walls that surround the
+shrine has started to crumble in some areas. Through the various gaps, you
+see a one story building with four pillars at the corner. Each pillar is topped
+with a different statue. The building and pillars appear to be in good shape,
+unlike the wall that surrounds it. Even with this fact, it appears that this
+place has been abandoned for quite some time.
+^
+
+oni25 n:^door1_in s:oni24;
+lflags { Outdoors NoMobiles }
+Entrance to Temple^
+   The shrine is in much better condition than the walls that surround it. In
+fact the shrine appears to have suffered very little wear and tear. Intricate
+carvings are etched into the walls depicting strange and hideous demons, making
+you wonder what lies within.
+^
+
+oni26 n:oni28 s:^door1_out;
+lflags { }
+Inside the Temple^
+   The interior of the temple is larger then one would expect from the outside.
+Large stone steps lead down to a large open area where much of the area is cast
+in shadow created by the large chandelier hanging above. You catch glimpses of
+movement, but it could be your imagination.
+^
+
+oni27 n:oni30 e:oni28;
+lflags { }
+Main Temple Floor^
+   You stand in the southwestern portion of the main temple floor. It is too
+dark to see too much further in any of the other directions.
+^
+
+oni28 n:oni31 e:oni29 w:oni27 s:oni26;
+lflags { }
+Main Temple Floor^
+   You stand in the southern portion of the main temple floor. To the south you
+see the large temple doors, leading back to the outside, at the top of large
+stone steps. It is too dark to see too much further in any of the other
+directions.
+^
+
+oni29 n:oni32 w:oni28;
+lflags { }
+Main Temple Floor^
+   You stand in the southeastern portion of the main temple floor. It is too
+dark to see too much further in any of the other directions.
+^
+
+oni30 n:oni33 e:oni31 s:oni27;
+lflags { }
+Main Temple Floor^
+   You stand in the western portion of the main temple floor. It is too dark
+to see too much further in any of the other directions.
+^
+
+oni31 n:oni34 e:oni32 w:oni30 s:oni28;
+lflags { }
+Main Temple Floor^
+   You stand in the central portion of the main temple floor. It is too dark
+to see too much further in any of the other directions.
+^
+
+oni32 n:oni35 w:oni31 s:oni29;
+lflags { }
+Main Temple Floor^
+   You stand in the eastern portion of the main temple floor. It is too dark
+to see too much further in any of the other directions.
+^
+
+oni33 e:oni34 s:oni30;
+lflags { }
+Main Temple Floor^
+   You stand in the northwestern portion of the main temple floor. It is too
+dark to see too much further in any of the other directions.
+^
+
+oni34 n:oni36 e:oni35 w:oni33 s:oni31;
+lflags { }
+Main Temple Floor^
+   You stand in the northern portion of the main temple floor. It is too dark
+to see too much further in any of the other directions.
+^
+
+oni35 w:oni34 s:oni32;
+lflags { }
+Main Temple Floor^
+   You stand in the northeastern portion of the main temple floor. It is too
+dark to see too much further in any of the other directions.
+^
+
+oni36 e:oni54 s:oni34;
+lflags { NoMobiles }
+Small Room^
+   You stand in a small room that seems to separate the main temple floor with
+a small hallway to the west.
+^
+
+oni37 e:oni41 s:oni81;
+lflags { CantSummon }
+Edge of Pit^
+   You stand at the edge of a large pit with some pillars and planks
+at various places. 
+^
+
+oni38 ;
+lflags { CantSummon }
+Pillar over a dark pit^
+   You are standing on top of a small pillar. The floor is actually quite a
+distance below and actually appears to be moving!
+^
+
+oni39 ;
+lflags { CantSummon }
+Pillar over a dark pit^
+   You are standing on top of a small pillar. The floor is actually quite a
+distance below and actually appears to be moving!
+^
+
+oni40 ;
+lflags { CantSummon }
+Pillar over a dark pit^
+   You are standing on top of a small pillar. The floor is actually quite a
+distance below and actually appears to be moving!
+^
+
+oni41 w:oni37;
+lflags { CantSummon }
+Pillar over a dark pit^
+   You are standing on top of a small pillar. The floor is actually quite a
+distance below and actually appears to be moving!
+^
+
+oni42 s:oni51;
+lflags { CantSummon }
+Pillar over a dark pit^
+   You are standing on top of a small pillar. The floor is actually quite a
+distance below and actually appears to be moving!
+^
+
+oni43 ;
+lflags { CantSummon }
+Pillar over a dark pit^
+   You are standing on top of a small pillar. The floor is actually quite a
+distance below and actually appears to be moving!
+^
+
+oni44 ;
+lflags { CantSummon }
+Pillar over a dark pit^
+   You are standing on top of a small pillar. The floor is actually quite a
+distance below and actually appears to be moving!
+^
+
+oni45 ;
+lflags { CantSummon }
+Pillar over a dark pit^
+   You are standing on top of a small pillar. The floor is actually quite a
+distance below and actually appears to be moving!
+^
+
+oni46 ;
+lflags { CantSummon }
+Pillar over a dark pit^
+   You are standing on top of a small pillar. The floor is actually quite a
+distance below and actually appears to be moving!
+^
+
+oni47 ;
+lflags { CantSummon }
+Pillar over a dark pit^
+   You are standing on top of a small pillar. The floor is actually quite a
+distance below and actually appears to be moving!
+^
+
+oni48 ;
+lflags { CantSummon }
+Pillar over a dark pit^
+   You are standing on top of a small pillar. The floor is actually quite a
+distance below and actually appears to be moving!
+^
+
+oni49 e:oni50;
+lflags { CantSummon }
+Pillar over a dark pit^
+   You are standing on top of a small pillar. The floor is actually quite a
+distance below and actually appears to be moving!
+^
+
+oni50 w:oni49;
+lflags { CantSummon }
+Pillar over a dark pit^
+   You are standing on top of a small pillar. The floor is actually quite a
+distance below and actually appears to be moving!
+^
+
+oni51 n:oni42;
+lflags { CantSummon }
+Pillar over a dark pit^
+   You are standing on top of a small pillar. The floor is actually quite a
+distance below and actually appears to be moving!
+^
+
+oni52 ;
+lflags { CantSummon }
+Pillar over a dark pit^
+   You are standing on top of a small pillar. The floor is actually quite a
+distance below and actually appears to be moving!
+^
+
+oni53 d:oni86;
+lflags { CantSummon }
+Edge of the Pit^
+   You stand on the opposite side of the pit. A small stairway leads further
+into the prison.
+^
+
+oni54 n:oni55 s:oni56 w:oni36;
+lflags { }
+Small Hallway^
+   The small hallway gives you a good view of the tall ceilings, but you cannot
+see into the rest of the room. The ceiling shimmers from some unseen object.
+It could possibly be some light reflecting off water. There doesn't appear to
+be anything else of interest in this room. It is possible to go north or south
+or back west to the staircase.
+^
+
+oni55 s:oni54 e:oni57;
+lflags { }
+North Hallway^
+   The northern end of the hallway opens up to the east. The room to the east 
+is ornately decorated. Torches shine down brightly on a huge pool in the center
+of the room as well as the metal decorations. There appears to be something in
+the middle of the pool, but the bright light makes it difficult to see clearly.
+^
+
+oni56 n:oni54 e:oni58;
+lflags { }
+South Hallway^
+   The southern end of the hallway opens up to the east. The room to the east 
+is ornately decorated. Torches shine down brightly on a huge pool in the center
+of the room as well as the metal decorations. There appears to be something in
+the middle of the pool, but the bright light makes it difficult to see clearly.
+^
+
+oni57 s:oni59 w:oni55;
+lflags { }
+Pool - North^
+   You stand at the north end of the large circular pool. Looking into the 
+pool, you find that even with all the lights around you, the pool seems to 
+fade into darkness. Floating above the center of the pool is a stand holding 
+a full suit of armor so dark that it absorbs the light and a sword that 
+appears to be sharp enough to cut through stone. Although the armor and sword 
+is out of reach, you can probably swim to it without problems.
+^
+
+oni58 n:oni59 w:oni56;
+lflags { }
+Pool - South^
+   You stand at the south end of the large circular pool. Looking into the 
+pool, you find that even with all the lights around you, the pool seems to 
+fade into darkness. Floating above the center of the pool is a stand holding 
+a full suit of armor so dark that it absorbs the light and a sword that 
+appears to be sharp enough to cut through stone. Although the armor and sword 
+is out of reach, you can probably swim to it without problems.
+^
+
+oni59 /*u:#EX_ONI_ONI103*/ ;
+lflags { }
+Pool^
+   You are surprised to find that instead of sinking into the pool, you are 
+able to stand on top of it as if it were solid rock. You find that you are 
+able to walk around the pool without any problems.
+^
+
+oni60 w:oni61;
+lflags { CantSummon }
+Underground Pond^
+   Looking around, you find yourself in a underground pond directly below a
+large circular opening in the ceiling. The pond isn't very deep and flows
+out to the west.
+^
+
+oni61 e:oni60 w:oni62;
+lflags { CantSummon }
+Underground Stream^
+   The stream continues to flow west. Off in the distance is a point of light
+that is probably the exit.
+^
+
+oni62 e:oni61 w:oni63;
+lflags { Outdoors CantSummon }
+East Shore^
+   You find yourself at the eastern edge of a large lake. To the west is a
+high sheer cliff with a small cave set into it. The lake is surrounded by
+dense forests to the north and south. To the west is a large dirt road, which
+heads towards a large wall.
+^
+
+oni63 e:oni62 w:oni64;
+lflags { Outdoors NoMobiles CantSummon }
+East Wall of Deufel^
+   The eastern edge of Deufel is protected by a large wall with a heavy iron
+portcullis allowing travelers to enter and exit. Currently there are no
+travelers entering or exiting the town, but guards are stationed nearby.
+^
+
+oni64 n:oni65 e:oni63 s:oni66 w:oni67;
+lflags { Outdoors CantSummon }
+East Deufel^
+   The eastern portion of Deufel is known as the scholarly portion. Many of
+its scholarly shops and places of interests are located within this section.
+Two of the more prominent sites are the Deufel Library to the north and
+Klink's Shop of Linguistics to the south.
+^
+
+oni65 s:oni64;
+lflags { CantSummon }
+Deufel Library^
+   What makes Deufel Library so special is that it houses the largest
+collection of material related to demons and demon-kind. Much of the
+information comes from books written by members of the Order of the White
+Phoenix. The rest of the libraries collection isn't shabby either. There are
+&+Gshelves&* upon shelves of books about various subjects on each of the nine
+floors.
+^
+
+oni66 n:oni64;
+lflags { CantSummon }
+Klink's Shop of Linguistics^
+   The shop you have entered is located in a small alley that is well off the
+main road. Even so, the shop is very crowded. Klink became famous after being
+the first to be able to speak with demons in one of their own languages. Now
+scholars from around the world come to learn from Klink.
+^
+
+oni67 n:oni68 e:oni64 s:oni69 w:oni70;
+lflags { Outdoors CantSummon }
+Deufel Square^
+   The center of Deufel is occupied by an large fountain dedicated to the
+Order of the White Phoenix. The fountain depicts the greatest moment in the
+Order's history, the trapping of the arch-demon Xergon. From here four main
+roads branch out to the north, east, south, and west.
+^
+
+oni68 n:oni84 s:oni67;
+lflags { Outdoors CantSummon }
+North Deufel^
+   The area is populated mainly by blacksmiths, trainers, and other services
+used by warriors. You can guess why, as to the north, outside the wall is a
+huge castle like complex with a banner displaying a white phoenix.
+^
+
+oni69 n:oni67 s:oni85;
+lflags { Outdoors CantSummon }
+South Deufel^
+   The southern section of Deufel is known as the entertainment section. Many
+artists, actors, singers and a variety of other entertainers have gathered
+here to perform in theaters and on open air stages. The scene changes as you
+go further south. A large castle like structure stands out to the south with
+the banner of a white phoenix.
+^
+
+oni70 e:oni67 w:oni72 s:oni71;
+lflags { Outdoors CantSummon }
+West Deufel^
+   The west side of Deufel is mainly a residential area. Homes range from
+small humble dwellings to large extravagant mansions.
+^
+
+oni71 n:oni70;
+lflags { CantSummon}
+Corrin's Home^
+   Corrin's home is pretty empty. Just a cot and a chair.
+^
+
+oni72 e:oni70 w:oni73;
+lflags { Outdoors CantSummon }
+West Wall of Deufel^
+   The western edge of Deufel is protected by a large wall with a heavy iron
+portcullis allowing travelers to enter and exit. Currently there are a few
+travelers entering and exiting the town.
+^
+
+oni73 e:oni72 w:oni74;
+lflags { Outdoors CantSummon }
+Deufel Temple^
+   When travelers first see Deufel Temple they are amazed at the beauty. Then
+they wonder why it is not within the town walls. The clerics of Deufel Temple
+have always felt that walls were not need to protect them. Their faith would
+be enough to protection. Even so, the temple has been destroyed on multiple
+occasions in the past, which results in the current, relatively new, temple.
+^
+
+oni74 e:oni73 u:oni75 d:oni76;
+lflags { CantSummon }
+Deufel Temple^
+   The interior of Deufel Temple is lit by large braziers placed at the
+corners of the room. Also providing light are the large stain glass windows
+depicting various events in the Order of the White Phoenix's history. A
+small alcove to the south provides access to a staircase to the balcony
+above and to the basement.
+^
+
+oni75 d:oni74;
+lflags { CantSummon }
+Deufel Temple Balcony^
+   The balcony overlooking the main floor of Deufel Temple allows more people
+to occupy the temple when needed.
+^
+
+oni76 u:oni74 e:oni77 ;
+lflags { CantSummon }
+Deufel Temple Basement^
+   The basement looks like it hasn't been used very often. Cobwebs cover just
+about everything. There are a few set of tracks, but most of them lead to wine
+barrels. One does stop in front of an empty portion of the east wall, but it
+looks like they turn around right away.
+^
+
+oni77 e:oni78 w:oni76;
+lflags { CantSummon }
+Underground Passage^
+   This almost forgotten secret passage was used by the Order of the White
+Phoenix to bring wounded to the clerics at Deufel Temple. Now in the time of
+peace, it has been pretty much forgotten about.
+^
+
+oni78 n:oni79 s:oni80 w:oni77;
+lflags { CantSummon }
+Underground Intersection^
+   Three underground passages intersect here. It is reasonable to assume that
+the northern passage leads to the Knight's compound, the southern passage to
+the Wizard's compound, and the western passage to Deufel Temple.
+^
+
+oni79 n:oni81 s:oni78;
+lflags { CantSummon }
+Underground Passage^
+   This almost forgotten secret passage was used by the Order of the White
+Phoenix to bring wounded to the clerics at Deufel Temple. Now in the time of
+peace, it has been pretty much forgotten about. To the north is the Knight's
+compound.
+^
+
+oni80 n:oni78 s:oni101;
+lflags { CantSummon }
+Underground Passage^
+   This almost forgotten secret passage was used by the Order of the White
+Phoenix to bring wounded to the clerics at Deufel Temple. Now in the time of
+peace, it has been pretty much forgotten about. This part of the passage
+leads to the Mage's compound to the south.
+^
+
+oni81 n:oni37 u:oni82 /*s:#EX_ONI_ONI79 */;
+lflags { CantSummon NoMobiles }
+Prison^
+   The prison beneath the compound of the Knights of the White Phoenix holds
+some of the most dangerous demons. It is even the home of Xergon, one of the
+most feared in the land. In order to keep things in order, the Knights have
+put in some precautions to prevent demons from escaping.
+^
+
+oni82 e:oni200 s:oni83 d:oni81;
+lflags { CantSummon }
+Main Chamber^
+   The main chamber allows access to the other parts of the compound. Signs
+show that to the east are the barracks, something you probably want to avoid.
+Down some stairs to the east is the prison section. To the south is the
+courtyard.
+^
+
+oni83 n:oni82 s:oni84;
+lflags { Outdoors CantSummon }
+Courtyard^
+   The courtyard at the Knights of the White Phoenix's compound is a large
+open area surrounded by high walls. The Knights use this area mainly for
+training and ceremonies. Currently the courtyard is not being used for
+any of those functions. The only apparent exit is to the south, back towards
+the town.
+^
+
+oni84 n:oni83 s:oni68;
+lflags { Outdoors CantSummon NoMobiles}
+North Wall of Deufel^
+   The northern edge of Deufel is protected by a large wall with a heavy iron
+portcullis allowing travelers to enter and exit. This gate is used most often
+by the Knights of the White Phoenix, who have a compound to the north.
+^
+
+oni85 n:oni69;
+lflags { Outdoors CantSummon NoMobiles}
+South Wall of Deufel^
+   The southern edge of Deufel is protected by a large wall with a heavy iron
+portcullis allowing travelers to enter and exit. This gate is used most often
+by the Wizards of the White Phoenix, who have a compound to the south. Looking
+around the compound, you find that it doesn't have any entrances. It looks like
+they use magic to move around.
+^
+
+oni86 n:oni89 e:^pdoore1_in w:^pdoorw1_in u:oni53;
+lflags { CantSummon }
+Prison Hall - South^
+   The prison consists of one long hallway with prison cells on either side.
+Currently the southern half of the hallway holds the minor demons. These aren't
+demons are weak though. Only compared to the other demons found further along
+can these be considered weak.
+^
+
+oni87 w:^pdoore1_out;
+lflags { CantSummon NoMagic }
+Prison Cell^
+   The prison cell is completely bare. Just the cold faces of the magically
+fortified stone walls.
+^
+
+oni88 e:^pdoorw1_out;
+lflags { CantSummon NoMagic }
+Prison Cell^
+   The prison cell is completely bare. Just the cold faces of the magically
+fortified stone walls.
+^
+
+oni89 n:oni92 e:^pdoore2_in s:oni86 w:^pdoorw2_in;
+lflags { CantSummon }
+Prison Hall - Halfway^
+   The halfway point of the hallway is surrounded by medium threat demons.
+^
+
+oni90 w:^pdoore2_out;
+lflags { CantSummon }
+Prison Cell^
+   The prison cell is completely bare. Just the cold faces of the magically
+fortified stone walls.
+^
+
+oni91 e:^pdoorw2_out;
+lflags { CantSummon }
+Prison Cell^
+   The prison cell is completely bare. Just the cold faces of the magically
+fortified stone walls.
+^
+
+oni92 n:oni95 e:^pdoore3_in s:oni89 w:^pdoorw3_in;
+lflags { CantSummon }
+Prison Hall - North^
+   The end of the long prison hallway. Here the high threat demons are kept.
+At the very northern end is a portal leading to Xergon, the demon considered
+the highest threat to the Order of the White Phoenix.
+^
+
+oni93 w:^pdoore3_out;
+lflags { CantSummon }
+Prison Cell^
+   The prison cell is completely bare. Just the cold faces of the magically
+fortified stone walls.
+^
+
+oni94 e:^pdoorw3_out;
+lflags { CantSummon }
+Prison Cell^
+   The prison cell is completely bare. Just the cold faces of the magically
+fortified stone walls.
+^
+
+oni95 n:oni99 e:oni96 w:oni97;
+lflags { CantSummon }
+Xergon's Prison Cell^
+   The prison cell is completely bare. Just the cold faces of the magically
+fortified stone walls. A pile of bones has been made near the spot where
+the exit should be.
+^
+
+oni96 n:oni98 w:oni95;
+lflags { CantSummon }
+Xergon's Prison Cell^
+   The prison cell is completely bare. Just the cold faces of the magically
+fortified stone walls.
+^
+
+oni97 n:oni100 e:oni95;
+lflags { CantSummon }
+Xergon's Prison Cell^
+   The prison cell is completely bare. Just the cold faces of the magically
+fortified stone walls.
+^
+
+oni98 s:oni96 w:oni99;
+lflags { CantSummon }
+Xergon's Prison Cell^
+   The prison cell is completely bare. Just the cold faces of the magically
+fortified stone walls.
+^
+
+oni99 e:oni98 s:oni95 w:oni100;
+lflags { CantSummon }
+Xergon's Prison Cell^
+   The prison cell is completely bare. Just the cold faces of the magically
+fortified stone walls.
+^
+
+oni100 e:oni99 s:oni97;
+lflags { CantSummon }
+Xergon's Prison Cell^
+   The prison cell is completely bare. Just the cold faces of the magically
+fortified stone walls.
+^
+
+oni101 u:oni201 s:oni102 /*n:#EX_ONI_ONI80 */;
+lflags { CantSummon NoMobiles}
+Basement^
+   The basement of the Wizards' main tower is used mainly for experiments.
+Most of the doors have been magically locked, but to the south is an alcove.
+^
+
+oni102 n:oni101;
+lflags { CantSummon }
+Altar Room^
+   This room contains the &+Galtar&* used by the Wizards for their magical
+experiments. It hasn't been used to often recently and has been gathering
+dust.
+^
+
+oni103 d:oni59;
+lflags { NoGoto NoAt }
+Hidden Room^
+   You find yourself in a small room with a message carved into the walls.
+
+The sword and gem together is not one but three.
+   hikala hoei humae 
+Only by the sword of a demon may they be called forth
+^
+
+oni200 w:oni82;
+lflags {CantSummon NoSummon}
+Barracks^
+   The barracks of the Knights of the White Phoenix.
+^
+
+oni201 n:oni85 d:oni101;
+lflags {CantSummon NoSummon}
+Main Tower^
+   The main tower of the Wizards of the White Phoenix is pretty empty. Most
+of the important stuff are kept elsewhere.
+^
+
+oni999 ;
+lflags { CantSummon NoSummon NoGoto NoAt Death }
+Within the Gem^
+   You find yourself within the crystal on the hilt of the nameless sword.
+A magical place created to imprison a being for eternity...
+^
+

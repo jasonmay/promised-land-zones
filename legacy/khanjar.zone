@@ -1,0 +1,2428 @@
+
+
+
+%rainfall:500
+
+%latitude:40
+
+%mobiles
+
+Name = mob9500
+Pname = "The female"
+Location = khanjar9507
+SFlags  {Female}
+PFlags  {}
+MFlags  {}
+Strength = 54
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A pretty female sits on the edge of a table, talking with someone."
+Examine = "
+She is dressed in loose clothes and wears a short, dark cloak.  
+Brown curly hair lines her face, a visage that in fact appears
+very pleasant, as if smile and joy used to house it.  Judging by 
+that short sword on her side, she is something more than just a 
+normal housewife.
+"
+End = mob9500
+
+Name = mob9501
+Pname = "A herdsman"
+Location = khanjar9507
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 71
+Damage = 8
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A herdsman sits here, concentrating on his beer."
+Examine = "
+Dressed in a bunch of worn-out clothes, this man does not seem to 
+own much of wealth. 
+"
+End = mob9501
+
+Name = mob9501_1
+Pname = "A herdsman"
+Location = khanjar9507
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 71
+Damage = 8
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A herdsman sits here, concentrating on his beer."
+Examine = "
+Dressed in a bunch of worn-out clothes, this man does not seem to 
+own much of wealth. 
+"
+End = mob9501_1
+
+Name = mob9501_2
+Pname = "A herdsman"
+Location = khanjar9507
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 71
+Damage = 8
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A herdsman sits here, concentrating on his beer."
+Examine = "
+Dressed in a bunch of worn-out clothes, this man does not seem to 
+own much of wealth. 
+"
+End = mob9501_2
+
+Name = mob9502
+Pname = "The hooded man"
+Location = khanjar9507
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 98
+Damage = 7
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "You barely notice a hooded man, sitting at the corner."
+Examine = "
+As you stare he turns away.  But you were quick enough to notice a 
+tattooed symbol on his wrist - like a small, reddish eye.   
+"
+End = mob9502
+
+Name = mob9503
+Pname = "The dwarf"
+Location = khanjar9506
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 90
+Damage = 15
+Armor = 10
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A taciturn dwarf is standing here, fingering his beard."
+Examine = "
+His great beard is reddish and it has been plaited carefully.  Even
+as a dwarf he looks very robust, and a huge rucksack and a bunch 
+of utilities, such as hammers and dark chisels, seem to be carried
+as though they weighted nothing.  
+"
+End = mob9503
+
+Name = mob9504
+Pname = "Barumafir"
+Location = khanjar9506
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 100
+Damage = 11
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "Barumafir, the keeper of this tavern is standing here."
+Examine = "
+Barumafir is a middle-aged, shortlike man with a bad sciatica. 
+But he does well with his tavern.
+"
+End = mob9504
+
+Name = mob9505
+Pname = "The guest"
+Location = khanjar9511
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 36
+Damage = 3
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A pale man is lying on the bed, moaning faintly."
+Examine = "
+This guy had too much money yesterday - most of it is gone now.  
+Not too enviable.
+"
+End = mob9505
+
+Name = mob9506
+Pname = "A ragamuffin"
+Location = khanjar9529
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 74
+Damage = 9
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A fierce ragamuffin rushes toward you from the shadows."
+Examine = "
+Dressed in dirty, tattered clothes, this being looks extremely poor.
+With a sick glow in his eyes he attacks you, intending to rob every-
+thing you possess.
+"
+End = mob9506
+
+Name = mob9506_1
+Pname = "A ragamuffin"
+Location = khanjar9529
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 74
+Damage = 9
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A fierce ragamuffin rushes toward you from the shadows."
+Examine = "
+Dressed in dirty, tattered clothes, this being looks extremely poor.
+With a sick glow in his eyes he attacks you, intending to rob every-
+thing you possess.
+"
+End = mob9506_1
+
+Name = mob9506_2
+Pname = "A ragamuffin"
+Location = khanjar9529
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 74
+Damage = 9
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A fierce ragamuffin rushes toward you from the shadows."
+Examine = "
+Dressed in dirty, tattered clothes, this being looks extremely poor.
+With a sick glow in his eyes he attacks you, intending to rob every-
+thing you possess.
+"
+End = mob9506_2
+
+Name = mob9506_3
+Pname = "A ragamuffin"
+Location = khanjar9530
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 74
+Damage = 9
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A fierce ragamuffin rushes toward you from the shadows."
+Examine = "
+Dressed in dirty, tattered clothes, this being looks extremely poor.
+With a sick glow in his eyes he attacks you, intending to rob every-
+thing you possess.
+"
+End = mob9506_3
+
+Name = mob9507
+Pname = "The pinemarten"
+Location = khanjar9548
+SFlags  {}
+PFlags  {}
+MFlags  { Flyer }
+Strength = 8
+Damage = 2
+Armor = -0
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A brown pinemarten stares at you."
+Examine = "
+The animal looks considerably meagre.
+"
+End = mob9507
+
+Name = mob9507_1
+Pname = "The pinemarten"
+Location = khanjar9536
+SFlags  {}
+PFlags  {}
+MFlags  { Flyer }
+Strength = 8
+Damage = 2
+Armor = -0
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A brown pinemarten stares at you."
+Examine = "
+The animal looks considerably meagre.
+"
+End = mob9507_1
+
+Name = mob9508
+Pname = "The Brownie"
+Location = khanjar9517
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 94
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small, long-bearded man is standing here."
+Examine = "
+What a jolly being.  His face is reddish and he looks very kind. 
+The clothes he wears are of cheerfully woven and brown leather, some 
+of them simply patterned.  As he were ascertaining something, he utters 
+odd words and beckons his companier.
+"
+End = mob9508
+
+Name = mob9508_1
+Pname = "The Brownie"
+Location = khanjar9517
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 94
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small, long-bearded man is standing here."
+Examine = "
+What a jolly being.  His face is reddish and he looks very kind. 
+The clothes he wears are of cheerfully woven and brown leather, some 
+of them simply patterned.  As he were ascertaining something, he utters 
+odd words and beckons his companier.
+"
+End = mob9508_1
+
+Name = mob9508_2
+Pname = "The Brownie"
+Location = khanjar9518
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 94
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small, long-bearded man is standing here."
+Examine = "
+What a jolly being.  His face is reddish and he looks very kind. 
+The clothes he wears are of cheerfully woven and brown leather, some 
+of them simply patterned.  As he were ascertaining something, he utters 
+odd words and beckons his companier.
+"
+End = mob9508_2
+
+Name = mob9508_3
+Pname = "The Brownie"
+Location = khanjar9518
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 94
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small, long-bearded man is standing here."
+Examine = "
+What a jolly being.  His face is reddish and he looks very kind. 
+The clothes he wears are of cheerfully woven and brown leather, some 
+of them simply patterned.  As he were ascertaining something, he utters 
+odd words and beckons his companier.
+"
+End = mob9508_3
+
+Name = mob9508_4
+Pname = "The Brownie"
+Location = khanjar9519
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 94
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small, long-bearded man is standing here."
+Examine = "
+What a jolly being.  His face is reddish and he looks very kind. 
+The clothes he wears are of cheerfully woven and brown leather, some 
+of them simply patterned.  As he were ascertaining something, he utters 
+odd words and beckons his companier.
+"
+End = mob9508_4
+
+Name = mob9508_5
+Pname = "The Brownie"
+Location = khanjar9519
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 94
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small, long-bearded man is standing here."
+Examine = "
+What a jolly being.  His face is reddish and he looks very kind. 
+The clothes he wears are of cheerfully woven and brown leather, some 
+of them simply patterned.  As he were ascertaining something, he utters 
+odd words and beckons his companier.
+"
+End = mob9508_5
+
+Name = mob9508_6
+Pname = "The Brownie"
+Location = khanjar9532
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 94
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small, long-bearded man is standing here."
+Examine = "
+What a jolly being.  His face is reddish and he looks very kind. 
+The clothes he wears are of cheerfully woven and brown leather, some 
+of them simply patterned.  As he were ascertaining something, he utters 
+odd words and beckons his companier.
+"
+End = mob9508_6
+
+Name = mob9508_7
+Pname = "The Brownie"
+Location = khanjar9532
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 94
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small, long-bearded man is standing here."
+Examine = "
+What a jolly being.  His face is reddish and he looks very kind. 
+The clothes he wears are of cheerfully woven and brown leather, some 
+of them simply patterned.  As he were ascertaining something, he utters 
+odd words and beckons his companier.
+"
+End = mob9508_7
+
+Name = mob9508_8
+Pname = "The Brownie"
+Location = khanjar9532
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 94
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small, long-bearded man is standing here."
+Examine = "
+What a jolly being.  His face is reddish and he looks very kind. 
+The clothes he wears are of cheerfully woven and brown leather, some 
+of them simply patterned.  As he were ascertaining something, he utters 
+odd words and beckons his companier.
+"
+End = mob9508_8
+
+Name = mob9508_9
+Pname = "The Brownie"
+Location = khanjar9533
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 94
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small, long-bearded man is standing here."
+Examine = "
+What a jolly being.  His face is reddish and he looks very kind. 
+The clothes he wears are of cheerfully woven and brown leather, some 
+of them simply patterned.  As he were ascertaining something, he utters 
+odd words and beckons his companier.
+"
+End = mob9508_9
+
+Name = mob9508_10
+Pname = "The Brownie"
+Location = khanjar9533
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 94
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small, long-bearded man is standing here."
+Examine = "
+What a jolly being.  His face is reddish and he looks very kind. 
+The clothes he wears are of cheerfully woven and brown leather, some 
+of them simply patterned.  As he were ascertaining something, he utters 
+odd words and beckons his companier.
+"
+End = mob9508_10
+
+Name = mob9508_11
+Pname = "The Brownie"
+Location = khanjar9534
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 94
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small, long-bearded man is standing here."
+Examine = "
+What a jolly being.  His face is reddish and he looks very kind. 
+The clothes he wears are of cheerfully woven and brown leather, some 
+of them simply patterned.  As he were ascertaining something, he utters 
+odd words and beckons his companier.
+"
+End = mob9508_11
+
+Name = mob9508_12
+Pname = "The Brownie"
+Location = khanjar9534
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 94
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small, long-bearded man is standing here."
+Examine = "
+What a jolly being.  His face is reddish and he looks very kind. 
+The clothes he wears are of cheerfully woven and brown leather, some 
+of them simply patterned.  As he were ascertaining something, he utters 
+odd words and beckons his companier.
+"
+End = mob9508_12
+
+Name = mob9508_13
+Pname = "The Brownie"
+Location = khanjar9534
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 94
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small, long-bearded man is standing here."
+Examine = "
+What a jolly being.  His face is reddish and he looks very kind. 
+The clothes he wears are of cheerfully woven and brown leather, some 
+of them simply patterned.  As he were ascertaining something, he utters 
+odd words and beckons his companier.
+"
+End = mob9508_13
+
+Name = mob9508_14
+Pname = "The Brownie"
+Location = khanjar9534
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 94
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small, long-bearded man is standing here."
+Examine = "
+What a jolly being.  His face is reddish and he looks very kind. 
+The clothes he wears are of cheerfully woven and brown leather, some 
+of them simply patterned.  As he were ascertaining something, he utters 
+odd words and beckons his companier.
+"
+End = mob9508_14
+
+Name = mob9508_15
+Pname = "The Brownie"
+Location = khanjar9535
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 94
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small, long-bearded man is standing here."
+Examine = "
+What a jolly being.  His face is reddish and he looks very kind. 
+The clothes he wears are of cheerfully woven and brown leather, some 
+of them simply patterned.  As he were ascertaining something, he utters 
+odd words and beckons his companier.
+"
+End = mob9508_15
+
+Name = mob9509
+Pname = "The Brownie"
+Location = khanjar9518
+SFlags  {}
+PFlags  {}
+MFlags  {Flyer}
+Strength = 86
+Damage = 6
+Armor = 6
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small man with a long, greenish beard stands here, barely seen."
+Examine = "
+He seems to have some peculiar abilities.  Perhaps these brownies 
+are not as harmless as they look like.
+"
+End = mob9509
+
+Name = mob9509_1
+Pname = "The Brownie"
+Location = khanjar9536
+SFlags  {}
+PFlags  {}
+MFlags  {Flyer}
+Strength = 86
+Damage = 6
+Armor = 6
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small man with a long, greenish beard stands here, barely seen."
+Examine = "
+He seems to have some peculiar abilities.  Perhaps these brownies 
+are not as harmless as they look like.
+"
+End = mob9509_1
+
+Name = mob9509_2
+Pname = "The Brownie"
+Location = khanjar9550
+SFlags  {}
+PFlags  {}
+MFlags  {Flyer}
+Strength = 86
+Damage = 6
+Armor = 6
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small man with a long, greenish beard stands here, barely seen."
+Examine = "
+He seems to have some peculiar abilities.  Perhaps these brownies 
+are not as harmless as they look like.
+"
+End = mob9509_2
+
+Name = mob9509_3
+Pname = "The Brownie"
+Location = khanjar9550
+SFlags  {}
+PFlags  {}
+MFlags  {Flyer}
+Strength = 86
+Damage = 6
+Armor = 6
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small man with a long, greenish beard stands here, barely seen."
+Examine = "
+He seems to have some peculiar abilities.  Perhaps these brownies 
+are not as harmless as they look like.
+"
+End = mob9509_3
+
+Name = mob9509_4
+Pname = "The Brownie"
+Location = khanjar9561
+SFlags  {}
+PFlags  {}
+MFlags  {Flyer}
+Strength = 86
+Damage = 6
+Armor = 6
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small man with a long, greenish beard stands here, barely seen."
+Examine = "
+He seems to have some peculiar abilities.  Perhaps these brownies 
+are not as harmless as they look like.
+"
+End = mob9509_4
+
+Name = mob9510
+Pname = "The Gwytehydra"
+Location = khanjar9523
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 120
+Damage = 8
+Armor = 6
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A greenish creature with many tentacles rises from the pond!"
+Examine = "
+These strange monsters are slimy and their skin is covered in the 
+shaking rings of meat and vesicles.  They have several ugly heads with 
+an eye standing on the each.  The land of Gwyte is where they come from. 
+It is rumouded that they serve the Evil and therefore were sent around 
+as messengers of horror.
+"
+End = mob9510
+
+Name = mob9511
+Pname = "Hraen"
+Location = khanjar9538
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 100
+Damage = 7
+Armor = 10
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A tall hunter stands here, glancing over the edge of the forest."
+Examine = "
+Hraen looks like a man who is always sure of himself and his 
+doings.  He is hardened in his work and keeps his carriage through 
+the years.  Though today's hunt does not seem a success at all.
+"
+End = mob9511
+
+Name = mob9512
+Pname = "the steinbock"
+Location = khanjar9540
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 69
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A large steinbock is here."
+Examine = "
+Eating in peace, it does not pay any attention to you.
+"
+End = mob9512
+
+Name = mob9512_1
+Pname = "the steinbock"
+Location = khanjar9541
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 69
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A large steinbock is here."
+Examine = "
+Eating in peace, it does not pay any attention to you.
+"
+End = mob9512_1
+
+Name = mob9512_2
+Pname = "the steinbock"
+Location = khanjar9541
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 69
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A large steinbock is here."
+Examine = "
+Eating in peace, it does not pay any attention to you.
+"
+End = mob9512_2
+
+Name = mob9512_3
+Pname = "the steinbock"
+Location = khanjar9543
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 69
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A large steinbock is here."
+Examine = "
+Eating in peace, it does not pay any attention to you.
+"
+End = mob9512_3
+
+Name = mob9512_4
+Pname = "the steinbock"
+Location = khanjar9545
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 69
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A large steinbock is here."
+Examine = "
+Eating in peace, it does not pay any attention to you.
+"
+End = mob9512_4
+
+Name = mob9512_5
+Pname = "the steinbock"
+Location = khanjar9545
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 69
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A large steinbock is here."
+Examine = "
+Eating in peace, it does not pay any attention to you.
+"
+End = mob9512_5
+
+Name = mob9512_6
+Pname = "the steinbock"
+Location = khanjar9545
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 69
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A large steinbock is here."
+Examine = "
+Eating in peace, it does not pay any attention to you.
+"
+End = mob9512_6
+
+Name = mob9513
+Pname = "The Hobgoblin"
+Location = khanjar9546
+SFlags  {}
+PFlags  {}
+MFlags  {Flyer}
+Strength = 86
+Damage = 18
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A hobgoblin stands here, grinning at you broadly."
+Examine = "
+The hobgoblin resembles much of those brownies you encountered 
+before, although being a bit shorter.  But somehow you feel their 
+personality might be entirely unlike, and include sides which are 
+dark and strange.
+"
+End = mob9513
+
+Name = mob9513_1
+Pname = "The Hobgoblin"
+Location = khanjar9546
+SFlags  {}
+PFlags  {}
+MFlags  {Flyer}
+Strength = 86
+Damage = 18
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A hobgoblin stands here, grinning at you broadly."
+Examine = "
+The hobgoblin resembles much of those brownies you encountered 
+before, although being a bit shorter.  But somehow you feel their 
+personality might be entirely unlike, and include sides which are 
+dark and strange.
+"
+End = mob9513_1
+
+Name = mob9514
+Pname = "The Centaur"
+Location = khanjar9568
+SFlags  {Female}
+PFlags  {}
+MFlags  {}
+Strength = 147
+Damage = 10
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 10
+Description = "A beautiful centaur rests on the dais."
+Examine = "
+She is tall and well-proportioned.  The dark hair descends on the 
+light brown skin, making no curls.  Her big eyes radiate wisdom and 
+pleasant heat, making it difficult to leave this fabulous being.  
+She appears to enjoy high esteem amidst the small folk of this forest. 
+"
+End = mob9514
+
+Name = mob9515
+Pname = "The Grand Brownie"
+Location = khanjar9568
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 97
+Damage = 8
+Armor = 6
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "An impressive brownie sits here, talking with the centaur."
+Examine = "
+Taller than others, this brownie looks very authoritative. His beard 
+is as white as snow and almost reaches his feet. The jacket he uses is
+decorative, and his hat is high and very fine in its own manner.
+"
+End = mob9515
+
+
+
+%objects
+
+Name = gate_khanjar9502
+Pname = gate
+Linked = gate_khanjar9501
+State = 1
+Maxstate = 2
+Desc[2] = "The gate is locked."
+Desc[1] = "The gate is closed."
+Desc[0] = "The gate is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:khanjar9501
+Examine = "
+You see the yard of the tavern.
+"
+End = gate_khanjar9502
+
+Name = door_khanjar9506
+Pname = door
+Altname = wooden
+Linked = door_khanjar9502
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:khanjar9502
+Examine = "
+You see the tavern.
+"
+End = door_khanjar9506
+
+Name = gate_khanjar9501
+Pname = gate
+Linked = gate_khanjar9502
+State = 1
+Maxstate = 2
+Desc[2] = "The gate is locked."
+Desc[1] = "The gate is closed."
+Desc[0] = "The gate is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:khanjar9502
+Examine = "
+You see the paved path behind the fence.
+"
+End = gate_khanjar9501
+
+Name = door_khanjar9505
+Pname = door
+Altname = wooden
+Linked = door_khanjar9504
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:khanjar9504
+Examine = "
+You see a small, wooden building.
+"
+End = door_khanjar9505
+
+Name = door_khanjar9504
+Pname = door
+Altname = wooden
+Linked = door_khanjar9505
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:khanjar9505
+Examine = "
+You see the yard of the tavern.
+"
+End = door_khanjar9504
+
+Name = door_khanjar9502
+Pname = door
+Altname = wooden
+Linked = door_khanjar9506
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:khanjar9506
+Examine = "
+You see the yard of this tavern.
+"
+End = door_khanjar9502
+
+Name = cupboard_khanjar9506
+Pname = cupboard
+Location = IN_ROOM:khanjar9506
+Oflags { Noget }
+Examine = "
+The cupboard is of some lacquered wood and the handicraft appears
+excellent.  The doubledoors of it are covered in a big painted picture,
+presenting a march of an ancient fully equipped army.  There are also 
+two large handles of pronze, formed in interesting spiral.
+" 
+End = cupboard_khanjar9506
+
+Name = door_khanjar9509
+Pname = door
+Altname = oaken
+Linked = door_khanjar9508
+State = 2
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:khanjar9508
+Examine = "
+A locked, oaken door...
+"
+End = door_khanjar9509
+
+Name = door_khanjar9508
+Pname = door
+Altname = oaken
+Linked = door_khanjar9509
+State = 2
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:khanjar9509
+End = door_khanjar9508
+
+Name = door_khanjar9511
+Pname = door
+Altname = wooden
+Linked = door_khanjar9510
+State = 1
+Maxstate = 2
+ 
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:khanjar9510
+Examine = "
+You see a room in confusion...
+"
+End = door_khanjar9511
+
+Name = door_khanjar9510
+Pname = door
+Altname = wooden
+Linked = door_khanjar9511
+State = 1
+Maxstate = 2
+
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:khanjar9511
+Examine = "
+You see the corridor.
+"
+End = door_khanjar9510
+
+Name = door_khanjar9513
+Pname = door
+Altname = wooden
+Linked = door_khanjar9512
+State = 2
+Maxstate = 2
+
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:khanjar9512
+Examine = "
+You see a wooden door.
+"
+End = door_khanjar9513
+
+Name = door_khanjar9512
+Pname = door
+Altname = wooden
+Linked = door_khanjar9513
+State = 2
+Maxstate = 2
+
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:khanjar9513
+Examine = "
+You see the corridor.
+"
+End = door_khanjar9512
+
+Name = sign_khanjar9519
+Pname = sign
+Location = IN_ROOM:khanjar9519
+Oflags { Noget }
+Examine = "
+
+This is about what you detect:
+
+                 *he ++n o- G**d i l
+
+                     20* m _ e 
+
+" 
+End = sign_khanjar9519
+
+Name = bush_khanjar9522
+Pname = bush
+Altname = peculiar
+Location = IN_ROOM:khanjar9522
+Oflags { Noget }
+Examine = "
+It appears old and greyish.  It looks as if there were something dark
+behind it... perhaps.
+" 
+End = bush_khanjar9522
+
+Name = door_khanjar9529
+Pname = door
+Altname = blackened
+Linked = door_khanjar9528
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:khanjar9528
+Examine = "
+You see a chaotic room.
+"
+End = door_khanjar9529
+
+Name = door_khanjar9528
+Pname = door
+Altname = blackened
+Linked = door_khanjar9529
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:khanjar9529
+Examine = "
+You see the vestibule.
+"
+End = door_khanjar9528
+
+Name = remnants_khanjar9541
+Pname = remnants
+Location = IN_ROOM:khanjar9541
+Oflags { Noget }
+Examine = "
+You see what mainly are small bones.
+" 
+End = remnants_khanjar9541
+
+Name = door_khanjar9547
+Pname = door
+Altname = wooden
+Linked = door_khanjar9546
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:khanjar9546
+Examine = "
+You see a brownish chamber-like.
+"
+End = door_khanjar9547
+
+Name = door_khanjar9546
+Pname = door
+Altname = wooden
+Linked = door_khanjar9547
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:khanjar9547
+Examine = "
+You see a dwelling of some kind.
+"
+End = door_khanjar9546
+
+Name = statue_khanjar9568
+Pname = statue
+Location = IN_ROOM:khanjar9568
+Oflags { Noget }
+Examine = "
+The statue is of light wood and appears very skillfully carved.  
+The woman it presents has a tall lenght of straight hair almost 
+reaching her legs.  Worn on her head is a crown made of the most 
+beautiful flowers, barely found in every forest.  Couple of small 
+birds are sitting on her shoulders, seemingly listening earnestly.  
+This must be the Queen of the Forest herself.
+" 
+End = statue_khanjar9568
+
+Name = obj9500
+Pname = bracelet
+Altname = leather
+Location = WORN_BY:mob9500
+State = 0
+Maxstate = 0
+Armor = 10
+Bvalue = 50
+Size = 1
+Weight = 1
+Oflags { Wearable Armor }
+Aflags {Hand }
+Desc[0] = "A tasseled bracelet is lying here."
+End = obj9500
+
+Name = obj9501
+Pname = ring
+Altname = red
+Location = WORN_BY:mob9500
+State = 0
+Maxstate = 0
+Bvalue = 50
+Size = 1
+Weight = 1
+Oflags { Wearable }
+Aflags {Hand }
+Desc[0] = "A red ring is lying here."
+End = obj9501
+
+Name = obj9502
+Pname = pendant
+Altname = stone
+Location = WORN_BY:mob9502
+State = 0
+Maxstate = 0
+Armor = 10
+Bvalue = 40
+Size = 1
+Weight = 1
+Oflags { Wearable Armor }
+Aflags {Neck }
+Desc[0] = "A small pendant is lying here."
+End = obj9502
+
+Name = obj9503
+Pname = sleeves
+Altname = dwarven
+Location = WORN_BY:mob9503
+State = 0
+Maxstate = 0
+Armor = 35
+Bvalue = 3
+Size = 3
+Weight = 3
+Oflags { Wearable Armor }
+Aflags {Arms }
+Desc[0] = "A pair of dark sleeves is lying here."
+End = obj9503
+
+Name = obj9504
+Pname = shoes
+Altname = bark
+Location = WORN_BY:mob9508_9
+State = 0
+Maxstate = 0
+Armor = 25
+Bvalue = 0
+Size = 2
+Weight = 2
+Oflags { Wearable Armor }
+Aflags {Feet }
+Desc[0] = "A tiny pair of shoes is here."
+End = obj9504
+
+Name = obj9504_1
+Pname = shoes
+Altname = bark
+Location = WORN_BY:mob9508_2
+State = 0
+Maxstate = 0
+Armor = 25
+Bvalue = 0
+Size = 2
+Weight = 2
+Oflags { Wearable Armor }
+Aflags {Feet }
+Desc[0] = "A tiny pair of shoes is here."
+End = obj9504_1
+
+Name = obj9505
+Pname = knife
+Altname = redDASHhandled
+Location = WIELDED_BY:mob9508_5
+State = 0
+Maxstate = 0
+Damage = 8
+Bvalue = 15
+Size = 1
+Weight = 1
+Oflags { Weapon }
+Desc[0] = "A red-handled knife is lying here."
+End = obj9505
+
+Name = obj9505_1
+Pname = knife
+Altname = redDASHhandled
+Location = WIELDED_BY:mob9508_8
+State = 0
+Maxstate = 0
+Damage = 8
+Bvalue = 15
+Size = 1
+Weight = 1
+Oflags { Weapon }
+Desc[0] = "A red-handled knife is lying here."
+End = obj9505_1
+
+Name = obj9506
+Pname = jerkin
+Altname = blue
+Location = WORN_BY:mob9508_15
+State = 0
+Maxstate = 0
+Armor = 40
+Bvalue = 1
+Size = 3
+Weight = 3
+Oflags { Wearable Armor }
+Aflags {Chest }
+Desc[0] = "A small jerkin is lying here."
+End = obj9506
+
+Name = obj9506_1
+Pname = jerkin
+Altname = blue
+Location = WORN_BY:mob9508_3
+State = 0
+Maxstate = 0
+Armor = 40
+Bvalue = 1
+Size = 3
+Weight = 3
+Oflags { Wearable Armor }
+Aflags {Chest }
+Desc[0] = "A small jerkin is lying here."
+End = obj9506_1
+
+Name = obj9507
+Pname = belt
+Altname = leather
+Location = WORN_BY:mob9508_15
+State = 0
+Maxstate = 0
+Armor = 30
+Bvalue = 0
+Size = 2
+Weight = 2
+Oflags { Wearable Armor }
+Aflags {Legs }
+Desc[0] = "A brown belt is lying here."
+End = obj9507
+
+Name = obj9507_1
+Pname = belt
+Altname = leather
+Location = WORN_BY:mob9508_9
+State = 0
+Maxstate = 0
+Armor = 30
+Bvalue = 0
+Size = 2
+Weight = 2
+Oflags { Wearable Armor }
+Aflags {Legs }
+Desc[0] = "A brown belt is lying here."
+End = obj9507_1
+
+Name = obj9508
+Pname = earring
+Altname = wooden
+Location = CARRIED_BY:mob9508_5
+State = 0
+Maxstate = 0
+Bvalue = 40
+Size = 1
+Weight = 1
+Oflags { Wearable }
+Desc[0] = "A small earring is lying here."
+End = obj9508
+
+Name = obj9508_1
+Pname = earring
+Altname = wooden
+Location = CARRIED_BY:mob9508_15
+State = 0
+Maxstate = 0
+Bvalue = 40
+Size = 1
+Weight = 1
+Oflags { Wearable }
+Desc[0] = "A small earring is lying here."
+End = obj9508_1
+
+Name = obj9509
+Pname = mittens
+Altname = green
+Location = WORN_BY:mob9508_15
+State = 0
+Maxstate = 0
+Armor = 15
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Wearable Armor }
+Aflags {Hands }
+Desc[0] = "A small pair of mittens is lying here."
+End = obj9509
+
+Name = obj9509_1
+Pname = mittens
+Altname = green
+Location = WORN_BY:mob9508_7
+State = 0
+Maxstate = 0
+Armor = 15
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Wearable Armor }
+Aflags {Hands }
+Desc[0] = "A small pair of mittens is lying here."
+End = obj9509_1
+
+Name = obj9510
+Pname = talon
+Altname = runed
+Location = CARRIED_BY:mob9508_5
+State = 0
+Maxstate = 0
+Bvalue = 20
+Size = 1
+Weight = 1
+Oflags {  }
+Desc[0] = "A small talon is lying here."
+End = obj9510
+
+Name = obj9510_1
+Pname = talon
+Altname = runed
+Location = CARRIED_BY:mob9508_3
+State = 0
+Maxstate = 0
+Bvalue = 20
+Size = 1
+Weight = 1
+Oflags {  }
+Desc[0] = "A small talon is lying here."
+End = obj9510_1
+
+Name = obj9511
+Pname = rucksack
+Altname = green
+Location = WORN_BY:mob9511
+State = 2
+Maxstate = 2
+Bvalue = 20
+Size = 65
+Weight = 2
+Oflags { Wearable Container }
+Aflags {Back }
+Desc[0] = "A modest green rucksack is lying here."
+End = obj9511
+
+Name = obj9512
+Pname = lantern
+Altname = carved
+Location = CARRIED_BY:mob9513
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 2
+Weight = 2
+Oflags { Lightable Extinguish }
+Desc[0] = "A small lantern of wood is lying here."
+End = obj9512
+
+Name = obj9513
+Pname = hat
+Location = WORN_BY:mob9515
+State = 0
+Maxstate = 0
+Armor = 20
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Wearable Armor }
+Aflags {Head }
+Desc[0] = "A conical, peculiar hat is lying here."
+End = obj9513
+
+Name = obj9514
+Pname = leggings
+Altname = woven
+Location = WORN_BY:mob9515
+State = 0
+Maxstate = 0
+Armor = 25
+Bvalue = 0
+Size = 2
+Weight = 2
+Oflags { Wearable Armor }
+Aflags {Legs }
+Desc[0] = "A pair of brown leggings is lying here."
+End = obj9514
+
+Name = obj9515
+Pname = tankard
+Location = CARRIED_BY:mob9504
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Food Alcohol }
+Desc[0] = "A tankard of beer is here."
+End = obj9515
+
+Name = obj9516
+Pname = soup
+Location = CARRIED_BY:mob9504
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "A plate of soup is here."
+End = obj9516
+
+Name = obj9517
+Pname = pastry
+Location = CARRIED_BY:mob9504
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "A nice pastry is here."
+End = obj9517
+
+Name = obj9520
+Pname = mask
+Altname = leather
+Location = WORN_BY:mob9508_6
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Wearable Armor }
+Aflags {Head }
+Desc[0] = "A green leather mask is lying here."
+End = obj9520
+
+Name = obj9520_1
+Pname = mask
+Altname = leather
+Location = WORN_BY:mob9508_13
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Wearable Armor }
+Aflags {Head }
+Desc[0] = "A green leather mask is lying here."
+End = obj9520_1
+
+Name = obj9530
+Pname = key
+Altname = bronze
+Location = CARRIED_BY:mob9505
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Key }
+Desc[0] = "A small bronze key is lying here."
+End = obj9530
+
+Name = obj9531
+Pname = key
+Altname = iron
+Location = CARRIED_BY:mob9504
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Key }
+Desc[0] = "A small iron key is lying here."
+End = obj9531
+
+%locations
+
+khanjar9500  w:sundhaven6760@sundhaven e:khanjar9501;
+Altitude = 200
+lflags { NoMobiles Outdoors }
+A Paved Path^
+   You are standing at the edge of the city.  From here, a short, 
+paved path leads toward the east.  To the northeast is a large building, 
+its yard lined by an old fence of stone.
+^
+
+khanjar9501 n:^gate_khanjar9502 w:khanjar9500 e:khanjar9514;
+Altitude = 200
+lflags { Outdoors }
+Before A Small Gate^
+   The paving turns toward the north, toward the wooden gate of 
+the fence.  A sign has been fastened on the gate, reading "Barumafir's
+Tavern".  A brown path leads to the east, toward light forest.
+^
+
+khanjar9502 n:^door_khanjar9506 s:^gate_khanjar9501 w:khanjar9503;
+Altitude = 200
+lflags { Outdoors }
+The Yard Of The Tavern^
+   This is a large yard growing plenty of grass and a few high bushes
+here and there.  The paving leads straight toward the tavern, but there
+is also a faint trail to the west.  This could be a place to have fun,
+at least some voices of singing are heard from inside the building.
+^
+
+khanjar9503 w:khanjar9504 e:khanjar9502;
+Altitude = 200
+lflags { Outdoors }
+On The Lawn^
+   You step on the lawn.  An old, large tree lines the track, and its 
+foliage covers the yard in massive shadows.  The corner of the tavern is
+close to the west.
+^
+
+khanjar9504 n:^door_khanjar9505 e:khanjar9503;
+Altitude = 200
+lflags { Outdoors }
+By The Side Of The Tavern^
+   You are standing close to the western fence of the yard.  The city 
+can be seen further to the west - masses of people and clamour.  To the 
+is a small, wooden, cell-like building, obviously a lavatory.
+^
+
+khanjar9505 s:^door_khanjar9504;
+lflags { OnePerson NoMobiles Dark }
+The Lavatory^
+   The lavatory is quite cramped and the smell around exactly what it 
+uses to be in places like this.  However the inside is very tidy, 
+seemingly taken care often.  Anyway, you are ready to leave now...
+^
+
+khanjar9506 s:^door_khanjar9502 w:khanjar9507 u:khanjar9508;
+lflags {  }
+Inside The Tavern^
+   The walls here are paneled in some wood of various deep brown 
+tints.  A large, wooden chandelier lits the room, making it very 
+homely.  The furniture is dominated by a tall desk close to the north 
+wall.  Behind it there stands a large, impressive &+Ccupboard&*.  To the 
+west is a high, arched doorway, above which a huge bearhead has been
+fastened, welcoming the customers in.
+   Broad stairs lead up.
+^
+
+khanjar9507 e:khanjar9506;
+lflags {  }
+A Smoky Drawing-Room^
+   You have arrived at a large drawing-room where quite an amount of 
+tobacco smoke hovers about, forcing you to cough loudly.  Heavy chairs 
+and tables can be seen all around.  The room is full of people, youngsters 
+and elders, riches and poors, all from the different social classes.
+   There is a wide collection of various hunting weapons on the western 
+wall.  The room is warmed up by a massive fireplace.
+^
+
+khanjar9508 n:khanjar9510 w:^door_khanjar9509 d:khanjar9506;
+lflags {  }
+At The Top Floor^
+   This north- and south-directed corridor is where the local guest 
+rooms are located at.  The walls are paneled in some fine wood, and 
+there hang deep green tapestries with some white decorations on them.  
+Torches cast soft light into the space.
+^
+
+khanjar9509 e:^door_khanjar9508;
+lflags { Dark }
+A Dusty Room^
+   The room has been furnished by a small elegant table, a strong 
+bed, an old bookcase, and a chest of drawers.  Somehow you feel that
+it won't be hired out so often, although it seems that no one has 
+been here in a few weeks.  But no doubt, there is someone's property 
+around...
+^
+
+khanjar9510 n:khanjar9512 s:khanjar9508 w:^door_khanjar9511;
+lflags {  }
+At The Top Floor^
+   You walk on the corridor.  A door to the west is ajar and you 
+wonder if you heard some voices from behind it.
+^
+
+khanjar9511 e:^door_khanjar9510;
+lflags { Dark }
+A Guest Room^
+   The air in this room is musty, and it smells of hard liquor.  On
+the floor there lie a bundle of creased clothes and a couple of muddy
+shoes.  As you step toward the window you notice that the floor there
+is sticky and covered in thousands of tiny glass fragments all around.
+   Obviously there has been a festival of some kind in the City at
+last night.
+^
+
+khanjar9512 s:khanjar9510 w:^door_khanjar9513;
+lflags {  }
+At The Top Floor^
+   The corridor ends here, and you find yourself standing by a small
+window.  Vast fields and forest are seen through it - everything looks
+peaceful out there, despite a few alarming rumours about the Forces of
+Evil gathering their power again.
+   To the west stands a wooden door.
+^
+
+khanjar9513 e:^door_khanjar9512;
+lflags { Dark }
+A Tidy Room^
+   The room is in extremely good order.  Every particle of dust or dirt
+of any kind appear to be wiped out.  Apparently there is a possible tenant
+coming soon.
+^
+
+khanjar9514 w:khanjar9501 e:khanjar9515;
+Altitude = 205
+lflags { Outdoors }
+At The Forest Edge^
+   You are walking on a brownish path that leads towards a light 
+forest to the east, and begins to wriggle its way there.  A mild 
+chirping can be heard from somewhere nearby.
+   The city of Sundhaven is further away to the west.
+^
+
+khanjar9515 n:khanjar9516 w:khanjar9514 e:khanjar9555;
+Altitude = 215
+lflags { NoMobiles Outdoors }
+A Path^
+   As the path finds its way through the forest it sometimes becomes 
+very narrow, wriggling by the side of some large stones.  Passing by 
+a wagon of any kind would be impossible.  To the east grows dense 
+thicket.
+^
+
+khanjar9516 s:khanjar9515 e:khanjar9517;
+Altitude = 225
+lflags { NoMobiles Outdoors }
+A Path^
+   The path seems to descend toward the east where you can make out 
+some sandy ground.  
+^
+
+khanjar9517 w:khanjar9516 e:khanjar9518;
+Altitude = 235
+lflags { Outdoors }
+A Small Dell^
+   You descend onto a sandy dell where you notice some old marks of 
+water, approximately flown here a few months ago.  The path continues to 
+the east, climbing over great roots.
+^
+
+khanjar9518 n:khanjar9519 w:khanjar9517 e:khanjar9531;
+Altitude = 245
+lflags { Outdoors }
+An Intersection of Paths^
+   You are standing at a small square from where trails lead north, west, 
+and east.  Since the foliage dominates your vision more or less, only the 
+highest of Towers of Sundhaven can be seen farther to the west.
+^
+
+khanjar9519 n:khanjar9520 s:khanjar9518;
+Altitude = 255
+lflags { Outdoors }
+A Grassy Path^
+   A grassy but quite a wide path leads here.  According a few deep
+grooves that are yet visible on it, this way was probably used much, a
+long time ago. 
+   Leaning against a greyish tree, there is a rottening, wooden sign.
+^
+
+khanjar9520 s:khanjar9519 d:khanjar9521;
+Altitude = 320
+lflags { NoMobiles Outdoors }
+A Low Hillside^
+   This is a low, bush-growing hillside.  The path appears to be leading
+toward what looks a small marshland down there.  For some reason it does 
+not look very fascinating.
+^
+
+khanjar9521 n:khanjar9524 e:khanjar9522 u:khanjar9520;
+Altitude = 210
+lflags { Real Outdoors }
+The Marshland^
+   As you reach the marshland, the clouds of insects catch you 
+in their unpleasant embrace, penetrating your very equipment.  You 
+move on quickly, over the damp hummocks and over the small pools of 
+black disgusting water, to escape those tiny winged beasts.  Further 
+away to the north seems to be an another hillside, growing high trees.  
+   Remainders of a bridge-like structure still lie here, leading
+across the marsh.
+^
+
+khanjar9522 w:khanjar9521 d:khanjar9523;
+Altitude = 180
+lflags { Real Outdoors }
+Stepping On Hammocks^
+   The most sturdiest hammocks here resist your weight easily, and 
+thus you are able to move on.  Close to the east grows a large, somewhat
+peculiar bush that covers your vision quite totally.  
+^
+
+khanjar9523 u:khanjar9522;
+Altitude = 100
+lflags { NoMagic NoMobiles OnWater Outdoors }
+A Jet-black Pond...^
+   Suddenly you are fallen down into jet-black and very cold water.
+Bubbles raise to the surface and at the same moment you feel a touch
+on your feet.  This feels ominous, as though there were something
+housing the bloody pool.
+^
+
+khanjar9524 s:khanjar9521 u:khanjar9525;
+Altitude = 210
+lflags { Real Outdoors }
+The Marshland^
+   You are walking at the northern part of the marshland.  Just to 
+the north is an another hillside, high and much more steeper than the 
+one you just descended.  It grows some deep brown hay and tall birches.  
+A faint trail climbs on it.
+^
+
+khanjar9525 n:khanjar9526 d:khanjar9524;
+Altitude = 275
+lflags { NoMobiles Outdoors }
+A Steep Hillside^
+   You ascend the hillside, struggling between the trees and their 
+twisted branches.  A figure of grey building begins to discern slowly 
+to the northwest.
+^
+
+khanjar9526 n:khanjar9527 s:khanjar9525 w:khanjar9528;
+Altitude = 275
+lflags { Outdoors }
+Before A Decayed Building^
+   You are standing at a grass-covered yard.  Just to the west lies 
+what may have been an inn of some kind years ago.  Now its roof and many 
+of the other wooden parts are mostly gone, and the greyish walls break 
+off so badly that you somewhat wonder how the building still stands.  An 
+open doorway gives passage inside.  To the north lies an old pen.
+^
+
+khanjar9527 s:khanjar9526;
+Altitude = 275
+lflags { Outdoors }
+Inside An Old Pen^
+   The muddy ground here is covered in wooden fragments and old junk, 
+nothing of interest.  To the north the forest gets thicker.
+^
+
+khanjar9528 n:^door_khanjar9529 e:khanjar9526 u:khanjar9530;
+lflags { NoMobiles }
+An Empty Vestibule^
+   You find yourself standing inside a dark vestibule, where the walls 
+are covered in vast cobwebs and some strange smears.  The wind blows in 
+from the holes of the walls, almost sounding as if there were a few small 
+spirits howling their regret.  To the north is a door, blackened but still 
+in existence.  Rather dangerous looking stairs lead upwards.
+^
+
+khanjar9529 s:^door_khanjar9528;
+lflags {  }
+A Chaotic Room^
+   The room is in chaotic order.  Parts of the upper floor have fallen 
+down here, and the former furniture is now more or less buried under them.
+At the corners there lie several rottening books, bedraggled tapestries,
+and broken vessels.  Besides, the room appears partially burned.
+^
+
+khanjar9530 d:khanjar9528;
+lflags {  }
+The Top Of The Stairs^
+   You are standing at the second floor of these ruins which seem to 
+swing every time you take a move.  There is no go to the north.  Once 
+apparently so elegant passage has vanished, totally rottened, and 
+collapsed away.
+^
+
+khanjar9531 w:khanjar9518 e:khanjar9532;
+Altitude = 255
+lflags { NoMobiles Outdoors }
+A Weak Trail^
+   The forest appears thicker now.  Massive trees tower around, making 
+you feel yourself tiny and pitiful compared to those old giants.  The trail
+here is quite narrow.  
+^
+
+khanjar9532 n:khanjar9534 s:khanjar9551 w:khanjar9531 e:khanjar9533;
+Altitude = 265
+lflags { Outdoors }
+A Weak Trail^
+   You step forward.  To the north is a small square, and to the south
+there is a grove of somekind.  The trail itself leads to the west and east.
+^
+
+khanjar9533 n:khanjar9535 s:khanjar9549 w:khanjar9532;
+Altitude = 255
+lflags { Outdoors }
+A Weak Trail^
+   You have arrived at a bend.  From here the trail turns to the north, 
+leading through the dark green arch of the gigantic trees.  To the south
+lies a small grove.
+^
+
+khanjar9534 s:khanjar9532 e:khanjar9535;
+Altitude = 255
+lflags { Outdoors }
+A Square of Mushrooms^
+   You are standing at a small square, surrounded by tall trees.  Dozens 
+of deep brown mushrooms grow here, seemingly alluring the animals of the 
+forest, for many of them appear munched.  The trail lies to the southeast.
+^
+
+khanjar9535 s:khanjar9533 w:khanjar9534 e:khanjar9536;
+Altitude = 255
+lflags { Outdoors }
+A Weak Trail^
+   You are walking on a narrow trail.  The trees are getting more 
+apart slowly, and you hear birds singing here and there.  Way farther 
+to the east raises a tremendous, grey figure, the mountainside of
+Great Aesarthwe.
+^
+
+khanjar9536 e:khanjar9537 w:khanjar9535;
+Altitude = 255
+lflags { Outdoors }
+A Weak Trail^
+   The forest is clearly more lighter now, and you sense gentle sunshine 
+on your cheeks.  The trail leads east toward the mountain, and west, into 
+the deeper forest.
+^
+
+khanjar9537 e:khanjar9538 w:khanjar9536;
+Altitude = 350
+lflags { Outdoors }
+A Lighter Forest^
+   You are approaching the edge of the forest from where a stony 
+mountainside begins to ascend, very gentle at first.  Rippling of 
+water can be heard from nearby.
+^
+
+khanjar9538 e:khanjar9539 w:khanjar9537;
+Altitude = 600
+lflags { NoMobiles Outdoors }
+A Small Brook^
+   This small brook streams somewhere from the highest summits of the 
+mountain.  Its water is clear and very refreshive, and you can see the
+sunshine make it sparkle splendid at the upper course of the brook where
+lies a picturesque waterfall.  A small bridge allows passage.
+^
+
+khanjar9539 w:khanjar9538 u:khanjar9540;
+Altitude = 1200
+lflags { NoMobiles Outdoors }
+Walking On Stony Soil^
+   As you walk on, the mountainside begins to change much more steeper 
+before you.  However it seems that you can advance easily enough.
+^
+
+khanjar9540 s:khanjar9542 e:khanjar9541 u:khanjar9544 d:khanjar9539;
+Altitude = 2400
+lflags { NoMobiles Outdoors Cold }
+Climbing On The Mountainside^
+   You ascend a narrow split and arrive at a small plateau that 
+continues both south and east.  Dark fungus appears to grow profuse
+here.      
+^
+
+khanjar9541 w:khanjar9540;
+Altitude = 4000
+lflags { Outdoors Cold }
+Before A Gigantic Boulder^
+   Wedged in at the ancient times, the massive boulder projects here
+before you.  It is black all over and partly of some glasslike material.  
+Some &+Cremnants&* lie under it.  The plateau extends to the west.
+^
+
+khanjar9542 s:khanjar9543 n:khanjar9540;
+Altitude = 4000
+lflags { Outdoors Cold }
+At The Midst Of Some Edges^
+   You are walking between some edges.  Since most of them seem to be quite 
+sharp, it is wise to be careful, this is not the day to get impaled.  To 
+the north is what appears a brink.  Also, the mountainside above remains 
+climbable.
+^
+
+khanjar9543 n:khanjar9542 d:khanjar9572;
+Altitude = 4300
+lflags { Outdoors Cold }
+The Brink Of A Gorge^
+   You are standing on the brink of a deep, deep gorge.  Its walls are 
+very smooth and rush straight down, where nothing but a jet-black 
+emptiness can be seen.  
+^
+
+khanjar9544 s:khanjar9545 d:khanjar9540;
+Altitude = 5000
+lflags { Outdoors Cold }
+Higher Up^
+   Conducted by a gentle wind you climb the mountainside and reach 
+some space to rest on.  Taking a look at the sky you see a small eagle 
+flying round the summit and vanishing into the canyons.  You can still 
+continue to the south but it seems difficult to ascend the hillside any 
+higher.
+^
+
+khanjar9545 n:khanjar9544;
+Altitude = 5200
+lflags { Outdoors Cold }
+On The Mountainside^
+   Climbing changes more and more difficult as you struggle on.  
+It would take a long time to find a reasonable way to climb forward.  
+And if one existed it would still be very arduous at all events.
+^
+
+khanjar9546 w:^door_khanjar9547;
+lflags {  }
+An Underground Dwelling^
+   The space is a small, round chamber, lit by an extraordinary 
+chandelier made of the rhizome of a tree standing above there.  All around 
+lie small pieces of furniture, most of which you probably could not use, 
+for they are rather tiny.  However, they are skillfully constructed,
+revealing both the artistic and practical abilities of whoever was the
+maker.  A thick, multicolorous carpet covers the floor.
+   To the west is a small, wooden door.
+^
+
+khanjar9547 e:^door_khanjar9546 u:khanjar9548;
+Altitude = 180
+lflags { NoMobiles Dark Outdoors }
+Under A Brown Dome^
+   You are standing inside a brownish chamber, under some massive 
+roots, from which various fibres with soil still hang down.  There 
+are small footprints on the ground.  While an improvised ladder leads 
+up, there is a small, wooden door the east.
+^
+
+khanjar9548 w:khanjar9549 d:khanjar9547;
+Altitude = 190
+lflags { NoMobiles Outdoors }
+Inside The Hollow Trunk^
+   As you crawl through a small hole you notice that the huge tree is 
+completely hollow, and enables you to move about.  Some kind of ladder 
+leads down from here.
+^
+
+khanjar9549 n:khanjar9533 s:khanjar9550 w:khanjar9551 e:khanjar9548;
+Altitude = 200
+lflags { Outdoors }
+Before An Ancient Poplar^
+   You are standing at a grove.  Just before you is a large poplar, which 
+foliage spreads in every direction like a gigantic green ball.  Its trunk 
+is gnarled and carries the scars of hundreds of years.  A small hole appears 
+to penetrate into the pith of the tree.
+^
+
+khanjar9550 n:khanjar9549;
+Altitude = 210
+lflags { Outdoors }
+On The Hill^
+   You are standing on a low and barren hill.  There are several 
+footprints on it.  There is a small grove to the north. 
+^
+
+khanjar9551 n:khanjar9532 w:khanjar9552 e:khanjar9549;
+Altitude = 200
+lflags { Outdoors }
+A Small Grove^
+   You are standing at a peaceful grove, surrounded by those 
+evergrowing trees and various flowers which all look so beautiful, 
+but also somewhat sad.  
+   There is a large ant hill, and as a contrast to the grove it 
+nearly swarms life.  A faint track leads to the north, and to the
+west there lies a ditch.
+^
+
+khanjar9552 w:khanjar9553 e:khanjar9551;
+Altitude = 195
+lflags { NoMobiles Real Outdoors }
+A Grassy Ditch^
+   You are standing on a grassy bottom of the ditch, seemingly trampled.  
+Low bushes grow around.  The ditch leads west, while there is a grove to 
+the east.
+^
+
+khanjar9553 s:khanjar9556 w:khanjar9554 e:khanjar9552;
+Altitude = 195
+lflags { Real Outdoors }
+Walking At The Ditch^
+   You walk on the bottom of the ditch.  As the bushes vanish in the 
+south you can see a grassy hillside, on where a narrow path descends.  
+The ditch leads west and east.
+^
+
+khanjar9554 n:khanjar9555 e:khanjar9553;
+Altitude = 195
+lflags { Real Outdoors }
+A Grassy Ditch^
+   You are standing on the bottom of a small and grassy ditch.  There 
+is some thicket growing around.  The ditch leads to the east.
+^
+
+khanjar9555 s:khanjar9554 w:khanjar9515;
+Altitude = 200
+lflags { Real Outdoors }
+Through The Bushes^
+   You are struggling at a thicket, disturbed by several multicolorous 
+spiders and gadflies.  Most of these bushes are unusually tough, lashing 
+your face with an unpleasant force.  There is a small ditch to the south.
+^
+
+khanjar9556 n:khanjar9553 d:khanjar9557;
+Altitude = 200
+lflags { NoMobiles Outdoors }
+The Brink Of The Grassy Hillside^
+   You are standing on the brink of the grassy hillside that begins 
+to descend gently.  Below there lies what appears very dense forest.
+To the north is a ditch.
+^
+
+khanjar9557 u:khanjar9556 d:khanjar9558;
+Altitude = 190
+lflags { Outdoors }
+Descending The Hillside^
+   You start climbing down a small worn-out path on the hillside.  Despite 
+the fresh footprints all around, the way doesn't appear very busy.   
+^
+
+khanjar9558 e:khanjar9559 u:khanjar9557;
+Altitude = 180
+lflags { Outdoors }
+On A Grey Trunk^
+   Reaching the foot of the hillside you notice a large greyish trunk, 
+penetrating into the forest as if it were a straight bridge.  You begin 
+to walk on it.
+^
+
+khanjar9559 s:khanjar9560 w:khanjar9558;
+Altitude = 180
+lflags { Outdoors }
+Walking On The Trunk^
+   You move forward, keeping your balance quite easily since the trunk 
+is so broad.  It seems that many smaller trees remained under when this 
+giant overturned years ago.
+   Now, there lies the rhizome.  The roots appear to give passage to 
+the south.
+^
+
+khanjar9560 n:khanjar9559 e:khanjar9561;
+Altitude = 170
+lflags { Outdoors }
+A Narrow Path^
+   You step on a narrow path, engraved deep in the ground.  Several 
+stones make your walking quite difficult, and you are worried about 
+your feet.  The foliages form a green and inpenetrable "wall" around 
+the path which seems to descend to the east. 
+^
+
+khanjar9561 w:khanjar9560 e:khanjar9562;
+Altitude = 170
+lflags { Outdoors }
+Under The Massive Roots^
+   Here the path goes very deep in the ground, almost as if it were 
+an ancient trench.  Tremendous, gnarled roots from some brown and black
+arches above.  The path leads both to the west and east.
+^
+
+khanjar9562 n:khanjar9563 w:khanjar9561;
+Altitude = 170
+lflags { Outdoors }
+A Small Meadow^
+   You arrive at a small meadow that grows tall yellowish hay, swaying 
+slowly in the wind.  The path leads towards the north, where you make out 
+some high osiers.
+^
+
+khanjar9563 s:khanjar9562 d:khanjar9564;
+Altitude = 180
+lflags { Real Outdoors }
+On A Trail Through High Osiers^
+   Despite the thickness of these bushes you still detect the path and 
+walk on it easily.  Now your trip begins to wind downwards, from where you 
+can hear some voices.
+^
+
+khanjar9564 e:khanjar9565 u:khanjar9563;
+Altitude = 130
+lflags { NoMobiles Outdoors }
+An Ancient Crater^
+   You find yourself standing at a vast and deep pit, obviously an 
+ancient crater with a diameter of 30 metres, at least.  The bottom is 
+covered in brownish grass and there are several rough boulders around, 
+most of them black.  Also you notice that the crater is full of small 
+folk, everyone directing towards a structure of some kind further away 
+to the east. 
+^
+
+khanjar9565 s:khanjar9567 w:khanjar9564 e:khanjar9566;
+Altitude = 130
+lflags { Outdoors }
+At The Crater^
+   With the brownies you start approaching the structure as well.
+It looks like a wooden dais, on where a couple of beings are sitting, 
+deep in their discussion.  Behind them there stands what could be a 
+totem or a statue of some kind.  Yet you do not know what this all is 
+about, but no doubt this place must be of great importance and sanctity 
+for these people.
+^
+
+khanjar9566 w:khanjar9565 u:khanjar9568;
+Altitude = 130
+lflags { Outdoors }
+Before The Wooden Steps^
+   Just before you lie firm, wooden steps, ascending onto the dias.  
+Simple, but elegant symbols have been encarved on them.
+^
+
+khanjar9567 n:khanjar9565 u:khanjar9568;
+Altitude = 5
+lflags { Outdoors }
+Before The Wooden Steps^
+   Just before you lie firm, wooden steps, ascending onto the dias.  
+Simple, but elegant symbols have been encarved on them.
+^
+
+khanjar9568 n:khanjar9569 w:khanjar9570;
+Altitude = 150
+lflags { NoMobiles Outdoors }
+The Ceremony Plateau^
+   The dais has been grinded very smooth.  Four green pictures cover 
+its surface, representing fine trees.  Each picture points to the sepa-
+rate cardinal direction.  In the middle of the dais stands a tall, wooden 
+&+Cstatue&*, resembling an impressive woman, clad in clothes made of large 
+leaves and garments.
+   The brownies assemble to the foot of the dais and you feel the
+atmosphere running high.
+^
+
+khanjar9569 s:khanjar9568 d:khanjar9566;
+Altitude = 140
+lflags { Outdoors }
+Descending The Steps^
+   You start descending from the dais.
+^
+
+khanjar9570 e:khanjar9568 d:khanjar9567;
+Altitude = 140
+lflags { Outdoors }
+Descending The Steps^
+   You start descending from the dais.
+^
+
+khanjar9571 u:khanjar9577 e:Nibelung13@nibelung;
+Altitude = 3300
+lflags { Outdoors }
+Gorge^
+   There is a faint smell of ozone in the air.  You are in a deep gorge below
+the mountain peaks, where you find some relief from the constant wind.  There
+are some markings in the rocks, and some of them appear to have melted at some
+point in the near past.  Apparently lightning storms are a common occurance
+here.  There is a path that snakes between the rocks and boulders, difficult
+and treacherous but passable.
+^
+
+khanjar9572 u:khanjar9543 d:khanjar9573 w:khanjar9999 e:khanjar9999;
+Altitude = 4200
+lflags { Outdoors NoMobiles }
+Climbing the Gorge^
+   Despite all better judgements, you claw your way along the side of the
+walls.  Be aware though, one false move and you will fall to your death.
+^
+
+khanjar9573 u:khanjar9572 e:khanjar9574 w:khanjar9999 d:khanjar9999;
+Altitude = 4100
+lflags { Outdoors }
+Climbing the Gorge^
+   Despite all better judgements, you claw your way along the side of the
+walls.  Be aware though, one false move and you will fall to your death.
+^
+
+khanjar9574 u:khanjar9999 e:khanjar9999 w:khanjar9573 d:khanjar9575;
+Altitude = 4000
+lflags { Outdoors }
+Climbing the Gorge^
+   Despite all better judgements, you claw your way along the side of the
+walls.  Be aware though, one false move and you will fall to your death.
+^
+
+khanjar9575 u:khanjar9574 e:khanjar9999 w:khanjar9576 d:khanjar9999;
+Altitude = 3900
+lflags { Outdoors }
+Climbing the Gorge^
+   Despite all better judgements, you claw your way along the side of the
+walls.  Be aware though, one false move and you will fall to your death.
+^
+
+khanjar9576 u:khanjar9999 e:khanjar9575 w:khanjar9999 d:khanjar9577;
+Altitude = 3700
+lflags { Outdoors }
+Climbing the Gorge^
+   Despite all better judgements, you claw your way along the side of the
+walls.  Be aware though, one false move and you will fall to your death.
+^
+
+khanjar9577 u:khanjar9576 e:khanjar9999 w:khanjar9999 d:khanjar9571;
+Altitude = 3500
+lflags { Outdoors }
+Climbing the Gorge^
+   Despite all better judgements, you claw your way along the side of the
+walls.  Be aware though, one false move and you will fall to your death.
+^
+
+khanjar9999;
+lflags { Death }
+Falling Down^
+   Whoops...you slip, you fall, you DIE!!!  Don't feel bad, you aren't the
+only one who hasn't mastered climbing the side of a gorge.
+^

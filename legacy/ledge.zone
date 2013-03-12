@@ -1,0 +1,1042 @@
+
+
+
+%rainfall:450
+
+%latitude:40
+
+%mobiles
+
+Name = penguin
+Location = limbo@limbo
+Strength = 60
+Damage = 6
+Speed = 0
+Mflags {Nocorpse}
+Aggression = 75
+Description = "A ferocious penguin stands here chanting 'Do be...do be do!'"
+Examine = "
+Why are people so afraid of this little guy?  He doesn't look like much
+of a threat, much less a fighter.  It must be that chant of his..."
+End = penguin
+
+
+Name = Evil
+Location = ledge28
+Strength = 5000
+Damage = 10
+Speed = 0
+Pflags { NoHassle NoExorcise Nozap }
+Description = "The personification of Evil is here to consume you!"
+Examine = "
+You want to get by him?  You have to totally block him out of your mind!
+Picking a fight with him is totally out of the question--unless you have
+a death wish...or you're a battletank!"
+End = Evil
+
+Name = bear
+Pname = "Chained Bear"
+Location = ledge38
+Strength = 300
+Damage = 20
+Speed = 0
+Pflags { NoExorcise Nozap }
+Description = "A large bear sits across the cavern bound by chains."
+Examine = "
+Obviously this bear is being held against its will, but someone is using
+him to keep intruders out.  Still, picking a fight with him would not be
+wise as the noise could alert whoever lives here."
+End = bear
+
+Name = kobold
+Pname = "The Kobold"
+Location = ledge39
+Strength = 100
+Damage = 10
+Speed = 0
+Pflags { NoExorcise Nozap }
+Eflags { Missile }
+Mflags { GrabHostile Nosteal Nocorpse }
+Description = "A kobold sits on a boulder asleep."
+Examine = "
+He apparently is the one who lives here, and doesn't like visitors.  That
+key around his neck looks mighty interesting."
+End = kobold
+
+Name = weaponsmith
+Pname = "The Apprentice"
+Location = limbo@limbo
+Strength = 100
+Armor = 5
+Damage = 8
+Speed = 0
+Pflags { Nosteal }
+Description = "
+The weapon smith's apprentice is here cleaning up the shop for reopening."
+Examine = "
+He was just recently rescued from where he was being held after walking
+into a bad part of the neighborhood.  He's trying to fix up the place 
+before he resumes his practice of weapon making."
+End = weaponsmith
+
+Name = salmon
+Pname = "The Salmon"
+Location = ledge42
+Strength = 40
+Damage = 5
+Speed = 1
+Aggression = 0
+Mflags { Aquatic }
+Sflags { NoLegs }
+Description = "An ocean salmon swims by your head."
+End = salmon
+ 
+Name = cavebat
+Pname = "A cave bat"
+Location = ledge19
+Strength = 40
+Damage = 5
+Speed = 1
+Aggression = 20
+Description = "A bat is here flying around inside the cave."
+Examine = "Being sealed in this tunnel for so long, it'll try to eat anything."
+End = cavebat
+
+Name = flounder
+Location = ledge44
+Strength = 50
+Damage = 5
+Speed = 2
+Mflags { Aquatic }
+Sflags { NoLegs }
+Description = "An eatin' size flounder skirts by."
+End = flounder
+
+Name = grayshark
+Pname = "Grey Shark"
+Location = ledge49
+Strength = 120
+Armor = 0
+Damage = 10
+Speed = 4
+Aggression = 5
+Mflags { Aquatic }
+Sflags { NoLegs }
+Description = "A very lost grey shark swims by you."
+Examine = "Sharks aren't known for coming around this part of the coastline, but this
+one has been searching for warmer waters for days.  He looks weak and tired."
+End = grayshark
+
+Name = pike
+Pname = "Northern Pike"
+Location = ledge45
+Strength = 80
+Damage = 9
+Speed = 2
+Aggression = 2
+Mflags { Aquatic }
+Sflags { Nolegs }
+Description = "A northern pike fish swims by your head looking for minnows."
+Examine = "These are great game fish, but can really whip someone with its fins."
+End = pike
+
+Name = cod
+Pname = "Swedish Cod"
+Location = ledge47
+Strength = 60
+Damage = 6
+Speed = 4
+Aggression = 0
+Mflags { Aquatic }
+Sflags { Nolegs }
+Description = "A swedish cod fish swims along the ocean floor."
+End = cod
+
+Name = Jellyfish
+Location = ledge49
+Strength = 25
+Damage = 5
+Speed = 1
+Aggression = 10
+Mflags { Aquatic }
+Sflags { Nobody }
+Eflags { Shock }
+Description = "A jellyfish floats in the water."
+Examine = "These things have been known to paralyze swimmers that bump into them.
+This variety is the only kind that can live along this coastline."
+End = Jellyfish
+
+Name = Dummy
+Location = ledge51
+Strength = 10
+Description = "A dummy mobile wanders around, having escaped from the testing area."
+Examine = "
+It's a dummy variable, used by programmers to show something hasn't 
+been implemented."
+End = Dummy
+
+%objects
+
+Name = blindfold
+BValue = 5
+Size = 1
+Weight = 1
+Location = IN_ROOM:ledge18
+Desc[0] = "A blindfold lies dumped in a corner."
+Oflags { Wearable }
+Aflags { Head }
+Examine = "
+Obviously something to prevent someone from seeing where they're going.
+It's likely that this was put on someone during transport."
+End = blindfold
+
+Name = gag
+Bvalue = 5
+Size = 1
+Weight = 1
+Location = IN_ROOM:ledge18
+Desc[0] = "A gag lies crumpled in a heap."
+Oflags { Wearable }
+Aflags { Face }
+Examine = "It obviously was used to gag someone so they'd keep quiet."
+End = gag
+
+Name = earplugs
+Altname = plugs
+Bvalue = 5
+Size = 1
+Weight = 1
+Location = IN_CONTAINER:minecart
+Desc[0] = "A set of earplugs got discarded here."
+Oflags { Wearable }
+Examine = "
+These apparently were used to protect a miner's ears from the noise
+generated from explosions or drilling equipment."
+End = earplugs
+
+Name = pickaxe
+Altname = axe
+State = 1
+MaxState = 1
+Damage = 12
+BValue = -25
+Size = 7
+Weight = 10
+Location = IN_CONTAINER:minecart
+Desc[0] = "A miner's pickaxe lies flat on the ground."
+Desc[1] = "A pickaxe stands against the side of the cavern."
+Oflags { Weapon }
+End = pickaxe
+
+Name = snorkelone
+Pname = snorkel
+State = 1
+MaxState = 1
+BValue = 20
+Size = 1
+Weight = 1
+Location = IN_ROOM:ledge37
+Desc[0] = "Someone left a snorkel here, wanna go swimming?"
+Desc[1] = "A snorkel has been left here, apparently by an underwater cave explorer."
+Oflags {Wearable Breathe }
+Examine = "This item will permit you to go underwater without drowning."
+End = snorkelone
+
+Name = snorkeltwo
+Pname = snorkel
+State = 1
+Maxstate = 1
+Bvalue = 20
+Size = 1
+Weight = 1
+Location = limbo@limbo 
+Desc[0] = "Someone left a snorkel here, wanna go swimming?"
+Desc[1] = "There's a snorkel lying inside the dinghy!"
+Oflags {Wearable Breathe }
+Examine = "This item will permit you to go underwater without drowning."
+End = snorkeltwo
+
+Name = koboldkey
+PName = keychain
+Altname = key
+State = 1
+MaxState = 1
+BValue = 10
+Size = 1
+Weight = 1
+Location = WORN_BY:kobold
+Desc[0] = "A key on a chain lies here."
+Desc[1] = "The kobold's keychain remains from the vanished kobold."
+Oflags {Key Wearable }
+Aflags {Neck }
+Examine = "This key unlocks something, perhaps the chains on that bear."
+End = koboldkey
+
+Name = chain
+Altname = chains
+State = 2
+Maxstate = 2
+
+Location = IN_ROOM:ledge38
+Oflags { Openable Noget }
+Examine = "
+It's your standard set of chains with cuffs on them bolted in the floor
+designed to hold prisoners by the legs as forced labor for mining."
+End = chain
+        
+Name = minecart
+PName = cart
+Size = 30
+Weight = 100
+Location = IN_ROOM:ledge15
+Desc[0] = "An old mining cart sits here against the wall."
+Oflags {Container Noget }
+Examine = "
+Taking a ride in this cart is not possible, as a couple of wheels seem to
+have broken off.  Carrying this thing around won't do much for your back."
+End = minecart
+ 
+Name = pushcart
+Pname = cart
+Size = 30
+Weight = 100
+Location = IN_ROOM:ledge19
+Desc[0] = "Another old mining cart sits here, wheels intact."
+Oflags {Container Noget }
+Examine = "
+Now this cart looks like it's in good condition.  The wheels are all in 
+place and you could probably push it over to the tracks."
+End = pushcart
+
+Name = coal
+PName = coal
+Altname = lump
+State = 0
+MaxState = 1
+BValue = 20
+Size = 1
+Weight = 1
+Location = IN_ROOM:ledge10
+Desc[0] = "A lump of coal sits on the ground."
+Desc[1] = "A lump of coal burns on the ground, too hot to pick up."
+Oflags {Extinguish Lightable }
+End = coal
+
+Name = lovepotion
+PName = lovepotion
+Altname = potion
+BValue = 25
+Size = 2
+Weight = 2
+Location = IN_ROOM:ledge52
+Desc[0] = "A bottle of a pink liquid has been placed here."
+Oflags { Alcohol Food }
+Examine = "The label reads:  Love Potion Number Nine.  Watch out, this stuff will
+drive you to hug and kiss the first person you see."
+End = lovepotion
+
+Name = hardhat
+PName = hardhat
+Altname = hat
+Armor = 30
+BValue = 25
+Size = 3
+Weight = 1
+Location = IN_CONTAINER:minecart
+Desc[0] = "An old miner's hardhat got left here."
+Oflags {Armor Wearable }
+Aflags {Head }
+Examine = "It's an old one, but it's in good condition."
+End = hardhat
+
+Name = inscription
+PName = inscription
+Altname = wall
+Location = IN_ROOM:ledge23
+Desc[0] = "There appears to be an inscription on the wall."
+Oflags {Noget }
+Examine = "
+Looks like it was written with a chunk of coal.  It reads:  'Disability does
+not make disadvantage.'  Who and why was that written there?  (Those not
+good at puzzles ought to think of the possible meanings of this phrase.)"
+End = inscription
+
+Name = vancany
+Altname = sign
+Location = IN_ROOM:ledge50
+State = 0
+Maxstate = 1
+Desc[0] = "The sign on the front reads VANCANY."
+Desc[1] = "The sign on the front reads NO VANCANY, come back later."
+Linked = vswitch
+Oflags {Noget}
+Examine = "It obviously tells you if you can go in and use the shack."
+End = vancany
+
+Name = vswitch
+Pname = switch
+Location = IN_ROOM:ledge52
+State = 0
+Maxstate = 1
+Linked = vancany
+Desc[0] = "A switch on the wall is in the VANCANY position."
+Desc[1] = "A switch on the wall is in the NO VANCANY position."
+Examine = "This switch will allow in or keep out visitors."
+Oflags {Noget Pushtoggle}
+End = vswitch
+
+Name = budice
+Pname = beer
+Altname = ice
+Location = IN_CONTAINER:cooler
+Oflags { Alcohol Food }
+Desc[0] = "A cold bottle of Bud Ice has been left around to be drank." 
+Examine = "Beware of penguins!"
+End = budice
+
+Name = cooler
+Location = IN_ROOM:ledge52
+Oflags {Container Noget}
+Desc[0] = "A cooler filled with bottles of beer has been placed here for the guests."
+End = cooler
+
+Name = sign
+Location = IN_ROOM:ledge50   
+Oflags {Noget}
+Desc[0] = "A large warning sign is stuck here in the sand."
+Examine = "Danger:  Hazardous to swim during high wind or stormy weather."
+End = sign
+
+Name      = RopeBotPit
+Pname     = rope
+AltName   = ladder
+Location  = IN_ROOM:pit
+Oflags    {Destroyed NoGet}
+Linked    = RopeTopPit@moor
+State     = 1
+MaxState  = 2
+Desc[0]   = "A rope ladder leads up out of the pit."
+Desc[1]   = "A rope leads up out of the pit."
+Desc[2]   = "A knotted rope leads up out of the pit."
+End       = RopeBotPit
+
+Name      = RopeWest
+Pname     = rope
+AltName   = ladder
+Location  = IN_ROOM:On
+Oflags    {Destroyed NoGet}
+Linked    = RopeEast@Valley
+State     = 1
+MaxState  = 2
+Desc[0]   = "A rope ladder leads west across to the steps."
+Desc[1]   = "A rope hangs west across to the steps."
+Desc[2]   = "A knotted rope hangs west across to the steps."
+End       = RopeWest
+
+Name      = tunnWest
+Pname     = tunnel
+AltName   = rockfall
+Location  = IN_ROOM:tunnel
+Oflags    {NoGet}
+Linked    = tunnEast
+State     = 1
+MaxState  = 1
+Desc[1]   = "A large rockfall blocks the passage to the east."
+End       = tunnWest
+
+Name      = tunnEast
+Pname     = tunnel
+AltName   = rockfall
+Location  = IN_ROOM:ledge9
+Oflags    {NoGet}
+Linked    = tunnWest
+State     = 1
+MaxState  = 1
+Desc[1]   = "
+A huge rockfall to the west has sealed off the only exit to this chamber."
+End       = tunnEast
+
+Name      = orb
+AltName   = platinum
+Location  = IN_ROOM:forgotten
+BValue    = 400
+Desc[0]   = "
+A huge glittering platinum orb sparkles in the light, sending rainbows of
+glittering fire twinkling around you."
+End       = orb
+
+Name      = volume
+PName     = Volume_IV
+Location  = IN_ROOM:forgotten
+Oflags    { Noget }
+Size      = 4
+Desc[0]   = "&+YVolume IV&N of the &+WBook of Knowledge&N lies here."
+Examine   = ^
+Reveal is a spell which will show hidden properties of objects,
+including whether they enhance any particular spell.  Reveal is 
+always certain, but costs 20 mana. To use reveal, hold the object
+and incant "reveal <object>".^
+End       = volume
+
+
+%locations
+
+On e:Cavemouth w:^RopeWest;
+Altitude = 850
+lflags{Outdoors}
+On The Ledge^
+   You are standing on a narrow ledge high up the side of some steep cliffs.
+The ledge continues west beside a narrow cavemouth.  To the east the ledge ends
+some twenty feet short of a set of steps, which climb up the cliff side from
+the valley below.
+^
+Cavemouth n:Cave e:Ledge w:On;
+Altitude = 850
+lflags{Outdoors}
+Cavemouth^
+   You are standing on a narrow precipitous ledge.  The ledge runs east-west,
+and to the north a narrow cavemouth leads into semi-darkness.  Braving vertigo,
+you gaze over the lip of the ledge across the vast expanse of trees far below.
+^
+Ledge e:Death w:Cavemouth;
+Altitude = 850
+lflags{Outdoors}
+Ledge^
+   The ledge narrows here, become only a couple of inches wide as it leads
+further eastwards.  To the west the ledge widens out.
+^
+Death ;
+Altitude = 850
+lflags{Outdoors Death}
+Ledge^
+   Your feet slip on the dangerously thin ledge, and you plunge rapidly
+downwards to your death...
+^
+Cave n:Pit e:Tunnel s:Cavemouth;
+lflags{}
+Narrow Cave^
+   You are standing in a long narrow cave.  Dim and pallid light shines in from
+the cavemouth to the south, illuminating passageways north and east.
+^
+Tunnel  e:^TunnWest w:Cave;
+lflags{}
+Narrow Tunnel^
+   You are clambering along a narrow slanted passage.  Rubble and loose stones
+rain down around you as you move, suggesting the roof is not very strong. Light
+shines along the passage from a junction to the west.
+^
+Forgotten e:ledge27; 
+lflags{}
+Forgotten Place^
+   You are standing in a dim forgotten place, deep underground.  The rocks
+around you seem placid and silent, as if in silent contemplation of some deeper
+more ancient power of the earth.
+^
+Pit s:Cave u:^RopeBotPit;
+Altitude = 850
+lflags{Outdoors}
+Bottom Of Pit^
+   You are standing at the bottom of a huge open pit.  The pit walls are almost
+sheer, and well beyond climbing.  A narrow tunnel leads south into shadow.
+^
+
+ledge9 w:^TunnEast e:ledge10 d:ledge10;
+lflags {Dark }
+Old Mining Tunnel^
+        You have seemingly uncovered an enterance to an old coal mining 
+tunnel that was buried by a rockfall caused by an earthquake some time ago.
+Large wooden beams seem to hold up the ceiling further down despite the
+splintering and cracking over time with each quake.  The tunnel decends
+further downward to the east.
+^
+
+ledge10 w:ledge9 e:ledge11 u:ledge9 d:ledge11;
+lflags {Dark }
+Old Mining Tunnel^
+        The smell of minerals begins to permeate your nose as you progress.
+The walls of this tunnel appear to have been chipped into with pickaxes in
+search for gold or diamonds.  Alas, all that could be found were coal 
+deposits.  Some chunks of it litter the sides of the tunnel, which continues
+downward.  Those afraid of exploring may exit upward to the west.
+^
+
+ledge11 w:ledge10 e:ledge12 u:ledge10 d:ledge12;
+lflags {Dark }
+Old Mining Tunnel^
+        A few broken beams make the ceiling look like it could collapse with
+the next tremor.  You can hear drops of water drip from the cracks along with
+some other noises echoing from further down.  Hmmm...looks like an adventure
+is waiting for you down there!  Those who fear closed in spaces can run back
+outside up the tunnel.
+^
+
+ledge12 w:ledge11 e:ledge13 u:ledge11 d:ledge13;
+lflags {Dark }
+Old Mining Tunnel^
+        The tunnel continues deeper into the rock and seems to widen a little
+bit as there appears to an area ahead where miners load the minerals onto the
+carts to roll out.  The wooden beams appear to be holding althought they look
+like they could collapse with a good jolt.  Further progress can be made 
+downward or else return upward.
+^
+
+ledge13 n:ledge15 s:ledge16 w:ledge12 e:ledge14 u:ledge12; 
+lflags {Dark }
+Widened Mining Area^
+        This area appears to be a staging zone for drilling tunnels in all        
+different directions and central meeting place for all the miners.  Old 
+mining equipment lie abandoned and scattered about, most of it broken and
+useless.  A couple of tunnels lead in different directions, one of which
+appears to be the source of some noises--the eastern tunnel.  Other tunnels
+go north, south, and west.
+^
+
+ledge14 w:ledge13 e:ledge17 d:ledge17;
+lflags {Dark }
+Old Mining Tunnel^
+        As you stroll down the eastern tunnel, the sounds from further down
+seem to be more auidible as with the echos from your footsteps.  Treading
+more stealthy would be a good idea as you might be walking into something
+that would make you wish you hadn't gone cave exploring.
+^
+              
+ledge15 n:ledge18 s:ledge13 d:ledge18;
+lflags {Dark }
+Old Mining Tunnel^
+        The northern tunnel you are now treking through appears to have been
+dug where a large portion of the coal deposit was located.  The width of the
+tunnel appears to indicate that the miners did a little too much digging 
+along the sides making it easier for a ceiling collapse.  The tunnel 
+continues a little further downward while you can return back south.
+^
+
+ledge16 n:ledge13 s:ledge19 d:ledge19;
+lflags {Dark }
+Old Mining Tunnel^
+        The southern tunnel you are now treking through seems to have to been
+dug for a short distance until they broke into an sealed cave.  No coal
+deposits were found, neither were any other kind of mineral except limestone
+and granite.  You can step in this cave to the south or head back to the
+intersection north.
+^
+              
+ledge17 w:ledge14 e:ledge20 u:ledge14 d:ledge20;
+lflags {Dark }
+Sloping Tunnel^
+        From this point in the tunnel it begins to head downward at about a
+forty-five degree angle.  If it weren't for the mine cart tracks you might
+have slipped on a loose rock and fallen down the mine by now.  Wouldn't it
+have been more fun riding in a mine cart instead of walking?  The tracks
+continues downward for some unknown distance.  With some effort you can
+make your way back up.
+^
+
+ledge18 s:ledge15 u:ledge15;
+lflags {Dark }
+Old Mining Tunnel^
+        The tunnel seems to end at a rockfall where the walls collasped some
+time ago...hope no one was in there.  Clearing the rockfall would do no good,
+as there are just too many rocks to clear and no telling how far it goes.
+There also appears to have been a lot of activity here recently.  Some
+strands of rope, blindfolds, and gags remain indicating that someone was
+tied up and held hostage.  It also indicates that whoever was tied up managed
+to break free.  Just who that was or if that person got out of the mine isn't
+clear just yet.  You can head back upward.
+^
+
+ledge19 n:ledge16 w:Death u:ledge16;
+lflags {Dark}
+The (Formerly) Sealed Cave^
+        A nice cavern formed over thousands of years inside the side of the
+cliff, undiscovered until miners broke into it by chance.  It had yet to 
+form an outside opening along the outside wall, but it looks as if it was
+making its opening downward in the form of a chasm.  You can't see the
+bottom, but it looks like it goes pretty deep.  A rapidly narrowing ledge
+appears to jut from the wall to the west, but moving along that is pretty
+risky, considering the fact that a wrong step could mean taking a bad fall.
+^
+
+ledge20 w:ledge17 e:ledge21 u:ledge17 d:ledge21;
+lflags {Dark }
+Sloping Tunnel^
+        The steepness of this tunnel gets to be a little tricky to walk on.
+If the floor was a little more steeper you could have been climbing down the
+tracks like a ladder.  Man, if only you had a cart to travel down the track
+instead!  You can continue moving downward or else start climbing back up.
+^
+
+ledge21 w:ledge20 e:ledge22 u:ledge20 d:ledge22;
+lflags {Dark }
+Tracks Over the Gaps^
+        It appears the miners had to contend with mini-caves during their
+drilling.  However, they still had to lay the tracks, so they just laid the
+tracks right over the gaps for make-shift bridges.  Unfortunately the weight
+of the carts have left some of the railroad ties broken in the middle.  You
+step over a couple of them, but there's some more ahead if you decide to 
+continue on risking a nasty fall if you step wrongly.  You can always 
+starting climbing back out.
+^
+
+ledge22 w:ledge21 u:ledge21; 
+lflags {Death}
+Broken Track Ties^
+        You take a chance and continue stepping across the gap, but a quick
+hop over one broken tie onto another tie causes it to snap!  What's worse, 
+the supports holding up the tracks collaspe along with it!  You take the fall
+and don't survive.  Next time, take a cart...
+^
+
+ledge23 e:ledge24;
+lflags {Dark}
+End of the Ride^
+        A set of railroad tracks designed for mine carts comes to an abrupt
+end at a large pile of gravel, mainly to stop runaway carts from barreling
+into working miners.  The walls and ceiling of this part of the mine seems
+less susceptable to quakes, with some formations of stalactites to hold
+things together.  A tunnel going upwards in what looks to have been hand 
+drilled is completely out of reach due to the rather large gaps in the 
+floor and the recent collapsing of sections of track going over those gaps.
+A more natural looking cavern can be entered to the east.
+^
+
+ledge24 n:ledge25 s:ledge35 w:ledge23 e:ledge31;
+lflags {Dark}
+Natural Cavern^
+        Hundreds of years ago the level of the sea was much higher and this
+cavern was not much more than a large hole in the side of a submerged 
+section of cliff.  The wave action of the saltwater cut away at the rock on
+the inside until one underwater cavern joined up with another unsubmerged
+cavern, effectively flooding it also, and greatly enlarging its size.  Now,
+the sea level has dropped since, draining the water from the higher sections
+but still keeping the lower sections underwater.  The cavern extends itself
+to the east and south while another tunnel can be found to the north.  A
+trail of rocks line a tunnel to the west.
+^
+
+ledge25 n:ledge26 s:ledge24;
+lflags {Dark }
+Silent Tunnel^
+        A relatively quiet tunnel leads itself away from the rest of the 
+cavern, yet it seems to be a bit warmer than elsewhere.  It continues to
+the north while the main cavern lies south.
+^
+
+ledge26 s:ledge25 w:ledge27;
+lflags {}
+Humming Tunnel^
+        An eeire hum seems to emanate from the walls of this tunnel,
+something that doesn't seem so natural.  A bit of a glow seems to come from
+the west also, wonder what's causing it?  Escape is back south.
+^
+
+ledge27 n:ledge28 s:ledge33 e:ledge26;
+lflags {}
+Glowing Tunnel^
+        Something seems odd here.  Unlike the rest of the tunnels, the walls
+give off a bit of a glow.  Also it is quite a bit warmer and humid.  Almost
+like a steam bath.  There looks to be a pool to the south, and something
+that appears to be the source of the heat lies to the north.
+^
+
+ledge28 s:ledge27 w:forgotten e:ledge29;
+lflags {}
+Manifestation of Evil^
+        Whoa!  You seem to have some upon some sort of demon's cave!  And as
+you can see, it's very warm and bright in here!  On top of that, a rather
+noisy bunch of blabber echos in here, yet doesn't leave this room.  What's
+worse, a battle seems to have erupted in your head.  You begin to express
+the darkest feelings and emotions from your heart.  The sight and the sound
+of dark emotion have infected your mind, so much so that you have become
+paralyzed and are slowly being consumed by it.  Better do something to get
+away from this manifestation, or you're done for.  If you were able to move,
+you can head west, east or south.
+^
+
+ledge29 w:ledge28 e:ledge30;
+lflags {Hot}
+Underground Geyser^
+        A sizeable crack in the floor in this section of the cave spews hot
+water and steam effectively heating up a good part of the whole cavern.  The 
+tunnel seems to go back a lot further, but getting by the geyser is too
+difficult.  It's a bit too uncomfortable in this suana and best to head away 
+to the west.
+^
+
+ledge30 w:ledge29;
+lflags {Hot Death}
+In the Geyser^
+        You foolishly try getting by the geyser but fall into it and become
+boiled out of existance.  What in the world were you thinking?
+^
+
+ledge31 s:ledge36 w:ledge24 e:ledge32;
+lflags {Dark}
+Natural Cavern^
+        Hundreds of years ago the level of the sea was much higher and this
+cavern was not much more than a large hole in the side of a submerged 
+section of cliff.  The wave action of the saltwater cut away at the rock on
+the inside until one underwater cavern joined up with another unsubmerged
+cavern, effectively flooding it also, and greatly enlarging its size.  Now,
+the sea level has dropped since, draining the water from the higher sections
+but still keeping the lower sections underwater.  The cavern extends itself
+to the west and south with some sort of wall to the east.
+^
+
+ledge32 n:ledge34 s:ledge37 w:ledge31 u:ledge34;
+lflags {Dark}
+Short Wall^
+        The rather level floor of the cavern comes to a short climbable wall
+looking to be about four feet high which appears to be another tunnel going
+to the north.  Some track can be seen going to and from this tunnel, along
+with a few droppings of some animal.  Perhaps someone or something is living
+down here after all.  You can follow the tracks to the north, or else go to
+other parts of the cavern west and south.
+^
+
+ledge33 n:ledge27;
+lflags {}
+Small Pool^
+        You come to a small pool of water, cold to the touch and not very
+deep, meaning it can't be the source of this warmth.  The glow from the 
+north side of this section of cave lights this room up, without it there
+wouldn't be anything unique around here.
+^
+
+ledge34 n:ledge38 s:ledge32;
+lflags {Dark}
+Odor in the Cave^
+        A rather unpleasant smell seems to have taken over the scent of 
+seawater common throughout this part of the cavern.  More droppings along
+with a few carcasses can be found along the sides, and some growling can be
+heard also!  If this sounds a bit unnerving to you, escape can be had to the
+south or else have an encounter with whatever it is to the north.
+^
+ 
+ledge35 n:ledge24 e:ledge36;
+lflags {Dark}
+Natural Cavern^
+        Hundreds of years ago the level of the sea was much higher and this
+cavern was not much more than a large hole in the side of a submerged 
+section of cliff.  The wave action of the saltwater cut away at the rock on
+the inside until one underwater cavern joined up with another unsubmerged
+cavern, effectively flooding it also, and greatly enlarging its size.  Now,
+the sea level has dropped since, draining the water from the higher sections
+but still keeping the lower sections underwater.  The cavern extends itself
+to the north and east.
+^
+
+ledge36 n:ledge31 w:ledge35 e:ledge37;
+lflags {Dark}
+Natural Cavern^
+        Hundreds of years ago the level of the sea was much higher and this
+cavern was not much more than a large hole in the side of a submerged 
+section of cliff.  The wave action of the saltwater cut away at the rock on
+the inside until one underwater cavern joined up with another unsubmerged
+cavern, effectively flooding it also, and greatly enlarging its size.  Now,
+the sea level has dropped since, draining the water from the higher sections
+but still keeping the lower sections underwater.  The cavern extends itself
+to the north, east and west.
+^
+
+ledge37 n:ledge32 w:ledge36 e:ledge40 d:ledge40;
+lflags {Dark}
+Lagoon in the Cavern^
+        An opening in the floor filled with water can be seen here.  Dipping
+your hand and tasting it tells you that it's salty and that means that
+lagoon connects itself with the sea!  Underwater cave explorers must have
+been here in the past as some of their instruments seem to have been left
+behind.  For those who just came up into this cavern, well take a tour to
+the north and west or else jump back into the water and head east.
+^
+
+ledge38 n:ledge39 s:ledge34;
+lflags {Dark}
+Bear Cave^
+        You seem to have stumbled into the home of a large bear.  The fact
+that this bear hasn't attacked you yet is that this bear seems to be chained
+down.  There seems to be another room behind the bear, but it appears the
+way is blocked unless you can figure out a way to get past him.  You can get
+away from this bear to the south.
+^
+
+ledge39 s:ledge38;
+lflags {Dark}
+Kobold Cave^
+        A bit of a musty section of cave is the home of some kobold, which
+is a kind of miner tribe of humanoid people that pretty much love dark places
+and hate sunlight.  There's not too much to speak of in here, except for a
+few not-so-valuable trinkets.  The kobold that lives here doesn't even sleep
+on anything more than a boulder!  You can exit back out to the south.
+^
+
+ledge40 w:ledge37 e:ledge41 u:ledge37;
+lflags {Underwater}
+Underwater Cavern^
+        This underwater cavern comes to an end with an opening above you 
+which seems to be a large air pocket or perhaps an hidden cavern.  The 
+light from the outside barely allows you to see where you're going in here,
+but the air pocket or cavern will be completely pitch black.  A couple of
+sea creatures which stay in here during the daytime dart away from you.
+Escape for those who've been trying to get out of the cavern lies east.
+^
+
+ledge41 w:ledge40 e:ledge42;
+lflags {Underwater}
+Underwater Cavern^
+        The water inside the cave is gentle, no current, no undertow.  There
+is no telling how far this cave goes back inside the cliff, but hopefully it
+isn't too long.  Smaller fish can be seen swimming by who have been hiding
+in here from the bigger fish.  The tunnel continues west and east.
+^
+
+ledge42 w:ledge41 e:ledge43;
+lflags {Underwater }
+Underwater Cavern^
+        Small pockets of air can be seen above where the ceiling has a few
+cracks but your mouth can't get to them to breathe.  Hopefully that gear
+you're wearing won't run out of air soon.  Some clams seem to have taken up
+residence in this section of tunnel, which continues west and east.
+^
+
+ledge43 w:ledge42 e:ledge44;
+lflags {Underwater }
+Underwater Cavern^
+        It's gotten a bit brighter, as the cave appears to open up to the
+wide ocean to the east.  Looking to the west the cavern looks to go back a
+ways and gets narrower.  Seems to be an excellent place for underwater 
+tunnel exploration.  Several kinds of sea animals seem to be living in this
+cave.
+^
+
+ledge44 w:ledge43 e:ledge45;
+lflags {Underwater }
+Opening in the Cliff Face^
+        You're swimming in the entryway of the underwater cliff face.  It
+goes in pretty deep, and the light isn't bright enough to tell how far it
+goes.  You can go cave exploring to the west or swim out to the open water
+to the east.
+^
+
+ledge45 n:ledge48 s:ledge46 w:ledge44 e:ledge50 u:ledge57;
+lflags {Underwater}
+Under the Sea^
+        An underwater opening can be seen in the side of the cliff which
+seems to lead to an submerged cave.  Since that scuba gear won't run out
+anytime soon, exploration isn't out of the question.  The cave can be
+entered to the west, while swimming about the water can be done in any
+direction.
+^
+
+ledge46 n:ledge45 s:ledge46 e:ledge47 u:ledge57;
+lflags {Underwater}
+Under the Sea^
+        The undersea clifflines streches for some unknown distance to the
+south, yet the ocean current pushes you toward the side of the rock.  
+Better hope a storm isn't coming up while you're down here.  You can swim
+away from the cliff east, swim toward on opening north, follow the cliff
+some more south, or climb out of the water upward.
+^
+
+ledge47 n:ledge50 s:ledge47 w:ledge46 e:ledge47 u:ledge58;
+lflags {Underwater}
+Under the Sea^
+        Deep sea scuba diving, just the thing for relaxation.  Schools of
+fish swim past you along the coral-lined seafloor as you admire the beauty
+of the ocean life.  You can swim in any direction or climb up on a boat
+(if you have one.)
+^
+
+ledge48 s:ledge45 e:ledge49 u:ledge57;
+lflags {Underwater}
+Under the Sea^
+        The underwater current of the ocean pushes against the side of the 
+underwater cliff, making scuba diving a dangerous activity in calm weather,       
+deadly in stormy weather.  The cliff curves to the east here following the
+edge of the klint.  Exploring the sea can be done south and east.
+^
+
+ledge49 n:ledge49 s:ledge50 w:ledge48 e:ledge49 u:ledge58;
+lflags {Underwater}
+Under the Sea^
+        Deep sea scuba diving, just the thing for relaxation.  Schools of
+fish swim past you along the coral-lined seafloor as you admire the beauty
+of the ocean life.  You can swim in any direction or climb up on a boat
+(if you have one.)
+^
+
+ledge50 n:ledge49 s:ledge47 w:ledge45 e:ledge50 u:ledge58;
+lflags {Underwater}
+Under the Sea^
+        Deep sea scuba diving, just the thing for relaxation.  Schools of
+fish swim past you along the coral-lined seafloor as you admire the beauty
+of the ocean life.  You can swim in any direction.
+^
+
+ledge51 w:ledge52 e:ledge53 s:beach4@beach n:SandyBeach@eastcoast;
+lflags { Outdoors }
+Shoreline^
+          Water and kelp laps at the edge of the sand and looks to be safe 
+for swimming and scuba-diving.  Some children have built some sand castles, 
+one resembles the Dwarfen Citidel.  A small beach front shack lies nearby 
+for rent and privacy for those wanting to watch the water.
+^
+
+ledge52 e:ledge51;
+lflags { Party CantSummon Nomobiles Nomagic }
+Beachfront Shack^
+        It's simple-looking shack built along the beach shore as a place to
+escape the daily barrages of adventuring.  A large window faces the ocean,
+where you can watch the waves and the sunrise.  A rather comfortable-looking
+bed has been set up for wedded couples for overnight stay.  The beach can be
+set out upon to the south.
+^
+
+ledge53 s:ledge53 w:ledge51 e:ledge54 n:WaistDeep@eastcoast;
+lflags { Outdoors }
+Shallow Water^
+        You start running out into the water, it's shallow enough that you
+don't need to get in a boat yet.  The water strecthes for as far as the eye
+can see to the east.
+^
+
+ledge54 s:ledge54 w:ledge53 e:ledge55; 
+lflags { Outdoors }
+Shallow Water^
+        The water starts to go above the knees, but you can continue wading
+a lot further without a boat.  Use caution, check the weather conditions
+for your safety.
+^
+
+ledge55 s:ledge55 w:ledge54 e:ledge56; 
+lflags { Outdoors }
+Shallow Water^
+        The water now comes up to your waistline, and the waves start to push
+you around a little bit.  The saftey of the beach is pretty far back now, and
+what looks to be an island far in the distance looks a little clearer.
+^
+
+ledge56 s:ledge56 w:ledge55 e:ledge57; 
+lflags { Outdoors }
+Shallow Water^
+        The ocean now comes up to your chest, and you're having to jump the
+coming waves to avoid being pushed back too far.  You wonder how much 
+further you can go without a boat...or a life jacket.
+^
+
+ledge57 s:ledge57 w:ledge56 e:ledge58 d:ledge45; 
+lflags { Outdoors }
+Not so Shallow Water^
+        It's up to your neck now, and you feel the edge of something 
+underneath you...looks like the floor drops off quite a good distance.
+You will either have to now climb up on a boat, dive underwater, or turn
+back.  Check the skies and the wind, cause there's been many divers killed
+while swimming here in bad weather.
+^
+
+ledge58 w:ledge57 d:ledge50 e:beach11@beach;
+lflags { Outdoors Onwater }
+On the Ocean Surface^
+        You climb up on your boat, happy to have gotten out of the water.
+You have your choice of heading back to shore to the west or head toward
+an island far to the east.  You can dive back down if you wish.
+^

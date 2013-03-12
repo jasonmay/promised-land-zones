@@ -1,0 +1,1227 @@
+
+
+
+%mobiles
+
+Name            = Druid
+Location        = Hill
+Sflags          { }
+PFlags          { NoHassle NoMagic NoPunt NoZap NoExorcise }
+Speed           = 0
+Strength        = 6000
+Damage          = 100
+Armor           = 100
+Aggression       = 0
+Description     = "An old &+Rdruid&* stands here, looking over the land wistfully."
+Examine         = "
+You see an old man with tired eyes that look as if they have spent many 
+nights without sleep. His face is scarred by what were once terrible 
+wounds. Yet all through this, he seems gentle and kindly.
+
+At your approach he smiles weakly and says,
+
+&+c'&+CHail adventurer. As you can see around you, the lands have been
+&+Cdestroyed by a great evil known as the dark druids. They serve Sauroth,
+&+Ca demon who seeks to destroy the land and use its lifeblood for his own
+&+Cvile purposes. Sauroth's only connection to this world is a dark gemstone.
+&+CDestroy it and you destroy him.
+
+&+CA true druid's duty is to use the land's magic to protect it. Sauroth's  
+&+Cfollowers have abandoned this. They move from land to land, draining the 
+&+Cvery life until all that is left is a wasteland.
+
+&+CI suggest you find my weapon, the golden sickle. They polluted it, but
+&+CI may be able to make it useable for good once again if you bring it to me.&+c'"
+End             = Druid
+
+
+Name            = Jharn
+Pname           = "Jharn"
+Location        = plain8
+SFlags          {  }
+MFlags          { BarEast }
+EFlags          { Fireball BHands }
+Strength        = 200
+Damage          = 5
+Armor           = 10
+Aggression      = 1
+Speed           = 0
+Description     = "&+RJharn&* the dark-druid sentry stands here."
+Examine         = "
+Before you stands an ominous dark-druid brandishing a staff of obsidian. He
+sneers down his nose at you and says,
+
+&+c'&+CYou will make a fine sacrifice to Sauroth!&+c'&*."
+End             = Jharn
+
+Name            = Daerius
+Location        = Sagewood1
+Eflags          { Frost IceStorm }
+Strength        = 300
+Damage          = 20
+Armor           = 10
+Aggression       = 10
+Speed           = 1
+Description     = "&+RDaerius&* the dark druid glares at you from under his blue hood."
+Examine          = "
+Daerius towers over you, glaring at your intrusion. His demeanor seems more
+like that of a sorceror than that of a dark druid. In his hand is a peculiar
+icy staff."
+End             = Daerius 
+
+Name            = Asphinx
+Location        = Alcove
+Pflags    { NoHassle }
+Mflags          { NoCorpse }
+Sflags   { NoArms NoLegs }
+Strength        = 500
+Damage          = 10
+Armor           = 50
+Aggression       = 0
+Speed           = 0
+Description     = "Poking its head out of the hole, the &+RAsphinx&* glares up at you."
+Examine         = "
+The asphinx is a creature known to be able to petrify mortals with its deadly 
+poison. However, since its cold blooded, it is particularly vunerable to 
+changes in temperature. The asphinx pokes its head up and hisses at you. 
+Anything (including your arm!) stuck in the hole would probobly be bit."
+End             = Asphinx
+
+Name            = Salamander
+Location        = Cavern3
+Mflags          { NoSteal BarSouth }
+Eflags          { NegFireball FearFrost NegBHands BHands Fireball }
+Strength        = 3000
+Damage          = 35
+Armor           = 10
+Aggression       = 0
+Speed           = 0
+Description     = "&+rThe &+Rsalamander&+r is here, boiling and hissing."
+Examine         = "
+Sitting in a puddle of molten lava, the salamander jealously guards his
+domain. It looks up at you and hisses loudly, showing its sharp teeth."
+End             = Salamander
+
+Name            = Tree1
+Pname           = "The Animated Tree"
+Eflags          { VTouch }
+Sflags   { NoLegs NoHead }
+Location        = woods3
+Damage          = 20
+Armor           = 5
+Strength        = 500
+Aggression       = 30
+Speed           = 1
+Description     = "An animated &+RTree&* thunders toward you."
+Examine         = "The animated tree seems to be an old yet strong oak tree animated by some
+dark magic. It moves slowly, but its branches seem to posess unnatural
+strength."
+End             = Tree1
+
+Name            = Tree2
+Pname           = "The Animated Tree"
+Location        = woods4
+Eflags          { VTouch }
+Sflags  { NoLegs NoHead }
+Damage          = 20
+Armor           = 5
+Strength        = 500
+Aggression       = 30
+Speed           = 1
+Description     = "An animated &+RTree&* thunders toward you."
+Examine         = "The animated tree seems to be an old yet strong oak tree animated by some
+dark magic. It moves slowly, but its branches seem to posess unnatural
+strength."
+End             = Tree2
+
+Name            = Dryad
+Pname           = "The Dark Dryad"
+Location        = woods4
+Mflags          { BarSouth }
+Sflags          { Female }
+Eflags		{ VTouch }
+Damage          = 100
+Armor           = 40
+Strength        = 10000
+Aggression       = 0
+Speed           = 0
+Description     = "The Dark Forest-&+RDryad&* sneers at you."
+Examine         = "
+Cloaked in the stolen power of this forest, the dark forest-dryad seems
+invincible. She laughs at you and tells you to leave before she dismembers
+you.
+
+In her wood-like hands is a long, golden, and very sharp blade. She reminds
+you of a certain tree you saw in the clearing..."
+End             = Dryad
+
+Name            = Demon
+Pname           = "demon"
+Location        = portal1
+Eflags          { Shock Cripple }
+Damage          = 30
+Strength        = 15000
+Aggression       = 5
+Speed           = 0
+Examine         = "The last thing you'll ever see."
+Description     = "
+&+R------------------------------------------------------------------------
+&+YCackling in delight, a foul demon stalks after you... You try to run
+&+Yaway, but there is no way out. The demon walks closer and closer toward
+&+Yyou, razor-sharp claws shimmering mavolently in the hellish light...
+&+R------------------------------------------------------------------------"
+End             = Demon
+
+Name            = Sauroth1
+Pname           = "Sauroth"
+Location        = Altar
+Pflags          { NoPunt NoSteal }
+Damage          = 1000
+Strength        = 15000
+Aggression       = 0
+Speed           = 0
+Examine         = "
+Towering over you, the foul demon sauroth laughs haughtily and says to you,
+
+'Go away, little one. I am undefeatable. Leave while you still can.'
+
+His razor-sharp claws are over a foot long and he moves with unsettling
+agility. Bits of his last victim still stick on his glimmering claws."
+Description     = "The foul demon &+RSauroth&* smirks at you."
+End             = Sauroth1
+
+Name            = Sauroth2
+Pname           = "Sauroth"
+Location        = Limbo
+Pflags          { NoPunt NoSteal }
+Damage          = 100
+Strength        = 15000
+Visibility	= 45000
+Aggression       = 0
+Speed           = 0
+Examine         = "
+His claws are a blur as he fights against the Spirit Of The Earth-Magic. He
+seems quite distracted with the task at hand..."
+Description     = "The demon &+RSauroth&* is here, locked in mortal combat with a strange Spirit."
+End             = Sauroth2
+
+Name            = EarthMagic1
+Pname           = "Spirit"
+Location        = Gloom
+Sflags          { Female }
+Damage          = 50
+Strength        = 1500
+Armor           = 0
+Speed           = 0
+Aggression       = 0
+Examine         = "
+The Earth Magic is a strange brown spirit that struggles against the chains
+around her, trying to get free. The &+Bchains&* appear to be draining her of 
+power, probobly for Sauroth's own evil purposes."
+Description     = "The &+RSpirit Of The Earth-Magic&* is here, locked in Ethereal &+BChains.&*"
+End             = EarthMagic1
+
+Name            = EarthMagic2
+Pname           = "Spirit"
+Location        = Limbo
+Sflags          { Female }
+Damage          = 50
+Strength        = 1500
+Visibility 	= 45000
+Armor           = 0
+Speed           = 0
+Aggression      = 0
+Description	= "The &+REarth-Magic&* is fighting with Sauroth."
+Examine         = "
+The Spirit Of The Earth-Magic strikes out hard against Sauroth, but it
+appears that she is fighting a losing battle."
+End             = EarthMagic2
+
+
+Name            = Leech1
+Pname           = "The Leech"
+Location        = Swamp2
+Damage          = 5
+Sflags { NoLegs NoArms }
+Strength        = 50
+Aggression       = 50
+Examine         = "
+The leech attaches its self to you, gorging on your rich, warm blood..."
+Description     = "A horrid &+RLeech&* is here."
+Speed           = 5
+End             = Leech1
+
+Name            = Leech2
+Pname           = "The Leech"
+Location        = Swamp2
+Damage          = 5
+Strength        = 50
+Aggression       = 50
+Sflags { NoLegs NoArms }
+Examine         = "
+The leech attaches its self to you, gorging on your rich, warm blood..."
+Description     = "A horrid &+RLeech&* is here."
+Speed           = 5
+End             = Leech2
+
+Name            = Leech3
+Pname           = "The Leech"
+Location        = Swamp3
+Damage          = 5
+Strength        = 50
+Aggression       = 50
+Sflags { NoLegs NoArms }
+Examine         = "
+The leech attaches its self to you, gorging on your rich, warm blood..."
+Description     = "A horrid &+RLeech&* is here."
+Speed           = 5
+End             = Leech3
+
+Name            = Leech4
+Pname           = "The Leech"
+Location        = Swamp4
+Damage          = 5
+Strength        = 50
+Aggression       = 50
+Sflags { NoLegs NoArms }
+Examine         = "
+The leech attaches its self to you, gorging on your rich, warm blood..."
+Description     = "A horrid &+RLeech&* is here."
+Speed           = 5
+End             = Leech4
+
+Name            = Leech5
+Pname           = "The Leech"
+Location        = Swamp5
+Damage          = 5
+Strength        = 50
+Aggression       = 50
+Sflags { NoLegs NoArms }
+Examine         = "
+The leech attaches its self to you, gorging on your rich, warm blood..."
+Description     = "A horrid &+RLeech&* is here."
+Speed           = 5
+End             = Leech5
+
+Name            = Leech6
+Pname           = "The Leech"
+Location        = Swamp6
+Damage          = 5
+Strength        = 50
+Aggression       = 50
+Sflags { NoLegs NoArms }
+Examine         = "
+The leech attaches its self to you, gorging on your rich, warm blood..."
+Description     = "A horrid &+RLeech&* is here."
+Speed           = 5
+End             = Leech6
+
+Name            = Leech7
+Pname           = "The Leech"
+Location        = Swamp7
+Damage          = 5
+Strength        = 50
+Aggression       = 50
+Sflags { NoLegs NoArms }
+Examine         = "
+The leech attaches its self to you, gorging on your rich, warm blood..."
+Description     = "A horrid &+RLeech&* is here."
+Speed           = 5
+End             = Leech7
+
+Name            = Dhelvar
+Pname           = "Dhelvar"
+Location        = Swamp3
+MFlags          { Pickstuff }
+EFlags		{ Fireball }
+Damage          = 14
+Strength        = 300
+Aggression       = 10
+Examine         = "
+Dhelvar is covered in black mud-soaked robes. His shifty eyes worry you as
+he walks about, taking in the evil magic that permeates through this horrible
+place."
+Description     = "&+RDhelvar&*, the dark druid of the swamp wanders about."
+End             = Dhelvar
+
+Name            = Abombination
+Pname           = "The Tentacled Abomination"
+Location        = swamp9
+Damage          = 20
+Strength        = 300
+Aggression       = 100
+Mflags  { Venom }
+Examine         = "
+The tentacled abomination is a strange beast, dark green in colour. His
+pale gelatinous eyes watch you cooly as he prepares to strike you with his
+deadly poison and pull you into his beak-like mouth."
+Description     = "&+gThe deadly Tentacled &+RAbomination&* is here."
+End             = Abombination
+
+Name            = Alligator
+Pname           = "The Alligator"
+Location        = mud
+Speed           = 0
+Damage          = 15
+Strength        = 280
+Aggression       = 10
+Examine         = "
+Probobly the last thing you'll ever see."
+Description     = "
+&+r--------------------------------------------------------------------------
+&+R--------------------------------------------------------------------------
+&+WBreaking the surface of the brown water, an &+Yalligator&+W slinks toward
+&+Wyou, its powerful tail swishing two and frow as it stalks its prey. There
+&+Wis no escape, as the reptile moves in to kill you in your moment of
+&+Wweakness...
+&+R--------------------------------------------------------------------------
+&+r--------------------------------------------------------------------------"
+End             = Alligator
+
+Name            = Asp
+Pname           = "The Water Asp"
+Location        = Swamp5
+Strength        = 15
+Speed           = 0
+Damage          = 50
+Aggression       = 1
+Sflags { NoLegs NoArms }
+Mflags { Venom }
+Examine         = "
+The water asp is a serpent known for its lethal poison..."
+Description     = "An &+Rasp&* is here."
+End             = Asp
+
+
+Name            = Eagle1
+Pname           = "The Eagle"
+Location        = cleft
+Strength        = 5
+Damage          = 2
+Speed           = 0
+Aggression       = 0
+Examine         = "
+The eagle appears to be severely wounded. Several long poisoned wounds
+which look like they were done by a horrible tentacled beast cover the
+eagles body.
+
+Although the runes of healing are glowing brightly to help the eagles's
+wounds, it appears that while the poison is still active, the runes can't
+help."
+Description     = "A wounded &+REagle&* lies here."
+End             = Eagle1
+
+Name            = Eagle2
+Pname           = "The Eagle"
+Location        = limbo
+Damage          = 30
+Strength        = 4000
+Speed           = 0
+Aggression       = 0
+Armor           = 10
+Description     = "An &+REagle&* perches nearby, watching and waiting."
+Examine         = "
+The Eagle is a magnificent beast. His feathers are golden, and he watches
+about with his keen black eyes. You feel safe under his protective gaze.
+His claws are razor sharp, and he appears to posess incredible agility."
+End             = Eagle2
+
+
+%objects
+
+Name		= passage_d
+Pname = passage
+Oflags          { NoGet }
+State           = 1
+Location        = IN_ROOM:Altar
+Linked          = passage_u
+End             = passage_d
+
+Name		= passage_u
+Pname = passage
+Oflags          { NoGet }
+State           = 1
+Location        = IN_ROOM:Gloom
+Linked          = passage_d
+End             = passage_u
+
+Name		= passage1_w
+Pname = passage
+Oflags		{ NoGet }
+State		= 1
+Location	= IN_ROOM:cavern1
+Linked		= passage1_e
+End 		= passage1_w
+
+Name            = passage1_e
+Pname = passage
+Oflags          { NoGet }
+State           = 1      
+Location        = IN_ROOM:Jharn
+Linked		= passage1_w
+End             = passage1_e
+
+Name            = passage2_e
+Pname = passage
+Oflags          { NoGet }
+State           = 1      
+Location        = IN_ROOM:cavern1
+Linked		= passage2_w
+End             = passage2_e
+
+Name            = passage2_w
+Pname = passage
+Oflags          { NoGet }
+State           = 1      
+Location        = IN_ROOM:Alcove
+Linked		= passage2_e
+End             = passage2_w
+
+Name            = Willow
+Pname           = "Willow"
+State           = 0
+MaxState        = 0
+Location        = IN_ROOM:Hill
+Desc[0]         = "A slender &+Bwillow&* stands here, giving shade."
+Oflags          { NoGet }
+Examine         = "
+The Willow tree stands proudly here, in stark defiance at what the dark
+druids have done. If you weren't so distrubed by the destruction around the
+hill, you would feel strongly motivated to sit under the willow tree, rest,
+and contemplate."
+End             = Willow
+
+Name            = Medicine
+Pname           = "Medicine"
+Altname         = "Bag"
+State           = 0
+MaxState        = 0
+Location        = IN_ROOM:daerius
+Oflags          { Container WearAble RegenHealth }
+Aflags		{ Neck }
+Size            = 30
+Desc[0]         = "Someone has left a druid's &+Bmedicine&* bag here."
+Examine         = "
+Made out of soft and supple leather. It has a strap to go around
+your neck. Wafting from the medicine bag is the wild scent of
+herbs. Obviously not made by the dark druids."
+End             = Medicine
+
+Name            = Herb1
+Pname           = "Herb"
+State           = 0
+MaxState        = 0
+Location        = IN_CONTAINER:Medicine
+Oflags          { Food }
+Size            = 5
+Desc[0]         = "Someone has left a small &+Bherb&* here."
+Examine         = "
+The herb appears to be one of the rare species. Although it is slightly 
+wilted, its curative properies are probobly not affected."
+End             = Herb1
+
+Name            = Herb2
+Pname           = "Herb"
+State           = 0
+MaxState        = 0
+Location        = IN_CONTAINER:Medicine
+Oflags          { Food }
+Size            = 5
+Desc[0]         = "Someone has left a small &+Bherb&* here."
+Examine         = "
+The herb appears to be one of the rare species. Although it is slightly 
+wilted, its curative properies are probobly not affected."
+End             = Herb2
+
+Name            = Herb3
+Pname           = "Herb"
+State           = 0
+MaxState        = 0
+Location        = IN_CONTAINER:Medicine
+Oflags          { Food }
+Size            = 5
+Desc[0]         = "Someone has left a small &+Bherb&* here."
+Examine         = "
+The herb appears to be one of the rare species. Although it is slightly 
+wilted, its curative properies are probobly not affected."
+End             = Herb3
+
+Name            = Herb4
+Pname           = "Herb"
+State           = 0
+MaxState        = 0
+Location        = IN_CONTAINER:Medicine
+Oflags          { Food }
+Size            = 5
+Desc[0]         = "Someone has left a small &+Bherb&* here."
+Examine         = "
+The herb appears to be one of the rare species. Although it is slightly 
+wilted, its curative properies are probobly not affected."
+End             = Herb4
+
+Name            = JharnStaff
+Pname           = "DarkStaff"
+Altname         = "Obsidian"
+State           = 0
+MaxState        = 0
+BValue          = 200
+Location        = WIELDED_BY:Jharn
+Desc[0]         = "A dark &+Bstaff&* of obsidian lies here."
+Oflags          { Weapon NegHealth } 
+Damage          = 19
+Size            = 40
+Examine         = "
+The staff is made of a stout volcanic rock known as obsidian. Its glassy
+surface shimmers softly. The obsidian staff is as cold as ice and posesses 
+a definate aura of powerful evil."
+End             = JharnStaff
+
+Name            = Carvings
+Pname           = "carvings"
+Altname         = "engravings"
+State           = 0
+MaxState        = 0
+Size            = 20
+Location        = IN_ROOM:cavern1
+Oflags          { NoGet }
+Desc[0]         = ""
+Examine         = "
+The carvings do a rather poor job of depicting various demons and
+other creatures you would expect to find in the underworld. However, you do
+notice a small hole in the &+CEast&* wall that you just might be
+able to squeeze through. To your suprise you discover yet another hole among
+the carvings which allows you to pass &+CWest&*!"
+End             = Carvings
+
+Name            = Hole
+Pname           = "hole"
+State           = 0
+MaxState        = 0
+Size            = 50
+Location        = IN_ROOM:Alcove
+OFlags          { NoGet Container }
+Desc[0]         = ""
+Examine         = "A hole in the center of the room about 1 foot deep."
+End             = Hole
+
+Name            = FrostSceptre
+Pname           = "Sceptre"
+Altname         = "Frost"
+State           = 0
+MaxState        = 0
+BValue          = 200
+Location        = WIELDED_BY:Daerius
+Desc[0]         = "An icy frost &+Bsceptre&* is here, radiating an icy aura."
+Oflags          { Weapon }
+Damage          = 10
+Size            = 40
+Examine         = "
+The frost sceptre has a bluish hazy aura about it. Just coming close to it
+makes you shiver uncontrollably. The surface of the sceptre is transluscent,
+almost like colored glass. At the top of the sceptre is a sapphire, obviously
+enchanted by a powerful magic. With this, you could perhaps enter the hottest
+regions of the land and remain unscathed.
+
+Unfortunately, this sceptre won't make much of a weapon unless the victim is
+particularly sensitive to cold."
+End             = FrostSceptre
+
+Name            = Candle
+Pname           = "candle"
+Altname         = "dark"
+State           = 0
+MaxState        = 1
+Bvalue          = 100
+Location        = IN_CONTAINER:Hole
+Desc[0]         = "An evil-looking black &+Bcandle&* burns away."
+Desc[1]         = "An evil-looking black &+Bcandle&* lies here."
+Oflags          { Lit Extinguish }
+Size            = 5
+Examine         = "
+The candle looks as if it is used for some evil ritual. It glows malvolently
+and you feel a strong urge to extinguish its sinister flame."
+End             = Candle
+
+Name            = Outside_vines
+Pname         = vines
+State           = 1
+MaxState        = 1
+Oflags          { NoGet PushToggle }
+Location        = IN_ROOM:Woods1
+Linked          = Inside_vines
+Desc[0]         = "The &+Bvines&* have been pushed aside, allowing passage &+CWest&*."
+Examine         = "
+Behind the vines you notice a small passage leading to another part of the
+woods. The vines appear to be loose enough to be pushed aside."
+End             = Outside_vines
+
+Name            = Inside_vines
+Pname         = vines
+State           = 1
+Maxstate        = 1
+Oflags          { NoGet Pushtoggle }
+Location        = IN_ROOM:Woods2
+Linked          = Outside_vines
+Desc[0]         = "The &+Bvines&* have been pushed aside, allowing passage &+CEast&*."
+Examine         = "
+Behind the vines you notice a small passage leading to another part of the
+woods. The vines appear to be loose enough to be pushed aside."
+End             = Inside_vines
+
+Name            = OldTree
+Pname           = "Tree"
+State           = 0
+Maxstate        = 0
+Oflags          { NoGet }
+Location        = IN_ROOM:Woods4
+Desc[0]         = "An evil-looking old &+Btree&* stand here."
+Examine         = "
+The tree looks old and dry, yet very powerful. Its black branches stretch
+out above you, casting an ominous shadow."
+End             = oldtree
+
+Name            = GoldenSickle1
+Pname           = GoldenSickle
+Altname         = sickle
+State           = 0
+MaxState        = 1
+Oflags          { Weapon }
+Location        = WIELDED_BY:Dryad
+Damage          = 10
+Desc[0]         = "A Golden &+BSickle&* lies here, its blade glowing evilly."
+Examine         = "
+The sickle's long curved blade is razor sharp, and its handle is of an
+extremely hard wood. 
+
+&+RSomething seems very wrong with this weapon, however. It glows evilly
+&+Rand feels extordinarily heavy in your hands. It appears to be cursed."
+End             = GoldenSickle1
+
+Name            = GoldenSickle2
+Pname           = GoldenSickle
+Altname         = sickle
+STate           = 0
+MaxState        = 0
+Oflags          { Weapon Glowing }
+Location        = IN_ROOM:Limbo
+Damage          = 40
+Desc[0]         = "A golden &+Bsickle&* lies here, its blade glowing with a holy aura!"
+Examine         = "
+The sickle's long curved blade is razor sharp and glowing brightly. The
+handle is of extremely hard ash wood... Something about holding this
+ancient weapon in your hands make you feel safe and protected...
+
+It is extremely light and seems to move with a will of its own."
+End             = GoldenSickle2
+
+Name            = ashes
+Pname           = "ashes"
+State           = 0
+Maxstate        = 0
+Location        = IN_ROOM:limbo
+Oflags          { NoGet }
+Desc[0]         = "All that remains of the dryad are &+Bashes&*."
+Examine         = "
+They remind you of the embers of burnt wood. Among them you find a golden
+&+BSickle&*."
+End             = ashes
+
+Name            = Chest
+Pname           = "chest"
+State           = 2
+MaxState        = 2
+Location        = IN_ROOM:woods5
+Oflags          { Container Lockable Openable }  
+Size            = 200
+Weight          = 100
+Desc[0]         = "An open &+Cchest&* has been dropped here."
+Desc[1]         = "An closed &+Cchest&* has been dropped here."
+Desc[2]         = "A locked &+Cchest&* has been dropped here."
+Bvalue          = 100
+End             = Chest
+
+Name            = BrassKey
+Pname           = "BrassKey"
+Altname         = Key
+State           = 0
+Maxstate        = 0
+Location        = IN_ROOM:Jharn
+Oflags          { Key }
+Size            = 5
+Weight          = 10
+Bvalue          = 100
+Desc[0]         = "A shiny brass &+Bkey&* has been left here."
+Examine         = "
+The key looks too small to be to a door. Perhaps its to a chest."
+End             = BrassKey
+
+Name            = Coins
+Altname         = "coin"
+State           = 0
+MaxState        = 0
+Size            = 50
+Weight          = 50
+Location        = IN_CONTAINER:Chest
+Bvalue          = 400
+Desc[0]         = "Thousands of priceless platinum &+Bcoins&* are here."
+Examine         = "
+The coins look like they'd make a gift quite pleasing to the gods."
+End             = Coins
+
+Name            = Ruby
+Pname           = "ruby"
+State           = 0
+Maxstate        = 0
+Size            = 10
+Weight          = 5
+Location        = IN_CONTAINER:Chest
+Bvalue          = 1000
+Desc[0]         = "A precious, eye-sized &+Bruby&* has been dropped here."
+Examine         = "
+This ruby looks like it is quite valuable. The dark druids probobly looted
+it off of a wealthy traveler."
+End             = Ruby
+
+Name            = Amethyst
+Pname           = "Amethyst"
+State           = 0
+Maxstate        = 0
+Size            = 40
+Weight          = 20
+Location        = IN_CONTAINER:Chest
+Bvalue          = 500
+Desc[0]         = "A beautiful &+Bamethyst&* has been left here."
+Examine         = "
+This fist-sized amethyst reflects the light back through its many facets."
+End             = Amethyst
+
+Name            = DarkGem
+Pname           = "Gemstone"
+Altname         = "Gem"
+Oflags          { GetFlips }
+State           = 0
+MaxState        = 1
+Size            = 40
+Weight          = 20
+Location        = IN_ROOM:Altar
+Bvalue          = -2000
+Desc[0]         = "A dark &+BGemstone&* sits upon the altar."
+Desc[1]         = "A dark &+BGemstone&* has been abandoned here."
+Examine         = "
+The Gemstone glows menacingly and seems to siphon the very life from you..."
+End             = DarkGem
+
+
+Name            = Force
+Pname           = "Force"
+Oflags          { noget }
+State           = 0
+MaxState        = 0
+Location        = IN_ROOM:Altar
+Desc[0]         = ""
+Examine         = ""
+End             = Force
+
+Name            = Altar
+Pname           = "Altar"
+Oflags          { noget }
+State           = 0
+Maxstate        = 0
+Location        = IN_ROOM:Altar
+Desc[0]         = "A hideous black &+BAltar&* stands proudly here."
+Examine         = "
+You notice beside the grostique altar, a passage leading &+Cdown&*."
+End             = Altar
+
+Name            = Chains
+Pname           = "Chains"
+Oflags          { noget }
+State           = 0
+Maxstate        = 0
+Location        = IN_ROOM:Gloom
+Desc[0]         = ""
+Examine         = "
+The chains hold the earth-magic fast..."
+End             = Chains
+
+%locations
+                
+path e:plain1 w:Path@valley;
+lflags { outdoors nomobiles }
+Tarchannen Forest Path^
+   The bird's singing is gone, and all about you there is an unnatural
+silence. The forest lacks its natural health and vibrance and it seems
+as if some dark magic has drained it. The branches form a canopy above so
+that you cannot see the sky.  The forest edges out &+CWest&* and some
+sickly-looking plains are to the &+CEast&*.
+^
+plain1 e:hill n:plain2 s:plain3 w:path;
+lflags { outdoors }
+Gloomy Plains^
+   As you enter the plains, you feel a surge of gloom fill your body. 
+All around you are dry, dying grasses, flowers, and trees. You sense
+that this was once a beautiful place, ravaged by some dark magic.
+To the &+CWest&* is some sort of forest. To the &+CEast&* you see
+a small hill.
+^
+hill n:plain4 e:plain8 s:plain5 w:plain1 ;
+lflags { outdoors peaceful fastheal }
+On Top Of The Hill^
+   The hill seams to be an oasis among the sad lands. All around you 
+flowers bloom and birds sing. You sense the presense of good magic.
+In all directions the sad plains extend. 
+^
+
+plain2 s:plain1 e:plain4;
+lflags { outdoors }
+Gloomy Plains^
+   As you enter the plains, you feel a surge of gloom fill your body.
+All around you are dry, dying grasses, flowers, and trees. You sense
+that this was once a beautiful place, ravaged by some dark magic.
+The plain extends to the &+CSouth&* and to the &+CEast&*.
+^
+plain4 s:hill w:plain2 e:plain6;
+lflags { outdoors }
+Gloomy Plains^
+   As you enter the plains, you feel a surge of gloom fill your body.
+All around you are dry, dying grasses, flowers, and trees. You sense
+that this was once a beautiful place, ravaged by some dark magic.
+The plain extends both to the &+CWest&* and &+CEast&*. To the &+CSouth&* is
+a hill which seems to stand out from everything else.
+^
+plain6 w:plain4 s:plain8;
+lflags { outdoors }
+Gloomy Plains^
+   As you enter the plains, you feel a surge of gloom fill your body.
+All around you are dry, dying grasses, flowers, and trees. You sense
+that this was once a beautiful place, ravaged by some dark magic.
+The plain extends to the &+CSouth&* and the &+CWest&*.
+^
+plain8 s:plain7 w:hill n:plain6 e:sagewood1;
+lflags { outdoors }
+Gloomy Plains^
+   As you enter the plains, you feel a surge of gloom fill your body.
+All around you are dry, dying grasses, flowers, and trees. You sense
+that this was once a beautiful place, ravaged by some dark magic.
+The plain leads both &+CSouth&* and &+CNorth&*. A hill lies to the &+CWest&*.
+To the &+CEast&* is a ravaged clearing.
+^
+plain7 n:plain8 w:plain5;
+lflags { outdoors }
+Gloomy Plains^
+   As you enter the plains, you feel a surge of gloom fill your body.
+All around you are dry, dying grasses, flowers, and trees. You sense
+that this was once a beautiful place, ravaged by some dark magic.
+The plain extends &+CNorth&* and &+CWest&*.
+^
+
+plain5 e:plain7 n:hill w:plain3;
+lflags { outdoors }
+Gloomy Plains^
+   As you enter the plains, you feel a surge of gloom fill your body.
+All around you are dry, dying grasses, flowers, and trees. You sense
+that this was once a beautiful place, ravaged by some dark magic.
+A tall hill lies to the &+CNorth&* and to the &+CWest&* and &+CEast&* is more
+of this vast plane.
+^
+
+plain3 n:plain1 e:plain5;
+lflags { outdoors }
+Gloomy Plains^
+   As you enter the plains, you feel a surge of gloom fill your body.
+All around you are dry, dying grasses, flowers, and trees. You sense
+that this was once a beautiful place, ravaged by some dark magic.
+The plain continues &+CNorth&* and &+CEast&*.
+^
+
+limbo ;
+lflags { }
+Somewhere^
+   You are lost in a formless void.
+^
+
+sagewood1 w:plain8 s:cavern1 n:daerius e:sagewood2;
+lflags { outdoors }
+Ravaged Clearing^
+   You are overcome by a feeling of tremendous grief for the land
+around you. It is almost as if someone came here and ripped the
+life away from the land. The bare cracked soil beneath is light
+brown and dry.
+To the &+CWest&* is a shimmering haze, while an ominous cavern lies
+to the &+CSouth&*. The wasteland continues &+CEast&* and a small mud-hut
+is &+CNorth&*.
+^
+
+cavern1 n:sagewood1 s:cavern2 w:^passage1_w e:^passage2_e;
+lflags { nomobiles }
+Entrace To Ominous Cavern^
+   This gigantic hall appears to only lead &+CNorth&* and &+CSouth&*. 
+Waves of blinding heat eminate from the south, while reasurring light
+comes out of the hole in the north. Evil-looking &+Bcarvings&* are 
+engraved in the East and West walls.
+^
+
+jharn e:^passage1_e;
+lflags { nomobiles }
+Jharn's Dwelling^
+   This place appears to be Jharn's dwelling. A small &+Bbed&* of dry
+leaves is the only object in the small room. A small tunnel leads &+CEast&*
+into the cave's main chamber. Small, and simple. All a dark-druid sentry
+needs.
+^
+
+alcove w:^passage2_w;
+lflags { oneperson dark }
+Dark Alcove^
+   The room seems to be centered around a small &+Bhole&* in the center 
+of the stone floor. You have to crouch down to avoid hitting your head on
+the ceiling in this claustrophobic chamber.
+^
+
+cavern2 n:cavern1 s:cavern3 ;
+lflags { NegRegen }
+Boiling Cavern^
+   You are bombared by waves of searing heat which accompany the foul
+black clouds of smoke eminating from the &+CSouth&*. To the &+CNorth&*
+things seem to clear up. Little trickles of lava flow along the walls,
+lending aid to the overall sense of danger here.
+^
+
+cavern3 n:cavern2 s:cavern4 ;
+lflags { NegRegen }
+Near The Edge^
+   Your vision is shimmery from the steam seeping from the rocks around
+you. It seems just a bit cooler to the &+CNorth&*. To the &+CSouth&* you
+can see an immense river of lava on a ledge. You might be able to survive
+the heat if you take something to protect yourself.
+^
+cavern4 n:cavern3 w:lava e:lava s:lava d:lava ;
+lflags { NegRegen }
+The Edge Of The Lava Flow^
+   All around you is a vast river of boiling lava which is more fluid
+than water and extremely hot. Occasionally a wave of the lava washes
+ashore, taking some of the rock with it. Any wise adventurer would leave
+soon! Anything thrown into the lava would surely be destroyed...
+^
+
+lava ;
+lflags { Death }
+Boiling Lava^
+   As you step into the lava, the the tissue is scoured from your bones
+within seconds. Soon after your bones are melted and all that is left of
+the foolish adventurer is a few ashes that float along the lava river
+to an unknown destination.
+^
+
+daerius s:sagewood1 ;
+lflags { }
+Daerius' Hut^
+   This hut is roughly made of mud and appears to be hastily constructed.
+The only exit is &+CSouth&*.
+^
+
+Sagewood2 w:sagewood1 e:altar n:swamp1 s:woods1;
+lflags { outdoors }
+Ravaged Woods^
+   The Sun's light is blocked by the dense evil-looking trees which seem
+to be in competion to reach the light. Many trees here are dead, on the
+brink of falling over, starved out by the other trees. The ground is a
+horrendous maze of tripping roots. A clearing is &+CWest&*, and a sinister
+altar is &+CEast&*. Even more trees stand like dark sentries to the &+CSouth&*.
+The fetid stench of an old bog wafts in from the &+CNorth&*. 
+^
+
+Altar w:sagewood2 d:^passage_d e:portal1 ;
+lflags { outdoors }
+Near The Sinister Altar^
+   The whole area seems to be a large hole carved into the earth. At the
+bottom of the hole you notice a terrible-looking black &+Baltar&*. A
+hellish portal is to the &+CEast&* and it looks anything but safe. The only
+safe-looking way out is &+CWest&*.
+^
+
+portal1 ;
+lflags { NoMobiles }
+Hellish Portal^
+   This appears to be the means Sauroth travels between this world and the
+next. Unfortunatly, not everything here is friendly towards mortals ...
+^
+
+gloom u:^passage_u ;
+lflags { }
+Gloomy Chamber^
+   This small chamber is carved even deeper into the ground. The only way
+out appears to be a poorly made ladder going &+CUp&*.
+^
+
+woods1 n:sagewood2 w:^outside_vines ;
+lflags { outdoors nomobiles }
+Ravaged Woods^
+   The trees here become more and more dense until they form a seemlingly
+impassable wall in all directions, save &+CNorth&*. A peculiar mass of &+Bvines&*
+grows on a small tree to the West.
+^
+woods2 e:^inside_vines s:woods3 ;
+lflags { outdoors }
+Ravaged Woods^
+   The trees and plants here fight a never-ending battle for the light. All
+around you are trees choked by parasitic vines and creepers. The North,
+West, and East exits are blocked out by seemingly impassible walls of
+ancient trees. A peculiar mass of &+Bvines&* grow on a small tree to the
+East. The woods continue &+CSouth&*.
+^
+woods3 n:woods2 s:woods4 ;
+lflags { outdoors }
+Ravaged Woods^
+   The trees and plants here fight in a never-ending battle for light. All
+around are trees choked by parasitic vines and creepers. West and East are
+totally blocked by impassible walls of gigantic trees. &+CSouth&* is a
+clearing&* and to the &+CNorth&* is more dense woods.
+^
+
+woods4 n:woods3 w:woods5 ;
+lflags { outdoors }
+Old Clearing^
+   The chaos of the trees clamoring for the light seems to have disappeared
+here. In the center of this clearing is a single, gigantic black &+Boak&*.
+The other plants grow away from it as if afraid of coming too close. &+CNorth&*
+and &+CWest&* lead off into the ravaged woods.
+^
+
+woods5 e:woods4 s:woods6;
+lflags { outdoors }
+Ravaged Woods^
+   The trees and plants here fight in a never-ending battle for light. All
+around are trees chocked by parasitic vines and creepers. North and West are
+totally blocked by impassable walls of gigantic trees. &+CEast&* is a clearing
+and the woods seem to get darker &+CSouth&*.
+^
+
+woods6 n:woods5 ;
+lflags { dark }
+Dark Clearing^
+   The dead and dying trees and vines here form a solid ceiling overhead,
+their branches, leaves, and vines meshed together so that you cannot see the
+sunlight. In all directions, save &+CNorth&* things get too dense to travel
+through...
+^
+
+swamp1 s:sagewood2 w:swamp2 e:swamp3 n:swamp5 ;
+lflags { nomobiles outdoors negregen maze}
+Foul Swamp^
+   All around you are evil-looking plants, choking each other out in hopeless
+attempts to get the sunlight. Those who loose the battle sooner than others
+die, and fall into the brown water which is now up to your knees. Sometimes
+you feel something slimy swim by, ready any moment to pull you under. The
+swamp leads off in all directions, &+CSouth&* looking most inviting, as it
+is upon dry land.
+^
+
+swamp2 n:swamp4 e:swamp1 w:mud s:mud ;
+lflags { outdoors negregen maze}
+Foul Swamp^
+   All around you are evil-looking plants, choking each other out in hopeless
+attempts to get sunlight. Those who loose the battle sooner than others die,
+and fall into the brown water up which is up to your knees. Sometimes you
+feel something slimy swim by, ready at any moment to pull you under. Exits
+lead &+CNorth&* and &+CEast&*, neither look inviting. To the &+CWest&*
+and &+CSouth&* the mud seems to get dangerously deeper...
+^
+
+swamp3 w:swamp1 n:swamp6 e:mud s:mud ;
+lflags { outdoors negregen maze}
+Foul Swamp^
+   All around you are evil-looking plants, choking each other out in hopeless
+attempts to get sunlight. Those who loose the battle sooner than others die,
+and fall into the brown water up which is up to your knees. Sometimes you
+feel something slimy swim by, ready at any moment to pull you under. Exits
+lead &+CWest&* and &+CNorth&*, and neither look inviting. To the &+CEast&*
+and &+CSouth&* the mud seems to get dangerously deeper...
+^
+
+swamp4 s:swamp2 e:swamp5 n:swamp7 w:mud ;
+lflags { outdoors negregen maze}
+Foul Swamp^
+   All around you are evil-looking plants, choking each other out in hopeless
+attempts to get sunlight. Those who loose the battle sooner than others die,
+and fall into the brown water up which is up to your knees. Sometimes you
+feel something slimy swim by, ready at any moment to pull you under. Exits
+lead &+CSouth&*, &+CEast&*, and &+CNorth&*. To the &+CWest&* the mud seems
+to get dangerously deeper...
+^
+
+swamp5 w:swamp4 e:swamp6 n:swamp8 s:swamp1;
+lflags { outdoors negregen maze}
+Foul Swamp^
+   All around you are evil-looking plants, choking each other out in hopeless
+attempts to get sunlight. Those who loose the battle sooner than others die,
+and fall into the brown water up which is up to your knees. Sometimes you
+feel something slimy swim by, ready at any moment to pull you under. Exits
+lead in all directions.
+^
+
+swamp6 w:swamp5 s:swamp3 n:swamp9 e:mud ;
+lflags { outdoors negregen maze}
+Foul Swamp^
+   All around you are evil-looking plants, choking each other out in hopeless
+attempts to get sunlight. Those who loose the battle sooner than others die,
+and fall into the brown water up which is up to your knees. Sometimes you
+feel something slimy swim by, ready at any moment to pull you under. Exits
+lead &+CNorth&*, &+CSouth&*, and &+CWest&*. To the &+CEast&* the mud seems
+seems to get dangerously deeper.
+^
+
+swamp7 e:swamp8 s:swamp4 n:mud w:mud ;
+lflags { outdoors negregen maze}
+Foul Swamp^
+   All around you are evil-looking plants, choking each other out in hopeless
+attempts to get sunlight. Those who loose the battle sooner than others die,
+and fall into the brown water up which is up to your knees. Sometimes you
+feel something slimy swim by, ready at any moment to pull you under. Exits
+lead &+CSouth&* and &+CEast&*. To the &+CNorth&* and &+CWest&* the mud
+seems to get dangerously deeper...
+^
+
+swamp8 w:swamp7 e:swamp9 s:swamp5 n:cleft ;
+lflags { outdoors negregen maze}
+Foul Swamp^
+   All around you are evil-looking plants, choking each other out in hopeless
+attempts to get sunlight. Those who loose the battle sooner than others die,
+and fall into the brown water up which is up to your knees. Sometimes you
+feel something slimy swim by, ready at any moment to pull you under. Exits
+lead &+CSouth&*, &+CEast&*, and &+CWest&*. A mess of rocks is off to the
+&+CNorth&*, inside of which you notice a small cave.
+^
+
+swamp9 w:swamp8 s:swamp6 n:mud e:mud ;
+lflags { outdoors negregen maze}
+Foul Swamp^
+   All around you are evil-looking plants, choking each other out in hopeless
+attempts to get sunlight. Those who loose the battle sooner than others die,
+and fall into the brown water up which is up to your knees. Sometimes you
+feel something slimy swim by, ready at any moment to pull you under. Exits
+lead &+CWest&*, and &+CSouth&*. To the &+CNorth&* and &+CEast&* the mud
+seems to get dangerously deeper...
+^
+
+mud ;
+lflags { nomobiles negregen outdoors nosummon cantsummon maze}
+Deep Mud...^
+   As you step into this area, you feel yourself sinking deeper and deeper
+under into the mud. It is all you can do to keep your head above the surface
+of the brown water. Despite your best efforts, you are unable to get back
+to the dry land...
+^
+
+cleft s:swamp8 ;
+lflags { dark }
+Cleft in the rocks^
+   This place seems dry and safe, in stark contrast of the swamp around you.
+Carved in the walls are runes of healing. This place must've had a special
+use before the dark druids came in and corrupted. A few weak rays of sunlight
+shine in from the small entrace to the &+CSouth&*.
+^
+
+
+
+

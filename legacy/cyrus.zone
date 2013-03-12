@@ -1,0 +1,1510 @@
+
+
+
+
+%rainfall:500
+
+%latitude:40
+
+%mobiles
+
+name = creature
+location = 80
+mflags { GrabHostile }
+speed = 0
+aggression = 0
+strength = 1000
+damage = 25
+armor = 20
+description = "A smelly &+Rcreature&* is sleeping here."
+examine = "It looks like a dog except is is much bigger. It has glowing
+red eyes. You probably wouldn't want to wake it up."
+end = creature
+
+name = hermit
+location = 73
+speed = 0
+aggression = 0
+strength = 100
+description = "A smelly hermit is here."
+examine = "The hermit looks at you and says:
+&+wAre you the one who will save us from the evil Cyrus?
+&+wPerhaps I could maybe help you with something.
+&+wIn order to find what weapon you must use to kill Cyrus, you must
+&+wdecifer three inscriptions written in a forgotten language. I know
+&+wthat a scroll explaining this old language has been lost near the 
+&+wAsdam village west of here. That's all I can do for you, child."
+end = hermit
+
+name = guardian
+location = 8
+speed = 0
+aggression = 0  
+strength = 700
+mflags { GrabHostile }
+description = "A guardian is here, sleeping."
+examine = "He is sleeping. It would be wise not to wake him up."
+end = guardian
+
+name = oruc
+location = 4
+strength = 100
+damage = 5
+armor = 5
+speed = 0
+description = "Oruc, the village elder, is here, sipping his tea and humming a
+little plainting ballad."
+examine = "Oruc says to you:
+'You've just seen what Cyrus did when he returned from the world of the
+darkness. Cyrus is an ancient demon who has blasted up this village 1000
+years ago. He lives in the caves north of the village.'"
+end = oruc
+
+name = catix
+location = 6
+strength = 300
+damage = 10
+armor = 40
+speed = 0
+description = "Catix the wiseman is sitting at the table, mumbling."
+examine = "Catix says to you:
+Please, save the village from Cyrus. I don't want to leave this place where
+my ancestors grew up. But, to kill Cyrus, you need a mystic sword. It's very
+powerful ... don't attack with the wrong weapon because all other weapons
+will boost him and you will die surely."
+end = catix 
+
+name = wrestler
+location = 14
+strength = 3500
+damage = 45
+armor = 35
+speed = 0
+aggression = 100
+MFlags { BarNorth }
+description = "A huge, powerful-looking wrestler is here."
+examine = "He has big muscles."
+end = wrestler
+ 
+name = Efnel
+location = 24
+mflags { grabhostile bardown }
+speed = 0
+aggression = 100
+strength = 2000
+damage = 25
+armor = 10
+description = "Efnel, the ugly freak Wajsyg is here looking at you meaningly."
+examine = "Tall, ugly, stinky, crusty and sticky; what else could you desire?"
+end = Efnel
+
+name = Jayl
+location = 23
+speed = 0
+aggression = 100
+MFlags { barwest }
+strength = 1000
+damage = 25
+armor = 10
+description = "Jayl, the father of the Wajsyg family is standing here."
+end = Jayl
+
+name = Gaav                                 
+location = 22                               
+sflags { female }
+speed = 0                                   
+aggression = 100  
+MFlags { barnorth }                          
+strength = 1000                             
+damage = 25                                 
+armor = 10                                  
+description = "Gaav, the mother of the Wajsyg family is standing here."
+end = Gaav
+
+name = Keprek                                 
+location = 21                               
+speed = 0                                   
+aggression = 100                            
+strength = 1000    
+MFlags { bareast }                         
+damage = 25                                 
+armor = 10                                  
+description = "Keprek, the older brother of the Wajsyg family is standing here."
+end = Keprek
+
+name = Lutix                                 
+location = 20                               
+speed = 0                                   
+aggression = 100                            
+strength = 1000                             
+damage = 25       
+MFlags { bareast }                          
+armor = 10                                  
+description = "Lutix, the younger brother of the Wajsyg family is standing here."
+end = Lutix
+
+name = Bebaji                                 
+location = 19                               
+sflags { female }
+MFlags { bareast }
+speed = 0                                   
+aggression = 100                            
+strength = 1000                             
+damage = 25                                 
+armor = 10                                  
+description = "Bebaji, the older sister of the Wajsyg family is standing here."
+end = Bebaji
+
+name = Bogowa                                 
+location = 18                               
+sflags { }
+MFlags { barsouth }
+speed = 0                                   
+aggression = 100                            
+strength = 1000                             
+damage = 25                                 
+armor = 10                                  
+description = "Bogowa, the father of the Wajsyg family is standing here."
+end = Bogowa 
+
+name = guard1
+PName = guard
+strength = 200
+damage = 15
+armor = 10
+speed = 30
+aggression = 80
+location = 51
+description = "A guard is here, guarding the maze."
+examine = "He is well armored and powerful."
+end = guard1
+
+name = guard2
+PName = guard
+strength = 200
+damage = 15
+armor = 10
+speed = 30
+aggression = 80
+location = 47
+description = "A guard is here, guarding the maze."  
+examine = "He is well armored and powerful."
+end = guard2
+
+name = guard3
+PName = guard
+strength = 200
+damage = 15
+armor = 10
+speed = 30
+aggression = 80
+location = 46
+description = "A guard is here, guarding the maze."  
+examine = "He is well armored and powerful."
+end = guard3
+
+name = guard4
+PName = guard
+strength = 200
+damage = 15
+armor = 10
+speed = 30
+aggression = 80
+location = 40
+description = "A guard is here, guarding the maze."  
+examine = "He is well armored and powerful."
+end = guard4
+
+name = guard5
+PName = guard
+strength = 200
+damage = 15
+armor = 10
+speed = 30
+aggression = 80
+location = 39
+description = "A guard is here, guarding the maze."  
+examine = "He is well armored and powerful."
+end = guard5
+
+name = guard6
+PName = guard
+strength = 200
+damage = 15
+armor = 10
+speed = 30
+aggression = 80
+location = 38
+description = "A guard is here, guarding the maze."  
+examine = "He is well armored and powerful."
+end = guard6
+
+name = guard7
+PName = guard
+strength = 200
+damage = 15
+armor = 10
+speed = 30
+aggression = 80
+location = 37
+description = "A guard is here, guarding the maze."  
+examine = "He is well armored and powerful."
+end = guard7
+
+name = guard8
+PName = guard
+strength = 200
+damage = 15
+armor = 10
+speed = 30
+aggression = 80
+location = 36
+description = "A guard is here, guarding the maze."  
+examine = "He is well armored and powerful."
+end = guard8
+
+name = guard9
+PName = guard
+strength = 200
+damage = 15
+armor = 10
+speed = 30
+aggression = 80
+location = 35
+description = "A guard is here, guarding the maze."  
+examine = "He is well armored and powerful."
+end = guard9
+
+name = guard10
+PName = guard
+strength = 200
+damage = 15
+armor = 10
+speed = 30
+aggression = 80
+location = 34
+description = "A guard is here, guarding the maze."  
+examine = "He is well armored and powerful."
+end = guard10
+
+name = guard11
+PName = guard
+strength = 200
+damage = 15
+armor = 10
+speed = 30
+aggression = 80
+location = 33
+description = "A guard is here, guarding the maze."  
+examine = "He is well armored and powerful."
+end = guard11
+
+name = guard12
+PName = guard
+strength = 200
+damage = 15
+armor = 10
+speed = 30
+aggression = 80
+location = 32
+description = "A guard is here, guarding the maze."  
+examine = "He is well armored and powerful."
+end = guard12
+
+name = guard13
+PName = guard
+strength = 250
+damage = 15
+armor = 10
+speed = 30
+aggression = 80
+location = 31
+description = "A guard is here, guarding the maze."  
+examine = "He is well armored and powerful."
+end = guard13
+
+name = bwark
+
+strength = 350
+damage = 18
+armor = 12
+speed = 0
+aggression = 100
+location = 61
+description = "An evil presence is here."
+end = bwark
+
+name = sijone
+
+strength = 500
+damage = 18
+armor = 12
+speed = 0
+aggression = 100
+location = 62
+description = "An evil presence is here."
+end = sijone
+
+name = uzsmo
+
+strength = 400
+damage = 18
+armor = 12
+speed = 0
+aggression = 100
+location = 63
+description = "An evil presence is here."
+end = uzsmo
+
+name = cyrus
+strength = 5000
+damage = 50
+armor = 25
+eflags { Fireball Frost  Shock IceStorm BHands Missile
+         Vtouch NegFireball NegMissile NegBHands NegVtouch }
+speed = 0
+aggression = 0
+location = 64
+description = "Cyrus, the source of evil is here."
+examine = "Cyrus is a shape-shifting creature. Now, it looks like a huge
+flame. It's power seems to be outrageous. Only the right weapon could
+maybe have a chance of hurting it."
+end = cyrus
+
+name = pguard1
+PName = sawdor
+strength = 800
+speed = 0
+aggression = 100
+damage = 25
+armor = 15
+mflags { BarNorth BarWest }
+location = 65
+description = "Sawdor, the guard is here."
+end = pguard1
+
+name = pguard2
+PName = gumpam
+strength = 825
+damage = 26
+armor = 16
+speed = 0
+aggression = 100
+mflags { BarWest BarNorth }
+location = 65
+description = "Gumpam, the guard is here."
+end = pguard2
+
+name = pguard3
+PName = qzedo
+strength = 850
+damage = 27
+armor = 17
+speed = 0
+MFlags { BarDown BarEast }
+aggression = 100
+location = 65
+description = "Qzedo, the guard is here."
+end = pguard3
+
+name = bartender
+strength = 100
+damage = 5
+location = 4
+aggression = 0
+speed = 0
+description = "The bartender is here, with a sad look on his face."
+end = bartender
+
+name = villager
+PName = man
+strength = 300
+damage = 10
+armor = 5
+location = 2
+description = "A man is fleeing, in total panic."
+speed = 2
+aggression = 30
+end = villager
+
+%objects
+
+Name      = volume
+PName     = Volume_XVIII
+Altname = volume
+Location  = IN_ROOM:74
+Oflags    { Noget }
+Size      = 18
+Desc[0]   = "&+YVolume XVIII&N of the &+WBook of Knowledge&N lies here."
+Examine   = "
+Cripple is an attack spell for tournaments.  If you are crippled,
+then you cannot move.  Furthermore, any damage you would inflict
+is cut in half, and any damage you would receive is doubled.
+Cripple costs 10 mana, and is certain for knowledge 12.
+Cure and dumb are possible defenses.
+
+Bind is a defensive spell to stop an enemy from hitting you until you
+hit it.  It is effective for crowd control."
+End       = volume
+
+name = head
+location = IN_ROOM:80
+oflags { food }
+desc[0] = "A yummy human head is lying here."
+examine = "Poor man.. his life was lost uselessly. Unless you eat it..."
+end = head
+
+name = heart
+location = IN_ROOM:80
+oflags { food }
+desc[0] = "A heart is here, lying in the dirt."
+examine = "Yuck. You are glad it's not beating anymore. 
+This heart is way too big to be a human heart. It seems like was the heart
+of a huge, demonic beast."
+end = heart
+
+name = ear
+location = IN_ROOM:80
+oflags { food }
+desc[0] = "Someone's ear has been dropped here."
+examine = "It is a bloody ear. It looks quite edible."
+end = ear
+
+name = brain
+location = IN_ROOM:80
+oflags { food }
+desc[0] = "A brain has been dropped here."
+examine = "It's bloody, squishy and wet. What else could you expect from a
+brain?"
+end = brain
+
+name = sign
+location = IN_ROOM:1
+desc[0] = "A warning sign is here."
+OFlags { NoGet }
+examine = "&+RWarning! Do not continue forward is you aren't very experienced.
+You must be extremely well prepared in order to continues forward."
+end = sign
+
+name = dust
+location = IN_ROOM:73
+OFlags { NoGet }
+examine = "You find a &+Ctrapdoor&* under the dust!"
+end = dust
+
+name = trapdoor
+Altname = hatch
+location = IN_ROOM:73
+OFlags { NoGet Openable }
+state = 1
+maxstate = 1
+linked = trapdoor_d
+end = trapdoor
+
+name = trapdoor_d
+Pname = trapdoor
+Altname = hatch    
+location = IN_ROOM:74
+OFlags { NoGet Openable }
+state = 1
+maxstate = 1
+linked = trapdoor
+end = trapdoor_d
+
+name = door_out
+pname = door
+location = IN_ROOM:72
+state = 2
+maxstate = 2
+oflags { NoGet openable lockable }
+linked = door_in
+end = door_out
+
+name = door_in
+pname = door
+location = IN_ROOM:73
+state = 2           
+maxstate = 2        
+oflags { NoGet openable lockable }
+linked = door_out    
+end = door_in
+
+name = breastplate1
+pname = breastplate
+location = WORN_BY:pguard1
+armor = 25
+OFlags { wearable Armor }
+AFlags { chest back }
+bvalue = 500
+desc[0] = "A well-made breastplate is resting here, on the ground."
+examine = "It is made of solid iron. It could protect your chest pretty
+well."
+end = breastplate1
+
+name = breastplate2
+pname = breastplate
+location = WORN_BY:pguard2
+armor = 25
+OFlags { wearable Armor }
+AFlags { chest back }
+bvalue = 500
+desc[0] = "A well-made breastplate is resting here, on the ground."
+examine = "It is made of solid iron. It could protect your chest pretty
+well."
+end = breastplate2
+
+name = breastplate3
+pname = breastplate
+location = WORN_BY:pguard3
+armor = 25
+OFlags { wearable Armor }
+AFlags { chest back }
+bvalue = 500
+desc[0] = "A well-made breastplate is resting here, on the ground."
+examine = "It is made of solid iron. It could protect your chest pretty
+well."
+end = breastplate3
+
+name = pitchfork
+oflags { weapon }
+damage = 15
+examine = "It is a basic pitchfork. You could do some damage with it."
+desc[0] = "A pitcfork is lying here."
+location = WIELDED_BY:villager
+end = pitchfork
+
+name = cuirass
+oflags { wearable armor }
+Aflags { chest back }
+armor = 10
+examine = "A basic cuirass, that you stole from a villager."
+desc[0] = "A basic cuirass have been dropped here."
+location = WORN_BY:villager
+end = cuirass
+
+name = underwear
+location = WORN_BY:wrestler
+OFlags { armor wearable }
+Aflags { Legs }
+armor = 1
+examine = "Are you going to wear this? A huge sweaty wrestler was wearing
+them. In fact, they are still wet. (Yuck.)"
+desc[0] = "A sweaty pair of underwear is here."
+end = underwear
+
+name = Velux
+altname = vel
+oflags = { weapon lit shockspell }
+location = IN_ROOM:15
+damage = 30
+bvalue = 1000
+state = 0
+maxstate = 0
+desc[0] = "The powerful &+YVelux&* stands here on its stand."
+examine = "This sword is pure energy and emit an eerie light. It seems like
+a very powerful spirit resides in this blade. 
+You can feel its power without wielding it."
+end = Velux
+
+name = pedestal
+altname = ped
+oflags { container openable lockable noget }
+location = IN_ROOM:16
+state = 2
+maxstate = 0
+desc[2] = "A pedestal is here, locked."
+desc[1] = "A pedestal is here, closed."
+desc[0] = "The pedestal is open."
+examine = "You see a keyhole on the front of the pedestal."
+end = pedestal
+
+name = Zijaz
+altname = zij
+location = IN_CONTAINER:pedestal
+oflags { weapon unlocatable }
+state = 0
+maxstate = 0
+damage = 35
+bvalue = 1000
+desc[0] = "The legendary &+mZijaz&* is here."
+examine = "This blade have been forged by the best blacksmith in Promised
+Land. It is very light and almost indestructible. The edge of the blade
+is so sharp that it could easily cut a stone in two pieces. It is indeed
+the finest weapon you ever saw.  It's an incredible sword able to 
+kill everything in its way."
+end = Zijaz
+
+name = crucifix
+location = IN_ROOM:24
+oflags {}
+desc[0] = "A crucifix is lying on the floor."
+examine = "The crucifix is made of gold. It seemed to have fallen off the
+altar."
+end = crucifix
+
+name = idol
+location = IN_ROOM:24
+examine = "This idol was used to cast black magic. It seems to have a
+powerful and evil power."
+end = idol
+
+name = altar
+location = IN_ROOM:24
+examine = "The priest used to put an object on it before the rituals."
+oflags { NoGet }
+end = altar
+
+name = pedestal2
+Pname = pedestal
+oflags { openable noget lockable container }
+location = IN_ROOM:53
+state = 2
+desc[2] = "A pedestal is here, locked."
+desc[1] = "A pedestal is here, closed."
+desc[0] = "The pedestal is open."
+examine = "You see just in the front face of the pedestal a very special keyhole."
+end = pedestal2
+
+name = epik
+location = IN_CONTAINER:pedestal2
+oflags { weapon lit fireballspell regenmana regenhealth }
+damage = 27
+desc[0] = "The magic sword, &+mEpik&*, is here, glowing with an inner power."
+examine = "
+The blade of Epik is made of enchanted silver. When you hold it, you feel 
+magical energy filling you up. It seems like this sword could even heals 
+your wounds. This weapon was used by wizard. Some magic properties are still 
+left in this blade. It is indeed an incredible weapon."
+end = epik
+
+name = inscription1
+pname = inscriptions
+location = IN_ROOM:56
+oflags { NoGet }
+desc[0] = "Some inscriptions are carved in the wall."
+examine = "They are too complicated for you to understand."
+end = inscription1
+
+name = inscription2
+pname = inscriptions
+location = IN_ROOM:26
+oflags { NoGet }
+desc[0] = "Some inscriptions are carved in the wall."
+examine = "They are too complicated for you to understand."
+end = inscription2
+
+name = inscription3
+pname = inscriptions
+location = IN_ROOM:14
+oflags { NoGet }
+desc[0] = "Some inscriptions are carved in the wall."
+examine = "They are too complicated for you to understand."
+end = inscription3
+
+name = parchment1
+pname = parchment
+location = CARRIED_BY:pguard1
+desc[0] = "A parchment is lying on the ground here."
+examine = "This parchment reveal some very important things."
+end = parchment1
+
+name = parchment2
+pname = parchment
+location = CARRIED_BY:pguard2
+desc[0] = "A parchment is lying on the ground here."
+examine = "This parchment reveal some very important things."
+end = parchment2
+
+name = parchment3
+pname = parchment
+location = CARRIED_BY:pguard3
+desc[0] = "A parchment is lying on the ground here."
+examine = "This parchment reveal some very important things."
+end = parchment3
+
+name = table
+location = IN_ROOM:3
+oflags { NoGet }
+Maxstate = 1
+State = 0
+examine = "The table is now empty."
+end = table
+
+name = beef
+location = IN_ROOM:65
+oflags { Food }
+examine = "This is only a leg of beef. Not a whole beef!"
+desc[0] = "A leg of beef is lying here."
+end = beef
+
+name = carrot
+location = IN_ROOM:65
+oflags { Food }
+examine = "It is a usual, orange carrot."
+desc[0] = "A yummy carrot is here."
+end = carrot
+
+name = chicken
+location = IN_ROOM:65
+oflags { Food }
+examine = "You know what a chicken looks like don't ya?"
+desc[0] = "A chicken has been dropped here."
+end = chicken
+
+name = broccoli
+location = IN_ROOM:65
+oflags { Food }
+examine = "It is green. What else could you desire form a broccoli?"
+desc[0] = "A green piece of broccoli is lying on the ground."
+end = broccoli
+
+name = beer
+location = IN_ROOM:65
+Oflags { Food Alcohol }
+examine = "This beer was offered to you by the bartender."
+desc[0] = "A beer is here."
+end = beer
+
+name = scroll
+desc[0] = "A scroll is here"
+examine = "
+This is the scroll that will allows you to decifer the mystic
+inscriptions of the cave!"
+Oflags { Unlocatable }
+location = IN_ROOM:65
+end = scroll
+
+%locations
+
+1 n:2 s:camelot85@camelot;
+lflags { outdoors }
+&+cBridge to Amsdam^
+You're walking on an old bridge leading to Amsdam. The skies are blue and
+trees are green, but you are hearing so fearsome screams coming from the
+village. The bridge continues north to the Amsdam town.
+^
+
+2 n:5 s:1 e:4 w:3 ;
+lflags { outdoors }
+&+cAsdam's Town Square^
+You feel the insanity floating in the air. Many people are running in the
+streets as if they were escaping someone very scary. People are packing up
+and leaving the town. The houses are empty and ruinous except two or three
+houses and the tavern.
+^
+
+3 e:2 ;
+lflags {  }
+&+cThe Blacksmith^
+The house of Richard the blacksmith is very luxurious. A few years ago, he
+became the first armorer of the King Arthur. But, during the years, he
+became an old but noble aristocrat. The table is set and food served.
+However, the house is vacant.
+^
+
+4 w:2 ;
+lflags {  }
+&+cAsdam's Tavern^
+You are standing in a very usual tavern. Many barrels have been placed in
+the corner. The ambiance, although, is very sad. Many people are here 
+talking and taking one last drink before their leaves. 
+^
+
+5 n:67 s:2 w:6 ;
+lflags { outdoors }
+&+cNorth End of the Village^
+The street becomes a little trail as you walk toward the north caves. At your
+left, you see a little ruinous house. Smoke is coming out of the chimney.
+^
+
+6 e:5 ;
+lflags {  }
+&+cHouse of Catix^
+As you enter the house, you notice that the atmosphere of the house is
+absolutely the oposite of the outside's one. The serenity and the calmness
+of the house is calming you down. The walls are covered by several bookcases
+and books are covered by dust.
+^
+
+7 n:8 s:5 ;
+lflags { outdoors }
+&+cBlack cave entrance^
+You stand just in front of a big cave. The temperature seems to be very hot
+there: some geysers and lava lakes make this cave appear like in &+RHell&*!
+Red and yellow rays of light reflect on wet rocks and illuminate the cave
+as it were the stairway.. to &+RHell&*!
+^
+
+8 s:7 d:77 ;
+lflags {  }
+&+cStairs to Hell^
+You see a huge stairway leading down.  The walls are made of black stone.
+You can see small lights coming from below.  Whatever lurks in there is
+very evil.
+^
+
+9 n:79 w:10 e:12 u:78 ;
+lflags {  }
+Wide room^
+As the temperature increases, your heart beats more rapidly. Your head
+begins to ache and you have to concentrate to faint not. You see a narrow
+hallway to west and a archway to east. The stairs also keep going down.
+^
+
+10 e:9 w:11 ;
+lflags {  }
+&+cNarrow Hallway^
+A narrow hallway is leading to a blue lighhtened room. You see shimering
+light coming from that room. A fresh gust of wind from west softly moves
+your hair.
+^
+
+11 e:10 ;
+lflags {  }
+A river..^
+A river is crossing this room. It contains fresh water that seems to come 
+from the south. There are no other exits than from where you came.
+^
+
+12 e:13 w:9 ; 
+lflags {  }
+&+cArchway^
+A little archway leads you more deeper in the cave.  You see orange
+shimmering light coming from east, after the curve.  The hall continues 
+to the east.
+^
+
+13 e:14 s:17 w:12 ;
+lflags {  }
+&+cHall^
+A long and curved hall allows you to continue in that direction. There is
+absolutely no noise and you can hear the little rocks crackling under your
+steps. You can see the origin of the light: the light is emerging from a
+guarded door. 
+^
+
+14 n:66 w:13 ;
+lflags {  }
+&+cGuarded door^
+There's a door that makes approximately 3 meters high in front of you. But
+it's well guarded by a strong looking wrestler.
+^
+
+15 s:66 ;
+lflags {  }
+&+cEnlighted room of Velux^
+When you enter the room, the light is so strong that you have to close your
+eyes to let them accomodate with the light. As you open your eyes, you are
+gaping in front of the majestic beauty of this place. Just in the center of
+the room, a beautiful sword is standing on its stand. You're wondering who
+could have made this mystic sword. You see a beautiful Christ statue here.
+^
+16 w:26 ;
+lflags {  }
+Secret room of Zijaz^
+You arrive in here gaping. You didn't know that religion can be as strong to
+bring people to heaven. You see here another great panoramic view. In the
+center of the room, like in the other one, an incredible weapon is held in a
+huge pedestal.
+^
+
+17 s:18;
+lflags { }
+Hall^
+Oops...while entering this place, you hear a big sound coming from behind: 
+a stone wall just closed. So, you cannot go back. The hall continues 
+southward. You see some shadows moving further.
+^
+
+18 s:19 ;
+lflags {NoRegen}
+Hall^
+The walls are collapsing behind you.  The only way to escape is to continue 
+onward in the hall. The hall continues to the south.
+^
+
+19 e:20 ;
+lflags {NoRegen}
+Hall^
+The walls are collapsing behind you. The only way to escape is to continue 
+onward in the hall. The hall continues to the east.
+^
+
+20 e:21 ;
+lflags {}
+Hall^
+The walls are collapsing behind you.  The only way to escape is to continue 
+onward in the hall. The hall continues to the east.
+^
+
+21 e:22 ;
+lflags {NoRegen}
+Hall^
+The walls are collapsing behind you. The only way to escape is to continue 
+onward in the hall. The hall continues to the east.
+^
+
+22 n:23 ;
+lflags {NoRegen}
+Hall^
+The walls are collapsing behind you. The only way to escape is to continue 
+onward in the hall. The hall continues to the north.
+^
+
+23 w:24 ;
+lflags {}
+Archway to the Chapel^
+The walls are collapsing behind you. The only way to escape is to continue 
+onward in the hall. The hall continues to the west.
+^
+
+24 d:25 ;
+lflags {NoRegen}
+The Chapel^
+The chapel is made of white marble. Cobwebs are lying in every corner of 
+the chapel. There is a huge altar. Many benches are placed in order to 
+hear the rituals. A lot of blood had splattered all around the place. What 
+beast can do such a thing ?
+^
+
+25 ;
+lflags { death }
+Susemi^
+What is a susemi ?  I think it's the mix of a sesame seed, a tsunami and 
+a sushi...Bah...anyway you're dead, so what's the point...
+^
+
+26 n:29 w:54 u:27 d:28 ;
+lflags {}
+Fork^
+Now, the hallway splits in every direction. Some vertical exits 
+are looking very creepy. The walls are made of black stone. You
+may continue in any direction from here.
+^
+
+27 ;
+lflags { death }
+Rotten ladder located just above spiky rocks^
+The title wasn't obvious enough ???  Then, you're dead, Bob.
+^
+
+28 ;
+lflags { death }
+Jumping into the spiky rocks^
+Well, if you enjoy jumping into the spiky rocks...then, have fun !
+^
+
+29 n:30 s:26 ;
+lflags {}
+Hall^
+The walls are made of black stone. There are exits southward 
+and northward.
+^
+
+30 n:31 e:32 s:43 w:48 u:43 d:46;
+lflags { Maze NoRegen }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone. 
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+BbL&+gaCk&+M StOn&+RE 
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+31 n:44 e:32 s:45 w:48 u:49 d:46;
+lflags { Maze }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+BbL&+MaCk&+C StOn&+RE
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+32 n:45 e:47 s:33 w:43 u:30 d:31;
+lflags { Maze }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+BbL&+WaCk &+RS&+Bt&+GOnE
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+33 n:34 e:31 s:46 w:30 u:50 d:32;
+lflags { Maze NoRegen }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+YbLa&+wCk&+b StO&+Rn&+BE
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+34 n:35 e:31 s:47 w:44 u:31 d:48;
+lflags { Maze NoRegen }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+wbL&+maC&+ck StO&+Rn&+bE
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+35 n:36 e:46 s:47 w:31 u:46 d:31;
+lflags { Maze }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+GbLaC&+Ck StO&+Rn&+ME
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+36 n:37 e:44 s:31 w:43 u:50 d:49;
+lflags { Maze NoRegen }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+bbLa&+rCk S&+ytO&+Rn&+BE
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+37 n:45 e:38 s:47 w:31 u:45 d:30;
+lflags { Maze }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+gbLa&+yCk&+m St&+wOn&+RE
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+38 n:31 e:39 s:44 w:49 u:48 d:47;
+lflags { Maze NoRegen }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+wbLaC&+Gk S&+WtOn&+RE
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+39 n:31 e:32 s:40 w:35 u:36 d:37;
+lflags { Maze }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+ybLa&+YCk &+RS&+WtO&+wnE
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+40 n:41 e:46 s:50 w:30 u:45 d:47;
+lflags { Maze NoRegen }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+cbLa&+yCk&+b StO&+Rn&+GE
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+41 n:31 e:43 s:42 w:46 u:47 d:48;
+lflags { Maze NoRegen }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+MbLa&+lC&+bk &+RS&+YtO&+cnE
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+42 n:51 e:51 s:51 w:51 u:51 d:52;
+lflags { Maze }
+Magic maze^
+You are now stuck into a magic maze.  The maze seems to react when
+you wander around.  The walls are made of black stone.  The ceiling 
+is made of black stone.  You must go down absolutely.  The floor 
+is made of black stone.  Everything is made of black stone. 
+Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+ybLa&+WCk&+G St&+MOn&+RE
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+43 n:31 e:32 s:34 w:35 u:36 d:37;
+lflags { Maze NoRegen }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+CbLaCk StOnE
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+44 n:31 e:32 s:34 w:35 u:36 d:37;
+lflags { Maze NoRegen }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+GbLaCk StOnE
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+45 ;
+lflags { death NoMobiles }
+Death room^
+I wonder who is going to fall for a death room called death room...
+^
+
+46 n:31 e:32 s:34 w:35 u:36 d:37;
+lflags { Maze NoRegen }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+YbLaCk StOnE
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+47 n:31 e:32 s:34 w:35 u:36 d:37;
+lflags { Maze NoRegen }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+WbLaCk StOnE
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+48 n:31 e:32 s:34 w:35 u:36 d:37;
+lflags { Maze NoRegen }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+CbLaCk StOnE 
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+49 n:31 e:32 s:34 w:35 u:36 d:37;
+lflags { Maze NoRegen }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+BbLaCk StOnE
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+50 n:31 e:32 s:34 w:35 u:36 d:37;
+lflags { Maze NoRegen }
+Magic maze^
+You are now stuck into a magic maze. The maze seems to react when
+you wander around. The walls are made of black stone. The ceiling 
+is made of black stone. The floor is made of black stone.
+Everything is made of black stone. Black stone everywhere...
+Black stone, &+Bblack stone&*, &+Rblack stone &+YBL&+Ga&+MCK &+WST&+CoNe &+YbLaCk StOnE
+BLACK STONE!!! Whew, this maze is driving you crazy.
+^
+
+51 ;
+lflags { death }
+Magic maze^
+Haha! You should always read the room description carefully.
+^
+
+52 d:53;
+lflags { Maze NoRegen NoMobiles }	
+Magic maze^
+At last, you passed through the maze. In fact it is the maze that 
+gave up on you. You are much too courageous, patient and wise for it.
+Something very good waits for you downward. (Sarcasm)
+^
+
+53 w:26 ;
+lflags { NoRegen }
+Magic room of Epik^
+You've finally found the magic sword Epik. This room is magnificient.
+Everything is made of marble, gold or precious stones and you think 
+about bringing back some of these treasures. You are blinded by the 
+light produced by something in the center of the room. After you've
+adapted with the light, you can see an incredible thing, there's 
+a huge pedestal holding a mystic weapon in the center of the room.
+^
+
+54 e:26 w:55 ;
+lflags {}
+Hall^
+The hall continues...you wish you'll find an end to it. But now, 
+the walls look like the ones you saw when you entered the cave.
+You doesn't have many choices. Guess you must continue forward. 
+^
+  
+55 e:54 w:56 ;
+lflags {}
+Archway to the stairs^
+You walk in the way of some stairs that seem to lead to the bottom 
+of the earth and the deepest of the cave. The walls are turning red
+because of the heat that makes you sweat. But a guard is guarding
+the access to these stairs.
+^
+
+56 e:55 d:57 ;
+lflags { Hot }
+Before the stairs to Hell^
+You stand just before a grand staircase. The heat is growing stronger.
+You can feel the heat gaining your bones. You feel evil forces emaning
+from the bottom of the stairs. Obviously, something very powerful 
+resides down there. 
+^
+
+57 u:56 d:58 ;
+lflags { Hot }
+Stairs to Hell^
+You are now getting deeper and deeper under the pressure of the evil
+forces residing below. As you could expect, the heat keeps increasing
+and ever increasing. You can easily guess where you are going. What? 
+You cannot? It starts with the letter 'H' and ends with 'ell'. 
+^
+
+58 u:57 d:59 ;
+lflags { Hot }
+Stairs to Hell^
+You are now getting deeper and deeper under the pressure of the evil
+forces residing below. As you could expect, the heat keeps increasing
+and ever increasing. You can easily guess where you are going. What? 
+You cannot? It starts with the letter 'H' and ends with 'ell'. 
+^
+
+59 n:60 u:58 ;
+lflags { Negregen Hot }
+End of the staircase^
+You arrive at the bottom of the stairs. The heat is so intense that
+it is now slowly taking away your life away. Ahead of you can see 
+three different gates. Obviously, you will have a choice to make.
+You are now in a fiery red room. Hot ashes are flying everywhere.
+^
+
+60 n:61 e:62 s:59 w:63 ;
+lflags { Negregen Hot }
+Before the Gates^
+You are now standing before those gates. You have to choose among 
+these possibilities. Your fate all depends on that decision. Even if 
+it's now difficult to breathe, you have to go down.
+^
+
+61 n:64 ;
+lflags { Hot }
+Northern Portal^
+You step in by the north portal that closes immediately after you. 
+You are standing in a huge room. Some blood is splattered on the
+floor. You can feel an evil presence here. The heat is somehow
+less intense here.
+^
+62 n:64 ;
+lflags { Hot }
+Eastern Portal^
+You step in by the east portal that closes immediately after you. 
+You are standing in a huge room. Some blood is splattered on the
+floor. You can feel an evil presence here. The heat is somehow
+less intense here.
+^
+63 n:64 ;
+lflags { Hot }
+Western Portal^
+You step in by the west portal that closes immediately after you. 
+You are standing in a huge room. Some blood is splattered on the
+floor. You can feel an evil presence here. The heat is somehow
+less intense here.
+^
+
+64 ;
+lflags { dark hot }
+Evil's residence^
+Here is the summum of all the evil. The place where lies the leader of
+destruction. Many humans have been slayed here. Blood is dripping from 
+the ceiling. Fire is burning all around the place. In fact, we could
+call it a &+Rblazing inferno&*.
+^
+65 ;
+lflags {}
+Cyrus's zone Limbo^
+Yeah I know. I just wanted a limbo to store a few things.
+^
+66 n:15 s:14 ;  
+lflags { }
+Narrow hallway^
+A long and curved hallway allows you to continue in that direction. There
+is absolutely no noise and you can hear the little rocks crackling under
+your steps. The hallway continues forward to the north. Something of great
+power seems to lies ahead.
+^
+67 n:68 s:5 ;
+Altitude = 750
+lflags { Outdoors }
+Small trail^
+You are walking on a small trail north of the village. You can see a
+mountain ahead of you. The trail is surrounded by trees. Birds aren't
+singing anymore. Everything has a creepy atmosphere. You can follow
+the trail further to the north, or turn back.
+^
+68 n:69 s:67 ;
+Altitude = 900
+lflags { Outdoors }
+The trail continues^
+You are walking on a small trail north of the village. You can see a
+mountain ahead of you. The trail is surrounded by trees. Birds aren't
+singing anymore. You can see a bifurcation in the trail. Everything 
+has a creepy atmosphere. You can follow the trail further to the 
+north, or turn back.
+^
+69 n:83 e:70 s:68 w:75 ;
+Altitude = 800
+lflags { Outdoors }
+The trail splits up^
+You arrive in front of a mountain. The trail splits west and east. 
+Some trees have been smashed down to the west. The ambiance is very
+creepy. No animals seems to live around here. In fact, except plants,
+nothing is willing to live in a place like this. To the east, a trail 
+looks like it curves toward the north.  The mountain in front of you
+at its base has a number of rocks that come to rest.  The closest
+footholds feel loose.
+^
+70 e:71 w:69 ;
+Altitude = 800
+lflags { Outdoors }
+Eastern way^
+You are walking along a small trail surrounded by trees. Birds aren't
+singing anymore. Everything has a creepy atmosphere. You can follow
+the trail further to the east, or turn back. You can see that the trail
+turns north ahead of you.
+^
+71 e:81 w:70 ;
+Altitude = 800
+lflags { Outdoors }
+Trail^
+You are still walking on that trail. You are now standing in front of a
+small path that continues forward to the north, to a small house. You wonder
+seriously if something is alive there. Who would like to live far from a
+village, in such a creepy place? You will maybe find out soon. You can go
+east from here, toward a turn in the trail.
+^
+72 n:^door_out s:71;
+lflags {}
+In front of a small house^
+You are still walking on that trail until you arrive in front of the house.
+It is a small house, that looks deserted. Probably nobody is living in such
+a place. A closed door is in front of that house. Perhaps you could explore
+it? The trail only leads in the house, and back from where you came from.
+^
+
+73 s:^door_in d:^trapdoor ;
+lflags {}
+Inside the house^
+You are standing inside the small house. You are surprised that someone
+is actually living in there. The house is a real mess, covered by &+ydust.
+A small stove is lying in a corner. A lit candle is providing light.
+The whole house is made of a single room, without any window.
+^
+74 u:^trapdoor_d ;
+lflags {Dark}
+In the basement^
+You are now in a a dark, smelly basement. The floor is made of smooth 
+earth. A corner of the basement seems to have been disturbed. There 
+is mostly nothing here.
+^
+75 e:69 w:82 ;
+Altitude = 800
+lflags { Outdoors }
+Trail^
+You are following the edge of the mountain. You are walking on a small 
+trail surrounded by trees. Birds aren't singing anymore. Everything
+has a creepy atmosphere. You can see a turn in the trail. The trail
+goes on to the west and east.
+^
+76 n:7 e:75 ;
+Altitude = 1000
+lflags { Outdoors }
+Toward a cave in the mountain^
+You are standing before the entrance of a cave in the mountain. 
+Vegetation seems to die away when you approach the cave. You can feel 
+evil coming from the cave. It seems to be a very dark cave. You better
+watch your soul when you're in there. A cave lies north of here. The 
+trail goes back to the east from here.
+^
+77 u:8 d:78 ;
+lflags { Hot }
+Stairs to hell^
+You see a huge stairway leading down. The walls are made of black stone.
+You can see small lights coming from below. Whatever lurks in there is
+very evil.
+^
+78 u:77 d:9 ;
+lflags { Hot }
+Stairs to hell^
+You see a huge stairway leading down. The walls are made of black stone.
+You can see small lights coming from below. Whatever lurks in there is
+very evil.
+^
+79 n:80 s:9 ;
+lflags {}
+Hallway^
+This hallway leads north. You are coming from a wide room and heading 
+toward a small, circular room. You believe that the walls are made of
+black stone. Some footsteps are printed in the dirt here.
+^
+80 s:79 ;
+lflags {}
+Circular room^
+You are now standing in a small, circular room. You can see some light
+to the south. The only exit is south of here, back from where you came.
+This room is very smelly for an unknown reason. The footsteps ends here.
+You can only return from where you came, to the south.
+^
+81 n:72 w:71 ;
+Altitude = 500
+lflags { Outdoors }
+Trail^
+You are still walking on that trail. You are now standing in front of a
+small path that continues forward to the north, to a small house. You wonder
+seriously if something is alive there. Who would like to live far from a
+village, in such a creepy place? You will maybe find out soon. You can go
+north from here, toward the house.
+^
+82 e:75 w:76 ;
+Altitude = 500
+lflags { Outdoors }
+Trail^
+You are following the edge of the mountain. You are walking on a small
+trail surrounded by trees. Birds aren't singing anymore. Everything
+has a creepy atmosphere. You can see a turn in the trail. The trail
+goes on to the west and east.
+^
+83 ;
+Altitude = 2000
+lflags { Death Outdoors }
+Climbing the mountain^
+  You climb the mountain and make it up the wall quite a ways...until you
+lose your footing when a foothold breaks off, then another, then another, 
+then the last...next time, look for hidden danger.
+^

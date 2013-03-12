@@ -1,0 +1,1063 @@
+
+
+
+
+
+%zone:pyramid
+
+%rainfall:25
+
+%latitude:10
+
+%mobiles
+
+Name        = sandworm
+Mflags      { BarWest }
+Eflags      { ImmFireball ImmShock }
+Sflags { Noarms NoLegs }
+Location    = pyramid4
+Strength    = 400
+Damage      = 20
+Armor       = 10
+Aggression  = 65
+Speed       = 0
+Description = "A long, large dun-colored worm lies here."
+Examine     = "
+This large, slug-like thing is ugly and possesses no intelligence.  Remind 
+you of anyone you know?"
+End         = sandworm
+
+Name        = trader
+Location    = pyramid2
+Strength    = 100
+Damage      = 10
+Armor       = 5
+Aggression  = 0
+Speed       = 3
+Description = "A sharp-eyed trader looking for his lost camel stands here."
+Examine     = "
+Short with narrow eyes and a slick smile.  Would you buy a used lamp from this
+fellow?"
+End         = trader
+
+Name        = camel
+Location    = pyramid5
+Strength    = 200
+Damage      = 10
+Armor       = 0
+Aggression  = 0
+Speed       = 0
+Description = "A shaggy, bad tempered camel wanders here."
+Examine     = "
+This scruffy-looking, wheezing beast looks as if he's already walked a mile."
+End         = camel
+
+Name        = nomad
+Location    = pyramid9
+Strength    = 150
+Damage      = 12
+Armor       = 0
+Aggression  = 0
+Speed       = 0
+Description = "A thirsty-looking, travel-weary nomad rests here."
+Examine     = "No, he hasn't fallen so don't help him up."
+End         = nomad
+
+Name        = Neferteri
+Pflags      { NoZap NoExo NoSummon NoAlias }
+Mflags      { BarNorth BarSouth }
+Eflags      { ImmFireball ImmShock Shock }
+Sflags      { Female }
+Location    = pyramid21
+Strength    = 2000
+Damage      = 15
+Armor       = 0
+Aggression  = 99
+Speed       = 0
+Description = "Neferteri, the high priestess of Isis, awaits you here."
+Examine     = "
+Lovely to look at, perhaps delightful to hold, her sly smile warns you not to
+be so bold."
+End         = Neferteri
+
+Name        = Horus
+Pflags      { NoZap NoExo NoSummon }
+Location    = pyramid32
+Strength    = 1000
+Damage      = 25
+Armor       = 0
+Aggression  = 50
+Speed       = 0
+Description = "Horus, the son of Isis and Osiris, stands guard here."
+Examine     = "
+Standing over seven feet tall, this man with his falcon's head looks like he 
+could beat the crap out of you."
+End         = Horus
+
+Name        = slave
+Location    = pyramid20
+Strength    = 100
+Damage      = 10
+Armor       = 0
+Aggression  = 0
+Speed       = 0
+Description = "A terrified slave, hiding from his master cowers here."
+End         = slave
+
+Name        = mummy
+PName       = "The Mummy"
+Location    = pyramid26
+Strength    = 200
+Damage      = 10
+Armor       = 0
+Aggression  = 20
+Speed       = 0
+Description = "A linen-wrapped mummy lies here."
+Examine     = "Maybe in a thousand years he might be worth something."
+End         = mummy
+
+Name        = streetthief
+PName       = "Street Thief"
+MFlags      { Thief  NoSteal }
+Location    = pyramid14
+Strength    = 125
+Damage      = 5
+Armor       = 0
+Aggression  = 0
+Speed       = 0
+Description = "A thin-faced, narrow-eyed thief lurks here."
+Examine     = "
+The twinkle in his eyes and his engaging grin prompts you to check for your 
+wallet."
+End         = streetthief
+
+Name        = tombrobber
+PName       = "Tomb Robber"
+Location    = pyramid22
+Strength    = 200
+Damage      = 10
+Armor       = 0
+Aggression  = 20
+Speed       = 10
+Description = "A yellow-toothed, leather skinned Tomb Robber is waiting here."
+Examine     = "
+A dreadful, nose-twitching odor causes you to back away from this man."
+End         = tombrobber
+
+Name        = sultan
+Location    = pyramid29
+Strength    = 300
+Damage      = 15
+Armor       = 0
+Aggression  = 5
+Speed       = 0
+Description = "A rather large, bejeweled Sultan prays here."
+Examine     = "
+A large brocade turban is perched precariously on his head as he holds a small
+card to his brow.  You hear him murmur, '&+WI wish I had thought of that.&N' 
+On the card are printed the words, 'DL's Top Ten List.'"
+End         = sultan
+
+Name        = physician
+Location    = pyramid27
+Strength    = 215
+Damage      = 5
+Armor       = 0
+Aggression  = 0
+Speed       = 0
+Description = "A worried-looking, white-haired physician stands here."
+Examine     = "
+With brown eyes that shine with a maniacal light light, this man is constantly 
+mumbling, '&+WI'm a doctor, not an embalmer!&N'"
+End         = physician
+
+Name        = assistant
+Location    = pyramid26
+Strength    = 175
+Damage      = 5
+Armor       = 0
+Aggression  = 0
+Speed       = 5
+Description = "A harried physician's assistant hurries by you."
+Examine     = "Don't ask me, I only work here."
+End         = assistant
+
+Name        = hawker
+PName       = "Monte"
+Location    = pyramid15
+Strength    = 125
+Damage      = 5
+Armor       = 0
+Aggression  = 0
+Speed       = 0
+Description = "A bazaar hawker looking to make a deal stands here."
+Examine     = "
+With a name like Monte, why else would he be standing in a hall looking to 
+make a deal?"
+End         = hawker
+
+Name        = haremdancer
+PName       = "Yasmine"
+MFlags      { Thief }
+Sflags      { Female }
+Location    = pyramid16
+Strength    = 100
+Damage      = 5
+Armor       = 0
+Aggression  = 25
+Speed       = 0
+Description = "A svelte, sloe-eyed dancer sways before you."
+Examine     = "With her hand in your pocket, Yasmine winks at you slyly."
+End         = haremdancer
+
+Name        = handmaiden
+Sflags      { Female }
+Location    = pyramid30
+Strength    = 200
+Damage      = 7
+Armor       = 0
+Aggression  = 0
+Description = "A shy hand maiden carrying a tray of fruit stands here."
+Examine     = "Though lovely, your gaze is drawn to her ripe melons."
+End         = handmaiden
+
+Name        = ocelot
+Location    = pyramid31
+Strength    = 300
+Damage      = 12
+Armor       = 0
+Aggression  = 80
+Speed       = 0
+Description = "A sleek, spotted ocelot is stretched out here."
+Examine     = "
+Sleek, spotted with sharp claws, this isn't a pet you would want scratching 
+at your pants leg."
+End         = ocelot
+
+Name        = sandant1
+PName       = "Sandant"
+MFlags      { Thief NoSteal }
+Location    = pyramid3
+Strength    = 100
+Damage      = 5
+Armor       = 0
+Aggression  = 0
+Speed       = 50
+Description = "A little brown ant scurries here."
+Examine     = "You wouldn't want this ant at your picnic."
+End         = sandant1
+
+Name        = sandant2
+PName       = "Sandant"
+MFlags      { Thief NoSteal }
+Location    = pyramid8
+Strength    = 100
+Damage      = 5
+Armor       = 0
+Aggression  = 0
+Speed       = 50
+Description = "A little brown ant scurries here."
+Examine     = "You wouldn't want this ant at your picnic."
+End         = sandant2
+
+Name        = sandant3
+PName       = "Sandant"
+MFlags      { Thief NoSteal }
+Location    = pyramid7
+Strength    = 100
+Damage      = 5
+Armor       = 0
+Aggression  = 0
+Speed       = 50
+Description = "A little brown ant scurries here."
+Examine     = "You wouldn't want this ant at your picnic."
+End         = sandant3
+
+Name        = sandant4
+PName       = "Sandant"
+MFlags      { Thief NoSteal }
+Location    = pyramid9
+Strength    = 100
+Damage      = 5
+Armor       = 0
+Aggression  = 0
+Speed       = 50
+Description = "A little brown ant scurries here."
+Examine     = "You wouldn't want this ant at your picnic."
+End         = sandant4
+
+Name        = dustdevil
+PName       = "Dust Devil"
+EFlags      { ImmFireball ImmFrost }
+Location    = pyramid7
+Strength    = 750
+Damage      = 15
+Armor       = 0
+Aggression  = 20
+Speed       = 0
+Description = "A whirling mass of &+ysand&N howls here."
+End         = dustdevil
+
+
+%objects
+
+
+Name        = soulstone
+PName       = Soul
+Altname     = green
+OFlags      {  Antimagic }
+Location    = CARRIED_BY:Horus
+BValue      = 500
+Size        = 2
+Weight      = 5
+Desc[0]     = "A translucent &+ggreen&N stone lies here."
+Examine     = "
+Movement ripples through the heart of this stone, making it almost seem alive."
+End         =  soulstone
+
+
+Name        = opalsword
+PName       = Opalsword
+AltName     = sword
+OFlags      { Weapon }
+Location    = IN_CONTAINER:sarcophagus
+Damage      = 35
+BValue      = 300
+Size        = 20
+Weight      = 0
+Desc[0]     = "A &+csword&N with a jewel-encrusted hilt lies here."
+Examine     = "
+Glowing with the inner &+Rfire&N of opals, this is a gift to a long-dead King
+that could cleave it's way through armies."
+End         = opalsword
+
+Name        = scarab_necklace
+PName       = necklace
+OFlags      { Wearable }
+AFlags	    { Neck }
+Location    = IN_ROOM:pyramid33
+BValue      = 250
+Size        = 10
+Weight      = 5
+Desc[0]     = "A &+Gjeweled&N necklace lies here."
+Examine     = "
+This jeweled Necklace of the Rising &+YSun&N will make a fine offering to the
+gods."
+End         = scarab_necklace
+
+Name        = silver_casket
+PName       = casket
+Location    = IN_ROOM:pyramid33
+BValue      = 350
+Size        = 15
+Weight      = 5
+Desc[0]     = "A silver casket filled with &+Ygold&N coins lies here."
+Examine     = "This casket must contain a King's ransom."
+End         = silver_casket
+
+Name        = golden_throne
+PName       = throne
+Location    = IN_ROOM:pyramid33
+BValue      = 300
+Size        = 30
+Weight      = 30
+Desc[0]     = "The throne of Amphet sits here."
+Examine     = "
+Made of solid &+Ygold&N, this throne was made for a mighty king."
+End         = golden_throne
+
+Name        = death_mask
+PName       = deathmask
+AltName     = mask
+OFlags      { Wearable }
+AFlags	    { Face Head }
+Location    = IN_ROOM:pyramid33
+BValue      = 250
+Size        = 15
+Weight      = 10
+Desc[0]     = "The deathmask of Sitman lies here."
+Examine     = "
+This funeral mask of Sitman is made from solid gold-inlay and semi-precious 
+stones."
+End         = death_mask
+
+Name        = waterbag
+AltName     = bag
+OFlags      { Wearable Container }
+AFlags	    { Back }
+Location    = IN_ROOM:pyramid9
+BValue      = 15
+Size        = 10
+Weight      = 0
+Desc[0]     = "A waterbag made of a goat bladder has been lost here."
+Examine     = "
+Smelling faintly of goat, this bag should hold enough water to see you through
+your travels."
+End         = waterbag
+
+Name        = couscous
+OFlags      { Food }
+Location    = IN_ROOM:pyramid3
+BValue      = 10
+Size        = 10
+Weight      = 0
+Desc[0]     = "Some unappetizing couscous lies discarded here."
+Examine     = "
+If the smell doesn't turn your stomach, this old couscous should make a tidy 
+meal once there are no more ants to eat."
+End          = couscous
+
+Name         = lambstew
+PName        = stew
+Oflags       { Food }
+Location     = IN_ROOM:pyramid8
+BValue       = 5
+Size         = 0
+Weight       = 0
+Desc[0]      = "A cold bowl of lamb stew sits here."
+Examine      = "
+A bit cold and slightly greasy, this stew should ease the hunger pains."
+End          = lambstew
+
+Name         = palm_dates
+PName        = dates
+Oflags       { Food }
+Location     = CARRIED_BY:slave
+BValue       = 8
+Size         = 4
+Weight       = 0
+Desc[0]      = "Some dried palm dates are lying on the ground."
+Examine      = "
+A bit wrinkled around the edges, these dates are sunsweet and chewy."
+End          = palm_dates
+
+Name         = elixir
+Altname      = potion
+Oflags       { Food }
+Location     = CARRIED_BY:physician
+BValue       = 25
+Size         = 5
+Weight       = 0
+Desc[0]      = "A small vial containing a &+cglowing&N elixir lies here."
+Examine      = "
+A potent brew of magical herbs, this elixir may save your life."
+End          = elixir
+
+Name         = Rosetta
+PName        = rosetta
+AltName      = stone
+Location     = IN_ROOM:pyramid13
+BValue       = 80
+Size         = 4
+Weight       = 0
+Desc[0]      = "A dull stone covered with strange makings lurks in the corner."
+Examine      = "
+Upon closer inspection, you find the markings on the stone hold the key to 
+reading Egyptian hieroglyphics."
+End          = Rosetta
+
+Name         = hieroglyphics
+AltName      = markings
+OFlags       { NoGet }
+Location     = pyramid17
+Desc[0]      = "There are some strange markings on the wall."
+Examine      ="Death to all who enter."
+End          = hieroglyphics
+
+Name         = sarcophagus
+Location     = IN_ROOM:pyramid25
+OFLags       { Openable Lockable NoGet Container }
+State        = 2
+MaxState     = 2
+Desc[0]      = "The lid is open."
+Desc[1]      = "The lid is closed."
+Desc[2]      = "The image of this tragic queen is carved on the lid of the sarcophagus."
+End          = sarcophagus
+
+Name         = pool
+Location     = pyramid9
+OFlags       { NoGet }
+Desc[0]      = "A deep &+Bpool&N of &+Lmurky&N water lies here."
+Examine      = "You are hot, tired, and thirsty.  You hope this is not a mirage."
+End          = pool
+
+Name         = door2Nef
+PName        = door
+Location     = IN_ROOM:pyramid17
+OFlags       { Openable Lockable NoGet }
+Linked       = doorFromNef
+State        = 2
+MaxState     = 2
+Desc[0]      = "The door is open."
+Desc[1]      = "The door is magically sealed."
+Desc[2]      = "This locked door has intricate carvings bearing the cartouche
+of Neferteri."
+End          = door2Nef 
+
+
+Name         = doorFromNef
+PName        = door
+Location     = IN_ROOM:pyramid21
+OFlags       = { Openable Lockable NoGet }
+Linked       = door2Nef
+State        = 2
+MaxState     = 2
+Desc[0]      = "The door is open."
+Desc[1]      = "The door is closed."
+Desc[2]      = "This locked door has intricate carvings bearing the cartouche 
+of Neferteri."
+End          = doorFromNef
+
+Name         = door2Treas
+PName        = door
+Location     = IN_ROOM:pyramid25
+OFlags       { Openable Lockable NoGet }
+Linked       = doorFromTreas
+State        = 2
+MaxState     = 2
+Desc[0]      = "The door is open."
+Desc[1]      = "The door is closed."
+Desc[2]      = "The door is locked."
+End          = door2Treas
+
+Name         = doorFromTreas
+PName        = door
+Location     = IN_ROOM:pyramid33
+OFlags       { Openable Lockable NoGet }
+Linked       = door2Treas
+State        = 2
+MaxState     = 2
+Desc[0]      = "The door is open."
+Desc[1]      = "The door is closed."
+Desc[2]      = "This gilded bears the image of Isis."
+End          = doorFromTreas
+
+Name         = door2Horus
+PName        = door
+Location     = IN_ROOM:pyramid31
+OFlags       { Openable  Lockable NoGet }
+Linked       = doorfromHorus
+State        = 2
+MaxState     = 2
+Desc[0]      = "The solid black door is open"
+Desc[1]      = "The solid black door is closed."
+Desc[2]     = "This solid door is chiseled from one block of black stone."
+End          = door2Horus
+
+Name         = doorFromHorus
+PName        = door
+Location     = IN_ROOM:pyramid32
+OFLags       { Openable Lockable NoGet }
+Linked       = door2Horus
+State        = 2
+MaxState     = 2
+Desc[0]      = "The solid black door is open."
+Desc[1]      = "The solid black door is closed."
+Desc[2]      = "This solid door is chiseled from one block of black stone."
+End          = doorFromHorus
+
+
+%locations
+
+pyramid1  e:Anc19@ancient  s:pyramid2;
+Altitude = 700
+lflags { NoMobiles Outdoors }
+Path Ends^
+        The path abruptly ends in a field of large rocks.  Boulders, some 
+nearly as tall as a man, bar your way.  An unrelenting &+Ysun&N beats down 
+upon you and you can taste the dust in the air.  Pausing to catch your breath,
+you spy a small trail to the south imprinted with some tiny tracks.  Would it 
+be possible, you wonder, to squeeze between the rocks and continue your 
+journey?
+^
+
+pyramid2  n:pyramid1  w:pyramid3;
+Altitude = 700
+lflags { Outdoors }
+Off the Path^
+        Though it was a tight fit, you managed to push between the rocks and 
+now find yourself on a narrow, hard-packed trail covered with a thin layer of 
+gritty &+ysand&N.  Clearly marked in the &+ysand&N are dozens of tiny &+Ctracks
+&N made by some unknown animal.  Looking off to the west, your breath lodges 
+in your throat as you see endless waves of &+ysand&N that stretch clear to the
+horizon and beyond.
+^
+
+pyramid3  n:pyramid4  e:pyramid2;
+Altitude = 700
+lflags { Outdoors }
+In the &+yDune Sea&N^
+        As you wander through a sea of buff-colored &+ysand&N, waves of &+rheat
+&Nshimmer above the ground making it appear as if the dunes are alive.  With 
+each step you take, the weight of your equipment drives your feet deeper 
+beneath the top layer.
+        Just how far can you go before you are swallowed whole by a sea of &+ysand&N?
+^
+
+pyramid4  n:pyramid11  s:pyramid3  w:pyramid5;
+Altitude = 700
+lflags { Outdoors }
+&+yDune Sea&N^
+        Completely surrounded by those rippling wave of &+ysand&N, something 
+urges you to turn back.  The desert &+Ysun&N mercilessly beats down on you, 
+making your eyes water, your skin burn and your mouth to go dry. Far to the 
+west, you see light shimmering off what appears to be the tip of a pyramid.  
+Excitement causes your heart to race in your chest.  Could it be that you are 
+close to finding the hidden tomb of Neferteri, high priestess to the goddess 
+Isis?
+        A large, multi-segmented &+ysandworm&N lies across the path to the 
+west.  Can you go around it or should you try to scramble up the high dune 
+that lies to the north?
+^
+
+pyramid5  e:pyramid4  s:pyramid6;
+Altitude = 700
+lflags { Outdoors }
+&+yDrifting Dunes&N^
+        Thoughts of the treasure you might be able to plunder in the pyramid 
+lures you farther into this sea of dunes.  Off to the south, an ominous cloud 
+of brown dust can be seen on the horizon.  Caution urges you to retrace your 
+steps before you are engulfed by a &+ysandstorm&N.  Yet the enticing notion of
+the riches you might discover urges you to brace the weather ahead.
+^
+
+pyramid6  n:pyramid4  s:pyramid7;
+Altitude = 700
+lflags { Outdoors }
+&+ySand Sea&N^
+        Clouds of dust billow around your legs as you wade through the &+ysand
+&N.  A hot wind blows around you, drying what little moisture is left in your 
+body.  Licking your parched, cracked lips, you suddenly get this sinking 
+feeling that all is not what it seems.
+^
+
+pyramid7  n:pyramid6  w:pyramid8;
+Altitude = 700
+lflags { Outdoors }
+Into the &+LStorm&N^
+        Immediately, you are engulfed in a swirling cloud of dust.  Tiny grains
+of blowing &+ysand&N scour your skin, fill your lungs and obscure your vision.
+No longer can you see that tantalizing vision of a pyramid, and much to your 
+dismay, you can not see to find a way out of this raging storm.  Bitterly, you
+wonder if this is the &+Lcurse&N whispered about for centuries that would 
+befall those who dared to try and find the hidden tomb of Neferteri.
+^
+
+pyramid8  n:pyramid9  s:pyramid12 e:pyramid7;
+Altitude = 700
+lflags { Outdoors }
+Desert Path^
+        Stumbling out of the storm, you breath a sigh of relief to find 
+yourself on a fairly stable path.  After wiping the &+ysand&N from your eyes,
+you again see those strange, tiny &+Ctracks&N leading off to the north.  
+Should you follow those odd tracks or try your luck climbing the large &+ydune
+&N that lies to the south which looks quite dangerous?
+^
+
+pyramid9  s:pyramid8;
+Altitude = 700
+lflags { Outdoors }
+&+bWadi&N^
+        You enter a wadi that contains a small pool of &+Lmurky water&N. Wisps
+of stunted &+ggrasses&N along with low, scrubby &+gbushes&N struggle to survive
+in the thin soil and intense &+rheat&N.  Disappointed your long trek has come
+to such an abrupt end, you pause to rest.
+        Sitting by the &+Bpool&N is a weary-looking nomad, who has also stopped to 
+rest before attempting the hazardous journey back through the dune sea.  The 
+bulging water bag by his side makes you think it might be wise to carry along 
+some extra water on the return trip.
+^
+
+pyramid10   d:pyramid9 u:pyramid13;
+Altitude = 700
+lflags { Outdoors NoMobiles }
+Temple Steps^
+        Blinking your eyes, you are amazed to find that you're on the steps of
+a large, &+ysand&N scoured pyramid.  Carved out of rock and made smooth by the
+constantly blowing wind, they lead up to a small, &+Ldark&N, opening.  
+Excitment courses through you.  You have traveled far, endured much and have 
+finally found the tomb of Neferteri.  Visions of the wealth she stripped from 
+the people dance in your head, overshadowing all thoughts of the &+Lcurse&N.
+^
+
+pyramid11 s:pyramid4;
+Altitude = 700
+lflags { Outdoors NoMobiles}
+Up the &+yDune&N^
+        The sand is too loose, too unstable to allow you to climb and you 
+slide back toward the sea of sand.
+^
+
+
+pyramid12  ;
+lflags  { Death NoMobiles }
+Atop the &+yDune&N^
+        The &+ysand&N opens up swallowing you and all your equipment.  The last
+sound you hear is the &+revil&N tone of soft feminine laughter.
+^
+
+
+pyramid13  e:pyramid14  s:pyramid10  w:pyramid20;
+lflags { Dark }
+Passage^
+        Pausing for a moment to allow your eyes to become accustomed to the 
+lack of light in this passageway, you are amazed to find the walls are covered
+with brightly colored paintings that have not faded with the passage of time.
+Many of the gods are depicted in these wall paintings, Osiris, Annibus, Set 
+and the goddess, Isis.  A sense of unease fills your soul as you recall the 
+&+Lcurse&N of Neferteri and you wish you could read the &+mhieroglyphs&N that 
+accompany the paintings.  To the east and west of you are &+Ldark&N rooms that
+look &+Ccold&N and &+Cuninviting&N.
+^
+
+pyramid14  n:pyramid15  w:pyramid13;
+lflags { Dark }
+Storage Chamber^
+        This room appears to be little more than an empty storage chamber that
+has already been looted by tomb robbers.  The walls are stark, completely 
+unadorned, and the chiseled stone floor is covered by a thick layer of dust.
+Before you can leave, you see movement and spy a shifty-eyed character hiding
+in the &+Lshadows&N.
+^
+
+pyramid15  n:pyramid16  s:pyramid14;
+lflags { Dark }
+Sepulchral Hall^
+        The walls of this long hall are also filled with bright, colorful 
+paintings depicting the rites of worship to the gods.  Your excitement grows as
+you see several pictures of a falcon, rumored to be the chosen symbol of the 
+high priestess Neferteri.
+        Visions of the treasure she reportedly stole from the people dance in
+your head, urging you to explore and move deeper into the pyramid.  Again, you
+wonder if the &+mhieroglyphs&N on the wall hold the secret of defeating 
+Neferteri and the way to obtaining her treasure.
+^
+
+pyramid16  s:pyramid15  w:pyramid17;
+lflags { Dark }
+Annex^
+        This small annex with its plain walls is disappointing.  From the 
+imprints left in the dust covering the floor, you believe that several items 
+had once been stored here.  Yet according to legend, the greatest treasures 
+are stored in a magically sealed chamber that will only be accessible upon 
+Neferteri's final death.
+^
+
+pyramid17  e:pyramid16  s:^door2Nef w:pyramid18;
+lflags { Dark }
+Shrine of Neferteri^
+        The glint of &+Ygold&N greets you as you step into the room.  &+YGlided
+&N wood surrounds the door to the south, while pictures depicting the history
+of Neferteri and her rise to power are painted on the walls.  All is there to 
+see, her enslavement of the King and Queen, the pillaging of the royal treasure,
+the gathering and harnessing the powers of the &+yEarth&N, &+rSun&N, &+WWind
+&N and &+bWater&N. And the final abomination, her use of the &+Lblack&N arts 
+to ensure her immortality.  One scene in particular catches your eye, 
+Neferteri's presentation of a small &+ggreen&N stone to Horus, the son of the
+gods, Isis and Osiris.
+        Upon closer inspection of the door, you see a faint &+cglow&N emanating
+from the seals and realize it would take some powerful magic to break this 
+seal.  Off to the west is a &+Ldark&N you saw in the passageway.  To the north
+lies stone steps leading to another level in the pyramid.
+^
+
+pyramid18  ;
+lflags { Death NoMobiles }
+Neferteri's Curse^
+        The sound of light, feminine laughter floats in the air as you are 
+suddenly unable to draw any air into your lungs.  Belatedly you realize you 
+have stumbled onto Neferteri's curse.
+^
+
+
+pyramid19  n:pyramid18  s:pyramid20 u:pyramid27;
+lflags  {  Dark }
+Sepulchral Hall^
+        The walls of this long hall are also filled with bright colorful 
+paintings depicting the rites of worship to the gods.  Your excitement grows 
+as you see several pictures of a falcon, rumored to be the chosen symbol of 
+the high priestess Neferteri.
+        Visions of the treasure she reportedly stole from the people dance in
+your head urging you to explore and move deeper into the pyramid.  Again you 
+wonder if the &+mhieroglyphs&N on the wall hold the secret to defeating 
+Neferteri and the way to obtaining her treasure.
+^
+
+pyramid20  n:pyramid19  e:pyramid13;
+lflags  { Dark }
+Tomb of Slaves^
+        An unpleasant odor hangs in the air.  Piles of moldy garbage are 
+strewn around the floor.  Before you can back out of this place and continue
+your explorations, you spy something that looks like a hand.  A chill skips 
+down your spine as you notice other human remains, a toe, a part of an arm, a
+shriveled skull.  Abruptly, you become aware you have stumbled across the 
+burial chambers of mummified slaves, those killed to serve the dead king and
+queen in the afterlife.  Obviously, they weren't given the same care as their
+more important counterparts.
+^
+
+pyramid21 n:^doorFromNef  s:temple@start;
+lflags  { Dark }
+Neferteri's Altar^
+        Your breath lodges in your throat as the &+Gglow&N from your torch 
+reflects off the four &+Yglided&N shrines covering the walls.  The air crackles
+with your excitement and with a hint of fear, knowing you must now face a 
+creature of such monumental evil -- and power.
+        An altar, cast in solid &+Ygold&N, rests in the center of the room.  
+On it lies a &+Lblack&N-haired woman of such incredible beauty, you can not but
+wonder if she could possibly be real or just a mirage sent by the gods to
+taunt you.  The sight of such indescribable loveliness lures you closer, as you
+ignore the faint warnings sounding in your mind.
+^
+
+pyramid22 e:pyramid23  w:pyramid27;
+lflags { Dark }
+King's Chamber^
+        A &+Yglided&N shrine decorates one wall, while a &+Ygolden&N statue of 
+the goddess Selkis guards the four canopic jars holding the viscera of the 
+King Amphet.  At the four corners of this shrine stand the statues of the 
+goddesses, Isis, Nephthys, Neith and Selkis to protect these jars from the 
+claws of the greedy.  Chests containing some of King Amphet's personal 
+belongings rest against the opposite wall.  Through the open door to the east
+you catch sight of a magnificent &+cquartizite&N sarcophagus, carved from a
+single block of stone.
+^
+
+pyramid23  n:pyramid24  w:pyramid22;
+lflags { Dark }
+King's Tomb^
+        The huge sarcophagus dominates the room.  The rose granite lid looks
+heavy, almost impossible to move.  At each corner the guardian goddess Isis,
+Nephtys, Neith and Selkis are beautifully carved in high relief, their arms
+and wings clasping the sarcophagus in a protective embrace.
+        &+mHieroglyphs&N have been carved into the side of the tomb.  Thoughts
+of the wealth that might lie with the king make you wonder if you should go to
+the trouble of opening the tomb.
+^
+
+pyramid24  s:pyramid23  w:pyramid25;
+lflags { Dark }
+Queen's Chamber^
+        There is a similar shrine here to the one in the King's Chamber, yet
+there are far more chests pushed against the opposite wall.  Jars holding 
+herbs, spices and oils to annoint the long-dead Queen are capped with fine 
+&+Walabastar&N stoppers and sit waiting for Sitman's attendants to arise to 
+the afterlife and minister to their mistresses.  Through the open door, you
+see a smaller sarcophagus holding the body of the young queen.
+^
+
+pyramid25  e:pyramid24  s:^door2Treas  w:pyramid26;
+lflags  { Dark }
+Queen's Tomb^
+        Though much smaller than the king's, this sarcophagus is as intricately
+carved.  The royal emblems of Isis are inlaid with semi-precious stones.  The
+face carved in the stone wears a look of suffering, holds the sadness of death
+in youth.  Another set of &+mhieroglpyhs&N have been carved into the side.
+Tempted not to disturb the final rest of this tragic woman, you feel the need
+to tip-toe quietly away.  Yet curiosity to gaze upon the funeral mask makes
+you pause.
+^
+
+pyramid26  e:pyramid25  s:pyramid27 u:pyramid28;
+lflags  { Dark }
+Mummification Room^
+        An eerie feeling along with an overwhelming odor assaults you as you 
+step inside this room.  On tables lie metal implements that looked to be 
+instruments of torture.  Jars holding palm wine, cedar oil and other 
+astringents sit underneath.  Stacks of &+Wwhite&N linen rest in an open chest.
+It isn't hard to discern the purpose of this room when you spy the body of 
+freshly wrapped mummy lying on a high granite slab.  Though the stone appears
+to be clean, you can see traces of a &+rrust&N-colored substance.  Shivering
+at the thought of coming to such and end, you feel the need to hurry from this
+place.
+^
+
+pyramid27  n:pyramid26  e:pyramid22 d:pyramid19;
+lflags { Dark }
+Antechamber^
+        Stacked in this room are many wondrous things.  Strange carvings of 
+animals, statues, boxes, everything it would appear to aid the king and queen
+through their journey through the afterlife.  Closer inspection reveals caskets
+of mummified cats and birds, obviously the beloved pets of the royal couple.
+Searching through the jumble of objects, you realize anything of significant
+value has already been plundered by tomb robbers.
+^
+
+pyramid28  n:pyramid30 e:pyramid29  d:pyramid26;
+lflags { Dark }
+Dark Stairway^
+        A thick layer of dust covers the stone steps to this stairway.  A chill
+descends over you as you peer up and see only &+Ldarkness&N.  A small nagging
+voice inside your head warns you to go back, leave this place of death and
+forget your dreams of wealth and glory.
+^
+
+pyramid29  n:pyramid31  w:pyramid28;
+lflags  { Dark }
+Shrine to Osiris^
+        A sense of awe comes over you as you step inside the shrine.  The
+paintings covering the walls tell the tragic story of Osiris, once an early
+king who was betrayed and murdered by his brother, Set.  A huge statue atop a
+long &+cquartz&N altar representing  the God of the &+LDead&N, is cast of pure
+&+Ygold&N.  Kneeling beneath the altar is a very large, robed Sultan come to
+pay homage to the powerful god.
+^
+
+pyramid30  e:pyramid31  s:pyramid28;
+lflags { Dark }
+Shrine to Isis^
+        The glint of &+Ygold&N greets you as you move into the room.  The
+carvings on the &+Yglided&N walls depict Isis, the Earth Goddess, mourning the
+death of her husband Osiris.  Seeing the exquisitely lovely features of the
+small &+Ygolden&N statue sitting atop a low, long altar, you realize why she 
+is also the Goddess of Magic and Guile.  A small movement brings your attention
+to a young woman of breath-taking beauty by the altar.  You look again in
+amazement for she so closely resembles the statue, making you wonder if you
+are seeing a living representation of the Earth Goddess -- or just a mirage.
+        A pile of coins lies on the altar -- perhaps an offering, or a
+temptation?
+^
+
+pyramid31  s:pyramid29 w:pyramid30  u:^door2Horus;
+lflags { Dark }
+Into the Soul^
+        The glow of &+Wlight&N at the top of the dusty staircase beckons to
+you.  These walls are dingy and unadorned.  There are no tracks in the light
+covering of dust upon the steps, indicating no one has passed this way in a
+very long time.  An eerie silence has pervaded this place until all you can
+hear is your shallow breathing and the swift beating of your heart.  A small
+oval cartouche is carved deeply in the corner of one wall.
+^
+
+pyramid32  d:^doorFromHorus;
+lflags { Dark }
+Enlightment^
+        &+WLight&N pours in from two long slitted windows at the sides of the
+tip of this pyramid.  Unlike the rest of the pyramid, not a trace of dust can
+be found on the floor.  You can hear the sighing of the hot desert wind as it 
+rustles around the top of this magnificent tomb.  The room is dominated by a
+tall figure with the body of a man and the head of a falcon.  Large rounded
+eyes carefully observe you, making you shudder and wonder if this creature can
+peer into your very soul.  You believe you have finally found Horus, son of 
+Isis and Osiris, the fierce guardian of Neferteri's vast power.
+^
+
+pyramid33 n:^doorFromTreas;
+lflags { Dark }
+Treasure Room^
+        &+YGold&N!  The glint of it is everywhere as you gaze around the room.
+The walls have been &+Yglided&N and scenes carved into them displaying 
+Neferteri and her journey to glory and infamy.  &+YGolden&N statues bearing 
+the likeness of the high priestess sit upon bound chests far too large for one
+person to carry.  The seal on one chest has been broken, the lid tossed back
+revealing the wealth inside of it.  Yet something makes you pause before
+scooping up the vast treasures that seem yours for the taking.
+^
+
+
+  
+   
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

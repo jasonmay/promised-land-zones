@@ -1,0 +1,23 @@
+
+
+
+
+%rainfall:500
+
+%latitude:40
+
+%locations
+
+god1 e:god2;
+lflag { Party Private NoMobiles God NoSnoop NoAt}
+God's home&N^
+Did you ever wondered what god's home would look like? We did too.
+^
+
+god2 w:god1;
+lflags { NoSummon CantSummon NoAt God Private Party Soundproof Peaceful NoSnoop NoMobiles }
+The Gods Meeting Room^
+   This is a large dome shaped room, in the center of the room is a long table
+with many comfortable looking chairs.
+This is where the powers come for meetings and parties.
+^

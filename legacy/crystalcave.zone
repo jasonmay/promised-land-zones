@@ -1,0 +1,424 @@
+
+
+
+
+
+
+
+%rainfall:500
+
+%latitude:35
+
+%mobiles
+
+Name        = archaeologist
+Pflags      { NoZap NoExo }
+Mflags      { NoSteal }
+Location    = crystalcave5
+Strength    = 1
+Damage      = 0
+Armor       = 0
+Aggression  = 0
+Speed       = 0
+Description = "A sight-less man in ragged clothes sits here, his face 
+reflecting that all hope is lost."
+Examine     = "
+Gaunt and gray, not even a miracle worker could help this man."
+End         = archaeologist
+
+Name        = tunnelrat
+Location    = crystalcave8
+Strength    = 150
+Damage      = 5
+Armor       = 0
+Aggression  = 10
+Speed       = 3
+Description = "A large, ugly rat with &+Lblack&N, beady eyes is crouched here."
+Examine     = "It's a rat, what did you expect?"
+End         = tunnelrat
+
+Name        = burrower
+Location    = crystalcave3
+Strength    = 400
+Damage      = 15
+Armor       = 5
+Aggression  = 50
+Speed       = 50
+Description = "A cute, furry ball of &+Wfluff&N rolls aimlessly here."
+Examine     = "Cute and furry, this animal is tempting to hold."
+End         = burrower
+
+Name        = asp
+Location    = crystalcave10
+Strength    = 250
+Damage      = 10
+Sflags { NoArms NoLegs }
+Armor       = 5
+Aggression  = 20
+Speed       = 2
+Description = "A hissing, &+gvenomous&N asp slithers here."
+Examine     = "Sometimes, it's not easy being green."
+End         = asp
+
+Name        = sphinx
+Pflags      { NoZap NoExo }
+Location    = crystalcave12
+Strength    = 1
+Damage      = 1
+Armor       = 0
+Aggression  = 0
+Speed       = 0
+Description = "An intricately carved statue of a sphinx sits here."
+Examine     = "
+Noble and proud, this sphinx posseses a secret smile and ageless eyes.
+Yet with skin so smooth, you are tempted to pet him."
+End         = sphinx
+
+Name        = moor
+Pflags      { NoZap NoExo }
+Location    = camelot104@camelot
+Strength    = 500
+Damage      = 10
+Armor       = 5
+Aggression  = 0
+Speed       = 0
+Description = "A moor searching for a great wizard eyes you suspiciously."
+Examine     = "I hate mazes."
+End         = moor
+
+Name        = Chimera
+PName       = chimera
+Mflags      { NoSteal BarE }
+EFlags      { Fireball Shock ImmFireball ImmShock }
+PFlags      { NoZap NoExo }
+SFlags      { Female }
+Location    = nibelung35@nibelung
+Strength    = 1000
+Damage      = 15
+Armor       = 10
+Aggression  = 99
+Speed       = 0
+Description = "A mighty Chimera eyes you hungrily."
+Examine     = "She wonders whether or not you taste like chicken."
+End         = Chimera
+
+Name        = willie
+PName       = "One Eyed Willie"
+Mflags      { PickStuff }
+EFlags      { ImmFireball  ImmShock }
+Location    = swamp5@abyss
+Strength    = 750
+Damage      = 20
+Armor       = 15
+Aggression  = 10
+Speed       = 0
+Description = "One Eyed Willie, the scourge of the seven seas lurks here."
+Examine     = "
+With a patch over one eye and a death's head grin, do you really want to 
+tangle with this fellow?"
+End         = willie
+
+%objects
+
+Name        = hiddenexit2
+PName       = hiddenexit 
+Linked      = hiddenexit1
+Oflags      { NoGet }
+Location    = IN_ROOM:crystalcave12 
+BValue      = 0
+Size        = 0
+Weight      = 0
+Desc[0]     = "" 
+Examine     ""
+End         = hiddenexit2 
+
+Name        = hiddenexit1
+PName       = hiddenexit 
+Oflags      { NoGet }
+Linked      = hiddenexit2
+Location    = IN_ROOM:crystalcave11 
+BValue      = 0
+Size        = 0
+Weight      = 0
+Desc[0]     = "" 
+Examine     ""
+End         = hiddenexit1 
+
+Name        = sunstone
+PName       = Sun
+Altname     = red
+Oflags      { Lit SpellChance }
+Location    = CARRIED_BY:chimera
+BValue      = 500
+Size        = 2
+Weight      = 5
+Desc[0]     = "A deep &+rred&N stone the color of &+rfire&N lies here."
+Examine     "
+Glowing with a star burst pattern of red and orange, this stone seems to 
+have mystically captured the fire of the sun."
+End         = sunstone
+
+
+Name        = earthstone
+PName       = Earth
+AltName     = brown
+Oflags      { }
+Location    = CARRIED_BY:willie
+BValue      = 500
+Size        = 2
+Weight      = 5
+Desc[0]     = "A dull &+ybrown&N stone lies forgotten here."
+Examine     = "
+Soothing to the touch, this stone fits perfectly into the palm of your hand."
+End         = earthstone
+
+Name        = seastone
+PName       = Sea
+Altname     = blue
+Oflags      { Hitchance }
+Location    = CARRIED_BY:sphinx
+BValue      = 500
+Size        = 2
+Weight      = 5
+Desc[0]     = "A stone the color of the &+bsea&N has been carelessly dropped 
+here."
+Examine     = "
+Endless waves can be seen in the center of the stone, deep, fierce and 
+soothing."
+End         = seastone
+
+Name        = windstone
+PName       = Wind
+Altname     = white
+Oflags      { }
+Location    = CARRIED_BY:moor
+BValue      = 500
+Size        = 2
+Weight      = 5
+Desc[0]     = "A glowing &+Wwhite&N stone has been dropped here."
+Examine     = "
+Crackling with &+Renergy&N, this stone seems to be engulfed in magic."
+End         = windstone
+
+Name        = journal
+Location    = CARRIED_BY:archaeologist
+BValue      = 25
+Size        = 2
+Weight      = 5
+Desc[0]     = "A tattered-looking, leather bound journal lies here."
+Examine     = "
+Opening the book, you realize that this is the private journal of the famed 
+archaeologist, Dr Phinas Pilsner who disappeared log ago.  It reads:
+
+         'Finally, I've found the way to defeat the high priestess, Neferteri.
+The secret lies in harnessing the four elements, Earth, Wind, Fire and Water.
+Hidden vast distances apart in the land, I've discovered the possible 
+locations of two of the stones.  One is said to lie protected deep in the 
+heart of the crystal caves.  The other is in the hands of a moor who traveled
+far to the east in search of a great wizard to help unlock the power of the
+stone and is reported to be lost in the caves west of Camelot.
+     But alas, my search has ended in failure.  Neferteri's curse has finally
+caught up with me.  Only now as my sight slowly fades, do I realize there 
+might be a fifth stone hidden that is the key to Neferteri's power.'
+"
+End        = journal
+
+Name       = knapsack
+AltName    = sack
+Oflags     { Wearable  Container }
+Aflags	   { Back }
+Location   = IN_ROOM:crystalcave4
+BValue     = 30
+Size       = 40
+Weight     = 0
+Desc[0]    = "A battered, but serviceable knapsack lies here."
+Examine    = "
+Made of heavy, durable canvas, this knapsack should hold plenty of items 
+during your travels."
+End        = knapsack
+
+Name       = brandy
+Oflags     { Food }
+Location   = IN_CONTAINER:knapsack
+BValue     = 40
+Size       = 5
+Weight     = 0
+Desc[0]    = "A dusty bottle of Napoleon brandy has been discarded here."
+Examine    = "
+A deep amber in color, this fine brandy is surely a drink for the gods."
+End        = brandy
+
+Name       = stained_papyrus
+PName      = papyrus
+Location   = CARRIED_BY:willie
+BValue     = 30
+Size       = 5
+Weight     = 5
+Desc[0]    = "A scrap of &+Wpapyrus&N lies hidden in the corner."
+Examine    = "
+A stone that holds the power of the sun was carried by a reckless adventurer 
+to a castle in the west.  Believing he had the courage to beat the evil under
+the castle, the poor man lost his way in an abandoned town -- only to meet up 
+with the mythical fire-breathing creature.  Beware ..."
+End        = stained_papyrus
+
+Name       = bleached_papyrus
+PName      = papyrus
+Location   = CARRIED_BY:chimera
+Size       = 30
+Weight     = 5
+Desc[0]    = "A bleached, brittle piece of &+Wpapyrus&N lies ignored here."
+Examine    = "
+Only by obtaining the Soul of Neferteri will one be able to break the curse.  
+Yet always crafty, she has chosen the most powerful of servants to guard it.  
+It is whispered that by gathering the four which hold the key to Neferteri's 
+power, is it possible to defeat the invincible son of Isis.  Take care on the 
+journey across the sea of sand for she had hidden her tomb well.
+"
+End         = bleached_papyrus
+
+Name         = torn_papyrus
+PName        = papyrus
+Location     = CARRIED_BY:moor
+BValue       = 30
+Size         = 5
+Weight       = 5
+Desc[0]      = "A torn, tattered piece of &+Wpapyrus&N has been dropped here."
+Examine      = "
+It reads:
+        'No escape... the curse will follow... a stone forged from the earth...
+long lost and hidden...  Lost in the swamp lurks the scurge of the seven seas 
+... a ring made of a feather... beyond a great rock... off the river bank of
+Styx...'  
+It is too torn and battered to make out the rest."
+End          = torn_papyrus
+
+
+Name        = opalshield
+PName       = opalshield
+AltName     = shield
+Oflags      { Wearable Armor Shield }
+Location    = IN_ROOM:crystalcave12
+Armor       = 80
+BValue      = 300
+Size        = 20
+Weight      = 0
+Desc[0]     = "A &+cshield&N decorated with semi-precious jewels lies here."
+Examine     = "
+Part of a set, a gift to a long-dead King, this shield will serve you well."
+End         = opalshield
+
+%locations
+
+crystalcave1  w:crystalcave2  u:Cragg@island;
+lflags  { NoMobiles }
+Entrance to the &+CCrystal Caves&N^
+        Blinded by an &+Wintense&N light, it takes a few moments for your eyes
+to adjust.  You gasp in awe when you realize the cave walls are made up of 
+hundreds of crystalline formations.  The floor is littered with glittering 
+shards of &+Wcrystals&N that have somehow broken away from the walls.  Peering
+up at the ceiling, you can find no discernible light source that displays all
+this natural beauty.
+^
+
+crystalcave2  n:crystalcave3  e:crystalcave1;
+lflags  { }
+&+CCrystal Caves&N^
+        The glittering &+Wcrystals&N only serve to confuse you, making one 
+branch look like another.  Are you really getting anywhere?  Or are you 
+traveling around in circles?
+^
+
+crystalcave3  n:crystalcave2  e:crystalcave2  s:crystalcave2   w:crystalcave4;
+lflags  { }
+&+CCrystal Caves&N^     
+        The glittering &+Wcrystals&N only serve to confuse you, making one 
+branch look like another.  Are you really getting anywhere?  Or are you 
+traveling around in circles?
+^
+
+crystalcave4   n:crystalcave1  e:crystalcave3 s:crystalcave5  w:crystalcave2;
+lflags { }
+&+CCrystal Caves&N^
+        The glittering &+Wcrystals&N only serve to confuse you, making one 
+branch look like another.  Are you really getting anywhere?  Or are you 
+traveling around in circles?
+^
+
+crystalcave5  n:crystalcave4  e:crystalcave1  s:crystalcave3  w:crystalcave6;
+lflags { }
+&+CCrystal Caves&N^
+        The glittering &+Wcrystals&N only serve to confuse you, making one 
+branch look like another.  Are you really getting anywhere?  Or are you 
+traveling around in circles?
+^
+
+crystalcave6  n:crystalcave2  e:crystalcave5  s:crystalcave7  w:crystalcave4;
+lflags { }
+&+CCrystal Caves&N^
+        The glittering &+Wcrystals&N only serve to confuse you, making one 
+branch look like another.  Are you really getting anywhere?  Or are you 
+traveling around in circles?
+^
+
+crystalcave7  n:crystalcave6  e:crystalcave8  s:crystalcave5  w:crystalcave3;
+lflags  { }
+&+CCrystal Caves&N^
+        The glittering &+Wcrystals&N only serve to confuse you, making one 
+branch look like another.  Are you really getting anywhere?  Or are you 
+traveling around in circles?
+^
+
+crystalcave8  n:crystalcave6  e:crystalcave9  s:crystalcave3  w:crystalcave7;
+lflags { }
+&+CCrystal Cave&N^
+        The glittering &+Wcrystals&N only serve to confuse you, making one 
+branch look like another.  Are you really getting anywhere?  Or are you 
+traveling around in circles?
+^
+
+crystalcave9  n:crystalcave6  e:crystalcave4  s:crystalcave10  w:crystalcave8;
+lflags  { }
+&+CCrystal Caves&N^
+        The glittering &+Wcrystals&N only serve to confuse you, making one 
+branch look like another.  Are you really getting anywhere?  Or are you 
+traveling around in circles?
+^
+
+crystalcave10  n:crystalcave9  e:crystalcave7 s:crystalcave6  w:crystalcave11;
+lflags  { }
+&+CCrystal Caves&N^
+        The glittering &+Wcrystals&N only serve to confuse you, making one 
+branch look like another.  Are you really getting anywhere?  Or are you 
+traveling around in circles?
+^
+crystalcave11 n:crystalcave9  e:crystalcave10  s:crystalcave6  w:^hiddenexit1;
+lflags  { }
+&+CCrystal Caves&N^
+        &+BWater&N spills down the west wall reflecting the &+Wlight&N making
+it seem like liquid &+Wcrystal&N.  Mosses cling to the walls, giving off a 
+decidedly &+ggreen&N tint.  Steam rises from the &+Bpool&N of &+Bwater&N just 
+inches from your feet.  You wish you could stand under the falls and wash all 
+your troubles away.  Looking over your shoulder, you heave a weary sigh, not 
+wishing to find your way back through the seemingly endless &+Wcrystal&N 
+passages.
+^
+
+crystalcave12  e:^hiddenexit2;
+lflags { }
+&+CCrystal Grotto&N^
+        Stepping inside, you see a large grotto formed entirely out of glowing
+&+Wcrystals&N. Light pouring in from an unseen source reflects off the 
+&+Wcrystals&N, dazzling you with a &+Rbrilliant&N display of color.  Disturbed
+by your presence, dozens of multi-colored &+rfire lizards&N take flight.  The
+music of those delicate, gossamer wings sounds like the sighing of the wind, 
+can barely be heard over the sound of the rushing &+bwater&N. 
+        On a low, narrow ledge, a statue of a sphinx rests.  The ageless eyes 
+seem able to look straight into your very soul and see your secrets.  A rounded
+stone the color of the &+bsea&N rests between its claws.
+        Looking closer, you see the ripple of muscles and realize this is no 
+statue, but something quite alive.
+^
+
+
+

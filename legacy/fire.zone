@@ -1,0 +1,1155 @@
+
+/* Zone by Etrimon (email: etrimon@falcor.karlin.mff.cuni.cz)
+   This zone isn't for free distribution.*/
+
+
+
+
+
+
+
+%mobiles
+
+Name		= Servant1
+PName           = Servant
+Location	= Fire8
+Mflags          { BarE }
+Pflags          { NoHassle }
+Strength	= 500
+Damage		= 24
+Aggression      = 0
+Armor		= 12
+Speed           = 0
+Description	= "&+GThe servant&* asks you: 'Did you come to help Sir Gruoch?'"
+End             = Servant1
+
+Name            = Servant2
+PName           = Servant
+Location        = dead@dead
+Mflags          { BarE BarW BarN }
+Pflags          { NoHassle }
+Strength        = 500
+Damage          = 24
+Aggression      = 0
+Armor           = 12
+Speed           = 0
+Description     = "The servant says 'Sir gruoch doesn't want to see anyone.'"
+End             = Servant2
+
+Name		= Gruoch
+PName           = Gruoch
+Location	= Fire8
+Mflags          { }
+Pflags          { NoHassle }
+Strength	= 1000
+Damage		= 66
+Aggression      = 0
+Armor		= 35
+Speed           = 0
+Description	= "Sir Gruoch is here."
+End             = Gruoch
+
+Name		= Gerst
+PName           = Gerst
+Location	= Fire47 
+Mflags          { }
+Pflags          { NoHassle }
+Strength	= 10
+Damage		= 8
+Aggression      = 0
+Armor		= 0
+Speed           = 0
+Description	= "Gerst, Sir Gruoch's son is hiding here."
+End             = Gerst
+
+Name            = Gerst1
+PName           = Gerst
+Location        = dead@dead
+Mflags          { }
+Pflags          { NoHassle }
+Strength        = 10
+Damage          = 8
+Aggression      = 0
+Armor           = 0
+Speed           = 0
+Description     = "Gerst, Sir Gruoch's son is here."
+End             = Gerst1
+
+Name            = Rubber1
+PName           = "One Eye"
+Location        = Fire20
+Mflags          { }
+Strength        = 150
+Damage          = 8
+Aggression      = 80
+Armor           = 0
+Speed           = 2
+Description     = "One Eye is preparing himself to attack you."
+End             = Rubber1
+
+Name            = Rubber2
+PName           = "One Leg"
+Location        = Fire21
+Mflags          { }
+Strength        = 150
+Damage          = 8
+Aggression      = 80
+Armor           = 0
+Speed           = 2
+Description     = "One Leg is preparing himself to attack you."
+End             = Rubber2
+
+Name            = Rubber3
+PName           = "One Arm"
+Location        = Fire22
+Mflags          { }
+Strength        = 150
+Damage          = 8
+Aggression      = 80
+Armor           = 0
+Speed           = 2
+Description     = "One Arm is preparing himself to attack you."
+End             = Rubber3
+
+Name            = Rubber4
+PName           = Bredy
+Location        = Fire26
+Mflags          { NoSteal Block }
+Strength        = 200
+Damage          = 14
+Aggression      = 80
+Armor           = 4
+Speed           = 0
+Description     = "Bredy is guarding the gate."
+End             = Rubber4
+
+Name            = Rubber5
+PName           = Ardy
+Location        = Fire26
+Mflags          { NoSteal Block }
+Strength        = 200
+Damage          = 14
+Aggression      = 80
+Armor           = 4
+Speed           = 0
+Description     = "Ardy is guarding the gate."
+End             = Rubber5
+
+Name            = Rubber6
+PName           = Drunk
+Location        = Fire37
+Mflags          { }
+Strength        = 5
+Damage          = 14
+Aggression      = 80
+Armor           = 4
+Speed           = 0
+Description     = "Drunk robber is waving with his hands."
+End             = Rubber6
+
+Name            = Rubber7
+PName           = Drunk
+Location        = Fire37
+Mflags          { }
+Strength        = 5
+Damage          = 14
+Aggression      = 80
+Armor           = 4
+Speed           = 0
+Description     = "Drunk robber is laying on the ground."
+End             = Rubber7
+
+Name            = Rubber9
+PName           = Leader
+Location        = Fire37
+Mflags          { BarS }
+Strength        = 50
+Damage          = 24
+Aggression      = 0
+Armor           = 4
+Speed           = 0
+Description     = "The leader of this whole group is laying totally drunk on his throne."
+End             = Rubber9
+
+Name            = Rubber8
+PName           = Prisoner
+Location        = Fire46
+Mflags          { NoSteal Block }
+Strength        = 250
+Damage          = 24
+Aggression      = 80
+Armor           = 4
+Speed           = 0
+Description     = "Prisoner is guarding here."
+End             = Rubber8
+
+%objects
+
+Name		= Sword
+AltName		= mighty
+Location       	= WIELDED_BY:Gruoch
+Oflags		{ Weapon }
+Damage          = 23
+BValue		= 200 
+Size		= 50
+Desc[0]		= "The mighty sword lies here."
+End             = Sword
+
+Name            = Letter 
+Location        = IN_ROOM:Fire8
+Oflags          { Destroyed }
+MaxState        = 2
+State           = 0
+Damage          = 38
+BValue          = 50
+Size            = 5
+Desc[0]         = "The letter from Gruoch."
+Desc[1]         = ""
+Examine         = "The letter from Gruoch with his sign and a map of the land."
+End             = Letter
+
+Name		= Cheese
+AltName		= slice
+Location       	= IN_ROOM:Fire15
+Oflags		{ Food GetFlips }
+MaxState	= 1
+State		= 1
+BValue		= 20
+Size		= 1
+Desc[0]		= "A slice of cheese has been droped here."
+Examine		= "It sure looks tasty."
+End             = Cheese
+
+Name		= Helmet
+AltName		= silver
+Location       	= IN_ROOM:Fire12
+Oflags		{ Armor Lit Wearable }
+Aflags		{ Head }
+Armor           = 40
+BValue		= 100
+Size		= 2
+Weight          = 2
+Desc[0]		= "A shiny silver helmet has been left here."
+Examine		= "Wonderful helmet lies here, looks very protective."
+End             = Helmet
+
+Name            = Key
+Location        = CARRIED_BY:Rubber4
+Oflags          { Key GetFlips }
+MaxState        = 1
+State           = 0
+BValue          = 2
+Size            = 1
+Weight          = 1
+Desc[0]         = "A key."
+Desc[1]         = "A key has been dropped here."
+Examine         = "A key."
+End             = Key
+
+Name            = Key2
+PName           = Keybundle
+AltName         = Keys
+Location        = CARRIED_BY:Rubber8
+Oflags          { GetFlips Key }
+MaxState        = 1
+State           = 0
+BValue          = 2
+Size            = 1
+Weight          = 1
+Desc[0]         = "A keybundle of prison keys is here."
+Desc[1]         = "A keybundle of prison keys have been dropped here."
+Examine         = "A keybundle of prison keys."
+End             = Key2
+
+Name            = Bed
+Location        = IN_ROOM:Fire10
+Oflags          { NoGet }
+MaxState        = 0
+State           = 0
+BValue          = 2
+Size            = 1
+Weight          = 1
+Desc[0]         = ""
+Examine         = "A very comfortable bed with a large silk sheet."
+End             = Bed 
+
+Name            = Sheet
+Location        = IN_ROOM:Fire10
+Oflags          { GetFlips Wearable Destroyed }
+MaxState        = 1
+State           = 0
+BValue          = 2
+Size            = 1
+Weight          = 1
+Desc[0]         = "A sheet lays here."
+Desc[1]         = "A sheet."
+Examine         = "A sheet from a very comfortable bed."
+End             =  Sheet
+
+Name            = Moonsign
+AltName         = Sign
+Location        = IN_ROOM:Fire56
+Oflags          { RegenHealth RegenMana GetFlips Wearable }
+MaxState        = 1
+State           = 0
+BValue          = 800
+Size            = 1
+Weight          = 4
+Desc[0]         = "A wonderful moonsign lays here."
+Desc[1]         = "Someone made a big mistake to leave this moonsign behind."
+Examine         = "
+It says 'I was on the Moon.'
+Zone created by Etrimon. Comments to etrimon@falcor.karlin.mff.cuni.cz"
+End             =  Moonsign
+
+Name            = Basin
+AltName         = Water
+Location        = IN_ROOM:Fire9
+Oflags          { NoGet Container }
+MaxState        = 0
+State           = 0
+BValue          = 2
+Size            = 1
+Weight          = 1
+Desc[0]         = ""
+Examine         = "A basin full of water."
+End             = Basin
+
+Name            = Wetsheet
+PName           = Sheet 
+Location        = IN_CONTAINER:Basin
+Oflags          { GetFlips Wearable Destroyed }
+MaxState        = 1
+State           = 0
+BValue          = 2
+Size            = 1
+Weight          = 1
+Desc[0]         = "A wet sheet is laying here."
+Desc[1]         = "A wet sheet."
+Examine         = "A wet sheet."
+End             = Wetsheet
+
+Name            = Water
+Location        = IN_CONTAINER:Basin
+Oflags          { NoGet }
+MaxState        = 0
+State           = 0
+BValue          = 2
+Size            = 1
+Weight          = 1
+Desc[0]         = ""
+Examine         = "Water."
+End             = Water
+
+Name            = Slide
+Location        = IN_ROOM:Fire17
+Oflags          { NoGet }
+MaxState        = 0
+State           = 0
+BValue          = 2
+Size            = 1
+Weight          = 1
+Desc[0]         = ""
+Examine         = "What do you think. Is it too high?"
+End             = Slide
+
+Name            = Table
+Location        = IN_ROOM:Fire14
+Oflags          { NoGet }
+MaxState        = 1
+State           = 1
+BValue          = 2
+Size            = 1
+Weight          = 1
+Desc[0]         = "Table with a plate in press is standing here."
+Desc[1]         = "A table with a press is standing here."
+Examine[0]      = "
+You see a plate with plastic fixed in the press of the table."
+Examine[1]      = "You see a table with a press."
+End             = Table
+
+Name            = Box
+Location        = IN_ROOM:Fire14
+Oflags          { NoGet Openable Container }
+MaxState        = 1
+State           = 1
+BValue          = 60
+Size            = 120
+Weight          = 200
+Desc[0]         = "An open wooden box is lying here."
+Desc[1]         = "A closed wooden box is lying here."
+Examine         = "A wooden box with a red sign on it."
+End             = Box
+
+Name            = Barrel
+Location        = IN_ROOM:Fire14
+Oflags          { NoGet Openable Container }
+MaxState        = 1
+State           = 1
+BValue          = 60
+Size            = 120
+Weight          = 200
+Desc[0]         = "An open barrel is lying here."
+Desc[1]         = "A closed barrel is lying here."
+Examine         = "A barrel with a green sign on it."
+End             = Barrel
+
+Name            = Plate
+Location        = IN_CONTAINER:Box
+Oflags          { }
+MaxState        = 1
+State           = 1
+BValue          = 24
+Size            = 12
+Weight          = 12
+Desc[0]         = "A plate with loose plastic on it."
+Desc[1]         = "A plate made of hard metal."
+End             = Plate
+
+Name            = Coolbox
+Location        = IN_ROOM:Fire15
+Oflags          { NoGet }
+MaxState        = 0
+State           = 0
+BValue          = 2
+Size            = 1
+Weight          = 1
+Desc[0]         = "A typical coolbox is standing here."
+Examine         = "Hmm, they should buy a new one, this one has some plastic loosing."
+End             = Coolbox
+
+Name            = Throne
+Location        = IN_ROOM:Fire37
+Oflags          { NoGet }
+MaxState        = 0
+State           = 0
+BValue          = 2
+Size            = 1
+Weight          = 1
+Desc[0]         = ""
+End             = Throne 
+
+Name            = Ground
+Location        = IN_ROOM:Fire40
+Oflags          { NoGet }
+MaxState        = 0
+State           = 0
+BValue          = 2
+Size            = 1
+Weight          = 1
+Examine         = "There is written: Just hope, your fear &+wENDS&* here."
+End             = Ground
+
+Name            = Plastic
+Location        = IN_ROOM:Fire15
+Oflags          { Destroyed }
+MaxState        = 0
+State           = 0
+BValue          = 24
+Size            = 12
+Weight          = 12
+Desc[0]         = "Some plastic."
+Examine      = "Looks quite airtight."
+End             = Plastic
+
+Name            = Seal
+Location        = IN_ROOM:FIRE14
+oflags          { Destroyed }
+MaxState        = 0
+State           = 0
+BValue          = 24
+Size            = 12
+Weight          = 12
+Desc[0]         = "An &+Cairtight&* seal."
+Examine      = "An &+Cairtight&+w* seal."
+End             = Seal
+
+Name            = Lever
+AltName         = Press
+Location        = IN_ROOM:Fire14
+Oflags          { NoGet PushToggle }
+MaxState        = 0
+State           = 0
+BValue          = 24
+Size            = 12
+Weight          = 12
+Desc[0]         = ""
+Examine         = "A lever controling the press."
+End             = Lever
+
+Name            = Crap
+Pname           = gap
+Location        = IN_ROOM:Fire2
+Oflags          { NoGet }
+MaxState        = 1
+State           = 1
+BValue          = 24
+Size            = 12
+Weight          = 12
+Desc[0]         = "A &+Rgap&* is filled with a seal."
+Desc[1]         = "There is &+ggas&* coming out from a &+Rgap&*."
+Examine[0]      = "The gap is now airtight."
+Examine[1]      = "&+RDon't go nearer!"
+End             = Crap 
+
+Name            = Door7
+PName           = door
+Location        = IN_ROOM:Fire7
+Linked          = Door8
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+End             = Door7
+
+Name            = Door8
+PName           = door
+Location        = IN_ROOM:Fire9
+Linked          = Door7
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+End             = Door8
+
+Name            = Door9
+PName           = door
+Location        = IN_ROOM:Fire9
+Linked          = Door10
+Oflags          { NoGet Openable Lockable }
+MaxState        = 2
+State           = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = Door9
+
+Name            = Door10
+PName           = door
+Location        = IN_ROOM:Fire10
+Linked          = Door9
+Oflags          { NoGet Openable Lockable }
+MaxState        = 2
+State           = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = Door10
+
+Name            = Gatein
+PName           = gate
+Location        = IN_ROOM:Fire26
+Linked          = Gateout
+Oflags          { NoGet Openable Lockable }
+MaxState        = 2
+State           = 2
+Desc[0]         = "The gate is open."
+Desc[1]         = "The gate is closed."
+Desc[2]         = "The gate is locked."
+End             = Gatein
+
+Name            = Gateout
+PName           = gate
+Location        = IN_ROOM:Fire33
+Linked          = Gatein
+Oflags          { NoGet Openable Lockable }
+MaxState        = 2
+State           = 2
+Desc[0]         = "The gate is open."
+Desc[1]         = "The gate is closed."
+Desc[2]         = "The gate is locked."
+End             = Gateout
+
+Name            = SDoorE
+PName           = door
+Location        = IN_ROOM:Fire1
+Linked          = SDoorW
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+End             = SDoorE
+
+Name            = SDoorW
+PName           = door
+Location        = IN_ROOM:Fire3
+Linked          = SDoorE
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+End             = SDoorW
+
+Name            = SecretDoorS
+PName           = door
+Location        = IN_ROOM:Fire37
+Linked          = SecretDoorN
+Oflags          { NoGet Openable Lockable Destroyed }
+MaxState        = 2
+State           = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = SecretDoorS
+
+Name            = SecretDoorN
+PName           = door
+Location        = IN_ROOM:Fire39
+Linked          = SecretDoorS
+Oflags          { NoGet Openable Lockable }
+MaxState        = 2
+State           = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = SecretDoorN
+
+Name            = Door11
+PName           = cell
+Altname		= east
+Location        = IN_ROOM:Fire46
+Linked          = Door12
+Oflags          { NoGet Openable Lockable}
+MaxState        = 2
+State           = 2
+Desc[0]         = "The east cell is open."
+Desc[1]         = "The east cell is closed."
+Desc[2]         = "The east cell is locked."
+Examine         = "You can see a huge lock on it. The lock has very interesting shapes."
+End             = Door11
+
+Name            = Door12
+PName           = cell
+Location        = IN_ROOM:Fire47
+Linked          = Door11
+Oflags          { NoGet Openable Lockable}
+MaxState        = 2
+State           = 2
+Desc[0]         = "The cell is open."
+Desc[1]         = "The cell is closed."
+Desc[2]         = "The cell is locked."
+End             = Door12
+
+Name            = Door13
+PName           = cell
+Altname		= west
+Location        = IN_ROOM:Fire46
+Linked          = Door14
+Oflags          { NoGet Openable Lockable}
+MaxState        = 2
+State           = 2
+Desc[0]         = "The west cell is open."
+Desc[1]         = "The west cell is closed."
+Desc[2]         = "The west cell is locked."
+Examine         = "You can see a huge lock on it. The lock has very interesting shapes."
+End             = Door13
+
+Name            = Door14
+PName           = cell
+Location        = IN_ROOM:Fire48
+Linked          = Door13
+Oflags          { NoGet Openable Lockable}
+MaxState        = 2
+State           = 2
+Desc[0]         = "The cell is open."
+Desc[1]         = "The cell is closed."
+Desc[2]         = "The cell is locked."
+End             = Door14
+
+%locations
+Fire0 s:sundforest6090@haondor n:Fire1;
+lflags { }
+Grand entrance^
+     You are standing before the mighty house where Sir Gruoch is living.
+It was build overlooking Sundhaven and Haon-dor. The entrance is made of
+&+Wwhite&* stones and all around is covered with &+Ggrass&*. Two lions statues are
+standing on both sides of the entrance. How can someone create something
+so realistic looking? Exits lead to the north into Gruoch's house or
+south to the forest road.
+^
+
+
+Fire1 s:Fire0 n:Fire2 e:^SDoorE w:Fire4;
+lflags { }
+Entrance hall^
+    You have entered through the old entrance gate into a great hall. Sir
+Gruoch wants to impress everyone with his home, so the hall is built in
+the old baroque style.  Walls are covered with thick woollen carpets and on
+the ceiling is a suggestive fresco showing a fight of two mystic giants.
+The floor is made of hard &+ymahagony&* to slow the aging. Near the gate is a
+small closet for robes. There is a mirror hanging next to the closet. It
+is mostly used by ladies to refresh their make-up. There is a living room
+to the north, a small door to the east or you can go west onto the
+staircase.
+^
+
+Fire2 s:Fire1;
+lflags { Hot NegRegen }
+Living room^
+    You are in the living room. It is terribly &+Rhot&* here, you shouldn't
+stay here for a long time. There are clouds of &+wsmoke&*, so you can't see much
+except the source of the heat. The fireplace is standing against the door,
+which was totally smashed by the explosion. The small camin door is crap.
+Gas powered &+rflames&* are trying to come out and burn everything around. 
+The only way out is back to the entrance hall.
+^
+
+Fire3 w:^SDoorW;
+lflags { }
+Kitchen^
+    You are standing in the kitchen. It is very clean, because Sir Gruoch
+has control over his cooks. It is equipped like any normal kitchen
+with an oven, cupboards, cold store, and a sink for dishes. There is also
+a small lift coming through the floor directly from the food store in
+the cellar. The ceiling, floor, and walls are &+wwhite&*, there is no
+special decoration. The only exit is back to the entrance hall.
+^
+
+Fire4 e:Fire1 u:Fire5 d:Fire6;
+lflags { }
+Staircase^
+    You are standing on the staircase. All the stairs are made of &+ymahagony&*,
+covered with carpets. The metal railing shall avoid a possible accident.
+You can go up, down or to the entrance hall.
+^
+
+Fire5 e:Fire7 d:Fire4;
+lflags { }
+Staircase^
+    You are standing on the staircase. All the stairs are made of &+ymahagony&*,
+covered with carpets. The metal railing shall avoid a possible accident.
+You can go back down or to east to the hall.
+^
+
+Fire6 n:Fire12 e:Fire13 u:Fire4;
+lflags { dark }
+Staircase^
+    You are standing on the staircase. All stairs are made of &+ymahagony&*,
+covered with carpets. The metal railing shall avoid a possible accident.
+You can go up, north to the vine store or east to the laundry.
+^
+
+Fire7 n:Fire8 e:^Door7 w:Fire5;
+lflags { }
+Hall^
+    You are standing in the hall. This room should also impress visitors,
+because it is used as a picture gallery. Sir Gruoch is very proud of his
+old kith and kin. The famous person should be Lady Gruoch who married in
+1037 McBeth King of Scotland. There are many stories about this age and
+if you want, Sir Gruoch can talk hours about it. At the end of the long
+hall is the picture of his son. Sir Gruoch cares very much for the son, as
+his wife died of an unknown illness. He would start a &+mwar&* for his son.
+You can go the living room to north or west onto the staircase. There is
+a door to the east.
+^
+
+Fire8 e:Fire10 s:Fire7 w:Fire11;
+lflags { }
+Living room^
+    You are standing in the living room used for inviting visitors. There
+is a &+rfireplace&* opposite the entrance. There are two seats made of very valuable
+wood and wool, and a small &+yoak&* table between them for drink. The
+floor is covered with bearskins. There are hunting trophies on walls. Sir
+Gruoch should be a very good fighter. The ceiling is decorated with
+wonderful frescos showing antic history. There are two swords and a
+shield hanging above the &+rfireplace&*, seemingly not used very often, and
+are in perfect condition. 
+^
+
+Fire9 n:^Door9 w:^Door8;
+lflags { }
+Bathroom^
+    You are standing in the bathroom. Everything is made of &+wwhite&*
+marble--the basin, mirrors, walls, ceiling and floor. The &+Bwater&* in the
+basin is everytime clean, because a servant is responsible for the &+Bwater&*
+and is changing it after every wash of Sir Gruoch or his son. There is
+nothing more special in this room.
+^
+
+Fire10 s:^Door10 w: Fire8;
+lflags { }
+Playroom^
+   You are standing in the Gerst's playroom. It is a quite large room with
+&+ywooden&* furniture. Also floor and walls are covered with &+ywood&*. There is a
+comfortable &+Cbed&* in the northeast corner with white silk sheets. Pillows
+and covers are hidden during the day, so the small Sir can play on the bed.
+There are many toys lying around the bed. Cupboards are full of toys too.
+There is a table at the west wall. There is some school stuff on it. You
+notice that there is a small bell above the door for calling servants.
+You can go west to the living room or south into the bathroom.
+^
+
+Fire11 e:Fire8;
+lflags { }
+Gruoch's workroom^
+   You are standing in Gruoch's workroom. As you can see to be ranked as
+a Knight is not only fun, but hard administrating work too. But in this
+time it is looking very chaotic. Papers are laying all around, under a
+hill of papers you can see a desk and a &+Cbed&*. Sir Gruoch is totally
+down of missing his son. He paid so much money already to everyone who
+said he will look for his son, but no responce untill now. You can go
+back to the living room.
+^
+
+Fire12 e:Fire14 s:Fire6;
+lflags { Dark Cold }
+Wine store^
+   You are standing in the &+rwine&* store. You can see barrels full of &+rwine&*
+and shelves full of bottles. Some are over 50 years old. Sir Gruoch knows
+how should a good glass of wine taste. He sometimes gets a letter from
+the king to send him some bottles of wine or he visits Sir Gruoch to have
+a glass &+rwine&* with him. It is quite cold here--because of the &+rwine&*, there
+is no special floor. You are standing on earth and your feet are visible
+in the ground. You can go east to the hardware store or south onto the
+staircase.
+^
+
+Fire13 n:Fire14 e:Fire15 w:Fire6;
+lflags { }
+Laundry^
+   You are standing in the laundry. It stinks a bit here. Servants wash
+dirty clothes for Sir Gruoch. You can see different objects helping
+servants with washing. There is no special decoration.  Everything is made 
+of &+ywood&*. A candlestick for eleven candles hanging on a rope tied to the
+ceiling is the only source of light here. You can go north to the hardware 
+store, east to the food store and west onto the staircase.
+^
+
+Fire14 w:Fire12 s:Fire13;
+lflags { Dark }
+Hardware store^
+   You are standing in the hardware store. There are different objects
+like spades, wheels, bars, candles, plates ... There is a large table in
+the middle of the room for handling the wood and small metal objects.
+You can also see clay, needels, hammers, and saws. There is a big cupboard 
+on the east wall. You can go west to the vine store or south to the laundry.
+^
+
+Fire15 w:Fire13;
+lflags { Dark }
+Food store^
+     You are standing in the food store. You see lot of types of food
+like flash, cheese, breads ...
+^
+
+Fire16 n:sundforest6022@haondor s:Fire17;
+lflags { Dark NoMobiles }
+Dark cave^
+     You are standing in a dark cave. You can't see much here, everything
+you see is only a possible way south, where it is much &+Ldarker&* or you can
+go back.
+^
+
+Fire17 n:Fire18 e:Fire23 s:Fire24 w:Fire25;
+lflags { Dark }
+Darker cave^
+     As you step further in the dark cave, you trip and fall down a long
+&+Cslide&*. Now you are on the bottom of the cave. Exits are going in 
+every direction except the way up.
+^
+
+Fire18 n:Fire19 s:Fire17;
+lflags { Dark }
+Northern way^
+     You are standing in the northern way, which is here only to connect the
+center of cave with the barracks.
+^
+
+Fire19 n:Fire22 e:Fire20 s:Fire18 w:Fire21;
+lflags { Dark }
+Arena^
+     You are standing in the arena. It is normaly used for great lunches, but
+when two want to fight, they are going to this place, where noone disturbs
+them. There have been many fights already, because the ground is filled with
+bones and skulls. Ways are leading in all directions.
+^
+
+Fire20 w:Fire19;
+lflags { Dark }
+Barracks^
+     You are standing in the barracks of the robbers. It is a normal 
+accomodation for about ten people. It isn't very comfortable here, just beds 
+and one large table. The floor is made of wood, but on some places is it 
+already stepped through. The only way out is back to the arena.
+^
+
+Fire21 e:Fire19;
+lflags { Dark }
+Barracks^
+     You are standing in the barracks of the robbers. It is a normal
+accomodation for about ten people. It isn't very comfortable here, just beds
+and one large table. The floor is made of wood, but on some places is it
+already stepped through. The only way out is back to the arena.
+^
+
+Fire22 s:Fire19;
+lflags { Dark }
+Barracks^
+     You are standing in the barracks of the robbers. It is a normal
+accomodation for about ten people. It isn't very comfortable here, just beds
+and one large table. The floor is made of wood, but on some places is it
+already stepped through. The only way out is back to the arena.
+^
+
+Fire23 w:Fire17 e:Fire49;
+lflags { Dark }
+Eastern way^
+     The way is following further east.
+^
+
+Fire24 n:Fire17 s:Fire26;
+lflags { Dark }
+Southern way^
+     You are standing in the northern way, which is here only to connect the
+center of cave with other cave.
+^
+
+Fire25 e:Fire17;
+lflags { Dark }
+Western way^
+     You are standing in a small cave. It is looking like it was dug by hand.
+The digging was stopped maybe because of the very hard rocky walls. The only
+way leads back to east.
+^
+
+Fire26 n:Fire24 e:Fire27 s:^Gatein w:Fire28;
+lflags { }
+Guarded entrance^
+     You are standing by a guarded entrance. It is a large gate made of wood 
+and metal with a big lock. Walls around are very high, impossible for you to 
+climb up. Other possible exits are west or east around the wall or north to 
+the southern way.
+^
+
+Fire27 s:Fire29 w:Fire26;
+lflags { Dark }
+Around the wall^
+     You are following the wall. You see nothing special. The wall is reaching
+the top of the cave. You can go south or west.
+^
+
+Fire28 e:Fire26 s:Fire31;
+lflags { Dark }
+Around the wall^
+     You are following the wall. You see nothing special. The wall is reaching
+the top of the cave. You can go east or south.
+^
+
+Fire29 n:Fire27 s:Fire30;
+lflags { Dark }
+Around the wall^
+     You are following the wall. You see nothing special. The wall is reaching
+the top of the cave. You can go north or south.
+^
+
+Fire30 n:Fire29;
+lflags { Dark }
+End of the east cave^
+     You are standing at the end of the cave. The wall is diving in the cave
+like it has been one piece forever. It had to be a hard work. The only exit
+leads north.
+^
+
+Fire31 n:Fire28 s:Fire32;
+lflags { Dark }
+Around the wall^
+     You are following the wall. You see nothing special. The wall is reaching
+the top of the cave. You can go north or south.
+^
+
+Fire32 n:Fire31;
+lflags { Dark }
+End of the west cave^
+     You are standing at the end of the cave. The wall is diving in the cave
+like it has been one piece forever. The wall isn't so straight like before.
+It had to be a hard work. The only exit leads north.
+^
+
+Fire33 n:^Gateout e:Fire34 s:Fire36 w:Fire35;
+lflags { Dark }
+Village circle^
+     You are standing in the village, where robbers are living. All buildings
+are very simple built, mostly made of wood. There are fires burning everywhere,
+so it isn't so cold here. You can hear some music, loud voices coming from the
+greatest hut to the south of the circle. Also you can try to look in other 
+smaller huts.
+^
+
+Fire34 w:Fire33;
+lflags { Dark }
+Wooden hut^
+     You are standing in a small wooden hut. It is possibly owned by a guard.
+There is only a bed, a table and a chair. The only source of light here is
+a candlestick on the table.
+^
+
+Fire35 e:Fire33;
+lflags { Dark }
+Low hut^
+     You are standing in a low hut. It is used by guards for storing food.
+There is nothing to be seen here. All the food is possibly in the greatest hut
+by a local party.
+^
+
+Fire36 n:Fire33 s:Fire37;
+lflags { Dark }
+Before the huge hut^
+     You are standing before a huge hut. It is possibly the building of the 
+leader of all robbers. You can hear loud drunk singing from the inside of
+the hut. There are many other huts around, but you don't think you would 
+find anything or anyone interesting there.
+^
+
+Fire37 n:Fire36 s:^SecretDoorS;
+lflags { }
+Huge hut^
+     You are standing in the huge hut. You see many robbers here. They are
+celebrating a good trip. They have captured the son of one of the most
+richest people in the land. You see many tables full with half eaten food
+and lot of empty bottles of vine and beer. There is a tall totaly drunk robber 
+sitting (laying) on his some kind of &+ythrone&*. He is so drunk so he is not 
+mentioning you. Also only some of other robbers mentioned you, but you don't
+think that they will be able to do anything against you. Exit leads to north.
+^
+
+Fire39 n:^SecretDoorN s:Fire40;
+lflags { Dark Cold }
+Prison way^
+      You are standing behind the secret door. The way leads to the
+prison as you can see on the style of walls and cellars. You still can 
+hear the loud singing from the party.
+^
+
+Fire40 n:Fire39 s:Fire41;
+lflags { Dark Cold }
+Prison way^
+      You are standing in a small dark room. There is only something lying
+on the &+yground&*. You can go north and south.
+^
+
+Fire41 n:Fire40 e:Fire42 s:Fire41 w:Fire41 u:Fire41 d:Fire41;
+lflags { Dark Cold }
+Prison^
+      Your light isn't enough strong to see further. Exits leads in all 
+directions.
+^
+
+Fire42 n:Fire43 e:Fire41 s:Fire41 w:Fire41 u:Fire41 d:Fire41;
+lflags { Dark Cold }
+Prison^
+      Your light isn't enough strong to see further. Exits leads in all
+directions.
+^
+
+Fire43 n:Fire41 e:Fire41 s:Fire41 w:Fire41 u:Fire41 d:Fire44;
+lflags { Dark Cold }
+Prison^
+      Your light isn't enough strong to see further. Exits leads in all
+directions.
+^
+
+Fire44 n:Fire41 e:Fire41 s:Fire45 w:Fire41 u:Fire41 d:Fire41;
+lflags { Dark Cold }
+Prison^
+      Your light isn't enough strong to see further. Exits leads in all
+directions.
+^
+
+Fire45 n:Fire41 s:Fire46;
+lflags { Dark Cold }
+Prison^
+      Now you can see a bit further. Some branches are around here, so you
+can orient yourself better now. Exits lead to the north and south.
+^
+
+Fire46 n:Fire45 e:^Door11 w:^Door13;
+lflags{ Cold }
+Cross^
+      You are standing between two prison cells. It is smelling here terribly.
+You can see rats everywhere. It must be terrible to guard here and it has to 
+be much worse for the prisoners here. You can see bars to the east and west.
+An exit leads north.
+^
+
+Fire47 w:^Door12;
+lflags { Dark Cold NegRegen }
+Prison cell^
+       You are standing in a horrible smelling dark room. You can't see much,
+but you know you wouldn't choose this place for your holidays. 
+^
+
+Fire48 e:^Door14;
+lflags { NegRegen }
+Prison cell^
+       You are standing in a horrible smelling dark room. You can't see much,
+but you know you wouldn't choose this place for your holidays.
+^
+
+Fire49 /* n:#EX_FIRE_BACK e:#EX_FIRE_FIRE50 s:#EX_FIRE_BACK*/ w:Fire23 /*u:#EX_FIRE_BACK d:#EX_FIRE_BACK */;
+lflags { Dark }
+Moonways^
+     You are gliding on moonbeams. You can't feel any gravitation here. You
+feel free. You feel wonderful.
+^
+
+Fire50 /*n:#EX_FIRE_BACK e:#EX_FIRE_BACK s:#EX_FIRE_BACK w:#EX_FIRE_FIRE51 u:#EX_FIRE_BACK d:#EX_FIRE_BACK */;
+lflags { Dark }
+Moonways^
+     You are gliding on moonbeams. You can't feel any gravitation here. You
+feel free. You feel wonderful.
+^
+
+Fire51 /*n:#EX_FIRE_BACK e:#EX_FIRE_BACK s:#EX_FIRE_BACK w:#EX_FIRE_BACK u:#EX_FIRE_BACK d:#EX_FIRE_FIRE52 */;
+lflags { Dark }
+Moonways^
+     You are gliding on moonbeams. You can't feel any gravitation here. You
+feel free. You feel wonderful.
+^
+
+Fire52 /*n:#EX_FIRE_BACK e:#EX_FIRE_BACK s:#EX_FIRE_BACK w:#EX_FIRE_BACK u:#EX_FIRE_BACK d:#EX_FIRE_FIRE53*/;
+lflags { Dark }
+Moonways^
+     You are gliding on moonbeams. You can't feel any gravitation here. You
+feel free. You feel wonderful.
+^
+
+Fire53 /*n:#EX_FIRE_FIRE54 e:#EX_FIRE_BACK s:#EX_FIRE_BACK w:#EX_FIRE_BACK u:#EX_FIRE_BACK d:#EX_FIRE_BACK*/;
+lflags { Dark }
+Moonways^
+     You are gliding on moonbeams. You can't feel any gravitation here. You
+feel free. You feel wonderful.
+^
+
+Fire54 /*n:#EX_FIRE_BACK e:#EX_FIRE_BACK s:#EX_FIRE_BACK w:#EX_FIRE_FIRE55 u:#EX_FIRE_BACK d:#EX_FIRE_BACK*/;
+lflags { Dark }
+Moonways^
+     You are gliding on moonbeams. You can't feel any gravitation here. You
+feel free. You feel wonderful.
+^
+
+Fire55 /*n:#EX_FIRE_BACK e:#EX_FIRE_BACK s:#EX_FIRE_BACK w:#EX_FIRE_BACK u:#EX_FIRE_FIRE56 d:#EX_FIRE_BACK*/;
+lflags { Dark }
+Moonways^
+     You are gliding on moonbeams. You can't feel any gravitation here. You
+feel free. You feel wonderful.
+^
+
+Fire56 d:Fire49;
+lflags { }
+On the Moon^
+      You are standing on the Moon. It is not really a Moon, but it is looking
+like a real Moon. You are floating above the ground lightly. You are feeling 
+wonderful. Now you can take the award for your long trip.
+^
+
+Fire57 ;
+lflags { Death }
+Fallen from the moonways^
+      You have chosen the wrong way and what do you think is around?
+Nothing! So you fall deep, deep, deep down and SPLAT!!!
+^
+

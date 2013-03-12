@@ -1,0 +1,74 @@
+%zone:haven
+
+%latitude:45
+
+%mobiles
+
+Name		= bard
+Pname		= "The Bard"
+Location 	= haven
+Strength	= 50
+Armor		= 0
+damage		= 10
+Aggression      = 0
+Speed           = 0
+description	= "
+An ageless bard sits on a stool by the fire, strumming a mandolin and telling
+cryptic tales of times long-past."
+End = bard
+
+Name   = Applicant
+Location = haven
+Strength = 50
+Damage = 10
+Speed = 0
+description = "A doomed soul is here, filling out a massive pile of applications."
+examine = "
+The applicant stands here in total misery filling out one application after
+another knowing that he will never be hired because he has little or no work 
+experience to prove to an employer that he's qualified.  You too, can join
+in on this horrible existance when you're old enough."
+End = Applicant
+
+%objects
+
+Name = applications
+Location = CARRIED_BY:Applicant
+Size = 5
+Weight = 10
+Bvalue = 50
+Desc[0] = "A massive pile of job applications has been left here."
+Examine = "
+It appears to be one application from each individual company that exists
+on the planet!  Wouldn't it be easier on us if they'd just have one uniform
+application so you can run it through a copy machine?
+"
+End = applications
+
+Name      = mistletoe
+AltName   = sprig
+Location  = IN_ROOM:haven
+Oflags    {NoGet}
+Desc[0]   = "A sprig of mistletoe hangs by the fireplace."
+Examine   = "
+You notice with some amusement that the Bard has positioned himself directly
+underneath.  Well don't just stand there, kiss him!"
+end = mistletoe
+
+Name      = fire
+Location  = IN_ROOM:haven
+Oflags    {NoGet Extinguish}
+End = fire
+
+%locations
+haven s:blizzard@blizzard w:gate@blizzard;
+lflags {party}
+Warm Haven^
+   After hours of trudging through the snow you come upon a tiny inn.  A sign
+above the door says "Warm Haven -- Abandon Cold, All Ye Who Enter."  The room
+is crowded with burly adventureres, shy novices, and the bustling of serving
+wenches and bar-maids trying to take everyone's orders.
+   The main door is to the south, and a side-door heads west into the frozen
+wastes.  A number of urchins are gathered around the crackling fire to hear
+tales and songs from the Bard.
+^

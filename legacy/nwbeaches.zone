@@ -1,0 +1,1172 @@
+
+
+
+%rainfall:1000
+
+%latitude:20
+
+%mobiles
+
+Name = mobQQ00
+Pname = "a pelican"
+Location = beachQQ04
+SFlags  {}
+PFlags  {}
+MFlags  {Flyer }
+Strength = 33
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A pelican is here, taking a break in the sun."
+Examine = "
+Looks like every other pelican you've seen....
+"
+End = mobQQ00
+
+Name = mobQQ00_1
+Pname = "a pelican"
+Location = beachQQ07
+SFlags  {}
+PFlags  {}
+MFlags  {Flyer }
+Strength = 33
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A pelican is here, taking a break in the sun."
+Examine = "
+Looks like every other pelican you've seen....
+"
+End = mobQQ00_1
+
+Name = mobQQ00_2
+Pname = "a pelican"
+Location = beachQQ06
+SFlags  {}
+PFlags  {}
+MFlags  {Flyer }
+Strength = 33
+Damage = 9
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A pelican is here, taking a break in the sun."
+Examine = "
+Looks like every other pelican you've seen....
+"
+End = mobQQ00_2
+
+Name = mobQQ01
+Pname = "a sea otter"
+Location = beachQQ17
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 40
+Damage = 11
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A sea otter is here, basking in the warmth of the sun."
+Examine = "
+Cute little guy, even though he looks a bit slimy.
+"
+End = mobQQ01
+
+Name = mobQQ01_1
+Pname = "a sea otter"
+Location = beachQQ04
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 40
+Damage = 11
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A sea otter is here, basking in the warmth of the sun."
+Examine = "
+Cute little guy, even though he looks a bit slimy.
+"
+End = mobQQ01_1
+
+Name = mobQQ01_2
+Pname = "a sea otter"
+Location = beachQQ05
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 40
+Damage = 11
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A sea otter is here, basking in the warmth of the sun."
+Examine = "
+Cute little guy, even though he looks a bit slimy.
+"
+End = mobQQ01_2
+
+Name = mobQQ02
+Pname = "a seagull"
+Location = beachQQ08
+SFlags  {}
+PFlags  {}
+MFlags  {Flyer }
+Strength = 59
+Damage = 13
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A seagull pokes about, looking for scraps."
+Examine = "
+Dirty little bird, you wish you had a wrist-cannon (more fun).
+"
+End = mobQQ02
+
+Name = mobQQ02_1
+Pname = "a seagull"
+Location = beachQQ08
+SFlags  {}
+PFlags  {}
+MFlags  {Flyer }
+Strength = 59
+Damage = 13
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A seagull pokes about, looking for scraps."
+Examine = "
+Dirty little bird, you wish you had a wrist-cannon (more fun).
+"
+End = mobQQ02_1
+
+Name = mobQQ02_2
+Pname = "a seagull"
+Location = beachQQ06
+SFlags  {}
+PFlags  {}
+MFlags  {Flyer }
+Strength = 59
+Damage = 13
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A seagull pokes about, looking for scraps."
+Examine = "
+Dirty little bird, you wish you had a wrist-cannon (more fun).
+"
+End = mobQQ02_2
+
+Name = mobQQ02_3
+Pname = "a seagull"
+Location = beachQQ05
+SFlags  {}
+PFlags  {}
+MFlags  {Flyer }
+Strength = 59
+Damage = 13
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A seagull pokes about, looking for scraps."
+Examine = "
+Dirty little bird, you wish you had a wrist-cannon (more fun).
+"
+End = mobQQ02_3
+
+Name = mobQQ03
+Pname = "the Lighthouse Keeper"
+Location = beachQQ26
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 518
+Damage = 51
+Armor = 18
+Aggression = 25
+Speed = 0
+Wimpy = 0
+Description = "The Lighthouse Keeper is here, looking unsure of what he should do about you being here."
+Examine = "
+'&+RAll I ever wanted was sexual fulfillment', &+Wthe Lighthouse Keeper
+explains, '&+RI never intended to hurt anyone, it seems that this all
+&+Rjust got a bit out of hand....'&+W
+"
+End = mobQQ03
+
+Name = mobQQ04
+Pname = "the hermaphrodite"
+Location = beachQQ28
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 148
+Damage = 16
+Armor = 16
+Aggression = 25
+Speed = 0
+Wimpy = 0
+Description = "A strange looking.. thing(?) is standing here, no expression on it's face at all."
+Examine = "
+It looks as it it may be a man, but then, being that it is naked, you
+can see that it is just a bit of both.
+"
+End = mobQQ04
+
+Name = mobQQ05
+Pname = "the battered woman"
+Location = beachQQ30
+SFlags  {Female}
+PFlags  {}
+MFlags  {}
+Strength = 148
+Damage = 16
+Armor = 16
+Aggression = 25
+Speed = 0
+Wimpy = 0
+Description = "A woman lies here on her cot, bruised, naked, and bleeding."
+Examine = "
+It looks as if she may have been a very beautiful woman at one time,
+however she is now so covered in dirt and grime, it is hard to tell.
+"
+End = mobQQ05
+
+Name = mobQQ06
+Pname = "Deformed Man"
+Location = beachQQ29
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 148
+Damage = 16
+Armor = 16
+Aggression = 25
+Speed = 0
+Wimpy = 0
+Description = "A naked man stands, shockingly deformed."
+Examine = "
+You're not sure what he is, how he came to be what he is now, and you're
+not sure you want to know.
+"
+End = mobQQ06
+
+Name = mobQQ07
+Pname = "the Perfect Companion"
+Location = beachQQ27
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 168
+Damage = 16
+Armor = 16
+Aggression = 25
+Speed = 0
+Wimpy = 0
+Description = "The Perfect Companion lies stretched out on the bed, waiting to give pleasure."
+Examine = "
+It is not describable, simply not describable.
+"
+End = mobQQ07
+
+Name = mobQQ08
+Pname = "the Lighthouse Keeper's Wife"
+Location = beachQQ21
+SFlags  {Female}
+PFlags  {}
+MFlags  {}
+Strength = 418
+Damage = 16
+Armor = 16
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "The Lighthouse Keeper's wife is here, sewing and humming a happy song."
+Examine = "
+Such a kind looking lady, I'm sure she'd let you stay to dinner
+if you had the urge.
+"
+End = mobQQ08
+
+Name = mobQQ09
+Pname = "Max"
+Location = beachQQ21
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 168
+Damage = 16
+Armor = 16
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "Max, the Lighthouse Keeper's dog rests before the fire."
+Examine = "
+Mostly mutt, but very friendly, this black dog looks like the stereo-
+typical house-dog.
+"
+End = mobQQ09
+
+Name = mobQQ10
+Pname = "the Lighthouse Keeper's Daughter"
+Location = beachQQ24
+SFlags  {Female}
+PFlags  {}
+MFlags  {}
+Strength = 193
+Damage = 16
+Armor = 18
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "The Lighthouse Keeper's Daughter is here, playing house."
+Examine = "
+Although she looks as if she must be at least fifteen or sixteen years
+old, she still seems quite content with her dolls.  What a nice girl!
+"
+End = mobQQ10
+
+Name = mobQQ11
+Pname = "Takker"
+Location = beachQQ18
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 618
+Damage = 42 
+Armor = 18
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "Old man Takker sits here, fishing away his life."
+Examine = "
+It is said by many that Old Man Takker hasn't left this spot for over
+twenty.  His disciples bring him any food he needs, and they say he
+never sleeps - just fishes.
+"
+End = mobQQ11
+
+Name = mobQQ12
+Pname = "Takker's Disciple"
+Location = beachQQ19
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 258
+Damage = 21
+Armor = 22
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A fisherman sits here, trying to imitate Takker as best he can."
+Examine = "
+Man this guy smells bad!
+"
+End = mobQQ12
+
+Name = mobQQ12_1
+Pname = "Takker's Disciple"
+Location = beachQQ19
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 258
+Damage = 21
+Armor = 22
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A fisherman sits here, trying to imitate Takker as best he can."
+Examine = "
+Man this guy smells bad!
+"
+End = mobQQ12_1
+
+Name = mobQQ12_2
+Pname = "Takker's Disciple"
+Location = beachQQ18
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 258
+Damage = 21
+Armor = 22
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A fisherman sits here, trying to imitate Takker as best he can."
+Examine = "
+Man this guy smells bad!
+"
+End = mobQQ12_2
+
+Name = mobQQ12_3
+Pname = "Takker's Disciple"
+Location = beachQQ18
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 258
+Damage = 21
+Armor = 22
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A fisherman sits here, trying to imitate Takker as best he can."
+Examine = "
+Man this guy smells bad!
+"
+End = mobQQ12_3
+
+Name = mobQQ12_4
+Pname = "Takker's Disciple"
+Location = beachQQ17
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 258
+Damage = 21
+Armor = 22
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A fisherman sits here, trying to imitate Takker as best he can."
+Examine = "
+Man this guy smells bad!
+"
+End = mobQQ12_4
+
+Name = mobQQ13
+Pname = "the Kracken"
+Location = beachQQ34
+SFlags  {}
+PFlags  {NoSummon NoTrace}
+Strength = 1520
+Damage = 55
+Armor = 24
+Aggression = 25
+Speed = 0
+Wimpy = 0
+Description = "With a tremendous blast of force, the Kracken lunges up from the water! "
+Examine = "
+This creature is larger than a city block and older than the Gods themselves.
+"
+End = mobQQ13
+
+%objects
+
+/* Name = wood_beachXX07
+Pname = wood
+Altname = piece
+Linked = wood_beachQQ06
+State = 1
+Maxstate = 1
+Desc[1] = "The wood is closed."
+Desc[0] = "The wood is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:beachQQ06
+Examine = "
+At closer inspection, you see that there are letters on the wood, mostly
+rubbed out.  'A ba ross' is all you can make out of what's left.
+There seems to be some sort of handle on the wood as well!
+" 
+End = wood_beachXX07
+*/
+Name = east_beachQQ11
+Pname = east
+Oflags { NoGet  }
+Location = IN_ROOM:beachQQ11
+Examine = "
+You see more of the beach.
+"
+End = east_beachQQ11
+
+Name = roof_beachQQ21
+Pname = paintings
+Altname = paint
+Location = IN_ROOM:beachQQ21
+Oflags { Noget }
+Desc[0] = "There's some paintings hung on the walls."
+Examine = "
+The paintings on the walls depict the great heroes and gods.  One of
+the gods is fairly heavy-bellied and incredibly hairy, with a massive
+beard.  Also among them are the great enemies and wrongdoers, such as
+the evil Goddess Yochlol and the powerful evil Wizard Tharoecon.
+" 
+End = roof_beachQQ21
+
+Name = throne_beachQQ24
+Pname = throne
+Location = IN_ROOM:beachQQ24
+Oflags { Noget }
+Desc[0] = "A child's throne sits in the corner."
+Examine = "
+It is large and very beautiful.  The carvings are mainly of animals and
+magic beasts.
+" 
+End = throne_beachQQ24
+
+Name = door_beachQQ20
+Pname = door
+Linked = door_beachQQ19
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:beachQQ19
+End = door_beachQQ20
+
+Name = door_beachQQ19
+Pname = door
+Linked = door_beachQQ20
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:beachQQ20
+End = door_beachQQ19
+
+/* Name = door_beachQQ22
+Pname = door
+Linked = door_beachQQ21
+State = 0
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:beachQQ21
+End = door_beachQQ22
+
+
+Name = door_beachQQ24
+Pname = door
+Altname = wood
+Linked = door_beachQQ21
+State = 0
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:beachQQ21
+End = door_beachQQ24
+*/
+
+Name = secret_beachQQ25
+Pname = secret
+Altname = door
+Linked = secret_beachQQ22
+State = 3
+Maxstate = 3 
+Desc[2] = "The secret door is locked."
+Desc[1] = "The secret door is closed."
+Desc[0] = "The secret door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:beachQQ22
+End = secret_beachQQ25
+
+Name = secret_beachQQ22
+Pname = secret
+Altname = door
+Linked = secret_beachQQ25
+State = 3
+Maxstate = 3 
+Desc[2] = "The secret door is locked."
+Desc[1] = "The secret door is closed."
+Desc[0] = "The secret door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:beachQQ25
+Examine = "
+The spiral stair leads up to a trap door.
+"
+End = secret_beachQQ22
+
+Name = stairs_beachQQ25
+Pname = stairs
+Location = IN_ROOM:beachQQ25
+Oflags { Noget }
+Examine = "
+Made out of marble, and as all the rest of the lighthouse made primarily
+for beauty and with great skill.
+" 
+End = stairs_beachQQ25
+
+Name = cell_beachQQ27
+Pname = northcell
+Altname = northdoor
+Linked = cell_beachQQ26n
+State = 2
+Maxstate = 2 
+Desc[2] = "The northcell is locked."
+Desc[1] = "The northcell is closed."
+Desc[0] = "The northcell is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:beachQQ26
+End = cell_beachQQ27
+
+Name = cell_beachQQ28
+Pname = eastcell
+Altname = eastdoor
+Linked = cell_beachQQ26e
+State = 2
+Maxstate = 2 
+Desc[2] = "The eastcell is locked."
+Desc[1] = "The eastcell is closed."
+Desc[0] = "The eastcell is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:beachQQ26
+End = cell_beachQQ28
+
+Name = cell_beachQQ29
+Pname = southcell
+Altname = southdoor
+Linked = cell_beachQQ26s
+State = 2
+Maxstate = 2 
+Desc[2] = "The southcell is locked."
+Desc[1] = "The southcell is closed."
+Desc[0] = "The southcell is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:beachQQ26
+End = cell_beachQQ29
+
+Name = cell_beachQQ30
+Pname = westcell
+Altname = westdoor
+Linked = cell_beachQQ26w
+State = 2
+Maxstate = 2 
+Desc[2] = "The westcell is locked."
+Desc[1] = "The westcell is closed."
+Desc[0] = "The westcell is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:beachQQ26
+End = cell_beachQQ30
+
+Name = bed_beachQQ26
+Pname = bed
+Location = IN_ROOM:beachQQ26
+Oflags { Noget }
+Examine = "
+The beds all look comfortable, despite the fact that this is just
+the servants' place.
+" 
+End = bed_beachQQ26
+
+Name = cell_beachQQ26n
+Pname = cell
+Altname = door
+Linked = cell_beachQQ27
+State = 2
+Maxstate = 2 
+Desc[2] = "The cell is locked."
+Desc[1] = "The cell is closed."
+Desc[0] = "The cell is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:beachQQ27
+End = cell_beachQQ26n
+
+Name = bed_beachQQ27
+Pname = bed
+Location = IN_ROOM:beachQQ27
+Oflags { Noget }
+Examine = "
+Looks very comfortable indeed.
+" 
+End = bed_beachQQ27
+
+Name = cell_beachQQ26e
+Pname = cell
+Altname = door
+Linked = cell_beachQQ28
+State = 2
+Maxstate = 2 
+Desc[2] = "The cell is locked."
+Desc[1] = "The cell is closed."
+Desc[0] = "The cell is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:beachQQ28
+End = cell_beachQQ26e
+
+Name = bunk_beachQQ28
+Pname = bunk
+Location = IN_ROOM:beachQQ28
+Oflags { Noget }
+Examine = "
+They look a bit hard, but you could sleep in them.
+" 
+End = bunk_beachQQ28
+
+Name = cell_beachQQ26s
+Pname = cell
+Altname = door
+Linked = cell_beachQQ29
+State = 2
+Maxstate = 2 
+Desc[2] = "The cell is locked."
+Desc[1] = "The cell is closed."
+Desc[0] = "The cell is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:beachQQ29
+End = cell_beachQQ26s
+
+Name = cell_beachQQ26w
+Pname = cell
+Altname = door
+Linked = cell_beachQQ30
+State = 2
+Maxstate = 2 
+Desc[2] = "The cell is locked."
+Desc[1] = "The cell is closed."
+Desc[0] = "The cell is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:beachQQ30
+End = cell_beachQQ26w
+/*
+Name = cliff_beachXX00
+Pname = cliff
+Linked = cliff_beachQQ36
+State = 1
+Maxstate = 2
+Key = obj0
+Desc[2] = "The cliff is locked."
+Desc[1] = "The cliff is closed."
+Desc[0] = "The cliff is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:beachQQ36
+End = cliff_beachXX00
+
+Name = cliff_beachQQ36
+Pname = cliff
+Location = IN_ROOM:beachQQ36
+Oflags { Noget }
+Examine = "
+You think you may see a faint outline of some sort of entryway in the cliff.  
+Maybe if you tried OPENing it...?    
+" 
+End = cliff_beachQQ36
+*/
+Name = bed_secret
+Pname = bed
+Location = IN_ROOM:beachQQ22
+Oflags { Noget }
+Examine = "
+Hmmm...there's a secret door underneath the bed.  Wonder what's under it?
+"
+End = bed_secret
+
+Name = objQQ00
+Pname = desk
+Altname = mahoganey
+Location = IN_ROOM:beachQQ22
+State = 1
+Maxstate = 1
+Size = 2000
+Weight = 10000
+Oflags { Container NoGet Openable }
+Desc[1] = "There is a mahogney desk here, up against the east wall."
+Desc[0] = "There is a mahogney desk here, with an open drawer."
+Examine = "
+It looks as if any business the Lighthouse Keeper may need to do
+is done here, at this desk.  It has a drawer in it and implements
+for writing.
+Looks like any other drawer you've seen before - knob and all.
+"
+End = objQQ00
+
+Name = objQQ01
+Pname = key
+Altname = figureDASHeight
+Location = IN_CONTAINER:objQQ00
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 0
+Weight = 0
+Oflags { Key }
+Desc[0] = "A key in the shape of a figure-eight is here."
+End = objQQ01
+
+Name = objQQ02
+Pname = key
+Altname = cell
+Location = CARRIED_BY:mobQQ03
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Key }
+Desc[0] = "A cell key lies here in the dirt."
+End = objQQ02
+
+%locations
+
+beachQQ00 n:jetty@newvillage d:beachQQ01; 
+Altitude = 100
+lflags { Outdoors Nomobiles }
+Steps Leading Down to the Sea^
+   You are on a long flight of steps cut into a cliff face.
+Just ahead of you, the boardwalk looms, while below you,
+the steps continue for what seems an eternity.
+^
+
+beachQQ01 u:beachQQ00 d:beachQQ02;
+Altitude = 100
+lflags { Outdoors }
+Down the Cliff-Face^
+   The steps continue down toward the sea, or up to the crest
+of the cliff, depending on the way you're heading.  It looks
+as if there may be some sort of cave down from here.
+^
+
+beachQQ02  u:beachQQ01 d:beachQQ03;
+Altitude = 100
+lflags { Outdoors  }
+On the Cliff Face^
+   The stairs continue, however you are much closer to the
+bottom than the top now.  There appears to be an opening in
+the rock to your east.  Inside you can only see darkness,
+so it is possible that it is simply a natural fissure, but
+then again, who knows?
+^
+
+beachQQ03 u:beachQQ02 d:beachQQ04;
+Altitude = 100
+lflags { Outdoors  }
+On the Steps^
+   Nearing the bottom, you really begin to get a good whiff
+of the clean sea air as a breeze ruffles your clothing.  You
+begin to feel a bit better about your day - the sea can do
+that to a person.
+^
+
+beachQQ04 w:beachQQ05 e:beachQQ07 u:beachQQ03;
+Altitude = 100
+lflags { Outdoors  }
+The Base of the Steps^
+   You stand at the bottom of a set of steps cut into the face
+of the cliff here.  The beach runs along east to west here as far
+as you can see.
+^
+
+beachQQ05 w:beachQQ06 e:beachQQ04;
+lflags {  Outdoors }
+Along the Beach^
+   You stand on a beach which stretches east and west from here.
+The waves, not very large at this time, lap gently near your, making
+patterns in the fine sand.  To the west you see a few rocks jutting
+from the sand and sea.  East is flat beach to the horizon.
+^
+
+beachQQ06 w:beachQQ11 e:beachQQ05; 
+Altitude = 5
+lflags { Outdoors }
+Along the Beach^
+   You stand on a beach which stretches east to west for as far as
+your eyes can see.  Jumbles of rock and scree litter the way here,
+making it so you must watch your step.  You notice a bit of wood,
+partially buried in the sand of the beach here.
+   West is more rocky beach, while east the way gets a bit more flat.
+^
+
+beachQQ07 w:beachQQ04 e:beachQQ08 n:yllythad5141@yllythad;
+Altitude = 5
+lflags { Outdoors }
+Sandy Beach^
+   You stand on a sandy beach which runs along the shore east to west.
+To the east you can just barely make out the rooftops of a large city
+which sits nestled in a cove on the shore of the ocean.  To your west
+you see that the beach gets a bit rockier than where you currently stand.  
+A set of steps lead up the cliff face just to the west of you.
+^
+
+beachQQ08 w:beachQQ07 e:beachQQ09 n:yllythad5146@yllythad;
+Altitude = 5
+lflags { Outdoors }
+Sandy Beach^
+The beach continues it's way east toward what appears to be a coastal
+town.  A large pier juts out into the sea, ships dot the horizon as far
+out to sea as you can see from the town.  To your west you may continue
+along the beach.
+^
+
+beachQQ09 w:beachQQ08 e:beachQQ10 n:yllythad5001@yllythad;
+Altitude = 5
+lflags { Outdoors }
+Sandy Beach^
+The beach slopes upwards, slowly, gently toward the town to your east
+which sits on a huge plateau.  You can now hear the sounds of a great many
+voices coming from that direction, however traffic along this beach is 
+at a bare minimum, which is to say not at all.  There must be another
+entrance into the town somewhere.  To your west, the beach continues into
+the western horizon.
+^
+
+beachQQ10 n:beachQQ36 w:beachQQ09;
+Altitude = 5
+lflags { Outdoors }
+The Base of the Village^
+   You stand at the edge of the sea shore staring at a huge rock formation
+which could be described (sort of) as a plateau rising up out if the ocean
+floor and holding a sizable village atop it.  To the north is the cliff
+face you have been following, which happens to put an end to this path just a
+little ways northeast from your current position.  West the path heads along
+the beach for quite a long distance.    
+^
+
+beachQQ11 w:beachQQ12 e:beachQQ06;
+lflags {  }
+Along a Rocky Beach^
+The way gets much too rocky here for you to continue along the water any
+further.  You do however, notice a trail through the rocks which heads
+southwest.
+^
+
+beachQQ12 s:beachQQ13 e:beachQQ11;
+lflags {  }
+Rocky Path^
+The path meanders it's way through the rocks on this littered beach.
+In the distance, you can see a lighthouse out at the end of a jetty,
+it's gentle light guiding sailors safely past this rocky area.
+^
+
+beachQQ13 n:beachQQ12 w:beachQQ14;
+lflags {  }
+Rocky Path^
+The path continues it's way in a southwesterly direction toward the
+lighthouse, or you may head northeast toward a less cluttered-looking
+beach.
+^
+
+beachQQ14 w:beachQQ15 e:beachQQ13;
+lflags {  }
+Rocky Path^
+The path runs east to west over jumbled rock and fine beach sand.  Just to
+your west, you see a jetty running out into the ocean, a lighthouse at it's
+end.  To the east the path curves it's way along the beach.
+^
+
+beachQQ15 n:beachQQ17 w:beachQQ16 e:beachQQ14;
+lflags {  }
+Rocky Path at Takker's Jetty^
+The path continues east or west from you, depending which way you are
+heading.  A jetty runs out into the sea to your south, a strong, bold
+lighthouse at it's end.
+^
+
+beachQQ16 w:beachQQ31 e:beachQQ15;
+lflags {  }
+Rocky Path^
+The path, still rocky and hard to navigate, continues along to the
+east and west.  Directly east of you begins a jetty which hosts a
+lighthouse at it's end.  West seems only to host more rocks and possibly
+a cave or two.
+^
+
+beachQQ17 s:beachQQ15 n:beachQQ18;
+lflags {  }
+Takker's Jetty^
+The jetty heads south into the sea ending at a lighthouse.  All
+along the way, fishermen try their luck.
+^
+
+beachQQ18 s:beachQQ17 n:beachQQ19;
+Altitude = 5
+lflags { Outdoors }
+Takker's Jetty^
+All along the jetty, men relax in the sun, sitting in comfortable niches
+in the rocks where they can wile away their time telling tall tales
+about 'the ones that got away', discussing politics, or every now and
+then, doing some fishing.
+^
+
+beachQQ19 s:beachQQ18 n:^door_beachQQ20;
+Altitude = 5
+lflags { Outdoors }
+Takker's Jetty at the Lighthouse^
+You stand at the entrance to the lighthouse, a solid oak door set
+back into the rounded wall.  To your north, the jetty leads you
+back to dry land.
+^
+
+beachQQ20 s:^door_beachQQ19 n:beachQQ21;
+lflags {  }
+Entryway - Lighthouse^
+You stand in a small chamber just inside the front door of the lighthouse.
+Just south of these cramped stucco walls is the main living room of the
+lighthouse.  You can hear and smell a crackling, warm fire in the fireplace,
+a dog's contented panting, and the sound of a young lady's laughter from
+the next room.
+^
+
+beachQQ21 s:beachQQ20 w:beachQQ24 e:beachQQ22 u:beachQQ23;
+lflags {  }
+Main Living Area - Lighthouse^
+This large room looks as if it has spent many happy times in the
+company of the Lighthouse Keeper and his family.  The dinner table
+looks as if it always would have room for one more, the fire always
+warm and comforting, and of course, Max would always be around to
+play catch or get his ears scratched.
+To the east, you see what looks to be one of the family's bedrooms,
+the same to the west.  Both have doors, but both doors are wide open.
+A spiral stairway leads up into the lighthouse top, where the Keeper
+must spend a great deal of his time.
+^
+
+beachQQ22 w:beachQQ21 d:^secret_beachQQ25;
+lflags {  }
+Lighthouse Keeper's Bedroom^
+A huge plush king size bed, four posted with satin drapes.  A mahoganey
+dresser with a matching vanity desk and mirror.
+This lighthouse keeper must be one heck of a guy!
+^
+
+beachQQ23 d:beachQQ21;
+lflags {  }
+Light Room^
+This small room is more or less just the roof top of the lighthouse
+which houses the light.  A narrow walkway encircles the light, so
+that regular maintenance can be performed.  Some shelves on the
+walls hold tools and oils which keep the machinery in fine tune so
+that no ships run afoul of the many rocks in this part of the ocean.
+^
+
+beachQQ24 e:beachQQ21;
+lflags {  }
+Lighthouse Keeper's Daughter's Bedroom^
+What a cute little room!  Twin bed with a pink down comforter, a
+doll collection which even impresses you, and many other assorted
+toys sit on shelves, all neatly stacked and color-coordinated.
+^
+
+beachQQ25 u:^secret_beachQQ22 d:beachQQ26;
+lflags {  }
+On the Spiral Staircase^
+You have begun a descent down into the Lower Reaches of the Lighthouse.
+You wonder why the basement of this happy home would not only be called
+the 'Lower Reaches', but also capitalized for a moment - and then you see
+what lies below you.
+Looking almost like a medieval torture chamber, you see a room all in stone,
+a deep cavernous hole in the center of it.  What looks to be an operating
+table is set to one side with tables covered in instruments of dissection
+and bubbling vials close by.
+Do you really wish to descend into that room and visit with the 'good'
+Lighthouse Keeper?
+^
+
+beachQQ26 n:^cell_beachQQ27 s:^cell_beachQQ29 w:^cell_beachQQ30 e:^cell_beachQQ28 u:beachQQ25;
+lflags {  }
+Lighthouse Keeper's Operating Room^
+You see all and more of what you saw from the staircase.  Four cells lie
+in all cardinal directions, each with a whimpering human subject in it!
+Diagrams cover the walls, notes jotted on many of them, all dealing with
+one goal in mind - the creation of the perfect sexual companion!  It seems
+the 'good Lighthouse Keeper' may be a bit more than everyone believes him
+to be...
+^
+
+beachQQ27 s:^cell_beachQQ26n;
+lflags {  }
+Keeper's Playroom^
+This small ten by ten room once was a simple like the others which
+connect to the Operating Room, however because of the nature of the
+specimen which abides in this space, it has been spruced up just a
+bit.  A huge bed dominates the ENTIRE room, pillows strewn everywhere
+with lace and frills and all.
+^
+
+beachQQ28 w:^cell_beachQQ26e;
+lflags {  }
+Cell^
+This bleak cell hosts only an uncomfortable looking cot and small hole
+in one corner for necessary functions.
+^
+
+beachQQ29 n:^cell_beachQQ26s;
+lflags {  }
+Cell^
+This bleak cell hosts only an uncomfortable looking cot and small hole
+in one corner for necessary functions.
+^
+
+beachQQ30 e:^cell_beachQQ26w;
+lflags {  }
+Cell^
+This bleak cell hosts only an uncomfortable looking cot and small hole
+in one corner for necessary functions.
+^
+
+beachQQ31 w:beachQQ32 e:beachQQ16;
+Altitude = 5
+lflags { Outdoors }
+Rocky Path^
+   The path continues along the beach, over rocks and scree.
+Your options are east or west.
+^
+
+beachQQ32 s:beachQQ33 w:beachQQ35 e:beachQQ31;
+Altitude = 5
+lflags { Outdoors }
+Rocky Path^
+   You stand on a rocky beach path near the mouth of a cave.
+The entrance to the cave must be at least thirty feet high and
+just as wide.  It doesn't look as if anything could live there,
+as the water from the sea laps right inside the cave, but then,
+you never know.
+^
+
+beachQQ33 s:beachQQ34 n:beachQQ32;
+Altitude = 5
+lflags { Outdoors }
+Cave Entrance^
+   You realize that if you wish to explore the confines of this
+cave, you will have to get wet.  As you stand looking into the
+cold, wet, darkness of the cave, the idea of jumping into that
+water just for the sake of exploring does seem a bit nutty.
+^
+
+beachQQ34 n:beachQQ33;
+lflags { OnWater Outdoors }
+In the Kracken's Den^
+   Something seems wrong here, very wrong.  Something makes the
+water move and not just in a small spot, ALL of the water is
+moving from some kind of monstrous movement under the water.
+^
+
+beachQQ35 e:beachQQ32;
+Altitude = 5
+lflags { Outdoors }
+End of the Rocky Path^
+You have come to the end of the rocky path you've been following
+along the sea.  South of you is the start of the beach, west is a moss-
+covered rock face, and to the north the way is impassable.
+^
+
+beachQQ36  s:beachQQ10;
+lflags {  }
+End of the Path^
+   The path can go no farther.  The cliff face runs directly into the sea from
+here, no longer leaving the little bit of beach that you have been enjoying
+just west and south and here.  Strange that a path would end so abruptly at a
+cliff without leading anywhere...  Oh well!    
+^
+

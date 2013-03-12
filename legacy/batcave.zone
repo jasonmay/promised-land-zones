@@ -1,0 +1,803 @@
+/* Batcave zone--started by an unknown person back in 1993 or 4, finished by Sanyth 
+From: Daniel Connor Wood <dcw18@columbia.edu> (Sanyth)
+To: smlucas@geocities.com -- read thru and made a few corrections */
+
+
+
+
+
+%mobiles
+
+Name             = bat1
+PName            = "GatesVamBat"
+Location         = batcave2
+Mflags  { Flyer }
+Strength         = 60
+Damage           = 10
+Armor            = 0
+Aggression       = 98
+Speed            = 0
+Description      = "A bat is hanging out here, sensing fresh warm blood."
+End              = bat1
+
+Name             = bat2
+PName            = "AminVamBat"
+Sflags             { Female }
+Mflags  { Flyer }
+Location         = batcave2
+Strength         = 60
+Damage           = 10
+Armor            = 0
+Aggression       = 98
+Speed            = 0
+Description      = "A bat is hanging out here, sensing fresh warm blood."
+End              = bat2
+
+Name             = bat3
+PName            = "PolPotVamBat"
+Location         = batcave2
+Mflags  { Flyer }
+Strength         = 60
+Damage           = 10
+Armor            = 0
+Aggression       = 98
+Speed            = 0
+Description      = "A bat is hanging out here, sensing fresh warm blood."
+End              = bat3
+
+Name             = bat4
+PName            = "MorganVamBat"
+Mflags             { Flyer NoHeat }
+Sflags      { Female }
+Location         = batcave2
+Strength         = 60
+Damage           = 10
+Armor            = 0
+Aggression       = 58
+Speed            = 0
+Description      = "A bat is hanging out here, sensing fresh warm blood."
+End              = bat4
+
+Name             = bat5
+PName            = "StalinVamBat"
+Mflags          { NoHeat Flyer }
+Location         = batcave2
+Strength         = 60
+Damage           = 10
+Armor            = 0
+Aggression       = 48
+Speed            = 0
+Description      = "A Bat is hanging out here, sensing fresh warm blood."
+End              = bat5
+
+Name             = spirit
+PName            = "spirit"
+Pflags  	{ Nomagic }
+Mflags      { BarNorth Nocorpse Flyer }
+Sflags       { Nobody }
+Location         = batcave4
+Strength         = 340
+Damage           = 10
+Armor            = 0
+Aggression       = 15
+Speed            = 0
+Description      = "
+The spirit of the dead hero is here, hovering over his worldly body."
+Examine  = "
+He must have been tall and good looking when he was alive.  And
+rich.  Even his death shroud is embroidered with his initials:  BW."
+End              = spirit
+
+Name             = Werewolf
+Pname            = "The Werewolf"
+Location         = batcave11
+Mflags        { GrabHostile }
+Strength         = 300
+Damage   	     = 15
+Armor            = 0
+Aggression       = 70
+Speed            = 0
+Description      = "A werewolf seems to have spotted his next meal . . ."
+Examine  = "
+His wife's attempts to turn him vegetarian seem only to have made him 
+crave meat more strongly."
+End              = Werewolf
+
+Name             = Mrs_Werewolf
+PName            = "She-Werewolf"
+Location         = batcave10
+Sflags       { Female }
+Strength         = 90
+Damage   	     = 10
+Armor            = 0
+Aggression       = 5
+Speed            = 0
+Description      = "
+This She-Werewolf is engaged in the never-ending struggle against
+hair on the furniture."
+Examine  = "
+She looks up from polishing the fixtures and growls, 'You're tracking 
+bat dung all over my carpet!'"
+End              = Mrs_Werewolf
+
+Name             = Riddlemaster
+Location         = batcave16
+Mflags       { BarNorth }
+Pflags       { NoHassle NoMagic }
+Strength         = 300
+Damage   	     = 10
+Aggression       = 0
+Speed            = 0
+Description      = "The Master of Riddles stands firmly before the north exit."
+Examine  = "
+The relationship is simple:  give him what he's looking for, and he'll let 
+you continue on.  He is a nondescript man except for the fact that he glows 
+faintly.  His enigmatic expression is directed at you."
+End              = Riddlemaster
+
+Name             = Enkil
+PName            = "The Statue of Enkil"
+Location         = batcave20
+Mflags   { BarNorth }
+Eflags   { Fireball ImmVtouch }
+Sflags   { Vampire }
+Strength         = 800
+Damage   	 = 10
+Armor            = 5
+Aggression       = 0
+Speed            = 0
+Description      = "A white marble statue is standing here, fully dressed in clothes and jewels."
+Examine  = "
+This is no statue!  As you get in for a closer look you realize the 'statue' 
+is a living being.  He is a vampire so old and powerful his skin has since 
+turned white and is cold and hard as marble."
+End              = Enkil
+
+Name             = Akasha
+PName            = "Queen Akasha"
+Location         = batcave21
+Sflags   { Female Vampire }
+Eflags   { Fireball ImmVTouch }
+Strength         = 1000
+Damage           = 10
+Armor            = 5
+Aggression       = 0
+Speed            = 0
+Description      = "Akasha, Queen of the Damned, is finally free of Enkil.  She looks
+at you as at a fly."
+Examine  = "
+She is as old as Enkil, and perhaps even more powerful.  Her skin, like
+his, is white and hard as marble.  She exudes power.  You are quite
+relieved that she does not need to feed at the moment."
+End              = Akasha
+
+%objects
+
+Name             = hand
+Location         = IN_ROOM:batcave1
+Oflags           { Container Noget }
+BValue           = 10
+Size             = 7
+Weight           = 7
+Desc[0]          = "A bloody dismembered hand is laying here."
+Examine          = "
+Probably left by some unfortunate adventurer.  Now known as 'lefty'."
+End              = hand
+
+Name             = sign
+Location         = IN_ROOM:batcave1
+Oflags           { Noget }
+Desc[0]          = "A battered old sign sits on the floor here."
+Examine          = "
+The sign reads :
+	Batcave:
+	Beware, this area is not for the weak or lone adventurer.  Certain
+	death awaits the cowardly or ill-equipped.
+"
+End              = sign
+
+Name             = hero_body
+PName            = body
+AltName          = hero
+Location         = IN_ROOM:batcave4
+Oflags             { NoGet }
+Desc[0]          = "
+The body of a dead hero lays here.  It has been stripped of all its armor, 
+adornments and dignity."
+Examine          = "
+You immediately notice two things:  1) The hero died because his throat 
+was torn out.  2) There is no blood in the body."
+End              = hero_body
+
+Name             = sword_katana
+PName            = katana
+AltName          = sword
+Location         = IN_ROOM:batcave4
+Oflags             { Weapon Glowing }
+BValue           = 250
+Damage           = 17
+Size             = 90
+Weight           = 10
+Desc[0]          = "A magnificent katana rests here."
+Examine          = "The blade is so keen, merely its shine almost blinds you."
+End              = sword_katana
+
+Name             = katana_scabbard
+PName          = scabbard
+Location         = IN_ROOM:batcave4
+BValue           = 100
+Size             = 30
+Weight           = 10
+Desc[0]          = "A broken scabbard rests here."
+Examine          = "
+The lacquered katana scabbard is wrapped in fine silk, and gilt with gold.
+Though broken and useless as a scabbard, it is nonetheless beautiful
+if only for its craftsmanship.
+"
+End              = katana_scabbard
+
+Name             = batmobile
+PName            = batmobile
+AltName  	     = chariot
+Location         = IN_ROOM:batcave5
+Oflags           { NoGet Container }
+Size             = 30
+Desc[0]  = "The chariot looms large and imposing."
+Examine  = "
+You can see no way to attach horses to this vehicle, but the presence of 
+four wheels leads you to believe it must be a chariot of some sort.  
+There is room for two people and there's even a wheel to steer with
+(like a ship!).  In the back you find a small metal sign that reads,
+'Batmobile.'  It sure is large enough to contain lots of bats...
+"
+End              = batmobile
+
+Name         = utilitybelt
+PName        = utilitybelt
+AltName  	 = belt
+Location     = IN_CONTAINER:batmobile
+Oflags       { Container Wearable  }
+Armor         = 5
+BValue   	 = 15
+Size         = 12
+Weight       = 12
+Desc[0]      = "A utility belt lies here."
+Examine      = "
+Cylindrical containers attached to a woven belt whose construction 
+resembles a net.  You can't resist saying, 'Holey utility belt!'...
+"
+End          = utilitybelt
+
+Name         = paper
+PName        = paper
+AltName  	 = note
+Location     = IN_ROOM:batcave5
+BValue   	 = 2
+Size         = 1
+Weight       = 1
+Desc[0]  = "A paper has fallen from the slot of some sort of machine..."
+Examine  = "
+It reads:  'A man-wolf keeps Those Who Must Be Kept.  It is recommended 
+that' and here the paper is torn off.
+"
+End              = paper
+
+Name             = glue_jar
+Pname            = glue
+AltName          = jar
+Oflags  { Container }
+BValue           = 0
+Size             = 3
+Weight           = 1
+Location         = IN_CONTAINER:utilitybelt
+Desc[0]          = "There is a small jar of glue here."
+Examine          = "It says 'Elmer's' on the label.  It even smells like glue!"
+End              = glue_jar
+
+Name             = furcoat
+AltName          = coat
+Location         = IN_ROOM:limbo@limbo
+BValue           = 20
+Armor            = 10
+Size             = 15
+Weight           = 10
+Oflags           { Armor Wearable }
+Aflags           { Chest }
+Desc[0]          = "A very smelly fur coat is here."
+Examine          = "
+It looks only vaguely like a werewolf, but it smells an awful lot like  
+one.  The key word being awful."
+End              = furcoat
+
+Name             = fur
+AltName          = hair
+State            = 1
+MaxState         = 1
+BValue           = 3
+Size             = 3
+Weight           = 2
+Location         = IN_ROOM:batcave11
+Oflags             { Wearable Unlocatable GetFlips }
+Desc[0]         = "Some fur has been dropped in a pile here."
+Examine         = "
+The werewolf's shed fur.  It is quite smelly indeed.  In fact, it's what
+gives him his overpowering odor."
+End              = fur
+
+Name             = sofa
+AltName  	     = couch
+Location         = IN_ROOM:batcave10
+Oflags             { NoGet }
+Examine  = "
+One of the &+ycushions&* appears lumpier than the rest.  You wonder if the
+Werewolves ever lose loose change . . ."
+End              = sofa
+
+Name             = sofa_cushion
+PName            = cushion
+Location         = IN_ROOM:batcave10
+Oflags             { NoGet Container Unlocatable }
+Size             = 3
+Examine  	     = "You might even find something in here...."
+End              = sofa_cushion
+
+Name             = journal_page
+PName            = fragment
+AltName          = page
+Location         = IN_CONTAINER:sofa_cushion
+BValue           = 5
+Size             = 1
+Oflags   { GetFlips }
+State            = 1
+MaxState         = 1
+Desc[0]  = "Here lies the fragment of a journal page."
+Desc[1]  = "Under the cushion is a page fragment."
+Examine  = "
+A fragment of a journal page written in a barbaric hand, but legible:
+		I suspect it's my smell that comforts Akasha
+		and allows me to approach her.  That, or my
+		ability to bring her fresh victims so regularly.
+		Those two in tights, with the capes, particularly
+		pleased her...."
+End              = journal_page
+
+Name             = quiche
+State            = 1
+MaxState         = 1
+BValue           = 18
+Oflags   { Food GetFlips }
+Size             = 5
+Weight   	     = 2
+Location         = IN_ROOM:batcave10
+Desc[0]  	     = "A quiche sits here steaming."
+Desc[1]  	     = "A quiche is cooling on the table."
+Examine  	     = "Spinach quiche! Oh boy!"
+End              = quiche
+
+Name             = tofu_treat
+PName            = tofu
+AltName          = treat
+State            = 1
+MaxState         = 1
+Oflags   { Food GetFlips }
+BValue   	     = 5
+Size             = 2
+Weight   	     = 2
+Location         = IN_ROOM:batcave10
+Desc[0]  = "A tasteless tofu treat sits here."
+Desc[1]  = "A high-protein tofu treat sits on the table."
+Examine  = "It's tofu.  What do you expect?!"
+End              = tofu_treat
+
+Name             = book
+Oflags           { NoGet }
+Location         = IN_ROOM:batcave12
+Desc[0]  = "There is a book lying open here."
+Examine  = "
+It's an interesting tale by a Frenchman named Lestat.  The page that
+it is open to mentions two hideously powerful vampire rulers named Enkil
+and Akasha.  The book refers to them as Those Who Must Be Kept.  It seems 
+to be the author's opinion that Akasha really wants to be free of her 
+husband."
+End              = book
+
+Name             = solution
+AltName  	     = vial
+Location         = IN_ROOM:batcave5
+BValue   	     = 2
+Oflags           { Food }
+Desc[0]          = "
+A small glass vial containing a strange looking fluid is on the ground."
+Examine  = "It is some kind of solution.  And it glows faintly."
+End              = solution
+
+Name             = riddles
+Location         = IN_ROOM:batcave16
+Oflags             { NoGet }
+Examine  = "
+There are all manner of mind-boggling riddles written on these walls.  
+You spend some time pondering the more difficult ones before an 
+intriguing rhyme catches your eye:
+			The ways to solve are more than one,
+			It may be fine to use a pun.
+			Of ironic paths the gods are fond,
+			Be not afraid of double entendre."
+End              = riddles
+
+Name             = candles
+Location         = IN_ROOM:batcave21
+Oflags             { NoGet Lit }
+Examine  = "There are too many to count, in all shapes and sizes."
+End              = candles
+
+Name             = stalagmites
+Location         = IN_ROOM:batcave21
+Oflags             { NoGet }
+Examine  = "They are carved into figures of the Egyptian gods and goddesses."
+End              = stalagmites
+
+Name             = frescos
+Location         = IN_ROOM:batcave21
+Oflags             { NoGet }
+Examine  = "
+They display such fine craftsmanship that there is no doubt in your 
+mind that their creator is one of the greatest artists in history.
+On one you find the signature, 'Marius', and are surprised you've 
+never heard of him."
+End              = frescos
+
+Name             = mosaics
+Location         = IN_ROOM:batcave21
+Oflags             { NoGet }
+Examine  = "
+They are gorgeous.  Brilliantly elaborate.  One employs vibrantly
+colored tiles to depict the sun rising behind the point of the Great
+Pyramid at Giza.  Another, smaller pyramid in the background is still 
+under construction.  It all looks so real, you feel you could step 
+into it and watch the sun move across the sky."
+End              = mosaics
+
+Name             = ruby
+Location         = IN_ROOM:batcave21
+BValue   = 65
+Size             = 10
+Weight       = 10
+Desc[0]  = "A large ruby shines at you."
+Examine  = "It's a spectacular gemstone!"
+End              = ruby
+
+Name             = diamond
+Location         = IN_ROOM:batcave21
+BValue   = 65
+Size             = 10
+Weight   = 10
+Desc[0]  = "A sparkling diamond is waiting for you to grab it!"
+Examine  = "Dazzling.  And huge!"
+End              = diamond
+
+Name = gold_nugget
+PName             = gold
+AltName  = nugget
+Location         = IN_ROOM:batcave21
+BValue   = 65
+Size             = 10
+Weight   = 10
+Desc[0]  = "The shine of gold catches your eye."
+Examine  = "It's a rather hefty gold nugget."
+End              = gold_nugget
+
+Name             = flowers
+Location         = IN_ROOM:batcave20
+Oflags   { NoGet }
+Examine  = "
+There are so many varieties covering most of the floor, that you feel 
+like you're walking in a garden."
+End              = flowers
+
+Name = votive_candles
+PName             = votive
+AltName  = candles
+Location         = IN_ROOM:batcave20
+Oflags   { NoGet Lit }
+Examine  = "
+The votive candles are arranged haphazardly all over the floor, so be 
+careful where you step!"
+End              = votive_candles
+
+Name     =  oil_lamps
+PName    = lamps
+AltName  = lamp
+Location = IN_ROOM:batcave19
+Oflags   { NoGet Lit }
+Examine  = "They are polished oil lamps set on tall stands on either side of the doors."
+End      = oil_lamps
+
+Name             = runes
+Location         = IN_ROOM:batcave13
+Oflags   { NoGet }
+Examine  = "
+The runes are in some language so ancient, it no longer even resembles 
+any modern language you have ever seen.  The eerie blue glow tells you 
+magic is at work here."
+End              = runes
+
+Name             = bandedmail
+AltName  = armor
+Location         = IN_ROOM:batcave21
+Armor            = 65
+BValue   = 80
+Size             = 30
+Oflags       { Wearable Armor }
+Aflags   { Chest Back }
+Desc[0]  = "A suit of banded mail armor was abandoned here."
+Examine  = "
+The craftsmanship is fine, it has a good heft to it.  You think it would 
+even fit you."
+End              = bandedmail
+
+Name             = aa_doors
+PName            = doors
+Altname          = door
+Linked           = bb_doors
+State            = 1
+MaxState         = 1
+Location         = IN_ROOM:batcave19
+Oflags       { Openable NoGet }
+Desc[0]  = "The giant beam is propped against the wall and the doors are open."
+Desc[1]  = "The doors are closed and held in place by an enormous oak beam."
+Examine  = "
+The oak beam is huge.  It would take several men to lift it, possibly 
+levers and ropes too!"
+End              = aa_doors
+
+Name             = bb_doors
+PName            = doors
+Altname          = door
+Linked           = aa_doors
+State            = 1
+MaxState         = 1
+Location         = IN_ROOM:batcave20
+Oflags             { NoGet }
+Desc[0]           = "The doors are opened allowing passage."
+Desc[1]  		= "The doors are closed!  Someone has barred the door shut on you!"
+End               = bb_doors
+
+%locations
+
+batcave1 n:falls@valley e:batcave2 w:batcave5;
+lflags { Dark NoSummon }
+Bottom of the Stairs.^
+    A wave of dank air hits and you almost choke; it smells as though 
+something is rotting down here, and has been for quite a while.  Flashing 
+lights come from the room to the west, and a strange flapping sound comes 
+from the east.
+^
+
+batcave2 e:batcave3 w:batcave1;
+lflags { Dark NoSummon }
+Bat Cave^
+    You have entered a large cave.  High above you, through the dim light
+you make out what appears to be hundreds of small stalactites hanging from 
+the ceiling.  There is a strong musty smell in the air which is almost
+overpowering.  Belatedly you realize the smell comes from the animal
+droppings which cover the floor, and that what you thought were stalactites 
+are actually hundreds of vampire bats.
+^
+
+batcave3 s:batcave4 w:batcave2;
+lflags { Dark NoSummon }
+Dark Hall^
+    This hall is dark and musty.  The walls are made of solid soil and the
+floor is muddy and slippery.  A small light appears in the room south of 
+you and curious flapping sounds can be heard from the west.
+^
+
+batcave4 n:batcave3;
+lflags { NoSummon }
+Tomb of the Dead Hero^
+    This room for a change is musty and dark.  You could call this the
+dumping ground of this corpse, but something about his square jaw and 
+heroic look causes you to use more respect.  Therefore this is his tomb.  
+The walls are rough hewn and not at all natural.
+^
+
+batcave5 e:batcave1 w:batcave6;
+lflags { Dark NoSummon }
+The Batcave^
+    You are standing in an old laboratory that seems to have been abandoned 
+long ago.  A few bats cling to the ceiling, and their droppings cover much 
+of the equipment.  There are machines with blinking lights everywhere, along 
+with strange objects you cannot even begin to understand.  In the center of 
+the giant room is a black metal chariot of some sort.  Off to the west you 
+hear a low moaning sound, but all you hear is quiet to the east.
+^
+
+batcave6 n:batcave7 e:batcave5 w:batcave22;
+lflags { Dark NoSummon }
+Drafty Room^
+    Gee, it's dark and windy in here!
+^
+
+batcave7 n:batcave8 s:batcave6 w:batcave23 d:batcave25;
+lflags { Dark NoSummon }
+Drafty Room^
+    Gee, it's dark and windy in here!
+A thick layer of bat dung covers the floor.
+^
+
+batcave8 s:batcave7 w:batcave9;
+lflags { Dark NoSummon }
+Drafty Room^
+    Gee, it's dark and windy in here!
+A thick layer of bat dung covers the floor.
+^
+
+batcave9 n:batcave24 e:batcave8 s:batcave23;
+lflags { Dark NoSummon }
+Drafty Room^
+    Gee, it's dark and windy in here!
+A thick layer of bat dung covers the floor.
+^
+
+batcave10 n:batcave12 e:batcave11 w:batcave26;
+lflags { Dark NoSummon }
+Werewolf's Parlor^
+    It's actually the Werewolf's wife that keeps the house (or cave as it
+were), so the place is remarkably _unlike_ what you expected.  For one 
+thing, the furniture is gorgeous and perfectly matches the carpeting.  The 
+&+Csofa&* against one wall is tastefully accentuated by the mood uplighting in 
+the room.  It also appears that the Mrs. is attempting to turn Mr. Werewolf 
+into a vegetarian, for the table is spread with a huge meal decidedly 
+lacking in meat.
+^
+
+batcave11 w:batcave10;
+lflags { Dark NoSummon }
+Werewolf's Den^
+    Not the wood-paneled den you expected after the parlor, but since the
+parlor wasn't what you expected in the first place, this is truly the 
+werewolf den you _should_ have expected.  It is dark, smells like wet dog, 
+and every inch of the walls and floor are covered in &+yhair&*.  You can't 
+imagine how he must shed in the summer!
+^
+
+batcave12 n:batcave13 s:batcave10;
+lflags { Dark NoSummon }
+Empty Room^
+    What else do you need to know?  Well, okay, you're in another chamber
+of the cave.
+The floor tilts down gradually toward the north.
+^
+
+batcave13 e:batcave14 s:batcave12;
+lflags { NoMagic Peaceful Party NoSummon }
+Safe Space^
+    The roof of this cave is hidden high in darkness.  The floor has gone
+from soil to hard limestone, and the walls are carved with intricate &+Crunes
+that glow faintly blue.
+    You feel completely at ease here.  A sense of peacefulness is strongly
+washing over you, and you realize how long it has been since you've felt 
+safe.  The floor tilts upwards to the south, and there is a small, dark 
+opening in the eastern wall.
+^
+
+batcave14 e:batcave15 w:batcave13;
+lflags { Dark NoSummon OnePerson }
+Narrow Way Into Darkness^
+    This passageway is so narrow you have to turn sideways to squeeze
+through.  At several points you nearly get stuck between bottlenecks of
+limestone.  Finally, tearing your clothes, you make your way through the
+passage.
+^
+
+batcave15 n:batcave17 e:batcave16 w:batcave14;
+lflags { Dark NoSummon }
+Stalactite City^
+    You've reached a cavern so deep you can feel the air pressure in your
+eardrums.  Stalactites and stalagmites are so large and numerous here,
+their tips beginning to merge in most cases, that you feel you are in a
+room of columns.  Or a limestone forest.  To the north you catch a glimpse
+of a doorway obviously carved by hand.  The floor of the entryway is
+splattered with dried blood.  The openings to the east and west feel more
+inviting.
+^
+
+batcave16 n:batcave18 w:batcave15;
+lflags { CantSummon NoQuit Soundproof NoSummon }
+Hall of &+YRiddles^
+    This room is perfectly cylindrical; so perfectly smooth and
+proportional that it must have been carved out of the earth magically.
+The featureless wall that forms the circumference of the room is broken
+only by the entrances to the west and the north.  The ceiling is as flat
+as the floor, (and the two are exactly parallel, a feat you know to be
+otherwise impossible in nature), and perhaps five feet above your head.
+^
+
+batcave17 e:batcave18 s:batcave15;
+lflags { Death }
+Guillotine Room^
+    You notice the room spinning about you.  Ultimately you realize it is not
+the room, but your head which is rolling across the blood stained floor as
+your body collapses to the ground.
+^
+
+batcave18 n:batcave19 s:batcave16 w:batcave17;
+lflags { Dark NoSummon }
+Ramp to the Antechamber^
+    This is a long, widened passageway that slants downward to the north.
+It was obviously carved and smoothed by hand.  It resembles a hallway you
+might find in a castle above ground, but for the fact that it has been
+tunneled out of solid limestone.  Halfway down the ramp on the western
+wall is a narrow opening spattered with old, dried blood.  To the north,
+the ramp comes to an end at a doorway wide enough for two men.
+^
+
+batcave19 n:^aa_doors s:batcave18;
+lflags { NoSummon }
+The Antechamber^
+    This chamber possesses a feeling of overwhelming age.  It feels as
+though the steps, carved doorways, polished floor were all made the same
+time as the cavern itself formed.  It simply feels impossibly old, and
+though it is not a very large chamber, and is very plain, its unimaginable
+age makes you feel suddenly very insignificant.
+    The only objects are two burning oil &+Ylamps&* on either side of a pair of
+doors.
+^
+
+batcave20 n:batcave21 s:^bb_doors;
+lflags { NoSummon }
+Enkil's Chapel^
+    This is a large room gorgeously decorated.  Potted &+Cflowers&* of all hues
+are arranged on the floor. Brightly tiled mosaics comprise the walls of
+the chapel, depicting scenes of ancient Egypt. The soft flicker of &+Yvotive
+candles and the perfume of a thousand bouquets almost mask the sense of
+overpowering age this room exudes.  If it's possible, you feel this
+chamber is even more ancient than the antechamber.
+^
+
+batcave21 s:batcave20;
+lflags { NoSummon }
+Temple of Akasha^
+    You've reached the deepest heart of the cavern's network.  You must be
+hundreds of meters beneath the surface.  And yet, this is surely one of the 
+most beautiful rooms you've seen in a long long time.  Hundreds of &+Ycandles 
+burn quietly.  Potted plants hang from stalactites carved to resemble figures.  
+Scattered &+ystalagmites&* likewise have been carved to resemble all manner of 
+fantastical creatures:  most look like men and women with the heads of 
+animals; all wear distinctly Egyptian garb.  &+CFrescos&* cover parts of the walls, 
+while magnificent &+Mmosaics&* brilliantly portray ancient scenes of Egyptian life.
+^
+
+batcave22;
+lflags { Death }
+Punjee Trap^
+    Its only after you notice the many poison punjee sticks protruding from
+your chest, that you realize you have surely taken a wrong turn.  You won't 
+make this mistake again.
+^
+
+batcave23 n:batcave9 e:batcave7 s:batcave22;
+lflags { Dark NoSummon }
+Drafty Room^
+    Gee, it's dark and windy in here!
+A thick layer of bat dung covers the floor.
+^
+
+batcave24 s:batcave9;
+lflags { Dark NoSummon }
+Drafty Room^
+    Gee, it's dark and windy in here!
+A thick layer of bat dung covers the floor.
+^
+
+batcave25 n:batcave26 u:batcave7;
+lflags { Dark }
+Drafty Room^
+    Gee, it's dark and windy in here!
+^
+
+batcave26 e:batcave10 s:batcave25;
+lflags { Dark }
+Drafty Room^
+    Gee, it's dark and windy in here!
+^

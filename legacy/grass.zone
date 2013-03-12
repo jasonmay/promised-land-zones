@@ -1,0 +1,1783 @@
+
+
+
+%mobiles
+
+Name = mob11200
+Pname = "a velvet ant swarm"
+Location = grass00
+SFlags  {NoBody }
+PFlags  {}
+MFlags  {Venom  }
+Strength = 151
+Damage = 12
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small, furry swarm of ants comes crawling out of the grasses."
+Examine = "
+They make no noise whatsoever, they simply crawl toward you - slowly, with a
+strong purpose...  To infect you with their posion!    
+"
+End = mob11200
+
+Name = mob11200_1
+Pname = "a velvet ant swarm"
+Location = grass95
+SFlags  {Nobody}
+PFlags  {}
+MFlags  {Venom}
+Strength = 151
+Damage = 12
+Armor = 8
+Aggression = 10
+Speed = 2
+Wimpy = 0
+Description = "A small, furry swarm of ants comes crawling out of the grasses."
+Examine = "
+They make no noise whatsoever, they simply crawl toward you - slowly, with a
+strong purpose...  To infect you with their posion!    
+"
+End = mob11200_1
+
+Name = mob11200_2
+Pname = "a velvet ant swarm"
+Location = grass65
+SFlags  {NoBody }
+PFlags  {}
+MFlags  {Venom}
+Strength = 151
+Damage = 12
+Armor = 8
+Aggression = 10
+Speed = 2
+Wimpy = 0
+Description = "A small, furry swarm of ants comes crawling out of the grasses."
+Examine = "
+They make no noise whatsoever, they simply crawl toward you - slowly, with a
+strong purpose...  To infect you with their posion!    
+"
+End = mob11200_2
+
+Name = mob11200_3
+Pname = "a velvet ant swarm"
+Location = grass30
+SFlags  {NoBody}
+PFlags  {}
+MFlags  {Venom}
+Strength = 151
+Damage = 12
+Armor = 8
+Aggression = 10
+Speed = 2
+Wimpy = 0
+Description = "A small, furry swarm of ants comes crawling out of the grasses."
+Examine = "
+They make no noise whatsoever, they simply crawl toward you - slowly, with a
+strong purpose...  To infect you with their posion!    
+"
+End = mob11200_3
+
+Name = mob11201
+Pname = "a lone grasshopper"
+Location = grass31
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 16
+Damage = 2
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A lone grasshopper jumps from grass stalk to grass stalk."
+Examine = "
+Its a grasshopper... what more do you want to know?
+"
+End = mob11201
+
+Name = mob11201_1
+Pname = "a lone grasshopper"
+Location = grass96
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 16
+Damage = 2
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A lone grasshopper jumps from grass stalk to grass stalk."
+Examine = "
+Its a grasshopper... what more do you want to know?
+"
+End = mob11201_1
+
+Name = mob11201_2
+Pname = "a lone grasshopper"
+Location = grass66
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 16
+Damage = 2
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A lone grasshopper jumps from grass stalk to grass stalk."
+Examine = "
+Its a grasshopper... what more do you want to know?
+"
+End = mob11201_2
+
+Name = mob11201_3
+Pname = "a lone grasshopper"
+Location = grass01
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 16
+Damage = 2
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A lone grasshopper jumps from grass stalk to grass stalk."
+Examine = "
+Its a grasshopper... what more do you want to know?
+"
+End = mob11201_3
+
+Name = mob11202
+Pname = "a locust swarm"
+Location = grass01
+SFlags  {}
+PFlags  {}
+MFlags  { flyer }
+Strength = 71
+Damage = 7
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A locust swarm buzzes in around you, annoyingly bothersome."
+Examine = "
+They buzz and zip around about your head, making it difficult to travel safely
+through the thick grasses.    
+"
+End = mob11202
+
+Name = mob11203
+Pname = "a spotted lion"
+Location = grass97
+SFlags  {Female}
+PFlags  {}
+MFlags  {}
+Strength = 401
+Damage = 20
+Armor = 12
+Aggression = 10
+Speed = 2
+Wimpy = 0
+Description = "A spotted lion prowls the grasslands, looking for a good morsel or two."
+Examine = "
+She swings her heavy head your way - maybe you are that morsel she has been
+looking for.
+"
+End = mob11203
+
+Name = mob11203_1
+Pname = "a spotted lion"
+Location = grass67
+SFlags  {Female}
+PFlags  {}
+MFlags  {}
+Strength = 401
+Damage = 20
+Armor = 12
+Aggression = 10
+Speed = 2
+Wimpy = 0
+Description = "A spotted lion prowls the grasslands, looking for a good morsel or two."
+Examine = "
+She swings her heavy head your way - maybe you are that morsel she has been
+looking for.
+"
+End = mob11203_1
+
+Name = mob11203_2
+Pname = "a spotted lion"
+Location = grass32
+SFlags  {Female}
+PFlags  {}
+MFlags  {}
+Strength = 401
+Damage = 20
+Armor = 12
+Aggression = 10
+Speed = 2
+Wimpy = 0
+Description = "A spotted lion prowls the grasslands, looking for a good morsel or two."
+Examine = "
+She swings her heavy head your way - maybe you are that morsel she has been
+looking for.
+"
+End = mob11203_2
+
+Name = mob11203_3
+Pname = "a spotted lion"
+Location = grass02
+SFlags  {Female}
+PFlags  {}
+MFlags  {}
+Strength = 401
+Damage = 20
+Armor = 12
+Aggression = 10
+Speed = 2
+Wimpy = 0
+Description = "A spotted lion prowls the grasslands, looking for a good morsel or two."
+Examine = "
+She swings her heavy head your way - maybe you are that morsel she has been
+looking for.
+"
+End = mob11203_3
+
+Name = mob11204
+Pname = "a larind"
+Location = grass07
+SFlags  {}
+PFlags  {}
+Strength = 901
+Damage = 27
+Armor = 16
+Aggression = 10
+Speed = 2
+Wimpy = 0
+Description = "A large animal resembling a lion spies you and begins heading your way."
+Examine = "
+A strange shimmering in the air around it makes you want to blink repeatedly to
+try and judge whether its your eyes or maybe the air really is distorted by the
+presence of the larind.    
+"
+End = mob11204
+
+Name = mob11204_1
+Pname = "a larind"
+Location = grass03
+SFlags  {}
+PFlags  {}
+Strength = 901
+Damage = 27
+Armor = 16
+Aggression = 10
+Speed = 2
+Wimpy = 0
+Description = "A large animal resembling a lion spies you and begins heading your way."
+Examine = "
+A strange shimmering in the air around it makes you want to blink repeatedly to
+try and judge whether its your eyes or maybe the air really is distorted by the
+presence of the larind.    
+"
+End = mob11204_1
+
+Name = mob11205
+Pname = "a prairie dog"
+Location = grass71
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 51
+Damage = 6
+Armor = 1
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A small prairie dog scuttles through the deep grass."
+Examine = "
+It wiggles its nose at you and runs off.
+"
+End = mob11205
+
+Name = mob11205_1
+Pname = "a prairie dog"
+Location = grass69
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 51
+Damage = 6
+Armor = 1
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A small prairie dog scuttles through the deep grass."
+Examine = "
+It wiggles its nose at you and runs off.
+"
+End = mob11205_1
+
+Name = mob11205_2
+Pname = "a prairie dog"
+Location = grass43
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 51
+Damage = 6
+Armor = 1
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A small prairie dog scuttles through the deep grass."
+Examine = "
+It wiggles its nose at you and runs off.
+"
+End = mob11205_2
+
+Name = mob11206
+Pname = "a small sprite"
+Location = grass71
+SFlags  {}
+PFlags  {}
+MFlags  { Flyer }
+Strength = 51
+Damage = 9
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small sprite flutters about the grass, leaping silently from stalk to stalk."
+Examine = "
+It looks so kind, so small, so harmless.  Probably is the very best thing to
+simply put it out of its misery.    
+"
+End = mob11206
+
+Name = mob11206_1
+Pname = "a small sprite"
+Location = grass98
+SFlags  {}
+PFlags  {}
+MFlags  { Flyer }
+Strength = 51
+Damage = 9
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small sprite flutters about the grass, leaping silently from stalk to stalk."
+Examine = "
+It looks so kind, so small, so harmless.  Probably is the very best thing to
+simply put it out of its misery.    
+"
+End = mob11206_1
+
+Name = mob11206_2
+Pname = "a small sprite"
+Location = grass99
+SFlags  {}
+PFlags  {}
+MFlags  { Flyer }
+Strength = 51
+Damage = 9
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small sprite flutters about the grass, leaping silently from stalk to stalk."
+Examine = "
+It looks so kind, so small, so harmless.  Probably is the very best thing to
+simply put it out of its misery.    
+"
+End = mob11206_2
+
+Name = mob11206_3
+Pname = "a small sprite"
+Location = grass73
+SFlags  {}
+PFlags  {}
+MFlags  { Flyer }
+Strength = 51
+Damage = 9
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small sprite flutters about the grass, leaping silently from stalk to stalk."
+Examine = "
+It looks so kind, so small, so harmless.  Probably is the very best thing to
+simply put it out of its misery.    
+"
+End = mob11206_3
+
+Name = mob11207
+Pname = "a giant stag"
+Location = grass27
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 201
+Damage = 20
+Armor = 12
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A giant stag leaps through the grass, bounding far away in flurry of movement."
+Examine = "
+All you catch is the glimpse of a white tail bounces up and down and the stag
+is gone - vanished.    
+"
+End = mob11207
+
+Name = mob11207_1
+Pname = "a giant stag"
+Location = grass38
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 201
+Damage = 20
+Armor = 12
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A giant stag leaps through the grass, bounding far away in flurry of movement."
+Examine = "
+All you catch is the glimpse of a white tail bounces up and down and the stag
+is gone - vanished.    
+"
+End = mob11207_1
+
+Name = mob11207_2
+Pname = "a giant stag"
+Location = grass44
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 201
+Damage = 20
+Armor = 12
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A giant stag leaps through the grass, bounding far away in flurry of movement."
+Examine = "
+All you catch is the glimpse of a white tail bounces up and down and the stag
+is gone - vanished.    
+"
+End = mob11207_2
+
+Name = mob11207_3
+Pname = "a giant stag"
+Location = grass31
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 201
+Damage = 20
+Armor = 12
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A giant stag leaps through the grass, bounding far away in flurry of movement."
+Examine = "
+All you catch is the glimpse of a white tail bounces up and down and the stag
+is gone - vanished.    
+"
+End = mob11207_3
+
+Name = mob11208
+Pname = "a prairie hunter"
+Location = grass69
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 201
+Damage = 24
+Armor = 14
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A prairie hunter walks past with a steady, strong gait."
+Examine = "
+His stride is true and unfaltering, having spent many years in the fields of
+Sundhaven, hunting and trapping for a living.    
+"
+End = mob11208
+
+Name = mob11208_1
+Pname = "a prairie hunter"
+Location = grass63
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 201
+Damage = 24
+Armor = 14
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A prairie hunter walks past with a steady, strong gait."
+Examine = "
+His stride is true and unfaltering, having spent many years in the fields of
+Sundhaven, hunting and trapping for a living.    
+"
+End = mob11208_1
+
+Name = mob11209
+Pname = "a lone coyote"
+Location = grass27
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 201
+Damage = 15
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A lone coyote prowls the area, looking for a scrap of dinner."
+Examine = "
+It is as mangy as it is skinny, sniffing the grass with its nose to the ground,
+eyes keen and sharp.    
+"
+End = mob11209
+
+Name = mob11209_1
+Pname = "a lone coyote"
+Location = grass14
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 201
+Damage = 15
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A lone coyote prowls the area, looking for a scrap of dinner."
+Examine = "
+It is as mangy as it is skinny, sniffing the grass with its nose to the ground,
+eyes keen and sharp.    
+"
+End = mob11209_1
+
+Name = mob11210
+Pname = "a plainsman"
+Location = grass13
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 401
+Damage = 25
+Armor = 16
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A plainsman trudges past, lugging behind him all of his worldly goods."
+Examine = "
+He certainly notices your presence, being a man of the plains and a hunter as
+well.  He does, however, acknowledge you in the slightest and simply continues
+his trek.    
+"
+End = mob11210
+
+Name = mob11210_1
+Pname = "a plainsman"
+Location = grass26
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 401
+Damage = 25
+Armor = 16
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A plainsman trudges past, lugging behind him all of his worldly goods."
+Examine = "
+He certainly notices your presence, being a man of the plains and a hunter as
+well.  He does, however, acknowledge you in the slightest and simply continues
+his trek.    
+"
+End = mob11210_1
+
+Name = mob11211
+Pname = "a buffalo"
+Location = grass47
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 252
+Damage = 16
+Armor = 16
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A buffalo nearly runs you down as it rumbles past."
+Examine = "
+The herd as whole would not take much notice of you save for an obsturction in
+their path - be careful you do not get run down.    
+"
+End = mob11211
+
+Name = mob11211_1
+Pname = "a buffalo"
+Location = grass21
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 252
+Damage = 16
+Armor = 16
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A buffalo nearly runs you down as it rumbles past."
+Examine = "
+The herd as whole would not take much notice of you save for an obsturction in
+their path - be careful you do not get run down.    
+"
+End = mob11211_1
+
+Name = mob11212
+Pname = "a roving ranger"
+Location = grass41
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 301
+Damage = 24
+Armor = 14
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A roving ranger scouts the terrain."
+Examine = "
+He is deeply engrossed in his scouring of the land, scanning over every speck
+of grassy ground that he passes.    
+"
+End = mob11212
+
+Name = mob11212_1
+Pname = "a roving ranger"
+Location = grass46
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 301
+Damage = 24
+Armor = 14
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A roving ranger scouts the terrain."
+Examine = "
+He is deeply engrossed in his scouring of the land, scanning over every speck
+of grassy ground that he passes.    
+"
+End = mob11212_1
+
+Name = mob11212_2
+Pname = "a roving ranger"
+Location = grass35
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 301
+Damage = 24
+Armor = 14
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A roving ranger scouts the terrain."
+Examine = "
+He is deeply engrossed in his scouring of the land, scanning over every speck
+of grassy ground that he passes.    
+"
+End = mob11212_2
+
+Name = mob11213
+Pname = "a druid hermit"
+Location = grass49
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 601
+Damage = 30
+Armor = 18
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A druid hermit rests on his back, arms folded behind his head."
+Examine = "
+He seems so relaxed, so peaceful in his life.  Kill him.    
+"
+End = mob11213
+
+%objects
+
+Name = sign
+Location = IN_ROOM:grass100
+Oflags { Noget }
+Desc[0] = "There is a sign planted to the side of the road."
+Examine = "Welcome to the Yllythad port city of Sundhaven.
+
+Grasslands of Dibrova by Kaan, a ZGEN convert by the Crimefighter."
+End = sign
+
+%locations
+
+grass00 s:grass10 e:grass01;
+lflags { Outdoors }
+In a Large Open Field^
+You stand in a huge field of tall, wind-blown grass. The grass grows wild
+all around you, the tops of the stalks easily at waist level, many times
+even higher than that. Northward is the border of a light forest, south it
+looks almost as if the land drops away, maybe there is a cliff or steep
+valley of some sort.
+^
+
+grass01 s:grass11 w:grass00 e:grass02;
+lflags { Outdoors }
+In a Wide Open Area of Grasslands^
+Tall grass surrounds you on every side, this huge field within which you
+stand opening out for quite some distance. On the east and west borders of
+the field are thick forests, north is a somewhat lighter area of forest and
+south there lies a great deal of open, empty space.
+^
+
+grass02 s:grass12 w:grass01 e:grass03;
+lflags { Outdoors }
+Grassland Expanse^
+All around you lies the billowing, waving brown grasses of this grassland
+area of Sundhaven. The wind blows in an almost constant flow, just enough to
+make it pleasant to feel upon the face. You hear a faint rustling in the
+grasses off to the west.
+^
+
+grass03 s:grass13 w:grass02 e:grass04;
+lflags { Outdoors }
+Field of Grass^
+You stand amid tall grasses which stretch for some distance in all directions.
+The grass grows tall and brown, not a dead or ugly brown, simply a light
+windblown color which is actually quite pleasing to the eye. To the north is 
+the edge of a light forested area, south is the edge of the world, or so it 
+appears as all that can be seen from here is a wide, open expanse of air.
+^
+
+grass04 s:grass14 w:grass03 e:grass100;
+lflags { Outdoors }
+Grasslands^
+The grasses blow in the wind about you, the sound of it moving against itself 
+in the wind almost akin to someone rubbing their dry hands together in a 
+constant, ryhtymic fashion. This place seems almost too peaceful as it is now, 
+with no sound but that of the wind and nothing but open area all about you.
+^
+
+grass05 s:grass15 e:grass06 w:grass100;
+lflags { Outdoors }
+In a Large Field of Grass^
+Tall grasses grow in abundance, hiding the ground beneath your feet, making it 
+hard to see whether there is open land ahead, a hole, whatever. It also would 
+be quite a good cover for any would-be attackers should any decide to make 
+themselves known to you for reasons of ill-faith. It is probably a very good 
+idea to keep an open eye out for any predators, be they animal or humanoid.
+^
+
+grass06 s:grass16 w:grass05 e:grass07;
+lflags { Outdoors }
+A Huge Field of Tall Grass^
+The grasslands spread out far and wide, all around you. A steady wind blows
+across this open area, causing the grasses to appear as brownish waves at 
+times, forever being carried along to unknown destinations. The grasses 
+certainly are a beautiful sight, however they also provide for a deadly 
+opportunity for all manner of hunting predators - care in where you step is 
+well advised.
+^
+
+grass07 s:grass17 w:grass06 e:grass08;
+lflags { Outdoors }
+Among the Grasses^
+The grasses of this area seem to go on forever and ever, their size daunting 
+even when standing in the midst of the place - especially when standing in 
+the midst of the place.  The tall grasses gently wave in the wind, the wind 
+that blows them seeming to go on and on, never ending.
+^
+
+grass08 s:grass18 w:grass07 e:grass09;
+lflags { Outdoors }
+In a Large Open Field^
+You stand in a huge field of tall, wind-blown grass. The grass grows wild
+all around you, the tops of the stalks easily at waist level, many times
+even higher than that. Northward is the border of a light forest, south it
+looks almost as if the land drops away, maybe there is a cliff or steep
+valley of some sort.
+^
+
+grass09 s:grass19 w:grass08;
+lflags { Outdoors }
+In a Wide Open Area of Grasslands^
+Tall grass surrounds you on every side, this huge field within which you
+stand opening out for quite some distance. On the east and west borders of
+the field are thick forests, north is a somewhat lighter area of forest and
+south there lies a great deal of open, empty space.
+^
+
+grass10 n:grass00 s:grass20 e:grass11;
+lflags { Outdoors }
+Grassland Expanse^
+All around you lies the billowing, waving brown grasses of this grassland area
+of Sundhaven. The wind blows in an almost constant flow, just enough to make it
+pleasant to feel upon the face. You hear a faint rustling in the grasses off
+to the west.
+^
+
+grass11 n:grass01 s:grass21 w:grass10 e:grass12;
+lflags { Outdoors }
+Field of Grass^
+You stand amid tall grasses which stretch for some distance in all directions.
+The grass grows tall and brown, not a dead or ugly brown, simply a light
+windblown color which is actually quite pleasing to the eye. To the north is
+the edge of a light forested area, south is the edge of the world, or so it
+appears as all that can be seen from here is a wide, open expanse of air.
+^
+
+grass12 n:grass02 s:grass22 w:grass11 e:grass13;
+lflags { Outdoors }
+Grasslands^
+The grasses blow in the wind about you, the sound of it moving against itself
+in the wind almost akin to someone rubbing their dry hands together in a
+constant, ryhtymic fashion. This place seems almost too peaceful as it is now,
+with no sound but that of the wind and nothing but open area all about you.
+^
+
+grass13 n:grass03 s:grass23 w:grass12 e:grass14;
+lflags { Outdoors }
+In a Large Field of Grass^
+Tall grasses grow in abundance, hiding the ground beneath your feet, making
+it hard to see whether there is open land ahead, a hole, whatever. It also
+would be quite a good cover for any would-be attackers should any decide to
+make themselves known to you for reasons of ill-faith. It is probably a very
+good idea to keep an open eye out for any predators, be they animal or
+humanoid.
+^
+
+grass14 n:grass04 s:grass24 w:grass13 e:grass101;
+lflags { Outdoors }
+A Huge Field of Tall Grass^
+The grasslands spread out far and wide, all around you. A steady wind blows
+across this open area, causing the grasses to appear as brownish waves at
+times, forever being carried along to unknown destinations. The grasses
+certainly are a beautiful sight, however they also provide for a deadly
+opportunity for all manner of hunting predators - care in where you step is
+well advised.
+^
+
+grass15 n:grass05 s:grass25 e:grass16 w:grass101;
+lflags { Outdoors }
+Among the Grasses^
+The grasses of this area seem to go on forever and ever, their size daunting
+even when standing in the midst of the place - especially when standing in
+the midst of the place.  The tall grasses gently wave in the wind, the wind
+that blows them seeming to go on and on, never ending.
+^
+
+grass16 n:grass06 s:grass26 w:grass15 e:grass17;
+lflags { Outdoors }
+In a Large Open Field^
+You stand in a huge field of tall, wind-blown grass. The grass grows wild
+all around you, the tops of the stalks easily at waist level, many times
+even higher than that. Northward is the border of a light forest, south it
+looks almost as if the land drops away, maybe there is a cliff or steep
+valley of some sort.
+^
+
+grass17 n:grass07 s:grass27 w:grass16 e:grass18;
+lflags { Outdoors }
+In a Wide Open Area of Grasslands^
+Tall grass surrounds you on every side, this huge field within which you
+stand opening out for quite some distance. On the east and west borders of
+the field are thick forests, north is a somewhat lighter area of forest and
+south there lies a great deal of open, empty space.
+^
+
+grass18 n:grass08 s:grass28 w:grass17 e:grass19;
+lflags { Outdoors }
+Grassland Expanse^
+All around you lies the billowing, waving brown grasses of this grassland
+area of Sundhaven. The wind blows in an almost constant flow, just enough to
+make it pleasant to feel upon the face. You hear a faint rustling in the
+grasses off to the west.
+^
+
+grass19 n:grass09 s:grass29 w:grass18;
+lflags { Outdoors }
+Field of Grass^
+You stand amid tall grasses which stretch for some distance in all directions.
+The grass grows tall and brown, not a dead or ugly brown, simply a light
+windblown color which is actually quite pleasing to the eye. To the north is
+the edge of a light forested area, south is the edge of the world, or so it
+appears as all that can be seen from here is a wide, open expanse of air.
+^
+
+grass20 n:grass10 s:grass30 e:grass21;
+lflags { Outdoors }
+Grasslands^
+The grasses blow in the wind about you, the sound of it moving against itself
+in the wind almost akin to someone rubbing their dry hands together in a
+constant, ryhtymic fashion. This place seems almost too peaceful as it is now,
+with no sound but that of the wind and nothing but open area all about you.
+^
+
+grass21 n:grass11 s:grass31 w:grass20 e:grass22;
+lflags { Outdoors }
+In a Large Field of Grass^
+Tall grasses grow in abundance, hiding the ground beneath your feet, making it
+hard to see whether there is open land ahead, a hole, whatever. It also would
+be quite a good cover for any would-be attackers should any decide to make
+themselves known to you for reasons of ill-faith. It is probably a very good
+idea to keep an open eye out for any predators, be they animal or humanoid.
+^
+
+grass22 n:grass12 s:grass32 w:grass21 e:grass23;
+lflags { Outdoors }
+A Huge Field of Tall Grass^
+The grasslands spread out far and wide, all around you. A steady wind blows
+across this open area, causing the grasses to appear as brownish waves at
+times, forever being carried along to unknown destinations. The grasses
+certainly are a beautiful sight, however they also provide for a deadly
+opportunity for all manner of hunting predators - care in where you step is
+well advised.
+^
+
+grass23 n:grass13 s:grass33 w:grass22 e:grass24;
+lflags { Outdoors }
+Among the Grasses^
+The grasses of this area seem to go on forever and ever, their size daunting
+even when standing in the midst of the place - especially when standing in
+the midst of the place.  The tall grasses gently wave in the wind, the wind
+that blows them seeming to go on and on, never ending.
+^
+
+grass24 n:grass14 s:grass34 w:grass23 e:grass102;
+lflags { Outdoors }
+In a Large Open Field^
+You stand in a huge field of tall, wind-blown grass. The grass grows wild
+all around you, the tops of the stalks easily at waist level, many times
+even higher than that. Northward is the border of a light forest, south it
+looks almost as if the land drops away, maybe there is a cliff or steep
+valley of some sort.
+^
+
+grass25 n:grass15 s:grass35 e:grass26 w:grass102;
+lflags { Outdoors }
+In a Wide Open Area of Grasslands^
+Tall grass surrounds you on every side, this huge field within which you
+stand opening out for quite some distance. On the east and west borders of
+the field are thick forests, north is a somewhat lighter area of forest and
+south there lies a great deal of open, empty space.
+^
+
+grass26 n:grass16 s:grass36 w:grass25 e:grass27;
+lflags { Outdoors }
+Grassland Expanse^
+All around you lies the billowing, waving brown grasses of this grassland
+area of Sundhaven. The wind blows in an almost constant flow, just enough to
+make it pleasant to feel upon the face. You hear a faint rustling in the
+grasses off to the west.
+^
+
+grass27 n:grass17 s:grass37 w:grass26 e:grass28;
+lflags { Outdoors }
+Field of Grass^
+You stand amid tall grasses which stretch for some distance in all directions.
+The grass grows tall and brown, not a dead or ugly brown, simply a light
+windblown color which is actually quite pleasing to the eye. To the north is
+the edge of a light forested area, south is the edge of the world, or so it
+appears as all that can be seen from here is a wide, open expanse of air.
+^
+
+grass28 n:grass18 s:grass38 w:grass27 e:grass29;
+lflags { Outdoors }
+Grasslands^
+The grasses blow in the wind about you, the sound of it moving against itself
+in the wind almost akin to someone rubbing their dry hands together in a
+constant, ryhtymic fashion. This place seems almost too peaceful as it is now,
+with no sound but that of the wind and nothing but open area all about you.
+^
+
+grass29 n:grass19 s:grass39 w:grass28;
+lflags { Outdoors }
+In a Large Field of Grass^
+Tall grasses grow in abundance, hiding the ground beneath your feet, making it
+hard to see whether there is open land ahead, a hole, whatever. It also would
+be quite a good cover for any would-be attackers should any decide to make
+themselves known to you for reasons of ill-faith. It is probably a very good
+idea to keep an open eye out for any predators, be they animal or humanoid.
+^
+
+grass30 n:grass20 s:grass40 e:grass31;
+lflags { Outdoors }
+A Huge Field of Tall Grass^
+The grasslands spread out far and wide, all around you. A steady wind blows
+across this open area, causing the grasses to appear as brownish waves at
+times, forever being carried along to unknown destinations. The grasses
+certainly are a beautiful sight, however they also provide for a deadly
+opportunity for all manner of hunting predators - care in where you step is
+well advised.
+^
+
+grass31 n:grass21 s:grass41 w:grass30 e:grass32;
+lflags { Outdoors }
+Among the Grasses^
+The grasses of this area seem to go on forever and ever, their size daunting
+even when standing in the midst of the place - especially when standing in the
+midst of the place.  The tall grasses gently wave in the wind, the wind that
+blows them seeming to go on and on, never ending.
+^
+
+grass32 n:grass22 s:grass42 w:grass31 e:grass33;
+lflags { Outdoors }
+In a Large Open Field^
+You stand in a huge field of tall, wind-blown grass. The grass grows wild
+all around you, the tops of the stalks easily at waist level, many times
+even higher than that. Northward is the border of a light forest, south it
+looks almost as if the land drops away, maybe there is a cliff or steep
+valley of some sort.
+^
+
+grass33 n:grass23 s:grass43 w:grass32 e:grass34;
+lflags { Outdoors }
+In a Wide Open Area of Grasslands^
+Tall grass surrounds you on every side, this huge field within which you
+stand opening out for quite some distance. On the east and west borders of
+the field are thick forests, north is a somewhat lighter area of forest and
+south there lies a great deal of open, empty space.
+^
+
+grass34 n:grass24 s:grass44 w:grass33 e:grass103;
+lflags { Outdoors }
+Grassland Expanse^
+All around you lies the billowing, waving brown grasses of this grassland area
+of Sundhaven. The wind blows in an almost constant flow, just enough to make it
+pleasant to feel upon the face. You hear a faint rustling in the grasses off
+to the west.
+^
+
+grass35 n:grass25 s:grass45 w:grass103 e:grass36;
+lflags { Outdoors }
+Field of Grass^
+You stand amid tall grasses which stretch for some distance in all directions.
+The grass grows tall and brown, not a dead or ugly brown, simply a light
+windblown color which is actually quite pleasing to the eye. To the north is
+the edge of a light forested area, south is the edge of the world, or so it
+appears as all that can be seen from here is a wide, open expanse of air.
+^
+
+grass36 n:grass26 s:grass46 w:grass35 e:grass37;
+lflags { Outdoors }
+Grasslands^
+The grasses blow in the wind about you, the sound of it moving against itself
+in the wind almost akin to someone rubbing their dry hands together in a
+constant, ryhtymic fashion. This place seems almost too peaceful as it is now,
+with no sound but that of the wind and nothing but open area all about you.
+^
+
+grass37 n:grass27 s:grass47 w:grass36 e:grass38;
+lflags { Outdoors }
+In a Large Field of Grass^
+Tall grasses grow in abundance, hiding the ground beneath your feet, making it
+hard to see whether there is open land ahead, a hole, whatever. It also would
+be quite a good cover for any would-be attackers should any decide to make
+themselves known to you for reasons of ill-faith. It is probably a very good
+idea to keep an open eye out for any predators, be they animal or humanoid.
+^
+
+grass38 n:grass28 s:grass48 w:grass37 e:grass39;
+lflags { Outdoors }
+A Huge Field of Tall Grass^
+The grasslands spread out far and wide, all around you. A steady wind blows
+across this open area, causing the grasses to appear as brownish waves at
+times, forever being carried along to unknown destinations.  The grasses
+certainly are a beautiful sight, however they also provide for a deadly
+opportunity for all manner of hunting predators - care in where you step is
+well advised.
+^
+
+grass39 n:grass29 s:grass49 w:grass38;
+lflags { Outdoors }
+Among the Grasses^
+The grasses of this area seem to go on forever and ever, their size daunting
+even when standing in the midst of the place - especially when standing in
+the midst of the place.  The tall grasses gently wave in the wind, the wind
+that blows them seeming to go on and on, never ending.
+^
+
+grass40 n:grass30 s:grass50 e:grass41;
+lflags { Outdoors }
+In a Large Open Field^
+You stand in a huge field of tall, wind-blown grass. The grass grows wild
+all around you, the tops of the stalks easily at waist level, many times
+even higher than that. Northward is the border of a light forest, south it
+looks almost as if the land drops away, maybe there is a cliff or steep
+valley of some sort.
+^
+
+grass41 n:grass31 s:grass51 w:grass40 e:grass42;
+lflags { Outdoors }
+In a Wide Open Area of Grasslands^
+Tall grass surrounds you on every side, this huge field within which you
+stand opening out for quite some distance. On the east and west borders of
+the field are thick forests, north is a somewhat lighter area of forest and
+south there lies a great deal of open, empty space.
+^
+
+grass42 n:grass32 s:grass52 w:grass41 e:grass43;
+lflags { Outdoors }
+Grassland Expanse^
+All around you lies the billowing, waving brown grasses of this grassland area
+of Sundhaven. The wind blows in an almost constant flow, just enough to make it
+pleasant to feel upon the face. You hear a faint rustling in the grasses off
+to the west.
+^
+
+grass43 n:grass33 s:grass53 w:grass42 e:grass44;
+lflags { Outdoors }
+Field of Grass^
+You stand amid tall grasses which stretch for some distance in all directions.
+The grass grows tall and brown, not a dead or ugly brown, simply a light
+windblown color which is actually quite pleasing to the eye. To the north is
+the edge of a light forested area, south is the edge of the world, or so it
+appears as all that can be seen from here is a wide, open expanse of air.
+^
+
+grass44 n:grass34 s:grass54 w:grass43 e:grass104;
+lflags { Outdoors }
+Grasslands^
+The grasses blow in the wind about you, the sound of it moving against itself
+in the wind almost akin to someone rubbing their dry hands together in a
+constant, ryhtymic fashion. This place seems almost too peaceful as it is now,
+with no sound but that of the wind and nothing but open area all about you.
+^
+
+grass45 n:grass35 s:grass55 w:grass104 e:grass46;
+lflags { Outdoors }
+In a Large Field of Grass^
+Tall grasses grow in abundance, hiding the ground beneath your feet, making it
+hard to see whether there is open land ahead, a hole, whatever. It also would
+be quite a good cover for any would-be attackers should any decide to make
+themselves known to you for reasons of ill-faith. It is probably a very good
+idea to keep an open eye out for any predators, be they animal or humanoid.
+^
+
+grass46 n:grass36 s:grass56 w:grass45 e:grass47;
+lflags { Outdoors }
+A Huge Field of Tall Grass^
+The grasslands spread out far and wide, all around you. A steady wind blows
+across this open area, causing the grasses to appear as brownish waves at
+times, forever being carried along to unknown destinations. The grasses
+certainly are a beautiful sight, however they also provide for a deadly
+opportunity for all manner of hunting predators - care in where you step is
+well advised.
+^
+
+grass47 n:grass37 s:grass57 w:grass46 e:grass48;
+lflags { Outdoors }
+Among the Grasses^
+The grasses of this area seem to go on forever and ever, their size daunting
+even when standing in the midst of the place - especially when standing in the
+midst of the place.  The tall grasses gently wave in the wind, the wind that
+blows them seeming to go on and on, never ending.
+^
+
+grass48 n:grass38 s:grass58 w:grass47 e:grass49;
+lflags { Outdoors }
+In a Large Open Field^
+You stand in a huge field of tall, wind-blown grass. The grass grows wild
+all around you, the tops of the stalks easily at waist level, many times
+even higher than that. Northward is the border of a light forest, south it
+looks almost as if the land drops away, maybe there is a cliff or steep
+valley of some sort.
+^
+
+grass49 n:grass39 s:grass59 w:grass48;
+lflags { Outdoors }
+In a Wide Open Area of Grasslands^
+Tall grass surrounds you on every side, this huge field within which you
+stand opening out for quite some distance. On the east and west borders of
+the field are thick forests, north is a somewhat lighter area of forest and
+south there lies a great deal of open, empty space.
+^
+
+grass50 n:grass40 s:grass60 e:grass51;
+lflags { Outdoors }
+Grassland Expanse^
+All around you lies the billowing, waving brown grasses of this grassland area
+of Sundhaven. The wind blows in an almost constant flow, just enough to make it
+pleasant to feel upon the face. You hear a faint rustling in the grasses off
+to the west.
+^
+
+grass51 n:grass41 s:grass61 w:grass50 e:grass52;
+lflags { Outdoors }
+Field of Grass^
+You stand amid tall grasses which stretch for some distance in all directions.
+The grass grows tall and brown, not a dead or ugly brown, simply a light
+windblown color which is actually quite pleasing to the eye. To the north is
+the edge of a light forested area, south is the edge of the world, or so it
+appears as all that can be seen from here is a wide, open expanse of air.
+^
+
+grass52 n:grass42 s:grass62 w:grass51 e:grass53;
+lflags { Outdoors }
+Grasslands^
+The grasses blow in the wind about you, the sound of it moving against itself
+in the wind almost akin to someone rubbing their dry hands together in a
+constant, ryhtymic fashion. This place seems almost too peaceful as it is now,
+with no sound but that of the wind and nothing but open area all about you.
+^
+
+grass53 n:grass43 s:grass63 w:grass52 e:grass54;
+lflags { Outdoors }
+In a Large Field of Grass^
+Tall grasses grow in abundance, hiding the ground beneath your feet, making it
+hard to see whether there is open land ahead, a hole, whatever. It also would
+be quite a good cover for any would-be attackers should any decide to make
+themselves known to you for reasons of ill-faith. It is probably a very good
+idea to keep an open eye out for any predators, be they animal or humanoid.
+^
+
+grass54 n:grass44 s:grass64 w:grass53 e:grass105;
+lflags { Outdoors }
+A Huge Field of Tall Grass^
+The grasslands spread out far and wide, all around you. A steady wind blows
+across this open area, causing the grasses to appear as brownish waves at
+times, forever being carried along to unknown destinations. The grasses
+certainly are a beautiful sight, however they also provide for a deadly
+opportunity for all manner of hunting predators - care in where you step is
+well advised.
+^
+
+grass55 n:grass45 s:grass65 w:grass105 e:grass56;
+lflags { Outdoors }
+Among the Grasses^
+The grasses of this area seem to go on forever and ever, their size daunting
+even when standing in the midst of the place - especially when standing in the
+midst of the place.  The tall grasses gently wave in the wind, the wind that
+blows them seeming to go on and on, never ending.
+^
+
+grass56 n:grass46 s:grass66 w:grass55 e:grass57;
+lflags { Outdoors }
+In a Large Open Field^
+You stand in a huge field of tall, wind-blown grass. The grass grows wild
+all around you, the tops of the stalks easily at waist level, many times
+even higher than that. Northward is the border of a light forest, south it
+looks almost as if the land drops away, maybe there is a cliff or steep
+valley of some sort.
+^
+
+grass57 n:grass47 s:grass67 w:grass56 e:grass58;
+lflags { Outdoors }
+In a Wide Open Area of Grasslands^
+Tall grass surrounds you on every side, this huge field within which you
+stand opening out for quite some distance. On the east and west borders of
+the field are thick forests, north is a somewhat lighter area of forest and
+south there lies a great deal of open, empty space.
+^
+
+grass58 n:grass48 s:grass68 w:grass57 e:grass59;
+lflags { Outdoors }
+Grassland Expanse^
+All around you lies the billowing, waving brown grasses of this grassland area
+of Sundhaven. The wind blows in an almost constant flow, just enough to make it
+pleasant to feel upon the face. You hear a faint rustling in the grasses off
+to the west.
+^
+
+grass59 n:grass49 s:grass69 w:grass58;
+lflags { Outdoors }
+Field of Grass^
+You stand amid tall grasses which stretch for some distance in all directions.
+The grass grows tall and brown, not a dead or ugly brown, simply a light
+windblown color which is actually quite pleasing to the eye. To the north is
+the edge of alight forested area, south is the edge of the world, or so it
+appears as all that can be seen from here is a wide, open expanse of air.
+^
+
+grass60 n:grass50 s:grass70 e:grass61;
+lflags { Outdoors }
+Grasslands^
+The grasses blow in the wind about you, the sound of it moving against itself
+in the wind almost akin to someone rubbing their dry hands together in a
+constant, ryhtymic fashion. This place seems almost too peaceful as it is now,
+with no sound but that of the wind and nothing but open area all about you.
+^
+
+grass61 n:grass51 s:grass71 w:grass60 e:grass62;
+lflags { Outdoors }
+In a Large Field of Grass^
+Tall grasses grow in abundance, hiding the ground beneath your feet, making it
+hard to see whether there is open land ahead, a hole, whatever. It also would
+be quite a good cover for any would-be attackers should any decide to make
+themselves known to you for reasons of ill-faith. It is probably a very good
+idea to keep an open eye out for any predators, be they animal or humanoid.
+^
+
+grass62 n:grass52 s:grass72 w:grass61 e:grass63;
+lflags { Outdoors }
+A Huge Field of Tall Grass^
+The grasslands spread out far and wide, all around you. A steady wind blows
+across this open area, causing the grasses to appear as brownish waves at
+times, forever being carried along to unknown destinations. The grasses
+certainly are a beautiful sight, however they also provide for a deadly
+opportunity for all manner of hunting predators - care in where you step is
+well advised.
+^
+
+grass63 n:grass53 s:grass73 w:grass62 e:grass64;
+lflags { Outdoors }
+Among the Grasses^
+The grasses of this area seem to go on forever and ever, their size daunting
+even when standing in the midst of the place - especially when standing in the
+midst of the place.  The tall grasses gently wave in the wind, the wind that
+blows them seeming to go on and on, never ending.
+^
+
+grass64 n:grass54 s:grass74 w:grass63 e:grass106;
+lflags { Outdoors }
+In a Large Open Field^
+You stand in a huge field of tall, wind-blown grass. The grass grows wild
+all around you, the tops of the stalks easily at waist level, many times
+even higher than that. Northward is the border of a light forest, south it
+looks almost as if the land drops away, maybe there is a cliff or steep
+valley of some sort.
+^
+
+grass65 n:grass55 s:grass75 e:grass66 w:grass106;
+lflags { Outdoors }
+In a Wide Open Area of Grasslands^
+Tall grass surrounds you on every side, this huge field within which you
+stand opening out for quite some distance. On the east and west borders of
+the field are thick forests, north is a somewhat lighter area of forest and
+south there lies a great deal of open, empty space.
+^
+
+grass66 n:grass56 s:grass76 w:grass65 e:grass67;
+lflags { Outdoors }
+Grassland Expanse^
+All around you lies the billowing, waving brown grasses of this grassland area
+of Sundhaven. The wind blows in an almost constant flow, just enough to make it
+pleasant to feel upon the face. You hear a faint rustling in the grasses off
+to the west.
+^
+
+grass67 n:grass57 s:grass77 w:grass66 e:grass68;
+lflags { Outdoors }
+Field of Grass^
+You stand amid tall grasses which stretch for some distance in all directions.
+The grass grows tall and brown, not a dead or ugly brown, simply a light
+windblown color which is actually quite pleasing to the eye. To the north is
+the edge of a light forested area, south is the edge of the world, or so it
+appears as all that can be seen from here is a wide, open expanse of air.
+^
+
+grass68 n:grass58 s:grass78 w:grass67 e:grass69;
+lflags { Outdoors }
+Grasslands^
+The grasses blow in the wind about you, the sound of it moving against itself
+in the wind almost akin to someone rubbing their dry hands together in a
+constant, ryhtymic fashion. This place seems almost too peaceful as it is now,
+with no sound but that of the wind and nothing but open area all about you.
+^
+
+grass69 n:grass59 s:grass79 w:grass68;
+lflags { Outdoors }
+In a Large Field of Grass^
+Tall grasses grow in abundance, hiding the ground beneath your feet, making it
+hard to see whether there is open land ahead, a hole, whatever. It also would
+be quite a good cover for any would-be attackers should any decide to make
+themselves known to you for reasons of ill-faith.  It is probably a very good
+idea to keep an open eye out for any predators, be they animal or humanoid.
+^
+
+grass70 n:grass60 s:grass80 e:grass71;
+lflags { Outdoors }
+A Huge Field of Tall Grass^
+The grasslands spread out far and wide, all around you. A steady wind blows
+across this open area, causing the grasses to appear as brownish waves at
+times, forever being carried along to unknown destinations. The grasses
+certainly are a beautiful sight, however they also provide for a deadly
+opportunity for all manner of hunting predators - care in where you step is
+well advised.
+^
+
+grass71 n:grass61 s:grass81 w:grass70 e:grass72;
+lflags { Outdoors }
+Among the Grasses^
+The grasses of this area seem to go on forever and ever, their size daunting
+even when standing in the midst of the place - especially when standing in
+the midst of the place.  The tall grasses gently wave in the wind, the wind
+that blows them seeming to go on and on, never ending.
+^
+
+grass72 n:grass62 s:grass82 w:grass71 e:grass73;
+lflags { Outdoors }
+In a Large Open Field^
+You stand in a huge field of tall, wind-blown grass. The grass grows wild
+all around you, the tops of the stalks easily at waist level, many times
+even higher than that. Northward is the border of a light forest, south it
+looks almost as if the land drops away, maybe there is a cliff or steep
+valley of some sort.
+^
+
+grass73 n:grass63 s:grass83 w:grass72 e:grass74;
+lflags { Outdoors }
+In a Wide Open Area of Grasslands^
+Tall grass surrounds you on every side, this huge field within which you
+stand opening out for quite some distance. On the east and west borders of
+the field are thick forests, north is a somewhat lighter area of forest and
+south there lies a great deal of open, empty space.
+^
+
+grass74 n:grass64 s:grass84 w:grass73 e:grass107;
+lflags { Outdoors }
+Grassland Expanse^
+All around you lies the billowing, waving brown grasses of this grassland area
+of Sundhaven. The wind blows in an almost constant flow, just enough to make it
+pleasant to feel upon the face. You hear a faint rustling in the grasses off
+to the west.
+^
+
+grass75 n:grass65 s:grass85 e:grass76 w:grass107;
+lflags { Outdoors }
+Field of Grass^
+You stand amid tall grasses which stretch for some distance in all directions.
+The grass grows tall and brown, not a dead or ugly brown, simply a light
+windblown color which is actually quite pleasing to the eye. To the north is
+the edge of a light forested area, south is the edge of the world, or so it
+appears as all that can be seen from here is a wide, open expanse of air.
+^
+
+grass76 n:grass66 s:grass86 w:grass75 e:grass77;
+lflags { Outdoors }
+Grasslands^
+The grasses blow in the wind about you, the sound of it moving against itself
+in the wind almost akin to someone rubbing their dry hands together in a
+constant, ryhtymic fashion. This place seems almost too peaceful as it is now,
+with no sound but that of the wind and nothing but open area all about you.
+^
+
+grass77 n:grass67 s:grass87 w:grass76 e:grass78;
+lflags { Outdoors }
+In a Large Field of Grass^
+Tall grasses grow in abundance, hiding the ground beneath your feet, making it
+hard to see whether there is open land ahead, a hole, whatever. It also would
+be quite a good cover for any would-be attackers should any decide to make
+themselves known to you for reasons of ill-faith. It is probably a very good
+idea to keep an open eye out for any predators, be they animal or humanoid.
+^
+
+grass78 n:grass68 s:grass88 w:grass77 e:grass79;
+lflags { Outdoors }
+A Huge Field of Tall Grass^
+The grasslands spread out far and wide, all around you. A steady wind blows
+across this open area, causing the grasses to appear as brownish waves at
+times, forever being carried along to unknown destinations. The grasses
+certainly are a beautiful sight, however they also provide for a deadly
+opportunity for all manner of hunting predators - care in where you step is
+well advised.
+^
+
+grass79 n:grass69 s:grass89 w:grass78;
+lflags { Outdoors }
+Among the Grasses^
+The grasses of this area seem to go on forever and ever, their size daunting
+even when standing in the midst of the place - especially when standing in
+the midst of the place.  The tall grasses gently wave in the wind, the wind
+that blows them seeming to go on and on, never ending.
+^
+
+grass80 n:grass70 s:grass90 e:grass81;
+lflags { Outdoors }
+In a Large Open Field^
+You stand in a huge field of tall, wind-blown grass. The grass grows wild
+all around you, the tops of the stalks easily at waist level, many times
+even higher than that. Northward is the border of a light forest, south it
+looks almost as if the land drops away, maybe there is a cliff or steep
+valley of some sort.
+^
+
+grass81 n:grass71 s:grass91 w:grass80 e:grass82;
+lflags { Outdoors }
+In a Wide Open Area of Grasslands^
+Tall grass surrounds you on every side, this huge field within which you
+stand opening out for quite some distance. On the east and west borders of
+the field are thick forests, north is a somewhat lighter area of forest and
+south there lies a great deal of open, empty space.
+^
+
+grass82 n:grass72 s:grass92 w:grass81 e:grass83;
+lflags { Outdoors }
+Grassland Expanse^
+All around you lies the billowing, waving brown grasses of this grassland area
+of Sundhaven. The wind blows in an almost constant flow, just enough to make it
+pleasant to feel upon the face. You hear a faint rustling in the grasses off
+to the west.
+^
+
+grass83 n:grass73 s:grass93 w:grass82 e:grass84;
+lflags { Outdoors }
+Field of Grass^
+You stand amid tall grasses which stretch for some distance in all directions.
+The grass grows tall and brown, not a dead or ugly brown, simply a light
+windblown color which is actually quite pleasing to the eye. To the north is
+the edge of a light forested area, south is the edge of the world, or so it
+appears as all that can be seen from here is a wide, open expanse of air.
+^
+
+grass84 n:grass74 s:grass94 w:grass83 e:grass108;
+lflags { Outdoors }
+Grasslands^
+The grasses blow in the wind about you, the sound of it moving against itself
+in the wind almost akin to someone rubbing their dry hands together in a
+constant, ryhtymic fashion. This place seems almost too peaceful as it is now,
+with no sound but that of the wind and nothing but open area all about you.
+^
+
+grass85 n:grass75 s:grass95 e:grass86 w:grass108;
+lflags { Outdoors }
+In a Large Field of Grass^
+Tall grasses grow in abundance, hiding the ground beneath your feet, making it
+hard to see whether there is open land ahead, a hole, whatever. It also would
+be quite a good cover for any would-be attackers should any decide to make
+themselves known to you for reasons of ill-faith. It is probably a very good
+idea to keep an open eye out for any predators, be they animal or humanoid.
+^
+
+grass86 n:grass76 s:grass96 w:grass85 e:grass87;
+lflags { Outdoors }
+A Huge Field of Tall Grass^
+The grasslands spread out far and wide, all around you. A steady wind blows
+across this open area, causing the grasses to appear as brownish waves at
+times, forever being carried along to unknown destinations. The grasses
+certainly are a beautiful sight, however they also provide for a deadly
+opportunity for all manner of hunting predators - care in where you step is
+well advised.
+^
+
+grass87 n:grass77 s:grass97 w:grass86 e:grass88;
+lflags { Outdoors }
+Among the Grasses^
+The grasses of this area seem to go on forever and ever, their size daunting
+even when standing in the midst of the place - especially when standing in
+the midst of the place.  The tall grasses gently wave in the wind, the wind
+that blows them seeming to go on and on, never ending.
+^
+
+grass88 n:grass78 s:grass98 w:grass87 e:grass89;
+lflags { Outdoors }
+In a Large Open Field^
+You stand in a huge field of tall, wind-blown grass. The grass grows wild
+all around you, the tops of the stalks easily at waist level, many times
+even higher than that. Northward is the border of a light forest, south it
+looks almost as if the land drops away, maybe there is a cliff or steep
+valley of some sort.
+^
+
+grass89 n:grass79 s:grass99 w:grass88;
+lflags { Outdoors }
+In a Wide Open Area of Grasslands^
+Tall grass surrounds you on every side, this huge field within which you
+stand opening out for quite some distance. On the east and west borders of
+the field are thick forests, north is a somewhat lighter area of forest and
+south there lies a great deal of open, empty space.
+^
+
+grass90 n:grass80 e:grass91;
+lflags { Outdoors }
+Grassland Expanse^
+All around you lies the billowing, waving brown grasses of this grassland area
+of Sundhaven. The wind blows in an almost constant flow, just enough to make it
+pleasant to feel upon the face. You hear a faint rustling in the grasses off
+to the west.
+^
+
+grass91 n:grass81 w:grass90 e:grass92;
+lflags { Outdoors }
+Field of Grass^
+You stand amid tall grasses which stretch for some distance in all directions.
+The grass grows tall and brown, not a dead or ugly brown, simply a light
+windblown color which is actually quite pleasing to the eye. To the north is
+the edge of a light forested area, south is the edge of the world, or so it
+appears as all that can be seen from here is a wide, open expanse of air.
+^
+
+grass92 n:grass82 w:grass91 e:grass93;
+lflags { Outdoors }
+Grasslands^
+The grasses blow in the wind about you, the sound of it moving against itself
+in the wind almost akin to someone rubbing their dry hands together in a
+constant, ryhtymic fashion. This place seems almost too peaceful as it is now,
+with no sound but that of the wind and nothing but open area all about you.
+^
+
+grass93 n:grass83 w:grass92 e:grass94;
+lflags { Outdoors }
+In a Large Field of Grass^
+Tall grasses grow in abundance, hiding the ground beneath your feet, making it
+hard to see whether there is open land ahead, a hole, whatever. It also would
+be quite a good cover for any would-be attackers should any decide to make
+themselves known to you for reasons of ill-faith. It is probably a very good
+idea to keep an open eye out for any predators, be they animal or humanoid.
+^
+
+grass94 n:grass84 w:grass93 e:grass109;
+lflags { Outdoors }
+A Huge Field of Tall Grass^
+The grasslands spread out far and wide, all around you. A steady wind blows
+across this open area, causing the grasses to appear as brownish waves at
+times, forever being carried along to unknown destinations. The grasses
+certainly are a beautiful sight, however they also provide for a deadly
+opportunity for all manner of hunting predators - care in where you step is
+well advised.
+^
+
+grass95 n:grass85 e:grass96 w:grass109;
+lflags { Outdoors }
+Among the Grasses^
+The grasses of this area seem to go on forever and ever, their size daunting
+even when standing in the midst of the place - especially when standing in
+the midst of the place.  The tall grasses gently wave in the wind, the wind
+that blows them seeming to go on and on, never ending.
+^
+
+grass96 n:grass86 w:grass95 e:grass97;
+lflags { Outdoors }
+In a Large Open Field^
+You stand in a huge field of tall, wind-blown grass. The grass grows wild
+all around you, the tops of the stalks easily at waist level, many times
+even higher than that. Northward is the border of a light forest, south it
+looks almost as if the land drops away, maybe there is a cliff or steep
+valley of some sort.
+^
+
+grass97 n:grass87 w:grass96 e:grass98;
+lflags { Outdoors }
+In a Wide Open Area of Grasslands^
+Tall grass surrounds you on every side, this huge field within which you
+stand opening out for quite some distance. On the east and west borders of
+the field are thick forests, north is a somewhat lighter area of forest and
+south there lies a great deal of open, empty space.
+^
+
+grass98 n:grass88 w:grass97 e:grass99;
+lflags { Outdoors }
+Obscure Path^
+As it turns out, the path leads downhill, although from your vantage point
+west of here, you could not tell that.  It seems that the continuing brush
+you thought was a large field is actually tree tops!  The path continues
+east, becoming more and more enclosed as you move in that direction.  To the
+west the path heads uphill into a huge grassy field.    
+^
+
+grass99 n:grass89 w:grass98;
+lflags { Outdoors }
+Obscure Path^
+The path continues downhill at a steep angle to the east, uphill to
+the west.  Just east of you, you think you may see some sort of break
+in the trees, as the forest you entered into seems to have come upon
+you quite suddenly.    
+^
+
+grass100 n:sundhaven6783@sundhaven w:grass04 e:grass05 s:grass101;
+lflags { Outdoors }
+Cobblestone Road^
+   The cobblestone road runs outside of town with tall grass along each side,
+flanked by woods on the sides.  Various critters live out in the meadow.  The
+road continues to the south for a distance.
+^
+
+grass101 n:grass100 s:grass102 w:grass14 e:grass15;
+lflags { Outdoors }
+Cobblestone Road^
+   The road continues north and south with tall grasses along each side with
+woods flanking the prairie far in the distance.  Sundhaven isn't too far away
+from your position.
+^
+
+grass102 n:grass101 s:grass103 w:grass24 e:grass25;
+lflags { Outdoors }
+Cobblestone Road^
+   The road continues north and south with tall grasses along each side with
+woods flanking the ends of the prairie far into the distance.  You happen to
+see signs of a town to the north.
+^
+
+grass103 n:grass102 s:grass104 w:grass34 e:grass35;
+lflags { Outdoors }
+Cobblestone Road^
+   The pavement of the road begins to phase from rock gravel to stone here.
+Far to the north you see some signs of civilization, while the path southward
+continues southward into the distance disguised a bit by the grass, then the
+distance forests.
+^
+
+grass104 n:grass103 s:grass105 w:grass44 e:grass45;
+lflags { Outdoors }
+Gravel Road^
+   The road extends north and south, with grassy fields surrounding you.
+The gravel in the road thins out to the south and bigger rocks implanted in
+the ground to the north.  It is relatively quiet and activity looms hidden
+the the grass.
+^
+
+grass105 n:grass104 s:grass106 w:grass54 e:grass55;
+lflags { Outdoors }
+Rutted Track^
+   The road turns to merely a flattened dirt path from so many trodding upon
+it by foot and wheel.  It cuts through the grass further southward into the
+wilderness, but becomes better defined to the north.  The field stretches
+far to the west and east.
+^
+
+grass106 n:grass105 s:grass107 w:grass64 e:grass65;
+lflags { Outdoors }
+Rutted Track^
+   The road turns to merely a flattened dirt path from so many trodding upon
+it by foot and wheel.  It cuts through the grass further southward into the
+wilderness, but becomes better defined to the north.  The field stretches
+far to the west and east.
+^
+
+grass107 n:grass106 s:grass108 w:grass74 e:grass75;
+lflags { Outdoors }
+Rutted Track^
+   The road here that runs north and south appears to be losing the battle
+with the growing grass, the further south you go, the more the grass appears
+to be covering up the path.  Soon grass will completely take back what was
+formed by frequent travellers.  Northward the path becomes more defined.
+^
+
+grass108 n:grass107 s:grass109 w:grass84 e:grass85;
+lflags { Outdoors }
+Rutted Track^
+   The path has become nothing more than matted grass, with tall grass 
+surrounding you on every side, this huge field within which you stand opens
+out for quite some distance.
+^
+
+grass109 n:grass108 w:grass94 e:grass95;
+lflags { Outdoors }
+Rutted Track^
+   The path seems to bank eastward here, though you can barely tell with this
+tall grass.  Northward the path goes as far as the eye can see, with trees
+barely visible in the distance all around.
+^
+
+

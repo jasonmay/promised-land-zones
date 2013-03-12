@@ -1,0 +1,2958 @@
+
+
+
+%rainfall:500
+
+%latitude:40
+
+%mobiles
+
+Name = mob6000
+Pname = "John the Lumberjack"
+Location = sundforest6009
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 72
+Damage = 7
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "John the Lumberjack is here, looking for some trees to chop down."
+Examine = "
+He is six feet tall and looks quite strong, muscles bulging under his heavy,
+chequered shirt.  His features are worn with hard work and his expression is
+one of a peaceful man leading a simple life.
+"
+End = mob6000
+
+Name = mob6001
+Pname = "the rabbit"
+Location = sundforest6012
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 15
+Damage = 4
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small rabbit is foraging in the bushes here."
+Examine = "
+It is a small, furry creature with long ears and big feet.
+"
+End = mob6001
+
+Name = mob6001_1
+Pname = "the rabbit"
+Location = sundforest6015
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 15
+Damage = 4
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small rabbit is foraging in the bushes here."
+Examine = "
+It is a small, furry creature with long ears and big feet.
+"
+End = mob6001_1
+
+Name = mob6001_2
+Pname = "the rabbit"
+Location = sundforest6017
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 15
+Damage = 4
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small rabbit is foraging in the bushes here."
+Examine = "
+It is a small, furry creature with long ears and big feet.
+"
+End = mob6001_2
+
+Name = mob6001_3
+Pname = "the rabbit"
+Location = sundforest6019
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 15
+Damage = 4
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small rabbit is foraging in the bushes here."
+Examine = "
+It is a small, furry creature with long ears and big feet.
+"
+End = mob6001_3
+
+Name = mob6001_4
+Pname = "the rabbit"
+Location = sundforest6068
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 15
+Damage = 4
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small rabbit is foraging in the bushes here."
+Examine = "
+It is a small, furry creature with long ears and big feet.
+"
+End = mob6001_4
+
+Name = mob6001_5
+Pname = "the rabbit"
+Location = sundforest6062
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 15
+Damage = 4
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small rabbit is foraging in the bushes here."
+Examine = "
+It is a small, furry creature with long ears and big feet.
+"
+End = mob6001_5
+
+Name = mob6001_6
+Pname = "the rabbit"
+Location = sundforest6071
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 15
+Damage = 4
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small rabbit is foraging in the bushes here."
+Examine = "
+It is a small, furry creature with long ears and big feet.
+"
+End = mob6001_6
+
+Name = mob6001_7
+Pname = "the rabbit"
+Location = sundforest6070
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 15
+Damage = 4
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small rabbit is foraging in the bushes here."
+Examine = "
+It is a small, furry creature with long ears and big feet.
+"
+End = mob6001_7
+
+Name = mob6001_8
+Pname = "the rabbit"
+Location = sundforest6060
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 15
+Damage = 4
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small rabbit is foraging in the bushes here."
+Examine = "
+It is a small, furry creature with long ears and big feet.
+"
+End = mob6001_8
+
+Name = mob6002
+Pname = "the brown bear"
+Location = sundforest6022
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 110
+Damage = 14
+Armor = 14
+Aggression = 20
+Speed = 2
+Wimpy = 0
+Description = "A big, brown, angry-looking bear is here."
+Examine = "
+The bear is a big, brown, furry animal with very large claws and very sharp
+teeth.  It doesn't resemble those cute little dolls from toy shops at all.
+"
+End = mob6002
+
+Name = mob6003
+Pname = "the ferocious rabbit"
+Location = sundforest6065
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 30
+Damage = 8
+Armor = 8
+Aggression = 20
+Speed = 2
+Wimpy = 0
+Description = "A ferocious rabbit is here, glaring hungrily at you."
+Examine = "
+This small, furry creature with long ears and big feet has been attacked
+by the dreaded rabbit rabies, a horrible disease that turns helpless and
+innocent rabbits into ferocious and bloodthirsty monsters.
+"
+End = mob6003
+
+Name = mob6004
+Pname = "the fallow deer"
+Location = sundforest6023
+SFlags  {Female}
+PFlags  {}
+MFlags  {}
+Strength = 24
+Damage = 6
+Armor = 10
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Description = "A fallow deer is grazing peacefully here."
+Examine = "
+She is a graceful creature on long, slender legs, and with large, brown eyes
+looking back at you with an air of watchful interest.
+"
+End = mob6004
+
+Name = mob6005
+Pname = "the brown fox"
+Location = sundforest6014
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 22
+Damage = 6
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A brown fox is stalking rabbits through the underbrush here."
+Examine = "
+It is a large fox with beautiful, red-brown fur and a long, thick bushy tail.
+"
+End = mob6005
+
+Name = mob6005_1
+Pname = "the brown fox"
+Location = sundforest6069
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 22
+Damage = 6
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A brown fox is stalking rabbits through the underbrush here."
+Examine = "
+It is a large fox with beautiful, red-brown fur and a long, thick bushy tail.
+"
+End = mob6005_1
+
+Name = mob6005_2
+Pname = "the brown fox"
+Location = sundforest6074
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 22
+Damage = 6
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A brown fox is stalking rabbits through the underbrush here."
+Examine = "
+It is a large fox with beautiful, red-brown fur and a long, thick bushy tail.
+"
+End = mob6005_2
+
+Name = mob6005_3
+Pname = "the brown fox"
+Location = sundforest6060
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 22
+Damage = 6
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A brown fox is stalking rabbits through the underbrush here."
+Examine = "
+It is a large fox with beautiful, red-brown fur and a long, thick bushy tail.
+"
+End = mob6005_3
+
+Name = mob6006
+Pname = "the bird"
+Location = sundforest6033
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 7
+Damage = 3
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A large bird with a broken wing has been cornered here."
+Examine = "
+The bird isn't going to live much longer, by the looks of it.
+"
+End = mob6006
+
+Name = mob6007
+Pname = "the bobcat"
+Location = sundforest6033
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 72
+Damage = 11
+Armor = 10
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A medium sized bobcat is stalking a bird here."
+Examine = "
+The bobcat has sharp claws and teeth, and will probably eat you instead of
+the bird if you give it the chance.
+"
+End = mob6007
+
+Name = mob6008
+Pname = "the sparrow"
+Location = sundforest6005
+SFlags  {}
+PFlags  {}
+MFlags  { Flyer }
+Strength = 10
+Damage = 4
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A sparrow is flapping around by the ground."
+Examine = "
+The sparrow looks like it is enjoying life.
+"
+End = mob6008
+
+Name = mob6008_1
+Pname = "the sparrow"
+Location = sundforest6013
+SFlags  {}
+PFlags  {}
+MFlags  { Flyer }
+Strength = 10
+Damage = 4
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A sparrow is flapping around by the ground."
+Examine = "
+The sparrow looks like it is enjoying life.
+"
+End = mob6008_1
+
+Name = mob6008_2
+Pname = "the sparrow"
+Location = sundforest6062
+SFlags  {}
+PFlags  {}
+MFlags  { Flyer }
+Strength = 10
+Damage = 4
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A sparrow is flapping around by the ground."
+Examine = "
+The sparrow looks like it is enjoying life.
+"
+End = mob6008_2
+
+Name = mob6009
+Pname = "the robin"
+Location = sundforest6032
+SFlags  {}
+PFlags  {}
+MFlags  { Flyer }
+Strength = 10
+Damage = 4
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A robin is hopping around looking for bugs to eat."
+Examine = "
+The robin looks quite intent on finding a bug or worm to eat.
+"
+End = mob6009
+
+Name = mob6009_1
+Pname = "the robin"
+Location = sundforest6066
+SFlags  {}
+PFlags  {}
+MFlags  { Flyer }
+Strength = 10
+Damage = 4
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A robin is hopping around looking for bugs to eat."
+Examine = "
+The robin looks quite intent on finding a bug or worm to eat.
+"
+End = mob6009_1
+
+Name = mob6009_2
+Pname = "the robin"
+Location = sundforest6013
+SFlags  {}
+PFlags  {}
+MFlags  { Flyer }
+Strength = 10
+Damage = 4
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A robin is hopping around looking for bugs to eat."
+Examine = "
+The robin looks quite intent on finding a bug or worm to eat.
+"
+End = mob6009_2
+
+Name = mob6009_3
+Pname = "the robin"
+Location = sundforest6016
+SFlags  {}
+PFlags  {}
+MFlags  { Flyer }
+Strength = 10
+Damage = 4
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A robin is hopping around looking for bugs to eat."
+Examine = "
+The robin looks quite intent on finding a bug or worm to eat.
+"
+End = mob6009_3
+
+Name = mob6010
+Pname = "the squirrel"
+Location = sundforest6030
+SFlags  {}
+PFlags  {}
+Strength = 16
+Damage = 5
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A squirrel is here seeking refuge in its nest."
+Examine = "
+It peers out of its nest at you anxiously, seeming to plead silently with
+you to leave it alone.
+"
+End = mob6010
+
+Name = mob6010_1
+Pname = "the squirrel"
+Location = sundforest6030
+SFlags  {}
+PFlags  {}
+Strength = 16
+Damage = 5
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A squirrel is here seeking refuge in its nest."
+Examine = "
+It peers out of its nest at you anxiously, seeming to plead silently with
+you to leave it alone.
+"
+End = mob6010_1
+
+Name = mob6011
+Pname = "the sleepy badger"
+Location = sundforest6067
+SFlags  {}
+PFlags  {}
+Strength = 53
+Damage = 8
+Armor = 10
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A furry brown badger is curled up under a log here."
+Examine = "
+The badger is slowly awakening and peering up at you from its burrow. You
+know that it won't be moving this slow for long.  Its sharp claws and teeth
+catch your attention when you consider killing it.
+"
+End = mob6011
+
+Name = mob6012
+Pname = "the grey squirrel"
+Location = sundforest6003
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 34
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A grey squirrel with a bushy tail is foraging for nuts here."
+Examine = "
+This happy creature seems to pay you no heed as it goes about its search for
+nuts among the leaves and twigs on the ground here.
+"
+End = mob6012
+
+Name = mob6012_1
+Pname = "the grey squirrel"
+Location = sundforest6007
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 34
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A grey squirrel with a bushy tail is foraging for nuts here."
+Examine = "
+This happy creature seems to pay you no heed as it goes about its search for
+nuts among the leaves and twigs on the ground here.
+"
+End = mob6012_1
+
+Name = mob6012_2
+Pname = "the grey squirrel"
+Location = sundforest6028
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 34
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A grey squirrel with a bushy tail is foraging for nuts here."
+Examine = "
+This happy creature seems to pay you no heed as it goes about its search for
+nuts among the leaves and twigs on the ground here.
+"
+End = mob6012_2
+
+Name = mob6012_3
+Pname = "the grey squirrel"
+Location = sundforest6032
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 34
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A grey squirrel with a bushy tail is foraging for nuts here."
+Examine = "
+This happy creature seems to pay you no heed as it goes about its search for
+nuts among the leaves and twigs on the ground here.
+"
+End = mob6012_3
+
+Name = mob6012_4
+Pname = "the grey squirrel"
+Location = sundforest6030
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 34
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A grey squirrel with a bushy tail is foraging for nuts here."
+Examine = "
+This happy creature seems to pay you no heed as it goes about its search for
+nuts among the leaves and twigs on the ground here.
+"
+End = mob6012_4
+
+Name = mob6012_5
+Pname = "the grey squirrel"
+Location = sundforest6064
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 34
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A grey squirrel with a bushy tail is foraging for nuts here."
+Examine = "
+This happy creature seems to pay you no heed as it goes about its search for
+nuts among the leaves and twigs on the ground here.
+"
+End = mob6012_5
+
+Name = mob6012_6
+Pname = "the grey squirrel"
+Location = sundforest6075
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 34
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A grey squirrel with a bushy tail is foraging for nuts here."
+Examine = "
+This happy creature seems to pay you no heed as it goes about its search for
+nuts among the leaves and twigs on the ground here.
+"
+End = mob6012_6
+
+Name = mob6013
+Pname = "the small chipmunk"
+Location = sundforest6030
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 13
+Damage = 4
+Armor = 10
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small brown-red chipmunk dashes from tree to tree here."
+Examine = "
+The absolute zenith of hyperactivity, this small rodent seems to never tire
+of running up, down, and around the trees in this area.  If you could ever
+catch it, you imagine it would make an easy meal.
+"
+End = mob6013
+
+Name = mob6013_1
+Pname = "the small chipmunk"
+Location = sundforest6021
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 13
+Damage = 4
+Armor = 10
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small brown-red chipmunk dashes from tree to tree here."
+Examine = "
+The absolute zenith of hyperactivity, this small rodent seems to never tire
+of running up, down, and around the trees in this area.  If you could ever
+catch it, you imagine it would make an easy meal.
+"
+End = mob6013_1
+
+Name = mob6013_2
+Pname = "the small chipmunk"
+Location = sundforest6067
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 13
+Damage = 4
+Armor = 10
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small brown-red chipmunk dashes from tree to tree here."
+Examine = "
+The absolute zenith of hyperactivity, this small rodent seems to never tire
+of running up, down, and around the trees in this area.  If you could ever
+catch it, you imagine it would make an easy meal.
+"
+End = mob6013_2
+
+Name = mob6013_3
+Pname = "the small chipmunk"
+Location = sundforest6061
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 13
+Damage = 4
+Armor = 10
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A small brown-red chipmunk dashes from tree to tree here."
+Examine = "
+The absolute zenith of hyperactivity, this small rodent seems to never tire
+of running up, down, and around the trees in this area.  If you could ever
+catch it, you imagine it would make an easy meal.
+"
+End = mob6013_3
+
+Name = mob6014
+Pname = "the large black crow"
+Location = sundforest6026
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff Flyer }
+Strength = 34
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Description = "A large black bird flits about here, picking at bits of carrion."
+Examine = "
+The bird eyes you warily, but continues with its meal.
+"
+End = mob6014
+
+Name = mob6014_1
+Pname = "the large black crow"
+Location = sundforest6026
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 34
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Description = "A large black bird flits about here, picking at bits of carrion."
+Examine = "
+The bird eyes you warily, but continues with its meal.
+"
+End = mob6014_1
+
+Name = mob6014_2
+Pname = "the large black crow"
+Location = sundforest6026
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff Flyer }
+Strength = 34
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Description = "A large black bird flits about here, picking at bits of carrion."
+Examine = "
+The bird eyes you warily, but continues with its meal.
+"
+End = mob6014_2
+
+Name = mob6014_3
+Pname = "the large black crow"
+Location = sundforest6027
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff Flyer }
+Strength = 34
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Description = "A large black bird flits about here, picking at bits of carrion."
+Examine = "
+The bird eyes you warily, but continues with its meal.
+"
+End = mob6014_3
+
+Name = mob6015
+Pname = "the grotesque vulture"
+Location = sundforest6026
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff Flyer }
+Strength = 80
+Damage = 8
+Armor = 12
+Aggression = 20
+Speed = 0
+Wimpy = 0
+Description = "A grotesque vulture covered in blood and gore is here feeding madly."
+Examine = "
+It sickens you to even look at this foul bird.  Bits of dried gore stick to
+its beak, and unidentifiable organs hang from its talons and feathers.  
+It sees you and attacks, protecting its horrible feast!
+"
+End = mob6015
+
+Name = mob6016
+Pname = "the young buck"
+Location = sundforest6025
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 60
+Damage = 8
+Armor = 12
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A young 5-point buck is drinking from the lake here."
+Examine = "
+This young male deer is drinking from the edge of the lake and watching you
+warily.  His antlers are not full size yet, and will no doubt be quite 
+impressive in a few years.
+"
+End = mob6016
+
+Name = mob6017
+Pname = "the fish"
+Location = sundforest6027
+SFlags  {}
+PFlags  {}
+MFlags  {Aquatic}
+Strength = 10
+Damage = 3
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A fish is swimming about here."
+Examine = "
+The fish looks about the right size for a meal.
+"
+End = mob6017
+
+Name = mob6017_1
+Pname = "the fish"
+Location = sundforest6027
+SFlags  {}
+PFlags  {}
+MFlags  {Aquatic}
+Strength = 10
+Damage = 3
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A fish is swimming about here."
+Examine = "
+The fish looks about the right size for a meal.
+"
+End = mob6017_1
+
+Name = mob6017_2
+Pname = "the fish"
+Location = sundforest6027
+SFlags  {}
+PFlags  {}
+MFlags  {Aquatic}
+Strength = 10
+Damage = 3
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A fish is swimming about here."
+Examine = "
+The fish looks about the right size for a meal.
+"
+End = mob6017_2
+
+Name = mob6018
+Pname = "the duckling"
+Location = sundforest6027
+SFlags  {}
+PFlags  {}
+MFlags  { Flyer }
+Strength = 1
+Damage = 1
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A duckling is swimming around in the pond."
+Examine = "
+The duckling is adorable, it looks most of all like a tiny furball.
+"
+End = mob6018
+
+Name = mob6018_1
+Pname = "the duckling"
+Location = sundforest6027
+SFlags  {}
+PFlags  {}
+MFlags  { Flyer }
+Strength = 1
+Damage = 1
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A duckling is swimming around in the pond."
+Examine = "
+The duckling is adorable, it looks most of all like a tiny furball.
+"
+End = mob6018_1
+
+Name = mob6019 
+Pname = "the duck"
+Location = sundforest6027
+SFlags  {}
+PFlags  {}
+MFlags  { Flyer }
+Strength = 17
+Damage = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A duck is here, quacking happily."
+Examine = "
+The duck is quite fat.  It looks like it is enjoying life.
+"
+End = mob6019 
+
+Name = mob6019_1
+Pname = "the duck"
+Location = sundforest6027
+SFlags  {}
+PFlags  {}
+MFlags  { Flyer }
+Strength = 17
+Damage = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A duck is here, quacking happily."
+Examine = "
+The duck is quite fat.  It looks like it is enjoying life.
+"
+End = mob6019_1
+
+
+
+%objects
+
+Name = tree_sundforest6000
+Pname = forest
+Location = IN_ROOM:sundforest6000
+Oflags { Noget }
+Examine = "
+The trees are quite tall considering most of them appear to be quite young.
+On one of the trees, crude letters forming the word 'Haon-Dor' have been
+carved into the bark.
+" 
+End = tree_sundforest6000
+
+Name = tree_sundforest6001
+Pname = trees
+Location = IN_ROOM:sundforest6001
+Oflags { Noget }
+Examine = "
+The trees here are quite young and fresh.  They seem to accommodate many kinds
+of birds, insects and other small animals.
+" 
+End = tree_sundforest6001
+
+Name = birds_sundforest6001
+Pname = insects
+Altname = animals
+Location = IN_ROOM:sundforest6001
+Oflags { Noget }
+Examine = "
+Very cute little creatures, they seem to enjoy life.
+" 
+End = birds_sundforest6001
+
+Name = tree_sundforest6002
+Pname = forest
+Location = IN_ROOM:sundforest6002
+Oflags { Noget }
+Examine = "
+The young, slender trees look beautiful, their fresh, green leaves moving
+lightly in the wind.
+" 
+End = tree_sundforest6002
+
+Name = tree_sundforest6003
+Pname = forest
+Location = IN_ROOM:sundforest6003
+Oflags { Noget }
+Examine = "
+The dense crowns of the mature trees leave only a fraction of the sky to be
+seen through the leaves.
+" 
+End = tree_sundforest6003
+
+Name = tree_sundforest6004
+Pname = trees
+Location = IN_ROOM:sundforest6004
+Oflags { Noget }
+Examine = "
+The crowns of the old trees almost cut out all light.
+" 
+End = tree_sundforest6004
+
+Name = log_sundforest6008
+Pname = logs
+Location = IN_ROOM:sundforest6008
+Oflags { Noget }
+Examine = "
+Even though the logs have been chopped to shorter pieces, they are quite heavy
+as they are fresh and still filled with sap.
+" 
+End = log_sundforest6008
+
+Name = stake_sundforest6008
+Pname = stakes
+Location = IN_ROOM:sundforest6008
+Oflags { Noget }
+Examine = "
+The stakes keep the logs from rolling down.
+" 
+End = stake_sundforest6008
+
+Name = stump_sundforest6008
+Pname = stumps
+Location = IN_ROOM:sundforest6008
+Oflags { Noget }
+Examine = "
+There are more stumps than logs and some of the stumps are partly covered in
+moss.
+" 
+End = stump_sundforest6008
+Name = door_sundforest6010
+Pname = door
+Altname = wooden
+Linked = door_sundforest6009
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:sundforest6009
+Examine = "
+The wooden door is quite sturdy but does not appear to be equipped with a lock.
+"
+End = door_sundforest6010
+
+
+Name = cabin_sundforest6009
+Pname = cabin
+Altname = logs
+Location = IN_ROOM:sundforest6009
+Oflags { Noget }
+Examine = "
+It looks simple but comfortable and the slender trees make the whole place seem
+pretty idyllic.  It is a cabin built from wooden logs.
+" 
+End = cabin_sundforest6009
+
+Name = tree_sundforest6009
+Pname = trees
+Location = IN_ROOM:sundforest6009
+Oflags { Noget }
+Examine = "
+The trees are fairly young, not much more than a hundred years or so.
+" 
+End = tree_sundforest6009
+
+Name = door_sundforest6009
+Pname = door
+Altname = wooden
+Linked = door_sundforest6010
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:sundforest6010
+Examine = "
+The wooden door leads south.
+"
+End = door_sundforest6009
+
+Name = bed_sundforest6010
+Pname = bed
+Location = IN_ROOM:sundforest6010
+Oflags { Noget }
+Examine = "
+It is definitely not the most comfortable bed you have seen in your life.
+" 
+End = bed_sundforest6010
+
+Name = chair_sundforest6010
+Pname = chair
+Location = IN_ROOM:sundforest6010
+Oflags { Noget }
+Examine = "
+It is made from oak and looks strong and sturdy.
+" 
+End = chair_sundforest6010
+
+Name = table_sundforest6010
+Pname = table
+Location = IN_ROOM:sundforest6010
+Oflags { Noget }
+Examine = "
+A heavy table that doesn't even appear to rock.  It seems to have something
+carved on it.
+" 
+End = table_sundforest6010
+
+Name = carving_sundforest6010
+Pname = carvings
+Altname = carved
+Location = IN_ROOM:sundforest6010
+Oflags { Noget }
+Examine = "
+On the table is carved :
+                                                  /) /)
+          Danny and Mari, Oct 31, 1991           ( o o )
+                                                  = x =
+                                                 m     m
+                                              ***(========-
+" 
+End = carving_sundforest6010
+
+Name = tree_sundforest6017
+Pname = tree
+Location = IN_ROOM:sundforest6017
+Oflags { Noget }
+Desc[0] = "A large tree stands before you."
+Examine = "
+The crowns of the old trees leave the forest in an unreal twilight
+illumination.  A large branch looms above you, over the path.
+" 
+End = tree_sundforest6017
+
+Name = branch
+Pname = branch
+Altname = large
+Location = IN_ROOM:sundforest6017
+Oflags { Noget }
+Examine = "
+The branch of a large oak stretches out above the path from the east.
+" 
+End = branch
+
+Name = cave_sundforest6021
+Pname = cave
+Location = IN_ROOM:sundforest6021
+Oflags { Noget }
+Examine = "
+The irregular opening is eight feet wide and six feet tall.  An acrid smell
+emanates from within.
+" 
+End = cave_sundforest6021
+
+Name = debris_sundforest6022
+Pname = debris
+Location = IN_ROOM:sundforest6022
+Oflags { Noget }
+Examine = "
+It consists mostly of gnawed bones mixed with small pieces of torn fur.
+" 
+End = debris_sundforest6022
+
+Name = floor
+Pname = floor
+Altname = stone
+Location = IN_ROOM:sundforest6022
+Oflags { Noget }
+Examine = "
+There are a lot of tracks here, including some drag marks.
+" 
+End = floor
+
+Name = air_sundforest6022
+Pname = air
+Location = IN_ROOM:sundforest6022
+Oflags { Noget }
+Examine = "
+Kind of transparent, but quite noticeable nevertheless.
+" 
+End = air_sundforest6022
+
+Name = grass_sundforest6023
+Pname = grass
+Location = IN_ROOM:sundforest6023
+Oflags { Noget }
+Examine = "
+The tall grass makes a nice hiding place for animals.
+" 
+End = grass_sundforest6023
+
+Name = tree_sundforest6023
+Pname = trees
+Altname = thicket
+Location = IN_ROOM:sundforest6023
+Oflags { Noget }
+Examine = "
+The trees form a close thicket, blocking any exit to the west.
+" 
+End = tree_sundforest6023
+
+Name = birds_sundforest6023
+Pname = bird
+Altname = circling
+Location = IN_ROOM:sundforest6023
+Oflags { Noget }
+Examine = "
+Many carrion birds are circling to the north, you presume they are waiting for
+their turn to feast on a corpse.
+" 
+End = birds_sundforest6023
+
+Name = grass_sundforest6024
+Pname = grass
+Location = IN_ROOM:sundforest6024
+Oflags { Noget }
+Examine = "
+The tall grass makes a nice hiding place for animals.
+" 
+End = grass_sundforest6024
+
+Name = grass_sundforest6025
+Pname = grass
+Location = IN_ROOM:sundforest6025
+Oflags { Noget }
+Examine = "
+The tall grass makes a nice hiding place for animals.
+" 
+End = grass_sundforest6025
+
+Name = lake_sundforest6025
+Pname = lake
+Location = IN_ROOM:sundforest6025
+Oflags { Noget }
+Examine = "
+Animals from all around come here to drink.  The lake itself is not very big,
+but it stretches off to the north from here.
+" 
+End = lake_sundforest6025
+
+Name = birds_sundforest6025
+Pname = bird
+Altname = circling
+Location = IN_ROOM:sundforest6025
+Oflags { Noget }
+Examine = "
+Many carrion birds are circling to the west, you presume they are waiting for
+their turn to feast on a corpse.
+" 
+End = birds_sundforest6025
+
+Name = track_sundforest6025
+Pname = tracks
+Altname = mud
+Location = IN_ROOM:sundforest6025
+Oflags { Noget }
+Examine = "
+You see tracks of both hooved and other sorts of animals.  Evidence of all
+sizes of animals is here in the mud, showing just how lively the forest is.
+" 
+End = track_sundforest6025
+
+Name = grass_sundforest6026
+Pname = grass
+Location = IN_ROOM:sundforest6026
+Oflags { Noget }
+Examine = "
+The tall grass makes a nice hiding place for animals.  You see some of the
+animals you frightened away peeking furtively out at you.
+" 
+End = grass_sundforest6026
+
+Name = birds_sundforest6026
+Pname = birds
+Location = IN_ROOM:sundforest6026
+Oflags { Noget }
+Examine = "
+Many birds of varying size circle overhead, waiting for you to leave.  You
+hope they don't decide that you could be a corpse with just a little effort.
+" 
+End = birds_sundforest6026
+
+Name = animal_sundforest6026
+Pname = animals
+Altname = small
+Location = IN_ROOM:sundforest6026
+Oflags { Noget }
+Examine = "
+Several pairs of eyes peer out at you, urging you to leave.  The just might
+decide that en masse they could kill you, so you probably don't want to tarry
+here.
+" 
+End = animal_sundforest6026
+
+Name = fish_sundforest6027
+Pname = fish
+Location = IN_ROOM:sundforest6027
+Oflags { Noget }
+Examine = "
+Trout and perhaps a catfish or two swim about below you, totally ignoring
+your presence.
+" 
+End = fish_sundforest6027
+
+Name = lake_sundforest6027
+Pname = lake
+Location = IN_ROOM:sundforest6027
+Oflags { Noget }
+Examine = "
+Animals from all around come here to drink.  The lake itself is not very big,
+but it stretches off to the north from here.
+" 
+End = lake_sundforest6027
+
+Name = tree_sundforest6027
+Pname = trees
+Altname = thicket
+Location = IN_ROOM:sundforest6027
+Oflags { Noget }
+Examine = "
+Trees cover the bank on most sides, preventing you from docking there.
+" 
+End = tree_sundforest6027
+
+Name = reed_sundforest6027
+Pname = reed
+Location = IN_ROOM:sundforest6027
+Oflags { Noget }
+Examine = "
+Reeds grow up around the edges of the lake, providing cover for the small
+water fowl that live here.
+" 
+End = reed_sundforest6027
+
+Name = large_sundforest6029
+Pname = oak
+Altname = tree
+Location = IN_ROOM:sundforest6029
+Oflags { Noget }
+Examine = "
+It has some lower branches that you think you could reach if you stretched.
+You might even be able to climb all the top, though from here it looks like
+something else had that idea before you.  There is a faint &+Canimal&* shape pacing
+on one of the highest branches.
+" 
+End = large_sundforest6029
+
+Name = animal_sundforest6029
+Pname = animal
+Location = IN_ROOM:sundforest6029
+Oflags { Noget }
+Examine = "
+From here it looks vaguely feline, though you could get a much better view
+from in the tree.  You are not sure if it has seen you yet.
+" 
+End = animal_sundforest6029
+
+Name = animals_sundforest6030
+Pname = bird
+Altname = birds
+Location = IN_ROOM:sundforest6030
+Oflags { Noget }
+Examine = "
+A variety of squirrels, chipmunks, and birds make their homes in this and the
+surrounding trees.  If you look closely you may be able to see some of their
+rapidly emptying nests.
+" 
+End = animals_sundforest6030
+
+Name = feline_sundforest6030
+Pname = feline
+Location = IN_ROOM:sundforest6030
+Oflags { Noget }
+Examine = "
+The shape above you moves with definite grace and confidence.  You think that
+it must be a Bobcat, stalking smaller tree-dwelling animals.
+" 
+End = feline_sundforest6030
+
+name = animal
+Altname = shape
+Location = IN_ROOM:sundforest6030
+Oflags { Noget }
+Examine = "
+From here it looks &+Cfeline&*.  You still don't think it has noticed you, despite
+the noise you made while climbing up here.
+" 
+End = animal
+
+
+Name = top_sundforest6030
+Pname = highest
+Altname = high
+Location = IN_ROOM:sundforest6030
+Oflags { Noget }
+Examine = "
+You could probably see most of the forest, and perhaps even the city from the
+top of the tree... of course, you would have to deal with whatever that &+Cshape
+is that you see pacing on one of the upper limbs.
+" 
+End = top_sundforest6030
+
+Name = nest_sundforest6031
+Pname = nest
+Location = IN_ROOM:sundforest6031
+Oflags { Noget }
+Examine = "
+You notice that several of the squirrels sought refuge in a large nest that is
+well within your reach.  Looking into the nest, you see two pairs of eyes
+staring back at you.
+" 
+End = nest_sundforest6031
+
+Name = animals_sundforest6031
+Pname = bird
+Altname = birds
+Location = IN_ROOM:sundforest6031
+Oflags { Noget }
+Examine = "
+A variety of squirrels, chipmunks, and birds make their homes in this and the
+surrounding trees.  If you look closely you may be able to see some of their
+rapidly emptying nests.
+" 
+End = animals_sundforest6031
+
+Name = feline_sundforest6031
+Pname = feline
+Location = IN_ROOM:sundforest6031
+Oflags { Noget }
+Examine = "
+The shape above you moves with definite grace and confidence.  You think that
+it must be a Bobcat, stalking smaller tree-dwelling animals.
+" 
+End = feline_sundforest6031
+
+Name = animal_1
+Pname = animal
+Altname = shape
+Location = IN_ROOM:sundforest6031
+Oflags { Noget }
+Examine = "
+From here it looks feline.  You still don't think it has noticed you, despite
+the noise you made while climbing up here.
+" 
+End = animal_1
+
+Name = limb_sundforest6031
+Pname = limb
+Location = IN_ROOM:sundforest6031
+Oflags { Noget }
+Examine = "
+The limbs look quite sturdy, certainly capable of holding your weight should
+you decide to climb around in the tree using them.
+" 
+End = limb_sundforest6031
+
+Name = top_sundforest6031
+Pname = highest
+Altname = high
+Location = IN_ROOM:sundforest6031
+Oflags { Noget }
+Examine = "
+You could probably see most of the forest, and perhaps even the city from the
+top of the tree... of course, you would have to deal with whatever that shape
+is that you see pacing on one of the upper limbs.
+" 
+End = top_sundforest6031
+
+Name = up_sundforest6032
+Pname = up
+Oflags { NoGet  }
+Location = IN_ROOM:sundforest6032
+Examine = "
+Above you the tree narrows farther, but it still looks like you could climb up
+there.  A feline shape is pacing about above you, trying to get to a large
+wounded bird.  Perhaps you should try to see what sort of cat this is before
+you interrupt its hunt... it might eat you instead of the bird.
+"
+End = up_sundforest6032
+
+Name = bird_1
+Pname = bird
+Altname = birds
+Location = IN_ROOM:sundforest6032
+Oflags { Noget }
+Examine = "
+A variety of squirrels, chipmunks, and birds make their homes in this and the
+surrounding trees.  If you look closely you may be able to see some of their
+rapidly emptying nests.
+" 
+End = bird_1
+
+Name = pace_1
+Pname = animal
+Altname = shape
+Location = IN_ROOM:sundforest6032
+Oflags { Noget }
+Examine = "
+It looks like a Bobcat, and it seems quite intent on getting to a large bird
+that it has wounded.  It has not seen you yet, or perhaps just thinks you are
+too easy a meal.
+" 
+End = pace_1
+
+Name = limb_sundforest6032
+Pname = limb
+Location = IN_ROOM:sundforest6032
+Oflags { Noget }
+Examine = "
+They look quite sturdy, certainly capable of holding your weight should you
+decide to climb around in the tree using them.
+" 
+End = limb_sundforest6032
+
+Name = top_sundforest6032
+Pname = highest
+Altname = high
+Location = IN_ROOM:sundforest6032
+Oflags { Noget }
+Examine = "
+You could probably see most of the forest, and perhaps even the city from the
+top of the tree... of course, you would have to deal with whatever that &+Cshape
+is that you see pacing on an the upper &+Climb.
+" 
+End = top_sundforest6032
+
+Name = down_sundforest6033
+Pname = down
+Oflags { NoGet  }
+Location = IN_ROOM:sundforest6033
+Examine = "
+Below you many of the animals you frightened earlier have returned to their
+various nests and homes.  You can see a small hint of the path far below you
+through the branches.
+"
+End = down_sundforest6033
+
+Name = woods_1
+Pname = woods
+Altname = forest
+Location = IN_ROOM:sundforest6033
+Oflags { Noget }
+Examine = "
+Off to the southwest you can see a grass covered field, and a small lake;
+nortwest of you is a small cabin and a large pile of wood.  Far to west the
+treetops form a tight canopy, blocking out almost all sunlight and your view.
+It is said that large wolves live there.  You've also heard rumors of horrible
+spiders and drow living there.  
+" 
+End = woods_1
+
+Name = mountain_sundforest6033
+Pname = range
+Altname = northeast
+Location = IN_ROOM:sundforest6033
+Oflags { Noget }
+Examine = "
+A long mountain range stretches across the horizon to the north and northeast.
+You have heard rumors of many different sorts of creatures living there,
+varying from Dwarves and Humans to Ogres and various humanoid creatures.  Some
+say that evil Dark Elves dwell in the underworld deep below the lands of the
+Dwarves.  The caves of Moria also are found there, populated by all sorts of
+evil creatures.
+" 
+End = mountain_sundforest6033
+
+Name = river_sundforest6033
+Pname = river
+Location = IN_ROOM:sundforest6033
+Oflags { Noget }
+Examine = "
+To the south you see a river flowing roughly from the northeast to the west.
+It emerges from a dark opening in the side of a mountain and flows through
+Midgaard, and on into the forest.  It has eroded a deep chasm in the soft stone
+under the forest floor, and is not visible for long after it enters the forest
+proper.
+" 
+End = river_sundforest6033
+
+Name = tree_sundforest6061
+Pname = forest
+Location = IN_ROOM:sundforest6061
+Oflags { Noget }
+Examine = "
+The crowns of the old trees leave the forest in an unreal twilight
+illumination.  A large branch looms above you, over the path.
+" 
+End = tree_sundforest6061
+
+Name = tree_2
+Pname = decomposed
+Altname = tree
+Location = IN_ROOM:sundforest6067
+Oflags { Noget }
+Examine = "
+The tree has mostly rotted away, providing nourishment to many small plants
+growing here in the clearing.  The few pieces that remain are not all that
+large, but one log in particular catches your eye and seems to remind you of
+something.  Under one of these logs would be a great place for an &+Canimal&* to
+make its den...
+" 
+End = tree_2
+
+Name = clearing_sundforest6067
+Pname = clearing
+Location = IN_ROOM:sundforest6067
+Oflags { Noget }
+Examine = "
+When the large tree fell it must have brought a few of the smaller trees down
+with it in order to make a clearing like this.
+" 
+End = clearing_sundforest6067
+
+Name = under_sundforest6067
+Pname = animal
+Altname = den
+Location = IN_ROOM:sundforest6067
+Oflags { Noget }
+Examine = "
+Under a log you think you see some sort of hole, or animal's den.  Looking
+closer, you can make out the form of what you believe to be a Badger resting
+inside of the den.
+" 
+End = under_sundforest6067
+
+Name = hill_sundforest6073
+Pname = hills
+Altname = terrain
+Location = IN_ROOM:sundforest6073
+Oflags { Noget }
+Examine = "
+To the northwest you see hills covered by dense forest.
+" 
+End = hill_sundforest6073
+
+Name = hills_sundforest6075
+Pname = hills
+Altname = terrain
+Location = IN_ROOM:sundforest6075
+Oflags { Noget }
+Examine = "
+To the northwest the ground becomes more hilly. You have heard that a halfling
+village is somewhere in the hills.
+" 
+End = hills_sundforest6075
+
+Name = hills_sundforest6078
+Pname = hills
+Location = IN_ROOM:sundforest6078
+Oflags { Noget }
+Examine = "
+The terrian is very hilly and rough to the north and west.  You have heard
+that there is a halfling village somewhere in the hills.
+" 
+End = hills_sundforest6078
+
+Name = tree_sundforest6091
+Pname = forest
+Location = IN_ROOM:sundforest6091
+Oflags { Noget }
+Examine = "
+Some small trees grow amongst the underbrush of the plains.  These slowly gain
+in height as you travel farther westward towards Haon-Dor.
+" 
+End = tree_sundforest6091
+
+Name = forest_sundforest6092
+Pname = forest
+Location = IN_ROOM:sundforest6092
+Oflags { Noget }
+Examine = "
+The large forest of Haon-dor spreads out to the west.  Small and large game
+is plentiful there...as is adventure, and of course, danger!
+" 
+End = forest_sundforest6092
+
+Name = obj6000
+Pname = axe
+Altname = lumber
+Location = WIELDED_BY:mob6000
+State = 0
+Maxstate = 0
+Damage = 6
+Bvalue = 1
+Size = 12
+Weight = 12
+Oflags { Weapon }
+Desc[0] = "A heavy lumber axe lies here."
+Examine = "
+It is a heavy axe of the kind lumberjacks use to chop down trees.
+"
+End = obj6000
+
+Name = obj6001
+Pname = shirt
+Altname = chequered
+Location = WORN_BY:mob6000
+State = 0
+Maxstate = 0
+Armor = 10
+Bvalue = 0
+Size = 2
+Weight = 2
+Oflags { Wearable Armor }
+Aflags {Chest }
+Desc[0] = "A chequered shirt lies here."
+Examine = "
+It is an extra large, chequered shirt made from heavy cloth.
+"
+End = obj6001
+
+Name = obj6002
+Pname = boots
+Altname = leather
+Location = WORN_BY:mob6000
+State = 0
+Maxstate = 0
+Armor = 20
+Bvalue = 1
+Size = 4
+Weight = 4
+Oflags { Wearable Armor }
+Aflags {Feet }
+Desc[0] = "A pair of worn leather boots lies here."
+Examine = "
+They are fashioned from rough leather that has been oiled frequently to make
+it stay waterproof.  They look worn but quite functional.
+"
+End = obj6002
+
+Name = obj6003
+Pname = fireplace
+Location = IN_ROOM:sundforest6010
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 200
+Weight = 0
+Oflags { Container Noget }
+Desc[0] = "A fireplace made from stone is set against the east wall."
+Examine = "
+It is fashioned from stones of various sizes that have been stacked on top of
+each other and fastened with mortar.  Its chimney is constructed likewise and
+leads the smoke out through the low cabin ceiling.
+"
+End = obj6003
+
+Name = obj6004
+Pname = lantern
+Altname = brass
+Location = IN_ROOM:sundforest6010
+State = 0
+Maxstate = 0
+Bvalue = 1
+Size = 4
+Weight = 4
+Oflags { Lightable Extinguish }
+Desc[0] = "A hooded brass lantern has been left here."
+Examine = "
+It is a large and robust but somewhat battered oil lantern made from brass,
+and it is equipped with a handle to make it handy and a hood to protect its
+flame.
+"
+End = obj6004
+
+Name = obj6005
+Pname = chest
+Altname = wooden
+Location = IN_ROOM:sundforest6010
+State = 2
+Maxstate = 2
+Bvalue = 1
+Size = 100
+Weight = 20
+
+Oflags { Container Openable Lockable Noget }
+Desc[0] = "A wooden chest stands in the corner."
+Desc[1] = "The chest is open."
+Desc[2] = "The chest is locked."
+Examine = "
+It is a robust chest made from short, heavy planks that have been fastened
+together with tenons.  It is equipped with a simple brass lock.
+"
+End = obj6005
+
+Name = obj6006
+Pname = key
+Altname = brass
+Location = IN_CONTAINER:obj6003
+State = 0
+Maxstate = 0
+Bvalue = 20
+Size = 1
+Weight = 1
+Oflags { Key }
+Desc[0] = "A small brass key lies here."
+Examine = "
+It is a small, simple brass key with no inscriptions or marks of any kind.
+"
+End = obj6006
+
+Name = obj6007
+Pname = coins
+Altname = gold
+Location = IN_CONTAINER:obj6005
+State = 0
+Maxstate = 0
+Bvalue = 200
+Size = 1
+Weight = 1
+Oflags {  }
+Desc[0] = "Some gold coins lie piled up in a heap on the floor."
+Examine = "
+The coins seem to be gold.  They are obviously valuable.
+"
+End = obj6007
+
+Name = obj6010
+Pname = blackberries
+Location = IN_ROOM:sundforest6023
+State = 0
+Maxstate = 0
+Bvalue = 20
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "Some blackberries grow on a bush nearby."
+Examine = "
+They look very tasty indeed.
+"
+End = obj6010
+
+Name = obj6011
+Pname = mushroom
+Location = IN_ROOM:sundforest6006
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "A small mushroom grows nearby."
+Examine = "
+It looks to be a tasty little thing.
+"
+End = obj6011
+
+Name = obj6011_1
+Pname = mushroom
+Location = IN_ROOM:sundforest6013
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "A small mushroom grows nearby."
+Examine = "
+It looks to be a tasty little thing.
+"
+End = obj6011_1
+
+Name = obj6011_2
+Pname = mushroom
+Location = IN_ROOM:sundforest6016
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "A small mushroom grows nearby."
+Examine = "
+It looks to be a tasty little thing.
+"
+End = obj6011_2
+
+Name = obj6011_3
+Pname = mushroom
+Location = IN_ROOM:sundforest6019
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "A small mushroom grows nearby."
+Examine = "
+It looks to be a tasty little thing.
+"
+End = obj6011_3
+
+Name = obj6011_4
+Pname = mushroom
+Location = IN_ROOM:sundforest6065
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "A small mushroom grows nearby."
+Examine = "
+It looks to be a tasty little thing.
+"
+End = obj6011_4
+
+Name = obj6011_5
+Pname = mushroom
+Location = IN_ROOM:sundforest6062
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "A small mushroom grows nearby."
+Examine = "
+It looks to be a tasty little thing.
+"
+End = obj6011_5
+
+Name = obj6011_6
+Pname = mushroom
+Location = IN_ROOM:sundforest6069
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "A small mushroom grows nearby."
+Examine = "
+It looks to be a tasty little thing.
+"
+End = obj6011_6
+
+Name = obj6011_7
+Pname = mushroom
+Location = IN_ROOM:sundforest6078
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "A small mushroom grows nearby."
+Examine = "
+It looks to be a tasty little thing.
+"
+End = obj6011_7
+
+Name = obj6012
+Pname = sign
+Altname = large
+Location = IN_ROOM:sundforest6000
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 100
+Weight = 100
+Oflags { Noget }
+Desc[0] = "A large sign mounted on a pole is standing by the roadside."
+Examine = "
+Not the most interesting pole in the world.
+It says :-
+
+                         Haon-Dor
+                         --------
+    
+ This is the Forest of Haon-Dor.  Enter at your own risk.
+   Please report any strange occurrences to the proper 
+    authorities as the mayor is currently indisposed.
+
+"
+End = obj6012
+
+Name = obj6013
+Pname = barrel
+Location = IN_ROOM:sundforest6010
+State = 0
+Maxstate = 0
+Bvalue = 2
+Size = 45
+Weight = 45
+Oflags { Container Noget }
+Desc[0] = "A water barrel has been left here."
+End = obj6013
+
+Name = obj6014
+Pname = brook
+Location = IN_ROOM:sundforest6006
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 0
+Weight = 0
+Oflags { Noget }
+Desc[0] = "A small brook trickles through the forest beside the path."
+Examine = "
+The water looks clean and refreshing.
+"
+End = obj6014
+
+Name = obj6014_1
+Pname = brook
+Location = IN_ROOM:sundforest6007
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 0
+Weight = 0
+Oflags { Noget }
+Desc[0] = "A small brook trickles through the forest beside the path."
+Examine = "
+The water looks clean and refreshing.
+"
+End = obj6014_1
+
+Name = obj6014_2
+Pname = brook
+Location = IN_ROOM:sundforest6008
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 0
+Weight = 0
+Oflags { Noget }
+Desc[0] = "A small brook trickles through the forest beside the path."
+Examine = "
+The water looks clean and refreshing.
+"
+End = obj6014_2
+
+Name = obj6014_3
+Pname = brook
+Location = IN_ROOM:sundforest6013
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 0
+Weight = 0
+Oflags { Noget }
+Desc[0] = "A small brook trickles through the forest beside the path."
+Examine = "
+The water looks clean and refreshing.
+"
+End = obj6014_3
+
+Name = obj6014_4
+Pname = brook
+Location = IN_ROOM:sundforest6014
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 0
+Weight = 0
+Oflags { Noget }
+Desc[0] = "A small brook trickles through the forest beside the path."
+Examine = "
+The water looks clean and refreshing.
+"
+End = obj6014_4
+
+Name = obj6016
+Pname = cudgel
+Altname = oaken
+Location = IN_ROOM:sundforest6033
+State = 0
+Maxstate = 0
+Damage = 7
+Bvalue = -20
+Size = 16
+Weight = 16
+Oflags { Weapon }
+Desc[0] = "A limb has fallen here."
+Examine = "
+The cudgel looks quite sturdy, and would make a nice weapon.
+"
+End = obj6016
+
+Name = obj6018
+Pname = meat
+Location = IN_ROOM:sundforest6026
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 15
+Weight = 15
+Oflags { Food }
+Desc[0] = "A large piece of freshly cut boar meat is on the ground here."
+Examine = "
+It looks quite filling.
+"
+End = obj6018
+
+Name = obj6019
+Pname = tusks
+Altname = boar
+Location = IN_ROOM:sundforest6026
+State = 0
+Maxstate = 0
+Bvalue = 50
+Size = 10
+Weight = 10
+Oflags {  }
+Desc[0] = "A pair of large boar tusks have been dropped here."
+Examine = "
+They look like they might be worth something to a craftsman.
+"
+End = obj6019
+
+Name = obj6020
+Pname = log
+Altname = hollow
+Location = IN_ROOM:sundforest6067
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 48
+Weight = 48
+Oflags { Boat }
+Desc[0] = "There is a hollow log here."
+Examine = "
+It looks like it would probably float.
+"
+End = obj6020
+
+Name = obj6021
+Pname = nest
+Altname = bird
+Location = IN_ROOM:sundforest6032
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 30
+Weight = 0
+Oflags { Container Noget }
+Desc[0] = "There's a bird nest here."
+Examine = "
+A medium sized bird's nest is close to you here, and it looks like it has some
+nice looking eggs in it too!
+"
+End = obj6021
+
+Name = obj6022
+Pname = egg
+Altname = robin
+Location = IN_CONTAINER:obj6021
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "A small bluish egg has been left here."
+Examine = "
+It is small, but food nonetheless.
+"
+End = obj6022
+
+Name = obj6022_1
+Pname = egg
+Altname = robin
+Location = IN_CONTAINER:obj6021
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "A small bluish egg has been left here."
+Examine = "
+It is small, but food nonetheless.
+"
+End = obj6022_1
+
+Name = obj6022_2
+Pname = egg
+Altname = robin
+Location = IN_CONTAINER:obj6021
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "A small bluish egg has been left here."
+Examine = "
+It is small, but food nonetheless.
+"
+End = obj6022_2
+
+Name = obj6023
+Pname = meat
+Altname = rabbit
+Location = CARRIED_BY:mob6001
+State = 0
+Maxstate = 0
+Bvalue = 2
+Size = 5
+Weight = 5
+Oflags { Food }
+Desc[0] = "A large piece of rabbit meat."
+End = obj6023
+
+Name = obj6023_1
+Pname = meat
+Altname = rabbit
+Location = CARRIED_BY:mob6001_1
+State = 0
+Maxstate = 0
+Bvalue = 2
+Size = 5
+Weight = 5
+Oflags { Food }
+Desc[0] = "A large piece of rabbit meat."
+End = obj6023_1
+
+Name = obj6023_2
+Pname = meat
+Altname = rabbit
+Location = CARRIED_BY:mob6001_2
+State = 0
+Maxstate = 0
+Bvalue = 2
+Size = 5
+Weight = 5
+Oflags { Food }
+Desc[0] = "A large piece of rabbit meat."
+End = obj6023_2
+
+Name = obj6023_3
+Pname = meat
+Altname = rabbit
+Location = CARRIED_BY:mob6001_3
+State = 0
+Maxstate = 0
+Bvalue = 2
+Size = 5
+Weight = 5
+Oflags { Food }
+Desc[0] = "A large piece of rabbit meat."
+End = obj6023_3
+
+Name = obj6023_4
+Pname = meat
+Altname = rabbit
+Location = CARRIED_BY:mob6001
+State = 0
+Maxstate = 0
+Bvalue = 2
+Size = 5
+Weight = 5
+Oflags { Food }
+Desc[0] = "A large piece of rabbit meat."
+End = obj6023_4
+
+Name = obj6023_5
+Pname = meat
+Altname = rabbit
+Location = CARRIED_BY:mob6001_1
+State = 0
+Maxstate = 0
+Bvalue = 2
+Size = 5
+Weight = 5
+Oflags { Food }
+Desc[0] = "A large piece of rabbit meat."
+End = obj6023_5
+
+Name = obj6023_6
+Pname = meat
+Altname = rabbit
+Location = CARRIED_BY:mob6001_2
+State = 0
+Maxstate = 0
+Bvalue = 2
+Size = 5
+Weight = 5
+Oflags { Food }
+Desc[0] = "A large piece of rabbit meat."
+End = obj6023_6
+
+Name = obj6023_7
+Pname = meat
+Altname = rabbit
+Location = CARRIED_BY:mob6001_3
+State = 0
+Maxstate = 0
+Bvalue = 2
+Size = 5
+Weight = 5
+Oflags { Food }
+Desc[0] = "A large piece of rabbit meat."
+End = obj6023_7
+
+Name = obj6023_8
+Pname = meat
+Altname = rabbit
+Location = CARRIED_BY:mob6001_4
+State = 0
+Maxstate = 0
+Bvalue = 2
+Size = 5
+Weight = 5
+Oflags { Food }
+Desc[0] = "A large piece of rabbit meat."
+End = obj6023_8
+
+Name = obj6024
+Pname = venison
+Location = CARRIED_BY:mob6004
+State = 0
+Maxstate = 0
+Bvalue = 2
+Size = 10
+Weight = 10
+Oflags { Food }
+Desc[0] = "A large piece of venison."
+End = obj6024
+
+Name = obj6024_1
+Pname = venison
+Location = CARRIED_BY:mob6016
+State = 0
+Maxstate = 0
+Bvalue = 2
+Size = 10
+Weight = 10
+Oflags { Food }
+Desc[0] = "A large piece of venison."
+End = obj6024_1
+
+%locations
+
+sundforest6000 w:sundforest6001 e:sundforest6090;
+Altitude = 5
+lflags { Outdoors }
+The Edge Of The Forest^
+   You are standing at the end of a dusty road, near the eastern edge of the
+large forest of Haon-Dor.  To the east you see the road heading back to the
+walled city, Sundhaven, and to the west is a narrow trail leading through the
+&+Gforest.
+^
+
+sundforest6001 n:sundforest6060 w:sundforest6002 e:sundforest6000;
+Altitude = 10
+lflags { Real Outdoors }
+A Trail Through The Light Forest^
+   You are on a trail leading through the forest.  There seems to be a small
+path leading north into the shadows.  To the east is the forest edge and to
+the west the trail leads further into the forest.  There are &+Gtrees&* all over
+teeming with &+Cinsects.
+^
+
+sundforest6002 s:sundforest6011 w:sundforest6003 e:sundforest6001;
+Altitude = 10
+lflags { Real Outdoors }
+A Trail Through The Light Forest^
+   You are on a narrow trail winding east and west through the &+Gforest&*.  To the
+west, the forest gradually becomes more dense.  A small forest path leads off
+to the south.
+^
+
+sundforest6003 w:sundforest6004 e:sundforest6002;
+Altitude = 10
+lflags { Real Outdoors }
+A Trail Through The Dense Forest^
+   You are on a trail winding east and west through the dense &+Gforest&*.  To
+the east, the forest gradually seems to become lighter.
+^
+
+sundforest6004 s:sundforest6005 w:sundforest6010 e:sundforest6003;
+Altitude = 10
+lflags { Real Outdoors }
+A Trail Through The Dense Forest^
+   You are on a trail winding east and west through the dense forest.  To the
+west, the &+Gtrees&* are so huge and their crowns so dense that forest remains in
+total darkness.  A small path leads south through the trees.
+^
+
+sundforest6005 n:sundforest6004 s:sundforest6006;
+Altitude = 10
+lflags { Real Outdoors }
+A Small Path In The Dense Forest^
+   You are on a small path leading through the dense forest.  The crowns of
+the old &+Gtrees&* leave the forest in an unreal twilight illumination.  The path
+continues north and south.
+^
+
+sundforest6006 n:sundforest6005 e:sundforest6007;
+Altitude = 10
+lflags { Real Outdoors }
+A Small Path In The Dense Forest^
+   You are on a small path leading through the dense forest.  The crowns of
+the old trees leave the forest in an unreal twilight illumination.  The path
+continues north and east.
+^
+
+sundforest6007 s:sundforest6012 w:sundforest6006 e:sundforest6008;
+Altitude = 10
+lflags { Real Outdoors }
+An Intersection In The Dense Forest^
+   You are on a small path leading through the dense forest.  The crowns of
+the old trees leave the forest in an unreal twilight illumination.  The forest
+gradually lightens to the east.  Paths lead east, west and south.
+^
+
+sundforest6008 n:sundforest6011 w:sundforest6007 e:sundforest6009;
+Altitude = 10
+lflags { Real Outdoors }
+The Forest Clearing^
+   You are in a clearing in the forest.  Lots of fresh &+ystumps&* of varying sizes
+protrude from the ground and heavy &+ylogs&* are stacked neatly in a big pile
+supported by &+ystakes&* set into the ground.  Paths lead north, east and west.
+^
+
+sundforest6009 n:^door_sundforest6010 s:sundforest6014 w:sundforest6008;
+Altitude = 10
+lflags { Real Outdoors }
+Outside A Small Cabin In The Forest^
+   You are outside a small &+ycabin &*built entirely from heavy logs.  There is a
+wooden door to the north and small paths lead west and south through the trees.
+^
+
+sundforest6010 s:^door_sundforest6009;
+lflags {  }
+Inside The Cabin^
+   You are inside a small one-room cabin made entirely from heavy logs.
+It is very sparsely furnished, containing only the most basic housekeeping
+equipment, such as &+Ca bed, a chair and a table.
+^
+
+sundforest6011 n:sundforest6002 s:sundforest6008;
+Altitude = 10
+lflags { Real Outdoors }
+A Small Path Through The Light Forest^
+   You are on a small path leading through the forest.  The trees are tall and
+slender.  Paths lead north and south.
+^
+
+sundforest6012 n:sundforest6007 s:sundforest6021 e:sundforest6013;
+Altitude = 10
+lflags { Real Outdoors }
+An Intersection In The Dense Forest^
+   You are on a small path leading through the dense forest.  The crowns of the
+old trees leave the forest floor in an unreal twilight illumination.  Paths
+lead north, east and south.
+^
+
+sundforest6013 w:sundforest6012 e:sundforest6014;
+Altitude = 10
+lflags { Real Outdoors }
+A Small Path In The Dense Forest^
+   You are on a small path leading through the dense forest.  The crowns of
+the old trees leave the forest in an unreal twilight illumination.  The path
+continues east and west.
+^
+
+sundforest6014 n:sundforest6009 w:sundforest6013 e:sundforest6015;
+Altitude = 10
+lflags { Real Outdoors }
+An Intersection In The Dense Forest^
+   You are on a small path leading through the dense forest.  The forest
+gradually lightens to the north.  Paths lead north, east and west.
+^
+
+sundforest6015 s:sundforest6016 w:sundforest6014;
+Altitude = 10
+lflags { Real Outdoors }
+A Small Path In The Dense Forest^
+   You are on a small path leading through the dense forest.  The crowns of
+the old trees leave the forest in an unreal twilight illumination.  The path
+continues south and west.
+^
+
+sundforest6016 n:sundforest6015 s:sundforest6017 e:sundforest6028;
+Altitude = 10
+lflags { Real Outdoors }
+A Small Path In The Dense Forest^
+   You are on a small path leading through the dense forest.  The crowns of
+the old trees leave the forest in an unreal twilight illumination.  The path
+continues north, south and east.
+^
+
+sundforest6017 n:sundforest6016 w:sundforest6018;
+Altitude = 10
+lflags { Real Outdoors }
+A Small Path In The Dense Forest^
+   You are at a turn on a small path leading through the dense forest.  The
+forest seems to become lighter to the west.  The path continues north and west.
+^
+
+sundforest6018 n:sundforest6023 w:sundforest6019 e:sundforest6017;
+Altitude = 10
+lflags { Real Outdoors }
+An Intersection In The Light Forest^
+   You are on a small path leading through the forest.  A path leads north to
+a small field and other paths lead east and west into the dense forest.
+^
+
+sundforest6019 n:sundforest6020 e:sundforest6018;
+Altitude = 10
+lflags { Real Outdoors }
+A Small Path In The Dense Forest^
+   You are on a small path leading through the dense forest.  The forest seems
+to become lighter to the east.  The path continues north and east.
+^
+
+sundforest6020 s:sundforest6019 w:sundforest6021;
+Altitude = 10
+lflags { Real Outdoors }
+A Small Path In The Dense Forest^
+   You are on a small path leading through the dense forest.  The crowns of
+the old trees leave the forest in an unreal twilight illumination.  The path
+continues south and west.
+^
+
+sundforest6021 n:sundforest6012 w:sundforest6022 e:sundforest6020;
+Altitude = 10
+lflags { Real Outdoors }
+A Small Path In The Dense Forest^
+   You are on a small path leading through the dense forest.  To the west
+you see a dark &+Ccave&* entrance, leading into a small hillside.  The path
+continues north and east.
+^
+
+sundforest6022 e:sundforest6021 s:Fire16@fire;
+lflags { Dark }
+Inside The Cave^
+   You are in a natural cave.  Various sorts of &+Cdebris&* cover the stone &+Cfloor,
+emitting a rather unpleasant smell that makes the &+Cair&* thick and hard to
+breathe.  The only obvious exit is east.
+^
+
+sundforest6023 n:sundforest6026 s:sundforest6018 e:sundforest6024;
+Altitude = 5
+lflags { Outdoors }
+A Grassy Field^
+   You are in a &+Ggrass&* covered field somewhere in the forest.  The tall grass
+nearly reaches your waist, and the surrounding oaks and beeches form an almost
+wall-like &+Gthicket&* on the east side of the field.  To the northeast you can see
+a small lake.  A small path leads south through the trees, and the field opens
+up to the north and west.  Several &+Cbirds&* circle in the sky.
+^
+
+sundforest6024 n:sundforest6025 w:sundforest6023;
+Altitude = 5
+lflags { Outdoors }
+The Lower Part Of The Grassy Field^
+   You are in a lower part of the grassy field, south of a small lake.  The
+&+Ggrass&* here has been trampled by the many animals coming here for water, leaving
+the ground covered in tracks of different types.  To the west you see a break
+in the wall of trees surrounding the field, and to the north is a small lake.
+^
+
+sundforest6025 n:sundforest6027 s:sundforest6024 w:sundforest6026;
+Altitude = 5
+lflags { Outdoors }
+Beside The Lake In A Grassy Field^
+   The &+Ggrass&* stops shortly before the &+Blake&*, replaced by mud covered in &+ytracks
+from the local animals.  When you come close many animals scatter into the tall
+grass and some even into the forest.  To the west you see &+Ybirds&* circling in the
+high in the air, and to the north you see a small lake, surrounded by tall
+reeds.  The field continues to the south, and the forest blocks passage to the
+east.
+^
+
+sundforest6026 s:sundforest6023 e:sundforest6025;
+Altitude = 5
+lflags { Outdoors }
+The Northern Section Of A Grassy Field^
+   As you come close, scavenging &+Canimals&* and &+Cbirds&* of all sorts scatter,
+leaving only the boldest and stupidest encircling the corpse of a large boar.
+Carrion birds circle overhead, and smaller animals stare out of the tall grass
+at you.  The &+Ggrass&* here has been trampled, and a large area around the corpse
+is stained by blood.  A trail leads down the sloping field to a lake, and to
+the south you see the path back to the forest.
+^
+
+sundforest6027 s:sundforest6025;
+lflags { OnWater Outdoors }
+On The Lake^
+   You are in the middle of a small &+Blake&*, fed from a small stream coming
+through the forest from the northwest.  The water is not that clear, but
+you can see fish swimming around below you.  The bank is clear to the
+south, providing a safe place to get back to the field.  The &+Gtrees&* and the
+&+yreeds&* are abundant.
+^
+
+sundforest6028 s:sundforest6029 w:sundforest6016;
+Altitude = 10
+lflags { Real Outdoors }
+A Small Path In The Dense Forest^
+   You are on a small path leading through the dense forest.  The crowns of
+the old trees leave the forest in an unreal twilight illumination.  The path
+continues to the west and south.
+^
+
+sundforest6029 n:sundforest6028 u:sundforest6030;
+Altitude = 10
+lflags { NoMobiles Real Outdoors }
+Near A Large Tree In The Dense Forest^
+   You are at the end of a small path leading through the dense forest.  The
+crowns of the old trees leave the forest in an unreal twilight illumination.
+This rough clearing is dominated by a very large &+yoak&* tree, probably the
+largest in this part of the forest.  The path leads back to the north.
+^
+
+sundforest6030 w:sundforest6031 u:sundforest6032 d:sundforest6029;
+Altitude = 100
+lflags { Outdoors Cold }
+In The Lower Branches Of A Large Oak^
+   You are in a huge oak, about one third of the way to the top.  The branches
+above you block out much of the light, but enough filters through for you to
+see.  Small animals and birds scatter at your approach, rustling the leaves
+all about you.  You could easily climb back down to the ground, or continue up
+the tree.  One large branch juts outward to the west, possibly providing a
+third choice of exit.
+^
+
+sundforest6031 e:sundforest6030 d:sundforest6016;
+Altitude = 10
+lflags { NoMobiles Real Outdoors }
+Out On A Limb In A Large Oak^
+   This sturdy branch hangs far out over a path to the west, which you might
+be able to jump down to.  Several squirrels scamper into hiding as you
+approach, leaving you alone and swaying slightly with the wind.  To your north
+you can see a small log cabin through the trees, and to the southeast there
+seems to be some sort of clearing, with many birds circling above it.
+^
+
+sundforest6032 u:sundforest6033 d:sundforest6030;
+Altitude = 100
+lflags { Outdoors Cold }
+Midway To The Top Of The Large Oak^
+   You are in a huge oak, about midway to the top.  The branches above you
+block out much of the light, but enough filters through for you to see.  A few
+&+Cbirds&* have remained to watch you from the fringe branches, well out of your
+reach.  Scratches mar the tree here, and torn bark is scattered near you on the
+branch.  It would seem some large forest cat lives nearby, so you had better be
+careful!  You can continue a bit farther &+Cup the tree, or descend to limbs that
+don't sway so much.
+^
+
+sundforest6033 d:sundforest6032;
+Altitude = 100
+lflags { Outdoors Cold }
+High In The Large Oak^
+   The tree top gently sways in the wind, and you think you are as high as
+you can safely go in the tree.  The limbs here show evidence of a small battle,
+with ripped bark and loose feathers scattered everywhere.  Looking around, you
+can see the &+ywoods&* stretching out below you in all directions.  To the east you
+see Sundhaven, and to the south the &+Briver&* runs through a deep chasm.  North and
+west of here you can see another small village, and on the western horizon you
+see a large mountain.  The only way to go from here is &+ydown.
+^
+
+sundforest6060 n:sundforest6065 s:sundforest6001;
+Altitude = 10
+lflags { Real Outdoors }
+A Shaded Path Through The Forest^
+   You are on a small shaded path leading through the trees.  The forest
+gradually lightens to the east.  The path continues to the north, and to the
+south you see the main trail.
+^
+
+sundforest6061 n:sundforest6066 w:sundforest6062;
+Altitude = 10
+lflags { Real Outdoors }
+A Shaded Path Through The Forest^
+   You are at a turn on a small shadowed path leading through the forest.  The
+forest seems to become lighter to the west.  The path continues north and west.
+^
+
+sundforest6062 n:sundforest6067 w:sundforest6063 e:sundforest6061;
+Altitude = 10
+lflags { Real Outdoors }
+A Shaded Path Through The Dense Forest^
+   You are on a small shaded path leading through the dense forest.  The
+crowns of the old trees leave the forest floor in an unreal twililght
+illumination.  To the north you see a small clearing.  Paths lead east and
+west.
+^
+
+sundforest6063 n:sundforest6068 e:sundforest6062;
+Altitude = 10
+lflags { Real Outdoors }
+A Shaded Path Through The Dense Forest^
+   You are on a small shaded path through the dense forest.  The crowns of
+the old trees leave the forest in an unreal twilight illumination.  The path
+continues north and east.
+^
+
+sundforest6064 n:sundforest6069 s:^grate_grave3400@grave;
+Altitude = 10
+lflags { Real Outdoors }
+A Shadowy Path Through The Dense Forest^
+   You are on a small shadowy path leading through the dense forest.  The
+crowns of the old trees leave the forest in an unreal twilight illumination.
+The path continues north and south, ending at a fence for what appears to be
+an old forgotten graveyard.
+^
+
+sundforest6065 s:sundforest6060 w:sundforest6066;
+Altitude = 10
+lflags { Real Outdoors }
+A Shaded Path Through The Forest^
+   You are at a turn on a small shaded path winding through the trees.  The
+forest gradually becomes more dense to the west.  The path continues west and
+south from here.
+^
+
+sundforest6066 n:sundforest6071 s:sundforest6061 e:sundforest6065;
+Altitude = 10
+lflags { Real Outdoors }
+A Fork On The Shaded Path Through The Forest^
+   You are at a fork in the small shaded path winding through the trees.  The
+forest gradually becomes more dense to the west.  The path branches to the
+north and south here, and also continues to the east.
+^
+
+sundforest6067 n:sundforest6072 s:sundforest6062;
+Altitude = 10
+lflags { Real Outdoors }
+At The Fallen Tree^
+   You are standing in a small clearing, beside a large fallen tree.  A large
+amount of the &+Gtree&* has already decomposed, but some pieces remain, scattered
+about the &+Cclearing&*.  Paths border the clearing to the north and south.
+^
+
+sundforest6068 n:sundforest6073 s:sundforest6063 w:sundforest6069;
+Altitude = 10
+lflags { Real Outdoors }
+An Intersection On The Shaded Path^
+   You are on a small shaded path leading through the dense forest.  The
+crowns of the old trees leave the forest in an unreal twilight illumination.
+The path continues north, south, and west.
+^
+
+sundforest6069 s:sundforest6064 e:sundforest6068;
+Altitude = 10
+lflags { Real Outdoors }
+A Shadowy Path Through The Dense Forest^
+   You are on a small shadowy path leading through the dense forest.  The
+crowns of the old trees leave the forest in an unreal twilight illumination.
+The path continues south and east.
+^
+
+sundforest6070 n:sundforest6078 s:sundforest6061 w:sundforest6072 e:sundforest6070;
+Altitude = 10
+lflags { Real Outdoors }
+Off Of The Path In The Shaded Forest^
+   You are wandering amongst the trees in the light forest, without the aid
+of a path or trail.  More sunlight trickles through the treetops here, making
+your travel a bit easier.  Small animals scurry away as you approach.  You
+are no longer on a path, so you may go whichever way you please.
+^
+
+sundforest6071 s:sundforest6066 w:sundforest6072 e:sundforest6070;
+Altitude = 10
+lflags { Real Outdoors }
+A Shaded Path Through The Forest^
+   You are on a small shaded path leading in between the trees.  The forest
+gradually lightens to the east.  Paths lead west and south, and you think you
+see a small path leading eastward.
+^
+
+sundforest6072 n:sundforest6075 s:sundforest6067 e:sundforest6071;
+Altitude = 10
+lflags { Real Outdoors }
+A Shaded Path Though The Forest^
+   You are on a small shaded path leading between the trees.  The forest
+gradually becomes more dense to the west.  Paths lead north and east, and you
+see a small clearing to the south.
+^
+
+sundforest6073 n:sundforest6076 s:sundforest6068;
+Altitude = 20
+lflags { Outdoors }
+A Shadowy Path Through The Dense Forest^
+   You are on a small shadowy path leading through the dense forest.  To the
+north the terrain becomes quite hilly and rough.  The crowns of the old trees
+leave the forest in an unreal twilight illumination.  The path continues north
+and south.
+^
+
+sundforest6074 n:sundforest6074 s:sundforest6070 w:sundforest6075 e:sundforest6070;
+Altitude = 10
+lflags { Real Outdoors }
+A Small Trail Through The Forest^
+   You have just left the shaded path, and you are now standing at the head of
+a very short trail.  It looks like someone begin clearing away the underbrush
+here, but didn't get finished.  You may leave in any direction, but the path
+is to the west.
+^
+
+sundforest6075 n:sundforest6078 s:sundforest6072 e:sundforest6074;
+Altitude = 10
+lflags { Real Outdoors }
+A Shaded Path Through The Forest^
+   You are on a small shaded path leading between the trees.  The forest
+gradually becomes more dense to the west, and to the northwest the terrain
+is quite &+Ghilly&*.  The path continues north and south.  To the east you see a
+trail winding through the younger section of the forest.
+^
+
+sundforest6076 n:sundforest6081 s:sundforest6076 w:sundforest6073 e:sundforest6077;
+Altitude = 20
+lflags { NoMobiles Outdoors }
+In The Dense Forest Between The Hills^
+   You are standing among tightly packed trees between several hills.  You
+lost track of the path long ago, and now must rely on your instincts to guide
+you.  The ground is very rough and rocky here, and only the most hardy plants
+survive.  The crowns of the old trees leave the hills in an unreal twilight
+illumination.
+^
+
+sundforest6077 n:sundforest6081 s:sundforest6079 w:sundforest6077 e:sundforest6076;
+Altitude = 20
+lflags { NoMobiles Outdoors }
+In The Dense Forest Between The Hills^
+   You are standing among tightly packed trees between several hills.  You
+lost track of the path long ago, and now must rely on your instincts to guide
+you.  The ground is very rough and rocky here, and only the most hardy plants
+survive.  The crowns of the old trees leave the hills in an unreal twilight
+illumination.
+^
+
+sundforest6078 s:sundforest6075 n:oni1@oni;
+Altitude = 20
+lflags { Outdoors }
+In The Dense Forest Between The Hills^
+   You are at the end of a small shaded path leading between the trees.  The
+forest is quite thick here, and the ground is very rough and &+Ghilly&*, halting
+your progress.  The path lies to the south.
+^
+
+sundforest6079 n:sundforest6081 s:sundforest6073 w:sundforest6080 e:sundforest6078;
+Altitude = 20
+lflags { NoMobiles Outdoors }
+In The Dense Forest Between The Hills^
+   You are standing among tightly packed trees between several hills.  You
+lost track of the path long ago, and now must rely on your instincts to guide
+you.  The ground is very rough and rocky here, and only the most hardy plants
+survive.  The crowns of the old trees leave the hills in an unreal twilight
+illumination.
+^
+
+sundforest6080 n:sundforest6081 s:sundforest6076 w:sundforest6081 e:sundforest6082;
+Altitude = 20
+lflags { NoMobiles Outdoors }
+In The Dense Forest Between The Hills^
+   You are standing among tightly packed trees between several hills.  You
+lost track of the path long ago, and now must rely on your instincts to guide
+you.  The ground is very rough and rocky here, and only the most hardy plants
+survive.  The crowns of the old trees leave the hills in an unreal twilight
+illumination.
+^
+
+sundforest6081 n:sundforest6078 s:sundforest6076 w:sundforest6073 e:sundforest6077;
+Altitude = 20
+lflags { NoMobiles Outdoors }
+In The Dense Forest Between The Hills^
+   You are standing among tightly packed trees between several hills.  You
+lost track of the path long ago, and now must rely on your instincts to guide
+you.  The ground is very rough and rocky here, and only the most hardy plants
+survive.  The crowns of the old trees leave the hills in an unreal twilight
+illumination.
+^
+
+sundforest6082 n:sundforest6081 s:sundforest6076 e:sundforest6079;
+Altitude = 20
+lflags { NoMobiles Outdoors }
+In The Dense Forest Between The Hills^
+   You are standing among tightly packed trees on a medium sized hill. The
+dense forest spreads out all around you, and the crowns of the old trees leave
+the hills in an unreal twilight illumination.
+^
+
+sundforest6090 w:sundforest6000 e:sundforest6091 n:fire0@fire;
+Altitude = 5
+lflags { NoMobiles Outdoors }
+A Road Through The Plains^
+   You are on a dust covered east-west road through the western plains.  An
+occasional hunter or adventurer can be seen, heading to or from the forest.
+To the east is the walled city, Sundhaven, and to the west the road ends at
+the head of a narrow trail into a large forest.  To the north lies the yard
+of a large house.
+^
+
+sundforest6091 w:sundforest6090 e:sundforest6092;
+Altitude = 5
+lflags { NoMobiles Outdoors }
+A Road Through The Plains^
+   You are on a dust covered east-west road through the western plains.  An
+occasional hunter or adventurer can be seen, heading to or from the forest.
+To the east is the walled city, Sundhaven, and to the west the road continues 
+towards a large &+Gforest.
+^
+
+sundforest6092 w:sundforest6091 e:sundhaven6748@sundhaven;
+lflags { NoMobiles Outdoors }
+A Road Through The Plains^
+   You are on a dust covered east-west road crossing the grassy plains between
+Sundhaven the forest of Haon-Dor.  An occasional hunter or adventurer can be 
+seen, heading to or from the forest. To the east is the walled city, Sundhaven, 
+and to the west the road continues towards a large &+Gforest.
+^
+

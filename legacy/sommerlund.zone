@@ -1,0 +1,2246 @@
+
+
+
+
+%mobiles
+
+Name         = barraka
+PName        = "Barraka"
+Location     = sommerlund4
+Strength     = 150
+Damage       = 10
+Armor        = 0
+Aggression   = 80
+Speed        = 0
+Description  = "The rogue bandit leader Barraka leaps at you with a rusty shovel."
+End          = barraka
+
+Name         = dakomyd
+PName        = "Dakomyd"
+Mflags       { Cross }
+Eflags       { NegFireball NegFrost }
+Location     = sommerlund53
+Strength     = 400
+Damage       = 15
+Armor        = 0
+Aggression   = 20
+Speed        = 0
+Description  = "The great shadow of the Dakomyd's bulk falls upon you."
+End          = dakomyd
+
+Name         = zakhan
+PName        = "Zakhan"
+Eflags	     { Shock }
+Location     = sommerlund12
+Strength     = 300
+Damage       = 15
+Armor        = 5
+Aggression   = 50
+Speed        = 0
+Description  = "Zakhan Kimah is far away from his empire, but still thinks you should
+bow to him." 
+End          = zakhan
+
+Name         = slavemaster
+PName        = "Slavemaster"
+Pflags       { NoZap NoSteal }
+Location     = sommerlund59
+Strength     = 300
+Damage       = 17
+Armor        = 5
+Aggression   = 0
+Speed        = 0
+Description  = "The famed Slavemaster of Aarnak looks over the latest T-shirt
+shipment requests."
+End          = slavemaster
+
+Name         = cadak
+PName        = "Cadak"
+Eflags	     { FireBall }
+Location     = sommerlund74
+Strength     = 200
+Damage       = 10
+Armor        = 0
+Aggression   = 100
+Speed        = 0
+Description  = "Arch-druid Cadak needs a new guinea pig. How about you?"
+End          = cadak
+
+Name         = ixian
+PName        = "The Deathlord"
+Pflags       { NoAlias }
+Location     = sommerlund52
+Strength     = 550
+Damage       = 10
+Armor        = 0
+Aggression   = 0
+Speed        = 0
+Description  = "The Deathlord of Ixia hasn't had his morning coffee and is, therefore,
+quite cranky!"
+End          = ixian
+
+Name         = vaxagore
+PName        = "Vaxagore"
+Location     = sommerlund79
+Strength     = 250
+Damage       = 12
+Armor        = 7
+Aggression   = 50
+Speed        = 0
+Description  = "Didn't anyone teach Vaxagore the Dragon not to play with his food?"
+End          = vaxagore
+
+Name         = wolfbane
+PName        = "Copycat"
+Location     = sommerlund52
+Strength     = 250
+Damage       = 10
+Armor        = 0
+Aggression   = 80
+Speed        = 0
+Description  = "An almost-exact copy of Lone Wolf sneers at you."
+End          = wolfbane
+
+Name         = banedon
+PName        = "Banedon"
+Pflags       { NoMagic }
+Mflags       { BarWest }
+Eflags	{ Blind }
+Location     = sommerlund24
+Strength     = 200
+Damage       = 10
+Armor        = 0
+Aggression   = 0
+Speed        = 0
+Description  = "The Guildmaster of the Brotherhood of the Crystal Star, Banedon, is
+putting on a magic show." 
+End          = banedon
+
+Name         = qinefer
+PName        = "Qinefer"
+Mflags       { BarSouth }
+Sflags       { Female }
+Location     = sommerlund15
+Strength     = 250
+Damage       = 10
+Armor        = 5
+Aggression   = 0
+Speed        = 0
+Description  = "Lone Wolf's love, Qinefer, stands here guarding her advisor."
+End          = qinefer
+
+Name         = rimoah
+PName        = "Rimoah"
+Location     = sommerlund16
+Strength     = 100
+Damage       = 10
+Armor        = 0
+Aggression   = 20
+Speed        = 0
+Description  = "Lord Rimoah ponders about the state of affairs in the kingdom."
+End          = rimoah
+
+Name         = alyss
+PName        = "Alyss"
+Mflags       { PickStuff }
+Sflags       { Female }
+Location     = sommerlund1
+Strength     = 250
+Damage       = 12
+Armor        = 0
+Aggression   = 0
+Speed        = 80
+Description  = "Sarcastic Alyss flounces teasingly at you and howls at the sky."
+End          = alyss
+
+Name         = shianti
+PName        = "Shianti"
+Eflags	     { Missile }
+Location     = sommerlund45
+Strength     = 200
+Damage       = 10
+Armor        = 0
+Aggression   = 60
+Speed        = 0
+Description  = "Grey Star the Shianti wizard is ready to go medieval on you!"
+End          = shianti
+
+Name         = vordak1
+PName        = "Vordak"
+Sflags 	{ NoBody }
+Location     = sommerlund63
+Strength     = 150
+Damage       = 12
+Armor        = 0
+Aggression   = 100
+Speed        = 0
+Description  = "A red-clad ghoul of the Vordak clan stares defiantly at you."
+End          = vordak1
+
+Name         = vordak2
+PName        = "Vordak"
+Location     = sommerlund63
+Strength     = 150
+Damage       = 12
+Armor        = 0
+Aggression   = 100
+Speed        = 0
+Description  = "Another Vordak waves its staff at you."
+End          = vordak2
+
+Name         = drakkar1
+PName        = "Patza"
+Location     = sommerlund75
+Strength     = 100
+Damage       = 10
+Armor        = 5
+Aggression   = 70
+Speed        = 0
+Description  = "Patza glares at you for interrupting his dinner."
+End          = drakkar1
+
+Name         = drakkar2
+PName        = "Pitza"
+Location     = sommerlund75
+Strength     = 100
+Damage       = 10
+Armor        = 5
+Aggression   = 70
+Speed        = 0
+Description  = "A ferociously-eating Pitza wants to permanently stop your heart for that 
+interruption."
+End          = drakkar2
+
+Name         = drakkar3
+PName        = "Putza"
+Location     = sommerlund75
+Strength     = 100
+Damage       = 10
+Armor        = 5
+Aggression   = 70
+Speed        = 0
+Description  = "The runt Putza agrees with his comrade."
+End          = drakkar3
+
+Name         = giak1
+PName        = "Aggy"
+Location     = sommerlund50
+Strength     = 50
+Damage       = 8
+Armor        = 0
+Aggression   = 100
+Speed        = 0
+Description  = "Aggy wants your hot-air head."
+End          = giak1
+
+Name         = giak2
+PName        = "Eggy"
+Location     = sommerlund50
+Strength     = 50
+Damage       = 8
+Armor        = 0
+Aggression   = 100
+Speed        = 0
+Description  = "Eggy wants your juicy red heart."
+End          = giak2
+
+Name         = giak3
+PName        = "Iggy"
+Location     = sommerlund50
+Strength     = 50
+Damage       = 8
+Armor        = 0
+Aggression   = 100
+Speed        = 0
+Description  = "Iggy wants to chop off your hands."
+End          = giak3
+
+Name         = giak4
+PName        = "Oggy"
+Location     = sommerlund50
+Strength     = 50
+Damage       = 8
+Armor        = 0
+Aggression   = 100
+Speed        = 0
+Description  = "Oggy wants to take your health."
+End          = giak4
+
+Name         = slutar
+PName        = "Slutar"
+Mflags       { BarEast }
+Location     = sommerlund81
+Strength     = 300
+Damage       = 10
+Armor        = 0
+Aggression   = 0
+Speed        = 0
+Description  = "Slutar asks if you want to play a game of Monopoly."
+End          = slutar
+
+Name         = ghanesh
+PName        = "Ghanesh"
+Location     = sommerlund81
+Strength     = 325
+Damage       = 12
+Armor        = 0
+Aggression   = 0
+Speed        = 0
+Description  = "Darklord Ghanesh rolls doubles and buys Electric Company."
+End          = ghanesh
+
+Name         = xog
+PName        = "Xog"
+Location     = sommerlund81
+Strength     = 350
+Damage       = 14
+Armor        = 0
+Aggression   = 0
+Speed        = 0
+Description  = "Xog lands on Free Parking and collects the income tax you just paid."
+End          = xog
+
+Name         = zagarna
+PName        = "Zagarna"
+Location     = sommerlund82
+Strength     = 375
+Damage       = 16
+Armor        = 0
+Aggression   = 0
+Speed        = 0
+Description  = "Zagarna really stinks with B. and  O. Railroad."
+End          = zagarna
+
+Name         = kraggenskul
+PName        = "Kraggenskul"
+Mflags       { BarSouth }
+Location     = sommerlund82
+Strength     = 400
+Damage       = 10
+Armor        = 0
+Aggression   = 0
+Speed        = 0
+Description  = "Kraggenskul, a 'community pest', can get out of jail free now."
+End          = kraggenskul
+
+Name         = haakon
+PName        = "Haakon"
+Location     = sommerlund82
+Strength     = 425
+Damage       = 12
+Armor        = 0
+Aggression   = 0
+Speed        = 0
+Description  = "Haakon claps his claws together wildly as you go directly to jail!"
+End          = haakon
+
+Name         = taktaal
+PName        = "Taktaal"
+Location     = sommerlund83
+Strength     = 450
+Damage       = 14
+Armor        = 0
+Aggression   = 0
+Speed        = 0
+Description  = "Taktaal puts on his sunglasses as he cruises to Boardwalk."
+End          = taktaal
+
+Name         = gnaag
+PName        = "Gnaag"
+Location     = sommerlund83
+Strength     = 475
+Damage       = 16
+Armor        = 0
+Aggression   = 0
+Speed        = 0
+Description  = "Gnaag has a 12-streak as he zips past you again and again." 
+End          = gnaag
+
+Name         = vashna
+PName        = "Vashna"
+Mflags       { BarSouth }
+Location     = sommerlund83
+Strength     = 500
+Damage       = 18
+Armor        = 0
+Aggression   = 0
+Speed        = 0
+Description  = "Vashna hates Monopoly and is interested only in sinking his weapon 
+hilt-deep into your fleshy abdomen." 
+End          = vashna
+
+Name         = lonewolf
+PName        = "Lone Wolf"
+Eflags       { Missile }
+Location     = sommerlund88
+Strength     = 700
+Damage       = 7
+Armor        = 0
+Aggression   = 0
+Speed        = 0
+Description  = "Young Lone Wolf is here acting childishly."
+End          = lonewolf
+
+Name         = fruitcake
+PName        = "Fruitcake"
+Mflags       { BarWest BarNorth }
+Sflags       { Female }
+Location     = sommerlund18
+Strength     = 300
+Damage       = 12
+Armor        = 5
+Aggression   = 0
+Speed        = 0
+Description  = "The legendary Fruitcake of lore is juggling fruit here."
+End          = fruitcake
+
+Name         = muddle
+PName        = "Muddle"
+Eflags       { Blind }
+Sflags       { Blind NoBody }
+Location     = sommerlund20
+Strength     = 155
+Damage       = 10
+Armor        = 10
+Aggression   = 100
+Speed        = 0
+Description  = "A muck-covered monstrosity, Muddle, moshes from the muddy mire, ready
+to maul your middle!"
+End          = muddle
+
+Name         = protean
+PName        = "Protean"
+Sflags	{ NoBody }
+Location     = sommerlund57
+Strength     = 150
+Damage       = 10
+Armor        = 0
+Aggression   = 100
+Speed        = 50
+Description  = "One of the ring builders of the shape shifting god Protean is here."
+End          = protean
+
+Name         = carboid
+PName        = "Carboid"
+Location     = sommerlund58
+Sflags	{ Nobody }
+Strength     = 100
+Damage       = 10
+Armor        = 0
+Aggression   = 100
+Speed        = 50
+Description  = "A shapeless mass of carboid goo attempts to smother you."
+End          = carboid
+
+Name         = lucille
+PName        = "Lucille"
+Sflags       { Female }
+Location     = sommerlund56
+Strength     = 400
+Damage       = 10
+Armor        = 0
+Aggression   = 0
+Speed        = 50
+Description  = "Though only eight herself, Lucille chose to join the undead."
+End          = lucille
+
+Name         = ishir
+PName        = "Ishir"
+Sflags	{ Female }
+Pflags       { NoZap NoAlias NoSteal NoHassle NoPunt }
+Location     = sommerlund54
+Strength     = 1000
+Damage       = 10
+Armor        = 0
+Aggression   = 0
+Speed        = 0
+Description  = "Ishir, High Priestess of the Moon, smiles at your approach."
+End          = ishir
+
+Name         = organodeath
+PName        = "OrganoDeath"
+Pflags       { NoZap NoAlias NoExo NoMagic NoSteal }
+Eflags       { Blind }
+Sflags	 { NoLegs }
+Location     = sommerlund89
+Strength     = 5000
+Damage       = 25
+Armor        = 45
+Aggression   = 0
+Speed        = 0
+Description  = "
+A flying tree with inflatable hands of death bursts forth from the earth and 
+fixes you with an icy glare...
+In a deep, stentorian voice, OrganoDeath grumbles,
+'My masters are dead?! Then, so shall be you! Vashna's revenge shall be 
+fulfilled!'
+With a unholy shriek of rage, OrganoDeath charges toward you, branches 
+ready to peel you like papier mache."
+End          = organodeath
+
+
+%objects
+
+Name         = chandelier
+PName        = chandelier
+Oflags       { NoGet }
+Location     = IN_ROOM:sommerlund30
+State        = 1
+Maxstate     = 1
+Desc[0]      = "The fragments of a shattered chandelier litter the floor."
+Desc[1]      = "A fragile chandelier catches the sun rays and turns them into rainbows."
+Examine      = "
+A special wire suspends the chandelier, its only weakness being that of
+red boomerangs unusual velocity."
+End          = chandelier
+
+Name         = cake
+PName        = cheesecake
+Oflags       { Food }
+Location     = IN_ROOM:sommerlund59
+Desc[0]      = "A slice of cheesecake has been left here."
+Examine      = "Eat me to return home."
+End          = cake
+
+Name         = shirt
+PName        = shirt
+Oflags       { Wearable }
+Bvalue       = 10
+Location     = CARRIED_BY:slavemaster
+Armor        = 0
+Desc[0]      = "A nicely folded shirt is here."
+Examine      = "
+It bears the woven message 'Always follow the NEWly SEWN ENDS!'"
+End          = shirt
+
+Name         = sommerswerd
+PName        = Sommerswerd
+AltName      = blade
+Oflags       { Weapon Reflect }
+Location     = WIELDED_BY:lonewolf 
+BValue       = 2000
+Size         = 15
+Weight       = 15
+Damage       = 30
+Armor        = 0
+Desc[0]      = "The blade of some sun hovers proudly here."
+Examine      = "
+This is a weapon forged by the Sun God Kai. No runes cover its silver-plated 
+hilt, but power drawn directly from the Plane of Light courses through
+its slim, white blade."
+End          = sommerswerd
+
+Name         = tunic
+PName        = tunic
+Oflags       { Wearable Container }
+Location     = WORN_BY:barraka
+BValue       = 50
+Size         = 10
+Weight       = 4
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "An old, dust-covered tunic lies on the ground here."
+Examine      = "It will keep you from shivering on cold night."
+End          = tunic
+
+Name         = goldcrown
+PName        = goldcrown
+AltName      = coin
+Location     = IN_CONTAINER:tunic
+BValue       = 250
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A shiny, yellow coin lies here for the taking."
+Examine      = "The face of Baron Vanalund of Ruanon stares back at you."
+End          = goldcrown
+
+Name         = triangle
+PName        = triangle
+Oflags       { Key }
+Location     = CARRIED_BY:qinefer
+BValue       = 100
+Size         = 2
+Weight       = 3
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A sleek blue stone triangle lies half-buried in the dirt."
+Examine      = "Its equilateral sides are perfectly smooth."
+End          = triangle
+
+Name         = doomstone
+PName        = doomstone
+AltName      = stone
+Oflags       { NoGet }
+Location     = IN_ROOM:sommerlund45 
+BValue       = 150
+Size         = 3
+Weight       = 3
+Damage       = 0
+Armor        = 0
+State        = 1
+MaxState     = 1
+Desc[0]      = "A dark sphere of doomstone sits here, burning black on the inside."
+Desc[1]      = "A lump of sand protrudes here."
+Examine      = "High-energy radiation pours from all surfaces points."
+End          = doomstone 
+
+Name         = lorestone 
+PName        = lorestone
+AltName      = stone
+Location     = IN_ROOM:sommerlund36
+BValue       = 150
+Size         = 3
+Weight       = 3
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A many-faceted lorestone glows with incredible energy."
+Examine      = "It resembles the giant ball of flaming gas in the sky."
+End          = lorestone
+
+Name         = moonstone 
+PName        = moonstone
+AltName      = stone
+Location     = CARRIED_BY:shianti
+BValue       = 150
+Size         = 3
+Weight       = 3
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A strange oval moonstone sparkles here."
+Examine      = "Its glossy surface is smooth and polished."
+End          = moonstone
+
+Name         = kai
+PName        = kai
+AltName      = box
+Oflags       { Container }
+Location     = IN_ROOM:sommerlund31
+BValue       = 50
+Size         = 21
+Weight       = 5
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A strange, wooden box lays open here."
+Examine      = "It is designed to hold seven objects decreed by a goddess."
+End          = kai
+
+Name         = seal
+PName        = seal
+Location     = IN_ROOM:sommerlund7
+BValue       = 100
+Size         = 1
+Weight       = 2
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A signet seal ring rusts here, probably lost by a messanger."
+Examine      = "It has a small topaz set in the top and is engraved with silver initials 
+around it."
+End          = seal
+
+Name         = broadsword
+PName        = broadsword
+Oflags       { Weapon }
+Location     = WIELDED_BY:qinefer
+BValue       = 75
+Size         = 10
+Weight       = 12
+Damage       = 10
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A weapon of choice for many warriors is the broadsword."
+End          = broadsword
+
+Name         = star
+PName        = star
+AltName      = pendant
+Oflags       { Wearable Armor }
+Aflags 	 { Neck }
+Location     = IN_CONTAINER:chest
+BValue       = 75
+Size         = 1
+Weight       = 2
+Damage       = 0
+Armor        = 7
+State        = 0
+MaxState     = 0
+Desc[0]      = "A crystal pendant in the shape of a star sparkles brightly here."
+Examine      = "The mark of the magicians of Sommerlund."
+End          = star
+
+Name         = statue
+PName        = statue
+AltName      = bust
+Oflags       { GetFlips }
+Location     = IN_ROOM:sommerlund53
+BValue       = 200
+Size         = 7
+Weight       = 10
+Damage       = 0
+Armor        = 0
+State        = 1
+MaxState     = 1
+Desc[0]      = "A statue of Naar broods silently on how to destroy the world."
+Desc[1]      = "A nice-sized statue of Naar rests on a circular dais here."
+Examine      = "A faint aura of evil radiates from it."
+End          = statue
+
+Name         = boomer
+PName        = boomerang
+AltName      = red
+Oflags       { Weapon }
+Location     = WIELDED_BY:zakhan
+BValue       = 200
+Size         = 3
+Weight       = 3
+Damage       = 1
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A pure red boomerang here is sheathed in itsown energy cloak."
+Examine      = "Not quite as useful as its silver counterparts."
+End          = boomer
+
+Name         = sommermail
+PName        = sommermail
+AltName      = mail
+Oflags       { Wearable Armor }
+Aflags       { Chest Back }
+Location     = WORN_BY:lonewolf
+BValue       = 400
+Size         = 12
+Weight       = 7
+Damage       = 0
+Armor        = 35
+State        = 0
+MaxState     = 0
+Desc[0]      = "A suit of white platinum mail, engraved with golden runes, is here."
+Examine      = "It is one nifty piece of craftswork."
+End          = sommermail
+
+Name         = deathstaff
+PName        = Deathstaff
+AltName      = staff
+Oflags       { Weapon }
+Location     = WIELDED_BY:ixian
+BValue       = 350
+Size         = 8
+Weight       = 5
+Damage       = 14
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A three-foot black staff covered with runes of power has clattered to
+the floor here."
+Examine      = "It was made by evil and can destroy certain lords of evil."
+End          = deathstaff
+
+Name         = sommerhelm
+PName        = sommerhelm
+AltName      = helm
+Oflags       { Wearable Armor }
+Aflags       { Head }
+Location     = WORN_BY:lonewolf
+BValue       = 300
+Size         = 5
+Weight       = 5
+Damage       = 0
+Armor        = 21
+State        = 0
+MaxState     = 0
+Desc[0]      = "An ancient helm of lore is here."
+Examine      = "It almost matches the white of a skull."
+End          = sommerhelm
+
+Name         = sommershield
+PName        = sommershield
+AltName      = shield
+Oflags       { Wearable Armor Shield }
+Location     = WORN_BY:lonewolf
+BValue       = 300
+Size         = 9
+Weight       = 10
+Damage       = 0
+Armor        = 35
+State        = 0
+MaxState     = 0
+Desc[0]      = "A white shield with a burning sun logo lies facedown in the dirt here."
+Examine      = "It should serve to protect your non-weapon arm."
+End          = sommershield
+
+Name         = dagger
+PName        = dagger
+Oflags       { Weapon }
+Location     = WIELDED_BY:vashna
+BValue       = 125
+Size         = 3
+Weight       = 4
+Damage       = 10
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "An entirely black dagger sits here."
+Examine      = "A blue flame runs along its twisted blade."
+End          = dagger
+
+Name         = apple
+PName        = apple
+AltName      = fruit
+Oflags       { Food }
+Location     = CARRIED_BY:fruitcake
+BValue       = 10
+Size         = 2
+Weight       = 2
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A tasty-looking apple has been dropped here by Mother Nature."
+End          = apple
+
+Name         = orange
+PName        = orange
+AltName      = fruit
+Oflags       { Food }
+Location     = CARRIED_BY:fruitcake
+BValue       = 10
+Size         = 2
+Weight       = 2
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A tasty-looking orange has been dropped here by Mother Nature."
+End          = orange
+
+Name         = banana
+PName        = banana
+AltName      = fruit
+Oflags       { Food }
+Location     = CARRIED_BY:fruitcake
+BValue       = 10
+Size         = 2
+Weight       = 2
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A tasty-looking banana has been dropped here by Mother Nature."
+End          = banana
+
+Name         = kiwi
+PName        = kiwi
+AltName      = fruit
+Oflags       { Food }
+Location     = CARRIED_BY:fruitcake
+BValue       = 10
+Size         = 2
+Weight       = 2
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A tasty-looking kiwi has been dropped here by Mother Nature."
+End          = kiwi
+
+Name         = blueberry
+PName        = blueberry
+AltName      = fruit
+Oflags       { Food }
+Location     = CARRIED_BY:fruitcake
+BValue       = 10
+Size         = 2
+Weight       = 2
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A tasty-looking blueberry has been dropped here by Mother Nature."
+End          = blueberry
+
+Name         = grape
+PName        = grape
+AltName      = fruit
+Oflags       { Food }
+Location     = CARRIED_BY:fruitcake
+BValue       = 10
+Size         = 2
+Weight       = 2
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A tasty-looking grape has been dropped here by Mother Nature."
+End          = grape
+
+Name         = signpost
+PName        = signpost
+AltName      = sign
+Oflags       { NoGet }
+Location     = IN_ROOM:sommerlund18
+BValue       = 0
+Size         = 10
+Weight       = 12
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A large signpost stands firmly rooted into the ground."
+Examine      = "
+Welcome to fruitdom! It was 4000 years ago when the orignal settlers came to 
+this part of the Great Forest. The land was plentiful with scrumptuous fruits,
+too plentiful, really. The fruits mutated when a meteor devastated a nearby 
+volcano and leaked posionous gases. Heavy concentrations of these gases 
+promoted extreme growth in the fruits and led to the ascendence of their 
+civilization. The locals were horrified by the changes, but allowed 
+co-existence. However, the Fruits would not tolerate being eaten. They 
+regarded present-day apples and oranges as future kin, even though they had 
+not undergone any mutation. As expected, confined riots and minor skirmishes 
+dissolved into an all-out war. Ultimately, the Fruits outnumbered the humans, 
+and all of them were eradicated except for a few prisoners. The Fruit 
+sorcerors unveiled their long-dormant magic and created human-Fruit hybrids. 
+But almost immediately following their creation, they were shunned by their 
+creators and became outcasts in the forest. Hurt and angry at the Fruits, the 
+hybrids revolted. Again, the Fruits suceeded in decimating their enemy, but 
+one escaped. This hybrid, still retaining 50 percent of her humanity, had a 
+plan for revenge. She developed a chemical formula which made all the Fruits 
+sterile. The effect was immediate; the Fruits panicked when they learned 
+their fate. Given the Fruits long life of a thousand years, she knew she 
+would have to wait. During this time period, she would periodically visit 
+nearby towns and then quickly vanish. The surrounding neighborhoods picked up
+evidence of a being who they thought possessed immortality. After all, no 
+mere mortal surely could live more than a century. Thus, they enshrined and 
+consecrated the Tor Forest to protect the secret of 'immortality.' Raised to 
+the status of a legend, the hybrid drew back to the safety of the forest and 
+inwardly smiled as the last of the Fruits fell to the ground, becoming an 
+extinct species. By this time, she was drawing close to the time of her 
+own death. She was looking forward to it, and one day, stumbled onto this 
+clearing. After planting the fruit trees to remind her of what the original 
+forest looked like, she settled back and considered her life's work over.
+                        - As recorded by Fruitcake"
+End          = signpost
+
+Name         = kaidoor1
+PName        = door
+Oflags       { NoGet Openable }
+Location     = IN_ROOM:sommerlund22
+Linked       = kaidoor2
+BValue       = 0
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 1
+MaxState     = 1
+Desc[0]      = "The door is open, letting a draft in."
+Desc[1]      = "The door is solidly slammed shut."
+Examine      = "Yup, definitely a door!"
+End          = kaidoor1
+
+Name         = kaidoor2
+PName        = door
+Oflags       { NoGet Openable }
+Location     = IN_ROOM:sommerlund23
+Linked       = kaidoor1
+BValue       = 0
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 1
+MaxState     = 1
+Desc[0]      = "The door is open, letting a draft in."
+Desc[1]      = "The door is solidly slammed shut."
+Examine      = "Yup, definitely a door!"
+End          = kaidoor2
+
+Name         = wheeldoor1
+PName        = wheel
+Oflags       { NoGet Pushtoggle }
+Location     = IN_ROOM:sommerlund24
+Linked       = wheeldoor2
+BValue       = 0
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 1
+MaxState     = 1
+Desc[0]      = "A wheel has been shoved to the side, revealing an exit to the west."
+Desc[1]      = "A rapidly spinning wheel with a person on it stands here." 
+Examine      = "It appears to be a door of some kind."
+End          = wheeldoor1
+
+Name         = wheeldoor2
+PName        = wheel
+Oflags       { NoGet Pushtoggle }
+Location     = IN_ROOM:sommerlund25
+Linked       = wheeldoor1
+BValue       = 0
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 1
+MaxState     = 1
+Desc[0]      = "A wheel has been shoved open, revealing an exit to the east."
+Desc[1]      = "The round back of a wheel blocks the passage."
+Examine      = "It appears to be a door of some kind."
+End          = wheeldoor2
+
+Name         = coachdoor1
+PName        = door
+Oflags       { NoGet Openable Lockable }
+Location     = IN_ROOM:sommerlund25
+Linked       = coachdoor2
+BValue       = 0
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 2
+MaxState     = 2
+Desc[0]      = "The door is open, letting a draft in."
+Desc[1]      = "The door is solidly slammed shut."
+Desc[2]      = "The door is bolted and chained."
+End          = coachdoor1
+
+Name         = coachdoor2
+PName        = door
+Oflags       { NoGet Openable Lockable }
+Location     = IN_ROOM:sommerlund26
+Linked       = coachdoor1
+BValue       = 0
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 2
+MaxState     = 2
+Desc[0]      = "The door is open, letting a draft in."
+Desc[1]      = "The door is solidly slammed shut."
+Desc[2]      = "The door is bolted and chained."
+End          = coachdoor2
+
+Name         = chest
+PName        = chest
+Oflags       { NoGet Openable Lockable Container }
+Location     = IN_ROOM:sommerlund26
+BValue       = 0
+Size         = 50
+Weight       = 3
+Damage       = 0
+Armor        = 0
+State        = 2
+MaxState     = 2
+Desc[0]      = "The chest is open. Is there treasure inside?"
+Desc[1]      = "The chest is closed. Is there a bomb inside?"
+Desc[2]      = "The chest is locked. Got a key?"
+End          = chest
+
+Name         = trapdoor1
+PName        = trapdoor
+AltName      = door
+Oflags       { NoGet Openable Lockable }
+Location     = IN_ROOM:sommerlund29
+Linked       = trapdoor2
+BValue       = 0
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 2
+MaxState     = 2
+Desc[0]      = "The trapdoor is open."
+Desc[1]      = "The trapdoor is closed."
+Desc[2]      = "The trapdoor is locked."
+Examine      = "Be glad this doesn't lead to a pit of alligators."
+End          = trapdoor1
+
+Name         = trapdoor2
+PName        = trapdoor
+Oflags       { NoGet Openable Lockable }
+Location     = IN_ROOM:sommerlund30
+Linked       = trapdoor1
+BValue       = 0
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 2
+MaxState     = 2
+Desc[0]      = "The trapdoor is open."
+Desc[1]      = "The trapdoor is closed."
+Desc[2]      = "The trapdoor is locked."
+Examine      = "Be glad this doesn't lead to a pit of alligators."
+End          = trapdoor2
+
+Name         = vaultdoor1
+PName        = vault
+Oflags       { NoGet Openable Lockable }
+Location     = IN_ROOM:sommerlund35
+Linked       = vaultdoor2
+BValue       = 0
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 3
+MaxState     = 3
+Desc[0]      = "The vault is open, letting a draft in."
+Desc[1]      = "The vault is solidly slammed shut."
+Desc[2]      = "The vault is bolted and chained."
+Desc[3]      = "The vault is sealed with wax."
+Examine      = "
+Whoever tries to break-in is going to have a problem with this vault."
+End          = vaultdoor1
+
+Name         = vaultdoor2
+PName        = vault
+Oflags       { NoGet Openable Lockable }
+Location     = IN_ROOM:sommerlund36
+Linked       = vaultdoor1
+BValue       = 0
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 3
+MaxState     = 3
+Desc[0]      = "The vault is open, letting a draft in."
+Desc[1]      = "The vault is solidly slammed shut."
+Desc[2]      = "The vault is bolted and chained."
+Desc[3]      = "The vault is sealed with wax."
+Examine      = "
+Whoever tries to break-in is going to have a problem with this vault."
+End          = vaultdoor2
+
+Name         = plaque
+PName        = plaque
+Oflags       { NoGet }
+Location     = IN_ROOM:sommerlund35
+BValue       = 0
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "There is a plaque firmly attached to the wall here."
+Examine      = "
+In order to remove the wax, say your answer to the following riddle: A colony 
+of virulent bacteria doubles in size every 24 hours. It takes forty-three days
+to fill up a standard culture petri dish. How many days would it take for the
+petri dish to be half-full?"
+End          = plaque
+
+Name         = mask
+PName        = swimmask
+AltName      = mask
+Oflags       { Wearable GetFlips Armor }
+Aflags { Face }
+Location     = IN_ROOM:sommerlund38
+BValue       = 25
+Size         = 4
+Weight       = 3
+Damage       = 0
+Armor        = 4
+State        = 1
+MaxState     = 1
+Desc[0]      = "A wooden mask has been left here."
+Desc[1]      = "A simple, wooden swimmask hangs on a hook."
+End          = mask
+
+Name         = aqualung
+PName        = aqualung
+Oflags       { Wearable Breathe }
+Aflags	     { Back }
+Location     = IN_ROOM:sommerlund38
+BValue       = 75
+Size         = 8
+Weight       = 10
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "An aqualung here looks like it would fit you nicely."
+End          = aqualung
+
+Name         = flippers
+PName        = flippers
+Oflags       { Wearable GetFlips Armor }
+Aflags       { Feet }
+Location     = IN_ROOM:sommerlund38
+BValue       = 25
+Size         = 5
+Weight       = 5
+Damage       = 0
+Armor        = 18
+State        = 1
+MaxState     = 1
+Desc[0]      = "A pair of worn flippers are here."
+Desc[1]      = "The seals envy a pair of flippers hich lie on a table here."
+End          = flippers
+
+Name         = wetsuit
+PName        = wetsuit
+AltName      = suit
+Oflags       { Wearable Armor }
+Aflags	{ Chest Arms Legs Head }
+Location     = IN_ROOM:sommerlund38
+BValue       = 55
+Size         = 10
+Weight       = 6
+Damage       = 0
+Armor        = 10
+State        = 0
+MaxState     = 0
+Desc[0]      = "A warm-looking suit protects its user from cold."
+End          = wetsuit
+
+Name         = yacht
+PName        = yacht
+AltName      = duckie
+Oflags       { Boat }
+Location     = IN_ROOM:sommerlund38
+BValue       = 80
+Size         = 15
+Weight       = 15
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A rubber-duckie yacht awaits to take someone to high adventure on the 
+seven seas."
+Examine      = "Quack!"
+End          = yacht
+
+Name         = cavedoor1
+PName        = door
+Oflags       { NoGet Openable }
+Location     = IN_ROOM:sommerlund53
+Linked       = cavedoor2
+BValue       = 0
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 1
+MaxState     = 1
+Desc[0]      = "The door is open, letting a draft in."
+Desc[1]      = "The door is solidly slammed shut."
+End          = cavedoor1
+
+Name         = cavedoor2
+PName        = door
+Oflags       { NoGet Openable }
+Location     = IN_ROOM:sommerlund55
+Linked       = cavedoor1
+BValue       = 0
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 1
+MaxState     = 1
+Desc[0]      = "The door is open, letting a draft in."
+Desc[1]      = "The door is solidly slammed shut."
+End          = cavedoor2
+
+Name         = egg
+PName        = egg
+Oflags       { Destroyed }
+Location     = IN_CONTAINER:nest
+BValue       = 300
+Size         = 4
+Weight       = 5
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A speckled dragon's egg rolls slightly here."
+Examine      = "I wouldn't eat it if I were you."
+End          = egg
+
+Name         = nest
+PName        = nest
+Oflags       { NoGet Container }
+Location     = IN_ROOM:sommerlund79
+BValue       = 0
+Size         = 15
+Weight       = 20
+Damage       = 0
+Armor        = 0
+State        = 1
+MaxState     = 1
+Desc[0]      = "A beautiful, well-made dragon nest is here."
+Examine      = ""
+End          = nest
+
+Name         = book
+PName        = cookbook
+AltName      = book
+Location     = IN_ROOM:sommerlund84
+BValue       = 100
+Size         = 5
+Weight       = 9
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A mighty cookbook lies before you."
+Examine      = "It is a tome of unusual size."
+End          = book
+
+Name         = page
+PName        = page
+AltName      = parchment
+Oflags       { Destroyed }
+Location     = IN_ROOM:sommerlund90
+BValue       = 30
+Size         = 2
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A piece of parchment, yellow with age, lies here."
+Examine      = "
+Homemade Discipline
+
+1 speckled egg
+1 gold crown
+this page
+
+Put the ingredients into a mortar and heat well."
+End          = page
+
+Name         = mortar
+PName        = mortar
+AltName      = bowl
+Oflags       { Container GetFlips }
+Location     = IN_ROOM:sommerlund84
+BValue       = 25
+Size         = 7
+Weight       = 4
+Damage       = 0
+Armor        = 0
+State        = 1
+MaxState     = 1
+Desc[0]      = "A mortar filled with decayed remains is here."
+Desc[1]      = "A medium-sized clay bowl lies on a table here."
+Examine      = "It would withstand quite a bit of heat."
+End          = mortar
+ 
+Name         = fire
+PName        = fire
+Oflags       { NoGet Lit }
+Location     = IN_ROOM:sommerlund86
+BValue       = 0
+Size         = 10
+Weight       = 5
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A fire burns madly here."
+Examine      = "There is a bowl-shaped opening in the middle of the fire."
+End          = fire
+
+Name         = discipline
+PName        = discipline
+AltName      = mind
+Location     = IN_ROOM:sommerlund90
+BValue       = 500
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A state of mind has manifested itself here."
+Examine      = "It seems it could cure the foolishness of any child."
+End          = discipline
+
+Name         = banner
+PName        = banner
+Location     = CARRIED_BY:organodeath
+BValue       = 50
+Size         = 8
+Weight       = 5
+Damage       = 0
+Armor        = 0
+State        = 1
+MaxState     = 1
+Desc[0]      = "A banner of the sun lies discarded here."
+Examine      = "Wave me and we both shall fly."
+End          = banner
+
+Name         = labdoor1
+PName        = door
+Oflags       { NoGet Openable Lockable }
+Location     = IN_ROOM:sommerlund83
+Linked       = labdoor2
+BValue       = 0
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 2
+MaxState     = 2
+Desc[0]      = "The door is open, letting a draft in."
+Desc[1]      = "The door is solidly slammed shut."
+Desc[2]      = "The door is bolted and chained."
+End          = labdoor1
+
+Name         = labdoor2
+PName        = door 
+Oflags       { NoGet Openable Lockable }
+Location     = IN_ROOM:sommerlund84
+Linked       = labdoor1
+BValue       = 0
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 2
+MaxState     = 2
+Desc[0]      = "The door is open, letting a draft in."
+Desc[1]      = "The door is solidly slammed shut."
+Desc[2]      = "The door is bolted and chained."
+End          = labdoor2
+
+Name         = sign 
+PName        = sign
+Oflags       { NoGet }
+Location     = IN_ROOM:sommerlund87
+BValue       = 0
+Size         = 13
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A jewel-encrusted sign is here."
+Examine      = "
+The author of this zone gives thanks to the authors of the Lone Wolf 
+role-playing series, Joe Dever, Ian Page, and Gary Chalk for their ideas, 
+which form the foundation of the zone. Further acknowledgements go to 
+the Magic Card Game, and my friends Dave Cockerham, Jason Trowbridge, and 
+Jason Marino. :)" 
+End          = sign
+
+Name         = rocksign
+PName        = rock
+Oflags       { NoGet }
+Location     = IN_ROOM:sommerlund89
+BValue       = 0
+Size         = 1
+Weight       = 1
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "An engraved rock squats helplessly here."
+Examine      = "
+Nought but a sword of the sun may block a stab from the grave." 
+End          = rocksign
+
+Name         = stonehands
+PName        = stonehands
+AltName      = hands
+Oflags       { Weapon Wearable }
+Location     = BOTH_BY:organodeath
+Size         = 0
+Weight       = 0
+BValue       = 100
+Damage       = 0
+Armor        = 0
+State        = 0
+MaxState     = 0
+Desc[0]      = "A pair of inflatable granite hands lies here, ready to enchant you."
+Examine      = "You might look cool with these, but not actually do anything."
+End          = stonehands
+
+%locations
+
+sommerlund1 n:desertSD61@sdesert s:sommerlund2;
+Lflags { Outdoors Hot }
+Wildlands^
+  The desert remains ever so parched further to the south. Mile after mile 
+you plod on, your thirst increasing as the sun beats down relentlessly. 
+Mirages of water wink in and out of existence before you, tempting your dry 
+mouth to gobble some sand. The desert plains seem to contain almost no 
+life, only a few yellowish-white handfuls of dehydrated scrub grass.
+^
+sommerlund2 n:sommerlund1 s:sommerlund3;
+Lflags { Outdoors Hot }
+Wildlands^
+  Here the desert begins to give way to taller grasses and even a few small 
+trees. The dirt itself seems to be getting more fertile. You can pick up a 
+handful of the soil and not choke on the dust you displace. To the south lies
+what appears to be an abandoned hut. To the north lies the unforgiving desert.
+^
+sommerlund3 n:sommerlund2 e:sommerlund4 s:sommerlund5;
+Lflags { Outdoors }
+Pass of Moytura^
+  This is a small pass between low foothills. It is a connection between the 
+desert and the distant fertile farmlands. There is a hut off to one side of 
+the pass, looking like it has been derelict for centuries. This pass was often
+a place for thieves and cutthroats to gain riches by ambushing merchants who 
+travel to the village to sell their wares. It is possible that this hut was 
+used as a storage facility for such purposes.
+^
+sommerlund4 w:sommerlund3;
+Lflags { }
+Raiders' Hut^
+  As you push open the decaying straw door of the hut, the door hinges creak 
+and groan. At first glance, the hut appears to be nearly empty. There is still
+the impressions in the dirt left by countless bags of silver or gold. A chest 
+in the back of the hut lies filled with old mining equipment, broken and 
+useless. Dust lines the shelves on one wall, with a single, empty jar perched
+defiantly on one. However, you see some bedding material in the corner. It is 
+in a state of disarray and slightly coated with dirt, but bears every sign of 
+having been recently used.
+^
+sommerlund5 n:sommerlund3 e:sommerlund6 w:sommerlund8;
+Lflags { Outdoors }
+Fork in the Trail^
+  Only a few traces of the nearby desert are here. Those seeking a dry climate
+and numerous reptilian creatures should keep the morning sun on their right.
+Built out on the edge of the desert lies a small city. The faint aroma of 
+barbecued mutton floats on a slight breeze. To the west, the trail
+continues towards farmlands.
+^
+sommerlund6 e:sommerlund7 w:sommerlund5;
+Lflags { Outdoors }
+Ragadorn^
+  This is the central bazaar for all the people on and around the desert. 
+People come to trade their wares and talk about the latest gossip from the 
+ruler of the city, who lives in a giant, pearly palace on the northern side. 
+You pass stand after stand of merchants, all who try to get your attention and
+your money. There is the occasional shop set on the sides of the wide, 
+cobblestoned streets. The mutton you smelled earlier emanates from a smokehouse
+in the center of the city. A roaring fire belches ungainly amounts of heavy 
+black smoke upwards and threatens to blockade the sun. Stay for a while and 
+enjoy the daily life of Ragadorn!
+^
+sommerlund7 w:sommerlund6;
+Lflags { Outdoors }
+Alleyway^
+  Set away from the prying eyes of the Ragadorn townguard, this filthy drainage
+street could be an ideal place for merchants of the black market to conduct 
+their business. Other denizens would include beggars, thieves, and sewer rats.
+^
+sommerlund8 e:sommerlund5 s:sommerlund9;
+Lflags { Outdoors }
+Farmland Outskirts^
+  Nearby are several barns, sheds, and houses, all of which serve to run the 
+community here and feed this region of the countryside. It is a place of 
+greenery and abundant animals. To the south, acre upon acre of pasture and 
+field awaits grazing and annual harvesting. Plowshares and hoes line segments 
+of fencing along the trail.
+^
+sommerlund9 n:sommerlund8 e:sommerlund37 w:sommerlund10 s:sommerlund46;
+Lflags { Outdoors }
+Crossroads^
+  The trail becomes a road, and vice versa, at this point. Another road 
+intersects it perpendicularly. To the west, the road slips out of the 
+farmlands and enters a forest. To the east, it dips toward a sea. A 
+scarecrow hangs on a signpost here, probably a warning to those crows who 
+choose to visit this area.
+^
+sommerlund10 e:sommerlund9 w:sommerlund11;
+Lflags { Outdoors }
+Farmlands^ 
+  The fields are somewhat sparse here, but further to the east, they
+flourish. Past one last tumbledown house, the road snakes into a forest.
+^
+sommerlund11 e:sommerlund10 w:sommerlund12 s:sommerlund17;
+Lflags { Outdoors }
+Forest Tor^
+  Tall trees surround you, but the sun still penetrates. Your feet crackle the
+twigs and underbrush, sending jittery chipmunks and squirrels back to their 
+respective homes. Birds sing out sweet choruses of seemingly random chirping 
+as they quaintly build their nests. A fox dashes out of the ground and runs 
+past you, in search of a friendly anteater. Its red tail brushes your leg and 
+smacks a tree in its haste. The forest grows deeper to the west, where the 
+start of a rocky cave looms proudly from the ground. Towards the sea in the
+east, the forest grows lighter and emerges onto plains of grass.
+^
+sommerlund12 e:sommerlund11 u:sommerlund13;
+Lflags { Outdoors }
+Tree Cave^
+  The forest enfolds and towers above and beyond you. As if to prove this, an 
+enormous tree juts out through a hole in the roof of the cave, complete with 
+its roots buried in the mossy ground here. A spiral staircase has been carved 
+into the side of the tree.
+^
+sommerlund13 u:sommerlund14 d:sommerlund12;
+Lflags { }
+Tree Stairs^
+  The stairs continue to wind 'round and 'round the tree, but you can see the 
+lower branches from here.
+^
+sommerlund14 u:sommerlund15 d:sommerlund13;
+Lflags { }
+Tree Stairs^
+  The stairs continue to wind 'round and 'round the tree, but you can see the 
+upper branches from here.
+^
+sommerlund15 s:sommerlund16 d:sommerlund14;
+Lflags { }
+Platform Landing^
+  Who would have thought that someone lived way up here in this treehouse! You 
+stand on the deck of a one-room treehouse, taking in a breathtaking view of the
+surrounding countryside. There are now clouds below as well as above you, and 
+doves flitter among the tops of the shorter trees. Whoever resides here 
+certainly doesn't want company.
+^
+sommerlund16 n:sommerlund15;
+Lflags { }
+Tree Shack^
+  In a small room, you might not expect many things. But in here, there is a 
+huge bed in one corner. A dining table for two sits as the centerpiece, and 
+shelves and cabinets line two walls. A sink lies in one corner, with the pipe 
+going only god-knows-where. This is not the home of a hermit, but that of a 
+well-paid, professional businessman or politician.
+^
+sommerlund17 n:sommerlund11 s:sommerlund18;
+Lflags { Outdoors }
+Forest Tor^
+  The forest continues with no change in animal life, but it seems to have an
+aura of goodness here. Everything seems to have more energy.
+^
+sommerlund18 w:sommerlund19 n:sommerlund17;
+Lflags { Outdoors }
+Fruity Clearing^
+  You have entered a large clearing in the Tor Forest. The trees enclose you 
+in a perfect circle, like the eye of a hurricane. There is fruit on every 
+branch of every tree which immediately surrounds this clearing. Mainly, you 
+see common ones such as pears and apricots, but there are also other wierdly 
+shaped fruits. They could be tasty or poisonous, but you could spend your 
+entire life gorging yourself silly on them and never be able to eat all of the
+fruit here.
+^
+sommerlund19 e:sommerlund18 s:sommerlund20;
+Lflags { Outdoors }
+River Tor^
+  The forest ground dips toward a narrow, snaking gully. The fast-flowing 
+waters which gust through it come from the Durncrag Mountains to the southwest 
+before dumping themselves in the Holmgulf to the east. The river is sparkling 
+clear, but interestingly devoid of fish. The forest trees dip their roots into 
+the water and eagerly drink from its freshness. This is one spot where swimming
+is most definitely allowed.
+^
+sommerlund20 n:sommerlund19 s:sommerlund21;
+Lflags { Outdoors }
+River Bank^
+  You stand on the muddy bank of the Tor River. Mud squishes beneath your feet 
+as you step, forming its own kind of musical beat. It's not wet enough to be 
+quicksand, but the mud still restricts travel.
+^
+sommerlund21 n:sommerlund20 s:sommerlund22;
+Lflags { Outdoors }
+Forest Tor^
+  The forest begins and ends here. The cool, leafy greenness of the forest 
+beckons to those travelers it can enchant into exploring its depths. Toward 
+the opposite pole of the earth, a structure of unknown design looms in 
+the distance.
+^
+sommerlund22 n:sommerlund21 s:^kaidoor1;
+Lflags { Outdoors }
+Before the Monastery^
+  You stand straight before the massive doors at the entrance to the Monastery.
+The doors are easily ten feet tall and surrounded on either side by two-meter 
+thick whitewashed walls. At the top of the walls are several turrets, towers, 
+and cannon implementations. From the great height of the walls, it seems the 
+residents of this fortress could easily shrug off any possible attacker. 
+However, the Monastery does not seem to be a place of violence, but of 
+learning. Engraved on the doors from top to bottom are pictures of books,
+learning scrolls, and mortarboards. There are also vertical lines, topped by a
+five-way pointed star, running along the hinge sides of the doors.
+^
+sommerlund23 n:^kaidoor2 s:sommerlund24;
+Lflags { }
+Kai Monastery^
+  This is the foyer for the school of the warriors who attend classes here. 
+The Kai Lords are the elite warriors of the land, protecting their country
+from the scourge of the Darklords. Here, the young warriors learn battle 
+prowess, history, alchemy, and lore. These tutelages have been broken down 
+into thirty parts called 'disciplines.' According to the scenes displayed on 
+the walls here, the warriors enter as very young children and emerge as 
+knowing adults. They appear ready to take on the world. The northern arch 
+leads to broad daylight while a large group of people have gathered to the 
+south. 
+^
+sommerlund24 n:sommerlund23 w:^wheeldoor1 s:sommerlund27;
+Lflags { Outdoors }
+Grand Courtyard^
+  Festivities are abundant today! Flyers announcing this year's week-long 
+Fehmarn festival and celebration decorate the walls of the courtyard, along 
+with streamers and strung balloons. Flowers are worn by many ladies here, and 
+the men take part in drinking, wrestling, and dancing contests. A large wheel 
+has been hung on one booth, where the person strapped on the wheel attempts to 
+endure constant circular motion. The test, of course, is how long the person 
+can spin without getting completely sick. There are also side bets on what 
+color the person's face will be when he or she does get sick.
+^
+sommerlund25 e:^wheeldoor2 w:^coachdoor1;
+Lflags { Dark }
+Dark Passage^
+  A long passage extends from the courtyard to a window of light. There is a 
+nobleman's coach here.
+^
+sommerlund26 e:^coachdoor2;
+Lflags { }
+The Speedster^
+  This is the coach of a magician. It has books abound in dealing with lore and
+arcane incantations. There is also a wide variety of alchemy reagents lying in
+jars on the shelves, as well as a long, silver, sleek staff propped against the
+bed. The walls are lined with runes themselves, perhaps warding off something. 
+There is neither an aura of good nor one of evil, but a crystal wand on the 
+table has the word 'kai' on it.
+^
+sommerlund27 n:sommerlund24 u:sommerlund28 d:sommerlund32;
+Lflags { }
+Tower Landing^
+  You are at the level floor of the Tower of the Sun. A staircase leads both
+ways. The rook of the tower is visible, but the bottom of the staircase is
+down further than your eyes can see.
+^
+sommerlund28 u:sommerlund29 d:sommerlund27;
+Lflags { }
+Tower Stairs^
+  The staircase continues in either direction.
+^
+sommerlund29 u:^trapdoor1 d:sommerlund28;
+Lflags { }
+Tower Stairs^
+  The staircase comes to an abrupt halt at a series of floorboards.
+^
+sommerlund30 w:sommerlund31 d:^trapdoor2;
+Lflags { }
+Tower Top^
+  This room has a large, yellow globe as a representation of the sun, hanging 
+by a thin, silver strand in the middle of the circular chamber. The entire 
+chamber is bathed in sunlight, making the place even more brilliant. An exit 
+on the tower's western side leads to a balcony.
+^
+sommerlund31 e:sommerlund30;
+Lflags { }
+Tower Balcony^
+  The sun shines down brightly from across the western horizon as it slowly 
+sinks towards the Durncrags. It blares right into your eyes and illuminates the
+tower. The Kai Masters lead their troops of trained warriors into the defense 
+of the country from this spot. It offers a breathtaking view of the surrounding
+area and an overview of the festival in the courtyard below.
+^
+sommerlund32 u:sommerlund27 d:sommerlund33;
+Lflags { Dark }
+Tower Stairs^
+  The staircase continues in either direction.
+^
+sommerlund33 u:sommerlund32 d:sommerlund34;
+Lflags { Dark }
+Tower Stairs^
+  The staircase continues in either direction.
+^
+sommerlund34 u:sommerlund33 d:sommerlund35;
+Lflags { Dark }
+Tower Stairs^
+  The staircase continues in either direction.
+^
+sommerlund35 s:^vaultdoor1 u:sommerlund34;
+Lflags { Dark }
+Tower Base^
+  The cold, dark basement is rather well-kept. The floor is practically 
+dust-free, and no cobwebs decorate the ceiling or walls. A musty odor is 
+slightly evident in the atmosphere, due to the fact that air circulation isn't
+exactly tip-top in this tower. However, there is an impressive engineering feat
+set on the southern wall.
+^
+sommerlund36 n:^vaultdoor2;
+Lflags { }
+Tower Vault^
+  The excavation task here must have been enormous. A circular chamber stands 
+twenty feet high with pillars depicting the sun. A life-size statue of the sun 
+god Kai stands in one area of the circle. Kai Lords come here on 'pilgrimages' 
+to further study their disciplines by meditating in the prescene of Kai. A 
+bronze pedestal in the middle of the chamber supports a velveted cushion on 
+which several spherical, many-faceted, crystal gems lay in as many indentation 
+inside a glass box. These polished rocks are the reknowned lorestones which 
+were reclaimed by Lone Wolf during his quest for the 'Magnakai' - the greater 
+disciplines. However, there is a good size crack in the box, and one of the 
+stones seems to have fallen out of it.
+^
+sommerlund37 e:sommerlund38 w:sommerlund9;
+Lflags { Outdoors }
+Farmland Outskirts^
+  The pastures out here need very little irrigation as the waters of the 
+Holmgulf are close at hand. The land slopes down gently to the east
+towards a boathouse, while it begins a steeper climb to the west. The 
+number of cattle increase dramatically in that direction.
+^
+sommerlund38 e:sommerlund39 w:sommerlund37;
+Lflags { }
+Boathouse^
+  All sorts of boating gear and diving equipment line the walls of this 
+tumbledown shack. The wooden walls are dank, musty, and somewhat rotted. 
+Fishing rods and large, empty boat racks are stationed in one corner of 
+the room. At one time, this place might have been a shop, but now it lies 
+empty and forgotten.
+^
+sommerlund39 n:sommerlund40 w:sommerlund38;
+Lflags { OnWater Outdoors}
+The Holmgulf^
+  The coastline stretches away to the west and south. Birds fly overhead on 
+their approach to land, squawking gleefully with their breakfasts caught firmly
+in their mouths. The open sea continues to the north.
+^
+sommerlund40 e:sommerlund41 s:sommerlund39;
+Lflags { OnWater Outdoors}
+The Holmgulf^
+  The rocking motion of the waves is endless.
+^
+sommerlund41 e:sommerlund42 w:sommerlund40 s:sommerlund43;
+Lflags { OnWater Outdoors}
+The Holmgulf^
+  The rocking motion of the waves is endless.
+^
+sommerlund42 w:sommerlund41 s:sommerlund44;
+Lflags { OnWater Outdoors}
+The Holmgulf^
+  The rocking motion of the waves is endless.
+^
+sommerlund43 n:sommerlund41 e:sommerlund44;
+Lflags { OnWater Outdoors}
+The Holmgulf^
+  The rocking motion of the waves is endless.
+^
+sommerlund44 n:sommerlund42 w:sommerlund43 d:sommerlund45;
+Lflags { OnWater Outdoors}
+The Holmgulf^
+  The rocking motion of the waves is not endless. An enormous whirlpool heads 
+straight down through the water to the bottom. A patch of dry sand is visible 
+through the swirling vortex.
+^
+sommerlund45 u:sommerlund44;
+Lflags { Outdoors}
+The Holmgulf Oasis^
+  This is the one spot of the Holmgulf which is dry. A whirlpool above you 
+tumbles water, and you can see the sky through it like the eye of a hurricane.
+You stand on a small area of sand which is completely protected from the water.
+^
+sommerlund46 n:sommerlund9 s:sommerlund47;
+Lflags { Outdoors}
+Farmlands^
+  The greenery and lush grasses still absurd in a plentiful nature. A road 
+intersection stands to the north, while the tip of the Durncrag Range is the 
+south.
+^
+sommerlund47 n:sommerlund46 s:sommerlund48 e:sommerlund54;
+Lflags { Outdoors}
+Foothills^
+  These are the lower hills of the Durncrags. Herds of deer, rams, and elk are
+the inhabintants here. They roam the yellow-brown oats and grasses for food and
+exercise, knowing that they have no predators here. Their brethren, the 
+mountain goats, face dangers, however, further up into the mountains.
+^
+sommerlund48 n:sommerlund47 w:sommerlund49;
+Lflags { Outdoors}
+Gravel Trail^
+  The mountain peaks are truly a sight at this height. A goat scrambles past
+you in an attempt to reach a higher ledge. It's loud bleating echoes 
+throughout the mountains.
+^
+sommerlund49 e:sommerlund48 w:sommerlund50;
+Lflags { Outdoors}
+Mountain Slope^
+  This is the lower range of the Durncrags. Here there be meadows, some being 
+remnants of extinct volcanoes. The willowgrass pokes some three feet up out of
+these calderas, giving a fertile medium between the valleys and the starkness 
+of the mountains.
+^
+sommerlund50 u:sommerlund51 d:sommerlund49;
+Lflags { Outdoors}
+Treeline^
+  A mist precludes some of the mountain tops. Also, the trees thin out and 
+eventually stop altogether. Nearby, a campsite looks as if it was recently 
+used. The fire's embers still glow, and wisps of smoke still puff out. The 
+only residents in this part of the Durncrags are Mountain Giaks, a weak and 
+cowardly breed of evil thugs.
+^
+sommerlund51 s:sommerlund53 u:sommerlund52 d:sommerlund50;
+Lflags { Outdoors}
+Cloud Layer^
+  The clouds envelop the mountains at this altitude. Visibility is severely
+restricted, so watch your step. Humidity is up to maximum, and precipitation is
+non-stop, but there is an escape from the weather to the south.
+^
+sommerlund52 d:sommerlund51;
+Lflags { Outdoors}
+Stratosphere^
+  The clouds lie below you now. Only the highest-flying birds come to rest on 
+the peaks. The sun glistens eve more brightly than usual due to the reduced 
+atmosphere.
+^
+sommerlund53 n:sommerlund51 s:^cavedoor1;
+Lflags { }
+Cave Mouth^
+  This appears to be where an animal lives and to take shelter from the 
+constant wetness outside, but the animal is gone. On the cave wall are 
+strange drawings of DNA and other genetics-related topics. There is also 
+the remains of another unlucky explorer....
+^
+sommerlund54 w:sommerlund47;
+Lflags { }
+Dwelling of Ishir^
+  A magnificent cottage surrounds you. Fountains of crystal-clear water and 
+pictures of the moon decorate the four corners of the room. A platinum table
+inlaid with a full moon takes up center stage, while a glass chandelier hangs
+suspended above it. The unmistakable aura of magic is present here in great
+quantities, as permeating and as refreshing as a new breeze. Off to one side, 
+a stained-glass aquarium holds fluorescent fish which change their hues every 
+few seconds.
+^
+sommerlund55 n:^cavedoor2 e:sommerlund56 w:sommerlund57 s:sommerlund58;
+Lflags { }
+Center Cave^
+  This cave of the Durncrags has been made entirely by nature, with the
+usual elements of caves hanging overhead.
+^
+sommerlund56 w:sommerlund55;
+Lflags { }
+East Cave^
+  The cave is decorated with all sorts of burning oil lamps. A large vat of 
+lard stands at the far end of the room, churning with great 'floops.'
+^
+sommerlund57 e:sommerlund55;
+Lflags { }
+West Cave^
+  This part of the cavern has small structures in it which seem to form a small
+city. Sidewalks provide the means of walking around.
+^
+sommerlund58 n:sommerlund55;
+Lflags { }
+South Cave^
+  This cave would make a child's heart flutter with excitement. An endless 
+supply of rock candy hangs down from the ceiling. A table stands nearby, full 
+of rock candy.
+^
+sommerlund59 n:sommerlund60;
+Lflags { }
+Guildhall^
+  You are below the Brotherhood of the Crystal Star in the city of Toran. 
+Torches line the walls of the stone block chamber, but no light penetrates the 
+northern archway. Within the arch, the space is truly space - a deep black. A
+large star is tacked on the southern wall in honor of the Brotherhood's 
+centuries of service. It is fashioned from several thousand layers of kagonite 
+and bronze metal alloys, allowing it to sparkle when the least amount of light 
+shed on it.
+^
+sommerlund60 n:sommerlund60 e:sommerlund61 w:sommerlund60 s:sommerlund59;
+Lflags { Dark }
+Shadow Gate^
+  This is the void of unconsciousness which doesn't exist in your perspective.
+Between the realms of sunlight and utter twilight lies this empty abyss. The 
+five senses of which you are so accustomed to crackle and distort. In here, 
+time has no place while space is infinite, and where the power of thought 
+is your only guide.
+^
+sommerlund61 n:sommerlund60 e:sommerlund60 w:sommerlund62 s:sommerlund60;
+Lflags { Dark }
+Shadow Gate^
+  This is the void of unconsciousness which doesn't exist in your perspective.
+Between the realms of sunlight and utter twilight lies this empty abyss. The 
+five senses of which you are so accustomed to crackle and distort. In here, 
+time has no place while space is infinite, and where the power of thought 
+is your only guide. 
+^
+sommerlund62 n:sommerlund60 e:sommerlund60 w:sommerlund60 s:sommerlund63;
+Lflags { Dark }
+Shadow Gate^
+  This is the void of unconsciousness which doesn't exist in your perspective.
+Between the realms of sunlight and utter twilight lies this empty abyss. The 
+five senses of which you are so accustomed to crackle and distort. In here, 
+time has no place while space is infinite, and where the power of thought 
+is your only guide. 
+^
+sommerlund63 n:sommerlund60 e:sommerlund64 w:sommerlund60 s:sommerlund60;
+Lflags { Dark }
+Shadow Gate^
+  This is the void of unconsciousness which doesn't exist in your perspective.
+Between the realms of sunlight and utter twilight lies this empty abyss. The 
+five senses of which you are so accustomed to crackle and distort. In here, 
+time has no place while space is infinite, and where the power of thought 
+is your only guide.
+^
+sommerlund64 n:sommerlund60 e:sommerlund60 w:sommerlund65 s:sommerlund60;
+Lflags { Dark }
+Shadow Gate^
+  This is the void of unconsciousness which doesn't exist in your perspective.
+Between the realms of sunlight and utter twilight lies this empty abyss. The 
+five senses of which you are so accustomed to crackle and distort. In here, 
+time has no place while space is infinite, and where the power of thought 
+is your only guide. 
+^
+sommerlund65 n:sommerlund66 e:sommerlund60 w:sommerlund60 s:sommerlund60;
+Lflags { Dark }
+Shadow Gate^
+  This is the void of unconsciousness which doesn't exist in your perspective.
+Between the realms of sunlight and utter twilight lies this empty abyss. The 
+five senses of which you are so accustomed to crackle and distort. In here, 
+time has no place while space is infinite, and where the power of thought 
+is your only guide.
+^
+sommerlund66 n:sommerlund60 e:sommerlund67 w:sommerlund60 s:sommerlund60;
+Lflags { Dark }
+Shadow Gate^
+  This is the void of unconsciousness which doesn't exist in your perspective.
+Between the realms of sunlight and utter twilight lies this empty abyss. The 
+five senses of which you are so accustomed to crackle and distort. In here, 
+time has no place while space is infinite, and where the power of thought 
+is your only guide.
+^
+sommerlund67 n:sommerlund68 e:sommerlund60 w:sommerlund60 s:sommerlund60;
+Lflags { Dark }
+Shadow Gate^
+  This is the void of unconsciousness which doesn't exist in your perspective.
+Between the realms of sunlight and utter twilight lies this empty abyss. The 
+five senses of which you are so accustomed to crackle and distort. In here, 
+time has no place while space is infinite, and where the power of thought 
+is your only guide.
+^
+sommerlund68 n:sommerlund60 e:sommerlund60 w:sommerlund60 s:sommerlund60 u:sommerlund71 d:sommerlund69;
+Lflags { Dark }
+Shadow Gate^
+  This is the void of unconsciousness which doesn't exist in your perspective.
+Between the realms of sunlight and utter twilight lies this empty abyss. The 
+five senses of which you are so accustomed to crackle and distort. In here, 
+time has no place while space is infinite, and where the power of thought 
+is your only guide.
+^
+sommerlund69 n:sommerlund60 e:sommerlund60 w:sommerlund60 s:sommerlund70;
+Lflags { Dark }
+Shadow Gate^
+  This is the void of unconsciousness which doesn't exist in your perspective. 
+Between the realms of sunlight and utter twilight lies this empty abyss. The 
+five senses of which you are so accustomed to crackle and distort. In here, 
+time has no place while space is infinite, and where the power of thought 
+is your only guide.
+^
+sommerlund70 n:sommerlund60 e:sommerlund60 w:sommerlund60 s:sommerlund72;
+Lflags { Dark }
+Shadow Gate^
+  This is the void of unconsciousness which doesn't exist in your perspective.
+Between the realms of sunlight and utter twilight lies this empty abyss. The 
+five senses of which you are so accustomed to crackle and distort. In here, 
+time has no place while space is infinite, and where the power of thought 
+is your only guide.
+^
+sommerlund71 d:sommerlund68;
+Lflags { Death }
+Where Life Ends^
+  You have walked right into the mouth of a Grue! As its jaws close 
+mechanically on you, your bones break and turn your insides into a very red 
+jelly. You fall down the Grue's throat - a long, black well of which the sides
+are lined with what resembles whipped cream. Welcome to oblivion!
+^
+sommerlund72 n:sommerlund70 s:sommerlund73;
+Lflags { Hot Outdoors }
+Path to the Fallen Plains^
+  A little, dusty trail divides the great, ash-soaked wasteland which lies 
+here. The only cool breeze out here emanates from a pitch-black portal to 
+the north. 
+^
+sommerlund73 n:sommerlund72 e:sommerlund74 s:sommerlund75;
+Lflags {Outdoors }
+Fallen Plains^
+  The corpses of several animals surround you on all sides. Bones of various 
+shapes and sizes color the colorless landscape. Craters and volcanoes litter 
+the area like lesions of the skin, the former collecting the fallout of the 
+great pluming clouds of the latter. A lava flow zigs and zags its way across 
+the reaches of the wastelands until it intercepts a wide chasm in the 
+distance. Ungodly amounts of noxious fumes pour from this wide crack in the 
+earth. Across the chasm, a city composed entirely of black steel points 
+jaggedly into the scarlet sky.
+^
+sommerlund74 w:sommerlund73 s:sommerlund76;
+Lflags { Outdoors}
+Fallen Plains^
+  The corpses of several animals surround you on all sides. Bones of various 
+shapes and sizes color the colorless landscape. Craters and volcanoes litter
+the area like lesions of the skin, the former collecting the fallout of the 
+great pluming clouds of the latter. A lava flow zigs and zags its way across
+the reaches of the wastelands until it intercepts a wide chasm in the 
+distance. Ungodly amounts of noxious fumes pour from this wide crack in the 
+earth. Across the chasm, a city composed entirely of black steel points 
+jaggedly into the scarlet sky.
+^
+sommerlund75 n:sommerlund73 e:sommerlund76;
+Lflags { Outdoors}
+Guard Tower^
+  Standing up from the wasteland is a ramshack watchtower. Its steel surface is
+severely weathered from both rust and the elements of this hellish atmosphere. 
+The tower leans at a five-degree angle and appears to be the first checkpoint 
+for the black city beyond.
+^
+sommerlund76 n:sommerlund74 w:sommerlund75 s:sommerlund77;
+Lflags { Outdoors}
+Fallen Plains^
+  The corpses of several animals surround you on all sides. Bones of various 
+shapes and sizes color the colorless landscape. Craters and volcanoes litter 
+the area like lesions of the skin, the former collecting the fallout of the 
+great pluming clouds of the latter. A lava flow zigs and zags its way across 
+the reaches of the wastelands until it intercepts a wide chasm in the 
+distance. Ungodly amounts of noxious fumes pour from this wide crack in the 
+earth. Across the chasm, a city composed entirely of black steel points 
+jaggedly into the scarlet sky.
+^
+sommerlund77 n:sommerlund76 s:sommerlund78;
+Lflags { Outdoors}
+Fallen Plains^
+  The fiery chasm lies just to the south, and a hundred miles of open, pocked
+wasteland is to the north. The constant scarlet glow in the sky is produced by 
+the endless volcanic eruptions within the chasm and the lava flow which snakes 
+its way into the chasm. Great clouds of poison gas and intense heat pour forth
+from it.
+^
+sommerlund78 n:sommerlund77 s:sommerlund80 d:sommerlund79;
+Lflags { Hot Outdoors }
+Steel Bridge^
+  A vast bridge of pure black metal spans the chasm here. Despite the extreme
+heat, the bridge does not melt. The ends of it are festooned with metal spikes,
+preventing unauthorized transport vehicles from crossing. At the bottom of the 
+chasm is a nest for a VERY large creature. It lies on a mound jutting up above 
+the lava bed.
+^
+sommerlund79 u:sommerlund78;
+Lflags { Hot Outdoors }
+The Nest^
+  This is the home of the leader of a dragon herd. The herd has been sent 
+forth by Naar, the King of Darkness, to destroy the fertile lands of 
+Sommerlund. The nest itself is made of super-strong fibers, interlaced to 
+give it a nice, weaving appearance and strength when being moved. The plateau 
+on which it rests is formed of heavily scorched black glassy lava and under 
+high enough heat and pressure to transform it into a crystal with a clarity 
+rivalling that of a diamond.
+^
+sommerlund80 n:sommerlund78 e:sommerlund81;
+Lflags { Outdoors }
+Helgedad^
+  Every road and every building is made out of black steel and/or similar 
+alloys. Thousands of exploding fireballs and gargoyle torches that produce 
+blue flames are the main sources of light in this dark city. The avenues are 
+wide and long, forming an endless chain of sharply cut squares when seen from 
+an aerial perspective. Skulls and deadly-looking racks of weaponry line most 
+doorways and windows. There is a massive, cloying stench of sulphur and carbon
+dioxide, and these two compounds account for the heavy amounts of acid-rain in
+the oxygen-killing atmosphere. Slow-moving transports are pulled rythymically 
+and mechanically by thick-furred beasts of burden. The drivers of these huge, 
+metal carts wear cloaks, capes, and hoods to hide their hideous, orcish 
+features. The pace of the this city is disturbing and foreboding - it is 
+truly a place of decay.
+^
+sommerlund81 e:sommerlund82 w:sommerlund80;
+Lflags { Outdoors }
+Argazad Avenue^
+  Featureless blocks of steel are piled up on each other to form a small 
+pyramid here. It is an altar of worship and sacrifice to the rulers of this 
+dread city and the heat-plastered wastelands outside - the Darklords. Several 
+creatures surround the shrine, some shedding their own blood into crystalline 
+chalices at specific points along the altar.
+^
+sommerlund82 w:sommerlund81 s:sommerlund83;
+Lflags { Outdoors }
+Kaag Apartments^
+  This is the Helgedad ghetto area, where thousands of horrors dwell in ebony
+black cages. They are "pets" of the inhabitants of the city. Pleas for mercy, 
+food, and an end to torment and pain echo forth from these city blocks. A 
+cross between a monkey, hippo, and a tree moans loudly in one corner cage, 
+its useless eyes staring out of an empty head.
+^
+sommerlund83 n:sommerlund82 s:^labdoor1;
+Lflags { Outdoors }
+Nadgazad Plaza^
+  A fountain stands in the middle of this wide, open square. Instead of 
+running water, a lava flow courses through thr elegantly decorated piece of 
+architecture. A congregation of green and purple robed creatures meditate in 
+one corner of the plaza, using chants which send rats fleeing in all 
+directions. To the south lies a solid black wall.
+^
+sommerlund84 n:^labdoor2 s:sommerlund85;
+Lflags { }
+Mozgoar Laboratory^
+  All sorts of chemical apprati greet you as you stroll through the Nadziranim 
+lab. This is where all the horrors outside are created. Also, the Darklords' 
+fierce armies of Giaks are produced here. Huge breeding vats line the walls, 
+pumping nerve gas as a by-product into the sky.
+^
+sommerlund85 n:sommerlund84 s:sommerlund86;
+Lflags { Dark }
+Shadow Gate^
+  This is the void of unconsciousness which doesn't exist in your perspective. 
+Between the realms of sunlight and utter twilight lies this empty abyss. The 
+five senses of which you are so accustomed to crackle and distort. In here, 
+time has no place while space is infinite, and where the power of thought 
+is your only guide.
+^
+sommerlund86 n:sommerlund85 s:sommerlund87;
+Lflags { Hot }
+The Fire Room^
+  The entire room is red, and the curtains on the windows are made of a yellow 
+blaze.
+^
+sommerlund87 s:sommerlund88 n:sommerlund86;
+Lflags { Dark }
+Shadow Gate^
+  This is the void of unconsciousness which doesn't exist in your perspective. 
+Between the realms of sunlight and utter twilight lies this empty abyss. The 
+five senses of which you are so accustomed to crackle and distort. In here, 
+time has no place while space is infinite, and where the power of thought 
+is your only guide.
+^
+sommerlund88 n:sommerlund87;
+Lflags { Outdoors }
+The Village of Dage^
+  On the southern reaches of Sommerlund stands the village of Dage, one of the 
+many such hamlets which send its young to the Kai Monastery for training. This 
+village is not exceptionally poor, but it could be doing better. It would be 
+if not for the war with the Darklords. A large community well is in the middle
+of the main street, and horse-driven merchant carts head clippity-clop in and
+out of town. Off to one side of the street, a group of children are engrossed 
+in a game of freeze tag.
+^
+sommerlund89;
+Lflags { }
+The Hidden Aon^
+  You stand on the flat top of a highrise mesa overlooking a misty, snow
+covered swamp. It stretches to the horizon and beyond in all directions. 
+Numerous islands rise above the icy bog, and lone trees occupy the very 
+center of each. Every single tree has been torched by the constant rain
+of lightning issuing from the raging storm above you. The stench of death
+and barbecued bark invades your nose.
+^
+sommerlund90;
+Lflags { Death }
+Somewhere^
+  Unless you're immortal, you REALLY should not be in here!
+^

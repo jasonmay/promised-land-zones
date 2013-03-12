@@ -1,0 +1,953 @@
+
+
+
+
+%zone:golden
+
+%mobiles
+
+Name		= Mawcaw
+PName		= "Mawcaw"
+Location	= golden3
+Strength	= 75
+Damage		= 12
+Armor		= 0
+Aggression	= 10
+Speed		= 0
+Visibility	= 0
+Wimpy		= 0
+PFlags		{ NoSteal }
+SFlags		{ }
+MFlags		{ Thief Flyer }
+Description	= "
+A beautiful, multi-colored Mawcaw sits perched on a tree branch above you."
+Examine		= "
+As you peer at the Mawcaw it ruffles its feather in an attempt to scare 
+you away."
+End		= Mawcaw
+
+Name		= Cockatoo
+PName		= "Cockatoo"
+Location	= golden3
+Strength	= 100
+Damage		= 14
+Armor		= 0
+Aggression	= 12
+Speed		= 0
+Visibility	= 0
+Wimpy		= 0
+PFlags		{ NoSteal }
+SFlags		{ Female }
+MFlags		{ Thief Flyer }
+Description	= "
+A snow-white cockatoo is grooming itself along side the Mawcaw."
+Examine		= "
+The Cockatoo moves her head in circular motions in front of you face as you 
+get nearer and begins screeching, causing you to move away."
+End		= Cockatoo
+
+Name		= Viper
+PName		= "The Viper"
+Location	= golden4
+Strength	= 110
+Damage		= 18
+Armor		= 3
+Aggression	= 70
+Speed		= 0
+Visibility	= 0
+Wimpy		= 0
+PFlags		{ }
+SFlags		{ NoArms NoLegs }
+MFlags		{ }
+Description	= "
+A long, red, poisonous viper hisses at you and shows its fangs."
+Examine		= "
+With red and brown streaks running down its back and large, pointed fangs, 
+this snake could scare away a lion."
+End		= Viper
+
+Name		= Panther
+PName		= "The Panther"
+Location	= golden8
+Strength	= 250
+Damage		= 20
+Armor		= 0
+Aggression	= 60
+Speed		= 1
+Visibility	= 0
+Wimpy		= 0
+PFlags		{ }
+SFlags		{ Female }
+MFlags		{ NoHeat }
+Description	= "
+A sleek, black panther is alerted by your foot steps and prepares to pounce."
+Examine		= "
+Are you crazy?!"
+End		= Panther
+
+Name		= Monkey
+PName		= "Monkey"
+Location	= golden16
+Strength	= 95
+Damage		= 11
+Armor		= 0
+Aggression	= 0
+Speed		= 0
+Visibility	= 0
+Wimpy		= 0
+PFlags		{ }
+SFlags		{ }
+EFlags		{ Blind }
+Description	= "
+A small brown monkey is sitting on a vine, covering its eyes."
+Examine		= "
+Hmm...This monkey decides to shade itself from the sight of evil."
+End		= Monkey
+
+Name		= Munkee
+PName		= "Munkee"
+Location	= golden16
+Strength	= 95
+Damage		= 11
+Armor		= 0
+Aggression	= 0
+Speed		= 0
+Visibility	= 0
+Wimpy		= 0
+PFlags		{ }
+SFlags		{ }
+EFlags		{ Deaf }
+Description	= "
+There is a small brown monkey sitting on a vine, covering its ears."
+Examine		= "
+This monkey is protecting itself from hearing any evil."
+End		= Munkee
+
+Name		= Monkie
+PName		= "Monkie"
+Location	= golden16
+Strength	= 95
+Damage		= 11
+Armor		= 0
+Aggression	= 0
+Speed		= 0
+Visibility	= 0
+Wimpy		= 0
+PFlags		{ }
+SFlags		{ }
+EFlags		{ Mute }
+Description	= "
+Another monkey is has hands firmly in place over its mouth."
+Examine		= "
+After giving this monkey a quick look-over, you come to the conclusion that 
+it speaks no evil."
+End		= Monkie
+
+Name		= Venzual
+PName		= "Venzual"
+Location	= golden17
+Strength	= 50
+Damage		= 9
+Armor		= 0
+Aggression	= 15
+Speed		= 5
+Visibility	= 0
+Wimpy		= 0
+PFlags		{ }
+SFlags		{ }
+MFlags		{ }
+Description	= "
+A scrawny, cautious native watches you from behind a bush."
+Examine		= "
+As you exmaine the native he shouts 'Ooga Boogla!'"
+End		= Venzual
+
+Name		= Shaman
+PName		= "The Shaman"
+Location	= golden12
+Strength	= 300
+Damage		= 13
+Armor		= 10
+Aggression	= 90
+Speed		= 0
+Visibility	= 0
+Wimpy		= 0
+PFlags		{ NoMagic }
+SFlags		{ }
+EFlags		{ Fireball Shock }
+Description	= "
+The village Shaman bursts into a fiery rage as you intrude into his hut."
+Examine		= "
+He has been appointed shaman by his late father, the previous chief of this 
+small village.  His face is heavly painted in red, blue, and yellow stripes 
+and parrot feathers are stuffed in his hair.  You best back away before he 
+has you killed by the guards."
+End		= Shaman
+
+Name		= Xena
+Location	= golden26
+Strength	= 800
+Damage		= 8
+Armor		= 27
+Aggression	= 10
+Speed		= 0
+Visibility	= 0
+Wimpy		= 0
+PFlags		{ NoMagic }
+SFlags		{ Female }
+MFlags		{ StealWorn BarNorth PickStuff }
+Description	= "
+The legendary Xena, Guardian of the Mayan Temple, stands here ready to face 
+any willing challenger."
+Examine		= "
+This is one tough woman!"
+End		= Xena
+
+Name		= Boar
+PName		= "The Wild Boar"
+Location	= golden9
+Strength	= 35
+Damage		= 5
+Armor		= 0
+Aggression	= 60
+Speed		= 0
+Visibility	= 0
+Wimpy		= 0
+PFlags		{ }
+SFlags		{ }
+MFlags		{ }
+Description	= "
+A wild boar shuffles through the undergrowth looking for some insects to 
+snack on."
+Examine		= "
+With small tusks protruding along side of its mouth, this boar looks like 
+it could cause a little bit of damage."
+End		= Boar
+
+Name		= Statue
+PName		= "The Statue"
+Location	= golden37
+Strength	= 240
+Damage		= 20
+Armor		= 0
+Aggression	= 0
+Speed		= 0
+Visibility	= 0
+Wimpy		= 0
+PFlags		{ }
+SFlags		{ NoBody }
+MFlags		{ NoCorpse }
+Description	= "
+A large marble statue of a great emperor stands solemnly next to the temple 
+entrance."
+Examine		= "
+This statue is perfectly preserved despite the harsh seasons, and you could 
+swear its eyes follow you around wherever you go."
+End		= Statue
+
+Name		= Arturo
+PName		= "Arturo"
+Location	= golden19
+Strength	= 50
+Damage		= 11
+Armor		= 0
+Aggression	= 25
+Speed		= 7
+Visibility	= 0
+Wimpy		= 0
+PFlags		{ }
+SFlags		{ }
+MFlags		{ }
+Description	= "
+Venzual's twin brother, Arturo, stands here looking for a wild boar to kill."
+Examine		= "
+Venzual is wearing two large armbands, which are used in his village to 
+show status."
+End		= Arturo
+
+
+%objects
+
+Name		= machete
+PName		= "machete"
+AltName		= sword
+Location	= IN_ROOM:golden5
+State		= 1
+MaxState	= 1
+Damage		= 13
+Armor		= 0
+BValue		= 200
+Size		= 20
+Weight		= 15
+Visibility	= 0
+OFlags		{ GetFlips Weapon }
+Desc[0]		= "
+A long, rusted machete has been foolishly left here."
+Desc[1]		= "
+A long, rusted machete is sticking out of the ground."
+Examine		= "
+Used over a long period of time and then carelessly discarded, this machete 
+still has a fairly sharp blade although it is rusted."
+End		= machete
+
+Name		= staff
+PName		= "staff"
+AltName		= stick
+Location	= WIELDED_BY:Xena
+State		= 0
+MaxState	= 0
+Damage		= 22
+Armor		= 0
+BValue		= 150
+Size		= 25
+Weight		= 25
+Visibility	= 0
+OFlags		{ Weapon }
+Desc[0]		= "
+The legendary fighting staff of the Mayans lies here surrounded in an aura 
+of blue light."
+Examine		= "
+This particular fighting staff has been passed down through many 
+generations of warriors.  It is decorated with two hand-crafted eagle heads 
+at each end and bright golden feathers tied behind the heads.  As you step 
+closer you feel a strong sense of power emanating from it."
+End		= staff
+
+Name		= leggings
+PName		= "leggings"
+AltName		= shell
+Location	= WORN_BY:Xena
+State		= 0
+MaxState	= 0
+Damage		= 0
+Armor		= 21
+BValue		= 50
+Size		= 15
+Weight		= 10
+Visibility	= 0
+Aflags	{ Legs }
+OFlags		{ Armor Wearable }
+Desc[0]		= "A pair of worn, tattered leather leggings lie in a heap."
+Examine		= "
+These have apparently been dropped by some ignorant adventurer in search 
+of lost gold."
+End		= leggings
+
+Name		= shell
+PName		= "shellsuit"
+AltName		= armor
+Location	= IN_CONTAINER:tree
+State		= 0
+MaxState	= 0
+Damage		= 0
+Armor		= 60
+BValue		= 300
+Size		= 30
+Weight		= 25
+Visibility	= 0
+OFlags		{ Armor Wearable }
+Aflags	{ Back Chest }
+Desc[0]		= "A suit made of fire-hardened turtle shells has been gently laid on the 
+ground."
+Examine		= "
+Made of many small turtle shells tied together by twine, this awkward-looking 
+suit of armor will provide you with protection during battle."
+End		= shell
+
+Name		= medallion
+PName		= "medallion"
+AltName		= brass
+Location	= IN_ROOM:golden13
+State		= 1
+MaxState	= 1
+Damage		= 0
+Armor		= 0
+BValue		= 30
+Size		= 5
+Weight		= 10
+Visibility	= 0
+OFlags		{ GetFlips Wearable Aidspell }
+Desc[0]		= "Lying amidst the leaves is a worn and tarnished medallion."
+Desc[1]		= "A tarnished brass medallion lies on a straw mat."
+Examine		= "
+The face is worn smooth from many moons of wear and tear, but you are able to 
+make out some small carvings on the edges of the medallion."
+End		= medallion
+
+Name		= jade
+PName		= "jade"
+AltName		= gem
+Location	= IN_ROOM:golden41
+State		= 0
+MaxState	= 0
+Damage		= 0
+Armor		= 0
+BValue		= 250
+Size		= 15
+Weight		= 20
+Visibility	= 0
+OFlags		{ }
+Desc[0]		= "A jade figurine of a great emperor stands upright."
+Examine		= "
+Althought the small and delicate features have worn away on this figurine, 
+you can still tell that it is modeled after a long-ago emperor."
+End		= jade
+
+Name		= ruby
+PName		= "ruby"
+AltName		= gem
+Location	= IN_CONTAINER:statue
+State		= 1
+MaxState	= 1
+Damage		= 0
+Armor		= 0
+BValue		= 300
+Size		= 30
+Weight		= 30
+Visibility	= 0
+OFlags		{ GetFlips }
+Desc[0]		= "A large fiery red ruby has been dropped here."
+Desc[1]		= "A large, finely carved fiery red ruby sits in the monkey's hands."
+Examine		= "
+As you peer into this fiery red ruby, you can see reflections of the rooms 
+around you."
+End		= ruby
+
+Name		= statue
+Location	= IN_ROOM:golden38
+State		= 1
+MaxState	= 1
+Damage		= 0
+Armor		= 0
+BValue		= 0
+Size		= 0
+Weight		= 0
+Visibility	= 0
+Linked		= statchew
+OFlags		{ NoGet PushToggle Container }
+Desc[1]		= "A marble statue of a grinning monkey sitting on its haunches is holding 
+a ruby in its outstretched hands."
+Desc[0]		= "A marble statue of a grinning monkey has been pushed aside to reveal a small 
+underground tunnel."
+End		= statue
+
+Name		= statchew
+PName		= "statue"
+Location	= IN_ROOM:golden39
+State		= 1
+MaxState	= 1
+Damage		= 0
+Armor		= 0
+BValue		= 0
+Size		= 0
+Weight		= 0
+Visibility	= 0
+Linked		= statue
+OFlags		{ NoGet PushToggle }
+Desc[1]		= "Above you is the bottom of a statue."
+Desc[0]		= "Above you there is a passage leading up."
+End		= statchew
+
+Name		= crown
+PName		= "crown"
+AltName		= crown
+Location	= IN_ROOM:golden41
+State		= 0
+MaxState	= 0
+Damage		= 0
+Armor		= 0
+BValue		= 200
+Size		= 20
+Weight		= 20
+Visibility	= 0
+OFlags		{ }
+Desc[0]		= "A small golden crown laiden with many different precious gems lies here."
+Examine		= "
+This crown has many different precious and rare gems encrusted into it.  It 
+has intricate carvings and some strange writings that you cannot understand."
+End		= crown
+
+Name		= gold
+PName		= "gold"
+AltName		= ore
+Location	= IN_ROOM:golden41
+State		= 0
+MaxState	= 0
+Damage		= 0
+Armor		= 0
+BValue		= 1500
+Size		= 40
+Weight		= 40
+Visibility	= 0
+OFlags		{ NoGet }
+Desc[0]		= "A giant chunk of ore has been left here!"
+Examine		= "
+This chunk of gold is about as big as a human head, maybe bigger.  But it 
+is far too heavy for you to carry away."
+End		= gold
+
+Name		= tree
+Location	= IN_ROOM:golden5
+State		= 0
+MaxState	= 0
+Damage		= 0
+Armor		= 0
+BValue		= 0
+Size		= 0
+Weight		= 0
+Visibility	= 0
+OFlags		{ NoGet Container }
+Desc[0]		= "A short, fat, twisted tree is sitting here along the path."
+Examine		= "
+This tree looks like it has been scarred by the swords and machetes of 
+past adventurers."
+End		= tree
+
+Name		= bean
+PName		= "bean"
+AltName		= food
+Location	= IN_ROOM:golden9
+State		= 1
+MaxState	= 1
+Damage		= 0
+Armor		= 0
+BValue		= 25
+Size		= 10
+Weight		= 10
+Visibility	= 0
+OFlags		{ Food GetFlips }
+Desc[0]		= "A small cocoa bean lies here on the ground, half-rotted."
+Desc[1]		= "A small green cocoa bean hangs from a cocoa tree."
+Examine		= "
+The armoa of cocoa rises from the bean, making you hungry.  It is still 
+green but edible."
+End		= bean
+
+Name		= bronze_door
+PName		= door
+Location	= IN_ROOM:golden37
+State		= 1
+MaxState	= 2
+Damage		= 0
+Armor		= 0
+BValue		= 0
+Size		= 0
+Weight		= 0
+Visibility	= 0
+Linked		= branze_door
+OFlags		{ NoGet Openable Lockable }
+Desc[0]		= "The mighty bronze door that once blocked your way rests ajar."
+Desc[1]		= "The bronze door is closed."
+Desc[2]		= "The bronze door is locked."
+End		= bronze_door
+
+Name		= branze_door
+PName		= "door"
+Location	= IN_ROOM:golden38
+State		= 1
+MaxState	= 2
+Damage		= 0
+Armor		= 0
+BValue		= 0
+Size		= 0
+Weight		= 0
+Visibility	= 0
+Linked		= bronze_door
+OFlags		{ NoGet Openable Lockable }
+Desc[0]		= "The mighty bronze door that once blocked your way rests ajar."
+Desc[1]		= "The bronze door is closed."
+Desc[2]		= "The bronze door is locked."
+End		= branze_door
+
+
+%locations
+
+golden1 n:golden2 w:golden3 s:jungle1@balharbor;
+Lflags { Outdoors }
+&+YSandy&* Path^
+     You are walking along a soft, sandy path that has recently been 
+covered with animal tracks.  On either side of the path large trees and 
+undergrowth smother the ground with roots and leaves.  In the distance
+the sound of rushing water catches your attention.  To the north there
+is a small hill of rock.  You can go south or continue onward through the
+jungle by going west along the path.
+^
+
+golden2 s:golden1 ;
+Lflags { Outdoors }
+&+WRocky Outcrop&*^
+     Standing atop a small cluster of cracked rocks, you are able to 
+survey some of the jungle that lies ahead of you.  A heavy layer of 
+moss coats most of these rocks making them very slippery so you decide 
+to get down before you slip and break your neck.
+^
+
+golden3 e:golden1 w:golden4 ;
+Lflags { Outdoors }
+&+YSandy&* Path^
+     The path seems to end abruptly here, turning into a rocky dirt path.
+The vegetation has grown much thicker now and vines have started to weave
+their way through the tree branches.  Thick tree leaves have formed a
+nearly impenetrable canopy, squeezing out almost all the natural light
+shining down on the path.  
+^
+
+golden4 e:golden3 s:golden5 ;
+Lflags { Outdoors }
+&+RDirt&* Trail^
+     Sounds of rushing water have become much louder and clearer, and 
+the vines grow so thick and entwined along this part of the trail that
+you need a suitable tool to hack through them.  Out of a smooth, moist
+crevice of rock a small stream of water flows west toward the sound of the 
+rushing water.  To the south there is a large, irregular tree residing 
+along the never-ending path.  
+^
+
+golden5 n:golden4 w:golden6 ;
+Lflags { Outdoors }
+&+BBright&* and &+YSunny&* Clearing^
+     You are standing in a large, grassy clearing with hardly any sharp
+rocks protruding from the ground.  Exotic flowers and fruits grow in 
+abundance here, for the thick jungle canopy is opened to let in sunshine
+in and a small stream trickles down a small bed of granite into a small
+pool of water which rounds the bend beyond your sight.  Small animals
+scamper aimlessly around the ground, but keep a bit of distance between
+you and them.  Coming from the west you hear the sounds of laughter and
+shouting, and you suspect that there might be a village of natives living
+near there.  
+^
+
+golden6 w:golden7 u:golden5;
+Lflags { Outdoors }
+Steep Slope^
+     After passing through the peaceful clearing you venture down a slope
+filled with loose rocks and mud.  Carefully inching your way down, you 
+nearly slip and tumble down the slope.  Many vines hang down from high 
+tree branches that sway above your head.  
+^
+
+golden7 n:golden8 e:golden6 ;
+Lflags { Outdoors }
+Worn Path^
+     You are walking along a well-worn path that leads west towards the
+sound of voices.  The undergrowth here is almost covering the entire
+ground and you stumble over it as it entangles your feet.  High above 
+you there is a large lizard climbing through the trees.  The path 
+continues west.
+^
+
+golden8 e:golden10 s:golden7 w:golden9 ;
+Lflags { Outdoors }
+Worn Path^
+     There are deep ruts in this part of the path from many travelers 
+walking to and fro.  You hear a rustling in the bushes but it is only a
+small boar searching for its mate.  Through the trees you see several
+thatched huts scattered around in a small circle.  
+^
+
+golden9 e:golden8 w:golden11 ;
+Lflags { Outdoors }
+Path to the Village^
+     You are standing on a large, smooth dirt path that evidently leads
+to a small native village.  The smell of cocoa beans arouses your senses,
+causing you to become hungry.
+^
+
+golden10 ;
+Lflags { Death Outdoors }
+&+YQuicksand&*^
+     Walking straight into a pit of quicksand, you begin struggle to 
+escape.  You sink deeper and deeper while birds sit perched on your 
+head.  Slowly, you are completely engulfed and suffocated by the sand.
+^
+
+golden11 n:golden12 e:golden9 s:golden13 w:golden15 ;
+Lflags { Peaceful Outdoors }
+The &+GVillage&*^
+     You have discovered a small village that is nestled deep in the 
+jungle.  There are a few natives doing their daily chores, not even
+noticing you.  A large fire crackles in the center of this village.
+There are small animals running around the huts with children chasing
+after them.  To the east there is a small, clay well that looks like
+it has dried up.  
+^
+
+golden12 s:golden11 ;
+Lflags { }
+&+bShaman's&* Hut^
+     You are standing inside a fairly large thatched hut.  The walls are
+decorated with mystical writings and drawings.  The ceiling tapers to a 
+point, with different plants, herbs, and other items tied together in a
+bundle hanging by a rope.  Large, woven mats cover the floor and a bed
+made of reeds and leopard skins occupies the western side.  
+^
+
+golden13 n:golden11 s:golden14 ;
+Lflags { }
+&+CSmall&* Hut^
+     This is a simple hut made of reeds and mud.  A small spear and poison
+dart lie on the floor.  To the south there is wide opening leading out to
+a garden.
+^
+
+golden14 n:golden13 ;
+Lflags { Outdoors }
+&+GGarden&* Patch^
+     You are standing in neglected garden.  The ground is dry and cracked
+from lack of water and the plants are dead and brittle.  A fence made of
+bamboo shoots keeps out animals that would greedily devour any living
+plants here.
+^
+
+golden15 n:golden21 e:golden11 d:golden16 ;
+Lflags { Outdoors }
+&+BPoolside&* Trail^
+     You are walking along a trail that runs by a vibrant, crystal-clear
+pool of water that is fed by a rushing waterfall.  Looking down from
+the trail, you can see colorful and strange fish floating about in the
+water.  A small path leads down to the bank of this pool where you could
+take a dip if you want to.  Straining your eyes, you can barely make out
+a niche behind the waterfall.
+^
+
+golden16 e:golden17 u:golden15 ;
+Lflags { Outdoors }
+Path^
+     You are walking down a thin path that leads to the pool.  You can feel
+the cool mist of the waterfall sparying you in the face as you step closer.
+You can go back up to the trail or go down to the bank.
+^
+
+golden17 n:golden18 w:golden16 ;
+Lflags { Outdoors }
+Sandy Bank^
+     You are standing on a soft, comfortable bank made of yellow sand.  A
+set of large tracks leads into the pool and they appear to be from a 
+crocodile.  It would be a good idea to get out of here fast before you
+become the crocodile's next meal.
+^
+
+golden18 e:golden20 s:golden17 w:golden19 ;
+Lflags { OnWater Outdoors }
+On the Pool^
+     Floating on the pool towards the waterfall, you take a moment to stare
+at the beautiful fish and other aquatic animals that swim beneath you.
+To the east there is a violent whirlpool and to the west there is an
+opening behind the waterfall.
+^
+
+golden19 e:golden18 ;
+Lflags { Peaceful }
+Cave behind the Waterfall^
+     This cave has been carved out from the powerful force of rushing 
+water.  The walls are smooth, damp, and patches of moss cling everywhere.
+Heavy mist hangs about this cave, making it slippery.  The glitter of
+diamonds embedded in the walls catches your attention.
+^
+
+golden20 w:golden18 ;
+Lflags { OnWater Outdoors }
+&+BWhirlpool&*^
+     As you make your way into the viscious path of a whirlpool, you 
+realize that it was a dumb choice to go east.  You still have time to 
+escape before you are sucked under.  
+^
+
+golden21 s:golden15 u:golden22 ;
+Lflags { Outdoors }
+&+REnd of the Trail&*^
+     Teetering on the brink of death, you step back.  There is a huge
+gorge directly in front of you, with no way to cross it by foot. You
+notice the tree branches that intertwine above the gorge.  You think to
+yourself that you could easily climb the trees and walk across the
+branches to reach the other side.  Easier said than done.  
+^
+
+golden22 w:golden23 d:golden21 ;
+Lflags { Outdoors }
+&+GThrough the Trees&*^
+     High above any visible ground, you cling to anything attached to the
+tree that you can find.  Cautiously approaching the biggest tree branch,
+you take small steps to get across this half-rotted branch.  To the west
+the tree limbs grow thinner.  
+^
+
+golden23 n:golden24 e:golden22 ;
+Lflags { Outdoors }
+&+GThrough the Trees&*^
+     You are in standing directly above the middle of the gorge, which 
+seems to have no bottom.  The tree branches are dangerously thin and
+weak here, but they support your weight.  
+^
+
+golden24 s:golden23 d:golden25 ;
+Lflags { Outdoors }
+&+GThrough the Trees&*^
+     Finally you reach the last tree which is on the other side of the 
+gorge.  It is much safer over here, although you could still loose your
+footing and splatter on the ground.  Exits are down and south.
+^
+
+golden25 w:golden26 u:golden24 ;
+Lflags { Outdoors }
+&+WApproach to the Temple&*^
+     You are walking on a hard clay path that twists and turns around
+boulders and trees.  There are large human footprints leading west 
+to the temple.  The sound of monkeys and growls echo through the jungle.
+^
+
+golden26 n:golden27 e:golden25 ;
+Lflags { Outdoors }
+Outside the Temple^
+     Ahead of you is a magnificent, centuries-old temple built by the
+natives' ancestors.  There are four obelisks near each corner of the 
+temple which are rough and pitted from exposure.  On top of the temple
+there is a moon-shaped bronze ring that reflects the sun's rays.  Bits of
+crumbling clay roll of the walls of the temple as the wind blows.  Two
+carved statues of lions sit proudly at the temple entrance.
+^
+
+golden27 n:golden31 e:golden29 s:golden26 w:golden28 ;
+Lflags { Dark }
+Entry Room^
+     You are standing in a room that has not been used in quite a while.
+Dry leaves swirl around the floor as many pairs of red eyes stare at you
+from cracks in the walls.  There are old, faded paintings on the walls
+depicting lost and won battles and days of famine and disease.  To the east
+there is a small side room while to the north and west there are 
+corridors.
+^
+
+golden28 e:golden27 ;
+Lflags { Dark }
+Corridor^
+     The ceiling of this corridor has collapsed, leaving you no choice but
+to go east.  There is a dank and musty smell seeping from a small crack in
+the wall.  It reminds you of your grandmother's closet.      
+^
+
+golden29 n:golden30 w:golden27 ;
+Lflags { Dark }
+&+WSideroom&*^
+     This room is filled with all kinds of worthless items.  There are a
+few pots and weapons, but nothing of importance.  There is a another small
+room to the north.
+^
+
+golden30 s:golden29 ;
+Lflags { Dark }
+Storage Room^
+     You are standing in a moldy, dusty room that apparently was used for
+storing food during famines.  There are rats and bugs crawling around here,
+searching for some form of nourishment.
+^
+
+golden31 n:golden32 s:golden27 ;
+Lflags { Dark }
+Main Hall^
+     You are standing in dark, omnious hall.  There are stone carvings of
+gods on the walls that watch your every movement.  The walls seem to glow
+with a greenish light, which gets brighter as you advance.  Some areas of
+the floor have crumbled away and reveal a bottomless chasm.  There are
+pictures on the walls showing the demise of greedy humans.
+^
+
+golden32 n:golden33 s:golden31 ;
+Lflags { Dark }
+Round Chamber^
+     This chamber grows bright with a greenish light that casts shadows
+on the corpses and skeletons of greedy adventurers.  A large circle with 
+a skull in the center occupies the middle of the chamber.  The doors to the
+east and west have caved in, giving you the only choice of going north. 
+^
+
+golden33 n:golden34 e:golden35 s:golden33 w:golden36 ;
+Lflags { Dark }
+&+WChamber of Fate&*^
+     You are standing in a small room with four exits.  Each exit holds a
+fate that you will not know unless you enter it.  The exit to the south
+will take you back to the round chamber, where you can sort your thoughts.
+There is a symbol carved above each exit.  A faint yellow light shines from
+the western exit while a heavy, black mist drifts from the northern exit.
+From the eastern exit there is a soft, red glow.
+^
+
+golden34 ;
+Lflags { Dark Death }
+&+WChasm&*^
+     You have chosen poorly.  The strange black mist that was drifting from
+the northern exit comes from a bottomless chasm.  It seems like you are
+falling for an eternity until you hit the bottom, splattering beyond
+recognition.
+^
+
+golden35 ;
+Lflags { Dark Death }
+&+RVolcanic Pit&*^
+     You have chosen poorly.  The soft red glow that you saw was actually
+molten magma spewing from the bowels of the earth.  Before you even hit
+the magma, your body bursts into flames and disintegrates.
+^
+
+golden36 w:golden37 e:golden33;
+Lflags { Dark }
+&+WHall of the Headless&*^
+     You have chosen wisely.  Your body is still intact, but only because
+two sharp half-circle blades that were supposed shoot out of the wall and 
+decapitate you have rusted in place. The tunnel continues to the west. 
+^
+
+golden37 e:golden36 w:^bronze_door ;
+Lflags { Dark }
+&+WEntrance to the Treasury&*^
+     Standing in front of a massive bronze door, you are confused as to how
+anyone, or anything for that matter, can get past it. There are two torches
+hanging from the wall opposite each other.
+^
+
+golden38 e:^branze_door d:^statue ;
+Lflags { }
+&+WTemple Treasury&*^
+     Making your way past the giant bronze door, you stand in a ancient,
+sacred treasury.  The floor is made of small silver and platinum tiles
+patterned like a checkerboard.  Thick carved pillars of solid jade line a
+red carpet which runs straight up a set of stairs toward a marble statue 
+of a grinning monkey sitting on its haunches.  Lying scattered on the floor 
+are gold coins, emeralds, rubies, and diamonds for the taking.  Golden
+gargoyles peer at you from the ceiling.  The ceiling has a large, finely
+crafted ruby set in the middle.  Fountains molded from pure crystal hide
+behind the pillars, gushing forth tiny diamonds.  
+^
+
+golden39 n:golden40 u:^statchew ;
+Lflags { Dark }
+&+WSecret Passage&*^
+     After pushing the statue aside, you have crawled down into a tiny,
+cramped hand-dug tunnel.  There are veins of gold running horizontally 
+across the passage, rounding a bend in the tunnel.  The passage continues
+to the north.
+^
+
+golden40 n:golden41 s:golden40 ;
+Lflags { Dark }
+&+WSecret Passage&*^
+     To the north the passage opens up into a bright chamber.  The
+vein of gold has gotten much thicker.  You estimate it to be at least six
+inches wide.  Exits are to the north and south.
+^
+
+golden41 s:golden40 u:golden1 ;
+Lflags { Dark }
+&+WPassage End&*^
+     You are standing in a small chamber.  All around you big and small 
+stars leap at you and it seems like you could touch them.  The are many
+voices talking and whispering as if some sort of conversation was taking
+place.  There is no floor needed here, for you are being suspended by some 
+unknown force.  There is a mystical fog swirling and rotating around
+a small gateway to another land.  
+^
+
+
+
+
+

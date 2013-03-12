@@ -1,0 +1,573 @@
+/*
+Zone Name: novice
+Notes: 
+Notes About This Zone:
+********************************************************
+* NEWBIE.ZONE                                            *
+* Written By: Rex                                        *
+* Code By: Rex                                           *
+* Notes:     Distribute with full DYRT distribution only *
+* Edited by Rex on 7 September 1996                      *
+********************************************************
+*/
+
+
+
+
+
+%mobiles
+
+Name            = mike
+PName           = "mike"
+MFlags          { BarWest }
+PFlags          { NoSummon }
+Location        = hill
+Strength        = 50
+Damage          = 10
+Description     = "Mike thinks he's doing a pretty good job at blocking your way west."
+Examine         = "Mike is a jolly little fellow with red hair.  He is holding an empty pot."
+End             = mike
+
+Name            = paddy
+PName           = "paddy"
+Location        = bottom
+Strength        = 55
+Damage          = 10
+Description     = "Paddy looks at you curiously from behind a tree stump."
+Examine         = "Paddy is a gruff little man.  He has a red beard and is dressed in green."
+End             = paddy
+
+Name            = stanley
+PName           = "stanley"
+Location        = entrance
+Strength        = 60
+Damage          = 10
+Description     = "Stanley giggles at you as you pass him unaware."
+Examine         = "Stanley, too, is short with red hair."
+End             = stanley
+
+Name            = tricia
+PName           = "tricia"
+SFlags          { Female }
+Location        = stream
+Strength        = 65
+Damage          = 10
+Description     = "Tricia is sitting on a stone, gazing out over the water."
+Examine         = "Tricia seems to be the pensive type.  With long, dark hair, she looks very
+beautiful as she daydreams."
+End             = tricia
+
+Name            = shanon
+PName           = "shanon"
+SFlags          { Female }
+Location        = pool
+Strength        = 65
+Damage          = 10
+Description     = "Shanon giggles at you as you vainly watch your reflection in the pool."
+Examine         = "Shanon is a very giggly child."
+End             = shanon
+
+Name            = colleen
+PName           = "colleen"
+SFlags          { Female }
+Location        = track
+Strength        = 65
+Damage          = 10
+Description     = "Colleen is here, quietly picking flowers."
+Examine         = "Colleen seems to be preoccupied with her flowers."
+End             = colleen
+
+Name            = malcomb
+PName           = "malcomb"
+Location        = lawn
+Strength        = 65
+Damage          = 10
+Description     = "Malcomb is carrying a handful of clover to his girlfriend."
+Examine         = "He seems to be proud of his clover bouquet."
+End             = malcomb
+
+Name            = danny
+PName           = "danny"
+Location        = valley
+Strength        = 70
+Damage          = 10
+Description     = "Danny wonders where he should hide his new pot of gold."
+Examine         = "He is a clever-looking boy with red hair and freckles."
+End             = danny
+
+Name            = erik
+PName           = "erik"
+Location        = square
+Strength        = 70
+Damage          = 10
+Description     = "Erik whistles happily as he darts from tree to tree."
+Examine         = "Erik has light hair and a mischevious grin."
+End             = erik
+
+Name            = molley
+PName           = "molley"
+SFlags          { Female }
+Location        = stream_2
+Strength        = 70
+Damage          = 10
+Description     = "Molley smiles happily as she skips stones."
+Examine         = "Molley's raven hair catches the light in a very attractive way."
+End             = molley
+
+Name            = tallie
+PName           = "tallie"
+SFlags          { Female }
+Location        = stream_3
+Strength        = 75
+Damage          = 10
+Description     = "Tallie quickly darts behind a rock as you approach her."
+Examine         = "Tallie seems young and very shy."
+End             = tallie
+
+Name            = millie
+PName           = "millie"
+SFlags          { Female }
+Location        = end
+Strength        = 75
+Damage          = 10
+Description     = "You caught Millie dancing happily in the grass."
+Examine         = "Millie is singing to herself gleefully."
+End             = millie
+
+Name            = samson
+PName           = "samson"
+Location        = tunnel
+Strength        = 75
+Damage          = 10
+Description     = "Samson found a four-leaf clover and is running home to show it off."
+Examine         = "Samson is very excited about his find!"
+End             = samson
+
+Name            = sally
+PName           = "sally"
+SFlags          { Female }
+Location        = mine
+Strength        = 80
+Damage          = 10
+Description     = "Sally is rushing home to fix dinner for her children."
+Examine         = "She looks older than some of the others, but she does not seem to be taller."
+End             = sally
+
+Name            = clyde
+PName           = "clyde"
+Location        = tree
+Strength        = 90
+Damage          = 10
+Description     = "Clyde rushes after his wife, Sally."
+Examine         = "Clyde is eagerly anticipating Sally's specialty stew."
+End             = clyde
+
+Name            = scottie
+PName           = "scottie"
+Location        = roots
+Strength        = 100
+Damage          = 10
+Description     = "Scottie peers at you curiously from the shadows."
+Examine         = "Scottie is old and worn by years of work."
+End             = scottie
+
+%objects
+
+Name            = clover
+AFlags          { Neck  }
+OFlags          { Armor Newbie Wearable HitChance }
+Location        = IN_ROOM:hut
+BValue          = 30
+Size            = 1
+Weight          = 1
+Armor           = 28
+Desc[0]         = "A small green clover is wilting away here."
+Examine         = "Upon closer examination, you see that this is a four-leaf clover.  Perhaps you 
+should wear it for good luck."
+End             = clover
+
+Name            = pitchfork
+AltName         = fork
+OFlags          { Newbie Weapon  }
+Location        = IN_ROOM:cellar
+BValue          = 600
+Size            = 10
+Weight          = 10
+Damage          = 15
+Desc[0]         = "An old rusty pitchfork lies here.  Perhaps you should pick it up."
+Examine         = "It looks rather rusty, but it would make a fine weapon."
+End             = pitchfork
+
+Name            = leaf
+Location        = IN_ROOM:clearing
+BValue          = 50
+Size            = 1
+Weight          = 2
+Desc[0]         = "An oak leaf lies on the ground here."
+Examine         = "The leaf is very beautiful and seems to shine with inner magic."
+End             = leaf
+
+Name            = moss
+Location        = IN_ROOM:dead
+BValue          = 50
+Size            = 1
+Weight          = 1
+Desc[0]         = "Growing on the tree is a bit of moss."
+Examine         = "The moss is fragile and looks like it could fall apart in your hands."
+End             = moss
+
+Name            = shield
+OFlags          { Armor Newbie Shield Wearable }
+Location        = IN_ROOM:top
+BValue          = 200
+Size            = 10
+Weight          = 5
+Armor           = 45
+Desc[0]         = "A small shield lies here."
+Examine         = "It's a small shield, but it would probably protect you in a battle."
+End             = shield
+
+Name            = stone
+AltName         = rock
+Location        = CARRIED_BY:Molley
+BValue          = 40
+Size            = 2
+Weight          = 2
+Desc[0]         = "A perfectly smooth and flat rock lies here."
+Examine         = "This rock would be perfect for skipping on water!"
+End             = stone
+
+Name            = diamond
+AltName         = chip
+Location        = IN_ROOM:mine
+BValue          = 200
+Size            = 2
+Weight          = 1
+State           = 1
+MaxState        = 1
+Desc[0]         = "A small diamond chip lies here."
+Desc[1]         = "A small diamond chip is a bit loose from the wall..."
+Examine         = "This little chip doesn't look too valuable, but it is light to carry."
+End             = diamond
+
+Name            = root
+Location        = IN_ROOM:tree
+BValue          = 70
+Size            = 4
+Weight          = 2
+Desc[0]         = "A small root lies loose here."
+Examine         = "It's just a twisted brown root.  What did you expect to see?"
+End             = root
+
+Name            = pot
+OFlags          { Container }
+Location        = CARRIED_BY:Mike
+BValue          = 100
+Size            = 15
+Weight          = 4
+Desc[0]         = "A small pot lies on the ground here."
+Examine         = "This looks like a fair-sized pot.  You wish it were full of gold."
+End             = pot
+
+%locations
+
+entry s:trail1@aephir w:trail_1 n:haunted_0@haunted;
+LFlags	{ Outdoors Real  NoMobiles}
+The Forest Trail^
+    	You have wandered into a forest filled with very large and majestic 
+trees of every type imaginable.  The quietness of the forest amazes you as your 
+feet crunch quietly on the fallen pine needles.  The path that you are on leads 
+to the west.
+^
+
+trail_1 n:hut e:entry w:trail_2;
+LFlags	{ Outdoors Real  }
+Forest Trail^
+    	Walking a little bit deeper into the forest you notice how tranquil 
+everything is.  You start to feel a little strange, however, and you get light 
+butterflies in your stomach as you get the feeling that you might be intruding. 
+ To the north you notice a small hut, and to the west the forest continues.  
+The section of forest to the west seems to be made up almost entirely of very 
+large oak trees.
+^
+
+hut s:trail_1 d:cellar;
+LFlags	{ Real  }
+Inside the Hut^
+    	You have entered a small hut.  The structure is falling down and is 
+badly in need of maintenance.  There are holes in the wood that make up that 
+walls, which allow for some light to get through.  On the floor you notice a 
+small green object that seems to be wilting away.  You wonder what it is and 
+how it got there.
+^
+
+cellar u:hut;
+LFlags	{ Real  }
+In the Cellar^
+    	If the hut you are standing in was in better repair, this would be a 
+very dark and foreboding room.  The shape of the walls, however, allows you to 
+look around and see that this is a simple storage area which the owner of this 
+hut must have once used to keep his gardening tools.
+^
+
+trail_2 e:trail_1 w:clearing;
+LFlags	{ Outdoors Real  }
+Forest Trail^
+    	The trail continues toward the west and up ahead seems to open up into 
+an area dominated by very old oak trees.  You see what appears to be a cluster 
+of them up ahead.
+^
+
+clearing n:dead e:trail_2 s:enchanting w:grand;
+LFlags	{ Outdoors Real  }
+Oak Clearing^
+    	You have reached the cluster of oaks, but as you stand at the edge of 
+it, you notice that it is not a cluster, but a ring of trees!  In the center of 
+the ring is the largest oak tree you have ever seen.  You stare up at it with a 
+feeling of utter awe.  You suddenly feel very small and insignificant.
+^
+
+dead s:clearing w:northern;
+LFlags	{ Outdoors Real  }
+A Dead Oak^
+    	In front of you is a tree that was apparently struck by lightning.  You 
+feel sad as you look at what is left of it.  The tree almost seems to cry out 
+in pain.
+^
+
+northern e:dead s:grand w:small;
+LFlags	{ Outdoors Real  }
+The Northern Oak^
+    	You have reached the northern-most tree in the circle.  This one seems 
+to be one of the youngest in the cluster, even though they all seem to be about 
+the same age.  This tree is just a little smaller and the bark is just a bit 
+smoother than many of the others.
+^
+
+small n:trail_3 e:northern s:western;
+LFlags	{ Outdoors Real  }
+Small Oak^
+    	This particular tree seems like it has lost a few limbs in its day.  
+You feel sad for it and decide to move on before you get too depressed.  You 
+notice another small path to the north, and to the south, you can still see the 
+other trees that comprise this marvelous ring.
+^
+
+western n:small e:grand s:corner;
+LFlags	{ Outdoors Real  }
+Western Oak^
+    	You are now standing at the base of the western-most oak in the ring.  
+This particular tree captures your attention because it seems almost as 
+grandiose as the center tree, although you almost get a feeling that the center 
+tree would never allow for such competition.
+^
+
+corner n:western e:southern;
+LFlags	{ Outdoors Real  }
+Corner Oak^
+    	This tree is in the southwestern corner of the ring.  If trees could 
+appear 'ordinary,' this one would, except for one small detail.  There would 
+appear to be a small hole between the roots about the size of your hand... but 
+you don't really think there could be anything down there... or do you?
+^
+
+southern n:grand e:enchanting w:corner;
+LFlags	{ Outdoors Real  }
+Southern Oak^
+    	You now stand near the base of the southern-most tree of the ring.  You 
+look back at the center tree and are still amazed at the size and grandeur of 
+it.  You wonder again how all this happened.
+^
+
+enchanting n:clearing w:southern;
+LFlags	{ Outdoors Real  }
+Enchanting Oak^
+    	This particular tree is rather beautiful to look at.  Its branches are 
+healthy and wide-spread.   The tree seems almost happy and you think it look a 
+little out of place here in this ring.
+^
+
+grand n:northern e:clearing s:southern w:western u:top;
+LFlags	{ Outdoors Real  }
+The Grand Oak^
+    	You are now standing at the base of this VERY large oak tree.  This 
+tree is absolutely breath-taking!  You look at the other trees circling around 
+it and wonder how such a freak of nature occurred.  You look up at the massive 
+branches and discover you can easily climb up the tree.
+^
+
+top d:grand;
+LFlags	{ Outdoors Real  }
+Top of the Oak Tree^
+    	You are sitting safely in a fork in the tree trunk.  You feel kind of 
+bad for climbing the tree, but you see that it was worth the effort, if only 
+because of the view you get of the forest from where you sit.  You feel like a 
+kind on a throne as you look down into a valley to the northwest.  You wonder 
+what could be down there.  You decide to climb down and have a look.
+^
+
+trail_3 s:small w:hill;
+LFlags	{ Outdoors Real  }
+Forest Path^
+    	You have left the circle of oaks and are back on a trail that leads 
+north, then turns to the west.  The trail gets steep here and goes down into a 
+lush valley that is covered in green.  Everywhere, green.
+^
+
+hill e:trail_3 w:bottom d:bottom;
+LFlags	{ Outdoors Real  }
+Path to the Valley^
+    	You are picking your way down the hill and into a lush-looking valley.  
+Out of the corner of your eye, you think you see something moving among the 
+trees.
+^
+
+bottom e:hill s:lawn w:entrance u:hill;
+LFlags	{ Outdoors Real  }
+Bottom of the Hill^
+    	You have just come to the bottom of the hill.  You are standing in a 
+very beautiful valley with tall trees all around you.  Out of the corner of 
+your eye, you think you see something move.  You hear a sound that resembles 
+giggling.  Could something be laughing at you? Watching you???
+^
+
+entrance e:bottom s:track w:stream;
+LFlags	{ Outdoors Real  }
+Entrance to the Village^
+    	All around you is green!  You seem to have stepped into an enchanted 
+village.  You still think you hear giggling and curious whispers as you wander 
+around.
+^
+
+stream e:entrance s:pool;
+LFlags	{ Outdoors Real  }
+By the Stream^
+    	A small rippling stream flows by here.  The very sounds that the stream 
+makes lifts your spirits and you feel like you could stay here forever.  All of 
+a sudden, something to the south flashes in front of your eyes.  You feel sure 
+by now that this is not just your imagination.
+^
+
+pool n:stream e:track s:stream_2;
+LFlags	{ Outdoors Real  }
+By the Pool^
+    	The stream widens into a sort of pool before it continues downstream 
+and out of the village.  You can see your reflection in the clear water, and 
+while looking into the pool, you see something very small dart behind you.
+^
+
+track n:entrance e:lawn s:square w:pool;
+LFlags	{ Outdoors Real  }
+Main Village Track^
+    	The path widens here and you now see that you have indeed entered a 
+small village.  In all of the grass around you, you can feel little eyes 
+watching you.  The Leprechauns who live here seem very curious, and you being 
+to wonder if you might be able to catch one.
+^
+
+lawn s:valley w:track;
+LFlags	{ Outdoors Real  }
+Green Lawn^
+    	The grass you are walking on is perfectly green and very soft.  The 
+hill continues gently down to the south.  You have an uncontrollable urge to 
+roll down the hill.   But you keep your composure as you search for whatever 
+might be watching you.
+^
+
+valley n:lawn s:tunnel w:square;
+LFlags	{ Outdoors Real  }
+In the Valley^
+    	This is the lowest point of the valley.  To the north and south the 
+hill slopes gently up.  You can still see the stream curving off to the west.  
+A curious tunnel is coming up to the south.
+^
+
+square n:track e:valley s:end w:stream_2;
+LFlags	{ Outdoors Real  }
+Small Clearing^
+    	You are now in the tiniest of clearings you have ever seen.  It reminds 
+you somewhat of a miniature version of the village greens that were commonly 
+found in Colonial American towns.
+^
+
+stream_2 n:pool e:square s:stream_3;
+LFlags	{ Outdoors Real  }
+Further Downstream^
+    	The water forms more of a stream once again at this point.  The water 
+moves a little faster and you can see more signs of erosion.  For the first 
+time you notice that it is not really grass that you are walking on, but 
+clover.
+^
+
+stream_3 n:stream_2 e:end s:path1@princess;
+LFlags	{ Outdoors Real  }
+Bend in the Stream^
+    	Here the stream bends off to the west.  You watch the sunlight dance 
+off the ripples and find it all extremely relaxing.  Piles of sand have 
+accumulated against the bank and to the south after a recent flooding.
+^
+
+end n:square e:tunnel w:stream_3;
+LFlags	{ Outdoors Real  }
+End of the Path^
+    	You have reached the end of the main village path.  To the west you can 
+see the water slowly heading away from you.  To the east is the entrance to a 
+tunnel.
+^
+
+tunnel n:valley s:mine w:end;
+LFlags	{  }
+Entrance to the Mine Tunnel^
+    	Ahead of you is a long tunnel that reminds you of a mine of some kind.  
+It should logically be dark in there, but something in the walls seems to 
+reflect sunlight from the outside and light the tunnel for you.
+^
+
+mine n:tunnel e:tree;
+LFlags	{  }
+In the Mine^
+    	The walls are, as you can now see, lit by the reflection of the sun on 
+small diamond chips in the walls.  If you try hard enough, you may be able to 
+pry a chip or two loose.  As you do this, you cause a minor quake that seas the 
+exit behind you.  It looks like the only way out of here is to the east.
+^
+
+tree w:mine u:roots;
+LFlags	{  }
+Beneath the Roots^
+    	You have left the mine and are standing in an area beneath a tree's 
+roots.  Looking straight up you can see the structure of the root system.  
+There is a root nearby and it looks like, with a little effort, you could reach 
+it and pull yourself up.
+^
+
+roots u:corner_2 d:fall;
+LFlags	{  }
+In the Roots^
+    	You are sitting amidst the roots of a tree.  You notice now that to go 
+back down now would probably be fatal.  You do, however, notice that there is a 
+hole between two of the biggest roots that you think you might be able to fit 
+through.
+^
+
+corner_2 n:western e:southern;
+LFlags	{ Outdoors Real  }
+Corner Oak^
+    	You have come out from between the roots of the tree.  You remember 
+that when you last passed this tree the hole was the size of your hand.  You 
+panic as you realize that you must have shrunk while on your journey.  As you 
+look around, the trees look much bigger than they did before.  Just when you 
+decided that you are stuck at this small size forever, you feel yourself 
+growing once again back to your normal size.  You shake your head in disbelief 
+and decide to go back to the safety of the mighty Gate of Sorcerers.
+^
+
+fall s:tree;
+LFlags	{  }
+Falling...^
+    	You ignore your	better judgment and you jump down from the roots.  
+You land with a thud, bewildered and banged up a bit, but not seriously hurt.  
+Brushing the dirt off of your clothes, you look around for an exit.
+^
+
+

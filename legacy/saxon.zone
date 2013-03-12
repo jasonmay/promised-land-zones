@@ -1,0 +1,1133 @@
+/***************************************************************************
+*       Saxon Zone by Snubweasel ( Matt Bush hmb95f@timon.ACU.edu )        *
+*                                                                          *
+* This zone should not be used on any MUD unless you have my consent to do *
+* so. It should also be a quest if possible. A specials file should have   *
+* accompanied it. The only special needed besides those would be the ones  *
+* to make it a quest. The quest would be awarded if the same runner killed *
+* the mobiles "Red Dragon", "Grendel", and "Grendels Mother". If any other *
+* questions arise, you can contact me on various muds as Snubweasel or as  *
+* Methuselah, or email me.                                                 *
+*                                                                          *
+*                       Thanks.. hope you enjoy ;)                         *
+***************************************************************************/
+
+
+
+
+
+%zone:saxon
+
+%mobiles
+
+Name		= Hrothgar
+PName		= "Hrothgar"
+Location	= saxon18
+Description	= "Hrothgar, son of Healfdene, lord of the Danes is here."
+Speed		= 0
+Damage	= 20
+Armor		= 10
+Aggression	= 0
+PFlags	{ NoExorcise NoZap }
+Strength	= 350
+End		= Hrothgar
+
+Name		= Wealhtheow
+PName		= "Wealhtheow"
+Location	= saxon17
+Description	= "Wealhtheow, Hrothgar's queen, is here adorned in gold."
+SFlags	{ Female }
+Damage	= 12
+Armor		= 10
+Speed		= 0
+Aggression	= 0
+Strength	= 200
+PFlags	{ NoSteal NoExorcise NoZap }
+End		= Wealhtheow
+
+Name		= Grendel
+PName		= "Grendel"
+Location	= saxon30
+Description	= "The midnight marauder of Heorot growls angrily at your approach."
+EFlags	{ NegFrost Frost }
+Speed		= 0
+Aggression	= 100
+Strength	= 1000
+Armor		= 25
+Damage	= 15
+PFlags	{ NoExorcise NoAlias NoZap NoSummon }
+End		= Grendel
+
+Name		= reptile
+PName		= "Sea Reptile"
+Location	= saxon31
+Description	= "A massive Sea Reptile lurks here, hungry to feed on you."
+Strength	= 400
+Damage	= 15
+Armor		= 5
+Aggression	= 66
+Speed		= 5
+MFlags	{ Aquatic }
+EFlags	{ NegFireball Fireball }
+End		= reptile
+
+Name		= mother
+PName		= "Grendels Mother"
+Location	= saxon40
+Description	= "A hideous growl shoots from a corner of the room as Grendel's mother senses
+your arrival."
+Aggression	= 100
+Speed		= 0
+Armor		= 20
+Damage	= 30
+Strength	= 1000
+PFlags	{ NoExorcise NoAlias NoZap NoSummon }
+SFlags	{ Female }
+EFlags	{ NegFireball Fireball }
+End		= mother
+
+Name		= demon
+PName		= "Sea Demon"
+Location	= saxon38
+Description	= "A Demon made of blood and fire draws his axe at the site of you."
+EFlags	{ NegFireball Fireball }
+Mflags	{ Aquatic }
+Strength	= 450
+Damage	= 10
+Armor		= 3
+Aggression	= 50
+Speed		= 5
+End		= demon
+
+Name		= shark
+PName		= "Fire Shark"
+Location	= saxon36
+Description	= "A flame swims by, and you notice it resembles a Great White shark."
+Aggression	= 75
+Speed		= 5
+Strength	= 300
+Damage	= 10
+Armor		= 10
+Mflags	{ Aquatic }
+EFlags	{ NegFireball Fireball FearFrost }
+End		= shark
+
+Name		= serpent
+PName		= "Serpent"
+Location	= saxon34
+Description	= "A small serpent, its veins glowing with fire slithers by you."
+Damage	= 10
+Armor		= 5
+Strength	= 250
+Speed		= 5
+Aggression	= 25
+Sflags	{ NoLegs NoArms }
+EFlags	{ NegFireball NegBHands Fireball }
+End		= serpent
+
+Name		= bass
+PName		= "Small Mouth Bass"
+Location	= saxon25
+Description	= "A small mouth bass swims by you, its back glittering in the sun."
+Mflags	{ Aquatic }
+Strength	= 100
+Damage	= 5
+Armor		= 5
+Speed		= 0
+Aggression	= 0
+End		= bass
+
+Name		= whale
+PName		= "Killer Whale"
+Location	= saxon23
+Description	= "There is a killer whale frolicking here in the sea."
+Mflags	{ Aquatic }
+Strength	= 300
+Damage	= 20
+Armor		= 5
+Speed		= 0
+Aggression	= 50
+End		= whale
+
+Name		= crab
+PName		= "Crab"
+Location	= saxon1
+Description	= "A small crab, about the size of a baseball nips at your toes."
+Strength	= 100
+Damage	= 10
+Armor		= 0
+Speed		= 0
+Aggression	= 50
+End		= crab
+
+Name		= hawk
+PName		= "Hawk"
+Location	= saxon3
+Description	= "A red tailed hawk swoops out of the sky and tears at your face."
+Mflags	{ Flyer }
+Strength	= 150
+Damage	= 15
+Armor		= 5
+Speed		= 2
+Aggression	= 100
+End		= hawk
+
+Name		= rat
+PName		= "Rat"
+Location	= saxon27
+Description	= "A rat scrambles here on the floor, looking for food."
+Strength	= 50
+Damage	= 10
+Armor		= 0
+Speed		= 0
+Aggression	= 25
+End		= rat
+
+Name		= beowulf
+PName		= "Beowulf"
+Location	= saxon13
+Description	= "Beowulf, the greatest warrior ever born, stands proudly here."
+Strength	= 1500
+Damage	= 25
+Armor		= 10
+Aggression	= 0
+Speed		= 0
+Mflags	{ BarSouth }
+PFlags	{ NoSteal NoExorcise NoAlias NoZap NoSummon NoMagic }
+End		= beowulf
+
+Name		= cook
+PName		= "Cook"
+Location	= saxon16
+Description	= "Hrothgar's cook is preparing a feast for the warriors."
+Strength	= 250
+Damage	= 15
+Armor		= 5
+Speed		= 0
+Aggression	= 15
+End		= cook
+
+Name		= gateguard
+PName		= "Thomas"
+Location	= saxon7
+Description	= "Thomas stares at you, trying to decipher if you pose a threat to the king."
+Strength	= 350
+Damage	= 15
+Armor		= 10
+Aggression	= 0
+Speed		= 0
+End		= gateguard
+
+Name		= guard1
+PName		= "Andrew"
+Location	= saxon10
+Description	= "Andrew paces back and forth, readying himself for another attack on Heorot."
+Strength	= 400
+Damage	= 10
+Armor		= 10
+Speed		= 5
+Aggression	= 0
+End		= guard1
+
+Name		= guard2
+PName		= "James"
+Location	= saxon11
+Description	= "James stands here pondering how to kill the awesome monster Grendel."
+Strength	= 400
+Damage	= 15
+Armor		= 5
+Speed		= 5
+Aggression	= 0
+End		= guard2
+
+Name		= guard3
+PName		= "Peter"
+Location	= saxon15
+Description	= "Peter is staring at the wall, pictures of the cruel monster Grendel running
+through his mind."
+Strength	= 400
+Damage	= 10
+Armor		= 20
+Speed		= 5
+Aggression	= 0
+End		= guard3
+
+Name		= dragon
+PName		= "Red Dragon"
+Location	= saxon52
+Description	= "A hulking mass emerges from the shadows, flames erupting from it's 
+nostrils."
+Strength	= 1500
+Damage	= 30
+Armor		= 15
+EFlags	{ Fireball NegFireball NegMissile NegFrost }
+MFlags	{ BarSouth GrabHostile }
+Speed		= 0
+Aggression	= 100
+PFlags	{ NoExorcise NoAlias NoZap NoSummon }
+End		= dragon
+
+Name		= bandit1
+PName		= "Bandit"
+Location	= saxon46
+Description	= "A bandit eyes you from a distance, wondering if you are worth killing."
+Strength	= 250
+Armor		= 5
+Damage	= 10
+Aggression	= 50
+Speed		= 5
+MFlags	{ PickStuff }
+End		= bandit1
+
+Name		= bandit2
+PName		= "Bandit"
+Location	= saxon42
+Description	= "A figure lurks in the shadows, contemplating how much you value your life."
+Strength	= 275
+Speed		= 5
+Aggression	= 25
+Damage	= 15
+Armor		= 0
+MFlags	{ PickStuff }
+End		= bandit2
+
+Name		= peasant
+PName		= "Peasant"
+Location	= saxon9
+Description	= "A peasant is here tending to his flock."
+Strength	= 150
+Damage	= 5
+Armor		= 5
+Speed		= 0
+Aggression	= 0
+End		= peasant
+
+Name            = widow
+PName           = "Widow"
+Location        = saxon48
+Description     = "An old woman cries out at the site of you."
+PFlags          { NoSteal NoExorcise NoHassle NoAlias NoZap NoSummon }
+SFlags          { Female }
+Strength        = 100
+Damage          = 5
+Armor           = 5
+Speed           = 0
+Aggression      = 0
+End             = widow
+
+%objects
+
+Name		= throne
+PName		= "throne"
+Location	= IN_ROOM:saxon18
+State		= 0
+MaxState	= 0
+Desc[0]	= "A large golden throne rests against the south wall."
+Examine	= "This throne is fit for a king, and no one else. Step back fool!"
+Size		= 100
+Weight	= 100
+OFlags	{ NoGet }
+End		= throne
+
+Name		= raft
+PName		= "raft"
+AltName	= boat
+Oflags	{ Boat }
+Location	= IN_ROOM:saxon26
+State		= 1
+MaxState	= 1
+Desc[0]	= "A raft has been dropped here."
+Desc[1]	= "A raft has been left here on the Sandy Shoreline."
+Size		= 50
+Weight	= 25
+BValue	= 25
+OFlags	{ GetFlips }
+End		= raft
+
+Name		= corpse
+PName		= "corpse"
+Location	= IN_ROOM:saxon29
+State		= 0
+MaxState	= 0
+Desc[0]	= "A bloodied and mangled corpse lies here, one eye hanging from a socket."
+Examine	= "He's dead, ok? What did you think, it'd be food or something?"
+OFlags	{ NoGet }
+Size		= 5
+Weight	= 35
+End		= corpse
+
+Name		= necklace
+Location	= IN_ROOM:limbo@limbo
+State		= 0
+MaxState	= 0
+Desc[0]	= "A golden necklace has been dropped here, attached to it is a glowing cross."
+OFlags	{ Wearable Cross HitChance MissileSpell }
+BValue	= 250
+Size	= 5
+Weight	= 5
+End		= necklace
+
+Name		= gold
+PName		= "gold"
+Location	= IN_ROOM:saxon52
+State		= 1
+MaxState	= 1
+Desc[0]	= "A large bag of gold has been left here."
+Desc[1]	= "The Red Dragon's treasure is stowed in the corner."
+BValue	= 600
+Size		= 25
+Weight	= 35
+OFlags	{ GetFlips }
+End		= gold
+
+Name		= knife
+PName		= "knife"
+Location	= WIELDED_BY:bandit1
+State		= 0
+MaxState	= 0
+Desc[0]	= "A sharp knife covered in blood lies on the ground."
+Damage	= 15
+Armor		= 0
+OFlags	{ Weapon }
+End		= knife
+
+Name		= boots
+PName		= "boots"
+Location	= WORN_BY:bandit2
+State		= 0
+MaxState	= 0
+Desc[0]	= "A pair of leather boots, slightly torn, lay here."
+Damage	= 0
+Armor		= 25
+OFlags	{ Armor Wearable }
+Aflags	{ Feet }
+Size		= 10
+Weight	= 10
+End		= boots
+
+Name		= flyer
+PName		= "flyer"
+Location	= IN_ROOM:saxon1
+State		= 0
+MaxState	= 0
+Desc[0]	= "A piece of paper lays on the ground, perhaps you should look at it."
+Examine	= "
+Hear Ye! Hear Ye!
+The great mead hall Heorot is being subjected to the attacks of an evil
+creature of the dark. If any person think that they are brave enough,
+strong enough, and in need of money, take this flyer to Beowulf in the
+great mead hall.
+                                        Thank You,
+                                        Hrothgar"
+Size		= 2
+Weight	= 1
+End		= flyer
+
+Name		= hrunting
+PName		= "Hrunting"
+Location	= WIELDED_BY:beowulf
+State		= 0
+MaxState	= 0
+Desc[0]	= "Hrunting, the finest sword ever crafted is stuck in the ground here."
+Examine	= "
+Hrunting is the name of this hilted sword. The edge is iron, colored with
+poison-stripes, and hardened with blood shed in battle. It has never failed
+any of the men who have grasped it in their hands."
+Damage	= 28
+Armor		= 0
+Size		= 30
+Weight	= 40
+BValue	= 500
+OFlags	{ Weapon Lit }
+End		= hrunting
+
+Name		= helmet
+PName		= "helmet"
+Location	= WORN_BY:beowulf
+State		= 0
+MaxState	= 0
+Desc[0]	= "A shiny helmet, decorated with jewels sparkles in the light."
+Size		= 15
+Weight	= 15
+Armor		= 36
+BValue	= 250
+OFlags	{ Armor Wearable }
+Aflags	{ Head }
+End		= helmet
+
+Name		= mail
+PName		= "mail"
+AltName	= coat
+Location	= WORN_BY:beowulf
+State		= 0
+MaxState	= 0
+Desc[0]	= "A well polished coat of mail has been tossed aside."
+Armor		= 40
+Size		= 30
+Weight	= 40
+BValue	= 100
+OFlags	{ Armor Wearable }
+Aflags	{ Arms Chest Back }
+End		= mail
+
+Name		= mead
+PName		= "mead"
+Location	= IN_ROOM:saxon16
+State		= 1
+MaxState	= 1
+Desc[0]	= "A bottle of mead is waiting to be drunk."
+Desc[1]	= "There is a bottle of mead sitting on the cook's counter."
+Size		= 5
+Weight	= 5
+BValue	= 0
+OFlags	{ Food GetFlips }
+End		= mead
+
+Name		= axe
+PName		= "axe"
+Location	= WIELDED_BY:demon
+State		= 0
+MaxState	= 0
+Desc[0]	= "A large axe covered in blood rests here."
+Damage	= 25
+Armor		= 0
+Size		= 25
+Weight	= 25
+BValue	= 100
+OFlags	{ Weapon }
+End		= axe
+
+Name		= shield
+PName		= "shield"
+Location	= WORN_BY:gateguard
+State		= 0
+MaxState	= 0
+Desc[0]	= "A shield rests here, bearing the coat of the Danes."
+Armor		= 30
+Size		= 10
+Weight	= 10
+BValue	= 50
+OFlags	{ Shield Armor Wearable }
+End		= shield
+
+Name		= dagger
+PName		= "dagger"
+Location	= WIELDED_BY:guard1
+State		= 0
+MaxState	= 0
+Desc[0]	= "A sharp dagger gleams in the light."
+Armor		= 0
+Damage	= 18
+Size		= 10
+Weight	= 7
+BValue	= 75
+OFlags	{ Weapon }
+End		= dagger
+
+Name		= mace
+PName		= "mace"
+Location	= WIELDED_BY:guard2
+State		= 0
+MaxState	= 0
+Desc[0]	= "A menacing looking mace dares you to kill with it."
+Size		= 20
+Weight	= 20
+Damage	= 27
+BValue	= 75
+OFlags	{ Weapon }
+End		= mace
+
+Name		= mask
+PName		= "mask"
+Location	= WORN_BY:guard3
+State		= 0
+MaxState	= 0
+Desc[0]	= "A mask of chain mail sits lost here."
+Armor		= 24
+Size		= 15
+Weight	= 20
+BValue	= 50
+OFlags	{ Armor Wearable }
+Aflags	{ Face }
+End		= mask
+
+Name		= door1
+PName		= "door"
+Location	= IN_ROOM:saxon7
+State		= 2
+MaxState	= 2
+Linked	= door2
+Desc[0]	= "The door into Heorot is wide open."
+Desc[1]	= "The door into Heorot is closed."
+Desc[2]	= "The door into Heorot is locked shut."
+OFlags	{ NoGet Openable Lockable }
+End		= door1
+
+Name		= door2
+PName		= "door"
+Location	= IN_ROOM:saxon10
+State		= 2
+MaxState	= 2
+Linked	= door1
+Desc[0]	= "The door leading outside is open, letting in a slight breeze."
+Desc[1]	= "The door leading outside is closed."
+Desc[2]	= "The door leading outside is locked shut."
+OFlags	{ NoGet Openable Lockable }
+End		= door2
+
+Name		= pear
+PName		= "pear"
+Location	= IN_ROOM:saxon41
+State		= 1
+MaxState	= 1
+Desc[0]	= "A tasty looking pear is laying on the ground."
+Desc[1]	= "There is a pear hanging from a tree, ready to be picked."
+Size		= 4
+Weight	= 3
+BValue	= 0
+OFlags	{ Food GetFlips }
+End		= pear
+
+Name	= flask
+PName	= "flask"
+Location = CARRIED_BY:Wealhtheow
+State	= 0
+MaxState = 0
+Desc[0]	= "A clear flask with a glowing liquid inside of it sits here."
+Examine	= "
+The liquid indeed looks strange, but it would help you immensely in a time
+of need."
+Size	= 5
+Weight	= 5
+BValue	= 250
+OFlags	{ Food Potion }
+End	= flask
+
+Name		= grendel_head
+PName		= "Head"
+Location	= IN_ROOM:limbo@limbo
+State		= 0
+MaxState	= 0
+Desc[0]	= "
+The severed head of Grendel lies here on the floor, blood oozing from the
+empty eye sockets."
+Size		= 50
+Weight	= 50
+BValue	= -666
+Oflags	{ Destroyed }
+End		= grendel_head
+
+Name		= sign
+PName		= "sign"
+Location	= IN_ROOM:saxon3
+State		= 0
+MaxState	= 0
+Desc[0]	= "Stuck in the ground is a wooden sign."
+Examine	= "
+
+          Heorot          -----          South
+          Mountain        -----          North
+          Sea             -----           Down
+"
+OFlags	{ NoGet }
+End		= sign
+
+%locations
+
+saxon1 w:saxon22 u:saxon2 ;
+Lflags { Light Outdoors }
+&*The &+BWater's &*Edge^
+  As you stand on the rocky beach here, you see the expansion of a beautiful
+clear blue sea to the west of you. Above you towers a steep cliff which may
+lead to treasure and glory, or pain and loss of life. Seagulls call out as
+you take in the beauty and ponder your options.
+^
+
+saxon2 u:saxon3 d:saxon1 ;
+Lflags { Light Outdoors }
+&+RSteep &+LCliff&*^
+  Places to hang on to here are scattered, and rocks tear at your fingers
+and legs. The wind blows forcefully from above, making the climbing
+treacherous and frightening. Thank goodness for the small trees growing out
+of the cliff, or you might be dead right now.
+^
+
+saxon3 n:saxon5 s:saxon4 d:saxon2 ;
+Lflags { Light Outdoors }
+&*On the &+LCliff&*^
+  The top of the cliff is barren, no wildlife, just jagged rocks filling
+your view. Anything that resides here is an open target to be attacked as
+food. The sound of the waves crashing against the rocks below travels to
+your ears, and cries from circling birds raise the hair on your neck. To
+the south of you a green prairie emerges, and to the north a mountain looms
+in the distance.
+^
+
+saxon4 n:saxon3 e:saxon8 s:saxon6 ;
+Lflags { Light Outdoors }
+&+gRolling Prairie&*^
+  The land here is beautiful, trees scattered over the landscape to provide
+cover from the wind. Long flowing grasses sway in the breeze, and small
+animals scurry around you looking for food. It is a welcome contrast to the
+barren land north of you. On southward, a dirt road becomes visible to you.
+^
+
+saxon5 n:saxon19 s:saxon3 ;
+Lflags { Light Outdoors }
+&*Toward the &+LMountain&*^
+  The mountain to the north is ominously bare. Nothing grows on it, and no
+cries from animals can be heard around it. The ground here is scorched
+black, making it a dark grey. If you journey north, you will be with the
+mountain, or going south will take you to the barren cliff.
+^
+
+saxon6 n:saxon4 e:saxon9 s:saxon7 ;
+Lflags { Light Outdoors }
+&+LTravelled &+yRoad&*^
+  This dirt road holds the scars of many warriors heading to their destiny.
+Tracks of many a man's boots mark the way, along with a larger, claw-like
+track. These large prints are fresher than the others, dried blood still
+caked in the prints of a supernatural being. To the north and east lies the
+grassy prairie, and to the south lies the grand mead hall Heorot.
+^
+
+saxon7 n:saxon6 s:^door1 ;
+Lflags { Light NoMobiles Outdoors }
+&+YGrand &+WEntrance&*^
+  To the south of you lies Heorot. This is the great mead hall of the Danish
+people, and Hrothgar's present to his many warriors. The hall does not hold
+the mystique it once did, as the evil creature Grendel has many a night
+murdered the sleeping heroes in this hall. A sense of foreboding overwhelms
+you as you take in the site, but you still feel drawn to it.
+^
+
+saxon8 s:saxon9 w:saxon4 ;
+Lflags { Light Outdoors }
+&+gRolling Prairie&*^
+  The wild grasslands extend from here, but what appears to be a forest is
+far away to the southeast. No signs of human destruction mark this place,
+a welcome sight in this world of ours. To the south and west the prairie
+fills the horizon.
+^
+
+saxon9 n:saxon8 e:saxon41 w:saxon6 ;
+Lflags { Light Outdoors }
+&+gRolling Prairie&*^
+  The tall grasses abruptly end to the east, as a forest looms there. A
+pen has been built here, the home of a peasants sheep. The sheep softly
+murmur and whimper at their enclosure, but it is best for them. Such
+animals make a welcome feast for evil creatures of the dark which occupy
+the surroundings. Maybe a touch from a good soul would calm their fears.
+^
+
+saxon10 n:^door2 e:saxon15 s:saxon13 w:saxon11 ;
+Lflags { Light }
+&*The &+YGreat &+RHall&*^
+  The mead hall Heorot surrounds you. As you look south you see large wooden
+tables lined to the west and east of you. These tables are where some of the
+greatest warriors known to the world eat together. The ceiling is very high,
+so high that you can barely make out the paintings way up there. The floor
+itself is stone, and is covered no where in your sight. As you peer closer
+you notice small red spots in some of the stones.
+^
+
+saxon11 e:saxon10 s:saxon12 ;
+Lflags { Light }
+&*The &+YGreat &+RHall&*^
+  Here in the northwestern part of Heorot is where the warriors weapons are
+stowed whilst they eat. There are racks here which contain many a sword,
+axe, and mace. Along the walls are large hooks from which suits of mail can
+be hung to ease ones load. A little higher up on the walls are windows from
+which a person can view the rolling prairie outside. Exits lead to the east
+and south.
+^
+
+saxon12 n:saxon11 e:saxon13 s:saxon16 ;
+Lflags { Light }
+&*The &+YGreat &+RHall&*^
+  In the southwestern part of Heorot lies the smaller tables of the hall. The
+people who serve the warriors food leave the large containers of beans, soup
+or whatever is being served here so that they can easily refill the plates
+of the warriors, who are known to eat quite a lot. After the main feast has
+taken place, the peasants and servants eat here afterwards, to show their
+respect for the higher classes. Exits lead north and east in Heorot and 
+south into the kitchen.
+^
+
+saxon13 n:saxon10 e:saxon14 s:saxon18 w:saxon12 ;
+Lflags { Light }
+&*The &+YGreat &+RHall&*^
+  As you stand in the center of Heorot, your attention is immediately drawn to
+the south, where you notice a large glittering object. The tables here are
+covered with tablecloths, and have candles on them. This is where the very
+prestigious guests of Hrothgar sit at meal time. It is also where the men
+gather to drink, tell stories and be merry. Two fireplaces are built in to
+the southern walls around the exit to the glittering room. Exits lead in all
+directions.
+^
+
+saxon14 n:saxon15 s:saxon17 w:saxon13 ;
+Lflags { Light }
+&*The &+YGreat &+RHall&*^
+  Here against the eastern walls of Heorot the floors are bare. No tables, no
+racks, and no carpets. This is the sleeping area of the warriors during the
+night time. They sleep here because the king's bed chambers lie to the south,
+and they must protect him at all times. Interestingly, the red spots on the
+floor are greater here than anywhere.
+^
+
+saxon15 s:saxon14 w:saxon10 ;
+Lflags { Light }
+&*The &+YGreat &+RHall&*^
+  In this section of Heorot the common folk gather together. Here they gather
+to socialize and relax from a hard day in the field. Small children play
+with one another here, finding security inside these thick stone walls. No
+one is gathered here today though, it appears the walls are caked with blood
+from last nights festivities.
+^
+
+saxon16 n:saxon12 ;
+Lflags { Light }
+&*The &+rKitchen&*^
+  This is the kitchen area of Heorot. It is here where Hrothgar's cook
+prepares meals for all of his warriors. There are whole beeves hanging here
+waiting to be cooked for the special guests of the hall. The walls are lined
+with cooking accessories such as knives and tenderizing mallets. The only
+exit is back to the north into Heorot.
+^
+
+saxon17 n:saxon14 ;
+Lflags { Light }
+&*The &+BB&+me&+Bd&+mc&+Bh&+ma&+Bm&+mb&+Be&+mr&*^
+  This is the bed chambers of Hrothgar and Wealhtheow. The room's walls are
+covered in paintings of noble warriors and evil dragons. The furniture is
+ornamented with gold, showing the wealth of this great kingdom. There is a
+fireplace in the middle of the southern wall, to help keep the stone room
+warm for the rulers. The floor is covered with large rugs, all very plush
+and valuable looking. To the north is the exit back to Heorot.
+^
+
+saxon18 n:saxon13 ;
+Lflags { Light }
+&*The &+YT&+Wh&+Yr&+Wo&+Yn&+We &*Room^
+  This is Hrothgar's throne room. In each corner of the room is a suit of
+armor stood up to resemble a knight. The throne itself is raised above the
+floor on a platform adorned with gold. A large red carpet leads from the
+entrance of the room to the platform. On the walls are paintings of past
+Danish rulers, and of great warriors whose days have passed. Hanging on the
+wall behind the throne are the Danish colors. The only exit is back to the
+north.
+^
+
+saxon19 n:saxon27 s:saxon5 w:saxon20 ;
+Lflags { Dark Outdoors }
+&+LShadow&*^
+  The shadow of he huge mountain engulfs your body as you approach it. Wild
+brush nor tree nor weed can grow here, the lack of sunshine is too much of
+a strain. Since the sun's rays do not penetrate here, the temperature remains
+very cold at all times. The wind here blows strongly from the south, as if
+the mountain is attempting to suck you in.
+^
+
+saxon20 e:saxon19 d:saxon21 ;
+Lflags { Light Outdoors }
+Path to &+bSea&*^
+  This path winds to the west and slightly downhill. You see at the end of
+it a large sea, which appears to be dark red, and boiling. The path is grown
+over with brush, this must not be the way to a popular fishing hole.
+^
+
+saxon21 u:saxon20 d:saxon31 ;
+Lflags { Light NoMobiles Outdoors }
+&+yShore &*of the &+rBlood &+bSea&*^
+  As you look at the sea, large bubbles rise up and pop every few seconds.
+The water does not feel that hot, but it also does not look like water. It
+has a deep red tint to it, and you can not see past the surface of the
+water.
+^
+
+saxon22 n:saxon23 e:saxon1 s:saxon23 w:saxon23 ;
+Lflags { Light OnWater Outdoors }
+&+WFoaming &+BWaters&*^
+  Here the waters come dangerously close to the sharp rocks which have fallen
+from the cliffs above. The sound of the water crashing against the rocks is
+loud enough to deafen a person. Maybe you can make it to land.
+^
+
+saxon23 n:saxon23 e:saxon22 s:saxon24 w:saxon24 ;
+Lflags { Light OnWater Outdoors }
+&+CCalm &+BSea&*^
+  Out here on the open sea you feel an inner peace. It is only you and the
+beautiful dwellers of the deep here. As you look out on every direction,
+you see nothing but endless sea...
+^
+
+saxon24 n:saxon23 e:saxon24 s:saxon25 w:saxon24 ;
+Lflags { Light OnWater Outdoors }
+&+CCalm &+BSea&*^
+  Out here on the open sea you feel an inner peace. It is only you and the
+beautiful dwellers of the deep here. As you look out on every direction,
+you see nothing but endless sea.
+^
+
+saxon25 n:saxon24 s:saxon23 w:saxon26 e:saxon23 ;
+Lflags { Light OnWater Outdoors }
+&+WSmall &+BCurrent&*^
+  The water is not too deep, but deep enough you need a boat. The current
+lightly pushes you southward toward the shore, but to the east the sea
+appears to open up to a great size.
+^
+
+saxon26 e:saxon25 w:town53@town;
+Lflags { Light Outdoors }
+&+ySandy &+CShoreline&*^
+  You are standing on the shoreline to a large sea. The beach is covered with
+soft sand, which you barely sink into as you walk. Scattered here and there
+are sea shells which have washed onto the shore. A large sea expands to the
+east.
+^
+
+saxon27 s:saxon19 d:saxon28 ;
+Lflags { Dark Cold }
+&*Entering the &+LCave&*^
+  Your body trembles from the feeling of evil that washes over you in this
+cave. It is very cold, and your extremeties start to ache from not moving
+around. A path leads down deeper into the cave, while another exit leads to
+the south.
+^
+
+saxon28 w:saxon29 u:saxon27 ;
+Lflags { Dark Cold }
+&*The &+LCave&*^
+  The floor is covered with ice, making it hard for you to keep your balance.
+The ice is spotted with blood, and skulls lay here and there. The evil grows
+stronger here, and the temperature colder. Going west leads deeper into the
+cave, and climbing back out leads to the shadow of the mountain.
+^
+
+saxon29 n:saxon30 e:saxon28 ;
+Lflags { Dark Cold }
+&*The &+LCave&*^
+  The cold is overbearing here and you wish you had brought that parka with
+with you afterall. A loud roaring sound can be heard to the north, if you
+can make it there without falling down on the slippery ice. The evil in you
+has built so high, any small argument could lead to death..
+^
+
+saxon30 s:saxon29 ;
+Lflags { Dark Cold NegRegen }
+&+RG&+Lr&+Re&+Ln&+Rd&+Le&+Rl&+L'&+Rs &+LL&+Ra&+Li&+Rr&*^
+  This is the home of pure evil himself, Grendel. The floor is covered with
+rotting bodies and skeletons. The walls are covered in ice, and the ice is
+covered in blood, an eerie combination. The moaning of a dying bear reaches
+your ears from the back of the chamber.
+^
+
+saxon31 n:saxon31 e:saxon32 s:saxon31 w:saxon31 u:saxon21 d:saxon31 ;
+Lflags { Dark Hot OnWater Outdoors }
+&+rBlood &+bSea&*^
+  As float atop the sea, you can hear the cries of tortured souls drifting
+up from the bottom. You wonder what lives down below this hordid sea. If
+you could only find the way down..
+^
+
+saxon32 n:saxon31 e:saxon31 s:saxon31 w:saxon31 d:saxon33 ;
+Lflags { Dark Hot OnWater Outdoors }
+&+rBlood &+bSea&*^
+  As float atop the sea, you can hear the cries of tortured souls drifting
+up from the bottom. You wonder what lives down below this hordid sea. If
+you could only find the way down..
+^
+
+saxon33 n:saxon34 e:saxon31 s:saxon31 w:saxon31 d:saxon31 ;
+Lflags { Dark Hot OnWater Outdoors }
+&+rBlood &+bSea&*^
+  As float atop the sea, you can hear the cries of tortured souls drifting
+up from the bottom. You wonder what lives down below this hordid sea. If
+you could only find the way down..
+^
+
+saxon34 n:saxon31 e:saxon31 s:saxon31 w:saxon31 d:saxon35 ;
+Lflags { Dark Hot OnWater Outdoors }
+&+rBlood &+bSea&*^
+  As float atop the sea, you can hear the cries of tortured souls drifting
+up from the bottom. You wonder what lives down below this hordid sea. If
+you could only find the way down..
+^
+
+saxon35 n:saxon33 e:saxon33 s:saxon32 w:saxon34 u:saxon34 d:saxon36 ;
+Lflags { Dark Hot OnWater Outdoors }
+&+rBlood &+bSea&*^
+  As float atop the sea, you can hear the cries of tortured souls drifting
+up from the bottom. You wonder what lives down below this hordid sea. If
+you could only find the way down..
+^
+
+saxon36 n:saxon37 e:saxon37 s:saxon37 w:saxon37 u:saxon35 d:saxon37 ;
+Lflags { Dark Hot DeepWater NegRegen }
+&+LDown &*in the &+rMere&*^
+  Here underwater, the liquid blood and water mix makes it impossible to see.
+The sea is also hotter here than above, and more bubbles rise past you. Many
+a warrior have lost his life here, maybe you will be the next.
+^
+
+saxon37 n:saxon37 e:saxon38 s:saxon36 w:saxon37 u:saxon37 d:saxon37 ;
+Lflags { Dark Hot DeepWater }
+&*The &+rMere&*^
+  The mere is not a pleasant site. It is like being in a sea composed of pure
+blood, and having a blindfold on so that you can't see where you are headed.
+The floor of the mere is covered with bones of dead animals, and their solid
+rotting flesh. You also sense small sea-going vessels crumpled in pieces, no
+doubt that their owners went down with them.
+^
+
+saxon38 n:saxon39 e:saxon37 s:saxon37 w:saxon37 u:saxon37 d:saxon37 ;
+Lflags { Dark Hot DeepWater }
+&*The &+rMere&*^
+  The mere is not a pleasant site. It is like being in a sea composed of pure
+blood, and having a blindfold on so that you can't see where you are headed.
+The floor of the mere is covered with bones of dead animals, and their solid
+rotting flesh. You also sense small sea-going vessels crumpled in pieces, no
+doubt that their owners went down with them.
+^
+
+saxon39 n:saxon39 e:saxon39 s:saxon38 w:saxon39 u:saxon39 d:saxon40 ;
+Lflags { Dark Hot NoMobiles DeepWater }
+&*The &+rMere&*^
+  The mere is not a pleasant site. It is like being in a sea composed of pure
+blood, and having a blindfold on so that you can't see where you are headed.
+The floor of the mere is covered with bones of dead animals, and their solid
+rotting flesh. You also sense small sea-going vessels crumpled in pieces, no
+doubt that their owners went down with them.
+^
+
+saxon40 u:saxon39 ;
+Lflags { Dark Hot DeepWater }
+&+LBottom &*of the &+rMere&*^
+  Here at the very bottom of the mere is the home of a pure evil. Lined on
+the walls are the weapons of past warriors who tryed their luck here and
+lost. Suits of armor lie piled in one corner, the bones of their owners lie
+in another. What kind of creature could cause such destruction? Stay around
+and you will definitely find out.
+^
+
+saxon41 e:saxon42 w:saxon9 ;
+Lflags { Light NoMobiles Outdoors }
+&+LDying &+gForest&*^
+  Here on the edge of the prairie lies a dying forest. As you look eastward
+you see nothing but drooping tree tops, which seem to extend out forever.
+Due to the fact the cover is dying, small undergrowth has started to grow,
+but will not last for long. You can descend into the forest by going east,
+or head west back to the prairie.
+^
+
+saxon42 n:saxon43 e:saxon43 s:saxon43 w:saxon41 ;
+Lflags { Light Outdoors }
+&+LDeep &*in the &+gForest&*^
+  This the entrance from the west into the forest. From here the forest
+extends to the north, south and east. Back to the west is less dense forest
+and eventually the rolling prairie.
+^
+
+saxon43 n:saxon43 e:saxon43 s:saxon43 w:saxon44 ;
+Lflags { Light Outdoors }
+&+LDeep &*in the &+gForest&*^
+  You are lost inside the forest. There are no clear paths in any direction.
+A harsh sense of forebodeing hangs in the air as you fumble for any sign of
+civilization.
+^
+
+saxon44 n:saxon44 e:saxon45 s:saxon44 w:saxon44 ;
+Lflags { Light Outdoors }
+&+LDeep &*in the &+gForest&*^
+  You are lost inside the forest. There are no clear paths in any direction.
+A harsh sense of forebodeing hangs in the air as you fumble for any sign of
+civilization.
+^
+
+saxon45 n:saxon46 e:saxon45 s:saxon45 w:saxon45 ;
+Lflags { Light Outdoors }
+&+LDeep &*in the &+gForest&*^
+  You are lost inside the forest. There are no clear paths in any direction.
+A harsh sense of forebodeing hangs in the air as you fumble for any sign of
+civilization.
+^
+
+saxon46 n:saxon44 e:saxon47 s:saxon43 w:saxon42 ;
+Lflags { Light Outdoors }
+&+LDeep &*in the &+gForest&*^
+  You are lost inside the forest. There are no clear paths in any direction.
+A harsh sense of forebodeing hangs in the air as you fumble for any sign of
+civilization.
+^
+
+saxon47 n:saxon48 w:saxon46 nw:saxon53 ne:saxon54;
+Lflags { Light NoMobiles Outdoors }
+&+yCovered &+gPath&*^
+  A path emerges from the forest to the west of here. It is covered with
+small bushes and trees, and has not been travelled on for many months. To
+the north you spy flames shooting up into the sky from a house that's on
+fire and filling the sky with smoke.  
+^
+
+saxon48 n:saxon49 s:saxon47 ;
+Lflags { Light Hot Outdoors NegRegen }
+&+RB&+Yu&+Rr&+Yn&+Ri&+Yn&+Rg &+yShanty&*^
+  This house is on fire! The walls start to come down as you enter the house
+and the flames and smoke make breathing almost impossible. Screams can be
+heard coming from a caved in bedroom, but there is no hope in saving the
+lost soul.
+^
+
+saxon49 n:saxon50 s:saxon48 sw:saxon53 se:saxon54;
+Lflags { Light Outdoors }
+&+yBurnt &+gForest&*^
+  The trees here are singed a horrible black color. It would appear to the
+average eye that a raging forest fire came through here, but the large foot
+prints in the ground hint otherwise. To the north you notice a hole in the
+side of the mountain, which resembles a fireplace. Back to the south is the
+burning shanty and the forest.
+^
+
+saxon50 s:saxon49 u:saxon51 ;
+Lflags { Light Outdoors }
+&+LCharcoal&*^
+  The forest here is nothing but charcoal, nothing stands over six inches
+above the ground. Total destruction describes it best. Glancing upward, you
+see the fireplace is actually a huge cave, and climbing upward will take you
+there.
+^
+
+saxon51 n:saxon52 d:saxon50 ;
+Lflags { Dark }
+&+LDark Cave&*^
+  The walls are pitch black, but an overpowering glow shines in from the
+north. There are skeletons scattered about of bears, deer, and some even
+appear to be humans. The whole sight brings to mind a slaughterhouse you
+saw when you were younger, but these bones are broken and licked clean.
+^
+
+saxon52 s:saxon51 ;
+Lflags { Dark Hot NegRegen }
+&+rI&+Rn&+rf&+Re&+rr&+Rn&+ro&*^
+  This cavern is unbelieveably hot, and you start sweating as soon as you
+enter it. The walls are covered in what appears to be soot, and it looks very
+thick. A huge shadow covers the back of the cavern, making it impossible to
+see anything.
+^
+
+saxon53 se:saxon47 ne:saxon49;
+Lflags { Outdoors }
+&+RBeside A Burning Shanty^
+  The shanty burns with thick, sooty-black smoke filling the sky.  The 
+sides of the building begin to collapse inward.  With no means to fight
+the fire, you can only stand and watch helplessly.
+^
+
+saxon54 sw:saxon47 nw:saxon49;
+Lflags { Outdoors }
+&+RBeside A Burning Shanty^
+  The shanty burns with thick, sooty-black smoke filling the sky.  The 
+sides of the building begin to collapse inward.  With no means to fight
+the fire, you can only stand and watch helplessly.
+^

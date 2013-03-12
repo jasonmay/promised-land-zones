@@ -1,0 +1,781 @@
+
+
+
+
+%mobiles
+
+
+Name	    = blue
+Pname	    = "Blue Dragon"
+Location	= ds3
+Strength	= 450
+eflags { fireball negfireball negfrost }  
+Damage	  = 25
+Aggression    = 20
+Armor	   = 20
+Speed	   = 0
+Description  = "A huge &+Rblue dragon&* is lying around here."
+Examine = "The blue dragon looks at you and belches up the remains of his last victim.
+"
+End	     = blue
+
+Name	    = purple
+Pname	   = "Purple Dragon"
+Location	= ds13
+eflags {frost negfrost negmissile }
+Strength	= 420
+Damage	= 25
+Aggression  = 80
+Armor	   = 20
+Speed	   = 0
+Description     = "A &+RPurple Dragon&* is sitting here."
+Examine = "A fine looking dragon in his youth, his scales are now patchy and in need
+of repair.
+"
+End	     = purple
+
+Name	    = baby
+Pname	   = "Baby Dragon"
+Location	= ds30
+eflags {missile negmissile negfrost }
+Strength	= 340
+Damage	= 20
+Aggression  = 10
+Armor	   = 10
+Speed	   = 0
+Description  = "Here is a &+Rbaby dragon&* looking for someone to eat."
+Examine = "His baby teeth gleam as he gurgles and waves his little claws at you
+playfully.
+"
+End	     = baby
+
+Name	    = teenage
+Pname	   = "Teenage Dragon"
+Location	= ds21
+eflags {fireball shock negfireball }
+Strength	= 400
+Damage	  = 20
+Aggression       = 100
+Armor	   = 20
+Speed	   = 0
+Description     = "Here is the &+Rteenage dragon&* trying to avoid society."
+Examine = "His long, gangly body is dyed a brilliant chartreuse with a wide stripe
+of green down his back, and his tail is pierced in at least 25 places.
+"
+End	     = teenage
+
+Name	    = black
+Pname	   = "Black Dragon"
+Location	= ds12
+eflags {fireball negfireball negmissile }
+Strength	= 400
+Damage	  = 25
+Aggression       = 30
+Armor	   = 30
+Speed	   = 0
+Description     = "Here is the &+Rblack dragon&* who doesn't want to bother with you."
+Examine = "His scales shine like polished obsidian, and he moves with regal grace as
+he slowly lifts his heavy head to regard you from intelligent, hooded eyes.
+"
+End	     = black
+
+Name	    = red
+Pname	   = "Red Dragon"
+Location	= ds9
+eflags {frost negfrost negshock }
+Strength	= 400
+Damage	  = 20
+Aggression       = 99
+Armor	   = 15
+Speed	   = 0
+Description     = "The All famous &+RRed Dragon&* is here laughing at you."
+Examine = "You see only a flash of red as he streaks towards you, flames billowing
+from his open jaws.
+"
+End	     = red
+
+Name	    = white
+Pname	   = "White Dragon"
+Location	= ds4
+eflags {frost negfrost negfireball}
+Strength	= 380
+Damage	  = 18
+Aggression       = 20
+Armor	   = 20
+Speed	   = 0
+Description     = "The &+RWhite Dragon&* is about to make history of you."
+Examine = "You are momentarily dazzled by this majestic beast.  His snow white scales
+glisten and ripple like water as he raises himself up to his full, awesome
+height and stares down at you with eyes of flaming pink.
+"
+End	     = white
+
+Name	    = green
+Pname	   = "Green Dragon"
+Location	= ds6
+eflags {missile negmissile }
+Strength	= 320
+Damage	  = 24
+Aggression       = 20
+Armor	   = 20
+Speed	   = 0
+Description     = "The &+RGreen Dragon&* is here."
+Examine = "A few gold scales are interspersed among scales of a hundred shades of
+green, as though he were clothed in sunlight seen through a pattern of
+leaves in a densely wooded forest.
+"
+End	     = green
+
+Name	    = rosencrit
+Location	= ds2
+Strength	= 200
+Damage	  = 20
+Aggression       = 0
+Armor	   = 0
+Speed	   = 0
+Description     = "The Artistic &+RRosencrit&* tries persuade you to leave."
+Examine = "Rosencrit wears thick, black glasses and has a sour, constipated expression.
+"
+End	     = rosencrit
+
+Name	    = guildonstern
+Location	= ds2
+Strength	= 220
+Damage	  = 20
+Aggression       = 0
+Armor	   = 0
+Speed	   = 0
+Description     = "The Poetic &+RGuildonstern&* disagrees with Rosencrit."
+Examine = "He is tall and thin, and his bony knees below his green tunic strike you
+as ridiculous.
+"
+End	     = guildonstern
+
+Name	    = dragonsluth
+Location	= ds17
+Mflags    {BarNorth BarSouth BarEast  }
+Eflags    {fireball frost icestorm}
+Strength	= 1000
+Damage	  = 35
+Aggression       = 100
+Armor	   = 0
+Speed	   = 0
+Description     = "
+The legendary &+RDragonsluth&* himself is here, ready to kill you."
+Examine = "His cheeks are raked with the deep scars of dragon's claws, and you know
+immediately that he has survived enemies a hundred times more fearsome than
+you feel right now.
+"
+End	     = dragonsluth
+
+Name	    = knight
+Location	= ds27
+Strength	= 300
+Damage	  = 30
+Aggression       = 0
+Armor	   = 20
+Speed	   = 0
+Description     = "An old style &+Rknight&* sits here."
+Examine = "He looks at you with a distracted, confused expression as though he has
+forgotten what it is he's supposed to do with an intruder.
+"
+End	     = knight
+
+Name	    = mike
+Pname	   = "Mike"
+Location	= ds22
+Strength	= 120
+Damage	  = 10
+Aggression       = 80
+Armor	   = 0
+Speed	   = 0
+Description     = "&+RMike the Cook&* is here and he's mad that you are too!"
+Examine = "Mike wears a blood-spattered apron and a crumpled white chef's hat.  He
+thinks you'd go nicely after the soup he's prepared for dinner tonight.
+"
+End	     = mike
+
+Name	    = assistant
+Pname	   = "The Assistant"
+Location	= ds23
+Strength	= 200
+Damage	  = 18
+Aggression       = 20
+Armor	   = 10
+Speed	   = 0
+Description     = "Here is the &+Rassistant&* cook."
+Examine = "He attacks you with the desperate deadliness of a cornered coward.
+"
+End	     = assistant
+
+Name	    = armorer
+Location	= ds24
+Strength	= 220
+Damage	  = 18
+Aggression       = 0
+Armor	   = 10
+Speed	   = 0
+Description     = "A very old &+Rarmorer&* is here, working on his armor."
+Examine = "He glances at you disinterestedly and goes back to his work.
+"
+End	     = armorer
+
+Name	    = thief
+Mflags	   {BarEast}
+Location	= ds39
+Strength	= 400
+Damage	  = 20
+Aggression       = 80
+Armor	   = 0
+Speed	   = 0
+Description     = "The &+Rthief&* who took the throne is here."
+Examine = "His movements are too quick to track, as he slashes at you from all
+directions at once.
+"
+End	     = thief
+
+Name	    = biff
+Location	= ds32
+Strength	= 350
+Damage	  = 22
+Aggression       = 99
+Armor	   = 10
+Speed	   = 0
+Description  = "&+RBiff&* is here and he looks very upset."
+Examine = "Biff comes at you with the professional impersonality of a hired thug.
+"
+End	     = biff
+
+Name	    = buff
+Location	= ds32
+Strength	= 400
+Damage	  = 10
+Aggression       = 99
+Armor	   = 0
+Speed	   = 0
+Description = "&+RBuff&* is here and very upset also."
+Examine = "He doesn't look like a rocket scientist, but he's big.
+"
+End	     = buff
+
+%objects
+
+Name	    = dragon_claw
+PName	   = claw
+Location	= IN_ROOM:ds6
+BValue  = 500
+Size	  = 1
+Weight  = 2
+Desc[0]	 = "A nice, shiny dragon &+Bclaw&* is here."
+Examine = "
+It gleams and glistens in the light but is much to small to be a weapon."
+End	     = dragon_claw
+
+Name	    = CHelmet
+PName	   = helmet
+Armor	   = 70
+BValue	  = 500
+Size	    = 4
+Weight	  = 5
+Location	= IN_ROOM:ds24
+Oflags	{ Armor Wearable }
+Aflags	{ Head }
+Desc[0]	 = "A very old looking copper &+Bhelmet&* is lying here."
+Examine  = "It has a few dents, but it should protect you some."
+End	     = CHelmet
+
+Name	    = dragonskin
+AltName	 = armor
+PName	   = dragonskin
+Armor	   = 52
+BValue	  = 500
+Size	    = 8
+Weight	  = 9
+Location	= IN_ROOM:ds18
+Oflags	{ Armor Wearable }
+Aflags 	{ Chest Back Arms Legs }
+Desc[0]	 = "
+A very tough looking piece of &+BDragonskin Armor&* is here."
+Examine	 = "It has the initals DS on the side of it."
+End	     = dragonskin
+
+Name	    = skull
+PName	   = skull
+BValue	  = 50
+Size	    = 1
+Weight	  = 2
+Location	= IN_ROOM:ds28
+Desc[0]	 = "A &+Bskull&* is lying here."
+Examine  = "I knew him well.."
+End	     = skull
+
+Name	    = dragonblood
+AltName  = blood
+PName	   = dragonblood
+BValue   = 100
+Size	    = 1
+Weight    = 1
+Location  = IN_ROOM:ds29
+Oflags  {Food}
+Desc[0]  = "A small bottle of &+Bdragonblood&* has been placed here."
+Examine  = "I wonder what would happen if you drank it."
+End	     = dragonblood
+
+Name	    = battleaxe
+AltName	 = axe
+PName	   = battleaxe
+Damage	  = 30
+BValue	  = 200
+Size	        = 8
+Weight	  = 10
+Location	  = IN_ROOM:ds18
+Oflags	  {Weapon}
+Desc[0]	 = "A huge &+BBattleAxe&* has been placed here."
+Examine	 = "It has dried blood all over the blade."
+End	     = battleaxe
+
+Name	    = sign1
+PName	   = sign
+Location	= IN_ROOM:ds2
+Oflags	  {NoGet}
+Desc[0]	 = "A &+Bsign&* is here."
+Examine	 = "
+This zone includes a number of tough mobiles that love to snack on poorly
+equipped humans.  This is your only warning, don't come crying to a wizard
+if you die here."
+End	     = sign1
+
+Name	    = sign2
+PName	   = sign
+Location	= IN_ROOM:ds35
+Oflags	  {NoGet}
+Desc[0]	 = "Here is a very important &+Bsign&*."
+Examine	 = "
+Well, there is a fork in the path ahead, one way will be certain death
+and the other will help you find me."
+End	     = sign2
+
+Name	    = throne
+PName	   = throne
+Location	= IN_ROOM:ds39
+Oflags	  {NoGet}
+Desc[0]	 = "A big gold &+Bthrone&* with all kinds of writings on it is here."
+Examine	 = "
+The property of the court of DRAGONSLUTH."
+End	     = throne
+
+Name	    = armor
+PName	    = armor
+Armor	    = 53
+BValue    = 100
+Size	    = 10
+Weight    = 12
+Location  = WORN_BY:armorer
+Oflags	  {Armor Wearable }
+Aflags	  {Arms Chest Back }
+Desc[0]    = "Here is the Armorer's &+BArmor&*."
+End	     = armor
+
+Name	    = inside_door
+PName	   = door
+Linked	  = outside_door
+State	   = 1
+MaxState	= 2
+Location	= IN_ROOM:ds31
+Oflags  { Openable NoGet Lockable }
+Desc[0]	 = "The &+Bdoor&* is open."
+Desc[1]	 = "The &+Bdoor&* is closed."
+Desc[2]	 = "The &+Bdoor&* is locked."
+End	     = inside_door
+
+Name	      = outside_door
+PName	      = door
+Linked	  = inside_door
+State	      = 1
+MaxState	= 2
+Location	= IN_ROOM:ds32
+Oflags	{ Openable NoGet Lockable }
+Desc[0]	 = "The &+Bdoor&* is open."
+Desc[1]	 = "The &+Bdoor&* is closed."
+Desc[2]	 = "The &+Bdoor&* is locked."
+End	     = outside_door
+
+Name	    = key
+PName	    = key
+BValue    = 50
+Size	    = 1
+Weight    = 2
+Location	= IN_ROOM:ds2
+Oflags	  {Key}
+Desc[0] = "A small &+Bkey&* is here."
+Examine = "A small key that should fit almost any lock."
+End	     = key
+
+Name	    = crown
+PName	    = crown
+BValue    = 1000
+Size	    = 5
+Weight    = 8
+Location  = IN_ROOM:ds39
+Oflags	  {Wearable}
+Desc[0]	 = "A &+Bcrown&* made of pure gold is here."
+Examine = "Although made of pure gold it is also wafer thin.  The gods may
+still like this as a sacrifice."
+End	     = crown
+
+Name	    = diary
+Pname	    = diary
+BValue	  = 500
+Size	    = 1
+Weight	  = 1
+Location	= IN_ROOM:ds39
+Desc[0]	 = "A very old &+Bdiary&* has been dug up here."
+Examine	 = "
+202 BC.
+    This is the last entry in the diary. 'Some evil force has entered my
+castle and is taking my soul with joy. I has foundth that the king
+who prays is the king who will join the deamon in the pits of hell...'"
+End	     = diary
+
+name	= jewels
+bvalue = 700
+size = 5
+location = IN_ROOM:ds18
+desc[0] = "A large pile of &+Bjewels&* sits here."
+examine = "
+The jewels look quite valuable to your untrained eye."
+end = jewels
+
+Name = hyeel
+Altname = volume
+Location = IN_ROOM:ds19
+Oflags { NoGet }
+Desc[0] = "You spot a volume that has for a title, 'Hyeel Made Easy'."
+Examine = "
+Funny those dragons for all the fire they breathe, have their own spoken
+language, that of Hyeel.  You decide to take the time to learn this language
+before confronting Dragonsluth, so you can beg for his mercy.  Soon, you 
+feel as if you can converse with Puff."
+End = hyeel
+
+%locations
+
+ds1 n:ds2 e:bottom@blizzard;
+Lflags {}
+In the Cave of DragonSluth^
+    As you look around carefully you notice the walls are painted in blood,
+though its difficult to be sure in this dimly lit room.  You see the
+only source of light coming from ahead of you.  The room appears to be
+round with some highly reflective objects set into the walls. You shield
+your eyes from the glare to study the walls closer. It looks like diamonds
+but they are set too firmly in the wall for you to pry out.
+^
+ds2 s:ds1 e:ds5 n:ds3 w:ds6 u:ds10;
+Lflags {}
+Grand Hall^
+    You are in a large round room.  There is a huge upward shaft allowing
+access to the top of the cave.  The room is cluttered with piles of useless
+junk you can safely ignore.  There are exits in all directions, including
+a rather dark and foreboding pit to the east.
+^
+
+ds3 s:ds2 w:ds4 n:ds11;
+Lflags {}
+&+BBlue Room&*^
+    You catch your breath as you enter this cave.  Sapphires set in 
+the wall shimmer with the light filtered in from the Grand Hall.  They
+sparkle in your face everytime you move into a different position.
+You look up towards the ceiling but can not see one.  All you see is 
+blackness never ending.
+^
+ds4 e:ds3 n:ds7 s:ds6;
+Lflags {}
+Snowy Field^
+    The ground of the cave begins to grow colder until it is completely 
+covered with yellow snow. You decide not to investigate this phenomena 
+any further. The room is very big compared to any that you have previously 
+seen and the stench in this room is unbearable.  You can't believe you can 
+stand the smell. The cave continues to the north, south, and east.
+^
+ds5 w:ds2;
+Lflags {Death}
+&+RThe Pit of Hell...&*^
+    Oh good job now! you really took a wrong turn!! I am sorry, i can't
+let you leave the pit of hell alive, it is a rule, so better luck next
+time. Bye bye!!
+^
+ds6 n:ds4 s:ds9 w:ds13;
+Lflags {}
+Lush Forest^
+    You have entered a large forest with trees and vines growing everywhere
+you can see.  The ground squishes softly as you walk around. There are exits
+to the &+Cnorth&*, &+Cwest&* and &+Csouth&*.
+^
+
+ds7 s:ds4 n:ds8;
+Lflags {}
+Path^
+    You have come to a dark path inside this gloomy cave. The path
+continues &+Cnorth&* and the Snowy Field is &+Csouth&*.
+^
+
+ds8 s:ds7 n:ds12;
+Lflags {}
+Path^
+    The path continues on and on for what seems for a lifetime. The
+walls have strange markings on them that says "Worship to the dragon
+claw will save your life."  Hmm, what a weird thing to be written on the
+walls. There are exits &+Cnorth&* and &+Csouth&*.
+^
+
+ds9 n:ds6 s:ds10;
+Lflags {}
+Hot Cave^
+    There is a big lava pit in the center of the cave with gigantic sparks
+and flames coming out of it.  The cave itself is square and certain spots on
+the floor are made out of drying lava. There are exits to the &+Cnorth&* and 
+&+Csouth&*.
+^
+
+ds10 n:ds9;
+Lflags {OnePerson}
+Closet^
+    Well, it is pretty self explanatory.  You are sitting in a closet
+with tons of crap laying around. The room is very small and looks like only
+one person can fit in here. The only exit is &+Cnorth&*.
+^
+ds11 s:ds3;
+Lflags {}
+Store Room^
+    This is a store room with all kinds of inedible rations and different
+types of grains laying about. As you take a bit you realize that this food
+is rotten and spit it out.  There are also many broken weapons laying on
+the ground.
+^
+ds12 s:ds8;
+Lflags {}
+Hallway of Worship^
+    This cave is very beautiful and magnificiant.  The walls are
+laced with pure gold that looks like it is worth a fortune.  The ground
+is made up of stone and small sapphires that sparkle when you move your
+body. There a picture of an altar painted on the wall and a nice welcome
+mat for your knees to rest.
+^
+ds13 s:ds16 w:ds15 n:ds14 e:ds6;
+Lflags {}
+Courtyard^
+    Wow! you have enter a section of a cave that is magically lit
+and stretches on for miles. You see a big, empty courtyard of green grass 
+and a castle off in the east.  The exits are &+Cnorth&*, &+Csouth&*, &+Ceast&*, and &+Cwest&*.
+^
+ds14 s:ds13 n:ds20;
+Lflags {}
+Laundry Room^
+    You have entered a very dusty laundry room.  There are about 3 old
+laundry washers against the left wall and racks of old clothes on the
+right. You grab one of the articles of clothing and dust fills the air.
+The exit is to the &+Csouth&* and &+Cnorth&*.
+^
+
+ds15 e:ds13 n:ds26 s:ds21 d:ds31;
+Lflags {}
+Inside the Small Castle^
+    This castle is not in tip top shape. It has big cracks in the floor 
+and the walls are filthy. There is a throne in the middle of the room with 
+with word "DragonSluth" written on it. The exits are to the &+Ceast&*, &+Cnorth&*, 
+&+Csouth&* and &+Cdown&*.
+^
+ds16 n:ds13;
+Lflags {}
+Field of Dreams^
+    There is a big baseball field here with light and big bleachers that
+could probably hold about a thousand people easily.  The only exit is 
+&+Cnorth&*.
+^
+ds17 n:ds1 s:ds19 e:ds18;
+Lflags {}
+Dragonsluth's Study^
+   As soon as you enter, you notice the craftmanship it must
+have taken to make this room what it is.  There is a tree with gold
+leaves growing from it.  Porceline maidens dance around the base, placing
+food everywhere they can think of. The exits are &+Cnorth&+C, &+Csouth&* and &+Ceast&*.
+^
+ds18 w:ds17;
+Lflags {}
+Treasure Room^
+    This is what you have been exploring for.. Dragonsluth's treasure.
+It is the greatest single thing that you have seen in your life.  There is
+every kind of precious rock imaginable including loads of diamonds and
+rubies.  You can be rich with a fortune like this. The exit is to
+the &+Cwest&*.
+^
+
+ds19 n:ds17;
+Lflags {}
+Dragonsluth's Den^
+    You have entered a large library. There are a bunch of books on the
+wall that talk about everything from sex education to how to make an omlette.
+The only exit it &+Cnorth&*.
+^
+
+ds20 s:ds14;
+Lflags {OnePerson}
+Small Room^
+    This room is very small and empty. It is big enough to fit one person 
+and that is about it. The exit is to the &+Csouth&*.
+^
+
+ds21 n:ds15 s:ds24 w:ds22;
+Lflags {}
+Left Wing^
+    This wing is huge and is the intersection point for several
+other areas of the castle.  There are several footprints on the ground
+as you look around. 
+^
+ds22 u:ds25 w:ds23 e:ds21;
+Lflags {}
+Kitchen^
+    Looking around you realize that this room is a very old kitchen and
+it doesn't have very many of the modern conveniences of life.  No blenders
+or food processors. But, they have several sinks with dishes that have
+mold on them that look like they have been there for about 20 years.
+There are rats running along the ground as you wander around.
+The exits are &+Cup&*, &+Cwest&*, and &+Ceast&*.
+^
+ds23 e:ds22;
+Lflags {}
+Pantry^
+    If this was Mother Hubbard's pantry, it would be about as bare as
+this one.  It has old crumbs of bread that represent where pieces of
+bread used to be.  There is one of those old buttermakers here.  Eww,
+as you look inside it you see rats eating the butter. The exit
+is to the &+Ceast&*.
+^
+ds24 n:ds21;
+Lflags {}
+Armory^
+    This looks like one of those armories out of the old roman movies.
+It has huge sets of platemail armor with weird symbols on it.  There
+is also a picture on the wall that looks like it has been there for
+years. It shows a picture dragonsluth himself. 
+^
+ds25 d:ds22 u:ds30;
+Lflags {}
+Dining Hall^
+    You have entered a big room with a huge table in the middle of it.  
+The table is set for a big meal but it looks like it hasnt been touched in
+20 years.  There is large amounts of dust over everything and if you were to
+sneeze there would be dust everywhere.  
+^
+ds26 s:ds15 n:ds27;
+Lflags {}
+Right Wing^
+    This wing is one of the intersections to some of the other rooms
+inside the castle. This room is old and looks as if it is used alot. 
+^
+ds27 s:ds26 n:ds28 w:ds29;
+Lflags {}
+Ballroom^
+    Upon your entry of this room you see a gigantic forty by forty
+square dance floor with rusty suits of armor placed everywhere on floor. 
+They keep their eyes on your as you move around. You walk over to one of 
+them and see if there is anyone inside of them, but you see nothing. The 
+exits are to the &+Cnorth&* and &+Cwest&*.
+^
+ds28 s:ds27;
+Lflags {}
+Relaxation Room^
+    There are about 20 couches lined up along the floor and pictures of some
+of the greatest pyschologists in history on the walls.  There is Sigmand 
+Froud (not Sigmund Freud), and other greats that you can't seem to think
+of right now. The exit is to the &+Csouth&*.
+^
+ds29 e:ds27;
+Lflags {}
+Banquet Hall^
+    There is nothing in this room from what you can tell. It is empty;
+nothing but cans of empty paint and brushes that have no bristles on
+them. How weird eh? 
+^
+ds30 d:ds25;
+Lflags {}
+Near the Top of the Castle^
+    The stairs were unbelievably hard to climb to get to the top of this
+castle. Whew! Whoever said 'small castle' was prone to understatement!
+This castle isn't small at all. But, from here you can see the whole
+castle area. 
+^
+
+ds31 u:ds26 w:ds33 e:^inside_door;
+Lflags {}
+Basement^
+    This is the basement. Well, what can you expect?? It isn't anything
+special except for some blood trails leading from the holding cell. Hmm...
+Maybe you shouldn't go there. 
+^
+ds32 w:^outside_door;
+Lflags {}
+Holding Cell^
+    This is the place where all the bad people in the castle go. There
+are various types of whips and chains hanging on the wall.  Some of them
+have metal straps on them with little steel balls.  There is a torture 
+device here that pulls a person's hands off from his body. Obviously it 
+hasn't been cleaned because you see some bones still stuck in it.  
+The exit is to the &+Cwest&*, and that's it.
+^
+ds33 e:ds31 d:ds34;
+Lflags {}
+Throne Room^
+    Wow! There has been someone here.  All of the gold and treasures in
+this room have been looted and there isn't even a throne any more.
+There is a passageway dug &+Cdown&*.
+^
+ds34 u:ds33 s:ds35;
+Lflags {}
+Path Below Throne^
+    This path is very new and fresh. It seems that it has just been dug
+recently and it could be possible that there could be the throne up
+ahead. There is large earthworms and maggots coming out of it.  The
+earth is very hot for some reason. 
+^
+ds35 n:ds34 s:ds37 w:ds36;
+Lflags {}
+Fork in the Path^
+    There is a fork in the path.  The path leads to the &+Csouth&* and &+Cwest&*.
+^
+ds36 e:ds35 w:ds39;
+Lflags {}
+Grassy Path^
+    Hmm, what does this mean?? You are probably 20 feet below the
+surface and you can see grass growing? Hmm, does that mean a good thing
+or bad? 
+^
+ds37 n:ds35 s:ds38;
+Lflags {Outdoors}
+Path^
+    From here you keep walking and walking down the same path and it
+looks all the same to you as you trudge on. To the &+Csouth&* you see the
+end of the path, but it doesn't look like you want to go there.
+^
+ds38;
+Lflags {Death}
+The End...^
+    I wasn't Joking when I said certain death. Sorry there pal but I got
+to cut you off here.  Well, come back and try going the other way next
+time.
+
+				    Sincerely
+				    Jojo
+				    Zone Author
+^
+
+ds39 e:ds36;
+Lflags {}
+Thieve's Room^
+    Ahh Ha!!! You found it! Here it all lies - the throne, his books and
+records, everything! The throne is gold with silver bands inlaid with rubies
+in the legs. The crown glitters and sparkles, catching your eye. The room 
+itself is very small and looks like it has been dug very quickly. The exit
+is to the &+Ceast&* and that is the only one that you can find.  
+^
+

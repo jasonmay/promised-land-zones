@@ -1,0 +1,118 @@
+
+
+
+
+%mobiles
+
+Name		= saic
+location	= saic
+Pflags		{ NoPunt NoZap NoHassle NoSummon NoAlias NoExorcise NoSic}
+strength	= 200000
+damage		= 20000
+armor		= 20000
+speed		= 0
+aggression	= 0
+description	= "&+RSaic &+Wis here, slaying fools.&*"
+Examine   = "If you have something to offer, better do it now..."
+End = saic
+
+%locations
+
+1 w:G_Yard@church e:2 ;
+lflags { Saic }
+Scary path^
+You are walking along a scary path. You are hearing plenty of weird
+and terrifying noises. You always have the feeling that someone is
+following you. Everything seems to be pretty dark around here. The
+path continues further to the east. You can return back to the 
+graveyard, west of here.
+^
+2 w:1 e:3 ;
+lflags { Saic }
+Scary path^
+You are walking along a scary path. You are hearing plenty of weird
+and terrifying noises. You always have the feeling that someone is
+following you. Everything seems to be pretty dark around here. The
+path continues further to the east and you can see a cave there.
+^
+
+3 w:1 e:4 ;
+lflags { Saic }
+Before a cave^
+You are walking along a scary path. You are hearing plenty of weird
+and terrifying noises. You always have the feeling that someone is
+following you. Everything seems to be pretty dark around here. The
+path continues further east, inside the cave.
+^
+
+4 w:3 e:5 ;
+lflags { Saic }
+Inside the cave^
+You are now standing inside a creepy cave. You can return to the 
+scary path west of here. This cave doesn't seem like a normal one.
+You feel that something extremely powerful lives at the bottom of 
+it. The cave continues east from here.
+^
+
+5 w:4 d:6 ;
+lflags { Saic }
+Inside the cave^
+You are now standing inside a creepy cave. You can return to the 
+scary path west of here. This cave doesn't seem like a normal one.
+You feel that something extremely powerful lives at the bottom of 
+it. The cave continues down from here.
+^
+
+6 e:8 w:7 u:5 ;
+lflags { Saic }
+Deeper in the cave^
+You just passed through a hole in the ceiling. You are now standing 
+in a wide room. Everything is made of stone around you. Some &+Rred&* 
+fluid is leaking from the ceiling. West of here seems to be a very
+&+Cpowerful&* room. The cave continues to the east and to the west.
+^
+
+7 e:6 d:church@start ;
+lflags { Saic NoGoto SoundProof God NoAt}
+Room of ultimate power^
+This is the room of absolute power. In fact, it is the room of 
+ultimate power because Cresso made it this way. Do you know how
+much courage it takes to write a zone when you don't feel like it?
+So don't say anything if you see weird things like this room.
+It is absolutely meaningless. Well, not really. Players will wonder
+what reside in this room. Nobody must tell them. Oh, by the way,
+what is the meaning of life?
+^
+
+8 e:9 w:6 ;
+lflags { Saic }
+Deeper in the cave^ 
+You are walking toward the force that you were feeling. A small
+river of blood flows eastward. You feel that an omnipresent force
+is pretty close to you. It seems like great evil lies ahead.
+When you look around you, you can see some human bodyparts lying
+around. You wonder who did this. You can continues to the east
+of come back to the west.
+^
+
+9 e:saic w:8 ;
+lflags { Saic }
+Before a blood pool^
+You are following a flow of blood that seems to end into a whole
+blood pool. Some decapitated bodies are lying around. The force
+of an evil god seems very close to you. You may dare to continue
+eastward, or return back to the west.
+^
+
+saic w:9 ;
+lflags { Saic }
+Saic's Blood Reserve^
+This is the room where the evil god, Saic, live. Like you could 
+expect from any evil god, dead bodies are lying around and blood
+flows into a gigantic blood pool. Saic exerce his evil influence
+in total silence. Not a word, not a sound. If I were you, I would
+suggest to be nice, because Saic sure doesn't seem in a good mood.   
+The only exit is west of here.
+^
+
+

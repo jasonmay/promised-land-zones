@@ -1,0 +1,825 @@
+
+
+
+
+
+
+
+%mobiles
+
+Name            = Mom
+Location        = LivRoom
+Mflags          { }
+Pflags          { NoHassle }
+Sflags          { Female }
+Strength        = 10
+Damage          = 1
+Aggression      = 0
+Armor           = 0
+Speed           = 0
+Description     = "Mom, holding her baby, is standing here. She says, 'Help us from the rats.'"
+End             = Mom
+
+Name            = Credit
+Location        = Credits
+Mflags          { }
+Strength        = 1
+Damage          = 0
+Aggression      = 0
+Armor           = 0
+Speed           = 0
+Description     = "Credit is standing here."
+End             = Credit
+
+Name            = Eagle
+Location        = Nibelung59@nibelung
+Mflags          { }
+Strength        = 20
+Damage          = 8
+Aggression      = 0
+Armor           = 0
+Speed           = 0
+Description     = "A proud &+Yeagle&* is sitting here."
+End             = Eagle
+
+Name            = ERat1
+PName           = "The Bookrat"
+Location        = Credits
+Mflags          { }
+Strength        = 60
+Damage          = 10
+Aggression      = 100
+Armor           = 10
+Speed           = 0
+Description     = "A book rat is running here."
+End             = ERat1
+
+Name            = ERat2
+PName           = "The Sinkrat"
+Location        = Credits
+Mflags          { }
+Strength        = 60
+Damage          = 10
+Aggression      = 100
+Armor           = 10
+Speed           = 0
+Description     = "A sink rat is running here."
+End             = ERat2
+
+Name            = ERat3
+PName           = "The Roberat"
+Location        = Credits
+Mflags          { }
+Strength        = 60
+Damage          = 10
+Aggression      = 100
+Armor           = 10
+Speed           = 0
+Description     = "A robe rat is running here."
+End             = ERat3
+
+Name            = ERat4
+PName           = Rattattouille
+Location        = Foodstore
+Mflags          { }
+Strength        = 60
+Damage          = 10
+Aggression      = 100
+Armor           = 10
+Speed           = 0
+Description     = "It's Rat-tat-touille!"
+End             = ERat4
+
+Name            = ERat5
+PName           = Rattattailie
+Location        = Foodstore
+Mflags          { }
+Strength        = 60
+Damage          = 10
+Aggression      = 100
+Armor           = 10
+Speed           = 0
+Description     = "It's Rat-tat-tailie!"
+End             = ERat5
+
+Name            = ERat6
+PName           = "The Bedrat"
+Location        = Credits
+Mflags          { }
+Strength        = 60
+Damage          = 10
+Aggression      = 100
+Armor           = 10
+Speed           = 0
+Description     = "A bed rat is running here."
+End             = ERat6
+
+Name            = ERat7
+PName           = "The Smokerat"
+Location        = Cutlet
+Mflags          { }
+Strength        = 60
+Damage          = 10
+Aggression      = 100
+Armor           = 10
+Speed           = 0
+Description     = "A smoke rat is running here."
+End             = ERat7
+
+Name            = ERat8
+PName           = Rat
+Location        = Hallway_1
+Mflags          { }
+Strength        = 60
+Damage          = 10
+Aggression      = 100
+Armor           = 10
+Speed           = 50
+Description     = "A rat is running here."
+End             = ERat8
+
+Name            = MRat
+PName           = "The Fatrat"
+Location        = Rat1
+Mflags          { }
+Strength        = 120
+Damage          = 10
+Aggression      = 100
+Armor           = 10
+Speed           = 0
+Description     = "A fat rat is running here."
+End             = MRat
+
+Name            = GuardRat
+PName           = "The Guardrat"
+Location        = Rat2
+Mflags          { BarN }
+Strength        = 180
+Damage          = 12
+Aggression      = 0
+Armor           = 12
+Speed           = 0
+Description     = "A guard rat is guarding here."
+End             = GuardRat
+
+Name            = GuardRat2
+PName           = "Rattatattat"
+Location        = Rat2
+Mflags          { BarN }
+Strength        = 180
+Damage          = 12
+Aggression      = 0
+Armor           = 12
+Speed           = 0
+Description     = "It's Ratta-tat-tat!."
+End             = GuardRat2
+
+Name            = GuardRat3
+PName           = "Ratty"
+Location        = Rat3
+Mflags          { BarN }
+Strength        = 180
+Damage          = 12
+Aggression      = 0
+Armor           = 12
+Speed           = 0
+Description     = "Ratty the guard rat is guarding here."
+End             = GuardRat3
+
+Name            = GuardRat4
+PName           = "The Elite Guardrat"
+Location        = Rat3
+Mflags          { BarN }
+Strength        = 180
+Damage          = 12
+Aggression      = 0
+Armor           = 12
+Speed           = 0
+Description     = "An elite guardrat is guarding here."
+End             = GuardRat4
+
+Name            = MasterRat
+PName           = "The Master Rat"
+Location        = Rat4
+Mflags          { NoGrab }
+Strength        = 360
+Damage          = 24
+Aggression      = 0
+Armor           = 2
+Speed           = 0
+Description     = "
+The master rat is licking the &+Ggreen&* liquid coming out of the pipe."
+End             = MasterRat
+
+%objects
+
+Name            = D_Hallway_1
+PName           = door
+Altname = front
+Location        = IN_ROOM:Garden
+Linked          = D_Garden
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The front door is open."
+Desc[1]         = "The front door is closed."
+End             = D_Hallway_1
+
+Name            = D_Garden
+PName           = door
+Altname = front
+Location        = IN_ROOM:Hallway_1
+Linked          = D_Hallway_1
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The front door is open."
+Desc[1]         = "The front door is closed."
+End             = D_Garden
+
+Name            = D_Toilet
+PName           = door
+Altname = toliet
+Location        = IN_ROOM:Hallway_1
+Linked          = D_Hallway12
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The toliet room door is open."
+Desc[1]         = "The toliet room door is closed."
+End             = D_Toilet
+
+Name            = D_Hallway12
+PName           = door
+Altname	= toliet
+Location        = IN_ROOM:Toilet
+Linked          = D_Toilet
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The toliet room door is open."
+Desc[1]         = "The toliet room door is closed."
+End             = D_Hallway12
+
+Name            = D_LivRoom
+PName           = door
+Location        = IN_ROOM:Foodstore
+Linked          = D_Foodstore
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+End             = D_LivRoom
+
+Name            = D_Foodstore
+PName           = door
+Location        = IN_ROOM:LivRoom
+Linked          = D_LivRoom
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+End             = D_Foodstore
+
+Name            = D_Coalstore
+PName           = door
+Location        = IN_ROOM:Coldstore
+Linked          = D_Coldstore
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+End             = D_Coalstore
+
+Name            = D_Coldstore
+PName           = door
+Location        = IN_ROOM:Coalstore
+Linked          = D_Coalstore
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+End             = D_Coldstore
+
+Name            = D_Kitchen
+PName           = door
+Location        = IN_ROOM:Cutlet
+Linked          = D_Cutlet
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+End             = D_Kitchen
+
+Name            = D_Cutlet
+PName           = door
+Location        = IN_ROOM:Kitchen
+Linked          = D_Kitchen
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+End             = D_Cutlet
+
+Name            = D_Guestroom
+PName           = door
+Location        = IN_ROOM:StairsUp
+Linked          = D_StairsUp
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+End             = D_Guestroom
+
+Name            = D_StairsUp
+PName           = door
+Location        = IN_ROOM:Guestroom
+Linked          = D_Guestroom
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+End             = D_StairsUp
+
+Name            = D_Saw
+PName           = door
+Location        = IN_ROOM:ChBedRoom
+Linked          = D_ChBedRoom
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+End             = D_Saw
+
+Name            = D_ChBedRoom
+PName           = door
+Location        = IN_ROOM:Saw
+Linked          = D_Saw
+Oflags          { NoGet Openable }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+End             = D_ChBedRoom
+
+Name            = Wall
+Location        = IN_ROOM:Laundry
+Linked          = Wall2
+Oflags          { NoGet Destroyed }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The destroyed wall reveals you an exit to north."
+End             = Wall
+
+Name            = Wall2
+PName           = Wall
+Location        = IN_ROOM:Rat1
+Linked          = Wall
+Oflags          { NoGet }
+MaxState        = 1
+State           = 1
+Desc[0]         = "The destroyed wall reveals you an exit to south."
+End             = Wall2
+
+Name            = Bookcase
+AltName         = case
+Location        = IN_ROOM:LivRoom
+Oflags          { NoGet Pushable }
+MaxState        = 1
+State           = 1
+BValue          = 24
+Size            = 12
+Weight          = 12
+Examine         = "It doesn't look very stable."
+End             = Bookcase
+
+Name            = Sink
+AltName         = basin
+Location        = IN_ROOM:Bathroom
+Oflags          { NoGet}
+MaxState        = 1
+State           = 1
+BValue          = 24
+Size            = 12
+Weight          = 12
+End             = Sink
+
+Name            = Wardrobe
+AltName         = robe
+Location        = IN_ROOM:Bedroom
+Oflags          { NoGet }
+MaxState        = 1
+State           = 1
+BValue          = 24
+Size            = 12
+Weight          = 12
+Desc[0]         = "There is a white, opened wardrobe here."
+Desc[1]         = "There is a white, closed wardrobe here."
+Examine         = "It is made of the whitest wood you have ever seen."
+End             = Wardrobe
+
+Name            = Bed
+Location        = IN_ROOM:ChBedRoom
+Oflags          { NoGet Pushable }
+MaxState        = 1
+State           = 1
+BValue          = 24
+Size            = 12
+Weight          = 12
+Desc[0]         = "Child's bed is standing here."
+Desc[1]         = "Child's bed is standing here."
+Examine         = "Oh, that's sweet."
+End             = Bed
+
+Name            = Bench
+AltName         = table
+Location        = IN_ROOM:Workroom
+Oflags          { NoGet }
+MaxState        = 0
+State           = 0
+BValue          = 24
+Size            = 12
+Weight          = 12
+Examine         = "Father seems to like chaos. There is a drawer in the table.
+"
+End             = Bench
+
+Name            = Drawer
+Location        = IN_ROOM:Workroom
+Oflags          { NoGet Openable Container }
+MaxState        = 1
+State           = 1
+BValue          = 24
+Size            = 12
+Weight          = 12
+Desc[0]         = "A drawer has been opened here."
+Examine         = "You see that it is openable."
+End             = Drawer
+
+Name            = Rattrap
+AltName         = trap
+Location        = IN_CONTAINER:Drawer
+Oflags          { }
+MaxState        = 2
+State           = 0
+BValue          = 24
+Size            = 12
+Weight          = 12
+Desc[0]         = "You see a rat trap lacking a spring."
+Desc[1]         = "A rat trap with a spring is here."
+Desc[2]         = "A perfectly prepared rat trap is here."
+Examine         = "For catching rats."
+End             = Rattrap
+
+Name            = Hole
+Location        = IN_ROOM:Laundry
+Oflags          { NoGet }
+MaxState        = 1
+State           = 1
+BValue          = 24
+Size            = 12
+Weight          = 12
+End             = Hole
+
+Name            = Spring
+Location        = IN_ROOM:Credits
+Oflags          { Destroyed }
+MaxState        = 0
+State           = 0
+BValue          = 24
+Size            = 12
+Weight          = 12
+Desc[0]         = "A spring is laying here."
+Examine         = "Looks very hard."
+End             = Spring
+
+Name            = Ratthrone
+AltName         = throne
+Location        = IN_ROOM:Rat4
+Oflags          { NoGet Container }
+MaxState        = 0
+State           = 0
+BValue          = 24
+Size            = 12
+Weight          = 12
+Desc[0]         = "The throne of the rat master is standing here."
+Examine         = "What might be in it?"
+End             = Ratthrone
+
+Name            = Dust
+Location        = IN_CONTAINER:Ratthrone
+Oflags          { Destroyed }
+MaxState        = 0
+State           = 0
+Desc[0]         = "Dust is laying here."
+Examine         = "Maybe if you blow it, it will reveal something."
+End             = Dust
+
+Name            = Pipe
+Location        = IN_ROOM:Rat4
+Oflags          { NoGet }
+MaxState        = 1
+State           = 1
+Examine         = "
+It smells horrible. There is going some liquid out of the pipe and rats 
+seem to like it much. Every rat gets a small dose of it and more they get, 
+then more they are stronger."
+End             = Pipe
+
+Name            = Ratcounter
+Location        = IN_ROOM:Credits
+Oflags          { NoGet }
+MaxState        = 0
+State           = 0
+Armor           = 8
+End             = Ratcounter
+
+Name            = Chest
+Location        = IN_ROOM:Roof
+Oflags          { NoGet Openable Lockable Container }
+MaxState        = 2
+State           = 2
+Armor           = 8
+Desc[0]         = "An old chest is opened here."
+Desc[1]         = "An old chest is unlocked here."
+Desc[2]         = "An old chest is locked here."
+End             = Chest
+
+Name            = Ring
+Location        = IN_CONTAINER:Chest
+Oflags          { RegenMana RegenHealth Lit Wearable}
+MaxState        = 0
+State           = 0
+Armor           = 0
+BValue          = 500
+Desc[0]         = "A valuable ring is laying here."
+Examine         = "Amazing."
+End             = Ring
+
+%locations
+
+
+
+Garden n:^D_Hallway_1 w:road10@village;
+lflags { NoMobiles OutDoors }
+Small garden^
+	You are standing in a small garden. There are just some flowers
+growing here. It will need much work to make it larger and more beautiful.
+^
+
+Hallway_1 n:Terrace e:Hallway_2 s:^D_Garden w:^D_Toilet;
+lflags {}
+Hallway^
+	You are standing in the hallway. All the walls are made of wood.
+There is a large window to the west and there is a door next to it. You
+also can have a look at yourself in the mirror hanging on the south wall.
+You see some shoes laying around, though not many.  It looks like a small 
+family is living here.
+^
+
+Hallway_2 n:Bathroom s:LivRoom w:Hallway_1 u:StairsDown;
+lflags {}
+Hallway^
+	You are standing in the hallway. All the walls are made of wood.
+There is nothing special about this room; it looks just like a crossway.
+^
+
+Terrace s:Hallway_1;
+lflags {}
+Terrace room^
+	You are standing in a room which was once a terrace, but someone 
+found it not good to have a terrace, so walls were built and a new room was 
+created. This room is supposedly a relaxing room for Mom, because there is
+a sewing-machine and a lot of textile and style magazines. Maybe you 
+shouldn't move anything, because people owning a room like this have mostly 
+an organized chaos in their items.
+^
+
+Bathroom n:Laundry s:Hallway_2;
+lflags {}
+Bathroom^
+	You are standing in the bathroom. The floor is made of white
+tiles and they continue also on walls to the height about as high as your
+neck. A large bath dominates the room and must be very comfortable. There
+is also a &+Csink&* with a mirror above it. Against the mirror is a second
+mirror, so you can see yourself from both sides. Don't forget the table
+which is used for storing towels, toothpastes, and toothbrushes.
+^
+
+Laundry s:Bathroom n:^Wall;
+lflags { Dark }
+Laundry^
+	You are standing in the laundry. It's a dark room, and maybe if
+you were a child, you would fear yourself entering this room. There is
+also a bath, but not such a one like in the bathroom--this one looks
+rather old. You can see some pipes following the ceiling leading in to the
+wall. Right next to the bath is a &+yhole&*, where an awful stench is
+coming out.
+^
+
+LivRoom n:Kitchen e:^D_Foodstore w:Hallway_2;
+lflags {}
+Living room^
+	You are standing in the living room.  It looks very relaxing.
+There is a long sofa, two armchairs, and a wooden table in the middle with
+four chairs around it. You also locate a &+Cbookcase&* next to the door. 
+It seems that this room was really decorated with passion.
+^
+
+Foodstore n:Coldstore w:^D_LivRoom;
+lflags { Dark }
+Food store^
+	You are standing in the food store. You see many cases with food
+inside, but most of it is half-eaten by rats. It looks quite disgusting.
+^
+
+Coldstore s:Foodstore n:^D_Coalstore;
+lflags { Cold Dark }
+Food store^
+	You are standing in another food store, but it is much colder
+here.  This room is supposed to store food which wouldn't be able to stay
+edible in normal temperatures. It looks to be well prepared, but all
+food was touched by the rats.
+^
+
+Coalstore s:^D_Coldstore d:Woodstore;
+lflags { Dark }
+Coal store^
+	You are standing in a dirty room. There are lumps of coal for the 
+cutlet stored. You see some buckets, shovels, and, of course, lots of
+coal.
+^
+
+Woodstore s:Cutlet u:Coalstore;
+lflags { Dark }
+Wood store^
+	You are standing in the wood store. It is a very simple room with
+just one purpose: to store dry wood to be used in the cutlet.
+^
+
+Cutlet n:Woodstore s:^D_Kitchen;
+lflags { Dark Hot }
+Cutlet^
+	You are standing in the cutlet. The large stove dominates the
+room. You see many different pipes going out of the stove. It is rather
+hot and dirty here.
+^
+
+Kitchen n:^D_Cutlet s:LivRoom;
+lflags { }
+Kitchen^
+	You are standing in Mom's kingdom. Everything is boiling here.
+Everything is smelling very good. There are many cases, drawers, and
+also an oven. You don't think you should move around anything here.
+^
+
+Toilet e:^D_Hallway12;
+lflags {}
+Toilet^
+	You are standing in the smallest room in the whole house. There
+is just one thing here and that is the toilet. It is very clear.
+^
+
+StairsDown u:StairsUp d:Hallway_2;
+lflags {}
+On the staircase^
+	You are standing on a small landing in the middle of the
+staircase.  The whole staircase is made of wood.
+^
+
+
+StairsUp w:ChBedroom e:^D_Guestroom d:StairsDown;
+lflags {}
+Hallway^
+	You are standing in the hallway in first floor. All things in this 
+room are made of wood. This room is full of sunshine because of the large
+window above the staircase. Against the window stands an armchair. It
+looks to be very comfortable for reading.
+^
+
+Guestroom w:^D_StairsUp;
+lflags {}
+Guest room^
+	You are standing in the guest room. It is very nicely decorated.
+The ceiling follows the shape of the roof so the room looks a little bit
+like a triangle. There is a sofa that can be changed into a comfortable bed, 
+a table, and a bookcase.
+^
+
+ChBedRoom n:^D_Saw e:StairsUp s:Bedroom;
+lflags {}
+Child's bedroom^
+	You are standing in the child's bedroom. The floor is covered with 
+a very soft carpet. There is also a large sofa made of leather; against 
+the sofa is a cupboard filled with lot of porcelan. In the middle of the
+room is a small &+Cbed&*, just for the child.
+^
+
+Bedroom n:ChBedRoom;
+lflags {}
+Bedroom^
+	You are standing in the bedroom. The whole room could also be named
+the white room, because everything is made in white. There is a large
+double bed, a mirror and a huge &+Cwardrobe&*.
+^
+
+Saw s:^D_ChBedRoom u:Hallway_3;
+lflags { Dark }
+Saw^
+	You are standing at a saw. This is used to prepare the wood for
+the cutlet. You also can see a hole leading down and as you look through 
+it, you see the wood store. It is not often used because of the baby.
+There is a staircase leading up.
+^
+
+
+Hallway_3 s:Workroom d:Saw;
+lflags { Dark }
+Hallway^
+	You are standing in the hallway. This is more a room for storing
+all possible things like old wood, boxes, bottles, and everything that
+could be used again sometime.
+^
+
+Workroom n:Hallway_3;
+lflags {}
+Father's workroom^
+	You are standing in the father's kingdom now. It's a room filled 
+with materials, hammers, nails, screwdrivers ... Your eyes catch a large
+workbench that has a drawer in it. On the bench are pieces of wood that
+have been made into a small square.
+^
+
+
+
+Rat1 e:Rat2 s:^Wall2 ;
+lflags { Dark }
+Tunnel^
+	You are standing in a stinking tunnel. The stench is really
+horrible. There is nothing special here; everything is covered some type
+of green mass. Eehh!
+^
+
+
+Rat2 w:Rat1 n:Rat3;
+lflags { Dark }
+Continuing Tunnel^
+	You are standing in a stinking tunnel. The stench is really
+horrible. There is nothing special here; everything is covered some type
+of green mass. Eehh!
+^
+
+Rat3 s:Rat2 n:Rat4;
+Lflags { Dark }
+Another Tunnel^
+	You are standing in a stinking tunnel. The stench is really
+horrible. There is nothing special here; everything is covered some type
+of green mass. Eehh!
+^
+
+Rat4 s:Rat3;
+lflags { Dark }
+Master's room^
+	How disgusting. It is a room full of pieces of different foods.
+There is a huge pipe dripping some green liquid on the food.
+^
+
+
+
+Chimney d:Roof;
+lflags {}
+On the chimney^
+	Where did you bring this eagle? You are on a chimney! You can try
+to climb down like a Santa Claus.
+^
+
+Roof u:Chimney;
+lflags { Dark }
+Under the roof^
+	The chimney didn't lead you very far. You are standing on a
+wooden floor after a few steps. It's a totally empty room, there is only
+one old pirate style chest laying here.
+^
+
+
+
+Credits ;
+lflags {}
+Credits^
+	Thank you for visiting this room. I hope this quest was fun for you
+and made you some nice moments. If you have any comments, please write me
+an e-mail: etrimon@falcor.karlin.mff.cuni.cz. I have written more quests,
+there avaible on request. That's all for now. See you in the next
+adventure. &+CEtrimon&*
+^
+
+

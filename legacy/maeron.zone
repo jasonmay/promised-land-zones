@@ -1,0 +1,954 @@
+
+
+
+%mobiles
+
+Name        = Vampire
+Pname       = "Vlir"
+Location    = foyer
+Pflags      { NoZap NoSummon NoMagic NoPunt NoAlias }
+Eflags      {  Blind  }
+Sflags  { Vampire }
+Strength    = 10000
+Damage      = 100
+Speed       = 0
+Aggression   = 0 
+Description = "&+RAn evil vampire is here, guarding his domain."
+Examine     = "
+He smiles and bows deeply, introducing himself as Vlir of the house
+of Dracul. Vlir says,
+
+&+W'Hail, fine adventurer. I understand you wish to raid this
+&+Wmansion for its priceless treasures. I warn you, I intend to 
+&+Wsolve the puzzles of this hideous place and gain access to
+&+Wits valuable treasures. Do not stand in my way or I will surely
+&+Wdestroy you in one swift stroke.'&*
+
+&+rVlir appears to be an extremely elite vampire warrior who could 
+&+reasily defeat even the most skilled adventurer...&*"
+End        = Vampire
+
+Name       = Golem
+Pname      = "Golem"
+Location   = library
+Pflags     { NoMagic NoSummon NoPunt }
+MFlags     { }
+Eflags	   { immfrost immfireball immshock }
+Speed      = 0
+Strength   = 100
+Damage     = 10
+Aggression  = 10
+Description = "
+&+W           Something is lurking in the shadows of the library&*"
+Examine     = "
+This strange creature was obviously created by magic. It looks like a 
+large mound of rock. The Golem expressionless face turns toward you as 
+he slowly shambles after you."
+End         = Golem
+
+Name        = Rats
+Pname       = "Rats"
+Location    = Basement
+Speed       = 0
+Damage      = 10
+Strength    = 120
+Aggression   = 50
+PFlags      { NoZap }
+Mflags      { NoHeat }
+Description = "&+LA horde of filthy black &+Rrats&+L scurries around the room!&*"
+Examine     = "
+Thousands of beady little eyes stare &+Rup&* at you. The rats seem diseased
+and quite malnourished. They lick their lips at you hungrily!"
+End         = rats
+
+Name        = Khighen
+Pname       = "Khighen"
+Location    = leader
+Speed       = 0
+Damage      = 10
+Strength    = 100
+Aggression   = 0
+Mflags      { Thief StealWorn StealWeapon PickStuff }
+Examine     = "Khighen is in stark contrast to all the other Kobolds. He is dressed in the fine robes of a wealthy and skilled thief, and there is a gleam of intelligence in his eye."
+Description = "&+RKhighen&*, the kobold-leader watches you casually."
+End         = Khighen
+
+Name        = Mhiery
+Pname       = "Mhiery"
+Location    = Dorm
+Speed       = 5
+Damage      = 10
+Strength    = 75
+Aggression   = 0
+Mflags      { Thief PickStuff }
+Examine     = "
+A large, furry kobold with a look of greed in his eyes."
+Description = "&+RMhiery&* the kobold-thief is here."
+End         = Mhiery
+
+Name        = Ghem
+Pname       = "Ghem"
+Location    = Dorm
+Speed       = 5
+Damage      = 10
+Strength    = 75
+Aggression   = 0
+Mflags      { Thief PickStuff }
+Examine     = "
+He's probobly never seen a bar of soap in his life. PHEW!"
+Description = "Ghem is here."
+End         = Ghem
+
+
+Name        = Nhie
+Pname       = "Nhie"
+Location    = Dorm
+Speed       = 5
+Damage      = 10
+Strength    = 75
+Aggression   = 0
+Mflags      { Thief PickStuff   }
+Examine     = "
+Nhie eyes your possessions eagerly!"
+Description = "&+RNhie&* the Kobold is here."
+End         = Nhie
+
+Name        = Ookphishk
+Pname       = "Ookphisk"
+Location    = Dorm
+Speed       = 5
+Damage      = 10
+Strength    = 75
+Aggression   = 0
+Mflags      { Thief PickStuff   }
+Description = "&+ROokphisk&* is here."
+Examine     = "Ookphishk smiles at you smugly, as a cat would to a cornered mouse."
+End         = Ookphishk
+
+%objects
+
+Name      = Ironkey
+Pname     = "Ironkey" 
+Altname   = "key"
+Size      = 10
+State     = 1
+MaxState  = 1
+Location  = IN_CONTAINER:Bedroll
+oflags    { Key }
+Desc[1]   = "A &+Ckey&* of wrought iron is here."
+Examine   = "
+Although very old, the key is still shiny and covered with intricate
+designs."
+End       = Ironkey
+
+Name      = Bedroll
+Pname     = "Bedroll" 
+Altname   = "Bed"
+Size      = 100
+Weight    = 30
+State     = 1
+MaxState  = 1
+Location  = IN_ROOM:Dorm
+oflags    { Container }
+Desc[1]   = "The &+Yfilthy&* bedroll of &+RGhem&* catches your eye."
+Examine   = "
+It is covered in various yellow stains and stinks of urine."
+End       = Bedroll
+
+Name      = Furniture
+Pname     = "Furniture"
+Altname   = "Furn"
+State     = 1
+MaxState  = 1
+Location  = IN_ROOM:Leader
+Desc[1]   = "Fine &+Gfurniture&* adds to the feeling of luxury here."
+oflags    { NoGet }
+Examine   = "
+Very nice... 
+
+A large round table surrounded by chairs, all made of cherry. The table has
+the following carved into the center...
+
+                       /  \ 
+                     /      \ 
+                   /          \ 
+                 /              \ 
+               /   //=========\\  \ 
+             /   //  |\    /|   \\  \ 
+                ||   |  \/  |    ||   
+             \   \\  |      |   //  / 
+               \   \\=========//  /
+                 \              /
+                   \          /
+                     \      /
+                       \  /
+"
+End        = Furniture
+
+Name       = inside_front_door
+PName      = "door"
+Altname    = "great"
+Linked     = outside_front_door
+State      = 2
+MaxState   = 2
+Location   = IN_ROOM:foyer
+oflags     { Openable NoGet Lockable }
+Desc[0]    = "The great doors are open."
+Desc[1]    = "The great doors are closed."
+Desc[2]    = "The great doors are locked."
+End        = inside_front_door
+
+Name       = outside_front_door
+PName      = "doors"
+Altname    = "great"
+Linked     = inside_front_door
+State      = 2
+MaxState   = 2
+location   = IN_ROOM:entrance
+oflags     { Openable NoGet Lockable }
+Desc[0]    = "The great doors are open."
+Desc[1]    = "The great doors are closed."
+Desc[2]    = "The great doors are locked."
+Examine    = "
+They are covered in ugly gargoyle designs and wet with the morning
+dew."
+End        = outside_front_door 
+
+Name       = ForceField
+Pname      = "ForceField"
+Altname    = "Field"
+Location   = IN_ROOM:Foyer
+oflags     { NoGet }
+State      = 0
+MaxState   = 0
+Desc[0]    = "&+BA shimmering forcefield of mana blocks the &+Rsouth&* exit."
+Examine    = "
+The force field shimmers and hums loudly at your approach. Surely, 
+nonconventional weapons would fall short in breaking it."
+End        = ForceField
+
+Name       = inside_vault_door
+Pname      = "vaultdoor"
+Altname    = "door"
+Linked     = outside_vault_door
+State      = 2
+MaxState   = 2
+location   = IN_ROOM:vault
+oflags     { Openable NoGet Lockable }
+
+Desc[0]    = "The vaultdoor is open."
+Desc[1]    = "The vaultdoor is closed."
+Desc[2]    = "The vaultdoor is closed and locked securely."
+Examine    = "
+It is made out of iron and looks VERY sturdy!"
+End        = inside_vault_door
+
+Name       = outside_vault_door
+Pname      = "vaultdoor"
+Altname    = "door"
+Linked     = Inside_vault_door
+State      = 2
+MaxState   = 2
+Location   = IN_ROOM:Lab
+oflags     { Openable NoGet Lockable }
+
+Desc[0]    = "The vaultdoor is open."
+Desc[1]    = "The vaultdoor is closed."
+Desc[2]    = "The vaultdoor is closed and locked securely."
+Examine    = "
+It is made out of iron and lucks VERY sturdy!"
+End        = outside_vault_door
+
+Name       = Dresser
+Pname      = "dresser"
+State      = 1
+MaxState   = 1
+Location   = IN_ROOM:Bedroom
+Size       = 500
+oflags     { Openable NoGet Container } 
+desc[0]    = "An open oaken dresser is here."
+desc[1]    = "A closed oak dresser is here."
+Examine    = "
+It looks like a good place to stash things."
+End        = Dresser
+
+Name       = Mirror
+Pname      = "mirror"
+state      = 0
+MaxState   = 1
+Location   = IN_ROOM:Bedroom
+Size       = 30
+oflags     { GetFlips }
+Desc[0]    = "A mirror sits on the dresser."
+Desc[1]    = "Someone has left a shiny mirror here."
+Examine    = "
+It appears to be shiny, even after all these years. It looks
+like it would reflect anything."
+End        = Mirror
+
+Name       = Vaultkey
+Pname      = "Vaultkey"
+State      = 1
+Maxstate   = 1
+Location   = IN_CONTAINER:Dresser
+Size       = 2
+oflags     { Key }
+Desc[1]    = "Someone has left a shiny brass key here."
+Examine    = "
+Its made out of brass and is covered in intricate designs."
+End        = Vaultkey
+
+Name       = Cabinet
+Pname      = "Cabinet"
+State      = 1
+MaxState    = 1
+Location   = IN_ROOM:Kitchen
+Size       = 300
+oflags     { Openable NoGet Container }
+desc[0]    = "An open cabinet is sitting quietly in the corner."
+desc[1]    = "A closed cabinet is sitting quietly in the corner."
+Examine    = "
+Perhaps it was used for storing food? It smells of garlic."
+End        = Cabinet
+
+Name       = Garlic
+Pname      = "Garlic"
+State      = 0
+Maxstate   = 0
+Location   = IN_CONTAINER:Cabinet
+Size       = 25
+oflags     { food }
+desc[0]    = "Some garlic has been left here"
+Examine    = "
+A single, rather old clove of garlic. Often useful in warding off vampires
+and such. "
+End        = Garlic
+
+Name       = Armchair
+Pname      = Armchair
+Altname    = Chair
+Location   = IN_ROOM:livingroom
+State      = 0
+MaxState   = 0
+Oflags     { NoGet }
+Desc[0]    = "A comfortable-looking armchair sits by the fireplace."
+Examine    = "
+Maeron probobly relaxed here after a long day of spell-weaving and 
+experiments."
+End        = Armchair
+
+Name       = Gargoyle
+PName      = "Gargoyle"
+AltName    = "Iron"
+Location   = IN_ROOM:entrance
+State      = 1
+MaxState   = 1
+OFlags     { NoGet }
+Desc[1]    = "
+A large wrought-iron gargoyle is here, leering hideously at you."
+Examine    = "
+Rust has imbued this old wrought-iron gargoyle with a fiendish &+Rred&*
+glow. It perches upon a long spike above the door and glowers down at you."
+End       = Gargoyle
+
+Name       = Corpse
+Pname      = "Corpse"
+State      = 0
+MaxState    = 0
+Location   = IN_ROOM:Lab
+Size       = 100
+oflags     { NoGet Container }
+desc[0]    = "The corpse of of maeron lies here, almost completely decomposed."
+Examine    = "
+&+lMaeron apparently died of &+Rpoisoning&+l. His body is almost completely
+&+ldecomposed. The final look of terror in his skull sends shivers&+Rup&* your
+&+lspine. Forcing yourself to look again at this dreadful scene you notice
+&+lhe is clutching a bottle of something next to him with clammy fingers."
+End        = Corpse
+
+Name      = Bottle
+Location  = IN_CONTAINER:Corpse
+State     = 1
+MAxState  = 1
+BValue    = 0
+Oflags    { }
+Examine   "
+This is the bottle of an unknown liquid that Maeron's corpse was clutching.
+The unnatural-looking orange liquid sloshes around inside. It appears that
+half of the liquid has been drunk."
+End       = Bottle
+
+Name      = solarstone1
+Pname     = "Solarstone"
+Altname   = "Solar"
+Location  = IN_CONTAINER:Corpse
+State     = 0
+Maxstate  = 0
+Size      = 5
+Oflags    { }
+Examine   = "
+It is a dull yellow and glows faintly. The solar stone is about one
+inch in diameter."
+Desc[0]   = "A dully glowing solarstone lies here."
+Bvalue    = -200
+End       = solarstone1
+
+Name      = solarstone2
+Pname     = "Solarstone"
+Altname   = "Solar"
+Location  = IN_ROOM:Limbo
+Size      = 5
+State     = 0
+Maxstate  = 0
+Oflags    { Lit }
+Bvalue    = 200
+Desc[0]   = "&+WA solarstone lies here, shining like the sun!"
+Examine   = "
+It is much to bright to directly look at!
+&+RYou are blinded by its intense light!"
+End       = solarstone2
+
+Name      = Telescope
+Pname     = "Telescope"
+Altname   = "scope"
+Location  = IN_ROOM:Tower
+State     = 0
+Maxstate  = 0
+Oflags    { NoGet }
+Desc[0]   = "A large &+Btelescope&* is here, pointing directly to the sun."
+Examine   = "
+It appears to have been used for Maeron's astronomy observations. It is
+mounted to the top of the tower and looks like it could do a good job of
+drastically magnifying any light that comes in.
+A sharp beam of VERY intense sunlight comes out through the eyepiece."
+End       = Telescope
+
+Name      = Orb
+Pname     = "Orb"
+Location  = IN_ROOM:lab
+State     = 1
+Maxstate  = 1
+Bvalue    = 0
+Oflags    { NoGet }
+Examine   = "
+It seems to be vibrating with energy and moves to carefully watch you.
+Every now and then a few sparks will fly off of it. It looks like
+some sort of defense mechanism."
+Desc[1]  = "&+rA nasty &+Rorb&+r is mounted above the vault-door&*."
+End       = orb
+
+Name       = Desk
+Pname      = "Desk"
+Altname    = "oak"
+State      = 1
+MaxState    = 1
+Location   = IN_ROOM:Library
+Size       = 100
+oflags     { Openable NoGet Container }
+desc[0]    = "An open oak &+Cdesk&* sits in the corner of the room."
+desc[1]    = "A closed oak &+Cdesk&* sits in the corner of the room."
+Examine    = "
+It is in suprisingly good condition."
+End        = Desk
+
+Name      = Journal
+Pname     = "Journal"
+Altname   = "Diary"
+Location  = IN_CONTAINER:Desk
+State     = 1
+Maxstate  = 1
+Bvalue    = 200
+Size      = 15
+Oflags    { }
+Examine   = "
+&+Y------------------------------------------------------------------------
+The talisman is found! And after all these years. It once belonged to 
+the Arch Mage Of Legions, before he was slain by Talon. It was 
+originally used by the Arch Mage Of Legions for aid in his spellcasting.
+The Talisman made his wounds heal faster, and emitted mana which added to
+his already amazing spellcasting ability. It shall prove just as useful to 
+me. The talisman recieved its power by the large moonstone in the centre.
+Perhaps I can harness the moonstone's power in a more efficient way.
+&+Y------------------------------------------------------------------------
+I broke new ground by inventing another type of wand. This wand can be 
+used quite successfully to keep my foes at bay. Unfortunatly, it is
+very difficult to charge. Once it is charged, however I will make Shazareth
+pay for his insolence. It relys&+Rup&*on both the power of the Sun and the Moon.
+Unfortunatly, in order to be charged it must be exposed to the light of both
+at the same time. 
+&+Y------------------------------------------------------------------------
+Today I will begin my experiments with the healing potion. This potion
+should require less hard-to-find ingredients as Shazareth's potion 
+requires. In fact, a mere drop will heal all wounds! If this succeeds, 
+mortals everywhere will flock to pay me with treasures untold for a few
+drops of this precious liquid. Unfortunatly, one of the essential 
+ingredients contains a deadly poison. If this works I should be able to
+neutralize the poison and my potion will be a success!
+&+Y------------------------------------------------------------------------"
+Desc[1]   = "Someone has dropped Maeron's Journal here."
+End       = Journal
+
+Name      = Lever
+Pname     = "Lever"
+Location  = IN_ROOM:Center
+State     = 1
+Maxstate  = 1
+Bvalue    = 0
+Size      = 20
+Oflags    { NoGet }
+Desc[1]   = "A large silvery lever sits in the corner."
+Examine   = "A picture of the Sun and Moon is printed in the lever."
+End       = Lever
+
+
+
+Name      = CenterPedestal
+Pname     = "Pedestal"
+Location  = IN_ROOM:Center
+State     = 0
+Maxstate  = 0
+Bvalue    = 0
+Size      = 20
+Oflags    { NoGet Container }
+Desc[1]   = "A strange, short &+Wpedestal&* dominates most of the room."
+Examine   = "
+On the&+Rwest&*half of the pedestal the marble is a bright white. On the other half
+the marble is a silvery blue. A hole a half-inch wide, and two feet deep
+is carved into the exact center of the pedestal. Strangely, the Pedestal
+is set only 1 foot off of the ground.
+
+Two powerful light enhancers are set along the &+Rwest&* and &+Reast&* half, 
+as if to amplify incoming light.
+
+A carving on the&+Rwest&*side of the pedestal exhibits a beautiful carving
+in the image of the sun, while on the&+Reast&*side there is one of the moon."
+End       = CenterPedestal
+
+Name      = MoonNook
+Pname     = "Nook"
+Location  = IN_ROOM:Moon
+State     = 0
+MaxState  = 0
+Size      = 10
+Oflags    { NoGet Container }
+Desc[0]   = "A strange little nook sits five feet high in the &+Reast&* wall."
+Examine   = "
+It is right below the largest carving of the moon and is about two 
+inches in diameter."
+End       = MoonNook
+
+Name      = SunNook
+Pname     = "Nook"
+Location  = IN_ROOM:Sun
+State     = 0
+Maxstate  = 0
+Size      = 5
+Oflags    { NoGet Container }
+Desc[0]   = "A strange little nook sits five high in the &+Rwest&* wall."
+Examine   = "
+It is right below the largest carving of the Sun and is about one inch
+in diameter."
+End       = SunNook
+
+
+Name       = ChargedWand
+Pname     = "Wand"
+Location  = IN_ROOM:Limbo
+Damage    = 19
+Bvalue    = 200
+Size      = 20
+State     = 1
+Maxstate  = 1
+Desc[1]   = "&+CA long, silvery, slender &+Wwand&+C lies here, glowing brightly&*."
+Oflags    { Weapon regenmana Lit }
+Examine   = "
+It is about a half-inch wide, and two feet long. Yet it seems so slender
+that it could snap with the slightest breeze. Its appearance is decieving,
+as it is nearly unbreakable. 
+
+One half of the wand is of a silvery blue color, the other a brilliant
+white. Occasionally sparks fly off of it.
+
+&+WThe wand appears to be charged"
+End       = ChargedWand
+
+Name       = DisChargedWand
+Pname     = "Wand"
+Location  = IN_ROOM:Vault
+Damage    = 20
+Bvalue    = 0
+Size      = 20
+State     = 1
+Maxstate  = 1
+Desc[1]   = "A long, silvery, slender &+Cwand&* lies here, glowing faintly."
+Oflags    { }
+Examine   = "
+It is about a half-inch wide, and two feet long. Yet it seems so slender
+that it could snap with the slightest breeze. Its appearance is decieving,
+as it is nearly unbreakable. 
+
+One half of the wand is of a silvery blue color, the other a brilliant
+white.
+
+&+WThe wand appears to be discharged."
+End       = DisChargedWand
+
+Name      = Talisman
+Pname     = "Talisman"
+Altname   = "Talis"
+Location  = IN_ROOM:Vault
+State     = 1
+MaxState  = 1
+Bvalue    = 500
+Oflags    { Lit Wearable Armor regenhealth regenmana}
+Aflags    { Neck }
+Size      = 10
+Armor     = 5
+Desc[1]   = "&+WA magical talisman is here, humming with power!"
+Examine   = "
+It is made of an unknown silvery material, with an eye-sized 
+&+bmoonstone&+l set in the center which sparkles in the light.
+The talisman hums with power, obviously full of mana. Whenever
+you touch it, a warm tingling sensation fills your body.
+It appears to be about 2 inches in diameter.
+
+&+bBeams of silvery moonlight gently flows out of the moonstone."
+End       = Talisman
+
+Name      = Coins
+Location  = IN_ROOM:Treasury
+BValue    = 500
+Oflags    { }
+Size      = 40
+State     = 1
+MaxState  = 1
+Desc[1]   = "A large sack of coins have been left here."
+Examine   = "
+These are the coins the Kobolds have stolen from various places. Some are
+of worthless tin, many are silver, and there are even a few platinum coins."
+End       = Coins
+
+%locations
+
+outside n:entrance e:treravine@blizzard w:path1;
+lflags { Outdoors NoMobiles }
+&+BOutside Maeron's Mansion^
+   Before you stands the mansion of Maeron. This mansion has
+been abandoned for years, after the lone Mage Maeron died
+in one of his daring experiments. Many an adventuror has
+tried to retrieve the treasures from his mansion and failed.
+The mansion's spires twist menacingly skyward, daring you to
+enter...
+You may boldly head &+Rnorth&* toward the mansion of Maeron or
+return &+Reast&* to the ravine above the cliff window. 
+A sunny path lies to the &+Rwest&* invitingly.
+^
+ 
+entrance n:^outside_front_door s:outside ;
+lflags { }
+&+BBefore The Doors Of Maeron's Mansion^
+   Coming closer to the mansion makes you uneasy. It looks
+even more menacing as you come close. A somewhat leaky roof
+protects you from most of the weather.
+^
+
+foyer s:^inside_front_door w:diningroom n:lab u:upstairs e:livingroom d:basement;
+lflags { }
+&+BThe Foyer^
+   This chamber is the foyer of Maeron's mansion. Once beautiful, it 
+has now fallen into disrepair. A thick layer of dust seems to 
+cover everything. The fine furniture, once of high quality is now 
+also covered in dust and rotting away. To the &+RNorth&* is what looks
+like a laboratory. &+RWest&* is the dining hall. Off &+REast&* is the 
+living room.
+A wrought-iron spiral staircase leads &+Rdown&* into darkness and &+Rup&*
+into fierce sounding icy winds.
+^
+
+basement u:foyer n:center d:well;
+lflags { dark }
+&+BIn the basement^
+   This chamber has a very eerie aura about it. Shadows dance off the
+masonry, mocking you. A spiral staircase leads back&+Rup&* to the relative
+saftey of the foyer. To the &+Rnorth&* sits a small room with a large ornate
+pedestal.
+   A small well is in the center of the room, and it doesn't look very
+safe to go &+Rdown&* it.
+^
+
+center e:moon s:basement w:sun ;
+lflags { dark }
+&+BBy the pedestal^
+   This room is dominated by a large platform standing in the center. To
+strange marble rooms lead off to the &+Rwest&* and &+Reast&*. The &+Reast&* room seems 
+to be made of a silvery blue marble and the &+Rwest&* room seems to be made out 
+out white marble.
+^
+
+sun e:center;
+lflags { dark }
+&+WWhite Chamber^
+   This room is covered in pearly white marble which shimmers in the light.
+The walls appear seamless, and are covered in desings depicting the sun. 
+The only exit is to the &+REast&*.
+^
+
+moon w:center;
+lflags { dark }
+&+BBlue Chamber^
+   As you step into this beautiful room, the silvery-blue walls reflect
+the light in greeting. All around you there are designs and carvings 
+depicting the moon. The only exit is to the &+RWest&*.
+^
+
+well;
+lflags { death nomobiles }
+&+RDown the well...^
+&+R--------------------------------------------------------------------
+&+WYou let out a scream as you plumet rapidly  down the well! Your arms
+&+Wand legs flail desperatly as you pick up speed. Suddenly you land in
+&+Wthick mud. The speed of your fall plunges you deep beneath the dark 
+&+Wmud.
+              &+l+---------------------------------+
+              &+l|&+WYou slowly suffocate in the muck.&+l|
+              &+l+---------------------------------+
+--------------------------------------------------------------------
+So long
+^
+
+livingroom w:foyer;
+lflags { }
+&+BMaeron's Living-Room^
+   This room seem in better condition then the other chambers. The 
+slightly-faded carpet is a dull crimson. The floor creaks a bit
+as you move around. 
+To the &+Rwest&* is the foyer.
+^
+
+diningroom e:foyer n:kitchen;
+lflags { }
+&+BDining Room^
+   Grand feasts of Mages were once hosted in this chamber, when mages
+would come together to share secrets with each other. What was once
+filled with the music of mages is now full of a dark oppressive 
+silence. Strangely, the table seems to be missing. You may return &+Reast&* 
+to the foyer, or continue &+Rnorth&* to the Kitchen. 
+^
+
+kitchen s:diningroom;
+lflags { }
+&+BThe Kitchen^
+   Even though the Kitchen appears ordinary, there is something eerie
+about it. Perhaps it is the large black cauldron in the corner, or the
+black marble floor. Whatever it is, this room makes you feel uneasy. You
+may return from whence you came to the &+RSouth&*.
+^
+
+lab n:^outside_vault_door s:foyer;
+lflags { nosummon cantsummon } 
+&+RThe Laboratory^
+   This was the laboratory of the once great Mage Maeron. Strange
+devices fill the room, probobly for creating potions and such. The 
+floor is made out of black marble, which only adds to the eerie aura
+this chamber seems to posess. You may return to the &+Rsouth&*.
+^
+
+vault s:^inside_vault_door;
+lflags { dark nosummon soundproof cantsummon }
+&+WInside The Vault^
+   This rather smallish room appears to have been untouched by the
+passing of time. Its reinforced iron walls and floor gleam under 
+your light. This room was obviously constructed with the highest
+security in mind, as it appears nothing mortal could penetrate its 
+defenses. You may return to the laboratory by heading &+RSouth&*.
+^
+
+upstairs d:foyer n:bedroom w:library e:towerbottom;
+lflags { Outdoors }  
+&+BUpstairs^
+   This is a small room right above the staircase that leads off
+to several other rooms. Icy winds from blizzard pass blow from above, 
+through where the roof used to be. To the &+Rnorth&* is Maeron's bedroom, 
+to the &+Rwest&*is his library and to the &+Reast&* is another staircase, apparently leading off to 
+a tower. You may head &+Rdown&* the spiral staircase into the foyer.
+^
+
+library e:upstairs;
+lflags { dark }
+&+BThe Library^
+The library seems rather ordinary. Although covered in dust the books
+are still intact. You may return to the hallway by heading &+Reast&*.
+^
+
+bedroom s:upstairs;
+lflags { }
+&+BMaeron's Bedroom^
+   This chamber is what once as Maeron's bedroom. The furniture appears
+to have deteriorated over the years, and the once colorful carpet
+has faded due to the rain that has come in from the &+Rsouth&*. 
+The bed, which was once made of cherry wood, has fallen apart. 
+&+WIcy winds from blizzard pass blow in from the south.
+^
+
+towerbottom w:upstairs u:tower;
+lflags { dark }
+&+BThe Bottom Of The Tower^
+   A spiral staircase leading &+Rup&*wards dominates most of this chamber. 
+The masonry on the walls seems cracked and unstable. The stone stairs,
+however seem sturdy enough for you to continue &+Rup&*wards.
+^
+
+tower d:towerbottom n:edge s:edge w:edge e:edge;
+lflags { outdoors }
+&+BThe Tower Of Maeron^
+   The tower offers you a magnificent view of the land. Off to the 
+southeast you can see a plume of smoke, probobly from the crackling
+fire in the Warm Haven. You are held in awe at the majestic creation of 
+the gods. 
+   As you reluctantly look down from the beautiful sight, you notice
+that you can trudge to the edges of the towers. They look rather unstable.
+They also appear to be above some nasty, and very sharp rocks.
+   Perhaps Maeron used this tower for his astronomy experiments, or
+just for the nice view. Anyway, the only safe exit appears to be downard.
+^
+
+edge;
+lflags { death nomobiles }
+&+RThe unstable edge^
+   As you step over to the edge, it crumbles out from underneath you!
+You try to grasp for something as you tumble &+Rdown&* to the rocks below
+the tower, but to no avail.
+   With a loud thud, you hit the ground, piercing your lung on one
+of the sharp rocks, and breaking most of your ribs. You try to breathe, 
+but fail miserably as your lungs fill up with blood. As vultures gather
+for their meal, you notice the corpses of several other adventurers who
+were unfortunate like yourself.
+   Your heart beats its last...
+^
+
+limbo;
+lflags { }
+&+WMaeron Zone Limbo^
+&+R------------------------------------------------------------------------
+Just a nice little room that the zone can use in its internal proceedures.
+A would've used LIMBO1, but I prefer for the zone to have its own room.
+-Valur
+^
+
+
+Path1 w:path2 n:field e:outside s:cliff; 
+lflags { outdoors }
+&+YSunny path^
+   The sun shines happily on this path of loose gravel. To the &+Rsouth&*
+looms a massive cliff. Its sharp, looks like a long fall, that no mortal
+could possibly survive. To the &+Rnorth&* lies a grassy field.
+^
+
+cliff ;
+lflags { outdoors nomobiles death }
+&+r-=-=-&+ROver The Cliff Edge&+r-=-=-^
+   You stumble off of the edge of the cliff and tumble &+Rdown&* the edge. Your
+body bounces along the rocks, breaking rib after rib. Your lifeless corpse
+thuds on a rocky outcropping, much to the hapiness of the screeching vultures
+overhead. 
+^
+
+Field s:path1 w:path3;
+lflags { outdoors }
+&+GGrassy field^
+   You are standing in a field of beautiful lush tall mountain grass. As
+the wind blows through the grass, it reminds you of a giant green sea.
+To the &+Rwest&* is a sunny granite path.
+^
+
+path2 e:path1 n:path3;
+lflags { outdoors }
+&+YSunny path^
+   The sun beams &+Rdown&* happily upon the gravel road. You may head &+Rnorth&* or
+east along the path.
+^
+
+path3 e:field n:path4 s:path2;
+lflags { outdoors }
+&+YSunny path^
+   The sun shines happily &+Rdown&* upon the gravel road. Obvious exits are 
+east into a beutiful golden field, &+Rnorth&* along the path.
+^
+
+path4 s:path3 e:rocks w:cave1;
+lflags { outdoors }
+&+YEnd of path^
+   The gravel here becomes dispersed into the grass more, as the path 
+disappears. To the &+Reast&* there is a ten foot drop above some *very* sharp
+looking rocks. 
+^
+
+rocks ;
+lflags { outdoors death nomobiles }
+&+RSharp Rocks...^
+   You tumble over the edge and pierce your heart on the sharp rocks... As
+you glance around gasping for air and the last precious moments of life,
+you notice a tall tower looming over you. You also notice the corpses
+of several adventurers lying beside you.
+^
+
+cave1 e:path4 w:cave2;
+lflags { outdoors }
+&+GOutside The Cave^
+  A small cave is set into a hill here. A foul odor seeps out. You may
+continue into the cave by heading &+Rwest&* or return to the path by
+heading &+Reast&*.
+^
+
+cave2 e:cave1 w:cave3;
+lflags { }
+&+YKobold's Den^
+   As you enter the cave, the scent becomes much stronger. This entire cavern
+reeks of the vermin. Flickering torches along the walls provide an eerie 
+illumination. Myriads of rats and cockroaches scuttle along the floor.
+You may proceed even deeper into the cave by heading &+Rwest&* or leave
+going &+Reast&*.
+^
+
+cave3 e:cave2 n:leader w:dorm s:treasury;
+lflags { nomobiles }
+&+YCentral Chamber^
+   The stench is almost unbearable here, causing you to nearly lose your 
+lunch. All about the floor is strewn gnawed on bones, rotten food, and a
+few things better left unmentioned. Torches light up the room even more
+brightly here, giving the room a warmth, which encourages the cockroaches'
+growth.
+   To the &+Rnorth&* is an almost luxurious-looking room, to the &+Rwest&*
+a fetid kobold sleepingplace. Off to the &+Rsouth&* you notice the glint
+of something shiny.
+^
+
+leader s:cave3 ;
+lflags { }
+&+CChamber Of Khighen.&*^
+   The fur rug, fireplace, and good furniture give this place a luxurious
+feel.
+^
+
+treasury n:cave3 ;
+lflags { }
+&+RKobold Treasury&*^
+   You have stepped into the room that is most imporant to the Kobolds that
+live here: the treasury. The only exit is &+Rnorth&* into the central 
+chamber.
+^
+
+dorm e:cave3 ;
+lflags { }
+&+YFetid Kobold Sleepingplace&*^
+   All about the room is strewn trinkets, bones, rotting food, and 
+disgusting Kobold bedrolls. You may (to the relief of your nose) leave
+this place by heading &+Reast&*.
+^
+
+
+
+
+
+
+

@@ -1,0 +1,478 @@
+
+
+
+
+%mobiles
+
+Name            = Graham
+Pname           = "Sir Graham"
+Location        = pathtochurch
+EFlags          { NegFireball NegMissile }
+MFlags { BarEast }
+PFlags          { NoZap NoExorcise NoSummon NoSteal }
+Strength        = 200
+Damage          = 8
+Armor           = 5
+Aggression      = 75
+Speed           = 0
+Description     = "Sir Graham, the Knight of the Square Table is here.
+It does not look as if you can pass him!"
+Examine         = "This guy looks MEAN."
+End             = Graham
+
+Name            = Robin
+Pname           = "Sir Robin"
+Location        = pathtochurch
+MFlags          { BarEast }
+PFlags          { NoZap NoExorcise NoSummon NoSteal }
+Strength        = 50
+Damage          = 8
+Armor           = 5
+Aggression      = 10
+Speed           = 0
+Description     = "Sir Robin, the knight of the Square Table is here.  He looks like an Idiot!"
+Examine         = "Robin is just a harmless idiot knight."
+End             = Robin
+
+Name            = Lancelot
+Pname           = "Sir Lancelot"
+Location        = entryway
+MFlags          { BarEast BarDown }
+PFlags          { NoZap NoExorcise NoSummon NoSteal NoMagic }
+Strength        = 350
+Damage          = 8
+Armor           = 15
+Aggression      = 40
+Speed           = 0
+Description     = "Sir Lancelot is waiting here to rip you apart!"
+Examine         = "Lancelot looks as if he COULD tear you limb from limb! 
+I wouldn't mess with him if I were you."
+End             = Lancelot
+
+Name            = GoldPriest
+Pname           = "The Golden Priest"
+Location        = altar
+Eflags      { Blind }
+MFlags          { NoGrab }
+PFlags          { NoZap NoExorcise NoSummon NoSteal NoMagic NoHassle NoAlias }
+Strength        = 1000
+Damage        = 8
+Speed              = 0
+Description     = "There is a peaceful golden-skinned Priest here with an 
+offering plate in his hands.  He asks 'Will you help us with a donation?'"
+Examine         = "This Priest looks like he couldn't hurt a fly."
+End             = GoldPriest
+
+%objects
+
+Name            = shrubbery
+AltName         = shrub
+PName           = "shrubbery"
+Location        = IN_ROOM:gold3
+BValue          = 40
+Size            = 5
+Weight          = 5
+Armor = 0
+Desc[0]         = "There is a shrubbery growing here."
+Oflags          { Wearable }
+Aflags { Head } 
+Examine         = "This shrubbery can be picked up.  It is loose in the roots 
+and seems to be dying."
+End             = shrubbery
+
+Name            = cornerstone
+AltName         = stone
+PName           = "cornerstone"
+State           = 1
+MaxState        = 1
+Location        = IN_ROOM:churchsteps
+Desc[1]         = "
+There is a cornerstone one the edge of the church.  It looks as if it may 
+be loose."
+Oflags          { NoGet Pushtoggle }
+Desc[0]         = "
+There is a cornerstone here that has been rotated on it's axis.  
+The inscription on it reads:
+                            +-------------------+
+                            | Built in the name |
+                            |  of King Arthur   |
+                            |       1650        |
+                            +-------------------+"
+Examine         = "It is a normal conerstone. What did you expect? A secret 
+message??   Geez!"
+End             = cornerstone
+
+Name            = scythe
+Location        = WIELDED_BY:Lancelot
+Damage          = 15
+BValue          = 100
+Size            = 8
+Weight          = 8
+Desc[0]         = "There is a sharp scythe here!"
+Oflags          { Weapon }
+Examine         = "It is a scythe used for cutting patches of hay. This one 
+looks well used, however, and has a tint of gold to it."
+End             = scythe
+
+Name            = bundle
+AltName         = hay
+Location        = IN_ROOM:gold3
+BValue          = 20
+Size            = 4
+Weight          = 3
+State = 1
+Maxstate = 1
+Oflags          { Container }
+Desc[0] = "The ribbon tying the hay together has been removed, and the hay is scattered."
+Desc[1] = "There is a ruined bundle of hay laying here, tied with a yellow ribbon."
+Examine         = "This hay has been rejected by it's pickers because it has 
+lost its golden shine."
+End             = bundle
+
+Name  = ribbon
+Pname = ribbon
+Altname = yellow
+Bvalue = 20
+Size = 1
+Weight = 1
+Location = IN_CONTAINER:bundle
+Oflags { Wearable }
+Desc[0] = "There is a &+Yyellow &+wribbon here."
+Examine = "What? Ya think I lie? It's yellow I said!"
+End = ribbon
+
+Name            = machine
+Location        = IN_ROOM:basement
+Desc[0]         = "There is a machine here which takes up most of the space 
+in this basement."
+Oflags          { NoGet Container }
+Maxstate = 1
+state = 0
+Examine         = "
+There is a light on the side of this machine, and it is blinking green.  
+You see a sign on the nearest end which reads 'INPUT' and a sign on the far 
+end which reads 'OUTPUT'. Hmmmm....you wonder what to PUT INTO the machine!!  
+There is a small sign on the side of the machine near the light which reads:
+           _____________________________________________
+          |         Eastern Alchemy Corporation         |
+          |             1654 Sir Robin Lane             |
+          |           Castle Camelot, England           |
+          |                                             |
+          |                 **WARNING**                 |
+          |        Be Cautious and ensure you are       |
+          |        properly protected and trained       |
+          |           while using this machine          |
+          |_____________________________________________|"
+End             = machine
+
+Name            = switch
+Location        = IN_ROOM:basement
+State           = 0
+MaxState        = 1
+Desc[0]         = "There is a switch on the wall here in the OFF position."
+Oflags          { NoGet PushToggle }
+Desc[1]         = "There is a switch on the wall here in the ON position."
+Examine         = "It is a normal Light switch!"
+End             = switch
+
+Name            = jacket
+Location        = IN_ROOM:gold2
+BValue          = 100
+Armor           = 35
+Size            = 8
+Weight          = 5
+Desc[0]         = "There is a heavy jacket laying here on the ground, lost 
+by a previously unsuccessful explorer."
+Oflags          { Armor Wearable }
+Aflags { Chest Back } 
+Examine         = "It has a very tight weave to it, perhaps designed to 
+reject blows from a weapon."
+End             = jacket
+
+Name            = mask
+Location        = IN_ROOM:basement
+BValue          = 75
+Armor           = 56
+Size            = 10
+Weight          = 10
+Desc[0]         = "There is a welder's mask laying here."
+Oflags          { Wearable Armor }
+Aflags { Face } 
+Examine         = "It has a very thick shield and blinder on it. It doesn't 
+look as though you could even see through the shield!"
+End             = mask
+
+Name    = gold_gates_outside
+PName   = gates
+Linked  = gold_gates_inside
+State   = 1
+MaxState= 1
+Location= IN_ROOM:goldgates
+oflags  { NoGet }
+Desc[0] = "The gates are open."
+Desc[1] = "The gates are closed."
+Examine = "There is a Ribbon tied to one pillar of the gates, the other is 
+void of decorations."
+End     = gold_gates_outside
+
+Name            = gold_gates_inside
+PName           = gates
+Linked          = gold_gates_outside
+State           = 1
+MaxState        = 1
+Location        = IN_ROOM:pathtochurch
+oflags          { NoGet }
+Desc[0]         = "The gate stands open to the west."
+Desc[1]         = "The gates are closed."
+End             = gold_gates_inside
+
+Name            = huge_doors_outside
+PName           = doors
+Altname       = oak
+Linked          = huge_doors_inside
+State           = 1
+MaxState        = 2
+Location        = IN_ROOM:churchsteps
+oflags          { Openable NoGet }
+Desc[0]         = "The huge oak doors are open."
+Desc[1]         = "The huge oak doors are closed."
+Desc[2]         = "The huge oak doors are locked."
+End             = huge_doors_outside
+
+Name            = huge_doors_inside
+PName           = doors
+Altname         = oak
+Linked          = huge_doors_outside
+State           = 1
+MaxState        = 2
+Location        = IN_ROOM:entryway
+oflags          { Openable NoGet }
+Desc[0]         = "The huge oak doors are open."
+Desc[1]         = "The huge oak doors are closed."
+Desc[2]         = "The huge oak doors are locked."
+End             = huge_doors_inside
+
+Name = ingot
+Pname = ingot
+Location = IN_ROOM:limbo@limbo
+Oflags { }
+Size = 10
+Weight = 10
+Bvalue = 175
+Desc[0] = "There is a brilliant gold ingot here!"
+Examine = "This is a solid gold ingot! And it's HEAVY!"
+End = ingot
+
+Name = door_passage
+Pname = door
+Altname = trapdoor
+Linked = door_sanctuary
+State = 1
+Maxstate = 1
+Location = IN_ROOM:passage1
+Oflags { Noget }
+Examine = "An entrance into this dark, cold passageway lies above you."
+End = door_passage
+
+Name = door_sanctuary
+Pname = door
+Altname = trapdoor
+Linked = door_passage
+State = 1
+Maxstate = 1
+Location = IN_ROOM:sanctuary
+Oflags { Noget }
+Desc[0] = "There is an open passageway leading down here."
+Desc[1] = "You can see the faint outline of a doorway in the floor here.
+However, you can figure no way to open it!"
+Examine = "You can't figure out the trapdoor opens!"
+End = door_sanctuary
+
+Name = pinhole_a
+Pname = pinhole
+Altname = hole
+Linked = pinhole_b
+State = 1
+Maxstate = 1
+Location = IN_ROOM:passage4
+Oflags { Noget }
+Desc[1] = "There is a pinhole in the floor."
+Desc[0] = "A hole has been widened in the floor! "
+Examine = "You can see a glimmer of light through the hole."
+End = pinhole_a
+
+Name = pinhole_b
+Pname = pinhole
+Linked = pinhole_a
+State = 1
+Maxstate = 1
+Location = IN_ROOM:2@catacomb
+Oflags { Noget }
+Desc[0] = "There is a hole in the ceiling above you and a pile of dirt on the floor.  
+The hole is not accessible to you."
+Desc[1] = "There is a pinhole in the ceiling."
+End = pinhole_b
+
+Name = treasure
+Location = IN_ROOM:passage4
+Oflags { Getflips }
+Bvalue = 400
+Size = 20
+Weight = 20
+Desc[0] = "A large and valuable treasure has been stacked here!"
+Desc[1] = "A large and valuable treasure is gathering dust in a dark corner."
+Examine = "It consists entirely of gold items shaped as small knights!"
+End = treasure
+
+
+Name = bones
+Pname = bones
+Altname = bones
+Oflags {Noget}
+Location = IN_ROOM:passage4
+Examine = "It is the remains of some unfortunate adventurer."
+End = bones
+
+%locations
+
+gold1a w:N_Barrow@church e:ildharas01@ildharas;
+lflags {Outdoors}
+Below The North Barrow^
+   A small path is winding its way down from the top of the large mound.
+It leads eastward between two large boulders, and you can see some rolling
+fields with yellow, almost golden, crops in the far distance.
+^
+
+gold1b w:ildharas01@ildharas e:goldgates;
+lflags {Outdoors }
+On The Path^
+   You are following a small path that is leading you along golden coloured
+fields of grass and wheat.
+To the west you see the path dissapear between two large boulders, and a huge
+mound rises above them.
+^
+
+goldgates n:gold2 s:gold3 w:gold1b e:^gold_gates_outside; 
+lflags { Nomobiles Outdoors }
+Gold Gates^
+   There is a pair of golden gates here.  You see no possible way to open 
+them, and it is frustrating you because you realize there is no other way 
+out.  There is a large bright exit to the south, and a dark hole that it 
+looks like you could *just* squeeze through to the north.
+^
+
+gold2 s:goldgates;
+lflags { Outdoors }
+I wouldn't do that!!^
+   But YOU did!  This is a death trap that has been converted by someone as a 
+hideaway for precious items.  I guess they figured no one would be stupid 
+enough to come in here with the name he gave it!!
+^
+
+gold3 n:goldgates;
+lflags { Outdoors }
+Rolling Fields^
+   These fields are the result of the work of many little people, each of 
+which sneers at you as you enter.  They seem to be working very hard.  You 
+notice while glancing around that these people are half your height!!!
+^
+pathtochurch e:churchpath w:^gold_gates_inside;
+lflags { Outdoors }
+Path to Church^
+   In the distance, you can make out the outline of a steeple standing amidst 
+a carefully groomed lines of trees.  This path continues East and West.
+^
+
+churchpath e:churchsteps w:pathtochurch;
+lflags { Outdoors }
+Church Path^
+   You are travelling along a well groomed line of trees. The steeple you saw 
+before is now closer to you, and appears to be more beautiful the closer you 
+get to it.
+^
+
+churchsteps e:^huge_doors_outside w:churchpath;
+lflags {}
+Golden Church Steps^
+   There are two massive doors here.  You find it hard to believe that this 
+church is built by people!  The doors alone are at least 100 feet in height 
+and the church itself towers far above you.  There is a large cornerstone on 
+the church.  You notice it has some kind of lettering on it.  The doors are 
+huge oak doors.
+^
+
+entryway e:sanctuary w:^huge_doors_inside d:basement;
+lflags {}
+Entryway^
+   What a beautiful work of art.  There's a large archway leading into the 
+center aisle of an incredible sanctuary. You wonder how anyone could have 
+built this place. All walls, doors and floors are trimmed in pure gold, and 
+it peaks your interest as to where the gold came from!
+^
+
+basement u:entryway;
+lflags {}
+Basement^
+   This is a bright and lovely basement. In fact, this is the cleanest 
+basement you have ever seen!  There is a large machine taking up most of the 
+room in this basement.
+^
+
+sanctuary w:entryway u:altar d:^door_sanctuary;
+lflags {}
+Sanctuary^
+   As you enter the Sanctuary, you stand in absolute amazement at the sights 
+laid out before you.  There are rows upon rows of pews, on your left and 
+right.  As you look up, there appears to be no top to the cathedral, and it 
+is open to the skies above you.  You can feel the weather from outside, 
+however, it does not affect the health of the sanctuary.  There is a stairway 
+to the left of the room which appears to lead to the altar.
+^
+                                     
+altar d:sanctuary;
+lflags { Peaceful }
+Altar^
+   You are standing at the altar facing the pews of the church.  You notice 
+that the number of pews as perceived from here is much less than you thought 
+as you walked through them.
+^
+
+passage1 s:Passage2;
+lflags {}
+Passage Out!^
+   You are in a North <-> South passageway which runs underground.  You see 
+a picture on the wall of a man near water blowing into a mighty horn, and a 
+hand reaching out of the water with a gleaming sword grasped firmly.  Could 
+this be the way to the famed sword Excalibur!?
+^
+
+passage2 n:passage1 s:Passage3;
+lflags {}
+Passage Out!^
+   You are in a North <-> South passageway which runs underground.  There are 
+three pictures on the wall in this room.  The first is of a man with the word 
+NED inscribed on his coat of arms.  The second depicts NED feeding a needy 
+person who is lying on the ground.  The third shows NED battling a mighty 
+warrior with a strong weapon and defense.  It looks as if there may be a 
+chalice of some sort in the background of the painting, though the paint has 
+faded somewhat, and it is hard to tell.
+^
+
+Passage3 n:passage2 s:passage4;
+lflags {}
+Passage Out?^
+   You are in another passageway under the ground which travels North and 
+South. The drawings on the walls here are of a large table which has been 
+squared off to be The Square Table, as the drawing is titled. It has names 
+like Lancelot, Graham and Robin inscribed on it in an order of seating. What 
+looks like the Holy Grail is standing in the center of the table, surrounded 
+by never fading flowers! At one end of the table must be King Arthur's seat, 
+for painted there is a majestic crown and the sword of glory, Excalibur. You 
+suddenly realise that the knights of the square table are no more!
+^
+passage4 d:^pinhole_a;
+lflags {}
+Finally! The Exit!^
+   You have finally reached it! However, you see NO EXITS!!  There are piles 
+of bones here too, so your outlook doesn't look too good!
+^

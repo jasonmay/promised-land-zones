@@ -1,0 +1,613 @@
+
+
+
+%rainfall:500
+
+%latitude:40
+
+%mobiles
+
+Name            = Troll
+Location        = newbie8
+Strength        = 10
+Damage          = 0
+Armor           = 0
+Aggression      = 0
+Speed           = 0
+Description     = "A wimpy-looking troll is here, scratching at his armpits."
+Examine         = "He would be very easy to kill, even without a weapon."
+End             = Troll
+
+Name            = Dave
+Location        = newbie4
+Strength        = 10
+Damage          = 0
+Armor           = 0
+Speed           = 0
+Description     = "Dave stands here ready to listen to your every word."
+Examine         = "He doesn't say much, he just listens."
+End             = Dave
+
+Name            = Receptionist
+Location 	    = newbie1
+Strength	    = 50
+damage 	    = 8
+Speed		    = 0
+Sflags	    { Female }
+Description	    = "A receptionist stands here smiling at you."
+Examine         = "This woman is here to greet new players and give you tips on getting started."
+End 		    = Receptionist
+
+%objects
+
+Name      = bodyparts
+Altname   = limbs
+Oflags    { Noget }
+Location  = IN_ROOM:newbie8
+Desc[0]   = "&+YSome &+Rsevered limbs and bodyparts &+Ylitter the ground here inviting some
+&+Yinvestigation."
+Examine = "
+This is all that's left of the last guy who charged through here without
+preparing themselves properly for their adventures here.  Unlike other
+MUDs, you or your opposition can chop off parts of your body--if you don't
+protect it very well or get proper medical care.  Fortunately, there's a
+hospital in the village to treat your wounds or even sew a detatched
+(*eek*) limb back on.  You should type &+RINFO BODYPARTS&* for more info.
+"
+End = bodyparts
+
+Name     = pagan
+Pname    = idol
+Altname  = pagan
+Location = IN_ROOM:newbie15
+Oflags   { Noget }
+Desc[0]  = "&+GA couple of monks are bowed before this idol."
+Examine  = "
+This isn't a REAL god, but if it WERE a real god, making an OFFER would go
+toward getting the god to like you and do you a favor.  The more you offer,
+the more willing that god is to help you out.  What do you OFFER them?
+You can OFFER <items> that is valuable treasures, or you can OFFER them
+the souls of the mobiles you have destroyed.  How do you catch souls?  You
+have a set chance of absorbing one whenever you slay a mobile.  You can
+double your chances of catching them every time if you acquire the SPOTSOUL
+ability.  All you have to do is collect ten souls and offer them to a god.
+Then you can REQUEST SPOTSOUL to get the ability.  Note your diety will 
+always ask you to bring back a certain item before they will grant it."
+End = pagan
+
+Name            = towel
+State           = 0
+MaxState        = 0
+Armor           = 0
+Damage          = 0
+BValue          = 0
+Size            = 8
+Weight          = 0
+Location        = IN_ROOM:newbie6
+Desc[0]         = "&+GA damp and rather smelly towel has been dropped in a heap here."
+Oflags          { Newbie }
+Examine         = "It is rather frayed at the edges."
+End             = towel
+
+Name            = newarmor1
+PName           = newbiearmor
+Altname         = armor
+Armor           = 30
+Size            = 40
+Weight          = 0
+Location        = IN_ROOM:newbie7
+Desc[0]         = "&+GA shiny new suit of armor is lying here."
+Examine         = "WEAR ME!"
+Oflags          { Newbie Wearable Armor }
+Aflags	    { Arms Legs Back Head Face Chest }
+End             = newarmor1
+
+Name            = newsword1
+PName           = newbiesword
+Altname         = sword
+Damage          = 20
+Size            = 25
+Weight          = 25
+Location        = IN_ROOM:newbie7
+Desc[0]         = "&+gA long sharp sword is propped up against one wall."
+Examine         = "WIELD ME!"
+Oflags          { Newbie Weapon }
+End             = newsword1
+
+Name 		= club
+Location	= CARRIED_BY:Troll
+Damage	= 4
+Bvalue	= 0
+Size		= 4
+Weight	= 4
+Desc[0]	= "A small simple club is here."
+Examine     = "Good for whacking people on the head."
+Oflags 	{ Weapon }
+End 		= club
+
+Name	= newbieboat
+Altname = boat
+Oflags  { Newbie Boat }
+Location = IN_ROOM:newbie9
+Desc[0]  = "&+MA brand new rowing boat is here for the taking."
+Examine  = "This boat is for new players that wish to explore the seas."
+Size     = 10
+Weight   = 10
+End      = newbieboat
+
+Name = newbietorch
+Altname = torch
+Oflags { Newbie Lightable Extinguish }
+Location = IN_ROOM:newbie17
+State = 1
+Maxstate = 1
+Size = 2
+Weight = 1
+Examine = "LIGHT ME!"
+Desc[0] = "There is a &+Rlit torch&* for new players here."
+Desc[1] = "There is a &+Ytorch&* here for new players."
+End = newbietorch
+
+Name = coffee
+Oflags { Newbie Food }
+Location = IN_ROOM:newbie17
+Size = 1
+Weight = 1
+Desc[0] = "There is a small pot of &+ycoffee&* cooking over the fire."
+Examine = "DRINK ME!"
+End = coffee
+
+Name = salad
+Oflags { Newbie Food }
+Location = IN_ROOM:newbie17
+Size = 1
+Weight = 1
+Desc[0] = "There is a small bowl of &+Gsalad&* here ready to eat."
+Examine = "Go on, EAT IT!"
+End = salad
+
+Name = campfire
+Pname = fire
+Oflags { Lit Noget }
+Location = IN_ROOM:newbie17
+Desc[0] = "A small &+Rcampfire&* burns away here."
+Examine = "Light your torch here!"
+End = campfire
+
+Name       = sign
+Altname    = note
+Oflags     { NoGet }
+Location   = IN_ROOM:newbie1
+Desc[0]    = "A very important sign reading &+YNote For Experienced Players&N is here."
+Examine    = " The note reads:
+This looks like an Aber based system, has the church, temple, and village 
+of an Aber based system, but BE WARNED: there are significant differences.
+In particular, you have an unplayably weak character with just 40 strength
+points which will not automatically increase with levels(!)  If you didn't
+take one of the 'quickstart' options that gave you a set of stats, you 
+need to proceed to the Strength and Magic training centers to build up your
+power while picking up a sword, armor, and supplies.  You should also 
+examine the 'Knowledge' and 'Handicaps' rooms."
+End    = sign
+
+Name      = bulletin
+Altname   = frobs
+Oflags    { NoGet }
+Location  = IN_ROOM:newbie18
+Desc[0]   = "A bulletin nailed to the wall reads &+RFrobs Policy&*."
+Examine   = " The bulletin reads:
+Many of the most important and interesting decisions on this MUD are
+made at low levels, so we frob levels to FIVE which allows you use of
+all the newbie equipment and access here.  Alternatively, we will 
+recognize achievement on other MUDs to give coins as follows:
+Rank Elsewhere    Coins
+Wizard             500
+ArchWizard        1000
+God/dess          1500
+"
+End = bulletin
+
+Name     = signact
+Pname    = sign
+Oflags   { NoGet }
+Location = IN_ROOM:newbie4
+Desc[0]  = "&+GThere's a big sign here nailed to a pole that says &+gREAD ME."
+Examine  = "
+There is more to communicating on MUDs than just talking.  You can &+RSMILE
+or &+RLAUGH&* when someone says something funny, or you can use any of the
+other predefined &+RACTIONS&* that can be found here in the Promised Land.
+
+Type &+RACTIONS&* to view the list of them all and use Dave here to try 
+them out.  (&+RACTIONS TAG&* will tell you what TAG does without you having
+to try it out."
+End = signact
+
+Name     = signobj
+Pname    = sign
+Oflags   { NoGet }
+Location = IN_ROOM:newbie6
+Desc[0]  = "&+GThere's another big sign here that says &+gEXAMINE ME."
+Examine  = "
+    While you play the game you will come across many treasures.  You can
+gain valuable points from them by sacrificing them in a pit.  To find out 
+how much an item is worth, you can type &+YVALUE <item>&* or to value all
+the items you carry, type &+YVALUE ALL&*.  Two of the pits to drop items 
+in are located in the Temple Of Paradise and the Village Church.  There 
+are other pits to find as you roam the world, including a portable hole.  
+To claim your points you stand in the room with a pit and type &+YDROP <item>&* 
+or &+YDROP ALL&* to dump everything.
+
+    Some items, like this sign, can't be picked up, and are just there
+to provide scenery."
+End = signobj
+
+Name     = signzone
+Pname    = sign
+Oflags   { Noget }
+Location = IN_ROOM:newbie9
+Desc[0]  = "&+GA glowing green sign is here that says &+gREAD ME!"
+Examine  = "
+    To give you a basic idea of the layout of the land, type &+YINFO MAP&*.  
+As to which places you can go that are recommended for low level players, a
+list is provided with directions in &+YINFO NEWBIEZONES&*.
+    There are a number of adventures you can go on, &+CQUESTS&* will give you a
+list of tasks to tangle with to persue your quest for glory.  &+CQDONE&* will
+list what has been done, &+CQLIST&* will tell you if someone is trying a
+particular quest as well as a rating of its difficulty.
+    &+GQINFO <quest>&* will give you some information on a certain quest as to 
+what you have to do.  If you complete a quest, you get a reward. :)
+"
+End      = signzone
+
+Name = penny
+Altname = coin
+Oflags { PitReset }
+Bvalue = 1
+Location = IN_ROOM:newbie19
+Desc[0] = "There's a &+ypenny&* here for you to make a wish with."
+Examine = "Just pick it up, make your wish, and drop it in the pit."
+End = penny
+
+Name      = pit
+Location  = IN_ROOM:newbie19
+Oflags    {NoGet}
+Desc[0]   = "
+   At your feet a huge sacrificial pit allows you to give valuables to the gods
+in the hope of being rewarded."
+Examine = "Somewhere down there you think you see the glint of treasure!"
+End = pit
+
+Name      = fountain
+Location  = IN_ROOM:newbie18
+Oflags    {NoGet}
+Desc[0]   = "A small icy fountain burbles gently in the centre of the room."
+Examine   = "Its water looks invigorating."
+End       = fountain
+
+%locations
+
+newbie1 s:newbie2;
+lflags { Newbie Peaceful}
+New Players' Welcome Centre^
+    You are standing in a large room, covered with pictures and paintings of
+the lands around the world.  One large sign says 'Welcome to Promised Land!'
+For those of you unfamiliar with this kind of adventure game, an Abermud, or
+MUDs in general, the objective is to score points and complete quests,
+eventually reaching the level of wizard, at which point you become immortal
+and gain all kinds of special powers.  Typing the words &+YINFO GAME&* will
+give you an overview of the game.  A tour for new players begins to the
+south of here.  Type &+MS&* to go south.
+    First MUD ever players should type '&+MINFO README&*' at this time.
+^
+
+newbie2 n:newbie1 s:newbie3;
+lflags { Newbie Peaceful }
+Movement^
+    To move between rooms you type in a direction.  The available  directions
+are &+YNORTH&*, &+YSOUTH&*, &+YWEST&*, &+YEAST&*, &+YUP&*, &+YDOWN&*, and &+YNE&*, &+YNW&*, &+YSE&*, &+YSW&*.
+    From here you can go &+YSOUTH&* by typing the word itself or just the
+first letter '&+MS&*'.  You can also type '&+YGO&*' (move randomly).
+    To find out what exits you can use from the room you are standing in and
+get some clues as to where they lead, you can type &+YEXITS&* or just &+YEXI&*.
+If you want to automatically see the exits as you enter a new room, type
+&+YAUTOEXIT&*.  (Type it again to turn off this feature.)
+    To get help at any time, type &+BHELP&* and &+BHELP HELP&*.
+^
+
+newbie3 n:newbie1 s:newbie4 e:newbiedead;
+lflags { Newbie Peaceful}
+Rooms^
+    There are thousands of rooms on the mud, all linked together so that you
+can get from here to any other part of the mud.  The rooms are not arranged
+in a haphazard specific theme.  Some zones contain quests which you will
+have to solve eventually, but for a beginner it is best to get a feel for the
+mud first before attempting these.
+    There are also several different types of rooms.  Some are outdoors, some
+are on water, some are underwater, some are private, some are hot, some are 
+cold, and some will suck the life out of you!  But the worst place to walk
+into is a deathroom!  If you walk into a deathroom, you die and lose all you 
+carry.  Then you are resurrected back in Between Worlds.  To avoid them, you
+can pick up clues by reading the room titles.  You're standing near the edge
+of a cliff right now.  To the east is the '&+RCrumbling Cliff-Edge&*', do you
+think it could be a deathroom??  Often the description of the room you are in 
+will tell you something about your exits, so it is always a good idea to read 
+the description of any room you have not been in before.
+   To continue with the tour, go south.  To retrace your steps, go north.
+^
+
+newbie4 n:newbie3 s:newbie5;
+lflags { Newbie Peaceful}
+Interacting with Others^
+    There are many ways to communicate with the people on this mud.  If you
+wish to talk to somebody directly without anyone else hearing, use the &+YTELL
+command.  For example if you wish to say hello to a player called Dave, type:
+&+Ytell Dave hello&+w
+    Usually the word &+YTELL&* is not necessary - you could also type: &+YDave hello
+    You can also type &+CREPLY MESSAGE&* to respond to a most previous tell.
+    If you are in the same room as other people and you wish to say something
+which they can all hear, use the &+YSAY MESSAGE&* command.  For example, type:
+&+YSAY Hi guys!  What's new?
+    You can also do&+Y 'Hi guys!  What's new? &*with a single quote in
+place of &+YSAY&*.  Next, we tell you how to communicate with the world.
+^
+
+newbie5 n:newbie4 s:newbie6;
+lflags { Newbie Peaceful}
+Talk to the Whole World^
+    If you wish everyone on the mud to hear what you say, you can use the
+command &+YSHOUT <MESSAGE>&*.  But avoid using it when you can use TELLs or SAYs.
+    If you wanted to send a message to just all the wizards on the game, 
+you can use the &+YWISH MESSAGE&* command, .
+    A better way to talk to everyone is the &+YCHAT&* command.  Chatting a
+lot will not offend people, because everyone has the ability to switch off
+the chat line.  To do this type &+YNOCHAT&*.  To switch the chat line
+back on again, simply type &+YNOCHAT&* again.
+    There are other chatlines available, including &+YGCHAT&*, and &+YABERCHAT&*. 
+The other help commands are listed in the HELP command.  The tour continues 
+to the south.
+^
+
+newbie6 n:newbie5 w:newbie7;
+lflags { Newbie}
+Scavenging for Items^
+    You will come across many items as you progress through the mud.  Some 
+will be useful to you; others will not.  You can only carry a certain number 
+of items, but you will soon get a feel for what you need and what you do not.  
+Pick up items using the command &+GGET&* or &+GTAKE&*.  Drop them again using 
+the command &+GDROP&*.  To see what you are carrying at any time, type &+YI&* or &+YINV&* for 
+&+YINVENTORY&*).  You can practice these commands on the towel in this room.
+    There may be something interesting about the object, so you should use the 
+&+CEXAMINE&* command, or &+CEX&* for short, followed by the name of the object.
+There are many types of items, some of which you will come across shortly.
+    The path takes a turn here, to continue the tour, go west.
+^
+
+newbie7 w:newbie19 e:newbie6;
+lflags { Newbie }
+Weapons And Armor^
+    If you didn't already know, the Promised Land is a dangerous place.  
+And as you run around the world saving princesses and finding treasure, 
+fighting with your bare hands isn't your best option.  The key to survival
+is equipping yourself with weapons and armor.
+    Armor can take many forms, and the more pieces you are wearing, the 
+better you will be protected.  You can only wield one weapon at a time, 
+but some weapons are better than others.  The equipment provided here is 
+fairly good, but it is for new players only - use it to try to find where 
+to find good equipment elsewhere on the mud.  You can come back again and
+again to take this stuff until you reach level 6.  To use this weapon,
+type &+YWIELD NEWBIESWORD&*, and to use the armor, type &+YWEAR NEWBIEARMOR&*. 
+If you are carrying a lot of clothes, you can put them all on at once using
+the &+YWEARALL&* command--granted that aren't wearing something else there.
+    To see what equipment you are using and how much protection and power 
+you have, type &+YEQUIPMENT&* or just &+YEQ&*.
+^
+
+newbie8 w:newbie9 e:newbie19;
+lflags { Newbie }
+Mobiles And Combat^
+    Mobiles, or non-playing characters, are your adversaries in this game.
+Some are there to help you, but most are ripe for the killing.  Beware though,
+some may be tougher or better-armed than you, so it is advisable to find out
+how strong a mobile is before attacking it.  To do this, use the &+CEXAMINE
+command, or &+CEX&* for short, followed by the name of the mobile.  This will tell
+you how tough it is.  To attack a mobile called 'Troll' type &+RKILL TROLL&*.
+For every mob you slay, you gain points.  If you &+CFLEE&* from a mob, you
+lose points.  Sometimes you have to &+CFLEE&* to stay alive.
+    The mobiles regain their strength here, meaning you can't damage them, 
+run away, heal, and return to finish them off.  
+^
+
+newbie9 n:newbie10 e:newbie8 d:newbie16;
+lflags {newbie peaceful }
+Zones and Quests^
+    For all these thousands of rooms, objects, and mobiles, they are grouped 
+together into zones.  The beings in these zones may be friendly, or hostile.  
+Some have lots of treasure, some have lots of items to use.  Some are good 
+places to visit, and others you would never want to visit without good 
+equipment--those usually demand a hero to defeat some evil and save someone.
+For information on this quest thing, read &+YINFO QUESTS&*.
+
+   There appears to be a small lake here, maybe you should go sailing on
+it by taking the boat and going down.
+^
+
+newbie10 n:newbie12 s:newbie9;
+lflags {Newbie Peaceful}
+Your Character^
+    It is important to keep track of your own status, especially when fighting.
+Type &+CSCORE&* to see how you are doing.  If your strength ever falls below zero
+you will die and lose half or more of your earned points.  Your &+CWIMPY&* value
+will help to prevent this by making you flee from a battle automatically if
+your strength falls below that value.  Your prompt displays your stats.
+    Some things you will notice right away, you start with only &+R40 hit points
+which alas is unplayably weak and doesn't increase with levels.  Don't worry,
+we'll show you how to fix that in the next room.  You will also see what your
+current level is, how many mobiles you've killed, how many times you've been
+slain, what wimpy is set at, how much money you have, how many souls you've
+reaped, and how much you are armored.  Since you are starting with &+Y2000 coins,
+you can use it to start building your character to the north.
+^
+
+newbie11 n:newbie15 s:newbie18;
+lflags { newbie }
+Handicaps^
+    The object of this game is to make Wizard.  If you are new to MUDs, that 
+will be challenging enough.  If you are an experienced player, however, you 
+might like a greater challenge.  We have worked to find handicaps which leave 
+the game challenging and not tedious.  The handicap levels are &+CSTANDARD&*, 
+&+CFAMED&* and &+CGREAT&*.  To find out the handicap conditions type &+BHANDICAP <level>&*.
+    What you get from playing with a handicap is greater recognition.  The
+users and who commands will show your handicap, and if you make it to wizard, 
+you will be a 'Famedwizard' or a 'Greatwizard'.  All the wizards have a core 
+of capabilities, but Famedwizards and Greatwizards have a few extras.  Mostly 
+it is the recognition of a more difficult achievement.  
+    You cannot take a handicap if you have learned the fence skill, solved
+any quests, killed 40 or more mobs, or have ever advanced beyond level 4.
+The *only* location in which the handicap command is active is this room.
+    Accumulating experience suggests that even experienced players will
+make critical strategic mistakes in building their first character.  On
+the standard handicap you have enough income to correct this, so you
+should probably not take a handicap if this is your first character here.
+^
+
+newbie12 n:newbie13 d:Villlearn@village s:newbie10;
+lflags { Newbie Peaceful }
+Building Yourself Up^
+    So how do you want to build your character?  Buy strength? Mana?  Surely 
+you want to get your strength increasing with level.  Firstly you should go
+in the gym and build up your hit points.  Sam's Strength Center will increase
+your health, and if you have more health, you won't flee from battle as 
+often.  Whenever you enter a training center, typing &+CLEARN INFO&* will 
+list everything they offer.  To train yourself in a particular craft, type
+&+CLEARN <craft>&*.  Go down now to start training your hit points.
+&+RWe strongly urge you to take the opportunity to build your character now.
+^
+
+newbie13 w:newbie14 d:Icelearn@icecave s:newbie12;
+lflags { Newbie Peaceful }
+Magic Power^
+    Besides health, you also have the ability to cast spells.  But to cast
+spells, you have to have mana points.  But before you can cast spells, 
+you have to learn those as well.  Below you is Magician's Mana Tutoring.
+Though actual spells aren't taught there, they train you in gathering
+the magical energies to cast them.  &+CINFO MANA&* will give more info.
+    You may well want to save some of your coins for the many specials that 
+are available around the mud.  There are seven learning locations besides 
+these two, and part of the game is finding them.  Each learning center 
+teaches different specials. &+YINFO SPECIALS&* will get you more detail 
+on what they are. The coins to pay for continued lessons will come the 
+first time you reach a level (250 coins), and the first time you solve a 
+quest (200 coins). You can give the command &+YSPECIALS&* (or &+YSPEC&* for 
+short) to see what specials you have at any time.
+    &+ROkay then, go down now to train in the magical energies.
+^
+
+newbie14 w:newbie15 e:newbie13;
+lflags { newbie peaceful }
+Knowledge^
+    Most of what is known about spells are in the lost Books of Knowledge.
+However, this much has been learned.  Knowledge determines your ability
+to cast a spell.  Knowledge is acquired somehow by finding the twenty
+volumes of the Book of Knowledge.  &+YINFO SPELLS&* tells about each book.
+     The first volume of the Book of Knowledge has been seen in the Library 
+behind the Cliff Window.  There is a Figure which guards that volume, and
+it is believed that each volume is also guarded.  The Figure will only let 
+"real sorcerers" past, but it seems that his notion of a "real sorcerer" is 
+determined entirely by what you wear.
+    To gain the knowledge in the book, first you ought to &+YREAD&* what it says,
+then embed the book into your mind through &+YSTUDY <volume>&*.
+    Be warned though, the other nineteen books are carefully guarded, and
+the ones guarding them won't let you see them without a fight.
+    Reading these volumes is necessary to attain full wizhood.
+^
+
+newbie15 s:newbie11 e:newbie14;
+lflags {newbie peaceful }
+Religions^
+    A world cannot be created without a creator, and we have such figures
+looking over the world.  This chamber however contains a pagan god, an idol
+that doesn't exist but was put here to demostrate what to do if you happen
+to find the temples where they reside.  Call this idol, the PAGAN.  To find
+out how you should interact with a god, &+YINFO RELIGION&* will give you the
+guide to perform the proper rituals.
+    The END OF THE TOUR is to the south of you.
+^
+
+newbie16 u:newbie9 w:newbie17;
+Lflags { Onwater Peaceful Newbie }
+Sailing on a Pond^
+   Some rooms can also be over water, underwater, or in the sky.  You will
+need to find something that allows you to travel to these places.  You brought
+along a boat with you, so you were able to enter here without having to swim.
+Later on, you will need scuba gear to swim underwater, or wings to fly in the
+sky.  Be careful that you don't lose your boat while on water, or you will
+drown.  Some rooms are also too dark to see in or are dark during the night, of 
+which you need to have an object to light up the room.  An island is to the
+west of you, or you can climb up on the bank upwards.
+^
+
+newbie17 n:newbie10 e:newbie16;
+Lflags { Peaceful Real Newbie }
+A Small Island^
+   When you enter dark areas, you need to have something that is lit, glowing,
+or can be lighted.  Before you can light an item like a torch, you may have 
+to find something to light something else.  There is a fire in this room, and
+you have an unlit torch, type &+YLIGHT TORCH&*.  To put it out, you can type
+&+YUNLIGHT TORCH&* or &+YEXTINGUISH TORCH&*.
+   Sometimes you will need to eat or drink food to quelsh your hunger and 
+thrist and keep your strength up in the heat of battle.  Here is a pot of 
+hot coffee, you would type &+GDRINK COFFEE&*.  Here is a bowl of salad, take
+it for when you are hungry, where you would type &+GEAT SALAD&*.  Carry food
+with you when you explore the land, it comes in handy.
+   You can cross a bridge north, or sail back out east.
+^
+
+newbie18 n:newbie11 s:palace@icecave w:newbee13@newbee;
+lflags { }
+The Fountain^
+    To help you start, there is a fountain from which you can drink to gain
+4000 points.  Type &+CLEVELS&*.  This will show you how many points you need for
+each level.  Drinking the fountain will take you to level 3.  To drink, simply
+type &+GDRINK FOUNTAIN&*.  You must drink several times to reach level 3.  But
+relax!  You don't need to type &+GDRINK FOUNTAIN&* forty times.  The command &+G!
+will repeat whatever your last command was.  So type &+GDRINK FOUNTAIN&* once,
+then &+G!&* repeatedly or so until you get a message telling you that you are now
+a hero/heroine.
+    If you happen to drop below level 3, you can return to the fountain to
+regain your level.
+
+&+Y    If you rather just head directly into danger, go west...
+^
+
+newbie19 w:newbie8 e:newbie7;
+lflags { Peaceful Newbie }
+The Sacificial Pit^
+    While you're running around gathering items, at some point your arms
+become full and you can't carry anymore.  Other times you pillage a treasure
+trove full of jewels, gold, silver, and other valuables and need to unload 
+it all somewhere before ending your running session.  This is when you 
+travel to one of the many sacificial pits in the game and drop it in to add 
+big points to your score.  But be careful, you want to &+YVALUE ALL&* the 
+stuff you're carrying and avoid dropping items that aren't worth anything or 
+take points away.  
+^
+
+newbiedead w:newbie3;
+lflags {newbie peaceful }
+Crumbling Cliff Edge^
+    You boldly go ahead into this location without thinking twice to take a 
+look below the cliff edge, and the cliff COLLASPES ON YOU!!!  You fall 
+thousands of feet, smash into billions of pieces and make a small crater 
+where you land!
+
+&+B---------------------------------------------------------------------------
+
+	&+CYou seem to have died...
+
+&+B---------------------------------------------------------------------------
+
+    Fortunately this was all an illusion designed to warn you to watch where
+you're going.  Had it been real, you would had lost everything and be 
+resurrected in Between Worlds.  There is a way to tell for sure if a location 
+is deadly, which you will find out later.  You can return to the tour west.
+^

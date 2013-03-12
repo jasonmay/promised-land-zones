@@ -1,0 +1,198 @@
+
+
+
+%mobiles
+
+Name		= Runner
+Pname		= "Elven Runner"
+Location	= aephir
+Strength	= 450
+Damage		= 45
+Armor		= 8
+Pflags		{ NoExorcise NoZap }
+Sflags		{ Female }
+Speed		= 0
+Aggression 	= 0
+Desc		= "
+Out of the corner of your eye you see... an &+gElven Runner&*!  One trusted by
+Aephir to guard her Holy Relics!"
+Examine		= "
+The Elven Runners are well known to be one of the deadliest hand-to-hand opponents
+in the land.  While they have excellent dexterity, their strength is
+somewhat lacking, and their armor is light."
+End		= Runner
+
+Name      = Aephir
+Pname     = "Aephir"
+Location  = aephir
+Strength  = 100000
+Damage    = 100000
+Armor     = 100000
+Mflags    { }
+Pflags    { NoPunt NoZap NoSummon NoExorcise NoAlias NoSteal NoBurn NoHassle }
+Sflags    { Female }
+Speed     = 0
+Aggression = 0
+Desc      = "&+RAephir&*, the Goddess of Nature and Peace sits on the shimmery
+throne."
+Examine   = "Aephir, the Goddess of Nature is dressed in a simple robe of pure shimmery
+white which complements her silvery hair. She notices you, her forest-green
+eyes looking into your own. You feel very weak and insignificant, but
+utterly protected and at peace.
+She then smiles at you and turns her head and stares out into space."
+End       = Aephir
+
+%locations
+
+aephir w:wsacred e:esacred n:nsacred s:ssacred u:climb ;
+lflags { Aephir outdoors soundproof nosummon cantsummon peaceful }
+In The Shade Of The Platinum Tree^
+   You are standing in a gigantic clearing, teeming with life. The grass
+here tickles your ankles, and in the center of the clearing is a strange
+tree. The tree which, by some magic has been transformed to the color
+of platinum seems to reach to the sky. The tree casts a huge shadow over
+you as you stand among the dark green grass.
+   A &+Bthrone&* seems to have grown out of the center of the tree's immense
+trunk.
+^
+climb  d:aephir;
+lflags { nogoto Aephir archwizard }
+Climbing Up The Platinum Tree^
+   This tree emanates enormous power, beyond what a mortal, and even an
+immortal can handle.  Only the most powerful immortals can ever see this
+what is... Aephir's home.  The ground below seems miles away, but luckily,
+you're not dizzy.
+^
+forbid w:sesacred n:sesacred;
+lflags { nogoto archwizard nomobiles Aephir}
+The Forbidden Forest^
+   One can see why it is forbidden--it is Aephir's sanctuary for the
+rarest, most magical trees in the world.  No mortal could ever claim a
+twig or leaf from any single tree, neither could the lower immortals.  If
+you are here, you are privileged.
+^
+esacred s:sesacred n:nesacred w:Aephir ;
+lflags { outdoors peaceful Aephir}
+Sacred Forest^
+   You are standing among a forest teeming with life. You feel cool
+breezes around you, and hear the rustle of leaves. High in the tall
+oak and maple trees you can hear the enchanting songs of birds. Below
+the canopy of trees are fern plants and short dark green grass. You
+feel the strong urge to simply wander about and follow the songs
+of the birds above.
+^
+sesacred n:esacred w:ssacred s:forbid e:forbid;
+lflags { outdoors peaceful Aephir}
+Sacred Forest^
+   You are standing among a forest teeming with life. You feel cool
+breezes around you, and hear the rustle of leaves. High in the tall
+oak and maple trees you can hear the enchanting songs of birds. Below
+the canopy of trees are fern plants and short dark green grass. You
+feel the strong urge to simply wander about and follow the songs
+of the birds above.
+The forest extends north and west, but you feel forbidden by an unseen
+force to travel south or east.
+^
+ssacred e:sesacred w:swsacred n:aephir ;
+lflags { outdoors peaceful Aephir}
+Sacred Forest^
+   You are standing among a forest teeming with life. You feel cool
+breezes around you, and hear the rustle of leaves. High in the tall
+oak and maple trees you can hear the enchanting songs of birds. Below
+the canopy of trees are fern plants and short dark green grass. You
+feel the strong urge to simply wander about and follow the songs
+of the birds above.
+^
+swsacred n:wsacred e:ssacred;
+lflags { outdoors peaceful Aephir}
+Sacred Forest^
+   You are standing among a forest teeming with life. You feel cool
+breezes around you, and hear the rustle of leaves. High in the tall
+oak and maple trees you can hear the enchanting songs of birds. Below
+the canopy of trees are fern plants and short dark green grass. You
+feel the strong urge to simply wander about and follow the songs
+of the birds above.
+^
+wsacred e:aephir n:nwsacred s:swsacred ;
+lflags { outdoors peaceful Aephir}
+Sacred Forest^
+   You are standing among a forest teeming with life. You feel cool
+breezes around you, and hear the rustle of leaves. High in the tall
+oak and maple trees you can hear the enchanting songs of birds. Below
+the canopy of trees are fern plants and short dark green grass. You
+feel the strong urge to simply wander about and follow the songs
+of the birds above.
+^
+nesacred e:nsacred s:esacred ;
+lflags { outdoors peaceful Aephir}
+Sacred Forest^
+   You are standing among a forest teeming with life. You feel cool
+breezes around you, and hear the rustle of leaves. High in the tall
+oak and maple trees you can hear the enchanting songs of birds. Below
+the canopy of trees are fern plants and short dark green grass. You
+feel the strong urge to simply wander about and follow the songs
+of the birds above.
+^
+nsacred n:trail1 s:aephir w:nwsacred e:nesacred ;
+lflags { outdoors peaceful Aephir}
+Sacred Forest^
+   You are standing among a forest teeming with life. You feel cool
+breezes around you, and hear the rustle of leaves. High in the tall
+oak and maple trees you can hear the enchanting songs of birds. Below
+the canopy of trees are fern plants and short dark green grass. You
+feel the strong urge to simply wander about and follow the songs
+of the birds above.
+^
+nwsacred e:nsacred s:wsacred ;
+lflags { outdoors peaceful Aephir}
+Sacred Forest^
+   You are standing among a forest teeming with life. You feel cool
+breezes around you, and hear the rustle of leaves. High in the tall
+oak and maple trees you can hear the enchanting songs of birds. Below
+the canopy of trees are fern plants and short dark green grass. You
+feel the strong urge to simply wander about and follow the songs
+of the birds above.
+^
+
+trail1 n:entry@novice s:nsacred e:trail2 ;
+lflags { outdoors peaceful Aephir}
+Sacred Forest Trail^
+   You are standing among a forest teeming with life. You feel cool
+breezes around you, and hear the rustle of leaves. High in the tall
+oak and maple trees you can hear the enchanting songs of birds. Below
+the canopy of trees are fern plants and short dark green grass. You
+feel the strong urge to simply wander about and follow the songs
+of the birds above.
+The trail extends south and east.  A side trail goes north.
+^
+
+trail2 w:trail1 e:trail3 ;
+lflags { outdoors peaceful Aephir}
+Sacred Forest Trail^
+   You are standing among a forest teeming with life. You feel cool
+breezes around you, and hear the rustle of leaves. High in the tall
+oak and maple trees you can hear the enchanting songs of birds. Below
+the canopy of trees are fern plants and short dark green grass. You
+feel the strong urge to simply wander about and follow the songs
+of the birds above.
+The trail leads west and east.
+^
+trail3 w:trail2 e:trail4;
+lflags { outdoors peaceful Aephir}
+Sacred Forest Trail^
+   You are standing among a forest teeming with life. You feel cool
+breezes around you, and hear the rustle of leaves. High in the tall
+oak and maple trees you can hear the enchanting songs of birds. Below
+the canopy of trees are fern plants and short dark green grass. You
+feel the strong urge to simply wander about and follow the songs
+of the birds above.
+The trail leads west and east.
+^
+trail4 w:trail3 e:Falls@valley;
+lflags { outdoors peaceful nomobiles Aephir}
+Start Of Sacred Forest Trail^
+   You are standing in a small grassy clearing. A dirt trail starts
+here and leads into a forest just to your west. You hear many birds
+singing, seemingly beckoning you to enter this enchanted place. The
+hidden falls are east.
+^

@@ -1,0 +1,755 @@
+/*
+Zone Name: haunted
+
+Author: Kira
+Quest: jackolantern
+This zone and quest was written for Promised Land mud for Halloween.  
+If you would like to use this zone in your mud, please email Kira at leesy_2@excite.com. 
+*/
+
+
+
+
+
+%rainfall:550
+
+%latitude:45
+
+%mobiles
+
+Name           = Freda
+Location        = haunted_4
+Strength        = 50
+Speed  = 0
+Sflags { Female }
+Damage          = 10
+Description     = "Freda is giggling at you.  She wants to tell you a secret."
+Examine         = "
+&+ROne, two, Freddy's coming for you.
+&+RThree, four, better lock your door.
+&+RFive, six, grab your crucifix.
+&+RSeven, eight, gonna stay up late.
+&+RNine, ten, never sleep again.  "
+End             = Freda
+
+Name           = Snake
+Location        = haunted_7
+Strength        = 100
+Speed           = 2
+Damage          = 10
+Sflags { NoLegs NoArms }
+Description     = "A long, slimy snake slithers around you."
+Examine         = "
+Upon closer inspection, you see that the face of this gastly creature is 
+burnt.  It's body is slimy and icky.  As it slithers around you, you see that 
+it's face resembles a man you have seen in dreams before."
+End             = Snake
+
+Name           = Freddy
+MFlags          { BarEast NoSteal }
+Location        = haunted_13
+Strength        = 200
+Armor           = 5
+Speed  = 0
+Damage          = 10
+Aggression      = 5
+Description     = "Freddy stands here, daring you to pass him."
+Examine         = "Man, is this guy UGLY!"
+End             = Freddy
+
+Name           = Jason
+Location        = haunted_15
+Strength        = 200
+Armor           = 15
+Damage          = 10
+Aggression      = 50
+Speed  = 0
+Description     = "
+As you bend down to get a closer look, a hockey mask surfaces.  You reach to 
+try to pick it up, and find that there is a face and body attached to it!
+Jason pops out of the water, wielding a knife!"
+Examine         = "He don't play for the Rangers, I can tell you that!"
+End             = Jason
+
+Name            = blair
+PName           = "The Blair Witch"
+Location        = haunted_22
+Mflags { DrainScr }
+Eflags { Vtouch Blind Fireball BHands }
+Sflags { Female }
+Strength        = 1000
+Damage          = 10
+Aggression      = 20
+Speed  = 0
+Description     = "The Blair Witch cackles at you, daring you to leave her woods."
+Examine         = "
+Her red eyes penetrate through your soul.  Her long fingers point to you, as
+if to say, Try to cross me."
+End             = blair
+
+Name           = Leatherface
+Location        = haunted_26
+Strength        = 500
+Speed           = 0
+Damage          = 10
+Aggression      = 25
+Description     = "Leatherface is here, ready to put you in the pot."
+Examine         = "Guess he don't get out much."
+End             = Leatherface
+
+Name           = Scream
+Location        = haunted_29
+Strength        = 200
+Damage          = 10
+Aggression      = 0
+Description     = "Scream is here relaxing and reading a book."
+End             = Scream
+
+Name           = Norman
+Location        = haunted_29
+Strength        = 100
+Speed           = 2
+Damage          = 10
+Aggression      = 2
+Description     = "Norman Bates is frantically trying to find his mother."
+End             = Norman
+
+Name           = Blob
+Location        = haunted_29
+Sflags { NoBody }
+Mflags { NoSteal }
+Strength        = 100
+Speed           = 0
+Damage          = 10
+Description     = "The Blob is just....sitting, er lying here."
+End             = Blob
+
+Name           = Linus
+Location        = haunted_31
+Strength        = 50
+Speed           = 0
+Damage          = 10
+Description     = "Linus is here, talking about something other than the &+y'Great Pumpkin.'"
+Examine         = "
+Linus starts to tell you about a evil demon that has taken over the pumpkin 
+patch.  Long ago, the Jack O' Lantern demon took over the patch, and possessed 
+his friends.  Every Halloween they reek havoc in the streets and rob little 
+kids of their precious candy.  Thanks to him, Halloween for the little kids 
+will never be the same.  Can you find him and destroy him before Halloween is 
+canceled all together?
+"
+End             = Linus
+
+Name           = Lucy
+Location        = haunted_32
+Mflags { Thief }
+Sflags { Female }
+Strength        = 50
+Speed           = 0
+Damage          = 5
+Aggression      = 2
+Description     = "Lucy is trying to steal your candy!"
+Examine         = "
+Looks like little Lucy wants your candy.  The fire in her eyes tells you that 
+you had better hurry and give it to her!"
+End             = Lucy
+
+Name           = Sally
+Location        = haunted_33
+Strength        = 50
+Sflags { Female }
+Speed           = 0
+Damage          = 5
+Description     = "Sally is here, looking for Linus."
+Examine         = "
+Sally's eyes light up as you come into view, until she finds out you're not 
+Linus. Now she growls at you and demands to know where her sweet 'babboo' is!"
+End             = Sally
+
+Name           = Charlie
+MFlags          { BarW  }
+Location        = haunted_35
+Strength        = 100
+Speed           = 0
+Damage          = 10
+Aggression      = 2
+Description     = "Charlie Brown stands here, eating a candy bar."
+End             = Charlie
+
+Name           = PigPen
+MFlags          { BarW  }
+Location        = haunted_35
+Strength        = 100
+Speed           = 0
+Damage          = 10
+Description     = "Pig Pen is gathering dust as he pops some gum in his mouth."
+End             = PigPen
+
+Name           = JackOLantern
+MFlags          { BarSouth  }
+Location        = haunted_38
+Strength        = 500
+Armor           = 5
+Speed           = 0
+Damage          = 10
+Description     = "The evil Jack O'Lantern Demon is here stuffing his face."
+Examine         = "Eew.....this guy really can pack in the candy."
+End             = JackOLantern
+
+Name           = Elease
+Location        = haunted_2
+Sflags { Female }
+Strength        = 50
+Speed           = 2
+Damage          = 10
+Aggression      = 2
+Description     = "Elease is running around ringing doorbells."
+Examine         = "Elease decided this year to dress up as a sorceress."
+End             = Elease
+
+Name           = Steven
+Location        = haunted_1
+Strength        = 50
+Speed           = 2
+Damage          = 10
+Aggression      = 2
+Description     = "Little Steven is running around looking for his sack of candy."
+Examine         = "Steven decided to dress up as a police officer this year."
+End             = Steven
+
+Name           = Tim
+Location        = haunted_3
+Strength        = 50
+Damage          = 5
+Description     = "Tim is here, trying to figure out which house to toilet paper first."
+Examine         = "Tim decided to dress up as a zombie this year."
+End             = Tim
+
+Name           = Shawn
+Location        = haunted_16
+Strength        = 50
+Speed           = 2
+Damage          = 10
+Description     = "Shawn is here, trying fix a heel on his shoe."
+Examine         = "Shawn decided to go as Marilyn Monroe this year."
+End             = Shawn
+
+Name           = Vince
+Location        = haunted_15
+Strength        = 50
+Speed           = 2
+Damage          = 10
+Description     = "Vince is here, trying to fix his mask."
+Examine         = "
+Vince decided to trick or treat as a seven inch giant space mutant hamster 
+this year."
+End             = Vince
+
+Name           = Roxanne
+Location        = haunted_20
+Strength        = 50
+Speed           = 2
+Damage          = 10
+Sflags { Female }
+Description     = "Roxanne is here, trying to hide some of her candy."
+Examine         = "Roxanne decided to go as a amazon princess this year."
+End             = Roxanne
+
+Name           = Jas
+Location        = haunted_15
+Strength        = 50
+Speed           = 2
+Damage          = 10
+Description     = "Jas is standing here, wondering where he put his popcorn ball at."
+Examine         = "Jas decided to dress up as the Highlander this year."
+End             = Jas
+
+%objects
+
+Name           = sign
+AltName         = sign
+OFlags          { NoGet }
+Location        = IN_ROOM:haunted_0
+Desc[0]         = "A moss-covered, rotting sign sits beside the path."
+Examine         = "
+&+CThis zone and quest was written by Kira for Halloween for Promised Land MUD.
+&+CHope you have fun in this adventure!"
+End             = sign
+
+Name           = door_1
+PName         = door
+OFlags          { NoGet Openable }
+Location        = IN_ROOM:haunted_4
+Linked 	= door_2
+State           = 1
+MaxState        = 1
+Desc[1]         = "The door to the house is closed."
+Desc[0]         = "The door to the house is opened."
+End             = door_1
+
+Name           = door_2
+PName         = door
+OFlags          { NoGet Openable}
+Location        = IN_ROOM:haunted_5
+Linked 	= door_1
+State           = 1
+MaxState        = 1
+Desc[1]         = "The door to the house is closed."
+Desc[0]         = "The door to the house is opened."
+End             = door_2
+
+
+Name           = sofa
+AltName         = sofa
+Oflags { NoGet }
+Location        = IN_ROOM:haunted_5
+Desc[0]         = "A ripped up sofa sits among the trashed up room."
+Examine         = "The slashed sofa looks like a huge cat with big claws used it for a
+scratching post."
+End             = sofa
+
+Name           = bathtub
+AltName         = tub
+OFlags          { NoGet Container }
+Location        = IN_ROOM:haunted_8
+Desc[0]         = "The bathtub sits over on the other side."
+Examine         = "As you pull back the curtains, you COMPLETLY freak out!  The body of a young
+girl lies there.  There are claw marks from her throat to her belly.  You 
+gasp in horror."
+End             = bathtub
+
+Name           = girl
+OFlags          { NoGet }
+Location        = IN_CONTAINER:bathtub
+Examine         = "The girl's body sits up, and her eyes open.  Her head turns toward you and
+she says, Freddy's coming for you!"
+End             = girl
+
+Name           = mirror
+Oflags { NoGet }
+Location        = IN_ROOM:haunted_7
+Desc[0]         = "A mirror hangs on the wall."
+Examine         = "
+You see your own reflection...change...there are MAGGOTS CRAWLING ON YOUR FACE!
+You start trying to pull them all off your face, but chunks start coming off 
+until you become a &+Rbloody mess&*...then you look away and look back in the 
+mirror...and find that your face is perfectly fine.  What WERE you looking at 
+anyway?"
+End             = mirror
+
+Name           = mask
+AFlags          { Face }
+OFlags          { Armor }
+Location        = WORN_BY:Jason
+BValue          = 50
+Armor           = 10
+State           = 1
+MaxState        = 1
+Desc[0]         = "A hockey mask lies here."
+Examine         = "Looks like this hockey mask as been in a fight.  Hate to see who lost...."
+End             = mask
+
+Name           = knife
+OFlags          { Weapon }
+Location        = WIELDED_BY:Jason
+BValue          = 50
+Damage          = 10
+State           = 1
+MaxState        = 1
+Desc[0]         = "Seems Jason lost his knife."
+Examine         = "
+Blood stains on the handle.  No doubt this is Jason Vorhees' knife.  Wonder
+who got it from him?"
+End             = knife
+
+Name           = tent
+Location        = IN_ROOM:haunted_19
+Oflags { NoGet }
+Desc[0]         = "A collapsed tent lies torn on the ground."
+Examine         = "
+You wonder why someone would leave a tent here in the middle of the woods.
+Or for that matter, why anyone would even camp here in this spooky place.  
+Dirt and mud are caked all over it. You wonder where the person or persons 
+that were camping here are."
+End             = tent
+
+Name           = journal
+Location        = IN_ROOM:haunted_19
+BValue          = 60
+Desc[0]         = "As you bend down, you see a torn journal laying here."
+Examine         = "
+The journal tells about the journey of three students to find the Blair Witch.
+The last entry sends chills down your spine as you read the words.
+'I am so scared.  She has already gotten the others.  Now all that is left is 
+me.  Where do I run? What am I going to do?  Maybe I should just surrender to 
+her and let her make of me what she wants.'"
+End             = journal
+
+Name           = sign_2
+PName         = sign
+OFlags          { NoGet }
+Location        = IN_ROOM:haunted_23
+Desc[0]         = "A sign hangs beside the door."
+Examine         = "&+BWorld famous Texas Chili.  Made from a secret family recipe.  It's to DIE for!&*"
+End             = sign_2
+
+Name           = Pumpkin_1
+PName         = pumpkin
+Location        = CARRIED_BY:Freddy
+BValue          = 100
+Desc[0]         = "A pumpkin rests here."
+Examine         = "
+To win the quest, you must find my two siblings.  They are hidden throughout 
+the haunt.  Only with the three of us, can you defeat the Jack O' Lantern Demon!"
+End             = Pumpkin_1
+
+Name           = Pumpkin_2
+PName         = pumpkin
+Location        = IN_CONTAINER:boulder
+BValue          = 100
+Desc[0]         = "A pumpkin is lying here."
+Examine         = "To win the quest, you must find my two siblings. They are hidden throughout 
+the zone.  Only with the three of us, can you defeat the Jack O' Lantern Demon!"
+End             = Pumpkin_2
+
+Name           = boulder
+OFlags          { Container NoGet Openable }
+Location        = IN_ROOM:haunted_20
+State           = 1
+MaxState        = 1
+Desc[1]         = "A boulder is sitting here."
+Desc[0]         = "Someone has opened up a boulder."
+Examine         = "Weird.  Seems like there is a way to open up this boulder."
+End             = Boulder
+
+Name           = Pumpkin_3
+PName         = pumpkin
+Location        = CARRIED_BY:Blob
+BValue          = 100
+Desc[0]         = "A pumpkin lies here."
+Examine         = "To win the quest, you must find my two siblings. They are hidden throughout 
+the zone.  Only with the three of us, can you defeat the Jack O' Lantern Demon!"
+End             = Pumpkin_3
+
+%locations
+
+haunted_0 n:haunted_1 s:entry@novice;
+LFlags	{ Outdoors Real }
+The Haunted Woods^
+    You come to a dark wooded area.  Limbs from leafless trees swoop to the 
+earth like boney fingers reaching for you.  Fear races through your body, 
+making your blood ice-cold with fright.  Should you continue?
+^
+
+haunted_1 e:haunted_2 n:haunted_16 w:haunted_14 s:haunted_0;
+LFlags	{ Real Outdoors }
+Path into the Haunted Woods^
+    After taking a few steps, you turn and find that you are completly 
+engulfed in the forest.  Lightening strikes all over the dark sky, and 
+thunder booms throughout the land.  There are three directions in which to 
+choose where to go.  Each one looks dark and gloomy.
+^
+
+haunted_2 n:haunted_3 w:haunted_1;
+LFlags	{ Outdoors Real }
+Elm Street^
+    Wow!  Looks like you've entered into a ghost town.  As you walk along the 
+sidewalk in this abadoned neighboorhood, you notice all the windows are 
+boarded up in the houses.  You see a peculair house to the north.
+^
+
+haunted_3 n:haunted_4 s:haunted_2;
+LFlags	{ Real Outdoors }
+Abandoned House^
+    You stand in front of a huge two-story house.  Although the windows are 
+boarded up, bars also cover the windows.  The house looks run-down and 
+condemed, but no signs tell you if it's ok or not to proceed in.  
+^
+
+haunted_4 n:^door_1 s:haunted_3;
+LFlags	{ Outdoors Real }
+Porch of the House^
+    You stand on the porch of the old house.  A funny smell, almost like 
+gasoline, radiates from inside the house.  It stings your eyes so bad they 
+shut.  As you open them, you notice a little girl is standing to the side of 
+you.
+^
+
+haunted_5 n:haunted_6 e:haunted_7 s:^door_2;
+LFlags	{ Dark }
+Living Room^
+    Oh MAN!  This place could use some maid service!  Trash is scattered all 
+over the room, and red splashes cover the once white walls.  The sofa and 
+chairs are ripped up, and the TV has been thrown against the wall, leaving a 
+huge hole in it.  
+You hear a loud screeching noise coming from beneath your feet.  Hmmm, sounds 
+like it's coming from the basement.
+^
+
+haunted_6 s:haunted_5;
+LFlags	{ Dark }
+Kitchen^
+    Just your typical kitchen, except that the appliances are broken and 
+thrown on the floor and food is smeared all over the walls.  As you look 
+around, you notice there is some writing on the wall.  Upon closer 
+inspection, you notice three words spelled out in grape jelly.....&+mFREDDY'S 
+&+mNOT DEAD!!!!!!
+^
+
+haunted_7 n:haunted_9 s:haunted_8 w:haunted_5;
+LFlags	{ Dark }
+Hallway^
+    As you walk down the hallway, you see pictures have fallen off the walls 
+and been smashed.  The only item that remains on the wall is a large mirror.  
+A bathroom is just to the east.
+Seems someone left the basement door open.
+^
+
+haunted_8 n:haunted_7;
+LFlags	{ Dark }
+Bathroom^
+    Looks like the bathroom hasn't been touched.  Pretty blue towels hang 
+from the holders.  Decorative soap sits beside the sink.  You look over at 
+the bathtub and wonder what is behind the curtains.
+^
+
+haunted_9 n:haunted_11 e:haunted_12 s:haunted_13 w:haunted_10;
+LFlags	{ Dark }
+Basement^
+    As you peer into the opening of the basement, you notice it is very hot 
+and steamy. You proceed down the steps slowly.  The screeching noise you 
+heard becomes louder and louder.  As you turn back and look, you notice that 
+as you leave each step, the step disappears.  Well, guess there is no turning 
+back now.
+^
+
+haunted_10;
+LFlags	{ Death }
+Behind the Stairs^
+    As you walk behind the stairs, Freddy jumps out and stabs you with his 
+claws through the heart.  Impaled...
+
+You are one of his children now!
+^
+
+haunted_11;
+LFlags	{ Death }
+Furnace^
+    As you look into the furnace, you feel someone behind you.  Before you 
+can turn around, you are pushed into the lit furnace.  You hear Freddy cackle 
+and slam the door shut.  &+RHot....hot....HOT!!!
+
+You are one of his children now!
+^
+
+haunted_12;
+LFlags	{ Death }
+Woodshop^
+    As you look over the tools, you hear a chainsaw start up.  As you turn, 
+the last thing you see is Freddy swinging a large saw at you.  Decapiated...
+
+You are one of his children now!
+^
+
+haunted_13 e:haunted_1;
+LFlags	{ NoSnoop Dark }
+The Way Out^
+    Just as you think you are going to get out of this crazy house, a burned 
+man with razor claws stands before you.  He tells you, 'You will become one 
+of my children. There is no escape.'
+^
+
+haunted_14 e:haunted_1 w:haunted_15;
+LFlags	{ Real }
+Beach of Crystal Lake^
+    You find yourself walking along the shore of a dark, murky lake. Fog 
+rises up from the water like steam. It is so thick, you can hardly see.  
+Perhaps walking out on the dock would give you a clearer view.
+^
+
+haunted_15 e:haunted_14;
+LFlags	{ Real }
+The Dock^
+    What on earth??? As you come to the end of the dock, you notice bubbles 
+in the water at the foot of the dock.  
+^
+
+haunted_16 n:haunted_27 e:haunted_17 s:haunted_1 w:haunted_23;
+LFlags	{ Real }
+The Path Continues...^
+    As you continue down the dark and gloomy path, you notice a out-of-place 
+section of woods to the right.  To the left you see a worn-down shack.  In 
+front of you the path continues on.
+^
+
+haunted_17 n:haunted_18 e:haunted_19 s:haunted_20 w:haunted_21;
+LFlags	{ Real Maze }
+Lost in the Woods^
+    You are lost in the woods.  You feel a presence surrond you in the wooded 
+area.  It gives you chills.  Which way do you go?
+^
+
+haunted_18 n:haunted_19 e:haunted_20 s:haunted_19 w:haunted_21;
+LFlags	{ Real Maze }
+Lost in the Woods^
+    You run through the woods, not knowing where you are. You are completely 
+lost.
+^
+
+haunted_19 n:haunted_18 e:haunted_21 s:haunted_20 w:haunted_20;
+LFlags	{ Real Maze }
+Lost in the Woods^
+    You continue on, still lost in the woods.
+A low, moaning sound echoes through your ears.
+^
+
+haunted_20 n:haunted_19 e:haunted_18 s:haunted_20 w:haunted_21;
+LFlags	{ Real Maze }
+Lost in the Woods^
+    You feel like you are running in circles. Will you ever find your way out?
+^
+
+haunted_21 n:haunted_18 e:haunted_19 s:haunted_20 w:haunted_22;
+LFlags	{ Real Maze }
+Lost in the Woods^
+    You are still lost in the woods. Will you ever find your way out?
+^
+
+haunted_22 e:haunted_16;
+LFlags	{ Real }
+Small Clearing^
+    You come to a clearing.  Just to the east you see a way back to the main 
+path.  As you try to move that way, a hidious looking creature blocks your 
+way out.  
+^
+
+haunted_23 e:haunted_16 s:haunted_24;
+LFlags	{ Real }
+Texas Chili Shack^
+    Looks like this shack has been converted into a little chili cafe.  At 
+least, that what the letters on the door says.  Maybe you should go in and get 
+a bite to eat.
+^
+
+haunted_24 n:haunted_23 e:haunted_25 s:haunted_26;
+LFlags	{ Dark }
+Dining Area^
+    It's a little musty in here.  The tables have fake faded flowers in 
+cracked vases sitting on them.  Cobwebs hang from the ceiling. The decor in 
+the room tells you maybe you shouldn't be in here.  Rusted tools adorn the 
+walls. Saws, picks, and large knives hang from the ceiling.
+^
+
+haunted_25;
+LFlags	{ Death }
+Freezer^
+    As you step into the walk-in freezer, you are harshly pushed into it.  As 
+you fall to the ground, a grotesque creature with a leather mask for a face 
+swings an axe at you.
+
+&+RLooks like you are the special of the day!&*
+^
+
+haunted_26 n:haunted_24;
+LFlags	{ Dark }
+Behind the Counter^
+    As you step behind the counter, you see a huge pot on the stove. The 
+smell of delicious chili entices your nose. You turn as you feel someone 
+looking at you.
+^
+
+haunted_27 n:haunted_28 w:haunted_29 s:haunted_16 e:haunted_30;
+LFlags	{ Real }
+End of the Path^
+    You come to a dead end in the path.  Straight in front of you is a 
+peculair looking cave.  To the right is a pumpkin patch.  As you glance left, 
+you see a section of land where the sun is shining.
+^
+
+haunted_28 s:haunted_27;
+LFlags	{ Dark }
+The Cave^
+    The cave is dark and stuffy.  You turn your light to look at the walls. 
+There are drawings on the walls.  You can make out two men dressed in suits 
+choking each other. In another picture, a huge white house has a rope wrapped 
+around it.  The same two men are pulling on each end of the rope. Two podiums 
+with regal looking seals stand before you. A sign on the wall reads, &+Y'Next 
+&+Ydebate in 15 minutes.'&* You think it would be a good idea to run the other 
+way and miss this most horrid event!
+^
+
+haunted_29 e:haunted_27;
+LFlags	{ Real }
+Clear Land^
+    Well, just when you think that you finally found a safe haven, it turns 
+out you didn't.  Looks like all the worn-to-death horror characters are here, 
+trying to figure out what movie role to take next.
+^
+
+haunted_30 n:haunted_31 e:haunted_32 s:haunted_32 w:haunted_27;
+LFlags	{ Real }
+Start of the Pumpkin Patch^
+    This is the start of the pumpkin patch.  Pumpkins lay as far as the eye 
+can see.  
+^
+
+haunted_31 n:haunted_32 e:haunted_33 s:haunted_31 w:haunted_30;
+LFlags	{ Real }
+Pumpkin Patch^
+    You are lost in the pumpkin patch. 
+^
+
+haunted_32 n:haunted_31 e:haunted_33 s:haunted_31 w:haunted_32;
+LFlags	{ Real }
+Pumpkin Patch^
+    You are lost in the pumpkin patch.
+^
+
+haunted_33 n:haunted_34 e:haunted_31 s:haunted_32 w:haunted_33;
+LFlags	{ Real }
+Pumpkin Patch^
+    You are STILL lost in the pumpkin patch.
+^
+
+haunted_34 n:haunted_33 e:haunted_32 s:haunted_31 w:haunted_35;
+LFlags	{ Real }
+Pumpkin Patch^
+    You are franticaly trying to find your way out of this crazy patch.  You 
+almost give up hope when you notice to the west is a glow of green radiating. 
+Maybe you should check it out.
+^
+
+haunted_35 w:haunted_36 e:haunted_34;
+LFlags	{ }
+Start of the Lair^
+    You come to a glowing section of the pumpkin patch.  The pumpkins glow 
+green as you make your way through them. Two peculair little kids stand guard 
+not allowing you to pass.
+^
+
+haunted_36 e:haunted_35 w:haunted_37;
+LFlags	{  }
+Eerie Path to the Lair^
+    Talk about a sugar rush!  As you walk down the path, you see the trees 
+are made of what appear to be gumdrops. Little furry animals are feasting on 
+flowers, which appear to be made of popcorn balls.  As your eyes turn to look 
+further west, you see the greenish glow gets brighter as you proceed.
+^
+
+haunted_37 s:haunted_38 e:haunted_36;
+LFlags	{  }
+End of the Path^
+    You come to the end of the path. To the right, you see a little covered 
+area. You hear some strange chomping noises coming from inside.
+^
+
+haunted_38 n:haunted_37;
+LFlags	{  }
+Lair of the Jack O' Lantern Demon^
+    Oh MAN!  This place is a sugar addicts HEAVEN!  Candy wrappers line the 
+floor, and sacks and sacks of goodies are piled to the ceiling. As your eyes 
+move over the wonderous sight, they come to rest on a enourmous pumpkin.  His 
+body is perfectly carved, and his eyes radiate a greenish light.  He is 
+stuffing candy down at a great rate of speed. So, this must be the infamous 
+Jack O' Lantern Demon!
+^

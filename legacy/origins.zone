@@ -1,0 +1,1426 @@
+
+
+
+
+
+%mobiles
+
+Name             = Koshee
+PName            = "Koshee"
+Location         = origins3
+Strength         = 200
+Damage           = 8
+Armor            = 6
+Aggression       = 75
+Speed            = 8
+Description      = "Koshee, the fabled elven dog, guards his woods zealously."
+End              = Koshee
+
+Name = Cooshee
+Location = origins3
+Damage =  8
+Strength = 200
+Aggression = 75
+Speed = 8 
+Armor = 6
+Description = "Cooshee, legendary dog of the elves, defends Rivendell with his brother Koshee."
+End = Cooshee
+
+Name = Cathshee
+Location = origins3
+Sflags { Female }
+Damage = 6
+Strength = 150
+Armor = 16
+Aggression = 50
+Speed = 10
+Description = "The mythical elven cat, Cath-shee, protects her sacred forest unto death."
+End = Cathshee
+
+Name             = Sothurithidan
+PName            = "Sothurithidan"
+Pflags           { NoExorcise NoZap NoSummon NoSteal NoAlias }
+Mflags           { BarNorth }
+Location         = origins10
+Strength         = 445
+Damage           = 7
+Armor            = 5
+Aggression       = 0
+Speed            = 0
+Description      = "
+The sword guard of Rivendell, Sothurithidan, will allow no passage!"
+End              = Sothurithidan
+
+Name             = Lee
+PName            = "Geddy Lee"
+Pflags           { NoExorcise NoZap NoAlias NoSummon NoMagic }
+Location         = origins16
+Strength         = 1000
+Damage           = 5
+Armor            = 27
+Aggression       = 0
+Speed            = 0
+Description      = "
+Geddy Lee, keeper of the magical Bridge of Lamneth, stands here looking worried.
+&+WGeddy Lee&n asks you '&+WHave you seen my &+Wmagical bass?&n'"
+End              = Lee
+
+Name             = Panacea
+PName            = "Panacea"
+Pflags           { NoExorcise NoZap }
+Sflags           { Female }
+Location         = origins17
+Strength         = 50
+Damage           = 2
+Armor            = 0
+Aggression       = 0
+Speed            = 0
+Description      = "Panacea, liquid grace and passion pure, seductively beckons you.
+&+WPanacea &nwhispers '&+WI will soothe your primal fears...&n'"
+End              = Panacea
+
+Name             = Specter
+PName            = "ByTors Specter"
+Location         = origins18
+Strength         = 180
+Damage           = 10
+Armor            = 9
+Aggression       = 100
+Speed            = 7
+Description      = "The slain body of the hero ByTor has been animated!"
+End              = Specter
+
+Name             = Spectre
+PName            = "The Spectre"
+Pflags           { NoSteal NoAlias NoSummon }
+Mflags           { DrainScr BarEast }
+Location         = origins21
+Strength         = 299
+Damage           = 12
+Armor            = 9
+Aggression       = 37
+Speed            = 0
+Description      = "A wispy, shadowy, form guards the location of its death fiercely!
+'&+WStay back or die,&n' the weary shade of the Traveler moans.  Its very voice
+drains the courage out of you."
+End              = Spectre
+
+Name             = Skeletree
+PName            = "SkeleTree"
+Eflags           { NegMissile NegFrost NegShock }
+Location         = origins23
+Strength         = 350
+Damage           = 13
+Armor            = 18
+Aggression       = 69
+Speed            = 0
+Description      = "
+A skeletal tree weeping blood sits rooted miserably to the ground here."
+End              = Skeletree
+
+Name             = Numbskull
+PName            = "Numbskull"
+Eflags           { NegFrost }
+Location         = origins36
+Strength         = 188
+Damage           = 10
+Armor            = 6
+Aggression       = 88
+Speed            = 0
+Description      = "Numbskull the mindless skeleton guard doesn't like intruders!"
+End              = Numbskull
+ 
+Name             = Dumbskull
+PName            = "Dumbskull"
+Eflags           { NegFrost }
+Location         = origins37
+Strength         = 188
+Damage           = 10
+Armor            = 6
+Aggression       = 88
+Speed            = 0
+Description      = "The skeletal guard Dumbskull wants you off his post!" 
+End              = Dumbskull
+
+Name             = Snowdog
+PName            = "SnowDog"
+Eflags           { NegFrost }
+Mflags 		{ BarSouth }
+Location         = origins39
+Strength         = 300
+Damage           = 15
+Armor            = 20
+Aggression       = 100
+Speed            = 0
+Description      = "SnowDog, centurion of evil, nemesis of ByTor, and guardian of The Necromancer,
+attacks!"
+End              = Snowdog
+
+Name             = Necromancer
+PName            = "The Necromancer"
+Pflags           { NoExorcise NoZap NoAlias NoSummon NoSteal }
+Eflags           { Frost NegFireball NegMissile NegFrost NegShock }
+Mflags		{ DrainScr }
+Location         = origins40
+Strength         = 350
+Damage           = 11
+Armor            = 25
+Aggression       = 100
+Speed            = 0
+Description      = "Suddenly, a human-shaped wraith materializes in front of you!"
+End              = Necromancer
+
+Name             = Addict
+PName            = "The Addict"
+Mflags           { Thief }
+Location         = origins42
+Strength         = 364
+Damage           = 3
+Armor            = 16
+Aggression       = 50
+Speed            = 20
+Description      = "One guy has had a little too much TempleVision for one day!"
+End              = Addict
+
+Name             = Lifeson
+PName            = "Alex Lifeson"
+Pflags           { NoExorcise NoZap NoAlias NoSummon NoMagic }
+Location         = origins43
+Strength         = 1000
+Damage           = 5
+Armor            = 27
+Aggression       = 0
+Speed            = 0
+Description      = "&+WAlex Lifeson &nsays '&+WMy mentor Jon has been &+Wmurdered!  &+WLet's  discuss this
+&+Wgrave issue.&n'"
+End              = Lifeson
+
+Name             = Brown
+PName            = "Father Brown"
+Pflags           { NoExorcise NoZap NoAlias NoSteal NoSummon NoMagic }
+Location         = origins47
+Strength         = 10000
+Damage           = 25
+Armor            = 50
+Aggression       = 0
+Speed            = 0
+Description      = "Father Brown, Head Priest of the Temples of Syrinx, smiles warmly at you."
+End              = Brown
+
+Name             = Broonsie
+PName            = "TC Broonsie"
+Pflags           { NoExorcise NoZap NoAlias NoSummon NoHassle }
+Mflags           { BarSouth GrabHostile }
+Location         = origins48
+Strength         = 500
+Damage           = 1
+Armor            = 18
+Aggression       = 0
+Speed            = 0
+Description      = "T.C. Broonsie asks for your spaceport pass."
+End              = Broonsie
+
+Name             = Peart
+PName            = "Neil Peart"
+Pflags           { NoExorcise NoZap NoSummon NoMagic }
+Location         = origins50
+Strength         = 1000
+Damage           = 5
+Armor            = 27
+Aggression       = 0
+Speed            = 0
+Description      = "
+Neil Peart, the 'professor' of percussion, wields his drumsticks expertly.
+&+WNeil Peart &nsays '&+WI can take you home, on my &+Wship.&n'"
+End              = Peart
+
+Name             = Dionysus
+PName            = "Dionysus"
+Pflags           { NoExorcise NoZap NoAlias NoSummon NoSteal NoHassle }
+Location         = origins61
+Strength         = 600
+Damage           = 5
+Armor            = 10
+Aggression       = 0
+Speed            = 0
+Description      = "
+&+WDionysus, &+gBringer of &+RLove,&n says '&+WI bring Love to give you solace, 
+&+Win the Darkness of the Night; only Love can steer you right.&n'"
+End              = Dionysus
+
+Name             = Apollo
+PName            = "Apollo"
+Pflags           { NoExorcise NoZap NoAlias NoSummon NoSteal NoHassle }
+Location         = origins62
+Strength         = 650
+Damage           = 10
+Armor            = 5
+Aggression       = 0
+Speed            = 0
+Description      = "
+&+WApollo, &+gBringer of &+BWisdom,&n says '&+WI bring Truth and Understanding, 
+&+WI bring Wit and Wisdom fair; precious gifts beyond compare.&n'"
+End              = Apollo
+
+Name             = Imbalance
+PName            = "Imbalance"
+Pflags           { NoExorcise NoZap NoAlias NoSummon }
+Eflags           { NegFireball NegMissile NegFrost }
+Location         = origins64
+Strength         = 666
+Damage           = 8
+Armor            = 30
+Aggression       = 0
+Speed            = 0
+Description      = "
+The bestial personification of imbalance, bane of all orderly and productive 
+life, threatens you mockingly."
+End              = Imbalance
+
+%objects
+
+Name             = elfblade
+PName            = elfblade
+AltName          = sword
+Oflags           { Weapon }
+Location         = WIELDED_BY:Sothurithidan
+BValue           = 500
+Size             = 8
+Weight           = 6
+Damage           = 20
+Desc[0]          = "A finely crafted sword of ancient elven make lies here."
+End              = elfblade
+
+Name             = key
+PName            = key
+Oflags           { Key }
+Location         = CARRIED_BY:Sothurithidan
+BValue           = 10
+Size             = 2
+Weight           = 2
+Desc[0]          = "A small, slender key with elven markings sits here."
+End              = key
+
+Name             = door1
+PName            = door
+Location         = IN_ROOM:origins11
+Oflags           { NoGet Openable Lockable }
+Linked           = door2
+MaxState         = 2
+State            = 2
+Desc[0]          = "The door is open."
+Desc[1]          = "The door is closed."
+Desc[2]          = "The door is locked."
+End              = door1
+
+Name             = door2
+PName            = door
+Location         = IN_ROOM:origins12
+Oflags           { NoGet Openable Lockable }
+Linked           = door1
+MaxState         = 2
+State            = 2
+Desc[0]          = "The door is open."
+Desc[1]          = "The door is closed."
+Desc[2]          = "The door is locked."
+End              = door2
+
+Name             = note1
+PName            = note
+AltName          = letter
+Oflags           { NoGet }
+Location         = IN_ROOM:origins12
+Desc[0]          = "
+A note handwritten in flowing Elvish lies on a desk in the far left corner."
+Examine          = "
+The note reads:
+
+  'Dear Jon,
+     I don't think we can continue on like this much longer.
+   The Necromancer has slain nearly the entire village, and
+   has destroyed our precious music.  He has powers the likes
+   of which even our sorcerers can't emulate.  Where does he
+   get such might?  Is it that mysterious place you come from
+   as well?  Please, help us!  You are the only hope we have.
+                                              --Saurantha'"
+End              = note1                     
+
+Name             = magical_bass
+PName            = bass
+AltName          = magical
+Oflags           { Weapon }
+Location         = IN_ROOM:origins12
+BValue           = -100
+Size             = 13
+Weight           = 15
+Damage           = 10
+Desc[0]          = "
+An old, upright bass with mysterious carvings lies here, somehow lost 
+by its owner."
+Examine          = "
+This bass is worn, wooden, and beautiful, once having been of the highest 
+quality.  You can feel that it has strange, magical properties."
+End              = magical_bass
+
+Name             = altar
+PName            = altar
+Oflags           { NoGet } 
+Location         = IN_ROOM:origins13
+Desc[0]          = "A large altar dominates the view here."
+End              = altar
+
+Name             = elven_staff
+PName            = staff
+AltName          = elven 
+Oflags           { Destroyed Glowing GetFlips } 
+Location         = IN_ROOM:origins13
+State            = 1
+MaxState         = 1
+BValue           = 200
+Size             = 11
+Weight           = 10
+Desc[0]          = "This is an elven staff with a crystalline head."
+Desc[1]          = "There is a medium-sized staff under many leaves."
+Examine          = "
+It is a slender wooden piece of art.  It has a crystal-faceted top that 
+captures light easily and beautifully."
+End              = elven_staff
+
+Name             = bridge1
+PName            = bridge
+Location         = IN_ROOM:origins16
+Oflags           { NoGet } 
+Linked           = bridge2
+MaxState         = 1 
+State            = 1
+Desc[0]          = "The bridge has been lowered, allowing access upwards."
+Desc[1]          = "
+There is a raised bridge barring you from crossing and going up."
+Examine          = "
+It appears that this bridge can be lowered by someone who knows how..."
+End              = bridge1
+
+Name             = bridge2
+PName            = bridge
+Location         = IN_ROOM:origins17
+Oflags           { NoGet } 
+Linked           = bridge1
+MaxState         = 1 
+State            = 1
+Desc[0]          = "The bridge has been lowered, allowing access downwards."
+Desc[1]          = "
+There is a raised bridge barring you from crossing and going down."
+Examine          = "
+It appears that this bridge can be lowered by someone who knows how..."
+End              = bridge2
+
+Name             = fountain
+PName            = fountain
+Oflags           { NoGet } 
+Location         = IN_ROOM:origins17
+Desc[0]          = "
+The crystal-clear &+Cwaters&n of the fountain possess a halcyon feel."
+Examine          = "You are compelled to drink from its inviting &+Cwaters.&n"
+End              = fountain
+
+Name             = milky_potion
+PName            = potion
+AltName          = milky
+Oflags           { Food NoDrain }
+Location         = CARRIED_BY:Spectre
+BValue           = 50
+Size             = 5
+Weight           = 5
+Desc[0]          = "This potion is a milky, white liquid with a foul odor."
+Examine          = "
+Examining the label closely, you see:
+
+          'Level drain will be no bane;
+           If you drink me away in the Necromancer's melee.'"
+End              = milky_potion
+
+Name             = medium_shield
+PName            = shield
+AltName          = medium
+Oflags           { Armor Wearable Shield }
+Location         = CARRIED_BY:Spectre
+BValue           = 20
+Size             = 8
+Weight           = 7
+Armor            = 8
+Desc[0]          = "A medium shield with old, faded markings lies here."
+Examine          = "The markings are faded, remember?! :)"
+End              = medium_shield
+
+Name             = treebark
+PName            = treebark
+AltName          = bark
+Oflags           { Armor Wearable }
+Aflags	{ Chest }
+Location         = WORN_BY:Skeletree
+BValue           = 500
+Size             = 20
+Weight           = 18
+Armor            = 20
+Desc[0]          = "
+A sheet of treebark that can easily accomodate you has been left here."
+End              = treebark
+
+Name             = dates
+PName            = dates
+AltName          = food
+Oflags           { Food }
+Location         = IN_ROOM:origins28
+Size             = 2
+Weight           = 2
+Desc[0]          = "Some fresh dates lie scattered about."
+End              = dates
+
+Name             = door3
+PName            = door
+Location         = IN_ROOM:origins39
+Oflags           { NoGet Openable Lockable }
+Linked           = door4
+MaxState         = 2
+State            = 2
+Desc[0]          = "The door is open."
+Desc[1]          = "The door is closed."
+Desc[2]          = "The door is locked."
+End              = door3
+
+Name             = door4
+PName            = door
+Location         = IN_ROOM:origins40
+Oflags           { NoGet Openable Lockable }
+Linked           = door3
+MaxState         = 2
+State            = 2
+Desc[0]          = "The door is open."
+Desc[1]          = "The door is closed."
+Desc[2]          = "The door is locked."
+End              = door4
+
+Name             = note2
+PName            = note
+AltName          = letter
+Oflags           { NoGet }
+Location         = IN_ROOM:origins40
+Desc[0]          = "A neatly written note lies on a table."
+Examine          = "
+This note says:
+
+  'I had believed that you had dealt with the elves of
+   Rivendell sufficiently.  You have not taken care of their
+   new-found human hero Jon, however.  You must understand
+   that Jon is from my time, and is extremely dangerous.
+   Only by terminating these elves back in your time can I
+   hope to change the future and the fate of music!  All music
+   as we know it evolves from the music of these elves of
+   Rivendell!  They must be slain and their music slain with
+   them for the Red Star Federation to succeed!  Behind your
+   bookshelf, you will find a device which can take you to me
+   should the need arise.
+          --Father Brown, Head Priest of the Temples of Syrinx'"
+End              = note2
+
+Name             = bookshelf
+PName            = bookshelf
+AltName          = shelf
+Oflags           { NoGet PushToggle } 
+Location         = IN_ROOM:origins40
+State            = 1 
+MaxState         = 1 
+Desc[0]          = "A bookshelf appears to have been slid against the wall."
+Desc[1]          = "A bookshelf rests against the wall."
+End              = bookshelf
+
+Name             = disc
+PName            = disc
+Altname	= cylinder
+Oflags           { Destroyed Openable NoGet }
+Location         = IN_ROOM:origins40
+Size             = 100
+Weight           = 14 
+State		= 1
+Maxstate	 = 1
+Desc[1]          = "A large, metallic disc sits here."
+Examine          = "
+You see a large metallic disc, of about 2 feet in diameter, which shines with
+a lovely silver glow.  It appears that you can move it, with a little bit of 
+work."
+End              = disc
+
+Name		 = disc_1
+PName            = cylinder
+Linked	= cylinder_1
+Oflags		 { Destroyed NoGet }
+Maxstate	 = 1
+State	 	 = 0
+Location         = IN_ROOM:origins40
+Desc[0]          = "
+A large cylinder with a door raised a foot off the ground stands here."
+Examine		 = "
+This is a large cylinder, of about 2 feet diameter and 8 feet height.  It has 
+an open threshold leading into it, raised about 1.5 feet off the ground."
+End		 = disc_1
+
+Name = cylinder_1
+Pname	= door
+Linked  = disc_1
+Maxstate = 1
+State    = 0
+Oflags { Openable }
+Location = IN_ROOM:origins67
+Desc[0] = "There is an open door in the northern wall of the cylinder."
+Desc[1] = "The outline of a door appears in the northern wall of the cylinder."
+Examine = "It seems openable and closeable from this side only."
+End = cylinder_1
+
+Name             = temple_paper
+PName            = paper
+AltName          = temple
+Oflags           { NoGet }
+Location         = IN_ROOM:origins41
+Desc[0]          = "One Temple Paper floats down in front of you."
+Examine          = "
+The paper reads:
+ 
+               'TemplePaper, December 12, A.D. 2112
+
+REBEL LEADER JON KILLED TODAY IN FOREFRONT OF MUSICAL REVOLUTION!
+        Here, in Megadon, as well as under the atmospheric domes
+of the Outer Planets, we have had peace since the year 2062, when
+the surviving planets were banded together under the &+rRed Star&n of
+the Solar Federation.  The less fortunate gave us a few new
+moons.  Today, this fragile peace comes to an end as Father Brown
+and his forces end Jon's life.  
+        It was said that Jon uncovered a plot by Brown and the 
+priests of the Temples to ally with a being from the past to 
+prevent the evolution of music.  This way, the Temples' music 
+would remain unchallenged.  Jon's best disciple, Alex Lifeson,
+has vowed to avenge Jon's death...'"
+End              = temple_paper
+
+Name             = waterfall
+Oflags           { NoGet }
+Location         = IN_ROOM:origins44
+Linked           = waterfall_1
+State		 = 1
+MaxState	 = 1
+Desc[0]		 = "The water seems to have been parted, revealing a cavemouth."
+Desc[1]          = "The waterfall's waters run down in a strange pattern."
+End              = waterfall
+
+Name             = waterfall_1
+PName            = waterfall
+Oflags           { NoGet }
+Location         = IN_ROOM:origins45
+Linked           = waterfall
+State		 = 1
+MaxState	 = 1
+Desc[0]          = "The water seems to have been parted, revealing an exit."
+Desc[1]          = "The waterfall's waters run down in a strange pattern."
+End              = waterfall_1
+
+Name             = acoustic_guitar
+PName            = guitar
+AltName          = acoustic
+Oflags           { Armor Wearable Weapon }
+Aflags	{ Back }
+Location         = IN_ROOM:origins46
+BValue           = -100
+Size             = 11
+Weight           = 13
+Armor            = 28
+Damage           = 9
+Desc[0]          = "
+A beautiful, ancient, acoustic guitar lies here waiting to be played."
+Examine          = "
+This guitar is made of wood, and is meant to be placed on a stand.
+The words 'The Omega Concern' are engraved on it."
+End              = acoustic_guitar
+
+Name             = white_pass
+PName            = pass
+AltName          = white
+Oflags           { Wearable }
+Location         = WORN_BY:Brown
+BValue           = 300
+Size             = 4
+Weight           = 4
+Desc[0]          = "
+A &+Wwhite&n pass, allowing you into the Spaceport, has been carelessly left here!"
+End              = white_pass
+
+Name             = sunblade
+PName            = sunblade
+AltName          = sword
+Oflags           { Weapon Lit }
+Location         = WIELDED_BY:Brown
+BValue           = 1250
+Size             = 11
+Weight           = 11
+Damage           = 28
+Desc[0]          = "Balladar's &+Ysunblade&n is here, lighting up everything."
+Examine          = "
+This is a beautifully crafted weapon that shines as brightly as the sun.
+The name '&+GBalladar&n' is written on its hilt."
+End              = sunblade
+
+Name             = drumsticks
+PName            = drumsticks
+AltName          = sticks
+Oflags           { Weapon }
+Location         = WIELDED_BY:Peart
+BValue           = -100
+Size             = 9
+Weight           = 9
+Damage           = 11
+Desc[0]          = "
+Neil Peart's worn-out drumsticks sit here, waiting to be returned to the owner."
+End              = drumsticks
+
+Name             = love
+PName            = love
+AltName          = heart
+Oflags           { Wearable Container Openable }
+Location         = WORN_BY:Dionysus
+BValue           = 1000
+Size             = 20
+State            = 1
+MaxState         = 1
+Desc[0]          = "Your heart lies before you, open."
+Desc[1]          = "Your heart lies before you, closed."
+Examine          = "
+The essence of all love, your heart, rests within your hands."
+End              = love
+
+Name             = wisdom
+PName            = wisdom
+AltName          = mind
+Oflags           { Wearable Container Openable }
+Location         = WORN_BY:Apollo
+BValue           = 1000
+Size             = 20
+State            = 1
+MaxState         = 1
+Desc[0]          = "Your mind lies before you, open."
+Desc[1]          = "Your mind lies before you, closed."
+Examine          = "
+The essence of all wisdom, your mind, rests within your hands."
+End              = wisdom                            
+
+Name             = wooden_sign
+PName            = sign
+AltName          = wooden
+Oflags           { NoGet }
+Location         = IN_ROOM:origins66
+Desc[0]          = "A large, old wooden sign floats in the air with you."
+Examine          = "
+The sign reads:
+
+  'Origins Zone, a story of the origins of man and his music,
+   written by &+YBalladar the Bard&n in tribute to his art.
+
+   This zone is based in part on the lyrics by Neil Peart,
+   percussionist of Rush.
+
+   --Albums referenced:
+
+   Fly By Night        -- Rivendell (based on Tolkien)
+   Caress of Steel     -- The River Don, Willowdale,
+                          The Necromancer, Bacchus Plateau,
+                          The Fountain of Lamneth
+   2112                -- Megadon, The Temple of Syrinx,
+                          The Waterfall
+   A Farewell to Kings -- The Rocinante, constellations,
+                          Cygnus X-1
+   Hemispheres         -- entire Olympus area and origins
+                          concept'"
+End              = wooden_sign
+
+
+%locations
+
+origins1 n:origins2 w:sherwood2@sherwood;
+lflags { Outdoors TempReal NoMobiles }
+The Entrance to Rivendell^
+        You stand at the beginning of a fantastic forest,  whose very trees 
+seem to be as old as the earth they grow from.  Despite the density of the 
+foliage, the sunlight shines through nearly unobstructed.  The majesty of 
+these trees gives you a sense of smallness...
+        A well-worn path leads north into the forest.
+^
+origins2 n:origins3 s:origins1 e:origins4 w:origins5;
+lflags { Outdoors TempReal NoMobiles }
+Into Rivendell^
+        You walk deeper into the great forest, and your awe at the natural 
+splendor only increases.  It is obvious by now that sentient beings 
+definitely guard and cherish these woods.
+        The path continues in all directions from here.
+^
+origins3 n:origins6 s:origins2 e:origins4 w:origins3;
+lflags { Outdoors TempReal }
+Lost in the Forest^
+        You are lost among the giant firs, redwoods, and elms that surround 
+you on all fronts.  You can go in any direction.
+^
+origins4 n:origins5 s:origins4 e:origins4 w:origins3;
+lflags { Outdoors TempReal }
+Lost in the Forest^
+        You are lost among the giant firs, redwoods, and elms that surround 
+you on all fronts.  You can go in any direction.
+^
+origins5 n:origins4 s:origins5 e:origins3 w:origins5;
+lflags { Outdoors TempReal }
+Lost in the Forest^
+        You are lost among the giant firs, redwoods, and elms that surround 
+you on all fronts.  You can go in any direction.
+^
+origins6 n:origins4 s:origins5 e:origins7 w:origins4;
+lflags { Outdoors TempReal }
+Lost in the Forest^
+        You are lost among the giant firs, redwoods, and elms that surround 
+you on all fronts.  You can go in any direction.
+^
+
+origins7 n:origins4 s:origins5 e:origins8 w:origins4;
+lflags { Outdoors TempReal }
+Lost in the Forest^
+        You are lost among the giant firs, redwoods, and elms that surround 
+you on all fronts.  You can go in any direction.
+^
+
+origins8 n:origins5 s:origins9 e:origins3;  
+lflags { Outdoors TempReal }
+Lost in the Forest^
+        You are lost among the giant firs, redwoods, and elms that surround 
+you on all fronts.  You can go in any direction.
+^
+
+origins9 n:origins3 s:origins3 e:origins3 w:origins10;
+lflags { Outdoors TempReal }
+Lost in the Forest^
+        You are lost among the giant firs, redwoods, and elms that surround 
+you on all fronts.  You can go in any direction.
+^
+
+origins10 n:origins11 e:origins3;
+lflags { Outdoors TempReal }
+Rivendell City Gates^
+        You come to the gates of the beautiful Elven city of Rivendell.  They 
+are carved lovingly out of the wood that surrounds everything here.  Through 
+them, you can see the fabled elven town.  You doubt you've ever seen anything 
+this magnificent before.
+        The road leading north into the city has, however, fallen into severe 
+disrepair.
+^
+
+origins11 n:origins14 s:origins10 e:^door1 w:origins13;
+lflags { Outdoors TempReal NoMobiles }
+The City of Rivendell^
+        The marvel of this city's architecture only increases as your eyes 
+get closer to it.  The homes all about you are shaped, not built from the 
+wood of the trees, and are thus part of them.  Sunlight is captured 
+beautifully by a crystal arch spanning the entire city from your left to 
+right, and it is focused miraculously into one spot in the center of the city.
+        All around you are numerous elven dwellings.  Yet the city seems 
+oddly quiet for so large an area, and so merry a people...
+        You see numerous destroyed musical instruments littering the streets; 
+lyres with broken strings, recorders and flutes with shattered bodies, and 
+drums with broken heads.  There is a door to your right, leading to a large 
+elven home, and a large threshold to your left.  The city continues on to the 
+north.
+^
+
+origins12 w:^door2;
+lflags { }
+An Elven Dwelling^
+        You enter a modestly furnished elven home.  There are signs of a 
+recent battle here.  Furniture lies scattered about, and more destroyed 
+musical instruments can be found.
+^
+
+origins13 e:origins11;
+lflags { Party Peaceful }
+Elven Temple^
+        You enter the primary worship center of the Rivendell elves.  In 
+contrast to the rest of the city, this place is peaceful and submissive.  It 
+is not in disarray.  A single exit leads east back into the city.
+^
+origins14 n:origins15 s:origins11;
+lflags { Outdoors TempReal NoMobiles }
+The Center of the City^
+        You are standing directly beneath the beautiful arch.  The sunlight 
+shines down directly upon you, granting a soothing, relaxing feeling.
+        Due north, you see that a great black chasm has ripped the earth 
+apart from the westernmost position of the city to its easternmost.  It 
+appears to be very deep and dangerous to negotiate.
+^
+origins15;
+lflags { Outdoors Death }
+Inside the Chasm^
+        You enter the rough chasm and instantly lose your footing.  As you 
+fall, you wonder whether you will die by impact or by impalement on the sharp 
+rocks...
+^
+origins16 u:^bridge1;
+lflags { Outdoors CantSummon NoSummon }
+The Mountain in the East^
+        The light from the staff increases in magnitude until all you can see 
+is a blinding white light and all you can hear in your head are the words 
+'Draw towards the fountain'.
+        But soon the sound dies down and the light gives way to a most 
+soothing and pastoral scene.  You stand high atop a mountain, overlooking a 
+vast ocean to the west and a beautiful sylvan forest in all other directions.  
+The sheer natural beauty of this place, so pure and relaxing it is, has you 
+in a total state of relaxation.  From here, you can see the whole world it 
+seems, and you feel invincible, almost immortal...
+        Above you and slightly to the east, you hear the sounds of running 
+water, and a mysterious, sultry voice beckons to you.  "Come up," the voice 
+soothes.
+^
+origins17 d:^bridge2;
+lflags { Outdoors CantSummon NoSummon OnePerson }
+&+bThe &+BFountain &+bof &+RLamneth&n^
+        You follow the voice and come to a beautiful waterfall, which cascades 
+gently down the sides of the mountain.  The waterfall feeds a large, round 
+fountain, made of stone forged out of the very bowels of the mountain itself.  
+The water in the fountain is perfectly crystal clear, and seems to glow white.
+        The view here is even more spectacular than the one before, with the 
+fountain and waterfall only enhancing its marvel.  You want to stay here 
+forever...
+^
+origins18 n:origins19;
+lflags { Outdoors NegRegen Soundproof }
+The Road to Willowdale^
+        Fighting back to consciousness, coldness grips your skin.  It suddenly 
+becomes obvious to you that Panacea and Geddy Lee have sent you here for a 
+reason.  All around you, trees hang somberly about you, much resembling the 
+willowy trees of swamps.  You can't help but feel that the trees are watching 
+your every move, with misshapen and contorted faces of agony.
+        The road leads on into darkness to the north.
+^
+origins19 n:origins20 s:origins18;
+lflags { Outdoors NegRegen Soundproof}
+Narrowing Road^
+        The twisted road becomes more and more narrow here, and moving is 
+increasingly difficult.  The air is thicker still, and the comforting rays of 
+the sun are not to be found.
+        To the south is a slightly more comforting environment, and you dread 
+to walk further north, into the empty dreariness.
+^
+origins20 s:origins19 e:origins21;
+lflags { Outdoors NegRegen Soundproof}
+Nightmare Road^
+        The road you have been following ends abruptly here, but you might be 
+able to ford a river to your east.  You can also retrace the road back south.
+        You feel as if you are walking right into the heart of something 
+extremely evil.  You can't help but get that feeling of being watched.
+^
+origins21 w:origins20 e:origins22;
+lflags { Outdoors NegRegen Soundproof}
+The River Don^
+        You have reached the great River Don, the outermost boundary of the 
+lands of the Necromancer.  It appears impassable, save for a bridge that does
+not appear to be in very good condition.
+        You may retreat back west or ford the river to the east.
+^
+
+origins22 n:origins23 s:origins29 e:origins24 w:origins21;
+lflags { Outdoors Soundproof NoMobiles NegRegen Soundproof}
+Willowdale^
+        You reach the stricken village of Willowdale, and right away wish you 
+hadn't.  Cries of anguish from stricken mothers and children pervade the heavy 
+gloom.  Depression falls heavier than a thick mantle here.
+        There is not much to see, as all the homes and buildings have been 
+shattered.  The dreary path turns south towards a large castle, north into 
+hellish woods, east towards dead land, or offers passage to the west back 
+across the river.
+^
+
+origins23 s:origins22;
+lflags { Dark Outdoors Soundproof NegRegen Soundproof}
+The Forest Shadow^
+        You enter perhaps the most tortured and vile woods you ever seen.  You 
+can see the trees literally weeping blood, and not even one bird can be found.
+        The forest gets too thick to negotiate any further.  Your one option 
+is to return south whence you came.
+^
+
+origins24 w:origins22 u:origins25;
+lflags { Outdoors Soundproof NegRegen Soundproof}
+Lands Stripped Bare^
+        This area east of Willowdale must once have been where the inhabitants 
+of the city did their farming.  But now, the once rich and fertile earth has 
+been violently stripped of all semblance of fertility.  It reminds you of 
+deliberately washing salt into soil to make it infertile, only this is far 
+worse.
+        In front of you is a small mountain which appears to have some 
+greenery growing on it, and doesn't appear difficult to climb.  You may 
+retreat back west to Willowdale, or climb the small mountain.
+        The very life essence of the area is gone, leaving a cold, hard, empty 
+shell.  Clothes may warm the body, but they do not warm the soul...
+^
+
+origins25 u:origins26 d:origins24;
+lflags { Outdoors Soundproof NegRegen }
+Small Mountain^
+        You climb until you reach a thick veil of mist.  You can try to brave 
+the mist or head back down.
+^
+
+origins26 u:origins27 d:origins25;
+lflags { Outdoors Soundproof NegRegen }
+The Veil of Mist^
+        The mist surrounds you on all sides.
+^
+
+origins27 u:origins28 d:origins26;
+lflags { Outdoors Soundproof NegRegen }
+Uuuuh, uh-oh...^
+        The mist here is thicker and seems to be choking the very life out of 
+you!
+^
+
+origins28 d:origins27;
+lflags { Outdoors }
+Bacchus Plateau^
+        After what feels like hours of climbing, you break through the foul 
+mist.  Sunlight beams down upon you, then continues down to be swallowed by 
+the mist. From this vantage, you could have seen everything, were it not for 
+that mist, which functions as a jealous blanket for the ground below.
+        Here, however, it seems that the parasitic power of the Necromancer 
+has no effect...
+^
+
+origins29 n:origins22 s:origins30;
+lflags { Outdoors Soundproof NegRegen }
+The Lands of the Necromancer^
+        As grey traces of dawn tinge the eastern sky, you emerge from the 
+forest shadow, ford the River Don, and leave the trodden town of Willowdale.
+        You turn south, journeying into the dark and forbidding lands of the 
+Necromancer.  Even now, the intensity of his dread power can be felt, 
+weakening the body and saddening the heart.
+        You reflect upon the empty, mindless spectres, stripped of will and 
+soul.  Only your thirst to aid the elves of Rivendell gives you hunger for 
+vengeance...
+^
+
+origins30 n:origins29 s:origins31;
+lflags { Outdoors Soundproof NegRegen }
+Entrance to the Castle^
+        You reach the main gates of the castle.  Looking up, you see the tops 
+of the towers reach high into the mist, like black spires twisting their way 
+through your flesh.  The gates themselves seem deadly -- totally blackened and 
+misshapen.
+        You can continue on through the open threshold (there might have once 
+been a door here), or you can wisely return north towards Willowdale.
+^
+
+origins31 n:origins30 s:origins33 w:origins32;
+lflags { Dark Soundproof NegRegen }
+Inside the Castle^
+        You continue southward, undaunted by the fear which grips your skin 
+and chills you to the bone.  This room is a simple, square affair, void of 
+items or furniture, with exits to the south and west.  Optionally, you can 
+exit the castle to the north of here.
+^
+
+origins32 e:origins31;
+lflags { Dark Soundproof NegRegen }
+Castle Kitchens^
+        This large room was once the kitchen for the entire castle.  But due 
+to the current horrific, undead state of its inhabitants, this room has fallen 
+into neglect.
+        There doesn't appear to be anything here but old kitchenware.  The 
+single exit is back east.
+^
+
+origins33 n:origins31 s:origins38 e:origins34 w:origins35;
+lflags { Outdoors Soundproof NegRegen }
+Castle Courtyard^
+        You enter a large, open, square area, obviously the courtyard of the 
+castle.  The usual plant life that dominates the courtyards of most castles is 
+not to be found here.  A flight of stairs lies to the south, while towers lie 
+to the east and west.
+^
+
+origins34 w:origins33 u:origins36;
+lflags { Dark Soundproof NegRegen }
+Base of the Tower^
+        You arrive at the base of one of the great towers which dominate the 
+castle's exterior.  The walls of the tower are covered with moss and and 
+decay, and a vile stench pervades the air.
+        You may climb the stairs to the top or return to the courtyard.
+^
+
+origins35 e:origins33 u:origins37;
+lflags { Dark Soundproof NegRegen }
+Base of the Tower^
+        You arrive at the base of one of the great towers which dominate the 
+castle's exterior.  The walls of the tower are covered with moss and and 
+decay, and a vile stench pervades the air.
+        You may climb the stairs to the top or return to the courtyard.
+^
+
+origins36 d:origins34;
+lflags { Outdoors Soundproof NegRegen }
+Top of the Tower^
+        You climb the stairs to the top of the tower.  From this vantage, you 
+can see the courtyard below, and most of the lands that the castle overlooks 
+outdoors.  The one option is to return down the stairs.
+^
+
+origins37 d:origins35;
+lflags { Outdoors Soundproof NegRegen }
+Top of the Tower^
+        You climb the stairs to the top of the tower.  From this vantage, you 
+can see the courtyard below, and most of the lands that the castle overlooks 
+outdoors.  The one option is to return down the stairs.
+^
+
+origins38 n:origins33 u:origins39;
+lflags { Dark Soundproof NegRegen }
+The Foot of the Stairs^
+        You exit the courtyard and reach the foot of a long flight of steps 
+that seems to reach up forever.  You seem to perceive some movement at the top 
+of the stairs, but cannot from this distance ascertain exactly what it is.
+        You may climb the steps or return north to the courtyard.
+^
+
+origins39 s:^door3 d:origins38;
+lflags { Dark Soundproof NegRegen }
+The Top of the Stairs^
+        You climb the long flight of steps, heading toward the zenith, and the 
+climb is a long and tedious one.  The stairs squeak loudly as you tread upon 
+them.  You pray that the fragile stairs don't crumble underneath your feet.  
+As you reach the top, you see a door.  Optionally, you may head back down the 
+stairs.
+^
+
+origins40 n:^door4 s:^disc_1;
+lflags { Dark Soundproof NegRegen }
+The Necromancer's Room^
+        You enter a small chamber, filled to the brim with test tubes, 
+distillation tubes, decanters, flasks, and various other equipment an evil, 
+dark mage would have.  Numerous volumes of the "Arcanum Magicana Disciplina," 
+penned by the greatest Dark Mage, the legendary &+LSuraklin&n himself, rest on 
+the bookshelf.  You stare in abject horror; how could one live for so long in 
+such a small room, with so little remaining space? But the answer to that is 
+painfully obvious: the Necromancer stopped 'living' in days long since past...
+^
+origins41 n:origins47 s:origins48 e:origins42 w:origins43;
+lflags { NoMagic Soundproof Cantsummon Nosummon }
+Megadon^
+        You lie awake, staring out at the bleakness of Megadon.  City and sky 
+become one, a vast sea of unbroken grey.  The Twin Moons, just two pale orbs 
+as they trace their way across the sky.  You see various people 'plugging' 
+into their machines, and carrying Temple Papers.
+        From here, you may choose to walk in any direction.  To the north lie
+clearly the most important buildings here; huge, metallic structures which form
+a small town of their own and easily dominates the view for miles.  To the
+south lies the spaceport, where large vehicles capable of flight arrive and
+depart regularly.  To the east is another large edifice, and people are
+bustling in and out of there hurriedly.  Finally, to the west, is the single
+place of residence you can recognize.  It reminds you of familiar houses at
+home, except that it is made of metal.
+^
+
+origins42 w:origins41;
+lflags { NoMagic Soundproof Cantsummon Nosummon}
+TempleVision^
+        Upon entering this room, you feel like you are going to faint, due to 
+the plethora of bright lights and noise.  The source of most of the light is 
+row upon row upon row of large screens, to which many people are attached.  
+The images seem quite amorphous to you, but the people using them probably see
+a whole new world...
+        A single western exit heads back out to Megadon.
+^
+
+origins43 n:origins44 e:origins41;
+lflags { NoMagic Soundproof Cantsummon Nosummon}
+The Only House in Sight^
+        You come upon a small, metallic, domed shelter, that appears as bleak 
+as the entire area you are in.  There is no concept of a 'yard' here, it would 
+seem.  However, though you cannot find any place to enter the house, you do 
+hear the actual sounds of running water to your north!  It is also possible to
+return east to Megadon.
+^
+origins44 n:^waterfall s:origins43;
+lflags { Peaceful Party Private NoMagic Soundproof Cantsummon Nosummon}
+The Waterfall^
+        Lo and behold!  Despite the total lack of organic material in all of 
+Megadon, you have arrived at a beautiful waterfall, which gently cascades down 
+the side of a tiny stone mountain into a small reservoir built for the purpose 
+of holding the precious water.
+        The road leads back south towards the house.
+^
+origins45 s:^waterfall_1 d:origins46;
+lflags { Dark Peaceful Party Private NoMagic Soundproof Cantsummon Nosummon}
+The Cave^
+        You walk underneath the waterfall and enter a small cave.  The 
+interior of the cave contains a bed, a table, and other small living 
+essentials.  It is otherwise void of anything else.  The walls here are actual 
+stone, not metal.
+        The cave's exit is to the south, and at the far corner of the 
+interior, you spot a flight of steps.
+^
+
+origins46 u:origins45;
+lflags { Dark Peaceful Party Private NoMagic Soundproof Cantsummon Nosummon}
+Small Room^
+        You climb down the small steps, into an even smaller room.  However, 
+this room is carpeted, well-furnished, and very pleasant smelling.
+^
+
+origins47 s:origins41;
+lflags { NoMagic Soundproof Cantsummon Nosummon}
+&+BThe Temples of &+CSyrinx&n^
+        Upon first entering these buildings, the bleakness of the walls, all 
+metallic grey, seem monotonous and foreboding.  But upon further and closer 
+examination, you see that they pulse with life!!  Electronic signals and lights
+of origin unknown convey a deep sense of mystery.  In its own way, the
+machinery of these rooms is alive; electronic impulses are its language and
+electricity is its oxygen...
+        You get the feeling that the Temples and the things within them are
+as old as time itself, though nothing within has ever been seen before.  As
+you approach the largest of the buildings, you realize that it is probably the
+central edifice of the group of Temples here -- a seat for the "town's"
+government.  You enter the only room available, which seems to be the largest
+as well, and from its atmosphere, the most important.
+        Three elaborate thrones dominate the center of the room, raised on a
+dias.  On the lowest step of the dias is written "&+GElder Race&n".  On each of
+the three thrones is a single word, beautifully rendered in flowing script. The
+left throne says "&+rRed Star&n", the right one "&+RSolar Federation&n" and the 
+central throne reads "&+CSYRINX&n".  There are a myriad of computers, monitors, 
+and sound equipment all over the room, all in perfect order.  On the floor in 
+the very center, right below the dias, is a pentagram inscribed within a 
+circle, all in red.  The topmost point of the pentagram points directly to the 
+central throne.
+^
+
+origins48 n:origins41 s:origins49;
+lflags { NoMagic Soundproof Cantsummon Nosummon}
+Entrance to the Spaceport^
+        You come to a large compound, almost as large as the Temple of Syrinx, 
+filled with large objects that fly without effort.  You have never seen such 
+wonder.  You are still too far outside the Spaceport to see any more detail.
+        You may return north to Megadon or enter the Spaceport to the south.
+^
+origins49 n:origins48 u:origins50;
+lflags { Peaceful NoMobiles NoMagic Soundproof Cantsummon Nosummon}
+The Spaceport^
+        You enter the heart of the great Spaceport, and come face to face with 
+the large flying objects, which you overhear the people refer to as 
+'spaceships'.  Many people embark and disembark from these ships before your 
+eyes.
+        Most of the ships are huge, but one particularly small one dubbed 
+"The Rocinante" catches your eye.  There is a man at that ship, who gestures 
+for you to go see him.  It would also be possible for you to head back up 
+north toward Megadon.
+^
+
+origins50 u:origins51 d:origins49;
+lflags { Peaceful NoMagic Soundproof Cantsummon Nosummon}
+Inside the Rocinante^
+        You follow the man, and climb up into the ship.  Before your eyes are 
+huge panels on all four walls, filled with buttons and lights you don't 
+understand.
+        The entire interior of the ship humms slightly, and you can feel these 
+subtle vibrations.  They tickle you.
+        The man seems to understand your need to get home.  You have one last 
+chance to go back down, or you may press forward and follow his lead.
+^
+origins51 u:origins52;
+lflags { NoMagic Soundproof Cantsummon Nosummon}
+Takeoff!^
+        The ship starts to move slightly, and the slight hum you heard 
+increases in intensity to nearly intolerable levels!  The ship suddenly 
+lurches upward, and you feel like you are going to be sick.  Your ears pop, 
+your vision blurrs, and you feel faint.  But you know that there is no turning 
+back now.
+        As soon as the dome of the planet is cleared, you begin to feel 
+accustomed to the travel.  Through the windows, you can see the very stars you 
+saw at night back home.
+        Meanwhile, brave Neil Peart tells you a story:
+"&+WIn the constellation of Cygnus, there lurks a mysterious,
+ &+Winvisible force; the Black Hole of Cygnus X-1.  Six stars of the
+ &+WNorthern Cross, in mourning for their sister's loss, in a final
+ &+Wflash of glory, nevermore to grace the night...&n"
+^
+origins52 e:origins53;
+lflags { NoMagic Soundproof Cantsummon Nosummon}
+Constellation Lyra^
+        You set a course just east of Lyra...
+^
+
+origins53 n:origins54;
+lflags { NoMagic Soundproof Cantsummon Nosummon}
+Constellation Pegasus^
+        ...and northwest of Pegasus...
+^
+
+origins54 e:origins55;
+lflags { NoMagic Soundproof Cantsummon Nosummon}
+Constellation Deneb^
+        ...Flew into the light of Deneb, sailed across the Milky Way...
+^
+
+origins55 s:origins56;
+lflags { NoMagic Soundproof Cantsummon Nosummon}
+Across the Milky Way^
+        ...On your ship, the Rocinante, spinning through the galaxies.  
+Headed for...
+^
+
+origins56 d:origins57;
+lflags { NoMagic Soundproof Cantsummon Nosummon}
+The Heart of Cygnus^
+        ...headlong into mystery!  The x-ray is her siren song, your ship 
+cannot resist her long, nearer to your deadly goal, until...
+^
+
+origins57 d:origins58;
+lflags { NoMagic Soundproof Cantsummon Nosummon}
+The Black Hole Gains Control!^
+        Spinning, whirling, still descending, like a spiral sea unending!  
+Sound and fury drown your heart, 
+     EVERY NERVE IS TORN APART!!!!.........................................
+^
+
+origins58 d:origins59;
+lflags { NoMagic Soundproof Cantsummon Nosummon}
+The Bridge of Death^
+        You feel as if your very life force has been torn from your body.
+
+&+B-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+&+C                  ...Death grips you painfully...
+
+&+B-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Connection closed by...wait!
+
+You have memory, and awareness,
+But you have no shape or form;
+As a disembodied spirit,
+You are dead, and yet unborn...
+
+You have passed into Olympus,
+As was told in tales of old;
+To the City of Immortals,
+Marble &+wwhite,&n and purest &+Ygold...&n
+^
+
+origins59 n:origins60;
+lflags { Outdoors }
+Wide Marble Road^
+        You wake up, your bones feeling like jelly and your heart beating a 
+mile a minute.  You look around for your brave captain Neil Peart, but he is 
+nowhere to be found...
+        The road you stand on is very wide, and directly ahead of you, yet 
+miles away still, is a very, very large mountain.  You can follow this road 
+north only, but for many miles.
+^
+
+origins60 n:origins63 s:origins59 e:origins61 w:origins62;
+lflags { Outdoors }
+The City of Immortals^
+        After many an hour of tiresome marching, you come upon a large, 
+beautiful city.  The road is indeed marble white, and the buildings are purest 
+gold.  The mountain is closer than ever now, and its peak is hidden in wispy, 
+fluffy, white clouds.
+        But what distracts your attention from all this beauty is the scores 
+upon scores of dead bodies of all races, which line the road and the rest of 
+the City.
+        You may now turn left, to an area of the City marked as 'Apollo's 
+Hemisphere', turn right to another division marked 'Dionysus's Hemisphere,' 
+or continue north to the base of the great mountain.
+^
+
+origins61 w:origins60;
+lflags { Outdoors }
+Dionysus's Hemisphere^
+        You enter a large, forested area of the City, where naked beings of 
+all races frolick about, care-free and worry-free.  Many dead bodies lay 
+about, among them both naked ones and well-equipped ones.  The naked dead ones 
+appear to have fallen victim to starvation, cold, and wolves, while a few 
+have apparently been killed by weapons from the well-equipped beings.  The 
+well-equipped bodies have obviously been slain by primitive tools and weapons.
+        A single path leads west back to the City.
+^
+origins62 e:origins60;
+lflags { Outdoors }
+Apollo's Hemisphere^
+        This area of the city is bare of all trees.  On the contrary, the 
+edifices here are well-built and offer excellent shelter.  Many dead bodies 
+lay about, among them both naked ones and well-equipped ones.  The naked ones 
+have apparently been killed by weapons from the well-equipped beings.  
+The well-equipped bodies have obviously been slain by primitive tools and 
+weapons.  There is but a single living being here.
+        A lonely, blood-stricken road leads east into the City.
+^
+origins63 n:origins64 s:origins60 u:origins65;
+lflags { Outdoors }
+Base of Olympus^
+        You now stand at the base of the incredible mountain, and you realize 
+that a mere mortal like yourself could never effect such a climb without
+special aid.  You can instead head north into the mountain, or back south the 
+way you came.
+^
+origins64 s:origins63;
+lflags { Dark }
+Inside Olympus^
+        You walk forward, entering the huge mountain.  It is but a small, 
+hollowed-out area within the mountain, designed for the purpose of holding a 
+beast.
+^
+origins65 d:origins63;
+lflags { Outdoors CantSummon NoSummon Party Peaceful }
+Mount Olympus^
+        You have arrived at the home of the Gods themselves.  Here is the 
+place where the Immortals live, untouched by the petty, trivial grievances of 
+mere mortals.  You can see the whole world from this awesome vantage. You are 
+indeed invincible here.  All that you could ever hope for can be found, and 
+even then there is some left over...
+        You look down from Olympus on a world of doubt and fear.  Its surface 
+is splintered into sorry hemispheres.  But suddenly, the very elven music you 
+helped save issues forth from your love and wisdom.  The chaos below ceases, 
+and the people stop fighting, somehow awestruck by its beauty.  
+        Apollo and Dionysus turn to you and say '&+WWe shall call you Cygnus, 
+&+gthe Bringer of &+GBalance!&+W  We now see that only through a balance of both Truth 
+&+Wand Love can the miracle of life succeed.  And this beautiful music is its 
+&+Wbackbone...  Now, dear Bringer of Balance, if you wish to leave us, simply 
+&+Wcast away your fears and jump.&n'
+^
+origins66 d:temple@start;
+lflags { Outdoors TempReal Peaceful }
+A Farewell to Things^
+        You jump off of the zenith, and suddenly find yourself floating down 
+gently in midair.  You lose all sense of time or place, and enjoy the most 
+wonderful feeling you have ever experienced.
+        As you feather-fall down to the Temple of Paradise, you see three 
+faces in front of you.  To the left is the stern and solid face of Apollo, 
+Bringer of Wisdom.  To the right is the beautiful and kind visage of the 
+Bringer of Love, Dionysus.  And in the center is Cygnus, God of Balance.  
+They all sing beautifully in unison to you:
+
+"&+WWe can walk our road together
+ &+WIf our goals are all the same
+ &+WWe can run alone and free
+ &+WIf we pursue a different aim;
+ &+WLet the truth of Love be lighted
+ &+WLet the love of Truth shine clear
+ &+WSensibilty
+ &+WArmed with sense and liberty
+ &+WWith the Heart and Mind united
+ &+WIn a single, perfect Sphere...&n"
+^
+
+origins67 n:^cylinder_1;
+lflags { OnePerson }
+Inside the Cylinder^
+        You step into the giant cylinder, which is just as metallic and plain
+here on the inside as it appeared on the outside.  The glow here persists, but
+strangely enough, it doesn't provide any illumination.
+^

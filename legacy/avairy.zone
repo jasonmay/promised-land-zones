@@ -1,0 +1,1153 @@
+
+
+
+
+%mobiles
+
+Name           = parrot
+Pname          = "The WiZe ParrOt"
+Location       = cave2
+Pflags        { NoHassle }
+Speed          = 0
+Strength       = 1000
+Damage         = 10
+Armor          = 100
+Aggression     = 0
+Description    = "
+The WiZe Parr0t stand here with a straw cane."
+End            = parrot
+
+Name           = swan
+Pname          = "The Swan Princess"
+Location       = tower
+Pflags        { NoHassle }
+Speed          = 0
+Strength       = 1000
+Damage         = 10
+Armor          = 100
+Aggression     = 0
+Description    = "The Swan Princess looks at you thankfully."
+Examine	       = "
+This is Odoette, the princess of the Avairy Kingdom.  She was turned into a
+swan by the evil sorceror Rothbart after he tried to force her into a marriage
+with him.  Now the only thing that can break the spell is that a handsome
+prince expresses his undivided love to her."
+End            = swan
+
+Name     = Rothbart
+Location = castle27
+Mflags   { BarEast }
+Eflags   { Fireball NegFireball BHands NegBhands Missile NegMissile Mute }
+Speed	 = 0
+Strength = 600
+Damage   = 20
+Aggression  = 99
+Description = "The evil sorceror Rothbart wonders who the stool pigeon was that ratted him 
+out.  Now he has to totally anniliate you."
+Examine  = "
+How does one evil sorceror take over a kingdom?  By kidnapping the king's
+daughter and force her to marry him.  And if she refuses, turn her into a
+swan, along with all the other madiens and damsels of the kingdom.  He was
+expecting Prince Siegfried to attempt a rescue, but is surprised you're here.
+No matter, he will do anything to prevent you from saving the Swan Princess.
+"
+End = Rothbart
+
+Name           = pigeon
+Pname          = "The Stage Pigeon"
+Location       = castle26
+Pflags        { NoHassle }
+Speed          = 0
+Strength       = 1000
+Damage         = 10
+Armor          = 100
+Aggression     = 0
+Description    = "The castle pigeon walks back and forth looking for worms."
+Examine	= "Maybe he can be made into a stool pigeon..."
+End            = pigeon
+
+Name           = crow1
+Pname          = "Crow"
+Location       = jungle5
+Mflags	{ Flyer }
+Speed          = 1
+Strength       = 150
+Damage         = 10
+Armor          = 0
+Aggression     = 20
+Description    = "
+A crow flies through the trees above."
+End            = crow1
+
+Name           = crow2
+Pname          = "Crow"
+Location       = jungle4
+Mflags  { Flyer }
+Speed          = 1
+Strength       = 150
+Damage         = 10
+Armor          = 0
+Aggression     = 20
+Description    = "
+A crow flies through the trees above."
+End            = crow2
+
+Name           = crow3
+Pname          = "Crow"
+Location       = jungle11
+Mflags  { Flyer }
+Speed          = 1
+Strength       = 150
+Damage         = 10
+Armor          = 0
+Aggression     = 20
+Description    = "
+A crow flies through the trees above."
+End            = crow3
+
+Name           = crow4
+Pname          = "Crow"
+Location       = jungle11
+Mflags  { Flyer }
+Speed          = 1
+Strength       = 150
+Damage         = 10
+Armor          = 0
+Aggression     = 20
+Description    = "
+A crow flies through the trees above."
+End            = crow4
+
+Name           = vulture
+Pname          = "Vulture"
+Location       = jungle1
+Speed          = 1
+Mflags  { Flyer }
+Strength       = 150
+Damage         = 10
+Armor          = 0
+Aggression     = 20
+Description    = "
+A large vulture flies through the trees above."
+End            = vulture
+
+Name           = vulture2
+Pname          = "Vulture"
+Location       = jungle3
+Speed          = 1
+Mflags  { Flyer }
+Strength       = 150
+Damage         = 10
+Armor          = 0
+Aggression     = 20
+Description    = "
+A large vulture flies through the trees above."
+End            = vulture2
+
+Name           = crab1
+Pname          = "Crabbie"
+Location       = shore10
+Speed          = 0
+Strength       = 150
+Damage         = 7
+Armor          = 4
+Aggression     = 20
+Description    = "
+An abnormally large crab tries to grab you."
+End            = crab1
+
+Name           = crab2
+Pname          = "Crabbie"
+Location       = shore15
+Speed          = 0
+Strength       = 150
+Damage         = 7
+Armor          = 4
+Aggression     = 20
+Description    = "
+An abnormally large crab tries to grab you."
+End            = crab2
+
+Name           = crab3
+Pname          = "Crabbie"
+Location       = shore5
+Speed          = 0
+Strength       = 150
+Description    = "
+An abnormally large crab tries to grab you."
+End            = crab3
+
+Name           = chef
+Pname          = "Cooking Bird"
+Location       = castle6
+Speed          = 0
+Mflags  { Flyer }
+Strength       = 400
+Damage         = 7
+Armor          = 2
+Aggression     = 10
+Description    = "
+The cooking bird is chopping up some steamed words."
+End            = chef
+
+Name           = humming1
+Pname          = "Humming Bird"
+Location       = castle2
+Speed          = 1
+Mflags  { Flyer }
+Strength       = 300
+Damage         = 8
+Armor          = 0
+Aggression     = 15
+Description    = "
+A humming bird guard buzzes busily."
+End            = humming1
+
+Name           = humming2
+Pname          = "Humming Bird"
+Location       = castle2
+Speed          = 1
+Mflags  { Flyer }
+Strength       = 300
+Damage         = 8
+Armor          = 0
+Aggression     = 15
+Description    = "
+A humming bird guard buzzes busily."
+End            = humming2
+
+Name           = humming3
+Pname          = "Humming Bird"
+Location       = castle17
+Speed          = 1
+Mflags  { Flyer }
+Strength       = 300
+Damage         = 8
+Armor          = 0
+Aggression     = 15
+Description    = "
+A humming bird guard buzzes busily."
+End            = humming3
+
+Name           = humming4
+Pname          = "Humming Bird"
+Location       = castle13
+Speed          = 1
+Mflags  { Flyer }
+Strength       = 300
+Damage         = 8
+Armor          = 0
+Aggression     = 15
+Description    = "
+A humming bird guard buzzes busily."
+End            = humming4
+
+Name           = humming5
+Pname          = "Humming Bird"
+Location       = castle20
+Speed          = 1
+Mflags  { Flyer }
+Strength       = 300
+Damage         = 8
+Armor          = 0
+Aggression     = 15
+Description    = "
+A humming bird guard buzzes busily."
+End            = humming5
+
+Name           = humming6
+Pname          = "Humming Bird"
+Location       = castle10
+Speed          = 1
+Mflags  { Flyer }
+Strength       = 300
+Damage         = 8
+Armor          = 0
+Aggression     = 15
+Description    = "
+A humming bird guard buzzes busily."
+End            = humming6
+
+Name 	   = blackswan
+Pname 	   = "The Black Swan"
+Location   = pond1
+Speed	   = 0
+Strength   = 200
+Damage     = 10
+Aggression = 0
+Mflags  { BarWest }
+Sflags  { Female }
+Description = "A black swan stands here trying to seduce you."
+Examine     = "
+Is this the Swan Princess?  No way...swans aren't naturally all black.  This
+one appears to be trying to get you to pledge your undivided love to her.
+She must be the daughter of that evil Rothbart in the form of a swan."
+End	   = blackswan
+
+%objects
+
+Name           = cabinet
+PName          = cabinet
+Location       = IN_ROOM:fall1
+Oflags         { Openable Container NoGet }
+MaxState       = 1
+State          = 1
+BValue         = 0
+Desc[0]        = "An old wooden cabinet has been left open."
+Desc[1]        = "An old wooden cabinet sit on a counter, closed."
+Examine = "Maybe it has stuff in there?"
+End            = cabinet
+
+Name           = worm_cage
+PName          = cage
+Location       = IN_ROOM:castle7
+Oflags         { Openable Container NoGet }
+MaxState       = 1
+State          = 1
+BValue         = 0
+Desc[0]        = "A small worm cage has been left open."
+Desc[1]        = "A small worm cage sits on a table, closed."
+Examine = "Alas, most of the worms have slipped through the bars."
+End            = worm_cage
+
+Name           = worm
+PName          = worm
+Location       = IN_CONTAINER:worm_cage
+Oflags         { }
+MaxState       = 0
+State          = 0
+BValue         = 100
+Size	       = 4
+Weight         = 5
+Desc[0]        = "A small worm wiggles here."
+End            = worm
+
+Name           = knife
+PName          = knife
+Location       = WIELDED_BY:chef
+Oflags         { Weapon }
+MaxState       = 0
+State          = 0
+Damage         = 12
+BValue         = 300
+Size	       = 4
+Weight         = 5
+Desc[0]        = "A chopping knife has been left here."
+End            = knife
+
+Name    = lava_pit
+Pname   = lava
+Location = IN_ROOM:shore10
+Oflags  { NoGet Lit }
+Desc[0] = "A lava pit spits hot lava and flames here."
+Examine = "Thankfully this is just a minor crack, instead of a major volcano."
+End            = lava_pit
+
+Name           = driftwood
+PName          = driftwood
+Location       = IN_ROOM:shore13
+Oflags         { Lightable GetFlips }
+MaxState       = 1
+State          = 1
+BValue         = 0
+Size 		= 4
+Weight 		= 2
+Desc[0]        = "A sizeable piece of driftwood has been left here."
+Desc[1]        = "A sizeable piece of driftwood has washed ashore here."
+End            = driftwood
+
+Name           = panel
+PName          = panel
+Altname = paneling
+Location       = IN_ROOM:fall1
+Oflags         { NoGet }
+MaxState       = 1
+State          = 1
+BValue         = 0
+Desc[0]        = "A piece of panel has been broken through allowing passage west."
+Examine = "Looks like it wouldn't take much to smash through it."
+End            = panel
+
+Name           = axe
+PName          = GoldenAxe
+Location       = IN_ROOM:fall2
+Oflags         { Weapon Glowing GetFlips }
+MaxState       = 1
+State          = 1
+Damage	       = 21
+BValue         = 400
+Size		= 10
+Weight		= 15
+Desc[0]        = "A stunning golden axe has been discarded here."
+Desc[1]        = "A brilliantly shining golden axe hangs on the wall."
+End            = axe
+
+Name           = dirt
+PName          = dirt
+Location       = IN_ROOM:cave1
+Oflags         { NoGet }
+MaxState       = 1
+State          = 1
+BValue         = 0
+Desc[0]        = "Some dirt has been dug up here."
+Desc[1]        = "A pile of dirt looks like it was just used to cover something up."
+End            = dirt
+
+Name           = shirt
+PName          = steelshirt
+Location       = IN_ROOM:cave1
+Oflags         { Armor Wearable Destroyed }
+Aflags { Chest Back }
+Armor          = 39
+MaxState       = 1
+State          = 1
+BValue         = 100
+Desc[0]        = "A dirty steel shirt has been left here."
+Desc[1]        = "A steel shirt has just been dug up."
+End            = shirt
+
+Name           = ladder
+PName          = ladder
+Location       = IN_ROOM:build1
+Oflags         { NoGet Destroyed }
+MaxState       = 1
+State          = 1
+BValue         = 0
+Desc[0]        = "An old wooden ladder has been left here."
+Desc[1]        = "An old wooden ladder sits in the fireplace."
+End            = ladder
+
+Name           = steak
+PName          = steak
+Location       = IN_ROOM:cave1
+Oflags         { Food }
+MaxState       = 0
+State          = 0
+Size		= 1
+Weight		= 2
+BValue         = 25
+Desc[0]        = "A piece of steak lies here."
+End            = steak
+
+Name           = beans
+PName          = beans
+Location       = IN_ROOM:build1
+Oflags         { GetFlips Food }
+MaxState       = 0
+State          = 0
+Size		= 1
+Weight		= 2
+BValue         = 25
+Desc[0]        = "A bowl of beans has been left here."
+Desc[1]        = "A bowl of beans sits on the stove."
+End            = beans
+
+Name           = banana
+PName          = banana
+Location       = IN_ROOM:jungle5
+Oflags         { Food }
+MaxState       = 0
+State          = 0
+Size		= 1
+Weight		= 2
+BValue         = 20
+Desc[0]        = "A fallen banana lies here."
+End            = banana
+
+Name           = fireplace
+PName          = fireplace
+Location       = IN_ROOM:build1
+Oflags         { Container NoGet }
+MaxState       = 0
+BValue         = 0
+Examine        = "The old fireplace hasn't been used in years."
+End            = fireplace
+
+Name           = bed
+PName          = bed
+Location       = IN_ROOM:build1
+Oflags         { NoGet }
+MaxState       = 0
+BValue         = 0
+Desc[1]        = "There appears to be some type of book on the bed."
+End            = bed
+
+Name           = diary
+PName          = diary
+Location       = IN_ROOM:build1
+Oflags         { Destroyed}
+MaxState       = 0
+BValue         = 0
+Desc[0]        = "An old diary has been left here."
+Examine		= "
+You skim the diary and pick out some starred passages:
+ *  Wize parrot by the shore is securing ride to castle.
+ *  Only have one cracker left.
+ *  Pigeon under stage knows where Swan Princess is being held.
+ *  Need worms to get info from Pigeon.
+"
+End            = diary
+
+Name           = cracker
+PName          = cracker
+Location       = IN_CONTAINER:cabinet
+Oflags         { Food }
+MaxState       = 0
+BValue         = 10
+Size           = 1
+Weight         = 2
+Desc[0]        = "A cracker has been left here."
+End            = cracker
+
+Name           = umbrella
+PName          = umbrella
+Location       = IN_ROOM:jungle5
+Oflags         { Openable }
+MaxState       = 1
+State          = 1
+BValue         = 20
+Size           = 1
+Weight         = 2
+Desc[0]        = "An umbrella lies here, closed."
+Desc[1]        = "An umbrella lies here, opened."
+End            = umbrella
+
+Name           = bird
+PName          = bird
+Location       = IN_ROOM:build2
+Oflags         { NoGet }
+MaxState       = 1
+State	       = 1
+Size           = 1
+Weight         = 2
+Desc[0]        = "A large golden bird has kneeled for you to sit."
+Desc[1]        = "A very large golden bird is pirched here."
+End            = bird
+
+Name           = swan_obj
+PName          = chains
+Altname        = Princess
+Location       = IN_ROOM:castle28
+Oflags         { NoGet }
+MaxState       = 0
+State	       = 0
+BValue         = 100
+Size           = 1
+Weight         = 2
+Desc[0]        = "The Swan Princess is here, bound by magical chains."
+Examine        = "Hmmm...how will these chains come off?"
+End            = swan_obj
+
+Name           = harness
+PName          = harness
+Location       = IN_ROOM:limbo@limbo
+Oflags         { }
+MaxState       = 0
+BValue         = 100
+Size           = 1
+Weight         = 2
+Desc[0]        = "
+A golden harness has been left here."
+End            = harness
+
+Name           = gold_egg
+PName          = GoldEgg
+Location       = IN_ROOM:tree1
+Oflags         {  }
+MaxState       = 1
+State 	       = 1
+BValue         = 100
+Size           = 1
+Weight         = 2
+Desc[0]        = "
+A golden egg has been left here."
+Desc[1]        = "
+A golden egg sits here in a nest."
+End            = gold_egg
+
+Name           = traptop
+PName          = trapdoor
+altname        = door
+linked         = trapbottom
+Location       = IN_ROOM:castle14
+Oflags         { Openable NoGet }
+MaxState       = 1
+State 	       = 1
+BValue         = 100
+Size           = 1
+Weight         = 2
+Desc[0]        = "
+A trapdoor has been opened allowing passage under the stage."
+End            = traptop
+
+Name           = trapbottom
+PName          = trapdoor
+altname        = door
+linked         = traptop
+Location       = IN_ROOM:castle26
+Oflags         { Openable NoGet }
+MaxState       = 1
+State 	       = 1
+BValue         = 100
+Size           = 1
+Weight         = 2
+Desc[0]        = "A trapdoor has been opened allowing passage onto the stage."
+End            = trapbottom
+
+%locations
+
+tree1 d:forest5;
+lflags { Outdoors Light }
+High up in a Tree^
+    You have climbed high up into a tree.  You can see far... but you can only
+see trees.
+^
+shore1 n:shore20 s:shore2 w:jungle1;
+lflags { Outdoors Light }
+The Shore^
+    You are on the shore of Avairy Island.  To the east the sea crashes
+violently against the shore line.  A passage to the west appears to exist
+through the thick trees.
+    The sand is beautifully clean and pure.  You hear the sound of birds
+chirping somewhere off to the west.
+^
+shore2 n:shore1 s:shore3 w:jungle2;
+lflags { Outdoors Light }
+The Shore^
+    You are on the shore of Avairy Island.  To the east the sea crashes
+violently against the shore line.  To the west, the jungle bush separates
+allowing you passage west.
+    The sand is beautifully clean and pure.  You hear the sound of birds
+chirping somewhere off to the west.
+^
+shore3 n:shore2 s:shore4 w:jungle3;
+lflags { Outdoors Light }
+The Shore^
+    You are on the shore of Avairy Island.  To the east the sea crashes
+violently against the shore line.  Passage to the west is allowed by a gap in
+the dense jungle.
+    The sand is beautifully clean and pure.  You hear the sound of birds
+chirping somewhere off to the west.
+^
+shore4 n:shore3 s:shore5 w:jungle4;
+lflags { Outdoors Light }
+The Shore^
+    You are on the shore of Avairy Island.  To the east the sea crashes
+violently against the shore line.  To the west a gap in the dense jungle
+allows you passage.
+    The sand is beautifully clean and pure.  You hear the sound of birds
+chirping somewhere off to the west.
+^
+shore5 n:shore4 w:shore6;
+lflags { Outdoors Light }
+The Shore^
+    You have reached the south eastern corner of the island.  You stare out
+over the waters in search of any land, but all you see are three and four feet
+high waves breaking for miles.
+    You hear bird chirping coming from the north-west.
+^
+shore6 w:shore7 e:shore5;
+lflags { Outdoors Light }
+The Shore^
+    You are on the southern shore of Avairy Island.  To the south are miles
+and miles of breaking seas.  You notice an occasional human skeleton lying
+half buried in the sand.
+    The shore line continues to the east and west.
+^
+shore7 w:shore8 e:shore6 n:jungle8;
+lflags { Outdoors Light }
+The Shore^
+    You are on the southern shore of Avairy Island.  To the south are miles
+and miles of breaking seas.  You notice an occasional human skeleton lying
+half buried in the sand.
+    The shore line continues to the east and west.
+^
+shore8 w:shore9 e:shore7;
+lflags { Outdoors Light }
+The Shore^
+    You are on the southern shore of Avairy Island.  To the south are miles
+and miles of breaking seas.  You notice an occasional human skeleton lying
+half buried in the sand.
+    The shore line continues to the east and west.
+^
+shore9 w:shore10 e:shore8;
+lflags { Outdoors Light }
+The Shore^
+    You are on the southern shore of Avairy Island.  To the south are miles
+and miles of breaking seas.  You notice an occasional human skeleton lying
+half buried in the sand.
+    The shore line continues to the east and west.
+^
+shore10 n:shore11 e:shore9;
+lflags { Outdoors Light }
+The Shore^
+    You have reached the south western corner of the island.  You stop to take
+a rest as the hot sun beats down on you.  If it were not for the breeze coming
+off the sea, you would surely be brought to your knees by the island's
+tropical climate.
+^
+shore11 n:shore12 s:shore10;
+lflags { Outdoors Light }
+The Shore^
+    This is the western shore line of Avairy Island.  To your east, dense
+clusters of jungle bush and trees block your way.  The waves to the west are
+not as bad as most you have seen from the island.  The breeze here is
+significantly weaker than that of other parts of the island and sweat begins
+to form on your forehead.
+    The shore line continues north and south.
+^
+shore12 n:shore13 s:shore11 e:jungle11;
+lflags { Outdoors Light }
+The Shore^
+    This is the western shore line of Avairy Island.  The waves to the west
+are not as bad as most you have seen from the island.  The breeze here is
+significantly weaker than that of other parts of the island and sweat begins
+to form on your forehead.
+    To your east you notice that the jungle has thinned leaving a small path.
+The shore line continues north and south.
+^
+shore13 n:shore14 s:shore12;
+lflags { Outdoors Light }
+The Shore^
+    This is the western shore line of Avairy Island.  To your east, dense
+clusters of jungle bush and trees block your way.  The waves to the west are
+not as bad as most you have seen from the island.  The breeze here is
+significantly weaker than that of other parts of the island and sweat begins
+to form on your forehead.
+    The shore line continues north and south.
+^
+shore14 n:shore15 s:shore13 e:cave2;
+lflags { Outdoors Light }
+The Shore^
+    This is the western shore line of Avairy Island.  The waves to the west
+are not as bad as most you have seen from the island.  The breeze here is
+significantly weaker than that of other parts of the island and sweat begins
+to form on your forehead.
+    A cave entrance allows passage east, while the shore line continues north
+and west.
+^
+shore15 s:shore14 e:shore16;
+lflags { Outdoors Light }
+The Shore^
+    You have enter the northwestern corner of the island.  You notice a
+significant difference in the sea north and the sea to the west.  You are
+drenched as a five foot wave crashes on the rocks about five feet north of you.
+The breeze from the north almost blows you to the ground and you struggle
+against it.
+    The shore continues to the south and east.
+^
+shore16 w:shore15 e:shore17;
+lflags { Outdoors Light }
+The Shore^
+    A large bird flies over head and you wonder why he is circling you.  It is
+almost like you are being watched.  The waves from the north spray you with
+mist as they break on large jagged rocks.
+    Passage south is blocked as a large cliff darts up twenty feet into the
+air.  The shore line continues east and west.
+^
+shore17 w:shore16 s:cave1 e:shore18;
+lflags { Outdoors Light }
+The Shore^
+    You are on the northern shore line.  To the south, a large opening in a
+cliff allows passage into a dark cave.
+    Looking down, you notice the beauty and purity of the sand.  You remove a
+shoe and run your toes through it.
+    The shore line continues to the east and west.
+^
+shore18 w:shore17 e:shore19;
+lflags { Outdoors Light }
+The Shore^
+    You are meandering along the northern edge of the Avairy Island.  The
+breeze coming off the sea almost knocks you down and you struggle to stand.
+Looking out over the sea you can find no sign of land.  A large cliff shoots up
+to your south blocking all passage in that direction.
+    The shoreline continues east and west.
+^
+shore19 w:shore18 e:shore20;
+lflags { Outdoors Light }
+The Shore^
+    You are meandering along the northern edge of the Avairy Island.  The
+breeze coming off the sea almost knocks you down and you struggle to stand.  A
+large cliff shoots up to your south blocking all passage in that direction.
+    The shoreline continues east and west.
+^
+shore20 w:shore19 s:shore1;
+lflags { Outdoors Light }
+The Shore^
+    You have found the northeastern corner of Avairy Island.  You hear the
+chirping and squawking of birds to the southwest.
+    There is a great difference in the sea to the north and the one to the
+east, as the sea north of you is much more violent.
+    The shore line continues to the south and west.
+^
+jungle1 w:jungle5 s:jungle2 e:shore1;
+lflags { Outdoors Light }
+The Avairy Jungle^
+    Trees rise high into the sky and you can not find the tops of most.  
+Various types of birds fly in and out of the trees and bushes all around you.
+    The island shore is to the east, while the jungle continues on west and
+south.
+^
+jungle2 n:jungle1 w:jungle6 e:shore2;
+lflags { Outdoors Light }
+The Avairy Jungle^
+    The island shore is to the east.  The jungle continues to the north and
+west.
+^
+jungle3 w:jungle7 s:jungle4 e:shore3;
+lflags { Outdoors Light }
+The Avairy Jungle^
+    The steamy jungle surrounds you.  Pathes lead into the jungle to the  
+south, west, and eastern directions.
+^
+
+jungle4 n:jungle4 w:jungle8 e:shore4;
+lflags { Outdoors Light }
+The Avairy Jungle^
+    The steamy jungle surrounds you.  Pathes lead into the jungle to the  
+north and west.  The shore is off to the east.
+^
+
+jungle5 s:jungle6 e:jungle1;
+lflags { Outdoors Light }
+The Avairy Jungle^
+    The steamy jungle surrounds you.  Pathes lead into the jungle to the  
+south and east. 
+^
+jungle6 n:jungle5 w:pond1 e:jungle2;
+lflags { Outdoors Light }
+The Avairy Jungle^
+    Pathes lead into the jungle to the north and east.  Through the 
+foilage ahead, you can make out a peacelful pond.
+^
+jungle7 w:jungle9 s:jungle8 e:jungle3;
+lflags { Outdoors Light }
+The Avairy Jungle^
+    The steamy jungle surrounds you.  Pathes lead into the jungle to the  
+south, west, and eastern directions.
+^
+jungle8 n:jungle7 w:jungle10 s:shore7 e:jungle4;
+lflags { Outdoors Light }
+The Avairy Jungle^
+    The steamy jungle surrounds you.  Pathes lead into the jungle to the  
+north, west, and eastern directions.  To the south is the shoreline.
+^
+jungle9 w:jungle11 e:jungle7;
+lflags { Outdoors Light }
+The Avairy Jungle^
+    The steamy jungle surrounds you.  Pathes lead into the jungle to the  
+east and west.
+^
+jungle10 w:build1 e:jungle8;
+lflags { Outdoors Light }
+The Avairy Jungle^
+    The steamy jungle surrounds you.  A path leads east into the 
+jungle, while a western path leads to a small cottage.
+^
+jungle11 w:shore12 e:jungle9;
+lflags { Outdoors Light }
+The Avairy Jungle^
+    The steamy jungle surrounds you.  A path leads east into the 
+jungle, while a western path leads to the shoreline.
+^
+cave1 n:shore17;
+lflags { Dark }
+Inside the Cave^
+    You are in a dark, dank cave.  It appears to be man made by the shaping 
+of the walls.  Mist blows in from the shoreline to the north giving a 
+strong fishy oder.  The ground is all a white sandy color except for one 
+corner of the cave where orange and yellow clays appear. 
+^
+cave2 w:shore14;
+lflags { Dark }
+Inside the Cave^
+    You are in a dark, dank cave.  Judging by the smoothness of the 
+walls, you can tell this cave was made by thousands of years of waves 
+smashing against it.
+    The floor is covered with little bird foot prints.  A small pirch 
+made from well warn drift wood is off to one corner.
+^
+pond1 w:water1 e:jungle6;
+lflags { Outdoors Light NoMagic }
+By a Peaceful Pond^
+    You can't help but stop to relax in the peacefulness of your 
+surroundings.  Water flows swiftly into the pond from a small waterfall 
+to the west.  You can't help but wonder where the water flows to.
+    Small birds chirp, flying from tree to tree and the sun shines down 
+to the clearing in the trees.
+^
+water1 d:fall1 e:pond1;
+lflags { Outdoors Light NoMagic }
+A Waterfall^
+    You stand next to a small waterfall.  Crisp clear water falls rapidly 
+in its passage to the pond to the east.  Through the water you can see a 
+small passage leading down. 
+^
+build1 e:jungle10;
+lflags { Dark }
+Inside a Small Shack^
+    You are inside a small shack.  There's a &+Yfireplace&* on the northern 
+wall, a small &+Ybed&* against the western wall and a small kitchen area with 
+a stove on the southern wall.
+^
+build2 d:build1;
+lflags { Outdoors Light }
+Roof of the Small Shack^
+    Having climbed the ladder in the cottage, you now stand on the 
+cottages somewhat sturdy roof.  Although you are now at a higher point, 
+the immense trees of the jungle still hinder your view.
+^
+fall1 u:water1;
+lflags { Dark NoMagic }
+A Cave Under the Falls^
+    You are in a dark, mildewy cave beneath the waterfall.  Water leaks 
+in through the dirt roof over your head causing a constant dripping 
+noise.  The walls of the room are lined with paneling which you note 
+looks extremely flimsy in one particular spot and sways as if there is a 
+hole behind it.  Footprints in the dirt floor are extremely hardened and 
+it does not appear that anyone has been down here in quite some time.
+^
+fall2 e:fall1;
+lflags { Dark NoMagic }
+A Secret Room^
+   The hole in the panel has led you to this concealed room.  It appears 
+as though it was only created as a hiding place for special items.  There 
+is not furniture or decoration.
+^
+
+castle1 n:castle2;
+lflags { OutDoors Light }
+Castle Entrance^
+    The golden bird has flown you high in the sky to the Avairy Castle.  
+It appears as though the castle is made from some mixture of straw, 
+leaves, and clay.  In fact, it seems to be one very elaborate nest. 
+^
+castle2 s:castle1 n:castle9 w:castle3 e:castle4;
+lflags { Light }
+Grand Hall^
+    Definition:  Grand Hall -  A really large, high ceiling hallway, 
+usually found upon entering a castle.
+    Useful information?  Probably not.
+^
+castle3 e:castle2 n:castle5;
+lflags { Light }
+Corner Corridor^
+    Oooo... A corner corridor, to tell the truth that's just a really 
+fancy way of saying a hallway that doesn't run in a straight line.
+^
+castle4 n:castle8 e:castle13 w:castle2;
+lflags { Light }
+Corridor^
+    Well, it's a corridor.  Another drab boring everyday, run of the 
+mill, castle corridor.  Why do zone writers like corridors so much?
+^
+castle5 s:castle3 w:castle6 n:castle10;
+lflags { Light }
+Corridor^
+    There is nothing to say about this corridor.  I'm sorry, I've been 
+trying to think of something creative to say about it, but I can't... 
+It's just a corridor.  "And that's all I have to say about that."
+^
+castle6 n:castle7 e:castle5;
+lflags { Light }
+Castle Kitchen^
+    You are in the castle kitchen.  One wall is lined with cookbooks with 
+such titles as "Worms Delicassies", "Worms, Worms, Worms", and "Low Fat 
+Worm Dinners". 
+^
+castle7 s:castle6;
+lflags { Light } 
+Kitchen Storage Room^
+    You are in the kitchen storage room.  Must be a famine going on 
+around here cause it doesn't appear like too much is being stored.
+^
+castle8 s:castle4 n:castle12 w:castle9;
+lflags { Light }
+Corridor^
+    You are in a branching corridor.  Halls lead off to the south, north, 
+and west.
+^
+castle9 s:castle2 e:castle8;
+lflags { Light }
+Grand Ballroom^
+   You have enter a majestic, high ceilied ballroom.  Large crystaline 
+chandelliers hang down from above.  Many fine golden bird feeders line 
+the walls.
+^
+castle10 s:castle5 e:castle11;
+lflags { Light }
+Corner Corridor^
+   You have entered a corner hallway.  You may go either south or east.
+Some ooze drips down the northern wall.  If you see housekeeping you may 
+just want to point that out.
+^
+castle11 n:castle16 e:castle12 w:castle10;
+lflags { Light }
+Corridor^
+    You are in a branching corridor.  Halls lead off to the north, east, 
+and west.  You decide to whistle a happy tune.
+^
+castle12 s:castle8 e:castle15 w:castle11;
+lflags { Light }
+Corridor^
+    You are in a branching corridor.  Halls lead off to the east, west, 
+and south.  You hear someone whistling a happy tune.
+^
+castle13 n:castle14 w:castle4;
+lflags { Light }
+Ticket Booth^
+    This is where the bird community buys their tickets to the Castle 
+Playhouse.  Surprisingly enough, the play currently being featured is "Cats".
+^
+castle14 s:castle13 d:^traptop;
+lflags { Light }
+Castle Playhouse^
+    You have entered the castle playhouse.  The stage is right in front 
+of you.  Examining the floor, you can almost make out the edges of a trap 
+door.
+    It appears as though the bird crew is in preparation for a new play 
+as you notices pieces of the set in works everywhere.
+^
+castle15 w:castle12;
+lflags { Light }
+Bird Bath^
+    You stand in the middle of a fountain bird bath, and, you are in fact 
+getting quite wet.  Little blue birds are frollicking to one side of the 
+bath and you do a double take as one winks at you.
+^
+castle16 s:castle11 n:castle17 u:castle20;
+lflags { Light }
+Stairwell^
+    You are in a stairwell leading, well go figure, up and down.  You can 
+also go either north or south. 
+^
+castle17 s:castle16 e:castle19 w:castle18;
+lflags { Light }
+Security Office^
+    This is the castle security office.  A desk covered with papers sits 
+against one wall.
+^
+castle18 e:castle17;
+lflags { Light }
+Cell^
+    You are in a plain, barren cell.  The more you think about it, you 
+realize you haven't been in an exciting, well decorated cell.
+^
+castle19 w:castle17;
+lflags { Light }
+Cell^
+    You are in a plain, barren cell.  The more you think about it, you 
+realize you haven't been in an exciting, well decorated cell.
+^
+castle20 d:castle16 n:castle21;
+lflags { Light }
+Top of the Stairs^
+    You are on the second floor if the castle.  After walking up the 
+countless number of stairs you begin to wonder why birds even need stairs.
+^
+castle21 s:castle20 n:castle22;
+lflags { Light }
+Entrance to Royal Quarters^
+    You stand before a large set of double stained glass doors.  A set of 
+bird armor stands on each side of the doors.
+^
+castle22 s:castle21 e:castle23 w:castle24;
+lflags { Light }
+Sitting Room^
+    This is the sitting room.  Apparently, birds sit here.
+^
+castle23 n:castle25 w:castle22;
+lflags { Light }
+Master Bed Room^
+    You have entered the castle master bedroom, where the Avairy monarchs 
+sleep.  Examining the bed, you find it is puzzlingly made from feathers.
+^
+castle24 e:castle22;
+lflags { Light }
+Closet^
+    A typical everyday royal closet.
+^
+castle25 s:castle23;
+lflags { Light }
+Royal Bird Bath^
+    The royal bird bath is much nicer than the peasantry bird bath on the 
+lower floor.  This bath is made from pure gold, the water glistening of 
+purity. 
+^
+castle26 u:^trapbottom;
+lflags { Light }
+Under the Stage^
+    You are under the stage of the Castle Playhouse.  Cobwebs cover the 
+walls and you break through them as you walk.
+^
+castle27 s:castle18 e:castle28;
+lflags { Light }
+Security Hold^
+    You have found the hidden guardroom of the Avairy Castle.  A single 
+cell is off to the east.
+^
+castle28 w:castle27;
+lflags { Light }
+Royal Cell^
+    You have entered a very strong, nicely decorated cell.  This is 
+apparently where royal prisoners are kept. 
+^
+forest1 w:forest2 s:sundhaven6748@sundhaven;
+lflags {Outdoors Light}
+Within the Forest^
+      You are within a large, florishing forest.  You hear many birds
+whistling and squaking to one another.  Squirrels and chipmunks scurry 
+here and there. The floor is covered by leaves, twigs, and large branches 
+making your walk very unstable.
+^
+forest2 n:forest3 e:forest1;
+lflags {Outdoors Light}
+Within the Forest^
+      You are within a large, florishing forest.  You hear many birds
+whistling and squaking to one another.  Squirrels and chipmunks scurry 
+here and there. The floor is covered by leaves, twigs, and large branches 
+making your walk very unstable.
+^
+forest3 n:forest4 s:forest2;
+lflags {Outdoors Light}
+Within the Forest^
+      You are within a large, florishing forest.  You hear many birds 
+whistling and squaking to one another.  Squirrels and chipmunks scurry 
+here and there. The floor is covered by leaves, twigs, and large branches 
+making your walk very unstable.
+^
+forest4 e:forest5 s:forest3;
+lflags {Outdoors Light}
+Within the Forest^
+      You are within a large, florishing forest.  You hear many birds
+whistling and squaking to one another.  Squirrels and chipmunks scurry 
+here and there. The floor is covered by leaves, twigs, and large branches 
+making your walk very unstable.
+^
+forest5 w:forest4 u:tree1;
+lflags {Outdoors Light}
+Within the Forest^
+      You are within a large, florishing forest.  You hear many birds
+whistling and squaking to one another.  Squirrels and chipmunks scurry 
+here and there. The floor is covered by leaves, twigs, and large branches 
+making your walk very unstable.
+^
+
+
+tower s:forest5;
+lflags { Outdoors Light }
+Overlooking the Avairy Kingdom^
+      You are standing on a high cliff overlooking the kingdom of Avairy.
+In the middle is a graceful lake encircled by trees populated by a large
+number of swans.  The Swan Princess speaks...
+      'Thank you for destroying that evil sorceror.  Rothbart has hurt so
+many innocent people with his mad ambitions for power turning all the women
+into swans.  With him vanquished, he cannot turn anyone else into one.  
+But the spell over us cannot be broken, for we all need handsome princes
+to fall in love with us.  Though we can transform into humans for a few
+hours in the middle of the night, we must stay at Swan Lake for our safety.'
+
+      There is a glowing portal here, ready to send you back to where you 
+were brought.  You can't help but feel sorry for all the swans, yet you are
+only one person and could only break the spell for one of them.
+^
