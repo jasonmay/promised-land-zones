@@ -1,0 +1,75 @@
+
+
+
+
+%rainfall:500
+
+%latitude:40
+
+%mobiles
+
+name = knight
+pname = "Black knight"
+strength = 10000
+damage = 80
+pflags { nopunt nozap noexorcise noalias nosummon nosteal noforce noburn nosic }
+eflags { Blind Deaf Mute fireball frost shock NegFireball NegMissile NegFrost Negshock NegBhands NegVtouch NegIceStorm }
+mflags { NoSteal Block NoGrab PickStuff BarSouth Thief }
+description = "The evil Black Knight is here."
+examine = "This is the mighty black knight.  He is about 7 feet all.
+He is wielding a sword that is twice as long as you.  He is wearing
+an armor as black as the night.  He looks like a demon in an armor
+suit.  The black knight is a very powerful opponent.  You should not
+attack him unless a whole army is assisting you."
+location = death
+Aggression = 0
+speed = 50
+armor = 40
+end = knight
+
+%objects
+
+name = demonblade
+altname = blade
+location = WIELDED_BY:knight
+oflags { unlocatable weapon lit negmana neghealth Fireballspell
+frostspell shockspell missilespell aidspell VTouchspell lightspell
+damagespell armorspell BHandsSpell BlurSpell IStormSpell Cursed MissChance
+SpellMiss }
+damage = 60
+size = 100
+bvalue = -1000
+desc[0] = "&+rThe most evil and powerful weapon is here.&*"
+examine = "
+The blade is glowing with a bloody-red light.  The handle is made of human 
+bone.  You wonder how many people this sword killed.  You feel it's evil 
+power surrounding you.  You believe this blade is made of pure evil."
+end = demonblade
+
+name = sign
+location = IN_ROOM:way
+oflags { noget }
+desc[0] = "&+RA VERY IMPORTANT WARNING SIGN IS HERE.&*"
+examine = "Ahead reside one of the toughest monsters of the Promised Land.
+you should not continue unless you're at a very high level and adequately 
+equipped. You have been warned."
+end = sign
+
+%locations
+
+death ;
+lflags { negregen Dark Hot Cantsummon Nosummon NoQuit Nosnoop 
+Nomobiles NoAt SoundProof }
+Darkest room^
+You are standing in the darkest room. Pure evil inhabits
+this land. The walls are painted with blood. Human bodies are 
+lying everywhere. Obviously, an evil monster must reside here.
+^
+
+way n:death s:Church1@church;
+lflags {negregen Dark Hot SoundProof}
+On your way to Evil^
+You are walking on a strange way leading into darkness. A
+powerful evil seems to reside further. You must absolutely not
+continue forward. You will probably get slayed.
+^

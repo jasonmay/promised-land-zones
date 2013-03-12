@@ -1,0 +1,61 @@
+
+
+
+
+%mobiles
+
+Name		= bookie
+PName		= "The Bookie"
+Location	= betting
+Strength	= 60
+Damage		= 10
+Aggression      = 0
+Speed           = 0
+Armor		= 100
+Description	= "A tall, lean elf stands behind the grilled window."
+End             = bookie
+
+Name            = sportscaster
+PName           = "The Sportscaster"
+location        = grandstand
+Strength        = 60
+damage          = 10
+Aggression       = 0
+Speed           = 0
+Armor           = 100
+Description     = "The fangs on the Sportscaster suggest it's just &+Rblood&+g that he likes." 
+End             = sportscaster
+
+%locations
+grandstand s:betting e:party;
+lflags {Peaceful}
+The Grandstand^
+The flags are flying; the bleachers are loaded.  The Sportscaster
+has its microphone ready.  The Tourney!  Promised Land pauses --
+who will win?
+MORTALS: note that in this specific location you can do the following:
+where (with whatzone)
+eq <player>
+spec <player>
+score <player>
+knowledge <player>
+snoop <contestant>
+user   -- will show what immortals usually see
+^
+
+betting n:grandstand e:party;
+lflags {Peaceful}
+The Parimutuel Betting Window^
+ Old form sheets plaster the walls.  A polished but nicked
+oak wall has a grilled opening behind which stands the Bookie.
+A sign pasted over the grille reads 
+          UNDER CONSTRUCTION
+       if you want to place a bet
+           tell a power
+^
+party w:grandstand s:betting;
+lflags{Peace Party}
+Party Room^
+  Champagne? Mead? Cider?  All have taps on the wall.  If you
+only care if your bet wins, then have blast...
+^

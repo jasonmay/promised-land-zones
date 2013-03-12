@@ -1,0 +1,1176 @@
+
+
+
+%rainfall:1000
+
+%latitude:40
+
+%mobiles
+
+Name  = Severinus
+Location = Infirmary
+Strength = 120
+Damage  = 10
+Aggression = 20
+Armor  = 0
+Speed  = 0
+Description = "Brother Severinus, the herbalist, is brewing a potion."
+End = Severinus
+
+Name  = Abbot
+Location = ChurchSteps
+Strength = 150
+Damage  = 8
+Aggression = 0
+Armor  = 0
+Speed  = 0
+Mflags  {BarEast}
+Description = "The Abbot says to you, 'Pax Nobiscum.'"
+End = Abbot
+
+Name  = Remigio
+Location = StoreHouse
+Strength = 200
+Damage  = 5
+Aggression = 10
+Armor  = 0
+Speed  = 0
+Description = "Brother Remigio, the cellarer, is here taking inventory."
+End = Remigio
+
+Name  = Salvatore
+Location = Cemetery
+Strength = 120
+Damage  = 15
+Aggression = 10
+Armor  = 0
+Speed  = 0
+Description = "Brother Salvatore, the hunchback, is here looking for rats to eat."
+End = Salvatore
+
+Name  = Malachi
+Location = Scriptorium
+Strength = 150
+Damage  = 10
+Aggression = 10
+Armor  = 0
+Speed  = 0
+Description = "Brother Malachi, the librarian, is here gathering books."
+End  = Malachi
+
+Name  = Beranger
+Location = Cell1
+Strength = 100
+Damage  = 5
+Aggression = 20
+Armor  = 0
+Speed  = 0
+Description = "Brother Beranger is here whipping his sinful flesh."
+End  = Beranger
+
+Name  = William
+Location = Cell2
+Strength = 300
+Damage  = 15
+Aggression = 0
+Armor  = 0
+Speed  = 0
+Description = "Brother William labors here endlessly in search of the truth."
+End  = William
+
+Name  = Brunellus
+Location = Stables
+Strength = 200
+Damage  = 15
+Aggression = 0
+Armor  = 0
+Speed  = 0
+Description = "Brunellus, the Abbot's horse, is here trying to bite you."
+End  = Brunellus
+
+Name  = Jorge
+Location = LibSecretRoom2
+Strength = 400
+Damage  = 25
+Aggression = 0
+Armor  = 10
+Speed  = 0
+Pflags  {NoSteal}
+Sflags  {Blind}
+Description = "Brother Jorge, the blind old monk, guards the forbidden books."
+End  = Jorge
+
+Name  = Whore
+Pname = "Dirty Peasant Girl"
+Location = Kitchen
+Strength = 100
+Damage  = 10
+Aggression = 0
+Armor  = 0
+Speed  = 0
+Sflags  {Female}
+Pflags  {NoAlias NoZap NoSummon NoExorcise}
+Description = "A dirty girl in rags offers you her favors in exchange for food."
+End  = Whore
+
+Name  = Bernardo
+Location = LibrEntr
+Strength = 350
+Damage  = 10
+Aggression = 25
+Armor  = 0
+Speed  = 0
+Description = "
+The inquisitor Bernardo Gui prepares to torture you for entering the library."
+End  = Bernardo
+
+%objects
+
+Name  = rope
+Location = IN_ROOM:TowerBase
+Oflags  {NoGet}
+Desc[0]  = ""
+Examine  = "
+The rope looks old and rotten.  Would you take a chance on it holding your
+weight?"
+End  = rope
+
+Name            = sign
+Location        = IN_ROOM:WindPath
+Oflags          = {NoGet}
+Desc[0]         = "A large yellow sign is posted off to one side of the path."
+Examine         = "
+                           ! ! ! WARNING ! ! !
+Ahead of you is a monastery filled with mostly peaceful and good but some
+easily irritated and downright wicked monks.  The Gods recommend that you
+do not attempt to enter this area until you have over 100 health points."
+End             = sign
+
+Name  = PortcullOut
+Pname  = portcullis
+Location = IN_ROOM:WindPath
+Oflags   {NoGet}
+MaxState = 1
+State  = 0
+Linked  = PortcullIn
+Desc[0]  = "The portcullis is open."
+Desc[1]  = "The portcullis is closed."
+Examine  = "
+It's a gate that can be raised and lowered.  I wouldn't want to be under it 
+when it comes down."
+End  = PortcullOut
+
+Name  = PortcullIn
+Pname  = portcullis
+Location = IN_ROOM:Portcullis
+Oflags   {NoGet}
+MaxState = 1
+State  = 0
+Linked  = PortcullOut
+Desc[0]  = "The portcullis is open."
+Desc[1]  = "The portcullis is closed."
+Examine  = "
+It's a gate that can be raised and lowered.  I wouldn't want to be under it 
+when it comes down."
+End  = PortcullIn
+
+Name  = Wheel
+Location = IN_ROOM:GuardHouse
+Oflags   {NoGet}
+Desc[0]  = "A wheel with ropes tied around it is attached to the wall."
+Examine  = "
+It appears to let you open and close the portcullis."
+End  = Wheel
+
+Name  = spear
+Location = IN_ROOM:GuardHouse
+Oflags  {Weapon}
+BValue  = -30
+Size  = 13
+Weight  = 12
+Damage  = 7
+Desc[0]  = "A rusty spear has been left here."
+Examine  = "
+I hope whoever you skewer with this spear has had his tetanus shots."
+End  = spear
+
+Name  = habit1
+Pname  = habit
+Location = IN_ROOM:GuardHouse
+Oflags  {Wearable Armor}
+Aflags  {Head Back Arms}
+BValue  = 18
+Armor  = 23
+Size  = 8
+Weight  = 6
+Desc[0]  = "A gray, burlap monk's habit has been discarded here."
+Examine  = "
+It looks like a monk's habit.  Maybe if you wore it you could sneak past
+the monks and steal their goodies."
+End  = habit1
+
+Name  = onion
+AltName  = food
+Location = IN_ROOM:Gardens
+Oflags  {Food}
+BValue  = 9
+Size  = 3
+Weight  = 2
+Desc[0]  = "An onion is here, giving off a very pleasant oniony smell."
+Examine  = "
+An onion is a natural aphrodisiac.  Eat it with someone you love."
+End  = onion
+
+Name  = beet
+AltName  = food
+Location = IN_ROOM:InGardens
+Oflags  {Food GetFlips}
+MaxState = 9
+State  = 1
+BValue  = 1
+Size  = 5
+Weight  = 3
+Desc[0]  = "Someone has left a sugar beet here!"
+Desc[1]  = "A sweet-looking sugar beet was missed by the gardener."
+Examine  = "It looks like a very tasty sugar beet to me."
+End  = beet
+
+Name  = towel
+Location = IN_ROOM:Balneary
+Oflags  {Wearable Armor}
+Aflags { Neck }
+Armor  = 28
+Size  = 5
+Weight  = 7
+BValue  = 10
+Desc[0]  = "A thirsty towel is sitting in a wad on the floor."
+Examine  = "
+Never go anywhere in the universe without a towel."
+End  = towel
+
+Name  = book1
+Pname  = book
+Location = IN_ROOM:Infirmary
+BValue  = 100
+Size  = 12
+Weight  = 12
+Desc[0]  = "
+A large, leather-bound book sit here waiting for you to read it."
+Examine  = "
+The book is written in Latin and appears to describe many powerful herbal
+potions and magical spells...  How unfortunate that you never learned
+Latin, amice."
+End  = book1
+
+Name  = jar1
+Pname  = jar
+AltName  = glass
+Location = IN_ROOM:Infirmary
+Oflags  {GetFlips}
+MaxState = 1
+State  = 1
+BValue  = 60
+Size  = 3
+Weight  = 3
+Desc[0]  = "A glass jar filled with a clear liquid lies here."
+Desc[1]  = "A glass jar filled with a clear liquid stands on a shelf."
+Examine  = "
+The contents of the jar smell like some kind of hard liquor."
+End  = jar1
+
+Name  = jar2
+Pname  = jar
+AltName  = clay
+Location = IN_ROOM:Infirmary
+Oflags  {GetFlips Food Destroyed}
+MaxState = 1
+State  = 1
+BValue  = 60
+Size  = 3
+Weight  = 3
+Desc[0]  = "
+A clay jar filled with a foul-smelling potion has been thrown aside."
+Desc[1]  = "On top of one of the shelves stands a small clay jar."
+Examine  = "
+The contents of the jar smell like bitter almonds."
+End  = jar2
+
+Name  = shelf
+AltName  = shelves
+Location = IN_ROOM:Infirmary
+Oflags  {NoGet}
+Desc[0]  = ""
+Examine  = "
+On the shelves are row upon row of different jars.  Pity that the contents
+seems so uninteresting."
+End  = shelf
+
+Name  = ChuDoorsOut
+Pname  = doors
+Location = IN_ROOM:ChurchSteps
+Oflags    {NoGet}
+Linked  = ChuDoorsIn
+MaxState = 1
+State  = 1
+Desc[0]  = "The large doors to the church stand wide open."
+Desc[1]  = "The large church doors are closed."
+Examine  = "
+The doors have no handles or grips to allow you to open them.
+Perhaps there is another way?"
+End  = ChuDoorsOut
+
+Name  = ChuDoorsIn
+Pname  = doors
+Location = IN_ROOM:Church
+Oflags    {NoGet}
+Linked  = ChuDoorsOut
+MaxState = 1
+State  = 1
+Desc[0]  = "The large church doors stand wide open."
+Desc[1]  = "The large church doors are closed."
+Examine  = "
+The doors have no handles or grips to allow you open them."
+End  = ChuDoorsIn
+
+Name  = incenser
+Location = CARRIED_BY:Abbot
+BValue  = 400
+Size  = 4
+Weight  = 4
+Desc[0]  = "A small incenser has been dropped here."
+Examine  = "
+It is a little ball with a hole on its top which contains incense which
+is burned.  However, for some reason, it is not lit."
+End  = incenser
+
+Name  = grain
+Location = IN_ROOM:StoreHouse
+BValue  = 20
+Size  = 7
+Weight  = 5
+Desc[0]  = "A bag of grain sits against the wall."
+Examine  = "
+It's a big burlap sack full of something that looks like some sort of grain."
+End  = grain
+
+Name  = wine
+Location = IN_ROOM:StoreHouse
+Oflags  {Food Alcohol}
+Size  = 6
+Weight  = 4
+BValue  = 10
+Desc[0]  = "A sack of communion wine sits on the floor."
+Examine  = "It smells like vinegar.  Must be French wine."
+End  = wine
+
+Name  = rat
+Location = IN_CONTAINER:bag
+BValue  = 1
+Size  = 2
+Weight  = 1
+Desc[0]  = "A freshly-killed rat has been dropped here."
+Examine  = "People have been known to eat rats.  Do you dare to?"
+End  = rat
+
+Name  = bag
+Location = CARRIED_BY:Salvatore
+Oflags  {Container}
+BValue  = 10
+Size  = 35
+Weight  = 4
+Desc[0]  = "A small bag has been left in a corner."
+Examine  = "
+It smells like something dead has been carried in it recently."
+End  = bag
+
+Name  = cleaver
+Location = IN_ROOM:Kitchen
+Oflags  {Weapon}
+BValue  = -75
+Damage  = 17
+Size  = 18
+Weight  = 17
+Desc[0]  = "A bloody cleaver has been misplaced here."
+Examine  = "I wouldn't want to be on the receiving end of this thing!"
+End  = cleaver
+
+Name  = book2
+Pname  = book
+Location = CARRIED_BY:Malachi
+BValue  = 75
+Size  = 10
+Weight  = 7
+Desc[0]  = "
+A valuable book in Greek has been carelessly left here."
+End  = book2
+
+Name  = BDoorOut
+PName  = door
+Location = IN_ROOM:Scriptorium
+Oflags     {NoGet}
+MaxState = 1
+State  = 1
+Linked  = BDoorIn
+Desc[0]  = "The door has been left open."
+Desc[1]  = "The door is closed."
+Examine  = "The door is made of thick planks. There is no keyhole at this side."
+End  = BDoorOut
+
+Name  = BDoorIn
+PName  = door
+Location = IN_ROOM:DampStair
+Oflags     {NoGet}
+MaxState = 1
+State  = 1
+Linked  = BDoorOut
+Desc[0]  = "The door has been left open."
+Desc[1]  = "The door is closed."
+Examine  = "This door is very sturdy."
+End  = BDoorIn
+
+Name  = bar
+Location = IN_ROOM:DampStair
+Oflags     {NoGet}
+MaxState = 1
+State  = 1
+Desc[1]  = "The bar does not allow the door to be opened."
+Desc[0]         = "
+The bar has been moved aside allowing the door to be opened."
+Examine  = "The bar appears to be used to lock and unlock the door."
+End  = bar
+
+Name  = altar
+Location = IN_ROOM:ChurchAltar
+Oflags     {PushToggle NoGet  }
+MaxState = 1
+State  = 1
+Linked  = passage
+Desc[0]  = "
+The altar has been pushed aside opening a passage down."
+Examine  = "
+It's made of stone.  There appears to be some dirty hand prints on one end
+of the altar."
+End  = altar
+
+Name  = passage
+Location = IN_ROOM:Ossarium2
+Oflags     {NoGet}
+MaxState = 1
+State  = 1
+Linked  = altar
+Desc[1]  = ""
+Desc[0]  = "A passage leads up to an altar."
+End  = passage
+
+Name  = CDoorOut1
+Pname  = door
+Location = IN_ROOM:NorthDorm
+Oflags     {NoGet Openable Lockable}
+Linked  = CDoorIn1
+MaxState = 2
+State  = 2
+Desc[0]  = "The door is open."
+Desc[1]  = "The door is closed."
+Desc[2]  = "The door is locked."
+Examine  = "
+Wonder what the monks do behind these doors when the light has gone out?"
+End  = CDoorOut1
+
+Name  = CDoorIn1
+Pname  = door
+Location = IN_ROOM:Cell1
+Oflags     {NoGet Openable Lockable}
+Linked  = CDoorOut1
+MaxState        = 2
+State           = 2
+Desc[0]  = "The door is open."
+Desc[1]  = "The door is closed."
+Desc[2]  = "The door is locked."
+Examine  = "
+Small drops of something that looks like blood spots this door."
+End  = CDoorIn1
+
+Name  = CDoorOut2
+Pname  = door
+Location = IN_ROOM:MidDorm
+Oflags     {NoGet Openable Lockable}
+Linked  = CDoorIn2
+MaxState        = 2
+State           = 2
+Desc[0]  = "The door is open."
+Desc[1]  = "The door is closed."
+Desc[2]  = "The door is locked."
+Examine  = "
+As you examine the door, you think you can hear the soft scratching of 
+feathered quills against parchment."
+End  = CDoorOut2
+
+Name  = CDoorIn2
+Pname  = door
+Location = IN_ROOM:Cell2
+Oflags     {NoGet Openable Lockable}
+Linked  = CDoorOut2
+MaxState        = 2
+State           = 2
+Desc[0]  = "The door is open."
+Desc[1]  = "The door is closed."
+Desc[2]  = "The door is locked."
+Examine  = "
+What wise words wouldn't this door be able to tell you if it could talk?"
+End  = CDoorIn2
+
+Name  = CDoorOut3
+Pname  = door
+Location = IN_ROOM:SouthDorm
+Oflags     {NoGet Openable Lockable}
+Linked  = CDoorIn3
+MaxState        = 2
+State           = 2
+Desc[0]  = "The door is open."
+Desc[1]  = "The door is closed."
+Desc[2]  = "The door is locked."
+Examine  = "
+This door is made of old and thick planks.  It has obviously been designed 
+to keep the world outside."
+End  = CDoorOut3
+
+Name  = CDoorIn3
+Pname  = door
+Location = IN_ROOM:Cell3
+Oflags     {NoGet Openable Lockable}
+Linked  = CDoorOut3
+MaxState        = 2
+State           = 2
+Desc[0]  = "The door is open."
+Desc[1]  = "The door is closed."
+Desc[2]  = "The door is locked."
+Examine  = "
+The door is thick and sturdy. It has been designed to keep the world outside."
+End  = CDoorIn3
+
+Name  = whip
+Location = WIELDED_BY:Beranger
+Oflags  {Weapon}
+BValue   = -20
+Size  = 7
+Weight  = 5
+Damage  = 5
+Desc[0]  = "A bloody leather whip has been left here."
+Examine  = "
+You should use this regularly to beat the devil out of your wicked
+and sinful flesh."
+End  = whip
+
+Name  = lamp
+Location = IN_ROOM:Cell2
+Oflags  {Extinguish Lightable}
+BValue  = 99
+Size  = 8
+Weight  = 7
+MaxState        = 2
+State           = 2
+Desc[2]  = "A black iron reading lamp is here."
+Desc[1]  = "A rather 'sweet' smelling black iron reading lamp is here."
+Desc[0]  = "A lit iron reading lamp is giving off a horrible smell."
+Examine  = "
+It appears to be an antique reading lamp.  However, it doesn't seem to have
+burned oil recently.  You see the residue of something more solid in it."
+End  = lamp
+
+Name  = parchment
+Location = IN_ROOM:Cell2
+Oflags  {}
+BValue  = 9
+Size  = 4
+Weight  = 1
+Desc[0]  = "A neatly folded piece of parchment is sitting here."
+End  = parchment
+
+Name  = spectacles
+Location = WORN_BY:William
+Oflags  {Wearable}
+BValue  = 150
+Size  = 5
+Weight  = 3
+Desc[0]  = "A pair of crudely made eye glasses have been dropped here."
+Examine  = "
+They appear to be reading glasses.  Maybe you should wear them so you can
+see where you're going."
+End  = spectacles
+
+Name  = manure
+Location = IN_ROOM:Pigsties
+BValue  = 5
+Size  = 1
+Weight  = 1
+Desc[0]  = "Some smelly pig's manure has been trod upon."
+Examine  = "
+Oh, dear!  It's pretty potent smelling stuff.  But it appears to be
+dry enough to burn."
+End  = manure
+
+Name  = axe
+Location = IN_ROOM:Smithy
+Oflags  {Weapon}
+BValue  = -60
+Size  = 14
+Weight  = 15
+Damage  = 10
+Desc[0]  = "A very sharp axe has been left here."
+Examine  = "You cut your finger as you examine its very sharp blade."
+End  = axe
+
+Name  = habit2
+Pname  = habit
+Location = WORN_BY:Jorge
+Oflags  {Wearable Armor Antimagic}
+Aflags  { Arms Head Back }
+BValue  = 200
+Armor  = 70
+Size  = 25
+Weight  = 20
+Desc[0]  = "A very thick robe lies in a heap on the floor."
+Examine  = "
+As you examine it you notice that the fabric seems to be finely woven steel."
+End  = habit2
+
+Name  = book3
+Pname  = book
+Location = CARRIED_BY:Jorge
+MaxState = 0
+State  = 0
+BValue = 350
+Size   = 8
+Weight = 5
+Desc[0]  = "A slim leather-bound book is sitting here."
+Examine  = "
+It is titled 'The Secrets of Abermud.'  It reads:
+'There are many secrets to aid a player in earning quick wizardom.
+Killing mobiles seems to be the fastest way to earn points.  But
+there are other tricks like....'  The books ends here because
+someone has torn out the rest of the important pages.  The torn edges
+appear rather blackened like a lightning bolt tore them out.  However,
+there is a treatise on the merits of having a one time only
+grasshopper versus a multi-use one.  But it is very dry reading."
+End  = book3
+
+Name  = iron
+Location = WIELDED_BY:Bernardo
+Oflags  {Weapon Lit}
+BValue  = -10
+Size  = 7
+Weight  = 6
+Damage  = 10
+Desc[0]  = "A red-hot branding iron is glowing here."
+Examine  = "It's a big branding iron.  And it's very hot on one end!"
+End  = iron
+
+Name = alouth
+Altname = volume
+Location = IN_ROOM:Library18
+Oflags { NoGet }
+Desc[0] = "A volume stands out in this room, which depicts the language of Alouth."
+Examine = "
+Interesting, out of all the piles and piles of books, this one stood out from
+all of them like a sore thumb.  It seems this was spoken by the monks of this
+monastery but over time, due to their vows of silence ceased speaking it.
+You start reading through it, and find Alouth easy to learn.  Soon, you are
+able to converse in it fluently."
+End = alouth
+
+%locations
+
+WindPath n:r_land@blizzard e:^PortcullOut ;
+Altitude = 500
+lflags{Outdoors NoMobiles}
+Winding Path^
+You are on a winding path which climbs up to what appears from
+your position to be a fortress on top of a hill to the east.  To
+the north is a small village.  As you approach the structure, you
+notice an opening in the walls and move yourself toward it.  The
+opening now appears to be an archway with a portcullis.  Chiselled
+into the arch are these words, "NOMINE ROSAE", evidently the name
+of this place.
+^
+
+Portcullis e:TreePath s:GuardHouse w:^PortcullIn ;
+Altitude = 600
+lflags{ Outdoors }
+Portcullis^
+You are beneath an archway which serves as the entrance to what
+now appears to be a monastery built inside an old fortress.  A
+guard house appears to be built into the walls to the south.
+^
+
+GuardHouse n:Portcullis;
+lflags {}
+Guard House^
+You are inside a small guard house attached to the archway.  From
+the dust, cobwebs, and rotten wood in here you can guess that
+this guard house has not been used in a long time.
+^
+
+TreePath n:Gardens e:ChurchSteps s:StoreHouse w:Portcullis;
+Altitude = 600
+lflags {Outdoors}
+Tree-lined Path^
+You are walking down a dirt path lined with dead trees.  To the
+north are the monk's gardens and two buildings.  To the east is
+the church and the tower of the aedificium.
+^
+
+StoreHouse n:TreePath;
+lflags {}
+Storehouse^
+You are in the monastery storehouse where the supplies for the
+monks are stored.
+^
+
+Infirmary e:Gardens;
+lflags {}
+Infirmary^
+You are in the monastery infirmary.  On the walls are shelves filled
+with unlabled clay jars that probably contain odd and exotic herbs,
+spices, and potions.  These potions might aid you in your adventures
+but they could also be deadly poison.
+^
+
+Gardens n:Balneary e:InGardens s:TreePath w:Infirmary;
+Altitude = 600
+lflags {Outdoors}
+Gardens^
+These are the monk's gardens where they grow some of their
+vegetables.  There are more gardens to the east.  To the north
+and west are some other buildings.
+^
+
+Balneary s:Gardens;
+lflags {}
+Balneary^
+You are in the monk's bath house.  Along one wall are many wooden
+tubs with curtains around them that afford the monk's some
+privacy when they bathe.  The bath house appears to be clean and
+tidy, but you can't help notice a strong musty smell that only
+adds to the dreary feeling you get at this monastery.
+^
+
+InGardens w:Gardens ;
+Altitude = 600
+lflags {Outdoors}
+In the Gardens^
+You are in another part of the gardens.  There once were
+vegetables growing here at one time but there is very little left
+of use here now.
+^
+
+ChurchSteps n:WidePath e:^ChuDoorsOut s:TowerBase w:TreePath ;
+Altitude = 600
+lflags {Outdoors}
+Church Steps^
+You are standing in front of a romanesque church that serves as
+the place of worship for the monks.  The steps that lead up to
+the doors are covered with dead leaves that are stirred about by
+the gusts of the wind.  To the south is the monastery bell tower
+and to the north is a much larger tower.
+^
+
+TowerBase n:ChurchSteps u:BellTower;
+lflags {}
+Tower Base^
+You are in the base of the monastery bell tower.  Above you are
+several very large bells.  A rope hangs down from the bells
+allowing you access up to the bells.  You might be able to climb
+up to the top of the tower but it would be a long way down if you
+lose your grip and fall.
+^
+
+BellTower d:TowerBase;
+Altitude = 700
+lflags { Outdoors }
+Bell Tower^
+You are up in the monastery bell tower.  You see the large bronze
+bells up here and the rope to ring them hanging down.  As you
+look around you notice that there is absolutely nothing of value
+up here.  You also notice that there is no other exit except the
+way you came.
+^
+
+WidePath n:Aedificium e:Cemetery s:ChurchSteps;
+Altitude = 600
+lflags {Outdoors}
+Wide Path^
+You are on a wide dirt path.  To the north is the tall tower of
+the aedificium and to the south you see the smaller monastery
+bell tower.
+^
+
+Aedificium e:Kitchen s:WidePath u:Scriptorium ;
+Altitude = 600
+lflags{Outdoors}
+Aedificium Steps^
+You are standing in front of the large tower of the aedificium.
+It is known that the scriptorium and the monastery kitchen are
+inside this tower but it seems that it is too large for just these
+two areas.  You notice a door in the base of the tower to the east.
+^
+
+Scriptorium n:^BDoorOut d:Aedificium;
+lflags {}
+Scriptorium^
+You have entered the monastery scriptorium.  Along one side of
+the room are a set of stained-glass windows.  Next to these
+windows in neat rows are wooden desks and book stands where the
+monks laboriously copy and illuminate books.  Ah, the monastery
+must have a library around here somewhere but where can it be?
+^
+
+Kitchen w:Aedificium ;
+lflags {}
+Kitchen^
+You have entered the monastery kitchen.  On one wall is a brick
+oven.  The coals in it are hot but nothing is cooking inside it.
+Along another wall are some shelves.  As you make a cursory
+search of them you don't seem to find anything on them except
+dust.
+^
+
+DampStair s:^BDoorIn u:LibrEntr d:Ossarium;
+lflags {Dark}
+Damp Stairway^
+You are at the base of a very long stairway that leads up into
+the aedificium tower.
+^
+
+LibrEntr n:Library1 d:DampStair ;
+lflags {Dark}
+Library Entrance^
+You have found the fabled library of this monastery.  Inside it
+are thousands of hand-printed, leather-bound books and ancient
+silk-encased scrolls.  In here is incredible knowledge:  the
+magic and wisdom of the Arabs, the philosophy and science of the
+Greeks, the great histories and poetry of the Romans, and the
+forbidden theology of the great heretics.
+^
+
+Ossarium s:Ossarium2 w:DampStair u:DampStair;
+lflags {Dark NoMobiles}
+Ossarium^
+This is the north part of the monastery ossarium. Deep niches
+have been dug in the walls to store large piles of skulls and
+bones. Bones in neat piles fill the parts of the floor that
+isn't covered in mud. A sudden chilly draft makes you jump
+and you can feel your heart beat in a faster pace.
+A narrow passageway goes up towards the west, and to the south
+the ossarium continues.
+^
+
+Ossarium2 n:Ossarium u:^passage ;
+lflags {Dark NoMobiles}
+Ossarium^
+You have entered the monastery ossarium.  The room has bones
+stacked up everywhere, some in niches dug into the damp walls,
+others piled up on the ground.  As you walk around, your feet
+slosh through the mud on the floor.  There is a heavy, musty
+smell here and you feel strange as if you are walking closer to
+your own death.  As you look around you see a stairway up and to
+the north is another part of the ossarium.
+^
+
+Cemetery e:WidePath2 w:WidePath ;
+Altitude = 600
+lflags {Outdoors}
+Cemetery^
+You are in the monastery cemetery.  There are many graves here,
+some of which are quite old.  However, you notice an empty grave.
+It seems that someone died recently or the monks are expecting a
+death, perhaps that of a visitor?
+^
+
+Church e:ChurchAltar w:^ChuDoorsIn;
+lflags {}
+Church^
+You have passed through the nave and are now standing at the
+transept crossing in the monk's church.  Although it's difficult
+to see because the windows don't allow very much light in, there
+is enough to see an altar beyond the chancel and inside the
+choir.
+^
+
+ChurchAltar s:NorthDorm w:Church d:^altar;
+lflags {}
+Church Altar^
+You are standing in front of the church altar.  The altar is made
+of stone and looks very heavy.  On its front are very frightening
+skulls that look so realistic you are afraid to even consider
+touching the altar.  To the south is a small doorway.
+^
+
+NorthDorm n:ChurchAltar s:MidDorm w:^CDoorOut1;
+lflags {}
+Dormitory^
+You have just entered the northern end of the hallway of the
+monk's dormitory.  There is a door to the west.
+^
+
+Cell1 e:^CDoorIn1 ;
+lflags {}
+Cell^
+You have entered a monk's cell.  There is a feather bed along one
+wall and a table and chair along the opposite wall.  There is a
+door to the east.
+^
+
+MidDorm n:NorthDorm s:SouthDorm w:^CDoorOut2 ;
+lflags {}
+Dormitory^
+You are in the hallway of the monk's dormitory which continues to
+the north and south.  To the west is a door.
+^
+
+Cell2 e:^CDoorIn2 ;
+lflags {NoMagic}
+Cell^
+You have entered a monk's cell.  There is a straw bed along one
+wall and a table and chair on the opposite wall.  Unlike the
+other cells in this dormitory this one seems to radiate truth,
+goodness, and knowledge.  There are scraps of parchment neatly
+stacked on the table.  There are feather quills bundled neatly
+next to them.  There is a door to the east.
+^
+
+SouthDorm n:MidDorm w:^CDoorOut3 ;
+lflags {}
+Dormitory^
+You are at the southern end of the hallway of the monk's
+dormitory.  There is a door to the west.
+^
+
+Cell3 e:^CDoorIn3 ;
+lflags {}
+Cell^
+You have entered a monk's cell.  There is a plank bed along one
+wall and a table and chair along the opposite wall.  There is a
+door to the east.
+^
+
+Smithy n:WidePath2;
+lflags {}
+Smithy^
+This is the monastery smithy.  You wonder why you entered this
+room because there is very little here of any value except
+perhaps for some tools of limited usefulness.
+^
+
+WidePath2 n:Pigsties e:Stables s:Smithy w:Cemetery;
+Altitude = 600
+lflags {Outdoors}
+Wide Path^
+You are on a wide dirt path which leads from the cemetery to
+other buildings in the monastery.  To the north are the pigsties,
+to the east are the stables, and to the south is the smithy.
+^
+
+Pigsties s:WidePath2;
+lflags {}
+Pigsties^
+You are in the monastery pigsties.  The smell in here is
+atrocious and as you scan the room you see that you are standing
+in the source of the smell.
+^
+
+Stables w:WidePath2;
+lflags {}
+Stables^
+You have entered the monastery stables.  The floor is covered
+with filthy hay except in one stall which is very well kept.
+^
+
+Library1 n:Library2 e:Library5 s:LibrEntr w:Library13;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+
+Library2 n:Library3 e:Library6 s:Library1 w:Library14;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+
+Library3 n:Library16 e:Library7;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+
+Library4 n:LibraryTrap e:Library8 s:Library3;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+
+LibraryTrap ;
+lflags {Dark Private}
+Library^
+You fall thru a trap door and find yourself trapped in a room of
+the library.  I hope someone can summon you out.
+^
+
+Library5 n:Library6 e:Library7 ;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+
+Library6 n:Library7 w:Library15;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+
+Library7 n:Library8 e:Library10 s:Library6;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+
+Library8 n:LibSecretRoom1 e:Library11 s:Library7;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+
+LibSecretRoom1 ;
+lflags {Death}
+Library Secret Room^
+The floorboards creak and groan unmercifully with your great
+weight and crack shifting the floor.  Struggle as you may, you
+lose your balance and fall on the floor.  The shock of your fall
+causes the boards to break and you fall through the floor into
+the Scriptorium below.  *splat*
+^
+
+LibSecretRoom2 n:Library9;
+lflags {CantSummon Dark Soundproof NoMagic}
+Library Secret Room^
+You have entered a store room where the librarian keeps the
+forbidden and dangerous books.  You are indeed worthy of praise
+for having made it to this room.  However, if the inquisition
+ever found out you were in here, you would surely die (after
+confessing, of course).
+^
+
+Library9 n:Library10 s:LibSecretRoom2 w:Library6;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+Library10 n:Library12 s:Library9 ;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+Library11 n:Library12 s:Library10 w:Library7;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+Library12 s:Library11 w:Library8 ;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+Library13 n:Library14 w:Library18;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+Library14 e:Library2 s:Library18 w:Library19;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+Library15 n:Library16 e:Library4 s:Library14;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+Library16 n:Library17 s:Library15 w:Library21 ;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+Library17 e:LibraryTrap s:Library16;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+Library18 n:Library14;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+Library19 n:Library20 s:Library13 ;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+Library20 e:Library15 s:Library14;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+Library21 n:LibSecretRoom3 s:Library20;
+lflags {Dark CantSummon Soundproof}
+Library^
+You are in part of the monastery library.  Unfortunately, the
+librarian is not very competent and books and scrolls are
+stacked everywhere disorienting you.
+^
+
+LibSecretRoom3 ;
+lflags {Death}
+Library Secret Room^
+You fall thru a trap door and plunge head first to your untimely
+death.  AAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHH!
+^

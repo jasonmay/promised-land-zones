@@ -1,0 +1,271 @@
+
+
+
+%mobiles
+
+Name            = Seamonster
+Location        = smon20
+Strength        = 5500 
+Armor           = 12
+Damage          = 38
+Aggression      = 0
+Speed           = 0
+Mflags          {BarEast}
+Eflags          {ImmShock ImmFireball ImmFrost ImmMissile}
+Sflags		{ NoBody }
+Description     = "The huge seamonster is sleeping here."
+Examine         = "He will be very mad if you wake him!"
+End             = Seamonster 
+
+Name            = Boatsman
+Location        = smon21
+Strength        = 10
+Armor           = 0
+Damage          = 8
+Aggression      = 0
+Speed           = 0
+Pflags {NoHassle}
+Description     = "
+As the village people heard the last scream of the seamonster, they sent
+a brave man to look for the possibly alive hero who slaughtered it."
+Examine  = "The boatsman says 'Sit down, I will take you to the village.'"
+End             = Boatsman
+
+%objects
+
+Name      = banana
+Location  = IN_ROOM:smon12
+Oflags    {Food}
+BValue    = 20
+Size      = 1
+Weight    = 2
+Desc[0]   = "A banana is hanging here."
+Examine   = "It's a banana."
+End       = banana
+
+Name      = inscription
+Location  = IN_ROOM:smon16
+Oflags    {NoGet}
+Size      = 1
+Weight    = 2
+Examine   = "
+There is written:
+It's big, it's huge!
+Better you flee before it kills you!"
+End       = inscription 
+
+Name      = energit
+Location  = IN_ROOM:smon16
+AltName   = pill
+Oflags {Destroyed}
+BValue    = 300
+Size      = 1
+Weight    = 1
+Desc[0]   = "Someone left here a pill of Energit."
+Examine   = "Energit Excel."
+End       = energit
+
+Name      = boat
+Location  = IN_ROOM:smon21
+Oflags  {NoGet Boat}
+Desc[0]   = "He stands here waiting in a boat."
+Examine   = "It looks stable."
+End       = boat
+
+Name      = dirt
+Location  = IN_ROOM:smon23
+Oflags {GetFlips}
+Size      = 12
+Weight    = 2
+BValue    = 0
+MaxState  = 1
+State     = 1
+Desc[1]   = "Some dirt is laying here."
+Desc[0]   = "Someone dropped some dirt here."
+Examine   = "
+There is an object in it, but you can't clear it enough with your hands."
+End       = dirt
+
+Name      = axe
+Location  = IN_ROOM:smon10
+Oflags {Destroyed Weapon}
+Damage    = 8
+Size      = 12
+Weight    = 2
+Desc[0]   = "A clean axe is laying here."
+Examine   = "Good for cutting wood."
+End       = axe
+
+Name      = water
+Location  = IN_ROOM:smon10
+Oflags {NoGet}
+Examine   = "The water looks wonderfully clear and blue."
+End       = water
+
+Name      = trees
+Location  = IN_ROOM:smon14
+Oflags {NoGet}
+Linked    = trees_1
+Maxstate  = 1
+State     = 1
+Desc[0]   = "A free way has been cut through the trees."
+Examine   = "Those sharp branches won't allow you to go through."
+End       = trees
+
+Name  = trees_1
+Pname = tree
+Oflags { NoGet }
+Location = IN_ROOM:smon17
+Linked   = trees
+End   = trees_1
+
+%locations
+
+smon1 n:5@sea e:7@sea s:smon2 w:7@sea;
+lflags {OnWater}
+All At Sea^
+   Strange, the water has become calmer here. Maybe some magical force
+made it so. As you look around the seas north and south seem to be safe.
+^
+
+smon2 n:smon1 e:smon3 s:7@sea w:7@sea;
+lflags {OnWater}
+All At Sea^
+   The water is very calm and warm here. You could very well relax by
+swimming in it. But when you look around it doesn't seem to be the same 
+picture. To the south and west are high waves and huge turbulence. To the 
+north it is calm.
+^
+
+smon3 w:smon2;
+lflags {}
+Small island^
+   You are standing on a small island. It is merely a huge rock poking out
+from the sea with no trees, no sand, nothing.  As you look around, the waves
+pound the north and south sides.  To the east the water is a bit streamy, but 
+the rocks are very sharp on that side and you could hurt yourself.
+It seems so that the only way out here is the way back.
+^
+
+smon4 ;
+lflags {OnWater}
+Turbulent Waters^
+	The water swallows you down and takes you with.  You narrowly miss
+many sharp rocks along the way as you are sucked into the undertow.  After
+nearly giving up hope of ever surviving the seas mercifully spit you out
+onto another island.
+^
+
+smon10 e:smon11;
+lflags {OutDoors}
+Sandy shore^
+   The &+Bwater&* spat you onto another island's sandy shore.  It
+isn't looking so inviting like before. The whole shore is covered 
+with decaying fish, but you can see some human bodies too.
+^
+
+smon11 n:smon23 e:smon14 s:smon13 w:smon10 u:smon12;
+lflags {OutDoors}
+Under the palm^
+   You are standing under a huge palm. Its palm leaves are giving you a nice 
+place to rest if you want to join the party with the skeleton lying here.
+You can choose to go any direction or try to climbing the palm.
+^
+
+smon12 d:smon11;
+lflags {OutDoors}
+On the palm^
+   You have shimmied up the palm. You can see the whole island with a cave
+to the south, the beach to the west and open water to the east. The only way 
+from here leads back down.
+^
+
+smon13 n:smon11 s:smon15;
+lflags {OutDoors}
+Muddy Way^
+   You are standing on a very muddy way. You can't imagine where the way
+leads. Around you are high palms, impossible to see or go through. 
+^
+
+smon14 w:smon11 e:^trees;
+lflags {OutDoors}
+Shiny way^
+   You are following the shiny way that leads to the sea.  You can see 
+wonderful &+gtrees&* and flowers around.  It is very silent and a really 
+nice place.  You don't have to look for something special, it's
+special already.
+^
+
+smon15 n:smon13 s:smon16;
+lflags {OutDoors}
+Before a cave^
+   You are standing before a small cave.  It seems to be a good place 
+for hiding from something big.  You can see around the entrance many deep
+gouges.  They look like they were made by huge claws. 
+^
+
+smon16 n:smon15 ;
+lflags {Dark}
+In the cave^
+   You are now standing in the cave. It's very dark and you can't see
+much.  The walls aren't very stable.  It looks like something that was built
+to hide from something. You can see an &+Cinscription&* on the south wall.
+^
+
+smon17 e:smon18 w:^trees_1;
+lflags {OutDoors}
+Way to sea^
+   You are at the end of the amazing way. The way is simply getting lost
+in the sea. The water is very calm, but it looks like a tunnel of calm water.
+Only the way that is travelled gives safe possibility to swim.
+^
+
+smon18 n:7@sea e:smon19 s:7@sea w:smon17;
+lflags {OnWater}
+Calm sea^
+   You are swimming in wonderful warm water.  High waves aren't 
+disturbing you but don't look in the north and south directions.
+^
+
+smon19 n:smon22 e:smon20 s:smon22 w:smon18;
+lflags {OnWater}
+Calm sea^
+   You are swimming in wonderful warm water. The high waves aren't
+disturbing you in any way.  When you look in the north and south directions,
+they don't look so horrible, but many turbulences and sharp rocks are there.
+As you see further to the east, you see something huge lying on an island.
+You can't imagine what it could be.
+^
+
+smon20 e:smon21 w:smon19;
+lflags {OutDoors}
+Island shore^
+   You are standing on another island shore. How many islands are here?
+This island used to be is very special.  Now it's very wasted.  Everything
+is smashed apart into nothing. Total devastation.
+^
+
+smon21 w:smon20;
+lflags {OutDoors}
+Island shore^
+	You are following the devastated island shore. Really unbelievable
+what the creature was able to do. All trees are broken, there are no animals,
+not even a ghost is here. That was a trip.
+^
+
+smon22 ;
+lflags {OnWater}
+All at sea^
+	You had really lot of luck that you could escape those huge waves
+and turbulences. Maybe you won't have so much luck again. You prompty swim
+back to an another safer place.
+^
+
+smon23 s:smon11;
+lflags {OutDoors}
+Sunny place^
+	You are standing on a sunny place. You can feel the warm sun on your
+body. You can't believe your eyes, there are so many trees, but not one of
+them is gives any shade. You can go only back to south.
+^
+

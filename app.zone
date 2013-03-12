@@ -1,0 +1,786 @@
+
+
+
+
+%mobiles
+
+Name        = Almin
+Pname       = "Master Almin"
+Location    = app32
+EFlags   { Blind Fireball Frost Shock Vtouch Icestorm Missile Damage Protect }
+MFlags      { Barsouth GrabHostile NoSteal } 
+PFlags      { NoZap }
+Strength    = 1500
+Damage      = 8
+Armor       = 0
+Aggression  = 0
+Speed       = 0
+Description = "Master Almin, the dark master mage stands before you."
+Examine     = "
+You see the target of your mission. He looks scrawny to you, but most mages 
+do. One lesson you've learned over the years is to never underestimate a mage."
+End         = Almin
+
+Name        = hermit
+Location    = app7
+Eflags      { }
+PFlags      { NoHassle NoZap }
+Strength    = 50
+Damage      = 8
+Armor       = 0
+Aggression  = 0
+Speed       = 0
+Description = "An old hermit stares at you from the corner of the room."
+End         = hermit
+
+Name        = Utgar
+Location    = app22
+EFlags      { Fireball Frost Missile }
+PFlags      { }
+Strength    = 500
+Damage      = 15
+Armor       = 15
+Aggression  = 0
+Speed       = 0
+Description = "Utgar stares at you intently."
+Examine     = "
+I must congratulate you. You have proven yourself worthy to join
+the dark master's rank of apprentices. By passing through the Dead
+Woods, you are more than ready to help take what is rightfully ours!"
+End         = Utgar
+
+Name        = Elaine
+Location    = app5
+EFlags      { Vtouch Icestorm Blind Protect }
+MFlags      { NoCorpse }
+Strength    = 1000
+Damage      = 20
+Armor       = 35
+Aggression  = 0
+Speed       = 0
+Description = "Elaine looks up and says, 'Are you here to help us?'."
+End         = Elaine
+
+Name        = creation
+Location    = app31
+Strength    = 300
+Damage      = 30
+Armor       = 35
+Aggression  = 50
+Speed       = 1
+Description = "One of Almin's horrible creations lumbers around."
+Examine     = "
+Hopefully you won't get in a fight with it. Though not known for it's mental
+abilities, it was created to be one tough opponent."
+End         = creation
+
+Name        = wolf
+Pname       = "Frost Wolf"
+Location    = app11
+EFlags      { Frost }
+Strength    = 200
+Damage      = 15
+Armor       = 10
+Aggression  = 95
+Speed       = 3
+Description = "An icy frost wolf gets ready to pounce you."
+Examine     = "
+Frost wolves are known for their icy breath, better be careful."
+End         = wolf
+
+Name        = wolf_1
+Pname       = "Frost Wolf"
+Location    = app13
+EFlags      { Frost }
+Strength    = 100
+Damage      = 15
+Armor       = 10
+Aggression  = 95
+Speed       = 3
+Description = "An icy frost wolf gets ready to pounce you."
+Examine     = "
+Frost wolves are known for their icy breath, better be careful."
+End         = wolf_1
+
+Name        = wolf_2
+Pname       = "Frost Wolf"
+Location    = app13
+EFlags      { Frost }
+Strength    = 100
+Damage      = 15
+Armor       = 10
+Aggression  = 95
+Speed       = 3
+Description = "An icy frost wolf gets ready to pounce you."
+Examine     = "
+Frost wolves are known for their icy breath, better be careful."
+End         = wolf_2
+
+Name        = wolf_3
+Pname       = "Frost Wolf"
+Location    = app13
+EFlags      { Frost }
+Strength    = 100
+Damage      = 15
+Armor       = 10
+Aggression  = 95
+Speed       = 3
+Description = "An icy frost wolf gets ready to pounce you."
+Examine     = "
+Frost wolves are known for their icy breath, better be careful."
+End         = wolf_3
+
+%objects 
+
+Name     = staff
+oflags   = { weapon lit }
+PName    = "Staff"
+State    = 0
+MaxState = 0
+Damage   = 30
+BValue   = 100
+Size     = 10
+Weight   = 10
+Location = WIELDED_BY:Almin
+Desc[0]  = "A smooth black staff has been left here."
+Examine  = "
+This staff has been magically enhanced to do more damage."
+End      = staff
+
+Name     = robe
+oflags   = { wearable armor armorspell blurspell lit }
+aflags   = { back arms chest }
+PName    = "Robe"
+State    = 0
+MaxState = 0
+Armor    = 40
+BValue   = 100
+Size     = 5
+Weight   = 5
+Location = WORN_BY:Almin
+Desc[0]  = "A crumpled black robe has been tossed here."
+Examine  = " This robe has been enchanted to protect the wearer better."
+End      = robe
+
+Name     = crystal
+altname  = ball
+oflags   = { lit getflips }
+State    = 1
+MaxState = 1
+BValue   = 300
+Size     = 7
+Weight   = 5
+Location = IN_ROOM:app32
+Desc[0]  = "A crystal ball has been left here on the ground."
+Desc[1]  = "A crystal ball sits upon a pedestal."
+Examine  = "This crystal ball swirls with magical lightning."
+End      = crystal
+
+Name     = diamond
+oflags   = { }
+PName    = "Diamond"
+BValue   = 400
+Size     = 2
+Weight   = 2
+Location = IN_ROOM:app34
+Desc[0]  = "A rather large diamond has been left here."
+Examine  = "This diamond is probably worth some money."
+End      = diamond
+
+Name     = wand
+oflags   = { }
+PName    = "Wand"
+State    = 1
+MaxState = 1
+BValue   = 300
+Size     = 2
+Weight   = 2
+Location = IN_ROOM:app34
+Desc[1]  = "A somewhat invisible wand lies hidden here."
+Examine  = "
+Though this wand looks magical, you can't seem to figure
+out how it works."
+End      = wand
+
+Name     = bulletin
+AltName  = notice 
+Location = IN_ROOM:app1 
+Desc[0]  = "A small bulletin board is nailed to the wall with a notice." 
+Oflags   { NoGet } 
+Examine  = " 
+A notice on the board catches your eye. It reads:
+     We are looking to hire an adventurer to help us neutralize
+a large problem that has been brewing for the last couple of
+months. Please inquire within." 
+End      = bulletin
+
+Name     = sign
+Location = IN_ROOM:app2
+Desc[0]  = "A flashing sign seems to be trying to get your attention."
+Oflags   { NoGet }
+Examine  = "
+If you are here to help us with our problem, please go north.
+If you are not, please leave immediately.
+"
+End      = sign
+
+Name     = bone
+oflags   = { weapon }
+PName    = "Femur"
+State    = 0
+MaxState = 0
+Damage   = 10
+BValue   = 5
+Size     = 6
+Weight   = 6
+Location = IN_ROOM:app15
+Desc[0]  = "Looks like someone lost their femur."
+Examine  = "You feel like a caveperson wielding this bone."
+End      = bone
+
+Name     = sack
+OFlags   { Container Openable }
+Size     = 50
+Weight   = 1
+BValue   = 50
+State    = 1
+MaxState = 1
+Location = CARRIED_BY:hermit 
+Desc[1]  = "A small, closed sack has been left here."
+Desc[0]  = "Someone left an open sack here."
+Examine  = "Looks like it could hold some junk."
+End      = sack
+
+Name     = wood
+Size     = 1
+Weight   = 1
+BValue   = 0
+State    = 0
+MaxState = 0
+Location = IN_CONTAINER:sack
+Desc[0]  = "A piece of wood lies here."
+End      = wood
+
+Name     = metal
+Size     = 1
+Weight   = 1
+BValue   = 0
+State    = 0
+MaxState = 0
+Location = IN_CONTAINER:sack
+Desc[0]  = "A piece of metal lies here."
+End      = metal
+
+Name     = nail
+Size     = 1
+Weight   = 1
+BValue   = 0
+State    = 0
+MaxState = 0
+Location = IN_CONTAINER:sack
+Desc[0]  = "A nail lies here."
+End      = nail
+
+Name     = can
+Size     = 1
+Weight   = 1
+BValue   = 0
+State    = 0
+MaxState = 0
+Location = IN_CONTAINER:sack
+Desc[0]  = "An empty can lies here."
+End      = can
+
+Name     = glass
+Size     = 1
+Weight   = 1
+BValue   = 0
+State    = 0
+MaxState = 0
+Location = IN_CONTAINER:sack
+Desc[0]  = "A piece of glass lies here."
+End      = glass
+
+Name     = cork
+Size     = 1
+Weight   = 1
+BValue   = 0
+State    = 0
+MaxState = 0
+Location = IN_CONTAINER:sack
+Desc[0]  = "A cork lies here."
+End      = cork
+
+Name     = napkin
+Size     = 1
+Weight   = 1
+BValue   = 0
+State    = 0
+MaxState = 0
+Location = IN_CONTAINER:sack
+Desc[0]  = "A folded napkin lies here."
+End      = napkin
+
+Name     = fork
+Size     = 1
+Weight   = 1
+BValue   = 0
+State    = 0
+MaxState = 0
+Location = IN_CONTAINER:sack
+Desc[0]  = "A broken fork lies here."
+End      = fork
+
+Name     = ring
+AFlags   { Hand }
+OFlags   { Wearable Armor }
+Size     = 2
+Weight   = 1
+BValue   = 200
+Armor    = 20
+State    = 0
+MaxState = 0
+Location = IN_CONTAINER:sack
+Desc[0]  = "An emerald ring has been carelessly left here."
+Examine  = "Engraved on the ring are the words RUB ME."
+End      = ring
+
+Name     = stonekey
+Oflags   { Key }
+Size     = 3
+Weight   = 5
+BValue   = 5
+State    = 0
+MaxState = 0
+Location = IN_ROOM:app28
+Desc[0]  = "A large stone key lies here."
+Examine  = "This key is rather large and cumbersome."
+End      = stonekey
+
+Name     = body
+Oflags   { NoGet Container }
+size     = 25
+State    = 0
+MaxState = 0
+Location = IN_ROOM:app30
+Examine  = "
+This body sure looks dead. Maybe he was trying to kill the
+dark mage, just like you."
+End      = body
+
+Name     = spellbook
+AltName  = book
+size     = 10
+BValue   = 200
+State    = 0
+MaxState = 0
+Location = IN_CONTAINER:body
+Desc[0]  = "Some apprentice must have lost their spell book."
+Examine  = "
+This is a spell book from the Tower of Sorcery. Looks valuable
+to any mage. Too bad you don't have time to study the spells."
+End      = spellbook
+
+Name    = tower_out 
+PName   = gate 
+Linked  = tower_in
+State   = 1 
+MaxState= 1
+Location= IN_ROOM:app1 
+oflags  { Openable NoGet } 
+Desc[0] = "The gate to the north is open." 
+Desc[1] = "The gate into the tower is closed." 
+Examine = "The large gate seems strong enough to stop an army."
+End     = tower_out
+
+
+Name    = tower_in
+PName   = gate 
+Linked  = tower_out
+State   = 1 
+MaxState= 1
+Location= IN_ROOM:app2 
+oflags  { Openable NoGet } 
+Desc[0] = "The gate to the outside is open." 
+Desc[1] = "The gate is closed." 
+Examine	= "The large gate seems strong enough to stop an army."
+End     = tower_in
+
+Name    = portal_out 
+PName   = portal 
+Linked  = portal_in
+State   = 0 
+MaxState= 1
+Location= IN_ROOM:app5 
+oflags  { NoGet} 
+
+Examine = "All you see is a blank wall."
+End     = portal_out
+
+
+Name    = portal_in
+PName   = portal 
+Linked  = portal_out
+State   = 0 
+MaxState= 1
+Location= IN_ROOM:app2
+oflags  { NoGet } 
+Desc[0] = "A portal lies to the north." 
+Desc[1] = "What once was a portal is now nothing, it is sealed up."
+Examine	= "All you see through the portal is a swirling mist."
+End     = portal_in
+
+Name    = prison_in 
+PName   = door 
+Linked  = prison_out
+State   = 1 
+MaxState= 2
+
+Location= IN_ROOM:app28 
+oflags  { Openable NoGet Lockable } 
+Desc[0] = "The southern door is open." 
+Desc[1] = "The southern door is closed." 
+Desc[2] = "The southern door is locked."
+Examine = "It is a sturdy oak door."
+End     = prison_in 
+
+Name    = prison_out
+PName   = door 
+Linked  = prison_in
+State   = 1 
+MaxState= 2
+Location= IN_ROOM:app30 
+oflags  { Openable NoGet Lockable } 
+Desc[0] = "The door is open." 
+Desc[1] = "The door is closed." 
+Desc[2] = "The door is locked."
+Examine	= "It is a sturdy oak door."
+End     = prison_out
+
+Name    = hold_in 
+PName   = door 
+Linked  = hold_out
+State   = 1 
+MaxState= 2
+
+Location= IN_ROOM:app28 
+oflags  { Openable NoGet Lockable } 
+Desc[0] = "The western door is open." 
+Desc[1] = "The western door is closed." 
+Desc[2] = "The western door is locked."
+Examine = "It is a sturdy oak door."
+End     = hold_in 
+
+Name    = hold_out
+PName   = door 
+Linked  = hold_in
+State   = 1 
+MaxState= 2
+Location= IN_ROOM:app31 
+oflags  { Openable NoGet Lockable } 
+Desc[0] = "The door is open." 
+Desc[1] = "The door is closed." 
+Desc[2] = "The door is locked."
+Examine	= "It is a sturdy oak door."
+End     = hold_out
+
+%locations 
+
+app1 n:^tower_out e:town43@town;
+lflags {Outdoors}
+Before the Tower^
+      You have arrived at the Tower of Sorcery. It looks rather small to be
+the home of hundreds of mages, but with magic almost anything is possible. 
+^
+
+app2 n:^portal_in e:app3 s:^tower_in w:app4; 
+lflags {} 
+Foyer^ 
+      You stand in a rather empty foyer. Exits lead in all directions. 
+Large bright X's are over the doors leading east and west. You could
+always go south, back outside.
+^
+
+app3 w:app2;
+lflags { Death }
+Library^
+      You enter the main library, where many mages and apprentice mages are
+working. 
+      As you take your second step, a voice in your head screams, "We
+did not invite you in this tower to explore! We have warned you, now you
+must face the consequences!" 
+      A bolt of lightning appears out of nowhere and strikes you. You feel
+no jolt of pain. You take a look at yourself and see that you have turned
+into a cricket. A very dead cricket stuck to the bottom of a shoe. 
+^
+
+app4 e:app2;
+lflags { Death }
+Laboratory^
+      The mages laboratory is filled with glass beakers and flasks. Some
+filled with mysterious liquids. To one side of the wall, cages are stacked
+on top of each other, containing various small animals.
+      As you take your second step, a voice in your head screams, "We
+did not invite you in this tower to explore! We have warned you, now you
+must face the consequences!"
+      A bolt of lightning appears out of nowhere and strikes you. Though
+you are sure it hit you, you felt no jolt of pain. As you take a look at
+yourself to make sure, you notice a long elongated nose with whiskers, and
+furry paws. You seem to have been turned into a mouse. As you take a look
+at your surroundings, you are picked up by the tail and put into one of 
+the cages. Here you wait for whatever horrible fate awaits you.
+^
+
+app5 s:^portal_out;
+lflags { NoMagic }
+Meeting Room^
+      You find yourself in some sort of meeting room. A large table
+dominates the center of the room. Papers and other objects as covering
+almost every inch of the table. Around the table are numerous sage like
+mages, almost all of them with gray beards. One mage at the head of the
+table appears to be the leader.
+^
+
+app6 s:app8 w:app7;
+lflags { Outdoors NoMobiles }
+Before the Dead Woods^
+      Before you lies the Dead Woods. From rumors you have heard, very
+few have entered and have exited without being changed in some way. Those
+who have exited are so frightened by what they have seen, they cannot
+describe it to others.
+      To the west lies a small shack. While to the south, you may enter
+the woods.
+^
+
+app7 e:app6;
+lflags {}
+Inside the Shack^
+      The shack doesn't look any better inside than it did from the
+outside. Old furniture lie scattered around the room. Otherwise there
+are no items of import in this shack.
+^
+
+app8 n:app6 e:app9 s:app10 w:app12;
+lflags { Outdoors }
+Dead Woods^
+       You are inside the Dead Woods. Strange sounds of ghosts and other 
+horrors drift through the woods, giving you an eerie feeling.
+^
+
+app9 n:app16 e:app9 s:app8 w:app12;
+lflags { Outdoors }
+Dead Woods^
+       You are inside the Dead Woods. Strange sounds of ghosts and other 
+horrors drift through the woods, giving you an eerie feeling.
+^
+
+app10 n:app10 e:app9 s:app8 w:app8;
+lflags { Outdoors }
+Dead Woods^
+       You are inside the Dead Woods. Strange sounds of ghosts and other 
+horrors drift through the woods, giving you an eerie feeling.
+^
+
+app11 n:app17 e:app14 s:app17 w:app19;
+lflags { Outdoors }
+Dead Woods^
+       You are inside the Dead Woods. Strange sounds of ghosts and other 
+horrors drift through the woods, giving you an eerie feeling.
+^
+
+app12 n:app12 e:app9 s:app15 w:app17;
+lflags { Outdoors }
+Dead Woods^
+       You are inside the Dead Woods. Strange sounds of ghosts and other 
+horrors drift through the woods, giving you an eerie feeling.
+^
+
+app13 n:app17 e:app19 s:app20 w:app13;
+lflags { Outdoors }
+Dead Woods^
+       You are inside the Dead Woods. Strange sounds of ghosts and other 
+horrors drift through the woods, giving you an eerie feeling.
+^
+
+app14 n:app9 e:app13 s:app16 w:app15;
+lflags { Outdoors }
+Dead Woods^
+       You are inside the Dead Woods. Strange sounds of ghosts and other 
+horrors drift through the woods, giving you an eerie feeling.
+^
+
+app15 n:app16 e:app12 s:app16 w:app13;
+lflags { Outdoors }
+Dead Woods^
+       You are inside the Dead Woods. Strange sounds of ghosts and other 
+horrors drift through the woods, giving you an eerie feeling.
+^
+
+app16 n:app9 e:app12 s:app11 w:app18;
+lflags { Outdoors }
+Dead Woods^
+       You are inside the Dead Woods. Strange sounds of ghosts and other 
+horrors drift through the woods, giving you an eerie feeling.
+^
+
+app17 n:app12 e:app9 s:app13 w:app11;
+lflags { Outdoors }
+Dead Woods^
+       You are inside the Dead Woods. Strange sounds of ghosts and other 
+horrors drift through the woods, giving you an eerie feeling.
+^
+
+app18 n:app16 e:app19 s:app15 w:app12;
+lflags { Outdoors }
+Dead Woods^
+       You are inside the Dead Woods. Strange sounds of ghosts and other 
+horrors drift through the woods, giving you an eerie feeling.
+^
+
+app19 n:app15 e:app10 s:app15 w:app8;
+lflags { Outdoors }
+Dead Woods^
+       You are inside the Dead Woods. Strange sounds of ghosts and other 
+horrors drift through the woods, giving you an eerie feeling.
+^
+
+app20 n:app17 e:app8 s:app21 w:app19;
+lflags { Outdoors }
+Dead Woods^
+       You are inside the Dead Woods. Strange sounds of ghost and 
+other horrors drift through the woods, giving you an eerie feeling. 
+You are about to give up hope, when you notice a tower spire to the
+south.
+^
+
+app21 n:app20 s:app22;
+lflags { NoMobiles Outdoors }
+Almin's Fortress^
+       You have finally reached the dark mage's fortress. The entrance
+does not appear to be guarded. It looks like you'll have an easy time
+getting in.
+^
+
+app22 n:app21 e:app24 s:app23;
+lflags { }
+Dark Hallway^
+       You stand in a dimly lit hallway. To the west is a stairwell.
+While to the south is a large room.
+^
+app23 n:app22;
+lflags { }
+Main Hall^
+       You are in what appears to be the main hall of this fortress. 
+Numerous apprentices are scattered at tables, studying the art of magic.
+Other apprentices are in groups talking with each other.
+       As you try to look through the exits, guards block your view,
+stating, "No apprentices allowed through here." Guess you have nowhere
+else to go here.
+^
+
+app24 w:app22 u:app25 d:app27;
+lflags { }
+Stairwell^
+      A spiral staircase leads both up and down.
+^
+
+app25 w:app26 d:app24;
+lflags { }
+Top of Stairs^
+       You are at the top of the stairs. Good thing there are guardrails.
+It doesn't look like a pleasant fall.
+^
+
+app26 e:app25 w:app32;
+lflags { }
+Upper Hallway^
+       Like the hallway below, it is dimly lit. Doors line the walls, but
+they all seem to be magically locked. At the end of the hallway is a door
+marked with the word "Master." This door appears to be slightly ajar.
+^
+
+app27 w:app28 u:app24;
+lflags { }
+Bottom of Stairs^
+       You have reached the bottom of the stairs. To the west is what
+appears to be a dungeon. You can now hear the screams of pain that come
+from one of the rooms.
+^
+
+app28 n:app29 e:app27 s:^prison_in w:^hold_in;
+lflags { }
+Dungeon^
+       As you step into the room, the stench that quickly enters your nose
+makes you cringe. When you have adjusted to the smell as best you can, you
+take a look at your surroundings.
+       To the north appears to be some sort of laboratory or torture
+chamber, you're not quite sure. To the south and west are closed doors,
+possibly locked. From behind the door to the west you hear some sort of 
+scratching.
+^
+
+app29 s:app28;
+lflags { }
+Lab^
+      You have entered the dark mage's experiment lab. Large glass tanks
+contain prisoners under transformations from the dark mage's spells. Some
+of the tanks contain creature that might have been human before, but now
+are indescribable terrors.
+^
+
+app30 n:^prison_out;
+lflags { }
+Prison Cell^
+       The prisoners within this room look like they haven't been fed for
+a long time. Many of them barely move when you enter. From the looks of
+it, you won't be able to save them right now. You can only hope to save 
+them by killing the dark mage.
+       In the corner of the room, bodies of the dead prisoners have been
+piled up and left there to rot. The most recent body looks like one of
+the mages from the Tower of Sorcery.
+^
+
+app31 e:^hold_out;
+lflags { }
+Holding Cell^
+       You have entered what appears to be the holding cell for the dark
+mage's experiments. The walls and floors in this room are covered with
+blood and pieces of carcass.
+^
+
+app32 n:app33 e:app26 s:app34 w:app35;
+lflags { NoMagic CantSummon NoSummon NoQuit NoSnoop Soundproof}
+Almim's Private Chamber^
+       You have entered the dark mage Almin's chamber. Unlike most evil
+masterminds, Almin does not mind visitors. One reason being that he
+believes himself to be one of the most powerful mages. The mages at the
+Tower of Sorcery believes so as well. Another reason for Almin's 
+care freeness, is that this chamber is enchanted with numerous spells of
+protection.
+       To the north you see a small fountain bubbling. To the south is
+Almin's treasure room. To the west is a balcony.
+^
+
+app33 s:app32;
+lflags { FastHeal FastMana Peaceful }
+Fountain^
+       This room is Almin's resting chamber. Here he can rejuvenate
+himself from a hard days work of trying to take over the world. Tasting
+the water from the fountain, finds the water slightly magical tasting, 
+but nothing else.
+^
+
+app34 n:app32;
+lflags { }
+Treasure Chamber^
+       A king's ransom of gold and treasure lie in this room. Knowing
+you won't be able to take it all with you, you selectively pick what you
+think are best.
+^
+
+app35 e:app32;
+lflags { Outdoors }
+Balcony^
+       This balcony overlooks the Dead Woods. Though not much of a site,
+you can understand that it is better than staying inside all day.
+^

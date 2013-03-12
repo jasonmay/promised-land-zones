@@ -1,0 +1,142 @@
+
+
+
+%mobiles
+
+name = Cathy
+location = Cresso1
+strength = 2000
+pflags  {nopunt nozap noexorcise noalias nosummon nosteal noforce noburn nosic}
+sflags	{ female}
+damage = 500
+armor = 400
+speed = 0
+aggression = 0
+description = "The big cat, &+RCathy&*, is here looking if you have some food
+on you."
+examine = "She is awfully obese. She looks very old and tired. When you look
+at her, you feel an intense feeling of respect. She has been
+living on the Promised Land for a very long time and her power is almost
+infinite."
+end = Cathy
+
+Name            = "Guardian"
+Pname           = "The Guardian"
+Location        = Closet1
+MFlags          { BarNorth }
+Strength        = 100
+Damage          = 100
+Armor           = 100
+Aggression      = 0
+Speed           = 0
+Description     = "A large, hulking figure prevents you from entering Cresso's Bedroom."
+Examine         = "
+The Guardian of Cresso's Closet blocks your way to his bedroom. Mortals, you
+stand NO chance against him."
+End             = "Guardian"
+
+Name = Charlie
+Pname = "Charlie the Hamster"
+Location = Closet1
+Strength = 20
+Speed = 0
+Description     = "A small brown hamster with a white spot on its left ear runs
+on his wheel here."
+Examine = "
+Taking a second look at this hamster, it stops running and says 'Hello' while wa
+ving at you. How odd?"
+End = Charlie
+
+%objects
+
+name = Masamune
+altname = mas
+oflags { weapon key regenhealth regenmana container fireballspell
+istormspell shockspell frostspell noget }
+location = IN_ROOM:Cresso1
+damage = 99999
+bvalue = 10000
+state = 1
+maxstate = 1
+desc[1] = "Behold! the almighty &+mMasamune&* is here."
+examine = "You feel incredible strenght coming from that blade. Be careful
+not to cut yourself."
+
+name = PaladinShield
+altname = Pal
+oflags { armor wearable regenmana regenhealth container aidspell lit noget
+shield }
+location = WORN_BY:Cathy
+armor = 200
+bvalue = 10000
+state = 1
+maxstate = 1
+desc[1] = "There is a large beautyful black&+m shield&* here."
+examine = "This is the mythical Paladin Shield. It is very light but seem
+impossible to pierce. It is also very beautyful. In fact, it is the best
+piece of equipment you've ever seen, and that you will probably ever see."
+
+name = Narsya
+altname = Nar
+oflags { Getflips regenmana armor regenhealth lit noget wearable }
+Aflags { Hand }
+location = IN_ROOM:Cresso1
+size = 1
+armor = 0
+weight = 1
+bvalue = 10000
+state = 1
+maxstate = 1
+desc[1] = "The fabled ring &+mNarsya&* is here, glowing."
+examine = "Altough it is just a ring, it gives you a powerful feeling. In
+fact, it is the legendary Narsya which has been lost trough time."
+End = Narsya
+
+Name = jacket
+OFlags          { NoGet }
+Armor           = 100
+BValue          = 5000
+Size            = 1
+Weight          = 1
+Location = IN_ROOM:Closet1
+Desc[0] = "Cresso's Jacket has been thrown aside here, gathering dust."
+Examine = "
+Further examining the jacket, you find its premium quality black leather with 
+diamond-studded buttons. Very chic."
+End = jacket
+
+Name = hat
+OFlags          { NoGet }
+Armor           = 100
+BValue          = 5000
+Size            = 1
+Weight          = 1
+Location = IN_ROOM:Closet1
+Desc[0]        = "Cresso's hat sits on a shelf here."
+Examine         = "
+This is a black hat with the words Promised Land in red embroidered on the side and a silver sword in a gray stone on the front."
+End             = hat
+
+%locations
+
+Cresso1 n:Church@start s:Closet1;
+lflags {party owner fastmana fastheal noat }
+&+cCresso's bedroom^
+	You enter a nice bedroom. There is a huge bed in the center of 
+the room. The person who owns this room must be a pretty important one. 
+Also, this probably means that you are not supposed to be in here. This 
+room isn't realy part of this world. It somehow contains elements from 
+another dimension. Like an obese cat and a slot machine.
+There is a closet on the south side of the room.
+The ambiance is fantastic. You feel like you could stay here forever.
+^
+
+Closet1 n:Cresso1;
+lflags {}
+Cresso's Closet^
+    As you look around in His closet, you see sun beams filtering through
+the dust and reflecting off the wooden floor. There are three chairs 
+sitting around a table, showing off the closet's large size. There is not 
+much too this room except the odd aura of energy surrounding everything 
+inside it, making you feel quite powerful and tranquil at the same time.
+^

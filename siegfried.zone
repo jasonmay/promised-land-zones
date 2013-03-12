@@ -1,0 +1,177 @@
+
+
+
+%mobiles
+
+name = Didier
+location = siegfried1
+strength = 1
+damage = 1
+armor = 0
+speed = 0
+description = "Didier, Siegfried's brother, is lying here on a towel and taking
+a tan."
+examine = "Didier is extremely weakly built but is in excellent condition
+though. He looks like a big dumb fag."
+end = Didier
+
+
+%objects
+
+name = SwordOfLight
+altname = SWOLlflags
+oflags { weapon key container fireballspell shockspell frostspell noget
+regenmana regenhealth aidspell openable }
+location = IN_ROOM:siegfried1
+damage = 200
+bvalue = 10000
+state = 1
+maxstate = 1
+desc[1] = "The powerful &+BSword &+Wof &+YLight&* is here."
+examine = "This sword is as light as air.  It is very powerful, only a few
+may wield this deadly weapon."
+end = SwordOfLight
+
+name = ArmorOfLight
+altname = AOL
+location = IN_ROOM:siegfried2
+oflags { armor openable wearable container key lit noget regenmana
+regenhealth }
+size = 1
+weight = 1
+state = 1
+maxstate = 1
+bvalue = 1000
+armor = 200
+desc[1] = "The majestic &+BArmor &+Wof &+YLight&* is standing here on its
+stand."
+examine = "This armor seems to be made of the same matter as the Sword of
+Light. This armor can really help you in your quest."
+end = ArmorOfLight
+
+name = HelmetOfLight
+altname = HOL
+location = IN_ROOM:siegfried2
+oflags { openable armor wearable container key lit noget regenmana
+regenhealth }
+size = 1
+weight = 1
+state = 1
+maxstate = 1
+bvalue = 10000
+armor = 200
+desc[1] = "The beautiful &+BHelmet &+Wof &+YLight&* is standing here on its
+stand."
+examine = "This beautiful helmet can only be worn by those who can get it."
+end =  HelmetOfLight
+
+name = BootsOfLight
+altname = BOL
+location = IN_ROOM:siegfried2
+oflags { openable armor wearable container key lit noget regenmana
+regenhealth }
+size = 1
+weight = 1
+state = 1
+maxstate = 1
+bvalue = 10000
+armor = 200
+desc[1] = "The magnificient &+BBoots &+Wof &+YLight&* rest here on their
+stand."
+examine  = "Only the immortal people can wear these magnificient boots."
+end = BootsOfLight
+
+name = ChestOfLight
+altname = COL
+location = IN_ROOM:siegfried2
+oflags { container openable lockable noget }
+state = 2
+maxstate = 2
+desc[2] = "The &+BChest &+Wof &+YLight&* is locked."
+desc[1] = "The &+BChest &+Wof &+YLight&* is closed."
+desc[0] = "The &+BChest&+W of &+YLight&* is open."
+examine = "This chest belongs to Siegfried and contains some pure energy items.
+Handle with care."
+end = chestoflight
+              
+name = BraceletOfLight
+altname = BrOL
+location = IN_CONTAINER:chestoflight
+oflags { openable armor wearable lit regenmana regenhealth noget key
+container }
+size = 1      
+weight = 1    
+state = 1     
+maxstate = 1  
+bvalue = 10000
+armor = 200
+desc[1] = "The &+BBracelet &+Wof &+YLight &*is here."
+examine = "This bracelet with a pur white material. It's an object that you
+should keep preciously."
+end = braceletoflight
+
+name = RingOfLight   
+altname = ROL 
+location = IN_CONTAINER:chestoflight
+oflags { openable armor lit wearable regenmana regenhealth key noget container }
+size = 1         
+weight = 1       
+armor = 200      
+state = 1        
+maxstate = 1     
+bvalue = 10000   
+desc[1] = "The &+BRing &+Wof &+YLight&* is here."
+examine = "This ring is made of pure white material that only Simon knows
+how to manipulate. It's a very valuable item."
+end = ringoflight
+
+name = WardrobeOfLight
+altname = WOL
+location = IN_ROOM:siegfried2
+oflags { lockable openable container noget }
+state = 2
+maxstate = 2
+desc[2] = "In one corner of the room, there's the &+BWardrobe &+Wof
+&+YLight&*. It's locked."
+desc[1] = "The &+BWardrobe &+Wof &+YLight&* is closed."
+desc[0] = "The &+BWardrobe &+Wof &+YLight&* is open."
+examine = "This holy wardrobe contains very powerful items."        
+end = wardrobeoflight
+                     
+name = RobeOfLight
+altname = RoOL
+location = IN_CONTAINER:wardrobeoflight
+oflags { container openable armor wearable key lit noget regenmana
+regenhealth }
+size = 1      
+weight = 1    
+state = 1     
+maxstate = 1  
+armor = 200   
+desc[1] = "The &+BRobe &+Wof &+YLight&* is here."
+examine = "This &+BRobe &+Wof &+YLight&* is made of a pure material. It's
+very powerful."
+end = robeoflight
+
+%locations
+
+siegfried1 d:siegfried2 ;
+lflags { party }
+&+cSiegfried's Beach^
+        You don't understand why but the panorama slowly changes from the
+building to a beautiful golden sand beach. It's a sunny day and the sun is
+really hot. You hear the waves pounding on the sand. This splendid place
+gives you just the taste of lying on a soft towel to sleep on the sand.
+
+Not far off the coast you see a shimmering light coming from the sea. As
+you approach from the source of the light, you discover that's a sword.
+^
+
+siegfried2 u:siegfried1 d:Church@start;
+lflags {party }
+&+cSiegfried's Living Room^
+        The beach leave the place to another place. All here is calm. It's
+dark here but a fire in a fireplace provide a bit of light. The walls are
+grey and there's grey moquette. All you feel is to relax and sleep on the
+comforty couch just in front of the fire.
+^

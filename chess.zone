@@ -1,0 +1,2272 @@
+
+
+
+%mobiles
+
+Name = checker
+Pname = "The Red Checker"
+Location = chessQQ44
+Strength = 35
+Damage = 5
+Speed = 2
+Sflags { NoBody }
+Description = "A red checker piece is here...on a chessboard?!?"
+Examine = "It seems someone wanted to play checkers instead, and this piece got lost."
+End = checker
+
+Name = mobQQ00
+Pname = "the Tunnel Troll"
+Location = chessQQ01
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff}
+Strength = 35
+Damage = 6
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "A tunnel troll wanders about here."
+Examine = "The troll is small, dark, and smelly.  You would be willing
+to bet that he has never seen the light of day.
+"
+End = mobQQ00
+
+Name = mobQQ01
+Pname = "the Black Pawn"
+Location = chessQQ14
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 35
+Damage = 7
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A Black Pawn shuffles around nervously here."
+Examine = "The pawn seems to be made of carved wood, and animated by 
+some magical means.
+"
+End = mobQQ01
+
+Name = mobQQ01_1
+Pname = "the Black Pawn"
+Location = chessQQ17
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 35
+Damage = 7
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A Black Pawn shuffles around nervously here."
+Examine = "The pawn seems to be made of carved wood, and animated by 
+some magical means.
+"
+End = mobQQ01_1
+
+Name = mobQQ01_2
+Pname = "the Black Pawn"
+Location = chessQQ30
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 35
+Damage = 7
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A Black Pawn shuffles around nervously here."
+Examine = "The pawn seems to be made of carved wood, and animated by 
+some magical means.
+"
+End = mobQQ01_2
+
+Name = mobQQ01_3
+Pname = "the Black Pawn"
+Location = chessQQ33
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 35
+Damage = 7
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A Black Pawn shuffles around nervously here."
+Examine = "The pawn seems to be made of carved wood, and animated by 
+some magical means.
+"
+End = mobQQ01_3
+
+Name = mobQQ01_4
+Pname = "the Black Pawn"
+Location = chessQQ46
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 35
+Damage = 7
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A Black Pawn shuffles around nervously here."
+Examine = "The pawn seems to be made of carved wood, and animated by 
+some magical means.
+"
+End = mobQQ01_4
+
+Name = mobQQ01_5
+Pname = "the Black Pawn"
+Location = chessQQ49
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 35
+Damage = 7
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A Black Pawn shuffles around nervously here."
+Examine = "The pawn seems to be made of carved wood, and animated by 
+some magical means.
+"
+End = mobQQ01_5
+
+Name = mobQQ01_6
+Pname = "the Black Pawn"
+Location = chessQQ62
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 35
+Damage = 7
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A Black Pawn shuffles around nervously here."
+Examine = "The pawn seems to be made of carved wood, and animated by 
+some magical means.
+"
+End = mobQQ01_6
+
+Name = mobQQ01_7
+Pname = "the Black Pawn"
+Location = chessQQ65
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 35
+Damage = 7
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A Black Pawn shuffles around nervously here."
+Examine = "The pawn seems to be made of carved wood, and animated by 
+some magical means.
+"
+End = mobQQ01_7
+
+
+Name = mobQQ02
+Pname = "the White Pawn"
+Location = chessQQ09
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 35
+Damage = 7
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A White Pawn shuffles around nervously here."
+Examine = "The pawn seems to be made of carved wood, and animated by 
+some magical means.
+"
+End = mobQQ02
+
+Name = mobQQ02_1
+Pname = "the White Pawn"
+Location = chessQQ22
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 35
+Damage = 7
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A White Pawn shuffles around nervously here."
+Examine = "The pawn seems to be made of carved wood, and animated by 
+some magical means.
+"
+End = mobQQ02_1
+
+Name = mobQQ02_2
+Pname = "the White Pawn"
+Location = chessQQ25
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 35
+Damage = 7
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A White Pawn shuffles around nervously here."
+Examine = "The pawn seems to be made of carved wood, and animated by 
+some magical means.
+"
+End = mobQQ02_2
+
+Name = mobQQ02_3
+Pname = "the White Pawn"
+Location = chessQQ38
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 35
+Damage = 7
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A White Pawn shuffles around nervously here."
+Examine = "The pawn seems to be made of carved wood, and animated by 
+some magical means.
+"
+End = mobQQ02_3
+
+Name = mobQQ02_4
+Pname = "the White Pawn"
+Location = chessQQ41
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 35
+Damage = 7
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A White Pawn shuffles around nervously here."
+Examine = "The pawn seems to be made of carved wood, and animated by 
+some magical means.
+"
+End = mobQQ02_4
+
+Name = mobQQ02_5
+Pname = "the White Pawn"
+Location = chessQQ54
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 35
+Damage = 7
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A White Pawn shuffles around nervously here."
+Examine = "The pawn seems to be made of carved wood, and animated by 
+some magical means.
+"
+End = mobQQ02_5
+
+Name = mobQQ02_6
+Pname = "the White Pawn"
+Location = chessQQ57
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 35
+Damage = 7
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A White Pawn shuffles around nervously here."
+Examine = "The pawn seems to be made of carved wood, and animated by 
+some magical means.
+"
+End = mobQQ02_6
+
+Name = mobQQ02_7
+Pname = "the White Pawn"
+Location = chessQQ70
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 35
+Damage = 7
+Armor = 4
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A White Pawn shuffles around nervously here."
+Examine = "The pawn seems to be made of carved wood, and animated by 
+some magical means.
+"
+End = mobQQ02_7
+
+Name = mobQQ03
+Pname = "the Black Rook"
+Location = chessQQ15
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 68
+Damage = 9
+Armor = 8
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A black Rook stands here, having linear thoughts."
+Examine = "The black Rook stares absently into space, he doesn't seem
+to notice you.
+"
+End = mobQQ03
+
+Name = mobQQ03_1
+Pname = "the Black Rook"
+Location = chessQQ64
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 68
+Damage = 9
+Armor = 8
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A black Rook stands here, having linear thoughts."
+Examine = "The black Rook stares absently into space, he doesn't seem
+to notice you.
+"
+End = mobQQ03_1
+
+Name = mobQQ04
+Pname = "the White Rook"
+Location = chessQQ08
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 68
+Damage = 9
+Armor = 8
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A white Rook stands here, having linear thoughts."
+Examine = "The white Rook stares absently into space, he doesn't seem
+to notice you.
+"
+End = mobQQ04
+
+Name = mobQQ04_1
+Pname = "the White Rook"
+Location = chessQQ71
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 68
+Damage = 9
+Armor = 8
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A white Rook stands here, having linear thoughts."
+Examine = "The white Rook stares absently into space, he doesn't seem
+to notice you.
+"
+End = mobQQ04_1
+
+Name = mobQQ05
+Pname = "the Black Knight"
+Location = chessQQ16
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 70
+Damage = 10
+Armor = 12
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A black Knight is here, looking for his horse."
+Examine = "The black Knight would probably look alot more noble if
+he was astride a horse.
+"
+End = mobQQ05
+
+Name = mobQQ05_1
+Pname = "the Black Knight"
+Location = chessQQ63
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 70
+Damage = 10
+Armor = 12
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A black Knight is here, looking for his horse."
+Examine = "The black Knight would probably look alot more noble if
+he was astride a horse.
+"
+End = mobQQ05_1
+
+Name = mobQQ06
+Pname = "the White Knight"
+Location = chessQQ23
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 70
+Damage = 10
+Armor = 12
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A white knight is here, looking for his horse."
+Examine = "The white Knight would probably look alot more noble if
+he was astride a horse.
+"
+End = mobQQ06
+
+Name = mobQQ06_1
+Pname = "the White Knight"
+Location = chessQQ56
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 70
+Damage = 10
+Armor = 12
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A white knight is here, looking for his horse."
+Examine = "The white Knight would probably look alot more noble if
+he was astride a horse.
+"
+End = mobQQ06_1
+
+Name = mobQQ07
+Pname = "the Black Bishop"
+Location = chessQQ31
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 70
+Damage = 10
+Armor = 12
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A black bishop stands here quietly."
+Examine = "The bishop looks at you, then stares at the ceiling and yawns.
+"
+End = mobQQ07
+
+Name = mobQQ07_1
+Pname = "the Black Bishop"
+Location = chessQQ48
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 70
+Damage = 10
+Armor = 12
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A black bishop stands here quietly."
+Examine = "The bishop looks at you, then stares at the ceiling and yawns.
+"
+End = mobQQ07_1
+
+Name = mobQQ08
+Pname = "the White Bishop"
+Location = chessQQ24
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 70
+Damage = 10
+Armor = 12
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A white bishop stands here quietly."
+Examine = "The bishop looks at you, then stares at the ceiling and yawns.
+"
+End = mobQQ08
+
+Name = mobQQ08_1
+Pname = "the White Bishop"
+Location = chessQQ55
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 70
+Damage = 10
+Armor = 12
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A white bishop stands here quietly."
+Examine = "The bishop looks at you, then stares at the ceiling and yawns.
+"
+End = mobQQ08_1
+
+Name = mobQQ09
+Pname = "the Black Queen"
+Location = chessQQ32
+SFlags  {Female }
+PFlags  {}
+MFlags  {}
+Strength = 128
+Damage = 13
+Armor = 16
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "The Black Queen stands here, blocking a door."
+Examine = "The black Queen stares into you eyes and screams, 'Mop
+the floor, you nitwit!'
+"
+End = mobQQ09
+
+Name = mobQQ10
+Pname = "the White Queen"
+Location = chessQQ39
+SFlags  {Female }
+PFlags  {}
+MFlags  {}
+Strength = 128
+Damage = 13
+Armor = 16
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "The white Queen stands here, blocking a door."
+Examine = "The white Queen stares into you eyes and screams, 'Mop
+the floor, you nitwit!'
+"
+End = mobQQ10
+
+Name = mobQQ11
+Pname = "the Black King"
+Location = chessQQ47
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 115
+Damage = 12
+Armor = 14
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "A black King stands here, looking grumpy."
+Examine = "The black King looks rather haggard.  He tells you, 
+'Take my wife...pleeeaase.'  You decide that the king
+is not much of a comedian.
+"
+End = mobQQ11
+
+Name = mobQQ12
+Pname = "the White King"
+Location = chessQQ40
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 115
+Damage = 12
+Armor = 14
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "A white King stands here, looking grumpy."
+Examine = "The white King looks rather haggard.  He tells you,
+'Take my wife...pleeeaase.'  You decide that the king
+is not much of a comedian.
+"
+End = mobQQ12
+
+Name = mobQQ13
+Pname = "the flying Fish"
+Location = chessQQ82
+SFlags  {}
+PFlags  {}
+MFlags  { }
+Strength = 34
+Damage = 7
+Armor = 6
+Aggression = 25
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "A flying fish jumps out of the water at you!"
+Examine = "The fish winks at you?!
+"
+End = mobQQ13
+
+Name = mobQQ13_1
+Pname = "the flying Fish"
+Location = chessQQ83
+SFlags  {}
+PFlags  {}
+MFlags  { }
+Strength = 34
+Damage = 7
+Armor = 6
+Aggression = 25
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "A flying fish jumps out of the water at you!"
+Examine = "The fish winks at you?!
+"
+End = mobQQ13_1
+
+Name = mobQQ14
+Pname = "a card of the suit diamonds"
+Location = chessQQ86
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff BarNorth}
+Strength = 60
+Damage = 8
+Armor = 10
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A playing card shuffles around here."
+Examine = "The playing card grins at you evilly.
+He is of the suit diamonds.
+"
+End = mobQQ14
+
+Name = mobQQ15
+Pname = "a card of the suit hearts"
+Location = chessQQ86
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff BarNorth}
+Strength = 60
+Damage = 8
+Armor = 10
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A playing card shuffles around here."
+Examine = "The playing card grins at you evilly.
+He is of the suit hearts.
+"
+End = mobQQ15
+
+Name = mobQQ16
+Pname = "a card of the suit clubs"
+Location = chessQQ87
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff BarNorth}
+Strength = 60
+Damage = 8
+Armor = 10
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A playing card shuffles around here."
+Examine = "The playing card grins at you evilly.
+He is of the suit clubs.
+"
+End = mobQQ16
+
+Name = mobQQ17
+Pname = "a card of the suit spades"
+Location = chessQQ87
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff BarNorth}
+Strength = 60
+Damage = 8
+Armor = 10
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A playing card shuffles around here."
+Examine = "The playing card grins at you evilly.
+He is of the suit spades.
+"
+End = mobQQ17
+
+Name = mobQQ18
+Pname = "the Joker"
+Location = chessQQ88
+SFlags  {}
+PFlags  {}
+MFlags  { }
+Strength = 180
+Damage = 15
+Armor = 16
+Aggression = 25
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "The Joker bounces around, happy to see you."
+Examine = "The Joker cackles happily and ruffles your hair.
+'So nice to see you dearie, would you like some tea?'
+The Joker is NUTS!
+"
+End = mobQQ18
+
+%objects
+
+Name = door_chessQQ01
+Pname = door
+Altname = mahogany
+Linked = door_chessQQ00
+State = 2
+Maxstate = 2  
+Oflags { Openable NoGet Lockable }
+Desc[2] = "A large mahogany door stands locked."
+Desc[1] = "A large mahogany door stands before you."
+Desc[0] = "A large mahogany door stands wide open."
+Location = IN_ROOM:chessQQ00
+Examine = "You see an elaborate mahogany door.
+"
+End = door_chessQQ01
+
+Name = north_chessQQ01
+Pname = north
+Altname = chamber
+Oflags = { NoGet }
+Location = IN_ROOM:chessQQ01
+Examine = "It is difficult to see into the chamber from here.
+"
+End = north_chessQQ01
+
+Name = door_chessQQ00
+Pname = door
+Altname = mahogany
+Linked = door_chessQQ01
+State = 2
+Maxstate = 2  
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The door is locked behind you."
+Desc[1] = "The mahogany door is closed."
+Desc[0] = "The mahogany door is open."
+Location = IN_ROOM:chessQQ01
+Examine = "You see an elaborate mahogany door.
+"
+End = door_chessQQ00
+
+Name = trapdoor_chessQQ03
+Pname = trapdoor
+Linked = trapdoor_chessQQ02
+State = 1 
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = ""
+Desc[1] = ""
+Desc[0] = "The trapdoor is open."
+Location = IN_ROOM:chessQQ02
+Examine = "You see a wooden trapdoor.
+"
+End = trapdoor_chessQQ03
+
+Name = south_chessQQ02
+Pname = south
+Altname = tunnel
+Oflags = { NoGet }
+Location = IN_ROOM:chessQQ02
+Examine = "There is a smooth tunnel back there."
+End = south_chessQQ02
+
+Name = down_chessQQ03
+Pname = down
+Altname = staircase
+Oflags = { NoGet }
+Location = IN_ROOM:chessQQ03
+Examine = "The stairs continue downward.."
+End = down_chessQQ03
+
+Name = trapdoor_chessQQ02
+Pname = trapdoor
+Linked = trapdoor_chessQQ03
+State = 1 
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = "Uh oh, you appear to be locked in."
+Desc[1] = "The trapdoor is closed."
+Desc[0] = "The trapdoor is open."
+Location = IN_ROOM:chessQQ03
+Examine = "You see a wooden trapdoor.
+"
+End = trapdoor_chessQQ02
+
+Name = down_chessQQ04
+Pname = down
+Altname = tunnel
+Oflags = { NoGet }
+Location = IN_ROOM:chessQQ04
+Examine = "You're gonna find out fast- cuz thats the way your sliding!  "
+End = down_chessQQ04
+
+Name = down_chessQQ05
+Pname = down
+Altname = light
+Oflags = { NoGet }
+Location = IN_ROOM:chessQQ05
+Examine = "You see a point of light..approaching fast!
+"
+End = down_chessQQ05
+
+Name = down_chessQQ06
+Pname = down
+Altname = ladder
+Oflags = { NoGet }
+Location = IN_ROOM:chessQQ06
+Examine = "The ladder looks safe...kinda.
+"
+End = down_chessQQ06
+
+Name = down_chessQQ07
+Pname = down
+Altname = floor
+Oflags = { NoGet }
+Location = IN_ROOM:chessQQ07
+Examine = "There is a large black tile down there.
+"
+End = down_chessQQ07
+
+Name = up_chessQQ07
+Pname = up
+Altname = ledge
+Oflags = { NoGet }
+Location = IN_ROOM:chessQQ07
+Examine = "The ledge is up there.
+"
+End = up_chessQQ07
+
+Name = sign
+Location = IN_ROOM:chessQQ07
+Oflags { Noget }
+Examine = "
+	*-*-*-*-*-*-*-*-*-*-*-*
+	*  Chessboard Area    *
+	*      Written by     *
+	*  Aten of GenericMUD *
+	*-*-*-*-*-*-*-*-*-*-*-*
+
+	#=#=#=#=#=#=#=#=#=#=#=#
+	#  Zone converted to  #
+	#  Aber format using  #
+	#   'ZGEN'  Further   #
+	# modications made by #
+	#    Crimefighter     #
+	#=#=#=#=#=#=#=#=#=#=#=#
+" 
+End = sign
+
+Name = door_chessQQ77
+Pname = door
+Altname = white
+Linked = door_chessQQ39
+State = 2
+Maxstate = 2  
+Oflags { Openable NoGet Lockable }
+Desc[2] = "You notice a white door."
+Desc[1] = "The white door is closed."
+Desc[0] = "The white door is open."
+Location = IN_ROOM:chessQQ39
+Examine = "There is a white door set in the wall over there.
+"
+End = door_chessQQ77
+
+Name = door_chessQQ39
+Pname = door
+Altname = white
+Location = IN_ROOM:chessQQ77
+Linked = door_chessQQ77
+State = 2
+Maxstate = 2
+Oflags { Noget }
+Desc[2] = "The door slammed shut behind you, and won't open!"
+Desc[1] = "The door slammed shut behind you, and won't open!"
+Desc[0] = "The door slammed shut behind you, and won't open!"
+Examine = "Echos of laughter reach your ears as you try to get out."
+End = door_chessQQ39
+
+Name = door_chessQQ76
+Pname = door
+Linked = door_chessQQ32
+State = 2
+Maxstate = 2  
+Oflags { Openable NoGet Lockable }
+Desc[2] = "You notice a black door."
+Desc[1] = "The black door is closed."
+Desc[0] = "The black door is open."
+Location = IN_ROOM:chessQQ32
+Examine = "There is a black door set in the wall over there.
+"
+End = door_chessQQ76
+
+Name = door_chessQQ32
+Pname = door
+Altname = white
+Location = IN_ROOM:chessQQ76
+Linked = door_chessQQ76
+State = 2
+Maxstate = 2
+Oflags {Noget}
+Desc[2] = "The door slammed shut behind you, and won't open!"
+Desc[1] = "The door slammed shut behind you, and won't open!"
+Desc[0] = "The door slammed shut behind you, and won't open!"
+Examine = "Echos of laughter reach your ears as you try to get out."
+End = door_chessQQ32
+
+Name = tile_chessQQ72
+Pname = tile
+Altname = trapdoor
+Linked = tile_chessQQ58
+State = 1
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = "Someone stuck a padlock on this particular tile."
+Desc[1] = "Something about this tile looks a little different."
+Desc[0] = "The trapdoor is open leading down to darkness."
+Location = IN_ROOM:chessQQ58
+Examine = "You discover a hidden trapdoor!
+"
+End = tile_chessQQ72
+
+Name = tile_chessQQ58
+Pname = trapdoor
+Linked = tile_chessQQ72
+State = 1
+Maxstate = 2
+Oflags { NoGet }
+Desc[2] = ""
+Desc[1] = ""
+Desc[0] = ""
+Location = IN_ROOM:chessQQ72
+Examine = "You know why it's called the Lost Chamber?  Because everyone who got
+in here have been lost...forever.  You hear echos of cackling."
+End = tile_chessQQ58
+
+Name = trapdoor_chessQQ79
+Pname = trapdoor
+Altname = bed
+Linked = trapdoor_chessQQ76
+State = 1
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = ""
+Desc[1] = ""
+Desc[0] = "The trapdoor is open under the bed."
+Location = IN_ROOM:chessQQ76
+Examine = "You find a trapdoor under the bed!
+"
+End = trapdoor_chessQQ79
+
+Name = trapdoor_chessQQ76
+Pname = trapdoor
+Linked = trapdoor_chessQQ79
+State = 1
+Maxstate = 2
+Desc[0] = ""
+Desc[1] = ""
+Desc[2] = ""
+Oflags {Noget}
+Location = IN_ROOM:chessQQ79
+Examine = "Oops...outta reach."
+End = trapdoor_chessQQ76
+
+Name = mirror_a
+Pname = mirror
+Location = IN_ROOM:chessQQ76
+Oflags { Noget }
+Examine = "The mirror is full of smoke!  As you gaze upon it, a face comes
+into focus.  It appears to be a crazily laughing man dressed in
+bright clashing clothes.  He looks into your eyes and points downward.
+'Come visit me, dearie..', he says with a cackle.
+The image abruptly fades...
+" 
+End = mirror_a
+
+Name = trapdoor_chessQQ78
+Pname = trapdoor
+Altname = bed
+Linked = trapdoor_chessQQ77
+State = 1
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = ""
+Desc[1] = ""
+Desc[0] = "The trapdoor is open under the bed."
+Location = IN_ROOM:chessQQ77
+Examine = "You find a trapdoor under the bed!
+"
+End = trapdoor_chessQQ78
+
+Name = trapdoor_chessQQ77
+Pname = trapdoor
+Linked = trapdoor_chessQQ78
+State = 1
+Maxstate = 2
+Desc[0] = ""
+Desc[1] = ""
+Desc[2] = ""
+Oflags {Noget}
+Location = IN_ROOM:chessQQ78
+Examine = "Oops...outta reach."
+End = trapdoor_chessQQ77
+
+Name = mirror
+Location = IN_ROOM:chessQQ77
+Oflags { Noget }
+Examine = "The mirror is full of smoke!  As you gaze upon it, a face
+comes into focus.  It appears to be a crazily laughing man 
+dressed in bright clashing clothes.  He looks into your
+eyes and points downward 'Come visit me, dearie..', he says
+with a cackle.  The image abruptly fades...
+" 
+End = mirror
+
+Name = east_chessQQ78
+Pname = east
+Altname = dock
+Oflags = { NoGet }
+Location = IN_ROOM:chessQQ78
+Examine = "There is a dock over there.
+"
+End = east_chessQQ78
+
+Name = west_chessQQ79
+Pname = west
+Altname = dock
+Oflags = { NoGet }
+Location = IN_ROOM:chessQQ79
+Examine = "There is a dock over there.
+"
+End = west_chessQQ79
+
+Name = door_chessQQ86
+Pname = door
+Altname = red
+Linked = door_chessQQ85
+State = 1
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Location = IN_ROOM:chessQQ85
+Examine = "There is a nice red door there.
+"
+End = door_chessQQ86
+
+Name = door_chessQQ85
+Pname = door
+Altname = red
+Linked = door_chessQQ86
+State = 1
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The red door is locked."
+Desc[1] = "The red door is closed."
+Desc[0] = "The red door is open."
+Location = IN_ROOM:chessQQ86
+Examine = "There is a nice red door there.
+"
+End = door_chessQQ85
+
+Name = paintedvase
+Pname = vase
+Altname = painted
+Location = IN_ROOM:chessQQ00
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 10
+Weight = 1
+Oflags { Container }
+Desc[0] = "A painted vase lies in the corner."
+Examine = "The vase is small and painted."
+End = paintedvase
+
+Name = objQQ01
+Pname = key
+Altname = silver
+Location = IN_CONTAINER:paintedvase
+State = 0
+Maxstate = 0
+Bvalue = 1
+Size = 1
+Weight = 1
+Oflags { Key }
+Desc[0] = "A silver key waits in the dust here."
+Examine = "It looks like a boring silver key.
+"
+End = objQQ01
+
+Name = objQQ02
+Pname = key
+Altname = white
+Location = CARRIED_BY:mobQQ09
+State = 0
+Maxstate = 0
+Bvalue = 1
+Size = 1
+Weight = 1
+Oflags { Key }
+Desc[0] = "A white key is here"
+Examine = "It looks like a white queens key.
+"
+End = objQQ02
+
+Name = objQQ03
+Pname = key
+Altname = black
+Location = CARRIED_BY:mobQQ10
+State = 0
+Maxstate = 0
+Bvalue = 1
+Size = 1
+Weight = 1
+Oflags { Key }
+Desc[0] = "A black key is here"
+Examine = "It looks like a black queens key.
+"
+End = objQQ03
+
+Name = objQQ04
+Pname = loincloth
+Altname = dirty
+Location = WORN_BY:mobQQ00
+State = 0
+Maxstate = 0
+Armor = 15
+Bvalue = 10
+Size = 3
+Weight = 3
+Oflags { Armor Wearable }
+Aflags { Legs  }
+Desc[0] = "A trolls dirty loincloth lies crumpled in the corner"
+Examine = "The loincloth smells really, really nasty.
+"
+End = objQQ04
+
+Name = objQQ05
+Pname = vial
+Altname = pawns
+Location = CARRIED_BY:mobQQ02
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Food Alcohol }
+Desc[0] = "A tiny vial lies on the ground here"
+End = objQQ05
+
+Name = objQQ05_1
+Pname = vial
+Altname = pawns
+Location = CARRIED_BY:mobQQ02_2
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Food Alcohol }
+Desc[0] = "A tiny vial lies on the ground here"
+End = objQQ05_1
+
+Name = objQQ05_2
+Pname = vial
+Altname = pawns
+Location = CARRIED_BY:mobQQ02_4
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Food Alcohol }
+Desc[0] = "A tiny vial lies on the ground here"
+End = objQQ05_2
+
+Name = objQQ05_3
+Pname = vial
+Altname = pawns
+Location = CARRIED_BY:mobQQ02_6
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Food Alcohol }
+Desc[0] = "A tiny vial lies on the ground here"
+End = objQQ05_3
+
+Name = objQQ06
+Pname = scroll
+Altname = rooks
+Location = CARRIED_BY:mobQQ03
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags {  }
+Desc[0] = "A yellowed scroll has been left on the ground here"
+End = objQQ06
+
+Name = objQQ06_1
+Pname = scroll
+Altname = rooks
+Location = CARRIED_BY:mobQQ03_1
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags {  }
+Desc[0] = "A yellowed scroll has been left on the ground here"
+End = objQQ06_1
+
+Name = objQQ06_2
+Pname = scroll
+Altname = rooks
+Location = CARRIED_BY:mobQQ04
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { }
+Desc[0] = "A yellowed scroll has been left on the ground here"
+End = objQQ06_2
+
+Name = objQQ06_3
+Pname = scroll
+Altname = rooks
+Location = CARRIED_BY:mobQQ04_1
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags {  }
+Desc[0] = "A yellowed scroll has been left on the ground here"
+End = objQQ06_3
+
+Name = objQQ07
+Pname = lance
+Altname = knights
+Location = CARRIED_BY:mobQQ05
+State = 0
+Maxstate = 0
+Damage = 10
+Bvalue = 10
+Size = 5
+Weight = 5
+Oflags { Weapon }
+Desc[0] = "A sturdy lance has been left here"
+End = objQQ07
+
+Name = objQQ07_1
+Pname = lance
+Altname = knights
+Location = CARRIED_BY:mobQQ05_1
+State = 0
+Maxstate = 0
+Damage = 10
+Bvalue = 10
+Size = 5
+Weight = 5
+Oflags { Weapon }
+Desc[0] = "A sturdy lance has been left here"
+End = objQQ07_1
+
+Name = objQQ07_2
+Pname = lance
+Altname = knights
+Location = CARRIED_BY:mobQQ06
+State = 0
+Maxstate = 0
+Damage = 10
+Bvalue = 10
+Size = 5
+Weight = 5
+Oflags { Weapon }
+Desc[0] = "A sturdy lance has been left here"
+End = objQQ07_2
+
+Name = objQQ07_3
+Pname = lance
+Altname = knights
+Location = CARRIED_BY:mobQQ06_1
+State = 0
+Maxstate = 0
+Damage = 10
+Bvalue = 10
+Size = 5
+Weight = 5
+Oflags { Weapon }
+Desc[0] = "A sturdy lance has been left here"
+End = objQQ07_3
+
+Name = objQQ08
+Pname = staff
+Altname = bishops
+Location = CARRIED_BY:mobQQ07
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 3
+Weight = 3
+Oflags {  }
+Desc[0] = "A polished staff lies on the ground here"
+End = objQQ08
+
+Name = objQQ08_1
+Pname = staff
+Altname = bishops
+Location = CARRIED_BY:mobQQ07_1
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 3
+Weight = 3
+Oflags {  }
+Desc[0] = "A polished staff lies on the ground here"
+End = objQQ08_1
+
+Name = objQQ08_2
+Pname = staff
+Altname = bishops
+Location = CARRIED_BY:mobQQ08
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 3
+Weight = 3
+Oflags {  }
+Desc[0] = "A polished staff lies on the ground here"
+End = objQQ08_2
+
+Name = objQQ08_3
+Pname = staff
+Altname = bishops
+Location = CARRIED_BY:mobQQ08_1
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 3
+Weight = 3
+Oflags {  }
+Desc[0] = "A polished staff lies on the ground here"
+End = objQQ08_3
+
+Name = objQQ09
+Pname = skin
+Altname = silvery
+Location = WORN_BY:mobQQ09
+State = 0
+Maxstate = 0
+Armor = 24
+Bvalue = 20
+Size = 3
+Weight = 3
+Oflags { Glowing Armor Wearable }
+Aflags { Chest Back }
+Desc[0] = "A silvery skin lies on the ground here"
+Examine = "Seems to reflect any light that shines upon it."
+End = objQQ09
+
+Name = objQQ09_1
+Pname = skin
+Altname = silvery
+Location = WORN_BY:mobQQ10
+State = 0
+Maxstate = 0
+Armor = 24
+Bvalue = 20
+Size = 3
+Weight = 3
+Oflags { Glowing Armor Wearable }
+Aflags { Chest Back }
+Desc[0] = "A silvery skin lies on the ground here"
+Examine = "Seems to reflect any light that shines upon it."
+End = objQQ09_1
+
+Name = objQQ10
+Pname = shield
+Altname = kings
+Location = WORN_BY:mobQQ11
+State = 0
+Maxstate = 0
+Armor = 30
+Bvalue = 10
+Size = 10
+Weight = 10
+Oflags { Armor Wearable Shield }
+Desc[0] = "A large shield is here"
+End = objQQ10
+
+Name = objQQ10_1
+Pname = shield
+Altname = kings
+Location = WORN_BY:mobQQ12
+State = 0
+Maxstate = 0
+Armor = 30
+Bvalue = 10
+Size = 10
+Weight = 10
+Oflags { Armor Wearable Shield }
+Desc[0] = "A large shield is here"
+End = objQQ10_1
+
+Name = objQQ11
+Pname = diamondpotion
+Altname = diamond
+Location = CARRIED_BY:mobQQ14
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "a potion with a diamond scratched in it is here"
+End = objQQ11
+
+Name = objQQ12
+Pname = heartpotion
+Altname = heart
+Location = CARRIED_BY:mobQQ15
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "a potion with a heart scratched in it is here"
+End = objQQ12
+
+Name = objQQ13
+Pname = clubpotion
+Altname = club
+Location = CARRIED_BY:mobQQ16
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "a potion with a club scratched in it is here"
+End = objQQ13
+
+Name = objQQ14
+Pname = spadepotion
+Altname = spade
+Location = CARRIED_BY:mobQQ17
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "a potion with a spade scratched in it is here"
+End = objQQ14
+
+Name = objQQ15
+Pname = cap
+Altname = Jokers
+Location = CARRIED_BY:mobQQ18
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 100
+Weight = 2
+Oflags { Container Wearable }
+Desc[0] = "A Joker's cap is crumpled up on the floor here"
+End = objQQ15
+
+Name = objQQ16
+Pname = circlet
+Altname = Jokers
+Location = CARRIED_BY:mobQQ18
+State = 0
+Maxstate = 0
+Armor = 14
+Bvalue = 10
+Size = 3
+Weight = 3
+Oflags { Armor Wearable }
+Aflags { Head }
+Desc[0] = "A circlet lies on the floor here"
+End = objQQ16
+
+Name = objQQ17
+Pname = teacup
+Location = IN_ROOM:chessQQ72
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Food }
+Desc[0] = "A small teacup rests here"
+Examine = "Symbols of hearts, clubs, spades, and diamonds line the rim."
+End = objQQ17
+
+Name = throne_a
+Pname = throne
+Location = IN_ROOM:chessQQ88
+Linked = throne_b
+State = 1
+Maxstate = 1
+Size = 100
+Weight = 100
+Oflags { Noget PushToggle }
+Desc[0] = "The throne has been barely shoved enough to expose a hole!"
+Desc[1] = " "
+Examine = "
+What irony!  Or poetic justice.  Perfect for him anyways..."
+End = throne_a
+
+Name = throne_b
+Pname = throne
+Location = IN_ROOM:chessQQ02
+Linked = throne_a
+State = 1
+Maxstate = 1
+Oflags { Noget }
+Desc[0] = ""
+Desc[1] = ""
+End = throne_b
+
+%locations
+
+chessQQ00 n:^door_chessQQ01 s:dark@blizzard;
+lflags {   }
+The Stone Door^
+	You find yourself standing in a dry circular room which is
+illuminated by a small brass torch set in the wall.  Flickering
+shadows dance about the room in a manner you find disorienting.          
+Beneath the torch is an elaborate mahogany door, complete with a small 
+silver doorknob.
+^
+
+chessQQ01 n:chessQQ02 s:^door_chessQQ00;
+lflags {   }
+The Smooth Tunnel^
+	Looking down at your feet, you are somewhat surprised to find that you 
+are walking on a thick woven rug. The walls of the tunnel that you are in 
+are completely smooth, and polished to a gleam. Before you, the tunnel opens 
+up to what appears to be a small &+Cchamber. 
+^
+
+chessQQ02 s:chessQQ01 d:^trapdoor_chessQQ03;
+lflags {   }
+The Furnished Chamber^
+	This chamber is furnished quite nicely, with a thick woven 
+rug beneath your feet, and tapestries along the walls.  There is a
+rectangular hole in the rug, revealing a &+Ctrapdoor&* which seems to open
+via a small iron ring, The room's exit looms behind you.
+^
+
+chessQQ03 u:^trapdoor_chessQQ02 d:chessQQ04;
+lflags {   }
+The Stone Staircase^
+	You find yourself in a rough stone &+Cstaircase&*, which winds around
+a smooth core of stone, descending deeper into the bowels of the earth.
+Small torches are set into the stone, guiding your way.
+^
+
+chessQQ04 d:chessQQ05;
+lflags {  }
+Down..Down..Down..^
+	Your descent picks up speed, and you trip over an unseen obstacle
+in the stairway!  As you tumble, the stairs start to become narrower and
+then begin to slope forward.  You soon find yourself sliding in circles &+Cdown
+the tunnel, which has now become smooth stone, covered with very fine sand.
+You faintly detect the sound of delighted laughter echoing in some faraway
+place.
+^
+
+chessQQ05 d:chessQQ06;
+lflags {  }
+The Slide^
+	You come out of the last spin, and are abruptly deposited on a
+slide made of some slick metal.  You descend rapidy, being abruptly slammed
+against the walls as the slide banks through several tight corners.  Ahead
+of you, approaching rapidly is a small point of &+Ylight.
+^
+
+chessQQ06 d:chessQQ07;
+lflags {   }
+The Ledge^
+	You pop out of the slide, sail through the air for several long
+moments, crash into the side of a cavern, and land on a ledge in a
+crumpled heap.  You slowly look upwards, and what you see astounds even you-
+a seasoned adventurer.  You are in the north end of a perfectly square 
+cavern with a floor composed of sixty-four alternating black and white 
+marble tiles.  Giant torches line the walls, casting a dazzling glow over 
+the entire room.  Standing guard over half the squares are giant carved 
+wooden beings, looming and silent.  There is a neat wooden &+yladder&* beneath 
+you, leading downward, and three quarters up the opposite wall is the 
+small hole you just came flying out of. 
+^
+
+chessQQ07 u:chessQQ06 d:chessQQ12;
+lflags {   }
+The Ladder^
+	You are on a simple wooden ladder, which has been bolted by means
+of small metal hooks to the cavern wall.  The &+yledge&* is above you, and the
+cavern &+Cfloor&* is below you.  There is a small &+Csign&* on the wall.
+^
+
+chessQQ08 s:chessQQ23 e:chessQQ09;
+lflags {   }
+The Black Square^
+	You are standing on a highly polished black marble tile, which
+extends about six feet in either direction. 
+^
+
+chessQQ09 s:chessQQ22 w:chessQQ08 e:chessQQ10;
+lflags {   }
+The White Square^
+	You are standing on a highly polished white marble tile, which 
+extends about six feet in either direction.
+^
+
+chessQQ10 s:chessQQ21 w:chessQQ09 e:chessQQ11;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ11 s:chessQQ20 w:chessQQ10 e:chessQQ12;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ12 s:chessQQ19 w:chessQQ11 e:chessQQ13;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ13 s:chessQQ18 w:chessQQ12 e:chessQQ14;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ14 s:chessQQ17 w:chessQQ13 e:chessQQ15;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ15 s:chessQQ16 w:chessQQ14;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ16 n:chessQQ15 s:chessQQ31 w:chessQQ17;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ17 n:chessQQ14 s:chessQQ30 w:chessQQ18 e:chessQQ16;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ18 n:chessQQ13 s:chessQQ29 w:chessQQ19 e:chessQQ17;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ19 n:chessQQ12 s:chessQQ28 w:chessQQ20 e:chessQQ18;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ20 n:chessQQ11 s:chessQQ27 w:chessQQ21 e:chessQQ19;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ21 n:chessQQ10 s:chessQQ26 w:chessQQ22 e:chessQQ20;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ22 n:chessQQ09 s:chessQQ25 w:chessQQ23 e:chessQQ21;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ23 n:chessQQ08 s:chessQQ24 e:chessQQ22;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ24 n:chessQQ23 s:chessQQ39 e:chessQQ25;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ25 n:chessQQ22 s:chessQQ38 w:chessQQ24 e:chessQQ26;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ26 n:chessQQ21 s:chessQQ37 w:chessQQ25 e:chessQQ27;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ27 n:chessQQ20 s:chessQQ36 w:chessQQ26 e:chessQQ28;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ28 n:chessQQ19 s:chessQQ35 w:chessQQ27 e:chessQQ29;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ29 n:chessQQ18 s:chessQQ34 w:chessQQ28 e:chessQQ30;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ30 n:chessQQ17 s:chessQQ33 w:chessQQ29 e:chessQQ31;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ31 n:chessQQ16 s:chessQQ32 w:chessQQ30;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ32 n:chessQQ31 s:chessQQ47 w:chessQQ33 e:^door_chessQQ76;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ33 n:chessQQ30 s:chessQQ46 w:chessQQ34 e:chessQQ32;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ34 n:chessQQ29 s:chessQQ45 w:chessQQ35 e:chessQQ33;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ35 n:chessQQ28 s:chessQQ44 w:chessQQ36 e:chessQQ34;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ36 n:chessQQ27 s:chessQQ43 w:chessQQ37 e:chessQQ35;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ37 n:chessQQ26 s:chessQQ42 w:chessQQ38 e:chessQQ36;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ38 n:chessQQ25 s:chessQQ41 w:chessQQ39 e:chessQQ37;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ39 n:chessQQ24 s:chessQQ40 w:^door_chessQQ77 e:chessQQ38;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ40 n:chessQQ39 s:chessQQ55 e:chessQQ41;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ41 n:chessQQ38 s:chessQQ54 w:chessQQ40 e:chessQQ42;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ42 n:chessQQ37 s:chessQQ53 w:chessQQ41 e:chessQQ43;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ43 n:chessQQ36 s:chessQQ52 w:chessQQ42 e:chessQQ44;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ44 n:chessQQ35 s:chessQQ51 w:chessQQ43 e:chessQQ45;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ45 n:chessQQ34 s:chessQQ50 w:chessQQ44 e:chessQQ46;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ46 n:chessQQ33 s:chessQQ49 w:chessQQ45 e:chessQQ47;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ47 n:chessQQ32 s:chessQQ48 w:chessQQ46;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ48 n:chessQQ47 s:chessQQ63 w:chessQQ49;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ49 n:chessQQ46 s:chessQQ62 w:chessQQ50 e:chessQQ48;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ50 n:chessQQ45 s:chessQQ61 w:chessQQ51 e:chessQQ49;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ51 n:chessQQ44 s:chessQQ60 w:chessQQ52 e:chessQQ50;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ52 n:chessQQ43 s:chessQQ59 w:chessQQ53 e:chessQQ51;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ53 n:chessQQ42 s:chessQQ58 w:chessQQ54 e:chessQQ52;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ54 n:chessQQ41 s:chessQQ57 w:chessQQ55 e:chessQQ53;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ55 n:chessQQ40 s:chessQQ56 e:chessQQ54;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ56 n:chessQQ55 s:chessQQ71 e:chessQQ57;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ57 n:chessQQ54 s:chessQQ70 w:chessQQ56 e:chessQQ58;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ58 n:chessQQ53 s:chessQQ69 w:chessQQ57 e:chessQQ59 d:^tile_chessQQ72;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ59 n:chessQQ52 s:chessQQ68 w:chessQQ58 e:chessQQ60;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ60 n:chessQQ51 s:chessQQ67 w:chessQQ59 e:chessQQ61;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ61 n:chessQQ50 s:chessQQ66 w:chessQQ60 e:chessQQ62;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ62 n:chessQQ49 s:chessQQ65 w:chessQQ61 e:chessQQ63;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ63 n:chessQQ48 s:chessQQ64 w:chessQQ62;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ64 n:chessQQ63 w:chessQQ65;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ65 n:chessQQ62 w:chessQQ66 e:chessQQ64;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ66 n:chessQQ61 w:chessQQ67 e:chessQQ65;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ67 n:chessQQ60 w:chessQQ68 e:chessQQ66;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ68 n:chessQQ59 w:chessQQ69 e:chessQQ67;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ69 n:chessQQ58 w:chessQQ70 e:chessQQ68;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ70 n:chessQQ57 w:chessQQ71 e:chessQQ69;
+lflags {   }
+The Black Square^
+        You are standing on a highly polished black marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ71 n:chessQQ56 e:chessQQ70;
+lflags {   }
+The White Square^
+        You are standing on a highly polished white marble tile, which
+extends about six feet in either direction.
+^
+
+chessQQ72;
+lflags {   }
+The Lost Chamber^
+        This chamber is small, dark, and cramped.  You begin to
+feel a bit claustrophobic.  That &+Ctrapdoor&* looks far out of reach!
+^
+
+chessQQ73 e:chessQQ74;
+lflags {   }
+The Joker's Teacup^
+        You are sliding around in a highly polished porcelain cup.        
+^
+
+chessQQ74 s:chessQQ75;
+lflags {   }
+The Joker's Teacup^
+        You are sliding around in a highly polished porcelain cup.
+^
+
+chessQQ75 w:chessQQ73;
+lflags {   }
+The Joker's Teacup^
+        You are sliding around in a highly polished porcelain cup.
+^
+
+chessQQ76 d:^trapdoor_chessQQ79;
+lflags {   }
+The Black Queen's Chamber^
+	You are in a small chamber, containing only a &+Cbed&*, basin,
+mirror and braided rug.  Despite being very small, it looks comfortable 
+enough to rest in for a bit.  As you seat yourself on the bed, you see a 
+flicker of motion in the &+Cmirror..
+^
+
+chessQQ77 d:^trapdoor_chessQQ78;
+lflags {   }
+The White Queen's Chamber^
+        You are in a small chamber, containing only a &+Cbed&*, basin,
+mirror and braided rug.  Despite being very small, it looks comfortable
+enough to rest in for a bit.  As you seat yourself on the bed, you see a
+flicker of motion in the &+Cmirror..
+^
+
+chessQQ78 e:chessQQ80;
+lflags {   }
+The Landing^
+	You drop down from the &+ytrapdoor&*, and land on soft dirt.  You 
+seem to be inside some sort of enclave, and you see an underground river 
+to the east.  There is a small wooden &+ydock&* extending from your enclave 
+out into the river.    
+^
+
+chessQQ79 w:chessQQ81;
+lflags {   }
+The Landing^
+        You drop down from the &+ytrapdoor&*, and land on soft dirt.  You
+seem to be inside some sort of enclave, and you see an underground river
+to the west.  There is a small wooden &+ydock&* extending from your enclave
+out into the river.
+^
+
+chessQQ80 n:chessQQ82 w:chessQQ78;
+lflags {   }
+The Dock^
+	As you step onto the dock, it sags crazily and settles more 
+firmly into the river.  A sudden bright light shines out from upriver, 
+blinding you momentarily.  The light approaches closer, and you realize  
+that it is some strange form of boat.  It stops at the north side of the
+dock, ready to be boarded.
+^
+
+chessQQ81 n:chessQQ82 e:chessQQ79;
+lflags {   }
+The Dock^
+        As you step onto the dock, it sags crazily and settles more
+firmly into the river.  A sudden bright light shines out from upriver,
+blinding you momentarily.  The light approaches closer, and you realize
+that it is some strange form of boat.  It stops at the north side of the
+dock, ready to be boarded.
+^
+
+chessQQ82 n:chessQQ83;
+lflags {   }
+The Sulking Swan^
+	The sulking swan is a large wooden craft, carved to the exact 
+likeness of a swan.  Its wooden sides thump hollowly against the tunnel 
+sides, as it bobs gently and begins to carry you downstream.
+^
+
+chessQQ83 n:chessQQ84;
+lflags {   }
+The Underground River^
+	You bob along lazily in the strange craft, spinning in complete 
+circles at points, but always headed downstream.  In the distance you see 
+another dock.
+^
+
+chessQQ84 e:chessQQ85;
+lflags {   }
+Arrival^
+	The Sulking Swan heads directly to its berth, lining up alongside 
+the wooden platform.  Ropes move of their own accord, rising from the 
+pilings and intertwining themselves with the boat's brass brackets.  It 
+seems safe to step east onto the second dock, or you could just sit here 
+and keep the boat company.
+^
+
+chessQQ85 w:chessQQ84 e:^door_chessQQ86;
+lflags {   }
+The Second Dock^
+	You decide that this dock is much sturdier than the first, and it 
+feels quite nice to stand on firm ground again.  The boat is tied to the 
+west, and a nice red wooden door waits expectantly at the east end of the 
+dock- it seems to lead directly into the tunnel wall. 
+^
+
+chessQQ86 n:chessQQ87 w:chessQQ85;
+lflags {   }
+The Entrance Hall^
+	You find yourself standing at the beginning of a giant entrance 
+hall.  A fine red carpet leads north, and extravagant silks line the 
+walls.  
+^
+
+chessQQ87 n:chessQQ88 s:chessQQ86;
+lflags {   }
+The Entrance Hall^
+	You are standing on a fine red carpet, halfway down the length of 
+the entrance hall.  There is retreat to the south, and a giant throne to 
+the north.
+^
+
+chessQQ88 s:chessQQ87 d:^throne_a;
+lflags {   }
+The Joker's Throne^
+	You stand before a giant &+Ythrone&*, made entirely of fool's gold.  
+This seems to be the domain of the Joker- It may be wise to leave him to 
+his games...
+^
+

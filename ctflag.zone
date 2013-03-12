@@ -1,0 +1,382 @@
+
+
+
+
+
+%mobiles
+
+Name  = red_guard
+Pname = "Red-Guardian"
+Pflags { NoSteal }
+Location = limbo@limbo
+Strength = 300
+Damage   = 15
+Armor    = 15
+Speed    = 0
+Description = "&=WRThe Red-Guardian is here guarding the flag."
+End = red_guard
+
+Name  = blue_guard
+Pname = "Blue-Guardian"
+Pflags { NoSteal }
+Location = limbo@limbo
+Strength = 300
+Damage   = 15
+Armor    = 15
+Speed    = 0
+Description = "&=WBThe Blue-Guardian is here guarding the flag."
+End = blue_guard
+
+Name  = green_guard
+Pname = "Green-Guardian"
+Pflags { NoSteal }
+Location = limbo@limbo
+Strength = 300
+Damage   = 15
+Armor    = 15
+Speed    = 0
+Description = "&=WGThe Green-Guardian is here guarding the flag."
+End = green_guard
+
+Name  = yellow_guard
+Pname = "Yellow-Guardian"
+Pflags { NoSteal }
+Location = limbo@limbo
+Strength = 300
+Damage   = 15
+Armor    = 15
+Speed    = 0
+Description = "&+YThe Yellow-Guardian is here guarding the flag."
+End = yellow_guard
+
+Name  = white_guard
+Pname = "White-Guardian"
+Pflags { NoSteal }
+Location = limbo@limbo
+Strength = 300
+Damage   = 15
+Armor    = 15
+Speed    = 0
+Description = "The White-Guardian is here guarding the flag."
+End = white_guard
+
+Name  = black_guard
+Pname = "Black-Guardian"
+Pflags { NoSteal }
+Location = limbo@limbo
+Strength = 300
+Damage   = 15
+Armor    = 15
+Speed    = 0
+Description = "&=lWThe Black-Guardian is here guarding the flag."
+End = black_guard
+
+Name  = purple_guard
+Pname = "Purple-Guardian"
+Pflags { NoSteal }
+Location = limbo@limbo
+Strength = 300
+Damage   = 15
+Armor    = 15
+Speed    = 0
+Description = "&=WmThe Purple-Guardian is here guarding the flag."
+End = purple_guard
+
+Name  = teal_guard
+Pname = "Teal-Guardian"
+Pflags { NoSteal }
+Location = limbo@limbo
+Strength = 300
+Damage   = 15
+Armor    = 15
+Speed    = 0
+Description = "&=WcThe Teal-Guardian is here guarding the flag."
+End = teal_guard
+
+Name  = tan_guard
+Pname = "Tan-Guardian"
+Pflags { NoSteal }
+Location = limbo@limbo
+Strength = 300
+Damage   = 15
+Armor    = 15
+Speed    = 0
+Description = "&=WyThe Tan-Guardian is here guarding the flag."
+End = tan_guard
+
+Name  = gray_guard
+Pname = "Gray-Guardian"
+Pflags { NoSteal }
+Location = limbo@limbo
+Strength = 300
+Damage   = 15
+Armor    = 15
+Speed    = 0
+Description = "&+wThe Gray-Guardian is here guarding the flag."
+End = gray_guard
+
+
+%objects
+
+Name            = red_jer
+PName           = jersey
+AltName         = red
+Location        = IN_ROOM:ctflag_0
+Desc[0]         = "A pile of &+Rred&* jerseys are here...take one if you wish to join this team."
+End             = red_jer
+
+Name            = blue_jer
+PName           = jersey
+AltName         = blue
+Location        = IN_ROOM:ctflag_1
+Desc[0]         = "A pile of &+Bblue&* jerseys are here...take one if you wish to join this team."
+End             = blue_jer
+
+Name            = yel_jer
+PName           = jersey
+AltName         = yellow
+Location        = IN_ROOM:ctflag_2
+Desc[0]         = "A pile of &+Yyellow&* jerseys are here...take one if you wish to join this team."
+End             = yel_jer
+
+Name            = tan_jer
+PName           = jersey
+AltName         = tan
+Location        = IN_ROOM:ctflag_3
+Desc[0]         = "A pile of &+ytan&* jerseys are here...take one if you wish to join this team."
+End             = tan_jer
+
+Name            = gr_jer
+PName           = jersey
+AltName         = green
+Location        = IN_ROOM:ctflag_4
+Desc[0]         = "A pile of &+Ggreen&* jerseys are here...take one if you wish to join this team."
+End             = gr_jer
+
+Name            = wh_jer
+PName           = jersey
+AltName         = white
+Location        = IN_ROOM:ctflag_5
+Desc[0]         = "A pile of &+Wwhite jerseys are here...take one if you wish to join this team."
+End             = wh_jer
+
+Name            = black_jer
+PName           = jersey
+AltName         = black
+Location        = IN_ROOM:ctflag_6
+Desc[0]         = "A pile of &=lWblack&* jerseys are here...take one if you wish to join this team."
+End             = black_jer
+
+Name            = pur_jer
+PName           = jersey
+AltName         = purple
+Location        = IN_ROOM:ctflag_7
+Desc[0]         = "A pile of &+mpurple&* jerseys are here...take one if you wish to join this team."
+End             = pur_jer
+
+Name            = teal_jer
+PName           = jersey
+AltName         = teal
+Location        = IN_ROOM:ctflag_8
+Desc[0]         = "A pile of &+cteal&* jerseys are here...take one if you wish to join this team."
+End             = teal_jer
+
+Name            = gray_jer
+PName           = jersey
+AltName         = gray
+Location        = IN_ROOM:ctflag_9
+Desc[0]         = "A pile of &+wgray&* jerseys are here...take one if you wish to join this team."
+End             = gray_jer
+
+Name     = Flag1
+Pname    = Flag
+Altname  = red
+Oflags   {}
+Location = CARRIED_BY:red_guard
+Size     = 1
+Weight   = 1
+Desc[0]  = "A &+Rred flag&+g with the number 1 on it is here."
+End      = Flag1
+
+Name     = Flag2
+Pname    = Flag
+Altname  = blue
+Oflags   {}
+Location = CARRIED_BY:blue_guard
+Size     = 1
+Weight   = 1
+Desc[0]  = "A &+Bblue flag&+g with the number 2 on it is here."
+End      = Flag2
+
+Name     = Flag3
+Pname    = Flag
+Altname  = yellow
+Oflags   {}
+Location = CARRIED_BY:yellow_guard
+Size     = 1
+Weight   = 1
+Desc[0]  = "A &+Yyellow flag&+g with the number 3 on it is here."
+End      = Flag3
+
+Name     = Flag4
+Pname    = Flag
+Altname  = tan
+Oflags   {}
+Location = CARRIED_BY:tan_guard
+Size     = 1
+Weight   = 1
+Desc[0]  = "A &+ytan flag&+g with the number 4 on it is here."
+End      = Flag4
+
+Name     = Flag5
+Pname    = Flag
+Altname  = green
+Oflags   {}
+Location = CARRIED_BY:green_guard
+Size     = 1
+Weight   = 1
+Desc[0]  = "A &+Ggreen flag&+g with the number 5 on it is here."
+End      = Flag5
+
+Name     = Flag6
+Pname    = Flag
+Altname  = white
+Oflags   {}
+Location = CARRIED_BY:white_guard
+Size     = 1
+Weight   = 1
+Desc[0]  = "A &+Wwhite flag&+g with the number 6 on it is here."
+End      = Flag6
+
+Name     = Flag7
+Pname    = Flag
+Altname  = black
+Oflags   {}
+Location = CARRIED_BY:black_guard
+Size     = 1
+Weight   = 1
+Desc[0]  = "A &=LWblack flag&+g with the number 7 on it is here."
+End      = Flag7
+
+Name     = Flag8
+Pname    = Flag
+Altname  = purple
+Oflags   {}
+Location = CARRIED_BY:purple_guard
+Size     = 1
+Weight   = 1
+Desc[0]  = "A &+mpurple flag&+g with the number 8 on it is here."
+End      = Flag8
+
+Name     = Flag9
+Pname    = Flag
+Altname  = teal
+Oflags   {}
+Location = CARRIED_BY:teal_guard
+Size     = 1
+Weight   = 1
+Desc[0]  = "A &+Cteal flag&+g with the number 9 on it is here."
+End      = Flag9
+
+Name     = Flag10
+Pname    = Flag
+Altname  = gray
+Oflags   {}
+Location = CARRIED_BY:gray_guard
+Size     = 1
+Weight   = 1
+Desc[0]  = "A &+wgray flag&+g with the number 10 on it is here."
+End      = Flag10
+
+
+%locations
+
+ctflag_10 n:ctflag_0 e:ctflag_1 s:ctflag_2 w:ctflag_3 u:ctflag_4 d:ctflag_5 ne:ctflag_6 nw:ctflag_7 se:ctflag_8 sw:ctflag_9;
+LFlags  { Party Peaceful  }
+The Corridor^
+    You are standing in the center of a circle of ten doorways, each painted
+a different color.  Here you must decide which color is the one you wish to
+identify with, and pledge your allegiance to.
+^
+
+ctflag_0 n:ctflag_10;
+LFlags	{ Party Peaceful  }
+&+RRed Locker Room^
+    Rows and rows of benches line the walls of this huge room.  They are all 
+painted in a scarlet color.  Red jerseys are being handed out to all the 
+players before they head out for combat.
+^
+
+ctflag_1 e:ctflag_10;
+LFlags	{ Party Peaceful  }
+&+BBlue Locker Room^
+    Rows and rows of benches line the walls of this huge room.  They are all 
+painted in a marine blue.  Blue jerseys are being handed out to all the 
+players before they head out for combat.
+^
+
+ctflag_2 s:ctflag_10;
+LFlags	{ Party Peaceful  }
+&+YYellow Locker Room^
+    Rows and rows of benches line the walls of this huge room.  They are all 
+painted in a bright golden yellow.  Yellow jerseys are being handed out to 
+all the players before they head out for combat.
+^
+
+ctflag_3 w:ctflag_10;
+LFlags	{ Party Peaceful  }
+&+yTan Locker Room^
+    Rows and rows of benches line the walls of this huge room.  Nothing looks 
+looks to have ever been painted in here, the natural wood color dominates 
+everything.  Tan jerseys are being handed out to all the players before 
+they head out for combat.
+^
+
+ctflag_4 u:ctflag_10;
+LFlags	{ Party Peaceful  }
+&+GGreen Locker Room^
+    Rows and rows of benches line the walls of this huge room.  They are all 
+painted in a emerald green.  Green jerseys are being handed out to all the 
+players before they head out for combat.
+^
+
+ctflag_5 d:ctflag_10;
+LFlags	{ Party Peaceful  }
+&+WWhite Locker Room^
+    Rows and rows of benches line the walls of this huge room.  They are all 
+painted in the whitest of whites.  White jerseys are being handed out to all 
+the players before they head out for combat.
+^
+
+ctflag_6 ne:ctflag_10;
+LFlags	{ Party Peaceful  }
+&=lWBlack Locker Room&*^
+    Rows and rows of benches line the walls of this huge room.  They are all 
+painted in a pure darkness.  Black jerseys are being handed out to all 
+the players before they head out for combat.
+^
+
+ctflag_7 nw:ctflag_10;
+LFlags	{ Party Peaceful  }
+&+mPurple Locker Room^
+    Rows and rows of benches line the walls of this huge room.  They are all 
+painted in a royal purple.  Purple jerseys are being handed out to all the 
+players before they head out for combat.
+^
+
+ctflag_8 se:ctflag_10;
+LFlags	{ Party Peaceful  }
+&+cTeal Locker Room^
+    Rows and rows of benches line the walls of this huge room.  They are all 
+painted in a sky blue.  Teal jerseys are being handed out to all the players 
+before they head out for combat.
+^
+
+ctflag_9 sw:ctflag_10;
+LFlags	{ Party Peaceful  }
+&+wGray Locker Room^
+    Rows and rows of benches line the walls of this huge room.  They are all 
+painted in a dingy gray.  Gray jerseys are being handed out to all the 
+players before they head out for combat.
+^
+

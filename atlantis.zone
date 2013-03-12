@@ -1,0 +1,1423 @@
+
+
+
+
+%mobiles
+
+Name             = seahorse
+PName            = "Seahorse"
+Pflags             { NoSummon NoHassle }
+Mflags { Aquatic }
+Location         = atlantis71
+Strength         = 50
+Damage           = 10
+Armor            = 0
+Aggression       = 0
+Speed            = 0
+Description      = "A small, oddly shaped, seahorse swims quietly in the passage."
+End              = seahorse
+
+Name             = school
+PName            = "School"
+Location         = atlantis9
+Mflags { Aquatic }
+Strength         = 75
+Damage           = 10
+Armor            = 0
+Aggression       = 10
+Speed            = 5
+Description      = "A school of brightly colored fish dart around you."
+End              = school
+
+Name             = lobster
+PName            = "Lobster"
+Location         = atlantis19
+Mflags { Aquatic }
+Strength         = 100
+Damage           = 10
+Armor            = 0
+Aggression       = 65
+Speed            = 0
+Description      = "A lobster hides in the kelp, ready to attack!"
+End              = lobster
+
+Name             = puffer
+PName            = "Puffer"
+Location         = atlantis22
+Mflags { Aquatic }
+Strength         = 150
+Damage           = 10
+Armor            = 0
+Aggression       = 0
+Speed            = 0
+Description      = "A Puffer swells up in exasperation because you didn't return your library book!"
+End              = puffer
+
+Name             = aquarian
+PName            = "Aquarian"
+Location         = atlantis24
+Mflags { Aquatic }
+Strength         = 150
+Damage           = 10
+Armor            = 0
+Aggression       = 0
+Speed            = 0
+Description      = "Aquarian the Merman priest tends to the shrine of Poseidon."
+End              = aquarian
+
+Name             = seacow
+PName            = "SeaCow"
+Sflags             { Dumb }
+Mflags { Aquatic }
+Location         = atlantis26
+Strength         = 100
+Damage           = 10
+Armor            = 0
+Aggression       = 10
+Speed            = 0
+Description      = "A large sea cow munches quietly on some of the kelp nearby."
+End              = seacow
+
+Name             = merboy
+PName            = "Merboy"
+Location         = atlantis30
+Mflags { Aquatic }
+Strength         = 75
+Damage           = 10
+Armor            = 0
+Aggression       = 0
+Speed            = 0
+Description      = "A small merchild is in bed ill...he doesn't like the sea."
+End              = merboy
+
+Name             = seadog
+PName            = "Seadog"
+Sflags             { Dumb }
+Mflags { Aquatic }
+Location         = atlantis34
+Strength         = 75
+Damage           = 10
+Armor            = 0
+Aggression       = 0
+Speed            = 10
+Description      = "An ole sea dog is here, sniffing along the ground for something to eat."
+End              = seadog
+
+Name             = shrimp
+PName            = "Shrimp"
+Sflags             { Dumb }
+Mflags { Aquatic }
+Location         = atlantis46
+Strength         = 50
+Damage           = 10
+Armor            = 0
+Aggression       = 0
+Speed            = 0
+Description      = "A shrimp moves around the garden mumbling 'I am NOT short!'."
+End              = shrimp
+
+Name             = urchin
+PName            = "Urchin"
+Location         = atlantis36
+Mflags { Aquatic }
+Strength         = 75
+Damage           = 10
+Armor            = 0
+Aggression       = 10
+Speed            = 0
+Description      = "A scruffy-looking Sea Urchin is here begging."
+End              = urchin
+
+Name             = octopus
+PName            = "Octopus"
+Pflags             { NoHassle }
+Sflags             { Female Dumb }
+Mflags { Aquatic }
+Location         = atlantis45
+Strength         = 200
+Damage           = 10
+Armor            = 0
+Aggression       = 0
+Speed            = 0
+Description      = "A gentle Octopus is taking a break from tending her garden."
+End              = octopus
+
+Name             = speedy
+PName            = "Speedy"
+Location         = atlantis47
+Mflags { Aquatic }
+Sflags { Noarms Nolegs }
+Strength         = 150
+Damage           = 10
+Armor            = 0
+Aggression       = 0
+Speed            = 0
+Description      = "Speedy Snail asks if you saw him leave and return as you walked in?"
+End              = speedy
+
+Name             = merman
+PName            = "Merman"
+Location         = atlantis48
+Mflags { Aquatic }
+Strength         = 200
+Damage           = 10
+Armor            = 0
+Aggression       = 0
+Speed            = 0
+Description      = "A Merman is here taking reservations for the hotel."
+End              = merman
+
+Name             = ray
+PName            = "Ray"
+Location         = atlantis48
+Sflags { nolegs }
+Mflags { Aquatic }
+Strength         = 150
+Damage           = 10
+Armor            = 0
+Aggression       = 0
+Speed            = 0
+Description      = "A blind Manta Ray is at the piano, singing blues."
+End              = ray
+
+Name             = manatee
+PName            = "Manatee"
+Location         = atlantis41
+Mflags { Aquatic }
+Strength         = 150
+Damage           = 10
+Armor            = 0
+Aggression       = 10
+Speed            = 2
+Description      = "A large Manatee stands here, gawking at the sights of the Castle."
+End              = manatee
+
+Name             = emperess
+PName            = "Emperess"
+Pflags             { NoSummon NoHassle }
+Sflags             { Female Aloof }
+Location         = atlantis44
+Strength         = 200
+Damage           = 10
+Armor            = 0
+Aggression       = 0
+Speed            = 0
+Description      = "The mermaid Emperess sits on her throne ruling over her aquatic subjects."
+End              = emperess
+
+Name             = crab
+PName            = "Crab"
+Pflags             { NoSummon NoHassle }
+Sflags             { Aloof }
+Location         = atlantis55
+Strength         = 100
+Damage           = 10
+Armor            = 0
+Aggression       = 0
+Speed            = 0
+Description      = "A crotchety old Hermit Crab sits here, just wanting to be left alone."
+End              = crab
+
+Name             = squid
+PName            = "Squid"
+Sflags             { Dumb }
+Mflags		   { BarSouth BarWest }
+Location         = atlantis60
+Strength         = 150
+Damage           = 10
+Armor            = 0
+Aggression       = 79
+Speed            = 0
+Description      = "An enormous Squid flails his tentacles at you."
+End              = squid
+
+Name             = seaweed
+PName            = "Seaweed"
+Sflags             { Dumb NoBody }
+Mflags		   { BarEast BarWest }
+Location         = atlantis63
+Strength         = 125
+Damage           = 10
+Armor            = 0
+Aggression       = 80
+Speed            = 0
+Description      = "A large growth of seaweed blocks the passage here."
+End              = seaweed
+
+Name             = seaserpent
+PName            = "Seaserpent"
+Sflags             { Dumb }
+Mflags		   { BarNorth BarWest Aquatic }
+Location         = atlantis66
+Strength         = 130
+Damage           = 10
+Armor            = 0
+Aggression       = 78
+Speed            = 0
+Description      = "A massive Sea Serpent appears to be trapped here and hasn't eaten in a while."
+End              = seaserpent
+
+%objects
+
+Name             = eel
+Location         = IN_ROOM:atlantis15
+Oflags             { Lit GetFlips }
+BValue           = 100
+Size             = 4
+Weight           = 4
+State            = 1
+MaxState         = 1
+Desc[0]          = "An electric eel giving off sparks lies in a puddle of water here."
+Desc[1]          = "An electric eel struggles for his freedom, caught in the kelp."
+Examine          = "It's a rather small eel, only a handspan in length, but it generates a fair
+amount of electricity.  It looks at you with adoration for saving it.  It's
+sort of cute in a sleek sort of way.  "
+End              = eel
+
+Name             = knife
+AltName		 = blade
+Location         = IN_ROOM:atlantis12
+Oflags             { Weapon GetFlips }
+BValue           = 100
+Damage           = 7
+Size             = 5
+Weight           = 5
+MaxState         = 1
+State            = 1
+Desc[0]          = "A keen kelp blade lies here, its serrated edge glinting."
+Desc[1]          = "A small kelp blade lies partly in the sand, dropped by someone."
+Examine          = "It's a short kelp knife used for cutting through tough kelp plants."
+End              = knife
+
+Name             = bottle_air
+PName            = air
+AltName          = bottle
+Location         = IN_ROOM:atlantis5
+Oflags             { GetFlips }
+BValue           = 200
+Size             = 5
+Weight           = 5
+MaxState         = 1
+State            = 1
+Desc[0]          = "A small bottle with the label 'Bottled Air' sits here."
+Desc[1]          = "A small bottle lies buried in the sand."
+Examine          = "This 'Bottled Air' is popular among the Merfolk and used to be exchanged
+in great abundance ages ago with the surface dwellers."
+End              = bottle_air
+
+Name             = bottle_water
+PName            = water
+AltName          = bottle
+Location         = IN_ROOM:atlantis5
+Oflags             { GetFlips }
+BValue           = 200
+Size             = 5
+Weight           = 5
+MaxState         = 1
+State            = 1
+Desc[0]          = "A small bottle labelled 'Bottled Water' sits here."
+Desc[1]          = "A bottle juts out from behind a piece of wreckage."
+Examine          = "This is a small bottle of 'Bottled Water' that is often popular among human
+surface-dwellers and was once manufactured in large quantities by the
+Atlanteans in exchange for the bottled air that they so greatly prize.  "
+End              = bottle_water
+
+Name             = kelp
+Location         = IN_ROOM:limbo@limbo
+Oflags             { Food Destroyed }
+BValue           = 50
+Size             = 4
+Weight           = 4
+Desc[0]          = "Some pieces of limp kelp lie here, withering away."
+Examine          = "The limp kelp looks like it might actually be very nutritous if you could 
+handle the taste of it.  "
+End              = kelp
+
+Name             = shells_pile
+PName            = pile
+AltName          = shells
+Location         = IN_ROOM:atlantis18
+Oflags             { NoGet }
+Examine          = "The pile of shells is enormous!  It would take ages to look at them all.  "
+End              = shells_pile
+
+Name             = hematite_starfish
+PName            = starfish
+AltName          = hematite
+Location         = IN_ROOM:atlantis18
+Oflags             { Destroyed }
+BValue           = 250
+Size             = 4
+Weight           = 4
+Desc[0]          = "An black shiny starfish with a metallic look lies here."
+Examine          = "This is obviously a starfish created with great care. It is made of the
+semi-precious stone, hematite, and the starfish has a black, shiny, metallic
+look to it that reflects some of the nearby light back to you.  It is
+wonderful to look at.  "
+End              = hematite_starfish
+
+Name             = history_book
+PName            = book
+AltName          = history
+Location         = IN_ROOM:atlantis22
+Oflags             { GetFlips }
+BValue           = 150
+Size             = 10
+Weight           = 10
+MaxState         = 1
+State            = 1
+Desc[0]          = "A clay history book with the cover 'Atlantis' sits here waiting."
+Desc[1]          = "A clay history book with the cover 'Atlantis' lies open on the table."
+Examine          = "   The marked page tells something of the legend of Atlantis: '...and upon the
+decline of Poseidon's power, the natives of Atlantis stopped paying respect to
+their once revered god.  In retaliation, Poseidon proved he still had a great
+deal of raw power by plunging the once teeming surface port of Atlantis into
+the sea.  Poseidon claimed that the city would never be redeemed and returned
+to Poseidon's grace until some surface dweller came to the defense of Atlantis
+and proved that it was worthy once again.  Waiting for that time to come, the
+Atlanteans quickly adapted to their new-found environment, quickly establishing
+it as a major center of the aquatic realm that it is today.' "
+End              = history_book
+
+Name             = poseidon_statue
+PName            = statue
+AltName          = poseidon
+Location         = IN_ROOM:atlantis24
+Oflags             { NoGet }
+Desc[0]          = "A majestic statue of Poseidon stands imposingly in the center of the room."
+Examine          = "The statue pictures Poseidon in a commanding stance, motioning towards the sea
+with something that appears to be missing."
+End              = poseidon_statue
+
+Name             = sea_biscuit
+PName            = biscuit
+AltName          = sea
+Location         = IN_ROOM:atlantis30
+BValue           = 40
+Size             = 4
+Weight           = 4
+Desc[0]          = "A crunchy sea biscuit in the shape of a bone lies on the ground here."
+Examine          = "It has 'KelpBone' stamped into it.  "
+End              = sea_biscuit
+
+Name             = sea_cucumber
+PName            = cucumber
+AltName          = sea
+Location         = IN_ROOM:atlantis46
+Oflags             { Food }
+BValue           = 40
+Size             = 5
+Weight           = 5
+Desc[0]          = "A ripe sea cucumber lies here waiting to be eaten."
+Examine          = "It's a ripe sea cucumber, ripe and full of flavor.  "
+End              = sea_cucumber
+
+Name             = message
+Location         = IN_ROOM:atlantis47
+BValue           = 50
+Size             = 5
+Weight           = 5
+Desc[0]          = "A message lies on the counter...it's addressed to you!"
+Examine          = "  The message reads:
+		    The crab is expecting you.
+		    He will help if you can get to the old grump.
+
+				  -A friend "
+End              = message
+
+Name             = silver_triangle
+PName            = triangle
+AltName          = silver
+Location         = IN_ROOM:limbo@limbo
+BValue           = 250
+Size             = 6
+Weight           = 6
+Desc[0]          = "A dainty silver triangle glints merrily on the ground."
+Examine          = "It's a beautiful silver triangle that makes a lovely sound when you hit it.  "
+End              = silver_triangle
+
+Name             = purple_sponge
+PName            = sponge
+AltName          = purple
+Location         = IN_ROOM:atlantis64
+Oflags             { GetFlips }
+BValue           = 100
+Size             = 3
+Weight           = 3
+MaxState         = 1
+State            = 1
+Desc[0]          = "A squishy purple sponge lies here ready to soak up something."
+Desc[1]          = "A squishy purple sponge grows nearby on a small rock."
+Examine          = "A sponge in a glorious purple hue, it looks like it could soak up a lot.  "
+End              = purple_sponge
+
+Name             = glass_bubble
+PName            = bubble
+AltName          = glass
+Location         = IN_ROOM:atlantis55
+Oflags             { Destroyed }
+BValue           = 0
+Size             = 7
+Weight           = 7
+Desc[0]          = "A rather strong glass bubble gently rolls back and forth."
+Examine          = "This glass bubble looks like contains a gas of some sort inside it and is made
+out of some durable material similar to glass, tinted a light blue.  It appears
+like it could handle an accidental fall, but not an intentional break.  "
+End              = glass_bubble
+
+Name             = trident
+Location         = IN_ROOM:atlantis75
+Oflags             { Weapon GetFlips }
+BValue           = 500
+Damage           = 11
+Size             = 15
+Weight           = 10
+MaxState         = 1
+State            = 1
+Desc[0]          = "A sharply pointed trident radiating power lies on the ground here."
+Desc[1]          = "A powerful trident lies quietly inside the groove."
+Examine          = "This finely-crafted weapon looks like it is extremely durable and fit for the
+Gods themselves.  "
+End              = trident
+
+Name             = red_coral
+PName            = coral
+AltName          = red
+Location         = IN_ROOM:atlantis24
+Oflags             { GetFlips }
+BValue           = 300
+Size             = 7
+Weight           = 7
+MaxState         = 1
+State            = 1
+Desc[0]          = "A small piece of beautiful red coral rests on the ground here."
+Desc[1]          = "A small piece of beautiful red coral rests gently against the statue."
+Examine          = "This piece of coral is a brilliant, deep shade of red and would be worth quite
+a lot to the right person.  "
+End              = red_coral
+
+Name             = seashell
+Location         = IN_ROOM:atlantis44
+BValue           = 300
+Size             = 9
+Weight           = 9
+Desc[0]          = "A large seashell adorned with precious jewels attracts your attention."
+Examine          = "This large seashell is encrusted with all forms of underwater sea jewels and is
+especially covered with black pearls.  "
+End              = seashell
+
+Name             = violin
+Location         = IN_ROOM:atlantis67
+BValue           = 400
+Size             = 12
+Weight           = 10
+Desc[0]          = "A violin inside its somewhat battered case lies here on the ground."
+Examine          = "The black carrying case is extremely battered, but the violin inside is in
+exquisite shape.  You knew that if you tried to play it, sweet music would pour
+forth due to the enchantments on it.  It is truly an instrument of rare 
+quality."
+End              = violin
+
+Name             = seahorse
+Location         = IN_ROOM:atlantis70
+Oflags             { Destroyed NoGet }
+Desc[0]          = "A small seahorse lies in a crumpled heap at your feet."
+Examine          = "The poor seahorse is a mess.  Leave it in peace.  "
+End              = seahorse
+
+Name             = kelp_1
+PName            = kelp
+Location         = IN_ROOM:atlantis19
+Oflags             { NoGet }
+Linked           = kelp_2
+State            = 1
+Desc[1]          = "Large strands of kelp grow close together forming a dense wall."
+Examine          = "The kelp plants are unusually dense at this spot.
+"
+End              = kelp_1
+
+Name             = kelp_2
+PName            = kelp
+Location         = IN_ROOM:atlantis18
+Oflags             { NoGet }
+Linked           = kelp_1
+State            = 1
+Desc[1]          = "Large strands of kelp grow close together forming a dense wall."
+End              = kelp_2
+
+Name             = barrier
+Location         = IN_ROOM:atlantis54
+Oflags             { NoGet }
+Desc[0]          = "A watery wall-like barrier blocks any passage to the east."
+Examine          = "It is a wall completely formed of water.  In it you can see currents stream
+through and occassionally a minature whirlpool spins it's way past your eyes as
+you watch it.  "
+End              = barrier
+
+Name             = pattern
+Location         = IN_ROOM:atlantis54
+Oflags             { Destroyed NoGet }
+Desc[0]          = "A black and white star-shaped pattern blocks any further progress."
+Examine          = "It's a very curious pattern that hangs from the top of the cavern and meets
+evenly with the walls and the floor.  Small black and white star shapes form
+the pattern but there is a slightly large star pattern in the middle that
+appears to be missing.  "
+End              = pattern
+
+Name             = glued_door
+PName            = door
+AltName          = glued
+Location         = IN_ROOM:atlantis54
+Oflags             { Destroyed NoGet }
+Linked           = glued_door_1
+MaxState         = 1
+State            = 1
+Desc[0]          = "The door to the hermit's house stands invitingly wide open."
+Desc[1]          = "An uneven stone door is sealed tight against your actions."
+Examine          = "This stone door fits unevenly against the surrounding walls, overlapping the
+wall on the far edge of the door.  But that overlap has been put to good use
+because it has been bonded tight against the wall by some incredibly strong
+adhesive.  "
+End              = glued_door
+
+Name             = glued_door_1
+PName            = door
+AltName          = glued
+Location         = IN_ROOM:atlantis55
+Oflags             { NoGet }
+Linked           = glued_door
+MaxState         = 1
+State            = 1
+Desc[0]          = "The door leading outside stands invitingly open, suggesting you leave."
+Desc[1]          = "The door leading outside is glued shut and the Hermit likes it that way."
+Examine          = "The stone door fits unevenly against the frame, overlapping with the outer edge
+on one side of the door.  "
+End              = glued_door_1
+
+Name             = door
+Location         = IN_ROOM:atlantis74
+Oflags             { NoGet }
+Linked           = door_1
+MaxState         = 1
+State            = 1
+Desc[0]          = "An ancient stone door stands wide open allowing passage north."
+Desc[1]          = "An ancient stone door frustrates any further progress to the north."
+Examine          = "This ancient stone door looks like it has been around centuries.  It fits
+closely against the surrounding walls making certain no one is going to pry
+this door open!  Carved into the door is the figure of an equilateral
+triangle."
+End              = door
+
+Name             = door_1
+PName            = door
+Location         = IN_ROOM:atlantis75
+Oflags             { NoGet }
+Linked           = door
+MaxState         = 1
+State            = 1
+Desc[1]          = "An ancient stone door remains closed, trapping you inside the altar."
+Examine          = "The door provides a flush fit with the surrounding walls.
+"
+End              = door_1
+
+Name             = historical_marker
+PName            = marker
+AltName          = historical
+Location         = IN_ROOM:CliffTop@eastcoast
+Oflags             { NoGet }
+Desc[0]          = "A historical marker sits here, covered with vegetation."
+Examine          = "As you clear away the vegetation, you notice the words:
+   'This marks the spot where the once-prosperous
+    shipping city of Atlantis met with the mainland
+    before it disappeared.'
+"
+End              = historical_marker
+
+
+%locations
+
+atlantis1 d:atlantis2;
+lflags { UnderWater }
+Under the Waves^
+   What a close shave!  You nearly collided with the cliff face a couple 
+of times on the way down and just barely missed the rocks but you are now
+safely submerged in water.  It makes you feel strangely bouyant, and you 
+find you are able to move freely.  It doesn't look like you will be able
+to get back up the cliff face behind you, but heading further down 
+appears to still be an option.
+^
+atlantis2 u:atlantis1 d:atlantis3;
+lflags { UnderWater }
+Sinking^
+   The blue-green of the sea water embraces you upon your descent.  You
+feel the tug and pull of water currents as they gently move you.  Small 
+fish dart here and there in front of your eyes, appearing somewhat 
+startled by the intrusion upon their domain.  Light from above is 
+fading as you descend but your eyes are becoming more adjusted to the 
+new environment.  You can either swim up or descend further.
+^
+atlantis3 u:atlantis2 d:atlantis4;
+lflags { UnderWater NoMobiles }
+Sea Bottom Approach^
+   As you travel still further down you see the sea floor begin to 
+approach you.  You can begin to make out some forms on the sea 
+floor below.  Off to the north you can see the ruins of a ship 
+while off to the east a small town rests peacefully beneath the waves.
+Beyond the small town you can see the opening of a large cave mouth.  
+You can swim upward or descend down to the sea bed.
+^
+atlantis4 n:atlantis6 e:atlantis10 s:atlantis7 u:atlantis3;
+lflags { UnderWater }
+Sea Bed^
+   Actually, it doesn't resemble a bed at all.  As the water swirls 
+about you, you sway under its pressure and feel the crunch of sand
+under your feet as you attempt to keep your footing.  The cliff 
+face behind you is covered with all sorts of sea life and riddled 
+full of holes, ripe for the dwellings of small animals.  The sea 
+bed stretches out in front of you to the north, east and south.
+^
+atlantis5 e:atlantis8 s:atlantis6;
+lflags { UnderWater }
+Sunken Cargo Ship^
+   The inside of the ship looks like it once was as impressive inside as
+it was outside.  Tatters of tapestries still cling to the wood, swayed
+back and forth by the currents and fish dart here and there, nibbling on
+plant life that has attached itself to the inside of the hull.  Something
+that resembles a table lies crushed on the sand while various articles are
+embedded like strange jewels in the sand, worn away beyond recognition.
+Strange crabs peek out at you from under a desk drawer that is propped up
+upon a rock, though the desk is nowhere to be seen.  You can tell from some
+record books that were trapped under glass that this cargo ship carried
+something called "bottled water" that surface-dwellers seemed to like so
+much in exchange for "bottled air" that the underwater residents enjoyed.
+^
+atlantis6 n:atlantis5 e:atlantis9 s:atlantis4;
+lflags { UnderWater }
+In Front of the Ship^
+   This once proud cargo ship lies in ruins along the bottom of sea.  From
+what is left you can tell that it was a very large vessel at one time,
+although much of it has washed away.  Barnacles cover the wood and some of
+it looks rather unsteady, like the wood remaining was rotten clear through.
+Still, parts of it seem to be holding together quite well.  The sea bed
+declines slightly to the east and leads into the wreck to the north.
+^
+atlantis7 n:atlantis4 e:atlantis11;
+lflags { UnderWater }
+Gentle Slope^
+   The sea bed rises slightly to the east here.  Small creatures scuttle
+along the sea floor or glide gracefully through the water.  Larger fish
+chase after smaller ones through the water, providing a merry spectacle as
+they dart to and fro.  A large ridge of earth blocks any sort of passage
+to the south, while the cliff behind you foils any attempt to head back
+in that direction.  The bend of the sea bed allows for passage to the north
+or up to a slightly raised area to the east.
+^
+atlantis8 s:atlantis9 w:atlantis5;
+lflags { UnderWater }
+Ship's Prow^
+   The crushed prow of the cargo ship lies half-buried in the sand here.
+Fish swim leisurely through holes in the prow while half-hidden creatures
+tenatively poke their heads out from the prow to investigate the disturbance
+your presence is making through the water.  You can almost make out the
+graceful features of a mermaid that adorns the front of the prow but the
+features have been eaten away by the currents of the sea.  Underneath the
+mermaid you notice a plaque that reads 'The Anemone'.
+^
+atlantis9 n:atlantis8 e:atlantis14 s:atlantis10 w:atlantis6;
+lflags { UnderWater }
+Sandy Spot^
+  The sea bed declines into a shallow depression here.  The water eddys
+around you in a circular pattern, catching fish in the current and tossing
+them about a bit before they regain control.  The currents whirl around
+the depression, disturbing the sand.  Off to the east you see a large kelp
+bed while the prow of a large ship lies in wreck to the north.  Far off
+to the west is the abrupt rise of a cliff face while the sea bed winds
+gently of to the south.
+^
+atlantis10 n:atlantis9 e:atlantis15 s:atlantis11 w:atlantis4;
+lflags { UnderWater }
+Sea Floor^
+   The bed of the sea seems to stretch on for days.  Outcroppings of rock
+jut up from the bottom of the sea floor while plant life atop it sways
+gently to the swell of the current.  Clumps of rocks form barriers that
+smaller fish hide behind warily.  Larger fish swim slowly around, looking
+for prey, or perhaps just a good place to hover quietly for a few moments.
+Bright colors glitter off of the rocks and fish, providing a delight to
+your eyes.  Off to the east lies a kelp bed and the sea bed heads off to
+the north, south and west.
+^
+atlantis11 n:atlantis10 e:atlantis16 s:atlantis12 w:atlantis7;
+lflags { UnderWater }
+Sea Floor Rise^
+  The sea floor rises gently here, leading up to a barren sandy spot on
+top of a small hill.  Off to the east you see the tops of some buildings
+sticking up above a sand-packed wall.  The sea bed falls away gradualy from
+this spot on the other three sides, leading back toward the cliff face to
+the west, towards a small depression to the north and towards a rocky
+ridge to the south.
+^
+atlantis12 n:atlantis11 e:atlantis17;
+lflags { UnderWater }
+Sea Ridge^
+   A large rock formation juts out from the sea floor here, making a large
+impenetrable wall to the south.  Colorful plant life sticks to the wall,
+making it look like the outcropping has polka-dots if you stand back far enough
+from it.  Your eye catches a glimpse of something moving in the wall, then
+loses track of it.  You can swim back north or follow the wall to the east.
+^
+atlantis13 s:atlantis14;
+lflags { UnderWater }
+Kelp Bed^
+   Kelp grows in abundance here, but sparsely.  You can see large fish
+swimming inbetween the strands and smaller aquatic life scuttling along
+near the bottom of the plants.  Exotic fish glide quietly in front of
+your face, in search of nourishment.  You get an odd feeling of peacefulness
+here.
+^
+atlantis14 n:atlantis13 e:atlantis19 s:atlantis15 w:atlantis9;
+lflags { UnderWater }
+Kelp Bed^
+   Kelp begins to grow thick here, beginning to obstruct your view of the
+surroundings.  You push your way through the plants, finding your bearings.
+The small forest of kelp hedges in on all sides but thins out slightly
+toward the north, west and south.  If you wish to try, you can attempt to
+force your way through the more tightly growning kelp to the east.
+^
+atlantis15 n:atlantis14 e:atlantis20 s:atlantis16 w:atlantis10;
+lflags { UnderWater }
+Kelp Bed^
+   Long strands of kelp reach up from the sea floor here, sheltering small
+schools of fish who make their home here.  The kelp sways in the current,
+performing some strange, exotic dance.  The kelp grows more closely together
+to the north and east, while it thins out to the west and to the south, near
+a large gate.
+^
+atlantis16 n:atlantis15 e:atlantis21 s:atlantis17 w:atlantis11;
+lflags { UnderWater }
+Outside Atlantis^
+   Before you is the fabled city of Atlantis.  You can see a large wall made
+out of some sand-like substance enclosing the buildings with a large gate in
+the middle of the wall directly in front of you.  The water here is ripe with
+disturbances in the water from the passage of all sorts of aquatic life that
+appear to be entering the city.  The gates are before you to the east while
+a kelp bed lies to the north and a large stone outcropping is to the south.
+You can also proceed back along the sea bed to the west.
+^
+atlantis17 n:atlantis16 w:atlantis12;
+lflags { UnderWater }
+Sea Ridge^
+   A large outcropping of stone stands imposingly to the south, preventing
+travel in that direction.  Bubbles of of air escape around the outcropping,
+forced up from somewhere far below the formation.  Fish follow the bubbles
+up, playing with them as they quickly rise toward the surface of the water
+far above you.  You can follow the outcropping back to the west or head
+north along the sea bed.
+^
+atlantis18 s:^kelp_2;
+lflags { UnderWater }
+Shell Pile^
+   You have never seen so many shells in your entire life.  It seems this
+is where the denizens of Atlantis desposit all their shells when they are
+through with them.  Seashells of all colors and varieties dominate the pile
+while more exotic ones can be seen scattered throughout.  There is even a
+snail shell to one side of the pile that is the size of a small horse, colored
+a very lovely shade of pink.  Scattered around the pile are smaller versions
+of that shell along with discarded oyster, clam and crab shells.  This would
+be quite the treasure if you could bring them all back with you.
+^
+atlantis19 n:^kelp_1 s:atlantis20 w:atlantis14;
+lflags { UnderWater }
+Kelp Me!^
+   You manage to shove your way through the thick growths of the kelp, to
+find yourself completely surrounded on all sides by it.  There is so much
+of it that it's difficult to see in any real direction.  Thick growths of
+the plant form dense walls to the north and east, and seem only slightly
+less dense to the west and south.
+^
+atlantis20 n:atlantis19 s:atlantis21 w:atlantis15;
+lflags { UnderWater }
+Kelp Bed^
+   Kelp grows in sparse growths here, becoming very thick toward the north.
+Something scuttles under your feet, startling you for a moment.  You look
+after to see what it was but it's long since scuttled along on it's merry way.
+You can head into the thinner kelp to the west, push your way through the
+thicker growths to the north or head towards some gates to the south.
+^
+atlantis21 n:atlantis20 e:atlantis25 w:atlantis16;
+lflags { UnderWater }
+Atlantis' Gates^
+   Before you are the gates to the Lost City of Atlantis.  The gates
+are about twice as high as the average merman and they are wide open, to
+allow the stream of aquatic life through the gates.  All forms of life
+pour through the gates, on their daily business or just to sightsee.  It
+appears that Atlantis has become quite the tourist attraction as it's fame
+has grown, so aquatic life forms from all over journey to visit.  You may
+swim through the gates to the east, enter a kelp bed to the north or head
+back along the sea bed to the west.
+^
+atlantis22 s:atlantis23;
+lflags { UnderWater NoMobiles }
+The Atlantis Library^
+   You enter a richly furnished library.  It seems the inhabitants of this
+town like books a great deal.  The walls are lined with books and the floor
+is covered in an unusual pattern of colored coral in a tile-like pattern.
+Sturdy stone tables are complimented with comfortable sponge chairs.  You
+glance over the books in the library and notice that they are all made of
+a clay-like substance that the words have been etched into.  You realize
+that the books being heavy also solves the problem of the books floating away.
+In all, it's a rather unusual library from the ones you are used to, but is
+quite comfortable and inviting.
+^
+atlantis23 n:atlantis22 e:atlantis28 s:atlantis24;
+lflags { UnderWater }
+End of Side Street^
+   This watery passage between buildings ends at a rough sandstone wall.
+You notice doors leading north into a well furnished library and to the
+south into a spacious temple.
+^
+atlantis24 n:atlantis23;
+lflags { UnderWater NoMobiles }
+Poseidon's Temple^
+   Fish dart around the wide open spaces of this temple.  Large slabs of
+a blue-green stone form the walls of this octagonal shaped room.  In the
+center of the chamber a large statue of Poseidon dominates the room.  The
+floor is covered in a criss-cross pattern of the same sort of material as
+that which makes up the walls.  Occassionally, pious aquatic life come and
+offer their respects and sometimes leave a gift at the base of the statue.
+As you watch, a small shark enters the temple, bows a fin toward the statue
+and then leaves a small piece of beautiful red coral in respect.
+^
+atlantis25 e:atlantis29 w:atlantis21;
+lflags { UnderWater NoMobiles }
+Entrance to Atlantis^
+   So here it is.  The Lost City of Atlantis.  Upon viewing it, the city
+actually doesn't look all that impressive.  It seems that the legends
+about it have been so blown out of proportion that the real reason for
+it's being here may have been lost, and instead lavish stories have been
+created to explain it.  Now it looks like a somewhat small village with
+a rather large aquatic tourist population drawn here by the legend of the
+city.  All forms of aquatic life bustle about through the gates on their
+own agendas.  You can leave the city through the gates behind you to the
+west or continue towards Main Street to the east.
+^
+atlantis26 e:atlantis30;
+lflags { UnderWater }
+The Pasture^
+   A large area of the sea bed has been marked off with a stone barrier
+of some sort, defining the confines of the pasture the sea cows get
+to roam in.  There is a section at the far end of the field where kelp
+grows for the sea cows to eat.  Looking at the cows it appears that they
+are pretty content to be here.
+^
+atlantis27 e:atlantis32;
+lflags { UnderWater }
+Terrarium West^
+   You have just moved into the exotic section of the Terrarium.  Behind
+the glass-like shields you see the creatures that are quite familiar to
+you:  orcs, dwarves, gnolls, insect-like creatures, a family of ogres, a
+captured demon and even a baby dragon!  The aquatic tourists are especially
+interested in this place, with all the life forms they never see otherwise.
+You feel fortunate that you aren't one of the displays.
+^
+atlantis28 e:atlantis34 w:atlantis23;
+lflags { UnderWater }
+Side Street^
+   This street continues along between buildings, providing a fairly
+wide corridor.  The buildings on either side seem to be made mostly of
+a sand-like substance.  The building at the end of the street on the left
+looks like it is made from a blue-green material that looks like marble
+and you guess that it is an important building.  Fish dart past you
+on their way to get to somewhere while you're deciding where to go.  You
+may return back to Main Street to the east or toward the end of the
+street to the West.
+^
+atlantis29 e:atlantis36 w:atlantis25;
+lflags { UnderWater }
+Before Main Street^
+   You stand before Main Street, looking at the sights around you.  Nearby,
+street vendors are selling souveniers from Atlantis, most of whom are
+being ignored.  Small homes line either side of the watery road, made of
+some sand-like material.  You see merfolk peer out the windows of their
+homes at you.  Fish and merfolk pass by you towards Main Street, where
+the traffic seems to split off to the north and south.  You can follow the
+stream of traffic or head back west to leave the city.
+^
+atlantis30 s:atlantis31 w:atlantis26;
+lflags { UnderWater NoMobiles }
+Merfolk Home^
+   You enter a cozy little home made out of the sand-like substance you've
+viewed elsewhere.  The home is rather small, with some sleeping beds on
+the floor to one side neatly arranged.  They appear to be made out of kelp.
+A small cooking arrangement is along the far wall and a door leads west
+outside.  A heavy table made of stone dominates the room and you notice
+a note on the table held down by a rock.  It says 'Went to work luring
+adventurers in the High Priest's Quarters again.  Have a good day at the
+Hotel.  All my love.  -Mara'  Beyond this, the home is very clean and sparse.
+You can swim south back to the street or west to the pasture where the family
+keeps their cows.
+^
+atlantis31 n:atlantis30 e:atlantis38 s:atlantis32;
+lflags { UnderWater }
+Short Street^
+   This short waterway ends abruptly after a short distance.  You see
+a large number of tourists heading through a door to the south and hear
+a coughing sound coming from the doorway to the north.  A few sharks also
+emerge from the doorway to the south, making gestures as if something
+were jumping around inside.
+^
+atlantis32 n:atlantis31 w:atlantis27;
+lflags { UnderWater NoMobiles }
+Terrarium East^
+   You enter into the Atlantis Terrarium.  This is where the Atlanteans
+display some of the creatures that live above the water.  Each cage is
+made out of something that looks like a clear glass, but stronger.  In
+east of the cages in this half you see some of the more mundane animals:
+rats, dogs, cats, bats, goats, chicken, racoons, snakes, cows, pigs,
+bears and the like on are display here.  A sign near the door indicates
+that they obtain air for them from above the waves and that the animals
+are treated well.  A sign indicates that there are more creatures to
+the west or you may step back outside.
+^
+atlantis33 e:atlantis46 s:atlantis34;
+lflags { UnderWater }
+North End of Main Street^
+   There is less traffic at this end of the street.  The watery passage
+curves gently to the east, bordered by buildings on the north and west.
+To the east you can two merpeople holding hands entering a lavish garden and
+if you look south you can see all the way down Main Street and see the
+Castle at the end of it.
+^
+atlantis34 n:atlantis33 s:atlantis35 w:atlantis28;
+lflags { UnderWater }
+North Main Street^
+   As you enter this section you can see a group of fish that appear to be
+playing a game called "airball" where they bat around an air-filled ball
+with their fins and try and knock it into a couple of enclosures.  It looks
+like they're having a lot of fun.  Passages between the buildings lead
+north towards the end of the street, west down a short street and back
+south along the rest of Main Street.
+^
+atlantis35 n:atlantis34 e:atlantis47 s:atlantis36;
+lflags { UnderWater }
+Outside the Messenger's Shop^
+   As you flow along with the rush of aquatic life forms bustling up and
+down Main Street you notice a small sign on the outside of a building on the
+on the east side of the street proclaiming 'Speedy's Message Service.'  As
+you pass outside the doorway, you catch the blur of something that exits
+the doorway and returns.  You can investigate the interior of the store to
+the east or head along Main Street to the north and south.
+^
+atlantis36 n:atlantis35 s:atlantis37 w:atlantis29;
+lflags { UnderWater }
+Watery Intersection^
+   You are standing in the main hub of Atlantis.  All sorts of forms
+glide, wiggle or swim past you at breakneck speeds trying to reach where
+they are going.  There are a few fish here and there swimming leisurely
+along the side of the watery street, looking into all the shops as they
+pass.  You notice that the windows in the buildings are simply holes
+cut out from the side of them with nothing covering them, so occassionally
+a fish will dart through one of the windows in the building as well
+as the larger ones needed for larger species, like the merfolk.  You can
+head north or south along Main Street or west to leave the city.
+^
+atlantis37 n:atlantis36 e:atlantis48 s:atlantis38;
+lflags { UnderWater }
+Outside the Hotel^
+   As you swim along Main Street you see a plaque outside one building
+indicating that it is a hotel.  You notice all sorts of aquatic creatures
+enter and leave the hotel, some of whom can barely swim through the door,
+they're so exhausted from sight-seeing.  As you pass outside the Hotel,
+you hear the strains of something that sounds like piano coming from inside
+the hotel, but it sounds odd and somewhat muffled.  You can enter the hotel
+to the east or head north and south on Main Street.
+^
+atlantis38 n:atlantis37 s:atlantis39 w:atlantis31;
+lflags { UnderWater }
+South End of Main Street^
+   You've reached the end of Main Street.  A couple of dolphins pass by you
+chattering away happily.  You notice a lobster patching up a hole in a
+building bordering the street that was worn away by the currents nearby.
+Fish dart this way and that, trying to make up their minds about what
+they needed to do.  You notice a small school of fish head off to the west
+on a kelp trip.  You can head north up Main Street, west down a short
+street or south to the Castle.
+^
+atlantis39 n:atlantis38 s:atlantis41;
+lflags { UnderWater NoMobiles }
+Before the Sand Castle^
+   Before you stands a large Sand Castle.  Short, stubby towers stand
+out above the rest of the Castle, bright flags of abalone worked into the
+top of each.  Through the empty window of each tower you catch glimpses of
+shark sentries.  The multiple levels of the castle show activity on each one
+and if you watch long enough you notice servants swimming outside the castle
+on shortcuts to reach the higher levels instead of passing through the
+castle.  You can enter into the courtyard by swimming south or head back
+to Main Street to the north.
+^
+atlantis40 e:atlantis41 s:atlantis43;
+lflags { UnderWater }
+Sand Tower^
+   You stand before one of the Sand Towers you could see from outside the
+Castle.  The tower is in slight need of repair because it is starting to
+sag a bit under the water's weight but it otherwise holding up well. Looking
+through the windows further up the tower you can see a hollow passage leading
+all the way up to the top of the tower in which fish and sharks are swimming
+up and down, patrolling the tower, viewing the surrounding water.  You are
+able to swim back to the east to the courtyard or south to a sandy passage.
+^
+atlantis41 n:atlantis39 e:atlantis42 w:atlantis40;
+lflags { UnderWater }
+Courtyard^
+   The courtyard is an odd congomeration of guards, servants, nobility and
+tourists.  Off to one side of the courtyard you see a jellyfish talking
+to one of the starfish nobles.  Two pagefish dart off to the side at a
+summons from their master.  A number of tourists are standing around
+looking at all the sights of the castle.  Plus there are peddlers selling
+trinkets to those around them and other fish doing acrobatics and feats of
+magic.  It is a place full of merriment and activity.  An opening in the
+crowd to the west leads to a sand tower and if you push your way you can
+swim towards some sort of opening to the east.
+^
+atlantis42 s:atlantis44 w:atlantis41;
+lflags { UnderWater }
+Intersection^
+   You've reached an intersection just off of the Courtyard.  There is an
+opening in the buildings, leading off into what looks like servant's quarters,
+but it is being guarded.  Merfolk bustle mostly out of the opening, heading
+out towards the throne room to the south.  A few others cross the courtyard
+to the west on other business.
+^
+atlantis43 n:atlantis40 e:atlantis44;
+lflags { UnderWater }
+Sandy Passage^
+   The walls of the castle extend along the western side, save for an opening
+off to the west, which is being guarded.  It appears that nobility live in
+that section and only come out infrequently, though you notice a great deal
+of servants entering.  At the moment a swordfish is exiting the passage
+on his way toward the throne room to the east.  Following the walls of
+the castle north you will encounter one of the sand towers.
+^
+atlantis44 n:atlantis42 w:atlantis43;
+lflags { UnderWater }
+Throne Room^
+   The throne against the center of the far wall is the first thing that
+captures your attention.  It is carved out of an enormous black pearl.
+You probably wouldn't want to meet up with the oyster that created that!
+Carved into the surface of the pearl throne is pictures of historical
+battles, true loves and tragic losses.  It is a marvel to behold and the
+rest of the room no less so.  The room is lit by phosphorescent fish
+standing at attention at even intervals throughout the room.  The ceiling
+of the room is covered in all the riches of the sea.  Brightly colored
+clownfish do tricks for everyone's amusement and there is gaiety all
+around.  The only odd thing about the room is that the floor is completely
+barren.  Looking down you see nothing but the sea bed below you.
+^
+atlantis45 s:atlantis46;
+lflags { UnderWater }
+Octopus' Home^
+   This home is extremely immaculate.  Everything has its proper place
+and is stored there neatly.  The pots are all put away, the gardening
+utensils are all clean and stored in their rack, the bed is made and the
+floor is swept (as much as the sea floor can be swept, anyway).  The
+entire household is spotless which isn't overly surprising since its
+inhabitant has eight arms to do everything with.
+^
+atlantis46 n:atlantis45 e:atlantis49 w:atlantis33;
+lflags { UnderWater NoMobiles }
+Octopus' Garden^
+   A glorious sight to behold is the Octopus' Garden.  Streaks of color
+come from arranged anemones and colored plant life.  Statues of coral
+are arranged tastefully about the garden and small pathways lead in
+winding circles through all the colorful plants.  Hedges of darker coral
+block off your view from certain sections which, once beyond the hedge,
+provide even more spectacular views due to the partitioning.  Lovers swim
+along the paths through the plants and tourists come from all over to
+view this beautiful sight.
+^
+atlantis47 w:atlantis35;
+lflags { UnderWater NoMobiles }
+Messenger Shop^
+   This watery shop is quite sparse as the only thing contained inside of
+it is a coral countertop for messages.  The rest of the room is empty
+save for an up-to-date aquatic calendar on the wall and a few sponge
+chairs arranged around the room which seem to have never been used, as
+no one is ever kept waiting.  On the counter is a slogan of some sort:
+'Speedy's Messenger Service:  Messages delivered while you wait!'.  You
+notice at the bottom of the fine print the clause 'This is backed by
+a lifetime guarantee--no customer waits longer than their natural life.'
+An opening in the building leads back out west onto Main Street.
+^
+atlantis48 w:atlantis37;
+lflags { UnderWater NoMobiles }
+Hotel^
+   As you float in the lobby of the aquatic hotel you notice that it is
+a rather comfortable atmosphere.  Fish swim gracefully through the lobby
+on their way to their rooms, a couple of merfolk up at the counter are
+checking into the hotel and a couple of swordfish children are chasing
+each other through the lobby.  The lobby is tastefully decorated with
+carefully selected plantlife and the counter is a lovely shade of blue
+coral.  Across the lobby from the counter is a small aquatic piano.  You
+aren't quite certain how it operates, but it adds to the inviting atmosphere
+of the lobby.  You may swim back out west to Main Street.
+^
+atlantis49 e:atlantis50 w:atlantis46;
+lflags { UnderWater }
+Outside the Garden^
+  As you leave the garden behind, you notice the plant life becoming less
+well cultivated and that the coral hedges that define the path are becoming
+sparse.  Obviously, this path is not used frequently.  Still, you can view
+a shy fish or two darting in and out of the coral hedges and your eye catches
+a small lobster underneath some of the plants.  You are able to swim between
+the hedges west back into the garden or east towards a cave mouth you see
+before you.
+^
+atlantis50 e:atlantis51 w:atlantis49;
+lflags { UnderWater }
+Watery Path^
+   As you pass along this path, you are surrounded by a large group of
+small, brighly colored yellow fish.  They swirl around you like a
+minature tornado then swiftly swim off again into the sea depths.  You can
+continue to swim along the path towards the cave to the east or back towards
+the garden to the west.
+^
+atlantis51 e:atlantis52 w:atlantis50;
+lflags { UnderWater }
+Before the Cave^
+   A large stone cave opening looms before you, casting its shadow upon
+the sea bed behind you.  Through the opening you can see nothing but a
+lot of darkness and the cave gives you the appearance of being able to
+swallow you up.  You can enter into the cave to the east or head back
+along the path to the west.
+^
+atlantis52 e:atlantis53 w:atlantis51;
+lflags { UnderWater }
+Inside the Cave Mouth^
+   A small amount of light streams in from the water outside.  In front of
+you is a passage through the stone of the cave, roughly worn into the
+side of the stone by the passage of water.  It appears that the water
+broke through into the rough natural caves that were inside the stone here.
+These natural caves, now filled with water, lead further inside or you
+can swim out the cave mouth once again to the west.
+^
+atlantis53 e:atlantis56 s:atlantis54 w:atlantis52;
+lflags { UnderWater }
+Craggy Intersection^
+   The rough walls of the cave split off into three directions here.  The
+passage to the south is very odd looking, as it appears the water ends
+abruptly.  A small trickle of light enters in from the passage to the west
+and the passage becomes much darker to the east.
+^
+atlantis54 n:atlantis53 e:^glued_door;
+lflags { }
+Secluded Niche^
+   The water does end abruptly here, and you drop to the floor, no longer
+supported by the water.  Looking around you find yourself in a smooth
+cavern, that doesn't look like the rough cave passages you've seen earlier.
+The floor of the cavern is covered with sand too, instead of the hard stone
+tunnel floor in the rest of the cave passages.  You can jump back into the
+water to the north.
+^
+atlantis55 w:^glued_door_1;
+lflags { UnderWater }
+Hermit's Home^
+   You enter a home that is jammed with everything imaginable.  There are
+bits of seashell, jade pottery, a small glass jar full of pearls, a cracked
+lamp, and a small stone shelf covered with pieces of coral.  Small starfish
+lie on the floor of the home and a couple of unusual looking stones are
+scattered throughout the room.  On the far wall of the home is an unusual
+looking fireplace made of a beautiful pink stone.   Inside it a fire burns
+with a blue-green flame.  The smooth walls of the home have thousands of
+little hole in them that are packed full of trinkets.  A prize flag from a
+sunken pirate ship lies on the floor, pinned down by four huge rocks at
+the corners.  It's a cozy little home, albiet somewhat cluttered.
+^
+atlantis56 e:atlantis57 w:atlantis53;
+lflags { Dark UnderWater }
+Craggy Passage^
+   The walls of the cave passage here are very rough and uneven.  The passage
+of water through these caves has done little to smooth them out.  Your light
+flickers over the silence of the passage in front of you.  You can continue
+to swim forward to the east or turn back towards the west.
+^
+atlantis57 s:atlantis58 w:atlantis56;
+lflags { Dark UnderWater }
+Cave Corner^
+   The cave turns a corner here, leading from the west to the south.  The
+water here seems very dead as there are few vibrations in the water and you
+can feel very little current passing by you.  You also take notice that you
+haven't seen any aquatic life since you've entered the cave.  The thought
+makes you shiver slightly.  The cave leads on into darkness to the south
+or back out towards the cave mouth to the west.
+^
+atlantis58 n:atlantis57 s:atlantis60;
+lflags { Dark UnderWater }
+Watery Tunnel^
+   Your light throws off odd shadows upon the walls and lends an eerie tint
+to the water before you.  Ahead of you other shadows seem to be moving, but
+perhaps it's just a trick of your imagination.  You can continue on further
+to the south into the shadows or north back around the corner.
+^
+atlantis59 e:atlantis60 s:atlantis61;
+lflags { Dark UnderWater }
+Crevice^
+   The crack that serves as the entrance appears to have been ripped open from
+the surrounding wall and the space behind it has been made into a lair for
+a giant squid.  Bones of various creatures litter the floor of the crevice and
+it doesn't look much like a pleasant place to remain long.  You can leave this
+place to the east or towards a small glimmer to the south.
+^
+atlantis60 n:atlantis58 s:atlantis62 w:atlantis59;
+lflags { Dark UnderWater }
+Watery Passage^
+   The floor of this passage is strewn with large chunks of stone and the
+walls are scored with large cracks, like something powerful had been
+hitting them fiercely.  Rubble litters the floor and several other pieces
+look like they have been crushed into smaller pieces by a tremendous
+force.  It doesn't look like a very safe place to be floating around in.
+You can swim into a large crevice off to the west or around a corner to
+the south.
+^
+atlantis61 n:atlantis59 e:atlantis62 s:atlantis63;
+lflags { UnderWater }
+Cave Intersection^
+   As you approach this intersection you are met by the glow generated
+by a large number of phosphorescent plants.  They line all the cracks
+and gullies of the walls you pass by and give a soft but somewhat eerie
+glow to the water before you.  This intersection of cave passages leads
+north into a large crevice, east around a corner and south further along
+the corridor.
+^
+atlantis62 n:atlantis60 w:atlantis61;
+lflags { Dark UnderWater }
+Corner^
+   The water-filled cave passage turns a plain corner from the north
+towards the west.  The walls are rough and broken, especially near the
+floor of the passage where rubble collects at the bottom of the wall,
+but the walls still form a gentle curve around the bend.  To the west
+you notice a patch of light while heading north heads toward a room
+that looks even more cracked than the current one.
+^
+atlantis63 n:atlantis61 e:atlantis64 w:atlantis65;
+lflags { Dark UnderWater }
+Sea Weed^
+   You're not certain how it managed to get here, but the passage is
+blocked by a large growth of sea weed.  It completely surrounds the tunnel
+around you and chokes off any further passage.  If you want you can attempt
+to push your way through it to the east or west, or head back up the
+corridor with a faint glow to the north.
+^
+atlantis64 w:atlantis63;
+lflags { Dark UnderWater }
+Alcove^
+   It seems that other life has been able to enter the cave and survive
+here because this small alcove is completely covered in sponge.  Sponges of
+all colors can be found here.  This cavern might actually be a lot of fun if
+you haven't been beset by sea weed plants, giant squids, were far underwater
+and inside a dark watery cave not knowing what was going to happen.  The
+passage leads back out to the west.
+^
+atlantis65 n:atlantis66 e:atlantis63;
+lflags { Dark UnderWater }
+Smooth Turn^
+   While the tunnels you have been recently seeing have been extremely rough,
+you have just entered a tunnel that is completely smooth.  The sides of the
+tunnel have been rubbed smooth by some force.  Touching the walls gives a
+glassy feeling to them, even though you know that the walls around you are
+stone.  You can swim either north or east along the corridor.
+^
+atlantis66 n:atlantis67 s:atlantis65 w:atlantis68;
+lflags { Dark UnderWater }
+Tight Squeeze^
+   The tunnel you have just entered hedges in closely upon you but is still
+sufficiently large to allow you comfortable passage.  This tunnel also has
+the glassy look of the previous passage and your light slides off the
+surface in a bright glare.  The tunnel continues to the north into a
+dead-end passage, to the west into another corridor and back to the south.
+^
+atlantis67 s:atlantis66;
+lflags { Dark UnderWater }
+Serpent's Lair^
+   The walls of this dead-end cave are also glass smooth.  You realize
+from this lair that the walls you recently saw were due to the serpent
+rubbing against them in passage all these years.  It probably crawled into
+these caves for food then grew too large for the passages until it
+became trapped inside.  This dead-end passage is completely barren and
+smooth due to the vast amount of time the serpent spent sleeping here.
+You can swim back to the passageway to the south.
+^
+atlantis68 n:atlantis69 e:atlantis66;
+lflags { Dark UnderWater }
+Twisty Turn^
+   The walls of this passage twist and turn as they proceed around the
+corner.  You swim through something that resemebles a crooked letter 'W'
+before you reach the other opening on the far end.  One end of the twisty
+passage opens out to the north and the other end exits to the east.
+^
+atlantis69 s:atlantis68 d:atlantis70;
+lflags { Dark UnderWater }
+Drop Off^
+   The water abruptly ends as you look out into a tube that is completely
+dry.  The floor of the tube is a ways below but it looks like you could
+survive it if you decided to climb down.  However, it doesn't look like
+you wold be able to climb back up if you did so.  Across the tube, farther
+up on the opposite wall, you notice a smaller tube that is also filled with
+water.
+^
+atlantis70;
+lflags { Dark }
+Air Pocket^
+   You find yourself at the bottom of a tube filled by an air pocket.
+This air pocket extends for a large distance above you.  The floor is
+covered with a small layer of sand that crunches under your feet. On the
+southern wall, within jumping distance, is the hole that leads back
+towards the front entrance.  On the northern wall there is a very small
+hole much further up than the hole on the south wall that you might be able
+to toss something up to.
+^
+atlantis71 n:atlantis72;
+lflags { }
+Watery Crack^
+   You are in a low-ceilinged, somewhat small, narrow passage.  Behind you
+the water ceases in a clean wall as it meets an air tube.  Looking down
+the tube you see a long drop with an odd shaped human-type creature at
+the bottom of the shaft.  It's a long drop and if you tried to jump into
+the tube you would surely die but if you dropped something, it would probably
+land safely.  The watery passage continues on further to the north.
+^
+atlantis72 n:atlantis73 s:atlantis71;
+lflags { }
+Small Passage^
+   The rock of the cave narrows slightly as you swim down this corridor.
+It is still quite large for you but it appears you're being funneled
+somewhere ahead.  You are able to swim further down the passage to the
+north or return to the south.
+^
+atlantis73 n:atlantis74 s:atlantis72;
+lflags { }
+Tight Fit^
+   Whew!  Good thing you're small or you probably wouldn't have made it
+into here.  The walls of this passage are rather narrow and a full sized
+human wouldn't be able to fit through here at all.  Luckily that is no problem
+for you in your present state.  The passage hedges in on both sides but allows
+you to swim to the north and south.
+^
+atlantis74 n:^door s:atlantis73;
+lflags { }
+Before the Door^
+   You swim down the corridor and stop abruptly at a large door.  It is a
+massive stone door that matches perfectly with the stone surrounding it.
+No way to pry this one open!  The stone around the door and along the walls
+is slipperly smooth and reflects an ghostly glow to your eyes from somewhere.
+The only exit is either through the door somehow or back down the corridor
+from which you came.
+^
+atlantis75 s:^door_1;
+lflags { }
+The Lost Altar^
+   You have entered upon a simple altar.  Against the far wall of the room is
+a small block altar that appears to be part of the wall that extends out
+into the room.  On top of the altar is a horizontal groove.  Above the altar,
+carved into the wall is an icon that looks very much like a trident.  Under
+the icon is the inscription 'When this trident is returned shall the city of
+Atlantis be redeemed.'
+^

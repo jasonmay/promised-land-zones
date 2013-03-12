@@ -1,0 +1,175 @@
+/************************************************************************
+ * Mortal Realms Zone							*
+ * 1996, Illusion (shill@nyx.net)					*
+ *									*
+ * A simple set of chat rooms to be placed above the start locations.	*
+ ************************************************************************/
+
+
+
+
+%zone:mrealms
+
+%objects
+
+Name 		= Hamlet
+PName		= hamlet
+Altname		= book
+Oflags 		= { NoPit }
+Location 	= IN_ROOM:island
+BValue		= 0
+Size		= 5
+Weight		= 0
+Desc[0]		= "A copy of Shakespeare's &+GHamlet&* lies here."
+Examine		= "To be, or not to be...that is the question...."
+End		= hamlet
+
+Name		= Tape
+PName		= tape
+AltName		= cassette
+OFlags		= { NoPit }
+Location	= IN_ROOM:island
+Desc[0]		= "An outdated cassette tape has been left here."
+Examine		= "Mellon Collie and the Infinite Sadness.  Hm...well, at
+least there's tape...Too bad you don't have a tape player."
+End		= tape
+
+Name		= Monitor
+PName		= monitor
+AltName		= screen
+OFlags		= { NoGet }
+Location	= IN_ROOM:island
+Desc[0]		= "A computer monitor sticks out of the sand."
+Examine		= "The screen displays a vibrant blue background with many
+hex codes dumped on it.  Just your luck, its got Windows."
+End		= monitor
+
+%locations
+
+mrealms d:temple@start nw:lounge ne:lounge u:second s:disco e:wildflowers;
+lflags {Peace FastMana FastHeal NoMobiles}
+The Mortal Realms^
+  You have stepped into the mortal realms, a place for mortals to come to
+just to get away from the harsh world. It is very peaceful here and you
+decide that you might as well take a little break from all the adventuring
+that you have been doing. There are exits in all directions, or you can go
+to the Temple of Paradise to the south and continue on your quests.
+^
+lounge se:mrealms sw:mrealms;
+lflags {Peace FastMana FastHeal}
+The Mortal Lounge^
+  You step into the lounge and begin to feel relaxed right away. A large
+plush couch sits right in the middle of the room with a large coffee table
+in front of it. A refridgerator stocked with the finest ale's and various
+types of soda is built into the north wall. Set into the west wall is a big
+screen TV with a Sony Playstation resting on the floor in front of it.  Next
+to the TV is a stereo system playing dance mix music. Set into the east wall
+is a wetbar with a glowing neon sign that says 'Always Open'.  So please,
+pour yourself a drink, sit back and relax.
+^
+
+disco n:mrealms;
+lflags { Peace Party }
+The Disco^
+You've not only traveled to the south room but also traveled back in time to 
+a place where Disco is still alive and King, drugs are bountiful, afros are 
+still cool, and bell-bottoms are a must.  Strobe lights flash against a huge 
+disco ball hanging from the ceiling, giving the entire room a dream-like 
+look.  People crowd the room, trying to stay alive, swearing as long as they 
+know how to love they know they'll be alright, screaming at the DJ to play 
+that funky music white boy, and other corny song allusions.
+^
+
+waterfall w:mrealms;
+lflags { Peace Private }
+Behind the Waterfall^
+A sheet of water falls before you, glistening in all the colours of the 
+rainbow.  You reach out your hand through the water and slivers bounce off 
+onto the walls of the cave you found.  Looking back into the cave you see 
+the drawings of ancient peoples, although you don't believe this cave has 
+been inhabited since they were drawn.  A cool breeze sends a light mist of 
+water toward you, for which you are thankful after the heat of the day.
+^
+
+wildflowers w:mrealms;
+lflags { Peace Private }
+The Field of Wildflowers^
+A never-ending sea of green rolling hills stands before you, dotted with 
+specks of wild flowers of all colours.  You pick up a pink buttercup and put 
+it in your hair while making a coronet of clover.  You cannot resist the 
+urge to lie down in the thick green grass.  Maybe it's the poppies making 
+you sleepy.
+^
+
+second d:mrealms n:beach s:island w:sidewalk e:edge u:diner;
+lflags { Peace Party }
+The Second Level^
+Here you find more rooms.  To the north you hear waves crashing against a 
+beach.  Through the south exit you see trees and seashells but no people.  
+From above you wafts the smell of apple pie and coffee.  To the east you see 
+blackness, while to the west you smell a breeze of pepermint wind.  You 
+could always go back down.
+^
+
+beach s:second;
+lflags { Peace Private }
+The Beach^
+Crystal clear blue waves break against an endless beach of white sand.  
+Conch shells, palm trees, and sea stars dot the land as you walk barefoot at 
+the edge of the water while red and pink clouds chase a setting sun down the 
+horizon.  In the distance you see a group of dolphins leaping out of the 
+waves.  You could stay here forever.
+^
+
+island n:second;
+lflags { Peace Private }
+The Deserted Island^
+Remember when you were a kid and you'd ask your friends, "If you were on a 
+desert island and could only have one book/tape/item/person/food, what would 
+it be?"  Well, I hope you chose wisely, because here you are.  Snuggle up 
+with your favourite book or favourite person, because it doesn't look like 
+you'll be rescued anytime soon.
+^
+
+diner d:second;
+lflags { Peace Party }
+The All-Night Diner^
+A burly waitress with a name tag which says Sally asks you what you'll have. 
+  The stools around you are empty, and booths filled with lovers, teenagers 
+celebrating a victory, and truck drivers taking a break line the windows.  
+The jukebox has all your favourite songs in it . . . only costs a quarter, 
+so go ahead and give it a go.  I recommend the apple pie.
+^
+
+edge w:second;
+lflags { Peace Private }
+The Edge of the World^
+   All your life you've been lied to.  Columbus was wrong.  The world is flat. 
+You know this now because you're standing at the edge of it.  You glance 
+over the edge and see infinity below you.  Let your feet hang over the edge; 
+no one's going to bother you for a while.
+^
+
+sidewalk e:second;
+lflags { Peace Private }
+Where the Sidewalk Ends^
+There is a place where the sidewalk ends
+And before the street begins,
+And there the grass grows soft and white,
+And there the sun burns crimson bright,
+And there the moon-bird rests from his flight
+To cool in the pepermint wind.
+	Let us leave this place where the smoke blows black
+	And the dark street winds and bends.
+	Past the pits where the asphalt flowers grow
+	We shall walk with a walk that is measured and slow,
+	And watch where the chalk-white arrows go
+	To the place where the sidewalk ends.
+Yes, we'll walk with a walk that is measured and slow,
+And we'll go where the chalk-white arrows go,
+For the children, they mark, and the children, they know
+The place where the sidewalk ends.
+				--Shel Silverstein (1933-1999)
+^
+
+

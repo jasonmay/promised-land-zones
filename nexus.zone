@@ -1,0 +1,1955 @@
+
+
+
+
+
+%zone:nexus
+
+%mobiles
+
+Name         = bagofwind
+PName        = "Bag O Wind"
+Pflags       { NoHassle NoSteal NoMagic }
+Mflags 	 { NoCorpse Flyer }
+Sflags       { NoBody }
+Location     = nexus72
+Strength     = 100
+Speed        = 0
+Aggression   = 0
+Description  = "A large airhead floats before you, full of useless wisdom."
+End          = bagofwind
+
+Name         = skeleton
+PName        = "Skeleton"
+Location     = nexus14
+Mflags 	{ NoCorpse }
+Strength     = 135
+Damage       = 9
+Armor        = 3
+Speed        = 10
+Aggression   = 10
+Description  = "Slurking about is a skeleton with a still-beating heart."
+End          = skeleton
+
+Name         = moldy
+PName        = "Mold Monster"
+Eflags       { Missile }
+Location     = nexus72
+Strength     = 220
+Damage       = 8
+Armor        = 0
+Speed        = 0
+Aggression   = 95
+Description  = "The thick arms of Mold Monster attempt to rot your pristine throat."
+End          = moldy
+
+Name         = snake1
+PName        = "Snake"
+Location     = nexus3
+Sflags	{ NoArms NoLegs }
+Strength     = 80
+Damage       = 10
+Armor        = 10
+Speed        = 0
+Aggression   = 100
+Description  = "A crystalline snake attempts to serrate you quite painfully."
+End          = snake1
+
+Name         = snake2
+PName        = "Snake"
+Location     = nexus7
+Sflags	{ NoArms NoLegs }
+Strength     = 150
+Damage       = 11
+Armor        = 7
+Speed        = 0
+Aggression   = 100
+Description  = "A crystalline snake attempts to serrate you quite painfully."
+End          = snake2
+
+Name         = snake3
+PName        = "Snake"
+Location     = nexus10
+Sflags 	{ NoArms NoLegs }
+Strength     = 800
+Damage       = 15
+Armor        = 10
+Speed        = 0
+Aggression   = 0
+Description  = "A thick crystalline snake attempts to sleep soundly."
+End          = snake3
+
+Name         = lobster
+PName        = "Lobster"
+Location     = nexus45
+Strength     = 100
+Damage       = 10
+Armor        = 3
+Speed        = 5
+Aggression   = 20
+Description  = "A rather symmetrical lobster crawls across the ground."
+End          = lobster
+
+Name         = crab
+PName        = "Crab"
+Location     = nexus45
+Strength     = 78
+Damage       = 9
+Armor        = 1
+Speed        = 15
+Aggression   = 50
+Description  = "A crab crawls across the ground, attemping to nab your toe!"
+End          = crab
+
+Name         = slug
+PName        = "Slug"
+Location     = nexus50
+Sflags	{ NoBody }
+Strength     = 300
+Damage       = 14
+Armor        = 0
+Speed        = 2
+Aggression   = 70
+Description  = "There is a slug of inordinate size here. It is immune to salt."
+End          = slug
+
+Name         = fatbird
+PName        = "Fatbird"
+Eflags       { Blind }
+Mflags	{ Flyer }
+Location     = nexus20
+Strength     = 50
+Damage       = 6
+Armor        = 0
+Speed        = 40
+Aggression   = 80
+Description  = "A rather fat bird attempts to poke your eyes out!"
+End          = fatbird
+
+Name         = fox
+PName        = "Fox"
+Location     = nexus20
+Strength     = 150
+Damage       = 8
+Armor        = 0
+Speed        = 30
+Aggression   = 0
+Description  = "This quick &+Bblue &*fox couldn't jump if it wanted to."
+End          = fox
+
+Name         = chipmunk1
+PName        = "Klathox"
+Location     = nexus20
+Strength     = 55
+Damage       = 6
+Armor        = 0
+Speed        = 50
+Aggression   = 100
+Description  = "Klathox the chipmunk has gone rabid in his senility."
+End          = chipmunk1
+
+Name         = chipmunk2
+PName        = "Renwad"
+Location     = nexus20
+Strength     = 70
+Damage       = 7
+Armor        = 0
+Speed        = 46
+Aggression   = 100
+Description  = "Renwad the chipmunk somersaults down a nearby tree."
+End          = chipmunk2
+
+Name         = ent
+PName        = "Redwood Ent"
+Pflags       { NoSteal }
+Sflags	 { NoLegs }
+Location     = nexus20
+Strength     = 350
+Damage       = 15
+Armor        = 9
+Speed        = 0
+Aggression   = 0
+Description  = "One tree is very out of place here. Redwood Ent stands defiantly."
+End          = ent
+
+Name         = wizardess
+PName        = "Wizardess"
+Sflags       { Female }
+Eflags       { Frost Missile }
+Location     = nexus36
+Strength     = 200
+Damage       = 10
+Armor        = 0
+Speed        = 0
+Aggression   = 0
+Description  = "A wizardess of the earth tries to become one with nature."
+End          = wizardess
+
+Name         = deer
+PName        = "Deer"
+Location     = nexus20
+Strength     = 300
+Damage       = 12
+Armor        = 1
+Speed        = 25
+Aggression   = 10
+Description  = "A well-muscled deer whips by you."
+End          = deer
+
+Name         = swarm
+PName        = "Swarm"
+Location     = nexus20
+Sflags	{ NoBody }
+Mflags  { Flyer }
+Strength     = 90
+Damage       = 14
+Armor        = 0
+Speed        = 75
+Aggression   = 100
+Description  = "A swarm of gnats buzzes angrily around you."
+End          = swarm
+
+Name         = bee
+PName        = "Bloated Bee"
+Location     = nexus20
+Mflags  { Flyer }
+Strength     = 190
+Damage       = 12
+Armor        = 0
+Speed        = 75
+Aggression   = 100
+Description  = "Words fail as you spot a bloated bee."
+End          = bee
+
+Name         = mosquitoes
+PName        = "The Mosquitoes"
+Location     = nexus20
+Sflags	{ NoBody }
+Mflags  { Flyer }
+Strength     = 130
+Damage       = 7
+Armor        = 0
+Speed        = 65
+Aggression   = 100
+Description  = "A swarm of mosquitoes quickly sink their shnozzes into you."
+End          = mosquitoes
+
+Name         = fisherman
+PName        = "Fisherman"
+Pflags       { NoHassle NoSteal NoMagic }
+Location     = nexus16
+Strength     = 100
+Speed        = 0
+Aggression   = 0
+Description  = "A fisherman tries out his new pole and curses his ill luck."
+End          = fisherman
+
+Name         = rockqueen
+PName        = "Rockqueen"
+Pflags       { NoSteal }
+Sflags       { Female }
+Location     = nexus37
+Strength     = 300
+Damage       = 13
+Armor        = 10
+Speed        = 0
+Aggression   = 50
+Description  = "Grand Poomba Rockqueen of the rock stares sullenly at your mug."
+End          = rockqueen
+
+Name         = troutmonster
+Pname        = "Troutmonster"
+Location     = nexus72
+Strength     = 250
+Damage       = 15
+Armor        = 5
+Speed        = 0
+Aggression   = 100
+Description  = "Never fear! Troutmonster and all its teeth are here!"
+End          = troutmonster
+
+Name         = screwball
+PName        = "Screwball"
+Pflags       { NoHassle NoMagic NoSteal }
+Location     = nexus57
+Strength     = 100
+Damage       = 0
+Speed        = 0
+Aggression   = 0
+Description  = "A lanky Screwball failing at life is here."
+End          = screwball
+
+Name         = minnow
+PName        = "Magma Minnow"
+Mflags       { BarDown }
+Eflags       { ImmBhands ImmFireball FearIcestorm }
+Location     = nexus66
+Strength     = 110
+Damage       = 10
+Armor        = 0
+Speed        = 0
+Aggression   = 70
+Description  = "A small minnow made out of pure molten rock swims toward you."
+End          = minnow
+
+Name         = whale
+PName        = "Magma Whale"
+Mflags       { BarDown }
+Eflags       { ImmBhands ImmFireball FearIceStorm }
+Location     = nexus67
+Strength     = 500
+Damage       = 20
+Armor        = 0
+Speed        = 0
+Aggression   = 20
+Description  = "The shadow of a bulky whale looms over you."
+End          = whale
+
+Name         = minion1
+PName        = "Skaraug"
+Location     = nexus69
+Strength     = 150
+Damage       = 8
+Armor        = 10
+Speed        = 0
+Aggression   = 0
+Description  = "One of Quaron's minions, a scaly, orange reptile, has decided to pay 
+you a visit. Skaraug has determined your livingness is just plain wrong." 
+End          = minion1
+
+Name         = minion2
+PName        = "Maestro"
+Mflags       { BarDown BarWest BarUp NoCorpse }
+Location     = nexus72
+Strength     = 175
+Damage       = 11
+Armor        = 0
+Speed        = 0
+Aggression   = 100
+Description  = "The decomposing conductor Maestro waves his baton at you."
+End          = minion2
+
+Name         = minion3
+PName        = "Alberto"
+Mflags       {BarDown BarWest BarUp NoCorpse }
+Sflags	 { NoBody }
+Location     = nexus72
+Strength     = 200
+Damage       = 14
+Armor        = 5
+Speed        = 0
+Aggression   = 100
+Description  = "Alberto the wind spirit is going to huff and puff and blow you down!"
+End          = minion3
+
+Name         = minion4
+PName        = "Hexnogon"
+Mflags       { BarDown BarUp BarWest }
+Location     = nexus72
+Strength     = 250
+Damage       = 17
+Armor        = 0
+Speed        = 0
+Aggression   = 100
+Description  = "The maintainence man of torture is going to grease his machines with you. 
+Hexnogon adjusts his tool belt and sneers at you."
+End          = minion4
+
+Name         = minion5
+PName        = "Riffraff"
+Mflags       { BarDown BarUp BarWest }
+Location     = nexus72
+Strength     = 275
+Damage       = 20
+Armor        = 0
+Speed        = 0
+Aggression   = 100
+Description  = "
+An aquamarine-skinned spawn of the deep, Riffraff, is here to defend
+its master."
+End          = minion5
+
+Name         = quaron
+PName        = "Quaron"
+Location     = nexus71
+Mflags	{ NoCorpse }
+Strength     = 9999
+Damage       = 99
+Armor        = 99
+Speed        = 0
+Aggression   = 0
+Description  = "The demon lord Quaron awaits his next slave."
+End          = quaron
+
+
+%objects
+
+Name         = berries
+PName        = berries
+Oflags       { Food NoGet }
+Location     = IN_ROOM:nexus30
+BValue       = 40
+Size         = 4
+State        = 1
+Maxstate     = 1
+Desc[0]      = "Some berries have been dumped here."
+Desc[1]      = "Here are berries ripe for the picking!"
+Examine      = "An odd assortment of blue and black."
+End          = berries
+
+Name         = nuts
+PName        = nuts
+Oflags       { Food GetFlips }
+Location     = IN_ROOM:nexus34
+BValue       = 40
+Size         = 4
+State        = 1
+Maxstate     = 1
+Desc[0]      = "A pile of nuts is scattered here."
+Desc[1]      = "Delectable nuts hang on nearby branches."
+End          = nuts
+
+Name         = pinecone
+PName        = pinecone
+Oflags       { Food }
+Location     = IN_ROOM:nexus22
+Desc[0]      = "An edible pinecone is here, trying to avoid such a fate."
+Examine      = "This could hurt the throat on the way down."
+End          = pinecone
+
+Name         = elixir
+PName        = elixir
+Oflags       { Food }
+Location     = IN_ROOM:nexus61
+Size         = 3
+BValue       = 150
+Desc[0]      = "An elixir of restorative-type properties is here."
+Examine      = "The small blue vial has an ethereal transluence swirling in it."
+End          = elixir
+
+Name         = mirror
+PName        = mirror
+BValue       = 100
+Location     = IN_ROOM:nexus14
+Size         = 5
+Desc[0]      = "Partially broken, this mirror isn't worth much to a beautician."
+Examine      = "Nightmarish images of grues stare back at you as they brush their teeth."
+End          = mirror
+
+Name         = cake
+PName        = cheesecake
+AltName      = cake
+Oflags       { Food }
+Location     = IN_ROOM:nexus8
+BValue       = 150
+Desc[0]      = "A slab of cheesecake is here."
+Examine      = "Eat me to return home."
+End          = cake
+
+Name         = fuse
+PName        = fuse
+Location     = IN_ROOM:nexus72
+Size         = 1
+Desc[0]      = "A length of fuse has been dropped here."
+Examine      = "Hell's Wire - a division of Cannonball Inc. Attach only after a
+cannonball has been loaded!"
+End          = fuse
+
+Name         = helix
+PName        = helix
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus14
+Size         = 4
+Desc[0]      = "A helix reflects its golden, brassy light here."
+Examine      = "Cytometalloidic Life Thingies - a division of Cannonball Inc."
+End          = helix
+
+Name         = shard
+PName        = shard
+AltName      = piece
+Location     = IN_ROOM:nexus1
+Size         = 4
+Desc[0]      = "A piece of the plain has come loose."
+Examine      = "If you find the right hole, it might fit."
+End          = shard
+
+Name         = net
+PName        = net
+Location     = IN_ROOM:nexus2
+Size         = 10
+Desc[0]      = "A large fishing net lays heaped up here."
+Examine      = "It's a new invention in this realm. Perhaps the old ways of fishing should
+be replaced with this. Know anyone in need?"
+End          = net
+
+Name         = block
+PName        = block
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus5
+Desc[0]      = "A block of the same crystal as the plain stands here."
+Examine      = "There is an irregular-shaped hole near the top."
+End          = block
+
+Name         = cannonball
+PName        = cannonball
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus5
+Size         = 10
+State        = 0
+Maxstate     = 2
+Desc[0]      = "A shiny cannonball lies on the ground."
+Desc[1]      = "There is an RNA strand attached to this cannonball."
+Desc[2]      = "The disc on this cannonball makes it look like a flying saucer." 
+Examine      = "How uncool! This cannonball seems to have lost its helix and disc."
+End          = cannonball
+
+Name         = desk
+PName        = desk
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus14
+Desc[0]      = "A messy desk lies in front of you."
+End          = desk
+
+Name         = rod
+PName        = rod
+AltName      = pole
+Location     = CARRIED_BY:fisherman
+Size         = 5
+Desc[0]      = "A plain, wooden fishing pole lies here."
+Examine      = "An inscription reads 'Perhaps you are hungry. Throw me out.'"
+End          = rod
+
+Name         = line
+PName        = line
+Location     = IN_ROOM:nexus72
+Size         = 2
+Desc[0]      = "A mess of entangled fishing line lies here."
+Examine      = "Shorter lines would prove to be more efficient."
+End          = line
+
+Name         = cot
+PName        = cot
+Oflags       { NoGet }
+Location     = IN_ROOM:bedroom@cave
+Desc[0]      = "A cozy cot is set up here for the weary paserby."
+Examine      = "Sleep could be just what the dwarven doctor ordered."
+End          = cot
+
+Name         = bed
+PName        = bed
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus18
+Desc[0]      = "A bed of rotting timbers is the furniture for one wall in this
+decrepit chamber." 
+End          = bed
+
+Name         = torch
+PName        = torch
+Oflags       { NoGet Lightable Extinguish }
+Location     = IN_ROOM:nexus17
+State        = 0
+Maxstate     = 1
+Desc[0]      = "An ancient but servicable torch is strapped to the wall."
+Desc[1]      = "The torch flashes light everywhere."
+Examine      = "Idiotic Torches - still wondering how to put them out!"
+End          = torch
+
+Name         = dustbunny
+PName        = dustbunny
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus17
+Size         = 3
+State        = 0
+Maxstate     = 1
+Desc[0]      = "A raw dustbunny of unusual size can cause major allergies."
+Desc[1]      = "A dustbunny cooked to the proper temperature simmers here." 
+Examine      = "It seems outrageously tasty, but the castle law is that all wabbits must
+be cooked thouroughly by an open flame."
+End          = dustbunny
+
+Name         = mold
+PName        = mold
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus18
+State        = 0
+Maxstate     = 1
+Desc[0]      = "A significant amount of mold grows here."
+Desc[1]      = "The mold has been haplessly scattered about so it can infect everything."
+Examine      = "A blistering green bubble of it grows more every year."
+End          = mold
+
+Name         = disc
+PName        = disc
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus18
+Size         = 3
+Desc[0]      = "A metallic disc resembling a frisbee stands free from rust here." 
+Examine      = "The Slicer - a division of Cannonball Inc."
+End          = disc
+
+Name         = rock
+PName        = rock
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus19
+Desc[0]      = "The rock appears to have some designs engraved in its surface." 
+End          = rock
+
+Name         = square
+PName        = square
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus19
+Desc[0]      = "An intricately engraved square with perfect dimensions is in the rock."
+Examine      = "Find me four elements for my corners, from least to greatest value."
+End          = square
+
+Name         = cube
+PName        = cube
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus19
+State        = 1
+MaxState     = 1
+Desc[0]      = "The cube is inset into the rock, having triggered an opening."
+Desc[1]      = "A cube juts out halfway from the rock."
+Examine      = "It's an ordinary, three-dimensional solid made of a type of granite."
+End          = cube
+
+Name         = oil
+PName        = oil
+Location     = CARRIED_BY:ent
+BValue       = 50
+Desc[0]      = "A fresh can of oil stands here."
+Examine      = "
+It is an industrial fuel used often to burn away unwanted compounds from 
+mined minerals, especailly those minerals that were previously encase in
+wood."
+End          = oil
+
+Name         = leaves1
+PName        = leaves
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus23
+End          = leaves1
+
+Name         = leaves2
+PName        = leaves
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus24
+End          = leaves2
+
+Name         = leaves3
+PName        = leaves
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus27
+End          = leaves3
+
+Name         = leaves4
+PName        = leaves
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus28
+End          = leaves4
+
+Name         = leaves5
+PName        = leaves
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus31
+End          = leaves5
+
+Name         = leaves6
+PName        = leaves
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus32
+End          = leaves6
+
+Name         = leaves7
+PName        = leaves
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus35
+End          = leaves7
+
+Name         = leaves8
+PName        = leaves
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus36
+End          = leaves8
+
+Name         = stump1
+PName        = stump
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus23
+Desc[0]      = "An ancient stump sits here, acting important."
+Examine      = "Evidently, not of all this tree was cut down. Finish the job."
+End          = stump1
+
+Name         = stump2
+PName        = stump
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus24
+Desc[0]      = "An ancient stump sits here, acting important."
+Examine      = "Evidently, not of all this tree was cut down. Finish the job."
+End          = stump2
+
+Name         = stump3
+PName        = stump
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus27
+Desc[0]      = "An ancient stump sits here, acting important."
+Examine      = "Evidently, not of all this tree was cut down. Finish the job."
+End          = stump3
+
+Name         = stump4
+PName        = stump
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus28
+Desc[0]      = "An ancient stump sits here, acting important."
+Examine      = "Evidently, not of all this tree was cut down. Finish the job."
+End          = stump4
+
+Name         = stump5
+PName        = stump
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus31
+Desc[0]      = "An ancient stump sits here, acting important."
+Examine      = "Evidently, not of all this tree was cut down. Finish the job."
+End          = stump5
+
+Name         = stump6
+PName        = stump
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus32
+Desc[0]      = "An ancient stump sits here, acting important."
+Examine      = "Evidently, not of all this tree was cut down. Finish the job."
+End          = stump6
+
+Name         = stump7
+PName        = stump
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus35
+Desc[0]      = "An ancient stump sits here, acting important."
+Examine      = "Evidently, not of all this tree was cut down. Finish the job."
+End          = stump7
+
+Name         = stump8
+PName        = stump
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus36
+Desc[0]      = "An ancient stump sits here, acting important."
+Examine      = "Evidently, not of all this tree was cut down. Finish the job."
+End          = stump8
+
+Name         = ore1
+PName        = ore
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus23
+State        = 0
+Maxstate     = 1
+Desc[0]      = "A chunk of metallic ore is here, freshly dug up."
+Desc[1]      = "The ore is black with the heavy oil on it."
+Examine      = "It could either be made from an element or an alloy."
+End          = ore1
+
+Name         = ore2
+PName        = ore
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus24
+State        = 0
+Maxstate     = 1
+Desc[0]      = "A chunk of metallic ore is here, freshly dug up."
+Desc[1]      = "The ore is black with the heavy oil on it."
+Examine      = "It could either be made from an element or an alloy."
+End          = ore2
+
+Name         = ore3
+PName        = ore
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus27
+State        = 0
+Maxstate     = 1
+Desc[0]      = "A chunk of metallic ore is here, freshly dug up."
+Desc[1]      = "The ore is black with the heavy oil on it."
+Examine      = "It could either be made from an element or an alloy."
+End          = ore3
+
+Name         = ore4
+PName        = ore
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus28
+State        = 0
+Maxstate     = 1
+Desc[0]      = "A chunk of metallic ore is here, freshly dug up."
+Desc[1]      = "The ore is black with the heavy oil on it."
+Examine      = "It could either be made from an element or an alloy."
+End          = ore4
+
+Name         = ore5
+PName        = ore
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus31
+State        = 0
+Maxstate     = 1
+Desc[0]      = "A chunk of metallic ore is here, freshly dug up."
+Desc[1]      = "The ore is black with the heavy oil on it."
+Examine      = "It could either be made from an element or an alloy."
+End          = ore5
+
+Name         = ore6
+PName        = ore
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus32
+State        = 0
+Maxstate     = 1
+Desc[0]      = "A chunk of metallic ore is here, freshly dug up."
+Desc[1]      = "The ore is black with the heavy oil on it."
+Examine      = "It could either be made from an element or an alloy."
+End          = ore6
+
+Name         = ore7
+PName        = ore
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus35
+State        = 0
+Maxstate     = 1
+Desc[0]      = "A chunk of metallic ore is here, freshly dug up."
+Desc[1]      = "The ore is black with the heavy oil on it."
+Examine      = "It could either be made from an element or an alloy."
+End          = ore7
+
+Name         = ore8
+PName        = ore
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus36
+State        = 0
+Maxstate     = 1
+Desc[0]      = "A chunk of metallic ore is here, freshly dug up."
+Desc[1]      = "The ore is black with the heavy oil on it."
+Examine      = "It could either be made from an element or an alloy."
+End          = ore8
+
+Name         = copper
+PName        = copper
+AltName      = element
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus23
+Desc[0]      = "A bright, shiny element is here."
+Examine      = "Copper would not be welcomed by sultans or kings in any dimension." 
+End          = copper
+
+Name         = silver
+PName        = silver
+AltName      = element
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus24
+Desc[0]      = "A bright, shiny element is here."
+Examine      = "Silver would be accepted by sultans and kings in some dimensions." 
+End          = silver
+
+Name         = gold
+PName        = gold
+AltName      = element
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus27
+Desc[0]      = "A bright, shiny element is here."
+Examine      = "Gold would be gladly welcomed by sultans and kings in any dimension." 
+End          = gold
+
+Name         = platinum
+PName        = platinum
+AltName      = element
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus28
+Desc[0]      = "A bright, shiny element is here."
+Examine      = "Platinum would be drooled over by sultans and kings everywhere." 
+End          = platinum
+
+Name         = alloy1
+PName        = alloy
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus31
+Desc[0]      = "A carbon-colored alloy is here."
+Examine      = "What good is this unless you wish to make a polymer of some kind?" 
+End          = alloy1
+
+Name         = alloy2
+PName        = alloy
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus32
+Desc[0]      = "A carbon-colored alloy is here."
+Examine      = "What good is this unless you wish to make a polymer of some kind?" 
+End          = alloy2
+
+Name         = alloy3
+PName        = alloy
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus35
+Desc[0]      = "A carbon-colored alloy is here."
+Examine      = "What good is this unless you wish to make a polymer of some kind?"
+End          = alloy3
+
+Name         = clay
+PName        = clay
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus36
+Desc[0]      = "A clump of mucky clay is here."
+Examine      = "Get enough of this together and you could build a house!"
+End          = clay
+
+Name         = bones
+PName        = bones
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus37
+State        = 0
+Maxstate     = 1
+Desc[0]      = "A pile of bones with remnants of tattered flesh and clothing on it lies
+stuffed in a corner."
+Desc[1]      = "Some bones from a thoroughly searched corpse lay scattered mindlessly."
+End          = bones
+
+Name         = scissors
+PName        = scissors
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus37
+Desc[0]      = "A small, precise pair of scissors sticks blades-first into the ground."
+Examine      = "This pair is specially designed for a fisherman's tackle box."
+End          = scissors
+
+Name         = sceptre
+PName        = sceptre
+Location     = CARRIED_BY:rockqueen
+Size         = 5
+Bvalue	 = 200
+Desc[0]      = "This regal sceptre, made almost entirely out of compressed granite, has been
+the symbol of power for years for the locally-dwelling race of rocks."
+Examine      = "I have the power to remove you from this domain if you treat me like a
+magic wand."
+End          = sceptre
+
+Name         = acid
+PName        = acid
+Location     = CARRIED_BY:rockqueen
+Desc[0]      = "Noxious fumes emanate from this flask of acid."
+Examine      = "It is an industrial-strength chemical solvent."
+End          = acid
+
+Name         = pelican
+PName        = pelican
+Oflags       { NoGet Container }
+Location     = IN_ROOM:nexus38
+Size         = 10
+Desc[0]      = "A stately pelican with a pipe in its mouth stares sightlessly into the sea."
+Examine      = "The taxidermist left more than stuffing here."
+End          = pelican
+
+Name         = lnote
+PName        = note
+AltName      = paper
+Location     = IN_CONTAINER:pelican
+Size         = 2
+Desc[0]      = "A piece of paper is here."
+Examine      = "I have lost five letters from my new alphabet! HELP ME!
+  - Screwball
+"
+End          = lnote
+
+Name         = trout
+PName        = trout
+Size         = 5
+Location     = IN_CONTAINER:pelican
+Desc[0]      = "The catch of the day, a trout, flops around here."
+End          = trout
+
+Name         = fishhook
+PName        = fishhook
+AltName      = hook
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus38
+Desc[0]      = "The stainless-steel, barbed hook is the lure of choice for many a fisher."
+Examine      = "Yuck! Fish guts!"
+End          = fishhook
+
+Name         = letter1
+PName        = letter
+Location     = IN_ROOM:nexus38
+Size         = 1
+Desc[0]      = "An embroidered letter is here."
+Examine      = "You see the shape of an 's'."
+End          = letter1
+
+Name         = letter2
+PName        = letter
+Location     = CARRIED_BY:troutmonster
+Size         = 1
+Desc[0]      = "An embroidered letter is here."
+Examine      = "You see the shape of an 'h'."
+End          = letter2
+
+Name         = letter3
+PName        = letter
+Location     = IN_CONTAINER:box
+Size         = 1
+Desc[0]      = "An embroidered letter is here."
+Examine      = "You see the shape of an 'a'."
+End          = letter3
+
+Name         = letter4
+PName        = letter
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus45
+Size         = 1
+Desc[0]      = "An embroidered letter is here."
+Examine      = "You see the shape of an 'f'."
+End          = letter4
+
+Name         = letter5
+PName        = letter
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus48
+Size         = 1
+Desc[0]      = "An embroidered letter is here."
+Examine      = "You see the shape of an 't'."
+End          = letter5
+
+Name         = hulk
+PName        = hulk
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus42
+Desc[0]      = "The shattered and burned-out hulk of a ship has been beached here." 
+End          = hulk
+
+Name         = box
+PName        = box
+Oflags       { NoGet Destroyed Container }
+Location     = IN_ROOM:nexus42
+State        = 3
+Maxstate     = 3
+Desc[0]      = "A valuable box here is open, exposing the velvet lining to the elements."
+Desc[1]      = "A valuable box here is tightly closed."
+Desc[3]      = "A valuable box here is sealed with an immense lock."
+End          = box
+
+Name         = lock
+PName        = lock
+Oflags       { Destroyed NoGet }
+Location     = IN_ROOM:nexus42
+Examine      = "It is an industrial-strength lock."
+End          = lock
+
+Name         = bottle
+PName        = bottle
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus45
+Size         = 3
+State        = 1
+Maxstate     = 1
+Desc[0]      = "This seaweed-green wine bottle has sailed the seven seas for generations."
+Desc[1]      = "A wine bottle is three-quarters covered by the sand."
+Examine      = "Classic Raspberry Vintage - 825 A.D."
+End          = bottle
+
+Name         = message
+PName        = message
+Location     = IN_ROOM:nexus72
+Desc[0]      = "Some message sent by sea the old-fashioned way is here."
+End          = message
+
+Name         = cairn
+PName        = cairn
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus48
+Size         = 15
+End          = cairn
+
+Name         = brick
+PName        = brick
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus48
+Desc[0]      = "One brick has come loose."
+End          = brick
+
+Name         = script
+PName        = script
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus48
+Size         = 2
+Desc[0]      = "This kind of writing puts all other script to shame." 
+End          = script
+
+Name         = grapple
+PName        = grapple
+Location     = IN_ROOM:nexus53
+Size         = 7
+Desc[0]      = "This mountain grapple can allow people to cover great heights and
+slopes easily."
+End          = grapple
+
+Name         = shaft
+PName        = shaft
+Location     = CARRIED_BY:screwball
+Size         = 5
+Bvalue	 = 200
+Desc[0]      = "A glossy, serpentine shaft is here."
+Examine      = "The clamps on the top are designed to hold something."
+End          = shaft
+
+Name         = aura
+PName        = aurora
+AltName      = borealis
+Oflags       { Wearable Armor }
+Aflags       { Back }
+Location     = IN_ROOM:nexus65
+BValue       = 500
+Armor        = 25
+Desc[0]      = "Woven strands of the fluid dynamics of the borealis are here."
+Examine      = "This mystical garment would fetch a hefty price in any marketplace."
+End          = aura
+
+Name         = door1
+PName        = door
+Oflags       { Openable NoGet }
+Location     = IN_ROOM:nexus68
+Linked       = door2
+State        = 1
+Maxstate     = 1
+Desc[0]      = "The heavy metal door is open."
+Desc[1]      = "The heavy metal door is closed."
+Examine      = "Welcome to my humble house of torture."
+End          = door1
+
+Name         = door2
+PName        = door
+Oflags       { Openable NoGet }
+Location     = IN_ROOM:nexus69
+Linked       = door1
+State        = 1
+Maxstate     = 1
+Desc[0]      = "The heavy metal door is open."
+Desc[1]      = "The heavy metal door is closed."
+Examine      = "Welcome to my humble house of torture."
+End          = door2
+
+Name         = sign
+PName        = sign
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus69
+Desc[0]      = "A sign made of flowing human blood is here, its letters written in
+glowing red corpuscles."
+Examine      = "
+For all ye who would seek to enter the House of Quaron and confront Him, know
+ye this:
+
+    &+WThe great master has no weaknesses, no secrets to hide, and no phobias,
+    &+Wwhether inherent or acquired.  He may only be contained by the charged
+    &+WNexus Staff.  Use a mystical cloth from the aurora borealis to increase
+    &+Wthe Nexus's power and capture his essence by using His favorite form of
+    &+Wtorture -  the emancipated and efficient &+rdraw, &+rquarter, and disembowel&*.
+    &+WTo save time, one must always abbreviate.  To escape from this realm, 
+    &+Wone must possess the jewelrey of the master and successfully activate
+    &+Wthe power of His throne.
+
+&+wCory Deadhead - Assistant Back-up Waterghoul&*"
+End          = sign
+
+Name         = cannon
+PName        = cannon
+Oflags       { NoGet }
+Location     = IN_ROOM:nexus70
+State        = 0
+Maxstate     = 2
+Desc[0]      = "A state-of-the-art and unloaded cannon looks blankly toward a wall."
+Desc[1]      = "A state-of-the-art and loaded cannon looks blankly toward a wall,
+feeling a little defused."
+Desc[2]      = "A state-of-the-art cannon is ready to kick some stately booty."
+Examine      = "Useless Junk Inc. - guaranteed to fail!"
+End          = cannon
+
+Name         = mass
+PName        = mass
+Oflags       { Destroyed }
+Location     = IN_ROOM:nexus70
+Desc[0]      = "A mass of an unknown material squats absently on the floor, humming
+to itself."
+Examine      = "The perfect topping to any staff shaft."
+End          = mass
+
+Name         = debris
+PName        = debris
+Oflags       { NoGet Destroyed }
+Location     = IN_ROOM:nexus70
+Desc[0]      = "A small pile of debris from a once glorious cannon is neatly stacked here." 
+End          = debris
+
+Name         = throne
+PName        = throne
+Oflags       { Destroyed NoGet }
+Location     = IN_ROOM:nexus71
+Desc[0]      = "A flaming throne made of bone well-dipped in adamantine is Quaron's
+favorite chair. "
+Examine      = "
+For dimensional travel, please submit one charged nexus while wearing
+appropriate attire."
+End          = throne
+
+Name         = nexus
+PName        = nexus
+AltName      = staff
+Oflags       { Weapon }
+Location     = IN_ROOM:nexus72
+Damage       = 1
+State        = 0
+Maxstate     = 3
+Desc[0]      = "The almost entirely usless Nexus Staff is propped by magical means here."
+Desc[1]      = "The nexus vibrates with a significant amount of positive potential energy."
+Desc[2]      = "A staff here has committed the ultimate act of salvation demon containment."
+Desc[3]      = "The Nexus Staff has resumed its rightful place of holding in the
+Throne of Torture."
+Examine      = "It is indeed a weapon not to be trusted in normal combat."
+End          = nexus
+
+Name         = buckle
+PName        = buckle
+Oflags       { Wearable Armor }
+Aflags	     { Legs }
+Location     = WORN_BY:quaron
+BValue       = 500
+Armor        = 5
+Desc[0]      = "A symbol of ultimate torture has been rather violently removed from its
+previous belt. The buckle is covered in drawings of souls."
+Examine      = "Even the leading banshees and ghouls of the underworld wouldn't touch 
+this thing."
+End          = buckle
+
+Name         = gate1
+PName        = gates
+Oflags       { NoGet Openable Lockable }
+Location     = IN_ROOM:nexus12
+Linked       = gate2
+State        = 2
+Maxstate     = 2
+Desc[0]      = "The rusty velvet gates are open."
+Desc[1]      = "The rusty velvet gates are closed."
+Desc[2]      = "The rusty velvet gates are locked."
+End          = gate1
+
+Name         = gate2
+PName        = gates
+Oflags       { NoGet Openable Lockable }
+Location     = IN_ROOM:nexus13
+Linked       = gate1
+State        = 2
+Maxstate     = 2
+Desc[0]      = "The rusty velvet gates are open."
+Desc[1]      = "The rusty velvet gates are closed."
+Desc[2]      = "The rusty velvet gates are locked."
+End          = gate2
+
+Name         = scales
+PName        = scales
+Oflags       { Wearable }
+Location     = WORN_BY:minion1
+Desc[0]      = "A set of orange scales lies encrusted with blood."
+Examine      = "The word 'Skaraug' is stamped on the lining."
+End          = scales
+
+Name         = baton
+PName        = baton
+Oflags       { Weapon }
+Damage	 = 3
+Location     = WIELDED_BY:minion2
+Desc[0]      = "The baton of famous conductors is here."
+Examine      = "The word 'Maestro' is stamped on the side."
+End          = baton
+
+Name         = overalls
+PName        = overalls
+Oflags       { Wearable }
+Location     = WORN_BY:minion4
+Desc[0]      = "A set of crumpled overalls lays in a pile of grease."
+Examine      = "The word 'Hexnogon' is stamped on the lining."
+End          = overalls
+
+Name         = chain
+PName        = chain
+Oflags       { Weapon }
+Damage	 = 10
+Location     = WIELDED_BY:minion4
+Desc[0]      = "A heavily greased chain has caused many a welt."
+Examine      = "The word 'Hexnogon' is stamped on one link."
+End          = chain
+
+Name         = shell
+PName        = shell
+Oflags       { Wearable }
+Location     = WORN_BY:minion5
+Desc[0]      = "The cracked and broken shell of a fish is here."
+Examine      = "The word 'Riffraff' is stamped on the inside lip."
+End          = shell
+
+Name         = rake
+PName        = rake
+Oflags       { Weapon }
+Damage	 = 9
+Location     = WIELDED_BY:minion5
+Desc[0]      = "This garden rake has not been used on leaves before."
+Examine      = "The word 'Riffraff' is stamped on the side."
+End          = rake
+
+%locations
+
+nexus1 e:nexus2;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark }
+The Crystal Plain^
+   The swirling purple mist clears in this region of the plain, allowing 
+visibility to several hundred meters. Like the eyes of a hurricane, the sky 
+above is clear as well, giving view to the legions of cloud castles above,
+each floating on its own separate mounds of white fluffiness and ice 
+crystals. A soft wind rustles slivers of shattered and reflective crystal
+along the ground and propels the clouds in the same direction. The sunlight
+that does manage to pierce through the gloom is partly absorbed, partly 
+reflected off the plain.
+^
+nexus2 w:nexus1 e:nexus3;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark }
+Crystal Plain^
+   The mist closes in and around, obscuring vision to a few yards. It is a
+low-lying, thick, purple fog in which streams of water vapor swirl in eddies
+and cause ghostly echoes off the crystalline rocks of the plain.
+^
+nexus3 w:nexus2 e:nexus4;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark }
+Crystal Plain^
+   The mist closes in and around, obscuring vision to a few yards. It is a 
+low-lying, thick, purple fog in which streams of water vapor swirl in eddies 
+and cause ghostly echoes off the crystalline rocks of the plain.
+^
+nexus4 w:nexus3 e:nexus5 n:nexus6;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark }
+Crystal Plain^
+   The mist closes in and around, obscuring vision to a few yards. It is a 
+low-lying, thick, purple fog in which streams of water vapor swirl in eddies 
+and cause ghostly echoes off the crystalline rocks of the plain.
+^
+nexus5 w:nexus4;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Crystal Plain^
+   The swirling purple fog reveals a solid wall of crystal nearby, the 
+different angles of rocks reflecting images of other walls surrounding this
+area on three sides. This crystal canyon has no major special features save 
+that of a mount of white quartz near the back wall. It is of an odd color of 
+white and being slowly eroded away by the fog and time. The wind picks up 
+within this canyone as the air currents high up above force the air downwards.
+^
+nexus6 s:nexus4 n:nexus7;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark }
+Crystal Plain^
+   The mist closes in and around, obscuring vision to a few yards. It is a 
+low-lying, thick, purple fog in which streams of water vapor swirl in eddies 
+and cause ghostly echoes off the crystalline rocks of the plain.
+^
+nexus7 s:nexus6 n:nexus8;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark }
+Crystal Plain^
+   The mist closes in and around, obscuring vision to a few yards. It is a 
+low-lying, thick, purple fog in which streams of water vapor swirl in eddies 
+and cause ghostly echoes off the crystalline rocks of the plain.
+^
+nexus8 s:nexus7 n:nexus9;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Crystal Plain^
+   The fog is much less dense here than to the southwest and southeast. It 
+allows more bright, yellow sunlight in, revealing the thin outlines of the 
+cloud castles above. The wind has picked up considerably, driving the fog 
+swirls faster and in tighter circles. To the north the plain continues as 
+far as the can see.
+^
+nexus9 s:nexus8 n:nexus10;
+Lflags { Soundproof OnePerson NoAt CantSummon Outdoors }
+Crystal Plain^
+   Sunlight drives away the gloomy fog, showing the cloud castles in all their
+splendid glory. They are quite close now, with the cloud bottoms a dark, 
+fluffy white. A few birds native to the land, namely the Aqua Griffins, fly 
+over the castles and land randomly on perches on the tops of towers. More of 
+their kind zoom downwards to the ground to catch transparent fish from a 
+stream which slices across the flat crystalline ground.
+^
+nexus10 s:nexus9;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Crystal Plain^
+   The clouds now only allow sporadic sunbeams to strike the ground as the 
+rays of ultraviolet radiation desperately attempt to weave through the maze 
+of white fluffiness. However, slivers of crystal and small shards are whisked
+away from the plain and shot up into the atmosphere by mysterious forces. 
+Effortlessly, the crystal fragments are inexorably drawn into the cloud 
+bottoms, where they vanish from view. All around the plain seems to be 
+distorted slightly - the crystals warping, or maybe that is a trick of the 
+sunlight.
+^
+nexus11 u:nexus12;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+On the Cloud^
+   The rain producers provide a safe environment in which more about and 
+although the altitude is great, there is no shortage of air. Tufts of white 
+vapor swirl on all sides and bounce off the fate and walls of this particular 
+cloud castle. From here, the edge of the clouds is visible as a frayed edge 
+of ice crystals.
+^
+nexus12 d:nexus11 n:^gate1;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Castle Gates^
+   Frozen, white, crysalline statues of former rulers in bold poses cross 
+their stern gazes at the staircase, daring any of those who wish entry to 
+the castle to prove their worth. The gates themselves are lines with a velvet 
+coating and adorned with brass buttons, where each button is forged under 
+deep heat and emblazoned with this castle's coat-of-arms. The walls of the 
+castle are extremely tall and sheer, appearing to be almpst made out of the 
+same material as that of the far-below pain. Any attempt by besiegers to 
+scale the castle would end in hundreds of broken bones.
+^
+nexus13 s:^gate2 n:nexus15 e:nexus14;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Portcullis^
+   The wind creaks through the cross-hatches of the portcullis, flexing its 
+rusty, moss-covered bars eerily back and forth. On the tips of the portcullis 
+spikes is the blood of the mantle that were impaled in a decisive, but 
+long-forgotten battle. A gatehouse is to the east.
+^
+nexus14 w:nexus13;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Gatehouse^
+   This is a small room set aside withing the castle walls for the resident 
+gatekeeper of this castle. The room is well lit by verious floating globes 
+at out-of-othe-way places. On a rack against one wall is displayed the 
+occupant's personal armor and weapons. A small desk in one corner is covered 
+in the daily reports and dispatches that constantly flow through this place, 
+but today, not one of the of the telegrams has even been opened and read.
+^
+nexus15 s:nexus13 n:nexus16;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Courtyard^
+   A wide avenue of crystalline cobblestones leads down the heart of this 
+plaza, circling a fountain of incredible artistic talent and branching at 
+that junction. Two small square edifices stand at the far corners of the 
+courtyard, made of solid crystal. There is a deep thrum coming from that 
+direction, vibrating the entire courtyard slightly.
+^
+nexus16 w:nexus17 e:nexus18 s:nexus15;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Courtyard^
+   The fountain gurgles with exceptionally clear water and provides some 
+measure of life to this otherwise seemingly deserted castle. An intricate 
+structure of mermaids and fish are entwining around the central part of the 
+fountain. From the mouths of the fish and the ears of the mermaids pour 
+forth not only water, but a deep indigo effervesence which makes the water 
+sizzle and explode into a thousand crystal sparks as it strikes the surface 
+of the water. It then proceeds to cause the entire fountain to have hundreds 
+of small streams of bubbles float from the the base of the fountain to the 
+top.
+^
+nexus17 e:nexus16;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Storage Room^
+   This is a small square cell in which the inhabitants of this castle put 
+some of their junk in. The floor is coated with several inches of dust and 
+dirt, and broken furniture is thrown into a large pile in the corner, 
+destined to mold for all time. A large wicker torch has been tightly strapped 
+to one wall, like a punishment.
+^
+nexus18 w:nexus16;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Servants' Quarters^
+   Three makeshift beds line separate walls of this drafty chamber, quite 
+literally rotting away to moldy splinters. A tattered knapsack on the ground 
+provides poorly-lit housing to a family of rats. Their squeaking matches the 
+frequency at which the incoming wind resonates a burnt-out lantern hanging on
+a hook just inside the door. In one corner, a bucket with insides covered by 
+brown slime sits ensnared by a vine that snakes around the room. Behind it, an
+ugly green lump of decay appears to be the capital of the mold civilization 
+in here.
+^
+nexus19 d:nexus20;
+Lflags { Soundproof OnePerson NoAt CantSummon NoMobiles }
+Top of Some Rock^
+   The pores here pock-mark the sunny slopes of the rock down to its base. A 
+few white spots near the summit prove that some of the local birds have done 
+their unwritten duty here. A set of stairs hand-carved into the side of the 
+massive stone provides a means of getting down.
+^
+nexus20 e:nexus21 n:nexus33 s:nexus25 w:nexus29 u:nexus19;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Base of Some Rock^
+   All around stand an inordinate amount of coniferous trees, their 'fruit' 
+lining the ground from being blown off by recent storms. The undergrowth, 
+composed of dry twigs and dead moss, crunches beneath the slightest pressure, 
+giving perhaps an unnecessary scare to the small animals scurrying around.
+^
+nexus21 n:nexus34 w:nexus20 s:nexus22;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+The Silent Conifers^
+   The trees form a full canopy, completely blocking out the sun. Only a few 
+dim streams reflecting around allow the unaided eye to penetrate the  
+otherwise darkened interior of this forest. Branches form at odd angles 
+and threaten to poke the aforementioned eye out of an unsuspecting 
+traveler. There are numerous lichen lining the bark of the trees, eagerly 
+breathing in the natural essence of the forest. Tranquility is the order 
+of the day as a quiet wind whistles through the tree tops. 
+^
+nexus22 n:nexus21 e:nexus23 s:nexus24 w:nexus25;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+The Silent Conifers^
+   The trees form a full canopy, completely blocking out the sun. Only a few 
+dim streams reflecting around allow the unaided eye to penetrate the otherwise
+darkened interior of this forest. Branches form at odd angles and threaten to 
+poke the aforementioned eye out of an unsuspecting traveler. There are 
+numerous lichen lining the bark of the trees, eagerly breathing in the natural
+essence of the forest. Tranquility is the order of the day as a quiet wind 
+whistles through the tree tops. 
+^
+nexus23 w:nexus22;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Alcove^
+   A solid line of trunks around and branches above form a cozy shelter. 
+Althogh the solid wall of brown does not make a very attractive feature of 
+the forest, an enormous pile of &+Gleaves&* on the ground is bathed in the only 
+light which enters this area.
+^
+nexus24 n:nexus22;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Alcove^
+   A solid line of trunks around and branches above form a cozy shelter. 
+Althogh the solid wall of brown does not make a very attractive feature of 
+the forest, an enormous pile of &+Gleaves&* on the ground is bathed in the only 
+light which enters this area.
+^
+nexus25 n:nexus20 e:nexus22 w:nexus26;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+The Silent Conifers^
+   The trees form a full canopy, completely blocking out the sun. Only a few
+dim streams reflecting around allow the unaided eye to penetrate the otherwise
+darkened interior of this forest. Branches form at odd angles and threaten to 
+poke the aforementioned eye out of an unsuspecting traveler. There are 
+numerous lichen lining the bark of the trees, eagerly breathing in the 
+natural essence of the forest. Tranquility is the order of the day as a quiet 
+wind whistles through the tree tops.
+^
+nexus26 n:nexus29 e:nexus25 s:nexus27 w:nexus28;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+The Silent Conifers^
+   The trees form a full canopy, completely blocking out the sun. Only a few 
+dim streams reflecting around allow the unaided eye to penetrate the otherwise
+darkened interior of this forest. Branches form at odd angles and threaten to 
+poke the aforementioned eye out of an unsuspecting traveler. There are 
+numerous lichen lining the bark of the trees, eagerly breathing in the 
+natural essence of the forest. Tranquility is the order of the day as a quiet 
+wind whistles through the tree tops.
+^
+nexus27 n:nexus26;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Alcove^
+   A solid line of trunks around and branches above form a cozy shelter. 
+Althogh the solid wall of brown does not make a very attractive feature of 
+the forest, an enormous pile of &+Gleaves&* on the ground is bathed in the only 
+light which enters this area.
+^
+nexus28 e:nexus26;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Alcove^
+   A solid line of trunks around and branches above form a cozy shelter. 
+Althogh the solid wall of brown does not make a very attractive feature of 
+the forest, an enormous pile of &+Gleaves&* on the ground is bathed in the only 
+light which enters this area.
+^
+nexus29 n:nexus30 e:nexus20 s:nexus26;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+The Silent Conifers^
+   The trees form a full canopy, completely blocking out the sun. Only a few 
+dim streams reflecting around allow the unaided eye to penetrate the otherwise
+darkened interior of this forest. Branches form at odd angles and threaten to 
+poke the aforementioned eye out of an unsuspecting traveler. There are 
+numerous lichen lining the bark of the trees, eagerly breathing in the 
+natural essence of the forest. Tranquility is the order of the day as a quiet
+wind whistles through the tree tops.
+^
+nexus30 n:nexus32 e:nexus33 s:nexus29 w:nexus31;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+The Silent Conifers^
+   The trees form a full canopy, completely blocking out the sun. Only a few
+dim streams reflecting around allow the unaided eye to penetrate the otherwise
+darkened interior of this forest. Branches form at odd angles and threaten to 
+poke the aforementioned eye out of an unsuspecting traveler. There are 
+numerous lichen lining the bark of the trees, eagerly breathing in the 
+natural essence of the forest. Tranquility is the order of the day as a 
+quiet wind whistles through the tree tops. 
+^
+nexus31 e:nexus30;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Alcove^
+   A solid line of trunks around and branches above form a cozy shelter. 
+Althogh the solid wall of brown does not make a very attractive feature of 
+the forest, an enormous pile of &+Gleaves&* on the ground is bathed in the only 
+light which enters this area.
+^
+nexus32 s:nexus30;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Alcove^
+   A solid line of trunks around and branches above form a cozy shelter. 
+Althogh the solid wall of brown does not make a very attractive feature of 
+the forest, an enormous pile of &+Gleaves&* on the ground is bathed in the only 
+light which enters this area.
+^
+nexus33 w:nexus30 s:nexus20 e:nexus34;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+The Silent Conifers^
+   The trees form a full canopy, completely blocking out the sun. Only a few 
+dim streams reflecting around allow the unaided eye to penetrate the otherwise
+darkened interior of this forest. Branches form at odd angles and threaten to 
+poke the aforementioned eye out of an unsuspecting traveler. There are  
+numerous lichen lining the bark of the trees, eagerly breathing in the natural
+essence of the forest. Tranquility is the order of the day as a quiet wind 
+whistles through the tree tops.
+^
+nexus34 n:nexus35 e:nexus36 s:nexus21 w:nexus33;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+The Silent Conifers^
+   The trees form a full canopy, completely blocking out the sun. Only a few 
+dim streams reflecting around allow the unaided eye to penetrate the otherwise 
+darkened interior of this forest. Branches form at odd angles and threaten to 
+poke the aforementioned eye out of an unsuspecting traveler. There are 
+numerous lichen lining the bark of the trees, eagerly breathing in the natural
+essence of the forest. Tranquility is the order of the day as a quiet wind 
+whistles through the tree tops.
+^
+nexus35 s:nexus34;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Alcove^
+   A solid line of trunks around and branches above form a cozy shelter. 
+Althogh the solid wall of brown does not make a very attractive feature of 
+the forest, an enormous pile of &+Gleaves&* on the ground is bathed in the only 
+light which enters this area.
+^
+nexus36 w:nexus34;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Alcove^
+   A solid line of trunks around and branches above form a cozy shelter. 
+Althogh the solid wall of brown does not make a very attractive feature of
+the forest, an enormous pile of &+Gleaves&* on the ground is bathed in the only 
+light which enters this area.
+^
+nexus37 s:nexus19;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark }
+Groove in Some Rock^
+   This is a deep depression in the side of the rock, situated on the leeward 
+side. The smoothness and cuvature of the groove suggests that the effects of 
+erosion have occurred more slowly than usual, as there are no signs of cracks 
+or water leakage. Some droppings and bones lay inside the fissure, awaiting 
+the old ally of decomposition - time. 
+^
+nexus38 s:nexus39;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Messy Beach^
+   The shoreline is crammed full of foamy water, which has brought and dumped 
+over the aeons a rather tremendous amount of floatable debris. Empty shells of
+crab, lobster, and mussel, rotting driftwood, and numerous species of seaweed
+lay strewn at ireegular intervals. Not all is dead slowly petrifying, however,
+as twitchy movements in the shadows reveal the locations of some hidden nests 
+of those who dwell in this intertidal zone. The usual sweet and salt smell of 
+the sea is coupled with the screeches of the gulls as they zoom overhead on 
+the sea breeze. 
+^
+nexus39 n:nexus38 s:nexus40;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Messy Beach^
+  The shoreline is crammed full of foamy wtaer, which has brought and dumped 
+over the aeons a rather tremendous amount of floatable debris. Empty shells of
+crab, lobster, and mussel, rotting driftwood, and numerous species of seaweed 
+lay strewn at irregular intervals. Not all is dead slowly petrifying, however, 
+as twitchy movements in the shadows reveal the locations of some hidden nests 
+of those who dwell in this intertidal zone. The usual sweet and salt smell of 
+the sea is coupled with the screeches of the gulls as they zoom overhead on 
+the sea breeze. 
+^
+nexus40 n:nexus39 w:nexus41 e:nexus43;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Corner of the Beach^
+   The beach extends to the west and north &*from here; the northern cliffs 
+fading into the distance. The tide washes in a line to the south, but a 
+curious turn of nature has arisen to the east. There the water is extremely 
+shallow, and the sea bottom rises up to form a long sandbar.
+^
+nexus41 w:nexus42 e:nexus40;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Messy Beach^
+  The shoreline is crammed full of foamy wtaer, which has brought and dumped 
+over the aeons a rather tremendous amount of floatable debris. Empty shells of 
+crab, lobster, and mussel, rotting driftwood, and numerous species of seaweed 
+lay strewn at irregular intervals. Not all is dead slowly petrifying, however, 
+as twitchy movements in the shadows reveal the locations of some hidden nests 
+of those who dwell in this intertidal zone. The usual sweet and salt smell of 
+the sea is coupled with the screeches of the gulls as they zoom overhead on 
+the sea breeze. 
+^
+nexus42 e:nexus41;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Messy Beach^
+  The shoreline is crammed full of foamy wtaer, which has brought and dumped 
+over the aeons a rather tremendous amount of floatable debris. Empty shells of
+crab, lobster, and mussel, rotting driftwood, and numerous species of seaweed 
+lay strewn at irregular intervals. Not all is dead slowly petrifying, however,
+as twitchy movements in the shadows reveal the locations of some hidden nests 
+of those who dwell in this intertidal zone. The usual sweet and salt smell of 
+the sea is coupled with the screeches of the gulls as they zoom overhead on 
+the sea breeze. 
+^
+nexus43 w:nexus40 e:nexus44;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Sandbar^
+   The crosswinds buffet the yard-wide strip of sand, pushing water over the 
+top of it as the waves crest. Bits of seaweed and other debris deposit 
+themselves nicely on the path. On either side, the sandy bottom slopes gently 
+downward, but the sea here is lagoon-like and remains mainly under a fathom 
+deep. Manta rays turn their natural camoflauge on in an attempt to hide from 
+the sandbar travelers. 
+^
+nexus44 w:nexus43 e:nexus45;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Sandbar^
+   The bar is more eroded here. Pits in the path fill up with and retain water
+as each wave passes. The beach lies a half mile to the west while an 
+island is eastward.
+^
+nexus45 w:nexus44 e:nexus46;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Sandbar^
+   The crosswinds buffet the yard-wide strip of sand, pushing water over the 
+top of it as the waves crest. Bits of seaweed and other debris deposit 
+themselves nicely on the path. On either side, the sandy bottom slopes gently 
+downward, but the sea here islagoon-like and remains mainly under a fathom 
+deep. Manta rays turn their natural camoflauge on in an attempt to hide from 
+the sandbar travelers. 
+^
+nexus46 w:nexus45 e:nexus47;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Island Beach^
+   A lushness of unsurpassed beauty, untouched by the hands of human progress,
+greets the weay traveler. The fronds of ferns and palm trees blow gently in 
+the caressing wind. The beach here is devoid of debris except for small pieces
+of driftwood. 
+^
+nexus47 n:nexus49 s:nexus48 w:nexus46;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Island Beach^
+   The southern portion of the beach approaches a plateau atop the cliffs. A 
+hundred feet below, the sea is much more unforgiving than to the northwest. 
+High, frothy waves smash with heavy impact against the jagged, volcanic rock 
+below, forcing the sea anemonies and many critter to crawl into the porous 
+rock surfaces for shelter. Survival in this evironment has been rather scarce 
+since the beginning of time due to the harsh conditions. 
+^
+nexus48 n:nexus47;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Overlook^
+   At 150 feet above the eroding rocks, the grassy tops of the cliffs rise to 
+a tapering point. Tropical birds fly at these lower altitudes, gliding on the 
+coastal breezes. Close to the edge, an ancinet &+Cbrick cairn&* stands for no 
+apparent useful reason. On its top tier lies a small, wooden idol - an 
+artifact to some long-lost deity, perhaps. The grass around the cairn grows 
+more steadily compared to the rest of the plateau, where the weather 
+continually gnaws away at the nutrients in the soil. 
+^
+nexus49 n:nexus50 s:nexus47;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Island Beach^
+  A lushness of unsurpassed beauty, untouched by the hands of human progress, 
+greets the weay traveler. The fronds of ferns and palm trees blow gently in 
+the caressing wind. The beach here is devoid of debris except for small pieces
+of driftwood. 
+^
+nexus50 s:nexus49 n:nexus51;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Island Beach^
+   The beach narrows here; the sea coming close to the island's greenery. The 
+sea bottom also begins to plunge down at a faster pace, and the waves are 
+higher. To the south the beach opens up into a wide expanse, while the north 
+cardinal features the entrance to a trail.
+^
+nexus51 e:nexus52 s:nexus50;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Lush Trail^
+   A flat trail leads up a slight slope towards the center of the island, 
+looking recently trailblazed. Shde is provided often from the gigantic fronds
+of the natural vegetation. On many leaves there are small holes where bugs 
+have eaten and empty cocoons where the rare tropical caterpillar has undergone
+its usual metamorphosis into a multi-hued butterfly. 
+^
+nexus52 e:nexus53 w:nexus51;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Lush Trail^
+   A flat trail leads up a slight slope towards the center of the island, 
+looking recently trailblazed. Shde is provided often from the gigantic fronds 
+of the natural vegetation. On many leaves there are small holes where bugs 
+have eaten and empty cocoons where the rare tropical caterpillar has 
+undergone its usual metamorphosis into a multi-hued butterfly. 
+^
+nexus53 w:nexus52 s:nexus54;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Elbow of Lush Trail^
+   Nestled in the outside corner of the trail is a broken tree, its trunk 
+crushed and splintered by a pounding force that once passed over this area. 
+A small family of foxes, also multi-hued, now live inside the devastated 
+tree. The trail leads to the beach to the west and comes to and end to the 
+south. 
+^
+nexus54 n:nexus53;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Clearing^
+   The trail has an endpoint here, stopping in a large, irregular-shaped 
+clearing. The southern side, however, is blocked by a large wall. The wall 
+is vertical and stretches far upwards, but is not sheer. Perhaps it could be 
+scaled. 
+^
+nexus55 d:nexus54 u:nexus56;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+On the Wall^
+   The ground lies far below, and the wall stretches on. The higher the 
+altitude, the more the crosswinds threaten.
+^
+nexus56 d:nexus55 u:nexus57;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+On the Wall^
+  The ground lies far below, and the wall stretches on. The higher the  
+altitude, the more the crosswinds threaten. 
+^
+nexus57 d:nexus56;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Top of the Wall^
+   Five hundred feet separate the ground and top of this wall. The wind speed 
+resembles that of the jet stream itself, powerfully whipping across the flat 
+width of the top of the wall. On one side there is a spectacular view of the 
+island, but on the other, a very dark abyss exists. Even the light of the 
+noontime sun cannot make a dent in this bottomless shadow. 
+^
+nexus58 n:nexus59;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark }
+Plane of Torture^
+   Cries of anguish echo around as their sources writhe in unspeakable agony. 
+Skin splits, muscles tear, and bones shatter and then dissolve as countless 
+victims of innumerable species are run through mercilessly again and again 
+with blades of boiling acid. They are manacled so that their backs suffer the 
+burns of vertical columns of magma. Their attendants are hooded behemoths 
+clad in flowing crimson robes, resembling only hulking masses silhouetted in 
+the red glaze of the molten rock. To the north lies a river of magma.
+^
+nexus59 n:nexus60 s:nexus58;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark Hot }
+Magma River^
+   A narrow, crystalline bridge spans the river here, over a mile long in 
+length. Bubbles of methane and sulfur dioxide gas explode from the depths of 
+it, occasionally splattering the bridge with bits of burning rock, fresh from 
+the mantle of this planet. 
+^
+nexus60 s:nexus59 n:nexus61;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark Hot }
+Magma River^
+   Pieces of ash and pumice buffet the bridge, which is quite transparent, 
+allowing the image of one's feet dangling over a pit of death to become a 
+reality. Deep-throated noises issue forth from the belching geysers far  
+below, creating a hideous song. 
+^
+nexus61 s:nexus60;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark Hot }
+Magma River^
+   One bank of the river is in sight at the limit of vision in this hellish 
+place, but a giant crack has occurred in the bridge. The crystal is warped 
+and splintered, as if a giant, clawed hand had swept out. The distance is not 
+so much that a running leap would fail.
+^
+nexus62 n:nexus63;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark Hot }
+Magma River^
+   One bank of the river is in sight at the limit of vision in this hellish 
+place, but a giant crack has occurred in the bridge. The crystal is warped 
+and splintered, as if a giant, clawed hand had swept out. The distance is not 
+so much that a running leap would fail.
+^
+nexus63 s:nexus62 n:nexus64;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark Hot }
+Magma River^
+   Pieces of ash and pumice buffet the bridge, which is quite transparent, 
+allowing the image of one's feet dangling over a pit of death to become a 
+reality. Deep-throated noises issue forth from the belching geysers far 
+below, creating a hideous song. 
+^
+nexus64 n:nexus65 s:nexus63;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark Hot }
+Magma River^
+   A narrow, crystalline bridge spans the river here, over a mile long in 
+length. Bubbles of methane and sulfur dioxide gas explode from the depths of 
+it, occasionally splattering the bridge with bits of burning rock, fresh from
+the mantle of this planet. 
+^
+nexus65 s:nexus64 d:nexus66;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark }
+Molten Bank^
+  The rocks closest to the river slowly melt into the river itself.  
+Eventually, the river will encompass this whole area and beyond. Part of the 
+bank has collapsed, allowing the flowing magma to fill in the resulting  
+crater. It is now filled to the brim and maintained as a sort of bay.
+^
+nexus66 u:nexus65 d:nexus67;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Magma Pond^
+  The mad haze of red is all around with intermittent flashes of bright yellow
+flame. Magma swirls around in a slow circle, always kindling the destructive 
+potential here as a sort of undeniable threat to surface dwellers.
+^
+nexus67 u:nexus66 d:nexus68;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Magma Pond^
+  The mad haze of red is all around with intermittent flashes of bright yellow
+flame. Magma swirls around in a slow circle, always kindling the destructive 
+potential here as a sort of undeniable threat to surface dwellers.
+^
+nexus68 u:nexus67 e:^door1;
+Lflags { Soundproof OnePerson NoAt CantSummon }
+Magma Pond^
+  The mad haze of red is all around with intermittent flashes of bright yellow
+flame. Magma swirls around in a slow circle, always kindling the destructive 
+potential here as a sort of undeniable threat to surface dwellers. The bottom 
+of the pond is made out of frozen and compressed adamantium, the one known 
+material which can resist any levels of heat save that of the sun itself. A 
+stunning building made of the same material lies before one side of the pond,
+booming ominously upwards into the redness of the pond.
+^
+nexus69 w:^door2 u:nexus70 d:nexus71;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark }
+House of Minions^
+   This is a place of residence without windows. The air is deathly still, and
+even the loudest scream from the tortured sous far above do not penetrate 
+these walls. Gargoyles are not lining the walls between the pictures of bad 
+moons rising, but rather portrayed on the floor running and being swallowed 
+whole by an army of nine-limbed horrors. Revulsion, insatiable hunger, and 
+disfigurement are the way of life here. 
+^
+nexus70 d:nexus69;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark }
+Attic^
+   Someone has used this huge chamber as a junkyard for millenia, given the 
+amount of antique items in here. There is not much gold, silver, or jewelrey, 
+but one cabinet has a thousand small jars in it. The souls of all those 
+captured by the demons of the Plane of Torture fly around endlessly in these 
+encapsulated places, suffering as much astral agony as they do physical.
+^
+nexus71 u:nexus69;
+Lflags { Soundproof OnePerson NoAt CantSummon Dark }
+Basement of Flesh^
+   The stench of death is comforting to this room. The walls are made out of 
+pulsing human flesh, slowly glowing and oozing with a fresh mixture of pus and
+blood. Standing next to each of these open sores is a giant black mosquito, 
+its probiscus deeply embedded into the wound and body pulsing in sync with the
+walls as it drinks its fill. At other spots, a shaggy-haired vampire rips away
+the skin covering and pours grapefruit directly into the muscle, sloshing it 
+around with its tongue before ramming the entire length of its six inch fangs 
+into the tear ecstatically. This room represents the heart of suffering, and 
+each new wound means another victim added to the continuous torture. 
+^
+nexus72;
+Lflags { Soundproof OnePerson NoAt CantSummon Death }
+&+RMishappen Void^
+   This is the holding place of some nexus zone material.
+^

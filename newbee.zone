@@ -1,0 +1,1450 @@
+
+
+
+%rainfall:1000
+
+%latitude:20
+
+%mobiles
+
+Name = mob18601
+Pname = "the pit beast"
+Location = newbee18605
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+EFlags  {}
+Strength = 66
+Damage = 6
+Armor = 10
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "The big, ugly pit-beast is standing here sizing you up."
+Examine = "
+Ick... what a disgusting creature!  It is black and green and slimy
+and it is drooling everywhere... looks mean too.
+"
+End = mob18601
+
+Name = mob18602
+Pname = "the newbie monster"
+Location = newbee18600
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+EFlags  {}
+Strength = 24
+Damage = 5
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "The newbie monster stands here looking confused.  Kill him!  Kill him!"
+Examine = "
+What an odd looking little beast.  He looks harmless, but you never can
+tell.  He is only about 4 feet tall, but he pretty muscular looking...
+maybe you should ask if he needs help?  Nah... kill him.
+"
+End = mob18602
+
+Name = mob18602_1
+Pname = "the newbie monster"
+Location = newbee18607
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+EFlags  {}
+Strength = 24
+Damage = 5
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "The newbie monster stands here looking confused.  Kill him!  Kill him!"
+Examine = "
+What an odd looking little beast.  He looks harmless, but you never can
+tell.  He is only about 4 feet tall, but hes pretty muscular looking...
+maybe you should ask if he needs help?  Nah... kill him.
+"
+End = mob18602_1
+
+Name = mob18603
+Pname = "the baby dragon"
+Location = newbee18602
+SFlags  {}
+PFlags  {}
+MFlags  {}
+EFlags  {}
+Strength = 54
+Damage = 7
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "Someone's little pet dragon has gotten loose, and is sniffing about here."
+Examine = "
+Awwww... how cute!  A little baby dragon.  He's about 3 feet long and you
+just want to cuddle him to death... no, you really want to kill him to tell
+the truth.  But, remember, even a little dragon can be a big problem.
+"
+End = mob18603
+
+Name = mob18604
+Pname = "the Newbie Guard"
+Location = newbee18606
+SFlags  {}
+PFlags  {}
+MFlags  {}
+EFlags  {}
+Strength = 46
+Damage = 7
+Armor = 6
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "The Newbie Guard is here wondering where that dragon went."
+Examine = "
+The Guard also had the job of taking care of the Alchemist's pet dragon,
+but he doesn't seem to be doing a good job of it.  He looks at you and
+says, 'Have you seen that dragon?  Master will have my head if I don't find
+him.'
+"
+End = mob18604
+
+Name = mob18605
+Pname = "the Newbie Alchemist"
+Location = newbee18612
+SFlags  {}
+PFlags  {}
+MFlags  {}
+EFlags  {}
+Strength = 62
+Damage = 8
+Armor = 10
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "The Newbie Alchemist is here trying to make something."
+Examine = "
+He is a funny looking, furry little dude.  He looks really busy trying to
+mix up a batch of something or other.
+"
+End = mob18605
+
+Name = mob18606
+Pname = "the creepy crawler"
+Location = newbee18602
+SFlags  {}
+PFlags  {}
+MFlags  {}
+EFlags  {}
+Strength = 12
+Damage = 4
+Armor = 0
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A creepy little crawling thing is scuttling along the floor at your feet."
+Examine = "
+Yuck!  If they'd ever clean this place maybe it wouldn't attract vermin
+like this disgusting, little, six-legged, brown bug.
+"
+End = mob18606
+
+Name = mob18606_1
+Pname = "the creepy crawler"
+Location = newbee18606
+SFlags  {}
+PFlags  {}
+MFlags  {}
+EFlags  {}
+Strength = 12
+Damage = 4
+Armor = 0
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A creepy little crawling thing is scuttling along the floor at your feet."
+Examine = "
+Yuck!  If they'd ever clean this place maybe it wouldn't attract vermin
+like this disgusting, little, six-legged, brown bug.
+"
+End = mob18606_1
+
+Name = mob18606_2
+Pname = "the creepy crawler"
+Location = newbee18609
+SFlags  {}
+PFlags  {}
+MFlags  {}
+EFlags  {}
+Strength = 12
+Damage = 4
+Armor = 0
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A creepy little crawling thing is scuttling along the floor at your feet."
+Examine = "
+Yuck!  If they'd ever clean this place maybe it wouldn't attract vermin
+like this disgusting, little, six-legged, brown bug.
+"
+End = mob18606_2
+
+Name = mob18607
+Pname = "the zombiefied newbie"
+Location = newbee18620
+SFlags  {}
+PFlags  {}
+MFlags  {Soulless PickStuff}
+EFlags  {}
+Strength = 54
+Damage = 8
+Armor = 10
+Aggression = 25
+Speed = 2
+Wimpy = 0
+Description = "A VERY gaunt looking newbie... it looks like a zombie!"
+Examine = "
+This guy has been lost in here too long... it is more zombie than man
+now.  You would feel sorry for it, but it is moving in to attack!
+"
+End = mob18607
+
+Name = mob18607_1
+Pname = "the zombiefied newbie"
+Location = newbee18624
+SFlags  {}
+PFlags  {}
+MFlags  {Soulless PickStuff}
+EFlags  {}
+Strength = 54
+Damage = 8
+Armor = 10
+Aggression = 25
+Speed = 2
+Wimpy = 0
+Description = "A VERY gaunt looking newbie... it looks like a zombie!"
+Examine = "
+This guy has been lost in here too long... it is more zombie than man
+now.  You would feel sorry for it, but it is moving in to attack!
+"
+End = mob18607_1
+
+Name = mob18607_2
+Pname = "the zombiefied newbie"
+Location = newbee18637
+SFlags  {}
+PFlags  {}
+MFlags  {Soulless PickStuff}
+EFlags  {}
+Strength = 54
+Damage = 8
+Armor = 10
+Aggression = 25
+Speed = 2
+Wimpy = 0
+Description = "A VERY gaunt looking newbie... it looks like a zombie!"
+Examine = "
+This guy has been lost in here too long... it is more zombie than man
+now.  You would feel sorry for it, but it is moving in to attack!
+"
+End = mob18607_2
+
+Name = mob18607_3
+Pname = "the zombiefied newbie"
+Location = newbee18633
+SFlags  {}
+PFlags  {}
+MFlags  {Soulless PickStuff}
+EFlags  {}
+Strength = 54
+Damage = 8
+Armor = 10
+Aggression = 25
+Speed = 2
+Wimpy = 0
+Description = "A VERY gaunt looking newbie... it looks like a zombie!"
+Examine = "
+This guy has been lost in here too long... it is more zombie than man
+now.  You would feel sorry for it, but it is moving in to attack!
+"
+End = mob18607_3
+
+Name = mob18608
+Pname = "the quasit"
+Location = newbee18627
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+EFlags  {}
+Strength = 40
+Damage = 5
+Armor = 6
+Aggression = 25
+Speed = 2
+Wimpy = 25
+Description = "A funny little imp-like thing (a quasit perhaps?) is sneaking about here."
+Examine = "
+Little green, vaguely humoniod shaped creature, with a long pointed tail.
+It is hard to say because before you ever get a good look at it, it darts
+back into the shadows.
+"
+End = mob18608
+
+Name = mob18608_1
+Pname = "the quasit"
+Location = newbee18636
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+EFlags  {}
+Strength = 40
+Damage = 5
+Armor = 6
+Aggression = 25
+Speed = 2
+Wimpy = 25
+Description = "A funny little imp-like thing (a quasit perhaps?) is sneaking about here."
+Examine = "
+Little green, vaguely humoniod shaped creature, with a long pointed tail.
+It is hard to say because before you ever get a good look at it, it darts
+back into the shadows.
+"
+End = mob18608_1
+
+Name = mob18608_2
+Pname = "the quasit"
+Location = newbee18638
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+EFlags  {}
+Strength = 40
+Damage = 5
+Armor = 6
+Aggression = 25
+Speed = 2
+Wimpy = 25
+Description = "A funny little imp-like thing (a quasit perhaps?) is sneaking about here."
+Examine = "
+Little green, vaguely humoniod shaped creature, with a long pointed tail.
+It is hard to say because before you ever get a good look at it, it darts
+back into the shadows.
+"
+End = mob18608_2
+
+Name = mob18608_3
+Pname = "the quasit"
+Location = newbee18621
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+EFlags  {}
+Strength = 40
+Damage = 5
+Armor = 6
+Aggression = 25
+Speed = 2
+Wimpy = 25
+Description = "A funny little imp-like thing (a quasit perhaps?) is sneaking about here."
+Examine = "
+Little green, vaguely humoniod shaped creature, with a long pointed tail.
+It is hard to say because before you ever get a good look at it, it darts
+back into the shadows.
+"
+End = mob18608_3
+
+Name = mob18609
+Pname = "the massive Minotaur"
+Location = newbee18620
+SFlags  {}
+PFlags  {}
+MFlags  {Cross}
+EFlags  {}
+Strength = 100
+Damage = 9
+Armor = 10
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "The Great Minotaur is wondering just what you'll taste like."
+Examine = "
+A massive man, with the head of a bull.  He looks as strong as bull too,
+but not nearly as smart.  Actually, now that you consider it... he looks
+a heck of a lot meaner than any bull you have ever seen... and he is
+coming this way!
+"
+End = mob18609
+
+Name = mob18610
+Pname = "the dark spectre"
+Location = newbee18639
+SFlags  {Nobody}
+PFlags  {}
+MFlags  {Flyer}
+EFlags  {}
+Strength = 77
+Damage = 8
+Armor = 14
+Aggression = 20
+Speed = 2
+Wimpy = 0
+Visibility = 10
+Description = "The dark spectre is lurking in the shadows."
+Examine = "
+The soul of a long since passed on adventurer... it lurks here waiting for
+a chance to bring death to any who cross its path.
+"
+End = mob18610
+
+Name = mob18611
+Pname = "the annoying newbie"
+Location = newbee18646
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+EFlags  {}
+Strength = 28
+Damage = 4
+Armor = 0
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A newbie is here annoying the hell out of you."
+Examine = "
+What a jerk!  He won't shut up, and he keeps making the most irritating
+comments about everything.  Better silence him with cold, tempered steel
+MUHAHAHAHAHAHAHAHAHAHA!
+"
+End = mob18611
+
+Name = mob18612
+Pname = "the clueless newbie"
+Location = newbee18642
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+EFlags  {}
+Strength = 20
+Damage = 4
+Armor = 0
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A newbie is here looking terribly confused."
+Examine = "
+What a moron!  Every question that is answered in the help files, he will
+ask and he will probably ask 2 or 3 times too.  This guy just doesn't get
+it, best put him out of his misery.
+"
+End = mob18612
+
+Name = mob18613
+Pname = "the talkative newbie"
+Location = newbee18640
+SFlags  {Female}
+PFlags  {}
+MFlags  {}
+EFlags  {}
+Strength = 52
+Damage = 8
+Armor = 4
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A newbie is here talking a lot."
+Examine = "
+Well, at least this gal seems pretty cool.  Talks a lot, but she's a
+friendly, interesting sort.  Seems to have a clue what she's doing also,
+unlike some others you might see.
+"
+End = mob18613
+
+Name = mob18614
+Pname = "the lost newbie"
+Location = newbee18604
+SFlags  {}
+PFlags  {}
+MFlags  {}
+EFlags  {}
+Strength = 60
+Damage = 7
+Armor = 8
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A newbie is here wandering about aimlessly."
+Examine = "
+Hmmm... looks like he has been around a while, but he wandered a little
+too far from home this time.  Don't think he knows quite where he is,
+maybe you should help him out?
+"
+End = mob18614
+
+Name = mob18615
+Pname = "the smart newbie"
+Location = newbee18645
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+EFlags  {}
+Strength = 70
+Damage = 8
+Armor = 2
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A newbie is here, and he looks quite sure of himself."
+Examine = "
+Here is a guy who has it all together.  Nice equipment too, must have read
+the help files, Eh?
+"
+End = mob18615
+
+Name = mob18616
+Pname = "The Kamikaze Newbie"
+Location = newbee18610
+Strength = 40
+Damage = 8
+Aggression = 25
+Speed = 2
+Description = "A newbie in kamikaze-like fashion attacks everything...including YOU!"
+Examine = "
+In true kamikaze fashion, this newbie attacks anything that moves, in a
+desperate bid for points.  Only problem is, hes always getting killed cause
+he stupidly attacks Puff the Fractal Dragon every reset."
+End = mob18616
+
+%objects
+
+Name = door_newbee18606_s
+Pname = door
+Linked = door_newbee18602
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:newbee18602
+Examine = "
+A small room lies to the south... you hear something moving about inside.
+"
+End = door_newbee18606_s
+
+Name = door_newbee18644_s
+Pname = northdoor
+Linked = door_newbee18603_s
+State = 1
+Maxstate = 2
+Desc[2] = "The northdoor is locked."
+Desc[1] = "The northdoor is closed."
+Desc[0] = "The northdoor is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:newbee18603
+Examine = "
+A brighter hallway leads off that way.
+"
+End = door_newbee18644_s
+
+Name = door_newbee18646
+Pname = eastdoor
+Altname = door
+Linked = door_newbee18603
+State = 1
+Maxstate = 2
+Desc[2] = "The eastdoor is locked."
+Desc[1] = "The eastdoor is closed."
+Desc[0] = "The eastdoor is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:newbee18603
+Examine = "
+A brighter hallway leads off that way.
+"
+End = door_newbee18646
+
+Name = door_newbee18612_s
+Pname = door
+Linked = door_newbee18604
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:newbee18604
+Examine = "
+A small cluttered room.
+"
+End = door_newbee18612_s
+
+Name = grate_newbee18606
+Pname = grate
+Linked = grate_newbee18605
+State = 2
+Maxstate = 2
+Desc[2] = "The grate is locked."
+Desc[1] = "The grate is closed."
+Desc[0] = "The grate is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:newbee18605
+Examine = "
+You see a ladder leading up.
+"
+End = grate_newbee18606
+
+Name = door_newbee18602
+Pname = door
+Linked = door_newbee18606_s
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:newbee18606
+Examine = "
+More of the hallway there... how exciting!
+"
+End = door_newbee18602
+
+Name = door_newbee18607
+Pname = door
+Linked = door_newbee18606
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:newbee18606
+Examine = "
+More of the hallway there... how exciting!
+"
+End = door_newbee18607
+
+Name = grate_newbee18605
+Pname = grate
+Linked = grate_newbee18606
+State = 2
+Maxstate = 2
+Desc[2] = "The grate is locked."
+Desc[1] = "The grate is closed."
+Desc[0] = "The grate is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:newbee18606
+Examine = "
+A ladder leads down into darkness.
+"
+End = grate_newbee18605
+
+Name = door_newbee18606
+Pname = door
+Linked = door_newbee18607
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:newbee18607
+End = door_newbee18606
+
+Name = door_newbee18612
+Pname = door
+Linked = door_newbee18611
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:newbee18611
+Examine = "
+You peer into a cluttered little room to the east.
+"
+End = door_newbee18612
+
+Name = door_newbee18604
+Pname = northdoor
+Altname = door
+Linked = door_newbee18612_s
+State = 1
+Maxstate = 2
+Desc[2] = "The northdoor is locked."
+Desc[1] = "The northdoor is closed."
+Desc[0] = "The northdoor is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:newbee18612
+Examine = "
+A nice shiny hallway!
+"
+End = door_newbee18604
+
+Name = door_newbee18611
+Pname = westdoor
+Altname = door
+Linked = door_newbee18612
+State = 1
+Maxstate = 2
+Desc[2] = "The westdoor is locked."
+Desc[1] = "The westdoor is closed."
+Desc[0] = "The westdoor is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:newbee18612
+Examine = "
+A corner in the passage lies to the west.
+"
+End = door_newbee18611
+
+Name = sign_newbee18612
+Pname = sign
+Altname = stairway
+Location = IN_ROOM:newbee18612
+Oflags { Noget }
+Examine = "
+The sign next to the stairs says:
+
+If you are below 70hps and alone, or below 40hps then bugger off!
+Or else don't blame me if you die...
+
+" 
+End = sign_newbee18612
+
+Name = portal_newbee18629
+Pname = portal
+Location = IN_ROOM:newbee18629
+Oflags { Noget }
+Examine = "
+It looks as if you could go down into it... but you can't be sure of where
+you will end up, or if you can get back.
+" 
+End = portal_newbee18629
+
+Name = writing_newbee18639
+Pname = writing
+Location = IN_ROOM:newbee18639
+Oflags { Noget }
+Examine = "
+The writing appears to says 'beware the Minotaur...'
+" 
+End = writing_newbee18639
+
+Name = wall_newbee18639
+Pname = wall
+Location = IN_ROOM:newbee18639
+Oflags { Noget }
+Examine = "
+There is a crude picture of a man with the head of a bull with some &+Gwriting
+next to it.
+" 
+End = wall_newbee18639
+
+Name = statue_newbee18640
+Pname = statue
+Location = IN_ROOM:newbee18640
+Oflags { Noget }
+Examine = "
+Upon closer inspection you see that the statue has a small &+Gplaque&* affixed
+to it.  The face looks remarkably familiar also.
+" 
+End = statue_newbee18640
+
+Name = plaque_newbee18640
+Pname = nameplate
+Altname = plaque
+Location = IN_ROOM:newbee18640
+Oflags { Noget }
+Examine = "
+It says:
+
+Maynard, Death Jester of the Harlequins.
+
+" 
+End = plaque_newbee18640
+
+Name = staircase_newbee18642
+Pname = stair
+Altname = staircase
+Location = IN_ROOM:newbee18642
+Oflags { Noget }
+Examine = "
+They are constructed of smooth, beautiful marble.
+" 
+End = staircase_newbee18642
+
+Name = door_newbee18603_s
+Pname = door
+Linked = door_newbee18644_s
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:newbee18644
+Examine = "
+A intersection of passages.
+"
+End = door_newbee18603_s
+
+Name = floor_newbee18644
+Pname = floor
+Location = IN_ROOM:newbee18644
+Oflags { Noget }
+Examine = "
+It appears to be the Crest of the Harlequin Guild.
+" 
+End = floor_newbee18644
+
+Name = door_newbee18603
+Pname = door
+Linked = door_newbee18646
+State = 1
+Maxstate = 2
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Oflags { Openable NoGet Lockable  }
+Location = IN_ROOM:newbee18646
+Examine = "
+A dark intersection of passages.
+"
+End = door_newbee18603
+
+Name = floor_newbee18646
+Pname = floor
+Location = IN_ROOM:newbee18646
+Oflags { Noget }
+Examine = "
+It appears to be the crest of the Harlequin Guild.
+" 
+End = floor_newbee18646
+
+Name = staircase_newbee18647
+Pname = stair
+Altname = staircase
+Location = IN_ROOM:newbee18647
+Oflags { Noget }
+Examine = "
+They are constructed of smooth, beautiful marble.
+" 
+End = staircase_newbee18647
+
+Name = obj18601
+Pname = sword
+Altname = newbie
+Location = WIELDED_BY:mob18613
+State = 0
+Maxstate = 0
+Damage = 10
+Bvalue = 0
+Size = 4
+Weight = 4
+Oflags { Glowing Weapon Newbie }
+Desc[0] = "A shiny newbie sword is lying here waiting to be possessed."
+End = obj18601
+
+Name = obj18602
+Pname = vest
+Altname = newbie
+Location = WORN_BY:mob18602
+State = 0
+Maxstate = 0
+Armor = 20
+Bvalue = 0
+Size = 4
+Weight = 4
+Oflags { Wearable Armor Newbie }
+Aflags {Chest }
+Desc[0] = "A bright green newbie vest is lying here looking for a body to hug."
+End = obj18602
+
+Name = obj18602_1
+Pname = vest
+Altname = newbie
+Location = WORN_BY:mob18613
+State = 0
+Maxstate = 0
+Armor = 20
+Bvalue = 0
+Size = 4
+Weight = 4
+Oflags { Wearable Armor Newbie }
+Aflags {Chest }
+Desc[0] = "A bright green newbie vest is lying here looking for a body to hug."
+End = obj18602_1
+
+Name = obj18602_2
+Pname = vest
+Altname = newbie
+Location = WORN_BY:mob18615
+State = 0
+Maxstate = 0
+Armor = 20
+Bvalue = 0
+Size = 4
+Weight = 4
+Oflags { Wearable Armor Newbie }
+Aflags {Chest }
+Desc[0] = "A bright green newbie vest is lying here looking for a body to hug."
+End = obj18602_2
+
+Name = obj18603
+Pname = helm
+Altname = newbie
+Location = WORN_BY:mob18604
+State = 0
+Maxstate = 0
+Armor = 30
+Bvalue = 0
+Size = 4
+Weight = 4
+Oflags { Glowing Wearable Armor Newbie }
+Aflags {Head }
+Desc[0] = "A bright newbie helm is hoping a loose head will wander by."
+End = obj18603
+
+Name = obj18604
+Pname = cloak
+Altname = newbie
+Location = WORN_BY:mob18601
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 2
+Weight = 2
+Oflags { Wearable Armor Newbie }
+Aflags {Back }
+Desc[0] = "A dark newbie cloak is lying here hoping to smother you."
+End = obj18604
+
+Name = obj18605
+Pname = ring
+Altname = signet
+Location = WORN_BY:mob18604
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Wearable Armor Newbie Hitchance }
+Aflags {Hand }
+Desc[0] = "A newbie signet ring is lying in the dust here."
+End = obj18605
+
+Name = obj18606
+Pname = dagger
+Altname = newbie
+Location = WIELDED_BY:mob18602_1
+State = 0
+Maxstate = 0
+Damage = 7
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Weapon Newbie }
+Desc[0] = "A shiny newbie dagger is lying here looking for a back to stab."
+End = obj18606
+
+Name = obj18606_1
+Pname = dagger
+Altname = newbie
+Location = WIELDED_BY:mob18611
+State = 0
+Maxstate = 0
+Damage = 7
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Weapon Newbie }
+Desc[0] = "A shiny newbie dagger is lying here looking for a back to stab."
+End = obj18606_1
+
+Name = obj18607
+Pname = collar
+Altname = dragon
+Location = WORN_BY:mob18603
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Armor = 8
+Oflags { Wearable Armor Newbie }
+Aflags {Neck }
+Desc[0] = "Someone's pet dragon has escaped and left his collar here."
+End = obj18607
+
+Name = obj18608
+Pname = key
+Location = CARRIED_BY:mob18604
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Key Newbie }
+Desc[0] = "A key with the newbie crest on it is here."
+End = obj18608
+
+Name = obj18609
+Pname = jar
+Altname = glowing
+Location = CARRIED_BY:mob18605
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 2
+Weight = 2
+Oflags { Glowing }
+Desc[0] = "A jar of glowing fluid wants to brighten your day."
+End = obj18609
+
+Name = obj18610
+Altname = Minotaur
+Pname = horns
+Location = WORN_BY:mob18609
+State = 0
+Maxstate = 0
+Armor = 27
+Bvalue = 0
+Size = 8
+Weight = 8
+Oflags { Wearable Armor Newbie }
+Aflags {Head }
+Desc[0] = "The horns of the great Minotaur lie here."
+End = obj18610
+
+Name = obj18611
+Altname = Minotaur
+Pname = hide
+Location = WORN_BY:mob18609
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 6
+Weight = 6
+Armor = 33
+Oflags { Wearable Armor Newbie }
+Aflags {Back Chest }
+Desc[0] = "The hide of the great Minotaur is lying here."
+End = obj18611
+
+Name = obj18612
+Pname = leggings
+Altname = newbie
+Location = WORN_BY:mob18615
+State = 0
+Maxstate = 0
+Armor = 24
+Bvalue = 0
+Size = 4
+Weight = 4
+Oflags { Wearable Armor Newbie }
+Aflags {Legs }
+Desc[0] = "A pair of neat looking leggings are here."
+End = obj18612
+
+Name = obj18613
+Pname = sleeves
+Altname = newbie
+Location = WORN_BY:mob18615
+State = 0
+Maxstate = 0
+Armor = 14
+Bvalue = 0
+Size = 3
+Weight = 3
+Oflags { Wearable Armor Newbie }
+Aflags {Arms }
+Desc[0] = "A set of nifty sleeves is here."
+End = obj18613
+
+Name = obj18614
+Pname = mace
+Altname = newbie
+Location = WIELDED_BY:mob18615
+State = 0
+Maxstate = 0
+Damage = 12
+Bvalue = 0
+Size = 8
+Weight = 8
+Oflags { Glowing Newbie Weapon }
+Desc[0] = "A finely crafted newbie mace is waiting for a worthy owner."
+End = obj18614
+
+Name      = fountain
+Location  = IN_ROOM:newbee18640
+Oflags    {NoGet}
+Desc[0]   = "A small icy fountain burbles gently in the centre of the room."
+Examine   = "Its water looks invigorating."
+End       = fountain
+
+%locations
+
+newbee18600 n:newbee18601 e:newbee13;
+lflags { }
+The Entrance To The Newbie Zone^
+   Ahhh... the entrance to the newbie zone!  Just the place you have
+been looking for.  Well, when you've readied yourself you can enter
+to the north.
+^
+
+newbee18601 s:newbee18600 e:newbee18602;
+lflags {  }
+The Beginning Of The Passage^
+   You find yourself entering a long corridor.  You can hear the sound
+of creatures roaming about, but you can't tell where the sound emanates
+from exactly.
+   Exits lead to the east along the hallway, and south back to the
+entrance.
+^
+
+newbee18602 s:^door_newbee18606_s w:newbee18601 e:newbee18603;
+lflags {  }
+The Dirty Hallway^
+   You continue wandering down the hallway.  Nothing much different here,
+but you are positive you here noises behind the door to the south, and
+coming from the east.  The walls are a bit slimy and moldy here... yeech,
+couldn't they hire someone to clean this place?  What will the newbies
+think?  Oh well, you can continue along the hallway to the east or west.
+^
+
+newbee18603 n:^door_newbee18644_s s:newbee18607 w:newbee18602 e:^door_newbee18646;
+lflags {  }
+A Nexus^
+   Well... you've reached an intersection of two passages, to the north
+and east, the passage brightens, while the darker hallway continues to
+the south.
+^
+
+newbee18604 n:newbee18647 s:^door_newbee18612_s;
+lflags { Dark }
+A Narrow Passage^
+   The thin passage is plain and undecorated, but still clean.  It
+ends abruptly to the south at a small oak door, behind which you here
+movement...
+^
+
+newbee18605 u:^grate_newbee18606;
+lflags { Dark }
+The Dark Pit^
+   Ick... a dark damp dirty pit.  Even worse, what is that dark damp
+dirty thing looking at you from the corner?  Ewww... maybe you should
+go back up where it is a bit safer, unless you think you can tackle
+that thing in the corner.
+^
+
+newbee18606 n:^door_newbee18602 e:^door_newbee18607 d:^grate_newbee18605;
+lflags {  }
+A Small Room^
+   Hmmm... this is an interesting little room.  Ack, and there is
+an interesting little creature staring at you too.  He looks a bit
+surprised at your intrusion.  You can leave via the doors north or
+east, or you can stay and annoy him a bit more.  There also appears
+to be some type of well down here also, but it has a rather secure
+grate covering it.
+^
+
+newbee18607 n:newbee18603 s:newbee18611 w:^door_newbee18606;
+lflags {  }
+More Of The Hallway^
+   Oh joy!  More of this annoying passage.  Perhaps there is something
+more exciting through that door to the west?  Or you can keep searching
+the hallways to the north or south.
+^
+
+newbee18608 n:grassy@blizzard e:newbee18609;
+lflags { NoMobiles }
+An Open Field^
+   Finally, you are in an open field... it is so nice to breathe fresh air
+again!  You can return to that dank, smelly place to the east, or take the
+exit to the north which appears to lead into a large field.
+^
+
+newbee18609 w:newbee18608 e:newbee18610;
+lflags {  }
+The End Of The Passage^
+    Ahhh... at last, the end of the hallway... you can exit into open
+air to the west, or return to the east and make sure you didn't miss
+anything.
+^
+
+newbee18610 w:newbee18609 e:newbee18611;
+lflags {  }
+A Brighter Hallway^
+   The hallway continues on in a east-west direction... and it seems to
+be brightening up to the west.
+^
+
+newbee18611 n:newbee18607 w:newbee18610 e:^door_newbee18612;
+lflags {  }
+Another Corner^
+   Another corner of the passage, and just as untidy as the rest of
+this place (maybe more so?).  There is a door to the east though...
+wonder where that leads?  Oh, and the hallway continues west and
+north.
+^
+
+newbee18612 n:^door_newbee18604 w:^door_newbee18611 d:newbee18632;
+lflags {  }
+The Alchemist's Room^
+   Lots of bottles and flasks lie about this room, but it all looks like
+worthless clutter.  It appears whatever alchemist has been working here
+is really very adept at his art.  There are a lot of formulae and spells
+written on the walls too... couldn't he buy some paper?  There is a door
+to the north, and also a dark &+Gstairway&* in the corner leading down, with a
+large &+Gsign&* next to it that you probably should read...
+^
+
+newbee13 w:newbee18600 e:newbie18@newbie;
+lflags { Nomobiles }
+Heading Into Danger^
+   Being the adventurous type, you march right into danger looking to battle
+some monsters.  If you can clear this area of its monsters, you'll be ready
+to go adventuring in the real world.  It all starts west of here.
+
+   Hope you've done your strength training...
+^
+
+newbee18620 s:newbee18629 e:newbee18621;
+lflags { }
+A Turn In The Passage^
+   This corner is much like all the others... except you see a strange
+glow coming from the south.  Could be an exit... you hope.
+^
+
+newbee18621 s:newbee18633 w:newbee18620 e:newbee18622;
+lflags { }
+A T-Intersection In The Passage^
+   This is an intersection of a long east-west passage with a corridor
+leading south.  The air seems a bit clearer here though, as if you were
+approaching an exit.
+^
+
+newbee18622 s:newbee18628 w:newbee18621;
+lflags { }
+Another Corner^
+   The passage turns from north to west here.  The walls are still
+covered with the same disgusting green fungus you have seen all
+along, and you hear sounds of creatures moving all around you...
+^
+
+newbee18623 s:newbee18627 e:newbee18624;
+lflags { }
+A Corner In The Hallway^
+   You can hear creatures moving all around you... and it is not
+a comforting sound at all.  The furnishing is nothing to speak of
+either, plain grey brick walls with green fungus (or something)
+growing on them.
+^
+
+newbee18624 s:newbee18630 w:newbee18623;
+lflags { }
+Another Turn^
+   Hmmm... the passage turns south here.  You beginning to realize you
+can easily lose your bearings if you aren't careful, and you don't think
+you would like spending too much time here...
+^
+
+newbee18625 s:newbee18631 e:newbee18626;
+lflags { }
+A Large Room^
+   The passage opens into a large oval room.  There really isn't much of
+interest here though.
+^
+
+newbee18626 w:newbee18625 e:newbee18627;
+lflags { }
+A Long East-West Passage^
+   This is a long, narrow passage leading east and west.  The walls are
+damp and covered with mildew and fungus.  There is a very unhealthy air
+about this place and you're beginning to want out of here... soon.
+^
+
+newbee18627 n:newbee18623 s:newbee18632 w:newbee18626 e:newbee18628;
+lflags { }
+A Crossing Of Corridors^
+   Here a narrow east-west passage crosses with a wider passage to the
+north and south.  The air is dank, and has an odor of decay and debris.
+Not a nice place at all really...
+^
+
+newbee18628 n:newbee18622 w:newbee18627;
+lflags { }
+A Corner Room^
+   This room is hardly more than a crossing of passages.  You do sense a
+slight breeze wafting down the passage to the north though, but it smells
+altogether bad...
+^
+
+newbee18629 n:newbee18620 e:newbee18630 d:palace@icecave;
+lflags { Nomobiles }
+The Red Room^
+   It takes you a moment to realize that the red glow here is coming
+from a round &+Gportal&* on the floor.  It looks almost as if someone had
+painted a picture of a white icy fountain bubbling invigorating water.
+Oddly enough, it is so realistic you can feel the cold air and the wet
+mist coming out of the picture.
+^
+
+newbee18630 n:newbee18624 s:newbee18634 w:newbee18629;
+lflags { }
+A Branching Passage^
+   The north-south passage branches to the east here.  There is a queer red
+glow coming from that way as well, along with a faint breeze.
+^
+
+newbee18631 n:newbee18625 s:newbee18638 e:newbee18632;
+lflags { }
+A Passage^
+   Ick... this place is just disgusting.  You try and stay clear of the
+walls, but the passage is so narrow you keep bumping them anyway.  You
+are almost convinced that the fungus coating the walls is grabbing at
+you too.
+^
+
+newbee18632 n:newbee18627 s:newbee18635 w:newbee18631 u:newbee18612;
+lflags { Dark }
+The Entrance^
+   It is dark, dank, disgusting and cold up here.  Plus you here the
+sounds of creatures all around you... and somehow they don't sound
+friendly.  It is probably wise to exercise some degree of caution
+here... no telling what you may run into here.
+^
+
+newbee18633 n:newbee18621 e:newbee18634;
+lflags { }
+Another Corner^
+   Well... what is there to say.  More fungus, more weird sounds, and a
+slight breeze from the north.  Bet you want to sign a lease, don't ya...
+^
+
+newbee18634 n:newbee18630 s:newbee18637 w:newbee18633;
+lflags { }
+An Intersection Of Passages^
+   Cold, smelly, and coated with green fungus... just like last week's
+left-overs.  Furthermore you want nothing to do with either, you just
+want out right now.
+^
+
+newbee18635 n:newbee18632 e:newbee18636;
+lflags { }
+A Turn In The Passage^
+   This place is just plain nauseating... it certainly smells as if
+something (or someone) died in here.  You hope you aren't next, but
+from the sounds you hear all around you, it seems as if something has
+other ideas about that.
+^
+
+newbee18636 s:newbee18639 w:newbee18635 e:newbee18637;
+lflags { }
+A Branch To The South^
+   The east-west passage branches of to the south here.  All around you
+is the odour of death.  Actually, the mold and fungus on the walls is
+doing great, but otherwise... well... you don't want to think about what
+else lives here.
+^
+
+newbee18637 n:newbee18634 w:newbee18636;
+lflags { }
+Yet Another Corner^
+   The passage turns here and heads north.  You sense something up ahead
+that way, but you aren't sure what.  You aren't sure if you want to know
+what either at this point.
+^
+
+newbee18638 n:newbee18631 e:newbee18639;
+lflags { Dark }
+A Large Room^
+   You almost stumble as you enter this room... the sudden feeling of no
+walls on either side of you makes you a bit nervous.  Suddenly you are
+vulnerable on all sides.  You can't even tell how big a room this is,
+because it extends to the east farther than you light will reach...
+^
+
+newbee18639 n:newbee18636 w:newbee18638;
+lflags { Dark }
+A Large Room^
+   As you enter, you light glints of the wall to the east.  There appears
+to be words scrawled on the &+Gwall&*, and a crude picture.  To the west the
+room extends beyond the reach of your light, and the dark shadows make you
+paranoid... anything could be hiding there.  You are painfully aware of
+how exposed you are without walls around you.
+^
+
+newbee18640 s:newbee18644 e:newbee18641;
+lflags { }
+The Statue's Room^
+   Here, the passage enters a small room.  Exits lead to the east and south,
+and you notice a wonderful, large (and tastefully done) &+Cstatue&* to the north.
+^
+
+newbee18641 w:newbee18640 e:newbee18642;
+lflags { }
+The Hallway^
+   As you continue wandering down the hallway, you notice banners,
+pictures, and other fine decorations adorning the walls all along
+this passage.  It seems very different from the dismal passage where
+you entered.
+^
+
+newbee18642 s:newbee18647 w:newbee18641 u:newbee18643;
+lflags { }
+The North Stairs^
+   Here, the hall opens into a wide room, with a high domed roof.  Now that
+that you have come clear of the enclosed passage, you can see that the &+Gstair
+leads upward to an open air balcony overlooking the area.  To the south the
+room continues, and another stair is visible matching the one in front of
+you.
+^
+
+newbee18643 s:newbee18645 d:newbee18642;
+lflags { }
+The Balcony^
+   Here you can look out and observe the world around.  Constructed in a
+semi-circle around the dome of the room, the balcony allows you to look
+out in almost any direction.  Wandering to the north end, you can see the
+the valley to the north, and a village to the east.
+^
+
+newbee18644 n:newbee18640 s:^door_newbee18603_s;
+lflags { }
+A Bright Hallway^
+   Wow!  What a change from the dismal passage to the south.  Whoever
+keeps this room up must really like newbies.  The walls and floor are
+clean, and tastefully decorated.  You also notice an interesting design
+on the &+Cfloor&*.
+^
+
+newbee18645 n:newbee18643 d:newbee18647;
+lflags { }
+The Balcony^
+   Here you can look out and observe the world around.  Constructed in a
+semi-circle around the dome of the room, the balcony allows you to look out
+in almost any direction.  Wandering to the south end, you can see the great
+southern desert, and to the west, a vast mountain range.
+^
+
+newbee18646 w:^door_newbee18603 e:newbee18647;
+lflags { }
+A Bright Hallway^
+   Wow!  What a change from the dismal passage to the west.  Whoever keeps
+this  room up must really like newbies.  The walls and floor are clean, and
+tastefully decorated.  You also notice an interesting design on the &+Cfloor.
+^
+
+newbee18647 n:newbee18642 s:newbee18604 w:newbee18646 u:newbee18645;
+lflags { }
+The South Stairs^
+   Here, the hall opens into a wide room, with a high domed roof.  Now that
+that you have come clear of the enclosed passage, you can see that the &+Gstair
+leads upward to an open air balcony overlooking the area.  To the north the
+room continues, and another &+Gstair&* is visible matching the one in front of
+you.
+^
+

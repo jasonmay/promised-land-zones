@@ -1,0 +1,1892 @@
+/* (NOTE: I am not sure if the whole thing works like it is supposed to, this being the 
+   only thing I have ever coded. Just warning you.  By Brynhild.)*/
+
+
+
+
+
+
+%mobiles
+
+Name	      = Nasnath
+Location    = Brookmere1
+SFlags      { Female }
+EFlags      { Cripple }
+PFlags      { NoHassle NoMagic }
+Strength     = 150
+Damage      = 10
+Armor         = 0
+Speed          = 0
+Description = "Nasnath the pacifist gnoll sits here."
+Examine     = "
+Nasnath is one of the race of mountain dwellers called gnolls, cousins to the 
+goblins and orcs. Gnolls are the slightest of the three, being hardly bigger 
+than a man, but are also the cleverest, possesing some crude magic that 
+enables them to compete with the other two. Nasnath signed up for their army 
+to learn combat charms, but hates violence of any kind and refuses to attack 
+anything. The only reason she is here guarding the entrance to Brookmere is 
+that no-one ever visits this bleak part of the forest anyway - except you of 
+course."
+End	    = Nasnath
+
+Name        = Taurig
+Location    = Brookmere14
+MFlags      { Cross }
+Strength    = 150
+Damage      = 9
+Armor       = 0
+Aggression  = 0
+Speed       = 0
+Description = "Taurig the goblin is here, looking bored."
+Examine     = "
+Taurig is a goblin, member of the most notorious of the three races of 
+mountain dwellers called orcs, goblins and gnolls.  Hobgoblins are not, as 
+one might think, a derivative of this race, but the collective name given to 
+all three. Goblins are less reclusive than the orcs or gnolls and were the 
+first of the three to emerge in the world of men.  When the orcs and gnolls 
+appeared later they were given the same name, which evolved to 'hobgoblin'.
+
+Taurig is extremely bored right now - he wants to get back to the goblin 
+guardroom and finish his dinner. Instead he has to hang around here, 
+listening to Rooke whining about the orcs and gnolls." 
+End         = Taurig
+
+Name        = Rooke
+Location    = Brookmere14
+MFlags      { Cross }
+Strength    = 150
+Damage      = 9
+Armor       = 0
+Aggression  = 0
+Speed       = 0
+Description = "Rooke, a goblin guard, is complaining about his share of plunder."
+Examine     = "
+Rooke is annoyed about having to share his less than adequate portion of 
+Brookmere booty with the orcs and gnolls. He is complaining about them now, 
+grumbling '...don't see why we had to drag THEM along anyway, they're just 
+holding US back. If I were in charge...' Hmmm, the allies are obviously not 
+as friendly as their generals would like to think."
+End         = Rooke
+
+Name        = Kurak
+Location    = Brookmere14
+MFlags      { Thief }
+Strength    = 150
+Damage      = 8
+Armor       = 0
+Aggression  = 5
+Speed       = 15
+Description = "Kurak is here looking sulky."
+Examine     = "He looks like a moody sort of gnoll, with a face as sour as an unripe lemon."
+End         = Kurak
+
+Name        = Swart
+Location    = Brookmere15
+MFlags      { Cross }
+Strength    = 200
+Damage      = 13
+Armor       = 0
+Speed       = 0
+Description = "Swart, an orc guard, is here mumbling something about crummy goblins."
+Examine     = "
+Swart is an orc, orcs being the largest of the three races now inhabiting Brookmere. 
+The goblins and gnolls think them slow and dull, but what they lack in 
+cunning they make up for in brute strength. 
+
+As you come closer you hear Swart mutter 'crummy goblins, no fair goblins, 
+goblins fink they're so tricksy...' "   
+End         = Swart
+
+Name        = Frang
+Location    = Brookmere18
+MFlags      { Cross }
+Strength    = 270
+Damage      = 15
+Armor       = 0 
+Aggression  = 55
+Speed       = 0
+Description = "Frang, Render Of Flesh, sees you and begins to attack."
+Examine     = "This is a large, chunky, very mean orc killing machine! "  
+End         = Frang
+
+Name        = Grout
+Location    = Brookmere26
+MFlags      { Cross }
+Eflags { Deaf }
+Strength    = 150
+Damage      = 10
+Armor       = 0
+Aggression   = 6
+Speed       = 7
+Description = "Grout the gnoll is lurking here."
+Examine       = " Grout nuzzles his drink and glances up at you with a sinister air."
+End         = Grout
+
+Name        = Murguth
+Location    = Brookmere26
+MFlags      { Cross }
+Strength    = 170
+Damage      = 11
+Armor       = 0
+Aggression   = 8
+Speed       = 7
+Description = "Murguth the goblin is glowering here."
+Examine     = "
+Murguth's name is actually Murgus, but his lisp, caused by an unfortunate 
+harelip, has led to his current nickname."
+End         = Murguth
+
+Name        = Lug
+Location    = Brookmere48
+MFlags      { Cross NoGrab}
+Strength    = 180
+Damage      = 12
+Armor       = 0
+Aggression  = 0
+Speed       = 0
+Description = "Lug is here ogling the orc - pinups in a girly magazine."
+Examine     = "
+Lug is what you might call `mentally challanged'. Of course, orcs aren't 
+known for their mental prowess generally, but Lug is exceptional. Even other 
+orcs call him slow!"
+End         = Lug
+
+Name       = Sprak
+Location  = Brookmere31
+Mflags     { Cross Venom }
+Strength    = 90
+Damage     = 7
+Armor       = 0
+Aggression  = 55
+Speed         = 0
+Description = "Sprak the shortsighted spider thinks you are a moth that has flown into his web."
+Examine     = "Sprak is a fairly small, mildly poisonous spider who is missing a leg."
+End            = Sprak
+
+%objects
+
+Name        = fungus
+Location    = IN_ROOM:Brookmere9
+OFlags      { Food GetFlips }
+BValue      = 0
+Size        = 1
+Weight      = 1
+State       = 1
+MaxState    = 1
+Desc[1]     = "Some green fungus is growing here."
+Desc[0]     = "Some green fungus lies here."
+Examine     = "Looks edible - sort of." 
+End         = fungus
+ 
+Name        = fork
+Location    = IN_ROOM:Brookmere23
+OFlags      { GetFlips}
+BValue      = 13
+Size        = 2
+Weight      = 1
+State       = 1
+MaxState    = 1
+Desc[1]     = "An ordinary, two - pronged fork is stuck into a potato here." 
+Desc[0]     = "A funny looking fork lies here."
+Examine     = "
+At first glance this seems like an ordinary fork, but there's something odd 
+about it you can't quite put your finger on. Glancing at the end however,
+you realise this is in fact a very unusual fork. At the handle it looks like 
+it has two prongs, but at the end it appears to have three!"
+End         = fork
+
+Name        = dinner
+Location    = IN_ROOM:Brookmere23
+OFlag       { Food }
+BValue      = 0
+Size        = 4
+Weight      = 3
+Desc[0] = "Someone has left his dinner here."
+Examine     = "A standard rank-and-file goblin army issue meal."
+End         = dinner
+
+Name        = boots
+Location    = IN_ROOM:Brookmere12
+BValue      = 17
+Size        = 6
+Weight      = 4
+Desc[0]     = "These boots look like they haven't seen the light of day for a long time."
+Examine     = "
+They look way too big to be of any use to you, but the fine leatherwork makes 
+you think any plunderer would be glad to count them as part of his booty."
+End         = boots
+
+Name        = duster
+AltName     = feather
+OFlags      { GetFlips Cross }
+Location    = IN_CONTAINER:stonestore
+BValue      = 15
+Size        = 3
+Weight      = 2
+Desc[0] = "This feather duster has been left here to gather....well, dust."
+Examine     = "
+More than anything else goblins and orcs fear cleanliness and cleaning 
+implements.  This pink feather duster may look harmless enough to you, but 
+orcs and goblins would avoid it at all costs. "
+End         = duster
+
+Name        = stonestore
+AltName     = store
+OFlags      { NoGet Openable Container GetFlips}
+Location    = IN_ROOM:Brookmere17
+State       = 1
+MaxState    = 1
+Size        = 50
+/* OpenText    = "The lid is heavy, but you manage to get the stonestore open."
+  CloseText   = "You pull the lid down and let it fall into place with a bang."
+*/
+Desc[0]     = "The lid of a stone storage space is set into the wall here."
+Examine     = "
+This stone storage space must have been built into the wall of the original 
+tunnel, which has since been fortified with earth by the hobgoblins."
+End         = stonestore
+
+Name        = chest
+OFlags      { Lockable Openable NoGet Container }
+Location    = IN_ROOM:Brookmere48
+Size        = 20
+State       = 2
+MaxState    = 2
+
+Desc[0]     = "An old battered chest sits here."
+Desc[1]     = "An old battered chest sits here."
+Desc[2]     = "An old battered chest sits here."
+Examine     = "You see a faded label on the lid:
+ 		LUGS STUF - KEP OWT!"
+End         = chest
+
+Name        = chestkey
+AltName     = key
+Oflags      { GetFlips Key Unlocatable }
+BValue      = 5
+Size        = 1
+Weight      = 1
+State       = 1
+MaxState    = 1
+Location    = IN_ROOM:Brookmere42
+Desc[0]     = "A scratched old key lies here."
+Desc[1]     = "Something shiny is half-buried in the silt at the edge of the river."
+Examine     = "This chestkey has the letters L U G scratched into it."
+End         = chestkey 
+
+Name        = goblin_cloak
+Pname       = cloak
+Oflags      { Wearable Armor }
+Armor       = 18
+AFlags      { Chest Head Arms Legs Back }
+Location    = IN_ROOM:Brookmere15
+Bvalue        = 5
+Size        = 5
+Weight      = 4
+Desc[0] = "An old and dirty goblin cloak is laying here."
+Examine     = " 
+It looks horrible and smells worse, but maybe you can pass yourself off as a 
+small goblin with it in bad light."
+End         = goblin_cloak
+
+Name        = goblin_helmet
+Pname       = helmet
+Oflags      { Wearable Armor GetFlips }
+Armor       = 23
+Aflags      { Head Face }      
+Location    = IN_ROOM:Brookmere15
+Bvalue       = 4
+Size        = 4
+Weight      = 3
+State       = 1
+MaxState    = 1
+Desc[0]     = "An old dented goblin helmet is laying here."
+Desc[1]     = "A dented goblin helmet hangs on the wall."
+Examine     = "A typical goblin helmet, made of metal with iron rivets and a noseguard on 
+the front."
+End         = goblin_helmet
+
+Name        = glasses
+Oflags      { Wearable Armor }
+Armor       = 5
+Aflags      { Face }      
+Location    = IN_CONTAINER:chest
+Bvalue      = 15
+Size        = 1
+Weight      = 1
+Desc[0] = "A pair of glasses have been dropped here."
+Examine     = " 
+Wearing these glasses hurts your eyes, so you'd better not wear them unless 
+you really need to. After all, they weren't made for you. They belong to Lug, 
+who needs these glasses to read - if he could read at all. Generally he just 
+uses them to see things more clearly. Perhaps they might serve a similar 
+purpose for you? "
+End         = glasses
+
+Name        = torch
+Oflags      { Lit NoGet }
+Location    = IN_ROOM:Brookmere13
+Desc[0]     = "A burning torch flickers in a torch bracket."
+Examine     = "Well, its made of wood and some combustion of the wood and air is happening 
+at the end."
+End         = torch
+
+Name        = fish
+Oflags      { NoGet }
+Location    = IN_ROOM:Brookmere8
+Examine     = "
+Trying to catch any of these fish to eat would be a bad idea as they are almost 
+certainly very unhealthy for you. They don't even look healthy themselves."
+End         = fish
+
+Name        = salamanders
+Oflags      { NoGet }
+Location    = IN_ROOM:Brookmere8
+Examine     = "
+Salamanders look ugly enough when viewed outdoors; they look absolutely 
+horrible underground in the greenish glow of who-knows-what."
+End         = salamanders
+
+Name        = table
+OFlags      { NoGet }
+Location    = IN_ROOM:Brookmere11
+Desc[0] = "A wobbly table has been placed here."
+Examine     = "It has a rough top and uneven legs. A lump of cheese has been placed on it."
+End         = table
+
+Name        = cheese
+OFlags      { Food GetFlips }  
+Location    = IN_ROOM:Brookmere11
+State        = 1
+MaxState = 1
+Bvalue     = 3
+Size        = 2
+Weight      = 2
+Desc[0]      = "A lump of good cheese has been thoughtlessly left here."
+Examine     = "A lovely pale yellow, this cheese looks smooth and creamy."
+End         = cheese
+
+Name        = stool
+Location    = IN_ROOM:Brookmere11
+OFlags      { Weapon }
+Damage      = 7
+Bvalue      = 3
+Size        = 5
+Weight      = 4
+Desc[0] = "A rather chunky stool squats here."
+Examine     = " 
+Of rough goblin workmanship, this stool is very solid and looks better for 
+hitting people with than for sitting on."
+End         = stool
+
+Name        = backing
+Location    = IN_ROOM:Brookmere12
+OFlags      = { NoGet }
+State = 1
+Maxstate = 1
+Linked = warped_mirror
+Desc[1]     = "The end of the tunnel appears to be blocked by some kind of backing"
+Desc[0]     = "Shards of glass are scattered around an opening leading northwards."
+Examine     = "It appears to be made of sackcloth. What could it be backing onto?"
+End         = backing
+
+Name        = mantle
+OFlags      { NoGet }
+Location    = IN_ROOM:Brookmere14
+Desc[0] = "A large wooden mantle lies in the corner."
+Examine     = "
+You kick at the mantle and idly read some of the graffiti scratched into it. 
+One part says:
+        	'Goblins rule, Orcs drool, Gnolls too!' 
+In the background you can hear the goblins complain about how it was their 
+room in the first place. It suddenly dawns on you that this room must have 
+been destroyed in an ARGUMENT between the gnolls, orcs and goblins over the 
+use of the room. You shudder to think what would happen if  battle broke out 
+between the three of them - the whole place would come crashing down around 
+their ears probably."
+End         = mantle
+
+Name           = waterfall_door
+PName         = sandstone
+Altname       = door
+OFlags         { NoGet Openable }
+Location        = IN_ROOM:Brookmere18
+State            = 1
+MaxState     = 1
+Linked         = waterfall_door2
+Examine      = "A large block of sandstone has been hinged here behind the waterfall to make 
+a secret door. "
+End              = waterfall_door
+
+Name        = waterfall_door2
+PName       = sandstone
+Altname     = door
+Oflags      { NoGet Openable }
+Location    = IN_ROOM:Brookmere54
+State       = 1
+MaxState    = 1
+Linked      = waterfall_door
+Desc[1]     = "The end of the tunnel appears to be blocked by a large lump of sandstone."
+Desc[0]     = "A large block of sandstone has been moved aside from the end of the tunnel, 
+allowing passage east."
+Examine     = "Upon closer inspection you find that the stone is actually hinged on the rock 
+wall, making a door."
+End         = waterfall_door2
+
+Name        = waterfall
+OFlags      = { NoGet }
+Location    = IN_ROOM:Brookmere18
+Examine     = "
+The waterfall is truly magnificent; a miracle of Mother Nature. You run your 
+hand over the stony drops of water and marvel to think how many centuries 
+went into the creation of these frozen falls. But although it does look 
+spectacular, you can't help thinking that a living, moving waterfall is far 
+superior.  Underneath the arc of the waterfall you spy a large chunk of 
+&+Csandstone&* that seems out of place."
+End        = waterfall
+
+Name       = throne
+OFlags     { NoGet }
+Location   = IN_ROOM:Brookmere18
+Desc[0] = "The throne is very imposing, set high up on the waterfall."
+Examine    = "
+You climb up a steep set of steps rising up the wave to the throne. It has 
+been skillfully and intricately carved out of a single block of red granite 
+and polished until it shines. The orcs dragged it down here from the castle 
+proper before it was burned to the ground. Leaning against one carved arm is 
+a rather grubby &+Rred cushion&* for the comfort of the occupier."
+End        = throne
+
+Name        = cushion
+PName       = cushion
+Altname     = pillow
+Location = IN_ROOM:Brookmere18      
+OFlags      { Container }
+BValue      = 15
+Size        = 32
+Weight      = 4
+Examine     = " 
+This cushion can't have been very comfortable. There is a big hole in it and 
+nearly all the stuffing has fallen out. This of course means that other stuff 
+can be put into it."
+End         = cushion
+
+Name        = solid_door
+PName       = door
+Altname     = door
+OFlags      { Openable NoGet }
+Location    = IN_ROOM:Brookmere21
+Linked      = solid_door2
+State       = 1
+MaxState    = 0
+/* OpenText    = "As you push open the door and noise invades the room, one of the gnolls turns over and calls out sleepily 'Trong, if you have to relieve yourself can you at least shut the door when you go?'"
+CloseText   = "You pull the door shut, immediately cutting off all noise from the other room." */
+Desc[1]     = "A solid door blocks any noise that may be coming from the room beyond."
+Desc[0]     = "The door to the next room has been opened, letting in all the noise."
+End         = solid_door
+
+Name        = solid_door2
+PName       = door
+AltName     = door
+OFlags      { openable NoGet }
+Location    = IN_ROOM:Brookmere26
+Linked      = solid_door
+State       = 1
+Maxstate    = 0
+Desc[1]     = "A solid door blocks any leakage of noise or goblin from this room to the next."
+Desc[0]     = "The door to the next room stands wide open."
+End         = solid_door2
+
+Name        = slip
+PName       = slip
+Altname     = paper
+OFlags      {  GetFlips }
+Location    = CARRIED_BY:Taurig
+State       = 1
+MaxState    = 1
+Desc[0]     = "A slip of paper has been forgotten here."
+Examine     = "The slip reads:
+			       MESSAGE TO ALL GOBLINS
+We will soon be ready to take over Brookmere and get rid of the meddling orcs 
+and gnolls. Carry weapons at all times and be ready to fight within a moments 
+notice. A signal will be given for the attack through the message pipes - as 
+soon as we figure out how they work.
+
+Gasp! the goblins are planning to turn on their allies! You wonder what these 
+message pipes are - and could they be of any advantage to you?"
+End         = slip
+
+Name        = pipe13
+PName       = pipe
+Altname     = something
+OFlags      { NoGet }
+Location    = IN_ROOM:Brookmere13
+Desc[0]     = "Something is sticking out of the ceiling."
+Examine     = "It appears to be part of a pipe, though what it's doing on the ceiling you 
+can't imagine."
+End         = pipe13
+
+Name        = pipe24
+PName       = pipe
+OFlags      { NoGet }
+Location    = IN_ROOM:Brookmere24
+Desc[0]     = "A small rusted pipe runs along the ceiling here."
+Examine     = "
+At first glance this looked like a water pipe, but the corridor has a low
+roof and putting your ear to the pipe you can't hear any water gurgling. How 
+strange." 
+End = pipe24
+
+Name        = pipe54
+PName       = pipe
+OFlags      { NoGet }
+Location    = IN_ROOM:Brookmere54
+Desc[0]     = "A skinny pipe is bolted to the ceiling here."
+Examine     = "Painted onto the pipe are the letters T O  M E E T G  R M and an arrow 
+pointing west."
+End         = pipe54
+
+Name        = pipe12
+PName       = pipe
+OFlags      { NoGet }
+Location    = IN_ROOM:Brookmere12
+Desc[0]     = "The broken end of a pipe sticks out from behind a beam."
+Examine     = "
+Whatever use it may have had, it is quite useless now. Painted onto the pipe 
+are the letters T O  W  C A V N ."
+End = pipe12
+
+Name        = pipe_end
+Pname       = hole
+AltName     = hole
+OFlags      { NoGet }
+Location    = IN_ROOM:Brookmere25
+Desc[0]     = "There is a curious hole in the wall near the ceiling."
+Examine     = "Looking closer you see some piping sticking out of it."
+End         = pipe_end
+
+Name        = pipe49
+PName       = pipe
+OFlags      { NoGet }
+Location    = IN_ROOM:Brookmere49
+Desc[0] = "A pipe emerges from the wall and crosses the ceiling in front of you."
+Examine     = "Painted on the pipe are the letters T O  T H R O N  R M ."
+End         = pipe49
+
+Name        = shield
+Oflags       { NoGet }
+Location    = IN_ROOM:Brookmere23
+Examine = "Yuck! You don't want to use that! it's covered with squashed peas and gravy!"  	
+End            = shield    
+
+Name        = goblin_bulletin_board
+Pname        = board
+AltName        = board
+Oflags        { NoGet }
+Location = IN_ROOM:Brookmere23
+Examine    = "
+There isn't much to speak of on this bulletin board; a calendar, an 
+advertisment for a slightly used size 4 helmet, some silly cartoons and a 
+notice saying ` MEETING TONIGHT, 9 O'CLOCK'  signed Taurig."
+End            = goblin_bulletin_board
+
+Name        = gnoll_bulletin_board
+Pname       = board
+AltName   = board
+Oflags         { NoGet }
+Location = IN_ROOM:Brookmere25
+Examine      ="Amidst the layers of paper you find a note reading:
+			ATTENTION GNOLLS
+We will soon be ready to take over Brookmere and get rid of the foolish orcs 
+and goblins. Practice your combat charms and be ready to attack at a moments 
+notice.  A signal will be given through the message pipes - as soon as we 
+figure out how to use them.
+
+Hmmm, so the gnolls are planning to take over Brookmere. What are those 
+message pipes?"
+End           = gnoll_bulletin_board
+
+Name        = wooden_door
+Pname      = door
+AltName   = wooden
+Oflags         { NoGet Openable }
+Location     = IN_ROOM:Brookmere26
+Linked      = treasure_door
+State         = 1
+MaxState = 0
+Desc[1]      = "There is a huge wooden door on the east wall."
+Desc[0]      = "There is a huge wooden door open on the east wall."
+End          = wooden_door
+
+Name      = treasure_door
+Pname      = door
+Altname     = door
+Oflags       { Openable NoGet }
+Location     = IN_ROOM:Brookmere27
+Linked       = wooden_door
+State          = 1
+MaxState   = 0
+Desc[1]      = "There is a huge wooden door on the west wall."
+Desc[0]     = " A large wooden door opens out onto the common room."
+End           = treasure_door
+
+Name        = dice
+Altname = die
+Size          = 1
+Weight     = 1
+Bvalue      = 17
+Location     = IN_ROOM:Brookmere27
+Desc[0]     = "Some dice lie here."
+Examine     = "Die is the singular, dice is plural, so you have here TWO white cubes with 
+black dots on them."
+End           = dice
+
+Name        = cards
+Altname = card
+Size           = 1
+Weight      = 1
+Bvalue       = 20
+Location        = IN_ROOM:Brookmere27
+Desc[0] = "A discarded hand from a game of Blackjack has been scattered here."
+Examine     = "
+A ten, Jack, Queen, King and Ace of Spades - a royal flush. You wonder if the 
+holder of this hand won the deal."
+End           = cards
+
+Name         = schooner
+Oflags        { Food Alcohol}
+Size           = 2
+Weight      = 2
+Bvalue       = 2
+Location     = CARRIED_BY:Grout
+Desc[0] = "That schooner of beer looks nice and cold."
+End            = schooner
+
+Name          = wall
+Oflags         { NoGet }
+Location      = IN_ROOM:Brookmere17
+Desc[0] = "Part of the wall has been badly damaged."
+Examine     = "Dusting away some of the earth from the wall you find the lid of a stone store."
+End             = wall
+
+Name          = footprints
+Oflags         { NoGet }
+Location      = IN_ROOM:Brookmere54
+Desc[0]  = "Some muddy footprints have tracked themselves along the floor."
+Examine       = "
+Using your expert tracking skills you deduce from the footprints that a group 
+of rather large creature wearing boots came by here recently, and that they 
+were going west.  There are no footprints going back the other way, so 
+whatever passed here is probably still hanging around, maybe just around the 
+corner. Is it safe to continue?"
+End              = footprints
+
+Name          = head
+Pname         = head
+Altname      = shovel
+Oflags         = { Wearable Armor GetFlips Shield }
+Armor         = 24
+Location       = IN_ROOM:Brookmere13
+Size              = 4
+Weight         = 4
+Bvalue         = 6
+State            = 1
+MaxState     = 1
+Desc[1]        = "This shovel is encrusted with mud."
+Desc[0]        = " The metal head of an old shovel has been dumped here."
+Examine       = "
+This shovel was evidently not very well made. The metal head has fallen 
+completely off the handle! However it is undamaged, and quite big. Maybe you 
+could use it as a shield?"
+End               = head
+
+Name           = wax
+Oflags           { NoGet }
+Location      = IN_ROOM:Brookmere22
+Examine      = " Ouch! That wax is hot!"
+End              = wax
+
+Name           = mirrors
+Location       = IN_ROOM:Brookmere28
+Oflags           { NoGet }
+Examine       = " 
+These mirrors all look exactly the same, but for one with a &+Ccrack&* in it and 
+another that looks slightly &+Cwarped&*. You can see no clear way out of your 
+predicament."
+End              = mirrors
+
+Name           = crack
+Oflags            { NoGet }
+Location      = IN_ROOM:Brookmere28
+Examine       = "
+You wonder how this crackedmirror could have lost a piece of itself. 
+Fingering behind the crack you feel something kind of like a slide."
+End               = crack
+
+Name           = cracked_mirror
+Pname          = crackedmirror
+Altname = cracked
+OFLags        = { NoGet Pushable }
+Location       = IN_ROOM:Brookmere28
+Linked         = cracked_mirror2
+State            = 1
+MaxState     = 1
+Desc[0]        = "A crackedmirror has been pushed aside, revealing an opening north."
+Examine      = "
+It doesn't sit flush with the wall, and there is a crack, wide enough for a 
+finger, near the bottom left hand corner."
+End              = cracked_mirror
+
+Name = cracked_mirror2
+Pname = mirror
+Oflags { Noget }
+Location = IN_ROOM:Brookmere32
+Linked = cracked_mirror
+Maxstate = 1
+State = 1
+End = cracked_mirror2
+
+Name           = warped_mirror
+Pname          = warpedmirror
+Altname       = warped
+Oflags          = { NoGet }
+Location       = IN_ROOM:Brookmere28
+Linked = backing
+State = 1
+Maxstate = 0
+Desc[0] = "Another mirror has been smashed, leaving an opening to the south."
+Examine        = "
+A weakness in the mirror has caused it to bulge in the middle, making the 
+stupid sort of reflections you see in carnival sideshows."
+End            = warped_mirror
+
+Name         = mirrored_door
+Pname        = door
+AltName    = door
+Location     = IN_ROOM:Brookmere28
+Oflags         { NoGet Openable }
+Linked        = other_mirrored_door
+State           = 1
+MaxState    = 0
+Desc[0]       = "A mirrored door is open on the west wall."
+Examine      = " 
+The door is an actual mirror, with a nearly invisible doorknob in the centre. 
+What are you waiting for? Open it!"
+End             = mirrored_door
+
+Name          = other_mirrored_door
+Pname         = door
+Altname      = door
+Location      = IN_ROOM:Brookmere35
+Oflags           { NoGet Openable }
+Linked          = mirrored_door
+State             = 1
+MaxState      = 0
+Desc[1]         = "A funny looking door bars the way east."
+Desc[0]         = "This mirror is currently occupied being a door and leads east."
+Examine        = "The `door' is actually a flat mirror on hinges, not just a door with a mirror 
+hung on it."
+End               = other_mirrored_door
+
+Name            = tapestry
+Pname           = tapestry
+AltName       = hanging
+Location        = IN_ROOM:Brookmere29
+Oflags            { NoGet }
+Desc[0]   = "One tapestry has been spared by the spiders, if not the dust."
+Examine        = " 
+Though dull and muted now, the colours of this tapestry must once have been 
+garish and bright from the dyeing techniques used by the elves. The 
+intricately worked scene depicts a dazzlingly beautiful elf lady in white 
+and silver in front of a homely house.  She is farewelling a host of 
+creatures - elves, dwarves and some smaller people you cannot identify. She 
+is astride a white horse preparing to depart with what appears to be a mortal 
+man. How strange; this tapestry must depict some ancient elf legend."
+End                = tapestry
+
+Name             = instructions
+Pname           = instructions
+AltName       = runes
+Location        = IN_ROOM:Brookmere30
+Oflags            { NoGet Destroyed }
+Examine        = " 
+The runes are some sort of evacuation plan. There is a map showing emergency 
+exits in case of fire, flood, earthquake or invasion and a set of 
+instructions. The instructions read : `On the sounding of the dragon alarm 
+from the throne room all residents of Brookmere apart from soldiers and 
+emergency services will evacuate using the exits indicated and regroup at 
+the secret outpost in the forest. The sounding of the unicorn alarm will 
+indicate that it is safe to return and all residents may do so immediately.' 
+But surely evacuation alarms wouldn't be placed in the throne room, the first 
+place in any castle to be looted? Maybe there is more than one in Brookmere." 
+End               = instructions
+
+Name            = dust
+Oflags           { NoGet }
+Location       = IN_ROOM:Brookmere30
+Linked = dust2
+State = 1
+Maxstate = 1
+Examine       = "The dust is thick and impregnable - its going to take a lot of dusting to 
+get through this!"
+End                = dust                        
+
+Name = dust2
+Pname = dust
+Location = IN_ROOM:Brookmere29
+Linked = dust
+State = 1
+Maxstate = 1
+Oflags { NoGet }
+Examine = "Aaaaachoooooooo!!!"
+End = dust2
+
+Name             = signature
+AltName       = figure
+Oflags           { NoGet }
+Location        = IN_ROOM:Brookmere32
+Examine        = "
+Straining out of the corner of one eye you can see a seated figure staring at 
+a kind of open book. The inside cover has a strange glow, and every so often 
+the figure taps with her fingers at what must be the pages.  The figure looks 
+up and seems to see you.  She turns back to the book, taps furiously for a 
+few seconds then looks up again and points to the floor. Looking down you see 
+the words: `zone by Brynhild' traced in the dust. They remain for a few 
+seconds, then, together with the seated figure, fade away.  How mysterious."
+End               = signature
+
+Name            = wall_hanging
+Pname           = hanging
+Altname        = tapestry
+Oflags            { NoGet }
+Location       = IN_ROOM:Brookmere35
+Examine       = " 
+As you slide by you lean towards the hanging to try and get a closer look, 
+but all you see is a blur of gold and green before you past it by."
+End              = wall_hanging
+
+Name           = package
+Location      = IN_ROOM:Brookmere36
+Bvalue         = 24
+Size              = 6
+Weight         = 5
+Desc[0] = "One package has fallen off the crowded shelves."
+Examine     = "
+This package, like the others, is well sealed. No amount of prising at its 
+folds will undo it. It is a very bulky package, and very heavy. Whatever is 
+in here, you bet it's valuable in one way or another."
+End             = package
+
+Name          = door
+Location     = IN_ROOM:Brookmere36
+Oflags        { Boat GetFlips}
+Bvalue        = 0
+Size             = 12
+Weight        = 3
+State            = 1
+MaxState    = 1
+Desc[1]       = "The door has fallen off its hinges into the room."
+Desc[0]       = "A door has been torn from its hinges and flung into a corner."
+Examine      = "
+You cannot for the life of you see how this door could have fallen off its 
+hinges, since both it and its hinges are in good repair. The door looks 
+strong and sturdy, though when you lift one corner it feels very light. It 
+would do good service as a raft if you were ever to need one."
+End             = door
+
+Name          = triangle
+Oflags         { Unlocatable Key }
+Bvalue        = 13
+Size             = 1
+Weight        = 1
+Location      = IN_ROOM:Brookmere36
+Desc[0] = "A small wooden triangle frame stands on one shelf."
+Examine      = "
+It is constructed in such a way that the inside becomes the outside and the 
+outside becomes the inside. Looking at it gives you a headache."
+End             = triangle
+
+Name          = hole
+Oflags         { NoGet }
+Location      = IN_ROOM:Brookmere40
+Examine     = " 
+Although from your side the hole feels perfectly smooth, putting your hand 
+around the rim you feel only jagged edges and sharp rocks. The hole is 
+underwater, so if you wish to get through it you will have to swim."
+End              = hole
+
+Name           = moss
+Location      = IN_ROOM:Brookmere43
+Oflags          { NoGet }
+Desc[0]  = "The moss grows very thickly just here."
+Examine       = "The moss is cool, thick and soft - so soothing when you rest your cheek 
+upon it."
+End               = moss
+
+Name            = north_door
+Pname = north
+Altname = door
+Location       = IN_ROOM:Brookmere45
+Oflags           { NoGet Openable }
+Linked           = north_door2
+State              = 1
+MaxState       = 0
+Desc[0]          = "The door to the north is rusted half open."
+Examine        = "
+The door is wooden and perfectly square. It swings on iron hinges which have 
+turned orange from rust."
+
+End               = north_door
+
+Name             = north_door2
+Pname = door
+Location        = IN_ROOM:Brookmere46
+Oflags           { Noget }
+Linked           = north_door
+State              = 1
+MaxState       = 0
+Desc[0]          = "The hinges on the door to the south have rusted, leaving the door stuck half 
+open."
+Examine        = "The door is wooden and perfectly square. It swings on iron hinges turned
+orange from rust."
+End               = north_door2
+
+Name            = chests
+Location       = IN_ROOM:Brookmere46
+Oflags           { NoGet }
+Examine       = " 
+The chests are every size and shape you can think of, stolen from as many 
+different castles. Big iron bound chests, wooden barrel-shaped ones, small 
+ones with leather lids, antiquated family heirlooms with brass nameplates on 
+the front. The only thing they all have in common (apart from a lock) is 
+that they all look rather the worse for wear after being dragged across the 
+countryside by their owners."
+End              = chests
+
+Name           = south_door
+Pname = south
+Altname = door
+Location      = IN_ROOM:Brookmere45
+Linked = south_door2
+Oflags           { Openable NoGet }
+State            = 1
+MaxState     = 0
+Examine      = "
+The door is wooden and perfectly round. It swings on steel hinges that have 
+resisted any corrosion over the years."
+End              = south_door
+
+Name           = south_door2
+Pname = door
+Location      = IN_ROOM:Brookmere47
+Linked = south_door
+Oflags          { Openable NoGet }
+State            = 1
+MaxState     = 0
+Examine      = "
+The door is wooden and perfectly round. It swings on steel hinges that have 
+resisted any corrosion over the years."
+End              = south_door2
+
+Name           = brick_wall
+Pname         = wall
+AltName     = hole
+Location      = IN_ROOM:Brookmere51
+Oflags          { NoGet }
+State             = 2
+MaxState     = 0
+Linked          = brick_wall2
+
+Desc[0]       = "A false wall has been swung open revealing a secret room."
+Desc[1]       = "A brick has fallen out of the wall, revealing a triangle-shaped hole in 
+it's place."
+Examine       = "
+Putting your hand to the wall, you are surprised to find that it doesn't 
+feel cold like the other stone walls. One of the bricks seems loose."
+End               = brick_wall
+
+Name            = brick
+Location        = IN_ROOM:Brookmere51
+Oflags           { NoGet }
+Examine       = "
+You poke and pry at the mortar surrounding the brick, trying to prise it 
+loose.  Suddenly it slips from its place and falls to the floor, with a 
+mini - avalanche of not mortar, but plaster. Where the brick was, you see 
+a small, triangle shaped hole."
+End              = brick
+
+Name            = brick_wall2
+Pname          = door
+Altname        = door
+Oflags          {Openable NoGet }
+Location   = IN_ROOM:Brookmere52
+Linked         = brick_wall
+State            = 2
+MaxState     = 0
+Desc[0]       = "An open door leads west."
+Desc[1]      = "The door bars the way west."
+Desc[2]      = "A locked door bars the way west."
+Examine     = "It's just a door for goodness sake!"
+End             = brick_wall2
+
+Name          = block
+Pname        = block
+AltName     = marble
+Location     = Brookmere53
+Oflags         { NoGet }
+Examine     = "
+The block and its pillars look like they were cut from the same block of 
+marble that yielded Orobius' throne. Scratched into the surface are the 
+letters `T O  A L R M S'."
+End             = block
+
+Name          = arrow55
+Pname         = stairs
+Altname      = stairs
+Oflags          { NoGet }
+Location      = IN_ROOM:Brookmere56
+Examine      = "
+The stairs are smooth and well worn, but on the wall, close to the ground, 
+you find a small arrow inscribed, pointing upwards."
+End             = arrow55
+
+Name          = arrow55B
+Pname         = stairs
+AltName    = stairs
+Oflags        { NoGet }
+Location     = IN_ROOM:Brookmere56B
+Examine     = "
+The stairs are clean and unscuffed, but in the shadow of a riser you spy a 
+small arrow scratched into the stone, pointing north."
+End             = arrow55B
+
+Name         = arrow55C
+Pname         = stairs
+AltName    = stairs
+Oflags        { NoGet }
+Location     = IN_ROOM:Brookmere56C
+Examine    = "
+The stairs are blank and uniform, but in a corner you find a small arrow 
+carved into the stone, pointing west."
+End           = arrow55C
+
+Name        = arrow55X
+Pname         = stairs
+AltName    = stairs
+Oflags        { NoGet }
+Location     = IN_ROOM:Brookmere56X
+Examine     = "
+The stairs are dull and monotonus, but on one wall you see a small cross 
+scribed. Its four arms point up, down, east and west."
+End           = arrow55X
+
+Name          = arrow56
+Pname         = stairs
+Altname      = stairs
+Oflags          { NoGet }
+Location      = IN_ROOM:Brookmere55
+Examine      = "
+The stairs are smooth and well worn, but on the wall, close to the ground, 
+you find a small arrow inscribed, pointing downwards."
+End             = arrow56
+
+Name          = arrow56B
+Pname         = stairs
+AltName    = stairs
+Oflags        { NoGet }
+Location     = IN_ROOM:Brookmere55B
+Examine     = "
+The stairs are clean and unscuffed, but in the shadow of a riser you spy a 
+small arrow scratched into the stone, pointing south."
+End             = arrow56B
+
+Name         = arrow56C
+Pname         = stairs
+AltName    = stairs
+Oflags        { NoGet }
+Location     = IN_ROOM:Brookmere55C
+Examine    = "
+The stairs are blank and uniform, but in a corner you find a small arrow 
+carved into the stone, pointing east."
+End           = arrow56C
+
+Name        = arrow56X
+Pname         = stairs
+AltName    = stairs
+Oflags        { NoGet }
+Location     = IN_ROOM:Brookmere55X
+Examine     = "
+The stairs are dull and monotonus, but on one wall you see a small cross 
+scribed. Its four arms point up, down, north and south."
+End           = arrow56X
+
+Name        = sand
+Oflags       { NoGet }
+Location   = IN_ROOM:Brookmere57B
+End           = sand
+
+Name        = goldnuggets
+Pname       = goldnuggets
+Altname    = claim
+Location   = IN_ROOM:Brookmere57B
+Oflags       { GetFlips Destroyed }
+Bvalue      = 40
+Size          = 2
+Weight     = 4
+State         = 1
+MaxState  = 1
+Desc[0]     = "Someone has lost the fruits of their mining claim here."
+Examine    = "
+There are five small gold nuggets in all, none bigger than your fingernail, 
+but all are heavy for their size and untainted with impurities or alloys.  
+You could put a deposit on a nice mansion with these!"
+End           = goldnuggets
+
+Name          = block2
+Pname        = block
+Altname     = marble
+Location     = IN_ROOM:Brookmere4
+Oflags         { NoGet }
+Examine    = "
+This marble block in every way mimics the one in Orobius' workroom, with the 
+exception of some letters carved into its surface that read: `T O  W R K  R M'."
+End             = block2
+
+Name            = bench
+Location       = IN_ROOM:Brookmere4
+Oflags          { NoGet }
+Desc[0]     = "A chunky stone bench occupies the centre of the room."
+Examine      = "
+It is bare but for two buttons, set side by side. One, already depressed, is 
+a &+Rred button&* with the remarkably lifelike image of a dragon on it, the other 
+is &+Ggreen&* with an equally realistic picture of a unicorn."
+End              = bench
+
+Name          = dragon_button
+Pname         = button
+Altname       = red
+Location      = IN_ROOM:Brookmere4
+Oflags          { NoGet }
+End           = dragon_button
+
+
+Name          = unicorn_button
+Pname         = button
+AltName       = green
+Linked        = uni_button2
+Oflags         { Pushable NoGet }
+Maxstate = 1
+State    = 1
+Location      = IN_ROOM:Brookmere4
+End             = unicorn_button
+
+Name = uni_button2
+Pname = button
+Linked = unicorn_button
+Oflags { Noget }
+Location = IN_ROOM:Brookmere5
+End = uni_button2
+                           
+%locations
+
+Brookmere1 n:hills7@caledonia w:hills2@caledonia s:hills8@caledonia d:Brookmere2;
+Lflags { outdoors }
+Ruinous Forest Edge^
+    You stop at the edge of a forest that once ringed a castle and stare in 
+disbelief.  The only thing that still stands is the broken shell of a tower. 
+All else is ruins.  Scattered across the ground are enormous piles of boulders
+and chunks of masonry.  Carved on one such boulder you spy the word
+'Brookmere'. This then must have been the great elven castle of Brookmere,
+or at least it was until it was invaded by the orcs, goblins and gnolls
+from the surrounding lands, forcing the elves to flee. The most noticeable
+feature on the ruined landscape is a wide black hole in the area of the
+castle that once seems to have housed the dungeons of Brookmere.
+^
+Brookmere2 u:Brookmere1 d:Brookmere3;
+Lflags { NoMobiles }
+Gaping Hole^
+    The hole lies in the shadow of the hulking remains of Brookmere's
+watchtower. It looks quite old, as various grasses and weeds have sprung
+up around the rim, obscuring any exposed digging work. The hole leads
+down into the dungeons that the orcs, goblins and gnolls must have made
+their home. Peering down into the wide, gaping maw you see a rockfall
+that would take you down to the dungeon level if you are careful.
+^
+Brookmere3 u:Brookmere2 d:Brookmere7;
+Lflags { }
+Rock Fall^
+    It appears that at some point part of the hole above collapsed, creating 
+a landslide of earth and rocks from the ruin. This is what you are know
+gingerly climbing. Far above you, you can see a faint light and the rim of
+the hole. Below, you can make out the dim outline of a passageway leading
+into the gloom.
+^
+Brookmere4 u:^unicorn_button;
+Lflags { NoSummon Soundproof }
+The Alarms Room^
+    Stepping off the marble block you look around quizzically at your new 
+surroundings. You are in a small, bare stone room, with light coming from 
+somewhere far above. Raising your eyes skyward you discern that you are gazing 
+up the middle of a very long square spiral staircase, though you can't see 
+what is at the top. The bottom step lurks in the shadows to your right, but 
+you are daunted by the height of the stairs and decide against attempting to 
+climb them. Behind you is a &+Cblock of marble&*, identical to the one in Orobius' 
+workroom, that you suppose would take you back there if you stood on it.
+^
+Brookmere5 w:Brookmere6;
+Lflags { Outdoors }
+The Elves of Brookmere^
+    Emerging from the ruins you at first squint in the bright sunlight after 
+having been underground so long. When your eyes have adjusted you look around. 
+Elves in construction hats scurry about investigating the ruins, while nearby 
+in the shelter of the trees you can see the outskirts of an elven campsite, 
+with elf children playing up in the trees. The elves have returned to Brookmere 
+to start anew! Already you notice scaffolding being erected at the far side of 
+the ruin and stone masons trundling blocks of stone around in wheelbarrows. 
+Turning, you look down into the crater that used to harbour the dungeons of 
+Brookmere. You can still see the white block of marble that transported you to 
+the alarm room. Almost unconsiously you kick a stone over the edge of the 
+crater. It bounces down, dislodging more stones and rocks as it goes, until it 
+becomes apparent you have started a landslide. The whole thing lands at the 
+bottom making a lot of noise, and when the dust clears the white block is 
+obscured. The elves look toward the crater briefly, then return to their 
+errands. No-one seems to have noticed the mortal who climbed out of the ruin. 
+Oh well, you are just glad that things have been restored to their rightful 
+order in the world.
+^
+Brookmere6 n:hills7@caledonia w:hills2@caledonia s:hills8@caledonia;
+Lflags { Outdoors }
+Forest Edge^
+    You are standing at the edge of a forest that once ringed a castle. The 
+only thing that still stands now is the broken shell of a tower - all else is 
+ruins - but all that is soon set to change. Elves in construction hats stride 
+industriously all over the ruins and scaffolding is already being constructed 
+around the remnants of the tower. Scattered across the ground are enormous 
+piles of boulders and chunks of masonry. Carved on one such boulder you spy 
+the word 'Brookmere'. The famous Brookmere castle was at one time was occupied 
+by orcs, goblins and gnolls from the surrounding lands, but they have been 
+destroyed and now Brookmere's rightful inhabitants are busy rebuilding their 
+home. You decide not to intrude on them.
+^
+Brookmere7 n:Brookmere49 w:Brookmere8 u:Brookmere3;
+Lflags { Dark }
+Foot of the Rock Fall^
+    At the bottom of the rockfall you almost lose your footing on some
+gravel and utter a whispered curse. Peering into the darkness you can see
+two dark stone tunnels at the foot of the rock fall, one going east, the
+other, north. Looking carefully, you can see a green glow at the end of
+the west tunnel. To the north you can see only darkness.
+^
+Brookmere8 e:Brookmere7 w:Brookmere9;
+Lflags { }
+Corridor^
+    It is cold here under the earth in this stone passageway. Walking is
+difficult as water drips from the walls and collects on the slippery
+stone floor, meaning that you splash softly through the gloom. The green
+glow is brighter at the west end of the corridor. A deep pool of water
+has collected in a dip in the floor and is filled with small blind cave
+&+Cfish&* and pale large-eyed &+Csalamanders.
+^
+Brookmere9 e:Brookmere8 w:Brookmere10;
+Lflags { }
+Ruined Room^
+    You are in a small ruined room, one that must have been wrecked when
+Brookmere was invaded. The stone walls and ceiling have been taken away to
+fortify other parts of the dungeon, so bare earth, threaded through with
+the roots of weeds on the surface, is all that remains. The green glow is
+especially bright here after the dimness of the corridor. The source of
+the glow is an archway at the far end of the room, dripping with a glowing
+green fungus. A bitter smell like rotting mushrooms fills your nostrils.
+Slowly, small pieces of the fungus break off and fall to the floor where
+they collect in a shimmering pool.
+^
+Brookmere10 n:Brookmere11 w:Brookmere12 s:Brookmere43 e:Brookmere9;
+Lflags { Dark }
+Corridor^
+    You find yourself in another corridor, cut roughly out of the earth and 
+supported by rotting timbers. This corridor is unlit by the eerie green glow. 
+The corridor opens to the north into what looks like was once a treasure room. 
+Continuing to the west is a dark decrepit tunnel and to the south is another 
+earthen tunnel.
+^
+Brookmere11 n:Brookmere13 s:Brookmere10;
+Lflags { dark }
+Old Treasure Room^
+    You stand in a room that was once used to store elven treasure before the 
+invasion. There are cracked flagstones on the floor and the walls are black 
+with smoke from the burning of fire and torches.  Any treasure that might
+have lain here has long since been stolen or hidden away. The room now marks 
+the entrance to the only inhabited part of Brookmere and is empty but for
+a small table and a three-leegged stool for the guard. 
+^
+Brookmere12 e:Brookmere10 n:^backing;
+Lflags { Dark NoMobiles }
+Decrepit Tunnel^
+    Enormous boulders, dirt and fallen timers half fill the passageway
+and block your path. This tunnel must have been this way since Brookmere
+fell. You push your way through the rubble and accidentally hit your head
+on a beam - the passage must be far too small for any of Brookmere's
+current inhabitants in this state. The beam shudders and dirt trickles
+down from the ceiling. From the looks of it the tunnel could collapse at
+any time. You decide to get out of it quickly just in case. 
+^
+Brookmere13 s:Brookmere11 w:Brookmere14;
+LFlags {}
+Lighted Corridor^
+    This corridor is well lighted and seems to be heavily traveled.  It
+looks newly dug, indeed it appears that construction is still going on
+with several mud caked shovels lying around. Fortunately the corridor
+twists and turns, and leaves lots of places to hide in to avoid being
+discovered - It must be one of the newer tunnels, built by the orcs, 
+goblins and gnolls, who, although inspired at war and carnage, are less 
+than adequate builders. 
+^
+Brookmere14 n:Brookmere16 w:Brookmere31 e:Brookmere13 s:Brookmere15;
+Lflags { }
+Large Room^
+    You are now in a large room where it looks as if a battle has taken
+place recently. The wall on the far side of the room shows great destruction. 
+Most of the stonework has fallen into the room. Large boulders lie scattered 
+about the floor and the earthen wall is braced with a crisscross of metal
+plates held in place by massive wooden beams. Furniture has been thrown
+about and a great mantle has been thrown down from the fireplace. What on 
+earth happened here?   
+^
+Brookmere15 n:Brookmere14;
+Lflags { dark }
+Cloakroom^
+    This room is no bigger than a good sized cupboard, with bent and
+snapped hooks in a line on one wall. This where the goblins store many of
+their supplies. There are many tattered and rumpled goblin cloaks and
+helmets strewn about.
+^
+Brookmere16 n:Brookmere17 s:Brookmere14;
+Lflags { dark }
+South End of Corridor^
+    This is the beginning of a straight corridor that leads south to a
+large room. The corridor continues onto the north. The corridor was
+obviously damaged in the invasion and has been crudely repaired by the
+invaders. Masonry is propped up with beams and poles, some of which are
+bending under the strain, and the flagstone floor is very lumpy and
+uneven, like an unmade bed. You shake your head at the hobgoblins
+pathetic attempt to render the corridor even serviceable and sigh, 
+remembering the skill of the elves.
+^
+Brookmere17 n:Brookmere18 s:Brookmere16;
+Lflags { }
+Straight Corridor^
+    This straight corridor is lit at intervals by torches. You notice
+that the walls have been greatly damaged and that now they are braced
+with wooden beams. The corridor continues on to the south, where the
+damage is more pronounced, and to the north it opens up into an enormous
+cavern.
+^
+Brookmere18 s:Brookmere17 e:Brookmere19 w:^waterfall_door;
+Lflags { }
+Enormous Cavern^
+    The roof of the cavern flickers in the red light of many torches. The
+walls are known to learned people as ribbon rock, and are striped with
+bands of orange and red.  Stalagmites and stalacties rise and descend out
+of the gloom like huge teeth that look stained with blood from the colour
+in the limestone. Centuries of dripping mineral water have created this
+glittering crystalised room. At the back wall of the cavern a fossilised
+&+Cwaterfall&* hangs in frozen space. A throne sits on the crest of the stone
+wave. Corridors lead east and south out of the cavern.
+^
+Brookmere19 n:Brookmere20 e:Brookmere24 s:Brookmere22 w:Brookmere18;
+Lflags { dark }
+Short Corridor^
+   This rocky corridor is very short - in fact, there is only enough room
+in it for one person before it branches to the north, east and south. An
+exit to the west leads into a cavern.
+^
+Brookmere20 e:Brookmere21 s:Brookmere19;
+Lflags { dark }
+Darkened Corridor^
+    Ouch! You stub your toe on a jagged rock. It's so dark in this 
+corridor you can barely see your hand in front of your face. It leads to
+the south and curves around to the east, where you can see candlelight
+glowing from an open doorway.
+^
+Brookmere21 s:^solid_door w:Brookmere20;
+Lflags { }
+Gnoll Quarters^
+    Cautiously you enter the room, lit only by the soft glow of a candle,
+and stifle a gasp as you see the huddled forms of a dozen or more gnolls! 
+Then, observing that they are all lying horizontally on bunks, you relax,
+realising they are asleep. Gnolls love a snooze, at any time of the day
+or night, and never miss a chance to catch forty winks. All is still, but
+for the quiet breathing of the sleepers, the rise and fall of their
+chests under the covers and the flame of the solitary candle melting in a
+sconce. There is nothing of interest here. You can probably leave without 
+waking anyone if you tiptoe. 
+^
+Brookmere22 n:Brookmere19 e:Brookmere23;
+LFlags { }
+Poorly Lit Corridor^
+    This corridor is only lit by a guttering candle in a sconce at the
+far end, dripping &+Cwax&* onto the floor. It leads to the north and curves
+around to the east, in which direction you can smell some sort of food.
+^
+Brookmere23 n:Brookmere26 w:Brookmere22;
+Lflags { }
+Goblin Guard Room^
+    This is where the goblins hang out when not on duty - the goblin guard 
+headquarters if you will, with a &+Cbulletin board&* hung up behind the door
+for goblin related messages. The place looks and smells absolutely 
+disgusting. The goblins must be in the habit of simply throwing everything
+on the floor when they have finished with it. Mouldy food spews out of a
+cupboard, grubby tunics in lumps on the floor are decaying like piles of
+rotten fruit, several goblin swords have been slung into a corner
+uncleaned of any blood or guts that might still be on them and on the
+table among the remnants of a recent dinner is a &+Cshield&* which has obviously 
+been used as a plate.
+^
+Brookmere24 e:Brookmere25 w:Brookmere19;
+Lflags { Dark }
+Narrow Corridor^ 
+    This corridor is rather quaint and skinny, but so narrow as to be one
+way! It leads east and west.
+^
+Brookmere25 e:Brookmere26 w:Brookmere24;
+Lflags { }
+Gnoll Guard Room^
+    This must be the gnoll guard room, it's so neat and tidy. Helmets hung up, 
+swords put away in the cupboard, dinner cleared off the table and no smell 
+whatsoever. In fact, the only untidy thing about the room is the &+Cbulletin
+&+Cboard&*, which is crammed with notices and messages.
+^
+Brookmere26 n:^solid_door2 e:^wooden_door s:Brookmere23 w:Brookmere25;
+Lflags { }
+Common Room^
+    This room is, in theory, where gnolls and goblins can hang out and
+`get to know each other'. In practice the room is divided by an invisible
+line into gnoll and goblin territory, and no-one crosses the border. Other
+than that, the room is quite inviting, with a large fireplace generating
+lots of heat, stools arranged into groups conducive to a nice chat and the
+faint smell of amber liquid wafting about.
+^
+Brookmere27 w:^treasure_door;
+Lflags { Dark }
+Dungeon Treasure Room^
+    Despite the room being heavily fortified, with thick stone walls and
+door, there is no treasure here - not the usual kind anyway.  This is
+where the goblins and gnolls are supposed to store any treasure or unusual
+objects they find in Brookmere. The generals check this room on their
+rounds every week, in case there is something `dangerous' that needs to be
+taken away for further examination. Of course, the goblins and gnolls know
+what the really means and keep anything they find under their pillows or
+in their lockers instead.  This room has instead become a makeshift
+casino, where any hobgoblin might stake their wages on a game of blackjack
+or gin rummy. Its treasures are the dice and the cards scattered around 
+on the floor.
+^
+Brookmere28 w:^mirrored_door n:^cracked_mirror s:^warped_mirror;
+Lflags { NoSummon CantSummon }
+Long and Narrow Room^
+    This room is long, narrow and...full of mirrors! They panel the roof,
+hang floor to ceiling on the walls and even cover the floor. Every square
+centimetre of the place is covered in a reflective surface. Looking around
+in wonder, you can see yourself reflected a thousand times in every
+direction to infinity. Unfortunately as you entered for the first time the
+door swung shut behind you, revealing another mirror on the back, making
+it impossible to find again. You find yourself trapped in a room of
+seemingly infinite proportions.
+^
+Brookmere29 w:Brookmere28 n:Brookmere30;
+Lflags { Dark }
+Dusty Corridor^
+    This corridor is a lot less dusty than the room to the north, although
+it could still do with a good clean. Tapestries on the walls are obscured
+by a mantle of cobwebs and dust has piled up in drifts along the wall.
+With each step you take a gray cloud erupts under your foot and dust gets
+into your nose, making you sneeze.  To the west you can see an open
+doorway, and something flashes in the dark.
+^
+Brookmere30 n:Brookmere31 s:^dust;
+Lflags { Dark }
+Musty Room^
+    You stride boldly into the room - and then stagger back clutching your
+throat. This room needs a good dusting! The place is choked with the
+stuff and nearly choked you along with it. A thick grey fog seethes around
+the room, particles glowing when they come in reach of your light. The
+&+ydust&* is so thick you cannot see a metre in front of you. Vague shapes here
+and there indicate furniture of some sort, but aside from that and what is
+inside your circle of light, you can see nothing.
+^
+Brookmere31 e:Brookmere14 s:Brookmere30;
+Lflags { Dark NoMobiles }
+Cobwebbed Corridor^
+    Usually the odd cobweb doesn't faze you at all, but walking down this
+corridor you can't help but cringe a little from the hundreds of cobwebs
+that look like they are holding the place together. They plaster the
+walls, hang in tatters from the ceiling and are stitched across every
+corner. With every breath or breeze that escapes you the webs shiver
+ominously, a signal to their occupants. You can only hope they decide to
+ignore you.
+^
+Brookmere32 s:Brookmere28 w:Brookmere33;
+Lflags { }
+Room^
+    This room is fairly nondescript - in fact, it's completely bare. But it 
+is not only bare of any furniture or objects, even the walls, the ceiling and 
+the floor don't look all there.  They look very..well, they are indescribable, 
+apart from being very forgettable. Only by staring hard at the wall does it 
+look solid and real. Otherwise they hover at the edge of your perephiral 
+vision looking vague when you try to see them. Fleetingly you think you see 
+the &+Cfigure&* of a seated person out of the corner of your eye, but the image 
+quickly seuges into nothingness. The room makes you uneasy. It is so 
+forgettable you are in danger of forgetting where you are. Better leave 
+quickly. 
+^
+Brookmere33 n:Brookmere34 e:Brookmere32;
+Lflags { Dark }
+Corridor^
+    Looking down the length of this corridor you see that it tapers off 
+sharply as it goes along. Even the opening you stand at is small. Fighting 
+back claustrophobia you crouch, crawl and finally wriggle you way along, 
+getting scratched and bruised by sharp rocks in the process. Towards the end 
+of the `corridor' you see a luminous green glow, coming from a cave at the 
+very end. This glow is nothing like that produced by the glowing fungus in 
+the wetter parts of Brookmere. It looks ominous and creepy. You have a bad 
+feeling about the cave up ahead. You couldn't say exactly why, but past 
+experience has taught you to trust your intuition.
+^
+Brookmere34 s:Brookmere33 e:Brookmere54;
+Lflags { Death }
+Glowing Cave^
+    Plucking up some courage you walk through an opening and stumble into a 
+meeting of all the hobgoblin generals and officers! Horrified you turn to flee 
+before you are seen. Alas, your foot slips on a smooth rock and you fall, 
+letting out a loud cry, rolling to a stop in the middle of the crowd of 
+hobgoblins. Shaking your head to clear it you see three large, well-armed orcs 
+surrounding you. Chuckling evilly they pick you up, tie you securely, throw 
+you over their shoulders and walk off into the gloom.
+
+    Always trust your intuition....
+^
+Brookmere35 e:Brookmere28 s:Brookmere36 w:Brookmere37;
+Lflags { Dark }
+Smooth Corridor^
+    Stepping out into the corridor you find that there is no need to put a 
+second foot down as you are sliding along the floor on one foot! The floor is 
+so smooth and polished that the gentlest push will send you from one end of 
+the corridor to the other. Gliding along you see a wall &+Changing&* that you would 
+very much like to examine, but when you put your hand to a wall to stop 
+yourself your fingers slip right off! The only thing you can grab hold of is 
+the doorway of what looks like a supply room. From here you can take a proper 
+look at the room at the other end of the corridor, or turn back and go the 
+other way. Looking through the doorway of the room at the west end of the 
+corridor you can see steps leading down. To the east is a smooth door.
+^
+Brookmere36 n:Brookmere35;
+Lflags { Dark }
+Supply Room^
+    This supply room is very well stocked, the shelves groaning under the 
+weight of packages of food and things like soap and tallow candles. 
+Unfortunately all the packages are well sealed, by normal means or magic you 
+couldn't say, and they are impossible to open.
+^
+Brookmere37 n:Brookmere35 s:Brookmere38 d:Brookmere55 e:Brookmere55X w:Brookmere56X u:Brookmere56;
+Lflags { }
+The Stairs^
+    You stand at the top of some shallow, neatly carved, geometric stone 
+steps, that lead down and to the east in a square spiral out of sight. There 
+are also steps that come down to your level from the west, before joining the 
+steps going down. Oddly enough, despite the fact that it isn't particularly 
+dark in here you can't tell where either set of steps lead. A step on these 
+steps would be a step into the unknown... There is also a narrow balcony 
+leading around the perimeter of the stairs to an opening leading south, from 
+which you can feel a slight breeze.   
+^
+Brookmere38 n:Brookmere37 w:Brookmere39;
+Lflags { Dark }
+Damp Corridor^
+    Judging from this corridor you are nearing some body of water. The 
+walls feel cold and damp, even more so than is usual underground, and water 
+drips through the ceiling in numerous places, collecting in just as many 
+puddles. A light breeze blows from the west and brings with it the smell of 
+water and earth. The corridor continues on to the wetter west and back to the 
+dryer north.
+^
+Brookmere39 e:Brookmere38 w:Brookmere40;
+Lflags { Dark }
+Soggy Corridor^
+    The corridor is a good deal wetter here, and much less pleasant that the 
+corridor to the north. Black water drips fast from the walls and ceiling. You 
+sense you are descending as the water on the floor is now ankle deep. A strong 
+breeze blows, a threat to any flame. The air is damp and uncomfortable, and 
+your hair is limp as it soaks up the moisture in the air.  Gloomily you splash 
+onwards, downhill to the west or uphill to the east.
+^
+Brookmere40 e:Brookmere39;
+Lflags { Dark Soundproof }
+Wet Corridor^
+    The black corridor winds on endlessly, down into the earth. Cold and 
+miserable, any flame you had reduced to a bluish dot, you struggle on, wet to 
+the waist. Suddenly you are aware of a roaring noise that must have been with 
+you down the whole corridor. The tunnel ends suddenly, and you realise the 
+water in the corridor has become quite turbulent. Looking under a nob of rock 
+you find a small &+Chole&* underwater, that looks like it leads into an open space. 
+It would be a squeeze, but you think you could manage to swim through and get 
+out of the corridor.
+^
+Brookmere41 e:Brookmere42;
+Lflags { Dark }
+Bottom of the Falls^
+    Standing on a silty shoreline you gaze up in awe at a huge waterfall 
+plummeting down from on high. The spray arcs out in all directions, making the 
+cavern walls glisten and filling the air with a fine mist. The noise is 
+incredible, amplified by the acoustics of the cavern, making any conversation 
+save a yell impossible. The waterfall cascades into a circular pool, beaten 
+white and frothy by the force of the water. The pool overflows on one side, 
+letting the water race on into an underground river to the east. On the other 
+side of the pool you think you see a small jagged hole leading into darkness, 
+but there is no way you could reach it from this side of the waterfall.
+^
+Brookmere42 w:Brookmere41 n:Brookmere43 s:Brookmere57;
+Lflags { }
+Water Cavern^
+    You have passed into an enormous cavern with a sandy floor and a fast 
+flowing river bubbling its way along to the east, until it disapears beneath 
+the cavern wall. The cavern is as high as a cathederal, the roof invisible in 
+shadow, and the walls are smooth and shiny, polished over countless centuries 
+by the river than now flows under them. The river has also washed sand and silt 
+into the cavern from faraway riverbanks, creating a beach, and, in the middle 
+of the river, a small island. The cavern is lit by lines of light scribbled on 
+the walls of the cavern by reflections off the eddying surface of the water. To 
+the west you can hear a continuous dull roar over the gurgles of the river. To 
+the north is a small tunnel.
+^
+Brookmere43 n:Brookmere10 s:Brookmere42 w:Brookmere44;
+Lflags { Dark NoMobiles }
+Smallish Tunnel^
+    This tunnel must be a squeeze to the orcs and goblins currently occupying 
+Brookmere, but it is still bigger than average for you. It looks very old, 
+being built of unshaped stone boulders, with &+Gmoss&* and other things that don't 
+need much light growing in the cracks. The tunnel  climbs upwards to the north, 
+while another good sized tunnel branches off west. To the south you can hear 
+sounds of moving water.
+^
+Brookmere44 e:Brookmere43 w:Brookmere45;
+Lflags { Dark }
+Biggish Tunnel^
+    This tunnel must have been built at the same time as the one to the east, 
+with large, uneven stone boulders, but there is nothing growing between the 
+cracks like there is in most old walls. There is only dirt that has been spilt 
+on the floor near both walls, which makes you think any plant life has been 
+pulled from the wall and trampled underfoot. There is a small room to the west.
+^
+Brookmere45 n:^north_door e:Brookmere44 s:^south_door w:Brookmere48;
+Lflags { }
+Small Room^
+    This room is much like the tunnels you have just passed through, only this 
+room has smoke stains on the roof and torches spaced evenly along the walls in 
+metal holders. Not all of them are lit and those that are are of different 
+types; some are new and green, some old and splintery, some blackend and burnt 
+down to almost nothing. There are doors to both the north and south. There is 
+another, larger room to the west.
+^
+Brookmere46 s:^north_door2;
+Lflags { Dark }
+Treasure Storeroom^
+    This must be where the orcs store all their loot - The room is filled with 
+&+ychests&* in various states of decay, with tarnished plaques and ragged labels 
+saying things like ` MOORGS FINGS' and ` PERSUNAL N PRIVAT' . You try all the 
+chests eagerly (you little thief!) and find that, much to your dismay, all of 
+them require a key and cannot be bypassed by your lockpicking skills. 
+^
+Brookmere47 n:^south_door2;
+Lflags { Dark }
+Weapon Storeroom^
+    This room is full of oversized swords, scabbards, shields and other 
+implements of war, belonging to the orcs. There are bottles of lard on a shelf 
+in the back and bunches of chain hung on a hook for cleaning sword blades, but 
+they don't look like they have been used very often, all the sword blades you 
+can see being encrusted with something dark and congealed. Unfortunately 
+everything in here is way too big for you to use. 
+^
+Brookmere48 e:Brookmere45;
+Lflags { Dark }
+Orc Barracks^
+    The barracks are mostly empty and smell like a stable. Wooden bunk beds are 
+built three high against the walls. The beds are unmade and armor and pieces of 
+dirty orc underwear litter the floor. Pictures of female orc beauties are on 
+the walls. A wooden table in the middle of the room is covered with torn cards 
+and a set of dice made from real bones.
+^
+Brookmere49 n:Brookmere49B e:Brookmere51 s:Brookmere7;
+Lflags { }
+Long Corridor^
+    Hurrying along, you find that it is actually a pleasure to walk along this 
+corridor. The paving stones on the floor are smooth and even, the walls are 
+sturdy and well made, a neat alcove has been set into the east wall and the 
+roof doesn't even sag. It is in such good condition it starts to make you 
+suspicious. How is it that this corridor has survived the onslaught of the 
+hobgoblins undamaged? On the floor you can see some faint muddy footprints 
+leading toward the end of the corridor, but you can find none leading back the 
+other way.
+^
+Brookmere49B n:Brookmere50 s:Brookmere49;
+Lflags { }
+End of the Long Corridor^
+    As you draw closer to the end of the corridor you see a light. The light 
+comes from a strange doorway set in the stone wall of the passageway. The 
+doorway glows with the brightness of sun on snow, making everything around you 
+dark. Thick white clouds puff and roll between the door frames. Stray whips 
+reach out toward you, beckoning you to see what is beyond the door. Will you 
+follow the footprints?
+^
+Brookmere50;
+Lflags { Death }
+Through the White Mist^
+   Grasping the shimmering doorway, you place your head and upper half of your 
+body in the misty clouds and try to see what lies ahead. For a minute nothing 
+happens, then slowly the upper half of your body begins to glow and shimmer 
+with unearthly light, spreading down to the rest of you. The glow fades, taking 
+with it your features and colour. The outline of your body can still be seen 
+but it starts to smudge and blur. Soon, all that is left is white, billowing 
+smoke moving gently in the quiet corridor, then drifting through the door and 
+becoming part of the larger cloud mass.
+
+You have tried to pass through a door of nothingness, which no mortal may do 
+and live.
+^
+Brookmere51 e:^brick_wall w:Brookmere49;
+Lflags { }
+Alcove^
+    An ordinary old indentation in the main corridor, about a metre deep, 
+traditionally used to display large objects tastefully that would otherwise 
+block traffic - except that there isn't any `object d'art' being displayed 
+here. There is only the &+Rbrick wall&* at the back of the alcove, which looks a 
+bit out of place compared to the stone walls surrounding it.
+^
+Brookmere52 e:Brookmere53 w:^brick_wall2;
+Lflags { Dark NoSummon }
+Throne Room of Orobius^
+    The only thing in the entire room is a large white marble throne, shot 
+through with black, set up on a dais. However, when you walk towards it to get 
+a closer look you end up on the other side of the room. When you turn around 
+and try again the same thing happens - you just can't get to it. You walk up 
+and down the room for some time trying to examine the throne, getting 
+increasingly frustrated, until you find the trick of walking directly away from 
+the throne, which gets you right up onto the dais. Looking at the back of the 
+throne you find a silver plaque with the words `Throne of Orobius, Master 
+Illuisionist and Enchanter' and some runes below that probably say the same 
+thing. This room then belonged to the great Orobius, Master Illusionist of 
+Brookmere, purveyor of illusions of sight, hearing, sound, smell and taste. 
+To the east is a doorway leading to what looks like the Masters workroom - 
+unless, of course, it is an illusion.
+^
+Brookmere53 w:Brookmere52;
+Lflags {Dark NoSummon }
+Workroom^
+    Apart from a rough-hewn workbench and an empty glass-fronted cabinet on 
+one wall, the workroom of Orobius looks empty. Only a fool would believe it is 
+really empty though; Orobius would have hidden his secret work before he left 
+Brookmere with a blanket illusion. Behind the door though, you find a small 
+&+Cblock of white marble&*, just big enough to support a person or elf, standing 
+between four white marble pillars.
+^
+Brookmere54 e:^waterfall_door2 w:Brookmere34;
+Lflags { Dark }
+Long Tunnel^
+    A wide, dark tunnel travels a lengthy path straight ahead before curving 
+gently to the south, cutting off any view of the other end save a faint green 
+glow that makes you feel edgy. All of a sudden you feel the oppressive weight 
+of the tones of earth above you, and remember that, from this point of view, 
+the laws of gravity do not work in your favour. 
+^
+Brookmere55 d:Brookmere55B s:Brookmere55X e:Brookmere55X u:Brookmere55X;
+Lflags { }
+Down the &+WStairs^
+    Walking down the stairs, you at are at first eager to see what is at the 
+bottom and hurry down. But after a long time going down, you decide that 
+whatever is at the bottom is not worth the time and start to make your way 
+back up. However, after an equally long time you are still not back in the 
+room in which you started. You start to run up the stairs, striving to reach 
+the top, but to no avail. The stairs just go down, or up, and around and 
+around without going anywhere.
+^
+Brookmere55B u:Brookmere55 d:Brookmere55X s:Brookmere55C w:Brookmere55X;
+Lflags { }
+Down the &+WStairs^
+    Up is down and down is up on this staircase, as both directions lead 
+nowhere. Still you plod on, up, down, around and around, trying to figure out 
+a way to get back to the top of them.
+^
+Brookmere55C u:Brookmere55X d:Brookmere55X n:Brookmere55B e:Brookmere55D;
+Lflags { }
+Down the &+WStairs^
+    Up is down and down is up on this staircase, as both directions lead 
+nowhere. Still you plod on, up, down, around and around, trying to figure out 
+a way to get back to the top of them.
+^
+Brookmere55D u:Brookmere28 d:Brookmere55X n:Brookmere55X w:Brookmere55C;
+Lflags { }
+Down the &+WStairs^
+     Dragging your feet across the endless stairs, you happen to glance up - 
+and almost weep at the sight of an open door and a small veranda. You've 
+finally made it back to the top of the steps!
+^
+Brookmere55X u:Brookmere55 d:Brookmere55C w:Brookmere55B e:Brookmere55 s:Brookmere55X;
+Lflags { }
+Down the &+WStairs^
+     Up is down and down is up on this staircase, as both directions lead 
+nowhere. Still you plod on, up, down, around and around, trying to figure 
+out a way to get back to the top of them.
+^
+Brookmere56 u:Brookmere56B n:Brookmere56X w:Brookmere56X d:Brookmere56X;
+Lflags { }
+Up the &+WStairs^
+    Walking up the stairs, you at are at first eager to see what is at the 
+top and hurry along. But after a long time going up, you decide that whatever 
+is at the top is not worth the time and start to make your way back down. 
+However, after an equally long time you are still not back in the room in 
+which you started. You start to run down the stairs, striving to reach the 
+bottom, but to no avail. The stairs just go down, or up, and around and 
+around without going anywhere.
+^
+Brookmere56B d:Brookmere56 u:Brookmere56X n:Brookmere55C w:Brookmere55X;
+Lflags { }
+Up the &+WStairs^
+    Up is down and down is up on this staircase, as both directions lead 
+nowhere. Still you plod on, up, down, around and around, trying to figure out 
+a way to get back to the bottom of them.
+^
+Brookmere56C u:Brookmere56X d:Brookmere56X s:Brookmere56B w:Brookmere56D;
+Lflags { }
+Up the &+WStairs^
+    Up is down and down is up on this staircase, as both directions lead 
+nowhere. Still you plod on, up, down, around and around, trying to figure out 
+a way to get back to the bottom of them.
+^
+Brookmere56D d:Brookmere28 u:Brookmere56X n:Brookmere56X e:Brookmere56C;
+Lflags { }
+Up the &+WStairs^
+     Dragging your feet across the endless stairs, you happen to glance down 
+- and almost weep at the sight of an open door and a small veranda. You've 
+finally made it back to the bottom of the steps!
+^
+Brookmere56X d:Brookmere56 u:Brookmere56C n:Brookmere56B s:Brookmere56 e:Brookmere56X;
+Lflags { }
+Up the &+WStairs^
+    Up is down and down is up on this staircase, as both directions lead 
+nowhere. Still you plod on, up, down, around and around, trying to figure out 
+a way to get back to the bottom of them.
+^
+Brookmere57 n:Brookmere42 s:Brookmere57B;
+Lflags { OnWater }
+The Churning River^
+    You are bobbing up and down on the underground river as it swirls and 
+boils around you. From here you can direct your craft to the sandy island in 
+the middle of the river or to the silty shore.
+^
+Brookmere57B n:Brookmere57;
+Lflags { }
+&+ySandy Island^
+    The river has carried with it many tonnes of sand and sediment from 
+faraway shores on its journey, much of which has lodged here, perhaps building 
+up on a large rock beneath the surface, creating an alluvial island. You 
+wonder if any alluvial gold dust has been washed up onto the island recently.
+^

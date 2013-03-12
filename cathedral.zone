@@ -1,0 +1,1394 @@
+
+
+
+
+%mobiles
+
+Name            = Priest
+PName           = "The Priest"
+Pflags            {NoSteal NoHassle}
+Location        = inchurch
+Strength        = 50
+Damage          = 10
+Armor           = 0
+Aggression      = 0
+Speed           = 0
+Description     = "The Priest stands here, looking upon you solemnly."
+End             = Priest
+
+Name            = Drool
+Mflags            {BarEast}
+Location        = royal
+Strength        = 100
+Damage          = 15
+Armor           = 0
+Aggression      = 50
+Speed           = 0
+Description     = "
+Drool the Wolf is here, panting and drooling, hungry for his next meal, YOU!"
+End             = Drool
+
+Name            = Spit
+Mflags            {BarEast}
+Location        = royal
+Strength        = 100
+Damage          = 15
+Armor           = 0
+Aggression      = 50
+Speed           = 0
+Description     = "Spit the Wolf bounds about, slobbering stupidly."
+End             = Spit
+
+Name            = Vladimir
+Sflags   { Vampire }
+Mflags            {Thief}
+Location        = n_top
+Strength        = 350
+Damage          = 20
+Armor           = 10
+Aggression      = 0
+Speed           = 0
+Description     = "Vladimir the &+rVampire&* stands here in the &+Ylight&* of the stained
+&+Cglass&* window."
+Examine         = "It appears as if he is about to take a bite out of you!."
+End             = Vladimir
+
+Name            = Inky
+Location        = side2
+Sflags { Nobody }
+Mflags  { Nocorpse }
+Strength        = 150
+Damage          = 10
+Armor           = 0
+Aggression      = 30
+Speed           = 0
+Description     = "
+&+BInky&* the &+WApparition&* hovers above your head menacingly."
+End             = Inky
+
+Name            = Blinky
+Location        = side2
+Sflags  { Nobody }
+Mflags  {Nocorpse }
+Strength        = 150
+Damage          = 10
+Armor           = 0
+Aggression      = 30
+Speed           = 0
+Description     = "
+&+MBlinky&* the &+WApparition&* hovers above your head menacingly."
+End             = Blinky
+
+Name            = Stinkie
+Location        = side2
+Sflags { Nobody }
+Mflags {Nocorpse }
+Strength        = 150
+Damage          = 10
+Armor           = 0
+Aggression      = 30
+Speed           = 0
+Description     = "
+&+yStinky&* the &+WApparition&* hovers above your head menacingly."
+End             = Stinkie
+
+Name            = Lasher
+Sflags  { Nobody }
+Mflags  { Nocorpse }
+Eflags            {NegFireball NegFrost NegMissile}
+Location        = s_porch
+Strength        = 300
+Damage          = 20
+Armor           = 0
+Aggression      = 100
+Speed           = 3
+Description     = "
+Lasher, spirit of the &+cwinds&*, rips through your path savagely!"
+End             = Lasher
+
+Name            = Countess
+PName           = "Bathory"
+Sflags            {Female Vampire }
+Location        = s_top
+Strength        = 250
+Damage          = 18
+Armor           = 0
+Aggression      = 60
+Speed           = 0
+Description     = "Countess Bathory &+Rscreams&* as you walk in on her bath!" 
+End             = Countess
+
+Name            = Astasia
+PName           = "Seductress"
+Sflags            {Female Vampire }
+Location        = astbed
+Strength        = 300
+Damage          = 15
+Armor           = 0
+Aggression      = 80
+Speed           = 1
+Description     = "
+You have disturbed Astasia the Seductress's well deserved beauty sleep!" 
+End             = Astasia
+
+Name            = Spiderman
+Mflags            {BarWest }
+Eflags		{ Missile }
+Location        = cobwebs
+Strength        = 200
+Damage          = 15
+Armor           = 0
+Aggression      = 50
+Speed           = 0
+Description     = "The Spider Man is having you for dinner tonight!"
+End             = Spiderman
+
+Name            = Millarca
+sflags            {Female Vampire }
+Location        = milbed
+Strength        = 300
+Damage          = 20
+Armor           = 0
+Aggression      = 50
+Speed           = 0
+Description     = "Countess Millarca, the Vampiress invites you in for a bite."
+End             = Millarca
+
+Name            = Sorbet
+Location        = sorbtomb
+Sflags  { Vampire }
+Strength        = 250
+Damage          = 20
+Armor           = 0
+Aggression      = 50
+Speed           = 0
+Description     = "
+You have awakened Sorbet the &+LDark&* from his (almost) eternal slumber."
+End             = Sorbet
+
+Name            = Spot
+Mflags            {BarEast BarWest}
+Location        = wolven
+Strength        = 60
+Damage          = 8
+Armor           = 0
+Aggression      = 50
+Speed           = 0
+Description     = "Spot the &+RHellhound&* guards the east hall visciously."
+End             = Spot
+
+Name            = RinTinTin
+Mflags            {BarWest BarEast}
+Location        = wolven
+Strength        = 60
+Damage          = 8
+Armor           = 0
+Aggression      = 20
+Speed           = 0
+Description     = "
+RinTinTin the &+RHellhound&* is playing with a snake in the west corner."
+Examine         = "
+He seems not to notice you, as he plays with the remains of a snake."
+End             = RinTinTin
+
+Name            = Benji
+Mflags            {BarEast BarWest}
+Location        = wolven
+Strength        = 60
+Damage          = 8
+Armor           = 0
+Aggression      = 20
+Speed           = 0
+Description     = "
+Benji the &+RHellhound&* licks his lips at the sight of you!"
+End             = Benji
+
+Name            = Ironmail
+Pname           = "The Ironmail"
+Location        = limbo@limbo
+Strength        = 300
+Damage          = 20
+Armor           = 0
+Aggression      = 100
+Speed           = 0
+Description     = "
+The Ironmail seems to have come alive, and is attacking you!"
+End             = Ironmail
+
+Name            = Platemail
+Pname           = "The Platemail"
+Location        = limbo@limbo
+Strength        = 300
+Damage          = 20
+Armor           = 0
+Aggression      = 100
+Speed           = 0
+Description     = "
+The Platemail seems to have come alive, and is attacking you!"
+End             = Platemail
+
+Name            = WolfArmor
+Pname           = "The WolfArmor"
+Location        = limbo@limbo
+Strength        = 300
+Damage          = 20
+Armor           = 0
+Aggression      = 100
+Speed           = 0
+Description     = "
+The WolfArmor seems to have come alive, and is attacking you!"
+End             = WolfArmor
+
+Name            = Elisabeth
+Sflags            {Female Vampire }
+Location        = vambed
+Strength        = 100
+Damage          = 16
+Armor           = 0
+Aggression      = 30
+Speed           = 0
+Description     = "Elisabeth stares at you with &+Rlust&* in her eyes."
+End             = Elisabeth
+
+Name            = Drolza
+Sflags            {Female Vampire }
+Location        = vambed
+Strength        = 100
+Damage          = 12
+Armor           = 0
+Aggression      = 30
+Speed           = 0
+Description     = "
+Drolza longs to suck out your &+rblood&* as slowly as possible!"
+End             = Drolza
+
+Name            = Gwendolyn
+Sflags            {Female Vampire }
+Location        = vambed
+Strength        = 100
+Damage          = 14
+Armor           = 0
+Aggression      = 30
+Speed           = 0
+Description     = "Gwendolyn smiles coyly and beckons you closer."
+End             = Gwendolyn
+
+Name            = Ashram
+Pflags            {NoSteal NoMagic}
+Mflags            {Cross}
+Location        = secroom
+Strength        = 200
+Damage          = 15
+Armor           = 0
+Aggression      = 100
+Speed           = 2
+Description     = "Ashram the &+RDemon &+LKnight&* peers at you &+bcoldly&*, calculating your
+weaknesses."
+End             = Ashram
+
+Name            = LeSuorac
+Sflags  { Vampire }
+Pflags            {NoExorcise NoSummon NoZap NoSteal NoMagic}
+Mflags            {Thief NoCorpse }
+Eflags		{ Fireball Missile Frost Shock }
+Location        = vamcrypt
+Strength        = 3000
+Damage          = 40
+Armor           = 20
+Aggression      = 0
+Speed           = 0
+Description     = "
+LeSuorac the &+RVampire&* grins as he prepares to &+Rslaughter&* you
+&+Wmercilessly!"
+End             = LeSuorac
+
+
+%objects
+
+Name            = Ironmail
+Pname           = Ironmail
+Location        = IN_ROOM:armhall
+Desc[0]         = "The &+LIronmail&* stands proudly at your left.  It looks to be finely
+crafted."
+End             = Ironmail
+
+Name            = Platemail
+Pname           = Platemail
+Location        = IN_ROOM:armhall
+Desc[0]         = "A beautiful set of Platemail is displayed to your right."
+End             = Platemail
+
+Name            = WolfArmor
+Pname           = WolfArmor
+Location        = IN_ROOM:armhall
+Desc[0]         = "A tastefully sculpted suit of &+yWolfArmor&* stands here &+Cmagestically&*."
+End             = WolfArmor
+
+Name            = plate 
+Pname           = plate
+Location        = IN_ROOM:inchurch
+Oflags            {NoGet}
+Desc[0]         = "There is a plate here for offerings to the church. 
+Your contribution will be very appreciated."
+End             = plate
+
+Name            = note
+Pname           = note
+Location        = IN_ROOM:limbo@limbo
+Desc[0]         = "A note has been left here."
+Examine         = "    
+    The note reads:
+   
+    __________________________________________________________________________
+   |                                                                          \
+   | You are indeed a generous soul! From the looks of you I'd say a fine     |
+   | warrior as well, a rare combination. We apologize for the shabbiness     |
+   | of this little church, but a terrible tragedy has overcome us. Many      |
+   | years ago, a terrible vampire invaded our little village. Our protector, |
+   | Saint Suorac, tried to fight him, but to no avail. The Vampire easily    |
+   | defeated our valiant hero, and plunged the Cathedral into &+Ldarkness&*,   
+  |
+   | transforming it into his &+rdemonic lair&*, a malignant blot against the   
+  |
+   | &+Cskyline&*. It may be beyond salvation, for it houses many &+Levil&*
+creatures,  |
+   | But hidden deep within are our precious holy relics. There are five of   |
+   | them. We urgently need for someone to brave the evils of the cathedral   |
+   | and return our relics to us. Four of the relics are material things of   |
+   | great spiritual value... The fifth is the very bones of Saint Suorac     |
+   | himself. It is our custom to save the bones of our holy defender, as a   |
+   | symbol of faith. If you are up to it, we would be most grateful if you   |
+   | would take up this quest, kill the vampire, and return our relics to     |
+   | this humble church. Perhaps when all this is over, we can return and     |
+   | rebuild our Cathedral into the holy place it once was. The &+RVampire&*    
+  |
+   | cannot be defeated easily. Find a way to use his powers against him.     |
+   | Take this key, it is old and &+yrusty&*, but it should open at least one of
+  |
+   | the doors.                                                               |
+   |__________________________________________________________________________|
+    \-------------------------------------------------------------------------\
+"
+End             = note    
+
+Name            = ChurchKey
+Pname           = ChurchKey
+Altname         = key
+Oflags            {Key}
+Location        = CARRIED_BY:Priest
+BValue          = 200
+Size            = 1     
+Weight          = 1
+Desc[0]         = "A old Church Key has been left here."
+Examine         = "The Key is large and badly &+yworn.&* It appears to have been made several
+hundred years ago."
+End             = ChurchKey
+
+Name            = Holy_Robes
+Pname           = robes
+Altname         = holy
+Location        = WORN_BY:Priest
+Oflags            {Armor Wearable}
+Aflags		  {chest back arms}
+BValue          = 500
+Size            = 5
+Weight          = 5
+Armor           = 5
+Desc[0]         = "
+The robes of the Holy Defender of the Cathedral shine with a &+Cm&+ca&+Cg&+ci&+Cc&+ca&+Cl &+Wlight&*."
+End             = Holy_Robes
+
+Name            = bushes_n
+Pname           = bushes
+Altname         = bush
+Location        = IN_ROOM:path1
+Oflags            {NoGet}
+Linked          = bushes_s
+State           = 1
+MaxState        = 1
+Desc[0]         = "The &+Gbushes&* have been hacked away, allowing passage south."
+Desc[1]         = "Thick &+Gbushes&* form a wall to the south."
+Examine         = "The &+Gbushes&* have a small &+Lblack&* vertical dotted line on them. As you
+follow the line toward the ground, you see a tiny picture of a pair of scissors.
+In tiny letters you are instructed to '&+Wcut here&*'."
+End             = bushes_n
+
+Name            = bushes_s
+Pname           = bushes
+Altname         = bush
+Location        = IN_ROOM:path2
+Oflags            {NoGet}
+Linked          = bushes_n
+State           = 1
+MaxState        = 1
+Desc[0]         = "The &+Gbushes&* to the north have been shredded."
+Desc[1]         = "Thick &+Gbushes&* form a wall to the north."
+Examine         = "Looks like every other &+Gbush&* you've ever seen."
+End             = bushes_s
+
+Name            = mural
+Pname           = mural
+Location        = IN_ROOM:se_chap
+Oflags            {NoGet}
+Desc[0]         = "There is a mural hanging here."
+Examine         = "Judging from these paintings, the life of a virgin is mighty dull!"
+End             = mural
+
+Name            = portal_n
+Pname           = portal
+Altname         = door
+Location        = IN_ROOM:n_portal
+Oflags            {NoGet}
+Examine         = "The portal is open, but as you look through you cant see much of anything."
+End             = portal_n
+
+Name            = portal_c
+Pname           = portal
+Altname         = door
+Location        = IN_ROOM:c_portal
+Oflags            {NoGet}
+Examine         = "As you peer intently at the &+ywoodgrain&* of the boards covering the door, 
+nothing happens."
+End             = portal_c
+
+Name            = portal_s
+Pname           = portal
+Altname         = door
+Location        = IN_ROOM:s_portal
+Oflags          {NoGet}
+Examine         = "There is a crude picture of a fish painted on the door, it may warrant closer
+examination..."
+End             = portal_s
+
+Name            = picture
+Pname           = picture
+Altname         = fish
+Location        = IN_ROOM:s_portal
+Oflags            {NoGet}
+Examine         = "It's a &+RRed&* Herring.  &+W(Get moving there's nothing useful here.)&*"
+End             = picture
+
+Name            = door_nside
+PName           = door
+Location        = IN_ROOM:n_aisle1
+Oflags            {Openable Lockable NoGet}
+Linked          = door_trap
+State           = 2
+MaxState        = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = door_nside
+
+Name            = door_trap
+PName           = door
+Location        = IN_ROOM:side2
+Oflags            {NoGet}
+Linked          = door_nside
+State           = 2
+MaxState        = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed, and no amount of fiddling will open it."
+Desc[2]         = "The door is locked."
+End             = door_trap
+
+Name            = door_sside
+PName           = door
+Location        = IN_ROOM:side1
+Oflags            {Openable Lockable NoGet}
+Linked          = door_saisle
+State           = 2
+MaxState        = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is secured by a lock of unusual design."
+End             = door_sside
+   
+Name            = door_saisle
+PName           = door
+Location        = IN_ROOM:s_aisle1
+Oflags            {Openable Lockable NoGet}
+Linked          = door_sside
+State           = 2
+MaxState        = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = door_saisle
+
+Name            = fountain_up
+PName           = fountain
+Location        = IN_ROOM:crossbay
+Oflags            {PushToggle NoGet}
+linked          = fountain_down
+State           = 1
+MaxState        = 1
+Desc[0]         = "The &+rfountain&* has been moved, revealing a dark passage downward."
+Desc[1]         = "A &+Cmagnificent&* fountain of &+rblood&* dominates the room."
+Examine         = "&+rBlood&* jets from the mouths of twisting and writhing creatures, their bodies
+rival the work of great masters, yet their faces are those of gargoyles. The
+&+rblood&* looks warm and inviting. Its smell wafts toward your nose
+enticingly."
+End             = fountain_up
+
+Name            = window
+Pname           = window
+Altname         = glass
+Location        = IN_ROOM:n_top
+Oflags            {NoGet}
+State           = 1
+MaxState        = 1
+Desc[0]         = "The window has been shattered, &+Ylight&* streams into the room."
+Examine         = "The window is bolted shut securely, yet it looks pretty fragile."
+End             = window
+
+Name            = coffin_tower
+Pname           = coffin
+Location        = IN_ROOM:n_top
+Oflags            {Container NoGet}
+State           = 1
+MaxState        = 1
+Desc[0]         = "The &+ycoffin&* has been ripped open."
+Desc[1]         = "The sacred &+ycoffin&* of Vladimir is here."
+Examine         = "Do I come in your house and snoop around &+WYOUR&* bed?"
+End             = coffin_tower
+
+Name            = sliver
+PName           = sliver
+Altname         = piece
+Location        = IN_CONTAINER:coffin_tower
+BValue          = 200
+Size            = 5
+Weight          = 5
+Desc[0]         = "A small sliver of &+ywood&* is here."
+Examine         = "Why look! It's a piece of the crucifix! (Yeah right..)"
+End             = sliver
+
+Name            = fountain_down
+PName           = fountain
+Location        = IN_ROOM:vaulcham
+Oflags            {NoGet}
+linked          = fountain_up
+State           = 1
+MaxState        = 1
+Desc[0]         = "A hole in the ceiling leads up into the cathedral's crossing bay."
+Desc[1]         = "The hole in the roof is covered by the bottom of the fountain."
+End             = fountain_down
+
+Name            = door_lowhall
+PName           = door
+Location        = IN_ROOM:lowhall
+Oflags            {Openable Lockable NoGet}
+Linked          = door_astbed
+State           = 2
+MaxState        = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = door_lowhall
+
+Name            = door_astbed
+PName           = door
+Location        = IN_ROOM:astbed
+Oflags            {Openable Lockable NoGet}
+Linked          = door_lowhall
+State           = 2
+MaxState        = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = door_astbed
+
+Name            = door_catacomb
+PName           = door
+Location        = IN_ROOM:catacomb
+Oflags            {Openable Lockable NoGet}
+Linked          = door_sorbtomb
+State           = 2
+MaxState        = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = door_catacomb
+
+Name            = door_sorbtomb
+PName           = door
+Location        = IN_ROOM:sorbtomb
+Oflags            {Openable Lockable NoGet}
+Linked          = door_catacomb
+State           = 2
+MaxState        = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = door_sorbtomb
+
+Name            = door_armor
+PName           = door
+Location        = IN_ROOM:armhall
+Oflags            {Openable Lockable NoGet}
+Linked          = door_secroom
+State           = 2
+MaxState        = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = door_armor
+
+Name            = door_secroom
+PName           = door
+Location        = IN_ROOM:secroom
+Oflags            {Openable Lockable NoGet}
+Linked          = door_armor
+State           = 2
+MaxState        = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = door_secroom
+
+Name            = DarkArmor
+Altname         = armor
+Location        = WORN_BY:ashram
+Oflags            {Armor Wearable}
+Aflags		  {Chest Back Arms}
+BValue          = 100
+Size            = 10
+Weight          = 10
+Armor           = 25
+Desc[0]         = "The &+LDark &+BArmor&* of the dreaded knight Ashram lies here gleaming."
+End             = DarkArmor
+
+Name            = door_crypt
+PName           = door
+Location        = IN_ROOM:cryptent
+Oflags            {NoGet}
+Linked          = door_reliq
+State           = 1
+MaxState        = 1
+Desc[0]         = "Through some clever mechanism, the door has been opened."
+Desc[1]         = "The door is shut tightly."
+End             = door_crypt
+   
+Name            = door_reliq
+PName           = door
+Location        = IN_ROOM:reliq
+Oflags            {NoGet}
+Linked          = door_crypt
+State           = 1
+MaxState        = 1
+Desc[0]         = "Through some clever mechanism, the door has been opened."
+Desc[1]         = "The door is shut tightly."
+End             = door_reliq
+
+Name            = grail
+Pname           = grail
+Altname         = cup
+Location        = IN_ROOM:reliq
+BValue          = 200
+Desc[0]         = "There is some sort of cup on a pedestal in the fountain."
+Examine         = "The &+YHoly Grail&+W!&* (A small oval sticker on the cup displays the words MADE IN CHINA)."
+End             = grail
+
+Name            = fountain_pure
+PName           = fountain
+Location        = IN_ROOM:reliq
+Oflags            {NoGet}
+State           = 1
+MaxState        = 1
+Desc[0]         = "The fountain is temporarily out of service."
+Desc[1]         = "The fountain here runs with &+Ccool &+Bwater&*."
+Examine         = "The fountain flows with &+Ccool &+Wclear&* liquid. Your thirst for &+rblood&* subsides as you look at it."
+End             = fountain_pure
+
+Name            = door_vambed
+PName           = door
+Location        = IN_ROOM:vambed
+Oflags            {Openable Lockable NoGet}
+Linked          = door_library
+State           = 2
+MaxState        = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = door_vambed
+
+Name            = mantle
+Pname           = mantle
+Location        = WORN_BY:Astasia
+Oflags            {Wearable Glowing}
+BValue          = 100
+Size            = 1
+Weight          = 1
+Desc[0]         = "The mantle of the virgin lies here.. what the seductress was doing wearing it
+you have no idea..."
+Examine         = "Just your everyday holy religious simple cloth shroud."
+End             = mantle
+
+Name            = door_library
+PName           = door
+Location        = IN_ROOM:library
+Oflags            {Openable Lockable NoGet}
+Linked          = door_vambed
+State           = 2
+MaxState        = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = door_library
+
+Name            = china
+PName           = china
+Location        = IN_ROOM:milbed
+BValue          = 100
+Size            = 5
+Weight          = 5
+Desc[0]         = "A set of &+Wfine china&* sits on the table."
+Examine         = "Ohhh!! The holy china set!"
+End             = china
+
+Name            = coin
+Pname           = coin
+Location        = IN_ROOM:library
+BValue          = 400
+Size            = 5
+Weight          = 5
+Desc[0]         = "A small shiny &+Ycoin&* lies on the ground here"
+Examine         = "It was probably discarded by some poor guy who couldn't use it in that copy
+machine."
+End             = coin
+
+Name            = sarcophagus
+Pname           = sarcophagus
+Location        = IN_ROOM:vamcrypt
+Oflags            {NoGet}
+Examine         = "The sarcophagus is covered with expertly sculpted &+Rf&+Yl&+Ra&+Ym&+Re&+Ys&*
+licking up from the ground.
+Strange to see flame carved from &+ywood&*..."
+End             = sarcophagus
+
+Name            = bones
+PName           = bones
+Altname         = bone
+Location        = IN_ROOM:limbo@limbo
+BValue          = 200
+Size            = 5
+Weight          = 5
+Desc[0]         = "The &+WBones&* of St. Suorac lie scattered across the floor."
+Examine         = "&+GS&+gl&+Gi&+gm&+Gy&*, &+Cg&+co&+Co&+ce&+Cy &+Wbones!&*"
+End             = bones
+
+
+%locations
+
+church w:Misty2@moor s:inchurch e:path1;
+lflags {Light Outdoors}
+Path To Church^   
+   You are walking on a narrow dirt path bordered on each side by tall
+&+Gbushes&* which block out the &+Csky&*. A &+Wcool&* wind blows across 
+your face, and to the south you see the open doors of a tiny, broken 
+down old church welcoming you.
+^
+
+inchurch n:church;
+lflags {Light Peaceful}
+Small Church^
+   Inside the church, you look down a short aisle at the simple altar, its
+altarpiece &+Cilluminated &+Wbrilliantly&* by the &+Ylight&* from its small
+clerestory windows above your head. Though tiny, this church has a 
+spiritual quality to it that is quite refreshing. By the altar sits a plate
+for donations.
+^
+
+path1 s:^bushes_n e:royal w:church;
+lflags {Light Outdoors}
+Path to the &+RCathedral&*^   
+   As you step onto the path, you see a towering giant to the east. 
+The cathedral rises high into the air, its twin towers soaring above even the 
+&+Lstorm&* clouds which brew overhead, and add an air of &+ggloom&* to the
+place. Strong winds lash at your flesh, urging you away. A wall of &+Gbushes&*
+looms to the south.
+^
+
+path2 n:^bushes_s s:path3;
+lflags {Light Outdoors}
+Hidden Path^
+   The &+Gbushes&* to the north are cut away, allowing your safe passage, to the
+south this path continues around the tower. The &+Gbushes&* around you protect
+you from the buffeting winds of the &+Lstorm&* above.
+^
+
+path3 n:path2 e:path4;
+lflags {Dark Outdoors}
+Path^
+   The &+gshrubbery&* here is so thick it slows down your progress considerably,
+but at least the weather is unlikely to affect you. The continuing path is 
+barely visible to the east.
+^
+
+path4 w:path3 e:path5;
+lflags {Dark Outdoors}
+Beside The &+LTower&*^
+   The tower wall rises up to the north, and as you look up you cannot see
+to the top of it. The path goes on both east and west, through the thick 
+canopy of &+gfoliage&*.
+^
+
+path5 w:path4 e:side1;
+lflags {Dark Outdoors}
+Beside the &+rCathedral&*^
+   The &+Gleaves&* hang low here, and your head brushes against them as you
+pass. 
+The path continues into deep &+gfoliage&* to the west, but to the east it clears
+up somewhat, and what little &+Ylight&* there is streams in as the leaves part.
+^
+
+side1 w:path5 n:^door_sside;
+lflags {Dark Outdoors}
+Side Door^
+   The &+Csky&* above seems lighter here, and the winds fade. you are 
+surrounded by walls of &+Ggreen&* on all sides but north. In that 
+direction, surrounded bythe &+givy&* that crawls all about the sides 
+of the cathedral, is a heavy &+ywooden&* door, with a quite substantial
+lock of a type you've never seen the likes of.
+^
+
+side2 s:^door_trap;
+lflags {Dark Outdoors}
+Trap Door^
+   As you exit the cathedral, the door slams shut, and its heavy bolts fall
+into place. You can hardly see a thing through the thick &+Wfog&*. Wraithlike
+forms swoop down at your head making you duck in terror.  You can fight them,
+but it is unlikely you can budge the door, should you survive the battle.
+^
+
+royal w:path1 e:c_portal n:n_portal s:s_portal;
+lflags {Light Outdoors}
+The &+YRoyal&+c Portals^
+   The Western Facade of the Cathedral looms up before you into the &+Wmisty
+&+Csky&*. A triad of grand portals lie before you. Each is flanked by 
+monolithic jamb statues, sculptured figures which stand flat against the
+architecture, and watch over the portals to this mighty cathedral. You are
+struck by the malign expressions on their faces, for they look much more
+like grinning &+Rdevils&* than the holy figures one would expect to find at
+the doors of a mighty church.
+^
+
+s_portal w:royal;
+lflags {Light Outdoors}
+The South Portal^
+   As you step forward into the &+Ldarkness&* of the portal, you realize it
+hasbeen boarded over with &+ywood&*. You try to budge the old and &+Lrotting
+&+yboards&*,
+but to no avail. You will have to try another way in.
+^
+
+c_portal w:royal;
+lflags {Light Outdoors}
+The Central Portal^
+   This is the grandest of the three portals. Overhead you can barely make
+out the details of its bizarre tympanum sculpture. Above the door, in a half
+moon shaped area enclosed by a pointed arch, is a sculpture of an enthroned
+man, hooded and wearing a flowing cape which is tattered at the ends. His
+arms are outstretched and underneath them, smaller figures writhe in agony, 
+as tiny swirling demons whip around their heads and torment them mercilessly.
+The Door itself is heavily boarded, and though it looks worn and battered,
+the &+ywood&* holds firm at any attempt to force your way through.
+^
+
+n_portal w:royal e:eterdark;
+lflags {Dark Outdoors}
+The North Portal^
+   You step into the &+Ldarkness&* of the portal, and to your surprise the 
+way to the east appears clear, though it leads into complete &+Ldarkness&*.
+The jamb statues here are the most hideous of all. Their heads are mere 
+skulls, some of which display gaping cracks, thier feet rest upon what
+appear to be the artists rendition of bodies &+ydecaying&*.
+^
+
+eterdark;
+lflags {Death}
+&+BEternal &+LDarkness&*^
+   You plunge face first into &+Beternal &+Ldarkness&*, never to be heard from
+again.
+Perhaps you will appreciate the messages in sculpture more in the afterlife.
+As you look on from above, the figures on the portal pack themselves more 
+tightly together, and another figure, shaped like you, with a split skull
+for a head, emerges from the marble wall to join them.
+^
+
+n_tower s:nave1 u:n_stairs;
+lflags {Dark}
+The North Tower^
+   The Walls of the tower are covered with countless years of &+gmold&* and
+&+ydust&*.
+Above you the stairs continue upwards.
+^
+
+n_stairs d:n_tower u:n_top;
+lflags {Dark}
+The Spiral Stairs^
+   These stairs seem to spiral up endlessly, and you wonder if you have gone
+so high as to rise above even the &+Lstorm&* which is brewing above the
+cathedral.
+As finally approach the top, a great &+Ylight&* shines down upon you which 
+seems to answer your question, that in fact you have climbed a very long way.
+^
+
+n_top d:n_stairs;
+lflags {Dark}
+Top of the North Tower^
+   The room you have entered is &+Wbrightly &+Yilluminated&* by magnificent
+stained glass windows, which filter the &+Ylight&* and give everything an
+otherworldly &+Gglow&*. In the middle of the room sits an open casket, of
+fine &+ymahogany&* with &+Wwhite silk&* interior. A vase of &+Rroses&* sits
+upon the windowsill.
+^
+
+s_tower n:nave1 u:s_stairs;
+lflags {Dark}
+The South Tower^
+   This room is bare, except for the staircase spiralling upward into
+&+Ldarkness&*. 
+^
+
+s_stairs d:s_tower u:s_top;
+lflags {Dark}
+The Stairs^
+   The stairs are rickety and worn with age, but they seem secure enough to
+support your weight. There appear to be no windows in this tower, as you
+cannot make out any &+Ylight&* from above. At the top the stairs emerge into
+a small unlit room.
+^
+
+s_top d:s_stairs;
+lflags {Dark}
+The Top of the South Tower^
+   In the center of this room is a large &+Liron &+blantern&*, mounted solidly
+on the floor. The windows which used to bring &+Ylight&* in by day, and allow
+the lantern to shine out by &+Lnight&*, have been &+yboarded&* over. &+LCobwebs&*
+are strewn over everything, and a &+gmusty&* smell fills your nostrils.
+^
+
+nave1 n:n_tower s:s_tower e:nave2;
+lflags {Dark}
+The Nave^
+   You stand at the beginning of the long nave of the cathedral, which
+stretches out a great distance to the east. The triforiums run along the
+northern and southern sides, with great columns of polished &+Wwhite&* marble 
+soaring upward into &+Ldarkness&* to support the vaulted ceiling, which is
+onlybarely visible. The clerestory windows are blocked off by the &+Lstorm&*
+ragingoutside, and no light passes through. To your north, through a high arch,
+lies the northern tower. Likewise, to the south, there is another tower.
+To the west the royal portals appear to be boarded up, but the nave continues
+to the east.
+^
+
+nave2 n:n_aisle1 s:s_aisle1 w:nave1 e:nave3;
+lflags {Dark}
+The Nave^
+   You are partway down the nave. The wall of columns continues to your north 
+and south. Thick, &+Ldark &+rred&* stains mar the columns. You can make your 
+way to the side aisles through any of the archways between the columns. To 
+the west the nave continues toward the royal portals. To the east it leads 
+toward the choir and the apse. Several chairs, broken and battered, are 
+strewn about the floor.
+^
+
+n_aisle1 s:nave2 n:^door_nside e:n_aisle2;
+lflags {Dark}
+North Aisle^
+   The walls to the west and north are made of huge blocks of marble, stained
+by centuries of &+bgrime&* and &+gfungi&*. The wall to the north is interrupted
+by a large &+ywooden&* door, with metal handles. The door is swung back, and 
+beyond it you can make out only &+Ldarkness&*. Howling sounds reach your ears
+from beyondthe doorway. To the east the aisle continues.
+^
+
+s_aisle1 s:^door_saisle n:nave2 e:s_aisle2;
+lflags {Dark}
+South Aisle^
+   To the west the wall of the tower rises up, and tattered drapery of a deep
+&+Mpurple&* hue hangs down from high above your head. To the south is a rather
+large doorway. The aisle continues to the east, or you may enter the nave to
+the north.
+^
+
+nave3 n:n_aisle2 s:s_aisle2 w:nave2 e:crossbay;
+lflags {Dark}
+&+LThe Nave&*^
+   Where once this Nave inspired awe, now only &+Ldarkness&* reigns, the
+&+Wlight&* of &+Yheaven&* can no longer shine in, and the place takes on 
+an air of &+bgloom&* matched by few places you have ever been in. The
+columns to the north and south seem to tower menacingly over you. 
+Through these columns lie the side aisle which runs along the nave. To 
+the east is the crossing bay, and to the west the nave continues toward 
+the portals.
+^
+
+n_aisle2 s:nave3 w:n_aisle1 e:n_tran;
+lflags {Dark}
+North Aisle^
+   Long ago crowds lined up along this aisle, waiting to see the holy relics
+housed in the east end of the cathedral. Now the mosaic paintings they once
+appreciated while they waited are in disrepair. Tiles litter the floor, and
+what is left of the wall mosaics is covered in a thick coat of &+Lgrunge&*.
+^
+
+s_aisle2 n:nave3 w:s_aisle1 e:s_tran;
+lflags {Dark}
+South Aisle^
+   This is where you would wait to see the holy relics, but now the cathedral
+is deserted and the reliquaries desecrated. the pictorial illustrations on
+the wall here are marred irrepairably by time.
+^
+
+crossbay n:n_tran s:s_tran w:nave3 e:choir d:^fountain_up;
+lflags {Dark}
+The Crossing Bay^
+   This is the crossing bay, where the nave and the transept cross. The
+transept hall lies to the north and south. To the east the nave continues
+through the choir and toward the apse. A fountain sits here, burbling. As
+you peer down into the fountain, you notice it runs &+Rred&* with &+rblood&*,
+rather than &+Wclear &+Bwater&*, and yet it looks strangely tantalizing.
+^
+
+n_tran n:n_porch s:crossbay w:n_aisle2 e:n_aisle3;
+lflags {Dark}
+Northern End of the Transept^
+   The aisles branch off to the east and west. The crossing bay is to the 
+south, and to the north an Open portal leads out into the &+cmist&*.
+^
+
+n_porch s:n_tran;
+lflags {Dark Outdoors}
+Northern Porch^
+   As you emerge from the cathedral, you see a tall spiked &+Lfence&* of
+&+ggothic&* design. You could climb it... if you were into impalement. 
+Beyond the fence lie desolate mountains, and above you &+Lstorm clouds&* 
+roll, and &+Wlightning&* arcs down in the distance.
+^
+
+s_tran n:crossbay s:s_porch w:s_aisle2 e:s_aisle3; 
+lflags {Dark}
+Southern End of the Transept^
+   To your north lies the crossing bay, and the nave. South of here is an
+open portal onto the southern porch. The Aisle stretches out to the east and
+west, parallel to the nave.
+^
+
+s_porch n:s_tran;
+lflags {Dark Outdoors}
+Southern Porch^
+   A tall spiked &+Lfence&* bars all directions but the way you came. 
+Attempting to get over it would only result in multiple nasty wounds. 
+A heavy &+Wfog&* obscures your vision beyond the &+Lfence&*.
+^
+
+choir n:n_aisle3 s:s_aisle3 w:crossbay e:apse;  
+lflags {Dark}
+&+BThe Choir&*^
+   This part of the nave was designed as a convenient place to house the
+choir, in front of and below the altar. It is nothing but a large empty
+chamber now, and the only singing you hear is the cry of &+Lbats&* above 
+which your footsteps have awakened.
+^
+
+n_aisle3 s:choir w:n_tran e:n_amb;
+lflags {Dark}
+North Aisle^
+   Just another action packed, thrilling hallway... the monotony is almost
+too much to bear.
+^
+
+s_aisle3 n:choir w:s_tran e:s_amb;
+lflags {Dark}
+South Aisle^
+   As you reach yet another mind-numbingly dull aisle... your thoughts begin
+to drift. Is it really worth it? Should i continue with this quest? Perhaps
+its better to remain a mortal forever?
+^
+
+apse w:crossbay;    
+lflags {Dark}
+&+WThe Apse&*^
+   You finally reach the apse of this once mighty church. Here above the
+choir, and at the end of the long nave, you see the altar where patrons used
+to pray. It stands before you in shameful condition. Huge chunks of shaped 
+marble litter the floor, remnants of a grand sculptured altarpiece, now in 
+ruin. Behind the altar lies a monstrous wallpainting. Seering &+Rred &+Beyes&*
+gaze down upon you hatefully, and wide grinning mouths show pointed teeth 
+and drip &+rblood&*, under a &+Rreddish&*-&+Mpurple &+Csky&*. 
+^
+
+n_amb w:n_aisle3 e:ne_amb n:n_chap;   
+lflags {Dark}
+Northern Ambulatory^
+   The aisle continues here around the apse. A chapel lies to the north.
+^
+
+n_chap s:n_amb;  
+lflags {Dark Oneperson}
+North Chapel^
+   Inscribed in the marble walls you read:
+       	Herein lies the Holy China Set, used by our lord at his last supper.
+   Despite the inscription, you see that the box in the center of the room is
+   most clearly empty. 
+^
+
+ne_amb w:n_amb s:e_amb n:ne_chap;  
+lflags {Dark}
+Northeastern Ambulatory^
+   The aisle continues here around the apse. A chapel lies to the north.
+^
+
+ne_chap s:ne_amb; 
+lflags {Dark Oneperson}
+Northeast Chapel^
+   Sculpted in low relief in the wall is a crucifix, and at the bottom of the
+wall is an open case made of pure &+Ygold&*. On the inside of its lid it
+describes the contents as a piece of the Crucifix. But you can see no such 
+thing here. The case looks empty.
+^
+
+e_amb n:ne_amb s:se_amb e:e_chap;   
+lflags {Dark}
+Eastern Ambulatory^
+   The aisle continues here around the apse. A chapel lies to the east.
+^
+
+e_chap w:e_amb;  
+lflags {Dark Oneperson}
+East Chapel^
+   This chapel is the largest of the five. The walls here are decorated with
+fine paintings of St. Suorac. Against the wall is a large reliquary, in
+which the bones of St. Suorac were supposed to be stored. Unfortunately they
+never made it here since according to the Priest he was killed by the vampire,
+and the cathedral turned into a &+rdemonic &+blair&*.
+^
+
+se_amb n:e_amb s:se_chap w:s_amb;  
+lflags {Dark}
+Southeastern Ambulatory^
+   The aisle continues here around the apse. A chapel lies to the south.
+^
+
+se_chap n:se_amb; 
+lflags {Dark Oneperson}
+Southeast Chapel^
+   Here you see murals illustrating the life of the Virgin. There is also a 
+&+Cglass&* case in which once was housed the Mantle of The Virgin, but the 
+lid is smashed in.
+^
+
+s_amb w:s_aisle3 e:se_amb s:s_chap;   
+lflags {Dark}
+&+gSouthern Ambulatory^
+   The aisle continues here around the apse. A chapel lies to the south.
+^
+
+s_chap n:s_amb;  
+lflags {Dark Oneperson}
+South Chapel^
+   This reliquary is meant to house the &+Yholy grail&*, fabled to have been
+used by Jesus himself at the last supper. The case is empty, and you see no 
+trace of the &+Ygrail&*. You find it odd that so many churches claim to have 
+the &+Yholy &+Ygrail&*, but you assume that as long as these people think 
+their grail is THE grail, thats all that matters.
+^
+
+/*
+-------------------
+UNDERGROUND
+-------------------
+*/
+
+vaulcham u:^fountain_down n:vaulhall e:lowhall;
+lflags {Dark}
+Vaulted Chamber^
+   The ceiling here is of crude concrete vaulting, with no decorative aspect.
+The hall branches off to the north and east. It is utterly dark and still
+here, and the floor is covered with a thick layer of &+ydust&*.
+^
+
+lowhall s:lowpass w:vaulcham e:^door_lowhall;
+lflags {Dark}
+Low Vaulted Hall^
+   The ceiling in this room is lower, and even more crudely constructed. Bits
+of concrete lie about the floor. To the east is an elegantly crafted door,
+looking very out of place. The low passage continues to the south.
+^
+
+astbed w:^door_astbed;
+lflags {Light}
+&+MAstasia's BedChamber^
+   As you enter the room, you marvel at the huge posterbed before you. The
+room has a rather ethereal quality, and a faint light shines from the
+chandolier hanging from the marble tiled ceiling. In one corner is a 
+magnificently crafted armoire, trimmed with &+Ygold&*. 
+^
+
+lowpass n:lowhall s:cobwebs;
+lflags {Dark}
+Low Passage^
+   The vaulting of the ceilings has abruptly ceased here. This passage looks   
+as if it were carved out of the &+Lrock&* with a shovel, more than anything
+else. To the north lies a vaulted hall. Your view south is blocked by 
+&+Lcobwebs&*.
+^
+
+cobwebs n:lowpass w:milbed;
+lflags {Dark}
+&+LCobwebs^
+   The dimensions of this room seem to be made out by the thicker portions of
+webbing, rather than by walls. you can vaguely make out exits to the north and
+west. In the center of the room is a small bed. Its &+Ybrass&* head and base
+rise 
+a few feet into the air. You feel fear in the gathering gloom, and there's 
+suddenly a movement in the corner of the room. There's nothing you can do, as 
+you realize with &+Rfright&*...
+^
+
+milbed e:cobwebs;
+lflags {Light}
+&+GMillarca's Bedchamber^
+   This room is decked out in fine victorian style, with elegant baseboards
+and trim. A large mirror adorns the wall, and a king-sized canopy bed is
+perched in the center of the room. Plush carpeting cushions your feet as you
+walk. A table sits in the corner, filled with nicknacks.
+^
+
+vaulhall n:eastcat s:vaulcham;
+lflags {Dark}
+Vaulted Hall^
+   The walls here are bare, as is the floor. Heavy &+ydust&* rises to the north.
+^
+
+eastcat s:vaulhall w:catacomb;
+lflags {Dark}
+Eastern Catacombs^
+   Here is where the dead were buried in compartments in the walls, so many
+centuries ago. &+yDust&* covers everything, and you cant see far, having stirred
+up the &+ydust&* upon entering.
+^
+
+catacomb n:^door_catacomb e:eastcat w:westcat;
+lflags {Dark}
+Catacombs^
+   The catacombs continue here and to the east and west. To your north there
+appears to be an opening in the wall large enough for you to squeeze into.
+^
+
+sorbtomb s:^door_sorbtomb;
+lflags {Light}
+&+MThe &+GTomb &+Bof &+YSorbet&*^
+   The place looks like some &+CP&+Rs&+Yy&+Wc&+Bh&+Go&+Md&+Ce&+Rl&+Yi&+Wc
+&+BNightmare&+W! &+RC&+Go&+Yl&+Bo&+Mr&+Cs&* swirl about you,
+engulfing you in illusory images and strange sensations.
+^
+
+westcat s:wolven e:catacomb;
+lflags {Dark}
+Western Catacombs^
+   The &+ydust&* here is chokingly thick, and obscures your vision. You hear
+scraping and panting to the south.
+^
+
+wolven n:westcat w:armhall e:weaphall;
+lflags {Light}
+&+yWolven Hall^
+   You are surrounded by low-relief sculptures of wolves. However, in these
+works the wolves are displayed heroically, rather than as wicked cowardly
+beasts.
+^
+
+armhall e:wolven s:^door_armor;
+lflags {Light}
+&*Hall of &+LArmor^
+   The walls of this room are made up of cubicles, each containing a suit
+of armor and a small plaque describing it. It looks much like a museum 
+exhibit.
+^
+
+secroom n:^door_secroom;
+lflags {Dark}
+Secret Room^
+   I can't tell you what this room looks like. Its a secret. If you grope
+around in the void long enough, perhaps you'll find something.
+^
+
+weaphall w:wolven s:carnage1;
+lflags {Light}
+Hall of Weapons^
+   The floor here is smoothly tiled, as is the high ceiling. Racks line the
+walls, and upon the racks sit weapons of all types from all places and times.
+Whomever built this place seems to have a fascination for collecting fine
+things, or perhaps he just gets bored living for all eternity, and collecting 
+gives him a purpose. A piercing stench rises from the south.
+^
+
+carnage1 n:weaphall s:carnage2;
+lflags {Dark}
+Hall of &+RCarnage&*^
+   You nearly lose your lunch as you enter this place. Stinking &+yrotting&*
+flesh lines the floor, ceiling, and walls. bodies in various stages of 
+&+Ldecay&* line the place. The floor is covered in a thick layer of 
+&+Rreddish &+rooze&*, which must
+be the same stuff which is dripping slowly onto you from above.
+^
+
+carnage2 n:carnage1 w:cryptent;
+lflags {Dark}
+&+RCarnage &+LHall^
+   Row upon row of chairs stretch out around you, and a tiny faraway stage
+commands your attent...  Oh.. thats Carnagie Hall.. My mistake...
+   You stand among more of the same decaying mess as you see to the north.
+An exit to the west looks slightly more inviting.
+^
+
+cryptent n:vamcrypt s:vambed w:^door_crypt e:carnage2;
+lflags {Dark}
+&+LCrypt Entrance^
+   The walls here are made up entirely of hideous snarling gargoyles. The
+dark &+Lgrey&* stone is damp and &+Bcold&* to the touch. You feel a &+Cchill&*
+set in that 
+goes straight to your bones. Exits lead north and south, but you wonder if 
+it isn't better to turn tail and run back to the east. The outline of a door
+marks the wall to the west. No handles or other markings appear on the wall.
+^
+
+vambed n:cryptent w:^door_vambed;
+lflags {Light}
+The &+rVampire's &+gBedchamber^
+   As you step in, you nearly trip, as the floor is not too solid. You notice
+that the floor here is one big mattress. The room itself is dome-shaped.
+Piles and piles of pillows of all shapes and sizes line the walls. There is
+a small door in the west wall.
+^
+
+library e:^door_library;
+lflags {Light Soundproof Private}
+The Library^
+   This is LeSuorac's private library. Here you see shelf upon shelf of fine 
+volumes. As you browse you notice the works of Anne Rice have a prominent
+place in this library. In the corner is a copy machine, but it doesn't
+accept change, only those silly little copy cards.
+^
+
+vamcrypt s:cryptent;
+lflags {Light}
+The &+rVampire's &+LCrypt^
+   The walls here alternate between towering engaged corinthian columns and
+flat surfaces of marble brickwork. Flowing red velvet drapery falls between 
+the columns. High above, shrouded in mist, is the single groin-vault that
+forms the ceiling of this crypt. Your breath echoes off the walls, disturbing 
+the solitude that this chamber provides. The space is dominated by a platform
+upon which rests a lone sarcophagus.
+^
+
+reliq e:^door_reliq;
+lflags {Dark Oneperson}
+The Secret Reliquary^
+   There is little to see here in this tiny round chamber. The whole thing is
+crudely built of blocks of &+Lstone&*, and you have to duck down just to stand.^
+^

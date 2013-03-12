@@ -1,0 +1,1429 @@
+
+
+
+%rainfall:820
+%latitude:36
+%mobiles
+
+Name = mobZZ01 
+Pname = "the Shaggy Monk"
+Location = bullZZ03
+SFlags  {Blind}
+PFlags  {}
+MFlags  {PickStuff  }
+Strength = 200
+Damage = 13
+Armor = 16
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "A shaggy monk stands here quietly.  "
+Examine = "This man looks like an ordinary monk, except he is really
+quite a big fella, and seems to have a lot of very fine
+brown body hair, even on his palms.. *stare*
+"
+End = mobZZ01 
+
+Name = mobZZ02
+Pname = "the Silver Statue"
+Location = bullZZ04
+SFlags  {Blind}
+PFlags  {}
+MFlags  { }
+Strength = 190
+Damage = 20
+Armor = 18
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A silver statue has posted itself in the corner.  "
+Examine = "Well, It doesn't APPEAR to be human.  It looks like a suit of
+armor, but why the heck did it just turn to look at you?
+"
+End = mobZZ02
+
+Name = mobZZ02_1
+Pname = "the Silver Statue"
+Location = bullZZ06
+SFlags  {Blind}
+PFlags  {}
+MFlags  { }
+Strength = 190
+Damage = 20
+Armor = 18
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A silver statue has posted itself in the corner.  "
+Examine = "Well, It doesn't APPEAR to be human.  It looks like a suit of
+armor, but why the heck did it just turn to look at you?
+"
+End = mobZZ02_1
+
+Name = mobZZ02_2
+Pname = "the Silver Statue"
+Location = bullZZ10
+SFlags  {Blind}
+PFlags  {}
+MFlags  { }
+Strength = 190
+Damage = 20
+Armor = 18
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A silver statue has posted itself in the corner.  "
+Examine = "Well, It doesn't APPEAR to be human.  It looks like a suit of
+armor, but why the heck did it just turn to look at you?
+"
+End = mobZZ02_2
+
+Name = mobZZ02_3
+Pname = "the Silver Statue"
+Location = bullZZ12
+SFlags  {Blind}
+PFlags  {}
+MFlags  { }
+Strength = 190
+Damage = 20
+Armor = 18
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A silver statue has posted itself in the corner.  "
+Examine = "Well, It doesn't APPEAR to be human.  It looks like a suit of
+armor, but why the heck did it just turn to look at you?
+"
+End = mobZZ02_3
+
+Name = mobZZ03
+Pname = "the templar of Mateon"
+Location = bullZZ19
+SFlags  {Blind}
+PFlags  {}
+MFlags  { }
+Strength = 260
+Damage = 21
+Armor = 20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "Mateon's Templar is here, looking out the window.  "
+Examine = "This man has dedicated his life to Mateon, and the man behind
+the mask.  He turns from the window and stares at you blankly.
+"
+End = mobZZ03
+
+Name = mobZZ03_1
+Pname = "the templar of Mateon"
+Location = bullZZ16
+SFlags  {Blind}
+PFlags  {}
+MFlags  { }
+Strength = 260
+Damage = 21
+Armor = 20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "Mateon's Templar is here, looking out the window.  "
+Examine = "This man has dedicated his life to Mateon, and the man behind
+the mask.  He turns from the window and stares at you blankly.
+"
+End = mobZZ03_1
+
+Name = mobZZ03_2
+Pname = "the templar of Mateon"
+Location = bullZZ18
+SFlags  {Blind}
+PFlags  {}
+MFlags  { }
+Strength = 260
+Damage = 21
+Armor = 20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "Mateon's Templar is here, looking out the window.  "
+Examine = "This man has dedicated his life to Mateon, and the man behind
+the mask.  He turns from the window and stares at you blankly.
+"
+End = mobZZ03_2
+
+Name = mobZZ03_3
+Pname = "the templar of Mateon"
+Location = bullZZ20
+SFlags  {Blind}
+PFlags  {}
+MFlags  { }
+Strength = 260
+Damage = 21
+Armor = 20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "Mateon's Templar is here, looking out the window.  "
+Examine = "This man has dedicated his life to Mateon, and the man behind
+the mask.  He turns from the window and stares at you blankly.
+"
+End = mobZZ03_3
+
+Name = mobZZ04
+Pname = "the grand knight Mateon"
+Location = bullZZ14
+SFlags  {Blind}
+PFlags  {}
+MFlags  { }
+Strength = 440
+Damage = 31
+Armor = 26
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "Mateon, defender of the Bull, scowers at you!  "
+Examine = "Mateon is a HUGE man.  A huge ANGRY man.  He will NOT
+let you NEAR the man behind the mask.
+"
+End = mobZZ04
+
+Name = mobZZ05
+Pname = "the Chambermaid"
+Location = bullZZ20
+SFlags  {Female }
+PFlags  {}
+MFlags  {}
+Strength = 110
+Damage = 13
+Armor = 14
+Aggression = 0
+Speed = 0
+Wimpy = 25
+Visibility = 0
+Description = "A Chambermaid is here, desperately trying to straighten up.  "
+Examine = "The Chambermaid looks harried, and glances at you with fear
+in her eyes.
+"
+End = mobZZ05
+
+Name = mobZZ06
+Pname = "Taurus"
+Location = bullZZ22
+SFlags  {Blind}
+PFlags  {}
+MFlags  { }
+Strength = 750
+Damage = 32
+Armor = 0
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "A man wearing a golden mask watches you.  "
+Examine = "You look at this man, and then notice something funny.  It seems 
+to be difficult for him to stand on two legs.  As you watch, he
+drops to all fours.  You see a glimpse of fur under his cloak.
+He peels the mask off and you stare into his brown eyes, and big,
+wet, black nose.  'Nice nose ring', you think.
+"
+End = mobZZ06
+
+Name = mobZZ07
+Pname = "an acolyte"
+Location = bullZZ05
+SFlags  {Blind}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 110
+Damage = 14
+Armor = 14
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "An acolyte is here, looking for a broom.  "
+Examine = "The acolyte wanders around, looking for a broom.  He is
+making a heroic attempt to ignore you.
+"
+End = mobZZ07
+
+Name = mobZZ07_1
+Pname = "an acolyte"
+Location = bullZZ07
+SFlags  {Blind}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 110
+Damage = 14
+Armor = 14
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "An acolyte is here, looking for a broom.  "
+Examine = "The acolyte wanders around, looking for a broom.  He is
+making a heroic attempt to ignore you.
+"
+End = mobZZ07_1
+
+Name = mobZZ07_2
+Pname = "an acolyte"
+Location = bullZZ09
+SFlags  {Blind}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 110
+Damage = 14
+Armor = 14
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "An acolyte is here, looking for a broom.  "
+Examine = "The acolyte wanders around, looking for a broom.  He is
+making a heroic attempt to ignore you.
+"
+End = mobZZ07_2
+
+Name = mobZZ07_3
+Pname = "an acolyte"
+Location = bullZZ11
+SFlags  {Blind}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 110
+Damage = 14
+Armor = 14
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "An acolyte is here, looking for a broom.  "
+Examine = "The acolyte wanders around, looking for a broom.  He is
+making a heroic attempt to ignore you.
+"
+End = mobZZ07_3
+
+Name = mobZZ07_4
+Pname = "an acolyte"
+Location = bullZZ16
+SFlags  {Blind}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 110
+Damage = 14
+Armor = 14
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "An acolyte is here, looking for a broom.  "
+Examine = "The acolyte wanders around, looking for a broom.  He is
+making a heroic attempt to ignore you.
+"
+End = mobZZ07_4
+
+Name = mobZZ07_5
+Pname = "an acolyte"
+Location = bullZZ18
+SFlags  {Blind}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 110
+Damage = 14
+Armor = 14
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "An acolyte is here, looking for a broom.  "
+Examine = "The acolyte wanders around, looking for a broom.  He is
+making a heroic attempt to ignore you.
+"
+End = mobZZ07_5
+
+%objects
+
+Name = north_bullZZ01
+Pname = north
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ01
+Examine = "You see the entrance to the temple.
+"
+End = north_bullZZ01
+
+Name = grass
+Location = IN_ROOM:bullZZ01
+Oflags { Noget }
+Examine = "Looks like an average grass stalk.  You pluck one and put it
+in your mouth.
+" 
+End = grass
+
+Name = south_bullZZ02
+Pname = south
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ02
+Examine = "Looks like a field back there.
+"
+End = south_bullZZ02
+
+Name = north_bullZZ02
+Pname = north
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ02
+Examine = "There is an arch to the north.
+"
+End = north_bullZZ02
+
+Name = south_bullZZ03
+Pname = south
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ03
+Examine = "You see a spot to stand before the temple.
+"
+End = south_bullZZ03
+
+Name = door_bullZZ05
+Pname = door
+Linked = door_bullZZ03
+State = 2
+Maxstate = 2 
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The marble door is locked."
+Desc[1] = "The marble door is closed."
+Desc[0] = "The marble door is open."
+Location = IN_ROOM:bullZZ03
+Examine = "You see a great marble door.  It has a VERY nice polish.
+"
+End = door_bullZZ05
+
+Name = marble
+Location = IN_ROOM:bullZZ03
+Oflags { Noget }
+Examine = "It is a remarkably well polished marble door.
+" 
+End = marble
+
+Name = north_bullZZ04
+Pname = north
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ04
+Examine = "You see a room in the temple.
+"
+End = north_bullZZ04
+
+Name = east_bullZZ04
+Pname = east
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ04
+Examine = "You see a room in the temple.
+"
+End = east_bullZZ04
+
+Name = east_bullZZ05
+Pname = east
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ05
+Examine = "You see a room in the temple.
+"
+End = east_bullZZ05
+
+Name = door_bullZZ03
+Pname = door
+Altname = marble
+Linked = door_bullZZ05
+State = 2
+Maxstate = 2 
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The marble door is locked."
+Desc[1] = "The marble door is closed."
+Desc[0] = "The marble door is open."
+Location = IN_ROOM:bullZZ05
+Examine = "You see the archway.
+"
+End = door_bullZZ03
+
+Name = north_bullZZ06
+Pname = north
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ06
+Examine = "You see a room in the temple.
+"
+End = north_bullZZ06
+
+Name = west_bullZZ06
+Pname = west
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ06
+Examine = "You see a room in the temple.
+"
+End = west_bullZZ06
+
+Name = north_bullZZ07
+Pname = north
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ07
+Examine = "There is a stairwell to the north.
+"
+End = north_bullZZ07
+
+Name = east_bullZZ07
+Pname = east
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ07
+Examine = "You see a small garden to the east.
+"
+End = east_bullZZ07
+
+Name = south_bullZZ07
+Pname = south
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ07
+Examine = "You see a room in the temple.
+"
+End = south_bullZZ07
+
+Name = north_bullZZ08
+Pname = north
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ08
+Examine = "You see a room in the temple.
+"
+End = north_bullZZ08
+
+Name = east_bullZZ08
+Pname = east
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ08
+Examine = "You see a room in the temple.
+"
+End = east_bullZZ08
+
+Name = west_bullZZ08
+Pname = west
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ08
+Examine = "You see a room in the temple.
+"
+End = west_bullZZ08
+
+Name = brook
+Location = IN_ROOM:bullZZ08
+Oflags { Noget }
+Examine = "What a nice little bubbling brook!
+" 
+End = brook
+
+Name = plants
+Location = IN_ROOM:bullZZ08
+Oflags { Noget }
+Examine = "They seem to be doing very well, someone around here has a green thumb.
+" 
+End = plants
+
+Name = north_bullZZ09
+Pname = north
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ09
+Examine = "There seems to be a stairwell to the north.
+"
+End = north_bullZZ09
+
+Name = south_bullZZ09
+Pname = south
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ09
+Examine = "You see a room in the temple.
+"
+End = south_bullZZ09
+
+Name = west_bullZZ09
+Pname = west
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ09
+Examine = "There is a small garden over there.
+"
+End = west_bullZZ09
+
+Name = south_bullZZ10 
+Pname = south
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ10 
+Examine = "You see a room in the temple.
+"
+End = south_bullZZ10 
+
+Name = up_bullZZ10 
+Pname = up
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ10 
+Examine = "You can't really see much up those stairs.
+"
+End = up_bullZZ10 
+
+Name = stairwell
+Location = IN_ROOM:bullZZ10 
+Oflags { Noget }
+Examine = "A work of great craftmanship!
+" 
+End = stairwell
+
+Name = south_bullZZ11
+Pname = south
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ11
+Examine = "There is a small garden to the south.
+"
+End = south_bullZZ11
+
+Name = sign
+Location = IN_ROOM:bullZZ11
+Oflags { Noget }
+Examine = "
+	  *-*-* Temple of the Bull *-*-*
+	  *                            *
+	  *        Written by:         *
+	  *    Aten of GenericMUD      *
+	  *        March 1994          *
+	  *                            *
+	  *-*-*-*-* o==[=====- *-*-*-*-*
+
+	  #=#=#=#=#=#=#=#=#=#=#=#=#=#=#
+	  # Converted to Aber format  #
+	  # using ZGEN, modified and  #
+	  # polished by Crimefighter  #
+	  #=#=#=#=#=#=#=#=#=#=#=#=#=#=# 
+" 
+End = sign
+
+Name = south_bullZZ12
+Pname = south
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ12
+Examine = "You see a room in the temple.
+"
+End = south_bullZZ12
+
+Name = up_bullZZ12
+Pname = up
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ12
+Examine = "You can't really see much up those stairs.
+"
+End = up_bullZZ12
+
+Name = south_bullZZ13
+Pname = south
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ13
+Examine = "You see a corridor.
+"
+End = south_bullZZ13
+
+Name = down_bullZZ13
+Pname = down
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ13
+Examine = "You see the bottom of the stairs.
+"
+End = down_bullZZ13
+
+Name = mural
+Altname = murals
+Location = IN_ROOM:bullZZ13
+Oflags { Noget }
+Examine = "The mural shows a great shaggy beast with two pointed horns.
+" 
+End = mural
+
+Name = fur
+Altname = furs
+Location = IN_ROOM:bullZZ13
+Oflags { Noget }
+Examine = "The fur is brown, short, and coarse.
+" 
+End = fur
+
+Name = door_bullZZ15
+Pname = door
+Altname = oak
+Linked = door_bullZZ14
+State = 2
+Maxstate = 2 
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The oak door is locked."
+Desc[1] = "The oak door is closed."
+Desc[0] = "The oak door is open."
+Location = IN_ROOM:bullZZ14
+Examine = "There is an oak door there.
+"
+End = door_bullZZ15
+
+Name = windowa
+Pname = window
+Location = IN_ROOM:bullZZ14
+Oflags { Noget }
+Examine = "The window overlooks a grassy field.
+" 
+End = windowa
+
+Name = south_bullZZ15
+Pname = south
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ15
+Examine = "Looks like a corridor.
+"
+End = south_bullZZ15
+
+Name = door_bullZZ14
+Pname = door
+Altname = oak
+Linked = door_bullZZ15
+State = 2
+Maxstate = 2 
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The oak door is locked."
+Desc[1] = "The oak door is closed."
+Desc[0] = "The oak door is open."
+Location = IN_ROOM:bullZZ15
+Examine = "There is an oak door there.
+"
+End = door_bullZZ14
+
+Name = down_bullZZ15
+Pname = down
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ15
+Examine = "You see the bottom of the stairs.
+"
+End = down_bullZZ15
+
+Name = north_bullZZ16
+Pname = north
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ16
+Examine = "You see the stairway.
+"
+End = north_bullZZ16
+
+Name = south_bullZZ16
+Pname = south
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ16
+Examine = "Woah..looks like a dead end.  You get the chills.
+"
+End = south_bullZZ16
+
+Name = balconya
+Pname = balcony
+Location = IN_ROOM:bullZZ16
+Oflags { Noget }
+Examine = "Its a simple piece of polished wood.  You can see the gardens below.
+" 
+End = balconya
+
+Name = windowb
+Pname = window
+Location = IN_ROOM:bullZZ16
+Oflags { Noget }
+Examine = "The window overlooks a grassy field.
+" 
+End = windowb
+
+Name = north_bullZZ18
+Pname = north
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ18
+Examine = "You see the stairway.
+"
+End = north_bullZZ18
+
+Name = south_bullZZ18
+Pname = south
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ18
+Examine = "Can't really see much..its rather dark over there.
+"
+End = south_bullZZ18
+
+Name = windowc
+Pname = window
+Location = IN_ROOM:bullZZ18
+Oflags { Noget }
+Examine = "The window looks down upon a grassy field.
+" 
+End = windowc
+
+Name = balcony
+Location = IN_ROOM:bullZZ18
+Oflags { Noget }
+Examine = "Its a simple piece of polished wood.  You can see the gardens below.
+" 
+End = balcony
+
+Name = north_bullZZ19
+Pname = north
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ19
+Examine = "You see the corridor.
+"
+End = north_bullZZ19
+
+Name = door_bullZZ21
+Pname = door
+Altname = iron
+Linked = door_bullZZ20
+State = 2 
+Maxstate = 2 
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The heavy iron door is locked."
+Desc[1] = "The heavy iron door is closed."
+Desc[0] = "The heavy iron door is open."
+Location = IN_ROOM:bullZZ20
+Examine = "A heavy iron door is there.
+"
+End = door_bullZZ21
+
+Name = south_bullZZ20
+Pname = south
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ20
+Examine = "You see the balcony over there.
+"
+End = south_bullZZ20
+
+Name = shelves
+Location = IN_ROOM:bullZZ20
+Oflags { Noget }
+Examine = "The shelves have been swept clean.
+" 
+End = shelves
+
+Name = windowd
+Pname = window
+Location = IN_ROOM:bullZZ20
+Oflags { Noget }
+Examine = "Its a great, big walk-through window.
+" 
+End = windowd
+
+Name = north_bullZZ21
+Pname = north
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ21
+Examine = "You see the corridor.
+"
+End = north_bullZZ21
+
+Name = door_bullZZ20
+Pname = door
+Altname = iron
+Linked = door_bullZZ21
+State = 2
+Maxstate = 2 
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The heavy iron door is locked."
+Desc[1] = "The heavy iron door is closed."
+Desc[0] = "The heavy iron door is open."
+Location = IN_ROOM:bullZZ21
+Examine = "A heavy iron door is there.
+"
+End = door_bullZZ20
+
+Name = north_bullZZ22
+Pname = north
+Oflags = { NoGet }
+Location = IN_ROOM:bullZZ22
+Examine = "You see the Bull's Chamber.
+"
+End = north_bullZZ22
+
+Name = objZZ01
+Pname = cape
+Altname = fur
+Location = WORN_BY:mobZZ07_4
+State = 0
+Maxstate = 0
+Armor = 70
+Bvalue = 100
+Size = 4
+Weight = 4
+Oflags { Wearable Armor }
+Aflags { Back }
+Desc[0] = "A brown fur cape is piled on the floor here"
+Examine = "It is a rather coarse brown cape.  
+"
+End = objZZ01
+
+Name = objZZ01_1
+Pname = cape
+Altname = fur
+Location = WORN_BY:mobZZ07_5
+State = 0
+Maxstate = 0
+Armor = 70
+Bvalue = 100
+Size = 4
+Weight = 4
+Oflags { Wearable Armor }
+Aflags { Back }
+Desc[0] = "A brown fur cape is piled on the floor here"
+Examine = "It is a rather coarse brown cape.  
+"
+End = objZZ01_1
+
+Name = objZZ01_2
+Pname = cape
+Altname = fur
+Location = WORN_BY:mobZZ03
+State = 0
+Maxstate = 0
+Armor = 70
+Bvalue = 100
+Size = 4
+Weight = 4
+Oflags { Wearable Armor }
+Aflags { Back }
+Desc[0] = "A brown fur cape is piled on the floor here"
+Examine = "It is a rather coarse brown cape.  
+"
+End = objZZ01_2
+
+Name = objZZ01_3
+Pname = cape
+Altname = fur
+Location = WORN_BY:mobZZ04
+State = 0
+Maxstate = 0
+Armor = 70
+Bvalue = 100
+Size = 4
+Weight = 4
+Oflags { Wearable Armor }
+Aflags { Back }
+Desc[0] = "A brown fur cape is piled on the floor here"
+Examine = "It is a rather coarse brown cape.  
+"
+End = objZZ01_3
+
+Name = objZZ02
+Pname = Sword
+Location = WIELDED_BY:mobZZ02
+State = 0
+Maxstate = 0
+Damage = 12
+Bvalue = 10
+Size = 9
+Weight = 9
+Oflags {  Weapon }
+Desc[0] = "An straight sword is stuck in the ground here"
+Examine = "The sword looks rather old.
+"
+End = objZZ02
+
+Name = objZZ02_1
+Pname = Sword
+Location = WIELDED_BY:mobZZ02_1
+State = 0
+Maxstate = 0
+Damage = 12
+Bvalue = 10
+Size = 9
+Weight = 9
+Oflags {  Weapon }
+Desc[0] = "An straight sword is stuck in the ground here."
+Examine = "The sword looks rather old.
+"
+End = objZZ02_1
+
+Name = objZZ02_2
+Pname = Sword
+Location = WIELDED_BY:mobZZ02_2
+State = 0
+Maxstate = 0
+Damage = 12
+Bvalue = 10
+Size = 9
+Weight = 9
+Oflags {  Weapon }
+Desc[0] = "An straight sword is stuck in the ground here."
+Examine = "The sword looks rather old.
+"
+End = objZZ02_2
+
+Name = objZZ02_3
+Pname = Sword
+Location = WIELDED_BY:mobZZ02_3
+State = 0
+Maxstate = 0
+Damage = 12
+Bvalue = 10
+Size = 9
+Weight = 9
+Oflags {  Weapon }
+Desc[0] = "An straight sword is stuck in the ground here."
+Examine = "The sword looks rather old.
+"
+End = objZZ02_3
+
+Name = objZZ03
+Pname = staff
+Altname = seasoned
+Location = WIELDED_BY:mobZZ03
+State = 0
+Maxstate = 0
+Damage = 15
+Bvalue = 30
+Size = 9
+Weight = 9
+Oflags {  Weapon }
+Desc[0] = "A well seasoned staff has been dropped here."
+Examine = "It looks like a seasoned staff.  Probably good for hitting people.
+"
+End = objZZ03
+
+Name = objZZ03_1
+Pname = staff
+Altname = seasoned
+Location = WIELDED_BY:mobZZ04
+State = 0
+Maxstate = 0
+Damage = 15
+Bvalue = 30
+Size = 9
+Weight = 9
+Oflags {  Weapon }
+Desc[0] = "A well seasoned staff has been dropped here."
+Examine = "It looks like a seasoned staff.  Probably good for hitting people.
+"
+End = objZZ03_1
+
+Name = objZZ04
+Pname = mop
+Altname = wet
+Location = CARRIED_BY:mobZZ05
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 5
+Weight = 5
+Oflags { Cursed  }
+Desc[0] = "A soaking wet mop is here, making a puddle."
+Examine = "Yuck, its a smelly wet mop..better run before you have to mop something.
+"
+End = objZZ04
+
+Name = objZZ05
+Pname = key
+Altname = marble
+Location = CARRIED_BY:mobZZ01
+State = 0
+Maxstate = 0
+Bvalue = 50
+Size = 1
+Weight = 1
+Oflags { Destroyed Key }
+Desc[0] = "A marble key lies here, gathering dust."
+Examine = "Its a small marble key, would fit in a marble door methinks.
+"
+End = objZZ05
+
+Name = objZZ06
+Pname = key
+Altname = oak
+Location = CARRIED_BY:mobZZ03
+State = 0
+Maxstate = 0
+Bvalue = 50
+Size = 1
+Weight = 1
+Oflags { Destroyed Key }
+Desc[0] = "An oak key rests here."
+Examine = "It's a small oak key, would fit in an oak door methinks.
+"
+End = objZZ06
+
+Name = objZZ07
+Pname = key
+Altname = iron
+Location = CARRIED_BY:mobZZ04
+State = 0
+Maxstate = 0
+Bvalue = 50
+Size = 1
+Weight = 1
+Oflags { Destroyed Key }
+Desc[0] = "An iron key lies here, rusting."
+Examine = "It's an iron key, would fit in an iron door methinks.
+"
+End = objZZ07
+
+Name = objZZ08 
+Pname = ring
+Altname = taurus
+Location = WORN_BY:mobZZ06
+State = 0
+Maxstate = 0
+Armor = 70
+Bvalue = 50
+Size = 1
+Weight = 1
+Oflags { Glowing Wearable Armor }
+Aflags { Hand }
+Desc[0] = "A ring shaped like a bull lies here."
+Examine = "It is a ring with a golden bull insignia.
+"
+End = objZZ08 
+
+Name = objZZ10
+Pname = cloak
+Altname = fur
+Location = WORN_BY:mobZZ06
+State = 0
+Maxstate = 0
+Armor = 98
+Bvalue = 30
+Size = 10
+Weight = 10
+Oflags { Wearable Armor }
+Aflags { Back }
+Desc[0] = "A great fur cloak is here."
+Examine = "This was once the skin of a great bull.
+"
+End = objZZ10
+
+Name = objZZ11
+Pname = mask
+Altname = horned
+Location = WORN_BY:mobZZ06
+State = 0
+Maxstate = 0
+Armor = 70
+Bvalue = 60
+Size = 3
+Weight = 3
+Oflags   { Glowing Wearable Armor }
+Aflags { Face }
+Desc[0] = "A mask with two wicked horns rests here."
+Examine = "This mask is made out of pure gold, and has two wicked horns.
+"
+End = objZZ11
+
+Name = objZZ12
+Pname = bible
+Altname = wabat
+Location = IN_ROOM:bullZZ17
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 10
+Weight = 10
+Oflags { Glowing Enchanted Noget }
+Desc[0] = "A strange looking bible sits here on the table."
+Examine = "The WABAT bible is printed thus:
+
+I.   Thou shalt behave with honor at all times.
+II.  Thou shalt shalt disperse thy enemies with thy sword.
+III. Thou shalt defend WABAT and those who cannot 
+     defend themselves.
+IV.  Thou shalt have no guilds before WABAT.
+V.   Thou shalt kill those who take the name of WABAT in vain.
+
+Thus speaketh the WABAT bible.
+
+(Hmmmmm.....okay.)
+"
+End = objZZ12
+
+Name = objZZ13
+Pname = Dagger
+Altname = Fire
+Location = IN_ROOM:limbo@limbo
+State = 0
+Maxstate = 0
+Damage = 30
+Bvalue = 0
+Size = 10
+Weight = 10
+Oflags {  Lit Weapon Noget }
+Desc[0] = "A burning dagger is lying here, but it's not for mortals!"
+Examine = "A thin stream of fire runs from the dagger's leather bound hilt to
+its razor sharp tip.
+"
+End = objZZ13
+
+Name = objZZ14
+Pname = Chainmail
+Altname = Old
+Location = IN_ROOM:limbo@limbo
+State = 0
+Maxstate = 0
+Armor = 70
+Bvalue = 0
+Size = 10
+Weight = 10
+Oflags {  Lit Wearable Armor Noget }
+Aflags { Chest Back Arms }
+Desc[0] = "A set of old chainmail is here, but it's not for mortals!"
+Examine = "Wow! A suit of old chainmail! Who told you these things don't
+exist anymore?
+"
+End = objZZ14
+
+Name = objZZ15
+Pname = Cloak
+Altname = Holy
+Location = IN_ROOM:limbo@limbo
+State = 0
+Maxstate = 0
+Armor = 200
+Bvalue = 0
+Size = 10
+Weight = 10
+Oflags {  Lit Wearable Armor Noget }
+Aflags { Neck }
+Desc[0] = "A holy cloak lies here, but it's not for mortals!"
+Examine = "It is a holy cloak, crafted by the gods.
+"
+End = objZZ15
+
+Name = objZZ16
+Pname = leggings
+Altname = fur
+Location = WORN_BY:mobZZ06
+State = 0
+Maxstate = 0
+Armor = 49
+Bvalue = 100
+Size = 5
+Weight = 5
+Oflags { Wearable Armor }
+Aflags { Legs }
+Desc[0] = "A pair of brown fur leggings lie on the ground here"
+Examine = "They seem to have been stripped off of a Bull.
+"
+End = objZZ16
+
+Name = objZZ17
+Pname = horn
+Altname = twisted
+Location = WORN_BY:mobZZ06
+State = 0
+Maxstate = 0
+Armor = 70
+Bvalue = 20
+Size = 2
+Weight = 2
+Oflags { Glowing Wearable Armor }
+Aflags { Hand }
+Desc[0] = "A twisted piece of horn has been dropped here"
+Examine = "It is a highly polished piece of horn, might fit on your wrist.
+"
+End = objZZ17
+
+Name = ravashem
+Altname = volume
+Location = IN_ROOM:bullZZ20
+Oflags { NoGet Destroyed }
+Desc[0] = "A volume describing the language of the Ravashem rests here."
+Examine = "
+It seems this cult has acquired this form of speech through their interaction 
+with bulls that allows them to hold long conversations. After a while, all of
+these odd words begin to make sense. You feel capable of speaking Ravashem 
+now, almost as well as your native language."
+End = ravashem
+
+%locations
+
+bullZZ01 n:bullZZ02 s:sherwood3@sherwood;
+Altitude = 800
+lflags { NoMobiles Outdoors }
+A Grassy Field^
+	You are travelling across a great &+Ggrassy&* field.  The
+wind blows softly, causing the ripe ends of the grass stalks 
+to bob lazily back and forth.  To the &+Gnorth&* you spy what appears
+to be some sort of temple, its great white walls blazing with 
+the light of the sun.
+^
+
+bullZZ02 n:bullZZ03 s:bullZZ01;
+Altitude = 800
+lflags { NoMobiles Outdoors }
+Before the Temple^
+	The dazzling white stone walls of the temple momentarily
+blind you.  Great columns are spaced evenly around the perimeter
+of the temple, and an arch beckons you inside.
+^
+
+bullZZ03 n:^door_bullZZ05 s:bullZZ02;
+lflags {   }
+Under the Arch^
+	Your eyes slowly adjust to the level of darkness under the 
+protective shade of the arch.  To the north is a great &+Cmarble&* door,
+which seems to be the best way to get inside the temple.  "Why the
+heck to I want to go in there ?", you think to yourself.  You shrug
+your shoulders and suddenly get the feeling that you are being watched.
+^
+
+bullZZ04 n:bullZZ07 e:bullZZ05;
+lflags {   }
+The Temple^
+	The echo of you footsteps reverberates through the temple.
+Everything is white, the tiled floor, the walls, the ceiling.....
+^
+
+bullZZ05 s:^door_bullZZ03 w:bullZZ04 e:bullZZ06;
+lflags {   }
+The Temple^
+	The echo of your footsteps reverberates through the temple.
+Everything is white, the tiled floors, the walls, the ceiling.....
+^
+
+bullZZ06 n:bullZZ09 w:bullZZ05;
+lflags {   }
+The Temple^
+	The echo of your footsteps reverberates through the temple.
+Everything is white, the tiled floor, the walls, the ceiling.....
+^
+
+bullZZ07 n:bullZZ10 s:bullZZ04 e:bullZZ08;
+lflags {   }
+The Temple^
+	The echo of your footsteps reverberates through the temple.
+Everything is white, the tiled floor, the walls, the ceiling.....
+^
+
+bullZZ08 n:bullZZ11 w:bullZZ07 e:bullZZ09;
+Altitude = 800
+lflags { Outdoors }
+The Atrium and Gardens^
+	Beautiful green &+Gplants&* wind around bamboo poles here, leaves
+outfolded to catch the sun's rays coming in from the open sky.  The
+smell of rich dark earth overwhelms your senses, and a small &+Bbrook
+winds beneath your feet.
+^
+
+bullZZ09 n:bullZZ12 s:bullZZ06 w:bullZZ08;
+lflags {   }
+The Temple^
+	The echo of your footsteps reverberates through the temple.
+Everything is white, the tiled floor, the walls, the ceiling.....
+^
+
+bullZZ10  s:bullZZ07 u:bullZZ13;
+lflags {   }
+The Stairwell^
+	There is a beautiful curving &+Cstairwell&* leading upwards.  It 
+seems to have been carved directly from stone.
+^
+
+bullZZ11 s:bullZZ08;
+lflags {   }
+The Temple^
+	The echo of your footsteps reverberates through the temple.
+Everything is white, the tiled floor, the walls, the ceiling.....
+There is a nice framed &+Csign &*on the north wall.
+^
+
+bullZZ12 s:bullZZ09 u:bullZZ15;
+lflags {   }
+The Stairwell^
+	There is a beautiful curving stairwell leading upwards.  It 
+seems to have been carved directly from stone.
+^
+
+bullZZ13 s:bullZZ16 d:bullZZ10;
+lflags {  Dark  }
+The Upper Temple^
+	You find yourself in a small room atop the stairs.  Strangely
+enough, this part of the temple has decorations.  The walls are covered
+with &+Cmurals&* and &+Cfurs&*.  A corridor leads off the the south, and the 
+stairs offer a retreat downwards.
+^
+
+bullZZ14 e:^door_bullZZ15;
+lflags {   }
+Mateon's Chamber^
+	You find yourself in a small, cramped chamber.  A &+Cwindow
+is set in the north wall, and a sturdy oak door is to the east.
+^
+
+bullZZ15 s:bullZZ18 w:^door_bullZZ14 u:bullZZ17 d:bullZZ12;
+lflags {  Dark  }
+The Upper Temple^
+	You find yourself atop a flight of stairs.  A sturdy oak door
+is to the west, a corridor leads south, and the stairs offer a path
+downwards.
+^
+
+bullZZ16 n:bullZZ13 s:bullZZ19;
+lflags {   }
+The Corridor^
+	You are standing in a drafty corridor.  There is a &+Cwindow&* set
+in the west wall, and a &+Cbalcony&* to the east protects you from falling
+down into the gardens.
+^
+
+bullZZ17 d:bullZZ15;
+lflags { NoMobiles }
+Aten's Chamber^
+	You are standing in a comfortable chamber.  Sunlight streams
+in the the open windows, and a warm spring breeze ruffles your hair.
+Thick furs cover the stone walls and floor.  A stained oak table
+dominates the center of the room, and couches line the walls.  You
+look out the window and are vaguely surprised that you can't see 
+the ground.          
+^
+
+bullZZ18 n:bullZZ15 s:bullZZ21;
+lflags {   }
+The Corridor^
+	You are standing in a drafty corridor.  There is a &+Cwindow&* set
+in the east wall, and a &+Cbalcony&* to the west protects you from falling
+into the gardens.
+^
+
+bullZZ19 n:bullZZ16;
+lflags {   }
+The Cul-de-Sac^
+	The corridor comes to an abrupt halt here, and the only
+exit appears to be back the way you came.
+^
+
+bullZZ20 s:bullZZ22 e:^door_bullZZ21;
+lflags {   }
+The Bull's Chamber^
+	This room is in TOTAL dissaray.  Items seem to have been 
+swept of the room's numerous &+yshelves&* and just dumped on the floor.
+The room has an unfamiliar smell, and you wrinkle your nose in
+disgust.  An great sliding &+Cwindow&* is open to the south and leads to 
+the balcony, and a heavy iron door is to the east. 
+^
+
+bullZZ21 n:bullZZ18 w:^door_bullZZ20;
+lflags {  Dark  }
+The Dark Chamber^
+	You are in a shadowy chamber, and the hairs at the back of 
+your neck begin to rise.  There is so little light in this room that
+you start to imagine things..or do you?  You know for certain that
+you spotted a door to the west when you first entered.
+^
+
+bullZZ22 n:bullZZ20;
+lflags { Outdoors }
+The Balcony^
+	You sense that you have reached journey's end.  The balcony
+overlooks a great grassy field.  The sun's rays blind you, and you 
+hear a snort.
+^
+

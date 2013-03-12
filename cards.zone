@@ -1,0 +1,2090 @@
+
+
+
+%rainfall:0
+
+%latitude:0
+
+%mobiles
+
+Name = Dealer
+Pname = "The Dealer"
+Location = cards1
+Strength = 20
+Damage = 4
+Armor = 0
+Speed = 2
+Mflags { Pickstuff }
+Description = "The Dealer is here, shuffling the cards."
+Examine = "He's what any dealer looks like, wearing a tux and a visor."
+End = Dealer
+
+Name = Host
+Pname = "The Host"
+Location = cards2
+Strength = 20
+Damage = 4
+Armor = 0
+Speed = 2
+Mflags { Pickstuff }
+Description = "The Host of this game is here, shuffling the tiles."
+Examine = "
+This gentlemen is dressed casually, in the fashion of what your neighbors 
+wear whenever they have guests to play games."
+End = Host
+
+%objects
+
+Name = obj2801
+Pname = ace_spades
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "An ace of spades lies here."
+End = obj2801
+
+Name = obj2802
+Pname = deuce_spades
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A deuce of spades lies here."
+End = obj2802
+
+Name = obj2803
+Pname = three_spades
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A three of spades lies here."
+End = obj2803
+
+Name = obj2804
+Pname = four_spades
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A four of spades lies here."
+End = obj2804
+
+Name = obj2805
+Pname = five_spades
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A five of spades lies here."
+End = obj2805
+
+Name = obj2806
+Pname = six_spades
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A six of spades lies here."
+End = obj2806
+
+Name = obj2807
+Pname = seven_spades
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A seven of spades lies here."
+End = obj2807
+
+Name = obj2808
+Pname = eight_spades
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "An eight of spades lies here."
+End = obj2808
+
+Name = obj2809
+Pname = nine_spades
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A nine of spades lies here."
+End = obj2809
+
+Name = obj2810
+Pname = jack_spades
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A jack of spades lies here."
+End = obj2810
+
+Name = obj2811
+Pname = queen_spades
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A queen of spades lies here."
+End = obj2811
+
+Name = obj2812
+Pname = king_spades
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A king of spades lies here."
+End = obj2812
+
+Name = obj2813
+Pname = ace_clubs
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "An ace of clubs lies here."
+End = obj2813
+
+Name = obj2814
+Pname = deuce_clubs
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A deuce of clubs lies here."
+End = obj2814
+
+Name = obj2815
+Pname = three_clubs
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A three of clubs lies here."
+End = obj2815
+
+Name = obj2816
+Pname = four_clubs
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A four of clubs lies here."
+End = obj2816
+
+Name = obj2817
+Pname = five_clubs
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A five of clubs lies here."
+End = obj2817
+
+Name = obj2818
+Pname = six_clubs
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A six of clubs lies here."
+End = obj2818
+
+Name = obj2819
+Pname = seven_clubs
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A seven of clubs lies here."
+End = obj2819
+
+Name = obj2820
+Pname = eight_clubs
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "An eight of clubs lies here."
+End = obj2820
+
+Name = obj2821
+Pname = nine_clubs
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A nine of clubs lies here."
+End = obj2821
+
+Name = obj2822
+Pname = ten_clubs
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A ten of clubs lies here."
+End = obj2822
+
+Name = obj2823
+Pname = jack_clubs
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A jack of clubs lies here."
+End = obj2823
+
+Name = obj2824
+Pname = queen_clubs
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A queen of clubs lies here."
+End = obj2824
+
+Name = obj2825
+Pname = king_clubs
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A king of clubs lies here."
+End = obj2825
+
+Name = obj2826
+Pname = ace_hearts
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "An ace of hearts lies here."
+End = obj2826
+
+Name = obj2827
+Pname = deuce_hearts
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A deuce of hearts lies here."
+End = obj2827
+
+Name = obj2828
+Pname = three_hearts
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A three of hearts lies here."
+End = obj2828
+
+Name = obj2829
+Pname = four_hearts
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A four of hearts lies here."
+End = obj2829
+
+Name = obj2830
+Pname = five_hearts
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A five of hearts lies here."
+End = obj2830
+
+Name = obj2831
+Pname = six_hearts
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A six of hearts lies here."
+End = obj2831
+
+Name = obj2832
+Pname = seven_hearts
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A seven of hearts lies here."
+End = obj2832
+
+Name = obj2833
+Pname = eight_hearts
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "An eight of hearts lies here."
+End = obj2833
+
+Name = obj2834
+Pname = nine_hearts
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A nine of hearts lies here."
+End = obj2834
+
+Name = obj2835
+Pname = ten_hearts
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A ten of hearts lies here."
+End = obj2835
+
+Name = obj2836
+Pname = jack_hearts
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A jack of hearts lies here."
+End = obj2836
+
+Name = obj2837
+Pname = queen_hearts
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A queen of hearts lies here."
+End = obj2837
+
+Name = obj2838
+Pname = king_hearts
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A king of hearts lies here."
+End = obj2838
+
+Name = obj2839
+Pname = ace_diamonds
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "An ace of diamonds lies here."
+End = obj2839
+
+Name = obj2840
+Pname = deuce_diamonds
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A deuce of diamonds lies here."
+End = obj2840
+
+Name = obj2841
+Pname = three_diamonds
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A three of diamonds lies here."
+End = obj2841
+
+Name = obj2842
+Pname = four_diamonds
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A four of diamonds lies here."
+End = obj2842
+
+Name = obj2843
+Pname = five_diamonds
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A five of diamonds lies here."
+End = obj2843
+
+Name = obj2844
+Pname = six_diamonds
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A six of diamonds lies here."
+End = obj2844
+
+Name = obj2845
+Pname = seven_diamonds
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A seven of diamonds lies here."
+End = obj2845
+
+Name = obj2846
+Pname = eight_diamonds
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "An eight of diamonds lies here."
+End = obj2846
+
+Name = obj2847
+Pname = nine_diamonds
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A nine of diamonds lies here."
+End = obj2847
+
+Name = obj2848
+Pname = ten_diamonds
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A ten of diamonds lies here."
+End = obj2848
+
+Name = obj2849
+Pname = jack_diamonds
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A jack of diamonds lies here."
+End = obj2849
+
+Name = obj2850
+Pname = queen_diamonds
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A queen of diamonds lies here."
+End = obj2850
+
+Name = obj2851
+Pname = ten_spades
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A ten of spades lies here."
+End = obj2851
+
+Name = obj2852
+Pname = king_diamonds
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A king of diamonds lies here."
+End = obj2852
+
+Name = obj2853
+Pname = joker
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A joker lies here."
+End = obj2853
+
+Name = obj2854
+Pname = joker
+Altname = card
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A joker lies here."
+End = obj2854
+
+Name = shuffler
+Pname = button
+Altname = shuffle
+Location = IN_ROOM:cards1
+State = 0
+Maxstate = 0
+Size = 1
+Weight = 1
+Oflags { Noget }
+Desc[0] = "A button reading &+MSHUFFLE CARDS&+w is fixed on the wall."
+End = shuffler
+
+Name = tile_a1
+Pname = A_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked A-1 lies here."
+End = tile_a1
+
+Name = tile_a2
+Pname = A_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked A-1 lies here."
+End = tile_a2
+
+Name = tile_a3
+Pname = A_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked A-1 lies here."
+End = tile_a3
+
+Name = tile_a4
+Pname = A_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked A-1 lies here."
+End = tile_a4
+
+Name = tile_a5
+Pname = A_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked A-1 lies here."
+End = tile_a5
+
+Name = tile_a6
+Pname = A_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked A-1 lies here."
+End = tile_a6
+
+Name = tile_a7
+Pname = A_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked A-1 lies here."
+End = tile_a7
+
+Name = tile_a8
+Pname = A_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked A-1 lies here."
+End = tile_a8
+
+Name = tile_a9
+Pname = A_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked A-1 lies here."
+End = tile_a9
+
+Name = tile_b1
+Pname = B_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked B-3 lies here."
+End = tile_b1
+
+Name = tile_b2
+Pname = B_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked B-3 lies here."
+End = tile_b2
+
+Name = tile_c1
+Pname = C_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked C-3 lies here."
+End = tile_c1
+
+Name = tile_c2
+Pname = C_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked C-3 lies here."
+End = tile_c2
+
+Name = tile_d1
+Pname = D_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked D-2 lies here."
+End = tile_d1
+
+Name = tile_d2
+Pname = D_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked D-2 lies here."
+End = tile_d2
+
+Name = tile_d3
+Pname = D_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked D-2 lies here."
+End = tile_d3
+
+Name = tile_d4
+Pname = D_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked D-2 lies here."
+End = tile_d4
+
+Name = tile_e1
+Pname = E_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked E-1 lies here."
+End = tile_e1
+
+Name = tile_e2
+Pname = E_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked E-1 lies here."
+End = tile_e2
+
+Name = tile_e3
+Pname = E_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked E-1 lies here."
+End = tile_e3
+
+Name = tile_e4
+Pname = E_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked E-1 lies here."
+End = tile_e4
+
+Name = tile_e5
+Pname = E_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked E-1 lies here."
+End = tile_e5
+
+Name = tile_e6
+Pname = E_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked E-1 lies here."
+End = tile_e6
+
+Name = tile_e7
+Pname = E_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked E-1 lies here."
+End = tile_e7
+
+Name = tile_e8
+Pname = E_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked E-1 lies here."
+End = tile_e8
+
+Name = tile_e9
+Pname = E_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked E-1 lies here."
+End = tile_e9
+
+Name = tile_e10
+Pname = E_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked E-1 lies here."
+End = tile_e10
+
+Name = tile_e11
+Pname = E_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked E-1 lies here."
+End = tile_e11
+
+Name = tile_e12
+Pname = E_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked E-1 lies here."
+End = tile_e12
+
+Name = tile_f1
+Pname = F_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked F-4 lies here."
+End = tile_f1
+
+Name = tile_f2
+Pname = F_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked F-4 lies here."
+End = tile_f2
+
+Name = tile_g1
+Pname = G_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked G-2 lies here."
+End = tile_g1
+
+Name = tile_g2
+Pname = G_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked G-2 lies here."
+End = tile_g2
+
+Name = tile_g3
+Pname = G_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked G-2 lies here."
+End = tile_g3
+
+Name = tile_h1
+Pname = H_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked H-4 lies here."
+End = tile_h1
+
+Name = tile_h2
+Pname = H_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked H-4 lies here."
+End = tile_h2
+
+Name = tile_i1
+Pname = I_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked I-1 lies here."
+End = tile_i1
+
+Name = tile_i2
+Pname = I_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked I-1 lies here."
+End = tile_i2
+
+Name = tile_i3
+Pname = I_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked I-1 lies here."
+End = tile_i3
+
+Name = tile_i4
+Pname = I_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked I-1 lies here."
+End = tile_i4
+
+Name = tile_i5
+Pname = I_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked I-1 lies here."
+End = tile_i5
+
+Name = tile_i6
+Pname = I_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked I-1 lies here."
+End = tile_i6
+
+Name = tile_i7
+Pname = I_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked I-1 lies here."
+End = tile_i7
+
+Name = tile_i8
+Pname = I_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked I-1 lies here."
+End = tile_i8
+
+Name = tile_i9
+Pname = I_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked I-1 lies here."
+End = tile_i9
+
+Name = tile_j1
+Pname = J_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked J-8 lies here."
+End = tile_j1
+
+Name = tile_k1
+Pname = K_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked K-1 lies here."
+End = tile_k1
+
+Name = tile_l1
+Pname = L_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked L-1 lies here."
+End = tile_l1
+
+Name = tile_l2
+Pname = L_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked L-1 lies here."
+End = tile_l2
+
+Name = tile_l3
+Pname = L_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked L-1 lies here."
+End = tile_l3
+
+Name = tile_l4
+Pname = L_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked L-1 lies here."
+End = tile_l4
+
+Name = tile_m1
+Pname = M_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked M-3 lies here."
+End = tile_m1
+
+Name = tile_m2
+Pname = M_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked M-3 lies here."
+End = tile_m2
+
+Name = tile_n1
+Pname = N_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked N-1 lies here."
+End = tile_n1
+
+Name = tile_n2
+Pname = N_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked N-1 lies here."
+End = tile_n2
+
+Name = tile_n3
+Pname = N_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked N-1 lies here."
+End = tile_n3
+
+Name = tile_n4
+Pname = N_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked N-1 lies here."
+End = tile_n4
+
+Name = tile_n5
+Pname = N_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked N-1 lies here."
+End = tile_n5
+
+Name = tile_n6
+Pname = N_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked N-1 lies here."
+End = tile_n6
+
+Name = tile_o1
+Pname = O_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked O-1 lies here."
+End = tile_o1
+
+Name = tile_o2
+Pname = O_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked O-1 lies here."
+End = tile_o2
+
+Name = tile_o3
+Pname = O_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked O-1 lies here."
+End = tile_o3
+
+Name = tile_o4
+Pname = O_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked O-1 lies here."
+End = tile_o4
+
+Name = tile_o5
+Pname = O_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked O-1 lies here."
+End = tile_o5
+
+Name = tile_o6
+Pname = O_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked O-1 lies here."
+End = tile_o6
+
+Name = tile_o7
+Pname = O_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked O-1 lies here."
+End = tile_o7
+
+Name = tile_o8
+Pname = O_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked O-1 lies here."
+End = tile_o8
+
+Name = tile_p1
+Pname = P_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked P-3 lies here."
+End = tile_p1
+
+Name = tile_p2
+Pname = P_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked P-3 lies here."
+End = tile_p2
+
+Name = tile_q1
+Pname = Q_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked Q-10 lies here."
+End = tile_q1
+
+Name = tile_r1
+Pname = R_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked R-1 lies here."
+End = tile_r1
+
+Name = tile_r2
+Pname = R_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked R-1 lies here."
+End = tile_r2
+
+Name = tile_r3
+Pname = R_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked R-1 lies here."
+End = tile_r3
+
+Name = tile_r4
+Pname = R_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked R-1 lies here."
+End = tile_r4
+
+Name = tile_r5
+Pname = R_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked R-1 lies here."
+End = tile_r5
+
+Name = tile_r6
+Pname = R_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked R-1 lies here."
+End = tile_r6
+
+Name = tile_s1
+Pname = S_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked S-1 lies here."
+End = tile_s1
+
+Name = tile_s2
+Pname = S_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked S-1 lies here."
+End = tile_s2
+
+Name = tile_s3
+Pname = S_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked S-1 lies here."
+End = tile_s3
+
+Name = tile_s4
+Pname = S_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked S-1 lies here."
+End = tile_s4
+
+Name = tile_t1
+Pname = T_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked T-1 lies here."
+End = tile_t1
+
+Name = tile_t2
+Pname = T_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked T-1 lies here."
+End = tile_t2
+
+Name = tile_t3
+Pname = T_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked T-1 lies here."
+End = tile_t3
+
+Name = tile_t4
+Pname = T_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked T-1 lies here."
+End = tile_t4
+
+Name = tile_t5
+Pname = T_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked T-1 lies here."
+End = tile_t5
+
+Name = tile_t6
+Pname = T_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked T-1 lies here."
+End = tile_t6
+
+Name = tile_u1
+Pname = U_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked U-1 lies here."
+End = tile_u1
+
+Name = tile_u2
+Pname = U_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked U-1 lies here."
+End = tile_u2
+
+Name = tile_u3
+Pname = U_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked U-1 lies here."
+End = tile_u3
+
+Name = tile_u4
+Pname = U_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked U-1 lies here."
+End = tile_u4
+
+Name = tile_v1
+Pname = V_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked V-4 lies here."
+End = tile_v1
+
+Name = tile_v2
+Pname = V_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked V-4 lies here."
+End = tile_v2
+
+Name = tile_w1
+Pname = W_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked W-4 lies here."
+End = tile_w1
+
+Name = tile_w2
+Pname = W_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked W-4 lies here."
+End = tile_w2
+
+Name = tile_x1
+Pname = X_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked X-8 lies here."
+End = tile_x1
+
+Name = tile_y1
+Pname = Y_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked Y-4 lies here."
+End = tile_y1
+
+Name = tile_y2
+Pname = Y_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked Y-4 lies here."
+End = tile_y2
+
+Name = tile_z1
+Pname = Z_tile
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A scrabble tile marked Z-10 lies here."
+End = tile_z1
+
+Name = tile_blank1
+Pname = blank
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A blank scrabble tile lies here."
+End = tile_blank1
+
+Name = tile_blank2
+Pname = blank
+Altname = tile
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Unlocatable }
+Desc[0] = "A blank scrabble tile lies here."
+End = tile_blank2
+
+Name = shuffler2
+Pname = button
+Altname = shuffle
+Location = IN_ROOM:cards2
+State = 0
+Maxstate = 0
+Size = 1
+Weight = 1
+Oflags { Noget }
+Desc[0] = "A button reading &+MSHUFFLE LETTERS&+w is fixed on the wall."
+End = shuffler2
+
+%locations
+
+cards1;
+lflags { Wizard }
+&+MThe Deck of Cards^
+	Ready to play a card game?  Poker?  Blackjack?  Maybe something else?
+Rules are simple.  Push the button and the cards are sent everywhere at 
+random.  The runners must find enough cards to make the best hand.  If they
+don't like the cards they got, they can get rid of them somewhere to prevent
+someone else from getting a better hand than you.  This contest can be run
+anytime, either during regular running or a tournament.  You can reshuffle
+anytime, but don't do it so you mess up someone.  If you just want to play
+among the wizards normally, the dealer here will mix them up for you.
+^
+
+cards2;
+lflags { Wizard }
+&+GHall of Letters^
+	Ready to play some word games?  Scrabble?  Boggle?  Anagrams?  Maybe
+something else?  Rules are simple.  Push the button and the tiles are sent
+everywhere at random.  The runners must find some tiles and make the highest
+scoring word they can.  This contest can be run anytime, either during 
+regular running or a tournament.  You can reshuffle the tiles anytime, but
+don't do it so you mess up someone.  If you just want to play among the
+wizards normally, the host here will mix them up for you.
+^
+

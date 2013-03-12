@@ -1,0 +1,3730 @@
+/* So there's negative values for armor...should just add to the cth variable 
+and make it easier for a player to hit it...warning, if your armor doesn't 
+use signed integers, some mobs will seemingly have over 200 armor and not be 
+killable!!!  This so far is the best quest-type zone I've converted so far, 
+yet the mobiles are super-tough and were in some cases 1/10th what they 
+started out to be--I indicated as such where.  Original author's notes (I've 
+not seen anyone else call themselves 'Drip', so I'm using that name):
+
+****  Ghenna  
+****  Written by: Drip/Nosferatu of pHANTAZM/JediMUD/HoloMUD
+* Ghenna follows a general D&D format for an evil-aligned area.
+* All mobs flagged "SPEC" are intended as magic_users.
+* The hitpoints/damage/exp of these mobs and items are probably too 
+  excessive for most MUDs... be forewarned that you may want to change this.
+* Ghenna was created using general Circle 2.2 defs.
+************ Enjoy! ************
+
+The specials and modifications to the zone were done by me, Crimefighter 
+at smlucas@flashmail.com using the "ZGEN" zone conversion program.  You 
+will probably call this quest Ghenna, and give it an either maximum or 
+near-max number of quest points for it.  Low-level players won't be 
+prevented from going in, but the minimum level to try the zone should be 
+10 for iDirt, 18 for C-Dirt.  This does have a complicated maze, or at least 
+it looks that way on paper.  Fortunately the room descriptions differ enough 
+for mapmakers to tell the differences without having to go dropping stuff.  
+There were so many doors and paths into the same rooms it wasn't practical to 
+keep them all.  I have removed or replaced those at my own discretion into 
+making this more puzzlily.  The mobile flee code is needed for this zone, 
+if you don't have it, GET IT from the home.zip file which contains my 
+homeroom and specials with it.  Why is it dark and outdoors...well, this is 
+a city that never sees daylight.  BIG bonuses are given for killing off the 
+big 8 first, which is quite a feat to pull off even with help.  Three 
+mobiles will help someone against the monsters.  Two monsters can be killed 
+with a special item, but the other 6 will have to be beaten the hard way. */
+
+
+
+
+%mobiles
+
+Name = mob9900
+Pname = "Shamus"
+Location = ghenna9901
+SFlags  { Nobody }
+PFlags  {Nomagic }
+Strength = 751
+Damage = 30
+Armor = -10
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "&+YShamus&*, the wandering liege, wants to protect you from the evil here."
+Examine = "You see a human male, bald of head and thick of frame, wearing a white 
+robe.  He has heard tales of this city of evil, and has come here as a 
+missionary.  He's motioning you to speak with him before going further.
+"
+End = mob9900
+
+Name = mob9901
+Pname = "the barrow wight"
+Location = ghenna9900
+SFlags  {}
+PFlags  {NoSummon}
+MFlags  { Cross NoCorpse }
+Strength = 390
+Damage = 30
+Armor = 0
+Aggression = 50
+Speed = 0
+Wimpy = 0
+Description = "A twisted pile of cloth and bones lies here."
+Examine = "You see an undead being whose sole purpose is to protect its barrow
+mound.  Flesh hangs from its wretched body, and it looks more dead
+than alive.
+"
+End = mob9901
+
+Name = mob9902
+Pname = "the Banshee"
+Location = ghenna9910
+SFlags  {Female Nobody }
+PFlags  {}
+Eflags { VTouch ImmVTouch }
+MFlags  {PickStuff NoCorpse }
+Strength = 159
+Damage = 32
+Armor = 0
+Aggression = 50
+Speed = 2
+Wimpy = 0
+Description = "The groaning spirit of a long-dead woman floats here."
+Examine = "This is the spirit of an evil female elf, a very rare thing indeed.  Her
+hair is wild and unkempt, and she is dressed in tattered rags.
+"
+End = mob9902
+
+Name = mob9902_1
+Pname = "the Banshee"
+Location = ghenna9903
+SFlags  {Female NoBody }
+PFlags  {}
+Eflags { VTouch ImmVTouch }
+MFlags  {  PickStuff NoCorpse }
+Strength = 159
+Damage = 32
+Armor = 0
+Aggression = 50
+Speed = 2
+Wimpy = 0
+Description = "The groaning spirit of a long-dead woman floats here."
+Examine = "This is the spirit of an evil female elf, a very rare thing indeed.  Her
+hair is wild and unkempt, and she is dressed in tattered rags.
+"
+End = mob9902_1
+
+Name = mob9903
+Pname = "the Argos"
+Location = ghenna9959
+SFlags  { NoBody }
+EFlags  { Immblind }
+MFlags  { Cross PickStuff}
+Strength = 691
+Damage = 34
+Armor = 10
+Aggression = 20
+Speed = 2
+Wimpy = 0
+Description = "A multi-mouthed pseudopod of great girth is standing here."
+Examine = "This is a large, amoeba-like being with one central eye which has a
+tripartite pupil, and a hundred lashless inhuman eyes set above many 
+sharp-toothed mouths..
+"
+End = mob9903
+
+Name = mob9903_1
+Pname = "the Argos"
+Location = ghenna9988
+SFlags  {Nobody }
+Eflags  { Immblind }
+MFlags  { Cross PickStuff}
+Strength = 691
+Damage = 34
+Armor = 10
+Aggression = 20
+Speed = 2
+Wimpy = 0
+Description = "A multi-mouthed pseudopod of great girth is standing here.
+"
+Examine = "This is a large, amoeba-like being with one central eye which has a
+tripartite pupil, and a hundred lashless inhuman eyes set above many 
+sharp-toothed mouths..
+"
+End = mob9903_1
+
+Name = mob9904
+Pname = "The Bugbear"
+Location = ghenna9903
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 213
+Damage = 16
+Armor = 0
+Aggression = 55
+Speed = 2
+Wimpy = 0
+Description = "A tall &+RBugbear&* stands here, poised for action."
+Examine = "Large and very muscular, this guy is covered in brick red fur.  Though
+vaguely humanoid in appearance, he seems to contain the blood of some large
+carnivore.
+"
+End = mob9904
+
+Name = mob9904_1
+Pname = "The Bugbear"
+Location = ghenna9902
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 213
+Damage = 16
+Armor = 0
+Aggression = 55
+Speed = 2
+Wimpy = 0
+Description = "A tall &+RBugbear&* stands here, poised for action."
+Examine = "Large and very muscular, this guy is covered in brick red fur.  Though
+vaguely humanoid in appearance, he seems to contain the blood of some large
+carnivore.
+"
+End = mob9904_1
+
+Name = mob9904_2
+Pname = "The Bugbear"
+Location = ghenna9906
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 213
+Damage = 16
+Armor = 0
+Aggression = 55
+Speed = 2
+Wimpy = 0
+Description = "A tall &+RBugbear&* stands here, poised for action."
+Examine = "Large and very muscular, this guy is covered in brick red fur.  Though
+vaguely humanoid in appearance, he seems to contain the blood of some large
+carnivore.
+"
+End = mob9904_2
+
+Name = mob9905
+Pname = "A Broken One"
+Location = ghenna9908
+SFlags  {}
+PFlags  {}
+MFlags  { Cross PickStuff}
+Strength = 667
+Damage = 22
+Armor = -20
+Aggression = 10
+Speed = 2
+Wimpy = 0
+Description = "&+RA Broken One&* stands here looking gruesome."
+Examine = "This guy sure is ugly!  He has the head of an ogre, one webbed foot, one
+human foot, and various other body parts that don't match.
+"
+End = mob9905
+
+Name = mob9905_1
+Pname = "A Broken One"
+Location = ghenna9910
+SFlags  {}
+PFlags  {}
+MFlags  { Cross PickStuff}
+Strength = 667
+Damage = 22
+Armor = -20
+Aggression = 10
+Speed = 2
+Wimpy = 0
+Description = "&+RA Broken One&* stands here looking gruesome."
+Examine = "This guy sure is ugly!  He has the head of an ogre, one webbed foot, one
+human foot, and various other body parts that don't match.
+"
+End = mob9905_1
+
+Name = mob9906
+Pname = "Bullywig"
+Location = ghenna9935
+SFlags  {}
+PFlags  {}
+MFlags  { }
+Strength = 221
+Damage = 21
+Armor = 8
+Aggression = 10
+Speed = 0
+Wimpy = 0
+Description = "A Bullywug is standing here, ready to defend his master's lair."
+Examine = "This guy looks kinda like a ninja turtle, except he's a frog."
+End = mob9906
+
+Name = mob9906_1
+Pname = "Bullywag"
+Location = ghenna9935
+SFlags  {}
+PFlags  {}
+MFlags  { }
+Strength = 221
+Damage = 21
+Armor = 8
+Aggression = 10
+Speed = 0
+Wimpy = 0
+Description = "A Bullywug is standing here, ready to defend his master's lair."
+Examine = "This guy looks kinda like a ninja turtle, except he's a frog."
+End = mob9906_1
+
+Name = mob9906_2
+Pname = "Bullywug"
+Location = ghenna9935
+SFlags  {}
+PFlags  {}
+MFlags  { }
+Strength = 221
+Damage = 21
+Armor = 8
+Aggression = 10
+Speed = 0
+Wimpy = 0
+Description = "A Bullywug is standing here, ready to defend his master's lair."
+Examine = "This guy looks kinda like a ninja turtle, except he's a frog."
+End = mob9906_2
+
+Name = mob9906_3
+Pname = "Bullywog"
+Location = ghenna9935
+SFlags  {}
+PFlags  {}
+MFlags  { }
+Strength = 221
+Damage = 21
+Armor = 8
+Aggression = 10
+Speed = 0
+Wimpy = 0
+Description = "A Bullywug is standing here, ready to defend his master's lair."
+Examine = "This guy looks kinda like a ninja turtle, except he's a frog."
+End = mob9906_3
+
+Name = mob9907
+Pname = "a Man-Eating plant"
+Location = ghenna9907
+SFlags  { NoLegs }
+PFlags  {NoSummon}
+MFlags  { PickStuff}
+Strength = 2851
+Damage = 23
+Armor = -20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "A large plant that reeks of carrion stands here stinking up the place."
+Examine = "You see a giant, venus fly trap with 6 inch fangs."
+End = mob9907
+
+
+Name = mob9908
+Pname = "The Gorgimera"
+Location = ghenna9936
+SFlags  { NoBody }
+PFlags  {}
+MFlags  {}
+Eflags { Fireball NegFireball ImmMute ImmCripple }
+Strength = 3002
+Damage = 75
+Armor = 40
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "A &+RGorgimera&* roars at your entrance, and ATTACKS!!!"
+Examine = "
+This monster has three heads, those of a gorgon, a lion, and a fierce
+dragon. It has the hindquarters of a large, black gorgon and the 
+forequarters of a huge, tawny lion, with brownish-black wings like those 
+of a dragon.  This creature obviously is very terratorial...
+"
+End = mob9908
+
+Name = mob9909
+Pname = "The Death Knight"
+Location = ghenna9956
+SFlags  {Blind}
+PFlags  {}
+MFlags  {Cross PickStuff NoCorpse}
+Eflags  { NegVTouch VTouch ImmBlind ImmCripple }
+Strength = 505
+Damage = 37
+Armor = 0
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A &+RDeath Knight&* stands here, lowering at you.
+"
+Examine = "A hulking skeleton, its face a blackened skull covered with shards of
+shriveled rotting flesh, chillingly returns your gaze.
+"
+End = mob9909
+
+
+Name = mob9910
+Pname = "The Deep Dragon"
+Location = ghenna9937
+SFlags  { NoArms NoLegs }
+PFlags  {}
+EFlags  { Fireball Frost ImmMute ImmCripple }
+Strength = 2500
+Damage = 13
+Armor = 10
+Aggression = 25
+Speed = 0
+Wimpy = 0
+Description = "A large snake sits here, munching on a human body."
+Examine = "The Deep Dragon is an iridescent maroon colored beast about 25 feet long. 
+Known for assuming various shapes, this animal is highly dangerous and
+you would do best to exit its lair immediately.
+"
+End = mob9910
+
+Name = mob9911
+Pname = "The Derro"
+Location = ghenna9935
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 210
+Damage = 15
+Armor = 20
+Aggression = 25
+Speed = 1
+Wimpy = 0
+Description = "&+RThe Derro&* is standing here, barking orders."
+Examine = "You see a dwarf with glowing white eyes which have no pupils.  His skin
+is pasty white, but he looks stout enough.
+"
+End = mob9911
+
+Name = mob9911_1
+Pname = "The Derro"
+Location = ghenna9935
+SFlags  {}
+PFlags  {}
+MFlags  {  PickStuff }
+Strength = 210
+Damage = 15
+Armor = 20
+Aggression = 55
+Speed = 1
+Wimpy = 0
+Description = "&+RThe Derro&* is standing here, barking orders."
+Examine = "You see a dwarf with glowing white eyes which have no pupils.  His skin
+is pasty white, but he looks stout enough.
+"
+End = mob9911_1
+
+Name = mob9912
+Pname = "Erik"
+Location = ghenna9957
+SFlags  { Nobody }
+PFlags  { Nomagic }
+MFlags  { }
+Strength = 265
+Damage = 23
+Armor = 0
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Description = "An errant Elf is here, looking for denizens of evil."
+Examine = "You see an attractive young man, about 5 feet tall, with gleaming eyes
+and a pale complexion.  Though small, he appears to be very lithe and agile.
+It's one of the missing students of Shamus, identified as Erik!
+"
+End = mob9912
+
+Name = mob9912_1
+Pname = "Peter"
+Location = ghenna9987
+SFlags  { Nobody }
+PFlags  { Nomagic }
+MFlags  { }
+Strength = 265
+Damage = 23
+Armor = 0
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Description = "An errant Elf is here, looking for denizens of evil."
+Examine = "You see an attractive young man, about 5 feet tall, with gleaming eyes
+and a pale complexion.  Though small, he appears to be very lithe and agile.
+It's one of the missing students of Shamus, identified as Peter!
+"
+End = mob9912_1
+
+Name = mob9913
+Pname = "The Efreeti"
+Location = ghenna9941
+SFlags  {}
+PFlags  {NoSummon}
+MFlags  {  }
+Eflags { Icestorm Bhands Shock } 
+Strength = 2390
+Damage = 33
+Armor = 10
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A Genie is levitating here with an evil grin on his face."
+Examine = "You see a powerful mage naked to the waist, wearing only a pair of
+slippers, some baggy purple pants, and a bracelet which sparkles with a 
+multi-hued color.  As for granting wishes...don't press your luck.
+"
+End = mob9913
+
+Name = mob9914
+Pname = "The Medusa"
+Location = ghenna9920
+SFlags  {Female }
+PFlags  {}
+MFlags  { PickStuff}
+Strength = 706
+Damage = 24
+Armor = 20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "A woman sits here on the bed, with her back to you."
+Examine = "Well, you probably shouldn't have looked at this chick, cause she sure
+is ugly. But I guess you are about to see HOW ugly.
+"
+End = mob9914
+
+Name = mob9915
+Pname = "Candy"
+Location = ghenna9957
+SFlags  {Female}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 80
+Damage = 13
+Armor = -20
+Aggression = 55
+Speed = 2
+Wimpy = 0
+Description = "A big, stupid Orc is lumbering through here."
+Examine = "Candy's just ugly as sin... lets leave it at that.
+She left the Orc King's kingdom for some bigger, better things
+though you can hardly figure what those would be.
+"
+End = mob9915
+
+Name = mob9915_1
+Pname = "Landy"
+Location = ghenna9959
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 80
+Damage = 13
+Armor = -20
+Aggression = 55
+Speed = 2
+Wimpy = 0
+Description = "A big, stupid Orc is lumbering through here."
+Examine = "Landy's just ugly as sin... lets leave it at that.
+He apparently didn't want to stick around the Orc King's kingdom.
+"
+End = mob9915_1
+
+Name = mob9915_2
+Pname = "Dandy"
+Location = ghenna9901
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 80
+Damage = 13
+Armor = -20
+Aggression = 55
+Speed = 2
+Wimpy = 0
+Description = "A big, stupid Orc is lumbering through here."
+Examine = "Dandy's just ugly as sin... lets leave it at that.
+He also got bored living in the Orc King's kingdom.
+"
+End = mob9915_2
+
+Name = mob9915_3
+Pname = "Tandy"
+Location = ghenna9927
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 80
+Damage = 13
+Armor = -20
+Aggression = 55
+Speed = 2
+Wimpy = 0
+Description = "A big, stupid Orc is lumbering through here."
+Examine = "Tandy's just ugly as sin... lets leave it at that.
+Is that a laptop computer he's toting around with him?
+"
+End = mob9915_3
+
+Name = mob9915_4
+Pname = "Handy"
+Location = ghenna9987
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 80
+Damage = 13
+Armor = -20
+Aggression = 55
+Speed = 2
+Wimpy = 0
+Description = "A big, stupid Orc is lumbering through here."
+Examine = "Handy's just ugly as sin... lets leave it at that.
+After he left the Orc King's kingdom, he tried to become a 
+handyman of sorts, but his looks made it hard for him to get
+hired on.
+"
+End = mob9915_4
+
+Name = mob9916
+Pname = "The barkeep"
+Location = ghenna9916
+SFlags  {}
+PFlags  {}
+MFlags  { }
+Strength = 1065
+Damage = 30
+Armor = 20
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "There is a &+ybarkeep&* standing here, waiting to take your order."
+Examine = "The barkeep is a waifish little guy, with safety pins piercing the flesh
+all over his face... he even has safety pins through his eyelids.
+"
+End = mob9916
+
+Name = mob9917
+Pname = "a citizen of Ghenna"
+Location = ghenna9957
+SFlags  {}
+PFlags  {}
+MFlags  {  PickStuff}
+Strength = 151
+Damage = 15
+Armor = 0
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "&+RA citizen of Ghenna&* stands here."
+Examine = "You see a grungy human, long since gone insane at the fall of his once
+proud city.
+"
+End = mob9917
+
+Name = mob9917_1
+Pname = "a citizen of Ghenna"
+Location = ghenna9901
+SFlags  {}
+PFlags  {}
+MFlags  {  PickStuff}
+Strength = 151
+Damage = 15
+Armor = 0
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "&+RA citizen of Ghenna&* stands here."
+Examine = "You see a grungy human, long since gone insane at the fall of his once
+proud city.
+"
+End = mob9917_1
+
+Name = mob9917_2
+Pname = "a citizen of Ghenna"
+Location = ghenna9998
+SFlags  {}
+PFlags  {}
+MFlags  {  PickStuff}
+Strength = 151
+Damage = 15
+Armor = 0
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "&+RA citizen of Ghenna&* stands here."
+Examine = "You see a grungy human, long since gone insane at the fall of his once
+proud city.
+"
+End = mob9917_2
+
+Name = mob9917_3
+Pname = "a citizen of Ghenna"
+Location = ghenna9902
+SFlags  {}
+PFlags  {}
+MFlags  {  PickStuff}
+Strength = 151
+Damage = 15
+Armor = 0
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "&+RA citizen of Ghenna&* stands here."
+Examine = "You see a grungy human, long since gone insane at the fall of his once
+proud city.
+"
+End = mob9917_3
+
+Name = mob9917_4
+Pname = "a citizen of Ghenna"
+Location = ghenna9954
+SFlags  {}
+PFlags  {}
+MFlags  {  PickStuff}
+Strength = 151
+Damage = 15
+Armor = 0
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "&+RA citizen of Ghenna&* stands here."
+Examine = "You see a grungy human, long since gone insane at the fall of his once
+proud city.
+"
+End = mob9917_4
+
+Name = mob9917_5
+Pname = "a citizen of Ghenna"
+Location = ghenna9955
+SFlags  {}
+PFlags  {}
+MFlags  {  PickStuff}
+Strength = 151
+Damage = 15
+Armor = 0
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "&+RA citizen of Ghenna&* stands here."
+Examine = "You see a grungy human, long since gone insane at the fall of his once
+proud city.
+"
+End = mob9917_5
+
+Name = mob9917_6
+Pname = "a citizen of Ghenna"
+Location = ghenna9955
+SFlags  {}
+PFlags  {}
+MFlags  {  PickStuff}
+Strength = 151
+Damage = 15
+Armor = -38
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "&+RA citizen of Ghenna&* stands here."
+Examine = "You see a grungy human, long since gone insane at the fall of his once
+proud city.
+"
+End = mob9917_6
+
+Name = mob9918
+Pname = "the Avon lady"
+Location = ghenna9902
+SFlags  {Female }
+PFlags  {NoSummon}
+MFlags  { }
+Strength = 51
+Damage = 8
+Armor = 0
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "
+An old lady (who is obviously lost) is trying to sell you some makeup here."
+Examine = "You see a little old lady, dressed all in pink chiffon.  On her arm
+she carries a heart shaped box made of crepe paper.  Get her outta here!
+"
+End = mob9918
+
+
+Name = mob9923
+Pname = "The Ghenna Swordmaster"
+Location = ghenna9952
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 3001
+Damage = 8
+Armor = 20
+Aggression = 25
+Speed = 0
+Wimpy = 0
+Description = "A broad shouldered man lies prostrate here, apparently praying."
+Examine = "A huge man with a long black beard, the Ghenna Swordmaster is tatooed
+with rune-like scars from head to toe.  Shrouded in vermillion, he wields a
+sword of stunning beauty, which sings through the air as he attacks you.
+Did I say praying?  I meant PREYING!
+"
+End = mob9923
+
+Name = mob9931
+Pname = "a Foot"
+Location = ghenna9926
+SFlags  { Nobody }
+PFlags  {}
+MFlags  {}
+Strength = 751
+Damage = 12
+Armor = -20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "A claw toed &+Rfoot&* protrudes from the wall."
+Examine = "It looks just like a foot sticking out of the wall. "
+End = mob9931
+
+Name = mob9931_1
+Pname = "a Foot"
+Location = ghenna9931
+SFlags  { Nobody }
+PFlags  {}
+MFlags  {}
+Strength = 751
+Damage = 12
+Armor = -20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "A claw toed &+Rfoot&* protrudes from the wall."
+Examine = "It looks just like a foot sticking out of the wall."
+End = mob9931_1
+
+Name = mob9931_2
+Pname = "a Foot"
+Location = ghenna9927
+SFlags  { Nobody }
+PFlags  {}
+MFlags  {}
+Strength = 751
+Damage = 12
+Armor = -20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "A claw toed &+Rfoot&* protrudes from the wall."
+Examine = "It looks just like a foot sticking out of the wall. "
+End = mob9931_2
+
+Name = mob9931_3
+Pname = "a Foot"
+Location = ghenna9929
+SFlags  { Nobody }
+PFlags  {}
+MFlags  {}
+Strength = 751
+Damage = 12
+Armor = -20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "A claw toed &+Rfoot&* protrudes from the wall."
+Examine = "It looks just like a foot sticking out of the wall. "
+End = mob9931_3
+
+Name = mob9932
+Pname = "an Arm"
+Location = ghenna9932
+SFlags  { Nobody }
+PFlags  {}
+MFlags  {}
+Strength = 721
+Damage = 13
+Armor = -20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "A claw fingered &+Rarm&* protrudes from the wall."
+Examine = "It looks just like an arm sticking out of the wall. 
+"
+End = mob9932
+
+Name = mob9932_1
+Pname = "an arm"
+Location = ghenna9926
+SFlags  {Nobody }
+PFlags  {}
+MFlags  {}
+Strength = 721
+Damage = 13
+Armor = -20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "A claw fingered &+Rarm&* protrudes from the wall."
+Examine = "It looks just like an arm sticking out of the wall. 
+"
+End = mob9932_1
+
+Name = mob9932_2
+Pname = "an arm"
+Location = ghenna9926
+SFlags  {Nobody }
+PFlags  {}
+MFlags  {}
+Strength = 721
+Damage = 13
+Armor = -20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "A claw fingered &+Rarm&* protrudes from the wall."
+Examine = "It looks just like an arm sticking out of the wall. 
+"
+End = mob9932_2
+
+Name = mob9932_3
+Pname = "an arm"
+Location = ghenna9927
+SFlags  {Nobody }
+PFlags  {}
+MFlags  {}
+Strength = 721
+Damage = 13
+Armor = -20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "A claw fingered &+Rarm&* protrudes from the wall."
+Examine = "It looks just like an arm sticking out of the wall. 
+"
+End = mob9932_3
+
+Name = mob9932_4
+Pname = "an arm"
+Location = ghenna9929
+SFlags  {Nobody }
+PFlags  {}
+MFlags  {}
+Strength = 721
+Damage = 13
+Armor = -20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "A claw fingered &+Rarm&* protrudes from the wall."
+Examine = "It looks just like an arm sticking out of the wall. 
+"
+End = mob9932_4
+
+
+Name = mob9933
+Pname = "the Stone Golem"
+Location = ghenna9933
+SFlags  {}
+PFlags  {NoMagic}
+Mflags  {NoCorpse }
+Strength = 1501
+Damage = 55
+Armor = 40
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A large statue of a humanoid male has been cut out of the granite here.
+"
+Examine = "It looks like a stone sculpture of Frankenstein's monster.  It stands
+twelve feet tall, casting a long shadow over you.
+"
+End = mob9933
+
+Name = mob9958
+Pname = "The Dominatrix"
+Location = ghenna9958
+SFlags  {Female }
+PFlags  {NoSummon}
+MFlags  {PickStuff}
+Strength = 501
+Damage = 23
+Armor = 10
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "An ugly woman clad in studded black leather turns toward you and shouts,
+'Down on your knees, maggot!!'
+"
+Examine = "This ugly wench is clad in studded black leather from head to toe.  Her
+nipples protrude conspicuously from a leather push-up bra.  A thong 
+around her waist disappears into her crotch, which hasnt been waxed in a 
+mellenia. 
+"
+End = mob9958
+
+Name = mob9964
+Pname = "the Golem Doll"
+Location = ghenna9964
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 176
+Damage = 20
+Armor = 20
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A &+Rdoll&* sits here leaning against the wall, forgotten by the child who
+owns it.
+"
+Examine = "This looks like your typical child's doll.  Its about one foot tall, and
+looks like it is made of plastic.  Better be happy that this isn't Chucky...
+uh, did you just notice it twitched?"
+End = mob9964
+
+Name = mob9971
+Pname = "the prostitute"
+Location = ghenna9971
+SFlags  {Female }
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 376
+Damage = 20
+Armor = 20
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A young, innocent looking woman is sitting here reading a magazine."
+Examine = "She is so cute that you wonder how she ever fell into a lifestyle such
+as this. She notices your gaze, and gives you a cloying look.  Maybe that
+aid station would help clean up her life?
+"
+End = mob9971
+
+Name = mob9972
+Pname = "Lester"
+Location = ghenna9972
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff}
+Strength = 881
+Damage = 20
+Armor = 20
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "&+RLester&* the molester is here with a pair of womens panties on his head.
+"
+Examine = "You see a sicko with bulging eyes, and a tiny bit of white spittle in
+the corners of his mouth.  This guy doesn't deserve help.
+"
+End = mob9972
+
+Name = mob9975
+Pname = "the whore"
+Location = ghenna9975
+SFlags  {Female }
+PFlags  {}
+Strength = 301
+Damage = 18
+Armor = 14
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A toothless &+Rwhore&* is sitting here on the bed, inviting you to join her."
+Examine = "One eye, no teeth and pasty white skin, this chick looks like your worst
+nightmare.
+"
+End = mob9975
+
+Name = mob9975_1
+Pname = "the whore"
+Location = ghenna9977
+SFlags  {Female }
+PFlags  {}
+Strength = 301
+Damage = 18
+Armor = 14
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A toothless &+Rwhore&* is sitting here on the bed, inviting you to join her."
+Examine = "One eye, no teeth and pasty white skin, this chick looks like your worst
+nightmare.
+"
+End = mob9975_1
+
+
+Name = mob9981
+Pname = "the Dwarf"
+Location = ghenna9981
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 11
+Damage = 15
+Armor = 20
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Description = "A &+Gdwarf&* is lying here, stunned."
+Examine = "This guy is barely alive, appears to have suffered at the hands of one
+of these beasts running around.  Better transport him out."
+End = mob9981
+
+Name = mob9985
+Pname = "the Maedar"
+Location = ghenna9985
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 170
+Damage = 19
+Armor = 20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "A &+RMaedar&* stands here in the darkness smacking his lips."
+Examine = "You see a muscular, hairless humanoid male dressed in a tunic."
+End = mob9985
+
+Name = mob9986
+Pname = "the Maedar"
+Location = ghenna9985
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 170
+Damage = 19
+Armor = 20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "A &+RMaedar&* stands here in the darkness smacking his lips."
+Examine = "You see a muscular, hairless humanoid male dressed in a tunic."
+End = mob9986
+
+Name = mob9986_1
+Pname = "the Maedar master"
+Location = ghenna9986
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 376
+Damage = 19
+Armor = 20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "A &+RMaedar master&* stands here in the darkness smacking his lips."
+Examine = "You see a muscular, hairless humanoid male dressed in a tunic."
+End = mob9986_1
+
+Name = mob9987
+Pname = "Roger the Dodger"
+Location = ghenna9987
+SFlags  {}
+PFlags  { Nomagic }
+Strength = 265
+Damage = 18
+Armor = 20
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Description = "&+YRoger the Dodger&*, the elven apostle is looking for evil guys to kill here."
+Examine = "You see a young elf, only about 13 years old, who acts as though he is 
+on a crusade.  Dressed in light armor, he seeks out evil doers in order to
+eradicate them from the face of the planet.  Just what exactly did Shamus 
+expect from him?  
+"
+End = mob9987
+
+Name = mob9989
+Pname = "the Dragonet"
+Location = ghenna9989
+SFlags  {}
+EFlags  { Fireball NegFireball }
+MFlags  {  }
+Strength = 101
+Damage = 9
+Armor = 20
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "
+A &+Gwimpy little dragon&* is standing here, looking at you with deep blue
+eyes."
+Examine = "You see what appears to be a tiny dragon, about the size of a chihuahua.
+What a pansy he is too!
+"
+End = mob9989
+
+Name = mob9989_1
+Pname = "the Dragonet"
+Location = ghenna9903
+SFlags  {}
+EFlags  { Fireball NegFireball }
+MFlags  {  }
+Strength = 101
+Damage = 9
+Armor = 20
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A &+Gwimpy little dragon&* is standing here, looking at you with deep blue
+eyes.
+"
+Examine = "You see what appears to be a tiny dragon, about the size of a chihuahua.
+What a pansy he is too!
+"
+End = mob9989_1
+
+Name = mob9989_2
+Pname = "the Dragonet"
+Location = ghenna9909
+SFlags  {}
+EFlags  { Fireball NegFireball }
+MFlags  {  }
+Strength = 101
+Damage = 9
+Armor = 20
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Description = "A &+Gwimpy little dragon&* is standing here, looking at you with deep blue
+eyes.
+"
+Examine = "You see what appears to be a tiny dragon, about the size of a chihuahua.
+What a pansy he is too!
+"
+End = mob9989_2
+
+
+Name = mob9994
+Pname = "The Giant Cockroach"
+Location = ghenna9994
+SFlags  {}
+PFlags  {NoSummon}
+MFlags  {}
+Strength = 1751
+Damage = 68
+Armor = 40
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "The biggest &+Rcockroach&* you have ever seen is standing here, looking down
+at you.
+"
+Examine = "You see a cockroach about 8 feet tall - apparently a mutant breed."
+End = mob9994
+
+
+Name = mob9997
+Pname = "the Deepspawn"
+Location = ghenna9997
+SFlags  { Nobody }
+PFlags  {NoSummon}
+EFlags  { ImmBlind }
+Strength = 1902
+Damage = 61
+Armor = 40
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Description = "The &+yDeepspawn&* is standing here, ready to kill you.
+"
+Examine = "It looks like a large, rubbery shpere of mottled grey and brown.  Six
+arms project from its body; three are tentacle-arms, and three are jaw-arms,
+ending in mouths of many teeth.  It also has about 40 long, retractable,
+flexible eye stalks that wave at you menacingly.  
+"
+End = mob9997
+
+%objects
+
+Name = mound_ghenna9901
+Pname = mound
+Oflags { NoGet }
+Location = IN_ROOM:ghenna9900
+Examine = "Maybe there's something buried under here?"
+End = mound_ghenna9901
+
+Name = platform_ghenna9901
+Pname = platform
+Linked = platform_ghenna9900
+Location = IN_ROOM:ghenna9900
+Oflags { Openable Noget Lockable }
+State = 3
+Maxstate = 3
+Desc[2] = "The &+Bplatform&* is locked."
+Desc[1] = "There is a &+Bplatform&* here, exposed from underneath the mound."
+Desc[0] = "A &+Bplatform&* has been opened up, with some strange passage leading downward."
+End = platform_ghenna9901
+
+Name = platform_ghenna9900
+Pname = platform
+Linked = platform_ghenna9901
+State = 3
+Maxstate = 3
+Oflags { Openable NoGet Lockable }
+Desc[2] = "There's a &+Bplatform&* up above, but someone has locked it!"
+Desc[1] = "There's a platform up above, closed."
+Desc[0] = "The platform hangs open, inviting you to exit this hellhole."
+Location = IN_ROOM:ghenna9901
+End = platform_ghenna9900
+
+Name = guts_ghenna9912
+Pname = guts
+Linked = guts_ghenna9903
+State = 1
+Maxstate = 1
+Oflags { NoGet }
+Desc[1] = "Would YOU like to take up the cause of digging graves?"
+Desc[0] = "You have dug a hole exposing an open pit, from which you can't see the bottom."
+Location = IN_ROOM:ghenna9903
+Examine = "I am NOT going to describe them to you, lest I become ill."
+End = guts_ghenna9912
+
+Name = guts_ghenna9903
+Pname = guts
+Linked = guts_ghenna9912
+State = 1
+Maxstate = 1
+Oflags { NoGet }
+Desc[1] = ""
+Desc[0] = ""
+Location = IN_ROOM:ghenna9912
+End = guts_ghenna9903
+
+Name = tavern_ghenna9915
+Pname = tavern
+Altname = door
+Linked = door_ghenna9904
+State = 1
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The door is locked, the place must be closed."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open, leading into the tavern."
+Location = IN_ROOM:ghenna9904
+Examine = "Well, it ain't Cheers...and you might leave with nothing but jeers."
+End = tavern_ghenna9915
+
+Name = door_ghenna9904
+Pname = door
+Linked = tavern_ghenna9915
+State = 1
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The door is locked, trapping you inside."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open, better get out while you can."
+Location = IN_ROOM:ghenna9915
+End = door_ghenna9904
+
+Name = secret_ghenna9910
+Pname = dirt
+Linked = secret_ghenna9906
+State = 1
+Maxstate = 1
+Oflags { NoGet }
+Desc[1] = "The dirt is a little loose under your feet."
+Desc[0] = "A hole leads down to some unknown chamber."
+Location = IN_ROOM:ghenna9906
+End = secret_ghenna9910
+
+Name = secret_ghenna9906
+Pname = dirt
+Linked = secret_ghenna9910
+State = 1
+Maxstate = 1
+Oflags { NoGet }
+Desc[1] = ""
+Desc[0] = ""
+Location = IN_ROOM:ghenna9910
+End = secret_ghenna9906
+
+Name = door_ghenna9920
+Pname = door
+Linked = door_ghenna9919
+State = 2
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Location = IN_ROOM:ghenna9919
+End = door_ghenna9920
+
+Name = door_ghenna9919
+Pname = door
+Linked = door_ghenna9920
+State = 2
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Location = IN_ROOM:ghenna9920
+End = door_ghenna9919
+
+Name = door_ghenna9921
+Pname = door
+Linked = door_ghenna9922
+State = 2
+Maxstate = 2
+
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Location = IN_ROOM:ghenna9922
+End = door_ghenna9921
+
+Name = door_ghenna9922
+Pname = door
+Linked = door_ghenna9921
+State = 2
+Maxstate = 2
+
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The door is locked."
+Desc[1] = "The door is closed."
+Desc[0] = "The door is open."
+Location = IN_ROOM:ghenna9921
+End = door_ghenna9922
+
+Name = mirror_ghenna9943
+Pname = mirror
+Linked = mirror_ghenna9923
+State = 1
+Maxstate = 1
+Oflags { Pushtoggle NoGet }
+Desc[1] = ""
+Desc[0] = "The mirror has been pushed aside, revealing a secret passage."
+Location = IN_ROOM:ghenna9923
+Examine = "As you look in the mirror, you feel some air coming from behind it."
+End = mirror_ghenna9943
+
+Name = mirror_ghenna9923
+Pname = mirror
+Linked = mirror_ghenna9943
+State = 1
+Maxstate = 1
+Oflags { Pushtoggle NoGet }
+Desc[1] = "The passage ends at the back of a mirror."
+Desc[0] = "The mirror has been pushed aside, allowing passage back in the room."
+Location = IN_ROOM:ghenna9943
+End = mirror_ghenna9923
+
+Name = door_ghenna9934
+Pname = door
+Linked = door_ghenna9933
+State = 1
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The door leading upwards is locked."
+Desc[1] = "The door leading upwards is closed."
+Desc[0] = "The door leading upwards is open."
+Location = IN_ROOM:ghenna9933
+End = door_ghenna9934
+
+Name = door_ghenna9933
+Pname = door
+Linked = door_ghenna9934
+State = 1
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The door leading out of the cave is locked."
+Desc[1] = "The door leading out of the cave is closed."
+Desc[0] = "The door leading out of the cave is open."
+Location = IN_ROOM:ghenna9934
+End = door_ghenna9933
+
+Name = pit_ghenna9999
+Pname = trapdoor
+Altname = pit
+Linked = pit_ghenna9933
+State = 1
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The trapdoor leading downwards is locked."
+Desc[1] = "The trapdoor leading downwards is closed."
+Desc[0] = "The trapdoor leading downwards is open."
+Location = IN_ROOM:ghenna9933
+Examine = "A pit of jutting spears (which will DEFINITELY kill you if you enter).
+"
+End = pit_ghenna9999
+
+Name = pit_ghenna9933
+Pname = trapdoor
+Altname = pit
+Linked = pit_ghenna9999
+State = 1
+Maxstate = 2
+Oflags { NoGet }
+Desc[2] = ""
+Desc[1] = ""
+Desc[0] = "Look where you're going next time...."
+Location = IN_ROOM:ghenna9999
+End = pit_ghenna9933
+
+Name = grotto_ghenna9938
+Pname = grotto
+Linked = grotto_ghenna9934
+State = 1
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The door leading into a grotto is locked."
+Desc[1] = "The door leading into a grotto is closed."
+Desc[0] = "The door leading into a grotto is open."
+Location = IN_ROOM:ghenna9934
+End = grotto_ghenna9938
+
+Name = grotto_ghenna9934
+Pname = grotto
+Altname = door
+Linked = grotto_ghenna9938
+State = 1
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The door leading into a grotto is locked."
+Desc[1] = "The door leading into a grotto is closed."
+Desc[0] = "The door leading into a grotto is open."
+Location = IN_ROOM:ghenna9938
+End = grotto_ghenna9934
+
+Name = secret_ghenna9953
+Pname = chute
+Linked = secret_ghenna9937
+State = 1
+Maxstate = 1
+Oflags { Openable NoGet }
+Desc[1] = "The chute cover is closed."
+Desc[0] = "The chute is open--get the heck outta here!"
+Examine = "Appears to be some sort of trash chute."
+Location = IN_ROOM:ghenna9937
+End = secret_ghenna9953
+
+Name = secret_ghenna9937
+Pname = chute
+Linked = secret_ghenna9953
+State = 1
+Maxstate = 1
+Oflags { NoGet }
+Desc[1] = ""
+Desc[0] = ""
+Location = IN_ROOM:ghenna9953
+End = secret_ghenna9937
+
+Name = port_ghenna9948
+Pname = cask
+Linked = port_ghenna9947
+State = 1
+Oflags { Openable NoGet }
+Desc[1] = ""
+Desc[0] = "A secret tunnel was hidden inside the cask!"
+Examine = "The cask doesn't seem to have any wine left."
+Location = IN_ROOM:ghenna9947
+End = port_ghenna9948
+
+Name = port_ghenna9947
+Pname = cask
+Linked = port_ghenna9948
+State = 1
+Oflags { Openable NoGet }
+Desc[1] = ""
+Desc[0] = ""
+Location = IN_ROOM:ghenna9948
+End = port_ghenna9947
+
+Name = air_ghenna9949
+Pname = cover
+Linked = air_ghenna9948
+State = 1
+Maxstate = 1
+Oflags { NoGet PushToggle }
+Desc[1] = "There is a cover over the air hole."
+Desc[0] = "The cover has been pushed aside, blowing heat on your face."
+Location = IN_ROOM:ghenna9948
+Examine = "It's hot...don't burn yourself."
+End = air_ghenna9949
+
+Name = air_ghenna9948
+Pname = cover
+Linked = air_ghenna9949
+State = 1
+Maxstate = 1
+Oflags { NoGet }
+Desc[1] = ""
+Desc[0] = ""
+Location = IN_ROOM:ghenna9949
+End = air_ghenna9948
+
+Name = red_ghenna9957
+Pname = red
+Altname = door
+Linked = red_ghenna9958
+State = 1
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The red door is locked."
+Desc[1] = "The red door is closed."
+Desc[0] = "The red door is open."
+Location = IN_ROOM:ghenna9958
+End = red_ghenna9957
+
+Name = red_ghenna9958
+Pname = red
+Altname = door
+Linked = red_ghenna9957
+State = 1
+Maxstate = 2
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The red door is locked."
+Desc[1] = "The red door is closed."
+Desc[0] = "The red door is open."
+Location = IN_ROOM:ghenna9957
+End = red_ghenna9958
+
+Name = shoebox_ghenna9911
+Pname = shoebox
+State = 1
+Maxstate = 1
+Size = 5
+Weight = 1
+Oflags { Openable NoGet Container}
+Desc[1] = "An old shoebox sits in a corner."
+Desc[0] = "The shoebox is open."
+Examine = "This box is not worth carrying around."
+Location = IN_ROOM:ghenna9965
+End = shoebox_ghenna9911
+
+Name = boulder_ghenna100
+Pname = boulder
+Linked = boulder_ghenna9991
+State = 1
+Maxstate = 1
+Oflags { PushToggle NoGet }
+Desc[1] = ""
+Desc[0] = "The boulder has been moved out of the way."
+Location = IN_ROOM:ghenna9991
+End = boulder_ghenna100
+
+Name = boulder_ghenna9991
+Pname = boulder
+Linked = boulder_ghenna100
+State = 1
+Maxstate = 1
+Oflags { PushToggle NoGet }
+Desc[1] = "You are trapped behind a boulder."
+Desc[0] = "The boulder has been moved out of the way."
+Location = IN_ROOM:ghenna100
+End = boulder_ghenna9991
+
+Name = bramble_ghenna9905
+Pname = bramble
+Altname = brambles
+Linked = bramble_ghenna9998
+State = 1
+Maxstate = 1
+Oflags { NoGet }
+Desc[1] = "The brambles are too think to pass through."
+Desc[0] = "A path has been cut through the brambles, allowing passage."
+Location = IN_ROOM:ghenna9998
+End = bramble_ghenna9905
+
+Name = bramble_ghenna9998
+Pname = bramble
+Linked = bramble_ghenna9905
+State = 1
+Maxstate = 1
+Oflags { NoGet }
+Desc[1] = "The brambles are too think to pass through."
+Desc[0] = "A path has been cut through the brambles, allowing passage."
+Location = IN_ROOM:ghenna9905
+End = bramble_ghenna9998
+
+Name = forge
+Altname = tray
+State = 0
+Maxstate = 1
+Size = 300
+Weight = 300
+Oflags { Noget Container Pushtoggle Lit }
+Desc[1] = "The forge sits here, burning with intense heat.  The tray has been pushed 
+into the forge, molding something."
+Desc[0] = "The forge sits here, burning with intense heat.  The tray for the forge 
+has been pulled out."
+Location = IN_ROOM:ghenna9949
+End = forge
+
+Name = obj9900
+Pname = candelabra
+Altname = candles
+Location = IN_ROOM:ghenna9922
+State = 0
+Maxstate = 1
+Bvalue = 0
+Size = 100
+Weight = 100
+Oflags { Lit Lightable Extinguish }
+Desc[1] = "A candelabra is sitting here, not lit."
+Desc[0] = "A candelabra is sitting here, emitting a soft glow."
+Examine = "As dark as it is around here, you could use these."
+End = obj9900
+
+Name = obj9900_1
+Pname = candelabra
+Altname = candles
+Location = IN_ROOM:ghenna9941
+State = 0
+Maxstate = 1
+Bvalue = 0
+Size = 100
+Weight = 100
+Oflags { Lit Lightable Extinguish }
+Desc[1] = "A candelabra is sitting here, not lit."
+Desc[0] = "A candelabra is sitting here, emitting a soft glow."
+Examine = "As dark as it is around here, you could use these."
+End = obj9900_1
+
+Name = obj9901
+Pname = pillow
+Altname = mirrors
+Location = IN_ROOM:ghenna9941
+State = 0
+Maxstate = 0
+Damage = 1
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Weapon }
+Desc[0] = "A pillow adorned with mirrors sits here."
+Examine = "This would serve in a pillow fight, but not a real one."
+End = obj9901
+
+Name = obj9902
+Pname = bardiche
+Location = WIELDED_BY:mob9911
+State = 0
+Maxstate = 0
+Damage = 10
+Bvalue = 50
+Size = 14
+Weight = 14
+Oflags { Weapon }
+Desc[0] = "A bardiche leans against the wall, casting a long shadow."
+End = obj9902
+
+Name = obj9902_1
+Pname = bardiche
+Location = WIELDED_BY:mob9911_1
+State = 0
+Maxstate = 0
+Damage = 10
+Bvalue = 50
+Size = 14
+Weight = 14
+Oflags { Weapon }
+Desc[0] = "A bardiche leans against the wall, casting a long shadow."
+End = obj9902_1
+
+Name = obj9902_2
+Pname = bardiche
+Location = WIELDED_BY:mob9900
+State = 0
+Maxstate = 0
+Damage = 10
+Bvalue = 50
+Size = 14
+Weight = 14
+Oflags { Weapon }
+Desc[0] = "A bardiche leans against the wall, casting a long shadow."
+End = obj9902_2
+
+Name = obj9903
+Pname = fly
+Altname = dead
+Location = CARRIED_BY:mob9901
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags {}
+Desc[0] = "A dead fly lies on its back with its legs twitching."
+End = obj9903
+
+Name = obj9904
+Pname = box
+Altname = heart
+Location = CARRIED_BY:mob9918
+State = 0
+Maxstate = 0
+Bvalue = 50
+Size = 10
+Weight = 2
+Oflags { Container }
+Desc[0] = "A heart shaped box made of pink crepe paper sits here."
+End = obj9904
+
+Name = obj9905
+Pname = corkscrew
+Location = IN_ROOM:limbo@limbo
+State = 0
+Maxstate = 0
+Damage = 44
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Lit Weapon Noget }
+Desc[0] = "&+YA corkscrew lies here, a cork still in it...but it's not for mortals!"
+Examine = "This is no ordinary corkscrew, it appears to have been crafted by the gods!"
+End = obj9905
+
+Name = obj9907
+Pname = blood
+Altname = pool
+Location = IN_ROOM:ghenna9937
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Noget }
+Desc[0] = "A large pool of &+rblood&* sits here with flies buzzing about it."
+Examine = "Ummmm...trust me, you don't wanna know."
+End = obj9907
+
+Name = obj9908
+Pname = hand
+Altname = rotting
+Location = IN_ROOM:ghenna9901
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags {  }
+Desc[0] = "A half decayed hand sits here (Gross!)."
+Examine = "Uh, you sure you want to explore this area?  I would HATE to meet whomever
+was responsible for THIS!"
+End = obj9908
+
+Name = obj9909
+Pname = fly
+Altname = dead
+Location = CARRIED_BY:mob9907
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { }
+Desc[0] = "A dead fly lays on its back with its legs twitching slightly."
+Examine = "It appears the plant lost its taste for insects."
+End = obj9909
+
+Name = obj9909_1
+Pname = fly
+Altname = dead
+Location = CARRIED_BY:mob9907
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Desc[0] = "A dead fly lays on its back with its legs twitching slightly."
+Examine = "It appears the plant lost its taste for insects."
+End = obj9909_1
+
+Name = obj9909_2
+Pname = fly
+Altname = dead
+Location = CARRIED_BY:mob9907
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Desc[0] = "A dead fly lays on its back with its legs twitching slightly."
+Examine = "It appears the plant lost its taste for insects."
+End = obj9909_2
+
+Name = obj9910
+Pname = cinch
+Altname = gold
+Location = WORN_BY:mob9913
+State = 0
+Maxstate = 0
+Armor = 10
+Bvalue = 100
+Size = 3
+Weight = 3
+Oflags { Glowing Wearable Armor }
+Aflags { Legs }
+Desc[0] = "There is a gold roped cinch laying here."
+End = obj9910
+
+Name = obj9911
+Pname = spear
+Altname = wooden
+Location = WIELDED_BY:mob9906
+State = 0
+Maxstate = 0
+Damage = 8
+Bvalue = 30
+Size = 8
+Weight = 8
+Oflags { Weapon }
+Desc[0] = "A wooden spear, with a crudely fashioned stone tip, sits here."
+End = obj9911
+
+Name = obj9911_1
+Pname = spear
+Altname = wooden
+Location = WIELDED_BY:mob9906_1
+State = 0
+Maxstate = 0
+Damage = 8
+Bvalue = 30
+Size = 8
+Weight = 8
+Oflags { Weapon }
+Desc[0] = "A wooden spear, with a crudely fashioned stone tip, sits here."
+End = obj9911_1
+
+Name = obj9911_2
+Pname = spear
+Altname = wooden
+Location = WIELDED_BY:mob9906_2
+State = 0
+Maxstate = 0
+Damage = 8
+Bvalue = 30
+Size = 8
+Weight = 8
+Oflags { Weapon }
+Desc[0] = "A wooden spear, with a crudely fashioned stone tip, sits here."
+End = obj9911_2
+
+Name = obj9911_3
+Pname = spear
+Altname = wooden
+Location = WIELDED_BY:mob9915
+State = 0
+Maxstate = 0
+Damage = 8
+Bvalue = 30
+Size = 8
+Weight = 8
+Oflags { Weapon }
+Desc[0] = "A wooden spear, with a crudely fashioned stone tip, sits here."
+End = obj9911_3
+
+Name = obj9912
+Pname = wings
+Altname = leather
+Location = WORN_BY:mob9908
+State = 0
+Maxstate = 0
+Armor = 12
+Bvalue = 530
+Size = 10
+Weight = 10
+Oflags { Glowing Wearable Armor }
+Aflags { Back }
+Desc[0] = "A mass of black leather sits here."
+Examine = "Thinking of doing some flying around?  Maybe these dragon's wings will help."
+End = obj9912
+
+Name = obj9913
+Pname = jawbone
+Altname = Suzerain
+Location = CARRIED_BY:mob9910
+State = 0
+Maxstate = 0
+Bvalue = 50
+Size = 5
+Weight = 5
+Oflags { }
+Desc[0] = "A human jawbone is laying here, biting the dirt."
+Examine = "So THAT'S what happened to Lord Suzerain--he ended up as dragon chow!"
+End = obj9913
+
+Name = obj9914
+Pname = carapace
+Altname = impermeable
+Location = WORN_BY:mob9909
+State = 0
+Maxstate = 0
+Armor = 45
+Bvalue = 300
+Size = 7
+Weight = 7
+Oflags { Wearable Armor }
+Aflags { Chest }
+Desc[0] = "A leathery, red scaled hide sits here in a heap."
+End = obj9914
+
+Name = obj9915
+Pname = cameo
+Altname = bone
+Location = WORN_BY:mob9910
+State = 0
+Maxstate = 0
+Armor = 12
+Bvalue = 230
+Size = 2
+Weight = 2
+Oflags { Wearable Armor }
+Aflags {Neck }
+Desc[0] = "A piece of carved bone attached to a leather strap sits half buried in the dirt."
+Examine = "It is a cameo scrimshaw necklace."
+End = obj9915
+
+Name = obj9916
+Pname = earring
+Altname = skeleton
+Location = WORN_BY:mob9916
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags {  Wearable Key }
+Desc[0] = "A small earring of a human skeleton sits here.  The end of it
+looks like it would fit in a keyhole of sorts..."
+End = obj9916
+
+Name = obj9917
+Pname = viscera
+Location = WORN_BY:mob9910
+State = 0
+Maxstate = 0
+Armor = 5
+Bvalue = 100
+Size = 1
+Weight = 1
+Oflags { Wearable Armor }
+Aflags { Hand }
+Desc[0] = "A small loop of entwined viscera lays here."
+End = obj9917
+
+Name = obj9918
+Pname = claw
+Altname = dragon
+Location = WIELDED_BY:mob9910
+State = 0
+Maxstate = 0
+Damage = 28
+Bvalue = 600
+Size = 13
+Weight = 13
+Oflags { Weapon }
+Desc[0] = "The severed claw of a maroon colored beast squirms in the dirt here."
+End = obj9918
+
+Name = obj9919
+Pname = rug
+Altname = oriental
+Location = IN_ROOM:ghenna9941
+State = 0
+Maxstate = 0
+Bvalue = 100
+Size = 1000
+Weight = 12
+Oflags { Container }
+Desc[0] = "An oriental rug lays here, its fringes blowing in the breeze."
+Examine = "Looks like your typical rug... *shrug*
+"
+End = obj9919
+
+Name = obj9920
+Pname = snakes
+Altname = woven
+Location = WORN_BY:mob9914
+State = 0
+Maxstate = 0
+Armor = 23
+Bvalue = 666
+Size = 7
+Weight = 7
+Oflags { Glowing Wearable Armor }
+Aflags {Head }
+Desc[0] = "A swirling mass of snakes is writhing here."
+Examine = "You really WANT to wear that?  What if you get bit?"
+End = obj9920
+
+Name = obj9921
+Pname = bracelet
+Altname = prizmatic
+Location = WORN_BY:mob9913
+State = 0
+Maxstate = 0
+Armor = 3
+Bvalue = 200
+Size = 3
+Weight = 3
+Oflags { Wearable Armor }
+Aflags { Hand }
+Desc[0] = "Something lies here, shimmering in spectral colors."
+End = obj9921
+
+Name = obj9922
+Pname = pants
+Altname = purple
+Location = WORN_BY:mob9913
+State = 0
+Maxstate = 0
+Armor = 5
+Bvalue = 200
+Size = 1
+Weight = 1
+Oflags { Wearable Armor }
+Aflags {Legs }
+Desc[0] = "A pile of purple silk pants hovers above the ground here."
+End = obj9922
+
+Name = obj9923
+Pname = sword
+Altname = nosferatu
+Location = WIELDED_BY:mob9923
+State = 0
+Maxstate = 0
+Damage = 33
+Bvalue = 875
+Size = 10
+Weight = 10
+Oflags { Cursed Weapon }
+Desc[0] = "A small sword with a zigzag blade lies here."
+Examine = "It vibrates with a hidden power of ultimate evil.  With this weapon in your
+grasp you feel most invincible.  But beware, lest Nosferatu should come
+calling for his precious.
+"
+End = obj9923
+
+Name = obj9924
+Pname = boots
+Altname = tipped
+Location = WORN_BY:mob9923
+State = 0
+Maxstate = 0
+Armor = 30
+Bvalue = 300
+Size = 5
+Weight = 5
+Oflags {  Wearable Armor }
+Aflags {Feet }
+Desc[0] = "A pair of razor-tipped boots sits here."
+Examine = "Trust me, you don't want to be on the recieving end of a kick from these!"
+End = obj9924
+
+Name = obj9925
+Pname = leggings
+Altname = chrome
+Location = WORN_BY:mob9923
+State = 0
+Maxstate = 0
+Armor = 28
+Bvalue = 660
+Size = 9
+Weight = 9
+Oflags { Glowing Wearable Armor }
+Aflags {Legs }
+Desc[0] = "Some slick, shiny chrome leggings glint in the sunlight."
+End = obj9925
+
+Name = obj9926
+Pname = sleeves
+Altname = chrome
+Location = WORN_BY:mob9923
+State = 0
+Maxstate = 0
+Armor = 35
+Bvalue = 200
+Size = 7
+Weight = 7
+Oflags { Glowing Wearable Armor }
+Aflags {Arms }
+Desc[0] = "Some slick, shiny chrome sleeves glint in the sunlight."
+End = obj9926
+
+Name = obj9927
+Pname = shield
+Altname = chrome
+Location = WORN_BY:mob9923
+State = 0
+Maxstate = 0
+Armor = 40
+Bvalue = 660
+Size = 10
+Weight = 10
+Oflags { Glowing Wearable Armor Shield }
+Desc[0] = "Some slick, shiny chrome lies glinting in the sunlight--a shield!"
+End = obj9927
+
+Name = obj9928
+Pname = cloak
+Altname = vermillion
+Location = WORN_BY:mob9923
+State = 0
+Maxstate = 0
+Bvalue = 150
+Size = 50
+Weight = 4
+Oflags { Wearable Container }
+Aflags {Back }
+Desc[0] = "A pile of bright red fabric sits here."
+Examine = "It's a vermillion cloak!"
+End = obj9928
+
+Name = obj9929
+Pname = gauntlets
+Altname = chrome
+Location = WORN_BY:mob9923
+State = 0
+Maxstate = 0
+Armor = 26
+Bvalue = 250
+Size = 4
+Weight = 4
+Oflags { Glowing Wearable Armor }
+Aflags { Hands }
+Desc[0] = "Some slick, shiny chrome glints in the sunlight--pair of guantlets!"
+End = obj9929
+
+Name = obj9930
+Pname = helm
+Altname = chrome
+Location = WORN_BY:mob9923
+State = 0
+Maxstate = 0
+Armor = 27
+Bvalue = 159
+Size = 4
+Weight = 4
+Oflags { Glowing Wearable Armor }
+Aflags {Head }
+Desc[0] = "Some slick, shiny chrome glints in the sunlight--a helm!"
+End = obj9930
+
+Name = obj9931
+Pname = footlocker
+Location = IN_ROOM:ghenna9950
+State = 2
+Maxstate = 2
+Bvalue = 0
+Size = 300
+Weight = 100
+Oflags { Container Noget Openable Lockable }
+Desc[0] = "A bound footlocker of black leather sits open gainst the wall."
+Desc[1] = "A bound footlocker of black leather sits unlocked."
+Examine = "Maybe there's something in it?"
+End = obj9931
+
+Name = obj9932
+Pname = Wyrm
+Altname = book
+Location = IN_CONTAINER:obj9931
+State = 0
+Maxstate = 0
+Bvalue = 550
+Size = 3
+Weight = 3
+Oflags { }
+Desc[0] = "A book made from human skin sits here."
+Examine = "Appears to be a journal of the deeds Lord Suzerin did while he was alive.
+One entry talks about a blue sphere that had absorbed evil beings into it.
+Another entry is a listing of the attempts to destroy the sphere and 
+release those beings, but to no avail.  One of the last entries is about
+how this sphere was shattered into fragments and embedded in monsters.
+The very last entry says that Suzerin was going to get rid of some creature
+that doublecrossed him.  And that was some time ago."
+End = obj9932
+
+Name = obj9933
+Pname = whip
+Altname = leather
+Location = WIELDED_BY:mob9958
+State = 0
+Maxstate = 0
+Damage = 15
+Bvalue = 100
+Size = 4
+Weight = 4
+Oflags { Weapon }
+Desc[0] = "A flimsy black leather whip lies here."
+End = obj9933
+
+Name = obj9934
+Pname = bra
+Altname = pushDASHup
+Location = WORN_BY:mob9958
+State = 0
+Maxstate = 0
+Armor = 24
+Bvalue = 50
+Size = 2
+Weight = 2
+Oflags { Cursed SpellMiss Wearable Armor }
+Aflags { Chest }
+Desc[0] = "A scrap of black leather is vibrating here."
+End = obj9934
+
+Name = obj9935
+Pname = heels
+Altname = pumps
+Location = WORN_BY:mob9958
+State = 0
+Maxstate = 0
+Armor = 20
+Bvalue = 75
+Size = 2
+Weight = 2
+Oflags { Cursed SpellMiss Wearable Armor }
+Aflags {Feet }
+Desc[0] = "A pair of do-me pumps is sitting here."
+Examine = "They're spiked heels!  A kick from these wouldn't be pleasant."
+End = obj9935
+
+Name = obj9958
+Pname = thong
+Altname = leather
+Location = WORN_BY:mob9958
+State = 0
+Maxstate = 0
+Armor = 2
+Bvalue = 55
+Size = 1
+Weight = 1
+Oflags { Cursed MissChance Wearable Armor }
+Aflags { Legs }
+Desc[0] = "A thin strip of black leather is wedged into a crack in the dirt."
+End = obj9958
+
+Name = obj9964
+Pname = hatpin
+Location = WIELDED_BY:mob9964
+State = 0
+Maxstate = 0
+Damage = 4
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Glowing Weapon }
+Desc[0] = "A hatpin has been left here."
+End = obj9964
+
+Name = obj9965
+Pname = shoes
+Location = IN_CONTAINER:shoebox_ghenna9911
+State = 0
+Maxstate = 0
+Bvalue = 0
+Armor = 2
+Size = 1
+Weight = 1
+Oflags {Wearable Armor }
+Aflags {Feet}
+Desc[0] = "A child's shoes are sitting here, none the worse for wear."
+End = obj9965
+
+Name = obj9966
+Pname = totem
+Altname = voodoo
+Location = CARRIED_BY:mob9914
+State = 0
+Maxstate = 0
+Bvalue = 500
+Size = 1
+Weight = 1
+Oflags {Cursed Lit }
+Desc[0] = "A voodoo totem sits here, grinning at you."
+Examine = "Looks to be some sort of likeness to Lord Suzerin and his minions."
+End = obj9966
+
+Name = obj9966_1
+Pname = totem
+Altname = voodoo
+Location = CARRIED_BY:mob9909
+State = 0
+Maxstate = 0
+Bvalue = 500
+Size = 1
+Weight = 1
+Oflags {Cursed Lit}
+Desc[0] = "A voodoo totem sits here, grinning at you."
+Examine = "Looks to be some sort of likeness to Lord Suzerin and his minions."
+End = obj9966_1
+
+Name = obj9977
+Pname = sign
+Location = IN_ROOM:ghenna1
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { NoGet }
+Desc[0] = "
+&+Y    ******************************
+&+Y    *  A sign sits here flashing *
+&+Y    *      a &B&+RWARNING&*&+Y at you      *
+&+Y    |____________________________|
+&+Y   /______________________________\  
+&+Y  |________________________________|   
+"
+Examine = "
+&+C             ____________________________
+&+C            /                            \  
+&+C           /------------------------------\  
+&+W           ||                            ||
+&+W           || If you are below level 10, ||
+&+W           || and you are alone, perhaps ||
+&+W           || you should reconsider this ||
+&+W           || area.                      ||
+&+W           ||____________________________|| 
+&+C          /================================\  
+&+C         /__________________________________\  
+"
+End = obj9977
+
+Name = obj9981
+Pname = belt
+Altname = mithril
+Location = WORN_BY:mob9981
+State = 0
+Maxstate = 0
+Armor = 27
+Bvalue = 75
+Size = 5
+Weight = 5
+Oflags { Wearable Armor }
+Aflags { Legs }
+Desc[0] = "A belt of durable metal lies here."
+End = obj9981
+
+Name = obj9986
+Pname = tunic
+Altname = translucent
+Location = WORN_BY:mob9986
+State = 0
+Maxstate = 0
+Armor = 25
+Bvalue = 75
+Size = 5
+Weight = 5
+Oflags { Wearable Armor }
+Aflags {Back }
+Desc[0] = "Some celophane-like substance is laying here.  Looks like a tunic."
+Examine = "It is a translucent tunic."
+End = obj9986
+
+Name = obj9987
+Pname = bow
+Altname = mahogany
+Location = WIELDED_BY:mob9987
+State = 0
+Maxstate = 0
+Damage = 18
+Bvalue = 250
+Size = 3
+Weight = 3
+Oflags { Cross Glowing Weapon }
+Desc[0] = "A thin bow hewn from mahogany lies here."
+End = obj9987
+
+Name = obj9995
+Pname = ring
+Altname = platinum
+Location = WORN_BY:mob9909
+State = 0
+Maxstate = 0
+Armor = 1
+Bvalue = 100
+Size = 1
+Weight = 1
+Oflags { Glowing Wearable Armor Hitchance }
+Aflags { Hand }
+Desc[0] = "A large ring made from precious metal is sitting here, evading the dirt."
+End = obj9995
+
+Name = obj9996
+Pname = skin
+Altname = gelatinous
+Location = WORN_BY:mob9997
+State = 0
+Maxstate = 0
+Armor = 8
+Bvalue = 111
+Size = 4
+Weight = 4
+Oflags { Enchanted Wearable Armor }
+Aflags {Back }
+Desc[0] = "A pile of jello undulates here."
+Examine = "Heck, it looks like a pile of red gelatin... pretty gross.
+Yet, it seems enchanted with some magical aura to make 
+it protective to whomever wears it."
+End = obj9996
+
+Name = obj9997
+Pname = leggings
+Altname = jello
+Location = WORN_BY:mob9997
+State = 0
+Maxstate = 0
+Armor = 20
+Bvalue = 150
+Size = 5
+Weight = 5
+Oflags { Enchanted Wearable Armor }
+Aflags {Legs }
+Desc[0] = "A pile of jello undulates here."
+Examine = "Looks like slimy red gelatin... pretty gross.
+Yet, it seems enchanted with some magical aura to make
+it protective to whomever wears it."
+End = obj9997
+
+Name = obj9998
+Pname = skull
+Location = IN_ROOM:ghenna9907
+State = 0
+Maxstate = 0
+Bvalue = 20
+Size = 10
+Weight = 3
+Oflags { Container }
+Desc[0] = "A human skull sits here."
+Examine = "This poor being obviously fell victim to the beasts living here."
+End = obj9998
+
+Name = obj9999
+Pname = totem
+Altname = voodoo
+Location = CARRIED_BY:mob9923
+State = 0
+Maxstate = 0
+Bvalue = 250
+Size = 3
+Weight = 3
+Oflags { }
+Desc[0] = "A voodoo totem sits here, grinning at you."
+Examine = "Looks to be some sort of likeness to Lord Suzerin and his minions,
+although this one looks less threatening than the others."
+End = obj9999
+
+Name = sphere
+Pname = sphere
+Altname = jewel
+Location = IN_ROOM:limbo@limbo
+State = 0
+Maxstate = 0
+Bvalue = 400
+Size = 2
+Weight = 2
+Oflags { Glowing HitChance SpellChance Destroyed }
+Desc[0] = "A glowing sphere has been left here!"
+Examine = "It appears to be some sort of power source, it emits a faint humming sound!
+It is blue in color with swirling shades of it inside."
+End = sphere
+
+Name = fountain
+Pname = fountain
+Location = IN_ROOM:ghenna9902
+Oflags { NoGet Cross  }
+State = 0
+Maxstate = 1
+Desc[0] = ""
+Desc[1] = "&+CA bright blue beam is shooting straight up from the center of the fountain."
+Examine = "Appears to be a small platform in the middle, almost like a socket."
+End = fountain
+
+Name = coins
+Location = IN_ROOM:ghenna9902
+Oflags {Getflips}
+Size = 1
+Weight = 1
+Bvalue = 25
+Desc[1] = "There are a few scattered coins in the fountain."
+Desc[0] = "A few coins were left here."
+Examine = "Stamped on the face of each coin is a picture of that Lord Suzerin."
+End = coins
+
+Name = acid
+Pname = acid
+Altname = vial
+Location = IN_ROOM:ghenna9915
+Oflags { }
+Size = 1
+Weight = 1
+Bvalue = 0
+Desc[0] = "A small vial of acid was left here."
+Examine = "This stuff will eat thru anything, except glass.  Better be careful with it."
+End = acid
+
+Name = lamp
+Pname = lamp
+Location = IN_ROOM:ghenna9941
+Oflags { Container Noget }
+Size = 4
+Weight = 2
+Bvalue = -100
+Desc[0] = "The genie's magic lamp is sitting here."
+Examine = "Maybe if you rub it you'll get the three wishes."
+End = lamp
+
+Name = aidstaff
+Pname = aidstaff
+Altname = staff
+Location = CARRIED_BY:mob9900
+Oflags { RegenHealth Enchanted }
+Size = 4
+Weight = 3
+Bvalue = -100
+Desc[0] = "The staff of aid sits here, waiting to aid the wounded."
+Examine = "Shamus has enchanted this staff to do one thing, evacuate the sick and wounded."
+End = aidstaff
+
+Name = mark25
+Pname = tape
+Oflags { Noget }
+Location = IN_ROOM:limbo@limbo
+Desc[0] = "Police tape has been strung up here, indicating a crime scene."
+Examine = "It says:  Police line, do not cross!"
+End = mark25
+
+Name = mark26
+Pname = tape
+Oflags { Noget }
+Location = IN_ROOM:limbo@limbo
+Desc[0] = "Police tape has been strung up here, indicating a crime scene."
+Examine = "It says:  Police line, do not cross!"
+End = mark26
+
+Name = mark27
+Pname = tape
+Oflags { Noget }
+Location = IN_ROOM:limbo@limbo
+Desc[0] = "Police tape has been strung up here, indicating a crime scene."
+Examine = "It says:  Police line, do not cross!"
+End = mark27
+
+Name = mark28
+Pname = tape
+Oflags { Noget }
+Location = IN_ROOM:limbo@limbo
+Desc[0] = "Police tape has been strung up here, indicating a crime scene."
+Examine = "It says:  Police line, do not cross!"
+End = mark28
+
+Name = mark29
+Pname = tape
+Oflags { Noget }
+Location = IN_ROOM:limbo@limbo
+Desc[0] = "Police tape has been strung up here, indicating a crime scene."
+Examine = "It says:  Police line, do not cross!"
+End = mark29
+
+Name = mark30
+Pname = tape
+Oflags { Noget }
+Location = IN_ROOM:limbo@limbo
+Desc[0] = "Police tape has been strung up here, indicating a crime scene."
+Examine = "It says:  Police line, do not cross!"
+End = mark30
+
+Name = mark31
+Pname = tape
+Oflags { Noget }
+Location = IN_ROOM:limbo@limbo
+Desc[0] = "Police tape has been strung up here, indicating a crime scene."
+Examine = "It says:  Police line, do not cross!"
+End = mark31
+
+Name = mark32
+Pname = tape
+Oflags { Noget }
+Location = IN_ROOM:limbo@limbo
+Desc[0] = "Police tape has been strung up here, indicating a crime scene."
+Examine = "It says:  Police line, do not cross!"
+End = mark32
+
+Name = DDT
+Pname = DDT
+Altname = can
+Location = IN_ROOM:ghenna9961
+Oflags { Getflips Poison }
+State = 1
+Maxstate = 1
+Desc[1] = "It appears only a can of bug spray remains intact on the dais."
+Desc[0] = "A large can of bug spray has been left in here."
+Examine = "
+On the side of the can, it says DDT.  Guarnteed to kill the biggest, nastiest 
+bugs around.  Follow all safeguards in using this product.  The can does not 
+appear to be full, so you best better save it for a major infestation."
+End = DDT
+
+Name = cards
+Oflags { Noget }
+Location = IN_ROOM:ghenna9917
+Examine = "
+Someone had two pairs, aces and eights.  Well what do you know, that's
+the DEAD MAN'S HAND!"
+End = cards
+
+Name = frag1
+Pname = fragment
+Bvalue = 50
+Size = 2
+Weight = 2
+Oflags { SpellChance MissileSpell Wearable}
+Location = WORN_BY:mob9997
+Desc[0] = "A fragment of a blue jewel has fallen from the monster's body."
+Examine = "Even as a small fragment, it radiates power." 
+End = frag1
+
+Name = frag2
+Pname = fragment
+Size = 2
+Weight = 2
+Bvalue = 50
+Oflags { SpellChance FrostSpell Wearable}
+Location = WORN_BY:mob9994
+Desc[0] = "A fragment of a blue jewel has fallen from the monster's body."
+Examine = "Even as a small fragment, it radiates power." 
+End = frag2
+
+Name = frag3
+Pname = fragment
+Size = 2
+Weight = 2
+Bvalue = 50
+Oflags { SpellChance AidSpell Wearable }
+Location = WORN_BY:mob9933
+Desc[0] = "A fragment of a blue jewel has fallen from the monster's body."
+Examine = "Even as a small fragment, it radiates power." 
+End = frag3
+
+Name = frag4
+Pname = fragment
+Size = 2
+Weight = 2
+Bvalue = 50
+Oflags { SpellChance ShockSpell Wearable }
+Location = WORN_BY:mob9923
+Desc[0] = "A fragment of a blue jewel has fallen from the monster's body."
+Examine = "Even as a small fragment, it radiates power." 
+End = frag4
+
+Name = frag5
+Pname = fragment
+Size = 2
+Weight = 2
+Bvalue = 50
+Oflags { SpellChance BHandsSpell Wearable}
+Location = WORN_BY:mob9913
+Desc[0] = "A fragment of a blue jewel has fallen from the monster's body."
+Examine = "Even as a small fragment, it radiates power." 
+End = frag5
+
+Name = frag6
+Pname = fragment
+Size = 2
+Weight = 2
+Bvalue = 50
+Oflags { SpellChance IStormSpell Wearable }
+Location = WORN_BY:mob9910
+Desc[0] = "A fragment of a blue jewel has fallen from the monster's body."
+Examine = "Even as a small fragment, it radiates power." 
+End = frag6
+
+Name = frag7
+Pname = fragment
+Size = 2
+Weight = 2
+Bvalue = 50
+Oflags { SpellChance FireballSpell Wearable }
+Location = WORN_BY:mob9908
+Desc[0] = "A fragment of a blue jewel has fallen from the monster's body."
+Examine = "Even as a small fragment, it radiates power." 
+End = frag7
+
+Name = frag8
+Pname = fragment
+Size = 2
+Weight = 2
+Bvalue = 50
+Oflags { SpellChance BlurSpell Wearable }
+Location = WORN_BY:mob9907
+Desc[0] = "A fragment of a blue jewel has fallen from the monster's body."
+Examine = "Even as a small fragment, it radiates power." 
+End = frag8
+
+Name = frag9
+Pname = fragment
+Size = 2
+Weight = 2
+Bvalue = 50
+Oflags { Spellchance VTouchSpell }
+Location = IN_ROOM:ghenna100
+Desc[0] = "A fragment of a blue jewel has been hidden here."
+Examine = "Even as a small fragment, it radiates power."
+End = frag9
+
+%locations
+
+ghenna1 n:ghenna9900 w:grave3408@grave; 
+lflags { Nomobiles Outdoors }
+Before the Barrow Mound^
+  You stand before a wide barrow &+ymound&*, nearly obsecured by mist.
+It is awfully quiet, yet you smell something nearby that reeks of
+rotting flesh.  You can climb the mound to the north, or move away
+from it to the south.
+^
+
+
+ghenna9900 s:ghenna1 d:^platform_ghenna9901;
+lflags { NoMobiles Dark Outdoors }
+A barrow mound.^
+  You are standing atop a barrow &+ymound&* which is about 15 feet in 
+diameter.  There is no vegetation inside the circle, strangely 
+enough.  A low cumulous of swirling mist engulfs you from the 
+knees down, making it look as though you are partially buried.
+^
+
+ghenna9901 n:ghenna9902 s:ghenna9903 w:ghenna9957 e:ghenna9959 u:^platform_ghenna9900;
+lflags { Dark Outdoors }
+City limits of Ghenna.^
+  You are standing inside the city limits of Ghenna.  Once a booming 
+barter town, it is now a haven for the evil which it bred over long 
+years under the rule of the hubristic Lord Suzerain.  In virtually 
+every corner you see ruins of some sort or another intermingled with 
+old, age-whitened bones from all manner of beasts. 
+  Exits lead in all cardinal directions.
+^
+
+ghenna9902 n:ghenna9967 s:ghenna9901 w:ghenna9904;
+lflags { Dark Outdoors }
+A fountain of tears.^
+  A large &+Cfountain&* containing the tears of those slain within the 
+city limits has been erected here, abutting the east wall of the 
+city - it looks quite deep and wide.  The water is a crystaline blue 
+which exudes holiness, something quite strange for such an evil city.
+  Exits lead West, North and South.
+^
+
+ghenna9903 n:ghenna9901 s:ghenna9905 w:ghenna9951 d:^guts_ghenna9912;
+lflags { Dark Outdoors }
+The smell of death.^
+  You are standing in what appears to be the town graveyard.  
+Nobody feels the need to bury the dead, so the corpses are just 
+strewn about in no particular order.  And the smell, oh boy!  
+It's all you can do to keep from losing your lunch right now.  
+  The corpses are stacked too high to exit East, but you can 
+pass North, South or West.
+^
+
+ghenna9904 n:^tavern_ghenna9915 e:ghenna9902;
+lflags { Dark Outdoors }
+A culdesac^
+  You are standing on a cobblestone circle of a small culdesac.  
+To the East is a large fountain, and a door lies to the North, 
+beneath a large tavern sign depicting the unspeakable.
+^
+
+ghenna9905 n:^bramble_ghenna9998 s:ghenna9905 w:ghenna9906 e:ghenna9908;
+lflags { Maze NoMobiles Dark Outdoors }
+The twisting hedges.^
+  You are standing amongst a row of twisting hedges about 7 feet 
+tall.  Pathways through the hedges lead in all cardinal directions.
+Uh no, looks like you lost your way...you can't tell where you were.
+^
+
+ghenna9906 n:ghenna9909 s:ghenna9905 w:ghenna9908 e:ghenna9906 d:^secret_ghenna9910;
+lflags { Dark Outdoors Maze}
+The twisting hedges.^
+  You are standing amongst a row of twisting hedges about 7 feet 
+tall.  Pathways through the hedges lead in all cardinal directions.
+^
+
+ghenna9907 n:ghenna9905 s:ghenna9905 w:ghenna9909 e:ghenna9906;
+lflags { Dark Outdoors Maze}
+The twisting hedges.^
+  You are standing amongst a row of twisting hedges about 7 feet 
+tall.  Pathways through the hedges lead in all cardinal directions.
+^
+
+ghenna9908 n:ghenna9905 s:ghenna9906 w:ghenna9905 e:ghenna9903;
+lflags { Dark Outdoors Maze}
+The twisting hedges.^
+  You are standing amongst a row of twisting hedges about 7 feet 
+tall.  Pathways through the hedges lead in all cardinal directions.
+^
+
+ghenna9909 n:ghenna9908 s:ghenna9907 w:ghenna9905 e:ghenna9908;
+lflags { Dark Outdoors Maze}
+The twisting hedges.^
+  You are standing amongst a row of twisting hedges about 7 feet 
+tall.  Pathways through the hedges lead in all cardinal directions.
+^
+
+ghenna9910 n:ghenna9911 s:ghenna9901 u:ghenna9905;
+lflags { Dark Outdoors Maze}
+The realm of the hopeless.^
+  The incessant wailing of souls in torment causes visible shivers 
+up and down your spine.  The walls, floor and ceiling are a viscous, 
+blood-red mass that eludes description.  A rift in the ceiling above 
+you causes a slight breeze to ruffle your hair.  A magic portal stands 
+south, leading into the unknown.
+^
+
+ghenna9911 n:ghenna9912 s:ghenna9910 w:ghenna9906 e:ghenna9924 u:ghenna9901;
+lflags { NoMobiles Dark Outdoors NegRegen Maze }
+An undulating room.^
+  This room undulates with an aura of incredible evil.  The shifting 
+floor causes you to stagger uncontrollably, while the ceiling 
+rhythmically pumps upwards and downwards.  You can feel the lifeblood 
+draining from your body.  To stay here long would surely mean the end 
+of you.  You feel a strong draft coming from the north.
+^
+
+ghenna9912 n:ghenna9913 s:ghenna9913 w:ghenna9913 e:ghenna9913 u:ghenna9913 d:ghenna9913;
+lflags {  NoMobiles NegRegen }
+The bottomless pit.^
+You start 
+ 
+	     ||  F        ||
+	     ||   A       ||
+	     ||    L      ||
+	     ||     L     ||
+	     ||      I    ||
+	     ||       N   ||
+	     ||        G  ||
+	     ||           ||
+	     ||          A||
+	     ||         N ||
+	     ||        D  ||
+	     ||           ||
+	     ||      F    ||
+	     ||     A     ||
+	     ||    L      ||
+	     ||   L       ||
+	     ||  I        ||
+	     || N         ||
+	     ||G          ||
+	     ||           ||
+^
+
+ghenna9913 n:ghenna9913 s:ghenna9913 w:ghenna9913 e:ghenna9913 u:ghenna9913 d:ghenna9913;
+lflags {  NoMobiles NegRegen }
+Isn't this fun!??^
+You just keep
+ 
+	     ||           ||
+	     || F         ||
+	     ||  A        ||
+	     ||   L       ||
+	     ||    L      ||
+	     ||     I     ||
+	     ||      N    ||
+	     ||       G   ||
+	     ||           ||
+	     ||          A||
+	     ||         N ||
+	     ||        D  ||
+	     ||           ||
+	     ||      F    ||
+	     ||     A     ||
+	     ||    L      ||
+	     ||   L       ||
+	     ||  I        ||
+	     || N         ||
+	     ||G          ||
+	     ||           ||   You better teleport outta here!
+^
+
+ghenna9914 w:ghenna9943 e:ghenna9904;
+lflags { Dark Outdoors }
+The streets of Ghenna.^
+  You are standing on a non-descript city street in Ghenna.  The road 
+continues East and West, rolling gently over a dale.
+^
+
+ghenna9915 n:ghenna9916 s:^door_ghenna9904 w:ghenna9917;
+lflags { }
+Blood Tavern.^
+  You are standing inside Blood Tavern - a bizarre looking place, at 
+first sight.  The parquet floor creaks under the weight of an odd 
+looking bar to the north which seems to be moving somehow.  Next to 
+the bar a stairwell disappears into blackness above.  The ceiling is 
+vaulted, and sports three candeled chandeliers, which hang like 
+victims above you.
+^
+
+ghenna9916 s:ghenna9915 u:ghenna9918;
+lflags { }
+At the undead bar.^
+  A long bar stands here constructed of God only knows what.  It 
+appears to be made of human flesh sewn together with the hair of 
+various beasts.  Although sturdy, the bar is very pliant to the 
+touch, and it seems to be MOVING ever so slightly, as if it were 
+ALIVE!
+  A stairwell is here, leading upwards into blackness.     
+^
+
+ghenna9917 n:ghenna9916 e:ghenna9915;
+lflags {  }
+The card table.^
+  A card table constructed from the skeleton of an odd quadroped 
+sits here, with a few unplayed &+Chands&* left sitting upon it... Wonder 
+where the rest of the poor souls' bodies are.  The tavern door lies 
+east of here, while to the north is a bar made of what appears to be 
+human skin.
+^
+
+ghenna9918 w:ghenna9921 e:ghenna9919 d:ghenna9916;
+lflags {  Dark  }
+The top of the stairs.^
+  You are standing at the top of the stairs in Blood Tavern.  Darkness 
+prevails in the small hallway which runs east to west.  Below you is 
+the bar of human skin.
+^
+
+ghenna9919 n:^door_ghenna9920 w:ghenna9918;
+lflags {  Dark  }
+An upstairs hallway.^
+  You are in a small upstairs hallway.  To the West is the top of 
+the stairs while to the North there lies a door, behind which you 
+can hear some faint singing... the dusky voice sounds almost feminine.
+^
+
+ghenna9920 s:ghenna9919;
+lflags {  Dark  }
+A messy bedroom.^
+  You are stainding inside a messy bedroom furnished with a VERY 
+stained bed and a simple roll top desk.  A window stands to the north 
+overlooking darkness beyond.
+^
+
+ghenna9921 s:^door_ghenna9922 e:ghenna9918;
+lflags {  Dark  }
+An upstairs hallway.^
+  You are standing in an upstairs hallway in Blood Tavern.  A door 
+lies South, while to the East is the top of the stairs.
+^
+
+ghenna9922 n:ghenna9921 w:ghenna9923;
+lflags {   }
+The master suite.^
+  This is the master suite inside Blood Tavern.  A liquor cabinet 
+stands against one wall, filled with dusty old bottles, while a 
+king sized bed stands opposite.  A half opened door to the West 
+leads into a bathroom.
+^
+
+ghenna9923 n:^mirror_ghenna9943 e:ghenna9922;
+lflags {   }
+The bathroom.^
+  Boy, the smell of feces here is awful!!  There is a hole in the 
+floor which serves as the toilet - pretty primitive.  A washbasin 
+sits on the floor, filled with bloodied water, and a dirty &+Cmirror 
+reflects your image.
+^
+
+ghenna9924 n:ghenna9900 s:ghenna9925 w:ghenna9905 e:ghenna9905 u:ghenna9911 d:ghenna9914;
+lflags { NoMobiles Dark Maze }
+A wrinkle in the fabric of time.^
+  You are caught in a swirling vortex of time, which is very 
+nauseating.  You spin and spin, unsure of which way is which.  It 
+seems as though you could end up in any of several different places 
+by choosing an exit.
+^
+
+ghenna9925 n:ghenna9926 s:ghenna9926 w:ghenna9925 e:ghenna9926;
+lflags { Dark Maze }
+A labyrinth of bodies.^
+  You are standing within a labyrinth created from bodies which are 
+stacked 10 feet high.  It seems that some of the bodies are still 
+warm, and an occasional cry of despair comes from the mass.
+^
+
+ghenna9926 n:ghenna9925 s:ghenna9926 w:ghenna9927 e:ghenna9927;
+lflags { Dark Maze }
+A labyrinth of bodies.^
+  You are standing within a labyrinth created from bodies which are 
+stacked 10 feet high.  It seems that some of the bodies are still warm,
+and an occasional moan or cry of despair comes from the mass.
+^
+
+ghenna9927 n:ghenna9926 s:ghenna9928 w:ghenna9928 e:ghenna9925;
+lflags { Dark Maze }
+A labyrinth of bodies.^
+  You are standing within a labyrinth created from bodies which are 
+stacked 10 feet high.  It seems that some of the bodies are still warm,
+and an occasional moan of despair comes from the mass.
+^
+
+ghenna9928 n:ghenna9927 s:ghenna9929 w:ghenna9925 e:ghenna9926;
+lflags { Dark Maze }
+A labyrinth of bodies.^
+  You are standing within a labyrinth created from bodies which are 
+stacked 10 feet high.  It seems that some of the bodies are still warm,
+and an occasional muffled scream comes from the mass.
+^
+
+ghenna9929 n:ghenna9925 s:ghenna9927 w:ghenna9930 e:ghenna9928;
+lflags { Dark Maze }
+A labyrinth of bodies.^
+  You are standing within a labyrinth created from bodies which are 
+stacked 10 feet high.  It seems that some of the bodies are still warm,
+and an occasional plea for aid comes from the mass.
+^
+
+ghenna9930 n:ghenna9930 s:ghenna9930 w:ghenna9926 e:ghenna9931;
+lflags { Dark Maze }
+A labyrinth of bodies.^
+  You are standing within a labyrinth created from bodies which are 
+stacked 10 feet high.  It seems that some of the bodies are still warm,
+and an occasional gurgling cry of despair comes from the mass.
+^
+
+ghenna9931 n:ghenna9912 s:ghenna9932 w:ghenna9928 e:ghenna9911;
+lflags { Dark Maze }
+A labyrinth of bodies.^
+  You are standing within a labyrinth created from bodies which are 
+stacked 10 feet high.  It seems that some of the bodies are still warm,
+and an occasional shriek of horror comes from the mass.
+^
+
+ghenna9932 n:ghenna9933 s:ghenna9900 w:ghenna9920 e:ghenna9925;
+lflags { Dark Maze }
+A labyrinth of bodies.^
+  You are standing within a labyrinth created from bodies which are 
+stacked 10 feet high.  It seems that some of the bodies are still warm,
+and an occasional cry of despair comes from the mass.
+^
+
+ghenna9933 n:ghenna9925 s:ghenna9927 w:ghenna9925 e:ghenna9928 u:^door_ghenna9934 d:^pit_ghenna9999;
+lflags { Dark Outdoors }
+The mouth of a large cave.^
+  Out of the labyrinth at last!  But whats this?  You are standing at 
+the mouth of a large cave about 100 feet in diameter.  A steady 
+trickle of blood runs down the stone steps which lead upwards - Dare 
+you enter?
+^
+
+ghenna9934 n:ghenna9935 u:^grotto_ghenna9938 d:ghenna9933;
+lflags { NoMobiles Dark  }
+Inside the cave entrance.^
+  You are standing inside the cave entrance, where a strong smell of 
+sulfur makes you gag.  Large stone steps lead back downward to where 
+a labyrinth of bodies can be seen.  A steady stream of blood seems 
+to be trickling from somewhere up north, where a sound similar to a 
+giant bellows can be heard. 
+^
+
+ghenna9935 n:ghenna9936 s:ghenna9934;
+lflags {  Dark  }
+Eaten to death.^
+  Boy, the smell of sulfur just keeps getting stronger - YUCK!  As if 
+that werent bad enough, there are about a hundred horribly disfigured 
+corpses laying here.  It looks as though the flesh was eaten off of 
+their living bodies as they writhed in agony.  The stream of blood you 
+witnessed at the entrance is much larger here, apparently you are onto 
+something.  
+^
+
+ghenna9936 s:ghenna9935 u:ghenna9937;
+lflags {  Dark  }
+Lair entrance.^
+  This is an arched cavern of great size - it looks like the Houston 
+Astrodome.  a great ledge of rock juts out above your head, showering 
+you with a steady gush of blood and entrails.  A raucous sound of 
+crunching viscera, intermingled with a slurp here and there, turns 
+your stomach.  Then you hear it... an encouraging voice which keeps 
+repeating "Yes, yes, thats it... just a few steps more...You're almost 
+there."
+^
+
+ghenna9937 u:^secret_ghenna9953 d:ghenna9936;
+lflags {  Dark  }
+A lair full of corpses.^
+  This ledge is slippery with the blood of hundreds of vanquished 
+adventurers who made the mistake of entering here.  Corpses, corpses, 
+everywhere.  At least you finally found the source of that horrific 
+sulfur smell.  A black, steaming substance is smeared all over the 
+walls emitting the funk.  As if this werent bad enough, you suddenly 
+have the feeling that your life is about to end soon. 
+---> HASTA LA VISTA!
+^
+
+ghenna9938 w:ghenna9939 d:ghenna9934;
+lflags {  Dark OnePerson }
+A cramped grotto.^
+  You are in a cramped grotto over the cave entrance.  Even if you 
+aren't claustrophobic this place can surely make you that way.  A 
+crawlspace leads West.  Watch your head.
+^
+
+ghenna9939 n:ghenna9940 w:ghenna9912 e:ghenna9938;
+lflags {  Dark  }
+The adit.^
+  The grotto opens up into an adit big enough for you to stand 
+upright.  Stalagmites and stalactites alike jut from the floor and 
+ceiling.  There are exits East, North and West.  A bit of a breeze
+is coming from the west.
+^
+
+ghenna9940 e:ghenna9941;
+lflags { OnePerson Dark  }
+A crawlspace.^
+  You are in a crawlspace that is just barely passable.  There is a 
+bend to the right, but you cannot possibly tell where it leads.  It 
+is so tight here that there is no way you can return south.
+^
+
+ghenna9941 n:ghenna9942 w:ghenna9940 u:ghenna9953;
+lflags {  }
+Abode of the Efreeti.^
+  You have entered the magical abode of the great Efreeti.  Done in 
+an eastern motif, this room glimmers with all the amenities one could 
+want.  Pillows, rugs and candelabra are everywhere.  This definitely 
+looks like the lap of luxury.  To the North lies the forbidden treasure
+room, to enter it is to ask for certain death.
+^
+
+ghenna9942 s:ghenna9941 u:ghenna9941;
+lflags { NoMobiles Death  }
+Certain Death.^
+  You have made a foolish mistake, my friend.  This is the Genie's 
+equivalent of the forbidden fruit.  A giant hand emerges through a 
+rift in time and squashes you flat, like a bug.
+ 
+		    ------------------
+		     
+			  &+RSPLAT!!
+			      .
+				  .
+				      .  &+RYOU ARE DEAD!!
+^
+
+ghenna9943 s:ghenna9923 d:ghenna9946;
+lflags {  Dark  }
+A musty area behind the wall.^
+  You are in a musty, hidden area behind the wall of the bathroom.  
+A very narrow granite staircase leads downward, into darkness.
+^
+
+ghenna9944 e:ghenna9947 u:ghenna9945;
+lflags {  Dark  }
+The bottom of the granite staircase.^
+  You have reached the bottom of the granite staircase.  This appears 
+to be the basement of Blood Tavern.  A hole in the ceiling which is 
+stained with excrement hovers above an enormous mountain of feces 
+(how nice).  Walls stand to the west, north and south - but the way 
+is passable towards the East, around the dungheap.
+^
+
+ghenna9945 u:ghenna9946 d:ghenna9944;
+lflags {  Dark  }
+The granite staircase.^
+  You are standing on a narrow granite staircase which spirals gently 
+downward.  You may ascend, or descend at will.
+^
+
+ghenna9946 u:ghenna9943 d:ghenna9945;
+lflags {  Dark  }
+On the stairs^
+  You are standing on a narrow granite staircase which spirals gently 
+downward.  You may ascend, or descend at will.
+^
+
+ghenna9947 s:^port_ghenna9948 w:ghenna9944;
+lflags {  Dark  }
+A backwall niche.^
+  This backwall niche is dank, dark and dusty.  The brick walls show 
+the telltale signs of decay - red and black flakes, which lay on the 
+floor.  An old &+Mcask&* of port wine lies broken in one corner, a relic 
+from happier times.  The only apparent exit is back to the West.
+^
+
+ghenna9948 d:^air_ghenna9949;
+lflags {  Dark  }
+Free fall.^
+You start
+         \S 
+          \L 
+           \I 
+            \D 
+             \I 
+              \N 
+               \G 
+                \  
+                 \D 
+                  \O 
+                   \W 
+                    \N 
+                     \W 
+                      \A 
+                       \R 
+                        \D 	 And land in a heap, right next
+				 to a small hole in the floor
+				 Smells like somethings cooking.
+^
+
+ghenna9949 n:ghenna9952 w:ghenna9947 e:ghenna9950;
+lflags { NegRegen }
+Surrounded by flames.^
+  Wow!  Looks like you just stepped into hell... or at least, a little 
+corner of it.  Flames dance on the walls, causing the light to play 
+tricks on your eyes.  You can just barely make out a dark figure to 
+the north.  Looks to be some sort of stairwell back up to the west,
+and a bedroom to the east.  
+^
+
+ghenna9950 w:ghenna9949;
+lflags {  Dark  }
+A makeshift bedroom.^
+  A cot lies against the far wall of this little alcove, directly 
+beneath an inverted pentagram scribed in blood.  A bound &+yfootlocker 
+stands opposite.  The only exit is back towards the West.
+^
+
+ghenna9951 w:ghenna9954 e:ghenna9903;
+lflags { Dark Outdoors }
+The streets of Ghenna.^
+  You are standing on a city street in Ghenna.  Paved with cobble-
+stones, the road is slick with the blood of many a wayward adventurer.
+Watch your step!
+^
+
+ghenna9952 s:ghenna9949 u:ghenna9953;
+lflags { NegRegen }
+The seat of power.^
+  Fire, fire, everywhere.  A black, marble dais sits amidst the 
+flames supporting a black, marble chair which is conspicuously 
+empty.  This looks to be a throne of some sort.  The flames make 
+every way impassable except the way you came, and the way of the holy.
+^
+
+ghenna9953 u:ghenna9903;
+lflags { NoMobiles Dark  }
+Under the bones.^
+  You are under a pile of loosely stacked bones.  The night sky shows 
+through the vacant eye socket of a human skull above you.  With a 
+minimal amount of effort, you could free yourself.
+^
+
+ghenna9954 n:ghenna9955 s:ghenna9998 e:ghenna9951;
+lflags { Dark Outdoors }
+The streets of Ghenna.^
+  You are standing on of the many streets in Ghenna.  A high wall 
+blocks the passage westward, but you may exit North, South or East.
+^
+
+ghenna9955 n:ghenna9957 s:ghenna9954 e:ghenna9956;
+lflags { Dark Outdoors }
+The streets of Ghenna.^
+  You are standing on a North-South running street.  The cobblestone 
+pavement batters your feet unmercifully.  To the west is the city 
+wall, while a burnedout building is East of you, barely capable of 
+standing in the slight breeze which whips through here.
+^
+
+ghenna9956 w:ghenna9955;
+lflags { Dark Outdoors }
+A burned out building.^
+  Charred rubble fills this room, and a fallen beam lays accross a 
+skeleton that is bleached white with age.  To the West you can see 
+the cobblestone streets of Ghenna.  You might want to exit this 
+building soon, as it could crumble at any moment.
+^
+
+ghenna9957 n:^red_ghenna9958 s:ghenna9955 e:ghenna9901;
+lflags { Dark Outdoors }
+The streets of Ghenna.^
+  You are standing on a corner street in Ghenna.  To the west lies 
+the city wall while to the North is a door.  The street continues 
+South, and East.
+^
+
+ghenna9958 s:^red_ghenna9957;
+lflags { Dark Outdoors }
+The dominatrix's abode.^
+  This room is filled with all manner of black, silver studded leather.
+Whips, chains and handcuffs are displayed prominently on each of the 
+3 walls.  A position chair sits in the middle of the room for your 
+hedonistic desires.
+^
+
+ghenna9959 w:ghenna9901 e:ghenna9960;
+lflags { Dark Outdoors }
+A street in Ghenna.^
+  This narrow, dimly lit street leads East into darkness, and West 
+towards the city entrance.  The rubble from fallen buildings has 
+made any other exits impossible.
+^
+
+ghenna9960 n:ghenna9961 s:ghenna9962 w:ghenna9959 e:ghenna9966;
+lflags { Dark Outdoors }
+A city street in Ghenna.^
+  There is so much junk in the street here, that you have to walk in 
+a zigzag around it.  The outline of a doorframe is all that remains 
+of the building to the South.  The building to the North, however, 
+looks a bit more intact.  The street ends towards the East, near a 
+mountain of rubble.  To the West, the street goes on for some distance.
+^
+
+ghenna9961 s:ghenna9960;
+lflags {  Dark Nomobiles }
+The trading post.^
+  You are standing in what was once the trading post.  A dais stands 
+in the nothernmost end of the room with a toppled podium upon it.  
+Wooden benches lie tipped over in virtually every reach of this 
+auditorium sized room.  The city streets of Ghenna lie South of here.
+^
+
+ghenna9962 n:ghenna9960 u:ghenna9963;
+lflags { Dark  }
+A trashed abode.^
+  This place looks as though it was once a lovely home.  The furniture 
+which is completely trashed is reminiscent of a victorian styled era.  
+A rickety stairwell leads upward, but doesn't look too stable.  Better 
+watch your step.
+^
+
+ghenna9963 n:ghenna9964 d:ghenna9962;
+lflags {  Dark  }
+Upstairs in a trashed home.^
+  Things don't look much better up here.  The ceiling has caved in on 
+both sides, blocking the exits east and west.  Some foul smelling 
+mildew has grown over most of the debris.  A door hangs by one hinge 
+toward the North.
+^
+
+ghenna9964 s:ghenna9963 w:ghenna9965;
+lflags { Dark  }
+A child's room.^
+  This was evidently a child's room.  Toys (most of them broken) lie 
+scattered around the place.  A mattress leans against the far wall, 
+completely slashed down the middle, its stuffing in a heap on the 
+floor.  One of the dolls here seems strangely lifelike... Bizarre!
+^
+
+ghenna9965 e:ghenna9964;
+lflags {  Dark  }
+A vandalized closet.^
+  You are standing in a small, walk-in closet.  Children's clothes, 
+and shoe boxes lie about, stinking of mildew.  There appears to be 
+only one exit - East.
+^
+
+ghenna9966 n:ghenna9968 s:ghenna9978 w:ghenna9960;
+lflags { Dark Outdoors }
+A city street in Ghenna.^
+  You are standing on a street in Ghenna.  The city wall lies east, 
+blocking your exit.  You may leave North, South and West.  Be careful 
+not to trip over the many corpses that line these streets.
+^
+
+ghenna9967 s:ghenna9902 e:ghenna9969;
+lflags { Dark Outdoors }
+A road in Ghenna.^
+  This road is quite narrow, but seems to open up towards the South.  
+A fallen building stands to the West, and the city wall blocks the 
+exit north.
+^
+
+ghenna9968 n:ghenna9969 s:ghenna9966 w:ghenna9970;
+lflags { Dark Outdoors }
+A north-south street in Ghenna.^
+  This narrow lane runs North to South.  The city wall towers above 
+you to the east, and a door lies West, beneath a glowing red light.
+^
+
+ghenna9969 s:ghenna9968 w:ghenna9967;
+lflags { Dark Outdoors }
+A bend in the road.^
+  You are at a bend in the road.  The city wall lies north, and east 
+of you prohibiting exits in those directions.  A narrow lane leads 
+Westward.
+^
+
+ghenna9970 s:ghenna9971 e:ghenna9968;
+lflags {  }
+The best little whorehouse in Ghenna.^
+  This room is lit by the glow of several red lights.  Lingerie, and 
+various pleasure toys litter the floor, which is carpeted in a lovely 
+mauve shag.  To the south is a waiting room where you can see a couch 
+sitting behind a glass coffee table.
+^
+
+ghenna9971 n:ghenna9970 w:ghenna9972;
+lflags {  }
+The waiting room.^
+  This is a quaint little waiting room where the customers to this 
+brothel can relax and kick back at will.  A lovely floral couch is 
+sitting here before a solid glass coffee table littered with lingerie 
+magazines.  To the West is a staircase.
+^
+
+ghenna9972 e:ghenna9971 u:ghenna9973;
+lflags {  Dark  }
+The bottom of the stairs.^
+  A staircase is here, a crusty pair of panties stuck to the 
+bannister.  Nasty!  To the East is the waiting room.
+^
+
+ghenna9973 w:ghenna9974 d:ghenna9972;
+lflags {   }
+The top of the stairs.^
+  Apparently the hookers who work here are pretty slovenly.  There 
+are all manner of clothing on the floor - most of it soiled quite 
+badly.  A hallway leads towards the West, lit by a single red 
+lightbulb.
+^
+
+ghenna9974 n:ghenna9975 w:ghenna9976 e:ghenna9973;
+lflags {   }
+An upstairs hallway.^
+  The hallway continues towards the East and West, while to the North 
+a door stands ajar, a "Do Not Disturb" sign hanging from the knob.
+^
+
+ghenna9975 s:ghenna9974;
+lflags {  Dark  }
+A scummy bedroom.^
+  Well, if you had amorous intentions I am sure they have all dis-
+appeared at the sight of this room.  A bed is here with a big wet 
+spot marring the middle.  Grease stains are smeared on the wall near 
+the head of the bed, apparently from someone leaning against it.  The 
+floor is sticky - you can guess why.
+^
+
+ghenna9976 s:ghenna9977 e:ghenna9974;
+lflags { Dark  }
+The end of the hallway.^
+  You have reached the end of the hallway.  A door towards the South 
+stands ajar, while the hallway continues Eastward, back where you 
+came.
+^
+
+ghenna9977 n:ghenna9976;
+lflags {   }
+The madame's room.^
+  This is the madame's room.  A large bed stands against the opposite 
+wall, under a ceiling made entirely of mirrors.  The two lamps that 
+are located on either side of the bed are draped with a gauzy red 
+material which casts an eerie glow on an array of dildos which are 
+mounted on the wall like trophys.
+^
+
+ghenna9978 n:ghenna9966 d:ghenna9979;
+lflags { Dark  }
+A covered walkway.^
+  This is a covered walkway which leads Downward, into darkness.  The 
+air is so humid here that you can see it.  North of you the way is 
+open as well.
+^
+
+ghenna9979 w:ghenna9980;
+lflags { NoMobiles Dark Outdoors }
+A slimey footpath.^
+  What the heck?!  This footpath is covered with a slimey substance 
+akin to ectoplasm - its really gross.  The path is so slippery that 
+you cant ascend to where there is a covered walkway above you.  Your 
+only option is to go West.
+^
+
+ghenna9980 n:ghenna9981 e:ghenna9979;
+lflags { Dark Outdoors }
+A slimey footpath.^
+  The slime just keeps getting thicker as you walk along.  There are 
+many dead animals that apparently became bogged down here.  There are 
+exits to the North, and East.
+^
+
+ghenna9981 s:ghenna9980 w:ghenna9982;
+lflags { Dark Outdoors }
+A slimey footpath.^
+  Slime, slime, everywhere.  A wounded Dwarf is laying here, half 
+immersed in the red slime.  Maybe this wasn't such a good idea...
+You can exit towards the West, or to the South.
+^
+
+ghenna9982 s:ghenna9983 e:ghenna9981;
+lflags { Dark Outdoors }
+A slimey footpath.^
+  The slime seems to be lessening a bit here, though the way is still 
+as slippery as can be.  A clearing can be seen to the South.
+^
+
+ghenna9983 n:ghenna9982 s:ghenna9984;
+lflags { Dark Outdoors }
+A small clearing.^
+  There is virtually none of that ectoplasmic crap here.  This 
+clearing consists of red clay dirt, with a few boulders lying around 
+you.  Apparently it is a primitive pathway of some sort, for to the 
+South you can see what appears to be the mouth of a cave.
+^
+
+ghenna9984 n:ghenna9983 d:ghenna9985;
+lflags { Dark Outdoors }
+The mouth of a small cave.^
+  You have arrived at the mouth of a small cave, which is cut into a 
+tall promontory.  A rough hewn staircase leads Downwards, while to 
+the North is a small clearing.
+^
+
+ghenna9985 s:ghenna9986 u:ghenna9984;
+lflags {  Dark Outdoors }
+An underground cavern.^
+  This small underground cavern is the most humid place you have ever
+been in.  Moisture trickles down the smooth rock walls in large 
+rivulets, and water drips on your head from the ceiling above.  A 
+passageway leads South.
+^
+
+ghenna9986 n:ghenna9985 s:ghenna9987;
+lflags {  Dark  }
+A long sloping tunnel.^
+  You are in a long tunnel which slopes ever so slightly toward the 
+South.  The smooth rock walls look like they are sweating - there is 
+SO much moisture.
+^
+
+ghenna9987 n:ghenna9986 s:ghenna9988;
+lflags {  Dark  }
+A long sloping tunnel.^
+  You are in a long tunnel which slopes ever so slightly toward the 
+South.  The smooth rock walls look like they are sweating - there is 
+SO much moisture.
+^
+
+ghenna9988 n:ghenna9987 s:ghenna9989;
+lflags {  Dark  }
+A long sloping tunnel.^
+  You are in a long tunnel which slopes ever so slightly toward the 
+South.  The smooth rock walls look like they are sweating - there is 
+SO much moisture.
+^
+
+ghenna9989 n:ghenna9988 w:ghenna9990 e:ghenna9992;
+lflags {  Dark  }
+Tunnel's end.^
+  The tunnel opens up into a T shape here, affording exits East and 
+West and of course, North, back the way you came.  The cavern is 
+vaulted, looming about 25 feet over your head... looks pretty dark up 
+there.
+^
+
+ghenna9990 w:ghenna9991 e:ghenna9989;
+lflags {  Dark Private }
+An east-west tunnel.^
+  This tunnel is only about 5 feet high, much to your chagrin.  Moss-
+like lichens hang from the ceiling, brushing past your face from time 
+to time.  The tunnel continues East and West.
+^
+
+ghenna9991 w:^boulder_ghenna100 e:ghenna9990;
+lflags {  NoMobiles Dark Private }
+An east-west tunnel.^
+  This cramped little tunnel dead ends here at a huge &+yboulder&*.  The 
+only apparent exit seems to be back the way you came.
+^
+
+ghenna9992 n:ghenna9985 s:ghenna9993 w:ghenna9989;
+lflags {  Dark  }
+A wide tunnel.^
+  This tunnel is a little broader, and easier to maneuver in.  
+However, you have become confused... which way is which?  There 
+is a hole in the wall to the North, and another path leads South.
+^
+
+ghenna9993 n:ghenna9992 s:ghenna9994;
+lflags {  Dark  }
+Crawlspace.^
+  You crawl into the hole, which is infested with bugs that crunch 
+under your weight - GROSS!  You can continue Southward this way, if 
+the bugs dont bother you too much, or you can back out into the 
+tunnel to the North.
+^
+
+ghenna9994 n:ghenna9993 s:ghenna9912 w:ghenna9995 e:ghenna9953;
+lflags {  Dark  }
+Crawlspace.^
+  The crawlspace opens up into a 10 foot square room filled with all 
+manner of insects, most of them HUGE.  Hope you aren't arachnophobic, 
+cause if you are, this place would surely scare you to death.  Exits 
+lead in all cardinal directions.
+^
+
+ghenna9995 n:ghenna9996;
+lflags {  Dark  }
+A quivering jaunt.^
+  You have entered a quivering jaunt.  It feels like you are in the
+belly of a giant beast.  The mucuslike walls are a deep red color 
+that thrums with energy.  The only exit is North.
+^
+
+ghenna9996 w:ghenna9997;
+lflags {  Dark  }
+A quivering jaunt.^
+  This room moves so much that you have a hard time keeping your feet.
+The red mucus is hanging from the walls and ceiling in tenebrous 
+strings that look quite sickening.  A dark spot on the West wall 
+hints at the only possible exit.
+^
+
+ghenna9997 n:ghenna9912 s:ghenna9911 w:ghenna9985 e:ghenna9953 d:ghenna9924;
+lflags {  Dark  }
+The lair of the Deepspawn.^
+  You have entered a 20 foot square opening that appears to be a lair 
+of some sort.  Bones lie strewn about in every corner - most of them 
+appear to be human bones.  A big pile of treasure sits in the center 
+of the room covered with the red mucus that lines the walls here.  
+Exits lead in all cardinal directions.
+^
+
+ghenna9998 n:ghenna9954 s:^bramble_ghenna9905;
+lflags {  Dark Outdoors }
+A dead end.^
+  The street dead ends here in a twisted mass of &+Ybrambles&*.  A high 
+city wall looms over you to the West.  It seems the only exit is 
+North.
+^
+
+ghenna9999;
+lflags { NoMobiles Death  }
+A pit of jutting spears.^
+You 
+    F
+      A
+        L
+          L
+	
+	      and die, impaled by a dozen spears.
+ 
+&+R  A    A    A    A    A    A    A    A    A    A    A    A    A    A   
+&+R  | A  | A  | A  | A  | A  | A  | A  | A  | A  | A  | A  | A  | A  | A 
+&+W  | |  | |  | |  | |  | |  | |  | |  | |  | |  | |  | |  | |  | |  | | 
+&+W  | |  | |  | |  | |  | |  | |  | |  | |  | |  | |  | |  | |  | |  | | 
+
+&+RFATALITY!!!
+^
+
+ghenna100 e:^boulder_ghenna9991;
+lflags {Dark OnePerson }
+Small Opening^
+  Behind that boulder appears to be a small area just big enough for
+you to move around freely.  Seems someone went to great lengths to keep
+something hid in here.
+^

@@ -1,0 +1,2274 @@
+
+
+
+%rainfall:500
+
+%latitude:50
+
+%mobiles
+
+Name = mob5501
+Pname = "the forest brownie"
+Location = graye5505
+SFlags  {Blind}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 170
+Damage = 15
+Armor = 16
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "A forest brownie scampers about here."
+Examine = "The forest brownie winks at you and scurries away.
+Quite an amicable fellow.
+"
+End = mob5501
+
+Name = mob5501_1
+Pname = "the forest brownie"
+Location = graye5508
+SFlags  {Blind}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 170
+Damage = 15
+Armor = 16
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "A forest brownie scampers about here."
+Examine = "The forest brownie winks at you and scurries away.
+Quite an amicable fellow.
+"
+End = mob5501_1
+
+Name = mob5501_2
+Pname = "the forest brownie"
+Location = graye5516
+SFlags  {Blind}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 170
+Damage = 15
+Armor = 16
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "A forest brownie scampers about here."
+Examine = "The forest brownie winks at you and scurries away.
+Quite an amicable fellow.
+"
+End = mob5501_2
+
+Name = mob5501_3
+Pname = "the forest brownie"
+Location = graye5517
+SFlags  {Blind}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 170
+Damage = 15
+Armor = 16
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "A forest brownie scampers about here."
+Examine = "The forest brownie winks at you and scurries away.
+Quite an amicable fellow.
+"
+End = mob5501_3
+
+Name = mob5501_4
+Pname = "the forest brownie"
+Location = graye5514
+SFlags  {Blind}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 170
+Damage = 15
+Armor = 16
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "A forest brownie scampers about here."
+Examine = "The forest brownie winks at you and scurries away.
+Quite an amicable fellow.
+"
+End = mob5501_4
+
+Name = mob5502
+Pname = "the wolf"
+Location = graye5509
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 60
+Damage = 10
+Armor = 10
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A wolf trots by, looking for a rabbit."
+Examine = "The wolf looks rather hungry.  You see him trying to decide
+if YOU taste like rabbit.
+"
+End = mob5502
+
+Name = mob5502_1
+Pname = "the wolf"
+Location = graye5510
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 60
+Damage = 10
+Armor = 10
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "a wolf trots by, looking for a rabbit."
+Examine = "The wolf looks rather hungry.  You see him trying to decide
+if YOU taste like rabbit.
+"
+End = mob5502_1
+
+Name = mob5502_2
+Pname = "the wolf"
+Location = graye5511
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 60
+Damage = 10
+Armor = 10
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "a wolf trots by, looking for a rabbit."
+Examine = "The wolf looks rather hungry.  You see him trying to decide
+if YOU taste like rabbit.
+"
+End = mob5502_2
+
+Name = mob5502_3
+Pname = "the wolf"
+Location = graye5514
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 60
+Damage = 10
+Armor = 10
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "a wolf trots by, looking for a rabbit."
+Examine = "The wolf looks rather hungry.  You see him trying to decide
+if YOU taste like rabbit.
+"
+End = mob5502_3
+
+Name = mob5502_4
+Pname = "the wolf"
+Location = graye5517
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 60
+Damage = 10
+Armor = 10
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "a wolf trots by, looking for a rabbit."
+Examine = "The wolf looks rather hungry.  You see him trying to decide
+if YOU taste like rabbit.
+"
+End = mob5502_4
+
+Name = mob5503
+Pname = "the brown rabbit"
+Location = graye5519
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 35
+Damage = 3
+Armor = 6
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "A brown rabbit hops along merrily."
+Examine = "The rabbit looks up at you with big brown eyes,
+then scoots away..hey..there goes lunch!
+"
+End = mob5503
+
+Name = mob5503_1
+Pname = "the brown rabbit"
+Location = graye5516
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 35
+Damage = 3
+Armor = 6
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "A brown rabbit hops along merrily."
+Examine = "The rabbit looks up at you with big brown eyes,
+then scoots away..hey..there goes lunch!
+"
+End = mob5503_1
+
+Name = mob5503_2
+Pname = "the brown rabbit"
+Location = graye5513
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 35
+Damage = 3
+Armor = 6
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "A brown rabbit hops along merrily."
+Examine = "The rabbit looks up at you with big brown eyes,
+then scoots away..hey..there goes lunch!
+"
+End = mob5503_2
+
+Name = mob5504
+Pname = "Tomal"
+Location = graye5515
+SFlags  {}
+PFlags  {}
+MFlags  { PickStuff }
+Strength = 410
+Damage = 26
+Armor = 24
+Aggression = 0
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A woodsman watches you, a stalk of grass hanging from his mouth."
+Examine = "The woodsman chuckles and says, 'Howdy stranger- the name is 
+Tomal..howya doing?'
+"
+End = mob5504
+
+Name = mob5505
+Pname = "the guardian demon"
+Location = graye5533
+SFlags  {}
+PFlags  {}
+MFlags  { Cross }
+Strength = 550
+Damage = 35
+Armor = 30
+Aggression = 25
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "A shadowy form steps out of the mist."
+Examine = "You see a nightmarish array of teeth and claws, the 
+guardian demon is determined to rip your guts out.
+"
+End = mob5505
+
+Name = mob5505_1
+Pname = "the guardian demon"
+Location = graye5534
+SFlags  {}
+PFlags  {}
+MFlags  { Cross }
+Strength = 550
+Damage = 35
+Armor = 30
+Aggression = 25
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "A shadowy form steps out of the mist."
+Examine = "You see a nightmarish array of teeth and claws, the 
+guardian demon is determined to rip your guts out.
+"
+End = mob5505_1
+
+Name = mob5505_2
+Pname = "the guardian demon"
+Location = graye5535
+SFlags  {}
+PFlags  {}
+MFlags  { Cross }
+Strength = 550
+Damage = 35
+Armor = 30
+Aggression = 25
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "A shadowy form steps out of the mist."
+Examine = "You see a nightmarish array of teeth and claws, the 
+guardian demon is determined to rip your guts out.
+"
+End = mob5505_2
+
+Name = mob5505_3
+Pname = "the guardian demon"
+Location = graye5536
+SFlags  {}
+PFlags  {}
+MFlags  { Cross }
+Strength = 550
+Damage = 35
+Armor = 30
+Aggression = 25
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "A shadowy form steps out of the mist."
+Examine = "You see a nightmarish array of teeth and claws, the 
+guardian demon is determined to rip your guts out.
+"
+End = mob5505_3
+
+Name = mob5506
+Pname = "The Graye guardsman"
+Location = graye5537
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 250
+Damage = 25
+Armor = 10
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "The Graye guardsman is posted here."
+Examine = "The guardsman smiles at you kindly.  He says, 'better stick
+with me guy-- its a dangerous world out there.'
+"
+End = mob5506
+
+Name = mob5506_1
+Pname = "The Graye guardsman"
+Location = graye5537
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 250
+Damage = 25
+Armor = 10
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "The Graye guardsman is posted here."
+Examine = "The guardsman smiles at you kindly.  He says, 'better stick
+with me guy-- its a dangerous world out there.'
+"
+End = mob5506_1
+
+Name = mob5506_2
+Pname = "The Graye guardsman"
+Location = graye5537
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 250
+Damage = 25
+Armor = 10
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "The Graye guardsman is posted here."
+Examine = "The guardsman smiles at you kindly.  He says, 'better stick
+with me guy-- its a dangerous world out there.'
+"
+End = mob5506_2
+
+Name = mob5506_3
+Pname = "The Graye guardsman"
+Location = graye5538
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 250
+Damage = 25
+Armor = 10
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "The Graye guardsman is posted here."
+Examine = "The guardsman smiles at you kindly.  He says, 'better stick
+with me guy-- its a dangerous world out there.'
+"
+End = mob5506_3
+
+Name = mob5506_4
+Pname = "The Graye guardsman"
+Location = graye5539
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 250
+Damage = 25
+Armor = 10
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "The Graye guardsman is posted here."
+Examine = "The guardsman smiles at you kindly.  He says, 'better stick
+with me guy-- its a dangerous world out there.'
+"
+End = mob5506_4
+
+Name = mob5507
+Pname = "the demon imp"
+Location = graye5550
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff Cross }
+Strength = 51
+Damage = 17
+Armor = 14
+Aggression = 55
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A tiny demon snarls at you."
+Examine = "It seems like a relatively harmless little demon, but 
+those sharp teeth might hurt if they were wrapped around
+your arm.
+"
+End = mob5507
+
+Name = mob5507_1
+Pname = "the demon imp"
+Location = graye5551
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff Cross}
+Strength = 51
+Damage = 17
+Armor = 14
+Aggression = 55
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A tiny demon snarls at you."
+Examine = "It seems like a relatively harmless little demon, but 
+those sharp teeth might hurt if they were wrapped around
+your arm.
+"
+End = mob5507_1
+
+Name = mob5508
+Pname = "the minor demon"
+Location = graye5550
+SFlags  {Blind}
+PFlags  {}
+MFlags  { Cross }
+Strength = 170
+Damage = 16
+Armor = 18
+Aggression = 55
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A minor demon jumps out of the shadows at you!"
+Examine = "The demon resembles little, but a sinewy mass of flesh,
+tendons, and teeth.  It glares at you with pure fury in
+it's eyes.
+"
+End = mob5508
+
+Name = mob5508_1
+Pname = "the minor demon"
+Location = graye5551
+SFlags  {Blind}
+PFlags  {}
+MFlags  { Cross }
+Strength = 170
+Damage = 16
+Armor = 18
+Aggression = 55
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A minor demon jumps out of the shadows at you!"
+Examine = "The demon resembles little, but a sinewy mass of flesh,
+tendons, and teeth.  It glares at you with pure fury in
+it's eyes.
+"
+End = mob5508_1
+
+Name = mob5509
+Pname = "The Graye Citizen"
+Location = graye5538
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 180
+Damage = 18
+Armor = 14
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "A citizen of Graye rushes by here, looking over his shoulder."
+Examine = "The citizen looks rather nervous- You would too if your town was
+beseiged by demons.
+"
+End = mob5509
+
+Name = mob5509_1
+Pname = "The Graye Citizen"
+Location = graye5539
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 180
+Damage = 18
+Armor = 14
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "A citizen of Graye rushes by here, looking over his shoulder."
+Examine = "The citizen looks rather nervous- You would too if your town was
+beseiged by demons.
+"
+End = mob5509_1
+
+Name = mob5510
+Pname = "The Graye Citizen"
+Location = graye5538
+SFlags  {Female }
+PFlags  {}
+MFlags  {}
+Strength = 170
+Damage = 15
+Armor = 14
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "A citizen of Graye rushes by here, looking over her shoulder."
+Examine = "The citizen looks rather nervous- You would too if your town was
+beseiged by demons.
+"
+End = mob5510
+
+Name = mob5510_1
+Pname = "The Graye Citizen"
+Location = graye5539
+SFlags  {Female }
+PFlags  {}
+MFlags  {}
+Strength = 170
+Damage = 15
+Armor = 14
+Aggression = 0
+Speed = 2
+Wimpy = 25
+Visibility = 0
+Description = "A citizen of Graye rushes by here, looking over her shoulder."
+Examine = "The citizen looks rather nervous- You would too if your town was
+beseiged by demons.
+"
+End = mob5510_1
+
+Name = mob5511
+Pname = "A major demon"
+Location = graye5550
+SFlags  {Blind}
+PFlags  {}
+MFlags  {PickStuff Cross}
+Strength = 370
+Damage = 29
+Armor = 22
+Aggression = 55
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "A major demon lurks about here."
+Examine = "You look deep into the eyes of the beast.  You sense no absolutely 
+no intellect, only raw power and rage.
+"
+End = mob5511
+
+Name = mob5512
+Pname = "The rift guardian"
+Location = graye5552
+SFlags  {Blind}
+PFlags  {}
+MFlags  { Cross }
+Strength = 850
+Damage = 26
+Armor = 10
+Aggression = 25
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "A shadow wraith drifts into your way."
+Examine = "All you see is a fog-like apparition, with two glowing
+red eyes...
+"
+End = mob5512
+
+Name = mob5513
+Pname = "The jail guard"
+Location = graye5554
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff }
+Strength = 260
+Damage = 13
+Armor = 20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "A jail guard patrols here, whipping the prisoners."
+Examine = "The guard seems to be..well...mostly human.  He is covered
+in boils and tufts of hair.  He glares at you with his one
+good eye and says, 'Put down that weapon..prisoner!'
+"
+End = mob5513
+
+Name = mob5513_1
+Pname = "The jail guard"
+Location = graye5553
+SFlags  {}
+PFlags  {}
+MFlags  {PickStuff }
+Strength = 260
+Damage = 13
+Armor = 20
+Aggression = 55
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "A jail guard patrols here, whipping the prisoners."
+Examine = "The guard seems to be..well...mostly human.  He is covered
+in boils and tufts of hair.  He glares at you with his one
+good eye and says, 'Put down that weapon..prisoner!'
+"
+End = mob5513_1
+
+Name = mob5514
+Pname = "Rymat"
+Location = graye5545
+SFlags  {}
+PFlags  { NoHassle }
+MFlags  {}
+Strength = 400
+Damage = 28
+Armor = 20
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "The King's Advisor is here, weeping."
+Examine = "He looks at you and begs, 'please! they have taken him! I
+can see that you are a great adventurer..please bring him
+back to us!'  The advisor turns from you and continues to
+sob uncontrollably.
+"
+End = mob5514
+
+Name = mob5514b
+Pname = "Rymat"
+Location = limbo@limbo
+SFlags  {}
+PFlags  {}
+MFlags  {}
+Strength = 400
+Damage = 28
+Armor = 20
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Visibility = 10000
+Description = "The King's Advisor is here, relieved his king has returned safely."
+Examine = "
+Rymat was totally distraught while the king was imprisoned.
+Now he's conferring with him on how to resist the next attack.
+"
+End = mob5514b
+
+Name = mob5515
+Pname = "The Arch-Demon Irgon"
+Location = graye5555
+SFlags  {}
+PFlags  {}
+EFlags  { Fireball NegFireball }
+Strength = 1050
+Damage = 32
+Armor = 16
+Aggression = 25
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "The Arch-Demon Irgon emerges from the shadows."
+Examine = "Irgon frowns down upon you.  His oily black skin reflects
+the torchlight.  A thick white claw points at you, and
+he utters, 'prepare to die.'
+"
+End = mob5515
+
+Name = mob5516
+Pname = "Scrytin"
+Location = graye5556
+SFlags  {}
+PFlags  {}
+EFlags  { Fireball NegFireball }
+Strength = 1550
+Damage = 37
+Armor = 10
+Aggression = 25
+Speed = 2
+Wimpy = 0
+Visibility = 0
+Description = "Scrytin, the demon lord's apprentice, smiles at you."
+Examine = "Scrytin looks at you kindly, and suddenly you feel very 
+peaceful and relaxed.  You stare directly into his eyes,
+and feel yourself slipping deeper and deeper...NOOO!!
+Scrytin growls, 'Won't become a minion of mine eh?..then
+you shall DIE!'
+"
+End = mob5516
+
+Name = mob5517
+Pname = "Relnar"
+Location = limbo@limbo
+SFlags  {}
+PFlags  {}
+EFlags  { Missile }
+Strength = 1050
+Damage = 37
+Armor = 40
+Aggression = 0
+Speed = 0
+Wimpy = 0
+Visibility = 0
+Description = "The good king Relnar is here."
+Examine = "You look into the eyes of the descendant of Graye, and
+know now why his city is so prosperous and happy.
+"
+End = mob5517
+
+%objects
+Name = thronex
+Pname = throne
+Location = IN_ROOM:graye5544
+Oflags { Noget }
+Examine = "It's a throne fit for a king..."
+End = thronex
+
+Name = laddera
+Pname = ladder
+Altname = rope
+Location = IN_ROOM:graye5517
+Oflags {Noget Destroyed}
+Desc[0] = "A very long rope ladder extends down to here from way high."
+Examine = "This is the longest rope ladder you've ever seen!  Makes it easier
+to climb the side of the cliff."
+End = laddera
+
+Name = ladderb
+Pname = ladder
+Altname = rope
+Location = IN_ROOM:graye5524
+Oflags {Noget Destroyed}
+Desc[0] = "Someone has mounted a very long rope ladder on the ledge, allowing
+passage back down to the cliff bottom."
+Examine = "They must have just placed it here, since the demon threat is averted.
+Good thing too, climbing all the way down would be impossible."
+End = ladderb
+
+Name = cliffa
+Pname = cliff
+Altname = face
+Location = IN_ROOM:graye5509
+Oflags { Noget }
+Examine = "The face of the cliff seems impossible to scale.
+" 
+End = cliffa
+
+Name = sign
+Location = IN_ROOM:graye5509
+Oflags { Noget }
+Examine = "The sign reads:
+
+******************************
+*                            *
+*       The Graye Area       *   
+*         Written By:        *
+*      Aten of GenericMUD    *
+*         April 1994         *
+*                            *
+******************************
+* 2/98 Converted & modified  *
+* using ZGEN by Crimefighter *
+******************************
+" 
+End = sign
+
+Name = cliffb
+Pname = cliff
+Altname = face
+Location = IN_ROOM:graye5510
+Oflags { Noget }
+Examine = "The face of the cliff seems impossible to scale.
+" 
+End = cliffb
+
+Name = cliffc
+Pname = cliff
+Altname = face
+Location = IN_ROOM:graye5514
+Oflags { Noget }
+Examine = "The cliff face seems impossible to scale.
+" 
+End = cliffc
+
+Name = cliffd
+Pname = cliff
+Location = IN_ROOM:graye5517
+Oflags { Noget }
+Examine = "It seems that if you put your toe right here, and your left hand
+over here, that you just might be able to climb it.
+" 
+End = cliffd
+
+Name = ledgea
+Pname = ledge
+Location = IN_ROOM:graye5522
+Oflags { Noget }
+Examine = "The ledge is very narrow, perhaps two feet at it's widest part.
+" 
+End = ledgea
+
+Name = east_graye5523
+Pname = east
+Oflags = { NoGet }
+Location = IN_ROOM:graye5523
+Examine = "The rocks look kinda unstable over there.
+"
+End = east_graye5523
+
+Name = west_graye5523
+Pname = west
+Oflags = { NoGet }
+Location = IN_ROOM:graye5523
+Examine = "The ledge widens considerably over there.
+"
+End = west_graye5523
+
+Name = down_graye5523
+Pname = down
+Oflags = { NoGet }
+Location = IN_ROOM:graye5523
+Examine = "I wouldn't try it...
+"
+End = down_graye5523
+
+Name = west_graye5527
+Pname = west
+Oflags = { NoGet }
+Location = IN_ROOM:graye5527
+Examine = "The forest looks VERY dark.
+"
+End = west_graye5527
+
+Name = west_graye5530
+Pname = west
+Oflags = { NoGet }
+Location = IN_ROOM:graye5530
+Examine = "The forest looks VERY dark.
+"
+End = west_graye5530
+
+Name = north_graye5531
+Pname = north
+Oflags = { NoGet }
+Location = IN_ROOM:graye5531
+Examine = "Looks like safety.
+"
+End = north_graye5531
+
+Name = east_graye5532
+Pname = east
+Oflags = { NoGet }
+Location = IN_ROOM:graye5532
+Examine = "The forest look VERY dark.
+"
+End = east_graye5532
+
+Name = east_graye5533
+Pname = east
+Oflags = { NoGet }
+Location = IN_ROOM:graye5533
+Examine = "Safety!
+"
+End = east_graye5533
+
+Name = east_graye5534
+Pname = east
+Oflags = { NoGet }
+Location = IN_ROOM:graye5534
+Examine = "Safety!
+"
+End = east_graye5534
+
+Name = west_graye5535
+Pname = west
+Oflags = { NoGet }
+Location = IN_ROOM:graye5535
+Examine = "Safety!
+"
+End = west_graye5535
+
+Name = west_graye5536
+Pname = west
+Oflags = { NoGet }
+Location = IN_ROOM:graye5536
+Examine = "Safety!
+"
+End = west_graye5536
+
+Name = north_graye5537
+Pname = north
+Oflags = { NoGet }
+Location = IN_ROOM:graye5537
+Examine = "You see the castle.
+"
+End = north_graye5537
+
+Name = signb
+Pname = sign
+Location = IN_ROOM:graye5537
+Oflags { Noget }
+Examine = "There is a sign posted here, it says:
+
+	  ATTENTION CITIZENS OF GRAYE!
+
+Due to the demons beseiging our city, their
+night-time raids, and their recent kidnapping
+of King Relnar, we ask all citizens to observe
+the 7 pm curfew!  Those out on the streets after
+dark run the risk of being mistaken for the enemy 
+and killed!
+
+signed,
+
+The Graye Guard
+" 
+End = signb
+
+Name = poster
+Location = IN_ROOM:graye5538
+Oflags { Noget }
+Examine = "The poster reads:
+
+Great rewards will be given to anyone who can 
+rescue the benevolent King Relnar.
+" 
+End = poster
+
+Name = floorboards_graye5559
+Pname = floorboards
+Altname = floor
+Linked = floorboards_graye5543
+State = 2
+Maxstate = 2   
+Oflags { Openable NoGet Lockable }
+Desc[2] = "You step on a section of floor that makes a different sound."
+Desc[1] = "The floorboards look like they can be opened now."
+Desc[0] = "The floorboards have been opened like a trapdoor."
+Location = IN_ROOM:graye5543
+Examine = "You see some loose floorboards.  There's a keyhole in them too.
+"
+End = floorboards_graye5559
+
+Name = floorboards_graye5543
+Pname = floorboards
+Altname = door
+Linked = floorboards_graye5559
+State = 2
+Maxstate = 2  
+Oflags { Openable NoGet Lockable }
+Desc[2] = "You see floorboards above you, but they won't budge."
+Desc[1] = "You see floorboards above you, and they look openable."
+Desc[0] = "Light streams down from a room above."
+Location = IN_ROOM:graye5559
+Examine = "If you had the key, you can open them."
+End = floorboards_graye5543
+
+Name = secret_graye5546
+Pname = door
+Linked = secret_graye5544
+State = 2
+Maxstate = 2  
+Oflags { Openable NoGet Lockable }
+Desc[2] = ""
+Desc[1] = "A secret door was discovered here next to the throne but left closed."
+Desc[0] = "A secret door was left open next to the throne."
+Location = IN_ROOM:graye5544
+Examine = "You wonder how the demons are kept from getting in by this door.
+"
+End = secret_graye5546
+
+Name = bed
+Location = IN_ROOM:graye5545
+Oflags { Noget }
+Examine = "It is a tidy, well made bed.
+" 
+End = bed
+
+Name = desk
+Location = IN_ROOM:graye5545
+Oflags { Noget }
+Examine = "It is a bare desk, no drawers or anything.
+" 
+End = desk
+
+Name = basin
+Pname = wash
+Altname = washbasin
+Location = IN_ROOM:graye5545
+Oflags { Noget }
+Examine = "It is a very nice washbasin.
+" 
+End = basin
+
+Name = secret_graye5544
+Pname = throne
+altname = door
+Linked = secret_graye5546
+State = 2
+Maxstate = 2  
+Oflags { Openable NoGet Lockable }
+Desc[2] = "Looks like someone locked you out!  The door is locked."
+Desc[1] = "The door back to the throne room stands closed."
+Desc[0] = "The door back to the throne room stands wide open."
+Location = IN_ROOM:graye5546
+Examine = "Aha! a secret door!
+"
+End = secret_graye5544
+
+Name = torch
+Pname = torches
+Altname = magical
+Location = IN_ROOM:graye5546
+Oflags { Noget Lit }
+Examine = "They provide light with a soft magical glow.
+" 
+End = torch
+
+Name = door_graye5549
+Pname = door
+Altname = trapdoor
+Linked = door_graye5548
+State = 2
+Maxstate = 2  
+Oflags { Openable NoGet Lockable }
+Desc[2] = ""
+Desc[1] = "The trapdoor was found here but left closed."
+Desc[0] = "The trapdoor is open, beckoning you to hop in."
+Location = IN_ROOM:graye5548
+Examine = "It is a trapdoor, cleverly hidden.
+"
+End = door_graye5549
+
+Name = door_graye5548
+Pname = door
+Altname = trapdoor
+Linked = door_graye5549
+State = 2
+Maxstate = 2  
+Oflags { Openable NoGet Lockable }
+Desc[2] = ""
+Desc[1] = "The trapdoor was found here but left closed."
+Desc[0] = "The trapdoor is open, beckoning you to hop in."
+Location = IN_ROOM:graye5549
+Examine = "It is a trapdoor, cleverly hidden.
+"
+End = door_graye5548
+
+Name = down_graye5552
+Pname = down
+Oflags = { NoGet }
+Location = IN_ROOM:graye5552
+Examine = "You can't see much..climable though.
+"
+End = down_graye5552
+
+Name = up_graye5553
+Pname = up
+Oflags = { NoGet }
+Location = IN_ROOM:graye5553
+Examine = "I wouldn't try to climb that! What if you fell?!
+"
+End = up_graye5553
+
+Name = door_graye5556
+Pname = door
+Altname = ebony
+Linked = door_graye5555
+State = 2
+Maxstate = 2  
+Oflags { Openable NoGet Lockable }
+Desc[2] = "An ebony door stands here, shutting out visitors."
+Desc[1] = "The ebony door is closed."
+Desc[0] = "The ebony door was left open by someone, inviting visitors."
+Location = IN_ROOM:graye5555
+Examine = "An ebony door is there.
+"
+End = door_graye5556
+
+Name = ivory_graye5557
+Pname = ivory
+Altname = door
+Linked = ivory_graye5556
+State = 2
+Maxstate = 2   
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The ivory door stands here, shut and locked up."
+Desc[1] = "The ivory door is closed."
+Desc[0] = "The ivory door is open for you to walk thru it."
+Location = IN_ROOM:graye5556
+Examine = "There is an ivory door there.
+"
+End = ivory_graye5557
+
+Name = door_graye5555
+Pname = door
+Altname = ebony
+Linked = door_graye5556
+State = 2
+Maxstate = 2  
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The ebony door is locked."
+Desc[1] = "The ebony door is closed."
+Desc[0] = "The ebony door is open."
+Location = IN_ROOM:graye5556
+Examine = "An ebony door is there.
+"
+End = door_graye5555
+
+Name = ivory_graye5556
+Pname = ivory
+Altname = door
+Linked = ivory_graye5557
+State = 2
+Maxstate = 2  
+Oflags { Openable NoGet Lockable }
+Desc[2] = "The ivory door is locked."
+Desc[1] = "The ivory door is closed."
+Desc[0] = "The ivory door is open."
+Location = IN_ROOM:graye5557
+Examine = "There is an ivory door there.
+"
+End = ivory_graye5556
+
+Name = coffin
+Location = IN_ROOM:graye5561
+Oflags { Noget }
+Examine = "The coffin holds the remains of Graye.  His gift to you
+is not within it.
+" 
+End = coffin
+
+Name = stone
+Location = IN_ROOM:graye5561
+Oflags { Noget }
+Examine = "It is a giant stone tablet supporting the coffin of Graye.
+" 
+End = stone
+
+Name = obj5501
+Pname = key
+Altname = secret
+Location = IN_CONTAINER:obj5506
+State = 0
+Maxstate = 0
+Bvalue = 2
+Size = 1
+Weight = 1
+Oflags {Key }
+Desc[0] = "A secret key lies here"
+Examine = "It is a itty bitty secret key.
+"
+End = obj5501
+
+Name = obj5502
+Pname = key
+Altname = tiny
+Location = IN_CONTAINER:obj5506
+State = 0
+Maxstate = 0
+Bvalue = 2
+Size = 1
+Weight = 1
+Oflags { Key }
+Desc[0] = "A key to a trapdoor has been left here"
+Examine = "It is a tiny key meant to open a trapdoor.
+"
+End = obj5502
+
+Name = obj5503
+Pname = ebonykey
+Altname = key
+Location = CARRIED_BY:mob5515
+State = 0
+Maxstate = 0
+Bvalue = 2
+Size = 1
+Weight = 1
+Oflags { Key }
+Desc[0] = "An intricate ebony key is here"
+Examine = "Looks like it would open an ebony door.
+"
+End = obj5503
+
+Name = obj5504
+Pname = ivorykey
+Altname = key
+Location = CARRIED_BY:mob5516
+State = 0
+Maxstate = 0
+Bvalue = 2
+Size = 1
+Weight = 1
+Oflags { Key }
+Desc[0] = "An ivory key has been left here"
+Examine = "Looks like it would open an ivory door.
+"
+End = obj5504
+
+Name = obj5505
+Pname = chronicles
+Altname = book
+Location = IN_ROOM:graye5543
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Desc[0] = "The chronicles of Graye rest on the desk here"
+Examine = "You open the book and begin to read:
+
+	Many ages ago, the great paladin knight Graye defeated
+the Demon lord, and his disciples Irgon and Scrytin, and banished
+them to to bowels of the earth from which they came.  Years passed
+and Graye's descendants prospered.  The city of Graye has been ruled
+for many hundreds of years by wise kings, directly descended from 
+Graye himself.
+
+The book goes on to list dozens of names of kings..
+"
+End = obj5505
+
+Name = obj5506
+Pname = desk
+Altname = oak
+Location = IN_ROOM:graye5543
+State = 1
+Maxstate = 1
+Bvalue = 0
+Size = 50
+Weight = 500
+Oflags { NoGet Container Openable}
+Desc[0] = "Relnar's desk is in the corner with a drawer open."
+Desc[1] = "Relnar's desk is in the corner."
+Examine = "It is a fine oak desk with a drawer.
+"
+End = obj5506
+
+Name = obj5507
+Pname = sapling
+Altname = stick
+Location = CARRIED_BY:mob5501
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Lightable Extinguish }
+Desc[0] = "a green stick lies here"
+Examine = "It is a fresh green stick.
+"
+End = obj5507
+
+Name = obj5507_1
+Pname = sapling
+Altname = stick
+Location = CARRIED_BY:mob5501_1
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Lightable Extinguish  }
+Desc[0] = "a green stick lies here"
+Examine = "It is a fresh green stick.
+"
+End = obj5507_1
+
+Name = obj5507_2
+Pname = sapling
+Altname = stick
+Location = CARRIED_BY:mob5501_2
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags {Lightable Extinguish }
+Desc[0] = "a green stick lies here"
+Examine = "It is a fresh green stick.
+"
+End = obj5507_2
+
+Name = obj5507_3
+Pname = sapling
+Altname = stick
+Location = CARRIED_BY:mob5501_3
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags {Lightable Extinguish }
+Desc[0] = "a green stick lies here"
+Examine = "It is a fresh green stick.
+"
+End = obj5507_3
+
+Name = obj5507_4
+Pname = sapling
+Altname = stick
+Location = CARRIED_BY:mob5501_4
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 1
+Weight = 1
+Oflags { Lightable Extinguish }
+Desc[0] = "a green stick lies here"
+Examine = "It is a fresh green stick.
+"
+End = obj5507_4
+
+Name = obj5508
+Pname = cloak
+Altname = woodsmans
+Location = WORN_BY:mob5504
+State = 2
+Maxstate = 2
+Bvalue = 10
+Size = 60
+Weight = 2
+Armor = 37
+Oflags { Wearable Container Armor}
+Aflags {Back Arms}
+Desc[0] = "a woodsman's cloak is crumpled up here"
+Examine = "It has alot of pockets.
+"
+End = obj5508
+
+Name = obj5509
+Pname = belt
+Altname = woodsmanAPOSs
+Location = WORN_BY:mob5504
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 2
+Weight = 2
+Oflags { Wearable }  
+Desc[0] = "a woodsman's belt lies coiled here"
+Examine = "What a nice leather belt!
+"
+End = obj5509
+
+Name = obj5510
+Pname = boots
+Altname = walking
+Location = WORN_BY:mob5504
+State = 0
+Maxstate = 0
+Bvalue = 100
+Size = 3
+Weight = 3
+Oflags { Wearable Boat }
+Aflags {Feet }
+Desc[0] = "A pair of walking boots have been left here"
+Examine = "I bet you could go anywhere wearing these.
+"
+End = obj5510
+
+Name = obj5511
+Pname = plumed
+Altname = helmet
+Location = WORN_BY:mob5506
+State = 0
+Maxstate = 0
+Armor = 70
+Bvalue = 10
+Size = 5
+Weight = 5
+Oflags { Cross Glowing Wearable Armor }
+Aflags {Head Face }
+Desc[0] = "A plumed helmet lies on the ground here"
+Examine = "It's a nice thing to wear on your head.
+"
+End = obj5511
+
+Name = obj5511_1
+Pname = plumed
+Altname = helmet
+Location = WORN_BY:mob5506_1
+State = 0
+Maxstate = 0
+Armor = 70
+Bvalue = 10
+Size = 5
+Weight = 5
+Oflags { Cross  Glowing Wearable Armor }
+Aflags {Head Face }
+Desc[0] = "A plumed helmet lies on the ground here"
+Examine = "It's a nice thing to wear on your head.
+"
+End = obj5511_1
+
+Name = obj5511_2
+Pname = plumed
+Altname = helmet
+Location = WORN_BY:mob5506_2
+State = 0
+Maxstate = 0
+Armor = 70
+Bvalue = 10
+Size = 5
+Weight = 5
+Oflags { Cross Glowing Wearable Armor }
+Aflags {Head Face}
+Desc[0] = "A plumed helmet lies on the ground here"
+Examine = "It's a nice thing to wear on your head.
+"
+End = obj5511_2
+
+Name = obj5512
+Pname = cape
+Altname = crimson
+Location = WORN_BY:mob5506
+State = 0
+Maxstate = 0
+Armor = 84 
+Bvalue = 10
+Size = 2
+Weight = 2
+Oflags { Cross  Glowing Wearable Armor }
+Aflags {Neck }
+Desc[0] = "A crimson cape lies on the ground here"
+Examine = "It's a nice thing to wear around your neck.
+"
+End = obj5512
+
+Name = obj5512_1
+Pname = cape
+Altname = crimson
+Location = WORN_BY:mob5506_1
+State = 0
+Maxstate = 0
+Armor = 84
+Bvalue = 10
+Size = 2
+Weight = 2
+Oflags { Cross Glowing Wearable Armor }
+Aflags {Neck }
+Desc[0] = "A crimson cape lies on the ground here"
+Examine = "It's a nice thing to wear around your neck.
+"
+End = obj5512_1
+
+Name = obj5512_2
+Pname = cape
+Altname = crimson
+Location = WORN_BY:mob5506_2
+State = 0
+Maxstate = 0
+Armor = 84
+Bvalue = 10
+Size = 2
+Weight = 2
+Oflags { Cross Glowing Wearable Armor }
+Aflags {Neck }
+Desc[0] = "A crimson cape lies on the ground here"
+Examine = "It's a nice thing to wear around your neck.
+"
+End = obj5512_2
+
+Name = obj5513
+Pname = longsword
+Altname = crimson
+Location = WIELDED_BY:mob5506
+State = 0
+Maxstate = 0
+Damage = 16
+Bvalue = 100
+Size = 15
+Weight = 15
+Oflags { Cross Glowing Weapon }
+Desc[0] = "A crimson emblazoned longsword is stuck in the ground here"
+Examine = "It is a finely balanced weapon..standard eq for Graye guards.
+"
+End = obj5513
+
+Name = obj5513_1
+Pname = longsword
+Altname = crimson
+Location = WIELDED_BY:mob5506_1
+State = 0
+Maxstate = 0
+Damage = 16
+Bvalue = 100
+Size = 15
+Weight = 15
+Oflags { Cross Glowing Weapon }
+Desc[0] = "A crimson emblazoned longsword is stuck in the ground here"
+Examine = "It is a finely balanced weapon..standard eq for Graye guards.
+"
+End = obj5513_1
+
+Name = obj5513_2
+Pname = longsword
+Altname = crimson
+Location = WIELDED_BY:mob5506_2
+State = 0
+Maxstate = 0
+Damage = 16
+Bvalue = 100
+Size = 15
+Weight = 15
+Oflags { Cross Glowing Weapon }
+Desc[0] = "A crimson emblazoned longsword is stuck in the ground here"
+Examine = "It is a finely balanced weapon..standard eq for Graye guards.
+"
+End = obj5513_2
+
+Name = obj5514
+Pname = claw
+Altname = bloodied
+Location = CARRIED_BY:mob5511
+State = 0
+Maxstate = 0
+Bvalue = 10
+Size = 5
+Weight = 5
+Oflags { Cursed Wearable Enchanted }
+Aflags {Hands}
+Desc[0] = "a severed claw lies on the ground here, making a puddle"
+Examine = "It seems to have been severed off a demons corpse.
+"
+End = obj5514
+
+Name = obj5515
+Pname = mist
+Altname = armbands
+Location = WORN_BY:mob5512
+State = 0
+Maxstate = 0
+Armor = 77
+Bvalue = 10
+Size = 5
+Weight = 5
+Oflags { Wearable Armor }
+Aflags {Arms }
+Desc[0] = "Armbands of pure mist hover here."
+Examine = "They are fascinating..all mist...cool.
+"
+End = obj5515
+
+Name = obj5516
+Pname = whip
+Altname = bloodied
+Location = WIELDED_BY:mob5513
+State = 0
+Maxstate = 0
+Damage = 20
+Bvalue = 10
+Size = 15
+Weight = 15
+Oflags { Cursed Glowing Weapon NegHealth }
+Desc[0] = "A whip, encrusted with dried blood, is coiled up here"
+Examine = "It looks well used.
+"
+End = obj5516
+
+Name = obj5516_1
+Pname = whip
+Altname = bloodied
+Location = WIELDED_BY:mob5513_1
+State = 0
+Maxstate = 0
+Damage = 20
+Bvalue = 10
+Size = 15
+Weight = 15
+Oflags { Cursed  Glowing Weapon NegHealth }
+Desc[0] = "A whip, encrusted with dried blood, is coiled up here"
+Examine = "It looks well used.
+"
+End = obj5516_1
+
+Name = obj5517
+Pname = candle
+Altname = black
+Location = CARRIED_BY:mob5515
+State = 0
+Maxstate = 1
+Bvalue = 500
+Size = 3
+Weight = 3
+Oflags { Cursed  Lit Lightable Extinguish MissChance NegHealth }
+Desc[0] = "A black candle rests here, making sooty smoke."
+Desc[1] = "A black candle rests here, unlit but still threatening."
+Examine = "It just RADIATES evil.
+"
+End = obj5517
+
+Name = obj5518
+Pname = Shield
+Altname = Scrytin
+Location = WORN_BY:mob5516
+State = 0
+Maxstate = 0
+Bvalue = 500
+Size = 10
+Weight = 10
+Armor = 100
+Oflags { Cursed  Lit Wearable Armor Shield MissChance NegMana }
+Desc[0] = "The dark shield of Scrytin rests here"
+Examine = "It is a powerful shield.
+"
+End = obj5518
+
+Name = obj5519
+Pname = Visor
+Altname = Graye
+Location = IN_ROOM:graye5561
+State = 0
+Maxstate = 0
+Armor = 100
+Bvalue = 500
+Size = 8
+Weight = 8
+Oflags { Cross  Lit Wearable Armor }
+Aflags {Head }
+Desc[0] = "The legendary visor of Graye rests here"
+Examine = "It is finely crafted and old.
+"
+End = obj5519
+
+Name = obj5520
+Pname = Breastplate
+Altname = Graye
+Location = IN_ROOM:graye5561
+State = 0
+Maxstate = 0
+Armor = 140
+Bvalue = 500
+Size = 10
+Weight = 10
+Oflags { Cross  Glowing Wearable Enchanted Armor }
+Aflags {Chest }
+Desc[0] = "The legendary breastplate of Graye rests here"
+Examine = "It is finely crafted and old.
+"
+End = obj5520
+
+Name = obj5521
+Pname = journal
+Altname = personal
+Location = IN_ROOM:graye5543
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags {  }
+Desc[0] = "A personal journal, written by the king is here"
+Examine = "The last entry reads:
+
+	I fear my magic is not enough..every day the demons
+get stronger...my people are living in fear..we cannot go 
+on like this.  Noone save myself knows of the secret passage
+beneath the throne room, perhaps I should take it and confront
+the enemy?   But I cannot leave my people here alone..and the
+legasy of Graye must never fall into enemy hands.  What is that!
+The sounds of fighting?! In the Castle?!  I must...
+
+The next few sentences are unintelligible..they say something
+about a spell being cast on this room to bar the demon's entry
+and something about defending his castle.
+"
+End = obj5521
+
+Name = obj5522
+Pname = note
+Altname = scrawled
+Location = IN_ROOM:graye5557
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags {  }
+Desc[0] = "A hastily scrawled note lies here"
+Examine = "The note reads:
+
+	Thank you kind adventurer!  I heard the sound's of
+your battle with Scrytin, and while he was distracted I was
+able to cast a powerful spell.  You will find a magical key
+on the ground here, disguised as a rock, and you will also
+find that I have magically formed an exit back to my study from
+here.  The key will unlock some secret floorboards, and what
+you find under there will be your reward.  I must stay here
+and help my countrymen from their chains.  Thank You for
+what you have done.
+
+			 Signed,
+				 King Relnar
+"
+End = obj5522
+
+Name = obj5523
+Pname = rock
+Altname = inconspicuous
+Location = IN_ROOM:graye5557
+State = 0
+Maxstate = 0
+Bvalue = 0
+Size = 1
+Weight = 1
+Oflags { Key }
+Desc[0] = "an inconspicuous rock is tucked in a corner here"
+Examine = "Huh..somethin kinda funny about that rock.
+"
+End = obj5523
+
+%locations
+
+graye5501 n:graye5502 s:Road10@village;  
+lflags { Outdoors }
+The Grasslands^
+	The grass is particularly tall in this area, save for what
+has been matted down by travelers and carriages.  Rabbits duck into
+the high grass as you approach and plovers fly low attempting to
+catch insects.  A trail runs to the northeast.
+^
+
+graye5502 s:graye5501 w:graye5503;  
+lflags { Outdoors }
+The Great Field^
+	You are standing in a great field of tall grass.  The 
+smell of fresh dirt and sunlight surrounds you.  The air is 
+filled with the sound of chirping birds happily building their
+nests in the depths of the knotted grass.  A wagon trail runs
+in an east-south direction.
+^
+
+graye5503 w:graye5504 e:graye5502;
+lflags { Outdoors }
+The Forest's Edge^
+	The grassland fades to spotted scrub here, and finally 
+merges into a great line of trees.  To the far north a stormcloud
+hangs in the air ominously, but strangely enough it is still quite
+pleasant out.  Crickets chirp merrily, and the sun's rays warm your
+skin.  The wagon trail leads eastwards back into the grassland, 
+and dissapears westwards into the forest.
+^
+
+graye5504 n:graye5506 s:graye5507 w:graye5511 e:graye5503;
+lflags { Outdoors}
+Entrance to the Forest of Graye^
+	The trail passes into the shade here, and the temperature
+drops quite suddenly.  Great broad leaf trees gather the descending
+sunlight, and cover the leaf-strewn forest floor with dappled sunlight.
+The wagon trail becomes much wider here, showing signs of recent heavy
+use.  The wagon trail runs from west to east here, and it looks possible
+to venture into the forest to the north and south.
+^
+
+graye5505 s:graye5506 w:graye5509;
+lflags { Outdoors }
+The Forest of Graye^
+	You in a hardwood forest, walking through noisy leaves.
+^
+
+graye5506 n:graye5505 s:graye5504 w:graye5510;
+lflags { Outdoors}
+The Forest of Graye^
+	You are in a hardwood forest, walking through noisy leaves.
+^
+
+graye5507 n:graye5504 s:graye5508 w:graye5512;
+lflags { Outdoors }
+The Forest of Graye^
+	You are in a hardwood forest, walking through noisy leaves.
+^
+
+graye5508 n:graye5507 w:graye5513;
+lflags { Outdoors}
+The Forest of Graye^
+	You are in a hardwood forest, walking through noisy leaves.
+^
+
+graye5509 s:graye5510 e:graye5505;
+lflags { Outdoors }
+The Forest of Graye^
+	You are in a hardwood forest, walking through noisy leaves.
+There is a sheer &+Ccliff&* face to the west, rising up above the forest.
+There is a &+Csign&* nailed neatly on the cliff wall.
+^
+
+graye5510 n:graye5509 s:graye5511 e:graye5506;
+lflags { Outdoors }
+The Forest of Graye^
+	You are in a hardwood forest, walking through noisy leaves.
+There is a sheer &+Ccliff&* face to the west, rising above the forest. 
+^
+
+graye5511 n:graye5510 s:graye5512 w:graye5514 e:graye5504;
+lflags { Outdoors }
+The Forest of Graye^
+	You are in a hardwood forest, walking through noisy leaves.
+The wagon trail ends abruptly here.
+^
+
+graye5512 n:graye5511 s:graye5513 w:graye5515 e:graye5507;
+lflags { Outdoors }
+The Forest of Graye^
+	You are in a hardwood forest, walking through noisy leaves.
+^
+
+graye5513 n:graye5512 w:graye5516 e:graye5508;
+lflags { Outdoors }
+The Forest of Graye^
+	You are in a hardwood forest, walking through noisy leaves.
+^
+
+graye5514 s:graye5515 w:graye5517 e:graye5511;
+lflags { Outdoors }
+The Forest of Graye^
+	You are in a hardwood forest, walking through noisy leaves.
+There is a sheer &+Ccliff&* face to the north, rising above the forest.
+^
+
+graye5515 n:graye5514 s:graye5516 w:graye5518 e:graye5512;
+lflags { Outdoors }
+The Forest of Graye^
+	You are in a hardwood forest, walking through noisy leaves.
+^
+
+graye5516 n:graye5515 w:graye5519 e:graye5513;
+lflags { Outdoors }
+The Forest of Graye^
+	You are in a hardwood forest, walking through noisy leaves.
+^
+
+graye5517 s:graye5518 e:graye5514 u:graye5520;
+lflags { Outdoors }
+The Forest of Graye^
+	You are in a hardwood forest, walking through noisy leaves.
+There is a &+Ccliff&* face to the north.
+^
+
+graye5518 n:graye5517 s:graye5519 e:graye5515;
+lflags { Outdoors }
+The Forest of Graye^
+	You are in a hardwood forest, walking through noisy leaves.
+^
+
+graye5519 n:graye5518 e:graye5516;
+lflags { Outdoors }
+The Forest of Graye^
+	You are in a hardwood forest, walking through noisy leaves.
+^
+
+graye5520 u:graye5521 d:graye5517;
+lflags { Outdoors Cold NoMobiles }
+The Cliff Wall^
+	You inch your way upwards, hand over hand, searching out 
+more footholds.  Sweat stings your eyes, and your breathing becomes
+ragged.  You can still drop safely to the forest floor, or madly
+continue upwards.
+^
+
+graye5521 e:graye5522 d:graye5520;
+lflags { Outdoors Cold }
+The Overhang^
+	You progress upwards is stopped by what appears to be
+an overhang.  It would be a nice place to stop an rest..if you
+weren't underneath it.  You glance around for an alternate path..
+^
+
+graye5522 w:graye5525 e:graye5525 u:graye5523 d:graye5525;
+lflags { Outdoors Cold }
+Hanging By a Thread^
+	As you reach for your next handhold, the rock comes loose 
+and tumbles down, down, down to the ground.  You barely manage to
+save yourself by clinging desperately to the rock face with your 
+other hand.  Returning back west is out of the question, but you
+might be able to pull yourself upwards onto a very thin &+Cledge.
+^
+
+graye5523 w:graye5524 e:graye5525 d:graye5525;
+lflags { Outdoors Cold }
+The Thin Ledge^
+	You are standing on a very thin ledge, just wide enough
+for your feet to stand on it widthwise.  The ledge widens to the
+west and east.
+^
+
+graye5524 e:graye5523 s:graye5525 u:graye5526 d:graye5525;
+lflags { Outdoors Cold }
+The Ledge^
+	You find yourself on a very wide ledge.  You could stretch
+out here and take a nap if you wanted too.  To the south you get a
+fantastic view of the entire forest.  There is perhaps another 
+forty feet to the top of the cliff, all of which appears to be an
+easy climb.
+^
+
+graye5525;
+lflags { Death }
+Oops.^
+	"Aaarrrggg!", you scream as you plummet toward the earth.
+The ground rushes up at you at a dizzying pace, and you prepare
+for impact.  Suddenly, there is a flash of blinding light, and
+you feel yourself floating in white light.  You notice a glint
+in Aten's eye.  
+
+"Your time was not to come yet..", he utters in disappointment.
+He waves his hands and you find yourself before the portal in
+which you entered this world, of which you will have to reenter
+to resume your quest....
+^
+
+graye5526 n:graye5528 d:graye5524;
+lflags { Outdoors }
+Top of the Cliff^
+	You reach the top of the cliff and struggle to your feet.
+You spend several moments just turning around, taking in all that 
+you see.  To the south and east you see the forest sweeping outwards
+from the cliff wall, and to the north you see a clearing surrounding
+a small town.
+^
+
+graye5527 n:graye5530 w:graye5533 e:graye5528;
+lflags { Outdoors }
+The Clearing^
+	You are in a wide clearing between the city walls and
+the forest.  You see men atop the walls pointing at you and 
+gesturing frantically.  
+^
+
+graye5528 n:graye5531 s:graye5526 w:graye5527 e:graye5529;
+lflags { Outdoors }
+The Clearing^
+	You are in a wide clearing between the city walls and
+the forest.  You see men atop the walls pointing at you and 
+gesturing frantically.
+^
+
+graye5529 n:graye5532 w:graye5528 e:graye5536;
+lflags { Outdoors }
+The Clearing^
+	You are in a wide clearing between the city walls and
+the forest.  You see men atop the walls pointing at you and 
+gesturing frantically.
+^
+
+graye5530 s:graye5527 w:graye5534;
+lflags { Outdoors }
+The Clearing^
+	You are in a wide clearing between the city walls and
+the forest.  You see men atop the walls pointing at you and 
+gesturing frantically.
+^
+
+graye5531 n:graye5537 s:graye5528;
+lflags { Outdoors NoMobiles }
+Entrance to the City of Graye^
+	You are standing before the great gate of Graye.  Crimson
+plumed soldiers raise the portcullis and urge you the enter quickly.
+^
+
+graye5532 s:graye5529 e:graye5535;
+lflags { Outdoors }
+The Clearing^
+	You are in a wide clearing between the city walls and
+the forest.  You see men atop the walls pointing at you and 
+gesturing frantically.
+^
+
+graye5533 n:graye5534 e:graye5527;
+lflags { Dark Outdoors }
+The Demon's Wood^
+	You find yourself among the twisted, gnarled trunks of
+giant thorn trees.  Mist covers the forest floor and everything
+is completely silent.
+^
+
+graye5534 s:graye5533 e:graye5530;
+lflags { Dark Outdoors }
+The Demon's Wood^
+	You find yourself among the twisted, gnarled trunks of
+giant thorn trees.  Mist covers the forest floor and everything 
+is completely silent.
+^
+
+graye5535 s:graye5536 w:graye5532;
+lflags { Dark Outdoors }
+The Demon's Wood^
+	You find yourself among the twisted, gnarled trunks of
+giant thorn trees.  Mist covers the forest floor, and everything 
+is completely silent.
+^
+
+graye5536 n:graye5535 w:graye5529;
+lflags { Dark Outdoors }
+The Demon's Wood^
+	You find yourself among the twisted, gnarled trunks of
+giant thorn trees.  Mist covers the forest floor, and everything
+is completely silent.
+^
+
+graye5537 n:graye5541 w:graye5538 e:graye5539 s:graye5531;
+lflags { Outdoors }
+The City Street^
+	Simple houses line both sides of the street, and guards are
+posted at every junction.  There is a castle to the north, and more
+streets to the east and west.  There is a large &+Csign&* posted on a
+wall here.
+^
+
+graye5538 e:graye5537;
+lflags { Outdoors }
+The City Streets^
+	Small houses line both sides of the street, and
+armed guards are posted at every junction.  You see a 
+small &+Yposter&* pasted to the wall here.
+^
+
+graye5539 w:graye5537;
+lflags { Outdoors }
+The City Streets^
+	Small houses line both sides of the street, and 
+armed guards are posted at every junction.
+^
+
+graye5540 e:graye5541;
+lflags { }
+Inside the Castle^
+	Everything here is a mess.  Furniture has been overturned,
+paintings slashed, even the gold inlaid tiles have been torn up.
+^
+
+graye5541 n:graye5544 s:graye5537 w:graye5540 e:graye5542;
+lflags { Outdoors }
+Entrance to Relnar's Castle^
+	You stand before the ajar gate of the castle.  You here
+complete silence from inside.  City life continues to bustle around
+you.
+^
+
+graye5542 w:graye5541;
+lflags {  }
+Inside the Castle^
+	Everything here is a mess.  Furniture has been overturned,
+paintings slashed, even the gold inlaid tiles have been torn up.
+^
+
+graye5543 e:graye5544 d:^floorboards_graye5559;
+lflags {  }
+Relnar's Study^
+	As soon as you enter this room, you feel it.  A magical
+aura of goodness fills this room, and everything is in a neat 
+and tidy condition.
+^
+
+graye5544 s:graye5541 w:graye5543 e:graye5545 d:^secret_graye5546;
+lflags { NoMobiles  }
+The Throne Room^
+	King Relnar's &+Mthrone&* sits here, empty.  There are rooms to 
+the east and west.
+^
+
+graye5545 w:graye5544;
+lflags {  }
+Rymat's Chamber^
+	You find yourself in a small undecorated chamber.  There is
+a &+Bbed&*, &+Bdesk&*, and finely crafted &+Bwashbasin.
+^
+
+graye5546 n:graye5547 u:^secret_graye5544;
+lflags { NoMobiles  }
+The Tunnel^
+	The tunnel has a bare dirt floor, and its sides are of
+rough-hewn rock.  Magical &+Ytorches&* are set in each side of the
+tunnel wall, providing light.
+^
+
+graye5547 n:graye5548 s:graye5546;
+lflags { NoMobiles  }
+The Tunnel^
+	The tunnel begins to curve upwards.
+^
+
+graye5548 s:graye5547 u:^door_graye5549;
+lflags { NoMobiles  }
+Tunnel's End^
+	You reach the end of the tunnel.  Just above you, sunlight
+peeks around the edge of a &+ytrapdoor&*.
+^
+
+graye5549 n:graye5550 d:^door_graye5548;
+lflags { Outdoors }
+The Valley of Demons^
+	You emerge from the tunnel, and take a look around you.
+To the far south you can just barely see one of the castle's towers
+over the trees.  To the north, the land sloped downward, and thick, 
+gnarled thorn trees prevent movement to the east or west.
+^
+
+graye5550 n:graye5551 s:graye5549;
+lflags { Outdoors }
+The Valley of Demons^
+	You are heading deeper and deeper into a valley.  The walls 
+climb up on either side of you, soon becoming nearly vertical.  Your
+path is slowed by thick choking vegetation grabbing your boots.
+The path back to the south disappears in darkness, and your path 
+continues to dip as you head to the north.
+^
+
+graye5551 n:graye5552 s:graye5550;
+lflags { Outdoors }
+The Valley Floor^
+	You have reached the very bottom of the valley.  The hills 
+climb steeply to the east and west.  A sudden gust of wind brings 
+you the smell of sulphur from the north.
+^
+
+graye5552 s:graye5551 d:graye5553;
+lflags { Outdoors }
+The Rift^
+	A great yawning rift breaks the earth's surface here.  
+Tendrils of smoke waft their way upwards, stinging your nose 
+sharply.  You sense that a great evil is near.  You can try
+climbing &+Rdown&*, but you may not get back up.
+^
+
+graye5553 n:graye5554 u:graye5558;
+lflags { Dark Nomobiles }
+Inside the Rift^
+	There is a ledge here, and a tunnel which leads into the 
+earth.  Far below you, lava churns and bubbles.
+^
+
+graye5554 n:graye5555 s:graye5553;
+lflags { Dark  }
+The Tunnel^
+	The tunnel leads north and south, and to either side 
+of you are great cells.  Peeking in a smudged window, you 
+see human prisoners, many of them wearing the uniform of the
+Graye Guard.
+^
+
+graye5555 n:^door_graye5556 s:graye5554;
+lflags { Dark  }
+Irgon's Guard Room^
+	You find yourself in a small guard room.  Chambers to the 
+east and west house prisoners, and an ebony door blocks the 
+way north.  Instruments of torture line the walls, and blood is
+splattered everywhere.
+^
+
+graye5556 s:^door_graye5555 e:^ivory_graye5557;
+lflags { Dark  }
+Scrytin's Chamber of Doom^
+	This chamber is COVERED in blood.  The Arch-Demon Scrytin
+has made this foul place his abode.  There is an Ivory door to the 
+east.
+^
+
+graye5557 w:^ivory_graye5556 e:graye5543;
+lflags {  }
+Relnar's Cell^
+	You stumble into a tiny cell, lit by a single candle.  A
+portal seems to have been opened up for you on the east wall!
+^
+
+graye5558;
+lflags { Death }
+The Lava^
+	You slip..
+		  ..
+		    ..
+		       &+Rhot
+			   &+RHot
+			       &+RHOT!!
+^
+
+graye5559 n:graye5560 u:^floorboards_graye5543;
+lflags { Dark  }
+The secret passage^
+	You step into the musty passage and let your eyes grow
+accustomed to the light.  Stone walls block every direction 
+save north.
+^
+
+graye5560 n:graye5561 s:graye5559;
+lflags {  }
+The Catacombs^
+	You walk along the passage, and notice the remains of 
+all the previous kings of Graye are buried on either side of you.
+You can see in the room, but there is no discernable source of 
+light.  The passage continues on to the north and south.
+^
+
+graye5561 s:graye5560;
+lflags {  }
+The Tomb of Graye^
+	You enter a huge circular room.  A guilded gold &+Ycoffin
+rests in the center atop at &+Cstone&* tablet.  Treasure is piled
+high against all the walls.  You have found the final resting
+place of the paladin knight Graye.
+^

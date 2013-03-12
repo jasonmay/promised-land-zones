@@ -1,0 +1,1252 @@
+
+
+
+%zone:bishop
+
+%mobiles
+
+Name        = gator
+PName       = "Gator"
+Location    = bishop54
+Strength    = 350
+Damage      = 18
+Armor       = 9
+Speed       = 10
+Aggression  = 0
+Description = "
+There is a red-scaled gator walking about."
+End         = gator
+
+Name        = mosquito
+PName       = "Marsh Mosquito"
+Location    = bishop50
+Sflags	{ NoBody }
+Strength    = 70
+Damage      = 7
+Armor       = 0
+Speed       = 50
+Aggression  = 90
+Description = "
+A hovering mosquito divebombs at a pulsing artery."
+End         = mosquito
+
+Name        = corpse1
+PName       = "Corpse"
+Location    = bishop42
+Mflags	{ Nocorpse }
+Strength    = 150
+Damage      = 9
+Armor       = 2
+Speed       = 0
+Aggression  = 100
+Description = "A corpse launches itself at you!"
+End         = corpse1
+
+Name        = corpse2
+PName       = "Corpse"
+Eflags      { Mute }
+Mflags 	{ NoCorpse }
+Location    = bishop40
+Strength    = 180
+Damage      = 13
+Armor       = 0
+Speed       = 0
+Aggression  = 50
+Description = "A corpse skulks in the shadows."
+End         = corpse2
+
+Name        = corpse3
+PName       = "Corpse"
+Location    = bishop38
+Mflags	{ NoCorpse }
+Strength    = 300
+Damage      = 5
+Armor       = 0
+Speed       = 30
+Aggression  = 80
+Description = "The smell of a corpse lingers in the air."
+End         = corpse3
+
+Name        = fred
+PName       = "Fred"
+Mflags      { BarUp BarNorth }
+Location    = bishop15
+Strength    = 400
+Damage      = 12
+Armor       = 5
+Speed       = 0
+Aggression  = 0
+Description = "
+Fred is the head honcho of this house, and he is ordering you out!"
+End         = fred
+
+Name        = monk1
+PName       = "Jon"
+Pflags      { NoHassle NoMagic }
+Mflags      { BarEast }
+Location    = bishop23
+Strength    = 250
+Speed       = 0
+Aggression  = 0
+Description = "
+One of the armor-clad brothers, Jon, of the monastery is here."
+End         = monk1
+
+Name        = monk2
+PName       = "Grizzdel"
+Pflags      { NoHassle NoMagic }
+Mflags      { BarWest }
+Location    = bishop31
+Strength    = 250
+Speed       = 0
+Aggression  = 0
+Description = "
+One of the armor-clad brothers, Grizzdel, of the monastery is here."
+End         = monk2
+
+Name        = monk3
+PName       = "Illkoy"
+Pflags      { NoHassle NoMagic }
+Mflags      { BarNorth }
+Location    = bishop43
+Strength    = 250
+Speed       = 0
+Aggression  = 0
+Description = "
+One of the armor-clad brothers, Illkoy, of the monastery is here."
+End         = monk3
+
+Name        = packrat
+PName       = "Packrat"
+Pflags      { NoSteal }
+Location    = bishop46
+Strength    = 250
+Damage      = 10
+Armor       = 0
+Speed       = 20
+Aggression  = 0
+Description = "
+A hulking packrat of the marshland is here."
+End         = packrat
+
+Name        = vampire
+PName       = "Stately Vampire"
+Location    = bishop40
+Sflags	{ Vampire }
+Mflags	{ NoCorpse Cross }
+Strength    = 700
+Damage      = 20
+Armor       = 0
+Speed       = 15
+Aggression  = 0
+Description = "
+A vampire dressed to the hilt ponders where to get his next meal."
+Examine     = "
+This particular member of the undead struts around silently, proudly, and
+gracefully. His dark black hair is pulled back in an elegant pony tail,
+and mother-of-pearl cufflings are ruffled perfectly on his shirt sleeves.
+A crisp boutinerre rises from the left lapel of his immaculet jacket.
+
+A well-cooked stake could make a nice tartare out of this guy."
+End         = vampire
+
+Name        = ghoul
+PName       = "Handyghoul"
+Pflags      { NoSteal }
+Mflags	{ NoCorpse }
+Location    = bishop36
+Strength    = 300
+Damage      = 15
+Armor       = 5
+Speed       = 15
+Aggression  = 0
+Description = "
+The master mechanic, Handyghoul, mutters something about its stolen tool set."
+End         = ghoul
+
+Name        = body
+PName       = "Archbishop"
+Location    = bishop56
+Strength    = 200
+Damage      = 15
+Armor       = 0
+Speed       = 0
+Aggression  = 100
+Description = "
+The possessed Archbishop waves his ankhed staff in preparation to 
+decapitate you." 
+End         = body
+
+Name        = spirit
+PName       = "The Damned"
+Mflags      { BarSouth NoCorpse }
+Sflags	{ NoBody }
+Location    = bishop56
+Strength    = 750
+Damage      = 15
+Armor       = 5
+Speed       = 0
+Aggression  = 0
+Description = "
+A damned soul draws small bits of debris into its whirling core."
+Examine     = "
+One mistake with me and you will forfeit your immortal soul!"
+End         = spirit
+
+Name        = fatrat
+PName       = "Fatrat"
+Location    = bishop10
+Strength    = 100
+Damage      = 8
+Armor       = 0
+Speed       = 25
+Aggression  = 20
+Description = "
+Fatrat squeaks in delight as he waddles through the plains." 
+End         = fatrat
+
+Name        = crabapple
+PName       = "Crabapple"
+Location    = bishop30
+Strength    = 400
+Damage      = 12
+Armor       = 0
+Speed       = 25
+Aggression  = 0
+Description = "
+The head of domestic affairs, Crabapple, drinks to his demise."
+End         = crabapple
+
+
+%objects
+
+Name        = flagon
+PName       = flagon
+Location    = CARRIED_BY:crabapple
+Oflags      { Food Alcohol }
+BValue      = 90
+Size        = 3
+Desc[0]     = "
+A flagon half-full of sasparilla lays here."
+Examine     = "
+The liquid inside totally reeks of its alcoholic contents."
+End         = flagon
+
+Name        = rake
+PName       = rake
+Oflags      { Weapon }
+Location    = WIELDED_BY:fred
+BValue      = 50
+Damage      = 15
+Size        = 9
+Desc[0]     = "
+A sturdy metal rake has been left here."
+Examine     = "
+The caretaker obviously didn't part with this happily, as denoted by the 
+blood stains on it."
+End         = rake
+
+Name        = calcite
+PName       = calcite
+Oflags      { GetFlips }
+State       = 1
+Maxstate    = 1
+Location    = IN_ROOM:bishop4
+BValue      = 500
+Desc[0]     = "
+A calcite clod awaits a new master here."
+Desc[1]     = "
+A chunk of calcite has broken off a tunnel wall."
+Examine     = "
+An elf would find this very valuable, but elves don't exist here."
+End         = calcite
+
+Name        = scrap
+PName       = scrap
+Location    = IN_ROOM:bishop3
+Size        = 2
+Desc[0]     = "A scrap of white metal lies discarded here."
+Examine     = "Perhaps the debris clinging to it could be cut away."
+End         = scrap
+
+Name        = pawn
+PName       = pawn
+Oflags      { Destroyed }
+Location    = IN_ROOM:bishop3
+Size        = 3
+State       = 0
+Maxstate    = 1
+Desc[0]     = "A white chess pawn is here."
+Desc[1]     = "A black chess pawn is here."
+Examine     = "
+Though equally worthless, black pawns are more annoying than white ones."
+End         = pawn
+
+Name        = paint
+PName       = paint
+Oflags      { NoGet }
+Location    = IN_ROOM:bishop5
+Desc[0]     = "A wooden bucket of black paint stands here."
+Examine     = "Dyes R Us: Reliable coats for 40 years!"
+End         = paint
+
+Name        = vial1
+PName       = vial
+Oflags      { NoGet }
+Location    = IN_ROOM:bishop8
+Size        = 1
+Desc[0]     = " A clear vial containing sparkling effervescence is here."
+Examine     = "Flying is no hallucination once you are drunk."
+End         = vial1
+
+Name        = vial2
+PName       = vial
+Oflags      { Food Alcohol }
+Location    = IN_ROOM:bishop56
+Size        = 1
+Desc[0]     = "A clear vial containing a deep blue liquid is here."
+Examine     = "Flying will be no hallucination if you partake of me."
+End         = vial2
+
+Name        = cake
+PName       = cheesecake
+AltName     = cake
+Oflags      { Food }
+BValue      = 150
+Location    = IN_ROOM:bishop18
+Size        = 4
+Desc[0]     = "A slab of cheesecake is here."
+Examine     = "Eat me to return home."
+End         = cake
+
+Name        = sign
+PName       = sign
+Oflags      { NoGet }
+Location    = IN_ROOM:bishop5
+Desc[0]     = "A small sign is posted here."
+Examine     = "
+Some pieces of advice:
+1> If you get totally stuck and want to leave the zone without finishing the
+   quest, feel free to eat the cheesecake found in here. The vial and cake
+   will be set back to their starts to allow multiple entrances. The quest is
+   still designed for a single person, though.
+2> Remember, you may need to act like a priest, but do not abuse your
+   exorcising power.
+      -- Some unlucky schumck
+"
+End         = sign
+
+Name        = bishop
+PName       = bishop
+AltName     = figurine
+Oflags      { Destroyed }
+Location    = IN_ROOM:bishop10
+Desc[0]     = "
+A chess bishop carved of white marble is here."
+Examine     = "
+Two things of note to whoever accepts this figurine and the responsibility
+that goes with it...
+1) Monks are not very trusting. You will have to seek the proof shown by
+   the mouths of sacred animals at the gates of the monastery.
+2) At the altar put relics three, then this figurine of me.
+- Monsignour Crabapple"
+End         = bishop
+
+Name        = board
+PName       = chessboard
+AltName     = board
+Oflags      { NoGet }
+Location    = IN_ROOM:bishop10
+Desc[0]     = "
+A metallic chessboard with equally metallic pieces is here."
+Examine     = "The game appears to be missing a black pawn."
+End         = board
+
+Name        = door1
+PName       = door
+Oflags      { NoGet Openable }
+Location    = IN_ROOM:bishop14
+Linked      = door2
+State       = 1
+Maxstate    = 1
+Desc[0]     = "The door is open."
+Desc[1]     = "The door is closed."
+End         = door1
+
+Name        = door2
+PName       = door
+Oflags      { NoGet Openable }
+Location    = IN_ROOM:bishop15
+Linked      = door1
+State       = 1
+Maxstate    = 1
+Desc[0]     = "The door is open."
+Desc[1]     = "The door is closed."
+End         = door2
+
+Name        = doll
+PName       = doll
+Location    = IN_ROOM:bishop17
+BValue      = 50
+Size        = 7
+Armor       = 0
+Desc[0]     = "
+A child's doll with a stitched smile and a missing nose is here."
+End         = doll
+
+Name        = safekey
+PName       = safekey
+Oflags      { Destroyed }
+Location    = IN_ROOM:bishop17
+BValue      = 100
+Desc[0]     = "A thick silver safekey lies here."
+Examine     = "It will only fit one lock."
+End         = safekey
+
+Name        = safe
+PName       = safe
+Oflags      { NoGet }
+Location    = IN_ROOM:bishop20
+Size        = 80
+Armor       = 0
+State       = 0
+Maxstate    = 3
+Desc[0]     = "A heavy and thick-walled safe squats here."
+Desc[1]     = "A heavily dented safe squats here."
+Desc[2]     = "A dented safe with one missing door hinge squats here."
+Desc[3]     = "A cracked and dented safe squats here."
+Examine     = "Guaranteed protection from falls at great heights."
+End         = safe
+
+Name        = plaque
+PName       = plaque
+Oflags      { NoGet Destroyed }
+Location    = IN_ROOM:bishop20
+Armor       = 0
+Desc[0]     = "An engraved plaque rests on the safe."
+Examine     = "Take thine mighty hands of doom and bash away!"
+End         = plaque
+
+Name        = note
+PName       = note
+Oflags      { Food Destroyed }
+Location    = IN_ROOM:bishop20
+BValue      = 30
+Size        = 1
+Desc[0]     = "A note inscribed on an edible leaf is here."
+Examine     = "
+Seek ye the holy book bound in the natural process of photosynthesis."
+End         = note
+
+Name        = bible1
+PName       = bible
+AltName     = rooty
+Location    = IN_ROOM:bishop56
+BValue      = -300
+Size        = 4
+Desc[0]     = "A battered copy of the Korisla bible is here."
+Examine     = "
+The fine and gnarly roots on the cover have perfectly matching earth tones."
+End         = bible1
+
+Name        = bible2
+PName       = bible
+AltName     = flowery
+Location    = IN_ROOM:bishop56
+BValue      = -300
+Size        = 4
+Desc[0]     = "A battered copy of the Korisla bible is here."
+Examine     = "
+The pink and red array of flowers on the cover shines bright in the sun."
+End         = bible2
+
+Name        = bible3
+PName       = bible
+AltName     = relic
+BValue      = -300
+Size        = 4
+Location    = IN_ROOM:bishop56
+Desc[0]     = "A battered copy of the Korisla bible is here."
+Examine     = "
+The leaves capture the sunlight and convert it into food for the pages."
+End         = bible3
+
+Name        = altar
+PName       = altar
+Oflags      { NoGet }
+Location    = IN_ROOM:bishop30
+Armor       = 0
+Desc[0]     = "
+A marble altar devoted to the immortal rulers of Korisla sits here."
+Examine     = "
+Scrawled into the side of the altar is a plea for help from the bishops 
+of this monastery. The Archbishop has been taken control of by a 
+malevolent force and has defiled this temple by scattering the relics 
+across the land. If they are returned to thier sacred places upon this
+altar, then a bishop figurine on the altar will allow one to confront the
+turncoat Archbishop." 
+End         = altar
+
+Name        = stake
+PName       = stake
+Location    = CARRIED_BY:ghoul
+BValue      = 50
+Size        = 7
+Armor       = 1
+Desc[0]     = "A sharply pointed fence stake has been left here."
+Examine     = "This could tartare someone who tartares the innocent."
+End         = stake
+
+Name        = cross
+PName       = cross
+AltName     = relic
+Oflags      { Destroyed }
+Location    = IN_ROOM:bishop56
+Size        = 6
+State       = 0
+Maxstate    = 1
+Desc[0]     = "A broken cross is here."
+Desc[1]     = "A glowing cross is here."
+Examine     = "Looks like a repair shop could help this thing."
+End         = cross
+
+Name        = hydrogen
+PName       = hydrogen
+AltName     = bottle
+Location    = IN_ROOM:bishop45
+Size        = 4
+Desc[0]     = "A bottle of free-floating hydrogen gas is here."
+Examine     = "
+Water is an element of life, but life will grow in a weedy circle
+within the confines of the wetlands. Only can you light me there."
+End         = hydrogen
+
+Name        = blessing
+PName       = blessing
+Location    = CARRIED_BY:packrat
+Desc[0]     = "A blessing from the heavens is here."
+Examine     = "It can definitely purify freshly made water."
+End         = blessing
+
+Name        = condenser
+PName       = condenser
+Location    = CARRIED_BY:packrat
+Size        = 70
+Desc[0]     = "An all-purpose condenser is here."
+Examine     = "Cool annoying vapors in seconds!"
+End         = condenser
+
+Name        = vapor
+PName       = vapor
+AltName     = steam
+Oflags      { Destroyed }
+Location    = IN_ROOM:bishop52
+Desc[0]     = "A large cloud of steam swirls gently."
+End         = vapor
+
+Name        = water
+PName       = water
+AltName     = relic
+Oflags      { Destroyed }
+Location    = IN_ROOM:bishop56
+Size        = 5
+State       = 0
+Maxstate    = 1
+Desc[0]     = "
+A magical aquaglobe of water spins and sparkles through with sunlight."
+Desc[1]     = "
+A consecrated aquaglobe of water glistens with potent magical energy here."
+End         = water
+
+Name = exo_book
+Pname = book
+Oflags { }
+Location = IN_ROOM:bishop17
+Size = 3
+State = 0
+Desc[0] = "A book on exorcism has been left here."
+Examine = "It seems to be a how-to book on performing exorcisms.
+
+After making the proper preparations, one has to EXORCISE [target] to
+remove the horrid presence from their body."
+End = exo_book
+
+%locations
+
+bishop1 w:bottom@quarry e:bishop2;
+Lflags { Dark }
+Tunnel Passage^
+   A hand-carved passage wide enough for three people walking abreast 
+runs east and west here. The stony walls are composed of nearly pure limestone,
+with the few other trace components giving off an eerie blue glow and an
+occasional flash of green lightning as an unnatural source of underground
+electricity travels through them. Along the floor by these sides, a line
+of spiders moves steadily away from the east exit, where  the ground
+begins to slope upward. At various spots along the tunnel, a rocky crag
+will jut out and partially block the passageway like a person with a mild
+degree of arteriosclerosis. Water from underground springs and pools
+drains into this place and gradually eats away at the crags. This passage
+is still new, for there are no signs yet of the formation of stalactites
+or stalagmites. 
+^
+bishop2 w:bishop1 e:bishop3;
+Lflags { Dark }
+Tunnel Passage^
+   A hand-carved passage wide enough for three people walking abreast runs  
+east and west here. The stony walls are composed of nearly pure limestone, 
+with the few other trace components giving off an eerie blue glow and an 
+occasional flash of green lightning as an unnatural source of underground 
+electricity travels through them. Along the floor by these sides, a line 
+of spiders moves steadily away from the east exit, where the ground begins 
+to slope upward. At various spots along the tunnel, a rocky crag will jut
+out and partially block the passageway like a person with a mild degree 
+of arteriosclerosis. Water from underground springs and pools drains 
+into this place and gradually eats away at the crags. This passage is 
+still new, for there are no signs yet of the formation of stalactites or 
+stalagmites. 
+^
+bishop3 w:bishop2 u:bishop4;
+Lflags { Dark }
+Tunnel Slope^
+   The ground here is more treacherous on a hillside as it is now. Water 
+flows in small streams at high speed down the slope, washing away the 
+loose gravel and depositing calcium compounds. As a result, the ground 
+loses considerable traction, and movement can only be made safe by a 
+tricky dance of zigzagging and sidestepping. 
+^
+bishop4 d:bishop3 u:bishop5;
+Lflags { Dark }
+Tunnel Slope^
+   The ground here is more treacherous on a hillside as it is now. Water 
+flows in small streams at high speed down the slope, washing away the 
+loose gravel and depositing calcium compounds. As a result, the ground 
+loses considerable traction, and movement can only be made safe by a 
+tricky dance of zigzagging and sidestepping. 
+^
+bishop5 d:bishop4 e:bishop6;
+Lflags { Dark }
+Tunnel Slope^ 
+   The ground slopes sharply downward here, pouring the running water 
+almost in the style of a waterfall. The lightning on the walls flickers 
+madly as some of it is routed through the trickling rivers. Spots of 
+underground moss and lichen grow here, striped with earth tones and 
+glowing weakly whenever a pulse of electricity reaches them. To the 
+downside, the tunnel is virtually black despite the vegetation and 
+lightning. From the east a swirling vortex sucks remote, trace amounts 
+of dust into its core and tugs at the lichen. 
+^
+bishop6 w:bishop5 e:bishop8 n:bishop7 s:bishop7;
+Lflags { Dark }
+Vortex^
+   Fierce winds pull at your clothes and hair as the vortex slowly whirls 
+you around in circles. Lines of bright light emanate from various 
+points, streaking past like sun rays or lasers, but none contain enough 
+power to be threatening. One exit of this portal is to the west, leading 
+to a dark tunnel, and the lines of light squiggle in arrow formations 
+vectoring generally east and west. 
+^
+bishop7 d:bishop1;
+Lflags { Dark }
+Vortex^
+   Learn to follow directions when all horizons look the same.
+^
+bishop8 w:bishop6;
+Lflags { Dark }
+Vortex^
+   Fierce winds pull at your clothes and hair as the vortex slowly whirls 
+you around in circles. Lines of bright light emanate from various 
+points, streaking past like sun rays or lasers, but none contain enough 
+power to be threatening. Suddenly, the background drops away to reveal 
+only a single, supportive, rotating disc for the vortex travelers. The 
+wind also dies out, exposing the full nature of this unnatural emptiness.
+^
+bishop9;
+Lflags { Outdoors }
+Bird's-Eye View^
+   Clouds hang motionless in the bright blue sky which surrounds the 
+travelers disc. Also present among the softly-hued atmosphere are dark 
+green organic bodies from which long tentacles droop. When a native bird 
+or stray air current containing particles of plant matter brushes 
+against these tendrils, the agile limbs waste no time in capturing and 
+paralyzing. The bodies float on the air currents and vary enough in 
+altitude to allow safe passage down to a flat land scape.
+^
+bishop10 e:bishop11;
+Lflags { Outdoors NoMobiles }
+Circle of Cropped Grass^
+   A nearly perfect circle of cropped grass stands here in a remote area 
+of this prairie. Eleven steel chairs stand in a ring around the outer 
+edge, and on these chairs are bolted ankle, wrist, and neck shackles. In 
+front of each chair is a solid iron cup stained raspberry red from the 
+blood of human sacrifices performed here. There are no people currently 
+here, but small rivers of blood flow from the cups to a block of 
+hardened steel in the center of this circle. Eleven piles of bones 
+brittle with age and parched from the elements lay heaped individually, 
+where the are placed in such a way as to ward off visitors. The blood 
+trails follow up from the sides of this sacrilegious altar and are drunk 
+by the open mouths of the sightless skulls. 
+^
+bishop11 w:bishop10 e:bishop12;
+Lflags { Outdoors }
+Horizon Expanse^
+   Long, tall, thin grasses grow everywhere in this prairie, blowing in 
+the cross winds and shedding their pollen to the skies. Crickets chirp 
+from deep within the grass, forever only to be heard. Among the grasses 
+are also various types of grain. The wild herds of oxen and cows which 
+roam these plains live in utter bliss with the sheer amount of food 
+present around them. Spread throughout the prairie are patches set aside 
+by nature for extremely tall sunflowers. These circles of petals around 
+a darker core grow in unconcealed delight as they process the natural 
+radiation tossed down at them. 
+^
+bishop12 w:bishop11 n:bishop13 e:bishop21;
+Lflags { Outdoors }
+Three-Way Intersection^
+   A wide dirt road leads along two of the cardinal directions. Small 
+rocks line the road to prevent unwanted takeovers by the surrounding 
+grassy prairie. It is kept in seemingly good condition, as there are 
+fresh rake marks within the road. Dustdevils, footprints, and wagons 
+tend to leave the caretaker forever raking. 
+^
+bishop13 n:bishop14 s:bishop12;
+Lflags { Outdoors }
+Northern Road^
+   Long, tall, thin grasses grow everywhere in this prairie, blowing in 
+the cross winds and shedding their pollen to the skies. Crickets chirp 
+from deep within the grass, forever only to be heard. Among the grasses 
+are also various types of grain. The wild herds of oxen and cows which 
+roam these plains live in utter bliss with the sheer amount of food 
+present around them. Spread throughout the prairie are patches set aside 
+by nature for extremely tall sunflowers. These circles of petals around 
+a darker core grow in unconcealed delight as they process the natural 
+radiation tossed down at them. The fine dirt road leads south deeper 
+into the prairie and north to a cottage. 
+^
+bishop14 n:^door1 s:bishop13;
+Lflags { Outdoors }
+Front Porch^
+   A set of stairs lead up to a rickety wooden porch. A wall cover of ivy 
+drapes the supports of the house, and potted plants line the far side, 
+their leaves sprawled to receive the sunlight. Stained-glass windows 
+fill in their squarish panes, and a circle of branded designs encompass 
+the doorway. 
+^
+bishop15 s:^door2 n:bishop18 u:bishop16;
+Lflags { }
+Front Room^
+  The spirit of 'home sweet home' and nostalgia are ever-present in 
+here. On a brick fireplace mantle lay the small heirlooms of the dirt 
+road's caretaker - a whittled duck, a brass pair of night goggles, an 
+engraved necklace, and a leather coat-of-arms. Two rocking chairs, a 
+small desk, and a well-sanded desk, all made of wood, represent the main 
+complement of furniture. 
+^
+bishop16 d:bishop15 n:bishop17;
+Lflags { }
+Bedroom^
+   This is the private chamber of the caretaker, where his dreams take 
+place and start the process into real life. A full-length mirror is in 
+one corner, and a small dresser stands next to the bed. Stairs lead 
+down, while a doorway is to the north. 
+^
+bishop17 s:bishop16;
+Lflags { }
+Attic Space^
+   Not many shafts of sunlight penetrate the only window in this 
+junk-filled room - a few, small slats in a wooden circle. A footlocker 
+of an approximate 45 years of age lies open to reveal old military 
+dispatches, letters from long-gone people and their sweethearts, and 
+collectibles from faraway nations. Quilted pillow and embroidered linens 
+are wrapped in protective tarps and stacked neatly to one side of the 
+window. The air is slightly musty, but surprisingly dust free, as if the 
+room was swept on a daily basis.
+^
+bishop18 s:bishop15 d:bishop19;
+Lflags { }
+Back Room^
+   The kitchen and dining area is well-equipped with provisions, enough 
+to feed an army and provide a taxidermist with a well-stuffed 
+individual. Some cookware and ladles hang from wall hooks around a 
+central stove, which is connected directly to the ceiling. A long, black 
+pipe channels the smoke and steam of frying meals and boiling water to 
+the sky. A book of recipes stands on a podium for making extravagant and 
+gourmet dishes. In one corner lays the open trapdoor to a cellar. 
+^
+bishop19 s:bishop20 u:bishop18;
+Lflags { Dark }
+Stocked Cellar^
+   The dry goods of the house seem to manage themselves well in this dark 
+shelter. Wooden shelves with metal rivets line the boarded walls and 
+struts in here, supporting the many raw ingredients, salts, and spices 
+used by the caretaker. A large oaken door with elaborate cross-braces 
+lies open, and light filters in from the upstairs trapdoor. 
+^
+bishop20 n:bishop19;
+Lflags { Dark }
+Wine Cellar^
+   Vintages of many kinds of spirits, mainly comprised of the popular 
+brands of ale, brandy, and heavy sasprilla. Green, brown, and black 
+bottles are laid carefully on the wire racks to avoid breakage and 
+confusion when choosing an ideal drink for a given setting.
+^
+bishop21 w:bishop12 e:bishop22;
+Lflags { Outdoors }
+Horizon Expanse Pathway^
+   Long, tall, thin grasses grow everywhere in this prairie, blowing in 
+the cross winds and shedding their pollen to the skies. Crickets chirp 
+from deep within the grass, forever only to be heard. Among the grasses 
+are also various types of grain. The wild herds of oxen and cows which 
+roam these plains live in utter bliss with the sheer amount of food 
+present around them. Spread throughout the prairie are patches set aside 
+by nature for extremely tall sunflowers. These circles of petals around 
+a darker core grow in unconcealed delight as they process the natural 
+radiation tossed down at them. The raked roadway continues to the west 
+and east.
+^
+bishop22 w:bishop21 e:bishop23;
+Lflags { Outdoors  NoMobiles }
+Horizon Expanse Pathway^
+   Long, tall, thin grasses grow everywhere in this prairie, blowing in 
+the cross winds and shedding their pollen to the skies. Crickets chirp 
+from deep within the grass, forever only to be heard. Among the grasses 
+are also various types of grain. The wild herds of oxen and cows which 
+roam these plains live in utter bliss with the sheer amount of food 
+present around them. Spread throughout the prairie are patches set aside 
+by nature for extremely tall sunflowers. These circles of petals around 
+a darker core grow in unconcealed delight as they process the natural 
+radiation tossed down at them. The raked roadway continues to the west 
+and east.
+^
+bishop23 w:bishop22 e:bishop24;
+Lflags { Outdoors Peaceful }
+Monastery Gates^
+   The western archway of the Korisla Monastery has a three-headed dragon 
+with a bible in its mouth perched between the twin pairs of brick 
+turrets. Long wicker torches freshly dipped in pitch and dried are set 
+ready to provide an eternal firelight when the last traces of evil are 
+purged from the land. Perimeter guards from the more war-chivalrous 
+caste of the monastery are stationed in each turret to keep the order 
+and tranquillity both within and without. Beyond the gatehouse is a 
+garden on the inside and a plethora of open acreage on the outside.
+^
+bishop24 w:bishop23 e:bishop25 s:bishop29;
+Lflags { Outdoors }
+Korisla Gardens^
+   Bugs have feasted on some of the gigantic ferns present in here. 
+Winged insects hop from flower to flower, attracted by the petal color 
+and scent of nectar. The monks have grown this garden from seedlings and 
+lay down fresh dirt and mulch every spring. Pruning takes place in the 
+fall to allow the cycle of growth and rebirth to remain unbroken. Water 
+is fed from tens of small, elegantly carved fountains in the shape of 
+bison and dolphins. Paths lead in all directions from here, giving 
+access to private nooks within the leafy garden. Where one of the 
+perimeter walls stands, clumps of well-tended ivy provide a sense of 
+background and completion to the garden as well as a quick means of 
+scaling the wall in the monastery is attacked. 
+^
+bishop25 n:bishop30 e:bishop26 s:bishop28 w:bishop24;
+Lflags { Outdoors }
+Crossways^
+   The two main roads of the garden intersect here. The garden surrounds 
+everywhere except to the north, where the monastery place of worship 
+sits in a sheltered alcove. 
+^
+bishop26 e:bishop31 s:bishop27 w:bishop25;
+Lflags { Outdoors }
+Korisla Gardens^
+   Bugs have feasted on some of the gigantic ferns present in here. 
+Winged insects hop from flower to flower, attracted by the petal color 
+and scent of nectar. The monks have grown this garden from seedlings and 
+lay down fresh dirt and mulch every spring. Pruning takes place in the 
+fall to allow the cycle of growth and rebirth to remain unbroken. Water 
+is fed from tens of small, elegantly carved fountains in the shape of 
+bison and dolphins. Paths lead in all directions from here, giving 
+access to private nooks within the leafy garden. Where one of the 
+perimeter walls stands, clumps of well-tended ivy provide a sense of 
+background and completion to the garden as well as a quick means of 
+scaling the wall in the monastery is attacked. 
+^
+bishop27 n:bishop26 w:bishop28;
+Lflags { Outdoors }
+Korisla Gardens^
+   Bugs have feasted on some of the gigantic ferns present in here. 
+Winged insects hop from flower to flower, attracted by the petal color and 
+scent of nectar. The monks have grown this garden from seedlings and lay 
+down fresh dirt and mulch every spring. Pruning takes place in the fall 
+to allow the cycle of growth and rebirth to remain unbroken. Water is 
+fed from tens of small, elegantly carved fountains in the shape of bison 
+and dolphins. Paths lead in all directions from here, giving access to 
+private nooks within the leafy garden. Where one of the perimeter walls 
+stands, clumps of well-tended ivy provide a sense of background and 
+completion to the garden as well as a quick means of scaling the wall in 
+the monastery is attacked. 
+^
+bishop28 n:bishop25 e:bishop27 w:bishop29 s:bishop43;
+Lflags { Outdoors }
+Korisla Gardens^
+   Bugs have feasted on some of the gigantic ferns present in here. 
+Winged insects hop from flower to flower, attracted by the petal color 
+and scent of nectar. The monks have grown this garden from seedlings and 
+lay down fresh dirt and mulch every spring. Pruning takes place in the 
+fall to allow the cycle of growth and rebirth to remain unbroken. Water 
+is fed from tens of small, elegantly carved fountains in the shape of 
+bison and dolphins. Paths lead in all directions from here, giving 
+access to private nooks within the leafy garden. Where one of the 
+perimeter walls stands, clumps of well-tended ivy provide a sense of 
+background and completion to the garden as well as a quick means of 
+scaling the wall in the monastery is attacked. 
+^
+bishop29 n:bishop24 e:bishop28;
+Lflags { Outdoors }
+Korisla Gardens^
+   Bugs have feasted on some of the gigantic ferns present in here. 
+Winged insects hop from flower to flower, attracted by the petal color 
+and scent of nectar. The monks have grown this garden from seedlings and 
+lay down fresh dirt and mulch every spring. Pruning takes place in the 
+fall to allow the cycle of growth and rebirth to remain unbroken. Water 
+is fed from tens of small, elegantly carved fountains in the shape of 
+bison and dolphins. Paths lead in all directions from here, giving
+access to private nooks within the leafy garden. Where one of the
+perimeter walls stands, clumps of well-tended icy provide a sense of
+background and completion to the garden as well as a quick means of
+scaling the wall if the monastery is attacked.
+^
+bishop30 s:bishop25;
+Lflags { Private NoAt Soundproof NoSummon NoMobiles }
+Garden Alcove^
+   This is where the monks gather to pray on a daily basis. The wide 
+semicircle of the alcove allows them to pay homage to a minor deity, the 
+one which supports life in this area of the world. There is a marble 
+altar as the centerpiece of this arrangement of stone pews with three 
+indentations in it. However, the monastery's religious artifacts are not 
+present here. Normally, the Archbishop of the monks would be here 
+himself to protect to artifacts, but the bishop has gone missing for 
+days now. 
+^
+bishop31 w:bishop26 e:bishop32;
+Lflags { Outdoors Peaceful }
+Monastery Gates^
+   The eastern archway of the Korisla Monastery has a two-headed sea 
+serpent with a glowing cross in its mouth perched between the twin 
+pairs of brick turrets. Long wicker torches freshly dipped in pitch and 
+dried are set ready to provide an eternal firelight when the last traces 
+of evil are purged from the land. Perimeter guards from the more 
+war-chivalrous caste of the monastery are stationed in each turret to 
+keep the order and tranquillity both within and without. Beyond the 
+gatehouse is a garden on the inside and a plethora of open acreage on 
+the outside. 
+^
+bishop32 w:bishop31 e:bishop33;
+Lflags { Outdoors NoMobiles }
+Horizon Expanse Pathway^
+   Long, tall, thin grasses grow everywhere in this prairie, blowing in 
+the cross winds and shedding their pollen to the skies. Crickets chirp 
+from deep within the grass, forever only to be heard. Among the grasses 
+are also various types of grain. The wild herds of oxen and cows which 
+roam these plains live in utter bliss with the sheer amount of food 
+present around them. Spread throughout the prairie are patches set aside 
+by nature for extremely tall sunflowers. These circles of petals around
+a darker core grow in unconcealed delight as they process the natural 
+radiation tossed down at them. The raked roadway continues to the west 
+and east. Here the roadway is unkempt, and the eastern skyline is as 
+black as night. 
+^
+bishop33 w:bishop32 e:bishop34;
+Lflags { Outdoors }
+Horizon Expanse Pathway^
+   The fertile and rolling plains are broken by sporadic patches of 
+thorny briars and seven foot tall thistles. The road becomes pitted with 
+rocks and holes, turning the terrain into a weed-consumed landscape. 
+Dead tangles of ivy and poison oak grow in increasing quantities, their 
+long, brown-leafed vines winding around a pair of rusty iron gates to 
+the east. 
+^
+bishop34 w:bishop33 e:bishop35 n:bishop41;
+Lflags { Outdoors NoMobiles }
+Cemetery Gates^
+   Creaking and squeaking in the voluminous amount of wind which whips 
+across the cemetery barrier, a spiked iron gate with central hump spans 
+the distance between two cracked and chipped pillars of weathered stone. 
+A rusted and broken lock on an equally rusty chain once held the two 
+halves of the gate together. Above this lock is fashioned the likeness 
+of a scaly, one-eyed lizard, its extended tongue letting loose 
+flickering green lightning. These high-voltage bolt of electricity shoot 
+diagonally upwards to the top of the pillars, where it is absorbed by 
+metal balls which glow weakly with each influx of energy. At the base of 
+the gate, not daring to venture into the unyielding goodness of the 
+prairie, is a foot-thick layer of violently swirling gray fog. 
+^
+bishop35 w:bishop34 e:bishop36 n:bishop39;
+Lflags { Outdoors }
+Druid Cemetery^
+   A broken and leaf-littered pathway of dried, cracked earth wends its 
+way among a maze of crumbling tombstones and moldy ground. Damp moss 
+hangs in tatters from bare, rotting, bug-infested tree branches and 
+periodically drops to be swallowed by the fog layer. Few are the musical 
+tones generated by crickets when the cackling howls of banshees ride the 
+wind. Due to a perpetual cloud of evil black smoke, the cemetery is kept 
+in shrouded darkness. Green lightning pass through this cloak in sheets, 
+flashing momentarily and letting the dozens of gore-stained poles 
+staggered throughout the graveyard shine in dismal glory. The poles 
+contain the bodies of Korisla monks slain in a decisive war, where each 
+victim has been magically reanimated, impaled once, then folded over 
+backwards and impaled again, forming human shish-ka-bobs. 
+^
+bishop36 w:bishop35;
+Lflags { Dark }
+Cemetery Shop^
+   This ramshackle shed was once the place where the tenders of the dark 
+cemetery repaired their caskets, coffins, and tombstones. Other 
+artifacts had been brought in to be fixed or detailed, but now lay in 
+discarded piles of rusting garbage. 
+^
+bishop37 w:bishop39 n:bishop38;
+Lflags { Outdoors }
+Druid Cemetery^
+   A broken and leaf-littered pathway of dried, cracked earth wends its 
+way among a maze of crumbling tombstones and moldy ground. Damp moss 
+hangs in tatters from bare, rotting, bug-infested tree branches and 
+periodically drops to be swallowed by the fog layer. Few are the musical 
+tones generated by crickets when the cackling howls of banshees ride the 
+wind. Due to a perpetual cloud of evil black smoke, the cemetery is kept 
+in shrouded darkness. Green lightning pass through this cloak in sheets, 
+flashing momentarily and letting the dozens of gore-stained poles 
+staggered throughout the graveyard shine in dismal glory. The poles 
+contain the bodies of Korisla monks slain in a decisive war, where each 
+victim has been magically reanimated, impaled once, then folded over 
+backwards and impaled again, forming human shish-ka-bobs. 
+^
+bishop38 s:bishop37;
+Lflags { Dark }
+Eastern Crypt^
+   The body of a high druid priest was incarcerated here nearly 500 years 
+ago. His mummified remains occupy an engraved sarcophagus set atop a 
+marble pedestal in the pit of the crypt. The air is fresh as the crypt 
+was broken open and plundered many years back, but equally fresh rodent 
+and snake droppings confirm that there are still visitors here. 
+^
+bishop39 n:bishop40 e:bishop37 s:bishop35 w:bishop41;
+Lflags { Outdoors }
+Circle of Gravestones^
+   A raised ring of graves is set in a clearing here, perfectly spaced 
+from each other and having the same length. In the center of this circle 
+stands a small plinth made of oozing blood. The flow of this liquid of 
+life is kept going by a dark blue fireball on the top of the plinth, 
+which shoots out random arcs of green lightning. Surrounding the 
+tombstone perimeter of the circles are offering bowls jammed with 
+platinum coins and pearl amulets, their lustrous qualities having long 
+since degraded. 
+^
+bishop40 s:bishop39;
+Lflags { Dark }
+Middle Crypt^
+   The body of a high druid priest was incarcerated here nearly 500 years 
+ago. His mummified remains occupy an engraved sarcophagus set atop a 
+marble pedestal in the pit of the crypt. The air is fresh as the crypt 
+was broken open and plundered many years back, but equally fresh rodent 
+and snake droppings confirm that there are still visitors here. 
+^
+bishop41 e:bishop39 n:bishop42 s:bishop34;
+Lflags { Outdoors }
+Druid Cemetery^
+   A broken and leaf-littered pathway of dried, cracked earth wends its 
+way among a maze of crumbling tombstones and moldy ground. Damp moss 
+hangs in tatters from bare, rotting, bug-infested tree branches and 
+periodically drops to be swallowed by the fog layer. Few are the musical 
+tones generated by crickets when the cackling howls of banshees ride the 
+wind. Due to a perpetual cloud of evil black smoke, the cemetery is kept 
+in shrouded darkness. Green lightning pass through this cloak in sheets, 
+flashing momentarily and letting the dozens of gore-stained poles 
+staggered throughout the graveyard shine in dismal glory. The poles 
+contain the bodies of Korisla monks slain in a decisive war, where each 
+victim has been magically reanimated, impaled once, then folded over 
+backwards and impaled again, forming human shish-ka-bobs. 
+^
+bishop42 s:bishop41;
+Lflags { Dark }
+Western Crypt^
+   The body of a high druid priest was incarcerated here nearly 500 years 
+ago. His mummified remains occupy an engraved sarcophagus set atop a 
+marble pedestal in the pit of the crypt. The air is fresh as the crypt 
+was broken open and plundered many years back, but equally fresh rodent 
+and snake droppings confirm that there are still visitors here. 
+^
+bishop43 n:bishop28 s:bishop44;
+Lflags { Outdoors Peaceful }
+Monastery Gates^
+   The southern archway of the Korisla Monastery has a prehistoric lion 
+with a potion of holy water in its mouth perched between the twin pairs 
+of brick turrets. Long wicker torches freshly dipped in pitch and dried 
+are set ready to provide an eternal firelight when the last traces of 
+evil are purged from the land. Perimeter guards from the more 
+war-chivalrous caste of the monastery are stationed in each turret to 
+keep the order and tranquillity both within and without. Beyond the 
+gatehouse is a garden on the inside and a plethora of open acreage on 
+the outside. 
+^
+bishop44 n:bishop43 s:bishop45;
+Lflags { Outdoors NoMobiles }
+Horizon Expanse Trail^
+   Long, tall, thin grasses grow everywhere in this prairie, blowing in 
+the cross winds and shedding their pollen to the skies. Crickets chirp 
+from deep within the grass, forever only to be heard. Among the grasses 
+are also various types of grain. The wild herds of oxen and cows which 
+roam these plains live in utter bliss with the sheer amount of food 
+present around them. Spread throughout the prairie are patches set aside 
+by nature for extremely tall sunflowers. These circles of petals around 
+a darker core grow in unconcealed delight as they process the natural 
+radiation tossed down at them. 
+^
+bishop45 n:bishop44 s:bishop46;
+Lflags { Outdoors }
+Horizon Expanse Trail^
+   Long, tall, thin grasses grow everywhere in this prairie, blowing in 
+the cross winds and shedding their pollen to the skies. Crickets chirp 
+from deep within the grass, forever only to be heard. Among the grasses 
+are also various types of grain. The wild herds of oxen and cows which 
+roam these plains live in utter bliss with the sheer amount of food 
+present around them. Spread throughout the prairie are patches set aside 
+by nature for extremely tall sunflowers. These circles of petals around 
+a darker core grow in unconcealed delight as they process the natural 
+radiation tossed down at them. 
+^
+bishop46 n:bishop45 s:bishop47;
+Lflags { Outdoors }
+Muddy Trail^
+   The southern edge of the prairie borders on a wide river going through 
+the plains and marks the boundary between dry fields and marshlands. 
+This section of the trail is a muddy mixture of dirt and clay. 
+Footprints and pawprints give evidence of the small cats, rodents, and 
+marsupials who roam this land. 
+^
+bishop47 n:bishop46 e:bishop48 w:bishop54 s:bishop55;
+Lflags { Outdoors }
+Marshlands^
+   Tall reeds and algae are the main forms of vegetation here, the latter 
+surrounding islands built out of the former. Dry land is not always easy 
+to find, but neither is the network of river water very deep. The ground 
+is remarkably flat and allows no shelter from the cross winds that blow 
+in from the east. Crawdads and skitter bugs swim the stretches of dark 
+blue between their spawning nests and favorite places to gather food. 
+Some parts of the river break off into slowly stirring eddies and pull 
+in bits of plant and dirt.
+^
+bishop48 w:bishop47 s:bishop49;
+Lflags { Outdoors }
+Marshlands^
+   Tall reeds and algae are the main forms of vegetation here, the latter 
+surrounding islands built out of the former. Dry land is not always easy 
+to find, but neither is the network of river water very deep. The ground 
+is remarkably flat and allows no shelter from the cross winds that blow 
+in from the east. Crawdads and skitter bugs swim the stretches of dark 
+blue between their spawning nests and favorite places to gather food. 
+Some parts of the river break off into slowly stirring eddies and pull 
+in bits of plant and dirt.
+^
+bishop49 n:bishop48 s:bishop50 w:bishop55;
+Lflags { Outdoors }
+Korisla Bog^
+   The marsh grows much wetter here, where every footstep squishes in two 
+inches of mud. The 'firm ground' consists of small mounds of stinking 
+mire, located admist two-foot deep trenches of water. Vile methane swamp 
+gas hisses forth from subterranean geysers of bubbling muck, and swamp 
+mosquitoes buzz angrily around these explosions. Snakes and a few 
+spiders are also resident here to breed within the warmth of the 
+geysers. As the many trenches of the river converge into a pool, the 
+ground suddenly drops into a pit, and no living thing has ever escaped 
+from these quicksand-like holes. Vegetation is limited to tufts of 
+sickly brown grass and decaying weeds. On a nearby hill of sludge, those 
+tufts are arranged sporadically in a rhombus. 
+^
+bishop50 n:bishop49 w:bishop51;
+Lflags { Outdoors }
+Korisla Bog^
+   The marsh grows much wetter here, where every footstep squishes in two 
+inches of mud. The 'firm ground' consists of small mounds of stinking 
+mire, located admist two-foot deep trenches of water. Vile methane swamp 
+gas hisses forth from subterranean geysers of bubbling muck, and swamp 
+mosquitoes buzz angrily around these explosions. Snakes and a few 
+spiders are also resident here to breed within the warmth of the 
+geysers. As the many trenches of the river converge into a pool, the 
+ground suddenly drops into a pit, and no living thing has ever escaped 
+from these quicksand-like holes. Vegetation is limited to tufts of 
+sickly brown grass and decaying weeds. On a nearby hill of sludge, those 
+tufts are arranged sporadically in a rhombus. 
+^
+bishop51 n:bishop55 e:bishop50 w:bishop52;
+Lflags { Outdoors }
+Korisla Bog^
+   The marsh grows much wetter here, where every footstep squishes in two 
+inches of mud. The 'firm ground' consists of small mounds of stinking 
+mire, located admist two-foot deep trenches of water. Vile methane swamp 
+gas hisses forth from subterranean geysers of bubbling muck, and swamp 
+mosquitoes buzz angrily around these explosions. Snakes and a few 
+spiders are also resident here to breed within the warmth of the 
+geysers. As the many trenches of the river converge into a pool, the 
+ground suddenly drops into a pit, and no living thing has ever escaped 
+from these quicksand-like holes. Vegetation is limited to tufts of 
+sickly brown grass and decaying weeds. On a nearby hill of sludge, those 
+tufts are arranged sporadically in a rhombus. 
+^
+bishop52 n:bishop53 e:bishop51;
+Lflags { Outdoors }
+Korisla Bog^
+   The marsh grows much wetter here, where every footstep squishes in two 
+inches of mud. The 'firm ground' consists of small mounds of stinking 
+mire, located admist two-foot deep trenches of water. Vile methane swamp 
+gas hisses forth from subterranean geysers of bubbling muck, and swamp 
+mosquitoes buzz angrily around these explosions. Snakes and a few 
+spiders are also resident here to breed within the warmth of the 
+geysers. As the many trenches of the river converge into a pool, the 
+ground suddenly drops into a pit, and no living thing has ever escaped 
+from these quicksand-like holes. Vegetation is limited to tufts of 
+sickly brown grass and decaying weeds. On a nearby hill of sludge, an 
+unusal tropical array of flowers are arranged sporadically in a circle. 
+^
+bishop53 n:bishop54 s:bishop52 e:bishop55;
+Lflags { Outdoors }
+Korisla Bog^
+   The marsh grows much wetter here, where every footstep squishes in two 
+inches of mud. The 'firm ground' consists of small mounds of stinking 
+mire, located admist two-foot deep trenches of water. Vile methane swamp 
+gas hisses forth from subterranean geysers of bubbling muck, and swamp 
+mosquitoes buzz angrily around these explosions. Snakes and a few 
+spiders are also resident here to breed within the warmth of the 
+geysers. As the many trenches of the river converge into a pool, the 
+ground suddenly drops into a pit, and no living thing has ever escaped 
+from these quicksand-like holes. Vegetation is limited to tufts of 
+sickly brown grass and decaying weeds. On a nearby hill of sludge, those 
+tufts are arranged sporadically in a rhombus. 
+^
+bishop54 e:bishop47 s:bishop53;
+Lflags { Outdoors }
+Marshlands^
+   Tall reeds and algae are the main forms of vegetation here, the latter 
+surrounding islands built out of the former. Dry land is not always easy 
+to find, but neither is the network of river water very deep. The ground 
+is remarkably flat and allows no shelter from the cross winds that blow 
+in from the east. Crawdads and skitter bugs swim the stretches of dark 
+blue between their spawning nests and favorite places to gather food. 
+Some parts of the river break off into slowly stirring eddies and pull 
+in bits of plant and dirt.
+^
+bishop55 n:bishop47 e:bishop49 s:bishop51 w:bishop53;
+Lflags { Outdoors }
+Korisla Bog^
+   The marsh grows much wetter here, where every footstep squishes in two 
+inches of mud. The 'firm ground' consists of small mounds of stinking 
+mire, located admist two-foot deep trenches of water. Vile methane swamp 
+gas hisses forth from subterranean geysers of bubbling muck, and swamp 
+mosquitoes buzz angrily around these explosions. Snakes and a few 
+spiders are also resident here to breed within the warmth of the 
+geysers. As the many trenches of the river converge into a pool, the 
+ground suddenly drops into a pit, and no living thing has ever escaped 
+from these quicksand-like holes. Vegetation is limited to tufts of 
+sickly brown grass and decaying weeds. On a nearby hill of sludge, those 
+tufts are arranged sporadically in a rhombus. 
+^
+bishop56;
+lflags { Death }
+&+RChamber of the Damned^
+  This particular void holds the bishop zone junk until needed!
+^

@@ -1,0 +1,2912 @@
+
+
+
+
+%mobiles
+
+Name        = adjudicator
+Pname       = "The adjudicator"
+Location    = rome1
+Strength    = 200
+Damage      = 19
+Aggression  = 0
+Speed       = 0
+Description = "The adjudicator is watching the games intently."
+Examine     = "
+The adjudicator is a retired gladiator and scars cover all exposed parts of his
+body.  Although he is getting on in years, he remains healthy and fit."
+End         = adjudicator
+
+Name        = scorekeeper
+Pname       = "The Scorekeeper"
+Location    = rome1
+Strength    = 150
+Damage      = 15
+Aggression  = 0
+Speed       = 0
+Description = "A scorekeeper has one eye on his stopwatch and the other on a clipboard."
+Examine     = "
+The scorekeeper is a young man of about 25 years of age and is very intently
+studying his clipboard."
+End         = scorekeeper
+
+Name        = Demetrius
+Location    = rome3
+Strength    = 70
+Damage      = 8
+Aggression  = 0
+Speed       = 0
+Description = "A filthy spectator is here watching the games."
+Examine     = "
+The spectator is filthy, half drunk and screaming his head off."
+End         = Demetrius
+
+Name        = Balorus
+Location    = rome4
+Strength    = 50
+Damage      = 10
+Aggression  = 0
+Speed       = 0
+Description = "A spectator is here watching the games."
+Examine     = "
+The spectator is filthy, half drunk and screaming his head off."
+End         = Balorus
+
+Name        = Saturninus
+Location    = rome8
+Strength    = 50
+Damage      = 10
+Aggression  = 0
+Speed       = 0
+Description = "A spectator is here watching the games."
+Examine     = "
+The spectator is filthy, half drunk and screaming his head off."
+End         = Saturninus
+
+Name        = Bassianus
+Location    = rome21
+Strength    = 50
+Damage      = 10
+Aggression  = 0
+Speed       = 0
+Description = "A spectator is here watching the games."
+Examine     = "
+The spectator is filthy, half drunk and screaming his head off."
+End         = Bassianus
+
+Name        = Quintus
+Location    = rome23
+Strength    = 50
+Damage      = 10
+Aggression  = 0
+Speed       = 0
+Description = "A drunken spectator is screaming his head off."
+Examine     = "
+The spectator is filthy, half drunk and screaming his head off."
+End         = Quintus
+
+Name        = nobleman
+Pname       = "The Nobleman"
+Location    = rome2
+Strength    = 100
+Damage      = 10
+Aggression  = 0
+Speed       = 1
+Description = "The nobleman stands here looking aloof."
+Examine     = "
+The nobleman is dressed in fine clothes and jewelry and has a very snobbish
+attitude.  While he is getting old and his hair and beard are streaked with
+gray, he is by no means an easy target."
+End         = nobleman
+
+Name        = Valentine
+Location    = rome21
+Strength    = 40
+Damage      = 5
+Aggression  = 0
+Speed       = 0
+Description = "A slave stands here, wishing that she was free."
+Sflags        { Female }
+Examine     = "
+A very pretty young woman who was captured instead of being killed when the
+Roman legions subjugated her land."
+End         = Valentine
+
+Name        = Lavinia
+Location    = rome6
+Strength    = 40
+Damage      = 5
+Aggression  = 0
+Speed       = 0
+Description = "A slave stands here, wishing that she was free."
+Sflags        { Female }
+Examine     = "
+A very pretty young woman who was captured instead of being killed when the
+Roman legions subjugated her land."
+End         = Lavinia
+
+Name        = Lucretia
+Location    = rome49
+Strength    = 60
+Damage      = 6
+Aggression  = 0
+Speed       = 0
+Description = "A slave stands here waiting for her master."
+Sflags        { Female }
+Examine     = "
+A very pretty young woman who was captured instead of being killed when the
+Roman legions subjugated her land."
+End         = Lucretia
+
+Name        = gladiator
+Pname       = "The Gladiator"
+Location    = rome10
+Strength    = 150
+Damage      = 25
+Aggression   = 1
+Speed       = 0
+Armor       = 10
+Description = "There is a gladiator standing here."
+Examine     = "
+A well muscled man who is very heavily armored and armed to the teeth.  He
+lives for combat."
+End         = gladiator
+
+Name        = driver
+Pname       = "The Driver"
+Location    = rome16
+Strength    = 90
+Damage      = 11
+Aggression  = 0
+Speed       = 0
+Armor       = 5
+Description  = "There is a chariot driver here."
+Examine     = "
+You see a very slight and small individual whose whole life is centered around
+nothing but horses and speed."
+End         = driver
+
+Name        = coach
+Pname       = "The Coach"
+Location    = rome9
+Strength    = 100
+Damage      = 15
+Aggression  = 0
+Speed       = 5
+Armor       = 0
+Description = "There is a coach standing here, going over last minute strategy."
+End         = coach
+
+Name        = doctor
+Pname       = "The Doctor"
+Location    = rome11
+Strength    = 100
+Damage      = 10
+Aggression  = 0
+Armor       = 0
+Speed       = 0
+Description = "A doctor is standing here."
+Examine     = "
+You see a young man, just out of med school, wearing a white coat and using
+a stethoscope."
+End         = doctor
+
+Name        = nurse
+Pname       = "A nurse"
+Location    = rome11
+Strength    = 80
+Damage      = 12
+Armor       = 10
+Aggression   = 0
+Speed       = 0
+Description = "There is a beautiful nurse standing here."
+Sflags        { Female }
+Examine     = "
+The nurse is a very beautiful young lady who is about 22 years old.  She has
+deep brown eyes and shoulder-length chestnut hair.  Her body is perfectly 
+proportioned and she stands about five feet tall."
+End         = nurse
+
+Name        = Lartius
+Location    = rome6
+Strength    = 200
+Damage      = 20
+Armor       = 20
+Aggression   = 0
+Speed       = 0
+Description = "Lartius, Titus's shopkeeper, is here, minding the store."
+Examine     = "
+The shopkeeper is an older man in his middle to late fifties and looks like
+he enjoys the quiet life.  There is a long scar running from the edge of his
+mouth to his right ear, making it look like he is always smiling."
+End         = Lartius
+
+Name        = Junius
+Location    = rome32
+Strength    = 40
+Damage      = 5
+Armor       = 0
+Aggression   = 0
+Speed       = 5
+Description = "A poor peddler is standing here, trying to support his meager existence."
+Examine     = "
+You see a small, dirty man who doesn't look very healthy."
+End         = Junius
+
+Name        = Boetius
+Location    = rome43
+Strength    = 40
+Damage      = 5
+Armor       = 0
+Aggression   = 0
+Speed       = 5
+Description = "A fat peddler is standing here, trying to support his meager(?) existence."
+Examine     = "
+You see a small, dirty man who doesn't look very healthy."
+End         = Boetius
+
+Name        = Marcius
+Location    = rome43
+Strength    = 50
+Damage      = 5
+Armor       = 0
+Aggression  = 0
+Speed       = 5
+Description = "A haggard peddler is standing here, trying to support his meager existence."
+Examine     = "
+You see a small, dirty man who doesn't look very healthy."
+End         = Marcius
+
+Name        = Marcia
+Location    = rome6
+Sflags 	{ Female }
+Strength    = 40
+Damage      = 10
+Armor       = 0
+Aggression  = 0
+Speed       = 5
+Description = "A small peddler is standing here, trying to support her meager existence."
+Examine     = "
+You see a small, dirty woman who doesn't look very healthy."
+End         = Marcia
+
+Name        = Colonius
+Location    = rome40
+Strength    = 50
+Damage      = 5
+Armor       = 0
+Aggression  = 0
+Speed       = 5
+Description = "A poor peddler is standing here, trying to support his meager existence."
+Examine     = "
+You see a small, dirty man who doesn't look very healthy."
+End         = Colonius
+
+Name        = page
+Pname       = "A Page"
+Location    = rome43
+Strength    = 100
+Damage      = 7
+Armor       = 0
+Aggression  = 0
+Speed       = 0
+Description = "A page stands here, waiting to run an errand."
+Examine     = "
+You see a young boy who looks very strong and very fast.  He has the look of
+a scholar about him."
+End         = page
+
+Name        = plaintiff
+Pname       = "The Plaintiff"
+Location    = rome50
+Strength    = 200
+Damage      = 14
+Armor       = 0
+Aggression  = 0
+Speed       = 0
+Description = "The plaintiff stands here, pleading his case."
+End         = plaintiff
+
+Name        = Tullus
+Location    = rome25
+Strength    = 150
+Damage      = 11
+Armor       = 0
+Aggression  = 0
+Speed       = 0
+Description = "A ticket master is here, looking at you expectantly."
+End         = Tullus
+
+Name        = Aufidius
+Location    = rome4
+Strength    = 80
+Damage      = 13
+Armor       = 0
+Aggression  = 0
+Speed       = 8
+Description = "A stadium vendor is walking here, selling overpriced hotdogs and beer."
+Examine     = "
+The vendor is a scruffy looking man who isn't afraid of a fight and looks like
+he's had just about enough of smart-mouthed spectators."
+End         = Aufidius
+
+Name        = Sicinius
+Location    = rome8
+Strength    = 90
+Damage      = 12
+Armor       = 0
+Aggression   = 0
+Speed       = 8
+Description = "A stadium vendor is walking here, selling ice cream and candy bars."
+Examine     = "
+The vendor is a scruffy looking man who isn't afraid of a fight and looks like
+he's had just about enough of smart-mouthed spectators."
+End         = Sicinius
+
+Name        = Cominius
+Location    = rome23
+Strength    = 90
+Damage      = 5
+Armor       = 0
+Aggression  = 0
+Speed       = 6
+Description = "A citizen of Rome is standing here."
+End         = Cominius
+
+Name        = Dominius
+Location    = rome12
+Strength    = 190
+Damage      = 5
+Armor       = 0
+Aggression  = 0
+Speed       = 16
+Description = "A citizen of Rome is standing here."
+End         = Dominius
+
+Name        = Trebonius
+Location    = rome32
+Strength    = 190
+Damage      = 5
+Armor       = 0
+Aggression  = 0
+Speed       = 16
+Description = "A citizen of Rome is here."
+End         = Trebonius
+
+Name        = Lucullus
+Location    = rome21
+Strength    = 90
+Damage      = 5
+Armor       = 0
+Aggression  = 0
+Speed       = 6
+Description = "A citizen of Rome is standing here."
+End         = Lucullus
+
+Name        = Tonnus
+Location    = rome31
+Strength    = 300
+Damage      = 25
+Mflags  { Thief }
+Armor       = 0
+Aggression  = 0
+Speed       = 10
+Description = "Tonnus Rooverus, public enemy no. 1, is sneaking around, trying
+to take something away from you."
+End         = Tonnus
+
+Name        = Marcus
+Location    = rome32
+Strength    = 200
+Damage      = 23
+Armor       = 0
+Aggression  = 0
+Speed       = 10
+Description = "Marcus Dupus is trying to find out how he can install Turbo Pascal."
+End         = Marcus
+
+Name        = gateguard_1
+Pname       = "Popilius"
+Location    = rome51
+Strength    = 200
+Damage      = 20
+Armor       = 20
+Aggression  = 0
+Speed       = 0
+Description = "A gateguard stands here, tending the gate."
+Examine     = "
+You see a strong, loyal public defender."
+End         = gateguard_1
+
+Name        = gateguard_2
+Pname       = "Octavius"
+Location    = rome29
+Strength    = 200
+Damage      = 20
+Armor       = 20
+Aggression  = 0
+Speed       = 0
+Description = "A gateguard stands here, tending the gate."
+Examine     = "
+You see a strong, loyal public defender."
+End         = gateguard_2
+
+Name        = gateguard_3
+Pname       = "Ligarius"
+Location    = rome35
+Strength    = 200
+Damage      = 20
+Armor       = 20
+Aggression   = 0
+Speed       = 0
+Description = "A gateguard stands here, tending the gate."
+Examine     = "
+You see a strong, loyal public defender."
+End         = gateguard_3
+
+Name        = gateguard_4
+Pname       = "Decius"
+Location    = rome5
+Strength    = 200
+Damage      = 20
+Armor       = 20
+Aggression   = 0
+Speed       = 0
+Description = "A gateguard stands here, tending the gate."
+Examine     = "
+You see a strong, loyal public defender."
+End         = gateguard_4
+
+Name        = Adrianus
+Location    = rome6
+Strength    = 250
+Damage      = 20
+Armor       = 0
+Aggression   = 0
+Speed       = 10
+Description = "A soldier on leave is walking around."
+Examine     = "
+You see a member of one of the emperor's elite legions.  He looks VERY strong."
+End         = Adrianus
+
+Name        = Marullus
+Location    = rome42
+Strength    = 250
+Damage      = 20
+Armor       = 0
+Aggression   = 0
+Speed       = 10
+Description = "A soldier on leave is walking around."
+Examine     = "
+You see a member of one of the emperor's elite legions.  He looks VERY strong."
+End         = Marullus
+
+Name        = Sempronius
+Location    = rome45
+Strength    = 251
+Damage      = 15
+Armor       = 0
+Aggression   = 0
+Speed       = 5
+Description = "A soldier on leave is walking around."
+Examine     = "
+You see a member of one of the emperor's elite legions.  He looks VERY strong."
+End         = Sempronius
+
+Name        = Martius
+Location    = rome51
+Strength    = 251
+Damage      = 15
+Armor       = 0
+Aggression   = 0
+Speed       = 5
+Description = "A soldier on leave is wandering around."
+Examine     = "
+You see a member of one of the emperor's elite legions.  He looks VERY strong."
+End         = Martius
+
+Name        = Aemilius
+Location    = rome30
+Strength    = 251
+Damage      = 15
+Armor       = 0
+Aggression   = 0
+Speed       = 5
+Description = "A soldier on leave is looking for a nice pub to spend his pay in."
+Examine     = "
+You see a member of one of the emperor's elite legions.  He looks VERY strong."
+End         = Aemilius
+
+Name        = Caesar
+Location    = rome36
+Strength    = 300
+Damage      = 20
+Armor       = 20
+Aggression   = 0
+Speed       = 0
+Description = "Julius Caesar, the emperor of Rome is sitting here."
+Examine     = "
+You see a man who is dressed in the finest of clothes, has eaten the best of
+foods and lived in the most opulent palace that Rome has ever known."
+End         = Caesar
+
+Name        = Velutus
+Location    = rome36
+Strength    = 500 
+Damage      = 22
+Armor       = 10
+Aggression   = 100
+Speed       = 0
+Description = "There is a royal bodyguard here, ready to die for the emperor, if necessary."
+Examine     = "
+The bodyguard is dressed in the finest of armor and wields only the
+deadliest of weapons.  He is very strong and would put up one hell of a
+fight."
+End         = Velutus
+
+Name        = judge
+Pname       = "The Judge"
+Location    = rome55
+Strength    = 250
+Damage      = 25
+Armor       = 25
+Aggression   = 0
+Speed       = 0
+Description = "A judge is standing here, reading a case."
+End         = judge
+
+Name        = scheduler
+Pname       = "The Scheduler"
+Location    = rome43
+Strength    = 250
+Damage      = 25
+Armor       = 15
+Aggression   = 0
+Speed       = 0
+Description = "The master scheduler is here, writing in an appointment book."
+End         =  scheduler
+
+Name        = slimeball
+Pname       = "A Slimeball"
+Location    = rome57
+Strength    = 1000
+Damage      = 30
+Armor       = 20
+Aggression   = 50
+Sflags  { NoBody }
+Speed       = 2
+Description = "There is a slippery slimeball here."
+Examine     = "
+There is a green ball of slime oozing from the coating on the walls."
+End         = slimeball
+
+Name        = slime
+Location    = rome48
+Strength    = 1000
+Damage      = 30
+Armor       = 20
+Aggression   = 50
+Sflags  { NoBody }
+Speed       = 2
+Description = "There is a slippery slimeball here."
+Examine     = "
+There is a green ball of slime oozing from the coating on the walls."
+End         = slime
+
+Name        = ball
+Location    = rome54
+Strength    = 1000
+Damage      = 30
+Armor       = 20
+Aggression   = 50
+Speed       = 2
+Sflags { NoBody }
+Description = "There is a slippery slimeball here."
+Examine     = "
+There is a green ball of slime oozing from the coating on the walls."
+End         = ball
+
+Name        = Froboz
+Location    = rome49
+Strength    = 500
+Damage      = 30
+Armor       = 20
+Aggression   = 0
+Speed       = 0
+Description = "Froboz the wizard is standing here, working on a new spell."
+Examine     = "
+You see a middle-aged man who's knowledge of magic, both offensive and 
+defensive, is legendary.  He literally glows with a pink aura."
+End         = Froboz
+
+Name        = Titus
+Location    = rome7
+Strength    = 400
+Damage      = 35
+Armor       = 0
+Aggression   = 0
+Speed       = 0
+Description = "Titus Andronicus is standing here, polishing a few swords."
+End         = Titus
+
+Name        = senator
+Pname       = "A senator"
+Location    = rome37
+Strength    = 130
+Damage      = 15
+Armor       = 0
+Aggression   = 0
+Speed       = 0
+Description = "The senator is here, waiting for debate to begin."
+End         = senator
+
+Name        = bailiff
+Pname       = "The Bailiff"
+Location    = rome50
+Strength    = 200
+Damage      = 35
+Armor       = 15
+Aggression   = 0
+Speed       = 0
+Description = "The bailiff stands here, keeping order in the courtroom."
+End         = bailiff
+
+Name        = defendant
+Pname       = "The defendant"
+Location    = rome50
+Sflags  { Female }
+Strength    = 200
+Damage      = 20
+Armor       = 20
+Aggression   = 0
+Speed       = 0
+Description = "A defendant stands here, pleading her case."
+End         = defendant
+
+Name        = Jupiter
+Location    = rome47
+Strength    = 2500
+Damage      = 15
+Armor       = 20
+Aggression   = 0
+Speed       = 0
+Description = "Jupiter, King of the Gods, is resting here."
+Eflags        { Fireball Frost Shock } 
+Mflags 	  { NoSteal NoGrab }
+End         = Jupiter
+
+Name        = Venus
+Location    = rome52
+Strength    = 2300
+Damage      = 47
+Armor       = 27
+Aggression   = 0
+Speed       = 0
+Description = "Venus, the god of beauty and knowledge, is resting here."
+Eflags        { Fireball Frost Shock }
+Sflags        { Female }
+Mflags  { BarUp }
+End         = Venus
+
+Name        = Mars
+Location    = rome56
+Strength    = 2100
+Damage      = 43
+Armor       = 23
+Aggression   = 0
+Speed       = 0
+Description = "Mars, the god of war and state, is here."
+Mflags   { BarUp }
+Eflags        { Fireball Frost Shock }
+End         = Mars
+
+Name        = Mercury
+Location    = rome59
+Strength    = 1900
+Damage      = 40
+Armor       = 20
+Aggression   = 0
+Speed       = 0
+Description = "Mercury, the messenger of the gods, is standing here."
+Mflags    { BarUp }
+Eflags        { Fireball Frost Shock }
+End         = Mercury
+
+Name        = Menenius
+Location    = rome42
+Strength    = 200
+Damage      = 20
+Armor       = 20
+Aggression   = 0
+Speed       = 0
+Description = "Menenius, Froboz's shopkeeper is here, minding the store."
+Examine     = "
+The shopkeeper is an older man in his middle to late fifties and looks like
+he enjoys the quiet life.  There is a long scar running from the edge of his
+mouth to his right ear, making it look like he is always smiling."
+End         = Menenius
+
+Name        = executioner
+Pname       = "The Executioner"
+Location    = rome61
+Strength    = 300
+Damage      = 30
+Armor       = 30
+Aggression   = 30
+Speed       = 0
+Description = "The executioner stands here, waiting to torture some sorry soul."
+Examine     = "
+You see a burly man who is wearin a black hood that obscures his face.  He
+has a very sadistic attitude and clearly loves his work."
+End         = executioner
+
+Name        = Ventidius
+Location    = rome62
+Strength    = 230
+Damage      = 23
+Armor       = 23
+Aggression   = 0
+Speed       = 0
+Description = "The Baker looks at you calmly, wiping flour from his face with one hand."
+Examine     = "
+A fat, nice looking baker. But you can see that he has many scars on his
+body."
+End         = Ventidius
+
+Name        = Lucius
+Location    = rome63
+Strength    = 240
+Damage      = 24
+Armor       = 24
+Aggression   = 0
+Speed       = 0
+Description = "Lucius the Grocer stands at the counter, with a slightly impatient look
+on his face."
+Examine     = "
+A tall grocer, who moves two 200 pounds bag of flour around on his shoulders."
+End         = Lucius
+
+%objects
+
+Name      = longsworda
+Pname     = longsword
+Location  = WIELDED_BY:adjudicator
+Oflags      { Weapon }
+Damage    = 17
+BValue    = 50
+Size      = 17
+Desc[0]   = "An ordinary looking longsword lies here."
+Examine   = "
+It may be ordinary looking, but it's sharp enough for its purpose."
+End       = longsworda
+
+Name      = longswordb
+Pname     = longsword
+Location  = WIELDED_BY:nobleman
+Oflags      { Weapon }
+Damage    = 18
+BValue    = 50
+Size      = 17
+Desc[0]   = "An ordinary looking longsword lies here."
+Examine   = "
+It may be ordinary looking, but it's sharp enough for its purpose."
+End       = longswordb
+
+Name      = longswordc
+Pname     = longsword
+Location  = WIELDED_BY:driver
+Oflags      { Weapon }
+Damage    = 16
+BValue    = 50
+Size      = 17
+Desc[0]   = "An ordinary looking longsword lies here."
+Examine   = "
+It may be ordinary looking, but it's sharp enough for its purpose."
+End       = longswordc
+
+Name      = longswordd
+Pname     = longsword
+Location  = WIELDED_BY:gladiator
+Oflags      { Weapon }
+Damage    = 17
+BValue    = 50
+Size      = 16
+Desc[0]   = "An ordinary looking longsword lies here."
+Examine   = "
+It may be ordinary looking, but it's sharp enough for its purpose."
+End       = longswordd
+
+Name      = longsworde
+Pname     = longsword
+Location  = WIELDED_BY:gateguard_1
+Oflags      { Weapon }
+Damage    = 18
+BValue    = 50
+Size      = 17
+Desc[0]   = "An ordinary looking longsword lies here."
+Examine   = "
+It may be ordinary looking, but it's sharp enough for its purpose."
+End       = longsworde
+
+Name      = longswordf
+Pname     = longsword
+Location  = WIELDED_BY:gateguard_2
+Oflags      { Weapon }
+Damage    = 15
+BValue    = 50
+Size      = 17
+Desc[0]   = "Another ordinary looking longsword lies here."
+Examine   = "
+It may be ordinary looking, but it's sharp enough for its purpose."
+End       = longswordf
+
+Name      = longswordg
+Pname     = longsword
+Location  = WIELDED_BY:gateguard_3
+Oflags      { Weapon }
+Damage    = 18
+BValue    = 50
+Size      = 17
+Desc[0]   = "An ordinary looking longsword lies here."
+Examine   = "
+It may be ordinary looking, but it's sharp enough for its purpose."
+End       = longswordg
+
+Name      = longswordh
+Pname     = longsword
+Location  = WIELDED_BY:gateguard_4
+Oflags      { Weapon }
+Damage    = 19
+BValue    = 50
+Size      = 19
+Desc[0]   = "An ordinary looking longsword lies here."
+Examine   = "
+It may be ordinary looking, but it's sharp enough for its purpose."
+End       = longswordh
+
+Name      = longswordj
+Pname     = longsword
+Location  = WIELDED_BY:adrianus
+Oflags      { Weapon }
+Damage    = 17
+BValue    = 50
+Size      = 17
+Desc[0]   = "An ordinary looking longsword lies here."
+Examine   = "
+It may be ordinary looking, but it's sharp enough for its purpose."
+End       = longswordj
+
+Name      = longswordk
+Pname     = longsword
+Location  = WIELDED_BY:marullus
+Oflags      { Weapon }
+Damage    = 17
+BValue    = 50
+Size      = 17
+Desc[0]   = "An ordinary looking longsword lies here."
+Examine   = "
+It may be ordinary looking, but it's sharp enough for its purpose."
+End       = longswordk
+
+Name      = longswordl
+Pname     = longsword
+Location  = WIELDED_BY:sempronius
+Oflags      { Weapon }
+Damage    = 16
+BValue    = 50
+Size      = 14
+Desc[0]   = "An ordinary looking longsword lies here."
+Examine   = "
+It may be ordinary looking, but it's sharp enough for its purpose."
+End       = longswordl
+
+Name      = longswordm
+Pname     = longsword
+Location  = WIELDED_BY:martius
+Oflags      { Weapon }
+Damage    = 19
+BValue    = 50
+Size      = 14
+Desc[0]   = "An ordinary looking longsword lies here."
+Examine   = "
+It may be ordinary looking, but it's sharp enough for its purpose."
+End       = longswordm
+
+Name      = longswordn
+Pname     = longsword
+Location  = WIELDED_BY:aemilius
+Oflags      { Weapon }
+Damage    = 15
+BValue    = 50
+Size      = 14
+Desc[0]   = "An ordinary looking longsword lies here."
+Examine   = "
+It may be ordinary looking, but it's sharp enough for its purpose."
+End       = longswordn
+
+Name      = broadswordq
+Pname     = broadsword
+Location  = WIELDED_BY:velutus
+Oflags      { Weapon }
+Damage    = 17
+BValue    = 50
+Size      = 17
+Desc[0]   = "An sharp looking broadsword lies here."
+Examine   = "
+It may be ordinary looking, but it's sharp enough for its purpose."
+End       = broadswordq
+
+Name      = shielda
+Pname     = shield
+Location  = WORN_BY:adjudicator
+Oflags      { Wearable Armor Shield }
+Armor     = 25
+Desc[0]   = "A small, iron shield is gathering dust."
+Examine   = "You see nothing special. Absolutely nothing."
+End       = shielda
+
+Name      = shieldb
+Pname     = shield
+Location  = WORN_BY:scorekeeper
+Oflags      { Wearable Armor Shield }
+Armor     = 25
+Desc[0]   = "A small, iron shield is gathering dust."
+Examine   = "You see nothing special. Absolutely nothing."
+End       = shieldb
+
+Name      = shieldc
+Pname     = shield
+Location  = WORN_BY:nobleman
+Oflags      { Wearable Armor Shield }
+Armor     = 30
+Desc[0]   = "A small, iron shield is gathering dust."
+Examine   = "You see nothing special. Absolutely nothing."
+End       = shieldc
+
+Name      = shieldd
+Pname     = shield
+Location  = WORN_BY:gateguard_1
+Oflags      { Wearable Armor Shield }
+Armor     = 25
+Desc[0]   = "A small, iron shield is gathering dust."
+Examine   = "You see nothing special. Absolutely nothing."
+End       = shieldd
+
+Name      = shielde
+Pname     = shield
+Location  = WORN_BY:gateguard_2
+Oflags      { Wearable Armor Shield }
+Armor     = 40
+Desc[0]   = "A small, iron shield is gathering dust."
+Examine   = "You see nothing special. Absolutely nothing."
+End       = shielde
+
+Name      = shieldf
+Pname     = shield
+Location  = WORN_BY:gateguard_3
+Oflags      { Wearable Armor Shield }
+Armor     = 18
+Desc[0]   = "A small, iron shield is gathering dust."
+Examine   = "You see nothing special. Absolutely nothing."
+End       = shieldf
+
+Name      = shieldg
+Pname     = shield
+Location  = WORN_BY:gateguard_4
+Oflags      { Wearable Armor Shield }
+Armor     = 25
+Desc[0]   = "A small, iron shield is gathering dust."
+Examine   = "You see nothing special. Absolutely nothing."
+End       = shieldg
+
+Name      = shieldh
+Pname     = shield
+Location  = WORN_BY:adrianus
+Oflags      { Wearable Armor Shield }
+Armor     = 40
+Desc[0]   = "A small, iron shield is gathering dust."
+Examine   = "You see nothing special. Absolutely nothing."
+End       = shieldh
+
+Name      = shieldi
+Pname     = shield
+Location  = WORN_BY:Marullus
+Oflags      { Wearable Armor Shield }
+Armor     = 30
+Desc[0]   = "A small, iron shield is gathering dust."
+Examine   = "You see nothing special. Absolutely nothing."
+End       = shieldi
+
+Name      = shieldj
+Pname     = shield
+Location  = WORN_BY:sempronius
+Oflags      { Wearable Armor Shield }
+Armor     = 25
+Desc[0]   = "A small, iron shield is gathering dust."
+Examine   = "You see nothing special. Absolutely nothing."
+End       = shieldj
+
+Name      = shieldk
+Pname     = shield
+Location  = WORN_BY:martius
+Oflags      { Wearable Armor Shield }
+Armor     = 30
+Desc[0]   = "A small, iron shield is gathering dust."
+Examine   = "You see nothing special. Absolutely nothing."
+End       = shieldk
+
+Name      = shieldl
+Pname     = shield
+Location  = WORN_BY:aemilius
+Oflags      { Wearable Armor Shield }
+Armor     = 40
+Desc[0]   = "A small, iron shield is gathering dust."
+Examine   = "You see nothing special. Absolutely nothing."
+End       = shieldl
+
+Name      = shieldm
+Pname     = shield
+Location  = WORN_BY:velutus
+Oflags      { Wearable Armor Shield }
+Armor     = 55
+Desc[0]   = "A small, iron shield is gathering dust."
+Examine   = "You see nothing special. Absolutely nothing."
+End       = shieldm
+
+Name      = pewter
+Altname   = ring
+Location  = WORN_BY:nobleman
+Oflags      { Wearable Armor }
+Aflags   { Hand }
+BValue    = 450
+Armor     = 30
+Size      = 4
+Desc[0]   = "There is a pewter ring lying here."
+End       = pewter
+
+Name      = bronze
+Altname   = belt
+Location  = WORN_BY:nobleman
+Oflags      { Wearable Armor }
+Aflags 	{ Legs }
+Armor     = 20
+BValue    = 300
+Size      = 20
+Desc[0]   = "There is a bronze belt sitting here."
+End       = bronze
+
+Name      = helmet
+Altname   = combat
+Location  = WORN_BY:gladiator
+Oflags      { Wearable Armor }
+Aflags      { Head }
+BValue    = 40
+Armor     = 60
+Size      = 20
+Desc[0]   = "A Roman combat helmet has been left here."
+End       = helmet
+
+Name      = whistle
+Location  = CARRIED_BY:coach
+Oflags      { }
+BValue    = 40
+Size      = 13
+Desc[0] = "A coach's whistle has been left here."
+End       = whistle
+
+Name      = stethoscope
+Location  = WORN_BY:doctor
+Oflags      { Wearable }
+Aflags 	{ Neck }
+BValue    = 60
+Size      = 12
+Desc[0]   = "A doctor has left his stethoscope here."
+End       = stethoscope
+
+Name      = hairpin
+Location  = WORN_BY:nurse
+Oflags 	{ Wearable }
+Aflags      { Head }
+BValue    = 4
+Size      = 4
+Desc[0]   = "A woman's hairpin is lying here."
+End       = hairpin
+
+Name      = apple
+Altname   = fruit
+Location  = CARRIED_BY:junius
+Oflags      { Food }
+BValue    = 50
+Size      = 11
+Desc[0]   = "
+A delicious looking apple has been left here."
+End       = apple
+
+Name      = mango
+Altname   = fruit
+Location  = CARRIED_BY:junius
+Oflags      { Food }
+BValue    = 39
+Size      = 9
+Desc[0]   = "A delicious mango lies on the ground."
+Examine   = "Come on, eat it, if it's that delicious!"
+End       = mango
+
+Name      = banana
+Altname   = fruit
+Location  = CARRIED_BY:marcius
+Oflags      { Food }
+BValue    = 39
+Size      = 9
+Desc[0]   = "A large banana lies on the ground."
+Examine   = "Aren't you going to eat it?"
+End       = banana
+
+Name      = orangea
+Pname	  = orange
+Altname   = fruit
+Location  = CARRIED_BY:marcius
+Oflags      { Food }
+BValue    = 40
+Size      = 10
+Desc[0]   = "A sun-ripened orange has been left here."
+End       = orangea
+
+Name      = peach
+Altname   = fruit
+Location  = CARRIED_BY:marcia
+Oflags      { Food }
+BValue    = 80
+Size      = 12
+Desc[0]   = "A pink and yellow peach is just waiting to be picked up and eaten."
+Examine   = "
+You see nothing special.
+
+Or.. wait a minute.. what's that button doing there?
+Oh.. you were mistaken. It's an ordinary peach. *sigh*"
+End       = peach
+
+Name      = grapes
+Altname   = fruit
+Location  = CARRIED_BY:marcia
+Oflags      { Food }
+BValue    = 70
+Size      = 12
+Desc[0]   = "A peddler forgot some grapes."
+End       = grapes
+
+Name      = strawberries
+Altname   = fruit
+Location  = CARRIED_BY:boetius
+Oflags      { Food }
+BValue    = 30
+Size      = 8
+Desc[0]   = "Ah, strawberries! You didn't see those in Boondocks before."
+End       = strawberries
+
+Name      = pineapple
+Altname   = fruit
+Location  = CARRIED_BY:boetius
+Oflags      { Food }
+BValue    = 40
+Size      = 10
+Desc[0]   = "This pineapple will do just nicely for an afternoon snack."
+End       = pineapple
+
+Name      = sandalsa
+Pname     = sandals
+Altname   = leather
+Location  = WORN_BY:valentine
+Oflags      { Wearable Armor }
+Aflags  { Feet }
+Armor     = 5          
+BValue    = 20
+Size      = 30          
+Desc[0]   = "A pair of leather sandals has been dropped here."
+End       = sandalsa
+
+Name      = sandalsb
+Pname     = sandals
+Altname   = leather
+Location  = WORN_BY:Lavinia
+Oflags      { Wearable Armor }
+Aflags      { Feet }
+Armor     = 5
+BValue    = 20
+Size      = 30
+Desc[0]   = "A pair of leather sandals has been dropped here."
+End       = sandalsb
+
+Name      = sandalsc
+Pname     = sandals
+Altname   = leather
+Location  = WORN_BY:Lucretia
+Oflags      { Wearable Armor }
+Aflags	{ Feet }
+Armor     = 5
+BValue    = 20
+Size      = 30
+Desc[0]   = "A pair of leather sandals has been dropped here."
+End       = sandalsc
+
+Name      = sandalsd
+Pname     = sandals
+Altname   = leather
+Location  = WORN_BY:junius
+Oflags      { Wearable Armor }
+Aflags	{ Feet }
+Armor     = 5
+BValue    = 20
+Size      = 30
+Desc[0]   = "A pair of leather sandals has been dropped here."
+End       = sandalsd
+
+Name      = sandalse
+Pname     = sandals
+Altname   = leather
+Location  = WORN_BY:marcius
+Oflags      { Wearable Armor }
+Aflags	{ Feet }
+Armor     = 0
+BValue    = 20
+Size      = 30
+Desc[0]   = "A pair of leather sandals has been dropped here."
+End       = sandalse
+
+Name      = sandalsf
+Pname     = sandals
+Altname   = leather
+Location  = WORN_BY:colonius
+Oflags      { Wearable Armor }
+Aflags  { Feet }
+Armor     = 1
+BValue    = 20
+Size      = 30
+Desc[0]   = "A pair of leather sandals has been dropped here."
+End       = sandalsf
+
+Name      = sandalsg
+Pname     = sandals
+Altname   = leather
+Location  = WORN_BY:Boetius
+Oflags      { Wearable Armor }
+Aflags    { Feet }
+Armor     = 0
+BValue    = 20
+Size      = 30
+Desc[0]   = "A pair of leather sandals has been dropped here."
+End       = sandalsg
+
+Name      = sandalsh
+Pname     = sandals
+Altname   = leather
+Location  = WORN_BY:marcia
+Oflags      { Wearable Armor }
+Aflags      { Feet }
+Armor     = 0
+BValue    = 20
+Size      = 30
+Desc[0]   = "A pair of leather sandals has been dropped here."
+End       = sandalsh
+
+Name      = sandalsi
+Pname     = sandals
+Altname   = leather
+Location  = WORN_BY:gateguard_1
+Oflags      { Wearable Armor }
+Aflags    { Feet }
+Armor     = 0
+BValue    = 20
+Size      = 30
+Desc[0]   = "A pair of leather sandals has been dropped here."
+End       = sandalsi
+
+Name      = sandalsj
+Pname     = sandals
+Altname   = leather
+Location  = WORN_BY:gateguard_2
+Oflags      { Wearable Armor }
+Aflags      { Feet }
+Armor     = 0
+BValue    = 20
+Size      = 30
+Desc[0]   = "A pair of leather sandals has been dropped here."
+End       = sandalsj
+
+Name      = sandalsk
+Pname     = sandals
+Altname   = leather
+Location  = WORN_BY:gateguard_3
+Oflags      { Wearable Armor }
+Aflags 	{ Feet }
+Armor     = 0
+BValue    = 20
+Size      = 30
+Desc[0]   = "A pair of leather sandals has been dropped here."
+End       = sandalsk
+
+Name      = sandalsl
+Pname     = sandals
+Altname   = leather
+Location  = WORN_BY:gateguard_4
+Oflags      { Wearable Armor }
+Aflags  { Feet }
+Armor     = 0
+BValue    = 20
+Size      = 30
+Desc[0]   = "A pair of leather sandals has been dropped here."
+End       = sandalsl
+
+Name      = sandalsm
+Pname     = sandals
+Altname   = leather
+Location  = WORN_BY:adrianus
+Oflags      { Wearable Armor }
+Aflags	{ Feet }
+Armor     = 0
+BValue    = 20
+Size      = 30
+Desc[0]   = "A pair of leather sandals has been dropped here."
+End       = sandalsm
+
+Name      = sandalsn
+Pname     = sandals
+Altname   = leather
+Location  = WORN_BY:Marullus
+Oflags      { Wearable Armor }
+Aflags	{ Feet }
+Armor     = 1
+BValue    = 20
+Size      = 30
+Desc[0]   = "A pair of leather sandals has been dropped here."
+End       = sandalsn
+
+Name      = sandalsq
+Pname     = sandals
+Altname   = leather
+Location  = WORN_BY:sempronius
+Oflags      { Wearable Armor }
+Aflags	{ Feet }
+Armor     = 0
+BValue    = 20
+Size      = 30
+Desc[0]   = "A pair of leather sandals has been dropped here, but they look more like
+tennis shoes."
+End       = sandalsq
+
+Name      = sandalsp
+Pname     = sandals
+Altname   = leather
+Location  = WORN_BY:martius
+Oflags      { Wearable Armor }
+Aflags	{ Feet }
+Armor     = 0
+BValue    = 20
+Size      = 30
+Desc[0]   = "A pair of leather sandals has been dropped here."
+End       = sandalsp
+
+Name      = sandalsr
+Pname     = sandals
+Altname   = leather
+Location  = WORN_BY:aemilius
+Oflags      { Wearable Armor }
+Aflags	{ Feet }
+Armor     = 0
+BValue    = 20
+Size      = 30
+Desc[0]   = "A pair of leather sandals has been dropped here."
+End       = sandalsr
+
+Name      = onyx
+Altname   = ring
+Location  = WORN_BY:caesar
+Oflags      { Wearable Armor }
+Aflags	{ Hand }
+Armor     = 50
+BValue    = 500
+Size      = 7
+Desc[0]   = "An onyx ring has been left here."
+End       = onyx
+
+Name      = doga
+Pname     = hotdog
+Location  = CARRIED_BY:aufidius
+Oflags      { Food }
+BValue    = 40
+Size      = 12
+Desc[0]   = "A hotdog loaded with chili and onions has been left here."
+End       = doga
+
+Name      = dogb
+Pname     = hotdog
+Location  = CARRIED_BY:sicinius
+Oflags      { Food }
+BValue    = 40
+Size      = 12
+Desc[0]   = "A hotdog loaded with chili and onions has been left here."
+End       = dogb
+                 
+Name      = silver
+Altname   = bracelet
+Location  = WORN_BY:plaintiff
+Oflags      { Wearable Armor }
+Aflags	{ Arm }
+Armor     = 0
+BValue    = 400
+Size      = 9
+Desc[0]   = "A bracelet, made from silver and gold, has been carelessly left here."
+End       = silver
+
+Name      = sapphire
+Altname   = ring
+Location  = WORN_BY:judge
+Oflags      { Wearable }
+BValue    = 400
+Size      = 6
+Desc[0]   = "A sapphire ring has been left here."
+End       = sapphire
+
+Name      = pendant
+Altname   = jade
+Location  = WORN_BY:plaintiff
+Oflags      { Wearable }
+BValue    = 300
+Size      = 17
+Desc[0]   = "A beautiful jade pendant has been left here."
+End       = pendant
+
+Name      = robe
+Location  = WORN_BY:froboz
+Oflags      { Wearable Armor AntiMagic } 
+Aflags	{ Back }
+Armor	  = 50
+BValue    = 10
+Size      = 6
+Desc[0]   = "Froboz's robe has been dropped here."
+Examine   = "
+This is Froboz's magical robe it looks rather stronger and protecting,
+maybe even from magic. "
+End       = robe
+
+Name      = tempered
+Altname   = sword
+Location  = WIELDED_BY:Tullus
+Oflags      { Weapon }
+Damage    = 16
+BValue    = 160
+Size      = 16
+Desc[0]   = "A nasty looking tempered sword is lying here."
+End       = tempered
+
+Name      = quencheda
+Pname     = quenched
+Altname   = sword
+Location  = WIELDED_BY:caesar
+Oflags      { Weapon }
+Damage    = 25
+BValue    = 150
+Size      = 25
+Desc[0]   = "Caesar's quenched sword has been left here."
+End       = quencheda
+
+Name      = quenchedb
+Pname     = quenched
+Altname   = sword
+Location  = WIELDED_BY:menenius
+Oflags      { Weapon }
+Damage    = 22
+BValue    = 150
+Size      = 22
+Desc[0]   = "A very bloody quenched sword has been left here."
+End       = quenchedb
+
+Name      = bracers
+Altname   = moorish
+Location  = WORN_BY:caesar
+Oflags      { Wearable Armor }
+Aflags	{ Legs }
+BValue    = 300
+Armor     = 40
+Size      = 14
+Desc[0]   = "A pair of Moorish bracers has been dropped here."
+End       = bracers
+
+Name      = plate
+Altname   = combat
+Location  = WORN_BY:velutus
+Oflags      { Wearable Armor }
+Aflags	{ Chest }
+Armor     = 40
+BValue    = 200
+Size      = 25
+Desc[0]   = "A piece of military combat plate has been left here."
+End       = plate
+
+Name      = boots
+Altname   = combat
+Location  = WORN_BY:velutus
+Oflags      { Wearable Armor }
+Aflags	{ Feet }
+Armor     = 20
+BValue    = 100
+Size      = 10
+Desc[0]   = "A pair of combat boots have been left here. They're very sturdy."
+Examine   = "
+You'd look very cool in them. Whether they'd protect you from anything
+is another matter entirely."
+End       = boots
+
+Name      = thunderbolt
+Location  = WIELDED_BY:jupiter
+Oflags      { Weapon }
+Damage    = 35
+BValue    = 1000
+Size      = 40
+Desc[0]   = "Jupiter's Thunderbolt has been left here."
+End       = thunderbolt
+
+Name      = loincloth
+Altname   = red
+Location  = WORN_BY:Mars
+Oflags      { Wearable Armor }
+Aflags	{ Legs }
+Armor     = 10
+BValue    = 500
+Size      = 30
+Desc[0]   = "Mar's red loincloth is resting here."
+End       = loincloth
+
+Name      = crystal
+Altname   = necklace
+Location  = WORN_BY:Venus
+Oflags      { Wearable Armor}
+Aflags	{ Neck }
+Armor     = 50
+BValue    = 200
+Size      = 30
+Desc[0]   = "Someone has left the crystal Necklace of Knowledge here!"
+End       = crystal
+
+Name      = winged
+Altname   = sandals
+Location  = WORN_BY:Mercury
+Oflags      { Wearable }
+BValue    = 500
+Size      = 30
+Desc[0]   = "Mercury's winged sandals have been left here."
+End       = winged
+
+Name      = mustyx
+Pname     = musty
+Altname   = scroll
+Location  = CARRIED_BY:caesar
+BValue    = 20
+Size      = 10
+Desc[0]   = "A musty scroll has been dropped here."
+Examine   = " Memo to myself: Check out Brutus. He is behaving very strange lately."
+End       = mustyx
+
+Name      = ornate
+Altname   = scroll
+Location  = CARRIED_BY:Froboz
+Oflags      { }
+BValue    = 400
+Size      = 20
+Desc[0]   = "An ornate scroll has been left here."
+Examine   = "
+It's about a powerful spell, which would turn strawberries into camels.
+Apparently Froboz made this spell for a Dutch friend of his, an excentric
+wizard with a bolar-hat."
+End       = ornate
+
+Name      = plain
+Altname   = scroll
+Location  = CARRIED_BY:Froboz
+Oflags      { }
+BValue    = 80
+Size      = 20
+Desc[0]   = "A plain scroll is lying on the ground."
+Examine   = "
+Nothing is written on this scroll. Froboz kept it in his possession in case
+he needed something to write on when inspiration hit him."
+End       = plain
+
+Name      = latumfus
+Altname   = staff
+Location  = CARRIED_BY:nurse
+Oflags      { }
+BValue    = 100
+Size      = 25
+Desc[0]   = "There is a staff of Latumfus lying here on the ground."
+End       = latumfus
+
+Name      = kodarta
+Altname   = staff
+Location  = CARRIED_BY:doctor
+Oflags      { }
+BValue    = 250
+Size      = 25
+Desc[0]   = "The Kodarta staff has been carelessly left here."
+End       = kodarta
+
+Name      = wand
+Location  = CARRIED_BY:Froboz
+Oflags      { }
+BValue    = 10
+Size      = 10
+Desc[0]   = "There is a prototype of a new magical wand lying here."
+Examine   = "
+You can't figure out what its purpose is. You could ask Froboz, but he's
+dead now. Too bad."
+End       = wand
+
+Name      = potion
+Altname	  = orange
+Location  = CARRIED_BY:slimeball
+Oflags      { Food }
+BValue    = 40
+Size      = 12
+Desc[0]   = "There is a flask, containing a blaze orange potion, resting here."
+End       = potion
+
+Name      = mace
+Location  = WIELDED_BY:executioner
+Oflags      { Weapon }
+Damage    = 1
+BValue    = 100
+Size      = 23
+Desc[0]   = "The executioner's mace is lying here."
+Examine   = "
+A typical weapon for one who tortures people: you would die very slowly,
+indeed, if hit with this weapon."
+End       = mace
+
+ 
+Name      = rusty
+Altname   = key
+Location  = CARRIED_BY:bailiff
+Oflags      { Key }
+BValue    = 16
+Size      = 16
+Desc[0]   = "There is a rusty key here."
+End       = rusty
+
+Name      = double
+Altname   = key
+Location  = CARRIED_BY:driver
+Oflags      { Key }
+BValue    = 15
+Size      = 15
+Desc[0]   = "A double sided key has been left here."
+End       = double
+
+Name      = diamond
+Altname   = key
+Location  = CARRIED_BY:Sicinius
+Oflags      { Key }
+BValue    = 14
+Size      = 14
+Desc[0]   = "A diamond studded key is sitting on the ground."
+End       = diamond
+
+Name      = pearl
+Altname   = key
+Location  = CARRIED_BY:Tullus
+Oflags      { Key }
+BValue    = 13
+Size      = 13
+Desc[0]   = "A key with a pearl handle is sitting on the ground."
+End       = pearl
+
+Name      = aquamarine
+Altname   = key
+Location  = CARRIED_BY:scorekeeper
+Oflags      { Key }
+BValue    = 12
+Size      = 12
+Desc[0]   = "There is an aquamarine colored key here."
+End       = aquamarine
+
+Name      = opal
+Altname   = key
+Location  = CARRIED_BY:senator
+Oflags      { Key }
+BValue    = 11
+Size      = 11
+Desc[0]   = "An opal key has been left here."
+End       = opal
+
+Name      = steel
+Altname   = key
+Location  = CARRIED_BY:judge
+Oflags      { Key }
+BValue    = 10
+Size      = 10
+Desc[0]   = "A steel key is lying on the ground."
+End       = steel
+
+Name      = scorecards
+Altname   = cards
+Location  = IN_ROOM:rome1
+Oflags      { NoGet }
+Examine   = "The cards all have been filled in with the judges evaluations of today's
+combatants.  It seems that Sparticus is having a good day."
+End       = scorecards
+
+Name      = pencils
+Altname   = pencil
+Location  = IN_ROOM:rome1
+Oflags      { NoGet }
+Examine   = "
+An ordinary number 2 lead pencil.  Judging by the teeth marks on the shaft, the
+user should see a dentist very soon!"
+End       = pencils
+
+Name      = road
+Location  = IN_ROOM:rome5
+Oflags      { NoGet }
+Examine   = "
+You can barely make out a storefront through the foliage."
+End       = road
+
+Name      = wgate
+Pname     = gate
+Location  = IN_ROOM:rome5
+Oflags      { NoGet }
+Examine   = "
+The gate has been permanently rusted shut and is further secured by a large
+chain and padlock.  Don't even bother THINKING about trying to open it."
+End       = wgate
+
+Name      = swordsa
+Pname     = swords
+Altname   = weapons
+Location  = IN_ROOM:rome6
+Oflags      { NoGet }
+Examine   = "
+Titus has enough hardware in here to outfit a large army.  Maybe that's why
+he has a lucrative contract to sell weapons to the emperor's armies for
+outrageous prices."
+End       = swordsa
+
+Name      = weaponsa
+Pname     = weapons
+Altname   = swords
+Location  = IN_ROOM:rome7
+Oflags      { NoGet }
+Examine   = "
+There are literally thousands of each.  Take your pick."
+End       = weaponsa
+
+Name      = landscape
+Altname   = country
+Location  = IN_ROOM:rome8
+Oflags      { NoGet }
+Examine   = "
+You can see the entire city of Rome from here.  The buildings housing the
+Roman government are to the east.  To the south east, off in the distance, is
+the massive aquaduct and further in that direction lies the Mountain of the
+Gods."
+End       = landscape
+
+Name      = leech
+Altname   = leeches
+Location  = IN_ROOM:rome11
+Oflags      { NoGet }
+Examine   = "
+DISGUSTING!  Each is about the size of matchbox and very slimy.  You are VERY
+glad that you have access to a cleric!"
+End       = leech
+
+Name      = furnishings
+Altname   = furniture
+Location  = IN_ROOM:rome13
+Oflags      { NoGet }
+Examine   = "
+The furniture that you see is very simple and plain.  It is made of rough hewn
+wood and fastened together with nails.  It looks very uncomfortable."
+End       = furnishings
+
+Name      = laundry
+Altname   = wash
+Location  = IN_ROOM:rome14
+Oflags      { NoGet }
+Examine   = "
+It smells of sweat and is covered with mud."
+End       = laundry
+
+Name      = line
+Altname   = lines
+Location  = IN_ROOM:rome18
+Oflags      { NoGet }
+Examine   = "
+The lines are very long and people look impatient."
+End       = line
+
+Name      = statue
+Altname   = caligula
+Location = IN_ROOM:rome18
+Oflags      { NoGet }
+Examine   = "
+A larger than life stone statue of Caligula, the Mad Emperor looks at you. It
+looks like it is holding a phallus."
+End       = statue
+   
+Name      = hole
+Altname   = toilet
+Location  = IN_ROOM:rome20
+Oflags      { NoGet }
+Examine   = "
+You walk over to the hole and see that there is a large turd floating in a
+pool black water about 2 feet below the surface of the ground.  As you lean
+closer to get a better look, your nose catches a concentrated dose of the
+fragrant aroma wafting upwards.  Your stomach decides that it has had enough
+of this shoddy treatment and you puke until it is empty."
+End       = hole
+
+Name      = roll
+Altname   = paper
+Location  = IN_ROOM:rome20
+Oflags      { NoGet }
+Examine   = "
+Hey!!  This is first-class stuff!! - White Cloud brand with lotion.  The roll
+is about half-used."
+End       = roll
+
+Name      = tiberius
+Altname   = statue
+Location  = IN_ROOM:rome24
+Oflags      { NoGet }
+Examine   = "
+The statue of Tiberius, made of iron, stands here."
+End       = tiberius
+
+Name      = cashbox
+Altname   = box
+Location  = IN_ROOM:rome25
+Oflags      { NoGet }
+Examine   = "
+It's a shame that the exchange rate for Roman money is so low.  What amounts
+to a fortune in Rome isn't even worth one gold coin.  The contents of the box
+add up to about .... well forget it.  It isn't worth your time or trouble to
+carry it around."
+End       = cashbox
+
+Name      = structure
+Location  = IN_ROOM:rome26
+Oflags      { NoGet }
+Examine   = "
+That would probably be the Coliseum.  There are a few good matches scheduled
+for today."
+End       = structure
+
+Name      = shrubs
+Altname   = trees
+Location  = IN_ROOM:rome27
+Oflags      { NoGet }
+Examine   = "
+All of the plants, trees and shrubs are perfectly trimmed, without so much as
+a dead leaf anywhere to be seen.  You welcome the shade that they give from
+the harsh sun above."
+End       = shrubs
+
+Name      = floor
+Altname   = tile
+Location  = IN_ROOM:rome28
+Oflags      { NoGet }
+Examine   = "
+Very expensive!  A lot of master craftsmen labored long and hard to produce
+such a work of art."
+End       = floor
+
+Name      = windows
+Location  = IN_ROOM:rome28
+Oflags      { NoGet }
+Examine   = "
+They are intricate and the scenes that they depict cast honor on several of
+the gods."
+End       = windows
+
+Name      = furniture
+Location  = IN_ROOM:rome28
+Oflags      { NoGet }
+Examine   = "
+You hope to eventually be able to own a piece of furniture just like these
+someday.  These are only dreams, of course."
+End       = furniture
+
+Name      = ngate
+Pname     = gate
+Location  = IN_ROOM:rome29
+Oflags      { NoGet }
+Examine   = "
+The gate is made of solid iron and is well maintained."
+End       = ngate
+
+Name      = nroad
+Pname     = road
+Location  = IN_ROOM:rome29
+Oflags      { NoGet }
+Examine   = "
+The road is wide and very muddy."
+End       = nroad
+
+Name      = vendors
+Altname   = vendor
+Location  = IN_ROOM:rome32
+Oflags      { NoGet }
+Examine   = "
+There are several sidewalk vendors here, selling fresh fruits and vegetables,
+home baked goods, fine jewelry and other items.  Most of the items for sale are
+of very high quality."
+End       = vendors
+
+Name      = aquaduct
+Altname   = structure
+Location  = IN_ROOM:rome32
+Oflags      { NoGet }
+Examine   = "
+To the southeast, off in the distance, stands a large stone structure that is
+used to channel water into the city."
+End       = aquaduct
+
+Name      = sgate
+Pname     = gate
+Location  = IN_ROOM:rome35
+Oflags      { NoGet }
+Examine   = "
+The gate appears to be closed and locked against intruders."
+End       = sgate
+
+Name      = walnut
+Altname   = desk
+Location  = IN_ROOM:rome36
+Oflags      { NoGet }
+Examine   = "
+The desk is made of solid walnut and gold inlay.  It is exquisitely carved
+with superior craftsmanship, the likes of which has rarely been seen.  It was
+probably brought to Rome from Gaul."
+End       = walnut
+
+Name      = documents
+Altname   = papers
+Location  = IN_ROOM:rome36
+Oflags      { NoGet }
+Examine   = "
+The documents are all written on reed scrolls made in Egypt and have been
+sealed with wax."
+End       = documents
+
+Name      = bookcase
+Altname   = books
+Location  = IN_ROOM:rome36
+Oflags      { NoGet }
+Examine   = "
+The books are very old and contain the wisdom of wise men from throughout the
+entire Roman empire.  They appear to be collecting dust."
+End       = bookcase
+
+Name      = flowers
+Altname   = plants
+Location  = IN_ROOM:rome36
+Oflags      { NoGet }
+Examine   = "
+The plants contribute to a very relaxing atmosphere."
+End       = flowers
+
+Name      = crowds
+Altname   = people
+Location  = IN_ROOM:rome39
+Oflags      { NoGet }
+Examine   = "
+It looks like some kind of bizarre or festival is occurring to the west.  There
+are hundreds of people of all classes shopping, talking or eating."
+End       = crowds
+
+Name      = telescope
+Altname   = viewer
+Location  = IN_ROOM:rome40
+Oflags      { NoGet }
+Examine   = "
+If it were operational, it would offer a spectacular view of the Mountain of
+the Gods.  Unfortunately, it appears to have been vandalized."
+End       = telescope
+
+Name      = platform
+Pname     = sign
+Location  = IN_ROOM:rome40
+Oflags      { NoGet }
+Examine   = "
+         ********************************************
+         *                                          *
+         *      The Roman Aqueduct and Mountain     *
+         *           Observation Platform           *
+         *                                          *
+         *       Designed and built by the Froboz   *
+         *            Magic Platform Company        *
+         *                                          *
+         ********************************************"
+End       = platform
+
+Name      = slimea
+Pname     = slime
+Altname   = algae
+Location  = IN_ROOM:rome41
+Oflags      { NoGet }
+Examine   = "
+Due to the availability of moisture and nutrients, a green, viscous slime has
+grown and covered everything with a slippery coating.  It seems to go out of
+its way to drip on you."
+End       = slimea
+
+Name      = fog
+Altname   = mist
+Location  = IN_ROOM:rome42
+Oflags      { NoGet }
+Examine   = "
+This is some really strange stuff!  You have never seen anything this color
+before.  Your legs are totally obscured from the knee down."
+End       = fog
+
+Name      = signcourt
+Pname     = sign
+Location  = IN_ROOM:rome43
+Oflags      { NoGet }
+Examine   = "
+There is a sign on the door that says:  MUNICIPAL COURT OF ROME.  It appears
+to be open."
+End       = signcourt
+
+Name      = stairs
+Altname   = stairway
+Location  = IN_ROOM:rome45
+Oflags      { NoGet }
+Examine   = "
+The stairs are immaculately polished and made of white marble."
+End       = stairs
+
+Name      = statues
+Altname   = statue
+Location  = IN_ROOM:rome45
+Oflags      { NoGet }
+Examine   = "
+There is really nothing noteworthy about them."
+End       = statues
+
+Name      = stone
+Altname   = structure
+Location  = IN_ROOM:rome46
+Oflags      { NoGet }
+Examine   = "
+You see a massive stone structure, built several centuries ago, that is used
+to channel water into the city."
+End       = stone
+
+Name      = mountain
+Location  = IN_ROOM:rome46
+Oflags      { NoGet }
+Examine   = "
+Off to the southwest, you can see  a huge mountain that is partially obscured
+by the haze.  It is rumored that the gods reside there and protect the city."
+End       = mountain
+
+Name      = workbench
+Altname   = tubes
+Location  = IN_ROOM:rome49
+Oflags      { NoGet }
+Examine   = "
+These are all tools of great power.  You cannot even begin to understand what
+any of this stuff does."
+End       = workbench
+
+Name      = beakers
+Altname   = dishes
+Location  = IN_ROOM:rome49
+Oflags      { NoGet }
+Examine   = "
+These are all tools of great power.  You cannot even begin to understand what
+any of this stuff does."
+End       = beakers
+
+Name      = cinders
+Altname   = ashes
+Location  = IN_ROOM:rome49
+Oflags      { NoGet }
+Examine   = "
+The ashes are a very fine grayish white powder that seems to be the only
+worldly remains of Froboz's 'test specimens'."
+End       = cinders
+
+Name      = stand
+Altname   = bench
+Location  = IN_ROOM:rome50
+Oflags      { NoGet }
+Examine   = "
+You see large wooden structures that are designed to separate the judge, jury
+and witnesses from the rest of the courtroom.  They are made of polished
+oak and are strictly functional."
+End       = stand
+
+Name      = seal
+Location  = IN_ROOM:rome50
+Oflags      { NoGet }
+Examine   = "
+The seal of the emperor is mounted above the judge's stand."
+End       = seal
+
+Name      = spires
+Altname   = towers
+Location  = IN_ROOM:rome51
+Oflags      { NoGet }
+Examine   = "
+There are two tall spires on either side of the gate and are constantly manned
+by the city guards.  They are made of stone and stand about 40 feet tall."
+End       = spires
+
+Name      = egate
+Pname     = gate
+Location  = rome51
+Oflags      { NoGet }
+Examine   = "
+The gate is fabricated from iron and has been designed to keep intruders out
+of the city."
+End       = egate
+
+Name      = traila
+Pname     = trail
+Location  = IN_ROOM:rome52
+Oflags      { NoGet }
+Examine   = "
+The mountain trail is a little muddy, due to the recent rains."
+End       = traila
+
+Name      = slimeb
+Pname     = algae
+Altname   = slime
+Location  = IN_ROOM:rome54
+Oflags      { NoGet }
+Examine   = "
+Due to the availability of moisture and nutrients, a green, viscous slime has
+grown and covered the everything with a slippery coating.  It seems to go out
+of its way to drip on you."
+End       = slimeb
+
+Name      = tomes
+Altname   = books
+Location  = IN_ROOM:rome55
+Oflags      { NoGet }
+Examine   = "
+The books are very large and filled with Roman legal precedent."
+End       = tomes
+
+Name      = papers
+Altname   = documents
+Location  = IN_ROOM:rome55
+Oflags      { NoGet }
+Examine   = "
+There are hundreds of pages of petitions, lawsuits and court orders sitting
+on the desk.  One particularly interesting case involves a nobleman, a slave
+and a roll of toilet paper."
+End       = papers
+
+Name      = vegetationa
+Pname	= trees
+Altname   = vegetation
+Location  = IN_ROOM:rome56
+Oflags      { NoGet }
+Examine   = "
+All of the vegetation is lush, green and in full bloom.  You wish that you
+could take the time to stop and enjoy it properly."
+End       = vegetationa
+
+Name      = trail
+Altname   = path
+Location  = IN_ROOM:rome56
+Oflags      { NoGet }
+Examine   = "
+The path is a little muddy, possibly due to a recent thundershower."
+End       = trail
+
+Name      = stream
+Altname   = brook
+Location  = IN_ROOM:rome58
+Oflags      { NoGet }
+Examine   = "
+A stream of the clearest, cleanest water that you have ever seen winds its way
+through the valley."
+End       = stream
+
+Name      = fish
+Location  = IN_ROOM:rome58
+Oflags      { NoGet }
+Examine   = "
+A variety of species swims peacefully in the cool, clear water."
+End       = fish
+
+Name      = fruit
+Altname   = fruittrees
+Location  = IN_ROOM:rome58
+Oflags      { NoGet }
+Examine   = "
+The fruit trees, nourished by the fertile ground at the edge of the stream and
+sustained by the brilliant sunshine, line the banks of the stream and are
+laden with fruit."
+End       = fruit
+
+Name      = vegetationc
+Pname     = vegetation
+Altname   = trees
+Location  = IN_ROOM:rome59
+Oflags      { NoGet }
+Examine   = "
+The trees are old and tower hundreds of feet above the ground.  If you stand
+still and listen carefully, you can hear the birds singing."
+End       = vegetationc
+
+Name      = cells
+Altname   = cell
+Location  = IN_ROOM:rome60
+Oflags      { NoGet }
+Examine   = "
+You can see small and very cramped cells which are filthy.  You shiver and
+vow to never do anything that would cause you to become a resident."
+End       = cells
+
+Name       = plywood
+Altname    = sign
+Location   = IN_ROOM:rome35
+Oflags      { NoGet }
+Desc[0]    = "There is a plywood sign bolted to the wall here."
+Examine    = "
+   Rome was written by Onivel of JediMUD in the spring of 1992.  It was
+originally debugged and tested on Renaissance DikuMUD and then ported to
+CircleMUD and finally JediMUD.  I would like to sincerely thank the following
+people who gave invaluable help in the design and construction of this area:
+
+ Rasmussen of CircleMUD  -- for idea to write Rome in the first place and for
+                            advice with coding Roman god routines.
+
+ Destiny of Apocalypse   -- for encouragement, proofreading, help in refining
+                            the area concept and allowing me to put my first 
+                            area on her MUD.
+
+ Miranda, Romulus, Ikee, and all the others who assisted with balance, bugs
+ and typo eradication, or just had a good time here.
+
+ Thanks.
+   -Onivel
+
+ ***  This zone was ported to DIRT 3.0 for Boondocks AberMUD  ***
+ ***  by Zarniwoop (zarn@rugrcx.rug.nl), October 1993         ***"
+End       = plywood
+
+Name = ramar
+Altname = volume
+Location = IN_ROOM:rome36
+Oflags { NoGet Destroyed }
+Desc[0] = "The precursor to the modern Roman langauge of Ramar is here."
+Examine = "
+It's hard to imagine the Romans speaking anything other than Latin, but this
+anicent book makes the language of Ramar relatively easy to learn.  Soon you
+feel you know Ramar like the back of your hand."
+End = ramar
+
+%locations
+
+rome1 d:rome2;
+lflags {}
+The Judging Booth^
+  You stand in the midst of a small room with windows on the east and south 
+walls.  These windows provide a complete view of the competition fields. 
+There are several &+Cscorecards, pencils&* and other items that are used by the 
+judges sitting on a table.  The only exit is a trapdoor leading down.
+^
+rome2 u:rome1 d:rome3;
+lflags {}
+Caesar's Private Box^
+This is the best view in the house!  You can see gladiators fighting or the
+chariot races with an unobstructed view.  The seats are upholstered in red
+velvet and are in top-notch condition.  There is a rickety ladder leading
+up and a marble staircase leading down.
+^
+rome3 s:rome4 u:rome2 d:rome10;
+Altitude = 500
+lflags { Outdoors }
+West Side Commoner's Seating Area^
+This is the western side commoner's seating area.  There are row upon row 
+of rough wooden benches bolted to the floor.  There is stadium garbage 
+everywhere and the smell makes you want to puke.  Stairs lead up to 
+Caesar's private box, a small ramp leads down to the playing field and a 
+hallway leads south.
+^
+rome4 n:rome3 e:rome11;
+Altitude = 500
+lflags { Outdoors }
+Southern Commoner's Seats^
+This is the southeastern part of the common seating areas.  The benches here
+are made of stone and are probably centuries old.  A few scratches on one of
+the benches catch your eye.  An acrid smell is coming from the east and a
+tunnel leads off to the north.
+^
+rome5 e:rome12 s:rome6;
+Altitude = 450
+lflags { Outdoors }
+The Abandoned Gate^
+This used to be a gateway to and from western Rome.  There is an iron &+ygate
+blocking your way.  Judging by the amount of rust and foliage growing on the
+bars, it hasn't been open for years.  Looking through the gate at the barren
+landscape that lies beyond, you can see why.  A dirt &+yroad&* leads off to the
+east, and a store is directly south.
+^
+rome6 n:rome5 s:rome7;
+lflags {}
+Swords 'R  Us^
+Welcome to the weaponshop of Titus Andronicus!!  Rare halberds, whips, &+Cswords
+and other instruments of death are proudly displayed on the walls and in
+gleaming glass cases.  More common weapons are stacked like wood on the floor.
+To the north you can barely make out a gate.  There is a very secure looking
+door to the south.
+^
+rome7 n:rome6;
+lflags {}
+The Back Room^
+If you thought that there were a lot of &+Cweapons&* in the front of the store,
+you haven't seen anything yet!!  There is barely enough room to walk amongst
+the crates of armor and swords.  No wonder Rome will stand for a thousand
+years.  The only exit is through a door to the north.
+^
+rome8 d:rome15;
+Altitude = 700
+lflags { Outdoors }
+Peanut Heaven^
+You are now so high up that you begin to feel lightheaded and your nose feels
+like it is going to start bleeding.  There aren't even benches to sit on here;
+just bare dirty stone.  The view of the surrounding &+gcountry&* is spectacular.
+Unfortunately you can barely see the playing field.  There is a set of steps
+here, leading down.
+^
+rome9 e:rome16 s:rome10;
+Altitude = 400
+lflags { Outdoors }
+The Practice and Warm-up Area^
+There are many gladiators, chariot drivers and their coaches here, warming up
+in preparation for the games.  The dust rising from the parched earth makes
+you want to sneeze.  A short tunnel leads east and the thunder of pounding
+hooves and the clash of weapons can be heard coming from the south.
+^
+rome10 n:rome9 u:rome3 d:rome17;
+Altitude = 400
+lflags { Outdoors }
+The Jousting Arena^
+This is a wide open grassy plane....LOOK OUT!!!!  You are almost skewered by a
+gladiator's lance as he makes his charge.  A practicing area is due north and
+you can hear loud snarls and roars from below.
+^
+rome11 e:rome18 w:rome4;
+lflags {}
+The First-Aid Station^
+This is the place to come to if one is overcome by the heat and gore.  (Or if
+a lion gets loose.)  You see a jar of live &+Rleeches&* and other barbaric medical
+apparatus lying about here.  From the west comes the roar of the crowd, and a
+hall leads east.  The doctor will be with you shortly.
+^
+rome12 e:rome19 s:rome13 w:rome5;
+Altitude = 450
+lflags { Outdoors }
+A Dirt Road^
+You are on a parched and dusty rural road which runs east and west.  There is
+a structure lying to the south.
+^
+rome13 n:rome12 e:rome20 s:rome14;
+lflags {}
+The Commoner's House^
+You are standing in the main living quarters of a common Roman citizen.  The
+&+Mfurnishings&* are sparse and it is warm here.  A putrid odor is coming from the
+east and passages lead north and south.
+^
+rome14 n:rome13;
+lflags {}
+The Bedchamber^
+This is the bedroom.  There is a hard and lumpy bed in the far corner.  It
+looks like the commoner's wife has been shirking her duties lately, as there
+is a big pile of soiled &+ylaundry&* here.  The only way out is from where you
+came.
+^
+rome15 e:rome22 u:rome8;
+Altitude = 600
+lflags { Outdoors }
+The Nobleman's Box^
+These are the 'better' seats used primarily by the upper class of Rome.  There
+is a large seating area to the east and a staircase leading up here.  The view
+of the chariot track is pretty good.
+^
+rome16 w:rome9 u:rome23 d:rome17;
+Altitude = 400
+lflags { Outdoors }
+Race Track^
+This is a hard dirt track about a quarter of a mile long.  There are hoof
+prints everywhere, and you see a large cloud of dust approaching.  You had
+better move before you get run over.  A small tunnel leads west, you can see
+the crowd to the east.  You can hear loud snarls and roars coming from below.
+^
+rome17 ;
+lflags { Death }
+The Lion Pit^
+Let's just say that your demise was not pretty and that the lions had a tasty
+mid-day snack.....YOU.  I'm very sorry, but, you are really dead!!
+^
+rome18 e:rome25 s:rome19 w:rome10;
+Altitude = 450
+lflags { Outdoors }
+South Entrance to the Coliseum^
+You are standing at the south entrance to the Coliseum.  There are citizens of
+Rome everywhere, apparently in a mad rush to get in.  A &+Cstatue of Caligula&* the
+Mad Emperor overlooks the area.  There are long &+Ylines&* of people standing to the
+east, an acrid smell is coming from the west and a busy road lies to the south.
+^
+rome19 n:rome18 e:rome26 w:rome12;
+Altitude = 450
+lflags { Outdoors }
+The Main Highway^
+This is a well built and heavily traveled road running from east to west, and
+there is a large structure built entirely of stone to the north.
+^
+rome20 w:rome13;
+lflags {}
+The Outhouse^
+PEEEEEEEEEEEEEEEE-YEEEEEWWWWWWWW!!!!!  Boy does it stink in here!!!  You taste
+bile in your mouth and your eyes begin to water.  As you wipe away your tears,
+you see that this is a small room, in the far corner of which a &+yhole&* is dug.
+The odor intensifies as you move closer and there is a &+Croll of toilet paper
+sitting on the ground.  The only exit is to the west and your nose and stomach
+are strongly suggesting that you use it.
+^
+rome21 e:rome27;
+lflags {}
+The Slave Quarters^
+This is where the slaves sleep.  There are hard boards set out for use as beds
+and not much else.  The only exit is to the north.
+^
+rome22 s:rome23 w:rome15;
+Altitude = 500
+lflags { Outdoors }
+The Common Seating^
+This is where many of the common Roman citizens are seated during the games.
+These are the cheapest seats in the house, as glare from the sun is usually a
+problem during the afternoon.  Like the other common seating areas, this place
+could stand extensive renovation and a thorough cleaning.  This area extends
+to the south and a much more elegant seating area can be seen to the west.
+^
+rome23 n:rome22 s:rome24;
+Altitude = 500
+lflags { Outdoors }
+The Common Seating^
+This is where many of the common Roman citizens are seated during the games.
+Like the other commoners' areas in the coliseum, it could use extensive
+renovation and cleaning.  This area extends to the north and lots of noise can
+be heard coming from the south.
+^
+rome24 n:rome23 e:rome31 s:rome25;
+Altitude = 450
+lflags { Outdoors }
+East Entrance to Coliseum^
+You are standing at the east entrance to the Coliseum.  There are people
+everywhere, apparently in a mad rush to get in.  A &+Cstatue of Tiberius&*, an
+emperor of a time long since passed, stands here looking out over the crowd.
+There is a passage to the north, the ticket booth is to the south and a gate
+opening to the city lies to the east.
+^
+rome25 n:rome24 w:rome18;
+Altitude = 450
+lflags { Outdoors }
+At the Ticket Booth^
+People are standing in long lines here, waiting to buy tickets.  There are
+3 vendors working furiously, but hopelessly backed up.  Ticket stubs litter
+the ground and you can see that the people are getting very impatient.  There
+is a large, open &+Gcashbox&* here.  Main entrances to the Coliseum are to the north
+and west.
+^
+rome26 e:rome33 s:rome27 w:rome19;
+Altitude = 450
+lflags { Outdoors }
+Paved Road^
+You are on a paved road that runs east to west.  You can see an elaborate
+looking estate to the south and to the north-west, off in the distance, you
+can see a very large stone &+cstructure.
+^
+rome27 n:rome26 e:rome34 s:rome28 w:rome21;
+Altitude = 460
+lflags { Outdoors }
+Noble Estate^
+You are on the grounds of a nobleman's estate which is hundreds of times the
+size and splendor of anything that a common citizen of Rome would ever hope
+to own.  Everything is lush and green.  The grass is perfectly manicured and
+the &+Gtrees&* are all bearing fruit.  Ornamental plants are in perfectly situated
+to enhance and adorn the three statues of dedicated to gods Jupiter, Venus and
+Neptune.  A tranquil path leads east and west, there is a paved road to the
+north and an extravagant house lies to the south.
+^
+rome28 n:rome27;
+lflags { }
+An Opulent House^
+You stand in a house, the size and splendor of which almost defies the
+imagination.  The &+Cfloor&* is done with hand crafted marble tile with silver
+and jeweled inlays.  The light coming through the exquisitely crafted stained
+glass &+Cwindows&* bathes the room in splendor and the &+Bfurniture&* looks as though it
+was made by master craftsmen from all over the empire.  A path through the
+estate is north of here.
+^
+rome29 s:rome30;
+Altitude = 480
+lflags { Outdoors }
+The Great North Gate^
+This is the northern gateway to the city of Rome.  The huge gate appears to be
+closed and locked against intrusion.  A large muddy &+yroad&* runs through the
+&+Cgate&* and into the countryside.  Nero Drive runs south from here.
+^
+rome30 n:rome29 s:rome31 w:rome62;
+Altitude = 450
+lflags { Outdoors }
+Nero Drive^
+You are walking on a paved road that runs south through the city of Rome.  A
+great gate is directly north of here.  The Roman citizens are very friendly
+and tip their hats or say hello as you pass.
+^
+rome31 n:rome30 s:rome32 w:rome24;
+Altitude = 450
+lflags { Outdoors }
+Nero Drive^
+You are walking on a great paved road that runs north and south through the
+city.  People are hurrying from one place to another, but always stop to say
+hello.  Most of the people are either coming from or going to the town square.
+Nero Drive continues to the north, and you can see a large open area to the
+south.
+^
+rome32 n:rome31 e:rome39 s:rome33;
+Altitude = 450
+lflags { Outdoors }
+Town Square^
+You are standing in the middle of a large open area which is the common area
+of Rome.  During the day, this place is alive with the hustle and bustle of
+all of the citizens of Rome and everyone in the city is sure to stop by at
+some time or another.  There are several street &+Yvendors&* peddling their wares
+and the overall atmosphere is carnival-like in nature.  To the southeast, off
+in the distance, you can see the &+Baquaduct&* and the buildings of the Roman
+government lie to the northwest.  Nero Drive leads north and south from here
+and Clay Avenue runs east.
+^
+rome33 n:rome32 e:rome40 s:rome34 w:rome26;
+Altitude = 480
+lflags { Outdoors }
+Nero Drive^
+You are walking on a paved road that runs north and south through the city of
+Rome.  There are many people here, as polite as always.  Most of them are
+either coming from or going to the town square which lies to the north.  Nero
+Drive continues to the south.  There is an observation area overlooking the
+aqueduct to the east and a paved road leads west.
+^
+rome34 n:rome33 s:rome35 w:rome27;
+Altitude = 450
+lflags { Outdoors }
+Nero Drive^
+This is a busy paved road that runs north through the city.  The people of
+Rome are very friendly and say hello as you pass.  A gate leading out of the
+city lies to the south and a small path goes west towards a nobleman's estate.
+To the east, off in the distance, lies the great mountain.  It is rumored that
+the gods watch over and protect the empire from there.
+^
+rome35 n:rome34 e:rome42;
+Altitude = 450
+lflags { Outdoors }
+The South Gate^
+This is the southern gateway to the city of Rome.  The bronze &+ygate&* is closed
+and locked.  Looking through the bars, you see a heavily traveled road leading
+out of the city.  Nero Drive starts here and runs north and a wizard's shop
+lies to the east.
+^
+rome36 n:rome43 s:rome37;
+lflags {}
+The Emperor's Private Office^
+You are standing in the emperor's private office.  The room is richly
+furnished with the finest of the loot brought back from conquests of far
+away lands.  There is a massive, intricately carved &+ydesk&* here, upon which
+are important &+Cdocuments&*, decrees and other paperwork involved in running the
+empire.  On the far wall, there is a marble &+ybookcase&* that is well stocked
+with the works of Homer, Plato, Socrates and other wise men.  Further, it
+seems that the current emperor likes &+Yflowers&* as there are many potted and cut
+specimens throughout the room.  There is a french door leading to the waiting
+room and a wooden door to the south.
+^
+rome37 n:rome36 e:rome44 s:rome38;
+lflags {}
+The Senate Chambers^
+This is the working room where elected senators from all over the empire
+gather to advise the emperor.  An official seal of the emperor is hanging on
+the far wall.  There is a wooden door to the north and a bronze door to the
+east and doublehung door to the south.
+^
+rome38 n:rome37;
+lflags {}
+The House of Commons^
+This is the lower house of the advising body to the emperor.  Common men from
+all parts of Rome work here to further assist the senators in advising the
+emperor on critical matters of state.  The seal of the emperor is painted on
+the far wall.  The only exit is to the north.
+^
+rome39 e:rome46 s:rome41 w:rome32;
+Altitude = 450
+lflags { Outdoors }
+Clay Avenue^
+You are on a wide well traveled road running east and west through the heart
+of Rome.  There are large &+Rcrowds&* of people to the west and the road continues
+to the east.  The aquaduct is directly south of here.
+^
+rome40 w:rome33;
+Altitude = 550
+lflags { Outdoors }
+Observation Lookout^
+You are on a platform overlooking a massive aquaduct.  There is a &+ctelescope
+mounted to the railing that surrounds the area and you can hear the gurgle of
+water as it is channeled into the city.  Off in the distance, you can see the
+Mountain of the Gods.  There is a &+Csign&* mounted to the railing and a ramp leads
+west.
+^
+rome41 n:rome39 e:rome48 s:rome41 w:rome54;
+lflags { NoMobiles }
+The Aquaduct^
+You are in a massive stone structure that has been designed to channel water
+into the city of Rome.  Due to the recent drought, the water level is low,
+allowing passage without a boat.  The walls and floor are covered with algae
+and &+Gslime&* producing treacherous footing conditions.  There are exits to the
+north, south and east.
+^
+rome42 e:rome49 w:rome35;
+lflags { }
+The Mage's Shop^
+You are standing in the mage's shop.  Magical ointments, charms and potions
+are sitting on shelves and behind a glass counter.  There is a dense neon
+&+Bblue fog&* hugging the floor here, making it impossible to see below your knees.
+You suddenly hear muttering coming from the back room, possibly from ....
+KKKKKAAAAAAAABBBBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMM!!!!!!
+You are deafened by the noise from a tremendous explosion and the concussion
+from the blast staggers you!  The shopkeeper seems to pay no heed to this.
+The door to the back room opens and an older man, wearing a pointed hat, whose
+face is smudged with soot, sticks his head out.  'Is everyone alright?  Sorry
+about that.  I was testing a new mage's spell.  I'll try to give advance notice
+next time,' he says.  The door then closes.
+^
+rome43 e:rome50 w:rome36 s:rome44;
+lflags { }
+The Waiting Room^
+You are standing in a very large room with a high ceiling and there are a few
+people waiting here to see the emperor on urgent matters. The master scheduler
+tells you to have a seat and sends a page to inform his highness of your
+arrival.  There are large doors to the east and a gold plated door to the west
+along with an exit leads south to the foyer. There is a &+Csign&* here.
+^
+rome44 n:rome43 w:rome37 d:rome45;
+lflags { }
+The Entrance Foyer^
+You have just entered the main government building of the Roman Empire and are
+standing in a massive room with an elaborately decorated domed roof.  There
+are many people here--messengers and senators being the most numerous.  There
+is a large, ornate door to the west, a hallway leads north and marble stairs
+that lead out of the building are to the south.
+^
+rome45 u:rome44 d:rome46;
+Altitude = 600
+lflags { Outdoors }
+Outside the Capitol^
+You stand on white marble steps that lead up and into the Capitol Building.
+There are several &+Cstatues&*, none of any real significance, at the entrance to
+the building.  The main entrance to the building is at the top of the &+Cstairs.
+^
+rome46 n:rome63 e:rome51 w:rome39 u:rome45;
+Altitude = 500
+lflags { Outdoors }
+Clay Avenue^
+You are standing on a wide, heavily traveled road that runs east and west
+through the heart of the city.  There are marble steps leading up.  To the
+south, off in the distance, you can see a large &+Cstone structure&* and a &+ymountain
+that is partially obscured by the haze.  There is a general store to the north.
+^
+rome47 d:rome52;
+Altitude = 9000
+lflags { Private NoMobiles }
+The Summit of The Mountain of the Gods^
+You are at the summit of a very high mountain and are standing above the
+clouds.  The sun is shining brilliantly here and the clouds below look like
+balls of cotton.  The path that you have been walking on is damp and the scent
+of lilac is in the air.
+^
+rome48 e:rome57 s:rome41 w:rome54;
+lflags {}
+The Aqueduct^
+You are in a massive stone structure that has been designed to channel water
+into the city of Rome.  Due to the recent drought, the water level is low,
+allowing passage without a boat.  The walls and floor are covered with algae
+and slime, producing treacherous footing conditions.  There are exits in all
+four cardinal directions.
+^
+rome49 w:rome42;
+lflags {}
+Froboz's Workshop^
+You are standing in the workshop of Froboz the Great, the most powerful and
+famous mage that Rome has ever known.  Workbenches line the walls and are
+covered with various test &+Ctubes, beakers, petri dishes&* and crucibles and there
+is an odor in here that can best be described as a combination of old sweat
+socks and burning tires.  The only exit is back through the door through which
+you came.  In the middle of the room, you see a pile of ashes that looks like
+it once was a body and Froboz is busy making adjustments on a new type of
+magic wand .... possibly the one responsible for the explosion a few minutes
+ago.  He removes a jeweler's loupe from his eye as he turns around.  'How in
+the name of Merlin did you get in here??!!' he asks.  'Oh, nevermind!  Since
+you are here, you can serve as witnesses to the final test of the new mage's
+spell:  'ectowatt'.'  With this he makes a magical gesture and the Paladin
+Knight appears.  Crossing his fingers, Froboz waves the wand his direction and
+what happens next is incredible!  The Paladin is enveloped in what appears to
+be a small, well contained, thermonuclear explosion.  When the smoke clears
+you can see that the Paladin and all of equipment has been reduced to a large
+pile of flaming &+Rcinders&*.  Froboz throws his head back and cackles with insane
+glee.  'Now, my young friends, what can I do for you?' he asks.
+^
+rome50 e:rome55 s:rome60 w:rome43;
+lflags { }
+The Courtroom^
+You stand inside of a large courtroom in which common civil disputes and
+criminal matters are decided.  There is a judge's bench and a witness stand
+on the far side of the room and a jury's box along side.  The emperor's &+Mseal
+is prominently displayed on the wall behind the judge's &+ystand&*, reminding all
+who enter that he is an extension of his highness.  There is a door, possibly
+leading to the judge's chambers, to the east and the waiting room is to the
+west.
+^
+rome51 e:rome64 w:rome46;
+lflags { Outdoors }
+The East Gate of Rome^
+You are standing inside of the eastern gate of Rome.  There are two tall
+&+Mspires&* built into the city wall, from which the guards can see the whole
+eastern side of the city.  The &+ygate&* is currently open and to the east,
+there is a heavily used road, made of packed clay, that leads out of Rome.
+Another road leads westward into the city.
+^
+rome52 u:rome47 d:rome56;
+Altitude = 5000
+lflags { Outdoors }
+A Mountain Path^
+You stand on a small &+ytrail&* that leads up and down.  It has recently been
+raining and there are small puddles everywhere.  You are just below the
+clouds and the view of the surrounding countryside is breathtaking.
+^
+rome53 n:rome41 e:rome54 s:rome58;
+lflags {}
+The Aquaduct^
+You are in a massive stone structure that has been designed to channel water
+into the city of Rome.  Due to the recent drought, the water level is low,
+allowing passage without a boat.  The walls and floor are covered with algae
+and slime, producing treacherous footing conditions.  There are exits in all
+four cardinal directions.
+^
+rome54 n:rome41 e:rome53 s:rome58 w:rome48;
+lflags {}
+The Aquaduct^
+You are in a massive stone structure that has been designed to channel water
+into the city of Rome.  Due to the recent drought, the water level is low,
+allowing passage without a boat.  The walls and floor are covered with algae
+and slime, producing treacherous footing conditions.  There are exits in all
+four cardinal directions.
+^
+rome55 w:rome50;
+lflags {}
+Judge's Chambers^
+You are in a small room that is filled with legal &+Rtomes&*.  There is a small
+desk here, literally buried under legal &+Cdocuments&*.  There is also a small
+window overlooking the northern part of the city.
+^
+rome56 u:rome52 d:rome59;
+Altitude = 3000
+lflags { Outdoors }
+A Mountain Path^
+You are standing on a small &+ytrail&* that leads through a grove of &+Gtrees&*.  Every
+thing is lush and green here and it appears to have been raining recently.
+'This would be an ideal place for a picnic,' you think to yourself.
+^
+rome57 n:rome54 e:rome54 s:rome58 w:rome41;
+lflags {}
+The Aquaduct^
+You are in a massive stone structure that has been designed to channel water
+into the city of Rome.  Due to a recent drought, the water level is low,
+allowing passage without a boat.  The walls and floor are covered with algae
+and slime, producing treacherous footing conditions.  A valley lies to the
+south and the other cardinal directions lead further into the aqueduct.
+^
+rome58 n:rome54 u:rome59;
+Altitude = 500
+lflags { Outdoors }
+The Valley of the Gods^
+You stand in a tranquil valley at the base of a large mountain.  A quiet
+&+Bstream&* full of &+Cfish&*, with &+Rfruit&* trees growing along its banks, winds its way 
+peacefully through the valley and enters a large stone structure that lies 
+to the west.  There are birds singing and every now and then a ripple breaks 
+the surface of the stream.  You can see a path leading up, through the trees.
+There is a small hole, from which you can hear rushing water, to the north.
+^
+rome59 u:rome56 d:rome58;
+Altitude = 1000
+lflags { Outdoors }
+A Mountain Path^
+You are standing on a path that leads up through a stand of large &+Gtrees.
+Everything is green and it seems like eternal spring - this is Mother Nature
+at her finest.  It is possible to descend into a tranquil valley from here.
+^
+rome60 n:rome50 e:rome61;
+lflags {}
+The Holding Cells^
+You are standing in the holding &+Bcell&* area, just off of the courtroom.  Those
+who are recently convicted of serious crimes are brought here, pending torture
+and execution.  The courtroom lies to the north and another exit goes east.
+^
+rome61 w:rome60;
+lflags {}
+The Torture Chamber^
+You are standing in a very small room in which there are many tools designed
+specifically for inflicting pain and suffering.  Some of them are familiar,
+such as the rack and the iron maidens.  Others, you have never seen before
+and they make you wonder about the kind of sadistic mind that dreamt them up.
+The only exit is to the west.
+^
+rome62 e:rome30;
+lflags {}
+The Roman Bakery^
+You are standing in the bakery of Rome and your mouth waters at the delicious
+aromas wafting from the kitchen.  The only exit is to the east.
+^
+rome63 s:rome46;
+lflags {}
+The General Store^
+You are standing in the only general store of Rome.  The walls and shelves
+are covered with all of the various items required by Roman citizens and
+stalwart mudders.  Clay Avenue lies to the south.
+^
+rome64 e:rome65 w:rome51;
+Altitude = 430
+lflags { Outdoors }
+Before Rome^
+You travel upon an East-West road wide enough for 30 men to march
+abreast.  It is packed hard through heavy use.  To the west stand the
+Gates of Rome inviting you to enter and partake of all the glory and
+splendor that is Rome.
+^
+rome65 n:rome68 e:rome66 w:rome64;
+Altitude = 440
+lflags { Outdoors }
+Clay Road^
+You travel upon an East-West road wide enough for 30 men to march
+abreast.  It is packed hard through heavy use.  To the west, you eyes
+catch the splendors of a mighty city.  North of here, there is a large 
+concrete landing pad.
+^
+rome66 e:rome67 w:rome65;
+Altitude = 450
+lflags { Outdoors }
+Clay Road^
+You travel upon an East-West road wide enough for 30 men to march abreast.
+^
+rome67 w:rome66 e:desertSD32@sdesert;
+Altitude = 460
+lflags { NoMobiles Peace Outdoors }
+End of the Clay Road^
+The mighty clay road turns into lesser, but still well traveled roads
+here.  You feel a surge run through your body as you look East into the
+desert that Rome has conquered.  This looks like a safe place to rest 
+before starting into one of the power and dangerous cities ever to exist.
+^
+rome68 s:rome65;
+Altitude = 500
+lflags { NoMobiles Outdoors }
+Rome Central Station^
+You are standing on a hastily constructed train platform about 70 meters long
+and several meters wide.  There are train tracks to your east and west.  The
+station exit is to the south.
+^

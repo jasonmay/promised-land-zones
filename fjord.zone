@@ -1,0 +1,3421 @@
+
+
+
+
+
+%zone:fjord
+
+%mobiles
+
+Name          = schmuck
+PName         = "Schmuck"
+Eflags        { Cripple }
+Location      = fjord33
+Strength      = 150   
+Damage        = 11
+Armor         = 2
+Speed         = 10
+Aggression    = 0
+Description   = "Some schmuck has apparently lost the trail."
+Examine       = "Yup, 100% pure loser!"
+End           = schmuck
+
+Name          = lyddakin
+PName         = "Lyddakin"
+Pflags        { NoHassle NoMagic NoSteal }
+Location      = fjord100
+Strength      = 1500
+Damage        = 15
+Armor         = 90
+Speed         = 0
+Aggression    = 0
+Description   = "The CEO of the Fallenthorp ghouls, Lyddakin, plods along his golem path."
+Examine       = "
+He wears an eyepatch to hold his injured eye in from a snake-like
+parasite that is slowly feasting off him."
+End           = lyddakin
+
+Name          = pop
+PName         = "Ambar"
+Pflags        { NoHassle NoMagic NoSteal }
+Location      = fjord118
+Strength      = 400
+Damage        = 16
+Armor         = 0
+Speed         = 0
+Aggression    = 0
+Description   = "The leader of the house currently is Ambar."
+Examine       = "Bulging muscles allow this mighty warrior to have his say."
+End           = pop
+
+Name          = mom
+PName         = "Kryseah"
+Pflags        { NoHassle NoMagic NoSteal }
+Sflags        { Female }
+Location      = fjord118
+Strength      = 200
+Damage        = 9
+Armor         = 0
+Speed         = 0
+Aggression    = 0
+Description   = "Kryseah attempts to comfort her son's loss."
+Examine       = "She beseeches your help in determining what is wrong with her son."
+End           = mom
+
+Name          = kid
+PName         = "Hifnog"
+Pflags        { NoHassle NoMagic NoSteal }
+Location      = fjord118
+Strength      = 100
+Damage        = 10
+Armor         = 0
+Speed         = 0
+Aggression    = 0
+Description   = "Hifnog the spoiled brat asks for your help."
+Examine       = "This kid really, REALLY needs to be smacked."
+End           = kid
+
+Name          = pbear
+PName         = "Polar Bear"
+Location      = fjord104
+Strength      = 600
+Damage        = 15
+Armor         = 6
+Speed         = 0
+Aggression    = 0
+Description   = "A polar bear wanders around on the iceberg, surviving on snatching fish."
+Examine       = "He looks imploringly at you."
+End           = pbear
+
+Name	   = pbear2
+Pname	   = "Polar Bear"
+Location   = fjord100
+Strength   = 600
+Damage     = 15
+Armor      = 6
+Speed      = 0
+Visibility = 22
+Description = "A &+Rpolar bear &*is happy to be reunited with his family."
+End	   = pbear2
+
+Name          = squid
+PName         = "Squid"
+Mflags	{ Aquatic }
+Location      = fjord108
+Strength      = 150
+Damage        = 10
+Armor         = 0
+Speed         = 20
+Aggression    = 0
+Description   = "A small squid swims nearby."
+Examine       = "Ten eyes stare at you while ten tentacles flee the squid elsewhere."
+End           = squid
+
+Name          = halofish
+PName         = "Halofish"
+Location      = fjord108
+Mflags	{ Aquatic }
+Strength      = 100
+Damage        = 11
+Armor         = 0
+Speed         = 30
+Aggression    = 0
+Description   = "A bubble blowing behemoth of a halofish swims around brilliantly."
+Examine       = "The glow is WAY far out in a groovy sort of way!"
+End           = halofish
+
+Name          = octopus
+PName         = "Octopus"
+Location      = fjord108
+Mflags	  { Aquatic }
+Sflags        { Female }
+Strength      = 140
+Damage        = 12
+Armor         = 3
+Speed         = 10
+Aggression    = 0
+Description   = "An octopus well-trained in the art of 'coloring thine enemies' is here."
+Examine       = "If thrown right, these guys make excellent boomerangs."
+End           = octopus
+
+Name          = dendine
+PName         = "Dendine"
+Location      = fjord116
+Pflags        { NoHassle NoMagic NoSteal }
+Sflags        { Female }
+Eflags        { Shock Frost }
+Strength      = 230
+Damage        = 10
+Armor         = 0
+Speed         = 0
+Aggression    = 0
+Description   = "The local magician, Dendine, practices her arts of the physical laws."
+Examine       = "She is truly a failure at the spiritual laws, however."
+End           = dendine
+
+Name          = minddude
+PName         = "Owner"
+Location      = fjord100
+Strength      = 110
+Damage        = 8
+Armor         = 0
+Speed         = 0
+Aggression    = 100
+Description   = "The owner of the brainwashing shop is here to rip you apart."
+Examine       = "Out of the Fallenthorp ghouls, this guy is a runt."
+End           = minddude
+
+Name          = chipmunk
+PName         = "Chipmunk"
+Eflags        { Blind }
+Location      = fjord8
+Strength      = 85
+Damage        = 9
+Armor         = 0
+Speed         = 45
+Aggression    = 75
+Description   = "A flying chipmunk soars at you with short, black claws."
+Examine       = "Although not rabid, they are annoying."
+End           = chipmunk
+
+Name          = doe
+PName         = "Doe"
+Sflags        { Female }
+Eflags        { Missile Shock Fireball }
+Location      = fjord9
+Strength      = 225
+Damage        = 11
+Armor         = 0
+Speed         = 2
+Aggression    = 0
+Description   = "A doe tiptoes through the area, looking for her mate."
+Examine       = "She's got a dainty little nose and pair of soft ears."
+End           = doe
+
+Name          = fawn
+PName         = "Fawn"
+Sflags        { Female }
+Eflags        { Shock }
+Location      = fjord11
+Strength      = 100
+Damage        = 9
+Armor         = 0
+Speed         = 5
+Aggression    = 0
+Description   = "A young fawn searches for her mother."
+Examine       = "Completely covered in brown and beige spots."
+End           = fawn
+
+Name          = hog
+PName         = "Hedgehog"
+Location      = fjord12
+Strength      = 55
+Damage        = 8
+Armor         = 0
+Speed         = 0
+Aggression    = 50
+Description   = "A roaming hedgehog leads his tracks everywhere in the meadow."
+Examine       = "They can leave nice welts when they bite."
+End           = hog
+
+Name          = buck
+PName         = "Buck"
+Location      = fjord30
+Strength      = 300
+Damage        = 12
+Armor         = 5
+Speed         = 7
+Aggression    = 0
+Description   = "A built buck with flashing antlers looks for his mate."
+Examine       = "He could poke some nice holes in an attacker."
+End           = buck
+
+Name          = rusting
+PName         = "rusting bucket"
+Eflags        { Shock }
+Mflags        { DrainScr NoCorpse }
+Sflags	  { NoBody }
+Location      = fjord4
+Strength      = 95
+Damage        = 10
+Armor         = 0
+Speed         = 0
+Aggression    = 100
+Description   = "A rusting bucket jumps at you with fingers of splinters!"
+Examine       = "Some fool sorceror left this thing enchanted!"
+End           = rusting
+
+Name          = flatface
+PName         = "Flatface"
+Location      = fjord100
+Mflags	{ Nocorpse }
+Sflags 	{ Nobody }
+Strength      = 115
+Damage        = 11
+Armor         = 4
+Speed         = 0
+Aggression    = 100
+Description   = "The altar is guarded by a face inset in the top of it!"
+Examine       = "Your bones would go perfect as a altar snack."
+End           = flatface
+
+Name          = faun
+PName         = "Faun"
+Location      = fjord33
+Strength      = 175
+Damage        = 10
+Armor         = 2
+Speed         = 4
+Aggression    = 0
+Description   = "A young faun searches for the rest of his family."
+Examine       = "Completely covered in brown and beige stripes."
+End           = faun
+
+Name          = f_duck
+PName         = "Fungus Duck"
+Mflags	{ NoCorpse }
+Sflags	{ NoBody }
+Location      = fjord36
+Strength      = 130
+Damage        = 13
+Armor         = 3
+Speed         = 0
+Aggression    = 80
+Description   = "
+A duck made from animated fungal matter swims toward you, quacking
+grotesquely as it splashes the soup eveywhere."
+Examine       = "
+Thank goodness it can never breed."
+End           = f_duck
+
+Name          = bear
+PName         = "Stormbear"
+Eflags        { Frost IceStorm }
+Location      = fjord40
+Strength      = 450
+Damage        = 16
+Armor         = 4
+Speed         = 7
+Aggression    = 0
+Description   = "A rather large blackbear growls as sparks travel between its cloudy eyes."
+Examine       = "
+Able to call down the power of severe arctic storms, this breed of bear is
+often revered and sought ought as personal guardians."
+End           = bear
+
+Name          = elk
+PName         = "Elk"
+Location      = fjord45
+Strength      = 165
+Damage        = 14
+Armor         = 10
+Speed         = 20
+Aggression    = 0
+Description   = "A mountain elk peacefully stalks the rocks here."
+Examine       = "Elks of this region were never known for their intelligence."
+End           = elk
+
+Name          = eagle
+PName         = "Eagle"
+Eflags        { Blind Mute }
+Mflags  { Flyer }
+Location      = fjord49
+Strength      = 87
+Damage        = 9
+Armor         = 0
+Speed         = 0
+Aggression    = 5
+Description   = "A buzzard eagle swoops down from its nearby nest."
+Examine       = "Starvation does blind an animal's judgement on food."
+End           = eagle
+
+Name          = librarian
+PName         = "Linkon"
+Sflags        { Female }
+Location      = fjord94
+Strength      = 150
+Damage        = 5
+Armor         = 0
+Speed         = 0
+Aggression    = 0
+Description   = "Linkon the librarion yells from the overload of overdue books."
+Examine       = "She's almost ready to go postal."
+End           = librarian
+
+Name          = gutter
+PName         = "Carmegan"
+Location      = fjord97
+Strength      = 200
+Damage        = 13
+Armor         = 0
+Speed         = 0
+Aggression    = 0
+Description   = "Carmegan stands here gutting fish with his huge hands."
+Examine       = "He is totally professional and nonsensical in his daily work habits."
+End           = gutter
+
+Name          = bastard
+PName         = "Bastard"
+Location      = fjord98
+Strength      = 160
+Damage        = 9
+Armor         = 0
+Speed         = 25
+Aggression    = 95
+Description   = "A drunkard here is the official town bastard."
+Examine       = "You could feel hammered just by looking at this guy!"
+End           = bastard
+
+Name          = owner
+PName         = "Torqous"
+Location      = fjord98
+Strength      = 230
+Damage        = 10
+Armor         = 0
+Speed         = 0
+Aggression    = 0
+Description   = "The owner of the inn, Torqous, mends some bed sheets."
+Examine       = "He smiles and welcomes you warmly to his inn."
+End           = owner
+
+Name          = goodwind
+PName         = "Incarnation"
+Eflags        { Missile Frost }
+Location      = fjord99
+Strength      = 400
+Damage        = 10
+Armor         = 4
+Speed         = 0
+Aggression    = 0
+Description   = "The current Incarnation of the divine winds is here daydreaming."
+Examine       = "His body crackles with magical potential."
+End           = goodwind
+
+Name          = snork
+PName         = "Ghoulie Snork"
+Pflags        { NoHassle NoMagic NoSteal }
+Mflags	{ Nocorpse }
+Location      = fjord79
+Strength      = 100
+Damage        = 10
+Armor         = 0
+Speed         = 0
+Aggression    = 0
+Description   = "
+One of the local ghouls is hard at work here."
+Examine       = "Need anything ghoul-related fixed?"
+End           = snork
+
+Name          = gump
+PName         = "Ghoulie Gump"
+Location      = fjord66
+Mflags	{ Nocorpse }
+Strength      = 60
+Damage        = 6
+Armor         = 0
+Speed         = 30
+Aggression    = 7
+Description   = "One of the local ghouls is here."
+Examine       = "
+Complete with a rusty black sword, fangs, sunken eyes, and flesh-shredding 
+claws, what else do you need?"
+End           = gump
+
+Name          = baldour
+PName         = "Ghoulie Baldour"
+Location      = fjord66
+Mflags	{ Nocorpse }
+Strength      = 60
+Damage        = 6
+Armor         = 0
+Speed         = 4
+Aggression    = 30
+Description   = "One of the local ghouls is here."
+Examine       = "
+Complete with a rusty black sword, fangs, sunken eyes, and flesh-shredding 
+claws, what else do you need?"
+End           = baldour
+
+Name          = icexand
+PName         = "Ghoulie Icexand"
+Location      = fjord66
+Mflags	{ Nocorpse }
+Strength      = 90
+Damage        = 6
+Armor         = 0
+Speed         = 0
+Aggression    = 30
+Description   = "
+One of the local ghouls is here."
+Examine       = "
+Complete with a rusty black sword, fangs, sunken eyes, and flesh-shredding 
+claws, what else do you need?"
+End           = icexand
+
+Name          = adarkar
+PName         = "Ghoulie Adarkar"
+Location      = fjord66
+Mflags	{ Nocorpse }
+Strength      = 50
+Damage        = 10 
+Armor         = 0
+Speed         = 30
+Aggression    = 10
+Description   = "One of the local ghouls is here."
+Examine       = "
+Complete with a rusty black sword, fangs, sunken eyes, and flesh-shredding 
+claws, what else do you need?"
+End           = adarkar
+
+Name          = porto
+PName         = "Ghoulie Porto"
+Location      = fjord66
+Mflags { Nocorpse }
+Strength      = 70
+Damage        = 7 
+Armor         = 0
+Speed         = 5
+Aggression    = 30
+Description   = "One of the local ghouls is here."    
+Examine       = "
+Complete with a rusty black sword, fangs, sunken eyes, and flesh-shredding 
+claws, what else do you need?"
+End           = porto
+
+Name          = discera
+PName         = "Ghoulie Discera"
+Location      = fjord66
+Mflags	{ Nocorpse }
+Strength      = 60
+Damage        = 6 
+Armor         = 0
+Speed         = 4
+Aggression    = 30
+Description   = "One of the local ghouls is here."    
+Examine       = "
+Complete with a rusty black sword, fangs, sunken eyes, and flesh-shredding 
+claws, what else do you need?"
+End           = discera
+
+Name          = bjorlak
+PName         = "Ghoulie Bjorlak"
+Location      = fjord66
+Mflags	{ Nocorpse }
+Strength      = 65
+Damage        = 5 
+Armor         = 0
+Speed         = 8
+Aggression    = 30
+Description   = "One of the local ghouls is here."    
+Examine       = "
+Complete with a rusty black sword, fangs, sunken eyes, and flesh-shredding 
+claws, what else do you need?"
+End           = bjorlak
+
+Name          = glosh
+PName         = "Ghoulie Glosh"
+Location      = fjord100
+Mflags	{ NoCorpse }
+Strength      = 150
+Damage        = 7
+Armor         = 0
+Speed         = 10
+Aggression    = 10
+Description   = "
+A blood-soaked minion of the underworld is here, enjoying its freedom as it
+methodically rips apart this area of the world of life."    
+Examine       = "
+Complete with a rusty black sword, fangs, sunken eyes, and flesh-shredding 
+claws, what else do you need?"
+End           = glosh
+
+Name          = rembrant
+PName         = "Ghoulie Rembrant"
+Location      = fjord100
+Mflags	{ NoCorpse }
+Strength      = 150
+Damage        = 7
+Armor         = 0
+Speed         = 10
+Aggression    = 10
+Description   = "
+A blood-soaked minion of the underworld is here, enjoying its freedom as it
+methodically rips apart this area of the world of life."    
+Examine       = "
+Complete with a rusty black sword, fangs, sunken eyes, and flesh-shredding 
+claws, what else do you need?"
+End           = rembrant
+
+Name          = skullos
+PName         = "Ghoulie Skullos"
+Location      = fjord100
+Mflags	{ NoCorpse }
+Strength      = 150
+Damage        = 7
+Armor         = 0
+Speed         = 10
+Aggression    = 10
+Description   = "
+A blood-soaked minion of the underworld is here, enjoying its freedom as it
+methodically rips apart this area of the world of life."    
+Examine       = "
+Complete with a rusty black sword, fangs, sunken eyes, and flesh-shredding 
+claws, what else do you need?"
+End           = skullos
+
+Name          = scrapheap
+PName         = "Ghoulie Scrapheap"
+Location      = fjord100
+Mflags	{ NoCorpse }
+Strength      = 150
+Damage        = 7
+Armor         = 0
+Speed         = 10
+Aggression    = 10
+Description   = "
+A blood-soaked minion of the underworld is here, enjoying its freedom as it
+methodically rips apart this area of the world of life."    
+Examine       = "
+Complete with a rusty black sword, fangs, sunken eyes, and flesh-shredding 
+claws, what else do you need?"
+End           = scrapheap
+
+Name          = dunkster
+PName         = "Ghoulie Dunkster"
+Location      = fjord100
+Mflags	{ NoCorpse }
+Strength      = 150
+Damage        = 7
+Armor         = 0
+Speed         = 10
+Aggression    = 10
+Description   = "
+A blood-soaked minion of the underworld is here, enjoying its freedom as it
+methodically rips apart this area of the world of life."    
+Examine       = "
+Complete with a rusty black sword, fangs, sunken eyes, and flesh-shredding 
+claws, what else do you need?"
+End           = dunkster
+
+Name          = whiffle
+PName         = "Lizzie Whiffle"
+Location      = fjord100
+Mflags	{ NoCorpse }
+Strength      = 150
+Damage        = 7
+Armor         = 0
+Speed         = 10
+Aggression    = 10
+Description   = "
+A blood-soaked minion of the underworld is here, enjoying its freedom as it
+methodically rips apart this area of the world of life."    
+Examine       = "
+Complete with a rusty black sword, fangs, sunken eyes, and flesh-shredding 
+claws, what else do you need?"
+End           = whiffle
+
+Name          = blarg
+PName         = "Lizzie Blarg"
+Location      = fjord100
+Mflags	{ NoCorpse }
+Strength      = 150
+Damage        = 7
+Armor         = 0
+Speed         = 10
+Aggression    = 10
+Description   = "
+A blood-soaked minion of the underworld is here, enjoying its freedom as it
+methodically rips apart this area of the world of life."    
+Examine       = "
+Complete with a rusty black sword, fangs, sunken eyes, and flesh-shredding 
+claws, what else do you need?"
+End           = blarg
+
+Name          = creepazoid
+PName         = "Lizzie Creepazoid"
+Location      = fjord100
+Mflags	{ NoCorpse }
+Strength      = 150
+Damage        = 7
+Armor         = 0
+Speed         = 10
+Aggression    = 10
+Description   = "
+A blood-soaked minion of the underworld is here, enjoying its freedom as it
+methodically rips apart this area of the world of life."
+Examine       = "
+Complete with a rusty black sword, fangs, sunken eyes, and flesh-shredding 
+claws, what else do you need?"
+End           = creepazoid
+
+Name          = dopey
+PName         = "Ghoulie Dopey"
+Location      = fjord100
+Mflags	{ Nocorpse }
+Strength      = 200
+Damage        = 10
+Armor         = 0
+Speed         = 10
+Aggression    = 0
+Description   = "
+An idiot minion of the underworld looks for his favorite dinner here."
+Examine       = "
+Nothing would suit this guy better than a roast duck!"
+End           = dopey
+
+Name          = watergal
+PName         = "Madronica"
+Pflags        { NoHassle NoMagic NoSteal }
+Sflags        { Female }
+Location      = fjord89
+Strength      = 3000
+Damage        = 50
+Armor         = 40
+Speed         = 0
+Aggression    = 0
+Description   = "Madronica, legend of the arctic oceans, hunts for kraken here."
+Examine       = "
+She gives size a new definition and can flatten frigates with fire-hose
+intensive blasts of water from her snout. When no kraken is to be found,
+she'll settle for the local fish."
+End           = watergal
+
+Name          = fireguy  
+PName         = "Corpuloso"
+Pflags        { NoHassle NoMagic NoSteal }
+Location      = fjord48
+Strength      = 3000
+Damage        = 70
+Armor         = 35
+Speed         = 0
+Aggression    = 0
+Description   = "Corpuloso, legend of the Nolak Range, sniffs for food here."
+Examine       = "Loving the smell of fresh fish, he tries to find it as often as he can."
+End           = fireguy
+
+Name          = shade1
+PName         = "The Shade"
+Location      = fjord51
+Mflags        { DrainScr NoCorpse }
+Sflags	{ NoBody }
+Strength      = 90
+Damage        = 7
+Armor         = 0 
+Speed         = 20
+Aggression    = 100
+Description   = "Hands of shadowy death reach for you while crying your name."
+Examine       = "You can see straight through it at the caldera beyond."
+End           = shade1
+
+Name          = shade2
+PName         = "The Shade"
+Location      = fjord51
+Mflags        { DrainScr NoCorpse }
+Sflags	{ NoBody }
+Strength      = 90
+Damage        = 7
+Armor         = 0 
+Speed         = 20
+Aggression    = 100
+Description   = "Hands of shadowy death reach for you while crying your name."
+Examine       = "You can see straight through it at the caldera beyond."
+End           = shade2
+
+Name          = shade3
+PName         = "The Shade"
+Location      = fjord51
+Mflags        { DrainScr NoCorpse }
+Sflags	{ Nobody }
+Strength      = 90
+Damage        = 7
+Armor         = 0 
+Speed         = 20
+Aggression    = 100
+Description   = "Hands of shadowy death reach for you while crying your name."
+Examine       = "You can see straight through it at the caldera beyond."
+End           = shade3
+
+Name          = shade4
+PName         = "The Shade"
+Location      = fjord83
+Mflags        { DrainScr NoCorpse }
+Sflags	{ Nobody }
+Strength      = 90
+Damage        = 7
+Armor         = 0 
+Speed         = 20
+Aggression    = 100
+Description   = "Hands of shadowy death reach for you while crying your name."
+Examine       = "You can see straight through it at the caldera beyond."
+End           = shade4
+
+Name          = shade5
+PName         = "The Shade"
+Location      = fjord83
+Mflags        { DrainScr NoCorpse }
+Sflags	{ Nobody }
+Strength      = 90
+Damage        = 7
+Armor         = 0 
+Speed         = 20
+Aggression    = 100
+Description   = "Hands of shadowy death reach for you while crying your name."
+Examine       = "You can see straight through it at the caldera beyond."
+End           = shade5
+
+Name          = shade6
+PName         = "The Shade"
+Location      = fjord83
+Mflags        { DrainScr NoCorpse }
+Sflags	{ Nobody }
+Strength      = 90
+Damage        = 7
+Armor         = 0 
+Speed         = 20
+Aggression    = 100
+Description   = "Hands of shadowy death reach for you while crying your name."
+Examine       = "You can see straight through it at the caldera beyond."
+End           = shade6
+
+Name          = shade7
+PName         = "The Shade"
+Location      = fjord64
+Mflags        { DrainScr NoCorpse }
+Sflags	{ Nobody }
+Strength      = 90
+Damage        = 7
+Armor         = 0 
+Speed         = 20
+Aggression    = 100
+Description   = "Hands of shadowy death reach for you while crying your name."
+Examine       = "You can see straight through it at the horizon beyond."
+End           = shade7
+
+Name          = shade8
+PName         = "The Shade"
+Location      = fjord51
+Mflags        { DrainScr NoCorpse }
+Sflags	{ NoBody }
+Strength      = 90
+Damage        = 7
+Armor         = 0 
+Speed         = 20
+Aggression    = 100
+Description   = "Hands of shadowy death reach for you while crying your name."
+Examine       = "You can see straight through it at the caldera beyond."
+End           = shade8
+
+Name          = kraken
+PName         = "Kraken"
+Location      = fjord89
+Strength      = 700
+Damage        = 10
+Armor         = 2
+Speed         = 0
+Aggression    = 0
+Description   = "A large spawn of the deep is here, hiding from a larger terror."
+Examine       = "A kraken afraid? Not a good sign."
+End           = kraken
+
+Name          = swarmer
+PName         = "Sap Swarmer"
+Location      = fjord100
+Sflags	{ NoBody }
+Strength      = 90
+Damage        = 9
+Armor         = 0 
+Speed         = 0
+Aggression    = 100
+Description   = "One of the Sap Swarmers has made a serious mistake!"
+End           = swarmer
+
+Name          = catfish
+PName         = "Catfish"
+Location      = fjord19
+Mflags	 { Aquatic }
+Strength      = 95
+Damage        = 8
+Armor         = 0 
+Speed         = 20
+Aggression    = 15
+Description   = "A good-sized catfish swims innocently here, looking for small minnows."
+End           = catfish
+
+Name          = fox
+PName         = "Redfox"
+Location      = fjord29
+Strength      = 110
+Damage        = 10
+Armor         = 0
+Speed         = 0
+Aggression    = 0
+Description   = "
+A furry red fox attempts to avoid being stepped on."
+End           = fox
+
+Name          = mayor
+PName         = "Rankine Hugoniot"
+Location      = fjord96
+Strength      = 200
+Damage        = 12
+Armor         = 4
+Speed         = 0
+Aggression    = 0
+Description   = "The leader of Kyerstarn stands debating with some fish merchants."
+End           = mayor
+
+Name          = vine
+PName         = "Moldvine"
+Sflags	{ Nobody }
+Location      = fjord80
+Strength      = 220
+Damage        = 10
+Armor         = 5
+Speed         = 0
+Aggression    = 60
+Description   = "A barbed, snake-like vine tries to wrap itself about your soft neck."
+Examine       = "Acidic and moldy to the last!"
+End           = vine
+
+Name          = cap
+PName         = "Mushcap"
+Location      = fjord100
+Sflags	{ Nobody }
+Mflags	{ Nocorpse }
+Strength      = 160
+Damage        = 13
+Armor         = 0
+Speed         = 0
+Aggression    = 100
+Description   = "A mushroom cap with clicking, serrated thorns rips at your scalp."
+Examine       = "Don't lose your head over this!"
+End           = cap
+
+Name          = bugs
+PName         = "Mess O Bugs"
+Location      = fjord35
+Sflags	{ Nobody }
+Strength      = 125
+Mflags  { Flyer }
+Damage        = 10
+Armor         = 0
+Speed         = 0
+Aggression    = 0
+Description   = "
+The main mass of buzzing, humming, and flying critters invades you!"
+End           = bugs
+
+Name          = slimy
+PName         = "Slimy"
+Location      = fjord35
+Sflags	{ Nobody }
+Mflags	{ Nocorpse }
+Strength      = 190
+Damage        = 9
+Armor         = 0
+Speed         = 0
+Aggression    = 0
+Description   = "
+Something cold and slimy slips down the inside of your shirt and feels its
+way along your chest, stopping its teeth directly above your living, beating 
+heart!"
+End           = slimy
+
+Name          = gator
+PName         = "Alligator"
+Pflags        { NoHassle NoMagic NoSteal }
+Location      = fjord19
+Strength      = 400
+Damage        = 18
+Armor         = 10
+Speed         = 10
+Aggression    = 0
+Description   = "A really scaly alligator swims through the waters."
+Examine       = "Did you bring your wrestling gear?"
+End           = gator
+
+
+%objects
+
+Name          = tree
+PName         = tree
+AltName       = pine
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord10
+Examine       = "The tree has plenty of limbs for easy climbing."
+End           = tree
+
+Name          = jerky
+PName         = jerky
+Oflags        { Food Destroyed }
+Location      = IN_ROOM:fjord4
+Desc[0]       = "There are a few strips of beef jerky lying around."
+Examine       = "Just the thing for shocking those electrolytes!"
+End           = jerky
+
+Name          = leggings
+PName         = leggings
+Oflags        { Wearable Armor Destroyed }
+Aflags        { Legs }
+Location      = IN_ROOM:fjord4
+Armor         = 24
+Desc[0]       = "A pair of leggings glistens in the sunlight."
+Examine       = "Good protection against shin splints."
+End           = leggings
+
+Name          = p_stone
+PName         = powerstone
+Oflags        { Destroyed SpellChance }
+Location      = IN_ROOM:fjord4
+Desc[0]       = "A powerstone somehow got lost here."
+Examine       = "Such items enhance your magical ability."
+End           = p_stone
+
+Name          = tools
+PName         = tools
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord3
+Examine       = "
+The amount of rust on one of the spades proves no one has tended this
+garden for a very long time, but its position of being stuck halfway in
+the ground means it was in use when the digger stopped. Also strewn about
+are a pair of bush clippers and handsaw for cutting back trees."
+End           = tools
+
+Name          = pots
+PName         = pots
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord3
+Examine       = "
+Some of the shards still have their glazed paint standing against the
+elements of erosion. One larger piece still has some potting dirt in it."
+End           = pots
+
+Name          = needles
+PName         = needles
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord4
+State         = 1
+Maxstate      = 1
+Desc[0]       = "The pine needles have been shoved aside in a search."
+Examine       = "
+The floor is rather thick with the needles. Anything could have been lost
+over the years only to be found by an archaeologist."
+End           = needles
+
+Name          = cask
+PName         = cask
+Location      = IN_ROOM:fjord4
+Oflags        { NoGet }
+Examine       = "Inside the rotting framework of the cask are piles of dead termites."
+End           = cask
+
+Name          = cast_iron
+PName         = pot
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord4
+Examine       = "The inside is filled with maggots that feasted on the remains of 
+some gruel!"
+End           = cast_iron
+
+Name          = mattress
+PName         = mattress
+Location      = IN_ROOM:fjord4
+Oflags        { NoGet }
+Examine       = "It looks well-slept in, given the permanent curvature in its weaves."
+End           = mattress
+
+Name          = key
+PName         = key
+Oflags        { Key }
+Location      = IN_CONTAINER:chest
+Size          = 2
+Desc[0]       = "A marked quartz key has been left here."
+Examine       = "A dancing skeleton has been engraved on it."
+End           = key
+
+Name          = chest
+PName         = chest
+AltName       = drawers
+Location      = IN_ROOM:fjord4
+Oflags        { NoGet Container }
+Size          = 5
+Examine       = "The chest could collapse at any moment to join the broken boards
+on the ground."
+End           = chest
+
+Name          = skull
+PName         = skull
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord5
+Examine       = "A full-grown moose head stares out with empty sockets."
+End           = skull
+
+Name          = nests
+PName         = nests
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord7
+Examine       = "The nests contain some still unhatched eggs and hungry baby birds."
+End           = nests
+
+Name          = droppings
+PName         = droppings
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord9
+Examine       = "YUCK! They're fresh and smelly!!!"
+End           = droppings
+
+Name          = lichen
+PName         = lichen
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord9
+Examine       = "While not the most delectable dinner, lichen is often harvested by the
+animals for another high energy source of food."
+End           = lichen
+
+Name          = dam
+PName         = dam
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord15
+Examine       = "
+Formerly an extremely strong pine of the Muskrat forest, the minerals of
+this petrified tree shine and glisten. The water level of the lake has
+dropped way below that which required the formation of the dam."
+End           = dam
+
+Name          = buoy
+PName         = buoy
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord18
+Examine       = "The paint has been chipped off one eyeball."
+End           = buoy
+
+Name          = weeds
+PName         = weeds
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord24
+Examine       = "The weeds smell of the lake."
+End           = weeds
+
+Name          = bark
+PName         = bark
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord24
+Examine       = "
+Occasionally a windstorm will knock loose pieces of fallen bark from the
+forest into the waters."
+End           = bark
+
+Name          = dollars
+PName         = sandollars
+Location      = IN_ROOM:fjord27
+Oflags        { NoGet }
+Examine       = "These small white shells are long abandoned by their owners."
+End           = dollars
+
+Name          = cradle
+PName         = cradle
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord121
+Examine       = "During the rainy season, the cradle catches water rather well."
+End           = cradle
+
+Name          = whistler
+PName         = Whistler
+Location      = IN_ROOM:fjord121
+Oflags        { Destroyed Weapon GetFlips }
+Damage        = 22
+Size          = 15
+State         = 1
+Maxstate      = 1
+Desc[0]       = "A lightweight sword rests evenly on the ground here."
+Desc[1]       = "A medium blade of good quality is stuck in the branches."
+Examine       = "Inscribed in the hilt is the word '&+gWhistler&*'."
+End           = whistler
+
+Name          = pinecones
+PName         = pinecones
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord29
+Examine       = "The resident of this tree obviously is good at interior decorating."
+End           = pinecones
+
+Name          = logs
+PName         = logs
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord31
+Examine       = "
+You break open one section to see a collection of little forest critters
+that any nearby bird could survive for weeks on."
+End           = logs
+
+Name          = feet
+PName         = feet
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord33
+Examine       = "Whatever made these was not only large, but &+mHEAVY &*as well."
+End           = feet
+
+Name          = indentation
+PName         = indentation
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord41
+Examine       = "Your watery reflection stares back at you."
+End           = indentation
+
+Name          = c_gate_moor
+PName         = gate
+Oflags        { NoGet Openable }
+Location      = IN_ROOM:fjord1
+Linked        = c_gate_fj1
+State         = 3
+Maxstate      = 3
+Desc[0]       = "The cattle gate has been left open."
+Desc[1]       = "The cattle gate is closed."
+Desc[3]       = "
+The cattle gate has been left secure by a rusty padlock, but the lock
+seems it could be easily broken off."
+Examine       = "
+Nine metal bars span the length of the gate, with crafted spikes on top of
+the gate to prevent any animals from jumping."
+End           = c_gate_moor
+
+Name          = c_gate_fj1
+PName         = gate
+Oflags        { NoGet Openable }
+Location      = IN_ROOM:fjord2
+Linked        = c_gate_moor
+State         = 3
+Maxstate      = 3
+Desc[0]       = "The cattle gate has been left open."
+Desc[1]       = "The cattle gate is closed."
+Desc[3]       = "
+The cattle gate has been left secure by a rusty padlock, but the lock
+seems it be easily broken off."
+Examine       = "
+Nine metal bars span the length of the gate, with crafted spikes on top of
+the gate to prevent any animals from jumping."
+End           = c_gate_fj1
+
+Name          = icicle
+PName         = icicle
+Oflags        { Weapon GetFlips Destroyed }
+Location      = IN_ROOM:fjord47
+BValue        = 50
+Damage        = 10
+State         = 1
+Maxstate      = 1
+Desc[0]       = "A long icicle is here, magically preserved against melting."
+Desc[1]       = "A long icicle remains from the shattering."
+Examine       = "Cold and pointy."
+End           = icicle
+
+Name          = paper
+PName         = paper
+Oflags        { GetFlips }
+Location      = IN_ROOM:fjord94
+State         = 1
+Maxstate      = 1
+Desc[0]       = "A piece of paper blows about in the breeze."
+Desc[1]       = "A piece of paper rests on a desk here."
+Examine       = "
+It is possible to freely move around the volcano area once the ghouls have
+been freed. To leave the volcano, meditate at the appropriate platform. To
+enter from the south side, meditate at the shrine of chaos. To enter from
+the north side, meditate in the caldera room where there is located a
+hand."
+End           = paper
+
+Name          = daisy
+PName         = daisy
+Oflags        { Wearable }
+Location      = IN_ROOM:fjord100
+Armor         = 0
+Desc[0]       = "A daisy is here wilting away to nothing."
+Examine       = "ACHOO!"
+End           = daisy
+
+Name          = geyser
+PName         = geyser
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord113
+Desc[0]       = "The &+Bgeyser&* continues to shoot water into the air."
+Examine       = "
+There is a minor pool at the base of it, but most of the water goes
+straight back into the ground."
+End           = geyser
+
+Name          = paddle
+PName         = paddle
+Oflags        { GetFlips }
+Location      = IN_ROOM:fjord90
+BValue        = 20
+State         = 1
+Maxstate      = 1
+Desc[0]       = "An impressive wooden paddle has been left here, freshly polished."
+Desc[1]       = "A boat paddle is propped lengthwise in a corner."
+Examine       = "Made for lightweight craft, this paddle provides sure and swift control."
+End           = paddle
+
+Name          = twave
+PName         = tidalwave
+AltName       = wave
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord100
+Desc[0]       = "&+BA mile-high tidal wave looms over the inlet."
+Examine       = "Fight water with fire."
+End           = twave
+
+Name          = lava
+PName         = lava
+AltName       = flow
+Oflags        { NoGet }
+State         = 1
+Maxstate      = 1
+Location      = IN_ROOM:fjord100
+Desc[0]       = "A lava flow has solidified here, forming crunchy, porous rock."
+Desc[1]       = "&+RAn immense flow of liquid rock streams down the side of the volcano."
+Examine       = "Fight fire with water."
+End           = lava
+
+Name          = hand
+PName         = hand
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord81
+Desc[0]       = "
+&+CA frozen hand sticks above the ground, fingers locked forever in a clawing
+&+Cgesture."
+Examine       = "It appears this unfortunate soul had nearly made it out...."
+End           = hand
+
+Name          = bullion
+PName         = bullion
+Oflags        { GetFlips }
+Location      = IN_ROOM:fjord74
+BValue        = 500
+State         = 1
+Maxstate      = 1
+Desc[0]       = "A pile of tarnished bullion has been left here."
+Desc[1]       = "This small fortune of bullion would glow in a ghoul's dark sockets for
+quite some time."
+Examine       = "It could buy many handsome things whether in the world of life or not."
+End           = bullion
+
+Name          = poster
+PName         = poster
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord70
+Desc[0]       = "A &+Cpropaganda poster&* has been attached to the wall here."
+Examine       = "
+It shows the leader of the lizard army with a vise around the neck of the
+ghoul nation body."
+End           = poster
+
+Name          = fountain
+PName         = fountain
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord66
+Desc[0]       = "An intricately carved fountain sprewing ichor everywhere sits here."
+Examine       = "An excellent source of nourishment for these undead fiends."
+End           = fountain
+
+Name          = marker
+PName         = marker
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord45
+Desc[0]       = "&+CAn icy marker has been erected here."
+Examine       = "Drompurix Glacier: Elevation = 9752 feet."
+End           = marker
+
+Name          = pinecone
+PName         = pinecone
+AltName       = cone
+Location      = IN_ROOM:fjord38
+Oflags        { GetFlips }
+State         = 1
+Maxstate      = 1
+Desc[0]       = "A multicolored pine cone has been left here."
+Desc[1]       = "One of the multicolored cones seems to have fallen off."
+Examine       = "Each petal of the cone reflects a different wavelength of light."
+End           = pinecone
+
+Name          = pine
+PName         = pine
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord7
+Desc[0]       = "A really innocent-looking pine stands off to one side of the grove."
+Examine       = "
+One of these days, it will grow up to be a large supply of firewood, just
+like its predecessors."
+End           = pine
+
+Name          = crest
+PName         = crest
+AltName       = shield
+Oflags        { Wearable Armor Shield }
+Location      = WORN_BY:pop
+BValue        = 75
+Armor         = 50
+Desc[0]       = "The royal crest of the House of Snordsyk has been emblazoned on this shield."
+Examine       = "For centuries, this house has helped defend the village of Kyerstarn."
+End           = crest
+
+Name          = drug
+PName         = plofra
+AltName       = drug
+Location      = CARRIED_BY:mom
+Desc[0]       = "A favorite food of the local polar bears, plofra, is here."
+Examine       = "These fruits are strong natural sedatives and will induce sleep."
+End           = drug
+
+Name          = pbear
+PName         = polarbear
+Location      = IN_ROOM:fjord100
+BValue        = 0
+Maxstate      = 1
+Desc[1]       = "A &+Rpolar bear &*is happy to be reunited with his family."
+Desc[0]       = "There is a sleeping polar bear here, snoring softly."
+Examine       = "
+It is obvious that a natural drug is at work, considering the dilation of
+the bear's eyes."
+End           = pbear
+
+Name          = chair
+PName         = chair
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord4
+State         = 1
+Maxstate      = 1
+Desc[0]       = "A once proud chair now lies in an unrecogniazble heap of rotting wood."
+Desc[1]       = "A rotting chair stands in one corner, slowly decaying."
+Examine       = "It doesn't look like it could even support a squirrel anymore."
+End           = chair
+
+Name          = iceberg
+PName         = iceberg
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord104
+Desc[0]       = "&+CA medium-sized iceberg is being pushed around this section of the ocean."
+Examine       = "
+Rays of the sun glance off of it, making the ice twice as brilliant as it
+actually is and hash out of depth perception."
+End           = iceberg
+
+Name          = jhata
+PName         = jhata
+Oflags        { Boat GetFlips Wearable }
+Location      = IN_ROOM:fjord15
+BValue        = 35
+Size          = 9
+State         = 1
+Maxstate      = 1
+Desc[0]       = "A jhata rests woodenly on its side here."
+Desc[1]       = "A jhata rests woodenly admist the debris."
+Examine       = "
+Made in the northern fjords by the people of Kyerstarn, this lightweight
+vessel makes excellent progress through even rough waters. The jhata has
+two straps for easy carrying on one's back."
+End           = jhata
+
+Name          = axe
+PName         = Prynox
+AltName       = battleaxe
+Oflags        { Weapon }
+Location      = CARRIED_BY:lyddakin
+Size          = 23
+BValue        = 300
+Damage        = 24
+Desc[0]       = "A double-bladed battleaxe with serrated edges glistens violently here."
+Examine       = "
+Forged initially by the divine winds to combat the initial legions of
+ghouls, this axe has quite a bloody history. Lyddakin had slain the hero
+of the time, stolen the axe, and then ascended to his prince of evil
+status. Carved into the haft is the word '&+MPrynox&*.'"
+End           = axe
+
+Name          = crown
+PName         = crown
+Oflags        { Wearable }
+BValue        = 300
+Location      = WORN_BY:lyddakin
+Size          = 6
+Desc[0]       = "A crown circlet insignied with the demonic grin of a ghoul is here."
+Examine       = "Pictures of the city of Fallenthorp decorate it's surface."
+End           = crown
+
+Name          = toy
+PName         = toy
+Oflags        { GetFlips }
+Location      = IN_ROOM:fjord31
+BValue        = 40
+Size          = 5
+State         = 1
+Maxstate      = 1
+Desc[0]       = "The child who lost this toy will rejoice now that it has been found!"
+Desc[1]       = "A child's toy remains thouroughly lost here."
+Examine       = "
+Curious item. It has a rubber ball attached by a string to a paddle made
+of heavily reinforced birch wood."
+End           = toy
+
+Name          = helmet
+PName         = helmet
+Oflags        { Wearable Armor }
+Aflags        { Head }
+Location      = IN_ROOM:fjord4
+Armor         = 24
+BValue        = 80
+Desc[0]       = "A slightly dented helmet has been left here."
+Examine       = "The inside is stained with blood."
+End           = helmet
+
+Name          = cloak
+PName         = cloak
+Oflags        { Wearable Armor GetFlips }
+Aflags        { Chest Back }
+Location      = IN_ROOM:fjord95
+BValue        = 50
+Armor         = 40
+State         = 1
+Maxstate      = 1
+Desc[0]       = "A cloak woven of bear hide is here."
+Desc[1]       = "A thick, warm cloak is hung on a hook here, awaiting use."
+Examine       = "
+Decent protection against the elements and sharp objects."
+End           = cloak
+
+Name          = cake
+PName         = cheesecake
+AltName       = cake
+Oflags        { Food }
+BValue        = 25
+Location      = IN_ROOM:fjord95
+Size          = 3
+Desc[0]       = "A slice of cheesecake has been left here."
+Examine       = "Eat me to return home if stuck."
+End           = cake
+
+Name          = berries
+PName         = berries
+Oflags        { Food GetFlips }
+BValue        = 20
+Location      = IN_ROOM:fjord9
+Size          = 2
+State         = 1
+Maxstate      = 1
+Desc[0]       = "The favorite fruit of many a Muskrat deer has been left here."
+Desc[1]       = "Some edible berries hang from a nearby bush."
+Examine       = "Good for warpaint, too!"
+End           = berries
+
+Name          = fishbait
+PName         = fishbait
+AltName       = bait
+Oflags        { Food }
+Location      = IN_CONTAINER:bucket
+BValue        = 20
+Desc[0]       = "There is a pile of fish bait here, way past its useful days."
+Examine       = "An assortment of edible fish eggs and worms!"
+End           = fishbait
+
+Name          = bucket
+PName         = bucket
+Oflags        { Container }
+BValue        = 100
+Size          = 20
+Location      = IN_ROOM:fjord90
+Desc[0]       = "A battered and rusting tin bucket is here."
+Examine       = "Used for years upon years by legions of the fishers of Kyerstarn."
+End           = bucket
+
+Name          = limb
+Pname         = limb
+AltName       = stick
+Oflags        { Lightable Extinguish Weapon }
+Location      = IN_ROOM:fjord2
+BValue        = 20
+Damage        = 3
+Size          = 5
+Desc[0]       = "A thin tree limb has been tossed aside here."
+Examine       = "A stout limb from a pine tree."
+End           = limb
+
+Name          = nugget
+PName         = nugget
+BValue        = 400
+Oflags        { GetFlips }
+Location      = IN_ROOM:fjord41
+State         = 1
+Maxstate      = 1
+Desc[0]       = "A rather large silver nugget is here."
+Desc[1]       = "A rather large silver nugget is embedded in the gnarly knobs."
+Examine       = "It is quite shiny and valuable."
+End           = nugget
+
+Name          = antlers
+PName         = antlers
+Oflags        { Weapon Wearable }
+Location      = BOTH_BY:buck
+BValue        = 50
+Damage        = 9
+Desc[0]       = "A huge mass of deer-type antlers is here."
+Examine       = "
+It still hums with the previous owner's life energy. It would likely allow
+a better chance to punch through enemy armor!"
+End           = antlers
+
+Name          = dictionary
+PName         = dictionary
+Oflags        { Weapon }
+BValue        = 70
+Location      = WIELDED_BY:librarian
+Damage        = 10
+Desc[0]       = "A sturdy book of definitions lies here."
+Examine       = "It's the unabridged version."
+End           = dictionary
+
+Name          = mat
+PName         = mat
+Oflags        { GetFlips }
+Location      = IN_ROOM:fjord29
+BValue        = 50
+Size          = 10
+Desc[0]       = "A beaten, well-woven mat is here."
+Desc[1]       = "The sleeping bed of a fox is here, resting comfortably."
+Examine       = "A picture of high-speed sledding fills your mind."
+End           = mat
+
+Name          = duck
+PName         = duck
+Oflags        { Food }
+BValue        = 25
+Size          = 2
+Location      = IN_ROOM:fjord98
+Desc[0]       = "A steaming platter of marinated roast duck is here."
+Examine       = "A meal fit for even a stupid ghoul!"
+End           = duck
+
+Name          = grain_plant
+PName         = grain
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord12
+Desc[0]       = "Healthy, golden grains blow gently in the wind." 
+Examine       = "These could produce much food if you are willing to harvest them."
+End           = grain_plant
+
+Name          = grain_food
+PName         = grains
+Oflags        { Food Destroyed }
+Location      = IN_ROOM:fjord12
+Size          = 10
+Desc[0]       = "A large reap of grains are tied in a bundle here."
+Examine       = "They are tasty and fiberous and will greatly benefit you."
+End           = grain_food
+
+Name          = vats
+PName         = vats
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord78
+State         = 1
+Maxstate      = 1
+Desc[0]       = "The vats have been rendered a third inoperable."
+Desc[1]       = "Many scores of vats sit in perfect condition."
+Examine       = "These would definitely be worth destroying as much as possible."
+End           = vats
+
+Name          = dial
+PName         = sundial
+AltName       = dial
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord99
+Damage        = 0
+Desc[0]       = "A sundial stands off to one side of grass."
+Examine       = "
+It has 12 ridges on it to represent the time of day as the rays of the sun
+strike the arm from various angles. Oddly though, the sundial base is two 
+cocentric metal plates which appear movable."
+End           = dial
+
+Name          = headdress
+PName         = headdress
+Oflags        { Wearable }
+Location      = IN_CONTAINER:locker
+Size          = 10
+Desc[0]       = "The headdress of a complete dunce is here."
+Examine       = "
+Look at these feathers and dangly bead strings woven with pine cone leaves
+and pine needles! It is a total mess."
+End           = headdress
+
+Name          = locker
+PName         = locker
+Oflags        { NoGet Container }
+Size          = 40
+Location      = IN_ROOM:fjord98
+Desc[0]       = "A simple, sturdy wooden footlocker lies at the end of the hall."
+Examine       = "
+Often used to hold things of value, this locker was last used by the great
+Wizard Donner Cornelius."
+End           = locker
+
+Name          = rock
+PName         = rock
+Altname	 = boulder
+Oflags        { NoGet Destroyed }
+Location      = IN_ROOM:fjord26
+Desc[0]       = "A recently uncovered rock is here, still covered with fine sand particles."
+Examine       = "
+The words '&+cenphorenzo ignius veramocor!&*' are carved beneath the drawing 
+of a tranquil shrine."
+End           = rock
+
+Name          = totem
+PName         = totem
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord99
+State         = 0
+Maxstate      = 1
+Desc[0]       = "A totem of the five divine winds is here, acting self-important."
+Desc[1]       = "The teardrop has been restored to the divine winds!"
+Examine       = "
+With the silliest and stupidest drunk grins from the five guardian spirits
+when they were alive, the faces stare out in total bemusement as wooden
+arms flail out in total idiocy."
+End           = totem
+
+Name          = ice_out
+PName         = icicles
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord47
+Linked        = ice_in
+State         = 1
+Maxstate      = 1
+Desc[0]       = "The icicles have been utterly smashed."
+Desc[1]       = "A wall of icicles blocks the cave entrance."
+Examine       = "
+Just like a good ole prison cell - lots of bars!"
+End           = ice_out
+
+Name          = ice_in
+PName         = icicles
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord48
+Linked        = ice_out
+State         = 1
+Maxstate      = 1
+Desc[0]       = "The icicles have been utterly smashed."
+Desc[1]       = "A wall of icicles blocks the cave entrance."
+Examine       = "Just like a good ole prison cell - lots of bars!"
+End           = ice_in
+
+Name          = jaden
+PName         = jaden
+Location      = CARRIED_BY:gator
+BValue        = 60
+Desc[0]       = "A pocket-sized jaden stone is here."
+Examine       = "Jade will repel those who would take your life with but a touch."
+End           = jaden
+
+Name          = onyx
+PName         = onyx
+Oflags        { Wearable Breathe }
+Location      = IN_ROOM:fjord100
+BValue        = 500
+Desc[0]       = "The darkness of an onyx medallion absorbs the light."
+Examine       = "With this, the heat of the sun wouldn't even tan you."
+End           = onyx
+
+Name          = chaos_altar
+PName         = altar
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord64
+Desc[0]       = "
+The altar of chaos gives off a low hum and pulses with destructive potential 
+for all those with the power to use it."
+Examine       = "
+It is a simple altar of black glassy lava, in this world. Engraved in the
+front are the words '&+comni noxum superabo!&*'."
+End           = chaos_altar
+
+Name          = flame
+PName         = flame
+Oflags        { NoGet Lit }
+Location      = IN_ROOM:fjord22
+Desc[0]       = "The &+Cblue flame&* of tranquility can be hotter than the core of the sun."
+Examine       = "It is a pathway between the living and the divine winds."
+End           = flame
+
+Name          = twi_altar
+PName         = altar
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord6
+Desc[0]       = "The altar of confluence, a mix of all forces, stays well-preserved."
+Examine       = "It can be used for either beneficial or detrimental purposes."
+End           = twi_altar
+
+Name          = book
+PName         = tome
+AltName       = book
+Oflags        { Lit Destroyed }
+Location      = IN_ROOM:fjord94
+Desc[0]       = "The spellbook of the last wizard who lived in Kyerstarn is here."
+End           = book
+
+Name          = shelf
+PName         = bookshelf
+AltName       = shelf
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord94
+State         = 1
+Maxstate      = 1
+Desc[0]       = "The bookshelf is devoid of divine energy with the book removed."
+Desc[1]       = "There is a bookshelf glowing with a faint divine residue here."
+End           = shelf
+
+Name          = net
+PName         = lazaro
+AltName       = net
+Oflags        { GetFlips }
+Location      = IN_ROOM:fjord74
+BValue        = 300
+Size          = 20
+State         = 1
+Maxstate      = 2
+Desc[0]       = "A net made of glowing rope and jewels is here."
+Desc[1]       = "Tacked hard against the back wall is a giant net made out of these jewels, 
+shining color everywhere."
+Desc[2]       = "The Lazaro net has been infused with the astral energy of a ghoul!"
+Examine       = "
+Without a doubt able to capture titanic beasts in a single throw! The net is
+self-locking, so the only manual labor comes from untying it."
+End           = net
+
+Name          = netrope
+PName         = lazaro
+AltName       = rope
+Location      = IN_ROOM:fjord100
+Size          = 3
+Desc[0]       = "The magically tying rope of the lazaro is here."
+Examine       = "
+These few strands of rope do most of the work in the physical hauling of 
+whatever may be caught in the lazaro."
+End           = netrope
+
+Name          = marks
+PName         = marks
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord29
+Desc[0]       = "Scratching marks left by practiced hands scar the pine."
+Examine       = "They tell about how elephant tides ride side by side under the pale light 
+of a blue moon."
+End           = marks
+
+Name          = lizard1
+PName         = jagonk
+AltName       = body
+Oflags        { NoGet }
+Armor         = 0
+Location      = IN_ROOM:fjord80
+Desc[0]       = "The body of Lizard Jagonk lies mutilated here."
+Examine       = "
+The eyeballs have been gouged out and one of the thick white vines is still
+imbedded in the heart, drinking from the decaying organ."
+End           = lizard1
+
+Name          = lizard2
+PName         = morgok
+AltName       = body
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord77
+Desc[0]       = "
+The decapitated body of Lizard Officer Morgok has been chained to a wheel
+near the middle of the room, which slowly creaks in the sulfur currents."
+Examine       = "
+Score another one for the ghouls! This particular lizard was a 
+medium-ranking officer in the northeastern quarter of the city."
+End           = lizard2
+
+Name          = lizard3
+PName         = slyzek
+AltName       = body
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord75
+Desc[0]       = "Dried-up guts from Lizard Slyzek decorate one side of the avenue."
+Examine       = "
+This poor fellow didn't have time to blink as a charging chariot with
+rusty-spiked wheels made a tossed salad of his insides."
+End           = lizard3
+
+Name          = ear
+PName         = ear
+AltName       = part
+Oflags        { Destroyed }
+Location      = IN_ROOM:fjord80
+Size          = 3
+Desc[0]       = "A chunk of black lava carved into an ear is here."
+Examine       = "
+Formerly part of an effigy."
+End           = ear
+
+Name          = head
+PName         = head
+AltName       = part
+Oflags        { Destroyed }
+Location      = IN_ROOM:fjord77
+Size          = 10
+Desc[0]       = "The head of a ghoul has been carved from black lava."
+Examine       = "Formerly part of an effigy."
+End           = head
+
+Name          = torso
+PName         = torso
+AltName       = part
+Oflags        { Destroyed }
+Location      = IN_ROOM:fjord75
+Size          = 15
+Desc[0]       = "The body section of a black glassy lava ghoul is here."
+Examine       = "Formerly part of an effigy."
+End           = torso
+
+Name          = desk
+PName         = desk
+Oflags        { NoGet }
+Location      = IN_ROOM:fjord73
+State         = 1
+Maxstate      = 1
+Desc[0]       = "
+The desk has been thouroughly searched, and the owner of the shop is now
+thouroughly enraged."
+Desc[1]       = "A stout desk is in one corner, looking way too organized."
+End           = desk
+
+Name          = bottle
+PName         = bottle
+Oflags        { Destroyed GetFlips }
+Location      = IN_ROOM:fjord73
+State         = 1
+Maxstate      = 1
+Desc[0]       = "A bottle of nutrigenic acid is here."
+Desc[1]       = "An effervescent bottle of nutrigenic acid bubbles away on a desk."
+Examine       = "
+This acid will work better than napalm on contact with containers of 
+bubbling, milky-white liquids."
+End           = bottle
+
+Name          = effigy
+PName         = effigy
+Location      = IN_ROOM:fjord100
+Size          = 28
+State		= 3
+Maxstate	= 3
+Desc[0]       = "A black glassy lava effigy of a ghoul smiles lopsidedly at you."
+Examine       = "All ghouls shall be afraid if their master is reawakened."
+End           = effigy
+
+Name          = bass
+PName         = bass
+AltName       = fish
+Oflags        { GetFlips }
+Location      = IN_ROOM:fjord97
+Desc[0]       = "A fishly two-foot, ten-pound striped bass is here, looking rather dead."
+Desc[1]       = "On one of the blocks rests a perfect specimen of striped bass."
+Examine       = "The perfect bait with which to capture a titanic beast!"
+End           = bass
+
+Name          = angler
+PName         = angler
+AltName       = fish
+Oflags        { GetFlips }
+Location      = IN_ROOM:fjord97
+Desc[0]       = "A fishly angler lies on its side, looking rather dead."
+Desc[1]       = "Hanging from a nearby hook is a perfect angler specimen."
+Examine       = "The perfect bait with which to capture a titanic beast!"
+End           = angler
+
+Name          = tear
+PName         = teardrop
+AltName       = tear
+Oflags        { Wearable Unlocatable }
+Location      = WORN_BY:lyddakin
+Size          = 4
+Desc[0]       = "The seal locking the fallen winds from the divine ones is here."
+Examine       = "A polished crystal carefully cut into the shape of a tear bounces light
+off its many facets."
+End           = tear
+
+Name          = door115
+PName         = door
+Oflags        { NoGet Openable }
+Linked        = door116
+Location      = IN_ROOM:fjord115
+State         = 1
+Maxstate      = 1
+Desc[0]       = "The door has been thrown open, smacking gently in the wind."
+Desc[1]       = "There is a door with the symbol of a moon on it."
+Examine       = "This marks the home of Kyerstarn's magician."
+End           = door115
+
+Name          = door116
+PName         = door
+Oflags        { NoGet Openable }
+Linked        = door115
+Location      = IN_ROOM:fjord116
+State         = 1
+Maxstate      = 1
+Desc[0]       = "The door has been thrown open, smacking gently in the wind."
+Desc[1]       = "There is a door with the symbol of a moon on it."
+Examine       = "This marks the home of Kyerstarn's magician."
+End           = door116
+
+
+%locations
+
+fjord1 n:^c_gate_moor s:jbs163@jbs;
+lflags { Outdoors NoMobiles }
+Gravel Pathway^
+   The northern boundary of this section of the pasture is marked by
+a rusty, creaking cattle gate, drifting open and closed slightly in the wind.
+Narrow trails wind their way around a few randomly placed grave sites and
+pool together by this gate. Leading northward is a wider, well-groomed
+gravel trail, its sides accurately spaced by rocks lining the length of
+the trail.
+^
+fjord2 s:^c_gate_fj1 e:fjord3 n:fjord7;
+lflags { Outdoors }
+Gravel Pathway^
+   The finely made trail continues north and south across untapped
+wilderness. Some wayward pines pock mark the landscape to either side as
+far as the eye can see. Families of animals live within the almost
+hollowed-out trunks of these trees, where the slight wind chill factor of
+these parts can never reach. Nestled among the pines stands a long
+abandoned hovel, its thatched roof and stone walls strongly defiant
+against the elements. The pine forest thickens to the north and stops a
+smile to the south before the pasture.
+^
+fjord3 w:fjord2 e:fjord4;
+lflags { Outdoors }
+Before the Thatched Dwelling^
+   The gravel trail leads straight to the hut's main entrance and back west
+to the T-intersection. Some small gardening &+Ctools&* and pieces of broken
+flower &+Gpots&* are scattered here. One crossbar window by the front entrance
+is shattered in one of its four panes, letting the wind whistle through it.
+Soft pine needles, brown and lifeless, sweep around the area and through
+the open doorway.
+^
+fjord4 w:fjord3 e:fjord5;
+lflags { Dark }
+Main Room^
+   A bed of dry, dead pine &+yneedles&* provides a natural layer of undergrowth
+within an otherwise man-made structure. A wooden &+ycask&* with its rusting
+bands decays at its own pace and will never likely hold any ales again.
+Stuffed away in a back corner is a small fireplace, fashioned with a
+hanging apparatus which supports a dented, cast-iron &+ypot&*. The bed is not
+so fortunate, however. Its frame has splintered to dust and collapsed into
+a small pile of termite-eaten debris, and the straw &+ymattress&* is musty and
+decomposing. The only other pieces of furniture in the room are a simple
+wooden rocking chair and a &+ychest&* of drawers, both of which lean at angles
+enough to make the human eye ache.
+^
+fjord5 w:fjord4 d:fjord6;
+lflags { Dark }
+Back Room^
+   The air is fresh in here despite its locale to the outside world. Racks
+of candles line all the stony walls at regular spacing, but their wicks
+are now composed of ash and the candle wax of very poor quality. in the
+center of the room is a deep square dug into the ground, its walls
+reinforced with pine two-by-fours and tar pitch. A smooth block of marble
+has been weathered and placed in the exact center of the pit. Attached to
+each wall is an animal &+cskull&*, the bones glinting in your light.
+^
+fjord6 u:fjord5;
+lflags { Dark }
+Altar of Twilight^
+   The pit dimensions have been measured to perfection, perhaps to ensure
+that the rituals carried out here go smoothly. The wooden walls and
+marble slab in the center were long since placed under magical protection
+from the effects of erosion. The slab is decorated with many types of
+quartz and treated with a super-hard coating of a potent magic solution in
+an effort to keep legible the inlaid signatures of those who had
+previously performed evocations to other planes of existence here.
+Covering the sides of the slab to the ground are strings of carefully
+pruned ivy as fresh and green as if they were sproutlings. The only exit
+is out of the pit.
+^
+fjord7 s:fjord2 n:fjord8;
+lflags { Outdoors }
+Small Pine Grove^
+   A heavy cluster of wayward pines are grouped together irregularly away
+from the major bulk of the forest. The trail leads in a complete circle
+around the grove via a fork in the path. Every pine in this grove,
+however, has been struck by lightning, their tops burnt to cinders. From
+each lifeless trunk protrudes new shoots for future growth. Mingled within
+the remaining branches are a few &+ynests&*, and chirps from baby birds getting
+fed their earthly delight of squiggling earthworms bring new sparks of
+life to this shattered grove.
+^
+fjord8 s:fjord7 e:fjord9;
+lflags { Outdoors Dark }
+Muskrat Pine Forest^
+   All around are densely packed pine trees. Millions of cones hand from
+the trees and litter the decaying undergrowth. A musty scent is present in
+the dimly lit atmosphere along with the sweetness of sticky pine sap.
+Occasionally, a deer will hop along at the edge of peripheral vision, its
+only goals in life to feed its young and avoid being turned into roasted
+venison. A gravel trail leads south to thinning forest and loses clarity
+to the east.
+^
+fjord9 w:fjord8 n:fjord10;
+lflags { Outdoors }
+Deer Trail^
+   No signs have been erected to say 'deer crossing' happens here, but
+there is sufficient evidence to let travelers know what kind
+of population occupies this territory. Deer &+ydroppings&* resembling small
+blueberries cannot avoid being stepped in except by their droppers, as
+suggested by sets of hoof prints cleverly negotiating the maze of
+excrement. Over time, the droppings feed nutrients into the soil, which
+are then taken up by the brown and orange &+ylichen&* growing up the sides of
+trees and boulders. One some rocks where there are large depressions from
+erosion, the lichen fill the space in completely to form a spongy throne,
+perfect for resting in.
+^
+fjord10 s:fjord9 e:fjord11 n:fjord30 u:fjord121;
+lflags { Outdoors }
+Animal Trail Intersection^
+   Two paths made by the forest dwellers have been left here. A deer trail
+runs north and south, wide and easy to follow. A much more primitive track
+heads east through the forest and comes to a quick halt at the base of a
+pine &+gtree&* to the west.
+^
+fjord11 w:fjord10 e:fjord12;
+lflags { Outdoors }
+Muskrat Pine Forest^
+   Sap concentrations increase further to the east, its production fueled
+by the significant amounts of light and water in that direction. Clinging
+to most trees in at least three places are the only life form unique to
+this forest. The Sap Swarmers are a distant cousin of the small blood-sucking 
+leeches, but gorge themselves on sap instead of the liquid of life. They
+are equipped with serrated claws which cut through the protective lichen
+and bark of the pine and allow access to the phloem, where the pine sap is
+readily available, but are careful to avoid causing permanent damage to
+the tree. Sap Swarmers lack eyes and ears, but have a wonderful detection
+system of shape and dimension, which is why they will sometimes try to
+attach themselves to a passing organism. The forest thickens to the west
+and thins to the east.
+^
+fjord12 w:fjord11 e:fjord13;
+lflags { Outdoors }
+Muskrat Meadow^
+   The pine forest never intrudes upon this wide expanse of grass, where
+small children can easily get lost in. Flax, oats, and rye grow in
+abundance in different sections of the meadow. Deer hop along nearby,
+eating some of the grains, then drink their fill at a small lake to the
+east. The ground here is well-tilled by the moles as they dig their
+tunnels.
+^
+fjord13 s:fjord14 w:fjord12 n:fjord16;
+lflags { Outdoors }
+Sandy Lakeside^
+   The meadow terminates at the beachline of the lake. The sand here is a
+glistening pinkish-orange, sparkling in the sunlight or moonlight.
+Roughly fifteen feet to the east, the crystal clear liquid of the lake
+ebbs and flows gently, where some freshwater sand dollars eke out their
+lives in ceaseless contemplation of their intertidal universe. Scitter
+bugs live up to their namesake as they glide along the surface. and small
+fish swim down the drop-off near the water's edge. A family of deer stand
+on the shore further to the north, sipping quietly from the lake.
+^
+fjord14 n:fjord13 s:fjord15;
+lflags { Outdoors }
+Sand Pit^
+   A puddle of water covers the bottom two inches of this sandy depression.
+During the early spawning seasons, some fish deposit their eggs here,
+given its natural protection from predators and proximity to the shore.
+Over time, the hole has filled in with the surrounding sand as water
+erodes away the sides. Therefore, kids who swim in the lake will dig out
+the hole and place their feet in the warm water - sort of like a miniature
+spa. The beach continues to wind around the lake to the north and south.
+^
+fjord15 n:fjord14;
+lflags { Outdoors }
+Debris-Ridden Beach^
+   This is where the flotsam of the lake generally end up, as does most
+litter from picnickers. Some fragments of faded red cloth from an old
+towel and oxidized links from a now defunct suit of chain mail lay
+partially buried by the sand. Many discarded sand dollar shells, broken
+and splintered, dot the area as well. A long, thick pine tree blocks any
+further progress to the southerly directions. It was deliberately placed
+here to form a &+ydam&* centuries ago and has petrified since; the rocky
+minerals sparkle like quartz. The sand here is dirtier because of the
+strewn mess.
+^
+fjord16 s:fjord13 e:fjord17;
+lflags { Outdoors }
+Pier Point^
+   The beach narrows slightly here, drawing the meadow closer to its water
+source. Rickety wooden planks and vine-tied support logs form a pier which
+juts out eastward onto the lake.
+^
+fjord17 w:fjord16 e:fjord18;
+lflags { Outdoors NoMobiles }
+Rickety Pier^
+   The boards creak underneath your weight. The pier was excellently made
+to have been able to stand for as long as it has. Beneath the waters of
+the lake, the ground quickly vanishes from view. This area for the pier
+was selected because of the deep hole here, where the bigger trout and
+catfish choose to reside. The pier ends near the edge of this hole as to
+allow fisherpersons the most possible area of the hole to fish in.
+^
+fjord18 w:fjord17 e:fjord19;
+lflags { Outdoors OnWater }
+Lake Punjowltah^
+   The smoothness of the lake is not broken easily. Most boats produce very
+little wake in the crystal blueness, A school of small cutter fish ride
+the gentle waves to and from their feeding areas and homes. Occasionally,
+a larger fish will break cover and speed by, providing a glimpse of fins
+and tail. A light wind blows across the lake, cool and refreshing, but
+barely manages to ruffle the lake surface. Set out from the pier is a
+bobbing &+Ybuoy&* in the shape of a duck, an animal now extinct in this area.
+It was once used to help capture exquisite ducks, but now just floats
+endlessly about the lake.
+^
+fjord19 w:fjord18 n:fjord20 s:fjord23;
+lflags { Outdoors OnWater }
+Middle of the Lake^
+   The central area of the lake is a giant whirlpool. Water and surface
+matter are drawn counterclockwise to am calm ring ten feet beneath the
+lake surface, forming a large sunken pit of water. Once something is drawn
+into the pit, it spirals down and then spits back up to the rim through
+means of enormous air bubbles. This whirlpool is, therefore, not
+considered dangerous, but used as a fun ride and a small challenge to
+escape. 
+^
+fjord20 s:fjord19 n:fjord21;
+lflags { Outdoors OnWater }
+Northern Side^
+   The slope of the bottom of the lake is much less sharp in this region.
+Average depth of the water is perhaps ten to fifteen feet, and the bottom
+is entirely sandy. Leading from the lake bank by the shore are two thick
+fishing nets, tied securely to the shore and at every point along the lake
+bottom. They are set far enough apart to admit a single craft, similar to
+a private docking slot at a harbor. The waves of the leave gently push
+towards the shoreline.
+^
+fjord21 s:fjord20 n:fjord22;
+lflags { Outdoors NoMobiles }
+Groomed Beach^
+   The beach here has been shaped into a half-moon, letting the meadow edges 
+grow right to the water. Lining this semi-circle are small rocks engraved
+with pictures of hands. The rocks are a true work of art - each pair of
+hands appears to be 'held' by the opposing hand of its neighbor, completing a 
+link around the beach. Leading due north beyond the rocks is a pathway made 
+out of mother-of-pearl quartz pebbles, which runs to a halt between two
+towering pyramids of smooth stone. The lake stretches away to the south.
+^
+fjord22 s:fjord21;
+lflags { Outdoors Peaceful }
+Shrine of Tranquility^
+   A ring of four smooth stone pyramids line a small area of cropped
+bluegrass. The inner side of each stone is entirely reflective, where any
+rays of the electromagnetic spectrum bounce off the highly polished
+surfaces. The light is directed toward the center of the ring, enhancing
+the eternal blue flame which burns at the heart of this shrine, streaked 
+with enamel. The cast iron brazier upon which the fire rests glows red in
+the heat. No offerings or sacrifices are made in this holy place as only
+a magical ritual involving the human spirit can be done here.
+^
+fjord23 n:fjord19 s:fjord24;
+lflags { Outdoors OnWater }
+Southern Side^
+   Eddies swirl around your craft in this calm area of the lake. There is
+only a light wind to disturb the surface, although to the south the waters
+build up into small waves. There is a rather large hole in the water to
+the north. Around the reflection of the sun on the lake swim a school of
+trout, while a catfish makes a giant leap across the width of it.
+^
+fjord24 n:fjord23 e:fjord25;
+lflags { Outdoors NoMobiles }
+Southern Beach^
+   The lakeside continues to be sandy around the south bank. Here the sand
+takes on a darker glow with flecks of black in it. Clumps of soggy,
+decaying &+yweeds&* and broken pieces of &+ybark&* wash up occasionally and deposit
+themselves ever deeper into the sand. The dirt white line left by the
+lake's foamy wave tips is prominent as it meanders across the beach. The
+ebb and flow of the tide moves this line up and down at various times of
+the day. A large tree trunk blocks the beach to the west, but the eastern
+way is clear.
+^
+fjord25 w:fjord24 e:fjord27 s:fjord26;
+lflags { Outdoors }
+Mucky Ditch^
+   The beach slopes downward into a wide ditch, where the bottom is filled
+with lake water. A stretch of sand leads south to where the ditch ends at
+a wall of muddy earth. This used to be stream which fed out of the lake to
+the lower valleys. Now the high tides of the lake generated by the central
+whirlpool drive some water into the sandy bed, keeping it moist. During
+the late spring and summer, the ditch is a natural spawning ground for many
+kinds of fish.
+^
+fjord26 n:fjord25;
+lflags { Outdoors }
+Deep Depression^
+   The murky, sandy ditch continues right to a wall of root-entangled
+earth. The grasses of the meadow surrounding the lake fight for room at
+this once-upon-a-time lake outlet, all wanting the most water they can
+scrounge up. This section of the ditch dips about a foot lower than the
+rest of it to the north, and the larger amount of water makes for a nice
+foot spa. Worms poke their heads or tails out of the sodden bank, where
+they have eaten a path and are quickly reminded by the open air not to go
+any farther.
+^
+fjord27 w:fjord25 n:fjord28;
+lflags { Outdoors }
+Southeastern Bank^
+   More sand greets your eyes as the beach hits a sharp corner. To the 
+northeast is a gigantic, burned-out pine, its tangled roots poking toward 
+the water in a futile effort to convince a passerby that it is still alive 
+and kicking. A large cluster of broken &+ysandollars&* dot the water's edge, 
+slowly being eroded by the waves. The beach narrows to the north as the 
+meadow heads close to the lake, while it widens to the west.
+^
+fjord28 s:fjord27 e:fjord29;
+lflags { Outdoors }
+Eastern Shore^
+   The meadow touches the lake here as the beach tapers out of existence. 
+As a consequence, the water gets deeper much faster from the steeper 
+incline of the meadow hill's underwater slope. To the due east, oddly 
+enough, is a massive wayward pine tree, hollowed out by fire.
+^
+fjord29 w:fjord28;
+lflags { Outdoors }
+Wayward Pine^
+   Some dead grass, windblown sand particles, and pieces or rotting bark 
+litter the ground within this once great trunk. Off to one side neatly 
+stacked in a tier are some fresh-looking &+ypinecones&*. The cones provide 
+most of the color to this otherwise dead shell of a conifer. However, 
+scratchings on the inside walls reveal more than simple animal claw 
+marks; they are made in a fashion precise enough to be letters. The bark 
+is cut by intricate patterns formed by these letters and their accompanying 
+images of a circle surrounded by several outgoing rays. This area has not 
+been so damaged by the fire which raged throughout the rest of the tree. A 
+light breeze blows in from the west, bringing the smell of the meadow and 
+more sand from the beach.
+^
+fjord30 s:fjord10 n:fjord31;
+lflags { Outdoors }
+Deer Track Extension^
+   Within the confines of the Muskrat Pines, the hallowed sounds of near 
+total silence draw in traveler's empathy with the world of nature. The 
+deer track continues to meander north and south, and the silence cannot 
+be disrupted even by wandering from the trail. The animals abide by their 
+granted environment and violate it only as necessary to survive, which 
+explains the signs of feasting and excrement. A large collection of Sap 
+Swarmers gather, and one pounces on a young, freckled fawn as the 
+startled deer's curiosity draws it too close. Fortunately, the father is 
+nearby and uses its antlers to pry the swarmer off before too much damage 
+is done. With a dismissal wave of antlers, the buck leads his son back to 
+where the family had been dining previously.
+^
+fjord31 s:fjord30 n:fjord32;
+lflags { Outdoors }
+Bumps On A Log^
+  A slew of fallen trees criss-cross the deer track here. Bugs inhabit 
+crevices in the rot-eaten &+ylogs&* of what used to be tree trunks. The stench 
+of decay is thick and rich, but the humidity of the atmosphere does begin 
+to falter finally. It drops to the north and is greater in the less 
+odorific areas to the south. The ground also begins to get hilly to the 
+north as moss-covered stumps clamor upward from earthen mounds. The Sap 
+Swarmers diminish to the north, perhaps unnerved by the slight climatic 
+changes. Their home live relatively far to the south anyway. However, one 
+striking change is that there are practically no deer living in this 
+section of the Muskrat. The foliage remains relatively unscathed, and no 
+blueberry-like droppings are present.
+^
+fjord32 s:fjord31 e:fjord33;
+lflags { Outdoors }
+An End of the Track^
+   The deer track comes to an abrupt halt as the undergrowth merges 
+together from all sides. The northern sections of this pine forest are 
+filled with less common animals, some of which are rumored to be titanic 
+beasts. Many think it an old wives' tale to allure young children into 
+eating their vegetables, but there have also been unconfirmed reports of 
+people disappearing in this area, once even an entire expedition. An 
+unobstructed way through the forest is to the east, and the deer have 
+been kind and methodical enough to form a path leading south, more 
+towards the heart of the of the Muskrats. The woods here are darker, and 
+the trees more towering. Usually, it is rare to find pine trees that are 
+over seventy-five feet tall, but perhaps the bones of the supposedly 
+inhabiting beasts provide certain minerals into the ground and act as a 
+super-growth formula.
+^
+fjord33 e:fjord34 w:fjord32 n:fjord37;
+lflags { Outdoors }
+Mowed Down^
+   Something awful has been here! Trees have been ripped from their roots
+and shoved aside as if they were no more than toothpicks. The forest floor
+is trampled down by enormous &+yfeet&*; the spacing between the toes measures
+no less than a yard across. Webbing spans that spacing, given the near
+total leveling of the undergrowth. Light shines much more strongly
+from the north, towards the border of the Muskrat Pine Forest, as a result
+of the destructive travel. The rejoicing chirping of crickets echoes in
+this section as the little green and black pests come to inhabit the
+fallen trunks. Fresh sap runs over those trees, implying that this chaos
+happened recently. To the west and east, the forest drops in altitude
+slightly, but rises considerably to the north.
+^
+fjord34 e:fjord35 w:fjord33 s:fjord36;
+lflags { Outdoors }
+In the Thicker Undergrowth^
+   Branches, leaves, and masses of roots protrude and block your way in all
+directions. Progress is made with effort, but at least it is a good
+workout. The sunlight fades as the forest floor drops down and the pines
+rise overhead further to the south and east. Black pits lie there, and a
+low, continuous buzz emanates from the eastern one. The ground becomes
+soggy to the south, and something sloshing around is heard from that pit.
+There is total absence of civilized animal life here, but it can be found
+to the west.
+^
+fjord35 w:fjord34;
+lflags { Outdoors Dark }
+Pit of Bugs^
+   Oh dear, you've just wandered into a lair of creepy, crawling horrors!
+Born of millions of shapes, sizes, and colors, the little six-legged and
+winged critters crawl up your legs and buzz about your ears. The bottom of
+the pit is made of total decayed mush and dead insects. If any water were
+to ever get down here, then there would be a thriving colony of bacteria
+inside the quicksand-like mass of bugs. The hole back to the land of the
+living is a couple feet overhead, and very little sunlight makes it
+through the clutter of undergrowth and around the sharp angle of the pit
+sides. The violent movement of all the bugs causes the 'floor' to move
+like waves on the ocean. Something very slimy and long slithers at the
+nape of your neck.
+^
+fjord36 n:fjord34;
+lflags { Dark Outdoors }
+Pit of Fungus^
+   Your first step brings you sinking waist-deep into white, gooey muck.
+The air is alive with the ripeness of death, as the muck lining the bottom
+half of the pit is a large soup of fungal decay. Growing above the soup
+are mushrooms which actually are alive and patiently wait the day when
+they, too can become 'one with the soup.' Gnarled roots from nearby pines
+and undergrowth reach down into the muck and draw life-giving nutrients,
+leaving you with all the smelly stuff! Sunlight drifts in from the north,
+but doesn't cause even the slightest reactions of photosynthesis here.
+^
+fjord37 s:fjord33 n:fjord38;
+lflags { Outdoors }
+Slope of Dead Pines^
+   There is a surprising number of dead pines along this route. The path of
+the one who ripped asunder weeds to the south has visited this section
+also, as claw marks are borne by the shredded bark on the long-deceased
+trunks. To your right, a tree has even been felled by one monstrous sweep
+and thrown a good twenty feet. The ground slopes upward to the north and
+down to the regular forest level to the south.
+^
+fjord38 w:fjord39 s:fjord37;
+lflags { Outdoors }
+Rise of the Mutated Cones^
+   The Muskrats climb ever higher into these northern mountains. The trees
+here are shorter and look much more surreal, aside from their cones. Hanging 
+from the multitudes of branches spread aside the forcefully shredded track
+you are following are pine cones the size of bee hives. The leaves are
+perfectly round and spaced on each one, forming an artistic perfection
+unheard of in nature. Yet this is not directly Mother Nature's doing, and
+the most noticeable thing about the defects is the wide array of colors of
+the cones - only a few are the standard brown. Differences are not limited
+to the pine cones, as shown by the trunks, where varying tendrils of
+thickness wind themselves like rope. Unlike a single, solid, wooden base
+like most of these trees within the Muskrats, this form of life is much
+more resilient in combating animals and the elements.
+^
+fjord39 e:fjord38 w:fjord40 n:fjord42;
+lflags { Outdoors }
+Steep Slant^
+   There exists heavy indicators of an inverse relationship between the
+altitiude and the number of trees. Parts of the mountain side are bare,
+covered in nothing but chipped slate and pieces of loose earth. Each step
+over these areas causes minor avalanches of gravel, and the effort of
+treading such ground causes continual disruption of the ability to keep
+alert. The fastest way to traverse this slope is via a shallow gully
+filled with half-buried roots and gnarled, dried-up pine tree roots. About
+a hundred feet below is where many miles of trees have been cleared by
+huge hands, while the gully breaks in two up above, leading west and
+north.
+^
+fjord40 e:fjord39 d:fjord41;
+lflags { Outdoors }
+Level Gully^
+   Here a gully leads due east and west along a rocky slant, providing easy
+cross-country access. It comes to an end at an open stretch of gravel -
+the result of a landslide long ago. The slide did not manage to get a tree
+right beside it, though, and the tree lived to a ripe old age as
+originally intended. Now the deceased husk remains with the insides eaten
+out, but its formidable root growth has prevented earth from filling in
+the hollow center within itself. The bulb appears big enough for a small
+elk to enter and take temporary refuge.
+^
+fjord41 u:fjord40;
+lflags { Outdoors }
+In the Bulb^
+   Perhaps a great hiding place in trying to lose a party of high-strung
+chasers, this nook within a dead pine's roots provides plenty of knobs
+and knolls in which to reshape your back and give your butt permanent
+depressions. It encloses like a rib cage, although wood instead of bone,
+acting like a security blanket to its occupants. This tree died honorably
+and continues to serve while in death. On one of the sides of the rooty
+cage is a small, fairly deep &+yindentation&* filled with some rain water,
+providing you with a deep reflection.
+^
+fjord42 s:fjord39 n:fjord43;
+lflags { Outdoors }
+At the Treeline^
+   The line of Muskrat pine marking the edge of the forest follows a
+straight horizontal strip of small boulders here at seventy-five hundred
+feet up from sea level. The partly cloudy sky seems much closer without
+the cover of the forest of the mountain range's own minor cloud cover,
+allowing a lot of ultraviolet light to be caught at this altitude. A
+constant, sometimes gusty, wind blows across the yellowing grasses of the
+mountainside, taking loose soil and making many small dust devils. Past
+the boulders to the north is a small path which zigs-zags up the mountain,
+while the Muskrats lead down and to the south. This is also an area of few
+remaining forms of vegetation.
+^
+fjord43 s:fjord42 e:fjord44;
+lflags { Outdoors }
+Foot of the Trail^
+   Forged and broken in years ago, this path has been kept in excellent
+condition. It is clear of weeds and minor rockslides as it follows a
+steady-grade and relatively safe path up and around the mountain. Far
+below you is the treeline, and shadows play overhead as the condensation
+clouds drift slowly.
+^
+fjord44 w:fjord43 u:fjord46 e:fjord45;
+lflags { Outdoors Cold }
+Upper Slopes^
+   The trail stays snug against the mountain, where intermittent patches of
+snow drop onto the level ground and melt. The ground grows much more muddy
+to the east, where the trail ends at a glacier. Here the switchbacks occur
+in greater number as the near vertical faces of the mountain swing into
+view, still partially obscured by the clouds. The howl of a gusty wind
+greets you everywhere at this level.
+^
+fjord45 w:fjord44;
+lflags { Outdoors Cold }
+Overlooking the Drompurix Glacier^
+   Wind moves at near forty knots on this ledge. A dirty line in the snow at
+your feet marks the point of no return two feet in from the edge of the
+glacier. Dropping nearly six thousand feet to a basin of sparkling blue
+snow melt, the icy, reflective surface allows no pretense for the wild
+ride that ensues for any brave enough to slide the length. Shelter, and
+the trail, are found back to the west.
+^
+fjord46 d:fjord44 u:fjord47;
+lflags { Outdoors Cold }
+Entrance to Snow-Capped Peaks^
+   The path here heads in-between the sides of two small peaks ringed with
+clouds and drops away below into an eternity of switchbacks. Somewhere in
+the maze of these rarely explored peaks stands the highest volcano in the
+northern regions of the continent. Mount Phaylax is never visible at any
+time of year and can be reached only by this trail. Few travelers have
+ever bothered to go there as it is rumored to house things which are alive
+even though the volcano itself is very much extinct.
+^
+fjord47 d:fjord46 n:fjord49 e:^ice_out;
+lflags { Outdoors Cold NoRegen }
+Between the Mountains^
+   Whiteness and clouds mislead and obscure vision, respectively, as you
+leave a lonely trail of three-inch deep footprints along the trail that
+has become a snow-filled ditch here. The grade continues nearly level to
+the north and east, but plunges away to more sensible altitudes southward.
+There is the outline of a cave within an overhang of porous rock and
+thick, streaked icicles. Brief jets of warm air are vented from the
+opening.
+^
+fjord48 w:^ice_in;
+lflags { Dark }
+Sulphurous Cave^
+   The interior of the cave is lined with hidden crevices and fissures
+which pump forth yellowish, pungent clouds of gas with no particular
+pattern or frequency. Porous rock makes up the walls, and there are a
+significant number of small bones strewn about, as if something once used
+this room as a home. Nestled against the back is the remains of a grass
+nest, matted down and decayed by the sulfur gas. Next to it lies a small
+puddle of bubbling orange goo, fed by a vent directly underneath it. Fresh
+air and light may be found beyond the cove opening to the west.
+^
+fjord49 s:fjord47 w:fjord50;
+lflags { Outdoors Cold NoRegen }
+Deep in the Nolaks^
+   A light flurry blows continuously within this part of the mountain range.
+Peakes of varying height and shape tower around you as the trail winds
+back and forth through them, unused to the presence of a mere human and
+the gaze of mortal eyes. The temperature is well below freezing, allowing
+no form of natural life. A dark shape looms through the clouds to the
+northwest.
+^
+fjord50 e:fjord49 n:fjord51;
+lflags { Cold Outdoors NoRegen NoMobiles }
+Top of a Ridge^
+   The snowstorm falters here, not sure whether it wants to continue dumping
+or give up the fight for now. This vista overlooks the entire southern half
+of the Nolak Range, including the notably pointy Jaw of the Wolf, more 
+commonly known as Mt. Cyllirus. A hulking shape to the north looms tall, dark,
+and ugly before your eyes. Mountain peaks surround this rocky, jutting ridge
+which runs along the rim of the Phaylax Caldera. A walkable slope leads down
+into the snow-filled basin below, while the ridgeline drops away to the
+southeastern Nolaks to the east. There are shadowy shapes moving in the
+caldera which cannot be readily discerned from this distance.
+^
+fjord51 s:fjord50 w:fjord52 n:fjord53 e:fjord54;
+lflags { Cold Outdoors NoRegen }
+Within the Caldera^
+   The basin housing the volcano to the north stretches away in all
+directions. It is filled with quite a lot of snow, some places reaching as
+much as twenty feet deep. Fortunately, most of the pack is somewhat solid
+and enchanced in strength by the surface layers of ice. Wandering aimlessly
+through the caldera are many shades of the underworld, stark against the
+snow and looking for bodies to drain life-force from. Cold temperatures and
+the thin air here have prevented many of the corpses from decomposing, and
+some faces are forever frozen in ice, shock, and pain. At least they didn't
+suffer long as their spirits were sent to join the army of roamers here.
+^
+fjord52 e:fjord51;
+lflags { Cold Outdoors NoRegen }
+Within the Caldera^
+   The basin housing the volcano to the north stretches away to the east.
+It is filled with quite a lot of snow, some places reaching as much as
+twenty feet deep. Fortunately, most of the pack is somewhat solid and 
+enchanced in strength by the surface layers of ice. Wandering aimlessly
+through the caldera are many shades of the underworld, stark against the    
+snow and looking for bodies to drain life-force from. Cold temperatures and
+the thin air here have prevented many of the corpses from decomposing, and  
+some faces are forever frozen in ice, shock, and pain. At least they didn't
+suffer long as their spirits were sent to join the army of roamers here.
+^
+fjord53 s:fjord51;
+lflags { Outdoors Cold }
+Within the Caldera^
+   The basin housing the volcano to the north stretches away in all
+directions. It is filled with quite a lot of snow, some places reaching as
+much as twenty feet deep. Fortunately, most of the pack is somewhat solid  
+and enchanced in strength by the surface layers of ice. Wandering aimlessly
+through the caldera are many shades of the underworld, stark against the    
+snow and looking for bodies to drain life-force from. Cold temperatures and  
+the thin air here have prevented many of the corpses from decomposing and  
+some faces are forever frozen in ice, shock, and pain. At least they didn't
+suffer long as their spirits were sent to join the army of roamers here.
+^
+fjord54 w:fjord51 n:fjord55;
+lflags { Outdoors Cold NoRegen }
+Within the Caldera^
+   The basin housing the volcano to the north stretches away to the west and
+north. It is filled with quite a lot of snow, some places reaching as much
+as twenty feet deep. Fortunately, most of the pack is somewhat solid and 
+enhanced in strength by the surface layers of ice. Wandering aimlessly
+through the caldera are many shades of the underworld, stark against the    
+snow and looking for bodies to drain life-force from. Cold temperatures and  
+the thin air here have prevented many of the corpses from decomposing, and  
+some faces are forever frozen in ice, shock, and pain. At least they didn't
+suffer long as their spirits were sent to join the army of roamers here.
+^
+fjord55 s:fjord54 n:fjord56 u:fjord57;
+lflags { Outdoors Cold NoRegen }
+Within the Caldera^
+   The basin housing the volcano to the north stretches away to the north and
+south. It is filled with quite a lot of snow, some places reaching as much
+as twenty feet deep. Fortunately, most of the pack is somewhat solid and
+enchanced in strength by the surface layers of ice. Wandering aimlessly
+through the caldera are many shades of the underworld, stark against the    
+snow and looking for bodies to drain life-force from. Cold temperatures and  
+the thin air here have prevented many of the corpses from decomposing, and  
+some faces are forever frozen in ice, shock, and pain. At least they didn't
+suffer long as their spirits were sent to join the army of roamers here. A
+outcropping of pumice marks the start of a trail up the topmost slopes of
+the volcano.
+^
+fjord56 s:fjord55;
+lflags { Outdoors Cold NoRegen }
+Within the Caldera^
+  The basin housing the volcano to the north stretches away to the south. It
+is filled with quite a lot of snow, some places reaching as much as twenty
+feet deep. Fortunately, most of the pack is somewhat solid and enchanced
+in strength by the surface layers of ice. To the west and north, a solid 
+wall of lava rock blocks any climbing attempts. Wandering aimlessly 
+through the caldera are many shades of the underworld, stark against 
+the snow and looking for bodies to drain life-force from. Cold
+temperatures and the thin air here have prevented many of the corpses from
+decomposing, and some faces are forever frozen in ice, shock, and pain. At
+least they didn't suffer long as their spirits were sent to join the army
+of roamers here.
+^
+fjord57 d:fjord55 u:fjord58;
+lflags { Outdoors Cold }
+Winding With the Phaylax Trail^
+   A path made of black glassy lava leads up from the caldera and winds
+around the mountain, terminating somewhere near the lip of the crater.
+Cutting gales sweep across the steep climb of the slope, bringing fine
+flakes of snow pelting against you. Shades stand motionless at various
+points on the trail, some simply hovering off the edge in mid-air, their
+formless, transparent faces staring at nothing.
+^
+fjord58 n:fjord59 d:fjord57;
+lflags { Outdoors Cold }
+The High Lake Shore^
+   The Phaylax Trail levels out into a bowl shaped section of the volcano
+slope. Small geothermal geysers vent into the lake, bubbling through it and
+keeping it from freezing. The lake is biologically dead, though. Not even
+single-cell organisms occupy these waters with the presence of the shades so
+nearby. A peninsula of black lava rock sticks out into the lake like an
+angry blister, where a small diamond boat is tethered to one of the sharp
+rocky points.
+^
+fjord59 s:fjord58 n:fjord60;
+lflags { Outdoors Cold OnWater }
+The High Lake^
+   The boat is controlled by pulling on a cord which is stretched taut across
+the entire lake. The wake is quite small traveling at such a pace, but there
+is good reason to be using this boat. The lake waters are highly acidic from
+the constantly spouting volcano, although not enough to cause instant
+dissolution - to boats. But with repeated use, wooden and metal boats would
+be eaten, and then whoever ended up swimming would become part of the lake
+rather quickly and painfully.
+^
+fjord60 s:fjord59 w:fjord61;
+lflags { Outdoors Cold OnWater }
+The High Lake^
+   The boat is controlled by pulling on a cord which is stretched taut across
+the entire lake. The wake is quite small traveling at such a pace, but there
+is good reason to be using this boat. The lake waters are highly acidic from
+the constantly spouting volcano, although not enough to cause instant  
+dissolution - to boats. But with repeated use, wooden and metal boats would
+be eaten, and then whoever ended up swimming would become part of the lake
+rather quickly and painfully.
+^
+fjord61 e:fjord60 u:fjord62;
+lflags { Outdoors Cold OnWater }
+The High Lake^
+   The boat is controlled by pulling on a cord which is stretched taut across
+the entire lake. The wake is quite small traveling at such a pace, but there
+is good reason to be using this boat. The lake waters are highly acidic from
+the constantly spouting volcano, although not enough to cause instant  
+dissolution - to boats. But with repeated use, wooden and metal boats would
+be eaten, and then whoever ended up swimming would become part of the lake
+rather quickly and painfully. A pier of rock is where one end of the rope
+starts, marking the shoreline and a section of the Phaylax Trail.
+^
+fjord62 d:fjord61 u:fjord63;
+lflags { Outdoors Cold NoMobiles}
+The Phaylax Crater Trail^
+   Steps carved into the mountainside provide a direct means of travel to
+both the mountain crater and the acidic lake. The air reeks of sulfur
+dioxide and burnt carbon, and ash deposits are everywhere from the minor
+bouts of volcanic activity. Off to either side of the staircase are
+solidifed lava flows, hard, spiky, and black as night. Vision is limited by
+the combination of ash and condensation clouds overhead, but the wind brings
+howls to your ears, and not just of the wind.
+^
+fjord63 d:fjord62 s:fjord64;
+lflags { Outdoors Cold }
+Rim of the Crater^
+   Smoke, sulfur fumes, and puffs of ash are choked up by the crater and
+provide a nice display of pyrotechnics. The lip of the crater is a high and
+pointy ridge which slopes heavily down on all sides, but provides an
+excellent view of the surrounding caldera and mountains. Past the northern
+reaches of the Nolaks, the lands slopes sharply back down via ice and
+snowdrifts to the cold north sea. The lip provides easy walking access to
+the south, while a stone-carved staircase drops back down the mountain.
+^
+fjord64 n:fjord63;
+lflags { Outdoors Cold }
+Shrine of Chaos^
+   An area of the ridge has been leveled out to make a smooth surface. At
+the end opposite the shrine entrance, there stands an altar, erected from
+the same black glassy lava as the ridge. On top of it is a diamond brazier
+in which burns a blue flame streaked with ebony. It hisses vivid red sparks
+and is unaffected by the roaring wind through the shrine. Two torches stand
+to either side of the altar in carved stands roughly nine feet high,
+providing additional light. The only exit is out of the shrine.
+^
+fjord65 d:fjord66;
+lflags { Dark }
+The Platform^
+   Staircases lead down from this raised section of pumice on all cardinal
+points. This is one of the transport devices used by the inhabitants of the
+volcano to leave and return from this dark world. Black structures stretch
+down wide avenues, and a distant rumbling comes from deep within the Phaylax
+Volcano. The air is totally deadly to human life with its near total sulfur
+and phosphorus content. Murmurs from adjoining streets float through the
+toxic soup.
+^
+fjord66 e:fjord67 w:fjord69 n:fjord71 u:fjord65;
+lflags { Dark }
+The Dark City^
+   Clusters of black lava rock buildings make up this town, where to even
+lean against one to rest is to invite puncture wounds and whatever toxins
+lay on the surfaces. This is the central plaza of the city. Black roads lead
+away from it to the resident districts. Small plumes of fire explode into
+reality from pressured gases within the volcano vents, momentarily outlining
+each stark window against a black background. Ghostly images drift in the
+plaza building windows, giving rise to an alarming number of inhabiting
+shadow people. The bleak and voted least desirable town (on the level
+of hell intersecting the world of life) of Fallenthorp does not get many
+tourists.
+^
+fjord67 w:fjord66 e:fjord68;
+lflags { Dark }
+Twexxler Avenue^
+   Named after the evil spirit who guards the easterly winds, this flat,
+featureless black street is the main artery of the eastern section of the
+city. No commercial districts are present, since no trade happens here. All
+who inhabit this city fight for their own power and survival and make
+enemies on an hourly basis. There is a lavasmith's shop near the end of the
+street, where a behemoth in a fireproof outfit melds together lava bombs
+with its breath of silver fire. It gives these weapons to various factions
+in the city to help gain the favors of the minions who wage their wars.
+^
+fjord68 w:fjord67 n:fjord79 s:fjord80;
+lflags { Dark Hot }
+Firepit^
+  This cul-de-sac dips down nearly a hundred feet to a flat square about
+three feet across at the bottom. Around the edges, cackling ghouls with
+serrated ears and blue insignias dump freshly melted rock down the sides and
+howl with laughter as an orange lizard of an opposing faction scrambling
+frantically and futilely is set on fire by the advancing lava. An iron cage
+stands nearby, filled with more lizards to be fed to the &+Rpit of lava&*. After
+the mass executions are done, the ghouls break up in search of more fodder
+for their fire.
+^
+fjord69 e:fjord66 w:fjord70;
+lflags { Dark }
+Serastorm Way^
+   The denizens of the city revere the guardians of the evil winds, and this
+street was named after the one entrusted with the west-blowing breeze of
+evil. The road rock is made into a cobblestoned pattern, making walking a
+chore. Lining the sides are ditches in which flow small streams of magma. At
+some points along these gutters are rocky bridges allowing the ghouls easy
+access to and from their residences. Shouting comes from the west, and the
+plaza is to the east.
+^
+fjord70 e:fjord69 s:fjord77 n:fjord78;
+lflags { Dark }
+The Stage^
+   A wide semi-circular sweep of stone benches tier down to an alcove of
+solid black lava rock. His fists waving furiously and yelling in a dark
+tongue, the lecturing zombie meister curses the eastern side ghouls for
+their foul trickery and swears to have undying vengeance. In response to the
+rotting corpse, cackling howls echo from the rows of seated, hooded,
+reptilian horrors. One lifts its head above the rest, and a massive fireball
+sent up by the power of the crowd illuminates thousands of fluidic teeth
+which grind ceaselessly against each other and claws made of shifting sulfur
+vapor, forming and reforming hideous versions of claws. Small volcanic
+alleys lead north and south, and a large street leads east.
+^
+fjord71 s:fjord66 n:fjord72;
+lflags { Dark }
+Loolander Avenue^
+   The spirit of the evil northern winds has this wide boulevard named in its
+honor. Stretching from the plaza to the south to the mountain wall due
+north, this street has most of the housing districts on it. Skyscrapers
+housing thousands of minions of the dark stretch way up into the dark
+ceiling that leads up the main shaft of the crater. Way overhead, a dim gray
+reveals the opening to this world.
+^
+fjord72 s:fjord71 n:fjord75 e:fjord73 w:fjord74;
+lflags { Dark }
+Loolander Avenue^
+   The spirit of the evil northern winds has this wide boulevard named in its   
+honor. Stretching from the plaza to the south to the mountain wall due 
+north, this street has most of the housing districts on it. Skyscrapers
+housing thousands of minions of the dark stretch way up into the dark
+ceiling that leads up the main shaft of the crater. Way overhead, a dim
+gray reveals the opening to this world. Shops lie to the east and to
+the west.
+^
+fjord73 w:fjord72;
+lflags { Dark }
+Intoxication Mindshop^
+   The proprietor of this 'store' is a disproportioned, three-legged ghoul
+bearing a forked tongue, eye stalks, and a sunken hole for a nose. He
+readily sells his brainwashing, mind-searching, and psionic techniques at a
+considerable profit. With all the warring found here in the dark city, he
+never needs fear a lack of customers, whether they are buying or being acted
+upon by his disastrous methods. A chair with manacles and a rack of needles
+sticking above it appears to be the main workplace. Next to it stands a tray
+of all sort of device designed solely to pierce cranial matter and give its
+victim a major headache.
+^
+fjord74 e:fjord72;
+lflags { Dark }
+The Dark City Treasury^
+   The walls of this chamber are not just black, but covered in soot from all
+the explosions used to kill ghouls and get at the massive amount of jewels
+within the treasury. While ghouls have no use for jewels, they are very
+possessive of the things they do happen to own, and store them here. Ghouls
+and lizards compete in here mainly to enrage each other's vengeful lust on
+the other clan. 
+^
+fjord75 s:fjord72 n:fjord76;
+lflags { Dark }
+Loolander Avenue^
+   The spirit of the evil northern winds has this wide boulevard named in its
+honor. Stretching from the plaza to the south to the mountain wall due 
+north, this street has most of the housing districts on it. Skyscrapers
+housing thousands of minions of the dark stretch way up into the dark
+ceiling that leads up the main shaft of the crater. Way overhead, a dim gray   
+reveals the opening to this world. To the north, the volcano wall crashes
+into the ground, cutting off the avenue.
+^
+fjord76 s:fjord75;
+lflags { Dark }
+The Platform^
+   This raised section of a cooled volcanic lava flow tapers up to a
+perfectly flat and smooth square. Fireballs from the Dark City below
+explode high up into the volcano and briefly illuminate this area,
+bringing forth the nearby mountain wall in all of its stark glory. Like
+its counterpart at the other end of the city, this magical spot allows
+transport both within and without of Mount Phaylax. Volcanic slopes lead
+down to the avenue of Loolander.
+^
+fjord77 n:fjord70;
+lflags { Dark }
+Hall of the Slaughtered^
+   A dark alley leads between the shouting and chanting crowd to the north
+and this rather large, concealed chamber. The entire floor is covered in
+dried ichor, dripped from the heads of both lizards and ghouls which are
+mounted on pikes stuck in the floor. Spears coated in acidic poison impale
+more bodies to walls, and a rack of lava rock keeps freshly forged
+halberds and morning stars readily available to whatever factions choose
+to raid here. Painted in the multi-colored blood of countless souls in
+straight-line lettering is the message 'Few be the chosen, but none there
+be still among us.' With no guards in attendance, the city dwellers can
+come by at their leisure and take their weapons of choice at will.
+^
+fjord78 s:fjord70;
+lflags { Dark }
+The Spawning Vats^
+   Nearly overpowering the volcanic fumes in the air are those coming from
+an entire valley of bubbling and simmering vats. Lined up in thirty rows
+of nearly five hundred to each row are the source of the ghouls and lizard
+spawn for the entire Dark City. Hand-carved wells into an extremely deep
+lava flow are filled with an oily, milky-colored fluid which swirls and
+bubbles with no particular pattern. A continuous stream of popping noises
+announces the 'birth' of a new spawn, where it is taken by an appropriate
+lizard or ghoul attendant and given its place of residence, armor, and a
+twisted black blade. The closeness of the two species usually ends up in
+death for both sides, but here at the vat, the magic of the darkness which
+surrounds and envelops this city prevents any fights from starting. Their
+warring is meant to be meaningless and eternal.
+^
+fjord79 s:fjord68;
+lflags { Dark }
+Industrial Sector^
+   During the times that the city dwellers are not fighting or feasting on
+the bones of the slain, they gather here in homogenous factories to labor
+on the ore needed for the nearly constant demand of fresh weapons for the
+new spawn produced to the west. Smokestacks reaching higher than the
+tallest skyscraper let loose the billowing clouds of hazardous by-products
+of the manufacturing processes. The clang of metal on metal beats at an
+even rhythm as hundreds of shields, swords, and suits of scale mail are
+eagerly produced, fed by the ghouls' and lizards' mutual undying need for
+vengeance and pain.
+^
+fjord80 n:fjord68;
+lflags { Dark }
+Passage of Mold^
+   Nothing lives down this way other than the white and green striped
+patches of volcanic mushrooms and mold. Covering nearly every square inch
+of volcanic rock floor is a entanglement of thick white vines which form
+the nutrient transport system for the mushroom jungle. A lizard, still
+clad in full battle-gear, has had its throat completely crushed and
+partially ripped by the strain of three white vines simultaneously
+pulling. The barbed hooks on the vines still eagerly drink from the
+dead reptilian husk. Meanwhile, a mushroom off to the side has managed to
+ensnare the head of a ghoul and rip off the top half of its skull to dine
+on what passes for brain material. This is one area of the city which even
+most of the population won't venture into.
+^
+fjord81 n:fjord83 w:fjord82 e:fjord102;
+lflags { Cold Outdoors NoRegen }
+Within the Caldera^
+   The basin housing the volcano to the north stretches away to the west
+and north. It is filled with quite a lot of snow, some places reaching as  
+much as twenty feet deep. Fortunately, most of the pack is somewhat solid  
+and enchanced in strength by the surface layers of ice. Wandering aimlessly
+through the caldera are many shades of the underworld, stark against the
+snow and looking for bodies to drain life-force from. Cold temperatures and
+the thin air here have prevented many of the corpses from decomposing, and
+some faces are forever frozen in ice, shock, and pain. At least they didn't
+suffer long as their spirits were sent to join the army of roamers here. 
+^
+fjord82 e:fjord81 n:fjord101;
+lflags { Cold Outdoors NoRegen }
+Within the Caldera^
+   The basin housing the volcano to the north stretches away to the east.
+It is filled with quite a lot of snow, some places reaching as much as
+twenty feet deep. Fortunately, most of the pack is somewhat solid and
+enchanced in strength by the surface layers of ice. Wandering aimlessly
+through the caldera are many shades of the underworld, stark against the
+snow and looking for bodies to drain life-force from. Cold temperatures and
+the thin air here have prevented many of the corpses from decomposing, and
+some faces are forever frozen in ice, shock, and pain. At least they didn't
+suffer long as their spirits were sent to join the army of roamers here.  
+^
+fjord83 s:fjord81 n:fjord84;
+lflags { Cold Outdoors NoRegen }
+Within the Caldera^
+   The basin housing the volcano to the north stretches away to the north
+and south. It is filled with quite a lot of snow, some places reaching as
+much as twenty feet deep. Fortunately, most of the pack is somewhat solid
+and enchanced in strength by the surface layers of ice. Wandering aimlessly 
+through the caldera are many shades of the underworld, stark against the
+snow and looking for bodies to drain life-force from. Cold temperatures and
+the thin air here have prevented many of the corpses from decomposing, and
+some faces are forever frozen in ice, shock, and pain. At least they didn't
+suffer long as their spirits were sent to join the army of roamers here.
+^
+fjord84 d:fjord85 s:fjord83;
+lflags { Cold Outdoors NoRegen NoMobiles }
+Steeply Sloping Trail^
+   High wind velocities rush over the upper slopes on the north side of
+Mount Phaylax, sending pieces of ash and black glassy lava all over the
+place. The rock-containing dust storm rages unabated at this altitude,
+allowing no respite to one who travels over it. The volcano blocks all
+view southward, but the north reveals the line of the cold northern seas
+and ice-covered slopes leading to it.
+^
+fjord85 u:fjord84 d:fjord86;
+lflags { Cold Outdoors }
+The Northern Nolaks^
+   Snow-capped peaks with enormous avalanche and geological potential tower
+all around, pointing their tips towards the heavens in total defiance of
+Mother Nature's attempts to erode them. Just visible from this distance on
+Mt. Doralade is a nest made of the grass found only in the meadows far to
+the south. It is currently uninhabited, however. The sounds of the ocean
+can be heard faintly as the waves crash against the base of these
+mountainous slopes.
+^
+fjord86 u:fjord85 n:fjord87 e:fjord91;
+lflags { Cold Outdoors }
+Base of the Trail^
+   The start of a path leading up into the lower slopes of the northern
+Nolak Range begins here. Approximately a mile to the north, the north sea
+begins, sending salt spray high into the air. If it were not for the
+proximity of the coast, then trees would be able to grow here under
+ambient conditions and make a forest stretching as far as the Muskrats
+do to the south.
+^
+fjord87 s:fjord86 n:fjord88 e:fjord90;
+lflags { Cold Outdoors }
+Seashore^
+   Two fingers of the mountains reach far out into the sea, tapering
+together somewhere out in the open sea, forming a protected inlet here. A
+small harbor is set off the trail, with a ramshackle boatshop and business
+office. Waves crash against the icy ground full force with their cold
+touch, showing no mercy to the shoreline.
+^
+fjord88 s:fjord87 n:fjord103;
+lflags { Cold Outdoors OnWater NoMobiles }
+Inlet of the Werewolf^
+   The hardiest and tastiest of the northern saltwater fish species can be
+found in this inlet during the summer, when they come here in droves to
+reproduce and lay their eggs. Occasionally, a shark will follow schools in
+and snap a few unsuspecting fish before the rest of the school has time to
+turn around and gang up on the shark. The shark is driven out and never
+returns. Within the inlet, the ocean waves are relatively minor and
+provide easy rocking motion in which to relax and let all of life's
+worries go. This is the way of the villagers to the southeast, as they
+make a killing of a living off of fishing in this cove. They also pass
+their time telling repeated stories of a great aquatic terror in the open
+sea, with the mouth, speed, and ferocity of a werewolf. The inlet is so
+named in the honor of the tale which has kept many a petrified child
+awake.
+^
+fjord89 s:fjord103 w:fjord110 n:fjord108 e:fjord111;
+lflags { Cold Outdoors OnWater }
+The Northern Ocean^
+   Dangerous water completely surrounds you right outside the inlet. No
+boat strong enough to withstand the pounding force of the open waves or
+the undertow generated by each cresting swell exists yet. The only safety
+lies back to the south between the sinking fingers of the Nolak Mountains,
+but truly courageous adventurers may seek and never find their peril,
+maiming, and doom to yonder waves. Out there, the elements have full 
+control of everything, and they are in no mood to brake for anyone or
+anything. Yet that environment remains ideal for larger creatures of the
+sea.
+^
+fjord90 w:fjord87;
+lflags { }
+Baitshop^
+   The little shanty housing all the bait seemingly ever needed to catch
+every fish in the world has windows which shudder with the passing of the
+outside wind. On many pegboard racks lining the walls are the many fishing
+rods which are used to expertly catch the inlet fish. Stacked in one
+corner and tagged by name are the tackle boxes containing the personal
+arsenals of bait type, line strength, and an assorted array of nasty-
+looking fishhooks. Balanced woodenly against one wall is a 'jhata' -
+a small, one-person craft which resembles a kayak, but is much more
+streamlined and lightweight. Should anything threatening enter the inlet,
+people using such a boat would be likely to leave the finned swimmer in
+the dust.
+^
+fjord91 w:fjord86 e:fjord92;
+lflags { Outdoors Cold }
+Icy Road^
+   The slickness of the road reflects ultraviolet light quite nicely with
+its total whiteness and causes things to seem closer then they are. The
+road follows the shoreline fairly closely around part of the inlet, but
+not so that the icy mist of the sea drenches it continuously. To the east
+there is a large fishing village, while the inlet harbor is to the west.
+^
+fjord92 w:fjord91 e:fjord93;
+lflags { Outdoors Cold }
+Icy Road^
+   The slickness of the road reflects ultraviolet light quite nicely with  
+its total whiteness and causes things to seem closer then they are. The   
+road follows the shoreline fairly closely around part of the inlet, but   
+not so that the icy mist of the sea drenches it continuously. To the east
+there is a large fishing village, where the buzz of activity can be heard,
+while the inlet harbor is to the west.
+^
+fjord93 w:fjord92 s:fjord94 n:fjord95 e:fjord96;
+lflags { Outdoors Cold }
+Kyerstarn Village Square^
+   The infamous market square of this remote village has thousands of
+buisness transactions done each day. The entire open are is packed with
+bazaar merchants from as far as away as the deserts near the southern end
+of the continent to trade for the largest sizes in some exotic species of
+fish, fresh from the north inlets. Selling at high prices while using the
+resources of the inlet efficiently, the people of Kyerstarn will take gold
+in exchange form their catches, but prefer cold winter survivial gear and
+the wonder of knowledge. They will even sell for a good story, since they
+lack many books commonplace to most of the world. What they do have is
+kept safe in the library to the south, while the town meeting hall is to
+the north.
+^
+fjord94 n:fjord93;
+lflags { }
+Library of Kyerstarn^
+   Stone bookcases with wooden supports have been constructed to hold the
+books which, in time, will inhabit them. A lone clerk sits behind a desk
+doing her daily work of stamping out orders for books and clearing out
+receipts of sale to the library. It is also her job, and the job of
+everyone, to be totally literate and help contribute to the town's poor
+supply of stories. Since paper can be readily made from the Muskrat pines
+to the south, the villagers use their divinely strengthened powers of
+spirit and community to, quite literally, move mountains and get at the
+trees.
+^
+fjord95 s:fjord93;
+lflags { }
+The Town Hall^
+   Made out of sturdy, thick pine wood, this building has withstood the
+tests of time and debate. The council of twelve of Kyerstarn, in addition
+to the elected leader, Rankine Hugoniot, meet in this center of village
+government once a month to discuss issues of commerce and how well the the
+village is doing. Previously, the issue of the weakening of the veil
+guarding this world from Fallenthorp has arisen. Battles with the undead
+are not taken lightly by the citizens of this concerned town, given their
+proximity to Mount Phaylax. Today, the hall is deserted, and the council
+members are out helping to raise capital for the village.
+^
+fjord96 w:fjord93 n:fjord97 s:fjord98 e:fjord113;
+lflags { Cold Outdoors }
+Main Street, Kyerstarn^
+   The bazaar continues down the sodden, muddy ground of the center of the
+Kyerstarn village. Hubbub all around feeds the festive and busy atmosphere
+as the grains of the Muskrats are traded by paper agreement and confidence
+in the good. Young urchins of Kyerstarn ride by on their latest homemade
+inventions - two-person balances connected to a series of pulleys which
+run off the idea of a bicycle, but are more stable.
+^
+fjord97 s:fjord96;
+lflags { }
+The Gutting Lodge^
+   It's carp time! But then again, that is only one of the many types of
+fish thrown on tables or hanging by their tails on a rack. This is where
+the captured prizes of the inlet are cleaned, gutted, and made ready to be
+cooked by the customer or traded away for the benefit of the entire
+village. Tags marking species, weight, scarcity, and price are slapped to
+each fish to allow all to see the variety of selection. On the processing
+tables strewn in rows about the room are cutting blocks stained with fish
+gore, with cleavers streaked with a dark, crusty red material sitting next
+to the decapitated and de-tailed fish. The fishheads and fishtails make
+excellent meals for the Kyerstarn husky dog population and ensure the
+dogs' give swift sled travel during times of winter.
+^
+fjord98 n:fjord96;
+lflags { }
+Dormitory Inn^
+   To keep those who visit the village safe and warm, with good food and a
+comfortable bed, the Hunterton family has carried this dormitory in their
+name for nearly nine generations. In all that time, the stories and
+insights gleaned from the merchants who stay here have become legendary
+comical matters among the current owning Hunterton. Beds stacked three
+high stretch back, with decent-sized footlockers and shelves available for
+storage. Chambers against one wall with barrels of heated water and 
+drawing curtains provide places to bathe and refresh oneself in while
+small windows just above eyelevel provide a view of the village.
+^
+fjord99 w:fjord113;
+lflags { }
+Park of the Divine^
+   A good-sized area of lush bluegrass and fertile vegetation surrounds an
+obliquely staring statue. Protected from the harsh northern climate, this
+park was created in the honor of the guardians of the divine winds, which
+breath life from the gods into this world each time a child of any form is
+born, be it animal, vegetable, or mineral. The statue is a totem depicting
+the five ways of the winds and the core of ethereal power which they and
+their force represent. To the people of Kyerstarn, the winds have a binding
+contract to keep the village prosperous and healthy while the citizens
+maintain the lockdown on The Dark City and keep its influence confined to
+the volcano of Mount Phaylax.
+^
+fjord100;
+lflags { Death NoAt }
+The Vault^
+   This room simply holds fjord material until it is needed or has
+unconditionally bought the farm.
+^
+fjord101 s:fjord82 e:fjord83;
+lflags { Cold Outdoors }
+Within the Caldera^
+   The basin housing the volcano to the south stretches away to the south
+and east. It is filled with quite a lot of snow, some places reaching as
+much as twenty feet deep. Fortunately, most of the pack is somewhat solid
+and enchanced in strength by the surface layers of ice. Wandering aimlessly
+through the caldera are many shades of the underworld, stark against the
+snow and looking for bodies to drain life-force from. Cold temperatures and
+the thin air here have prevented many of the corpses from decomposing, and
+some faces are forever frozen in ice, shock, and pain. At least they didn't
+suffer long as their spirits were sent to join the army of roamers here.
+^
+fjord102 w:fjord81;
+lflags { Cold Outdoors }
+Within the Caldera^
+   The basin housing the volcano to the south stretches away to the west.
+It is filled with quite a lot of snow, some places reaching as much as
+twenty feet deep. Fortunately, most of the pack is somewhat solid and
+enchanced in strength by the surface layers of ice. Wandering aimlessly
+through the caldera are many shades of the underworld, stark against the
+snow and looking for bodies to drain life-force from. Cold temperatures and
+the thin air here have prevented many of the corpses from decomposing, and
+some faces are forever frozen in ice, shock, and pain. At least they didn't
+suffer long as their spirits were sent to join the army of roamers here.
+^
+fjord103 n:fjord89 s:fjord88;
+lflags { Cold Outdoors OnWater }
+Icebar^
+   The water is sparkling clear, yet not as deep as the inlet or the
+ocean. Shining pristinely beneath only thirty feet of cold water is where
+the two icy fingers of the Nolak Fjord submerge and meet. The inlet forms
+the contents of this underwater ice bowl, and the icebar has made the
+current travel both ways across it. There are certain places that sailing
+ships must enter and leave the inlet at. The icebar also serves as the
+separator between two environments. On the inlet side, the small waves
+harmlessly slap against the icebar, causing minor splashes and undertows,
+while the ocean side has been worn smooth by the increased pressure of
+waves generated far out to sea. 
+^
+fjord104 e:fjord105 s:fjord107;
+lflags { Outdoors OnWater Cold }
+Northern Ocean^
+   The waves clap against each other with medium force, sending sprays of
+salty foam high into the air. A powerful wind roars about, leaving no
+doubt that thers is no cover about. The sun shines down cleanly through
+the crisp, cold air, saturating the surface of the sea with mirror images
+of itself, while a light gray overhaze continues to be randomly blown
+about. To the north and west the seas become utterly destructive and
+unnavigable by the sheer amounts of broken-off polar pack ice present.
+^
+fjord105 w:fjord104 s:fjord108 e:fjord106;
+lflags { Outdoors OnWater Cold }
+Northern Ocean^
+   The waves clap against each other with medium force, sending sprays of
+salty foam high into the air. A powerful wind roars about, leaving no
+doubt that thers is no cover about. The sun shines down cleanly through
+the crisp, cold air, saturating the surface of the sea with mirror images
+of itself, while a light gray overhaze continues to be randomly blown
+about. To the north, the seas become utterly destructive and unnavigable
+by the sheer amounts of broken-off polar pack ice present.
+^
+fjord106 w:fjord105 s:fjord109;
+lflags { Outdoors OnWater Cold }
+Northern Ocean^
+   The waves clap against each other with medium force, sending sprays of
+salty foam high into the air. A powerful wind roars about, leaving no
+doubt that thers is no cover about. The sun shines down cleanly through
+the crisp, cold air, saturating the surface of the sea with mirror images
+of itself, while a light gray overhaze continues to be randomly blown
+about. To the north and east the seas become utterly destructive and
+unnavigable by the sheer amounts of broken-off polar pack ice present.
+There is also a rocky island with sheer, vertical faces that does not look
+too inviting.
+^
+fjord107 e:fjord108 s:fjord110 n:fjord104;
+lflags { Outdoors OnWater Cold }
+Northern Ocean^
+   The waves clap against each other with medium force, sending sprays of
+salty foam high into the air. A powerful wind roars about, leaving no
+doubt that thers is no cover about. The sun shines down cleanly through
+the crisp, cold air, saturating the surface of the sea with mirror images
+of itself, while a light gray overhaze continues to be randomly blown
+about. To the west the seas become utterly destructive and unnavigable by
+the sheer amounts of broken-off polar pack ice present.
+^
+fjord108 n:fjord105 w:fjord107 e:fjord109 s:fjord89 u:fjord112;
+lflags { Outdoors OnWater Cold }
+Northern Ocean^
+   The waves clap against each other with medium force, sending sprays of
+salty foam high into the air. A powerful wind roars about, leaving no
+doubt that thers is no cover about. The sun shines down cleanly through
+the crisp, cold air, saturating the surface of the sea with mirror images
+of itself, while a light gray overhaze continues to be randomly blown
+about. There is a massive ice floe here, too massive for the ocean forces 
+to move.
+^
+fjord109 w:fjord108 s:fjord111 n:fjord106;
+lflags { Outdoors OnWater Cold }
+Northern Ocean^
+   The waves clap against each other with medium force, sending sprays of
+salty foam high into the air. A powerful wind roars about, leaving no
+doubt that thers is no cover about. The sun shines down cleanly through
+the crisp, cold air, saturating the surface of the sea with mirror images
+of itself, while a light gray overhaze continues to be randomly blown
+about. To the east the seas become utterly destructive and unnavigable by
+the sheer amounts of broken-off polar pack ice present.
+^
+fjord110 e:fjord89 n:fjord107;
+lflags { Outdoors OnWater Cold }
+Northern Ocean^
+   The waves clap against each other with medium force, sending sprays of
+salty foam high into the air. A powerful wind roars about, leaving no
+doubt that thers is no cover about. The sun shines down cleanly through
+the crisp, cold air, saturating the surface of the sea with mirror images
+of itself, while a light gray overhaze continues to be randomly blown
+about. To the north and east the seas become utterly destructive and
+unnavigable by the sheer amounts of broken-off polar pack ice present.
+^
+fjord111 w:fjord89 n:fjord109;
+lflags { Outdoors OnWater Cold }
+Northern Ocean^
+   The waves clap against each other with medium force, sending sprays of
+salty foam high into the air. A powerful wind roars about, leaving no
+doubt that thers is no cover about. The sun shines down cleanly through
+the crisp, cold air, saturating the surface of the sea with mirror images
+of itself, while a light gray overhaze continues to be randomly blown
+about. To the south and east the seas become utterly destructive and
+unnavigable by the sheer amounts of broken-off polar pack ice present.
+^
+fjord112 d:fjord108;
+lflags { Outdoors Cold NoMobiles }
+Icefloe^
+   A small continent of smooth, crystalline ice covers this stretch of the
+northern seas. Not a single living thing has grown out here as the
+powerful forces of erosion prevent any nutrients from sticking around
+long enough to do their jobs. The floe is dying though; occasionally,
+pieces of itself will break off and float away to join their polar
+brethren outside the area which the local sea serpents inhabit. Only these
+serpents possess strength enough to push the icebergs around at whim.
+^
+fjord113 n:fjord114 e:fjord99 w:fjord96;
+lflags { Outdoors }
+Main Street, Kyerstarn^
+   Noises emanate from the bazaar to the west, completely opposite of the
+peaceful silence that is to the east. The road here has been cobblestoned
+and fashioned into a plaza where the three roads of Kyerstarn intersect.
+There is an aerial shield of filtered sky-colored energy surrounding a
+well-tended circle of temperate bluegrass. Shooting a perpetual column of
+water is a natural geyser, yet imbued with sanctual properties at the
+nearness of the divine park. It is said that those with the power to
+travel through a volcano may drink from this geyser to restore any flower 
+garden destroyed by the ghouls and lizards of Fallenthorp. The residential
+districts of Kyerstarn lie along the northern path.
+^
+fjord114 s:fjord113 n:fjord115;
+lflags { Outdoors }
+Ferandilly Way^
+   The process of construction to cobbleston the roads continues ever on
+in Kyerstarn, but the workers have finally gotten around to doing this
+section of the village. A collection of houses forms to the north, while
+the road leads south to an already stoned intersection.
+^
+fjord115 e:^door115 s:fjord114 n:fjord117;
+lflags { }
+Ferandilly Way^
+   The main residential area is not as neat as some of the townsfolk would
+have outsiders believe. Not wishing to dump their garbage into the
+northern sea or the woods for fear of spoiling the fragile ecology, they
+elect instead to dump the less smelly portions along the sides of the
+road. Yet the houses themselves are impeccable, each glistening like it
+was just painted and permanently sealed away from the elements.
+^
+fjord116 w:^door116;
+lflags { }
+Magician's Dwelling^
+   Inside this house is an impossibly long table, since Dendine the
+magician keeps her secrets turned on in her personal life as well as her
+professional. Pinned tightly on one wall rests an astrological chart of
+the divine winds, but the divine spirits have never invested their power
+in the signs of the sky, so at best she can perform parlor tricks in this
+department. A wall rack of magic wands of different lengths rests against
+a series of shelves which hold all manners of small animated clay figures.
+An unusual assortment of beak-snapping umbrella stands in a back corner.
+^
+fjord117 s:fjord115 e:fjord118 w:fjord119;
+lflags { Outdoors }
+Ferandilly Circle^
+   The northern bounday of the village is marked by an abrupt circle of
+flattened dirt ringed by evenly spaced glass spheres. Each sphere throws
+off three rays of dark blue light at night which illuminate this section
+of town. To the east and west are more houses, which are surrounded by
+faintly glowing green rods of energy. These rods act as a magical security
+field implemented for the residents of Kyerstarn who live on this frontier
+edge of town. Far to the north and northeast are places of dark barbarians;
+electrically charged cousins of the lizards of Fallenthorp. Unlike those
+inside the volcano, though, these lizards are alive and thus allowed to
+inhabit this world.
+^
+fjord118 w:fjord117;
+lflags { }
+The Manor Yard^
+   The plush residence that is the property of the House of Snordsyk keeps
+well-tended in all seasons of the year, even through the fact that all the
+seasons up this far north are cold. Servants of the manor abound perform
+their daily duties without fail, for sometimes seldom are the available
+jobs in the village. Siding the steps of the manor are two massive statues
+of wyverns, each depicting the royal crest of the family. A flaming sword
+loaded on a strung crossbow suggests the fighting ferocity that this house
+has produced over the centuries to combat the forces of Fallenthorp.
+^
+fjord119 e:fjord117 d:fjord120;
+lflags { }
+Abandoned Shack^
+   Dusty bits of mold and paper blow through this derelict building. No
+one in Kyerstarn has bothered to fix this now tilting conglomeration of
+high-pressed clay because of its indeterminable value. It might prove to
+be a complete lemon of an investment. A damp staircase of mildew leads to
+an underground cellar.
+^
+fjord120 u:fjord119;
+lflags { Dark }
+Basement^
+   Deep piles of mildew fill up this sagging hole. The earth could
+collapse at any time, and the citizens of Kyerstarn would be greatly
+appreciative of that fact. A pile of wood thrown in corner seems to be
+composed mainly of rotting ship timbers, school desks, chairs which have
+just completely fallen apart, and some planks from a house that collapsed
+on the edge of the village last week. Mud splatters from the room
+occasionally into an equally muddy pool of water on the floor of this
+earthen conclave.
+^
+fjord121 d:fjord10;
+lflags { Outdoors Nomobiles }
+Needled Canopy^
+   Branches covered in countless number of pine needles manage to block
+out most of the sun, providing a rather slittd view of the giant ball of
+gas, The lichen which covers the base of nearly all the trees in the
+Muskrat forest is not present at this height, so the bark is more
+resilient as it has a chance to grow. On one limb, several branches have
+interlocked to form a sturdy &+ycradle&*. Birds chirp in annoyance as their
+nests are invaded by an unexpected traveler, yet remain in their nests to
+protect their young.
+^

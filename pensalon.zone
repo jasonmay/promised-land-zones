@@ -1,0 +1,666 @@
+
+
+
+
+
+%mobiles
+
+Name            = Tinglera
+PName           = "Tinglera"
+Location        = pensalon13
+Strength        = 100
+Speed           = 5
+Damage          = 10
+Aggression      = 35
+Description     = "Tinglera leans back against the wall resting."
+End             = Tinglera
+
+Name            = Symber
+PName           = "Symber"
+Location        = pensalon18
+Sflags 	{ NoBody }
+Strength        = 80
+Speed           = 5
+Damage          = 10
+Aggression      = 4
+Description     = "Symber the skeleton guard rambles around the room."
+End             = Symber
+
+Name            = Crazed
+PName           = "Crazed"
+Location        = pensalon26
+Strength        = 250
+Damage          = 10
+Aggression      = 9
+Description     = "The Crazed King's Guard runs about in fits of madness."
+End             = Crazed
+
+Name            = Smuggler
+PName           = "Smuggler"
+Location        = pensalon32
+Strength        = 70
+Damage          = 10
+Aggression      = 8
+Description     = "A haggard Smuggler looks a little annoyed at the disturbance of his sleep."
+End             = Smuggler
+
+Name            = Chef
+PName           = "Chef"
+Location        = pensalon33
+Strength        = 75
+Damage          = 10
+Aggression      = 25
+Description     = "The King's personal Chef looks around for his favorite knife."
+End             = Chef
+
+Name            = Serpeant
+PName           = "Serpeant"
+EFlags          { Shock  }
+Sflags	    { NoArms NoLegs }
+Location        = pensalon42
+Strength        = 200
+Speed           = 5
+Damage          = 10
+Aggression      = 9
+Description     = "A large Serpeant swims around the lake."
+End             = Serpeant
+
+Name            = jinx
+PName           = "Jinx"
+EFlags          { Shock  }
+Sflags	    { NoBody }
+Location        = limbo@limbo
+Strength        = 150
+Damage          = 10
+Aggression      = 10
+Description     = "The shadowy form of the Jinx blinks in and out of existence."
+End             = jinx
+
+%objects
+
+Name            = dias_throne
+PName           = throne
+OFlags          { NoGet PushToggle }
+Location        = IN_ROOM:pensalon21
+Linked          = throne_throne
+State           = 1
+MaxState        = 1
+Desc[0]         = "The King's golden throne is sitting here pushed to one side."
+Desc[1]         = "A large golden throne sits on top a Dias."
+End             = dias_throne
+
+Name            = throne_throne
+PName           = throne
+OFlags          { NoGet PushToggle }
+Location        = IN_ROOM:pensalon22
+Linked          = dias_throne
+State           = 1
+MaxState        = 1
+Desc[0]         = "The back of the King's throne is shifted to the side, allowing you through."
+Desc[1]         = "The back of the King's throne is here, blocking the passage."
+End             = throne_throne
+
+Name            = door_crawlspace
+PName           = door
+OFlags          { Lockable Openable NoGet }
+Location        = IN_ROOM:pensalon25
+Linked          = door_room
+State           = 2
+MaxState        = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = door_crawlspace
+
+Name            = door_room
+PName           = door
+OFlags          { Lockable Openable NoGet }
+Location        = IN_ROOM:pensalon26
+Linked          = door_crawlspace
+State           = 2
+MaxState        = 2
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = door_room
+
+Name            = helm
+OFlags          { Wearable Armor }
+Aflags          { Face Head }
+Location        = WORN_BY:Symber
+BValue          = 100
+Size            = 5
+Armor           = 62
+Desc[0]         = "A silver helm lies carelessly discarded on the ground."
+End             = helm
+
+Name            = dragonslayer
+AltName         = sword
+OFlags          { Weapon Lit }
+Aflags          { Hands }
+Location        = WIELDED_BY:crazed
+BValue          = 300
+Size            = 95
+Armor           = 70
+Damage          = 25
+State           = 1
+MaxState        = 1
+Desc[0]         = "A huge two handed sword glowing bright stands straight up, stuck tip first into the ground."
+Desc[1]         = "A huge two handed sword stands straight up, stuck tip first into the ground."
+End             = dragonslayer
+
+Name            = bread
+AltName         = loaf
+OFlags          { Food }
+Location        = IN_ROOM:pensalon33
+BValue          = 15
+Size            = 2
+Desc[0]         = "A large loaf of freshly baked bread draws your attention to it."
+End             = bread
+
+Name            = knife
+OFlags          { Weapon }
+Location        = WIELDED_BY:chef
+BValue          = 20
+Size            = 8
+Damage          = 5
+Desc[0]         = "A large and wicked looking steak knife lies discarded to one side."
+End             = knife
+
+Name            = flail
+AltName         = broken
+OFlags          { Weapon }
+Location        = IN_ROOM:pensalon37
+BValue          = 35
+Size            = 15
+Damage          = 8
+Desc[0]         = "A broken footmans flail lies thrown to one side of the room."
+End             = flail
+
+Name            = door_passage
+PName           = door
+AltName         = wooden
+OFlags          { Lockable Openable NoGet }
+Location        = IN_ROOM:pensalon51
+Linked          = door_storeroom
+State           = 2
+MaxState        = 2
+Desc[0]         = "An open wooden door allows you to pass."
+Desc[1]         = "A wooden door bars your forward progress."
+Desc[2]         = "A locked wooden door bars your progress."
+End             = door_passage
+
+Name            = door_storeroom
+PName           = door
+AltName         = wooden
+OFlags          { Lockable Openable NoGet }
+Location        = IN_ROOM:pensalon52
+Linked          = door_passage
+State           = 2
+MaxState        = 2
+Desc[0]         = "An open wooden door allows you to pass."
+Desc[1]         = "A wooden door bars your forward progress."
+Desc[2]         = "A locked wooden door bars your progress."
+End             = door_storeroom
+
+Name            = forge_workshop
+PName           = door
+AltName         = forge
+OFlags          { Pushtoggle NoGet }
+Location        = IN_ROOM:pensalon38
+Linked          = forge_passage
+State           = 1
+MaxState        = 1
+Desc[0]         = "A large forge seems to be pushed to one side allowing access to a secret
+passage behind it."
+Desc[1]         = "A large forge sits in the center of the room."
+Examine         = "The mastersmith works on his weapons and armor here."
+End             = forge_workshop
+
+Name            = forge_passage
+PName           = door
+AltName         = forge
+OFlags          { Pushtoggle NoGet }
+Location        = IN_ROOM:pensalon51
+Linked          = forge_workshop
+State           = 1
+MaxState        = 1
+Desc[0]         = "The wall is pushed aside, revealing a passage."
+End             = forge_passage
+
+Name            = plank
+OFlags          { Lightable Extinguish Weapon }
+Location        = IN_ROOM:pensalon9
+BValue          = 5
+Size            = 20
+Damage          = 6
+Desc[0]         = "A large piece of wood lies here."
+End             = plank
+
+Name            = rockfall_cavern
+PName           = rockfall
+OFlags          { NoGet }
+Location        = IN_ROOM:pensalon24
+Linked          = rockfall_crawlspace
+State           = 1
+MaxState        = 1
+Desc[1]         = "A large rockfall covers the northern wall."
+End             = rockfall_cavern
+
+Name            = rockfall_crawlspace
+PName           = rockfall
+OFlags          { NoGet }
+Location        = IN_ROOM:pensalon25
+Linked          = rockfall_cavern
+State           = 1
+MaxState        = 1
+Desc[1]         = "A large rockfall covers the southern wall."
+End             = rockfall_crawlspace
+
+Name            = ball
+AltName         = light
+OFlags          { NoGet Lit }
+Location        = IN_ROOM:pensalon50
+Desc[0]         = "A brilliant white ball floats in the middle of the room."
+End             = ball
+
+Name            = chest
+OFlags          { Container Openable NoGet }
+Location        = IN_ROOM:pensalon52
+State           = 1
+MaxState        = 1
+Desc[0]         = "A large chest sits open against the far wall."
+Desc[1]         = "A large chest sits closed against the far wall."
+End             = chest
+
+Name = chainmail
+Altname = elven
+Location = WORN_BY:jinx
+Bvalue = 100
+Oflags  { Armor Wearable }
+Aflags  { Arms Chest Back }
+Armor = 42
+Size = 25
+Weight = 10
+Desc[0] = "Beautifully hand crafted Elven chain lies in a pile on the floor."
+End = chainmail
+
+Name = draken
+Altname = volume
+Location = IN_ROOM:pensalon28
+Oflags { NoGet }
+Desc[0] = "A volume that teaches the tongue of the Draken sits on the altar."
+Examine = "
+The people of Pensalon in their methods of worship spoke the language of
+Draken to their dieties.  After careful study, you feel you can converse
+in this language as well, though maybe not to your own diety."
+End = draken
+
+
+%locations
+
+pensalon6 n:pensalon7 s:town55@town;
+LFlags	{ Outdoors }
+Drawbridge^
+    Standing on the drawbridge you notice the size of the castle and the 
+splendor of your surroundings.  To the north you may enter the castle and to
+the south a beautiful road winds away into the distance.
+^
+
+pensalon7 n:pensalon8 s:pensalon6;
+LFlags	{ Outdoors }
+The Gates^
+    Large Gates made out of metal, wood, and stone are swung aside allowing
+entrance into the splendid interior of this gigantic castle.  Northward a 
+tunnel continues into the castle, and to the south is a drawbridge.
+^
+
+pensalon8 n:pensalon9 s:pensalon7;
+LFlags	{ Outdoors }
+Long Tunnel^
+    You are enshrouded by shadows as you enter a long and wide tunnel.  High on
+the walls you notice little slits cut into the stone and above you can see
+large holes.  To the north the tunnel opens up into a large courtyard and to
+the south you can just make out the structure of the castle's huge main gates.
+^
+
+pensalon9 e:pensalon10 s:pensalon8 u:pensalon11;
+LFlags	{ Outdoors }
+Courtyard^
+    The courtyard opens up into a large square where many people are gathering
+together to perhaps catch a glimpse of this lands merciful ruler.  From here
+stairs climb up to the entrance of castle proper, to the south is the opening
+to a tunnel.
+^
+
+pensalon10 n:pensalon37 e:pensalon12 w:pensalon9;
+LFlags	{ Outdoors NoMobiles }
+Along the Wall^
+    Scampering along the wall you can feel just how strong the walls defending
+this castle are.  You have a feeling of how much energy was expended just to
+build this castle.  To the north is a small practice yard for the soldiers of 
+this keep, and to the east is the base of a tower.
+^
+
+pensalon12 w:pensalon10 u:pensalon13;
+LFlags	{  }
+Base of the Tower^
+    You stand at the base of a large tower which reaches high into the sky.
+You may enter the tower at the spiral staircase, or you may go west to a spot
+along the wall.
+^
+
+pensalon13 u:pensalon14 d:pensalon12;
+LFlags	{  }
+Spiraling Staircase^
+    The stairs lazily spiral about the inside of this tower.  At the top of the
+stairs you can see a light that shows the shadows  of a small room, and down
+below you can see the exit out into the castle's interior.
+^
+
+pensalon14 s:pensalon15 d:pensalon13;
+LFlags	{  }
+Guard House^
+    This is a small room at the top of the tower where the guard who is on watch
+may escape from the elements on a horrible day.  Through the southern arch you
+see the edge of the wall, and below you the staircase lazily head back down to
+the ground level.
+^
+
+pensalon15 n:pensalon14 w:pensalon16 u:pensalon17;
+LFlags	{ Outdoors }
+On the Wall^
+    The view from the top of the wall holds you in awe, as you watch the
+beautiful lands of Pensalon unfold around you.  It looks like you may be able
+to climb to the roof of the tower.  There is a large cleared area to the west
+where there is a catapult, and to the north is a small guard room.
+^
+
+pensalon16 e:pensalon15 w:pensalon18;
+LFlags	{ Outdoors }
+Catapult Area^
+    You see many piles of rocks and other items large enough to be loaded onto
+a catapult for firing at enemies.  Through the western arch you may enter a
+small room, and to the east is a small area on the wall where you may admire
+the view.
+^
+
+pensalon18 e:pensalon16;
+LFlags	{  }
+Murder Holes^
+    Looking through the many slots through the wall you can spy a long
+tunnel below you.  As you examine the room you get a feeling of what this room
+is used for in a time of war.  The only exit is back to the east.
+^
+
+pensalon17 d:pensalon15;
+LFlags	{ Outdoors }
+Top of the Tower^
+    On top of the tower you find a small flat area where you may stand. You seem
+to be at the highest point of the castle except for a similar tower farther to
+the west.  You may climb down from here.
+^
+
+pensalon11 n:pensalon19 d:pensalon9;
+LFlags	{ Outdoors }
+Grand Staircase^
+    You stand on a gold staircase that lead northward into the castle proper,
+and lead down into the main courtyard.
+^
+
+pensalon19 n:pensalon20 e:pensalon27 s:pensalon11 w:pensalon29;
+LFlags	{  }
+Reception Hall^
+    Large tapestries hang from walls depicting events in the history of these
+lands.  The walls are adorned with gold designs.  Through the eastern arch you
+can see a hallway, to the west you see a small side hall and to the north you
+can just make out the King's throne.
+^
+
+pensalon20 n:pensalon21 s:pensalon19;
+LFlags	{  }
+Throne Room^
+    You are standing in a large audience chamber where the King presides over
+his faithful subjects.  To the south is a large reception hall where faithful subjects are now lining up to hear the king speak.
+^
+
+pensalon21 s:pensalon20 d:^dias_throne;
+LFlags	{  }
+Dias^
+    You stand on the king's dias where he makes his daily ruling over the good
+people of this land.  There is a nice view of the throne room from.  Now you
+know why the king likes to sit up so high in this room.  You can go south, down
+into the throne room.
+^
+
+pensalon22 w:pensalon23 u:^throne_throne;
+LFlags	{ Dark OnePerson }
+Under the Throne^
+    You are crawling through a very small hole under the throne.  This is the
+King's escape passage for times of war when there is no hope left for this
+castle and he must flee.  You notice that the passage seems to have been
+used heavily but you don't remember any wars in the area for centuries.  To
+the west the passage widens.
+^
+
+pensalon23 e:pensalon22 w:pensalon24;
+LFlags	{ Dark }
+Damp Passage^
+    A small damp passage way leads further on West into the never ending
+darkness.  To the east is a small hole that seems only big enough for one
+person to be in.
+^
+
+pensalon24 n:^rockfall_cavern e:pensalon23 w:pensalon36;
+LFlags	{ Dark }
+Large Cavern^
+    You stand in a Large Cavern that expand beyond the light of your torch.
+To the west is a shore line along some unknown underground lake.  To the east
+is a small tunnel leading off into the darkness.
+^
+
+pensalon25 n:^door_crawlspace s:^rockfall_crawlspace;
+LFlags	{ Dark OnePerson }
+Crawlspace^
+    The Hole you have crawled into is very cramped and there is room for only
+one person here.  This little passageway seems to have been created for no
+reason at all.
+^
+
+pensalon26 s:^door_room;
+LFlags	{ Dark }
+Kings Treasure Room^
+    You stand in a small room.  The room is plain and there is nothing at all
+that makes the room worth looking at.  It has four walls, a floor, and a
+ceiling.
+^
+
+pensalon27 e:pensalon28 w:pensalon19;
+LFlags	{  }
+Hall of Worship^
+    This is a splendid hall adorned with many paintings showing the many feats
+that the Church of Pensalon has performed.  To the east is the castle's main
+church, and to the west is the main reception hall.
+^
+
+pensalon28 w:pensalon27;
+LFlags	{  }
+Castle's Church^
+    A extravagant church filled with the wealth of the lands spreads out before
+your eyes keeping you enthralled with its beauty.  Through the western arch is
+the Hall of Worship.
+^
+
+pensalon29 n:pensalon33 e:pensalon19 d:pensalon30;
+LFlags	{  }
+Side Hall^
+    This is a small non-descript room with an exit to the north where you can
+smell the aroma of food, and you may go down to the stairs from here.
+^
+
+pensalon30 e:pensalon31 u:pensalon29;
+LFlags	{  }
+Stairwell^
+    A small stairwell leads up to a small hall and to the east is the castle's
+dungeon guardroom.
+^
+
+pensalon31 e:pensalon32 w:pensalon30;
+LFlags	{  }
+Dungeon Guardroom^
+    You are standing in a large circular room with cells all around it.  To the
+west is a stairwell that leads up to castle proper, and to the east is a small
+cell that has no door on it.  A sign above reads "White collar criminals
+inside".
+^
+
+pensalon32 w:pensalon31;
+LFlags	{  }
+Small Cell^
+    This is a small cell without a door.  This is where white collar criminals
+are kept.  To the west is a large round room, and in the floor is a large hole
+that leads off into the darkness.
+^
+
+pensalon33 s:pensalon29 w:pensalon34;
+LFlags	{  }
+Castle's Kitchens^
+    Extravagant meals are spread out all over this room in preparation for the
+King's nightly feast. To the south is a small hall, and to the west you can see
+crates piled up.
+^
+
+pensalon34 e:pensalon33 s:pensalon35;
+LFlags	{  }
+Storage Chamber^
+    Piles of foodstuffs are scattered all over the room in no order.  The
+southern door leads into a small living quarters, and to the east is the
+kitchens.
+^
+
+pensalon35 n:pensalon34;
+LFlags	{  }
+Chef's Living Quarters^
+    This is a small room that is very messy with recipes for various extravagant
+dishes scattered everywhere. The only exit from this room is to the north.
+^
+
+pensalon36 e:pensalon24 w:pensalon41;
+LFlags	{ NoMobiles }
+Shoreline^
+    You stand on the shore of a very peaceful and tranquil lake.  The darkness
+engulfs the water off in the distance and you can hear a rumbling of some
+unknown source faintly coming to your ears.  To the west is the lake and back
+to the east is a large cave.
+^
+
+pensalon37 e:pensalon38 s:pensalon10;
+LFlags	{  }
+Practice Yard^
+    The fenced in yard spreads out in front of you.  There are many items of war
+spread out across this area. To the south is a small quiet spot along the wall,
+and to the east is the Armorer's Workshop.
+^
+
+pensalon38 e:^forge_workshop w:pensalon37;
+LFlags	{  }
+Armorer's Workshop^
+    This large room is heated to near fatal temperature as many smiths go
+around the room shaping metal in the high heats of the Armorer's forge. To the
+west is the practice yard where it looks very cool and relaxing.
+^
+
+
+pensalon41 n:pensalon41 e:pensalon36 s:pensalon41 w:pensalon42;
+LFlags	{ Dark OnWater }
+On the Lake^
+    You're lost on the lake.  Every direction is the same.  No way seems
+correct.  Your mind is spinning as you try to figure your way out.  A deep
+thick mist hangs all about causing even more confusion.
+^
+
+pensalon42 n:pensalon42 e:pensalon41 s:pensalon42 w:pensalon43;
+LFlags	{ Dark OnWater }
+On the Lake^
+    You're lost on the lake.  Every direction is the same.  No way seems
+correct.  Your mind is spinning as you try to figure your way out.  A deep
+thick mist hangs all about causing even more confusion.
+^
+
+pensalon43 n:pensalon42 e:pensalon42 s:pensalon44 w:pensalon42;
+LFlags	{ dark OnWater }
+On the Lake^
+    You're lost on the lake.  Every direction is the same.  No way seems
+correct.  Your mind is spinning as you try to figure your way out.  A deep
+thick mist hangs all about causing even more confusion.
+^
+
+pensalon44 n:pensalon42 e:pensalon42 s:pensalon42 w:pensalon45;
+LFlags	{ dark OnWater }
+On the Lake^
+    You're lost on the lake.  Every direction is the same.  No way seems
+correct.  Your mind is spinning as you try to figure your way out.  A deep
+thick mist hangs all about causing even more confusion.
+^
+
+pensalon45 n:pensalon42 e:pensalon42 s:pensalon46 w:pensalon42;
+LFlags	{ dark OnWater }
+On the Lake^
+    You're lost on the lake.  Every direction is the same.  No way seems
+correct.  Your mind is spinning as you try to figure your way out.  A deep
+thick mist hangs all about causing even more confusion.
+^
+
+pensalon46 n:pensalon42 e:pensalon47 s:pensalon42 w:pensalon42;
+LFlags	{ dark OnWater }
+On the Lake^
+    You're lost on the lake.  Every direction is the same.  No way seems
+correct.  Your mind is spinning as you try to figure your way out.  A deep
+thick mist hangs all about causing even more confusion.
+^
+
+pensalon47 n:pensalon48 e:pensalon42 s:pensalon42 w:pensalon42;
+LFlags	{ dark OnWater }
+On the Lake^
+    You're lost on the lake.  Every direction is the same.  No way seems
+correct.  Your mind is spinning as you try to figure your way out.  A deep
+thick mist hangs all about causing even more confusion.
+^
+
+pensalon48 n:pensalon42 e:pensalon49 s:pensalon42 w:pensalon42;
+LFlags	{ dark NoMobiles OnWater }
+On the Lake^
+    You're lost on the lake.  Every direction is the same.  No way seems
+correct.  Your mind is spinning as you try to figure your way out.  A deep
+thick mist hangs all about causing even more confusion.
+^
+
+pensalon49 n:pensalon50 s:pensalon48;
+LFlags	{ dark NoMobiles }
+Dark Passage^
+    The passage continues to lead north.  To the south is a large lake.
+^
+
+pensalon50 s:pensalon49;
+LFlags	{  }
+The Charging Room^
+    This large round room is plain and hows no distinguishing marks in it.
+^
+
+pensalon51 e:^door_passage w:^forge_passage;
+LFlags	{ Dark }
+Secret Passage^
+    You enter a low dark tunnel that is covered with many cobwebs, and the dust
+is very thick on the floor.
+^
+
+pensalon52 w:^door_storeroom;
+LFlags	{ Dark NoMagic }
+Armorer's Prize Possession Store Room^
+    This is a small circular room with many pegs and hooks on the wall.  Unlike
+the secret passage you just entered from this place is immaculate.  Not a speck
+of dust lingers anywhere, you get the feeling that magic is being used in this
+room.
+^
+
+

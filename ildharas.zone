@@ -1,0 +1,1451 @@
+
+
+
+%rainfall:1300
+
+%latitude:55
+
+%mobiles
+
+Name            = Ardast
+Location        = ildharas25
+EFlags          { Fireball Frost Shock}
+Strength        = 110
+Damage          = 10
+Armor           = 0
+Aggression      = 30
+Speed           = 3
+Description     = "Ardast the Not-Quite-Necromancer slouches in a corner, looking for something 
+easy to kill."
+Examine         = "
+You behold a greasy, ill-kempt fellow with a broken nose and shifty eyes.
+His expression is sullen--he's having another bad reset."
+End             = Ardast
+
+Name            = Fluffy
+Pname           = "Fluffy the squirrel"
+Location        = ildharas04
+SFlags          { Female }
+MFlags          { Thief PickStuff }
+Strength        = 70
+Damage          = 8
+Armor           = 0
+Aggression      = 0
+Speed           = 5
+Description     = "Fluffy the Squirrel is here, soliciting a free peanut."
+Examine         = "
+Fluffy has perky ears, cute button eyes, and a long bushy tail.  She runs
+up to you and waits expectantly.  Rather annoying, isn't she?" 
+End             = Fluffy
+
+Name            = Rodney
+Pname           = "Rodney the pigeon"
+Location        = ildharas11
+MFlags          { PickStuff  }
+Strength        = 70
+Damage          = 8
+Armor           = 0
+Aggression      = 0
+Speed           = 5
+Description     = "Rodney the pigeon flutters by."
+Examine         = "
+You see a plump little bird with sooty feathers and a scavenging tendency."
+End             = Rodney
+
+Name            = Periol
+Pname           = "Periol Tarhmenin"
+Location        = ildharas40
+MFlags          { Thief StealWorn StealWeapon PickStuff }
+Strength        = 150
+Damage          = 10
+Armor           = 0
+Aggression      = 0
+Speed           = 2
+Description     = "Periol Tarhmenin wanders by, looking for small valuables."
+Examine         = "
+You see a young man with an easy smile and laughing eyes.  His garments look 
+clean, albeit threadbare.  He gestures broadly with deft, graceful hands."
+End             = Periol
+
+Name            = Bear
+PName           = "Brown Bear"
+Location        = ildharas18
+Strength        = 100
+Damage          = 12
+Armor           = 0
+Aggression      = 0
+Speed           = 4
+Description     = "A brown bear regards you curiously."
+Examine         = "
+Smaller than his cousin in the Elven Forest, this brown bear would rather 
+forage for food in the castle than pick on passersby."
+End             = bear
+
+Name            = Dijek
+Location        = ildharas31
+EFlags          { Fireball Frost }
+PFlags          { NoSummon NoMagic NoAlias }
+Strength        = 150
+Damage          = 10
+Armor           = 0
+Aggression      = 0
+Speed           = 3
+Description     = "Dijek inspects the castle."
+Examine         = "
+A tall, scholarly type, Dijek inspects the damage and notes where the magic 
+is still strong."
+End             = Dijek
+
+Name            = Yorjudek
+Location        = ildharas50
+EFlags         { Fireball Shock }
+PFlags          { NoSummon NoAlias }
+Strength        = 200
+Damage          = 18
+Armor           = 0
+Aggression      = 95
+Speed           = 4
+Description     = "Yorjudek the Third plots his revenge."
+Examine         = "
+Imprisoned by Falathzar, Yorjudek has cooled his heels until the seal of his 
+cell was broken.  Now he's pissed and ready to destroy everything he sees."
+End             = Yorjudek
+
+Name            = Tarphalir
+Location        = ildharas23
+EFlags          { Fireball NegFireball }
+PFlags          { NoSummon }
+Strength        = 250
+Damage          = 20
+Armor           = 0
+Aggression      = 0
+Speed           = 0
+Description     = "Tarphalir, Falathzar's lieutenant, snacks on the pages."
+Examine         = "
+You behold a scaled demon with burning eyes and a toothy leer.  Vestigal 
+wings sprout from lumpy shoulders, and he exudes a foul, putrefying stench."
+End             = Tarphalir
+
+Name            = Haog
+Pname           = "Haog the Albino Rat"
+Location        = ildharas55
+EFlags          { Fireball NegFireball }
+Mflags  { GrabHostile }
+Strength        = 150
+Damage          = 15
+Armor           = 0
+Aggression      = 0
+Speed           = 0
+Description     = "Haog the Albino Rat skitters across the floor."
+Examine         = "
+You see a large white rat with a bloated body and spindly legs.  
+His eyes are pink and feral."
+End             = Haog
+
+Name            = Maric
+Location        = ildharas64
+PFlags          { NoExorcise NoSummon NoSteal NoAlias }
+Mflags      { DrainLev }
+Strength        = 30
+Damage          = 5
+Armor           = 0
+Aggression      = 0
+Speed           = 3
+Description     = "Maric wanders by, digesting the consequences of a drunken boast."
+Examine         = "
+You see a somber man in a sumptuous black doublet. The unwilling dupe for 
+the Ildharas demise, he carries so much bad karma that it may be unlucky to 
+kill him before his time."
+End             = Maric
+
+Name            = Falathzar
+Pname           = "Falathzar"
+Location        = ildharas65
+Sflags	 	{ NoBody }
+Mflags 		{ NoCorpse }
+EFlags          { Fireball NegFireball }
+PFlags          { NoAlias NoSummon NoExorcise }
+Mflags          { NoCorpse }
+Strength        = 400
+Damage          = 20
+Armor           = 15
+Aggression      = 50
+Speed           = 5
+Description     = "Falathzar sneers coldly at you."
+Examine         = "
+Falathzar chooses to appear as a tall man of courtly stature, wearing a
+scarlet doublet, matching half-cape, and broad brimmed hat. His expression 
+is distant and disdainful, and his hair is the color of sullen flame. "
+End             = Falathzar
+
+%objects
+
+Name = sign_wiz
+Pname = sign
+Location = IN_ROOM:ildharas00
+Visibility = 25
+Desc[0] = "A sign floats here, seen only by immortals."
+Oflags { Noget }
+Examine = "
+The Ildharas zone, created by Kalivir in 1991 for Abermud IV, revised in 
+1998.  Specials and project to convert initiated by Crimefighter.
+"
+End = sign_wiz
+
+Name            = project 
+PName           = project
+BValue          = 10 
+Size            = 1 
+Location        = IN_ROOM:ildharas16 
+Desc[0]         = "A small iron lump lies here, probably some poor apprentice's."
+Oflags          {  }
+Examine         = " 
+It looks like some poor clod beat it with a hammer until it cracked, then 
+threw it away in disgust."
+End             = project
+
+Name            = page_torn 
+PName           = page
+AltName         = torn
+BValue          = 50 
+Size            = 1 
+Location        = IN_ROOM:ildharas23 
+Desc[0]         = "A torn page rests against your foot."
+Oflags          {  }
+Examine         = " 
+...Technology has made the Eye more concrete.  The conditions of modern 
+society encourage the Eye's acceptance as an integral part of life.  It has 
+become like a modern-day God.  Mythologies over the centuries often had 
+deities who saw their peoples and took interest in their lives...Those who 
+watch us now, however, we know for fellow humans.  Big Brother has usurped 
+the place of the deity.  We take this human Eye for granted.  How often do 
+we think of the security cameras that track our movements through a store?  
+Or the data that is gathered when we charge a purchase? We..."
+End             = page_torn
+
+Name            = page_crumpled 
+PName           = page
+AltName         = crumpled
+BValue          = 50 
+Size            = 1 
+Location        = IN_ROOM:ildharas23 
+Desc[0]         = "
+A crumpled page lies nearby."
+Oflags          {  }
+Examine         = " 
+...Ilanya Festa loiters outside the doors to the audience chamber, wearing 
+the dragon headpiece that took nearly 250 hours to construct.  Doesn't young 
+Carlaaki know better than to want a woman who thinks nothing of wasting so 
+much time?  Of course, it's not her time she's wasting, but the time of the 
+palace maids and servants.  Commoners' time, which doesn't seem to matter.  
+But it's all accounted for in the end.  And when enough collective time is 
+spent in any given world without results, the gods begin thinking of 
+starting over."
+End             = page_crumpled
+
+Name            = croissant 
+PName           = croissant
+BValue          = 15 
+Size            = 1 
+Location        = IN_ROOM:ildharas32
+Oflags          { Food }
+Desc[0]         = "A reasonably fresh croissant lies here."
+Examine         = "It looks quite edible."
+End             = croissant
+
+Name            = bowl 
+PName           = bowl
+AltName         = golden
+State           = 1 
+MaxState        = 1 
+BValue          = 100 
+Size            = 3 
+Location        = IN_ROOM:ildharas32 
+Desc[0]         = "A golden bowl lies upon the ground."
+Oflags          { GetFlips }
+Desc[1]         = "A golden bowl lies under the table."
+Examine         = "Small whorls decorate the outside.  The inside is smooth and polished."
+End             = bowl
+
+Name            = roll 
+PName           = roll
+AltName         = buttered
+State           = 1 
+MaxState        = 1 
+BValue          = 10 
+Size            = 1 
+Location        = IN_ROOM:ildharas32 
+Desc[0]         = "A small buttered roll lies here."
+Oflags          { Food GetFlips }
+Desc[1]         = "A small buttered roll lies atop a dirty plate."
+Examine         = "Someone sure slathered on the butter."
+End             = roll
+
+Name            = dagger 
+PName           = dagger
+AltName         = flame
+State           = 1 
+MaxState        = 1 
+Armor           = 0
+Damage          = 18
+BValue          = 110 
+Size            = 5 
+Location        = IN_ROOM:ildharas30 
+Desc[0]         = "A flame-bladed dagger lies discarded next to the stain, covered in blood."
+Oflags          { Weapon GetFlips }
+Desc[1]         = "A flame-bladed dagger lies where it was dropped."
+Examine         = " 
+It's warm to the touch and seems to almost flicker.  Fresh blood stains the 
+hilt."
+End             = dagger
+
+Name            = necklace_golden 
+PName           = necklace
+AltName         = golden
+BValue          = 350 
+Size            = 1 
+Location        = IN_CONTAINER:satchel 
+Desc[0]         = "A golden necklace lies here, glittering with rubies."
+Oflags          { Wearable }
+Examine         = " 
+Thin gold strands have been ingeniously shaped into a series of holly leaves 
+intertwined with ruby berries."
+End             = necklace_golden
+
+Name            = starstone 
+PName           = starstone
+State           = 1 
+MaxState        = 1 
+BValue          = 50 
+Size            = 2 
+Location        = IN_ROOM:ildharas41 
+Desc[0]         = "A reddish starstone lies here, emitting a soft light."
+Oflags          { Glowing GetFlips }
+Desc[1]         = "Lying on the desk to one side is a reddish starstone."
+Examine         = " 
+Uncut, reddish and translucent, it seems to glow  with a light of its own."
+End             = starstone
+
+Name            = coins 
+PName           = coins
+AltName	= counterfeit
+State           = 1 
+MaxState        = 1 
+BValue          = 15 
+Size            = 2 
+Location        = IN_ROOM:ildharas66
+Desc[0]         = "Some gold coins lie scattered upon the ground."
+Oflags          { GetFlips }
+Desc[1]		= "Some gold coins lie scattered on the table."
+Examine         = " 
+The coins would probably be more valuable if they were not filled with lead."
+End             = coins
+
+Name            = journal 
+PName           = journal
+AltName		= diary
+State           = 1 
+MaxState        = 1 
+BValue          = 90 
+Size            = 4 
+Location        = IN_ROOM:ildharas66
+Desc[0]         = "A mangled journal lies here."
+Oflags          { GetFlips }
+Desc[1]		= "A journal lies open on the table."
+Examine         = " 
+All the pages have been snipped out except for the last entry.  Written by 
+the last king, it reads:
+
+   We know many things about Lusitan.  He founded our nation. He constructed 
+the castle, he ruled during a time of great prosperity.  Yet what does this 
+really tell us?  Time has shrouded everything.  What feud did he have with 
+the prince of demons, that years after our king's death, those demons haunt 
+us still?  Legend has it that he crafted a weapon capable of combating 
+demon magic.  Legend also has it that in our darkest time, he will come to 
+us again.  Our darkest times are upon us.  The demons are howling at our 
+gate, and Falathzar has vowed to raze the castle within a year. 
+
+I've been having disturbing dreams.  The elders all stand around me, 
+expecting me to do something that will save us from the demons.  I don't 
+know where to begin.  The statue of Lusitan comes to life and frowns at me.  
+I wake up, more afraid of it than of the demons, which I know are at that 
+moment tearing down our walls.
+
+I've also seen strange portents in the sky:  two-headed swallows, strange 
+lights to the north.  Sometimes, when I dream, I see a battlefield filled 
+with corpses.  They are Ildharas corpses.
+"
+End             = journal
+
+Name            = ruby 
+PName           = ruby
+AltName		= large
+BValue          = 200 
+Size            = 2 
+Location        = IN_ROOM:ildharas55 
+Desc[0]         = "A large ruby sits here, glittering with a malignant red light."
+Oflags          { }
+Examine         = " 
+Flawless and faceted, it weighs about 200 karats.  When you look at it 
+closely, you imagine you can see someone wandering around inside, but it's 
+probably just a trick of the light."
+End             = ruby
+
+Name            = demonslayer 
+PName           = Demonslayer
+AltName		= sword
+State           = 1 
+MaxState        = 1 
+Armor           = 0
+Damage          = 25
+BValue          = 300 
+Size            = 7 
+Location        = IN_ROOM:ildharas58 
+Desc[0]         = "Lusitan's Demonslayer lies here, gleaming with a cold light."
+Oflags          { Weapon GetFlips }
+Desc[1]	= "Lusitan's Demonslayer lies gleaming on the desk."
+Examine         = " Forged from an unknown metal, its style reminds you vaguely of Excalibur.
+"
+End             = demonslayer
+
+Name            = medallion 
+PName           = medallion
+AltName		= wardment
+Armor           = 25
+Damage          = 0
+BValue          = 300 
+Size            = 2 
+Location        = WORN_BY:Maric 
+Desc[0]         = "Lusitan's Wardment medallion lies here."
+Oflags          { Armor Wearable }
+Aflags		{ Neck }
+Examine         = " 
+Gleaming a cold silver, Lusitan's sigil Wardment is a seven-rayed star 
+formed by a line going to every other point."
+End             = medallion
+
+Name            = stick 
+PName           = stick
+Armor           = 0
+Damage          = 5
+BValue          = 15 
+Size            = 5 
+Location        = WIELDED_BY:Ardast 
+Desc[0]         = "A gnarled stick lies here."
+Oflags          { Weapon Lightable Extinguish }
+Examine         = " 
+Ever since 225 damage, 225 armor sticks have been outlawed, the last owner 
+of this one has not been doing too well."
+End             = stick
+
+Name            = satchel 
+PName           = satchel
+AltName		= large
+BValue          = 75 
+Size            = 15 
+Location        = WORN_BY:Periol 
+Desc[0]         = "A large satchel sits on the floor."
+Oflags          { Wearable Container Unbreakable }
+Aflags		{ Back }
+Examine         = " 
+Stitched together from various pieces of leather, it looks quite serviceable."
+End             = satchel
+
+Name            = crown 
+PName           = crown
+BValue          = 200 
+Size            = 8 
+Location        = IN_CONTAINER:satchel 
+Desc[0]         = "An old silver crown lies here, awaiting a new wearer."
+Oflags          { Wearable }
+Aflags		{ Head }
+Examine         = " 
+Beautiful filigreed whorls decorate the outside.  The silver gleams brightly, 
+barely tarnished."
+End             = crown
+
+Name            = wall_outer 
+PName           = wall
+Location        = IN_ROOM:ildharas07 
+Oflags          { NoGet }
+Examine         = "Looks like many small creatures live here now."
+End             = wall_outer
+
+Name            = junk 
+PName           = junk
+AltName         = mess
+State           = 1 
+MaxState        = 1 
+Location        = IN_ROOM:ildharas12 
+Oflags          { NoGet }
+Examine         = "What a mess!"
+End             = junk
+
+Name            = key 
+PName           = key
+AltName		= small
+BValue          = 10 
+Size            = 2 
+Location        = IN_ROOM:limbo@limbo
+Desc[0]         = "A small key lies here."
+Oflags          { Key }
+Examine         = "It's a small key with an intricate handle and several notches."
+End             = key
+
+Name            = map 
+PName           = map
+Location        = IN_ROOM:ildharas31 
+Oflags          { NoGet }
+Examine         = " 
+The map details the land as it was many many years ago.  Everything has 
+changed since then and the map has nothing but scholarly value.  In the 
+lower right-hand corner are the initials M & F."
+End             = map
+
+Name            = carpet 
+PName           = carpet
+AltName		= stain
+Location        = IN_ROOM:ildharas30 
+Oflags          { NoGet }
+Examine         = " 
+The stain still looks wet. Judging from the amount of blood lost, the victim 
+probably died here."
+End             = carpet
+
+Name            = bodies 
+PName           = bodies
+AltName		= ildharas
+Location        = IN_ROOM:ildharas55 
+Oflags          { NoGet }
+Examine         = "Dead bodies everywhere!  A gruesome sight--what did you expect?
+"
+End             = bodies
+
+Name            = walls 
+PName           = walls
+AltName		= outer
+Location        = IN_ROOM:ildharas55 
+Oflags          { NoGet }
+Examine         = "The breaks correspond perfectly to the breaches outside.
+"
+End             = walls
+
+Name            = paintings 
+PName           = paintings
+AltName		= tapestries
+Location        = IN_ROOM:ildharas20 
+Oflags          { NoGet }
+Examine         = " 
+Not even their subjects are distinguishable anymore, such is the level of 
+destruction."
+End             = paintings
+
+Name            = treasures 
+PName           = treasures
+AltName		= heirlooms
+Location        = IN_ROOM:ildharas21 
+Oflags          { NoGet }
+Examine         = " 
+The destruction was systematic.  You can find nothing of value, or even 
+intact, for that matter."
+End             = treasures
+
+Name            = area 
+PName           = area
+AltName		= blackened
+Location        = IN_ROOM:ildharas21 
+Oflags          { NoGet }
+Examine         = " 
+The flames were so hot they melted the stone around them.  Certainly not an 
+ordinary blaze."
+End             = area
+
+Name            = statue 
+PName           = statue
+AltName		= lusitan
+Location        = IN_ROOM:ildharas22 
+Desc[0]		= "The statue of Lusitan witnesses all that happens in the hall.
+Though it's covered with urine and feces, you still feel a sense of awe."
+Oflags          { NoGet }
+Examine         = " 
+It still holds its power.  Looking closer, you notice that Lusitan's hair 
+is waved around his brow, as if something used to encircle it."
+End             = statue
+
+Name            = cards 
+PName           = cards
+AltName		= tarot
+Location        = IN_ROOM:ildharas41 
+Oflags          { NoGet }
+Examine         = " 
+The reading starts with hope but then becomes rather grim.  The Two of 
+Swords lies in the conclusionary position."
+End             = cards
+
+Name            = pile 
+PName           = pile
+AltName		= contents
+Location        = IN_ROOM:ildharas42 
+Oflags          { NoGet }
+Examine         = "The pile has already been gone through."
+End             = pile
+
+Name            = sign 
+PName           = sign
+Location        = IN_ROOM:ildharas49 
+Desc[0]		= "A sign has been posted on the southern wall."
+Oflags          { NoGet }
+Examine         = "Here is Yorjudek, imprisoned for his annoying stupidity."
+End             = sign
+
+Name            = sigil 
+PName           = wardment
+AltName		= sigil
+Linked  = force63
+Location        = IN_ROOM:ildharas63 
+Size      =    1
+Maxstate  =    1
+State     =    0
+Oflags          { NoGet Container }
+Examine         = " 
+You notice a small circular groove cut into the exact center of the star.
+It's ring shaped, with a notch on one side to allow for a stone.
+"
+End             = sigil
+
+Name            = letters 
+PName           = letters
+AltName		= blood
+Location        = IN_ROOM:ildharas33 
+Oflags          { NoGet }
+Examine         = " 
+Looks like I've won, Lusitan.  I've killed your legend. --Falathzar"
+End             = letters
+
+Name            = floor 
+PName           = floor
+AltName		= polished
+Location        = IN_ROOM:ildharas54 
+Oflags          { NoGet }
+End             = floor
+
+Name            = chink 
+PName           = chink
+AltName		= carving
+State     = 1
+Maxstate  = 1
+Location        = IN_ROOM:ildharas49 
+Oflags          { NoGet PushToggle }
+Examine         = "
+You see a stone pentagram within a circle.  A small chink in one side looks 
+like it was meant to be pushed out of alignment. "
+End             = chink
+
+Name            = yorjudek_door_1 
+PName           = wall 
+Linked          = yorjudek_door_2
+State           = 1 
+MaxState        = 1
+Location        = IN_ROOM:ildharas49 
+Oflags          { Openable NoGet  } 
+Desc[0]         = "The southern wall has vanished, allowing you to enter the cell." 
+End             = yorjudek_door_1 
+
+Name            = yorjudek_door_2 
+PName           = wall 
+Linked          = yorjudek_door_1
+State           = 1 
+MaxState        = 1
+Location        = IN_ROOM:ildharas50
+Oflags          { Openable NoGet  } 
+Desc[0]         = "The northern wall has vanished, allowing you to exit the cell." 
+End             = yorjudek_door_2 
+
+Name            = king_door_1 
+PName           = door 
+Linked          = king_door_2 
+State           = 2 
+MaxState        = 2
+Location        = IN_ROOM:ildharas38 
+Oflags          { Openable NoGet Lockable } 
+Desc[0]         = "The door to the king's chambers is open." 
+Desc[1]         = "The door to the king's chambers is closed." 
+Desc[2]         = "The door to the king's chambers is locked." 
+End             = king_door_1
+
+Name            = king_door_2 
+PName           = door 
+Linked          = king_door_1 
+State           = 2 
+MaxState        = 2
+Location        = IN_ROOM:ildharas41 
+Oflags          { Openable NoGet Lockable } 
+Desc[0]         = "The king's door is open." 
+Desc[1]         = "The king's door is closed." 
+Desc[2]         = "The king's door is locked." 
+End             = king_door_2 
+
+Name            = iron_door_1 
+PName           = doors 
+Linked          = iron_door_2 
+State           = 1 
+MaxState        = 1
+Location        = IN_ROOM:ildharas61 
+Oflags          { Openable NoGet } 
+Desc[0]         = "The doors are open." 
+Desc[1]         = "The doors are closed." 
+End             = iron_door_1 
+
+Name            = iron_door_2 
+PName           = doors 
+Linked          = iron_door_1 
+State           = 1 
+MaxState        = 1
+Location        = IN_ROOM:ildharas62 
+Oflags          { Openable NoGet } 
+Desc[0]         = "The doors are open." 
+Desc[1]         = "The doors are closed." 
+End             = iron_door_2 
+
+Name            = cell_door_45 
+PName           = door
+Altname	= southern
+Linked          = cell_door_46s
+State           = 2 
+MaxState        = 2
+Location        = IN_ROOM:ildharas46 
+Oflags          { Openable NoGet Lockable } 
+Desc[0]         = "The southern cell door is open." 
+Desc[1]         = "The southern cell door is closed." 
+Desc[2]         = "The southern cell door is locked." 
+End             = cell_door_45
+
+Name            = cell_door_46s
+PName           = door 
+Linked          = cell_door_45 
+State           = 2 
+MaxState        = 2
+Location        = IN_ROOM:ildharas45 
+Oflags          { Openable NoGet Lockable } 
+Desc[0]         = "The cell door is open." 
+Desc[1]         = "The cell door is closed." 
+Desc[2]         = "The cell door is locked." 
+End             = cell_door_46s
+
+Name            = cell_door_47 
+PName           = door 
+AltName		= northern
+Linked          = cell_door_46n
+State           = 2 
+MaxState        = 2
+Location        = IN_ROOM:ildharas46 
+Oflags          { Openable NoGet Lockable } 
+Desc[0]         = "The northern cell door is open." 
+Desc[1]         = "The northern cell door is closed." 
+Desc[2]         = "The northern cell door is locked." 
+End             = cell_door_47
+
+Name            = cell_door_46n
+PName           = door 
+Linked          = cell_door_47 
+State           = 2 
+MaxState        = 2
+Location        = IN_ROOM:ildharas47 
+Oflags          { Openable NoGet Lockable } 
+Desc[0]         = "The cell door is open." 
+Desc[1]         = "The cell door is closed." 
+Desc[2]         = "The cell door is locked." 
+End             = cell_door_46n
+
+Name            = cell_door_48 
+PName           = door 
+AltName		= northern
+Linked          = cell_door_49 
+State           = 2 
+MaxState        = 2
+Location        = IN_ROOM:ildharas49 
+Oflags          { Openable NoGet Lockable } 
+Desc[0]         = "The northern cell door is open." 
+Desc[1]         = "The northern cell door is closed." 
+Desc[2]         = "The northern cell door is locked." 
+End             = cell_door_48
+
+Name            = cell_door_49 
+PName           = door 
+Linked          = cell_door_48 
+State           = 2 
+MaxState        = 2
+Location        = IN_ROOM:ildharas48 
+Oflags          { Openable NoGet Lockable } 
+Desc[0]         = "The cell door is open." 
+Desc[1]         = "The cell door is closed." 
+Desc[2]         = "The cell door is locked." 
+End             = cell_door_49 
+
+Name            = cell_door_51 
+PName           = door 
+Altname 	= northern
+Linked          = cell_door_52 
+State           = 2 
+MaxState        = 2
+Location        = IN_ROOM:ildharas52 
+Oflags          { Openable NoGet Lockable } 
+Desc[0]         = "The northern cell door is open." 
+Desc[1]         = "The northern cell door is closed." 
+Desc[2]         = "The northern cell door is locked."
+End             = cell_door_51
+
+Name            = cell_door_52 
+PName           = door 
+Linked          = cell_door_51 
+State           = 2 
+MaxState        = 2
+Location        = IN_ROOM:ildharas51 
+Oflags          { Openable NoGet Lockable } 
+Desc[0]         = "The cell door is open." 
+Desc[1]         = "The cell door is closed." 
+Desc[2] 	    = "The cell door is locked."
+End             = cell_door_52 
+
+Name            = stair_door_56 
+PName           = door 
+AltName		= northern
+Linked          = stair_door_22 
+State           = 1 
+MaxState        = 1
+Location        = IN_ROOM:ildharas22 
+Oflags          { NoGet } 
+Desc[0]         = "
+The hall center has sunk away, revealing a staircase spiraling downwards." 
+End             = stair_door_56
+
+Name            = stair_door_22
+PName           = ceiling
+Linked          = stair_door_56
+State           = 1
+MaxState        = 1
+Location        = IN_ROOM:ildharas56 
+Oflags          { NoGet } 
+Desc[0]         = "The stairs end against a ceiling of stone." 
+End             = stair_door_22
+
+Name = force63
+PName = force
+Linked = sigil
+State = 0
+Maxstate = 1
+Location = IN_ROOM:ildharas62
+Oflags { Noget }
+Desc[1] = "A powerful force field blocks your way, you can only stand and watch."
+End = force63
+
+Name            = candelabra
+PName           = candelabra
+AltName         = strange
+Maxstate  	= 1
+State 		= 0
+BValue          = 70 
+Size            = 15 
+Location        = IN_ROOM:ildharas58 
+Desc[0]         = "A strange candelabra sits to the side."
+Oflags          { GetFlips Lightable Extinguish Lit }
+Desc[1] = "A strange candelabra sits by the desk, it's candles casting a rich light
+about the room."
+Examine         = " 
+The gold has been carved to resemble flames.  When lit, the entire piece
+seems to burn with a light all its own.  "
+End             = candelabra
+
+Name            = ring_signet 
+PName           = ring
+AltName         = signet
+BValue          = 70 
+Size            = 1 
+Location        = IN_ROOM:ildharas58 
+Desc[0]         = "A signet ring lies nearby."
+Oflags          { Wearable GetFlips }
+Desc[1]         = "A signet ring lies on the table."
+Examine         = "
+Highly polished, it houses a square ruby on the front, carved with the
+symbol of a stylized lion."
+End             = ring_signet
+
+Name            = parchment 
+PName           = parchment
+Location        = IN_ROOM:ildharas58
+Oflags          { NoGet }
+Desc[0] = "A parchment has been left on the table."
+Examine         = " 
+Many may die before these words are known.  Therefore, I charge thee with a
+quest: banish Falathzar, who has wreaked havoc among my people.  Though he
+is immortal, purge him from this realm that he may never again traverse its
+fields. For this task I have created five objects to aid thee:
+
+The Crown that brought thee here.
+The Ring within my sigil, to prepare the summoning.
+The Candelabra, to light the way.
+Demonslayer, my sword, to do the deed.
+Wardment to protect you from ill outcome.
+
+--Lusitan
+"
+End             = parchment
+
+%locations
+
+ildharas00 n:ildharas01 w:T_Barrow@church;
+Altitude = 800
+lflags { Outdoors }
+East of the Barrow^
+	You stand in a large field littered with grave markers.  Periwinkles 
+and dandelions occasionally dot the grass, and a stand of weeping willows 
+rustles with a slight breeze.  A barrow mound rises to the west, its shadow 
+somewhat ominous against the horizon.  The field continues north where it 
+eventually ends next to a forest-covered hillside.
+^
+ildharas01 n:ildharas02 s:ildharas00 w:gold1a@gold e:gold1b@gold;
+Altitude = 800
+lflags { Outdoors }
+Grassy Field^
+	Tall, knee high grass rustles gently with your passing.  Tiny insects 
+fly up at the disturbance and buzz around your head. A forest of spruce and 
+pine grows to the north. Upon closer inspection, you can see a narrow and 
+often overgrown path through the trees. Much of the southern field has been 
+converted into a graveyard.  Two large boulders surround a path to the west,
+the fields turn golden toward the east.
+^
+ildharas02 n:ildharas03 s:ildharas01;
+Altitude = 800
+lflags { Outdoors }
+Forest^
+	 Sunlight dapples the path, and small rodents scurry from your 
+approach. Overhead, birds chirp and flutter amidst the branches.  The path 
+runs vaguely north to south.  It appears to be little used, for even the 
+wheel ruts sport large tufts of grass.
+^
+ildharas03 u:ildharas04 s:ildharas02;
+Altitude = 900
+lflags { Outdoors }
+Steep Trail^
+	The hill begins to rise, and the path (what you can see of it) starts 
+to switch back and forth on itself.  Large, rocky outcroppings jut out from 
+the slope, giving you a place to rest from time to time. The trail continues 
+up and down the hillside.
+^
+ildharas04 n:ildharas05 d:ildharas03;
+Altitude = 1000
+lflags { Outdoors }
+Steep Trail^
+	The trail flattens out a little and enters a clearing.  Looking south, 
+you can see the graveyard and the barrow mound, then the forest beyond them.  
+To the north, it looks like the hill you stand on is only the first in a 
+series of foothills leading to a craggy mountain range.
+^
+ildharas05 n:ildharas06 s:ildharas04 d:ildharas04;
+Altitude = 1100
+lflags { Outdoors }
+Foothills^
+	The path winds its way through the foothills, rising in altitude as it 
+goes north.  The air has become crisp.  It feels good on your face and in 
+your lungs.  The path continues its way north or south.
+^
+ildharas06 n:ildharas07 s:ildharas05 u:ildharas07;
+Altitude = 950
+lflags { Outdoors }
+Small Valley^
+	A small valley nestles between the last foothill and the beginning of 
+the first mountain.  The path has become very overgrown here, dwindling down 
+to a footpath and less. Your nostrils tingle from the astringency of pine. 
+Every once in a while, when there is a break in the foliage, you catch a 
+glimpse of a castle against the northern mountainside.
+^
+ildharas07 n:ildharas15 e:ildharas10 s:ildharas06 w:ildharas09 d:ildharas06;
+Altitude = 950
+lflags { Outdoors }
+The Gates of the Outer Wall^
+	A castle rests at the northern end of the valley, its walls in ruins.  
+The gates remain the only portion of the outer defenses still intact.  The 
+walls on either side are breached in many places. Oddly, the castle beyond 
+seems untouched by the elements.
+^
+ildharas08 e:ildharas09;
+Altitude = 950
+lflags { Outdoors }
+Along the Ruined Wall^
+	You wander about the outside perimeter of an old and crumbling wall.  
+A woodpecker rattles nearby.  Small insects buzz about, and the drone of a 
+locust fills your ears.  Whatever drama was played out here has long since 
+been finished.  Peace reigns in the forest.
+^
+ildharas09 n:ildharas14 e:ildharas07 w:ildharas08;
+Altitude = 950
+lflags { Outdoors }
+Along the Ruined Wall^
+	Crafted from a strange white stone, the wall must have been quite 
+impressive before the attack--though now you can see the castle through its 
+mossy gaps.  The trees have grown up against the walls over the years, and 
+the ground beneath your boots is filled with twisting roots.  Eventually, 
+you guess, the trees may undermine the stones.
+^
+ildharas10 e:ildharas11 w:ildharas07;
+Altitude = 950
+lflags { Outdoors }
+Along the Ruined Wall^
+	You walk along the outside of a crumbling wall.  The stone, once pure 
+white, is speckled now with moss and lichen. Time has worn any straight 
+edges into soft, organic lines, while little insects have found their way 
+into the cracks.  The trees crowd closely against the wall in places, waging 
+a war of their own.
+^
+ildharas11 w:ildharas10 u:ildharas12;
+Altitude = 950
+lflags { Outdoors }
+Along the Ruined Wall^
+	The wall seems to have crumbled on its own accord in some places, 
+falling in on itself as time and the elements have worn it down.  Looking up, 
+you notice what appears to be a nest of sorts.  Years of bird droppings have 
+eaten away at the stone, making it rough enough to climb if you really cared.
+^
+ildharas12 d:ildharas11;
+Altitude = 975
+lflags { Outdoors }
+Rodney's Nest^
+	You clamber up upon the wall and peer into Rodney's nest.  What a 
+diverse collection of valueless junk!  Bits of old string lie matted and 
+chewed next to old papers, pen caps, odd socks, bent pennies, candy wrappers, 
+ruined and discarded floppies, and rusted nails.  What a useless mess.  It 
+stinks, too.
+^
+ildharas13 e:ildharas14;
+lflags {}
+Stables^
+	It smells like hay and horses.  The straw scattered on the ground looks 
+new and you notice fresh water in the troughs.  Without looking at the 
+ruined wall, you would think that horses lived here quite recently.  The 
+barracks lie to the east.
+^
+ildharas14 w:ildharas13 s:ildharas09 e:ildharas15;
+lflags {}
+Barracks^
+	You get the impression that the inhabitants have merely stepped out on 
+a drill.  The beds look as though they've been recently slept in, and greasy 
+cards lie scattered on a wooden table, halfway through a hand of poker. 
+Someone held four kings. but never got to collect.  A doorway leads back 
+outside to the east and another goes west to the stables.
+^
+ildharas15 n:ildharas17 e:ildharas16 s:ildharas07 w:ildharas14;
+Altitude = 950
+lflags { Outdoors }
+Outer Courtyard^
+      The outer courtyard offers a strange juxtaposition between then and now. 
+A majestic castle rests against the mountainside to the north, untouched by 
+time.  A crumbling and age-worn wall molders to the south, ruined and ancient.  
+The architectural styles suggest the two were built together, but how could 
+one age and the other not?  A smithy lies to the east and a barracks to the 
+west, these also intact.
+^
+ildharas16 w:ildharas15;
+lflags {}
+Smithy^
+	The forge is cold, but the smith's tools are well cared for and well 
+used.  The beginnings of a long dagger rest in a bucket of water.  A few 
+horseshoes lie thrown in a corner and a cracked pot sits on the work bench.
+^
+ildharas17 n:ildharas18 s:ildharas15;
+Altitude = 950
+lflags { Outdoors NoMobiles }
+Inner Gates^
+	Unlike the outer gates, the inner gates have been destroyed by the 
+marauders.  One swings soundlessly in the slight breeze, half of the 
+splintered bar still in its housing. A white and ethereal castle lies 
+directly to the north and its courtyard to the south.
+^
+ildharas18 n:ildharas22 e:ildharas20 s:ildharas17 w:ildharas19;
+lflags {}
+Entry Hall^
+	The attackers have systematically ruined this room, slashing 
+tapestries, cracking floor tiles, and carving on the walls.  Puddles of 
+smeared blood decorate the white marble.  It glistens wetly.  You wonder 
+briefly where all the bodies are.  Exits lead off in all directions.
+^
+ildharas19 e:ildharas18 d:ildharas43;
+lflags {}
+Guardroom^
+	Tables and chairs lie smashed and splintered across the floor.  Bits 
+of weapons and armor make walking here hazardous.  A narrow stairway leads 
+down and a doorway goes back out east to the entry hall.
+^
+ildharas20 n:ildharas23 w:ildharas18;
+lflags {}
+Sitting Room^
+	The once plush furniture has been ripped to shreds by many claws.  
+The tapestries and paintings have been treated likewise.  With so many 
+beautiful things destroyed, you regret the senseless waste.
+^
+ildharas21 e:ildharas22 u:ildharas36 d:ildharas59;
+lflags {}
+Monument Room^
+	Once a place where treasures and heirlooms were stored, it now holds 
+only rubble and the sad memory of forgotten significance.  You see a 
+blackened area in the center of the room where everything flammable was 
+burned.  Other things, like weapons, statues and pottery lie scattered in 
+pieces or in pulverized dust.  A marble staircase at far end of the room 
+leads to the floors above and below.
+^
+ildharas22 n:ildharas25 e:ildharas23 s:ildharas18 w:ildharas21 d:^stair_door_56;
+lflags {}
+Main Hall^
+	The methodic destruction has been carried on into the castle's main 
+hall.  Scorch marks mar the southern end, searing the great murals that once 
+decorated the ceiling high above.  Tapestries that once encircled the walls 
+must have fueled the blaze.  A few charcoal strands disintegrate beneath 
+your boots.  A balcony on the second level allowed courtiers to gaze down 
+on the proceedings below.  Doorways lead off to the south, east and west, 
+while to the north sits a sundered throne. 
+^
+ildharas23 s:ildharas20 w:ildharas22 u:ildharas37;
+lflags {}
+Library^
+	The books have all been gutted, their contents scattered throughout 
+the room.  The pages rustle like leaves as you walk.  You behold not the 
+destruction of knowledge, but it's chaotic fusion, a systematic but random 
+dispersion of it's potency. 
+	A set of marble stairs leads up to the second floor, and doorways lead 
+south and west.
+^
+ildharas24 n:ildharas28 e:ildharas25 d:ildharas27;
+lflags {}
+Kitchen^
+	Utensils and iron pots lie strewn all over the floor.  Strangely, the 
+smell of cooking meat lingers on in this place.   
+^
+ildharas25 n:ildharas29 e:ildharas26 s:ildharas22 w:ildharas24;
+lflags {}
+Before the Sundered Throne^
+	The throne has been cloven in twain by a monstrous blow, and its 
+precious stones have all been pried from their settings. Rubble and debris 
+litter everything, but it still looks majestic in all its ruined splendor.  
+Doorways lead north, east, and west, and the main hall continues south.
+^
+ildharas26 w:ildharas25;
+lflags {}
+Private Chamber^
+	Ostensibly, this is where the king used to hold private audiences.  A 
+large fireplace occupies north wall, and you kick away the remains of a 
+table and chairs as you walk.  Defaced paintings stare down at you in silent 
+accusation.  The only exit is to the west.
+^
+ildharas27 u:ildharas24;
+lflags {}
+Pantry^
+	Much of the food has been eaten or spilled upon the ground.  Flour 
+coats the entire room like snow.  You marvel that nothing has gone bad yet. 
+A set of stairs leads up.
+^
+ildharas28 s:ildharas24;
+lflags {}
+Servants' Quarters^
+	Another tableau of annihilation, meticulously crafted down to the 
+tiniest detail.  A small hand mirror lies upon the floor in several shards, 
+symbolic, perhaps, of a shattered identity.  A single doorway leads south to 
+the kitchen.
+^
+ildharas29 s:ildharas25 u:ildharas39;
+lflags {}
+Behind the Throne^
+	This small room served as a place for the king to relax before he went 
+out to court.  A blue vase lies against the wall where it was thrown, a 
+dainty yellow flower looking slightly wilted.  A small staircase leads up 
+and a doorway enters the main hall to the south.
+^
+ildharas30 n:ildharas32;
+lflags { NoMobiles }
+Small Sunlit Chamber^
+	This small, cheery room is filled with plush chairs and footstools.  
+From a window in the southern wall, you can see the overgrown forest in the 
+valley.  A thick and priceless carpet of tan and cream nestles comfortably 
+against your feet, beautiful except for the enormous blood stain in the 
+center. 
+^
+ildharas31 n:ildharas33;
+lflags {}
+Maric's Room^
+	Numerous scorch marks decorate the walls, and the remains of a melted 
+chandelier lie in the room's center in a solidified heap of gold and crystal. 
+Your boots stir up clouds of glittering dust from pulverized vases, statues 
+and other breakables.  Oddly, the only thing spared this fate is a large map 
+hanging on the southern wall.
+^
+ildharas32 n:ildharas35 s:ildharas30;
+lflags {}
+Guest Room^
+	The room smells of expensive musks and spicy food.  A long wooden 
+table sits in the center with the remains of a feast upon it.  Silver 
+candlesticks stand untarnished by age, and no dust adorns the settings.  
+Goblets half-filled with wine litter the table beside greasy napkins and 
+dirty plates.  It looks to have been a mirthful evening.
+^
+ildharas33 n:ildharas36 e:ildharas34 s:ildharas31;
+lflags {}
+Hallway^
+	Hallways stretch out before you to the north and east, and a door on 
+one hinge swings silently to the south.  Letters formed from a sharp 
+instrument dipped in blood decorate the western wall.  
+^
+ildharas34 e:ildharas35 w:ildharas33;
+lflags {}
+Hallway^
+	You wander along an east-west hallway in the southern part of the 
+castle, surrounded by cold, white stone. You wonder what kind of person 
+Lusitan was, to have built such a stark place, and what kind of people the 
+Ildharas were to have lived in it later. Looking out over the balcony, you 
+can see where a defiled Lusitan presides over the wreckage below. 
+^
+ildharas35 n:ildharas37 s:ildharas32 w:ildharas34;
+lflags {}
+Hallway^
+	You notice no dust as you walk these halls.  How odd.  After all these 
+years you'd think you'd see a carpet of it. The hallway continues to the 
+north and west, and a doorway leads south.
+^
+ildharas36 n:ildharas38 s:ildharas33 d:ildharas21;
+lflags {}
+Second Floor Landing West^
+	A long corridor runs to the north and south through the castle.  A 
+balcony lies to the east, allowing you to survey the ruined hall below.  
+Narrow windows along the west wall afford a sweeping view of the valley. 
+^
+ildharas37 n:ildharas40 s:ildharas35 d:ildharas23;
+lflags {}
+Second Floor Landing East^
+	You stand at the top of a flight of marble steps.  A long hallway runs 
+north to south while windows decorate the eastern wall.  A balcony to the 
+west allows you to survey the hall below in all its ruined splendor. 
+^
+ildharas38 n:^king_door_1 e:ildharas39 s:ildharas36;
+lflags {}
+Hallway^
+	The hallway continues west and south.  A vaulted ceiling lofts 
+gracefully overhead, making the white stone seem almost ethereal.  The King's 
+chambers lie to the north.  
+^
+ildharas39 e:ildharas40 w:ildharas38 d:ildharas29;
+lflags {}
+Second Floor Landing North^
+	 A balcony to the south looks out over the audience chamber below, 
+where you can see the back of the sundered throne.  You notice that the 
+hall's flagstones have been laid out in a circular pattern not really 
+obvious when viewed at floor level.  The corridor runs east to west.
+^
+ildharas40 n:ildharas42 s:ildharas37 w:ildharas39;
+lflags {}
+Hallway^
+	The hallway branches to the south and west, and a door leads north.  
+Below you see the ruins of the main hall, and above, where hungry flames have 
+licked away the paintings on the ceiling.  
+^
+ildharas41 s:^king_door_2 w:ildharas66;
+lflags {}
+The King's Chambers^
+	Sparsely furnished, they do not look as grand as you might have 
+imagined.  A bed, nightstand, desk and chair are all pushed together in a 
+dreary, unimaginative way.  Several tarot cards lie on the desk, spread out 
+in an unfamiliar pattern.  A doorway leads south and you see a small alcove 
+containing a library to the west. 
+^
+ildharas42 s:ildharas40;
+lflags {}
+Muralain's Room^
+	Strangely untouched by vandals, this beautiful room with pale 
+carpeting and dark-stained paneling has seen other intruders.  Someone has 
+taken whatever valuables there were and dumped the contents of the shelves 
+and drawers into a central pile, hoping to find more.  A doorway leads south. 
+^
+ildharas43 u:ildharas19 d:ildharas44;
+lflags { Dark }
+Steep Staircase^
+	The stairs here are narrow, steep and rather uneven.  Rock encases you 
+bottom, top, left and right.  Somewhere along here, you pass ground level 
+and the white marble becomes the granite of the mountainside.  
+^
+ildharas44 e:ildharas46 u:ildharas43;
+lflags { Dark }
+Guardroom^
+	Some chairs have been thrown against the far wall with enough force to 
+shatter them.  A few playing cards lie scattered in a corner by a broken 
+table.  A doorway leads to the east, and a set of steep steps goes up to the 
+castle proper.
+^
+ildharas45 n:^cell_door_46s;
+lflags { Dark }
+Empty Cell^
+	Damp, cramped and dreary, this cell reminds of you of all the other 
+cells you've seen and reinforces the concept that such a cell should not be 
+your terminal destination.  
+^
+ildharas46 n:^cell_door_47  e:ildharas49 s:^cell_door_45 w:ildharas44;
+lflags { Dark }
+Dark Corridor^
+	The mountain bears down on you in massive silence.  Off in the 
+interminable distance, you can hear the endless drip-drip-drip of water 
+striking stone.  The corridor leads east and west.
+^
+ildharas47 s:^cell_door_46n;
+lflags { Dark }
+Empty Cell^
+	Somewhat cleaner and larger than most, it must have been used to house 
+more important guests.  Clean straw somehow manages to keep the dankness at 
+bay, and a small cot in the corner looks pretty much pest-free.
+^
+ildharas48 s:^cell_door_49;
+lflags { Dark }
+Empty Cell^
+	The wood on the inside of this door has been scratched to a smooth 
+finish long ago.  The ensuing years have embalmed it in a fine layer of 
+moisture.  Rusted iron chains look as if they could be easily snapped.  This 
+cell probably fell into disuse long before the Ildharas were attacked.
+^
+ildharas49 n:^cell_door_48 e:ildharas52 s:^yorjudek_door_1 w:ildharas46;
+lflags { Dark }
+Dark corridor^
+	The way becomes somewhat wider here.  The rock on the southern wall 
+flattens out and then abruptly changes color and texture, turning into the 
+white marble of the castle above.  You notice a curious carving on the 
+southern wall.
+^
+ildharas50 n:^yorjudek_door_2;
+lflags { Dark CantSummon SoundProof }
+Yorjudek's Cell^
+	This cell is circular, somewhat larger than the others.  Silver-runed 
+manacles hang broken and useless against the far wall.  Deep scores cover 
+the rock on the floor, resembling claw marks. The air is charged with hatred 
+and frustration. 
+^
+ildharas51 s:^cell_door_52;
+lflags { Dark }
+Storage^
+	Piles of burlap, sacks of straw, and old bits of leather fill this 
+cell.  The Ildharas must not have had very many prisoners.
+^
+ildharas52 n:^cell_door_51 e:ildharas53 w:ildharas49;
+lflags { Dark }
+Dark Corridor^
+	Water drips somewhere off in the distance.  A rat squeaks shrilly, and 
+a body scuttles over the cold stone.  Small stones lie scattered about a 
+hole in the eastern wall.  The corridor runs back to the west with a cell 
+door to the north.
+^
+ildharas53 e:ildharas54 w:ildharas52;
+lflags { Dark }
+Narrow Passage^
+	This passage is low and very narrow.  Though it winds to and fro a bit 
+so you cannot see both your starting point and your destination, it stays in 
+a roughly east-west line.
+^
+ildharas54 s:ildharas55 w:ildharas53;
+lflags {}
+Small Antechamber^
+	A small antechamber lies outside a much larger room, perhaps meant as 
+a waiting area. Eternal candles gleam softly in their silver holders, and 
+you note that the walls are purple and curiously smooth, like glass.  The 
+floor is so polished that you can see yourself in it.  Silence lingers here, 
+deeper than the falling snow.
+^
+ildharas55 n:ildharas54;
+lflags {}
+Ward Room^
+	You feel the power centered in this heptagonal room.  A scale model of 
+the castle sits in the center and mystical symbols cover the entire floor.  
+You realize at once that this is the heart of the castle's magical defense 
+system.  Some of the symbols have been marred, and the outer wall of the 
+model has been broken in several places.
+	The Ildharas slain during the attack are stacked along the walls like 
+firewood, perfectly preserved by the strange timeless properties of the 
+castle.
+^
+ildharas56 u:^stair_door_22 d:ildharas57;
+lflags {}
+Stone Stairway^
+	The wide, shallow stairs curve gracefully around in a circle.  Made 
+from the same stone as the castle, they gleam in the ambient light.
+^
+ildharas57 u:ildharas56 e:ildharas58;
+lflags {}
+Bottom of the Staircase^
+	The stairs end at a small door, carved from an exotic dark wood 
+streaked with silver.  Looking straight up, you see the ceiling covered with 
+the burnt remnants of a mural.  The various parts left seem to be focusing 
+on a spot right above, but it's too blackened to guess it's subject or 
+intent.
+^
+ildharas58 w:ildharas57;
+lflags {}
+Small Room^
+	You enter a small, square room.  A desk and chair sit in the center, the
+chair pushed away as if someone had been sitting there recently.  A quill
+rests in a silver inkwell, and the ink comes away wet when you examine it.
+^
+ildharas59 e:ildharas60 u:ildharas21;
+lflags {}
+Bottom of the Staircase^
+	A narrow corridor leads off to the east.  Although there are no windows 
+here, enough light exists from an unseen source to make a torch unnecessary.  
+In the dimness, the walls seem on the verge of glowing. 
+^
+ildharas60 n:ildharas61 w:ildharas59;
+lflags {}
+Stately White Corridor^
+	The corridor continues for a bit and ends at a set of iron doors to 
+the north.  Candles burn in arches created by a series of vaults in the 
+ceiling, creating a dramatic passage of light and stone.  A stairway to the 
+west leads up to the ground floor.
+^
+ildharas61 n:^iron_door_1 s:ildharas60;
+lflags {}
+At the Doors of the Black Hall^
+	Two doors bound in iron bar the entrance to the Black Hall.  Curiously 
+wrought flowers and gargoyles decorate their surfaces.  A large ring on each 
+allows you to pull them open.  A corridor stretches away to the south.
+^
+ildharas62 n:^force63 s:^iron_door_2;
+lflags { }
+The Black Hall^
+	A sense of peace pervades you in this dark, silent place.  A great 
+seven-rayed star is inscribed on the floor in the center, glowing with a 
+silvery lambency.  Aligned with each of the points are seven pillars of jet 
+supporting a roof somewhere above.  Seven eternal candles gleam on the 
+pillars, small pinpoints of light in infinity.  A set of doors leads south.
+^
+ildharas63 s:^sigil;
+lflags { CantSummon  }
+The Sigil Wardment^
+	Great power exists here.  You can sense it without trying.  It thrills 
+up and down your spine and numbs your feet as the quiet argence paints your 
+boots silver.  This symbol, you realize, focuses power into something not 
+quite recognizable.  From here, you can sense the various rooms and even 
+the surrounding land. 
+^
+ildharas64;
+lflags {}
+Inside the Ruby^
+	You wander an architect's nightmare of stairways that double back on 
+themselves, halls with but a single end, and random, chaotic angles.  Time 
+stretches out to eternity.  There is nowhere to go here, and nothing to do.  
+Memory grows dim, fading against the monotony of the present.  
+^
+ildharas65;
+lflags {}
+The Palace of Darhaveret^
+	Atop a high hill, the palace overlooks a dusty city filled with bright 
+awnings and a wide, crescent-shaped harbor.  Arabic in much of its design, 
+you could lose yourself contemplating the intricate friezes and the 
+perfection of its geometry.
+^
+ildharas66 e:ildharas41;
+lflags {}
+The King's Library^
+	It seems this is where the king kept all his important documents and 
+private resources.  A large ebony table dominates the room center, and 
+bookcases line all the available walls.  These go from floor to ceiling, 
+but all their contents have been removed.
+^

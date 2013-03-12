@@ -1,0 +1,29 @@
+
+
+
+
+%mobiles
+
+Name		= nelatra
+location	= nelatra
+sflags		{ Female }
+Pflags		{ NoPunt NoZap NoHassle NoSummon NoAlias NoExorcise NoBurn}
+strength	= 100000
+damage		= 10000
+armor		= 10000
+speed		= 0
+aggression	= 0
+description	= "&+BN&+Ce&+Bl&+Ca&+Bt&+Cr&+Ba&* is here glowing with magical power."
+End         = nelatra
+
+%locations
+
+nelatra s:Gold@eastcoast;
+lflags { Nelatra Peaceful Party }
+Nelatra's Magic Center^
+   Here many magician apprentices have gathered to learn from the goddess
+of all mages, Nelatra.  The entire domain glows with a bright aura, and
+magical energy swirls about her devotees.  You may experience this too, if
+you serve her well. 
+^
+

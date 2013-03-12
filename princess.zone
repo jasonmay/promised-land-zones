@@ -1,0 +1,525 @@
+/*
+
+
+*/
+
+
+
+
+
+%mobiles
+
+Name           = stephen
+Pname          = "King Stephen"
+Location       = throne
+Speed          = 0
+Damage         = 5
+Strength       = 50
+Description    = "King Stephen is sitting on his throne, waiting for you."
+Examine        = "
+&+CKing Stephen &+wtells you &+W'Hello adventurer.  Come to save my daughter,  
+&+Whave you? Well go ahead and try if you think you can.  Be careful of
+&+Wshiny things!  Good luck!!'"
+End            = stephen
+
+Name           = gizelle
+Pname          = "Gizelle"
+Location       = mountain
+Mflags         { BarSouth NoCorpse }
+Eflags 		{ Missile }
+Sflags         { Female Nobody }
+Speed          = 0
+Damage         = 10
+Strength       = 300
+Description    = "Standing in front of you is the evil sorceress &+RGizelle!"
+Examine        = "She looks at you and says &+C'Come to fight me, eh?  Let the fight begin!'
+"
+End            = gizelle
+
+Name           = gwendolyn
+Pname          = "Gwendolyn"
+Location       = tower
+Sflags         { Female }
+Pflags         { NoHassle }
+Strength       = 40
+Damage         = 4
+Speed          = 0
+Description    = "The lovely Princess Gwendolyn has been chained to the wall."
+Examine        = "She doesn't look happy to be so chained up.  Hopefully you can save her!
+"
+End            = gwendolyn
+
+
+
+Name           = child
+Pname          = "Rose"
+Location       = courtyard
+Strength       = 45
+Damage         = 9
+Sflags         { Female }
+Speed          = 0
+Description    = "A small child is playing in the courtyard."
+Examine        = "
+You see a little girl with brown eyes and brown hair.  She is wearing a
+dull brown dress and a grey shawl.  Her appearance may look drabby, but
+Rose has a big smile on her face."
+End = child
+
+name           = rabbit
+pname          = "Peter"
+Location       = forest2
+Strength       = 50
+Damage         = 8
+Speed          = 10
+Description    = "You see a cute little bunny wiggling his nose."
+Examine        = "&+cPeter looks at you and wiggles his nose &+C*hello*.  &+cIsn't he so cute?
+"
+End            = rabbit
+
+Name           = fox
+Pname          = "Foxy Loxy"
+Location       = forest1
+Strength       = 70
+Damage         = 9
+Speed          = 10
+Description    = "Foxy Loxy is a cute little fox."
+Examine        = "&+cFoxy looks back at you with those piercing &+Ggreen &+ceyes.  He looks 
+hungry.
+"
+End            = fox
+
+Name           = ffox
+Pname          = "Vixan"
+Location       = forest1
+Sflags         { Female }
+Damage         = 8
+Speed          = 10
+Strength       = 70
+Description    = "&+CVixan, a pretty little fox with &+Bblue &+Ceyes is looking at you from
+the bushes."
+Examine        = "Vixan is a shy fox.  She bats her eyes looking at you curiously.
+"
+End            = ffox
+
+Name           = bear
+Pname          = "The Hungry Bear"
+Location       = death
+Strength       = 300
+Damage         = 15
+Speed          = 0
+Aggression     = 50
+Description    = "Look out!  It's a hungry bear!"
+Examine        = "
+&+gThe hungry bear bares his teeth.  He looks at you with his &+Rblood red
+&+geyes.  He looks like he hasn't eaten in weeks.  Run away while you still can!
+"
+End            = bear
+
+%objects
+
+Name           = portcullis
+Location       = IN_ROOM:entrance
+Oflags         { NoGet }
+MaxState       = 1
+State          = 1
+Desc[1]        = "A portcullis bars the entrance to keep out unwelcome visitors."
+Desc[0]        = "The portcullis has been lifted to reveal a door."
+Examine        = "The bars are made of strong iron to keep people out.
+"
+End            = portcullis
+
+Name           = out_door
+Pname          = door
+Linked         = in_door
+Location       = entrance
+Oflags         { Openable NoGet }
+MaxState       = 2
+State          = 2
+Desc[2]        = "There is a great oak door behind the &+Cportcullis&* bars."
+Desc[1]        = "A great oak door bars your way into the castle."
+Desc[0]        = "Someone managed to open the door to the castle."
+Examine        = "The door looks big and heavy, and is made of oak.  It is meant to keep
+intruders out.
+"
+End            = out_door
+
+
+Name           = in_door
+Pname          = door
+Location       = hall
+Linked         = out_door
+Oflags         { Openable Lockable NoGet }
+MaxState       = 2
+State          = 2
+Desc[2]        = "The door has been barred from the inside."
+Desc[1]        = "The door is closed to keep intruders out."
+Desc[0]        = "Someone left the door open!"
+Examine        = "The door is made of solid oak and is powerfully reinforced.  It would be
+impossible to force one's way through it.
+"
+End            = in_door
+
+Name           = tile
+Location       = IN_ROOM:throne
+Oflags         { NoGet }
+MaxState       = 1
+State          = 1 
+Desc[0]        = "A tile has been pushed to one side."
+Desc[1]        = "You notice that one tile on the floor looks out of place."
+Examine        = "You look at the tile and notice that it is a little loose.
+"
+End            = tile
+
+Name           = opening
+Altname        = hole
+Location       = IN_ROOM:limbo@limbo
+Oflags         { Container NoGet }
+Size           = 16
+Desc[0]        = "There is an unusual opening in the floor."
+Examine        = "You see a nice big opening.  You could hide lots of things in here!
+"
+End            = opening
+
+Name           = table
+Location       = IN_ROOM:hall
+Oflags         { NoGet }
+Examine        = "
+The table is round and sturdy.  It is made of a rare wood and is so big
+that only a King could afford it!  Looking under the table, you see a
+little &+Clatch&*.  How odd.
+"
+End            = table
+
+Name           = latch
+Location       = IN_ROOM:hall
+Oflags         { NoGet }
+MaxState       = 1
+State          = 1
+Examine        = "It's a funny looking latch.   It looks like it could be moved."
+End            = latch
+
+
+Name           = towershield
+Altname        = shield
+Location       = IN_ROOM:limbo@limbo
+Oflags         { Armor Wearable Shield }
+Size           = 10
+Bvalue         = 50
+Armor          = 50
+Desc[0]        = "
+The magical Towershield has been left here."
+Examine        = "
+This shield looks like it has been through many battles.  It will protect
+you from the greatest of blows!"
+End            = towershield
+
+Name           = plant
+Pname          = winterglove
+Altname        = plant
+Location       = IN_ROOM:forest3
+Size           = 3
+Bvalue         = 35
+MaxState       = 1
+State          = 1
+Desc[1]        = "&+wA beautiful odd-looking &+Rred &+wplant is growing here."
+Desc[0]        = "This plant looks shrivelled.  Someone squeezed all the juice out of it."
+Examine        = "
+This beautiful red plant looks odd at first sight.  As you look at it, you
+can see that it is very unique.  You remember from somewhere that the &+Rjuice&*
+of these red plants, called winterglove, can heal all kinds of illnesses.
+"
+End            = plant
+
+Name           = comb
+Location       = IN_ROOM:forest5
+Oflags         { Wearable }
+Aflags	       { Head }
+Bvalue         = -300
+Size           = 2
+Desc[0]        = "A funny looking comb is lying in the dirt."
+Examine        = "
+The comb is gold-plated and has sapphires embroidered in it.  You may be
+able to wear it.
+"
+End            = comb
+
+Name           = eternalsword
+altname        = sword
+Location       = IN_CONTAINER:opening
+Oflags         { Weapon Lit }
+BValue         = 80
+Size           = 15
+Damage         = 17
+Desc[0]        = "The mighty EternalSword is sticking out of a stump."
+Examine        = "The sword has an unusual glow to it...and it looks sharp!!
+"
+End            = eternalsword
+
+Name           = bushes
+Altname        = bush
+Location       = IN_ROOM:mountain
+Oflags         { NoGet }
+MaxState       = 1
+State          = 1
+Desc[1]        = "Some bushes grow around the base of the tower."
+Desc[0]        = "The bushes have been burned away."
+Examine        = "They're thorn bushes.  Be careful!"
+End            = bushes
+
+Name           = out_tower_door
+Pname          = door
+Location       = IN_ROOM:mountain
+Linked         = in_tower_door
+Oflags         { Destroyed NoGet Openable Lockable }
+MaxState       = 2
+State          = 1
+Desc[2]        = "The door to the tower has been locked and chained."
+Desc[1]        = "You can't get into the tower while the door is closed!"
+Desc[0]        = "The door to the tower stands wide open."
+Examine        = "There is a sign on the door that says &+RKEEP OUT!
+"
+End            = out_tower_door
+
+Name           = in_tower_door
+Pname          = door
+Location       = IN_ROOM:downtower
+Oflags         { Openable Lockable NoGet}
+Linked         = out_tower_door
+MaxState       = 2
+State          = 1
+Desc[2]        = "The door is locked...you could be trapped up here!"
+Desc[1]        = "The door has been closed to keep the cold out."
+Desc[0]        = "The door to the tower stands wide open."
+Examine        = "It is a very small door.  One would have to stoop to go through it.
+"
+End            = in_tower_door
+
+
+
+Name           = drawbridge
+Location       = IN_ROOM:entrance
+Oflags         { NoGet }
+Examine        = "The drawbridge is made of wood.  It leads into the castle.
+"
+End            = drawbridge
+
+Name           = flags
+Altname        = flag
+Location       = IN_ROOM:entrance
+Oflags         { NoGet }
+Examine        = "&+WThese flags show the royal crest of the royal family: a big &+Yeagle
+&+Wsoaring over &+Bblue mountains.
+"
+End            = flags
+
+Name           = banners
+Altname        = banner              
+Location       = IN_ROOM:entrance
+Oflags         { NoGet }
+Examine        = "The yellow and blue banners are flapping in the wind.
+"
+End            = banners
+
+Name           = tapestries
+Altname        = tapestry
+Location       = IN_ROOM:hall
+Oflags         { NoGet }
+Examine        = "The tapestries are red with sapphires embroidered in the borders.
+"
+End            = tapestries
+
+Name           = throne
+Location       = IN_ROOM:throne
+Oflags         { NoGet }
+Examine        = "This throne is made of pure gold with rubies set in it."
+End = throne
+
+Name           = tapestries_2
+Pname          = tapestries
+Altname        = tapestry
+Location       = IN_ROOM:throne
+Oflags         { NoGet }
+Examine        = "The sapphires are red with sapphires embroidered in the borders.
+"
+End            = tapestries_2
+
+Name           = flowers
+Altname        = walkway
+Location       = IN_ROOM:courtyard
+Oflags         { NoGet }
+Examine        = "
+These flowers display a variety of colors and types.  They range from red
+to blue to gold, and there is a wonderful selection of roses and orchids.
+"
+End            = flowers
+
+Name           = tower
+Location       = IN_ROOM:mountain
+Oflags         { NoGet }
+Examine        = "The tower is old and gray.  It looks like it reaches up to the sky!
+"
+End            = tower
+
+Name           = stairs
+Location       = IN_ROOM:downtower
+Oflags         { NoGet }
+Examine        = "They are old crumbling stairs.  Be careful!  Don't fall!'
+"
+End            = stairs
+
+Name           = bones
+Altname        = pile
+Location       = IN_ROOM:tower
+Oflags         { NoGet }
+Examine        = "Looks like the last guests never left!"
+End            = bones
+
+Name           = potions
+Altname        = potion
+Location       = IN_ROOM:tower
+Oflags         { NoGet }
+Examine        = "
+These potions are made from lizard's tongue, bat's wing, and warts with
+one eye.  They don't sound appetizing."
+end = potions
+
+Name           = chains
+Altname        = chain
+Location       = IN_ROOM:tower
+Oflags         { NoGet }
+Examine        = "
+The chains hold the princess to the wall.  They look to be made of some
+strange metal.  They probably can't be broken."
+End            = chains
+
+
+%locations
+
+path1 n:stream_3@novice s:path2;
+lflags { Outdoors }
+Sandy Pathway^
+   This path is covered in sand that has washed up upon the dirt track 
+during a previous flooding.  The sand is relatively dry not holding onto
+the tracks made by travelers.  The bend in the stream is to the north and
+the sandy path winds further south.
+^
+
+path2 n:path1 e:entrance ;
+lflags {OutDoors }
+Winding Pathway^
+   You are walking down a long winding narrow path.  A large castle reaches
+up towards the sky in the distance to the east.  But here, there is little
+out of the ordinary.  The path is just sand, and not well travelled
+either.
+^
+
+entrance e:^out_door w:path2 ;
+lflags { OutDoors }
+The Entrance to the Castle^
+   You stand on a &+ydrawbridge&* looking at a majestic white castle.  Hanging
+from the walls are yellow and blue &+Gbanners&*.  &+YFlags&* of the same colors are
+waving in the wind.  You wonder who lives here; the castle looks
+abandoned!
+^
+
+hall e:throne s:courtyard w:^in_door ;
+lflags { NoMobiles }
+The Great Hall^
+   You have now entered the Great Hall.  You look around only to discover
+that it is deserted.  Red &+Rtapestries&* hang from the walls.  In the center
+of the room you see a table.  Many kings have feasted at this &+Ctable.
+^
+
+throne w:hall ;
+lflags { Peaceful }
+Castle Throne Room^
+   You walk into the throne room.  In the center of the room, you see a
+throne.  The &+Ythrone&* is made of gold with gemstones embroidered in it.  On
+the walls hang &+Rtapestries.   
+^
+
+courtyard n:hall s:forest1 ;
+lflags { NoMobiles OutDoors }
+The Courtyard^
+   You have entered a courtyard behind the castle.  It is quite peaceful
+here.  You can hear birds singing in the trees.  The walk way is bordered
+with beautiful &+Yflowers&*.  You see the deep, dark forest looming to the
+south.
+^
+
+forest1 n:courtyard e:forest2 s:forest4 w:forest3 ;
+lflags { OutDoors }
+The Forest^
+   You enter a forest.  There are paths in every direction.  The northern
+path leads back to the castle.  The other paths lead deeper into the
+woods.
+^
+
+forest2 n:forest2 e:forest3 s:forest2 w:forest1 ;
+lflags {OutDoors }
+The Forest ^
+   You are deep in the forest.  Maybe you took a wrong turn somewhere?
+Nothing looks familiar.
+^
+
+forest3 n:forest3 e:forest1 s:forest3 w:forest2 ;
+lflags { OutDoors }
+The Forest^
+   You are deep in the forest.  Maybe you took a wrong turn somewhere?
+Nothing looks familiar.
+^
+
+forest4 n:forest1 e:forest2 s:forest5 w:death ;
+lflags {OutDoors}
+The Forest^
+   You continue along the path.  You notice that the trees have changed
+colors from blue to green to yellow.  What a strange forest this is!!  The
+path continues south.  An ominous growling comes from a cave to the west.
+^
+
+death e:forest4 ;
+lflags { }
+Cave of the Grizzy Bear^
+   You walk into the cave, wondering what could possibly be in a bear cave
+(besides a grizzy bear of course).  The first thing you notice is that
+you're still alive for now.  Then you notice a strange growling from the
+back of the cave. 
+^
+
+forest5 n:forest4 s:forest6 ;
+lflags { OutDoors }
+The Forest^
+   The path continues northward and southward.  In the distance you can see
+mountains.  The trees become fewer and fewer as you continue down the path.
+^
+
+forest6 n:forest5 s:mountain u:mountain ;
+lflags { OutDoors }
+The Edge of the Forest^
+   As you continue down the path, you are able to see the mountains looming
+in the distance.  There are fewer and fewer trees.  You hope to get out of
+this crazy forest soon!!
+^
+
+mountain n:forest6 s:^out_tower_door d:forest6 ;
+lflags { OutDoors NoMobiles }
+On Top of the Mountain^
+   You reach the top of the mountain.  A huge &+Ctower&* rises out of the ground!!
+The air seems much thinner up here.
+^
+
+downtower n:^in_tower_door u:tower ;
+lflags { }
+Inside the Sorceress' Tower^
+   There is a sense of evil pervading this whole tower.  There is a case of
+&+Cstairs&* going up, and you hear sounds coming from there.
+^
+
+tower d:downtower ;
+lflags { }
+Upstairs In the Tower^
+   You have reached the top of the tower.  Everything here is dreary, and 
+you can tell that this is the tower of an evil person.  Piles of &+Cbones&* and
+horrible looking &+Cpotions&* are scattered all over the floor of the tower.
+This looks like a terrible place to be!!
+^

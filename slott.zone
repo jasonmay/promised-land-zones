@@ -1,0 +1,1323 @@
+/* I have no idea who authored this zone, it has been sitting in the ZONES 
+directory for so long I decided to clean it up and finish it myself. 
+12 mobs. 57 obj. 50 rooms. */
+
+
+
+
+
+%mobiles
+
+Name            = stableboy
+Location        = slott2
+PName           = "The Stableboy"
+Strength        = 100
+Damage          = 15
+Aggression      = 0
+Speed           = 0
+Description     = "The &+RStableboy&* stands here, staring into nothing!"
+Examine         = "You see a very dirty young man, with a strange look in his eyes."
+End		= stableboy
+
+Name            = Manfred
+Pname           = "Manfred"
+Location        = slott3
+Strength        = 75
+Damage          = 10
+Armor           = 5
+Aggression      = 0
+Speed           = 0
+Description     = "&+RManfred&* the butler stands here, wondering about who you are!"
+Examine         = "As you look at Manfred you have to back away several steps.
+PHEEW, he stinks of garlic, he has to have eaten a dozen of them."
+End             = Manfred
+
+Name            = William
+Location        = slott11
+Strength        = 75
+Damage          = 10
+Armor           = 5
+Aggression      = 40
+Speed           = 0
+Description     = "&+RWilliam the cook&* is here, making a sandwich!"
+Examine         = "William stares back at you, as if he would be afraid you wanted the sandwich."
+End             = William
+
+Name            = REDCAP1
+Pname           = "Red Cap"
+Location        = slott22
+Strength        = 75  
+Damage          = 10
+Armor           = 5
+Aggression      = 75
+Speed           = 15
+Description     = "&+RRed Cap&* is here, glowing of evil!"
+Examine         = "
+This is a short, stocky old man with long gray hair and claws instead of 
+hands! He loves to inhabit ancient ruins of castles, especially in those 
+with a bloody history of war or murder! He wears a red hat, which is colored 
+by the &+rblood&* of his victims. He also moves with remarkable speed, despite 
+the fact that he wears iron boots!"
+End             = REDCAP1
+
+Name            = REDCAP2
+Pname           = "Red Cap"
+Location        = slott8
+Strength        = 75  
+Damage          = 10
+Armor           = 5
+Aggression      = 65
+Speed           = 15
+Description     = "&+RRed Cap&* is here, glowing of evil!"
+Examine         = "
+This is a short, stocky old man with long gray hair and claws instead of 
+hands! He loves to inhabit ancient ruins of castles, especially in those 
+with a bloody history of war or murder! He wears a red hat, which is colored 
+by the &+rblood&* of his victims. He also moves with remarkable speed, despite 
+the fact that he wears iron boots!"
+End             = REDCAP2
+
+Name            = REDCAP3
+Pname           = "Red Cap"
+Location        = slott13
+Strength        = 75  
+Damage          = 10
+Armor           = 5
+Aggression      = 100
+Speed           = 15
+Description     = "&+RRed Cap&* is here, glowing of evil!"
+Examine         = "
+This is a short, stocky old man with long gray hair and claws instead of 
+hands! He loves to inhabit ancient ruins of castles, especially in those 
+with a bloody history of war or murder! He wears a red hat, which is colored 
+by the &+rblood&* of his victims. He also moves with remarkable speed, despite 
+the fact that he wears iron boots!"
+End             = REDCAP3
+
+Name            = REDCAP4
+Pname           = "Red Cap"
+Location        = slott7
+Strength        = 75  
+Damage          = 10
+Armor           = 5
+Aggression      = 80
+Speed           = 15
+Description     = "&+RRed Cap&* is here, glowing of evil!"
+Examine         = "
+This is a short, stocky old man with long gray hair and claws instead of 
+hands! He loves to inhabit ancient ruins of castles, especially in those 
+with a bloody history of war or murder! He wears a red hat, which is colored 
+by the &+rblood&* of his victims. He also moves with remarkable speed, despite 
+the fact that he wears iron boots!"
+End             = REDCAP4
+
+Name            = REDCAP5
+Pname           = "Red Cap"
+Location        = slott38
+Strength        = 75  
+Damage          = 10
+Armor           = 5
+Aggression      = 75
+Speed           = 15
+Description     = "&+RRed Cap&* is here, glowing of evil!"
+Examine         = "
+This is a short, stocky old man with long gray hair and claws instead of 
+hands! He loves to inhabit ancient ruins of castles, especially in those 
+with a bloody history of war or murder! He wears a red hat, which is colored 
+by the &+rblood&* of his victims. He also moves with remarkable speed, despite 
+the fact that he wears iron boots!"
+End             = REDCAP5
+
+Name            = REDCAP6
+Pname           = "Red Cap"
+Location        = slott32
+Strength        = 75  
+Damage          = 10
+Armor           = 5
+Aggression      = 75
+Speed           = 15
+Description     = "&+RRed Cap&* is here, glowing of evil!"
+Examine         = "
+This is a short, stocky old man with long gray hair and claws instead of 
+hands! He loves to inhabit ancient ruins of castles, especially in those 
+with a bloody history of war or murder! He wears a red hat, which is colored 
+by the &+rblood&* of his victims. He also moves with remarkable speed, despite 
+the fact that he wears iron boots!"
+End             = REDCAP6
+
+Name            = HouseMaster
+Pname           = "The Master"
+Location        = slott35
+Strength        = 100  
+Damage          = 5
+Armor           = 5
+Aggression      = 0
+Speed           = 0
+Description     = "&+RThe Master&* is standing in the middle of the room!"
+Examine         = "
+This is the master of the castle! He is an old and weak man, it looks like 
+he hasn't seen the sun for a long time. His skin is white and long grey 
+hair is in need for a bath and a trim. He looks to be a wise and kind man!"
+End             = HouseMaster
+
+Name            = Family
+Pname           = "The Family"
+Location        = slott43
+Strength        = 20
+Pflags { NoHassle }
+Damage          = 0
+Armor           = 0
+Aggression      = 0
+Speed           = 0
+Description     = "The &+RFamily&* is here!"
+Examine         = "
+This is the rest of the family of the castle! Standing from the left, 
+mother, son and daughter."
+End             = family
+
+Name            = Muryan
+Location        = slott43
+Strength        = 250  
+Damage          = 20
+Armor           = 15
+Aggression      = 0
+Speed           = 0
+Description     = "&+RMuryan stands here, giving you a chill down you spinalcord!"
+Examine         = "
+You are looking at a soul of an ancient heathen that has been captured 
+between worlds.  Course he is too good for &+Rhell&* and too bad for &+Yheaven&*! 
+So he settled down in this castle instead, but got bored with the loneliness, 
+so he kidnapped the Family to get some company, and he will not let them go, 
+he'd rather kill them first!"
+End             = Muryan
+
+%objects
+
+Name            = Sign
+PName           = "Sign" 
+Size            = 1
+Location        = IN_ROOM:slott1
+Desc[0]         = "A old worn sign is nailed to the front doors of the castle."
+Oflags          { NoGet} 
+Examine         =  "
+                  _______________________________
+                 |   Beware of the being, that   |
+                 | lurks the dark underground!! _|
+   	         | couse if you aren't cousius,/
+	         |  you will be captured do.. /
+	          \__________________________/
+		     The note has been torn apart
+		     so the last part is missing..."
+
+End             = Sign
+
+Name            = insidedoor
+PName           = door
+Linked          = outsidedoor
+State           = 1
+MaxState        = 1
+Location        = IN_ROOM:slott3
+oflags          { Openable NoGet }
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+End             = insidedoor
+
+Name            = outsidedoor
+PName           = door
+Linked          = insidedoor
+State           = 1
+MaxState        = 1
+Location        = IN_ROOM:slott1
+oflags          { Openable NoGet }
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+End             = outsidedoor
+
+Name            = Whip
+Damage          = 12
+State           = 1
+MaxState        = 1 
+Size            = 10
+Location        = IN_ROOM:slott2
+Desc[0]         = "A whip lies here."
+Desc[1]         = "A whip hangs on the northern wall."
+Oflags          { Weapon GetFlips } 
+Examine         =  "
+A large whip made of oxskin, this looks like it could be used both as a 
+weapon and a rope."
+End             = Whip
+
+Name            = Note
+State           = 1
+MaxState        = 1 
+Damage          = 0
+Size            = 2
+Location        = IN_ROOM:slott3
+Desc[0]         = "A small note lies here."
+Desc[1]         = "A small note lies on the table."
+Oflags          { } 
+Examine         =  "
+&+CThe note seems to be written by the lord of the house, and it reads:
+
+'I fear for my familie lives, so I have barrikaded myself on the 
+secondfloor, waiting for some help from the outside. My dear family has 
+been taken by the evil that haunts the house. Help me free my family and 
+I will richly reward you. find a way to trapp the evil creatur that lives 
+in the darkest holes! But beware, one mistake can trapp you down in the 
+dark forever....
+		    
+Ps: The only one that don't seems to be affected is my butler, and he is 
+to cowered to enter the dark place where the evil lurks. We don't know why 
+he's mot affected by this evil creature but maybe you can find out the 
+secret he carries on..'" 
+End             = Note
+
+Name            = Shelf
+Altname	= shelves
+State           = 0
+MaxState        = 0 
+Size            = 1
+Location        = IN_ROOM:slott4
+Oflags          { NoGet} 
+Examine         =  "
+A shelf, probably where they stored the hats and gloves for the castle 
+visitors.  Empty now though." 
+End             = Shelf
+
+Name            = Hook
+AltName         = "Hooks" 
+State           = 0
+MaxState        = 0 
+Size            = 1
+Location        = IN_ROOM:slott4
+Oflags          { NoGet } 
+Examine         =  "A hook to hang up coats and rocks on!" 
+End             = Hook
+
+Name            = Coat
+Armor           = 10
+State           = 1
+MaxState        = 1 
+Size            = 5
+Location        = IN_ROOM:slott4
+Desc[1]         = "A coat hangs here on a hook."
+Desc[0]         = "A coat lies on the ground."
+Oflags          { Wearable GetFlips } 
+Examine         =  "A good thick coat!" 
+End             = Coat
+
+Name            = Table
+PName           = "Table" 
+AltName         = "Tables" 
+State           = 0
+MaxState        = 0 
+Size            = 1
+Location        = IN_ROOM:slott5
+Oflags          { NoGet} 
+Examine         =  "A small round table of oak, once very polished but now full of dust." 
+End             = table
+
+Name            = Candle
+State           = 1
+MaxState        = 1 
+Size            = 5
+Location        = IN_ROOM:slott5
+Desc[1]         = "A candle stands on one of the tables."
+Desc[0]         = "A candle has been dropped here."
+Oflags          { Lightable Extinguish GetFlips } 
+Examine         =  "An old wax candle, this might come in good use." 
+End             = Candle
+
+Name            = insidedoor2
+PName           = door
+Linked          = outsidedoor2
+State           = 2
+MaxState        = 2
+Location        = IN_ROOM:slott5
+oflags          { Openable NoGet Lockable }
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = insidedoor2
+
+Name            = outsidedoor2
+PName           = door
+Linked          = insidedoor2
+State           = 2
+MaxState        = 2
+Location        = IN_ROOM:slott7
+oflags          { Openable NoGet Lockable }
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = outsidedoor2
+
+Name            = insidedoor3
+PName           = shelf
+Linked          = outsidedoor3
+State           = 1
+MaxState        = 1
+Location        = IN_ROOM:slott8
+oflags          { Pushable NoGet }
+Desc[0]         = "The shelf has been pushed aside."
+Desc[1]         = "A shelf stands against the wall."
+Examine         = "By the marks in the dust on the floor this shelf serves as a door!"
+End             = insidedoor3
+
+Name            = outsidedoor3
+PName           = Panel
+Linked          = insidedoor3
+State           = 1
+MaxState        = 1
+Location        = IN_ROOM:slott6
+oflags          { Pushable NoGet }
+Desc[0]         = "The panel is open."
+Desc[1]         = "There is a panel in the wall."
+Examine         = "Looks like it could be pushed!"
+End             = outsidedoor3
+
+
+Name            = Altar
+State           = 0
+MaxState        = 0
+Size            = 50
+Location        = IN_ROOM:slott10
+Desc[0]         = "An altar stands at the southern end of the room."
+Oflags          { NoGet } 
+Examine         =  "
+There is a small note attached saying:  'Beware of the monster below.'
+Sometime ago the altar was shifted from its base and put back again!  You
+just can't figure out how someone could have moved this big chunk of stone!" 
+End             = Altar
+
+Name            = Krusefix
+AltName         = "Cross" 
+State           = 0
+MaxState        = 0 
+Size            = 1
+Location        = IN_ROOM:slott10
+Oflags          { NoGet } 
+Examine         =  "A standard Krusefix, with Jesus nailed to it." 
+End             = Krusefix
+
+Name            = Benches
+AltName         = "Bench" 
+State           = 0
+MaxState        = 0 
+Size            = 1
+Location        = IN_ROOM:slott10
+Oflags          { NoGet} 
+Examine         =  "You look at the bench nearest the altar and you find a button." 
+End             = Benches
+
+Name	= bench_button
+Pname = button
+Oflags { PushToggle Noget }
+Maxstate = 1
+State = 1
+Desc[0] = "The altar has shifted from its base exposing a secret passage!"
+Linked = bench_bot
+Location = IN_ROOM:slott10
+End = bench_button
+
+Name = bench_bot
+Pname = basement
+Oflags { Noget }
+Location = IN_ROOM:slott40
+Linked = bench_button
+End = bench_bot
+
+Name            = Sandwich
+State           = 0
+MaxState        = 0
+Size            = 5
+Location        = CARRIED_BY:William
+Desc[0]         = "A freshly made sandwich lies here."
+Oflags          { Food } 
+Examine         =  "
+Yummie, a sandwich with all the good stuff on.  Ham, cheese, quecumbers, 
+tomato and some sallad." 
+End             = Sandwich
+
+Name            = Cupboards
+AltName         = "Cupboard" 
+State           = 1
+MaxState        = 1 
+Size            = 50
+Location        = IN_ROOM:slott11
+Desc[0]         = "The cupboard has been opened."
+Desc[1]         = "The cupboard is closed."
+Oflags          { Openable NoGet Container } 
+Examine         =  "A cupboard stands against the wall." 
+End             = Cupboards
+
+Name            = Drawer
+State           = 1
+MaxState        = 1 
+Size            = 45
+Location        = IN_ROOM:slott11
+Desc[0]         = "The drawer has been opened."
+Desc[1]         = "There is a drawer in the cupboard, it is closed."
+Oflags          { Openable NoGet Container } 
+Examine         =  "It's a drawer." 
+End             = Drawer
+
+Name            = Garlics
+AltName         = "Garlic" 
+State           = 0
+MaxState        = 0 
+Size            = 10
+Location        = IN_CONTAINER:Cupboards
+Desc[0]         = "A garlic has been dropped here."
+Oflags          { Food } 
+Examine         =  "Just an ordanary garlic?" 
+End             = Garlics
+
+Name            = Bowl
+Armor           = 15
+State           = 1
+MaxState        = 1 
+Size            = 30
+Location        = IN_CONTAINER:Drawer
+Desc[0]         = "A bowl has been left here."
+desc[1]         = "A bowl has been placed here."
+Oflags          { GetFlips Armor Wearable Container} 
+Aflags	{ Head }
+Examine         =  "A sallads bowl, good to store things in." 
+End             = Bowl
+
+Name            = Stove
+Armor           = 0
+State           = 0
+MaxState        = 0 
+Size            = 0
+Location        = IN_ROOM:slott11
+Oflags          { Lit NoGet } 
+Examine         =  "The stove has been recently used and is still warm." 
+End             = Stove
+
+Name            = Portraits
+AltName         = "Portrait" 
+State           = 0
+MaxState        = 0 
+Size            = 1
+Location        = IN_ROOM:slott12
+Oflags          { NoGet } 
+Examine         =  "
+The family portraits have the oldest to the south and the youngest to 
+the north. The northern portrait catches your attention, it's portraying 
+a young man sitting in a chapel of some kind, in each hand he's got a big 
+garlic, wonder why?" 
+End             = Portraits
+
+Name            = Windows
+AltName         = "window" 
+State           = 0
+MaxState        = 0 
+Size            = 1
+Location        = IN_ROOM:slott12
+Oflags          { NoGet} 
+Examine         =  "You look out through the windows and see a once beautiful garden.  
+Now it's overgrown with grass, what a pity!" 
+End             = Windows
+
+Name            = Table2
+PName           = "Table" 
+State           = 0
+MaxState        = 0 
+Size            = 1
+Location        = IN_ROOM:slott14
+Oflags          { NoGet} 
+Examine         =  "A large table made of oak, it is set for six persons." 
+End             = table2
+
+Name            = Knife
+State           = 1
+MaxState        = 1 
+Damage          = 7
+Size            = 5
+Location        = IN_ROOM:slott14
+Desc[0]         = "A small knife lies here."
+Desc[1]         = "There is an small knife on the table."
+Oflags          { Weapon } 
+Examine         =  "A small knife, it's sharp so watch your fingers." 
+End             = Knife
+
+Name            = Woddenbowl
+AltName         = "Bowl" 
+State           = 0
+MaxState        = 0 
+Size            = 20
+Location        = IN_ROOM:slott14
+Desc[0]         = "A woddenbowl stands on the table."
+Oflags          { Noget Container} 
+Examine         =  "A woddenbowl to have fruits in." 
+End             = Woddenbowl
+
+Name            = Orange
+State           = 0
+MaxState        = 0 
+Size            = 10
+Location        = IN_CONTAINER:Woddenbowl
+Desc[0]         = "A delicious orange has been dropped here."
+Oflags          { Food } 
+Examine         =  "Just an orange." 
+End             = Orange
+
+Name            = insidedoor4
+PName           = door
+Linked          = outsidedoor4
+State           = 2
+MaxState        = 2
+Location        = IN_ROOM:slott15
+oflags          { Openable NoGet Lockable }
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = insidedoor4
+
+Name            = outsidedoor4
+PName           = "door"
+Linked          = insidedoor4
+State           = 2
+MaxState        = 2
+Location        = IN_ROOM:slott10
+oflags          { Openable NoGet Lockable }
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = outsidedoor4
+
+Name            = Key
+State           = 1
+MaxState        = 1 
+Size            = 1
+Location        = IN_ROOM:slott15
+Desc[1]         = "A small key lies on a table."
+desc[0]         = "A small key has been dropped here."
+Oflags          { Key GetFlips} 
+Examine         =  "Just a key, what did you suspect?" 
+End             = Key
+
+Name            = Hole
+State           = 1
+MaxState        = 1 
+Size            = 1
+Location        = IN_ROOM:slott19
+Oflags          { NoGet }
+Desc[0] = "There is a rope tied here leading to the lower level." 
+Examine         =  "
+Looking down the hole you see what is left of the stairs, the stone and 
+wood rubble. Down below looks treacherous and you don't even want to know 
+what would happen if you fell down there. It's too dark to see anything of 
+the rest of the room!" 
+End             = Hole
+
+Name            = Door
+State           = 0
+MaxState        = 0 
+Size            = 1
+Location        = IN_ROOM:slott23
+Oflags          { NoGet } 
+Examine         =  "The door has not used in a long time." 
+End             = Door
+
+Name            = Shield
+Armor           = 25
+State           = 1
+MaxState        = 1 
+Size            = 5
+Location        = IN_ROOM:slott24
+Desc[1]         = "You almost oversaw a dusty Shield in the corner, haven't it been for the 
+light from the window you would never spotted it."
+desc[0]         = "A shield has been dropped here."
+Oflags          { Armor GetFlips wearable Shield } 
+Examine         =  "A metal shield, this would offer you some protection?" 
+End             = Shield
+
+
+Name            = Window2
+PName           = "Window" 
+State           = 0
+MaxState        = 0 
+Size            = 1
+Oflags { NoGet }
+Location        = IN_ROOM:slott24
+Examine         =  "
+This is huge, the window is facing the front yard. You see the stables, 
+and you see there is a way leading off to the east behind the stables." 
+End             = Window2
+
+Name            = Bathtub
+PName           = "Bathtub" 
+AltName         = "Tub" 
+State           = 0
+MaxState        = 0 
+Size            = 1
+Location        = IN_ROOM:slott25
+Oflags          { NoGet} 
+Examine         =  "Wow this is big, could easily get 4-5 persons down in it." 
+End             = Bathtub
+
+Name            = Hole3
+PName           = "Hole" 
+AltName         = "toalett" 
+State           = 0
+MaxState        = 0 
+Size            = 1
+Location        = IN_ROOM:slott25
+Oflags          { NoGet} 
+Examine         =  "&+WEEWWW&*, gross. This is used as a toalett, and no one as cleaned it in a while." 
+End             = Hole3
+
+Name            = Cupboards2
+PName           = "Cupboard" 
+State           = 1
+MaxState        = 1 
+Size            = 50
+Location        = IN_ROOM:slott26
+Desc[0]         = "The cupboard has been opened."
+Desc[1]         = "The cupboard is closed."
+Oflags          { Openable NoGet Container } 
+Examine         =  "A small cupboard stand beside the bed." 
+End             = Cupboards2
+
+Name            = Closet
+State           = 1
+MaxState        = 1 
+Size            = 50
+Location        = IN_ROOM:slott26
+Desc[0]         = "The closet has been opened."
+Desc[1]         = "The closet is closed."
+Oflags          { Openable NoGet Container } 
+Examine         =  "A closet, not that big but still a closet." 
+End             = closet
+
+Name            = Diary
+PName           = "Diary" 
+State           = 0
+MaxState        = 0 
+Size            = 1
+Location        = IN_CONTAINER:Cupboards2
+Desc[0]         = "Someone has misplaced their diary here."
+Oflags          { } 
+Examine         =  "This is the diary of the butler Manfred.
+    The page you have look up is about what happened a dark night
+    for many years ago. The night when the castle was over taken
+    by the evil creature that you now is searching for.
+    The butler has written down the following:
+    'It was a dark and stormy autumn night when we first heard 
+    an awful scream, it was the &+Rmrs&* of the house that had 
+    Encountered the creature in the library. When I got there 
+    she was gone. Then later that night the &+Rson&* and the 
+    &+Rdoughter&* disappeared, now one has ever seen them again. 
+    But every night when there is a fullmoon, the screams of the
+    missing family members are heard echoing through the castle. 
+    I have hidden my &+Rmaster&* in the northeast tower hoping 
+    that the creature will not find him there. I don't know why
+    the creature haven't taken me, couse I know it could have,
+    I woke up one night and saw it standing in the doorway to 
+    my room but it backed away from me when I stood up and was to
+    jump it. I thought I could capture it and lock it inside the
+    closet. &+YBut it ran away, as if I would SMELL bad or something&*.
+    OH god if I was 30 years younger, I would have gone down into
+    the basement to kill this horrible monster, but ack I'm to old
+    and weakened to wield a sword nore less to hit with it. I'm 
+    glad that I had the strength to destroy the stairs down to 
+    the basement, preventing IT from coming up here again. Now 
+    there is only &+Cone&* way left down there, but that way only 
+    leads down &+bso the one who dares to go down might be stuck 
+    &+bthere for ever&*! The way down is a &+Csecret passage&* that my 
+    &+Rmaster&* only knows of and he won't reveal it to me, maybe 
+    he's afraid that I would do something stupid.'" 
+End             = Diary
+
+Name            = Bed
+PName           = "Bed" 
+State           = 0
+MaxState        = 0 
+Size            = 1
+Location        = IN_ROOM:slott30
+Oflags          { NoGet } 
+Examine         =  "The largest oak bed you ever seen, looks really comfortable." 
+End             = Bed
+
+
+Name            = Table3
+PName           = "Table" 
+State           = 0
+MaxState        = 0 
+Size            = 1
+Location        = IN_ROOM:slott30
+Oflags          { NoGet } 
+Examine         =  "You look at the table and notice that it has been used as a makeup table." 
+End             = table3
+
+Name            = Box
+PName           = "Box" 
+AltName         = "Jewlerybox" 
+State           = 1
+MaxState        = 1 
+Size            = 45
+Location        = IN_ROOM:slott30
+Desc[0]         = "The jewlery box has been opened."
+Desc[1]         = "There is a closed box on the table."
+Oflags          { Openable NoGet Container } 
+Examine         =  "A red box with &+ygold&* painted roses on it." 
+End             = Box
+
+Name            = Necklace
+PName           = "Necklace" 
+BValue          = 150
+State           = 0
+MaxState        = 0 
+Size            = 15
+Location        = IN_CONTAINER:Box
+Desc[0]         = "A diamond necklace lies here."
+Oflags          { Wearable  } 
+Examine         =  "
+The most beautiful peace of jewelry you ever have seen, and look at the size 
+of that diamond that sits in the middle of it! This must be worth a fortune." 
+End             = Necklace
+
+Name            = Ring
+PName           = "Ring" 
+BValue          = 500
+State           = 0
+MaxState        = 0 
+Size            = 15
+Location        = WORN_BY:HouseMaster
+Desc[0]         = "A diamond ring lies here."
+Oflags          { Wearable Lit SpellChance RegenMana } 
+Examine         =  "This ring glows of an magic power, you never seen before!" 
+End             = Ring
+
+
+Name            = Woodpiece
+PName           = "Woodpiece" 
+AltName         = "stick" 
+State           = 1
+MaxState        = 1 
+Size            = 5
+Location        = IN_ROOM:slott5
+Desc[0]         = "A burning piece of wood is here."
+Desc[1]         = "A piece of a wood door lies here."
+Oflags          { Lightable Extinguish GetFlips } 
+Examine         =  "Looks like a piece of a closet door." 
+End             = Woodpiece
+
+Name            = Carpet
+PName           = "Carpet" 
+State           = 0
+MaxState        = 0 
+Size            = 1
+Location        = IN_ROOM:slott32
+Oflags          { NoGet } 
+Examine         =  "
+You examine the pink carpet and finds some blood traces in one of the corner 
+of the room, this must have been where the girl was when she was taken by 
+the creature." 
+End             = Carpet
+
+Name            = insidedoor5
+PName           = "door"
+Linked          = outsidedoor5
+State           = 2
+MaxState        = 2
+Location        = IN_ROOM:slott35
+oflags          { Openable NoGet Lockable }
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = insidedoor5
+
+Name            = outsidedoor5
+PName           = "door"
+Linked          = insidedoor5
+State           = 2
+MaxState        = 2
+Location        = IN_ROOM:slott36
+oflags          { Openable NoGet Lockable }
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = outsidedoor5
+
+Name            = Hole2
+PName           = "Hole" 
+State           = 0
+MaxState        = 0 
+Size            = 1
+Location        = IN_ROOM:slott41
+Oflags          { NoGet } 
+Examine         =  "
+As you look up in the hole you see what is left of the stairs, high above 
+your head two metal &+Brods&* are sticking out of the walls." 
+End             = Hole2
+
+Name            = Rods
+AltName         = "Rod" 
+Linked	= Rods2
+State           = 1
+MaxState        = 1 
+Size            = 1
+Location        = IN_ROOM:slott41
+Oflags          { NoGet }
+Desc[0] = "A rope is snagged on a metal rod, allowing you to climb up but just barely.
+Climbing back down however is too risky." 
+Examine         =  "
+Looks like it's should hold for a person to hang onto! Could be a good 
+place to fasten a rope or something! If you just could throw it up there, 
+you might just be able to climb up!!" 
+End             = Rods
+
+Name = Rods2
+Pname = rod
+Linked = Rods 
+State = 1
+Maxstate = 1
+Location = IN_ROOM:slott19
+Oflags { Noget }
+Desc[0] = "You see a rope hanging downward, but its just out of reach."
+End = Rods2
+
+Name            = Footlinks
+PName           = "Footlinks" 
+State           = 2
+MaxState        = 2 
+Size            = 50
+Location        = IN_ROOM:slott43
+Desc[0]         = "The footlinks have been opened."
+Desc[1]         = "The footlinks are unlocked."
+Desc[2]	    = "The footlinks are locked."
+Oflags          { Openable NoGet Lockable } 
+Examine         =  "A footlinks, the kind you chain people with." 
+End             = Footlinks
+
+Name            = insidedoor6
+PName           = "door"
+Linked          = outsidedoor6
+State           = 2
+MaxState        = 2
+Location        = IN_ROOM:slott44
+oflags          { Openable NoGet Lockable }
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = insidedoor6
+
+Name            = outsidedoor6
+PName           = "door"
+Linked          = insidedoor6
+State           = 2
+MaxState        = 2
+Location        = IN_ROOM:slott43
+oflags          { Openable NoGet Lockable }
+Desc[0]         = "The door is open."
+Desc[1]         = "The door is closed."
+Desc[2]         = "The door is locked."
+End             = outsidedoor6
+
+Name            = Books
+AltName         = "Book" 
+Bvalue          = 150
+State           = 0
+MaxState        = 0 
+Size            = 1
+Location        = IN_ROOM:slott45
+Oflags          { } 
+Examine         =  "You open the book to the first page and read:
+
+TELL ME, O MUSE, of that ingenious hero who traveled far and wide after he 
+had sacked the famous town of Troy. Many cities did he visit, and many were 
+the nations with whose manners and customs he was acquainted; moreover he 
+suffered much by sea while trying to save his own life and bring his men 
+safely home; but do what he might he could not save his men, for they 
+perished through their own sheer folly in eating the cattle of the Sun-god 
+Hyperion; so the god prevented them from ever reaching home. Tell me, too, 
+about all these things, O daughter of Jove, from what so ever source you 
+may know them.
+		    
+Hmm looks like the first book of Homer's Odyssey, wonder how that got here..." 
+End             = Books
+
+Name            = Bag
+State           = 1
+MaxState        = 1 
+Size            = 30
+Location        = IN_ROOM:slott49
+Desc[0]         = "A bag has been dropped here ."
+Desc[1]         = "Something is sticking out of the manure!"
+Oflags          { GetFlips Container} 
+Examine         =  "A bag, nice to store stuff in." 
+End             = Bag
+
+%locations
+
+slott1 n:^outsidedoor s:EscPath@eastcoast d:EscPath@eastcoast e:slott2;
+lflags {outdoors}
+The Yard^
+   You are standing in a large yard surrounded by high fences. To the &+Cnorth&* 
+you see the entry to a castle, and to the &+Ceast&* you see a small stable.  The
+murky swampland can be seen below.
+^
+slott2 w:slott1;
+lflags {}
+The Stable^
+   You find yourself in an old stable; there are no horses in here.  But the 
+floors are newly cleaned and the air vibrates with the smell of horses, so 
+it seems like it is in full use. 
+^
+slott3 w:slott5 e:slott4 s:^insidedoor u:slott24;
+lflags {}
+In the hall^
+   You stand in the hall of the castle. It is furnished with a small table 
+and chairs. On the floor there lies a thick carpet. The ceilings were painted 
+white a long time ago, but have turned yellow with age. There are grand stairs 
+leading &+Cup&*, and doorways to the &+Cwest&* and &+Ceast&*
+^
+slott4 w:slott3;
+lflags {}
+The closet^
+   This is apparently where the guests' rocks and hats were hung when they 
+arrived to the castle. There are several &+Bshelves&* and &+Bhooks&* in here.
+^
+slott5 n:slott11 e:slott3 w:^insideDoor2;
+lflags {}
+Ballroom^
+   You have entered a huge ballroom with crystal chandeliers and small oak 
+&+Btables&*. Chairs are placed at the sides leaving the floor in the middle open 
+for dancing. There are several paintings on the walls, one of which especially 
+draws your attention. It pretends a young man battling against a big man 
+with a blurred face only with his hands...as you look closer you see that 
+he's got a big &+wwhite&* union between his teeth! Wonder why?
+^
+slott6 u:slott28 n:^outsidedoor3;
+lflags { dark }
+Southeast tower^
+   You find yourself in a round room, as you look around you can see by the 
+dust and dirt that this room hasn't been in use for a long time. This is one 
+of the corner towers of the castle. Spiral stairs head &+Cup&*.
+^
+slott7 u:slott27 e:^outsidedoor2;
+lflags { }
+Southwest tower^
+   You find yourself on the bottom floor of an tower. This is one of the 
+corner towers of the castle. Spiral stairs head &+Cup&*.
+^
+slott8  w:slott9 s:^insidedoor3;
+lflags { }
+Storage room^
+   You are standing in a small room that once was used as a storage room, 
+but now there is only rubbage left. You can't see anything that could be 
+useful to you.
+^
+slott9 n:slott16 e:slott8;
+lflags { }
+Servant quarters^
+   This is a rather large room with beds, shelves and cupboards. This is 
+where the servants spend their time when they are off duty, now there 
+hasn't been anyone in here for a long time. Dust covers everything and 
+the beds don't look especially inviting.
+^
+slott10 n:slott15 d:^bench_button; 
+lflags { dark }
+Family Sanctuary^
+    You have entered the sacred temple of the castle. Here the family of the 
+house say their prayers. Now it hasn't been used for a long time and dust 
+covers everything! But you can still see the &+Bkrusefix&* on the wall, and 
+the paintings pretending the almighty God and his son Jesus. There are also 
+some church &+Bbenches&* here.
+^
+
+slott11 n:slott14 w:slott12 s:slott5;
+lflags { }
+The kitchen^
+    The kitchen is large, large enough for several cooks to work here at the 
+same time. There is a big &+Bstove&* placed in the middle of the room, the 
+walls are filled with &+Bcupboards&* and &+Bdrawers&*. You notice that this 
+room has been used recently, there is no dust or filth anywhere.
+^
+slott12 n:slott13 e:slott11;
+lflags { }
+Hallway^
+    This is a hallway that reaches from south to the north. The eastern walls 
+are filled with &+Bportraits&* and on the western walls there are &+Bwindows&*. 
+The hallway continues to the &+Cnorth&*.
+^
+slott13 n:slott19 e:slott14 s:slott12;
+lflags { }
+Hallway^
+    This is a hallway that reaches from north to the south.  The walls in 
+this room are clean, but you can see that there had been paintings hanging 
+here.  Wonder where they are now?  The hallway continues to the &+Csouth&*.
+^
+slott14 n:slott20 w:slott13 s:slott11;
+lflags {  }
+Dinner Room^
+    This is where the family of the house eats their dinner. The room is big 
+and in the middle there is a large &+Btable&* with six chairs around it.  
+Along the walls there are a few cupboards and benches. The air smells of food, 
+and your stomach starts to rumble.
+^
+slott15 n:slott21 e:slott16 s:^insidedoor4;
+lflags { Peaceful}
+Library^
+    This is a large library with bookcases full of books.  There are small 
+tables and chairs placed out tastefully so people should be able to sit and 
+read in peace. On the western wall there is a large fireplace.
+^
+slott16 e:slott17 w:slott15 s:slott9;
+lflags { }
+Innerhall^
+    This hall seperates the servants' area from the rest of the house. There 
+are some small chairs and smaller tables here, this must been where the 
+servants where sitting when they where on duty but didn't had anything to do 
+for the moment.
+^
+slott17 e:slott18 w:slott16;
+lflags { }
+Backhall^
+    This is the servants' entrance to the castle, this room is Spartan 
+furnished with small benches and hooks on the walls to hang up their outdoor 
+clothes. The door in the eastern wall has been forced of it's hinges and 
+lies outside on the stairs, looking out through the hole where the door's 
+used to be you see a backyard!
+^
+slott18 w:slott17 s:slott46;
+lflags {outdoors }
+Backyard^
+    The backyard is filled with garbage, piles of decomposed food, old 
+clothes, broken furniture, and a lot of stuff that you can't recognize. 
+The smell is awful and you wonder why nobody has cleaned this mess up.
+^
+slott19 u:slott39 s:slott13 d:slott50; 
+lflags { }
+Northwest Tower^
+    You entered a round tower like room, and the first you notice is a 
+&+Bhole&* in the floor, looks like the stairs down have caved in. But 
+the stairs leading &+Cup&* are still in good shape.
+^
+slott20 e:slott21 s:slott14;
+lflags { }
+Hallway^
+    A hallway, leading off to the &+Ceast&* and &+Csouth&*.
+^
+slott21 e:slott22 w:slott20 s:slott15;
+lflags { }
+Hallway^
+    The walls are covered with old paintings of a beautiful garden. They 
+are from different seasons; winter, summer, autumn but you can't find one 
+with a spring motive. You wonder why, isn't the spring one of the 
+prettiest seasons?
+^
+slott22;
+lflags { }
+Hallway^
+    The hallway ends abruptly, the ceiling has caved in blocking the doors 
+to the east. As you examine what's left of the ceiling you see some marks 
+as if someone has used a big sledgehammer on it. And you start to think that 
+the ceiling has been deliberately made to cave in, just as if someone wouldn't 
+let someone in or OUT.
+^
+slott23 u:slott35; 
+lflags { dark}
+Northeast tower^
+    You find yourself in a dark moist tower room. There is a &+Bdoor&* in the 
+western wall. Everything in here is covered with a thick layer of dust! And 
+the only thing in here besides the door is stairs leading &+Cup&*.
+^
+slott24 n:slott31 e:slott26 w:slott25 d:slott3;
+lflags {}
+Upperhall^
+    As you enter this room the first thing you notice is the big &+Bwindow&* 
+in the southern wall.  This used to be a peaceful room but someone tore the 
+furniture apart and left them on the floor. 
+^
+slott25 n:slott30 e:slott24;
+lflags {}
+Bathroom^
+    This is the castle bathroom, filled with the usual stuff you need for 
+personal hygiene...soap, toothpaste, etc. and of course a bucket of water. 
+There is a large &+Bbathtub&* at the southern wall and a strange &+Bhole&* in the 
+floor at the west wall.
+^
+slott26 e:slott28 w:slott24;
+lflags {}
+Manfreds bedroom^
+    This is a small bedroom, there is a small bed, a &+Bcupboard&*, and a small 
+&+Bcloset&* in here. This is the bedroom of the butler; he must really be doing 
+his job well to have his own room.
+^
+slott27 d:slott7 n:slott29;
+lflags {}
+SW tower^
+    You have entered the southwest tower. There is not much to see in here 
+except the stairs leading &+Cdown&* and the doorway to the &+Cnorth&*.
+^
+slott28 d:slott6 w:slott26 n:slott33;
+lflags {outdoor }
+SE tower^
+    This is the southeast tower...or what's left of it. The eastern wall and 
+parts of the roof are gone; it had been struck by lightning and crumbled to 
+the ground. As you look out where the wall once stood, you see a small garden 
+path under the mess that the stones and wood from the tower has created.
+^
+slott29 n:slott39 e:slott30 s:slott27;
+lflags {}
+Crossway^
+    This is a small corridor leading to the &+Cnorth, &+Csouth&* and to the &+Ceast&*.
+^
+slott30 n:slott38 w:slott29 s:slott25;
+lflags {}
+Mrs's bedroom^
+    This was once a beautiful bedroom with a big comfortable &+Bbed&* and a 
+small &+Btable&* at the eastern wall. There are some closets in here but 
+they have been raided by someone...someone that didn't care much of doors 
+apparently, course a few of them have been torn apart or the doors have been 
+smashed to tiny pieces!
+^
+slott31 n:slott37 s:slott24;
+lflags {}
+The Son's bedroom^
+   This used to be the Son's bedroom; now there is not much left in here. 
+There is a small bed and some closets but other than that it has been cleaned 
+out for some reason. There would have been toys and things like that but there 
+is not a trace of them.
+^
+slott32 n:slott36 e:slott33;
+lflags { }
+Daughter's bedroom^
+    You have entered a typical teenaged girls room, most things in here 
+are pink, such as the blanket on the bed, the drapes on the walls and even the 
+thick &+Bcarpet&* that lies on the floor.
+^
+slott33 n:slott34 s:slott28 w:slott32;
+lflags {}
+Hallway^
+    This hallway is dark and dim, in a strange way. Course it should be more 
+enlightened--the whole eastern wall is full with windows and the sun is shining 
+on the western wall. It looks like the wall soaks in all the light that hits it.
+^
+slott34 w:slott36 s:slott33;
+lflag {dark}
+Hallway^
+    This room is pitch black. The only vague light is coming from the &+Cwest&* 
+and &+Csouth&*.
+^
+slott35 s:^insidedoor5 d:slott23;
+lflags { Peaceful Soundproof}
+The masters hideout^
+    This room is comfortably furnished with a small bed, a table and some 
+chairs. It almost looks like a prison cell, just more comfortable. This is 
+the room that the butler has prepared for his master, and a good job it is. 
+This is the kind of room you would like to have if you were locked away for 
+a long time.
+^
+slott36 n:^outsidedoor5 w:slott37 e:slott34 s:slott32;
+lflags {}
+End of corridor^
+    This is one end of a corridor; there are doorways in all directions. This 
+must be the cleanest room in the castle, not as much as a trace of dust and 
+dirt is to be found anywhere. Even the ceiling looks like it have been cleaned 
+recently!
+^
+slott37 e:slott36 w:slott38 s:slott31;
+lflags {}
+Corridor^
+    This is a corridor that runs at the north side of the castle, connecting 
+the different bedrooms to gather. The corridor continues to the &+Cwest&* and 
+the &+Ceast&*.
+^
+slott38 e:slott37 s:slott30;
+lflags {}
+End of corridor^
+    This is one end of an corridor leading to the &+Ceast&*. The walls are clean, 
+not even a painting or a drape hangs here.
+^
+slott39 s:slott29 d:slott19;
+lflags {}
+NW tower^
+    This is the northwest tower, the only thing in here accept the dust is a 
+stair leading &+Cdown&*.
+^
+slott40 w:slott41 e:slott42 s:slott45;
+lflags { dark }
+Basement^
+    The room is cold and dim, the walls absorbs the light almost completely. 
+The air could have been better, but at least it's breathable!
+^
+slott41 u:^Rods e:slott40; 
+lflags { dark }
+Basement^
+    You find yourself standing in a small room. This room had been bigger but 
+now the west wall has collapsed and taken the stairs with it, the only trace 
+left of the stairs is that &+Bhole&* in the ceiling.
+^
+slott42 e:slott43 w:slott40;
+lflags { dark}
+Basement^
+    This is a small corridor leading to the &+Cwest&* and to the &+Ceast&*. The 
+air is so thick in here that you almost could cut it with your knife.
+^
+slott43 n:^outsidedoor6 w:slott42;
+lflags { dark}
+Here be evil...^
+    This room is even darker then the rest of the basement, and in the dim 
+light you see a large coffin standing against the northern wall. At the 
+eastern end of the room you see some &+Bfootlinks&* that are fastened to the 
+floor. The western wall is filled with paintings, many of them are of 
+landscapes painted in the spring.
+^
+slott44 s:^insidedoor6;
+lflags {}
+Coffin^
+    A coffin, bigger then the average coffin. But nonetheless just a wooden 
+coffin, the type you use to bury people in.
+^
+slott45 n:slott40;
+lflags {}
+Old storage room^
+    As you walk into this room, the first thing you notice are the big piles 
+of stuff that lie in here. Someone has used this room to store everything 
+in it. You see &+Bbooks&*, clothes, kitchen stuff like pots and pans, a sofa, 
+chairs, tables and a lot of plain garbage.
+^
+slott46 n:slott18 s:slott47;
+lflags {outdoors }
+Garden path^
+    This is a garden path leading off to the &+Csouth&* and &+Cnorth&*. The sides 
+of the path were once covered with flowers that were treated by loving and 
+tendering hands, but now they have grown wild and spread themselves all over 
+the lawn and into the grovel path.
+^
+slott47 n:slott46 s:slott48;
+lflags {outdoors}
+Garden path^
+    The garden path continues the &+Csouth&* and to the &+Cnorth&*. Here big rocks 
+and wood pieces fill the path, and as you look up at the castle tower you see 
+why. The tower had been struck by lightning and the whole eastern wall and a 
+pretty big part of the roof have fallen down to where you stand now.
+^
+slott48 n:slott47 w:slott49;
+lflags {outdoors}
+The path turns...^
+    Here the path does a turn around the tower.  And you smell something 
+resembling horse manure.
+^
+slott49 e:slott48;
+lflags {outdoors}
+Behind the stable^
+    EEWW what a smell! This is where they have shoveled out the horse manure 
+from the stable.  And it's not a pretty sight...
+^
+slott50;
+lflags {Death}
+&+RThe Hole...&*^
+	You jumped down into the hole but...
+
+<<<<<<< Splat! >>>>>>>
+
+Oh my! Looks like you have died! 
+^
+
