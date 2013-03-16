@@ -1,7 +1,7 @@
 {
    "obj" : {
       "tile_r1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -16,7 +16,7 @@
          "desc[0]" : "A scrabble tile marked R-1 lies here."
       },
       "tile_blank2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -31,7 +31,7 @@
          "desc[0]" : "A blank scrabble tile lies here."
       },
       "tile_n5@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -46,7 +46,7 @@
          "desc[0]" : "A scrabble tile marked N-1 lies here."
       },
       "tile_o2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -61,7 +61,7 @@
          "desc[0]" : "A scrabble tile marked O-1 lies here."
       },
       "tile_t2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -76,7 +76,7 @@
          "desc[0]" : "A scrabble tile marked T-1 lies here."
       },
       "obj2836@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -91,7 +91,7 @@
          "desc[0]" : "A jack of hearts lies here."
       },
       "obj2803@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -106,7 +106,7 @@
          "desc[0]" : "A three of spades lies here."
       },
       "obj2807@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -121,7 +121,7 @@
          "desc[0]" : "A seven of spades lies here."
       },
       "tile_m2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -136,7 +136,7 @@
          "desc[0]" : "A scrabble tile marked M-3 lies here."
       },
       "tile_g1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -151,7 +151,7 @@
          "desc[0]" : "A scrabble tile marked G-2 lies here."
       },
       "obj2848@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -166,7 +166,7 @@
          "desc[0]" : "A ten of diamonds lies here."
       },
       "tile_d4@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -181,7 +181,7 @@
          "desc[0]" : "A scrabble tile marked D-2 lies here."
       },
       "tile_e8@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -196,7 +196,7 @@
          "desc[0]" : "A scrabble tile marked E-1 lies here."
       },
       "tile_i9@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -211,7 +211,7 @@
          "desc[0]" : "A scrabble tile marked I-1 lies here."
       },
       "obj2842@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -226,7 +226,7 @@
          "desc[0]" : "A four of diamonds lies here."
       },
       "tile_q1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -241,7 +241,7 @@
          "desc[0]" : "A scrabble tile marked Q-10 lies here."
       },
       "obj2840@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -256,7 +256,7 @@
          "desc[0]" : "A deuce of diamonds lies here."
       },
       "obj2832@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -271,7 +271,7 @@
          "desc[0]" : "A seven of hearts lies here."
       },
       "obj2805@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -286,7 +286,7 @@
          "desc[0]" : "A five of spades lies here."
       },
       "tile_a2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -301,7 +301,7 @@
          "desc[0]" : "A scrabble tile marked A-1 lies here."
       },
       "obj2837@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -316,7 +316,7 @@
          "desc[0]" : "A queen of hearts lies here."
       },
       "tile_t4@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -331,7 +331,7 @@
          "desc[0]" : "A scrabble tile marked T-1 lies here."
       },
       "obj2831@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -346,7 +346,7 @@
          "desc[0]" : "A six of hearts lies here."
       },
       "obj2850@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -361,7 +361,7 @@
          "desc[0]" : "A queen of diamonds lies here."
       },
       "obj2825@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -376,7 +376,7 @@
          "desc[0]" : "A king of clubs lies here."
       },
       "tile_p2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -391,7 +391,7 @@
          "desc[0]" : "A scrabble tile marked P-3 lies here."
       },
       "tile_w2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -406,7 +406,7 @@
          "desc[0]" : "A scrabble tile marked W-4 lies here."
       },
       "tile_u2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -421,7 +421,7 @@
          "desc[0]" : "A scrabble tile marked U-1 lies here."
       },
       "tile_i6@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -436,7 +436,7 @@
          "desc[0]" : "A scrabble tile marked I-1 lies here."
       },
       "obj2843@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -451,7 +451,7 @@
          "desc[0]" : "A five of diamonds lies here."
       },
       "tile_s3@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -466,7 +466,7 @@
          "desc[0]" : "A scrabble tile marked S-1 lies here."
       },
       "obj2847@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -481,7 +481,7 @@
          "desc[0]" : "A nine of diamonds lies here."
       },
       "tile_h2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -496,7 +496,7 @@
          "desc[0]" : "A scrabble tile marked H-4 lies here."
       },
       "tile_l3@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -511,7 +511,7 @@
          "desc[0]" : "A scrabble tile marked L-1 lies here."
       },
       "obj2830@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -526,7 +526,7 @@
          "desc[0]" : "A five of hearts lies here."
       },
       "tile_a1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -541,7 +541,7 @@
          "desc[0]" : "A scrabble tile marked A-1 lies here."
       },
       "tile_c2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -556,7 +556,7 @@
          "desc[0]" : "A scrabble tile marked C-3 lies here."
       },
       "obj2833@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -571,7 +571,7 @@
          "desc[0]" : "An eight of hearts lies here."
       },
       "tile_x1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -586,7 +586,7 @@
          "desc[0]" : "A scrabble tile marked X-8 lies here."
       },
       "tile_n1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -601,7 +601,7 @@
          "desc[0]" : "A scrabble tile marked N-1 lies here."
       },
       "obj2806@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -616,7 +616,7 @@
          "desc[0]" : "A six of spades lies here."
       },
       "tile_r5@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -631,7 +631,7 @@
          "desc[0]" : "A scrabble tile marked R-1 lies here."
       },
       "tile_e11@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -646,7 +646,7 @@
          "desc[0]" : "A scrabble tile marked E-1 lies here."
       },
       "tile_i2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -661,7 +661,7 @@
          "desc[0]" : "A scrabble tile marked I-1 lies here."
       },
       "tile_a8@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -676,7 +676,7 @@
          "desc[0]" : "A scrabble tile marked A-1 lies here."
       },
       "tile_n6@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -691,7 +691,7 @@
          "desc[0]" : "A scrabble tile marked N-1 lies here."
       },
       "tile_e1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -706,7 +706,7 @@
          "desc[0]" : "A scrabble tile marked E-1 lies here."
       },
       "tile_blank1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -721,7 +721,7 @@
          "desc[0]" : "A blank scrabble tile lies here."
       },
       "tile_y2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -736,7 +736,7 @@
          "desc[0]" : "A scrabble tile marked Y-4 lies here."
       },
       "obj2824@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -751,7 +751,7 @@
          "desc[0]" : "A queen of clubs lies here."
       },
       "tile_z1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -766,7 +766,7 @@
          "desc[0]" : "A scrabble tile marked Z-10 lies here."
       },
       "obj2845@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -781,7 +781,7 @@
          "desc[0]" : "A seven of diamonds lies here."
       },
       "tile_r6@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -796,7 +796,7 @@
          "desc[0]" : "A scrabble tile marked R-1 lies here."
       },
       "tile_i7@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -811,7 +811,7 @@
          "desc[0]" : "A scrabble tile marked I-1 lies here."
       },
       "obj2823@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -826,7 +826,7 @@
          "desc[0]" : "A jack of clubs lies here."
       },
       "obj2821@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -841,7 +841,7 @@
          "desc[0]" : "A nine of clubs lies here."
       },
       "obj2817@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -856,7 +856,7 @@
          "desc[0]" : "A five of clubs lies here."
       },
       "obj2816@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -871,7 +871,7 @@
          "desc[0]" : "A four of clubs lies here."
       },
       "obj2828@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -886,7 +886,7 @@
          "desc[0]" : "A three of hearts lies here."
       },
       "tile_v2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -901,7 +901,7 @@
          "desc[0]" : "A scrabble tile marked V-4 lies here."
       },
       "tile_o3@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -916,7 +916,7 @@
          "desc[0]" : "A scrabble tile marked O-1 lies here."
       },
       "tile_u1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -931,7 +931,7 @@
          "desc[0]" : "A scrabble tile marked U-1 lies here."
       },
       "tile_e12@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -946,7 +946,7 @@
          "desc[0]" : "A scrabble tile marked E-1 lies here."
       },
       "tile_f2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -961,7 +961,7 @@
          "desc[0]" : "A scrabble tile marked F-4 lies here."
       },
       "obj2813@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -976,7 +976,7 @@
          "desc[0]" : "An ace of clubs lies here."
       },
       "tile_u3@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -991,7 +991,7 @@
          "desc[0]" : "A scrabble tile marked U-1 lies here."
       },
       "tile_r4@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1006,7 +1006,7 @@
          "desc[0]" : "A scrabble tile marked R-1 lies here."
       },
       "obj2811@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1021,7 +1021,7 @@
          "desc[0]" : "A queen of spades lies here."
       },
       "tile_h1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1036,7 +1036,7 @@
          "desc[0]" : "A scrabble tile marked H-4 lies here."
       },
       "tile_n4@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1051,7 +1051,7 @@
          "desc[0]" : "A scrabble tile marked N-1 lies here."
       },
       "obj2820@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1066,7 +1066,7 @@
          "desc[0]" : "An eight of clubs lies here."
       },
       "tile_a7@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1081,7 +1081,7 @@
          "desc[0]" : "A scrabble tile marked A-1 lies here."
       },
       "tile_e9@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1096,7 +1096,7 @@
          "desc[0]" : "A scrabble tile marked E-1 lies here."
       },
       "tile_d1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1111,7 +1111,7 @@
          "desc[0]" : "A scrabble tile marked D-2 lies here."
       },
       "tile_b2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1126,7 +1126,7 @@
          "desc[0]" : "A scrabble tile marked B-3 lies here."
       },
       "obj2822@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1141,7 +1141,7 @@
          "desc[0]" : "A ten of clubs lies here."
       },
       "shuffler2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Noget"
          ],
@@ -1155,7 +1155,7 @@
          "desc[0]" : "A button reading &+MSHUFFLE LETTERS&+w is fixed on the wall."
       },
       "obj2835@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1170,7 +1170,7 @@
          "desc[0]" : "A ten of hearts lies here."
       },
       "tile_v1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1185,7 +1185,7 @@
          "desc[0]" : "A scrabble tile marked V-4 lies here."
       },
       "obj2846@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1200,7 +1200,7 @@
          "desc[0]" : "An eight of diamonds lies here."
       },
       "obj2804@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1215,7 +1215,7 @@
          "desc[0]" : "A four of spades lies here."
       },
       "obj2834@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1230,7 +1230,7 @@
          "desc[0]" : "A nine of hearts lies here."
       },
       "tile_i5@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1245,7 +1245,7 @@
          "desc[0]" : "A scrabble tile marked I-1 lies here."
       },
       "tile_d3@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1260,7 +1260,7 @@
          "desc[0]" : "A scrabble tile marked D-2 lies here."
       },
       "obj2854@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1275,7 +1275,7 @@
          "desc[0]" : "A joker lies here."
       },
       "obj2849@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1290,7 +1290,7 @@
          "desc[0]" : "A jack of diamonds lies here."
       },
       "tile_e2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1305,7 +1305,7 @@
          "desc[0]" : "A scrabble tile marked E-1 lies here."
       },
       "obj2839@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1320,7 +1320,7 @@
          "desc[0]" : "An ace of diamonds lies here."
       },
       "tile_n3@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1335,7 +1335,7 @@
          "desc[0]" : "A scrabble tile marked N-1 lies here."
       },
       "tile_o6@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1350,7 +1350,7 @@
          "desc[0]" : "A scrabble tile marked O-1 lies here."
       },
       "tile_u4@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1365,7 +1365,7 @@
          "desc[0]" : "A scrabble tile marked U-1 lies here."
       },
       "shuffler@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Noget"
          ],
@@ -1379,7 +1379,7 @@
          "desc[0]" : "A button reading &+MSHUFFLE CARDS&+w is fixed on the wall."
       },
       "tile_i1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1394,7 +1394,7 @@
          "desc[0]" : "A scrabble tile marked I-1 lies here."
       },
       "obj2827@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1409,7 +1409,7 @@
          "desc[0]" : "A deuce of hearts lies here."
       },
       "tile_r2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1424,7 +1424,7 @@
          "desc[0]" : "A scrabble tile marked R-1 lies here."
       },
       "tile_a6@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1439,7 +1439,7 @@
          "desc[0]" : "A scrabble tile marked A-1 lies here."
       },
       "tile_j1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1454,7 +1454,7 @@
          "desc[0]" : "A scrabble tile marked J-8 lies here."
       },
       "tile_y1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1469,7 +1469,7 @@
          "desc[0]" : "A scrabble tile marked Y-4 lies here."
       },
       "tile_a9@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1484,7 +1484,7 @@
          "desc[0]" : "A scrabble tile marked A-1 lies here."
       },
       "obj2808@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1499,7 +1499,7 @@
          "desc[0]" : "An eight of spades lies here."
       },
       "tile_o1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1514,7 +1514,7 @@
          "desc[0]" : "A scrabble tile marked O-1 lies here."
       },
       "tile_f1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1529,7 +1529,7 @@
          "desc[0]" : "A scrabble tile marked F-4 lies here."
       },
       "tile_i8@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1544,7 +1544,7 @@
          "desc[0]" : "A scrabble tile marked I-1 lies here."
       },
       "tile_l4@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1559,7 +1559,7 @@
          "desc[0]" : "A scrabble tile marked L-1 lies here."
       },
       "obj2814@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1574,7 +1574,7 @@
          "desc[0]" : "A deuce of clubs lies here."
       },
       "tile_g3@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1589,7 +1589,7 @@
          "desc[0]" : "A scrabble tile marked G-2 lies here."
       },
       "tile_i3@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1604,7 +1604,7 @@
          "desc[0]" : "A scrabble tile marked I-1 lies here."
       },
       "tile_s4@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1619,7 +1619,7 @@
          "desc[0]" : "A scrabble tile marked S-1 lies here."
       },
       "tile_a4@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1634,7 +1634,7 @@
          "desc[0]" : "A scrabble tile marked A-1 lies here."
       },
       "tile_o8@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1649,7 +1649,7 @@
          "desc[0]" : "A scrabble tile marked O-1 lies here."
       },
       "obj2826@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1664,7 +1664,7 @@
          "desc[0]" : "An ace of hearts lies here."
       },
       "tile_o4@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1679,7 +1679,7 @@
          "desc[0]" : "A scrabble tile marked O-1 lies here."
       },
       "tile_e7@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1694,7 +1694,7 @@
          "desc[0]" : "A scrabble tile marked E-1 lies here."
       },
       "obj2801@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1709,7 +1709,7 @@
          "desc[0]" : "An ace of spades lies here."
       },
       "tile_a3@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1724,7 +1724,7 @@
          "desc[0]" : "A scrabble tile marked A-1 lies here."
       },
       "tile_a5@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1739,7 +1739,7 @@
          "desc[0]" : "A scrabble tile marked A-1 lies here."
       },
       "tile_n2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1754,7 +1754,7 @@
          "desc[0]" : "A scrabble tile marked N-1 lies here."
       },
       "obj2818@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1769,7 +1769,7 @@
          "desc[0]" : "A six of clubs lies here."
       },
       "obj2838@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1784,7 +1784,7 @@
          "desc[0]" : "A king of hearts lies here."
       },
       "tile_d2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1799,7 +1799,7 @@
          "desc[0]" : "A scrabble tile marked D-2 lies here."
       },
       "obj2802@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1814,7 +1814,7 @@
          "desc[0]" : "A deuce of spades lies here."
       },
       "obj2851@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1829,7 +1829,7 @@
          "desc[0]" : "A ten of spades lies here."
       },
       "tile_t1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1844,7 +1844,7 @@
          "desc[0]" : "A scrabble tile marked T-1 lies here."
       },
       "tile_s1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1859,7 +1859,7 @@
          "desc[0]" : "A scrabble tile marked S-1 lies here."
       },
       "tile_t5@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1874,7 +1874,7 @@
          "desc[0]" : "A scrabble tile marked T-1 lies here."
       },
       "tile_s2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1889,7 +1889,7 @@
          "desc[0]" : "A scrabble tile marked S-1 lies here."
       },
       "tile_w1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1904,7 +1904,7 @@
          "desc[0]" : "A scrabble tile marked W-4 lies here."
       },
       "obj2819@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1919,7 +1919,7 @@
          "desc[0]" : "A seven of clubs lies here."
       },
       "obj2841@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1934,7 +1934,7 @@
          "desc[0]" : "A three of diamonds lies here."
       },
       "obj2844@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1949,7 +1949,7 @@
          "desc[0]" : "A six of diamonds lies here."
       },
       "obj2829@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1964,7 +1964,7 @@
          "desc[0]" : "A four of hearts lies here."
       },
       "tile_o5@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1979,7 +1979,7 @@
          "desc[0]" : "A scrabble tile marked O-1 lies here."
       },
       "tile_r3@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -1994,7 +1994,7 @@
          "desc[0]" : "A scrabble tile marked R-1 lies here."
       },
       "tile_e10@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2009,7 +2009,7 @@
          "desc[0]" : "A scrabble tile marked E-1 lies here."
       },
       "tile_t6@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2024,7 +2024,7 @@
          "desc[0]" : "A scrabble tile marked T-1 lies here."
       },
       "obj2809@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2039,7 +2039,7 @@
          "desc[0]" : "A nine of spades lies here."
       },
       "obj2810@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2054,7 +2054,7 @@
          "desc[0]" : "A jack of spades lies here."
       },
       "tile_k1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2069,7 +2069,7 @@
          "desc[0]" : "A scrabble tile marked K-1 lies here."
       },
       "tile_l1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2084,7 +2084,7 @@
          "desc[0]" : "A scrabble tile marked L-1 lies here."
       },
       "tile_m1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2099,7 +2099,7 @@
          "desc[0]" : "A scrabble tile marked M-3 lies here."
       },
       "tile_e5@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2114,7 +2114,7 @@
          "desc[0]" : "A scrabble tile marked E-1 lies here."
       },
       "obj2852@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2129,7 +2129,7 @@
          "desc[0]" : "A king of diamonds lies here."
       },
       "tile_b1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2144,7 +2144,7 @@
          "desc[0]" : "A scrabble tile marked B-3 lies here."
       },
       "tile_e4@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2159,7 +2159,7 @@
          "desc[0]" : "A scrabble tile marked E-1 lies here."
       },
       "obj2815@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2174,7 +2174,7 @@
          "desc[0]" : "A three of clubs lies here."
       },
       "tile_l2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2189,7 +2189,7 @@
          "desc[0]" : "A scrabble tile marked L-1 lies here."
       },
       "tile_c1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2204,7 +2204,7 @@
          "desc[0]" : "A scrabble tile marked C-3 lies here."
       },
       "obj2853@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2219,7 +2219,7 @@
          "desc[0]" : "A joker lies here."
       },
       "tile_i4@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2234,7 +2234,7 @@
          "desc[0]" : "A scrabble tile marked I-1 lies here."
       },
       "obj2812@cards" : {
-         "location" : "IN_ROOM:cards1",
+         "location" : "IN_ROOM:cards1@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2249,7 +2249,7 @@
          "desc[0]" : "A king of spades lies here."
       },
       "tile_g2@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2264,7 +2264,7 @@
          "desc[0]" : "A scrabble tile marked G-2 lies here."
       },
       "tile_p1@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2279,7 +2279,7 @@
          "desc[0]" : "A scrabble tile marked P-3 lies here."
       },
       "tile_t3@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2294,7 +2294,7 @@
          "desc[0]" : "A scrabble tile marked T-1 lies here."
       },
       "tile_e6@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2309,7 +2309,7 @@
          "desc[0]" : "A scrabble tile marked E-1 lies here."
       },
       "tile_o7@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2324,7 +2324,7 @@
          "desc[0]" : "A scrabble tile marked O-1 lies here."
       },
       "tile_e3@cards" : {
-         "location" : "IN_ROOM:cards2",
+         "location" : "IN_ROOM:cards2@cards",
          "oflags" : [
             "Unlocatable"
          ],
@@ -2366,7 +2366,7 @@
    "mob" : {
       "host@cards" : {
          "damage" : "4",
-         "location" : "cards2",
+         "location" : "cards2@cards",
          "armor" : "0",
          "name" : "Host",
          "examine" : "\nThis gentlemen is dressed casually, in the fashion of what your neighbors \nwear whenever they have guests to play games.",
@@ -2380,7 +2380,7 @@
       },
       "dealer@cards" : {
          "damage" : "4",
-         "location" : "cards1",
+         "location" : "cards1@cards",
          "armor" : "0",
          "name" : "Dealer",
          "examine" : "He's what any dealer looks like, wearing a tux and a visor.",

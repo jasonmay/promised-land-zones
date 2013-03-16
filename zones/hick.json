@@ -2,7 +2,7 @@
    "obj" : {
       "houseoutdoor@hick" : {
          "desc[1]" : "The door leading outside is closed.",
-         "location" : "IN_ROOM:house1",
+         "location" : "IN_ROOM:house1@hick",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -16,7 +16,7 @@
       },
       "jeremy_knife@hick" : {
          "damage" : "4",
-         "location" : "IN_ROOM:house16",
+         "location" : "IN_ROOM:house16@hick",
          "oflags" : [
             "Weapon"
          ],
@@ -29,7 +29,7 @@
       },
       "pitchfork@hick" : {
          "damage" : "10",
-         "location" : "IN_ROOM:cattle4",
+         "location" : "IN_ROOM:cattle4@hick",
          "oflags" : [
             "Weapon"
          ],
@@ -41,7 +41,7 @@
          "desc[0]" : "A mean looking pitchfork has been placed here."
       },
       "boots@hick" : {
-         "location" : "IN_ROOM:cattle4",
+         "location" : "IN_ROOM:cattle4@hick",
          "armor" : "20",
          "oflags" : [
             "Wearable",
@@ -58,7 +58,7 @@
          ]
       },
       "sink@hick" : {
-         "location" : "IN_ROOM:house10",
+         "location" : "IN_ROOM:house10@hick",
          "oflags" : [
             "NoGet",
             "Container"
@@ -69,7 +69,7 @@
          "size" : "5"
       },
       "overalls@hick" : {
-         "location" : "IN_ROOM:cattle4",
+         "location" : "IN_ROOM:cattle4@hick",
          "armor" : "30",
          "oflags" : [
             "Armor",
@@ -89,7 +89,7 @@
       },
       "oven@hick" : {
          "desc[1]" : "The oven door is closed.",
-         "location" : "IN_ROOM:house10",
+         "location" : "IN_ROOM:house10@hick",
          "oflags" : [
             "Openable",
             "Container",
@@ -104,7 +104,7 @@
       },
       "turkey@hick" : {
          "desc[1]" : "A delicious looking turkey is in the oven.",
-         "location" : "IN_CONTAINER:oven",
+         "location" : "IN_CONTAINER:oven@hick",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -118,7 +118,7 @@
          "desc[0]" : "A delicious looking turkey has been left here."
       },
       "volume@hick" : {
-         "location" : "IN_ROOM:house19",
+         "location" : "IN_ROOM:house19@hick",
          "oflags" : [
             "Noget"
          ],
@@ -129,7 +129,7 @@
          "size" : "2"
       },
       "corn@hick" : {
-         "location" : "IN_ROOM:field13",
+         "location" : "IN_ROOM:field13@hick",
          "oflags" : [
             "Food"
          ],
@@ -141,7 +141,7 @@
          "desc[0]" : "An ear of corn is laying on the ground."
       },
       "tomato@hick" : {
-         "location" : "IN_ROOM:field15",
+         "location" : "IN_ROOM:field15@hick",
          "oflags" : [
             "Food"
          ],
@@ -154,7 +154,7 @@
       },
       "apple@hick" : {
          "desc[1]" : "A nice red apple is in the sink that looks very delicious.",
-         "location" : "IN_CONTAINER:sink",
+         "location" : "IN_CONTAINER:sink@hick",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -169,7 +169,7 @@
       },
       "houseindoor@hick" : {
          "desc[1]" : "The door leading inside is closed.",
-         "location" : "IN_ROOM:house2",
+         "location" : "IN_ROOM:house2@hick",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -185,8 +185,8 @@
    "loc" : {
       "hick7@hick" : {
          "exits" : {
-            "n" : "hick8",
-            "s" : "hick6"
+            "n" : "hick8@hick",
+            "s" : "hick6@hick"
          },
          "flags" : [
             "Outdoors"
@@ -199,10 +199,10 @@
       },
       "cattle2@hick" : {
          "exits" : {
-            "w" : "cattle5",
-            "e" : "cattle4",
-            "n" : "cattle3",
-            "s" : "cattle1"
+            "w" : "cattle5@hick",
+            "e" : "cattle4@hick",
+            "n" : "cattle3@hick",
+            "s" : "cattle1@hick"
          },
          "flags" : [
             "Outdoors"
@@ -215,10 +215,10 @@
       },
       "field15@hick" : {
          "exits" : {
-            "w" : "field16",
-            "e" : "field6",
-            "n" : "field8",
-            "s" : "field14"
+            "w" : "field16@hick",
+            "e" : "field6@hick",
+            "n" : "field8@hick",
+            "s" : "field14@hick"
          },
          "flags" : [
             "Outdoors"
@@ -231,11 +231,11 @@
       },
       "house9@hick" : {
          "exits" : {
-            "w" : "house11",
-            "e" : "house10",
-            "u" : "house13",
-            "n" : "house12",
-            "s" : "house8"
+            "w" : "house11@hick",
+            "e" : "house10@hick",
+            "u" : "house13@hick",
+            "n" : "house12@hick",
+            "s" : "house8@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -246,10 +246,10 @@
       },
       "cattle3@hick" : {
          "exits" : {
-            "w" : "cattle8",
-            "e" : "cattle7",
-            "n" : "cattle6",
-            "s" : "cattle2"
+            "w" : "cattle8@hick",
+            "e" : "cattle7@hick",
+            "n" : "cattle6@hick",
+            "s" : "cattle2@hick"
          },
          "flags" : [
             "Outdoors"
@@ -262,8 +262,8 @@
       },
       "house4@hick" : {
          "exits" : {
-            "w" : "house3",
-            "e" : "house5"
+            "w" : "house3@hick",
+            "e" : "house5@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -274,8 +274,8 @@
       },
       "hick9@hick" : {
          "exits" : {
-            "w" : "hick8",
-            "e" : "field1"
+            "w" : "hick8@hick",
+            "e" : "field1@hick"
          },
          "flags" : [
             "Outdoors"
@@ -288,8 +288,8 @@
       },
       "house2@hick" : {
          "exits" : {
-            "n" : "house3",
-            "s" : "^houseindoor"
+            "n" : "house3@hick",
+            "s" : "^houseindoor@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -300,10 +300,10 @@
       },
       "field16@hick" : {
          "exits" : {
-            "w" : "field11",
-            "e" : "field15",
-            "n" : "field9",
-            "s" : "field13"
+            "w" : "field11@hick",
+            "e" : "field15@hick",
+            "n" : "field9@hick",
+            "s" : "field13@hick"
          },
          "flags" : [
             "Outdoors"
@@ -316,8 +316,8 @@
       },
       "house14@hick" : {
          "exits" : {
-            "n" : "house13",
-            "s" : "house15"
+            "n" : "house13@hick",
+            "s" : "house15@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -328,7 +328,7 @@
       },
       "cattle8@hick" : {
          "exits" : {
-            "e" : "cattle3"
+            "e" : "cattle3@hick"
          },
          "flags" : [
             "Outdoors"
@@ -341,8 +341,8 @@
       },
       "house8@hick" : {
          "exits" : {
-            "n" : "house9",
-            "s" : "house3"
+            "n" : "house9@hick",
+            "s" : "house3@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -353,7 +353,7 @@
       },
       "house5@hick" : {
          "exits" : {
-            "w" : "house4"
+            "w" : "house4@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -364,7 +364,7 @@
       },
       "house20@hick" : {
          "exits" : {
-            "w" : "house18"
+            "w" : "house18@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -375,7 +375,7 @@
       },
       "house19@hick" : {
          "exits" : {
-            "e" : "house18"
+            "e" : "house18@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -386,7 +386,7 @@
       },
       "house10@hick" : {
          "exits" : {
-            "w" : "house9"
+            "w" : "house9@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -397,9 +397,9 @@
       },
       "hick2@hick" : {
          "exits" : {
-            "e" : "hick5",
-            "n" : "hick3",
-            "s" : "hick1"
+            "e" : "hick5@hick",
+            "n" : "hick3@hick",
+            "s" : "hick1@hick"
          },
          "flags" : [
             "Outdoors"
@@ -412,10 +412,10 @@
       },
       "house15@hick" : {
          "exits" : {
-            "w" : "house16",
-            "e" : "house17",
-            "n" : "house14",
-            "s" : "house18"
+            "w" : "house16@hick",
+            "e" : "house17@hick",
+            "n" : "house14@hick",
+            "s" : "house18@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -426,7 +426,7 @@
       },
       "house21@hick" : {
          "exits" : {
-            "n" : "house18"
+            "n" : "house18@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -437,7 +437,7 @@
       },
       "house16@hick" : {
          "exits" : {
-            "e" : "house15"
+            "e" : "house15@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -448,9 +448,9 @@
       },
       "hick4@hick" : {
          "exits" : {
-            "e" : "hick8",
-            "n" : "house1",
-            "s" : "hick3"
+            "e" : "hick8@hick",
+            "n" : "house1@hick",
+            "s" : "hick3@hick"
          },
          "flags" : [
             "Outdoors"
@@ -463,9 +463,9 @@
       },
       "field3@hick" : {
          "exits" : {
-            "e" : "field4",
-            "w" : "field2",
-            "n" : "field14"
+            "e" : "field4@hick",
+            "w" : "field2@hick",
+            "n" : "field14@hick"
          },
          "flags" : [
             "Outdoors"
@@ -478,10 +478,10 @@
       },
       "field13@hick" : {
          "exits" : {
-            "w" : "field12",
-            "e" : "field14",
-            "n" : "field16",
-            "s" : "field2"
+            "w" : "field12@hick",
+            "e" : "field14@hick",
+            "n" : "field16@hick",
+            "s" : "field2@hick"
          },
          "flags" : [
             "Outdoors"
@@ -494,9 +494,9 @@
       },
       "hick6@hick" : {
          "exits" : {
-            "e" : "hick9",
-            "w" : "hick5",
-            "n" : "hick7"
+            "e" : "hick9@hick",
+            "w" : "hick5@hick",
+            "n" : "hick7@hick"
          },
          "flags" : [
             "Outdoors"
@@ -509,7 +509,7 @@
       },
       "house11@hick" : {
          "exits" : {
-            "e" : "house9"
+            "e" : "house9@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -520,8 +520,8 @@
       },
       "hick1@hick" : {
          "exits" : {
-            "n" : "hick2",
-            "s" : "Track@village"
+            "n" : "hick2@hick",
+            "s" : "track@village"
          },
          "flags" : [
             "NoMobiles",
@@ -535,8 +535,8 @@
       },
       "house1@hick" : {
          "exits" : {
-            "n" : "^houseoutdoor",
-            "s" : "hick4"
+            "n" : "^houseoutdoor@hick",
+            "s" : "hick4@hick"
          },
          "flags" : [
             "Outdoors"
@@ -549,9 +549,9 @@
       },
       "field6@hick" : {
          "exits" : {
-            "w" : "field15",
-            "n" : "field7",
-            "s" : "field5"
+            "w" : "field15@hick",
+            "n" : "field7@hick",
+            "s" : "field5@hick"
          },
          "flags" : [
             "Outdoors"
@@ -564,8 +564,8 @@
       },
       "cattle6@hick" : {
          "exits" : {
-            "n" : "cattle9",
-            "s" : "cattle3"
+            "n" : "cattle9@hick",
+            "s" : "cattle3@hick"
          },
          "flags" : [
             "Outdoors",
@@ -579,7 +579,7 @@
       },
       "house17@hick" : {
          "exits" : {
-            "w" : "house15"
+            "w" : "house15@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -590,9 +590,9 @@
       },
       "field8@hick" : {
          "exits" : {
-            "e" : "field7",
-            "w" : "field9",
-            "s" : "field15"
+            "e" : "field7@hick",
+            "w" : "field9@hick",
+            "s" : "field15@hick"
          },
          "flags" : [
             "Outdoors"
@@ -605,8 +605,8 @@
       },
       "hick5@hick" : {
          "exits" : {
-            "e" : "hick6",
-            "w" : "hick2"
+            "e" : "hick6@hick",
+            "w" : "hick2@hick"
          },
          "flags" : [
             "Outdoors"
@@ -619,9 +619,9 @@
       },
       "field5@hick" : {
          "exits" : {
-            "w" : "field14",
-            "n" : "field6",
-            "s" : "field4"
+            "w" : "field14@hick",
+            "n" : "field6@hick",
+            "s" : "field4@hick"
          },
          "flags" : [
             "Outdoors"
@@ -634,8 +634,8 @@
       },
       "field7@hick" : {
          "exits" : {
-            "w" : "field8",
-            "s" : "field6"
+            "w" : "field8@hick",
+            "s" : "field6@hick"
          },
          "flags" : [
             "Outdoors"
@@ -648,9 +648,9 @@
       },
       "hick8@hick" : {
          "exits" : {
-            "w" : "hick4",
-            "n" : "cattle1",
-            "s" : "hick7"
+            "w" : "hick4@hick",
+            "n" : "cattle1@hick",
+            "s" : "hick7@hick"
          },
          "flags" : [
             "Outdoors"
@@ -663,9 +663,9 @@
       },
       "field1@hick" : {
          "exits" : {
-            "e" : "field2",
-            "w" : "hick9",
-            "n" : "field12"
+            "e" : "field2@hick",
+            "w" : "hick9@hick",
+            "n" : "field12@hick"
          },
          "flags" : [
             "Outdoors"
@@ -678,7 +678,7 @@
       },
       "house12@hick" : {
          "exits" : {
-            "s" : "house9"
+            "s" : "house9@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -689,8 +689,8 @@
       },
       "house6@hick" : {
          "exits" : {
-            "w" : "house7",
-            "e" : "house3"
+            "w" : "house7@hick",
+            "e" : "house3@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -701,9 +701,9 @@
       },
       "field11@hick" : {
          "exits" : {
-            "e" : "field16",
-            "n" : "field10",
-            "s" : "field12"
+            "e" : "field16@hick",
+            "n" : "field10@hick",
+            "s" : "field12@hick"
          },
          "flags" : [
             "Outdoors"
@@ -716,8 +716,8 @@
       },
       "cattle1@hick" : {
          "exits" : {
-            "n" : "cattle2",
-            "s" : "hick8"
+            "n" : "cattle2@hick",
+            "s" : "hick8@hick"
          },
          "flags" : [
             "Outdoors",
@@ -731,7 +731,7 @@
       },
       "cattle5@hick" : {
          "exits" : {
-            "e" : "cattle2"
+            "e" : "cattle2@hick"
          },
          "flags" : [
             "Outdoors"
@@ -744,10 +744,10 @@
       },
       "field14@hick" : {
          "exits" : {
-            "w" : "field13",
-            "e" : "field5",
-            "n" : "field15",
-            "s" : "field3"
+            "w" : "field13@hick",
+            "e" : "field5@hick",
+            "n" : "field15@hick",
+            "s" : "field3@hick"
          },
          "flags" : [
             "Outdoors"
@@ -760,8 +760,8 @@
       },
       "hick3@hick" : {
          "exits" : {
-            "n" : "hick4",
-            "s" : "hick2"
+            "n" : "hick4@hick",
+            "s" : "hick2@hick"
          },
          "flags" : [
             "Outdoors"
@@ -774,7 +774,7 @@
       },
       "cattle7@hick" : {
          "exits" : {
-            "w" : "cattle3"
+            "w" : "cattle3@hick"
          },
          "flags" : [
             "Outdoors"
@@ -787,10 +787,10 @@
       },
       "house18@hick" : {
          "exits" : {
-            "w" : "house19",
-            "e" : "house20",
-            "n" : "house15",
-            "s" : "house21"
+            "w" : "house19@hick",
+            "e" : "house20@hick",
+            "n" : "house15@hick",
+            "s" : "house21@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -801,8 +801,8 @@
       },
       "house13@hick" : {
          "exits" : {
-            "d" : "house9",
-            "s" : "house14"
+            "d" : "house9@hick",
+            "s" : "house14@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -813,10 +813,10 @@
       },
       "house3@hick" : {
          "exits" : {
-            "w" : "house6",
-            "e" : "house4",
-            "n" : "house8",
-            "s" : "house2"
+            "w" : "house6@hick",
+            "e" : "house4@hick",
+            "n" : "house8@hick",
+            "s" : "house2@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -827,7 +827,7 @@
       },
       "house7@hick" : {
          "exits" : {
-            "e" : "house6"
+            "e" : "house6@hick"
          },
          "flags" : [],
          "zone" : "hick",
@@ -838,7 +838,7 @@
       },
       "cattle9@hick" : {
          "exits" : {
-            "s" : "cattle6"
+            "s" : "cattle6@hick"
          },
          "flags" : [
             "Outdoors"
@@ -851,8 +851,8 @@
       },
       "field10@hick" : {
          "exits" : {
-            "e" : "field9",
-            "s" : "field11"
+            "e" : "field9@hick",
+            "s" : "field11@hick"
          },
          "flags" : [
             "Outdoors"
@@ -865,8 +865,8 @@
       },
       "field4@hick" : {
          "exits" : {
-            "w" : "field3",
-            "n" : "field5"
+            "w" : "field3@hick",
+            "n" : "field5@hick"
          },
          "flags" : [
             "Outdoors"
@@ -879,9 +879,9 @@
       },
       "field2@hick" : {
          "exits" : {
-            "e" : "field3",
-            "w" : "field1",
-            "n" : "field13"
+            "e" : "field3@hick",
+            "w" : "field1@hick",
+            "n" : "field13@hick"
          },
          "flags" : [
             "Outdoors"
@@ -894,9 +894,9 @@
       },
       "field9@hick" : {
          "exits" : {
-            "e" : "field8",
-            "w" : "field10",
-            "s" : "field16"
+            "e" : "field8@hick",
+            "w" : "field10@hick",
+            "s" : "field16@hick"
          },
          "flags" : [
             "Outdoors"
@@ -909,9 +909,9 @@
       },
       "field12@hick" : {
          "exits" : {
-            "e" : "field13",
-            "n" : "field11",
-            "s" : "field1"
+            "e" : "field13@hick",
+            "n" : "field11@hick",
+            "s" : "field1@hick"
          },
          "flags" : [
             "Outdoors"
@@ -924,7 +924,7 @@
       },
       "cattle4@hick" : {
          "exits" : {
-            "w" : "cattle2"
+            "w" : "cattle2@hick"
          },
          "flags" : [
             "Outdoors"
@@ -939,7 +939,7 @@
    "mob" : {
       "mother@hick" : {
          "damage" : "9",
-         "location" : "house10",
+         "location" : "house10@hick",
          "sflag" : [
             "Female"
          ],
@@ -956,7 +956,7 @@
       },
       "worker@hick" : {
          "damage" : "9",
-         "location" : "field15",
+         "location" : "field15@hick",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -967,7 +967,7 @@
       },
       "firstpig@hick" : {
          "damage" : "9",
-         "location" : "cattle7",
+         "location" : "cattle7@hick",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -978,7 +978,7 @@
       },
       "horse@hick" : {
          "damage" : "10",
-         "location" : "cattle5",
+         "location" : "cattle5@hick",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -989,7 +989,7 @@
       },
       "grandma@hick" : {
          "damage" : "10",
-         "location" : "house15",
+         "location" : "house15@hick",
          "sflag" : [
             "Female"
          ],
@@ -1006,7 +1006,7 @@
       },
       "grandpa@hick" : {
          "damage" : "9",
-         "location" : "house1",
+         "location" : "house1@hick",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -1017,7 +1017,7 @@
       },
       "bull@hick" : {
          "damage" : "11",
-         "location" : "cattle9",
+         "location" : "cattle9@hick",
          "speed" : "0",
          "aggression" : "70",
          "armor" : "0",
@@ -1028,7 +1028,7 @@
       },
       "tom@hick" : {
          "damage" : "8",
-         "location" : "hick8",
+         "location" : "hick8@hick",
          "speed" : "5",
          "aggression" : "0",
          "armor" : "0",
@@ -1039,7 +1039,7 @@
       },
       "father@hick" : {
          "damage" : "9",
-         "location" : "house5",
+         "location" : "house5@hick",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -1050,7 +1050,7 @@
       },
       "cornworker@hick" : {
          "damage" : "9",
-         "location" : "field13",
+         "location" : "field13@hick",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -1061,7 +1061,7 @@
       },
       "secondpig@hick" : {
          "damage" : "9",
-         "location" : "cattle8",
+         "location" : "cattle8@hick",
          "sflag" : [
             "Female"
          ],
@@ -1075,7 +1075,7 @@
       },
       "wheatworker@hick" : {
          "damage" : "9",
-         "location" : "field14",
+         "location" : "field14@hick",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -1086,7 +1086,7 @@
       },
       "cow@hick" : {
          "damage" : "10",
-         "location" : "cattle4",
+         "location" : "cattle4@hick",
          "sflag" : [
             "Female"
          ],
@@ -1100,7 +1100,7 @@
       },
       "jeremy@hick" : {
          "damage" : "6",
-         "location" : "hick3",
+         "location" : "hick3@hick",
          "speed" : "5",
          "aggression" : "0",
          "armor" : "0",

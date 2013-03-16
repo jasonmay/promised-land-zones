@@ -2,7 +2,7 @@
    "obj" : {
       "shortsword@castle" : {
          "damage" : "10",
-         "location" : "IN_ROOM:Guard",
+         "location" : "IN_ROOM:guard@castle",
          "oflags" : [
             "Weapon"
          ],
@@ -16,7 +16,7 @@
       },
       "wall_stone@castle" : {
          "desc[1]" : "A stairway leading down here ends in a stone wall.",
-         "location" : "IN_ROOM:torture",
+         "location" : "IN_ROOM:torture@castle",
          "oflags" : [
             "NoGet"
          ],
@@ -28,7 +28,7 @@
          "desc[0]" : "There is a stairway leading down here."
       },
       "lever@castle" : {
-         "location" : "IN_ROOM:Port",
+         "location" : "IN_ROOM:port@castle",
          "oflags" : [
             "NoGet"
          ],
@@ -37,7 +37,7 @@
          "desc[0]" : "There is a large iron lever on the east wall."
       },
       "horseshoe@castle" : {
-         "location" : "IN_ROOM:Stables",
+         "location" : "IN_ROOM:stables@castle",
          "armor" : "3",
          "oflags" : [
             "Hitchance"
@@ -52,7 +52,7 @@
       },
       "port_inside@castle" : {
          "desc[1]" : "The heavy iron portcullis bars the way north.",
-         "location" : "IN_ROOM:Port",
+         "location" : "IN_ROOM:port@castle",
          "oflags" : [
             "NoGet"
          ],
@@ -66,7 +66,7 @@
       },
       "maiden@castle" : {
          "desc[1]" : "The iron maiden is closed.",
-         "location" : "IN_ROOM:Torture",
+         "location" : "IN_ROOM:torture@castle",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -79,7 +79,7 @@
       },
       "port_outside@castle" : {
          "desc[1]" : "A heavy iron portcullis bars the way south.",
-         "location" : "IN_ROOM:Walls",
+         "location" : "IN_ROOM:walls@castle",
          "oflags" : [
             "NoGet"
          ],
@@ -94,7 +94,7 @@
       "runesword@castle" : {
          "desc[1]" : "\nA huge sword stands upright before you, imbedded in the solid stone floor.",
          "damage" : "20",
-         "location" : "IN_ROOM:S_Hall",
+         "location" : "IN_ROOM:s_hall@castle",
          "oflags" : [
             "GetFlips",
             "Lit",
@@ -113,7 +113,7 @@
          "desc[0]" : "\nA huge sword has been left here, its black blade strangely pulsing with light."
       },
       "peppers@castle" : {
-         "location" : "IN_ROOM:Store",
+         "location" : "IN_ROOM:store@castle",
          "oflags" : [
             "Food"
          ],
@@ -127,7 +127,7 @@
       },
       "castle_throne@castle" : {
          "desc[1]" : "A huge gleaming throne is set against the south wall.",
-         "location" : "IN_ROOM:Chamber",
+         "location" : "IN_ROOM:chamber@castle",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -142,7 +142,7 @@
          "desc[0]" : "\nA huge gleaming throne is set against the south wall, beside a narrow escape\ntunnel.\n"
       },
       "torch@castle" : {
-         "location" : "IN_ROOM:S_Hall",
+         "location" : "IN_ROOM:s_hall@castle",
          "oflags" : [
             "NoGet"
          ],
@@ -154,7 +154,7 @@
       "plank@castle" : {
          "desc[1]" : "An old plank lies here.",
          "damage" : "6",
-         "location" : "IN_ROOM:Watch",
+         "location" : "IN_ROOM:watch@castle",
          "oflags" : [
             "Lightable",
             "Extinguish",
@@ -169,7 +169,7 @@
          "desc[0]" : "A burning plank has been left here."
       },
       "door_golem@castle" : {
-         "location" : "IN_ROOM:S_Hall",
+         "location" : "IN_ROOM:s_hall@castle",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -183,7 +183,7 @@
          "desc[0]" : "There is a small door open in the south wall."
       },
       "key@castle" : {
-         "location" : "IN_ROOM:Guard",
+         "location" : "IN_ROOM:guard@castle",
          "weight" : "1",
          "oflags" : [
             "Key"
@@ -195,7 +195,7 @@
       },
       "rock_wall@castle" : {
          "desc[1]" : "The passage seems to end in a brick wall to the south.",
-         "location" : "IN_ROOM:escape",
+         "location" : "IN_ROOM:escape@castle",
          "oflags" : [
             "PushToggle",
             "NoGet"
@@ -209,7 +209,7 @@
       },
       "dagger@castle" : {
          "damage" : "5",
-         "location" : "IN_ROOM:Guard",
+         "location" : "IN_ROOM:guard@castle",
          "oflags" : [
             "Weapon"
          ],
@@ -222,7 +222,7 @@
       },
       "in_maiden@castle" : {
          "desc[1]" : "The iron maiden's door is closed.",
-         "location" : "IN_ROOM:Maiden",
+         "location" : "IN_ROOM:maiden@castle",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -237,7 +237,7 @@
       },
       "escape_throne@castle" : {
          "desc[1]" : "The exit north is blocked by the back of a throne.",
-         "location" : "IN_ROOM:Escape",
+         "location" : "IN_ROOM:escape@castle",
          "oflags" : [
             "PushToggle",
             "NoGet"
@@ -255,8 +255,8 @@
    "loc" : {
       "escape@castle" : {
          "exits" : {
-            "n" : "^Escape_Throne",
-            "s" : "^rock_wall"
+            "n" : "^escape_throne@castle",
+            "s" : "^rock_wall@castle"
          },
          "flags" : [],
          "zone" : "castle",
@@ -267,7 +267,7 @@
       },
       "stables@castle" : {
          "exits" : {
-            "w" : "Court"
+            "w" : "court@castle"
          },
          "flags" : [],
          "zone" : "castle",
@@ -278,8 +278,8 @@
       },
       "port@castle" : {
          "exits" : {
-            "n" : "^Port_Inside",
-            "s" : "Court"
+            "n" : "^port_inside@castle",
+            "s" : "court@castle"
          },
          "flags" : [],
          "zone" : "castle",
@@ -290,8 +290,8 @@
       },
       "walls@castle" : {
          "exits" : {
-            "n" : "Path",
-            "s" : "^Port_Outside"
+            "n" : "path@castle",
+            "s" : "^port_outside@castle"
          },
          "flags" : [
             "Outdoors"
@@ -304,7 +304,7 @@
       },
       "tax@castle" : {
          "exits" : {
-            "e" : "O_Hall"
+            "e" : "o_hall@castle"
          },
          "flags" : [],
          "zone" : "castle",
@@ -315,7 +315,7 @@
       },
       "guard@castle" : {
          "exits" : {
-            "e" : "Court"
+            "e" : "court@castle"
          },
          "flags" : [],
          "zone" : "castle",
@@ -326,8 +326,8 @@
       },
       "watch@castle" : {
          "exits" : {
-            "e" : "Leap",
-            "d" : "Leap"
+            "e" : "leap@castle",
+            "d" : "leap@castle"
          },
          "flags" : [],
          "zone" : "castle",
@@ -338,9 +338,9 @@
       },
       "torture@castle" : {
          "exits" : {
-            "w" : "Chamber",
-            "e" : "^Maiden",
-            "s" : "^wall_stone"
+            "w" : "chamber@castle",
+            "e" : "^maiden@castle",
+            "s" : "^wall_stone@castle"
          },
          "flags" : [],
          "zone" : "castle",
@@ -351,8 +351,8 @@
       },
       "path@castle" : {
          "exits" : {
-            "n" : "Leap",
-            "s" : "Walls"
+            "n" : "leap@castle",
+            "s" : "walls@castle"
          },
          "flags" : [
             "Outdoors",
@@ -366,7 +366,7 @@
       },
       "maiden@castle" : {
          "exits" : {
-            "w" : "^In_Maiden"
+            "w" : "^in_maiden@castle"
          },
          "flags" : [
             "NoSummon",
@@ -380,7 +380,7 @@
       },
       "store@castle" : {
          "exits" : {
-            "u" : "Kitchens"
+            "u" : "kitchens@castle"
          },
          "flags" : [],
          "zone" : "castle",
@@ -391,10 +391,10 @@
       },
       "court@castle" : {
          "exits" : {
-            "w" : "Guard",
-            "e" : "Stables",
-            "n" : "Port",
-            "s" : "O_Hall"
+            "w" : "guard@castle",
+            "e" : "stables@castle",
+            "n" : "port@castle",
+            "s" : "o_hall@castle"
          },
          "flags" : [],
          "zone" : "castle",
@@ -405,10 +405,10 @@
       },
       "chamber@castle" : {
          "exits" : {
-            "w" : "Kitchens",
-            "e" : "Torture",
-            "n" : "Sanctum",
-            "s" : "^Castle_Throne"
+            "w" : "kitchens@castle",
+            "e" : "torture@castle",
+            "n" : "sanctum@castle",
+            "s" : "^castle_throne@castle"
          },
          "flags" : [],
          "zone" : "castle",
@@ -419,9 +419,9 @@
       },
       "leap@castle" : {
          "exits" : {
-            "w" : "Watch",
-            "n" : "Npath@Valley",
-            "s" : "Path"
+            "w" : "watch@castle",
+            "n" : "npath@valley",
+            "s" : "path@castle"
          },
          "flags" : [
             "Outdoors"
@@ -434,8 +434,8 @@
       },
       "kitchens@castle" : {
          "exits" : {
-            "e" : "Chamber",
-            "d" : "Store"
+            "e" : "chamber@castle",
+            "d" : "store@castle"
          },
          "flags" : [],
          "zone" : "castle",
@@ -446,10 +446,10 @@
       },
       "o_hall@castle" : {
          "exits" : {
-            "w" : "Tax",
-            "e" : "S_Hall",
-            "n" : "Court",
-            "s" : "Sanctum"
+            "w" : "tax@castle",
+            "e" : "s_hall@castle",
+            "n" : "court@castle",
+            "s" : "sanctum@castle"
          },
          "flags" : [],
          "zone" : "castle",
@@ -460,8 +460,8 @@
       },
       "s_hall@castle" : {
          "exits" : {
-            "w" : "O_Hall",
-            "s" : "^Door_Golem"
+            "w" : "o_hall@castle",
+            "s" : "^door_golem@castle"
          },
          "flags" : [],
          "zone" : "castle",
@@ -472,8 +472,8 @@
       },
       "sanctum@castle" : {
          "exits" : {
-            "n" : "O_Hall",
-            "s" : "Chamber"
+            "n" : "o_hall@castle",
+            "s" : "chamber@castle"
          },
          "flags" : [],
          "zone" : "castle",
@@ -486,7 +486,7 @@
    "mob" : {
       "mouse@castle" : {
          "damage" : "6",
-         "location" : "Store",
+         "location" : "store@castle",
          "aggression" : "5",
          "armor" : "0",
          "pname" : "The Mouse",
@@ -496,7 +496,7 @@
       },
       "golem@castle" : {
          "damage" : "10",
-         "location" : "S_Hall",
+         "location" : "s_hall@castle",
          "speed" : "0",
          "aggression" : "30",
          "armor" : "0",

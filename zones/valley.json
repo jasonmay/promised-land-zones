@@ -2,7 +2,7 @@
    "obj" : {
       "gates@valley" : {
          "desc[1]" : "The dwarven gates are closed.",
-         "location" : "IN_ROOM:citadel",
+         "location" : "IN_ROOM:citadel@valley",
          "oflags" : [
             "NoGet"
          ],
@@ -14,7 +14,7 @@
       },
       "ladder2elf@valley" : {
          "desc[1]" : "A rope leads up the tree.",
-         "location" : "IN_ROOM:ESide",
+         "location" : "IN_ROOM:eside@valley",
          "oflags" : [
             "NoGet"
          ],
@@ -29,7 +29,7 @@
       "branch@valley" : {
          "desc[1]" : "An old branch lies here.",
          "damage" : "3",
-         "location" : "IN_ROOM:bridge",
+         "location" : "IN_ROOM:bridge@valley",
          "oflags" : [
             "Lightable",
             "Extinguish",
@@ -46,7 +46,7 @@
          "desc[0]" : "A burning branch lies here."
       },
       "loaf@valley" : {
-         "location" : "IN_ROOM:hut",
+         "location" : "IN_ROOM:hut@valley",
          "oflags" : [
             "Destroyed",
             "Food"
@@ -60,7 +60,7 @@
          "desc[0]" : "A fairly stale, but edible loaf has been left here."
       },
       "pitcher@valley" : {
-         "location" : "IN_ROOM:spring",
+         "location" : "IN_ROOM:spring@valley",
          "weight" : "2",
          "name" : "pitcher",
          "examine" : "\nThe pitcher has been carved out of a single piece of rock, probably granite.",
@@ -70,7 +70,7 @@
       },
       "apple@valley" : {
          "desc[1]" : "A large apple hangs from a tree branch.",
-         "location" : "IN_ROOM:tforest",
+         "location" : "IN_ROOM:tforest@valley",
          "altname" : "food",
          "oflags" : [
             "Food",
@@ -87,7 +87,7 @@
       },
       "ropeeast@valley" : {
          "desc[1]" : "A rope hangs east across to the ledge.",
-         "location" : "IN_ROOM:Steps",
+         "location" : "IN_ROOM:steps@valley",
          "oflags" : [
             "Destroyed",
             "NoGet"
@@ -102,7 +102,7 @@
       },
       "knife@valley" : {
          "damage" : "5",
-         "location" : "IN_ROOM:citadel",
+         "location" : "IN_ROOM:citadel@valley",
          "oflags" : [
             "Weapon"
          ],
@@ -114,7 +114,7 @@
          "desc[0]" : "\nA short sharp knife has been left here, probably lobbed by some dwarf."
       },
       "pie@valley" : {
-         "location" : "IN_ROOM:hut",
+         "location" : "IN_ROOM:hut@valley",
          "oflags" : [
             "Destroyed",
             "Food"
@@ -128,7 +128,7 @@
          "desc[0]" : "A cold, but fairly fresh rabbit pie has been put here."
       },
       "lodestone@valley" : {
-         "location" : "IN_ROOM:RBank",
+         "location" : "IN_ROOM:rbank@valley",
          "oflags" : [
             "ShockSpell"
          ],
@@ -142,7 +142,7 @@
       },
       "rose@valley" : {
          "desc[1]" : "A beautiful rose grows amongst the trees.",
-         "location" : "IN_ROOM:eside",
+         "location" : "IN_ROOM:eside@valley",
          "oflags" : [
             "GetFlips",
             "Wearable"
@@ -165,11 +165,11 @@
    "loc" : {
       "rbank@valley" : {
          "exits" : {
-            "w" : "Fedge3",
-            "e" : "Hillock@eastcoast",
-            "n" : "Eside",
-            "d" : "Fedge3",
-            "s" : "Fedge5"
+            "w" : "fedge3@valley",
+            "e" : "hillock@eastcoast",
+            "n" : "eside@valley",
+            "d" : "fedge3@valley",
+            "s" : "fedge5@valley"
          },
          "flags" : [
             "Outdoors"
@@ -183,7 +183,7 @@
       "falls@valley" : {
          "exits" : {
             "w" : "trail4@aephir",
-            "e" : "Mpath",
+            "e" : "mpath@valley",
             "d" : "pool@frobozz",
             "s" : "batcave1@batcave"
          },
@@ -199,9 +199,9 @@
       },
       "beside@valley" : {
          "exits" : {
-            "w" : "Stream3",
-            "e" : "Send",
-            "s" : "Tforest2"
+            "w" : "stream3@valley",
+            "e" : "send@valley",
+            "s" : "tforest2@valley"
          },
          "flags" : [
             "Outdoors"
@@ -214,10 +214,10 @@
       },
       "evalley@valley" : {
          "exits" : {
-            "w" : "Wedge",
-            "e" : "Tforest4",
-            "n" : "Ftrack",
-            "s" : "Gap"
+            "w" : "wedge@valley",
+            "e" : "tforest4@valley",
+            "n" : "ftrack@valley",
+            "s" : "gap@valley"
          },
          "flags" : [
             "Outdoors"
@@ -230,10 +230,10 @@
       },
       "bridge@valley" : {
          "exits" : {
-            "w" : "Stream2",
-            "e" : "Sedge",
-            "n" : "Oak",
-            "s" : "Send"
+            "w" : "stream2@valley",
+            "e" : "sedge@valley",
+            "n" : "oak@valley",
+            "s" : "send@valley"
          },
          "flags" : [
             "Outdoors"
@@ -246,10 +246,10 @@
       },
       "npath@valley" : {
          "exits" : {
-            "u" : "Leap@Castle",
-            "n" : "Fedge5",
-            "d" : "Fedge5",
-            "s" : "Piper@Cave"
+            "u" : "leap@castle",
+            "n" : "fedge5@valley",
+            "d" : "fedge5@valley",
+            "s" : "piper@cave"
          },
          "flags" : [
             "Outdoors"
@@ -262,9 +262,9 @@
       },
       "rclearing@valley" : {
          "exits" : {
-            "w" : "Crest@EForest",
-            "e" : "Tforest2",
-            "n" : "Stream3"
+            "w" : "crest@eforest",
+            "e" : "tforest2@valley",
+            "n" : "stream3@valley"
          },
          "flags" : [
             "Outdoors"
@@ -277,9 +277,9 @@
       },
       "nwcorner@valley" : {
          "exits" : {
-            "w" : "Passage@EForest",
-            "e" : "Northernend",
-            "s" : "Stream1"
+            "w" : "passage@eforest",
+            "e" : "northernend@valley",
+            "s" : "stream1@valley"
          },
          "flags" : [
             "Outdoors"
@@ -292,10 +292,10 @@
       },
       "tops@valley" : {
          "exits" : {
-            "u" : "Steps2",
+            "u" : "steps2@valley",
             "n" : "talon1@talon",
-            "d" : "Oak",
-            "s" : "Oak"
+            "d" : "oak@valley",
+            "s" : "oak@valley"
          },
          "flags" : [
             "Outdoors"
@@ -308,7 +308,7 @@
       },
       "hut@valley" : {
          "exits" : {
-            "e" : "Ledge"
+            "e" : "ledge@valley"
          },
          "flags" : [],
          "zone" : "valley",
@@ -320,8 +320,8 @@
       "gap@valley" : {
          "exits" : {
             "u" : "hills1@caledonia",
-            "n" : "Evalley",
-            "s" : "Deep"
+            "n" : "evalley@valley",
+            "s" : "deep@valley"
          },
          "flags" : [
             "Outdoors"
@@ -334,10 +334,10 @@
       },
       "tforest2@valley" : {
          "exits" : {
-            "w" : "Rclearing",
-            "e" : "Ftrack",
-            "n" : "Beside",
-            "s" : "Wedge"
+            "w" : "rclearing@valley",
+            "e" : "ftrack@valley",
+            "n" : "beside@valley",
+            "s" : "wedge@valley"
          },
          "flags" : [
             "Outdoors"
@@ -350,9 +350,9 @@
       },
       "sedge@valley" : {
          "exits" : {
-            "w" : "Bridge",
-            "e" : "Tforest",
-            "n" : "FSedge"
+            "w" : "bridge@valley",
+            "e" : "tforest@valley",
+            "n" : "fsedge@valley"
          },
          "flags" : [
             "Outdoors"
@@ -365,10 +365,10 @@
       },
       "fedge3@valley" : {
          "exits" : {
-            "w" : "Pool",
-            "e" : "Rbank",
-            "n" : "Eside",
-            "s" : "Fedge5"
+            "w" : "pool@valley",
+            "e" : "rbank@valley",
+            "n" : "eside@valley",
+            "s" : "fedge5@valley"
          },
          "flags" : [
             "Outdoors"
@@ -381,9 +381,9 @@
       },
       "stream2@valley" : {
          "exits" : {
-            "w" : "Stream1",
-            "e" : "Bridge",
-            "n" : "Northernend"
+            "w" : "stream1@valley",
+            "e" : "bridge@valley",
+            "n" : "northernend@valley"
          },
          "flags" : [
             "Outdoors"
@@ -396,8 +396,8 @@
       },
       "mpath@valley" : {
          "exits" : {
-            "w" : "Falls",
-            "e" : "Woods@Blizzard"
+            "w" : "falls@valley",
+            "e" : "woods@blizzard"
          },
          "flags" : [
             "Outdoors"
@@ -410,10 +410,10 @@
       },
       "gully2@valley" : {
          "exits" : {
-            "w" : "Gully1",
-            "e" : "Northend",
-            "u" : "Gully1",
-            "d" : "Northend"
+            "w" : "gully1@valley",
+            "e" : "northend@valley",
+            "u" : "gully1@valley",
+            "d" : "northend@valley"
          },
          "flags" : [
             "Outdoors"
@@ -426,10 +426,10 @@
       },
       "eside@valley" : {
          "exits" : {
-            "e" : "Rbank",
-            "u" : "^ladder2elf",
-            "n" : "Tforest",
-            "s" : "Fedge3"
+            "e" : "rbank@valley",
+            "u" : "^ladder2elf@valley",
+            "n" : "tforest@valley",
+            "s" : "fedge3@valley"
          },
          "flags" : [
             "NoMobiles",
@@ -443,8 +443,8 @@
       },
       "steps2@valley" : {
          "exits" : {
-            "u" : "Steps",
-            "d" : "Tops"
+            "u" : "steps@valley",
+            "d" : "tops@valley"
          },
          "flags" : [
             "Outdoors"
@@ -457,10 +457,10 @@
       },
       "oak@valley" : {
          "exits" : {
-            "w" : "Northernend",
-            "e" : "FSedge",
-            "n" : "Tops",
-            "s" : "Bridge"
+            "w" : "northernend@valley",
+            "e" : "fsedge@valley",
+            "n" : "tops@valley",
+            "s" : "bridge@valley"
          },
          "flags" : [
             "Outdoors"
@@ -473,10 +473,10 @@
       },
       "stream1@valley" : {
          "exits" : {
-            "w" : "Spring",
-            "e" : "Stream2",
-            "n" : "NWcorner",
-            "s" : "Stream3"
+            "w" : "spring@valley",
+            "e" : "stream2@valley",
+            "n" : "nwcorner@valley",
+            "s" : "stream3@valley"
          },
          "flags" : [
             "Outdoors"
@@ -489,9 +489,9 @@
       },
       "steps@valley" : {
          "exits" : {
-            "e" : "^RopeEast",
-            "u" : "Moorpath",
-            "d" : "Steps2"
+            "e" : "^ropeeast@valley",
+            "u" : "moorpath@valley",
+            "d" : "steps2@valley"
          },
          "flags" : [
             "Outdoors"
@@ -504,11 +504,11 @@
       },
       "ftrack@valley" : {
          "exits" : {
-            "w" : "Tforest2",
-            "e" : "Pool",
-            "u" : "Temple@Start",
-            "n" : "Send",
-            "s" : "Evalley"
+            "w" : "tforest2@valley",
+            "e" : "pool@valley",
+            "u" : "temple@start",
+            "n" : "send@valley",
+            "s" : "evalley@valley"
          },
          "flags" : [
             "Outdoors"
@@ -521,10 +521,10 @@
       },
       "fsedge@valley" : {
          "exits" : {
-            "w" : "Oak",
-            "e" : "Tforest",
-            "n" : "Path",
-            "s" : "Sedge"
+            "w" : "oak@valley",
+            "e" : "tforest@valley",
+            "n" : "path@valley",
+            "s" : "sedge@valley"
          },
          "flags" : [
             "Outdoors"
@@ -537,10 +537,10 @@
       },
       "paths@valley" : {
          "exits" : {
-            "w" : "Citadel",
-            "u" : "Nibelung18@nibelung",
-            "d" : "Gully1",
-            "s" : "Gully1"
+            "w" : "citadel@valley",
+            "u" : "nibelung18@nibelung",
+            "d" : "gully1@valley",
+            "s" : "gully1@valley"
          },
          "flags" : [
             "Outdoors"
@@ -553,10 +553,10 @@
       },
       "tforest@valley" : {
          "exits" : {
-            "w" : "Sedge",
-            "e" : "Tforest",
-            "n" : "FSedge",
-            "s" : "Eside"
+            "w" : "sedge@valley",
+            "e" : "tforest@valley",
+            "n" : "fsedge@valley",
+            "s" : "eside@valley"
          },
          "flags" : [
             "Outdoors"
@@ -569,8 +569,8 @@
       },
       "citadel@valley" : {
          "exits" : {
-            "e" : "Paths",
-            "s" : "^gates"
+            "e" : "paths@valley",
+            "s" : "^gates@valley"
          },
          "flags" : [
             "NoMobiles",
@@ -584,9 +584,9 @@
       },
       "northend@valley" : {
          "exits" : {
-            "w" : "Gully2",
-            "u" : "Gully2",
-            "s" : "Northernend"
+            "w" : "gully2@valley",
+            "u" : "gully2@valley",
+            "s" : "northernend@valley"
          },
          "flags" : [
             "Outdoors"
@@ -599,10 +599,10 @@
       },
       "stream3@valley" : {
          "exits" : {
-            "w" : "Edge",
-            "e" : "Beside",
-            "n" : "Stream1",
-            "s" : "Rclearing"
+            "w" : "edge@valley",
+            "e" : "beside@valley",
+            "n" : "stream1@valley",
+            "s" : "rclearing@valley"
          },
          "flags" : [
             "Outdoors"
@@ -615,10 +615,10 @@
       },
       "pool@valley" : {
          "exits" : {
-            "w" : "Ftrack",
-            "e" : "Fedge3",
-            "n" : "Bank",
-            "s" : "Tforest4"
+            "w" : "ftrack@valley",
+            "e" : "fedge3@valley",
+            "n" : "bank@valley",
+            "s" : "tforest4@valley"
          },
          "flags" : [
             "Outdoors"
@@ -631,10 +631,10 @@
       },
       "gully1@valley" : {
          "exits" : {
-            "e" : "Gully2",
-            "u" : "Paths",
-            "n" : "Paths",
-            "d" : "Gully2"
+            "e" : "gully2@valley",
+            "u" : "paths@valley",
+            "n" : "paths@valley",
+            "d" : "gully2@valley"
          },
          "flags" : [
             "Outdoors"
@@ -647,9 +647,9 @@
       },
       "wedge@valley" : {
          "exits" : {
-            "e" : "Evalley",
-            "n" : "Tforest2",
-            "s" : "Evalley"
+            "e" : "evalley@valley",
+            "n" : "tforest2@valley",
+            "s" : "evalley@valley"
          },
          "flags" : [
             "Outdoors"
@@ -662,10 +662,10 @@
       },
       "send@valley" : {
          "exits" : {
-            "w" : "Beside",
-            "e" : "Bank",
-            "n" : "Bridge",
-            "s" : "Ftrack"
+            "w" : "beside@valley",
+            "e" : "bank@valley",
+            "n" : "bridge@valley",
+            "s" : "ftrack@valley"
          },
          "flags" : [
             "Outdoors"
@@ -679,9 +679,9 @@
       "path@valley" : {
          "exits" : {
             "e" : "path@sagewood",
-            "n" : "C_Yard@Church",
-            "d" : "FSedge",
-            "s" : "FSedge"
+            "n" : "c_yard@church",
+            "d" : "fsedge@valley",
+            "s" : "fsedge@valley"
          },
          "flags" : [
             "Outdoors"
@@ -694,8 +694,8 @@
       },
       "spring@valley" : {
          "exits" : {
-            "w" : "Ledge",
-            "e" : "Stream1"
+            "w" : "ledge@valley",
+            "e" : "stream1@valley"
          },
          "flags" : [
             "Outdoors"
@@ -708,11 +708,11 @@
       },
       "fedge5@valley" : {
          "exits" : {
-            "w" : "Tforest4",
-            "e" : "Rbank",
-            "u" : "Npath",
-            "n" : "Fedge3",
-            "s" : "Npath"
+            "w" : "tforest4@valley",
+            "e" : "rbank@valley",
+            "u" : "npath@valley",
+            "n" : "fedge3@valley",
+            "s" : "npath@valley"
          },
          "flags" : [
             "Outdoors"
@@ -725,9 +725,9 @@
       },
       "moorpath@valley" : {
          "exits" : {
-            "n" : "Misty1@Moor",
-            "d" : "Steps",
-            "s" : "Steps"
+            "n" : "misty1@moor",
+            "d" : "steps@valley",
+            "s" : "steps@valley"
          },
          "flags" : [
             "Outdoors"
@@ -740,8 +740,8 @@
       },
       "ledge@valley" : {
          "exits" : {
-            "w" : "Hut",
-            "e" : "Spring"
+            "w" : "hut@valley",
+            "e" : "spring@valley"
          },
          "flags" : [
             "Outdoors"
@@ -754,10 +754,10 @@
       },
       "northernend@valley" : {
          "exits" : {
-            "w" : "NWcorner",
-            "e" : "Oak",
-            "n" : "Northend",
-            "s" : "Stream2"
+            "w" : "nwcorner@valley",
+            "e" : "oak@valley",
+            "n" : "northend@valley",
+            "s" : "stream2@valley"
          },
          "flags" : [
             "Outdoors"
@@ -770,7 +770,7 @@
       },
       "edge@valley" : {
          "exits" : {
-            "e" : "Stream3"
+            "e" : "stream3@valley"
          },
          "flags" : [
             "Outdoors"
@@ -783,8 +783,8 @@
       },
       "bank@valley" : {
          "exits" : {
-            "w" : "Send",
-            "s" : "Pool"
+            "w" : "send@valley",
+            "s" : "pool@valley"
          },
          "flags" : [
             "Outdoors"
@@ -797,8 +797,8 @@
       },
       "deep@valley" : {
          "exits" : {
-            "n" : "Gap",
-            "s" : "Dark"
+            "n" : "gap@valley",
+            "s" : "dark@valley"
          },
          "flags" : [],
          "zone" : "valley",
@@ -809,8 +809,8 @@
       },
       "dark@valley" : {
          "exits" : {
-            "n" : "Deep",
-            "s" : "Gate@Blizzard"
+            "n" : "deep@valley",
+            "s" : "gate@blizzard"
          },
          "flags" : [],
          "zone" : "valley",
@@ -821,10 +821,10 @@
       },
       "tforest4@valley" : {
          "exits" : {
-            "w" : "Evalley",
-            "e" : "Fedge5",
-            "n" : "Pool",
-            "s" : "Evalley"
+            "w" : "evalley@valley",
+            "e" : "fedge5@valley",
+            "n" : "pool@valley",
+            "s" : "evalley@valley"
          },
          "flags" : [
             "Outdoors"
@@ -839,7 +839,7 @@
    "mob" : {
       "chicken@valley" : {
          "damage" : "10",
-         "location" : "send",
+         "location" : "send@valley",
          "armor" : "0",
          "name" : "chicken",
          "description" : "Chicken Little is here, with a worried look on his face.",
@@ -854,7 +854,7 @@
       },
       "fox@valley" : {
          "damage" : "7",
-         "location" : "Edge",
+         "location" : "edge@valley",
          "speed" : "2",
          "aggression" : "0",
          "pname" : "The Red Fox",
@@ -864,7 +864,7 @@
       },
       "piper@valley" : {
          "damage" : "10",
-         "location" : "fedge5",
+         "location" : "fedge5@valley",
          "armor" : "0",
          "name" : "piper",
          "description" : "The Piper stands here.",
@@ -878,7 +878,7 @@
       },
       "mindy@valley" : {
          "damage" : "5",
-         "location" : "send",
+         "location" : "send@valley",
          "name" : "mindy",
          "examine" : "\nBaby's wittle shmoo dog Mindy. She is a cute little dog with some spaniel,\nsome terrier, and a bit of beagle in her. Her cute floppy ears cover part\nof her beagle-like face. She has a small black and white spotted body and\njumps at you playfully as you look at her closer.",
          "description" : "Mindy, the cute little dog is here wagging her tail happily.",
@@ -899,7 +899,7 @@
       },
       "deer@valley" : {
          "damage" : "8",
-         "location" : "Bank",
+         "location" : "bank@valley",
          "speed" : "1",
          "aggression" : "0",
          "pname" : "The White-tailed Deer",

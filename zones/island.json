@@ -1,7 +1,7 @@
 {
    "obj" : {
       "sulphur@island" : {
-         "location" : "IN_ROOM:waste1",
+         "location" : "IN_ROOM:waste1@island",
          "oflags" : [
             "FireballSpell"
          ],
@@ -14,7 +14,7 @@
       },
       "spear@island" : {
          "damage" : "6",
-         "location" : "IN_ROOM:path",
+         "location" : "IN_ROOM:path@island",
          "oflags" : [
             "Weapon"
          ],
@@ -25,7 +25,7 @@
          "desc[0]" : "A fire-hardened spear has been left here."
       },
       "feather@island" : {
-         "location" : "IN_ROOM:path",
+         "location" : "IN_ROOM:path@island",
          "weight" : "1",
          "oflags" : [
             "ArmorSpell"
@@ -38,7 +38,7 @@
       },
       "bone@island" : {
          "damage" : "3",
-         "location" : "IN_ROOM:beach",
+         "location" : "IN_ROOM:beach@island",
          "oflags" : [
             "Wearable",
             "Weapon"
@@ -57,12 +57,12 @@
    "loc" : {
       "waste1@island" : {
          "exits" : {
-            "w" : "Slope1",
+            "w" : "slope1@island",
             "e" : "surface1@loligo",
-            "u" : "Waste2",
-            "n" : "Waste2",
-            "d" : "Slope1",
-            "s" : "Waste2"
+            "u" : "waste2@island",
+            "n" : "waste2@island",
+            "d" : "slope1@island",
+            "s" : "waste2@island"
          },
          "flags" : [
             "Outdoors"
@@ -76,10 +76,10 @@
       "ruins2@island" : {
          "exits" : {
             "w" : "1@sea",
-            "e" : "Flow",
-            "u" : "Flow",
-            "n" : "Bushes",
-            "s" : "Path"
+            "e" : "flow@island",
+            "u" : "flow@island",
+            "n" : "bushes@island",
+            "s" : "path@island"
          },
          "flags" : [
             "Outdoors"
@@ -92,12 +92,12 @@
       },
       "waste2@island" : {
          "exits" : {
-            "w" : "Slope2",
-            "e" : "Waste1",
-            "u" : "Brink",
-            "n" : "Waste1",
-            "d" : "Flow",
-            "s" : "Waste2"
+            "w" : "slope2@island",
+            "e" : "waste1@island",
+            "u" : "brink@island",
+            "n" : "waste1@island",
+            "d" : "flow@island",
+            "s" : "waste2@island"
          },
          "flags" : [
             "Outdoors"
@@ -110,11 +110,11 @@
       },
       "flow@island" : {
          "exits" : {
-            "w" : "Ruins2",
-            "e" : "Slope2",
-            "u" : "Slope2",
-            "n" : "Ruins1",
-            "d" : "Ruins1"
+            "w" : "ruins2@island",
+            "e" : "slope2@island",
+            "u" : "slope2@island",
+            "n" : "ruins1@island",
+            "d" : "ruins1@island"
          },
          "flags" : [
             "Outdoors"
@@ -127,10 +127,10 @@
       },
       "slope1@island" : {
          "exits" : {
-            "w" : "Ruins1",
-            "u" : "Slope2",
-            "d" : "Ruins1",
-            "s" : "Slope2"
+            "w" : "ruins1@island",
+            "u" : "slope2@island",
+            "d" : "ruins1@island",
+            "s" : "slope2@island"
          },
          "flags" : [
             "Outdoors"
@@ -143,10 +143,10 @@
       },
       "brink@island" : {
          "exits" : {
-            "w" : "Flow",
-            "e" : "Waste2",
-            "n" : "Slope2",
-            "d" : "Top@Labyrinth"
+            "w" : "flow@island",
+            "e" : "waste2@island",
+            "n" : "slope2@island",
+            "d" : "top@labyrinth"
          },
          "flags" : [
             "Outdoors"
@@ -159,9 +159,9 @@
       },
       "path@island" : {
          "exits" : {
-            "e" : "island13",
-            "n" : "Ruins2",
-            "s" : "Cragg"
+            "e" : "island13@island",
+            "n" : "ruins2@island",
+            "s" : "cragg@island"
          },
          "flags" : [
             "Outdoors"
@@ -174,10 +174,10 @@
       },
       "ruins1@island" : {
          "exits" : {
-            "w" : "Bushes",
-            "e" : "Slope1",
-            "u" : "Flow",
-            "s" : "Flow"
+            "w" : "bushes@island",
+            "e" : "slope1@island",
+            "u" : "flow@island",
+            "s" : "flow@island"
          },
          "flags" : [
             "Outdoors"
@@ -191,7 +191,7 @@
       "beach@island" : {
          "exits" : {
             "w" : "1@sea",
-            "e" : "Bushes"
+            "e" : "bushes@island"
          },
          "flags" : [
             "Outdoors"
@@ -205,7 +205,7 @@
       "island15@island" : {
          "exits" : {
             "e" : "eosia1@eosia",
-            "w" : "island14"
+            "w" : "island14@island"
          },
          "flags" : [
             "Outdoors"
@@ -218,8 +218,8 @@
       },
       "island14@island" : {
          "exits" : {
-            "e" : "island15",
-            "w" : "island13"
+            "e" : "island15@island",
+            "w" : "island13@island"
          },
          "flags" : [
             "Outdoors"
@@ -232,9 +232,9 @@
       },
       "bushes@island" : {
          "exits" : {
-            "w" : "Beach",
-            "e" : "Ruins2",
-            "s" : "Ruins2"
+            "w" : "beach@island",
+            "e" : "ruins2@island",
+            "s" : "ruins2@island"
          },
          "flags" : [
             "Outdoors"
@@ -247,12 +247,12 @@
       },
       "slope2@island" : {
          "exits" : {
-            "w" : "Flow",
-            "e" : "Waste2",
-            "u" : "Brink",
-            "n" : "Slope1",
-            "d" : "Slope1",
-            "s" : "Brink"
+            "w" : "flow@island",
+            "e" : "waste2@island",
+            "u" : "brink@island",
+            "n" : "slope1@island",
+            "d" : "slope1@island",
+            "s" : "brink@island"
          },
          "flags" : [
             "Outdoors"
@@ -265,8 +265,8 @@
       },
       "island13@island" : {
          "exits" : {
-            "e" : "island14",
-            "w" : "Path"
+            "e" : "island14@island",
+            "w" : "path@island"
          },
          "flags" : [
             "Outdoors"
@@ -279,7 +279,7 @@
       },
       "cragg@island" : {
          "exits" : {
-            "n" : "Path",
+            "n" : "path@island",
             "d" : "crystalcave1@crystalcave"
          },
          "flags" : [
@@ -295,7 +295,7 @@
    "mob" : {
       "native@island" : {
          "damage" : "10",
-         "location" : "ruins2",
+         "location" : "ruins2@island",
          "armor" : "0",
          "aggression" : "30",
          "pname" : "The Native",

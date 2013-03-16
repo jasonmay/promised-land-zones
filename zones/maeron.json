@@ -1,7 +1,7 @@
 {
    "obj" : {
       "bottle@maeron" : {
-         "location" : "IN_CONTAINER:Corpse",
+         "location" : "IN_CONTAINER:corpse@maeron",
          "oflags" : "{ }",
          "name" : "Bottle",
          "examine" : "\nThis is the bottle of an unknown liquid that Maeron's corpse was clutching.\nThe unnatural-looking orange liquid sloshes around inside. It appears that\nhalf of the liquid has been drunk.",
@@ -10,7 +10,7 @@
          "state" : "1"
       },
       "corpse@maeron" : {
-         "location" : "IN_ROOM:Lab",
+         "location" : "IN_ROOM:lab@maeron",
          "oflags" : [
             "NoGet",
             "Container"
@@ -24,7 +24,7 @@
          "desc[0]" : "The corpse of of maeron lies here, almost completely decomposed."
       },
       "solarstone2@maeron" : {
-         "location" : "IN_ROOM:Limbo",
+         "location" : "IN_ROOM:limbo@maeron",
          "oflags" : [
             "Lit"
          ],
@@ -41,7 +41,7 @@
       "chargedwand@maeron" : {
          "desc[1]" : "&+CA long, silvery, slender &+Wwand&+C lies here, glowing brightly&*.",
          "damage" : "19",
-         "location" : "IN_ROOM:Limbo",
+         "location" : "IN_ROOM:limbo@maeron",
          "oflags" : [
             "Weapon",
             "regenmana",
@@ -57,7 +57,7 @@
       },
       "orb@maeron" : {
          "desc[1]" : "&+rA nasty &+Rorb&+r is mounted above the vault-door&*.",
-         "location" : "IN_ROOM:lab",
+         "location" : "IN_ROOM:lab@maeron",
          "oflags" : [
             "NoGet"
          ],
@@ -70,7 +70,7 @@
       },
       "furniture@maeron" : {
          "desc[1]" : "Fine &+Gfurniture&* adds to the feeling of luxury here.",
-         "location" : "IN_ROOM:Leader",
+         "location" : "IN_ROOM:leader@maeron",
          "oflags" : [
             "NoGet"
          ],
@@ -83,7 +83,7 @@
       },
       "gargoyle@maeron" : {
          "desc[1]" : "\nA large wrought-iron gargoyle is here, leering hideously at you.",
-         "location" : "IN_ROOM:entrance",
+         "location" : "IN_ROOM:entrance@maeron",
          "oflags" : [
             "NoGet"
          ],
@@ -96,7 +96,7 @@
       },
       "ironkey@maeron" : {
          "desc[1]" : "A &+Ckey&* of wrought iron is here.",
-         "location" : "IN_CONTAINER:Bedroll",
+         "location" : "IN_CONTAINER:bedroll@maeron",
          "oflags" : [
             "Key"
          ],
@@ -110,7 +110,7 @@
       },
       "vaultkey@maeron" : {
          "desc[1]" : "Someone has left a shiny brass key here.",
-         "location" : "IN_CONTAINER:Dresser",
+         "location" : "IN_CONTAINER:dresser@maeron",
          "oflags" : [
             "Key"
          ],
@@ -123,7 +123,7 @@
       },
       "desk@maeron" : {
          "desc[1]" : "A closed oak &+Cdesk&* sits in the corner of the room.",
-         "location" : "IN_ROOM:Library",
+         "location" : "IN_ROOM:library@maeron",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -140,7 +140,7 @@
       },
       "coins@maeron" : {
          "desc[1]" : "A large sack of coins have been left here.",
-         "location" : "IN_ROOM:Treasury",
+         "location" : "IN_ROOM:treasury@maeron",
          "oflags" : "{ }",
          "name" : "Coins",
          "examine" : "\nThese are the coins the Kobolds have stolen from various places. Some are\nof worthless tin, many are silver, and there are even a few platinum coins.",
@@ -151,7 +151,7 @@
       },
       "centerpedestal@maeron" : {
          "desc[1]" : "A strange, short &+Wpedestal&* dominates most of the room.",
-         "location" : "IN_ROOM:Center",
+         "location" : "IN_ROOM:center@maeron",
          "oflags" : [
             "NoGet",
             "Container"
@@ -166,7 +166,7 @@
       },
       "dresser@maeron" : {
          "desc[1]" : "A closed oak dresser is here.",
-         "location" : "IN_ROOM:Bedroom",
+         "location" : "IN_ROOM:bedroom@maeron",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -182,7 +182,7 @@
       },
       "outside_front_door@maeron" : {
          "desc[1]" : "The great doors are closed.",
-         "location" : "IN_ROOM:entrance",
+         "location" : "IN_ROOM:entrance@maeron",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -199,7 +199,7 @@
          "desc[0]" : "The great doors are open."
       },
       "forcefield@maeron" : {
-         "location" : "IN_ROOM:Foyer",
+         "location" : "IN_ROOM:foyer@maeron",
          "oflags" : [
             "NoGet"
          ],
@@ -212,7 +212,7 @@
          "desc[0]" : "&+BA shimmering forcefield of mana blocks the &+Rsouth&* exit."
       },
       "garlic@maeron" : {
-         "location" : "IN_CONTAINER:Cabinet",
+         "location" : "IN_CONTAINER:cabinet@maeron",
          "oflags" : [
             "food"
          ],
@@ -226,7 +226,7 @@
       },
       "outside_vault_door@maeron" : {
          "desc[1]" : "The vaultdoor is closed.",
-         "location" : "IN_ROOM:Lab",
+         "location" : "IN_ROOM:lab@maeron",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -243,7 +243,7 @@
          "desc[0]" : "The vaultdoor is open."
       },
       "sunnook@maeron" : {
-         "location" : "IN_ROOM:Sun",
+         "location" : "IN_ROOM:sun@maeron",
          "oflags" : [
             "NoGet",
             "Container"
@@ -259,7 +259,7 @@
       "dischargedwand@maeron" : {
          "desc[1]" : "A long, silvery, slender &+Cwand&* lies here, glowing faintly.",
          "damage" : "20",
-         "location" : "IN_ROOM:Vault",
+         "location" : "IN_ROOM:vault@maeron",
          "oflags" : "{ }",
          "name" : "DisChargedWand",
          "examine" : "\nIt is about a half-inch wide, and two feet long. Yet it seems so slender\nthat it could snap with the slightest breeze. Its appearance is decieving,\nas it is nearly unbreakable. \n\nOne half of the wand is of a silvery blue color, the other a brilliant\nwhite.\n\n&+WThe wand appears to be discharged.",
@@ -271,7 +271,7 @@
       },
       "inside_vault_door@maeron" : {
          "desc[1]" : "The vaultdoor is closed.",
-         "location" : "IN_ROOM:vault",
+         "location" : "IN_ROOM:vault@maeron",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -289,7 +289,7 @@
       },
       "bedroll@maeron" : {
          "desc[1]" : "The &+Yfilthy&* bedroll of &+RGhem&* catches your eye.",
-         "location" : "IN_ROOM:Dorm",
+         "location" : "IN_ROOM:dorm@maeron",
          "oflags" : [
             "Container"
          ],
@@ -304,7 +304,7 @@
       },
       "cabinet@maeron" : {
          "desc[1]" : "A closed cabinet is sitting quietly in the corner.",
-         "location" : "IN_ROOM:Kitchen",
+         "location" : "IN_ROOM:kitchen@maeron",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -319,7 +319,7 @@
          "desc[0]" : "An open cabinet is sitting quietly in the corner."
       },
       "solarstone1@maeron" : {
-         "location" : "IN_CONTAINER:Corpse",
+         "location" : "IN_CONTAINER:corpse@maeron",
          "oflags" : "{ }",
          "altname" : "Solar",
          "name" : "solarstone1",
@@ -333,7 +333,7 @@
       },
       "mirror@maeron" : {
          "desc[1]" : "Someone has left a shiny mirror here.",
-         "location" : "IN_ROOM:Bedroom",
+         "location" : "IN_ROOM:bedroom@maeron",
          "oflags" : [
             "GetFlips"
          ],
@@ -346,7 +346,7 @@
          "desc[0]" : "A mirror sits on the dresser."
       },
       "armchair@maeron" : {
-         "location" : "IN_ROOM:livingroom",
+         "location" : "IN_ROOM:livingroom@maeron",
          "oflags" : [
             "NoGet"
          ],
@@ -360,7 +360,7 @@
       },
       "talisman@maeron" : {
          "desc[1]" : "&+WA magical talisman is here, humming with power!",
-         "location" : "IN_ROOM:Vault",
+         "location" : "IN_ROOM:vault@maeron",
          "armor" : "5",
          "oflags" : [
             "Lit",
@@ -383,7 +383,7 @@
       },
       "journal@maeron" : {
          "desc[1]" : "Someone has dropped Maeron's Journal here.",
-         "location" : "IN_CONTAINER:Desk",
+         "location" : "IN_CONTAINER:desk@maeron",
          "oflags" : "{ }",
          "altname" : "Diary",
          "name" : "Journal",
@@ -395,7 +395,7 @@
          "bvalue" : "200"
       },
       "telescope@maeron" : {
-         "location" : "IN_ROOM:Tower",
+         "location" : "IN_ROOM:tower@maeron",
          "oflags" : [
             "NoGet"
          ],
@@ -409,7 +409,7 @@
       },
       "lever@maeron" : {
          "desc[1]" : "A large silvery lever sits in the corner.",
-         "location" : "IN_ROOM:Center",
+         "location" : "IN_ROOM:center@maeron",
          "oflags" : [
             "NoGet"
          ],
@@ -422,7 +422,7 @@
          "bvalue" : "0"
       },
       "moonnook@maeron" : {
-         "location" : "IN_ROOM:Moon",
+         "location" : "IN_ROOM:moon@maeron",
          "oflags" : [
             "NoGet",
             "Container"
@@ -437,7 +437,7 @@
       },
       "inside_front_door@maeron" : {
          "desc[1]" : "The great doors are closed.",
-         "location" : "IN_ROOM:foyer",
+         "location" : "IN_ROOM:foyer@maeron",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -456,8 +456,8 @@
    "loc" : {
       "lab@maeron" : {
          "exits" : {
-            "n" : "^outside_vault_door",
-            "s" : "foyer"
+            "n" : "^outside_vault_door@maeron",
+            "s" : "foyer@maeron"
          },
          "flags" : [
             "nosummon",
@@ -471,8 +471,8 @@
       },
       "entrance@maeron" : {
          "exits" : {
-            "n" : "^outside_front_door",
-            "s" : "outside"
+            "n" : "^outside_front_door@maeron",
+            "s" : "outside@maeron"
          },
          "flags" : [],
          "zone" : "maeron",
@@ -483,8 +483,8 @@
       },
       "cave1@maeron" : {
          "exits" : {
-            "w" : "cave2",
-            "e" : "path4"
+            "w" : "cave2@maeron",
+            "e" : "path4@maeron"
          },
          "flags" : [
             "outdoors"
@@ -497,9 +497,9 @@
       },
       "center@maeron" : {
          "exits" : {
-            "w" : "sun",
-            "e" : "moon",
-            "s" : "basement"
+            "w" : "sun@maeron",
+            "e" : "moon@maeron",
+            "s" : "basement@maeron"
          },
          "flags" : [
             "dark"
@@ -512,7 +512,7 @@
       },
       "livingroom@maeron" : {
          "exits" : {
-            "w" : "foyer"
+            "w" : "foyer@maeron"
          },
          "flags" : [],
          "zone" : "maeron",
@@ -536,10 +536,10 @@
       },
       "path1@maeron" : {
          "exits" : {
-            "e" : "outside",
-            "w" : "path2",
-            "n" : "field",
-            "s" : "cliff"
+            "e" : "outside@maeron",
+            "w" : "path2@maeron",
+            "n" : "field@maeron",
+            "s" : "cliff@maeron"
          },
          "flags" : [
             "outdoors"
@@ -552,8 +552,8 @@
       },
       "diningroom@maeron" : {
          "exits" : {
-            "e" : "foyer",
-            "n" : "kitchen"
+            "e" : "foyer@maeron",
+            "n" : "kitchen@maeron"
          },
          "flags" : [],
          "zone" : "maeron",
@@ -564,7 +564,7 @@
       },
       "treasury@maeron" : {
          "exits" : {
-            "n" : "cave3"
+            "n" : "cave3@maeron"
          },
          "flags" : [],
          "zone" : "maeron",
@@ -575,7 +575,7 @@
       },
       "sun@maeron" : {
          "exits" : {
-            "e" : "center"
+            "e" : "center@maeron"
          },
          "flags" : [
             "dark"
@@ -588,7 +588,7 @@
       },
       "dorm@maeron" : {
          "exits" : {
-            "e" : "cave3"
+            "e" : "cave3@maeron"
          },
          "flags" : [],
          "zone" : "maeron",
@@ -612,10 +612,10 @@
       },
       "upstairs@maeron" : {
          "exits" : {
-            "e" : "towerbottom",
-            "w" : "library",
-            "n" : "bedroom",
-            "d" : "foyer"
+            "e" : "towerbottom@maeron",
+            "w" : "library@maeron",
+            "n" : "bedroom@maeron",
+            "d" : "foyer@maeron"
          },
          "flags" : [
             "Outdoors"
@@ -628,7 +628,7 @@
       },
       "kitchen@maeron" : {
          "exits" : {
-            "s" : "diningroom"
+            "s" : "diningroom@maeron"
          },
          "flags" : [],
          "zone" : "maeron",
@@ -639,8 +639,8 @@
       },
       "path2@maeron" : {
          "exits" : {
-            "e" : "path1",
-            "n" : "path3"
+            "e" : "path1@maeron",
+            "n" : "path3@maeron"
          },
          "flags" : [
             "outdoors"
@@ -653,10 +653,10 @@
       },
       "cave3@maeron" : {
          "exits" : {
-            "w" : "dorm",
-            "e" : "cave2",
-            "n" : "leader",
-            "s" : "treasury"
+            "w" : "dorm@maeron",
+            "e" : "cave2@maeron",
+            "n" : "leader@maeron",
+            "s" : "treasury@maeron"
          },
          "flags" : [
             "nomobiles"
@@ -693,9 +693,9 @@
       },
       "path3@maeron" : {
          "exits" : {
-            "e" : "field",
-            "n" : "path4",
-            "s" : "path2"
+            "e" : "field@maeron",
+            "n" : "path4@maeron",
+            "s" : "path2@maeron"
          },
          "flags" : [
             "outdoors"
@@ -708,8 +708,8 @@
       },
       "cave2@maeron" : {
          "exits" : {
-            "w" : "cave3",
-            "e" : "cave1"
+            "w" : "cave3@maeron",
+            "e" : "cave1@maeron"
          },
          "flags" : [],
          "zone" : "maeron",
@@ -729,7 +729,7 @@
       },
       "leader@maeron" : {
          "exits" : {
-            "s" : "cave3"
+            "s" : "cave3@maeron"
          },
          "flags" : [],
          "zone" : "maeron",
@@ -740,9 +740,9 @@
       },
       "basement@maeron" : {
          "exits" : {
-            "n" : "center",
-            "u" : "foyer",
-            "d" : "well"
+            "n" : "center@maeron",
+            "u" : "foyer@maeron",
+            "d" : "well@maeron"
          },
          "flags" : [
             "dark"
@@ -755,8 +755,8 @@
       },
       "field@maeron" : {
          "exits" : {
-            "w" : "path3",
-            "s" : "path1"
+            "w" : "path3@maeron",
+            "s" : "path1@maeron"
          },
          "flags" : [
             "outdoors"
@@ -769,12 +769,12 @@
       },
       "foyer@maeron" : {
          "exits" : {
-            "e" : "livingroom",
-            "w" : "diningroom",
-            "u" : "upstairs",
-            "n" : "lab",
-            "d" : "basement",
-            "s" : "^inside_front_door"
+            "e" : "livingroom@maeron",
+            "w" : "diningroom@maeron",
+            "u" : "upstairs@maeron",
+            "n" : "lab@maeron",
+            "d" : "basement@maeron",
+            "s" : "^inside_front_door@maeron"
          },
          "flags" : [],
          "zone" : "maeron",
@@ -785,8 +785,8 @@
       },
       "towerbottom@maeron" : {
          "exits" : {
-            "w" : "upstairs",
-            "u" : "tower"
+            "w" : "upstairs@maeron",
+            "u" : "tower@maeron"
          },
          "flags" : [
             "dark"
@@ -799,7 +799,7 @@
       },
       "library@maeron" : {
          "exits" : {
-            "e" : "upstairs"
+            "e" : "upstairs@maeron"
          },
          "flags" : [
             "dark"
@@ -812,7 +812,7 @@
       },
       "vault@maeron" : {
          "exits" : {
-            "s" : "^inside_vault_door"
+            "s" : "^inside_vault_door@maeron"
          },
          "flags" : [
             "dark",
@@ -828,7 +828,7 @@
       },
       "moon@maeron" : {
          "exits" : {
-            "w" : "center"
+            "w" : "center@maeron"
          },
          "flags" : [
             "dark"
@@ -841,11 +841,11 @@
       },
       "tower@maeron" : {
          "exits" : {
-            "e" : "edge",
-            "w" : "edge",
-            "n" : "edge",
-            "d" : "towerbottom",
-            "s" : "edge"
+            "e" : "edge@maeron",
+            "w" : "edge@maeron",
+            "n" : "edge@maeron",
+            "d" : "towerbottom@maeron",
+            "s" : "edge@maeron"
          },
          "flags" : [
             "outdoors"
@@ -858,9 +858,9 @@
       },
       "outside@maeron" : {
          "exits" : {
-            "w" : "path1",
+            "w" : "path1@maeron",
             "e" : "treravine@blizzard",
-            "n" : "entrance"
+            "n" : "entrance@maeron"
          },
          "flags" : [
             "Outdoors",
@@ -874,9 +874,9 @@
       },
       "path4@maeron" : {
          "exits" : {
-            "w" : "cave1",
-            "e" : "rocks",
-            "s" : "path3"
+            "w" : "cave1@maeron",
+            "e" : "rocks@maeron",
+            "s" : "path3@maeron"
          },
          "flags" : [
             "outdoors"
@@ -889,7 +889,7 @@
       },
       "bedroom@maeron" : {
          "exits" : {
-            "s" : "upstairs"
+            "s" : "upstairs@maeron"
          },
          "flags" : [],
          "zone" : "maeron",
@@ -902,7 +902,7 @@
    "mob" : {
       "nhie@maeron" : {
          "damage" : "10",
-         "location" : "Dorm",
+         "location" : "dorm@maeron",
          "name" : "Nhie",
          "examine" : "\nNhie eyes your possessions eagerly!",
          "description" : "&+RNhie&* the Kobold is here.",
@@ -917,7 +917,7 @@
       },
       "khighen@maeron" : {
          "damage" : "10",
-         "location" : "leader",
+         "location" : "leader@maeron",
          "name" : "Khighen",
          "examine" : "Khighen is in stark contrast to all the other Kobolds. He is dressed in the fine robes of a wealthy and skilled thief, and there is a gleam of intelligence in his eye.",
          "description" : "&+RKhighen&*, the kobold-leader watches you casually.",
@@ -934,7 +934,7 @@
       },
       "rats@maeron" : {
          "damage" : "10",
-         "location" : "Basement",
+         "location" : "basement@maeron",
          "name" : "Rats",
          "examine" : "\nThousands of beady little eyes stare &+Rup&* at you. The rats seem diseased\nand quite malnourished. They lick their lips at you hungrily!",
          "description" : "&+LA horde of filthy black &+Rrats&+L scurries around the room!&*",
@@ -956,7 +956,7 @@
             "immshock"
          ],
          "damage" : "10",
-         "location" : "library",
+         "location" : "library@maeron",
          "name" : "Golem",
          "examine" : "\nThis strange creature was obviously created by magic. It looks like a \nlarge mound of rock. The Golem expressionless face turns toward you as \nhe slowly shambles after you.",
          "description" : "\n&+W           Something is lurking in the shadows of the library&*",
@@ -973,7 +973,7 @@
       },
       "ghem@maeron" : {
          "damage" : "10",
-         "location" : "Dorm",
+         "location" : "dorm@maeron",
          "name" : "Ghem",
          "examine" : "\nHe's probobly never seen a bar of soap in his life. PHEW!",
          "description" : "Ghem is here.",
@@ -988,7 +988,7 @@
       },
       "ookphishk@maeron" : {
          "damage" : "10",
-         "location" : "Dorm",
+         "location" : "dorm@maeron",
          "name" : "Ookphishk",
          "examine" : "Ookphishk smiles at you smugly, as a cat would to a cornered mouse.",
          "description" : "&+ROokphisk&* is here.",
@@ -1006,7 +1006,7 @@
             "Blind"
          ],
          "damage" : "100",
-         "location" : "foyer",
+         "location" : "foyer@maeron",
          "name" : "Vampire",
          "examine" : "\nHe smiles and bows deeply, introducing himself as Vlir of the house\nof Dracul. Vlir says,\n\n&+W'Hail, fine adventurer. I understand you wish to raid this\n&+Wmansion for its priceless treasures. I warn you, I intend to \n&+Wsolve the puzzles of this hideous place and gain access to\n&+Wits valuable treasures. Do not stand in my way or I will surely\n&+Wdestroy you in one swift stroke.'&*\n\n&+rVlir appears to be an extremely elite vampire warrior who could \n&+reasily defeat even the most skilled adventurer...&*",
          "description" : "&+RAn evil vampire is here, guarding his domain.",
@@ -1027,7 +1027,7 @@
       },
       "mhiery@maeron" : {
          "damage" : "10",
-         "location" : "Dorm",
+         "location" : "dorm@maeron",
          "name" : "Mhiery",
          "examine" : "\nA large, furry kobold with a look of greed in his eyes.",
          "description" : "&+RMhiery&* the kobold-thief is here.",

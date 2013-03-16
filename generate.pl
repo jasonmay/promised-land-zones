@@ -239,6 +239,15 @@ sub write_pretty_json {
 sub construct_info_from_parsed {
     my ($info, $results, $zone_name) = @_;
 
+    my $z = sub {
+        my $s = lc(shift);
+        if ($s !~ /@/) {
+            $s .= "@" . $zone_name;
+        }
+        $s =~ s/(.+):/uc($1).':'/e;
+        return $s;
+    };
+
     my @locs = map {
         $_->{LocFlags}{lflags} = +{ FlagItem => [] }
         if $_->{LocFlags}{lflags}
@@ -253,7 +262,7 @@ sub construct_info_from_parsed {
             description => $_->{LocDescription}{CaretString}{Inside},
             exits       => {
                 map {;
-                    $_->{ExitLetter} => $_->{exit_dest}
+                    $_->{ExitLetter} => $z->($_->{exit_dest})
                 } @{ $_->{Map}{Exit} },
             },
         },
@@ -261,12 +270,20 @@ sub construct_info_from_parsed {
     $info->{loc}{lc "$_->{id}\@$zone_name"} = $_ for @locs;
 
     my @mobs = map {
-        +{ create_map_from_statements( @{ $_->{Statement} } ) },
+        my $pair = { create_map_from_statements( @{ $_->{Statement} } ) };
+        if ($pair->{location}) {
+            $pair->{location} = $z->($pair->{location});
+        }
+        $pair;
     } @{ $results->{Zone}{Mobiles}{Mobile} };
     $info->{mob}{lc "$_->{name}\@$zone_name"} = $_ for @mobs;
 
     my @objs = map {
-        +{ create_map_from_statements( @{ $_->{ObjectStatement} } ) },
+        my $pair = { create_map_from_statements( @{ $_->{ObjectStatement} } ) };
+        if ($pair->{location}) {
+            $pair->{location} = $z->($pair->{location});
+        }
+        $pair;
     } @{ $results->{Zone}{Objects}{Object} };
     $info->{obj}{lc "$_->{name}\@$zone_name"} = $_ for @objs;
 

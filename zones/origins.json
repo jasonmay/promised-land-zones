@@ -1,7 +1,7 @@
 {
    "obj" : {
       "white_pass@origins" : {
-         "location" : "WORN_BY:Brown",
+         "location" : "WORN_BY:brown@origins",
          "oflags" : [
             "Wearable"
          ],
@@ -15,7 +15,7 @@
       },
       "magical_bass@origins" : {
          "damage" : "10",
-         "location" : "IN_ROOM:origins12",
+         "location" : "IN_ROOM:origins12@origins",
          "oflags" : [
             "Weapon"
          ],
@@ -29,7 +29,7 @@
          "desc[0]" : "\nAn old, upright bass with mysterious carvings lies here, somehow lost \nby its owner."
       },
       "milky_potion@origins" : {
-         "location" : "CARRIED_BY:Spectre",
+         "location" : "CARRIED_BY:spectre@origins",
          "oflags" : [
             "Food",
             "NoDrain"
@@ -45,7 +45,7 @@
       },
       "sunblade@origins" : {
          "damage" : "28",
-         "location" : "WIELDED_BY:Brown",
+         "location" : "WIELDED_BY:brown@origins",
          "oflags" : [
             "Weapon",
             "Lit"
@@ -61,7 +61,7 @@
       },
       "drumsticks@origins" : {
          "damage" : "11",
-         "location" : "WIELDED_BY:Peart",
+         "location" : "WIELDED_BY:peart@origins",
          "oflags" : [
             "Weapon"
          ],
@@ -75,7 +75,7 @@
       },
       "cylinder_1@origins" : {
          "desc[1]" : "The outline of a door appears in the northern wall of the cylinder.",
-         "location" : "IN_ROOM:origins67",
+         "location" : "IN_ROOM:origins67@origins",
          "oflags" : [
             "Openable"
          ],
@@ -88,7 +88,7 @@
          "desc[0]" : "There is an open door in the northern wall of the cylinder."
       },
       "note2@origins" : {
-         "location" : "IN_ROOM:origins40",
+         "location" : "IN_ROOM:origins40@origins",
          "oflags" : [
             "NoGet"
          ],
@@ -100,7 +100,7 @@
       },
       "waterfall_1@origins" : {
          "desc[1]" : "The waterfall's waters run down in a strange pattern.",
-         "location" : "IN_ROOM:origins45",
+         "location" : "IN_ROOM:origins45@origins",
          "oflags" : [
             "NoGet"
          ],
@@ -113,7 +113,7 @@
       },
       "elven_staff@origins" : {
          "desc[1]" : "There is a medium-sized staff under many leaves.",
-         "location" : "IN_ROOM:origins13",
+         "location" : "IN_ROOM:origins13@origins",
          "oflags" : [
             "Destroyed",
             "Glowing",
@@ -132,7 +132,7 @@
       },
       "wisdom@origins" : {
          "desc[1]" : "Your mind lies before you, closed.",
-         "location" : "WORN_BY:Apollo",
+         "location" : "WORN_BY:apollo@origins",
          "oflags" : [
             "Wearable",
             "Container",
@@ -149,7 +149,7 @@
          "desc[0]" : "Your mind lies before you, open."
       },
       "medium_shield@origins" : {
-         "location" : "CARRIED_BY:Spectre",
+         "location" : "CARRIED_BY:spectre@origins",
          "armor" : "8",
          "oflags" : [
             "Armor",
@@ -166,7 +166,7 @@
          "desc[0]" : "A medium shield with old, faded markings lies here."
       },
       "temple_paper@origins" : {
-         "location" : "IN_ROOM:origins41",
+         "location" : "IN_ROOM:origins41@origins",
          "oflags" : [
             "NoGet"
          ],
@@ -177,7 +177,7 @@
          "desc[0]" : "One Temple Paper floats down in front of you."
       },
       "disc_1@origins" : {
-         "location" : "IN_ROOM:origins40",
+         "location" : "IN_ROOM:origins40@origins",
          "oflags" : [
             "Destroyed",
             "NoGet"
@@ -191,7 +191,7 @@
          "desc[0]" : "\nA large cylinder with a door raised a foot off the ground stands here."
       },
       "dates@origins" : {
-         "location" : "IN_ROOM:origins28",
+         "location" : "IN_ROOM:origins28@origins",
          "oflags" : [
             "Food"
          ],
@@ -204,7 +204,7 @@
       },
       "door3@origins" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:origins39",
+         "location" : "IN_ROOM:origins39@origins",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -220,7 +220,7 @@
       },
       "waterfall@origins" : {
          "desc[1]" : "The waterfall's waters run down in a strange pattern.",
-         "location" : "IN_ROOM:origins44",
+         "location" : "IN_ROOM:origins44@origins",
          "oflags" : [
             "NoGet"
          ],
@@ -232,7 +232,7 @@
       },
       "bridge2@origins" : {
          "desc[1]" : "\nThere is a raised bridge barring you from crossing and going down.",
-         "location" : "IN_ROOM:origins17",
+         "location" : "IN_ROOM:origins17@origins",
          "oflags" : [
             "NoGet"
          ],
@@ -246,7 +246,7 @@
       },
       "door4@origins" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:origins40",
+         "location" : "IN_ROOM:origins40@origins",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -262,7 +262,7 @@
       },
       "disc@origins" : {
          "desc[1]" : "A large, metallic disc sits here.",
-         "location" : "IN_ROOM:origins40",
+         "location" : "IN_ROOM:origins40@origins",
          "oflags" : [
             "Destroyed",
             "Openable",
@@ -278,7 +278,7 @@
          "maxstate" : "1"
       },
       "note1@origins" : {
-         "location" : "IN_ROOM:origins12",
+         "location" : "IN_ROOM:origins12@origins",
          "oflags" : [
             "NoGet"
          ],
@@ -289,7 +289,7 @@
          "desc[0]" : "\nA note handwritten in flowing Elvish lies on a desk in the far left corner."
       },
       "wooden_sign@origins" : {
-         "location" : "IN_ROOM:origins66",
+         "location" : "IN_ROOM:origins66@origins",
          "oflags" : [
             "NoGet"
          ],
@@ -300,7 +300,7 @@
          "desc[0]" : "A large, old wooden sign floats in the air with you."
       },
       "altar@origins" : {
-         "location" : "IN_ROOM:origins13",
+         "location" : "IN_ROOM:origins13@origins",
          "oflags" : [
             "NoGet"
          ],
@@ -310,7 +310,7 @@
       },
       "door2@origins" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:origins12",
+         "location" : "IN_ROOM:origins12@origins",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -326,7 +326,7 @@
       },
       "elfblade@origins" : {
          "damage" : "20",
-         "location" : "WIELDED_BY:Sothurithidan",
+         "location" : "WIELDED_BY:sothurithidan@origins",
          "oflags" : [
             "Weapon"
          ],
@@ -340,7 +340,7 @@
       },
       "bridge1@origins" : {
          "desc[1]" : "\nThere is a raised bridge barring you from crossing and going up.",
-         "location" : "IN_ROOM:origins16",
+         "location" : "IN_ROOM:origins16@origins",
          "oflags" : [
             "NoGet"
          ],
@@ -353,7 +353,7 @@
          "desc[0]" : "The bridge has been lowered, allowing access upwards."
       },
       "key@origins" : {
-         "location" : "CARRIED_BY:Sothurithidan",
+         "location" : "CARRIED_BY:sothurithidan@origins",
          "oflags" : [
             "Key"
          ],
@@ -365,7 +365,7 @@
          "desc[0]" : "A small, slender key with elven markings sits here."
       },
       "fountain@origins" : {
-         "location" : "IN_ROOM:origins17",
+         "location" : "IN_ROOM:origins17@origins",
          "oflags" : [
             "NoGet"
          ],
@@ -376,7 +376,7 @@
       },
       "love@origins" : {
          "desc[1]" : "Your heart lies before you, closed.",
-         "location" : "WORN_BY:Dionysus",
+         "location" : "WORN_BY:dionysus@origins",
          "oflags" : [
             "Wearable",
             "Container",
@@ -394,7 +394,7 @@
       },
       "acoustic_guitar@origins" : {
          "damage" : "9",
-         "location" : "IN_ROOM:origins46",
+         "location" : "IN_ROOM:origins46@origins",
          "armor" : "28",
          "oflags" : [
             "Armor",
@@ -415,7 +415,7 @@
       },
       "door1@origins" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:origins11",
+         "location" : "IN_ROOM:origins11@origins",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -430,7 +430,7 @@
          "desc[0]" : "The door is open."
       },
       "treebark@origins" : {
-         "location" : "WORN_BY:Skeletree",
+         "location" : "WORN_BY:skeletree@origins",
          "armor" : "20",
          "oflags" : [
             "Armor",
@@ -449,7 +449,7 @@
       },
       "bookshelf@origins" : {
          "desc[1]" : "A bookshelf rests against the wall.",
-         "location" : "IN_ROOM:origins40",
+         "location" : "IN_ROOM:origins40@origins",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -465,7 +465,7 @@
    "loc" : {
       "origins47@origins" : {
          "exits" : {
-            "s" : "origins41"
+            "s" : "origins41@origins"
          },
          "flags" : [
             "NoMagic",
@@ -481,7 +481,7 @@
       },
       "origins53@origins" : {
          "exits" : {
-            "n" : "origins54"
+            "n" : "origins54@origins"
          },
          "flags" : [
             "NoMagic",
@@ -497,8 +497,8 @@
       },
       "origins40@origins" : {
          "exits" : {
-            "n" : "^door4",
-            "s" : "^disc_1"
+            "n" : "^door4@origins",
+            "s" : "^disc_1@origins"
          },
          "flags" : [
             "Dark",
@@ -513,7 +513,7 @@
       },
       "origins46@origins" : {
          "exits" : {
-            "u" : "origins45"
+            "u" : "origins45@origins"
          },
          "flags" : [
             "Dark",
@@ -533,9 +533,9 @@
       },
       "origins31@origins" : {
          "exits" : {
-            "w" : "origins32",
-            "n" : "origins30",
-            "s" : "origins33"
+            "w" : "origins32@origins",
+            "n" : "origins30@origins",
+            "s" : "origins33@origins"
          },
          "flags" : [
             "Dark",
@@ -550,8 +550,8 @@
       },
       "origins43@origins" : {
          "exits" : {
-            "e" : "origins41",
-            "n" : "origins44"
+            "e" : "origins41@origins",
+            "n" : "origins44@origins"
          },
          "flags" : [
             "NoMagic",
@@ -567,8 +567,8 @@
       },
       "origins34@origins" : {
          "exits" : {
-            "w" : "origins33",
-            "u" : "origins36"
+            "w" : "origins33@origins",
+            "u" : "origins36@origins"
          },
          "flags" : [
             "Dark",
@@ -583,8 +583,8 @@
       },
       "origins29@origins" : {
          "exits" : {
-            "n" : "origins22",
-            "s" : "origins30"
+            "n" : "origins22@origins",
+            "s" : "origins30@origins"
          },
          "flags" : [
             "Outdoors",
@@ -599,8 +599,8 @@
       },
       "origins49@origins" : {
          "exits" : {
-            "u" : "origins50",
-            "n" : "origins48"
+            "u" : "origins50@origins",
+            "n" : "origins48@origins"
          },
          "flags" : [
             "Peaceful",
@@ -618,10 +618,10 @@
       },
       "origins41@origins" : {
          "exits" : {
-            "w" : "origins43",
-            "e" : "origins42",
-            "n" : "origins47",
-            "s" : "origins48"
+            "w" : "origins43@origins",
+            "e" : "origins42@origins",
+            "n" : "origins47@origins",
+            "s" : "origins48@origins"
          },
          "flags" : [
             "NoMagic",
@@ -637,7 +637,7 @@
       },
       "origins56@origins" : {
          "exits" : {
-            "d" : "origins57"
+            "d" : "origins57@origins"
          },
          "flags" : [
             "NoMagic",
@@ -653,10 +653,10 @@
       },
       "origins2@origins" : {
          "exits" : {
-            "w" : "origins5",
-            "e" : "origins4",
-            "n" : "origins3",
-            "s" : "origins1"
+            "w" : "origins5@origins",
+            "e" : "origins4@origins",
+            "n" : "origins3@origins",
+            "s" : "origins1@origins"
          },
          "flags" : [
             "Outdoors",
@@ -671,8 +671,8 @@
       },
       "origins35@origins" : {
          "exits" : {
-            "e" : "origins33",
-            "u" : "origins37"
+            "e" : "origins33@origins",
+            "u" : "origins37@origins"
          },
          "flags" : [
             "Dark",
@@ -687,10 +687,10 @@
       },
       "origins60@origins" : {
          "exits" : {
-            "w" : "origins62",
-            "e" : "origins61",
-            "n" : "origins63",
-            "s" : "origins59"
+            "w" : "origins62@origins",
+            "e" : "origins61@origins",
+            "n" : "origins63@origins",
+            "s" : "origins59@origins"
          },
          "flags" : [
             "Outdoors"
@@ -703,7 +703,7 @@
       },
       "origins13@origins" : {
          "exits" : {
-            "e" : "origins11"
+            "e" : "origins11@origins"
          },
          "flags" : [
             "Party",
@@ -717,7 +717,7 @@
       },
       "origins36@origins" : {
          "exits" : {
-            "d" : "origins34"
+            "d" : "origins34@origins"
          },
          "flags" : [
             "Outdoors",
@@ -732,9 +732,9 @@
       },
       "origins8@origins" : {
          "exits" : {
-            "e" : "origins3",
-            "n" : "origins5",
-            "s" : "origins9"
+            "e" : "origins3@origins",
+            "n" : "origins5@origins",
+            "s" : "origins9@origins"
          },
          "flags" : [
             "Outdoors",
@@ -748,8 +748,8 @@
       },
       "origins39@origins" : {
          "exits" : {
-            "d" : "origins38",
-            "s" : "^door3"
+            "d" : "origins38@origins",
+            "s" : "^door3@origins"
          },
          "flags" : [
             "Dark",
@@ -764,7 +764,7 @@
       },
       "origins59@origins" : {
          "exits" : {
-            "n" : "origins60"
+            "n" : "origins60@origins"
          },
          "flags" : [
             "Outdoors"
@@ -777,7 +777,7 @@
       },
       "origins28@origins" : {
          "exits" : {
-            "d" : "origins27"
+            "d" : "origins27@origins"
          },
          "flags" : [
             "Outdoors"
@@ -790,8 +790,8 @@
       },
       "origins27@origins" : {
          "exits" : {
-            "u" : "origins28",
-            "d" : "origins26"
+            "u" : "origins28@origins",
+            "d" : "origins26@origins"
          },
          "flags" : [
             "Outdoors",
@@ -806,10 +806,10 @@
       },
       "origins7@origins" : {
          "exits" : {
-            "w" : "origins4",
-            "e" : "origins8",
-            "n" : "origins4",
-            "s" : "origins5"
+            "w" : "origins4@origins",
+            "e" : "origins8@origins",
+            "n" : "origins4@origins",
+            "s" : "origins5@origins"
          },
          "flags" : [
             "Outdoors",
@@ -823,7 +823,7 @@
       },
       "origins18@origins" : {
          "exits" : {
-            "n" : "origins19"
+            "n" : "origins19@origins"
          },
          "flags" : [
             "Outdoors",
@@ -838,7 +838,7 @@
       },
       "origins54@origins" : {
          "exits" : {
-            "e" : "origins55"
+            "e" : "origins55@origins"
          },
          "flags" : [
             "NoMagic",
@@ -854,8 +854,8 @@
       },
       "origins24@origins" : {
          "exits" : {
-            "w" : "origins22",
-            "u" : "origins25"
+            "w" : "origins22@origins",
+            "u" : "origins25@origins"
          },
          "flags" : [
             "Outdoors",
@@ -871,7 +871,7 @@
       },
       "origins61@origins" : {
          "exits" : {
-            "w" : "origins60"
+            "w" : "origins60@origins"
          },
          "flags" : [
             "Outdoors"
@@ -884,8 +884,8 @@
       },
       "origins10@origins" : {
          "exits" : {
-            "e" : "origins3",
-            "n" : "origins11"
+            "e" : "origins3@origins",
+            "n" : "origins11@origins"
          },
          "flags" : [
             "Outdoors",
@@ -899,7 +899,7 @@
       },
       "origins58@origins" : {
          "exits" : {
-            "d" : "origins59"
+            "d" : "origins59@origins"
          },
          "flags" : [
             "NoMagic",
@@ -915,10 +915,10 @@
       },
       "origins4@origins" : {
          "exits" : {
-            "w" : "origins3",
-            "e" : "origins4",
-            "n" : "origins5",
-            "s" : "origins4"
+            "w" : "origins3@origins",
+            "e" : "origins4@origins",
+            "n" : "origins5@origins",
+            "s" : "origins4@origins"
          },
          "flags" : [
             "Outdoors",
@@ -932,7 +932,7 @@
       },
       "origins55@origins" : {
          "exits" : {
-            "s" : "origins56"
+            "s" : "origins56@origins"
          },
          "flags" : [
             "NoMagic",
@@ -948,7 +948,7 @@
       },
       "origins64@origins" : {
          "exits" : {
-            "s" : "origins63"
+            "s" : "origins63@origins"
          },
          "flags" : [
             "Dark"
@@ -961,8 +961,8 @@
       },
       "origins26@origins" : {
          "exits" : {
-            "u" : "origins27",
-            "d" : "origins25"
+            "u" : "origins27@origins",
+            "d" : "origins25@origins"
          },
          "flags" : [
             "Outdoors",
@@ -977,7 +977,7 @@
       },
       "origins57@origins" : {
          "exits" : {
-            "d" : "origins58"
+            "d" : "origins58@origins"
          },
          "flags" : [
             "NoMagic",
@@ -993,7 +993,7 @@
       },
       "origins16@origins" : {
          "exits" : {
-            "u" : "^bridge1"
+            "u" : "^bridge1@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1008,10 +1008,10 @@
       },
       "origins22@origins" : {
          "exits" : {
-            "w" : "origins21",
-            "e" : "origins24",
-            "n" : "origins23",
-            "s" : "origins29"
+            "w" : "origins21@origins",
+            "e" : "origins24@origins",
+            "n" : "origins23@origins",
+            "s" : "origins29@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1028,7 +1028,7 @@
       },
       "origins12@origins" : {
          "exits" : {
-            "w" : "^door2"
+            "w" : "^door2@origins"
          },
          "flags" : [],
          "zone" : "origins",
@@ -1039,7 +1039,7 @@
       },
       "origins42@origins" : {
          "exits" : {
-            "w" : "origins41"
+            "w" : "origins41@origins"
          },
          "flags" : [
             "NoMagic",
@@ -1055,8 +1055,8 @@
       },
       "origins19@origins" : {
          "exits" : {
-            "n" : "origins20",
-            "s" : "origins18"
+            "n" : "origins20@origins",
+            "s" : "origins18@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1071,7 +1071,7 @@
       },
       "origins62@origins" : {
          "exits" : {
-            "e" : "origins60"
+            "e" : "origins60@origins"
          },
          "flags" : [
             "Outdoors"
@@ -1084,7 +1084,7 @@
       },
       "origins37@origins" : {
          "exits" : {
-            "d" : "origins35"
+            "d" : "origins35@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1099,7 +1099,7 @@
       },
       "origins65@origins" : {
          "exits" : {
-            "d" : "origins63"
+            "d" : "origins63@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1116,10 +1116,10 @@
       },
       "origins33@origins" : {
          "exits" : {
-            "w" : "origins35",
-            "e" : "origins34",
-            "n" : "origins31",
-            "s" : "origins38"
+            "w" : "origins35@origins",
+            "e" : "origins34@origins",
+            "n" : "origins31@origins",
+            "s" : "origins38@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1134,8 +1134,8 @@
       },
       "origins30@origins" : {
          "exits" : {
-            "n" : "origins29",
-            "s" : "origins31"
+            "n" : "origins29@origins",
+            "s" : "origins31@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1150,8 +1150,8 @@
       },
       "origins25@origins" : {
          "exits" : {
-            "u" : "origins26",
-            "d" : "origins24"
+            "u" : "origins26@origins",
+            "d" : "origins24@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1166,8 +1166,8 @@
       },
       "origins20@origins" : {
          "exits" : {
-            "e" : "origins21",
-            "s" : "origins19"
+            "e" : "origins21@origins",
+            "s" : "origins19@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1182,7 +1182,7 @@
       },
       "origins67@origins" : {
          "exits" : {
-            "n" : "^cylinder_1"
+            "n" : "^cylinder_1@origins"
          },
          "flags" : [
             "OnePerson"
@@ -1195,8 +1195,8 @@
       },
       "origins38@origins" : {
          "exits" : {
-            "u" : "origins39",
-            "n" : "origins33"
+            "u" : "origins39@origins",
+            "n" : "origins33@origins"
          },
          "flags" : [
             "Dark",
@@ -1211,8 +1211,8 @@
       },
       "origins14@origins" : {
          "exits" : {
-            "n" : "origins15",
-            "s" : "origins11"
+            "n" : "origins15@origins",
+            "s" : "origins11@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1227,8 +1227,8 @@
       },
       "origins48@origins" : {
          "exits" : {
-            "n" : "origins41",
-            "s" : "origins49"
+            "n" : "origins41@origins",
+            "s" : "origins49@origins"
          },
          "flags" : [
             "NoMagic",
@@ -1259,8 +1259,8 @@
       },
       "origins21@origins" : {
          "exits" : {
-            "e" : "origins22",
-            "w" : "origins20"
+            "e" : "origins22@origins",
+            "w" : "origins20@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1275,7 +1275,7 @@
       },
       "origins32@origins" : {
          "exits" : {
-            "e" : "origins31"
+            "e" : "origins31@origins"
          },
          "flags" : [
             "Dark",
@@ -1290,10 +1290,10 @@
       },
       "origins11@origins" : {
          "exits" : {
-            "w" : "origins13",
-            "e" : "^door1",
-            "n" : "origins14",
-            "s" : "origins10"
+            "w" : "origins13@origins",
+            "e" : "^door1@origins",
+            "n" : "origins14@origins",
+            "s" : "origins10@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1309,7 +1309,7 @@
       "origins1@origins" : {
          "exits" : {
             "w" : "sherwood2@sherwood",
-            "n" : "origins2"
+            "n" : "origins2@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1324,8 +1324,8 @@
       },
       "origins50@origins" : {
          "exits" : {
-            "u" : "origins51",
-            "d" : "origins49"
+            "u" : "origins51@origins",
+            "d" : "origins49@origins"
          },
          "flags" : [
             "Peaceful",
@@ -1342,7 +1342,7 @@
       },
       "origins17@origins" : {
          "exits" : {
-            "d" : "^bridge2"
+            "d" : "^bridge2@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1358,7 +1358,7 @@
       },
       "origins51@origins" : {
          "exits" : {
-            "u" : "origins52"
+            "u" : "origins52@origins"
          },
          "flags" : [
             "NoMagic",
@@ -1374,7 +1374,7 @@
       },
       "origins52@origins" : {
          "exits" : {
-            "e" : "origins53"
+            "e" : "origins53@origins"
          },
          "flags" : [
             "NoMagic",
@@ -1390,7 +1390,7 @@
       },
       "origins23@origins" : {
          "exits" : {
-            "s" : "origins22"
+            "s" : "origins22@origins"
          },
          "flags" : [
             "Dark",
@@ -1407,9 +1407,9 @@
       },
       "origins63@origins" : {
          "exits" : {
-            "u" : "origins65",
-            "n" : "origins64",
-            "s" : "origins60"
+            "u" : "origins65@origins",
+            "n" : "origins64@origins",
+            "s" : "origins60@origins"
          },
          "flags" : [
             "Outdoors"
@@ -1422,10 +1422,10 @@
       },
       "origins5@origins" : {
          "exits" : {
-            "w" : "origins5",
-            "e" : "origins3",
-            "n" : "origins4",
-            "s" : "origins5"
+            "w" : "origins5@origins",
+            "e" : "origins3@origins",
+            "n" : "origins4@origins",
+            "s" : "origins5@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1451,10 +1451,10 @@
       },
       "origins6@origins" : {
          "exits" : {
-            "w" : "origins4",
-            "e" : "origins7",
-            "n" : "origins4",
-            "s" : "origins5"
+            "w" : "origins4@origins",
+            "e" : "origins7@origins",
+            "n" : "origins4@origins",
+            "s" : "origins5@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1468,8 +1468,8 @@
       },
       "origins44@origins" : {
          "exits" : {
-            "n" : "^waterfall",
-            "s" : "origins43"
+            "n" : "^waterfall@origins",
+            "s" : "origins43@origins"
          },
          "flags" : [
             "Peaceful",
@@ -1488,10 +1488,10 @@
       },
       "origins3@origins" : {
          "exits" : {
-            "w" : "origins3",
-            "e" : "origins4",
-            "n" : "origins6",
-            "s" : "origins2"
+            "w" : "origins3@origins",
+            "e" : "origins4@origins",
+            "n" : "origins6@origins",
+            "s" : "origins2@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1505,10 +1505,10 @@
       },
       "origins9@origins" : {
          "exits" : {
-            "w" : "origins10",
-            "e" : "origins3",
-            "n" : "origins3",
-            "s" : "origins3"
+            "w" : "origins10@origins",
+            "e" : "origins3@origins",
+            "n" : "origins3@origins",
+            "s" : "origins3@origins"
          },
          "flags" : [
             "Outdoors",
@@ -1522,8 +1522,8 @@
       },
       "origins45@origins" : {
          "exits" : {
-            "d" : "origins46",
-            "s" : "^waterfall_1"
+            "d" : "origins46@origins",
+            "s" : "^waterfall_1@origins"
          },
          "flags" : [
             "Dark",
@@ -1545,7 +1545,7 @@
    "mob" : {
       "lee@origins" : {
          "damage" : "5",
-         "location" : "origins16",
+         "location" : "origins16@origins",
          "armor" : "27",
          "name" : "Lee",
          "description" : "\nGeddy Lee, keeper of the magical Bridge of Lamneth, stands here looking worried.\n&+WGeddy Lee&n asks you '&+WHave you seen my &+Wmagical bass?&n'",
@@ -1563,7 +1563,7 @@
       },
       "sothurithidan@origins" : {
          "damage" : "7",
-         "location" : "origins10",
+         "location" : "origins10@origins",
          "armor" : "5",
          "name" : "Sothurithidan",
          "description" : "\nThe sword guard of Rivendell, Sothurithidan, will allow no passage!",
@@ -1589,7 +1589,7 @@
             "NegFrost"
          ],
          "damage" : "8",
-         "location" : "origins64",
+         "location" : "origins64@origins",
          "armor" : "30",
          "name" : "Imbalance",
          "description" : "\nThe bestial personification of imbalance, bane of all orderly and productive \nlife, threatens you mockingly.",
@@ -1606,7 +1606,7 @@
       },
       "spectre@origins" : {
          "damage" : "12",
-         "location" : "origins21",
+         "location" : "origins21@origins",
          "armor" : "9",
          "name" : "Spectre",
          "description" : "A wispy, shadowy, form guards the location of its death fiercely!\n'&+WStay back or die,&n' the weary shade of the Traveler moans.  Its very voice\ndrains the courage out of you.",
@@ -1626,7 +1626,7 @@
       },
       "broonsie@origins" : {
          "damage" : "1",
-         "location" : "origins48",
+         "location" : "origins48@origins",
          "armor" : "18",
          "name" : "Broonsie",
          "description" : "T.C. Broonsie asks for your spaceport pass.",
@@ -1651,7 +1651,7 @@
             "NegFrost"
          ],
          "damage" : "10",
-         "location" : "origins36",
+         "location" : "origins36@origins",
          "armor" : "6",
          "name" : "Numbskull",
          "description" : "Numbskull the mindless skeleton guard doesn't like intruders!",
@@ -1662,7 +1662,7 @@
       },
       "apollo@origins" : {
          "damage" : "10",
-         "location" : "origins62",
+         "location" : "origins62@origins",
          "armor" : "5",
          "name" : "Apollo",
          "description" : "\n&+WApollo, &+gBringer of &+BWisdom,&n says '&+WI bring Truth and Understanding, \n&+WI bring Wit and Wisdom fair; precious gifts beyond compare.&n'",
@@ -1681,7 +1681,7 @@
       },
       "addict@origins" : {
          "damage" : "3",
-         "location" : "origins42",
+         "location" : "origins42@origins",
          "armor" : "16",
          "name" : "Addict",
          "description" : "One guy has had a little too much TempleVision for one day!",
@@ -1695,7 +1695,7 @@
       },
       "koshee@origins" : {
          "damage" : "8",
-         "location" : "origins3",
+         "location" : "origins3@origins",
          "speed" : "8",
          "aggression" : "75",
          "armor" : "6",
@@ -1706,7 +1706,7 @@
       },
       "lifeson@origins" : {
          "damage" : "5",
-         "location" : "origins43",
+         "location" : "origins43@origins",
          "armor" : "27",
          "name" : "Lifeson",
          "description" : "&+WAlex Lifeson &nsays '&+WMy mentor Jon has been &+Wmurdered!  &+WLet's  discuss this\n&+Wgrave issue.&n'",
@@ -1731,7 +1731,7 @@
             "NegShock"
          ],
          "damage" : "11",
-         "location" : "origins40",
+         "location" : "origins40@origins",
          "armor" : "25",
          "name" : "Necromancer",
          "description" : "Suddenly, a human-shaped wraith materializes in front of you!",
@@ -1752,7 +1752,7 @@
       },
       "cooshee@origins" : {
          "damage" : "8",
-         "location" : "origins3",
+         "location" : "origins3@origins",
          "speed" : "8",
          "armor" : "6",
          "aggression" : "75",
@@ -1767,7 +1767,7 @@
             "NegShock"
          ],
          "damage" : "13",
-         "location" : "origins23",
+         "location" : "origins23@origins",
          "armor" : "18",
          "name" : "Skeletree",
          "description" : "\nA skeletal tree weeping blood sits rooted miserably to the ground here.",
@@ -1781,7 +1781,7 @@
             "NegFrost"
          ],
          "damage" : "10",
-         "location" : "origins37",
+         "location" : "origins37@origins",
          "armor" : "6",
          "name" : "Dumbskull",
          "description" : "The skeletal guard Dumbskull wants you off his post!",
@@ -1792,7 +1792,7 @@
       },
       "panacea@origins" : {
          "damage" : "2",
-         "location" : "origins17",
+         "location" : "origins17@origins",
          "armor" : "0",
          "name" : "Panacea",
          "description" : "Panacea, liquid grace and passion pure, seductively beckons you.\n&+WPanacea &nwhispers '&+WI will soothe your primal fears...&n'",
@@ -1810,7 +1810,7 @@
       },
       "cathshee@origins" : {
          "damage" : "6",
-         "location" : "origins3",
+         "location" : "origins3@origins",
          "armor" : "16",
          "name" : "Cathshee",
          "description" : "The mythical elven cat, Cath-shee, protects her sacred forest unto death.",
@@ -1823,7 +1823,7 @@
       },
       "dionysus@origins" : {
          "damage" : "5",
-         "location" : "origins61",
+         "location" : "origins61@origins",
          "armor" : "10",
          "name" : "Dionysus",
          "description" : "\n&+WDionysus, &+gBringer of &+RLove,&n says '&+WI bring Love to give you solace, \n&+Win the Darkness of the Night; only Love can steer you right.&n'",
@@ -1842,7 +1842,7 @@
       },
       "peart@origins" : {
          "damage" : "5",
-         "location" : "origins50",
+         "location" : "origins50@origins",
          "armor" : "27",
          "name" : "Peart",
          "description" : "\nNeil Peart, the 'professor' of percussion, wields his drumsticks expertly.\n&+WNeil Peart &nsays '&+WI can take you home, on my &+Wship.&n'",
@@ -1862,7 +1862,7 @@
             "NegFrost"
          ],
          "damage" : "15",
-         "location" : "origins39",
+         "location" : "origins39@origins",
          "armor" : "20",
          "name" : "Snowdog",
          "description" : "SnowDog, centurion of evil, nemesis of ByTor, and guardian of The Necromancer,\nattacks!",
@@ -1876,7 +1876,7 @@
       },
       "specter@origins" : {
          "damage" : "10",
-         "location" : "origins18",
+         "location" : "origins18@origins",
          "speed" : "7",
          "aggression" : "100",
          "armor" : "9",
@@ -1887,7 +1887,7 @@
       },
       "brown@origins" : {
          "damage" : "25",
-         "location" : "origins47",
+         "location" : "origins47@origins",
          "armor" : "50",
          "name" : "Brown",
          "description" : "Father Brown, Head Priest of the Temples of Syrinx, smiles warmly at you.",

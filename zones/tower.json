@@ -1,7 +1,7 @@
 {
    "obj" : {
       "coins@tower" : {
-         "location" : "IN_ROOM:Treasure",
+         "location" : "IN_ROOM:treasure@tower",
          "weight" : "10",
          "altname" : "silver",
          "name" : "coins",
@@ -11,7 +11,7 @@
          "size" : "10"
       },
       "potion@tower" : {
-         "location" : "IN_ROOM:Treasure",
+         "location" : "IN_ROOM:treasure@tower",
          "weight" : "2",
          "name" : "potion",
          "examine" : "The potion has a small label saying \"Restore Strength\" on it.",
@@ -20,7 +20,7 @@
          "size" : "2"
       },
       "fountain@tower" : {
-         "location" : "IN_ROOM:Sorceror",
+         "location" : "IN_ROOM:sorceror@tower",
          "oflags" : [
             "Lit",
             "NoGet"
@@ -29,7 +29,7 @@
          "examine" : "\nYou see a fountain of fire, not the sort to jump into on New Year's Day,\nthough it would seem very cosy to have in the living room."
       },
       "orb@tower" : {
-         "location" : "IN_ROOM:Treasure",
+         "location" : "IN_ROOM:treasure@tower",
          "weight" : "6",
          "altname" : "gold",
          "name" : "orb",
@@ -40,7 +40,7 @@
       },
       "shelf@tower" : {
          "desc[1]" : "\nA wooden shelf on the north wall looks as if it once held many ancient tomes.",
-         "location" : "IN_ROOM:Black",
+         "location" : "IN_ROOM:black@tower",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -56,7 +56,7 @@
       "candlestick@tower" : {
          "desc[1]" : "A hefty gold candlestick lies here, with a candle in it.",
          "damage" : "4",
-         "location" : "IN_ROOM:Spell",
+         "location" : "IN_ROOM:spell@tower",
          "oflags" : [
             "Weapon"
          ],
@@ -73,7 +73,7 @@
       },
       "blue_candle@tower" : {
          "desc[1]" : "There is a blue candle here.",
-         "location" : "IN_ROOM:Candle",
+         "location" : "IN_ROOM:candle@tower",
          "oflags" : [
             "Extinguish",
             "Lightable"
@@ -89,7 +89,7 @@
          "desc[0]" : "A blue candle burns here, emitting a soft flickering flame."
       },
       "panel@tower" : {
-         "location" : "IN_ROOM:Candle",
+         "location" : "IN_ROOM:candle@tower",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -102,7 +102,7 @@
          "desc[0]" : "A small wooden panel is open in the southern wall."
       },
       "scroll@tower" : {
-         "location" : "IN_ROOM:Scroll",
+         "location" : "IN_ROOM:scroll@tower",
          "weight" : "1",
          "name" : "scroll",
          "examine" : "\nThe scroll reads:\n\"Read the words in the true light\n and be amazed as you take flight\"\n",
@@ -112,7 +112,7 @@
       },
       "door_tower@tower" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:base",
+         "location" : "IN_ROOM:base@tower",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -127,7 +127,7 @@
       },
       "fire@tower" : {
          "desc[1]" : "The ashes of a fire smoulder in a corner.",
-         "location" : "IN_ROOM:Potion",
+         "location" : "IN_ROOM:potion@tower",
          "oflags" : [
             "NoGet",
             "Lit",
@@ -141,7 +141,7 @@
       },
       "book@tower" : {
          "desc[1]" : "A large book rests on the shelf.",
-         "location" : "IN_ROOM:Black",
+         "location" : "IN_ROOM:black@tower",
          "oflags" : [
             "Getflips"
          ],
@@ -153,7 +153,7 @@
          "desc[0]" : "There is a large mystical looking book here."
       },
       "runes@tower" : {
-         "location" : "IN_ROOM:Scroll",
+         "location" : "IN_ROOM:scroll@tower",
          "oflags" : [
             "NoGet"
          ],
@@ -164,7 +164,7 @@
          "desc[0]" : "Some mysterious runes are etched on the wall."
       },
       "crown@tower" : {
-         "location" : "IN_ROOM:Treasure",
+         "location" : "IN_ROOM:treasure@tower",
          "oflags" : [
             "Wearable"
          ],
@@ -181,7 +181,7 @@
       },
       "red_candle@tower" : {
          "desc[1]" : "There is a red candle here.",
-         "location" : "IN_ROOM:Candle",
+         "location" : "IN_ROOM:candle@tower",
          "oflags" : [
             "Extinguish",
             "Lightable"
@@ -198,7 +198,7 @@
       },
       "wand@tower" : {
          "damage" : "10",
-         "location" : "IN_ROOM:Magical",
+         "location" : "IN_ROOM:magical@tower",
          "armor" : "0",
          "oflags" : [
             "Weapon"
@@ -214,7 +214,7 @@
       },
       "green_candle@tower" : {
          "desc[1]" : "There is a green candle here.",
-         "location" : "IN_ROOM:Candle",
+         "location" : "IN_ROOM:candle@tower",
          "oflags" : [
             "Extinguish",
             "Lightable"
@@ -231,7 +231,7 @@
       },
       "door_shazareth@tower" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Sorceror",
+         "location" : "IN_ROOM:sorceror@tower",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -248,7 +248,7 @@
       },
       "ball@tower" : {
          "desc[1]" : "The centre of the room is filled with an expanding ball of light.",
-         "location" : "IN_ROOM:Treasure",
+         "location" : "IN_ROOM:treasure@tower",
          "oflags" : [
             "NoGet",
             "Lit",
@@ -264,7 +264,7 @@
       },
       "door_treasure@tower" : {
          "desc[1]" : "The door to the north is closed.",
-         "location" : "IN_ROOM:Treasure",
+         "location" : "IN_ROOM:treasure@tower",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -280,7 +280,7 @@
          "desc[0]" : "The door to the north is open."
       },
       "ring@tower" : {
-         "location" : "WORN_BY:Shazareth",
+         "location" : "WORN_BY:shazareth@tower",
          "oflags" : [
             "Wearable",
             "RegenHealth",
@@ -298,7 +298,7 @@
          ]
       },
       "chute_bot@tower" : {
-         "location" : "IN_ROOM:Black",
+         "location" : "IN_ROOM:black@tower",
          "oflags" : [
             "NoGet"
          ],
@@ -307,7 +307,7 @@
          "desc[0]" : "There is a chute in the wall, too small to climb up."
       },
       "hole@tower" : {
-         "location" : "IN_ROOM:Sorceror",
+         "location" : "IN_ROOM:sorceror@tower",
          "oflags" : [
             "NoGet"
          ],
@@ -317,7 +317,7 @@
          "desc[0]" : "There is a small hole carved into the south wall."
       },
       "chute_top@tower" : {
-         "location" : "IN_ROOM:Ante",
+         "location" : "IN_ROOM:ante@tower",
          "oflags" : [
             "NoGet"
          ],
@@ -326,7 +326,7 @@
          "desc[0]" : "There is a chute in the wall, too small to climb down."
       },
       "cauldron@tower" : {
-         "location" : "IN_ROOM:Potion",
+         "location" : "IN_ROOM:potion@tower",
          "oflags" : [
             "NoGet",
             "Container"
@@ -337,7 +337,7 @@
          "desc[0]" : "A large cauldron bubbles away before you."
       },
       "staff@tower" : {
-         "location" : "IN_ROOM:Treasure",
+         "location" : "IN_ROOM:treasure@tower",
          "weight" : "3",
          "altname" : "runed",
          "name" : "staff",
@@ -348,7 +348,7 @@
       },
       "sceptre@tower" : {
          "damage" : "7",
-         "location" : "IN_ROOM:Ante",
+         "location" : "IN_ROOM:ante@tower",
          "oflags" : [
             "Weapon"
          ],
@@ -364,7 +364,7 @@
    "loc" : {
       "treasure@tower" : {
          "exits" : {
-            "n" : "^Door_Treasure"
+            "n" : "^door_treasure@tower"
          },
          "flags" : [],
          "zone" : "tower",
@@ -375,8 +375,8 @@
       },
       "levitation@tower" : {
          "exits" : {
-            "u" : "Ante",
-            "s" : "Wraith"
+            "u" : "ante@tower",
+            "s" : "wraith@tower"
          },
          "flags" : [],
          "zone" : "tower",
@@ -387,7 +387,7 @@
       },
       "spell@tower" : {
          "exits" : {
-            "n" : "Potion"
+            "n" : "potion@tower"
          },
          "flags" : [],
          "zone" : "tower",
@@ -398,7 +398,7 @@
       },
       "potion@tower" : {
          "exits" : {
-            "s" : "Spell"
+            "s" : "spell@tower"
          },
          "flags" : [],
          "zone" : "tower",
@@ -409,9 +409,9 @@
       },
       "sorceror@tower" : {
          "exits" : {
-            "w" : "Ante",
-            "e" : "Ledge",
-            "s" : "^Door_Shazareth"
+            "w" : "ante@tower",
+            "e" : "ledge@tower",
+            "s" : "^door_shazareth@tower"
          },
          "flags" : [],
          "zone" : "tower",
@@ -422,8 +422,8 @@
       },
       "black@tower" : {
          "exits" : {
-            "w" : "Base",
-            "n" : "^Shelf"
+            "w" : "base@tower",
+            "n" : "^shelf@tower"
          },
          "flags" : [],
          "zone" : "tower",
@@ -434,8 +434,8 @@
       },
       "candle@tower" : {
          "exits" : {
-            "w" : "Scroll",
-            "s" : "^Panel"
+            "w" : "scroll@tower",
+            "s" : "^panel@tower"
          },
          "flags" : [],
          "zone" : "tower",
@@ -446,8 +446,8 @@
       },
       "ante@tower" : {
          "exits" : {
-            "e" : "Sorceror",
-            "d" : "Levitation"
+            "e" : "sorceror@tower",
+            "d" : "levitation@tower"
          },
          "flags" : [],
          "zone" : "tower",
@@ -458,7 +458,7 @@
       },
       "scroll@tower" : {
          "exits" : {
-            "e" : "Candle"
+            "e" : "candle@tower"
          },
          "flags" : [],
          "zone" : "tower",
@@ -469,8 +469,8 @@
       },
       "wraith@tower" : {
          "exits" : {
-            "w" : "Magical",
-            "n" : "Levitation"
+            "w" : "magical@tower",
+            "n" : "levitation@tower"
          },
          "flags" : [],
          "zone" : "tower",
@@ -481,8 +481,8 @@
       },
       "base@tower" : {
          "exits" : {
-            "e" : "Black",
-            "n" : "^Door_Tower"
+            "e" : "black@tower",
+            "n" : "^door_tower@tower"
          },
          "flags" : [],
          "zone" : "tower",
@@ -493,7 +493,7 @@
       },
       "magical@tower" : {
          "exits" : {
-            "e" : "Wraith"
+            "e" : "wraith@tower"
          },
          "flags" : [],
          "zone" : "tower",
@@ -504,7 +504,7 @@
       },
       "ledge@tower" : {
          "exits" : {
-            "w" : "Sorceror"
+            "w" : "sorceror@tower"
          },
          "flags" : [],
          "zone" : "tower",
@@ -517,7 +517,7 @@
    "mob" : {
       "wraith@tower" : {
          "damage" : "10",
-         "location" : "Wraith",
+         "location" : "wraith@tower",
          "armor" : "0",
          "name" : "wraith",
          "description" : "The chill shadowy form of a wraith swirls and dances around you.",
@@ -539,7 +539,7 @@
             "Blind"
          ],
          "damage" : "10",
-         "location" : "Sorceror",
+         "location" : "sorceror@tower",
          "armor" : "0",
          "name" : "cat",
          "description" : "A black cat stares at you from the shadows, purring gently.",
@@ -555,7 +555,7 @@
             "Frost"
          ],
          "damage" : "10",
-         "location" : "Sorceror",
+         "location" : "sorceror@tower",
          "armor" : "0",
          "name" : "shazareth",
          "description" : "Shazareth The Sorceror stands here.",

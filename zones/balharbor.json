@@ -2,7 +2,7 @@
    "obj" : {
       "inweap_door@balharbor" : {
          "desc[1]" : "The door is shut.",
-         "location" : "IN_ROOM:balhar11",
+         "location" : "IN_ROOM:balhar11@balharbor",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -15,7 +15,7 @@
          "desc[0]" : "An open door leads outside into Idol Square."
       },
       "rock@balharbor" : {
-         "location" : "CARRIED_BY:Rockthrower",
+         "location" : "CARRIED_BY:rockthrower@balharbor",
          "weight" : "5",
          "altname" : "rocks",
          "name" : "rock",
@@ -25,7 +25,7 @@
          "size" : "4"
       },
       "table@balharbor" : {
-         "location" : "IN_ROOM:btower136",
+         "location" : "IN_ROOM:btower136@balharbor",
          "oflags" : [
             "Noget"
          ],
@@ -34,7 +34,7 @@
          "desc[0]" : "A planning table has been set up in the middle of the room, sitting on the\nsurface appears to be some sort of Stratego(TM) game setup.  Obviously it's\na simulation of the real thing!"
       },
       "pillars2@balharbor" : {
-         "location" : "IN_ROOM:balhar87",
+         "location" : "IN_ROOM:balhar87@balharbor",
          "oflags" : [
             "Noget"
          ],
@@ -45,7 +45,7 @@
          "desc[0]" : "Hundreds of pillars of salt resembling people litter this site."
       },
       "ironring@balharbor" : {
-         "location" : "WORN_BY:Adventurer",
+         "location" : "WORN_BY:adventurer@balharbor",
          "armor" : "14",
          "oflags" : [
             "Wearable",
@@ -65,7 +65,7 @@
       },
       "club@balharbor" : {
          "damage" : "5",
-         "location" : "WIELDED_BY:mugger",
+         "location" : "WIELDED_BY:mugger@balharbor",
          "oflags" : [
             "Weapon"
          ],
@@ -78,7 +78,7 @@
       },
       "snorkel1@balharbor" : {
          "desc[1]" : "A snorkel lies on the dock, which would allow swimming underwater.",
-         "location" : "IN_ROOM:balhar79",
+         "location" : "IN_ROOM:balhar79@balharbor",
          "armor" : "10",
          "oflags" : [
             "Wearable",
@@ -101,7 +101,7 @@
       },
       "injail_door@balharbor" : {
          "desc[1]" : "The celldoor is shut, but you should leave ASAP.",
-         "location" : "IN_ROOM:btower138",
+         "location" : "IN_ROOM:btower138@balharbor",
          "oflags" : [
             "Lockable",
             "NoGet",
@@ -116,7 +116,7 @@
          "desc[0]" : "The celldoor is open, you're free!"
       },
       "handcuffs@balharbor" : {
-         "location" : "IN_CONTAINER:desk",
+         "location" : "IN_CONTAINER:desk@balharbor",
          "oflags" : [
             "Wearable",
             "MissChance"
@@ -131,7 +131,7 @@
       },
       "lantern@balharbor" : {
          "desc[1]" : "A lantern sits here unlit.",
-         "location" : "IN_ROOM:btower137",
+         "location" : "IN_ROOM:btower137@balharbor",
          "oflags" : [
             "Lightable",
             "Extinguish"
@@ -146,7 +146,7 @@
          "desc[0]" : "A lantern lights up this dark room."
       },
       "rope@balharbor" : {
-         "location" : "IN_ROOM:btower138",
+         "location" : "IN_ROOM:btower138@balharbor",
          "oflags" : [
             "NoGet",
             "UnLocatable"
@@ -156,7 +156,7 @@
          "desc[0]" : "The Weapon Smith sits here all up tied with rope!"
       },
       "potatochips@balharbor" : {
-         "location" : "IN_CONTAINER:picnicbasket",
+         "location" : "IN_CONTAINER:picnicbasket@balharbor",
          "oflags" : [
             "Food"
          ],
@@ -170,7 +170,7 @@
       "sweeper@balharbor" : {
          "desc[1]" : "It looks like the streetsweeper got swept away by his own broom.",
          "damage" : "4",
-         "location" : "WIELDED_BY:streetsweeper",
+         "location" : "WIELDED_BY:streetsweeper@balharbor",
          "oflags" : [
             "Weapon",
             "Getflips"
@@ -187,7 +187,7 @@
          "desc[0]" : "A sweeper has been left here."
       },
       "leathercollar@balharbor" : {
-         "location" : "WORN_BY:Alleycat",
+         "location" : "WORN_BY:alleycat@balharbor",
          "armor" : "7",
          "oflags" : [
             "Wearable",
@@ -205,7 +205,7 @@
       },
       "fork@balharbor" : {
          "damage" : "4",
-         "location" : "IN_CONTAINER:picnicbasket",
+         "location" : "IN_CONTAINER:picnicbasket@balharbor",
          "oflags" : [
             "Weapon"
          ],
@@ -217,7 +217,7 @@
          "desc[0]" : "A fork got lost here."
       },
       "firebomb@balharbor" : {
-         "location" : "CARRIED_BY:Firebomber",
+         "location" : "CARRIED_BY:firebomber@balharbor",
          "oflags" : [
             "Lightable"
          ],
@@ -230,7 +230,7 @@
          "desc[0]" : "A bottle filled with a flammable liquid got left here unlit."
       },
       "armor@balharbor" : {
-         "location" : "CARRIED_BY:Otherkid",
+         "location" : "CARRIED_BY:otherkid@balharbor",
          "armor" : "35",
          "oflags" : [
             "Wearable",
@@ -247,7 +247,7 @@
          ]
       },
       "shrine@balharbor" : {
-         "location" : "IN_ROOM:jungle6",
+         "location" : "IN_ROOM:jungle6@balharbor",
          "oflags" : [
             "Noget"
          ],
@@ -257,7 +257,7 @@
          "desc[0]" : "A shrine to wizards who zapped themselves away sits here."
       },
       "bottle@balharbor" : {
-         "location" : "CARRIED_BY:Rioter",
+         "location" : "CARRIED_BY:rioter@balharbor",
          "weight" : "2",
          "name" : "bottle",
          "examine" : "It's an empty beer bottle.",
@@ -267,7 +267,7 @@
       },
       "dagger@balharbor" : {
          "damage" : "7",
-         "location" : "IN_ROOM:balhar46",
+         "location" : "IN_ROOM:balhar46@balharbor",
          "oflags" : [
             "Weapon"
          ],
@@ -280,7 +280,7 @@
       },
       "ale@balharbor" : {
          "desc[1]" : "A bottle of strong ale sits on the bar.",
-         "location" : "IN_ROOM:balhar7",
+         "location" : "IN_ROOM:balhar7@balharbor",
          "oflags" : [
             "Getflips",
             "Food"
@@ -294,13 +294,13 @@
          "desc[0]" : "A bottle of strong ale has been set on the ground."
       },
       "sign@balharbor" : {
-         "location" : "IN_ROOM:balhar32",
+         "location" : "IN_ROOM:balhar32@balharbor",
          "name" : "sign",
          "examine" : "\nNotice:  Please read INFO AUTHOR for an important message about this zone \nfrom the author.  -Crimefighter.",
          "desc[0]" : "Someone has driven a pole in the ground with a sign attached to it."
       },
       "coppercoins@balharbor" : {
-         "location" : "CARRIED_BY:Drunk",
+         "location" : "CARRIED_BY:drunk@balharbor",
          "weight" : "1",
          "altname" : "coins",
          "name" : "coppercoins",
@@ -309,7 +309,7 @@
          "size" : "1"
       },
       "silvercollar@balharbor" : {
-         "location" : "WORN_BY:Scruffy",
+         "location" : "WORN_BY:scruffy@balharbor",
          "armor" : "14",
          "oflags" : [
             "Armor",
@@ -326,7 +326,7 @@
          ]
       },
       "consign1@balharbor" : {
-         "location" : "IN_ROOM:jungle33",
+         "location" : "IN_ROOM:jungle33@balharbor",
          "oflags" : [
             "Noget"
          ],
@@ -337,7 +337,7 @@
          "desc[0]" : "A blinking construction sign is here, indicating the road is closed."
       },
       "crystalball@balharbor" : {
-         "location" : "IN_ROOM:balhar76",
+         "location" : "IN_ROOM:balhar76@balharbor",
          "oflags" : [
             "NoGet"
          ],
@@ -348,7 +348,7 @@
          "desc[0]" : "Rock music with lewd lyrics emminate from a crystal ball."
       },
       "boots@balharbor" : {
-         "location" : "WORN_BY:Bukki",
+         "location" : "WORN_BY:bukki@balharbor",
          "armor" : "10",
          "oflags" : [
             "Wearable",
@@ -366,7 +366,7 @@
       },
       "outcham_door@balharbor" : {
          "desc[1]" : "The door to judge's chambers has been shut.",
-         "location" : "IN_ROOM:balhar36",
+         "location" : "IN_ROOM:balhar36@balharbor",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -381,7 +381,7 @@
          "desc[0]" : "An open door goes into judge's private chambers."
       },
       "locker@balharbor" : {
-         "location" : "IN_ROOM:balhar66",
+         "location" : "IN_ROOM:balhar66@balharbor",
          "oflags" : [
             "Noget",
             "Openable",
@@ -395,7 +395,7 @@
          "state" : "2"
       },
       "bronzecoins@balharbor" : {
-         "location" : "CARRIED_BY:Streetsweeper",
+         "location" : "CARRIED_BY:streetsweeper@balharbor",
          "weight" : "1",
          "altname" : "coins",
          "name" : "bronzecoins",
@@ -405,7 +405,7 @@
       },
       "skull@balharbor" : {
          "desc[1]" : "A skull sits on the dock with crabs crawling in and out of the eye sockets.",
-         "location" : "IN_ROOM:balhar1",
+         "location" : "IN_ROOM:balhar1@balharbor",
          "oflags" : [
             "Getflips"
          ],
@@ -419,7 +419,7 @@
          "desc[0]" : "A human skull has been dropped on the ground."
       },
       "apple2@balharbor" : {
-         "location" : "IN_CONTAINER:basket",
+         "location" : "IN_CONTAINER:basket@balharbor",
          "oflags" : [
             "Food"
          ],
@@ -432,7 +432,7 @@
       },
       "outarmor_door@balharbor" : {
          "desc[1]" : "The door to the Armor Shop is closed.",
-         "location" : "IN_ROOM:balhar15",
+         "location" : "IN_ROOM:balhar15@balharbor",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -445,7 +445,7 @@
          "desc[0]" : "An open door leads inside the Armor Shop."
       },
       "bhmap@balharbor" : {
-         "location" : "IN_ROOM:balhar93",
+         "location" : "IN_ROOM:balhar93@balharbor",
          "oflags" : [
             "Noget"
          ],
@@ -457,7 +457,7 @@
       },
       "plans@balharbor" : {
          "desc[1]" : "Plans for some kind of new armorwear lie on the table.",
-         "location" : "IN_ROOM:btower136",
+         "location" : "IN_ROOM:btower136@balharbor",
          "oflags" : [
             "Getflips",
             "Destroyed"
@@ -472,7 +472,7 @@
          "desc[0]" : "Some plans for some kind of new armorwear lie crumpled on the ground."
       },
       "silvercoins@balharbor" : {
-         "location" : "IN_CONTAINER:box",
+         "location" : "IN_CONTAINER:box@balharbor",
          "weight" : "3",
          "altname" : "silver",
          "name" : "silvercoins",
@@ -481,7 +481,7 @@
          "size" : "3"
       },
       "recall@balharbor" : {
-         "location" : "CARRIED_BY:Scribe",
+         "location" : "CARRIED_BY:scribe@balharbor",
          "oflags" : [
             "Getflips",
             "Recall"
@@ -495,7 +495,7 @@
          "desc[0]" : "An unused recall scroll has been lost here."
       },
       "bible@balharbor" : {
-         "location" : "IN_ROOM:balhar61",
+         "location" : "IN_ROOM:balhar61@balharbor",
          "weight" : "1",
          "altname" : "book",
          "name" : "bible",
@@ -507,7 +507,7 @@
       "baseballbat@balharbor" : {
          "desc[1]" : "The Vandal has just struck out with this baseball bat.",
          "damage" : "17",
-         "location" : "WIELDED_BY:vandal",
+         "location" : "WIELDED_BY:vandal@balharbor",
          "oflags" : [
             "Weapon",
             "Getflips"
@@ -525,7 +525,7 @@
       "sledgehammer@balharbor" : {
          "desc[1]" : "The Smasher just smashed himself to pieces leaving his hammer here.",
          "damage" : "18",
-         "location" : "WIELDED_BY:smasher",
+         "location" : "WIELDED_BY:smasher@balharbor",
          "oflags" : [
             "Getflips",
             "Weapon"
@@ -540,7 +540,7 @@
          "desc[0]" : "A heavy sledgehammer sits here on the ground."
       },
       "sandwiches@balharbor" : {
-         "location" : "IN_CONTAINER:picnicbasket",
+         "location" : "IN_CONTAINER:picnicbasket@balharbor",
          "oflags" : [
             "Food"
          ],
@@ -567,7 +567,7 @@
       },
       "spike@balharbor" : {
          "damage" : "5",
-         "location" : "IN_ROOM:jungle10",
+         "location" : "IN_ROOM:jungle10@balharbor",
          "oflags" : [
             "Weapon"
          ],
@@ -580,7 +580,7 @@
          "desc[0]" : "A spike lies here."
       },
       "ironsleeves@balharbor" : {
-         "location" : "WORN_BY:Blacksmith",
+         "location" : "WORN_BY:blacksmith@balharbor",
          "armor" : "30",
          "oflags" : [
             "Wearable",
@@ -600,7 +600,7 @@
       "surfboard@balharbor" : {
          "desc[1]" : "The board floats on the water, that waverider obviously wiped out.",
          "damage" : "10",
-         "location" : "BOTH_BY:surfer",
+         "location" : "BOTH_BY:surfer@balharbor",
          "armor" : "10",
          "oflags" : [
             "Weapon",
@@ -623,7 +623,7 @@
       "torch@balharbor" : {
          "desc[1]" : "A brand new torch sits on the shelf.",
          "damage" : "5",
-         "location" : "IN_ROOM:balhar46",
+         "location" : "IN_ROOM:balhar46@balharbor",
          "oflags" : [
             "Weapon",
             "Lightable",
@@ -642,7 +642,7 @@
       },
       "inadv_door@balharbor" : {
          "desc[1]" : "The door is shut.",
-         "location" : "IN_ROOM:balhar7",
+         "location" : "IN_ROOM:balhar7@balharbor",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -655,7 +655,7 @@
          "desc[0]" : "An open door leads outside into Main Street."
       },
       "backpack@balharbor" : {
-         "location" : "IN_ROOM:balhar46",
+         "location" : "IN_ROOM:balhar46@balharbor",
          "oflags" : [
             "Wearable",
             "Container"
@@ -671,7 +671,7 @@
          "desc[0]" : "A large backpack has been left here."
       },
       "royaljelly@balharbor" : {
-         "location" : "IN_CONTAINER:beehive",
+         "location" : "IN_CONTAINER:beehive@balharbor",
          "oflags" : [
             "Food"
          ],
@@ -684,7 +684,7 @@
       },
       "anlace@balharbor" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:pallu",
+         "location" : "WIELDED_BY:pallu@balharbor",
          "oflags" : [
             "Weapon"
          ],
@@ -696,7 +696,7 @@
          "desc[0]" : "A two-edged dagger, known as an anlace lies on the ground."
       },
       "fire@balharbor" : {
-         "location" : "IN_ROOM:balhar48",
+         "location" : "IN_ROOM:balhar48@balharbor",
          "oflags" : [
             "Noget",
             "Lit"
@@ -705,7 +705,7 @@
          "desc[0]" : "A huge fire burns in the firepit against one wall."
       },
       "rations2@balharbor" : {
-         "location" : "IN_ROOM:balhar46",
+         "location" : "IN_ROOM:balhar46@balharbor",
          "oflags" : [
             "Food"
          ],
@@ -719,7 +719,7 @@
       },
       "bo@balharbor" : {
          "damage" : "15",
-         "location" : "IN_ROOM:sewer5",
+         "location" : "IN_ROOM:sewer5@balharbor",
          "oflags" : [
             "Weapon"
          ],
@@ -732,14 +732,14 @@
          "desc[0]" : "A long pole lies on the ground, called a bo."
       },
       "hangman@balharbor" : {
-         "location" : "IN_ROOM:jungle10",
+         "location" : "IN_ROOM:jungle10@balharbor",
          "altname" : "man",
          "name" : "hangman",
          "examine" : "\nWhoever it was, they were executed for doing or representing something that \nis considered to be blasphemy.  That person is so high up in the tree that \nyou can't cut him down to identify him.",
          "desc[0]" : "A man is hanging from a tree on a rope."
       },
       "fountain@balharbor" : {
-         "location" : "IN_ROOM:balhar22",
+         "location" : "IN_ROOM:balhar22@balharbor",
          "oflags" : [
             "Noget"
          ],
@@ -749,7 +749,7 @@
       },
       "treewand@balharbor" : {
          "desc[1]" : "You spot some kind of wand in the log!",
-         "location" : "IN_CONTAINER:log",
+         "location" : "IN_CONTAINER:log@balharbor",
          "oflags" : [
             "Getflips"
          ],
@@ -766,7 +766,7 @@
       "gavel@balharbor" : {
          "desc[1]" : "The court is in recess.",
          "damage" : "2",
-         "location" : "IN_ROOM:balhar36",
+         "location" : "IN_ROOM:balhar36@balharbor",
          "oflags" : [
             "Weapon",
             "Getflips"
@@ -781,7 +781,7 @@
          "desc[0]" : "Some judge lost his gavel here."
       },
       "lotion@balharbor" : {
-         "location" : "CARRIED_BY:Bather",
+         "location" : "CARRIED_BY:bather@balharbor",
          "oflags" : [
             "Wearable"
          ],
@@ -794,7 +794,7 @@
       },
       "wine@balharbor" : {
          "desc[1]" : "A bottle of your favorite wine sits on the rack.",
-         "location" : "IN_ROOM:btower137",
+         "location" : "IN_ROOM:btower137@balharbor",
          "oflags" : [
             "Alcohol",
             "Destroyed",
@@ -814,7 +814,7 @@
       },
       "sai@balharbor" : {
          "damage" : "15",
-         "location" : "IN_ROOM:sewer5",
+         "location" : "IN_ROOM:sewer5@balharbor",
          "oflags" : [
             "Weapon"
          ],
@@ -827,7 +827,7 @@
          "desc[0]" : "A pair of sai are stuck in the ground here."
       },
       "apple1@balharbor" : {
-         "location" : "IN_CONTAINER:basket",
+         "location" : "IN_CONTAINER:basket@balharbor",
          "oflags" : [
             "Food"
          ],
@@ -840,7 +840,7 @@
       },
       "mallet@balharbor" : {
          "damage" : "8",
-         "location" : "IN_ROOM:jungle10",
+         "location" : "IN_ROOM:jungle10@balharbor",
          "oflags" : [
             "Weapon"
          ],
@@ -854,7 +854,7 @@
          "desc[0]" : "A well-used spike-driving mallet was lost here."
       },
       "rack@balharbor" : {
-         "location" : "IN_ROOM:btower137",
+         "location" : "IN_ROOM:btower137@balharbor",
          "oflags" : [
             "NoGet"
          ],
@@ -863,7 +863,7 @@
          "examine" : "It seems Sisera forgot to restock his rack, those bottles are empty!"
       },
       "engraving@balharbor" : {
-         "location" : "IN_ROOM:btower25",
+         "location" : "IN_ROOM:btower25@balharbor",
          "oflags" : [
             "NoGet"
          ],
@@ -873,7 +873,7 @@
          "desc[0]" : "Some words are engraved in the wall!"
       },
       "corpse@balharbor" : {
-         "location" : "IN_ROOM:balhar84",
+         "location" : "IN_ROOM:balhar84@balharbor",
          "oflags" : [
             "NoGet"
          ],
@@ -885,7 +885,7 @@
       "stick@balharbor" : {
          "desc[1]" : "An old stick is burning on the ground.",
          "damage" : "1",
-         "location" : "IN_ROOM:jungle16",
+         "location" : "IN_ROOM:jungle16@balharbor",
          "oflags" : [
             "Lightable",
             "Extinguish",
@@ -898,7 +898,7 @@
          "desc[0]" : "An old stick rotted off a tree here."
       },
       "leggings@balharbor" : {
-         "location" : "WORN_BY:Kish",
+         "location" : "WORN_BY:kish@balharbor",
          "armor" : "28",
          "oflags" : [
             "Wearable",
@@ -917,7 +917,7 @@
       "dirk@balharbor" : {
          "desc[1]" : "A long-pointed dagger, called a dirk sticks out from the back of the mayor's\ncorpse.",
          "damage" : "16",
-         "location" : "IN_ROOM:balhar84",
+         "location" : "IN_ROOM:balhar84@balharbor",
          "oflags" : [
             "Weapon",
             "Getflips",
@@ -955,7 +955,7 @@
          ]
       },
       "pit1@balharbor" : {
-         "location" : "IN_ROOM:balhar48",
+         "location" : "IN_ROOM:balhar48@balharbor",
          "oflags" : [
             "Noget"
          ],
@@ -965,7 +965,7 @@
          "desc[0]" : "A sacrificial pit is here, serving to take your valuables."
       },
       "bodies@balharbor" : {
-         "location" : "IN_ROOM:balhar66",
+         "location" : "IN_ROOM:balhar66@balharbor",
          "oflags" : [
             "Noget"
          ],
@@ -974,7 +974,7 @@
          "examine" : "One of them is still alive!  John McClain sits up and tells you jokingly\n'Ha ha ha...those creeps didn't know what hit them, I snuck a bomb in the\ncash they stole...now their blood and guts are blown all over Bal Harbor!'\nAfter saying that, he flops back down obviously dazed."
       },
       "safetykey@balharbor" : {
-         "location" : "IN_ROOM:balhar66",
+         "location" : "IN_ROOM:balhar66@balharbor",
          "oflags" : [
             "Key"
          ],
@@ -988,7 +988,7 @@
       },
       "beehive@balharbor" : {
          "desc[1]" : "A large beehive sits mounted on a post.",
-         "location" : "IN_ROOM:park10",
+         "location" : "IN_ROOM:park10@balharbor",
          "oflags" : [
             "NoGet",
             "Container",
@@ -1004,7 +1004,7 @@
       },
       "picnicbasket@balharbor" : {
          "desc[1]" : "A picnic basket is sitting on a table.",
-         "location" : "IN_ROOM:park4",
+         "location" : "IN_ROOM:park4@balharbor",
          "oflags" : [
             "Getflips",
             "Container"
@@ -1017,7 +1017,7 @@
          "desc[0]" : "A picnic basket was left lying around."
       },
       "studdedjacket@balharbor" : {
-         "location" : "WORN_BY:Mercenary",
+         "location" : "WORN_BY:mercenary@balharbor",
          "armor" : "20",
          "oflags" : [
             "Wearable",
@@ -1038,7 +1038,7 @@
          ]
       },
       "consign2@balharbor" : {
-         "location" : "IN_ROOM:balhar58",
+         "location" : "IN_ROOM:balhar58@balharbor",
          "oflags" : [
             "Noget"
          ],
@@ -1049,7 +1049,7 @@
          "desc[0]" : "A barricade is here, blocking off an unfinished zone to the northeast."
       },
       "rations1@balharbor" : {
-         "location" : "IN_ROOM:balhar46",
+         "location" : "IN_ROOM:balhar46@balharbor",
          "oflags" : [
             "Food"
          ],
@@ -1062,7 +1062,7 @@
          "desc[0]" : "Some iron rations lie here ready to be eaten."
       },
       "vase@balharbor" : {
-         "location" : "IN_ROOM:btower137",
+         "location" : "IN_ROOM:btower137@balharbor",
          "oflags" : [
             "NoGet"
          ],
@@ -1073,7 +1073,7 @@
          "bvalue" : "1000"
       },
       "newspaper@balharbor" : {
-         "location" : "IN_ROOM:balhar89",
+         "location" : "IN_ROOM:balhar89@balharbor",
          "oflags" : [
             "Noget"
          ],
@@ -1083,7 +1083,7 @@
          "desc[0]" : "The torn off front page of a newspaper lies here among the mess."
       },
       "shield@balharbor" : {
-         "location" : "WORN_BY:Mercenary",
+         "location" : "WORN_BY:mercenary@balharbor",
          "armor" : "42",
          "oflags" : [
             "Wearable",
@@ -1100,7 +1100,7 @@
       },
       "desk@balharbor" : {
          "desc[1]" : "Wonder where the judge went too?",
-         "location" : "IN_ROOM:balhar45",
+         "location" : "IN_ROOM:balhar45@balharbor",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -1113,7 +1113,7 @@
          "desc[0]" : "The desk appears to have been emptied out."
       },
       "white@balharbor" : {
-         "location" : "CARRIED_BY:Alchemist",
+         "location" : "CARRIED_BY:alchemist@balharbor",
          "oflags" : [
             "Food",
             "potion"
@@ -1129,7 +1129,7 @@
       },
       "numchucks@balharbor" : {
          "damage" : "15",
-         "location" : "IN_ROOM:sewer5",
+         "location" : "IN_ROOM:sewer5@balharbor",
          "oflags" : [
             "Weapon"
          ],
@@ -1142,7 +1142,7 @@
          "desc[0]" : "Two rods with a chain attached, called numchucks lie here."
       },
       "rug@balharbor" : {
-         "location" : "IN_ROOM:btower137",
+         "location" : "IN_ROOM:btower137@balharbor",
          "oflags" : [
             "Noget"
          ],
@@ -1152,7 +1152,7 @@
          "examine" : "The tag reads:  Made in China by prison labor.  There's nothing under it."
       },
       "beach_sign@balharbor" : {
-         "location" : "IN_ROOM:balhar82",
+         "location" : "IN_ROOM:balhar82@balharbor",
          "oflags" : [
             "Noget"
          ],
@@ -1162,7 +1162,7 @@
       },
       "outjail_door@balharbor" : {
          "desc[1]" : "Someone left the celldoor unlocked!",
-         "location" : "IN_ROOM:btower135",
+         "location" : "IN_ROOM:btower135@balharbor",
          "oflags" : [
             "Lockable",
             "NoGet",
@@ -1193,7 +1193,7 @@
       },
       "outtow_door@balharbor" : {
          "desc[1]" : "Someone forgot to lock the door to keep you out!",
-         "location" : "IN_ROOM:btower3",
+         "location" : "IN_ROOM:btower3@balharbor",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -1209,7 +1209,7 @@
       },
       "buggy@balharbor" : {
          "desc[1]" : "A buggy stands here in a ditch burning brightly as if it exploded!",
-         "location" : "IN_ROOM:balhar32",
+         "location" : "IN_ROOM:balhar32@balharbor",
          "oflags" : [
             "Lit",
             "Extinguish",
@@ -1223,7 +1223,7 @@
          "desc[0]" : "A burned out framework of what was once a buggy lies here in the ditch."
       },
       "honey@balharbor" : {
-         "location" : "IN_CONTAINER:beehive",
+         "location" : "IN_CONTAINER:beehive@balharbor",
          "weight" : "1",
          "oflags" : [
             "Food"
@@ -1235,7 +1235,7 @@
       },
       "inarmor_door@balharbor" : {
          "desc[1]" : "The door is shut.",
-         "location" : "IN_ROOM:balhar13",
+         "location" : "IN_ROOM:balhar13@balharbor",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -1248,7 +1248,7 @@
          "desc[0]" : "An open door leads outside into Idol Square."
       },
       "basket@balharbor" : {
-         "location" : "CARRIED_BY:Peasant",
+         "location" : "CARRIED_BY:peasant@balharbor",
          "oflags" : [
             "Container"
          ],
@@ -1261,7 +1261,7 @@
       },
       "sheetmetal@balharbor" : {
          "desc[1]" : "A stack of sheet metal sits in a corner, apparently for the Weapon Smith to\nconstruct some weapons with against his will.",
-         "location" : "IN_ROOM:btower137",
+         "location" : "IN_ROOM:btower137@balharbor",
          "oflags" : [
             "Getflips"
          ],
@@ -1276,7 +1276,7 @@
          "desc[0]" : "A pile of sheet metal has been dumped here."
       },
       "platedvest@balharbor" : {
-         "location" : "WORN_BY:Policeman",
+         "location" : "WORN_BY:policeman@balharbor",
          "armor" : "49",
          "oflags" : [
             "Wearable",
@@ -1298,7 +1298,7 @@
       "sashsword@balharbor" : {
          "desc[1]" : "The Sashsword lies on the bed apparently to stop would-be assassins from\ncarrying out midnight killings on Sisera.",
          "damage" : "27",
-         "location" : "IN_ROOM:btower137",
+         "location" : "IN_ROOM:btower137@balharbor",
          "oflags" : [
             "Getflips",
             "Weapon",
@@ -1315,7 +1315,7 @@
          "desc[0]" : "A specially-crafted red sword, the Sashsword lies on the ground."
       },
       "pillars@balharbor" : {
-         "location" : "IN_ROOM:balhar88",
+         "location" : "IN_ROOM:balhar88@balharbor",
          "oflags" : [
             "Noget"
          ],
@@ -1339,7 +1339,7 @@
          "desc[0]" : "A shining cutlass has been left here."
       },
       "belt@balharbor" : {
-         "location" : "WORN_BY:Policeman",
+         "location" : "WORN_BY:policeman@balharbor",
          "armor" : "28",
          "oflags" : [
             "Wearable",
@@ -1371,7 +1371,7 @@
          "desc[0]" : "A dagger, laced with poison lies here."
       },
       "log@balharbor" : {
-         "location" : "IN_ROOM:jungle9",
+         "location" : "IN_ROOM:jungle9@balharbor",
          "weight" : "100",
          "oflags" : [
             "Noget",
@@ -1384,7 +1384,7 @@
       },
       "snorkel2@balharbor" : {
          "desc[1]" : "A snorkel hangs on the railing, which would allow swimming underwater.",
-         "location" : "IN_ROOM:balhar79",
+         "location" : "IN_ROOM:balhar79@balharbor",
          "armor" : "10",
          "oflags" : [
             "Wearable",
@@ -1407,7 +1407,7 @@
       },
       "sword@balharbor" : {
          "damage" : "13",
-         "location" : "CARRIED_BY:Kid",
+         "location" : "CARRIED_BY:kid@balharbor",
          "oflags" : [
             "Weapon"
          ],
@@ -1419,7 +1419,7 @@
       },
       "dresser@balharbor" : {
          "desc[1]" : "A strange skull-lamp brightens the color of the dresser.",
-         "location" : "IN_ROOM:btower137",
+         "location" : "IN_ROOM:btower137@balharbor",
          "oflags" : [
             "Container",
             "NoGet",
@@ -1437,7 +1437,7 @@
       },
       "longsword@balharbor" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:mercenary",
+         "location" : "WIELDED_BY:mercenary@balharbor",
          "oflags" : [
             "Weapon"
          ],
@@ -1451,7 +1451,7 @@
          "desc[0]" : "A perfectly balanced longsword is lying here."
       },
       "dock@balharbor" : {
-         "location" : "IN_ROOM:balhar1",
+         "location" : "IN_ROOM:balhar1@balharbor",
          "oflags" : [
             "Noget"
          ],
@@ -1461,7 +1461,7 @@
          "desc[0]" : "A dock has been built here, but no boats are docked right now."
       },
       "cross@balharbor" : {
-         "location" : "WORN_BY:Archmage",
+         "location" : "WORN_BY:archmage@balharbor",
          "oflags" : [
             "Wearable",
             "Cross"
@@ -1477,7 +1477,7 @@
          "desc[0]" : "A silver cross on a chain lies here on the ground."
       },
       "sash@balharbor" : {
-         "location" : "WORN_BY:Jokim",
+         "location" : "WORN_BY:jokim@balharbor",
          "armor" : "7",
          "oflags" : [
             "Wearable",
@@ -1495,7 +1495,7 @@
       },
       "bastardsword@balharbor" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:spirit",
+         "location" : "WIELDED_BY:spirit@balharbor",
          "oflags" : [
             "Weapon"
          ],
@@ -1508,7 +1508,7 @@
       },
       "goldchain@balharbor" : {
          "desc[1]" : "A gold chain lies here in the sand.",
-         "location" : "WORN_BY:Bum",
+         "location" : "WORN_BY:bum@balharbor",
          "armor" : "21",
          "oflags" : [
             "Wearable",
@@ -1529,7 +1529,7 @@
          ]
       },
       "bed@balharbor" : {
-         "location" : "IN_ROOM:btower137",
+         "location" : "IN_ROOM:btower137@balharbor",
          "oflags" : [
             "NoGet"
          ],
@@ -1538,7 +1538,7 @@
          "examine" : "A typical, run of the mill rich man's bed with red silk covers and plush\npillows ensuring anyone a good night's sleep even in this spooky tower."
       },
       "nameplate@balharbor" : {
-         "location" : "IN_ROOM:balhar45",
+         "location" : "IN_ROOM:balhar45@balharbor",
          "oflags" : [
             "NoGet"
          ],
@@ -1549,7 +1549,7 @@
       },
       "katana@balharbor" : {
          "damage" : "15",
-         "location" : "WIELDED_BY:adventurer",
+         "location" : "WIELDED_BY:adventurer@balharbor",
          "oflags" : [
             "Weapon"
          ],
@@ -1563,7 +1563,7 @@
          "desc[0]" : "A sword with a long-thin blade sits here."
       },
       "cursedpit@balharbor" : {
-         "location" : "IN_ROOM:balhar3",
+         "location" : "IN_ROOM:balhar3@balharbor",
          "oflags" : [
             "Noget",
             "Cursed"
@@ -1574,7 +1574,7 @@
          "desc[0]" : "A pit is here, serving to take your trash."
       },
       "bag@balharbor" : {
-         "location" : "IN_ROOM:balhar46",
+         "location" : "IN_ROOM:balhar46@balharbor",
          "weight" : "1",
          "oflags" : [
             "Container"
@@ -1586,7 +1586,7 @@
          "size" : "10"
       },
       "bracers@balharbor" : {
-         "location" : "WORN_BY:Reu",
+         "location" : "WORN_BY:reu@balharbor",
          "armor" : "10",
          "oflags" : [
             "Wearable",
@@ -1603,7 +1603,7 @@
          ]
       },
       "scull@balharbor" : {
-         "location" : "IN_ROOM:balhar1",
+         "location" : "IN_ROOM:balhar1@balharbor",
          "oflags" : [
             "Container"
          ],
@@ -1617,7 +1617,7 @@
          "desc[0]" : "A old, deteriorated scull has been left here."
       },
       "lockerkey@balharbor" : {
-         "location" : "CARRIED_BY:Apathor",
+         "location" : "CARRIED_BY:apathor@balharbor",
          "oflags" : [
             "Key"
          ],
@@ -1630,7 +1630,7 @@
          "desc[0]" : "A key to a bank locker was lost here."
       },
       "pillars3@balharbor" : {
-         "location" : "IN_ROOM:balhar86",
+         "location" : "IN_ROOM:balhar86@balharbor",
          "oflags" : [
             "Noget"
          ],
@@ -1641,7 +1641,7 @@
          "desc[0]" : "Hundreds of pillars of salt resembling people litter this site."
       },
       "money@balharbor" : {
-         "location" : "IN_CONTAINER:box",
+         "location" : "IN_CONTAINER:box@balharbor",
          "weight" : "5",
          "name" : "money",
          "bvalue" : "200",
@@ -1649,7 +1649,7 @@
          "size" : "5"
       },
       "hangman2@balharbor" : {
-         "location" : "IN_ROOM:jungle11",
+         "location" : "IN_ROOM:jungle11@balharbor",
          "altname" : "man",
          "pname" : "hangman",
          "name" : "hangman2",
@@ -1658,7 +1658,7 @@
       },
       "outadv_door@balharbor" : {
          "desc[1]" : "The door to the Adventurers' Guild is closed.",
-         "location" : "IN_ROOM:balhar20",
+         "location" : "IN_ROOM:balhar20@balharbor",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -1672,7 +1672,7 @@
       },
       "misercord@balharbor" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:kish",
+         "location" : "WIELDED_BY:kish@balharbor",
          "oflags" : [
             "Weapon"
          ],
@@ -1687,7 +1687,7 @@
       },
       "outweap_door@balharbor" : {
          "desc[1]" : "The door to the Armor Shop is closed.",
-         "location" : "IN_ROOM:balhar10",
+         "location" : "IN_ROOM:balhar10@balharbor",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -1701,7 +1701,7 @@
       },
       "incham_door@balharbor" : {
          "desc[1]" : "The door has been shut.",
-         "location" : "IN_ROOM:balhar45",
+         "location" : "IN_ROOM:balhar45@balharbor",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -1716,7 +1716,7 @@
          "desc[0]" : "An open door leads back into the courtroom."
       },
       "goldcoins@balharbor" : {
-         "location" : "IN_CONTAINER:dresser",
+         "location" : "IN_CONTAINER:dresser@balharbor",
          "altname" : "gold",
          "name" : "goldcoins",
          "size" : "4",
@@ -1726,7 +1726,7 @@
          "desc[0]" : "Some fool left a pile of gold coins here!"
       },
       "diary@balharbor" : {
-         "location" : "IN_CONTAINER:locker",
+         "location" : "IN_CONTAINER:locker@balharbor",
          "altname" : "book",
          "name" : "diary",
          "examine" : "The diary reads...\n\n'I left the other country because the political bickering was driving me mad.\nWhen I came to this land I thought I was free, but soon it started again.\nI had to destroy the reading room, newspapers, books, pamplets, and flyers,\nI had to murder many people in this city, because they refused to get along\nand all these adventurers passing through would start learning about them.\nIf I do not prevent these people from learning how strife and politics\nI will be forced to listen to this crap and have to move away again!  I shall\nbe forced to leave, but I CANNOT TOLERATE THOSE DAMN PEOPLE ARGUING!!!  I \nwould rather jump into a erupting volcano and be incenerated than live\namong people who preach to me how I should live!  I DO NOT WANT to know\nthe consequences of my actions!  I MUST DO EVERYTHING MY WAY!'\n\n...it angrily rambles on for several pages, essentially screaming how the \nauthor wants to live recklessly for the moment and doesn't care if they die \nan early death.  Whoever wrote it, they despise political discussion and \ndebate more than anything else and will do ANYTHING to prevent its \ninflitration into this world.\n",
@@ -1735,7 +1735,7 @@
       },
       "intow_door@balharbor" : {
          "desc[1]" : "The door has been shut tight.",
-         "location" : "IN_ROOM:btower4",
+         "location" : "IN_ROOM:btower4@balharbor",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -1750,7 +1750,7 @@
          "desc[0]" : "An open door leads out of this dark tower."
       },
       "box@balharbor" : {
-         "location" : "IN_ROOM:balhar66",
+         "location" : "IN_ROOM:balhar66@balharbor",
          "oflags" : [
             "Noget",
             "Openable",
@@ -1766,7 +1766,7 @@
          "maxstate" : "2"
       },
       "gems@balharbor" : {
-         "location" : "IN_CONTAINER:dresser",
+         "location" : "IN_CONTAINER:dresser@balharbor",
          "weight" : "4",
          "pname" : "gems",
          "name" : "gems",
@@ -1778,8 +1778,8 @@
    "loc" : {
       "park12@balharbor" : {
          "exits" : {
-            "e" : "park9",
-            "s" : "park11"
+            "e" : "park9@balharbor",
+            "s" : "park11@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -1792,10 +1792,10 @@
       },
       "balhar15@balharbor" : {
          "exits" : {
-            "w" : "balhar14",
-            "e" : "balhar16",
-            "n" : "balhar23",
-            "s" : "^outarmor_door"
+            "w" : "balhar14@balharbor",
+            "e" : "balhar16@balharbor",
+            "n" : "balhar23@balharbor",
+            "s" : "^outarmor_door@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -1808,14 +1808,14 @@
       },
       "btower56@balharbor" : {
          "exits" : {
-            "ne" : "btower52",
-            "w" : "btower55",
-            "e" : "btower57",
-            "n" : "btower51",
-            "se" : "btower62",
-            "sw" : "btower60",
-            "nw" : "btower50",
-            "s" : "btower61"
+            "ne" : "btower52@balharbor",
+            "w" : "btower55@balharbor",
+            "e" : "btower57@balharbor",
+            "n" : "btower51@balharbor",
+            "se" : "btower62@balharbor",
+            "sw" : "btower60@balharbor",
+            "nw" : "btower50@balharbor",
+            "s" : "btower61@balharbor"
          },
          "flags" : [
             "Dark",
@@ -1829,10 +1829,10 @@
       },
       "balhar10@balharbor" : {
          "exits" : {
-            "w" : "balhar9",
-            "e" : "balhar14",
-            "n" : "balhar21",
-            "s" : "^outweap_door"
+            "w" : "balhar9@balharbor",
+            "e" : "balhar14@balharbor",
+            "n" : "balhar21@balharbor",
+            "s" : "^outweap_door@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -1845,7 +1845,7 @@
       },
       "balhar61@balharbor" : {
          "exits" : {
-            "e" : "balhar62"
+            "e" : "balhar62@balharbor"
          },
          "flags" : [
             "Nomobiles",
@@ -1865,9 +1865,9 @@
       },
       "jungle11@balharbor" : {
          "exits" : {
-            "w" : "jungle10",
-            "e" : "greattree",
-            "n" : "jungle17"
+            "w" : "jungle10@balharbor",
+            "e" : "greattree@balharbor",
+            "n" : "jungle17@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -1880,8 +1880,8 @@
       },
       "balhar53@balharbor" : {
          "exits" : {
-            "w" : "balhar52",
-            "e" : "balhar54"
+            "w" : "balhar52@balharbor",
+            "e" : "balhar54@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -1894,14 +1894,14 @@
       },
       "btower66@balharbor" : {
          "exits" : {
-            "ne" : "btower62",
-            "w" : "btower65",
-            "e" : "btower67",
-            "n" : "btower61",
-            "se" : "btower72",
-            "sw" : "btower70",
-            "nw" : "btower60",
-            "s" : "btower71"
+            "ne" : "btower62@balharbor",
+            "w" : "btower65@balharbor",
+            "e" : "btower67@balharbor",
+            "n" : "btower61@balharbor",
+            "se" : "btower72@balharbor",
+            "sw" : "btower70@balharbor",
+            "nw" : "btower60@balharbor",
+            "s" : "btower71@balharbor"
          },
          "flags" : [
             "Dark",
@@ -1915,7 +1915,7 @@
       },
       "balhar73@balharbor" : {
          "exits" : {
-            "e" : "balhar74"
+            "e" : "balhar74@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -1926,9 +1926,9 @@
       },
       "balhar35@balharbor" : {
          "exits" : {
-            "w" : "balhar34",
-            "n" : "balhar44",
-            "s" : "balhar19"
+            "w" : "balhar34@balharbor",
+            "n" : "balhar44@balharbor",
+            "s" : "balhar19@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -1941,11 +1941,11 @@
       },
       "btower45@balharbor" : {
          "exits" : {
-            "ne" : "btower16",
-            "e" : "btower16",
-            "n" : "btower15",
-            "se" : "btower46",
-            "s" : "btower25"
+            "ne" : "btower16@balharbor",
+            "e" : "btower16@balharbor",
+            "n" : "btower15@balharbor",
+            "se" : "btower46@balharbor",
+            "s" : "btower25@balharbor"
          },
          "flags" : [
             "Dark",
@@ -1959,8 +1959,8 @@
       },
       "greattree@balharbor" : {
          "exits" : {
-            "e" : "jungle12",
-            "w" : "jungle11",
+            "e" : "jungle12@balharbor",
+            "w" : "jungle11@balharbor",
             "u" : "adept1@adept"
          },
          "flags" : [
@@ -1974,10 +1974,10 @@
       },
       "balhar85@balharbor" : {
          "exits" : {
-            "w" : "balhar33",
-            "e" : "balhar88",
-            "n" : "balhar86",
-            "s" : "balhar87"
+            "w" : "balhar33@balharbor",
+            "e" : "balhar88@balharbor",
+            "n" : "balhar86@balharbor",
+            "s" : "balhar87@balharbor"
          },
          "flags" : [
             "TempReal"
@@ -1990,8 +1990,8 @@
       },
       "jungle23@balharbor" : {
          "exits" : {
-            "n" : "jungle22",
-            "s" : "jungle24"
+            "n" : "jungle22@balharbor",
+            "s" : "jungle24@balharbor"
          },
          "flags" : [
             "Outdoors",
@@ -2005,9 +2005,9 @@
       },
       "jungle9@balharbor" : {
          "exits" : {
-            "w" : "jungle8",
-            "e" : "jungle10",
-            "s" : "jungle22"
+            "w" : "jungle8@balharbor",
+            "e" : "jungle10@balharbor",
+            "s" : "jungle22@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2020,8 +2020,8 @@
       },
       "balhar41@balharbor" : {
          "exits" : {
-            "n" : "balhar50",
-            "s" : "balhar25"
+            "n" : "balhar50@balharbor",
+            "s" : "balhar25@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2034,8 +2034,8 @@
       },
       "park6@balharbor" : {
          "exits" : {
-            "w" : "park5",
-            "s" : "park3"
+            "w" : "park5@balharbor",
+            "s" : "park3@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2048,8 +2048,8 @@
       },
       "jungle29@balharbor" : {
          "exits" : {
-            "n" : "jungle30",
-            "s" : "jungle21"
+            "n" : "jungle30@balharbor",
+            "s" : "jungle21@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2062,8 +2062,8 @@
       },
       "balhar18@balharbor" : {
          "exits" : {
-            "w" : "jungle19",
-            "e" : "balhar19"
+            "w" : "jungle19@balharbor",
+            "e" : "balhar19@balharbor"
          },
          "flags" : [
             "Outdoors",
@@ -2077,10 +2077,10 @@
       },
       "balhar74@balharbor" : {
          "exits" : {
-            "w" : "balhar73",
-            "e" : "balhar77",
-            "n" : "balhar75",
-            "s" : "balhar68"
+            "w" : "balhar73@balharbor",
+            "e" : "balhar77@balharbor",
+            "n" : "balhar75@balharbor",
+            "s" : "balhar68@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2093,8 +2093,8 @@
       },
       "balhar12@balharbor" : {
          "exits" : {
-            "w" : "balhar11",
-            "e" : "balhar13"
+            "w" : "balhar11@balharbor",
+            "e" : "balhar13@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -2105,10 +2105,10 @@
       },
       "balhar4@balharbor" : {
          "exits" : {
-            "w" : "balhar3",
-            "e" : "balhar5",
-            "n" : "balhar6",
-            "s" : "balhar1"
+            "w" : "balhar3@balharbor",
+            "e" : "balhar5@balharbor",
+            "n" : "balhar6@balharbor",
+            "s" : "balhar1@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2121,7 +2121,7 @@
       },
       "jungle13@balharbor" : {
          "exits" : {
-            "e" : "jungle14"
+            "e" : "jungle14@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2134,11 +2134,11 @@
       },
       "btower19@balharbor" : {
          "exits" : {
-            "w" : "btower18",
-            "n" : "btower14",
-            "sw" : "btower23",
-            "nw" : "btower13",
-            "s" : "btower24"
+            "w" : "btower18@balharbor",
+            "n" : "btower14@balharbor",
+            "sw" : "btower23@balharbor",
+            "nw" : "btower13@balharbor",
+            "s" : "btower24@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2152,14 +2152,14 @@
       },
       "btower61@balharbor" : {
          "exits" : {
-            "ne" : "btower57",
-            "w" : "btower60",
-            "e" : "btower62",
-            "n" : "btower56",
-            "se" : "btower67",
-            "sw" : "btower65",
-            "nw" : "btower55",
-            "s" : "btower66"
+            "ne" : "btower57@balharbor",
+            "w" : "btower60@balharbor",
+            "e" : "btower62@balharbor",
+            "n" : "btower56@balharbor",
+            "se" : "btower67@balharbor",
+            "sw" : "btower65@balharbor",
+            "nw" : "btower55@balharbor",
+            "s" : "btower66@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2173,11 +2173,11 @@
       },
       "btower50@balharbor" : {
          "exits" : {
-            "w" : "btower49",
-            "e" : "btower51",
-            "se" : "btower56",
-            "sw" : "btower54",
-            "s" : "btower55"
+            "w" : "btower49@balharbor",
+            "e" : "btower51@balharbor",
+            "se" : "btower56@balharbor",
+            "sw" : "btower54@balharbor",
+            "s" : "btower55@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2191,8 +2191,8 @@
       },
       "balhar64@balharbor" : {
          "exits" : {
-            "e" : "balhar65",
-            "s" : "balhar56"
+            "e" : "balhar65@balharbor",
+            "s" : "balhar56@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -2204,7 +2204,7 @@
       "balhar48@balharbor" : {
          "exits" : {
             "u" : "donate_bal@start",
-            "s" : "balhar39"
+            "s" : "balhar39@balharbor"
          },
          "flags" : [
             "Party",
@@ -2218,7 +2218,7 @@
       },
       "balhar9@balharbor" : {
          "exits" : {
-            "e" : "balhar10"
+            "e" : "balhar10@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -2229,9 +2229,9 @@
       },
       "park3@balharbor" : {
          "exits" : {
-            "w" : "park2",
-            "n" : "park6",
-            "s" : "balhar33"
+            "w" : "park2@balharbor",
+            "n" : "park6@balharbor",
+            "s" : "balhar33@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2244,11 +2244,11 @@
       },
       "btower6@balharbor" : {
          "exits" : {
-            "w" : "btower5",
-            "e" : "btower7",
-            "se" : "btower12",
-            "sw" : "btower10",
-            "s" : "btower11"
+            "w" : "btower5@balharbor",
+            "e" : "btower7@balharbor",
+            "se" : "btower12@balharbor",
+            "sw" : "btower10@balharbor",
+            "s" : "btower11@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2262,10 +2262,10 @@
       },
       "balhar19@balharbor" : {
          "exits" : {
-            "w" : "balhar18",
-            "e" : "balhar20",
-            "n" : "balhar35",
-            "s" : "balhar6"
+            "w" : "balhar18@balharbor",
+            "e" : "balhar20@balharbor",
+            "n" : "balhar35@balharbor",
+            "s" : "balhar6@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2278,10 +2278,10 @@
       },
       "btower48@balharbor" : {
          "exits" : {
-            "e" : "btower73",
-            "u" : "btower40",
-            "se" : "btower54",
-            "s" : "btower53"
+            "e" : "btower73@balharbor",
+            "u" : "btower40@balharbor",
+            "se" : "btower54@balharbor",
+            "s" : "btower53@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2295,7 +2295,7 @@
       },
       "jungle27@balharbor" : {
          "exits" : {
-            "d" : "jungle25"
+            "d" : "jungle25@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2308,11 +2308,11 @@
       },
       "btower26@balharbor" : {
          "exits" : {
-            "ne" : "btower22",
-            "w" : "btower25",
-            "e" : "btower27",
-            "n" : "btower21",
-            "nw" : "btower20"
+            "ne" : "btower22@balharbor",
+            "w" : "btower25@balharbor",
+            "e" : "btower27@balharbor",
+            "n" : "btower21@balharbor",
+            "nw" : "btower20@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2326,8 +2326,8 @@
       },
       "jungle18@balharbor" : {
          "exits" : {
-            "w" : "jungle12",
-            "e" : "jungle19"
+            "w" : "jungle12@balharbor",
+            "e" : "jungle19@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2340,7 +2340,7 @@
       },
       "balhar76@balharbor" : {
          "exits" : {
-            "s" : "balhar77"
+            "s" : "balhar77@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -2351,9 +2351,9 @@
       },
       "balhar14@balharbor" : {
          "exits" : {
-            "w" : "balhar10",
-            "e" : "balhar15",
-            "n" : "balhar22"
+            "w" : "balhar10@balharbor",
+            "e" : "balhar15@balharbor",
+            "n" : "balhar22@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2366,14 +2366,14 @@
       },
       "btower35@balharbor" : {
          "exits" : {
-            "ne" : "btower9",
-            "w" : "btower17",
-            "e" : "btower14",
-            "n" : "btower8",
-            "se" : "btower19",
-            "sw" : "btower17",
-            "nw" : "btower7",
-            "s" : "btower36"
+            "ne" : "btower9@balharbor",
+            "w" : "btower17@balharbor",
+            "e" : "btower14@balharbor",
+            "n" : "btower8@balharbor",
+            "se" : "btower19@balharbor",
+            "sw" : "btower17@balharbor",
+            "nw" : "btower7@balharbor",
+            "s" : "btower36@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2387,10 +2387,10 @@
       },
       "park5@balharbor" : {
          "exits" : {
-            "w" : "park4",
-            "e" : "park6",
-            "n" : "park8",
-            "s" : "park2"
+            "w" : "park4@balharbor",
+            "e" : "park6@balharbor",
+            "n" : "park8@balharbor",
+            "s" : "park2@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2403,11 +2403,11 @@
       },
       "btower82@balharbor" : {
          "exits" : {
-            "w" : "btower66",
-            "n" : "btower62",
-            "sw" : "btower71",
-            "nw" : "btower61",
-            "s" : "btower83"
+            "w" : "btower66@balharbor",
+            "n" : "btower62@balharbor",
+            "sw" : "btower71@balharbor",
+            "nw" : "btower61@balharbor",
+            "s" : "btower83@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2421,9 +2421,9 @@
       },
       "jungle33@balharbor" : {
          "exits" : {
-            "w" : "jungle32",
+            "w" : "jungle32@balharbor",
             "n" : "path0@jbs",
-            "s" : "balhar63"
+            "s" : "balhar63@balharbor"
          },
          "flags" : [
             "Outdoors",
@@ -2437,10 +2437,10 @@
       },
       "balhar55@balharbor" : {
          "exits" : {
-            "w" : "balhar54",
-            "e" : "balhar56",
-            "n" : "balhar63",
-            "s" : "balhar47"
+            "w" : "balhar54@balharbor",
+            "e" : "balhar56@balharbor",
+            "n" : "balhar63@balharbor",
+            "s" : "balhar47@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2453,8 +2453,8 @@
       },
       "sewer3@balharbor" : {
          "exits" : {
-            "n" : "sewer2",
-            "s" : "sewer4"
+            "n" : "sewer2@balharbor",
+            "s" : "sewer4@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2468,10 +2468,10 @@
       },
       "balhar24@balharbor" : {
          "exits" : {
-            "w" : "balhar23",
-            "e" : "balhar25",
-            "n" : "balhar40",
-            "s" : "balhar93"
+            "w" : "balhar23@balharbor",
+            "e" : "balhar25@balharbor",
+            "n" : "balhar40@balharbor",
+            "s" : "balhar93@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2484,14 +2484,14 @@
       },
       "btower33@balharbor" : {
          "exits" : {
-            "ne" : "btower12",
-            "w" : "btower15",
-            "e" : "btower34",
-            "n" : "btower11",
-            "se" : "btower22",
-            "sw" : "btower20",
-            "nw" : "btower10",
-            "s" : "btower21"
+            "ne" : "btower12@balharbor",
+            "w" : "btower15@balharbor",
+            "e" : "btower34@balharbor",
+            "n" : "btower11@balharbor",
+            "se" : "btower22@balharbor",
+            "sw" : "btower20@balharbor",
+            "nw" : "btower10@balharbor",
+            "s" : "btower21@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2505,9 +2505,9 @@
       },
       "balhar57@balharbor" : {
          "exits" : {
-            "w" : "balhar56",
-            "e" : "balhar58",
-            "s" : "balhar49"
+            "w" : "balhar56@balharbor",
+            "e" : "balhar58@balharbor",
+            "s" : "balhar49@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2520,9 +2520,9 @@
       },
       "btower9@balharbor" : {
          "exits" : {
-            "w" : "btower8",
-            "sw" : "btower13",
-            "s" : "btower14"
+            "w" : "btower8@balharbor",
+            "sw" : "btower13@balharbor",
+            "s" : "btower14@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2536,9 +2536,9 @@
       },
       "btower78@balharbor" : {
          "exits" : {
-            "ne" : "btower64",
-            "e" : "btower79",
-            "n" : "btower63"
+            "ne" : "btower64@balharbor",
+            "e" : "btower79@balharbor",
+            "n" : "btower63@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2552,9 +2552,9 @@
       },
       "balhar47@balharbor" : {
          "exits" : {
-            "w" : "balhar46",
-            "n" : "balhar55",
-            "s" : "balhar38"
+            "w" : "balhar46@balharbor",
+            "n" : "balhar55@balharbor",
+            "s" : "balhar38@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2567,14 +2567,14 @@
       },
       "btower80@balharbor" : {
          "exits" : {
-            "ne" : "btower81",
-            "w" : "btower64",
-            "e" : "btower66",
-            "n" : "btower60",
-            "se" : "btower71",
-            "sw" : "btower69",
-            "nw" : "btower59",
-            "s" : "btower70"
+            "ne" : "btower81@balharbor",
+            "w" : "btower64@balharbor",
+            "e" : "btower66@balharbor",
+            "n" : "btower60@balharbor",
+            "se" : "btower71@balharbor",
+            "sw" : "btower69@balharbor",
+            "nw" : "btower59@balharbor",
+            "s" : "btower70@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2588,10 +2588,10 @@
       },
       "balhar52@balharbor" : {
          "exits" : {
-            "w" : "balhar51",
-            "e" : "balhar53",
-            "n" : "balhar60",
-            "s" : "balhar44"
+            "w" : "balhar51@balharbor",
+            "e" : "balhar53@balharbor",
+            "n" : "balhar60@balharbor",
+            "s" : "balhar44@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2604,11 +2604,11 @@
       },
       "btower14@balharbor" : {
          "exits" : {
-            "w" : "btower13",
-            "n" : "btower9",
-            "sw" : "btower18",
-            "nw" : "btower8",
-            "s" : "btower19"
+            "w" : "btower13@balharbor",
+            "n" : "btower9@balharbor",
+            "sw" : "btower18@balharbor",
+            "nw" : "btower8@balharbor",
+            "s" : "btower19@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2622,7 +2622,7 @@
       },
       "balhar89@balharbor" : {
          "exits" : {
-            "d" : "balhar8"
+            "d" : "balhar8@balharbor"
          },
          "flags" : [
             "Peaceful"
@@ -2635,11 +2635,11 @@
       },
       "btower28@balharbor" : {
          "exits" : {
-            "ne" : "btower24",
-            "w" : "btower27",
-            "e" : "btower29",
-            "n" : "btower23",
-            "nw" : "btower22"
+            "ne" : "btower24@balharbor",
+            "w" : "btower27@balharbor",
+            "e" : "btower29@balharbor",
+            "n" : "btower23@balharbor",
+            "nw" : "btower22@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2653,14 +2653,14 @@
       },
       "btower16@balharbor" : {
          "exits" : {
-            "ne" : "btower12",
-            "w" : "btower15",
-            "e" : "btower17",
-            "n" : "btower11",
-            "se" : "btower22",
-            "sw" : "btower20",
-            "nw" : "btower10",
-            "s" : "btower21"
+            "ne" : "btower12@balharbor",
+            "w" : "btower15@balharbor",
+            "e" : "btower17@balharbor",
+            "n" : "btower11@balharbor",
+            "se" : "btower22@balharbor",
+            "sw" : "btower20@balharbor",
+            "nw" : "btower10@balharbor",
+            "s" : "btower21@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2674,11 +2674,11 @@
       },
       "btower70@balharbor" : {
          "exits" : {
-            "ne" : "btower66",
-            "w" : "btower69",
-            "e" : "btower71",
-            "n" : "btower65",
-            "nw" : "btower64"
+            "ne" : "btower66@balharbor",
+            "w" : "btower69@balharbor",
+            "e" : "btower71@balharbor",
+            "n" : "btower65@balharbor",
+            "nw" : "btower64@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2692,11 +2692,11 @@
       },
       "btower39@balharbor" : {
          "exits" : {
-            "ne" : "btower24",
-            "w" : "btower27",
-            "e" : "btower40",
-            "n" : "btower23",
-            "nw" : "btower22"
+            "ne" : "btower24@balharbor",
+            "w" : "btower27@balharbor",
+            "e" : "btower40@balharbor",
+            "n" : "btower23@balharbor",
+            "nw" : "btower22@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2710,7 +2710,7 @@
       },
       "balhar27@balharbor" : {
          "exits" : {
-            "s" : "balhar26"
+            "s" : "balhar26@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2723,8 +2723,8 @@
       },
       "balhar51@balharbor" : {
          "exits" : {
-            "e" : "balhar52",
-            "n" : "balhar59"
+            "e" : "balhar52@balharbor",
+            "n" : "balhar59@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -2735,8 +2735,8 @@
       },
       "jungle8@balharbor" : {
          "exits" : {
-            "w" : "jungle7",
-            "e" : "jungle9"
+            "w" : "jungle7@balharbor",
+            "e" : "jungle9@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2749,7 +2749,7 @@
       },
       "btower139@balharbor" : {
          "exits" : {
-            "d" : "btower135"
+            "d" : "btower135@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -2760,7 +2760,7 @@
       },
       "jungle28@balharbor" : {
          "exits" : {
-            "n" : "jungle2"
+            "n" : "jungle2@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2773,14 +2773,14 @@
       },
       "btower64@balharbor" : {
          "exits" : {
-            "ne" : "btower60",
-            "w" : "btower63",
-            "e" : "btower65",
-            "n" : "btower59",
-            "se" : "btower70",
-            "sw" : "btower68",
-            "nw" : "btower58",
-            "s" : "btower69"
+            "ne" : "btower60@balharbor",
+            "w" : "btower63@balharbor",
+            "e" : "btower65@balharbor",
+            "n" : "btower59@balharbor",
+            "se" : "btower70@balharbor",
+            "sw" : "btower68@balharbor",
+            "nw" : "btower58@balharbor",
+            "s" : "btower69@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2794,11 +2794,11 @@
       },
       "btower79@balharbor" : {
          "exits" : {
-            "ne" : "btower80",
-            "w" : "btower68",
-            "e" : "btower70",
-            "n" : "btower64",
-            "nw" : "btower63"
+            "ne" : "btower80@balharbor",
+            "w" : "btower68@balharbor",
+            "e" : "btower70@balharbor",
+            "n" : "btower64@balharbor",
+            "nw" : "btower63@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2812,9 +2812,9 @@
       },
       "btower25@balharbor" : {
          "exits" : {
-            "ne" : "btower21",
-            "e" : "btower26",
-            "n" : "btower20"
+            "ne" : "btower21@balharbor",
+            "e" : "btower26@balharbor",
+            "n" : "btower20@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2828,11 +2828,11 @@
       },
       "btower37@balharbor" : {
          "exits" : {
-            "w" : "btower18",
-            "n" : "btower14",
-            "sw" : "btower38",
-            "nw" : "btower13",
-            "s" : "btower24"
+            "w" : "btower18@balharbor",
+            "n" : "btower14@balharbor",
+            "sw" : "btower38@balharbor",
+            "nw" : "btower13@balharbor",
+            "s" : "btower24@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2846,8 +2846,8 @@
       },
       "balhar13@balharbor" : {
          "exits" : {
-            "w" : "balhar12",
-            "n" : "^inarmor_door"
+            "w" : "balhar12@balharbor",
+            "n" : "^inarmor_door@balharbor"
          },
          "flags" : [
             "Nomagic"
@@ -2860,11 +2860,11 @@
       },
       "btower69@balharbor" : {
          "exits" : {
-            "ne" : "btower65",
-            "w" : "btower68",
-            "e" : "btower70",
-            "n" : "btower64",
-            "nw" : "btower63"
+            "ne" : "btower65@balharbor",
+            "w" : "btower68@balharbor",
+            "e" : "btower70@balharbor",
+            "n" : "btower64@balharbor",
+            "nw" : "btower63@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2878,11 +2878,11 @@
       },
       "btower8@balharbor" : {
          "exits" : {
-            "w" : "btower7",
-            "e" : "btower9",
-            "se" : "btower14",
-            "sw" : "btower12",
-            "s" : "btower13"
+            "w" : "btower7@balharbor",
+            "e" : "btower9@balharbor",
+            "se" : "btower14@balharbor",
+            "sw" : "btower12@balharbor",
+            "s" : "btower13@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2896,7 +2896,7 @@
       },
       "balhar66@balharbor" : {
          "exits" : {
-            "s" : "balhar58"
+            "s" : "balhar58@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -2907,8 +2907,8 @@
       },
       "balhar62@balharbor" : {
          "exits" : {
-            "w" : "balhar61",
-            "s" : "balhar54"
+            "w" : "balhar61@balharbor",
+            "s" : "balhar54@balharbor"
          },
          "flags" : [
             "CantSummon"
@@ -2921,11 +2921,11 @@
       },
       "btower7@balharbor" : {
          "exits" : {
-            "w" : "btower6",
-            "e" : "btower8",
-            "se" : "btower13",
-            "sw" : "btower11",
-            "s" : "btower12"
+            "w" : "btower6@balharbor",
+            "e" : "btower8@balharbor",
+            "se" : "btower13@balharbor",
+            "sw" : "btower11@balharbor",
+            "s" : "btower12@balharbor"
          },
          "flags" : [
             "Dark",
@@ -2939,7 +2939,7 @@
       },
       "balhar65@balharbor" : {
          "exits" : {
-            "w" : "balhar64"
+            "w" : "balhar64@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2952,7 +2952,7 @@
       },
       "balhar59@balharbor" : {
          "exits" : {
-            "s" : "balhar51"
+            "s" : "balhar51@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -2963,7 +2963,7 @@
       },
       "btower136@balharbor" : {
          "exits" : {
-            "s" : "btower135"
+            "s" : "btower135@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -2974,10 +2974,10 @@
       },
       "balhar22@balharbor" : {
          "exits" : {
-            "w" : "balhar21",
-            "e" : "balhar23",
-            "n" : "balhar38",
-            "s" : "balhar14"
+            "w" : "balhar21@balharbor",
+            "e" : "balhar23@balharbor",
+            "n" : "balhar38@balharbor",
+            "s" : "balhar14@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -2990,14 +2990,14 @@
       },
       "btower17@balharbor" : {
          "exits" : {
-            "ne" : "btower13",
-            "w" : "btower16",
-            "e" : "btower18",
-            "n" : "btower12",
-            "se" : "btower23",
-            "sw" : "btower21",
-            "nw" : "btower11",
-            "s" : "btower22"
+            "ne" : "btower13@balharbor",
+            "w" : "btower16@balharbor",
+            "e" : "btower18@balharbor",
+            "n" : "btower12@balharbor",
+            "se" : "btower23@balharbor",
+            "sw" : "btower21@balharbor",
+            "nw" : "btower11@balharbor",
+            "s" : "btower22@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3011,14 +3011,14 @@
       },
       "btower36@balharbor" : {
          "exits" : {
-            "ne" : "btower14",
-            "w" : "btower17",
-            "e" : "btower37",
-            "n" : "btower13",
-            "se" : "btower24",
-            "sw" : "btower22",
-            "nw" : "btower12",
-            "s" : "btower23"
+            "ne" : "btower14@balharbor",
+            "w" : "btower17@balharbor",
+            "e" : "btower37@balharbor",
+            "n" : "btower13@balharbor",
+            "se" : "btower24@balharbor",
+            "sw" : "btower22@balharbor",
+            "nw" : "btower12@balharbor",
+            "s" : "btower23@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3032,14 +3032,14 @@
       },
       "btower43@balharbor" : {
          "exits" : {
-            "ne" : "btower17",
-            "w" : "btower20",
-            "e" : "btower22",
-            "n" : "btower16",
-            "se" : "btower27",
-            "sw" : "btower25",
-            "nw" : "btower44",
-            "s" : "btower26"
+            "ne" : "btower17@balharbor",
+            "w" : "btower20@balharbor",
+            "e" : "btower22@balharbor",
+            "n" : "btower16@balharbor",
+            "se" : "btower27@balharbor",
+            "sw" : "btower25@balharbor",
+            "nw" : "btower44@balharbor",
+            "s" : "btower26@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3053,8 +3053,8 @@
       },
       "balhar29@balharbor" : {
          "exits" : {
-            "w" : "balhar26",
-            "e" : "balhar30"
+            "w" : "balhar26@balharbor",
+            "e" : "balhar30@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3067,10 +3067,10 @@
       },
       "balhar23@balharbor" : {
          "exits" : {
-            "w" : "balhar22",
-            "e" : "balhar24",
-            "n" : "balhar39",
-            "s" : "balhar15"
+            "w" : "balhar22@balharbor",
+            "e" : "balhar24@balharbor",
+            "n" : "balhar39@balharbor",
+            "s" : "balhar15@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3083,10 +3083,10 @@
       },
       "btower83@balharbor" : {
          "exits" : {
-            "w" : "btower71",
-            "n" : "btower67",
-            "d" : "btower134",
-            "nw" : "btower66"
+            "w" : "btower71@balharbor",
+            "n" : "btower67@balharbor",
+            "d" : "btower134@balharbor",
+            "nw" : "btower66@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3100,8 +3100,8 @@
       },
       "park10@balharbor" : {
          "exits" : {
-            "w" : "park9",
-            "s" : "park7"
+            "w" : "park9@balharbor",
+            "s" : "park7@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3114,11 +3114,11 @@
       },
       "btower73@balharbor" : {
          "exits" : {
-            "w" : "btower48",
-            "e" : "btower50",
-            "se" : "btower55",
-            "sw" : "btower53",
-            "s" : "btower74"
+            "w" : "btower48@balharbor",
+            "e" : "btower50@balharbor",
+            "se" : "btower55@balharbor",
+            "sw" : "btower53@balharbor",
+            "s" : "btower74@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3132,9 +3132,9 @@
       },
       "btower72@balharbor" : {
          "exits" : {
-            "w" : "btower71",
-            "n" : "btower67",
-            "nw" : "btower66"
+            "w" : "btower71@balharbor",
+            "n" : "btower67@balharbor",
+            "nw" : "btower66@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3148,11 +3148,11 @@
       },
       "btower67@balharbor" : {
          "exits" : {
-            "w" : "btower66",
-            "n" : "btower62",
-            "sw" : "btower71",
-            "nw" : "btower61",
-            "s" : "btower72"
+            "w" : "btower66@balharbor",
+            "n" : "btower62@balharbor",
+            "sw" : "btower71@balharbor",
+            "nw" : "btower61@balharbor",
+            "s" : "btower72@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3166,7 +3166,7 @@
       },
       "sewer5@balharbor" : {
          "exits" : {
-            "w" : "sewer2"
+            "w" : "sewer2@balharbor"
          },
          "flags" : [
             "Dark"
@@ -3179,9 +3179,9 @@
       },
       "balhar68@balharbor" : {
          "exits" : {
-            "w" : "balhar72",
-            "n" : "balhar74",
-            "s" : "balhar67"
+            "w" : "balhar72@balharbor",
+            "n" : "balhar74@balharbor",
+            "s" : "balhar67@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3194,7 +3194,7 @@
       },
       "balhar3@balharbor" : {
          "exits" : {
-            "e" : "balhar4"
+            "e" : "balhar4@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3207,8 +3207,8 @@
       },
       "btower1@balharbor" : {
          "exits" : {
-            "u" : "btower2",
-            "n" : "balhar42"
+            "u" : "btower2@balharbor",
+            "n" : "balhar42@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -3219,11 +3219,11 @@
       },
       "btower20@balharbor" : {
          "exits" : {
-            "ne" : "btower16",
-            "e" : "btower16",
-            "n" : "btower15",
-            "se" : "btower26",
-            "s" : "btower25"
+            "ne" : "btower16@balharbor",
+            "e" : "btower16@balharbor",
+            "n" : "btower15@balharbor",
+            "se" : "btower26@balharbor",
+            "s" : "btower25@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3237,9 +3237,9 @@
       },
       "balhar1@balharbor" : {
          "exits" : {
-            "w" : "balhar79",
-            "e" : "balhar2",
-            "n" : "balhar4"
+            "w" : "balhar79@balharbor",
+            "e" : "balhar2@balharbor",
+            "n" : "balhar4@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3252,11 +3252,11 @@
       },
       "btower58@balharbor" : {
          "exits" : {
-            "ne" : "btower54",
-            "e" : "btower59",
-            "n" : "btower53",
-            "se" : "btower64",
-            "s" : "btower63"
+            "ne" : "btower54@balharbor",
+            "e" : "btower59@balharbor",
+            "n" : "btower53@balharbor",
+            "se" : "btower64@balharbor",
+            "s" : "btower63@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3270,9 +3270,9 @@
       },
       "park11@balharbor" : {
          "exits" : {
-            "e" : "park8",
-            "n" : "park12",
-            "s" : "park4"
+            "e" : "park8@balharbor",
+            "n" : "park12@balharbor",
+            "s" : "park4@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3285,9 +3285,9 @@
       },
       "btower29@balharbor" : {
          "exits" : {
-            "w" : "btower28",
-            "n" : "btower24",
-            "nw" : "btower23"
+            "w" : "btower28@balharbor",
+            "n" : "btower24@balharbor",
+            "nw" : "btower23@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3301,8 +3301,8 @@
       },
       "balhar88@balharbor" : {
          "exits" : {
-            "e" : "balhar94",
-            "w" : "balhar85"
+            "e" : "balhar94@balharbor",
+            "w" : "balhar85@balharbor"
          },
          "flags" : [
             "TempReal"
@@ -3315,8 +3315,8 @@
       },
       "balhar46@balharbor" : {
          "exits" : {
-            "e" : "balhar47",
-            "s" : "balhar37"
+            "e" : "balhar47@balharbor",
+            "s" : "balhar37@balharbor"
          },
          "flags" : [
             "NoMobiles",
@@ -3330,8 +3330,8 @@
       },
       "balhar79@balharbor" : {
          "exits" : {
-            "e" : "balhar1",
-            "d" : "balhar80"
+            "e" : "balhar1@balharbor",
+            "d" : "balhar80@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3344,8 +3344,8 @@
       },
       "balhar2@balharbor" : {
          "exits" : {
-            "w" : "balhar1",
-            "s" : "balhar90"
+            "w" : "balhar1@balharbor",
+            "s" : "balhar90@balharbor"
          },
          "flags" : [
             "Party",
@@ -3359,8 +3359,8 @@
       },
       "jungle32@balharbor" : {
          "exits" : {
-            "w" : "jungle31",
-            "e" : "jungle33"
+            "w" : "jungle31@balharbor",
+            "e" : "jungle33@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3373,9 +3373,9 @@
       },
       "balhar56@balharbor" : {
          "exits" : {
-            "w" : "balhar55",
-            "e" : "balhar57",
-            "n" : "balhar64"
+            "w" : "balhar55@balharbor",
+            "e" : "balhar57@balharbor",
+            "n" : "balhar64@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3388,7 +3388,7 @@
       },
       "balhar17@balharbor" : {
          "exits" : {
-            "n" : "balhar16"
+            "n" : "balhar16@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3401,9 +3401,9 @@
       },
       "balhar32@balharbor" : {
          "exits" : {
-            "w" : "balhar31",
-            "e" : "balhar33",
-            "n" : "park2"
+            "w" : "balhar31@balharbor",
+            "e" : "balhar33@balharbor",
+            "n" : "park2@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3416,14 +3416,14 @@
       },
       "btower12@balharbor" : {
          "exits" : {
-            "ne" : "btower8",
-            "w" : "btower11",
-            "e" : "btower13",
-            "n" : "btower7",
-            "se" : "btower18",
-            "sw" : "btower16",
-            "nw" : "btower6",
-            "s" : "btower17"
+            "ne" : "btower8@balharbor",
+            "w" : "btower11@balharbor",
+            "e" : "btower13@balharbor",
+            "n" : "btower7@balharbor",
+            "se" : "btower18@balharbor",
+            "sw" : "btower16@balharbor",
+            "nw" : "btower6@balharbor",
+            "s" : "btower17@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3437,10 +3437,10 @@
       },
       "jungle19@balharbor" : {
          "exits" : {
-            "w" : "jungle18",
-            "e" : "balhar18",
-            "n" : "jungle21",
-            "s" : "jungle20"
+            "w" : "jungle18@balharbor",
+            "e" : "balhar18@balharbor",
+            "n" : "jungle21@balharbor",
+            "s" : "jungle20@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3453,8 +3453,8 @@
       },
       "jungle14@balharbor" : {
          "exits" : {
-            "w" : "jungle13",
-            "e" : "jungle15"
+            "w" : "jungle13@balharbor",
+            "e" : "jungle15@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3467,8 +3467,8 @@
       },
       "jungle5@balharbor" : {
          "exits" : {
-            "u" : "jungle6",
-            "d" : "jungle4"
+            "u" : "jungle6@balharbor",
+            "d" : "jungle4@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3481,14 +3481,14 @@
       },
       "btower31@balharbor" : {
          "exits" : {
-            "ne" : "btower7",
-            "w" : "btower32",
-            "e" : "btower12",
-            "n" : "btower6",
-            "se" : "btower17",
-            "sw" : "btower15",
-            "nw" : "btower5",
-            "s" : "btower16"
+            "ne" : "btower7@balharbor",
+            "w" : "btower32@balharbor",
+            "e" : "btower12@balharbor",
+            "n" : "btower6@balharbor",
+            "se" : "btower17@balharbor",
+            "sw" : "btower15@balharbor",
+            "nw" : "btower5@balharbor",
+            "s" : "btower16@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3502,8 +3502,8 @@
       },
       "balhar90@balharbor" : {
          "exits" : {
-            "n" : "balhar2",
-            "s" : "balhar91"
+            "n" : "balhar2@balharbor",
+            "s" : "balhar91@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3516,14 +3516,14 @@
       },
       "btower38@balharbor" : {
          "exits" : {
-            "ne" : "btower19",
-            "w" : "btower22",
-            "e" : "btower24",
-            "n" : "btower18",
-            "se" : "btower25",
-            "sw" : "btower27",
-            "nw" : "btower17",
-            "s" : "btower39"
+            "ne" : "btower19@balharbor",
+            "w" : "btower22@balharbor",
+            "e" : "btower24@balharbor",
+            "n" : "btower18@balharbor",
+            "se" : "btower25@balharbor",
+            "sw" : "btower27@balharbor",
+            "nw" : "btower17@balharbor",
+            "s" : "btower39@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3537,11 +3537,11 @@
       },
       "btower51@balharbor" : {
          "exits" : {
-            "w" : "btower50",
-            "e" : "btower52",
-            "se" : "btower57",
-            "sw" : "btower55",
-            "s" : "btower56"
+            "w" : "btower50@balharbor",
+            "e" : "btower52@balharbor",
+            "se" : "btower57@balharbor",
+            "sw" : "btower55@balharbor",
+            "s" : "btower56@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3555,11 +3555,11 @@
       },
       "btower10@balharbor" : {
          "exits" : {
-            "ne" : "btower6",
-            "e" : "btower11",
-            "n" : "btower5",
-            "se" : "btower16",
-            "s" : "btower15"
+            "ne" : "btower6@balharbor",
+            "e" : "btower11@balharbor",
+            "n" : "btower5@balharbor",
+            "se" : "btower16@balharbor",
+            "s" : "btower15@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3573,9 +3573,9 @@
       },
       "balhar54@balharbor" : {
          "exits" : {
-            "w" : "balhar53",
-            "e" : "balhar55",
-            "n" : "balhar62"
+            "w" : "balhar53@balharbor",
+            "e" : "balhar55@balharbor",
+            "n" : "balhar62@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3588,14 +3588,14 @@
       },
       "btower74@balharbor" : {
          "exits" : {
-            "ne" : "btower50",
-            "w" : "btower53",
-            "e" : "btower55",
-            "n" : "btower49",
-            "se" : "btower75",
-            "sw" : "btower58",
-            "nw" : "btower48",
-            "s" : "btower59"
+            "ne" : "btower50@balharbor",
+            "w" : "btower53@balharbor",
+            "e" : "btower55@balharbor",
+            "n" : "btower49@balharbor",
+            "se" : "btower75@balharbor",
+            "sw" : "btower58@balharbor",
+            "nw" : "btower48@balharbor",
+            "s" : "btower59@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3609,9 +3609,9 @@
       },
       "balhar43@balharbor" : {
          "exits" : {
-            "w" : "balhar42",
-            "e" : "balhar44",
-            "s" : "balhar34"
+            "w" : "balhar42@balharbor",
+            "e" : "balhar44@balharbor",
+            "s" : "balhar34@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -3622,9 +3622,9 @@
       },
       "balhar44@balharbor" : {
          "exits" : {
-            "w" : "balhar43",
-            "n" : "balhar52",
-            "s" : "balhar35"
+            "w" : "balhar43@balharbor",
+            "n" : "balhar52@balharbor",
+            "s" : "balhar35@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3637,14 +3637,14 @@
       },
       "btower11@balharbor" : {
          "exits" : {
-            "ne" : "btower7",
-            "w" : "btower10",
-            "e" : "btower12",
-            "n" : "btower6",
-            "se" : "btower17",
-            "sw" : "btower15",
-            "nw" : "btower5",
-            "s" : "btower16"
+            "ne" : "btower7@balharbor",
+            "w" : "btower10@balharbor",
+            "e" : "btower12@balharbor",
+            "n" : "btower6@balharbor",
+            "se" : "btower17@balharbor",
+            "sw" : "btower15@balharbor",
+            "nw" : "btower5@balharbor",
+            "s" : "btower16@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3658,9 +3658,9 @@
       },
       "balhar33@balharbor" : {
          "exits" : {
-            "w" : "balhar32",
-            "e" : "balhar85",
-            "n" : "park3"
+            "w" : "balhar32@balharbor",
+            "e" : "balhar85@balharbor",
+            "n" : "park3@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3673,14 +3673,14 @@
       },
       "btower22@balharbor" : {
          "exits" : {
-            "ne" : "btower18",
-            "w" : "btower21",
-            "e" : "btower23",
-            "n" : "btower17",
-            "se" : "btower28",
-            "sw" : "btower26",
-            "nw" : "btower16",
-            "s" : "btower27"
+            "ne" : "btower18@balharbor",
+            "w" : "btower21@balharbor",
+            "e" : "btower23@balharbor",
+            "n" : "btower17@balharbor",
+            "se" : "btower28@balharbor",
+            "sw" : "btower26@balharbor",
+            "nw" : "btower16@balharbor",
+            "s" : "btower27@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3694,10 +3694,10 @@
       },
       "balhar81@balharbor" : {
          "exits" : {
-            "w" : "balhar81",
-            "e" : "balhar81",
-            "n" : "balhar80",
-            "s" : "balhar82"
+            "w" : "balhar81@balharbor",
+            "e" : "balhar81@balharbor",
+            "n" : "balhar80@balharbor",
+            "s" : "balhar82@balharbor"
          },
          "flags" : [
             "Maze",
@@ -3711,7 +3711,7 @@
       },
       "btower137@balharbor" : {
          "exits" : {
-            "w" : "btower135"
+            "w" : "btower135@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -3722,8 +3722,8 @@
       },
       "jungle31@balharbor" : {
          "exits" : {
-            "w" : "jungle30",
-            "e" : "jungle32"
+            "w" : "jungle30@balharbor",
+            "e" : "jungle32@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3736,7 +3736,7 @@
       },
       "balhar84@balharbor" : {
          "exits" : {
-            "n" : "balhar25"
+            "n" : "balhar25@balharbor"
          },
          "flags" : [
             "Soundproof"
@@ -3749,11 +3749,11 @@
       },
       "btower63@balharbor" : {
          "exits" : {
-            "ne" : "btower59",
-            "e" : "btower64",
-            "n" : "btower58",
-            "se" : "btower69",
-            "s" : "btower68"
+            "ne" : "btower59@balharbor",
+            "e" : "btower64@balharbor",
+            "n" : "btower58@balharbor",
+            "se" : "btower69@balharbor",
+            "s" : "btower68@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3767,14 +3767,14 @@
       },
       "btower42@balharbor" : {
          "exits" : {
-            "ne" : "btower18",
-            "w" : "btower43",
-            "e" : "btower23",
-            "n" : "btower17",
-            "se" : "btower28",
-            "sw" : "btower26",
-            "nw" : "btower16",
-            "s" : "btower27"
+            "ne" : "btower18@balharbor",
+            "w" : "btower43@balharbor",
+            "e" : "btower23@balharbor",
+            "n" : "btower17@balharbor",
+            "se" : "btower28@balharbor",
+            "sw" : "btower26@balharbor",
+            "nw" : "btower16@balharbor",
+            "s" : "btower27@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3788,7 +3788,7 @@
       },
       "balhar91@balharbor" : {
          "exits" : {
-            "n" : "balhar90",
+            "n" : "balhar90@balharbor",
             "d" : "yllythad5026@yllythad"
          },
          "flags" : [
@@ -3802,8 +3802,8 @@
       },
       "balhar7@balharbor" : {
          "exits" : {
-            "n" : "^inadv_door",
-            "s" : "balhar8"
+            "n" : "^inadv_door@balharbor",
+            "s" : "balhar8@balharbor"
          },
          "flags" : [
             "Party"
@@ -3816,10 +3816,10 @@
       },
       "balhar83@balharbor" : {
          "exits" : {
-            "w" : "balhar83",
-            "e" : "balhar83",
-            "n" : "balhar81",
-            "s" : "balhar83"
+            "w" : "balhar83@balharbor",
+            "e" : "balhar83@balharbor",
+            "n" : "balhar81@balharbor",
+            "s" : "balhar83@balharbor"
          },
          "flags" : [
             "Maze",
@@ -3833,7 +3833,7 @@
       },
       "jungle16@balharbor" : {
          "exits" : {
-            "e" : "jungle17",
+            "e" : "jungle17@balharbor",
             "n" : "tread13@treadmill"
          },
          "flags" : [
@@ -3847,14 +3847,14 @@
       },
       "btower60@balharbor" : {
          "exits" : {
-            "ne" : "btower56",
-            "w" : "btower59",
-            "e" : "btower61",
-            "n" : "btower55",
-            "se" : "btower66",
-            "sw" : "btower64",
-            "nw" : "btower54",
-            "s" : "btower65"
+            "ne" : "btower56@balharbor",
+            "w" : "btower59@balharbor",
+            "e" : "btower61@balharbor",
+            "n" : "btower55@balharbor",
+            "se" : "btower66@balharbor",
+            "sw" : "btower64@balharbor",
+            "nw" : "btower54@balharbor",
+            "s" : "btower65@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3868,7 +3868,7 @@
       },
       "btower138@balharbor" : {
          "exits" : {
-            "e" : "^injail_door"
+            "e" : "^injail_door@balharbor"
          },
          "flags" : [
             "NoQuit",
@@ -3883,8 +3883,8 @@
       },
       "balhar36@balharbor" : {
          "exits" : {
-            "e" : "balhar37",
-            "n" : "^outcham_door"
+            "e" : "balhar37@balharbor",
+            "n" : "^outcham_door@balharbor"
          },
          "flags" : [
             "NoQuit",
@@ -3899,14 +3899,14 @@
       },
       "btower18@balharbor" : {
          "exits" : {
-            "ne" : "btower14",
-            "w" : "btower17",
-            "e" : "btower19",
-            "n" : "btower13",
-            "se" : "btower24",
-            "sw" : "btower22",
-            "nw" : "btower12",
-            "s" : "btower23"
+            "ne" : "btower14@balharbor",
+            "w" : "btower17@balharbor",
+            "e" : "btower19@balharbor",
+            "n" : "btower13@balharbor",
+            "se" : "btower24@balharbor",
+            "sw" : "btower22@balharbor",
+            "nw" : "btower12@balharbor",
+            "s" : "btower23@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3920,7 +3920,7 @@
       },
       "jungle20@balharbor" : {
          "exits" : {
-            "n" : "jungle19"
+            "n" : "jungle19@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3933,7 +3933,7 @@
       },
       "balhar45@balharbor" : {
          "exits" : {
-            "s" : "^incham_door"
+            "s" : "^incham_door@balharbor"
          },
          "flags" : [
             "NoQuit",
@@ -3950,7 +3950,7 @@
       },
       "sewer4@balharbor" : {
          "exits" : {
-            "n" : "sewer3"
+            "n" : "sewer3@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3964,11 +3964,11 @@
       },
       "btower57@balharbor" : {
          "exits" : {
-            "w" : "btower56",
-            "n" : "btower52",
-            "sw" : "btower61",
-            "nw" : "btower51",
-            "s" : "btower62"
+            "w" : "btower56@balharbor",
+            "n" : "btower52@balharbor",
+            "sw" : "btower61@balharbor",
+            "nw" : "btower51@balharbor",
+            "s" : "btower62@balharbor"
          },
          "flags" : [
             "Dark",
@@ -3982,8 +3982,8 @@
       },
       "jungle6@balharbor" : {
          "exits" : {
-            "e" : "jungle7",
-            "d" : "jungle5"
+            "e" : "jungle7@balharbor",
+            "d" : "jungle5@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -3996,11 +3996,11 @@
       },
       "btower44@balharbor" : {
          "exits" : {
-            "ne" : "btower11",
-            "e" : "btower16",
-            "n" : "btower10",
-            "se" : "btower21",
-            "s" : "btower45"
+            "ne" : "btower11@balharbor",
+            "e" : "btower16@balharbor",
+            "n" : "btower10@balharbor",
+            "se" : "btower21@balharbor",
+            "s" : "btower45@balharbor"
          },
          "flags" : [
             "Dark",
@@ -4014,11 +4014,11 @@
       },
       "btower49@balharbor" : {
          "exits" : {
-            "w" : "btower48",
-            "e" : "btower50",
-            "se" : "btower55",
-            "sw" : "btower53",
-            "s" : "btower54"
+            "w" : "btower48@balharbor",
+            "e" : "btower50@balharbor",
+            "se" : "btower55@balharbor",
+            "sw" : "btower53@balharbor",
+            "s" : "btower54@balharbor"
          },
          "flags" : [
             "Dark",
@@ -4032,7 +4032,7 @@
       },
       "balhar75@balharbor" : {
          "exits" : {
-            "s" : "balhar74"
+            "s" : "balhar74@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -4043,9 +4043,9 @@
       },
       "jungle2@balharbor" : {
          "exits" : {
-            "u" : "jungle3",
-            "d" : "jungle1",
-            "s" : "jungle28"
+            "u" : "jungle3@balharbor",
+            "d" : "jungle1@balharbor",
+            "s" : "jungle28@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4058,7 +4058,7 @@
       },
       "balhar60@balharbor" : {
          "exits" : {
-            "s" : "balhar52"
+            "s" : "balhar52@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4071,8 +4071,8 @@
       },
       "balhar34@balharbor" : {
          "exits" : {
-            "e" : "balhar35",
-            "n" : "balhar43"
+            "e" : "balhar35@balharbor",
+            "n" : "balhar43@balharbor"
          },
          "flags" : [
             "NoMagic"
@@ -4085,7 +4085,7 @@
       },
       "balhar71@balharbor" : {
          "exits" : {
-            "e" : "balhar67"
+            "e" : "balhar67@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -4096,9 +4096,9 @@
       },
       "jungle25@balharbor" : {
          "exits" : {
-            "e" : "jungle24",
-            "u" : "jungle27",
-            "d" : "jungle28"
+            "e" : "jungle24@balharbor",
+            "u" : "jungle27@balharbor",
+            "d" : "jungle28@balharbor"
          },
          "flags" : [
             "Outdoors",
@@ -4113,8 +4113,8 @@
       },
       "jungle10@balharbor" : {
          "exits" : {
-            "w" : "jungle9",
-            "e" : "jungle11"
+            "w" : "jungle9@balharbor",
+            "e" : "jungle11@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4127,8 +4127,8 @@
       },
       "btower2@balharbor" : {
          "exits" : {
-            "u" : "btower3",
-            "d" : "btower1"
+            "u" : "btower3@balharbor",
+            "d" : "btower1@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4141,7 +4141,7 @@
       },
       "balhar78@balharbor" : {
          "exits" : {
-            "n" : "balhar77"
+            "n" : "balhar77@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -4152,8 +4152,8 @@
       },
       "jungle24@balharbor" : {
          "exits" : {
-            "w" : "jungle25",
-            "e" : "jungle26"
+            "w" : "jungle25@balharbor",
+            "e" : "jungle26@balharbor"
          },
          "flags" : [
             "Outdoors",
@@ -4167,9 +4167,9 @@
       },
       "park4@balharbor" : {
          "exits" : {
-            "e" : "park5",
-            "n" : "park11",
-            "s" : "park1"
+            "e" : "park5@balharbor",
+            "n" : "park11@balharbor",
+            "s" : "park1@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4182,11 +4182,11 @@
       },
       "balhar82@balharbor" : {
          "exits" : {
-            "w" : "balhar83",
-            "e" : "balhar83",
-            "n" : "balhar81",
-            "d" : "balhar83",
-            "s" : "balhar83"
+            "w" : "balhar83@balharbor",
+            "e" : "balhar83@balharbor",
+            "n" : "balhar81@balharbor",
+            "d" : "balhar83@balharbor",
+            "s" : "balhar83@balharbor"
          },
          "flags" : [
             "Maze",
@@ -4200,8 +4200,8 @@
       },
       "balhar69@balharbor" : {
          "exits" : {
-            "w" : "balhar50",
-            "d" : "balhar70"
+            "w" : "balhar50@balharbor",
+            "d" : "balhar70@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -4212,8 +4212,8 @@
       },
       "sewer1@balharbor" : {
          "exits" : {
-            "u" : "balhar5",
-            "s" : "sewer2"
+            "u" : "balhar5@balharbor",
+            "s" : "sewer2@balharbor"
          },
          "flags" : [
             "NoMobiles"
@@ -4226,14 +4226,14 @@
       },
       "btower34@balharbor" : {
          "exits" : {
-            "ne" : "btower35",
-            "w" : "btower16",
-            "e" : "btower18",
-            "n" : "btower12",
-            "se" : "btower23",
-            "sw" : "btower21",
-            "nw" : "btower11",
-            "s" : "btower42"
+            "ne" : "btower35@balharbor",
+            "w" : "btower16@balharbor",
+            "e" : "btower18@balharbor",
+            "n" : "btower12@balharbor",
+            "se" : "btower23@balharbor",
+            "sw" : "btower21@balharbor",
+            "nw" : "btower11@balharbor",
+            "s" : "btower42@balharbor"
          },
          "flags" : [
             "Dark",
@@ -4247,14 +4247,14 @@
       },
       "btower76@balharbor" : {
          "exits" : {
-            "ne" : "btower55",
-            "w" : "btower58",
-            "e" : "btower60",
-            "n" : "btower54",
-            "se" : "btower65",
-            "sw" : "btower77",
-            "nw" : "btower53",
-            "s" : "btower64"
+            "ne" : "btower55@balharbor",
+            "w" : "btower58@balharbor",
+            "e" : "btower60@balharbor",
+            "n" : "btower54@balharbor",
+            "se" : "btower65@balharbor",
+            "sw" : "btower77@balharbor",
+            "nw" : "btower53@balharbor",
+            "s" : "btower64@balharbor"
          },
          "flags" : [
             "Dark",
@@ -4268,8 +4268,8 @@
       },
       "btower134@balharbor" : {
          "exits" : {
-            "n" : "btower135",
-            "u" : "btower72"
+            "n" : "btower135@balharbor",
+            "u" : "btower72@balharbor"
          },
          "flags" : [
             "NoMobiles"
@@ -4282,8 +4282,8 @@
       },
       "balhar49@balharbor" : {
          "exits" : {
-            "n" : "balhar57",
-            "s" : "balhar40"
+            "n" : "balhar57@balharbor",
+            "s" : "balhar40@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4296,10 +4296,10 @@
       },
       "btower5@balharbor" : {
          "exits" : {
-            "e" : "btower30",
-            "se" : "btower11",
-            "d" : "btower4",
-            "s" : "btower10"
+            "e" : "btower30@balharbor",
+            "se" : "btower11@balharbor",
+            "d" : "btower4@balharbor",
+            "s" : "btower10@balharbor"
          },
          "flags" : [
             "Dark",
@@ -4313,10 +4313,10 @@
       },
       "park8@balharbor" : {
          "exits" : {
-            "e" : "park7",
-            "w" : "park11",
-            "n" : "park9",
-            "s" : "park5"
+            "e" : "park7@balharbor",
+            "w" : "park11@balharbor",
+            "n" : "park9@balharbor",
+            "s" : "park5@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4329,10 +4329,10 @@
       },
       "balhar77@balharbor" : {
          "exits" : {
-            "w" : "balhar74",
-            "e" : "park12",
-            "n" : "balhar76",
-            "s" : "balhar78"
+            "w" : "balhar74@balharbor",
+            "e" : "park12@balharbor",
+            "n" : "balhar76@balharbor",
+            "s" : "balhar78@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4345,8 +4345,8 @@
       },
       "balhar6@balharbor" : {
          "exits" : {
-            "n" : "balhar19",
-            "s" : "balhar4"
+            "n" : "balhar19@balharbor",
+            "s" : "balhar4@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4359,8 +4359,8 @@
       },
       "balhar42@balharbor" : {
          "exits" : {
-            "e" : "balhar43",
-            "s" : "btower1"
+            "e" : "balhar43@balharbor",
+            "s" : "btower1@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -4371,10 +4371,10 @@
       },
       "balhar37@balharbor" : {
          "exits" : {
-            "w" : "balhar36",
-            "e" : "balhar38",
-            "n" : "balhar46",
-            "s" : "balhar21"
+            "w" : "balhar36@balharbor",
+            "e" : "balhar38@balharbor",
+            "n" : "balhar46@balharbor",
+            "s" : "balhar21@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4387,11 +4387,11 @@
       },
       "btower27@balharbor" : {
          "exits" : {
-            "ne" : "btower23",
-            "w" : "btower26",
-            "e" : "btower28",
-            "n" : "btower22",
-            "nw" : "btower21"
+            "ne" : "btower23@balharbor",
+            "w" : "btower26@balharbor",
+            "e" : "btower28@balharbor",
+            "n" : "btower22@balharbor",
+            "nw" : "btower21@balharbor"
          },
          "flags" : [
             "Dark",
@@ -4405,14 +4405,14 @@
       },
       "btower59@balharbor" : {
          "exits" : {
-            "ne" : "btower55",
-            "w" : "btower58",
-            "e" : "btower60",
-            "n" : "btower54",
-            "se" : "btower65",
-            "sw" : "btower63",
-            "nw" : "btower53",
-            "s" : "btower64"
+            "ne" : "btower55@balharbor",
+            "w" : "btower58@balharbor",
+            "e" : "btower60@balharbor",
+            "n" : "btower54@balharbor",
+            "se" : "btower65@balharbor",
+            "sw" : "btower63@balharbor",
+            "nw" : "btower53@balharbor",
+            "s" : "btower64@balharbor"
          },
          "flags" : [
             "Dark",
@@ -4426,8 +4426,8 @@
       },
       "balhar16@balharbor" : {
          "exits" : {
-            "w" : "balhar15",
-            "s" : "balhar17"
+            "w" : "balhar15@balharbor",
+            "s" : "balhar17@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4440,8 +4440,8 @@
       },
       "jungle30@balharbor" : {
          "exits" : {
-            "e" : "jungle31",
-            "s" : "jungle29"
+            "e" : "jungle31@balharbor",
+            "s" : "jungle29@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4454,9 +4454,9 @@
       },
       "balhar94@balharbor" : {
          "exits" : {
-            "e" : "balhar92",
-            "w" : "balhar88",
-            "s" : "balhar87"
+            "e" : "balhar92@balharbor",
+            "w" : "balhar88@balharbor",
+            "s" : "balhar87@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -4467,7 +4467,7 @@
       },
       "balhar70@balharbor" : {
          "exits" : {
-            "u" : "balhar69"
+            "u" : "balhar69@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -4478,9 +4478,9 @@
       },
       "balhar20@balharbor" : {
          "exits" : {
-            "w" : "balhar19",
-            "e" : "balhar21",
-            "s" : "^outadv_door"
+            "w" : "balhar19@balharbor",
+            "e" : "balhar21@balharbor",
+            "s" : "^outadv_door@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4493,14 +4493,14 @@
       },
       "btower23@balharbor" : {
          "exits" : {
-            "ne" : "btower19",
-            "w" : "btower22",
-            "e" : "btower24",
-            "n" : "btower18",
-            "se" : "btower25",
-            "sw" : "btower27",
-            "nw" : "btower17",
-            "s" : "btower28"
+            "ne" : "btower19@balharbor",
+            "w" : "btower22@balharbor",
+            "e" : "btower24@balharbor",
+            "n" : "btower18@balharbor",
+            "se" : "btower25@balharbor",
+            "sw" : "btower27@balharbor",
+            "nw" : "btower17@balharbor",
+            "s" : "btower28@balharbor"
          },
          "flags" : [
             "Dark",
@@ -4514,14 +4514,14 @@
       },
       "btower41@balharbor" : {
          "exits" : {
-            "ne" : "btower8",
-            "w" : "btower11",
-            "e" : "btower13",
-            "n" : "btower7",
-            "se" : "btower18",
-            "sw" : "btower33",
-            "nw" : "btower6",
-            "s" : "btower17"
+            "ne" : "btower8@balharbor",
+            "w" : "btower11@balharbor",
+            "e" : "btower13@balharbor",
+            "n" : "btower7@balharbor",
+            "se" : "btower18@balharbor",
+            "sw" : "btower33@balharbor",
+            "nw" : "btower6@balharbor",
+            "s" : "btower17@balharbor"
          },
          "flags" : [
             "Dark",
@@ -4535,7 +4535,7 @@
       },
       "balhar86@balharbor" : {
          "exits" : {
-            "w" : "balhar85"
+            "w" : "balhar85@balharbor"
          },
          "flags" : [
             "TempReal"
@@ -4548,10 +4548,10 @@
       },
       "balhar38@balharbor" : {
          "exits" : {
-            "w" : "balhar37",
-            "e" : "balhar39",
-            "n" : "balhar47",
-            "s" : "balhar22"
+            "w" : "balhar37@balharbor",
+            "e" : "balhar39@balharbor",
+            "n" : "balhar47@balharbor",
+            "s" : "balhar22@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4564,9 +4564,9 @@
       },
       "btower52@balharbor" : {
          "exits" : {
-            "w" : "btower51",
-            "sw" : "btower56",
-            "s" : "btower57"
+            "w" : "btower51@balharbor",
+            "sw" : "btower56@balharbor",
+            "s" : "btower57@balharbor"
          },
          "flags" : [
             "Dark",
@@ -4580,14 +4580,14 @@
       },
       "btower21@balharbor" : {
          "exits" : {
-            "ne" : "btower17",
-            "w" : "btower20",
-            "e" : "btower22",
-            "n" : "btower16",
-            "se" : "btower27",
-            "sw" : "btower25",
-            "nw" : "btower15",
-            "s" : "btower26"
+            "ne" : "btower17@balharbor",
+            "w" : "btower20@balharbor",
+            "e" : "btower22@balharbor",
+            "n" : "btower16@balharbor",
+            "se" : "btower27@balharbor",
+            "sw" : "btower25@balharbor",
+            "nw" : "btower15@balharbor",
+            "s" : "btower26@balharbor"
          },
          "flags" : [
             "Dark",
@@ -4601,8 +4601,8 @@
       },
       "jungle4@balharbor" : {
          "exits" : {
-            "u" : "jungle5",
-            "d" : "jungle3"
+            "u" : "jungle5@balharbor",
+            "d" : "jungle3@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4615,8 +4615,8 @@
       },
       "jungle15@balharbor" : {
          "exits" : {
-            "w" : "jungle14",
-            "n" : "jungle12"
+            "w" : "jungle14@balharbor",
+            "n" : "jungle12@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4629,9 +4629,9 @@
       },
       "balhar30@balharbor" : {
          "exits" : {
-            "w" : "balhar29",
-            "e" : "balhar31",
-            "n" : "balhar67"
+            "w" : "balhar29@balharbor",
+            "e" : "balhar31@balharbor",
+            "n" : "balhar67@balharbor"
          },
          "flags" : [
             "Outdoors",
@@ -4645,9 +4645,9 @@
       },
       "btower100@balharbor" : {
          "exits" : {
-            "ne" : "Before@waste",
-            "w" : "balhar48",
-            "e" : "btower5",
+            "ne" : "before@waste",
+            "w" : "balhar48@balharbor",
+            "e" : "btower5@balharbor",
             "u" : "camelot303@camelot",
             "n" : "gambling@icecave",
             "se" : "camelot1@camelot",
@@ -4667,10 +4667,10 @@
       },
       "balhar39@balharbor" : {
          "exits" : {
-            "w" : "balhar38",
-            "e" : "balhar40",
-            "n" : "balhar48",
-            "s" : "balhar23"
+            "w" : "balhar38@balharbor",
+            "e" : "balhar40@balharbor",
+            "n" : "balhar48@balharbor",
+            "s" : "balhar23@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4683,11 +4683,11 @@
       },
       "btower15@balharbor" : {
          "exits" : {
-            "ne" : "btower11",
-            "e" : "btower16",
-            "n" : "btower10",
-            "se" : "btower21",
-            "s" : "btower20"
+            "ne" : "btower11@balharbor",
+            "e" : "btower16@balharbor",
+            "n" : "btower10@balharbor",
+            "se" : "btower21@balharbor",
+            "s" : "btower20@balharbor"
          },
          "flags" : [
             "Dark",
@@ -4701,10 +4701,10 @@
       },
       "balhar80@balharbor" : {
          "exits" : {
-            "w" : "balhar80",
-            "e" : "balhar80",
-            "u" : "balhar79",
-            "s" : "balhar81"
+            "w" : "balhar80@balharbor",
+            "e" : "balhar80@balharbor",
+            "u" : "balhar79@balharbor",
+            "s" : "balhar81@balharbor"
          },
          "flags" : [
             "Maze",
@@ -4719,7 +4719,7 @@
       "jungle1@balharbor" : {
          "exits" : {
             "n" : "golden1@golden",
-            "u" : "jungle2",
+            "u" : "jungle2@balharbor",
             "s" : "windy1@windy"
          },
          "flags" : [
@@ -4733,11 +4733,11 @@
       },
       "btower53@balharbor" : {
          "exits" : {
-            "ne" : "btower49",
-            "e" : "btower54",
-            "n" : "btower48",
-            "se" : "btower59",
-            "s" : "btower58"
+            "ne" : "btower49@balharbor",
+            "e" : "btower54@balharbor",
+            "n" : "btower48@balharbor",
+            "se" : "btower59@balharbor",
+            "s" : "btower58@balharbor"
          },
          "flags" : [
             "Dark",
@@ -4751,8 +4751,8 @@
       },
       "balhar87@balharbor" : {
          "exits" : {
-            "w" : "balhar85",
-            "e" : "balhar94"
+            "w" : "balhar85@balharbor",
+            "e" : "balhar94@balharbor"
          },
          "flags" : [
             "TempReal"
@@ -4765,8 +4765,8 @@
       },
       "balhar8@balharbor" : {
          "exits" : {
-            "u" : "balhar89",
-            "n" : "balhar7"
+            "u" : "balhar89@balharbor",
+            "n" : "balhar7@balharbor"
          },
          "flags" : [
             "Party",
@@ -4780,10 +4780,10 @@
       },
       "balhar21@balharbor" : {
          "exits" : {
-            "w" : "balhar20",
-            "e" : "balhar22",
-            "n" : "balhar37",
-            "s" : "balhar10"
+            "w" : "balhar20@balharbor",
+            "e" : "balhar22@balharbor",
+            "n" : "balhar37@balharbor",
+            "s" : "balhar10@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4796,8 +4796,8 @@
       },
       "jungle22@balharbor" : {
          "exits" : {
-            "n" : "jungle9",
-            "s" : "jungle23"
+            "n" : "jungle9@balharbor",
+            "s" : "jungle23@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4810,14 +4810,14 @@
       },
       "btower75@balharbor" : {
          "exits" : {
-            "ne" : "btower56",
-            "w" : "btower76",
-            "e" : "btower61",
-            "n" : "btower55",
-            "se" : "btower66",
-            "sw" : "btower64",
-            "nw" : "btower54",
-            "s" : "btower65"
+            "ne" : "btower56@balharbor",
+            "w" : "btower76@balharbor",
+            "e" : "btower61@balharbor",
+            "n" : "btower55@balharbor",
+            "se" : "btower66@balharbor",
+            "sw" : "btower64@balharbor",
+            "nw" : "btower54@balharbor",
+            "s" : "btower65@balharbor"
          },
          "flags" : [
             "Dark",
@@ -4831,9 +4831,9 @@
       },
       "balhar40@balharbor" : {
          "exits" : {
-            "w" : "balhar39",
-            "n" : "balhar49",
-            "s" : "balhar24"
+            "w" : "balhar39@balharbor",
+            "n" : "balhar49@balharbor",
+            "s" : "balhar24@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4846,7 +4846,7 @@
       },
       "jungle26@balharbor" : {
          "exits" : {
-            "w" : "jungle25"
+            "w" : "jungle25@balharbor"
          },
          "flags" : [
             "Outdoors",
@@ -4860,10 +4860,10 @@
       },
       "balhar25@balharbor" : {
          "exits" : {
-            "w" : "balhar24",
-            "e" : "balhar26",
-            "n" : "balhar41",
-            "s" : "balhar84"
+            "w" : "balhar24@balharbor",
+            "e" : "balhar26@balharbor",
+            "n" : "balhar41@balharbor",
+            "s" : "balhar84@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4876,9 +4876,9 @@
       },
       "jungle12@balharbor" : {
          "exits" : {
-            "w" : "greattree",
-            "e" : "jungle18",
-            "s" : "jungle15"
+            "w" : "greattree@balharbor",
+            "e" : "jungle18@balharbor",
+            "s" : "jungle15@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4891,8 +4891,8 @@
       },
       "balhar63@balharbor" : {
          "exits" : {
-            "n" : "jungle33",
-            "s" : "balhar55"
+            "n" : "jungle33@balharbor",
+            "s" : "balhar55@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4905,9 +4905,9 @@
       },
       "btower68@balharbor" : {
          "exits" : {
-            "ne" : "btower64",
-            "e" : "btower69",
-            "n" : "btower63"
+            "ne" : "btower64@balharbor",
+            "e" : "btower69@balharbor",
+            "n" : "btower63@balharbor"
          },
          "flags" : [
             "Dark",
@@ -4921,11 +4921,11 @@
       },
       "btower71@balharbor" : {
          "exits" : {
-            "ne" : "btower67",
-            "w" : "btower70",
-            "e" : "btower72",
-            "n" : "btower66",
-            "nw" : "btower65"
+            "ne" : "btower67@balharbor",
+            "w" : "btower70@balharbor",
+            "e" : "btower72@balharbor",
+            "n" : "btower66@balharbor",
+            "nw" : "btower65@balharbor"
          },
          "flags" : [
             "Dark",
@@ -4939,8 +4939,8 @@
       },
       "jungle7@balharbor" : {
          "exits" : {
-            "w" : "jungle6",
-            "e" : "jungle8"
+            "w" : "jungle6@balharbor",
+            "e" : "jungle8@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4953,8 +4953,8 @@
       },
       "balhar11@balharbor" : {
          "exits" : {
-            "e" : "balhar12",
-            "n" : "^inweap_door"
+            "e" : "balhar12@balharbor",
+            "n" : "^inweap_door@balharbor"
          },
          "flags" : [
             "Nomagic"
@@ -4967,8 +4967,8 @@
       },
       "balhar5@balharbor" : {
          "exits" : {
-            "w" : "balhar4",
-            "d" : "sewer1"
+            "w" : "balhar4@balharbor",
+            "d" : "sewer1@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -4981,11 +4981,11 @@
       },
       "btower135@balharbor" : {
          "exits" : {
-            "w" : "^outjail_door",
-            "e" : "btower137",
-            "u" : "btower139",
-            "n" : "btower136",
-            "s" : "btower134"
+            "w" : "^outjail_door@balharbor",
+            "e" : "btower137@balharbor",
+            "u" : "btower139@balharbor",
+            "n" : "btower136@balharbor",
+            "s" : "btower134@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -4996,9 +4996,9 @@
       },
       "sewer2@balharbor" : {
          "exits" : {
-            "e" : "sewer5",
-            "n" : "sewer1",
-            "s" : "sewer3"
+            "e" : "sewer5@balharbor",
+            "n" : "sewer1@balharbor",
+            "s" : "sewer3@balharbor"
          },
          "flags" : [
             "Dark",
@@ -5012,9 +5012,9 @@
       },
       "balhar58@balharbor" : {
          "exits" : {
-            "w" : "balhar57",
-            "n" : "balhar66",
-            "s" : "balhar50"
+            "w" : "balhar57@balharbor",
+            "n" : "balhar66@balharbor",
+            "s" : "balhar50@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -5027,8 +5027,8 @@
       },
       "jungle17@balharbor" : {
          "exits" : {
-            "w" : "jungle16",
-            "s" : "jungle11"
+            "w" : "jungle16@balharbor",
+            "s" : "jungle11@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -5041,7 +5041,7 @@
       },
       "balhar93@balharbor" : {
          "exits" : {
-            "n" : "balhar24"
+            "n" : "balhar24@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -5064,8 +5064,8 @@
       },
       "park7@balharbor" : {
          "exits" : {
-            "w" : "park8",
-            "n" : "park10"
+            "w" : "park8@balharbor",
+            "n" : "park10@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -5078,9 +5078,9 @@
       },
       "balhar67@balharbor" : {
          "exits" : {
-            "w" : "balhar71",
-            "n" : "balhar68",
-            "s" : "balhar30"
+            "w" : "balhar71@balharbor",
+            "n" : "balhar68@balharbor",
+            "s" : "balhar30@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -5093,9 +5093,9 @@
       },
       "balhar50@balharbor" : {
          "exits" : {
-            "e" : "balhar69",
-            "n" : "balhar58",
-            "s" : "balhar41"
+            "e" : "balhar69@balharbor",
+            "n" : "balhar58@balharbor",
+            "s" : "balhar41@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -5108,8 +5108,8 @@
       },
       "jungle21@balharbor" : {
          "exits" : {
-            "n" : "jungle29",
-            "s" : "jungle19"
+            "n" : "jungle29@balharbor",
+            "s" : "jungle19@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -5122,8 +5122,8 @@
       },
       "btower4@balharbor" : {
          "exits" : {
-            "d" : "^intow_door",
-            "s" : "btower5"
+            "d" : "^intow_door@balharbor",
+            "s" : "btower5@balharbor"
          },
          "flags" : [
             "Maze",
@@ -5137,11 +5137,11 @@
       },
       "btower62@balharbor" : {
          "exits" : {
-            "w" : "btower61",
-            "n" : "btower57",
-            "sw" : "btower66",
-            "nw" : "btower56",
-            "s" : "btower67"
+            "w" : "btower61@balharbor",
+            "n" : "btower57@balharbor",
+            "sw" : "btower66@balharbor",
+            "nw" : "btower56@balharbor",
+            "s" : "btower67@balharbor"
          },
          "flags" : [
             "Dark",
@@ -5155,14 +5155,14 @@
       },
       "btower54@balharbor" : {
          "exits" : {
-            "ne" : "btower50",
-            "w" : "btower53",
-            "e" : "btower55",
-            "n" : "btower49",
-            "se" : "btower60",
-            "sw" : "btower58",
-            "nw" : "btower48",
-            "s" : "btower59"
+            "ne" : "btower50@balharbor",
+            "w" : "btower53@balharbor",
+            "e" : "btower55@balharbor",
+            "n" : "btower49@balharbor",
+            "se" : "btower60@balharbor",
+            "sw" : "btower58@balharbor",
+            "nw" : "btower48@balharbor",
+            "s" : "btower59@balharbor"
          },
          "flags" : [
             "Dark",
@@ -5176,12 +5176,12 @@
       },
       "btower47@balharbor" : {
          "exits" : {
-            "ne" : "btower23",
-            "w" : "btower26",
-            "e" : "btower28",
-            "n" : "btower22",
-            "d" : "btower100",
-            "nw" : "btower21"
+            "ne" : "btower23@balharbor",
+            "w" : "btower26@balharbor",
+            "e" : "btower28@balharbor",
+            "n" : "btower22@balharbor",
+            "d" : "btower100@balharbor",
+            "nw" : "btower21@balharbor"
          },
          "flags" : [
             "Dark",
@@ -5195,9 +5195,9 @@
       },
       "park1@balharbor" : {
          "exits" : {
-            "e" : "park2",
-            "n" : "park4",
-            "s" : "balhar31"
+            "e" : "park2@balharbor",
+            "n" : "park4@balharbor",
+            "s" : "balhar31@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -5210,7 +5210,7 @@
       },
       "balhar28@balharbor" : {
          "exits" : {
-            "n" : "balhar26"
+            "n" : "balhar26@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -5223,10 +5223,10 @@
       },
       "balhar26@balharbor" : {
          "exits" : {
-            "w" : "balhar25",
-            "e" : "balhar29",
-            "n" : "balhar27",
-            "s" : "balhar28"
+            "w" : "balhar25@balharbor",
+            "e" : "balhar29@balharbor",
+            "n" : "balhar27@balharbor",
+            "s" : "balhar28@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -5239,11 +5239,11 @@
       },
       "btower46@balharbor" : {
          "exits" : {
-            "ne" : "btower22",
-            "w" : "btower25",
-            "e" : "btower47",
-            "n" : "btower21",
-            "nw" : "btower20"
+            "ne" : "btower22@balharbor",
+            "w" : "btower25@balharbor",
+            "e" : "btower47@balharbor",
+            "n" : "btower21@balharbor",
+            "nw" : "btower20@balharbor"
          },
          "flags" : [
             "Dark",
@@ -5257,10 +5257,10 @@
       },
       "btower40@balharbor" : {
          "exits" : {
-            "w" : "btower28",
-            "n" : "btower24",
-            "d" : "btower48",
-            "nw" : "btower23"
+            "w" : "btower28@balharbor",
+            "n" : "btower24@balharbor",
+            "d" : "btower48@balharbor",
+            "nw" : "btower23@balharbor"
          },
          "flags" : [
             "Dark",
@@ -5274,14 +5274,14 @@
       },
       "btower65@balharbor" : {
          "exits" : {
-            "ne" : "btower61",
-            "w" : "btower64",
-            "e" : "btower66",
-            "n" : "btower60",
-            "se" : "btower71",
-            "sw" : "btower69",
-            "nw" : "btower59",
-            "s" : "btower70"
+            "ne" : "btower61@balharbor",
+            "w" : "btower64@balharbor",
+            "e" : "btower66@balharbor",
+            "n" : "btower60@balharbor",
+            "se" : "btower71@balharbor",
+            "sw" : "btower69@balharbor",
+            "nw" : "btower59@balharbor",
+            "s" : "btower70@balharbor"
          },
          "flags" : [
             "Dark",
@@ -5295,8 +5295,8 @@
       },
       "jungle3@balharbor" : {
          "exits" : {
-            "u" : "jungle4",
-            "d" : "jungle2"
+            "u" : "jungle4@balharbor",
+            "d" : "jungle2@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -5309,9 +5309,9 @@
       },
       "park9@balharbor" : {
          "exits" : {
-            "e" : "park10",
-            "w" : "park12",
-            "s" : "park8"
+            "e" : "park10@balharbor",
+            "w" : "park12@balharbor",
+            "s" : "park8@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -5324,11 +5324,11 @@
       },
       "btower30@balharbor" : {
          "exits" : {
-            "w" : "btower5",
-            "e" : "btower7",
-            "se" : "btower41",
-            "sw" : "btower10",
-            "s" : "btower31"
+            "w" : "btower5@balharbor",
+            "e" : "btower7@balharbor",
+            "se" : "btower41@balharbor",
+            "sw" : "btower10@balharbor",
+            "s" : "btower31@balharbor"
          },
          "flags" : [
             "Dark",
@@ -5342,14 +5342,14 @@
       },
       "btower55@balharbor" : {
          "exits" : {
-            "ne" : "btower51",
-            "w" : "btower54",
-            "e" : "btower56",
-            "n" : "btower50",
-            "se" : "btower61",
-            "sw" : "btower59",
-            "nw" : "btower49",
-            "s" : "btower60"
+            "ne" : "btower51@balharbor",
+            "w" : "btower54@balharbor",
+            "e" : "btower56@balharbor",
+            "n" : "btower50@balharbor",
+            "se" : "btower61@balharbor",
+            "sw" : "btower59@balharbor",
+            "nw" : "btower49@balharbor",
+            "s" : "btower60@balharbor"
          },
          "flags" : [
             "Dark",
@@ -5363,11 +5363,11 @@
       },
       "btower32@balharbor" : {
          "exits" : {
-            "ne" : "btower6",
-            "e" : "btower11",
-            "n" : "btower5",
-            "se" : "btower33",
-            "s" : "btower15"
+            "ne" : "btower6@balharbor",
+            "e" : "btower11@balharbor",
+            "n" : "btower5@balharbor",
+            "se" : "btower33@balharbor",
+            "s" : "btower15@balharbor"
          },
          "flags" : [
             "Dark",
@@ -5381,14 +5381,14 @@
       },
       "btower81@balharbor" : {
          "exits" : {
-            "ne" : "btower57",
-            "w" : "btower60",
-            "e" : "btower62",
-            "n" : "btower56",
-            "se" : "btower82",
-            "sw" : "btower65",
-            "nw" : "btower55",
-            "s" : "btower66"
+            "ne" : "btower57@balharbor",
+            "w" : "btower60@balharbor",
+            "e" : "btower62@balharbor",
+            "n" : "btower56@balharbor",
+            "se" : "btower82@balharbor",
+            "sw" : "btower65@balharbor",
+            "nw" : "btower55@balharbor",
+            "s" : "btower66@balharbor"
          },
          "flags" : [
             "Dark",
@@ -5402,9 +5402,9 @@
       },
       "balhar31@balharbor" : {
          "exits" : {
-            "w" : "balhar30",
-            "e" : "balhar32",
-            "n" : "park1"
+            "w" : "balhar30@balharbor",
+            "e" : "balhar32@balharbor",
+            "n" : "park1@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -5417,11 +5417,11 @@
       },
       "btower77@balharbor" : {
          "exits" : {
-            "ne" : "btower59",
-            "e" : "btower64",
-            "n" : "btower58",
-            "se" : "btower69",
-            "s" : "btower78"
+            "ne" : "btower59@balharbor",
+            "e" : "btower64@balharbor",
+            "n" : "btower58@balharbor",
+            "se" : "btower69@balharbor",
+            "s" : "btower78@balharbor"
          },
          "flags" : [
             "Dark",
@@ -5435,10 +5435,10 @@
       },
       "park2@balharbor" : {
          "exits" : {
-            "w" : "park1",
-            "e" : "park3",
-            "n" : "park5",
-            "s" : "balhar32"
+            "w" : "park1@balharbor",
+            "e" : "park3@balharbor",
+            "n" : "park5@balharbor",
+            "s" : "balhar32@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -5451,14 +5451,14 @@
       },
       "btower13@balharbor" : {
          "exits" : {
-            "ne" : "btower9",
-            "w" : "btower17",
-            "e" : "btower14",
-            "n" : "btower8",
-            "se" : "btower19",
-            "sw" : "btower17",
-            "nw" : "btower7",
-            "s" : "btower18"
+            "ne" : "btower9@balharbor",
+            "w" : "btower17@balharbor",
+            "e" : "btower14@balharbor",
+            "n" : "btower8@balharbor",
+            "se" : "btower19@balharbor",
+            "sw" : "btower17@balharbor",
+            "nw" : "btower7@balharbor",
+            "s" : "btower18@balharbor"
          },
          "flags" : [
             "Dark",
@@ -5472,11 +5472,11 @@
       },
       "btower24@balharbor" : {
          "exits" : {
-            "w" : "btower23",
-            "n" : "btower19",
-            "sw" : "btower28",
-            "nw" : "btower18",
-            "s" : "btower29"
+            "w" : "btower23@balharbor",
+            "n" : "btower19@balharbor",
+            "sw" : "btower28@balharbor",
+            "nw" : "btower18@balharbor",
+            "s" : "btower29@balharbor"
          },
          "flags" : [
             "Dark",
@@ -5491,7 +5491,7 @@
       "balhar92@balharbor" : {
          "exits" : {
             "e" : "camelot51@camelot",
-            "w" : "balhar88"
+            "w" : "balhar88@balharbor"
          },
          "flags" : [
             "TempReal",
@@ -5505,7 +5505,7 @@
       },
       "balhar72@balharbor" : {
          "exits" : {
-            "e" : "balhar68"
+            "e" : "balhar68@balharbor"
          },
          "flags" : [],
          "zone" : "balharbor",
@@ -5516,8 +5516,8 @@
       },
       "btower3@balharbor" : {
          "exits" : {
-            "u" : "^outtow_door",
-            "d" : "btower2"
+            "u" : "^outtow_door@balharbor",
+            "d" : "btower2@balharbor"
          },
          "flags" : [
             "Outdoors"
@@ -5532,7 +5532,7 @@
    "mob" : {
       "alleycat@balharbor" : {
          "damage" : "5",
-         "location" : "balhar41",
+         "location" : "balhar41@balharbor",
          "speed" : "4",
          "pname" : "The Alley Cat",
          "name" : "alleycat",
@@ -5541,7 +5541,7 @@
       },
       "lifeguard@balharbor" : {
          "damage" : "8",
-         "location" : "balhar80",
+         "location" : "balhar80@balharbor",
          "speed" : "0",
          "aggression" : "1",
          "pname" : "The Life Guard",
@@ -5552,7 +5552,7 @@
       },
       "deer@balharbor" : {
          "damage" : "7",
-         "location" : "park4",
+         "location" : "park4@balharbor",
          "name" : "deer",
          "examine" : " {_}\n /. )          \n(_  \\________/\\\n  \\.          /\n   |  _____  | \n   | //   \\\\ | \n   |||     ||| \n   [I]     [I] ",
          "description" : "A fallow deer grazes here peacefully.",
@@ -5566,7 +5566,7 @@
       "handler@balharbor" : {
          "wimpy" : "20",
          "damage" : "8",
-         "location" : "balhar29",
+         "location" : "balhar29@balharbor",
          "speed" : "0",
          "pname" : "The Mules Handler",
          "name" : "Handler",
@@ -5576,7 +5576,7 @@
       },
       "kid@balharbor" : {
          "damage" : "8",
-         "location" : "balhar11",
+         "location" : "balhar11@balharbor",
          "name" : "kid",
          "examine" : "He appears to about 11 or 12 years old, yet he's learned almost everything\nthere is to know about weapons.  He doesn't seem too worried about someone\nrunning to loot his shop since his father is just in the next room.  He\nalso has been trained in proper use of weaponry.",
          "description" : "One of the Blacksmith's sons is here minding the shop.",
@@ -5589,7 +5589,7 @@
       },
       "wight@balharbor" : {
          "damage" : "10",
-         "location" : "btower51",
+         "location" : "btower51@balharbor",
          "name" : "wight",
          "examine" : "This undead creature, large, intelligent, and decomposing was seemingly\nanimated by that evil warlock that inhabits this place.  Unfortunately, to get \nto him, you'll have to go through this monster risking having the strength \ndrained out of you!  What's needed is something to keep it from attacking you.\nIf you choose to fight this creature, be in for a tough fight.",
          "description" : "A hideous, horrible undead Wight creeps over to suck your life force!",
@@ -5607,7 +5607,7 @@
       },
       "asp@balharbor" : {
          "damage" : "12",
-         "location" : "btower50",
+         "location" : "btower50@balharbor",
          "name" : "asp",
          "examine" : "It's a venomous snake!  Snakes!  Why'd there have to be snakes?!",
          "description" : "An Asp rears its head ready to strike!",
@@ -5622,7 +5622,7 @@
       },
       "poltergeist@balharbor" : {
          "damage" : "9",
-         "location" : "btower31",
+         "location" : "btower31@balharbor",
          "armor" : "5",
          "name" : "poltergeist",
          "examine" : "This ghost loves to play pranks, unfortunately at your expense.",
@@ -5641,7 +5641,7 @@
       },
       "caleb@balharbor" : {
          "damage" : "15",
-         "location" : "balhar27",
+         "location" : "balhar27@balharbor",
          "speed" : "0",
          "pname" : "Caleb",
          "name" : "caleb",
@@ -5655,7 +5655,7 @@
       "mule@balharbor" : {
          "wimpy" : "25",
          "damage" : "10",
-         "location" : "balhar29",
+         "location" : "balhar29@balharbor",
          "speed" : "0",
          "pname" : "The Mule",
          "name" : "mule",
@@ -5688,7 +5688,7 @@
       },
       "gorilla@balharbor" : {
          "damage" : "12",
-         "location" : "jungle12",
+         "location" : "jungle12@balharbor",
          "speed" : "1",
          "aggression" : "10",
          "pname" : "The Gorilla",
@@ -5699,7 +5699,7 @@
       },
       "homewrecker@balharbor" : {
          "damage" : "8",
-         "location" : "balhar72",
+         "location" : "balhar72@balharbor",
          "speed" : "0",
          "pname" : "The Homewrecker",
          "name" : "homewrecker",
@@ -5708,7 +5708,7 @@
       },
       "molid@balharbor" : {
          "damage" : "17",
-         "location" : "balhar19",
+         "location" : "balhar19@balharbor",
          "speed" : "1",
          "pname" : "Molid",
          "name" : "molid",
@@ -5718,7 +5718,7 @@
       },
       "hubbah@balharbor" : {
          "damage" : "17",
-         "location" : "balhar26",
+         "location" : "balhar26@balharbor",
          "speed" : "1",
          "pname" : "Hubbah",
          "name" : "hubbah",
@@ -5728,7 +5728,7 @@
       },
       "ithran@balharbor" : {
          "damage" : "10",
-         "location" : "balhar22",
+         "location" : "balhar22@balharbor",
          "name" : "ithran",
          "examine" : "The Red Sash are a group of mercenaries contracted by the governor in order\nto put down the riot.  This black-skinned man looks very strong and a tough \nfighter, and could easily clobber you in battle.",
          "description" : "Ithran of Red Sash stands here, watching the crowds.",
@@ -5741,7 +5741,7 @@
       },
       "firebomber@balharbor" : {
          "damage" : "8",
-         "location" : "balhar40",
+         "location" : "balhar40@balharbor",
          "speed" : "0",
          "aggression" : "20",
          "pname" : "The Firebomber",
@@ -5752,7 +5752,7 @@
       },
       "toucan@balharbor" : {
          "damage" : "5",
-         "location" : "jungle10",
+         "location" : "jungle10@balharbor",
          "speed" : "1",
          "pname" : "Toucan",
          "name" : "Toucan",
@@ -5770,7 +5770,7 @@
             "ImmIceStorm"
          ],
          "damage" : "10",
-         "location" : "balhar65",
+         "location" : "balhar65@balharbor",
          "speed" : "0",
          "pname" : "Sub-Zero",
          "name" : "subzero",
@@ -5780,7 +5780,7 @@
       },
       "spectre@balharbor" : {
          "damage" : "9",
-         "location" : "btower23",
+         "location" : "btower23@balharbor",
          "armor" : "5",
          "name" : "spectre",
          "description" : "A spectre flies by to haunt you!",
@@ -5803,7 +5803,7 @@
             "Shock"
          ],
          "damage" : "20",
-         "location" : "btower68",
+         "location" : "btower68@balharbor",
          "name" : "evilotto",
          "examine" : "Behind that smiling face is the most evil destructive force in the universe!\nNothing gets in its way trying to kill its target, destroying anything in its\npath.  If he touches you, you're as good as dead.  That's why he is smiling.\nOnly strong magic could trap it here to kill off intruders.\n",
          "description" : "&+YA bouncing yellow ball with a big smile on its face chants 'Intruder Alert! \nIntruder Alert!'",
@@ -5820,7 +5820,7 @@
       },
       "grue@balharbor" : {
          "damage" : "10",
-         "location" : "btower25",
+         "location" : "btower25@balharbor",
          "name" : "grue",
          "examine" : "Well, you've heard the warnings every time you go running around in the dark.\nNow you finally meet that creature you've been warned about so much!  This\nhideous beast just hates the light, and will only come out at night.",
          "description" : "A vicious Grue emerges from the darkness trying to eat you up!",
@@ -5835,7 +5835,7 @@
       },
       "rattattailie@balharbor" : {
          "damage" : "6",
-         "location" : "btower60",
+         "location" : "btower60@balharbor",
          "speed" : "4",
          "aggression" : "10",
          "pname" : "Rattattailie",
@@ -5846,7 +5846,7 @@
       },
       "kish@balharbor" : {
          "damage" : "8",
-         "location" : "btower134",
+         "location" : "btower134@balharbor",
          "name" : "kish",
          "examine" : "Kish is charged with guarding the room at the top of the tower for his boss\nSash Commander Sisera.  He carries a misercord to use on himself if some\nintruder succeeds in getting past him.",
          "description" : "Kish, a Sash elite guardsman, stands here guarding the entrance.",
@@ -5860,7 +5860,7 @@
       },
       "rabbit@balharbor" : {
          "damage" : "4",
-         "location" : "park5",
+         "location" : "park5@balharbor",
          "speed" : "1",
          "pname" : "Cute Rabbit",
          "name" : "rabbit",
@@ -5870,7 +5870,7 @@
       },
       "spirit@balharbor" : {
          "damage" : "10",
-         "location" : "btower2",
+         "location" : "btower2@balharbor",
          "name" : "spirit",
          "examine" : "This supernatural being seems to have been summoned here to stop intruders\nfrom getting to the top and at whoever or whatever is up there.",
          "description" : "A shadowy spirit is here, guarding the tower.",
@@ -5887,7 +5887,7 @@
       },
       "shaaph@balharbor" : {
          "damage" : "12",
-         "location" : "balhar18",
+         "location" : "balhar18@balharbor",
          "name" : "shaaph",
          "examine" : "The Red Sash, called in times of anarchy, come to restore order in a city of unrest.  Looking at the Sash, you quickly realize that these guys are not to be messed with...that is, if you want to live.",
          "description" : "Shaaph, member of the famous mercenary organization the Red Sash, stands here\nas guard.",
@@ -5903,7 +5903,7 @@
       },
       "alchemist@balharbor" : {
          "damage" : "9",
-         "location" : "balhar51",
+         "location" : "balhar51@balharbor",
          "speed" : "0",
          "pname" : "The Alchemist",
          "name" : "alchemist",
@@ -5913,7 +5913,7 @@
       },
       "surfer@balharbor" : {
          "damage" : "8",
-         "location" : "balhar81",
+         "location" : "balhar81@balharbor",
          "speed" : "0",
          "aggression" : "1",
          "pname" : "The Waverider",
@@ -5924,7 +5924,7 @@
       },
       "bees@balharbor" : {
          "damage" : "10",
-         "location" : "park10",
+         "location" : "park10@balharbor",
          "aggression" : "30",
          "pname" : "The Swarm of Bees",
          "name" : "bees",
@@ -5936,7 +5936,7 @@
       },
       "rioter@balharbor" : {
          "damage" : "8",
-         "location" : "balhar49",
+         "location" : "balhar49@balharbor",
          "speed" : "0",
          "aggression" : "20",
          "pname" : "The Rioter",
@@ -5947,7 +5947,7 @@
       },
       "masterthief@balharbor" : {
          "damage" : "8",
-         "location" : "balhar70",
+         "location" : "balhar70@balharbor",
          "speed" : "0",
          "pname" : "The Master Thief",
          "name" : "masterthief",
@@ -5960,7 +5960,7 @@
       },
       "secularius@balharbor" : {
          "damage" : "8",
-         "location" : "balhar40",
+         "location" : "balhar40@balharbor",
          "speed" : "2",
          "pname" : "Secularius",
          "name" : "Secularius",
@@ -5970,7 +5970,7 @@
       },
       "rat@balharbor" : {
          "damage" : "2",
-         "location" : "balhar9",
+         "location" : "balhar9@balharbor",
          "speed" : "4",
          "pname" : "The Rat",
          "name" : "rat",
@@ -5979,7 +5979,7 @@
       },
       "sparrow@balharbor" : {
          "damage" : "3",
-         "location" : "park8",
+         "location" : "park8@balharbor",
          "name" : "sparrow",
          "description" : "A sparrow flies overhead.",
          "sflags" : [
@@ -5994,7 +5994,7 @@
       },
       "demagogue@balharbor" : {
          "damage" : "10",
-         "location" : "btower71",
+         "location" : "btower71@balharbor",
          "speed" : "0",
          "pname" : "The Demagogue",
          "name" : "demagogue",
@@ -6004,7 +6004,7 @@
       },
       "weaponsmith@balharbor" : {
          "damage" : "8",
-         "location" : "btower138",
+         "location" : "btower138@balharbor",
          "speed" : "0",
          "pname" : "The Weapon Smith",
          "name" : "weaponsmith",
@@ -6014,7 +6014,7 @@
       },
       "mugger@balharbor" : {
          "damage" : "8",
-         "location" : "balhar5",
+         "location" : "balhar5@balharbor",
          "name" : "mugger",
          "examine" : "This mugger has set up business in this back alley, and business has been\nbooming.  A bunch of people have taken the wrong turn and walked into his\n'store.'  Now, you're his next customer.",
          "description" : "A mugger is here, looking for his next victim.",
@@ -6028,7 +6028,7 @@
       },
       "crocodile@balharbor" : {
          "damage" : "10",
-         "location" : "jungle26",
+         "location" : "jungle26@balharbor",
          "speed" : "0",
          "aggression" : "25",
          "pname" : "The Crocodile",
@@ -6038,7 +6038,7 @@
       },
       "bukki@balharbor" : {
          "damage" : "10",
-         "location" : "balhar22",
+         "location" : "balhar22@balharbor",
          "name" : "bukki",
          "examine" : "The Red Sash are a group of mercenaries contracted by the governor in order\nto put down the riot.  This black-skinned man looks very strong and a tough \nfighter, and could easily clobber you in battle.",
          "description" : "Bukki of Red Sash stands here, watching the crowds.",
@@ -6054,7 +6054,7 @@
       },
       "wyvern@balharbor" : {
          "damage" : "12",
-         "location" : "btower28",
+         "location" : "btower28@balharbor",
          "name" : "wyvern",
          "examine" : "A wyvern is a two-legged dragon having wings and a barbed and knotted tail.\nFortunately for you (?), this creature isn't as powerful as a huge fire\nbreathing dragon, for it can't breathe fire...it seems more bird-like.",
          "description" : "A Wyvern flies about and swoops in to attack!",
@@ -6068,7 +6068,7 @@
       },
       "hornet@balharbor" : {
          "damage" : "6",
-         "location" : "park10",
+         "location" : "park10@balharbor",
          "name" : "hornet",
          "description" : "A hornet seems to have been stirred from its nest!",
          "strength" : "25",
@@ -6081,7 +6081,7 @@
       },
       "patrolman@balharbor" : {
          "damage" : "8",
-         "location" : "balhar82",
+         "location" : "balhar82@balharbor",
          "name" : "patrolman",
          "examine" : "He also participates in keeping outsiders from raiding the beach from the\nwater.  You better surrender if you wish to keep from being horsewhipped.",
          "description" : "A Beach Patrolman assists in trying to take you down.",
@@ -6095,7 +6095,7 @@
       },
       "smasher@balharbor" : {
          "damage" : "8",
-         "location" : "balhar75",
+         "location" : "balhar75@balharbor",
          "speed" : "0",
          "pname" : "The Smasher",
          "name" : "smasher",
@@ -6116,7 +6116,7 @@
             "NegFrost"
          ],
          "damage" : "8",
-         "location" : "balhar52",
+         "location" : "balhar52@balharbor",
          "name" : "Vashti",
          "examine" : "When Queen Vashti refused to come to King Ahasuerus for all his male guests\nto stand and stare at her, she was stripped of her crown and banished from\nthe kingdom.  Now she is gathering an army of noble ladies and amazons to\noverthrow King Ahasuerus and depose every male citizen from the land as they\ndid to her for revenge and purging the laws written by king declaring that \nevery man was master of the home.  Oh, there's something else...to give Vashti \nand her army the edge, she became an master at witchcraft.\n",
          "description" : "The former Queen of Persia, Vashti stands here in anger.",
@@ -6132,7 +6132,7 @@
       },
       "drunk@balharbor" : {
          "damage" : "8",
-         "location" : "balhar44",
+         "location" : "balhar44@balharbor",
          "name" : "drunk",
          "examine" : "This guy can hardly stand, the citizens of Bal Harbor would appreciate you\nridding this vermin off the streets.",
          "description" : "An obnoxious drunk sings loudly and belches at you.",
@@ -6145,7 +6145,7 @@
       },
       "manticore@balharbor" : {
          "damage" : "12",
-         "location" : "btower60",
+         "location" : "btower60@balharbor",
          "name" : "manticore",
          "examine" : "It's a monster with the head of a man, the body of a lion, and the tail\nof a scorpion.  It can shoot needles out of the tail!",
          "description" : "A Manticore charges toward you!",
@@ -6159,7 +6159,7 @@
       },
       "guardsman@balharbor" : {
          "damage" : "8",
-         "location" : "balhar82",
+         "location" : "balhar82@balharbor",
          "name" : "guardsman",
          "examine" : "Just following the 'law' he has to enforce it and take you into\ncustody.  Do not try resisting arrest. ",
          "description" : "A member of the National Guard is here to take you down!",
@@ -6173,7 +6173,7 @@
       },
       "scruffy@balharbor" : {
          "damage" : "7",
-         "location" : "balhar49",
+         "location" : "balhar49@balharbor",
          "speed" : "5",
          "pname" : "Scruffy",
          "name" : "scruffy",
@@ -6182,7 +6182,7 @@
       },
       "trasher@balharbor" : {
          "damage" : "8",
-         "location" : "balhar73",
+         "location" : "balhar73@balharbor",
          "speed" : "0",
          "pname" : "The Trasher",
          "name" : "trasher",
@@ -6192,7 +6192,7 @@
       "peasant@balharbor" : {
          "wimpy" : "20",
          "damage" : "8",
-         "location" : "balhar19",
+         "location" : "balhar19@balharbor",
          "speed" : "5",
          "pname" : "The Peasant",
          "name" : "peasant",
@@ -6202,7 +6202,7 @@
       },
       "vandal@balharbor" : {
          "damage" : "8",
-         "location" : "balhar71",
+         "location" : "balhar71@balharbor",
          "speed" : "0",
          "pname" : "The Vandal",
          "name" : "vandal",
@@ -6211,7 +6211,7 @@
       },
       "monkey@balharbor" : {
          "damage" : "7",
-         "location" : "jungle13",
+         "location" : "jungle13@balharbor",
          "speed" : "2",
          "aggression" : "2",
          "pname" : "The Monkey",
@@ -6221,7 +6221,7 @@
       },
       "python@balharbor" : {
          "damage" : "9",
-         "location" : "jungle11",
+         "location" : "jungle11@balharbor",
          "name" : "Python",
          "description" : "A python slithers down from another tree and tries to wrap around you!",
          "sflags" : [
@@ -6235,7 +6235,7 @@
       },
       "freeloader@balharbor" : {
          "damage" : "8",
-         "location" : "balhar29",
+         "location" : "balhar29@balharbor",
          "speed" : "2",
          "pname" : "Lazy Jones",
          "name" : "freeloader",
@@ -6245,7 +6245,7 @@
       },
       "hedgehog@balharbor" : {
          "damage" : "2",
-         "location" : "park1",
+         "location" : "park1@balharbor",
          "speed" : "2",
          "pname" : "The Hedgehog",
          "name" : "hedgehog",
@@ -6254,7 +6254,7 @@
       },
       "shopkeeper@balharbor" : {
          "damage" : "8",
-         "location" : "balhar46",
+         "location" : "balhar46@balharbor",
          "speed" : "0",
          "pname" : "The Shopkeeper",
          "name" : "shopkeeper",
@@ -6276,7 +6276,7 @@
       },
       "warcoach@balharbor" : {
          "damage" : "8",
-         "location" : "balhar64",
+         "location" : "balhar64@balharbor",
          "name" : "warcoach",
          "examine" : "He looks to be a strong man who's fought many, many wars.  Now that he's guild\nmaster he's taken the task of training new warriors to fight against the \nforces of evil.  Many of his pupils who remained loyal to the guild of\nwarriors assisted him in fighting off the arsonists and rioters.",
          "description" : "The War Coach, master of the guild is here ready to train new warriors.",
@@ -6290,7 +6290,7 @@
       "jacan@balharbor" : {
          "wimpy" : "25",
          "damage" : "8",
-         "location" : "balhar52",
+         "location" : "balhar52@balharbor",
          "speed" : "2",
          "pname" : "Jacan",
          "name" : "Jacan",
@@ -6300,7 +6300,7 @@
       },
       "pallu@balharbor" : {
          "damage" : "10",
-         "location" : "balhar22",
+         "location" : "balhar22@balharbor",
          "name" : "pallu",
          "examine" : "The Red Sash are a group of mercenaries contracted by the governor in order\nto put down the riot.  This black-skinned man looks very strong and a tough \nfighter, and could easily clobber you in battle.",
          "description" : "Pallu of Red Sash stands here, watching the crowds.",
@@ -6313,7 +6313,7 @@
       },
       "snake@balharbor" : {
          "damage" : "5",
-         "location" : "park3",
+         "location" : "park3@balharbor",
          "speed" : "1",
          "pname" : "The Green Snake",
          "name" : "snake",
@@ -6323,7 +6323,7 @@
       },
       "sisera@balharbor" : {
          "damage" : "20",
-         "location" : "balhar17",
+         "location" : "balhar17@balharbor",
          "speed" : "0",
          "pname" : "Commander Sisera",
          "name" : "sisera",
@@ -6333,7 +6333,7 @@
       },
       "mystagogue@balharbor" : {
          "damage" : "10",
-         "location" : "btower4",
+         "location" : "btower4@balharbor",
          "speed" : "0",
          "pname" : "The Mystagogue",
          "name" : "mystagogue",
@@ -6343,7 +6343,7 @@
       },
       "wasp@balharbor" : {
          "damage" : "6",
-         "location" : "park10",
+         "location" : "park10@balharbor",
          "name" : "wasp",
          "description" : "A wasp is buzzing around furiously!",
          "strength" : "25",
@@ -6363,7 +6363,7 @@
             "Bhands"
          ],
          "damage" : "8",
-         "location" : "balhar42",
+         "location" : "balhar42@balharbor",
          "name" : "archmage",
          "examine" : "He knows every spell there is and is willing to teach you a spell.  But, if\nyou're gonna attack him, he's also willing to use every spell he knows to\ndefeat you.  If you saw the scorched bodies outside, well he's responsible.",
          "description" : "The Archmage, master of the mage guild stands here ready to train new\npotential wizards.  He glows with a bright light!",
@@ -6376,7 +6376,7 @@
       },
       "bum@balharbor" : {
          "damage" : "8",
-         "location" : "balhar80",
+         "location" : "balhar80@balharbor",
          "speed" : "0",
          "aggression" : "1",
          "pname" : "Flex",
@@ -6387,7 +6387,7 @@
       },
       "policeman@balharbor" : {
          "damage" : "10",
-         "location" : "balhar41",
+         "location" : "balhar41@balharbor",
          "speed" : "0",
          "pname" : "The Constable",
          "name" : "policeman",
@@ -6400,7 +6400,7 @@
       },
       "securityguard@balharbor" : {
          "damage" : "8",
-         "location" : "balhar82",
+         "location" : "balhar82@balharbor",
          "name" : "securityguard",
          "examine" : "You have the right to remain silent, anything you say can and will be used\nin a court of law.  You have the right to an attorney, but since you're not\na resident you will be tossed in jail without a trial!",
          "description" : "The Security Guard is here to arrest you for trespassing!",
@@ -6414,7 +6414,7 @@
       },
       "spider@balharbor" : {
          "damage" : "11",
-         "location" : "btower30",
+         "location" : "btower30@balharbor",
          "name" : "spider",
          "examine" : "Eeeek!  This is the biggest hairy spider you've ever seen!  Run!",
          "description" : "A giant spider spins his web and tries to grab you!",
@@ -6428,7 +6428,7 @@
       },
       "banshee@balharbor" : {
          "damage" : "12",
-         "location" : "btower55",
+         "location" : "btower55@balharbor",
          "name" : "banshee",
          "description" : "A wailing spirit, known as the Banshee screams at you.",
          "sflags" : [
@@ -6445,7 +6445,7 @@
       },
       "streetsweeper@balharbor" : {
          "damage" : "6",
-         "location" : "balhar25",
+         "location" : "balhar25@balharbor",
          "name" : "streetsweeper",
          "examine" : "With the recent riots, this guy has been sweeping for months.",
          "description" : "A streetsweeper is here, cleaning up the streets.",
@@ -6460,7 +6460,7 @@
       },
       "vines@balharbor" : {
          "damage" : "10",
-         "location" : "jungle7",
+         "location" : "jungle7@balharbor",
          "name" : "vines",
          "examine" : "Yikes!  These vines are alive and slither to your feet and start wrapping\nthemselves around your body and begin squeezing!",
          "description" : "Some tangle vines grow here and wave in the wind.",
@@ -6481,7 +6481,7 @@
             "Bhands"
          ],
          "damage" : "8",
-         "location" : "balhar34",
+         "location" : "balhar34@balharbor",
          "speed" : "0",
          "armor" : "10",
          "pname" : "The Chief Scribe",
@@ -6500,7 +6500,7 @@
             "ImmDeaf"
          ],
          "damage" : "25",
-         "location" : "balhar88",
+         "location" : "balhar88@balharbor",
          "speed" : "0",
          "armor" : "25",
          "name" : "Apathor",
@@ -6510,7 +6510,7 @@
       },
       "dipper@balharbor" : {
          "damage" : "8",
-         "location" : "balhar81",
+         "location" : "balhar81@balharbor",
          "speed" : "0",
          "aggression" : "1",
          "pname" : "The Skinny Dipper",
@@ -6521,7 +6521,7 @@
       },
       "beavis@balharbor" : {
          "damage" : "8",
-         "location" : "balhar76",
+         "location" : "balhar76@balharbor",
          "name" : "beavis",
          "examine" : "You are looking at the almighty Beavis. He is wearing his favorite (and only)\nshirt, a Metallica t-shirt. Then he starts to laugh as you turn away.",
          "description" : "Beavis is standing here with a grin on his face.",
@@ -6538,7 +6538,7 @@
       },
       "crawler@balharbor" : {
          "damage" : "13",
-         "location" : "btower65",
+         "location" : "btower65@balharbor",
          "speed" : "4",
          "aggression" : "25",
          "pname" : "The Creepy Crawler",
@@ -6549,7 +6549,7 @@
       },
       "sailor@balharbor" : {
          "damage" : "8",
-         "location" : "balhar1",
+         "location" : "balhar1@balharbor",
          "speed" : "1",
          "pname" : "The Sailor",
          "name" : "sailor",
@@ -6559,7 +6559,7 @@
       },
       "butthead@balharbor" : {
          "damage" : "8",
-         "location" : "balhar76",
+         "location" : "balhar76@balharbor",
          "name" : "butthead",
          "examine" : "Butthead looks to you and says, 'What are you looking at bunghole?!?'",
          "description" : "Butthead is here looking very lost.",
@@ -6576,7 +6576,7 @@
       },
       "innkeeper@balharbor" : {
          "damage" : "10",
-         "location" : "balhar48",
+         "location" : "balhar48@balharbor",
          "speed" : "0",
          "pname" : "The Innkeeper",
          "name" : "innkeeper",
@@ -6586,7 +6586,7 @@
       },
       "swimmer@balharbor" : {
          "damage" : "8",
-         "location" : "balhar81",
+         "location" : "balhar81@balharbor",
          "speed" : "0",
          "aggression" : "1",
          "pname" : "The Swimmer",
@@ -6597,7 +6597,7 @@
       },
       "slime@balharbor" : {
          "damage" : "5",
-         "location" : "btower13",
+         "location" : "btower13@balharbor",
          "armor" : "45",
          "name" : "slime",
          "examine" : "This slime is gonna be hard to kill with normal weapons, better try some\nmagic on it--that weapon just goes through it with little effect.",
@@ -6615,7 +6615,7 @@
       },
       "beggar@balharbor" : {
          "damage" : "8",
-         "location" : "balhar60",
+         "location" : "balhar60@balharbor",
          "name" : "beggar",
          "examine" : "This old woman in rags and tatters seems fed up with her life, and sits here\ncomplaining about horrible the Forum was in not giving her enough welfare\nto live resulting in her being tossed out on the street with nothing to \neat but food scraps left in trash bins.  Actually, her son tossed her \nout because he ran up a huge gambling debt but it don't matter because \nthe governor needed a poster child to keep himself in power.",
          "description" : "An old beggar is here, asking for a few coins.",
@@ -6629,7 +6629,7 @@
       },
       "adventurer@balharbor" : {
          "damage" : "8",
-         "location" : "balhar7",
+         "location" : "balhar7@balharbor",
          "speed" : "0",
          "pname" : "The Adventurer",
          "name" : "adventurer",
@@ -6639,7 +6639,7 @@
       },
       "bather@balharbor" : {
          "damage" : "8",
-         "location" : "balhar80",
+         "location" : "balhar80@balharbor",
          "name" : "bather",
          "examine" : "She thinks you have no right to stand on this beach either.  She happened\nto have slapped a Sash on leave who was vacationing here...big mistake.",
          "description" : "A Sun-Bather sits soaking up the sun until you trespassed on her beach.",
@@ -6653,7 +6653,7 @@
       },
       "reu@balharbor" : {
          "damage" : "10",
-         "location" : "balhar63",
+         "location" : "balhar63@balharbor",
          "name" : "reu",
          "examine" : "The Red Sash are a group of mercenaries contracted by the governor in order\nto put down the riot.  This black-skinned man looks very strong and a tough \nfighter, and could easily clobber you in battle.",
          "description" : "Reu of Red Sash stands here, watching the crowds.",
@@ -6686,7 +6686,7 @@
       },
       "ozem@balharbor" : {
          "damage" : "12",
-         "location" : "balhar16",
+         "location" : "balhar16@balharbor",
          "name" : "ozem",
          "examine" : "The Red Sash, called in times of anarchy, come to restore order in a city of unrest.  Looking at the Sash, you quickly realize that these guys are not to be messed with...that is, if you want to live.",
          "description" : "Ozem, member of the famous mercenary organization the Red Sash, stands here\nas guard.",
@@ -6703,7 +6703,7 @@
       },
       "pincushion@balharbor" : {
          "damage" : "8",
-         "location" : "balhar29",
+         "location" : "balhar29@balharbor",
          "armor" : "30",
          "name" : "Pincushion",
          "examine" : "Oh my gosh!  This man has taken his fascination with body piercing to the EXTREME.\nMetal covers almost his ENTIRE body.  He's unhappy cause he missed a spot.\nBecause he wears so much metal, it seems to serve as a sort of bodyarmor.",
@@ -6716,7 +6716,7 @@
       },
       "worker@balharbor" : {
          "damage" : "8",
-         "location" : "balhar59",
+         "location" : "balhar59@balharbor",
          "speed" : "0",
          "pname" : "The Lab Worker",
          "name" : "worker",
@@ -6726,7 +6726,7 @@
       },
       "rockthrower@balharbor" : {
          "damage" : "8",
-         "location" : "balhar40",
+         "location" : "balhar40@balharbor",
          "speed" : "0",
          "aggression" : "20",
          "pname" : "The Rockthrower",
@@ -6737,7 +6737,7 @@
       },
       "squirrel@balharbor" : {
          "damage" : "4",
-         "location" : "park2",
+         "location" : "park2@balharbor",
          "name" : "squirrel",
          "description" : "A squirrel is here gathering nuts.",
          "sflags" : [
@@ -6767,7 +6767,7 @@
             "mute"
          ],
          "damage" : "8",
-         "location" : "balhar62",
+         "location" : "balhar62@balharbor",
          "name" : "highpriest",
          "examine" : "A peaceful man who draws his power from the Lord above knows every spell to\naid or hinder people.  Rioters who came to trash his guild ran out blinded,\ndeafened, and dumbed.",
          "description" : "The High Priest, master of the cleric guild stands here ready to train new\nmembers of the cloth.  He glows with a bright light!",
@@ -6780,7 +6780,7 @@
       },
       "reporter@balharbor" : {
          "damage" : "5",
-         "location" : "balhar1",
+         "location" : "balhar1@balharbor",
          "speed" : "1",
          "pname" : "The Reporter",
          "name" : "reporter",
@@ -6790,7 +6790,7 @@
       },
       "kenaz@balharbor" : {
          "damage" : "12",
-         "location" : "balhar43",
+         "location" : "balhar43@balharbor",
          "name" : "kenaz",
          "examine" : "The Red Sash, called in times of anarchy, come to restore order in a city of unrest.  Looking at the Sash, you quickly realize that these guys are not to be messed with...that is, if you want to live.",
          "description" : "Kenaz, member of the famous mercenary organization the Red Sash, stands here\nas guard.",
@@ -6803,7 +6803,7 @@
       },
       "blacksmith@balharbor" : {
          "damage" : "15",
-         "location" : "balhar12",
+         "location" : "balhar12@balharbor",
          "speed" : "0",
          "pname" : "The Black Smith",
          "name" : "blacksmith",
@@ -6813,7 +6813,7 @@
       },
       "tick@balharbor" : {
          "damage" : "5",
-         "location" : "jungle9",
+         "location" : "jungle9@balharbor",
          "armor" : "20",
          "name" : "tick",
          "examine" : "It's a nasty bug...eight legs, big jaws, hard to kill, and very bloodthirsty!\nYou better get out of here while you still can.",
@@ -6825,7 +6825,7 @@
       },
       "hodiah@balharbor" : {
          "damage" : "8",
-         "location" : "balhar44",
+         "location" : "balhar44@balharbor",
          "name" : "Hodiah",
          "examine" : "Hodiah's dressed in a colorful toga and not much of a fighter, but the Red\nSash is sworn to protect her since she's a taxpayer.  She seems to be very\ndismayed over the recent riots throughout the downtown area.",
          "description" : "A female citizen of Bal Harbor takes a stroll through the city.",
@@ -6839,7 +6839,7 @@
       },
       "dealer@balharbor" : {
          "damage" : "8",
-         "location" : "balhar78",
+         "location" : "balhar78@balharbor",
          "speed" : "0",
          "pname" : "The Dealer",
          "name" : "dealer",
@@ -6849,7 +6849,7 @@
       },
       "otherkid@balharbor" : {
          "damage" : "8",
-         "location" : "balhar13",
+         "location" : "balhar13@balharbor",
          "name" : "otherkid",
          "examine" : "He appears to be about 11 or 12 years old, yet he's learned almost everything\nthere is to know about armor.  He doesn't seem too worried about someone\nrunning to loot his shop since his father is just in the next room.  For \nextra protection he wears some of the armor up for sale.",
          "description" : "The other one of the Blacksmith's sons is here selling armor.",
@@ -6862,7 +6862,7 @@
       },
       "corpse@balharbor" : {
          "damage" : "9",
-         "location" : "btower27",
+         "location" : "btower27@balharbor",
          "name" : "corpse",
          "examine" : "You don't know what unfortunate soul was cursed in this form, but it sure\nthinks you should rest in peace.",
          "description" : "A hideous undead walking corpse moves in to attack!",
@@ -6877,7 +6877,7 @@
       },
       "mallard@balharbor" : {
          "damage" : "5",
-         "location" : "park7",
+         "location" : "park7@balharbor",
          "pname" : "The Mallard",
          "name" : "mallard",
          "examine" : "    __\n __/. \\              \n(__}   \\             \n   \\   |             \n   |===|    ___   /\\,\n   /   ~\\__/   \\_/  |\n  /        __/\\     |\n |       _/__/\\     ;\n  \\      _/__/\\    / \n   \\     _/___/   /  \n/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/",
@@ -6889,7 +6889,7 @@
       },
       "farmer@balharbor" : {
          "damage" : "8",
-         "location" : "balhar47",
+         "location" : "balhar47@balharbor",
          "speed" : "3",
          "pname" : "The Farmer",
          "name" : "farmer",
@@ -6916,7 +6916,7 @@
       },
       "mercenary@balharbor" : {
          "damage" : "8",
-         "location" : "balhar8",
+         "location" : "balhar8@balharbor",
          "speed" : "1",
          "pname" : "The Mercenary",
          "name" : "mercenary",
@@ -6929,7 +6929,7 @@
       },
       "lecah@balharbor" : {
          "damage" : "15",
-         "location" : "balhar28",
+         "location" : "balhar28@balharbor",
          "speed" : "0",
          "pname" : "Lecah",
          "name" : "lecah",
@@ -6956,7 +6956,7 @@
       },
       "jokim@balharbor" : {
          "damage" : "20",
-         "location" : "balhar18",
+         "location" : "balhar18@balharbor",
          "speed" : "0",
          "pname" : "Jokim",
          "name" : "jokim",
@@ -6966,7 +6966,7 @@
       },
       "criminal@balharbor" : {
          "damage" : "8",
-         "location" : "balhar41",
+         "location" : "balhar41@balharbor",
          "speed" : "0",
          "pname" : "The Criminal",
          "name" : "criminal",

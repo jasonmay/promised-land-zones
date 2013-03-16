@@ -3,7 +3,7 @@
    "loc" : {
       "god2@god" : {
          "exits" : {
-            "w" : "god1"
+            "w" : "god1@god"
          },
          "flags" : [
             "NoSummon",
@@ -25,7 +25,7 @@
       },
       "god1@god" : {
          "exits" : {
-            "e" : "god2"
+            "e" : "god2@god"
          },
          "flags" : [
             "Party",

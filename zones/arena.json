@@ -2,7 +2,7 @@
    "obj" : {
       "porcullis3@arena" : {
          "desc[1]" : "The spikes of the portcullis are buried in the dirt.",
-         "location" : "IN_ROOM:Arena6",
+         "location" : "IN_ROOM:arena6@arena",
          "oflags" : [
             "NoGet"
          ],
@@ -15,7 +15,7 @@
       },
       "porcullis2@arena" : {
          "desc[1]" : "A huge steel portcullis, blocks the archway to the north.",
-         "location" : "IN_ROOM:tunnel",
+         "location" : "IN_ROOM:tunnel@arena",
          "oflags" : [
             "NoGet"
          ],
@@ -28,7 +28,7 @@
       },
       "arena1@arena" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:Arena1",
+         "location" : "IN_ROOM:arena1@arena",
          "oflags" : [
             "NoGet"
          ],
@@ -41,7 +41,7 @@
       },
       "porcullis4@arena" : {
          "desc[1]" : "The spikes of the portcullis are buried in the dirt.",
-         "location" : "IN_ROOM:Cave",
+         "location" : "IN_ROOM:cave@arena",
          "oflags" : [
             "NoGet"
          ],
@@ -54,7 +54,7 @@
       },
       "porcullis1@arena" : {
          "desc[1]" : "A huge steel portcullis, blocks the archway to the south.",
-         "location" : "IN_ROOM:Arena3",
+         "location" : "IN_ROOM:arena3@arena",
          "oflags" : [
             "NoGet"
          ],
@@ -69,7 +69,7 @@
       },
       "dgate_out@arena" : {
          "desc[1]" : "The huge reinforced gates are closed, blocking the arena exit.",
-         "location" : "IN_ROOM:Arena1",
+         "location" : "IN_ROOM:arena1@arena",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -85,7 +85,7 @@
          "desc[0]" : "Huge wooden gates stand open, leading out of the arena."
       },
       "curse_scroll@arena" : {
-         "location" : "IN_ROOM:niche",
+         "location" : "IN_ROOM:niche@arena",
          "weight" : "1",
          "pname" : "Scroll",
          "name" : "Curse_scroll",
@@ -97,7 +97,7 @@
       "spear@arena" : {
          "desc[1]" : "\nAn spear is wedged through a shield, and it's former owners ribs, into the \nrock wall behind.",
          "damage" : "10",
-         "location" : "IN_ROOM:Arena10",
+         "location" : "IN_ROOM:arena10@arena",
          "oflags" : [
             "Weapon",
             "GetFlips"
@@ -113,7 +113,7 @@
          "desc[0]" : "An old blunt spear has been left here."
       },
       "key@arena" : {
-         "location" : "Entrance",
+         "location" : "entrance@arena",
          "weight" : "1",
          "oflags" : [
             "Key"
@@ -125,7 +125,7 @@
          "size" : "1"
       },
       "crack@arena" : {
-         "location" : "IN_ROOM:Arena11",
+         "location" : "IN_ROOM:arena11@arena",
          "oflags" : [
             "NoGet"
          ],
@@ -135,7 +135,7 @@
          "desc[0]" : ""
       },
       "void_sign@arena" : {
-         "location" : "IN_ROOM:Arena0",
+         "location" : "IN_ROOM:arena0@arena",
          "oflags" : [
             "NoGet"
          ],
@@ -146,7 +146,7 @@
       },
       "dgate_in@arena" : {
          "desc[1]" : "A Pair of reinforced wooden gates block access to the arena.",
-         "location" : "IN_ROOM:Entrance",
+         "location" : "IN_ROOM:entrance@arena",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -164,7 +164,7 @@
       },
       "arena2@arena" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:Arena0",
+         "location" : "IN_ROOM:arena0@arena",
          "oflags" : [
             "NoGet"
          ],
@@ -179,8 +179,8 @@
    "loc" : {
       "arena7@arena" : {
          "exits" : {
-            "e" : "Arena8",
-            "s" : "Arena6"
+            "e" : "arena8@arena",
+            "s" : "arena6@arena"
          },
          "flags" : [
             "NoSummon",
@@ -195,10 +195,10 @@
       },
       "arena1@arena" : {
          "exits" : {
-            "w" : "Arena12",
-            "e" : "^Dgate_out",
-            "n" : "Arena10",
-            "s" : "Arena2"
+            "w" : "arena12@arena",
+            "e" : "^dgate_out@arena",
+            "n" : "arena10@arena",
+            "s" : "arena2@arena"
          },
          "flags" : [
             "Pkzone",
@@ -213,7 +213,7 @@
       },
       "tunnel@arena" : {
          "exits" : {
-            "n" : "^Porcullis2"
+            "n" : "^porcullis2@arena"
          },
          "flags" : [
             "NoMagic",
@@ -229,10 +229,10 @@
       },
       "arena3@arena" : {
          "exits" : {
-            "e" : "Arena2",
-            "w" : "Arena4",
-            "n" : "Arena12",
-            "s" : "^Porcullis1"
+            "e" : "arena2@arena",
+            "w" : "arena4@arena",
+            "n" : "arena12@arena",
+            "s" : "^porcullis1@arena"
          },
          "flags" : [
             "NoSummon",
@@ -248,8 +248,8 @@
       },
       "arena5@arena" : {
          "exits" : {
-            "e" : "Arena4",
-            "n" : "Arena6"
+            "e" : "arena4@arena",
+            "n" : "arena6@arena"
          },
          "flags" : [
             "NoSummon",
@@ -265,8 +265,8 @@
       },
       "arena12@arena" : {
          "exits" : {
-            "e" : "Arena1",
-            "s" : "Arena3"
+            "e" : "arena1@arena",
+            "s" : "arena3@arena"
          },
          "flags" : [
             "NoSummon",
@@ -281,8 +281,8 @@
       },
       "arena10@arena" : {
          "exits" : {
-            "w" : "Arena9",
-            "s" : "Arena1"
+            "w" : "arena9@arena",
+            "s" : "arena1@arena"
          },
          "flags" : [
             "NoSummon",
@@ -297,7 +297,7 @@
       },
       "arena0@arena" : {
          "exits" : {
-            "n" : "^Arena2"
+            "n" : "^arena2@arena"
          },
          "flags" : [
             "NoSummon",
@@ -315,9 +315,9 @@
       },
       "arena11@arena" : {
          "exits" : {
-            "w" : "Arena6",
-            "n" : "Arena8",
-            "s" : "Arena4"
+            "w" : "arena6@arena",
+            "n" : "arena8@arena",
+            "s" : "arena4@arena"
          },
          "flags" : [
             "NoSummon",
@@ -332,8 +332,8 @@
       },
       "arena2@arena" : {
          "exits" : {
-            "w" : "Arena3",
-            "n" : "Arena1"
+            "w" : "arena3@arena",
+            "n" : "arena1@arena"
          },
          "flags" : [
             "NoSummon",
@@ -348,7 +348,7 @@
       },
       "cave@arena" : {
          "exits" : {
-            "e" : "^Porcullis4"
+            "e" : "^porcullis4@arena"
          },
          "flags" : [
             "Dark",
@@ -364,9 +364,9 @@
       },
       "arena4@arena" : {
          "exits" : {
-            "w" : "Arena5",
-            "e" : "Arena3",
-            "n" : "Arena11"
+            "w" : "arena5@arena",
+            "e" : "arena3@arena",
+            "n" : "arena11@arena"
          },
          "flags" : [
             "NoSummon",
@@ -382,10 +382,10 @@
       },
       "arena6@arena" : {
          "exits" : {
-            "w" : "^Porcullis3",
-            "e" : "Arena11",
-            "n" : "Arena7",
-            "s" : "Arena5"
+            "w" : "^porcullis3@arena",
+            "e" : "arena11@arena",
+            "n" : "arena7@arena",
+            "s" : "arena5@arena"
          },
          "flags" : [
             "NoSummon",
@@ -402,9 +402,9 @@
       },
       "arena8@arena" : {
          "exits" : {
-            "w" : "Arena7",
-            "e" : "Arena9",
-            "s" : "Arena11"
+            "w" : "arena7@arena",
+            "e" : "arena9@arena",
+            "s" : "arena11@arena"
          },
          "flags" : [
             "NoSummon",
@@ -419,8 +419,8 @@
       },
       "arena9@arena" : {
          "exits" : {
-            "w" : "Arena11",
-            "e" : "Arena2"
+            "w" : "arena11@arena",
+            "e" : "arena2@arena"
          },
          "flags" : [
             "NoSummon",
@@ -436,7 +436,7 @@
       },
       "niche@arena" : {
          "exits" : {
-            "s" : "Arena12"
+            "s" : "arena12@arena"
          },
          "flags" : [
             "NoSummon",
@@ -453,7 +453,7 @@
       "entrance@arena" : {
          "exits" : {
             "e" : "nibelung1@nibelung",
-            "w" : "^Dgate_in"
+            "w" : "^dgate_in@arena"
          },
          "flags" : [
             "NoSummon",
@@ -478,7 +478,7 @@
             "Negicestorm"
          ],
          "damage" : "2",
-         "location" : "Arena5",
+         "location" : "arena5@arena",
          "armor" : "0",
          "name" : "Ymold",
          "description" : "\n  Near a small crack in the wall, you notice one rather large, yellow\nbrownish colored mold growing happily in the dark.",

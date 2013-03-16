@@ -2,7 +2,7 @@
    "obj" : {
       "braceletoflight@siegfried" : {
          "desc[1]" : "The &+BBracelet &+Wof &+YLight &*is here.",
-         "location" : "IN_CONTAINER:chestoflight",
+         "location" : "IN_CONTAINER:chestoflight@siegfried",
          "armor" : "200",
          "oflags" : [
             "openable",
@@ -26,7 +26,7 @@
       },
       "wardrobeoflight@siegfried" : {
          "desc[1]" : "The &+BWardrobe &+Wof &+YLight&* is closed.",
-         "location" : "IN_ROOM:siegfried2",
+         "location" : "IN_ROOM:siegfried2@siegfried",
          "oflags" : [
             "lockable",
             "openable",
@@ -43,7 +43,7 @@
       },
       "armoroflight@siegfried" : {
          "desc[1]" : "The majestic &+BArmor &+Wof &+YLight&* is standing here on its\nstand.",
-         "location" : "IN_ROOM:siegfried2",
+         "location" : "IN_ROOM:siegfried2@siegfried",
          "armor" : "200",
          "oflags" : [
             "armor",
@@ -67,7 +67,7 @@
       },
       "chestoflight@siegfried" : {
          "desc[1]" : "The &+BChest &+Wof &+YLight&* is closed.",
-         "location" : "IN_ROOM:siegfried2",
+         "location" : "IN_ROOM:siegfried2@siegfried",
          "oflags" : [
             "container",
             "openable",
@@ -84,7 +84,7 @@
       },
       "bootsoflight@siegfried" : {
          "desc[1]" : "The magnificient &+BBoots &+Wof &+YLight&* rest here on their\nstand.",
-         "location" : "IN_ROOM:siegfried2",
+         "location" : "IN_ROOM:siegfried2@siegfried",
          "armor" : "200",
          "oflags" : [
             "openable",
@@ -108,7 +108,7 @@
       },
       "ringoflight@siegfried" : {
          "desc[1]" : "The &+BRing &+Wof &+YLight&* is here.",
-         "location" : "IN_CONTAINER:chestoflight",
+         "location" : "IN_CONTAINER:chestoflight@siegfried",
          "armor" : "200",
          "oflags" : [
             "openable",
@@ -133,7 +133,7 @@
       "swordoflight@siegfried" : {
          "desc[1]" : "The powerful &+BSword &+Wof &+YLight&* is here.",
          "damage" : "200",
-         "location" : "IN_ROOM:siegfried1",
+         "location" : "IN_ROOM:siegfried1@siegfried",
          "oflags" : [
             "weapon",
             "key",
@@ -156,7 +156,7 @@
       },
       "helmetoflight@siegfried" : {
          "desc[1]" : "The beautiful &+BHelmet &+Wof &+YLight&* is standing here on its\nstand.",
-         "location" : "IN_ROOM:siegfried2",
+         "location" : "IN_ROOM:siegfried2@siegfried",
          "armor" : "200",
          "oflags" : [
             "openable",
@@ -180,7 +180,7 @@
       },
       "robeoflight@siegfried" : {
          "desc[1]" : "The &+BRobe &+Wof &+YLight&* is here.",
-         "location" : "IN_CONTAINER:wardrobeoflight",
+         "location" : "IN_CONTAINER:wardrobeoflight@siegfried",
          "armor" : "200",
          "oflags" : [
             "container",
@@ -205,8 +205,8 @@
    "loc" : {
       "siegfried2@siegfried" : {
          "exits" : {
-            "u" : "siegfried1",
-            "d" : "Church@start"
+            "u" : "siegfried1@siegfried",
+            "d" : "church@start"
          },
          "flags" : [
             "party"
@@ -219,7 +219,7 @@
       },
       "siegfried1@siegfried" : {
          "exits" : {
-            "d" : "siegfried2"
+            "d" : "siegfried2@siegfried"
          },
          "flags" : [
             "party"
@@ -234,7 +234,7 @@
    "mob" : {
       "didier@siegfried" : {
          "damage" : "1",
-         "location" : "siegfried1",
+         "location" : "siegfried1@siegfried",
          "speed" : "0",
          "armor" : "0",
          "name" : "Didier",

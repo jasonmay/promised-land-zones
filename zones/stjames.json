@@ -1,7 +1,7 @@
 {
    "obj" : {
       "boat3@stjames" : {
-         "location" : "IN_ROOM:39",
+         "location" : "IN_ROOM:39@stjames",
          "oflags" : [
             "Boat"
          ],
@@ -13,7 +13,7 @@
          "desc[0]" : "There is a tiny rowing boat on the ground in front of you."
       },
       "boat4@stjames" : {
-         "location" : "IN_ROOM:44",
+         "location" : "IN_ROOM:44@stjames",
          "oflags" : [
             "Boat"
          ],
@@ -25,7 +25,7 @@
          "desc[0]" : "There is a tiny rowing boat on the ground in front of you."
       },
       "boat1@stjames" : {
-         "location" : "IN_ROOM:11",
+         "location" : "IN_ROOM:11@stjames",
          "oflags" : [
             "Boat"
          ],
@@ -37,7 +37,7 @@
          "desc[0]" : "There is a tiny rowing boat on the ground in front of you."
       },
       "boat2@stjames" : {
-         "location" : "IN_ROOM:25",
+         "location" : "IN_ROOM:25@stjames",
          "oflags" : [
             "Boat"
          ],
@@ -52,9 +52,9 @@
    "loc" : {
       "20@stjames" : {
          "exits" : {
-            "e" : "7",
-            "w" : "21",
-            "s" : "19"
+            "e" : "7@stjames",
+            "w" : "21@stjames",
+            "s" : "19@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -67,9 +67,9 @@
       },
       "52@stjames" : {
          "exits" : {
-            "e" : "45",
-            "n" : "51",
-            "s" : "53"
+            "e" : "45@stjames",
+            "n" : "51@stjames",
+            "s" : "53@stjames"
          },
          "flags" : [
             "Outdoors",
@@ -83,10 +83,10 @@
       },
       "39@stjames" : {
          "exits" : {
-            "w" : "44",
-            "e" : "25",
-            "n" : "38",
-            "s" : "40"
+            "w" : "44@stjames",
+            "e" : "25@stjames",
+            "n" : "38@stjames",
+            "s" : "40@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -99,10 +99,10 @@
       },
       "46@stjames" : {
          "exits" : {
-            "w" : "51",
-            "e" : "37",
-            "n" : "47",
-            "s" : "45"
+            "w" : "51@stjames",
+            "e" : "37@stjames",
+            "n" : "47@stjames",
+            "s" : "45@stjames"
          },
          "flags" : [
             "Outdoors",
@@ -116,10 +116,10 @@
       },
       "1@stjames" : {
          "exits" : {
-            "e" : "Road7@village",
-            "w" : "12",
-            "n" : "2",
-            "s" : "56"
+            "e" : "road7@village",
+            "w" : "12@stjames",
+            "n" : "2@stjames",
+            "s" : "56@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -132,9 +132,9 @@
       },
       "21@stjames" : {
          "exits" : {
-            "w" : "34",
-            "e" : "20",
-            "s" : "22"
+            "w" : "34@stjames",
+            "e" : "20@stjames",
+            "s" : "22@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -147,9 +147,9 @@
       },
       "10@stjames" : {
          "exits" : {
-            "e" : "3",
-            "n" : "9",
-            "s" : "11"
+            "e" : "3@stjames",
+            "n" : "9@stjames",
+            "s" : "11@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -162,10 +162,10 @@
       },
       "45@stjames" : {
          "exits" : {
-            "w" : "52",
-            "e" : "38",
-            "n" : "46",
-            "s" : "44"
+            "w" : "52@stjames",
+            "e" : "38@stjames",
+            "n" : "46@stjames",
+            "s" : "44@stjames"
          },
          "flags" : [
             "Outdoors",
@@ -179,9 +179,9 @@
       },
       "9@stjames" : {
          "exits" : {
-            "e" : "4",
-            "n" : "8",
-            "s" : "10"
+            "e" : "4@stjames",
+            "n" : "8@stjames",
+            "s" : "10@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -194,9 +194,9 @@
       },
       "18@stjames" : {
          "exits" : {
-            "w" : "23",
-            "n" : "19",
-            "s" : "17"
+            "w" : "23@stjames",
+            "n" : "19@stjames",
+            "s" : "17@stjames"
          },
          "flags" : [
             "Outdoors",
@@ -210,10 +210,10 @@
       },
       "8@stjames" : {
          "exits" : {
-            "e" : "5",
-            "w" : "19",
-            "n" : "7",
-            "s" : "9"
+            "e" : "5@stjames",
+            "w" : "19@stjames",
+            "n" : "7@stjames",
+            "s" : "9@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -226,10 +226,10 @@
       },
       "24@stjames" : {
          "exits" : {
-            "w" : "38",
-            "e" : "17",
-            "n" : "23",
-            "s" : "25"
+            "w" : "38@stjames",
+            "e" : "17@stjames",
+            "n" : "23@stjames",
+            "s" : "25@stjames"
          },
          "flags" : [
             "Outdoors",
@@ -243,9 +243,9 @@
       },
       "14@stjames" : {
          "exits" : {
-            "w" : "27",
-            "e" : "13",
-            "n" : "15"
+            "w" : "27@stjames",
+            "e" : "13@stjames",
+            "n" : "15@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -258,9 +258,9 @@
       },
       "34@stjames" : {
          "exits" : {
-            "w" : "35",
-            "e" : "21",
-            "s" : "33"
+            "w" : "35@stjames",
+            "e" : "21@stjames",
+            "s" : "33@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -273,9 +273,9 @@
       },
       "28@stjames" : {
          "exits" : {
-            "w" : "41",
-            "e" : "27",
-            "n" : "29"
+            "w" : "41@stjames",
+            "e" : "27@stjames",
+            "n" : "29@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -288,8 +288,8 @@
       },
       "56@stjames" : {
          "exits" : {
-            "w" : "13",
-            "n" : "1"
+            "w" : "13@stjames",
+            "n" : "1@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -302,8 +302,8 @@
       },
       "49@stjames" : {
          "exits" : {
-            "e" : "48",
-            "s" : "50"
+            "e" : "48@stjames",
+            "s" : "50@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -316,10 +316,10 @@
       },
       "40@stjames" : {
          "exits" : {
-            "w" : "43",
-            "e" : "29",
-            "n" : "39",
-            "s" : "41"
+            "w" : "43@stjames",
+            "e" : "29@stjames",
+            "n" : "39@stjames",
+            "s" : "41@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -332,8 +332,8 @@
       },
       "32@stjames" : {
          "exits" : {
-            "n" : "33",
-            "s" : "31"
+            "n" : "33@stjames",
+            "s" : "31@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -346,8 +346,8 @@
       },
       "31@stjames" : {
          "exits" : {
-            "n" : "32",
-            "s" : "30"
+            "n" : "32@stjames",
+            "s" : "30@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -360,9 +360,9 @@
       },
       "7@stjames" : {
          "exits" : {
-            "w" : "20",
-            "e" : "6",
-            "s" : "8"
+            "w" : "20@stjames",
+            "e" : "6@stjames",
+            "s" : "8@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -375,9 +375,9 @@
       },
       "2@stjames" : {
          "exits" : {
-            "w" : "11",
-            "n" : "3",
-            "s" : "1"
+            "w" : "11@stjames",
+            "n" : "3@stjames",
+            "s" : "1@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -390,9 +390,9 @@
       },
       "51@stjames" : {
          "exits" : {
-            "e" : "46",
-            "n" : "50",
-            "s" : "52"
+            "e" : "46@stjames",
+            "n" : "50@stjames",
+            "s" : "52@stjames"
          },
          "flags" : [
             "Outdoors",
@@ -406,9 +406,9 @@
       },
       "48@stjames" : {
          "exits" : {
-            "w" : "49",
-            "e" : "35",
-            "s" : "47"
+            "w" : "49@stjames",
+            "e" : "35@stjames",
+            "s" : "47@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -421,9 +421,9 @@
       },
       "3@stjames" : {
          "exits" : {
-            "w" : "10",
-            "n" : "4",
-            "s" : "2"
+            "w" : "10@stjames",
+            "n" : "4@stjames",
+            "s" : "2@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -436,10 +436,10 @@
       },
       "26@stjames" : {
          "exits" : {
-            "w" : "29",
-            "e" : "15",
-            "n" : "25",
-            "s" : "27"
+            "w" : "29@stjames",
+            "e" : "15@stjames",
+            "n" : "25@stjames",
+            "s" : "27@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -452,10 +452,10 @@
       },
       "38@stjames" : {
          "exits" : {
-            "w" : "45",
-            "e" : "24",
-            "n" : "37",
-            "s" : "39"
+            "w" : "45@stjames",
+            "e" : "24@stjames",
+            "n" : "37@stjames",
+            "s" : "39@stjames"
          },
          "flags" : [
             "Outdoors",
@@ -469,10 +469,10 @@
       },
       "43@stjames" : {
          "exits" : {
-            "w" : "54",
-            "e" : "40",
-            "n" : "44",
-            "s" : "42"
+            "w" : "54@stjames",
+            "e" : "40@stjames",
+            "n" : "44@stjames",
+            "s" : "42@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -485,9 +485,9 @@
       },
       "42@stjames" : {
          "exits" : {
-            "w" : "55",
-            "e" : "41",
-            "n" : "43"
+            "w" : "55@stjames",
+            "e" : "41@stjames",
+            "n" : "43@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -500,10 +500,10 @@
       },
       "29@stjames" : {
          "exits" : {
-            "e" : "26",
-            "w" : "40",
-            "n" : "30",
-            "s" : "28"
+            "e" : "26@stjames",
+            "w" : "40@stjames",
+            "n" : "30@stjames",
+            "s" : "28@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -516,10 +516,10 @@
       },
       "37@stjames" : {
          "exits" : {
-            "w" : "46",
-            "e" : "23",
-            "n" : "36",
-            "s" : "38"
+            "w" : "46@stjames",
+            "e" : "23@stjames",
+            "n" : "36@stjames",
+            "s" : "38@stjames"
          },
          "flags" : [
             "Outdoors",
@@ -533,9 +533,9 @@
       },
       "4@stjames" : {
          "exits" : {
-            "w" : "9",
-            "n" : "5",
-            "s" : "3"
+            "w" : "9@stjames",
+            "n" : "5@stjames",
+            "s" : "3@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -548,10 +548,10 @@
       },
       "25@stjames" : {
          "exits" : {
-            "e" : "16",
-            "w" : "39",
-            "n" : "24",
-            "s" : "26"
+            "e" : "16@stjames",
+            "w" : "39@stjames",
+            "n" : "24@stjames",
+            "s" : "26@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -564,8 +564,8 @@
       },
       "55@stjames" : {
          "exits" : {
-            "e" : "42",
-            "n" : "54"
+            "e" : "42@stjames",
+            "n" : "54@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -578,10 +578,10 @@
       },
       "23@stjames" : {
          "exits" : {
-            "e" : "18",
-            "w" : "37",
-            "n" : "22",
-            "s" : "24"
+            "e" : "18@stjames",
+            "w" : "37@stjames",
+            "n" : "22@stjames",
+            "s" : "24@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -594,8 +594,8 @@
       },
       "30@stjames" : {
          "exits" : {
-            "n" : "31",
-            "s" : "29"
+            "n" : "31@stjames",
+            "s" : "29@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -608,9 +608,9 @@
       },
       "50@stjames" : {
          "exits" : {
-            "e" : "47",
-            "n" : "49",
-            "s" : "51"
+            "e" : "47@stjames",
+            "n" : "49@stjames",
+            "s" : "51@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -623,10 +623,10 @@
       },
       "47@stjames" : {
          "exits" : {
-            "w" : "50",
-            "e" : "36",
-            "n" : "48",
-            "s" : "46"
+            "w" : "50@stjames",
+            "e" : "36@stjames",
+            "n" : "48@stjames",
+            "s" : "46@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -639,9 +639,9 @@
       },
       "53@stjames" : {
          "exits" : {
-            "e" : "44",
-            "n" : "52",
-            "s" : "54"
+            "e" : "44@stjames",
+            "n" : "52@stjames",
+            "s" : "54@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -654,10 +654,10 @@
       },
       "36@stjames" : {
          "exits" : {
-            "e" : "33",
-            "w" : "47",
-            "n" : "35",
-            "s" : "37"
+            "e" : "33@stjames",
+            "w" : "47@stjames",
+            "n" : "35@stjames",
+            "s" : "37@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -670,9 +670,9 @@
       },
       "27@stjames" : {
          "exits" : {
-            "w" : "28",
-            "e" : "14",
-            "n" : "26"
+            "w" : "28@stjames",
+            "e" : "14@stjames",
+            "n" : "26@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -685,10 +685,10 @@
       },
       "12@stjames" : {
          "exits" : {
-            "w" : "15",
-            "e" : "1",
-            "n" : "11",
-            "s" : "13"
+            "w" : "15@stjames",
+            "e" : "1@stjames",
+            "n" : "11@stjames",
+            "s" : "13@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -701,10 +701,10 @@
       },
       "19@stjames" : {
          "exits" : {
-            "e" : "8",
-            "w" : "22",
-            "n" : "20",
-            "s" : "18"
+            "e" : "8@stjames",
+            "w" : "22@stjames",
+            "n" : "20@stjames",
+            "s" : "18@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -717,10 +717,10 @@
       },
       "11@stjames" : {
          "exits" : {
-            "w" : "16",
-            "e" : "2",
-            "n" : "10",
-            "s" : "12"
+            "w" : "16@stjames",
+            "e" : "2@stjames",
+            "n" : "10@stjames",
+            "s" : "12@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -733,10 +733,10 @@
       },
       "15@stjames" : {
          "exits" : {
-            "e" : "12",
-            "w" : "26",
-            "n" : "16",
-            "s" : "14"
+            "e" : "12@stjames",
+            "w" : "26@stjames",
+            "n" : "16@stjames",
+            "s" : "14@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -749,10 +749,10 @@
       },
       "22@stjames" : {
          "exits" : {
-            "w" : "33",
-            "e" : "19",
-            "n" : "21",
-            "s" : "23"
+            "w" : "33@stjames",
+            "e" : "19@stjames",
+            "n" : "21@stjames",
+            "s" : "23@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -765,10 +765,10 @@
       },
       "16@stjames" : {
          "exits" : {
-            "w" : "25",
-            "e" : "11",
-            "n" : "17",
-            "s" : "15"
+            "w" : "25@stjames",
+            "e" : "11@stjames",
+            "n" : "17@stjames",
+            "s" : "15@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -781,9 +781,9 @@
       },
       "5@stjames" : {
          "exits" : {
-            "w" : "8",
-            "n" : "6",
-            "s" : "4"
+            "w" : "8@stjames",
+            "n" : "6@stjames",
+            "s" : "4@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -796,8 +796,8 @@
       },
       "6@stjames" : {
          "exits" : {
-            "w" : "7",
-            "s" : "5"
+            "w" : "7@stjames",
+            "s" : "5@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -810,9 +810,9 @@
       },
       "35@stjames" : {
          "exits" : {
-            "w" : "48",
-            "e" : "34",
-            "s" : "36"
+            "w" : "48@stjames",
+            "e" : "34@stjames",
+            "s" : "36@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -825,10 +825,10 @@
       },
       "33@stjames" : {
          "exits" : {
-            "w" : "36",
-            "e" : "22",
-            "n" : "34",
-            "s" : "32"
+            "w" : "36@stjames",
+            "e" : "22@stjames",
+            "n" : "34@stjames",
+            "s" : "32@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -841,9 +841,9 @@
       },
       "54@stjames" : {
          "exits" : {
-            "e" : "43",
-            "n" : "53",
-            "s" : "55"
+            "e" : "43@stjames",
+            "n" : "53@stjames",
+            "s" : "55@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -856,9 +856,9 @@
       },
       "13@stjames" : {
          "exits" : {
-            "e" : "56",
-            "w" : "14",
-            "n" : "12"
+            "e" : "56@stjames",
+            "w" : "14@stjames",
+            "n" : "12@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -871,10 +871,10 @@
       },
       "44@stjames" : {
          "exits" : {
-            "w" : "53",
-            "e" : "39",
-            "n" : "45",
-            "s" : "43"
+            "w" : "53@stjames",
+            "e" : "39@stjames",
+            "n" : "45@stjames",
+            "s" : "43@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -887,9 +887,9 @@
       },
       "41@stjames" : {
          "exits" : {
-            "e" : "28",
-            "w" : "42",
-            "n" : "40"
+            "e" : "28@stjames",
+            "w" : "42@stjames",
+            "n" : "40@stjames"
          },
          "flags" : [
             "Outdoors"
@@ -902,9 +902,9 @@
       },
       "17@stjames" : {
          "exits" : {
-            "w" : "24",
-            "n" : "18",
-            "s" : "16"
+            "w" : "24@stjames",
+            "n" : "18@stjames",
+            "s" : "16@stjames"
          },
          "flags" : [
             "Outdoors",
@@ -920,7 +920,7 @@
    "mob" : {
       "chipmunk@stjames" : {
          "damage" : "4",
-         "location" : "56",
+         "location" : "56@stjames",
          "armor" : "10",
          "name" : "chipmunk",
          "examine" : "\nThe absolute zenith of hyperactivity, this small rodent seems to never tire\nof running up, down, and around the trees in this area.\n",
@@ -934,7 +934,7 @@
       "rabbit@stjames" : {
          "visibility" : "0",
          "damage" : "3",
-         "location" : "22",
+         "location" : "22@stjames",
          "armor" : "6",
          "name" : "rabbit",
          "examine" : "The rabbit looks up at you with big brown eyes,\nthen scoots away..hey..there goes lunch!\n",
@@ -947,7 +947,7 @@
       },
       "goldfish1@stjames" : {
          "damage" : "3",
-         "location" : "51",
+         "location" : "51@stjames",
          "speed" : "2",
          "pname" : "The Goldfish",
          "name" : "Goldfish1",
@@ -959,7 +959,7 @@
       },
       "moth@stjames" : {
          "damage" : "4",
-         "location" : "33",
+         "location" : "33@stjames",
          "armor" : "4",
          "name" : "moth",
          "examine" : "\nThe moth, pale downy white in color, beats its wings heavily\nabove some ferns nearby. It seems quite harmless.\n",
@@ -977,7 +977,7 @@
       },
       "goldfish3@stjames" : {
          "damage" : "3",
-         "location" : "38",
+         "location" : "38@stjames",
          "speed" : "2",
          "pname" : "The Goldfish",
          "name" : "Goldfish3",
@@ -989,7 +989,7 @@
       },
       "goose@stjames" : {
          "damage" : "4",
-         "location" : "30",
+         "location" : "30@stjames",
          "armor" : "4",
          "name" : "goose",
          "description" : "A large white goose honks at you.",
@@ -1002,7 +1002,7 @@
       },
       "squirrel1@stjames" : {
          "damage" : "6",
-         "location" : "55",
+         "location" : "55@stjames",
          "armor" : "4",
          "name" : "squirrel1",
          "examine" : "\nThis happy creature seems to pay you no heed as it goes about its search for\nnuts among the leaves and twigs on the ground here.\n",
@@ -1015,7 +1015,7 @@
       },
       "cardinal@stjames" : {
          "damage" : "3",
-         "location" : "22",
+         "location" : "22@stjames",
          "armor" : "2",
          "pname" : "The Cardinal",
          "name" : "cardinal",
@@ -1027,7 +1027,7 @@
       },
       "sparrow@stjames" : {
          "damage" : "2",
-         "location" : "40",
+         "location" : "40@stjames",
          "speed" : "3",
          "armor" : "3",
          "pname" : "The Sparrow",
@@ -1040,7 +1040,7 @@
       },
       "robin@stjames" : {
          "damage" : "3",
-         "location" : "10",
+         "location" : "10@stjames",
          "speed" : "3",
          "armor" : "3",
          "pname" : "The Robin",
@@ -1053,7 +1053,7 @@
       },
       "goldfish2@stjames" : {
          "damage" : "3",
-         "location" : "37",
+         "location" : "37@stjames",
          "speed" : "2",
          "pname" : "The Goldfish",
          "name" : "Goldfish2",
@@ -1065,7 +1065,7 @@
       },
       "squirrel2@stjames" : {
          "damage" : "6",
-         "location" : "55",
+         "location" : "55@stjames",
          "armor" : "4",
          "name" : "squirrel2",
          "examine" : "\nThis happy creature seems to pay you no heed as it goes about its search for\nnuts among the leaves and twigs on the ground here.\n",
@@ -1078,7 +1078,7 @@
       },
       "mallard@stjames" : {
          "damage" : "4",
-         "location" : "30",
+         "location" : "30@stjames",
          "speed" : "2",
          "pname" : "The Mallard",
          "name" : "mallard",
@@ -1090,7 +1090,7 @@
       },
       "peacock@stjames" : {
          "damage" : "6",
-         "location" : "22",
+         "location" : "22@stjames",
          "speed" : "1",
          "armor" : "5",
          "pname" : "The Peacock",
@@ -1100,7 +1100,7 @@
       },
       "butterfly@stjames" : {
          "damage" : "2",
-         "location" : "50",
+         "location" : "50@stjames",
          "speed" : "3",
          "armor" : "3",
          "pname" : "The Butterfly",
@@ -1113,7 +1113,7 @@
       },
       "rabbit2@stjames" : {
          "damage" : "4",
-         "location" : "44",
+         "location" : "44@stjames",
          "armor" : "8",
          "name" : "rabbit2",
          "examine" : "\nIt is a small, furry creature with long ears and big feet.",
@@ -1126,7 +1126,7 @@
       },
       "grasshopper@stjames" : {
          "damage" : "2",
-         "location" : "54",
+         "location" : "54@stjames",
          "armor" : "2",
          "name" : "grasshopper",
          "examine" : "\nIts a grasshopper... what more do you want to know?",

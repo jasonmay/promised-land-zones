@@ -1,7 +1,7 @@
 {
    "obj" : {
       "objqq15@chess" : {
-         "location" : "CARRIED_BY:mobQQ18",
+         "location" : "CARRIED_BY:mobqq18@chess",
          "oflags" : [
             "Container",
             "Wearable"
@@ -17,7 +17,7 @@
          "desc[0]" : "A Joker's cap is crumpled up on the floor here"
       },
       "mirror_a@chess" : {
-         "location" : "IN_ROOM:chessQQ76",
+         "location" : "IN_ROOM:chessqq76@chess",
          "oflags" : [
             "Noget"
          ],
@@ -26,7 +26,7 @@
          "examine" : "The mirror is full of smoke!  As you gaze upon it, a face comes\ninto focus.  It appears to be a crazily laughing man dressed in\nbright clashing clothes.  He looks into your eyes and points downward.\n'Come visit me, dearie..', he says with a cackle.\nThe image abruptly fades...\n"
       },
       "objqq08_3@chess" : {
-         "location" : "CARRIED_BY:mobQQ08_1",
+         "location" : "CARRIED_BY:mobqq08_1@chess",
          "oflags" : "{  }",
          "altname" : "bishops",
          "name" : "objQQ08_3",
@@ -40,7 +40,7 @@
       },
       "door_chessqq86@chess" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:chessQQ85",
+         "location" : "IN_ROOM:chessqq85@chess",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -58,7 +58,7 @@
       },
       "tile_chessqq72@chess" : {
          "desc[1]" : "Something about this tile looks a little different.",
-         "location" : "IN_ROOM:chessQQ58",
+         "location" : "IN_ROOM:chessqq58@chess",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -75,7 +75,7 @@
          "desc[0]" : "The trapdoor is open leading down to darkness."
       },
       "objqq05_2@chess" : {
-         "location" : "CARRIED_BY:mobQQ02_4",
+         "location" : "CARRIED_BY:mobqq02_4@chess",
          "oflags" : [
             "Food",
             "Alcohol"
@@ -91,7 +91,7 @@
          "desc[0]" : "A tiny vial lies on the ground here"
       },
       "objqq04@chess" : {
-         "location" : "WORN_BY:mobQQ00",
+         "location" : "WORN_BY:mobqq00@chess",
          "oflags" : [
             "Armor",
             "Wearable"
@@ -113,7 +113,7 @@
       },
       "trapdoor_chessqq77@chess" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:chessQQ78",
+         "location" : "IN_ROOM:chessqq78@chess",
          "oflags" : [
             "Noget"
          ],
@@ -127,7 +127,7 @@
          "desc[0]" : ""
       },
       "objqq17@chess" : {
-         "location" : "IN_ROOM:chessQQ72",
+         "location" : "IN_ROOM:chessqq72@chess",
          "oflags" : [
             "Food"
          ],
@@ -142,7 +142,7 @@
          "desc[0]" : "A small teacup rests here"
       },
       "objqq06_1@chess" : {
-         "location" : "CARRIED_BY:mobQQ03_1",
+         "location" : "CARRIED_BY:mobqq03_1@chess",
          "oflags" : "{  }",
          "altname" : "rooks",
          "name" : "objQQ06_1",
@@ -155,7 +155,7 @@
          "desc[0]" : "A yellowed scroll has been left on the ground here"
       },
       "paintedvase@chess" : {
-         "location" : "IN_ROOM:chessQQ00",
+         "location" : "IN_ROOM:chessqq00@chess",
          "oflags" : [
             "Container"
          ],
@@ -172,7 +172,7 @@
       },
       "door_chessqq00@chess" : {
          "desc[1]" : "The mahogany door is closed.",
-         "location" : "IN_ROOM:chessQQ01",
+         "location" : "IN_ROOM:chessqq01@chess",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -190,7 +190,7 @@
       },
       "throne_a@chess" : {
          "desc[1]" : " ",
-         "location" : "IN_ROOM:chessQQ88",
+         "location" : "IN_ROOM:chessqq88@chess",
          "oflags" : [
             "Noget",
             "PushToggle"
@@ -206,7 +206,7 @@
          "desc[0]" : "The throne has been barely shoved enough to expose a hole!"
       },
       "objqq03@chess" : {
-         "location" : "CARRIED_BY:mobQQ10",
+         "location" : "CARRIED_BY:mobqq10@chess",
          "oflags" : [
             "Key"
          ],
@@ -222,7 +222,7 @@
          "desc[0]" : "A black key is here"
       },
       "objqq09@chess" : {
-         "location" : "WORN_BY:mobQQ09",
+         "location" : "WORN_BY:mobqq09@chess",
          "oflags" : [
             "Glowing",
             "Armor",
@@ -246,7 +246,7 @@
       },
       "throne_b@chess" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:chessQQ02",
+         "location" : "IN_ROOM:chessqq02@chess",
          "oflags" : [
             "Noget"
          ],
@@ -258,7 +258,7 @@
          "desc[0]" : ""
       },
       "objqq16@chess" : {
-         "location" : "CARRIED_BY:mobQQ18",
+         "location" : "CARRIED_BY:mobqq18@chess",
          "oflags" : [
             "Armor",
             "Wearable"
@@ -278,7 +278,7 @@
          ]
       },
       "objqq06@chess" : {
-         "location" : "CARRIED_BY:mobQQ03",
+         "location" : "CARRIED_BY:mobqq03@chess",
          "oflags" : "{  }",
          "altname" : "rooks",
          "name" : "objQQ06",
@@ -292,7 +292,7 @@
       },
       "door_chessqq77@chess" : {
          "desc[1]" : "The white door is closed.",
-         "location" : "IN_ROOM:chessQQ39",
+         "location" : "IN_ROOM:chessqq39@chess",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -310,7 +310,7 @@
       },
       "objqq07@chess" : {
          "damage" : "10",
-         "location" : "CARRIED_BY:mobQQ05",
+         "location" : "CARRIED_BY:mobqq05@chess",
          "oflags" : [
             "Weapon"
          ],
@@ -325,7 +325,7 @@
          "desc[0]" : "A sturdy lance has been left here"
       },
       "objqq01@chess" : {
-         "location" : "IN_CONTAINER:paintedvase",
+         "location" : "IN_CONTAINER:paintedvase@chess",
          "oflags" : [
             "Key"
          ],
@@ -341,7 +341,7 @@
          "desc[0]" : "A silver key waits in the dust here."
       },
       "north_chessqq01@chess" : {
-         "location" : "IN_ROOM:chessQQ01",
+         "location" : "IN_ROOM:chessqq01@chess",
          "oflags" : [
             "NoGet"
          ],
@@ -351,7 +351,7 @@
          "examine" : "It is difficult to see into the chamber from here.\n"
       },
       "down_chessqq03@chess" : {
-         "location" : "IN_ROOM:chessQQ03",
+         "location" : "IN_ROOM:chessqq03@chess",
          "oflags" : [
             "NoGet"
          ],
@@ -362,7 +362,7 @@
       },
       "trapdoor_chessqq76@chess" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:chessQQ79",
+         "location" : "IN_ROOM:chessqq79@chess",
          "oflags" : [
             "Noget"
          ],
@@ -377,7 +377,7 @@
       },
       "trapdoor_chessqq02@chess" : {
          "desc[1]" : "The trapdoor is closed.",
-         "location" : "IN_ROOM:chessQQ03",
+         "location" : "IN_ROOM:chessqq03@chess",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -393,7 +393,7 @@
          "desc[0]" : "The trapdoor is open."
       },
       "objqq13@chess" : {
-         "location" : "CARRIED_BY:mobQQ16",
+         "location" : "CARRIED_BY:mobqq16@chess",
          "oflags" : [
             "Food"
          ],
@@ -408,7 +408,7 @@
          "desc[0]" : "a potion with a club scratched in it is here"
       },
       "objqq12@chess" : {
-         "location" : "CARRIED_BY:mobQQ15",
+         "location" : "CARRIED_BY:mobqq15@chess",
          "oflags" : [
             "Food"
          ],
@@ -424,7 +424,7 @@
       },
       "trapdoor_chessqq03@chess" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:chessQQ02",
+         "location" : "IN_ROOM:chessqq02@chess",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -440,7 +440,7 @@
          "desc[0]" : "The trapdoor is open."
       },
       "objqq08@chess" : {
-         "location" : "CARRIED_BY:mobQQ07",
+         "location" : "CARRIED_BY:mobqq07@chess",
          "oflags" : "{  }",
          "altname" : "bishops",
          "name" : "objQQ08",
@@ -453,7 +453,7 @@
          "desc[0]" : "A polished staff lies on the ground here"
       },
       "objqq11@chess" : {
-         "location" : "CARRIED_BY:mobQQ14",
+         "location" : "CARRIED_BY:mobqq14@chess",
          "oflags" : [
             "Food"
          ],
@@ -469,7 +469,7 @@
       },
       "door_chessqq01@chess" : {
          "desc[1]" : "A large mahogany door stands before you.",
-         "location" : "IN_ROOM:chessQQ00",
+         "location" : "IN_ROOM:chessqq00@chess",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -486,7 +486,7 @@
          "desc[0]" : "A large mahogany door stands wide open."
       },
       "south_chessqq02@chess" : {
-         "location" : "IN_ROOM:chessQQ02",
+         "location" : "IN_ROOM:chessqq02@chess",
          "oflags" : [
             "NoGet"
          ],
@@ -496,7 +496,7 @@
          "examine" : "There is a smooth tunnel back there."
       },
       "objqq14@chess" : {
-         "location" : "CARRIED_BY:mobQQ17",
+         "location" : "CARRIED_BY:mobqq17@chess",
          "oflags" : [
             "Food"
          ],
@@ -511,7 +511,7 @@
          "desc[0]" : "a potion with a spade scratched in it is here"
       },
       "objqq06_2@chess" : {
-         "location" : "CARRIED_BY:mobQQ04",
+         "location" : "CARRIED_BY:mobqq04@chess",
          "oflags" : "{ }",
          "altname" : "rooks",
          "name" : "objQQ06_2",
@@ -524,7 +524,7 @@
          "desc[0]" : "A yellowed scroll has been left on the ground here"
       },
       "mirror@chess" : {
-         "location" : "IN_ROOM:chessQQ77",
+         "location" : "IN_ROOM:chessqq77@chess",
          "oflags" : [
             "Noget"
          ],
@@ -532,7 +532,7 @@
          "examine" : "The mirror is full of smoke!  As you gaze upon it, a face\ncomes into focus.  It appears to be a crazily laughing man \ndressed in bright clashing clothes.  He looks into your\neyes and points downward 'Come visit me, dearie..', he says\nwith a cackle.  The image abruptly fades...\n"
       },
       "down_chessqq06@chess" : {
-         "location" : "IN_ROOM:chessQQ06",
+         "location" : "IN_ROOM:chessqq06@chess",
          "oflags" : [
             "NoGet"
          ],
@@ -542,7 +542,7 @@
          "examine" : "The ladder looks safe...kinda.\n"
       },
       "objqq10@chess" : {
-         "location" : "WORN_BY:mobQQ11",
+         "location" : "WORN_BY:mobqq11@chess",
          "oflags" : [
             "Armor",
             "Wearable",
@@ -561,7 +561,7 @@
       },
       "door_chessqq76@chess" : {
          "desc[1]" : "The black door is closed.",
-         "location" : "IN_ROOM:chessQQ32",
+         "location" : "IN_ROOM:chessqq32@chess",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -578,7 +578,7 @@
       },
       "trapdoor_chessqq78@chess" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:chessQQ77",
+         "location" : "IN_ROOM:chessqq77@chess",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -596,7 +596,7 @@
       },
       "trapdoor_chessqq79@chess" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:chessQQ76",
+         "location" : "IN_ROOM:chessqq76@chess",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -613,7 +613,7 @@
          "desc[0]" : "The trapdoor is open under the bed."
       },
       "objqq10_1@chess" : {
-         "location" : "WORN_BY:mobQQ12",
+         "location" : "WORN_BY:mobqq12@chess",
          "oflags" : [
             "Armor",
             "Wearable",
@@ -632,7 +632,7 @@
       },
       "door_chessqq39@chess" : {
          "desc[1]" : "The door slammed shut behind you, and won't open!",
-         "location" : "IN_ROOM:chessQQ77",
+         "location" : "IN_ROOM:chessqq77@chess",
          "oflags" : [
             "Noget"
          ],
@@ -647,7 +647,7 @@
          "desc[0]" : "The door slammed shut behind you, and won't open!"
       },
       "objqq02@chess" : {
-         "location" : "CARRIED_BY:mobQQ09",
+         "location" : "CARRIED_BY:mobqq09@chess",
          "oflags" : [
             "Key"
          ],
@@ -664,7 +664,7 @@
       },
       "door_chessqq32@chess" : {
          "desc[1]" : "The door slammed shut behind you, and won't open!",
-         "location" : "IN_ROOM:chessQQ76",
+         "location" : "IN_ROOM:chessqq76@chess",
          "oflags" : [
             "Noget"
          ],
@@ -679,7 +679,7 @@
          "desc[0]" : "The door slammed shut behind you, and won't open!"
       },
       "objqq08_1@chess" : {
-         "location" : "CARRIED_BY:mobQQ07_1",
+         "location" : "CARRIED_BY:mobqq07_1@chess",
          "oflags" : "{  }",
          "altname" : "bishops",
          "name" : "objQQ08_1",
@@ -692,7 +692,7 @@
          "desc[0]" : "A polished staff lies on the ground here"
       },
       "objqq05@chess" : {
-         "location" : "CARRIED_BY:mobQQ02",
+         "location" : "CARRIED_BY:mobqq02@chess",
          "oflags" : [
             "Food",
             "Alcohol"
@@ -708,7 +708,7 @@
          "desc[0]" : "A tiny vial lies on the ground here"
       },
       "objqq05_3@chess" : {
-         "location" : "CARRIED_BY:mobQQ02_6",
+         "location" : "CARRIED_BY:mobqq02_6@chess",
          "oflags" : [
             "Food",
             "Alcohol"
@@ -725,7 +725,7 @@
       },
       "objqq07_3@chess" : {
          "damage" : "10",
-         "location" : "CARRIED_BY:mobQQ06_1",
+         "location" : "CARRIED_BY:mobqq06_1@chess",
          "oflags" : [
             "Weapon"
          ],
@@ -740,7 +740,7 @@
          "desc[0]" : "A sturdy lance has been left here"
       },
       "west_chessqq79@chess" : {
-         "location" : "IN_ROOM:chessQQ79",
+         "location" : "IN_ROOM:chessqq79@chess",
          "oflags" : [
             "NoGet"
          ],
@@ -750,7 +750,7 @@
          "examine" : "There is a dock over there.\n"
       },
       "sign@chess" : {
-         "location" : "IN_ROOM:chessQQ07",
+         "location" : "IN_ROOM:chessqq07@chess",
          "oflags" : [
             "Noget"
          ],
@@ -758,7 +758,7 @@
          "examine" : "\n\t*-*-*-*-*-*-*-*-*-*-*-*\n\t*  Chessboard Area    *\n\t*      Written by     *\n\t*  Aten of GenericMUD *\n\t*-*-*-*-*-*-*-*-*-*-*-*\n\n\t#=#=#=#=#=#=#=#=#=#=#=#\n\t#  Zone converted to  #\n\t#  Aber format using  #\n\t#   'ZGEN'  Further   #\n\t# modications made by #\n\t#    Crimefighter     #\n\t#=#=#=#=#=#=#=#=#=#=#=#\n"
       },
       "down_chessqq05@chess" : {
-         "location" : "IN_ROOM:chessQQ05",
+         "location" : "IN_ROOM:chessqq05@chess",
          "oflags" : [
             "NoGet"
          ],
@@ -768,7 +768,7 @@
          "examine" : "You see a point of light..approaching fast!\n"
       },
       "east_chessqq78@chess" : {
-         "location" : "IN_ROOM:chessQQ78",
+         "location" : "IN_ROOM:chessqq78@chess",
          "oflags" : [
             "NoGet"
          ],
@@ -779,7 +779,7 @@
       },
       "door_chessqq85@chess" : {
          "desc[1]" : "The red door is closed.",
-         "location" : "IN_ROOM:chessQQ86",
+         "location" : "IN_ROOM:chessqq86@chess",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -796,7 +796,7 @@
          "desc[0]" : "The red door is open."
       },
       "objqq09_1@chess" : {
-         "location" : "WORN_BY:mobQQ10",
+         "location" : "WORN_BY:mobqq10@chess",
          "oflags" : [
             "Glowing",
             "Armor",
@@ -819,7 +819,7 @@
          ]
       },
       "objqq05_1@chess" : {
-         "location" : "CARRIED_BY:mobQQ02_2",
+         "location" : "CARRIED_BY:mobqq02_2@chess",
          "oflags" : [
             "Food",
             "Alcohol"
@@ -836,7 +836,7 @@
       },
       "objqq07_1@chess" : {
          "damage" : "10",
-         "location" : "CARRIED_BY:mobQQ05_1",
+         "location" : "CARRIED_BY:mobqq05_1@chess",
          "oflags" : [
             "Weapon"
          ],
@@ -852,7 +852,7 @@
       },
       "tile_chessqq58@chess" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:chessQQ72",
+         "location" : "IN_ROOM:chessqq72@chess",
          "oflags" : [
             "NoGet"
          ],
@@ -866,7 +866,7 @@
          "desc[0]" : ""
       },
       "objqq06_3@chess" : {
-         "location" : "CARRIED_BY:mobQQ04_1",
+         "location" : "CARRIED_BY:mobqq04_1@chess",
          "oflags" : "{  }",
          "altname" : "rooks",
          "name" : "objQQ06_3",
@@ -879,7 +879,7 @@
          "desc[0]" : "A yellowed scroll has been left on the ground here"
       },
       "up_chessqq07@chess" : {
-         "location" : "IN_ROOM:chessQQ07",
+         "location" : "IN_ROOM:chessqq07@chess",
          "oflags" : [
             "NoGet"
          ],
@@ -889,7 +889,7 @@
          "examine" : "The ledge is up there.\n"
       },
       "down_chessqq07@chess" : {
-         "location" : "IN_ROOM:chessQQ07",
+         "location" : "IN_ROOM:chessqq07@chess",
          "oflags" : [
             "NoGet"
          ],
@@ -899,7 +899,7 @@
          "examine" : "There is a large black tile down there.\n"
       },
       "objqq08_2@chess" : {
-         "location" : "CARRIED_BY:mobQQ08",
+         "location" : "CARRIED_BY:mobqq08@chess",
          "oflags" : "{  }",
          "altname" : "bishops",
          "name" : "objQQ08_2",
@@ -913,7 +913,7 @@
       },
       "objqq07_2@chess" : {
          "damage" : "10",
-         "location" : "CARRIED_BY:mobQQ06",
+         "location" : "CARRIED_BY:mobqq06@chess",
          "oflags" : [
             "Weapon"
          ],
@@ -928,7 +928,7 @@
          "desc[0]" : "A sturdy lance has been left here"
       },
       "down_chessqq04@chess" : {
-         "location" : "IN_ROOM:chessQQ04",
+         "location" : "IN_ROOM:chessqq04@chess",
          "oflags" : [
             "NoGet"
          ],
@@ -941,10 +941,10 @@
    "loc" : {
       "chessqq46@chess" : {
          "exits" : {
-            "e" : "chessQQ47",
-            "w" : "chessQQ45",
-            "n" : "chessQQ33",
-            "s" : "chessQQ49"
+            "e" : "chessqq47@chess",
+            "w" : "chessqq45@chess",
+            "n" : "chessqq33@chess",
+            "s" : "chessqq49@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -955,10 +955,10 @@
       },
       "chessqq41@chess" : {
          "exits" : {
-            "e" : "chessQQ42",
-            "w" : "chessQQ40",
-            "n" : "chessQQ38",
-            "s" : "chessQQ54"
+            "e" : "chessqq42@chess",
+            "w" : "chessqq40@chess",
+            "n" : "chessqq38@chess",
+            "s" : "chessqq54@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -969,7 +969,7 @@
       },
       "chessqq04@chess" : {
          "exits" : {
-            "d" : "chessQQ05"
+            "d" : "chessqq05@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -980,10 +980,10 @@
       },
       "chessqq34@chess" : {
          "exits" : {
-            "e" : "chessQQ33",
-            "w" : "chessQQ35",
-            "n" : "chessQQ29",
-            "s" : "chessQQ45"
+            "e" : "chessqq33@chess",
+            "w" : "chessqq35@chess",
+            "n" : "chessqq29@chess",
+            "s" : "chessqq45@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -994,9 +994,9 @@
       },
       "chessqq56@chess" : {
          "exits" : {
-            "e" : "chessQQ57",
-            "n" : "chessQQ55",
-            "s" : "chessQQ71"
+            "e" : "chessqq57@chess",
+            "n" : "chessqq55@chess",
+            "s" : "chessqq71@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1007,10 +1007,10 @@
       },
       "chessqq35@chess" : {
          "exits" : {
-            "e" : "chessQQ34",
-            "w" : "chessQQ36",
-            "n" : "chessQQ28",
-            "s" : "chessQQ44"
+            "e" : "chessqq34@chess",
+            "w" : "chessqq36@chess",
+            "n" : "chessqq28@chess",
+            "s" : "chessqq44@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1021,9 +1021,9 @@
       },
       "chessqq24@chess" : {
          "exits" : {
-            "e" : "chessQQ25",
-            "n" : "chessQQ23",
-            "s" : "chessQQ39"
+            "e" : "chessqq25@chess",
+            "n" : "chessqq23@chess",
+            "s" : "chessqq39@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1034,8 +1034,8 @@
       },
       "chessqq81@chess" : {
          "exits" : {
-            "e" : "chessQQ79",
-            "n" : "chessQQ82"
+            "e" : "chessqq79@chess",
+            "n" : "chessqq82@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1046,7 +1046,7 @@
       },
       "chessqq73@chess" : {
          "exits" : {
-            "e" : "chessQQ74"
+            "e" : "chessqq74@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1057,10 +1057,10 @@
       },
       "chessqq53@chess" : {
          "exits" : {
-            "e" : "chessQQ52",
-            "w" : "chessQQ54",
-            "n" : "chessQQ42",
-            "s" : "chessQQ58"
+            "e" : "chessqq52@chess",
+            "w" : "chessqq54@chess",
+            "n" : "chessqq42@chess",
+            "s" : "chessqq58@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1071,10 +1071,10 @@
       },
       "chessqq57@chess" : {
          "exits" : {
-            "e" : "chessQQ58",
-            "w" : "chessQQ56",
-            "n" : "chessQQ54",
-            "s" : "chessQQ70"
+            "e" : "chessqq58@chess",
+            "w" : "chessqq56@chess",
+            "n" : "chessqq54@chess",
+            "s" : "chessqq70@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1085,10 +1085,10 @@
       },
       "chessqq43@chess" : {
          "exits" : {
-            "e" : "chessQQ44",
-            "w" : "chessQQ42",
-            "n" : "chessQQ36",
-            "s" : "chessQQ52"
+            "e" : "chessqq44@chess",
+            "w" : "chessqq42@chess",
+            "n" : "chessqq36@chess",
+            "s" : "chessqq52@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1099,10 +1099,10 @@
       },
       "chessqq54@chess" : {
          "exits" : {
-            "e" : "chessQQ53",
-            "w" : "chessQQ55",
-            "n" : "chessQQ41",
-            "s" : "chessQQ57"
+            "e" : "chessqq53@chess",
+            "w" : "chessqq55@chess",
+            "n" : "chessqq41@chess",
+            "s" : "chessqq57@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1113,10 +1113,10 @@
       },
       "chessqq36@chess" : {
          "exits" : {
-            "e" : "chessQQ35",
-            "w" : "chessQQ37",
-            "n" : "chessQQ27",
-            "s" : "chessQQ43"
+            "e" : "chessqq35@chess",
+            "w" : "chessqq37@chess",
+            "n" : "chessqq27@chess",
+            "s" : "chessqq43@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1127,8 +1127,8 @@
       },
       "chessqq86@chess" : {
          "exits" : {
-            "w" : "chessQQ85",
-            "n" : "chessQQ87"
+            "w" : "chessqq85@chess",
+            "n" : "chessqq87@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1139,9 +1139,9 @@
       },
       "chessqq65@chess" : {
          "exits" : {
-            "e" : "chessQQ64",
-            "w" : "chessQQ66",
-            "n" : "chessQQ62"
+            "e" : "chessqq64@chess",
+            "w" : "chessqq66@chess",
+            "n" : "chessqq62@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1152,10 +1152,10 @@
       },
       "chessqq62@chess" : {
          "exits" : {
-            "e" : "chessQQ63",
-            "w" : "chessQQ61",
-            "n" : "chessQQ49",
-            "s" : "chessQQ65"
+            "e" : "chessqq63@chess",
+            "w" : "chessqq61@chess",
+            "n" : "chessqq49@chess",
+            "s" : "chessqq65@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1166,8 +1166,8 @@
       },
       "chessqq80@chess" : {
          "exits" : {
-            "w" : "chessQQ78",
-            "n" : "chessQQ82"
+            "w" : "chessqq78@chess",
+            "n" : "chessqq82@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1178,7 +1178,7 @@
       },
       "chessqq75@chess" : {
          "exits" : {
-            "w" : "chessQQ73"
+            "w" : "chessqq73@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1189,7 +1189,7 @@
       },
       "chessqq83@chess" : {
          "exits" : {
-            "n" : "chessQQ84"
+            "n" : "chessqq84@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1200,10 +1200,10 @@
       },
       "chessqq38@chess" : {
          "exits" : {
-            "e" : "chessQQ37",
-            "w" : "chessQQ39",
-            "n" : "chessQQ25",
-            "s" : "chessQQ41"
+            "e" : "chessqq37@chess",
+            "w" : "chessqq39@chess",
+            "n" : "chessqq25@chess",
+            "s" : "chessqq41@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1214,9 +1214,9 @@
       },
       "chessqq10@chess" : {
          "exits" : {
-            "e" : "chessQQ11",
-            "w" : "chessQQ09",
-            "s" : "chessQQ21"
+            "e" : "chessqq11@chess",
+            "w" : "chessqq09@chess",
+            "s" : "chessqq21@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1227,7 +1227,7 @@
       },
       "chessqq74@chess" : {
          "exits" : {
-            "s" : "chessQQ75"
+            "s" : "chessqq75@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1238,7 +1238,7 @@
       },
       "chessqq79@chess" : {
          "exits" : {
-            "w" : "chessQQ81"
+            "w" : "chessqq81@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1249,10 +1249,10 @@
       },
       "chessqq32@chess" : {
          "exits" : {
-            "e" : "^door_chessQQ76",
-            "w" : "chessQQ33",
-            "n" : "chessQQ31",
-            "s" : "chessQQ47"
+            "e" : "^door_chessqq76@chess",
+            "w" : "chessqq33@chess",
+            "n" : "chessqq31@chess",
+            "s" : "chessqq47@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1263,10 +1263,10 @@
       },
       "chessqq51@chess" : {
          "exits" : {
-            "e" : "chessQQ50",
-            "w" : "chessQQ52",
-            "n" : "chessQQ44",
-            "s" : "chessQQ60"
+            "e" : "chessqq50@chess",
+            "w" : "chessqq52@chess",
+            "n" : "chessqq44@chess",
+            "s" : "chessqq60@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1277,10 +1277,10 @@
       },
       "chessqq49@chess" : {
          "exits" : {
-            "e" : "chessQQ48",
-            "w" : "chessQQ50",
-            "n" : "chessQQ46",
-            "s" : "chessQQ62"
+            "e" : "chessqq48@chess",
+            "w" : "chessqq50@chess",
+            "n" : "chessqq46@chess",
+            "s" : "chessqq62@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1291,8 +1291,8 @@
       },
       "chessqq02@chess" : {
          "exits" : {
-            "d" : "^trapdoor_chessQQ03",
-            "s" : "chessQQ01"
+            "d" : "^trapdoor_chessqq03@chess",
+            "s" : "chessqq01@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1303,10 +1303,10 @@
       },
       "chessqq33@chess" : {
          "exits" : {
-            "e" : "chessQQ32",
-            "w" : "chessQQ34",
-            "n" : "chessQQ30",
-            "s" : "chessQQ46"
+            "e" : "chessqq32@chess",
+            "w" : "chessqq34@chess",
+            "n" : "chessqq30@chess",
+            "s" : "chessqq46@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1317,10 +1317,10 @@
       },
       "chessqq45@chess" : {
          "exits" : {
-            "e" : "chessQQ46",
-            "w" : "chessQQ44",
-            "n" : "chessQQ34",
-            "s" : "chessQQ50"
+            "e" : "chessqq46@chess",
+            "w" : "chessqq44@chess",
+            "n" : "chessqq34@chess",
+            "s" : "chessqq50@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1331,10 +1331,10 @@
       },
       "chessqq25@chess" : {
          "exits" : {
-            "e" : "chessQQ26",
-            "w" : "chessQQ24",
-            "n" : "chessQQ22",
-            "s" : "chessQQ38"
+            "e" : "chessqq26@chess",
+            "w" : "chessqq24@chess",
+            "n" : "chessqq22@chess",
+            "s" : "chessqq38@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1345,10 +1345,10 @@
       },
       "chessqq18@chess" : {
          "exits" : {
-            "e" : "chessQQ17",
-            "w" : "chessQQ19",
-            "n" : "chessQQ13",
-            "s" : "chessQQ29"
+            "e" : "chessqq17@chess",
+            "w" : "chessqq19@chess",
+            "n" : "chessqq13@chess",
+            "s" : "chessqq29@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1359,10 +1359,10 @@
       },
       "chessqq42@chess" : {
          "exits" : {
-            "e" : "chessQQ43",
-            "w" : "chessQQ41",
-            "n" : "chessQQ37",
-            "s" : "chessQQ53"
+            "e" : "chessqq43@chess",
+            "w" : "chessqq41@chess",
+            "n" : "chessqq37@chess",
+            "s" : "chessqq53@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1373,9 +1373,9 @@
       },
       "chessqq11@chess" : {
          "exits" : {
-            "e" : "chessQQ12",
-            "w" : "chessQQ10",
-            "s" : "chessQQ20"
+            "e" : "chessqq12@chess",
+            "w" : "chessqq10@chess",
+            "s" : "chessqq20@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1386,9 +1386,9 @@
       },
       "chessqq23@chess" : {
          "exits" : {
-            "e" : "chessQQ22",
-            "n" : "chessQQ08",
-            "s" : "chessQQ24"
+            "e" : "chessqq22@chess",
+            "n" : "chessqq08@chess",
+            "s" : "chessqq24@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1399,10 +1399,10 @@
       },
       "chessqq26@chess" : {
          "exits" : {
-            "e" : "chessQQ27",
-            "w" : "chessQQ25",
-            "n" : "chessQQ21",
-            "s" : "chessQQ37"
+            "e" : "chessqq27@chess",
+            "w" : "chessqq25@chess",
+            "n" : "chessqq21@chess",
+            "s" : "chessqq37@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1413,8 +1413,8 @@
       },
       "chessqq08@chess" : {
          "exits" : {
-            "e" : "chessQQ09",
-            "s" : "chessQQ23"
+            "e" : "chessqq09@chess",
+            "s" : "chessqq23@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1425,9 +1425,9 @@
       },
       "chessqq12@chess" : {
          "exits" : {
-            "e" : "chessQQ13",
-            "w" : "chessQQ11",
-            "s" : "chessQQ19"
+            "e" : "chessqq13@chess",
+            "w" : "chessqq11@chess",
+            "s" : "chessqq19@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1438,10 +1438,10 @@
       },
       "chessqq50@chess" : {
          "exits" : {
-            "e" : "chessQQ49",
-            "w" : "chessQQ51",
-            "n" : "chessQQ45",
-            "s" : "chessQQ61"
+            "e" : "chessqq49@chess",
+            "w" : "chessqq51@chess",
+            "n" : "chessqq45@chess",
+            "s" : "chessqq61@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1452,7 +1452,7 @@
       },
       "chessqq84@chess" : {
          "exits" : {
-            "e" : "chessQQ85"
+            "e" : "chessqq85@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1463,10 +1463,10 @@
       },
       "chessqq21@chess" : {
          "exits" : {
-            "e" : "chessQQ20",
-            "w" : "chessQQ22",
-            "n" : "chessQQ10",
-            "s" : "chessQQ26"
+            "e" : "chessqq20@chess",
+            "w" : "chessqq22@chess",
+            "n" : "chessqq10@chess",
+            "s" : "chessqq26@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1477,9 +1477,9 @@
       },
       "chessqq66@chess" : {
          "exits" : {
-            "e" : "chessQQ65",
-            "w" : "chessQQ67",
-            "n" : "chessQQ61"
+            "e" : "chessqq65@chess",
+            "w" : "chessqq67@chess",
+            "n" : "chessqq61@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1490,8 +1490,8 @@
       },
       "chessqq85@chess" : {
          "exits" : {
-            "e" : "^door_chessQQ86",
-            "w" : "chessQQ84"
+            "e" : "^door_chessqq86@chess",
+            "w" : "chessqq84@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1502,9 +1502,9 @@
       },
       "chessqq13@chess" : {
          "exits" : {
-            "e" : "chessQQ14",
-            "w" : "chessQQ12",
-            "s" : "chessQQ18"
+            "e" : "chessqq14@chess",
+            "w" : "chessqq12@chess",
+            "s" : "chessqq18@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1515,10 +1515,10 @@
       },
       "chessqq29@chess" : {
          "exits" : {
-            "e" : "chessQQ30",
-            "w" : "chessQQ28",
-            "n" : "chessQQ18",
-            "s" : "chessQQ34"
+            "e" : "chessqq30@chess",
+            "w" : "chessqq28@chess",
+            "n" : "chessqq18@chess",
+            "s" : "chessqq34@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1529,7 +1529,7 @@
       },
       "chessqq00@chess" : {
          "exits" : {
-            "n" : "^door_chessQQ01",
+            "n" : "^door_chessqq01@chess",
             "s" : "dark@blizzard"
          },
          "flags" : [],
@@ -1541,7 +1541,7 @@
       },
       "chessqq06@chess" : {
          "exits" : {
-            "d" : "chessQQ07"
+            "d" : "chessqq07@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1552,10 +1552,10 @@
       },
       "chessqq61@chess" : {
          "exits" : {
-            "e" : "chessQQ62",
-            "w" : "chessQQ60",
-            "n" : "chessQQ50",
-            "s" : "chessQQ66"
+            "e" : "chessqq62@chess",
+            "w" : "chessqq60@chess",
+            "n" : "chessqq50@chess",
+            "s" : "chessqq66@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1566,8 +1566,8 @@
       },
       "chessqq71@chess" : {
          "exits" : {
-            "e" : "chessQQ70",
-            "n" : "chessQQ56"
+            "e" : "chessqq70@chess",
+            "n" : "chessqq56@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1578,7 +1578,7 @@
       },
       "chessqq05@chess" : {
          "exits" : {
-            "d" : "chessQQ06"
+            "d" : "chessqq06@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1589,8 +1589,8 @@
       },
       "chessqq07@chess" : {
          "exits" : {
-            "u" : "chessQQ06",
-            "d" : "chessQQ12"
+            "u" : "chessqq06@chess",
+            "d" : "chessqq12@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1601,9 +1601,9 @@
       },
       "chessqq67@chess" : {
          "exits" : {
-            "e" : "chessQQ66",
-            "w" : "chessQQ68",
-            "n" : "chessQQ60"
+            "e" : "chessqq66@chess",
+            "w" : "chessqq68@chess",
+            "n" : "chessqq60@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1614,9 +1614,9 @@
       },
       "chessqq40@chess" : {
          "exits" : {
-            "e" : "chessQQ41",
-            "n" : "chessQQ39",
-            "s" : "chessQQ55"
+            "e" : "chessqq41@chess",
+            "n" : "chessqq39@chess",
+            "s" : "chessqq55@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1627,10 +1627,10 @@
       },
       "chessqq27@chess" : {
          "exits" : {
-            "e" : "chessQQ28",
-            "w" : "chessQQ26",
-            "n" : "chessQQ20",
-            "s" : "chessQQ36"
+            "e" : "chessqq28@chess",
+            "w" : "chessqq26@chess",
+            "n" : "chessqq20@chess",
+            "s" : "chessqq36@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1641,10 +1641,10 @@
       },
       "chessqq44@chess" : {
          "exits" : {
-            "e" : "chessQQ45",
-            "w" : "chessQQ43",
-            "n" : "chessQQ35",
-            "s" : "chessQQ51"
+            "e" : "chessqq45@chess",
+            "w" : "chessqq43@chess",
+            "n" : "chessqq35@chess",
+            "s" : "chessqq51@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1655,8 +1655,8 @@
       },
       "chessqq87@chess" : {
          "exits" : {
-            "n" : "chessQQ88",
-            "s" : "chessQQ86"
+            "n" : "chessqq88@chess",
+            "s" : "chessqq86@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1667,11 +1667,11 @@
       },
       "chessqq58@chess" : {
          "exits" : {
-            "e" : "chessQQ59",
-            "w" : "chessQQ57",
-            "n" : "chessQQ53",
-            "d" : "^tile_chessQQ72",
-            "s" : "chessQQ69"
+            "e" : "chessqq59@chess",
+            "w" : "chessqq57@chess",
+            "n" : "chessqq53@chess",
+            "d" : "^tile_chessqq72@chess",
+            "s" : "chessqq69@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1682,9 +1682,9 @@
       },
       "chessqq09@chess" : {
          "exits" : {
-            "e" : "chessQQ10",
-            "w" : "chessQQ08",
-            "s" : "chessQQ22"
+            "e" : "chessqq10@chess",
+            "w" : "chessqq08@chess",
+            "s" : "chessqq22@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1695,7 +1695,7 @@
       },
       "chessqq76@chess" : {
          "exits" : {
-            "d" : "^trapdoor_chessQQ79"
+            "d" : "^trapdoor_chessqq79@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1706,10 +1706,10 @@
       },
       "chessqq22@chess" : {
          "exits" : {
-            "e" : "chessQQ21",
-            "w" : "chessQQ23",
-            "n" : "chessQQ09",
-            "s" : "chessQQ25"
+            "e" : "chessqq21@chess",
+            "w" : "chessqq23@chess",
+            "n" : "chessqq09@chess",
+            "s" : "chessqq25@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1720,10 +1720,10 @@
       },
       "chessqq59@chess" : {
          "exits" : {
-            "e" : "chessQQ60",
-            "w" : "chessQQ58",
-            "n" : "chessQQ52",
-            "s" : "chessQQ68"
+            "e" : "chessqq60@chess",
+            "w" : "chessqq58@chess",
+            "n" : "chessqq52@chess",
+            "s" : "chessqq68@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1734,10 +1734,10 @@
       },
       "chessqq20@chess" : {
          "exits" : {
-            "e" : "chessQQ19",
-            "w" : "chessQQ21",
-            "n" : "chessQQ11",
-            "s" : "chessQQ27"
+            "e" : "chessqq19@chess",
+            "w" : "chessqq21@chess",
+            "n" : "chessqq11@chess",
+            "s" : "chessqq27@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1748,9 +1748,9 @@
       },
       "chessqq68@chess" : {
          "exits" : {
-            "e" : "chessQQ67",
-            "w" : "chessQQ69",
-            "n" : "chessQQ59"
+            "e" : "chessqq67@chess",
+            "w" : "chessqq69@chess",
+            "n" : "chessqq59@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1761,9 +1761,9 @@
       },
       "chessqq14@chess" : {
          "exits" : {
-            "e" : "chessQQ15",
-            "w" : "chessQQ13",
-            "s" : "chessQQ17"
+            "e" : "chessqq15@chess",
+            "w" : "chessqq13@chess",
+            "s" : "chessqq17@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1774,10 +1774,10 @@
       },
       "chessqq30@chess" : {
          "exits" : {
-            "e" : "chessQQ31",
-            "w" : "chessQQ29",
-            "n" : "chessQQ17",
-            "s" : "chessQQ33"
+            "e" : "chessqq31@chess",
+            "w" : "chessqq29@chess",
+            "n" : "chessqq17@chess",
+            "s" : "chessqq33@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1788,10 +1788,10 @@
       },
       "chessqq37@chess" : {
          "exits" : {
-            "e" : "chessQQ36",
-            "w" : "chessQQ38",
-            "n" : "chessQQ26",
-            "s" : "chessQQ42"
+            "e" : "chessqq36@chess",
+            "w" : "chessqq38@chess",
+            "n" : "chessqq26@chess",
+            "s" : "chessqq42@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1802,10 +1802,10 @@
       },
       "chessqq28@chess" : {
          "exits" : {
-            "e" : "chessQQ29",
-            "w" : "chessQQ27",
-            "n" : "chessQQ19",
-            "s" : "chessQQ35"
+            "e" : "chessqq29@chess",
+            "w" : "chessqq27@chess",
+            "n" : "chessqq19@chess",
+            "s" : "chessqq35@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1816,9 +1816,9 @@
       },
       "chessqq47@chess" : {
          "exits" : {
-            "w" : "chessQQ46",
-            "n" : "chessQQ32",
-            "s" : "chessQQ48"
+            "w" : "chessqq46@chess",
+            "n" : "chessqq32@chess",
+            "s" : "chessqq48@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1829,9 +1829,9 @@
       },
       "chessqq31@chess" : {
          "exits" : {
-            "w" : "chessQQ30",
-            "n" : "chessQQ16",
-            "s" : "chessQQ32"
+            "w" : "chessqq30@chess",
+            "n" : "chessqq16@chess",
+            "s" : "chessqq32@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1842,10 +1842,10 @@
       },
       "chessqq19@chess" : {
          "exits" : {
-            "e" : "chessQQ18",
-            "w" : "chessQQ20",
-            "n" : "chessQQ12",
-            "s" : "chessQQ28"
+            "e" : "chessqq18@chess",
+            "w" : "chessqq20@chess",
+            "n" : "chessqq12@chess",
+            "s" : "chessqq28@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1856,8 +1856,8 @@
       },
       "chessqq03@chess" : {
          "exits" : {
-            "u" : "^trapdoor_chessQQ02",
-            "d" : "chessQQ04"
+            "u" : "^trapdoor_chessqq02@chess",
+            "d" : "chessqq04@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1877,7 +1877,7 @@
       },
       "chessqq77@chess" : {
          "exits" : {
-            "d" : "^trapdoor_chessQQ78"
+            "d" : "^trapdoor_chessqq78@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1888,10 +1888,10 @@
       },
       "chessqq17@chess" : {
          "exits" : {
-            "e" : "chessQQ16",
-            "w" : "chessQQ18",
-            "n" : "chessQQ14",
-            "s" : "chessQQ30"
+            "e" : "chessqq16@chess",
+            "w" : "chessqq18@chess",
+            "n" : "chessqq14@chess",
+            "s" : "chessqq30@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1902,9 +1902,9 @@
       },
       "chessqq48@chess" : {
          "exits" : {
-            "w" : "chessQQ49",
-            "n" : "chessQQ47",
-            "s" : "chessQQ63"
+            "w" : "chessqq49@chess",
+            "n" : "chessqq47@chess",
+            "s" : "chessqq63@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1915,9 +1915,9 @@
       },
       "chessqq69@chess" : {
          "exits" : {
-            "e" : "chessQQ68",
-            "w" : "chessQQ70",
-            "n" : "chessQQ58"
+            "e" : "chessqq68@chess",
+            "w" : "chessqq70@chess",
+            "n" : "chessqq58@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1928,10 +1928,10 @@
       },
       "chessqq60@chess" : {
          "exits" : {
-            "e" : "chessQQ61",
-            "w" : "chessQQ59",
-            "n" : "chessQQ51",
-            "s" : "chessQQ67"
+            "e" : "chessqq61@chess",
+            "w" : "chessqq59@chess",
+            "n" : "chessqq51@chess",
+            "s" : "chessqq67@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1942,9 +1942,9 @@
       },
       "chessqq63@chess" : {
          "exits" : {
-            "w" : "chessQQ62",
-            "n" : "chessQQ48",
-            "s" : "chessQQ64"
+            "w" : "chessqq62@chess",
+            "n" : "chessqq48@chess",
+            "s" : "chessqq64@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1955,8 +1955,8 @@
       },
       "chessqq88@chess" : {
          "exits" : {
-            "d" : "^throne_a",
-            "s" : "chessQQ87"
+            "d" : "^throne_a@chess",
+            "s" : "chessqq87@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1967,7 +1967,7 @@
       },
       "chessqq78@chess" : {
          "exits" : {
-            "e" : "chessQQ80"
+            "e" : "chessqq80@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1978,10 +1978,10 @@
       },
       "chessqq39@chess" : {
          "exits" : {
-            "e" : "chessQQ38",
-            "w" : "^door_chessQQ77",
-            "n" : "chessQQ24",
-            "s" : "chessQQ40"
+            "e" : "chessqq38@chess",
+            "w" : "^door_chessqq77@chess",
+            "n" : "chessqq24@chess",
+            "s" : "chessqq40@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -1992,9 +1992,9 @@
       },
       "chessqq16@chess" : {
          "exits" : {
-            "w" : "chessQQ17",
-            "n" : "chessQQ15",
-            "s" : "chessQQ31"
+            "w" : "chessqq17@chess",
+            "n" : "chessqq15@chess",
+            "s" : "chessqq31@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -2005,8 +2005,8 @@
       },
       "chessqq01@chess" : {
          "exits" : {
-            "n" : "chessQQ02",
-            "s" : "^door_chessQQ00"
+            "n" : "chessqq02@chess",
+            "s" : "^door_chessqq00@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -2017,9 +2017,9 @@
       },
       "chessqq55@chess" : {
          "exits" : {
-            "e" : "chessQQ54",
-            "n" : "chessQQ40",
-            "s" : "chessQQ56"
+            "e" : "chessqq54@chess",
+            "n" : "chessqq40@chess",
+            "s" : "chessqq56@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -2030,9 +2030,9 @@
       },
       "chessqq70@chess" : {
          "exits" : {
-            "e" : "chessQQ69",
-            "w" : "chessQQ71",
-            "n" : "chessQQ57"
+            "e" : "chessqq69@chess",
+            "w" : "chessqq71@chess",
+            "n" : "chessqq57@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -2043,8 +2043,8 @@
       },
       "chessqq15@chess" : {
          "exits" : {
-            "w" : "chessQQ14",
-            "s" : "chessQQ16"
+            "w" : "chessqq14@chess",
+            "s" : "chessqq16@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -2055,10 +2055,10 @@
       },
       "chessqq52@chess" : {
          "exits" : {
-            "e" : "chessQQ51",
-            "w" : "chessQQ53",
-            "n" : "chessQQ43",
-            "s" : "chessQQ59"
+            "e" : "chessqq51@chess",
+            "w" : "chessqq53@chess",
+            "n" : "chessqq43@chess",
+            "s" : "chessqq59@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -2069,8 +2069,8 @@
       },
       "chessqq64@chess" : {
          "exits" : {
-            "w" : "chessQQ65",
-            "n" : "chessQQ63"
+            "w" : "chessqq65@chess",
+            "n" : "chessqq63@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -2081,7 +2081,7 @@
       },
       "chessqq82@chess" : {
          "exits" : {
-            "n" : "chessQQ83"
+            "n" : "chessqq83@chess"
          },
          "flags" : [],
          "zone" : "chess",
@@ -2095,7 +2095,7 @@
       "mobqq02_3@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ38",
+         "location" : "chessqq38@chess",
          "armor" : "4",
          "name" : "mobQQ02_3",
          "examine" : "The pawn seems to be made of carved wood, and animated by \nsome magical means.\n",
@@ -2114,7 +2114,7 @@
       "mobqq03_1@chess" : {
          "visibility" : "0",
          "damage" : "9",
-         "location" : "chessQQ64",
+         "location" : "chessqq64@chess",
          "armor" : "8",
          "name" : "mobQQ03_1",
          "examine" : "The black Rook stares absently into space, he doesn't seem\nto notice you.\n",
@@ -2133,7 +2133,7 @@
       "mobqq03@chess" : {
          "visibility" : "0",
          "damage" : "9",
-         "location" : "chessQQ15",
+         "location" : "chessqq15@chess",
          "armor" : "8",
          "name" : "mobQQ03",
          "examine" : "The black Rook stares absently into space, he doesn't seem\nto notice you.\n",
@@ -2152,7 +2152,7 @@
       "mobqq04_1@chess" : {
          "visibility" : "0",
          "damage" : "9",
-         "location" : "chessQQ71",
+         "location" : "chessqq71@chess",
          "armor" : "8",
          "name" : "mobQQ04_1",
          "examine" : "The white Rook stares absently into space, he doesn't seem\nto notice you.\n",
@@ -2171,7 +2171,7 @@
       "mobqq07_1@chess" : {
          "visibility" : "0",
          "damage" : "10",
-         "location" : "chessQQ48",
+         "location" : "chessqq48@chess",
          "armor" : "12",
          "name" : "mobQQ07_1",
          "examine" : "The bishop looks at you, then stares at the ceiling and yawns.\n",
@@ -2190,7 +2190,7 @@
       "mobqq06@chess" : {
          "visibility" : "0",
          "damage" : "10",
-         "location" : "chessQQ23",
+         "location" : "chessqq23@chess",
          "armor" : "12",
          "name" : "mobQQ06",
          "examine" : "The white Knight would probably look alot more noble if\nhe was astride a horse.\n",
@@ -2209,7 +2209,7 @@
       "mobqq16@chess" : {
          "visibility" : "0",
          "damage" : "8",
-         "location" : "chessQQ87",
+         "location" : "chessqq87@chess",
          "armor" : "10",
          "name" : "mobQQ16",
          "examine" : "The playing card grins at you evilly.\nHe is of the suit clubs.\n",
@@ -2229,7 +2229,7 @@
       "mobqq12@chess" : {
          "visibility" : "0",
          "damage" : "12",
-         "location" : "chessQQ40",
+         "location" : "chessqq40@chess",
          "armor" : "14",
          "name" : "mobQQ12",
          "examine" : "The white King looks rather haggard.  He tells you,\n'Take my wife...pleeeaase.'  You decide that the king\nis not much of a comedian.\n",
@@ -2246,7 +2246,7 @@
       "mobqq00@chess" : {
          "visibility" : "0",
          "damage" : "6",
-         "location" : "chessQQ01",
+         "location" : "chessqq01@chess",
          "armor" : "4",
          "name" : "mobQQ00",
          "examine" : "The troll is small, dark, and smelly.  You would be willing\nto bet that he has never seen the light of day.\n",
@@ -2265,7 +2265,7 @@
       "mobqq01_1@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ17",
+         "location" : "chessqq17@chess",
          "armor" : "4",
          "name" : "mobQQ01_1",
          "examine" : "The pawn seems to be made of carved wood, and animated by \nsome magical means.\n",
@@ -2284,7 +2284,7 @@
       "mobqq11@chess" : {
          "visibility" : "0",
          "damage" : "12",
-         "location" : "chessQQ47",
+         "location" : "chessqq47@chess",
          "armor" : "14",
          "name" : "mobQQ11",
          "examine" : "The black King looks rather haggard.  He tells you, \n'Take my wife...pleeeaase.'  You decide that the king\nis not much of a comedian.\n",
@@ -2301,7 +2301,7 @@
       "mobqq14@chess" : {
          "visibility" : "0",
          "damage" : "8",
-         "location" : "chessQQ86",
+         "location" : "chessqq86@chess",
          "armor" : "10",
          "name" : "mobQQ14",
          "examine" : "The playing card grins at you evilly.\nHe is of the suit diamonds.\n",
@@ -2321,7 +2321,7 @@
       "mobqq10@chess" : {
          "visibility" : "0",
          "damage" : "13",
-         "location" : "chessQQ39",
+         "location" : "chessqq39@chess",
          "armor" : "16",
          "name" : "mobQQ10",
          "examine" : "The white Queen stares into you eyes and screams, 'Mop\nthe floor, you nitwit!'\n",
@@ -2340,7 +2340,7 @@
       "mobqq17@chess" : {
          "visibility" : "0",
          "damage" : "8",
-         "location" : "chessQQ87",
+         "location" : "chessqq87@chess",
          "armor" : "10",
          "name" : "mobQQ17",
          "examine" : "The playing card grins at you evilly.\nHe is of the suit spades.\n",
@@ -2360,7 +2360,7 @@
       "mobqq02_5@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ54",
+         "location" : "chessqq54@chess",
          "armor" : "4",
          "name" : "mobQQ02_5",
          "examine" : "The pawn seems to be made of carved wood, and animated by \nsome magical means.\n",
@@ -2379,7 +2379,7 @@
       "mobqq04@chess" : {
          "visibility" : "0",
          "damage" : "9",
-         "location" : "chessQQ08",
+         "location" : "chessqq08@chess",
          "armor" : "8",
          "name" : "mobQQ04",
          "examine" : "The white Rook stares absently into space, he doesn't seem\nto notice you.\n",
@@ -2398,7 +2398,7 @@
       "mobqq01_5@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ49",
+         "location" : "chessqq49@chess",
          "armor" : "4",
          "name" : "mobQQ01_5",
          "examine" : "The pawn seems to be made of carved wood, and animated by \nsome magical means.\n",
@@ -2417,7 +2417,7 @@
       "mobqq05@chess" : {
          "visibility" : "0",
          "damage" : "10",
-         "location" : "chessQQ16",
+         "location" : "chessqq16@chess",
          "armor" : "12",
          "name" : "mobQQ05",
          "examine" : "The black Knight would probably look alot more noble if\nhe was astride a horse.\n",
@@ -2436,7 +2436,7 @@
       "mobqq01_2@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ30",
+         "location" : "chessqq30@chess",
          "armor" : "4",
          "name" : "mobQQ01_2",
          "examine" : "The pawn seems to be made of carved wood, and animated by \nsome magical means.\n",
@@ -2455,7 +2455,7 @@
       "mobqq02@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ09",
+         "location" : "chessqq09@chess",
          "armor" : "4",
          "name" : "mobQQ02",
          "examine" : "The pawn seems to be made of carved wood, and animated by \nsome magical means.\n",
@@ -2474,7 +2474,7 @@
       "mobqq02_2@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ25",
+         "location" : "chessqq25@chess",
          "armor" : "4",
          "name" : "mobQQ02_2",
          "examine" : "The pawn seems to be made of carved wood, and animated by \nsome magical means.\n",
@@ -2493,7 +2493,7 @@
       "mobqq01@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ14",
+         "location" : "chessqq14@chess",
          "armor" : "4",
          "name" : "mobQQ01",
          "examine" : "The pawn seems to be made of carved wood, and animated by \nsome magical means.\n",
@@ -2512,7 +2512,7 @@
       "mobqq02_4@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ41",
+         "location" : "chessqq41@chess",
          "armor" : "4",
          "name" : "mobQQ02_4",
          "examine" : "The pawn seems to be made of carved wood, and animated by \nsome magical means.\n",
@@ -2531,7 +2531,7 @@
       "mobqq09@chess" : {
          "visibility" : "0",
          "damage" : "13",
-         "location" : "chessQQ32",
+         "location" : "chessqq32@chess",
          "armor" : "16",
          "name" : "mobQQ09",
          "examine" : "The black Queen stares into you eyes and screams, 'Mop\nthe floor, you nitwit!'\n",
@@ -2550,7 +2550,7 @@
       "mobqq15@chess" : {
          "visibility" : "0",
          "damage" : "8",
-         "location" : "chessQQ86",
+         "location" : "chessqq86@chess",
          "armor" : "10",
          "name" : "mobQQ15",
          "examine" : "The playing card grins at you evilly.\nHe is of the suit hearts.\n",
@@ -2570,7 +2570,7 @@
       "mobqq05_1@chess" : {
          "visibility" : "0",
          "damage" : "10",
-         "location" : "chessQQ63",
+         "location" : "chessqq63@chess",
          "armor" : "12",
          "name" : "mobQQ05_1",
          "examine" : "The black Knight would probably look alot more noble if\nhe was astride a horse.\n",
@@ -2589,7 +2589,7 @@
       "mobqq01_6@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ62",
+         "location" : "chessqq62@chess",
          "armor" : "4",
          "name" : "mobQQ01_6",
          "examine" : "The pawn seems to be made of carved wood, and animated by \nsome magical means.\n",
@@ -2608,7 +2608,7 @@
       "mobqq01_7@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ65",
+         "location" : "chessqq65@chess",
          "armor" : "4",
          "name" : "mobQQ01_7",
          "examine" : "The pawn seems to be made of carved wood, and animated by \nsome magical means.\n",
@@ -2627,7 +2627,7 @@
       "mobqq01_4@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ46",
+         "location" : "chessqq46@chess",
          "armor" : "4",
          "name" : "mobQQ01_4",
          "examine" : "The pawn seems to be made of carved wood, and animated by \nsome magical means.\n",
@@ -2646,7 +2646,7 @@
       "mobqq07@chess" : {
          "visibility" : "0",
          "damage" : "10",
-         "location" : "chessQQ31",
+         "location" : "chessqq31@chess",
          "armor" : "12",
          "name" : "mobQQ07",
          "examine" : "The bishop looks at you, then stares at the ceiling and yawns.\n",
@@ -2665,7 +2665,7 @@
       "mobqq01_3@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ33",
+         "location" : "chessqq33@chess",
          "armor" : "4",
          "name" : "mobQQ01_3",
          "examine" : "The pawn seems to be made of carved wood, and animated by \nsome magical means.\n",
@@ -2684,7 +2684,7 @@
       "mobqq06_1@chess" : {
          "visibility" : "0",
          "damage" : "10",
-         "location" : "chessQQ56",
+         "location" : "chessqq56@chess",
          "armor" : "12",
          "name" : "mobQQ06_1",
          "examine" : "The white Knight would probably look alot more noble if\nhe was astride a horse.\n",
@@ -2703,7 +2703,7 @@
       "mobqq13@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ82",
+         "location" : "chessqq82@chess",
          "armor" : "6",
          "name" : "mobQQ13",
          "examine" : "The fish winks at you?!\n",
@@ -2720,7 +2720,7 @@
       "mobqq08_1@chess" : {
          "visibility" : "0",
          "damage" : "10",
-         "location" : "chessQQ55",
+         "location" : "chessqq55@chess",
          "armor" : "12",
          "name" : "mobQQ08_1",
          "examine" : "The bishop looks at you, then stares at the ceiling and yawns.\n",
@@ -2739,7 +2739,7 @@
       "mobqq02_6@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ57",
+         "location" : "chessqq57@chess",
          "armor" : "4",
          "name" : "mobQQ02_6",
          "examine" : "The pawn seems to be made of carved wood, and animated by \nsome magical means.\n",
@@ -2758,7 +2758,7 @@
       "mobqq02_7@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ70",
+         "location" : "chessqq70@chess",
          "armor" : "4",
          "name" : "mobQQ02_7",
          "examine" : "The pawn seems to be made of carved wood, and animated by \nsome magical means.\n",
@@ -2777,7 +2777,7 @@
       "mobqq13_1@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ83",
+         "location" : "chessqq83@chess",
          "armor" : "6",
          "name" : "mobQQ13_1",
          "examine" : "The fish winks at you?!\n",
@@ -2794,7 +2794,7 @@
       "mobqq08@chess" : {
          "visibility" : "0",
          "damage" : "10",
-         "location" : "chessQQ24",
+         "location" : "chessqq24@chess",
          "armor" : "12",
          "name" : "mobQQ08",
          "examine" : "The bishop looks at you, then stares at the ceiling and yawns.\n",
@@ -2813,7 +2813,7 @@
       "mobqq02_1@chess" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "chessQQ22",
+         "location" : "chessqq22@chess",
          "armor" : "4",
          "name" : "mobQQ02_1",
          "examine" : "The pawn seems to be made of carved wood, and animated by \nsome magical means.\n",
@@ -2831,7 +2831,7 @@
       },
       "checker@chess" : {
          "damage" : "5",
-         "location" : "chessQQ44",
+         "location" : "chessqq44@chess",
          "name" : "checker",
          "examine" : "It seems someone wanted to play checkers instead, and this piece got lost.",
          "description" : "A red checker piece is here...on a chessboard?!?",
@@ -2845,7 +2845,7 @@
       "mobqq18@chess" : {
          "visibility" : "0",
          "damage" : "15",
-         "location" : "chessQQ88",
+         "location" : "chessqq88@chess",
          "armor" : "16",
          "name" : "mobQQ18",
          "examine" : "The Joker cackles happily and ruffles your hair.\n'So nice to see you dearie, would you like some tea?'\nThe Joker is NUTS!\n",

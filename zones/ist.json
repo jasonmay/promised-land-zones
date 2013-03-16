@@ -1,7 +1,7 @@
 {
    "obj" : {
       "strap@ist" : {
-         "location" : "IN_ROOM:bargandpand2",
+         "location" : "IN_ROOM:bargandpand2@ist",
          "armor" : "5",
          "oflags" : [
             "armor",
@@ -19,7 +19,7 @@
          ]
       },
       "cucumber@ist" : {
-         "location" : "IN_ROOM:bargandpand1",
+         "location" : "IN_ROOM:bargandpand1@ist",
          "oflags" : [
             "wearable",
             "food"
@@ -37,7 +37,7 @@
       },
       "bass@ist" : {
          "damage" : "15",
-         "location" : "WIELDED_BY:claypool",
+         "location" : "WIELDED_BY:claypool@ist",
          "oflags" : [
             "Weapon"
          ],
@@ -50,7 +50,7 @@
       },
       "stratocaster@ist" : {
          "damage" : "20",
-         "location" : "IN_ROOM:bargandpand2",
+         "location" : "IN_ROOM:bargandpand2@ist",
          "oflags" : [
             "Weapon",
             "Lit"
@@ -67,7 +67,7 @@
    "loc" : {
       "bargandpand1@ist" : {
          "exits" : {
-            "e" : "bargandpand2"
+            "e" : "bargandpand2@ist"
          },
          "flags" : [
             "party",
@@ -81,7 +81,7 @@
       },
       "bargandpand2@ist" : {
          "exits" : {
-            "w" : "bargandpand1"
+            "w" : "bargandpand1@ist"
          },
          "flags" : [
             "party"
@@ -96,7 +96,7 @@
    "mob" : {
       "claypool@ist" : {
          "damage" : "15",
-         "location" : "bargandpand2",
+         "location" : "bargandpand2@ist",
          "armor" : "10",
          "name" : "claypool",
          "description" : "\nLes Claypool, bassist for Primus, is practicing his speed riffs here.",

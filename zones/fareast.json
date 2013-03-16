@@ -3,7 +3,7 @@
       "razor@fareast" : {
          "desc[1]" : "\nA razor, probably used to shave the heads of initates, lies open on the table.",
          "damage" : "3",
-         "location" : "IN_ROOM:temple3",
+         "location" : "IN_ROOM:temple3@fareast",
          "oflags" : [
             "Weapon",
             "GetFlips"
@@ -20,7 +20,7 @@
       },
       "kaginawa@fareast" : {
          "damage" : "5",
-         "location" : "IN_ROOM:dojou2",
+         "location" : "IN_ROOM:dojou2@fareast",
          "oflags" : [
             "Key",
             "Weapon"
@@ -37,7 +37,7 @@
          "desc[0]" : "A grappling hook, or kagi-nawa, lies atop a coil of rope here."
       },
       "filet@fareast" : {
-         "location" : "IN_ROOM:fishhouse",
+         "location" : "IN_ROOM:fishhouse@fareast",
          "oflags" : [
             "Food"
          ],
@@ -53,7 +53,7 @@
          "desc[0]" : "A filetted fish is here, wrapped in rice paper."
       },
       "sorca@fareast" : {
-         "location" : "IN_ROOM:temple3",
+         "location" : "IN_ROOM:temple3@fareast",
          "oflags" : [
             "NoGet"
          ],
@@ -68,7 +68,7 @@
          "desc[0]" : "A volume on the language of Sorca rests on the table."
       },
       "splittoed@fareast" : {
-         "location" : "IN_ROOM:curseisland2",
+         "location" : "IN_ROOM:curseisland2@fareast",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -89,7 +89,7 @@
          "desc[0]" : "A pair of black leather split-toed boots rest near you."
       },
       "piece@fareast" : {
-         "location" : "IN_CONTAINER:goboard",
+         "location" : "IN_CONTAINER:goboard@fareast",
          "oflags" : [
             "Glowing",
             "Key"
@@ -106,7 +106,7 @@
          "desc[0]" : "One of the tokens from a game of Go lies here."
       },
       "soup@fareast" : {
-         "location" : "IN_ROOM:temple2",
+         "location" : "IN_ROOM:temple2@fareast",
          "oflags" : [
             "Food"
          ],
@@ -122,7 +122,7 @@
       },
       "buddha@fareast" : {
          "desc[1]" : "A large gold statue stands beside the altar.",
-         "location" : "IN_ROOM:templeu1",
+         "location" : "IN_ROOM:templeu1@fareast",
          "oflags" : [
             "GetFlips"
          ],
@@ -139,7 +139,7 @@
       },
       "horagai@fareast" : {
          "desc[1]" : "\nA horagai, a conch horn used to call samurai to battle, hangs from a peg.",
-         "location" : "IN_ROOM:fort2",
+         "location" : "IN_ROOM:fort2@fareast",
          "oflags" : [
             "GetFlips"
          ],
@@ -156,7 +156,7 @@
       },
       "ricebowl@fareast" : {
          "desc[1]" : "On a low table is a bowl filled with rice.",
-         "location" : "IN_ROOM:hermithut",
+         "location" : "IN_ROOM:hermithut@fareast",
          "oflags" : [
             "Container",
             "GetFlips"
@@ -174,7 +174,7 @@
       },
       "sotoba@fareast" : {
          "desc[1]" : "\nA grave marker, or sotoba, stands in the clearing.  \nA samurai's ashes were buried here.",
-         "location" : "IN_ROOM:cherapple",
+         "location" : "IN_ROOM:cherapple@fareast",
          "oflags" : [
             "Pushable",
             "NoGet"
@@ -189,7 +189,7 @@
       },
       "greentea@fareast" : {
          "desc[1]" : "\nA cup of steaming green tea has been placed carefully by the ricebowl.",
-         "location" : "IN_ROOM:hermithut",
+         "location" : "IN_ROOM:hermithut@fareast",
          "oflags" : [
             "Food"
          ],
@@ -206,7 +206,7 @@
       },
       "tanto@fareast" : {
          "damage" : "5",
-         "location" : "IN_ROOM:cliffs1",
+         "location" : "IN_ROOM:cliffs1@fareast",
          "oflags" : [
             "Weapon"
          ],
@@ -223,7 +223,7 @@
       },
       "cherries@fareast" : {
          "desc[1]" : "\nSeveral bunches of cherries hang from the branches above, ripe out of season.",
-         "location" : "IN_ROOM:cherorch6",
+         "location" : "IN_ROOM:cherorch6@fareast",
          "oflags" : [
             "Food"
          ],
@@ -240,7 +240,7 @@
       },
       "ricesack@fareast" : {
          "desc[1]" : "One of the peasants has dropped his sack.",
-         "location" : "IN_ROOM:ricepaddy",
+         "location" : "IN_ROOM:ricepaddy@fareast",
          "oflags" : [
             "Container",
             "GetFlips"
@@ -258,7 +258,7 @@
       },
       "cesti@fareast" : {
          "damage" : "17",
-         "location" : "IN_ROOM:dojo4",
+         "location" : "IN_ROOM:dojo4@fareast",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -282,7 +282,7 @@
       },
       "wakizashi@fareast" : {
          "damage" : "15",
-         "location" : "CARRIED_BY:ronin",
+         "location" : "CARRIED_BY:ronin@fareast",
          "oflags" : [
             "Weapon"
          ],
@@ -300,7 +300,7 @@
       },
       "katana@fareast" : {
          "damage" : "20",
-         "location" : "CARRIED_BY:Ninja",
+         "location" : "CARRIED_BY:ninja@fareast",
          "oflags" : [
             "Weapon"
          ],
@@ -317,7 +317,7 @@
          "desc[0]" : "\nA shinobi-katana, the traditional ninja weapon, has been left here."
       },
       "jingasa@fareast" : {
-         "location" : "IN_ROOM:cliffs3",
+         "location" : "IN_ROOM:cliffs3@fareast",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -338,7 +338,7 @@
          "desc[0]" : "\nA metal hat, shaped like a cymbal or conical bowl, is propped against a tree."
       },
       "kobuto@fareast" : {
-         "location" : "IN_ROOM:pitpass",
+         "location" : "IN_ROOM:pitpass@fareast",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -360,7 +360,7 @@
          "desc[0]" : "A Samurai helmet lies, upended, on the ground."
       },
       "rune@fareast" : {
-         "location" : "IN_ROOM:village2",
+         "location" : "IN_ROOM:village2@fareast",
          "oflags" : [
             "NoGet"
          ],
@@ -377,7 +377,7 @@
       },
       "nunchaku@fareast" : {
          "damage" : "7",
-         "location" : "IN_ROOM:curseburnt",
+         "location" : "IN_ROOM:curseburnt@fareast",
          "oflags" : [
             "Weapon"
          ],
@@ -392,7 +392,7 @@
          "desc[0]" : "A pair of nunchaku are wrapped around an overhanging branch."
       },
       "geta@fareast" : {
-         "location" : "IN_ROOM:dojo1",
+         "location" : "IN_ROOM:dojo1@fareast",
          "armor" : "30",
          "oflags" : [
             "Wearable"
@@ -412,7 +412,7 @@
          "desc[0]" : "A pair of solid wooden sandals have been carefully set down here."
       },
       "habit@fareast" : {
-         "location" : "WORN_BY:shaolin",
+         "location" : "WORN_BY:shaolin@fareast",
          "oflags" : [
             "Wearable",
             "Container"
@@ -436,7 +436,7 @@
       },
       "taper@fareast" : {
          "desc[1]" : "\nA lit candle burns on the altar, casting shimmering light on your face.",
-         "location" : "IN_ROOM:templeu2",
+         "location" : "IN_ROOM:templeu2@fareast",
          "oflags" : [
             "Lit",
             "Lightable",
@@ -456,7 +456,7 @@
       },
       "kusarii_katabira@fareast" : {
          "desc[1]" : "A straw dummy in this room holds a short vest of chain mail.",
-         "location" : "IN_ROOM:dojo4",
+         "location" : "IN_ROOM:dojo4@fareast",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -479,7 +479,7 @@
          "desc[0]" : "\nA half-vest of chain mail, called kusarii-katabira, has been discarded here."
       },
       "stonetable@fareast" : {
-         "location" : "IN_ROOM:temple3",
+         "location" : "IN_ROOM:temple3@fareast",
          "oflags" : [
             "NoGet"
          ],
@@ -493,7 +493,7 @@
          "desc[0]" : "\nA low stone table stands here."
       },
       "sandals@fareast" : {
-         "location" : "WORN_BY:peasant",
+         "location" : "WORN_BY:peasant@fareast",
          "armor" : "10",
          "oflags" : [
             "Wearable"
@@ -514,7 +514,7 @@
       "dragons_tooth@fareast" : {
          "desc[1]" : "A broken tooth from the dragon lies near his body.",
          "damage" : "30",
-         "location" : "IN_ROOM:cherblos",
+         "location" : "IN_ROOM:cherblos@fareast",
          "oflags" : [
             "Weapon",
             "GetFlips"
@@ -534,7 +534,7 @@
       "yinyang@fareast" : {
          "desc[1]" : "\nThe Orb of Yin and Yang stands before you, swirling black and white.",
          "damage" : "40",
-         "location" : "IN_ROOM:goalroom",
+         "location" : "IN_ROOM:goalroom@fareast",
          "oflags" : [
             "Weapon",
             "Lit",
@@ -554,7 +554,7 @@
       },
       "haramaki@fareast" : {
          "desc[1]" : "A metal stand holds a samurai breastplate, the haramaki.",
-         "location" : "IN_ROOM:gardhaus",
+         "location" : "IN_ROOM:gardhaus@fareast",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -576,7 +576,7 @@
          "desc[0]" : "A samurai's breastplate and body armor, the haramaki, lie here."
       },
       "goboard@fareast" : {
-         "location" : "IN_ROOM:fort1",
+         "location" : "IN_ROOM:fort1@fareast",
          "oflags" : [
             "NoGet",
             "Container"
@@ -592,7 +592,7 @@
          "desc[0]" : "A Go board, the pieces scattered about it, sits upon the floor."
       },
       "rice@fareast" : {
-         "location" : "IN_CONTAINER:ricebowl",
+         "location" : "IN_CONTAINER:ricebowl@fareast",
          "oflags" : [
             "Food"
          ],
@@ -608,7 +608,7 @@
       },
       "bo@fareast" : {
          "damage" : "8",
-         "location" : "CARRIED_BY:shaolin",
+         "location" : "CARRIED_BY:shaolin@fareast",
          "oflags" : [
             "Weapon"
          ],
@@ -626,7 +626,7 @@
       },
       "facemask@fareast" : {
          "damage" : "0",
-         "location" : "WORN_BY:Samurai",
+         "location" : "WORN_BY:samurai@fareast",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -651,8 +651,8 @@
    "loc" : {
       "cliffs6@fareast" : {
          "exits" : {
-            "e" : "ropebridge",
-            "s" : "cliffs4"
+            "e" : "ropebridge@fareast",
+            "s" : "cliffs4@fareast"
          },
          "flags" : [
             "Outdoors",
@@ -666,10 +666,10 @@
       },
       "cherorchcent@fareast" : {
          "exits" : {
-            "w" : "cherorch8",
-            "e" : "cherorch2",
-            "n" : "cherorchcent",
-            "s" : "cherorch4"
+            "w" : "cherorch8@fareast",
+            "e" : "cherorch2@fareast",
+            "n" : "cherorchcent@fareast",
+            "s" : "cherorch4@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -682,7 +682,7 @@
       },
       "fort1@fareast" : {
          "exits" : {
-            "s" : "forthall"
+            "s" : "forthall@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -693,8 +693,8 @@
       },
       "countryb_6@fareast" : {
          "exits" : {
-            "e" : "countryb_2",
-            "n" : "countryb_4"
+            "e" : "countryb_2@fareast",
+            "n" : "countryb_4@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -705,9 +705,9 @@
       },
       "curseshore3@fareast" : {
          "exits" : {
-            "w" : "curseacid2",
-            "e" : "curseacid1",
-            "s" : "curseisland1"
+            "w" : "curseacid2@fareast",
+            "e" : "curseacid1@fareast",
+            "s" : "curseisland1@fareast"
          },
          "flags" : [
             "NoMobiles"
@@ -720,7 +720,7 @@
       },
       "fortu3@fareast" : {
          "exits" : {
-            "w" : "fortuhall"
+            "w" : "fortuhall@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -731,8 +731,8 @@
       },
       "countrya_5@fareast" : {
          "exits" : {
-            "n" : "countryacave",
-            "s" : "countrya_3"
+            "n" : "countryacave@fareast",
+            "s" : "countrya_3@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -745,11 +745,11 @@
       },
       "cliffs2@fareast" : {
          "exits" : {
-            "w" : "shore1",
-            "e" : "cliffs5",
-            "u" : "cliffs5",
-            "n" : "cliffs1",
-            "d" : "shore1"
+            "w" : "shore1@fareast",
+            "e" : "cliffs5@fareast",
+            "u" : "cliffs5@fareast",
+            "n" : "cliffs1@fareast",
+            "d" : "shore1@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -762,10 +762,10 @@
       },
       "shore2@fareast" : {
          "exits" : {
-            "w" : "shoreline",
-            "e" : "cliffs3",
-            "n" : "outlet",
-            "s" : "beachcave"
+            "w" : "shoreline@fareast",
+            "e" : "cliffs3@fareast",
+            "n" : "outlet@fareast",
+            "s" : "beachcave@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -778,10 +778,10 @@
       },
       "countrya_2@fareast" : {
          "exits" : {
-            "e" : "pitpass",
-            "n" : "countrya_3",
-            "d" : "pitpass",
-            "s" : "countryacurse"
+            "e" : "pitpass@fareast",
+            "n" : "countrya_3@fareast",
+            "d" : "pitpass@fareast",
+            "s" : "countryacurse@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -794,10 +794,10 @@
       },
       "cherorch2@fareast" : {
          "exits" : {
-            "w" : "cherorch6",
-            "e" : "cherorch8",
-            "n" : "cherblos",
-            "s" : "cherorch3"
+            "w" : "cherorch6@fareast",
+            "e" : "cherorch8@fareast",
+            "n" : "cherblos@fareast",
+            "s" : "cherorch3@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -810,10 +810,10 @@
       },
       "cherent1@fareast" : {
          "exits" : {
-            "w" : "countryacher",
-            "e" : "cherorch5",
-            "n" : "cherapple",
-            "s" : "cherorch8"
+            "w" : "countryacher@fareast",
+            "e" : "cherorch5@fareast",
+            "n" : "cherapple@fareast",
+            "s" : "cherorch8@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -826,10 +826,10 @@
       },
       "cliffs1@fareast" : {
          "exits" : {
-            "e" : "cliffs2",
-            "u" : "cliffs2",
-            "d" : "shore1",
-            "s" : "shore1"
+            "e" : "cliffs2@fareast",
+            "u" : "cliffs2@fareast",
+            "d" : "shore1@fareast",
+            "s" : "shore1@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -842,9 +842,9 @@
       },
       "curseacid2@fareast" : {
          "exits" : {
-            "e" : "curseacid1",
-            "n" : "curseshore2",
-            "s" : "curseshore3"
+            "e" : "curseacid1@fareast",
+            "n" : "curseshore2@fareast",
+            "s" : "curseshore3@fareast"
          },
          "flags" : [
             "NegRegen"
@@ -857,8 +857,8 @@
       },
       "countryb_1@fareast" : {
          "exits" : {
-            "w" : "countrybcurse",
-            "e" : "countryb_3"
+            "w" : "countrybcurse@fareast",
+            "e" : "countryb_3@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -869,10 +869,10 @@
       },
       "cherorch4@fareast" : {
          "exits" : {
-            "w" : "cherorch1",
-            "e" : "cherorch6",
-            "n" : "cherorch7",
-            "s" : "cherorch3"
+            "w" : "cherorch1@fareast",
+            "e" : "cherorch6@fareast",
+            "n" : "cherorch7@fareast",
+            "s" : "cherorch3@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -885,9 +885,9 @@
       },
       "countryb_2@fareast" : {
          "exits" : {
-            "w" : "countryb_6",
-            "n" : "countryb_3",
-            "s" : "countrybend"
+            "w" : "countryb_6@fareast",
+            "n" : "countryb_3@fareast",
+            "s" : "countrybend@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -898,9 +898,9 @@
       },
       "cliffs7@fareast" : {
          "exits" : {
-            "w" : "ropebridge",
-            "e" : "templepass",
-            "u" : "templepass"
+            "w" : "ropebridge@fareast",
+            "e" : "templepass@fareast",
+            "u" : "templepass@fareast"
          },
          "flags" : [
             "Outdoors",
@@ -914,8 +914,8 @@
       },
       "dojoent@fareast" : {
          "exits" : {
-            "w" : "dojo1",
-            "e" : "curseisland1"
+            "w" : "dojo1@fareast",
+            "e" : "curseisland1@fareast"
          },
          "flags" : [
             "Dark",
@@ -929,8 +929,8 @@
       },
       "curseburnt@fareast" : {
          "exits" : {
-            "e" : "curse6",
-            "n" : "cursefire"
+            "e" : "curse6@fareast",
+            "n" : "cursefire@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -941,8 +941,8 @@
       },
       "countrybcher@fareast" : {
          "exits" : {
-            "n" : "cherent2",
-            "s" : "countryb_5"
+            "n" : "cherent2@fareast",
+            "s" : "countryb_5@fareast"
          },
          "flags" : [
             "NoMobiles"
@@ -955,10 +955,10 @@
       },
       "countryb_5@fareast" : {
          "exits" : {
-            "w" : "pitpass",
-            "n" : "countrybcher",
-            "d" : "pitpass",
-            "s" : "countryb_3"
+            "w" : "pitpass@fareast",
+            "n" : "countrybcher@fareast",
+            "d" : "pitpass@fareast",
+            "s" : "countryb_3@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -969,8 +969,8 @@
       },
       "village3@fareast" : {
          "exits" : {
-            "w" : "village2",
-            "e" : "countrya_1"
+            "w" : "village2@fareast",
+            "e" : "countrya_1@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -981,9 +981,9 @@
       },
       "throneroom@fareast" : {
          "exits" : {
-            "n" : "fortuhall",
-            "d" : "fortuhall",
-            "s" : "goalroom"
+            "n" : "fortuhall@fareast",
+            "d" : "fortuhall@fareast",
+            "s" : "goalroom@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -994,7 +994,7 @@
       },
       "cherapple@fareast" : {
          "exits" : {
-            "s" : "cherent1"
+            "s" : "cherent1@fareast"
          },
          "flags" : [
             "NoMobiles"
@@ -1007,8 +1007,8 @@
       },
       "curse1@fareast" : {
          "exits" : {
-            "w" : "curse2",
-            "s" : "curse5"
+            "w" : "curse2@fareast",
+            "s" : "curse5@fareast"
          },
          "flags" : [
             "Dark",
@@ -1022,10 +1022,10 @@
       },
       "cherorch3@fareast" : {
          "exits" : {
-            "w" : "cherorchcent",
-            "e" : "cherorch1",
-            "n" : "cherorch4",
-            "s" : "cherorch5"
+            "w" : "cherorchcent@fareast",
+            "e" : "cherorch1@fareast",
+            "n" : "cherorch4@fareast",
+            "s" : "cherorch5@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1038,8 +1038,8 @@
       },
       "beachcave@fareast" : {
          "exits" : {
-            "e" : "cursecave",
-            "n" : "shore2"
+            "e" : "cursecave@fareast",
+            "n" : "shore2@fareast"
          },
          "flags" : [
             "Dark"
@@ -1052,9 +1052,9 @@
       },
       "cliffs3@fareast" : {
          "exits" : {
-            "w" : "shore2",
-            "n" : "village1",
-            "s" : "shore2"
+            "w" : "shore2@fareast",
+            "n" : "village1@fareast",
+            "s" : "shore2@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1067,7 +1067,7 @@
       },
       "fort3@fareast" : {
          "exits" : {
-            "w" : "forthall"
+            "w" : "forthall@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1079,7 +1079,7 @@
       "fareast_bay@fareast" : {
          "exits" : {
             "w" : "surface8@loligo",
-            "e" : "shoreline"
+            "e" : "shoreline@fareast"
          },
          "flags" : [
             "Outdoors",
@@ -1094,7 +1094,7 @@
       },
       "deadroad@fareast" : {
          "exits" : {
-            "n" : "countrybend"
+            "n" : "countrybend@fareast"
          },
          "flags" : [
             "Death",
@@ -1108,8 +1108,8 @@
       },
       "countrybend@fareast" : {
          "exits" : {
-            "n" : "countryb_2",
-            "s" : "deadroad"
+            "n" : "countryb_2@fareast",
+            "s" : "deadroad@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1120,10 +1120,10 @@
       },
       "ricepaddy@fareast" : {
          "exits" : {
-            "w" : "gapvalley",
-            "e" : "village1",
-            "n" : "cliffs4",
-            "s" : "village1"
+            "w" : "gapvalley@fareast",
+            "e" : "village1@fareast",
+            "n" : "cliffs4@fareast",
+            "s" : "village1@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1136,7 +1136,7 @@
       },
       "goalroom@fareast" : {
          "exits" : {
-            "n" : "throneroom"
+            "n" : "throneroom@fareast"
          },
          "flags" : [
             "NoMobiles"
@@ -1149,8 +1149,8 @@
       },
       "countrybcurse@fareast" : {
          "exits" : {
-            "w" : "cursent2",
-            "e" : "countryb_1"
+            "w" : "cursent2@fareast",
+            "e" : "countryb_1@fareast"
          },
          "flags" : [
             "NoMobiles"
@@ -1163,9 +1163,9 @@
       },
       "curse2@fareast" : {
          "exits" : {
-            "w" : "curse3",
-            "e" : "curse1",
-            "s" : "cursefire"
+            "w" : "curse3@fareast",
+            "e" : "curse1@fareast",
+            "s" : "cursefire@fareast"
          },
          "flags" : [
             "Dark",
@@ -1179,8 +1179,8 @@
       },
       "gardhaus@fareast" : {
          "exits" : {
-            "e" : "courtyard",
-            "u" : "gardhaus2"
+            "e" : "courtyard@fareast",
+            "u" : "gardhaus2@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1191,10 +1191,10 @@
       },
       "shoreline@fareast" : {
          "exits" : {
-            "w" : "fareast_bay",
-            "e" : "outlet",
-            "n" : "shore1",
-            "s" : "shore2"
+            "w" : "fareast_bay@fareast",
+            "e" : "outlet@fareast",
+            "n" : "shore1@fareast",
+            "s" : "shore2@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1207,8 +1207,8 @@
       },
       "cherblos@fareast" : {
          "exits" : {
-            "n" : "enoroad",
-            "s" : "cherorch2"
+            "n" : "enoroad@fareast",
+            "s" : "cherorch2@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1221,8 +1221,8 @@
       },
       "cursent2@fareast" : {
          "exits" : {
-            "w" : "curse5",
-            "e" : "countrybcurse"
+            "w" : "curse5@fareast",
+            "e" : "countrybcurse@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1233,8 +1233,8 @@
       },
       "cursecave@fareast" : {
          "exits" : {
-            "w" : "shore2",
-            "e" : "curse4"
+            "w" : "shore2@fareast",
+            "e" : "curse4@fareast"
          },
          "flags" : [
             "Dark",
@@ -1248,8 +1248,8 @@
       },
       "enoroad@fareast" : {
          "exits" : {
-            "n" : "enogate",
-            "s" : "cherblos"
+            "n" : "enogate@fareast",
+            "s" : "cherblos@fareast"
          },
          "flags" : [
             "Outdoors",
@@ -1263,7 +1263,7 @@
       },
       "vilruin@fareast" : {
          "exits" : {
-            "w" : "courtyard"
+            "w" : "courtyard@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1274,7 +1274,7 @@
       },
       "fishhouse@fareast" : {
          "exits" : {
-            "n" : "village1"
+            "n" : "village1@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1285,7 +1285,7 @@
       },
       "dojo2@fareast" : {
          "exits" : {
-            "s" : "dojo1"
+            "s" : "dojo1@fareast"
          },
          "flags" : [
             "Dark"
@@ -1298,8 +1298,8 @@
       },
       "tempruin@fareast" : {
          "exits" : {
-            "w" : "enogate",
-            "s" : "enoroad"
+            "w" : "enogate@fareast",
+            "s" : "enoroad@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1310,11 +1310,11 @@
       },
       "fortuhall@fareast" : {
          "exits" : {
-            "w" : "fortu2",
-            "e" : "fortu3",
-            "u" : "throneroom",
-            "n" : "fortu1",
-            "s" : "throneroom"
+            "w" : "fortu2@fareast",
+            "e" : "fortu3@fareast",
+            "u" : "throneroom@fareast",
+            "n" : "fortu1@fareast",
+            "s" : "throneroom@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1325,8 +1325,8 @@
       },
       "dojou1@fareast" : {
          "exits" : {
-            "n" : "dojou2",
-            "d" : "dojo1"
+            "n" : "dojou2@fareast",
+            "d" : "dojo1@fareast"
          },
          "flags" : [
             "Dark"
@@ -1339,8 +1339,8 @@
       },
       "enogate@fareast" : {
          "exits" : {
-            "e" : "tempruin",
-            "s" : "enoroad"
+            "e" : "tempruin@fareast",
+            "s" : "enoroad@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1353,8 +1353,8 @@
       },
       "countryacave@fareast" : {
          "exits" : {
-            "n" : "templepass",
-            "s" : "countrya_5"
+            "n" : "templepass@fareast",
+            "s" : "countrya_5@fareast"
          },
          "flags" : [
             "NoMobiles"
@@ -1367,9 +1367,9 @@
       },
       "ropebridge@fareast" : {
          "exits" : {
-            "w" : "cliffs6",
-            "e" : "cliffs7",
-            "d" : "rapids"
+            "w" : "cliffs6@fareast",
+            "e" : "cliffs7@fareast",
+            "d" : "rapids@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1382,8 +1382,8 @@
       },
       "countrya_4@fareast" : {
          "exits" : {
-            "w" : "countrya_3",
-            "e" : "countryacher"
+            "w" : "countrya_3@fareast",
+            "e" : "countryacher@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1396,10 +1396,10 @@
       },
       "cherorch6@fareast" : {
          "exits" : {
-            "w" : "cherorch5",
-            "e" : "cherorch7",
-            "n" : "cherorch1",
-            "s" : "cherorch4"
+            "w" : "cherorch5@fareast",
+            "e" : "cherorch7@fareast",
+            "n" : "cherorch1@fareast",
+            "s" : "cherorch4@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1412,8 +1412,8 @@
       },
       "temple2@fareast" : {
          "exits" : {
-            "u" : "templeu2",
-            "s" : "temple1"
+            "u" : "templeu2@fareast",
+            "s" : "temple1@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1424,7 +1424,7 @@
       },
       "fortu1@fareast" : {
          "exits" : {
-            "s" : "fortuhall"
+            "s" : "fortuhall@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1435,7 +1435,7 @@
       },
       "dojo4@fareast" : {
          "exits" : {
-            "e" : "dojo1"
+            "e" : "dojo1@fareast"
          },
          "flags" : [
             "Dark"
@@ -1448,11 +1448,11 @@
       },
       "temple1@fareast" : {
          "exits" : {
-            "w" : "templand3",
-            "e" : "templeu1",
-            "u" : "templeu1",
-            "n" : "temple2",
-            "s" : "temple3"
+            "w" : "templand3@fareast",
+            "e" : "templeu1@fareast",
+            "u" : "templeu1@fareast",
+            "n" : "temple2@fareast",
+            "s" : "temple3@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1463,9 +1463,9 @@
       },
       "curseisland1@fareast" : {
          "exits" : {
-            "w" : "dojoent",
-            "n" : "curseshore3",
-            "s" : "curseisland2"
+            "w" : "dojoent@fareast",
+            "n" : "curseshore3@fareast",
+            "s" : "curseisland2@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1476,8 +1476,8 @@
       },
       "templeu2@fareast" : {
          "exits" : {
-            "d" : "temple2",
-            "s" : "templeu1"
+            "d" : "temple2@fareast",
+            "s" : "templeu1@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1488,8 +1488,8 @@
       },
       "gapvalley@fareast" : {
          "exits" : {
-            "w" : "outlet",
-            "e" : "ricepaddy"
+            "w" : "outlet@fareast",
+            "e" : "ricepaddy@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1502,8 +1502,8 @@
       },
       "templeu1@fareast" : {
          "exits" : {
-            "n" : "templeu2",
-            "d" : "temple1"
+            "n" : "templeu2@fareast",
+            "d" : "temple1@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1514,7 +1514,7 @@
       },
       "hermithut@fareast" : {
          "exits" : {
-            "s" : "templand1"
+            "s" : "templand1@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1525,8 +1525,8 @@
       },
       "cursent1@fareast" : {
          "exits" : {
-            "n" : "countryacurse",
-            "s" : "curse3"
+            "n" : "countryacurse@fareast",
+            "s" : "curse3@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1537,8 +1537,8 @@
       },
       "curse6@fareast" : {
          "exits" : {
-            "w" : "curseburnt",
-            "n" : "curse5"
+            "w" : "curseburnt@fareast",
+            "n" : "curse5@fareast"
          },
          "flags" : [
             "Dark",
@@ -1552,8 +1552,8 @@
       },
       "fortu2@fareast" : {
          "exits" : {
-            "e" : "fortuhall",
-            "d" : "fort2"
+            "e" : "fortuhall@fareast",
+            "d" : "fort2@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1564,10 +1564,10 @@
       },
       "outlet@fareast" : {
          "exits" : {
-            "w" : "shoreline",
-            "e" : "gapvalley",
-            "n" : "shore1",
-            "s" : "shore2"
+            "w" : "shoreline@fareast",
+            "e" : "gapvalley@fareast",
+            "n" : "shore1@fareast",
+            "s" : "shore2@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1580,10 +1580,10 @@
       },
       "shore1@fareast" : {
          "exits" : {
-            "w" : "shoreline",
-            "e" : "cliffs2",
-            "n" : "cliffs1",
-            "s" : "outlet"
+            "w" : "shoreline@fareast",
+            "e" : "cliffs2@fareast",
+            "n" : "cliffs1@fareast",
+            "s" : "outlet@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1596,11 +1596,11 @@
       },
       "templand1@fareast" : {
          "exits" : {
-            "e" : "templand3",
-            "u" : "templand3",
-            "n" : "hermithut",
-            "d" : "templepass",
-            "s" : "templepass"
+            "e" : "templand3@fareast",
+            "u" : "templand3@fareast",
+            "n" : "hermithut@fareast",
+            "d" : "templepass@fareast",
+            "s" : "templepass@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1613,8 +1613,8 @@
       },
       "countrya_1@fareast" : {
          "exits" : {
-            "w" : "village3",
-            "e" : "countrya_3"
+            "w" : "village3@fareast",
+            "e" : "countrya_3@fareast"
          },
          "flags" : [
             "Outdoors",
@@ -1628,10 +1628,10 @@
       },
       "cursefire@fareast" : {
          "exits" : {
-            "w" : "curseshore1",
-            "e" : "curse3",
-            "n" : "curse2",
-            "s" : "curseburnt"
+            "w" : "curseshore1@fareast",
+            "e" : "curse3@fareast",
+            "n" : "curse2@fareast",
+            "s" : "curseburnt@fareast"
          },
          "flags" : [
             "NegRegen"
@@ -1644,8 +1644,8 @@
       },
       "pitpass@fareast" : {
          "exits" : {
-            "w" : "countrya_2",
-            "e" : "countryb_5"
+            "w" : "countrya_2@fareast",
+            "e" : "countryb_5@fareast"
          },
          "flags" : [
             "Dark",
@@ -1659,9 +1659,9 @@
       },
       "curseacid1@fareast" : {
          "exits" : {
-            "w" : "curseacid2",
-            "n" : "curseshore1",
-            "s" : "curseshore3"
+            "w" : "curseacid2@fareast",
+            "n" : "curseshore1@fareast",
+            "s" : "curseshore3@fareast"
          },
          "flags" : [
             "NegRegen"
@@ -1674,9 +1674,9 @@
       },
       "cliffs5@fareast" : {
          "exits" : {
-            "w" : "cliffs2",
-            "e" : "cliffs4",
-            "u" : "cliffs4"
+            "w" : "cliffs2@fareast",
+            "e" : "cliffs4@fareast",
+            "u" : "cliffs4@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1689,10 +1689,10 @@
       },
       "countryb_3@fareast" : {
          "exits" : {
-            "w" : "countryb_1",
-            "e" : "countryb_4",
-            "n" : "countryb_5",
-            "s" : "countryb_2"
+            "w" : "countryb_1@fareast",
+            "e" : "countryb_4@fareast",
+            "n" : "countryb_5@fareast",
+            "s" : "countryb_2@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1703,10 +1703,10 @@
       },
       "cherorch8@fareast" : {
          "exits" : {
-            "w" : "cherorch5",
-            "e" : "cherorch1",
-            "n" : "cherorch8",
-            "s" : "cherorch3"
+            "w" : "cherorch5@fareast",
+            "e" : "cherorch1@fareast",
+            "n" : "cherorch8@fareast",
+            "s" : "cherorch3@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1719,10 +1719,10 @@
       },
       "cliffs4@fareast" : {
          "exits" : {
-            "w" : "cliffs5",
-            "n" : "cliffs6",
-            "d" : "ricepaddy",
-            "s" : "ricepaddy"
+            "w" : "cliffs5@fareast",
+            "n" : "cliffs6@fareast",
+            "d" : "ricepaddy@fareast",
+            "s" : "ricepaddy@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1735,8 +1735,8 @@
       },
       "countryacurse@fareast" : {
          "exits" : {
-            "n" : "countrya_2",
-            "s" : "cursent1"
+            "n" : "countrya_2@fareast",
+            "s" : "cursent1@fareast"
          },
          "flags" : [
             "Outdoors",
@@ -1750,10 +1750,10 @@
       },
       "curseshore1@fareast" : {
          "exits" : {
-            "w" : "curseshore2",
-            "e" : "cursefire",
-            "n" : "curse3",
-            "s" : "curseacid1"
+            "w" : "curseshore2@fareast",
+            "e" : "cursefire@fareast",
+            "n" : "curse3@fareast",
+            "s" : "curseacid1@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1764,7 +1764,7 @@
       },
       "gardhaus2@fareast" : {
          "exits" : {
-            "d" : "gardhaus"
+            "d" : "gardhaus@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1775,10 +1775,10 @@
       },
       "village1@fareast" : {
          "exits" : {
-            "w" : "ricepaddy",
-            "e" : "village2",
-            "n" : "ricepaddy",
-            "s" : "fishhouse"
+            "w" : "ricepaddy@fareast",
+            "e" : "village2@fareast",
+            "n" : "ricepaddy@fareast",
+            "s" : "fishhouse@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1789,8 +1789,8 @@
       },
       "countryb_4@fareast" : {
          "exits" : {
-            "w" : "countryb_3",
-            "s" : "countryb_6"
+            "w" : "countryb_3@fareast",
+            "s" : "countryb_6@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1801,10 +1801,10 @@
       },
       "curse3@fareast" : {
          "exits" : {
-            "w" : "curse4",
-            "e" : "curse2",
-            "n" : "cursent1",
-            "s" : "curseshore1"
+            "w" : "curse4@fareast",
+            "e" : "curse2@fareast",
+            "n" : "cursent1@fareast",
+            "s" : "curseshore1@fareast"
          },
          "flags" : [
             "Dark",
@@ -1818,8 +1818,8 @@
       },
       "fort2@fareast" : {
          "exits" : {
-            "e" : "forthall",
-            "u" : "fortu2"
+            "e" : "forthall@fareast",
+            "u" : "fortu2@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1830,7 +1830,7 @@
       },
       "curseisland2@fareast" : {
          "exits" : {
-            "n" : "curseisland1"
+            "n" : "curseisland1@fareast"
          },
          "flags" : [
             "Dark"
@@ -1843,7 +1843,7 @@
       },
       "temple3@fareast" : {
          "exits" : {
-            "n" : "temple1"
+            "n" : "temple1@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1854,8 +1854,8 @@
       },
       "countryacher@fareast" : {
          "exits" : {
-            "w" : "countrya_4",
-            "e" : "cherent1"
+            "w" : "countrya_4@fareast",
+            "e" : "cherent1@fareast"
          },
          "flags" : [
             "Outdoors",
@@ -1869,10 +1869,10 @@
       },
       "curse5@fareast" : {
          "exits" : {
-            "w" : "cursefire",
-            "e" : "cursent2",
-            "n" : "curse1",
-            "s" : "curse6"
+            "w" : "cursefire@fareast",
+            "e" : "cursent2@fareast",
+            "n" : "curse1@fareast",
+            "s" : "curse6@fareast"
          },
          "flags" : [
             "Dark",
@@ -1886,7 +1886,7 @@
       },
       "rapids@fareast" : {
          "exits" : {
-            "u" : "ropebridge"
+            "u" : "ropebridge@fareast"
          },
          "flags" : [
             "Death",
@@ -1900,7 +1900,7 @@
       },
       "dojo3@fareast" : {
          "exits" : {
-            "n" : "dojo1"
+            "n" : "dojo1@fareast"
          },
          "flags" : [
             "Dark"
@@ -1913,11 +1913,11 @@
       },
       "dojo1@fareast" : {
          "exits" : {
-            "w" : "dojo4",
-            "e" : "dojoent",
-            "u" : "dojou1",
-            "n" : "dojo2",
-            "s" : "dojo3"
+            "w" : "dojo4@fareast",
+            "e" : "dojoent@fareast",
+            "u" : "dojou1@fareast",
+            "n" : "dojo2@fareast",
+            "s" : "dojo3@fareast"
          },
          "flags" : [
             "Dark"
@@ -1930,9 +1930,9 @@
       },
       "templand3@fareast" : {
          "exits" : {
-            "w" : "templand1",
-            "e" : "temple1",
-            "s" : "templand2"
+            "w" : "templand1@fareast",
+            "e" : "temple1@fareast",
+            "s" : "templand2@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1945,9 +1945,9 @@
       },
       "curseshore2@fareast" : {
          "exits" : {
-            "e" : "curseshore1",
-            "n" : "curse4",
-            "s" : "curseacid2"
+            "e" : "curseshore1@fareast",
+            "n" : "curse4@fareast",
+            "s" : "curseacid2@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -1958,9 +1958,9 @@
       },
       "curse4@fareast" : {
          "exits" : {
-            "w" : "cursecave",
-            "e" : "curse3",
-            "s" : "curseshore2"
+            "w" : "cursecave@fareast",
+            "e" : "curse3@fareast",
+            "s" : "curseshore2@fareast"
          },
          "flags" : [
             "Dark",
@@ -1974,10 +1974,10 @@
       },
       "cherorch5@fareast" : {
          "exits" : {
-            "w" : "cherent1",
-            "e" : "cherorch1",
-            "n" : "cherorch4",
-            "s" : "cherorch7"
+            "w" : "cherent1@fareast",
+            "e" : "cherorch1@fareast",
+            "n" : "cherorch4@fareast",
+            "s" : "cherorch7@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -1990,7 +1990,7 @@
       },
       "dojou2@fareast" : {
          "exits" : {
-            "s" : "dojou1"
+            "s" : "dojou1@fareast"
          },
          "flags" : [
             "Dark"
@@ -2003,10 +2003,10 @@
       },
       "templepass@fareast" : {
          "exits" : {
-            "w" : "cliffs7",
-            "e" : "templand2",
-            "n" : "templand1",
-            "s" : "countryacave"
+            "w" : "cliffs7@fareast",
+            "e" : "templand2@fareast",
+            "n" : "templand1@fareast",
+            "s" : "countryacave@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -2019,8 +2019,8 @@
       },
       "village2@fareast" : {
          "exits" : {
-            "w" : "village1",
-            "e" : "village3"
+            "w" : "village1@fareast",
+            "e" : "village3@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -2031,10 +2031,10 @@
       },
       "forthall@fareast" : {
          "exits" : {
-            "w" : "fort2",
-            "e" : "fort3",
-            "n" : "fort1",
-            "s" : "courtyard"
+            "w" : "fort2@fareast",
+            "e" : "fort3@fareast",
+            "n" : "fort1@fareast",
+            "s" : "courtyard@fareast"
          },
          "flags" : [],
          "zone" : "fareast",
@@ -2045,10 +2045,10 @@
       },
       "cherorch7@fareast" : {
          "exits" : {
-            "w" : "cherorch6",
-            "e" : "cherorch8",
-            "n" : "cherorch7",
-            "s" : "cherent2"
+            "w" : "cherorch6@fareast",
+            "e" : "cherorch8@fareast",
+            "n" : "cherorch7@fareast",
+            "s" : "cherent2@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -2061,10 +2061,10 @@
       },
       "templand2@fareast" : {
          "exits" : {
-            "w" : "templepass",
-            "u" : "templand3",
-            "n" : "templand3",
-            "d" : "templepass"
+            "w" : "templepass@fareast",
+            "u" : "templand3@fareast",
+            "n" : "templand3@fareast",
+            "d" : "templepass@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -2077,9 +2077,9 @@
       },
       "courtyard@fareast" : {
          "exits" : {
-            "w" : "gardhaus",
-            "e" : "vilruin",
-            "n" : "forthall"
+            "w" : "gardhaus@fareast",
+            "e" : "vilruin@fareast",
+            "n" : "forthall@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -2092,10 +2092,10 @@
       },
       "countrya_3@fareast" : {
          "exits" : {
-            "w" : "countrya_1",
-            "e" : "countrya_4",
-            "n" : "countrya_5",
-            "s" : "countrya_2"
+            "w" : "countrya_1@fareast",
+            "e" : "countrya_4@fareast",
+            "n" : "countrya_5@fareast",
+            "s" : "countrya_2@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -2108,8 +2108,8 @@
       },
       "cherent2@fareast" : {
          "exits" : {
-            "n" : "cherorch7",
-            "s" : "countrybcher"
+            "n" : "cherorch7@fareast",
+            "s" : "countrybcher@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -2122,10 +2122,10 @@
       },
       "cherorch1@fareast" : {
          "exits" : {
-            "w" : "cherorch6",
-            "e" : "cherorch1",
-            "n" : "cherorch5",
-            "s" : "cherorch7"
+            "w" : "cherorch6@fareast",
+            "e" : "cherorch1@fareast",
+            "n" : "cherorch5@fareast",
+            "s" : "cherorch7@fareast"
          },
          "flags" : [
             "Outdoors"
@@ -2140,7 +2140,7 @@
    "mob" : {
       "ronin@fareast" : {
          "damage" : "12",
-         "location" : "countrya_5",
+         "location" : "countrya_5@fareast",
          "speed" : "5",
          "aggression" : "80",
          "armor" : "15",
@@ -2152,7 +2152,7 @@
       },
       "kane@fareast" : {
          "damage" : "12",
-         "location" : "cliffs2",
+         "location" : "cliffs2@fareast",
          "speed" : "5",
          "aggression" : "0",
          "armor" : "0",
@@ -2164,7 +2164,7 @@
       },
       "haohmaru@fareast" : {
          "damage" : "15",
-         "location" : "countryb_3",
+         "location" : "countryb_3@fareast",
          "speed" : "5",
          "aggression" : "10",
          "armor" : "12",
@@ -2176,7 +2176,7 @@
       },
       "samurai@fareast" : {
          "damage" : "10",
-         "location" : "forthall",
+         "location" : "forthall@fareast",
          "speed" : "5",
          "aggression" : "100",
          "armor" : "12",
@@ -2194,7 +2194,7 @@
             "Missile"
          ],
          "damage" : "20",
-         "location" : "throneroom",
+         "location" : "throneroom@fareast",
          "armor" : "20",
          "name" : "Umurshyo",
          "examine" : "You would have to be insane to attack a demon of this stature.",
@@ -2216,7 +2216,7 @@
             "Fireball"
          ],
          "damage" : "8",
-         "location" : "village3",
+         "location" : "village3@fareast",
          "armor" : "10",
          "name" : "Ryu",
          "examine" : "\nRyu was a contender in his younger days, but now could be defeated \n        even by you.",
@@ -2228,7 +2228,7 @@
       },
       "shaolin@fareast" : {
          "damage" : "8",
-         "location" : "temple1",
+         "location" : "temple1@fareast",
          "speed" : "5",
          "aggression" : "0",
          "armor" : "5",
@@ -2244,7 +2244,7 @@
             "ImmFrost"
          ],
          "damage" : "20",
-         "location" : "cherent1",
+         "location" : "cherent1@fareast",
          "armor" : "25",
          "name" : "Shubei",
          "examine" : "\nThis Oriental dragon trails wisps of icy mist, like liquid nitrogen.",
@@ -2267,7 +2267,7 @@
       },
       "naga@fareast" : {
          "damage" : "8",
-         "location" : "dojoent",
+         "location" : "dojoent@fareast",
          "armor" : "5",
          "name" : "Naga",
          "examine" : "The Naga is large and probably a dangerous opponent.",
@@ -2291,7 +2291,7 @@
             "Fireball"
          ],
          "damage" : "12",
-         "location" : "ropebridge",
+         "location" : "ropebridge@fareast",
          "armor" : "0",
          "name" : "Liukang",
          "examine" : "\nLiu Kang is master of many fighting skills.  Defeating him will not be easy.",
@@ -2307,7 +2307,7 @@
             "ImmFireball"
          ],
          "damage" : "20",
-         "location" : "cherblos",
+         "location" : "cherblos@fareast",
          "armor" : "30",
          "name" : "Kashai",
          "examine" : "The Oriental dragon has a leonine head with a wise expression.",
@@ -2327,7 +2327,7 @@
       },
       "larva@fareast" : {
          "damage" : "10",
-         "location" : "cherorchcent",
+         "location" : "cherorchcent@fareast",
          "armor" : "10",
          "name" : "Larva",
          "examine" : "\nLarva, Miyu's friend and servant, is Shinma, half-god, half-demon, \n        and immune to human magics.",
@@ -2342,7 +2342,7 @@
       },
       "aikuchi@fareast" : {
          "damage" : "15",
-         "location" : "forthall",
+         "location" : "forthall@fareast",
          "armor" : "30",
          "name" : "Aikuchi",
          "examine" : "\nThe armor is empty... only the deathless spirit of Yorube Aikuchi moves it.",
@@ -2361,7 +2361,7 @@
       },
       "peasant@fareast" : {
          "damage" : "5",
-         "location" : "ricepaddy",
+         "location" : "ricepaddy@fareast",
          "speed" : "0",
          "aggression" : "10",
          "armor" : "0",
@@ -2377,7 +2377,7 @@
             "ImmFrost"
          ],
          "damage" : "10",
-         "location" : "curse1",
+         "location" : "curse1@fareast",
          "armor" : "8",
          "name" : "Subzero",
          "examine" : "\nSub-Zero is far from the Lin Kwei, training for another confrontation.",
@@ -2389,7 +2389,7 @@
       },
       "tetsuo@fareast" : {
          "damage" : "15",
-         "location" : "cursent1",
+         "location" : "cursent1@fareast",
          "armor" : "5",
          "name" : "Tetsuo",
          "examine" : "\nThis union of dragon and human is stronger than either, \n        a powerful combination.",
@@ -2407,7 +2407,7 @@
             "Fireball"
          ],
          "damage" : "8",
-         "location" : "cherorchcent",
+         "location" : "cherorchcent@fareast",
          "armor" : "0",
          "name" : "Miyu",
          "examine" : "\nMiyu's fangs become apparent when you look closer.  The Princess hungers.",
@@ -2422,7 +2422,7 @@
       },
       "kunglao@fareast" : {
          "damage" : "10",
-         "location" : "temple3",
+         "location" : "temple3@fareast",
          "speed" : "5",
          "aggression" : "50",
          "armor" : "5",
@@ -2434,7 +2434,7 @@
       },
       "chunli@fareast" : {
          "damage" : "6",
-         "location" : "cherorch8",
+         "location" : "cherorch8@fareast",
          "armor" : "8",
          "name" : "Chunli",
          "examine" : "\nChun Li has seen better days... she is not in top form, and looks tired.",
@@ -2449,7 +2449,7 @@
       },
       "dummy@fareast" : {
          "damage" : "0",
-         "location" : "dojo3",
+         "location" : "dojo3@fareast",
          "armor" : "0",
          "name" : "dummy",
          "examine" : "\nThe dummy is designed to take abuse while students learn to use their weapons.",
@@ -2468,7 +2468,7 @@
             "ImmFireball"
          ],
          "damage" : "10",
-         "location" : "curse6",
+         "location" : "curse6@fareast",
          "armor" : "8",
          "name" : "Scorpion",
          "examine" : "The undead Scorpion would mock your challenge.",
@@ -2486,7 +2486,7 @@
             "Missile"
          ],
          "damage" : "15",
-         "location" : "cherent2",
+         "location" : "cherent2@fareast",
          "armor" : "5",
          "name" : "Ogremage",
          "examine" : "The Ogremage can cast spells as well as fight- beware.",
@@ -2506,7 +2506,7 @@
             "ImmShock"
          ],
          "damage" : "50",
-         "location" : "shoreline",
+         "location" : "shoreline@fareast",
          "armor" : "25",
          "name" : "Raiden",
          "examine" : "Do not attack Raiden... you could not hope to survive.",
@@ -2526,7 +2526,7 @@
       },
       "jago@fareast" : {
          "damage" : "10",
-         "location" : "cherorch4",
+         "location" : "cherorch4@fareast",
          "speed" : "0",
          "aggression" : "33",
          "armor" : "10",
@@ -2538,7 +2538,7 @@
       },
       "ninja@fareast" : {
          "damage" : "10",
-         "location" : "dojo3",
+         "location" : "dojo3@fareast",
          "armor" : "8",
          "name" : "Ninja",
          "examine" : "\nNinjas are consummate killers and masters of stealth- \n        this one is no exception.",
@@ -2559,7 +2559,7 @@
             "ImmShock"
          ],
          "damage" : "10",
-         "location" : "cursent2",
+         "location" : "cursent2@fareast",
          "armor" : "0",
          "name" : "Shangtsung",
          "examine" : "\nThe wizard, Shang Tsung, looks old, but his spells may well destroy your soul.",

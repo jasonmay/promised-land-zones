@@ -2,7 +2,7 @@
    "obj" : {
       "demonblade@blackknight" : {
          "damage" : "60",
-         "location" : "WIELDED_BY:knight",
+         "location" : "WIELDED_BY:knight@blackknight",
          "oflags" : [
             "unlocatable",
             "weapon",
@@ -33,7 +33,7 @@
          "desc[0]" : "&+rThe most evil and powerful weapon is here.&*"
       },
       "sign@blackknight" : {
-         "location" : "IN_ROOM:way",
+         "location" : "IN_ROOM:way@blackknight",
          "oflags" : [
             "noget"
          ],
@@ -65,8 +65,8 @@
       },
       "way@blackknight" : {
          "exits" : {
-            "n" : "death",
-            "s" : "Church1@church"
+            "n" : "death@blackknight",
+            "s" : "church1@church"
          },
          "flags" : [
             "negregen",
@@ -99,7 +99,7 @@
             "NegIceStorm"
          ],
          "damage" : "80",
-         "location" : "death",
+         "location" : "death@blackknight",
          "armor" : "40",
          "name" : "knight",
          "examine" : "This is the mighty black knight.  He is about 7 feet all.\nHe is wielding a sword that is twice as long as you.  He is wearing\nan armor as black as the night.  He looks like a demon in an armor\nsuit.  The black knight is a very powerful opponent.  You should not\nattack him unless a whole army is assisting you.",

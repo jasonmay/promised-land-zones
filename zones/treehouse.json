@@ -1,7 +1,7 @@
 {
    "obj" : {
       "bedding@treehouse" : {
-         "location" : "IN_ROOM:south",
+         "location" : "IN_ROOM:south@treehouse",
          "oflags" : [
             "NoGet"
          ],
@@ -10,7 +10,7 @@
          "examine" : "\nAlthough it's nice, thick, warm bedding, it's hardly the ideal thing in which\nto practice honeymoon tactics!"
       },
       "way1@treehouse" : {
-         "location" : "IN_ROOM:house",
+         "location" : "IN_ROOM:house@treehouse",
          "oflags" : [
             "Food"
          ],
@@ -24,7 +24,7 @@
          "desc[0]" : "Some waybread has been put here."
       },
       "waybread@treehouse" : {
-         "location" : "IN_ROOM:house",
+         "location" : "IN_ROOM:house@treehouse",
          "oflags" : [
             "Food"
          ],
@@ -37,7 +37,7 @@
          "desc[0]" : "Some waybread has been put here."
       },
       "shield@treehouse" : {
-         "location" : "IN_ROOM:north",
+         "location" : "IN_ROOM:north@treehouse",
          "armor" : "26",
          "oflags" : [
             "Armor",
@@ -54,7 +54,7 @@
       },
       "ladder@treehouse" : {
          "desc[1]" : "A rope leads down the tree.",
-         "location" : "IN_ROOM:porch",
+         "location" : "IN_ROOM:porch@treehouse",
          "oflags" : [
             "NoGet"
          ],
@@ -66,7 +66,7 @@
          "desc[0]" : "A rope ladder leads down the tree."
       },
       "amulet@treehouse" : {
-         "location" : "IN_ROOM:south",
+         "location" : "IN_ROOM:south@treehouse",
          "oflags" : [
             "MissileSpell",
             "Destroyed",
@@ -89,9 +89,9 @@
    "loc" : {
       "house@treehouse" : {
          "exits" : {
-            "e" : "Porch",
-            "n" : "North",
-            "s" : "South"
+            "e" : "porch@treehouse",
+            "n" : "north@treehouse",
+            "s" : "south@treehouse"
          },
          "flags" : [],
          "zone" : "treehouse",
@@ -102,8 +102,8 @@
       },
       "porch@treehouse" : {
          "exits" : {
-            "w" : "House",
-            "d" : "^ladder"
+            "w" : "house@treehouse",
+            "d" : "^ladder@treehouse"
          },
          "flags" : [],
          "zone" : "treehouse",
@@ -114,7 +114,7 @@
       },
       "south@treehouse" : {
          "exits" : {
-            "n" : "House"
+            "n" : "house@treehouse"
          },
          "flags" : [],
          "zone" : "treehouse",
@@ -125,7 +125,7 @@
       },
       "north@treehouse" : {
          "exits" : {
-            "s" : "House"
+            "s" : "house@treehouse"
          },
          "flags" : [],
          "zone" : "treehouse",
@@ -138,7 +138,7 @@
    "mob" : {
       "elf@treehouse" : {
          "damage" : "10",
-         "location" : "porch",
+         "location" : "porch@treehouse",
          "armor" : "0",
          "aggression" : "20",
          "pname" : "The Elf",

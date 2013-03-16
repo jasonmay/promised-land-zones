@@ -1,7 +1,7 @@
 {
    "obj" : {
       "outside_vines@sagewood" : {
-         "location" : "IN_ROOM:Woods1",
+         "location" : "IN_ROOM:woods1@sagewood",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -15,7 +15,7 @@
          "desc[0]" : "The &+Bvines&* have been pushed aside, allowing passage &+CWest&*."
       },
       "medicine@sagewood" : {
-         "location" : "IN_ROOM:daerius",
+         "location" : "IN_ROOM:daerius@sagewood",
          "oflags" : [
             "Container",
             "WearAble",
@@ -34,7 +34,7 @@
          ]
       },
       "force@sagewood" : {
-         "location" : "IN_ROOM:Altar",
+         "location" : "IN_ROOM:altar@sagewood",
          "oflags" : [
             "noget"
          ],
@@ -46,7 +46,7 @@
          "desc[0]" : ""
       },
       "oldtree@sagewood" : {
-         "location" : "IN_ROOM:Woods4",
+         "location" : "IN_ROOM:woods4@sagewood",
          "oflags" : [
             "NoGet"
          ],
@@ -59,7 +59,7 @@
       },
       "frostsceptre@sagewood" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:Daerius",
+         "location" : "WIELDED_BY:daerius@sagewood",
          "oflags" : [
             "Weapon"
          ],
@@ -74,7 +74,7 @@
          "desc[0]" : "An icy frost &+Bsceptre&* is here, radiating an icy aura."
       },
       "passage2_e@sagewood" : {
-         "location" : "IN_ROOM:cavern1",
+         "location" : "IN_ROOM:cavern1@sagewood",
          "oflags" : [
             "NoGet"
          ],
@@ -84,7 +84,7 @@
          "state" : "1"
       },
       "herb4@sagewood" : {
-         "location" : "IN_CONTAINER:Medicine",
+         "location" : "IN_CONTAINER:medicine@sagewood",
          "oflags" : [
             "Food"
          ],
@@ -97,7 +97,7 @@
          "desc[0]" : "Someone has left a small &+Bherb&* here."
       },
       "ashes@sagewood" : {
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@sagewood",
          "oflags" : [
             "NoGet"
          ],
@@ -109,7 +109,7 @@
          "desc[0]" : "All that remains of the dryad are &+Bashes&*."
       },
       "herb3@sagewood" : {
-         "location" : "IN_CONTAINER:Medicine",
+         "location" : "IN_CONTAINER:medicine@sagewood",
          "oflags" : [
             "Food"
          ],
@@ -123,7 +123,7 @@
       },
       "candle@sagewood" : {
          "desc[1]" : "An evil-looking black &+Bcandle&* lies here.",
-         "location" : "IN_CONTAINER:Hole",
+         "location" : "IN_CONTAINER:hole@sagewood",
          "oflags" : [
             "Lit",
             "Extinguish"
@@ -139,7 +139,7 @@
          "desc[0]" : "An evil-looking black &+Bcandle&* burns away."
       },
       "altar@sagewood" : {
-         "location" : "IN_ROOM:Altar",
+         "location" : "IN_ROOM:altar@sagewood",
          "oflags" : [
             "noget"
          ],
@@ -151,7 +151,7 @@
          "desc[0]" : "A hideous black &+BAltar&* stands proudly here."
       },
       "herb1@sagewood" : {
-         "location" : "IN_CONTAINER:Medicine",
+         "location" : "IN_CONTAINER:medicine@sagewood",
          "oflags" : [
             "Food"
          ],
@@ -164,7 +164,7 @@
          "desc[0]" : "Someone has left a small &+Bherb&* here."
       },
       "hole@sagewood" : {
-         "location" : "IN_ROOM:Alcove",
+         "location" : "IN_ROOM:alcove@sagewood",
          "oflags" : [
             "NoGet",
             "Container"
@@ -178,7 +178,7 @@
          "desc[0]" : ""
       },
       "passage_u@sagewood" : {
-         "location" : "IN_ROOM:Gloom",
+         "location" : "IN_ROOM:gloom@sagewood",
          "oflags" : [
             "NoGet"
          ],
@@ -188,7 +188,7 @@
          "state" : "1"
       },
       "carvings@sagewood" : {
-         "location" : "IN_ROOM:cavern1",
+         "location" : "IN_ROOM:cavern1@sagewood",
          "oflags" : [
             "NoGet"
          ],
@@ -202,7 +202,7 @@
          "desc[0]" : ""
       },
       "ruby@sagewood" : {
-         "location" : "IN_CONTAINER:Chest",
+         "location" : "IN_CONTAINER:chest@sagewood",
          "name" : "Ruby",
          "examine" : "\nThis ruby looks like it is quite valuable. The dark druids probobly looted\nit off of a wealthy traveler.",
          "size" : "10",
@@ -214,7 +214,7 @@
          "desc[0]" : "A precious, eye-sized &+Bruby&* has been dropped here."
       },
       "amethyst@sagewood" : {
-         "location" : "IN_CONTAINER:Chest",
+         "location" : "IN_CONTAINER:chest@sagewood",
          "name" : "Amethyst",
          "examine" : "\nThis fist-sized amethyst reflects the light back through its many facets.",
          "size" : "40",
@@ -226,7 +226,7 @@
          "desc[0]" : "A beautiful &+Bamethyst&* has been left here."
       },
       "willow@sagewood" : {
-         "location" : "IN_ROOM:Hill",
+         "location" : "IN_ROOM:hill@sagewood",
          "oflags" : [
             "NoGet"
          ],
@@ -238,7 +238,7 @@
          "desc[0]" : "A slender &+Bwillow&* stands here, giving shade."
       },
       "inside_vines@sagewood" : {
-         "location" : "IN_ROOM:Woods2",
+         "location" : "IN_ROOM:woods2@sagewood",
          "oflags" : [
             "NoGet",
             "Pushtoggle"
@@ -252,7 +252,7 @@
          "desc[0]" : "The &+Bvines&* have been pushed aside, allowing passage &+CEast&*."
       },
       "chains@sagewood" : {
-         "location" : "IN_ROOM:Gloom",
+         "location" : "IN_ROOM:gloom@sagewood",
          "oflags" : [
             "noget"
          ],
@@ -265,7 +265,7 @@
       },
       "chest@sagewood" : {
          "desc[1]" : "An closed &+Cchest&* has been dropped here.",
-         "location" : "IN_ROOM:woods5",
+         "location" : "IN_ROOM:woods5@sagewood",
          "oflags" : [
             "Container",
             "Lockable",
@@ -282,7 +282,7 @@
          "desc[0]" : "An open &+Cchest&* has been dropped here."
       },
       "passage1_w@sagewood" : {
-         "location" : "IN_ROOM:cavern1",
+         "location" : "IN_ROOM:cavern1@sagewood",
          "oflags" : [
             "NoGet"
          ],
@@ -292,7 +292,7 @@
          "state" : "1"
       },
       "herb2@sagewood" : {
-         "location" : "IN_CONTAINER:Medicine",
+         "location" : "IN_CONTAINER:medicine@sagewood",
          "oflags" : [
             "Food"
          ],
@@ -306,7 +306,7 @@
       },
       "jharnstaff@sagewood" : {
          "damage" : "19",
-         "location" : "WIELDED_BY:Jharn",
+         "location" : "WIELDED_BY:jharn@sagewood",
          "oflags" : [
             "Weapon",
             "NegHealth"
@@ -322,7 +322,7 @@
          "desc[0]" : "A dark &+Bstaff&* of obsidian lies here."
       },
       "passage2_w@sagewood" : {
-         "location" : "IN_ROOM:Alcove",
+         "location" : "IN_ROOM:alcove@sagewood",
          "oflags" : [
             "NoGet"
          ],
@@ -333,7 +333,7 @@
       },
       "goldensickle2@sagewood" : {
          "damage" : "40",
-         "location" : "IN_ROOM:Limbo",
+         "location" : "IN_ROOM:limbo@sagewood",
          "oflags" : [
             "Weapon",
             "Glowing"
@@ -347,7 +347,7 @@
          "desc[0]" : "A golden &+Bsickle&* lies here, its blade glowing with a holy aura!"
       },
       "brasskey@sagewood" : {
-         "location" : "IN_ROOM:Jharn",
+         "location" : "IN_ROOM:jharn@sagewood",
          "oflags" : [
             "Key"
          ],
@@ -364,7 +364,7 @@
       },
       "darkgem@sagewood" : {
          "desc[1]" : "A dark &+BGemstone&* has been abandoned here.",
-         "location" : "IN_ROOM:Altar",
+         "location" : "IN_ROOM:altar@sagewood",
          "oflags" : [
             "GetFlips"
          ],
@@ -380,7 +380,7 @@
          "desc[0]" : "A dark &+BGemstone&* sits upon the altar."
       },
       "passage1_e@sagewood" : {
-         "location" : "IN_ROOM:Jharn",
+         "location" : "IN_ROOM:jharn@sagewood",
          "oflags" : [
             "NoGet"
          ],
@@ -391,7 +391,7 @@
       },
       "goldensickle1@sagewood" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:Dryad",
+         "location" : "WIELDED_BY:dryad@sagewood",
          "oflags" : [
             "Weapon"
          ],
@@ -404,7 +404,7 @@
          "desc[0]" : "A Golden &+BSickle&* lies here, its blade glowing evilly."
       },
       "coins@sagewood" : {
-         "location" : "IN_CONTAINER:Chest",
+         "location" : "IN_CONTAINER:chest@sagewood",
          "altname" : "coin",
          "name" : "Coins",
          "examine" : "\nThe coins look like they'd make a gift quite pleasing to the gods.",
@@ -416,7 +416,7 @@
          "desc[0]" : "Thousands of priceless platinum &+Bcoins&* are here."
       },
       "passage_d@sagewood" : {
-         "location" : "IN_ROOM:Altar",
+         "location" : "IN_ROOM:altar@sagewood",
          "oflags" : [
             "NoGet"
          ],
@@ -429,10 +429,10 @@
    "loc" : {
       "swamp2@sagewood" : {
          "exits" : {
-            "w" : "mud",
-            "e" : "swamp1",
-            "n" : "swamp4",
-            "s" : "mud"
+            "w" : "mud@sagewood",
+            "e" : "swamp1@sagewood",
+            "n" : "swamp4@sagewood",
+            "s" : "mud@sagewood"
          },
          "flags" : [
             "outdoors",
@@ -458,10 +458,10 @@
       },
       "swamp3@sagewood" : {
          "exits" : {
-            "e" : "mud",
-            "w" : "swamp1",
-            "n" : "swamp6",
-            "s" : "mud"
+            "e" : "mud@sagewood",
+            "w" : "swamp1@sagewood",
+            "n" : "swamp6@sagewood",
+            "s" : "mud@sagewood"
          },
          "flags" : [
             "outdoors",
@@ -476,10 +476,10 @@
       },
       "plain8@sagewood" : {
          "exits" : {
-            "e" : "sagewood1",
-            "w" : "hill",
-            "n" : "plain6",
-            "s" : "plain7"
+            "e" : "sagewood1@sagewood",
+            "w" : "hill@sagewood",
+            "n" : "plain6@sagewood",
+            "s" : "plain7@sagewood"
          },
          "flags" : [
             "outdoors"
@@ -492,8 +492,8 @@
       },
       "cavern3@sagewood" : {
          "exits" : {
-            "n" : "cavern2",
-            "s" : "cavern4"
+            "n" : "cavern2@sagewood",
+            "s" : "cavern4@sagewood"
          },
          "flags" : [
             "NegRegen"
@@ -506,8 +506,8 @@
       },
       "plain7@sagewood" : {
          "exits" : {
-            "w" : "plain5",
-            "n" : "plain8"
+            "w" : "plain5@sagewood",
+            "n" : "plain8@sagewood"
          },
          "flags" : [
             "outdoors"
@@ -520,7 +520,7 @@
       },
       "jharn@sagewood" : {
          "exits" : {
-            "e" : "^passage1_e"
+            "e" : "^passage1_e@sagewood"
          },
          "flags" : [
             "nomobiles"
@@ -542,10 +542,10 @@
       },
       "swamp5@sagewood" : {
          "exits" : {
-            "e" : "swamp6",
-            "w" : "swamp4",
-            "n" : "swamp8",
-            "s" : "swamp1"
+            "e" : "swamp6@sagewood",
+            "w" : "swamp4@sagewood",
+            "n" : "swamp8@sagewood",
+            "s" : "swamp1@sagewood"
          },
          "flags" : [
             "outdoors",
@@ -560,8 +560,8 @@
       },
       "plain6@sagewood" : {
          "exits" : {
-            "w" : "plain4",
-            "s" : "plain8"
+            "w" : "plain4@sagewood",
+            "s" : "plain8@sagewood"
          },
          "flags" : [
             "outdoors"
@@ -574,9 +574,9 @@
       },
       "altar@sagewood" : {
          "exits" : {
-            "e" : "portal1",
-            "w" : "sagewood2",
-            "d" : "^passage_d"
+            "e" : "portal1@sagewood",
+            "w" : "sagewood2@sagewood",
+            "d" : "^passage_d@sagewood"
          },
          "flags" : [
             "outdoors"
@@ -589,11 +589,11 @@
       },
       "cavern4@sagewood" : {
          "exits" : {
-            "e" : "lava",
-            "w" : "lava",
-            "n" : "cavern3",
-            "d" : "lava",
-            "s" : "lava"
+            "e" : "lava@sagewood",
+            "w" : "lava@sagewood",
+            "n" : "cavern3@sagewood",
+            "d" : "lava@sagewood",
+            "s" : "lava@sagewood"
          },
          "flags" : [
             "NegRegen"
@@ -606,8 +606,8 @@
       },
       "woods1@sagewood" : {
          "exits" : {
-            "w" : "^outside_vines",
-            "n" : "sagewood2"
+            "w" : "^outside_vines@sagewood",
+            "n" : "sagewood2@sagewood"
          },
          "flags" : [
             "outdoors",
@@ -621,7 +621,7 @@
       },
       "gloom@sagewood" : {
          "exits" : {
-            "u" : "^passage_u"
+            "u" : "^passage_u@sagewood"
          },
          "flags" : [],
          "zone" : "sagewood",
@@ -632,8 +632,8 @@
       },
       "plain2@sagewood" : {
          "exits" : {
-            "e" : "plain4",
-            "s" : "plain1"
+            "e" : "plain4@sagewood",
+            "s" : "plain1@sagewood"
          },
          "flags" : [
             "outdoors"
@@ -646,9 +646,9 @@
       },
       "plain4@sagewood" : {
          "exits" : {
-            "e" : "plain6",
-            "w" : "plain2",
-            "s" : "hill"
+            "e" : "plain6@sagewood",
+            "w" : "plain2@sagewood",
+            "s" : "hill@sagewood"
          },
          "flags" : [
             "outdoors"
@@ -661,8 +661,8 @@
       },
       "cavern2@sagewood" : {
          "exits" : {
-            "n" : "cavern1",
-            "s" : "cavern3"
+            "n" : "cavern1@sagewood",
+            "s" : "cavern3@sagewood"
          },
          "flags" : [
             "NegRegen"
@@ -675,7 +675,7 @@
       },
       "cleft@sagewood" : {
          "exits" : {
-            "s" : "swamp8"
+            "s" : "swamp8@sagewood"
          },
          "flags" : [
             "dark"
@@ -688,8 +688,8 @@
       },
       "woods4@sagewood" : {
          "exits" : {
-            "w" : "woods5",
-            "n" : "woods3"
+            "w" : "woods5@sagewood",
+            "n" : "woods3@sagewood"
          },
          "flags" : [
             "outdoors"
@@ -702,8 +702,8 @@
       },
       "plain3@sagewood" : {
          "exits" : {
-            "e" : "plain5",
-            "n" : "plain1"
+            "e" : "plain5@sagewood",
+            "n" : "plain1@sagewood"
          },
          "flags" : [
             "outdoors"
@@ -716,10 +716,10 @@
       },
       "swamp7@sagewood" : {
          "exits" : {
-            "w" : "mud",
-            "e" : "swamp8",
-            "n" : "mud",
-            "s" : "swamp4"
+            "w" : "mud@sagewood",
+            "e" : "swamp8@sagewood",
+            "n" : "mud@sagewood",
+            "s" : "swamp4@sagewood"
          },
          "flags" : [
             "outdoors",
@@ -734,8 +734,8 @@
       },
       "woods3@sagewood" : {
          "exits" : {
-            "n" : "woods2",
-            "s" : "woods4"
+            "n" : "woods2@sagewood",
+            "s" : "woods4@sagewood"
          },
          "flags" : [
             "outdoors"
@@ -764,10 +764,10 @@
       },
       "sagewood1@sagewood" : {
          "exits" : {
-            "e" : "sagewood2",
-            "w" : "plain8",
-            "n" : "daerius",
-            "s" : "cavern1"
+            "e" : "sagewood2@sagewood",
+            "w" : "plain8@sagewood",
+            "n" : "daerius@sagewood",
+            "s" : "cavern1@sagewood"
          },
          "flags" : [
             "outdoors"
@@ -780,7 +780,7 @@
       },
       "daerius@sagewood" : {
          "exits" : {
-            "s" : "sagewood1"
+            "s" : "sagewood1@sagewood"
          },
          "flags" : [],
          "zone" : "sagewood",
@@ -791,10 +791,10 @@
       },
       "swamp6@sagewood" : {
          "exits" : {
-            "e" : "mud",
-            "w" : "swamp5",
-            "n" : "swamp9",
-            "s" : "swamp3"
+            "e" : "mud@sagewood",
+            "w" : "swamp5@sagewood",
+            "n" : "swamp9@sagewood",
+            "s" : "swamp3@sagewood"
          },
          "flags" : [
             "outdoors",
@@ -809,10 +809,10 @@
       },
       "sagewood2@sagewood" : {
          "exits" : {
-            "e" : "altar",
-            "w" : "sagewood1",
-            "n" : "swamp1",
-            "s" : "woods1"
+            "e" : "altar@sagewood",
+            "w" : "sagewood1@sagewood",
+            "n" : "swamp1@sagewood",
+            "s" : "woods1@sagewood"
          },
          "flags" : [
             "outdoors"
@@ -836,8 +836,8 @@
       },
       "woods5@sagewood" : {
          "exits" : {
-            "e" : "woods4",
-            "s" : "woods6"
+            "e" : "woods4@sagewood",
+            "s" : "woods6@sagewood"
          },
          "flags" : [
             "outdoors"
@@ -850,8 +850,8 @@
       },
       "path@sagewood" : {
          "exits" : {
-            "w" : "Path@valley",
-            "e" : "plain1"
+            "w" : "path@valley",
+            "e" : "plain1@sagewood"
          },
          "flags" : [
             "outdoors",
@@ -865,10 +865,10 @@
       },
       "swamp1@sagewood" : {
          "exits" : {
-            "e" : "swamp3",
-            "w" : "swamp2",
-            "n" : "swamp5",
-            "s" : "sagewood2"
+            "e" : "swamp3@sagewood",
+            "w" : "swamp2@sagewood",
+            "n" : "swamp5@sagewood",
+            "s" : "sagewood2@sagewood"
          },
          "flags" : [
             "nomobiles",
@@ -884,9 +884,9 @@
       },
       "plain5@sagewood" : {
          "exits" : {
-            "w" : "plain3",
-            "e" : "plain7",
-            "n" : "hill"
+            "w" : "plain3@sagewood",
+            "e" : "plain7@sagewood",
+            "n" : "hill@sagewood"
          },
          "flags" : [
             "outdoors"
@@ -899,10 +899,10 @@
       },
       "swamp4@sagewood" : {
          "exits" : {
-            "w" : "mud",
-            "e" : "swamp5",
-            "n" : "swamp7",
-            "s" : "swamp2"
+            "w" : "mud@sagewood",
+            "e" : "swamp5@sagewood",
+            "n" : "swamp7@sagewood",
+            "s" : "swamp2@sagewood"
          },
          "flags" : [
             "outdoors",
@@ -917,10 +917,10 @@
       },
       "hill@sagewood" : {
          "exits" : {
-            "w" : "plain1",
-            "e" : "plain8",
-            "n" : "plain4",
-            "s" : "plain5"
+            "w" : "plain1@sagewood",
+            "e" : "plain8@sagewood",
+            "n" : "plain4@sagewood",
+            "s" : "plain5@sagewood"
          },
          "flags" : [
             "outdoors",
@@ -935,8 +935,8 @@
       },
       "woods2@sagewood" : {
          "exits" : {
-            "e" : "^inside_vines",
-            "s" : "woods3"
+            "e" : "^inside_vines@sagewood",
+            "s" : "woods3@sagewood"
          },
          "flags" : [
             "outdoors"
@@ -949,10 +949,10 @@
       },
       "swamp8@sagewood" : {
          "exits" : {
-            "e" : "swamp9",
-            "w" : "swamp7",
-            "n" : "cleft",
-            "s" : "swamp5"
+            "e" : "swamp9@sagewood",
+            "w" : "swamp7@sagewood",
+            "n" : "cleft@sagewood",
+            "s" : "swamp5@sagewood"
          },
          "flags" : [
             "outdoors",
@@ -967,10 +967,10 @@
       },
       "cavern1@sagewood" : {
          "exits" : {
-            "e" : "^passage2_e",
-            "w" : "^passage1_w",
-            "n" : "sagewood1",
-            "s" : "cavern2"
+            "e" : "^passage2_e@sagewood",
+            "w" : "^passage1_w@sagewood",
+            "n" : "sagewood1@sagewood",
+            "s" : "cavern2@sagewood"
          },
          "flags" : [
             "nomobiles"
@@ -983,10 +983,10 @@
       },
       "plain1@sagewood" : {
          "exits" : {
-            "w" : "path",
-            "e" : "hill",
-            "n" : "plain2",
-            "s" : "plain3"
+            "w" : "path@sagewood",
+            "e" : "hill@sagewood",
+            "n" : "plain2@sagewood",
+            "s" : "plain3@sagewood"
          },
          "flags" : [
             "outdoors"
@@ -999,7 +999,7 @@
       },
       "woods6@sagewood" : {
          "exits" : {
-            "n" : "woods5"
+            "n" : "woods5@sagewood"
          },
          "flags" : [
             "dark"
@@ -1012,10 +1012,10 @@
       },
       "swamp9@sagewood" : {
          "exits" : {
-            "e" : "mud",
-            "w" : "swamp8",
-            "n" : "mud",
-            "s" : "swamp6"
+            "e" : "mud@sagewood",
+            "w" : "swamp8@sagewood",
+            "n" : "mud@sagewood",
+            "s" : "swamp6@sagewood"
          },
          "flags" : [
             "outdoors",
@@ -1030,7 +1030,7 @@
       },
       "alcove@sagewood" : {
          "exits" : {
-            "w" : "^passage2_w"
+            "w" : "^passage2_w@sagewood"
          },
          "flags" : [
             "oneperson",
@@ -1050,7 +1050,7 @@
             "IceStorm"
          ],
          "damage" : "20",
-         "location" : "Sagewood1",
+         "location" : "sagewood1@sagewood",
          "speed" : "1",
          "aggression" : "10",
          "armor" : "10",
@@ -1061,7 +1061,7 @@
       },
       "leech1@sagewood" : {
          "damage" : "5",
-         "location" : "Swamp2",
+         "location" : "swamp2@sagewood",
          "name" : "Leech1",
          "examine" : "\nThe leech attaches its self to you, gorging on your rich, warm blood...",
          "description" : "A horrid &+RLeech&* is here.",
@@ -1079,7 +1079,7 @@
             "Fireball"
          ],
          "damage" : "14",
-         "location" : "Swamp3",
+         "location" : "swamp3@sagewood",
          "name" : "Dhelvar",
          "examine" : "\nDhelvar is covered in black mud-soaked robes. His shifty eyes worry you as\nhe walks about, taking in the evil magic that permeates through this horrible\nplace.",
          "description" : "&+RDhelvar&*, the dark druid of the swamp wanders about.",
@@ -1092,7 +1092,7 @@
       },
       "leech4@sagewood" : {
          "damage" : "5",
-         "location" : "Swamp4",
+         "location" : "swamp4@sagewood",
          "name" : "Leech4",
          "examine" : "\nThe leech attaches its self to you, gorging on your rich, warm blood...",
          "description" : "A horrid &+RLeech&* is here.",
@@ -1107,7 +1107,7 @@
       },
       "leech3@sagewood" : {
          "damage" : "5",
-         "location" : "Swamp3",
+         "location" : "swamp3@sagewood",
          "name" : "Leech3",
          "examine" : "\nThe leech attaches its self to you, gorging on your rich, warm blood...",
          "description" : "A horrid &+RLeech&* is here.",
@@ -1122,7 +1122,7 @@
       },
       "leech7@sagewood" : {
          "damage" : "5",
-         "location" : "Swamp7",
+         "location" : "swamp7@sagewood",
          "name" : "Leech7",
          "examine" : "\nThe leech attaches its self to you, gorging on your rich, warm blood...",
          "description" : "A horrid &+RLeech&* is here.",
@@ -1137,7 +1137,7 @@
       },
       "leech6@sagewood" : {
          "damage" : "5",
-         "location" : "Swamp6",
+         "location" : "swamp6@sagewood",
          "name" : "Leech6",
          "examine" : "\nThe leech attaches its self to you, gorging on your rich, warm blood...",
          "description" : "A horrid &+RLeech&* is here.",
@@ -1153,7 +1153,7 @@
       "sauroth2@sagewood" : {
          "visibility" : "45000",
          "damage" : "100",
-         "location" : "Limbo",
+         "location" : "limbo@sagewood",
          "name" : "Sauroth2",
          "examine" : "\nHis claws are a blur as he fights against the Spirit Of The Earth-Magic. He\nseems quite distracted with the task at hand...",
          "description" : "The demon &+RSauroth&* is here, locked in mortal combat with a strange Spirit.",
@@ -1172,7 +1172,7 @@
             "BHands"
          ],
          "damage" : "5",
-         "location" : "plain8",
+         "location" : "plain8@sagewood",
          "armor" : "10",
          "name" : "Jharn",
          "examine" : "\nBefore you stands an ominous dark-druid brandishing a staff of obsidian. He\nsneers down his nose at you and says,\n\n&+c'&+CYou will make a fine sacrifice to Sauroth!&+c'&*.",
@@ -1188,7 +1188,7 @@
       },
       "eagle1@sagewood" : {
          "damage" : "2",
-         "location" : "cleft",
+         "location" : "cleft@sagewood",
          "speed" : "0",
          "aggression" : "0",
          "pname" : "The Eagle",
@@ -1199,7 +1199,7 @@
       },
       "sauroth1@sagewood" : {
          "damage" : "1000",
-         "location" : "Altar",
+         "location" : "altar@sagewood",
          "name" : "Sauroth1",
          "examine" : "\nTowering over you, the foul demon sauroth laughs haughtily and says to you,\n\n'Go away, little one. I am undefeatable. Leave while you still can.'\n\nHis razor-sharp claws are over a foot long and he moves with unsettling\nagility. Bits of his last victim still stick on his glimmering claws.",
          "description" : "The foul demon &+RSauroth&* smirks at you.",
@@ -1214,7 +1214,7 @@
       },
       "leech2@sagewood" : {
          "damage" : "5",
-         "location" : "Swamp2",
+         "location" : "swamp2@sagewood",
          "name" : "Leech2",
          "examine" : "\nThe leech attaches its self to you, gorging on your rich, warm blood...",
          "description" : "A horrid &+RLeech&* is here.",
@@ -1229,7 +1229,7 @@
       },
       "leech5@sagewood" : {
          "damage" : "5",
-         "location" : "Swamp5",
+         "location" : "swamp5@sagewood",
          "name" : "Leech5",
          "examine" : "\nThe leech attaches its self to you, gorging on your rich, warm blood...",
          "description" : "A horrid &+RLeech&* is here.",
@@ -1244,7 +1244,7 @@
       },
       "druid@sagewood" : {
          "damage" : "100",
-         "location" : "Hill",
+         "location" : "hill@sagewood",
          "armor" : "100",
          "name" : "Druid",
          "examine" : "\nYou see an old man with tired eyes that look as if they have spent many \nnights without sleep. His face is scarred by what were once terrible \nwounds. Yet all through this, he seems gentle and kindly.\n\nAt your approach he smiles weakly and says,\n\n&+c'&+CHail adventurer. As you can see around you, the lands have been\n&+Cdestroyed by a great evil known as the dark druids. They serve Sauroth,\n&+Ca demon who seeks to destroy the land and use its lifeblood for his own\n&+Cvile purposes. Sauroth's only connection to this world is a dark gemstone.\n&+CDestroy it and you destroy him.\n\n&+CA true druid's duty is to use the land's magic to protect it. Sauroth's  \n&+Cfollowers have abandoned this. They move from land to land, draining the \n&+Cvery life until all that is left is a wasteland.\n\n&+CI suggest you find my weapon, the golden sickle. They polluted it, but\n&+CI may be able to make it useable for good once again if you bring it to me.&+c'",
@@ -1266,7 +1266,7 @@
             "VTouch"
          ],
          "damage" : "20",
-         "location" : "woods3",
+         "location" : "woods3@sagewood",
          "armor" : "5",
          "name" : "Tree1",
          "examine" : "The animated tree seems to be an old yet strong oak tree animated by some\ndark magic. It moves slowly, but its branches seem to posess unnatural\nstrength.",
@@ -1282,7 +1282,7 @@
       },
       "asp@sagewood" : {
          "damage" : "50",
-         "location" : "Swamp5",
+         "location" : "swamp5@sagewood",
          "name" : "Asp",
          "examine" : "\nThe water asp is a serpent known for its lethal poison...",
          "description" : "An &+Rasp&* is here.",
@@ -1303,7 +1303,7 @@
             "VTouch"
          ],
          "damage" : "100",
-         "location" : "woods4",
+         "location" : "woods4@sagewood",
          "armor" : "40",
          "name" : "Dryad",
          "examine" : "\nCloaked in the stolen power of this forest, the dark forest-dryad seems\ninvincible. She laughs at you and tells you to leave before she dismembers\nyou.\n\nIn her wood-like hands is a long, golden, and very sharp blade. She reminds\nyou of a certain tree you saw in the clearing...",
@@ -1321,7 +1321,7 @@
       },
       "earthmagic1@sagewood" : {
          "damage" : "50",
-         "location" : "Gloom",
+         "location" : "gloom@sagewood",
          "armor" : "0",
          "name" : "EarthMagic1",
          "examine" : "\nThe Earth Magic is a strange brown spirit that struggles against the chains\naround her, trying to get free. The &+Bchains&* appear to be draining her of \npower, probobly for Sauroth's own evil purposes.",
@@ -1336,7 +1336,7 @@
       },
       "abombination@sagewood" : {
          "damage" : "20",
-         "location" : "swamp9",
+         "location" : "swamp9@sagewood",
          "aggression" : "100",
          "pname" : "The Tentacled Abomination",
          "name" : "Abombination",
@@ -1353,7 +1353,7 @@
             "Cripple"
          ],
          "damage" : "30",
-         "location" : "portal1",
+         "location" : "portal1@sagewood",
          "speed" : "0",
          "aggression" : "5",
          "pname" : "demon",
@@ -1371,7 +1371,7 @@
             "Fireball"
          ],
          "damage" : "35",
-         "location" : "Cavern3",
+         "location" : "cavern3@sagewood",
          "armor" : "10",
          "name" : "Salamander",
          "examine" : "\nSitting in a puddle of molten lava, the salamander jealously guards his\ndomain. It looks up at you and hisses loudly, showing its sharp teeth.",
@@ -1386,7 +1386,7 @@
       },
       "alligator@sagewood" : {
          "damage" : "15",
-         "location" : "mud",
+         "location" : "mud@sagewood",
          "speed" : "0",
          "aggression" : "10",
          "pname" : "The Alligator",
@@ -1400,7 +1400,7 @@
             "VTouch"
          ],
          "damage" : "20",
-         "location" : "woods4",
+         "location" : "woods4@sagewood",
          "armor" : "5",
          "name" : "Tree2",
          "examine" : "The animated tree seems to be an old yet strong oak tree animated by some\ndark magic. It moves slowly, but its branches seem to posess unnatural\nstrength.",
@@ -1416,7 +1416,7 @@
       },
       "eagle2@sagewood" : {
          "damage" : "30",
-         "location" : "limbo",
+         "location" : "limbo@sagewood",
          "armor" : "10",
          "name" : "Eagle2",
          "examine" : "\nThe Eagle is a magnificent beast. His feathers are golden, and he watches\nabout with his keen black eyes. You feel safe under his protective gaze.\nHis claws are razor sharp, and he appears to posess incredible agility.",
@@ -1429,7 +1429,7 @@
       "earthmagic2@sagewood" : {
          "visibility" : "45000",
          "damage" : "50",
-         "location" : "Limbo",
+         "location" : "limbo@sagewood",
          "armor" : "0",
          "name" : "EarthMagic2",
          "examine" : "\nThe Spirit Of The Earth-Magic strikes out hard against Sauroth, but it\nappears that she is fighting a losing battle.",
@@ -1444,7 +1444,7 @@
       },
       "asphinx@sagewood" : {
          "damage" : "10",
-         "location" : "Alcove",
+         "location" : "alcove@sagewood",
          "armor" : "50",
          "name" : "Asphinx",
          "examine" : "\nThe asphinx is a creature known to be able to petrify mortals with its deadly \npoison. However, since its cold blooded, it is particularly vunerable to \nchanges in temperature. The asphinx pokes its head up and hisses at you. \nAnything (including your arm!) stuck in the hole would probobly be bit.",

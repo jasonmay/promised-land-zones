@@ -1,7 +1,7 @@
 {
    "obj" : {
       "busheswest@camelot" : {
-         "location" : "IN_ROOM:camelot304",
+         "location" : "IN_ROOM:camelot304@camelot",
          "oflags" : [
             "noget"
          ],
@@ -13,7 +13,7 @@
          "desc[0]" : "Some bushes have been burned away."
       },
       "cuffs_handcuffs@camelot" : {
-         "location" : "IN_CONTAINER:Footlocker_Chest",
+         "location" : "IN_CONTAINER:footlocker_chest@camelot",
          "oflags" : [
             "Wearable",
             "MissChance",
@@ -31,7 +31,7 @@
          ]
       },
       "displacement_cloak@camelot" : {
-         "location" : "IN_ROOM:camelot25",
+         "location" : "IN_ROOM:camelot25@camelot",
          "armor" : "67",
          "oflags" : [
             "Wearable",
@@ -53,7 +53,7 @@
          ]
       },
       "warning_voice_2@camelot" : {
-         "location" : "IN_ROOM:camelot23",
+         "location" : "IN_ROOM:camelot23@camelot",
          "weight" : "10",
          "oflags" : [
             "NoGet"
@@ -65,7 +65,7 @@
       },
       "door6@camelot" : {
          "desc[1]" : "A closed hatch is here with light seeping through.",
-         "location" : "IN_ROOM:camelot135",
+         "location" : "IN_ROOM:camelot135@camelot",
          "desc[3]" : "Light seeps through some slits in the floor.",
          "oflags" : [
             "Lockable",
@@ -83,7 +83,7 @@
       },
       "arthurs_throne@camelot" : {
          "desc[1]" : "The throne is carved in the shape of a dragon about to take wing.",
-         "location" : "IN_ROOM:camelot6",
+         "location" : "IN_ROOM:camelot6@camelot",
          "oflags" : [
             "Container",
             "Openable",
@@ -100,7 +100,7 @@
          "desc[0]" : "The is an open panel in the base of the throne."
       },
       "volume@camelot" : {
-         "location" : "IN_ROOM:camelot257",
+         "location" : "IN_ROOM:camelot257@camelot",
          "oflags" : [
             "Noget"
          ],
@@ -111,7 +111,7 @@
          "size" : "20"
       },
       "scabbard@camelot" : {
-         "location" : "WORN_BY:pellinore",
+         "location" : "WORN_BY:pellinore@camelot",
          "armor" : "55",
          "oflags" : [
             "Wearable",
@@ -128,7 +128,7 @@
          ]
       },
       "gag@camelot" : {
-         "location" : "IN_CONTAINER:Footlocker_Chest",
+         "location" : "IN_CONTAINER:footlocker_chest@camelot",
          "weight" : "5",
          "oflags" : [
             "Wearable"
@@ -141,7 +141,7 @@
          ]
       },
       "helmet_helm@camelot" : {
-         "location" : "WORN_BY:spede",
+         "location" : "WORN_BY:spede@camelot",
          "oflags" : [
             "Lightable",
             "Wearable"
@@ -159,7 +159,7 @@
          ]
       },
       "beef@camelot" : {
-         "location" : "IN_ROOM:camelot7",
+         "location" : "IN_ROOM:camelot7@camelot",
          "weight" : "10",
          "oflags" : [
             "Food"
@@ -171,7 +171,7 @@
       },
       "guestbed_bed@camelot" : {
          "desc[1]" : "The bed clothes are a shambles! Somebody must have had a good time!",
-         "location" : "IN_ROOM:camelot273",
+         "location" : "IN_ROOM:camelot273@camelot",
          "oflags" : [
             "Key",
             "Openable",
@@ -189,7 +189,7 @@
       },
       "cat_o_nine_whip@camelot" : {
          "damage" : "7",
-         "location" : "IN_CONTAINER:Footlocker_Chest",
+         "location" : "IN_CONTAINER:footlocker_chest@camelot",
          "oflags" : [
             "Weapon"
          ],
@@ -203,7 +203,7 @@
       },
       "door4@camelot" : {
          "desc[1]" : "A sparkling trap door sits here closed.",
-         "location" : "IN_ROOM:camelot105",
+         "location" : "IN_ROOM:camelot105@camelot",
          "desc[3]" : "Something sparkles on the floor.",
          "oflags" : [
             "Lockable",
@@ -221,7 +221,7 @@
          "desc[0]" : "An open trap door emits sparkles."
       },
       "shield@camelot" : {
-         "location" : "WORN_BY:mordred",
+         "location" : "WORN_BY:mordred@camelot",
          "armor" : "65",
          "oflags" : [
             "Wearable",
@@ -236,7 +236,7 @@
          "desc[0]" : "A dark shield, painted with Mordreds coat of arms, lies here."
       },
       "zonemap_merlin@camelot" : {
-         "location" : "IN_ROOM:camelot284",
+         "location" : "IN_ROOM:camelot284@camelot",
          "oflags" : [
             "NoGet"
          ],
@@ -249,7 +249,7 @@
          "desc[0]" : "The map of the zone MERLIN is hung on the wall."
       },
       "sofa_couch@camelot" : {
-         "location" : "IN_ROOM:camelot302",
+         "location" : "IN_ROOM:camelot302@camelot",
          "oflags" : [
             "NoGet"
          ],
@@ -261,7 +261,7 @@
          "desc[0]" : "There is a soft couch here, inviting you to rest a while."
       },
       "book_tome@camelot" : {
-         "location" : "IN_ROOM:camelot285",
+         "location" : "IN_ROOM:camelot285@camelot",
          "altname" : "book",
          "name" : "Book_Tome",
          "examine" : "The tome describes the construction of monsters in general, and of\nCrusher in particular. Unfortunately, the technical language is far\nbeyond your comprehension.\n",
@@ -272,7 +272,7 @@
          "desc[0]" : "There is a large tome sitting here."
       },
       "warning_sign@camelot" : {
-         "location" : "IN_ROOM:camelot21",
+         "location" : "IN_ROOM:camelot21@camelot",
          "oflags" : [
             "NoGet"
          ],
@@ -285,7 +285,7 @@
          "desc[0]" : "There is a large sign hanging on the wall."
       },
       "holy_grail@camelot" : {
-         "location" : "CARRIED_BY:galahad",
+         "location" : "CARRIED_BY:galahad@camelot",
          "altname" : "holy",
          "name" : "holy_grail",
          "examine" : "The Holy Grail has been the object of a long quest by all of King\nArthurs knights. Surely if you give it to him, there will be a great\nreward for you!\n",
@@ -296,7 +296,7 @@
          "desc[0]" : "You've found the Holy Grail! Now if only you can give it to Arthur!"
       },
       "sword_supersword@camelot" : {
-         "location" : "IN_ROOM:camelot286",
+         "location" : "IN_ROOM:camelot286@camelot",
          "oflags" : [
             "NoGet"
          ],
@@ -309,7 +309,7 @@
          "desc[0]" : "Merlin's new SuperSword is sitting here."
       },
       "coins@camelot" : {
-         "location" : "IN_ROOM:camelot21",
+         "location" : "IN_ROOM:camelot21@camelot",
          "weight" : "10",
          "name" : "coins",
          "bvalue" : "800",
@@ -318,7 +318,7 @@
       },
       "sword_galatine@camelot" : {
          "damage" : "15",
-         "location" : "WIELDED_BY:gawaine",
+         "location" : "WIELDED_BY:gawaine@camelot",
          "oflags" : [
             "Weapon"
          ],
@@ -332,7 +332,7 @@
          "desc[0]" : "Gawaine's sword Galatine lies here. I wonder why he would leave it?"
       },
       "gauntlets_gloves@camelot" : {
-         "location" : "IN_ROOM:camelot5",
+         "location" : "IN_ROOM:camelot5@camelot",
          "armor" : "49",
          "oflags" : [
             "Armor",
@@ -351,7 +351,7 @@
          ]
       },
       "wine@camelot" : {
-         "location" : "IN_ROOM:camelot5",
+         "location" : "IN_ROOM:camelot5@camelot",
          "weight" : "10",
          "oflags" : [
             "Food",
@@ -364,7 +364,7 @@
          "size" : "10"
       },
       "chamber_pot@camelot" : {
-         "location" : "IN_CONTAINER:Guestbed_Bed",
+         "location" : "IN_CONTAINER:guestbed_bed@camelot",
          "oflags" : [
             "Openable"
          ],
@@ -378,7 +378,7 @@
          "desc[0]" : "There is a clean chamber pot here."
       },
       "pack@camelot" : {
-         "location" : "IN_ROOM:camelot143",
+         "location" : "IN_ROOM:camelot143@camelot",
          "oflags" : [
             "Container",
             "Wearable"
@@ -394,7 +394,7 @@
          "desc[0]" : "There is a small but well made pack here."
       },
       "warning_voice_1@camelot" : {
-         "location" : "IN_ROOM:camelot22",
+         "location" : "IN_ROOM:camelot22@camelot",
          "weight" : "10",
          "oflags" : [
             "NoGet"
@@ -405,7 +405,7 @@
          "size" : "10"
       },
       "warning_sign2@camelot" : {
-         "location" : "IN_ROOM:camelot287",
+         "location" : "IN_ROOM:camelot287@camelot",
          "oflags" : [
             "NoGet"
          ],
@@ -418,7 +418,7 @@
          "desc[0]" : "There is a large sign fastened to the wall."
       },
       "gems_1@camelot" : {
-         "location" : "IN_CONTAINER:pack",
+         "location" : "IN_CONTAINER:pack@camelot",
          "weight" : "5",
          "pname" : "gems",
          "name" : "gems_1",
@@ -429,7 +429,7 @@
       },
       "wighthammer_hammer@camelot" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:corledge",
+         "location" : "WIELDED_BY:corledge@camelot",
          "oflags" : [
             "Weapon",
             "MissChance"
@@ -444,7 +444,7 @@
          "desc[0]" : "A large heavy hammer has been left here."
       },
       "death_voice@camelot" : {
-         "location" : "IN_ROOM:camelot24",
+         "location" : "IN_ROOM:camelot24@camelot",
          "weight" : "10",
          "oflags" : [
             "NoGet"
@@ -455,14 +455,14 @@
          "size" : "10"
       },
       "note@camelot" : {
-         "location" : "IN_ROOM:camelot266",
+         "location" : "IN_ROOM:camelot266@camelot",
          "name" : "note",
          "examine" : "\nThe note talks about king arthur. It says:King Arthur was so \nclose to his people that he wanted everyone to call him buddy.\nHe was a very stange person. He always liked to hide in \nbizzare places like a garden, a forest or a grotte. He always\nsaid: 'The best place to hide is death.' Was a strange man he was.",
          "desc[0]" : "A note is here."
       },
       "journal_diary@camelot" : {
          "desc[1]" : "There is a small diary next to the corpse.",
-         "location" : "IN_ROOM:camelot139",
+         "location" : "IN_ROOM:camelot139@camelot",
          "oflags" : [
             "GetFlips"
          ],
@@ -478,7 +478,7 @@
          "desc[0]" : "There is a small diary here."
       },
       "gems@camelot" : {
-         "location" : "IN_ROOM:camelot22",
+         "location" : "IN_ROOM:camelot22@camelot",
          "weight" : "10",
          "name" : "gems",
          "bvalue" : "500",
@@ -487,7 +487,7 @@
       },
       "merlins_bed@camelot" : {
          "desc[1]" : "The bed is a mess! Somebody must have had a wild time in here!",
-         "location" : "IN_ROOM:camelot303",
+         "location" : "IN_ROOM:camelot303@camelot",
          "oflags" : [
             "NoGet"
          ],
@@ -501,7 +501,7 @@
       },
       "door2@camelot" : {
          "desc[1]" : "The flap on this tent seems to have been moved recently...",
-         "location" : "IN_ROOM:camelot35",
+         "location" : "IN_ROOM:camelot35@camelot",
          "desc[3]" : "Looks like you can open a flap here on the tent.",
          "oflags" : [
             "Openable",
@@ -520,7 +520,7 @@
       },
       "kobold_club@camelot" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:kurtulmak",
+         "location" : "WIELDED_BY:kurtulmak@camelot",
          "oflags" : [
             "Weapon"
          ],
@@ -534,7 +534,7 @@
          "desc[0]" : "A large heavy club lies here. It looks very stout."
       },
       "arthurs_crown@camelot" : {
-         "location" : "IN_CONTAINER:arthurs_throne",
+         "location" : "IN_CONTAINER:arthurs_throne@camelot",
          "oflags" : [
             "Wearable"
          ],
@@ -552,7 +552,7 @@
       },
       "footlocker_chest@camelot" : {
          "desc[1]" : "A large, heavy, metal bound chest is here. The chest in closed.",
-         "location" : "IN_ROOM:camelot303",
+         "location" : "IN_ROOM:camelot303@camelot",
          "oflags" : [
             "Container",
             "Openable",
@@ -570,7 +570,7 @@
          "desc[0]" : "A large, heavy, metal bound chest is here. The chest is open."
       },
       "meat@camelot" : {
-         "location" : "IN_ROOM:camelot114",
+         "location" : "IN_ROOM:camelot114@camelot",
          "weight" : "8",
          "oflags" : [
             "Food"
@@ -582,7 +582,7 @@
          "size" : "8"
       },
       "door7@camelot" : {
-         "location" : "IN_ROOM:camelot307",
+         "location" : "IN_ROOM:camelot307@camelot",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -597,7 +597,7 @@
          "desc[0]" : "The hatch is open."
       },
       "bushes@camelot" : {
-         "location" : "IN_ROOM:camelot231",
+         "location" : "IN_ROOM:camelot231@camelot",
          "oflags" : [
             "noget",
             "lightable"
@@ -611,7 +611,7 @@
          "desc[0]" : "Some bushes have been burned away."
       },
       "map_camelot@camelot" : {
-         "location" : "IN_ROOM:camelot284",
+         "location" : "IN_ROOM:camelot284@camelot",
          "oflags" : [
             "NoGet"
          ],
@@ -624,7 +624,7 @@
          "desc[0]" : "The map of the zone CAMELOT is pinned to the table."
       },
       "corpse@camelot" : {
-         "location" : "IN_ROOM:camelot139",
+         "location" : "IN_ROOM:camelot139@camelot",
          "weight" : "10",
          "oflags" : [
             "NoGet"
@@ -635,7 +635,7 @@
          "size" : "10"
       },
       "warning_sign3@camelot" : {
-         "location" : "IN_ROOM:camelot291",
+         "location" : "IN_ROOM:camelot291@camelot",
          "oflags" : [
             "NoGet"
          ],
@@ -648,7 +648,7 @@
          "desc[0]" : "There is a large sign on the wall, with a flashing red light on it."
       },
       "red_rose@camelot" : {
-         "location" : "IN_ROOM:camelot280",
+         "location" : "IN_ROOM:camelot280@camelot",
          "oflags" : [
             "NoGet"
          ],
@@ -661,7 +661,7 @@
          "desc[0]" : "A single perfectly formed red rose has been placed here."
       },
       "key@camelot" : {
-         "location" : "IN_ROOM:camelot303",
+         "location" : "IN_ROOM:camelot303@camelot",
          "weight" : "5",
          "oflags" : [
             "key"
@@ -672,7 +672,7 @@
          "size" : "5"
       },
       "door5@camelot" : {
-         "location" : "IN_ROOM:camelot306",
+         "location" : "IN_ROOM:camelot306@camelot",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -686,7 +686,7 @@
          "state" : "3"
       },
       "door3@camelot" : {
-         "location" : "IN_ROOM:camelot305",
+         "location" : "IN_ROOM:camelot305@camelot",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -701,7 +701,7 @@
          "maxstate" : "3"
       },
       "gold_bullion@camelot" : {
-         "location" : "IN_ROOM:camelot23",
+         "location" : "IN_ROOM:camelot23@camelot",
          "altname" : "gold",
          "name" : "gold_bullion",
          "size" : "10",
@@ -711,7 +711,7 @@
          "desc[0]" : "A bar of gold bullion is just sitting there, waiting to be taken."
       },
       "compass@camelot" : {
-         "location" : "IN_ROOM:camelot135",
+         "location" : "IN_ROOM:camelot135@camelot",
          "weight" : "5",
          "name" : "compass",
          "examine" : "Isn't it amazing? No matter how much you twist and turn, it always\npoints north!\n",
@@ -721,7 +721,7 @@
       },
       "soulstone@camelot" : {
          "desc[1]" : "     \nA blue glittering ball is here.",
-         "location" : "CARRIED_BY:buddy",
+         "location" : "CARRIED_BY:buddy@camelot",
          "weight" : "60",
          "oflags" : [
             "fireballspell",
@@ -741,7 +741,7 @@
          "size" : "60"
       },
       "coins_1@camelot" : {
-         "location" : "IN_CONTAINER:pack",
+         "location" : "IN_CONTAINER:pack@camelot",
          "weight" : "5",
          "pname" : "coins",
          "name" : "coins_1",
@@ -750,7 +750,7 @@
          "size" : "5"
       },
       "rope_rope@camelot" : {
-         "location" : "IN_CONTAINER:Footlocker_Chest",
+         "location" : "IN_CONTAINER:footlocker_chest@camelot",
          "oflags" : [
             "Wearable"
          ],
@@ -765,7 +765,7 @@
          ]
       },
       "armor_platemail@camelot" : {
-         "location" : "WORN_BY:launcelot",
+         "location" : "WORN_BY:launcelot@camelot",
          "armor" : "54",
          "oflags" : [
             "Container",
@@ -789,7 +789,7 @@
          ]
       },
       "mirror_portal@camelot" : {
-         "location" : "IN_ROOM:camelot302",
+         "location" : "IN_ROOM:camelot302@camelot",
          "oflags" : [
             "NoGet"
          ],
@@ -802,7 +802,7 @@
          "desc[0]" : "There is a large shimmering mirror on the east wall."
       },
       "bread@camelot" : {
-         "location" : "IN_ROOM:camelot114",
+         "location" : "IN_ROOM:camelot114@camelot",
          "weight" : "8",
          "oflags" : [
             "Food"
@@ -813,7 +813,7 @@
          "size" : "8"
       },
       "null_pearls@camelot" : {
-         "location" : "IN_CONTAINER:Footlocker_Chest",
+         "location" : "IN_CONTAINER:footlocker_chest@camelot",
          "oflags" : [
             "Wearable"
          ],
@@ -829,7 +829,7 @@
          ]
       },
       "recliner_chair@camelot" : {
-         "location" : "IN_ROOM:camelot302",
+         "location" : "IN_ROOM:camelot302@camelot",
          "oflags" : [
             "NoGet"
          ],
@@ -841,7 +841,7 @@
          "desc[0]" : "An overstuffed chair in the corner looks very inviting."
       },
       "cheese@camelot" : {
-         "location" : "IN_ROOM:camelot114",
+         "location" : "IN_ROOM:camelot114@camelot",
          "weight" : "8",
          "oflags" : [
             "Food"
@@ -853,7 +853,7 @@
          "size" : "8"
       },
       "armor_armorall@camelot" : {
-         "location" : "IN_ROOM:camelot286",
+         "location" : "IN_ROOM:camelot286@camelot",
          "oflags" : [
             "Lightable",
             "Wearable",
@@ -871,7 +871,7 @@
          ]
       },
       "sign_poster@camelot" : {
-         "location" : "IN_ROOM:camelot78",
+         "location" : "IN_ROOM:camelot78@camelot",
          "oflags" : [
             "NoGet"
          ],
@@ -882,7 +882,7 @@
          "desc[0]" : "There is a large sign nailed to the wall."
       },
       "bag_bookbag@camelot" : {
-         "location" : "IN_ROOM:camelot257",
+         "location" : "IN_ROOM:camelot257@camelot",
          "oflags" : [
             "Wearable",
             "Openable",
@@ -900,7 +900,7 @@
          ]
       },
       "tickler_feather@camelot" : {
-         "location" : "IN_CONTAINER:Footlocker_Chest",
+         "location" : "IN_CONTAINER:footlocker_chest@camelot",
          "weight" : "10",
          "altname" : "tickler",
          "pname" : "feather",
@@ -913,8 +913,8 @@
    "loc" : {
       "camelot281@camelot" : {
          "exits" : {
-            "e" : "camelot280",
-            "n" : "camelot282"
+            "e" : "camelot280@camelot",
+            "n" : "camelot282@camelot"
          },
          "flags" : [
             "Private",
@@ -928,7 +928,7 @@
       },
       "camelot250@camelot" : {
          "exits" : {
-            "d" : "camelot241"
+            "d" : "camelot241@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -941,8 +941,8 @@
       },
       "camelot225@camelot" : {
          "exits" : {
-            "n" : "camelot224",
-            "s" : "camelot226"
+            "n" : "camelot224@camelot",
+            "s" : "camelot226@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -953,7 +953,7 @@
       },
       "camelot61@camelot" : {
          "exits" : {
-            "e" : "camelot60"
+            "e" : "camelot60@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -964,8 +964,8 @@
       },
       "camelot289@camelot" : {
          "exits" : {
-            "w" : "camelot290",
-            "e" : "camelot288"
+            "w" : "camelot290@camelot",
+            "e" : "camelot288@camelot"
          },
          "flags" : [
             "Dark"
@@ -978,7 +978,7 @@
       },
       "camelot285@camelot" : {
          "exits" : {
-            "n" : "camelot283"
+            "n" : "camelot283@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -989,10 +989,10 @@
       },
       "camelot237@camelot" : {
          "exits" : {
-            "w" : "camelot238",
-            "e" : "camelot248",
-            "u" : "camelot251",
-            "d" : "camelot218"
+            "w" : "camelot238@camelot",
+            "e" : "camelot248@camelot",
+            "u" : "camelot251@camelot",
+            "d" : "camelot218@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1003,8 +1003,8 @@
       },
       "camelot131@camelot" : {
          "exits" : {
-            "w" : "camelot132",
-            "s" : "camelot130"
+            "w" : "camelot132@camelot",
+            "s" : "camelot130@camelot"
          },
          "flags" : [
             "Dark"
@@ -1017,8 +1017,8 @@
       },
       "camelot29@camelot" : {
          "exits" : {
-            "w" : "camelot31",
-            "s" : "camelot28"
+            "w" : "camelot31@camelot",
+            "s" : "camelot28@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1031,7 +1031,7 @@
       },
       "camelot67@camelot" : {
          "exits" : {
-            "e" : "camelot66"
+            "e" : "camelot66@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1042,8 +1042,8 @@
       },
       "camelot300@camelot" : {
          "exits" : {
-            "w" : "camelot301",
-            "e" : "camelot299"
+            "w" : "camelot301@camelot",
+            "e" : "camelot299@camelot"
          },
          "flags" : [
             "Dark"
@@ -1056,10 +1056,10 @@
       },
       "camelot44@camelot" : {
          "exits" : {
-            "w" : "camelot44",
-            "e" : "camelot44",
-            "n" : "camelot44",
-            "s" : "camelot45"
+            "w" : "camelot44@camelot",
+            "e" : "camelot44@camelot",
+            "n" : "camelot44@camelot",
+            "s" : "camelot45@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1072,8 +1072,8 @@
       },
       "camelot280@camelot" : {
          "exits" : {
-            "w" : "camelot281",
-            "n" : "camelot303"
+            "w" : "camelot281@camelot",
+            "n" : "camelot303@camelot"
          },
          "flags" : [
             "Private",
@@ -1087,8 +1087,8 @@
       },
       "camelot134@camelot" : {
          "exits" : {
-            "e" : "camelot135",
-            "n" : "camelot133"
+            "e" : "camelot135@camelot",
+            "n" : "camelot133@camelot"
          },
          "flags" : [
             "Dark"
@@ -1101,7 +1101,7 @@
       },
       "camelot253@camelot" : {
          "exits" : {
-            "d" : "camelot245"
+            "d" : "camelot245@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1129,8 +1129,8 @@
       },
       "camelot115@camelot" : {
          "exits" : {
-            "w" : "camelot116",
-            "e" : "camelot112"
+            "w" : "camelot116@camelot",
+            "e" : "camelot112@camelot"
          },
          "flags" : [
             "Dark"
@@ -1143,10 +1143,10 @@
       },
       "camelot51@camelot" : {
          "exits" : {
-            "w" : "camelot51",
-            "e" : "camelot51",
-            "n" : "camelot52",
-            "s" : "camelot51"
+            "w" : "camelot51@camelot",
+            "e" : "camelot51@camelot",
+            "n" : "camelot52@camelot",
+            "s" : "camelot51@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1159,10 +1159,10 @@
       },
       "camelot154@camelot" : {
          "exits" : {
-            "w" : "camelot154",
-            "e" : "camelot33",
-            "n" : "camelot154",
-            "s" : "camelot154"
+            "w" : "camelot154@camelot",
+            "e" : "camelot33@camelot",
+            "n" : "camelot154@camelot",
+            "s" : "camelot154@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1175,7 +1175,7 @@
       },
       "camelot151@camelot" : {
          "exits" : {
-            "e" : "camelot149"
+            "e" : "camelot149@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1186,8 +1186,8 @@
       },
       "camelot240@camelot" : {
          "exits" : {
-            "n" : "camelot241",
-            "s" : "camelot239"
+            "n" : "camelot241@camelot",
+            "s" : "camelot239@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1200,9 +1200,9 @@
       },
       "camelot80@camelot" : {
          "exits" : {
-            "w" : "camelot81",
-            "n" : "camelot82",
-            "s" : "camelot79"
+            "w" : "camelot81@camelot",
+            "n" : "camelot82@camelot",
+            "s" : "camelot79@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1215,7 +1215,7 @@
       },
       "camelot70@camelot" : {
          "exits" : {
-            "e" : "camelot69"
+            "e" : "camelot69@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1226,8 +1226,8 @@
       },
       "camelot65@camelot" : {
          "exits" : {
-            "e" : "CamLearn",
-            "w" : "camelot63"
+            "e" : "camlearn@camelot",
+            "w" : "camelot63@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1238,10 +1238,10 @@
       },
       "camelot90@camelot" : {
          "exits" : {
-            "w" : "camelot90",
-            "e" : "camelot89",
+            "w" : "camelot90@camelot",
+            "e" : "camelot89@camelot",
             "n" : "moss_maze1@undead",
-            "s" : "camelot90"
+            "s" : "camelot90@camelot"
          },
          "flags" : [
             "Outdoors",
@@ -1255,7 +1255,7 @@
       },
       "camelot252@camelot" : {
          "exits" : {
-            "d" : "camelot247"
+            "d" : "camelot247@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1268,9 +1268,9 @@
       },
       "camelot226@camelot" : {
          "exits" : {
-            "w" : "camelot227",
-            "u" : "camelot245",
-            "n" : "camelot225"
+            "w" : "camelot227@camelot",
+            "u" : "camelot245@camelot",
+            "n" : "camelot225@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1281,7 +1281,7 @@
       },
       "camelot306@camelot" : {
          "exits" : {
-            "u" : "^door5"
+            "u" : "^door5@camelot"
          },
          "flags" : [
             "nosummon",
@@ -1297,7 +1297,7 @@
       },
       "camelot286@camelot" : {
          "exits" : {
-            "e" : "camelot283"
+            "e" : "camelot283@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1308,8 +1308,8 @@
       },
       "camelot109@camelot" : {
          "exits" : {
-            "w" : "camelot110",
-            "s" : "camelot108"
+            "w" : "camelot110@camelot",
+            "s" : "camelot108@camelot"
          },
          "flags" : [
             "Dark"
@@ -1322,9 +1322,9 @@
       },
       "camelot88@camelot" : {
          "exits" : {
-            "w" : "camelot89",
-            "e" : "camelot87",
-            "s" : "camelot91"
+            "w" : "camelot89@camelot",
+            "e" : "camelot87@camelot",
+            "s" : "camelot91@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1337,8 +1337,8 @@
       },
       "camelot294@camelot" : {
          "exits" : {
-            "e" : "camelot295",
-            "n" : "camelot293"
+            "e" : "camelot295@camelot",
+            "n" : "camelot293@camelot"
          },
          "flags" : [
             "Dark"
@@ -1351,10 +1351,10 @@
       },
       "camelot39@camelot" : {
          "exits" : {
-            "w" : "camelot39",
-            "e" : "camelot39",
-            "n" : "camelot39",
-            "s" : "camelot40"
+            "w" : "camelot39@camelot",
+            "e" : "camelot39@camelot",
+            "n" : "camelot39@camelot",
+            "s" : "camelot40@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1367,8 +1367,8 @@
       },
       "camelot6@camelot" : {
          "exits" : {
-            "w" : "camelot7",
-            "s" : "camelot3"
+            "w" : "camelot7@camelot",
+            "s" : "camelot3@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1379,7 +1379,7 @@
       },
       "camelot120@camelot" : {
          "exits" : {
-            "s" : "camelot119"
+            "s" : "camelot119@camelot"
          },
          "flags" : [
             "Dark"
@@ -1392,9 +1392,9 @@
       },
       "camelot140@camelot" : {
          "exits" : {
-            "w" : "camelot141",
-            "e" : "camelot139",
-            "d" : "camelot144"
+            "w" : "camelot141@camelot",
+            "e" : "camelot139@camelot",
+            "d" : "camelot144@camelot"
          },
          "flags" : [
             "Dark"
@@ -1407,8 +1407,8 @@
       },
       "camelot139@camelot" : {
          "exits" : {
-            "w" : "camelot140",
-            "n" : "camelot138"
+            "w" : "camelot140@camelot",
+            "n" : "camelot138@camelot"
          },
          "flags" : [
             "Dark"
@@ -1421,8 +1421,8 @@
       },
       "camelot83@camelot" : {
          "exits" : {
-            "n" : "camelot93",
-            "s" : "camelot82"
+            "n" : "camelot93@camelot",
+            "s" : "camelot82@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1435,10 +1435,10 @@
       },
       "camelot38@camelot" : {
          "exits" : {
-            "w" : "camelot38",
-            "e" : "camelot39",
-            "n" : "camelot38",
-            "s" : "camelot38"
+            "w" : "camelot38@camelot",
+            "e" : "camelot39@camelot",
+            "n" : "camelot38@camelot",
+            "s" : "camelot38@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1451,7 +1451,7 @@
       },
       "camelot278@camelot" : {
          "exits" : {
-            "e" : "camelot272"
+            "e" : "camelot272@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1462,8 +1462,8 @@
       },
       "camelot121@camelot" : {
          "exits" : {
-            "w" : "camelot123",
-            "e" : "camelot119"
+            "w" : "camelot123@camelot",
+            "e" : "camelot119@camelot"
          },
          "flags" : [
             "Dark"
@@ -1476,10 +1476,10 @@
       },
       "camelot49@camelot" : {
          "exits" : {
-            "w" : "camelot49",
-            "e" : "camelot49",
-            "n" : "camelot49",
-            "s" : "camelot50"
+            "w" : "camelot49@camelot",
+            "e" : "camelot49@camelot",
+            "n" : "camelot49@camelot",
+            "s" : "camelot50@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1492,10 +1492,10 @@
       },
       "camelot217@camelot" : {
          "exits" : {
-            "w" : "camelot218",
-            "e" : "camelot228",
-            "n" : "camelot229",
-            "s" : "camelot214"
+            "w" : "camelot218@camelot",
+            "e" : "camelot228@camelot",
+            "n" : "camelot229@camelot",
+            "s" : "camelot214@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1508,10 +1508,10 @@
       },
       "camelot214@camelot" : {
          "exits" : {
-            "w" : "camelot215",
-            "e" : "camelot216",
-            "n" : "camelot217",
-            "s" : "camelot72"
+            "w" : "camelot215@camelot",
+            "e" : "camelot216@camelot",
+            "n" : "camelot217@camelot",
+            "s" : "camelot72@camelot"
          },
          "flags" : [
             "Outdoors",
@@ -1525,8 +1525,8 @@
       },
       "camelot108@camelot" : {
          "exits" : {
-            "w" : "camelot107",
-            "n" : "camelot109"
+            "w" : "camelot107@camelot",
+            "n" : "camelot109@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1537,8 +1537,8 @@
       },
       "camelot291@camelot" : {
          "exits" : {
-            "w" : "camelot292",
-            "e" : "camelot290"
+            "w" : "camelot292@camelot",
+            "e" : "camelot290@camelot"
          },
          "flags" : [
             "Dark"
@@ -1551,9 +1551,9 @@
       },
       "camelot272@camelot" : {
          "exits" : {
-            "w" : "camelot278",
-            "e" : "camelot277",
-            "s" : "camelot268"
+            "w" : "camelot278@camelot",
+            "e" : "camelot277@camelot",
+            "s" : "camelot268@camelot"
          },
          "flags" : [
             "Private",
@@ -1567,8 +1567,8 @@
       },
       "camelot129@camelot" : {
          "exits" : {
-            "w" : "camelot128",
-            "n" : "camelot130"
+            "w" : "camelot128@camelot",
+            "n" : "camelot130@camelot"
          },
          "flags" : [
             "Dark"
@@ -1581,9 +1581,9 @@
       },
       "camelot224@camelot" : {
          "exits" : {
-            "w" : "camelot223",
-            "u" : "camelot243",
-            "s" : "camelot225"
+            "w" : "camelot223@camelot",
+            "u" : "camelot243@camelot",
+            "s" : "camelot225@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1594,7 +1594,7 @@
       },
       "camelot16@camelot" : {
          "exits" : {
-            "e" : "camelot15"
+            "e" : "camelot15@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1605,8 +1605,8 @@
       },
       "camelot@camelot" : {
          "exits" : {
-            "n" : "camelot1",
-            "s" : "Rocky@moor"
+            "n" : "camelot1@camelot",
+            "s" : "rocky@moor"
          },
          "flags" : [
             "Outdoors",
@@ -1620,8 +1620,8 @@
       },
       "camelot25@camelot" : {
          "exits" : {
-            "w" : "camelot27",
-            "s" : "camelot18"
+            "w" : "camelot27@camelot",
+            "s" : "camelot18@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1632,7 +1632,7 @@
       },
       "camelot71@camelot" : {
          "exits" : {
-            "w" : "camelot69"
+            "w" : "camelot69@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1643,9 +1643,9 @@
       },
       "camelot69@camelot" : {
          "exits" : {
-            "w" : "camelot70",
-            "e" : "camelot71",
-            "s" : "camelot66"
+            "w" : "camelot70@camelot",
+            "e" : "camelot71@camelot",
+            "s" : "camelot66@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1656,8 +1656,8 @@
       },
       "camelot290@camelot" : {
          "exits" : {
-            "w" : "camelot291",
-            "e" : "camelot289"
+            "w" : "camelot291@camelot",
+            "e" : "camelot289@camelot"
          },
          "flags" : [
             "Dark"
@@ -1670,7 +1670,7 @@
       },
       "camelot277@camelot" : {
          "exits" : {
-            "w" : "camelot272"
+            "w" : "camelot272@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1681,10 +1681,10 @@
       },
       "camelot112@camelot" : {
          "exits" : {
-            "w" : "camelot115",
-            "e" : "camelot113",
-            "n" : "camelot114",
-            "s" : "camelot110"
+            "w" : "camelot115@camelot",
+            "e" : "camelot113@camelot",
+            "n" : "camelot114@camelot",
+            "s" : "camelot110@camelot"
          },
          "flags" : [
             "Dark"
@@ -1697,7 +1697,7 @@
       },
       "camelot11@camelot" : {
          "exits" : {
-            "w" : "camelot9"
+            "w" : "camelot9@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1708,10 +1708,10 @@
       },
       "camelot103@camelot" : {
          "exits" : {
-            "e" : "camelot102",
-            "n" : "camelot104",
-            "d" : "camelot136",
-            "s" : "camelot138"
+            "e" : "camelot102@camelot",
+            "n" : "camelot104@camelot",
+            "d" : "camelot136@camelot",
+            "s" : "camelot138@camelot"
          },
          "flags" : [
             "Dark"
@@ -1724,9 +1724,9 @@
       },
       "camelot2@camelot" : {
          "exits" : {
-            "w" : "camelot4",
-            "e" : "camelot1",
-            "n" : "camelot5"
+            "w" : "camelot4@camelot",
+            "e" : "camelot1@camelot",
+            "n" : "camelot5@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1737,7 +1737,7 @@
       },
       "camelot24@camelot" : {
          "exits" : {
-            "s" : "camelot23"
+            "s" : "camelot23@camelot"
          },
          "flags" : [
             "Death"
@@ -1750,8 +1750,8 @@
       },
       "camelot128@camelot" : {
          "exits" : {
-            "w" : "camelot127",
-            "e" : "camelot129"
+            "w" : "camelot127@camelot",
+            "e" : "camelot129@camelot"
          },
          "flags" : [
             "Dark"
@@ -1764,8 +1764,8 @@
       },
       "camelot301@camelot" : {
          "exits" : {
-            "w" : "camelot283",
-            "e" : "camelot300"
+            "w" : "camelot283@camelot",
+            "e" : "camelot300@camelot"
          },
          "flags" : [
             "Dark"
@@ -1778,7 +1778,7 @@
       },
       "camelot267@camelot" : {
          "exits" : {
-            "s" : "camelot260"
+            "s" : "camelot260@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1789,8 +1789,8 @@
       },
       "camelot123@camelot" : {
          "exits" : {
-            "e" : "camelot121",
-            "n" : "camelot124"
+            "e" : "camelot121@camelot",
+            "n" : "camelot124@camelot"
          },
          "flags" : [
             "Dark"
@@ -1803,9 +1803,9 @@
       },
       "camelot116@camelot" : {
          "exits" : {
-            "w" : "camelot118",
-            "e" : "camelot115",
-            "n" : "camelot117"
+            "w" : "camelot118@camelot",
+            "e" : "camelot115@camelot",
+            "n" : "camelot117@camelot"
          },
          "flags" : [
             "Dark"
@@ -1818,8 +1818,8 @@
       },
       "camelot293@camelot" : {
          "exits" : {
-            "e" : "camelot292",
-            "s" : "camelot294"
+            "e" : "camelot292@camelot",
+            "s" : "camelot294@camelot"
          },
          "flags" : [
             "Dark"
@@ -1832,10 +1832,10 @@
       },
       "camelot247@camelot" : {
          "exits" : {
-            "w" : "camelot248",
-            "e" : "camelot246",
-            "u" : "camelot252",
-            "d" : "camelot228"
+            "w" : "camelot248@camelot",
+            "e" : "camelot246@camelot",
+            "u" : "camelot252@camelot",
+            "d" : "camelot228@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1846,10 +1846,10 @@
       },
       "camelot89@camelot" : {
          "exits" : {
-            "w" : "camelot90",
-            "e" : "camelot88",
-            "n" : "camelot90",
-            "s" : "camelot90"
+            "w" : "camelot90@camelot",
+            "e" : "camelot88@camelot",
+            "n" : "camelot90@camelot",
+            "s" : "camelot90@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1862,10 +1862,10 @@
       },
       "camelot59@camelot" : {
          "exits" : {
-            "w" : "camelot76",
-            "e" : "camelot72",
-            "n" : "camelot60",
-            "s" : "camelot58"
+            "w" : "camelot76@camelot",
+            "e" : "camelot72@camelot",
+            "n" : "camelot60@camelot",
+            "s" : "camelot58@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1878,10 +1878,10 @@
       },
       "camelot15@camelot" : {
          "exits" : {
-            "w" : "camelot16",
-            "e" : "camelot17",
-            "n" : "camelot18",
-            "s" : "camelot12"
+            "w" : "camelot16@camelot",
+            "e" : "camelot17@camelot",
+            "n" : "camelot18@camelot",
+            "s" : "camelot12@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1892,9 +1892,9 @@
       },
       "camelot149@camelot" : {
          "exits" : {
-            "w" : "camelot151",
-            "e" : "camelot150",
-            "s" : "camelot148"
+            "w" : "camelot151@camelot",
+            "e" : "camelot150@camelot",
+            "s" : "camelot148@camelot"
          },
          "flags" : [
             "Dark"
@@ -1907,9 +1907,9 @@
       },
       "camelot273@camelot" : {
          "exits" : {
-            "w" : "camelot268",
-            "n" : "camelot276",
-            "s" : "camelot275"
+            "w" : "camelot268@camelot",
+            "n" : "camelot276@camelot",
+            "s" : "camelot275@camelot"
          },
          "flags" : [
             "Private",
@@ -1923,8 +1923,8 @@
       },
       "camelot230@camelot" : {
          "exits" : {
-            "e" : "camelot229",
-            "n" : "camelot231"
+            "e" : "camelot229@camelot",
+            "n" : "camelot231@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1937,9 +1937,9 @@
       },
       "camelot228@camelot" : {
          "exits" : {
-            "w" : "camelot217",
-            "e" : "camelot227",
-            "u" : "camelot247"
+            "w" : "camelot217@camelot",
+            "e" : "camelot227@camelot",
+            "u" : "camelot247@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -1950,7 +1950,7 @@
       },
       "camelot86@camelot" : {
          "exits" : {
-            "n" : "camelot84"
+            "n" : "camelot84@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1963,7 +1963,7 @@
       },
       "camelot111@camelot" : {
          "exits" : {
-            "e" : "camelot110"
+            "e" : "camelot110@camelot"
          },
          "flags" : [
             "Dark"
@@ -1976,9 +1976,9 @@
       },
       "camelot31@camelot" : {
          "exits" : {
-            "e" : "camelot29",
-            "n" : "camelot57",
-            "s" : "camelot30"
+            "e" : "camelot29@camelot",
+            "n" : "camelot57@camelot",
+            "s" : "camelot30@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -1991,10 +1991,10 @@
       },
       "camelot18@camelot" : {
          "exits" : {
-            "w" : "camelot19",
-            "e" : "camelot20",
-            "n" : "camelot25",
-            "s" : "camelot15"
+            "w" : "camelot19@camelot",
+            "e" : "camelot20@camelot",
+            "n" : "camelot25@camelot",
+            "s" : "camelot15@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2005,8 +2005,8 @@
       },
       "camelot282@camelot" : {
          "exits" : {
-            "e" : "camelot303",
-            "s" : "camelot281"
+            "e" : "camelot303@camelot",
+            "s" : "camelot281@camelot"
          },
          "flags" : [
             "Private",
@@ -2020,8 +2020,8 @@
       },
       "camelot264@camelot" : {
          "exits" : {
-            "w" : "camelot231",
-            "e" : "camelot263"
+            "w" : "camelot231@camelot",
+            "e" : "camelot263@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2032,10 +2032,10 @@
       },
       "camelot40@camelot" : {
          "exits" : {
-            "w" : "camelot40",
-            "e" : "camelot40",
-            "n" : "camelot40",
-            "s" : "camelot41"
+            "w" : "camelot40@camelot",
+            "e" : "camelot40@camelot",
+            "n" : "camelot40@camelot",
+            "s" : "camelot41@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2048,7 +2048,7 @@
       },
       "camelot254@camelot" : {
          "exits" : {
-            "d" : "camelot243"
+            "d" : "camelot243@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2061,7 +2061,7 @@
       },
       "camelot142@camelot" : {
          "exits" : {
-            "e" : "camelot141"
+            "e" : "camelot141@camelot"
          },
          "flags" : [
             "Dark"
@@ -2074,7 +2074,7 @@
       },
       "camelot62@camelot" : {
          "exits" : {
-            "w" : "camelot60"
+            "w" : "camelot60@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2085,9 +2085,9 @@
       },
       "camelot302@camelot" : {
          "exits" : {
-            "w" : "camelot303",
-            "e" : "Temple@start",
-            "s" : "camelot279"
+            "w" : "camelot303@camelot",
+            "e" : "temple@start",
+            "s" : "camelot279@camelot"
          },
          "flags" : [
             "Private",
@@ -2101,9 +2101,9 @@
       },
       "camelot222@camelot" : {
          "exits" : {
-            "e" : "camelot223",
-            "u" : "camelot241",
-            "s" : "camelot221"
+            "e" : "camelot223@camelot",
+            "u" : "camelot241@camelot",
+            "s" : "camelot221@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2114,11 +2114,11 @@
       },
       "camelot35@camelot" : {
          "exits" : {
-            "w" : "camelot34",
-            "e" : "camelot35",
-            "n" : "camelot35",
-            "d" : "^door2",
-            "s" : "camelot35"
+            "w" : "camelot34@camelot",
+            "e" : "camelot35@camelot",
+            "n" : "camelot35@camelot",
+            "d" : "^door2@camelot",
+            "s" : "camelot35@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2131,10 +2131,10 @@
       },
       "camelot260@camelot" : {
          "exits" : {
-            "w" : "camelot262",
-            "e" : "camelot265",
-            "n" : "camelot267",
-            "s" : "camelot258"
+            "w" : "camelot262@camelot",
+            "e" : "camelot265@camelot",
+            "n" : "camelot267@camelot",
+            "s" : "camelot258@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2145,10 +2145,10 @@
       },
       "camelot77@camelot" : {
          "exits" : {
-            "w" : "camelot76",
-            "e" : "camelot77",
-            "n" : "camelot77",
-            "s" : "camelot76"
+            "w" : "camelot76@camelot",
+            "e" : "camelot77@camelot",
+            "n" : "camelot77@camelot",
+            "s" : "camelot76@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2161,7 +2161,7 @@
       },
       "camelot10@camelot" : {
          "exits" : {
-            "e" : "camelot9"
+            "e" : "camelot9@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2172,10 +2172,10 @@
       },
       "camelot243@camelot" : {
          "exits" : {
-            "w" : "camelot242",
-            "u" : "camelot254",
-            "d" : "camelot224",
-            "s" : "camelot244"
+            "w" : "camelot242@camelot",
+            "u" : "camelot254@camelot",
+            "d" : "camelot224@camelot",
+            "s" : "camelot244@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2186,8 +2186,8 @@
       },
       "camelot22@camelot" : {
          "exits" : {
-            "n" : "camelot23",
-            "s" : "camelot21"
+            "n" : "camelot23@camelot",
+            "s" : "camelot21@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2198,10 +2198,10 @@
       },
       "camelot47@camelot" : {
          "exits" : {
-            "w" : "camelot47",
-            "e" : "camelot47",
-            "n" : "camelot48",
-            "s" : "camelot47"
+            "w" : "camelot47@camelot",
+            "e" : "camelot47@camelot",
+            "n" : "camelot48@camelot",
+            "s" : "camelot47@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2214,10 +2214,10 @@
       },
       "camelot43@camelot" : {
          "exits" : {
-            "w" : "camelot43",
-            "e" : "camelot44",
-            "n" : "camelot43",
-            "s" : "camelot43"
+            "w" : "camelot43@camelot",
+            "e" : "camelot44@camelot",
+            "n" : "camelot43@camelot",
+            "s" : "camelot43@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2230,9 +2230,9 @@
       },
       "camelot141@camelot" : {
          "exits" : {
-            "w" : "camelot142",
-            "e" : "camelot140",
-            "s" : "camelot145"
+            "w" : "camelot142@camelot",
+            "e" : "camelot140@camelot",
+            "s" : "camelot145@camelot"
          },
          "flags" : [
             "Dark"
@@ -2245,8 +2245,8 @@
       },
       "camelot122@camelot" : {
          "exits" : {
-            "n" : "camelot119",
-            "s" : "camelot125"
+            "n" : "camelot119@camelot",
+            "s" : "camelot125@camelot"
          },
          "flags" : [
             "Dark"
@@ -2259,8 +2259,8 @@
       },
       "camelot23@camelot" : {
          "exits" : {
-            "n" : "camelot24",
-            "s" : "camelot22"
+            "n" : "camelot24@camelot",
+            "s" : "camelot22@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2271,11 +2271,11 @@
       },
       "camelot283@camelot" : {
          "exits" : {
-            "w" : "camelot286",
-            "e" : "camelot284",
-            "u" : "camelot266",
-            "n" : "camelot287",
-            "s" : "camelot285"
+            "w" : "camelot286@camelot",
+            "e" : "camelot284@camelot",
+            "u" : "camelot266@camelot",
+            "n" : "camelot287@camelot",
+            "s" : "camelot285@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2286,7 +2286,7 @@
       },
       "camelot68@camelot" : {
          "exits" : {
-            "w" : "camelot66"
+            "w" : "camelot66@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2297,8 +2297,8 @@
       },
       "camelot78@camelot" : {
          "exits" : {
-            "w" : "camelot79",
-            "e" : "camelot76"
+            "w" : "camelot79@camelot",
+            "e" : "camelot76@camelot"
          },
          "flags" : [
             "Party",
@@ -2313,7 +2313,7 @@
       },
       "camelot19@camelot" : {
          "exits" : {
-            "e" : "camelot18"
+            "e" : "camelot18@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2324,8 +2324,8 @@
       },
       "camelot7@camelot" : {
          "exits" : {
-            "e" : "camelot6",
-            "n" : "camelot26"
+            "e" : "camelot6@camelot",
+            "n" : "camelot26@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2336,10 +2336,10 @@
       },
       "camelot241@camelot" : {
          "exits" : {
-            "e" : "camelot242",
-            "u" : "camelot250",
-            "d" : "camelot222",
-            "s" : "camelot240"
+            "e" : "camelot242@camelot",
+            "u" : "camelot250@camelot",
+            "d" : "camelot222@camelot",
+            "s" : "camelot240@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2351,7 +2351,7 @@
       "camelot85@camelot" : {
          "exits" : {
             "n" : "1@cyrus",
-            "s" : "camelot84"
+            "s" : "camelot84@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2364,9 +2364,9 @@
       },
       "camelot218@camelot" : {
          "exits" : {
-            "w" : "camelot219",
-            "e" : "camelot217",
-            "u" : "camelot237"
+            "w" : "camelot219@camelot",
+            "e" : "camelot217@camelot",
+            "u" : "camelot237@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2377,8 +2377,8 @@
       },
       "camelot296@camelot" : {
          "exits" : {
-            "w" : "camelot295",
-            "e" : "camelot297"
+            "w" : "camelot295@camelot",
+            "e" : "camelot297@camelot"
          },
          "flags" : [
             "Dark"
@@ -2391,8 +2391,8 @@
       },
       "camelot287@camelot" : {
          "exits" : {
-            "n" : "camelot288",
-            "s" : "camelot283"
+            "n" : "camelot288@camelot",
+            "s" : "camelot283@camelot"
          },
          "flags" : [
             "NoMobiles"
@@ -2405,7 +2405,7 @@
       },
       "camelot14@camelot" : {
          "exits" : {
-            "w" : "camelot12"
+            "w" : "camelot12@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2416,10 +2416,10 @@
       },
       "camelot255@camelot" : {
          "exits" : {
-            "w" : "camelot257",
-            "e" : "camelot256",
-            "n" : "camelot258",
-            "s" : "camelot229"
+            "w" : "camelot257@camelot",
+            "e" : "camelot256@camelot",
+            "n" : "camelot258@camelot",
+            "s" : "camelot229@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2430,8 +2430,8 @@
       },
       "camelot221@camelot" : {
          "exits" : {
-            "n" : "camelot222",
-            "s" : "camelot220"
+            "n" : "camelot222@camelot",
+            "s" : "camelot220@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2442,7 +2442,7 @@
       },
       "camelot20@camelot" : {
          "exits" : {
-            "w" : "camelot18"
+            "w" : "camelot18@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2453,10 +2453,10 @@
       },
       "camelot56@camelot" : {
          "exits" : {
-            "w" : "camelot56",
-            "e" : "camelot56",
-            "n" : "camelot152",
-            "s" : "camelot56"
+            "w" : "camelot56@camelot",
+            "e" : "camelot56@camelot",
+            "n" : "camelot152@camelot",
+            "s" : "camelot56@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2469,8 +2469,8 @@
       },
       "camelot233@camelot" : {
          "exits" : {
-            "w" : "camelot232",
-            "e" : "camelot234"
+            "w" : "camelot232@camelot",
+            "e" : "camelot234@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2483,8 +2483,8 @@
       },
       "camelot130@camelot" : {
          "exits" : {
-            "n" : "camelot131",
-            "s" : "camelot129"
+            "n" : "camelot131@camelot",
+            "s" : "camelot129@camelot"
          },
          "flags" : [
             "Dark"
@@ -2497,9 +2497,9 @@
       },
       "camelot104@camelot" : {
          "exits" : {
-            "e" : "camelot105",
-            "n" : "camelot106",
-            "s" : "camelot103"
+            "e" : "camelot105@camelot",
+            "n" : "camelot106@camelot",
+            "s" : "camelot103@camelot"
          },
          "flags" : [
             "Dark"
@@ -2512,7 +2512,7 @@
       },
       "camelot270@camelot" : {
          "exits" : {
-            "n" : "camelot271"
+            "n" : "camelot271@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2523,8 +2523,8 @@
       },
       "camelot126@camelot" : {
          "exits" : {
-            "e" : "camelot127",
-            "n" : "camelot125"
+            "e" : "camelot127@camelot",
+            "n" : "camelot125@camelot"
          },
          "flags" : [
             "Dark"
@@ -2537,8 +2537,8 @@
       },
       "camelot105@camelot" : {
          "exits" : {
-            "w" : "camelot104",
-            "d" : "^door4"
+            "w" : "camelot104@camelot",
+            "d" : "^door4@camelot"
          },
          "flags" : [
             "Dark"
@@ -2551,8 +2551,8 @@
       },
       "camelot96@camelot" : {
          "exits" : {
-            "e" : "camelot95",
-            "u" : "camelot97"
+            "e" : "camelot95@camelot",
+            "u" : "camelot97@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2565,10 +2565,10 @@
       },
       "camelot48@camelot" : {
          "exits" : {
-            "w" : "camelot49",
-            "e" : "camelot48",
-            "n" : "camelot48",
-            "s" : "camelot48"
+            "w" : "camelot49@camelot",
+            "e" : "camelot48@camelot",
+            "n" : "camelot48@camelot",
+            "s" : "camelot48@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2581,7 +2581,7 @@
       },
       "camelot307@camelot" : {
          "exits" : {
-            "u" : "^door7"
+            "u" : "^door7@camelot"
          },
          "flags" : [
             "nosummon",
@@ -2597,12 +2597,12 @@
       },
       "camelot258@camelot" : {
          "exits" : {
-            "w" : "camelot261",
-            "e" : "camelot259",
-            "u" : "camelot268",
-            "n" : "camelot260",
-            "d" : "camelot266",
-            "s" : "camelot255"
+            "w" : "camelot261@camelot",
+            "e" : "camelot259@camelot",
+            "u" : "camelot268@camelot",
+            "n" : "camelot260@camelot",
+            "d" : "camelot266@camelot",
+            "s" : "camelot255@camelot"
          },
          "flags" : [
             "NoMobiles"
@@ -2615,12 +2615,12 @@
       },
       "camelot98@camelot" : {
          "exits" : {
-            "w" : "camelot99",
-            "e" : "camelot99",
-            "u" : "camelot100",
-            "n" : "camelot99",
-            "d" : "camelot99",
-            "s" : "camelot97"
+            "w" : "camelot99@camelot",
+            "e" : "camelot99@camelot",
+            "u" : "camelot100@camelot",
+            "n" : "camelot99@camelot",
+            "d" : "camelot99@camelot",
+            "s" : "camelot97@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2634,9 +2634,9 @@
       "camelot52@camelot" : {
          "exits" : {
             "w" : "balhar92@balharbor",
-            "e" : "camelot52",
-            "n" : "camelot53",
-            "s" : "camelot52"
+            "e" : "camelot52@camelot",
+            "n" : "camelot53@camelot",
+            "s" : "camelot52@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2649,10 +2649,10 @@
       },
       "camelot63@camelot" : {
          "exits" : {
-            "w" : "camelot64",
-            "e" : "camelot65",
-            "n" : "camelot66",
-            "s" : "camelot60"
+            "w" : "camelot64@camelot",
+            "e" : "camelot65@camelot",
+            "n" : "camelot66@camelot",
+            "s" : "camelot60@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2665,10 +2665,10 @@
       },
       "camelot66@camelot" : {
          "exits" : {
-            "w" : "camelot67",
-            "e" : "camelot68",
-            "n" : "camelot69",
-            "s" : "camelot63"
+            "w" : "camelot67@camelot",
+            "e" : "camelot68@camelot",
+            "n" : "camelot69@camelot",
+            "s" : "camelot63@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2681,8 +2681,8 @@
       },
       "camelot299@camelot" : {
          "exits" : {
-            "w" : "camelot300",
-            "e" : "camelot298"
+            "w" : "camelot300@camelot",
+            "e" : "camelot298@camelot"
          },
          "flags" : [
             "Dark"
@@ -2695,10 +2695,10 @@
       },
       "camelot152@camelot" : {
          "exits" : {
-            "w" : "camelot152",
-            "e" : "camelot152",
-            "n" : "camelot153",
-            "s" : "camelot152"
+            "w" : "camelot152@camelot",
+            "e" : "camelot152@camelot",
+            "n" : "camelot153@camelot",
+            "s" : "camelot152@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2711,8 +2711,8 @@
       },
       "camelot57@camelot" : {
          "exits" : {
-            "n" : "camelot58",
-            "s" : "camelot31"
+            "n" : "camelot58@camelot",
+            "s" : "camelot31@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2725,7 +2725,7 @@
       },
       "camelot4@camelot" : {
          "exits" : {
-            "e" : "camelot2"
+            "e" : "camelot2@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2736,8 +2736,8 @@
       },
       "camelot238@camelot" : {
          "exits" : {
-            "w" : "camelot239",
-            "e" : "camelot237"
+            "w" : "camelot239@camelot",
+            "e" : "camelot237@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2750,8 +2750,8 @@
       },
       "camelot146@camelot" : {
          "exits" : {
-            "w" : "camelot147",
-            "n" : "camelot145"
+            "w" : "camelot147@camelot",
+            "n" : "camelot145@camelot"
          },
          "flags" : [
             "Dark"
@@ -2764,10 +2764,10 @@
       },
       "camelot32@camelot" : {
          "exits" : {
-            "w" : "camelot33",
-            "e" : "camelot30",
-            "n" : "camelot32",
-            "s" : "camelot32"
+            "w" : "camelot33@camelot",
+            "e" : "camelot30@camelot",
+            "n" : "camelot32@camelot",
+            "s" : "camelot32@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2780,10 +2780,10 @@
       },
       "camelot84@camelot" : {
          "exits" : {
-            "w" : "camelot87",
-            "e" : "camelot81",
-            "n" : "camelot85",
-            "s" : "camelot86"
+            "w" : "camelot87@camelot",
+            "e" : "camelot81@camelot",
+            "n" : "camelot85@camelot",
+            "s" : "camelot86@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2796,8 +2796,8 @@
       },
       "camelot91@camelot" : {
          "exits" : {
-            "n" : "camelot88",
-            "s" : "camelot92"
+            "n" : "camelot88@camelot",
+            "s" : "camelot92@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2810,10 +2810,10 @@
       },
       "camelot53@camelot" : {
          "exits" : {
-            "w" : "camelot53",
-            "e" : "camelot54",
-            "n" : "camelot53",
-            "s" : "camelot53"
+            "w" : "camelot53@camelot",
+            "e" : "camelot54@camelot",
+            "n" : "camelot53@camelot",
+            "s" : "camelot53@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2826,7 +2826,7 @@
       },
       "camelot144@camelot" : {
          "exits" : {
-            "u" : "camelot140"
+            "u" : "camelot140@camelot"
          },
          "flags" : [
             "Dark"
@@ -2840,9 +2840,9 @@
       "camelot72@camelot" : {
          "exits" : {
             "e" : "enchanter1@enchanter",
-            "w" : "camelot59",
-            "n" : "camelot214",
-            "s" : "camelot73"
+            "w" : "camelot59@camelot",
+            "n" : "camelot214@camelot",
+            "s" : "camelot73@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2855,7 +2855,7 @@
       },
       "camelot284@camelot" : {
          "exits" : {
-            "w" : "camelot283"
+            "w" : "camelot283@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2866,7 +2866,7 @@
       },
       "camelot276@camelot" : {
          "exits" : {
-            "s" : "camelot273"
+            "s" : "camelot273@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -2877,8 +2877,8 @@
       },
       "camelot95@camelot" : {
          "exits" : {
-            "w" : "camelot96",
-            "e" : "camelot94"
+            "w" : "camelot96@camelot",
+            "e" : "camelot94@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2891,10 +2891,10 @@
       },
       "camelot46@camelot" : {
          "exits" : {
-            "w" : "camelot47",
-            "e" : "camelot46",
-            "n" : "camelot46",
-            "s" : "camelot46"
+            "w" : "camelot47@camelot",
+            "e" : "camelot46@camelot",
+            "n" : "camelot46@camelot",
+            "s" : "camelot46@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2907,9 +2907,9 @@
       },
       "camelot110@camelot" : {
          "exits" : {
-            "w" : "camelot111",
-            "e" : "camelot109",
-            "n" : "camelot112"
+            "w" : "camelot111@camelot",
+            "e" : "camelot109@camelot",
+            "n" : "camelot112@camelot"
          },
          "flags" : [
             "Dark"
@@ -2922,8 +2922,8 @@
       },
       "camelot127@camelot" : {
          "exits" : {
-            "w" : "camelot126",
-            "e" : "camelot128"
+            "w" : "camelot126@camelot",
+            "e" : "camelot128@camelot"
          },
          "flags" : [
             "Dark"
@@ -2936,7 +2936,7 @@
       },
       "camelot304@camelot" : {
          "exits" : {
-            "u" : "^busheswest"
+            "u" : "^busheswest@camelot"
          },
          "flags" : [
             "nosummon",
@@ -2952,8 +2952,8 @@
       },
       "camelot295@camelot" : {
          "exits" : {
-            "w" : "camelot294",
-            "e" : "camelot296"
+            "w" : "camelot294@camelot",
+            "e" : "camelot296@camelot"
          },
          "flags" : [
             "Dark"
@@ -2966,8 +2966,8 @@
       },
       "camelot259@camelot" : {
          "exits" : {
-            "w" : "camelot258",
-            "n" : "camelot265"
+            "w" : "camelot258@camelot",
+            "n" : "camelot265@camelot"
          },
          "flags" : [
             "Party"
@@ -2980,7 +2980,7 @@
       },
       "camelot215@camelot" : {
          "exits" : {
-            "e" : "camelot214"
+            "e" : "camelot214@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -2993,12 +2993,12 @@
       },
       "camelot97@camelot" : {
          "exits" : {
-            "w" : "camelot99",
-            "e" : "camelot99",
-            "u" : "camelot99",
-            "n" : "camelot98",
-            "d" : "camelot96",
-            "s" : "camelot99"
+            "w" : "camelot99@camelot",
+            "e" : "camelot99@camelot",
+            "u" : "camelot99@camelot",
+            "n" : "camelot98@camelot",
+            "d" : "camelot96@camelot",
+            "s" : "camelot99@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3011,7 +3011,7 @@
       },
       "camlearn@camelot" : {
          "exits" : {
-            "w" : "camelot65"
+            "w" : "camelot65@camelot"
          },
          "flags" : [
             "Peaceful"
@@ -3024,9 +3024,9 @@
       },
       "camelot271@camelot" : {
          "exits" : {
-            "e" : "camelot268",
-            "n" : "camelot274",
-            "s" : "camelot270"
+            "e" : "camelot268@camelot",
+            "n" : "camelot274@camelot",
+            "s" : "camelot270@camelot"
          },
          "flags" : [
             "Private",
@@ -3040,8 +3040,8 @@
       },
       "camelot248@camelot" : {
          "exits" : {
-            "w" : "camelot237",
-            "e" : "camelot247"
+            "w" : "camelot237@camelot",
+            "e" : "camelot247@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3054,8 +3054,8 @@
       },
       "camelot145@camelot" : {
          "exits" : {
-            "n" : "camelot141",
-            "s" : "camelot146"
+            "n" : "camelot141@camelot",
+            "s" : "camelot146@camelot"
          },
          "flags" : [
             "Dark"
@@ -3080,8 +3080,8 @@
       },
       "camelot232@camelot" : {
          "exits" : {
-            "e" : "camelot233",
-            "s" : "camelot231"
+            "e" : "camelot233@camelot",
+            "s" : "camelot231@camelot"
          },
          "flags" : [
             "Outdoors",
@@ -3095,8 +3095,8 @@
       },
       "camelot79@camelot" : {
          "exits" : {
-            "e" : "camelot78",
-            "n" : "camelot80"
+            "e" : "camelot78@camelot",
+            "n" : "camelot80@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3109,7 +3109,7 @@
       },
       "camelot113@camelot" : {
          "exits" : {
-            "w" : "camelot112"
+            "w" : "camelot112@camelot"
          },
          "flags" : [
             "Dark"
@@ -3122,8 +3122,8 @@
       },
       "camelot265@camelot" : {
          "exits" : {
-            "w" : "camelot260",
-            "s" : "camelot259"
+            "w" : "camelot260@camelot",
+            "s" : "camelot259@camelot"
          },
          "flags" : [
             "Private",
@@ -3138,8 +3138,8 @@
       },
       "camelot133@camelot" : {
          "exits" : {
-            "e" : "camelot132",
-            "s" : "camelot134"
+            "e" : "camelot132@camelot",
+            "s" : "camelot134@camelot"
          },
          "flags" : [
             "Dark"
@@ -3152,12 +3152,12 @@
       },
       "camelot100@camelot" : {
          "exits" : {
-            "w" : "camelot99",
-            "e" : "camelot99",
-            "u" : "camelot99",
-            "n" : "camelot101",
-            "d" : "camelot98",
-            "s" : "camelot99"
+            "w" : "camelot99@camelot",
+            "e" : "camelot99@camelot",
+            "u" : "camelot99@camelot",
+            "n" : "camelot101@camelot",
+            "d" : "camelot98@camelot",
+            "s" : "camelot99@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3170,9 +3170,9 @@
       },
       "camelot8@camelot" : {
          "exits" : {
-            "w" : "camelot1",
-            "e" : "camelot21",
-            "n" : "camelot9"
+            "w" : "camelot1@camelot",
+            "e" : "camelot21@camelot",
+            "n" : "camelot9@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3183,8 +3183,8 @@
       },
       "camelot138@camelot" : {
          "exits" : {
-            "n" : "camelot103",
-            "s" : "camelot139"
+            "n" : "camelot103@camelot",
+            "s" : "camelot139@camelot"
          },
          "flags" : [
             "Dark"
@@ -3197,7 +3197,7 @@
       },
       "camelot256@camelot" : {
          "exits" : {
-            "w" : "camelot255"
+            "w" : "camelot255@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3208,8 +3208,8 @@
       },
       "camelot106@camelot" : {
          "exits" : {
-            "e" : "camelot107",
-            "s" : "camelot104"
+            "e" : "camelot107@camelot",
+            "s" : "camelot104@camelot"
          },
          "flags" : [
             "Dark"
@@ -3222,7 +3222,7 @@
       },
       "camelot64@camelot" : {
          "exits" : {
-            "e" : "camelot63"
+            "e" : "camelot63@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3233,8 +3233,8 @@
       },
       "camelot136@camelot" : {
          "exits" : {
-            "u" : "camelot103",
-            "d" : "camelot137"
+            "u" : "camelot103@camelot",
+            "d" : "camelot137@camelot"
          },
          "flags" : [
             "Dark"
@@ -3247,7 +3247,7 @@
       },
       "camelot93@camelot" : {
          "exits" : {
-            "s" : "camelot83"
+            "s" : "camelot83@camelot"
          },
          "flags" : [
             "Outdoors",
@@ -3261,10 +3261,10 @@
       },
       "camelot245@camelot" : {
          "exits" : {
-            "w" : "camelot246",
-            "u" : "camelot253",
-            "n" : "camelot244",
-            "d" : "camelot226"
+            "w" : "camelot246@camelot",
+            "u" : "camelot253@camelot",
+            "n" : "camelot244@camelot",
+            "d" : "camelot226@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3275,10 +3275,10 @@
       },
       "camelot34@camelot" : {
          "exits" : {
-            "w" : "camelot34",
-            "e" : "camelot35",
-            "n" : "camelot34",
-            "s" : "camelot33"
+            "w" : "camelot34@camelot",
+            "e" : "camelot35@camelot",
+            "n" : "camelot34@camelot",
+            "s" : "camelot33@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3291,9 +3291,9 @@
       },
       "camelot76@camelot" : {
          "exits" : {
-            "w" : "camelot78",
-            "e" : "camelot59",
-            "n" : "camelot77"
+            "w" : "camelot78@camelot",
+            "e" : "camelot59@camelot",
+            "n" : "camelot77@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3306,8 +3306,8 @@
       },
       "camelot81@camelot" : {
          "exits" : {
-            "w" : "camelot84",
-            "e" : "camelot80"
+            "w" : "camelot84@camelot",
+            "e" : "camelot80@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3320,10 +3320,10 @@
       },
       "camelot119@camelot" : {
          "exits" : {
-            "w" : "camelot121",
-            "e" : "camelot118",
-            "n" : "camelot120",
-            "s" : "camelot122"
+            "w" : "camelot121@camelot",
+            "e" : "camelot118@camelot",
+            "n" : "camelot120@camelot",
+            "s" : "camelot122@camelot"
          },
          "flags" : [
             "Dark"
@@ -3336,8 +3336,8 @@
       },
       "camelot21@camelot" : {
          "exits" : {
-            "w" : "camelot8",
-            "n" : "camelot22"
+            "w" : "camelot8@camelot",
+            "n" : "camelot22@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3348,7 +3348,7 @@
       },
       "camelot124@camelot" : {
          "exits" : {
-            "s" : "camelot123"
+            "s" : "camelot123@camelot"
          },
          "flags" : [
             "Dark"
@@ -3361,10 +3361,10 @@
       },
       "camelot45@camelot" : {
          "exits" : {
-            "w" : "camelot45",
-            "e" : "camelot45",
-            "n" : "camelot45",
-            "s" : "camelot46"
+            "w" : "camelot45@camelot",
+            "e" : "camelot45@camelot",
+            "n" : "camelot45@camelot",
+            "s" : "camelot46@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3377,8 +3377,8 @@
       },
       "camelot261@camelot" : {
          "exits" : {
-            "e" : "camelot258",
-            "n" : "camelot262"
+            "e" : "camelot258@camelot",
+            "n" : "camelot262@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3389,8 +3389,8 @@
       },
       "camelot219@camelot" : {
          "exits" : {
-            "w" : "camelot220",
-            "e" : "camelot218"
+            "w" : "camelot220@camelot",
+            "e" : "camelot218@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3401,9 +3401,9 @@
       },
       "camelot303@camelot" : {
          "exits" : {
-            "w" : "camelot282",
-            "e" : "camelot302",
-            "s" : "camelot280"
+            "w" : "camelot282@camelot",
+            "e" : "camelot302@camelot",
+            "s" : "camelot280@camelot"
          },
          "flags" : [
             "Private",
@@ -3419,7 +3419,7 @@
       },
       "camelot5@camelot" : {
          "exits" : {
-            "s" : "camelot2"
+            "s" : "camelot2@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3430,10 +3430,10 @@
       },
       "camelot55@camelot" : {
          "exits" : {
-            "w" : "camelot56",
-            "e" : "camelot55",
-            "n" : "camelot55",
-            "s" : "camelot55"
+            "w" : "camelot56@camelot",
+            "e" : "camelot55@camelot",
+            "n" : "camelot55@camelot",
+            "s" : "camelot55@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3446,8 +3446,8 @@
       },
       "camelot288@camelot" : {
          "exits" : {
-            "w" : "camelot289",
-            "s" : "camelot287"
+            "w" : "camelot289@camelot",
+            "s" : "camelot287@camelot"
          },
          "flags" : [
             "Dark"
@@ -3460,9 +3460,9 @@
       },
       "camelot28@camelot" : {
          "exits" : {
-            "w" : "camelot30",
-            "n" : "camelot29",
-            "s" : "camelot26"
+            "w" : "camelot30@camelot",
+            "n" : "camelot29@camelot",
+            "s" : "camelot26@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3475,8 +3475,8 @@
       },
       "camelot263@camelot" : {
          "exits" : {
-            "w" : "camelot264",
-            "e" : "camelot262"
+            "w" : "camelot264@camelot",
+            "e" : "camelot262@camelot"
          },
          "flags" : [
             "Cold"
@@ -3489,10 +3489,10 @@
       },
       "camelot231@camelot" : {
          "exits" : {
-            "e" : "camelot264",
-            "n" : "camelot232",
-            "d" : "^bushes",
-            "s" : "camelot230"
+            "e" : "camelot264@camelot",
+            "n" : "camelot232@camelot",
+            "d" : "^bushes@camelot",
+            "s" : "camelot230@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3505,10 +3505,10 @@
       },
       "camelot60@camelot" : {
          "exits" : {
-            "w" : "camelot61",
-            "e" : "camelot62",
-            "n" : "camelot63",
-            "s" : "camelot59"
+            "w" : "camelot61@camelot",
+            "e" : "camelot62@camelot",
+            "n" : "camelot63@camelot",
+            "s" : "camelot59@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3521,7 +3521,7 @@
       },
       "camelot257@camelot" : {
          "exits" : {
-            "e" : "camelot255"
+            "e" : "camelot255@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3532,8 +3532,8 @@
       },
       "camelot58@camelot" : {
          "exits" : {
-            "n" : "camelot59",
-            "s" : "camelot57"
+            "n" : "camelot59@camelot",
+            "s" : "camelot57@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3546,8 +3546,8 @@
       },
       "camelot101@camelot" : {
          "exits" : {
-            "w" : "camelot102",
-            "s" : "camelot100"
+            "w" : "camelot102@camelot",
+            "s" : "camelot100@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3558,8 +3558,8 @@
       },
       "camelot266@camelot" : {
          "exits" : {
-            "u" : "camelot258",
-            "d" : "camelot283"
+            "u" : "camelot258@camelot",
+            "d" : "camelot283@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3570,10 +3570,10 @@
       },
       "camelot153@camelot" : {
          "exits" : {
-            "w" : "camelot153",
-            "e" : "camelot154",
-            "n" : "camelot153",
-            "s" : "camelot153"
+            "w" : "camelot153@camelot",
+            "e" : "camelot154@camelot",
+            "n" : "camelot153@camelot",
+            "s" : "camelot153@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3586,8 +3586,8 @@
       },
       "camelot94@camelot" : {
          "exits" : {
-            "w" : "camelot95",
-            "n" : "camelot92"
+            "w" : "camelot95@camelot",
+            "n" : "camelot92@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3600,10 +3600,10 @@
       },
       "camelot229@camelot" : {
          "exits" : {
-            "w" : "camelot230",
-            "e" : "camelot236",
-            "n" : "camelot255",
-            "s" : "camelot217"
+            "w" : "camelot230@camelot",
+            "e" : "camelot236@camelot",
+            "n" : "camelot255@camelot",
+            "s" : "camelot217@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3616,10 +3616,10 @@
       },
       "camelot12@camelot" : {
          "exits" : {
-            "w" : "camelot13",
-            "e" : "camelot14",
-            "n" : "camelot15",
-            "s" : "camelot9"
+            "w" : "camelot13@camelot",
+            "e" : "camelot14@camelot",
+            "n" : "camelot15@camelot",
+            "s" : "camelot9@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3630,10 +3630,10 @@
       },
       "camelot239@camelot" : {
          "exits" : {
-            "e" : "camelot238",
-            "u" : "camelot249",
-            "n" : "camelot240",
-            "d" : "camelot220"
+            "e" : "camelot238@camelot",
+            "u" : "camelot249@camelot",
+            "n" : "camelot240@camelot",
+            "d" : "camelot220@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3644,7 +3644,7 @@
       },
       "camelot150@camelot" : {
          "exits" : {
-            "w" : "camelot149"
+            "w" : "camelot149@camelot"
          },
          "flags" : [
             "Dark"
@@ -3657,8 +3657,8 @@
       },
       "camelot244@camelot" : {
          "exits" : {
-            "n" : "camelot243",
-            "s" : "camelot245"
+            "n" : "camelot243@camelot",
+            "s" : "camelot245@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3671,8 +3671,8 @@
       },
       "camelot92@camelot" : {
          "exits" : {
-            "n" : "camelot91",
-            "s" : "camelot94"
+            "n" : "camelot91@camelot",
+            "s" : "camelot94@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3685,12 +3685,12 @@
       },
       "camelot268@camelot" : {
          "exits" : {
-            "w" : "camelot271",
-            "e" : "camelot273",
-            "u" : "camelot279",
-            "n" : "camelot272",
-            "d" : "camelot258",
-            "s" : "camelot269"
+            "w" : "camelot271@camelot",
+            "e" : "camelot273@camelot",
+            "u" : "camelot279@camelot",
+            "n" : "camelot272@camelot",
+            "d" : "camelot258@camelot",
+            "s" : "camelot269@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3701,8 +3701,8 @@
       },
       "camelot118@camelot" : {
          "exits" : {
-            "w" : "camelot119",
-            "e" : "camelot116"
+            "w" : "camelot119@camelot",
+            "e" : "camelot116@camelot"
          },
          "flags" : [
             "Dark"
@@ -3715,8 +3715,8 @@
       },
       "camelot227@camelot" : {
          "exits" : {
-            "w" : "camelot228",
-            "e" : "camelot226"
+            "w" : "camelot228@camelot",
+            "e" : "camelot226@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3727,8 +3727,8 @@
       },
       "camelot220@camelot" : {
          "exits" : {
-            "e" : "camelot219",
-            "n" : "camelot221"
+            "e" : "camelot219@camelot",
+            "n" : "camelot221@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3751,7 +3751,7 @@
       },
       "camelot13@camelot" : {
          "exits" : {
-            "e" : "camelot12"
+            "e" : "camelot12@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3762,8 +3762,8 @@
       },
       "camelot107@camelot" : {
          "exits" : {
-            "w" : "camelot106",
-            "e" : "camelot108"
+            "w" : "camelot106@camelot",
+            "e" : "camelot108@camelot"
          },
          "flags" : [
             "Dark"
@@ -3776,8 +3776,8 @@
       },
       "camelot147@camelot" : {
          "exits" : {
-            "w" : "camelot148",
-            "e" : "camelot146"
+            "w" : "camelot148@camelot",
+            "e" : "camelot146@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3788,10 +3788,10 @@
       },
       "camelot1@camelot" : {
          "exits" : {
-            "w" : "camelot2",
-            "e" : "camelot8",
-            "n" : "camelot3",
-            "s" : "camelot"
+            "w" : "camelot2@camelot",
+            "e" : "camelot8@camelot",
+            "n" : "camelot3@camelot",
+            "s" : "camelot@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3802,10 +3802,10 @@
       },
       "camelot42@camelot" : {
          "exits" : {
-            "w" : "camelot41",
-            "e" : "camelot42",
-            "n" : "camelot42",
-            "s" : "camelot43"
+            "w" : "camelot41@camelot",
+            "e" : "camelot42@camelot",
+            "n" : "camelot42@camelot",
+            "s" : "camelot43@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3818,8 +3818,8 @@
       },
       "camelot223@camelot" : {
          "exits" : {
-            "w" : "camelot222",
-            "e" : "camelot224"
+            "w" : "camelot222@camelot",
+            "e" : "camelot224@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3830,8 +3830,8 @@
       },
       "camelot279@camelot" : {
          "exits" : {
-            "n" : "camelot302",
-            "d" : "camelot268"
+            "n" : "camelot302@camelot",
+            "d" : "camelot268@camelot"
          },
          "flags" : [
             "NoMobiles",
@@ -3845,8 +3845,8 @@
       },
       "camelot135@camelot" : {
          "exits" : {
-            "w" : "camelot134",
-            "d" : "^door6"
+            "w" : "camelot134@camelot",
+            "d" : "^door6@camelot"
          },
          "flags" : [
             "Dark"
@@ -3859,8 +3859,8 @@
       },
       "camelot3@camelot" : {
          "exits" : {
-            "n" : "camelot6",
-            "s" : "camelot1"
+            "n" : "camelot6@camelot",
+            "s" : "camelot1@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -3871,10 +3871,10 @@
       },
       "camelot54@camelot" : {
          "exits" : {
-            "w" : "camelot54",
-            "e" : "camelot54",
-            "n" : "camelot55",
-            "s" : "camelot54"
+            "w" : "camelot54@camelot",
+            "e" : "camelot54@camelot",
+            "n" : "camelot55@camelot",
+            "s" : "camelot54@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3887,7 +3887,7 @@
       },
       "camelot114@camelot" : {
          "exits" : {
-            "s" : "camelot112"
+            "s" : "camelot112@camelot"
          },
          "flags" : [
             "Dark"
@@ -3900,8 +3900,8 @@
       },
       "camelot298@camelot" : {
          "exits" : {
-            "w" : "camelot299",
-            "n" : "camelot297"
+            "w" : "camelot299@camelot",
+            "n" : "camelot297@camelot"
          },
          "flags" : [
             "Dark"
@@ -3914,7 +3914,7 @@
       },
       "camelot117@camelot" : {
          "exits" : {
-            "s" : "camelot116"
+            "s" : "camelot116@camelot"
          },
          "flags" : [
             "Dark"
@@ -3927,9 +3927,9 @@
       },
       "camelot26@camelot" : {
          "exits" : {
-            "e" : "camelot27",
-            "n" : "camelot28",
-            "s" : "camelot7"
+            "e" : "camelot27@camelot",
+            "n" : "camelot28@camelot",
+            "s" : "camelot7@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3942,7 +3942,7 @@
       },
       "camelot73@camelot" : {
          "exits" : {
-            "n" : "camelot72"
+            "n" : "camelot72@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3955,7 +3955,7 @@
       },
       "camelot249@camelot" : {
          "exits" : {
-            "d" : "camelot239"
+            "d" : "camelot239@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3968,10 +3968,10 @@
       },
       "camelot36@camelot" : {
          "exits" : {
-            "w" : "camelot36",
-            "e" : "camelot37",
-            "n" : "camelot33",
-            "s" : "camelot36"
+            "w" : "camelot36@camelot",
+            "e" : "camelot37@camelot",
+            "n" : "camelot33@camelot",
+            "s" : "camelot36@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -3984,8 +3984,8 @@
       },
       "camelot292@camelot" : {
          "exits" : {
-            "w" : "camelot293",
-            "e" : "camelot291"
+            "w" : "camelot293@camelot",
+            "e" : "camelot291@camelot"
          },
          "flags" : [
             "Dark"
@@ -3998,8 +3998,8 @@
       },
       "camelot234@camelot" : {
          "exits" : {
-            "w" : "camelot233",
-            "s" : "camelot235"
+            "w" : "camelot233@camelot",
+            "s" : "camelot235@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -4012,8 +4012,8 @@
       },
       "camelot242@camelot" : {
          "exits" : {
-            "w" : "camelot241",
-            "e" : "camelot243"
+            "w" : "camelot241@camelot",
+            "e" : "camelot243@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -4026,10 +4026,10 @@
       },
       "camelot41@camelot" : {
          "exits" : {
-            "w" : "camelot42",
-            "e" : "camelot41",
-            "n" : "camelot41",
-            "s" : "camelot41"
+            "w" : "camelot42@camelot",
+            "e" : "camelot41@camelot",
+            "n" : "camelot41@camelot",
+            "s" : "camelot41@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -4042,8 +4042,8 @@
       },
       "camelot125@camelot" : {
          "exits" : {
-            "n" : "camelot122",
-            "s" : "camelot126"
+            "n" : "camelot122@camelot",
+            "s" : "camelot126@camelot"
          },
          "flags" : [
             "Dark"
@@ -4056,7 +4056,7 @@
       },
       "camelot275@camelot" : {
          "exits" : {
-            "n" : "camelot273"
+            "n" : "camelot273@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -4067,9 +4067,9 @@
       },
       "camelot27@camelot" : {
          "exits" : {
-            "w" : "camelot26",
-            "e" : "camelot25",
-            "s" : "camelot33"
+            "w" : "camelot26@camelot",
+            "e" : "camelot25@camelot",
+            "s" : "camelot33@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -4082,10 +4082,10 @@
       },
       "camelot37@camelot" : {
          "exits" : {
-            "w" : "camelot36",
-            "e" : "camelot37",
-            "n" : "camelot38",
-            "s" : "camelot37"
+            "w" : "camelot36@camelot",
+            "e" : "camelot37@camelot",
+            "n" : "camelot38@camelot",
+            "s" : "camelot37@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -4098,8 +4098,8 @@
       },
       "camelot82@camelot" : {
          "exits" : {
-            "n" : "camelot83",
-            "s" : "camelot80"
+            "n" : "camelot83@camelot",
+            "s" : "camelot80@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -4112,7 +4112,7 @@
       },
       "camelot274@camelot" : {
          "exits" : {
-            "s" : "camelot271"
+            "s" : "camelot271@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -4123,8 +4123,8 @@
       },
       "camelot148@camelot" : {
          "exits" : {
-            "e" : "camelot147",
-            "n" : "camelot149"
+            "e" : "camelot147@camelot",
+            "n" : "camelot149@camelot"
          },
          "flags" : [
             "Dark"
@@ -4137,10 +4137,10 @@
       },
       "camelot9@camelot" : {
          "exits" : {
-            "w" : "camelot10",
-            "e" : "camelot11",
-            "n" : "camelot12",
-            "s" : "camelot8"
+            "w" : "camelot10@camelot",
+            "e" : "camelot11@camelot",
+            "n" : "camelot12@camelot",
+            "s" : "camelot8@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -4151,8 +4151,8 @@
       },
       "camelot297@camelot" : {
          "exits" : {
-            "w" : "camelot296",
-            "s" : "camelot298"
+            "w" : "camelot296@camelot",
+            "s" : "camelot298@camelot"
          },
          "flags" : [
             "Dark"
@@ -4165,7 +4165,7 @@
       },
       "camelot305@camelot" : {
          "exits" : {
-            "u" : "^door3"
+            "u" : "^door3@camelot"
          },
          "flags" : [
             "nosummon",
@@ -4181,8 +4181,8 @@
       },
       "camelot132@camelot" : {
          "exits" : {
-            "w" : "camelot133",
-            "e" : "camelot131"
+            "w" : "camelot133@camelot",
+            "e" : "camelot131@camelot"
          },
          "flags" : [
             "Dark"
@@ -4195,8 +4195,8 @@
       },
       "camelot235@camelot" : {
          "exits" : {
-            "n" : "camelot234",
-            "s" : "camelot236"
+            "n" : "camelot234@camelot",
+            "s" : "camelot236@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -4209,7 +4209,7 @@
       },
       "camelot216@camelot" : {
          "exits" : {
-            "w" : "camelot214"
+            "w" : "camelot214@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -4222,7 +4222,7 @@
       },
       "camelot143@camelot" : {
          "exits" : {
-            "e" : "camelot142"
+            "e" : "camelot142@camelot"
          },
          "flags" : [
             "Dark"
@@ -4235,7 +4235,7 @@
       },
       "camelot269@camelot" : {
          "exits" : {
-            "n" : "camelot268"
+            "n" : "camelot268@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -4248,9 +4248,9 @@
       },
       "camelot262@camelot" : {
          "exits" : {
-            "w" : "camelot263",
-            "e" : "camelot260",
-            "s" : "camelot261"
+            "w" : "camelot263@camelot",
+            "e" : "camelot260@camelot",
+            "s" : "camelot261@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -4261,7 +4261,7 @@
       },
       "camelot17@camelot" : {
          "exits" : {
-            "w" : "camelot15"
+            "w" : "camelot15@camelot"
          },
          "flags" : [],
          "zone" : "camelot",
@@ -4272,10 +4272,10 @@
       },
       "camelot33@camelot" : {
          "exits" : {
-            "w" : "camelot33",
-            "e" : "camelot32",
-            "n" : "camelot34",
-            "s" : "camelot36"
+            "w" : "camelot33@camelot",
+            "e" : "camelot32@camelot",
+            "n" : "camelot34@camelot",
+            "s" : "camelot36@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -4288,10 +4288,10 @@
       },
       "camelot50@camelot" : {
          "exits" : {
-            "w" : "camelot51",
-            "e" : "camelot50",
-            "n" : "camelot50",
-            "s" : "camelot50"
+            "w" : "camelot51@camelot",
+            "e" : "camelot50@camelot",
+            "n" : "camelot50@camelot",
+            "s" : "camelot50@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -4304,8 +4304,8 @@
       },
       "camelot87@camelot" : {
          "exits" : {
-            "w" : "camelot88",
-            "e" : "camelot84"
+            "w" : "camelot88@camelot",
+            "e" : "camelot84@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -4318,8 +4318,8 @@
       },
       "camelot246@camelot" : {
          "exits" : {
-            "w" : "camelot247",
-            "e" : "camelot245"
+            "w" : "camelot247@camelot",
+            "e" : "camelot245@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -4332,8 +4332,8 @@
       },
       "camelot236@camelot" : {
          "exits" : {
-            "w" : "camelot229",
-            "n" : "camelot235"
+            "w" : "camelot229@camelot",
+            "n" : "camelot235@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -4346,10 +4346,10 @@
       },
       "camelot30@camelot" : {
          "exits" : {
-            "w" : "camelot32",
-            "e" : "camelot28",
-            "n" : "camelot31",
-            "s" : "camelot26"
+            "w" : "camelot32@camelot",
+            "e" : "camelot28@camelot",
+            "n" : "camelot31@camelot",
+            "s" : "camelot26@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -4362,8 +4362,8 @@
       },
       "camelot102@camelot" : {
          "exits" : {
-            "w" : "camelot103",
-            "e" : "camelot101"
+            "w" : "camelot103@camelot",
+            "e" : "camelot101@camelot"
          },
          "flags" : [
             "Dark"
@@ -4376,7 +4376,7 @@
       },
       "camelot251@camelot" : {
          "exits" : {
-            "d" : "camelot237"
+            "d" : "camelot237@camelot"
          },
          "flags" : [
             "Outdoors"
@@ -4394,7 +4394,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot292",
+         "location" : "camelot292@camelot",
          "armor" : "0",
          "name" : "glasya",
          "description" : "Glasya thinks you look tasty.",
@@ -4408,7 +4408,7 @@
       },
       "masha@camelot" : {
          "damage" : "15",
-         "location" : "camelot108",
+         "location" : "camelot108@camelot",
          "speed" : "0",
          "aggression" : "90",
          "armor" : "0",
@@ -4424,7 +4424,7 @@
             "Missile"
          ],
          "damage" : "15",
-         "location" : "camelot226",
+         "location" : "camelot226@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -4435,7 +4435,7 @@
       },
       "misha@camelot" : {
          "damage" : "15",
-         "location" : "camelot108",
+         "location" : "camelot108@camelot",
          "speed" : "0",
          "aggression" : "90",
          "armor" : "0",
@@ -4452,7 +4452,7 @@
             "ImmDeaf"
          ],
          "damage" : "15",
-         "location" : "camelot224",
+         "location" : "camelot224@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -4468,7 +4468,7 @@
             "FearMissile"
          ],
          "damage" : "15",
-         "location" : "camelot19",
+         "location" : "camelot19@camelot",
          "speed" : "0",
          "aggression" : "92",
          "armor" : "25",
@@ -4484,7 +4484,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot250",
+         "location" : "camelot250@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -4495,7 +4495,7 @@
       },
       "ector@camelot" : {
          "damage" : "15",
-         "location" : "camelot4",
+         "location" : "camelot4@camelot",
          "speed" : "0",
          "aggression" : "90",
          "armor" : "25",
@@ -4506,7 +4506,7 @@
       },
       "bedmonster@camelot" : {
          "damage" : "15",
-         "location" : "camelot271",
+         "location" : "camelot271@camelot",
          "speed" : "0",
          "aggression" : "98",
          "armor" : "0",
@@ -4522,7 +4522,7 @@
             "ImmMissile"
          ],
          "damage" : "15",
-         "location" : "camelot218",
+         "location" : "camelot218@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -4538,7 +4538,7 @@
             "Damage"
          ],
          "damage" : "15",
-         "location" : "camelot248",
+         "location" : "camelot248@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -4552,7 +4552,7 @@
             "Bhands"
          ],
          "damage" : "15",
-         "location" : "camelot246",
+         "location" : "camelot246@camelot",
          "armor" : "0",
          "name" : "mira",
          "description" : "Mira looks at you and growls 'What're you doing in here bub?'",
@@ -4572,7 +4572,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot295",
+         "location" : "camelot295@camelot",
          "armor" : "0",
          "name" : "titivilus",
          "description" : "Uh Oh, looks like Merlin forgot to feed the demons this morning...",
@@ -4583,7 +4583,7 @@
       },
       "bulla@camelot" : {
          "damage" : "15",
-         "location" : "camelot109",
+         "location" : "camelot109@camelot",
          "speed" : "0",
          "aggression" : "90",
          "armor" : "0",
@@ -4594,7 +4594,7 @@
       },
       "morsha@camelot" : {
          "damage" : "15",
-         "location" : "camelot108",
+         "location" : "camelot108@camelot",
          "speed" : "0",
          "aggression" : "90",
          "armor" : "0",
@@ -4605,7 +4605,7 @@
       },
       "bruce@camelot" : {
          "damage" : "15",
-         "location" : "camelot119",
+         "location" : "camelot119@camelot",
          "speed" : "0",
          "aggression" : "80",
          "armor" : "0",
@@ -4616,7 +4616,7 @@
       },
       "brunno@camelot" : {
          "damage" : "15",
-         "location" : "camelot235",
+         "location" : "camelot235@camelot",
          "speed" : "0",
          "aggression" : "79",
          "armor" : "0",
@@ -4627,7 +4627,7 @@
       },
       "tarrasque@camelot" : {
          "damage" : "15",
-         "location" : "camelot290",
+         "location" : "camelot290@camelot",
          "speed" : "0",
          "aggression" : "83",
          "armor" : "0",
@@ -4638,7 +4638,7 @@
       },
       "gromph@camelot" : {
          "damage" : "15",
-         "location" : "camelot215",
+         "location" : "camelot215@camelot",
          "speed" : "0",
          "aggression" : "98",
          "armor" : "0",
@@ -4649,7 +4649,7 @@
       },
       "falcon@camelot" : {
          "damage" : "15",
-         "location" : "camelot98",
+         "location" : "camelot98@camelot",
          "speed" : "0",
          "aggression" : "75",
          "armor" : "0",
@@ -4665,7 +4665,7 @@
             "Missile"
          ],
          "damage" : "15",
-         "location" : "camelot255",
+         "location" : "camelot255@camelot",
          "armor" : "0",
          "name" : "jeeves",
          "description" : "Jeeves says 'You may wait in the sitting room until the Master arrives.'",
@@ -4676,7 +4676,7 @@
       },
       "cavelion@camelot" : {
          "damage" : "15",
-         "location" : "camelot146",
+         "location" : "camelot146@camelot",
          "speed" : "0",
          "aggression" : "85",
          "armor" : "0",
@@ -4692,7 +4692,7 @@
             "ImmDeaf"
          ],
          "damage" : "10",
-         "location" : "camelot68",
+         "location" : "camelot68@camelot",
          "armor" : "10",
          "name" : "helius",
          "description" : "Sir Helius has had a bit much to drink. Such a nasty drunk too!",
@@ -4706,7 +4706,7 @@
       },
       "fang@camelot" : {
          "damage" : "15",
-         "location" : "camelot235",
+         "location" : "camelot235@camelot",
          "speed" : "0",
          "aggression" : "79",
          "armor" : "0",
@@ -4720,7 +4720,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot260",
+         "location" : "camelot260@camelot",
          "armor" : "0",
          "name" : "helsa",
          "description" : "Helsa, Merlin's maid is bustling around cleaning everything.",
@@ -4739,7 +4739,7 @@
             "ImmFrost"
          ],
          "damage" : "15",
-         "location" : "camelot240",
+         "location" : "camelot240@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -4755,7 +4755,7 @@
             "Frost"
          ],
          "damage" : "15",
-         "location" : "camelot72",
+         "location" : "camelot72@camelot",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "25",
@@ -4769,7 +4769,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot296",
+         "location" : "camelot296@camelot",
          "armor" : "0",
          "name" : "amon",
          "description" : "Amon snarls at you and leaps forward to the attack.",
@@ -4785,7 +4785,7 @@
             "ImmFireball"
          ],
          "damage" : "15",
-         "location" : "camelot225",
+         "location" : "camelot225@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -4799,7 +4799,7 @@
             "Missile"
          ],
          "damage" : "15",
-         "location" : "camelot219",
+         "location" : "camelot219@camelot",
          "armor" : "0",
          "name" : "kalle",
          "description" : "Kalle looks at you in suprise.",
@@ -4818,7 +4818,7 @@
             "ImmBlind"
          ],
          "damage" : "15",
-         "location" : "camelot265",
+         "location" : "camelot265@camelot",
          "armor" : "0",
          "name" : "percy",
          "description" : "Percy the Major Domo looks down his nose at you.",
@@ -4832,7 +4832,7 @@
             "Fireball"
          ],
          "damage" : "15",
-         "location" : "camelot148",
+         "location" : "camelot148@camelot",
          "speed" : "0",
          "aggression" : "88",
          "armor" : "0",
@@ -4849,7 +4849,7 @@
             "ImmBlind"
          ],
          "damage" : "15",
-         "location" : "camelot6",
+         "location" : "camelot6@camelot",
          "speed" : "0",
          "aggression" : "75",
          "armor" : "25",
@@ -4865,7 +4865,7 @@
             "Protect"
          ],
          "damage" : "15",
-         "location" : "camelot253",
+         "location" : "camelot253@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -4881,7 +4881,7 @@
             "Frost"
          ],
          "damage" : "15",
-         "location" : "camelot252",
+         "location" : "camelot252@camelot",
          "armor" : "0",
          "name" : "jussy",
          "description" : "Jussy is on patrol here. He doesn't seem to trust you.",
@@ -4895,7 +4895,7 @@
       },
       "juba@camelot" : {
          "damage" : "15",
-         "location" : "camelot217",
+         "location" : "camelot217@camelot",
          "speed" : "0",
          "aggression" : "11",
          "armor" : "0",
@@ -4912,7 +4912,7 @@
          ],
          "visibility" : "21",
          "damage" : "15",
-         "location" : "camelot3",
+         "location" : "camelot3@camelot",
          "armor" : "15",
          "name" : "someone",
          "description" : "Sir Garlon the invisible knight has just disappeared!",
@@ -4933,7 +4933,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot254",
+         "location" : "camelot254@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -4949,7 +4949,7 @@
             "NegVTouch"
          ],
          "damage" : "15",
-         "location" : "camelot70",
+         "location" : "camelot70@camelot",
          "speed" : "0",
          "aggression" : "55",
          "armor" : "0",
@@ -4960,7 +4960,7 @@
       },
       "gramph@camelot" : {
          "damage" : "15",
-         "location" : "camelot216",
+         "location" : "camelot216@camelot",
          "speed" : "0",
          "aggression" : "98",
          "armor" : "0",
@@ -4977,7 +4977,7 @@
             "NegBhands"
          ],
          "damage" : "15",
-         "location" : "camelot244",
+         "location" : "camelot244@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -4993,7 +4993,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot242",
+         "location" : "camelot242@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -5009,7 +5009,7 @@
             "Frost"
          ],
          "damage" : "30",
-         "location" : "camelot20",
+         "location" : "camelot20@camelot",
          "speed" : "0",
          "aggression" : "91",
          "armor" : "0",
@@ -5020,7 +5020,7 @@
       },
       "chef@camelot" : {
          "damage" : "15",
-         "location" : "camelot262",
+         "location" : "camelot262@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -5036,7 +5036,7 @@
             "ImmFireball"
          ],
          "damage" : "15",
-         "location" : "camelot14",
+         "location" : "camelot14@camelot",
          "speed" : "0",
          "aggression" : "95",
          "armor" : "25",
@@ -5050,7 +5050,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot294",
+         "location" : "camelot294@camelot",
          "armor" : "0",
          "name" : "moloch",
          "description" : "Moloch snarls and reaches for your throat.",
@@ -5061,7 +5061,7 @@
       },
       "marsha@camelot" : {
          "damage" : "15",
-         "location" : "camelot108",
+         "location" : "camelot108@camelot",
          "speed" : "0",
          "aggression" : "90",
          "armor" : "0",
@@ -5072,7 +5072,7 @@
       },
       "taru@camelot" : {
          "damage" : "15",
-         "location" : "camelot236",
+         "location" : "camelot236@camelot",
          "speed" : "0",
          "aggression" : "11",
          "armor" : "0",
@@ -5086,7 +5086,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot293",
+         "location" : "camelot293@camelot",
          "armor" : "0",
          "name" : "bael",
          "description" : "Bael hasn't killed anybody in weeks. He'll try to remember how...",
@@ -5100,7 +5100,7 @@
             "Missile"
          ],
          "damage" : "15",
-         "location" : "camelot229",
+         "location" : "camelot229@camelot",
          "armor" : "0",
          "name" : "koorina",
          "description" : "Koorina the Groundskeeper says 'Hey, watch your big feet!'",
@@ -5120,7 +5120,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot300",
+         "location" : "camelot300@camelot",
          "armor" : "0",
          "name" : "nalfeshnee",
          "description" : "Look out! He was hiding beside the door behind you!",
@@ -5131,7 +5131,7 @@
       },
       "armadillo@camelot" : {
          "damage" : "15",
-         "location" : "camelot1",
+         "location" : "camelot1@camelot",
          "speed" : "100",
          "aggression" : "0",
          "armor" : "50",
@@ -5148,7 +5148,7 @@
             "Bhands"
          ],
          "damage" : "15",
-         "location" : "camelot243",
+         "location" : "camelot243@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -5159,7 +5159,7 @@
       },
       "peregrine@camelot" : {
          "damage" : "15",
-         "location" : "camelot236",
+         "location" : "camelot236@camelot",
          "speed" : "0",
          "aggression" : "67",
          "armor" : "0",
@@ -5170,7 +5170,7 @@
       },
       "palli@camelot" : {
          "damage" : "15",
-         "location" : "camelot235",
+         "location" : "camelot235@camelot",
          "speed" : "0",
          "aggression" : "11",
          "armor" : "0",
@@ -5186,7 +5186,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot59",
+         "location" : "camelot59@camelot",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "25",
@@ -5201,7 +5201,7 @@
             "Bhands"
          ],
          "damage" : "15",
-         "location" : "camelot221",
+         "location" : "camelot221@camelot",
          "armor" : "0",
          "name" : "vuno",
          "description" : "Vuno takes this guard job seriously, doesn't he...",
@@ -5220,7 +5220,7 @@
             "BHands"
          ],
          "damage" : "15",
-         "location" : "camelot233",
+         "location" : "camelot233@camelot",
          "speed" : "0",
          "aggression" : "11",
          "armor" : "0",
@@ -5234,7 +5234,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot298",
+         "location" : "camelot298@camelot",
          "armor" : "0",
          "name" : "balor",
          "description" : "Balor climbs down off his rock and rushes towards you.",
@@ -5250,7 +5250,7 @@
             "ImmBhands"
          ],
          "damage" : "15",
-         "location" : "camelot223",
+         "location" : "camelot223@camelot",
          "armor" : "0",
          "name" : "katriina",
          "description" : "Katriina leaps to bar your way and asks 'What do you think you're doing?'.",
@@ -5264,7 +5264,7 @@
       },
       "cara@camelot" : {
          "damage" : "15",
-         "location" : "camelot113",
+         "location" : "camelot113@camelot",
          "speed" : "0",
          "aggression" : "80",
          "armor" : "0",
@@ -5275,7 +5275,7 @@
       },
       "cavebear@camelot" : {
          "damage" : "15",
-         "location" : "camelot150",
+         "location" : "camelot150@camelot",
          "speed" : "0",
          "aggression" : "91",
          "armor" : "0",
@@ -5286,7 +5286,7 @@
       },
       "bella@camelot" : {
          "damage" : "15",
-         "location" : "camelot109",
+         "location" : "camelot109@camelot",
          "speed" : "0",
          "aggression" : "90",
          "armor" : "0",
@@ -5297,7 +5297,7 @@
       },
       "duergar@camelot" : {
          "damage" : "15",
-         "location" : "camelot288",
+         "location" : "camelot288@camelot",
          "speed" : "0",
          "aggression" : "83",
          "armor" : "0",
@@ -5308,7 +5308,7 @@
       },
       "kay@camelot" : {
          "damage" : "25",
-         "location" : "camelot1",
+         "location" : "camelot1@camelot",
          "armor" : "30",
          "name" : "kay",
          "description" : "Sir Kay, Seneschal, bids you welcome and asks your business here.",
@@ -5330,7 +5330,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot28",
+         "location" : "camelot28@camelot",
          "speed" : "0",
          "aggression" : "88",
          "armor" : "25",
@@ -5346,7 +5346,7 @@
             "BHands"
          ],
          "damage" : "15",
-         "location" : "camelot63",
+         "location" : "camelot63@camelot",
          "speed" : "0",
          "aggression" : "45",
          "armor" : "25",
@@ -5363,7 +5363,7 @@
             "NegFrost"
          ],
          "damage" : "15",
-         "location" : "camelot247",
+         "location" : "camelot247@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -5378,7 +5378,7 @@
             "IceStorm"
          ],
          "damage" : "15",
-         "location" : "camelot251",
+         "location" : "camelot251@camelot",
          "armor" : "0",
          "name" : "seapas",
          "description" : "Seapas woke up in a really bad mood today. Don't bug him.",
@@ -5395,7 +5395,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot285",
+         "location" : "camelot285@camelot",
          "armor" : "0",
          "name" : "crusher",
          "description" : "Crusher, Merlin's latest creation, is waiting here.",
@@ -5412,7 +5412,7 @@
             "ImmIcestorm"
          ],
          "damage" : "30",
-         "location" : "camelot13",
+         "location" : "camelot13@camelot",
          "speed" : "0",
          "aggression" : "96",
          "armor" : "30",
@@ -5428,7 +5428,7 @@
             "Missile"
          ],
          "damage" : "15",
-         "location" : "camelot231",
+         "location" : "camelot231@camelot",
          "speed" : "0",
          "aggression" : "11",
          "armor" : "0",
@@ -5442,7 +5442,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot299",
+         "location" : "camelot299@camelot",
          "armor" : "0",
          "name" : "yeenoghu",
          "description" : "Yeenoghu sneers at you.",
@@ -5458,7 +5458,7 @@
             "NegMissile"
          ],
          "damage" : "15",
-         "location" : "camelot237",
+         "location" : "camelot237@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -5474,7 +5474,7 @@
             "Blur"
          ],
          "damage" : "15",
-         "location" : "camelot73",
+         "location" : "camelot73@camelot",
          "speed" : "0",
          "aggression" : "40",
          "armor" : "15",
@@ -5485,7 +5485,7 @@
       },
       "buddy@camelot" : {
          "damage" : "30",
-         "location" : "camelot304",
+         "location" : "camelot304@camelot",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "30",
@@ -5499,7 +5499,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot297",
+         "location" : "camelot297@camelot",
          "armor" : "0",
          "name" : "marilith",
          "description" : "Marilith smiles happily and reaches for you. Not for a hug though...",
@@ -5518,7 +5518,7 @@
             "FearMissile"
          ],
          "damage" : "15",
-         "location" : "camelot248",
+         "location" : "camelot248@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -5529,7 +5529,7 @@
       },
       "grippli@camelot" : {
          "damage" : "15",
-         "location" : "camelot289",
+         "location" : "camelot289@camelot",
          "speed" : "0",
          "aggression" : "83",
          "armor" : "0",
@@ -5545,7 +5545,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot218",
+         "location" : "camelot218@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -5564,7 +5564,7 @@
             "FearIceStorm"
          ],
          "damage" : "15",
-         "location" : "camelot142",
+         "location" : "camelot142@camelot",
          "speed" : "0",
          "aggression" : "85",
          "armor" : "0",
@@ -5580,7 +5580,7 @@
             "ImmMissile"
          ],
          "damage" : "15",
-         "location" : "camelot217",
+         "location" : "camelot217@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -5597,7 +5597,7 @@
             "Bhands"
          ],
          "damage" : "15",
-         "location" : "camelot239",
+         "location" : "camelot239@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -5614,7 +5614,7 @@
             "NegShock"
          ],
          "damage" : "15",
-         "location" : "camelot228",
+         "location" : "camelot228@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -5625,7 +5625,7 @@
       },
       "questor@camelot" : {
          "damage" : "15",
-         "location" : "camelot2",
+         "location" : "camelot2@camelot",
          "speed" : "2",
          "aggression" : "99",
          "armor" : "0",
@@ -5641,7 +5641,7 @@
             "ImmMissile"
          ],
          "damage" : "15",
-         "location" : "camelot251",
+         "location" : "camelot251@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -5655,7 +5655,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot301",
+         "location" : "camelot301@camelot",
          "armor" : "0",
          "name" : "demogorgon",
          "description" : "Demogorgon doesn't look like he's in the mood to play today...",
@@ -5671,7 +5671,7 @@
             "ImmMissile"
          ],
          "damage" : "15",
-         "location" : "camelot64",
+         "location" : "camelot64@camelot",
          "speed" : "0",
          "aggression" : "56",
          "armor" : "0",
@@ -5687,7 +5687,7 @@
             "NegFrost"
          ],
          "damage" : "15",
-         "location" : "camelot230",
+         "location" : "camelot230@camelot",
          "armor" : "0",
          "name" : "jalovoara",
          "description" : "Jalovoara the Orcharder is picking fresh fruit for dessert tonight.",
@@ -5706,7 +5706,7 @@
             "ImmShock"
          ],
          "damage" : "15",
-         "location" : "camelot10",
+         "location" : "camelot10@camelot",
          "armor" : "25",
          "name" : "gareth",
          "description" : "Sir Gareth says 'Why have you disturbed my rest?'",
@@ -5721,7 +5721,7 @@
             "Fireball"
          ],
          "damage" : "15",
-         "location" : "camelot238",
+         "location" : "camelot238@camelot",
          "armor" : "0",
          "name" : "tiina",
          "description" : "Tiina is standing vigilant watch here.",
@@ -5744,7 +5744,7 @@
             "ImmFrost"
          ],
          "damage" : "15",
-         "location" : "camelot65",
+         "location" : "camelot65@camelot",
          "speed" : "0",
          "aggression" : "58",
          "armor" : "0",
@@ -5760,7 +5760,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot247",
+         "location" : "camelot247@camelot",
          "armor" : "0",
          "name" : "kati",
          "description" : "You have interrupted Kati's coffee break.",
@@ -5778,7 +5778,7 @@
             "NegVtouch"
          ],
          "damage" : "15",
-         "location" : "camelot151",
+         "location" : "camelot151@camelot",
          "speed" : "0",
          "aggression" : "92",
          "armor" : "0",
@@ -5794,7 +5794,7 @@
             "Missile"
          ],
          "damage" : "15",
-         "location" : "camelot228",
+         "location" : "camelot228@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -5811,7 +5811,7 @@
             "NegFireball"
          ],
          "damage" : "15",
-         "location" : "camelot25",
+         "location" : "camelot25@camelot",
          "armor" : "10",
          "name" : "morgana",
          "description" : "You have interupted Morgana Le Fay in one of her plots against Arthur!",
@@ -5828,7 +5828,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot268",
+         "location" : "camelot268@camelot",
          "armor" : "0",
          "name" : "jerome",
          "description" : "Jerome the Valet is considering what to lay out for the feast tonight.",
@@ -5844,7 +5844,7 @@
             "Bhands"
          ],
          "damage" : "15",
-         "location" : "camelot62",
+         "location" : "camelot62@camelot",
          "speed" : "0",
          "aggression" : "57",
          "armor" : "0",
@@ -5861,7 +5861,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot29",
+         "location" : "camelot29@camelot",
          "speed" : "0",
          "aggression" : "84",
          "armor" : "25",
@@ -5872,7 +5872,7 @@
       },
       "mongrelman@camelot" : {
          "damage" : "15",
-         "location" : "camelot291",
+         "location" : "camelot291@camelot",
          "speed" : "0",
          "aggression" : "83",
          "armor" : "0",
@@ -5883,7 +5883,7 @@
       },
       "baasheeba@camelot" : {
          "damage" : "15",
-         "location" : "camelot109",
+         "location" : "camelot109@camelot",
          "speed" : "0",
          "aggression" : "90",
          "armor" : "0",
@@ -5900,7 +5900,7 @@
             "Frost"
          ],
          "damage" : "15",
-         "location" : "camelot16",
+         "location" : "camelot16@camelot",
          "speed" : "0",
          "aggression" : "94",
          "armor" : "25",
@@ -5917,7 +5917,7 @@
             "NegShock"
          ],
          "damage" : "15",
-         "location" : "camelot69",
+         "location" : "camelot69@camelot",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "0",
@@ -5928,7 +5928,7 @@
       },
       "lionel@camelot" : {
          "damage" : "15",
-         "location" : "camelot5",
+         "location" : "camelot5@camelot",
          "speed" : "0",
          "aggression" : "86",
          "armor" : "25",
@@ -5939,7 +5939,7 @@
       },
       "kurtulmak@camelot" : {
          "damage" : "15",
-         "location" : "camelot124",
+         "location" : "camelot124@camelot",
          "speed" : "0",
          "aggression" : "93",
          "armor" : "0",
@@ -5955,7 +5955,7 @@
             "Frost"
          ],
          "damage" : "15",
-         "location" : "camelot232",
+         "location" : "camelot232@camelot",
          "speed" : "0",
          "aggression" : "11",
          "armor" : "0",
@@ -5971,7 +5971,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "camelot234",
+         "location" : "camelot234@camelot",
          "speed" : "0",
          "aggression" : "11",
          "armor" : "0",
@@ -5987,7 +5987,7 @@
             "Missile"
          ],
          "damage" : "15",
-         "location" : "camelot217",
+         "location" : "camelot217@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -6003,7 +6003,7 @@
             "ImmMissile"
          ],
          "damage" : "15",
-         "location" : "camelot222",
+         "location" : "camelot222@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -6014,7 +6014,7 @@
       },
       "fletching@camelot" : {
          "damage" : "15",
-         "location" : "camelot236",
+         "location" : "camelot236@camelot",
          "speed" : "0",
          "aggression" : "67",
          "armor" : "0",
@@ -6031,7 +6031,7 @@
             "ImmShock"
          ],
          "damage" : "15",
-         "location" : "camelot227",
+         "location" : "camelot227@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -6047,7 +6047,7 @@
             "FearMissile"
          ],
          "damage" : "15",
-         "location" : "camelot237",
+         "location" : "camelot237@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -6063,7 +6063,7 @@
             "NegMissile"
          ],
          "damage" : "15",
-         "location" : "camelot67",
+         "location" : "camelot67@camelot",
          "speed" : "0",
          "aggression" : "90",
          "armor" : "25",
@@ -6081,7 +6081,7 @@
             "NegMissile"
          ],
          "damage" : "15",
-         "location" : "camelot249",
+         "location" : "camelot249@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -6098,7 +6098,7 @@
             "ImmBhands"
          ],
          "damage" : "15",
-         "location" : "camelot250",
+         "location" : "camelot250@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -6109,7 +6109,7 @@
       },
       "alligator@camelot" : {
          "damage" : "15",
-         "location" : "camelot83",
+         "location" : "camelot83@camelot",
          "speed" : "0",
          "aggression" : "22",
          "armor" : "0",
@@ -6125,7 +6125,7 @@
             "ImmShock"
          ],
          "damage" : "15",
-         "location" : "camelot217",
+         "location" : "camelot217@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -6142,7 +6142,7 @@
             "Frost"
          ],
          "damage" : "25",
-         "location" : "camelot17",
+         "location" : "camelot17@camelot",
          "speed" : "0",
          "aggression" : "93",
          "armor" : "30",
@@ -6159,7 +6159,7 @@
             "Icestorm"
          ],
          "damage" : "15",
-         "location" : "camelot252",
+         "location" : "camelot252@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -6170,7 +6170,7 @@
       },
       "spike@camelot" : {
          "damage" : "15",
-         "location" : "camelot235",
+         "location" : "camelot235@camelot",
          "speed" : "0",
          "aggression" : "79",
          "armor" : "0",
@@ -6181,7 +6181,7 @@
       },
       "leech@camelot" : {
          "damage" : "15",
-         "location" : "camelot144",
+         "location" : "camelot144@camelot",
          "armor" : "0",
          "name" : "leech",
          "description" : "Gross! There's a huge disgusting leech in here!",
@@ -6199,7 +6199,7 @@
             "Frost"
          ],
          "damage" : "15",
-         "location" : "camelot220",
+         "location" : "camelot220@camelot",
          "armor" : "0",
          "name" : "jussi",
          "description" : "Jussi wonders what you are doing in here.",
@@ -6213,7 +6213,7 @@
       },
       "bartender@camelot" : {
          "damage" : "15",
-         "location" : "camelot78",
+         "location" : "camelot78@camelot",
          "speed" : "0",
          "aggression" : "80",
          "armor" : "0",
@@ -6230,7 +6230,7 @@
             "ImmShock"
          ],
          "damage" : "15",
-         "location" : "camelot61",
+         "location" : "camelot61@camelot",
          "speed" : "0",
          "aggression" : "25",
          "armor" : "25",
@@ -6246,7 +6246,7 @@
             "NegBhands"
          ],
          "damage" : "15",
-         "location" : "camelot241",
+         "location" : "camelot241@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -6262,7 +6262,7 @@
             "NegMissile"
          ],
          "damage" : "15",
-         "location" : "camelot245",
+         "location" : "camelot245@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -6273,7 +6273,7 @@
       },
       "ewaine@camelot" : {
          "damage" : "15",
-         "location" : "camelot8",
+         "location" : "camelot8@camelot",
          "armor" : "25",
          "name" : "ewaine",
          "description" : "Duke Ewaine says 'Stop! None may pass save with the Kings leave!'",
@@ -6293,7 +6293,7 @@
             "ImmBHands"
          ],
          "damage" : "30",
-         "location" : "camelot11",
+         "location" : "camelot11@camelot",
          "speed" : "0",
          "aggression" : "97",
          "armor" : "30",
@@ -6310,7 +6310,7 @@
             "ImmFrost"
          ],
          "damage" : "15",
-         "location" : "camelot254",
+         "location" : "camelot254@camelot",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -6326,7 +6326,7 @@
             "VTouch"
          ],
          "damage" : "15",
-         "location" : "camelot7",
+         "location" : "camelot7@camelot",
          "speed" : "0",
          "aggression" : "85",
          "armor" : "25",
@@ -6337,7 +6337,7 @@
       },
       "raccoon@camelot" : {
          "damage" : "15",
-         "location" : "camelot79",
+         "location" : "camelot79@camelot",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "0",
@@ -6348,7 +6348,7 @@
       },
       "bertha@camelot" : {
          "damage" : "15",
-         "location" : "camelot109",
+         "location" : "camelot109@camelot",
          "speed" : "0",
          "aggression" : "90",
          "armor" : "0",

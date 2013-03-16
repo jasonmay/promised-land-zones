@@ -1,7 +1,7 @@
 {
    "obj" : {
       "hole@nibelung" : {
-         "location" : "IN_ROOM:Nibelung67",
+         "location" : "IN_ROOM:nibelung67@nibelung",
          "oflags" : [
             "NoGet"
          ],
@@ -16,7 +16,7 @@
       },
       "torch@nibelung" : {
          "desc[1]" : "A charred, oily, wooden torch is lying here.",
-         "location" : "IN_ROOM:Nibelung63",
+         "location" : "IN_ROOM:nibelung63@nibelung",
          "armor" : "95",
          "oflags" : [
             "Lightable",
@@ -34,7 +34,7 @@
       },
       "egg@nibelung" : {
          "desc[1]" : "A small, white eagle's egg is resting in the nest.",
-         "location" : "IN_ROOM:Nibelung59",
+         "location" : "IN_ROOM:nibelung59@nibelung",
          "oflags" : [
             "Food",
             "Key"
@@ -47,7 +47,7 @@
          "size" : "9"
       },
       "carvings@nibelung" : {
-         "location" : "IN_ROOM:Nibelung21",
+         "location" : "IN_ROOM:nibelung21@nibelung",
          "oflags" : [
             "NoGet"
          ],
@@ -59,7 +59,7 @@
       },
       "fork@nibelung" : {
          "damage" : "1",
-         "location" : "IN_ROOM:Nibelung4",
+         "location" : "IN_ROOM:nibelung4@nibelung",
          "oflags" : [
             "Weapon"
          ],
@@ -72,7 +72,7 @@
       },
       "grate@nibelung" : {
          "desc[1]" : "\nA small, rusted iron grate is loosely imbedded in the wall to your left.",
-         "location" : "IN_ROOM:Nibelung53",
+         "location" : "IN_ROOM:nibelung53@nibelung",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -88,7 +88,7 @@
          "desc[0]" : "\nA small, rusted iron grate lies to one side of a tunnel leading west."
       },
       "menu@nibelung" : {
-         "location" : "IN_ROOM:Nibelung98",
+         "location" : "IN_ROOM:nibelung98@nibelung",
          "oflags" : "{ }",
          "altname" : "gilded",
          "name" : "menu",
@@ -99,7 +99,7 @@
          "desc[0]" : "A gilded leather menu sits on the elegant table."
       },
       "body@nibelung" : {
-         "location" : "IN_ROOM:Nibelung42",
+         "location" : "IN_ROOM:nibelung42@nibelung",
          "oflags" : [
             "NoGet"
          ],
@@ -112,7 +112,7 @@
          "desc[0]" : "There is a decomposing body here."
       },
       "cross@nibelung" : {
-         "location" : "IN_ROOM:Nibelung44",
+         "location" : "IN_ROOM:nibelung44@nibelung",
          "oflags" : "{ }",
          "pname" : "cross",
          "name" : "cross",
@@ -122,7 +122,7 @@
          "size" : "25"
       },
       "fire@nibelung" : {
-         "location" : "IN_ROOM:Nibelung79",
+         "location" : "IN_ROOM:nibelung79@nibelung",
          "oflags" : [
             "NoGet",
             "Lit"
@@ -136,7 +136,7 @@
       },
       "arrow2@nibelung" : {
          "damage" : "5",
-         "location" : "IN_ROOM:Nibelung64",
+         "location" : "IN_ROOM:nibelung64@nibelung",
          "oflags" : [
             "Weapon"
          ],
@@ -148,7 +148,7 @@
          "desc[0]" : "\nA small purple arrow is lying here with two feathers missing."
       },
       "pendant@nibelung" : {
-         "location" : "IN_ROOM:Nibelung9",
+         "location" : "IN_ROOM:nibelung9@nibelung",
          "oflags" : [
             "Wearable",
             "AidSpell",
@@ -166,7 +166,7 @@
          ]
       },
       "claw@nibelung" : {
-         "location" : "IN_ROOM:Nibelung96",
+         "location" : "IN_ROOM:nibelung96@nibelung",
          "oflags" : "{ }",
          "altname" : "lizard",
          "name" : "claw",
@@ -176,7 +176,7 @@
          "desc[0]" : "A small lizard's claw is here."
       },
       "napkin@nibelung" : {
-         "location" : "IN_ROOM:Nibelung90",
+         "location" : "IN_ROOM:nibelung90@nibelung",
          "oflags" : [
             "Wearable"
          ],
@@ -191,7 +191,7 @@
          "desc[0]" : "A small red napkin has been thrown here."
       },
       "shield@nibelung" : {
-         "location" : "IN_ROOM:Nibelung89",
+         "location" : "IN_ROOM:nibelung89@nibelung",
          "armor" : "50",
          "oflags" : [
             "Armor",
@@ -207,7 +207,7 @@
       },
       "bench@nibelung" : {
          "desc[1]" : "A stone bench provides a seat along the far wall.",
-         "location" : "IN_ROOM:Nibelung84",
+         "location" : "IN_ROOM:nibelung84@nibelung",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -225,7 +225,7 @@
       },
       "bench2@nibelung" : {
          "desc[1]" : "A large stone bench bars upward passage.",
-         "location" : "IN_ROOM:Nibelung85",
+         "location" : "IN_ROOM:nibelung85@nibelung",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -239,7 +239,7 @@
          "bvalue" : "0"
       },
       "beans@nibelung" : {
-         "location" : "IN_ROOM:Nibelung91",
+         "location" : "IN_ROOM:nibelung91@nibelung",
          "oflags" : [
             "Food"
          ],
@@ -253,7 +253,7 @@
       },
       "coffin@nibelung" : {
          "desc[1]" : "There is a coffin here.",
-         "location" : "IN_ROOM:Nibelung39",
+         "location" : "IN_ROOM:nibelung39@nibelung",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -270,7 +270,7 @@
       },
       "mace@nibelung" : {
          "damage" : "12",
-         "location" : "IN_ROOM:Nibelung88",
+         "location" : "IN_ROOM:nibelung88@nibelung",
          "oflags" : [
             "Weapon"
          ],
@@ -282,7 +282,7 @@
          "desc[0]" : "A large mace has been discarded here."
       },
       "cheese@nibelung" : {
-         "location" : "IN_ROOM:Nibelung36",
+         "location" : "IN_ROOM:nibelung36@nibelung",
          "oflags" : [
             "Food"
          ],
@@ -294,7 +294,7 @@
          "size" : "6"
       },
       "potion@nibelung" : {
-         "location" : "IN_ROOM:Nibelung69",
+         "location" : "IN_ROOM:nibelung69@nibelung",
          "oflags" : [
             "Food"
          ],
@@ -308,7 +308,7 @@
       },
       "arrow3@nibelung" : {
          "damage" : "5",
-         "location" : "IN_ROOM:Nibelung64",
+         "location" : "IN_ROOM:nibelung64@nibelung",
          "oflags" : [
             "Weapon"
          ],
@@ -321,7 +321,7 @@
       },
       "candle@nibelung" : {
          "desc[1]" : "There is a white candle here.",
-         "location" : "IN_ROOM:Nibelung43",
+         "location" : "IN_ROOM:nibelung43@nibelung",
          "armor" : "210",
          "oflags" : [
             "Lightable",
@@ -338,7 +338,7 @@
          "desc[0]" : "There is a white candle here, burning with a cheery flame."
       },
       "hole2@nibelung" : {
-         "location" : "IN_ROOM:Nibelung68",
+         "location" : "IN_ROOM:nibelung68@nibelung",
          "oflags" : [
             "NoGet"
          ],
@@ -351,7 +351,7 @@
          "bvalue" : "0"
       },
       "batcape@nibelung" : {
-         "location" : "IN_ROOM:Nibelung8",
+         "location" : "IN_ROOM:nibelung8@nibelung",
          "armor" : "55",
          "oflags" : [
             "Wearable",
@@ -370,7 +370,7 @@
          ]
       },
       "azurite@nibelung" : {
-         "location" : "IN_ROOM:Nibelung5",
+         "location" : "IN_ROOM:nibelung5@nibelung",
          "oflags" : [
             "Destroyed"
          ],
@@ -382,7 +382,7 @@
          "size" : "5"
       },
       "backplate@nibelung" : {
-         "location" : "IN_ROOM:Nibelung6",
+         "location" : "IN_ROOM:nibelung6@nibelung",
          "armor" : "40",
          "oflags" : [
             "Wearable",
@@ -401,7 +401,7 @@
          ]
       },
       "volume@nibelung" : {
-         "location" : "IN_ROOM:Nibelvolume",
+         "location" : "IN_ROOM:nibelvolume@nibelung",
          "oflags" : [
             "Noget"
          ],
@@ -412,7 +412,7 @@
          "size" : "19"
       },
       "emerald@nibelung" : {
-         "location" : "IN_ROOM:Nibelung87",
+         "location" : "IN_ROOM:nibelung87@nibelung",
          "oflags" : "{ }",
          "altname" : "gem",
          "name" : "emerald",
@@ -424,7 +424,7 @@
       },
       "grate2@nibelung" : {
          "desc[1]" : "A small, rusted iron grate bars any access to the east.",
-         "location" : "IN_ROOM:Nibelung54",
+         "location" : "IN_ROOM:nibelung54@nibelung",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -439,7 +439,7 @@
          "bvalue" : "0"
       },
       "ring@nibelung" : {
-         "location" : "IN_ROOM:Nibelung81",
+         "location" : "IN_ROOM:nibelung81@nibelung",
          "oflags" : [
             "Wearable",
             "Glowing"
@@ -456,7 +456,7 @@
          ]
       },
       "ruby@nibelung" : {
-         "location" : "IN_ROOM:Nibelung87",
+         "location" : "IN_ROOM:nibelung87@nibelung",
          "oflags" : "{ }",
          "altname" : "gem",
          "name" : "ruby",
@@ -468,7 +468,7 @@
       },
       "arrow@nibelung" : {
          "damage" : "5",
-         "location" : "IN_ROOM:Nibelung64",
+         "location" : "IN_ROOM:nibelung64@nibelung",
          "oflags" : [
             "Weapon"
          ],
@@ -481,7 +481,7 @@
       },
       "krystal@nibelung" : {
          "damage" : "7",
-         "location" : "IN_ROOM:Nibelung14",
+         "location" : "IN_ROOM:nibelung14@nibelung",
          "oflags" : [
             "Weapon"
          ],
@@ -493,7 +493,7 @@
          "desc[0]" : "There is a dark blue krystal here."
       },
       "coins@nibelung" : {
-         "location" : "IN_ROOM:Nibelung87",
+         "location" : "IN_ROOM:nibelung87@nibelung",
          "oflags" : "{ }",
          "altname" : "gold",
          "name" : "coins",
@@ -504,7 +504,7 @@
          "desc[0]" : "A small pile of gold coins lies here for the taking."
       },
       "firestone@nibelung" : {
-         "location" : "IN_ROOM:Nibelung92",
+         "location" : "IN_ROOM:nibelung92@nibelung",
          "oflags" : "{ }",
          "altname" : "gem",
          "name" : "firestone",
@@ -516,7 +516,7 @@
       },
       "dagger@nibelung" : {
          "damage" : "7",
-         "location" : "IN_ROOM:Nibelung42",
+         "location" : "IN_ROOM:nibelung42@nibelung",
          "oflags" : [
             "Weapon"
          ],
@@ -528,7 +528,7 @@
          "desc[0]" : "There is a dagger lying here."
       },
       "diary@nibelung" : {
-         "location" : "IN_ROOM:Nibelung70",
+         "location" : "IN_ROOM:nibelung70@nibelung",
          "oflags" : "{ }",
          "altname" : "book",
          "name" : "diary",
@@ -542,10 +542,10 @@
    "loc" : {
       "nibelung37@nibelung" : {
          "exits" : {
-            "w" : "Nibelung36",
-            "e" : "Nibelung38",
-            "n" : "Nibelung34",
-            "s" : "Nibelung40"
+            "w" : "nibelung36@nibelung",
+            "e" : "nibelung38@nibelung",
+            "n" : "nibelung34@nibelung",
+            "s" : "nibelung40@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -556,8 +556,8 @@
       },
       "nibelung10@nibelung" : {
          "exits" : {
-            "u" : "Nibelung11",
-            "d" : "Nibelung7"
+            "u" : "nibelung11@nibelung",
+            "d" : "nibelung7@nibelung"
          },
          "flags" : [
             "Outdoors",
@@ -571,10 +571,10 @@
       },
       "nibelung58@nibelung" : {
          "exits" : {
-            "w" : "Nibelung64",
-            "u" : "Nibelung59",
-            "n" : "Nibelung57",
-            "s" : "Nibelung60"
+            "w" : "nibelung64@nibelung",
+            "u" : "nibelung59@nibelung",
+            "n" : "nibelung57@nibelung",
+            "s" : "nibelung60@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -587,8 +587,8 @@
       },
       "nibelung16@nibelung" : {
          "exits" : {
-            "d" : "Nibelung18",
-            "s" : "Nibelung14"
+            "d" : "nibelung18@nibelung",
+            "s" : "nibelung14@nibelung"
          },
          "flags" : [
             "Outdoors",
@@ -602,7 +602,7 @@
       },
       "nibelung96@nibelung" : {
          "exits" : {
-            "u" : "Nibelung95"
+            "u" : "nibelung95@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -613,7 +613,7 @@
       },
       "nibelung55@nibelung" : {
          "exits" : {
-            "w" : "Nibelung56"
+            "w" : "nibelung56@nibelung"
          },
          "flags" : [
             "Dark"
@@ -626,8 +626,8 @@
       },
       "nibelung32@nibelung" : {
          "exits" : {
-            "w" : "Nibelung31",
-            "s" : "Nibelung35"
+            "w" : "nibelung31@nibelung",
+            "s" : "nibelung35@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -638,8 +638,8 @@
       },
       "nibelung93@nibelung" : {
          "exits" : {
-            "u" : "Nibelung91",
-            "d" : "Nibelung94"
+            "u" : "nibelung91@nibelung",
+            "d" : "nibelung94@nibelung"
          },
          "flags" : [
             "Dark"
@@ -652,8 +652,8 @@
       },
       "nibelung6@nibelung" : {
          "exits" : {
-            "n" : "Nibelung7",
-            "s" : "Nibelung4"
+            "n" : "nibelung7@nibelung",
+            "s" : "nibelung4@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -666,8 +666,8 @@
       },
       "nibelung23@nibelung" : {
          "exits" : {
-            "n" : "Nibelung22",
-            "s" : "Nibelung24"
+            "n" : "nibelung22@nibelung",
+            "s" : "nibelung24@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -680,7 +680,7 @@
       },
       "nibelvolume@nibelung" : {
          "exits" : {
-            "w" : "Nibelung35"
+            "w" : "nibelung35@nibelung"
          },
          "flags" : [
             "dark"
@@ -693,10 +693,10 @@
       },
       "nibelung67@nibelung" : {
          "exits" : {
-            "w" : "Nibelung78",
-            "e" : "Nibelung62",
-            "n" : "Nibelung66",
-            "s" : "^hole"
+            "w" : "nibelung78@nibelung",
+            "e" : "nibelung62@nibelung",
+            "n" : "nibelung66@nibelung",
+            "s" : "^hole@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -707,8 +707,8 @@
       },
       "nibelung70@nibelung" : {
          "exits" : {
-            "u" : "Nibelung71",
-            "d" : "Nibelung68"
+            "u" : "nibelung71@nibelung",
+            "d" : "nibelung68@nibelung"
          },
          "flags" : [
             "Dark",
@@ -722,7 +722,7 @@
       },
       "nibelung39@nibelung" : {
          "exits" : {
-            "u" : "Nibelung38"
+            "u" : "nibelung38@nibelung"
          },
          "flags" : [
             "Dark"
@@ -735,8 +735,8 @@
       },
       "nibelung75@nibelung" : {
          "exits" : {
-            "w" : "Nibelung74",
-            "d" : "Nibelung76"
+            "w" : "nibelung74@nibelung",
+            "d" : "nibelung76@nibelung"
          },
          "flags" : [
             "Dark"
@@ -749,10 +749,10 @@
       },
       "nibelung38@nibelung" : {
          "exits" : {
-            "w" : "Nibelung37",
-            "n" : "Nibelung35",
-            "d" : "Nibelung39",
-            "s" : "Nibelung41"
+            "w" : "nibelung37@nibelung",
+            "n" : "nibelung35@nibelung",
+            "d" : "nibelung39@nibelung",
+            "s" : "nibelung41@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -763,8 +763,8 @@
       },
       "nibelung29@nibelung" : {
          "exits" : {
-            "n" : "Nibelung25",
-            "s" : "Nibelung31"
+            "n" : "nibelung25@nibelung",
+            "s" : "nibelung31@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -777,7 +777,7 @@
       },
       "nibelung42@nibelung" : {
          "exits" : {
-            "e" : "Nibelung43"
+            "e" : "nibelung43@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -790,8 +790,8 @@
       },
       "nibelung84@nibelung" : {
          "exits" : {
-            "u" : "Nibelung83",
-            "d" : "^bench"
+            "u" : "nibelung83@nibelung",
+            "d" : "^bench@nibelung"
          },
          "flags" : [
             "Dark"
@@ -804,8 +804,8 @@
       },
       "nibelung1@nibelung" : {
          "exits" : {
-            "w" : "Entrance@arena",
-            "n" : "Nibelung2",
+            "w" : "entrance@arena",
+            "n" : "nibelung2@nibelung",
             "d" : "entryway@orchold"
          },
          "flags" : [
@@ -819,9 +819,9 @@
       },
       "nibelung43@nibelung" : {
          "exits" : {
-            "w" : "Nibelung42",
-            "e" : "Nibelung44",
-            "n" : "Nibelung40"
+            "w" : "nibelung42@nibelung",
+            "e" : "nibelung44@nibelung",
+            "n" : "nibelung40@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -832,9 +832,9 @@
       },
       "nibelung81@nibelung" : {
          "exits" : {
-            "w" : "Nibelung89",
-            "n" : "Nibelung82",
-            "s" : "Nibelung80"
+            "w" : "nibelung89@nibelung",
+            "n" : "nibelung82@nibelung",
+            "s" : "nibelung80@nibelung"
          },
          "flags" : [
             "Dark"
@@ -847,8 +847,8 @@
       },
       "nibelung50@nibelung" : {
          "exits" : {
-            "n" : "Nibelung51",
-            "s" : "Nibelung49"
+            "n" : "nibelung51@nibelung",
+            "s" : "nibelung49@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -861,9 +861,9 @@
       },
       "nibelung64@nibelung" : {
          "exits" : {
-            "e" : "Nibelung58",
-            "n" : "Nibelung63",
-            "s" : "Nibelung65"
+            "e" : "nibelung58@nibelung",
+            "n" : "nibelung63@nibelung",
+            "s" : "nibelung65@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -874,9 +874,9 @@
       },
       "nibelung41@nibelung" : {
          "exits" : {
-            "w" : "Nibelung40",
-            "n" : "Nibelung38",
-            "s" : "Nibelung44"
+            "w" : "nibelung40@nibelung",
+            "n" : "nibelung38@nibelung",
+            "s" : "nibelung44@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -889,10 +889,10 @@
       },
       "nibelung31@nibelung" : {
          "exits" : {
-            "w" : "Nibelung30",
-            "e" : "Nibelung32",
-            "n" : "Nibelung29",
-            "s" : "Nibelung34"
+            "w" : "nibelung30@nibelung",
+            "e" : "nibelung32@nibelung",
+            "n" : "nibelung29@nibelung",
+            "s" : "nibelung34@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -905,8 +905,8 @@
       },
       "nibelung20@nibelung" : {
          "exits" : {
-            "w" : "Nibelung21",
-            "e" : "Nibelung19"
+            "w" : "nibelung21@nibelung",
+            "e" : "nibelung19@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -919,9 +919,9 @@
       },
       "nibelung94@nibelung" : {
          "exits" : {
-            "u" : "Nibelung93",
-            "d" : "Nibelung95",
-            "s" : "Nibelung95"
+            "u" : "nibelung93@nibelung",
+            "d" : "nibelung95@nibelung",
+            "s" : "nibelung95@nibelung"
          },
          "flags" : [
             "Dark"
@@ -934,10 +934,10 @@
       },
       "nibelung61@nibelung" : {
          "exits" : {
-            "w" : "Nibelung66",
-            "e" : "Nibelung48",
-            "n" : "Nibelung60",
-            "s" : "Nibelung62"
+            "w" : "nibelung66@nibelung",
+            "e" : "nibelung48@nibelung",
+            "n" : "nibelung60@nibelung",
+            "s" : "nibelung62@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -950,9 +950,9 @@
       },
       "nibelung57@nibelung" : {
          "exits" : {
-            "w" : "Nibelung63",
-            "n" : "Nibelung56",
-            "s" : "Nibelung58"
+            "w" : "nibelung63@nibelung",
+            "n" : "nibelung56@nibelung",
+            "s" : "nibelung58@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -965,8 +965,8 @@
       },
       "nibelung27@nibelung" : {
          "exits" : {
-            "w" : "Nibelung45",
-            "e" : "Nibelung26"
+            "w" : "nibelung45@nibelung",
+            "e" : "nibelung26@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -979,8 +979,8 @@
       },
       "nibelung53@nibelung" : {
          "exits" : {
-            "w" : "^grate",
-            "n" : "Nibelung52"
+            "w" : "^grate@nibelung",
+            "n" : "nibelung52@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -993,7 +993,7 @@
       },
       "nibelung98@nibelung" : {
          "exits" : {
-            "s" : "Nibelung97"
+            "s" : "nibelung97@nibelung"
          },
          "flags" : [
             "Party",
@@ -1010,7 +1010,7 @@
       },
       "nibelung92@nibelung" : {
          "exits" : {
-            "e" : "Nibelung91"
+            "e" : "nibelung91@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -1021,9 +1021,9 @@
       },
       "nibelung65@nibelung" : {
          "exits" : {
-            "e" : "Nibelung60",
-            "n" : "Nibelung64",
-            "s" : "Nibelung66"
+            "e" : "nibelung60@nibelung",
+            "n" : "nibelung64@nibelung",
+            "s" : "nibelung66@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1036,7 +1036,7 @@
       },
       "nibelung5@nibelung" : {
          "exits" : {
-            "e" : "Nibelung2"
+            "e" : "nibelung2@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1049,10 +1049,10 @@
       },
       "nibelung80@nibelung" : {
          "exits" : {
-            "w" : "Nibelung90",
-            "e" : "Nibelung66",
-            "n" : "Nibelung81",
-            "s" : "Nibelung79"
+            "w" : "nibelung90@nibelung",
+            "e" : "nibelung66@nibelung",
+            "n" : "nibelung81@nibelung",
+            "s" : "nibelung79@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -1063,9 +1063,9 @@
       },
       "nibelung62@nibelung" : {
          "exits" : {
-            "w" : "Nibelung67",
-            "n" : "Nibelung61",
-            "d" : "Nibelung54"
+            "w" : "nibelung67@nibelung",
+            "n" : "nibelung61@nibelung",
+            "d" : "nibelung54@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1078,10 +1078,10 @@
       },
       "nibelung14@nibelung" : {
          "exits" : {
-            "u" : "Nibelung17",
-            "n" : "Nibelung16",
-            "d" : "Nibelung15",
-            "s" : "Nibelung12"
+            "u" : "nibelung17@nibelung",
+            "n" : "nibelung16@nibelung",
+            "d" : "nibelung15@nibelung",
+            "s" : "nibelung12@nibelung"
          },
          "flags" : [
             "Outdoors",
@@ -1095,7 +1095,7 @@
       },
       "nibellearn@nibelung" : {
          "exits" : {
-            "s" : "Nibelung56"
+            "s" : "nibelung56@nibelung"
          },
          "flags" : [
             "Peaceful"
@@ -1108,8 +1108,8 @@
       },
       "nibelung83@nibelung" : {
          "exits" : {
-            "e" : "Nibelung82",
-            "d" : "Nibelung84"
+            "e" : "nibelung82@nibelung",
+            "d" : "nibelung84@nibelung"
          },
          "flags" : [
             "Dark"
@@ -1122,10 +1122,10 @@
       },
       "nibelung66@nibelung" : {
          "exits" : {
-            "w" : "Nibelung80",
-            "e" : "Nibelung61",
-            "n" : "Nibelung65",
-            "s" : "Nibelung67"
+            "w" : "nibelung80@nibelung",
+            "e" : "nibelung61@nibelung",
+            "n" : "nibelung65@nibelung",
+            "s" : "nibelung67@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -1147,7 +1147,7 @@
       },
       "nibelung71@nibelung" : {
          "exits" : {
-            "d" : "Nibelung70"
+            "d" : "nibelung70@nibelung"
          },
          "flags" : [
             "Dark"
@@ -1160,7 +1160,7 @@
       },
       "nibelung17@nibelung" : {
          "exits" : {
-            "d" : "Nibelung14"
+            "d" : "nibelung14@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1173,9 +1173,9 @@
       },
       "nibelung86@nibelung" : {
          "exits" : {
-            "n" : "Nibelung85",
-            "d" : "Nibelung87",
-            "s" : "Nibelung87"
+            "n" : "nibelung85@nibelung",
+            "d" : "nibelung87@nibelung",
+            "s" : "nibelung87@nibelung"
          },
          "flags" : [
             "Dark",
@@ -1189,9 +1189,9 @@
       },
       "nibelung18@nibelung" : {
          "exits" : {
-            "u" : "Nibelung16",
-            "d" : "Paths@valley",
-            "s" : "Nibelung16"
+            "u" : "nibelung16@nibelung",
+            "d" : "paths@valley",
+            "s" : "nibelung16@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1204,8 +1204,8 @@
       },
       "nibelung89@nibelung" : {
          "exits" : {
-            "w" : "Nibelung88",
-            "e" : "Nibelung81"
+            "w" : "nibelung88@nibelung",
+            "e" : "nibelung81@nibelung"
          },
          "flags" : [
             "Dark"
@@ -1218,9 +1218,9 @@
       },
       "nibelung46@nibelung" : {
          "exits" : {
-            "w" : "Nibelung48",
-            "e" : "Nibelung45",
-            "d" : "Nibelung49"
+            "w" : "nibelung48@nibelung",
+            "e" : "nibelung45@nibelung",
+            "d" : "nibelung49@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1233,8 +1233,8 @@
       },
       "nibelung40@nibelung" : {
          "exits" : {
-            "n" : "Nibelung37",
-            "s" : "Nibelung43"
+            "n" : "nibelung37@nibelung",
+            "s" : "nibelung43@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1247,8 +1247,8 @@
       },
       "nibelung90@nibelung" : {
          "exits" : {
-            "e" : "Nibelung80",
-            "s" : "Nibelung91"
+            "e" : "nibelung80@nibelung",
+            "s" : "nibelung91@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -1259,7 +1259,7 @@
       },
       "nibelung9@nibelung" : {
          "exits" : {
-            "s" : "Nibelung8"
+            "s" : "nibelung8@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1272,7 +1272,7 @@
       },
       "nibelung59@nibelung" : {
          "exits" : {
-            "d" : "Nibelung58"
+            "d" : "nibelung58@nibelung"
          },
          "flags" : [
             "Outdoors",
@@ -1286,8 +1286,8 @@
       },
       "nibelung26@nibelung" : {
          "exits" : {
-            "w" : "Nibelung27",
-            "e" : "Nibelung22"
+            "w" : "nibelung27@nibelung",
+            "e" : "nibelung22@nibelung"
          },
          "flags" : [
             "Outdoors",
@@ -1302,9 +1302,9 @@
       "nibelung4@nibelung" : {
          "exits" : {
             "e" : "hills20@caledonia",
-            "w" : "Nibelung19",
-            "n" : "Nibelung6",
-            "s" : "Nibelung3"
+            "w" : "nibelung19@nibelung",
+            "n" : "nibelung6@nibelung",
+            "s" : "nibelung3@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1317,9 +1317,9 @@
       },
       "nibelung95@nibelung" : {
          "exits" : {
-            "u" : "Nibelung94",
-            "n" : "Nibelung94",
-            "d" : "Nibelung96"
+            "u" : "nibelung94@nibelung",
+            "n" : "nibelung94@nibelung",
+            "d" : "nibelung96@nibelung"
          },
          "flags" : [
             "Dark"
@@ -1332,7 +1332,7 @@
       },
       "nibelung77@nibelung" : {
          "exits" : {
-            "n" : "Nibelung78"
+            "n" : "nibelung78@nibelung"
          },
          "flags" : [
             "Dark"
@@ -1345,8 +1345,8 @@
       },
       "nibelung79@nibelung" : {
          "exits" : {
-            "n" : "Nibelung80",
-            "s" : "Nibelung78"
+            "n" : "nibelung80@nibelung",
+            "s" : "nibelung78@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -1357,9 +1357,9 @@
       },
       "nibelung91@nibelung" : {
          "exits" : {
-            "w" : "Nibelung92",
-            "n" : "Nibelung90",
-            "d" : "Nibelung93"
+            "w" : "nibelung92@nibelung",
+            "n" : "nibelung90@nibelung",
+            "d" : "nibelung93@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -1370,8 +1370,8 @@
       },
       "nibelung11@nibelung" : {
          "exits" : {
-            "n" : "Nibelung12",
-            "d" : "Nibelung10"
+            "n" : "nibelung12@nibelung",
+            "d" : "nibelung10@nibelung"
          },
          "flags" : [
             "Outdoors",
@@ -1385,8 +1385,8 @@
       },
       "nibelung82@nibelung" : {
          "exits" : {
-            "w" : "Nibelung83",
-            "s" : "Nibelung81"
+            "w" : "nibelung83@nibelung",
+            "s" : "nibelung81@nibelung"
          },
          "flags" : [
             "Dark"
@@ -1399,8 +1399,8 @@
       },
       "nibelung49@nibelung" : {
          "exits" : {
-            "n" : "Nibelung50",
-            "s" : "Nibelung52"
+            "n" : "nibelung50@nibelung",
+            "s" : "nibelung52@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1413,8 +1413,8 @@
       },
       "nibelung19@nibelung" : {
          "exits" : {
-            "w" : "Nibelung20",
-            "e" : "Nibelung4"
+            "w" : "nibelung20@nibelung",
+            "e" : "nibelung4@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1427,8 +1427,8 @@
       },
       "nibelung63@nibelung" : {
          "exits" : {
-            "e" : "Nibelung57",
-            "s" : "Nibelung64"
+            "e" : "nibelung57@nibelung",
+            "s" : "nibelung64@nibelung"
          },
          "flags" : [
             "Dark"
@@ -1453,8 +1453,8 @@
       },
       "nibelung87@nibelung" : {
          "exits" : {
-            "u" : "Nibelung86",
-            "n" : "Nibelung86"
+            "u" : "nibelung86@nibelung",
+            "n" : "nibelung86@nibelung"
          },
          "flags" : [
             "Dark"
@@ -1467,7 +1467,7 @@
       },
       "nibelung51@nibelung" : {
          "exits" : {
-            "s" : "Nibelung50"
+            "s" : "nibelung50@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1480,10 +1480,10 @@
       },
       "nibelung68@nibelung" : {
          "exits" : {
-            "u" : "Nibelung70",
-            "n" : "^hole2",
-            "d" : "Nibelung72",
-            "s" : "Nibelung69"
+            "u" : "nibelung70@nibelung",
+            "n" : "^hole2@nibelung",
+            "d" : "nibelung72@nibelung",
+            "s" : "nibelung69@nibelung"
          },
          "flags" : [
             "Dark"
@@ -1496,9 +1496,9 @@
       },
       "nibelung45@nibelung" : {
          "exits" : {
-            "w" : "Nibelung46",
-            "e" : "Nibelung27",
-            "u" : "Nibelung47"
+            "w" : "nibelung46@nibelung",
+            "e" : "nibelung27@nibelung",
+            "u" : "nibelung47@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -1509,9 +1509,9 @@
       },
       "nibelung56@nibelung" : {
          "exits" : {
-            "e" : "Nibelung55",
-            "n" : "NibelLearn",
-            "s" : "Nibelung57"
+            "e" : "nibelung55@nibelung",
+            "n" : "nibellearn@nibelung",
+            "s" : "nibelung57@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1524,9 +1524,9 @@
       },
       "nibelung2@nibelung" : {
          "exits" : {
-            "w" : "Nibelung5",
-            "n" : "Nibelung3",
-            "s" : "Nibelung1"
+            "w" : "nibelung5@nibelung",
+            "n" : "nibelung3@nibelung",
+            "s" : "nibelung1@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1539,8 +1539,8 @@
       },
       "nibelung44@nibelung" : {
          "exits" : {
-            "w" : "Nibelung43",
-            "n" : "Nibelung41"
+            "w" : "nibelung43@nibelung",
+            "n" : "nibelung41@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -1551,7 +1551,7 @@
       },
       "nibelung76@nibelung" : {
          "exits" : {
-            "u" : "Nibelung75"
+            "u" : "nibelung75@nibelung"
          },
          "flags" : [
             "Death"
@@ -1564,8 +1564,8 @@
       },
       "nibelung21@nibelung" : {
          "exits" : {
-            "w" : "Nibelung22",
-            "e" : "Nibelung20"
+            "w" : "nibelung22@nibelung",
+            "e" : "nibelung20@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1578,8 +1578,8 @@
       },
       "nibelung33@nibelung" : {
          "exits" : {
-            "e" : "Nibelung34",
-            "n" : "Nibelung30"
+            "e" : "nibelung34@nibelung",
+            "n" : "nibelung30@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1592,10 +1592,10 @@
       },
       "nibelung34@nibelung" : {
          "exits" : {
-            "w" : "Nibelung33",
-            "e" : "Nibelung35",
-            "n" : "Nibelung31",
-            "s" : "Nibelung37"
+            "w" : "nibelung33@nibelung",
+            "e" : "nibelung35@nibelung",
+            "n" : "nibelung31@nibelung",
+            "s" : "nibelung37@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1608,8 +1608,8 @@
       },
       "nibelung97@nibelung" : {
          "exits" : {
-            "n" : "Nibelung98",
-            "s" : "Nibelung17"
+            "n" : "nibelung98@nibelung",
+            "s" : "nibelung17@nibelung"
          },
          "flags" : [
             "Party",
@@ -1626,9 +1626,9 @@
       },
       "nibelung7@nibelung" : {
          "exits" : {
-            "u" : "Nibelung10",
-            "n" : "Nibelung8",
-            "s" : "Nibelung6"
+            "u" : "nibelung10@nibelung",
+            "n" : "nibelung8@nibelung",
+            "s" : "nibelung6@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1641,7 +1641,7 @@
       },
       "nibelung69@nibelung" : {
          "exits" : {
-            "n" : "Nibelung68"
+            "n" : "nibelung68@nibelung"
          },
          "flags" : [
             "Dark"
@@ -1654,8 +1654,8 @@
       },
       "nibelung30@nibelung" : {
          "exits" : {
-            "e" : "Nibelung31",
-            "s" : "Nibelung33"
+            "e" : "nibelung31@nibelung",
+            "s" : "nibelung33@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -1666,8 +1666,8 @@
       },
       "nibelung48@nibelung" : {
          "exits" : {
-            "w" : "Nibelung61",
-            "e" : "Nibelung46"
+            "w" : "nibelung61@nibelung",
+            "e" : "nibelung46@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -1678,9 +1678,9 @@
       },
       "nibelung78@nibelung" : {
          "exits" : {
-            "e" : "Nibelung67",
-            "n" : "Nibelung79",
-            "s" : "Nibelung77"
+            "e" : "nibelung67@nibelung",
+            "n" : "nibelung79@nibelung",
+            "s" : "nibelung77@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -1691,9 +1691,9 @@
       },
       "nibelung60@nibelung" : {
          "exits" : {
-            "w" : "Nibelung65",
-            "n" : "Nibelung58",
-            "s" : "Nibelung61"
+            "w" : "nibelung65@nibelung",
+            "n" : "nibelung58@nibelung",
+            "s" : "nibelung61@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1706,7 +1706,7 @@
       },
       "nibelung28@nibelung" : {
          "exits" : {
-            "s" : "Nibelung22"
+            "s" : "nibelung22@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -1717,8 +1717,8 @@
       },
       "nibelung73@nibelung" : {
          "exits" : {
-            "e" : "Nibelung74",
-            "u" : "Nibelung72"
+            "e" : "nibelung74@nibelung",
+            "u" : "nibelung72@nibelung"
          },
          "flags" : [
             "Dark"
@@ -1731,10 +1731,10 @@
       },
       "nibelung22@nibelung" : {
          "exits" : {
-            "w" : "Nibelung26",
-            "e" : "Nibelung21",
-            "n" : "Nibelung28",
-            "s" : "Nibelung23"
+            "w" : "nibelung26@nibelung",
+            "e" : "nibelung21@nibelung",
+            "n" : "nibelung28@nibelung",
+            "s" : "nibelung23@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1747,8 +1747,8 @@
       },
       "nibelung72@nibelung" : {
          "exits" : {
-            "u" : "Nibelung68",
-            "d" : "Nibelung73"
+            "u" : "nibelung68@nibelung",
+            "d" : "nibelung73@nibelung"
          },
          "flags" : [
             "Dark"
@@ -1761,8 +1761,8 @@
       },
       "nibelung54@nibelung" : {
          "exits" : {
-            "e" : "^grate2",
-            "u" : "Nibelung62"
+            "e" : "^grate2@nibelung",
+            "u" : "nibelung62@nibelung"
          },
          "flags" : [
             "NoMobiles"
@@ -1775,8 +1775,8 @@
       },
       "nibelung85@nibelung" : {
          "exits" : {
-            "u" : "^bench2",
-            "s" : "Nibelung86"
+            "u" : "^bench2@nibelung",
+            "s" : "nibelung86@nibelung"
          },
          "flags" : [
             "Dark"
@@ -1790,7 +1790,7 @@
       "nibelung13@nibelung" : {
          "exits" : {
             "w" : "khanjar9571@khanjar",
-            "u" : "Nibelung12"
+            "u" : "nibelung12@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1803,10 +1803,10 @@
       },
       "nibelung35@nibelung" : {
          "exits" : {
-            "e" : "Nibelvolume",
-            "w" : "Nibelung34",
-            "n" : "Nibelung32",
-            "s" : "Nibelung38"
+            "e" : "nibelvolume@nibelung",
+            "w" : "nibelung34@nibelung",
+            "n" : "nibelung32@nibelung",
+            "s" : "nibelung38@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1820,8 +1820,8 @@
       "nibelung8@nibelung" : {
          "exits" : {
             "w" : "tread17@treadmill",
-            "n" : "Nibelung9",
-            "s" : "Nibelung7"
+            "n" : "nibelung9@nibelung",
+            "s" : "nibelung7@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1834,8 +1834,8 @@
       },
       "nibelung3@nibelung" : {
          "exits" : {
-            "n" : "Nibelung4",
-            "s" : "Nibelung2"
+            "n" : "nibelung4@nibelung",
+            "s" : "nibelung2@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1848,8 +1848,8 @@
       },
       "nibelung52@nibelung" : {
          "exits" : {
-            "n" : "Nibelung49",
-            "s" : "Nibelung53"
+            "n" : "nibelung49@nibelung",
+            "s" : "nibelung53@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1862,7 +1862,7 @@
       },
       "nibelung47@nibelung" : {
          "exits" : {
-            "d" : "Nibelung45"
+            "d" : "nibelung45@nibelung"
          },
          "flags" : [
             "Soundproof"
@@ -1875,8 +1875,8 @@
       },
       "nibelung25@nibelung" : {
          "exits" : {
-            "n" : "Nibelung24",
-            "s" : "Nibelung29"
+            "n" : "nibelung24@nibelung",
+            "s" : "nibelung29@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1889,8 +1889,8 @@
       },
       "nibelung24@nibelung" : {
          "exits" : {
-            "n" : "Nibelung23",
-            "s" : "Nibelung25"
+            "n" : "nibelung23@nibelung",
+            "s" : "nibelung25@nibelung"
          },
          "flags" : [
             "Outdoors"
@@ -1903,8 +1903,8 @@
       },
       "nibelung74@nibelung" : {
          "exits" : {
-            "w" : "Nibelung73",
-            "e" : "Nibelung75"
+            "w" : "nibelung73@nibelung",
+            "e" : "nibelung75@nibelung"
          },
          "flags" : [
             "Dark"
@@ -1917,9 +1917,9 @@
       },
       "nibelung12@nibelung" : {
          "exits" : {
-            "n" : "Nibelung14",
-            "d" : "Nibelung13",
-            "s" : "Nibelung11"
+            "n" : "nibelung14@nibelung",
+            "d" : "nibelung13@nibelung",
+            "s" : "nibelung11@nibelung"
          },
          "flags" : [
             "Outdoors",
@@ -1934,7 +1934,7 @@
       },
       "nibelung36@nibelung" : {
          "exits" : {
-            "e" : "Nibelung37"
+            "e" : "nibelung37@nibelung"
          },
          "flags" : [],
          "zone" : "nibelung",
@@ -1945,7 +1945,7 @@
       },
       "nibelung88@nibelung" : {
          "exits" : {
-            "e" : "Nibelung89"
+            "e" : "nibelung89@nibelung"
          },
          "flags" : [
             "Dark"
@@ -1960,7 +1960,7 @@
    "mob" : {
       "bookwyrm@nibelung" : {
          "damage" : "8",
-         "location" : "Nibelung78",
+         "location" : "nibelung78@nibelung",
          "armor" : "0",
          "name" : "Bookwyrm",
          "description" : "A bookwyrm is here, looking for some books to eat.",
@@ -1975,7 +1975,7 @@
       },
       "gunther@nibelung" : {
          "damage" : "8",
-         "location" : "Nibelung60",
+         "location" : "nibelung60@nibelung",
          "speed" : "0",
          "aggression" : "98",
          "armor" : "0",
@@ -1986,7 +1986,7 @@
       },
       "kenin@nibelung" : {
          "damage" : "8",
-         "location" : "Nibelung84",
+         "location" : "nibelung84@nibelung",
          "speed" : "0",
          "aggression" : "98",
          "armor" : "0",
@@ -1997,7 +1997,7 @@
       },
       "stefan@nibelung" : {
          "damage" : "8",
-         "location" : "Nibelung80",
+         "location" : "nibelung80@nibelung",
          "speed" : "0",
          "aggression" : "98",
          "armor" : "0",
@@ -2008,7 +2008,7 @@
       },
       "racoon@nibelung" : {
          "damage" : "8",
-         "location" : "Nibelung41",
+         "location" : "nibelung41@nibelung",
          "speed" : "5",
          "aggression" : "2",
          "armor" : "0",
@@ -2019,7 +2019,7 @@
       },
       "boatman@nibelung" : {
          "damage" : "8",
-         "location" : "Nibelung28",
+         "location" : "nibelung28@nibelung",
          "speed" : "5",
          "aggression" : "0",
          "armor" : "0",
@@ -2030,7 +2030,7 @@
       },
       "wolfgang@nibelung" : {
          "damage" : "8",
-         "location" : "Nibelung55",
+         "location" : "nibelung55@nibelung",
          "speed" : "5",
          "aggression" : "5",
          "armor" : "0",
@@ -2041,7 +2041,7 @@
       },
       "vampire@nibelung" : {
          "damage" : "8",
-         "location" : "Limbo@limbo",
+         "location" : "limbo@limbo",
          "armor" : "0",
          "name" : "Vampire",
          "description" : "\nA man stands before you with dark brown hair, wearing a cape. He has unusually\nlarge, sharp teeth and a fixating gaze.",
@@ -2061,7 +2061,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "Nibelung87",
+         "location" : "nibelung87@nibelung",
          "armor" : "0",
          "name" : "Faffner",
          "description" : "Faffner the Dracolich contemplates how to kill you.",
@@ -2075,7 +2075,7 @@
       },
       "gatekeeper@nibelung" : {
          "damage" : "8",
-         "location" : "Nibelung29",
+         "location" : "nibelung29@nibelung",
          "speed" : "5",
          "aggression" : "0",
          "armor" : "0",
@@ -2086,7 +2086,7 @@
       },
       "nimbus@nibelung" : {
          "damage" : "20",
-         "location" : "Nibelung13",
+         "location" : "nibelung13@nibelung",
          "armor" : "0",
          "name" : "Nimbus",
          "description" : "A Nimbus hovers above you.",
@@ -2104,7 +2104,7 @@
       },
       "bully@nibelung" : {
          "damage" : "8",
-         "location" : "Nibelung35",
+         "location" : "nibelung35@nibelung",
          "speed" : "5",
          "aggression" : "50",
          "armor" : "0",
@@ -2115,7 +2115,7 @@
       },
       "teacher@nibelung" : {
          "damage" : "25",
-         "location" : "nibellearn",
+         "location" : "nibellearn@nibelung",
          "armor" : "5",
          "name" : "teacher",
          "examine" : "\nThe woman sternly returns your gaze.  You hear '&+WHere we teach.&*', though\nyou swear her lips never moved.",
@@ -2130,7 +2130,7 @@
       },
       "protector@nibelung" : {
          "damage" : "8",
-         "location" : "Nibelung45",
+         "location" : "nibelung45@nibelung",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "0",
@@ -2141,7 +2141,7 @@
       },
       "maitred@nibelung" : {
          "damage" : "8",
-         "location" : "Nibelung97",
+         "location" : "nibelung97@nibelung",
          "armor" : "0",
          "name" : "MaitreD",
          "description" : "The Maitre D' stares down her nose at you condecendingly.",
@@ -2156,7 +2156,7 @@
       },
       "bratty@nibelung" : {
          "damage" : "8",
-         "location" : "Nibelung32",
+         "location" : "nibelung32@nibelung",
          "armor" : "0",
          "name" : "Bratty",
          "description" : "\nA girl is here with bright red hair in pony tails. She has really thick glasses\non, and is polishing an apple.",

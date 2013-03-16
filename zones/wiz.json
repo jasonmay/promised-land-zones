@@ -1,7 +1,7 @@
 {
    "obj" : {
       "ring2@wiz" : {
-         "location" : "IN_CONTAINER:pillow",
+         "location" : "IN_CONTAINER:pillow@wiz",
          "weight" : "2",
          "pname" : "ring",
          "name" : "ring2",
@@ -10,7 +10,7 @@
          "size" : "2"
       },
       "fishtank@wiz" : {
-         "location" : "IN_ROOM:arctica1",
+         "location" : "IN_ROOM:arctica1@wiz",
          "oflags" : [
             "NoGet",
             "Container"
@@ -22,7 +22,7 @@
          "size" : "40"
       },
       "rope@wiz" : {
-         "location" : "IN_CONTAINER:fishtank",
+         "location" : "IN_CONTAINER:fishtank@wiz",
          "oflags" : [
             "Wearable"
          ],
@@ -33,7 +33,7 @@
          "size" : "4"
       },
       "bed@wiz" : {
-         "location" : "IN_ROOM:arctica1",
+         "location" : "IN_ROOM:arctica1@wiz",
          "oflags" : [
             "NoGet"
          ],
@@ -46,7 +46,7 @@
       "lightsword@wiz" : {
          "desc[1]" : "A small round holster lies here with a beam of light protruding from it.",
          "damage" : "13",
-         "location" : "IN_ROOM:Raymond1",
+         "location" : "IN_ROOM:raymond1@wiz",
          "armor" : "0",
          "oflags" : [
             "Lit",
@@ -65,7 +65,7 @@
       },
       "lightsabre@wiz" : {
          "damage" : "15",
-         "location" : "IN_ROOM:spokes1",
+         "location" : "IN_ROOM:spokes1@wiz",
          "oflags" : [
             "Weapon",
             "Lit"
@@ -81,7 +81,7 @@
          "desc[0]" : "Luke Skywalker, a good friend of Spokes, has left his Light Sabre here."
       },
       "gia@wiz" : {
-         "location" : "IN_ROOM:jano1",
+         "location" : "IN_ROOM:jano1@wiz",
          "armor" : "55",
          "oflags" : [
             "Wearable",
@@ -101,7 +101,7 @@
          ]
       },
       "pillow@wiz" : {
-         "location" : "CARRIED_BY:ring_bearer",
+         "location" : "CARRIED_BY:ring_bearer@wiz",
          "weight" : "0",
          "oflags" : [
             "Container"
@@ -113,7 +113,7 @@
       },
       "katana_x@wiz" : {
          "damage" : "25",
-         "location" : "IN_ROOM:jano1",
+         "location" : "IN_ROOM:jano1@wiz",
          "oflags" : [
             "Lit",
             "Weapon"
@@ -127,7 +127,7 @@
          "desc[0]" : "\nJano's mystical Katana floats here, waiting patiently for it's master."
       },
       "shades@wiz" : {
-         "location" : "IN_ROOM:spokes1",
+         "location" : "IN_ROOM:spokes1@wiz",
          "armor" : "20",
          "oflags" : [
             "Wearable",
@@ -149,7 +149,7 @@
       },
       "glasses@wiz" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Raymond1",
+         "location" : "IN_ROOM:raymond1@wiz",
          "armor" : "33",
          "oflags" : [
             "Lit",
@@ -168,7 +168,7 @@
          ]
       },
       "ring1@wiz" : {
-         "location" : "IN_CONTAINER:pillow",
+         "location" : "IN_CONTAINER:pillow@wiz",
          "weight" : "0",
          "pname" : "ring",
          "name" : "ring1",
@@ -177,7 +177,7 @@
          "size" : "2"
       },
       "amethyst_shield@wiz" : {
-         "location" : "IN_ROOM:shi1",
+         "location" : "IN_ROOM:shi1@wiz",
          "armor" : "25",
          "oflags" : [
             "NoGet",
@@ -197,7 +197,7 @@
       },
       "amethyst_sword@wiz" : {
          "damage" : "25",
-         "location" : "IN_ROOM:shi1",
+         "location" : "IN_ROOM:shi1@wiz",
          "oflags" : [
             "Noget",
             "Weapon",
@@ -214,7 +214,7 @@
       },
       "icicle@wiz" : {
          "damage" : "15",
-         "location" : "CARRIED_BY:Anook",
+         "location" : "CARRIED_BY:anook@wiz",
          "oflags" : [
             "Weapon",
             "Unlocatable"
@@ -227,7 +227,7 @@
       },
       "lightcloak@wiz" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Raymond1",
+         "location" : "IN_ROOM:raymond1@wiz",
          "armor" : "80",
          "oflags" : [
             "Lit",
@@ -248,7 +248,7 @@
          ]
       },
       "leather@wiz" : {
-         "location" : "IN_ROOM:spokes1",
+         "location" : "IN_ROOM:spokes1@wiz",
          "armor" : "45",
          "oflags" : [
             "Wearable",
@@ -304,7 +304,7 @@
       },
       "wiz20@wiz" : {
          "exits" : {
-            "w" : "wiz19"
+            "w" : "wiz19@wiz"
          },
          "flags" : [
             "Outdoors"
@@ -330,7 +330,7 @@
       },
       "wiz19@wiz" : {
          "exits" : {
-            "e" : "wiz20"
+            "e" : "wiz20@wiz"
          },
          "flags" : [
             "Outdoors"
@@ -357,7 +357,7 @@
       "sadie1@wiz" : {
          "exits" : {
             "d" : "beach2@beach",
-            "s" : "Green@village"
+            "s" : "green@village"
          },
          "flags" : [],
          "zone" : "wiz",
@@ -399,7 +399,7 @@
       },
       "spokes2@wiz" : {
          "exits" : {
-            "w" : "spokes1"
+            "w" : "spokes1@wiz"
          },
          "flags" : [
             "NoMobiles",
@@ -468,7 +468,7 @@
       "chump1@wiz" : {
          "exits" : {
             "u" : "elemental@blizzard",
-            "n" : "Chump2"
+            "n" : "chump2@wiz"
          },
          "flags" : [
             "Outdoors",
@@ -507,7 +507,7 @@
       },
       "spokes1@wiz" : {
          "exits" : {
-            "e" : "spokes2"
+            "e" : "spokes2@wiz"
          },
          "flags" : [
             "Party"
@@ -520,7 +520,7 @@
       },
       "chump2@wiz" : {
          "exits" : {
-            "s" : "Chump1"
+            "s" : "chump1@wiz"
          },
          "flags" : [
             "Outdoors",
@@ -537,7 +537,7 @@
    "mob" : {
       "peter@wiz" : {
          "damage" : "15",
-         "location" : "tinkerbell1",
+         "location" : "tinkerbell1@wiz",
          "armor" : "0",
          "name" : "Peter",
          "examine" : "\n&+WPeter Pan &Nsays '&+YHey, do you know my best friend, Tinkerbell?'",
@@ -549,7 +549,7 @@
       },
       "acanthostega@wiz" : {
          "damage" : "4",
-         "location" : "arctica1",
+         "location" : "arctica1@wiz",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -560,7 +560,7 @@
       },
       "preacher@wiz" : {
          "damage" : "10",
-         "location" : "marriage1",
+         "location" : "marriage1@wiz",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -580,7 +580,7 @@
             "NegMissile"
          ],
          "damage" : "30",
-         "location" : "Raymond1",
+         "location" : "raymond1@wiz",
          "armor" : "60",
          "name" : "Defender",
          "description" : "You see the Defender of Raymond's armor, released from the closet.",
@@ -591,7 +591,7 @@
       },
       "ring_bearer@wiz" : {
          "damage" : "0",
-         "location" : "marriage1",
+         "location" : "marriage1@wiz",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -626,7 +626,7 @@
             "Negfrost"
          ],
          "damage" : "15",
-         "location" : "Chump1",
+         "location" : "chump1@wiz",
          "armor" : "5",
          "name" : "Anook",
          "description" : "\nThe eskimo you see before you looks lost and forlorn, for she is without her\nigloo and dogteam.",
@@ -642,7 +642,7 @@
       },
       "stallion@wiz" : {
          "damage" : "15",
-         "location" : "spokes1",
+         "location" : "spokes1@wiz",
          "armor" : "10",
          "name" : "stallion",
          "examine" : "\nAs you look at Diana, she rears back onto her hind legs, showing off.",
@@ -660,7 +660,7 @@
             "NegShock"
          ],
          "damage" : "20",
-         "location" : "shi1",
+         "location" : "shi1@wiz",
          "armor" : "10",
          "name" : "Fabio",
          "examine" : "\nLonghaired, tall with vacant blue eyes, this barbarian smiles at you, showing\na perfect set of teeth.",

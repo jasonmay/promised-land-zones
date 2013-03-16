@@ -2,7 +2,7 @@
    "obj" : {
       "zijaz@cyrus" : {
          "damage" : "35",
-         "location" : "IN_CONTAINER:pedestal",
+         "location" : "IN_CONTAINER:pedestal@cyrus",
          "oflags" : [
             "weapon",
             "unlocatable"
@@ -16,7 +16,7 @@
          "desc[0]" : "The legendary &+mZijaz&* is here."
       },
       "sign@cyrus" : {
-         "location" : "IN_ROOM:1",
+         "location" : "IN_ROOM:1@cyrus",
          "oflags" : [
             "NoGet"
          ],
@@ -25,7 +25,7 @@
          "desc[0]" : "A warning sign is here."
       },
       "beer@cyrus" : {
-         "location" : "IN_ROOM:65",
+         "location" : "IN_ROOM:65@cyrus",
          "oflags" : [
             "Food",
             "Alcohol"
@@ -35,12 +35,12 @@
          "desc[0]" : "A beer is here."
       },
       "idol@cyrus" : {
-         "location" : "IN_ROOM:24",
+         "location" : "IN_ROOM:24@cyrus",
          "name" : "idol",
          "examine" : "This idol was used to cast black magic. It seems to have a\npowerful and evil power."
       },
       "inscription2@cyrus" : {
-         "location" : "IN_ROOM:26",
+         "location" : "IN_ROOM:26@cyrus",
          "oflags" : [
             "NoGet"
          ],
@@ -50,14 +50,14 @@
          "desc[0]" : "Some inscriptions are carved in the wall."
       },
       "parchment2@cyrus" : {
-         "location" : "CARRIED_BY:pguard2",
+         "location" : "CARRIED_BY:pguard2@cyrus",
          "pname" : "parchment",
          "name" : "parchment2",
          "examine" : "This parchment reveal some very important things.",
          "desc[0]" : "A parchment is lying on the ground here."
       },
       "breastplate2@cyrus" : {
-         "location" : "WORN_BY:pguard2",
+         "location" : "WORN_BY:pguard2@cyrus",
          "oflags" : [
             "wearable",
             "Armor"
@@ -74,7 +74,7 @@
          "desc[0]" : "A well-made breastplate is resting here, on the ground."
       },
       "head@cyrus" : {
-         "location" : "IN_ROOM:80",
+         "location" : "IN_ROOM:80@cyrus",
          "oflags" : [
             "food"
          ],
@@ -83,7 +83,7 @@
          "desc[0]" : "A yummy human head is lying here."
       },
       "table@cyrus" : {
-         "location" : "IN_ROOM:3",
+         "location" : "IN_ROOM:3@cyrus",
          "oflags" : [
             "NoGet"
          ],
@@ -93,14 +93,14 @@
          "state" : "0"
       },
       "parchment3@cyrus" : {
-         "location" : "CARRIED_BY:pguard3",
+         "location" : "CARRIED_BY:pguard3@cyrus",
          "pname" : "parchment",
          "name" : "parchment3",
          "examine" : "This parchment reveal some very important things.",
          "desc[0]" : "A parchment is lying on the ground here."
       },
       "underwear@cyrus" : {
-         "location" : "WORN_BY:wrestler",
+         "location" : "WORN_BY:wrestler@cyrus",
          "armor" : "1",
          "oflags" : [
             "armor",
@@ -114,7 +114,7 @@
          ]
       },
       "ear@cyrus" : {
-         "location" : "IN_ROOM:80",
+         "location" : "IN_ROOM:80@cyrus",
          "oflags" : [
             "food"
          ],
@@ -123,7 +123,7 @@
          "desc[0]" : "Someone's ear has been dropped here."
       },
       "chicken@cyrus" : {
-         "location" : "IN_ROOM:65",
+         "location" : "IN_ROOM:65@cyrus",
          "oflags" : [
             "Food"
          ],
@@ -132,7 +132,7 @@
          "desc[0]" : "A chicken has been dropped here."
       },
       "breastplate3@cyrus" : {
-         "location" : "WORN_BY:pguard3",
+         "location" : "WORN_BY:pguard3@cyrus",
          "oflags" : [
             "wearable",
             "Armor"
@@ -149,7 +149,7 @@
          "desc[0]" : "A well-made breastplate is resting here, on the ground."
       },
       "scroll@cyrus" : {
-         "location" : "IN_ROOM:65",
+         "location" : "IN_ROOM:65@cyrus",
          "oflags" : [
             "Unlocatable"
          ],
@@ -158,7 +158,7 @@
          "desc[0]" : "A scroll is here"
       },
       "parchment1@cyrus" : {
-         "location" : "CARRIED_BY:pguard1",
+         "location" : "CARRIED_BY:pguard1@cyrus",
          "pname" : "parchment",
          "name" : "parchment1",
          "examine" : "This parchment reveal some very important things.",
@@ -166,7 +166,7 @@
       },
       "pitchfork@cyrus" : {
          "damage" : "15",
-         "location" : "WIELDED_BY:villager",
+         "location" : "WIELDED_BY:villager@cyrus",
          "oflags" : [
             "weapon"
          ],
@@ -175,7 +175,7 @@
          "desc[0]" : "A pitcfork is lying here."
       },
       "inscription3@cyrus" : {
-         "location" : "IN_ROOM:14",
+         "location" : "IN_ROOM:14@cyrus",
          "oflags" : [
             "NoGet"
          ],
@@ -186,7 +186,7 @@
       },
       "pedestal2@cyrus" : {
          "desc[1]" : "A pedestal is here, closed.",
-         "location" : "IN_ROOM:53",
+         "location" : "IN_ROOM:53@cyrus",
          "oflags" : [
             "openable",
             "noget",
@@ -202,7 +202,7 @@
       },
       "epik@cyrus" : {
          "damage" : "27",
-         "location" : "IN_CONTAINER:pedestal2",
+         "location" : "IN_CONTAINER:pedestal2@cyrus",
          "oflags" : [
             "weapon",
             "lit",
@@ -215,7 +215,7 @@
          "desc[0]" : "The magic sword, &+mEpik&*, is here, glowing with an inner power."
       },
       "door_out@cyrus" : {
-         "location" : "IN_ROOM:72",
+         "location" : "IN_ROOM:72@cyrus",
          "oflags" : [
             "NoGet",
             "openable",
@@ -229,7 +229,7 @@
       },
       "pedestal@cyrus" : {
          "desc[1]" : "A pedestal is here, closed.",
-         "location" : "IN_ROOM:16",
+         "location" : "IN_ROOM:16@cyrus",
          "oflags" : [
             "container",
             "openable",
@@ -245,7 +245,7 @@
          "desc[0]" : "The pedestal is open."
       },
       "brain@cyrus" : {
-         "location" : "IN_ROOM:80",
+         "location" : "IN_ROOM:80@cyrus",
          "oflags" : [
             "food"
          ],
@@ -254,7 +254,7 @@
          "desc[0]" : "A brain has been dropped here."
       },
       "volume@cyrus" : {
-         "location" : "IN_ROOM:74",
+         "location" : "IN_ROOM:74@cyrus",
          "oflags" : [
             "Noget"
          ],
@@ -266,14 +266,14 @@
          "size" : "18"
       },
       "crucifix@cyrus" : {
-         "location" : "IN_ROOM:24",
+         "location" : "IN_ROOM:24@cyrus",
          "oflags" : "{}",
          "name" : "crucifix",
          "examine" : "The crucifix is made of gold. It seemed to have fallen off the\naltar.",
          "desc[0]" : "A crucifix is lying on the floor."
       },
       "trapdoor@cyrus" : {
-         "location" : "IN_ROOM:73",
+         "location" : "IN_ROOM:73@cyrus",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -285,7 +285,7 @@
          "state" : "1"
       },
       "door_in@cyrus" : {
-         "location" : "IN_ROOM:73",
+         "location" : "IN_ROOM:73@cyrus",
          "oflags" : [
             "NoGet",
             "openable",
@@ -298,7 +298,7 @@
          "state" : "2"
       },
       "inscription1@cyrus" : {
-         "location" : "IN_ROOM:56",
+         "location" : "IN_ROOM:56@cyrus",
          "oflags" : [
             "NoGet"
          ],
@@ -308,7 +308,7 @@
          "desc[0]" : "Some inscriptions are carved in the wall."
       },
       "beef@cyrus" : {
-         "location" : "IN_ROOM:65",
+         "location" : "IN_ROOM:65@cyrus",
          "oflags" : [
             "Food"
          ],
@@ -317,7 +317,7 @@
          "desc[0]" : "A leg of beef is lying here."
       },
       "altar@cyrus" : {
-         "location" : "IN_ROOM:24",
+         "location" : "IN_ROOM:24@cyrus",
          "oflags" : [
             "NoGet"
          ],
@@ -325,7 +325,7 @@
          "examine" : "The priest used to put an object on it before the rituals."
       },
       "breastplate1@cyrus" : {
-         "location" : "WORN_BY:pguard1",
+         "location" : "WORN_BY:pguard1@cyrus",
          "oflags" : [
             "wearable",
             "Armor"
@@ -342,7 +342,7 @@
          "desc[0]" : "A well-made breastplate is resting here, on the ground."
       },
       "dust@cyrus" : {
-         "location" : "IN_ROOM:73",
+         "location" : "IN_ROOM:73@cyrus",
          "oflags" : [
             "NoGet"
          ],
@@ -350,7 +350,7 @@
          "examine" : "You find a &+Ctrapdoor&* under the dust!"
       },
       "broccoli@cyrus" : {
-         "location" : "IN_ROOM:65",
+         "location" : "IN_ROOM:65@cyrus",
          "oflags" : [
             "Food"
          ],
@@ -359,7 +359,7 @@
          "desc[0]" : "A green piece of broccoli is lying on the ground."
       },
       "trapdoor_d@cyrus" : {
-         "location" : "IN_ROOM:74",
+         "location" : "IN_ROOM:74@cyrus",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -373,7 +373,7 @@
       },
       "velux@cyrus" : {
          "damage" : "30",
-         "location" : "IN_ROOM:15",
+         "location" : "IN_ROOM:15@cyrus",
          "oflags" : [
             "weapon",
             "lit",
@@ -388,7 +388,7 @@
          "desc[0]" : "The powerful &+YVelux&* stands here on its stand."
       },
       "carrot@cyrus" : {
-         "location" : "IN_ROOM:65",
+         "location" : "IN_ROOM:65@cyrus",
          "oflags" : [
             "Food"
          ],
@@ -397,7 +397,7 @@
          "desc[0]" : "A yummy carrot is here."
       },
       "heart@cyrus" : {
-         "location" : "IN_ROOM:80",
+         "location" : "IN_ROOM:80@cyrus",
          "oflags" : [
             "food"
          ],
@@ -406,7 +406,7 @@
          "desc[0]" : "A heart is here, lying in the dirt."
       },
       "cuirass@cyrus" : {
-         "location" : "WORN_BY:villager",
+         "location" : "WORN_BY:villager@cyrus",
          "armor" : "10",
          "oflags" : [
             "wearable",
@@ -424,8 +424,8 @@
    "loc" : {
       "76@cyrus" : {
          "exits" : {
-            "e" : "75",
-            "n" : "7"
+            "e" : "75@cyrus",
+            "n" : "7@cyrus"
          },
          "flags" : [
             "Outdoors"
@@ -438,12 +438,12 @@
       },
       "50@cyrus" : {
          "exits" : {
-            "w" : "35",
-            "e" : "32",
-            "u" : "36",
-            "n" : "31",
-            "d" : "37",
-            "s" : "34"
+            "w" : "35@cyrus",
+            "e" : "32@cyrus",
+            "u" : "36@cyrus",
+            "n" : "31@cyrus",
+            "d" : "37@cyrus",
+            "s" : "34@cyrus"
          },
          "flags" : [
             "Maze",
@@ -457,8 +457,8 @@
       },
       "78@cyrus" : {
          "exits" : {
-            "u" : "77",
-            "d" : "9"
+            "u" : "77@cyrus",
+            "d" : "9@cyrus"
          },
          "flags" : [
             "Hot"
@@ -471,12 +471,12 @@
       },
       "30@cyrus" : {
          "exits" : {
-            "w" : "48",
-            "e" : "32",
-            "u" : "43",
-            "n" : "31",
-            "d" : "46",
-            "s" : "43"
+            "w" : "48@cyrus",
+            "e" : "32@cyrus",
+            "u" : "43@cyrus",
+            "n" : "31@cyrus",
+            "d" : "46@cyrus",
+            "s" : "43@cyrus"
          },
          "flags" : [
             "Maze",
@@ -490,8 +490,8 @@
       },
       "58@cyrus" : {
          "exits" : {
-            "u" : "57",
-            "d" : "59"
+            "u" : "57@cyrus",
+            "d" : "59@cyrus"
          },
          "flags" : [
             "Hot"
@@ -504,7 +504,7 @@
       },
       "3@cyrus" : {
          "exits" : {
-            "e" : "2"
+            "e" : "2@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -515,8 +515,8 @@
       },
       "67@cyrus" : {
          "exits" : {
-            "n" : "68",
-            "s" : "5"
+            "n" : "68@cyrus",
+            "s" : "5@cyrus"
          },
          "flags" : [
             "Outdoors"
@@ -529,7 +529,7 @@
       },
       "18@cyrus" : {
          "exits" : {
-            "s" : "19"
+            "s" : "19@cyrus"
          },
          "flags" : [
             "NoRegen"
@@ -542,8 +542,8 @@
       },
       "54@cyrus" : {
          "exits" : {
-            "w" : "55",
-            "e" : "26"
+            "w" : "55@cyrus",
+            "e" : "26@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -565,12 +565,12 @@
       },
       "44@cyrus" : {
          "exits" : {
-            "w" : "35",
-            "e" : "32",
-            "u" : "36",
-            "n" : "31",
-            "d" : "37",
-            "s" : "34"
+            "w" : "35@cyrus",
+            "e" : "32@cyrus",
+            "u" : "36@cyrus",
+            "n" : "31@cyrus",
+            "d" : "37@cyrus",
+            "s" : "34@cyrus"
          },
          "flags" : [
             "Maze",
@@ -584,7 +584,7 @@
       },
       "19@cyrus" : {
          "exits" : {
-            "e" : "20"
+            "e" : "20@cyrus"
          },
          "flags" : [
             "NoRegen"
@@ -597,10 +597,10 @@
       },
       "60@cyrus" : {
          "exits" : {
-            "w" : "63",
-            "e" : "62",
-            "n" : "61",
-            "s" : "59"
+            "w" : "63@cyrus",
+            "e" : "62@cyrus",
+            "n" : "61@cyrus",
+            "s" : "59@cyrus"
          },
          "flags" : [
             "Negregen",
@@ -626,12 +626,12 @@
       },
       "41@cyrus" : {
          "exits" : {
-            "w" : "46",
-            "e" : "43",
-            "u" : "47",
-            "n" : "31",
-            "d" : "48",
-            "s" : "42"
+            "w" : "46@cyrus",
+            "e" : "43@cyrus",
+            "u" : "47@cyrus",
+            "n" : "31@cyrus",
+            "d" : "48@cyrus",
+            "s" : "42@cyrus"
          },
          "flags" : [
             "Maze",
@@ -645,12 +645,12 @@
       },
       "47@cyrus" : {
          "exits" : {
-            "w" : "35",
-            "e" : "32",
-            "u" : "36",
-            "n" : "31",
-            "d" : "37",
-            "s" : "34"
+            "w" : "35@cyrus",
+            "e" : "32@cyrus",
+            "u" : "36@cyrus",
+            "n" : "31@cyrus",
+            "d" : "37@cyrus",
+            "s" : "34@cyrus"
          },
          "flags" : [
             "Maze",
@@ -664,8 +664,8 @@
       },
       "73@cyrus" : {
          "exits" : {
-            "d" : "^trapdoor",
-            "s" : "^door_in"
+            "d" : "^trapdoor@cyrus",
+            "s" : "^door_in@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -676,8 +676,8 @@
       },
       "59@cyrus" : {
          "exits" : {
-            "u" : "58",
-            "n" : "60"
+            "u" : "58@cyrus",
+            "n" : "60@cyrus"
          },
          "flags" : [
             "Negregen",
@@ -702,12 +702,12 @@
       },
       "34@cyrus" : {
          "exits" : {
-            "w" : "44",
-            "e" : "31",
-            "u" : "31",
-            "n" : "35",
-            "d" : "48",
-            "s" : "47"
+            "w" : "44@cyrus",
+            "e" : "31@cyrus",
+            "u" : "31@cyrus",
+            "n" : "35@cyrus",
+            "d" : "48@cyrus",
+            "s" : "47@cyrus"
          },
          "flags" : [
             "Maze",
@@ -721,8 +721,8 @@
       },
       "12@cyrus" : {
          "exits" : {
-            "w" : "9",
-            "e" : "13"
+            "w" : "9@cyrus",
+            "e" : "13@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -733,8 +733,8 @@
       },
       "71@cyrus" : {
          "exits" : {
-            "w" : "70",
-            "e" : "81"
+            "w" : "70@cyrus",
+            "e" : "81@cyrus"
          },
          "flags" : [
             "Outdoors"
@@ -747,10 +747,10 @@
       },
       "9@cyrus" : {
          "exits" : {
-            "e" : "12",
-            "w" : "10",
-            "u" : "78",
-            "n" : "79"
+            "e" : "12@cyrus",
+            "w" : "10@cyrus",
+            "u" : "78@cyrus",
+            "n" : "79@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -761,8 +761,8 @@
       },
       "56@cyrus" : {
          "exits" : {
-            "e" : "55",
-            "d" : "57"
+            "e" : "55@cyrus",
+            "d" : "57@cyrus"
          },
          "flags" : [
             "Hot"
@@ -775,7 +775,7 @@
       },
       "80@cyrus" : {
          "exits" : {
-            "s" : "79"
+            "s" : "79@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -786,12 +786,12 @@
       },
       "46@cyrus" : {
          "exits" : {
-            "w" : "35",
-            "e" : "32",
-            "u" : "36",
-            "n" : "31",
-            "d" : "37",
-            "s" : "34"
+            "w" : "35@cyrus",
+            "e" : "32@cyrus",
+            "u" : "36@cyrus",
+            "n" : "31@cyrus",
+            "d" : "37@cyrus",
+            "s" : "34@cyrus"
          },
          "flags" : [
             "Maze",
@@ -805,7 +805,7 @@
       },
       "20@cyrus" : {
          "exits" : {
-            "e" : "21"
+            "e" : "21@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -828,7 +828,7 @@
       },
       "24@cyrus" : {
          "exits" : {
-            "d" : "25"
+            "d" : "25@cyrus"
          },
          "flags" : [
             "NoRegen"
@@ -841,7 +841,7 @@
       },
       "53@cyrus" : {
          "exits" : {
-            "w" : "26"
+            "w" : "26@cyrus"
          },
          "flags" : [
             "NoRegen"
@@ -854,8 +854,8 @@
       },
       "10@cyrus" : {
          "exits" : {
-            "w" : "11",
-            "e" : "9"
+            "w" : "11@cyrus",
+            "e" : "9@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -866,8 +866,8 @@
       },
       "66@cyrus" : {
          "exits" : {
-            "n" : "15",
-            "s" : "14"
+            "n" : "15@cyrus",
+            "s" : "14@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -878,7 +878,7 @@
       },
       "61@cyrus" : {
          "exits" : {
-            "n" : "64"
+            "n" : "64@cyrus"
          },
          "flags" : [
             "Hot"
@@ -891,7 +891,7 @@
       },
       "15@cyrus" : {
          "exits" : {
-            "s" : "66"
+            "s" : "66@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -902,8 +902,8 @@
       },
       "7@cyrus" : {
          "exits" : {
-            "n" : "8",
-            "s" : "5"
+            "n" : "8@cyrus",
+            "s" : "5@cyrus"
          },
          "flags" : [
             "outdoors"
@@ -916,12 +916,12 @@
       },
       "42@cyrus" : {
          "exits" : {
-            "w" : "51",
-            "e" : "51",
-            "u" : "51",
-            "n" : "51",
-            "d" : "52",
-            "s" : "51"
+            "w" : "51@cyrus",
+            "e" : "51@cyrus",
+            "u" : "51@cyrus",
+            "n" : "51@cyrus",
+            "d" : "52@cyrus",
+            "s" : "51@cyrus"
          },
          "flags" : [
             "Maze"
@@ -934,8 +934,8 @@
       },
       "8@cyrus" : {
          "exits" : {
-            "d" : "77",
-            "s" : "7"
+            "d" : "77@cyrus",
+            "s" : "7@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -946,10 +946,10 @@
       },
       "69@cyrus" : {
          "exits" : {
-            "w" : "75",
-            "e" : "70",
-            "n" : "83",
-            "s" : "68"
+            "w" : "75@cyrus",
+            "e" : "70@cyrus",
+            "n" : "83@cyrus",
+            "s" : "68@cyrus"
          },
          "flags" : [
             "Outdoors"
@@ -974,8 +974,8 @@
       },
       "68@cyrus" : {
          "exits" : {
-            "n" : "69",
-            "s" : "67"
+            "n" : "69@cyrus",
+            "s" : "67@cyrus"
          },
          "flags" : [
             "Outdoors"
@@ -988,7 +988,7 @@
       },
       "1@cyrus" : {
          "exits" : {
-            "n" : "2",
+            "n" : "2@cyrus",
             "s" : "camelot85@camelot"
          },
          "flags" : [
@@ -1002,12 +1002,12 @@
       },
       "35@cyrus" : {
          "exits" : {
-            "w" : "31",
-            "e" : "46",
-            "u" : "46",
-            "n" : "36",
-            "d" : "31",
-            "s" : "47"
+            "w" : "31@cyrus",
+            "e" : "46@cyrus",
+            "u" : "46@cyrus",
+            "n" : "36@cyrus",
+            "d" : "31@cyrus",
+            "s" : "47@cyrus"
          },
          "flags" : [
             "Maze"
@@ -1020,7 +1020,7 @@
       },
       "63@cyrus" : {
          "exits" : {
-            "n" : "64"
+            "n" : "64@cyrus"
          },
          "flags" : [
             "Hot"
@@ -1033,7 +1033,7 @@
       },
       "6@cyrus" : {
          "exits" : {
-            "e" : "5"
+            "e" : "5@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -1044,7 +1044,7 @@
       },
       "21@cyrus" : {
          "exits" : {
-            "e" : "22"
+            "e" : "22@cyrus"
          },
          "flags" : [
             "NoRegen"
@@ -1057,8 +1057,8 @@
       },
       "82@cyrus" : {
          "exits" : {
-            "w" : "76",
-            "e" : "75"
+            "w" : "76@cyrus",
+            "e" : "75@cyrus"
          },
          "flags" : [
             "Outdoors"
@@ -1071,8 +1071,8 @@
       },
       "70@cyrus" : {
          "exits" : {
-            "w" : "69",
-            "e" : "71"
+            "w" : "69@cyrus",
+            "e" : "71@cyrus"
          },
          "flags" : [
             "Outdoors"
@@ -1085,8 +1085,8 @@
       },
       "75@cyrus" : {
          "exits" : {
-            "w" : "82",
-            "e" : "69"
+            "w" : "82@cyrus",
+            "e" : "69@cyrus"
          },
          "flags" : [
             "Outdoors"
@@ -1099,8 +1099,8 @@
       },
       "72@cyrus" : {
          "exits" : {
-            "n" : "^door_out",
-            "s" : "71"
+            "n" : "^door_out@cyrus",
+            "s" : "71@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -1111,7 +1111,7 @@
       },
       "22@cyrus" : {
          "exits" : {
-            "n" : "23"
+            "n" : "23@cyrus"
          },
          "flags" : [
             "NoRegen"
@@ -1124,12 +1124,12 @@
       },
       "31@cyrus" : {
          "exits" : {
-            "w" : "48",
-            "e" : "32",
-            "u" : "49",
-            "n" : "44",
-            "d" : "46",
-            "s" : "45"
+            "w" : "48@cyrus",
+            "e" : "32@cyrus",
+            "u" : "49@cyrus",
+            "n" : "44@cyrus",
+            "d" : "46@cyrus",
+            "s" : "45@cyrus"
          },
          "flags" : [
             "Maze"
@@ -1142,12 +1142,12 @@
       },
       "48@cyrus" : {
          "exits" : {
-            "w" : "35",
-            "e" : "32",
-            "u" : "36",
-            "n" : "31",
-            "d" : "37",
-            "s" : "34"
+            "w" : "35@cyrus",
+            "e" : "32@cyrus",
+            "u" : "36@cyrus",
+            "n" : "31@cyrus",
+            "d" : "37@cyrus",
+            "s" : "34@cyrus"
          },
          "flags" : [
             "Maze",
@@ -1161,9 +1161,9 @@
       },
       "13@cyrus" : {
          "exits" : {
-            "w" : "12",
-            "e" : "14",
-            "s" : "17"
+            "w" : "12@cyrus",
+            "e" : "14@cyrus",
+            "s" : "17@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -1174,7 +1174,7 @@
       },
       "16@cyrus" : {
          "exits" : {
-            "w" : "26"
+            "w" : "26@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -1185,12 +1185,12 @@
       },
       "40@cyrus" : {
          "exits" : {
-            "w" : "30",
-            "e" : "46",
-            "u" : "45",
-            "n" : "41",
-            "d" : "47",
-            "s" : "50"
+            "w" : "30@cyrus",
+            "e" : "46@cyrus",
+            "u" : "45@cyrus",
+            "n" : "41@cyrus",
+            "d" : "47@cyrus",
+            "s" : "50@cyrus"
          },
          "flags" : [
             "Maze",
@@ -1204,8 +1204,8 @@
       },
       "79@cyrus" : {
          "exits" : {
-            "n" : "80",
-            "s" : "9"
+            "n" : "80@cyrus",
+            "s" : "9@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -1216,8 +1216,8 @@
       },
       "81@cyrus" : {
          "exits" : {
-            "w" : "71",
-            "n" : "72"
+            "w" : "71@cyrus",
+            "n" : "72@cyrus"
          },
          "flags" : [
             "Outdoors"
@@ -1230,7 +1230,7 @@
       },
       "23@cyrus" : {
          "exits" : {
-            "w" : "24"
+            "w" : "24@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -1241,12 +1241,12 @@
       },
       "33@cyrus" : {
          "exits" : {
-            "w" : "30",
-            "e" : "31",
-            "u" : "50",
-            "n" : "34",
-            "d" : "32",
-            "s" : "46"
+            "w" : "30@cyrus",
+            "e" : "31@cyrus",
+            "u" : "50@cyrus",
+            "n" : "34@cyrus",
+            "d" : "32@cyrus",
+            "s" : "46@cyrus"
          },
          "flags" : [
             "Maze",
@@ -1260,8 +1260,8 @@
       },
       "55@cyrus" : {
          "exits" : {
-            "w" : "56",
-            "e" : "54"
+            "w" : "56@cyrus",
+            "e" : "54@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -1272,7 +1272,7 @@
       },
       "17@cyrus" : {
          "exits" : {
-            "s" : "18"
+            "s" : "18@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -1283,7 +1283,7 @@
       },
       "11@cyrus" : {
          "exits" : {
-            "e" : "10"
+            "e" : "10@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -1294,12 +1294,12 @@
       },
       "38@cyrus" : {
          "exits" : {
-            "w" : "49",
-            "e" : "39",
-            "u" : "48",
-            "n" : "31",
-            "d" : "47",
-            "s" : "44"
+            "w" : "49@cyrus",
+            "e" : "39@cyrus",
+            "u" : "48@cyrus",
+            "n" : "31@cyrus",
+            "d" : "47@cyrus",
+            "s" : "44@cyrus"
          },
          "flags" : [
             "Maze",
@@ -1313,9 +1313,9 @@
       },
       "5@cyrus" : {
          "exits" : {
-            "w" : "6",
-            "n" : "67",
-            "s" : "2"
+            "w" : "6@cyrus",
+            "n" : "67@cyrus",
+            "s" : "2@cyrus"
          },
          "flags" : [
             "outdoors"
@@ -1328,12 +1328,12 @@
       },
       "37@cyrus" : {
          "exits" : {
-            "w" : "31",
-            "e" : "38",
-            "u" : "45",
-            "n" : "45",
-            "d" : "30",
-            "s" : "47"
+            "w" : "31@cyrus",
+            "e" : "38@cyrus",
+            "u" : "45@cyrus",
+            "n" : "45@cyrus",
+            "d" : "30@cyrus",
+            "s" : "47@cyrus"
          },
          "flags" : [
             "Maze"
@@ -1346,8 +1346,8 @@
       },
       "77@cyrus" : {
          "exits" : {
-            "u" : "8",
-            "d" : "78"
+            "u" : "8@cyrus",
+            "d" : "78@cyrus"
          },
          "flags" : [
             "Hot"
@@ -1360,7 +1360,7 @@
       },
       "52@cyrus" : {
          "exits" : {
-            "d" : "53"
+            "d" : "53@cyrus"
          },
          "flags" : [
             "Maze",
@@ -1375,12 +1375,12 @@
       },
       "32@cyrus" : {
          "exits" : {
-            "w" : "43",
-            "e" : "47",
-            "u" : "30",
-            "n" : "45",
-            "d" : "31",
-            "s" : "33"
+            "w" : "43@cyrus",
+            "e" : "47@cyrus",
+            "u" : "30@cyrus",
+            "n" : "45@cyrus",
+            "d" : "31@cyrus",
+            "s" : "33@cyrus"
          },
          "flags" : [
             "Maze"
@@ -1393,12 +1393,12 @@
       },
       "36@cyrus" : {
          "exits" : {
-            "w" : "43",
-            "e" : "44",
-            "u" : "50",
-            "n" : "37",
-            "d" : "49",
-            "s" : "31"
+            "w" : "43@cyrus",
+            "e" : "44@cyrus",
+            "u" : "50@cyrus",
+            "n" : "37@cyrus",
+            "d" : "49@cyrus",
+            "s" : "31@cyrus"
          },
          "flags" : [
             "Maze",
@@ -1412,7 +1412,7 @@
       },
       "4@cyrus" : {
          "exits" : {
-            "w" : "2"
+            "w" : "2@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -1423,12 +1423,12 @@
       },
       "43@cyrus" : {
          "exits" : {
-            "w" : "35",
-            "e" : "32",
-            "u" : "36",
-            "n" : "31",
-            "d" : "37",
-            "s" : "34"
+            "w" : "35@cyrus",
+            "e" : "32@cyrus",
+            "u" : "36@cyrus",
+            "n" : "31@cyrus",
+            "d" : "37@cyrus",
+            "s" : "34@cyrus"
          },
          "flags" : [
             "Maze",
@@ -1451,8 +1451,8 @@
       },
       "29@cyrus" : {
          "exits" : {
-            "n" : "30",
-            "s" : "26"
+            "n" : "30@cyrus",
+            "s" : "26@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -1474,8 +1474,8 @@
       },
       "57@cyrus" : {
          "exits" : {
-            "u" : "56",
-            "d" : "58"
+            "u" : "56@cyrus",
+            "d" : "58@cyrus"
          },
          "flags" : [
             "Hot"
@@ -1488,8 +1488,8 @@
       },
       "14@cyrus" : {
          "exits" : {
-            "w" : "13",
-            "n" : "66"
+            "w" : "13@cyrus",
+            "n" : "66@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -1500,10 +1500,10 @@
       },
       "2@cyrus" : {
          "exits" : {
-            "w" : "3",
-            "e" : "4",
-            "n" : "5",
-            "s" : "1"
+            "w" : "3@cyrus",
+            "e" : "4@cyrus",
+            "n" : "5@cyrus",
+            "s" : "1@cyrus"
          },
          "flags" : [
             "outdoors"
@@ -1516,7 +1516,7 @@
       },
       "74@cyrus" : {
          "exits" : {
-            "u" : "^trapdoor_d"
+            "u" : "^trapdoor_d@cyrus"
          },
          "flags" : [
             "Dark"
@@ -1529,10 +1529,10 @@
       },
       "26@cyrus" : {
          "exits" : {
-            "w" : "54",
-            "u" : "27",
-            "n" : "29",
-            "d" : "28"
+            "w" : "54@cyrus",
+            "u" : "27@cyrus",
+            "n" : "29@cyrus",
+            "d" : "28@cyrus"
          },
          "flags" : [],
          "zone" : "cyrus",
@@ -1554,12 +1554,12 @@
       },
       "39@cyrus" : {
          "exits" : {
-            "w" : "35",
-            "e" : "32",
-            "u" : "36",
-            "n" : "31",
-            "d" : "37",
-            "s" : "40"
+            "w" : "35@cyrus",
+            "e" : "32@cyrus",
+            "u" : "36@cyrus",
+            "n" : "31@cyrus",
+            "d" : "37@cyrus",
+            "s" : "40@cyrus"
          },
          "flags" : [
             "Maze"
@@ -1572,12 +1572,12 @@
       },
       "49@cyrus" : {
          "exits" : {
-            "w" : "35",
-            "e" : "32",
-            "u" : "36",
-            "n" : "31",
-            "d" : "37",
-            "s" : "34"
+            "w" : "35@cyrus",
+            "e" : "32@cyrus",
+            "u" : "36@cyrus",
+            "n" : "31@cyrus",
+            "d" : "37@cyrus",
+            "s" : "34@cyrus"
          },
          "flags" : [
             "Maze",
@@ -1591,7 +1591,7 @@
       },
       "62@cyrus" : {
          "exits" : {
-            "n" : "64"
+            "n" : "64@cyrus"
          },
          "flags" : [
             "Hot"
@@ -1606,7 +1606,7 @@
    "mob" : {
       "guard10@cyrus" : {
          "damage" : "15",
-         "location" : "34",
+         "location" : "34@cyrus",
          "speed" : "30",
          "aggression" : "80",
          "armor" : "10",
@@ -1618,7 +1618,7 @@
       },
       "bebaji@cyrus" : {
          "damage" : "25",
-         "location" : "19",
+         "location" : "19@cyrus",
          "armor" : "10",
          "name" : "Bebaji",
          "description" : "Bebaji, the older sister of the Wajsyg family is standing here.",
@@ -1634,7 +1634,7 @@
       },
       "guard8@cyrus" : {
          "damage" : "15",
-         "location" : "36",
+         "location" : "36@cyrus",
          "speed" : "30",
          "aggression" : "80",
          "armor" : "10",
@@ -1646,7 +1646,7 @@
       },
       "guard12@cyrus" : {
          "damage" : "15",
-         "location" : "32",
+         "location" : "32@cyrus",
          "speed" : "30",
          "aggression" : "80",
          "armor" : "10",
@@ -1658,7 +1658,7 @@
       },
       "bogowa@cyrus" : {
          "damage" : "25",
-         "location" : "18",
+         "location" : "18@cyrus",
          "armor" : "10",
          "name" : "Bogowa",
          "description" : "Bogowa, the father of the Wajsyg family is standing here.",
@@ -1672,7 +1672,7 @@
       },
       "efnel@cyrus" : {
          "damage" : "25",
-         "location" : "24",
+         "location" : "24@cyrus",
          "armor" : "10",
          "name" : "Efnel",
          "examine" : "Tall, ugly, stinky, crusty and sticky; what else could you desire?",
@@ -1687,7 +1687,7 @@
       },
       "keprek@cyrus" : {
          "damage" : "25",
-         "location" : "21",
+         "location" : "21@cyrus",
          "armor" : "10",
          "name" : "Keprek",
          "description" : "Keprek, the older brother of the Wajsyg family is standing here.",
@@ -1700,7 +1700,7 @@
       },
       "jayl@cyrus" : {
          "damage" : "25",
-         "location" : "23",
+         "location" : "23@cyrus",
          "armor" : "10",
          "name" : "Jayl",
          "description" : "Jayl, the father of the Wajsyg family is standing here.",
@@ -1713,7 +1713,7 @@
       },
       "villager@cyrus" : {
          "damage" : "10",
-         "location" : "2",
+         "location" : "2@cyrus",
          "armor" : "5",
          "name" : "villager",
          "description" : "A man is fleeing, in total panic.",
@@ -1724,7 +1724,7 @@
       },
       "lutix@cyrus" : {
          "damage" : "25",
-         "location" : "20",
+         "location" : "20@cyrus",
          "armor" : "10",
          "name" : "Lutix",
          "description" : "Lutix, the younger brother of the Wajsyg family is standing here.",
@@ -1737,7 +1737,7 @@
       },
       "bwark@cyrus" : {
          "damage" : "18",
-         "location" : "61",
+         "location" : "61@cyrus",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "12",
@@ -1747,7 +1747,7 @@
       },
       "oruc@cyrus" : {
          "damage" : "5",
-         "location" : "4",
+         "location" : "4@cyrus",
          "speed" : "0",
          "armor" : "5",
          "name" : "oruc",
@@ -1756,7 +1756,7 @@
          "strength" : "100"
       },
       "hermit@cyrus" : {
-         "location" : "73",
+         "location" : "73@cyrus",
          "speed" : "0",
          "aggression" : "0",
          "name" : "hermit",
@@ -1765,7 +1765,7 @@
          "strength" : "100"
       },
       "guardian@cyrus" : {
-         "location" : "8",
+         "location" : "8@cyrus",
          "speed" : "0",
          "aggression" : "0",
          "name" : "guardian",
@@ -1778,7 +1778,7 @@
       },
       "sijone@cyrus" : {
          "damage" : "18",
-         "location" : "62",
+         "location" : "62@cyrus",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "12",
@@ -1788,7 +1788,7 @@
       },
       "guard13@cyrus" : {
          "damage" : "15",
-         "location" : "31",
+         "location" : "31@cyrus",
          "speed" : "30",
          "aggression" : "80",
          "armor" : "10",
@@ -1800,7 +1800,7 @@
       },
       "guard1@cyrus" : {
          "damage" : "15",
-         "location" : "51",
+         "location" : "51@cyrus",
          "speed" : "30",
          "aggression" : "80",
          "armor" : "10",
@@ -1812,7 +1812,7 @@
       },
       "guard3@cyrus" : {
          "damage" : "15",
-         "location" : "46",
+         "location" : "46@cyrus",
          "speed" : "30",
          "aggression" : "80",
          "armor" : "10",
@@ -1824,7 +1824,7 @@
       },
       "gaav@cyrus" : {
          "damage" : "25",
-         "location" : "22",
+         "location" : "22@cyrus",
          "armor" : "10",
          "name" : "Gaav",
          "description" : "Gaav, the mother of the Wajsyg family is standing here.",
@@ -1840,7 +1840,7 @@
       },
       "uzsmo@cyrus" : {
          "damage" : "18",
-         "location" : "63",
+         "location" : "63@cyrus",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "12",
@@ -1850,7 +1850,7 @@
       },
       "guard9@cyrus" : {
          "damage" : "15",
-         "location" : "35",
+         "location" : "35@cyrus",
          "speed" : "30",
          "aggression" : "80",
          "armor" : "10",
@@ -1862,7 +1862,7 @@
       },
       "catix@cyrus" : {
          "damage" : "10",
-         "location" : "6",
+         "location" : "6@cyrus",
          "speed" : "0",
          "armor" : "40",
          "name" : "catix",
@@ -1872,7 +1872,7 @@
       },
       "guard11@cyrus" : {
          "damage" : "15",
-         "location" : "33",
+         "location" : "33@cyrus",
          "speed" : "30",
          "aggression" : "80",
          "armor" : "10",
@@ -1884,7 +1884,7 @@
       },
       "pguard3@cyrus" : {
          "damage" : "27",
-         "location" : "65",
+         "location" : "65@cyrus",
          "armor" : "17",
          "name" : "pguard3",
          "description" : "Qzedo, the guard is here.",
@@ -1912,7 +1912,7 @@
             "NegVtouch"
          ],
          "damage" : "50",
-         "location" : "64",
+         "location" : "64@cyrus",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "25",
@@ -1923,7 +1923,7 @@
       },
       "wrestler@cyrus" : {
          "damage" : "45",
-         "location" : "14",
+         "location" : "14@cyrus",
          "armor" : "35",
          "name" : "wrestler",
          "examine" : "He has big muscles.",
@@ -1937,7 +1937,7 @@
       },
       "guard5@cyrus" : {
          "damage" : "15",
-         "location" : "39",
+         "location" : "39@cyrus",
          "speed" : "30",
          "aggression" : "80",
          "armor" : "10",
@@ -1949,7 +1949,7 @@
       },
       "pguard1@cyrus" : {
          "damage" : "25",
-         "location" : "65",
+         "location" : "65@cyrus",
          "armor" : "15",
          "name" : "pguard1",
          "description" : "Sawdor, the guard is here.",
@@ -1964,7 +1964,7 @@
       },
       "guard6@cyrus" : {
          "damage" : "15",
-         "location" : "38",
+         "location" : "38@cyrus",
          "speed" : "30",
          "aggression" : "80",
          "armor" : "10",
@@ -1976,7 +1976,7 @@
       },
       "guard4@cyrus" : {
          "damage" : "15",
-         "location" : "40",
+         "location" : "40@cyrus",
          "speed" : "30",
          "aggression" : "80",
          "armor" : "10",
@@ -1988,7 +1988,7 @@
       },
       "bartender@cyrus" : {
          "damage" : "5",
-         "location" : "4",
+         "location" : "4@cyrus",
          "speed" : "0",
          "aggression" : "0",
          "name" : "bartender",
@@ -1997,7 +1997,7 @@
       },
       "guard7@cyrus" : {
          "damage" : "15",
-         "location" : "37",
+         "location" : "37@cyrus",
          "speed" : "30",
          "aggression" : "80",
          "armor" : "10",
@@ -2009,7 +2009,7 @@
       },
       "guard2@cyrus" : {
          "damage" : "15",
-         "location" : "47",
+         "location" : "47@cyrus",
          "speed" : "30",
          "aggression" : "80",
          "armor" : "10",
@@ -2021,7 +2021,7 @@
       },
       "creature@cyrus" : {
          "damage" : "25",
-         "location" : "80",
+         "location" : "80@cyrus",
          "armor" : "20",
          "name" : "creature",
          "examine" : "It looks like a dog except is is much bigger. It has glowing\nred eyes. You probably wouldn't want to wake it up.",
@@ -2035,7 +2035,7 @@
       },
       "pguard2@cyrus" : {
          "damage" : "26",
-         "location" : "65",
+         "location" : "65@cyrus",
          "armor" : "16",
          "name" : "pguard2",
          "description" : "Gumpam, the guard is here.",

@@ -1,7 +1,7 @@
 {
    "obj" : {
       "north_bullzz19@bull" : {
-         "location" : "IN_ROOM:bullZZ19",
+         "location" : "IN_ROOM:bullzz19@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -10,7 +10,7 @@
          "examine" : "You see the corridor.\n"
       },
       "west_bullzz06@bull" : {
-         "location" : "IN_ROOM:bullZZ06",
+         "location" : "IN_ROOM:bullzz06@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -19,7 +19,7 @@
          "examine" : "You see a room in the temple.\n"
       },
       "south_bullzz12@bull" : {
-         "location" : "IN_ROOM:bullZZ12",
+         "location" : "IN_ROOM:bullzz12@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -28,7 +28,7 @@
          "examine" : "You see a room in the temple.\n"
       },
       "south_bullzz09@bull" : {
-         "location" : "IN_ROOM:bullZZ09",
+         "location" : "IN_ROOM:bullzz09@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -37,7 +37,7 @@
          "examine" : "You see a room in the temple.\n"
       },
       "north_bullzz09@bull" : {
-         "location" : "IN_ROOM:bullZZ09",
+         "location" : "IN_ROOM:bullzz09@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -46,7 +46,7 @@
          "examine" : "There seems to be a stairwell to the north.\n"
       },
       "objzz07@bull" : {
-         "location" : "CARRIED_BY:mobZZ04",
+         "location" : "CARRIED_BY:mobzz04@bull",
          "oflags" : [
             "Destroyed",
             "Key"
@@ -63,7 +63,7 @@
          "desc[0]" : "An iron key lies here, rusting."
       },
       "objzz01_3@bull" : {
-         "location" : "WORN_BY:mobZZ04",
+         "location" : "WORN_BY:mobzz04@bull",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -84,7 +84,7 @@
          ]
       },
       "fur@bull" : {
-         "location" : "IN_ROOM:bullZZ13",
+         "location" : "IN_ROOM:bullzz13@bull",
          "oflags" : [
             "Noget"
          ],
@@ -93,7 +93,7 @@
          "examine" : "The fur is brown, short, and coarse.\n"
       },
       "objzz11@bull" : {
-         "location" : "WORN_BY:mobZZ06",
+         "location" : "WORN_BY:mobzz06@bull",
          "oflags" : [
             "Glowing",
             "Wearable",
@@ -115,7 +115,7 @@
          ]
       },
       "up_bullzz12@bull" : {
-         "location" : "IN_ROOM:bullZZ12",
+         "location" : "IN_ROOM:bullzz12@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -149,7 +149,7 @@
          ]
       },
       "windowc@bull" : {
-         "location" : "IN_ROOM:bullZZ18",
+         "location" : "IN_ROOM:bullzz18@bull",
          "oflags" : [
             "Noget"
          ],
@@ -158,7 +158,7 @@
          "examine" : "The window looks down upon a grassy field.\n"
       },
       "down_bullzz13@bull" : {
-         "location" : "IN_ROOM:bullZZ13",
+         "location" : "IN_ROOM:bullzz13@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -168,7 +168,7 @@
       },
       "objzz03@bull" : {
          "damage" : "15",
-         "location" : "WIELDED_BY:mobZZ03",
+         "location" : "WIELDED_BY:mobzz03@bull",
          "oflags" : [
             "Weapon"
          ],
@@ -184,7 +184,7 @@
          "desc[0]" : "A well seasoned staff has been dropped here."
       },
       "north_bullzz22@bull" : {
-         "location" : "IN_ROOM:bullZZ22",
+         "location" : "IN_ROOM:bullzz22@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -194,7 +194,7 @@
       },
       "door_bullzz05@bull" : {
          "desc[1]" : "The marble door is closed.",
-         "location" : "IN_ROOM:bullZZ03",
+         "location" : "IN_ROOM:bullzz03@bull",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -210,7 +210,7 @@
          "desc[0]" : "The marble door is open."
       },
       "north_bullzz01@bull" : {
-         "location" : "IN_ROOM:bullZZ01",
+         "location" : "IN_ROOM:bullzz01@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -219,7 +219,7 @@
          "examine" : "You see the entrance to the temple.\n"
       },
       "east_bullzz08@bull" : {
-         "location" : "IN_ROOM:bullZZ08",
+         "location" : "IN_ROOM:bullzz08@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -228,7 +228,7 @@
          "examine" : "You see a room in the temple.\n"
       },
       "objzz05@bull" : {
-         "location" : "CARRIED_BY:mobZZ01",
+         "location" : "CARRIED_BY:mobzz01@bull",
          "oflags" : [
             "Destroyed",
             "Key"
@@ -245,7 +245,7 @@
          "desc[0]" : "A marble key lies here, gathering dust."
       },
       "north_bullzz02@bull" : {
-         "location" : "IN_ROOM:bullZZ02",
+         "location" : "IN_ROOM:bullzz02@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -255,7 +255,7 @@
       },
       "door_bullzz21@bull" : {
          "desc[1]" : "The heavy iron door is closed.",
-         "location" : "IN_ROOM:bullZZ20",
+         "location" : "IN_ROOM:bullzz20@bull",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -272,7 +272,7 @@
          "desc[0]" : "The heavy iron door is open."
       },
       "objzz17@bull" : {
-         "location" : "WORN_BY:mobZZ06",
+         "location" : "WORN_BY:mobzz06@bull",
          "oflags" : [
             "Glowing",
             "Wearable",
@@ -294,7 +294,7 @@
          ]
       },
       "objzz04@bull" : {
-         "location" : "CARRIED_BY:mobZZ05",
+         "location" : "CARRIED_BY:mobzz05@bull",
          "oflags" : [
             "Cursed"
          ],
@@ -310,7 +310,7 @@
          "desc[0]" : "A soaking wet mop is here, making a puddle."
       },
       "windowd@bull" : {
-         "location" : "IN_ROOM:bullZZ20",
+         "location" : "IN_ROOM:bullzz20@bull",
          "oflags" : [
             "Noget"
          ],
@@ -319,7 +319,7 @@
          "examine" : "Its a great, big walk-through window.\n"
       },
       "objzz12@bull" : {
-         "location" : "IN_ROOM:bullZZ17",
+         "location" : "IN_ROOM:bullzz17@bull",
          "oflags" : [
             "Glowing",
             "Enchanted",
@@ -338,7 +338,7 @@
       },
       "door_bullzz03@bull" : {
          "desc[1]" : "The marble door is closed.",
-         "location" : "IN_ROOM:bullZZ05",
+         "location" : "IN_ROOM:bullzz05@bull",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -356,7 +356,7 @@
       },
       "objzz02_1@bull" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:mobZZ02_1",
+         "location" : "WIELDED_BY:mobzz02_1@bull",
          "oflags" : [
             "Weapon"
          ],
@@ -371,7 +371,7 @@
          "desc[0]" : "An straight sword is stuck in the ground here."
       },
       "east_bullzz07@bull" : {
-         "location" : "IN_ROOM:bullZZ07",
+         "location" : "IN_ROOM:bullzz07@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -380,7 +380,7 @@
          "examine" : "You see a small garden to the east.\n"
       },
       "marble@bull" : {
-         "location" : "IN_ROOM:bullZZ03",
+         "location" : "IN_ROOM:bullzz03@bull",
          "oflags" : [
             "Noget"
          ],
@@ -388,7 +388,7 @@
          "examine" : "It is a remarkably well polished marble door.\n"
       },
       "north_bullzz04@bull" : {
-         "location" : "IN_ROOM:bullZZ04",
+         "location" : "IN_ROOM:bullzz04@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -397,7 +397,7 @@
          "examine" : "You see a room in the temple.\n"
       },
       "mural@bull" : {
-         "location" : "IN_ROOM:bullZZ13",
+         "location" : "IN_ROOM:bullzz13@bull",
          "oflags" : [
             "Noget"
          ],
@@ -406,7 +406,7 @@
          "examine" : "The mural shows a great shaggy beast with two pointed horns.\n"
       },
       "south_bullzz15@bull" : {
-         "location" : "IN_ROOM:bullZZ15",
+         "location" : "IN_ROOM:bullzz15@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -415,7 +415,7 @@
          "examine" : "Looks like a corridor.\n"
       },
       "grass@bull" : {
-         "location" : "IN_ROOM:bullZZ01",
+         "location" : "IN_ROOM:bullzz01@bull",
          "oflags" : [
             "Noget"
          ],
@@ -423,7 +423,7 @@
          "examine" : "Looks like an average grass stalk.  You pluck one and put it\nin your mouth.\n"
       },
       "sign@bull" : {
-         "location" : "IN_ROOM:bullZZ11",
+         "location" : "IN_ROOM:bullzz11@bull",
          "oflags" : [
             "Noget"
          ],
@@ -431,7 +431,7 @@
          "examine" : "\n\t  *-*-* Temple of the Bull *-*-*\n\t  *                            *\n\t  *        Written by:         *\n\t  *    Aten of GenericMUD      *\n\t  *        March 1994          *\n\t  *                            *\n\t  *-*-*-*-* o==[=====- *-*-*-*-*\n\n\t  #=#=#=#=#=#=#=#=#=#=#=#=#=#=#\n\t  # Converted to Aber format  #\n\t  # using ZGEN, modified and  #\n\t  # polished by Crimefighter  #\n\t  #=#=#=#=#=#=#=#=#=#=#=#=#=#=# \n"
       },
       "south_bullzz07@bull" : {
-         "location" : "IN_ROOM:bullZZ07",
+         "location" : "IN_ROOM:bullzz07@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -440,7 +440,7 @@
          "examine" : "You see a room in the temple.\n"
       },
       "west_bullzz08@bull" : {
-         "location" : "IN_ROOM:bullZZ08",
+         "location" : "IN_ROOM:bullzz08@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -449,7 +449,7 @@
          "examine" : "You see a room in the temple.\n"
       },
       "stairwell@bull" : {
-         "location" : "IN_ROOM:bullZZ10",
+         "location" : "IN_ROOM:bullzz10@bull",
          "oflags" : [
             "Noget"
          ],
@@ -457,7 +457,7 @@
          "examine" : "A work of great craftmanship!\n"
       },
       "balcony@bull" : {
-         "location" : "IN_ROOM:bullZZ18",
+         "location" : "IN_ROOM:bullzz18@bull",
          "oflags" : [
             "Noget"
          ],
@@ -465,7 +465,7 @@
          "examine" : "Its a simple piece of polished wood.  You can see the gardens below.\n"
       },
       "brook@bull" : {
-         "location" : "IN_ROOM:bullZZ08",
+         "location" : "IN_ROOM:bullzz08@bull",
          "oflags" : [
             "Noget"
          ],
@@ -473,7 +473,7 @@
          "examine" : "What a nice little bubbling brook!\n"
       },
       "east_bullzz05@bull" : {
-         "location" : "IN_ROOM:bullZZ05",
+         "location" : "IN_ROOM:bullzz05@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -483,7 +483,7 @@
       },
       "objzz03_1@bull" : {
          "damage" : "15",
-         "location" : "WIELDED_BY:mobZZ04",
+         "location" : "WIELDED_BY:mobzz04@bull",
          "oflags" : [
             "Weapon"
          ],
@@ -499,7 +499,7 @@
          "desc[0]" : "A well seasoned staff has been dropped here."
       },
       "east_bullzz04@bull" : {
-         "location" : "IN_ROOM:bullZZ04",
+         "location" : "IN_ROOM:bullzz04@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -508,7 +508,7 @@
          "examine" : "You see a room in the temple.\n"
       },
       "objzz08@bull" : {
-         "location" : "WORN_BY:mobZZ06",
+         "location" : "WORN_BY:mobzz06@bull",
          "oflags" : [
             "Glowing",
             "Wearable",
@@ -530,7 +530,7 @@
          ]
       },
       "shelves@bull" : {
-         "location" : "IN_ROOM:bullZZ20",
+         "location" : "IN_ROOM:bullzz20@bull",
          "oflags" : [
             "Noget"
          ],
@@ -538,7 +538,7 @@
          "examine" : "The shelves have been swept clean.\n"
       },
       "windowb@bull" : {
-         "location" : "IN_ROOM:bullZZ16",
+         "location" : "IN_ROOM:bullzz16@bull",
          "oflags" : [
             "Noget"
          ],
@@ -547,7 +547,7 @@
          "examine" : "The window overlooks a grassy field.\n"
       },
       "south_bullzz10@bull" : {
-         "location" : "IN_ROOM:bullZZ10",
+         "location" : "IN_ROOM:bullzz10@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -556,7 +556,7 @@
          "examine" : "You see a room in the temple.\n"
       },
       "objzz01@bull" : {
-         "location" : "WORN_BY:mobZZ07_4",
+         "location" : "WORN_BY:mobzz07_4@bull",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -577,7 +577,7 @@
          ]
       },
       "west_bullzz09@bull" : {
-         "location" : "IN_ROOM:bullZZ09",
+         "location" : "IN_ROOM:bullzz09@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -586,7 +586,7 @@
          "examine" : "There is a small garden over there.\n"
       },
       "north_bullzz21@bull" : {
-         "location" : "IN_ROOM:bullZZ21",
+         "location" : "IN_ROOM:bullzz21@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -596,7 +596,7 @@
       },
       "objzz02_2@bull" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:mobZZ02_2",
+         "location" : "WIELDED_BY:mobzz02_2@bull",
          "oflags" : [
             "Weapon"
          ],
@@ -611,7 +611,7 @@
          "desc[0]" : "An straight sword is stuck in the ground here."
       },
       "plants@bull" : {
-         "location" : "IN_ROOM:bullZZ08",
+         "location" : "IN_ROOM:bullzz08@bull",
          "oflags" : [
             "Noget"
          ],
@@ -619,7 +619,7 @@
          "examine" : "They seem to be doing very well, someone around here has a green thumb.\n"
       },
       "north_bullzz16@bull" : {
-         "location" : "IN_ROOM:bullZZ16",
+         "location" : "IN_ROOM:bullzz16@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -628,7 +628,7 @@
          "examine" : "You see the stairway.\n"
       },
       "north_bullzz08@bull" : {
-         "location" : "IN_ROOM:bullZZ08",
+         "location" : "IN_ROOM:bullzz08@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -637,7 +637,7 @@
          "examine" : "You see a room in the temple.\n"
       },
       "ravashem@bull" : {
-         "location" : "IN_ROOM:bullZZ20",
+         "location" : "IN_ROOM:bullzz20@bull",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -648,7 +648,7 @@
          "desc[0]" : "A volume describing the language of the Ravashem rests here."
       },
       "north_bullzz07@bull" : {
-         "location" : "IN_ROOM:bullZZ07",
+         "location" : "IN_ROOM:bullzz07@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -657,7 +657,7 @@
          "examine" : "There is a stairwell to the north.\n"
       },
       "north_bullzz18@bull" : {
-         "location" : "IN_ROOM:bullZZ18",
+         "location" : "IN_ROOM:bullzz18@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -666,7 +666,7 @@
          "examine" : "You see the stairway.\n"
       },
       "south_bullzz18@bull" : {
-         "location" : "IN_ROOM:bullZZ18",
+         "location" : "IN_ROOM:bullzz18@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -675,7 +675,7 @@
          "examine" : "Can't really see much..its rather dark over there.\n"
       },
       "north_bullzz06@bull" : {
-         "location" : "IN_ROOM:bullZZ06",
+         "location" : "IN_ROOM:bullzz06@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -685,7 +685,7 @@
       },
       "objzz02_3@bull" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:mobZZ02_3",
+         "location" : "WIELDED_BY:mobzz02_3@bull",
          "oflags" : [
             "Weapon"
          ],
@@ -701,7 +701,7 @@
       },
       "door_bullzz15@bull" : {
          "desc[1]" : "The oak door is closed.",
-         "location" : "IN_ROOM:bullZZ14",
+         "location" : "IN_ROOM:bullzz14@bull",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -718,7 +718,7 @@
          "desc[0]" : "The oak door is open."
       },
       "objzz01_1@bull" : {
-         "location" : "WORN_BY:mobZZ07_5",
+         "location" : "WORN_BY:mobzz07_5@bull",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -739,7 +739,7 @@
          ]
       },
       "objzz16@bull" : {
-         "location" : "WORN_BY:mobZZ06",
+         "location" : "WORN_BY:mobzz06@bull",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -760,7 +760,7 @@
          ]
       },
       "objzz10@bull" : {
-         "location" : "WORN_BY:mobZZ06",
+         "location" : "WORN_BY:mobzz06@bull",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -781,7 +781,7 @@
          ]
       },
       "south_bullzz16@bull" : {
-         "location" : "IN_ROOM:bullZZ16",
+         "location" : "IN_ROOM:bullzz16@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -790,7 +790,7 @@
          "examine" : "Woah..looks like a dead end.  You get the chills.\n"
       },
       "south_bullzz02@bull" : {
-         "location" : "IN_ROOM:bullZZ02",
+         "location" : "IN_ROOM:bullzz02@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -800,7 +800,7 @@
       },
       "door_bullzz14@bull" : {
          "desc[1]" : "The oak door is closed.",
-         "location" : "IN_ROOM:bullZZ15",
+         "location" : "IN_ROOM:bullzz15@bull",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -817,7 +817,7 @@
          "desc[0]" : "The oak door is open."
       },
       "balconya@bull" : {
-         "location" : "IN_ROOM:bullZZ16",
+         "location" : "IN_ROOM:bullzz16@bull",
          "oflags" : [
             "Noget"
          ],
@@ -849,7 +849,7 @@
          ]
       },
       "up_bullzz10@bull" : {
-         "location" : "IN_ROOM:bullZZ10",
+         "location" : "IN_ROOM:bullzz10@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -859,7 +859,7 @@
       },
       "door_bullzz20@bull" : {
          "desc[1]" : "The heavy iron door is closed.",
-         "location" : "IN_ROOM:bullZZ21",
+         "location" : "IN_ROOM:bullzz21@bull",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -876,7 +876,7 @@
          "desc[0]" : "The heavy iron door is open."
       },
       "south_bullzz11@bull" : {
-         "location" : "IN_ROOM:bullZZ11",
+         "location" : "IN_ROOM:bullzz11@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -885,7 +885,7 @@
          "examine" : "There is a small garden to the south.\n"
       },
       "windowa@bull" : {
-         "location" : "IN_ROOM:bullZZ14",
+         "location" : "IN_ROOM:bullzz14@bull",
          "oflags" : [
             "Noget"
          ],
@@ -894,7 +894,7 @@
          "examine" : "The window overlooks a grassy field.\n"
       },
       "south_bullzz20@bull" : {
-         "location" : "IN_ROOM:bullZZ20",
+         "location" : "IN_ROOM:bullzz20@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -922,7 +922,7 @@
          "desc[0]" : "A burning dagger is lying here, but it's not for mortals!"
       },
       "south_bullzz03@bull" : {
-         "location" : "IN_ROOM:bullZZ03",
+         "location" : "IN_ROOM:bullzz03@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -931,7 +931,7 @@
          "examine" : "You see a spot to stand before the temple.\n"
       },
       "objzz01_2@bull" : {
-         "location" : "WORN_BY:mobZZ03",
+         "location" : "WORN_BY:mobzz03@bull",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -952,7 +952,7 @@
          ]
       },
       "down_bullzz15@bull" : {
-         "location" : "IN_ROOM:bullZZ15",
+         "location" : "IN_ROOM:bullzz15@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -962,7 +962,7 @@
       },
       "objzz02@bull" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:mobZZ02",
+         "location" : "WIELDED_BY:mobzz02@bull",
          "oflags" : [
             "Weapon"
          ],
@@ -977,7 +977,7 @@
          "desc[0]" : "An straight sword is stuck in the ground here"
       },
       "objzz06@bull" : {
-         "location" : "CARRIED_BY:mobZZ03",
+         "location" : "CARRIED_BY:mobzz03@bull",
          "oflags" : [
             "Destroyed",
             "Key"
@@ -994,7 +994,7 @@
          "desc[0]" : "An oak key rests here."
       },
       "south_bullzz13@bull" : {
-         "location" : "IN_ROOM:bullZZ13",
+         "location" : "IN_ROOM:bullzz13@bull",
          "oflags" : [
             "NoGet"
          ],
@@ -1006,8 +1006,8 @@
    "loc" : {
       "bullzz04@bull" : {
          "exits" : {
-            "e" : "bullZZ05",
-            "n" : "bullZZ07"
+            "e" : "bullzz05@bull",
+            "n" : "bullzz07@bull"
          },
          "flags" : [],
          "zone" : "bull",
@@ -1018,8 +1018,8 @@
       },
       "bullzz03@bull" : {
          "exits" : {
-            "n" : "^door_bullZZ05",
-            "s" : "bullZZ02"
+            "n" : "^door_bullzz05@bull",
+            "s" : "bullzz02@bull"
          },
          "flags" : [],
          "zone" : "bull",
@@ -1030,8 +1030,8 @@
       },
       "bullzz13@bull" : {
          "exits" : {
-            "d" : "bullZZ10",
-            "s" : "bullZZ16"
+            "d" : "bullzz10@bull",
+            "s" : "bullzz16@bull"
          },
          "flags" : [
             "Dark"
@@ -1044,7 +1044,7 @@
       },
       "bullzz17@bull" : {
          "exits" : {
-            "d" : "bullZZ15"
+            "d" : "bullzz15@bull"
          },
          "flags" : [
             "NoMobiles"
@@ -1057,8 +1057,8 @@
       },
       "bullzz10@bull" : {
          "exits" : {
-            "u" : "bullZZ13",
-            "s" : "bullZZ07"
+            "u" : "bullzz13@bull",
+            "s" : "bullzz07@bull"
          },
          "flags" : [],
          "zone" : "bull",
@@ -1069,9 +1069,9 @@
       },
       "bullzz09@bull" : {
          "exits" : {
-            "w" : "bullZZ08",
-            "n" : "bullZZ12",
-            "s" : "bullZZ06"
+            "w" : "bullzz08@bull",
+            "n" : "bullzz12@bull",
+            "s" : "bullzz06@bull"
          },
          "flags" : [],
          "zone" : "bull",
@@ -1082,8 +1082,8 @@
       },
       "bullzz18@bull" : {
          "exits" : {
-            "n" : "bullZZ15",
-            "s" : "bullZZ21"
+            "n" : "bullzz15@bull",
+            "s" : "bullzz21@bull"
          },
          "flags" : [],
          "zone" : "bull",
@@ -1094,8 +1094,8 @@
       },
       "bullzz12@bull" : {
          "exits" : {
-            "u" : "bullZZ15",
-            "s" : "bullZZ09"
+            "u" : "bullzz15@bull",
+            "s" : "bullzz09@bull"
          },
          "flags" : [],
          "zone" : "bull",
@@ -1106,9 +1106,9 @@
       },
       "bullzz05@bull" : {
          "exits" : {
-            "e" : "bullZZ06",
-            "w" : "bullZZ04",
-            "s" : "^door_bullZZ03"
+            "e" : "bullzz06@bull",
+            "w" : "bullzz04@bull",
+            "s" : "^door_bullzz03@bull"
          },
          "flags" : [],
          "zone" : "bull",
@@ -1119,8 +1119,8 @@
       },
       "bullzz20@bull" : {
          "exits" : {
-            "e" : "^door_bullZZ21",
-            "s" : "bullZZ22"
+            "e" : "^door_bullzz21@bull",
+            "s" : "bullzz22@bull"
          },
          "flags" : [],
          "zone" : "bull",
@@ -1131,7 +1131,7 @@
       },
       "bullzz22@bull" : {
          "exits" : {
-            "n" : "bullZZ20"
+            "n" : "bullzz20@bull"
          },
          "flags" : [
             "Outdoors"
@@ -1144,8 +1144,8 @@
       },
       "bullzz06@bull" : {
          "exits" : {
-            "w" : "bullZZ05",
-            "n" : "bullZZ09"
+            "w" : "bullzz05@bull",
+            "n" : "bullzz09@bull"
          },
          "flags" : [],
          "zone" : "bull",
@@ -1156,10 +1156,10 @@
       },
       "bullzz15@bull" : {
          "exits" : {
-            "w" : "^door_bullZZ14",
-            "u" : "bullZZ17",
-            "d" : "bullZZ12",
-            "s" : "bullZZ18"
+            "w" : "^door_bullzz14@bull",
+            "u" : "bullzz17@bull",
+            "d" : "bullzz12@bull",
+            "s" : "bullzz18@bull"
          },
          "flags" : [
             "Dark"
@@ -1172,7 +1172,7 @@
       },
       "bullzz19@bull" : {
          "exits" : {
-            "n" : "bullZZ16"
+            "n" : "bullzz16@bull"
          },
          "flags" : [],
          "zone" : "bull",
@@ -1183,8 +1183,8 @@
       },
       "bullzz16@bull" : {
          "exits" : {
-            "n" : "bullZZ13",
-            "s" : "bullZZ19"
+            "n" : "bullzz13@bull",
+            "s" : "bullzz19@bull"
          },
          "flags" : [],
          "zone" : "bull",
@@ -1195,9 +1195,9 @@
       },
       "bullzz07@bull" : {
          "exits" : {
-            "e" : "bullZZ08",
-            "n" : "bullZZ10",
-            "s" : "bullZZ04"
+            "e" : "bullzz08@bull",
+            "n" : "bullzz10@bull",
+            "s" : "bullzz04@bull"
          },
          "flags" : [],
          "zone" : "bull",
@@ -1208,8 +1208,8 @@
       },
       "bullzz02@bull" : {
          "exits" : {
-            "n" : "bullZZ03",
-            "s" : "bullZZ01"
+            "n" : "bullzz03@bull",
+            "s" : "bullzz01@bull"
          },
          "flags" : [
             "NoMobiles",
@@ -1223,8 +1223,8 @@
       },
       "bullzz21@bull" : {
          "exits" : {
-            "w" : "^door_bullZZ20",
-            "n" : "bullZZ18"
+            "w" : "^door_bullzz20@bull",
+            "n" : "bullzz18@bull"
          },
          "flags" : [
             "Dark"
@@ -1237,7 +1237,7 @@
       },
       "bullzz01@bull" : {
          "exits" : {
-            "n" : "bullZZ02",
+            "n" : "bullzz02@bull",
             "s" : "sherwood3@sherwood"
          },
          "flags" : [
@@ -1252,9 +1252,9 @@
       },
       "bullzz08@bull" : {
          "exits" : {
-            "e" : "bullZZ09",
-            "w" : "bullZZ07",
-            "n" : "bullZZ11"
+            "e" : "bullzz09@bull",
+            "w" : "bullzz07@bull",
+            "n" : "bullzz11@bull"
          },
          "flags" : [
             "Outdoors"
@@ -1267,7 +1267,7 @@
       },
       "bullzz11@bull" : {
          "exits" : {
-            "s" : "bullZZ08"
+            "s" : "bullzz08@bull"
          },
          "flags" : [],
          "zone" : "bull",
@@ -1278,7 +1278,7 @@
       },
       "bullzz14@bull" : {
          "exits" : {
-            "e" : "^door_bullZZ15"
+            "e" : "^door_bullzz15@bull"
          },
          "flags" : [],
          "zone" : "bull",
@@ -1292,7 +1292,7 @@
       "mobzz02_2@bull" : {
          "visibility" : "0",
          "damage" : "20",
-         "location" : "bullZZ10",
+         "location" : "bullzz10@bull",
          "armor" : "18",
          "name" : "mobZZ02_2",
          "examine" : "Well, It doesn't APPEAR to be human.  It looks like a suit of\narmor, but why the heck did it just turn to look at you?\n",
@@ -1311,7 +1311,7 @@
       "mobzz07_2@bull" : {
          "visibility" : "0",
          "damage" : "14",
-         "location" : "bullZZ09",
+         "location" : "bullzz09@bull",
          "armor" : "14",
          "name" : "mobZZ07_2",
          "examine" : "The acolyte wanders around, looking for a broom.  He is\nmaking a heroic attempt to ignore you.\n",
@@ -1332,7 +1332,7 @@
       "mobzz03_2@bull" : {
          "visibility" : "0",
          "damage" : "21",
-         "location" : "bullZZ18",
+         "location" : "bullzz18@bull",
          "armor" : "20",
          "name" : "mobZZ03_2",
          "examine" : "This man has dedicated his life to Mateon, and the man behind\nthe mask.  He turns from the window and stares at you blankly.\n",
@@ -1351,7 +1351,7 @@
       "mobzz03_1@bull" : {
          "visibility" : "0",
          "damage" : "21",
-         "location" : "bullZZ16",
+         "location" : "bullzz16@bull",
          "armor" : "20",
          "name" : "mobZZ03_1",
          "examine" : "This man has dedicated his life to Mateon, and the man behind\nthe mask.  He turns from the window and stares at you blankly.\n",
@@ -1370,7 +1370,7 @@
       "mobzz02_1@bull" : {
          "visibility" : "0",
          "damage" : "20",
-         "location" : "bullZZ06",
+         "location" : "bullzz06@bull",
          "armor" : "18",
          "name" : "mobZZ02_1",
          "examine" : "Well, It doesn't APPEAR to be human.  It looks like a suit of\narmor, but why the heck did it just turn to look at you?\n",
@@ -1389,7 +1389,7 @@
       "mobzz07_1@bull" : {
          "visibility" : "0",
          "damage" : "14",
-         "location" : "bullZZ07",
+         "location" : "bullzz07@bull",
          "armor" : "14",
          "name" : "mobZZ07_1",
          "examine" : "The acolyte wanders around, looking for a broom.  He is\nmaking a heroic attempt to ignore you.\n",
@@ -1410,7 +1410,7 @@
       "mobzz05@bull" : {
          "visibility" : "0",
          "damage" : "13",
-         "location" : "bullZZ20",
+         "location" : "bullzz20@bull",
          "armor" : "14",
          "name" : "mobZZ05",
          "examine" : "The Chambermaid looks harried, and glances at you with fear\nin her eyes.\n",
@@ -1429,7 +1429,7 @@
       "mobzz04@bull" : {
          "visibility" : "0",
          "damage" : "31",
-         "location" : "bullZZ14",
+         "location" : "bullzz14@bull",
          "armor" : "26",
          "name" : "mobZZ04",
          "examine" : "Mateon is a HUGE man.  A huge ANGRY man.  He will NOT\nlet you NEAR the man behind the mask.\n",
@@ -1448,7 +1448,7 @@
       "mobzz02_3@bull" : {
          "visibility" : "0",
          "damage" : "20",
-         "location" : "bullZZ12",
+         "location" : "bullzz12@bull",
          "armor" : "18",
          "name" : "mobZZ02_3",
          "examine" : "Well, It doesn't APPEAR to be human.  It looks like a suit of\narmor, but why the heck did it just turn to look at you?\n",
@@ -1467,7 +1467,7 @@
       "mobzz01@bull" : {
          "visibility" : "0",
          "damage" : "13",
-         "location" : "bullZZ03",
+         "location" : "bullzz03@bull",
          "armor" : "16",
          "name" : "mobZZ01",
          "examine" : "This man looks like an ordinary monk, except he is really\nquite a big fella, and seems to have a lot of very fine\nbrown body hair, even on his palms.. *stare*\n",
@@ -1488,7 +1488,7 @@
       "mobzz06@bull" : {
          "visibility" : "0",
          "damage" : "32",
-         "location" : "bullZZ22",
+         "location" : "bullzz22@bull",
          "armor" : "0",
          "name" : "mobZZ06",
          "examine" : "You look at this man, and then notice something funny.  It seems \nto be difficult for him to stand on two legs.  As you watch, he\ndrops to all fours.  You see a glimpse of fur under his cloak.\nHe peels the mask off and you stare into his brown eyes, and big,\nwet, black nose.  'Nice nose ring', you think.\n",
@@ -1507,7 +1507,7 @@
       "mobzz07_3@bull" : {
          "visibility" : "0",
          "damage" : "14",
-         "location" : "bullZZ11",
+         "location" : "bullzz11@bull",
          "armor" : "14",
          "name" : "mobZZ07_3",
          "examine" : "The acolyte wanders around, looking for a broom.  He is\nmaking a heroic attempt to ignore you.\n",
@@ -1528,7 +1528,7 @@
       "mobzz07_4@bull" : {
          "visibility" : "0",
          "damage" : "14",
-         "location" : "bullZZ16",
+         "location" : "bullzz16@bull",
          "armor" : "14",
          "name" : "mobZZ07_4",
          "examine" : "The acolyte wanders around, looking for a broom.  He is\nmaking a heroic attempt to ignore you.\n",
@@ -1549,7 +1549,7 @@
       "mobzz02@bull" : {
          "visibility" : "0",
          "damage" : "20",
-         "location" : "bullZZ04",
+         "location" : "bullzz04@bull",
          "armor" : "18",
          "name" : "mobZZ02",
          "examine" : "Well, It doesn't APPEAR to be human.  It looks like a suit of\narmor, but why the heck did it just turn to look at you?\n",
@@ -1568,7 +1568,7 @@
       "mobzz07@bull" : {
          "visibility" : "0",
          "damage" : "14",
-         "location" : "bullZZ05",
+         "location" : "bullzz05@bull",
          "armor" : "14",
          "name" : "mobZZ07",
          "examine" : "The acolyte wanders around, looking for a broom.  He is\nmaking a heroic attempt to ignore you.\n",
@@ -1589,7 +1589,7 @@
       "mobzz03_3@bull" : {
          "visibility" : "0",
          "damage" : "21",
-         "location" : "bullZZ20",
+         "location" : "bullzz20@bull",
          "armor" : "20",
          "name" : "mobZZ03_3",
          "examine" : "This man has dedicated his life to Mateon, and the man behind\nthe mask.  He turns from the window and stares at you blankly.\n",
@@ -1608,7 +1608,7 @@
       "mobzz07_5@bull" : {
          "visibility" : "0",
          "damage" : "14",
-         "location" : "bullZZ18",
+         "location" : "bullzz18@bull",
          "armor" : "14",
          "name" : "mobZZ07_5",
          "examine" : "The acolyte wanders around, looking for a broom.  He is\nmaking a heroic attempt to ignore you.\n",
@@ -1629,7 +1629,7 @@
       "mobzz03@bull" : {
          "visibility" : "0",
          "damage" : "21",
-         "location" : "bullZZ19",
+         "location" : "bullzz19@bull",
          "armor" : "20",
          "name" : "mobZZ03",
          "examine" : "This man has dedicated his life to Mateon, and the man behind\nthe mask.  He turns from the window and stares at you blankly.\n",

@@ -1,7 +1,7 @@
 {
    "obj" : {
       "hieroglyphics@pyramid" : {
-         "location" : "pyramid17",
+         "location" : "pyramid17@pyramid",
          "oflags" : [
             "NoGet"
          ],
@@ -12,7 +12,7 @@
       },
       "doorfromnef@pyramid" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:pyramid21",
+         "location" : "IN_ROOM:pyramid21@pyramid",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -27,7 +27,7 @@
          "desc[0]" : "The door is open."
       },
       "scarab_necklace@pyramid" : {
-         "location" : "IN_ROOM:pyramid33",
+         "location" : "IN_ROOM:pyramid33@pyramid",
          "oflags" : [
             "Wearable"
          ],
@@ -44,7 +44,7 @@
       },
       "door2nef@pyramid" : {
          "desc[1]" : "The door is magically sealed.",
-         "location" : "IN_ROOM:pyramid17",
+         "location" : "IN_ROOM:pyramid17@pyramid",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -59,7 +59,7 @@
          "desc[0]" : "The door is open."
       },
       "silver_casket@pyramid" : {
-         "location" : "IN_ROOM:pyramid33",
+         "location" : "IN_ROOM:pyramid33@pyramid",
          "weight" : "5",
          "pname" : "casket",
          "name" : "silver_casket",
@@ -70,7 +70,7 @@
       },
       "sarcophagus@pyramid" : {
          "desc[1]" : "The lid is closed.",
-         "location" : "IN_ROOM:pyramid25",
+         "location" : "IN_ROOM:pyramid25@pyramid",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -84,7 +84,7 @@
          "desc[0]" : "The lid is open."
       },
       "elixir@pyramid" : {
-         "location" : "CARRIED_BY:physician",
+         "location" : "CARRIED_BY:physician@pyramid",
          "oflags" : [
             "Food"
          ],
@@ -97,7 +97,7 @@
          "desc[0]" : "A small vial containing a &+cglowing&N elixir lies here."
       },
       "rosetta@pyramid" : {
-         "location" : "IN_ROOM:pyramid13",
+         "location" : "IN_ROOM:pyramid13@pyramid",
          "altname" : "stone",
          "name" : "Rosetta",
          "examine" : "\nUpon closer inspection, you find the markings on the stone hold the key to \nreading Egyptian hieroglyphics.",
@@ -109,7 +109,7 @@
       },
       "doorfromtreas@pyramid" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:pyramid33",
+         "location" : "IN_ROOM:pyramid33@pyramid",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -125,7 +125,7 @@
       },
       "door2horus@pyramid" : {
          "desc[1]" : "The solid black door is closed.",
-         "location" : "IN_ROOM:pyramid31",
+         "location" : "IN_ROOM:pyramid31@pyramid",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -140,7 +140,7 @@
          "desc[0]" : "The solid black door is open"
       },
       "death_mask@pyramid" : {
-         "location" : "IN_ROOM:pyramid33",
+         "location" : "IN_ROOM:pyramid33@pyramid",
          "oflags" : [
             "Wearable"
          ],
@@ -159,7 +159,7 @@
       },
       "doorfromhorus@pyramid" : {
          "desc[1]" : "The solid black door is closed.",
-         "location" : "IN_ROOM:pyramid32",
+         "location" : "IN_ROOM:pyramid32@pyramid",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -174,7 +174,7 @@
          "desc[0]" : "The solid black door is open."
       },
       "waterbag@pyramid" : {
-         "location" : "IN_ROOM:pyramid9",
+         "location" : "IN_ROOM:pyramid9@pyramid",
          "oflags" : [
             "Wearable",
             "Container"
@@ -192,7 +192,7 @@
       },
       "door2treas@pyramid" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:pyramid25",
+         "location" : "IN_ROOM:pyramid25@pyramid",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -207,7 +207,7 @@
          "desc[0]" : "The door is open."
       },
       "soulstone@pyramid" : {
-         "location" : "CARRIED_BY:Horus",
+         "location" : "CARRIED_BY:horus@pyramid",
          "oflags" : [
             "Antimagic"
          ],
@@ -222,7 +222,7 @@
       },
       "opalsword@pyramid" : {
          "damage" : "35",
-         "location" : "IN_CONTAINER:sarcophagus",
+         "location" : "IN_CONTAINER:sarcophagus@pyramid",
          "oflags" : [
             "Weapon"
          ],
@@ -236,7 +236,7 @@
          "desc[0]" : "A &+csword&N with a jewel-encrusted hilt lies here."
       },
       "golden_throne@pyramid" : {
-         "location" : "IN_ROOM:pyramid33",
+         "location" : "IN_ROOM:pyramid33@pyramid",
          "weight" : "30",
          "pname" : "throne",
          "name" : "golden_throne",
@@ -246,7 +246,7 @@
          "size" : "30"
       },
       "lambstew@pyramid" : {
-         "location" : "IN_ROOM:pyramid8",
+         "location" : "IN_ROOM:pyramid8@pyramid",
          "oflags" : [
             "Food"
          ],
@@ -259,7 +259,7 @@
          "desc[0]" : "A cold bowl of lamb stew sits here."
       },
       "pool@pyramid" : {
-         "location" : "pyramid9",
+         "location" : "pyramid9@pyramid",
          "oflags" : [
             "NoGet"
          ],
@@ -268,7 +268,7 @@
          "desc[0]" : "A deep &+Bpool&N of &+Lmurky&N water lies here."
       },
       "couscous@pyramid" : {
-         "location" : "IN_ROOM:pyramid3",
+         "location" : "IN_ROOM:pyramid3@pyramid",
          "weight" : "0",
          "oflags" : [
             "Food"
@@ -280,7 +280,7 @@
          "size" : "10"
       },
       "palm_dates@pyramid" : {
-         "location" : "CARRIED_BY:slave",
+         "location" : "CARRIED_BY:slave@pyramid",
          "oflags" : [
             "Food"
          ],
@@ -296,8 +296,8 @@
    "loc" : {
       "pyramid30@pyramid" : {
          "exits" : {
-            "e" : "pyramid31",
-            "s" : "pyramid28"
+            "e" : "pyramid31@pyramid",
+            "s" : "pyramid28@pyramid"
          },
          "flags" : [
             "Dark"
@@ -310,8 +310,8 @@
       },
       "pyramid15@pyramid" : {
          "exits" : {
-            "n" : "pyramid16",
-            "s" : "pyramid14"
+            "n" : "pyramid16@pyramid",
+            "s" : "pyramid14@pyramid"
          },
          "flags" : [
             "Dark"
@@ -324,9 +324,9 @@
       },
       "pyramid8@pyramid" : {
          "exits" : {
-            "e" : "pyramid7",
-            "n" : "pyramid9",
-            "s" : "pyramid12"
+            "e" : "pyramid7@pyramid",
+            "n" : "pyramid9@pyramid",
+            "s" : "pyramid12@pyramid"
          },
          "flags" : [
             "Outdoors"
@@ -339,8 +339,8 @@
       },
       "pyramid1@pyramid" : {
          "exits" : {
-            "e" : "Anc19@ancient",
-            "s" : "pyramid2"
+            "e" : "anc19@ancient",
+            "s" : "pyramid2@pyramid"
          },
          "flags" : [
             "NoMobiles",
@@ -354,8 +354,8 @@
       },
       "pyramid16@pyramid" : {
          "exits" : {
-            "w" : "pyramid17",
-            "s" : "pyramid15"
+            "w" : "pyramid17@pyramid",
+            "s" : "pyramid15@pyramid"
          },
          "flags" : [
             "Dark"
@@ -368,9 +368,9 @@
       },
       "pyramid27@pyramid" : {
          "exits" : {
-            "e" : "pyramid22",
-            "n" : "pyramid26",
-            "d" : "pyramid19"
+            "e" : "pyramid22@pyramid",
+            "n" : "pyramid26@pyramid",
+            "d" : "pyramid19@pyramid"
          },
          "flags" : [
             "Dark"
@@ -383,9 +383,9 @@
       },
       "pyramid26@pyramid" : {
          "exits" : {
-            "e" : "pyramid25",
-            "u" : "pyramid28",
-            "s" : "pyramid27"
+            "e" : "pyramid25@pyramid",
+            "u" : "pyramid28@pyramid",
+            "s" : "pyramid27@pyramid"
          },
          "flags" : [
             "Dark"
@@ -398,8 +398,8 @@
       },
       "pyramid14@pyramid" : {
          "exits" : {
-            "w" : "pyramid13",
-            "n" : "pyramid15"
+            "w" : "pyramid13@pyramid",
+            "n" : "pyramid15@pyramid"
          },
          "flags" : [
             "Dark"
@@ -412,7 +412,7 @@
       },
       "pyramid9@pyramid" : {
          "exits" : {
-            "s" : "pyramid8"
+            "s" : "pyramid8@pyramid"
          },
          "flags" : [
             "Outdoors"
@@ -425,8 +425,8 @@
       },
       "pyramid3@pyramid" : {
          "exits" : {
-            "e" : "pyramid2",
-            "n" : "pyramid4"
+            "e" : "pyramid2@pyramid",
+            "n" : "pyramid4@pyramid"
          },
          "flags" : [
             "Outdoors"
@@ -439,8 +439,8 @@
       },
       "pyramid20@pyramid" : {
          "exits" : {
-            "e" : "pyramid13",
-            "n" : "pyramid19"
+            "e" : "pyramid13@pyramid",
+            "n" : "pyramid19@pyramid"
          },
          "flags" : [
             "Dark"
@@ -465,8 +465,8 @@
       },
       "pyramid7@pyramid" : {
          "exits" : {
-            "w" : "pyramid8",
-            "n" : "pyramid6"
+            "w" : "pyramid8@pyramid",
+            "n" : "pyramid6@pyramid"
          },
          "flags" : [
             "Outdoors"
@@ -479,7 +479,7 @@
       },
       "pyramid11@pyramid" : {
          "exits" : {
-            "s" : "pyramid4"
+            "s" : "pyramid4@pyramid"
          },
          "flags" : [
             "Outdoors",
@@ -493,9 +493,9 @@
       },
       "pyramid4@pyramid" : {
          "exits" : {
-            "w" : "pyramid5",
-            "n" : "pyramid11",
-            "s" : "pyramid3"
+            "w" : "pyramid5@pyramid",
+            "n" : "pyramid11@pyramid",
+            "s" : "pyramid3@pyramid"
          },
          "flags" : [
             "Outdoors"
@@ -508,8 +508,8 @@
       },
       "pyramid6@pyramid" : {
          "exits" : {
-            "n" : "pyramid4",
-            "s" : "pyramid7"
+            "n" : "pyramid4@pyramid",
+            "s" : "pyramid7@pyramid"
          },
          "flags" : [
             "Outdoors"
@@ -522,8 +522,8 @@
       },
       "pyramid24@pyramid" : {
          "exits" : {
-            "w" : "pyramid25",
-            "s" : "pyramid23"
+            "w" : "pyramid25@pyramid",
+            "s" : "pyramid23@pyramid"
          },
          "flags" : [
             "Dark"
@@ -536,8 +536,8 @@
       },
       "pyramid22@pyramid" : {
          "exits" : {
-            "w" : "pyramid27",
-            "e" : "pyramid23"
+            "w" : "pyramid27@pyramid",
+            "e" : "pyramid23@pyramid"
          },
          "flags" : [
             "Dark"
@@ -550,7 +550,7 @@
       },
       "pyramid21@pyramid" : {
          "exits" : {
-            "n" : "^doorFromNef",
+            "n" : "^doorfromnef@pyramid",
             "s" : "temple@start"
          },
          "flags" : [
@@ -564,9 +564,9 @@
       },
       "pyramid31@pyramid" : {
          "exits" : {
-            "w" : "pyramid30",
-            "u" : "^door2Horus",
-            "s" : "pyramid29"
+            "w" : "pyramid30@pyramid",
+            "u" : "^door2horus@pyramid",
+            "s" : "pyramid29@pyramid"
          },
          "flags" : [
             "Dark"
@@ -579,8 +579,8 @@
       },
       "pyramid2@pyramid" : {
          "exits" : {
-            "w" : "pyramid3",
-            "n" : "pyramid1"
+            "w" : "pyramid3@pyramid",
+            "n" : "pyramid1@pyramid"
          },
          "flags" : [
             "Outdoors"
@@ -593,8 +593,8 @@
       },
       "pyramid29@pyramid" : {
          "exits" : {
-            "w" : "pyramid28",
-            "n" : "pyramid31"
+            "w" : "pyramid28@pyramid",
+            "n" : "pyramid31@pyramid"
          },
          "flags" : [
             "Dark"
@@ -607,9 +607,9 @@
       },
       "pyramid25@pyramid" : {
          "exits" : {
-            "w" : "pyramid26",
-            "e" : "pyramid24",
-            "s" : "^door2Treas"
+            "w" : "pyramid26@pyramid",
+            "e" : "pyramid24@pyramid",
+            "s" : "^door2treas@pyramid"
          },
          "flags" : [
             "Dark"
@@ -634,7 +634,7 @@
       },
       "pyramid33@pyramid" : {
          "exits" : {
-            "n" : "^doorFromTreas"
+            "n" : "^doorfromtreas@pyramid"
          },
          "flags" : [
             "Dark"
@@ -647,9 +647,9 @@
       },
       "pyramid13@pyramid" : {
          "exits" : {
-            "w" : "pyramid20",
-            "e" : "pyramid14",
-            "s" : "pyramid10"
+            "w" : "pyramid20@pyramid",
+            "e" : "pyramid14@pyramid",
+            "s" : "pyramid10@pyramid"
          },
          "flags" : [
             "Dark"
@@ -662,8 +662,8 @@
       },
       "pyramid23@pyramid" : {
          "exits" : {
-            "w" : "pyramid22",
-            "n" : "pyramid24"
+            "w" : "pyramid22@pyramid",
+            "n" : "pyramid24@pyramid"
          },
          "flags" : [
             "Dark"
@@ -676,9 +676,9 @@
       },
       "pyramid19@pyramid" : {
          "exits" : {
-            "u" : "pyramid27",
-            "n" : "pyramid18",
-            "s" : "pyramid20"
+            "u" : "pyramid27@pyramid",
+            "n" : "pyramid18@pyramid",
+            "s" : "pyramid20@pyramid"
          },
          "flags" : [
             "Dark"
@@ -691,8 +691,8 @@
       },
       "pyramid10@pyramid" : {
          "exits" : {
-            "u" : "pyramid13",
-            "d" : "pyramid9"
+            "u" : "pyramid13@pyramid",
+            "d" : "pyramid9@pyramid"
          },
          "flags" : [
             "Outdoors",
@@ -706,9 +706,9 @@
       },
       "pyramid17@pyramid" : {
          "exits" : {
-            "w" : "pyramid18",
-            "e" : "pyramid16",
-            "s" : "^door2Nef"
+            "w" : "pyramid18@pyramid",
+            "e" : "pyramid16@pyramid",
+            "s" : "^door2nef@pyramid"
          },
          "flags" : [
             "Dark"
@@ -721,7 +721,7 @@
       },
       "pyramid32@pyramid" : {
          "exits" : {
-            "d" : "^doorFromHorus"
+            "d" : "^doorfromhorus@pyramid"
          },
          "flags" : [
             "Dark"
@@ -734,9 +734,9 @@
       },
       "pyramid28@pyramid" : {
          "exits" : {
-            "e" : "pyramid29",
-            "n" : "pyramid30",
-            "d" : "pyramid26"
+            "e" : "pyramid29@pyramid",
+            "n" : "pyramid30@pyramid",
+            "d" : "pyramid26@pyramid"
          },
          "flags" : [
             "Dark"
@@ -749,8 +749,8 @@
       },
       "pyramid5@pyramid" : {
          "exits" : {
-            "e" : "pyramid4",
-            "s" : "pyramid6"
+            "e" : "pyramid4@pyramid",
+            "s" : "pyramid6@pyramid"
          },
          "flags" : [
             "Outdoors"
@@ -765,7 +765,7 @@
    "mob" : {
       "assistant@pyramid" : {
          "damage" : "5",
-         "location" : "pyramid26",
+         "location" : "pyramid26@pyramid",
          "speed" : "5",
          "aggression" : "0",
          "armor" : "0",
@@ -776,7 +776,7 @@
       },
       "sandant2@pyramid" : {
          "damage" : "5",
-         "location" : "pyramid8",
+         "location" : "pyramid8@pyramid",
          "armor" : "0",
          "name" : "sandant2",
          "examine" : "You wouldn't want this ant at your picnic.",
@@ -792,7 +792,7 @@
       },
       "horus@pyramid" : {
          "damage" : "25",
-         "location" : "pyramid32",
+         "location" : "pyramid32@pyramid",
          "armor" : "0",
          "name" : "Horus",
          "examine" : "\nStanding over seven feet tall, this man with his falcon's head looks like he \ncould beat the crap out of you.",
@@ -808,7 +808,7 @@
       },
       "haremdancer@pyramid" : {
          "damage" : "5",
-         "location" : "pyramid16",
+         "location" : "pyramid16@pyramid",
          "armor" : "0",
          "name" : "haremdancer",
          "examine" : "With her hand in your pocket, Yasmine winks at you slyly.",
@@ -826,7 +826,7 @@
       },
       "ocelot@pyramid" : {
          "damage" : "12",
-         "location" : "pyramid31",
+         "location" : "pyramid31@pyramid",
          "speed" : "0",
          "aggression" : "80",
          "armor" : "0",
@@ -837,7 +837,7 @@
       },
       "physician@pyramid" : {
          "damage" : "5",
-         "location" : "pyramid27",
+         "location" : "pyramid27@pyramid",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -848,7 +848,7 @@
       },
       "hawker@pyramid" : {
          "damage" : "5",
-         "location" : "pyramid15",
+         "location" : "pyramid15@pyramid",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -864,7 +864,7 @@
             "ImmFrost"
          ],
          "damage" : "15",
-         "location" : "pyramid7",
+         "location" : "pyramid7@pyramid",
          "armor" : "0",
          "name" : "dustdevil",
          "description" : "A whirling mass of &+ysand&N howls here.",
@@ -875,7 +875,7 @@
       },
       "slave@pyramid" : {
          "damage" : "10",
-         "location" : "pyramid20",
+         "location" : "pyramid20@pyramid",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -885,7 +885,7 @@
       },
       "tombrobber@pyramid" : {
          "damage" : "10",
-         "location" : "pyramid22",
+         "location" : "pyramid22@pyramid",
          "speed" : "10",
          "aggression" : "20",
          "armor" : "0",
@@ -897,7 +897,7 @@
       },
       "mummy@pyramid" : {
          "damage" : "10",
-         "location" : "pyramid26",
+         "location" : "pyramid26@pyramid",
          "speed" : "0",
          "aggression" : "20",
          "armor" : "0",
@@ -909,7 +909,7 @@
       },
       "sandant4@pyramid" : {
          "damage" : "5",
-         "location" : "pyramid9",
+         "location" : "pyramid9@pyramid",
          "armor" : "0",
          "name" : "sandant4",
          "examine" : "You wouldn't want this ant at your picnic.",
@@ -925,7 +925,7 @@
       },
       "nomad@pyramid" : {
          "damage" : "12",
-         "location" : "pyramid9",
+         "location" : "pyramid9@pyramid",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -936,7 +936,7 @@
       },
       "sandant3@pyramid" : {
          "damage" : "5",
-         "location" : "pyramid7",
+         "location" : "pyramid7@pyramid",
          "armor" : "0",
          "name" : "sandant3",
          "examine" : "You wouldn't want this ant at your picnic.",
@@ -956,7 +956,7 @@
             "ImmShock"
          ],
          "damage" : "20",
-         "location" : "pyramid4",
+         "location" : "pyramid4@pyramid",
          "armor" : "10",
          "name" : "sandworm",
          "examine" : "\nThis large, slug-like thing is ugly and possesses no intelligence.  Remind \nyou of anyone you know?",
@@ -974,7 +974,7 @@
       },
       "streetthief@pyramid" : {
          "damage" : "5",
-         "location" : "pyramid14",
+         "location" : "pyramid14@pyramid",
          "armor" : "0",
          "name" : "streetthief",
          "examine" : "\nThe twinkle in his eyes and his engaging grin prompts you to check for your \nwallet.",
@@ -990,7 +990,7 @@
       },
       "sultan@pyramid" : {
          "damage" : "15",
-         "location" : "pyramid29",
+         "location" : "pyramid29@pyramid",
          "speed" : "0",
          "aggression" : "5",
          "armor" : "0",
@@ -1006,7 +1006,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "pyramid21",
+         "location" : "pyramid21@pyramid",
          "armor" : "0",
          "name" : "Neferteri",
          "examine" : "\nLovely to look at, perhaps delightful to hold, her sly smile warns you not to\nbe so bold.",
@@ -1030,7 +1030,7 @@
       },
       "camel@pyramid" : {
          "damage" : "10",
-         "location" : "pyramid5",
+         "location" : "pyramid5@pyramid",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -1041,7 +1041,7 @@
       },
       "trader@pyramid" : {
          "damage" : "10",
-         "location" : "pyramid2",
+         "location" : "pyramid2@pyramid",
          "speed" : "3",
          "aggression" : "0",
          "armor" : "5",
@@ -1052,7 +1052,7 @@
       },
       "sandant1@pyramid" : {
          "damage" : "5",
-         "location" : "pyramid3",
+         "location" : "pyramid3@pyramid",
          "armor" : "0",
          "name" : "sandant1",
          "examine" : "You wouldn't want this ant at your picnic.",
@@ -1068,7 +1068,7 @@
       },
       "handmaiden@pyramid" : {
          "damage" : "7",
-         "location" : "pyramid30",
+         "location" : "pyramid30@pyramid",
          "armor" : "0",
          "name" : "handmaiden",
          "examine" : "Though lovely, your gaze is drawn to her ripe melons.",

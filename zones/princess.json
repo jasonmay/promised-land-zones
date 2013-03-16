@@ -1,7 +1,7 @@
 {
    "obj" : {
       "drawbridge@princess" : {
-         "location" : "IN_ROOM:entrance",
+         "location" : "IN_ROOM:entrance@princess",
          "oflags" : [
             "NoGet"
          ],
@@ -10,7 +10,7 @@
       },
       "in_tower_door@princess" : {
          "desc[1]" : "The door has been closed to keep the cold out.",
-         "location" : "IN_ROOM:downtower",
+         "location" : "IN_ROOM:downtower@princess",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -42,7 +42,7 @@
       },
       "out_door@princess" : {
          "desc[1]" : "A great oak door bars your way into the castle.",
-         "location" : "entrance",
+         "location" : "entrance@princess",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -57,7 +57,7 @@
          "desc[0]" : "Someone managed to open the door to the castle."
       },
       "bones@princess" : {
-         "location" : "IN_ROOM:tower",
+         "location" : "IN_ROOM:tower@princess",
          "oflags" : [
             "NoGet"
          ],
@@ -66,7 +66,7 @@
          "examine" : "Looks like the last guests never left!"
       },
       "flags@princess" : {
-         "location" : "IN_ROOM:entrance",
+         "location" : "IN_ROOM:entrance@princess",
          "oflags" : [
             "NoGet"
          ],
@@ -76,7 +76,7 @@
       },
       "tile@princess" : {
          "desc[1]" : "You notice that one tile on the floor looks out of place.",
-         "location" : "IN_ROOM:throne",
+         "location" : "IN_ROOM:throne@princess",
          "oflags" : [
             "NoGet"
          ],
@@ -87,7 +87,7 @@
          "desc[0]" : "A tile has been pushed to one side."
       },
       "flowers@princess" : {
-         "location" : "IN_ROOM:courtyard",
+         "location" : "IN_ROOM:courtyard@princess",
          "oflags" : [
             "NoGet"
          ],
@@ -96,7 +96,7 @@
          "examine" : "\nThese flowers display a variety of colors and types.  They range from red\nto blue to gold, and there is a wonderful selection of roses and orchids.\n"
       },
       "chains@princess" : {
-         "location" : "IN_ROOM:tower",
+         "location" : "IN_ROOM:tower@princess",
          "oflags" : [
             "NoGet"
          ],
@@ -106,7 +106,7 @@
       },
       "eternalsword@princess" : {
          "damage" : "17",
-         "location" : "IN_CONTAINER:opening",
+         "location" : "IN_CONTAINER:opening@princess",
          "oflags" : [
             "Weapon",
             "Lit"
@@ -120,7 +120,7 @@
       },
       "plant@princess" : {
          "desc[1]" : "&+wA beautiful odd-looking &+Rred &+wplant is growing here.",
-         "location" : "IN_ROOM:forest3",
+         "location" : "IN_ROOM:forest3@princess",
          "altname" : "plant",
          "name" : "plant",
          "examine" : "\nThis beautiful red plant looks odd at first sight.  As you look at it, you\ncan see that it is very unique.  You remember from somewhere that the &+Rjuice&*\nof these red plants, called winterglove, can heal all kinds of illnesses.\n",
@@ -133,7 +133,7 @@
       },
       "portcullis@princess" : {
          "desc[1]" : "A portcullis bars the entrance to keep out unwelcome visitors.",
-         "location" : "IN_ROOM:entrance",
+         "location" : "IN_ROOM:entrance@princess",
          "oflags" : [
             "NoGet"
          ],
@@ -144,7 +144,7 @@
          "desc[0]" : "The portcullis has been lifted to reveal a door."
       },
       "tower@princess" : {
-         "location" : "IN_ROOM:mountain",
+         "location" : "IN_ROOM:mountain@princess",
          "oflags" : [
             "NoGet"
          ],
@@ -152,7 +152,7 @@
          "examine" : "The tower is old and gray.  It looks like it reaches up to the sky!\n"
       },
       "throne@princess" : {
-         "location" : "IN_ROOM:throne",
+         "location" : "IN_ROOM:throne@princess",
          "oflags" : [
             "NoGet"
          ],
@@ -161,7 +161,7 @@
       },
       "in_door@princess" : {
          "desc[1]" : "The door is closed to keep intruders out.",
-         "location" : "hall",
+         "location" : "hall@princess",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -178,7 +178,7 @@
       },
       "out_tower_door@princess" : {
          "desc[1]" : "You can't get into the tower while the door is closed!",
-         "location" : "IN_ROOM:mountain",
+         "location" : "IN_ROOM:mountain@princess",
          "oflags" : [
             "Destroyed",
             "NoGet",
@@ -195,7 +195,7 @@
          "desc[0]" : "The door to the tower stands wide open."
       },
       "table@princess" : {
-         "location" : "IN_ROOM:hall",
+         "location" : "IN_ROOM:hall@princess",
          "oflags" : [
             "NoGet"
          ],
@@ -203,7 +203,7 @@
          "examine" : "\nThe table is round and sturdy.  It is made of a rare wood and is so big\nthat only a King could afford it!  Looking under the table, you see a\nlittle &+Clatch&*.  How odd.\n"
       },
       "stairs@princess" : {
-         "location" : "IN_ROOM:downtower",
+         "location" : "IN_ROOM:downtower@princess",
          "oflags" : [
             "NoGet"
          ],
@@ -223,7 +223,7 @@
          "size" : "16"
       },
       "potions@princess" : {
-         "location" : "IN_ROOM:tower",
+         "location" : "IN_ROOM:tower@princess",
          "oflags" : [
             "NoGet"
          ],
@@ -232,7 +232,7 @@
          "examine" : "\nThese potions are made from lizard's tongue, bat's wing, and warts with\none eye.  They don't sound appetizing."
       },
       "tapestries@princess" : {
-         "location" : "IN_ROOM:hall",
+         "location" : "IN_ROOM:hall@princess",
          "oflags" : [
             "NoGet"
          ],
@@ -242,7 +242,7 @@
       },
       "bushes@princess" : {
          "desc[1]" : "Some bushes grow around the base of the tower.",
-         "location" : "IN_ROOM:mountain",
+         "location" : "IN_ROOM:mountain@princess",
          "oflags" : [
             "NoGet"
          ],
@@ -254,7 +254,7 @@
          "desc[0]" : "The bushes have been burned away."
       },
       "comb@princess" : {
-         "location" : "IN_ROOM:forest5",
+         "location" : "IN_ROOM:forest5@princess",
          "oflags" : [
             "Wearable"
          ],
@@ -268,7 +268,7 @@
          ]
       },
       "tapestries_2@princess" : {
-         "location" : "IN_ROOM:throne",
+         "location" : "IN_ROOM:throne@princess",
          "oflags" : [
             "NoGet"
          ],
@@ -278,7 +278,7 @@
          "examine" : "The sapphires are red with sapphires embroidered in the borders.\n"
       },
       "latch@princess" : {
-         "location" : "IN_ROOM:hall",
+         "location" : "IN_ROOM:hall@princess",
          "oflags" : [
             "NoGet"
          ],
@@ -288,7 +288,7 @@
          "state" : "1"
       },
       "banners@princess" : {
-         "location" : "IN_ROOM:entrance",
+         "location" : "IN_ROOM:entrance@princess",
          "oflags" : [
             "NoGet"
          ],
@@ -300,7 +300,7 @@
    "loc" : {
       "death@princess" : {
          "exits" : {
-            "e" : "forest4"
+            "e" : "forest4@princess"
          },
          "flags" : [],
          "zone" : "princess",
@@ -311,8 +311,8 @@
       },
       "courtyard@princess" : {
          "exits" : {
-            "n" : "hall",
-            "s" : "forest1"
+            "n" : "hall@princess",
+            "s" : "forest1@princess"
          },
          "flags" : [
             "NoMobiles",
@@ -326,10 +326,10 @@
       },
       "forest1@princess" : {
          "exits" : {
-            "w" : "forest3",
-            "e" : "forest2",
-            "n" : "courtyard",
-            "s" : "forest4"
+            "w" : "forest3@princess",
+            "e" : "forest2@princess",
+            "n" : "courtyard@princess",
+            "s" : "forest4@princess"
          },
          "flags" : [
             "OutDoors"
@@ -342,8 +342,8 @@
       },
       "forest5@princess" : {
          "exits" : {
-            "n" : "forest4",
-            "s" : "forest6"
+            "n" : "forest4@princess",
+            "s" : "forest6@princess"
          },
          "flags" : [
             "OutDoors"
@@ -356,8 +356,8 @@
       },
       "path2@princess" : {
          "exits" : {
-            "e" : "entrance",
-            "n" : "path1"
+            "e" : "entrance@princess",
+            "n" : "path1@princess"
          },
          "flags" : [
             "OutDoors"
@@ -370,7 +370,7 @@
       },
       "tower@princess" : {
          "exits" : {
-            "d" : "downtower"
+            "d" : "downtower@princess"
          },
          "flags" : [],
          "zone" : "princess",
@@ -381,10 +381,10 @@
       },
       "forest2@princess" : {
          "exits" : {
-            "w" : "forest1",
-            "e" : "forest3",
-            "n" : "forest2",
-            "s" : "forest2"
+            "w" : "forest1@princess",
+            "e" : "forest3@princess",
+            "n" : "forest2@princess",
+            "s" : "forest2@princess"
          },
          "flags" : [
             "OutDoors"
@@ -397,10 +397,10 @@
       },
       "forest3@princess" : {
          "exits" : {
-            "w" : "forest2",
-            "e" : "forest1",
-            "n" : "forest3",
-            "s" : "forest3"
+            "w" : "forest2@princess",
+            "e" : "forest1@princess",
+            "n" : "forest3@princess",
+            "s" : "forest3@princess"
          },
          "flags" : [
             "OutDoors"
@@ -413,7 +413,7 @@
       },
       "throne@princess" : {
          "exits" : {
-            "w" : "hall"
+            "w" : "hall@princess"
          },
          "flags" : [
             "Peaceful"
@@ -427,7 +427,7 @@
       "path1@princess" : {
          "exits" : {
             "n" : "stream_3@novice",
-            "s" : "path2"
+            "s" : "path2@princess"
          },
          "flags" : [
             "Outdoors"
@@ -440,8 +440,8 @@
       },
       "entrance@princess" : {
          "exits" : {
-            "w" : "path2",
-            "e" : "^out_door"
+            "w" : "path2@princess",
+            "e" : "^out_door@princess"
          },
          "flags" : [
             "OutDoors"
@@ -454,9 +454,9 @@
       },
       "mountain@princess" : {
          "exits" : {
-            "n" : "forest6",
-            "d" : "forest6",
-            "s" : "^out_tower_door"
+            "n" : "forest6@princess",
+            "d" : "forest6@princess",
+            "s" : "^out_tower_door@princess"
          },
          "flags" : [
             "OutDoors",
@@ -470,10 +470,10 @@
       },
       "forest4@princess" : {
          "exits" : {
-            "w" : "death",
-            "e" : "forest2",
-            "n" : "forest1",
-            "s" : "forest5"
+            "w" : "death@princess",
+            "e" : "forest2@princess",
+            "n" : "forest1@princess",
+            "s" : "forest5@princess"
          },
          "flags" : [
             "OutDoors"
@@ -486,9 +486,9 @@
       },
       "forest6@princess" : {
          "exits" : {
-            "u" : "mountain",
-            "n" : "forest5",
-            "s" : "mountain"
+            "u" : "mountain@princess",
+            "n" : "forest5@princess",
+            "s" : "mountain@princess"
          },
          "flags" : [
             "OutDoors"
@@ -501,9 +501,9 @@
       },
       "hall@princess" : {
          "exits" : {
-            "w" : "^in_door",
-            "e" : "throne",
-            "s" : "courtyard"
+            "w" : "^in_door@princess",
+            "e" : "throne@princess",
+            "s" : "courtyard@princess"
          },
          "flags" : [
             "NoMobiles"
@@ -516,8 +516,8 @@
       },
       "downtower@princess" : {
          "exits" : {
-            "u" : "tower",
-            "n" : "^in_tower_door"
+            "u" : "tower@princess",
+            "n" : "^in_tower_door@princess"
          },
          "flags" : [],
          "zone" : "princess",
@@ -530,7 +530,7 @@
    "mob" : {
       "gwendolyn@princess" : {
          "damage" : "4",
-         "location" : "tower",
+         "location" : "tower@princess",
          "name" : "gwendolyn",
          "examine" : "She doesn't look happy to be so chained up.  Hopefully you can save her!\n",
          "description" : "The lovely Princess Gwendolyn has been chained to the wall.",
@@ -549,7 +549,7 @@
             "Missile"
          ],
          "damage" : "10",
-         "location" : "mountain",
+         "location" : "mountain@princess",
          "name" : "gizelle",
          "examine" : "She looks at you and says &+C'Come to fight me, eh?  Let the fight begin!'\n",
          "description" : "Standing in front of you is the evil sorceress &+RGizelle!",
@@ -567,7 +567,7 @@
       },
       "ffox@princess" : {
          "damage" : "8",
-         "location" : "forest1",
+         "location" : "forest1@princess",
          "name" : "ffox",
          "examine" : "Vixan is a shy fox.  She bats her eyes looking at you curiously.\n",
          "description" : "&+CVixan, a pretty little fox with &+Bblue &+Ceyes is looking at you from\nthe bushes.",
@@ -580,7 +580,7 @@
       },
       "rabbit@princess" : {
          "damage" : "8",
-         "location" : "forest2",
+         "location" : "forest2@princess",
          "speed" : "10",
          "pname" : "Peter",
          "name" : "rabbit",
@@ -590,7 +590,7 @@
       },
       "fox@princess" : {
          "damage" : "9",
-         "location" : "forest1",
+         "location" : "forest1@princess",
          "speed" : "10",
          "pname" : "Foxy Loxy",
          "name" : "fox",
@@ -600,7 +600,7 @@
       },
       "child@princess" : {
          "damage" : "9",
-         "location" : "courtyard",
+         "location" : "courtyard@princess",
          "name" : "child",
          "examine" : "\nYou see a little girl with brown eyes and brown hair.  She is wearing a\ndull brown dress and a grey shawl.  Her appearance may look drabby, but\nRose has a big smile on her face.",
          "description" : "A small child is playing in the courtyard.",
@@ -613,7 +613,7 @@
       },
       "stephen@princess" : {
          "damage" : "5",
-         "location" : "throne",
+         "location" : "throne@princess",
          "speed" : "0",
          "pname" : "King Stephen",
          "name" : "stephen",
@@ -623,7 +623,7 @@
       },
       "bear@princess" : {
          "damage" : "15",
-         "location" : "death",
+         "location" : "death@princess",
          "speed" : "0",
          "aggression" : "50",
          "pname" : "The Hungry Bear",

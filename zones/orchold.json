@@ -2,7 +2,7 @@
    "obj" : {
       "vault_b@orchold" : {
          "desc[1]" : "The vault is closed.",
-         "location" : "IN_ROOM:treasury",
+         "location" : "IN_ROOM:treasury@orchold",
          "oflags" : [
             "NoGet",
             "Lockable",
@@ -19,7 +19,7 @@
       },
       "vault@orchold" : {
          "desc[1]" : "The valut is closed.",
-         "location" : "IN_ROOM:tunnel",
+         "location" : "IN_ROOM:tunnel@orchold",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -35,7 +35,7 @@
          "desc[0]" : "The vault is open."
       },
       "orcgold@orchold" : {
-         "location" : "IN_ROOM:central",
+         "location" : "IN_ROOM:central@orchold",
          "oflags" : [
             "Destroyed"
          ],
@@ -49,7 +49,7 @@
          "desc[0]" : "A gold plate lies on the floor here."
       },
       "stonedoor@orchold" : {
-         "location" : "IN_ROOM:observation",
+         "location" : "IN_ROOM:observation@orchold",
          "oflags" : [
             "NoGet"
          ],
@@ -62,7 +62,7 @@
          "desc[0]" : "A portion of the west wall is swung back, making a doorway."
       },
       "chainmail@orchold" : {
-         "location" : "IN_ROOM:guardroom",
+         "location" : "IN_ROOM:guardroom@orchold",
          "armor" : "40",
          "oflags" : [
             "Wearable",
@@ -82,7 +82,7 @@
       },
       "garbage@orchold" : {
          "desc[1]" : "Garbage has been strewn all about the room.",
-         "location" : "IN_ROOM:central",
+         "location" : "IN_ROOM:central@orchold",
          "oflags" : [
             "NoGet"
          ],
@@ -92,7 +92,7 @@
          "desc[0]" : "Piles of garbage lie in the middle of the room."
       },
       "block@orchold" : {
-         "location" : "IN_ROOM:treasury",
+         "location" : "IN_ROOM:treasury@orchold",
          "weight" : "50",
          "altname" : "gold",
          "name" : "block",
@@ -103,7 +103,7 @@
       },
       "topcover@orchold" : {
          "desc[1]" : "A large metal plate lies on the floor.",
-         "location" : "IN_ROOM:observation",
+         "location" : "IN_ROOM:observation@orchold",
          "oflags" : [
             "PushToggle",
             "NoGet"
@@ -119,7 +119,7 @@
       },
       "botcover@orchold" : {
          "desc[1]" : "A metal cover blocks the top of the ladder.",
-         "location" : "IN_ROOM:guardroom",
+         "location" : "IN_ROOM:guardroom@orchold",
          "oflags" : [
             "PushToggle",
             "NoGet"
@@ -133,7 +133,7 @@
          "maxstate" : "1"
       },
       "switch@orchold" : {
-         "location" : "IN_ROOM:throne",
+         "location" : "IN_ROOM:throne@orchold",
          "oflags" : [
             "Pushable",
             "NoGet"
@@ -147,7 +147,7 @@
          "desc[0]" : "There is a hole in the north wall."
       },
       "stalactite@orchold" : {
-         "location" : "IN_ROOM:damp",
+         "location" : "IN_ROOM:damp@orchold",
          "oflags" : [
             "PushToggle",
             "NoGet"
@@ -160,7 +160,7 @@
          "desc[0]" : "A portion of the east wall is swung back, making a doorway."
       },
       "holeorcs@orchold" : {
-         "location" : "IN_ROOM:tunnel",
+         "location" : "IN_ROOM:tunnel@orchold",
          "oflags" : [
             "NoGet"
          ],
@@ -172,7 +172,7 @@
          "desc[0]" : "There is a hole in the south wall leading to another room."
       },
       "throne@orchold" : {
-         "location" : "IN_ROOM:throne",
+         "location" : "IN_ROOM:throne@orchold",
          "oflags" : [
             "NoGet"
          ],
@@ -184,9 +184,9 @@
    "loc" : {
       "hallway2@orchold" : {
          "exits" : {
-            "w" : "Hallway3",
-            "e" : "Hallway11",
-            "s" : "Hallway1"
+            "w" : "hallway3@orchold",
+            "e" : "hallway11@orchold",
+            "s" : "hallway1@orchold"
          },
          "flags" : [
             "Dark"
@@ -199,7 +199,7 @@
       },
       "trap@orchold" : {
          "exits" : {
-            "e" : "Guardroom"
+            "e" : "guardroom@orchold"
          },
          "flags" : [
             "Dark"
@@ -212,8 +212,8 @@
       },
       "hallway18@orchold" : {
          "exits" : {
-            "e" : "Smooth",
-            "s" : "Hallway17"
+            "e" : "smooth@orchold",
+            "s" : "hallway17@orchold"
          },
          "flags" : [
             "Dark"
@@ -226,9 +226,9 @@
       },
       "guardroom@orchold" : {
          "exits" : {
-            "w" : "Trap",
-            "u" : "^BotCover",
-            "n" : "Hallway1"
+            "w" : "trap@orchold",
+            "u" : "^botcover@orchold",
+            "n" : "hallway1@orchold"
          },
          "flags" : [
             "Dark"
@@ -241,8 +241,8 @@
       },
       "observation@orchold" : {
          "exits" : {
-            "w" : "^StoneDoor",
-            "d" : "^TopCover"
+            "w" : "^stonedoor@orchold",
+            "d" : "^topcover@orchold"
          },
          "flags" : [
             "Dark"
@@ -255,8 +255,8 @@
       },
       "hallway15@orchold" : {
          "exits" : {
-            "w" : "Hallway16",
-            "s" : "Hallway14"
+            "w" : "hallway16@orchold",
+            "s" : "hallway14@orchold"
          },
          "flags" : [
             "Dark"
@@ -269,8 +269,8 @@
       },
       "hallway13@orchold" : {
          "exits" : {
-            "w" : "Hallway11",
-            "n" : "Hallway14"
+            "w" : "hallway11@orchold",
+            "n" : "hallway14@orchold"
          },
          "flags" : [
             "Dark"
@@ -283,8 +283,8 @@
       },
       "throne@orchold" : {
          "exits" : {
-            "n" : "^switch",
-            "s" : "Audience"
+            "n" : "^switch@orchold",
+            "s" : "audience@orchold"
          },
          "flags" : [
             "Dark"
@@ -298,9 +298,9 @@
       "path1@orchold" : {
          "exits" : {
             "w" : "bandilbar1@volcano",
-            "e" : "E_Pass@Blizzard",
-            "u" : "Path2",
-            "d" : "E_Pass@Blizzard"
+            "e" : "e_pass@blizzard",
+            "u" : "path2@orchold",
+            "d" : "e_pass@blizzard"
          },
          "flags" : [
             "Outdoors"
@@ -313,8 +313,8 @@
       },
       "path2@orchold" : {
          "exits" : {
-            "u" : "Entryway",
-            "d" : "Path1"
+            "u" : "entryway@orchold",
+            "d" : "path1@orchold"
          },
          "flags" : [
             "Outdoors"
@@ -327,9 +327,9 @@
       },
       "tunnel@orchold" : {
          "exits" : {
-            "w" : "^vault",
-            "n" : "Mountainside",
-            "s" : "^HoleOrcs"
+            "w" : "^vault@orchold",
+            "n" : "mountainside@orchold",
+            "s" : "^holeorcs@orchold"
          },
          "flags" : [
             "Dark"
@@ -342,8 +342,8 @@
       },
       "smooth@orchold" : {
          "exits" : {
-            "w" : "Hallway18",
-            "n" : "Audience"
+            "w" : "hallway18@orchold",
+            "n" : "audience@orchold"
          },
          "flags" : [
             "Dark"
@@ -356,8 +356,8 @@
       },
       "hallway1@orchold" : {
          "exits" : {
-            "n" : "Hallway2",
-            "s" : "Guardroom"
+            "n" : "hallway2@orchold",
+            "s" : "guardroom@orchold"
          },
          "flags" : [
             "Dark"
@@ -370,7 +370,7 @@
       },
       "treasury@orchold" : {
          "exits" : {
-            "e" : "^vault_b"
+            "e" : "^vault_b@orchold"
          },
          "flags" : [
             "Dark"
@@ -383,9 +383,9 @@
       },
       "entryway@orchold" : {
          "exits" : {
-            "u" : "Nibelung1@nibelung",
-            "n" : "Damp",
-            "d" : "Path2"
+            "u" : "nibelung1@nibelung",
+            "n" : "damp@orchold",
+            "d" : "path2@orchold"
          },
          "flags" : [
             "Outdoors"
@@ -398,8 +398,8 @@
       },
       "audience@orchold" : {
          "exits" : {
-            "n" : "Throne",
-            "s" : "Smooth"
+            "n" : "throne@orchold",
+            "s" : "smooth@orchold"
          },
          "flags" : [
             "Dark"
@@ -412,9 +412,9 @@
       },
       "hallway5@orchold" : {
          "exits" : {
-            "w" : "Hallway8",
-            "e" : "Hallway4",
-            "s" : "Hallway7"
+            "w" : "hallway8@orchold",
+            "e" : "hallway4@orchold",
+            "s" : "hallway7@orchold"
          },
          "flags" : [
             "Dark"
@@ -427,8 +427,8 @@
       },
       "hallway9@orchold" : {
          "exits" : {
-            "e" : "Hallway7",
-            "n" : "Hallway8"
+            "e" : "hallway7@orchold",
+            "n" : "hallway8@orchold"
          },
          "flags" : [
             "Dark"
@@ -441,9 +441,9 @@
       },
       "central@orchold" : {
          "exits" : {
-            "w" : "Hallway6",
-            "e" : "Hallway16",
-            "n" : "Hallway17"
+            "w" : "hallway6@orchold",
+            "e" : "hallway16@orchold",
+            "n" : "hallway17@orchold"
          },
          "flags" : [
             "Dark"
@@ -456,8 +456,8 @@
       },
       "hallway6@orchold" : {
          "exits" : {
-            "e" : "central",
-            "s" : "Hallway4"
+            "e" : "central@orchold",
+            "s" : "hallway4@orchold"
          },
          "flags" : [
             "Dark"
@@ -470,7 +470,7 @@
       },
       "overgrown@orchold" : {
          "exits" : {
-            "d" : "WEdge@Valley"
+            "d" : "wedge@valley"
          },
          "flags" : [
             "Outdoors"
@@ -483,8 +483,8 @@
       },
       "hallway7@orchold" : {
          "exits" : {
-            "w" : "Hallway9",
-            "n" : "Hallway5"
+            "w" : "hallway9@orchold",
+            "n" : "hallway5@orchold"
          },
          "flags" : [
             "Dark"
@@ -497,9 +497,9 @@
       },
       "hallway3@orchold" : {
          "exits" : {
-            "w" : "Hallway@orcholdii",
-            "e" : "Hallway2",
-            "n" : "Hallway4"
+            "w" : "hallway@orcholdii",
+            "e" : "hallway2@orchold",
+            "n" : "hallway4@orchold"
          },
          "flags" : [
             "Dark"
@@ -512,8 +512,8 @@
       },
       "hallway16@orchold" : {
          "exits" : {
-            "w" : "central",
-            "e" : "Hallway15"
+            "w" : "central@orchold",
+            "e" : "hallway15@orchold"
          },
          "flags" : [
             "Dark"
@@ -526,9 +526,9 @@
       },
       "hallway11@orchold" : {
          "exits" : {
-            "w" : "Hallway2",
-            "e" : "Hallway13",
-            "n" : "Hallway12"
+            "w" : "hallway2@orchold",
+            "e" : "hallway13@orchold",
+            "n" : "hallway12@orchold"
          },
          "flags" : [
             "Dark"
@@ -541,8 +541,8 @@
       },
       "hallway12@orchold" : {
          "exits" : {
-            "e" : "Hallway14",
-            "s" : "Hallway11"
+            "e" : "hallway14@orchold",
+            "s" : "hallway11@orchold"
          },
          "flags" : [
             "Dark"
@@ -555,9 +555,9 @@
       },
       "hallway4@orchold" : {
          "exits" : {
-            "w" : "Hallway5",
-            "n" : "Hallway6",
-            "s" : "Hallway3"
+            "w" : "hallway5@orchold",
+            "n" : "hallway6@orchold",
+            "s" : "hallway3@orchold"
          },
          "flags" : [
             "Dark"
@@ -570,8 +570,8 @@
       },
       "hallway17@orchold" : {
          "exits" : {
-            "n" : "Hallway18",
-            "s" : "central"
+            "n" : "hallway18@orchold",
+            "s" : "central@orchold"
          },
          "flags" : [
             "Dark"
@@ -584,8 +584,8 @@
       },
       "mountainside@orchold" : {
          "exits" : {
-            "d" : "Overgrown",
-            "s" : "Tunnel"
+            "d" : "overgrown@orchold",
+            "s" : "tunnel@orchold"
          },
          "flags" : [
             "Outdoors"
@@ -598,9 +598,9 @@
       },
       "damp@orchold" : {
          "exits" : {
-            "e" : "^stalactite",
-            "n" : "Trap",
-            "s" : "Entryway"
+            "e" : "^stalactite@orchold",
+            "n" : "trap@orchold",
+            "s" : "entryway@orchold"
          },
          "flags" : [
             "Dark"
@@ -613,9 +613,9 @@
       },
       "hallway14@orchold" : {
          "exits" : {
-            "w" : "Hallway12",
-            "n" : "Hallway15",
-            "s" : "Hallway13"
+            "w" : "hallway12@orchold",
+            "n" : "hallway15@orchold",
+            "s" : "hallway13@orchold"
          },
          "flags" : [
             "Dark"
@@ -628,8 +628,8 @@
       },
       "hallway8@orchold" : {
          "exits" : {
-            "e" : "Hallway5",
-            "s" : "Hallway9"
+            "e" : "hallway5@orchold",
+            "s" : "hallway9@orchold"
          },
          "flags" : [
             "Dark"
@@ -644,7 +644,7 @@
    "mob" : {
       "usher@orchold" : {
          "damage" : "13",
-         "location" : "audience",
+         "location" : "audience@orchold",
          "armor" : "0",
          "name" : "usher",
          "description" : "\nThe Usher Orc, dressed in black livery, sneers down his nose at you.",
@@ -673,7 +673,7 @@
       },
       "watchman@orchold" : {
          "damage" : "13",
-         "location" : "observation",
+         "location" : "observation@orchold",
          "armor" : "0",
          "name" : "watchman",
          "description" : "The Watchman Orc growls at you.",
@@ -684,7 +684,7 @@
       },
       "randy@orchold" : {
          "damage" : "10",
-         "location" : "trap",
+         "location" : "trap@orchold",
          "armor" : "4",
          "name" : "randy",
          "description" : "Randy Orc looks at you viciously.",
@@ -695,7 +695,7 @@
       },
       "brandy@orchold" : {
          "damage" : "10",
-         "location" : "trap",
+         "location" : "trap@orchold",
          "armor" : "0",
          "name" : "brandy",
          "description" : "Brandy Orc looks at you viciously.",
@@ -709,7 +709,7 @@
       },
       "andy@orchold" : {
          "damage" : "10",
-         "location" : "trap",
+         "location" : "trap@orchold",
          "armor" : "0",
          "name" : "andy",
          "description" : "Andy Orc looks at you viciously.",
@@ -720,7 +720,7 @@
       },
       "sandy@orchold" : {
          "damage" : "10",
-         "location" : "trap",
+         "location" : "trap@orchold",
          "armor" : "0",
          "name" : "Sandy",
          "description" : "Sandy Orc looks at you viciously.",
@@ -734,7 +734,7 @@
       },
       "king@orchold" : {
          "damage" : "20",
-         "location" : "throne",
+         "location" : "throne@orchold",
          "armor" : "0",
          "name" : "king",
          "description" : "\nHarold the King Orc glares at you with a look of royal intolerance.",
@@ -748,7 +748,7 @@
       },
       "mandy@orchold" : {
          "damage" : "10",
-         "location" : "trap",
+         "location" : "trap@orchold",
          "armor" : "0",
          "name" : "mandy",
          "description" : "Mandy Orc looks at you viciously.",

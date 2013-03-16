@@ -2,7 +2,7 @@
    "obj" : {
       "outerbrick@enchanter" : {
          "desc[1]" : "A large brick in the wall seems loose.",
-         "location" : "IN_ROOM:enchanter58",
+         "location" : "IN_ROOM:enchanter58@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -31,7 +31,7 @@
       },
       "door1@enchanter" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:enchanter25",
+         "location" : "IN_ROOM:enchanter25@enchanter",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -46,7 +46,7 @@
       },
       "cutlery@enchanter" : {
          "desc[1]" : "There's a set of shiny silver cutlery on the table.",
-         "location" : "IN_ROOM:enchanter53",
+         "location" : "IN_ROOM:enchanter53@enchanter",
          "oflags" : [
             "Getflips"
          ],
@@ -60,7 +60,7 @@
          "desc[0]" : "There's a set of shiny silver cutlery here."
       },
       "candle@enchanter" : {
-         "location" : "IN_CONTAINER:niche",
+         "location" : "IN_CONTAINER:niche@enchanter",
          "oflags" : [
             "Lit",
             "Extinguish"
@@ -75,7 +75,7 @@
          "desc[0]" : "There's an inky black candle here."
       },
       "chart@enchanter" : {
-         "location" : "IN_CONTAINER:niche",
+         "location" : "IN_CONTAINER:niche@enchanter",
          "oflags" : "{ }",
          "name" : "chart",
          "examine" : "\nIt shows you what you have to erase and draw on the map to trap the Presence\nand get to Translucent Room P.",
@@ -87,7 +87,7 @@
          "desc[0]" : "There's a parchment chart here."
       },
       "gate2@enchanter" : {
-         "location" : "IN_ROOM:enchanter21",
+         "location" : "IN_ROOM:enchanter21@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -101,7 +101,7 @@
       },
       "spoon@enchanter" : {
          "damage" : "5",
-         "location" : "IN_ROOM:enchanter58",
+         "location" : "IN_ROOM:enchanter58@enchanter",
          "oflags" : [
             "Weapon"
          ],
@@ -114,7 +114,7 @@
       },
       "door7@enchanter" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:enchanter70",
+         "location" : "IN_ROOM:enchanter70@enchanter",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -128,7 +128,7 @@
          "desc[0]" : "The door is open."
       },
       "globe@enchanter" : {
-         "location" : "IN_ROOM:enchanter35",
+         "location" : "IN_ROOM:enchanter35@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -136,7 +136,7 @@
          "examine" : "\nIt's a magic globe.  It shows the world as we know it, with a large red area\nshowing the lands that Krill has conquered.  You can see that the globe\nkeeps current with real time, for along parts of the edge of the red zone,\nyou can see minute flashes of light showing skirmishes that Krill is\nwinning.  You are alarmed to see that Krill's lands are within striking\ndistance of your home."
       },
       "dungeon_map@enchanter" : {
-         "location" : "IN_CONTAINER:openegg",
+         "location" : "IN_CONTAINER:openegg@enchanter",
          "oflags" : "{ }",
          "name" : "dungeon_map",
          "examine" : "\n         G\n        / \\\n     A H   F\n     |      \\\n     B---C   E\n      \\ /\n       D   P\n\nFrobozz Magic Map Company (c)",
@@ -149,7 +149,7 @@
          "desc[0]" : "\nThere's an old parchment map lying here."
       },
       "closedegg@enchanter" : {
-         "location" : "IN_ROOM:enchanter26",
+         "location" : "IN_ROOM:enchanter26@enchanter",
          "oflags" : "{ }",
          "name" : "closedegg",
          "examine" : "\nIt's the most beautiful treasure you've ever seen.  It's a mother-of-pearl\negg, with  a delicate gold clasp.  You  can't seem to open the clasp, it's\nsomehow connected to a  silver crank attached  to the egg.  There's also a\nlapis-lazuli  lever, a ruby button, a polished agate  slide, and a diamond\nswitch on the egg.  You scratch  your head in confusion as  you ponder the\negg.",
@@ -162,7 +162,7 @@
          "desc[0]" : "There's a jewelled egg here."
       },
       "water@enchanter" : {
-         "location" : "IN_ROOM:enchanter9",
+         "location" : "IN_ROOM:enchanter9@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -174,7 +174,7 @@
          "maxstate" : "0"
       },
       "gate1@enchanter" : {
-         "location" : "IN_ROOM:enchanter20",
+         "location" : "IN_ROOM:enchanter20@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -187,7 +187,7 @@
          "maxstate" : "1"
       },
       "dungeonkey@enchanter" : {
-         "location" : "IN_ROOM:enchanter33",
+         "location" : "IN_ROOM:enchanter33@enchanter",
          "oflags" : [
             "Key"
          ],
@@ -203,7 +203,7 @@
          "desc[0]" : "There's a rather slimy key here."
       },
       "cup@enchanter" : {
-         "location" : "IN_ROOM:enchanter26",
+         "location" : "IN_ROOM:enchanter26@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -216,7 +216,7 @@
       },
       "cloth@enchanter" : {
          "desc[1]" : "There's a beautiful silk tablecloth on one of the tables.",
-         "location" : "IN_ROOM:enchanter53",
+         "location" : "IN_ROOM:enchanter53@enchanter",
          "oflags" : [
             "GetFlips"
          ],
@@ -232,7 +232,7 @@
       },
       "door8@enchanter" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:enchanter71",
+         "location" : "IN_ROOM:enchanter71@enchanter",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -247,7 +247,7 @@
       },
       "kulcad_scroll@enchanter" : {
          "desc[1]" : "The turtle managed to drop the scroll in this room before getting squashed\nby the hammer.  Poor, brave turtle...",
-         "location" : "IN_ROOM:enchanter51",
+         "location" : "IN_ROOM:enchanter51@enchanter",
          "armor" : "3",
          "oflags" : "{ }",
          "altname" : "tattered",
@@ -263,7 +263,7 @@
       },
       "rezrov_scroll@enchanter" : {
          "desc[1]" : "\nThe crone says, 'Well, you've finally come for help.  I've been waiting...\nHere.  Take this.  And don't come back!'  She holds out a slightly crumpled\nscroll, and beckons you to take it.",
-         "location" : "IN_ROOM:enchanter17",
+         "location" : "IN_ROOM:enchanter17@enchanter",
          "oflags" : [
             "GetFlips"
          ],
@@ -281,7 +281,7 @@
       },
       "bread@enchanter" : {
          "desc[1]" : "There is a freshly baked loaf of bread inside the oven.",
-         "location" : "IN_CONTAINER:oven",
+         "location" : "IN_CONTAINER:oven@enchanter",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -297,7 +297,7 @@
       },
       "door6@enchanter" : {
          "desc[1]" : "The cell door is closed.",
-         "location" : "IN_ROOM:enchanter57",
+         "location" : "IN_ROOM:enchanter57@enchanter",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -314,7 +314,7 @@
       },
       "pencil@enchanter" : {
          "desc[1]" : "Lying on the table beside the empty frame is a short stubby pencil.",
-         "location" : "IN_ROOM:enchanter35",
+         "location" : "IN_ROOM:enchanter35@enchanter",
          "oflags" : [
             "GetFlips"
          ],
@@ -329,7 +329,7 @@
       },
       "sack@enchanter" : {
          "desc[1]" : "There's a small, closed sack here.",
-         "location" : "IN_ROOM:enchanter76",
+         "location" : "IN_ROOM:enchanter76@enchanter",
          "oflags" : [
             "Container",
             "Openable"
@@ -344,7 +344,7 @@
          "desc[0]" : "There's a tiny sack here."
       },
       "bedpost@enchanter" : {
-         "location" : "IN_ROOM:enchanter71",
+         "location" : "IN_ROOM:enchanter71@enchanter",
          "oflags" : [
             "NoGet",
             "Destroyed",
@@ -374,7 +374,7 @@
          "desc[0]" : "There's an opened jewelled egg here just waiting to be picked up."
       },
       "second_sign@enchanter" : {
-         "location" : "IN_ROOM:enchanter2",
+         "location" : "IN_ROOM:enchanter2@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -384,7 +384,7 @@
       },
       "vaxum_scroll@enchanter" : {
          "desc[1]" : "There's a scroll here, sweaty from the Statue's grip.",
-         "location" : "CARRIED_BY:Statue",
+         "location" : "CARRIED_BY:statue@enchanter",
          "armor" : "3",
          "oflags" : [
             "GetFlips"
@@ -401,7 +401,7 @@
          "desc[0]" : "There's a sweaty scroll here."
       },
       "bed@enchanter" : {
-         "location" : "IN_ROOM:enchanter71",
+         "location" : "IN_ROOM:enchanter71@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -409,7 +409,7 @@
          "examine" : "It looks really comfortable..."
       },
       "turtle_food@enchanter" : {
-         "location" : "IN_CONTAINER:bedpost",
+         "location" : "IN_CONTAINER:bedpost@enchanter",
          "oflags" : [
             "Food"
          ],
@@ -423,7 +423,7 @@
          "desc[0]" : "There's a box of Frobozz Magic TurtleChow here."
       },
       "scratches@enchanter" : {
-         "location" : "IN_ROOM:enchanter48",
+         "location" : "IN_ROOM:enchanter48@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -432,7 +432,7 @@
          "examine" : "There are claw marks in the stone walls."
       },
       "marker@enchanter" : {
-         "location" : "IN_ROOM:enchanter9",
+         "location" : "IN_ROOM:enchanter9@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -444,7 +444,7 @@
          "maxstate" : "0"
       },
       "door4@enchanter" : {
-         "location" : "IN_ROOM:enchanter35",
+         "location" : "IN_ROOM:enchanter35@enchanter",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -468,7 +468,7 @@
          "desc[0]" : "There's a dead turtle here, his shell crushed by a giant hammer."
       },
       "box@enchanter" : {
-         "location" : "IN_ROOM:enchanter26",
+         "location" : "IN_ROOM:enchanter26@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -481,7 +481,7 @@
       },
       "gate3@enchanter" : {
          "desc[1]" : "The gate is rusted shut.",
-         "location" : "IN_ROOM:enchanter31",
+         "location" : "IN_ROOM:enchanter31@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -495,7 +495,7 @@
       },
       "dwarvensword@enchanter" : {
          "damage" : "30",
-         "location" : "IN_CONTAINER:sack",
+         "location" : "IN_CONTAINER:sack@enchanter",
          "armor" : "15",
          "oflags" : [
             "Weapon",
@@ -524,7 +524,7 @@
       },
       "gondar_scroll@enchanter" : {
          "desc[1]" : "Partly hidden under some gravel is a stained scroll.",
-         "location" : "IN_ROOM:enchanter58",
+         "location" : "IN_ROOM:enchanter58@enchanter",
          "armor" : "3",
          "oflags" : [
             "GetFlips"
@@ -541,7 +541,7 @@
          "desc[0]" : "There's a stained scroll here."
       },
       "gate4@enchanter" : {
-         "location" : "IN_ROOM:enchanter32",
+         "location" : "IN_ROOM:enchanter32@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -555,7 +555,7 @@
       },
       "innerbrick@enchanter" : {
          "desc[1]" : "A large brick in the wall seems loose.",
-         "location" : "IN_ROOM:enchanter57",
+         "location" : "IN_ROOM:enchanter57@enchanter",
          "oflags" : [
             "Pushable",
             "Noget"
@@ -569,7 +569,7 @@
          "desc[0]" : "The brick has been pushed through, revealing a tunnel leading east."
       },
       "bench@enchanter" : {
-         "location" : "IN_ROOM:enchanter6",
+         "location" : "IN_ROOM:enchanter6@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -581,7 +581,7 @@
       },
       "oven@enchanter" : {
          "desc[1]" : "The oven is closed.",
-         "location" : "IN_ROOM:enchanter6",
+         "location" : "IN_ROOM:enchanter6@enchanter",
          "oflags" : [
             "Openable",
             "Container",
@@ -595,7 +595,7 @@
          "desc[0]" : "The oven is open."
       },
       "door3@enchanter" : {
-         "location" : "IN_ROOM:enchanter34",
+         "location" : "IN_ROOM:enchanter34@enchanter",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -608,7 +608,7 @@
          "maxstate" : "1"
       },
       "guncho_scroll@enchanter" : {
-         "location" : "IN_ROOM:enchanter67",
+         "location" : "IN_ROOM:enchanter67@enchanter",
          "armor" : "3",
          "oflags" : "{ }",
          "altname" : "black",
@@ -621,7 +621,7 @@
          "desc[0]" : "There's a black scroll here, exuding incredible power."
       },
       "pebbles@enchanter" : {
-         "location" : "IN_ROOM:enchanter23",
+         "location" : "IN_ROOM:enchanter23@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -634,7 +634,7 @@
       },
       "lantern@enchanter" : {
          "desc[1]" : "Hidden behind the bench, you can see an old battered lantern.",
-         "location" : "IN_ROOM:enchanter6",
+         "location" : "IN_ROOM:enchanter6@enchanter",
          "oflags" : [
             "Lightable",
             "Extinguish",
@@ -651,7 +651,7 @@
          "desc[0]" : "There is a battered lantern here."
       },
       "painting@enchanter" : {
-         "location" : "IN_ROOM:enchanter54",
+         "location" : "IN_ROOM:enchanter54@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -662,7 +662,7 @@
          "state" : "1"
       },
       "niche@enchanter" : {
-         "location" : "IN_ROOM:enchanter54",
+         "location" : "IN_ROOM:enchanter54@enchanter",
          "oflags" : [
             "NoGet",
             "Destroyed",
@@ -674,7 +674,7 @@
          "state" : "0"
       },
       "third_sign@enchanter" : {
-         "location" : "IN_ROOM:enchanter3",
+         "location" : "IN_ROOM:enchanter3@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -683,7 +683,7 @@
          "examine" : "Yep... this one says, 'Shave.'"
       },
       "first_sign@enchanter" : {
-         "location" : "IN_ROOM:enchanter1",
+         "location" : "IN_ROOM:enchanter1@enchanter",
          "oflags" : [
             "NoGet"
          ],
@@ -693,7 +693,7 @@
       },
       "door5@enchanter" : {
          "desc[1]" : "The cell door is closed.",
-         "location" : "IN_ROOM:enchanter56",
+         "location" : "IN_ROOM:enchanter56@enchanter",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -710,7 +710,7 @@
       },
       "door2@enchanter" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:enchanter26",
+         "location" : "IN_ROOM:enchanter26@enchanter",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -727,8 +727,8 @@
    "loc" : {
       "enchanter40@enchanter" : {
          "exits" : {
-            "u" : "enchanter38",
-            "d" : "enchanter40"
+            "u" : "enchanter38@enchanter",
+            "d" : "enchanter40@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -739,9 +739,9 @@
       },
       "enchanter79@enchanter" : {
          "exits" : {
-            "e" : "enchanter82",
-            "ne" : "enchanter80",
-            "n" : "enchanter77"
+            "e" : "enchanter82@enchanter",
+            "ne" : "enchanter80@enchanter",
+            "n" : "enchanter77@enchanter"
          },
          "flags" : [
             "OutDoors"
@@ -754,8 +754,8 @@
       },
       "enchanter88@enchanter" : {
          "exits" : {
-            "w" : "enchanter85",
-            "n" : "enchanter87"
+            "w" : "enchanter85@enchanter",
+            "n" : "enchanter87@enchanter"
          },
          "flags" : [
             "OutDoors"
@@ -779,8 +779,8 @@
       },
       "enchanter65@enchanter" : {
          "exits" : {
-            "se" : "enchanter63",
-            "sw" : "enchanter66"
+            "se" : "enchanter63@enchanter",
+            "sw" : "enchanter66@enchanter"
          },
          "flags" : [
             "Dark"
@@ -793,10 +793,10 @@
       },
       "enchanter10@enchanter" : {
          "exits" : {
-            "n" : "enchanter7",
-            "u" : "enchanter11",
-            "d" : "enchanter7",
-            "s" : "enchanter11"
+            "n" : "enchanter7@enchanter",
+            "u" : "enchanter11@enchanter",
+            "d" : "enchanter7@enchanter",
+            "s" : "enchanter11@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -811,9 +811,9 @@
       },
       "enchanter78@enchanter" : {
          "exits" : {
-            "e" : "enchanter80",
-            "se" : "enchanter81",
-            "s" : "enchanter77"
+            "e" : "enchanter80@enchanter",
+            "se" : "enchanter81@enchanter",
+            "s" : "enchanter77@enchanter"
          },
          "flags" : [
             "OutDoors"
@@ -826,10 +826,10 @@
       },
       "enchanter83@enchanter" : {
          "exits" : {
-            "e" : "enchanter86",
-            "w" : "enchanter80",
-            "se" : "enchanter87",
-            "sw" : "enchanter81"
+            "e" : "enchanter86@enchanter",
+            "w" : "enchanter80@enchanter",
+            "se" : "enchanter87@enchanter",
+            "sw" : "enchanter81@enchanter"
          },
          "flags" : [
             "OutDoors"
@@ -842,8 +842,8 @@
       },
       "enchanter27@enchanter" : {
          "exits" : {
-            "e" : "enchanter28",
-            "w" : "enchanter24"
+            "e" : "enchanter28@enchanter",
+            "w" : "enchanter24@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -854,9 +854,9 @@
       },
       "enchanter56@enchanter" : {
          "exits" : {
-            "n" : "^door5",
-            "u" : "enchanter55",
-            "s" : "enchanter59"
+            "n" : "^door5@enchanter",
+            "u" : "enchanter55@enchanter",
+            "s" : "enchanter59@enchanter"
          },
          "flags" : [
             "Dark"
@@ -869,7 +869,7 @@
       },
       "enchanter42@enchanter" : {
          "exits" : {
-            "w" : "enchanter41"
+            "w" : "enchanter41@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -880,8 +880,8 @@
       },
       "enchanter48@enchanter" : {
          "exits" : {
-            "e" : "enchanter49",
-            "d" : "enchanter47"
+            "e" : "enchanter49@enchanter",
+            "d" : "enchanter47@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -892,7 +892,7 @@
       },
       "enchanter90@enchanter" : {
          "exits" : {
-            "w" : "enchanter68"
+            "w" : "enchanter68@enchanter"
          },
          "flags" : [
             "Party"
@@ -905,7 +905,7 @@
       },
       "enchanter58@enchanter" : {
          "exits" : {
-            "w" : "^outerbrick"
+            "w" : "^outerbrick@enchanter"
          },
          "flags" : [
             "Dark"
@@ -918,8 +918,8 @@
       },
       "enchanter86@enchanter" : {
          "exits" : {
-            "w" : "enchanter83",
-            "s" : "enchanter87"
+            "w" : "enchanter83@enchanter",
+            "s" : "enchanter87@enchanter"
          },
          "flags" : [
             "OutDoors"
@@ -932,9 +932,9 @@
       },
       "enchanter5@enchanter" : {
          "exits" : {
-            "ne" : "enchanter7",
-            "sw" : "enchanter4",
-            "nw" : "enchanter6"
+            "ne" : "enchanter7@enchanter",
+            "sw" : "enchanter4@enchanter",
+            "nw" : "enchanter6@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -949,9 +949,9 @@
       },
       "enchanter16@enchanter" : {
          "exits" : {
-            "ne" : "enchanter15",
-            "nw" : "enchanter18",
-            "s" : "enchanter17"
+            "ne" : "enchanter15@enchanter",
+            "nw" : "enchanter18@enchanter",
+            "s" : "enchanter17@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -966,7 +966,7 @@
       },
       "enchanter17@enchanter" : {
          "exits" : {
-            "n" : "enchanter16"
+            "n" : "enchanter16@enchanter"
          },
          "flags" : [
             "NoMobiles"
@@ -979,8 +979,8 @@
       },
       "enchanter21@enchanter" : {
          "exits" : {
-            "e" : "enchanter22",
-            "w" : "enchanter20"
+            "e" : "enchanter22@enchanter",
+            "w" : "enchanter20@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -991,9 +991,9 @@
       },
       "enchanter63@enchanter" : {
          "exits" : {
-            "se" : "enchanter64",
-            "sw" : "enchanter62",
-            "nw" : "enchanter65"
+            "se" : "enchanter64@enchanter",
+            "sw" : "enchanter62@enchanter",
+            "nw" : "enchanter65@enchanter"
          },
          "flags" : [
             "Dark"
@@ -1006,9 +1006,9 @@
       },
       "enchanter38@enchanter" : {
          "exits" : {
-            "w" : "enchanter37",
-            "u" : "enchanter39",
-            "d" : "enchanter40"
+            "w" : "enchanter37@enchanter",
+            "u" : "enchanter39@enchanter",
+            "d" : "enchanter40@enchanter"
          },
          "flags" : [
             "OnePerson"
@@ -1021,8 +1021,8 @@
       },
       "enchanter44@enchanter" : {
          "exits" : {
-            "n" : "enchanter43",
-            "sw" : "enchanter45"
+            "n" : "enchanter43@enchanter",
+            "sw" : "enchanter45@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1040,7 +1040,7 @@
       },
       "enchanter33@enchanter" : {
          "exits" : {
-            "e" : "enchanter32"
+            "e" : "enchanter32@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1055,8 +1055,8 @@
       },
       "enchanter3@enchanter" : {
          "exits" : {
-            "e" : "enchanter4",
-            "w" : "enchanter2"
+            "e" : "enchanter4@enchanter",
+            "w" : "enchanter2@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1071,8 +1071,8 @@
       },
       "enchanter70@enchanter" : {
          "exits" : {
-            "d" : "enchanter69",
-            "s" : "^door7"
+            "d" : "enchanter69@enchanter",
+            "s" : "^door7@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1083,9 +1083,9 @@
       },
       "enchanter34@enchanter" : {
          "exits" : {
-            "w" : "enchanter31",
-            "u" : "^door3",
-            "n" : "^door3"
+            "w" : "enchanter31@enchanter",
+            "u" : "^door3@enchanter",
+            "n" : "^door3@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1096,8 +1096,8 @@
       },
       "enchanter39@enchanter" : {
          "exits" : {
-            "u" : "enchanter39",
-            "d" : "enchanter38"
+            "u" : "enchanter39@enchanter",
+            "d" : "enchanter38@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1108,10 +1108,10 @@
       },
       "enchanter85@enchanter" : {
          "exits" : {
-            "e" : "enchanter88",
-            "ne" : "enchanter87",
-            "w" : "enchanter82",
-            "nw" : "enchanter81"
+            "e" : "enchanter88@enchanter",
+            "ne" : "enchanter87@enchanter",
+            "w" : "enchanter82@enchanter",
+            "nw" : "enchanter81@enchanter"
          },
          "flags" : [
             "OutDoors"
@@ -1124,8 +1124,8 @@
       },
       "enchanter54@enchanter" : {
          "exits" : {
-            "w" : "enchanter55",
-            "e" : "enchanter53"
+            "w" : "enchanter55@enchanter",
+            "e" : "enchanter53@enchanter"
          },
          "flags" : [
             "Dark"
@@ -1138,8 +1138,8 @@
       },
       "enchanter23@enchanter" : {
          "exits" : {
-            "n" : "enchanter24",
-            "s" : "enchanter22"
+            "n" : "enchanter24@enchanter",
+            "s" : "enchanter22@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1154,7 +1154,7 @@
       },
       "enchanter66@enchanter" : {
          "exits" : {
-            "ne" : "enchanter65"
+            "ne" : "enchanter65@enchanter"
          },
          "flags" : [
             "Dark"
@@ -1167,8 +1167,8 @@
       },
       "enchanter28@enchanter" : {
          "exits" : {
-            "e" : "enchanter29",
-            "w" : "enchanter27"
+            "e" : "enchanter29@enchanter",
+            "w" : "enchanter27@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1179,10 +1179,10 @@
       },
       "enchanter73@enchanter" : {
          "exits" : {
-            "e" : "enchanter76",
-            "w" : "enchanter37",
-            "u" : "enchanter74",
-            "d" : "enchanter75"
+            "e" : "enchanter76@enchanter",
+            "w" : "enchanter37@enchanter",
+            "u" : "enchanter74@enchanter",
+            "d" : "enchanter75@enchanter"
          },
          "flags" : [
             "OnePerson"
@@ -1195,9 +1195,9 @@
       },
       "enchanter4@enchanter" : {
          "exits" : {
-            "ne" : "enchanter5",
-            "w" : "enchanter3",
-            "se" : "enchanter18"
+            "ne" : "enchanter5@enchanter",
+            "w" : "enchanter3@enchanter",
+            "se" : "enchanter18@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1212,8 +1212,8 @@
       },
       "enchanter72@enchanter" : {
          "exits" : {
-            "n" : "enchanter22",
-            "s" : "enchanter69"
+            "n" : "enchanter22@enchanter",
+            "s" : "enchanter69@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1224,9 +1224,9 @@
       },
       "enchanter24@enchanter" : {
          "exits" : {
-            "e" : "enchanter27",
-            "u" : "enchanter25",
-            "s" : "enchanter23"
+            "e" : "enchanter27@enchanter",
+            "u" : "enchanter25@enchanter",
+            "s" : "enchanter23@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1237,8 +1237,8 @@
       },
       "enchanter51@enchanter" : {
          "exits" : {
-            "e" : "enchanter49",
-            "d" : "enchanter47"
+            "e" : "enchanter49@enchanter",
+            "d" : "enchanter47@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1249,7 +1249,7 @@
       },
       "enchanter64@enchanter" : {
          "exits" : {
-            "nw" : "enchanter63"
+            "nw" : "enchanter63@enchanter"
          },
          "flags" : [
             "Dark"
@@ -1262,8 +1262,8 @@
       },
       "enchanter74@enchanter" : {
          "exits" : {
-            "u" : "enchanter74",
-            "d" : "enchanter73"
+            "u" : "enchanter74@enchanter",
+            "d" : "enchanter73@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1274,8 +1274,8 @@
       },
       "enchanter47@enchanter" : {
          "exits" : {
-            "w" : "enchanter43",
-            "u" : "enchanter48"
+            "w" : "enchanter43@enchanter",
+            "u" : "enchanter48@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1286,11 +1286,11 @@
       },
       "enchanter82@enchanter" : {
          "exits" : {
-            "e" : "enchanter85",
-            "w" : "enchanter79",
-            "n" : "enchanter81",
-            "s" : "enchanter68",
-            "nw" : "enchanter77"
+            "e" : "enchanter85@enchanter",
+            "w" : "enchanter79@enchanter",
+            "n" : "enchanter81@enchanter",
+            "s" : "enchanter68@enchanter",
+            "nw" : "enchanter77@enchanter"
          },
          "flags" : [
             "OutDoors"
@@ -1303,7 +1303,7 @@
       },
       "enchanter6@enchanter" : {
          "exits" : {
-            "se" : "enchanter5"
+            "se" : "enchanter5@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1314,10 +1314,10 @@
       },
       "enchanter31@enchanter" : {
          "exits" : {
-            "e" : "enchanter34",
-            "w" : "enchanter30",
-            "n" : "^gate3",
-            "s" : "enchanter36"
+            "e" : "enchanter34@enchanter",
+            "w" : "enchanter30@enchanter",
+            "n" : "^gate3@enchanter",
+            "s" : "enchanter36@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1328,10 +1328,10 @@
       },
       "enchanter22@enchanter" : {
          "exits" : {
-            "e" : "enchanter77",
-            "w" : "enchanter21",
-            "n" : "enchanter23",
-            "s" : "enchanter72"
+            "e" : "enchanter77@enchanter",
+            "w" : "enchanter21@enchanter",
+            "n" : "enchanter23@enchanter",
+            "s" : "enchanter72@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1342,7 +1342,7 @@
       },
       "enchanter50@enchanter" : {
          "exits" : {
-            "w" : "enchanter49"
+            "w" : "enchanter49@enchanter"
          },
          "flags" : [
             "Party",
@@ -1356,9 +1356,9 @@
       },
       "enchanter41@enchanter" : {
          "exits" : {
-            "e" : "enchanter42",
-            "n" : "enchanter37",
-            "s" : "enchanter43"
+            "e" : "enchanter42@enchanter",
+            "n" : "enchanter37@enchanter",
+            "s" : "enchanter43@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1369,10 +1369,10 @@
       },
       "enchanter43@enchanter" : {
          "exits" : {
-            "e" : "enchanter47",
-            "w" : "enchanter52",
-            "n" : "enchanter41",
-            "s" : "enchanter44"
+            "e" : "enchanter47@enchanter",
+            "w" : "enchanter52@enchanter",
+            "n" : "enchanter41@enchanter",
+            "s" : "enchanter44@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1383,8 +1383,8 @@
       },
       "enchanter36@enchanter" : {
          "exits" : {
-            "n" : "enchanter31",
-            "s" : "enchanter37"
+            "n" : "enchanter31@enchanter",
+            "s" : "enchanter37@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1395,7 +1395,7 @@
       },
       "enchanter26@enchanter" : {
          "exits" : {
-            "s" : "^door2"
+            "s" : "^door2@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1406,8 +1406,8 @@
       },
       "enchanter53@enchanter" : {
          "exits" : {
-            "w" : "enchanter54",
-            "e" : "enchanter52"
+            "w" : "enchanter54@enchanter",
+            "e" : "enchanter52@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1418,8 +1418,8 @@
       },
       "enchanter2@enchanter" : {
          "exits" : {
-            "e" : "enchanter3",
-            "w" : "enchanter1"
+            "e" : "enchanter3@enchanter",
+            "w" : "enchanter1@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1434,8 +1434,8 @@
       },
       "enchanter15@enchanter" : {
          "exits" : {
-            "ne" : "enchanter14",
-            "sw" : "enchanter16"
+            "ne" : "enchanter14@enchanter",
+            "sw" : "enchanter16@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1450,10 +1450,10 @@
       },
       "enchanter55@enchanter" : {
          "exits" : {
-            "w" : "enchanter69",
-            "e" : "enchanter54",
-            "n" : "enchanter68",
-            "d" : "enchanter56"
+            "w" : "enchanter69@enchanter",
+            "e" : "enchanter54@enchanter",
+            "n" : "enchanter68@enchanter",
+            "d" : "enchanter56@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1464,10 +1464,10 @@
       },
       "enchanter69@enchanter" : {
          "exits" : {
-            "e" : "enchanter55",
-            "u" : "enchanter70",
-            "n" : "enchanter72",
-            "s" : "enchanter70"
+            "e" : "enchanter55@enchanter",
+            "u" : "enchanter70@enchanter",
+            "n" : "enchanter72@enchanter",
+            "s" : "enchanter70@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1478,7 +1478,7 @@
       },
       "enchanter1@enchanter" : {
          "exits" : {
-            "e" : "enchanter2",
+            "e" : "enchanter2@enchanter",
             "w" : "camelot72@camelot"
          },
          "flags" : [
@@ -1495,8 +1495,8 @@
       },
       "enchanter29@enchanter" : {
          "exits" : {
-            "e" : "enchanter30",
-            "w" : "enchanter28"
+            "e" : "enchanter30@enchanter",
+            "w" : "enchanter28@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1507,14 +1507,14 @@
       },
       "enchanter81@enchanter" : {
          "exits" : {
-            "e" : "enchanter84",
-            "ne" : "enchanter83",
-            "w" : "enchanter77",
-            "n" : "enchanter80",
-            "se" : "enchanter85",
-            "sw" : "enchanter79",
-            "s" : "enchanter82",
-            "nw" : "enchanter78"
+            "e" : "enchanter84@enchanter",
+            "ne" : "enchanter83@enchanter",
+            "w" : "enchanter77@enchanter",
+            "n" : "enchanter80@enchanter",
+            "se" : "enchanter85@enchanter",
+            "sw" : "enchanter79@enchanter",
+            "s" : "enchanter82@enchanter",
+            "nw" : "enchanter78@enchanter"
          },
          "flags" : [
             "OutDoors"
@@ -1527,7 +1527,7 @@
       },
       "enchanter46@enchanter" : {
          "exits" : {
-            "ne" : "enchanter45"
+            "ne" : "enchanter45@enchanter"
          },
          "flags" : [
             "Peaceful",
@@ -1542,10 +1542,10 @@
       },
       "enchanter37@enchanter" : {
          "exits" : {
-            "e" : "enchanter38",
-            "w" : "enchanter87",
-            "n" : "enchanter36",
-            "s" : "enchanter41"
+            "e" : "enchanter38@enchanter",
+            "w" : "enchanter87@enchanter",
+            "n" : "enchanter36@enchanter",
+            "s" : "enchanter41@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1556,9 +1556,9 @@
       },
       "enchanter87@enchanter" : {
          "exits" : {
-            "e" : "enchanter37",
-            "n" : "enchanter86",
-            "s" : "enchanter88"
+            "e" : "enchanter37@enchanter",
+            "n" : "enchanter86@enchanter",
+            "s" : "enchanter88@enchanter"
          },
          "flags" : [
             "OutDoors"
@@ -1571,8 +1571,8 @@
       },
       "enchanter13@enchanter" : {
          "exits" : {
-            "se" : "enchanter14",
-            "nw" : "enchanter7"
+            "se" : "enchanter14@enchanter",
+            "nw" : "enchanter7@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1587,8 +1587,8 @@
       },
       "enchanter8@enchanter" : {
          "exits" : {
-            "sw" : "enchanter7",
-            "nw" : "enchanter9"
+            "sw" : "enchanter7@enchanter",
+            "nw" : "enchanter9@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1603,8 +1603,8 @@
       },
       "enchanter20@enchanter" : {
          "exits" : {
-            "e" : "^gate1",
-            "w" : "enchanter19"
+            "e" : "^gate1@enchanter",
+            "w" : "enchanter19@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1619,8 +1619,8 @@
       },
       "enchanter19@enchanter" : {
          "exits" : {
-            "e" : "enchanter20",
-            "w" : "enchanter14"
+            "e" : "enchanter20@enchanter",
+            "w" : "enchanter14@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1635,11 +1635,11 @@
       },
       "enchanter7@enchanter" : {
          "exits" : {
-            "ne" : "enchanter8",
-            "u" : "enchanter10",
-            "se" : "enchanter13",
-            "sw" : "enchanter5",
-            "s" : "enchanter10"
+            "ne" : "enchanter8@enchanter",
+            "u" : "enchanter10@enchanter",
+            "se" : "enchanter13@enchanter",
+            "sw" : "enchanter5@enchanter",
+            "s" : "enchanter10@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1654,8 +1654,8 @@
       },
       "enchanter75@enchanter" : {
          "exits" : {
-            "u" : "enchanter73",
-            "d" : "enchanter75"
+            "u" : "enchanter73@enchanter",
+            "d" : "enchanter75@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1666,7 +1666,7 @@
       },
       "enchanter9@enchanter" : {
          "exits" : {
-            "se" : "enchanter8"
+            "se" : "enchanter8@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1681,8 +1681,8 @@
       },
       "enchanter45@enchanter" : {
          "exits" : {
-            "ne" : "enchanter44",
-            "sw" : "enchanter46"
+            "ne" : "enchanter44@enchanter",
+            "sw" : "enchanter46@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1698,8 +1698,8 @@
       },
       "enchanter35@enchanter" : {
          "exits" : {
-            "d" : "^door4",
-            "s" : "^door4"
+            "d" : "^door4@enchanter",
+            "s" : "^door4@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1710,8 +1710,8 @@
       },
       "enchanter59@enchanter" : {
          "exits" : {
-            "n" : "enchanter56",
-            "s" : "enchanter60"
+            "n" : "enchanter56@enchanter",
+            "s" : "enchanter60@enchanter"
          },
          "flags" : [
             "Dark"
@@ -1724,8 +1724,8 @@
       },
       "enchanter30@enchanter" : {
          "exits" : {
-            "e" : "enchanter31",
-            "w" : "enchanter29"
+            "e" : "enchanter31@enchanter",
+            "w" : "enchanter29@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1736,9 +1736,9 @@
       },
       "enchanter60@enchanter" : {
          "exits" : {
-            "e" : "enchanter62",
-            "n" : "enchanter59",
-            "se" : "enchanter61"
+            "e" : "enchanter62@enchanter",
+            "n" : "enchanter59@enchanter",
+            "se" : "enchanter61@enchanter"
          },
          "flags" : [
             "Dark"
@@ -1751,7 +1751,7 @@
       },
       "enchanter76@enchanter" : {
          "exits" : {
-            "w" : "enchanter73"
+            "w" : "enchanter73@enchanter"
          },
          "flags" : [
             "Dark",
@@ -1766,12 +1766,12 @@
       },
       "enchanter77@enchanter" : {
          "exits" : {
-            "e" : "enchanter81",
-            "ne" : "enchanter80",
-            "w" : "enchanter22",
-            "n" : "enchanter78",
-            "se" : "enchanter82",
-            "s" : "enchanter79"
+            "e" : "enchanter81@enchanter",
+            "ne" : "enchanter80@enchanter",
+            "w" : "enchanter22@enchanter",
+            "n" : "enchanter78@enchanter",
+            "se" : "enchanter82@enchanter",
+            "s" : "enchanter79@enchanter"
          },
          "flags" : [
             "OutDoors"
@@ -1784,8 +1784,8 @@
       },
       "enchanter52@enchanter" : {
          "exits" : {
-            "w" : "enchanter53",
-            "e" : "enchanter43"
+            "w" : "enchanter53@enchanter",
+            "e" : "enchanter43@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1796,8 +1796,8 @@
       },
       "enchanter25@enchanter" : {
          "exits" : {
-            "n" : "^door1",
-            "d" : "enchanter24"
+            "n" : "^door1@enchanter",
+            "d" : "enchanter24@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1808,8 +1808,8 @@
       },
       "enchanter18@enchanter" : {
          "exits" : {
-            "se" : "enchanter16",
-            "nw" : "enchanter4"
+            "se" : "enchanter16@enchanter",
+            "nw" : "enchanter4@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1824,10 +1824,10 @@
       },
       "enchanter80@enchanter" : {
          "exits" : {
-            "e" : "enchanter83",
-            "w" : "enchanter78",
-            "sw" : "enchanter77",
-            "s" : "enchanter81"
+            "e" : "enchanter83@enchanter",
+            "w" : "enchanter78@enchanter",
+            "sw" : "enchanter77@enchanter",
+            "s" : "enchanter81@enchanter"
          },
          "flags" : [
             "OutDoors"
@@ -1840,8 +1840,8 @@
       },
       "enchanter84@enchanter" : {
          "exits" : {
-            "w" : "enchanter81",
-            "u" : "enchanter89"
+            "w" : "enchanter81@enchanter",
+            "u" : "enchanter89@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1852,8 +1852,8 @@
       },
       "enchanter49@enchanter" : {
          "exits" : {
-            "w" : "enchanter48",
-            "e" : "enchanter50"
+            "w" : "enchanter48@enchanter",
+            "e" : "enchanter50@enchanter"
          },
          "flags" : [
             "Death"
@@ -1866,8 +1866,8 @@
       },
       "enchanter32@enchanter" : {
          "exits" : {
-            "w" : "enchanter33",
-            "s" : "^gate4"
+            "w" : "enchanter33@enchanter",
+            "s" : "^gate4@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1882,7 +1882,7 @@
       },
       "enchanter71@enchanter" : {
          "exits" : {
-            "n" : "^door8"
+            "n" : "^door8@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1893,8 +1893,8 @@
       },
       "enchanter61@enchanter" : {
          "exits" : {
-            "ne" : "enchanter62",
-            "nw" : "enchanter60"
+            "ne" : "enchanter62@enchanter",
+            "nw" : "enchanter60@enchanter"
          },
          "flags" : [
             "Dark"
@@ -1907,9 +1907,9 @@
       },
       "enchanter62@enchanter" : {
          "exits" : {
-            "ne" : "enchanter63",
-            "w" : "enchanter60",
-            "sw" : "enchanter61"
+            "ne" : "enchanter63@enchanter",
+            "w" : "enchanter60@enchanter",
+            "sw" : "enchanter61@enchanter"
          },
          "flags" : [
             "Dark"
@@ -1922,9 +1922,9 @@
       },
       "enchanter14@enchanter" : {
          "exits" : {
-            "e" : "enchanter19",
-            "sw" : "enchanter15",
-            "nw" : "enchanter13"
+            "e" : "enchanter19@enchanter",
+            "sw" : "enchanter15@enchanter",
+            "nw" : "enchanter13@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1939,7 +1939,7 @@
       },
       "enchanter12@enchanter" : {
          "exits" : {
-            "d" : "enchanter11"
+            "d" : "enchanter11@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1956,9 +1956,9 @@
       },
       "enchanter11@enchanter" : {
          "exits" : {
-            "n" : "enchanter10",
-            "u" : "enchanter12",
-            "d" : "enchanter10"
+            "n" : "enchanter10@enchanter",
+            "u" : "enchanter12@enchanter",
+            "d" : "enchanter10@enchanter"
          },
          "flags" : [
             "Outdoors",
@@ -1973,8 +1973,8 @@
       },
       "enchanter57@enchanter" : {
          "exits" : {
-            "e" : "^innerbrick",
-            "s" : "^door6"
+            "e" : "^innerbrick@enchanter",
+            "s" : "^door6@enchanter"
          },
          "flags" : [
             "Dark"
@@ -1987,7 +1987,7 @@
       },
       "enchanter89@enchanter" : {
          "exits" : {
-            "d" : "enchanter84"
+            "d" : "enchanter84@enchanter"
          },
          "flags" : [],
          "zone" : "enchanter",
@@ -1998,9 +1998,9 @@
       },
       "enchanter68@enchanter" : {
          "exits" : {
-            "e" : "enchanter90",
-            "n" : "enchanter82",
-            "s" : "enchanter55"
+            "e" : "enchanter90@enchanter",
+            "n" : "enchanter82@enchanter",
+            "s" : "enchanter55@enchanter"
          },
          "flags" : [
             "Dark"
@@ -2015,7 +2015,7 @@
    "mob" : {
       "goat@enchanter" : {
          "damage" : "5",
-         "location" : "enchanter11",
+         "location" : "enchanter11@enchanter",
          "speed" : "0",
          "aggression" : "30",
          "armor" : "5",
@@ -2026,7 +2026,7 @@
       },
       "krill@enchanter" : {
          "damage" : "30",
-         "location" : "enchanter76",
+         "location" : "enchanter76@enchanter",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "50",
@@ -2040,7 +2040,7 @@
       },
       "turtle@enchanter" : {
          "damage" : "5",
-         "location" : "enchanter46",
+         "location" : "enchanter46@enchanter",
          "name" : "turtle",
          "examine" : "He looks awfully hungry...",
          "description" : "A large turtle is sunning himself on the beach here.",
@@ -2055,7 +2055,7 @@
       },
       "fly@enchanter" : {
          "damage" : "10",
-         "location" : "enchanter14",
+         "location" : "enchanter14@enchanter",
          "speed" : "10",
          "aggression" : "100",
          "armor" : "0",
@@ -2066,7 +2066,7 @@
       },
       "dido@enchanter" : {
          "damage" : "10",
-         "location" : "enchanter41",
+         "location" : "enchanter41@enchanter",
          "speed" : "0",
          "aggression" : "50",
          "name" : "Dido",
@@ -2076,7 +2076,7 @@
       },
       "guardian@enchanter" : {
          "damage" : "5",
-         "location" : "enchanter26",
+         "location" : "enchanter26@enchanter",
          "armor" : "10",
          "name" : "Guardian",
          "examine" : "Chills run down your spine as you look at the Guardian.  It's looking back at\nyou, and it seems as though it can see right into your soul.",
@@ -2091,7 +2091,7 @@
       },
       "presence@enchanter" : {
          "damage" : "15",
-         "location" : "enchanter67",
+         "location" : "enchanter67@enchanter",
          "name" : "Presence",
          "examine" : "You can barely see it, but you can certainly feel it's evil presence.",
          "description" : "You see a wavering form in the air before you... it's about to strike!",
@@ -2108,7 +2108,7 @@
       },
       "dog@enchanter" : {
          "damage" : "15",
-         "location" : "enchanter14",
+         "location" : "enchanter14@enchanter",
          "armor" : "0",
          "name" : "dog",
          "examine" : "He looks like he hasn't eaten in weeks.  But he's been sharpening his teeth...",
@@ -2120,7 +2120,7 @@
       },
       "fido@enchanter" : {
          "damage" : "10",
-         "location" : "enchanter41",
+         "location" : "enchanter41@enchanter",
          "speed" : "0",
          "aggression" : "50",
          "name" : "Fido",
@@ -2130,7 +2130,7 @@
       },
       "mutie@enchanter" : {
          "damage" : "10",
-         "location" : "enchanter77",
+         "location" : "enchanter77@enchanter",
          "speed" : "10",
          "aggression" : "100",
          "name" : "Mutie",
@@ -2140,7 +2140,7 @@
       },
       "ogre3@enchanter" : {
          "damage" : "10",
-         "location" : "enchanter21",
+         "location" : "enchanter21@enchanter",
          "armor" : "0",
          "name" : "ogre3",
          "examine" : "You really shouldn't be examining these ogres... they're going to kill you.",
@@ -2155,7 +2155,7 @@
       },
       "bullfrog@enchanter" : {
          "damage" : "10",
-         "location" : "enchanter33",
+         "location" : "enchanter33@enchanter",
          "speed" : "0",
          "aggression" : "0",
          "pname" : "Bullfrog",
@@ -2169,7 +2169,7 @@
       },
       "statue@enchanter" : {
          "damage" : "10",
-         "location" : "enchanter89",
+         "location" : "enchanter89@enchanter",
          "name" : "Statue",
          "examine" : "The statue looks fearsome... you hope the artist exaggerated Krill's\nfeatures.",
          "description" : "The statue of Krill stands here.",
@@ -2186,7 +2186,7 @@
       },
       "ogre1@enchanter" : {
          "damage" : "10",
-         "location" : "enchanter21",
+         "location" : "enchanter21@enchanter",
          "armor" : "0",
          "name" : "ogre1",
          "examine" : "Jubba's your standard big, mean, ugly ogre.",
@@ -2201,7 +2201,7 @@
       },
       "ogre2@enchanter" : {
          "damage" : "10",
-         "location" : "enchanter21",
+         "location" : "enchanter21@enchanter",
          "armor" : "0",
          "name" : "ogre2",
          "examine" : "Hubba's a bit overweight... probably from eating too many mortals.",
@@ -2234,7 +2234,7 @@
       },
       "basilisk@enchanter" : {
          "damage" : "30",
-         "location" : "enchanter76",
+         "location" : "enchanter76@enchanter",
          "name" : "Basilisk",
          "examine" : "Krill's creations cannot be defeated by ordinary weapons.  Maybe magic...",
          "description" : "Krill finishes his spell, and a very unfriendly basilisk appears hissing\nbefore you.",
@@ -2253,7 +2253,7 @@
             "Blind"
          ],
          "damage" : "5",
-         "location" : "enchanter33",
+         "location" : "enchanter33@enchanter",
          "speed" : "0",
          "aggression" : "80",
          "pname" : "Frog",
@@ -2264,7 +2264,7 @@
       },
       "ornament@enchanter" : {
          "damage" : "10",
-         "location" : "enchanter34",
+         "location" : "enchanter34@enchanter",
          "speed" : "0",
          "aggression" : "0",
          "pname" : "Ornament",

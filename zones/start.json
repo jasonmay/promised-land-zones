@@ -1,7 +1,7 @@
 {
    "obj" : {
       "fire@start" : {
-         "location" : "IN_ROOM:temple",
+         "location" : "IN_ROOM:temple@start",
          "oflags" : [
             "Extinguish",
             "Lit",
@@ -12,7 +12,7 @@
          "desc[0]" : "\nA roaring fire burns here.  Its flames make the temple sparkle and glitter."
       },
       "newbiecloak@start" : {
-         "location" : "IN_ROOM:donate_bal",
+         "location" : "IN_ROOM:donate_bal@start",
          "armor" : "30",
          "oflags" : [
             "armor",
@@ -30,7 +30,7 @@
          ]
       },
       "newbieboots@start" : {
-         "location" : "IN_ROOM:donate_sun",
+         "location" : "IN_ROOM:donate_sun@start",
          "armor" : "25",
          "oflags" : [
             "armor",
@@ -46,7 +46,7 @@
          ]
       },
       "donation_pit@start" : {
-         "location" : "IN_ROOM:donation",
+         "location" : "IN_ROOM:donation@start",
          "oflags" : [
             "NoGet",
             "Pit"
@@ -56,7 +56,7 @@
          "desc[0]" : "\n   At your feet a huge sacrifical pit allows you to give valuables\nto the gods in the hope of being rewarded."
       },
       "church_pit@start" : {
-         "location" : "IN_ROOM:church",
+         "location" : "IN_ROOM:church@start",
          "oflags" : [
             "NoGet",
             "Pit"
@@ -68,7 +68,7 @@
       "umbrella@start" : {
          "desc[1]" : "A furled umbrella lies here.",
          "damage" : "5",
-         "location" : "IN_ROOM:temple",
+         "location" : "IN_ROOM:temple@start",
          "oflags" : [
             "Weapon"
          ],
@@ -83,7 +83,7 @@
       },
       "newbiemace@start" : {
          "damage" : "16",
-         "location" : "IN_ROOM:donate_bal",
+         "location" : "IN_ROOM:donate_bal@start",
          "oflags" : [
             "newbie",
             "weapon"
@@ -95,7 +95,7 @@
       },
       "newbiesword@start" : {
          "damage" : "20",
-         "location" : "IN_ROOM:donation",
+         "location" : "IN_ROOM:donation@start",
          "oflags" : [
             "weapon",
             "newbie"
@@ -106,7 +106,7 @@
          "desc[0]" : "A &+msword&* for new players is here."
       },
       "pit@start" : {
-         "location" : "IN_ROOM:temple",
+         "location" : "IN_ROOM:temple@start",
          "oflags" : [
             "NoGet",
             "Pit"
@@ -115,7 +115,7 @@
          "desc[0]" : "\n   At your feet a huge sacrificial pit allows you to give valuables to the gods\nin the hope of being rewarded."
       },
       "donate_pit_sun@start" : {
-         "location" : "IN_ROOM:donate_sun",
+         "location" : "IN_ROOM:donate_sun@start",
          "oflags" : [
             "NoGet",
             "Pit"
@@ -126,7 +126,7 @@
       },
       "newbieaxe@start" : {
          "damage" : "16",
-         "location" : "IN_ROOM:donate_sun",
+         "location" : "IN_ROOM:donate_sun@start",
          "oflags" : [
             "newbie",
             "weapon"
@@ -137,7 +137,7 @@
          "desc[0]" : "A large battle &+maxe&* for new players is here."
       },
       "newbieshield@start" : {
-         "location" : "IN_ROOM:donation",
+         "location" : "IN_ROOM:donation@start",
          "armor" : "26",
          "oflags" : [
             "armor",
@@ -156,9 +156,9 @@
          "exits" : {
             "e" : "balhar48@balharbor",
             "u" : "sundhaven6602@sundhaven",
-            "n" : "temple",
+            "n" : "temple@start",
             "d" : "newbie1@newbie",
-            "s" : "church"
+            "s" : "church@start"
          },
          "flags" : [
             "Peaceful",
@@ -172,9 +172,9 @@
       },
       "donation@start" : {
          "exits" : {
-            "w" : "temple",
+            "w" : "temple@start",
             "u" : "newbie1@newbie",
-            "s" : "church"
+            "s" : "church@start"
          },
          "flags" : [
             "Peaceful",
@@ -190,8 +190,8 @@
       "church@start" : {
          "exits" : {
             "u" : "mrealms@mrealms",
-            "n" : "donation",
-            "s" : "Green@Village"
+            "n" : "donation@start",
+            "s" : "green@village"
          },
          "flags" : [
             "Peace",
@@ -222,10 +222,10 @@
       },
       "temple@start" : {
          "exits" : {
-            "e" : "donation",
+            "e" : "donation@start",
             "u" : "mrealms@mrealms",
-            "d" : "Ftrack@Valley",
-            "s" : "Ftrack@Valley"
+            "d" : "ftrack@valley",
+            "s" : "ftrack@valley"
          },
          "flags" : [
             "Peace",
@@ -258,7 +258,7 @@
    "mob" : {
       "bob@start" : {
          "damage" : "32",
-         "location" : "church",
+         "location" : "church@start",
          "armor" : "0",
          "name" : "Bob",
          "description" : "Bob is here, looking eager to answer your questions.",
@@ -274,7 +274,7 @@
             "NegFireball"
          ],
          "damage" : "32",
-         "location" : "church",
+         "location" : "church@start",
          "armor" : "0",
          "name" : "puff",
          "examine" : "",

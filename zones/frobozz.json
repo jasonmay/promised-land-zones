@@ -2,7 +2,7 @@
    "obj" : {
       "door_luncheon@frobozz" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:luncheon",
+         "location" : "IN_ROOM:luncheon@frobozz",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -18,7 +18,7 @@
       },
       "window_kitchen@frobozz" : {
          "desc[1]" : "The window is closed.",
-         "location" : "IN_ROOM:kitchen",
+         "location" : "IN_ROOM:kitchen@frobozz",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -32,7 +32,7 @@
       },
       "shield_attic@frobozz" : {
          "desc[1]" : "\nA shield made of steel has been dropped here for some reason.",
-         "location" : "attic",
+         "location" : "attic@frobozz",
          "armor" : "40",
          "oflags" : [
             "Armor",
@@ -49,7 +49,7 @@
          "desc[0]" : "A dustcovered shield is thrown into the corner."
       },
       "vaultdoor_outside@frobozz" : {
-         "location" : "IN_ROOM:outside",
+         "location" : "IN_ROOM:outside@frobozz",
          "oflags" : [
             "NoGet"
          ],
@@ -62,7 +62,7 @@
          "desc[0]" : "\nThe whole southern wall is moved 3 feet westwards and the vault is open."
       },
       "mithril_jacket@frobozz" : {
-         "location" : "IN_CONTAINER:Trophy_case",
+         "location" : "IN_CONTAINER:trophy_case@frobozz",
          "armor" : "60",
          "oflags" : [
             "Armor",
@@ -83,7 +83,7 @@
       },
       "cup_store@frobozz" : {
          "desc[1]" : "\nA small cup made of platinum is partly hidden among the dust on the top shelf.",
-         "location" : "IN_ROOM:store",
+         "location" : "IN_ROOM:store@frobozz",
          "oflags" : [
             "GetFlips"
          ],
@@ -97,7 +97,7 @@
          "desc[0]" : "A small cup made of platinum is left on the ground."
       },
       "door_bank@frobozz" : {
-         "location" : "IN_ROOM:bank",
+         "location" : "IN_ROOM:bank@frobozz",
          "oflags" : [
             "NoGet"
          ],
@@ -106,7 +106,7 @@
          "name" : "Door_bank"
       },
       "rug_living@frobozz" : {
-         "location" : "IN_ROOM:living",
+         "location" : "IN_ROOM:living@frobozz",
          "oflags" : [
             "NoGet",
             "GetFlips"
@@ -119,7 +119,7 @@
          "desc[0]" : "The heavy rug has been moved aside revealing a trapdoor."
       },
       "jewel_egg@frobozz" : {
-         "location" : "IN_CONTAINER:Nest_tree",
+         "location" : "IN_CONTAINER:nest_tree@frobozz",
          "altname" : "egg",
          "name" : "Jewel_egg",
          "size" : "5",
@@ -132,7 +132,7 @@
          "desc[0]" : "\nThere is a large egg here encrusted with precious jewels and covered with\nfine gold inlay, and ornamented in lapis lazuli and mother-of-pearl.\nThe egg appears extremely fragile."
       },
       "hole_chairman@frobozz" : {
-         "location" : "IN_ROOM:chairman",
+         "location" : "IN_ROOM:chairman@frobozz",
          "oflags" : [
             "NoGet"
          ],
@@ -141,7 +141,7 @@
          "examine" : "The hole is big enough to provide a crawl to the north."
       },
       "notes_vault@frobozz" : {
-         "location" : "IN_ROOM:vault",
+         "location" : "IN_ROOM:vault@frobozz",
          "altname" : "bills",
          "name" : "Notes_vault",
          "examine" : "\nCounting up the notes you come to about 10 000 zork-mids.  A small fortune !",
@@ -152,7 +152,7 @@
          "desc[0]" : "A heap of notes in zorkian currency is left here."
       },
       "door_bottom@frobozz" : {
-         "location" : "IN_ROOM:bottom",
+         "location" : "IN_ROOM:bottom@frobozz",
          "oflags" : [
             "NoGet"
          ],
@@ -162,7 +162,7 @@
       },
       "sword_living@frobozz" : {
          "damage" : "17",
-         "location" : "IN_ROOM:living",
+         "location" : "IN_ROOM:living@frobozz",
          "oflags" : [
             "Weapon"
          ],
@@ -175,7 +175,7 @@
          "desc[0]" : "\nA long wellbalanced longsword used in many wars has been left here."
       },
       "leaflet_mailbox@frobozz" : {
-         "location" : "IN_CONTAINER:Mailbox_houseN",
+         "location" : "IN_CONTAINER:mailbox_housen@frobozz",
          "weight" : "1",
          "pname" : "leaflet",
          "name" : "Leaflet_mailbox",
@@ -185,7 +185,7 @@
          "size" : "1"
       },
       "vaultdoor_vault@frobozz" : {
-         "location" : "IN_ROOM:vault",
+         "location" : "IN_ROOM:vault@frobozz",
          "oflags" : [
             "NoGet"
          ],
@@ -199,7 +199,7 @@
       },
       "blackboard_chairman@frobozz" : {
          "desc[1]" : "\nA heavy blackboard showing figures of the last financial investments of the\nbank is leaning against the northern wall.",
-         "location" : "IN_ROOM:chairman",
+         "location" : "IN_ROOM:chairman@frobozz",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -213,7 +213,7 @@
          "desc[0]" : "\nThe blackboard, being pushed aside, reveals a hole in the northern wall."
       },
       "button_outside@frobozz" : {
-         "location" : "IN_ROOM:outside",
+         "location" : "IN_ROOM:outside@frobozz",
          "oflags" : [
             "Pushable",
             "NoGet"
@@ -227,7 +227,7 @@
       },
       "stiletto_thief@frobozz" : {
          "damage" : "18",
-         "location" : "WIELDED_BY:thief",
+         "location" : "WIELDED_BY:thief@frobozz",
          "oflags" : [
             "Weapon"
          ],
@@ -241,7 +241,7 @@
          "desc[0]" : "An assassins stiletto has been forgotten here."
       },
       "nest_tree@frobozz" : {
-         "location" : "IN_ROOM:tree",
+         "location" : "IN_ROOM:tree@frobozz",
          "weight" : "1",
          "oflags" : [
             "Container",
@@ -253,7 +253,7 @@
       },
       "trapdoor_cellar@frobozz" : {
          "desc[1]" : "The trapdoor is closed.",
-         "location" : "IN_ROOM:cellar",
+         "location" : "IN_ROOM:cellar@frobozz",
          "desc[3]" : "The trapdoor is closed and locked.",
          "oflags" : [
             "NoGet",
@@ -270,7 +270,7 @@
          "desc[0]" : "The trapdoor is open."
       },
       "trophy_case@frobozz" : {
-         "location" : "IN_ROOM:living",
+         "location" : "IN_ROOM:living@frobozz",
          "oflags" : [
             "Container",
             "NoGet"
@@ -283,7 +283,7 @@
       },
       "chest_chairman@frobozz" : {
          "desc[1]" : "Fastened to the floor is a closed sturdy steelchest.",
-         "location" : "IN_ROOM:chairman",
+         "location" : "IN_ROOM:chairman@frobozz",
          "oflags" : [
             "NoGet",
             "Container",
@@ -301,7 +301,7 @@
       },
       "crystals_work@frobozz" : {
          "desc[1]" : "Some beautiful crystals has been left here.",
-         "location" : "IN_ROOM:work",
+         "location" : "IN_ROOM:work@frobozz",
          "oflags" : [
             "GetFlips"
          ],
@@ -316,7 +316,7 @@
          "desc[0]" : "\nSome beautiful crystals reflecting light in different colors have been left\non the bench."
       },
       "chimney_cellar@frobozz" : {
-         "location" : "IN_ROOM:cellar_chimney",
+         "location" : "IN_ROOM:cellar_chimney@frobozz",
          "oflags" : [
             "NoGet"
          ],
@@ -326,7 +326,7 @@
       },
       "blackboard_behind@frobozz" : {
          "desc[1]" : "The blackboard bars your way to the north.",
-         "location" : "IN_ROOM:behind",
+         "location" : "IN_ROOM:behind@frobozz",
          "oflags" : [
             "NoGet"
          ],
@@ -339,7 +339,7 @@
          "desc[0]" : "\nThe blackboard is pushed aside, giving passage to the south."
       },
       "hole_behind@frobozz" : {
-         "location" : "IN_ROOM:behind",
+         "location" : "IN_ROOM:behind@frobozz",
          "oflags" : [
             "NoGet"
          ],
@@ -347,7 +347,7 @@
          "name" : "Hole_behind"
       },
       "key_attic@frobozz" : {
-         "location" : "IN_ROOM:attic",
+         "location" : "IN_ROOM:attic@frobozz",
          "oflags" : [
             "Key"
          ],
@@ -359,7 +359,7 @@
          "desc[0]" : "A small key has been left here."
       },
       "grating_kitchen@frobozz" : {
-         "location" : "IN_ROOM:kitchen",
+         "location" : "IN_ROOM:kitchen@frobozz",
          "oflags" : [
             "NoGet"
          ],
@@ -373,7 +373,7 @@
       "torch_living@frobozz" : {
          "desc[1]" : "A long unlit torch is here.",
          "damage" : "9",
-         "location" : "IN_CONTAINER:Trophy_case",
+         "location" : "IN_CONTAINER:trophy_case@frobozz",
          "oflags" : [
             "Lightable",
             "Extinguish",
@@ -390,7 +390,7 @@
       },
       "door_side@frobozz" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:side",
+         "location" : "IN_ROOM:side@frobozz",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -405,7 +405,7 @@
          "desc[0]" : "The door is open."
       },
       "sandwich1_kitchen@frobozz" : {
-         "location" : "IN_ROOM:kitchen",
+         "location" : "IN_ROOM:kitchen@frobozz",
          "oflags" : [
             "Food"
          ],
@@ -416,7 +416,7 @@
          "size" : "10"
       },
       "door_steep2@frobozz" : {
-         "location" : "IN_ROOM:steep2",
+         "location" : "IN_ROOM:steep2@frobozz",
          "oflags" : [
             "NoGet"
          ],
@@ -425,7 +425,7 @@
          "examine" : "The door is corroded stuck in an open position."
       },
       "door_main@frobozz" : {
-         "location" : "IN_ROOM:main",
+         "location" : "IN_ROOM:main@frobozz",
          "oflags" : [
             "NoGet"
          ],
@@ -434,7 +434,7 @@
          "name" : "Door_main"
       },
       "volume@frobozz" : {
-         "location" : "IN_ROOM:work",
+         "location" : "IN_ROOM:work@frobozz",
          "oflags" : [
             "Noget"
          ],
@@ -445,7 +445,7 @@
          "size" : "8"
       },
       "trapdoor_living@frobozz" : {
-         "location" : "IN_ROOM:living",
+         "location" : "IN_ROOM:living@frobozz",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -460,7 +460,7 @@
          "desc[0]" : "The trapdoor leads down into darkness."
       },
       "hole_ending@frobozz" : {
-         "location" : "IN_ROOM:ending",
+         "location" : "IN_ROOM:ending@frobozz",
          "oflags" : [
             "NoGet"
          ],
@@ -469,7 +469,7 @@
          "examine" : "\nThe hole being about 2 feet in diameter appears to be very smooth inside\nand putting your ear closer to it you think you can hear a strange sound\ncomming up from far far away."
       },
       "window_outside@frobozz" : {
-         "location" : "IN_ROOM:outside",
+         "location" : "IN_ROOM:outside@frobozz",
          "oflags" : [
             "NoGet"
          ],
@@ -479,7 +479,7 @@
       },
       "window_housew@frobozz" : {
          "desc[1]" : "The window is slightly ajar.",
-         "location" : "IN_ROOM:houseW",
+         "location" : "IN_ROOM:housew@frobozz",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -493,7 +493,7 @@
       },
       "fire_chimney@frobozz" : {
          "desc[1]" : "\nSome nonsmelling gas leaks through a crack in the floor inside the chimney.",
-         "location" : "IN_ROOM:cellar_chimney",
+         "location" : "IN_ROOM:cellar_chimney@frobozz",
          "oflags" : [
             "NoGet",
             "Lit",
@@ -508,7 +508,7 @@
          "desc[0]" : "\nThrough a small crack in the floor inside the chimney some gas leaks out, \nand it burns with a small flame."
       },
       "sandwich2_kitchen@frobozz" : {
-         "location" : "IN_ROOM:kitchen",
+         "location" : "IN_ROOM:kitchen@frobozz",
          "oflags" : [
             "Food"
          ],
@@ -520,7 +520,7 @@
       },
       "door_pway@frobozz" : {
          "desc[1]" : "A sturdy steeldoor bars an exit to the south.",
-         "location" : "IN_ROOM:pway",
+         "location" : "IN_ROOM:pway@frobozz",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -537,7 +537,7 @@
       },
       "painting_outside@frobozz" : {
          "desc[1]" : "An old and surely valuable painting hangs on the wall.",
-         "location" : "IN_ROOM:outside",
+         "location" : "IN_ROOM:outside@frobozz",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -552,7 +552,7 @@
          "desc[0]" : "\nAn old painting is moved slightly to one side revealing a button."
       },
       "grating_cellar@frobozz" : {
-         "location" : "IN_ROOM:cellar_chimney",
+         "location" : "IN_ROOM:cellar_chimney@frobozz",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -566,7 +566,7 @@
       },
       "door_top@frobozz" : {
          "desc[1]" : "A sturdy steeldoor bars an exit to the north.",
-         "location" : "IN_ROOM:top",
+         "location" : "IN_ROOM:top@frobozz",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -582,7 +582,7 @@
          "desc[0]" : "An open steeldoor leads north into a large passage."
       },
       "coins_chairman@frobozz" : {
-         "location" : "IN_CONTAINER:Chest_chairman",
+         "location" : "IN_CONTAINER:chest_chairman@frobozz",
          "weight" : "5",
          "pname" : "coins",
          "name" : "Coins_chairman",
@@ -593,7 +593,7 @@
       },
       "mailbox_housen@frobozz" : {
          "desc[1]" : "A redpainted mailbox sits here.  It is closed.",
-         "location" : "IN_ROOM:houseN",
+         "location" : "IN_ROOM:housen@frobozz",
          "oflags" : [
             "Container",
             "Openable"
@@ -609,7 +609,7 @@
          "desc[0]" : "A redpainted mailbox sits here open."
       },
       "chimney_kitchen@frobozz" : {
-         "location" : "IN_ROOM:kitchen",
+         "location" : "IN_ROOM:kitchen@frobozz",
          "oflags" : [
             "NoGet"
          ],
@@ -619,7 +619,7 @@
          "desc[0]" : "\nLooking up inside the chimney you see blue sky, looking down you see nothing\nbecause it is dark down there in what must be a cellar.  Climbing down the\nchimney is only allowed if your name is Santa Claus."
       },
       "original_vault@frobozz" : {
-         "location" : "IN_ROOM:vault",
+         "location" : "IN_ROOM:vault@frobozz",
          "altname" : "picture",
          "name" : "Original_vault",
          "examine" : "\nThis is a magnificent painting depicting the reverend Fierpoint Plathead,\nknown both for his economic skills and his great skill in baseball. Your\ntrained eye in recognising old and valuable art tells you immediatly that\nthis painting is an original.  It will certainly top you own privat art-\ncollection.",
@@ -633,8 +633,8 @@
    "loc" : {
       "side@frobozz" : {
          "exits" : {
-            "n" : "^Door_side",
-            "s" : "by"
+            "n" : "^door_side@frobozz",
+            "s" : "by@frobozz"
          },
          "flags" : [
             "Dark"
@@ -647,8 +647,8 @@
       },
       "main@frobozz" : {
          "exits" : {
-            "w" : "by",
-            "e" : "boulder"
+            "w" : "by@frobozz",
+            "e" : "boulder@frobozz"
          },
          "flags" : [
             "Dark"
@@ -661,9 +661,9 @@
       },
       "stairs@frobozz" : {
          "exits" : {
-            "n" : "crossection",
-            "d" : "steep1",
-            "s" : "steep1"
+            "n" : "crossection@frobozz",
+            "d" : "steep1@frobozz",
+            "s" : "steep1@frobozz"
          },
          "flags" : [
             "Dark"
@@ -676,8 +676,8 @@
       },
       "outside@frobozz" : {
          "exits" : {
-            "w" : "tellers",
-            "s" : "^Vaultdoor_outside"
+            "w" : "tellers@frobozz",
+            "s" : "^vaultdoor_outside@frobozz"
          },
          "flags" : [],
          "zone" : "frobozz",
@@ -688,8 +688,8 @@
       },
       "dam@frobozz" : {
          "exits" : {
-            "w" : "damW",
-            "e" : "damE"
+            "w" : "damw@frobozz",
+            "e" : "dame@frobozz"
          },
          "flags" : [],
          "zone" : "frobozz",
@@ -700,7 +700,7 @@
       },
       "lookout@frobozz" : {
          "exits" : {
-            "e" : "crossection"
+            "e" : "crossection@frobozz"
          },
          "flags" : [],
          "zone" : "frobozz",
@@ -711,8 +711,8 @@
       },
       "cellar_chimney@frobozz" : {
          "exits" : {
-            "u" : "^Grating_cellar",
-            "s" : "cellar"
+            "u" : "^grating_cellar@frobozz",
+            "s" : "cellar@frobozz"
          },
          "flags" : [],
          "zone" : "frobozz",
@@ -723,9 +723,9 @@
       },
       "kitchen@frobozz" : {
          "exits" : {
-            "w" : "^Window_kitchen",
-            "u" : "attic",
-            "s" : "living"
+            "w" : "^window_kitchen@frobozz",
+            "u" : "attic@frobozz",
+            "s" : "living@frobozz"
          },
          "flags" : [],
          "zone" : "frobozz",
@@ -736,7 +736,7 @@
       },
       "ending@frobozz" : {
          "exits" : {
-            "w" : "dark"
+            "w" : "dark@frobozz"
          },
          "flags" : [
             "Dark"
@@ -749,7 +749,7 @@
       },
       "boulder@frobozz" : {
          "exits" : {
-            "w" : "main"
+            "w" : "main@frobozz"
          },
          "flags" : [
             "Dark"
@@ -762,10 +762,10 @@
       },
       "stairs2@frobozz" : {
          "exits" : {
-            "u" : "steep1",
-            "n" : "steep1",
-            "d" : "bottom",
-            "s" : "bottom"
+            "u" : "steep1@frobozz",
+            "n" : "steep1@frobozz",
+            "d" : "bottom@frobozz",
+            "s" : "bottom@frobozz"
          },
          "flags" : [
             "Dark"
@@ -778,9 +778,9 @@
       },
       "housew@frobozz" : {
          "exits" : {
-            "e" : "^Window_houseW",
-            "n" : "houseN",
-            "s" : "houseS"
+            "e" : "^window_housew@frobozz",
+            "n" : "housen@frobozz",
+            "s" : "houses@frobozz"
          },
          "flags" : [
             "Outdoors"
@@ -793,8 +793,8 @@
       },
       "living@frobozz" : {
          "exits" : {
-            "n" : "kitchen",
-            "d" : "^Trapdoor_living"
+            "n" : "kitchen@frobozz",
+            "d" : "^trapdoor_living@frobozz"
          },
          "flags" : [],
          "zone" : "frobozz",
@@ -805,7 +805,7 @@
       },
       "office@frobozz" : {
          "exits" : {
-            "w" : "damE"
+            "w" : "dame@frobozz"
          },
          "flags" : [],
          "zone" : "frobozz",
@@ -816,7 +816,7 @@
       },
       "bank@frobozz" : {
          "exits" : {
-            "n" : "tellers"
+            "n" : "tellers@frobozz"
          },
          "flags" : [
             "Dark"
@@ -829,10 +829,10 @@
       },
       "forest2@frobozz" : {
          "exits" : {
-            "w" : "forest1",
-            "e" : "forest3",
-            "n" : "forest3",
-            "s" : "forest1"
+            "w" : "forest1@frobozz",
+            "e" : "forest3@frobozz",
+            "n" : "forest3@frobozz",
+            "s" : "forest1@frobozz"
          },
          "flags" : [
             "Outdoors"
@@ -845,10 +845,10 @@
       },
       "forest3@frobozz" : {
          "exits" : {
-            "w" : "forest2",
-            "e" : "forest4",
-            "n" : "pool",
-            "s" : "forest4"
+            "w" : "forest2@frobozz",
+            "e" : "forest4@frobozz",
+            "n" : "pool@frobozz",
+            "s" : "forest4@frobozz"
          },
          "flags" : [
             "Outdoors"
@@ -861,8 +861,8 @@
       },
       "dark@frobozz" : {
          "exits" : {
-            "e" : "ending",
-            "s" : "drafty"
+            "e" : "ending@frobozz",
+            "s" : "drafty@frobozz"
          },
          "flags" : [
             "Dark"
@@ -875,9 +875,9 @@
       },
       "drafty@frobozz" : {
          "exits" : {
-            "n" : "dark",
-            "d" : "rough",
-            "s" : "rough"
+            "n" : "dark@frobozz",
+            "d" : "rough@frobozz",
+            "s" : "rough@frobozz"
          },
          "flags" : [
             "Dark"
@@ -890,7 +890,7 @@
       },
       "attic@frobozz" : {
          "exits" : {
-            "d" : "kitchen"
+            "d" : "kitchen@frobozz"
          },
          "flags" : [],
          "zone" : "frobozz",
@@ -901,8 +901,8 @@
       },
       "luncheon@frobozz" : {
          "exits" : {
-            "e" : "tellers",
-            "s" : "^Door_luncheon"
+            "e" : "tellers@frobozz",
+            "s" : "^door_luncheon@frobozz"
          },
          "flags" : [
             "Dark"
@@ -915,11 +915,11 @@
       },
       "forest4@frobozz" : {
          "exits" : {
-            "w" : "forest1",
-            "e" : "forest3",
-            "u" : "tree",
-            "n" : "forest3",
-            "s" : "forest1"
+            "w" : "forest1@frobozz",
+            "e" : "forest3@frobozz",
+            "u" : "tree@frobozz",
+            "n" : "forest3@frobozz",
+            "s" : "forest1@frobozz"
          },
          "flags" : [
             "Outdoors"
@@ -932,9 +932,9 @@
       },
       "connecting@frobozz" : {
          "exits" : {
-            "w" : "crossection",
-            "e" : "store",
-            "n" : "work"
+            "w" : "crossection@frobozz",
+            "e" : "store@frobozz",
+            "n" : "work@frobozz"
          },
          "flags" : [
             "Dark"
@@ -947,9 +947,9 @@
       },
       "steep3@frobozz" : {
          "exits" : {
-            "e" : "top",
-            "u" : "top",
-            "d" : "steep2"
+            "e" : "top@frobozz",
+            "u" : "top@frobozz",
+            "d" : "steep2@frobozz"
          },
          "flags" : [
             "Dark"
@@ -962,10 +962,10 @@
       },
       "forest1@frobozz" : {
          "exits" : {
-            "w" : "forest2",
-            "e" : "forest4",
-            "n" : "forest2",
-            "s" : "houseN"
+            "w" : "forest2@frobozz",
+            "e" : "forest4@frobozz",
+            "n" : "forest2@frobozz",
+            "s" : "housen@frobozz"
          },
          "flags" : [
             "Outdoors"
@@ -978,10 +978,10 @@
       },
       "steep1@frobozz" : {
          "exits" : {
-            "u" : "stairs",
-            "n" : "stairs",
-            "d" : "stairs2",
-            "s" : "stairs2"
+            "u" : "stairs@frobozz",
+            "n" : "stairs@frobozz",
+            "d" : "stairs2@frobozz",
+            "s" : "stairs2@frobozz"
          },
          "flags" : [
             "Dark"
@@ -994,10 +994,10 @@
       },
       "dame@frobozz" : {
          "exits" : {
-            "w" : "dam",
-            "e" : "office",
-            "n" : "bottom",
-            "d" : "foot"
+            "w" : "dam@frobozz",
+            "e" : "office@frobozz",
+            "n" : "bottom@frobozz",
+            "d" : "foot@frobozz"
          },
          "flags" : [],
          "zone" : "frobozz",
@@ -1008,8 +1008,8 @@
       },
       "foot@frobozz" : {
          "exits" : {
-            "u" : "damE",
-            "d" : "outlet"
+            "u" : "dame@frobozz",
+            "d" : "outlet@frobozz"
          },
          "flags" : [],
          "zone" : "frobozz",
@@ -1020,9 +1020,9 @@
       },
       "steep2@frobozz" : {
          "exits" : {
-            "w" : "bottom",
-            "u" : "steep3",
-            "d" : "bottom"
+            "w" : "bottom@frobozz",
+            "u" : "steep3@frobozz",
+            "d" : "bottom@frobozz"
          },
          "flags" : [
             "Dark"
@@ -1035,8 +1035,8 @@
       },
       "top@frobozz" : {
          "exits" : {
-            "n" : "^Door_top",
-            "d" : "steep3"
+            "n" : "^door_top@frobozz",
+            "d" : "steep3@frobozz"
          },
          "flags" : [
             "Dark"
@@ -1049,7 +1049,7 @@
       },
       "store@frobozz" : {
          "exits" : {
-            "w" : "connecting"
+            "w" : "connecting@frobozz"
          },
          "flags" : [
             "Dark"
@@ -1062,8 +1062,8 @@
       },
       "behind@frobozz" : {
          "exits" : {
-            "w" : "rough",
-            "s" : "^Blackboard_behind"
+            "w" : "rough@frobozz",
+            "s" : "^blackboard_behind@frobozz"
          },
          "flags" : [
             "Dark"
@@ -1076,8 +1076,8 @@
       },
       "pool@frobozz" : {
          "exits" : {
-            "u" : "Falls@valley",
-            "s" : "forest3"
+            "u" : "falls@valley",
+            "s" : "forest3@frobozz"
          },
          "flags" : [
             "Outdoors"
@@ -1090,7 +1090,7 @@
       },
       "tree@frobozz" : {
          "exits" : {
-            "d" : "forest4"
+            "d" : "forest4@frobozz"
          },
          "flags" : [
             "Outdoors"
@@ -1103,10 +1103,10 @@
       },
       "bottom@frobozz" : {
          "exits" : {
-            "e" : "steep2",
-            "u" : "stairs2",
-            "n" : "stairs2",
-            "s" : "damE"
+            "e" : "steep2@frobozz",
+            "u" : "stairs2@frobozz",
+            "n" : "stairs2@frobozz",
+            "s" : "dame@frobozz"
          },
          "flags" : [],
          "zone" : "frobozz",
@@ -1117,9 +1117,9 @@
       },
       "housee@frobozz" : {
          "exits" : {
-            "e" : "forest4",
-            "n" : "houseN",
-            "s" : "houseS"
+            "e" : "forest4@frobozz",
+            "n" : "housen@frobozz",
+            "s" : "houses@frobozz"
          },
          "flags" : [
             "Outdoors"
@@ -1132,8 +1132,8 @@
       },
       "houses@frobozz" : {
          "exits" : {
-            "w" : "houseW",
-            "e" : "houseE"
+            "w" : "housew@frobozz",
+            "e" : "housee@frobozz"
          },
          "flags" : [
             "Outdoors"
@@ -1146,8 +1146,8 @@
       },
       "chairman@frobozz" : {
          "exits" : {
-            "n" : "^Blackboard_chairman",
-            "s" : "tellers"
+            "n" : "^blackboard_chairman@frobozz",
+            "s" : "tellers@frobozz"
          },
          "flags" : [
             "Dark"
@@ -1160,10 +1160,10 @@
       },
       "tellers@frobozz" : {
          "exits" : {
-            "w" : "luncheon",
-            "e" : "outside",
-            "n" : "chairman",
-            "s" : "bank"
+            "w" : "luncheon@frobozz",
+            "e" : "outside@frobozz",
+            "n" : "chairman@frobozz",
+            "s" : "bank@frobozz"
          },
          "flags" : [
             "Dark"
@@ -1176,7 +1176,7 @@
       },
       "vault@frobozz" : {
          "exits" : {
-            "n" : "^Vaultdoor_vault"
+            "n" : "^vaultdoor_vault@frobozz"
          },
          "flags" : [
             "Dark"
@@ -1189,7 +1189,7 @@
       },
       "blocked@frobozz" : {
          "exits" : {
-            "w" : "pway"
+            "w" : "pway@frobozz"
          },
          "flags" : [
             "Dark"
@@ -1202,9 +1202,9 @@
       },
       "cellar@frobozz" : {
          "exits" : {
-            "u" : "^Trapdoor_cellar",
-            "n" : "cellar_chimney",
-            "s" : "crossection"
+            "u" : "^trapdoor_cellar@frobozz",
+            "n" : "cellar_chimney@frobozz",
+            "s" : "crossection@frobozz"
          },
          "flags" : [],
          "zone" : "frobozz",
@@ -1215,9 +1215,9 @@
       },
       "by@frobozz" : {
          "exits" : {
-            "e" : "main",
-            "n" : "side",
-            "s" : "pway"
+            "e" : "main@frobozz",
+            "n" : "side@frobozz",
+            "s" : "pway@frobozz"
          },
          "flags" : [
             "Dark"
@@ -1230,7 +1230,7 @@
       },
       "outlet@frobozz" : {
          "exits" : {
-            "u" : "foot"
+            "u" : "foot@frobozz"
          },
          "flags" : [
             "Dark"
@@ -1243,9 +1243,9 @@
       },
       "pway@frobozz" : {
          "exits" : {
-            "e" : "blocked",
-            "n" : "by",
-            "s" : "^Door_pway"
+            "e" : "blocked@frobozz",
+            "n" : "by@frobozz",
+            "s" : "^door_pway@frobozz"
          },
          "flags" : [
             "Dark"
@@ -1258,7 +1258,7 @@
       },
       "work@frobozz" : {
          "exits" : {
-            "s" : "connecting"
+            "s" : "connecting@frobozz"
          },
          "flags" : [
             "Dark"
@@ -1271,10 +1271,10 @@
       },
       "crossection@frobozz" : {
          "exits" : {
-            "w" : "lookout",
-            "e" : "connecting",
-            "n" : "cellar",
-            "s" : "stairs"
+            "w" : "lookout@frobozz",
+            "e" : "connecting@frobozz",
+            "n" : "cellar@frobozz",
+            "s" : "stairs@frobozz"
          },
          "flags" : [
             "Dark"
@@ -1287,9 +1287,9 @@
       },
       "housen@frobozz" : {
          "exits" : {
-            "w" : "houseW",
-            "e" : "houseE",
-            "n" : "forest1"
+            "w" : "housew@frobozz",
+            "e" : "housee@frobozz",
+            "n" : "forest1@frobozz"
          },
          "flags" : [
             "Outdoors"
@@ -1302,7 +1302,7 @@
       },
       "damw@frobozz" : {
          "exits" : {
-            "e" : "dam"
+            "e" : "dam@frobozz"
          },
          "flags" : [],
          "zone" : "frobozz",
@@ -1313,9 +1313,9 @@
       },
       "rough@frobozz" : {
          "exits" : {
-            "w" : "drafty",
-            "e" : "behind",
-            "u" : "drafty"
+            "w" : "drafty@frobozz",
+            "e" : "behind@frobozz",
+            "u" : "drafty@frobozz"
          },
          "flags" : [
             "Dark"
@@ -1330,7 +1330,7 @@
    "mob" : {
       "maintainer@frobozz" : {
          "damage" : "7",
-         "location" : "office",
+         "location" : "office@frobozz",
          "aggression" : "0",
          "armor" : "0",
          "pname" : "The Maintainer",
@@ -1340,7 +1340,7 @@
       },
       "cyclops@frobozz" : {
          "damage" : "11",
-         "location" : "crossection",
+         "location" : "crossection@frobozz",
          "armor" : "0",
          "name" : "cyclops",
          "description" : "A giant man-eating cyclops looks down at you wondering\n whether he should eat you or not.",
@@ -1355,7 +1355,7 @@
       },
       "teller@frobozz" : {
          "damage" : "7",
-         "location" : "tellers",
+         "location" : "tellers@frobozz",
          "aggression" : "0",
          "armor" : "0",
          "pname" : "The Teller",
@@ -1365,7 +1365,7 @@
       },
       "adventurer@frobozz" : {
          "damage" : "8",
-         "location" : "dark",
+         "location" : "dark@frobozz",
          "aggression" : "5",
          "armor" : "0",
          "name" : "adventurer",
@@ -1374,7 +1374,7 @@
       },
       "thief@frobozz" : {
          "damage" : "7",
-         "location" : "connecting",
+         "location" : "connecting@frobozz",
          "armor" : "0",
          "name" : "thief",
          "description" : "Someone looking like a thief leans casually against the wall.",
@@ -1388,7 +1388,7 @@
       },
       "sentinal@frobozz" : {
          "damage" : "15",
-         "location" : "connecting",
+         "location" : "connecting@frobozz",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "15",

@@ -1,7 +1,7 @@
 {
    "obj" : {
       "flag4@ctflag" : {
-         "location" : "CARRIED_BY:tan_guard",
+         "location" : "CARRIED_BY:tan_guard@ctflag",
          "oflags" : "{}",
          "altname" : "tan",
          "name" : "Flag4",
@@ -11,14 +11,14 @@
          "desc[0]" : "A &+ytan flag&+g with the number 4 on it is here."
       },
       "wh_jer@ctflag" : {
-         "location" : "IN_ROOM:ctflag_5",
+         "location" : "IN_ROOM:ctflag_5@ctflag",
          "altname" : "white",
          "pname" : "jersey",
          "name" : "wh_jer",
          "desc[0]" : "A pile of &+Wwhite jerseys are here...take one if you wish to join this team."
       },
       "flag3@ctflag" : {
-         "location" : "CARRIED_BY:yellow_guard",
+         "location" : "CARRIED_BY:yellow_guard@ctflag",
          "oflags" : "{}",
          "altname" : "yellow",
          "name" : "Flag3",
@@ -28,7 +28,7 @@
          "desc[0]" : "A &+Yyellow flag&+g with the number 3 on it is here."
       },
       "flag2@ctflag" : {
-         "location" : "CARRIED_BY:blue_guard",
+         "location" : "CARRIED_BY:blue_guard@ctflag",
          "oflags" : "{}",
          "altname" : "blue",
          "name" : "Flag2",
@@ -38,7 +38,7 @@
          "desc[0]" : "A &+Bblue flag&+g with the number 2 on it is here."
       },
       "flag5@ctflag" : {
-         "location" : "CARRIED_BY:green_guard",
+         "location" : "CARRIED_BY:green_guard@ctflag",
          "oflags" : "{}",
          "altname" : "green",
          "name" : "Flag5",
@@ -48,21 +48,21 @@
          "desc[0]" : "A &+Ggreen flag&+g with the number 5 on it is here."
       },
       "teal_jer@ctflag" : {
-         "location" : "IN_ROOM:ctflag_8",
+         "location" : "IN_ROOM:ctflag_8@ctflag",
          "altname" : "teal",
          "pname" : "jersey",
          "name" : "teal_jer",
          "desc[0]" : "A pile of &+cteal&* jerseys are here...take one if you wish to join this team."
       },
       "black_jer@ctflag" : {
-         "location" : "IN_ROOM:ctflag_6",
+         "location" : "IN_ROOM:ctflag_6@ctflag",
          "altname" : "black",
          "pname" : "jersey",
          "name" : "black_jer",
          "desc[0]" : "A pile of &=lWblack&* jerseys are here...take one if you wish to join this team."
       },
       "flag8@ctflag" : {
-         "location" : "CARRIED_BY:purple_guard",
+         "location" : "CARRIED_BY:purple_guard@ctflag",
          "oflags" : "{}",
          "altname" : "purple",
          "name" : "Flag8",
@@ -72,7 +72,7 @@
          "desc[0]" : "A &+mpurple flag&+g with the number 8 on it is here."
       },
       "flag9@ctflag" : {
-         "location" : "CARRIED_BY:teal_guard",
+         "location" : "CARRIED_BY:teal_guard@ctflag",
          "oflags" : "{}",
          "altname" : "teal",
          "name" : "Flag9",
@@ -82,21 +82,21 @@
          "desc[0]" : "A &+Cteal flag&+g with the number 9 on it is here."
       },
       "yel_jer@ctflag" : {
-         "location" : "IN_ROOM:ctflag_2",
+         "location" : "IN_ROOM:ctflag_2@ctflag",
          "altname" : "yellow",
          "pname" : "jersey",
          "name" : "yel_jer",
          "desc[0]" : "A pile of &+Yyellow&* jerseys are here...take one if you wish to join this team."
       },
       "gr_jer@ctflag" : {
-         "location" : "IN_ROOM:ctflag_4",
+         "location" : "IN_ROOM:ctflag_4@ctflag",
          "altname" : "green",
          "pname" : "jersey",
          "name" : "gr_jer",
          "desc[0]" : "A pile of &+Ggreen&* jerseys are here...take one if you wish to join this team."
       },
       "flag6@ctflag" : {
-         "location" : "CARRIED_BY:white_guard",
+         "location" : "CARRIED_BY:white_guard@ctflag",
          "oflags" : "{}",
          "altname" : "white",
          "name" : "Flag6",
@@ -106,7 +106,7 @@
          "desc[0]" : "A &+Wwhite flag&+g with the number 6 on it is here."
       },
       "flag7@ctflag" : {
-         "location" : "CARRIED_BY:black_guard",
+         "location" : "CARRIED_BY:black_guard@ctflag",
          "oflags" : "{}",
          "altname" : "black",
          "name" : "Flag7",
@@ -116,7 +116,7 @@
          "desc[0]" : "A &=LWblack flag&+g with the number 7 on it is here."
       },
       "flag1@ctflag" : {
-         "location" : "CARRIED_BY:red_guard",
+         "location" : "CARRIED_BY:red_guard@ctflag",
          "oflags" : "{}",
          "altname" : "red",
          "name" : "Flag1",
@@ -126,7 +126,7 @@
          "desc[0]" : "A &+Rred flag&+g with the number 1 on it is here."
       },
       "flag10@ctflag" : {
-         "location" : "CARRIED_BY:gray_guard",
+         "location" : "CARRIED_BY:gray_guard@ctflag",
          "oflags" : "{}",
          "altname" : "gray",
          "name" : "Flag10",
@@ -136,35 +136,35 @@
          "desc[0]" : "A &+wgray flag&+g with the number 10 on it is here."
       },
       "red_jer@ctflag" : {
-         "location" : "IN_ROOM:ctflag_0",
+         "location" : "IN_ROOM:ctflag_0@ctflag",
          "altname" : "red",
          "pname" : "jersey",
          "name" : "red_jer",
          "desc[0]" : "A pile of &+Rred&* jerseys are here...take one if you wish to join this team."
       },
       "pur_jer@ctflag" : {
-         "location" : "IN_ROOM:ctflag_7",
+         "location" : "IN_ROOM:ctflag_7@ctflag",
          "altname" : "purple",
          "pname" : "jersey",
          "name" : "pur_jer",
          "desc[0]" : "A pile of &+mpurple&* jerseys are here...take one if you wish to join this team."
       },
       "tan_jer@ctflag" : {
-         "location" : "IN_ROOM:ctflag_3",
+         "location" : "IN_ROOM:ctflag_3@ctflag",
          "altname" : "tan",
          "pname" : "jersey",
          "name" : "tan_jer",
          "desc[0]" : "A pile of &+ytan&* jerseys are here...take one if you wish to join this team."
       },
       "blue_jer@ctflag" : {
-         "location" : "IN_ROOM:ctflag_1",
+         "location" : "IN_ROOM:ctflag_1@ctflag",
          "altname" : "blue",
          "pname" : "jersey",
          "name" : "blue_jer",
          "desc[0]" : "A pile of &+Bblue&* jerseys are here...take one if you wish to join this team."
       },
       "gray_jer@ctflag" : {
-         "location" : "IN_ROOM:ctflag_9",
+         "location" : "IN_ROOM:ctflag_9@ctflag",
          "altname" : "gray",
          "pname" : "jersey",
          "name" : "gray_jer",
@@ -174,7 +174,7 @@
    "loc" : {
       "ctflag_1@ctflag" : {
          "exits" : {
-            "e" : "ctflag_10"
+            "e" : "ctflag_10@ctflag"
          },
          "flags" : [
             "Party",
@@ -188,7 +188,7 @@
       },
       "ctflag_8@ctflag" : {
          "exits" : {
-            "se" : "ctflag_10"
+            "se" : "ctflag_10@ctflag"
          },
          "flags" : [
             "Party",
@@ -202,7 +202,7 @@
       },
       "ctflag_3@ctflag" : {
          "exits" : {
-            "w" : "ctflag_10"
+            "w" : "ctflag_10@ctflag"
          },
          "flags" : [
             "Party",
@@ -216,7 +216,7 @@
       },
       "ctflag_2@ctflag" : {
          "exits" : {
-            "s" : "ctflag_10"
+            "s" : "ctflag_10@ctflag"
          },
          "flags" : [
             "Party",
@@ -230,7 +230,7 @@
       },
       "ctflag_7@ctflag" : {
          "exits" : {
-            "nw" : "ctflag_10"
+            "nw" : "ctflag_10@ctflag"
          },
          "flags" : [
             "Party",
@@ -244,7 +244,7 @@
       },
       "ctflag_5@ctflag" : {
          "exits" : {
-            "d" : "ctflag_10"
+            "d" : "ctflag_10@ctflag"
          },
          "flags" : [
             "Party",
@@ -258,7 +258,7 @@
       },
       "ctflag_4@ctflag" : {
          "exits" : {
-            "u" : "ctflag_10"
+            "u" : "ctflag_10@ctflag"
          },
          "flags" : [
             "Party",
@@ -272,7 +272,7 @@
       },
       "ctflag_9@ctflag" : {
          "exits" : {
-            "sw" : "ctflag_10"
+            "sw" : "ctflag_10@ctflag"
          },
          "flags" : [
             "Party",
@@ -286,16 +286,16 @@
       },
       "ctflag_10@ctflag" : {
          "exits" : {
-            "ne" : "ctflag_6",
-            "w" : "ctflag_3",
-            "e" : "ctflag_1",
-            "n" : "ctflag_0",
-            "sw" : "ctflag_9",
-            "d" : "ctflag_5",
-            "s" : "ctflag_2",
-            "u" : "ctflag_4",
-            "se" : "ctflag_8",
-            "nw" : "ctflag_7"
+            "ne" : "ctflag_6@ctflag",
+            "w" : "ctflag_3@ctflag",
+            "e" : "ctflag_1@ctflag",
+            "n" : "ctflag_0@ctflag",
+            "sw" : "ctflag_9@ctflag",
+            "d" : "ctflag_5@ctflag",
+            "s" : "ctflag_2@ctflag",
+            "u" : "ctflag_4@ctflag",
+            "se" : "ctflag_8@ctflag",
+            "nw" : "ctflag_7@ctflag"
          },
          "flags" : [
             "Party",
@@ -309,7 +309,7 @@
       },
       "ctflag_6@ctflag" : {
          "exits" : {
-            "ne" : "ctflag_10"
+            "ne" : "ctflag_10@ctflag"
          },
          "flags" : [
             "Party",
@@ -323,7 +323,7 @@
       },
       "ctflag_0@ctflag" : {
          "exits" : {
-            "n" : "ctflag_10"
+            "n" : "ctflag_10@ctflag"
          },
          "flags" : [
             "Party",

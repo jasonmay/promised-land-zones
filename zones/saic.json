@@ -3,8 +3,8 @@
    "loc" : {
       "9@saic" : {
          "exits" : {
-            "w" : "8",
-            "e" : "saic"
+            "w" : "8@saic",
+            "e" : "saic@saic"
          },
          "flags" : [
             "Saic"
@@ -17,8 +17,8 @@
       },
       "4@saic" : {
          "exits" : {
-            "e" : "5",
-            "w" : "3"
+            "e" : "5@saic",
+            "w" : "3@saic"
          },
          "flags" : [
             "Saic"
@@ -31,8 +31,8 @@
       },
       "3@saic" : {
          "exits" : {
-            "e" : "4",
-            "w" : "1"
+            "e" : "4@saic",
+            "w" : "1@saic"
          },
          "flags" : [
             "Saic"
@@ -45,8 +45,8 @@
       },
       "2@saic" : {
          "exits" : {
-            "e" : "3",
-            "w" : "1"
+            "e" : "3@saic",
+            "w" : "1@saic"
          },
          "flags" : [
             "Saic"
@@ -59,7 +59,7 @@
       },
       "7@saic" : {
          "exits" : {
-            "e" : "6",
+            "e" : "6@saic",
             "d" : "church@start"
          },
          "flags" : [
@@ -77,8 +77,8 @@
       },
       "5@saic" : {
          "exits" : {
-            "w" : "4",
-            "d" : "6"
+            "w" : "4@saic",
+            "d" : "6@saic"
          },
          "flags" : [
             "Saic"
@@ -91,9 +91,9 @@
       },
       "6@saic" : {
          "exits" : {
-            "w" : "7",
-            "e" : "8",
-            "u" : "5"
+            "w" : "7@saic",
+            "e" : "8@saic",
+            "u" : "5@saic"
          },
          "flags" : [
             "Saic"
@@ -106,8 +106,8 @@
       },
       "1@saic" : {
          "exits" : {
-            "e" : "2",
-            "w" : "G_Yard@church"
+            "e" : "2@saic",
+            "w" : "g_yard@church"
          },
          "flags" : [
             "Saic"
@@ -120,7 +120,7 @@
       },
       "saic@saic" : {
          "exits" : {
-            "w" : "9"
+            "w" : "9@saic"
          },
          "flags" : [
             "Saic"
@@ -133,8 +133,8 @@
       },
       "8@saic" : {
          "exits" : {
-            "w" : "6",
-            "e" : "9"
+            "w" : "6@saic",
+            "e" : "9@saic"
          },
          "flags" : [
             "Saic"
@@ -149,7 +149,7 @@
    "mob" : {
       "saic@saic" : {
          "damage" : "20000",
-         "location" : "saic",
+         "location" : "saic@saic",
          "armor" : "20000",
          "name" : "saic",
          "examine" : "If you have something to offer, better do it now...",

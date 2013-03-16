@@ -2,7 +2,7 @@
    "obj" : {
       "rocks_1w@eosia" : {
          "desc[1]" : "A rockslide prevents you from proceeding west.",
-         "location" : "IN_ROOM:eosia49",
+         "location" : "IN_ROOM:eosia49@eosia",
          "oflags" : [
             "noget"
          ],
@@ -17,7 +17,7 @@
          "desc[0]" : "A rockslide has been cleared, allowing you access west."
       },
       "pie_eosia@eosia" : {
-         "location" : "IN_ROOM:eosia6",
+         "location" : "IN_ROOM:eosia6@eosia",
          "oflags" : [
             "food"
          ],
@@ -31,7 +31,7 @@
          "desc[0]" : "Yum!  There is a freshly baked pie here."
       },
       "robe_eosia@eosia" : {
-         "location" : "WORN_BY:sephrenia",
+         "location" : "WORN_BY:sephrenia@eosia",
          "armor" : "20",
          "oflags" : [
             "wearable",
@@ -55,7 +55,7 @@
          ]
       },
       "ring1_eosia@eosia" : {
-         "location" : "WORN_BY:sparhawk",
+         "location" : "WORN_BY:sparhawk@eosia",
          "oflags" : [
             "wearable",
             "lit"
@@ -75,7 +75,7 @@
          ]
       },
       "pit_eosia@eosia" : {
-         "location" : "IN_ROOM:eosia52",
+         "location" : "IN_ROOM:eosia52@eosia",
          "oflags" : [
             "noget"
          ],
@@ -91,7 +91,7 @@
       },
       "cross_eosia@eosia" : {
          "desc[1]" : "On the altar stands a beautiful Elene cross.",
-         "location" : "IN_ROOM:eosia31",
+         "location" : "IN_ROOM:eosia31@eosia",
          "oflags" : [
             "Cross"
          ],
@@ -107,7 +107,7 @@
       },
       "door_1s_eosia@eosia" : {
          "desc[1]" : "The door to the south is closed.",
-         "location" : "IN_ROOM:eosia16",
+         "location" : "IN_ROOM:eosia16@eosia",
          "oflags" : [
             "noget",
             "openable",
@@ -127,7 +127,7 @@
       "sword_sparhawk@eosia" : {
          "desc[1]" : "Sparhawk's sword has been dropped here.",
          "damage" : "20",
-         "location" : "WIELDED_BY:sparhawk",
+         "location" : "WIELDED_BY:sparhawk@eosia",
          "oflags" : [
             "lit",
             "weapon"
@@ -144,7 +144,7 @@
       "bhelliom@eosia" : {
          "desc[1]" : "Sitting on a pedestal lies the Bhelliom.",
          "damage" : "30",
-         "location" : "IN_ROOM:eosia51",
+         "location" : "IN_ROOM:eosia51@eosia",
          "oflags" : [
             "getflips",
             "lit",
@@ -163,7 +163,7 @@
          "desc[0]" : "Someone has dropped the Bhelliom here!  How careless!"
       },
       "boat_eosia@eosia" : {
-         "location" : "IN_ROOM:eosia20",
+         "location" : "IN_ROOM:eosia20@eosia",
          "oflags" : [
             "Boat"
          ],
@@ -177,7 +177,7 @@
          "desc[0]" : "There is a small boat lying here."
       },
       "key_eosia@eosia" : {
-         "location" : "IN_ROOM:eosia8",
+         "location" : "IN_ROOM:eosia8@eosia",
          "oflags" : [
             "key"
          ],
@@ -191,7 +191,7 @@
          "desc[0]" : "A small key is lying here on the floor."
       },
       "crystal_case@eosia" : {
-         "location" : "IN_ROOM:eosia15",
+         "location" : "IN_ROOM:eosia15@eosia",
          "oflags" : [
             "noget"
          ],
@@ -207,7 +207,7 @@
          "desc[0]" : "\nBefore you is the case in which Queen Ehlana has been magically sealed."
       },
       "ring2_eosia@eosia" : {
-         "location" : "IN_CONTAINER:coffin_eosia",
+         "location" : "IN_CONTAINER:coffin_eosia@eosia",
          "oflags" : [
             "lit",
             "wearable"
@@ -227,7 +227,7 @@
          ]
       },
       "crown_rindor@eosia" : {
-         "location" : "WORN_BY:rindor",
+         "location" : "WORN_BY:rindor@eosia",
          "oflags" : [
             "wearable"
          ],
@@ -243,7 +243,7 @@
       },
       "fountain_1d_eosia@eosia" : {
          "desc[1]" : "A fountain stands here casting patterns on the builings.",
-         "location" : "IN_ROOM:eosia30",
+         "location" : "IN_ROOM:eosia30@eosia",
          "oflags" : [
             "noget",
             "pushable",
@@ -262,7 +262,7 @@
       },
       "coffin_eosia@eosia" : {
          "desc[1]" : "The coffin of King Eryn stands closest to you.",
-         "location" : "IN_ROOM:eosia17",
+         "location" : "IN_ROOM:eosia17@eosia",
          "oflags" : [
             "noget",
             "container",
@@ -279,7 +279,7 @@
       },
       "stick_eosia@eosia" : {
          "desc[1]" : "A burnt stick has been dropped here.",
-         "location" : "IN_ROOM:eosia47",
+         "location" : "IN_ROOM:eosia47@eosia",
          "oflags" : [
             "lightable",
             "extinguish"
@@ -296,7 +296,7 @@
       },
       "door_1w_eosia@eosia" : {
          "desc[1]" : "The door to the west is shut.",
-         "location" : "IN_ROOM:eosia14",
+         "location" : "IN_ROOM:eosia14@eosia",
          "oflags" : [
             "noget",
             "lockable",
@@ -316,7 +316,7 @@
       },
       "armor_eosia@eosia" : {
          "desc[1]" : "Sparhawk's suit of armor lies here.",
-         "location" : "WORN_BY:sparhawk",
+         "location" : "WORN_BY:sparhawk@eosia",
          "armor" : "45",
          "oflags" : [
             "wearable",
@@ -339,7 +339,7 @@
          ]
       },
       "sign1_eosia@eosia" : {
-         "location" : "IN_ROOM:eosia1",
+         "location" : "IN_ROOM:eosia1@eosia",
          "oflags" : [
             "noget"
          ],
@@ -355,7 +355,7 @@
       },
       "fallensword@eosia" : {
          "damage" : "15",
-         "location" : "CARRIED_BY:sephrenia",
+         "location" : "CARRIED_BY:sephrenia@eosia",
          "oflags" : [
             "weapon"
          ],
@@ -371,7 +371,7 @@
       },
       "door_1e_eosia@eosia" : {
          "desc[1]" : "The door to the east is firmly shut.",
-         "location" : "IN_ROOM:eosia15",
+         "location" : "IN_ROOM:eosia15@eosia",
          "oflags" : [
             "noget",
             "openable",
@@ -390,7 +390,7 @@
       },
       "idol_azash@eosia" : {
          "desc[1]" : "On the altar is an idol of the God Azash.",
-         "location" : "IN_ROOM:eosia46",
+         "location" : "IN_ROOM:eosia46@eosia",
          "oflags" : [
             "getflips"
          ],
@@ -405,7 +405,7 @@
          "desc[0]" : "A hideous idol made of mud is lying on the ground."
       },
       "book_eosia@eosia" : {
-         "location" : "IN_ROOM:eosia9",
+         "location" : "IN_ROOM:eosia9@eosia",
          "name" : "book_eosia",
          "examine" : "\nThe cover reads 'The History of the Bhelliom'.  It appears that the\ntroll Ghwerig once combined all the powers of the Troll Gods into the\nmagical stone, the Bhelliom.  In order to get or use the Bhelliom, one must\nbe in possession of the two keys to activate it.  These keys were made in\nthe form of two ruby rings.  Where those rings are today is a mystery.\nHowever, the Bhelliom was stolen by a human, and then lost in one of the great\nbattles during one of the many wars between the Elenes and the Zemochs.  It is\nbelieved Ghwerig recovered the Bhellim  at some point, but it is unknown.\nThere are references to the gods of the Styrics, in particular, the Goddess\nAphrael, and the God Azash...but as a faithful Elene, you tend not to believe\nsuch fables.\n",
          "state" : "0",
@@ -418,7 +418,7 @@
       },
       "torch_eosia@eosia" : {
          "desc[1]" : "A torch burns merrily on the wall.",
-         "location" : "IN_ROOM:eosia14",
+         "location" : "IN_ROOM:eosia14@eosia",
          "oflags" : [
             "getflips",
             "extinguish",
@@ -435,7 +435,7 @@
          "desc[0]" : "An old torch is lying here, unlit."
       },
       "flute_eosia@eosia" : {
-         "location" : "CARRIED_BY:aphrael",
+         "location" : "CARRIED_BY:aphrael@eosia",
          "name" : "flute_eosia",
          "examine" : "This silvery flute belongs to the girl Flute.",
          "state" : "0",
@@ -448,7 +448,7 @@
       },
       "door_1n_eosia@eosia" : {
          "desc[1]" : "The door to the north is closed.",
-         "location" : "IN_ROOM:eosia14",
+         "location" : "IN_ROOM:eosia14@eosia",
          "oflags" : [
             "noget",
             "openable",
@@ -468,7 +468,7 @@
       },
       "rocks_1e@eosia" : {
          "desc[1]" : "A rockslide has sealed you in this cave!",
-         "location" : "IN_ROOM:eosia50",
+         "location" : "IN_ROOM:eosia50@eosia",
          "oflags" : [
             "noget"
          ],
@@ -484,7 +484,7 @@
       },
       "fountain_1u_eosia@eosia" : {
          "desc[1]" : "A fountain is blocking the passage up.",
-         "location" : "IN_ROOM:eosia33",
+         "location" : "IN_ROOM:eosia33@eosia",
          "oflags" : [
             "noget",
             "pushable",
@@ -503,7 +503,7 @@
       },
       "staff_iron_eosia@eosia" : {
          "damage" : "3",
-         "location" : "WIELDED_BY:kalor",
+         "location" : "WIELDED_BY:kalor@eosia",
          "oflags" : [
             "weapon"
          ],
@@ -518,7 +518,7 @@
          "desc[0]" : "A large iron staff has been left here."
       },
       "sign2_eosia@eosia" : {
-         "location" : "IN_ROOM:eosia2",
+         "location" : "IN_ROOM:eosia2@eosia",
          "oflags" : [
             "noget"
          ],
@@ -536,9 +536,9 @@
    "loc" : {
       "eosia18@eosia" : {
          "exits" : {
-            "e" : "eosia19",
-            "n" : "eosia2",
-            "s" : "eosia20"
+            "e" : "eosia19@eosia",
+            "n" : "eosia2@eosia",
+            "s" : "eosia20@eosia"
          },
          "flags" : [
             "outdoors"
@@ -551,8 +551,8 @@
       },
       "eosia45@eosia" : {
          "exits" : {
-            "d" : "eosia46",
-            "s" : "eosia44"
+            "d" : "eosia46@eosia",
+            "s" : "eosia44@eosia"
          },
          "flags" : [
             "dark",
@@ -566,7 +566,7 @@
       },
       "eosia1@eosia" : {
          "exits" : {
-            "e" : "eosia2",
+            "e" : "eosia2@eosia",
             "w" : "island15@island"
          },
          "flags" : [
@@ -581,8 +581,8 @@
       },
       "eosia33@eosia" : {
          "exits" : {
-            "e" : "eosia34",
-            "u" : "^fountain_1U_eosia"
+            "e" : "eosia34@eosia",
+            "u" : "^fountain_1u_eosia@eosia"
          },
          "flags" : [
             "outdoors"
@@ -595,9 +595,9 @@
       },
       "eosia6@eosia" : {
          "exits" : {
-            "e" : "eosia5",
-            "u" : "eosia8",
-            "d" : "eosia7"
+            "e" : "eosia5@eosia",
+            "u" : "eosia8@eosia",
+            "d" : "eosia7@eosia"
          },
          "flags" : [
             "party",
@@ -614,8 +614,8 @@
          "exits" : {
             "e" : "7@sea",
             "w" : "7@sea",
-            "n" : "eosia48",
-            "s" : "eosia47"
+            "n" : "eosia48@eosia",
+            "s" : "eosia47@eosia"
          },
          "flags" : [
             "onwater",
@@ -629,9 +629,9 @@
       },
       "eosia48@eosia" : {
          "exits" : {
-            "w" : "eosia49",
-            "n" : "eosia49",
-            "s" : "eosia54"
+            "w" : "eosia49@eosia",
+            "n" : "eosia49@eosia",
+            "s" : "eosia54@eosia"
          },
          "flags" : [
             "outdoors",
@@ -645,9 +645,9 @@
       },
       "eosia10@eosia" : {
          "exits" : {
-            "e" : "eosia11",
-            "n" : "eosia13",
-            "s" : "eosia5"
+            "e" : "eosia11@eosia",
+            "n" : "eosia13@eosia",
+            "s" : "eosia5@eosia"
          },
          "flags" : [],
          "zone" : "eosia",
@@ -658,8 +658,8 @@
       },
       "eosia36@eosia" : {
          "exits" : {
-            "e" : "eosia39",
-            "w" : "eosia35"
+            "e" : "eosia39@eosia",
+            "w" : "eosia35@eosia"
          },
          "flags" : [
             "nosummon",
@@ -673,10 +673,10 @@
       },
       "eosia23@eosia" : {
          "exits" : {
-            "w" : "eosia22",
-            "e" : "eosia22",
-            "n" : "eosia22",
-            "s" : "eosia24"
+            "w" : "eosia22@eosia",
+            "e" : "eosia22@eosia",
+            "n" : "eosia22@eosia",
+            "s" : "eosia24@eosia"
          },
          "flags" : [
             "onwater",
@@ -690,10 +690,10 @@
       },
       "eosia42@eosia" : {
          "exits" : {
-            "w" : "eosia40",
-            "e" : "eosia43",
-            "n" : "eosia40",
-            "s" : "eosia41"
+            "w" : "eosia40@eosia",
+            "e" : "eosia43@eosia",
+            "n" : "eosia40@eosia",
+            "s" : "eosia41@eosia"
          },
          "flags" : [
             "nosummon",
@@ -707,8 +707,8 @@
       },
       "eosia29@eosia" : {
          "exits" : {
-            "w" : "eosia28",
-            "e" : "eosia30"
+            "w" : "eosia28@eosia",
+            "e" : "eosia30@eosia"
          },
          "flags" : [
             "outdoors"
@@ -721,7 +721,7 @@
       },
       "eosia51@eosia" : {
          "exits" : {
-            "s" : "eosia50"
+            "s" : "eosia50@eosia"
          },
          "flags" : [
             "cold",
@@ -737,7 +737,7 @@
       },
       "eosia38@eosia" : {
          "exits" : {
-            "n" : "eosia35"
+            "n" : "eosia35@eosia"
          },
          "flags" : [
             "party",
@@ -751,8 +751,8 @@
       },
       "eosia19@eosia" : {
          "exits" : {
-            "w" : "eosia18",
-            "e" : "eosia26"
+            "w" : "eosia18@eosia",
+            "e" : "eosia26@eosia"
          },
          "flags" : [
             "outdoors"
@@ -765,10 +765,10 @@
       },
       "eosia14@eosia" : {
          "exits" : {
-            "w" : "^door_1W_eosia",
-            "n" : "^door_1N_eosia",
-            "d" : "eosia17",
-            "s" : "eosia13"
+            "w" : "^door_1w_eosia@eosia",
+            "n" : "^door_1n_eosia@eosia",
+            "d" : "eosia17@eosia",
+            "s" : "eosia13@eosia"
          },
          "flags" : [
             "dark",
@@ -782,8 +782,8 @@
       },
       "eosia49@eosia" : {
          "exits" : {
-            "w" : "^rocks_1W",
-            "s" : "eosia48"
+            "w" : "^rocks_1w@eosia",
+            "s" : "eosia48@eosia"
          },
          "flags" : [
             "outdoors",
@@ -797,8 +797,8 @@
       },
       "eosia24@eosia" : {
          "exits" : {
-            "w" : "eosia25",
-            "n" : "eosia23"
+            "w" : "eosia25@eosia",
+            "n" : "eosia23@eosia"
          },
          "flags" : [
             "outdoors",
@@ -813,10 +813,10 @@
       },
       "eosia2@eosia" : {
          "exits" : {
-            "w" : "eosia1",
-            "e" : "eosia3",
-            "n" : "eosia47",
-            "s" : "eosia18"
+            "w" : "eosia1@eosia",
+            "e" : "eosia3@eosia",
+            "n" : "eosia47@eosia",
+            "s" : "eosia18@eosia"
          },
          "flags" : [
             "outdoors"
@@ -829,10 +829,10 @@
       },
       "eosia35@eosia" : {
          "exits" : {
-            "w" : "eosia34",
-            "e" : "eosia36",
-            "n" : "eosia37",
-            "s" : "eosia38"
+            "w" : "eosia34@eosia",
+            "e" : "eosia36@eosia",
+            "n" : "eosia37@eosia",
+            "s" : "eosia38@eosia"
          },
          "flags" : [
             "cold",
@@ -846,10 +846,10 @@
       },
       "eosia41@eosia" : {
          "exits" : {
-            "w" : "eosia39",
-            "e" : "eosia41",
-            "n" : "eosia42",
-            "s" : "eosia41"
+            "w" : "eosia39@eosia",
+            "e" : "eosia41@eosia",
+            "n" : "eosia42@eosia",
+            "s" : "eosia41@eosia"
          },
          "flags" : [
             "nosummon",
@@ -863,8 +863,8 @@
       },
       "eosia26@eosia" : {
          "exits" : {
-            "w" : "eosia19",
-            "s" : "eosia27"
+            "w" : "eosia19@eosia",
+            "s" : "eosia27@eosia"
          },
          "flags" : [
             "outdoors"
@@ -877,8 +877,8 @@
       },
       "eosia20@eosia" : {
          "exits" : {
-            "n" : "eosia18",
-            "s" : "eosia21"
+            "n" : "eosia18@eosia",
+            "s" : "eosia21@eosia"
          },
          "flags" : [
             "outdoors",
@@ -892,8 +892,8 @@
       },
       "eosia13@eosia" : {
          "exits" : {
-            "n" : "eosia14",
-            "s" : "eosia10"
+            "n" : "eosia14@eosia",
+            "s" : "eosia10@eosia"
          },
          "flags" : [],
          "zone" : "eosia",
@@ -904,8 +904,8 @@
       },
       "eosia46@eosia" : {
          "exits" : {
-            "u" : "eosia45",
-            "n" : "eosia1"
+            "u" : "eosia45@eosia",
+            "n" : "eosia1@eosia"
          },
          "flags" : [
             "dark",
@@ -921,9 +921,9 @@
       },
       "eosia30@eosia" : {
          "exits" : {
-            "w" : "eosia29",
-            "e" : "eosia31",
-            "d" : "^fountain_1D_eosia"
+            "w" : "eosia29@eosia",
+            "e" : "eosia31@eosia",
+            "d" : "^fountain_1d_eosia@eosia"
          },
          "flags" : [
             "peaceful",
@@ -937,8 +937,8 @@
       },
       "eosia31@eosia" : {
          "exits" : {
-            "w" : "eosia30",
-            "u" : "eosia32"
+            "w" : "eosia30@eosia",
+            "u" : "eosia32@eosia"
          },
          "flags" : [
             "party"
@@ -951,7 +951,7 @@
       },
       "eosia7@eosia" : {
          "exits" : {
-            "u" : "eosia6"
+            "u" : "eosia6@eosia"
          },
          "flags" : [
             "private",
@@ -965,8 +965,8 @@
       },
       "eosia27@eosia" : {
          "exits" : {
-            "u" : "eosia28",
-            "n" : "eosia26"
+            "u" : "eosia28@eosia",
+            "n" : "eosia26@eosia"
          },
          "flags" : [
             "party"
@@ -979,7 +979,7 @@
       },
       "eosia25@eosia" : {
          "exits" : {
-            "e" : "eosia24"
+            "e" : "eosia24@eosia"
          },
          "flags" : [],
          "zone" : "eosia",
@@ -990,8 +990,8 @@
       },
       "eosia3@eosia" : {
          "exits" : {
-            "w" : "eosia2",
-            "n" : "eosia4"
+            "w" : "eosia2@eosia",
+            "n" : "eosia4@eosia"
          },
          "flags" : [
             "outdoors"
@@ -1004,7 +1004,7 @@
       },
       "eosia17@eosia" : {
          "exits" : {
-            "u" : "eosia14"
+            "u" : "eosia14@eosia"
          },
          "flags" : [
             "dark",
@@ -1018,10 +1018,10 @@
       },
       "eosia40@eosia" : {
          "exits" : {
-            "w" : "eosia40",
-            "e" : "eosia41",
-            "n" : "eosia39",
-            "s" : "eosia40"
+            "w" : "eosia40@eosia",
+            "e" : "eosia41@eosia",
+            "n" : "eosia39@eosia",
+            "s" : "eosia40@eosia"
          },
          "flags" : [
             "nosummon",
@@ -1035,7 +1035,7 @@
       },
       "eosia37@eosia" : {
          "exits" : {
-            "s" : "eosia35"
+            "s" : "eosia35@eosia"
          },
          "flags" : [],
          "zone" : "eosia",
@@ -1046,7 +1046,7 @@
       },
       "eosia15@eosia" : {
          "exits" : {
-            "e" : "^door_1E_eosia"
+            "e" : "^door_1e_eosia@eosia"
          },
          "flags" : [
             "dark",
@@ -1060,8 +1060,8 @@
       },
       "eosia44@eosia" : {
          "exits" : {
-            "n" : "eosia45",
-            "d" : "eosia43"
+            "n" : "eosia45@eosia",
+            "d" : "eosia43@eosia"
          },
          "flags" : [],
          "zone" : "eosia",
@@ -1072,10 +1072,10 @@
       },
       "eosia5@eosia" : {
          "exits" : {
-            "w" : "eosia6",
-            "e" : "eosia9",
-            "n" : "eosia10",
-            "s" : "eosia4"
+            "w" : "eosia6@eosia",
+            "e" : "eosia9@eosia",
+            "n" : "eosia10@eosia",
+            "s" : "eosia4@eosia"
          },
          "flags" : [
             "outdoors",
@@ -1089,7 +1089,7 @@
       },
       "eosia32@eosia" : {
          "exits" : {
-            "d" : "eosia31"
+            "d" : "eosia31@eosia"
          },
          "flags" : [
             "noquit",
@@ -1105,8 +1105,8 @@
       },
       "eosia50@eosia" : {
          "exits" : {
-            "e" : "^rocks_1E",
-            "n" : "eosia51"
+            "e" : "^rocks_1e@eosia",
+            "n" : "eosia51@eosia"
          },
          "flags" : [
             "cold",
@@ -1122,8 +1122,8 @@
       },
       "eosia47@eosia" : {
          "exits" : {
-            "n" : "eosia54",
-            "s" : "eosia2"
+            "n" : "eosia54@eosia",
+            "s" : "eosia2@eosia"
          },
          "flags" : [
             "outdoors",
@@ -1137,10 +1137,10 @@
       },
       "eosia21@eosia" : {
          "exits" : {
-            "w" : "eosia22",
-            "e" : "eosia22",
-            "n" : "eosia20",
-            "s" : "eosia22"
+            "w" : "eosia22@eosia",
+            "e" : "eosia22@eosia",
+            "n" : "eosia20@eosia",
+            "s" : "eosia22@eosia"
          },
          "flags" : [
             "onwater",
@@ -1154,10 +1154,10 @@
       },
       "eosia39@eosia" : {
          "exits" : {
-            "w" : "eosia36",
-            "e" : "eosia39",
-            "n" : "eosia39",
-            "s" : "eosia40"
+            "w" : "eosia36@eosia",
+            "e" : "eosia39@eosia",
+            "n" : "eosia39@eosia",
+            "s" : "eosia40@eosia"
          },
          "flags" : [
             "nosummon",
@@ -1171,10 +1171,10 @@
       },
       "eosia22@eosia" : {
          "exits" : {
-            "w" : "eosia23",
-            "e" : "eosia21",
-            "n" : "eosia22",
-            "s" : "eosia22"
+            "w" : "eosia23@eosia",
+            "e" : "eosia21@eosia",
+            "n" : "eosia22@eosia",
+            "s" : "eosia22@eosia"
          },
          "flags" : [
             "onwater",
@@ -1188,7 +1188,7 @@
       },
       "eosia9@eosia" : {
          "exits" : {
-            "w" : "eosia5"
+            "w" : "eosia5@eosia"
          },
          "flags" : [
             "outdoors"
@@ -1201,9 +1201,9 @@
       },
       "eosia28@eosia" : {
          "exits" : {
-            "w" : "eosia52",
-            "e" : "eosia29",
-            "d" : "eosia27"
+            "w" : "eosia52@eosia",
+            "e" : "eosia29@eosia",
+            "d" : "eosia27@eosia"
          },
          "flags" : [
             "soundproof",
@@ -1217,8 +1217,8 @@
       },
       "eosia34@eosia" : {
          "exits" : {
-            "w" : "eosia33",
-            "e" : "eosia35"
+            "w" : "eosia33@eosia",
+            "e" : "eosia35@eosia"
          },
          "flags" : [
             "cold",
@@ -1234,7 +1234,7 @@
       },
       "eosia8@eosia" : {
          "exits" : {
-            "d" : "eosia6"
+            "d" : "eosia6@eosia"
          },
          "flags" : [
             "soundproof"
@@ -1247,11 +1247,11 @@
       },
       "eosia43@eosia" : {
          "exits" : {
-            "w" : "eosia40",
-            "e" : "eosia41",
-            "u" : "eosia44",
-            "n" : "eosia41",
-            "s" : "eosia42"
+            "w" : "eosia40@eosia",
+            "e" : "eosia41@eosia",
+            "u" : "eosia44@eosia",
+            "n" : "eosia41@eosia",
+            "s" : "eosia42@eosia"
          },
          "flags" : [
             "nosummon",
@@ -1265,8 +1265,8 @@
       },
       "eosia4@eosia" : {
          "exits" : {
-            "n" : "eosia5",
-            "s" : "eosia3"
+            "n" : "eosia5@eosia",
+            "s" : "eosia3@eosia"
          },
          "flags" : [
             "outdoors"
@@ -1279,7 +1279,7 @@
       },
       "eosia12@eosia" : {
          "exits" : {
-            "w" : "eosia11"
+            "w" : "eosia11@eosia"
          },
          "flags" : [
             "party"
@@ -1304,9 +1304,9 @@
       },
       "eosia11@eosia" : {
          "exits" : {
-            "w" : "eosia10",
-            "e" : "eosia12",
-            "d" : "eosia53"
+            "w" : "eosia10@eosia",
+            "e" : "eosia12@eosia",
+            "d" : "eosia53@eosia"
          },
          "flags" : [
             "outdoors"
@@ -1319,7 +1319,7 @@
       },
       "eosia52@eosia" : {
          "exits" : {
-            "e" : "eosia28"
+            "e" : "eosia28@eosia"
          },
          "flags" : [
             "cantsummon",
@@ -1338,7 +1338,7 @@
       },
       "eosia16@eosia" : {
          "exits" : {
-            "s" : "^door_1S_eosia"
+            "s" : "^door_1s_eosia@eosia"
          },
          "flags" : [
             "soundproof"
@@ -1353,7 +1353,7 @@
    "mob" : {
       "annias@eosia" : {
          "damage" : "10",
-         "location" : "eosia32",
+         "location" : "eosia32@eosia",
          "speed" : "0",
          "aggression" : "95",
          "armor" : "0",
@@ -1368,7 +1368,7 @@
             "Shock"
          ],
          "damage" : "5",
-         "location" : "eosia12",
+         "location" : "eosia12@eosia",
          "armor" : "0",
          "name" : "Sparhawk",
          "description" : "\nSir Sparhawk, Ehlana's Champion, asks if you have found the Bhelliom.",
@@ -1383,7 +1383,7 @@
       },
       "kalor@eosia" : {
          "damage" : "5",
-         "location" : "eosia4",
+         "location" : "eosia4@eosia",
          "armor" : "0",
          "name" : "Kalor",
          "description" : "Kalor, the guard of the city gates, will not let you pass.",
@@ -1399,7 +1399,7 @@
       },
       "rolak@eosia" : {
          "damage" : "9",
-         "location" : "eosia13",
+         "location" : "eosia13@eosia",
          "armor" : "0",
          "pflag" : "{ }",
          "name" : "Rolak",
@@ -1418,7 +1418,7 @@
             "Shock"
          ],
          "damage" : "10",
-         "location" : "eosia12",
+         "location" : "eosia12@eosia",
          "armor" : "0",
          "name" : "Kurik",
          "description" : "Sir Kurik, the Pandion, bows to you.",
@@ -1431,7 +1431,7 @@
       },
       "madame@eosia" : {
          "damage" : "5",
-         "location" : "eosia8",
+         "location" : "eosia8@eosia",
          "armor" : "0",
          "name" : "Madame",
          "description" : "\nThe Madame of the brothel wants to know if you are looking for a good time.",
@@ -1445,7 +1445,7 @@
       },
       "seeker@eosia" : {
          "damage" : "7",
-         "location" : "eosia34",
+         "location" : "eosia34@eosia",
          "armor" : "0",
          "name" : "Seeker",
          "description" : "The hideous wraith known as the Seeker lurks in the shadows.",
@@ -1468,7 +1468,7 @@
             "NegFrost"
          ],
          "damage" : "10",
-         "location" : "eosia28",
+         "location" : "eosia28@eosia",
          "armor" : "5",
          "name" : "Aphrael",
          "description" : "\nShe floats like an angel.  It is the Child-Goddess Aphrael of Styricum.",
@@ -1491,7 +1491,7 @@
             "NegShock"
          ],
          "damage" : "10",
-         "location" : "eosia50",
+         "location" : "eosia50@eosia",
          "armor" : "0",
          "name" : "Ghwerig",
          "description" : "Ghwerig, the troll, thinks you want to steal Bhelliom!",
@@ -1531,7 +1531,7 @@
             "NegFrost"
          ],
          "damage" : "20",
-         "location" : "eosia46",
+         "location" : "eosia46@eosia",
          "armor" : "5",
          "name" : "Azash",
          "description" : "The Elder Dark God, Azash, wants the Bhelliom!",
@@ -1548,7 +1548,7 @@
       },
       "dolmant@eosia" : {
          "damage" : "5",
-         "location" : "eosia31",
+         "location" : "eosia31@eosia",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -1559,7 +1559,7 @@
       },
       "rindor@eosia" : {
          "damage" : "8",
-         "location" : "eosia25",
+         "location" : "eosia25@eosia",
          "speed" : "0",
          "aggression" : "30",
          "armor" : "0",
@@ -1573,7 +1573,7 @@
             "Frost"
          ],
          "damage" : "9",
-         "location" : "eosia27",
+         "location" : "eosia27@eosia",
          "armor" : "0",
          "name" : "Sephrenia",
          "description" : "\nSephrenia, the Styric, is weighed down by the swords of the fallen.",
@@ -1587,7 +1587,7 @@
       },
       "platime@eosia" : {
          "damage" : "5",
-         "location" : "eosia7",
+         "location" : "eosia7@eosia",
          "armor" : "0",
          "name" : "Platime",
          "description" : "Platime, the head of the Thief's Guild, wants your stuff!",
@@ -1608,7 +1608,7 @@
       },
       "othos@eosia" : {
          "damage" : "10",
-         "location" : "eosia37",
+         "location" : "eosia37@eosia",
          "speed" : "0",
          "aggression" : "80",
          "armor" : "3",

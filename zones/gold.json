@@ -2,7 +2,7 @@
    "obj" : {
       "cornerstone@gold" : {
          "desc[1]" : "\nThere is a cornerstone one the edge of the church.  It looks as if it may \nbe loose.",
-         "location" : "IN_ROOM:churchsteps",
+         "location" : "IN_ROOM:churchsteps@gold",
          "oflags" : [
             "NoGet",
             "Pushtoggle"
@@ -30,7 +30,7 @@
       },
       "door_sanctuary@gold" : {
          "desc[1]" : "You can see the faint outline of a doorway in the floor here.\nHowever, you can figure no way to open it!",
-         "location" : "IN_ROOM:sanctuary",
+         "location" : "IN_ROOM:sanctuary@gold",
          "oflags" : [
             "Noget"
          ],
@@ -44,7 +44,7 @@
          "desc[0]" : "There is an open passageway leading down here."
       },
       "door_passage@gold" : {
-         "location" : "IN_ROOM:passage1",
+         "location" : "IN_ROOM:passage1@gold",
          "oflags" : [
             "Noget"
          ],
@@ -58,7 +58,7 @@
       },
       "gold_gates_outside@gold" : {
          "desc[1]" : "The gates are closed.",
-         "location" : "IN_ROOM:goldgates",
+         "location" : "IN_ROOM:goldgates@gold",
          "oflags" : [
             "NoGet"
          ],
@@ -71,7 +71,7 @@
          "desc[0]" : "The gates are open."
       },
       "machine@gold" : {
-         "location" : "IN_ROOM:basement",
+         "location" : "IN_ROOM:basement@gold",
          "oflags" : [
             "NoGet",
             "Container"
@@ -83,7 +83,7 @@
          "desc[0]" : "There is a machine here which takes up most of the space \nin this basement."
       },
       "ribbon@gold" : {
-         "location" : "IN_CONTAINER:bundle",
+         "location" : "IN_CONTAINER:bundle@gold",
          "oflags" : [
             "Wearable"
          ],
@@ -98,7 +98,7 @@
       },
       "treasure@gold" : {
          "desc[1]" : "A large and valuable treasure is gathering dust in a dark corner.",
-         "location" : "IN_ROOM:passage4",
+         "location" : "IN_ROOM:passage4@gold",
          "weight" : "20",
          "oflags" : [
             "Getflips"
@@ -110,7 +110,7 @@
          "size" : "20"
       },
       "jacket@gold" : {
-         "location" : "IN_ROOM:gold2",
+         "location" : "IN_ROOM:gold2@gold",
          "oflags" : [
             "Armor",
             "Wearable"
@@ -129,7 +129,7 @@
       },
       "bundle@gold" : {
          "desc[1]" : "There is a ruined bundle of hay laying here, tied with a yellow ribbon.",
-         "location" : "IN_ROOM:gold3",
+         "location" : "IN_ROOM:gold3@gold",
          "oflags" : [
             "Container"
          ],
@@ -145,7 +145,7 @@
       },
       "gold_gates_inside@gold" : {
          "desc[1]" : "The gates are closed.",
-         "location" : "IN_ROOM:pathtochurch",
+         "location" : "IN_ROOM:pathtochurch@gold",
          "oflags" : [
             "NoGet"
          ],
@@ -157,7 +157,7 @@
          "desc[0]" : "The gate stands open to the west."
       },
       "shrubbery@gold" : {
-         "location" : "IN_ROOM:gold3",
+         "location" : "IN_ROOM:gold3@gold",
          "oflags" : [
             "Wearable"
          ],
@@ -176,7 +176,7 @@
       },
       "huge_doors_inside@gold" : {
          "desc[1]" : "The huge oak doors are closed.",
-         "location" : "IN_ROOM:entryway",
+         "location" : "IN_ROOM:entryway@gold",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -203,7 +203,7 @@
       },
       "switch@gold" : {
          "desc[1]" : "There is a switch on the wall here in the ON position.",
-         "location" : "IN_ROOM:basement",
+         "location" : "IN_ROOM:basement@gold",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -215,7 +215,7 @@
          "desc[0]" : "There is a switch on the wall here in the OFF position."
       },
       "bones@gold" : {
-         "location" : "IN_ROOM:passage4",
+         "location" : "IN_ROOM:passage4@gold",
          "oflags" : [
             "Noget"
          ],
@@ -225,7 +225,7 @@
          "examine" : "It is the remains of some unfortunate adventurer."
       },
       "mask@gold" : {
-         "location" : "IN_ROOM:basement",
+         "location" : "IN_ROOM:basement@gold",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -243,7 +243,7 @@
       },
       "pinhole_a@gold" : {
          "desc[1]" : "There is a pinhole in the floor.",
-         "location" : "IN_ROOM:passage4",
+         "location" : "IN_ROOM:passage4@gold",
          "oflags" : [
             "Noget"
          ],
@@ -258,7 +258,7 @@
       },
       "huge_doors_outside@gold" : {
          "desc[1]" : "The huge oak doors are closed.",
-         "location" : "IN_ROOM:churchsteps",
+         "location" : "IN_ROOM:churchsteps@gold",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -274,7 +274,7 @@
       },
       "scythe@gold" : {
          "damage" : "15",
-         "location" : "WIELDED_BY:Lancelot",
+         "location" : "WIELDED_BY:lancelot@gold",
          "oflags" : [
             "Weapon"
          ],
@@ -289,9 +289,9 @@
    "loc" : {
       "sanctuary@gold" : {
          "exits" : {
-            "w" : "entryway",
-            "u" : "altar",
-            "d" : "^door_sanctuary"
+            "w" : "entryway@gold",
+            "u" : "altar@gold",
+            "d" : "^door_sanctuary@gold"
          },
          "flags" : [],
          "zone" : "gold",
@@ -302,9 +302,9 @@
       },
       "entryway@gold" : {
          "exits" : {
-            "w" : "^huge_doors_inside",
-            "e" : "sanctuary",
-            "d" : "basement"
+            "w" : "^huge_doors_inside@gold",
+            "e" : "sanctuary@gold",
+            "d" : "basement@gold"
          },
          "flags" : [],
          "zone" : "gold",
@@ -315,8 +315,8 @@
       },
       "passage2@gold" : {
          "exits" : {
-            "n" : "passage1",
-            "s" : "Passage3"
+            "n" : "passage1@gold",
+            "s" : "passage3@gold"
          },
          "flags" : [],
          "zone" : "gold",
@@ -327,7 +327,7 @@
       },
       "altar@gold" : {
          "exits" : {
-            "d" : "sanctuary"
+            "d" : "sanctuary@gold"
          },
          "flags" : [
             "Peaceful"
@@ -340,7 +340,7 @@
       },
       "gold2@gold" : {
          "exits" : {
-            "s" : "goldgates"
+            "s" : "goldgates@gold"
          },
          "flags" : [
             "Outdoors"
@@ -353,7 +353,7 @@
       },
       "basement@gold" : {
          "exits" : {
-            "u" : "entryway"
+            "u" : "entryway@gold"
          },
          "flags" : [],
          "zone" : "gold",
@@ -364,8 +364,8 @@
       },
       "pathtochurch@gold" : {
          "exits" : {
-            "w" : "^gold_gates_inside",
-            "e" : "churchpath"
+            "w" : "^gold_gates_inside@gold",
+            "e" : "churchpath@gold"
          },
          "flags" : [
             "Outdoors"
@@ -378,7 +378,7 @@
       },
       "gold3@gold" : {
          "exits" : {
-            "n" : "goldgates"
+            "n" : "goldgates@gold"
          },
          "flags" : [
             "Outdoors"
@@ -391,7 +391,7 @@
       },
       "gold1b@gold" : {
          "exits" : {
-            "e" : "goldgates",
+            "e" : "goldgates@gold",
             "w" : "ildharas01@ildharas"
          },
          "flags" : [
@@ -405,7 +405,7 @@
       },
       "passage4@gold" : {
          "exits" : {
-            "d" : "^pinhole_a"
+            "d" : "^pinhole_a@gold"
          },
          "flags" : [],
          "zone" : "gold",
@@ -416,8 +416,8 @@
       },
       "churchpath@gold" : {
          "exits" : {
-            "w" : "pathtochurch",
-            "e" : "churchsteps"
+            "w" : "pathtochurch@gold",
+            "e" : "churchsteps@gold"
          },
          "flags" : [
             "Outdoors"
@@ -430,7 +430,7 @@
       },
       "passage1@gold" : {
          "exits" : {
-            "s" : "Passage2"
+            "s" : "passage2@gold"
          },
          "flags" : [],
          "zone" : "gold",
@@ -441,8 +441,8 @@
       },
       "passage3@gold" : {
          "exits" : {
-            "n" : "passage2",
-            "s" : "passage4"
+            "n" : "passage2@gold",
+            "s" : "passage4@gold"
          },
          "flags" : [],
          "zone" : "gold",
@@ -454,7 +454,7 @@
       "gold1a@gold" : {
          "exits" : {
             "e" : "ildharas01@ildharas",
-            "w" : "N_Barrow@church"
+            "w" : "n_barrow@church"
          },
          "flags" : [
             "Outdoors"
@@ -467,10 +467,10 @@
       },
       "goldgates@gold" : {
          "exits" : {
-            "e" : "^gold_gates_outside",
-            "w" : "gold1b",
-            "n" : "gold2",
-            "s" : "gold3"
+            "e" : "^gold_gates_outside@gold",
+            "w" : "gold1b@gold",
+            "n" : "gold2@gold",
+            "s" : "gold3@gold"
          },
          "flags" : [
             "Nomobiles",
@@ -484,8 +484,8 @@
       },
       "churchsteps@gold" : {
          "exits" : {
-            "w" : "churchpath",
-            "e" : "^huge_doors_outside"
+            "w" : "churchpath@gold",
+            "e" : "^huge_doors_outside@gold"
          },
          "flags" : [],
          "zone" : "gold",
@@ -501,7 +501,7 @@
             "Blind"
          ],
          "damage" : "8",
-         "location" : "altar",
+         "location" : "altar@gold",
          "name" : "GoldPriest",
          "examine" : "This Priest looks like he couldn't hurt a fly.",
          "description" : "There is a peaceful golden-skinned Priest here with an \noffering plate in his hands.  He asks 'Will you help us with a donation?'",
@@ -523,7 +523,7 @@
       },
       "robin@gold" : {
          "damage" : "8",
-         "location" : "pathtochurch",
+         "location" : "pathtochurch@gold",
          "armor" : "5",
          "name" : "Robin",
          "examine" : "Robin is just a harmless idiot knight.",
@@ -548,7 +548,7 @@
             "NegMissile"
          ],
          "damage" : "8",
-         "location" : "pathtochurch",
+         "location" : "pathtochurch@gold",
          "armor" : "5",
          "name" : "Graham",
          "examine" : "This guy looks MEAN.",
@@ -569,7 +569,7 @@
       },
       "lancelot@gold" : {
          "damage" : "8",
-         "location" : "entryway",
+         "location" : "entryway@gold",
          "armor" : "15",
          "name" : "Lancelot",
          "examine" : "Lancelot looks as if he COULD tear you limb from limb! \nI wouldn't mess with him if I were you.",

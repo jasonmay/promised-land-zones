@@ -1,7 +1,7 @@
 {
    "obj" : {
       "amethyst@labyrinth" : {
-         "location" : "IN_CONTAINER:casket",
+         "location" : "IN_CONTAINER:casket@labyrinth",
          "weight" : "1",
          "altname" : "gem",
          "name" : "amethyst",
@@ -11,7 +11,7 @@
       },
       "casket@labyrinth" : {
          "desc[1]" : "\nA large golden casket shines before you, glittering and sparkling.",
-         "location" : "IN_ROOM:lair",
+         "location" : "IN_ROOM:lair@labyrinth",
          "oflags" : [
             "Container",
             "Openable",
@@ -27,7 +27,7 @@
          "desc[0]" : "\nA large open golden casket shines before you, glittering and sparkling."
       },
       "horn@labyrinth" : {
-         "location" : "IN_CONTAINER:casket",
+         "location" : "IN_CONTAINER:casket@labyrinth",
          "altname" : "silver",
          "name" : "horn",
          "size" : "12",
@@ -38,7 +38,7 @@
       },
       "mask@labyrinth" : {
          "desc[1]" : "\nOn the center of the wall is a huge golden mask carved in the shape of a\nhorned demon.",
-         "location" : "IN_ROOM:end2",
+         "location" : "IN_ROOM:end2@labyrinth",
          "armor" : "75",
          "oflags" : [
             "Armor",
@@ -63,10 +63,10 @@
    "loc" : {
       "s@labyrinth" : {
          "exits" : {
-            "w" : "c",
-            "e" : "t",
-            "n" : "d",
-            "s" : "r"
+            "w" : "c@labyrinth",
+            "e" : "t@labyrinth",
+            "n" : "d@labyrinth",
+            "s" : "r@labyrinth"
          },
          "flags" : [
             "dark"
@@ -79,8 +79,8 @@
       },
       "c@labyrinth" : {
          "exits" : {
-            "e" : "d",
-            "s" : "b"
+            "e" : "d@labyrinth",
+            "s" : "b@labyrinth"
          },
          "flags" : [
             "dark"
@@ -93,9 +93,9 @@
       },
       "h@labyrinth" : {
          "exits" : {
-            "w" : "u",
-            "n" : "g",
-            "s" : "i"
+            "w" : "u@labyrinth",
+            "n" : "g@labyrinth",
+            "s" : "i@labyrinth"
          },
          "flags" : [
             "dark"
@@ -108,9 +108,9 @@
       },
       "p@labyrinth" : {
          "exits" : {
-            "e" : "q",
-            "n" : "a",
-            "s" : "o"
+            "e" : "q@labyrinth",
+            "n" : "a@labyrinth",
+            "s" : "o@labyrinth"
          },
          "flags" : [
             "dark"
@@ -123,9 +123,9 @@
       },
       "j@labyrinth" : {
          "exits" : {
-            "w" : "i",
-            "n" : "i",
-            "s" : "k"
+            "w" : "i@labyrinth",
+            "n" : "i@labyrinth",
+            "s" : "k@labyrinth"
          },
          "flags" : [
             "dark"
@@ -138,7 +138,7 @@
       },
       "lair@labyrinth" : {
          "exits" : {
-            "u" : "end2"
+            "u" : "end2@labyrinth"
          },
          "flags" : [
             "dark"
@@ -151,8 +151,8 @@
       },
       "end@labyrinth" : {
          "exits" : {
-            "d" : "end2",
-            "s" : "x"
+            "d" : "end2@labyrinth",
+            "s" : "x@labyrinth"
          },
          "flags" : [
             "dark"
@@ -165,10 +165,10 @@
       },
       "r@labyrinth" : {
          "exits" : {
-            "w" : "a",
-            "e" : "q",
-            "n" : "t",
-            "s" : "q"
+            "w" : "a@labyrinth",
+            "e" : "q@labyrinth",
+            "n" : "t@labyrinth",
+            "s" : "q@labyrinth"
          },
          "flags" : [
             "dark"
@@ -181,8 +181,8 @@
       },
       "humm@labyrinth" : {
          "exits" : {
-            "u" : "spiral",
-            "d" : "spiral3"
+            "u" : "spiral@labyrinth",
+            "d" : "spiral3@labyrinth"
          },
          "flags" : [],
          "zone" : "labyrinth",
@@ -193,8 +193,8 @@
       },
       "spiral3@labyrinth" : {
          "exits" : {
-            "u" : "humm",
-            "d" : "start"
+            "u" : "humm@labyrinth",
+            "d" : "start@labyrinth"
          },
          "flags" : [
             "dark"
@@ -207,10 +207,10 @@
       },
       "a@labyrinth" : {
          "exits" : {
-            "w" : "start",
-            "e" : "r",
-            "n" : "b",
-            "s" : "p"
+            "w" : "start@labyrinth",
+            "e" : "r@labyrinth",
+            "n" : "b@labyrinth",
+            "s" : "p@labyrinth"
          },
          "flags" : [
             "dark"
@@ -223,10 +223,10 @@
       },
       "t@labyrinth" : {
          "exits" : {
-            "w" : "s",
-            "e" : "u",
-            "n" : "e",
-            "s" : "u"
+            "w" : "s@labyrinth",
+            "e" : "u@labyrinth",
+            "n" : "e@labyrinth",
+            "s" : "u@labyrinth"
          },
          "flags" : [
             "dark"
@@ -239,9 +239,9 @@
       },
       "i@labyrinth" : {
          "exits" : {
-            "w" : "u",
-            "n" : "h",
-            "s" : "j"
+            "w" : "u@labyrinth",
+            "n" : "h@labyrinth",
+            "s" : "j@labyrinth"
          },
          "flags" : [
             "dark"
@@ -254,8 +254,8 @@
       },
       "k@labyrinth" : {
          "exits" : {
-            "w" : "l",
-            "n" : "j"
+            "w" : "l@labyrinth",
+            "n" : "j@labyrinth"
          },
          "flags" : [
             "dark"
@@ -268,8 +268,8 @@
       },
       "start@labyrinth" : {
          "exits" : {
-            "e" : "a",
-            "u" : "spiral3"
+            "e" : "a@labyrinth",
+            "u" : "spiral3@labyrinth"
          },
          "flags" : [
             "dark",
@@ -283,8 +283,8 @@
       },
       "spiral@labyrinth" : {
          "exits" : {
-            "u" : "top",
-            "d" : "spiral2"
+            "u" : "top@labyrinth",
+            "d" : "spiral2@labyrinth"
          },
          "flags" : [],
          "zone" : "labyrinth",
@@ -295,9 +295,9 @@
       },
       "b@labyrinth" : {
          "exits" : {
-            "e" : "s",
-            "n" : "c",
-            "s" : "a"
+            "e" : "s@labyrinth",
+            "n" : "c@labyrinth",
+            "s" : "a@labyrinth"
          },
          "flags" : [
             "dark"
@@ -310,9 +310,9 @@
       },
       "e@labyrinth" : {
          "exits" : {
-            "w" : "d",
-            "e" : "f",
-            "s" : "t"
+            "w" : "d@labyrinth",
+            "e" : "f@labyrinth",
+            "s" : "t@labyrinth"
          },
          "flags" : [
             "dark"
@@ -325,10 +325,10 @@
       },
       "q@labyrinth" : {
          "exits" : {
-            "w" : "p",
-            "e" : "r",
-            "n" : "r",
-            "s" : "n"
+            "w" : "p@labyrinth",
+            "e" : "r@labyrinth",
+            "n" : "r@labyrinth",
+            "s" : "n@labyrinth"
          },
          "flags" : [
             "dark"
@@ -341,10 +341,10 @@
       },
       "w@labyrinth" : {
          "exits" : {
-            "w" : "v",
-            "e" : "x",
-            "n" : "v",
-            "s" : "m"
+            "w" : "v@labyrinth",
+            "e" : "x@labyrinth",
+            "n" : "v@labyrinth",
+            "s" : "m@labyrinth"
          },
          "flags" : [
             "dark"
@@ -357,10 +357,10 @@
       },
       "v@labyrinth" : {
          "exits" : {
-            "w" : "w",
-            "e" : "u",
-            "n" : "t",
-            "s" : "w"
+            "w" : "w@labyrinth",
+            "e" : "u@labyrinth",
+            "n" : "t@labyrinth",
+            "s" : "w@labyrinth"
          },
          "flags" : [
             "dark"
@@ -373,8 +373,8 @@
       },
       "top@labyrinth" : {
          "exits" : {
-            "u" : "Brink@island",
-            "d" : "spiral"
+            "u" : "brink@island",
+            "d" : "spiral@labyrinth"
          },
          "flags" : [],
          "zone" : "labyrinth",
@@ -385,8 +385,8 @@
       },
       "end2@labyrinth" : {
          "exits" : {
-            "u" : "end",
-            "d" : "lair"
+            "u" : "end@labyrinth",
+            "d" : "lair@labyrinth"
          },
          "flags" : [
             "dark"
@@ -399,8 +399,8 @@
       },
       "o@labyrinth" : {
          "exits" : {
-            "e" : "n",
-            "n" : "p"
+            "e" : "n@labyrinth",
+            "n" : "p@labyrinth"
          },
          "flags" : [
             "dark"
@@ -413,9 +413,9 @@
       },
       "d@labyrinth" : {
          "exits" : {
-            "w" : "c",
-            "e" : "e",
-            "s" : "s"
+            "w" : "c@labyrinth",
+            "e" : "e@labyrinth",
+            "s" : "s@labyrinth"
          },
          "flags" : [
             "dark"
@@ -428,8 +428,8 @@
       },
       "spiral2@labyrinth" : {
          "exits" : {
-            "u" : "spiral",
-            "d" : "humm"
+            "u" : "spiral@labyrinth",
+            "d" : "humm@labyrinth"
          },
          "flags" : [],
          "zone" : "labyrinth",
@@ -440,9 +440,9 @@
       },
       "x@labyrinth" : {
          "exits" : {
-            "w" : "w",
-            "n" : "end",
-            "s" : "j"
+            "w" : "w@labyrinth",
+            "n" : "end@labyrinth",
+            "s" : "j@labyrinth"
          },
          "flags" : [
             "dark"
@@ -455,9 +455,9 @@
       },
       "m@labyrinth" : {
          "exits" : {
-            "w" : "n",
-            "e" : "l",
-            "n" : "v"
+            "w" : "n@labyrinth",
+            "e" : "l@labyrinth",
+            "n" : "v@labyrinth"
          },
          "flags" : [
             "dark"
@@ -470,9 +470,9 @@
       },
       "n@labyrinth" : {
          "exits" : {
-            "w" : "o",
-            "e" : "m",
-            "n" : "q"
+            "w" : "o@labyrinth",
+            "e" : "m@labyrinth",
+            "n" : "q@labyrinth"
          },
          "flags" : [
             "dark"
@@ -485,9 +485,9 @@
       },
       "l@labyrinth" : {
          "exits" : {
-            "w" : "m",
-            "e" : "k",
-            "n" : "j"
+            "w" : "m@labyrinth",
+            "e" : "k@labyrinth",
+            "n" : "j@labyrinth"
          },
          "flags" : [
             "dark"
@@ -500,10 +500,10 @@
       },
       "u@labyrinth" : {
          "exits" : {
-            "w" : "t",
-            "e" : "h",
-            "n" : "f",
-            "s" : "f"
+            "w" : "t@labyrinth",
+            "e" : "h@labyrinth",
+            "n" : "f@labyrinth",
+            "s" : "f@labyrinth"
          },
          "flags" : [
             "dark"
@@ -516,8 +516,8 @@
       },
       "g@labyrinth" : {
          "exits" : {
-            "w" : "f",
-            "s" : "h"
+            "w" : "f@labyrinth",
+            "s" : "h@labyrinth"
          },
          "flags" : [
             "dark"
@@ -530,9 +530,9 @@
       },
       "f@labyrinth" : {
          "exits" : {
-            "w" : "e",
-            "e" : "g",
-            "s" : "u"
+            "w" : "e@labyrinth",
+            "e" : "g@labyrinth",
+            "s" : "u@labyrinth"
          },
          "flags" : [
             "dark"
@@ -547,7 +547,7 @@
    "mob" : {
       "minotaur@labyrinth" : {
          "damage" : "10",
-         "location" : "k",
+         "location" : "k@labyrinth",
          "armor" : "0",
          "name" : "minotaur",
          "description" : "\nA minotaur snarls viciously at you, his huge bulk shaking with rage.",

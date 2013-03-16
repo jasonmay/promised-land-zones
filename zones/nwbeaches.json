@@ -1,7 +1,7 @@
 {
    "obj" : {
       "bunk_beachqq28@nwbeaches" : {
-         "location" : "IN_ROOM:beachQQ28",
+         "location" : "IN_ROOM:beachqq28@nwbeaches",
          "oflags" : [
             "Noget"
          ],
@@ -11,7 +11,7 @@
       },
       "cell_beachqq26n@nwbeaches" : {
          "desc[1]" : "The cell is closed.",
-         "location" : "IN_ROOM:beachQQ27",
+         "location" : "IN_ROOM:beachqq27@nwbeaches",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -28,7 +28,7 @@
       },
       "secret_beachqq22@nwbeaches" : {
          "desc[1]" : "The secret door is closed.",
-         "location" : "IN_ROOM:beachQQ25",
+         "location" : "IN_ROOM:beachqq25@nwbeaches",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -45,7 +45,7 @@
          "desc[0]" : "The secret door is open."
       },
       "east_beachqq11@nwbeaches" : {
-         "location" : "IN_ROOM:beachQQ11",
+         "location" : "IN_ROOM:beachqq11@nwbeaches",
          "oflags" : [
             "NoGet"
          ],
@@ -54,7 +54,7 @@
          "examine" : "\nYou see more of the beach.\n"
       },
       "bed_secret@nwbeaches" : {
-         "location" : "IN_ROOM:beachQQ22",
+         "location" : "IN_ROOM:beachqq22@nwbeaches",
          "oflags" : [
             "Noget"
          ],
@@ -63,7 +63,7 @@
          "examine" : "\nHmmm...there's a secret door underneath the bed.  Wonder what's under it?\n"
       },
       "objqq01@nwbeaches" : {
-         "location" : "IN_CONTAINER:objQQ00",
+         "location" : "IN_CONTAINER:objqq00@nwbeaches",
          "oflags" : [
             "Key"
          ],
@@ -78,7 +78,7 @@
          "desc[0]" : "A key in the shape of a figure-eight is here."
       },
       "roof_beachqq21@nwbeaches" : {
-         "location" : "IN_ROOM:beachQQ21",
+         "location" : "IN_ROOM:beachqq21@nwbeaches",
          "oflags" : [
             "Noget"
          ],
@@ -90,7 +90,7 @@
       },
       "cell_beachqq26w@nwbeaches" : {
          "desc[1]" : "The cell is closed.",
-         "location" : "IN_ROOM:beachQQ30",
+         "location" : "IN_ROOM:beachqq30@nwbeaches",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -107,7 +107,7 @@
       },
       "secret_beachqq25@nwbeaches" : {
          "desc[1]" : "The secret door is closed.",
-         "location" : "IN_ROOM:beachQQ22",
+         "location" : "IN_ROOM:beachqq22@nwbeaches",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -124,7 +124,7 @@
       },
       "objqq00@nwbeaches" : {
          "desc[1]" : "There is a mahogney desk here, up against the east wall.",
-         "location" : "IN_ROOM:beachQQ22",
+         "location" : "IN_ROOM:beachqq22@nwbeaches",
          "oflags" : [
             "Container",
             "NoGet",
@@ -142,7 +142,7 @@
       },
       "cell_beachqq27@nwbeaches" : {
          "desc[1]" : "The northcell is closed.",
-         "location" : "IN_ROOM:beachQQ26",
+         "location" : "IN_ROOM:beachqq26@nwbeaches",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -159,7 +159,7 @@
       },
       "cell_beachqq30@nwbeaches" : {
          "desc[1]" : "The westcell is closed.",
-         "location" : "IN_ROOM:beachQQ26",
+         "location" : "IN_ROOM:beachqq26@nwbeaches",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -175,7 +175,7 @@
          "desc[0]" : "The westcell is open."
       },
       "bed_beachqq26@nwbeaches" : {
-         "location" : "IN_ROOM:beachQQ26",
+         "location" : "IN_ROOM:beachqq26@nwbeaches",
          "oflags" : [
             "Noget"
          ],
@@ -185,7 +185,7 @@
       },
       "door_beachqq20@nwbeaches" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:beachQQ19",
+         "location" : "IN_ROOM:beachqq19@nwbeaches",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -201,7 +201,7 @@
       },
       "cell_beachqq26s@nwbeaches" : {
          "desc[1]" : "The cell is closed.",
-         "location" : "IN_ROOM:beachQQ29",
+         "location" : "IN_ROOM:beachqq29@nwbeaches",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -217,7 +217,7 @@
          "desc[0]" : "The cell is open."
       },
       "bed_beachqq27@nwbeaches" : {
-         "location" : "IN_ROOM:beachQQ27",
+         "location" : "IN_ROOM:beachqq27@nwbeaches",
          "oflags" : [
             "Noget"
          ],
@@ -227,7 +227,7 @@
       },
       "cell_beachqq28@nwbeaches" : {
          "desc[1]" : "The eastcell is closed.",
-         "location" : "IN_ROOM:beachQQ26",
+         "location" : "IN_ROOM:beachqq26@nwbeaches",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -243,7 +243,7 @@
          "desc[0]" : "The eastcell is open."
       },
       "throne_beachqq24@nwbeaches" : {
-         "location" : "IN_ROOM:beachQQ24",
+         "location" : "IN_ROOM:beachqq24@nwbeaches",
          "oflags" : [
             "Noget"
          ],
@@ -254,7 +254,7 @@
       },
       "cell_beachqq26e@nwbeaches" : {
          "desc[1]" : "The cell is closed.",
-         "location" : "IN_ROOM:beachQQ28",
+         "location" : "IN_ROOM:beachqq28@nwbeaches",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -271,7 +271,7 @@
       },
       "door_beachqq19@nwbeaches" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:beachQQ20",
+         "location" : "IN_ROOM:beachqq20@nwbeaches",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -286,7 +286,7 @@
          "desc[0]" : "The door is open."
       },
       "stairs_beachqq25@nwbeaches" : {
-         "location" : "IN_ROOM:beachQQ25",
+         "location" : "IN_ROOM:beachqq25@nwbeaches",
          "oflags" : [
             "Noget"
          ],
@@ -296,7 +296,7 @@
       },
       "cell_beachqq29@nwbeaches" : {
          "desc[1]" : "The southcell is closed.",
-         "location" : "IN_ROOM:beachQQ26",
+         "location" : "IN_ROOM:beachqq26@nwbeaches",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -312,7 +312,7 @@
          "desc[0]" : "The southcell is open."
       },
       "objqq02@nwbeaches" : {
-         "location" : "CARRIED_BY:mobQQ03",
+         "location" : "CARRIED_BY:mobqq03@nwbeaches",
          "oflags" : [
             "Key"
          ],
@@ -330,8 +330,8 @@
    "loc" : {
       "beachqq20@nwbeaches" : {
          "exits" : {
-            "n" : "beachQQ21",
-            "s" : "^door_beachQQ19"
+            "n" : "beachqq21@nwbeaches",
+            "s" : "^door_beachqq19@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -342,8 +342,8 @@
       },
       "beachqq19@nwbeaches" : {
          "exits" : {
-            "n" : "^door_beachQQ20",
-            "s" : "beachQQ18"
+            "n" : "^door_beachqq20@nwbeaches",
+            "s" : "beachqq18@nwbeaches"
          },
          "flags" : [
             "Outdoors"
@@ -356,8 +356,8 @@
       },
       "beachqq08@nwbeaches" : {
          "exits" : {
-            "e" : "beachQQ09",
-            "w" : "beachQQ07",
+            "e" : "beachqq09@nwbeaches",
+            "w" : "beachqq07@nwbeaches",
             "n" : "yllythad5146@yllythad"
          },
          "flags" : [
@@ -371,7 +371,7 @@
       },
       "beachqq35@nwbeaches" : {
          "exits" : {
-            "e" : "beachQQ32"
+            "e" : "beachqq32@nwbeaches"
          },
          "flags" : [
             "Outdoors"
@@ -384,7 +384,7 @@
       },
       "beachqq28@nwbeaches" : {
          "exits" : {
-            "w" : "^cell_beachQQ26e"
+            "w" : "^cell_beachqq26e@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -395,9 +395,9 @@
       },
       "beachqq32@nwbeaches" : {
          "exits" : {
-            "e" : "beachQQ31",
-            "w" : "beachQQ35",
-            "s" : "beachQQ33"
+            "e" : "beachqq31@nwbeaches",
+            "w" : "beachqq35@nwbeaches",
+            "s" : "beachqq33@nwbeaches"
          },
          "flags" : [
             "Outdoors"
@@ -410,8 +410,8 @@
       },
       "beachqq10@nwbeaches" : {
          "exits" : {
-            "w" : "beachQQ09",
-            "n" : "beachQQ36"
+            "w" : "beachqq09@nwbeaches",
+            "n" : "beachqq36@nwbeaches"
          },
          "flags" : [
             "Outdoors"
@@ -425,7 +425,7 @@
       "beachqq00@nwbeaches" : {
          "exits" : {
             "n" : "jetty@newvillage",
-            "d" : "beachQQ01"
+            "d" : "beachqq01@nwbeaches"
          },
          "flags" : [
             "Outdoors",
@@ -439,8 +439,8 @@
       },
       "beachqq06@nwbeaches" : {
          "exits" : {
-            "e" : "beachQQ05",
-            "w" : "beachQQ11"
+            "e" : "beachqq05@nwbeaches",
+            "w" : "beachqq11@nwbeaches"
          },
          "flags" : [
             "Outdoors"
@@ -453,9 +453,9 @@
       },
       "beachqq04@nwbeaches" : {
          "exits" : {
-            "e" : "beachQQ07",
-            "w" : "beachQQ05",
-            "u" : "beachQQ03"
+            "e" : "beachqq07@nwbeaches",
+            "w" : "beachqq05@nwbeaches",
+            "u" : "beachqq03@nwbeaches"
          },
          "flags" : [
             "Outdoors"
@@ -468,8 +468,8 @@
       },
       "beachqq05@nwbeaches" : {
          "exits" : {
-            "e" : "beachQQ04",
-            "w" : "beachQQ06"
+            "e" : "beachqq04@nwbeaches",
+            "w" : "beachqq06@nwbeaches"
          },
          "flags" : [
             "Outdoors"
@@ -482,8 +482,8 @@
       },
       "beachqq02@nwbeaches" : {
          "exits" : {
-            "u" : "beachQQ01",
-            "d" : "beachQQ03"
+            "u" : "beachqq01@nwbeaches",
+            "d" : "beachqq03@nwbeaches"
          },
          "flags" : [
             "Outdoors"
@@ -496,8 +496,8 @@
       },
       "beachqq16@nwbeaches" : {
          "exits" : {
-            "e" : "beachQQ15",
-            "w" : "beachQQ31"
+            "e" : "beachqq15@nwbeaches",
+            "w" : "beachqq31@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -508,8 +508,8 @@
       },
       "beachqq01@nwbeaches" : {
          "exits" : {
-            "u" : "beachQQ00",
-            "d" : "beachQQ02"
+            "u" : "beachqq00@nwbeaches",
+            "d" : "beachqq02@nwbeaches"
          },
          "flags" : [
             "Outdoors"
@@ -522,8 +522,8 @@
       },
       "beachqq25@nwbeaches" : {
          "exits" : {
-            "u" : "^secret_beachQQ22",
-            "d" : "beachQQ26"
+            "u" : "^secret_beachqq22@nwbeaches",
+            "d" : "beachqq26@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -534,8 +534,8 @@
       },
       "beachqq09@nwbeaches" : {
          "exits" : {
-            "e" : "beachQQ10",
-            "w" : "beachQQ08",
+            "e" : "beachqq10@nwbeaches",
+            "w" : "beachqq08@nwbeaches",
             "n" : "yllythad5001@yllythad"
          },
          "flags" : [
@@ -549,8 +549,8 @@
       },
       "beachqq11@nwbeaches" : {
          "exits" : {
-            "e" : "beachQQ06",
-            "w" : "beachQQ12"
+            "e" : "beachqq06@nwbeaches",
+            "w" : "beachqq12@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -561,8 +561,8 @@
       },
       "beachqq13@nwbeaches" : {
          "exits" : {
-            "w" : "beachQQ14",
-            "n" : "beachQQ12"
+            "w" : "beachqq14@nwbeaches",
+            "n" : "beachqq12@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -573,8 +573,8 @@
       },
       "beachqq17@nwbeaches" : {
          "exits" : {
-            "n" : "beachQQ18",
-            "s" : "beachQQ15"
+            "n" : "beachqq18@nwbeaches",
+            "s" : "beachqq15@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -585,10 +585,10 @@
       },
       "beachqq21@nwbeaches" : {
          "exits" : {
-            "e" : "beachQQ22",
-            "w" : "beachQQ24",
-            "u" : "beachQQ23",
-            "s" : "beachQQ20"
+            "e" : "beachqq22@nwbeaches",
+            "w" : "beachqq24@nwbeaches",
+            "u" : "beachqq23@nwbeaches",
+            "s" : "beachqq20@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -599,8 +599,8 @@
       },
       "beachqq12@nwbeaches" : {
          "exits" : {
-            "e" : "beachQQ11",
-            "s" : "beachQQ13"
+            "e" : "beachqq11@nwbeaches",
+            "s" : "beachqq13@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -611,9 +611,9 @@
       },
       "beachqq15@nwbeaches" : {
          "exits" : {
-            "e" : "beachQQ14",
-            "w" : "beachQQ16",
-            "n" : "beachQQ17"
+            "e" : "beachqq14@nwbeaches",
+            "w" : "beachqq16@nwbeaches",
+            "n" : "beachqq17@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -624,8 +624,8 @@
       },
       "beachqq14@nwbeaches" : {
          "exits" : {
-            "e" : "beachQQ13",
-            "w" : "beachQQ15"
+            "e" : "beachqq13@nwbeaches",
+            "w" : "beachqq15@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -636,8 +636,8 @@
       },
       "beachqq18@nwbeaches" : {
          "exits" : {
-            "n" : "beachQQ19",
-            "s" : "beachQQ17"
+            "n" : "beachqq19@nwbeaches",
+            "s" : "beachqq17@nwbeaches"
          },
          "flags" : [
             "Outdoors"
@@ -650,7 +650,7 @@
       },
       "beachqq24@nwbeaches" : {
          "exits" : {
-            "e" : "beachQQ21"
+            "e" : "beachqq21@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -661,7 +661,7 @@
       },
       "beachqq36@nwbeaches" : {
          "exits" : {
-            "s" : "beachQQ10"
+            "s" : "beachqq10@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -672,8 +672,8 @@
       },
       "beachqq07@nwbeaches" : {
          "exits" : {
-            "e" : "beachQQ08",
-            "w" : "beachQQ04",
+            "e" : "beachqq08@nwbeaches",
+            "w" : "beachqq04@nwbeaches",
             "n" : "yllythad5141@yllythad"
          },
          "flags" : [
@@ -687,7 +687,7 @@
       },
       "beachqq30@nwbeaches" : {
          "exits" : {
-            "e" : "^cell_beachQQ26w"
+            "e" : "^cell_beachqq26w@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -698,7 +698,7 @@
       },
       "beachqq34@nwbeaches" : {
          "exits" : {
-            "n" : "beachQQ33"
+            "n" : "beachqq33@nwbeaches"
          },
          "flags" : [
             "OnWater",
@@ -712,8 +712,8 @@
       },
       "beachqq22@nwbeaches" : {
          "exits" : {
-            "w" : "beachQQ21",
-            "d" : "^secret_beachQQ25"
+            "w" : "beachqq21@nwbeaches",
+            "d" : "^secret_beachqq25@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -724,8 +724,8 @@
       },
       "beachqq03@nwbeaches" : {
          "exits" : {
-            "u" : "beachQQ02",
-            "d" : "beachQQ04"
+            "u" : "beachqq02@nwbeaches",
+            "d" : "beachqq04@nwbeaches"
          },
          "flags" : [
             "Outdoors"
@@ -738,8 +738,8 @@
       },
       "beachqq31@nwbeaches" : {
          "exits" : {
-            "e" : "beachQQ16",
-            "w" : "beachQQ32"
+            "e" : "beachqq16@nwbeaches",
+            "w" : "beachqq32@nwbeaches"
          },
          "flags" : [
             "Outdoors"
@@ -752,8 +752,8 @@
       },
       "beachqq33@nwbeaches" : {
          "exits" : {
-            "n" : "beachQQ32",
-            "s" : "beachQQ34"
+            "n" : "beachqq32@nwbeaches",
+            "s" : "beachqq34@nwbeaches"
          },
          "flags" : [
             "Outdoors"
@@ -766,7 +766,7 @@
       },
       "beachqq23@nwbeaches" : {
          "exits" : {
-            "d" : "beachQQ21"
+            "d" : "beachqq21@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -777,7 +777,7 @@
       },
       "beachqq27@nwbeaches" : {
          "exits" : {
-            "s" : "^cell_beachQQ26n"
+            "s" : "^cell_beachqq26n@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -788,7 +788,7 @@
       },
       "beachqq29@nwbeaches" : {
          "exits" : {
-            "n" : "^cell_beachQQ26s"
+            "n" : "^cell_beachqq26s@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -799,11 +799,11 @@
       },
       "beachqq26@nwbeaches" : {
          "exits" : {
-            "e" : "^cell_beachQQ28",
-            "w" : "^cell_beachQQ30",
-            "u" : "beachQQ25",
-            "n" : "^cell_beachQQ27",
-            "s" : "^cell_beachQQ29"
+            "e" : "^cell_beachqq28@nwbeaches",
+            "w" : "^cell_beachqq30@nwbeaches",
+            "u" : "beachqq25@nwbeaches",
+            "n" : "^cell_beachqq27@nwbeaches",
+            "s" : "^cell_beachqq29@nwbeaches"
          },
          "flags" : [],
          "zone" : "nwbeaches",
@@ -816,7 +816,7 @@
    "mob" : {
       "mobqq02@nwbeaches" : {
          "damage" : "13",
-         "location" : "beachQQ08",
+         "location" : "beachqq08@nwbeaches",
          "armor" : "4",
          "name" : "mobQQ02",
          "examine" : "\nDirty little bird, you wish you had a wrist-cannon (more fun).\n",
@@ -834,7 +834,7 @@
       },
       "mobqq06@nwbeaches" : {
          "damage" : "16",
-         "location" : "beachQQ29",
+         "location" : "beachqq29@nwbeaches",
          "armor" : "16",
          "name" : "mobQQ06",
          "examine" : "\nYou're not sure what he is, how he came to be what he is now, and you're\nnot sure you want to know.\n",
@@ -850,7 +850,7 @@
       },
       "mobqq02_1@nwbeaches" : {
          "damage" : "13",
-         "location" : "beachQQ08",
+         "location" : "beachqq08@nwbeaches",
          "armor" : "4",
          "name" : "mobQQ02_1",
          "examine" : "\nDirty little bird, you wish you had a wrist-cannon (more fun).\n",
@@ -868,7 +868,7 @@
       },
       "mobqq13@nwbeaches" : {
          "damage" : "55",
-         "location" : "beachQQ34",
+         "location" : "beachqq34@nwbeaches",
          "armor" : "24",
          "name" : "mobQQ13",
          "examine" : "\nThis creature is larger than a city block and older than the Gods themselves.\n",
@@ -886,7 +886,7 @@
       },
       "mobqq12_3@nwbeaches" : {
          "damage" : "21",
-         "location" : "beachQQ18",
+         "location" : "beachqq18@nwbeaches",
          "armor" : "22",
          "name" : "mobQQ12_3",
          "examine" : "\nMan this guy smells bad!\n",
@@ -902,7 +902,7 @@
       },
       "mobqq00@nwbeaches" : {
          "damage" : "9",
-         "location" : "beachQQ04",
+         "location" : "beachqq04@nwbeaches",
          "armor" : "4",
          "name" : "mobQQ00",
          "examine" : "\nLooks like every other pelican you've seen....\n",
@@ -920,7 +920,7 @@
       },
       "mobqq03@nwbeaches" : {
          "damage" : "51",
-         "location" : "beachQQ26",
+         "location" : "beachqq26@nwbeaches",
          "armor" : "18",
          "name" : "mobQQ03",
          "examine" : "\n'&+RAll I ever wanted was sexual fulfillment', &+Wthe Lighthouse Keeper\nexplains, '&+RI never intended to hurt anyone, it seems that this all\n&+Rjust got a bit out of hand....'&+W\n",
@@ -936,7 +936,7 @@
       },
       "mobqq02_3@nwbeaches" : {
          "damage" : "13",
-         "location" : "beachQQ05",
+         "location" : "beachqq05@nwbeaches",
          "armor" : "4",
          "name" : "mobQQ02_3",
          "examine" : "\nDirty little bird, you wish you had a wrist-cannon (more fun).\n",
@@ -954,7 +954,7 @@
       },
       "mobqq09@nwbeaches" : {
          "damage" : "16",
-         "location" : "beachQQ21",
+         "location" : "beachqq21@nwbeaches",
          "armor" : "16",
          "name" : "mobQQ09",
          "examine" : "\nMostly mutt, but very friendly, this black dog looks like the stereo-\ntypical house-dog.\n",
@@ -970,7 +970,7 @@
       },
       "mobqq02_2@nwbeaches" : {
          "damage" : "13",
-         "location" : "beachQQ06",
+         "location" : "beachqq06@nwbeaches",
          "armor" : "4",
          "name" : "mobQQ02_2",
          "examine" : "\nDirty little bird, you wish you had a wrist-cannon (more fun).\n",
@@ -988,7 +988,7 @@
       },
       "mobqq12_2@nwbeaches" : {
          "damage" : "21",
-         "location" : "beachQQ18",
+         "location" : "beachqq18@nwbeaches",
          "armor" : "22",
          "name" : "mobQQ12_2",
          "examine" : "\nMan this guy smells bad!\n",
@@ -1004,7 +1004,7 @@
       },
       "mobqq11@nwbeaches" : {
          "damage" : "42",
-         "location" : "beachQQ18",
+         "location" : "beachqq18@nwbeaches",
          "armor" : "18",
          "name" : "mobQQ11",
          "examine" : "\nIt is said by many that Old Man Takker hasn't left this spot for over\ntwenty.  His disciples bring him any food he needs, and they say he\nnever sleeps - just fishes.\n",
@@ -1020,7 +1020,7 @@
       },
       "mobqq04@nwbeaches" : {
          "damage" : "16",
-         "location" : "beachQQ28",
+         "location" : "beachqq28@nwbeaches",
          "armor" : "16",
          "name" : "mobQQ04",
          "examine" : "\nIt looks as it it may be a man, but then, being that it is naked, you\ncan see that it is just a bit of both.\n",
@@ -1036,7 +1036,7 @@
       },
       "mobqq07@nwbeaches" : {
          "damage" : "16",
-         "location" : "beachQQ27",
+         "location" : "beachqq27@nwbeaches",
          "armor" : "16",
          "name" : "mobQQ07",
          "examine" : "\nIt is not describable, simply not describable.\n",
@@ -1052,7 +1052,7 @@
       },
       "mobqq12@nwbeaches" : {
          "damage" : "21",
-         "location" : "beachQQ19",
+         "location" : "beachqq19@nwbeaches",
          "armor" : "22",
          "name" : "mobQQ12",
          "examine" : "\nMan this guy smells bad!\n",
@@ -1068,7 +1068,7 @@
       },
       "mobqq01@nwbeaches" : {
          "damage" : "11",
-         "location" : "beachQQ17",
+         "location" : "beachqq17@nwbeaches",
          "armor" : "4",
          "name" : "mobQQ01",
          "examine" : "\nCute little guy, even though he looks a bit slimy.\n",
@@ -1086,7 +1086,7 @@
       },
       "mobqq10@nwbeaches" : {
          "damage" : "16",
-         "location" : "beachQQ24",
+         "location" : "beachqq24@nwbeaches",
          "armor" : "18",
          "name" : "mobQQ10",
          "examine" : "\nAlthough she looks as if she must be at least fifteen or sixteen years\nold, she still seems quite content with her dolls.  What a nice girl!\n",
@@ -1104,7 +1104,7 @@
       },
       "mobqq05@nwbeaches" : {
          "damage" : "16",
-         "location" : "beachQQ30",
+         "location" : "beachqq30@nwbeaches",
          "armor" : "16",
          "name" : "mobQQ05",
          "examine" : "\nIt looks as if she may have been a very beautiful woman at one time,\nhowever she is now so covered in dirt and grime, it is hard to tell.\n",
@@ -1122,7 +1122,7 @@
       },
       "mobqq00_2@nwbeaches" : {
          "damage" : "9",
-         "location" : "beachQQ06",
+         "location" : "beachqq06@nwbeaches",
          "armor" : "4",
          "name" : "mobQQ00_2",
          "examine" : "\nLooks like every other pelican you've seen....\n",
@@ -1140,7 +1140,7 @@
       },
       "mobqq01_1@nwbeaches" : {
          "damage" : "11",
-         "location" : "beachQQ04",
+         "location" : "beachqq04@nwbeaches",
          "armor" : "4",
          "name" : "mobQQ01_1",
          "examine" : "\nCute little guy, even though he looks a bit slimy.\n",
@@ -1158,7 +1158,7 @@
       },
       "mobqq00_1@nwbeaches" : {
          "damage" : "9",
-         "location" : "beachQQ07",
+         "location" : "beachqq07@nwbeaches",
          "armor" : "4",
          "name" : "mobQQ00_1",
          "examine" : "\nLooks like every other pelican you've seen....\n",
@@ -1176,7 +1176,7 @@
       },
       "mobqq01_2@nwbeaches" : {
          "damage" : "11",
-         "location" : "beachQQ05",
+         "location" : "beachqq05@nwbeaches",
          "armor" : "4",
          "name" : "mobQQ01_2",
          "examine" : "\nCute little guy, even though he looks a bit slimy.\n",
@@ -1194,7 +1194,7 @@
       },
       "mobqq08@nwbeaches" : {
          "damage" : "16",
-         "location" : "beachQQ21",
+         "location" : "beachqq21@nwbeaches",
          "armor" : "16",
          "name" : "mobQQ08",
          "examine" : "\nSuch a kind looking lady, I'm sure she'd let you stay to dinner\nif you had the urge.\n",
@@ -1212,7 +1212,7 @@
       },
       "mobqq12_1@nwbeaches" : {
          "damage" : "21",
-         "location" : "beachQQ19",
+         "location" : "beachqq19@nwbeaches",
          "armor" : "22",
          "name" : "mobQQ12_1",
          "examine" : "\nMan this guy smells bad!\n",
@@ -1228,7 +1228,7 @@
       },
       "mobqq12_4@nwbeaches" : {
          "damage" : "21",
-         "location" : "beachQQ17",
+         "location" : "beachqq17@nwbeaches",
          "armor" : "22",
          "name" : "mobQQ12_4",
          "examine" : "\nMan this guy smells bad!\n",

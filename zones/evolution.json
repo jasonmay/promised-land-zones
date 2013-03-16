@@ -2,7 +2,7 @@
    "obj" : {
       "sharkjaw@evolution" : {
          "damage" : "14",
-         "location" : "IN_ROOM:WaistDeep@eastcoast",
+         "location" : "IN_ROOM:waistdeep@eastcoast",
          "oflags" : [
             "Container",
             "Weapon"
@@ -20,7 +20,7 @@
       },
       "sharktooth8@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:mud",
+         "location" : "IN_CONTAINER:mud@evolution",
          "armor" : "0",
          "name" : "sharktooth8",
          "examine" : " \nIt is sharp and the root is intact.",
@@ -34,7 +34,7 @@
       },
       "sharktooth5@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:mud",
+         "location" : "IN_CONTAINER:mud@evolution",
          "armor" : "0",
          "name" : "sharktooth5",
          "examine" : " \nIt is sharp and the root is intact.",
@@ -48,7 +48,7 @@
       },
       "megazostrodon@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:jura3",
+         "location" : "IN_ROOM:jura3@evolution",
          "oflags" : [
             "Destroyed"
          ],
@@ -65,7 +65,7 @@
       },
       "diplocaulus@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:perm6",
+         "location" : "IN_ROOM:perm6@evolution",
          "oflags" : [
             "Destroyed"
          ],
@@ -82,7 +82,7 @@
       },
       "sharktooth1@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:mud",
+         "location" : "IN_CONTAINER:mud@evolution",
          "armor" : "0",
          "name" : "sharktooth1",
          "examine" : " \nIt is sharp and the root is intact.",
@@ -96,7 +96,7 @@
       },
       "sharktooth2@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:mud",
+         "location" : "IN_CONTAINER:mud@evolution",
          "armor" : "0",
          "name" : "sharktooth2",
          "examine" : " \nIt is sharp and the root is intact.",
@@ -110,7 +110,7 @@
       },
       "notes@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:ammonite",
+         "location" : "IN_CONTAINER:ammonite@evolution",
          "oflags" : "{  }",
          "armor" : "0",
          "name" : "notes",
@@ -123,7 +123,7 @@
       },
       "icaronycteris@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:eoce1",
+         "location" : "IN_ROOM:eoce1@evolution",
          "oflags" : [
             "Destroyed"
          ],
@@ -140,7 +140,7 @@
       },
       "carcass@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:tria5",
+         "location" : "IN_ROOM:tria5@evolution",
          "oflags" : [
             "Container"
          ],
@@ -155,7 +155,7 @@
       },
       "rightbreast@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:carcass",
+         "location" : "IN_CONTAINER:carcass@evolution",
          "oflags" : [
             "Food"
          ],
@@ -170,7 +170,7 @@
       },
       "ammonite@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:ordo1",
+         "location" : "IN_ROOM:ordo1@evolution",
          "oflags" : [
             "Container"
          ],
@@ -186,7 +186,7 @@
       },
       "stump@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:carb1",
+         "location" : "IN_ROOM:carb1@evolution",
          "oflags" : [
             "NoGet",
             "Container"
@@ -203,7 +203,7 @@
       },
       "head@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:carcass",
+         "location" : "IN_CONTAINER:carcass@evolution",
          "oflags" : "{  }",
          "armor" : "0",
          "name" : "head",
@@ -216,7 +216,7 @@
       },
       "leftbreast@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:carcass",
+         "location" : "IN_CONTAINER:carcass@evolution",
          "oflags" : [
             "Food"
          ],
@@ -231,7 +231,7 @@
       },
       "sharktooth3@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:mud",
+         "location" : "IN_CONTAINER:mud@evolution",
          "armor" : "0",
          "name" : "sharktooth3",
          "examine" : " \nIt is sharp and the root is intact.",
@@ -245,7 +245,7 @@
       },
       "map@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:ammonite",
+         "location" : "IN_CONTAINER:ammonite@evolution",
          "oflags" : "{  }",
          "armor" : "0",
          "name" : "map",
@@ -259,7 +259,7 @@
       },
       "sharktooth4@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:mud",
+         "location" : "IN_CONTAINER:mud@evolution",
          "armor" : "0",
          "name" : "sharktooth4",
          "examine" : " \nIt is sharp and the root is intact.",
@@ -273,7 +273,7 @@
       },
       "hylonomus@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:stump",
+         "location" : "IN_CONTAINER:stump@evolution",
          "armor" : "0",
          "altname" : "skeleton",
          "name" : "hylonomus",
@@ -287,7 +287,7 @@
       },
       "leaves@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:tria3",
+         "location" : "IN_ROOM:tria3@evolution",
          "oflags" : [
             "NoGet"
          ],
@@ -303,7 +303,7 @@
       },
       "stone@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:jura13",
+         "location" : "IN_ROOM:jura13@evolution",
          "oflags" : [
             "NoGet"
          ],
@@ -319,7 +319,7 @@
       },
       "leftarm@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:carcass",
+         "location" : "IN_CONTAINER:carcass@evolution",
          "oflags" : [
             "Food"
          ],
@@ -334,7 +334,7 @@
       },
       "crevice@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:jura7",
+         "location" : "IN_ROOM:jura7@evolution",
          "oflags" : [
             "NoGet",
             "Container"
@@ -351,7 +351,7 @@
       },
       "leftleg@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:carcass",
+         "location" : "IN_CONTAINER:carcass@evolution",
          "oflags" : [
             "Food"
          ],
@@ -366,7 +366,7 @@
       },
       "glevosaurus@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:tria3",
+         "location" : "IN_ROOM:tria3@evolution",
          "oflags" : [
             "Destroyed"
          ],
@@ -383,7 +383,7 @@
       },
       "sharktooth7@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:mud",
+         "location" : "IN_CONTAINER:mud@evolution",
          "armor" : "0",
          "name" : "sharktooth7",
          "examine" : " \nIt is sharp and the root is intact.",
@@ -397,7 +397,7 @@
       },
       "trunkshield@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:devo1",
+         "location" : "IN_ROOM:devo1@evolution",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -414,7 +414,7 @@
       },
       "carapace@evolution" : {
          "damage" : "0",
-         "location" : "WORN_BY:glyptotherium",
+         "location" : "WORN_BY:glyptotherium@evolution",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -434,7 +434,7 @@
       },
       "astraspis@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:ordo3",
+         "location" : "IN_ROOM:ordo3@evolution",
          "oflags" : [
             "Destroyed"
          ],
@@ -451,7 +451,7 @@
       },
       "mud@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:permsea3",
+         "location" : "IN_ROOM:permsea3@evolution",
          "oflags" : [
             "NoGet",
             "Container"
@@ -468,7 +468,7 @@
       },
       "sharktooth6@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:mud",
+         "location" : "IN_CONTAINER:mud@evolution",
          "armor" : "0",
          "name" : "sharktooth6",
          "examine" : " \nIt is sharp and the root is intact.",
@@ -482,7 +482,7 @@
       },
       "microtus@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:carapace",
+         "location" : "IN_CONTAINER:carapace@evolution",
          "armor" : "0",
          "altname" : "skeleton",
          "name" : "microtus",
@@ -497,7 +497,7 @@
       "twig@evolution" : {
          "desc[1]" : "\nA twig has fallen from one of the trees on to the ground here.",
          "damage" : "0",
-         "location" : "IN_ROOM:carb1",
+         "location" : "IN_ROOM:carb1@evolution",
          "oflags" : [
             "Lightable",
             "Extinguish"
@@ -514,7 +514,7 @@
       },
       "femur@evolution" : {
          "damage" : "11",
-         "location" : "IN_ROOM:cret4",
+         "location" : "IN_ROOM:cret4@evolution",
          "oflags" : [
             "Weapon"
          ],
@@ -530,7 +530,7 @@
       },
       "branch@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:jura3",
+         "location" : "IN_ROOM:jura3@evolution",
          "oflags" : [
             "NoGet"
          ],
@@ -546,7 +546,7 @@
       },
       "rightleg@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:carcass",
+         "location" : "IN_CONTAINER:carcass@evolution",
          "oflags" : [
             "Food"
          ],
@@ -561,7 +561,7 @@
       },
       "ardeosaurus@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:jura13",
+         "location" : "IN_ROOM:jura13@evolution",
          "oflags" : [
             "Destroyed"
          ],
@@ -578,7 +578,7 @@
       },
       "raptorclaw@evolution" : {
          "damage" : "22",
-         "location" : "CARRIED_BY:deinonychus",
+         "location" : "CARRIED_BY:deinonychus@evolution",
          "oflags" : [
             "Weapon"
          ],
@@ -595,7 +595,7 @@
       },
       "aqualung@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:StoreRoom@eastcoast",
+         "location" : "IN_ROOM:storeroom@eastcoast",
          "oflags" : [
             "Wearable",
             "Breathe"
@@ -615,7 +615,7 @@
       },
       "alphadon@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:cret8",
+         "location" : "IN_ROOM:cret8@evolution",
          "armor" : "0",
          "altname" : "skeleton",
          "name" : "alphadon",
@@ -629,7 +629,7 @@
       },
       "rightarm@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:carcass",
+         "location" : "IN_CONTAINER:carcass@evolution",
          "oflags" : [
             "Food"
          ],
@@ -644,7 +644,7 @@
       },
       "tree@evolution" : {
          "damage" : "0",
-         "location" : "IN_ROOM:eoce1",
+         "location" : "IN_ROOM:eoce1@evolution",
          "oflags" : [
             "NoGet"
          ],
@@ -660,7 +660,7 @@
       },
       "archaeopteryx@evolution" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:crevice",
+         "location" : "IN_CONTAINER:crevice@evolution",
          "armor" : "0",
          "altname" : "skeleton",
          "name" : "archaeopteryx",
@@ -676,8 +676,8 @@
    "loc" : {
       "plei6@evolution" : {
          "exits" : {
-            "n" : "holo1",
-            "s" : "plei5"
+            "n" : "holo1@evolution",
+            "s" : "plei5@evolution"
          },
          "flags" : [
             "Dark"
@@ -690,9 +690,9 @@
       },
       "permsea2@evolution" : {
          "exits" : {
-            "n" : "permsea4",
-            "d" : "permsea3",
-            "s" : "permsea1"
+            "n" : "permsea4@evolution",
+            "d" : "permsea3@evolution",
+            "s" : "permsea1@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -706,8 +706,8 @@
       },
       "carb1@evolution" : {
          "exits" : {
-            "w" : "devo8",
-            "e" : "carb2"
+            "w" : "devo8@evolution",
+            "e" : "carb2@evolution"
          },
          "flags" : [
             "Outdoors",
@@ -721,9 +721,9 @@
       },
       "cret2@evolution" : {
          "exits" : {
-            "e" : "cret3",
-            "n" : "cret5",
-            "s" : "cret1"
+            "e" : "cret3@evolution",
+            "n" : "cret5@evolution",
+            "s" : "cret1@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -736,9 +736,9 @@
       },
       "camb1@evolution" : {
          "exits" : {
-            "e" : "camb2",
+            "e" : "camb2@evolution",
             "u" : "jetty@village",
-            "n" : "ordo1"
+            "n" : "ordo1@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -753,8 +753,8 @@
       },
       "jura14@evolution" : {
          "exits" : {
-            "e" : "cret1",
-            "n" : "jura12"
+            "e" : "cret1@evolution",
+            "n" : "jura12@evolution"
          },
          "flags" : [
             "Outdoors",
@@ -768,9 +768,9 @@
       },
       "jurasea2@evolution" : {
          "exits" : {
-            "w" : "jurasea4",
-            "n" : "jurasea3",
-            "s" : "jurasea1"
+            "w" : "jurasea4@evolution",
+            "n" : "jurasea3@evolution",
+            "s" : "jurasea1@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -784,8 +784,8 @@
       },
       "tria8@evolution" : {
          "exits" : {
-            "e" : "tria1",
-            "n" : "tria9"
+            "e" : "tria1@evolution",
+            "n" : "tria9@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -798,8 +798,8 @@
       },
       "tria6@evolution" : {
          "exits" : {
-            "w" : "tria4",
-            "s" : "tria5"
+            "w" : "tria4@evolution",
+            "s" : "tria5@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -812,9 +812,9 @@
       },
       "tria1@evolution" : {
          "exits" : {
-            "w" : "tria8",
-            "n" : "tria2",
-            "s" : "perm2"
+            "w" : "tria8@evolution",
+            "n" : "tria2@evolution",
+            "s" : "perm2@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -827,8 +827,8 @@
       },
       "permsea4@evolution" : {
          "exits" : {
-            "w" : "triasea1",
-            "s" : "permsea2"
+            "w" : "triasea1@evolution",
+            "s" : "permsea2@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -842,9 +842,9 @@
       },
       "cretsea5@evolution" : {
          "exits" : {
-            "w" : "cretsea4",
-            "e" : "cretsea7",
-            "s" : "cretsea6"
+            "w" : "cretsea4@evolution",
+            "e" : "cretsea7@evolution",
+            "s" : "cretsea6@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -858,10 +858,10 @@
       },
       "carb5@evolution" : {
          "exits" : {
-            "w" : "carb5",
-            "e" : "carb4",
-            "n" : "carb2",
-            "s" : "carb3"
+            "w" : "carb5@evolution",
+            "e" : "carb4@evolution",
+            "n" : "carb2@evolution",
+            "s" : "carb3@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -874,8 +874,8 @@
       },
       "triasea5@evolution" : {
          "exits" : {
-            "e" : "triasea3",
-            "s" : "triasea4"
+            "e" : "triasea3@evolution",
+            "s" : "triasea4@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -889,8 +889,8 @@
       },
       "perm5@evolution" : {
          "exits" : {
-            "n" : "perm1",
-            "s" : "perm6"
+            "n" : "perm1@evolution",
+            "s" : "perm6@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -903,7 +903,7 @@
       },
       "plio2@evolution" : {
          "exits" : {
-            "n" : "plio1"
+            "n" : "plio1@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -916,10 +916,10 @@
       },
       "cret18@evolution" : {
          "exits" : {
-            "w" : "cret21",
-            "e" : "cret17",
-            "n" : "cret19",
-            "s" : "cret20"
+            "w" : "cret21@evolution",
+            "e" : "cret17@evolution",
+            "n" : "cret19@evolution",
+            "s" : "cret20@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -932,10 +932,10 @@
       },
       "devo2@evolution" : {
          "exits" : {
-            "w" : "devo2",
-            "e" : "devo3",
-            "n" : "devo2",
-            "s" : "devo3"
+            "w" : "devo2@evolution",
+            "e" : "devo3@evolution",
+            "n" : "devo2@evolution",
+            "s" : "devo3@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -949,7 +949,7 @@
       },
       "eoce3@evolution" : {
          "exits" : {
-            "s" : "eoce2"
+            "s" : "eoce2@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -962,8 +962,8 @@
       },
       "cret12@evolution" : {
          "exits" : {
-            "e" : "cret10",
-            "n" : "cret13"
+            "e" : "cret10@evolution",
+            "n" : "cret13@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -976,9 +976,9 @@
       },
       "mioc3@evolution" : {
          "exits" : {
-            "w" : "plio1",
-            "e" : "mioc2",
-            "s" : "mioc4"
+            "w" : "plio1@evolution",
+            "e" : "mioc2@evolution",
+            "s" : "mioc4@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -991,7 +991,7 @@
       },
       "jura13@evolution" : {
          "exits" : {
-            "s" : "jura12"
+            "s" : "jura12@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1004,7 +1004,7 @@
       },
       "perm6@evolution" : {
          "exits" : {
-            "n" : "perm5"
+            "n" : "perm5@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1017,8 +1017,8 @@
       },
       "cret11@evolution" : {
          "exits" : {
-            "w" : "cret13",
-            "s" : "cret10"
+            "w" : "cret13@evolution",
+            "s" : "cret10@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1031,7 +1031,7 @@
       },
       "camb3@evolution" : {
          "exits" : {
-            "s" : "camb2"
+            "s" : "camb2@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1045,7 +1045,7 @@
       },
       "ordo4@evolution" : {
          "exits" : {
-            "w" : "ordo3"
+            "w" : "ordo3@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1059,8 +1059,8 @@
       },
       "jurasea4@evolution" : {
          "exits" : {
-            "e" : "jurasea2",
-            "n" : "jurasea5"
+            "e" : "jurasea2@evolution",
+            "n" : "jurasea5@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1074,9 +1074,9 @@
       },
       "permsea1@evolution" : {
          "exits" : {
-            "e" : "carbsea2",
-            "n" : "permsea2",
-            "s" : "carbsea3"
+            "e" : "carbsea2@evolution",
+            "n" : "permsea2@evolution",
+            "s" : "carbsea3@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1091,8 +1091,8 @@
       },
       "ordo3@evolution" : {
          "exits" : {
-            "w" : "ordo1",
-            "e" : "ordo4"
+            "w" : "ordo1@evolution",
+            "e" : "ordo4@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1106,8 +1106,8 @@
       },
       "cret20@evolution" : {
          "exits" : {
-            "w" : "cret22",
-            "n" : "cret18"
+            "w" : "cret22@evolution",
+            "n" : "cret18@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1120,8 +1120,8 @@
       },
       "cret17@evolution" : {
          "exits" : {
-            "w" : "cret18",
-            "e" : "cret15"
+            "w" : "cret18@evolution",
+            "e" : "cret15@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1134,9 +1134,9 @@
       },
       "plio1@evolution" : {
          "exits" : {
-            "e" : "mioc3",
-            "n" : "plei1",
-            "s" : "plio2"
+            "e" : "mioc3@evolution",
+            "n" : "plei1@evolution",
+            "s" : "plio2@evolution"
          },
          "flags" : [
             "Outdoors",
@@ -1150,9 +1150,9 @@
       },
       "cret22@evolution" : {
          "exits" : {
-            "w" : "cretsea7",
-            "e" : "cret20",
-            "n" : "cret21"
+            "w" : "cretsea7@evolution",
+            "e" : "cret20@evolution",
+            "n" : "cret21@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1165,9 +1165,9 @@
       },
       "jurasea5@evolution" : {
          "exits" : {
-            "e" : "jurasea3",
-            "n" : "cretsea1",
-            "s" : "jurasea4"
+            "e" : "jurasea3@evolution",
+            "n" : "cretsea1@evolution",
+            "s" : "jurasea4@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1181,9 +1181,9 @@
       },
       "silu1@evolution" : {
          "exits" : {
-            "w" : "silu4",
-            "e" : "ordo1",
-            "n" : "silu2"
+            "w" : "silu4@evolution",
+            "e" : "ordo1@evolution",
+            "n" : "silu2@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1197,9 +1197,9 @@
       },
       "cretsea3@evolution" : {
          "exits" : {
-            "w" : "cretsea1",
-            "e" : "cretsea6",
-            "n" : "cretsea4"
+            "w" : "cretsea1@evolution",
+            "e" : "cretsea6@evolution",
+            "n" : "cretsea4@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1213,7 +1213,7 @@
       },
       "perm3@evolution" : {
          "exits" : {
-            "w" : "perm2"
+            "w" : "perm2@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1226,8 +1226,8 @@
       },
       "jura9@evolution" : {
          "exits" : {
-            "e" : "jura10",
-            "s" : "jura8"
+            "e" : "jura10@evolution",
+            "s" : "jura8@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1240,8 +1240,8 @@
       },
       "tria9@evolution" : {
          "exits" : {
-            "u" : "jura1",
-            "s" : "tria8"
+            "u" : "jura1@evolution",
+            "s" : "tria8@evolution"
          },
          "flags" : [
             "Outdoors",
@@ -1255,10 +1255,10 @@
       },
       "carb6@evolution" : {
          "exits" : {
-            "w" : "carb5",
-            "e" : "carb3",
-            "n" : "carb7",
-            "s" : "carb4"
+            "w" : "carb5@evolution",
+            "e" : "carb3@evolution",
+            "n" : "carb7@evolution",
+            "s" : "carb4@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1271,7 +1271,7 @@
       },
       "ordo2@evolution" : {
          "exits" : {
-            "s" : "ordo1"
+            "s" : "ordo1@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1286,8 +1286,8 @@
       },
       "cretsea6@evolution" : {
          "exits" : {
-            "w" : "cretsea3",
-            "n" : "cretsea5"
+            "w" : "cretsea3@evolution",
+            "n" : "cretsea5@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1301,9 +1301,9 @@
       },
       "devo6@evolution" : {
          "exits" : {
-            "e" : "devo7",
-            "n" : "carbsea1",
-            "d" : "devo5"
+            "e" : "devo7@evolution",
+            "n" : "carbsea1@evolution",
+            "d" : "devo5@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1318,9 +1318,9 @@
       },
       "tria5@evolution" : {
          "exits" : {
-            "w" : "tria3",
-            "e" : "tria7",
-            "n" : "tria6"
+            "w" : "tria3@evolution",
+            "e" : "tria7@evolution",
+            "n" : "tria6@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1333,8 +1333,8 @@
       },
       "cret21@evolution" : {
          "exits" : {
-            "e" : "cret18",
-            "s" : "cret22"
+            "e" : "cret18@evolution",
+            "s" : "cret22@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1347,10 +1347,10 @@
       },
       "carb2@evolution" : {
          "exits" : {
-            "w" : "devo7",
-            "e" : "carb4",
-            "n" : "carb3",
-            "s" : "carb5"
+            "w" : "devo7@evolution",
+            "e" : "carb4@evolution",
+            "n" : "carb3@evolution",
+            "s" : "carb5@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1363,7 +1363,7 @@
       },
       "eoce5@evolution" : {
          "exits" : {
-            "n" : "eoce1"
+            "n" : "eoce1@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1376,8 +1376,8 @@
       },
       "pala3@evolution" : {
          "exits" : {
-            "e" : "pala4",
-            "s" : "pala2"
+            "e" : "pala4@evolution",
+            "s" : "pala2@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1390,9 +1390,9 @@
       },
       "jura12@evolution" : {
          "exits" : {
-            "w" : "jura11",
-            "n" : "jura13",
-            "s" : "jura14"
+            "w" : "jura11@evolution",
+            "n" : "jura13@evolution",
+            "s" : "jura14@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1405,10 +1405,10 @@
       },
       "perm2@evolution" : {
          "exits" : {
-            "w" : "perm4",
-            "e" : "perm3",
-            "n" : "tria1",
-            "s" : "perm1"
+            "w" : "perm4@evolution",
+            "e" : "perm3@evolution",
+            "n" : "tria1@evolution",
+            "s" : "perm1@evolution"
          },
          "flags" : [
             "Outdoors",
@@ -1422,9 +1422,9 @@
       },
       "pala1@evolution" : {
          "exits" : {
-            "n" : "pala2",
-            "d" : "pala2",
-            "s" : "cret7"
+            "n" : "pala2@evolution",
+            "d" : "pala2@evolution",
+            "s" : "cret7@evolution"
          },
          "flags" : [
             "Outdoors",
@@ -1438,9 +1438,9 @@
       },
       "cretsea4@evolution" : {
          "exits" : {
-            "w" : "cretsea2",
-            "e" : "cretsea5",
-            "s" : "cretsea3"
+            "w" : "cretsea2@evolution",
+            "e" : "cretsea5@evolution",
+            "s" : "cretsea3@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1454,8 +1454,8 @@
       },
       "plei3@evolution" : {
          "exits" : {
-            "e" : "plei1",
-            "n" : "plei4"
+            "e" : "plei1@evolution",
+            "n" : "plei4@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1468,10 +1468,10 @@
       },
       "devo3@evolution" : {
          "exits" : {
-            "w" : "devo2",
-            "e" : "devo3",
-            "n" : "devo4",
-            "s" : "devo2"
+            "w" : "devo2@evolution",
+            "e" : "devo3@evolution",
+            "n" : "devo4@evolution",
+            "s" : "devo2@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1485,9 +1485,9 @@
       },
       "devo7@evolution" : {
          "exits" : {
-            "w" : "devo6",
-            "e" : "carb2",
-            "n" : "devo8"
+            "w" : "devo6@evolution",
+            "e" : "carb2@evolution",
+            "n" : "devo8@evolution"
          },
          "flags" : [
             "Outdoors",
@@ -1501,9 +1501,9 @@
       },
       "silu3@evolution" : {
          "exits" : {
-            "e" : "silu2",
-            "u" : "devo1",
-            "s" : "silu4"
+            "e" : "silu2@evolution",
+            "u" : "devo1@evolution",
+            "s" : "silu4@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1517,10 +1517,10 @@
       },
       "eoce1@evolution" : {
          "exits" : {
-            "w" : "pala2",
-            "e" : "olig1",
-            "n" : "eoce2",
-            "s" : "eoce5"
+            "w" : "pala2@evolution",
+            "e" : "olig1@evolution",
+            "n" : "eoce2@evolution",
+            "s" : "eoce5@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1533,8 +1533,8 @@
       },
       "jura3@evolution" : {
          "exits" : {
-            "w" : "jura2",
-            "s" : "jura1"
+            "w" : "jura2@evolution",
+            "s" : "jura1@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1547,7 +1547,7 @@
       },
       "perm4@evolution" : {
          "exits" : {
-            "e" : "perm2"
+            "e" : "perm2@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1560,7 +1560,7 @@
       },
       "cret16@evolution" : {
          "exits" : {
-            "w" : "cret15"
+            "w" : "cret15@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1573,9 +1573,9 @@
       },
       "cret9@evolution" : {
          "exits" : {
-            "w" : "cret10",
-            "n" : "cret8",
-            "d" : "cret10"
+            "w" : "cret10@evolution",
+            "n" : "cret8@evolution",
+            "d" : "cret10@evolution"
          },
          "flags" : [
             "Outdoors",
@@ -1589,11 +1589,11 @@
       },
       "devo5@evolution" : {
          "exits" : {
-            "w" : "devo5",
-            "e" : "devo3",
-            "u" : "devo6",
-            "n" : "devo2",
-            "s" : "devo4"
+            "w" : "devo5@evolution",
+            "e" : "devo3@evolution",
+            "u" : "devo6@evolution",
+            "n" : "devo2@evolution",
+            "s" : "devo4@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1607,10 +1607,10 @@
       },
       "carb7@evolution" : {
          "exits" : {
-            "w" : "carb8",
-            "e" : "carb5",
-            "n" : "carb4",
-            "s" : "carb3"
+            "w" : "carb8@evolution",
+            "e" : "carb5@evolution",
+            "n" : "carb4@evolution",
+            "s" : "carb3@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1623,9 +1623,9 @@
       },
       "pala2@evolution" : {
          "exits" : {
-            "e" : "eoce1",
-            "n" : "pala3",
-            "s" : "pala1"
+            "e" : "eoce1@evolution",
+            "n" : "pala3@evolution",
+            "s" : "pala1@evolution"
          },
          "flags" : [
             "Outdoors",
@@ -1639,9 +1639,9 @@
       },
       "jura4@evolution" : {
          "exits" : {
-            "w" : "jura6",
-            "e" : "jura5",
-            "s" : "jura2"
+            "w" : "jura6@evolution",
+            "e" : "jura5@evolution",
+            "s" : "jura2@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1654,8 +1654,8 @@
       },
       "triasea4@evolution" : {
          "exits" : {
-            "e" : "triasea2",
-            "n" : "triasea5"
+            "e" : "triasea2@evolution",
+            "n" : "triasea5@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1669,8 +1669,8 @@
       },
       "holo1@evolution" : {
          "exits" : {
-            "w" : "StoreRoom@eastcoast",
-            "s" : "plei6"
+            "w" : "storeroom@eastcoast",
+            "s" : "plei6@evolution"
          },
          "flags" : [],
          "zone" : "evolution",
@@ -1681,9 +1681,9 @@
       },
       "silu4@evolution" : {
          "exits" : {
-            "e" : "silu1",
-            "u" : "devo1",
-            "n" : "silu3"
+            "e" : "silu1@evolution",
+            "u" : "devo1@evolution",
+            "n" : "silu3@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1697,7 +1697,7 @@
       },
       "pala4@evolution" : {
          "exits" : {
-            "w" : "pala3"
+            "w" : "pala3@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1710,9 +1710,9 @@
       },
       "cret5@evolution" : {
          "exits" : {
-            "e" : "cret4",
-            "n" : "cret6",
-            "s" : "cret2"
+            "e" : "cret4@evolution",
+            "n" : "cret6@evolution",
+            "s" : "cret2@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1725,8 +1725,8 @@
       },
       "mioc2@evolution" : {
          "exits" : {
-            "w" : "mioc3",
-            "s" : "mioc1"
+            "w" : "mioc3@evolution",
+            "s" : "mioc1@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1739,9 +1739,9 @@
       },
       "mioc1@evolution" : {
          "exits" : {
-            "w" : "mioc4",
-            "e" : "olig2",
-            "n" : "mioc2"
+            "w" : "mioc4@evolution",
+            "e" : "olig2@evolution",
+            "n" : "mioc2@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1754,8 +1754,8 @@
       },
       "carbsea2@evolution" : {
          "exits" : {
-            "w" : "permsea1",
-            "s" : "carbsea1"
+            "w" : "permsea1@evolution",
+            "s" : "carbsea1@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1769,8 +1769,8 @@
       },
       "tria4@evolution" : {
          "exits" : {
-            "e" : "tria6",
-            "s" : "tria3"
+            "e" : "tria6@evolution",
+            "s" : "tria3@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1783,9 +1783,9 @@
       },
       "jura1@evolution" : {
          "exits" : {
-            "w" : "jura7",
-            "n" : "jura2",
-            "d" : "tria9"
+            "w" : "jura7@evolution",
+            "n" : "jura2@evolution",
+            "d" : "tria9@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1798,9 +1798,9 @@
       },
       "tria3@evolution" : {
          "exits" : {
-            "w" : "tria2",
-            "e" : "tria5",
-            "n" : "tria4"
+            "w" : "tria2@evolution",
+            "e" : "tria5@evolution",
+            "n" : "tria4@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1813,8 +1813,8 @@
       },
       "plei2@evolution" : {
          "exits" : {
-            "w" : "plei4",
-            "s" : "plei1"
+            "w" : "plei4@evolution",
+            "s" : "plei1@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1827,8 +1827,8 @@
       },
       "jurasea3@evolution" : {
          "exits" : {
-            "w" : "jurasea5",
-            "s" : "jurasea2"
+            "w" : "jurasea5@evolution",
+            "s" : "jurasea2@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1842,7 +1842,7 @@
       },
       "cret19@evolution" : {
          "exits" : {
-            "s" : "cret18"
+            "s" : "cret18@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1855,10 +1855,10 @@
       },
       "ordo1@evolution" : {
          "exits" : {
-            "w" : "silu1",
-            "e" : "ordo3",
-            "n" : "ordo2",
-            "s" : "camb1"
+            "w" : "silu1@evolution",
+            "e" : "ordo3@evolution",
+            "n" : "ordo2@evolution",
+            "s" : "camb1@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1873,9 +1873,9 @@
       },
       "cret13@evolution" : {
          "exits" : {
-            "w" : "cret14",
-            "e" : "cret11",
-            "s" : "cret12"
+            "w" : "cret14@evolution",
+            "e" : "cret11@evolution",
+            "s" : "cret12@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1888,9 +1888,9 @@
       },
       "plei4@evolution" : {
          "exits" : {
-            "w" : "plei5",
-            "e" : "plei2",
-            "s" : "plei3"
+            "w" : "plei5@evolution",
+            "e" : "plei2@evolution",
+            "s" : "plei3@evolution"
          },
          "flags" : [
             "Outdoors",
@@ -1904,7 +1904,7 @@
       },
       "devo9@evolution" : {
          "exits" : {
-            "s" : "devo8"
+            "s" : "devo8@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1917,8 +1917,8 @@
       },
       "jura5@evolution" : {
          "exits" : {
-            "w" : "jura4",
-            "s" : "jura3"
+            "w" : "jura4@evolution",
+            "s" : "jura3@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -1931,9 +1931,9 @@
       },
       "carbsea1@evolution" : {
          "exits" : {
-            "w" : "carbsea3",
-            "n" : "carbsea2",
-            "s" : "devo6"
+            "w" : "carbsea3@evolution",
+            "n" : "carbsea2@evolution",
+            "s" : "devo6@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1947,8 +1947,8 @@
       },
       "triasea1@evolution" : {
          "exits" : {
-            "w" : "triasea2",
-            "e" : "permsea4"
+            "w" : "triasea2@evolution",
+            "e" : "permsea4@evolution"
          },
          "flags" : [
             "Outdoors",
@@ -1962,8 +1962,8 @@
       },
       "carb8@evolution" : {
          "exits" : {
-            "e" : "perm1",
-            "s" : "carb2"
+            "e" : "perm1@evolution",
+            "s" : "carb2@evolution"
          },
          "flags" : [
             "Outdoors",
@@ -1977,9 +1977,9 @@
       },
       "triasea2@evolution" : {
          "exits" : {
-            "w" : "triasea4",
-            "e" : "triasea1",
-            "n" : "triasea3"
+            "w" : "triasea4@evolution",
+            "e" : "triasea1@evolution",
+            "n" : "triasea3@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -1993,9 +1993,9 @@
       },
       "plei1@evolution" : {
          "exits" : {
-            "w" : "plei3",
-            "n" : "plei2",
-            "s" : "plio1"
+            "w" : "plei3@evolution",
+            "n" : "plei2@evolution",
+            "s" : "plio1@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2008,10 +2008,10 @@
       },
       "carb4@evolution" : {
          "exits" : {
-            "w" : "carb3",
-            "e" : "carb6",
-            "n" : "carb4",
-            "s" : "carb5"
+            "w" : "carb3@evolution",
+            "e" : "carb6@evolution",
+            "n" : "carb4@evolution",
+            "s" : "carb5@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2024,8 +2024,8 @@
       },
       "devo1@evolution" : {
          "exits" : {
-            "n" : "devo2",
-            "d" : "silu1"
+            "n" : "devo2@evolution",
+            "d" : "silu1@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -2040,8 +2040,8 @@
       },
       "cretsea2@evolution" : {
          "exits" : {
-            "e" : "cretsea4",
-            "s" : "cretsea1"
+            "e" : "cretsea4@evolution",
+            "s" : "cretsea1@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -2055,8 +2055,8 @@
       },
       "cret1@evolution" : {
          "exits" : {
-            "w" : "jura14",
-            "n" : "cret2"
+            "w" : "jura14@evolution",
+            "n" : "cret2@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2069,9 +2069,9 @@
       },
       "triasea3@evolution" : {
          "exits" : {
-            "w" : "triasea5",
-            "e" : "jurasea1",
-            "s" : "triasea2"
+            "w" : "triasea5@evolution",
+            "e" : "jurasea1@evolution",
+            "s" : "triasea2@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -2086,8 +2086,8 @@
       },
       "jura7@evolution" : {
          "exits" : {
-            "e" : "jura1",
-            "n" : "jura8"
+            "e" : "jura1@evolution",
+            "n" : "jura8@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2100,8 +2100,8 @@
       },
       "tria2@evolution" : {
          "exits" : {
-            "e" : "tria3",
-            "s" : "tria1"
+            "e" : "tria3@evolution",
+            "s" : "tria1@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2114,8 +2114,8 @@
       },
       "olig1@evolution" : {
          "exits" : {
-            "w" : "eoce1",
-            "n" : "olig2"
+            "w" : "eoce1@evolution",
+            "n" : "olig2@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2128,8 +2128,8 @@
       },
       "mioc4@evolution" : {
          "exits" : {
-            "e" : "mioc1",
-            "n" : "mioc3"
+            "e" : "mioc1@evolution",
+            "n" : "mioc3@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2142,9 +2142,9 @@
       },
       "eoce2@evolution" : {
          "exits" : {
-            "e" : "eoce4",
-            "n" : "eoce3",
-            "s" : "eoce1"
+            "e" : "eoce4@evolution",
+            "n" : "eoce3@evolution",
+            "s" : "eoce1@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2157,8 +2157,8 @@
       },
       "plei5@evolution" : {
          "exits" : {
-            "e" : "plei4",
-            "n" : "plei6"
+            "e" : "plei4@evolution",
+            "n" : "plei6@evolution"
          },
          "flags" : [
             "Dark"
@@ -2171,7 +2171,7 @@
       },
       "tria7@evolution" : {
          "exits" : {
-            "w" : "tria5"
+            "w" : "tria5@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2184,7 +2184,7 @@
       },
       "eoce4@evolution" : {
          "exits" : {
-            "w" : "eoce2"
+            "w" : "eoce2@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2197,8 +2197,8 @@
       },
       "olig2@evolution" : {
          "exits" : {
-            "w" : "mioc1",
-            "s" : "olig1"
+            "w" : "mioc1@evolution",
+            "s" : "olig1@evolution"
          },
          "flags" : [
             "Outdoors",
@@ -2212,10 +2212,10 @@
       },
       "cret10@evolution" : {
          "exits" : {
-            "w" : "cret12",
-            "e" : "cret9",
-            "u" : "cret9",
-            "n" : "cret11"
+            "w" : "cret12@evolution",
+            "e" : "cret9@evolution",
+            "u" : "cret9@evolution",
+            "n" : "cret11@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2228,8 +2228,8 @@
       },
       "cret6@evolution" : {
          "exits" : {
-            "w" : "cret7",
-            "s" : "cret5"
+            "w" : "cret7@evolution",
+            "s" : "cret5@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2242,8 +2242,8 @@
       },
       "jura10@evolution" : {
          "exits" : {
-            "w" : "jura9",
-            "s" : "jura11"
+            "w" : "jura9@evolution",
+            "s" : "jura11@evolution"
          },
          "flags" : [
             "Outdoors",
@@ -2257,7 +2257,7 @@
       },
       "permsea3@evolution" : {
          "exits" : {
-            "u" : "permsea2"
+            "u" : "permsea2@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -2271,8 +2271,8 @@
       },
       "cretsea7@evolution" : {
          "exits" : {
-            "w" : "cretsea5",
-            "e" : "cret22"
+            "w" : "cretsea5@evolution",
+            "e" : "cret22@evolution"
          },
          "flags" : [
             "Outdoors",
@@ -2286,8 +2286,8 @@
       },
       "cret14@evolution" : {
          "exits" : {
-            "e" : "cret13",
-            "s" : "cret15"
+            "e" : "cret13@evolution",
+            "s" : "cret15@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2300,8 +2300,8 @@
       },
       "cret4@evolution" : {
          "exits" : {
-            "w" : "cret5",
-            "s" : "cret3"
+            "w" : "cret5@evolution",
+            "s" : "cret3@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2314,9 +2314,9 @@
       },
       "jura11@evolution" : {
          "exits" : {
-            "w" : "jura8",
-            "e" : "jura12",
-            "n" : "jura10"
+            "w" : "jura8@evolution",
+            "e" : "jura12@evolution",
+            "n" : "jura10@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2329,10 +2329,10 @@
       },
       "carb3@evolution" : {
          "exits" : {
-            "w" : "carb6",
-            "e" : "carb5",
-            "n" : "carb4",
-            "s" : "carb3"
+            "w" : "carb6@evolution",
+            "e" : "carb5@evolution",
+            "n" : "carb4@evolution",
+            "s" : "carb3@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2345,9 +2345,9 @@
       },
       "silu2@evolution" : {
          "exits" : {
-            "w" : "silu3",
-            "u" : "devo1",
-            "s" : "silu1"
+            "w" : "silu3@evolution",
+            "u" : "devo1@evolution",
+            "s" : "silu1@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -2361,9 +2361,9 @@
       },
       "cretsea1@evolution" : {
          "exits" : {
-            "e" : "cretsea3",
-            "n" : "cretsea2",
-            "s" : "jurasea5"
+            "e" : "cretsea3@evolution",
+            "n" : "cretsea2@evolution",
+            "s" : "jurasea5@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -2378,9 +2378,9 @@
       },
       "cret15@evolution" : {
          "exits" : {
-            "w" : "cret17",
-            "e" : "cret16",
-            "n" : "cret14"
+            "w" : "cret17@evolution",
+            "e" : "cret16@evolution",
+            "n" : "cret14@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2393,9 +2393,9 @@
       },
       "cret7@evolution" : {
          "exits" : {
-            "w" : "cret8",
-            "e" : "cret6",
-            "n" : "pala1"
+            "w" : "cret8@evolution",
+            "e" : "cret6@evolution",
+            "n" : "pala1@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2408,10 +2408,10 @@
       },
       "devo4@evolution" : {
          "exits" : {
-            "w" : "devo2",
-            "e" : "devo2",
-            "n" : "devo3",
-            "s" : "devo5"
+            "w" : "devo2@evolution",
+            "e" : "devo2@evolution",
+            "n" : "devo3@evolution",
+            "s" : "devo5@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -2425,8 +2425,8 @@
       },
       "cret8@evolution" : {
          "exits" : {
-            "e" : "cret7",
-            "s" : "cret9"
+            "e" : "cret7@evolution",
+            "s" : "cret9@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2439,8 +2439,8 @@
       },
       "camb2@evolution" : {
          "exits" : {
-            "w" : "camb1",
-            "n" : "camb3"
+            "w" : "camb1@evolution",
+            "n" : "camb3@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -2454,8 +2454,8 @@
       },
       "cret3@evolution" : {
          "exits" : {
-            "w" : "cret2",
-            "n" : "cret4"
+            "w" : "cret2@evolution",
+            "n" : "cret4@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2468,8 +2468,8 @@
       },
       "jura6@evolution" : {
          "exits" : {
-            "e" : "jura4",
-            "s" : "jura3"
+            "e" : "jura4@evolution",
+            "s" : "jura3@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2482,8 +2482,8 @@
       },
       "carbsea3@evolution" : {
          "exits" : {
-            "e" : "carbsea1",
-            "n" : "permsea1"
+            "e" : "carbsea1@evolution",
+            "n" : "permsea1@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -2497,9 +2497,9 @@
       },
       "jura8@evolution" : {
          "exits" : {
-            "e" : "jura11",
-            "n" : "jura9",
-            "s" : "jura7"
+            "e" : "jura11@evolution",
+            "n" : "jura9@evolution",
+            "s" : "jura7@evolution"
          },
          "flags" : [
             "Outdoors",
@@ -2513,8 +2513,8 @@
       },
       "jurasea1@evolution" : {
          "exits" : {
-            "w" : "triasea3",
-            "n" : "jurasea2"
+            "w" : "triasea3@evolution",
+            "n" : "jurasea2@evolution"
          },
          "flags" : [
             "Soundproof",
@@ -2528,9 +2528,9 @@
       },
       "devo8@evolution" : {
          "exits" : {
-            "e" : "carb1",
-            "n" : "devo9",
-            "s" : "devo7"
+            "e" : "carb1@evolution",
+            "n" : "devo9@evolution",
+            "s" : "devo7@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2543,9 +2543,9 @@
       },
       "jura2@evolution" : {
          "exits" : {
-            "e" : "jura3",
-            "n" : "jura4",
-            "s" : "jura1"
+            "e" : "jura3@evolution",
+            "n" : "jura4@evolution",
+            "s" : "jura1@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2558,9 +2558,9 @@
       },
       "perm1@evolution" : {
          "exits" : {
-            "w" : "carb8",
-            "n" : "perm2",
-            "s" : "perm5"
+            "w" : "carb8@evolution",
+            "n" : "perm2@evolution",
+            "s" : "perm5@evolution"
          },
          "flags" : [
             "Outdoors"
@@ -2575,7 +2575,7 @@
    "mob" : {
       "pantolambda@evolution" : {
          "damage" : "7",
-         "location" : "pala4",
+         "location" : "pala4@evolution",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -2586,7 +2586,7 @@
       },
       "askeptosaurus@evolution" : {
          "damage" : "10",
-         "location" : "triasea2",
+         "location" : "triasea2@evolution",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -2600,7 +2600,7 @@
       },
       "lambeosaurus@evolution" : {
          "damage" : "10",
-         "location" : "cret7",
+         "location" : "cret7@evolution",
          "armor" : "0",
          "name" : "Lambeosaurus",
          "examine" : "\nShe is truly gargantuan, fifty feet long, but fortunately only a plant-eater\nand not interested in you in the slightest.",
@@ -2614,7 +2614,7 @@
       },
       "moschops@evolution" : {
          "damage" : "8",
-         "location" : "perm2",
+         "location" : "perm2@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2625,7 +2625,7 @@
       },
       "indricotherium@evolution" : {
          "damage" : "12",
-         "location" : "mioc1",
+         "location" : "mioc1@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2636,7 +2636,7 @@
       },
       "elasmosaurus@evolution" : {
          "damage" : "11",
-         "location" : "cretsea3",
+         "location" : "cretsea3@evolution",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -2650,7 +2650,7 @@
       },
       "xenacanthus@evolution" : {
          "damage" : "12",
-         "location" : "permsea2",
+         "location" : "permsea2@evolution",
          "speed" : "1",
          "aggression" : "50",
          "armor" : "0",
@@ -2664,7 +2664,7 @@
       },
       "arandaspis@evolution" : {
          "damage" : "2",
-         "location" : "ordo4",
+         "location" : "ordo4@evolution",
          "speed" : "4",
          "aggression" : "0",
          "armor" : "0",
@@ -2678,7 +2678,7 @@
       },
       "cetiosaurus@evolution" : {
          "damage" : "10",
-         "location" : "jura14",
+         "location" : "jura14@evolution",
          "armor" : "0",
          "name" : "Cetiosaurus",
          "examine" : "\nShe is truly enormous and you would be a fool to consider attacking her.",
@@ -2692,7 +2692,7 @@
       },
       "pterygotus@evolution" : {
          "damage" : "10",
-         "location" : "silu1",
+         "location" : "silu1@evolution",
          "speed" : "6",
          "aggression" : "30",
          "armor" : "5",
@@ -2706,7 +2706,7 @@
       },
       "kannemeyeria@evolution" : {
          "damage" : "8",
-         "location" : "tria8",
+         "location" : "tria8@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2717,7 +2717,7 @@
       },
       "lystrosaurus@evolution" : {
          "damage" : "8",
-         "location" : "triasea1",
+         "location" : "triasea1@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2728,7 +2728,7 @@
       },
       "tylosaurus@evolution" : {
          "damage" : "15",
-         "location" : "cretsea6",
+         "location" : "cretsea6@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2742,7 +2742,7 @@
       },
       "tenontosaurus@evolution" : {
          "damage" : "8",
-         "location" : "cret2",
+         "location" : "cret2@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2753,7 +2753,7 @@
       },
       "allosaurus@evolution" : {
          "damage" : "32",
-         "location" : "jura13",
+         "location" : "jura13@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2764,7 +2764,7 @@
       },
       "oviraptor@evolution" : {
          "damage" : "10",
-         "location" : "cret19",
+         "location" : "cret19@evolution",
          "speed" : "1",
          "aggression" : "10",
          "armor" : "0",
@@ -2775,7 +2775,7 @@
       },
       "pachycormus@evolution" : {
          "damage" : "10",
-         "location" : "jurasea3",
+         "location" : "jurasea3@evolution",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -2789,7 +2789,7 @@
       },
       "nothosaurus@evolution" : {
          "damage" : "10",
-         "location" : "triasea5",
+         "location" : "triasea5@evolution",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -2803,7 +2803,7 @@
       },
       "climatius@evolution" : {
          "damage" : "4",
-         "location" : "silu3",
+         "location" : "silu3@evolution",
          "speed" : "15",
          "aggression" : "0",
          "armor" : "0",
@@ -2817,7 +2817,7 @@
       },
       "temnodontosaurus@evolution" : {
          "damage" : "10",
-         "location" : "jurasea5",
+         "location" : "jurasea5@evolution",
          "speed" : "1",
          "aggression" : "30",
          "armor" : "0",
@@ -2831,7 +2831,7 @@
       },
       "gigantopithecus@evolution" : {
          "damage" : "12",
-         "location" : "plei1",
+         "location" : "plei1@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2842,7 +2842,7 @@
       },
       "gyracanthus@evolution" : {
          "damage" : "8",
-         "location" : "carbsea1",
+         "location" : "carbsea1@evolution",
          "armor" : "0",
          "name" : "Gyracanthus",
          "examine" : "\nHe is after smaller prey than you.",
@@ -2857,7 +2857,7 @@
       },
       "ankylosaurus@evolution" : {
          "damage" : "15",
-         "location" : "cret6",
+         "location" : "cret6@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "30",
@@ -2869,7 +2869,7 @@
       },
       "glyptotherium@evolution" : {
          "damage" : "10",
-         "location" : "plio2",
+         "location" : "plio2@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "15",
@@ -2880,7 +2880,7 @@
       },
       "camptosaurus@evolution" : {
          "damage" : "10",
-         "location" : "jura9",
+         "location" : "jura9@evolution",
          "armor" : "0",
          "name" : "Camptosaurus",
          "examine" : "\nIt is a large, bulky plant-eater, and looks totally harmless.",
@@ -2894,7 +2894,7 @@
       },
       "heterodontosaurus@evolution" : {
          "damage" : "8",
-         "location" : "jura3",
+         "location" : "jura3@evolution",
          "speed" : "6",
          "aggression" : "0",
          "armor" : "0",
@@ -2905,7 +2905,7 @@
       },
       "teleosaurus@evolution" : {
          "damage" : "15",
-         "location" : "jurasea2",
+         "location" : "jurasea2@evolution",
          "speed" : "1",
          "aggression" : "85",
          "armor" : "20",
@@ -2919,7 +2919,7 @@
       },
       "archelon@evolution" : {
          "damage" : "8",
-         "location" : "cretsea5",
+         "location" : "cretsea5@evolution",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "25",
@@ -2933,7 +2933,7 @@
       },
       "edaphosaurus@evolution" : {
          "damage" : "8",
-         "location" : "perm5",
+         "location" : "perm5@evolution",
          "speed" : "2",
          "aggression" : "0",
          "armor" : "0",
@@ -2944,7 +2944,7 @@
       },
       "shonisaurus@evolution" : {
          "damage" : "10",
-         "location" : "triasea3",
+         "location" : "triasea3@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2958,7 +2958,7 @@
       },
       "eoraptor@evolution" : {
          "damage" : "10",
-         "location" : "tria4",
+         "location" : "tria4@evolution",
          "speed" : "2",
          "aggression" : "0",
          "armor" : "0",
@@ -2969,7 +2969,7 @@
       },
       "anteosaurus@evolution" : {
          "damage" : "12",
-         "location" : "perm3",
+         "location" : "perm3@evolution",
          "speed" : "0",
          "aggression" : "30",
          "armor" : "0",
@@ -2980,7 +2980,7 @@
       },
       "andrewsarchus@evolution" : {
          "damage" : "19",
-         "location" : "eoce5",
+         "location" : "eoce5@evolution",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -2991,7 +2991,7 @@
       },
       "arsinoitherium@evolution" : {
          "damage" : "12",
-         "location" : "olig1",
+         "location" : "olig1@evolution",
          "speed" : "0",
          "aggression" : "2",
          "armor" : "0",
@@ -3002,7 +3002,7 @@
       },
       "deinonychus@evolution" : {
          "damage" : "40",
-         "location" : "cret4",
+         "location" : "cret4@evolution",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -3013,7 +3013,7 @@
       },
       "eusthenopteron@evolution" : {
          "damage" : "5",
-         "location" : "devo8",
+         "location" : "devo8@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -3024,7 +3024,7 @@
       },
       "hesperocyon@evolution" : {
          "damage" : "10",
-         "location" : "mioc2",
+         "location" : "mioc2@evolution",
          "speed" : "3",
          "aggression" : "20",
          "armor" : "0",
@@ -3035,7 +3035,7 @@
       },
       "kentrosaurus@evolution" : {
          "damage" : "15",
-         "location" : "jura4",
+         "location" : "jura4@evolution",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "10",
@@ -3046,7 +3046,7 @@
       },
       "diatryma@evolution" : {
          "damage" : "15",
-         "location" : "pala2",
+         "location" : "pala2@evolution",
          "speed" : "0",
          "aggression" : "30",
          "armor" : "0",
@@ -3057,7 +3057,7 @@
       },
       "ornithosuchus@evolution" : {
          "damage" : "12",
-         "location" : "tria2",
+         "location" : "tria2@evolution",
          "speed" : "0",
          "aggression" : "10",
          "armor" : "0",
@@ -3068,7 +3068,7 @@
       },
       "orodus@evolution" : {
          "damage" : "14",
-         "location" : "carbsea2",
+         "location" : "carbsea2@evolution",
          "speed" : "1",
          "aggression" : "100",
          "armor" : "0",
@@ -3082,7 +3082,7 @@
       },
       "ornithomimus@evolution" : {
          "damage" : "10",
-         "location" : "cret8",
+         "location" : "cret8@evolution",
          "armor" : "0",
          "name" : "Ornithomimus",
          "examine" : "\nHer long legs look like they could deliver a powerful kick.",
@@ -3096,7 +3096,7 @@
       },
       "cladoselache@evolution" : {
          "damage" : "12",
-         "location" : "devo3",
+         "location" : "devo3@evolution",
          "speed" : "4",
          "aggression" : "5",
          "armor" : "0",
@@ -3110,7 +3110,7 @@
       },
       "baryonyx@evolution" : {
          "damage" : "15",
-         "location" : "cret22",
+         "location" : "cret22@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -3121,7 +3121,7 @@
       },
       "merychippus@evolution" : {
          "damage" : "7",
-         "location" : "mioc3",
+         "location" : "mioc3@evolution",
          "armor" : "0",
          "name" : "Merychippus",
          "examine" : "\nShe stands about three feet tall at the shoulder.",
@@ -3135,7 +3135,7 @@
       },
       "utatsusaurus@evolution" : {
          "damage" : "8",
-         "location" : "triasea4",
+         "location" : "triasea4@evolution",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -3149,7 +3149,7 @@
       },
       "albertosaurus@evolution" : {
          "damage" : "20",
-         "location" : "cret11",
+         "location" : "cret11@evolution",
          "armor" : "0",
          "name" : "Albertosaurus",
          "examine" : "\nAlthough not nearly as large as her fearsome cousin, she is nevertheless a\nvery tough opponent.",
@@ -3163,7 +3163,7 @@
       },
       "palaeontologist@evolution" : {
          "damage" : "8",
-         "location" : "holo1",
+         "location" : "holo1@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -3174,7 +3174,7 @@
       },
       "megatherium@evolution" : {
          "damage" : "10",
-         "location" : "plei3",
+         "location" : "plei3@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -3185,7 +3185,7 @@
       },
       "pachycephalosaurus@evolution" : {
          "damage" : "10",
-         "location" : "cret13",
+         "location" : "cret13@evolution",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -3196,7 +3196,7 @@
       },
       "eogyrinus@evolution" : {
          "damage" : "15",
-         "location" : "carb5",
+         "location" : "carb5@evolution",
          "speed" : "2",
          "aggression" : "15",
          "armor" : "0",
@@ -3207,7 +3207,7 @@
       },
       "meganeura@evolution" : {
          "damage" : "2",
-         "location" : "carb4",
+         "location" : "carb4@evolution",
          "armor" : "0",
          "name" : "Meganeura",
          "examine" : "\nIt is the biggest insect that ever lived and it rules the air of its time.",
@@ -3221,7 +3221,7 @@
       },
       "nodosaurus@evolution" : {
          "damage" : "10",
-         "location" : "cret21",
+         "location" : "cret21@evolution",
          "armor" : "25",
          "name" : "Nodosaurus",
          "examine" : "\nShe is well-armoured but not a skilled fighter.",
@@ -3235,7 +3235,7 @@
       },
       "dunkleosteus@evolution" : {
          "damage" : "18",
-         "location" : "devo2",
+         "location" : "devo2@evolution",
          "speed" : "3",
          "aggression" : "70",
          "armor" : "0",
@@ -3249,7 +3249,7 @@
       },
       "dryosaurus@evolution" : {
          "damage" : "10",
-         "location" : "jura11",
+         "location" : "jura11@evolution",
          "speed" : "4",
          "aggression" : "0",
          "armor" : "0",
@@ -3260,7 +3260,7 @@
       },
       "ichthyostega@evolution" : {
          "damage" : "5",
-         "location" : "devo9",
+         "location" : "devo9@evolution",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -3271,7 +3271,7 @@
       },
       "rhomaleosaurus@evolution" : {
          "damage" : "20",
-         "location" : "jurasea4",
+         "location" : "jurasea4@evolution",
          "speed" : "1",
          "aggression" : "100",
          "armor" : "0",
@@ -3285,7 +3285,7 @@
       },
       "parasuchus@evolution" : {
          "damage" : "15",
-         "location" : "tria7",
+         "location" : "tria7@evolution",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "12",
@@ -3296,7 +3296,7 @@
       },
       "anomalocaris@evolution" : {
          "damage" : "8",
-         "location" : "camb2",
+         "location" : "camb2@evolution",
          "speed" : "3",
          "aggression" : "0",
          "armor" : "5",
@@ -3307,7 +3307,7 @@
       },
       "protoceratops@evolution" : {
          "damage" : "10",
-         "location" : "cret16",
+         "location" : "cret16@evolution",
          "armor" : "0",
          "name" : "Protoceratops",
          "examine" : "\nAn early ceratopsian, she has a neck frill but no horns.",
@@ -3321,7 +3321,7 @@
       },
       "mesosaurus@evolution" : {
          "damage" : "8",
-         "location" : "permsea1",
+         "location" : "permsea1@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -3335,7 +3335,7 @@
       },
       "coelophysis@evolution" : {
          "damage" : "12",
-         "location" : "tria5",
+         "location" : "tria5@evolution",
          "speed" : "2",
          "aggression" : "10",
          "armor" : "0",
@@ -3346,7 +3346,7 @@
       },
       "moeritherium@evolution" : {
          "damage" : "7",
-         "location" : "eoce4",
+         "location" : "eoce4@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -3357,7 +3357,7 @@
       },
       "saurolophus@evolution" : {
          "damage" : "10",
-         "location" : "cret10",
+         "location" : "cret10@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -3368,7 +3368,7 @@
       },
       "styracosaurus@evolution" : {
          "damage" : "15",
-         "location" : "cret15",
+         "location" : "cret15@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "20",
@@ -3379,7 +3379,7 @@
       },
       "paradoxides@evolution" : {
          "damage" : "3",
-         "location" : "ordo2",
+         "location" : "ordo2@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "10",
@@ -3393,7 +3393,7 @@
       },
       "neanderthal@evolution" : {
          "damage" : "10",
-         "location" : "plei5",
+         "location" : "plei5@evolution",
          "speed" : "0",
          "aggression" : "20",
          "armor" : "0",
@@ -3404,7 +3404,7 @@
       },
       "plesiosaurus@evolution" : {
          "damage" : "10",
-         "location" : "jurasea1",
+         "location" : "jurasea1@evolution",
          "armor" : "0",
          "name" : "Plesiosaurus",
          "examine" : "\nLong-necked and graceful, she is one of the larger denizens of the jurassic sea.",
@@ -3421,7 +3421,7 @@
       },
       "plateosaurus@evolution" : {
          "damage" : "10",
-         "location" : "tria9",
+         "location" : "tria9@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -3432,7 +3432,7 @@
       },
       "xiphactinus@evolution" : {
          "damage" : "10",
-         "location" : "cretsea2",
+         "location" : "cretsea2@evolution",
          "speed" : "1",
          "aggression" : "20",
          "armor" : "0",
@@ -3446,7 +3446,7 @@
       },
       "champsosaurus@evolution" : {
          "damage" : "12",
-         "location" : "cretsea4",
+         "location" : "cretsea4@evolution",
          "speed" : "1",
          "aggression" : "30",
          "armor" : "0",
@@ -3460,7 +3460,7 @@
       },
       "scelidosaurus@evolution" : {
          "damage" : "8",
-         "location" : "jura7",
+         "location" : "jura7@evolution",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "15",

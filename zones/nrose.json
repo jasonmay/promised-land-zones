@@ -2,7 +2,7 @@
    "obj" : {
       "cdoorin2@nrose" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Cell2",
+         "location" : "IN_ROOM:cell2@nrose",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -19,7 +19,7 @@
       },
       "cdoorout2@nrose" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:MidDorm",
+         "location" : "IN_ROOM:middorm@nrose",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -36,7 +36,7 @@
       },
       "cleaver@nrose" : {
          "damage" : "17",
-         "location" : "IN_ROOM:Kitchen",
+         "location" : "IN_ROOM:kitchen@nrose",
          "oflags" : [
             "Weapon"
          ],
@@ -49,7 +49,7 @@
       },
       "bdoorout@nrose" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Scriptorium",
+         "location" : "IN_ROOM:scriptorium@nrose",
          "oflags" : [
             "NoGet"
          ],
@@ -62,7 +62,7 @@
          "desc[0]" : "The door has been left open."
       },
       "book2@nrose" : {
-         "location" : "CARRIED_BY:Malachi",
+         "location" : "CARRIED_BY:malachi@nrose",
          "weight" : "7",
          "pname" : "book",
          "name" : "book2",
@@ -71,7 +71,7 @@
          "size" : "10"
       },
       "towel@nrose" : {
-         "location" : "IN_ROOM:Balneary",
+         "location" : "IN_ROOM:balneary@nrose",
          "armor" : "28",
          "oflags" : [
             "Wearable",
@@ -89,7 +89,7 @@
       },
       "whip@nrose" : {
          "damage" : "5",
-         "location" : "WIELDED_BY:Beranger",
+         "location" : "WIELDED_BY:beranger@nrose",
          "oflags" : [
             "Weapon"
          ],
@@ -101,7 +101,7 @@
          "desc[0]" : "A bloody leather whip has been left here."
       },
       "wine@nrose" : {
-         "location" : "IN_ROOM:StoreHouse",
+         "location" : "IN_ROOM:storehouse@nrose",
          "weight" : "4",
          "oflags" : [
             "Food",
@@ -114,7 +114,7 @@
          "size" : "6"
       },
       "book3@nrose" : {
-         "location" : "CARRIED_BY:Jorge",
+         "location" : "CARRIED_BY:jorge@nrose",
          "name" : "book3",
          "examine" : "\nIt is titled 'The Secrets of Abermud.'  It reads:\n'There are many secrets to aid a player in earning quick wizardom.\nKilling mobiles seems to be the fastest way to earn points.  But\nthere are other tricks like....'  The books ends here because\nsomeone has torn out the rest of the important pages.  The torn edges\nappear rather blackened like a lightning bolt tore them out.  However,\nthere is a treatise on the merits of having a one time only\ngrasshopper versus a multi-use one.  But it is very dry reading.",
          "size" : "8",
@@ -126,7 +126,7 @@
          "desc[0]" : "A slim leather-bound book is sitting here."
       },
       "habit2@nrose" : {
-         "location" : "WORN_BY:Jorge",
+         "location" : "WORN_BY:jorge@nrose",
          "armor" : "70",
          "oflags" : [
             "Wearable",
@@ -148,7 +148,7 @@
       },
       "jar1@nrose" : {
          "desc[1]" : "A glass jar filled with a clear liquid stands on a shelf.",
-         "location" : "IN_ROOM:Infirmary",
+         "location" : "IN_ROOM:infirmary@nrose",
          "oflags" : [
             "GetFlips"
          ],
@@ -164,7 +164,7 @@
          "desc[0]" : "A glass jar filled with a clear liquid lies here."
       },
       "book1@nrose" : {
-         "location" : "IN_ROOM:Infirmary",
+         "location" : "IN_ROOM:infirmary@nrose",
          "weight" : "12",
          "pname" : "book",
          "name" : "book1",
@@ -174,7 +174,7 @@
          "size" : "12"
       },
       "spectacles@nrose" : {
-         "location" : "WORN_BY:William",
+         "location" : "WORN_BY:william@nrose",
          "weight" : "3",
          "oflags" : [
             "Wearable"
@@ -186,7 +186,7 @@
          "size" : "5"
       },
       "rope@nrose" : {
-         "location" : "IN_ROOM:TowerBase",
+         "location" : "IN_ROOM:towerbase@nrose",
          "oflags" : [
             "NoGet"
          ],
@@ -195,7 +195,7 @@
          "desc[0]" : ""
       },
       "onion@nrose" : {
-         "location" : "IN_ROOM:Gardens",
+         "location" : "IN_ROOM:gardens@nrose",
          "oflags" : [
             "Food"
          ],
@@ -208,7 +208,7 @@
          "desc[0]" : "An onion is here, giving off a very pleasant oniony smell."
       },
       "incenser@nrose" : {
-         "location" : "CARRIED_BY:Abbot",
+         "location" : "CARRIED_BY:abbot@nrose",
          "weight" : "4",
          "name" : "incenser",
          "examine" : "\nIt is a little ball with a hole on its top which contains incense which\nis burned.  However, for some reason, it is not lit.",
@@ -218,7 +218,7 @@
       },
       "bdoorin@nrose" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:DampStair",
+         "location" : "IN_ROOM:dampstair@nrose",
          "oflags" : [
             "NoGet"
          ],
@@ -232,7 +232,7 @@
       },
       "iron@nrose" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:Bernardo",
+         "location" : "WIELDED_BY:bernardo@nrose",
          "oflags" : [
             "Weapon",
             "Lit"
@@ -246,7 +246,7 @@
       },
       "bar@nrose" : {
          "desc[1]" : "The bar does not allow the door to be opened.",
-         "location" : "IN_ROOM:DampStair",
+         "location" : "IN_ROOM:dampstair@nrose",
          "oflags" : [
             "NoGet"
          ],
@@ -258,7 +258,7 @@
       },
       "portcullin@nrose" : {
          "desc[1]" : "The portcullis is closed.",
-         "location" : "IN_ROOM:Portcullis",
+         "location" : "IN_ROOM:portcullis@nrose",
          "oflags" : [
             "NoGet"
          ],
@@ -271,7 +271,7 @@
          "desc[0]" : "The portcullis is open."
       },
       "parchment@nrose" : {
-         "location" : "IN_ROOM:Cell2",
+         "location" : "IN_ROOM:cell2@nrose",
          "weight" : "1",
          "oflags" : "{}",
          "name" : "parchment",
@@ -281,7 +281,7 @@
       },
       "chudoorsout@nrose" : {
          "desc[1]" : "The large church doors are closed.",
-         "location" : "IN_ROOM:ChurchSteps",
+         "location" : "IN_ROOM:churchsteps@nrose",
          "oflags" : [
             "NoGet"
          ],
@@ -294,7 +294,7 @@
          "desc[0]" : "The large doors to the church stand wide open."
       },
       "wheel@nrose" : {
-         "location" : "IN_ROOM:GuardHouse",
+         "location" : "IN_ROOM:guardhouse@nrose",
          "oflags" : [
             "NoGet"
          ],
@@ -304,7 +304,7 @@
       },
       "portcullout@nrose" : {
          "desc[1]" : "The portcullis is closed.",
-         "location" : "IN_ROOM:WindPath",
+         "location" : "IN_ROOM:windpath@nrose",
          "oflags" : [
             "NoGet"
          ],
@@ -318,7 +318,7 @@
       },
       "cdoorout1@nrose" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:NorthDorm",
+         "location" : "IN_ROOM:northdorm@nrose",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -335,7 +335,7 @@
       },
       "cdoorin3@nrose" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Cell3",
+         "location" : "IN_ROOM:cell3@nrose",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -352,7 +352,7 @@
       },
       "axe@nrose" : {
          "damage" : "10",
-         "location" : "IN_ROOM:Smithy",
+         "location" : "IN_ROOM:smithy@nrose",
          "oflags" : [
             "Weapon"
          ],
@@ -364,7 +364,7 @@
          "desc[0]" : "A very sharp axe has been left here."
       },
       "manure@nrose" : {
-         "location" : "IN_ROOM:Pigsties",
+         "location" : "IN_ROOM:pigsties@nrose",
          "weight" : "1",
          "name" : "manure",
          "examine" : "\nOh, dear!  It's pretty potent smelling stuff.  But it appears to be\ndry enough to burn.",
@@ -374,7 +374,7 @@
       },
       "cdoorin1@nrose" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Cell1",
+         "location" : "IN_ROOM:cell1@nrose",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -391,7 +391,7 @@
       },
       "chudoorsin@nrose" : {
          "desc[1]" : "The large church doors are closed.",
-         "location" : "IN_ROOM:Church",
+         "location" : "IN_ROOM:church@nrose",
          "oflags" : [
             "NoGet"
          ],
@@ -404,7 +404,7 @@
          "desc[0]" : "The large church doors stand wide open."
       },
       "grain@nrose" : {
-         "location" : "IN_ROOM:StoreHouse",
+         "location" : "IN_ROOM:storehouse@nrose",
          "weight" : "5",
          "name" : "grain",
          "examine" : "\nIt's a big burlap sack full of something that looks like some sort of grain.",
@@ -413,7 +413,7 @@
          "size" : "7"
       },
       "sign@nrose" : {
-         "location" : "IN_ROOM:WindPath",
+         "location" : "IN_ROOM:windpath@nrose",
          "oflags" : [
             "NoGet"
          ],
@@ -422,7 +422,7 @@
          "desc[0]" : "A large yellow sign is posted off to one side of the path."
       },
       "habit1@nrose" : {
-         "location" : "IN_ROOM:GuardHouse",
+         "location" : "IN_ROOM:guardhouse@nrose",
          "armor" : "23",
          "oflags" : [
             "Wearable",
@@ -442,7 +442,7 @@
          ]
       },
       "shelf@nrose" : {
-         "location" : "IN_ROOM:Infirmary",
+         "location" : "IN_ROOM:infirmary@nrose",
          "oflags" : [
             "NoGet"
          ],
@@ -453,7 +453,7 @@
       },
       "beet@nrose" : {
          "desc[1]" : "A sweet-looking sugar beet was missed by the gardener.",
-         "location" : "IN_ROOM:InGardens",
+         "location" : "IN_ROOM:ingardens@nrose",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -469,7 +469,7 @@
          "desc[0]" : "Someone has left a sugar beet here!"
       },
       "alouth@nrose" : {
-         "location" : "IN_ROOM:Library18",
+         "location" : "IN_ROOM:library18@nrose",
          "oflags" : [
             "NoGet"
          ],
@@ -480,7 +480,7 @@
       },
       "spear@nrose" : {
          "damage" : "7",
-         "location" : "IN_ROOM:GuardHouse",
+         "location" : "IN_ROOM:guardhouse@nrose",
          "oflags" : [
             "Weapon"
          ],
@@ -492,7 +492,7 @@
          "desc[0]" : "A rusty spear has been left here."
       },
       "altar@nrose" : {
-         "location" : "IN_ROOM:ChurchAltar",
+         "location" : "IN_ROOM:churchaltar@nrose",
          "oflags" : [
             "PushToggle",
             "NoGet"
@@ -506,7 +506,7 @@
       },
       "passage@nrose" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:Ossarium2",
+         "location" : "IN_ROOM:ossarium2@nrose",
          "oflags" : [
             "NoGet"
          ],
@@ -517,7 +517,7 @@
          "desc[0]" : "A passage leads up to an altar."
       },
       "rat@nrose" : {
-         "location" : "IN_CONTAINER:bag",
+         "location" : "IN_CONTAINER:bag@nrose",
          "weight" : "1",
          "name" : "rat",
          "examine" : "People have been known to eat rats.  Do you dare to?",
@@ -527,7 +527,7 @@
       },
       "cdoorout3@nrose" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:SouthDorm",
+         "location" : "IN_ROOM:southdorm@nrose",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -544,7 +544,7 @@
       },
       "jar2@nrose" : {
          "desc[1]" : "On top of one of the shelves stands a small clay jar.",
-         "location" : "IN_ROOM:Infirmary",
+         "location" : "IN_ROOM:infirmary@nrose",
          "oflags" : [
             "GetFlips",
             "Food",
@@ -562,7 +562,7 @@
          "desc[0]" : "\nA clay jar filled with a foul-smelling potion has been thrown aside."
       },
       "bag@nrose" : {
-         "location" : "CARRIED_BY:Salvatore",
+         "location" : "CARRIED_BY:salvatore@nrose",
          "weight" : "4",
          "oflags" : [
             "Container"
@@ -575,7 +575,7 @@
       },
       "lamp@nrose" : {
          "desc[1]" : "A rather 'sweet' smelling black iron reading lamp is here.",
-         "location" : "IN_ROOM:Cell2",
+         "location" : "IN_ROOM:cell2@nrose",
          "oflags" : [
             "Extinguish",
             "Lightable"
@@ -594,8 +594,8 @@
    "loc" : {
       "library6@nrose" : {
          "exits" : {
-            "w" : "Library15",
-            "n" : "Library7"
+            "w" : "library15@nrose",
+            "n" : "library7@nrose"
          },
          "flags" : [
             "Dark",
@@ -610,9 +610,9 @@
       },
       "library14@nrose" : {
          "exits" : {
-            "w" : "Library19",
-            "e" : "Library2",
-            "s" : "Library18"
+            "w" : "library19@nrose",
+            "e" : "library2@nrose",
+            "s" : "library18@nrose"
          },
          "flags" : [
             "Dark",
@@ -627,8 +627,8 @@
       },
       "library17@nrose" : {
          "exits" : {
-            "e" : "LibraryTrap",
-            "s" : "Library16"
+            "e" : "librarytrap@nrose",
+            "s" : "library16@nrose"
          },
          "flags" : [
             "Dark",
@@ -654,7 +654,7 @@
       },
       "pigsties@nrose" : {
          "exits" : {
-            "s" : "WidePath2"
+            "s" : "widepath2@nrose"
          },
          "flags" : [],
          "zone" : "nrose",
@@ -665,8 +665,8 @@
       },
       "ossarium2@nrose" : {
          "exits" : {
-            "u" : "^passage",
-            "n" : "Ossarium"
+            "u" : "^passage@nrose",
+            "n" : "ossarium@nrose"
          },
          "flags" : [
             "Dark",
@@ -680,7 +680,7 @@
       },
       "libsecretroom2@nrose" : {
          "exits" : {
-            "n" : "Library9"
+            "n" : "library9@nrose"
          },
          "flags" : [
             "CantSummon",
@@ -696,7 +696,7 @@
       },
       "cell3@nrose" : {
          "exits" : {
-            "e" : "^CDoorIn3"
+            "e" : "^cdoorin3@nrose"
          },
          "flags" : [],
          "zone" : "nrose",
@@ -707,8 +707,8 @@
       },
       "scriptorium@nrose" : {
          "exits" : {
-            "n" : "^BDoorOut",
-            "d" : "Aedificium"
+            "n" : "^bdoorout@nrose",
+            "d" : "aedificium@nrose"
          },
          "flags" : [],
          "zone" : "nrose",
@@ -719,10 +719,10 @@
       },
       "library2@nrose" : {
          "exits" : {
-            "w" : "Library14",
-            "e" : "Library6",
-            "n" : "Library3",
-            "s" : "Library1"
+            "w" : "library14@nrose",
+            "e" : "library6@nrose",
+            "n" : "library3@nrose",
+            "s" : "library1@nrose"
          },
          "flags" : [
             "Dark",
@@ -737,7 +737,7 @@
       },
       "kitchen@nrose" : {
          "exits" : {
-            "w" : "Aedificium"
+            "w" : "aedificium@nrose"
          },
          "flags" : [],
          "zone" : "nrose",
@@ -748,9 +748,9 @@
       },
       "widepath@nrose" : {
          "exits" : {
-            "e" : "Cemetery",
-            "n" : "Aedificium",
-            "s" : "ChurchSteps"
+            "e" : "cemetery@nrose",
+            "n" : "aedificium@nrose",
+            "s" : "churchsteps@nrose"
          },
          "flags" : [
             "Outdoors"
@@ -763,8 +763,8 @@
       },
       "towerbase@nrose" : {
          "exits" : {
-            "u" : "BellTower",
-            "n" : "ChurchSteps"
+            "u" : "belltower@nrose",
+            "n" : "churchsteps@nrose"
          },
          "flags" : [],
          "zone" : "nrose",
@@ -775,8 +775,8 @@
       },
       "library13@nrose" : {
          "exits" : {
-            "w" : "Library18",
-            "n" : "Library14"
+            "w" : "library18@nrose",
+            "n" : "library14@nrose"
          },
          "flags" : [
             "Dark",
@@ -791,8 +791,8 @@
       },
       "library5@nrose" : {
          "exits" : {
-            "e" : "Library7",
-            "n" : "Library6"
+            "e" : "library7@nrose",
+            "n" : "library6@nrose"
          },
          "flags" : [
             "Dark",
@@ -807,9 +807,9 @@
       },
       "churchaltar@nrose" : {
          "exits" : {
-            "w" : "Church",
-            "d" : "^altar",
-            "s" : "NorthDorm"
+            "w" : "church@nrose",
+            "d" : "^altar@nrose",
+            "s" : "northdorm@nrose"
          },
          "flags" : [],
          "zone" : "nrose",
@@ -820,7 +820,7 @@
       },
       "infirmary@nrose" : {
          "exits" : {
-            "e" : "Gardens"
+            "e" : "gardens@nrose"
          },
          "flags" : [],
          "zone" : "nrose",
@@ -831,7 +831,7 @@
       },
       "storehouse@nrose" : {
          "exits" : {
-            "n" : "TreePath"
+            "n" : "treepath@nrose"
          },
          "flags" : [],
          "zone" : "nrose",
@@ -842,8 +842,8 @@
       },
       "library10@nrose" : {
          "exits" : {
-            "n" : "Library12",
-            "s" : "Library9"
+            "n" : "library12@nrose",
+            "s" : "library9@nrose"
          },
          "flags" : [
             "Dark",
@@ -858,9 +858,9 @@
       },
       "library8@nrose" : {
          "exits" : {
-            "e" : "Library11",
-            "n" : "LibSecretRoom1",
-            "s" : "Library7"
+            "e" : "library11@nrose",
+            "n" : "libsecretroom1@nrose",
+            "s" : "library7@nrose"
          },
          "flags" : [
             "Dark",
@@ -875,8 +875,8 @@
       },
       "librentr@nrose" : {
          "exits" : {
-            "n" : "Library1",
-            "d" : "DampStair"
+            "n" : "library1@nrose",
+            "d" : "dampstair@nrose"
          },
          "flags" : [
             "Dark"
@@ -889,10 +889,10 @@
       },
       "churchsteps@nrose" : {
          "exits" : {
-            "w" : "TreePath",
-            "e" : "^ChuDoorsOut",
-            "n" : "WidePath",
-            "s" : "TowerBase"
+            "w" : "treepath@nrose",
+            "e" : "^chudoorsout@nrose",
+            "n" : "widepath@nrose",
+            "s" : "towerbase@nrose"
          },
          "flags" : [
             "Outdoors"
@@ -905,7 +905,7 @@
       },
       "library18@nrose" : {
          "exits" : {
-            "n" : "Library14"
+            "n" : "library14@nrose"
          },
          "flags" : [
             "Dark",
@@ -920,8 +920,8 @@
       },
       "cemetery@nrose" : {
          "exits" : {
-            "w" : "WidePath",
-            "e" : "WidePath2"
+            "w" : "widepath@nrose",
+            "e" : "widepath2@nrose"
          },
          "flags" : [
             "Outdoors"
@@ -934,8 +934,8 @@
       },
       "library20@nrose" : {
          "exits" : {
-            "e" : "Library15",
-            "s" : "Library14"
+            "e" : "library15@nrose",
+            "s" : "library14@nrose"
          },
          "flags" : [
             "Dark",
@@ -950,7 +950,7 @@
       },
       "cell2@nrose" : {
          "exits" : {
-            "e" : "^CDoorIn2"
+            "e" : "^cdoorin2@nrose"
          },
          "flags" : [
             "NoMagic"
@@ -963,8 +963,8 @@
       },
       "southdorm@nrose" : {
          "exits" : {
-            "w" : "^CDoorOut3",
-            "n" : "MidDorm"
+            "w" : "^cdoorout3@nrose",
+            "n" : "middorm@nrose"
          },
          "flags" : [],
          "zone" : "nrose",
@@ -975,10 +975,10 @@
       },
       "widepath2@nrose" : {
          "exits" : {
-            "w" : "Cemetery",
-            "e" : "Stables",
-            "n" : "Pigsties",
-            "s" : "Smithy"
+            "w" : "cemetery@nrose",
+            "e" : "stables@nrose",
+            "n" : "pigsties@nrose",
+            "s" : "smithy@nrose"
          },
          "flags" : [
             "Outdoors"
@@ -991,8 +991,8 @@
       },
       "library21@nrose" : {
          "exits" : {
-            "n" : "LibSecretRoom3",
-            "s" : "Library20"
+            "n" : "libsecretroom3@nrose",
+            "s" : "library20@nrose"
          },
          "flags" : [
             "Dark",
@@ -1007,8 +1007,8 @@
       },
       "church@nrose" : {
          "exits" : {
-            "w" : "^ChuDoorsIn",
-            "e" : "ChurchAltar"
+            "w" : "^chudoorsin@nrose",
+            "e" : "churchaltar@nrose"
          },
          "flags" : [],
          "zone" : "nrose",
@@ -1019,7 +1019,7 @@
       },
       "stables@nrose" : {
          "exits" : {
-            "w" : "WidePath2"
+            "w" : "widepath2@nrose"
          },
          "flags" : [],
          "zone" : "nrose",
@@ -1030,7 +1030,7 @@
       },
       "smithy@nrose" : {
          "exits" : {
-            "n" : "WidePath2"
+            "n" : "widepath2@nrose"
          },
          "flags" : [],
          "zone" : "nrose",
@@ -1041,9 +1041,9 @@
       },
       "dampstair@nrose" : {
          "exits" : {
-            "u" : "LibrEntr",
-            "d" : "Ossarium",
-            "s" : "^BDoorIn"
+            "u" : "librentr@nrose",
+            "d" : "ossarium@nrose",
+            "s" : "^bdoorin@nrose"
          },
          "flags" : [
             "Dark"
@@ -1056,9 +1056,9 @@
       },
       "middorm@nrose" : {
          "exits" : {
-            "w" : "^CDoorOut2",
-            "n" : "NorthDorm",
-            "s" : "SouthDorm"
+            "w" : "^cdoorout2@nrose",
+            "n" : "northdorm@nrose",
+            "s" : "southdorm@nrose"
          },
          "flags" : [],
          "zone" : "nrose",
@@ -1069,9 +1069,9 @@
       },
       "library15@nrose" : {
          "exits" : {
-            "e" : "Library4",
-            "n" : "Library16",
-            "s" : "Library14"
+            "e" : "library4@nrose",
+            "n" : "library16@nrose",
+            "s" : "library14@nrose"
          },
          "flags" : [
             "Dark",
@@ -1086,10 +1086,10 @@
       },
       "library1@nrose" : {
          "exits" : {
-            "w" : "Library13",
-            "e" : "Library5",
-            "n" : "Library2",
-            "s" : "LibrEntr"
+            "w" : "library13@nrose",
+            "e" : "library5@nrose",
+            "n" : "library2@nrose",
+            "s" : "librentr@nrose"
          },
          "flags" : [
             "Dark",
@@ -1104,9 +1104,9 @@
       },
       "aedificium@nrose" : {
          "exits" : {
-            "e" : "Kitchen",
-            "u" : "Scriptorium",
-            "s" : "WidePath"
+            "e" : "kitchen@nrose",
+            "u" : "scriptorium@nrose",
+            "s" : "widepath@nrose"
          },
          "flags" : [
             "Outdoors"
@@ -1119,7 +1119,7 @@
       },
       "balneary@nrose" : {
          "exits" : {
-            "s" : "Gardens"
+            "s" : "gardens@nrose"
          },
          "flags" : [],
          "zone" : "nrose",
@@ -1130,9 +1130,9 @@
       },
       "ossarium@nrose" : {
          "exits" : {
-            "w" : "DampStair",
-            "u" : "DampStair",
-            "s" : "Ossarium2"
+            "w" : "dampstair@nrose",
+            "u" : "dampstair@nrose",
+            "s" : "ossarium2@nrose"
          },
          "flags" : [
             "Dark",
@@ -1146,8 +1146,8 @@
       },
       "library12@nrose" : {
          "exits" : {
-            "w" : "Library8",
-            "s" : "Library11"
+            "w" : "library8@nrose",
+            "s" : "library11@nrose"
          },
          "flags" : [
             "Dark",
@@ -1162,9 +1162,9 @@
       },
       "library16@nrose" : {
          "exits" : {
-            "w" : "Library21",
-            "n" : "Library17",
-            "s" : "Library15"
+            "w" : "library21@nrose",
+            "n" : "library17@nrose",
+            "s" : "library15@nrose"
          },
          "flags" : [
             "Dark",
@@ -1179,9 +1179,9 @@
       },
       "library11@nrose" : {
          "exits" : {
-            "w" : "Library7",
-            "n" : "Library12",
-            "s" : "Library10"
+            "w" : "library7@nrose",
+            "n" : "library12@nrose",
+            "s" : "library10@nrose"
          },
          "flags" : [
             "Dark",
@@ -1196,8 +1196,8 @@
       },
       "library3@nrose" : {
          "exits" : {
-            "e" : "Library7",
-            "n" : "Library16"
+            "e" : "library7@nrose",
+            "n" : "library16@nrose"
          },
          "flags" : [
             "Dark",
@@ -1212,9 +1212,9 @@
       },
       "portcullis@nrose" : {
          "exits" : {
-            "w" : "^PortcullIn",
-            "e" : "TreePath",
-            "s" : "GuardHouse"
+            "w" : "^portcullin@nrose",
+            "e" : "treepath@nrose",
+            "s" : "guardhouse@nrose"
          },
          "flags" : [
             "Outdoors"
@@ -1227,9 +1227,9 @@
       },
       "library4@nrose" : {
          "exits" : {
-            "e" : "Library8",
-            "n" : "LibraryTrap",
-            "s" : "Library3"
+            "e" : "library8@nrose",
+            "n" : "librarytrap@nrose",
+            "s" : "library3@nrose"
          },
          "flags" : [
             "Dark",
@@ -1244,10 +1244,10 @@
       },
       "gardens@nrose" : {
          "exits" : {
-            "w" : "Infirmary",
-            "e" : "InGardens",
-            "n" : "Balneary",
-            "s" : "TreePath"
+            "w" : "infirmary@nrose",
+            "e" : "ingardens@nrose",
+            "n" : "balneary@nrose",
+            "s" : "treepath@nrose"
          },
          "flags" : [
             "Outdoors"
@@ -1260,7 +1260,7 @@
       },
       "windpath@nrose" : {
          "exits" : {
-            "e" : "^PortcullOut",
+            "e" : "^portcullout@nrose",
             "n" : "r_land@blizzard"
          },
          "flags" : [
@@ -1275,9 +1275,9 @@
       },
       "library7@nrose" : {
          "exits" : {
-            "e" : "Library10",
-            "n" : "Library8",
-            "s" : "Library6"
+            "e" : "library10@nrose",
+            "n" : "library8@nrose",
+            "s" : "library6@nrose"
          },
          "flags" : [
             "Dark",
@@ -1292,7 +1292,7 @@
       },
       "ingardens@nrose" : {
          "exits" : {
-            "w" : "Gardens"
+            "w" : "gardens@nrose"
          },
          "flags" : [
             "Outdoors"
@@ -1317,9 +1317,9 @@
       },
       "northdorm@nrose" : {
          "exits" : {
-            "w" : "^CDoorOut1",
-            "n" : "ChurchAltar",
-            "s" : "MidDorm"
+            "w" : "^cdoorout1@nrose",
+            "n" : "churchaltar@nrose",
+            "s" : "middorm@nrose"
          },
          "flags" : [],
          "zone" : "nrose",
@@ -1330,8 +1330,8 @@
       },
       "library19@nrose" : {
          "exits" : {
-            "n" : "Library20",
-            "s" : "Library13"
+            "n" : "library20@nrose",
+            "s" : "library13@nrose"
          },
          "flags" : [
             "Dark",
@@ -1346,7 +1346,7 @@
       },
       "guardhouse@nrose" : {
          "exits" : {
-            "n" : "Portcullis"
+            "n" : "portcullis@nrose"
          },
          "flags" : [],
          "zone" : "nrose",
@@ -1357,10 +1357,10 @@
       },
       "treepath@nrose" : {
          "exits" : {
-            "w" : "Portcullis",
-            "e" : "ChurchSteps",
-            "n" : "Gardens",
-            "s" : "StoreHouse"
+            "w" : "portcullis@nrose",
+            "e" : "churchsteps@nrose",
+            "n" : "gardens@nrose",
+            "s" : "storehouse@nrose"
          },
          "flags" : [
             "Outdoors"
@@ -1373,7 +1373,7 @@
       },
       "belltower@nrose" : {
          "exits" : {
-            "d" : "TowerBase"
+            "d" : "towerbase@nrose"
          },
          "flags" : [
             "Outdoors"
@@ -1397,7 +1397,7 @@
       },
       "cell1@nrose" : {
          "exits" : {
-            "e" : "^CDoorIn1"
+            "e" : "^cdoorin1@nrose"
          },
          "flags" : [],
          "zone" : "nrose",
@@ -1408,9 +1408,9 @@
       },
       "library9@nrose" : {
          "exits" : {
-            "w" : "Library6",
-            "n" : "Library10",
-            "s" : "LibSecretRoom2"
+            "w" : "library6@nrose",
+            "n" : "library10@nrose",
+            "s" : "libsecretroom2@nrose"
          },
          "flags" : [
             "Dark",
@@ -1427,7 +1427,7 @@
    "mob" : {
       "brunellus@nrose" : {
          "damage" : "15",
-         "location" : "Stables",
+         "location" : "stables@nrose",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "0",
@@ -1437,7 +1437,7 @@
       },
       "william@nrose" : {
          "damage" : "15",
-         "location" : "Cell2",
+         "location" : "cell2@nrose",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "0",
@@ -1447,7 +1447,7 @@
       },
       "malachi@nrose" : {
          "damage" : "10",
-         "location" : "Scriptorium",
+         "location" : "scriptorium@nrose",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "10",
@@ -1457,7 +1457,7 @@
       },
       "remigio@nrose" : {
          "damage" : "5",
-         "location" : "StoreHouse",
+         "location" : "storehouse@nrose",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "10",
@@ -1467,7 +1467,7 @@
       },
       "abbot@nrose" : {
          "damage" : "8",
-         "location" : "ChurchSteps",
+         "location" : "churchsteps@nrose",
          "armor" : "0",
          "name" : "Abbot",
          "description" : "The Abbot says to you, 'Pax Nobiscum.'",
@@ -1480,7 +1480,7 @@
       },
       "whore@nrose" : {
          "damage" : "10",
-         "location" : "Kitchen",
+         "location" : "kitchen@nrose",
          "armor" : "0",
          "name" : "Whore",
          "description" : "A dirty girl in rags offers you her favors in exchange for food.",
@@ -1500,7 +1500,7 @@
       },
       "beranger@nrose" : {
          "damage" : "5",
-         "location" : "Cell1",
+         "location" : "cell1@nrose",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "20",
@@ -1510,7 +1510,7 @@
       },
       "salvatore@nrose" : {
          "damage" : "15",
-         "location" : "Cemetery",
+         "location" : "cemetery@nrose",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "10",
@@ -1520,7 +1520,7 @@
       },
       "jorge@nrose" : {
          "damage" : "25",
-         "location" : "LibSecretRoom2",
+         "location" : "libsecretroom2@nrose",
          "armor" : "10",
          "name" : "Jorge",
          "description" : "Brother Jorge, the blind old monk, guards the forbidden books.",
@@ -1536,7 +1536,7 @@
       },
       "severinus@nrose" : {
          "damage" : "10",
-         "location" : "Infirmary",
+         "location" : "infirmary@nrose",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "20",
@@ -1546,7 +1546,7 @@
       },
       "bernardo@nrose" : {
          "damage" : "10",
-         "location" : "LibrEntr",
+         "location" : "librentr@nrose",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "25",

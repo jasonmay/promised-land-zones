@@ -1,7 +1,7 @@
 {
    "obj" : {
       "tape@mrealms" : {
-         "location" : "IN_ROOM:island",
+         "location" : "IN_ROOM:island@mrealms",
          "oflags" : [
             "NoPit"
          ],
@@ -12,7 +12,7 @@
          "desc[0]" : "An outdated cassette tape has been left here."
       },
       "monitor@mrealms" : {
-         "location" : "IN_ROOM:island",
+         "location" : "IN_ROOM:island@mrealms",
          "oflags" : [
             "NoGet"
          ],
@@ -23,7 +23,7 @@
          "desc[0]" : "A computer monitor sticks out of the sand."
       },
       "hamlet@mrealms" : {
-         "location" : "IN_ROOM:island",
+         "location" : "IN_ROOM:island@mrealms",
          "oflags" : [
             "NoPit"
          ],
@@ -40,8 +40,8 @@
    "loc" : {
       "lounge@mrealms" : {
          "exits" : {
-            "se" : "mrealms",
-            "sw" : "mrealms"
+            "se" : "mrealms@mrealms",
+            "sw" : "mrealms@mrealms"
          },
          "flags" : [
             "Peace",
@@ -56,7 +56,7 @@
       },
       "diner@mrealms" : {
          "exits" : {
-            "d" : "second"
+            "d" : "second@mrealms"
          },
          "flags" : [
             "Peace",
@@ -70,12 +70,12 @@
       },
       "mrealms@mrealms" : {
          "exits" : {
-            "e" : "wildflowers",
-            "ne" : "lounge",
-            "u" : "second",
+            "e" : "wildflowers@mrealms",
+            "ne" : "lounge@mrealms",
+            "u" : "second@mrealms",
             "d" : "temple@start",
-            "s" : "disco",
-            "nw" : "lounge"
+            "s" : "disco@mrealms",
+            "nw" : "lounge@mrealms"
          },
          "flags" : [
             "Peace",
@@ -91,7 +91,7 @@
       },
       "disco@mrealms" : {
          "exits" : {
-            "n" : "mrealms"
+            "n" : "mrealms@mrealms"
          },
          "flags" : [
             "Peace",
@@ -105,7 +105,7 @@
       },
       "waterfall@mrealms" : {
          "exits" : {
-            "w" : "mrealms"
+            "w" : "mrealms@mrealms"
          },
          "flags" : [
             "Peace",
@@ -119,7 +119,7 @@
       },
       "beach@mrealms" : {
          "exits" : {
-            "s" : "second"
+            "s" : "second@mrealms"
          },
          "flags" : [
             "Peace",
@@ -133,7 +133,7 @@
       },
       "island@mrealms" : {
          "exits" : {
-            "n" : "second"
+            "n" : "second@mrealms"
          },
          "flags" : [
             "Peace",
@@ -147,7 +147,7 @@
       },
       "sidewalk@mrealms" : {
          "exits" : {
-            "e" : "second"
+            "e" : "second@mrealms"
          },
          "flags" : [
             "Peace",
@@ -161,12 +161,12 @@
       },
       "second@mrealms" : {
          "exits" : {
-            "e" : "edge",
-            "w" : "sidewalk",
-            "u" : "diner",
-            "n" : "beach",
-            "d" : "mrealms",
-            "s" : "island"
+            "e" : "edge@mrealms",
+            "w" : "sidewalk@mrealms",
+            "u" : "diner@mrealms",
+            "n" : "beach@mrealms",
+            "d" : "mrealms@mrealms",
+            "s" : "island@mrealms"
          },
          "flags" : [
             "Peace",
@@ -180,7 +180,7 @@
       },
       "edge@mrealms" : {
          "exits" : {
-            "w" : "second"
+            "w" : "second@mrealms"
          },
          "flags" : [
             "Peace",
@@ -194,7 +194,7 @@
       },
       "wildflowers@mrealms" : {
          "exits" : {
-            "w" : "mrealms"
+            "w" : "mrealms@mrealms"
          },
          "flags" : [
             "Peace",

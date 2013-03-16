@@ -2,7 +2,7 @@
    "obj" : {
       "sickle@deathlok" : {
          "damage" : "35",
-         "location" : "WIELDED_BY:Reaper",
+         "location" : "WIELDED_BY:reaper@deathlok",
          "oflags" : [
             "weapon"
          ],
@@ -16,7 +16,7 @@
       },
       "soul@deathlok" : {
          "damage" : "0",
-         "location" : "IN_ROOM:deathlok3",
+         "location" : "IN_ROOM:deathlok3@deathlok",
          "oflags" : [
             "Wearable",
             "lit"
@@ -33,8 +33,8 @@
    "loc" : {
       "deathlok12@deathlok" : {
          "exits" : {
-            "e" : "deathlok11",
-            "s" : "deathlok13"
+            "e" : "deathlok11@deathlok",
+            "s" : "deathlok13@deathlok"
          },
          "flags" : [
             "dark"
@@ -47,8 +47,8 @@
       },
       "deathlok3@deathlok" : {
          "exits" : {
-            "n" : "deathlok4",
-            "s" : "deathlok2"
+            "n" : "deathlok4@deathlok",
+            "s" : "deathlok2@deathlok"
          },
          "flags" : [],
          "zone" : "deathlok",
@@ -59,8 +59,8 @@
       },
       "deathlok6@deathlok" : {
          "exits" : {
-            "u" : "deathlok7",
-            "d" : "deathlok5"
+            "u" : "deathlok7@deathlok",
+            "d" : "deathlok5@deathlok"
          },
          "flags" : [],
          "zone" : "deathlok",
@@ -71,7 +71,7 @@
       },
       "deathlok1@deathlok" : {
          "exits" : {
-            "n" : "deathlok2",
+            "n" : "deathlok2@deathlok",
             "s" : "bridge@blizzard"
          },
          "flags" : [],
@@ -83,8 +83,8 @@
       },
       "deathlok11@deathlok" : {
          "exits" : {
-            "e" : "deathlok10",
-            "w" : "deathlok12"
+            "e" : "deathlok10@deathlok",
+            "w" : "deathlok12@deathlok"
          },
          "flags" : [
             "dark"
@@ -97,8 +97,8 @@
       },
       "deathlok9@deathlok" : {
          "exits" : {
-            "w" : "deathlok8",
-            "n" : "deathlok10"
+            "w" : "deathlok8@deathlok",
+            "n" : "deathlok10@deathlok"
          },
          "flags" : [
             "dark"
@@ -111,8 +111,8 @@
       },
       "deathlok2@deathlok" : {
          "exits" : {
-            "n" : "deathlok3",
-            "s" : "deathlok1"
+            "n" : "deathlok3@deathlok",
+            "s" : "deathlok1@deathlok"
          },
          "flags" : [],
          "zone" : "deathlok",
@@ -123,8 +123,8 @@
       },
       "deathlok4@deathlok" : {
          "exits" : {
-            "u" : "deathlok5",
-            "s" : "deathlok3"
+            "u" : "deathlok5@deathlok",
+            "s" : "deathlok3@deathlok"
          },
          "flags" : [],
          "zone" : "deathlok",
@@ -135,8 +135,8 @@
       },
       "deathlok13@deathlok" : {
          "exits" : {
-            "e" : "deathlok8",
-            "n" : "deathlok12"
+            "e" : "deathlok8@deathlok",
+            "n" : "deathlok12@deathlok"
          },
          "flags" : [
             "dark"
@@ -149,8 +149,8 @@
       },
       "deathlok10@deathlok" : {
          "exits" : {
-            "w" : "deathlok11",
-            "s" : "deathlok9"
+            "w" : "deathlok11@deathlok",
+            "s" : "deathlok9@deathlok"
          },
          "flags" : [
             "dark"
@@ -163,8 +163,8 @@
       },
       "deathlok5@deathlok" : {
          "exits" : {
-            "u" : "deathlok6",
-            "d" : "deathlok4"
+            "u" : "deathlok6@deathlok",
+            "d" : "deathlok4@deathlok"
          },
          "flags" : [],
          "zone" : "deathlok",
@@ -175,8 +175,8 @@
       },
       "deathlok7@deathlok" : {
          "exits" : {
-            "n" : "deathlok8",
-            "d" : "deathlok6"
+            "n" : "deathlok8@deathlok",
+            "d" : "deathlok6@deathlok"
          },
          "flags" : [
             "dark"
@@ -189,8 +189,8 @@
       },
       "deathlok8@deathlok" : {
          "exits" : {
-            "w" : "deathlok13",
-            "e" : "deathlok9"
+            "w" : "deathlok13@deathlok",
+            "e" : "deathlok9@deathlok"
          },
          "flags" : [
             "dark"
@@ -215,7 +215,7 @@
             "Frost"
          ],
          "damage" : "10",
-         "location" : "deathlok11",
+         "location" : "deathlok11@deathlok",
          "armor" : "0",
          "name" : "Reaper",
          "description" : "Death, the Grim Reaper, is here awaiting your soul.",

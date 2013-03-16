@@ -2,7 +2,7 @@
    "obj" : {
       "sword@system" : {
          "damage" : "17",
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "oflags" : [
             "weapon",
             "nopit"
@@ -16,7 +16,7 @@
       },
       "potion4@system" : {
          "desc[1]" : "&+GA green potion bubbles here.",
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "oflags" : [
             "GetFlips",
             "Potion",
@@ -35,7 +35,7 @@
       },
       "potion9@system" : {
          "desc[1]" : "&+mA purple potion bubbles here.",
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "oflags" : [
             "GetFlips",
             "Potion",
@@ -53,7 +53,7 @@
          "desc[0]" : "&+mSomeone has left a potion here."
       },
       "wildgame@system" : {
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "weight" : "2",
          "oflags" : [
             "Food"
@@ -65,7 +65,7 @@
          "size" : "2"
       },
       "mush@system" : {
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "weight" : "10",
          "oflags" : [
             "Food"
@@ -78,7 +78,7 @@
       },
       "potion3@system" : {
          "desc[1]" : "&+BA blue potion bubbles here.",
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "oflags" : [
             "GetFlips",
             "Potion",
@@ -97,7 +97,7 @@
       },
       "potion5@system" : {
          "desc[1]" : "&+WA white potion bubbles here.",
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "oflags" : [
             "GetFlips",
             "Potion",
@@ -116,7 +116,7 @@
       },
       "potion7@system" : {
          "desc[1]" : "&+yA brown potion bubbles here.",
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "oflags" : [
             "GetFlips",
             "Potion",
@@ -134,7 +134,7 @@
          "desc[0]" : "&+ySomeone has left a potion here."
       },
       "armor@system" : {
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "oflags" : [
             "Armor",
             "Wearable"
@@ -157,7 +157,7 @@
       },
       "ethersword@system" : {
          "damage" : "20",
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "oflags" : [
             "Weapon",
             "NoGive"
@@ -170,7 +170,7 @@
          "bvalue" : "0"
       },
       "etherarmor@system" : {
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "armor" : "20",
          "oflags" : [
             "Armor",
@@ -196,7 +196,7 @@
          ]
       },
       "torch@system" : {
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "weight" : "5",
          "oflags" : [
             "Lightable",
@@ -209,7 +209,7 @@
          "size" : "10"
       },
       "potion@system" : {
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "oflags" : [
             "Potion",
             "NoPit"
@@ -224,7 +224,7 @@
       },
       "potion8@system" : {
          "desc[1]" : "&+YA yellow potion bubbles here.",
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "oflags" : [
             "GetFlips",
             "Potion",
@@ -243,7 +243,7 @@
       },
       "potion2@system" : {
          "desc[1]" : "&+RA red potion is here.",
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "oflags" : [
             "GetFlips",
             "Potion",
@@ -261,7 +261,7 @@
          "desc[0]" : "&+RSomeone has left a potion here."
       },
       "key@system" : {
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "weight" : "1",
          "oflags" : [
             "Key"
@@ -274,7 +274,7 @@
       },
       "potion6@system" : {
          "desc[1]" : "&+CA cyan potion bubbles here.",
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "oflags" : [
             "GetFlips",
             "Potion",
@@ -292,7 +292,7 @@
          "desc[0]" : "&+MSomeone has left a potion here."
       },
       "recall@system" : {
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "oflags" : [
             "Recall",
             "Nopit"
@@ -306,7 +306,7 @@
       },
       "potion1@system" : {
          "desc[1]" : "&+MA pink potion bubbles here.",
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "altname" : "Flask",
          "oflags" : [
             "GetFlips",
@@ -324,7 +324,7 @@
          "desc[0]" : "&+MSomeone has left a potion here."
       },
       "curepoison@system" : {
-         "location" : "IN_ROOM:system",
+         "location" : "IN_ROOM:system@system",
          "oflags" : [
             "Curepoison",
             "Nopit",

@@ -1,7 +1,7 @@
 {
    "obj" : {
       "sign@grass" : {
-         "location" : "IN_ROOM:grass100",
+         "location" : "IN_ROOM:grass100@grass",
          "oflags" : [
             "Noget"
          ],
@@ -13,10 +13,10 @@
    "loc" : {
       "grass51@grass" : {
          "exits" : {
-            "e" : "grass52",
-            "w" : "grass50",
-            "n" : "grass41",
-            "s" : "grass61"
+            "e" : "grass52@grass",
+            "w" : "grass50@grass",
+            "n" : "grass41@grass",
+            "s" : "grass61@grass"
          },
          "flags" : [
             "Outdoors"
@@ -29,9 +29,9 @@
       },
       "grass40@grass" : {
          "exits" : {
-            "e" : "grass41",
-            "n" : "grass30",
-            "s" : "grass50"
+            "e" : "grass41@grass",
+            "n" : "grass30@grass",
+            "s" : "grass50@grass"
          },
          "flags" : [
             "Outdoors"
@@ -44,10 +44,10 @@
       },
       "grass71@grass" : {
          "exits" : {
-            "e" : "grass72",
-            "w" : "grass70",
-            "n" : "grass61",
-            "s" : "grass81"
+            "e" : "grass72@grass",
+            "w" : "grass70@grass",
+            "n" : "grass61@grass",
+            "s" : "grass81@grass"
          },
          "flags" : [
             "Outdoors"
@@ -60,10 +60,10 @@
       },
       "grass86@grass" : {
          "exits" : {
-            "e" : "grass87",
-            "w" : "grass85",
-            "n" : "grass76",
-            "s" : "grass96"
+            "e" : "grass87@grass",
+            "w" : "grass85@grass",
+            "n" : "grass76@grass",
+            "s" : "grass96@grass"
          },
          "flags" : [
             "Outdoors"
@@ -76,9 +76,9 @@
       },
       "grass109@grass" : {
          "exits" : {
-            "e" : "grass95",
-            "w" : "grass94",
-            "n" : "grass108"
+            "e" : "grass95@grass",
+            "w" : "grass94@grass",
+            "n" : "grass108@grass"
          },
          "flags" : [
             "Outdoors"
@@ -91,9 +91,9 @@
       },
       "grass98@grass" : {
          "exits" : {
-            "e" : "grass99",
-            "w" : "grass97",
-            "n" : "grass88"
+            "e" : "grass99@grass",
+            "w" : "grass97@grass",
+            "n" : "grass88@grass"
          },
          "flags" : [
             "Outdoors"
@@ -106,9 +106,9 @@
       },
       "grass89@grass" : {
          "exits" : {
-            "w" : "grass88",
-            "n" : "grass79",
-            "s" : "grass99"
+            "w" : "grass88@grass",
+            "n" : "grass79@grass",
+            "s" : "grass99@grass"
          },
          "flags" : [
             "Outdoors"
@@ -121,10 +121,10 @@
       },
       "grass41@grass" : {
          "exits" : {
-            "e" : "grass42",
-            "w" : "grass40",
-            "n" : "grass31",
-            "s" : "grass51"
+            "e" : "grass42@grass",
+            "w" : "grass40@grass",
+            "n" : "grass31@grass",
+            "s" : "grass51@grass"
          },
          "flags" : [
             "Outdoors"
@@ -137,9 +137,9 @@
       },
       "grass07@grass" : {
          "exits" : {
-            "e" : "grass08",
-            "w" : "grass06",
-            "s" : "grass17"
+            "e" : "grass08@grass",
+            "w" : "grass06@grass",
+            "s" : "grass17@grass"
          },
          "flags" : [
             "Outdoors"
@@ -152,10 +152,10 @@
       },
       "grass72@grass" : {
          "exits" : {
-            "e" : "grass73",
-            "w" : "grass71",
-            "n" : "grass62",
-            "s" : "grass82"
+            "e" : "grass73@grass",
+            "w" : "grass71@grass",
+            "n" : "grass62@grass",
+            "s" : "grass82@grass"
          },
          "flags" : [
             "Outdoors"
@@ -168,9 +168,9 @@
       },
       "grass29@grass" : {
          "exits" : {
-            "w" : "grass28",
-            "n" : "grass19",
-            "s" : "grass39"
+            "w" : "grass28@grass",
+            "n" : "grass19@grass",
+            "s" : "grass39@grass"
          },
          "flags" : [
             "Outdoors"
@@ -183,10 +183,10 @@
       },
       "grass108@grass" : {
          "exits" : {
-            "e" : "grass85",
-            "w" : "grass84",
-            "n" : "grass107",
-            "s" : "grass109"
+            "e" : "grass85@grass",
+            "w" : "grass84@grass",
+            "n" : "grass107@grass",
+            "s" : "grass109@grass"
          },
          "flags" : [
             "Outdoors"
@@ -199,10 +199,10 @@
       },
       "grass88@grass" : {
          "exits" : {
-            "e" : "grass89",
-            "w" : "grass87",
-            "n" : "grass78",
-            "s" : "grass98"
+            "e" : "grass89@grass",
+            "w" : "grass87@grass",
+            "n" : "grass78@grass",
+            "s" : "grass98@grass"
          },
          "flags" : [
             "Outdoors"
@@ -215,10 +215,10 @@
       },
       "grass78@grass" : {
          "exits" : {
-            "e" : "grass79",
-            "w" : "grass77",
-            "n" : "grass68",
-            "s" : "grass88"
+            "e" : "grass79@grass",
+            "w" : "grass77@grass",
+            "n" : "grass68@grass",
+            "s" : "grass88@grass"
          },
          "flags" : [
             "Outdoors"
@@ -231,10 +231,10 @@
       },
       "grass54@grass" : {
          "exits" : {
-            "e" : "grass105",
-            "w" : "grass53",
-            "n" : "grass44",
-            "s" : "grass64"
+            "e" : "grass105@grass",
+            "w" : "grass53@grass",
+            "n" : "grass44@grass",
+            "s" : "grass64@grass"
          },
          "flags" : [
             "Outdoors"
@@ -247,8 +247,8 @@
       },
       "grass00@grass" : {
          "exits" : {
-            "e" : "grass01",
-            "s" : "grass10"
+            "e" : "grass01@grass",
+            "s" : "grass10@grass"
          },
          "flags" : [
             "Outdoors"
@@ -261,10 +261,10 @@
       },
       "grass77@grass" : {
          "exits" : {
-            "e" : "grass78",
-            "w" : "grass76",
-            "n" : "grass67",
-            "s" : "grass87"
+            "e" : "grass78@grass",
+            "w" : "grass76@grass",
+            "n" : "grass67@grass",
+            "s" : "grass87@grass"
          },
          "flags" : [
             "Outdoors"
@@ -277,9 +277,9 @@
       },
       "grass95@grass" : {
          "exits" : {
-            "w" : "grass109",
-            "e" : "grass96",
-            "n" : "grass85"
+            "w" : "grass109@grass",
+            "e" : "grass96@grass",
+            "n" : "grass85@grass"
          },
          "flags" : [
             "Outdoors"
@@ -292,10 +292,10 @@
       },
       "grass31@grass" : {
          "exits" : {
-            "e" : "grass32",
-            "w" : "grass30",
-            "n" : "grass21",
-            "s" : "grass41"
+            "e" : "grass32@grass",
+            "w" : "grass30@grass",
+            "n" : "grass21@grass",
+            "s" : "grass41@grass"
          },
          "flags" : [
             "Outdoors"
@@ -308,10 +308,10 @@
       },
       "grass104@grass" : {
          "exits" : {
-            "e" : "grass45",
-            "w" : "grass44",
-            "n" : "grass103",
-            "s" : "grass105"
+            "e" : "grass45@grass",
+            "w" : "grass44@grass",
+            "n" : "grass103@grass",
+            "s" : "grass105@grass"
          },
          "flags" : [
             "Outdoors"
@@ -324,10 +324,10 @@
       },
       "grass105@grass" : {
          "exits" : {
-            "e" : "grass55",
-            "w" : "grass54",
-            "n" : "grass104",
-            "s" : "grass106"
+            "e" : "grass55@grass",
+            "w" : "grass54@grass",
+            "n" : "grass104@grass",
+            "s" : "grass106@grass"
          },
          "flags" : [
             "Outdoors"
@@ -340,9 +340,9 @@
       },
       "grass79@grass" : {
          "exits" : {
-            "w" : "grass78",
-            "n" : "grass69",
-            "s" : "grass89"
+            "w" : "grass78@grass",
+            "n" : "grass69@grass",
+            "s" : "grass89@grass"
          },
          "flags" : [
             "Outdoors"
@@ -355,9 +355,9 @@
       },
       "grass01@grass" : {
          "exits" : {
-            "e" : "grass02",
-            "w" : "grass00",
-            "s" : "grass11"
+            "e" : "grass02@grass",
+            "w" : "grass00@grass",
+            "s" : "grass11@grass"
          },
          "flags" : [
             "Outdoors"
@@ -370,10 +370,10 @@
       },
       "grass74@grass" : {
          "exits" : {
-            "e" : "grass107",
-            "w" : "grass73",
-            "n" : "grass64",
-            "s" : "grass84"
+            "e" : "grass107@grass",
+            "w" : "grass73@grass",
+            "n" : "grass64@grass",
+            "s" : "grass84@grass"
          },
          "flags" : [
             "Outdoors"
@@ -386,10 +386,10 @@
       },
       "grass64@grass" : {
          "exits" : {
-            "e" : "grass106",
-            "w" : "grass63",
-            "n" : "grass54",
-            "s" : "grass74"
+            "e" : "grass106@grass",
+            "w" : "grass63@grass",
+            "n" : "grass54@grass",
+            "s" : "grass74@grass"
          },
          "flags" : [
             "Outdoors"
@@ -402,10 +402,10 @@
       },
       "grass55@grass" : {
          "exits" : {
-            "e" : "grass56",
-            "w" : "grass105",
-            "n" : "grass45",
-            "s" : "grass65"
+            "e" : "grass56@grass",
+            "w" : "grass105@grass",
+            "n" : "grass45@grass",
+            "s" : "grass65@grass"
          },
          "flags" : [
             "Outdoors"
@@ -418,10 +418,10 @@
       },
       "grass47@grass" : {
          "exits" : {
-            "e" : "grass48",
-            "w" : "grass46",
-            "n" : "grass37",
-            "s" : "grass57"
+            "e" : "grass48@grass",
+            "w" : "grass46@grass",
+            "n" : "grass37@grass",
+            "s" : "grass57@grass"
          },
          "flags" : [
             "Outdoors"
@@ -434,10 +434,10 @@
       },
       "grass38@grass" : {
          "exits" : {
-            "e" : "grass39",
-            "w" : "grass37",
-            "n" : "grass28",
-            "s" : "grass48"
+            "e" : "grass39@grass",
+            "w" : "grass37@grass",
+            "n" : "grass28@grass",
+            "s" : "grass48@grass"
          },
          "flags" : [
             "Outdoors"
@@ -450,10 +450,10 @@
       },
       "grass67@grass" : {
          "exits" : {
-            "e" : "grass68",
-            "w" : "grass66",
-            "n" : "grass57",
-            "s" : "grass77"
+            "e" : "grass68@grass",
+            "w" : "grass66@grass",
+            "n" : "grass57@grass",
+            "s" : "grass77@grass"
          },
          "flags" : [
             "Outdoors"
@@ -466,10 +466,10 @@
       },
       "grass76@grass" : {
          "exits" : {
-            "e" : "grass77",
-            "w" : "grass75",
-            "n" : "grass66",
-            "s" : "grass86"
+            "e" : "grass77@grass",
+            "w" : "grass75@grass",
+            "n" : "grass66@grass",
+            "s" : "grass86@grass"
          },
          "flags" : [
             "Outdoors"
@@ -482,10 +482,10 @@
       },
       "grass84@grass" : {
          "exits" : {
-            "e" : "grass108",
-            "w" : "grass83",
-            "n" : "grass74",
-            "s" : "grass94"
+            "e" : "grass108@grass",
+            "w" : "grass83@grass",
+            "n" : "grass74@grass",
+            "s" : "grass94@grass"
          },
          "flags" : [
             "Outdoors"
@@ -498,10 +498,10 @@
       },
       "grass22@grass" : {
          "exits" : {
-            "e" : "grass23",
-            "w" : "grass21",
-            "n" : "grass12",
-            "s" : "grass32"
+            "e" : "grass23@grass",
+            "w" : "grass21@grass",
+            "n" : "grass12@grass",
+            "s" : "grass32@grass"
          },
          "flags" : [
             "Outdoors"
@@ -514,10 +514,10 @@
       },
       "grass61@grass" : {
          "exits" : {
-            "e" : "grass62",
-            "w" : "grass60",
-            "n" : "grass51",
-            "s" : "grass71"
+            "e" : "grass62@grass",
+            "w" : "grass60@grass",
+            "n" : "grass51@grass",
+            "s" : "grass71@grass"
          },
          "flags" : [
             "Outdoors"
@@ -530,10 +530,10 @@
       },
       "grass52@grass" : {
          "exits" : {
-            "e" : "grass53",
-            "w" : "grass51",
-            "n" : "grass42",
-            "s" : "grass62"
+            "e" : "grass53@grass",
+            "w" : "grass51@grass",
+            "n" : "grass42@grass",
+            "s" : "grass62@grass"
          },
          "flags" : [
             "Outdoors"
@@ -546,10 +546,10 @@
       },
       "grass100@grass" : {
          "exits" : {
-            "e" : "grass05",
-            "w" : "grass04",
+            "e" : "grass05@grass",
+            "w" : "grass04@grass",
             "n" : "sundhaven6783@sundhaven",
-            "s" : "grass101"
+            "s" : "grass101@grass"
          },
          "flags" : [
             "Outdoors"
@@ -562,9 +562,9 @@
       },
       "grass94@grass" : {
          "exits" : {
-            "e" : "grass109",
-            "w" : "grass93",
-            "n" : "grass84"
+            "e" : "grass109@grass",
+            "w" : "grass93@grass",
+            "n" : "grass84@grass"
          },
          "flags" : [
             "Outdoors"
@@ -577,10 +577,10 @@
       },
       "grass13@grass" : {
          "exits" : {
-            "e" : "grass14",
-            "w" : "grass12",
-            "n" : "grass03",
-            "s" : "grass23"
+            "e" : "grass14@grass",
+            "w" : "grass12@grass",
+            "n" : "grass03@grass",
+            "s" : "grass23@grass"
          },
          "flags" : [
             "Outdoors"
@@ -593,9 +593,9 @@
       },
       "grass05@grass" : {
          "exits" : {
-            "w" : "grass100",
-            "e" : "grass06",
-            "s" : "grass15"
+            "w" : "grass100@grass",
+            "e" : "grass06@grass",
+            "s" : "grass15@grass"
          },
          "flags" : [
             "Outdoors"
@@ -608,10 +608,10 @@
       },
       "grass32@grass" : {
          "exits" : {
-            "e" : "grass33",
-            "w" : "grass31",
-            "n" : "grass22",
-            "s" : "grass42"
+            "e" : "grass33@grass",
+            "w" : "grass31@grass",
+            "n" : "grass22@grass",
+            "s" : "grass42@grass"
          },
          "flags" : [
             "Outdoors"
@@ -624,9 +624,9 @@
       },
       "grass70@grass" : {
          "exits" : {
-            "e" : "grass71",
-            "n" : "grass60",
-            "s" : "grass80"
+            "e" : "grass71@grass",
+            "n" : "grass60@grass",
+            "s" : "grass80@grass"
          },
          "flags" : [
             "Outdoors"
@@ -639,9 +639,9 @@
       },
       "grass06@grass" : {
          "exits" : {
-            "e" : "grass07",
-            "w" : "grass05",
-            "s" : "grass16"
+            "e" : "grass07@grass",
+            "w" : "grass05@grass",
+            "s" : "grass16@grass"
          },
          "flags" : [
             "Outdoors"
@@ -654,10 +654,10 @@
       },
       "grass43@grass" : {
          "exits" : {
-            "e" : "grass44",
-            "w" : "grass42",
-            "n" : "grass33",
-            "s" : "grass53"
+            "e" : "grass44@grass",
+            "w" : "grass42@grass",
+            "n" : "grass33@grass",
+            "s" : "grass53@grass"
          },
          "flags" : [
             "Outdoors"
@@ -670,10 +670,10 @@
       },
       "grass46@grass" : {
          "exits" : {
-            "e" : "grass47",
-            "w" : "grass45",
-            "n" : "grass36",
-            "s" : "grass56"
+            "e" : "grass47@grass",
+            "w" : "grass45@grass",
+            "n" : "grass36@grass",
+            "s" : "grass56@grass"
          },
          "flags" : [
             "Outdoors"
@@ -686,10 +686,10 @@
       },
       "grass16@grass" : {
          "exits" : {
-            "e" : "grass17",
-            "w" : "grass15",
-            "n" : "grass06",
-            "s" : "grass26"
+            "e" : "grass17@grass",
+            "w" : "grass15@grass",
+            "n" : "grass06@grass",
+            "s" : "grass26@grass"
          },
          "flags" : [
             "Outdoors"
@@ -702,10 +702,10 @@
       },
       "grass106@grass" : {
          "exits" : {
-            "e" : "grass65",
-            "w" : "grass64",
-            "n" : "grass105",
-            "s" : "grass107"
+            "e" : "grass65@grass",
+            "w" : "grass64@grass",
+            "n" : "grass105@grass",
+            "s" : "grass107@grass"
          },
          "flags" : [
             "Outdoors"
@@ -718,9 +718,9 @@
       },
       "grass91@grass" : {
          "exits" : {
-            "e" : "grass92",
-            "w" : "grass90",
-            "n" : "grass81"
+            "e" : "grass92@grass",
+            "w" : "grass90@grass",
+            "n" : "grass81@grass"
          },
          "flags" : [
             "Outdoors"
@@ -733,9 +733,9 @@
       },
       "grass92@grass" : {
          "exits" : {
-            "e" : "grass93",
-            "w" : "grass91",
-            "n" : "grass82"
+            "e" : "grass93@grass",
+            "w" : "grass91@grass",
+            "n" : "grass82@grass"
          },
          "flags" : [
             "Outdoors"
@@ -748,10 +748,10 @@
       },
       "grass68@grass" : {
          "exits" : {
-            "e" : "grass69",
-            "w" : "grass67",
-            "n" : "grass58",
-            "s" : "grass78"
+            "e" : "grass69@grass",
+            "w" : "grass67@grass",
+            "n" : "grass58@grass",
+            "s" : "grass78@grass"
          },
          "flags" : [
             "Outdoors"
@@ -764,10 +764,10 @@
       },
       "grass34@grass" : {
          "exits" : {
-            "e" : "grass103",
-            "w" : "grass33",
-            "n" : "grass24",
-            "s" : "grass44"
+            "e" : "grass103@grass",
+            "w" : "grass33@grass",
+            "n" : "grass24@grass",
+            "s" : "grass44@grass"
          },
          "flags" : [
             "Outdoors"
@@ -780,8 +780,8 @@
       },
       "grass09@grass" : {
          "exits" : {
-            "w" : "grass08",
-            "s" : "grass19"
+            "w" : "grass08@grass",
+            "s" : "grass19@grass"
          },
          "flags" : [
             "Outdoors"
@@ -794,10 +794,10 @@
       },
       "grass27@grass" : {
          "exits" : {
-            "e" : "grass28",
-            "w" : "grass26",
-            "n" : "grass17",
-            "s" : "grass37"
+            "e" : "grass28@grass",
+            "w" : "grass26@grass",
+            "n" : "grass17@grass",
+            "s" : "grass37@grass"
          },
          "flags" : [
             "Outdoors"
@@ -810,10 +810,10 @@
       },
       "grass83@grass" : {
          "exits" : {
-            "e" : "grass84",
-            "w" : "grass82",
-            "n" : "grass73",
-            "s" : "grass93"
+            "e" : "grass84@grass",
+            "w" : "grass82@grass",
+            "n" : "grass73@grass",
+            "s" : "grass93@grass"
          },
          "flags" : [
             "Outdoors"
@@ -826,9 +826,9 @@
       },
       "grass59@grass" : {
          "exits" : {
-            "w" : "grass58",
-            "n" : "grass49",
-            "s" : "grass69"
+            "w" : "grass58@grass",
+            "n" : "grass49@grass",
+            "s" : "grass69@grass"
          },
          "flags" : [
             "Outdoors"
@@ -841,10 +841,10 @@
       },
       "grass21@grass" : {
          "exits" : {
-            "e" : "grass22",
-            "w" : "grass20",
-            "n" : "grass11",
-            "s" : "grass31"
+            "e" : "grass22@grass",
+            "w" : "grass20@grass",
+            "n" : "grass11@grass",
+            "s" : "grass31@grass"
          },
          "flags" : [
             "Outdoors"
@@ -857,8 +857,8 @@
       },
       "grass90@grass" : {
          "exits" : {
-            "e" : "grass91",
-            "n" : "grass80"
+            "e" : "grass91@grass",
+            "n" : "grass80@grass"
          },
          "flags" : [
             "Outdoors"
@@ -871,9 +871,9 @@
       },
       "grass49@grass" : {
          "exits" : {
-            "w" : "grass48",
-            "n" : "grass39",
-            "s" : "grass59"
+            "w" : "grass48@grass",
+            "n" : "grass39@grass",
+            "s" : "grass59@grass"
          },
          "flags" : [
             "Outdoors"
@@ -886,9 +886,9 @@
       },
       "grass30@grass" : {
          "exits" : {
-            "e" : "grass31",
-            "n" : "grass20",
-            "s" : "grass40"
+            "e" : "grass31@grass",
+            "n" : "grass20@grass",
+            "s" : "grass40@grass"
          },
          "flags" : [
             "Outdoors"
@@ -901,10 +901,10 @@
       },
       "grass42@grass" : {
          "exits" : {
-            "e" : "grass43",
-            "w" : "grass41",
-            "n" : "grass32",
-            "s" : "grass52"
+            "e" : "grass43@grass",
+            "w" : "grass41@grass",
+            "n" : "grass32@grass",
+            "s" : "grass52@grass"
          },
          "flags" : [
             "Outdoors"
@@ -917,10 +917,10 @@
       },
       "grass75@grass" : {
          "exits" : {
-            "w" : "grass107",
-            "e" : "grass76",
-            "n" : "grass65",
-            "s" : "grass85"
+            "w" : "grass107@grass",
+            "e" : "grass76@grass",
+            "n" : "grass65@grass",
+            "s" : "grass85@grass"
          },
          "flags" : [
             "Outdoors"
@@ -933,10 +933,10 @@
       },
       "grass63@grass" : {
          "exits" : {
-            "e" : "grass64",
-            "w" : "grass62",
-            "n" : "grass53",
-            "s" : "grass73"
+            "e" : "grass64@grass",
+            "w" : "grass62@grass",
+            "n" : "grass53@grass",
+            "s" : "grass73@grass"
          },
          "flags" : [
             "Outdoors"
@@ -949,10 +949,10 @@
       },
       "grass37@grass" : {
          "exits" : {
-            "e" : "grass38",
-            "w" : "grass36",
-            "n" : "grass27",
-            "s" : "grass47"
+            "e" : "grass38@grass",
+            "w" : "grass36@grass",
+            "n" : "grass27@grass",
+            "s" : "grass47@grass"
          },
          "flags" : [
             "Outdoors"
@@ -965,9 +965,9 @@
       },
       "grass50@grass" : {
          "exits" : {
-            "e" : "grass51",
-            "n" : "grass40",
-            "s" : "grass60"
+            "e" : "grass51@grass",
+            "n" : "grass40@grass",
+            "s" : "grass60@grass"
          },
          "flags" : [
             "Outdoors"
@@ -980,10 +980,10 @@
       },
       "grass12@grass" : {
          "exits" : {
-            "e" : "grass13",
-            "w" : "grass11",
-            "n" : "grass02",
-            "s" : "grass22"
+            "e" : "grass13@grass",
+            "w" : "grass11@grass",
+            "n" : "grass02@grass",
+            "s" : "grass22@grass"
          },
          "flags" : [
             "Outdoors"
@@ -996,10 +996,10 @@
       },
       "grass24@grass" : {
          "exits" : {
-            "e" : "grass102",
-            "w" : "grass23",
-            "n" : "grass14",
-            "s" : "grass34"
+            "e" : "grass102@grass",
+            "w" : "grass23@grass",
+            "n" : "grass14@grass",
+            "s" : "grass34@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1012,10 +1012,10 @@
       },
       "grass85@grass" : {
          "exits" : {
-            "w" : "grass108",
-            "e" : "grass86",
-            "n" : "grass75",
-            "s" : "grass95"
+            "w" : "grass108@grass",
+            "e" : "grass86@grass",
+            "n" : "grass75@grass",
+            "s" : "grass95@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1028,10 +1028,10 @@
       },
       "grass44@grass" : {
          "exits" : {
-            "e" : "grass104",
-            "w" : "grass43",
-            "n" : "grass34",
-            "s" : "grass54"
+            "e" : "grass104@grass",
+            "w" : "grass43@grass",
+            "n" : "grass34@grass",
+            "s" : "grass54@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1044,10 +1044,10 @@
       },
       "grass66@grass" : {
          "exits" : {
-            "e" : "grass67",
-            "w" : "grass65",
-            "n" : "grass56",
-            "s" : "grass76"
+            "e" : "grass67@grass",
+            "w" : "grass65@grass",
+            "n" : "grass56@grass",
+            "s" : "grass76@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1060,10 +1060,10 @@
       },
       "grass73@grass" : {
          "exits" : {
-            "e" : "grass74",
-            "w" : "grass72",
-            "n" : "grass63",
-            "s" : "grass83"
+            "e" : "grass74@grass",
+            "w" : "grass72@grass",
+            "n" : "grass63@grass",
+            "s" : "grass83@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1076,9 +1076,9 @@
       },
       "grass20@grass" : {
          "exits" : {
-            "e" : "grass21",
-            "n" : "grass10",
-            "s" : "grass30"
+            "e" : "grass21@grass",
+            "n" : "grass10@grass",
+            "s" : "grass30@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1091,10 +1091,10 @@
       },
       "grass62@grass" : {
          "exits" : {
-            "e" : "grass63",
-            "w" : "grass61",
-            "n" : "grass52",
-            "s" : "grass72"
+            "e" : "grass63@grass",
+            "w" : "grass61@grass",
+            "n" : "grass52@grass",
+            "s" : "grass72@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1107,10 +1107,10 @@
       },
       "grass53@grass" : {
          "exits" : {
-            "e" : "grass54",
-            "w" : "grass52",
-            "n" : "grass43",
-            "s" : "grass63"
+            "e" : "grass54@grass",
+            "w" : "grass52@grass",
+            "n" : "grass43@grass",
+            "s" : "grass63@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1123,9 +1123,9 @@
       },
       "grass02@grass" : {
          "exits" : {
-            "e" : "grass03",
-            "w" : "grass01",
-            "s" : "grass12"
+            "e" : "grass03@grass",
+            "w" : "grass01@grass",
+            "s" : "grass12@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1138,10 +1138,10 @@
       },
       "grass28@grass" : {
          "exits" : {
-            "e" : "grass29",
-            "w" : "grass27",
-            "n" : "grass18",
-            "s" : "grass38"
+            "e" : "grass29@grass",
+            "w" : "grass27@grass",
+            "n" : "grass18@grass",
+            "s" : "grass38@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1154,10 +1154,10 @@
       },
       "grass45@grass" : {
          "exits" : {
-            "e" : "grass46",
-            "w" : "grass104",
-            "n" : "grass35",
-            "s" : "grass55"
+            "e" : "grass46@grass",
+            "w" : "grass104@grass",
+            "n" : "grass35@grass",
+            "s" : "grass55@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1170,10 +1170,10 @@
       },
       "grass18@grass" : {
          "exits" : {
-            "e" : "grass19",
-            "w" : "grass17",
-            "n" : "grass08",
-            "s" : "grass28"
+            "e" : "grass19@grass",
+            "w" : "grass17@grass",
+            "n" : "grass08@grass",
+            "s" : "grass28@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1186,10 +1186,10 @@
       },
       "grass107@grass" : {
          "exits" : {
-            "e" : "grass75",
-            "w" : "grass74",
-            "n" : "grass106",
-            "s" : "grass108"
+            "e" : "grass75@grass",
+            "w" : "grass74@grass",
+            "n" : "grass106@grass",
+            "s" : "grass108@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1202,10 +1202,10 @@
       },
       "grass11@grass" : {
          "exits" : {
-            "e" : "grass12",
-            "w" : "grass10",
-            "n" : "grass01",
-            "s" : "grass21"
+            "e" : "grass12@grass",
+            "w" : "grass10@grass",
+            "n" : "grass01@grass",
+            "s" : "grass21@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1218,10 +1218,10 @@
       },
       "grass102@grass" : {
          "exits" : {
-            "e" : "grass25",
-            "w" : "grass24",
-            "n" : "grass101",
-            "s" : "grass103"
+            "e" : "grass25@grass",
+            "w" : "grass24@grass",
+            "n" : "grass101@grass",
+            "s" : "grass103@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1234,9 +1234,9 @@
       },
       "grass03@grass" : {
          "exits" : {
-            "e" : "grass04",
-            "w" : "grass02",
-            "s" : "grass13"
+            "e" : "grass04@grass",
+            "w" : "grass02@grass",
+            "s" : "grass13@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1249,10 +1249,10 @@
       },
       "grass35@grass" : {
          "exits" : {
-            "e" : "grass36",
-            "w" : "grass103",
-            "n" : "grass25",
-            "s" : "grass45"
+            "e" : "grass36@grass",
+            "w" : "grass103@grass",
+            "n" : "grass25@grass",
+            "s" : "grass45@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1265,10 +1265,10 @@
       },
       "grass33@grass" : {
          "exits" : {
-            "e" : "grass34",
-            "w" : "grass32",
-            "n" : "grass23",
-            "s" : "grass43"
+            "e" : "grass34@grass",
+            "w" : "grass32@grass",
+            "n" : "grass23@grass",
+            "s" : "grass43@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1281,10 +1281,10 @@
       },
       "grass36@grass" : {
          "exits" : {
-            "e" : "grass37",
-            "w" : "grass35",
-            "n" : "grass26",
-            "s" : "grass46"
+            "e" : "grass37@grass",
+            "w" : "grass35@grass",
+            "n" : "grass26@grass",
+            "s" : "grass46@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1297,10 +1297,10 @@
       },
       "grass57@grass" : {
          "exits" : {
-            "e" : "grass58",
-            "w" : "grass56",
-            "n" : "grass47",
-            "s" : "grass67"
+            "e" : "grass58@grass",
+            "w" : "grass56@grass",
+            "n" : "grass47@grass",
+            "s" : "grass67@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1313,9 +1313,9 @@
       },
       "grass19@grass" : {
          "exits" : {
-            "w" : "grass18",
-            "n" : "grass09",
-            "s" : "grass29"
+            "w" : "grass18@grass",
+            "n" : "grass09@grass",
+            "s" : "grass29@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1328,10 +1328,10 @@
       },
       "grass103@grass" : {
          "exits" : {
-            "e" : "grass35",
-            "w" : "grass34",
-            "n" : "grass102",
-            "s" : "grass104"
+            "e" : "grass35@grass",
+            "w" : "grass34@grass",
+            "n" : "grass102@grass",
+            "s" : "grass104@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1344,10 +1344,10 @@
       },
       "grass26@grass" : {
          "exits" : {
-            "e" : "grass27",
-            "w" : "grass25",
-            "n" : "grass16",
-            "s" : "grass36"
+            "e" : "grass27@grass",
+            "w" : "grass25@grass",
+            "n" : "grass16@grass",
+            "s" : "grass36@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1360,9 +1360,9 @@
       },
       "grass80@grass" : {
          "exits" : {
-            "e" : "grass81",
-            "n" : "grass70",
-            "s" : "grass90"
+            "e" : "grass81@grass",
+            "n" : "grass70@grass",
+            "s" : "grass90@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1375,10 +1375,10 @@
       },
       "grass101@grass" : {
          "exits" : {
-            "e" : "grass15",
-            "w" : "grass14",
-            "n" : "grass100",
-            "s" : "grass102"
+            "e" : "grass15@grass",
+            "w" : "grass14@grass",
+            "n" : "grass100@grass",
+            "s" : "grass102@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1391,9 +1391,9 @@
       },
       "grass93@grass" : {
          "exits" : {
-            "e" : "grass94",
-            "w" : "grass92",
-            "n" : "grass83"
+            "e" : "grass94@grass",
+            "w" : "grass92@grass",
+            "n" : "grass83@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1406,9 +1406,9 @@
       },
       "grass69@grass" : {
          "exits" : {
-            "w" : "grass68",
-            "n" : "grass59",
-            "s" : "grass79"
+            "w" : "grass68@grass",
+            "n" : "grass59@grass",
+            "s" : "grass79@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1421,9 +1421,9 @@
       },
       "grass39@grass" : {
          "exits" : {
-            "w" : "grass38",
-            "n" : "grass29",
-            "s" : "grass49"
+            "w" : "grass38@grass",
+            "n" : "grass29@grass",
+            "s" : "grass49@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1436,9 +1436,9 @@
       },
       "grass08@grass" : {
          "exits" : {
-            "e" : "grass09",
-            "w" : "grass07",
-            "s" : "grass18"
+            "e" : "grass09@grass",
+            "w" : "grass07@grass",
+            "s" : "grass18@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1451,10 +1451,10 @@
       },
       "grass25@grass" : {
          "exits" : {
-            "w" : "grass102",
-            "e" : "grass26",
-            "n" : "grass15",
-            "s" : "grass35"
+            "w" : "grass102@grass",
+            "e" : "grass26@grass",
+            "n" : "grass15@grass",
+            "s" : "grass35@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1467,8 +1467,8 @@
       },
       "grass99@grass" : {
          "exits" : {
-            "w" : "grass98",
-            "n" : "grass89"
+            "w" : "grass98@grass",
+            "n" : "grass89@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1481,10 +1481,10 @@
       },
       "grass82@grass" : {
          "exits" : {
-            "e" : "grass83",
-            "w" : "grass81",
-            "n" : "grass72",
-            "s" : "grass92"
+            "e" : "grass83@grass",
+            "w" : "grass81@grass",
+            "n" : "grass72@grass",
+            "s" : "grass92@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1497,10 +1497,10 @@
       },
       "grass15@grass" : {
          "exits" : {
-            "w" : "grass101",
-            "e" : "grass16",
-            "n" : "grass05",
-            "s" : "grass25"
+            "w" : "grass101@grass",
+            "e" : "grass16@grass",
+            "n" : "grass05@grass",
+            "s" : "grass25@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1513,10 +1513,10 @@
       },
       "grass48@grass" : {
          "exits" : {
-            "e" : "grass49",
-            "w" : "grass47",
-            "n" : "grass38",
-            "s" : "grass58"
+            "e" : "grass49@grass",
+            "w" : "grass47@grass",
+            "n" : "grass38@grass",
+            "s" : "grass58@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1529,9 +1529,9 @@
       },
       "grass10@grass" : {
          "exits" : {
-            "e" : "grass11",
-            "n" : "grass00",
-            "s" : "grass20"
+            "e" : "grass11@grass",
+            "n" : "grass00@grass",
+            "s" : "grass20@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1544,10 +1544,10 @@
       },
       "grass87@grass" : {
          "exits" : {
-            "e" : "grass88",
-            "w" : "grass86",
-            "n" : "grass77",
-            "s" : "grass97"
+            "e" : "grass88@grass",
+            "w" : "grass86@grass",
+            "n" : "grass77@grass",
+            "s" : "grass97@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1560,9 +1560,9 @@
       },
       "grass96@grass" : {
          "exits" : {
-            "e" : "grass97",
-            "w" : "grass95",
-            "n" : "grass86"
+            "e" : "grass97@grass",
+            "w" : "grass95@grass",
+            "n" : "grass86@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1575,10 +1575,10 @@
       },
       "grass65@grass" : {
          "exits" : {
-            "w" : "grass106",
-            "e" : "grass66",
-            "n" : "grass55",
-            "s" : "grass75"
+            "w" : "grass106@grass",
+            "e" : "grass66@grass",
+            "n" : "grass55@grass",
+            "s" : "grass75@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1591,10 +1591,10 @@
       },
       "grass14@grass" : {
          "exits" : {
-            "e" : "grass101",
-            "w" : "grass13",
-            "n" : "grass04",
-            "s" : "grass24"
+            "e" : "grass101@grass",
+            "w" : "grass13@grass",
+            "n" : "grass04@grass",
+            "s" : "grass24@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1607,10 +1607,10 @@
       },
       "grass56@grass" : {
          "exits" : {
-            "e" : "grass57",
-            "w" : "grass55",
-            "n" : "grass46",
-            "s" : "grass66"
+            "e" : "grass57@grass",
+            "w" : "grass55@grass",
+            "n" : "grass46@grass",
+            "s" : "grass66@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1623,10 +1623,10 @@
       },
       "grass17@grass" : {
          "exits" : {
-            "e" : "grass18",
-            "w" : "grass16",
-            "n" : "grass07",
-            "s" : "grass27"
+            "e" : "grass18@grass",
+            "w" : "grass16@grass",
+            "n" : "grass07@grass",
+            "s" : "grass27@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1639,10 +1639,10 @@
       },
       "grass58@grass" : {
          "exits" : {
-            "e" : "grass59",
-            "w" : "grass57",
-            "n" : "grass48",
-            "s" : "grass68"
+            "e" : "grass59@grass",
+            "w" : "grass57@grass",
+            "n" : "grass48@grass",
+            "s" : "grass68@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1655,10 +1655,10 @@
       },
       "grass23@grass" : {
          "exits" : {
-            "e" : "grass24",
-            "w" : "grass22",
-            "n" : "grass13",
-            "s" : "grass33"
+            "e" : "grass24@grass",
+            "w" : "grass22@grass",
+            "n" : "grass13@grass",
+            "s" : "grass33@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1671,9 +1671,9 @@
       },
       "grass60@grass" : {
          "exits" : {
-            "e" : "grass61",
-            "n" : "grass50",
-            "s" : "grass70"
+            "e" : "grass61@grass",
+            "n" : "grass50@grass",
+            "s" : "grass70@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1686,9 +1686,9 @@
       },
       "grass04@grass" : {
          "exits" : {
-            "e" : "grass100",
-            "w" : "grass03",
-            "s" : "grass14"
+            "e" : "grass100@grass",
+            "w" : "grass03@grass",
+            "s" : "grass14@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1701,9 +1701,9 @@
       },
       "grass97@grass" : {
          "exits" : {
-            "e" : "grass98",
-            "w" : "grass96",
-            "n" : "grass87"
+            "e" : "grass98@grass",
+            "w" : "grass96@grass",
+            "n" : "grass87@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1716,10 +1716,10 @@
       },
       "grass81@grass" : {
          "exits" : {
-            "e" : "grass82",
-            "w" : "grass80",
-            "n" : "grass71",
-            "s" : "grass91"
+            "e" : "grass82@grass",
+            "w" : "grass80@grass",
+            "n" : "grass71@grass",
+            "s" : "grass91@grass"
          },
          "flags" : [
             "Outdoors"
@@ -1734,7 +1734,7 @@
    "mob" : {
       "mob11210_1@grass" : {
          "damage" : "25",
-         "location" : "grass26",
+         "location" : "grass26@grass",
          "armor" : "16",
          "name" : "mob11210_1",
          "examine" : "\nHe certainly notices your presence, being a man of the plains and a hunter as\nwell.  He does, however, acknowledge you in the slightest and simply continues\nhis trek.    \n",
@@ -1750,7 +1750,7 @@
       },
       "mob11206@grass" : {
          "damage" : "9",
-         "location" : "grass71",
+         "location" : "grass71@grass",
          "armor" : "2",
          "name" : "mob11206",
          "examine" : "\nIt looks so kind, so small, so harmless.  Probably is the very best thing to\nsimply put it out of its misery.    \n",
@@ -1768,7 +1768,7 @@
       },
       "mob11211_1@grass" : {
          "damage" : "16",
-         "location" : "grass21",
+         "location" : "grass21@grass",
          "armor" : "16",
          "name" : "mob11211_1",
          "examine" : "\nThe herd as whole would not take much notice of you save for an obsturction in\ntheir path - be careful you do not get run down.    \n",
@@ -1784,7 +1784,7 @@
       },
       "mob11207_2@grass" : {
          "damage" : "20",
-         "location" : "grass44",
+         "location" : "grass44@grass",
          "armor" : "12",
          "name" : "mob11207_2",
          "examine" : "\nAll you catch is the glimpse of a white tail bounces up and down and the stag\nis gone - vanished.    \n",
@@ -1800,7 +1800,7 @@
       },
       "mob11207@grass" : {
          "damage" : "20",
-         "location" : "grass27",
+         "location" : "grass27@grass",
          "armor" : "12",
          "name" : "mob11207",
          "examine" : "\nAll you catch is the glimpse of a white tail bounces up and down and the stag\nis gone - vanished.    \n",
@@ -1816,7 +1816,7 @@
       },
       "mob11201_3@grass" : {
          "damage" : "2",
-         "location" : "grass01",
+         "location" : "grass01@grass",
          "armor" : "2",
          "name" : "mob11201_3",
          "examine" : "\nIts a grasshopper... what more do you want to know?\n",
@@ -1832,7 +1832,7 @@
       },
       "mob11213@grass" : {
          "damage" : "30",
-         "location" : "grass49",
+         "location" : "grass49@grass",
          "armor" : "18",
          "name" : "mob11213",
          "examine" : "\nHe seems so relaxed, so peaceful in his life.  Kill him.    \n",
@@ -1848,7 +1848,7 @@
       },
       "mob11204@grass" : {
          "damage" : "27",
-         "location" : "grass07",
+         "location" : "grass07@grass",
          "armor" : "16",
          "name" : "mob11204",
          "examine" : "\nA strange shimmering in the air around it makes you want to blink repeatedly to\ntry and judge whether its your eyes or maybe the air really is distorted by the\npresence of the larind.    \n",
@@ -1863,7 +1863,7 @@
       },
       "mob11201@grass" : {
          "damage" : "2",
-         "location" : "grass31",
+         "location" : "grass31@grass",
          "armor" : "2",
          "name" : "mob11201",
          "examine" : "\nIts a grasshopper... what more do you want to know?\n",
@@ -1879,7 +1879,7 @@
       },
       "mob11205@grass" : {
          "damage" : "6",
-         "location" : "grass71",
+         "location" : "grass71@grass",
          "armor" : "1",
          "name" : "mob11205",
          "examine" : "\nIt wiggles its nose at you and runs off.\n",
@@ -1897,7 +1897,7 @@
       },
       "mob11205_2@grass" : {
          "damage" : "6",
-         "location" : "grass43",
+         "location" : "grass43@grass",
          "armor" : "1",
          "name" : "mob11205_2",
          "examine" : "\nIt wiggles its nose at you and runs off.\n",
@@ -1915,7 +1915,7 @@
       },
       "mob11211@grass" : {
          "damage" : "16",
-         "location" : "grass47",
+         "location" : "grass47@grass",
          "armor" : "16",
          "name" : "mob11211",
          "examine" : "\nThe herd as whole would not take much notice of you save for an obsturction in\ntheir path - be careful you do not get run down.    \n",
@@ -1931,7 +1931,7 @@
       },
       "mob11206_1@grass" : {
          "damage" : "9",
-         "location" : "grass98",
+         "location" : "grass98@grass",
          "armor" : "2",
          "name" : "mob11206_1",
          "examine" : "\nIt looks so kind, so small, so harmless.  Probably is the very best thing to\nsimply put it out of its misery.    \n",
@@ -1949,7 +1949,7 @@
       },
       "mob11204_1@grass" : {
          "damage" : "27",
-         "location" : "grass03",
+         "location" : "grass03@grass",
          "armor" : "16",
          "name" : "mob11204_1",
          "examine" : "\nA strange shimmering in the air around it makes you want to blink repeatedly to\ntry and judge whether its your eyes or maybe the air really is distorted by the\npresence of the larind.    \n",
@@ -1964,7 +1964,7 @@
       },
       "mob11212_2@grass" : {
          "damage" : "24",
-         "location" : "grass35",
+         "location" : "grass35@grass",
          "armor" : "14",
          "name" : "mob11212_2",
          "examine" : "\nHe is deeply engrossed in his scouring of the land, scanning over every speck\nof grassy ground that he passes.    \n",
@@ -1980,7 +1980,7 @@
       },
       "mob11203_2@grass" : {
          "damage" : "20",
-         "location" : "grass32",
+         "location" : "grass32@grass",
          "armor" : "12",
          "name" : "mob11203_2",
          "examine" : "\nShe swings her heavy head your way - maybe you are that morsel she has been\nlooking for.\n",
@@ -1998,7 +1998,7 @@
       },
       "mob11200@grass" : {
          "damage" : "12",
-         "location" : "grass00",
+         "location" : "grass00@grass",
          "armor" : "8",
          "name" : "mob11200",
          "examine" : "\nThey make no noise whatsoever, they simply crawl toward you - slowly, with a\nstrong purpose...  To infect you with their posion!    \n",
@@ -2018,7 +2018,7 @@
       },
       "mob11212_1@grass" : {
          "damage" : "24",
-         "location" : "grass46",
+         "location" : "grass46@grass",
          "armor" : "14",
          "name" : "mob11212_1",
          "examine" : "\nHe is deeply engrossed in his scouring of the land, scanning over every speck\nof grassy ground that he passes.    \n",
@@ -2034,7 +2034,7 @@
       },
       "mob11201_2@grass" : {
          "damage" : "2",
-         "location" : "grass66",
+         "location" : "grass66@grass",
          "armor" : "2",
          "name" : "mob11201_2",
          "examine" : "\nIts a grasshopper... what more do you want to know?\n",
@@ -2050,7 +2050,7 @@
       },
       "mob11207_1@grass" : {
          "damage" : "20",
-         "location" : "grass38",
+         "location" : "grass38@grass",
          "armor" : "12",
          "name" : "mob11207_1",
          "examine" : "\nAll you catch is the glimpse of a white tail bounces up and down and the stag\nis gone - vanished.    \n",
@@ -2066,7 +2066,7 @@
       },
       "mob11205_1@grass" : {
          "damage" : "6",
-         "location" : "grass69",
+         "location" : "grass69@grass",
          "armor" : "1",
          "name" : "mob11205_1",
          "examine" : "\nIt wiggles its nose at you and runs off.\n",
@@ -2084,7 +2084,7 @@
       },
       "mob11210@grass" : {
          "damage" : "25",
-         "location" : "grass13",
+         "location" : "grass13@grass",
          "armor" : "16",
          "name" : "mob11210",
          "examine" : "\nHe certainly notices your presence, being a man of the plains and a hunter as\nwell.  He does, however, acknowledge you in the slightest and simply continues\nhis trek.    \n",
@@ -2100,7 +2100,7 @@
       },
       "mob11206_2@grass" : {
          "damage" : "9",
-         "location" : "grass99",
+         "location" : "grass99@grass",
          "armor" : "2",
          "name" : "mob11206_2",
          "examine" : "\nIt looks so kind, so small, so harmless.  Probably is the very best thing to\nsimply put it out of its misery.    \n",
@@ -2118,7 +2118,7 @@
       },
       "mob11200_3@grass" : {
          "damage" : "12",
-         "location" : "grass30",
+         "location" : "grass30@grass",
          "armor" : "8",
          "name" : "mob11200_3",
          "examine" : "\nThey make no noise whatsoever, they simply crawl toward you - slowly, with a\nstrong purpose...  To infect you with their posion!    \n",
@@ -2138,7 +2138,7 @@
       },
       "mob11206_3@grass" : {
          "damage" : "9",
-         "location" : "grass73",
+         "location" : "grass73@grass",
          "armor" : "2",
          "name" : "mob11206_3",
          "examine" : "\nIt looks so kind, so small, so harmless.  Probably is the very best thing to\nsimply put it out of its misery.    \n",
@@ -2156,7 +2156,7 @@
       },
       "mob11203_1@grass" : {
          "damage" : "20",
-         "location" : "grass67",
+         "location" : "grass67@grass",
          "armor" : "12",
          "name" : "mob11203_1",
          "examine" : "\nShe swings her heavy head your way - maybe you are that morsel she has been\nlooking for.\n",
@@ -2174,7 +2174,7 @@
       },
       "mob11208_1@grass" : {
          "damage" : "24",
-         "location" : "grass63",
+         "location" : "grass63@grass",
          "armor" : "14",
          "name" : "mob11208_1",
          "examine" : "\nHis stride is true and unfaltering, having spent many years in the fields of\nSundhaven, hunting and trapping for a living.    \n",
@@ -2190,7 +2190,7 @@
       },
       "mob11203_3@grass" : {
          "damage" : "20",
-         "location" : "grass02",
+         "location" : "grass02@grass",
          "armor" : "12",
          "name" : "mob11203_3",
          "examine" : "\nShe swings her heavy head your way - maybe you are that morsel she has been\nlooking for.\n",
@@ -2208,7 +2208,7 @@
       },
       "mob11207_3@grass" : {
          "damage" : "20",
-         "location" : "grass31",
+         "location" : "grass31@grass",
          "armor" : "12",
          "name" : "mob11207_3",
          "examine" : "\nAll you catch is the glimpse of a white tail bounces up and down and the stag\nis gone - vanished.    \n",
@@ -2224,7 +2224,7 @@
       },
       "mob11212@grass" : {
          "damage" : "24",
-         "location" : "grass41",
+         "location" : "grass41@grass",
          "armor" : "14",
          "name" : "mob11212",
          "examine" : "\nHe is deeply engrossed in his scouring of the land, scanning over every speck\nof grassy ground that he passes.    \n",
@@ -2240,7 +2240,7 @@
       },
       "mob11209_1@grass" : {
          "damage" : "15",
-         "location" : "grass14",
+         "location" : "grass14@grass",
          "armor" : "8",
          "name" : "mob11209_1",
          "examine" : "\nIt is as mangy as it is skinny, sniffing the grass with its nose to the ground,\neyes keen and sharp.    \n",
@@ -2256,7 +2256,7 @@
       },
       "mob11209@grass" : {
          "damage" : "15",
-         "location" : "grass27",
+         "location" : "grass27@grass",
          "armor" : "8",
          "name" : "mob11209",
          "examine" : "\nIt is as mangy as it is skinny, sniffing the grass with its nose to the ground,\neyes keen and sharp.    \n",
@@ -2272,7 +2272,7 @@
       },
       "mob11201_1@grass" : {
          "damage" : "2",
-         "location" : "grass96",
+         "location" : "grass96@grass",
          "armor" : "2",
          "name" : "mob11201_1",
          "examine" : "\nIts a grasshopper... what more do you want to know?\n",
@@ -2288,7 +2288,7 @@
       },
       "mob11200_1@grass" : {
          "damage" : "12",
-         "location" : "grass95",
+         "location" : "grass95@grass",
          "armor" : "8",
          "name" : "mob11200_1",
          "examine" : "\nThey make no noise whatsoever, they simply crawl toward you - slowly, with a\nstrong purpose...  To infect you with their posion!    \n",
@@ -2308,7 +2308,7 @@
       },
       "mob11203@grass" : {
          "damage" : "20",
-         "location" : "grass97",
+         "location" : "grass97@grass",
          "armor" : "12",
          "name" : "mob11203",
          "examine" : "\nShe swings her heavy head your way - maybe you are that morsel she has been\nlooking for.\n",
@@ -2326,7 +2326,7 @@
       },
       "mob11200_2@grass" : {
          "damage" : "12",
-         "location" : "grass65",
+         "location" : "grass65@grass",
          "armor" : "8",
          "name" : "mob11200_2",
          "examine" : "\nThey make no noise whatsoever, they simply crawl toward you - slowly, with a\nstrong purpose...  To infect you with their posion!    \n",
@@ -2346,7 +2346,7 @@
       },
       "mob11208@grass" : {
          "damage" : "24",
-         "location" : "grass69",
+         "location" : "grass69@grass",
          "armor" : "14",
          "name" : "mob11208",
          "examine" : "\nHis stride is true and unfaltering, having spent many years in the fields of\nSundhaven, hunting and trapping for a living.    \n",
@@ -2362,7 +2362,7 @@
       },
       "mob11202@grass" : {
          "damage" : "7",
-         "location" : "grass01",
+         "location" : "grass01@grass",
          "armor" : "4",
          "name" : "mob11202",
          "examine" : "\nThey buzz and zip around about your head, making it difficult to travel safely\nthrough the thick grasses.    \n",

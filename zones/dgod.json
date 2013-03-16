@@ -2,7 +2,7 @@
    "obj" : {
       "fishtank@dgod" : {
          "damage" : "0",
-         "location" : "IN_ROOM:arctica1",
+         "location" : "IN_ROOM:arctica1@dgod",
          "oflags" : [
             "NoGet",
             "Container"
@@ -19,7 +19,7 @@
       },
       "rope@dgod" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:fishtank",
+         "location" : "IN_CONTAINER:fishtank@dgod",
          "oflags" : [
             "Wearable"
          ],
@@ -38,7 +38,7 @@
       },
       "bed@dgod" : {
          "damage" : "0",
-         "location" : "IN_ROOM:arctica1",
+         "location" : "IN_ROOM:arctica1@dgod",
          "oflags" : [
             "NoGet"
          ],
@@ -83,7 +83,7 @@
    "mob" : {
       "acanthostega@dgod" : {
          "damage" : "4",
-         "location" : "arctica1",
+         "location" : "arctica1@dgod",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",

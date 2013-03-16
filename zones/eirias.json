@@ -1,7 +1,7 @@
 {
    "obj" : {
       "cscroll@eirias" : {
-         "location" : "IN_ROOM:gallery",
+         "location" : "IN_ROOM:gallery@eirias",
          "oflags" : [
             "Destroyed"
          ],
@@ -13,7 +13,7 @@
          "desc[0]" : "An ancient scroll with some gold lettering on lies here."
       },
       "secret@eirias" : {
-         "location" : "IN_ROOM:staircase",
+         "location" : "IN_ROOM:staircase@eirias",
          "oflags" : [
             "NoGet"
          ],
@@ -25,7 +25,7 @@
       },
       "hazelnut@eirias" : {
          "desc[1]" : "A hazelnut hangs off one of the branches.",
-         "location" : "IN_ROOM:tree4",
+         "location" : "IN_ROOM:tree4@eirias",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -36,7 +36,7 @@
          "desc[0]" : "A hazelnut lies here."
       },
       "seefountain@eirias" : {
-         "location" : "IN_ROOM:fountain",
+         "location" : "IN_ROOM:fountain@eirias",
          "oflags" : [
             "NoGet"
          ],
@@ -46,7 +46,7 @@
       "shield@eirias" : {
          "desc[1]" : "Your eye is caught by something high on the wall.. a golden shield.",
          "damage" : "0",
-         "location" : "IN_ROOM:towerent",
+         "location" : "IN_ROOM:towerent@eirias",
          "armor" : "60",
          "oflags" : [
             "Armor",
@@ -62,7 +62,7 @@
          "desc[0]" : "There is an ornate golden shield lying here."
       },
       "castlewheel@eirias" : {
-         "location" : "IN_ROOM:dark",
+         "location" : "IN_ROOM:dark@eirias",
          "oflags" : [
             "NoGet"
          ],
@@ -76,7 +76,7 @@
       },
       "tapestry@eirias" : {
          "desc[1]" : "One of the tapestries, a great battle, catches your eye.",
-         "location" : "IN_ROOM:vaulted",
+         "location" : "IN_ROOM:vaulted@eirias",
          "oflags" : [
             "NoGet",
             "Pushable"
@@ -90,7 +90,7 @@
          "desc[0]" : "One of the tapestries has been moved aside."
       },
       "twig@eirias" : {
-         "location" : "IN_ROOM:tree1",
+         "location" : "IN_ROOM:tree1@eirias",
          "oflags" : [
             "Destroyed"
          ],
@@ -99,7 +99,7 @@
          "desc[0]" : "An alder twig lies here."
       },
       "escroll@eirias" : {
-         "location" : "IN_ROOM:towerent",
+         "location" : "IN_ROOM:towerent@eirias",
          "oflags" : [
             "Destroyed"
          ],
@@ -111,7 +111,7 @@
          "desc[0]" : "An ancient scroll with some gold lettering on lies here."
       },
       "galdoor@eirias" : {
-         "location" : "IN_ROOM:gallery",
+         "location" : "IN_ROOM:gallery@eirias",
          "oflags" : [
             "NoGet"
          ],
@@ -122,7 +122,7 @@
          "state" : "1"
       },
       "jewelstone@eirias" : {
-         "location" : "IN_ROOM:toproom",
+         "location" : "IN_ROOM:toproom@eirias",
          "oflags" : [
             "Destroyed"
          ],
@@ -133,7 +133,7 @@
          "desc[0]" : "A small blue-green stone lies here."
       },
       "latticedown@eirias" : {
-         "location" : "IN_ROOM:wooddoor",
+         "location" : "IN_ROOM:wooddoor@eirias",
          "oflags" : [
             "NoGet"
          ],
@@ -144,7 +144,7 @@
          "state" : "1"
       },
       "prosign@eirias" : {
-         "location" : "IN_ROOM:mountain",
+         "location" : "IN_ROOM:mountain@eirias",
          "oflags" : [
             "NoGet"
          ],
@@ -154,7 +154,7 @@
          "desc[0]" : "An old weathered sign stands here."
       },
       "stairdoor@eirias" : {
-         "location" : "IN_ROOM:staircase",
+         "location" : "IN_ROOM:staircase@eirias",
          "oflags" : [
             "NoGet"
          ],
@@ -166,7 +166,7 @@
          "desc[0]" : "A door that you hadn't noticed before stands open here."
       },
       "ascroll@eirias" : {
-         "location" : "IN_ROOM:fountain",
+         "location" : "IN_ROOM:fountain@eirias",
          "oflags" : [
             "Destroyed"
          ],
@@ -178,7 +178,7 @@
          "desc[0]" : "An ancient scroll with some gold lettering on lies here."
       },
       "crest@eirias" : {
-         "location" : "IN_ROOM:square",
+         "location" : "IN_ROOM:square@eirias",
          "oflags" : [
             "NoGet"
          ],
@@ -186,7 +186,7 @@
          "examine" : "\nIt is a golden crest, of a leaping fish with some roses. It is called formally\nAzure, a Salmon naiant Or between three Roses Argent seeded and barbed.  It is\nthe crest of Gwyddno the King."
       },
       "wooden@eirias" : {
-         "location" : "IN_ROOM:wooddoor",
+         "location" : "IN_ROOM:wooddoor@eirias",
          "oflags" : [
             "NoGet"
          ],
@@ -197,7 +197,7 @@
          "state" : "1"
       },
       "bundle@eirias" : {
-         "location" : "IN_ROOM:tree2",
+         "location" : "IN_ROOM:tree2@eirias",
          "oflags" : [
             "Destroyed"
          ],
@@ -207,7 +207,7 @@
          "desc[0]" : "A bundle of twigs lies here."
       },
       "smallmirror@eirias" : {
-         "location" : "IN_ROOM:cottage",
+         "location" : "IN_ROOM:cottage@eirias",
          "oflags" : [
             "NoGet"
          ],
@@ -220,7 +220,7 @@
       },
       "apple@eirias" : {
          "desc[1]" : "A small apple hangs off one of the branches.",
-         "location" : "IN_ROOM:tree6",
+         "location" : "IN_ROOM:tree6@eirias",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -231,7 +231,7 @@
       },
       "eiriassword@eirias" : {
          "damage" : "37",
-         "location" : "IN_ROOM:toproom",
+         "location" : "IN_ROOM:toproom@eirias",
          "oflags" : [
             "Weapon",
             "Lit",
@@ -244,14 +244,14 @@
          "desc[0]" : "The glowing sword of the Light lies here."
       },
       "parchment@eirias" : {
-         "location" : "IN_ROOM:mountain",
+         "location" : "IN_ROOM:mountain@eirias",
          "altname" : "roll",
          "name" : "parchment",
          "examine" : "\nThe parchment reads:\n        You must go to the Lost Land, in the moment when it shall\n        show itself between the land and the sea. And a white bone\n        will prevent you, and a flying maytree will save you, and\n        only the horn can stop the wheel. And in the glass tower\n        among the seven trees you will find the crystal sword of\n        the Light. There are five barriers to be broken to reach\n        the crystal sword, and they are told in five lines that are\n        written in letters of golden fire over the sword itself.",
          "desc[0]" : "An old forgotten roll of parchment lies here."
       },
       "dscroll@eirias" : {
-         "location" : "IN_ROOM:cottage",
+         "location" : "IN_ROOM:cottage@eirias",
          "oflags" : [
             "Destroyed"
          ],
@@ -263,7 +263,7 @@
          "desc[0]" : "An ancient scroll with some gold lettering on lies here."
       },
       "doorcoach@eirias" : {
-         "location" : "IN_ROOM:wooddoor",
+         "location" : "IN_ROOM:wooddoor@eirias",
          "oflags" : [
             "NoGet"
          ],
@@ -275,7 +275,7 @@
          "desc[0]" : "There is another coach waiting here for you."
       },
       "sand@eirias" : {
-         "location" : "IN_ROOM:shore",
+         "location" : "IN_ROOM:shore@eirias",
          "oflags" : [
             "NoGet"
          ],
@@ -284,7 +284,7 @@
          "desc[0]" : "There is a little pile of disturbed sand here."
       },
       "latticeup@eirias" : {
-         "location" : "IN_ROOM:lostland",
+         "location" : "IN_ROOM:lostland@eirias",
          "oflags" : [
             "NoGet",
             "Pushable"
@@ -298,7 +298,7 @@
          "maxstate" : "1"
       },
       "galbook@eirias" : {
-         "location" : "IN_ROOM:gallery",
+         "location" : "IN_ROOM:gallery@eirias",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -308,7 +308,7 @@
          "desc[0]" : "There is a large book on one of the tables."
       },
       "horn@eirias" : {
-         "location" : "IN_ROOM:shore",
+         "location" : "IN_ROOM:shore@eirias",
          "oflags" : [
             "Destroyed"
          ],
@@ -318,7 +318,7 @@
          "desc[0]" : "An old horn lies here."
       },
       "doorcountry@eirias" : {
-         "location" : "IN_ROOM:country",
+         "location" : "IN_ROOM:country@eirias",
          "oflags" : [
             "NoGet"
          ],
@@ -329,7 +329,7 @@
          "state" : "1"
       },
       "bscroll@eirias" : {
-         "location" : "IN_ROOM:deadend",
+         "location" : "IN_ROOM:deadend@eirias",
          "oflags" : [
             "Destroyed"
          ],
@@ -341,7 +341,7 @@
          "desc[0]" : "An ancient scroll with some gold lettering on lies here."
       },
       "scabbard@eirias" : {
-         "location" : "IN_ROOM:toproom",
+         "location" : "IN_ROOM:toproom@eirias",
          "armor" : "35",
          "oflags" : [
             "Armor",
@@ -359,7 +359,7 @@
       },
       "wheel@eirias" : {
          "desc[1]" : "The spinning, razor-sharp wheel blocks the way into the tower.",
-         "location" : "IN_ROOM:wydyr",
+         "location" : "IN_ROOM:wydyr@eirias",
          "oflags" : [
             "NoGet"
          ],
@@ -371,7 +371,7 @@
          "desc[0]" : "The wheel has spun to a halt."
       },
       "crosskey@eirias" : {
-         "location" : "IN_ROOM:balustrade",
+         "location" : "IN_ROOM:balustrade@eirias",
          "oflags" : [
             "Key"
          ],
@@ -382,7 +382,7 @@
          "desc[0]" : "A heavy iron key lies here."
       },
       "indoor@eirias" : {
-         "location" : "IN_ROOM:inside",
+         "location" : "IN_ROOM:inside@eirias",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -397,8 +397,8 @@
    "loc" : {
       "forest4@eirias" : {
          "exits" : {
-            "n" : "clearing",
-            "s" : "forest3"
+            "n" : "clearing@eirias",
+            "s" : "forest3@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -420,8 +420,8 @@
       },
       "river@eirias" : {
          "exits" : {
-            "e" : "tree1",
-            "n" : "field7"
+            "e" : "tree1@eirias",
+            "n" : "field7@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -434,7 +434,7 @@
       },
       "dark@eirias" : {
          "exits" : {
-            "s" : "^castlewheel"
+            "s" : "^castlewheel@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -447,7 +447,7 @@
       },
       "vaulted@eirias" : {
          "exits" : {
-            "u" : "^tapestry"
+            "u" : "^tapestry@eirias"
          },
          "flags" : [
             "Dark"
@@ -460,8 +460,8 @@
       },
       "wydyr@eirias" : {
          "exits" : {
-            "n" : "dark",
-            "s" : "tree7"
+            "n" : "dark@eirias",
+            "s" : "tree7@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -474,8 +474,8 @@
       },
       "tree2@eirias" : {
          "exits" : {
-            "n" : "tree3",
-            "s" : "tree1"
+            "n" : "tree3@eirias",
+            "s" : "tree1@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -488,10 +488,10 @@
       },
       "field5@eirias" : {
          "exits" : {
-            "e" : "field2",
-            "w" : "field4",
-            "n" : "field6",
-            "s" : "field3"
+            "e" : "field2@eirias",
+            "w" : "field4@eirias",
+            "n" : "field6@eirias",
+            "s" : "field3@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -504,10 +504,10 @@
       },
       "field3@eirias" : {
          "exits" : {
-            "e" : "field2",
-            "w" : "clearing2",
-            "n" : "field4",
-            "s" : "field1"
+            "e" : "field2@eirias",
+            "w" : "clearing2@eirias",
+            "n" : "field4@eirias",
+            "s" : "field1@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -520,7 +520,7 @@
       },
       "garden@eirias" : {
          "exits" : {
-            "n" : "fountain"
+            "n" : "fountain@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -533,7 +533,7 @@
       },
       "country@eirias" : {
          "exits" : {
-            "n" : "forest1"
+            "n" : "forest1@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -546,10 +546,10 @@
       },
       "field2@eirias" : {
          "exits" : {
-            "w" : "field3",
-            "e" : "field1",
-            "n" : "clearing2",
-            "s" : "field4"
+            "w" : "field3@eirias",
+            "e" : "field1@eirias",
+            "n" : "clearing2@eirias",
+            "s" : "field4@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -562,10 +562,10 @@
       },
       "field4@eirias" : {
          "exits" : {
-            "e" : "field5",
-            "w" : "field1",
-            "n" : "field2",
-            "s" : "field3"
+            "e" : "field5@eirias",
+            "w" : "field1@eirias",
+            "n" : "field2@eirias",
+            "s" : "field3@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -578,10 +578,10 @@
       },
       "mirror5@eirias" : {
          "exits" : {
-            "w" : "mirror5",
-            "e" : "mirror3",
-            "n" : "mirror6",
-            "s" : "mirror4"
+            "w" : "mirror5@eirias",
+            "e" : "mirror3@eirias",
+            "n" : "mirror6@eirias",
+            "s" : "mirror4@eirias"
          },
          "flags" : [
             "Maze"
@@ -594,7 +594,7 @@
       },
       "cottage@eirias" : {
          "exits" : {
-            "e" : "clearing"
+            "e" : "clearing@eirias"
          },
          "flags" : [],
          "zone" : "eirias",
@@ -605,8 +605,8 @@
       },
       "tree4@eirias" : {
          "exits" : {
-            "n" : "tree5",
-            "s" : "tree3"
+            "n" : "tree5@eirias",
+            "s" : "tree3@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -619,9 +619,9 @@
       },
       "gallery@eirias" : {
          "exits" : {
-            "w" : "^galdoor",
-            "e" : "light",
-            "d" : "inside"
+            "w" : "^galdoor@eirias",
+            "e" : "light@eirias",
+            "d" : "inside@eirias"
          },
          "flags" : [],
          "zone" : "eirias",
@@ -632,7 +632,7 @@
       },
       "coach@eirias" : {
          "exits" : {
-            "n" : "garden"
+            "n" : "garden@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -645,10 +645,10 @@
       },
       "field7@eirias" : {
          "exits" : {
-            "e" : "field2",
-            "w" : "field6",
-            "n" : "field4",
-            "s" : "river"
+            "e" : "field2@eirias",
+            "w" : "field6@eirias",
+            "n" : "field4@eirias",
+            "s" : "river@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -661,8 +661,8 @@
       },
       "forest3@eirias" : {
          "exits" : {
-            "n" : "forest4",
-            "s" : "forest2"
+            "n" : "forest4@eirias",
+            "s" : "forest2@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -675,8 +675,8 @@
       },
       "inside@eirias" : {
          "exits" : {
-            "w" : "^indoor",
-            "u" : "gallery"
+            "w" : "^indoor@eirias",
+            "u" : "gallery@eirias"
          },
          "flags" : [
             "Dark"
@@ -689,8 +689,8 @@
       },
       "tree5@eirias" : {
          "exits" : {
-            "n" : "tree6",
-            "s" : "tree4"
+            "n" : "tree6@eirias",
+            "s" : "tree4@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -703,8 +703,8 @@
       },
       "forest2@eirias" : {
          "exits" : {
-            "n" : "forest3",
-            "s" : "forest1"
+            "n" : "forest3@eirias",
+            "s" : "forest1@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -717,10 +717,10 @@
       },
       "mirror4@eirias" : {
          "exits" : {
-            "w" : "mirror5",
-            "e" : "mirror3",
-            "n" : "mirror2",
-            "s" : "mirror4"
+            "w" : "mirror5@eirias",
+            "e" : "mirror3@eirias",
+            "n" : "mirror2@eirias",
+            "s" : "mirror4@eirias"
          },
          "flags" : [
             "Maze"
@@ -733,10 +733,10 @@
       },
       "mirror9@eirias" : {
          "exits" : {
-            "w" : "mirror9",
-            "e" : "mirror7",
-            "n" : "mirror10",
-            "s" : "mirror8"
+            "w" : "mirror9@eirias",
+            "e" : "mirror7@eirias",
+            "n" : "mirror10@eirias",
+            "s" : "mirror8@eirias"
          },
          "flags" : [
             "Maze"
@@ -749,7 +749,7 @@
       },
       "light@eirias" : {
          "exits" : {
-            "w" : "gallery"
+            "w" : "gallery@eirias"
          },
          "flags" : [],
          "zone" : "eirias",
@@ -760,10 +760,10 @@
       },
       "mirror6@eirias" : {
          "exits" : {
-            "w" : "mirror6",
-            "e" : "mirror7",
-            "n" : "mirror4",
-            "s" : "mirror5"
+            "w" : "mirror6@eirias",
+            "e" : "mirror7@eirias",
+            "n" : "mirror4@eirias",
+            "s" : "mirror5@eirias"
          },
          "flags" : [
             "Maze"
@@ -776,10 +776,10 @@
       },
       "field1@eirias" : {
          "exits" : {
-            "w" : "field2",
-            "e" : "field4",
-            "n" : "field3",
-            "s" : "clearing2"
+            "w" : "field2@eirias",
+            "e" : "field4@eirias",
+            "n" : "field3@eirias",
+            "s" : "clearing2@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -792,10 +792,10 @@
       },
       "mirror10@eirias" : {
          "exits" : {
-            "w" : "mirror10",
-            "e" : "deadend",
-            "n" : "mirror8",
-            "s" : "mirror9"
+            "w" : "mirror10@eirias",
+            "e" : "deadend@eirias",
+            "n" : "mirror8@eirias",
+            "s" : "mirror9@eirias"
          },
          "flags" : [
             "Maze"
@@ -808,10 +808,10 @@
       },
       "mirror2@eirias" : {
          "exits" : {
-            "w" : "mirror2",
-            "e" : "mirror3",
-            "n" : "mirror2",
-            "s" : "mirror2"
+            "w" : "mirror2@eirias",
+            "e" : "mirror3@eirias",
+            "n" : "mirror2@eirias",
+            "s" : "mirror2@eirias"
          },
          "flags" : [
             "Maze"
@@ -824,8 +824,8 @@
       },
       "tree7@eirias" : {
          "exits" : {
-            "n" : "wydyr",
-            "s" : "tree6"
+            "n" : "wydyr@eirias",
+            "s" : "tree6@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -838,7 +838,7 @@
       },
       "lostland@eirias" : {
          "exits" : {
-            "d" : "^latticeup"
+            "d" : "^latticeup@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -862,7 +862,7 @@
       },
       "fountain@eirias" : {
          "exits" : {
-            "s" : "garden"
+            "s" : "garden@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -875,8 +875,8 @@
       },
       "tree1@eirias" : {
          "exits" : {
-            "w" : "river",
-            "n" : "tree2"
+            "w" : "river@eirias",
+            "n" : "tree2@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -889,9 +889,9 @@
       },
       "wooddoor@eirias" : {
          "exits" : {
-            "w" : "^doorcoach",
-            "e" : "^wooden",
-            "u" : "^latticedown"
+            "w" : "^doorcoach@eirias",
+            "e" : "^wooden@eirias",
+            "u" : "^latticedown@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -904,9 +904,9 @@
       },
       "staircase@eirias" : {
          "exits" : {
-            "e" : "^stairdoor",
-            "u" : "balustrade",
-            "d" : "^secret"
+            "e" : "^stairdoor@eirias",
+            "u" : "balustrade@eirias",
+            "d" : "^secret@eirias"
          },
          "flags" : [
             "Dark"
@@ -919,7 +919,7 @@
       },
       "deadend@eirias" : {
          "exits" : {
-            "w" : "mirror10"
+            "w" : "mirror10@eirias"
          },
          "flags" : [],
          "zone" : "eirias",
@@ -931,7 +931,7 @@
       "mountain@eirias" : {
          "exits" : {
             "w" : "hills1@caledonia",
-            "s" : "shore"
+            "s" : "shore@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -944,7 +944,7 @@
       },
       "balustrade@eirias" : {
          "exits" : {
-            "d" : "staircase"
+            "d" : "staircase@eirias"
          },
          "flags" : [],
          "zone" : "eirias",
@@ -955,10 +955,10 @@
       },
       "clearing2@eirias" : {
          "exits" : {
-            "w" : "cottage",
-            "e" : "field3",
-            "n" : "field1",
-            "s" : "field2"
+            "w" : "cottage@eirias",
+            "e" : "field3@eirias",
+            "n" : "field1@eirias",
+            "s" : "field2@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -971,10 +971,10 @@
       },
       "mirror3@eirias" : {
          "exits" : {
-            "w" : "mirror3",
-            "e" : "mirror3",
-            "n" : "mirror2",
-            "s" : "mirror4"
+            "w" : "mirror3@eirias",
+            "e" : "mirror3@eirias",
+            "n" : "mirror2@eirias",
+            "s" : "mirror4@eirias"
          },
          "flags" : [
             "Maze"
@@ -987,7 +987,7 @@
       },
       "mirror1@eirias" : {
          "exits" : {
-            "e" : "mirror2"
+            "e" : "mirror2@eirias"
          },
          "flags" : [],
          "zone" : "eirias",
@@ -998,7 +998,7 @@
       },
       "forest1@eirias" : {
          "exits" : {
-            "n" : "forest2"
+            "n" : "forest2@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -1011,7 +1011,7 @@
       },
       "towerent@eirias" : {
          "exits" : {
-            "u" : "towerstairc"
+            "u" : "towerstairc@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -1024,10 +1024,10 @@
       },
       "field6@eirias" : {
          "exits" : {
-            "e" : "field7",
-            "w" : "field3",
-            "n" : "field1",
-            "s" : "field5"
+            "e" : "field7@eirias",
+            "w" : "field3@eirias",
+            "n" : "field1@eirias",
+            "s" : "field5@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -1040,10 +1040,10 @@
       },
       "mirror7@eirias" : {
          "exits" : {
-            "w" : "mirror7",
-            "e" : "mirror6",
-            "n" : "mirror5",
-            "s" : "mirror8"
+            "w" : "mirror7@eirias",
+            "e" : "mirror6@eirias",
+            "n" : "mirror5@eirias",
+            "s" : "mirror8@eirias"
          },
          "flags" : [
             "Maze"
@@ -1056,10 +1056,10 @@
       },
       "mirror8@eirias" : {
          "exits" : {
-            "w" : "mirror9",
-            "e" : "mirror7",
-            "n" : "mirror6",
-            "s" : "mirror8"
+            "w" : "mirror9@eirias",
+            "e" : "mirror7@eirias",
+            "n" : "mirror6@eirias",
+            "s" : "mirror8@eirias"
          },
          "flags" : [
             "Maze"
@@ -1072,8 +1072,8 @@
       },
       "tree3@eirias" : {
          "exits" : {
-            "n" : "tree4",
-            "s" : "tree2"
+            "n" : "tree4@eirias",
+            "s" : "tree2@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -1086,7 +1086,7 @@
       },
       "square@eirias" : {
          "exits" : {
-            "n" : "coach"
+            "n" : "coach@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -1099,7 +1099,7 @@
       },
       "palace@eirias" : {
          "exits" : {
-            "u" : "mirror1"
+            "u" : "mirror1@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -1112,8 +1112,8 @@
       },
       "tree6@eirias" : {
          "exits" : {
-            "n" : "tree7",
-            "s" : "tree5"
+            "n" : "tree7@eirias",
+            "s" : "tree5@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -1126,7 +1126,7 @@
       },
       "shore@eirias" : {
          "exits" : {
-            "n" : "mountain"
+            "n" : "mountain@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -1139,8 +1139,8 @@
       },
       "clearing@eirias" : {
          "exits" : {
-            "w" : "cottage",
-            "n" : "road"
+            "w" : "cottage@eirias",
+            "n" : "road@eirias"
          },
          "flags" : [
             "Outdoors"
@@ -1153,8 +1153,8 @@
       },
       "towerstairc@eirias" : {
          "exits" : {
-            "u" : "toproom",
-            "d" : "towerent"
+            "u" : "toproom@eirias",
+            "d" : "towerent@eirias"
          },
          "flags" : [],
          "zone" : "eirias",
@@ -1172,7 +1172,7 @@
             "NegShock"
          ],
          "damage" : "8",
-         "location" : "tree7",
+         "location" : "tree7@eirias",
          "armor" : "0",
          "name" : "blackrider",
          "examine" : "Another of the mighty Lords of the Dark, he is probably even more powerful than\nthe White Rider. Beware!",
@@ -1187,7 +1187,7 @@
       },
       "gwyddno@eirias" : {
          "damage" : "0",
-         "location" : "toproom",
+         "location" : "toproom@eirias",
          "armor" : "0",
          "name" : "gwyddno",
          "examine" : "\nThe Dark have shown Gwyddno his uncertainty, and trapped him within his own mind.",
@@ -1202,7 +1202,7 @@
       },
       "skeleton@eirias" : {
          "damage" : "10",
-         "location" : "clearing",
+         "location" : "clearing@eirias",
          "armor" : "0",
          "name" : "skeleton",
          "examine" : "\nIt is the Mari Llwyd, a nightmare figure from legend, used to frighten young\nchildren. It gets ever nearer you and you are terrified by it!",
@@ -1229,7 +1229,7 @@
             "NegFrost"
          ],
          "damage" : "10",
-         "location" : "river",
+         "location" : "river@eirias",
          "armor" : "0",
          "name" : "rider",
          "examine" : "\nHe is one of the mighty Lords of the Dark, and as such very powerful. Be wary.",
@@ -1244,7 +1244,7 @@
       },
       "minion@eirias" : {
          "damage" : "8",
-         "location" : "garden",
+         "location" : "garden@eirias",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -1258,7 +1258,7 @@
       },
       "gwion@eirias" : {
          "damage" : "0",
-         "location" : "light",
+         "location" : "light@eirias",
          "armor" : "0",
          "name" : "gwion",
          "examine" : "\nGwion is a smallish man, not very tall, with a strong-featured face creased by \nhumour at the eyes and mouth, though with no sign of a smile now. His hair is \ngrey, tightly curled, and he has a neat crisp curling grey beard with a curious \ndark line down the centre like a stripe.",

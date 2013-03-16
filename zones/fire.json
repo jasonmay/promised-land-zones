@@ -2,7 +2,7 @@
    "obj" : {
       "secretdoorn@fire" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Fire39",
+         "location" : "IN_ROOM:fire39@fire",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -17,7 +17,7 @@
          "desc[0]" : "The door is open."
       },
       "water@fire" : {
-         "location" : "IN_CONTAINER:Basin",
+         "location" : "IN_CONTAINER:basin@fire",
          "oflags" : [
             "NoGet"
          ],
@@ -32,7 +32,7 @@
       },
       "sheet@fire" : {
          "desc[1]" : "A sheet.",
-         "location" : "IN_ROOM:Fire10",
+         "location" : "IN_ROOM:fire10@fire",
          "oflags" : [
             "GetFlips",
             "Wearable",
@@ -48,7 +48,7 @@
          "desc[0]" : "A sheet lays here."
       },
       "helmet@fire" : {
-         "location" : "IN_ROOM:Fire12",
+         "location" : "IN_ROOM:fire12@fire",
          "armor" : "40",
          "oflags" : [
             "Armor",
@@ -68,7 +68,7 @@
       },
       "sdoore@fire" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Fire1",
+         "location" : "IN_ROOM:fire1@fire",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -83,7 +83,7 @@
       "letter@fire" : {
          "desc[1]" : "",
          "damage" : "38",
-         "location" : "IN_ROOM:Fire8",
+         "location" : "IN_ROOM:fire8@fire",
          "oflags" : [
             "Destroyed"
          ],
@@ -96,7 +96,7 @@
          "desc[0]" : "The letter from Gruoch."
       },
       "throne@fire" : {
-         "location" : "IN_ROOM:Fire37",
+         "location" : "IN_ROOM:fire37@fire",
          "oflags" : [
             "NoGet"
          ],
@@ -110,7 +110,7 @@
       },
       "door12@fire" : {
          "desc[1]" : "The cell is closed.",
-         "location" : "IN_ROOM:Fire47",
+         "location" : "IN_ROOM:fire47@fire",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -125,7 +125,7 @@
          "desc[0]" : "The cell is open."
       },
       "ground@fire" : {
-         "location" : "IN_ROOM:Fire40",
+         "location" : "IN_ROOM:fire40@fire",
          "oflags" : [
             "NoGet"
          ],
@@ -139,7 +139,7 @@
       },
       "door7@fire" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Fire7",
+         "location" : "IN_ROOM:fire7@fire",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -153,7 +153,7 @@
       },
       "door13@fire" : {
          "desc[1]" : "The west cell is closed.",
-         "location" : "IN_ROOM:Fire46",
+         "location" : "IN_ROOM:fire46@fire",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -171,7 +171,7 @@
       },
       "door10@fire" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Fire10",
+         "location" : "IN_ROOM:fire10@fire",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -186,7 +186,7 @@
          "desc[0]" : "The door is open."
       },
       "lever@fire" : {
-         "location" : "IN_ROOM:Fire14",
+         "location" : "IN_ROOM:fire14@fire",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -203,7 +203,7 @@
       },
       "barrel@fire" : {
          "desc[1]" : "A closed barrel is lying here.",
-         "location" : "IN_ROOM:Fire14",
+         "location" : "IN_ROOM:fire14@fire",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -220,7 +220,7 @@
       },
       "gatein@fire" : {
          "desc[1]" : "The gate is closed.",
-         "location" : "IN_ROOM:Fire26",
+         "location" : "IN_ROOM:fire26@fire",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -235,7 +235,7 @@
          "desc[0]" : "The gate is open."
       },
       "seal@fire" : {
-         "location" : "IN_ROOM:FIRE14",
+         "location" : "IN_ROOM:fire14@fire",
          "oflags" : [
             "Destroyed"
          ],
@@ -250,7 +250,7 @@
       },
       "key@fire" : {
          "desc[1]" : "A key has been dropped here.",
-         "location" : "CARRIED_BY:Rubber4",
+         "location" : "CARRIED_BY:rubber4@fire",
          "oflags" : [
             "Key",
             "GetFlips"
@@ -266,7 +266,7 @@
       },
       "door8@fire" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Fire9",
+         "location" : "IN_ROOM:fire9@fire",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -279,7 +279,7 @@
          "desc[0]" : "The door is open."
       },
       "plastic@fire" : {
-         "location" : "IN_ROOM:Fire15",
+         "location" : "IN_ROOM:fire15@fire",
          "oflags" : [
             "Destroyed"
          ],
@@ -293,7 +293,7 @@
          "desc[0]" : "Some plastic."
       },
       "basin@fire" : {
-         "location" : "IN_ROOM:Fire9",
+         "location" : "IN_ROOM:fire9@fire",
          "oflags" : [
             "NoGet",
             "Container"
@@ -310,7 +310,7 @@
       },
       "crap@fire" : {
          "desc[1]" : "There is &+ggas&* coming out from a &+Rgap&*.",
-         "location" : "IN_ROOM:Fire2",
+         "location" : "IN_ROOM:fire2@fire",
          "oflags" : [
             "NoGet"
          ],
@@ -326,7 +326,7 @@
          "desc[0]" : "A &+Rgap&* is filled with a seal."
       },
       "coolbox@fire" : {
-         "location" : "IN_ROOM:Fire15",
+         "location" : "IN_ROOM:fire15@fire",
          "oflags" : [
             "NoGet"
          ],
@@ -341,7 +341,7 @@
       },
       "key2@fire" : {
          "desc[1]" : "A keybundle of prison keys have been dropped here.",
-         "location" : "CARRIED_BY:Rubber8",
+         "location" : "CARRIED_BY:rubber8@fire",
          "oflags" : [
             "GetFlips",
             "Key"
@@ -358,7 +358,7 @@
          "desc[0]" : "A keybundle of prison keys is here."
       },
       "cheese@fire" : {
-         "location" : "IN_ROOM:Fire15",
+         "location" : "IN_ROOM:fire15@fire",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -374,7 +374,7 @@
       },
       "box@fire" : {
          "desc[1]" : "A closed wooden box is lying here.",
-         "location" : "IN_ROOM:Fire14",
+         "location" : "IN_ROOM:fire14@fire",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -391,7 +391,7 @@
       },
       "door11@fire" : {
          "desc[1]" : "The east cell is closed.",
-         "location" : "IN_ROOM:Fire46",
+         "location" : "IN_ROOM:fire46@fire",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -408,7 +408,7 @@
          "desc[0]" : "The east cell is open."
       },
       "slide@fire" : {
-         "location" : "IN_ROOM:Fire17",
+         "location" : "IN_ROOM:fire17@fire",
          "oflags" : [
             "NoGet"
          ],
@@ -423,7 +423,7 @@
       },
       "sword@fire" : {
          "damage" : "23",
-         "location" : "WIELDED_BY:Gruoch",
+         "location" : "WIELDED_BY:gruoch@fire",
          "oflags" : [
             "Weapon"
          ],
@@ -435,7 +435,7 @@
       },
       "moonsign@fire" : {
          "desc[1]" : "Someone made a big mistake to leave this moonsign behind.",
-         "location" : "IN_ROOM:Fire56",
+         "location" : "IN_ROOM:fire56@fire",
          "oflags" : [
             "RegenHealth",
             "RegenMana",
@@ -453,7 +453,7 @@
          "desc[0]" : "A wonderful moonsign lays here."
       },
       "bed@fire" : {
-         "location" : "IN_ROOM:Fire10",
+         "location" : "IN_ROOM:fire10@fire",
          "oflags" : [
             "NoGet"
          ],
@@ -468,7 +468,7 @@
       },
       "table@fire" : {
          "desc[1]" : "A table with a press is standing here.",
-         "location" : "IN_ROOM:Fire14",
+         "location" : "IN_ROOM:fire14@fire",
          "oflags" : [
             "NoGet"
          ],
@@ -484,7 +484,7 @@
       },
       "wetsheet@fire" : {
          "desc[1]" : "A wet sheet.",
-         "location" : "IN_CONTAINER:Basin",
+         "location" : "IN_CONTAINER:basin@fire",
          "oflags" : [
             "GetFlips",
             "Wearable",
@@ -502,7 +502,7 @@
       },
       "gateout@fire" : {
          "desc[1]" : "The gate is closed.",
-         "location" : "IN_ROOM:Fire33",
+         "location" : "IN_ROOM:fire33@fire",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -518,7 +518,7 @@
       },
       "secretdoors@fire" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Fire37",
+         "location" : "IN_ROOM:fire37@fire",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -535,7 +535,7 @@
       },
       "door14@fire" : {
          "desc[1]" : "The cell is closed.",
-         "location" : "IN_ROOM:Fire48",
+         "location" : "IN_ROOM:fire48@fire",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -551,7 +551,7 @@
       },
       "door9@fire" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Fire9",
+         "location" : "IN_ROOM:fire9@fire",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -567,7 +567,7 @@
       },
       "sdoorw@fire" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Fire3",
+         "location" : "IN_ROOM:fire3@fire",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -581,7 +581,7 @@
       },
       "plate@fire" : {
          "desc[1]" : "A plate made of hard metal.",
-         "location" : "IN_CONTAINER:Box",
+         "location" : "IN_CONTAINER:box@fire",
          "oflags" : "{ }",
          "name" : "Plate",
          "size" : "12",
@@ -595,8 +595,8 @@
    "loc" : {
       "fire28@fire" : {
          "exits" : {
-            "e" : "Fire26",
-            "s" : "Fire31"
+            "e" : "fire26@fire",
+            "s" : "fire31@fire"
          },
          "flags" : [
             "Dark"
@@ -620,9 +620,9 @@
       },
       "fire7@fire" : {
          "exits" : {
-            "w" : "Fire5",
-            "e" : "^Door7",
-            "n" : "Fire8"
+            "w" : "fire5@fire",
+            "e" : "^door7@fire",
+            "n" : "fire8@fire"
          },
          "flags" : [],
          "zone" : "fire",
@@ -633,7 +633,7 @@
       },
       "fire21@fire" : {
          "exits" : {
-            "e" : "Fire19"
+            "e" : "fire19@fire"
          },
          "flags" : [
             "Dark"
@@ -646,8 +646,8 @@
       },
       "fire5@fire" : {
          "exits" : {
-            "e" : "Fire7",
-            "d" : "Fire4"
+            "e" : "fire7@fire",
+            "d" : "fire4@fire"
          },
          "flags" : [],
          "zone" : "fire",
@@ -658,7 +658,7 @@
       },
       "fire0@fire" : {
          "exits" : {
-            "n" : "Fire1",
+            "n" : "fire1@fire",
             "s" : "sundforest6090@haondor"
          },
          "flags" : [],
@@ -670,8 +670,8 @@
       },
       "fire10@fire" : {
          "exits" : {
-            "w" : "Fire8",
-            "s" : "^Door10"
+            "w" : "fire8@fire",
+            "s" : "^door10@fire"
          },
          "flags" : [],
          "zone" : "fire",
@@ -682,9 +682,9 @@
       },
       "fire13@fire" : {
          "exits" : {
-            "w" : "Fire6",
-            "e" : "Fire15",
-            "n" : "Fire14"
+            "w" : "fire6@fire",
+            "e" : "fire15@fire",
+            "n" : "fire14@fire"
          },
          "flags" : [],
          "zone" : "fire",
@@ -695,7 +695,7 @@
       },
       "fire32@fire" : {
          "exits" : {
-            "n" : "Fire31"
+            "n" : "fire31@fire"
          },
          "flags" : [
             "Dark"
@@ -708,12 +708,12 @@
       },
       "fire42@fire" : {
          "exits" : {
-            "w" : "Fire41",
-            "e" : "Fire41",
-            "u" : "Fire41",
-            "n" : "Fire43",
-            "d" : "Fire41",
-            "s" : "Fire41"
+            "w" : "fire41@fire",
+            "e" : "fire41@fire",
+            "u" : "fire41@fire",
+            "n" : "fire43@fire",
+            "d" : "fire41@fire",
+            "s" : "fire41@fire"
          },
          "flags" : [
             "Dark",
@@ -727,7 +727,7 @@
       },
       "fire3@fire" : {
          "exits" : {
-            "w" : "^SDoorW"
+            "w" : "^sdoorw@fire"
          },
          "flags" : [],
          "zone" : "fire",
@@ -738,8 +738,8 @@
       },
       "fire27@fire" : {
          "exits" : {
-            "w" : "Fire26",
-            "s" : "Fire29"
+            "w" : "fire26@fire",
+            "s" : "fire29@fire"
          },
          "flags" : [
             "Dark"
@@ -752,8 +752,8 @@
       },
       "fire23@fire" : {
          "exits" : {
-            "e" : "Fire49",
-            "w" : "Fire17"
+            "e" : "fire49@fire",
+            "w" : "fire17@fire"
          },
          "flags" : [
             "Dark"
@@ -766,8 +766,8 @@
       },
       "fire12@fire" : {
          "exits" : {
-            "e" : "Fire14",
-            "s" : "Fire6"
+            "e" : "fire14@fire",
+            "s" : "fire6@fire"
          },
          "flags" : [
             "Dark",
@@ -781,12 +781,12 @@
       },
       "fire41@fire" : {
          "exits" : {
-            "w" : "Fire41",
-            "e" : "Fire42",
-            "u" : "Fire41",
-            "n" : "Fire40",
-            "d" : "Fire41",
-            "s" : "Fire41"
+            "w" : "fire41@fire",
+            "e" : "fire42@fire",
+            "u" : "fire41@fire",
+            "n" : "fire40@fire",
+            "d" : "fire41@fire",
+            "s" : "fire41@fire"
          },
          "flags" : [
             "Dark",
@@ -800,9 +800,9 @@
       },
       "fire4@fire" : {
          "exits" : {
-            "e" : "Fire1",
-            "u" : "Fire5",
-            "d" : "Fire6"
+            "e" : "fire1@fire",
+            "u" : "fire5@fire",
+            "d" : "fire6@fire"
          },
          "flags" : [],
          "zone" : "fire",
@@ -813,7 +813,7 @@
       },
       "fire35@fire" : {
          "exits" : {
-            "e" : "Fire33"
+            "e" : "fire33@fire"
          },
          "flags" : [
             "Dark"
@@ -826,8 +826,8 @@
       },
       "fire40@fire" : {
          "exits" : {
-            "n" : "Fire39",
-            "s" : "Fire41"
+            "n" : "fire39@fire",
+            "s" : "fire41@fire"
          },
          "flags" : [
             "Dark",
@@ -841,7 +841,7 @@
       },
       "fire30@fire" : {
          "exits" : {
-            "n" : "Fire29"
+            "n" : "fire29@fire"
          },
          "flags" : [
             "Dark"
@@ -865,9 +865,9 @@
       },
       "fire6@fire" : {
          "exits" : {
-            "e" : "Fire13",
-            "u" : "Fire4",
-            "n" : "Fire12"
+            "e" : "fire13@fire",
+            "u" : "fire4@fire",
+            "n" : "fire12@fire"
          },
          "flags" : [
             "dark"
@@ -880,7 +880,7 @@
       },
       "fire25@fire" : {
          "exits" : {
-            "e" : "Fire17"
+            "e" : "fire17@fire"
          },
          "flags" : [
             "Dark"
@@ -893,7 +893,7 @@
       },
       "fire20@fire" : {
          "exits" : {
-            "w" : "Fire19"
+            "w" : "fire19@fire"
          },
          "flags" : [
             "Dark"
@@ -906,8 +906,8 @@
       },
       "fire37@fire" : {
          "exits" : {
-            "n" : "Fire36",
-            "s" : "^SecretDoorS"
+            "n" : "fire36@fire",
+            "s" : "^secretdoors@fire"
          },
          "flags" : [],
          "zone" : "fire",
@@ -918,7 +918,7 @@
       },
       "fire34@fire" : {
          "exits" : {
-            "w" : "Fire33"
+            "w" : "fire33@fire"
          },
          "flags" : [
             "Dark"
@@ -953,7 +953,7 @@
       },
       "fire11@fire" : {
          "exits" : {
-            "e" : "Fire8"
+            "e" : "fire8@fire"
          },
          "flags" : [],
          "zone" : "fire",
@@ -975,7 +975,7 @@
       },
       "fire47@fire" : {
          "exits" : {
-            "w" : "^Door12"
+            "w" : "^door12@fire"
          },
          "flags" : [
             "Dark",
@@ -990,8 +990,8 @@
       },
       "fire24@fire" : {
          "exits" : {
-            "n" : "Fire17",
-            "s" : "Fire26"
+            "n" : "fire17@fire",
+            "s" : "fire26@fire"
          },
          "flags" : [
             "Dark"
@@ -1004,7 +1004,7 @@
       },
       "fire49@fire" : {
          "exits" : {
-            "w" : "Fire23"
+            "w" : "fire23@fire"
          },
          "flags" : [
             "Dark"
@@ -1017,7 +1017,7 @@
       },
       "fire48@fire" : {
          "exits" : {
-            "e" : "^Door14"
+            "e" : "^door14@fire"
          },
          "flags" : [
             "NegRegen"
@@ -1041,8 +1041,8 @@
       },
       "fire45@fire" : {
          "exits" : {
-            "n" : "Fire41",
-            "s" : "Fire46"
+            "n" : "fire41@fire",
+            "s" : "fire46@fire"
          },
          "flags" : [
             "Dark",
@@ -1056,8 +1056,8 @@
       },
       "fire9@fire" : {
          "exits" : {
-            "w" : "^Door8",
-            "n" : "^Door9"
+            "w" : "^door8@fire",
+            "n" : "^door9@fire"
          },
          "flags" : [],
          "zone" : "fire",
@@ -1069,7 +1069,7 @@
       "fire16@fire" : {
          "exits" : {
             "n" : "sundforest6022@haondor",
-            "s" : "Fire17"
+            "s" : "fire17@fire"
          },
          "flags" : [
             "Dark",
@@ -1083,10 +1083,10 @@
       },
       "fire33@fire" : {
          "exits" : {
-            "w" : "Fire35",
-            "e" : "Fire34",
-            "n" : "^Gateout",
-            "s" : "Fire36"
+            "w" : "fire35@fire",
+            "e" : "fire34@fire",
+            "n" : "^gateout@fire",
+            "s" : "fire36@fire"
          },
          "flags" : [
             "Dark"
@@ -1099,10 +1099,10 @@
       },
       "fire17@fire" : {
          "exits" : {
-            "w" : "Fire25",
-            "e" : "Fire23",
-            "n" : "Fire18",
-            "s" : "Fire24"
+            "w" : "fire25@fire",
+            "e" : "fire23@fire",
+            "n" : "fire18@fire",
+            "s" : "fire24@fire"
          },
          "flags" : [
             "Dark"
@@ -1115,9 +1115,9 @@
       },
       "fire8@fire" : {
          "exits" : {
-            "w" : "Fire11",
-            "e" : "Fire10",
-            "s" : "Fire7"
+            "w" : "fire11@fire",
+            "e" : "fire10@fire",
+            "s" : "fire7@fire"
          },
          "flags" : [],
          "zone" : "fire",
@@ -1128,9 +1128,9 @@
       },
       "fire46@fire" : {
          "exits" : {
-            "w" : "^Door13",
-            "e" : "^Door11",
-            "n" : "Fire45"
+            "w" : "^door13@fire",
+            "e" : "^door11@fire",
+            "n" : "fire45@fire"
          },
          "flags" : [
             "Cold"
@@ -1143,8 +1143,8 @@
       },
       "fire36@fire" : {
          "exits" : {
-            "n" : "Fire33",
-            "s" : "Fire37"
+            "n" : "fire33@fire",
+            "s" : "fire37@fire"
          },
          "flags" : [
             "Dark"
@@ -1157,10 +1157,10 @@
       },
       "fire1@fire" : {
          "exits" : {
-            "w" : "Fire4",
-            "e" : "^SDoorE",
-            "n" : "Fire2",
-            "s" : "Fire0"
+            "w" : "fire4@fire",
+            "e" : "^sdoore@fire",
+            "n" : "fire2@fire",
+            "s" : "fire0@fire"
          },
          "flags" : [],
          "zone" : "fire",
@@ -1171,10 +1171,10 @@
       },
       "fire19@fire" : {
          "exits" : {
-            "w" : "Fire21",
-            "e" : "Fire20",
-            "n" : "Fire22",
-            "s" : "Fire18"
+            "w" : "fire21@fire",
+            "e" : "fire20@fire",
+            "n" : "fire22@fire",
+            "s" : "fire18@fire"
          },
          "flags" : [
             "Dark"
@@ -1187,8 +1187,8 @@
       },
       "fire39@fire" : {
          "exits" : {
-            "n" : "^SecretDoorN",
-            "s" : "Fire40"
+            "n" : "^secretdoorn@fire",
+            "s" : "fire40@fire"
          },
          "flags" : [
             "Dark",
@@ -1202,7 +1202,7 @@
       },
       "fire15@fire" : {
          "exits" : {
-            "w" : "Fire13"
+            "w" : "fire13@fire"
          },
          "flags" : [
             "Dark"
@@ -1215,12 +1215,12 @@
       },
       "fire44@fire" : {
          "exits" : {
-            "w" : "Fire41",
-            "e" : "Fire41",
-            "u" : "Fire41",
-            "n" : "Fire41",
-            "d" : "Fire41",
-            "s" : "Fire45"
+            "w" : "fire41@fire",
+            "e" : "fire41@fire",
+            "u" : "fire41@fire",
+            "n" : "fire41@fire",
+            "d" : "fire41@fire",
+            "s" : "fire45@fire"
          },
          "flags" : [
             "Dark",
@@ -1234,8 +1234,8 @@
       },
       "fire14@fire" : {
          "exits" : {
-            "w" : "Fire12",
-            "s" : "Fire13"
+            "w" : "fire12@fire",
+            "s" : "fire13@fire"
          },
          "flags" : [
             "Dark"
@@ -1259,12 +1259,12 @@
       },
       "fire43@fire" : {
          "exits" : {
-            "w" : "Fire41",
-            "e" : "Fire41",
-            "u" : "Fire41",
-            "n" : "Fire41",
-            "d" : "Fire44",
-            "s" : "Fire41"
+            "w" : "fire41@fire",
+            "e" : "fire41@fire",
+            "u" : "fire41@fire",
+            "n" : "fire41@fire",
+            "d" : "fire44@fire",
+            "s" : "fire41@fire"
          },
          "flags" : [
             "Dark",
@@ -1278,7 +1278,7 @@
       },
       "fire2@fire" : {
          "exits" : {
-            "s" : "Fire1"
+            "s" : "fire1@fire"
          },
          "flags" : [
             "Hot",
@@ -1292,8 +1292,8 @@
       },
       "fire29@fire" : {
          "exits" : {
-            "n" : "Fire27",
-            "s" : "Fire30"
+            "n" : "fire27@fire",
+            "s" : "fire30@fire"
          },
          "flags" : [
             "Dark"
@@ -1306,7 +1306,7 @@
       },
       "fire56@fire" : {
          "exits" : {
-            "d" : "Fire49"
+            "d" : "fire49@fire"
          },
          "flags" : [],
          "zone" : "fire",
@@ -1317,8 +1317,8 @@
       },
       "fire18@fire" : {
          "exits" : {
-            "n" : "Fire19",
-            "s" : "Fire17"
+            "n" : "fire19@fire",
+            "s" : "fire17@fire"
          },
          "flags" : [
             "Dark"
@@ -1331,7 +1331,7 @@
       },
       "fire22@fire" : {
          "exits" : {
-            "s" : "Fire19"
+            "s" : "fire19@fire"
          },
          "flags" : [
             "Dark"
@@ -1344,8 +1344,8 @@
       },
       "fire31@fire" : {
          "exits" : {
-            "n" : "Fire28",
-            "s" : "Fire32"
+            "n" : "fire28@fire",
+            "s" : "fire32@fire"
          },
          "flags" : [
             "Dark"
@@ -1358,10 +1358,10 @@
       },
       "fire26@fire" : {
          "exits" : {
-            "w" : "Fire28",
-            "e" : "Fire27",
-            "n" : "Fire24",
-            "s" : "^Gatein"
+            "w" : "fire28@fire",
+            "e" : "fire27@fire",
+            "n" : "fire24@fire",
+            "s" : "^gatein@fire"
          },
          "flags" : [],
          "zone" : "fire",
@@ -1374,7 +1374,7 @@
    "mob" : {
       "rubber3@fire" : {
          "damage" : "8",
-         "location" : "Fire22",
+         "location" : "fire22@fire",
          "armor" : "0",
          "name" : "Rubber3",
          "description" : "One Arm is preparing himself to attack you.",
@@ -1386,7 +1386,7 @@
       },
       "rubber7@fire" : {
          "damage" : "14",
-         "location" : "Fire37",
+         "location" : "fire37@fire",
          "armor" : "4",
          "name" : "Rubber7",
          "description" : "Drunk robber is laying on the ground.",
@@ -1398,7 +1398,7 @@
       },
       "gerst@fire" : {
          "damage" : "8",
-         "location" : "Fire47",
+         "location" : "fire47@fire",
          "armor" : "0",
          "name" : "Gerst",
          "description" : "Gerst, Sir Gruoch's son is hiding here.",
@@ -1413,7 +1413,7 @@
       },
       "rubber4@fire" : {
          "damage" : "14",
-         "location" : "Fire26",
+         "location" : "fire26@fire",
          "armor" : "4",
          "name" : "Rubber4",
          "description" : "Bredy is guarding the gate.",
@@ -1428,7 +1428,7 @@
       },
       "gruoch@fire" : {
          "damage" : "66",
-         "location" : "Fire8",
+         "location" : "fire8@fire",
          "armor" : "35",
          "name" : "Gruoch",
          "description" : "Sir Gruoch is here.",
@@ -1443,7 +1443,7 @@
       },
       "rubber6@fire" : {
          "damage" : "14",
-         "location" : "Fire37",
+         "location" : "fire37@fire",
          "armor" : "4",
          "name" : "Rubber6",
          "description" : "Drunk robber is waving with his hands.",
@@ -1455,7 +1455,7 @@
       },
       "rubber5@fire" : {
          "damage" : "14",
-         "location" : "Fire26",
+         "location" : "fire26@fire",
          "armor" : "4",
          "name" : "Rubber5",
          "description" : "Ardy is guarding the gate.",
@@ -1470,7 +1470,7 @@
       },
       "rubber2@fire" : {
          "damage" : "8",
-         "location" : "Fire21",
+         "location" : "fire21@fire",
          "armor" : "0",
          "name" : "Rubber2",
          "description" : "One Leg is preparing himself to attack you.",
@@ -1482,7 +1482,7 @@
       },
       "servant1@fire" : {
          "damage" : "24",
-         "location" : "Fire8",
+         "location" : "fire8@fire",
          "armor" : "12",
          "name" : "Servant1",
          "description" : "&+GThe servant&* asks you: 'Did you come to help Sir Gruoch?'",
@@ -1499,7 +1499,7 @@
       },
       "rubber1@fire" : {
          "damage" : "8",
-         "location" : "Fire20",
+         "location" : "fire20@fire",
          "armor" : "0",
          "name" : "Rubber1",
          "description" : "One Eye is preparing himself to attack you.",
@@ -1511,7 +1511,7 @@
       },
       "rubber8@fire" : {
          "damage" : "24",
-         "location" : "Fire46",
+         "location" : "fire46@fire",
          "armor" : "4",
          "name" : "Rubber8",
          "description" : "Prisoner is guarding here.",
@@ -1545,7 +1545,7 @@
       },
       "rubber9@fire" : {
          "damage" : "24",
-         "location" : "Fire37",
+         "location" : "fire37@fire",
          "armor" : "4",
          "name" : "Rubber9",
          "description" : "The leader of this whole group is laying totally drunk on his throne.",

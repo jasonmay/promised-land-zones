@@ -2,7 +2,7 @@
    "obj" : {
       "throne@waste" : {
          "desc[1]" : "A huge throne is set against the western wall.",
-         "location" : "IN_ROOM:king",
+         "location" : "IN_ROOM:king@waste",
          "oflags" : [
             "GetFlips"
          ],
@@ -16,7 +16,7 @@
       },
       "door_king@waste" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:king",
+         "location" : "IN_ROOM:king@waste",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -32,7 +32,7 @@
       },
       "door_fire@waste" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:fire",
+         "location" : "IN_ROOM:fire@waste",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -47,7 +47,7 @@
          "desc[0]" : "The door is open."
       },
       "ball@waste" : {
-         "location" : "IN_ROOM:gardens",
+         "location" : "IN_ROOM:gardens@waste",
          "oflags" : [
             "BlurSpell"
          ],
@@ -60,7 +60,7 @@
       },
       "greatsword@waste" : {
          "damage" : "25",
-         "location" : "WIELDED_BY:djinni",
+         "location" : "WIELDED_BY:djinni@waste",
          "oflags" : [
             "Weapon",
             "Lightable",
@@ -74,7 +74,7 @@
          "desc[0]" : "\nA huge flaming greatsword has been placed here, where it lies burning fiercely"
       },
       "staff@waste" : {
-         "location" : "CARRIED_BY:beast",
+         "location" : "CARRIED_BY:beast@waste",
          "oflags" : [
             "Lit"
          ],
@@ -86,7 +86,7 @@
          "desc[0]" : "A golden staff shines before you with a hellish red light."
       },
       "volume@waste" : {
-         "location" : "IN_ROOM:Crack",
+         "location" : "IN_ROOM:crack@waste",
          "oflags" : [
             "Noget"
          ],
@@ -100,9 +100,9 @@
    "loc" : {
       "foot@waste" : {
          "exits" : {
-            "w" : "Tunnel",
-            "e" : "Guard",
-            "u" : "Golden"
+            "w" : "tunnel@waste",
+            "e" : "guard@waste",
+            "u" : "golden@waste"
          },
          "flags" : [
             "Hot"
@@ -115,10 +115,10 @@
       },
       "3@waste" : {
          "exits" : {
-            "w" : "Crack",
-            "e" : "2",
-            "n" : "2",
-            "s" : "2"
+            "w" : "crack@waste",
+            "e" : "2@waste",
+            "n" : "2@waste",
+            "s" : "2@waste"
          },
          "flags" : [
             "Hot"
@@ -131,9 +131,9 @@
       },
       "passage@waste" : {
          "exits" : {
-            "w" : "Gardens",
-            "e" : "Ledge",
-            "n" : "Salamander"
+            "w" : "gardens@waste",
+            "e" : "ledge@waste",
+            "n" : "salamander@waste"
          },
          "flags" : [
             "Hot"
@@ -146,7 +146,7 @@
       },
       "gardens@waste" : {
          "exits" : {
-            "e" : "Passage"
+            "e" : "passage@waste"
          },
          "flags" : [
             "Hot"
@@ -159,8 +159,8 @@
       },
       "fire@waste" : {
          "exits" : {
-            "w" : "^door_fire",
-            "e" : "Top"
+            "w" : "^door_fire@waste",
+            "e" : "top@waste"
          },
          "flags" : [
             "Hot"
@@ -173,9 +173,9 @@
       },
       "hall@waste" : {
          "exits" : {
-            "w" : "Flaming",
-            "n" : "Crystal",
-            "s" : "Salamander"
+            "w" : "flaming@waste",
+            "n" : "crystal@waste",
+            "s" : "salamander@waste"
          },
          "flags" : [
             "Hot"
@@ -188,8 +188,8 @@
       },
       "top@waste" : {
          "exits" : {
-            "w" : "Fire",
-            "d" : "Golden"
+            "w" : "fire@waste",
+            "d" : "golden@waste"
          },
          "flags" : [
             "Hot"
@@ -202,8 +202,8 @@
       },
       "tunnel@waste" : {
          "exits" : {
-            "w" : "Ledge",
-            "e" : "Foot"
+            "w" : "ledge@waste",
+            "e" : "foot@waste"
          },
          "flags" : [
             "Hot"
@@ -216,8 +216,8 @@
       },
       "salamander@waste" : {
          "exits" : {
-            "n" : "Hall",
-            "s" : "Passage"
+            "n" : "hall@waste",
+            "s" : "passage@waste"
          },
          "flags" : [
             "Hot"
@@ -230,10 +230,10 @@
       },
       "1@waste" : {
          "exits" : {
-            "w" : "3",
-            "e" : "1",
-            "n" : "1",
-            "s" : "2"
+            "w" : "3@waste",
+            "e" : "1@waste",
+            "n" : "1@waste",
+            "s" : "2@waste"
          },
          "flags" : [
             "Hot"
@@ -246,8 +246,8 @@
       },
       "flaming@waste" : {
          "exits" : {
-            "w" : "Before",
-            "e" : "Hall"
+            "w" : "before@waste",
+            "e" : "hall@waste"
          },
          "flags" : [
             "Hot"
@@ -260,10 +260,10 @@
       },
       "2@waste" : {
          "exits" : {
-            "w" : "2",
-            "e" : "1",
-            "n" : "1",
-            "s" : "1"
+            "w" : "2@waste",
+            "e" : "1@waste",
+            "n" : "1@waste",
+            "s" : "1@waste"
          },
          "flags" : [
             "Hot"
@@ -276,10 +276,10 @@
       },
       "crack@waste" : {
          "exits" : {
-            "w" : "2",
-            "e" : "3",
-            "n" : "2",
-            "s" : "2"
+            "w" : "2@waste",
+            "e" : "3@waste",
+            "n" : "2@waste",
+            "s" : "2@waste"
          },
          "flags" : [
             "Hot"
@@ -292,7 +292,7 @@
       },
       "king@waste" : {
          "exits" : {
-            "e" : "^door_king"
+            "e" : "^door_king@waste"
          },
          "flags" : [
             "Hot"
@@ -305,8 +305,8 @@
       },
       "ledge@waste" : {
          "exits" : {
-            "w" : "Passage",
-            "e" : "Tunnel"
+            "w" : "passage@waste",
+            "e" : "tunnel@waste"
          },
          "flags" : [
             "Hot"
@@ -319,8 +319,8 @@
       },
       "golden@waste" : {
          "exits" : {
-            "u" : "Top",
-            "d" : "Foot"
+            "u" : "top@waste",
+            "d" : "foot@waste"
          },
          "flags" : [
             "Hot"
@@ -333,7 +333,7 @@
       },
       "crystal@waste" : {
          "exits" : {
-            "s" : "Hall"
+            "s" : "hall@waste"
          },
          "flags" : [
             "Hot"
@@ -346,10 +346,10 @@
       },
       "before@waste" : {
          "exits" : {
-            "w" : "2",
-            "e" : "Flaming",
-            "n" : "1",
-            "s" : "2"
+            "w" : "2@waste",
+            "e" : "flaming@waste",
+            "n" : "1@waste",
+            "s" : "2@waste"
          },
          "flags" : [
             "Hot"
@@ -362,7 +362,7 @@
       },
       "guard@waste" : {
          "exits" : {
-            "w" : "Foot"
+            "w" : "foot@waste"
          },
          "flags" : [
             "Hot"
@@ -383,7 +383,7 @@
             "FearIceStorm"
          ],
          "damage" : "20",
-         "location" : "flaming",
+         "location" : "flaming@waste",
          "armor" : "20",
          "name" : "beast",
          "description" : "\nA huge, fiery beast stands before you, 12 feet tall and rippling with muscle.",
@@ -397,7 +397,7 @@
       },
       "djinni@waste" : {
          "damage" : "20",
-         "location" : "king",
+         "location" : "king@waste",
          "armor" : "20",
          "name" : "djinni",
          "description" : "A huge djinni glares at you and flexes his muscles.",
@@ -416,7 +416,7 @@
             "FearFrost"
          ],
          "damage" : "15",
-         "location" : "crack",
+         "location" : "crack@waste",
          "armor" : "30",
          "name" : "lavaman",
          "description" : "A lavaman snarls harshly as he sees you.",
@@ -436,7 +436,7 @@
             "FearIceStorm"
          ],
          "damage" : "15",
-         "location" : "guard",
+         "location" : "guard@waste",
          "armor" : "25",
          "name" : "efreet",
          "description" : "A huge, flaming efreet glares ferociously at you.",
@@ -450,7 +450,7 @@
       },
       "wolf@waste" : {
          "damage" : "12",
-         "location" : "2",
+         "location" : "2@waste",
          "armor" : "0",
          "name" : "wolf",
          "description" : "\nA huge slavering dust wolf stalks you, ready to pounce at any moment.",
@@ -469,7 +469,7 @@
             "FearIceStorm"
          ],
          "damage" : "25",
-         "location" : "Hall",
+         "location" : "hall@waste",
          "armor" : "30",
          "name" : "flame",
          "description" : "\nA giant, flickering and glowing flame dances before you in an incandescent\nhaze of heat.  It seems almost alive.",
@@ -489,7 +489,7 @@
       },
       "guard@waste" : {
          "damage" : "20",
-         "location" : "top",
+         "location" : "top@waste",
          "armor" : "25",
          "name" : "guard",
          "description" : "\nA strange looking guard of some sort watches you cautiously.",

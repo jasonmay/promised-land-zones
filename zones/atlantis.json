@@ -1,7 +1,7 @@
 {
    "obj" : {
       "sea_biscuit@atlantis" : {
-         "location" : "IN_ROOM:atlantis30",
+         "location" : "IN_ROOM:atlantis30@atlantis",
          "altname" : "sea",
          "name" : "sea_biscuit",
          "examine" : "It has 'KelpBone' stamped into it.  ",
@@ -12,7 +12,7 @@
          "desc[0]" : "A crunchy sea biscuit in the shape of a bone lies on the ground here."
       },
       "glass_bubble@atlantis" : {
-         "location" : "IN_ROOM:atlantis55",
+         "location" : "IN_ROOM:atlantis55@atlantis",
          "oflags" : [
             "Destroyed"
          ],
@@ -41,7 +41,7 @@
       "knife@atlantis" : {
          "desc[1]" : "A small kelp blade lies partly in the sand, dropped by someone.",
          "damage" : "7",
-         "location" : "IN_ROOM:atlantis12",
+         "location" : "IN_ROOM:atlantis12@atlantis",
          "oflags" : [
             "Weapon",
             "GetFlips"
@@ -57,7 +57,7 @@
          "desc[0]" : "A keen kelp blade lies here, its serrated edge glinting."
       },
       "shells_pile@atlantis" : {
-         "location" : "IN_ROOM:atlantis18",
+         "location" : "IN_ROOM:atlantis18@atlantis",
          "oflags" : [
             "NoGet"
          ],
@@ -69,7 +69,7 @@
       "trident@atlantis" : {
          "desc[1]" : "A powerful trident lies quietly inside the groove.",
          "damage" : "11",
-         "location" : "IN_ROOM:atlantis75",
+         "location" : "IN_ROOM:atlantis75@atlantis",
          "oflags" : [
             "Weapon",
             "GetFlips"
@@ -85,7 +85,7 @@
       },
       "kelp_2@atlantis" : {
          "desc[1]" : "Large strands of kelp grow close together forming a dense wall.",
-         "location" : "IN_ROOM:atlantis18",
+         "location" : "IN_ROOM:atlantis18@atlantis",
          "oflags" : [
             "NoGet"
          ],
@@ -95,7 +95,7 @@
          "state" : "1"
       },
       "sea_cucumber@atlantis" : {
-         "location" : "IN_ROOM:atlantis46",
+         "location" : "IN_ROOM:atlantis46@atlantis",
          "oflags" : [
             "Food"
          ],
@@ -110,7 +110,7 @@
       },
       "purple_sponge@atlantis" : {
          "desc[1]" : "A squishy purple sponge grows nearby on a small rock.",
-         "location" : "IN_ROOM:atlantis64",
+         "location" : "IN_ROOM:atlantis64@atlantis",
          "oflags" : [
             "GetFlips"
          ],
@@ -137,7 +137,7 @@
          "desc[0]" : "A dainty silver triangle glints merrily on the ground."
       },
       "hematite_starfish@atlantis" : {
-         "location" : "IN_ROOM:atlantis18",
+         "location" : "IN_ROOM:atlantis18@atlantis",
          "oflags" : [
             "Destroyed"
          ],
@@ -152,7 +152,7 @@
       },
       "door_1@atlantis" : {
          "desc[1]" : "An ancient stone door remains closed, trapping you inside the altar.",
-         "location" : "IN_ROOM:atlantis75",
+         "location" : "IN_ROOM:atlantis75@atlantis",
          "oflags" : [
             "NoGet"
          ],
@@ -165,7 +165,7 @@
       },
       "glued_door_1@atlantis" : {
          "desc[1]" : "The door leading outside is glued shut and the Hermit likes it that way.",
-         "location" : "IN_ROOM:atlantis55",
+         "location" : "IN_ROOM:atlantis55@atlantis",
          "oflags" : [
             "NoGet"
          ],
@@ -179,7 +179,7 @@
          "desc[0]" : "The door leading outside stands invitingly open, suggesting you leave."
       },
       "violin@atlantis" : {
-         "location" : "IN_ROOM:atlantis67",
+         "location" : "IN_ROOM:atlantis67@atlantis",
          "weight" : "10",
          "name" : "violin",
          "examine" : "The black carrying case is extremely battered, but the violin inside is in\nexquisite shape.  You knew that if you tried to play it, sweet music would pour\nforth due to the enchantments on it.  It is truly an instrument of rare \nquality.",
@@ -188,7 +188,7 @@
          "size" : "12"
       },
       "historical_marker@atlantis" : {
-         "location" : "IN_ROOM:CliffTop@eastcoast",
+         "location" : "IN_ROOM:clifftop@eastcoast",
          "oflags" : [
             "NoGet"
          ],
@@ -199,7 +199,7 @@
          "desc[0]" : "A historical marker sits here, covered with vegetation."
       },
       "pattern@atlantis" : {
-         "location" : "IN_ROOM:atlantis54",
+         "location" : "IN_ROOM:atlantis54@atlantis",
          "oflags" : [
             "Destroyed",
             "NoGet"
@@ -210,7 +210,7 @@
       },
       "kelp_1@atlantis" : {
          "desc[1]" : "Large strands of kelp grow close together forming a dense wall.",
-         "location" : "IN_ROOM:atlantis19",
+         "location" : "IN_ROOM:atlantis19@atlantis",
          "oflags" : [
             "NoGet"
          ],
@@ -221,7 +221,7 @@
          "pname" : "kelp"
       },
       "seashell@atlantis" : {
-         "location" : "IN_ROOM:atlantis44",
+         "location" : "IN_ROOM:atlantis44@atlantis",
          "weight" : "9",
          "name" : "seashell",
          "examine" : "This large seashell is encrusted with all forms of underwater sea jewels and is\nespecially covered with black pearls.  ",
@@ -231,7 +231,7 @@
       },
       "red_coral@atlantis" : {
          "desc[1]" : "A small piece of beautiful red coral rests gently against the statue.",
-         "location" : "IN_ROOM:atlantis24",
+         "location" : "IN_ROOM:atlantis24@atlantis",
          "oflags" : [
             "GetFlips"
          ],
@@ -248,7 +248,7 @@
       },
       "door@atlantis" : {
          "desc[1]" : "An ancient stone door frustrates any further progress to the north.",
-         "location" : "IN_ROOM:atlantis74",
+         "location" : "IN_ROOM:atlantis74@atlantis",
          "oflags" : [
             "NoGet"
          ],
@@ -260,7 +260,7 @@
          "desc[0]" : "An ancient stone door stands wide open allowing passage north."
       },
       "seahorse@atlantis" : {
-         "location" : "IN_ROOM:atlantis70",
+         "location" : "IN_ROOM:atlantis70@atlantis",
          "oflags" : [
             "Destroyed",
             "NoGet"
@@ -271,7 +271,7 @@
       },
       "history_book@atlantis" : {
          "desc[1]" : "A clay history book with the cover 'Atlantis' lies open on the table.",
-         "location" : "IN_ROOM:atlantis22",
+         "location" : "IN_ROOM:atlantis22@atlantis",
          "oflags" : [
             "GetFlips"
          ],
@@ -287,7 +287,7 @@
          "desc[0]" : "A clay history book with the cover 'Atlantis' sits here waiting."
       },
       "poseidon_statue@atlantis" : {
-         "location" : "IN_ROOM:atlantis24",
+         "location" : "IN_ROOM:atlantis24@atlantis",
          "oflags" : [
             "NoGet"
          ],
@@ -299,7 +299,7 @@
       },
       "glued_door@atlantis" : {
          "desc[1]" : "An uneven stone door is sealed tight against your actions.",
-         "location" : "IN_ROOM:atlantis54",
+         "location" : "IN_ROOM:atlantis54@atlantis",
          "oflags" : [
             "Destroyed",
             "NoGet"
@@ -315,7 +315,7 @@
       },
       "eel@atlantis" : {
          "desc[1]" : "An electric eel struggles for his freedom, caught in the kelp.",
-         "location" : "IN_ROOM:atlantis15",
+         "location" : "IN_ROOM:atlantis15@atlantis",
          "oflags" : [
             "Lit",
             "GetFlips"
@@ -331,7 +331,7 @@
       },
       "bottle_water@atlantis" : {
          "desc[1]" : "A bottle juts out from behind a piece of wreckage.",
-         "location" : "IN_ROOM:atlantis5",
+         "location" : "IN_ROOM:atlantis5@atlantis",
          "oflags" : [
             "GetFlips"
          ],
@@ -348,7 +348,7 @@
       },
       "bottle_air@atlantis" : {
          "desc[1]" : "A small bottle lies buried in the sand.",
-         "location" : "IN_ROOM:atlantis5",
+         "location" : "IN_ROOM:atlantis5@atlantis",
          "oflags" : [
             "GetFlips"
          ],
@@ -364,7 +364,7 @@
          "desc[0]" : "A small bottle with the label 'Bottled Air' sits here."
       },
       "message@atlantis" : {
-         "location" : "IN_ROOM:atlantis47",
+         "location" : "IN_ROOM:atlantis47@atlantis",
          "weight" : "5",
          "name" : "message",
          "examine" : "  The message reads:\n\t\t    The crab is expecting you.\n\t\t    He will help if you can get to the old grump.\n\n\t\t\t\t  -A friend ",
@@ -373,7 +373,7 @@
          "size" : "5"
       },
       "barrier@atlantis" : {
-         "location" : "IN_ROOM:atlantis54",
+         "location" : "IN_ROOM:atlantis54@atlantis",
          "oflags" : [
             "NoGet"
          ],
@@ -385,8 +385,8 @@
    "loc" : {
       "atlantis43@atlantis" : {
          "exits" : {
-            "e" : "atlantis44",
-            "n" : "atlantis40"
+            "e" : "atlantis44@atlantis",
+            "n" : "atlantis40@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -399,9 +399,9 @@
       },
       "atlantis19@atlantis" : {
          "exits" : {
-            "w" : "atlantis14",
-            "n" : "^kelp_1",
-            "s" : "atlantis20"
+            "w" : "atlantis14@atlantis",
+            "n" : "^kelp_1@atlantis",
+            "s" : "atlantis20@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -414,8 +414,8 @@
       },
       "atlantis56@atlantis" : {
          "exits" : {
-            "w" : "atlantis53",
-            "e" : "atlantis57"
+            "w" : "atlantis53@atlantis",
+            "e" : "atlantis57@atlantis"
          },
          "flags" : [
             "Dark",
@@ -429,9 +429,9 @@
       },
       "atlantis23@atlantis" : {
          "exits" : {
-            "e" : "atlantis28",
-            "n" : "atlantis22",
-            "s" : "atlantis24"
+            "e" : "atlantis28@atlantis",
+            "n" : "atlantis22@atlantis",
+            "s" : "atlantis24@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -444,7 +444,7 @@
       },
       "atlantis55@atlantis" : {
          "exits" : {
-            "w" : "^glued_door_1"
+            "w" : "^glued_door_1@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -457,8 +457,8 @@
       },
       "atlantis8@atlantis" : {
          "exits" : {
-            "w" : "atlantis5",
-            "s" : "atlantis9"
+            "w" : "atlantis5@atlantis",
+            "s" : "atlantis9@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -471,7 +471,7 @@
       },
       "atlantis1@atlantis" : {
          "exits" : {
-            "d" : "atlantis2"
+            "d" : "atlantis2@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -484,10 +484,10 @@
       },
       "atlantis15@atlantis" : {
          "exits" : {
-            "w" : "atlantis10",
-            "e" : "atlantis20",
-            "n" : "atlantis14",
-            "s" : "atlantis16"
+            "w" : "atlantis10@atlantis",
+            "e" : "atlantis20@atlantis",
+            "n" : "atlantis14@atlantis",
+            "s" : "atlantis16@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -500,9 +500,9 @@
       },
       "atlantis66@atlantis" : {
          "exits" : {
-            "w" : "atlantis68",
-            "n" : "atlantis67",
-            "s" : "atlantis65"
+            "w" : "atlantis68@atlantis",
+            "n" : "atlantis67@atlantis",
+            "s" : "atlantis65@atlantis"
          },
          "flags" : [
             "Dark",
@@ -516,7 +516,7 @@
       },
       "atlantis26@atlantis" : {
          "exits" : {
-            "e" : "atlantis30"
+            "e" : "atlantis30@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -529,8 +529,8 @@
       },
       "atlantis54@atlantis" : {
          "exits" : {
-            "e" : "^glued_door",
-            "n" : "atlantis53"
+            "e" : "^glued_door@atlantis",
+            "n" : "atlantis53@atlantis"
          },
          "flags" : [],
          "zone" : "atlantis",
@@ -541,8 +541,8 @@
       },
       "atlantis44@atlantis" : {
          "exits" : {
-            "w" : "atlantis43",
-            "n" : "atlantis42"
+            "w" : "atlantis43@atlantis",
+            "n" : "atlantis42@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -555,9 +555,9 @@
       },
       "atlantis38@atlantis" : {
          "exits" : {
-            "w" : "atlantis31",
-            "n" : "atlantis37",
-            "s" : "atlantis39"
+            "w" : "atlantis31@atlantis",
+            "n" : "atlantis37@atlantis",
+            "s" : "atlantis39@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -570,8 +570,8 @@
       },
       "atlantis49@atlantis" : {
          "exits" : {
-            "w" : "atlantis46",
-            "e" : "atlantis50"
+            "w" : "atlantis46@atlantis",
+            "e" : "atlantis50@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -584,9 +584,9 @@
       },
       "atlantis41@atlantis" : {
          "exits" : {
-            "w" : "atlantis40",
-            "e" : "atlantis42",
-            "n" : "atlantis39"
+            "w" : "atlantis40@atlantis",
+            "e" : "atlantis42@atlantis",
+            "n" : "atlantis39@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -599,8 +599,8 @@
       },
       "atlantis62@atlantis" : {
          "exits" : {
-            "w" : "atlantis61",
-            "n" : "atlantis60"
+            "w" : "atlantis61@atlantis",
+            "n" : "atlantis60@atlantis"
          },
          "flags" : [
             "Dark",
@@ -614,8 +614,8 @@
       },
       "atlantis50@atlantis" : {
          "exits" : {
-            "w" : "atlantis49",
-            "e" : "atlantis51"
+            "w" : "atlantis49@atlantis",
+            "e" : "atlantis51@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -628,7 +628,7 @@
       },
       "atlantis47@atlantis" : {
          "exits" : {
-            "w" : "atlantis35"
+            "w" : "atlantis35@atlantis"
          },
          "flags" : [
             "UnderWater",
@@ -642,8 +642,8 @@
       },
       "atlantis5@atlantis" : {
          "exits" : {
-            "e" : "atlantis8",
-            "s" : "atlantis6"
+            "e" : "atlantis8@atlantis",
+            "s" : "atlantis6@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -656,9 +656,9 @@
       },
       "atlantis61@atlantis" : {
          "exits" : {
-            "e" : "atlantis62",
-            "n" : "atlantis59",
-            "s" : "atlantis63"
+            "e" : "atlantis62@atlantis",
+            "n" : "atlantis59@atlantis",
+            "s" : "atlantis63@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -671,8 +671,8 @@
       },
       "atlantis73@atlantis" : {
          "exits" : {
-            "n" : "atlantis74",
-            "s" : "atlantis72"
+            "n" : "atlantis74@atlantis",
+            "s" : "atlantis72@atlantis"
          },
          "flags" : [],
          "zone" : "atlantis",
@@ -694,8 +694,8 @@
       },
       "atlantis7@atlantis" : {
          "exits" : {
-            "e" : "atlantis11",
-            "n" : "atlantis4"
+            "e" : "atlantis11@atlantis",
+            "n" : "atlantis4@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -708,8 +708,8 @@
       },
       "atlantis33@atlantis" : {
          "exits" : {
-            "e" : "atlantis46",
-            "s" : "atlantis34"
+            "e" : "atlantis46@atlantis",
+            "s" : "atlantis34@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -722,8 +722,8 @@
       },
       "atlantis2@atlantis" : {
          "exits" : {
-            "u" : "atlantis1",
-            "d" : "atlantis3"
+            "u" : "atlantis1@atlantis",
+            "d" : "atlantis3@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -736,9 +736,9 @@
       },
       "atlantis35@atlantis" : {
          "exits" : {
-            "e" : "atlantis47",
-            "n" : "atlantis34",
-            "s" : "atlantis36"
+            "e" : "atlantis47@atlantis",
+            "n" : "atlantis34@atlantis",
+            "s" : "atlantis36@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -751,8 +751,8 @@
       },
       "atlantis69@atlantis" : {
          "exits" : {
-            "d" : "atlantis70",
-            "s" : "atlantis68"
+            "d" : "atlantis70@atlantis",
+            "s" : "atlantis68@atlantis"
          },
          "flags" : [
             "Dark",
@@ -766,9 +766,9 @@
       },
       "atlantis20@atlantis" : {
          "exits" : {
-            "w" : "atlantis15",
-            "n" : "atlantis19",
-            "s" : "atlantis21"
+            "w" : "atlantis15@atlantis",
+            "n" : "atlantis19@atlantis",
+            "s" : "atlantis21@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -781,10 +781,10 @@
       },
       "atlantis16@atlantis" : {
          "exits" : {
-            "w" : "atlantis11",
-            "e" : "atlantis21",
-            "n" : "atlantis15",
-            "s" : "atlantis17"
+            "w" : "atlantis11@atlantis",
+            "e" : "atlantis21@atlantis",
+            "n" : "atlantis15@atlantis",
+            "s" : "atlantis17@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -797,8 +797,8 @@
       },
       "atlantis40@atlantis" : {
          "exits" : {
-            "e" : "atlantis41",
-            "s" : "atlantis43"
+            "e" : "atlantis41@atlantis",
+            "s" : "atlantis43@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -811,7 +811,7 @@
       },
       "atlantis22@atlantis" : {
          "exits" : {
-            "s" : "atlantis23"
+            "s" : "atlantis23@atlantis"
          },
          "flags" : [
             "UnderWater",
@@ -825,8 +825,8 @@
       },
       "atlantis32@atlantis" : {
          "exits" : {
-            "w" : "atlantis27",
-            "n" : "atlantis31"
+            "w" : "atlantis27@atlantis",
+            "n" : "atlantis31@atlantis"
          },
          "flags" : [
             "UnderWater",
@@ -840,8 +840,8 @@
       },
       "atlantis51@atlantis" : {
          "exits" : {
-            "w" : "atlantis50",
-            "e" : "atlantis52"
+            "w" : "atlantis50@atlantis",
+            "e" : "atlantis52@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -854,10 +854,10 @@
       },
       "atlantis11@atlantis" : {
          "exits" : {
-            "w" : "atlantis7",
-            "e" : "atlantis16",
-            "n" : "atlantis10",
-            "s" : "atlantis12"
+            "w" : "atlantis7@atlantis",
+            "e" : "atlantis16@atlantis",
+            "n" : "atlantis10@atlantis",
+            "s" : "atlantis12@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -870,9 +870,9 @@
       },
       "atlantis53@atlantis" : {
          "exits" : {
-            "w" : "atlantis52",
-            "e" : "atlantis56",
-            "s" : "atlantis54"
+            "w" : "atlantis52@atlantis",
+            "e" : "atlantis56@atlantis",
+            "s" : "atlantis54@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -885,8 +885,8 @@
       },
       "atlantis29@atlantis" : {
          "exits" : {
-            "w" : "atlantis25",
-            "e" : "atlantis36"
+            "w" : "atlantis25@atlantis",
+            "e" : "atlantis36@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -899,8 +899,8 @@
       },
       "atlantis17@atlantis" : {
          "exits" : {
-            "w" : "atlantis12",
-            "n" : "atlantis16"
+            "w" : "atlantis12@atlantis",
+            "n" : "atlantis16@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -913,7 +913,7 @@
       },
       "atlantis48@atlantis" : {
          "exits" : {
-            "w" : "atlantis37"
+            "w" : "atlantis37@atlantis"
          },
          "flags" : [
             "UnderWater",
@@ -927,8 +927,8 @@
       },
       "atlantis68@atlantis" : {
          "exits" : {
-            "e" : "atlantis66",
-            "n" : "atlantis69"
+            "e" : "atlantis66@atlantis",
+            "n" : "atlantis69@atlantis"
          },
          "flags" : [
             "Dark",
@@ -942,9 +942,9 @@
       },
       "atlantis6@atlantis" : {
          "exits" : {
-            "e" : "atlantis9",
-            "n" : "atlantis5",
-            "s" : "atlantis4"
+            "e" : "atlantis9@atlantis",
+            "n" : "atlantis5@atlantis",
+            "s" : "atlantis4@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -957,7 +957,7 @@
       },
       "atlantis18@atlantis" : {
          "exits" : {
-            "s" : "^kelp_2"
+            "s" : "^kelp_2@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -970,8 +970,8 @@
       },
       "atlantis39@atlantis" : {
          "exits" : {
-            "n" : "atlantis38",
-            "s" : "atlantis41"
+            "n" : "atlantis38@atlantis",
+            "s" : "atlantis41@atlantis"
          },
          "flags" : [
             "UnderWater",
@@ -985,9 +985,9 @@
       },
       "atlantis21@atlantis" : {
          "exits" : {
-            "w" : "atlantis16",
-            "e" : "atlantis25",
-            "n" : "atlantis20"
+            "w" : "atlantis16@atlantis",
+            "e" : "atlantis25@atlantis",
+            "n" : "atlantis20@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -1000,7 +1000,7 @@
       },
       "atlantis13@atlantis" : {
          "exits" : {
-            "s" : "atlantis14"
+            "s" : "atlantis14@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -1013,7 +1013,7 @@
       },
       "atlantis27@atlantis" : {
          "exits" : {
-            "e" : "atlantis32"
+            "e" : "atlantis32@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -1026,9 +1026,9 @@
       },
       "atlantis63@atlantis" : {
          "exits" : {
-            "w" : "atlantis65",
-            "e" : "atlantis64",
-            "n" : "atlantis61"
+            "w" : "atlantis65@atlantis",
+            "e" : "atlantis64@atlantis",
+            "n" : "atlantis61@atlantis"
          },
          "flags" : [
             "Dark",
@@ -1042,8 +1042,8 @@
       },
       "atlantis65@atlantis" : {
          "exits" : {
-            "e" : "atlantis63",
-            "n" : "atlantis66"
+            "e" : "atlantis63@atlantis",
+            "n" : "atlantis66@atlantis"
          },
          "flags" : [
             "Dark",
@@ -1057,7 +1057,7 @@
       },
       "atlantis64@atlantis" : {
          "exits" : {
-            "w" : "atlantis63"
+            "w" : "atlantis63@atlantis"
          },
          "flags" : [
             "Dark",
@@ -1071,7 +1071,7 @@
       },
       "atlantis71@atlantis" : {
          "exits" : {
-            "n" : "atlantis72"
+            "n" : "atlantis72@atlantis"
          },
          "flags" : [],
          "zone" : "atlantis",
@@ -1082,7 +1082,7 @@
       },
       "atlantis24@atlantis" : {
          "exits" : {
-            "n" : "atlantis23"
+            "n" : "atlantis23@atlantis"
          },
          "flags" : [
             "UnderWater",
@@ -1096,8 +1096,8 @@
       },
       "atlantis3@atlantis" : {
          "exits" : {
-            "u" : "atlantis2",
-            "d" : "atlantis4"
+            "u" : "atlantis2@atlantis",
+            "d" : "atlantis4@atlantis"
          },
          "flags" : [
             "UnderWater",
@@ -1111,9 +1111,9 @@
       },
       "atlantis31@atlantis" : {
          "exits" : {
-            "e" : "atlantis38",
-            "n" : "atlantis30",
-            "s" : "atlantis32"
+            "e" : "atlantis38@atlantis",
+            "n" : "atlantis30@atlantis",
+            "s" : "atlantis32@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -1126,8 +1126,8 @@
       },
       "atlantis74@atlantis" : {
          "exits" : {
-            "n" : "^door",
-            "s" : "atlantis73"
+            "n" : "^door@atlantis",
+            "s" : "atlantis73@atlantis"
          },
          "flags" : [],
          "zone" : "atlantis",
@@ -1138,10 +1138,10 @@
       },
       "atlantis10@atlantis" : {
          "exits" : {
-            "w" : "atlantis4",
-            "e" : "atlantis15",
-            "n" : "atlantis9",
-            "s" : "atlantis11"
+            "w" : "atlantis4@atlantis",
+            "e" : "atlantis15@atlantis",
+            "n" : "atlantis9@atlantis",
+            "s" : "atlantis11@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -1154,8 +1154,8 @@
       },
       "atlantis28@atlantis" : {
          "exits" : {
-            "w" : "atlantis23",
-            "e" : "atlantis34"
+            "w" : "atlantis23@atlantis",
+            "e" : "atlantis34@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -1168,8 +1168,8 @@
       },
       "atlantis42@atlantis" : {
          "exits" : {
-            "w" : "atlantis41",
-            "s" : "atlantis44"
+            "w" : "atlantis41@atlantis",
+            "s" : "atlantis44@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -1182,7 +1182,7 @@
       },
       "atlantis75@atlantis" : {
          "exits" : {
-            "s" : "^door_1"
+            "s" : "^door_1@atlantis"
          },
          "flags" : [],
          "zone" : "atlantis",
@@ -1193,10 +1193,10 @@
       },
       "atlantis9@atlantis" : {
          "exits" : {
-            "w" : "atlantis6",
-            "e" : "atlantis14",
-            "n" : "atlantis8",
-            "s" : "atlantis10"
+            "w" : "atlantis6@atlantis",
+            "e" : "atlantis14@atlantis",
+            "n" : "atlantis8@atlantis",
+            "s" : "atlantis10@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -1209,9 +1209,9 @@
       },
       "atlantis60@atlantis" : {
          "exits" : {
-            "w" : "atlantis59",
-            "n" : "atlantis58",
-            "s" : "atlantis62"
+            "w" : "atlantis59@atlantis",
+            "n" : "atlantis58@atlantis",
+            "s" : "atlantis62@atlantis"
          },
          "flags" : [
             "Dark",
@@ -1225,9 +1225,9 @@
       },
       "atlantis34@atlantis" : {
          "exits" : {
-            "w" : "atlantis28",
-            "n" : "atlantis33",
-            "s" : "atlantis35"
+            "w" : "atlantis28@atlantis",
+            "n" : "atlantis33@atlantis",
+            "s" : "atlantis35@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -1240,9 +1240,9 @@
       },
       "atlantis46@atlantis" : {
          "exits" : {
-            "w" : "atlantis33",
-            "e" : "atlantis49",
-            "n" : "atlantis45"
+            "w" : "atlantis33@atlantis",
+            "e" : "atlantis49@atlantis",
+            "n" : "atlantis45@atlantis"
          },
          "flags" : [
             "UnderWater",
@@ -1256,10 +1256,10 @@
       },
       "atlantis14@atlantis" : {
          "exits" : {
-            "w" : "atlantis9",
-            "e" : "atlantis19",
-            "n" : "atlantis13",
-            "s" : "atlantis15"
+            "w" : "atlantis9@atlantis",
+            "e" : "atlantis19@atlantis",
+            "n" : "atlantis13@atlantis",
+            "s" : "atlantis15@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -1272,8 +1272,8 @@
       },
       "atlantis52@atlantis" : {
          "exits" : {
-            "w" : "atlantis51",
-            "e" : "atlantis53"
+            "w" : "atlantis51@atlantis",
+            "e" : "atlantis53@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -1286,7 +1286,7 @@
       },
       "atlantis45@atlantis" : {
          "exits" : {
-            "s" : "atlantis46"
+            "s" : "atlantis46@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -1299,8 +1299,8 @@
       },
       "atlantis59@atlantis" : {
          "exits" : {
-            "e" : "atlantis60",
-            "s" : "atlantis61"
+            "e" : "atlantis60@atlantis",
+            "s" : "atlantis61@atlantis"
          },
          "flags" : [
             "Dark",
@@ -1314,8 +1314,8 @@
       },
       "atlantis58@atlantis" : {
          "exits" : {
-            "n" : "atlantis57",
-            "s" : "atlantis60"
+            "n" : "atlantis57@atlantis",
+            "s" : "atlantis60@atlantis"
          },
          "flags" : [
             "Dark",
@@ -1329,8 +1329,8 @@
       },
       "atlantis30@atlantis" : {
          "exits" : {
-            "w" : "atlantis26",
-            "s" : "atlantis31"
+            "w" : "atlantis26@atlantis",
+            "s" : "atlantis31@atlantis"
          },
          "flags" : [
             "UnderWater",
@@ -1344,9 +1344,9 @@
       },
       "atlantis36@atlantis" : {
          "exits" : {
-            "w" : "atlantis29",
-            "n" : "atlantis35",
-            "s" : "atlantis37"
+            "w" : "atlantis29@atlantis",
+            "n" : "atlantis35@atlantis",
+            "s" : "atlantis37@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -1359,8 +1359,8 @@
       },
       "atlantis72@atlantis" : {
          "exits" : {
-            "n" : "atlantis73",
-            "s" : "atlantis71"
+            "n" : "atlantis73@atlantis",
+            "s" : "atlantis71@atlantis"
          },
          "flags" : [],
          "zone" : "atlantis",
@@ -1371,9 +1371,9 @@
       },
       "atlantis37@atlantis" : {
          "exits" : {
-            "e" : "atlantis48",
-            "n" : "atlantis36",
-            "s" : "atlantis38"
+            "e" : "atlantis48@atlantis",
+            "n" : "atlantis36@atlantis",
+            "s" : "atlantis38@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -1386,8 +1386,8 @@
       },
       "atlantis57@atlantis" : {
          "exits" : {
-            "w" : "atlantis56",
-            "s" : "atlantis58"
+            "w" : "atlantis56@atlantis",
+            "s" : "atlantis58@atlantis"
          },
          "flags" : [
             "Dark",
@@ -1401,10 +1401,10 @@
       },
       "atlantis4@atlantis" : {
          "exits" : {
-            "e" : "atlantis10",
-            "u" : "atlantis3",
-            "n" : "atlantis6",
-            "s" : "atlantis7"
+            "e" : "atlantis10@atlantis",
+            "u" : "atlantis3@atlantis",
+            "n" : "atlantis6@atlantis",
+            "s" : "atlantis7@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -1417,8 +1417,8 @@
       },
       "atlantis25@atlantis" : {
          "exits" : {
-            "w" : "atlantis21",
-            "e" : "atlantis29"
+            "w" : "atlantis21@atlantis",
+            "e" : "atlantis29@atlantis"
          },
          "flags" : [
             "UnderWater",
@@ -1432,8 +1432,8 @@
       },
       "atlantis12@atlantis" : {
          "exits" : {
-            "e" : "atlantis17",
-            "n" : "atlantis11"
+            "e" : "atlantis17@atlantis",
+            "n" : "atlantis11@atlantis"
          },
          "flags" : [
             "UnderWater"
@@ -1446,7 +1446,7 @@
       },
       "atlantis67@atlantis" : {
          "exits" : {
-            "s" : "atlantis66"
+            "s" : "atlantis66@atlantis"
          },
          "flags" : [
             "Dark",
@@ -1462,7 +1462,7 @@
    "mob" : {
       "crab@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis55",
+         "location" : "atlantis55@atlantis",
          "armor" : "0",
          "name" : "crab",
          "description" : "A crotchety old Hermit Crab sits here, just wanting to be left alone.",
@@ -1480,7 +1480,7 @@
       },
       "lobster@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis19",
+         "location" : "atlantis19@atlantis",
          "armor" : "0",
          "name" : "lobster",
          "description" : "A lobster hides in the kelp, ready to attack!",
@@ -1494,7 +1494,7 @@
       },
       "seaserpent@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis66",
+         "location" : "atlantis66@atlantis",
          "armor" : "0",
          "name" : "seaserpent",
          "description" : "A massive Sea Serpent appears to be trapped here and hasn't eaten in a while.",
@@ -1513,7 +1513,7 @@
       },
       "manatee@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis41",
+         "location" : "atlantis41@atlantis",
          "armor" : "0",
          "name" : "manatee",
          "description" : "A large Manatee stands here, gawking at the sights of the Castle.",
@@ -1527,7 +1527,7 @@
       },
       "aquarian@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis24",
+         "location" : "atlantis24@atlantis",
          "armor" : "0",
          "name" : "aquarian",
          "description" : "Aquarian the Merman priest tends to the shrine of Poseidon.",
@@ -1541,7 +1541,7 @@
       },
       "speedy@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis47",
+         "location" : "atlantis47@atlantis",
          "armor" : "0",
          "name" : "speedy",
          "description" : "Speedy Snail asks if you saw him leave and return as you walked in?",
@@ -1559,7 +1559,7 @@
       },
       "school@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis9",
+         "location" : "atlantis9@atlantis",
          "armor" : "0",
          "name" : "school",
          "description" : "A school of brightly colored fish dart around you.",
@@ -1573,7 +1573,7 @@
       },
       "shrimp@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis46",
+         "location" : "atlantis46@atlantis",
          "armor" : "0",
          "name" : "shrimp",
          "description" : "A shrimp moves around the garden mumbling 'I am NOT short!'.",
@@ -1590,7 +1590,7 @@
       },
       "emperess@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis44",
+         "location" : "atlantis44@atlantis",
          "armor" : "0",
          "name" : "emperess",
          "description" : "The mermaid Emperess sits on her throne ruling over her aquatic subjects.",
@@ -1609,7 +1609,7 @@
       },
       "ray@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis48",
+         "location" : "atlantis48@atlantis",
          "armor" : "0",
          "name" : "ray",
          "description" : "A blind Manta Ray is at the piano, singing blues.",
@@ -1626,7 +1626,7 @@
       },
       "seadog@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis34",
+         "location" : "atlantis34@atlantis",
          "armor" : "0",
          "name" : "seadog",
          "description" : "An ole sea dog is here, sniffing along the ground for something to eat.",
@@ -1643,7 +1643,7 @@
       },
       "merman@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis48",
+         "location" : "atlantis48@atlantis",
          "armor" : "0",
          "name" : "merman",
          "description" : "A Merman is here taking reservations for the hotel.",
@@ -1657,7 +1657,7 @@
       },
       "seahorse@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis71",
+         "location" : "atlantis71@atlantis",
          "armor" : "0",
          "name" : "seahorse",
          "description" : "A small, oddly shaped, seahorse swims quietly in the passage.",
@@ -1675,7 +1675,7 @@
       },
       "seacow@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis26",
+         "location" : "atlantis26@atlantis",
          "armor" : "0",
          "name" : "seacow",
          "description" : "A large sea cow munches quietly on some of the kelp nearby.",
@@ -1692,7 +1692,7 @@
       },
       "octopus@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis45",
+         "location" : "atlantis45@atlantis",
          "armor" : "0",
          "name" : "octopus",
          "description" : "A gentle Octopus is taking a break from tending her garden.",
@@ -1713,7 +1713,7 @@
       },
       "merboy@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis30",
+         "location" : "atlantis30@atlantis",
          "armor" : "0",
          "name" : "merboy",
          "description" : "A small merchild is in bed ill...he doesn't like the sea.",
@@ -1727,7 +1727,7 @@
       },
       "puffer@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis22",
+         "location" : "atlantis22@atlantis",
          "armor" : "0",
          "name" : "puffer",
          "description" : "A Puffer swells up in exasperation because you didn't return your library book!",
@@ -1741,7 +1741,7 @@
       },
       "squid@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis60",
+         "location" : "atlantis60@atlantis",
          "armor" : "0",
          "name" : "squid",
          "description" : "An enormous Squid flails his tentacles at you.",
@@ -1759,7 +1759,7 @@
       },
       "seaweed@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis63",
+         "location" : "atlantis63@atlantis",
          "armor" : "0",
          "name" : "seaweed",
          "description" : "A large growth of seaweed blocks the passage here.",
@@ -1778,7 +1778,7 @@
       },
       "urchin@atlantis" : {
          "damage" : "10",
-         "location" : "atlantis36",
+         "location" : "atlantis36@atlantis",
          "armor" : "0",
          "name" : "urchin",
          "description" : "A scruffy-looking Sea Urchin is here begging.",

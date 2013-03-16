@@ -2,7 +2,7 @@
    "obj" : {
       "crumb_5@zodiac" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:baggie",
+         "location" : "IN_CONTAINER:baggie@zodiac",
          "oflags" : [
             "Food"
          ],
@@ -20,7 +20,7 @@
       "welcome_mat@zodiac" : {
          "desc[1]" : "\nThere is a big friendly looking welcome mat lying in front of the door.",
          "damage" : "0",
-         "location" : "IN_ROOM:frontdoor",
+         "location" : "IN_ROOM:frontdoor@zodiac",
          "oflags" : [
             "NoGet",
             "Pushtoggle"
@@ -46,7 +46,7 @@
          "maxstate" : "2",
          "bvalue" : "0",
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:library",
+         "location" : "IN_ROOM:library@zodiac",
          "desc[3]" : "",
          "name" : "front_door_2",
          "altname" : "door",
@@ -70,7 +70,7 @@
          "maxstate" : "0",
          "bvalue" : "0",
          "desc[1]" : "",
-         "location" : "IN_ROOM:library",
+         "location" : "IN_ROOM:library@zodiac",
          "desc[3]" : "",
          "name" : "book_case_carvings",
          "altname" : "carvings",
@@ -85,7 +85,7 @@
       "human_head@zodiac" : {
          "desc[1]" : "There is a head mounted on the wall.  It's a human head.",
          "damage" : "0",
-         "location" : "IN_ROOM:leo",
+         "location" : "IN_ROOM:leo@zodiac",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -114,7 +114,7 @@
          "maxstate" : "1",
          "bvalue" : "0",
          "desc[1]" : "A smooth round ball of &+ydirt &Nhas been left here on the pentagram.",
-         "location" : "CARRIED_BY:Capricorn",
+         "location" : "CARRIED_BY:capricorn@zodiac",
          "desc[3]" : "",
          "name" : "dirtball",
          "altname" : "ball",
@@ -126,7 +126,7 @@
       },
       "crumb_2@zodiac" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:baggie",
+         "location" : "IN_CONTAINER:baggie@zodiac",
          "oflags" : [
             "Food"
          ],
@@ -151,7 +151,7 @@
          "maxstate" : "1",
          "bvalue" : "0",
          "desc[1]" : "The gate has been closed.",
-         "location" : "IN_ROOM:capricorn",
+         "location" : "IN_ROOM:capricorn@zodiac",
          "name" : "inside_gate",
          "altname" : "gate",
          "armor" : "0",
@@ -165,7 +165,7 @@
       },
       "crumb_1@zodiac" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:baggie",
+         "location" : "IN_CONTAINER:baggie@zodiac",
          "oflags" : [
             "Food"
          ],
@@ -190,7 +190,7 @@
          "maxstate" : "0",
          "bvalue" : "0",
          "desc[1]" : "",
-         "location" : "WIELDED_BY:Eternity",
+         "location" : "WIELDED_BY:eternity@zodiac",
          "desc[3]" : "",
          "name" : "infinitysword",
          "altname" : "sword",
@@ -205,7 +205,7 @@
       },
       "human_skin_rug@zodiac" : {
          "damage" : "0",
-         "location" : "IN_ROOM:leo",
+         "location" : "IN_ROOM:leo@zodiac",
          "oflags" : [
             "NoGet",
             "Food"
@@ -231,7 +231,7 @@
          "maxstate" : "1",
          "bvalue" : "0",
          "desc[1]" : "A large oak bookcase dominates the east wall.",
-         "location" : "IN_ROOM:library",
+         "location" : "IN_ROOM:library@zodiac",
          "name" : "book_case_1",
          "altname" : "case",
          "armor" : "0",
@@ -253,7 +253,7 @@
          "maxstate" : "1",
          "bvalue" : "0",
          "desc[1]" : "The gate is closed.",
-         "location" : "IN_ROOM:eartha",
+         "location" : "IN_ROOM:eartha@zodiac",
          "name" : "outside_gate",
          "altname" : "gate",
          "armor" : "0",
@@ -274,7 +274,7 @@
          "maxstate" : "1",
          "bvalue" : "0",
          "desc[1]" : "A ball of &+Rfire &Nhas been put on the pentagram.",
-         "location" : "CARRIED_BY:Aries",
+         "location" : "CARRIED_BY:aries@zodiac",
          "desc[3]" : "",
          "name" : "fireball",
          "altname" : "ball",
@@ -295,7 +295,7 @@
          "maxstate" : "1",
          "bvalue" : "0",
          "desc[1]" : "There is a ball of &+Bwater &Nsetting on the pentagram.",
-         "location" : "CARRIED_BY:Aquarius",
+         "location" : "CARRIED_BY:aquarius@zodiac",
          "desc[3]" : "",
          "name" : "waterball",
          "altname" : "ball",
@@ -307,7 +307,7 @@
       },
       "pentagram@zodiac" : {
          "damage" : "0",
-         "location" : "IN_ROOM:pentagram",
+         "location" : "IN_ROOM:pentagram@zodiac",
          "oflags" : [
             "NoGet"
          ],
@@ -331,7 +331,7 @@
          "maxstate" : "2",
          "bvalue" : "0",
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:frontdoor",
+         "location" : "IN_ROOM:frontdoor@zodiac",
          "desc[3]" : "",
          "name" : "front_door",
          "altname" : "door",
@@ -348,7 +348,7 @@
       },
       "crumb_3@zodiac" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:baggie",
+         "location" : "IN_CONTAINER:baggie@zodiac",
          "oflags" : [
             "Food"
          ],
@@ -373,7 +373,7 @@
          "maxstate" : "0",
          "bvalue" : "0",
          "desc[1]" : "",
-         "location" : "WORN_BY:Infinity",
+         "location" : "WORN_BY:infinity@zodiac",
          "desc[3]" : "",
          "name" : "eternalarmor",
          "altname" : "suit",
@@ -395,7 +395,7 @@
       },
       "crumb_4@zodiac" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:baggie",
+         "location" : "IN_CONTAINER:baggie@zodiac",
          "oflags" : [
             "Food"
          ],
@@ -420,7 +420,7 @@
          "maxstate" : "0",
          "bvalue" : "300",
          "desc[1]" : "",
-         "location" : "WORN_BY:virgo",
+         "location" : "WORN_BY:virgo@zodiac",
          "desc[3]" : "",
          "name" : "chas_belt",
          "altname" : "belt",
@@ -438,7 +438,7 @@
       },
       "mile_asteroid@zodiac" : {
          "damage" : "0",
-         "location" : "IN_ROOM:westend",
+         "location" : "IN_ROOM:westend@zodiac",
          "oflags" : [
             "NoGet"
          ],
@@ -463,7 +463,7 @@
          "maxstate" : "0",
          "bvalue" : "1",
          "desc[1]" : "",
-         "location" : "CARRIED_BY:Nightwing",
+         "location" : "CARRIED_BY:nightwing@zodiac",
          "desc[3]" : "",
          "name" : "body",
          "altname" : "corpse",
@@ -478,7 +478,7 @@
       "flag@zodiac" : {
          "desc[1]" : "A large flag is hung neatly on the wall.",
          "damage" : "0",
-         "location" : "IN_ROOM:libra",
+         "location" : "IN_ROOM:libra@zodiac",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -502,7 +502,7 @@
       },
       "crumb_7@zodiac" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:baggie",
+         "location" : "IN_CONTAINER:baggie@zodiac",
          "oflags" : [
             "Food"
          ],
@@ -520,7 +520,7 @@
       },
       "baggie@zodiac" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:body",
+         "location" : "IN_CONTAINER:body@zodiac",
          "oflags" : [
             "Container"
          ],
@@ -545,7 +545,7 @@
          "maxstate" : "1",
          "bvalue" : "0",
          "desc[1]" : "There is a very odd ball floating above the pentagram.",
-         "location" : "CARRIED_BY:Libra",
+         "location" : "CARRIED_BY:libra@zodiac",
          "desc[3]" : "",
          "name" : "airball",
          "altname" : "ball",
@@ -557,7 +557,7 @@
       },
       "dictionary@zodiac" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:book_case_1",
+         "location" : "IN_CONTAINER:book_case_1@zodiac",
          "oflags" : "{ }",
          "armor" : "0",
          "altname" : "book",
@@ -573,7 +573,7 @@
       "wine@zodiac" : {
          "desc[1]" : "A bottle of fine &+Wspirit&N has been placed on the pentagram.",
          "damage" : "0",
-         "location" : "IN_CONTAINER:body",
+         "location" : "IN_CONTAINER:body@zodiac",
          "oflags" : [
             "Food",
             "Alcohol"
@@ -590,7 +590,7 @@
       },
       "fine_print@zodiac" : {
          "damage" : "0",
-         "location" : "IN_ROOM:frontdoor",
+         "location" : "IN_ROOM:frontdoor@zodiac",
          "oflags" : [
             "NoGet",
             "Unlocatable"
@@ -616,7 +616,7 @@
          "maxstate" : "1",
          "bvalue" : "0",
          "desc[1]" : "The bookcase has been pushed back into place.",
-         "location" : "IN_ROOM:void",
+         "location" : "IN_ROOM:void@zodiac",
          "name" : "book_case_2",
          "altname" : "case",
          "armor" : "0",
@@ -630,7 +630,7 @@
       },
       "crumb_6@zodiac" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:baggie",
+         "location" : "IN_CONTAINER:baggie@zodiac",
          "oflags" : [
             "Food"
          ],
@@ -650,12 +650,12 @@
    "loc" : {
       "lost7@zodiac" : {
          "exits" : {
-            "w" : "lost4",
-            "e" : "lost5",
-            "u" : "lost8",
-            "n" : "lost3",
-            "d" : "lost4",
-            "s" : "lost2"
+            "w" : "lost4@zodiac",
+            "e" : "lost5@zodiac",
+            "u" : "lost8@zodiac",
+            "n" : "lost3@zodiac",
+            "d" : "lost4@zodiac",
+            "s" : "lost2@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -666,7 +666,7 @@
       },
       "taurus@zodiac" : {
          "exits" : {
-            "e" : "eartha"
+            "e" : "eartha@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -677,7 +677,7 @@
       },
       "aries@zodiac" : {
          "exits" : {
-            "s" : "firea"
+            "s" : "firea@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -688,12 +688,12 @@
       },
       "lost4@zodiac" : {
          "exits" : {
-            "w" : "lost6",
-            "e" : "lost3",
-            "u" : "lost4",
-            "n" : "lost4",
-            "d" : "lost4",
-            "s" : "lost2"
+            "w" : "lost6@zodiac",
+            "e" : "lost3@zodiac",
+            "u" : "lost4@zodiac",
+            "n" : "lost4@zodiac",
+            "d" : "lost4@zodiac",
+            "s" : "lost2@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -704,11 +704,11 @@
       },
       "seastsky@zodiac" : {
          "exits" : {
-            "w" : "southsky",
-            "e" : "lost1",
-            "u" : "lost1",
-            "n" : "eastsky",
-            "s" : "lost1"
+            "w" : "southsky@zodiac",
+            "e" : "lost1@zodiac",
+            "u" : "lost1@zodiac",
+            "n" : "eastsky@zodiac",
+            "s" : "lost1@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -719,7 +719,7 @@
       },
       "capricorn@zodiac" : {
          "exits" : {
-            "w" : "^inside_gate"
+            "w" : "^inside_gate@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -730,7 +730,7 @@
       },
       "frontdoor@zodiac" : {
          "exits" : {
-            "n" : "^front_door"
+            "n" : "^front_door@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -741,7 +741,7 @@
       },
       "virgo@zodiac" : {
          "exits" : {
-            "n" : "eartha"
+            "n" : "eartha@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -752,7 +752,7 @@
       },
       "leo@zodiac" : {
          "exits" : {
-            "w" : "firea"
+            "w" : "firea@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -763,11 +763,11 @@
       },
       "nwestsky@zodiac" : {
          "exits" : {
-            "e" : "northsky",
-            "w" : "lost1",
-            "u" : "lost1",
-            "n" : "lost1",
-            "s" : "westsky"
+            "e" : "northsky@zodiac",
+            "w" : "lost1@zodiac",
+            "u" : "lost1@zodiac",
+            "n" : "lost1@zodiac",
+            "s" : "westsky@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -778,8 +778,8 @@
       },
       "library@zodiac" : {
          "exits" : {
-            "n" : "^book_case_1",
-            "s" : "^front_door_2"
+            "n" : "^book_case_1@zodiac",
+            "s" : "^front_door_2@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -790,9 +790,9 @@
       },
       "southend@zodiac" : {
          "exits" : {
-            "u" : "lost1",
-            "n" : "southsky",
-            "s" : "eartha"
+            "u" : "lost1@zodiac",
+            "n" : "southsky@zodiac",
+            "s" : "eartha@zodiac"
          },
          "flags" : [
             "NoMobiles"
@@ -805,7 +805,7 @@
       },
       "libra@zodiac" : {
          "exits" : {
-            "s" : "aira"
+            "s" : "aira@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -816,7 +816,7 @@
       },
       "aquarius@zodiac" : {
          "exits" : {
-            "e" : "aira"
+            "e" : "aira@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -827,12 +827,12 @@
       },
       "lost6@zodiac" : {
          "exits" : {
-            "w" : "lost6",
-            "e" : "lost5",
-            "u" : "lost4",
-            "n" : "lost4",
-            "d" : "lost4",
-            "s" : "lost7"
+            "w" : "lost6@zodiac",
+            "e" : "lost5@zodiac",
+            "u" : "lost4@zodiac",
+            "n" : "lost4@zodiac",
+            "d" : "lost4@zodiac",
+            "s" : "lost7@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -843,12 +843,12 @@
       },
       "lost9@zodiac" : {
          "exits" : {
-            "w" : "lost6",
-            "e" : "lost5",
-            "u" : "lost4",
-            "n" : "lost3",
-            "d" : "lost4",
-            "s" : "lost10"
+            "w" : "lost6@zodiac",
+            "e" : "lost5@zodiac",
+            "u" : "lost4@zodiac",
+            "n" : "lost3@zodiac",
+            "d" : "lost4@zodiac",
+            "s" : "lost10@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -859,12 +859,12 @@
       },
       "lost10@zodiac" : {
          "exits" : {
-            "w" : "lost6",
-            "e" : "lost11",
-            "u" : "lost4",
-            "n" : "lost4",
-            "d" : "lost4",
-            "s" : "lost2"
+            "w" : "lost6@zodiac",
+            "e" : "lost11@zodiac",
+            "u" : "lost4@zodiac",
+            "n" : "lost4@zodiac",
+            "d" : "lost4@zodiac",
+            "s" : "lost2@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -875,12 +875,12 @@
       },
       "lost12@zodiac" : {
          "exits" : {
-            "w" : "pentagram",
-            "e" : "lost6",
-            "u" : "lost4",
-            "n" : "lost4",
-            "d" : "lost4",
-            "s" : "lost2"
+            "w" : "pentagram@zodiac",
+            "e" : "lost6@zodiac",
+            "u" : "lost4@zodiac",
+            "n" : "lost4@zodiac",
+            "d" : "lost4@zodiac",
+            "s" : "lost2@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -891,12 +891,12 @@
       },
       "pentagram@zodiac" : {
          "exits" : {
-            "w" : "lost3",
-            "e" : "lost6",
-            "u" : "lost4",
-            "n" : "lost4",
-            "d" : "amgstars",
-            "s" : "lost2"
+            "w" : "lost3@zodiac",
+            "e" : "lost6@zodiac",
+            "u" : "lost4@zodiac",
+            "n" : "lost4@zodiac",
+            "d" : "amgstars@zodiac",
+            "s" : "lost2@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -907,12 +907,12 @@
       },
       "lost1@zodiac" : {
          "exits" : {
-            "w" : "lost4",
-            "e" : "lost3",
-            "u" : "lost3",
-            "n" : "lost2",
-            "d" : "lost2",
-            "s" : "lost3"
+            "w" : "lost4@zodiac",
+            "e" : "lost3@zodiac",
+            "u" : "lost3@zodiac",
+            "n" : "lost2@zodiac",
+            "d" : "lost2@zodiac",
+            "s" : "lost3@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -923,9 +923,9 @@
       },
       "westend@zodiac" : {
          "exits" : {
-            "e" : "westsky",
-            "w" : "watera",
-            "u" : "lost1"
+            "e" : "westsky@zodiac",
+            "w" : "watera@zodiac",
+            "u" : "lost1@zodiac"
          },
          "flags" : [
             "NoMobiles"
@@ -938,12 +938,12 @@
       },
       "lost11@zodiac" : {
          "exits" : {
-            "w" : "lost6",
-            "e" : "lost12",
-            "u" : "lost4",
-            "n" : "lost4",
-            "d" : "lost4",
-            "s" : "lost2"
+            "w" : "lost6@zodiac",
+            "e" : "lost12@zodiac",
+            "u" : "lost4@zodiac",
+            "n" : "lost4@zodiac",
+            "d" : "lost4@zodiac",
+            "s" : "lost2@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -954,11 +954,11 @@
       },
       "neastsky@zodiac" : {
          "exits" : {
-            "w" : "northsky",
-            "e" : "lost1",
-            "u" : "lost1",
-            "n" : "lost1",
-            "s" : "eastsky"
+            "w" : "northsky@zodiac",
+            "e" : "lost1@zodiac",
+            "u" : "lost1@zodiac",
+            "n" : "lost1@zodiac",
+            "s" : "eastsky@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -969,7 +969,7 @@
       },
       "scorpio@zodiac" : {
          "exits" : {
-            "e" : "watera"
+            "e" : "watera@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -980,11 +980,11 @@
       },
       "southsky@zodiac" : {
          "exits" : {
-            "w" : "swestsky",
-            "e" : "seastsky",
-            "u" : "lost1",
-            "n" : "amgstars",
-            "s" : "southend"
+            "w" : "swestsky@zodiac",
+            "e" : "seastsky@zodiac",
+            "u" : "lost1@zodiac",
+            "n" : "amgstars@zodiac",
+            "s" : "southend@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -995,12 +995,12 @@
       },
       "lost3@zodiac" : {
          "exits" : {
-            "w" : "lost6",
-            "e" : "lost5",
-            "u" : "lost4",
-            "n" : "lost4",
-            "d" : "lost4",
-            "s" : "lost2"
+            "w" : "lost6@zodiac",
+            "e" : "lost5@zodiac",
+            "u" : "lost4@zodiac",
+            "n" : "lost4@zodiac",
+            "d" : "lost4@zodiac",
+            "s" : "lost2@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -1011,10 +1011,10 @@
       },
       "watera@zodiac" : {
          "exits" : {
-            "w" : "scorpio",
-            "e" : "westend",
-            "n" : "cancer",
-            "s" : "pisces"
+            "w" : "scorpio@zodiac",
+            "e" : "westend@zodiac",
+            "n" : "cancer@zodiac",
+            "s" : "pisces@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -1025,12 +1025,12 @@
       },
       "lost2@zodiac" : {
          "exits" : {
-            "w" : "lost6",
-            "e" : "lost5",
-            "u" : "lost4",
-            "n" : "lost4",
-            "d" : "lost4",
-            "s" : "lost2"
+            "w" : "lost6@zodiac",
+            "e" : "lost5@zodiac",
+            "u" : "lost4@zodiac",
+            "n" : "lost4@zodiac",
+            "d" : "lost4@zodiac",
+            "s" : "lost2@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -1042,7 +1042,7 @@
       "void@zodiac" : {
          "exits" : {
             "d" : "temple@start",
-            "s" : "^book_case_2"
+            "s" : "^book_case_2@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -1053,12 +1053,12 @@
       },
       "lost5@zodiac" : {
          "exits" : {
-            "w" : "lost6",
-            "e" : "lost5",
-            "u" : "lost4",
-            "n" : "lost2",
-            "d" : "lost4",
-            "s" : "lost2"
+            "w" : "lost6@zodiac",
+            "e" : "lost5@zodiac",
+            "u" : "lost4@zodiac",
+            "n" : "lost2@zodiac",
+            "d" : "lost4@zodiac",
+            "s" : "lost2@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -1069,9 +1069,9 @@
       },
       "northend@zodiac" : {
          "exits" : {
-            "u" : "lost1",
-            "n" : "aira",
-            "s" : "northsky"
+            "u" : "lost1@zodiac",
+            "n" : "aira@zodiac",
+            "s" : "northsky@zodiac"
          },
          "flags" : [
             "NoMobiles"
@@ -1084,7 +1084,7 @@
       },
       "cancer@zodiac" : {
          "exits" : {
-            "s" : "watera"
+            "s" : "watera@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -1095,11 +1095,11 @@
       },
       "westsky@zodiac" : {
          "exits" : {
-            "w" : "westend",
-            "e" : "amgstars",
-            "u" : "lost1",
-            "n" : "nwestsky",
-            "s" : "swestsky"
+            "w" : "westend@zodiac",
+            "e" : "amgstars@zodiac",
+            "u" : "lost1@zodiac",
+            "n" : "nwestsky@zodiac",
+            "s" : "swestsky@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -1110,10 +1110,10 @@
       },
       "firea@zodiac" : {
          "exits" : {
-            "e" : "leo",
-            "w" : "eastend",
-            "n" : "aries",
-            "s" : "sagittarius"
+            "e" : "leo@zodiac",
+            "w" : "eastend@zodiac",
+            "n" : "aries@zodiac",
+            "s" : "sagittarius@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -1124,12 +1124,12 @@
       },
       "lost8@zodiac" : {
          "exits" : {
-            "w" : "lost6",
-            "e" : "lost5",
-            "u" : "lost4",
-            "n" : "lost9",
-            "d" : "lost4",
-            "s" : "lost2"
+            "w" : "lost6@zodiac",
+            "e" : "lost5@zodiac",
+            "u" : "lost4@zodiac",
+            "n" : "lost9@zodiac",
+            "d" : "lost4@zodiac",
+            "s" : "lost2@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -1140,7 +1140,7 @@
       },
       "sagittarius@zodiac" : {
          "exits" : {
-            "n" : "firea"
+            "n" : "firea@zodiac"
          },
          "flags" : [
             "NegRegen"
@@ -1153,9 +1153,9 @@
       },
       "eastend@zodiac" : {
          "exits" : {
-            "e" : "firea",
-            "w" : "eastsky",
-            "u" : "lost1"
+            "e" : "firea@zodiac",
+            "w" : "eastsky@zodiac",
+            "u" : "lost1@zodiac"
          },
          "flags" : [
             "NoMobiles"
@@ -1168,7 +1168,7 @@
       },
       "pisces@zodiac" : {
          "exits" : {
-            "n" : "watera"
+            "n" : "watera@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -1179,11 +1179,11 @@
       },
       "swestsky@zodiac" : {
          "exits" : {
-            "e" : "southsky",
-            "w" : "lost1",
-            "u" : "lost1",
-            "n" : "westsky",
-            "s" : "lost1"
+            "e" : "southsky@zodiac",
+            "w" : "lost1@zodiac",
+            "u" : "lost1@zodiac",
+            "n" : "westsky@zodiac",
+            "s" : "lost1@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -1194,10 +1194,10 @@
       },
       "aira@zodiac" : {
          "exits" : {
-            "w" : "aquarius",
-            "e" : "gemini",
-            "n" : "libra",
-            "s" : "northend"
+            "w" : "aquarius@zodiac",
+            "e" : "gemini@zodiac",
+            "n" : "libra@zodiac",
+            "s" : "northend@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -1208,7 +1208,7 @@
       },
       "gemini@zodiac" : {
          "exits" : {
-            "w" : "aira"
+            "w" : "aira@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -1219,10 +1219,10 @@
       },
       "eartha@zodiac" : {
          "exits" : {
-            "w" : "taurus",
-            "e" : "^outside_gate",
-            "n" : "southend",
-            "s" : "virgo"
+            "w" : "taurus@zodiac",
+            "e" : "^outside_gate@zodiac",
+            "n" : "southend@zodiac",
+            "s" : "virgo@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -1233,11 +1233,11 @@
       },
       "northsky@zodiac" : {
          "exits" : {
-            "w" : "nwestsky",
-            "e" : "neastsky",
-            "u" : "lost1",
-            "n" : "northend",
-            "s" : "amgstars"
+            "w" : "nwestsky@zodiac",
+            "e" : "neastsky@zodiac",
+            "u" : "lost1@zodiac",
+            "n" : "northend@zodiac",
+            "s" : "amgstars@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -1248,12 +1248,12 @@
       },
       "amgstars@zodiac" : {
          "exits" : {
-            "w" : "westsky",
-            "e" : "eastsky",
-            "u" : "lost1",
-            "n" : "northsky",
+            "w" : "westsky@zodiac",
+            "e" : "eastsky@zodiac",
+            "u" : "lost1@zodiac",
+            "n" : "northsky@zodiac",
             "d" : "top_west@cave",
-            "s" : "southsky"
+            "s" : "southsky@zodiac"
          },
          "flags" : [
             "NoMobiles"
@@ -1266,11 +1266,11 @@
       },
       "eastsky@zodiac" : {
          "exits" : {
-            "w" : "amgstars",
-            "e" : "eastend",
-            "u" : "lost1",
-            "n" : "neastsky",
-            "s" : "seastsky"
+            "w" : "amgstars@zodiac",
+            "e" : "eastend@zodiac",
+            "u" : "lost1@zodiac",
+            "n" : "neastsky@zodiac",
+            "s" : "seastsky@zodiac"
          },
          "flags" : [],
          "zone" : "zodiac",
@@ -1289,7 +1289,7 @@
             "NegFireball"
          ],
          "damage" : "25",
-         "location" : "gemini",
+         "location" : "gemini@zodiac",
          "armor" : "10",
          "name" : "Gemini2",
          "examine" : "",
@@ -1313,7 +1313,7 @@
             "NegMissile"
          ],
          "damage" : "25",
-         "location" : "sagittarius",
+         "location" : "sagittarius@zodiac",
          "armor" : "5",
          "name" : "Sagittarius",
          "examine" : "",
@@ -1331,7 +1331,7 @@
             "Frost"
          ],
          "damage" : "30",
-         "location" : "scorpio",
+         "location" : "scorpio@zodiac",
          "armor" : "0",
          "name" : "Scorpio",
          "examine" : "",
@@ -1353,7 +1353,7 @@
             "NegFireball"
          ],
          "damage" : "20",
-         "location" : "libra",
+         "location" : "libra@zodiac",
          "armor" : "10",
          "name" : "Libra",
          "examine" : "",
@@ -1374,7 +1374,7 @@
             "NegShock"
          ],
          "damage" : "35",
-         "location" : "taurus",
+         "location" : "taurus@zodiac",
          "armor" : "5",
          "name" : "Taurus",
          "examine" : "",
@@ -1395,7 +1395,7 @@
             "NegFireball"
          ],
          "damage" : "20",
-         "location" : "aquarius",
+         "location" : "aquarius@zodiac",
          "armor" : "20",
          "name" : "Aquarius",
          "examine" : "",
@@ -1419,7 +1419,7 @@
             "NegMissile"
          ],
          "damage" : "30",
-         "location" : "aries",
+         "location" : "aries@zodiac",
          "armor" : "15",
          "name" : "Aries",
          "examine" : "",
@@ -1440,7 +1440,7 @@
             "NegFireball"
          ],
          "damage" : "25",
-         "location" : "gemini",
+         "location" : "gemini@zodiac",
          "armor" : "10",
          "name" : "Gemini1",
          "examine" : "",
@@ -1458,7 +1458,7 @@
       },
       "eternity@zodiac" : {
          "damage" : "5",
-         "location" : "void",
+         "location" : "void@zodiac",
          "armor" : "10",
          "name" : "Eternity",
          "examine" : "\nNothing could possibly confuse you more than seeing everything at once.",
@@ -1480,7 +1480,7 @@
             "NegShock"
          ],
          "damage" : "20",
-         "location" : "capricorn",
+         "location" : "capricorn@zodiac",
          "armor" : "20",
          "name" : "Capricorn",
          "examine" : "",
@@ -1495,7 +1495,7 @@
       },
       "nightwing@zodiac" : {
          "damage" : "20",
-         "location" : "lost1",
+         "location" : "lost1@zodiac",
          "armor" : "10",
          "name" : "Nightwing",
          "examine" : "She is the master of this place.",
@@ -1525,7 +1525,7 @@
             "NegShock"
          ],
          "damage" : "20",
-         "location" : "virgo",
+         "location" : "virgo@zodiac",
          "armor" : "15",
          "name" : "Virgo",
          "examine" : "",
@@ -1543,7 +1543,7 @@
       },
       "hellhound@zodiac" : {
          "damage" : "30",
-         "location" : "lost4",
+         "location" : "lost4@zodiac",
          "armor" : "15",
          "name" : "Hellhound",
          "examine" : "\nHe is pure white with the exception of pink staining around his jaw.",
@@ -1558,7 +1558,7 @@
       },
       "infinity@zodiac" : {
          "damage" : "20",
-         "location" : "void",
+         "location" : "void@zodiac",
          "armor" : "0",
          "name" : "Infinity",
          "examine" : "\nLooking into him, you see everything that has existed and all that will,\nunfortunately, it is far too much for you to comprehend.",
@@ -1580,7 +1580,7 @@
             "NegMissile"
          ],
          "damage" : "25",
-         "location" : "leo",
+         "location" : "leo@zodiac",
          "armor" : "10",
          "name" : "Leo",
          "examine" : "",
@@ -1601,7 +1601,7 @@
             "NegMissile"
          ],
          "damage" : "30",
-         "location" : "cancer",
+         "location" : "cancer@zodiac",
          "armor" : "13",
          "name" : "Cancer",
          "examine" : "",

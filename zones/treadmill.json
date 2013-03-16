@@ -1,7 +1,7 @@
 {
    "obj" : {
       "beret@treadmill" : {
-         "location" : "WORN_BY:Serpentina",
+         "location" : "WORN_BY:serpentina@treadmill",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -18,7 +18,7 @@
          ]
       },
       "briefcase@treadmill" : {
-         "location" : "CARRIED_BY:lawyer",
+         "location" : "CARRIED_BY:lawyer@treadmill",
          "oflags" : [
             "Container"
          ],
@@ -29,7 +29,7 @@
          "size" : "20"
       },
       "donut@treadmill" : {
-         "location" : "CARRIED_BY:badcop",
+         "location" : "CARRIED_BY:badcop@treadmill",
          "weight" : "1",
          "oflags" : [
             "Food"
@@ -42,7 +42,7 @@
       },
       "blade@treadmill" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:Maniac",
+         "location" : "WIELDED_BY:maniac@treadmill",
          "oflags" : [
             "Weapon"
          ],
@@ -56,7 +56,7 @@
       },
       "falchion@treadmill" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:Demwitt",
+         "location" : "WIELDED_BY:demwitt@treadmill",
          "oflags" : [
             "Weapon"
          ],
@@ -68,7 +68,7 @@
          "desc[0]" : "A well swung and hacked up falchion has been left here."
       },
       "papers@treadmill" : {
-         "location" : "IN_CONTAINER:briefcase",
+         "location" : "IN_CONTAINER:briefcase@treadmill",
          "oflags" : "{ }",
          "name" : "papers",
          "examine" : "\nIt contains a litonity of reasons why the devil has earned great merit in \nthe world and he should be released immeadiately.  You hope no judge will \nbe stupid enough to grant such clemency.",
@@ -94,16 +94,16 @@
       },
       "tread1@treadmill" : {
          "exits" : {
-            "ne" : "tread8",
-            "e" : "tread3",
-            "w" : "tread2",
-            "n" : "tread1",
-            "sw" : "tread9",
-            "d" : "tread6",
-            "s" : "tread4",
-            "u" : "tread5",
-            "se" : "tread10",
-            "nw" : "tread7"
+            "ne" : "tread8@treadmill",
+            "e" : "tread3@treadmill",
+            "w" : "tread2@treadmill",
+            "n" : "tread1@treadmill",
+            "sw" : "tread9@treadmill",
+            "d" : "tread6@treadmill",
+            "s" : "tread4@treadmill",
+            "u" : "tread5@treadmill",
+            "se" : "tread10@treadmill",
+            "nw" : "tread7@treadmill"
          },
          "flags" : [
             "Maze"
@@ -116,16 +116,16 @@
       },
       "tread5@treadmill" : {
          "exits" : {
-            "ne" : "tread8",
-            "e" : "tread3",
-            "w" : "tread2",
-            "n" : "tread1",
-            "sw" : "tread9",
-            "d" : "tread6",
-            "s" : "tread4",
-            "u" : "tread5",
-            "se" : "tread10",
-            "nw" : "tread7"
+            "ne" : "tread8@treadmill",
+            "e" : "tread3@treadmill",
+            "w" : "tread2@treadmill",
+            "n" : "tread1@treadmill",
+            "sw" : "tread9@treadmill",
+            "d" : "tread6@treadmill",
+            "s" : "tread4@treadmill",
+            "u" : "tread5@treadmill",
+            "se" : "tread10@treadmill",
+            "nw" : "tread7@treadmill"
          },
          "flags" : [
             "Maze"
@@ -138,16 +138,16 @@
       },
       "tread8@treadmill" : {
          "exits" : {
-            "ne" : "tread8",
-            "e" : "tread3",
-            "w" : "tread2",
-            "n" : "tread1",
-            "sw" : "tread9",
-            "d" : "tread6",
-            "s" : "tread4",
-            "u" : "tread5",
-            "se" : "tread10",
-            "nw" : "tread7"
+            "ne" : "tread8@treadmill",
+            "e" : "tread3@treadmill",
+            "w" : "tread2@treadmill",
+            "n" : "tread1@treadmill",
+            "sw" : "tread9@treadmill",
+            "d" : "tread6@treadmill",
+            "s" : "tread4@treadmill",
+            "u" : "tread5@treadmill",
+            "se" : "tread10@treadmill",
+            "nw" : "tread7@treadmill"
          },
          "flags" : [
             "Maze"
@@ -161,14 +161,14 @@
       "tread11@treadmill" : {
          "exits" : {
             "ne" : "pentacle@blizzard",
-            "e" : "tread14",
-            "w" : "tread13",
-            "n" : "tread12",
+            "e" : "tread14@treadmill",
+            "w" : "tread13@treadmill",
+            "n" : "tread12@treadmill",
             "sw" : "circle@moor",
-            "d" : "tread17",
-            "s" : "tread15",
-            "u" : "tread16",
-            "nw" : "tread18"
+            "d" : "tread17@treadmill",
+            "s" : "tread15@treadmill",
+            "u" : "tread16@treadmill",
+            "nw" : "tread18@treadmill"
          },
          "flags" : [
             "Maze"
@@ -181,16 +181,16 @@
       },
       "tread4@treadmill" : {
          "exits" : {
-            "ne" : "tread8",
-            "e" : "tread3",
-            "w" : "tread2",
-            "n" : "tread1",
-            "sw" : "tread9",
-            "d" : "tread6",
-            "s" : "tread4",
-            "u" : "tread5",
-            "se" : "tread10",
-            "nw" : "tread7"
+            "ne" : "tread8@treadmill",
+            "e" : "tread3@treadmill",
+            "w" : "tread2@treadmill",
+            "n" : "tread1@treadmill",
+            "sw" : "tread9@treadmill",
+            "d" : "tread6@treadmill",
+            "s" : "tread4@treadmill",
+            "u" : "tread5@treadmill",
+            "se" : "tread10@treadmill",
+            "nw" : "tread7@treadmill"
          },
          "flags" : [
             "Maze"
@@ -203,7 +203,7 @@
       },
       "tread16@treadmill" : {
          "exits" : {
-            "w" : "Lagoon@eastcoast"
+            "w" : "lagoon@eastcoast"
          },
          "flags" : [
             "Peaceful",
@@ -217,16 +217,16 @@
       },
       "tread10@treadmill" : {
          "exits" : {
-            "ne" : "tread8",
-            "e" : "tread3",
-            "w" : "tread2",
-            "n" : "tread1",
-            "sw" : "tread9",
-            "d" : "tread11",
-            "s" : "tread4",
-            "u" : "tread5",
-            "se" : "tread10",
-            "nw" : "tread7"
+            "ne" : "tread8@treadmill",
+            "e" : "tread3@treadmill",
+            "w" : "tread2@treadmill",
+            "n" : "tread1@treadmill",
+            "sw" : "tread9@treadmill",
+            "d" : "tread11@treadmill",
+            "s" : "tread4@treadmill",
+            "u" : "tread5@treadmill",
+            "se" : "tread10@treadmill",
+            "nw" : "tread7@treadmill"
          },
          "flags" : [
             "Maze"
@@ -239,16 +239,16 @@
       },
       "tread2@treadmill" : {
          "exits" : {
-            "ne" : "tread8",
-            "e" : "tread3",
-            "w" : "tread2",
-            "n" : "tread1",
-            "sw" : "tread9",
-            "d" : "tread6",
-            "s" : "tread4",
-            "u" : "tread5",
-            "se" : "tread10",
-            "nw" : "tread7"
+            "ne" : "tread8@treadmill",
+            "e" : "tread3@treadmill",
+            "w" : "tread2@treadmill",
+            "n" : "tread1@treadmill",
+            "sw" : "tread9@treadmill",
+            "d" : "tread6@treadmill",
+            "s" : "tread4@treadmill",
+            "u" : "tread5@treadmill",
+            "se" : "tread10@treadmill",
+            "nw" : "tread7@treadmill"
          },
          "flags" : [
             "Maze"
@@ -261,16 +261,16 @@
       },
       "tread3@treadmill" : {
          "exits" : {
-            "ne" : "tread8",
-            "e" : "tread3",
-            "w" : "tread2",
-            "n" : "tread1",
-            "sw" : "tread9",
-            "d" : "tread6",
-            "s" : "tread4",
-            "u" : "tread5",
-            "se" : "tread10",
-            "nw" : "tread7"
+            "ne" : "tread8@treadmill",
+            "e" : "tread3@treadmill",
+            "w" : "tread2@treadmill",
+            "n" : "tread1@treadmill",
+            "sw" : "tread9@treadmill",
+            "d" : "tread6@treadmill",
+            "s" : "tread4@treadmill",
+            "u" : "tread5@treadmill",
+            "se" : "tread10@treadmill",
+            "nw" : "tread7@treadmill"
          },
          "flags" : [
             "Maze"
@@ -297,16 +297,16 @@
       },
       "tread6@treadmill" : {
          "exits" : {
-            "ne" : "tread8",
-            "e" : "tread3",
-            "w" : "tread2",
-            "n" : "tread1",
-            "sw" : "tread9",
-            "d" : "tread6",
-            "s" : "tread4",
-            "u" : "tread5",
-            "se" : "tread10",
-            "nw" : "tread7"
+            "ne" : "tread8@treadmill",
+            "e" : "tread3@treadmill",
+            "w" : "tread2@treadmill",
+            "n" : "tread1@treadmill",
+            "sw" : "tread9@treadmill",
+            "d" : "tread6@treadmill",
+            "s" : "tread4@treadmill",
+            "u" : "tread5@treadmill",
+            "se" : "tread10@treadmill",
+            "nw" : "tread7@treadmill"
          },
          "flags" : [
             "Maze"
@@ -319,16 +319,16 @@
       },
       "tread7@treadmill" : {
          "exits" : {
-            "ne" : "tread8",
-            "e" : "tread3",
-            "w" : "tread2",
-            "n" : "tread1",
-            "sw" : "tread9",
-            "d" : "tread6",
-            "s" : "tread4",
-            "u" : "tread5",
-            "se" : "tread10",
-            "nw" : "tread7"
+            "ne" : "tread8@treadmill",
+            "e" : "tread3@treadmill",
+            "w" : "tread2@treadmill",
+            "n" : "tread1@treadmill",
+            "sw" : "tread9@treadmill",
+            "d" : "tread6@treadmill",
+            "s" : "tread4@treadmill",
+            "u" : "tread5@treadmill",
+            "se" : "tread10@treadmill",
+            "nw" : "tread7@treadmill"
          },
          "flags" : [
             "Maze"
@@ -341,7 +341,7 @@
       },
       "tread12@treadmill" : {
          "exits" : {
-            "e" : "F2@forest"
+            "e" : "f2@forest"
          },
          "flags" : [
             "Peaceful",
@@ -355,16 +355,16 @@
       },
       "tread9@treadmill" : {
          "exits" : {
-            "ne" : "tread8",
-            "e" : "tread3",
-            "w" : "tread2",
-            "n" : "tread1",
-            "sw" : "tread9",
-            "d" : "tread6",
-            "s" : "tread4",
-            "u" : "tread5",
-            "se" : "tread10",
-            "nw" : "tread7"
+            "ne" : "tread8@treadmill",
+            "e" : "tread3@treadmill",
+            "w" : "tread2@treadmill",
+            "n" : "tread1@treadmill",
+            "sw" : "tread9@treadmill",
+            "d" : "tread6@treadmill",
+            "s" : "tread4@treadmill",
+            "u" : "tread5@treadmill",
+            "se" : "tread10@treadmill",
+            "nw" : "tread7@treadmill"
          },
          "flags" : [
             "Maze"
@@ -377,7 +377,7 @@
       },
       "tread17@treadmill" : {
          "exits" : {
-            "e" : "Nibelung8@nibelung"
+            "e" : "nibelung8@nibelung"
          },
          "flags" : [
             "Peaceful",
@@ -421,7 +421,7 @@
    "mob" : {
       "goofball@treadmill" : {
          "damage" : "8",
-         "location" : "tread5",
+         "location" : "tread5@treadmill",
          "name" : "Goofball",
          "examine" : "'YOU WILL ALL DIE!  DEATH TO THE WORLD!!!' he screams.  Kill him.",
          "description" : "A total goofball terrorist is here, looking for someone to terrorize.",
@@ -433,7 +433,7 @@
       },
       "serpentina@treadmill" : {
          "damage" : "6",
-         "location" : "tread2",
+         "location" : "tread2@treadmill",
          "speed" : "1",
          "name" : "Serpentina",
          "examine" : "\nSenators, congressmen, mayors, governors, presidents, it doesn't matter, \nthis demonic being wants to destroy leaders by making them adulters.\nYou happen to notice the lower half of her body looks like a snake.",
@@ -442,7 +442,7 @@
       },
       "visitant@treadmill" : {
          "damage" : "6",
-         "location" : "tread5",
+         "location" : "tread5@treadmill",
          "speed" : "2",
          "name" : "Visitant",
          "examine" : "\nYou detect a supernatural being looming near you, an unwelcome guest.",
@@ -454,7 +454,7 @@
       },
       "crashd@treadmill" : {
          "damage" : "6",
-         "location" : "tread1",
+         "location" : "tread1@treadmill",
          "speed" : "1",
          "name" : "Crashd",
          "examine" : "\nHe causes too many wrecks, yet figured out how to crash his way out of hell.",
@@ -463,7 +463,7 @@
       },
       "joe@treadmill" : {
          "damage" : "7",
-         "location" : "tread1",
+         "location" : "tread1@treadmill",
          "speed" : "1",
          "pname" : "Joe",
          "name" : "Joe",
@@ -473,7 +473,7 @@
       },
       "lawyer@treadmill" : {
          "damage" : "6",
-         "location" : "tread1",
+         "location" : "tread1@treadmill",
          "speed" : "1",
          "pname" : "Devil's Advocate",
          "name" : "lawyer",
@@ -484,7 +484,7 @@
       "kleptomaniac@treadmill" : {
          "wimpy" : "25",
          "damage" : "5",
-         "location" : "tread7",
+         "location" : "tread7@treadmill",
          "speed" : "1",
          "name" : "Kleptomaniac",
          "examine" : "\nHe's a rich man, yet despite his wealth, he has to fulfill his impulses to\nsteal.  Watch out, he's already digging in your pockets!",
@@ -500,7 +500,7 @@
       },
       "lagmonster@treadmill" : {
          "damage" : "6",
-         "location" : "tread1",
+         "location" : "tread1@treadmill",
          "speed" : "1",
          "name" : "Lagmonster",
          "description" : "The hideous Lagmonster is here, trying to slow you down to a stop!",
@@ -508,7 +508,7 @@
       },
       "bursar@treadmill" : {
          "damage" : "6",
-         "location" : "tread8",
+         "location" : "tread8@treadmill",
          "speed" : "1",
          "pname" : "The Bursar",
          "name" : "bursar",
@@ -518,7 +518,7 @@
       },
       "badcop@treadmill" : {
          "damage" : "7",
-         "location" : "tread8",
+         "location" : "tread8@treadmill",
          "speed" : "1",
          "pname" : "The Bad Cop",
          "name" : "badcop",
@@ -529,7 +529,7 @@
       "idiot@treadmill" : {
          "wimpy" : "25",
          "damage" : "8",
-         "location" : "tread7",
+         "location" : "tread7@treadmill",
          "speed" : "1",
          "pname" : "The Babbling Idiot",
          "name" : "idiot",
@@ -539,7 +539,7 @@
       },
       "wacko@treadmill" : {
          "damage" : "8",
-         "location" : "tread3",
+         "location" : "tread3@treadmill",
          "name" : "Wacko",
          "examine" : "\nThe stupid man jumps around cackling loudly stabbing everyone in sight.  \nPLEASE PLEASE impale the punk!",
          "description" : "The terrorist Wacko is here, acting like a complete wacko.",
@@ -554,7 +554,7 @@
             "ImmCripple"
          ],
          "damage" : "6",
-         "location" : "tread2",
+         "location" : "tread2@treadmill",
          "speed" : "99",
          "name" : "Speed",
          "examine" : "All you see is a blur.  He was condemned for getting too many speeding tickets.",
@@ -563,7 +563,7 @@
       },
       "greek@treadmill" : {
          "damage" : "7",
-         "location" : "tread8",
+         "location" : "tread8@treadmill",
          "speed" : "1",
          "aggression" : "50",
          "pname" : "The Greek",
@@ -574,7 +574,7 @@
       },
       "xiphoid@treadmill" : {
          "damage" : "13",
-         "location" : "tread4",
+         "location" : "tread4@treadmill",
          "speed" : "2",
          "name" : "Xiphoid",
          "examine" : "\nEgad!  It's a living sword!  It's inconceivable such a thing could exist\nin this world, it must be truly demonic.",
@@ -586,7 +586,7 @@
       },
       "linkdeath@treadmill" : {
          "damage" : "8",
-         "location" : "tread1",
+         "location" : "tread1@treadmill",
          "speed" : "5",
          "name" : "Linkdeath",
          "description" : "The hideous Linkdeath is here, with a torn off cord in his hand.",
@@ -595,7 +595,7 @@
       "zerocks@treadmill" : {
          "wimpy" : "25",
          "damage" : "7",
-         "location" : "tread3",
+         "location" : "tread3@treadmill",
          "speed" : "2",
          "name" : "Zerocks",
          "examine" : "\nZerocks is nothing more than a copycat.  He mirrors all your activities,\nand doesn't come up with anything original.  Someone ought to name a\ncompany after him.\n",
@@ -604,7 +604,7 @@
       },
       "horseman@treadmill" : {
          "damage" : "10",
-         "location" : "tread3",
+         "location" : "tread3@treadmill",
          "name" : "Horseman",
          "examine" : "It's headless all right!  Yours would fit nicely on his torso.",
          "description" : "&+RGalloping toward you on horseback...someone with a pumpkin on his head\n&+Rdraws his sword to chop your head off!",
@@ -618,7 +618,7 @@
       },
       "lamebrain@treadmill" : {
          "damage" : "8",
-         "location" : "tread4",
+         "location" : "tread4@treadmill",
          "name" : "Lamebrain",
          "examine" : "\nHe yells at you to don a turbin or a full-body covering veil...or else!\nYou are an infadel...and you must die!",
          "description" : "Another lamebrain terrorist is here, screaming his fanatical rhetoric.",
@@ -630,7 +630,7 @@
       },
       "maniac@treadmill" : {
          "damage" : "8",
-         "location" : "tread6",
+         "location" : "tread6@treadmill",
          "name" : "Maniac",
          "examine" : "He dances in front of you with a blood stained blade laughing maniacially.\nHe's ready to stain it further with YOUR blood!  Terminate with extreme prejudice.",
          "description" : "A maniacal cold-blooded killer has come to spread terror all over the world.",
@@ -642,7 +642,7 @@
       },
       "demwitt@treadmill" : {
          "damage" : "8",
-         "location" : "tread1",
+         "location" : "tread1@treadmill",
          "name" : "Demwitt",
          "examine" : "\nThis evil man strives to keep you awake at night and cower in fear.\nMake him regret it.",
          "description" : "Demwitt the terrorist is here, looking to skewer you with a sword.",
@@ -654,7 +654,7 @@
       },
       "madman@treadmill" : {
          "damage" : "8",
-         "location" : "tread2",
+         "location" : "tread2@treadmill",
          "name" : "Madman",
          "examine" : "\nHe's so angry at the world that he could just EXPLODE!  Instead he tries to \nblast you to smithereens!",
          "description" : "Madman the terrorist is here, lighting bombs behind your shoes.",

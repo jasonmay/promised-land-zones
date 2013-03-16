@@ -2,7 +2,7 @@
    "obj" : {
       "headdress@heaven" : {
          "desc[1]" : "A headdress has been left here.",
-         "location" : "IN_ROOM:Heaven29",
+         "location" : "IN_ROOM:heaven29@heaven",
          "oflags" : [
             "Wearable"
          ],
@@ -21,7 +21,7 @@
       },
       "ark@heaven" : {
          "desc[1]" : "The Ark of the Covenant is here.",
-         "location" : "IN_ROOM:Heaven3",
+         "location" : "IN_ROOM:heaven3@heaven",
          "oflags" : [
             "Openable",
             "Container"
@@ -37,7 +37,7 @@
          "desc[0]" : "The Ark of the Covenant is open."
       },
       "tablet@heaven" : {
-         "location" : "IN_CONTAINER:ark",
+         "location" : "IN_CONTAINER:ark@heaven",
          "oflags" : "{ }",
          "altname" : "tablets",
          "name" : "tablet",
@@ -49,7 +49,7 @@
       },
       "mjolnir@heaven" : {
          "damage" : "30",
-         "location" : "WIELDED_BY:Thorr",
+         "location" : "WIELDED_BY:thorr@heaven",
          "oflags" : [
             "Weapon"
          ],
@@ -62,7 +62,7 @@
       },
       "vase@heaven" : {
          "desc[1]" : "A vase made of ice has been set on a pedestal.",
-         "location" : "IN_ROOM:Shrine@icecave",
+         "location" : "IN_ROOM:shrine@icecave",
          "oflags" : [
             "GetFlips"
          ],
@@ -78,7 +78,7 @@
       },
       "axe@heaven" : {
          "damage" : "23",
-         "location" : "WIELDED_BY:Olaf",
+         "location" : "WIELDED_BY:olaf@heaven",
          "oflags" : [
             "Weapon"
          ],
@@ -91,7 +91,7 @@
       },
       "watermelon@heaven" : {
          "desc[1]" : "A watermelon hangs temptingly from the Tree of Knowledge.",
-         "location" : "IN_ROOM:Heaven6",
+         "location" : "IN_ROOM:heaven6@heaven",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -105,7 +105,7 @@
       },
       "bow@heaven" : {
          "desc[1]" : "A silver bow rests here",
-         "location" : "IN_ROOM:Heaven32",
+         "location" : "IN_ROOM:heaven32@heaven",
          "oflags" : "{ }",
          "altname" : "bow",
          "name" : "bow",
@@ -116,7 +116,7 @@
       },
       "medicine@heaven" : {
          "desc[1]" : "A medicine bag hangs suspended from a tree.",
-         "location" : "IN_ROOM:Heaven34",
+         "location" : "IN_ROOM:heaven34@heaven",
          "oflags" : [
             "GetFlips"
          ],
@@ -131,7 +131,7 @@
       },
       "arrow@heaven" : {
          "desc[1]" : "A silver arrow sticks up out of the ground.",
-         "location" : "IN_ROOM:Heaven31",
+         "location" : "IN_ROOM:heaven31@heaven",
          "oflags" : [
             "DamageSpell"
          ],
@@ -144,7 +144,7 @@
          "desc[0]" : "A silver arrow sticks up out of the ground."
       },
       "rainbow@heaven" : {
-         "location" : "IN_ROOM:Heaven7",
+         "location" : "IN_ROOM:heaven7@heaven",
          "oflags" : [
             "NoGet"
          ],
@@ -155,7 +155,7 @@
          "size" : "0"
       },
       "horned_helm@heaven" : {
-         "location" : "WORN_BY:Olaf",
+         "location" : "WORN_BY:olaf@heaven",
          "armor" : "56",
          "oflags" : [
             "Wearable",
@@ -174,7 +174,7 @@
          ]
       },
       "volume@heaven" : {
-         "location" : "IN_ROOM:heaven26",
+         "location" : "IN_ROOM:heaven26@heaven",
          "oflags" : [
             "Noget"
          ],
@@ -188,7 +188,7 @@
       },
       "eagle@heaven" : {
          "desc[1]" : "An eagle feather is drifting down from the sky.",
-         "location" : "IN_ROOM:Heaven30",
+         "location" : "IN_ROOM:heaven30@heaven",
          "oflags" : [
             "Wearable",
             "GetFlips"
@@ -209,10 +209,10 @@
    "loc" : {
       "heaven10@heaven" : {
          "exits" : {
-            "w" : "Heaven9",
-            "u" : "Heaven11",
-            "n" : "Heaven17",
-            "d" : "Heaven9"
+            "w" : "heaven9@heaven",
+            "u" : "heaven11@heaven",
+            "n" : "heaven17@heaven",
+            "d" : "heaven9@heaven"
          },
          "flags" : [
             "Private",
@@ -226,8 +226,8 @@
       },
       "heaven22@heaven" : {
          "exits" : {
-            "e" : "Heaven21",
-            "n" : "Heaven26"
+            "e" : "heaven21@heaven",
+            "n" : "heaven26@heaven"
          },
          "flags" : [
             "Private"
@@ -240,9 +240,9 @@
       },
       "heaven21@heaven" : {
          "exits" : {
-            "w" : "Heaven22",
-            "e" : "Heaven23",
-            "s" : "Heaven20"
+            "w" : "heaven22@heaven",
+            "e" : "heaven23@heaven",
+            "s" : "heaven20@heaven"
          },
          "flags" : [
             "Private"
@@ -255,10 +255,10 @@
       },
       "heaven8@heaven" : {
          "exits" : {
-            "w" : "Heaven7",
-            "u" : "Heaven12",
-            "n" : "Heaven12",
-            "d" : "Heaven7"
+            "w" : "heaven7@heaven",
+            "u" : "heaven12@heaven",
+            "n" : "heaven12@heaven",
+            "d" : "heaven7@heaven"
          },
          "flags" : [
             "Private"
@@ -271,11 +271,11 @@
       },
       "heaven6@heaven" : {
          "exits" : {
-            "w" : "Heaven5",
-            "e" : "Heaven7",
-            "u" : "Heaven7",
-            "d" : "Heaven5",
-            "s" : "Heaven16"
+            "w" : "heaven5@heaven",
+            "e" : "heaven7@heaven",
+            "u" : "heaven7@heaven",
+            "d" : "heaven5@heaven",
+            "s" : "heaven16@heaven"
          },
          "flags" : [
             "Private",
@@ -289,9 +289,9 @@
       },
       "heaven34@heaven" : {
          "exits" : {
-            "w" : "Heaven35",
-            "e" : "Heaven33",
-            "s" : "Heaven36"
+            "w" : "heaven35@heaven",
+            "e" : "heaven33@heaven",
+            "s" : "heaven36@heaven"
          },
          "flags" : [
             "Private"
@@ -304,8 +304,8 @@
       },
       "heaven11@heaven" : {
          "exits" : {
-            "u" : "Heaven12",
-            "d" : "Heaven10"
+            "u" : "heaven12@heaven",
+            "d" : "heaven10@heaven"
          },
          "flags" : [
             "Private"
@@ -329,10 +329,10 @@
       },
       "heaven5@heaven" : {
          "exits" : {
-            "w" : "Heaven4",
-            "e" : "Heaven6",
-            "u" : "Heaven3",
-            "d" : "Heaven4"
+            "w" : "heaven4@heaven",
+            "e" : "heaven6@heaven",
+            "u" : "heaven3@heaven",
+            "d" : "heaven4@heaven"
          },
          "flags" : [
             "Private"
@@ -345,9 +345,9 @@
       },
       "heaven25@heaven" : {
          "exits" : {
-            "w" : "Heaven26",
-            "e" : "Heaven24",
-            "n" : "Heaven27"
+            "w" : "heaven26@heaven",
+            "e" : "heaven24@heaven",
+            "n" : "heaven27@heaven"
          },
          "flags" : [
             "Private"
@@ -360,8 +360,8 @@
       },
       "heaven33@heaven" : {
          "exits" : {
-            "w" : "Heaven34",
-            "n" : "Heaven32"
+            "w" : "heaven34@heaven",
+            "n" : "heaven32@heaven"
          },
          "flags" : [
             "Private"
@@ -374,7 +374,7 @@
       },
       "heaven19@heaven" : {
          "exits" : {
-            "n" : "Heaven20"
+            "n" : "heaven20@heaven"
          },
          "flags" : [
             "Private"
@@ -387,8 +387,8 @@
       },
       "heaven9@heaven" : {
          "exits" : {
-            "e" : "Heaven10",
-            "u" : "Heaven10"
+            "e" : "heaven10@heaven",
+            "u" : "heaven10@heaven"
          },
          "flags" : [
             "Private"
@@ -401,7 +401,7 @@
       },
       "heaven28@heaven" : {
          "exits" : {
-            "s" : "Heaven29"
+            "s" : "heaven29@heaven"
          },
          "flags" : [
             "Private"
@@ -414,12 +414,12 @@
       },
       "heaven4@heaven" : {
          "exits" : {
-            "w" : "Heaven3",
-            "e" : "Heaven5",
-            "u" : "Heaven5",
-            "n" : "Heaven9",
-            "d" : "Heaven3",
-            "s" : "Heaven15"
+            "w" : "heaven3@heaven",
+            "e" : "heaven5@heaven",
+            "u" : "heaven5@heaven",
+            "n" : "heaven9@heaven",
+            "d" : "heaven3@heaven",
+            "s" : "heaven15@heaven"
          },
          "flags" : [
             "Private"
@@ -443,9 +443,9 @@
       },
       "heaven7@heaven" : {
          "exits" : {
-            "e" : "Heaven8",
-            "u" : "Heaven8",
-            "d" : "Heaven6"
+            "e" : "heaven8@heaven",
+            "u" : "heaven8@heaven",
+            "d" : "heaven6@heaven"
          },
          "flags" : [
             "Private"
@@ -458,8 +458,8 @@
       },
       "heaven32@heaven" : {
          "exits" : {
-            "w" : "Heaven30",
-            "s" : "Heaven33"
+            "w" : "heaven30@heaven",
+            "s" : "heaven33@heaven"
          },
          "flags" : [
             "Private"
@@ -472,9 +472,9 @@
       },
       "heaven30@heaven" : {
          "exits" : {
-            "w" : "Heaven31",
-            "e" : "Heaven32",
-            "n" : "Heaven29"
+            "w" : "heaven31@heaven",
+            "e" : "heaven32@heaven",
+            "n" : "heaven29@heaven"
          },
          "flags" : [
             "Private"
@@ -498,8 +498,8 @@
       },
       "heaven29@heaven" : {
          "exits" : {
-            "n" : "Heaven28",
-            "s" : "Heaven30"
+            "n" : "heaven28@heaven",
+            "s" : "heaven30@heaven"
          },
          "flags" : [
             "Private"
@@ -512,8 +512,8 @@
       },
       "heaven13@heaven" : {
          "exits" : {
-            "u" : "Heaven14",
-            "d" : "Heaven12"
+            "u" : "heaven14@heaven",
+            "d" : "heaven12@heaven"
          },
          "flags" : [
             "Private"
@@ -526,8 +526,8 @@
       },
       "heaven23@heaven" : {
          "exits" : {
-            "w" : "Heaven21",
-            "n" : "Heaven24"
+            "w" : "heaven21@heaven",
+            "n" : "heaven24@heaven"
          },
          "flags" : [
             "Private"
@@ -551,9 +551,9 @@
       },
       "heaven12@heaven" : {
          "exits" : {
-            "e" : "Heaven18",
-            "u" : "Heaven13",
-            "d" : "Heaven8"
+            "e" : "heaven18@heaven",
+            "u" : "heaven13@heaven",
+            "d" : "heaven8@heaven"
          },
          "flags" : [
             "Private"
@@ -566,8 +566,8 @@
       },
       "heaven3@heaven" : {
          "exits" : {
-            "e" : "Heaven4",
-            "u" : "Heaven4"
+            "e" : "heaven4@heaven",
+            "u" : "heaven4@heaven"
          },
          "flags" : [
             "Private"
@@ -580,12 +580,12 @@
       },
       "heaven37@heaven" : {
          "exits" : {
-            "w" : "Heaven38",
-            "e" : "Heaven38",
-            "u" : "Heaven38",
-            "n" : "Heaven38",
-            "d" : "Heaven38",
-            "s" : "Heaven38"
+            "w" : "heaven38@heaven",
+            "e" : "heaven38@heaven",
+            "u" : "heaven38@heaven",
+            "n" : "heaven38@heaven",
+            "d" : "heaven38@heaven",
+            "s" : "heaven38@heaven"
          },
          "flags" : [
             "OnePerson",
@@ -602,11 +602,11 @@
       },
       "heaven2@heaven" : {
          "exits" : {
-            "w" : "Heaven1",
-            "e" : "Heaven3",
-            "u" : "Heaven3",
-            "n" : "Heaven19",
-            "s" : "Heaven28"
+            "w" : "heaven1@heaven",
+            "e" : "heaven3@heaven",
+            "u" : "heaven3@heaven",
+            "n" : "heaven19@heaven",
+            "s" : "heaven28@heaven"
          },
          "flags" : [
             "Private"
@@ -619,8 +619,8 @@
       },
       "heaven24@heaven" : {
          "exits" : {
-            "w" : "Heaven25",
-            "s" : "Heaven23"
+            "w" : "heaven25@heaven",
+            "s" : "heaven23@heaven"
          },
          "flags" : [
             "Private"
@@ -659,8 +659,8 @@
       },
       "heaven26@heaven" : {
          "exits" : {
-            "e" : "Heaven25",
-            "s" : "Heaven22"
+            "e" : "heaven25@heaven",
+            "s" : "heaven22@heaven"
          },
          "flags" : [
             "Private"
@@ -673,8 +673,8 @@
       },
       "heaven31@heaven" : {
          "exits" : {
-            "e" : "Heaven30",
-            "s" : "Heaven35"
+            "e" : "heaven30@heaven",
+            "s" : "heaven35@heaven"
          },
          "flags" : [
             "Private"
@@ -687,12 +687,12 @@
       },
       "heaven38@heaven" : {
          "exits" : {
-            "w" : "Heaven39",
-            "e" : "Heaven39",
-            "u" : "Heaven39",
-            "n" : "Heaven39",
-            "d" : "Heaven39",
-            "s" : "Heaven39"
+            "w" : "heaven39@heaven",
+            "e" : "heaven39@heaven",
+            "u" : "heaven39@heaven",
+            "n" : "heaven39@heaven",
+            "d" : "heaven39@heaven",
+            "s" : "heaven39@heaven"
          },
          "flags" : [
             "OnePerson",
@@ -709,8 +709,8 @@
       },
       "heaven35@heaven" : {
          "exits" : {
-            "e" : "Heaven34",
-            "n" : "Heaven31"
+            "e" : "heaven34@heaven",
+            "n" : "heaven31@heaven"
          },
          "flags" : [
             "Private"
@@ -723,8 +723,8 @@
       },
       "heaven20@heaven" : {
          "exits" : {
-            "n" : "Heaven21",
-            "s" : "Heaven19"
+            "n" : "heaven21@heaven",
+            "s" : "heaven19@heaven"
          },
          "flags" : [
             "Private"
@@ -759,7 +759,7 @@
       },
       "heaven1@heaven" : {
          "exits" : {
-            "e" : "Heaven2"
+            "e" : "heaven2@heaven"
          },
          "flags" : [
             "Private"
@@ -774,7 +774,7 @@
    "mob" : {
       "olaf@heaven" : {
          "damage" : "15",
-         "location" : "Heaven7",
+         "location" : "heaven7@heaven",
          "armor" : "0",
          "name" : "Olaf",
          "description" : "Saint Olaf shouts 'CONVERT!'",
@@ -792,7 +792,7 @@
       },
       "peter@heaven" : {
          "damage" : "8",
-         "location" : "Heaven1",
+         "location" : "heaven1@heaven",
          "armor" : "0",
          "name" : "Peter",
          "description" : "Saint Peter observes you peacefully.",
@@ -806,7 +806,7 @@
       },
       "thorr@heaven" : {
          "damage" : "20",
-         "location" : "Heaven25",
+         "location" : "heaven25@heaven",
          "armor" : "0",
          "name" : "Thorr",
          "description" : "Thor stands here glaring at Agnes.",
@@ -824,7 +824,7 @@
       },
       "bison@heaven" : {
          "damage" : "12",
-         "location" : "Heaven29",
+         "location" : "heaven29@heaven",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -835,7 +835,7 @@
       },
       "coyote@heaven" : {
          "damage" : "10",
-         "location" : "Heaven34",
+         "location" : "heaven34@heaven",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -846,7 +846,7 @@
       },
       "great@heaven" : {
          "damage" : "12",
-         "location" : "Heaven32",
+         "location" : "heaven32@heaven",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -857,7 +857,7 @@
       },
       "terrance@heaven" : {
          "damage" : "14",
-         "location" : "Heaven23",
+         "location" : "heaven23@heaven",
          "speed" : "0",
          "aggression" : "1",
          "armor" : "0",
@@ -883,7 +883,7 @@
       },
       "giant@heaven" : {
          "damage" : "14",
-         "location" : "Heaven22",
+         "location" : "heaven22@heaven",
          "speed" : "0",
          "aggression" : "2",
          "armor" : "0",
@@ -894,7 +894,7 @@
       },
       "valkyrie@heaven" : {
          "damage" : "35",
-         "location" : "Heaven22",
+         "location" : "heaven22@heaven",
          "armor" : "30",
          "name" : "Valkyrie",
          "description" : "Valkyrie watches you carefully.",
@@ -911,7 +911,7 @@
       },
       "odin@heaven" : {
          "damage" : "22",
-         "location" : "Heaven25",
+         "location" : "heaven25@heaven",
          "armor" : "20",
          "name" : "Odin",
          "description" : "Odin glares at you with his one eye.",
@@ -926,7 +926,7 @@
       },
       "agnes@heaven" : {
          "damage" : "15",
-         "location" : "Heaven25",
+         "location" : "heaven25@heaven",
          "armor" : "0",
          "name" : "Agnes",
          "description" : "Agnes laughs, prepared to meet all of Thor's needs.",
@@ -944,7 +944,7 @@
       },
       "petitioner@heaven" : {
          "damage" : "1",
-         "location" : "Heaven18",
+         "location" : "heaven18@heaven",
          "armor" : "0",
          "name" : "Petitioner",
          "description" : "A newly arrived petitioner floats calmly by.",

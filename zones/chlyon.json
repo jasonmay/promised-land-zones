@@ -1,7 +1,7 @@
 {
    "obj" : {
       "book_diary@chlyon" : {
-         "location" : "IN_ROOM:chlyon18",
+         "location" : "IN_ROOM:chlyon18@chlyon",
          "oflags" : [
             "Destroyed"
          ],
@@ -15,7 +15,7 @@
          "desc[0]" : "Akhalton's diary lies open in front of you."
       },
       "throne@chlyon" : {
-         "location" : "IN_ROOM:chlyon17",
+         "location" : "IN_ROOM:chlyon17@chlyon",
          "oflags" : [
             "Pushtoggle",
             "NoGet"
@@ -29,7 +29,7 @@
       },
       "door_1@chlyon" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:chlyon18",
+         "location" : "IN_ROOM:chlyon18@chlyon",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -45,7 +45,7 @@
       },
       "forge@chlyon" : {
          "desc[1]" : "The Thyreenean forge is closed.",
-         "location" : "IN_ROOM:chlyon20",
+         "location" : "IN_ROOM:chlyon20@chlyon",
          "oflags" : [
             "Lightable",
             "Container",
@@ -62,7 +62,7 @@
       },
       "door_gate@chlyon" : {
          "desc[1]" : "The gate to the north is closed.",
-         "location" : "IN_ROOM:chlyon13",
+         "location" : "IN_ROOM:chlyon13@chlyon",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -78,7 +78,7 @@
          "desc[0]" : "The gate to the north is open."
       },
       "desk@chlyon" : {
-         "location" : "IN_ROOM:chlyon18",
+         "location" : "IN_ROOM:chlyon18@chlyon",
          "oflags" : [
             "NoGet"
          ],
@@ -86,7 +86,7 @@
          "maxstate" : "1"
       },
       "stone_firestone@chlyon" : {
-         "location" : "IN_ROOM:chlyon15",
+         "location" : "IN_ROOM:chlyon15@chlyon",
          "altname" : "stone",
          "name" : "stone_firestone",
          "examine" : "It looks.. strange!\n",
@@ -98,7 +98,7 @@
       },
       "door_gate_1@chlyon" : {
          "desc[1]" : "The gate is closed.",
-         "location" : "IN_ROOM:chlyon15",
+         "location" : "IN_ROOM:chlyon15@chlyon",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -115,7 +115,7 @@
       },
       "door@chlyon" : {
          "desc[1]" : "The door to the west is closed.",
-         "location" : "IN_ROOM:chlyon17",
+         "location" : "IN_ROOM:chlyon17@chlyon",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -146,7 +146,7 @@
          "desc[0]" : "A glowing, two-handed sword has been left here by someone."
       },
       "cake@chlyon" : {
-         "location" : "IN_ROOM:chlyon18",
+         "location" : "IN_ROOM:chlyon18@chlyon",
          "weight" : "7",
          "oflags" : [
             "Food"
@@ -158,7 +158,7 @@
          "size" : "7"
       },
       "blue_pendant@chlyon" : {
-         "location" : "WORN_BY:chimera",
+         "location" : "WORN_BY:chimera@chlyon",
          "oflags" : [
             "Wearable"
          ],
@@ -176,7 +176,7 @@
       },
       "throne_1@chlyon" : {
          "desc[1]" : "The passage north is blocked by what seems to be the back of a throne.",
-         "location" : "IN_ROOM:chlyon25",
+         "location" : "IN_ROOM:chlyon25@chlyon",
          "oflags" : [
             "Pushtoggle",
             "NoGet"
@@ -191,7 +191,7 @@
    "loc" : {
       "chlyon18@chlyon" : {
          "exits" : {
-            "e" : "^door_1"
+            "e" : "^door_1@chlyon"
          },
          "flags" : [
             "Private",
@@ -205,10 +205,10 @@
       },
       "chlyon6@chlyon" : {
          "exits" : {
-            "w" : "chlyon7",
-            "e" : "chlyon6",
-            "n" : "chlyon6",
-            "s" : "chlyon5"
+            "w" : "chlyon7@chlyon",
+            "e" : "chlyon6@chlyon",
+            "n" : "chlyon6@chlyon",
+            "s" : "chlyon5@chlyon"
          },
          "flags" : [
             "Dark"
@@ -221,9 +221,9 @@
       },
       "chlyon2@chlyon" : {
          "exits" : {
-            "w" : "chlyon3",
+            "w" : "chlyon3@chlyon",
             "e" : "cottage1@cottage",
-            "u" : "chlyon1",
+            "u" : "chlyon1@chlyon",
             "n" : "town42@town"
          },
          "flags" : [
@@ -237,8 +237,8 @@
       },
       "chlyon23@chlyon" : {
          "exits" : {
-            "e" : "chlyon24",
-            "d" : "chlyon22"
+            "e" : "chlyon24@chlyon",
+            "d" : "chlyon22@chlyon"
          },
          "flags" : [
             "Outdoors"
@@ -251,10 +251,10 @@
       },
       "chlyon7@chlyon" : {
          "exits" : {
-            "w" : "chlyon6",
-            "e" : "chlyon6",
-            "n" : "chlyon6",
-            "s" : "chlyon8"
+            "w" : "chlyon6@chlyon",
+            "e" : "chlyon6@chlyon",
+            "n" : "chlyon6@chlyon",
+            "s" : "chlyon8@chlyon"
          },
          "flags" : [
             "Dark"
@@ -267,8 +267,8 @@
       },
       "chlyon24@chlyon" : {
          "exits" : {
-            "w" : "chlyon23",
-            "d" : "chlyon27"
+            "w" : "chlyon23@chlyon",
+            "d" : "chlyon27@chlyon"
          },
          "flags" : [
             "Outdoors"
@@ -303,8 +303,8 @@
       },
       "chlyon25@chlyon" : {
          "exits" : {
-            "n" : "^throne_1",
-            "d" : "chlyon26"
+            "n" : "^throne_1@chlyon",
+            "d" : "chlyon26@chlyon"
          },
          "flags" : [
             "Outdoors"
@@ -317,11 +317,11 @@
       },
       "chlyon11@chlyon" : {
          "exits" : {
-            "w" : "chlyon6",
-            "e" : "chlyon6",
-            "n" : "chlyon6",
-            "d" : "chlyon12",
-            "s" : "chlyon6"
+            "w" : "chlyon6@chlyon",
+            "e" : "chlyon6@chlyon",
+            "n" : "chlyon6@chlyon",
+            "d" : "chlyon12@chlyon",
+            "s" : "chlyon6@chlyon"
          },
          "flags" : [
             "Dark"
@@ -334,10 +334,10 @@
       },
       "chlyon9@chlyon" : {
          "exits" : {
-            "w" : "chlyon6",
-            "e" : "chlyon6",
-            "n" : "chlyon10",
-            "s" : "chlyon6"
+            "w" : "chlyon6@chlyon",
+            "e" : "chlyon6@chlyon",
+            "n" : "chlyon10@chlyon",
+            "s" : "chlyon6@chlyon"
          },
          "flags" : [
             "Dark"
@@ -350,8 +350,8 @@
       },
       "chlyon3@chlyon" : {
          "exits" : {
-            "e" : "chlyon2",
-            "u" : "chlyon4"
+            "e" : "chlyon2@chlyon",
+            "u" : "chlyon4@chlyon"
          },
          "flags" : [
             "Outdoors"
@@ -364,9 +364,9 @@
       },
       "chlyon13@chlyon" : {
          "exits" : {
-            "w" : "chlyon14",
-            "n" : "^door_gate",
-            "s" : "chlyon12"
+            "w" : "chlyon14@chlyon",
+            "n" : "^door_gate@chlyon",
+            "s" : "chlyon12@chlyon"
          },
          "flags" : [],
          "zone" : "chlyon",
@@ -377,10 +377,10 @@
       },
       "chlyon8@chlyon" : {
          "exits" : {
-            "w" : "chlyon6",
-            "e" : "chlyon9",
-            "n" : "chlyon6",
-            "s" : "chlyon6"
+            "w" : "chlyon6@chlyon",
+            "e" : "chlyon9@chlyon",
+            "n" : "chlyon6@chlyon",
+            "s" : "chlyon6@chlyon"
          },
          "flags" : [
             "Dark"
@@ -393,10 +393,10 @@
       },
       "chlyon10@chlyon" : {
          "exits" : {
-            "w" : "chlyon6",
-            "e" : "chlyon6",
-            "n" : "chlyon6",
-            "s" : "chlyon11"
+            "w" : "chlyon6@chlyon",
+            "e" : "chlyon6@chlyon",
+            "n" : "chlyon6@chlyon",
+            "s" : "chlyon11@chlyon"
          },
          "flags" : [
             "Dark"
@@ -409,8 +409,8 @@
       },
       "chlyon5@chlyon" : {
          "exits" : {
-            "w" : "chlyon6",
-            "e" : "chlyon4"
+            "w" : "chlyon6@chlyon",
+            "e" : "chlyon4@chlyon"
          },
          "flags" : [],
          "zone" : "chlyon",
@@ -421,9 +421,9 @@
       },
       "chlyon17@chlyon" : {
          "exits" : {
-            "w" : "^door",
-            "n" : "chlyon16",
-            "s" : "^throne"
+            "w" : "^door@chlyon",
+            "n" : "chlyon16@chlyon",
+            "s" : "^throne@chlyon"
          },
          "flags" : [],
          "zone" : "chlyon",
@@ -434,8 +434,8 @@
       },
       "chlyon1@chlyon" : {
          "exits" : {
-            "d" : "chlyon2",
-            "s" : "CliffTop@eastcoast"
+            "d" : "chlyon2@chlyon",
+            "s" : "clifftop@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -448,8 +448,8 @@
       },
       "chlyon21@chlyon" : {
          "exits" : {
-            "u" : "chlyon23",
-            "d" : "chlyon22"
+            "u" : "chlyon23@chlyon",
+            "d" : "chlyon22@chlyon"
          },
          "flags" : [],
          "zone" : "chlyon",
@@ -460,7 +460,7 @@
       },
       "chlyon19@chlyon" : {
          "exits" : {
-            "w" : "chlyon12"
+            "w" : "chlyon12@chlyon"
          },
          "flags" : [],
          "zone" : "chlyon",
@@ -471,8 +471,8 @@
       },
       "chlyon4@chlyon" : {
          "exits" : {
-            "w" : "chlyon5",
-            "d" : "chlyon3"
+            "w" : "chlyon5@chlyon",
+            "d" : "chlyon3@chlyon"
          },
          "flags" : [
             "Outdoors"
@@ -485,8 +485,8 @@
       },
       "chlyon26@chlyon" : {
          "exits" : {
-            "u" : "chlyon25",
-            "d" : "chlyon27"
+            "u" : "chlyon25@chlyon",
+            "d" : "chlyon27@chlyon"
          },
          "flags" : [
             "Outdoors"
@@ -499,7 +499,7 @@
       },
       "chlyon15@chlyon" : {
          "exits" : {
-            "s" : "^door_gate_1"
+            "s" : "^door_gate_1@chlyon"
          },
          "flags" : [
             "Private"
@@ -512,8 +512,8 @@
       },
       "chlyon16@chlyon" : {
          "exits" : {
-            "n" : "chlyon12",
-            "s" : "chlyon17"
+            "n" : "chlyon12@chlyon",
+            "s" : "chlyon17@chlyon"
          },
          "flags" : [],
          "zone" : "chlyon",
@@ -524,10 +524,10 @@
       },
       "chlyon12@chlyon" : {
          "exits" : {
-            "e" : "chlyon19",
-            "u" : "chlyon11",
-            "n" : "chlyon13",
-            "s" : "chlyon16"
+            "e" : "chlyon19@chlyon",
+            "u" : "chlyon11@chlyon",
+            "n" : "chlyon13@chlyon",
+            "s" : "chlyon16@chlyon"
          },
          "flags" : [],
          "zone" : "chlyon",
@@ -538,7 +538,7 @@
       },
       "chlyon20@chlyon" : {
          "exits" : {
-            "u" : "chlyon21"
+            "u" : "chlyon21@chlyon"
          },
          "flags" : [],
          "zone" : "chlyon",
@@ -549,8 +549,8 @@
       },
       "chlyon27@chlyon" : {
          "exits" : {
-            "u" : "chlyon26",
-            "d" : "chlyon3"
+            "u" : "chlyon26@chlyon",
+            "d" : "chlyon3@chlyon"
          },
          "flags" : [
             "Outdoors"
@@ -568,7 +568,7 @@
             "Shock"
          ],
          "damage" : "10",
-         "location" : "chlyon20",
+         "location" : "chlyon20@chlyon",
          "armor" : "0",
          "name" : "akhton",
          "description" : "Akhton, the guardian of the forges is here.. guarding the forges!",
@@ -582,7 +582,7 @@
       },
       "rexx@chlyon" : {
          "damage" : "10",
-         "location" : "chlyon23",
+         "location" : "chlyon23@chlyon",
          "speed" : "0",
          "aggression" : "14",
          "armor" : "0",
@@ -593,7 +593,7 @@
       },
       "ferin@chlyon" : {
          "damage" : "10",
-         "location" : "chlyon13",
+         "location" : "chlyon13@chlyon",
          "speed" : "0",
          "aggression" : "86",
          "armor" : "0",
@@ -604,7 +604,7 @@
       },
       "akhalton@chlyon" : {
          "damage" : "10",
-         "location" : "chlyon17",
+         "location" : "chlyon17@chlyon",
          "speed" : "0",
          "aggression" : "14",
          "armor" : "0",
@@ -615,7 +615,7 @@
       },
       "chimera@chlyon" : {
          "damage" : "10",
-         "location" : "chlyon15",
+         "location" : "chlyon15@chlyon",
          "speed" : "0",
          "aggression" : "87",
          "armor" : "0",
@@ -626,7 +626,7 @@
       },
       "igurd@chlyon" : {
          "damage" : "10",
-         "location" : "chlyon13",
+         "location" : "chlyon13@chlyon",
          "speed" : "0",
          "aggression" : "86",
          "armor" : "0",
@@ -637,7 +637,7 @@
       },
       "ellin@chlyon" : {
          "damage" : "10",
-         "location" : "chlyon23",
+         "location" : "chlyon23@chlyon",
          "speed" : "0",
          "aggression" : "14",
          "armor" : "0",

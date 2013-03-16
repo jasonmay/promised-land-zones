@@ -1,7 +1,7 @@
 {
    "obj" : {
       "sign@newbie" : {
-         "location" : "IN_ROOM:newbie1",
+         "location" : "IN_ROOM:newbie1@newbie",
          "oflags" : [
             "NoGet"
          ],
@@ -11,7 +11,7 @@
          "desc[0]" : "A very important sign reading &+YNote For Experienced Players&N is here."
       },
       "salad@newbie" : {
-         "location" : "IN_ROOM:newbie17",
+         "location" : "IN_ROOM:newbie17@newbie",
          "weight" : "1",
          "oflags" : [
             "Newbie",
@@ -23,7 +23,7 @@
          "size" : "1"
       },
       "pagan@newbie" : {
-         "location" : "IN_ROOM:newbie15",
+         "location" : "IN_ROOM:newbie15@newbie",
          "oflags" : [
             "Noget"
          ],
@@ -34,7 +34,7 @@
          "desc[0]" : "&+GA couple of monks are bowed before this idol."
       },
       "signzone@newbie" : {
-         "location" : "IN_ROOM:newbie9",
+         "location" : "IN_ROOM:newbie9@newbie",
          "oflags" : [
             "Noget"
          ],
@@ -45,7 +45,7 @@
       },
       "club@newbie" : {
          "damage" : "4",
-         "location" : "CARRIED_BY:Troll",
+         "location" : "CARRIED_BY:troll@newbie",
          "oflags" : [
             "Weapon"
          ],
@@ -58,7 +58,7 @@
       },
       "newbietorch@newbie" : {
          "desc[1]" : "There is a &+Ytorch&* here for new players.",
-         "location" : "IN_ROOM:newbie17",
+         "location" : "IN_ROOM:newbie17@newbie",
          "oflags" : [
             "Newbie",
             "Lightable",
@@ -74,7 +74,7 @@
          "desc[0]" : "There is a &+Rlit torch&* for new players here."
       },
       "bulletin@newbie" : {
-         "location" : "IN_ROOM:newbie18",
+         "location" : "IN_ROOM:newbie18@newbie",
          "oflags" : [
             "NoGet"
          ],
@@ -84,7 +84,7 @@
          "desc[0]" : "A bulletin nailed to the wall reads &+RFrobs Policy&*."
       },
       "newbieboat@newbie" : {
-         "location" : "IN_ROOM:newbie9",
+         "location" : "IN_ROOM:newbie9@newbie",
          "oflags" : [
             "Newbie",
             "Boat"
@@ -97,7 +97,7 @@
          "desc[0]" : "&+MA brand new rowing boat is here for the taking."
       },
       "penny@newbie" : {
-         "location" : "IN_ROOM:newbie19",
+         "location" : "IN_ROOM:newbie19@newbie",
          "oflags" : [
             "PitReset"
          ],
@@ -108,7 +108,7 @@
          "desc[0]" : "There's a &+ypenny&* here for you to make a wish with."
       },
       "coffee@newbie" : {
-         "location" : "IN_ROOM:newbie17",
+         "location" : "IN_ROOM:newbie17@newbie",
          "weight" : "1",
          "oflags" : [
             "Newbie",
@@ -120,7 +120,7 @@
          "size" : "1"
       },
       "signact@newbie" : {
-         "location" : "IN_ROOM:newbie4",
+         "location" : "IN_ROOM:newbie4@newbie",
          "oflags" : [
             "NoGet"
          ],
@@ -130,7 +130,7 @@
          "desc[0]" : "&+GThere's a big sign here nailed to a pole that says &+gREAD ME."
       },
       "signobj@newbie" : {
-         "location" : "IN_ROOM:newbie6",
+         "location" : "IN_ROOM:newbie6@newbie",
          "oflags" : [
             "NoGet"
          ],
@@ -140,7 +140,7 @@
          "desc[0]" : "&+GThere's another big sign here that says &+gEXAMINE ME."
       },
       "bodyparts@newbie" : {
-         "location" : "IN_ROOM:newbie8",
+         "location" : "IN_ROOM:newbie8@newbie",
          "oflags" : [
             "Noget"
          ],
@@ -150,7 +150,7 @@
          "desc[0]" : "&+YSome &+Rsevered limbs and bodyparts &+Ylitter the ground here inviting some\n&+Yinvestigation."
       },
       "fountain@newbie" : {
-         "location" : "IN_ROOM:newbie18",
+         "location" : "IN_ROOM:newbie18@newbie",
          "oflags" : [
             "NoGet"
          ],
@@ -160,7 +160,7 @@
       },
       "towel@newbie" : {
          "damage" : "0",
-         "location" : "IN_ROOM:newbie6",
+         "location" : "IN_ROOM:newbie6@newbie",
          "oflags" : [
             "Newbie"
          ],
@@ -176,7 +176,7 @@
       },
       "newsword1@newbie" : {
          "damage" : "20",
-         "location" : "IN_ROOM:newbie7",
+         "location" : "IN_ROOM:newbie7@newbie",
          "oflags" : [
             "Newbie",
             "Weapon"
@@ -190,7 +190,7 @@
          "desc[0]" : "&+gA long sharp sword is propped up against one wall."
       },
       "newarmor1@newbie" : {
-         "location" : "IN_ROOM:newbie7",
+         "location" : "IN_ROOM:newbie7@newbie",
          "oflags" : [
             "Newbie",
             "Wearable",
@@ -214,7 +214,7 @@
          "desc[0]" : "&+GA shiny new suit of armor is lying here."
       },
       "pit@newbie" : {
-         "location" : "IN_ROOM:newbie19",
+         "location" : "IN_ROOM:newbie19@newbie",
          "oflags" : [
             "NoGet"
          ],
@@ -223,7 +223,7 @@
          "desc[0]" : "\n   At your feet a huge sacrificial pit allows you to give valuables to the gods\nin the hope of being rewarded."
       },
       "campfire@newbie" : {
-         "location" : "IN_ROOM:newbie17",
+         "location" : "IN_ROOM:newbie17@newbie",
          "oflags" : [
             "Lit",
             "Noget"
@@ -237,8 +237,8 @@
    "loc" : {
       "newbie11@newbie" : {
          "exits" : {
-            "n" : "newbie15",
-            "s" : "newbie18"
+            "n" : "newbie15@newbie",
+            "s" : "newbie18@newbie"
          },
          "flags" : [
             "newbie"
@@ -251,7 +251,7 @@
       },
       "newbiedead@newbie" : {
          "exits" : {
-            "w" : "newbie3"
+            "w" : "newbie3@newbie"
          },
          "flags" : [
             "newbie",
@@ -265,8 +265,8 @@
       },
       "newbie16@newbie" : {
          "exits" : {
-            "w" : "newbie17",
-            "u" : "newbie9"
+            "w" : "newbie17@newbie",
+            "u" : "newbie9@newbie"
          },
          "flags" : [
             "Onwater",
@@ -281,8 +281,8 @@
       },
       "newbie10@newbie" : {
          "exits" : {
-            "n" : "newbie12",
-            "s" : "newbie9"
+            "n" : "newbie12@newbie",
+            "s" : "newbie9@newbie"
          },
          "flags" : [
             "Newbie",
@@ -296,7 +296,7 @@
       },
       "newbie1@newbie" : {
          "exits" : {
-            "s" : "newbie2"
+            "s" : "newbie2@newbie"
          },
          "flags" : [
             "Newbie",
@@ -310,8 +310,8 @@
       },
       "newbie6@newbie" : {
          "exits" : {
-            "w" : "newbie7",
-            "n" : "newbie5"
+            "w" : "newbie7@newbie",
+            "n" : "newbie5@newbie"
          },
          "flags" : [
             "Newbie"
@@ -324,8 +324,8 @@
       },
       "newbie17@newbie" : {
          "exits" : {
-            "e" : "newbie16",
-            "n" : "newbie10"
+            "e" : "newbie16@newbie",
+            "n" : "newbie10@newbie"
          },
          "flags" : [
             "Peaceful",
@@ -341,7 +341,7 @@
       "newbie18@newbie" : {
          "exits" : {
             "w" : "newbee13@newbee",
-            "n" : "newbie11",
+            "n" : "newbie11@newbie",
             "s" : "palace@icecave"
          },
          "flags" : [],
@@ -353,8 +353,8 @@
       },
       "newbie14@newbie" : {
          "exits" : {
-            "e" : "newbie13",
-            "w" : "newbie15"
+            "e" : "newbie13@newbie",
+            "w" : "newbie15@newbie"
          },
          "flags" : [
             "newbie",
@@ -368,9 +368,9 @@
       },
       "newbie13@newbie" : {
          "exits" : {
-            "w" : "newbie14",
-            "d" : "Icelearn@icecave",
-            "s" : "newbie12"
+            "w" : "newbie14@newbie",
+            "d" : "icelearn@icecave",
+            "s" : "newbie12@newbie"
          },
          "flags" : [
             "Newbie",
@@ -384,8 +384,8 @@
       },
       "newbie8@newbie" : {
          "exits" : {
-            "e" : "newbie19",
-            "w" : "newbie9"
+            "e" : "newbie19@newbie",
+            "w" : "newbie9@newbie"
          },
          "flags" : [
             "Newbie"
@@ -398,9 +398,9 @@
       },
       "newbie3@newbie" : {
          "exits" : {
-            "e" : "newbiedead",
-            "n" : "newbie1",
-            "s" : "newbie4"
+            "e" : "newbiedead@newbie",
+            "n" : "newbie1@newbie",
+            "s" : "newbie4@newbie"
          },
          "flags" : [
             "Newbie",
@@ -414,8 +414,8 @@
       },
       "newbie5@newbie" : {
          "exits" : {
-            "n" : "newbie4",
-            "s" : "newbie6"
+            "n" : "newbie4@newbie",
+            "s" : "newbie6@newbie"
          },
          "flags" : [
             "Newbie",
@@ -429,8 +429,8 @@
       },
       "newbie2@newbie" : {
          "exits" : {
-            "n" : "newbie1",
-            "s" : "newbie3"
+            "n" : "newbie1@newbie",
+            "s" : "newbie3@newbie"
          },
          "flags" : [
             "Newbie",
@@ -444,8 +444,8 @@
       },
       "newbie4@newbie" : {
          "exits" : {
-            "n" : "newbie3",
-            "s" : "newbie5"
+            "n" : "newbie3@newbie",
+            "s" : "newbie5@newbie"
          },
          "flags" : [
             "Newbie",
@@ -459,8 +459,8 @@
       },
       "newbie7@newbie" : {
          "exits" : {
-            "e" : "newbie6",
-            "w" : "newbie19"
+            "e" : "newbie6@newbie",
+            "w" : "newbie19@newbie"
          },
          "flags" : [
             "Newbie"
@@ -473,8 +473,8 @@
       },
       "newbie19@newbie" : {
          "exits" : {
-            "e" : "newbie7",
-            "w" : "newbie8"
+            "e" : "newbie7@newbie",
+            "w" : "newbie8@newbie"
          },
          "flags" : [
             "Peaceful",
@@ -488,8 +488,8 @@
       },
       "newbie15@newbie" : {
          "exits" : {
-            "e" : "newbie14",
-            "s" : "newbie11"
+            "e" : "newbie14@newbie",
+            "s" : "newbie11@newbie"
          },
          "flags" : [
             "newbie",
@@ -503,9 +503,9 @@
       },
       "newbie9@newbie" : {
          "exits" : {
-            "e" : "newbie8",
-            "n" : "newbie10",
-            "d" : "newbie16"
+            "e" : "newbie8@newbie",
+            "n" : "newbie10@newbie",
+            "d" : "newbie16@newbie"
          },
          "flags" : [
             "newbie",
@@ -519,9 +519,9 @@
       },
       "newbie12@newbie" : {
          "exits" : {
-            "n" : "newbie13",
-            "d" : "Villlearn@village",
-            "s" : "newbie10"
+            "n" : "newbie13@newbie",
+            "d" : "villlearn@village",
+            "s" : "newbie10@newbie"
          },
          "flags" : [
             "Newbie",
@@ -537,7 +537,7 @@
    "mob" : {
       "dave@newbie" : {
          "damage" : "0",
-         "location" : "newbie4",
+         "location" : "newbie4@newbie",
          "speed" : "0",
          "armor" : "0",
          "name" : "Dave",
@@ -547,7 +547,7 @@
       },
       "receptionist@newbie" : {
          "damage" : "8",
-         "location" : "newbie1",
+         "location" : "newbie1@newbie",
          "speed" : "0",
          "name" : "Receptionist",
          "examine" : "This woman is here to greet new players and give you tips on getting started.",
@@ -559,7 +559,7 @@
       },
       "troll@newbie" : {
          "damage" : "0",
-         "location" : "newbie8",
+         "location" : "newbie8@newbie",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",

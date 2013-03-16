@@ -9,7 +9,7 @@
          "maxstate" : "3",
          "bvalue" : "0",
          "desc[1]" : "The vault is solidly slammed shut.",
-         "location" : "IN_ROOM:sommerlund36",
+         "location" : "IN_ROOM:sommerlund36@sommerlund",
          "desc[3]" : "The vault is sealed with wax.",
          "name" : "vaultdoor2",
          "oflags" : [
@@ -26,7 +26,7 @@
       "kaidoor2@sommerlund" : {
          "desc[1]" : "The door is solidly slammed shut.",
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund23",
+         "location" : "IN_ROOM:sommerlund23@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet",
@@ -45,7 +45,7 @@
       },
       "dagger@sommerlund" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:vashna",
+         "location" : "WIELDED_BY:vashna@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Weapon"
@@ -63,7 +63,7 @@
       "mortar@sommerlund" : {
          "desc[1]" : "A medium-sized clay bowl lies on a table here.",
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund84",
+         "location" : "IN_ROOM:sommerlund84@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Container",
@@ -83,7 +83,7 @@
       "wheeldoor1@sommerlund" : {
          "desc[1]" : "A rapidly spinning wheel with a person on it stands here.",
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund24",
+         "location" : "IN_ROOM:sommerlund24@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet",
@@ -102,7 +102,7 @@
       },
       "orange@sommerlund" : {
          "damage" : "0",
-         "location" : "CARRIED_BY:fruitcake",
+         "location" : "CARRIED_BY:fruitcake@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Food"
@@ -119,7 +119,7 @@
       },
       "rocksign@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund89",
+         "location" : "IN_ROOM:sommerlund89@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet"
@@ -137,7 +137,7 @@
       "cavedoor1@sommerlund" : {
          "desc[1]" : "The door is solidly slammed shut.",
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund53",
+         "location" : "IN_ROOM:sommerlund53@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet",
@@ -156,7 +156,7 @@
       "flippers@sommerlund" : {
          "desc[1]" : "The seals envy a pair of flippers hich lie on a table here.",
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund38",
+         "location" : "IN_ROOM:sommerlund38@sommerlund",
          "armor" : "18",
          "oflags" : [
             "Wearable",
@@ -178,7 +178,7 @@
       "mask@sommerlund" : {
          "desc[1]" : "A simple, wooden swimmask hangs on a hook.",
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund38",
+         "location" : "IN_ROOM:sommerlund38@sommerlund",
          "armor" : "4",
          "oflags" : [
             "Wearable",
@@ -200,7 +200,7 @@
       },
       "broadsword@sommerlund" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:qinefer",
+         "location" : "WIELDED_BY:qinefer@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Weapon"
@@ -216,7 +216,7 @@
       },
       "moonstone@sommerlund" : {
          "damage" : "0",
-         "location" : "CARRIED_BY:shianti",
+         "location" : "CARRIED_BY:shianti@sommerlund",
          "armor" : "0",
          "altname" : "stone",
          "name" : "moonstone",
@@ -231,7 +231,7 @@
       },
       "egg@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:nest",
+         "location" : "IN_CONTAINER:nest@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Destroyed"
@@ -255,7 +255,7 @@
          "maxstate" : "2",
          "bvalue" : "0",
          "desc[1]" : "The trapdoor is closed.",
-         "location" : "IN_ROOM:sommerlund30",
+         "location" : "IN_ROOM:sommerlund30@sommerlund",
          "name" : "trapdoor2",
          "oflags" : [
             "NoGet",
@@ -270,7 +270,7 @@
       },
       "book@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund84",
+         "location" : "IN_ROOM:sommerlund84@sommerlund",
          "armor" : "0",
          "altname" : "book",
          "name" : "book",
@@ -285,7 +285,7 @@
       },
       "fire@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund86",
+         "location" : "IN_ROOM:sommerlund86@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet",
@@ -302,7 +302,7 @@
          "desc[0]" : "A fire burns madly here."
       },
       "cake@sommerlund" : {
-         "location" : "IN_ROOM:sommerlund59",
+         "location" : "IN_ROOM:sommerlund59@sommerlund",
          "oflags" : [
             "Food"
          ],
@@ -313,7 +313,7 @@
       },
       "aqualung@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund38",
+         "location" : "IN_ROOM:sommerlund38@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Wearable",
@@ -340,7 +340,7 @@
          "maxstate" : "2",
          "bvalue" : "0",
          "desc[1]" : "The trapdoor is closed.",
-         "location" : "IN_ROOM:sommerlund29",
+         "location" : "IN_ROOM:sommerlund29@sommerlund",
          "name" : "trapdoor1",
          "altname" : "door",
          "oflags" : [
@@ -356,7 +356,7 @@
       },
       "chandelier@sommerlund" : {
          "desc[1]" : "A fragile chandelier catches the sun rays and turns them into rainbows.",
-         "location" : "IN_ROOM:sommerlund30",
+         "location" : "IN_ROOM:sommerlund30@sommerlund",
          "oflags" : [
             "NoGet"
          ],
@@ -370,7 +370,7 @@
       "kaidoor1@sommerlund" : {
          "desc[1]" : "The door is solidly slammed shut.",
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund22",
+         "location" : "IN_ROOM:sommerlund22@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet",
@@ -389,7 +389,7 @@
       },
       "banana@sommerlund" : {
          "damage" : "0",
-         "location" : "CARRIED_BY:fruitcake",
+         "location" : "CARRIED_BY:fruitcake@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Food"
@@ -405,7 +405,7 @@
          "desc[0]" : "A tasty-looking banana has been dropped here by Mother Nature."
       },
       "shirt@sommerlund" : {
-         "location" : "CARRIED_BY:slavemaster",
+         "location" : "CARRIED_BY:slavemaster@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Wearable"
@@ -418,7 +418,7 @@
       },
       "lorestone@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund36",
+         "location" : "IN_ROOM:sommerlund36@sommerlund",
          "armor" : "0",
          "altname" : "stone",
          "name" : "lorestone",
@@ -433,7 +433,7 @@
       },
       "grape@sommerlund" : {
          "damage" : "0",
-         "location" : "CARRIED_BY:fruitcake",
+         "location" : "CARRIED_BY:fruitcake@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Food"
@@ -450,7 +450,7 @@
       },
       "sign@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund87",
+         "location" : "IN_ROOM:sommerlund87@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet"
@@ -467,7 +467,7 @@
       },
       "page@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund90",
+         "location" : "IN_ROOM:sommerlund90@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Destroyed"
@@ -492,7 +492,7 @@
          "maxstate" : "3",
          "bvalue" : "0",
          "desc[1]" : "The vault is solidly slammed shut.",
-         "location" : "IN_ROOM:sommerlund35",
+         "location" : "IN_ROOM:sommerlund35@sommerlund",
          "desc[3]" : "The vault is sealed with wax.",
          "name" : "vaultdoor1",
          "oflags" : [
@@ -508,7 +508,7 @@
       },
       "apple@sommerlund" : {
          "damage" : "0",
-         "location" : "CARRIED_BY:fruitcake",
+         "location" : "CARRIED_BY:fruitcake@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Food"
@@ -525,7 +525,7 @@
       },
       "sommershield@sommerlund" : {
          "damage" : "0",
-         "location" : "WORN_BY:lonewolf",
+         "location" : "WORN_BY:lonewolf@sommerlund",
          "armor" : "35",
          "oflags" : [
             "Wearable",
@@ -545,7 +545,7 @@
       },
       "wetsuit@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund38",
+         "location" : "IN_ROOM:sommerlund38@sommerlund",
          "armor" : "10",
          "oflags" : [
             "Wearable",
@@ -569,7 +569,7 @@
       },
       "plaque@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund35",
+         "location" : "IN_ROOM:sommerlund35@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet"
@@ -586,7 +586,7 @@
       },
       "kiwi@sommerlund" : {
          "damage" : "0",
-         "location" : "CARRIED_BY:fruitcake",
+         "location" : "CARRIED_BY:fruitcake@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Food"
@@ -604,7 +604,7 @@
       "coachdoor2@sommerlund" : {
          "desc[1]" : "The door is solidly slammed shut.",
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund26",
+         "location" : "IN_ROOM:sommerlund26@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet",
@@ -624,7 +624,7 @@
       },
       "sommerswerd@sommerlund" : {
          "damage" : "30",
-         "location" : "WIELDED_BY:lonewolf",
+         "location" : "WIELDED_BY:lonewolf@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Weapon",
@@ -641,7 +641,7 @@
       },
       "sommermail@sommerlund" : {
          "damage" : "0",
-         "location" : "WORN_BY:lonewolf",
+         "location" : "WORN_BY:lonewolf@sommerlund",
          "armor" : "35",
          "oflags" : [
             "Wearable",
@@ -664,7 +664,7 @@
       },
       "goldcrown@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:tunic",
+         "location" : "IN_CONTAINER:tunic@sommerlund",
          "armor" : "0",
          "altname" : "coin",
          "name" : "goldcrown",
@@ -679,7 +679,7 @@
       },
       "kai@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund31",
+         "location" : "IN_ROOM:sommerlund31@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Container"
@@ -698,7 +698,7 @@
       "chest@sommerlund" : {
          "desc[1]" : "The chest is closed. Is there a bomb inside?",
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund26",
+         "location" : "IN_ROOM:sommerlund26@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet",
@@ -718,7 +718,7 @@
       },
       "blueberry@sommerlund" : {
          "damage" : "0",
-         "location" : "CARRIED_BY:fruitcake",
+         "location" : "CARRIED_BY:fruitcake@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Food"
@@ -735,7 +735,7 @@
       },
       "star@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:chest",
+         "location" : "IN_CONTAINER:chest@sommerlund",
          "armor" : "7",
          "oflags" : [
             "Wearable",
@@ -757,7 +757,7 @@
       },
       "yacht@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund38",
+         "location" : "IN_ROOM:sommerlund38@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Boat"
@@ -776,7 +776,7 @@
       "labdoor1@sommerlund" : {
          "desc[1]" : "The door is solidly slammed shut.",
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund83",
+         "location" : "IN_ROOM:sommerlund83@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet",
@@ -796,7 +796,7 @@
       },
       "tunic@sommerlund" : {
          "damage" : "0",
-         "location" : "WORN_BY:barraka",
+         "location" : "WORN_BY:barraka@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Wearable",
@@ -815,7 +815,7 @@
       "labdoor2@sommerlund" : {
          "desc[1]" : "The door is solidly slammed shut.",
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund84",
+         "location" : "IN_ROOM:sommerlund84@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet",
@@ -835,7 +835,7 @@
       },
       "nest@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund79",
+         "location" : "IN_ROOM:sommerlund79@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet",
@@ -854,7 +854,7 @@
       "doomstone@sommerlund" : {
          "desc[1]" : "A lump of sand protrudes here.",
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund45",
+         "location" : "IN_ROOM:sommerlund45@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet"
@@ -873,7 +873,7 @@
       "coachdoor1@sommerlund" : {
          "desc[1]" : "The door is solidly slammed shut.",
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund25",
+         "location" : "IN_ROOM:sommerlund25@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet",
@@ -894,7 +894,7 @@
       "wheeldoor2@sommerlund" : {
          "desc[1]" : "The round back of a wheel blocks the passage.",
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund25",
+         "location" : "IN_ROOM:sommerlund25@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet",
@@ -913,7 +913,7 @@
       },
       "deathstaff@sommerlund" : {
          "damage" : "14",
-         "location" : "WIELDED_BY:ixian",
+         "location" : "WIELDED_BY:ixian@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Weapon"
@@ -931,7 +931,7 @@
       },
       "sommerhelm@sommerlund" : {
          "damage" : "0",
-         "location" : "WORN_BY:lonewolf",
+         "location" : "WORN_BY:lonewolf@sommerlund",
          "armor" : "21",
          "oflags" : [
             "Wearable",
@@ -953,7 +953,7 @@
       },
       "discipline@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund90",
+         "location" : "IN_ROOM:sommerlund90@sommerlund",
          "armor" : "0",
          "altname" : "mind",
          "name" : "discipline",
@@ -968,7 +968,7 @@
       },
       "signpost@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund18",
+         "location" : "IN_ROOM:sommerlund18@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet"
@@ -986,7 +986,7 @@
       },
       "triangle@sommerlund" : {
          "damage" : "0",
-         "location" : "CARRIED_BY:qinefer",
+         "location" : "CARRIED_BY:qinefer@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Key"
@@ -1003,7 +1003,7 @@
       },
       "boomer@sommerlund" : {
          "damage" : "1",
-         "location" : "WIELDED_BY:zakhan",
+         "location" : "WIELDED_BY:zakhan@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Weapon"
@@ -1022,7 +1022,7 @@
       "statue@sommerlund" : {
          "desc[1]" : "A nice-sized statue of Naar rests on a circular dais here.",
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund53",
+         "location" : "IN_ROOM:sommerlund53@sommerlund",
          "armor" : "0",
          "oflags" : [
             "GetFlips"
@@ -1040,7 +1040,7 @@
       },
       "stonehands@sommerlund" : {
          "damage" : "0",
-         "location" : "BOTH_BY:organodeath",
+         "location" : "BOTH_BY:organodeath@sommerlund",
          "armor" : "0",
          "oflags" : [
             "Weapon",
@@ -1060,7 +1060,7 @@
       "cavedoor2@sommerlund" : {
          "desc[1]" : "The door is solidly slammed shut.",
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund55",
+         "location" : "IN_ROOM:sommerlund55@sommerlund",
          "armor" : "0",
          "oflags" : [
             "NoGet",
@@ -1078,7 +1078,7 @@
       },
       "banner@sommerlund" : {
          "damage" : "0",
-         "location" : "CARRIED_BY:organodeath",
+         "location" : "CARRIED_BY:organodeath@sommerlund",
          "armor" : "0",
          "name" : "banner",
          "examine" : "Wave me and we both shall fly.",
@@ -1092,7 +1092,7 @@
       },
       "seal@sommerlund" : {
          "damage" : "0",
-         "location" : "IN_ROOM:sommerlund7",
+         "location" : "IN_ROOM:sommerlund7@sommerlund",
          "armor" : "0",
          "name" : "seal",
          "examine" : "It has a small topaz set in the top and is engraved with silver initials \naround it.",
@@ -1108,10 +1108,10 @@
    "loc" : {
       "sommerlund55@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund57",
-            "e" : "sommerlund56",
-            "n" : "^cavedoor2",
-            "s" : "sommerlund58"
+            "w" : "sommerlund57@sommerlund",
+            "e" : "sommerlund56@sommerlund",
+            "n" : "^cavedoor2@sommerlund",
+            "s" : "sommerlund58@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -1122,8 +1122,8 @@
       },
       "sommerlund22@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund21",
-            "s" : "^kaidoor1"
+            "n" : "sommerlund21@sommerlund",
+            "s" : "^kaidoor1@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1136,8 +1136,8 @@
       },
       "sommerlund37@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund9",
-            "e" : "sommerlund38"
+            "w" : "sommerlund9@sommerlund",
+            "e" : "sommerlund38@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1150,8 +1150,8 @@
       },
       "sommerlund29@sommerlund" : {
          "exits" : {
-            "u" : "^trapdoor1",
-            "d" : "sommerlund28"
+            "u" : "^trapdoor1@sommerlund",
+            "d" : "sommerlund28@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -1162,8 +1162,8 @@
       },
       "sommerlund81@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund80",
-            "e" : "sommerlund82"
+            "w" : "sommerlund80@sommerlund",
+            "e" : "sommerlund82@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1176,10 +1176,10 @@
       },
       "sommerlund69@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund60",
-            "e" : "sommerlund60",
-            "n" : "sommerlund60",
-            "s" : "sommerlund70"
+            "w" : "sommerlund60@sommerlund",
+            "e" : "sommerlund60@sommerlund",
+            "n" : "sommerlund60@sommerlund",
+            "s" : "sommerlund70@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -1192,8 +1192,8 @@
       },
       "sommerlund86@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund85",
-            "s" : "sommerlund87"
+            "n" : "sommerlund85@sommerlund",
+            "s" : "sommerlund87@sommerlund"
          },
          "flags" : [
             "Hot"
@@ -1206,8 +1206,8 @@
       },
       "sommerlund17@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund11",
-            "s" : "sommerlund18"
+            "n" : "sommerlund11@sommerlund",
+            "s" : "sommerlund18@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1220,8 +1220,8 @@
       },
       "sommerlund6@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund5",
-            "e" : "sommerlund7"
+            "w" : "sommerlund5@sommerlund",
+            "e" : "sommerlund7@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1234,8 +1234,8 @@
       },
       "sommerlund15@sommerlund" : {
          "exits" : {
-            "d" : "sommerlund14",
-            "s" : "sommerlund16"
+            "d" : "sommerlund14@sommerlund",
+            "s" : "sommerlund16@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -1246,9 +1246,9 @@
       },
       "sommerlund11@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund12",
-            "e" : "sommerlund10",
-            "s" : "sommerlund17"
+            "w" : "sommerlund12@sommerlund",
+            "e" : "sommerlund10@sommerlund",
+            "s" : "sommerlund17@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1261,8 +1261,8 @@
       },
       "sommerlund72@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund70",
-            "s" : "sommerlund73"
+            "n" : "sommerlund70@sommerlund",
+            "s" : "sommerlund73@sommerlund"
          },
          "flags" : [
             "Hot",
@@ -1276,8 +1276,8 @@
       },
       "sommerlund1@sommerlund" : {
          "exits" : {
-            "n" : "desertSD61@sdesert",
-            "s" : "sommerlund2"
+            "n" : "desertsd61@sdesert",
+            "s" : "sommerlund2@sommerlund"
          },
          "flags" : [
             "Outdoors",
@@ -1291,7 +1291,7 @@
       },
       "sommerlund56@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund55"
+            "w" : "sommerlund55@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -1302,7 +1302,7 @@
       },
       "sommerlund59@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund60"
+            "n" : "sommerlund60@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -1313,8 +1313,8 @@
       },
       "sommerlund18@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund19",
-            "n" : "sommerlund17"
+            "w" : "sommerlund19@sommerlund",
+            "n" : "sommerlund17@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1327,7 +1327,7 @@
       },
       "sommerlund36@sommerlund" : {
          "exits" : {
-            "n" : "^vaultdoor2"
+            "n" : "^vaultdoor2@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -1338,10 +1338,10 @@
       },
       "sommerlund9@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund10",
-            "e" : "sommerlund37",
-            "n" : "sommerlund8",
-            "s" : "sommerlund46"
+            "w" : "sommerlund10@sommerlund",
+            "e" : "sommerlund37@sommerlund",
+            "n" : "sommerlund8@sommerlund",
+            "s" : "sommerlund46@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1354,7 +1354,7 @@
       },
       "sommerlund54@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund47"
+            "w" : "sommerlund47@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -1365,8 +1365,8 @@
       },
       "sommerlund13@sommerlund" : {
          "exits" : {
-            "u" : "sommerlund14",
-            "d" : "sommerlund12"
+            "u" : "sommerlund14@sommerlund",
+            "d" : "sommerlund12@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -1377,8 +1377,8 @@
       },
       "sommerlund43@sommerlund" : {
          "exits" : {
-            "e" : "sommerlund44",
-            "n" : "sommerlund41"
+            "e" : "sommerlund44@sommerlund",
+            "n" : "sommerlund41@sommerlund"
          },
          "flags" : [
             "OnWater",
@@ -1392,7 +1392,7 @@
       },
       "sommerlund4@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund3"
+            "w" : "sommerlund3@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -1403,7 +1403,7 @@
       },
       "sommerlund7@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund6"
+            "w" : "sommerlund6@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1416,9 +1416,9 @@
       },
       "sommerlund5@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund8",
-            "e" : "sommerlund6",
-            "n" : "sommerlund3"
+            "w" : "sommerlund8@sommerlund",
+            "e" : "sommerlund6@sommerlund",
+            "n" : "sommerlund3@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1431,8 +1431,8 @@
       },
       "sommerlund8@sommerlund" : {
          "exits" : {
-            "e" : "sommerlund5",
-            "s" : "sommerlund9"
+            "e" : "sommerlund5@sommerlund",
+            "s" : "sommerlund9@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1445,7 +1445,7 @@
       },
       "sommerlund26@sommerlund" : {
          "exits" : {
-            "e" : "^coachdoor2"
+            "e" : "^coachdoor2@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -1456,12 +1456,12 @@
       },
       "sommerlund68@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund60",
-            "e" : "sommerlund60",
-            "u" : "sommerlund71",
-            "n" : "sommerlund60",
-            "d" : "sommerlund69",
-            "s" : "sommerlund60"
+            "w" : "sommerlund60@sommerlund",
+            "e" : "sommerlund60@sommerlund",
+            "u" : "sommerlund71@sommerlund",
+            "n" : "sommerlund60@sommerlund",
+            "d" : "sommerlund69@sommerlund",
+            "s" : "sommerlund60@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -1474,8 +1474,8 @@
       },
       "sommerlund82@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund81",
-            "s" : "sommerlund83"
+            "w" : "sommerlund81@sommerlund",
+            "s" : "sommerlund83@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1488,7 +1488,7 @@
       },
       "sommerlund58@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund55"
+            "n" : "sommerlund55@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -1499,8 +1499,8 @@
       },
       "sommerlund33@sommerlund" : {
          "exits" : {
-            "u" : "sommerlund32",
-            "d" : "sommerlund34"
+            "u" : "sommerlund32@sommerlund",
+            "d" : "sommerlund34@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -1513,8 +1513,8 @@
       },
       "sommerlund20@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund19",
-            "s" : "sommerlund21"
+            "n" : "sommerlund19@sommerlund",
+            "s" : "sommerlund21@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1527,8 +1527,8 @@
       },
       "sommerlund30@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund31",
-            "d" : "^trapdoor2"
+            "w" : "sommerlund31@sommerlund",
+            "d" : "^trapdoor2@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -1539,7 +1539,7 @@
       },
       "sommerlund79@sommerlund" : {
          "exits" : {
-            "u" : "sommerlund78"
+            "u" : "sommerlund78@sommerlund"
          },
          "flags" : [
             "Hot",
@@ -1553,8 +1553,8 @@
       },
       "sommerlund14@sommerlund" : {
          "exits" : {
-            "u" : "sommerlund15",
-            "d" : "sommerlund13"
+            "u" : "sommerlund15@sommerlund",
+            "d" : "sommerlund13@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -1565,9 +1565,9 @@
       },
       "sommerlund78@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund77",
-            "d" : "sommerlund79",
-            "s" : "sommerlund80"
+            "n" : "sommerlund77@sommerlund",
+            "d" : "sommerlund79@sommerlund",
+            "s" : "sommerlund80@sommerlund"
          },
          "flags" : [
             "Hot",
@@ -1581,8 +1581,8 @@
       },
       "sommerlund28@sommerlund" : {
          "exits" : {
-            "u" : "sommerlund29",
-            "d" : "sommerlund27"
+            "u" : "sommerlund29@sommerlund",
+            "d" : "sommerlund27@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -1593,7 +1593,7 @@
       },
       "sommerlund52@sommerlund" : {
          "exits" : {
-            "d" : "sommerlund51"
+            "d" : "sommerlund51@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1606,10 +1606,10 @@
       },
       "sommerlund62@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund60",
-            "e" : "sommerlund60",
-            "n" : "sommerlund60",
-            "s" : "sommerlund63"
+            "w" : "sommerlund60@sommerlund",
+            "e" : "sommerlund60@sommerlund",
+            "n" : "sommerlund60@sommerlund",
+            "s" : "sommerlund63@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -1622,8 +1622,8 @@
       },
       "sommerlund35@sommerlund" : {
          "exits" : {
-            "u" : "sommerlund34",
-            "s" : "^vaultdoor1"
+            "u" : "sommerlund34@sommerlund",
+            "s" : "^vaultdoor1@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -1636,8 +1636,8 @@
       },
       "sommerlund39@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund38",
-            "n" : "sommerlund40"
+            "w" : "sommerlund38@sommerlund",
+            "n" : "sommerlund40@sommerlund"
          },
          "flags" : [
             "OnWater",
@@ -1651,8 +1651,8 @@
       },
       "sommerlund48@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund49",
-            "n" : "sommerlund47"
+            "w" : "sommerlund49@sommerlund",
+            "n" : "sommerlund47@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1665,8 +1665,8 @@
       },
       "sommerlund85@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund84",
-            "s" : "sommerlund86"
+            "n" : "sommerlund84@sommerlund",
+            "s" : "sommerlund86@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -1679,9 +1679,9 @@
       },
       "sommerlund51@sommerlund" : {
          "exits" : {
-            "u" : "sommerlund52",
-            "d" : "sommerlund50",
-            "s" : "sommerlund53"
+            "u" : "sommerlund52@sommerlund",
+            "d" : "sommerlund50@sommerlund",
+            "s" : "sommerlund53@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1694,8 +1694,8 @@
       },
       "sommerlund49@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund50",
-            "e" : "sommerlund48"
+            "w" : "sommerlund50@sommerlund",
+            "e" : "sommerlund48@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1708,8 +1708,8 @@
       },
       "sommerlund2@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund1",
-            "s" : "sommerlund3"
+            "n" : "sommerlund1@sommerlund",
+            "s" : "sommerlund3@sommerlund"
          },
          "flags" : [
             "Outdoors",
@@ -1723,8 +1723,8 @@
       },
       "sommerlund87@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund86",
-            "s" : "sommerlund88"
+            "n" : "sommerlund86@sommerlund",
+            "s" : "sommerlund88@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -1737,8 +1737,8 @@
       },
       "sommerlund10@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund11",
-            "e" : "sommerlund9"
+            "w" : "sommerlund11@sommerlund",
+            "e" : "sommerlund9@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1751,8 +1751,8 @@
       },
       "sommerlund12@sommerlund" : {
          "exits" : {
-            "e" : "sommerlund11",
-            "u" : "sommerlund13"
+            "e" : "sommerlund11@sommerlund",
+            "u" : "sommerlund13@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1765,9 +1765,9 @@
       },
       "sommerlund24@sommerlund" : {
          "exits" : {
-            "w" : "^wheeldoor1",
-            "n" : "sommerlund23",
-            "s" : "sommerlund27"
+            "w" : "^wheeldoor1@sommerlund",
+            "n" : "sommerlund23@sommerlund",
+            "s" : "sommerlund27@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1780,8 +1780,8 @@
       },
       "sommerlund32@sommerlund" : {
          "exits" : {
-            "u" : "sommerlund27",
-            "d" : "sommerlund33"
+            "u" : "sommerlund27@sommerlund",
+            "d" : "sommerlund33@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -1794,8 +1794,8 @@
       },
       "sommerlund40@sommerlund" : {
          "exits" : {
-            "e" : "sommerlund41",
-            "s" : "sommerlund39"
+            "e" : "sommerlund41@sommerlund",
+            "s" : "sommerlund39@sommerlund"
          },
          "flags" : [
             "OnWater",
@@ -1809,8 +1809,8 @@
       },
       "sommerlund50@sommerlund" : {
          "exits" : {
-            "u" : "sommerlund51",
-            "d" : "sommerlund49"
+            "u" : "sommerlund51@sommerlund",
+            "d" : "sommerlund49@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1823,8 +1823,8 @@
       },
       "sommerlund74@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund73",
-            "s" : "sommerlund76"
+            "w" : "sommerlund73@sommerlund",
+            "s" : "sommerlund76@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1837,7 +1837,7 @@
       },
       "sommerlund71@sommerlund" : {
          "exits" : {
-            "d" : "sommerlund68"
+            "d" : "sommerlund68@sommerlund"
          },
          "flags" : [
             "Death"
@@ -1859,8 +1859,8 @@
       },
       "sommerlund42@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund41",
-            "s" : "sommerlund44"
+            "w" : "sommerlund41@sommerlund",
+            "s" : "sommerlund44@sommerlund"
          },
          "flags" : [
             "OnWater",
@@ -1874,7 +1874,7 @@
       },
       "sommerlund88@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund87"
+            "n" : "sommerlund87@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1887,9 +1887,9 @@
       },
       "sommerlund3@sommerlund" : {
          "exits" : {
-            "e" : "sommerlund4",
-            "n" : "sommerlund2",
-            "s" : "sommerlund5"
+            "e" : "sommerlund4@sommerlund",
+            "n" : "sommerlund2@sommerlund",
+            "s" : "sommerlund5@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1902,10 +1902,10 @@
       },
       "sommerlund66@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund60",
-            "e" : "sommerlund67",
-            "n" : "sommerlund60",
-            "s" : "sommerlund60"
+            "w" : "sommerlund60@sommerlund",
+            "e" : "sommerlund67@sommerlund",
+            "n" : "sommerlund60@sommerlund",
+            "s" : "sommerlund60@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -1918,8 +1918,8 @@
       },
       "sommerlund53@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund51",
-            "s" : "^cavedoor1"
+            "n" : "sommerlund51@sommerlund",
+            "s" : "^cavedoor1@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -1930,9 +1930,9 @@
       },
       "sommerlund76@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund75",
-            "n" : "sommerlund74",
-            "s" : "sommerlund77"
+            "w" : "sommerlund75@sommerlund",
+            "n" : "sommerlund74@sommerlund",
+            "s" : "sommerlund77@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -1945,8 +1945,8 @@
       },
       "sommerlund84@sommerlund" : {
          "exits" : {
-            "n" : "^labdoor2",
-            "s" : "sommerlund85"
+            "n" : "^labdoor2@sommerlund",
+            "s" : "sommerlund85@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -1957,10 +1957,10 @@
       },
       "sommerlund61@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund62",
-            "e" : "sommerlund60",
-            "n" : "sommerlund60",
-            "s" : "sommerlund60"
+            "w" : "sommerlund62@sommerlund",
+            "e" : "sommerlund60@sommerlund",
+            "n" : "sommerlund60@sommerlund",
+            "s" : "sommerlund60@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -1973,10 +1973,10 @@
       },
       "sommerlund70@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund60",
-            "e" : "sommerlund60",
-            "n" : "sommerlund60",
-            "s" : "sommerlund72"
+            "w" : "sommerlund60@sommerlund",
+            "e" : "sommerlund60@sommerlund",
+            "n" : "sommerlund60@sommerlund",
+            "s" : "sommerlund72@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -1989,8 +1989,8 @@
       },
       "sommerlund77@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund76",
-            "s" : "sommerlund78"
+            "n" : "sommerlund76@sommerlund",
+            "s" : "sommerlund78@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -2003,8 +2003,8 @@
       },
       "sommerlund23@sommerlund" : {
          "exits" : {
-            "n" : "^kaidoor2",
-            "s" : "sommerlund24"
+            "n" : "^kaidoor2@sommerlund",
+            "s" : "sommerlund24@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -2015,9 +2015,9 @@
       },
       "sommerlund41@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund40",
-            "e" : "sommerlund42",
-            "s" : "sommerlund43"
+            "w" : "sommerlund40@sommerlund",
+            "e" : "sommerlund42@sommerlund",
+            "s" : "sommerlund43@sommerlund"
          },
          "flags" : [
             "OnWater",
@@ -2042,8 +2042,8 @@
       },
       "sommerlund46@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund9",
-            "s" : "sommerlund47"
+            "n" : "sommerlund9@sommerlund",
+            "s" : "sommerlund47@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -2056,10 +2056,10 @@
       },
       "sommerlund67@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund60",
-            "e" : "sommerlund60",
-            "n" : "sommerlund68",
-            "s" : "sommerlund60"
+            "w" : "sommerlund60@sommerlund",
+            "e" : "sommerlund60@sommerlund",
+            "n" : "sommerlund68@sommerlund",
+            "s" : "sommerlund60@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -2072,7 +2072,7 @@
       },
       "sommerlund57@sommerlund" : {
          "exits" : {
-            "e" : "sommerlund55"
+            "e" : "sommerlund55@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -2083,10 +2083,10 @@
       },
       "sommerlund65@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund60",
-            "e" : "sommerlund60",
-            "n" : "sommerlund66",
-            "s" : "sommerlund60"
+            "w" : "sommerlund60@sommerlund",
+            "e" : "sommerlund60@sommerlund",
+            "n" : "sommerlund66@sommerlund",
+            "s" : "sommerlund60@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -2099,8 +2099,8 @@
       },
       "sommerlund80@sommerlund" : {
          "exits" : {
-            "e" : "sommerlund81",
-            "n" : "sommerlund78"
+            "e" : "sommerlund81@sommerlund",
+            "n" : "sommerlund78@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -2113,8 +2113,8 @@
       },
       "sommerlund75@sommerlund" : {
          "exits" : {
-            "e" : "sommerlund76",
-            "n" : "sommerlund73"
+            "e" : "sommerlund76@sommerlund",
+            "n" : "sommerlund73@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -2127,8 +2127,8 @@
       },
       "sommerlund19@sommerlund" : {
          "exits" : {
-            "e" : "sommerlund18",
-            "s" : "sommerlund20"
+            "e" : "sommerlund18@sommerlund",
+            "s" : "sommerlund20@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -2141,10 +2141,10 @@
       },
       "sommerlund60@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund60",
-            "e" : "sommerlund61",
-            "n" : "sommerlund60",
-            "s" : "sommerlund59"
+            "w" : "sommerlund60@sommerlund",
+            "e" : "sommerlund61@sommerlund",
+            "n" : "sommerlund60@sommerlund",
+            "s" : "sommerlund59@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -2157,9 +2157,9 @@
       },
       "sommerlund44@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund43",
-            "n" : "sommerlund42",
-            "d" : "sommerlund45"
+            "w" : "sommerlund43@sommerlund",
+            "n" : "sommerlund42@sommerlund",
+            "d" : "sommerlund45@sommerlund"
          },
          "flags" : [
             "OnWater",
@@ -2173,8 +2173,8 @@
       },
       "sommerlund21@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund20",
-            "s" : "sommerlund22"
+            "n" : "sommerlund20@sommerlund",
+            "s" : "sommerlund22@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -2187,8 +2187,8 @@
       },
       "sommerlund83@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund82",
-            "s" : "^labdoor1"
+            "n" : "sommerlund82@sommerlund",
+            "s" : "^labdoor1@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -2201,9 +2201,9 @@
       },
       "sommerlund27@sommerlund" : {
          "exits" : {
-            "u" : "sommerlund28",
-            "n" : "sommerlund24",
-            "d" : "sommerlund32"
+            "u" : "sommerlund28@sommerlund",
+            "n" : "sommerlund24@sommerlund",
+            "d" : "sommerlund32@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -2214,8 +2214,8 @@
       },
       "sommerlund38@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund37",
-            "e" : "sommerlund39"
+            "w" : "sommerlund37@sommerlund",
+            "e" : "sommerlund39@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -2226,7 +2226,7 @@
       },
       "sommerlund16@sommerlund" : {
          "exits" : {
-            "n" : "sommerlund15"
+            "n" : "sommerlund15@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -2237,9 +2237,9 @@
       },
       "sommerlund47@sommerlund" : {
          "exits" : {
-            "e" : "sommerlund54",
-            "n" : "sommerlund46",
-            "s" : "sommerlund48"
+            "e" : "sommerlund54@sommerlund",
+            "n" : "sommerlund46@sommerlund",
+            "s" : "sommerlund48@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -2252,9 +2252,9 @@
       },
       "sommerlund73@sommerlund" : {
          "exits" : {
-            "e" : "sommerlund74",
-            "n" : "sommerlund72",
-            "s" : "sommerlund75"
+            "e" : "sommerlund74@sommerlund",
+            "n" : "sommerlund72@sommerlund",
+            "s" : "sommerlund75@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -2267,10 +2267,10 @@
       },
       "sommerlund63@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund60",
-            "e" : "sommerlund64",
-            "n" : "sommerlund60",
-            "s" : "sommerlund60"
+            "w" : "sommerlund60@sommerlund",
+            "e" : "sommerlund64@sommerlund",
+            "n" : "sommerlund60@sommerlund",
+            "s" : "sommerlund60@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -2283,10 +2283,10 @@
       },
       "sommerlund64@sommerlund" : {
          "exits" : {
-            "w" : "sommerlund65",
-            "e" : "sommerlund60",
-            "n" : "sommerlund60",
-            "s" : "sommerlund60"
+            "w" : "sommerlund65@sommerlund",
+            "e" : "sommerlund60@sommerlund",
+            "n" : "sommerlund60@sommerlund",
+            "s" : "sommerlund60@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -2299,8 +2299,8 @@
       },
       "sommerlund34@sommerlund" : {
          "exits" : {
-            "u" : "sommerlund33",
-            "d" : "sommerlund35"
+            "u" : "sommerlund33@sommerlund",
+            "d" : "sommerlund35@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -2313,7 +2313,7 @@
       },
       "sommerlund31@sommerlund" : {
          "exits" : {
-            "e" : "sommerlund30"
+            "e" : "sommerlund30@sommerlund"
          },
          "flags" : [],
          "zone" : "sommerlund",
@@ -2324,8 +2324,8 @@
       },
       "sommerlund25@sommerlund" : {
          "exits" : {
-            "w" : "^coachdoor1",
-            "e" : "^wheeldoor2"
+            "w" : "^coachdoor1@sommerlund",
+            "e" : "^wheeldoor2@sommerlund"
          },
          "flags" : [
             "Dark"
@@ -2338,7 +2338,7 @@
       },
       "sommerlund45@sommerlund" : {
          "exits" : {
-            "u" : "sommerlund44"
+            "u" : "sommerlund44@sommerlund"
          },
          "flags" : [
             "Outdoors"
@@ -2353,7 +2353,7 @@
    "mob" : {
       "wolfbane@sommerlund" : {
          "damage" : "10",
-         "location" : "sommerlund52",
+         "location" : "sommerlund52@sommerlund",
          "speed" : "0",
          "aggression" : "80",
          "armor" : "0",
@@ -2364,7 +2364,7 @@
       },
       "zagarna@sommerlund" : {
          "damage" : "16",
-         "location" : "sommerlund82",
+         "location" : "sommerlund82@sommerlund",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2375,7 +2375,7 @@
       },
       "fruitcake@sommerlund" : {
          "damage" : "12",
-         "location" : "sommerlund18",
+         "location" : "sommerlund18@sommerlund",
          "armor" : "5",
          "name" : "fruitcake",
          "description" : "The legendary Fruitcake of lore is juggling fruit here.",
@@ -2393,7 +2393,7 @@
       },
       "giak2@sommerlund" : {
          "damage" : "8",
-         "location" : "sommerlund50",
+         "location" : "sommerlund50@sommerlund",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -2404,7 +2404,7 @@
       },
       "alyss@sommerlund" : {
          "damage" : "12",
-         "location" : "sommerlund1",
+         "location" : "sommerlund1@sommerlund",
          "armor" : "0",
          "name" : "alyss",
          "description" : "Sarcastic Alyss flounces teasingly at you and howls at the sky.",
@@ -2421,7 +2421,7 @@
       },
       "rimoah@sommerlund" : {
          "damage" : "10",
-         "location" : "sommerlund16",
+         "location" : "sommerlund16@sommerlund",
          "speed" : "0",
          "aggression" : "20",
          "armor" : "0",
@@ -2432,7 +2432,7 @@
       },
       "gnaag@sommerlund" : {
          "damage" : "16",
-         "location" : "sommerlund83",
+         "location" : "sommerlund83@sommerlund",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2443,7 +2443,7 @@
       },
       "vaxagore@sommerlund" : {
          "damage" : "12",
-         "location" : "sommerlund79",
+         "location" : "sommerlund79@sommerlund",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "7",
@@ -2458,7 +2458,7 @@
             "NegFrost"
          ],
          "damage" : "15",
-         "location" : "sommerlund53",
+         "location" : "sommerlund53@sommerlund",
          "armor" : "0",
          "name" : "dakomyd",
          "description" : "The great shadow of the Dakomyd's bulk falls upon you.",
@@ -2475,7 +2475,7 @@
             "Blind"
          ],
          "damage" : "25",
-         "location" : "sommerlund89",
+         "location" : "sommerlund89@sommerlund",
          "armor" : "45",
          "name" : "organodeath",
          "description" : "\nA flying tree with inflatable hands of death bursts forth from the earth and \nfixes you with an icy glare...\nIn a deep, stentorian voice, OrganoDeath grumbles,\n'My masters are dead?! Then, so shall be you! Vashna's revenge shall be \nfulfilled!'\nWith a unholy shriek of rage, OrganoDeath charges toward you, branches \nready to peel you like papier mache.",
@@ -2496,7 +2496,7 @@
       },
       "drakkar1@sommerlund" : {
          "damage" : "10",
-         "location" : "sommerlund75",
+         "location" : "sommerlund75@sommerlund",
          "speed" : "0",
          "aggression" : "70",
          "armor" : "5",
@@ -2507,7 +2507,7 @@
       },
       "slutar@sommerlund" : {
          "damage" : "10",
-         "location" : "sommerlund81",
+         "location" : "sommerlund81@sommerlund",
          "armor" : "0",
          "name" : "slutar",
          "description" : "Slutar asks if you want to play a game of Monopoly.",
@@ -2521,7 +2521,7 @@
       },
       "protean@sommerlund" : {
          "damage" : "10",
-         "location" : "sommerlund57",
+         "location" : "sommerlund57@sommerlund",
          "armor" : "0",
          "name" : "protean",
          "description" : "One of the ring builders of the shape shifting god Protean is here.",
@@ -2535,7 +2535,7 @@
       },
       "ixian@sommerlund" : {
          "damage" : "10",
-         "location" : "sommerlund52",
+         "location" : "sommerlund52@sommerlund",
          "armor" : "0",
          "name" : "ixian",
          "description" : "The Deathlord of Ixia hasn't had his morning coffee and is, therefore,\nquite cranky!",
@@ -2552,7 +2552,7 @@
             "Shock"
          ],
          "damage" : "15",
-         "location" : "sommerlund12",
+         "location" : "sommerlund12@sommerlund",
          "armor" : "5",
          "name" : "zakhan",
          "description" : "Zakhan Kimah is far away from his empire, but still thinks you should\nbow to him.",
@@ -2566,7 +2566,7 @@
             "Missile"
          ],
          "damage" : "10",
-         "location" : "sommerlund45",
+         "location" : "sommerlund45@sommerlund",
          "armor" : "0",
          "name" : "shianti",
          "description" : "Grey Star the Shianti wizard is ready to go medieval on you!",
@@ -2580,7 +2580,7 @@
             "FireBall"
          ],
          "damage" : "10",
-         "location" : "sommerlund74",
+         "location" : "sommerlund74@sommerlund",
          "armor" : "0",
          "name" : "cadak",
          "description" : "Arch-druid Cadak needs a new guinea pig. How about you?",
@@ -2591,7 +2591,7 @@
       },
       "taktaal@sommerlund" : {
          "damage" : "14",
-         "location" : "sommerlund83",
+         "location" : "sommerlund83@sommerlund",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2602,7 +2602,7 @@
       },
       "giak4@sommerlund" : {
          "damage" : "8",
-         "location" : "sommerlund50",
+         "location" : "sommerlund50@sommerlund",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -2613,7 +2613,7 @@
       },
       "drakkar2@sommerlund" : {
          "damage" : "10",
-         "location" : "sommerlund75",
+         "location" : "sommerlund75@sommerlund",
          "speed" : "0",
          "aggression" : "70",
          "armor" : "5",
@@ -2624,7 +2624,7 @@
       },
       "barraka@sommerlund" : {
          "damage" : "10",
-         "location" : "sommerlund4",
+         "location" : "sommerlund4@sommerlund",
          "speed" : "0",
          "aggression" : "80",
          "armor" : "0",
@@ -2635,7 +2635,7 @@
       },
       "giak1@sommerlund" : {
          "damage" : "8",
-         "location" : "sommerlund50",
+         "location" : "sommerlund50@sommerlund",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -2646,7 +2646,7 @@
       },
       "vashna@sommerlund" : {
          "damage" : "18",
-         "location" : "sommerlund83",
+         "location" : "sommerlund83@sommerlund",
          "armor" : "0",
          "name" : "vashna",
          "description" : "Vashna hates Monopoly and is interested only in sinking his weapon \nhilt-deep into your fleshy abdomen.",
@@ -2660,7 +2660,7 @@
       },
       "drakkar3@sommerlund" : {
          "damage" : "10",
-         "location" : "sommerlund75",
+         "location" : "sommerlund75@sommerlund",
          "speed" : "0",
          "aggression" : "70",
          "armor" : "5",
@@ -2671,7 +2671,7 @@
       },
       "ishir@sommerlund" : {
          "damage" : "10",
-         "location" : "sommerlund54",
+         "location" : "sommerlund54@sommerlund",
          "armor" : "0",
          "name" : "ishir",
          "description" : "Ishir, High Priestess of the Moon, smiles at your approach.",
@@ -2692,7 +2692,7 @@
       },
       "giak3@sommerlund" : {
          "damage" : "8",
-         "location" : "sommerlund50",
+         "location" : "sommerlund50@sommerlund",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -2706,7 +2706,7 @@
             "Blind"
          ],
          "damage" : "10",
-         "location" : "sommerlund20",
+         "location" : "sommerlund20@sommerlund",
          "armor" : "10",
          "name" : "muddle",
          "description" : "A muck-covered monstrosity, Muddle, moshes from the muddy mire, ready\nto maul your middle!",
@@ -2724,7 +2724,7 @@
             "Blind"
          ],
          "damage" : "10",
-         "location" : "sommerlund24",
+         "location" : "sommerlund24@sommerlund",
          "armor" : "0",
          "name" : "banedon",
          "description" : "The Guildmaster of the Brotherhood of the Crystal Star, Banedon, is\nputting on a magic show.",
@@ -2741,7 +2741,7 @@
       },
       "haakon@sommerlund" : {
          "damage" : "12",
-         "location" : "sommerlund82",
+         "location" : "sommerlund82@sommerlund",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2752,7 +2752,7 @@
       },
       "kraggenskul@sommerlund" : {
          "damage" : "10",
-         "location" : "sommerlund82",
+         "location" : "sommerlund82@sommerlund",
          "armor" : "0",
          "name" : "kraggenskul",
          "description" : "Kraggenskul, a 'community pest', can get out of jail free now.",
@@ -2766,7 +2766,7 @@
       },
       "vordak1@sommerlund" : {
          "damage" : "12",
-         "location" : "sommerlund63",
+         "location" : "sommerlund63@sommerlund",
          "armor" : "0",
          "name" : "vordak1",
          "description" : "A red-clad ghoul of the Vordak clan stares defiantly at you.",
@@ -2780,7 +2780,7 @@
       },
       "vordak2@sommerlund" : {
          "damage" : "12",
-         "location" : "sommerlund63",
+         "location" : "sommerlund63@sommerlund",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -2791,7 +2791,7 @@
       },
       "lucille@sommerlund" : {
          "damage" : "10",
-         "location" : "sommerlund56",
+         "location" : "sommerlund56@sommerlund",
          "armor" : "0",
          "name" : "lucille",
          "description" : "Though only eight herself, Lucille chose to join the undead.",
@@ -2805,7 +2805,7 @@
       },
       "qinefer@sommerlund" : {
          "damage" : "10",
-         "location" : "sommerlund15",
+         "location" : "sommerlund15@sommerlund",
          "armor" : "5",
          "name" : "qinefer",
          "description" : "Lone Wolf's love, Qinefer, stands here guarding her advisor.",
@@ -2822,7 +2822,7 @@
       },
       "ghanesh@sommerlund" : {
          "damage" : "12",
-         "location" : "sommerlund81",
+         "location" : "sommerlund81@sommerlund",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2833,7 +2833,7 @@
       },
       "carboid@sommerlund" : {
          "damage" : "10",
-         "location" : "sommerlund58",
+         "location" : "sommerlund58@sommerlund",
          "armor" : "0",
          "name" : "carboid",
          "description" : "A shapeless mass of carboid goo attempts to smother you.",
@@ -2847,7 +2847,7 @@
       },
       "xog@sommerlund" : {
          "damage" : "14",
-         "location" : "sommerlund81",
+         "location" : "sommerlund81@sommerlund",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2858,7 +2858,7 @@
       },
       "slavemaster@sommerlund" : {
          "damage" : "17",
-         "location" : "sommerlund59",
+         "location" : "sommerlund59@sommerlund",
          "armor" : "5",
          "name" : "slavemaster",
          "description" : "The famed Slavemaster of Aarnak looks over the latest T-shirt\nshipment requests.",
@@ -2876,7 +2876,7 @@
             "Missile"
          ],
          "damage" : "7",
-         "location" : "sommerlund88",
+         "location" : "sommerlund88@sommerlund",
          "armor" : "0",
          "name" : "lonewolf",
          "description" : "Young Lone Wolf is here acting childishly.",

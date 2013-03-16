@@ -2,7 +2,7 @@
    "obj" : {
       "marblebust@oaktree" : {
          "desc[1]" : "\nPrecariously balanced on the banister is a bust of fine Italian marble.",
-         "location" : "IN_ROOM:mansion",
+         "location" : "IN_ROOM:mansion@oaktree",
          "oflags" : [
             "GetFlips"
          ],
@@ -18,7 +18,7 @@
          "desc[0]" : "A bust of fine Italian marble has been placed here."
       },
       "portal1@oaktree" : {
-         "location" : "IN_ROOM:Oaktree32",
+         "location" : "IN_ROOM:oaktree32@oaktree",
          "oflags" : [
             "NoGet"
          ],
@@ -32,7 +32,7 @@
       },
       "rotten_door2@oaktree" : {
          "desc[1]" : "A wooden door bars any passage north.",
-         "location" : "IN_ROOM:Oaktree37",
+         "location" : "IN_ROOM:oaktree37@oaktree",
          "oflags" : [
             "NoGet",
             "Pushable"
@@ -63,7 +63,7 @@
       },
       "rotten_door1@oaktree" : {
          "desc[1]" : "A wooden door bars any passage south.",
-         "location" : "IN_ROOM:Oaktree36",
+         "location" : "IN_ROOM:oaktree36@oaktree",
          "oflags" : [
             "NoGet",
             "Pushable"
@@ -80,7 +80,7 @@
          "desc[0]" : "The remains of a shattered wooden door lie here."
       },
       "quartz@oaktree" : {
-         "location" : "IN_CONTAINER:depression",
+         "location" : "IN_CONTAINER:depression@oaktree",
          "oflags" : "{}",
          "name" : "quartz",
          "examine" : "\nIt looks as though something with sharp teeth has been chewing on it.",
@@ -92,7 +92,7 @@
       },
       "window_landing@oaktree" : {
          "desc[1]" : "\nThrough the closed window you can see the undulating leaves of an ilex.",
-         "location" : "IN_ROOM:landing",
+         "location" : "IN_ROOM:landing@oaktree",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -105,7 +105,7 @@
          "desc[0]" : "\nThrough the open window you can see the undulating leaves of an ilex."
       },
       "gold_pot@oaktree" : {
-         "location" : "IN_CONTAINER:depression",
+         "location" : "IN_CONTAINER:depression@oaktree",
          "oflags" : "{}",
          "altname" : "pot",
          "name" : "gold_pot",
@@ -117,7 +117,7 @@
       },
       "mouth2@oaktree" : {
          "desc[1]" : "Under the lions gaze, try as you might you can't pass them.",
-         "location" : "IN_ROOM:Grove",
+         "location" : "IN_ROOM:grove@oaktree",
          "oflags" : [
             "NoGet"
          ],
@@ -133,7 +133,7 @@
          "desc[0]" : "A portal has been opened in the immense oak tree."
       },
       "bustbroken@oaktree" : {
-         "location" : "IN_ROOM:mansion",
+         "location" : "IN_ROOM:mansion@oaktree",
          "oflags" : [
             "Destroyed",
             "NoGet"
@@ -146,7 +146,7 @@
       },
       "safe@oaktree" : {
          "desc[1]" : "There is a wall safe here.",
-         "location" : "IN_ROOM:Oaktree37",
+         "location" : "IN_ROOM:oaktree37@oaktree",
          "oflags" : [
             "NoGet",
             "Destroyed",
@@ -166,7 +166,7 @@
       },
       "b_roots@oaktree" : {
          "desc[1]" : "Long, thick roots cover the entire eastern wall here.",
-         "location" : "IN_ROOM:Oaktree36",
+         "location" : "IN_ROOM:oaktree36@oaktree",
          "oflags" : [
             "NoGet",
             "Lightable"
@@ -184,7 +184,7 @@
          "desc[0]" : "Some roots have been burned away allowing passage east."
       },
       "portal2@oaktree" : {
-         "location" : "IN_ROOM:Oaktree26",
+         "location" : "IN_ROOM:oaktree26@oaktree",
          "oflags" : [
             "NoGet"
          ],
@@ -198,7 +198,7 @@
       },
       "stick@oaktree" : {
          "damage" : "8",
-         "location" : "IN_ROOM:Oaktree30",
+         "location" : "IN_ROOM:oaktree30@oaktree",
          "oflags" : [
             "Lightable",
             "Weapon"
@@ -212,14 +212,14 @@
          "desc[0]" : "\nA smooth sturdy looking hickory stick wound with gold wire is here."
       },
       "water@oaktree" : {
-         "location" : "IN_ROOM:Holes@sea",
+         "location" : "IN_ROOM:holes@sea",
          "pname" : "water",
          "name" : "water",
          "bvalue" : "0",
          "desc[0]" : "There's fresh water here."
       },
       "soup@oaktree" : {
-         "location" : "IN_ROOM:bedroom",
+         "location" : "IN_ROOM:bedroom@oaktree",
          "oflags" : [
             "Food"
          ],
@@ -233,7 +233,7 @@
       },
       "picture@oaktree" : {
          "desc[1]" : "A painting of Grandpa Grue covers one wall.",
-         "location" : "IN_ROOM:Oaktree37",
+         "location" : "IN_ROOM:oaktree37@oaktree",
          "oflags" : [
             "GetFlips"
          ],
@@ -249,7 +249,7 @@
          "desc[0]" : "\nA rather ugly looking painting of an old grue has been discarded here."
       },
       "depression@oaktree" : {
-         "location" : "IN_ROOM:Oaktree26",
+         "location" : "IN_ROOM:oaktree26@oaktree",
          "oflags" : [
             "NoGet",
             "Container"
@@ -265,7 +265,7 @@
          "desc[0]" : "There is a small depression here."
       },
       "cakes@oaktree" : {
-         "location" : "IN_ROOM:bedroom",
+         "location" : "IN_ROOM:bedroom@oaktree",
          "oflags" : [
             "Food"
          ],
@@ -279,7 +279,7 @@
       },
       "roots@oaktree" : {
          "desc[1]" : "Long, thick roots cover the entire western wall here.",
-         "location" : "IN_ROOM:Oaktree24",
+         "location" : "IN_ROOM:oaktree24@oaktree",
          "oflags" : [
             "NoGet",
             "Lightable"
@@ -298,7 +298,7 @@
       },
       "rapier@oaktree" : {
          "damage" : "15",
-         "location" : "WIELDED_BY:cosimo",
+         "location" : "WIELDED_BY:cosimo@oaktree",
          "oflags" : [
             "Weapon"
          ],
@@ -310,7 +310,7 @@
          "desc[0]" : "A small, fearfully sharp rapier lies here."
       },
       "berries@oaktree" : {
-         "location" : "IN_ROOM:Oaktree32",
+         "location" : "IN_ROOM:oaktree32@oaktree",
          "oflags" : [
             "Food"
          ],
@@ -323,7 +323,7 @@
          "desc[0]" : "Some edible looking berries are here."
       },
       "glove@oaktree" : {
-         "location" : "IN_CONTAINER:safe",
+         "location" : "IN_CONTAINER:safe@oaktree",
          "armor" : "30",
          "oflags" : [
             "Armor",
@@ -342,7 +342,7 @@
          ]
       },
       "fan@oaktree" : {
-         "location" : "IN_ROOM:Ilex",
+         "location" : "IN_ROOM:ilex@oaktree",
          "weight" : "1",
          "name" : "fan",
          "examine" : "\nIt has a faint scent of violets, and an inscription reading:\n\"To my beloved Viola -- From her Cosimo.\"",
@@ -352,7 +352,7 @@
       },
       "window_ilex@oaktree" : {
          "desc[1]" : "There is a closed window to the north.",
-         "location" : "IN_ROOM:ilex",
+         "location" : "IN_ROOM:ilex@oaktree",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -382,7 +382,7 @@
          "desc[0]" : "A long silver spike lays here giving off blue sparks."
       },
       "whistle@oaktree" : {
-         "location" : "IN_ROOM:walnut",
+         "location" : "IN_ROOM:walnut@oaktree",
          "oflags" : [
             "Destroyed"
          ],
@@ -395,7 +395,7 @@
          "desc[0]" : "A silver whistle has been dropped here."
       },
       "topfoxhole@oaktree" : {
-         "location" : "IN_ROOM:grove",
+         "location" : "IN_ROOM:grove@oaktree",
          "oflags" : [
             "NoGet"
          ],
@@ -409,7 +409,7 @@
       },
       "rock@oaktree" : {
          "desc[1]" : "A huge rock is here soaking up the sun.",
-         "location" : "IN_ROOM:Oaktree26",
+         "location" : "IN_ROOM:oaktree26@oaktree",
          "oflags" : [
             "NoGet",
             "Pushtoggle"
@@ -425,7 +425,7 @@
          "desc[0]" : "A huge rock stands beside a small depression."
       },
       "toast@oaktree" : {
-         "location" : "IN_ROOM:bedroom",
+         "location" : "IN_ROOM:bedroom@oaktree",
          "oflags" : [
             "Food"
          ],
@@ -438,7 +438,7 @@
          "desc[0]" : "There is a slice of pate toast here."
       },
       "encyclopedia@oaktree" : {
-         "location" : "IN_ROOM:Olive3",
+         "location" : "IN_ROOM:olive3@oaktree",
          "weight" : "60",
          "altname" : "book",
          "name" : "encyclopedia",
@@ -448,7 +448,7 @@
          "size" : "100"
       },
       "treatise@oaktree" : {
-         "location" : "IN_ROOM:olive3",
+         "location" : "IN_ROOM:olive3@oaktree",
          "weight" : "5",
          "altname" : "book",
          "name" : "treatise",
@@ -471,7 +471,7 @@
          "desc[0]" : "A small diamond glitters nearby."
       },
       "tart@oaktree" : {
-         "location" : "IN_ROOM:bedroom",
+         "location" : "IN_ROOM:bedroom@oaktree",
          "oflags" : [
             "Food"
          ],
@@ -484,7 +484,7 @@
          "desc[0]" : "There is a dainty tart here."
       },
       "boarskin@oaktree" : {
-         "location" : "IN_ROOM:walnut",
+         "location" : "IN_ROOM:walnut@oaktree",
          "oflags" : [
             "NoGet"
          ],
@@ -492,7 +492,7 @@
          "name" : "boarskin"
       },
       "skeleton@oaktree" : {
-         "location" : "IN_CONTAINER:depression",
+         "location" : "IN_CONTAINER:depression@oaktree",
          "oflags" : [
             "Key"
          ],
@@ -506,7 +506,7 @@
       },
       "mouth1@oaktree" : {
          "desc[1]" : "Under the lions gaze, try as you might you can't pass them.",
-         "location" : "IN_ROOM:Oaktree31",
+         "location" : "IN_ROOM:oaktree31@oaktree",
          "oflags" : [
             "NoGet"
          ],
@@ -524,7 +524,7 @@
       },
       "holefox@oaktree" : {
          "desc[1]" : "\nSomeone has sealed the entrance with dirt and rocks.  You are trapped!",
-         "location" : "IN_ROOM:hole",
+         "location" : "IN_ROOM:hole@oaktree",
          "oflags" : [
             "NoGet"
          ],
@@ -540,7 +540,7 @@
    "loc" : {
       "oaktree27@oaktree" : {
          "exits" : {
-            "w" : "Oaktree26"
+            "w" : "oaktree26@oaktree"
          },
          "flags" : [],
          "zone" : "oaktree",
@@ -551,8 +551,8 @@
       },
       "oaktree32@oaktree" : {
          "exits" : {
-            "n" : "Oaktree33",
-            "s" : "^portal1"
+            "n" : "oaktree33@oaktree",
+            "s" : "^portal1@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -565,8 +565,8 @@
       },
       "tree1@oaktree" : {
          "exits" : {
-            "u" : "Tree2",
-            "d" : "Grove"
+            "u" : "tree2@oaktree",
+            "d" : "grove@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -579,8 +579,8 @@
       },
       "den@oaktree" : {
          "exits" : {
-            "u" : "Burrow",
-            "n" : "Burrow"
+            "u" : "burrow@oaktree",
+            "n" : "burrow@oaktree"
          },
          "flags" : [
             "Dark"
@@ -593,10 +593,10 @@
       },
       "elm@oaktree" : {
          "exits" : {
-            "w" : "Walnut",
-            "e" : "Mulberry",
-            "n" : "Fig",
-            "s" : "Tree2"
+            "w" : "walnut@oaktree",
+            "e" : "mulberry@oaktree",
+            "n" : "fig@oaktree",
+            "s" : "tree2@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -609,8 +609,8 @@
       },
       "mulberry@oaktree" : {
          "exits" : {
-            "w" : "Elm",
-            "e" : "Magnolia"
+            "w" : "elm@oaktree",
+            "e" : "magnolia@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -623,9 +623,9 @@
       },
       "oaktree34@oaktree" : {
          "exits" : {
-            "w" : "Oaktree33",
-            "e" : "Oaktree35",
-            "u" : "Oaktree33"
+            "w" : "oaktree33@oaktree",
+            "e" : "oaktree35@oaktree",
+            "u" : "oaktree33@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -638,7 +638,7 @@
       },
       "oaktree35@oaktree" : {
          "exits" : {
-            "w" : "Oaktree34"
+            "w" : "oaktree34@oaktree"
          },
          "flags" : [
             "Soundproof"
@@ -651,8 +651,8 @@
       },
       "mansion@oaktree" : {
          "exits" : {
-            "w" : "Entrance",
-            "u" : "Landing",
+            "w" : "entrance@oaktree",
+            "u" : "landing@oaktree",
             "s" : "fairytale99@fairytale"
          },
          "flags" : [],
@@ -664,10 +664,10 @@
       },
       "oaktree30@oaktree" : {
          "exits" : {
-            "w" : "Oaktree28",
-            "e" : "Oaktree26",
-            "n" : "Oaktree28",
-            "s" : "Oaktree28"
+            "w" : "oaktree28@oaktree",
+            "e" : "oaktree26@oaktree",
+            "n" : "oaktree28@oaktree",
+            "s" : "oaktree28@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -680,9 +680,9 @@
       },
       "magnolia@oaktree" : {
          "exits" : {
-            "w" : "Mulberry",
-            "e" : "Bedroom",
-            "d" : "Gardens"
+            "w" : "mulberry@oaktree",
+            "e" : "bedroom@oaktree",
+            "d" : "gardens@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -695,10 +695,10 @@
       },
       "oaktree28@oaktree" : {
          "exits" : {
-            "w" : "Oaktree28",
-            "e" : "Oaktree30",
-            "n" : "Oaktree28",
-            "s" : "Oaktree28"
+            "w" : "oaktree28@oaktree",
+            "e" : "oaktree30@oaktree",
+            "n" : "oaktree28@oaktree",
+            "s" : "oaktree28@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -711,8 +711,8 @@
       },
       "olive2@oaktree" : {
          "exits" : {
-            "e" : "Olive",
-            "s" : "Olive3"
+            "e" : "olive@oaktree",
+            "s" : "olive3@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -725,8 +725,8 @@
       },
       "bedroom@oaktree" : {
          "exits" : {
-            "w" : "Magnolia",
-            "e" : "Landing"
+            "w" : "magnolia@oaktree",
+            "e" : "landing@oaktree"
          },
          "flags" : [],
          "zone" : "oaktree",
@@ -737,8 +737,8 @@
       },
       "oaktree17@oaktree" : {
          "exits" : {
-            "w" : "Olive",
-            "d" : "Oaktree23"
+            "w" : "olive@oaktree",
+            "d" : "oaktree23@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -751,8 +751,8 @@
       },
       "tree2@oaktree" : {
          "exits" : {
-            "n" : "Elm",
-            "d" : "Tree1"
+            "n" : "elm@oaktree",
+            "d" : "tree1@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -765,8 +765,8 @@
       },
       "oaktree33@oaktree" : {
          "exits" : {
-            "d" : "Oaktree34",
-            "s" : "Oaktree32"
+            "d" : "oaktree34@oaktree",
+            "s" : "oaktree32@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -779,7 +779,7 @@
       },
       "walnut@oaktree" : {
          "exits" : {
-            "e" : "Elm"
+            "e" : "elm@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -792,10 +792,10 @@
       },
       "grove@oaktree" : {
          "exits" : {
-            "u" : "Tree1",
-            "n" : "^mouth2",
-            "d" : "^TopFoxHole",
-            "s" : "Valley@Blizzard"
+            "u" : "tree1@oaktree",
+            "n" : "^mouth2@oaktree",
+            "d" : "^topfoxhole@oaktree",
+            "s" : "valley@blizzard"
          },
          "flags" : [
             "Outdoors"
@@ -808,8 +808,8 @@
       },
       "olive3@oaktree" : {
          "exits" : {
-            "n" : "Olive2",
-            "d" : "Oaktree22"
+            "n" : "olive2@oaktree",
+            "d" : "oaktree22@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -822,9 +822,9 @@
       },
       "hole@oaktree" : {
          "exits" : {
-            "u" : "^HoleFox",
-            "d" : "Burrow",
-            "s" : "Burrow"
+            "u" : "^holefox@oaktree",
+            "d" : "burrow@oaktree",
+            "s" : "burrow@oaktree"
          },
          "flags" : [],
          "zone" : "oaktree",
@@ -835,9 +835,9 @@
       },
       "landing@oaktree" : {
          "exits" : {
-            "w" : "Bedroom",
-            "d" : "mansion",
-            "s" : "^window_landing"
+            "w" : "bedroom@oaktree",
+            "d" : "mansion@oaktree",
+            "s" : "^window_landing@oaktree"
          },
          "flags" : [],
          "zone" : "oaktree",
@@ -859,8 +859,8 @@
       },
       "fig@oaktree" : {
          "exits" : {
-            "n" : "Olive",
-            "s" : "Elm"
+            "n" : "olive@oaktree",
+            "s" : "elm@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -873,7 +873,7 @@
       },
       "gardens@oaktree" : {
          "exits" : {
-            "e" : "Entrance",
+            "e" : "entrance@oaktree",
             "n" : "fairytale1@fairytale"
          },
          "flags" : [
@@ -887,10 +887,10 @@
       },
       "burrow@oaktree" : {
          "exits" : {
-            "u" : "Burrow",
-            "n" : "Hole",
-            "d" : "Den",
-            "s" : "Den"
+            "u" : "burrow@oaktree",
+            "n" : "hole@oaktree",
+            "d" : "den@oaktree",
+            "s" : "den@oaktree"
          },
          "flags" : [
             "Dark"
@@ -903,11 +903,11 @@
       },
       "oaktree26@oaktree" : {
          "exits" : {
-            "w" : "Oaktree28",
-            "e" : "Oaktree27",
-            "n" : "^portal2",
-            "d" : "Oaktree25",
-            "s" : "Oaktree29"
+            "w" : "oaktree28@oaktree",
+            "e" : "oaktree27@oaktree",
+            "n" : "^portal2@oaktree",
+            "d" : "oaktree25@oaktree",
+            "s" : "oaktree29@oaktree"
          },
          "flags" : [
             "Peaceful",
@@ -921,9 +921,9 @@
       },
       "oaktree25@oaktree" : {
          "exits" : {
-            "u" : "Oaktree26",
-            "d" : "Oaktree24",
-            "s" : "Oaktree24"
+            "u" : "oaktree26@oaktree",
+            "d" : "oaktree24@oaktree",
+            "s" : "oaktree24@oaktree"
          },
          "flags" : [],
          "zone" : "oaktree",
@@ -934,8 +934,8 @@
       },
       "oaktree31@oaktree" : {
          "exits" : {
-            "n" : "Oaktree29",
-            "s" : "^mouth1"
+            "n" : "oaktree29@oaktree",
+            "s" : "^mouth1@oaktree"
          },
          "flags" : [
             "NoMobiles",
@@ -949,8 +949,8 @@
       },
       "oaktree29@oaktree" : {
          "exits" : {
-            "n" : "Oaktree26",
-            "s" : "Oaktree31"
+            "n" : "oaktree26@oaktree",
+            "s" : "oaktree31@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -963,7 +963,7 @@
       },
       "oaktree23@oaktree" : {
          "exits" : {
-            "w" : "Oaktree24"
+            "w" : "oaktree24@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -976,7 +976,7 @@
       },
       "oaktree37@oaktree" : {
          "exits" : {
-            "n" : "^rotten_door2"
+            "n" : "^rotten_door2@oaktree"
          },
          "flags" : [
             "Dark"
@@ -989,8 +989,8 @@
       },
       "oaktree36@oaktree" : {
          "exits" : {
-            "e" : "^B_roots",
-            "s" : "^rotten_door1"
+            "e" : "^b_roots@oaktree",
+            "s" : "^rotten_door1@oaktree"
          },
          "flags" : [
             "Dark"
@@ -1003,8 +1003,8 @@
       },
       "entrance@oaktree" : {
          "exits" : {
-            "w" : "Gardens",
-            "e" : "Mansion"
+            "w" : "gardens@oaktree",
+            "e" : "mansion@oaktree"
          },
          "flags" : [],
          "zone" : "oaktree",
@@ -1015,9 +1015,9 @@
       },
       "oaktree24@oaktree" : {
          "exits" : {
-            "w" : "^roots",
-            "u" : "Oaktree25",
-            "n" : "Oaktree25"
+            "w" : "^roots@oaktree",
+            "u" : "oaktree25@oaktree",
+            "n" : "oaktree25@oaktree"
          },
          "flags" : [],
          "zone" : "oaktree",
@@ -1028,9 +1028,9 @@
       },
       "olive@oaktree" : {
          "exits" : {
-            "w" : "Olive2",
-            "e" : "Oaktree17",
-            "s" : "Fig"
+            "w" : "olive2@oaktree",
+            "e" : "oaktree17@oaktree",
+            "s" : "fig@oaktree"
          },
          "flags" : [
             "Outdoors"
@@ -1043,7 +1043,7 @@
       },
       "ilex@oaktree" : {
          "exits" : {
-            "n" : "^window_ilex"
+            "n" : "^window_ilex@oaktree"
          },
          "flags" : [],
          "zone" : "oaktree",
@@ -1056,7 +1056,7 @@
    "mob" : {
       "beetle@oaktree" : {
          "damage" : "10",
-         "location" : "Oaktree24",
+         "location" : "oaktree24@oaktree",
          "speed" : "5",
          "aggression" : "30",
          "armor" : "0",
@@ -1067,7 +1067,7 @@
       },
       "sapling@oaktree" : {
          "damage" : "10",
-         "location" : "Oaktree35",
+         "location" : "oaktree35@oaktree",
          "armor" : "10",
          "name" : "sapling",
          "description" : "\n  There is a small Sapling standing majestically here absorbing bolts of \nlightning and casting a few of its own back at the sky.",
@@ -1084,7 +1084,7 @@
       },
       "dryad@oaktree" : {
          "damage" : "10",
-         "location" : "Oaktree26",
+         "location" : "oaktree26@oaktree",
          "armor" : "0",
          "name" : "Dryad",
          "description" : "A very pretty Dryad is sitting on the rock sunning herself.",
@@ -1098,7 +1098,7 @@
       },
       "ent@oaktree" : {
          "damage" : "15",
-         "location" : "Oaktree34",
+         "location" : "oaktree34@oaktree",
          "armor" : "0",
          "name" : "Ent",
          "examine" : "His branches look a little wilted, perhaps you should water him?",
@@ -1132,7 +1132,7 @@
       },
       "viola@oaktree" : {
          "damage" : "13",
-         "location" : "entrance",
+         "location" : "entrance@oaktree",
          "armor" : "0",
          "name" : "viola",
          "description" : "\nA beautiful, ghostly little girl stands here with a disdainful air.",
@@ -1149,7 +1149,7 @@
       },
       "vixen@oaktree" : {
          "damage" : "10",
-         "location" : "den",
+         "location" : "den@oaktree",
          "armor" : "0",
          "name" : "vixen",
          "description" : "\nA sly and curvaceous vixen snarls at you from the corner.",
@@ -1166,7 +1166,7 @@
       },
       "cosimo@oaktree" : {
          "damage" : "20",
-         "location" : "olive3",
+         "location" : "olive3@oaktree",
          "armor" : "0",
          "name" : "cosimo",
          "description" : "\nA small boy in gaiters and tricorn brandishes his rapier at you.",

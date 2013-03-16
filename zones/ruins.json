@@ -2,7 +2,7 @@
    "obj" : {
       "outsitroom@ruins" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:northhall5",
+         "location" : "IN_ROOM:northhall5@ruins",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -17,7 +17,7 @@
          "desc[0]" : "The door leading into the sitting room is open."
       },
       "sack@ruins" : {
-         "location" : "IN_ROOM:gardenrm",
+         "location" : "IN_ROOM:gardenrm@ruins",
          "weight" : "1",
          "oflags" : [
             "Container"
@@ -28,7 +28,7 @@
          "size" : "10"
       },
       "talisman@ruins" : {
-         "location" : "CARRIED_BY:cube",
+         "location" : "CARRIED_BY:cube@ruins",
          "oflags" : [
             "MissileSpell",
             "Wearable"
@@ -45,7 +45,7 @@
       },
       "swordskeltwo@ruins" : {
          "damage" : "15",
-         "location" : "WIELDED_BY:skeltwo",
+         "location" : "WIELDED_BY:skeltwo@ruins",
          "oflags" : [
             "Weapon"
          ],
@@ -58,7 +58,7 @@
       },
       "insitroom@ruins" : {
          "desc[1]" : "The door leading to the corridor is closed.",
-         "location" : "IN_ROOM:sittingroom",
+         "location" : "IN_ROOM:sittingroom@ruins",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -74,7 +74,7 @@
       },
       "celery@ruins" : {
          "desc[1]" : "A few stalks of celery looks right for the picking.",
-         "location" : "IN_ROOM:gardenrm",
+         "location" : "IN_ROOM:gardenrm@ruins",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -89,7 +89,7 @@
       },
       "beet@ruins" : {
          "desc[1]" : "There is a beet that looks good for the picking.",
-         "location" : "IN_ROOM:gardenrm",
+         "location" : "IN_ROOM:gardenrm@ruins",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -104,7 +104,7 @@
       },
       "boneskel@ruins" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:skelfour",
+         "location" : "WIELDED_BY:skelfour@ruins",
          "oflags" : [
             "Weapon"
          ],
@@ -117,7 +117,7 @@
          "desc[0]" : "A large bone that resembles a club has been left here."
       },
       "key@ruins" : {
-         "location" : "IN_ROOM:storeroom",
+         "location" : "IN_ROOM:storeroom@ruins",
          "weight" : "1",
          "oflags" : [
             "Key"
@@ -129,7 +129,7 @@
       },
       "onion@ruins" : {
          "desc[1]" : "An onion plant looks good for picking.",
-         "location" : "IN_ROOM:gardenrm",
+         "location" : "IN_ROOM:gardenrm@ruins",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -144,7 +144,7 @@
       },
       "turnip@ruins" : {
          "desc[1]" : "A turnip plant looks right for the picking.",
-         "location" : "IN_ROOM:gardenrm",
+         "location" : "IN_ROOM:gardenrm@ruins",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -158,7 +158,7 @@
          "desc[0]" : "A healthy looking turnip has been left here."
       },
       "insidetorch@ruins" : {
-         "location" : "IN_ROOM:magelib",
+         "location" : "IN_ROOM:magelib@ruins",
          "oflags" : [
             "NoGet",
             "Pushable"
@@ -171,7 +171,7 @@
       },
       "maceskel@ruins" : {
          "damage" : "16",
-         "location" : "WIELDED_BY:skelfive",
+         "location" : "WIELDED_BY:skelfive@ruins",
          "oflags" : [
             "Weapon"
          ],
@@ -184,7 +184,7 @@
       },
       "endoutdoor@ruins" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:geast16",
+         "location" : "IN_ROOM:geast16@ruins",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -199,7 +199,7 @@
          "desc[0]" : "The door is open."
       },
       "jerkin@ruins" : {
-         "location" : "IN_ROOM:closet2",
+         "location" : "IN_ROOM:closet2@ruins",
          "armor" : "25",
          "oflags" : [
             "Armor",
@@ -218,7 +218,7 @@
          "desc[0]" : "An old weather worn leather jerkin has been discarded here."
       },
       "mantle@ruins" : {
-         "location" : "IN_ROOM:closet1",
+         "location" : "IN_ROOM:closet1@ruins",
          "armor" : "48",
          "oflags" : [
             "Armor",
@@ -241,7 +241,7 @@
       },
       "gauntlets@ruins" : {
          "desc[1]" : "A pair of gauntlets are partially hidden in a pile of rubble.",
-         "location" : "IN_ROOM:northempty1",
+         "location" : "IN_ROOM:northempty1@ruins",
          "armor" : "30",
          "oflags" : [
             "Armor",
@@ -264,7 +264,7 @@
       },
       "rmthreeindoor@ruins" : {
          "desc[1]" : "The door leading to the corridor is closed.",
-         "location" : "IN_ROOM:storeroom2",
+         "location" : "IN_ROOM:storeroom2@ruins",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -280,7 +280,7 @@
       },
       "corn@ruins" : {
          "desc[1]" : "An ear of corn looks just right for the picking.",
-         "location" : "IN_ROOM:gardenrm",
+         "location" : "IN_ROOM:gardenrm@ruins",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -295,7 +295,7 @@
       },
       "rustysword@ruins" : {
          "damage" : "12",
-         "location" : "IN_ROOM:storeroom",
+         "location" : "IN_ROOM:storeroom@ruins",
          "oflags" : [
             "Weapon"
          ],
@@ -308,7 +308,7 @@
       },
       "rmtwoindoor@ruins" : {
          "desc[1]" : "The door leading to the corridor is closed.",
-         "location" : "IN_ROOM:spellroom",
+         "location" : "IN_ROOM:spellroom@ruins",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -324,7 +324,7 @@
       },
       "axeskel@ruins" : {
          "damage" : "16",
-         "location" : "WIELDED_BY:skelthree",
+         "location" : "WIELDED_BY:skelthree@ruins",
          "oflags" : [
             "Weapon"
          ],
@@ -345,7 +345,7 @@
          "size" : "1"
       },
       "leggings@ruins" : {
-         "location" : "IN_ROOM:storeroom2",
+         "location" : "IN_ROOM:storeroom2@ruins",
          "armor" : "30",
          "oflags" : [
             "Armor",
@@ -361,7 +361,7 @@
          "desc[0]" : "A pair of leather leggings lays crumpled in a heap."
       },
       "volume@ruins" : {
-         "location" : "IN_ROOM:ceast",
+         "location" : "IN_ROOM:ceast@ruins",
          "oflags" : [
             "Noget"
          ],
@@ -373,7 +373,7 @@
       },
       "swordskelone@ruins" : {
          "damage" : "15",
-         "location" : "WIELDED_BY:skelone",
+         "location" : "WIELDED_BY:skelone@ruins",
          "oflags" : [
             "Weapon"
          ],
@@ -386,7 +386,7 @@
       },
       "tomato@ruins" : {
          "desc[1]" : "A ripe tomato looks perfect for the picking.",
-         "location" : "IN_ROOM:gardenrm",
+         "location" : "IN_ROOM:gardenrm@ruins",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -401,7 +401,7 @@
       },
       "endindoor@ruins" : {
          "desc[1]" : "The door leading to the corridor is closed.",
-         "location" : "IN_ROOM:thirdlvlend",
+         "location" : "IN_ROOM:thirdlvlend@ruins",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -417,7 +417,7 @@
       },
       "rmthreeoutdoor@ruins" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:geast13",
+         "location" : "IN_ROOM:geast13@ruins",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -433,7 +433,7 @@
       },
       "crown@ruins" : {
          "desc[1]" : "A very luxurious crown rests on the oak table covering a scroll.",
-         "location" : "IN_ROOM:sittingroom",
+         "location" : "IN_ROOM:sittingroom@ruins",
          "oflags" : [
             "Wearable",
             "RegenHealth"
@@ -449,7 +449,7 @@
       },
       "scroll@ruins" : {
          "desc[1]" : "A scroll rests on the oak table.",
-         "location" : "IN_ROOM:sittingroom",
+         "location" : "IN_ROOM:sittingroom@ruins",
          "name" : "scroll",
          "examine" : "\nIt's a note...it says you can learn valuable attack spells at a shop\ndown by the Rio San Juan river.",
          "desc[2]" : "A scroll rests on the oak table under the crown.",
@@ -458,7 +458,7 @@
          "desc[0]" : "A scroll has been discarded here."
       },
       "amulet@ruins" : {
-         "location" : "IN_ROOM:storeroom",
+         "location" : "IN_ROOM:storeroom@ruins",
          "oflags" : [
             "Wearable"
          ],
@@ -473,7 +473,7 @@
          "desc[0]" : "A long lost amulet has been left here."
       },
       "damagerunes@ruins" : {
-         "location" : "IN_ROOM:spellroom",
+         "location" : "IN_ROOM:spellroom@ruins",
          "oflags" : [
             "NoGet"
          ],
@@ -492,7 +492,7 @@
          "desc[0]" : "The magical language of Xizart has been left on the desk for you."
       },
       "outsidetorch@ruins" : {
-         "location" : "IN_ROOM:gnorth2",
+         "location" : "IN_ROOM:gnorth2@ruins",
          "oflags" : [
             "NoGet",
             "Pushable"
@@ -506,7 +506,7 @@
          "desc[0]" : "The torch has been pulled down and the west hall has disappeared."
       },
       "helm@ruins" : {
-         "location" : "IN_ROOM:storeroom",
+         "location" : "IN_ROOM:storeroom@ruins",
          "armor" : "25",
          "oflags" : [
             "Armor",
@@ -524,7 +524,7 @@
          ]
       },
       "runes@ruins" : {
-         "location" : "IN_ROOM:csouth",
+         "location" : "IN_ROOM:csouth@ruins",
          "oflags" : [
             "NoGet"
          ],
@@ -532,7 +532,7 @@
          "examine" : "\nScrawled on the wall is a note from Moog, who wants to teach you\nmutulation tricks at the ruined church and graveyard."
       },
       "scalemail@ruins" : {
-         "location" : "IN_ROOM:storeroom2",
+         "location" : "IN_ROOM:storeroom2@ruins",
          "armor" : "40",
          "oflags" : [
             "Armor",
@@ -552,7 +552,7 @@
          ]
       },
       "boots@ruins" : {
-         "location" : "IN_ROOM:storeroom",
+         "location" : "IN_ROOM:storeroom@ruins",
          "armor" : "40",
          "oflags" : [
             "Armor",
@@ -568,7 +568,7 @@
          "desc[0]" : "A pair of protective looking leather boots has been discarded here."
       },
       "bracers@ruins" : {
-         "location" : "IN_ROOM:storeroom2",
+         "location" : "IN_ROOM:storeroom2@ruins",
          "armor" : "20",
          "oflags" : [
             "Armor",
@@ -586,7 +586,7 @@
       },
       "rmtwooutdoor@ruins" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:geast10",
+         "location" : "IN_ROOM:geast10@ruins",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -604,8 +604,8 @@
    "loc" : {
       "geast18@ruins" : {
          "exits" : {
-            "e" : "geast17",
-            "w" : "geast7"
+            "e" : "geast17@ruins",
+            "w" : "geast7@ruins"
          },
          "flags" : [
             "Dark"
@@ -618,8 +618,8 @@
       },
       "geast15@ruins" : {
          "exits" : {
-            "w" : "geast14",
-            "n" : "geast16"
+            "w" : "geast14@ruins",
+            "n" : "geast16@ruins"
          },
          "flags" : [
             "Dark"
@@ -632,9 +632,9 @@
       },
       "easthall3@ruins" : {
          "exits" : {
-            "e" : "easthall4",
-            "w" : "easthall2",
-            "n" : "gardenrm"
+            "e" : "easthall4@ruins",
+            "w" : "easthall2@ruins",
+            "n" : "gardenrm@ruins"
          },
          "flags" : [
             "Dark"
@@ -647,7 +647,7 @@
       },
       "gardenrm@ruins" : {
          "exits" : {
-            "s" : "easthall3"
+            "s" : "easthall3@ruins"
          },
          "flags" : [],
          "zone" : "ruins",
@@ -670,10 +670,10 @@
       },
       "geast7@ruins" : {
          "exits" : {
-            "w" : "geast8",
-            "e" : "geast18",
-            "n" : "geast6",
-            "s" : "deathroom"
+            "w" : "geast8@ruins",
+            "e" : "geast18@ruins",
+            "n" : "geast6@ruins",
+            "s" : "deathroom@ruins"
          },
          "flags" : [
             "Dark"
@@ -686,7 +686,7 @@
       },
       "northempty1@ruins" : {
          "exits" : {
-            "w" : "northhall2"
+            "w" : "northhall2@ruins"
          },
          "flags" : [
             "Dark"
@@ -699,8 +699,8 @@
       },
       "mossyeast@ruins" : {
          "exits" : {
-            "e" : "sinkhole",
-            "w" : "easthall4"
+            "e" : "sinkhole@ruins",
+            "w" : "easthall4@ruins"
          },
          "flags" : [
             "Dark"
@@ -713,7 +713,7 @@
       },
       "teleportend@ruins" : {
          "exits" : {
-            "n" : "southhall"
+            "n" : "southhall@ruins"
          },
          "flags" : [
             "Dark"
@@ -726,8 +726,8 @@
       },
       "cwest@ruins" : {
          "exits" : {
-            "e" : "levelthree",
-            "s" : "csouth"
+            "e" : "levelthree@ruins",
+            "s" : "csouth@ruins"
          },
          "flags" : [
             "Dark"
@@ -740,7 +740,7 @@
       },
       "bathroom@ruins" : {
          "exits" : {
-            "w" : "westhall6"
+            "w" : "westhall6@ruins"
          },
          "flags" : [
             "Dark",
@@ -754,9 +754,9 @@
       },
       "geast10@ruins" : {
          "exits" : {
-            "w" : "^rmtwooutdoor",
-            "n" : "geast9",
-            "s" : "geast11"
+            "w" : "^rmtwooutdoor@ruins",
+            "n" : "geast9@ruins",
+            "s" : "geast11@ruins"
          },
          "flags" : [
             "Dark"
@@ -769,7 +769,7 @@
       },
       "storeroom2@ruins" : {
          "exits" : {
-            "n" : "^rmthreeindoor"
+            "n" : "^rmthreeindoor@ruins"
          },
          "flags" : [
             "Dark"
@@ -782,7 +782,7 @@
       },
       "mageroom@ruins" : {
          "exits" : {
-            "e" : "magelib"
+            "e" : "magelib@ruins"
          },
          "flags" : [
             "FastMana",
@@ -796,8 +796,8 @@
       },
       "geast5@ruins" : {
          "exits" : {
-            "w" : "geast4",
-            "s" : "geast6"
+            "w" : "geast4@ruins",
+            "s" : "geast6@ruins"
          },
          "flags" : [
             "Dark"
@@ -810,8 +810,8 @@
       },
       "easthall2@ruins" : {
          "exits" : {
-            "e" : "easthall3",
-            "w" : "easthall"
+            "e" : "easthall3@ruins",
+            "w" : "easthall@ruins"
          },
          "flags" : [
             "Dark"
@@ -824,9 +824,9 @@
       },
       "northhall3@ruins" : {
          "exits" : {
-            "w" : "northempty2",
-            "n" : "northhall4",
-            "s" : "northhall2"
+            "w" : "northempty2@ruins",
+            "n" : "northhall4@ruins",
+            "s" : "northhall2@ruins"
          },
          "flags" : [
             "Dark"
@@ -839,8 +839,8 @@
       },
       "southhall@ruins" : {
          "exits" : {
-            "n" : "start",
-            "s" : "teleportend"
+            "n" : "start@ruins",
+            "s" : "teleportend@ruins"
          },
          "flags" : [
             "Dark"
@@ -853,7 +853,7 @@
       },
       "closet1@ruins" : {
          "exits" : {
-            "n" : "westhall4"
+            "n" : "westhall4@ruins"
          },
          "flags" : [
             "Dark"
@@ -866,8 +866,8 @@
       },
       "easthall@ruins" : {
          "exits" : {
-            "e" : "easthall2",
-            "w" : "start"
+            "e" : "easthall2@ruins",
+            "w" : "start@ruins"
          },
          "flags" : [
             "Dark"
@@ -880,11 +880,11 @@
       },
       "start@ruins" : {
          "exits" : {
-            "w" : "westhall",
-            "e" : "easthall",
-            "n" : "northhall",
+            "w" : "westhall@ruins",
+            "e" : "easthall@ruins",
+            "n" : "northhall@ruins",
             "u" : "underruined@blizzard",
-            "s" : "southhall"
+            "s" : "southhall@ruins"
          },
          "flags" : [
             "Dark"
@@ -897,7 +897,7 @@
       },
       "bedroom2@ruins" : {
          "exits" : {
-            "e" : "westhall6"
+            "e" : "westhall6@ruins"
          },
          "flags" : [
             "Dark"
@@ -910,8 +910,8 @@
       },
       "westhall10@ruins" : {
          "exits" : {
-            "e" : "northhall7",
-            "s" : "westhall9"
+            "e" : "northhall7@ruins",
+            "s" : "westhall9@ruins"
          },
          "flags" : [
             "Dark"
@@ -924,8 +924,8 @@
       },
       "easthall4@ruins" : {
          "exits" : {
-            "e" : "mossyeast",
-            "w" : "easthall3"
+            "e" : "mossyeast@ruins",
+            "w" : "easthall3@ruins"
          },
          "flags" : [
             "Dark"
@@ -938,7 +938,7 @@
       },
       "bedroom1@ruins" : {
          "exits" : {
-            "s" : "westhall2"
+            "s" : "westhall2@ruins"
          },
          "flags" : [
             "Dark"
@@ -951,8 +951,8 @@
       },
       "geast8@ruins" : {
          "exits" : {
-            "w" : "geast9",
-            "e" : "geast7"
+            "w" : "geast9@ruins",
+            "e" : "geast7@ruins"
          },
          "flags" : [
             "Dark"
@@ -965,8 +965,8 @@
       },
       "geast2@ruins" : {
          "exits" : {
-            "e" : "geast3",
-            "w" : "geast"
+            "e" : "geast3@ruins",
+            "w" : "geast@ruins"
          },
          "flags" : [
             "Dark"
@@ -979,8 +979,8 @@
       },
       "geast@ruins" : {
          "exits" : {
-            "e" : "geast2",
-            "w" : "gooey"
+            "e" : "geast2@ruins",
+            "w" : "gooey@ruins"
          },
          "flags" : [
             "Dark",
@@ -994,9 +994,9 @@
       },
       "geast16@ruins" : {
          "exits" : {
-            "e" : "^endoutdoor",
-            "n" : "geast17",
-            "s" : "geast15"
+            "e" : "^endoutdoor@ruins",
+            "n" : "geast17@ruins",
+            "s" : "geast15@ruins"
          },
          "flags" : [
             "Dark"
@@ -1009,8 +1009,8 @@
       },
       "geast12@ruins" : {
          "exits" : {
-            "e" : "geast13",
-            "w" : "geast11"
+            "e" : "geast13@ruins",
+            "w" : "geast11@ruins"
          },
          "flags" : [
             "Dark"
@@ -1023,8 +1023,8 @@
       },
       "northhall@ruins" : {
          "exits" : {
-            "n" : "northhall2",
-            "s" : "start"
+            "n" : "northhall2@ruins",
+            "s" : "start@ruins"
          },
          "flags" : [
             "Dark"
@@ -1037,8 +1037,8 @@
       },
       "gnorth2@ruins" : {
          "exits" : {
-            "w" : "^outsidetorch",
-            "s" : "gnorth"
+            "w" : "^outsidetorch@ruins",
+            "s" : "gnorth@ruins"
          },
          "flags" : [
             "Dark"
@@ -1051,10 +1051,10 @@
       },
       "geast13@ruins" : {
          "exits" : {
-            "e" : "geast14",
-            "w" : "geast12",
-            "n" : "deathroom",
-            "s" : "^rmthreeoutdoor"
+            "e" : "geast14@ruins",
+            "w" : "geast12@ruins",
+            "n" : "deathroom@ruins",
+            "s" : "^rmthreeoutdoor@ruins"
          },
          "flags" : [
             "Dark"
@@ -1067,8 +1067,8 @@
       },
       "geast11@ruins" : {
          "exits" : {
-            "e" : "geast12",
-            "n" : "geast10"
+            "e" : "geast12@ruins",
+            "n" : "geast10@ruins"
          },
          "flags" : [
             "Dark"
@@ -1081,8 +1081,8 @@
       },
       "westhall5@ruins" : {
          "exits" : {
-            "n" : "westhall6",
-            "s" : "westhall4"
+            "n" : "westhall6@ruins",
+            "s" : "westhall4@ruins"
          },
          "flags" : [
             "Dark"
@@ -1095,8 +1095,8 @@
       },
       "geast4@ruins" : {
          "exits" : {
-            "e" : "geast5",
-            "w" : "geast3"
+            "e" : "geast5@ruins",
+            "w" : "geast3@ruins"
          },
          "flags" : [
             "Dark"
@@ -1109,8 +1109,8 @@
       },
       "thirdlvlend@ruins" : {
          "exits" : {
-            "e" : "teleport",
-            "w" : "^endindoor"
+            "e" : "teleport@ruins",
+            "w" : "^endindoor@ruins"
          },
          "flags" : [
             "Dark",
@@ -1137,8 +1137,8 @@
       },
       "geast17@ruins" : {
          "exits" : {
-            "w" : "geast18",
-            "s" : "geast16"
+            "w" : "geast18@ruins",
+            "s" : "geast16@ruins"
          },
          "flags" : [
             "Dark"
@@ -1151,9 +1151,9 @@
       },
       "geast3@ruins" : {
          "exits" : {
-            "w" : "geast2",
-            "e" : "geast4",
-            "n" : "storeroom"
+            "w" : "geast2@ruins",
+            "e" : "geast4@ruins",
+            "n" : "storeroom@ruins"
          },
          "flags" : [
             "Dark"
@@ -1166,8 +1166,8 @@
       },
       "csouth@ruins" : {
          "exits" : {
-            "e" : "ceast",
-            "n" : "cwest"
+            "e" : "ceast@ruins",
+            "n" : "cwest@ruins"
          },
          "flags" : [
             "Dark"
@@ -1180,9 +1180,9 @@
       },
       "westhall2@ruins" : {
          "exits" : {
-            "w" : "westhall3",
-            "e" : "westhall",
-            "n" : "bedroom1"
+            "w" : "westhall3@ruins",
+            "e" : "westhall@ruins",
+            "n" : "bedroom1@ruins"
          },
          "flags" : [
             "Dark"
@@ -1207,8 +1207,8 @@
       },
       "gnorth@ruins" : {
          "exits" : {
-            "n" : "gnorth2",
-            "s" : "gooey"
+            "n" : "gnorth2@ruins",
+            "s" : "gooey@ruins"
          },
          "flags" : [
             "Dark"
@@ -1221,8 +1221,8 @@
       },
       "westhall3@ruins" : {
          "exits" : {
-            "w" : "westhall4",
-            "e" : "westhall2"
+            "w" : "westhall4@ruins",
+            "e" : "westhall2@ruins"
          },
          "flags" : [
             "Dark"
@@ -1235,8 +1235,8 @@
       },
       "gsouth@ruins" : {
          "exits" : {
-            "n" : "gooey",
-            "d" : "levelthree"
+            "n" : "gooey@ruins",
+            "d" : "levelthree@ruins"
          },
          "flags" : [
             "Dark",
@@ -1250,7 +1250,7 @@
       },
       "closet2@ruins" : {
          "exits" : {
-            "s" : "northhall6"
+            "s" : "northhall6@ruins"
          },
          "flags" : [
             "Dark"
@@ -1263,8 +1263,8 @@
       },
       "westhall8@ruins" : {
          "exits" : {
-            "e" : "westhall9",
-            "s" : "westhall7"
+            "e" : "westhall9@ruins",
+            "s" : "westhall7@ruins"
          },
          "flags" : [
             "Dark"
@@ -1277,8 +1277,8 @@
       },
       "northhall7@ruins" : {
          "exits" : {
-            "e" : "northhall6",
-            "w" : "westhall10"
+            "e" : "northhall6@ruins",
+            "w" : "westhall10@ruins"
          },
          "flags" : [
             "Dark"
@@ -1291,8 +1291,8 @@
       },
       "geast14@ruins" : {
          "exits" : {
-            "e" : "geast15",
-            "w" : "geast13"
+            "e" : "geast15@ruins",
+            "w" : "geast13@ruins"
          },
          "flags" : [
             "Dark"
@@ -1305,9 +1305,9 @@
       },
       "northhall2@ruins" : {
          "exits" : {
-            "e" : "northempty1",
-            "n" : "northhall3",
-            "s" : "northhall"
+            "e" : "northempty1@ruins",
+            "n" : "northhall3@ruins",
+            "s" : "northhall@ruins"
          },
          "flags" : [
             "Dark"
@@ -1320,7 +1320,7 @@
       },
       "sittingroom@ruins" : {
          "exits" : {
-            "w" : "^insitroom"
+            "w" : "^insitroom@ruins"
          },
          "flags" : [
             "Dark",
@@ -1334,10 +1334,10 @@
       },
       "westhall6@ruins" : {
          "exits" : {
-            "w" : "bedroom2",
-            "e" : "bathroom",
-            "n" : "westhall7",
-            "s" : "westhall5"
+            "w" : "bedroom2@ruins",
+            "e" : "bathroom@ruins",
+            "n" : "westhall7@ruins",
+            "s" : "westhall5@ruins"
          },
          "flags" : [
             "Dark"
@@ -1350,9 +1350,9 @@
       },
       "westhall4@ruins" : {
          "exits" : {
-            "e" : "westhall3",
-            "n" : "westhall5",
-            "s" : "closet1"
+            "e" : "westhall3@ruins",
+            "n" : "westhall5@ruins",
+            "s" : "closet1@ruins"
          },
          "flags" : [
             "Dark"
@@ -1365,9 +1365,9 @@
       },
       "northhall5@ruins" : {
          "exits" : {
-            "e" : "^outsitroom",
-            "w" : "northhall6",
-            "s" : "northhall4"
+            "e" : "^outsitroom@ruins",
+            "w" : "northhall6@ruins",
+            "s" : "northhall4@ruins"
          },
          "flags" : [
             "Dark"
@@ -1380,8 +1380,8 @@
       },
       "northhall4@ruins" : {
          "exits" : {
-            "n" : "northhall5",
-            "s" : "northhall3"
+            "n" : "northhall5@ruins",
+            "s" : "northhall3@ruins"
          },
          "flags" : [
             "Dark"
@@ -1394,7 +1394,7 @@
       },
       "spellroom@ruins" : {
          "exits" : {
-            "e" : "^rmtwoindoor"
+            "e" : "^rmtwoindoor@ruins"
          },
          "flags" : [
             "Dark"
@@ -1407,8 +1407,8 @@
       },
       "magelib@ruins" : {
          "exits" : {
-            "e" : "^insidetorch",
-            "w" : "mageroom"
+            "e" : "^insidetorch@ruins",
+            "w" : "mageroom@ruins"
          },
          "flags" : [
             "FastMana"
@@ -1421,7 +1421,7 @@
       },
       "ceast@ruins" : {
          "exits" : {
-            "w" : "csouth"
+            "w" : "csouth@ruins"
          },
          "flags" : [
             "Dark"
@@ -1434,8 +1434,8 @@
       },
       "geast6@ruins" : {
          "exits" : {
-            "n" : "geast5",
-            "s" : "geast7"
+            "n" : "geast5@ruins",
+            "s" : "geast7@ruins"
          },
          "flags" : [
             "Dark"
@@ -1448,8 +1448,8 @@
       },
       "levelthree@ruins" : {
          "exits" : {
-            "w" : "cwest",
-            "u" : "gooey"
+            "w" : "cwest@ruins",
+            "u" : "gooey@ruins"
          },
          "flags" : [
             "Dark"
@@ -1462,8 +1462,8 @@
       },
       "geast9@ruins" : {
          "exits" : {
-            "e" : "geast8",
-            "s" : "geast10"
+            "e" : "geast8@ruins",
+            "s" : "geast10@ruins"
          },
          "flags" : [
             "Dark"
@@ -1476,8 +1476,8 @@
       },
       "westhall9@ruins" : {
          "exits" : {
-            "w" : "westhall8",
-            "n" : "westhall10"
+            "w" : "westhall8@ruins",
+            "n" : "westhall10@ruins"
          },
          "flags" : [
             "Dark"
@@ -1490,8 +1490,8 @@
       },
       "westhall7@ruins" : {
          "exits" : {
-            "n" : "westhall8",
-            "s" : "westhall6"
+            "n" : "westhall8@ruins",
+            "s" : "westhall6@ruins"
          },
          "flags" : [
             "Dark"
@@ -1504,9 +1504,9 @@
       },
       "northhall6@ruins" : {
          "exits" : {
-            "e" : "northhall5",
-            "w" : "northhall7",
-            "n" : "closet2"
+            "e" : "northhall5@ruins",
+            "w" : "northhall7@ruins",
+            "n" : "closet2@ruins"
          },
          "flags" : [
             "Dark"
@@ -1519,7 +1519,7 @@
       },
       "storeroom@ruins" : {
          "exits" : {
-            "s" : "geast3"
+            "s" : "geast3@ruins"
          },
          "flags" : [
             "Dark",
@@ -1533,9 +1533,9 @@
       },
       "gooey@ruins" : {
          "exits" : {
-            "e" : "geast",
-            "n" : "gnorth",
-            "s" : "gsouth"
+            "e" : "geast@ruins",
+            "n" : "gnorth@ruins",
+            "s" : "gsouth@ruins"
          },
          "flags" : [
             "Dark"
@@ -1548,8 +1548,8 @@
       },
       "westhall@ruins" : {
          "exits" : {
-            "w" : "westhall2",
-            "e" : "start"
+            "w" : "westhall2@ruins",
+            "e" : "start@ruins"
          },
          "flags" : [
             "Dark"
@@ -1562,7 +1562,7 @@
       },
       "northempty2@ruins" : {
          "exits" : {
-            "e" : "northhall3"
+            "e" : "northhall3@ruins"
          },
          "flags" : [
             "Dark"
@@ -1577,7 +1577,7 @@
    "mob" : {
       "mummy@ruins" : {
          "damage" : "10",
-         "location" : "northempty2",
+         "location" : "northempty2@ruins",
          "speed" : "0",
          "aggression" : "80",
          "armor" : "10",
@@ -1590,7 +1590,7 @@
       },
       "jeeves@ruins" : {
          "damage" : "8",
-         "location" : "closet1",
+         "location" : "closet1@ruins",
          "armor" : "0",
          "name" : "Jeeves",
          "description" : "The ghost of Jeeves is here, cleaning away.",
@@ -1605,7 +1605,7 @@
       },
       "skelfive@ruins" : {
          "damage" : "16",
-         "location" : "geast18",
+         "location" : "geast18@ruins",
          "armor" : "10",
          "name" : "skelfive",
          "description" : "A very strong looking skeleton warrior in a black cloak is here.",
@@ -1620,7 +1620,7 @@
       },
       "ant@ruins" : {
          "damage" : "10",
-         "location" : "gardenrm",
+         "location" : "gardenrm@ruins",
          "speed" : "0",
          "aggression" : "80",
          "armor" : "10",
@@ -1630,7 +1630,7 @@
       },
       "rat@ruins" : {
          "damage" : "10",
-         "location" : "northhall7",
+         "location" : "northhall7@ruins",
          "speed" : "10",
          "armor" : "0",
          "name" : "Rat",
@@ -1639,7 +1639,7 @@
       },
       "skelfour@ruins" : {
          "damage" : "8",
-         "location" : "geast15",
+         "location" : "geast15@ruins",
          "armor" : "5",
          "name" : "skelfour",
          "description" : "A very weak, bony skeleton warrior is here.",
@@ -1654,7 +1654,7 @@
       },
       "richard@ruins" : {
          "damage" : "10",
-         "location" : "bedroom2",
+         "location" : "bedroom2@ruins",
          "armor" : "0",
          "name" : "Richard",
          "description" : "The ghost of Prince Richard is here looking for Princess Diaphere.",
@@ -1676,7 +1676,7 @@
             "FearMissile"
          ],
          "damage" : "5",
-         "location" : "gooey",
+         "location" : "gooey@ruins",
          "armor" : "0",
          "name" : "cube",
          "description" : "A gelatinous cube is here, leaving a slimy trail in it's path.",
@@ -1698,7 +1698,7 @@
       },
       "john@ruins" : {
          "damage" : "5",
-         "location" : "bathroom",
+         "location" : "bathroom@ruins",
          "armor" : "0",
          "name" : "John",
          "description" : "Sir John is here.",
@@ -1731,7 +1731,7 @@
             "ImmIceStorm"
          ],
          "damage" : "8",
-         "location" : "mageroom",
+         "location" : "mageroom@ruins",
          "armor" : "20",
          "name" : "Zephere",
          "examine" : "\nZephere is sitting in his chair looking at you quite thoughtfully as \nthough he has something to teach you. He seems to be slightly out of \nfocus as if the light is bending around him which makes him a little\nblurry. As you look over him more, he starts to say something to you:\n\n  'By any chance, do you happen to have a horn or something to crush\n   small items with? I need something of that nature to use for crushing \n   various herbs and plants and I have seemed to misplace my tool for \n   doing so.'\n\nHe then smiles at you quizically.",
@@ -1745,7 +1745,7 @@
       },
       "skelone@ruins" : {
          "damage" : "12",
-         "location" : "geast7",
+         "location" : "geast7@ruins",
          "armor" : "6",
          "name" : "skelone",
          "description" : "A grave looking skeleton warrior is here.",
@@ -1760,7 +1760,7 @@
       },
       "skelthree@ruins" : {
          "damage" : "14",
-         "location" : "geast12",
+         "location" : "geast12@ruins",
          "armor" : "8",
          "name" : "skelthree",
          "description" : "A powerful blue cloaked skeleton warrior is here.",
@@ -1775,7 +1775,7 @@
       },
       "skeltwo@ruins" : {
          "damage" : "12",
-         "location" : "geast10",
+         "location" : "geast10@ruins",
          "armor" : "5",
          "name" : "skeltwo",
          "description" : "A skeleton warrior adorned in a red cloak is here.",
@@ -1790,7 +1790,7 @@
       },
       "mouse@ruins" : {
          "damage" : "8",
-         "location" : "westhall",
+         "location" : "westhall@ruins",
          "speed" : "8",
          "armor" : "0",
          "name" : "Mouse",
@@ -1799,7 +1799,7 @@
       },
       "margoyle@ruins" : {
          "damage" : "12",
-         "location" : "magelib",
+         "location" : "magelib@ruins",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "10",
@@ -1818,7 +1818,7 @@
             "ImmFireball"
          ],
          "damage" : "18",
-         "location" : "csouth",
+         "location" : "csouth@ruins",
          "armor" : "15",
          "name" : "Beholder",
          "description" : "A large, mean looking Beholder is here, hovering in front of you.",
@@ -1831,7 +1831,7 @@
       },
       "diafear@ruins" : {
          "damage" : "8",
-         "location" : "bedroom1",
+         "location" : "bedroom1@ruins",
          "armor" : "0",
          "name" : "Diafear",
          "description" : "The ghost of Princess Diaphere is here moaning and groaning.",
@@ -1848,7 +1848,7 @@
       },
       "spider@ruins" : {
          "damage" : "12",
-         "location" : "westhall9",
+         "location" : "westhall9@ruins",
          "speed" : "8",
          "armor" : "10",
          "name" : "Spider",
@@ -1857,7 +1857,7 @@
       },
       "mantis@ruins" : {
          "damage" : "10",
-         "location" : "gardenrm",
+         "location" : "gardenrm@ruins",
          "speed" : "0",
          "aggression" : "80",
          "armor" : "10",
@@ -1868,7 +1868,7 @@
       },
       "dilbert@ruins" : {
          "damage" : "8",
-         "location" : "closet2",
+         "location" : "closet2@ruins",
          "armor" : "0",
          "name" : "Dilbert",
          "description" : "The ghost of Sir Dilbert is here walking around.",
@@ -1884,7 +1884,7 @@
       },
       "tom@ruins" : {
          "damage" : "10",
-         "location" : "westhall6",
+         "location" : "westhall6@ruins",
          "armor" : "0",
          "name" : "Tom",
          "examine" : "In case you didn't know, that's Sir Tom of Peep..",

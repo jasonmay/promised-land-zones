@@ -2,7 +2,7 @@
    "obj" : {
       "doorn2b@orcholdii" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:neroom1",
+         "location" : "IN_ROOM:neroom1@orcholdii",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -17,7 +17,7 @@
          "desc[0]" : "The door is open."
       },
       "clothes@orcholdii" : {
-         "location" : "IN_ROOM:neroom1",
+         "location" : "IN_ROOM:neroom1@orcholdii",
          "oflags" : [
             "NoGet"
          ],
@@ -25,7 +25,7 @@
          "name" : "clothes"
       },
       "jewels@orcholdii" : {
-         "location" : "IN_ROOM:neroom2",
+         "location" : "IN_ROOM:neroom2@orcholdii",
          "oflags" : [
             "Destroyed"
          ],
@@ -37,7 +37,7 @@
          "desc[0]" : "A mass of jewelery lies here."
       },
       "coin@orcholdii" : {
-         "location" : "IN_ROOM:nwroom1",
+         "location" : "IN_ROOM:nwroom1@orcholdii",
          "oflags" : [
             "Destroyed"
          ],
@@ -47,7 +47,7 @@
       },
       "doors1a@orcholdii" : {
          "desc[1]" : "The west door is closed.",
-         "location" : "IN_ROOM:arch2",
+         "location" : "IN_ROOM:arch2@orcholdii",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -64,7 +64,7 @@
       },
       "suit@orcholdii" : {
          "desc[1]" : "A well starched suit lies on the bed.",
-         "location" : "IN_ROOM:neroom2",
+         "location" : "IN_ROOM:neroom2@orcholdii",
          "oflags" : [
             "GetFlips",
             "Wearable"
@@ -77,7 +77,7 @@
          "desc[0]" : "A crumpled suit lies discarded here."
       },
       "cloak@orcholdii" : {
-         "location" : "IN_ROOM:nwroom1",
+         "location" : "IN_ROOM:nwroom1@orcholdii",
          "armor" : "14",
          "oflags" : [
             "Wearable",
@@ -95,7 +95,7 @@
          "desc[0]" : "A study looking cloak lies here."
       },
       "flask@orcholdii" : {
-         "location" : "IN_ROOM:dining",
+         "location" : "IN_ROOM:dining@orcholdii",
          "oflags" : [
             "Food",
             "Alcohol"
@@ -108,7 +108,7 @@
       },
       "doors1b@orcholdii" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:swroom1",
+         "location" : "IN_ROOM:swroom1@orcholdii",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -124,7 +124,7 @@
       },
       "doorn1a@orcholdii" : {
          "desc[1]" : "The west door is closed.",
-         "location" : "IN_ROOM:arch3",
+         "location" : "IN_ROOM:arch3@orcholdii",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -141,7 +141,7 @@
       },
       "doorn4b@orcholdii" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:neroom2",
+         "location" : "IN_ROOM:neroom2@orcholdii",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -156,7 +156,7 @@
          "desc[0]" : "The door is open."
       },
       "cushions@orcholdii" : {
-         "location" : "IN_ROOM:dining",
+         "location" : "IN_ROOM:dining@orcholdii",
          "oflags" : [
             "NoGet"
          ],
@@ -164,7 +164,7 @@
          "name" : "cushions"
       },
       "wall1@orcholdii" : {
-         "location" : "IN_ROOM:guardroom",
+         "location" : "IN_ROOM:guardroom@orcholdii",
          "oflags" : [
             "NoGet"
          ],
@@ -176,7 +176,7 @@
          "desc[0]" : "The north wall has swung back to reveal another room."
       },
       "chocolate@orcholdii" : {
-         "location" : "IN_ROOM:dining",
+         "location" : "IN_ROOM:dining@orcholdii",
          "oflags" : [
             "Destroyed",
             "Food"
@@ -189,7 +189,7 @@
       },
       "statue@orcholdii" : {
          "desc[1]" : "A half-done statue has been placed on the workbench.",
-         "location" : "IN_ROOM:cell3",
+         "location" : "IN_ROOM:cell3@orcholdii",
          "oflags" : [
             "GetFlips",
             "Destroyed"
@@ -203,7 +203,7 @@
          "desc[0]" : "A statue lies here, discarded."
       },
       "lamb@orcholdii" : {
-         "location" : "IN_ROOM:dining",
+         "location" : "IN_ROOM:dining@orcholdii",
          "oflags" : [
             "Destroyed",
             "Food"
@@ -216,7 +216,7 @@
       },
       "katana@orcholdii" : {
          "damage" : "18",
-         "location" : "WIELDED_BY:Barthalamu",
+         "location" : "WIELDED_BY:barthalamu@orcholdii",
          "oflags" : [
             "Weapon"
          ],
@@ -226,7 +226,7 @@
          "size" : "25"
       },
       "blankets@orcholdii" : {
-         "location" : "IN_ROOM:nwroom1",
+         "location" : "IN_ROOM:nwroom1@orcholdii",
          "oflags" : [
             "NoGet"
          ],
@@ -234,7 +234,7 @@
          "name" : "blankets"
       },
       "workbench@orcholdii" : {
-         "location" : "IN_ROOM:cell3",
+         "location" : "IN_ROOM:cell3@orcholdii",
          "oflags" : [
             "NoGet"
          ],
@@ -243,7 +243,7 @@
       },
       "doors3a@orcholdii" : {
          "desc[1]" : "The west door is closed.",
-         "location" : "IN_ROOM:arch2p2",
+         "location" : "IN_ROOM:arch2p2@orcholdii",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -260,7 +260,7 @@
       },
       "doorn4a@orcholdii" : {
          "desc[1]" : "The east door is closed.",
-         "location" : "IN_ROOM:arch3p2",
+         "location" : "IN_ROOM:arch3p2@orcholdii",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -276,7 +276,7 @@
          "desc[0]" : "The east door is open."
       },
       "boots@orcholdii" : {
-         "location" : "IN_ROOM:neroom1",
+         "location" : "IN_ROOM:neroom1@orcholdii",
          "armor" : "20",
          "oflags" : [
             "Wearable",
@@ -294,7 +294,7 @@
       },
       "doors3b@orcholdii" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:swroom2",
+         "location" : "IN_ROOM:swroom2@orcholdii",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -309,7 +309,7 @@
          "desc[0]" : "The door is open."
       },
       "dinblankets@orcholdii" : {
-         "location" : "IN_ROOM:dining",
+         "location" : "IN_ROOM:dining@orcholdii",
          "oflags" : [
             "NoGet"
          ],
@@ -317,7 +317,7 @@
          "name" : "dinblankets"
       },
       "vault_key@orcholdii" : {
-         "location" : "IN_ROOM:chambers",
+         "location" : "IN_ROOM:chambers@orcholdii",
          "oflags" : [
             "Key",
             "Destroyed"
@@ -331,7 +331,7 @@
       },
       "doors2a@orcholdii" : {
          "desc[1]" : "The east door is closed and covered with yellow tape.",
-         "location" : "IN_ROOM:arch2",
+         "location" : "IN_ROOM:arch2@orcholdii",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -348,7 +348,7 @@
       },
       "doorn2a@orcholdii" : {
          "desc[1]" : "The east door is closed.",
-         "location" : "IN_ROOM:arch3",
+         "location" : "IN_ROOM:arch3@orcholdii",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -365,7 +365,7 @@
       },
       "pick@orcholdii" : {
          "damage" : "11",
-         "location" : "IN_ROOM:seroom2",
+         "location" : "IN_ROOM:seroom2@orcholdii",
          "oflags" : [
             "Weapon"
          ],
@@ -375,7 +375,7 @@
          "size" : "5"
       },
       "bed@orcholdii" : {
-         "location" : "IN_ROOM:nwroom2",
+         "location" : "IN_ROOM:nwroom2@orcholdii",
          "oflags" : [
             "NoGet"
          ],
@@ -383,7 +383,7 @@
          "examine" : "It looks very comfy, but you don't think you'll find anything in it."
       },
       "rug@orcholdii" : {
-         "location" : "IN_ROOM:neroom2",
+         "location" : "IN_ROOM:neroom2@orcholdii",
          "oflags" : [
             "NoGet"
          ],
@@ -391,7 +391,7 @@
          "examine" : "It looks like it was made from... um well.... you probably don't want to know."
       },
       "globe@orcholdii" : {
-         "location" : "IN_ROOM:arch1",
+         "location" : "IN_ROOM:arch1@orcholdii",
          "oflags" : [
             "Destroyed",
             "Lightable",
@@ -405,7 +405,7 @@
       "chisel@orcholdii" : {
          "desc[1]" : "A chisel has been placed on the workbench.",
          "damage" : "3",
-         "location" : "IN_ROOM:cell3",
+         "location" : "IN_ROOM:cell3@orcholdii",
          "oflags" : [
             "GetFlips",
             "Destroyed",
@@ -419,7 +419,7 @@
          "desc[0]" : "A chisel lies here."
       },
       "stand@orcholdii" : {
-         "location" : "IN_ROOM:chambers",
+         "location" : "IN_ROOM:chambers@orcholdii",
          "oflags" : [
             "NoGet"
          ],
@@ -428,7 +428,7 @@
       },
       "doors2b@orcholdii" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:seroom1",
+         "location" : "IN_ROOM:seroom1@orcholdii",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -443,7 +443,7 @@
          "desc[0]" : "The door is open."
       },
       "wall2@orcholdii" : {
-         "location" : "IN_ROOM:sitting",
+         "location" : "IN_ROOM:sitting@orcholdii",
          "oflags" : [
             "NoGet"
          ],
@@ -456,7 +456,7 @@
       },
       "doorn1b@orcholdii" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:nwroom1",
+         "location" : "IN_ROOM:nwroom1@orcholdii",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -471,7 +471,7 @@
          "desc[0]" : "The door is open."
       },
       "tape@orcholdii" : {
-         "location" : "IN_ROOM:arch2",
+         "location" : "IN_ROOM:arch2@orcholdii",
          "oflags" : [
             "NoGet"
          ],
@@ -479,7 +479,7 @@
          "examine" : "Some bright yellow tape with 'Do Not Enter' written all over the place."
       },
       "queenwardrobe@orcholdii" : {
-         "location" : "IN_ROOM:chambers",
+         "location" : "IN_ROOM:chambers@orcholdii",
          "oflags" : [
             "NoGet"
          ],
@@ -489,7 +489,7 @@
       },
       "doors4a@orcholdii" : {
          "desc[1]" : "The east door is closed.",
-         "location" : "IN_ROOM:arch2p2",
+         "location" : "IN_ROOM:arch2p2@orcholdii",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -506,7 +506,7 @@
       },
       "doorn3a@orcholdii" : {
          "desc[1]" : "The west door is closed.",
-         "location" : "IN_ROOM:arch3p2",
+         "location" : "IN_ROOM:arch3p2@orcholdii",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -522,14 +522,14 @@
          "desc[0]" : "The west door is open."
       },
       "sconce@orcholdii" : {
-         "location" : "IN_ROOM:arch1",
+         "location" : "IN_ROOM:arch1@orcholdii",
          "oflags" : [
             "NoGet"
          ],
          "name" : "sconce"
       },
       "keg@orcholdii" : {
-         "location" : "IN_ROOM:dining",
+         "location" : "IN_ROOM:dining@orcholdii",
          "oflags" : [
             "Food",
             "Alcohol"
@@ -541,7 +541,7 @@
          "size" : "20"
       },
       "breastplate@orcholdii" : {
-         "location" : "WORN_BY:Barthalamu",
+         "location" : "WORN_BY:barthalamu@orcholdii",
          "armor" : "35",
          "oflags" : [
             "Wearable",
@@ -558,7 +558,7 @@
       },
       "doors4b@orcholdii" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:seroom2",
+         "location" : "IN_ROOM:seroom2@orcholdii",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -574,7 +574,7 @@
       },
       "doorn3b@orcholdii" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:nwroom2",
+         "location" : "IN_ROOM:nwroom2@orcholdii",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -589,7 +589,7 @@
          "desc[0]" : "The door is open."
       },
       "cigars@orcholdii" : {
-         "location" : "IN_ROOM:swroom2",
+         "location" : "IN_ROOM:swroom2@orcholdii",
          "oflags" : [
             "Lightable"
          ],
@@ -599,7 +599,7 @@
          "size" : "1"
       },
       "button@orcholdii" : {
-         "location" : "IN_ROOM:chambers",
+         "location" : "IN_ROOM:chambers@orcholdii",
          "oflags" : [
             "Destroyed",
             "NoGet",
@@ -611,7 +611,7 @@
          "state" : "0"
       },
       "pie@orcholdii" : {
-         "location" : "IN_ROOM:kitchen",
+         "location" : "IN_ROOM:kitchen@orcholdii",
          "oflags" : [
             "Food"
          ],
@@ -621,7 +621,7 @@
          "size" : "2"
       },
       "wardrobe@orcholdii" : {
-         "location" : "IN_ROOM:nwroom1",
+         "location" : "IN_ROOM:nwroom1@orcholdii",
          "oflags" : [
             "NoGet"
          ],
@@ -629,7 +629,7 @@
          "name" : "wardrobe"
       },
       "roomdesk@orcholdii" : {
-         "location" : "IN_ROOM:neroom2",
+         "location" : "IN_ROOM:neroom2@orcholdii",
          "oflags" : [
             "NoGet"
          ],
@@ -638,7 +638,7 @@
          "name" : "roomdesk"
       },
       "mattress@orcholdii" : {
-         "location" : "IN_ROOM:cell1",
+         "location" : "IN_ROOM:cell1@orcholdii",
          "oflags" : [
             "NoGet"
          ],
@@ -650,7 +650,7 @@
    "loc" : {
       "cell2@orcholdii" : {
          "exits" : {
-            "e" : "guardroom"
+            "e" : "guardroom@orcholdii"
          },
          "flags" : [
             "DARK"
@@ -663,7 +663,7 @@
       },
       "nwroom2@orcholdii" : {
          "exits" : {
-            "e" : "^doorn3b"
+            "e" : "^doorn3b@orcholdii"
          },
          "flags" : [],
          "zone" : "orcholdii",
@@ -674,10 +674,10 @@
       },
       "arch3@orcholdii" : {
          "exits" : {
-            "e" : "^doorn2a",
-            "w" : "^doorn1a",
-            "n" : "arch3p2",
-            "s" : "entry"
+            "e" : "^doorn2a@orcholdii",
+            "w" : "^doorn1a@orcholdii",
+            "n" : "arch3p2@orcholdii",
+            "s" : "entry@orcholdii"
          },
          "flags" : [],
          "zone" : "orcholdii",
@@ -688,9 +688,9 @@
       },
       "arch3p2@orcholdii" : {
          "exits" : {
-            "e" : "^doorn4a",
-            "w" : "^doorn3a",
-            "s" : "arch3"
+            "e" : "^doorn4a@orcholdii",
+            "w" : "^doorn3a@orcholdii",
+            "s" : "arch3@orcholdii"
          },
          "flags" : [],
          "zone" : "orcholdii",
@@ -701,7 +701,7 @@
       },
       "cell1@orcholdii" : {
          "exits" : {
-            "w" : "guardroom"
+            "w" : "guardroom@orcholdii"
          },
          "flags" : [
             "DARK"
@@ -714,8 +714,8 @@
       },
       "dining@orcholdii" : {
          "exits" : {
-            "n" : "arch1",
-            "s" : "kitchen"
+            "n" : "arch1@orcholdii",
+            "s" : "kitchen@orcholdii"
          },
          "flags" : [],
          "zone" : "orcholdii",
@@ -726,7 +726,7 @@
       },
       "nwroom1@orcholdii" : {
          "exits" : {
-            "e" : "^doorn1b"
+            "e" : "^doorn1b@orcholdii"
          },
          "flags" : [
             "DARK"
@@ -739,7 +739,7 @@
       },
       "kitchen@orcholdii" : {
          "exits" : {
-            "n" : "dining"
+            "n" : "dining@orcholdii"
          },
          "flags" : [],
          "zone" : "orcholdii",
@@ -750,10 +750,10 @@
       },
       "arch2@orcholdii" : {
          "exits" : {
-            "e" : "^doors2a",
-            "w" : "^doors1a",
-            "n" : "entry",
-            "s" : "arch2p2"
+            "e" : "^doors2a@orcholdii",
+            "w" : "^doors1a@orcholdii",
+            "n" : "entry@orcholdii",
+            "s" : "arch2p2@orcholdii"
          },
          "flags" : [],
          "zone" : "orcholdii",
@@ -764,8 +764,8 @@
       },
       "audience@orcholdii" : {
          "exits" : {
-            "e" : "entry",
-            "s" : "sitting"
+            "e" : "entry@orcholdii",
+            "s" : "sitting@orcholdii"
          },
          "flags" : [],
          "zone" : "orcholdii",
@@ -776,7 +776,7 @@
       },
       "balcony@orcholdii" : {
          "exits" : {
-            "d" : "entry"
+            "d" : "entry@orcholdii"
          },
          "flags" : [],
          "zone" : "orcholdii",
@@ -787,9 +787,9 @@
       },
       "arch1@orcholdii" : {
          "exits" : {
-            "w" : "audience",
-            "e" : "entry",
-            "s" : "dining"
+            "w" : "audience@orcholdii",
+            "e" : "entry@orcholdii",
+            "s" : "dining@orcholdii"
          },
          "flags" : [],
          "zone" : "orcholdii",
@@ -800,7 +800,7 @@
       },
       "seroom1@orcholdii" : {
          "exits" : {
-            "w" : "^doors2b"
+            "w" : "^doors2b@orcholdii"
          },
          "flags" : [
             "DEATH",
@@ -814,11 +814,11 @@
       },
       "entry@orcholdii" : {
          "exits" : {
-            "w" : "arch1",
-            "e" : "hallway",
-            "u" : "balcony",
-            "n" : "arch3",
-            "s" : "arch2"
+            "w" : "arch1@orcholdii",
+            "e" : "hallway@orcholdii",
+            "u" : "balcony@orcholdii",
+            "n" : "arch3@orcholdii",
+            "s" : "arch2@orcholdii"
          },
          "flags" : [],
          "zone" : "orcholdii",
@@ -829,9 +829,9 @@
       },
       "sitting@orcholdii" : {
          "exits" : {
-            "w" : "chambers",
-            "n" : "audience",
-            "s" : "^wall2"
+            "w" : "chambers@orcholdii",
+            "n" : "audience@orcholdii",
+            "s" : "^wall2@orcholdii"
          },
          "flags" : [],
          "zone" : "orcholdii",
@@ -842,7 +842,7 @@
       },
       "neroom2@orcholdii" : {
          "exits" : {
-            "w" : "^doorn4b"
+            "w" : "^doorn4b@orcholdii"
          },
          "flags" : [],
          "zone" : "orcholdii",
@@ -853,7 +853,7 @@
       },
       "cell3@orcholdii" : {
          "exits" : {
-            "n" : "guardroom"
+            "n" : "guardroom@orcholdii"
          },
          "flags" : [
             "DARK"
@@ -866,10 +866,10 @@
       },
       "guardroom@orcholdii" : {
          "exits" : {
-            "w" : "cell2",
-            "e" : "cell1",
-            "n" : "^wall1",
-            "s" : "cell3"
+            "w" : "cell2@orcholdii",
+            "e" : "cell1@orcholdii",
+            "n" : "^wall1@orcholdii",
+            "s" : "cell3@orcholdii"
          },
          "flags" : [],
          "zone" : "orcholdii",
@@ -880,7 +880,7 @@
       },
       "swroom2@orcholdii" : {
          "exits" : {
-            "e" : "^doors3b"
+            "e" : "^doors3b@orcholdii"
          },
          "flags" : [],
          "zone" : "orcholdii",
@@ -891,9 +891,9 @@
       },
       "arch2p2@orcholdii" : {
          "exits" : {
-            "e" : "^doors4a",
-            "w" : "^doors3a",
-            "n" : "arch2"
+            "e" : "^doors4a@orcholdii",
+            "w" : "^doors3a@orcholdii",
+            "n" : "arch2@orcholdii"
          },
          "flags" : [],
          "zone" : "orcholdii",
@@ -904,8 +904,8 @@
       },
       "hallway@orcholdii" : {
          "exits" : {
-            "e" : "Hallway3@orchold",
-            "w" : "entry"
+            "e" : "hallway3@orchold",
+            "w" : "entry@orcholdii"
          },
          "flags" : [
             "DARK",
@@ -919,7 +919,7 @@
       },
       "swroom1@orcholdii" : {
          "exits" : {
-            "e" : "^doors1b"
+            "e" : "^doors1b@orcholdii"
          },
          "flags" : [
             "DARK"
@@ -932,7 +932,7 @@
       },
       "neroom1@orcholdii" : {
          "exits" : {
-            "w" : "^doorn2b"
+            "w" : "^doorn2b@orcholdii"
          },
          "flags" : [
             "DARK"
@@ -945,7 +945,7 @@
       },
       "chambers@orcholdii" : {
          "exits" : {
-            "e" : "sitting"
+            "e" : "sitting@orcholdii"
          },
          "flags" : [],
          "zone" : "orcholdii",
@@ -956,7 +956,7 @@
       },
       "seroom2@orcholdii" : {
          "exits" : {
-            "w" : "^doors4b"
+            "w" : "^doors4b@orcholdii"
          },
          "flags" : [],
          "zone" : "orcholdii",
@@ -969,7 +969,7 @@
    "mob" : {
       "jason@orcholdii" : {
          "damage" : "10",
-         "location" : "entry",
+         "location" : "entry@orcholdii",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "95",
@@ -979,7 +979,7 @@
       },
       "larry@orcholdii" : {
          "damage" : "10",
-         "location" : "cell1",
+         "location" : "cell1@orcholdii",
          "armor" : "0",
          "name" : "larry",
          "description" : "A dwarf in tattered clothes stands here.",
@@ -990,7 +990,7 @@
       },
       "spot@orcholdii" : {
          "damage" : "15",
-         "location" : "arch3",
+         "location" : "arch3@orcholdii",
          "speed" : "5",
          "armor" : "0",
          "aggression" : "96",
@@ -1000,7 +1000,7 @@
       },
       "rover@orcholdii" : {
          "damage" : "15",
-         "location" : "arch2",
+         "location" : "arch2@orcholdii",
          "speed" : "5",
          "armor" : "0",
          "aggression" : "96",
@@ -1010,7 +1010,7 @@
       },
       "brad@orcholdii" : {
          "damage" : "10",
-         "location" : "entry",
+         "location" : "entry@orcholdii",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "95",
@@ -1027,7 +1027,7 @@
             "NegFrost"
          ],
          "damage" : "32",
-         "location" : "chambers",
+         "location" : "chambers@orcholdii",
          "armor" : "0",
          "name" : "blanch",
          "examine" : "She hungers, and would rather eat than fight with infidels.",
@@ -1045,7 +1045,7 @@
       },
       "hilda@orcholdii" : {
          "damage" : "10",
-         "location" : "arch1",
+         "location" : "arch1@orcholdii",
          "armor" : "0",
          "name" : "hilda",
          "description" : "Hilda the Orcish maid charges you with her feather duster drawn.",
@@ -1058,7 +1058,7 @@
       },
       "curly@orcholdii" : {
          "damage" : "10",
-         "location" : "cell2",
+         "location" : "cell2@orcholdii",
          "armor" : "0",
          "name" : "curly",
          "description" : "A dwarf in worn clothes stands here.",
@@ -1069,7 +1069,7 @@
       },
       "art@orcholdii" : {
          "damage" : "7",
-         "location" : "entry",
+         "location" : "entry@orcholdii",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "10",
@@ -1079,7 +1079,7 @@
       },
       "barthalamu@orcholdii" : {
          "damage" : "8",
-         "location" : "guardroom",
+         "location" : "guardroom@orcholdii",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "80",
@@ -1089,7 +1089,7 @@
       },
       "veronica@orcholdii" : {
          "damage" : "10",
-         "location" : "entry",
+         "location" : "entry@orcholdii",
          "armor" : "0",
          "name" : "veronica",
          "description" : "Veronica Orc in a ballroom dress rushes towards you.",
@@ -1102,7 +1102,7 @@
       },
       "moe@orcholdii" : {
          "damage" : "10",
-         "location" : "cell3",
+         "location" : "cell3@orcholdii",
          "armor" : "0",
          "name" : "moe",
          "description" : "A dwarf in clean clothes stands here.",
@@ -1113,7 +1113,7 @@
       },
       "buffy@orcholdii" : {
          "damage" : "10",
-         "location" : "entry",
+         "location" : "entry@orcholdii",
          "armor" : "0",
          "name" : "Buffy",
          "description" : "Buffy Orc in a ballroom dress rushes towards you menacingly.",

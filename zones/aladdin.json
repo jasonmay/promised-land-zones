@@ -2,7 +2,7 @@
    "obj" : {
       "door2_west@aladdin" : {
          "desc[1]" : "There is a closed steel door.",
-         "location" : "IN_ROOM:palace8",
+         "location" : "IN_ROOM:palace8@aladdin",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -18,7 +18,7 @@
          "desc[0]" : "There is an open steel door."
       },
       "ruby@aladdin" : {
-         "location" : "IN_ROOM:gold7",
+         "location" : "IN_ROOM:gold7@aladdin",
          "oflags" : [
             "NoGet"
          ],
@@ -29,7 +29,7 @@
       },
       "carpet@aladdin" : {
          "desc[1]" : "A magic carpet stands here waving to you.",
-         "location" : "IN_ROOM:gold5",
+         "location" : "IN_ROOM:gold5@aladdin",
          "oflags" : [
             "GetFlips"
          ],
@@ -44,7 +44,7 @@
          "desc[0]" : "A carpet has been tossed to the side here."
       },
       "block@aladdin" : {
-         "location" : "IN_ROOM:palace6",
+         "location" : "IN_ROOM:palace6@aladdin",
          "oflags" : [
             "NoGet"
          ],
@@ -54,7 +54,7 @@
          "maxstate" : "0"
       },
       "blockage_up@aladdin" : {
-         "location" : "IN_ROOM:cave",
+         "location" : "IN_ROOM:cave@aladdin",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -69,7 +69,7 @@
       },
       "door1_west@aladdin" : {
          "desc[1]" : "There is a closed oak door.",
-         "location" : "IN_ROOM:palace7",
+         "location" : "IN_ROOM:palace7@aladdin",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -85,7 +85,7 @@
          "desc[0]" : "There is an open oak door."
       },
       "coins@aladdin" : {
-         "location" : "IN_ROOM:gold4",
+         "location" : "IN_ROOM:gold4@aladdin",
          "oflags" : "{}",
          "name" : "coins",
          "size" : "4",
@@ -97,7 +97,7 @@
       },
       "cracker@aladdin" : {
          "desc[1]" : "A cracker, Iago least favorite food item, lies untouched on the floor.",
-         "location" : "IN_ROOM:palace8",
+         "location" : "IN_ROOM:palace8@aladdin",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -113,7 +113,7 @@
       },
       "guardsword@aladdin" : {
          "damage" : "10",
-         "location" : "IN_ROOM:palace1",
+         "location" : "IN_ROOM:palace1@aladdin",
          "oflags" : [
             "Weapon"
          ],
@@ -126,7 +126,7 @@
          "desc[0]" : "A castle guard has accidently left a sword lying around."
       },
       "flame@aladdin" : {
-         "location" : "IN_ROOM:gold3",
+         "location" : "IN_ROOM:gold3@aladdin",
          "oflags" : [
             "NoGet",
             "Lit"
@@ -137,7 +137,7 @@
          "desc[0]" : "In the room's center sits a flame in a ring of stones."
       },
       "orange@aladdin" : {
-         "location" : "IN_ROOM:oasis3",
+         "location" : "IN_ROOM:oasis3@aladdin",
          "oflags" : [
             "food"
          ],
@@ -150,7 +150,7 @@
          "desc[0]" : "An orange lies here on the ground."
       },
       "key@aladdin" : {
-         "location" : "IN_CONTAINER:drawer",
+         "location" : "IN_CONTAINER:drawer@aladdin",
          "oflags" : [
             "Key"
          ],
@@ -163,7 +163,7 @@
          "desc[0]" : "A key has been left here."
       },
       "banana@aladdin" : {
-         "location" : "IN_ROOM:oasis4",
+         "location" : "IN_ROOM:oasis4@aladdin",
          "oflags" : [
             "food"
          ],
@@ -177,7 +177,7 @@
       },
       "hourglass@aladdin" : {
          "desc[1]" : "Princess Jasmine is here, struggling to breathe in a quickly filling hourglass.",
-         "location" : "IN_ROOM:palace9",
+         "location" : "IN_ROOM:palace9@aladdin",
          "oflags" : [
             "NoGet"
          ],
@@ -189,7 +189,7 @@
          "desc[0]" : "Sand is spilled everywhere from a broken hourglass."
       },
       "sesame_north@aladdin" : {
-         "location" : "IN_ROOM:palace6",
+         "location" : "IN_ROOM:palace6@aladdin",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -203,7 +203,7 @@
       },
       "snakestaff@aladdin" : {
          "damage" : "23",
-         "location" : "WIELDED_BY:jafar",
+         "location" : "WIELDED_BY:jafar@aladdin",
          "oflags" : [
             "weapon",
             "lit"
@@ -218,7 +218,7 @@
          "desc[0]" : "Jafer's Snake Staff lies here, eyes glowing."
       },
       "tree@aladdin" : {
-         "location" : "IN_ROOM:oasis5",
+         "location" : "IN_ROOM:oasis5@aladdin",
          "oflags" : [
             "NoGet"
          ],
@@ -227,7 +227,7 @@
       },
       "turban@aladdin" : {
          "desc[1]" : "You found a turban hanging here.",
-         "location" : "IN_ROOM:oasis5",
+         "location" : "IN_ROOM:oasis5@aladdin",
          "armor" : "3",
          "oflags" : [
             "Container",
@@ -251,7 +251,7 @@
       },
       "cracker1@aladdin" : {
          "desc[1]" : "A cracker, Iago least favorite food item, lies untouched on the floor.",
-         "location" : "IN_ROOM:palace8",
+         "location" : "IN_ROOM:palace8@aladdin",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -267,7 +267,7 @@
       },
       "lamp@aladdin" : {
          "desc[1]" : "An old dirty lamp sits here on a lighted pedastal.",
-         "location" : "IN_ROOM:gold10",
+         "location" : "IN_ROOM:gold10@aladdin",
          "oflags" : [
             "GetFlips"
          ],
@@ -281,7 +281,7 @@
          "desc[0]" : "An old lamp has been dropped here."
       },
       "torch@aladdin" : {
-         "location" : "IN_ROOM:gold2",
+         "location" : "IN_ROOM:gold2@aladdin",
          "oflags" : [
             "Lightable",
             "Extinguish"
@@ -295,7 +295,7 @@
          "desc[0]" : "A worn and used old torch has been left here."
       },
       "blockage_down@aladdin" : {
-         "location" : "IN_ROOM:entry",
+         "location" : "IN_ROOM:entry@aladdin",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -310,7 +310,7 @@
       },
       "door3_up@aladdin" : {
          "desc[1]" : "There is a closed oak door.",
-         "location" : "IN_ROOM:palace9",
+         "location" : "IN_ROOM:palace9@aladdin",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -326,7 +326,7 @@
       },
       "door3_down@aladdin" : {
          "desc[1]" : "There is a closed oak door.",
-         "location" : "IN_ROOM:tower",
+         "location" : "IN_ROOM:tower@aladdin",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -342,7 +342,7 @@
       },
       "door1_east@aladdin" : {
          "desc[1]" : "There is a closed oak door.",
-         "location" : "IN_ROOM:palace8",
+         "location" : "IN_ROOM:palace8@aladdin",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -357,7 +357,7 @@
          "desc[0]" : "There is an open oak door."
       },
       "gems@aladdin" : {
-         "location" : "IN_ROOM:gold6",
+         "location" : "IN_ROOM:gold6@aladdin",
          "oflags" : "{}",
          "name" : "gems",
          "size" : "5",
@@ -368,7 +368,7 @@
          "desc[0]" : "A bag of gems lies here."
       },
       "sesame_south@aladdin" : {
-         "location" : "IN_ROOM:palace7",
+         "location" : "IN_ROOM:palace7@aladdin",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -382,7 +382,7 @@
       },
       "cape@aladdin" : {
          "desc[1]" : "The genie has left you a princess's cape.",
-         "location" : "IN_ROOM:parade",
+         "location" : "IN_ROOM:parade@aladdin",
          "armor" : "25",
          "oflags" : [
             "Wearable",
@@ -403,7 +403,7 @@
       },
       "door2_east@aladdin" : {
          "desc[1]" : "There is a closed steel door.",
-         "location" : "IN_ROOM:palace9",
+         "location" : "IN_ROOM:palace9@aladdin",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -419,7 +419,7 @@
          "desc[0]" : "There is an open steel door."
       },
       "drawer@aladdin" : {
-         "location" : "IN_ROOM:palace12",
+         "location" : "IN_ROOM:palace12@aladdin",
          "oflags" : [
             "Container",
             "NoGet"
@@ -433,7 +433,7 @@
          "bvalue" : "0"
       },
       "apple@aladdin" : {
-         "location" : "IN_ROOM:oasis2",
+         "location" : "IN_ROOM:oasis2@aladdin",
          "oflags" : [
             "food"
          ],
@@ -449,9 +449,9 @@
    "loc" : {
       "sdesert@aladdin" : {
          "exits" : {
-            "e" : "desertSD48@sdesert",
-            "w" : "entry",
-            "d" : "entry"
+            "e" : "desertsd48@sdesert",
+            "w" : "entry@aladdin",
+            "d" : "entry@aladdin"
          },
          "flags" : [
             "Outdoors",
@@ -465,7 +465,7 @@
       },
       "oasis5@aladdin" : {
          "exits" : {
-            "n" : "oasis1"
+            "n" : "oasis1@aladdin"
          },
          "flags" : [
             "Light",
@@ -479,8 +479,8 @@
       },
       "palace9@aladdin" : {
          "exits" : {
-            "e" : "^door2_east",
-            "u" : "^door3_up"
+            "e" : "^door2_east@aladdin",
+            "u" : "^door3_up@aladdin"
          },
          "flags" : [
             "Light"
@@ -493,7 +493,7 @@
       },
       "oasis2@aladdin" : {
          "exits" : {
-            "w" : "oasis1"
+            "w" : "oasis1@aladdin"
          },
          "flags" : [
             "Light",
@@ -507,8 +507,8 @@
       },
       "palace10@aladdin" : {
          "exits" : {
-            "w" : "palace1",
-            "e" : "palace11"
+            "w" : "palace1@aladdin",
+            "e" : "palace11@aladdin"
          },
          "flags" : [
             "Dark"
@@ -533,7 +533,7 @@
       },
       "gold4@aladdin" : {
          "exits" : {
-            "w" : "gold3"
+            "w" : "gold3@aladdin"
          },
          "flags" : [
             "Light"
@@ -546,8 +546,8 @@
       },
       "palace6@aladdin" : {
          "exits" : {
-            "w" : "palace5",
-            "n" : "^sesame_north"
+            "w" : "palace5@aladdin",
+            "n" : "^sesame_north@aladdin"
          },
          "flags" : [
             "Dark"
@@ -561,7 +561,7 @@
       "tower@aladdin" : {
          "exits" : {
             "d" : "e_pass@blizzard",
-            "s" : "stairs"
+            "s" : "stairs@aladdin"
          },
          "flags" : [
             "Light"
@@ -574,8 +574,8 @@
       },
       "gold5@aladdin" : {
          "exits" : {
-            "e" : "gold1",
-            "s" : "gold6"
+            "e" : "gold1@aladdin",
+            "s" : "gold6@aladdin"
          },
          "flags" : [
             "Light"
@@ -588,9 +588,9 @@
       },
       "gold9@aladdin" : {
          "exits" : {
-            "e" : "gold10",
-            "w" : "gold8",
-            "d" : "slip"
+            "e" : "gold10@aladdin",
+            "w" : "gold8@aladdin",
+            "d" : "slip@aladdin"
          },
          "flags" : [
             "Light"
@@ -603,8 +603,8 @@
       },
       "stairs@aladdin" : {
          "exits" : {
-            "n" : "tower",
-            "d" : "^door3_down"
+            "n" : "tower@aladdin",
+            "d" : "^door3_down@aladdin"
          },
          "flags" : [
             "Light"
@@ -617,7 +617,7 @@
       },
       "gold2@aladdin" : {
          "exits" : {
-            "w" : "gold1"
+            "w" : "gold1@aladdin"
          },
          "flags" : [
             "Light"
@@ -630,8 +630,8 @@
       },
       "gold6@aladdin" : {
          "exits" : {
-            "n" : "gold5",
-            "s" : "gold7"
+            "n" : "gold5@aladdin",
+            "s" : "gold7@aladdin"
          },
          "flags" : [
             "Light"
@@ -655,7 +655,7 @@
       },
       "gold10@aladdin" : {
          "exits" : {
-            "w" : "gold9"
+            "w" : "gold9@aladdin"
          },
          "flags" : [
             "Light"
@@ -679,8 +679,8 @@
       },
       "palace11@aladdin" : {
          "exits" : {
-            "w" : "palace10",
-            "e" : "palace12"
+            "w" : "palace10@aladdin",
+            "e" : "palace12@aladdin"
          },
          "flags" : [
             "Dark"
@@ -693,8 +693,8 @@
       },
       "gold8@aladdin" : {
          "exits" : {
-            "w" : "gold7",
-            "e" : "gold9"
+            "w" : "gold7@aladdin",
+            "e" : "gold9@aladdin"
          },
          "flags" : [
             "Dark"
@@ -707,8 +707,8 @@
       },
       "gold3@aladdin" : {
          "exits" : {
-            "e" : "gold4",
-            "n" : "gold1"
+            "e" : "gold4@aladdin",
+            "n" : "gold1@aladdin"
          },
          "flags" : [
             "Light"
@@ -721,9 +721,9 @@
       },
       "entry@aladdin" : {
          "exits" : {
-            "e" : "sdesert",
-            "u" : "sdesert",
-            "d" : "^blockage_down"
+            "e" : "sdesert@aladdin",
+            "u" : "sdesert@aladdin",
+            "d" : "^blockage_down@aladdin"
          },
          "flags" : [
             "Light",
@@ -738,10 +738,10 @@
       },
       "oasis1@aladdin" : {
          "exits" : {
-            "w" : "oasis4",
-            "e" : "oasis2",
-            "n" : "oasis3",
-            "s" : "oasis5"
+            "w" : "oasis4@aladdin",
+            "e" : "oasis2@aladdin",
+            "n" : "oasis3@aladdin",
+            "s" : "oasis5@aladdin"
          },
          "flags" : [
             "Light",
@@ -755,8 +755,8 @@
       },
       "palace2@aladdin" : {
          "exits" : {
-            "n" : "palace1",
-            "s" : "palace3"
+            "n" : "palace1@aladdin",
+            "s" : "palace3@aladdin"
          },
          "flags" : [
             "Dark"
@@ -791,7 +791,7 @@
       },
       "palace12@aladdin" : {
          "exits" : {
-            "w" : "palace11"
+            "w" : "palace11@aladdin"
          },
          "flags" : [
             "Light"
@@ -804,8 +804,8 @@
       },
       "palace5@aladdin" : {
          "exits" : {
-            "e" : "palace6",
-            "w" : "palace4"
+            "e" : "palace6@aladdin",
+            "w" : "palace4@aladdin"
          },
          "flags" : [
             "Dark"
@@ -818,8 +818,8 @@
       },
       "palace7@aladdin" : {
          "exits" : {
-            "w" : "^door1_west",
-            "s" : "^sesame_south"
+            "w" : "^door1_west@aladdin",
+            "s" : "^sesame_south@aladdin"
          },
          "flags" : [
             "Dark"
@@ -832,10 +832,10 @@
       },
       "gold1@aladdin" : {
          "exits" : {
-            "w" : "gold5",
-            "e" : "gold2",
-            "u" : "cave",
-            "s" : "gold3"
+            "w" : "gold5@aladdin",
+            "e" : "gold2@aladdin",
+            "u" : "cave@aladdin",
+            "s" : "gold3@aladdin"
          },
          "flags" : [
             "Light"
@@ -848,7 +848,7 @@
       },
       "oasis4@aladdin" : {
          "exits" : {
-            "e" : "oasis1"
+            "e" : "oasis1@aladdin"
          },
          "flags" : [
             "Light",
@@ -862,7 +862,7 @@
       },
       "oasis3@aladdin" : {
          "exits" : {
-            "s" : "oasis1"
+            "s" : "oasis1@aladdin"
          },
          "flags" : [
             "Light",
@@ -876,8 +876,8 @@
       },
       "palace4@aladdin" : {
          "exits" : {
-            "e" : "palace5",
-            "w" : "palace3"
+            "e" : "palace5@aladdin",
+            "w" : "palace3@aladdin"
          },
          "flags" : [
             "Dark"
@@ -890,8 +890,8 @@
       },
       "palace8@aladdin" : {
          "exits" : {
-            "e" : "^door1_east",
-            "w" : "^door2_west"
+            "e" : "^door1_east@aladdin",
+            "w" : "^door2_west@aladdin"
          },
          "flags" : [
             "Dark"
@@ -904,8 +904,8 @@
       },
       "gold7@aladdin" : {
          "exits" : {
-            "e" : "gold8",
-            "n" : "gold6"
+            "e" : "gold8@aladdin",
+            "n" : "gold6@aladdin"
          },
          "flags" : [
             "Light"
@@ -918,8 +918,8 @@
       },
       "palace3@aladdin" : {
          "exits" : {
-            "e" : "palace4",
-            "n" : "palace2"
+            "e" : "palace4@aladdin",
+            "n" : "palace2@aladdin"
          },
          "flags" : [
             "Dark"
@@ -932,8 +932,8 @@
       },
       "palace1@aladdin" : {
          "exits" : {
-            "e" : "palace10",
-            "s" : "palace2"
+            "e" : "palace10@aladdin",
+            "s" : "palace2@aladdin"
          },
          "flags" : [
             "Dark",
@@ -947,8 +947,8 @@
       },
       "cave@aladdin" : {
          "exits" : {
-            "u" : "^blockage_up",
-            "d" : "gold1"
+            "u" : "^blockage_up@aladdin",
+            "d" : "gold1@aladdin"
          },
          "flags" : [
             "Light",
@@ -963,7 +963,7 @@
       },
       "parade@aladdin" : {
          "exits" : {
-            "s" : "palace"
+            "s" : "palace@aladdin"
          },
          "flags" : [
             "Light"
@@ -978,7 +978,7 @@
    "mob" : {
       "guard9@aladdin" : {
          "damage" : "10",
-         "location" : "palace12",
+         "location" : "palace12@aladdin",
          "armor" : "0",
          "name" : "guard9",
          "description" : "Ashkan, the guard leader, is not pleased to see you.",
@@ -992,7 +992,7 @@
       },
       "abu@aladdin" : {
          "damage" : "5",
-         "location" : "cave",
+         "location" : "cave@aladdin",
          "armor" : "100",
          "name" : "abu",
          "examine" : "Abu flips for you.",
@@ -1007,7 +1007,7 @@
       },
       "princess@aladdin" : {
          "damage" : "5",
-         "location" : "palace",
+         "location" : "palace@aladdin",
          "armor" : "100",
          "name" : "princess",
          "description" : "Princess Jasmine stares deeply into your eyes.",
@@ -1021,7 +1021,7 @@
       },
       "guard5@aladdin" : {
          "damage" : "10",
-         "location" : "palace7",
+         "location" : "palace7@aladdin",
          "armor" : "0",
          "name" : "guard5",
          "description" : "Mammad has been awaiting your arrival.",
@@ -1032,7 +1032,7 @@
       },
       "guard2@aladdin" : {
          "damage" : "10",
-         "location" : "palace3",
+         "location" : "palace3@aladdin",
          "armor" : "0",
          "name" : "guard2",
          "description" : "Ali, a castle guard, prepares to attack.",
@@ -1043,7 +1043,7 @@
       },
       "guard6@aladdin" : {
          "damage" : "10",
-         "location" : "palace7",
+         "location" : "palace7@aladdin",
          "armor" : "0",
          "name" : "guard6",
          "description" : "Omid smiles, showing off his golden tooth.",
@@ -1054,7 +1054,7 @@
       },
       "jafar@aladdin" : {
          "damage" : "10",
-         "location" : "palace",
+         "location" : "palace@aladdin",
          "armor" : "0",
          "name" : "jafar",
          "description" : "Jafar says, 'I dare you to challenge me...  You street rat!'",
@@ -1069,7 +1069,7 @@
       },
       "guard8@aladdin" : {
          "damage" : "10",
-         "location" : "palace11",
+         "location" : "palace11@aladdin",
          "armor" : "0",
          "name" : "guard8",
          "description" : "\nBijan is really tired and really wants to kill you so he can take a nap.",
@@ -1080,7 +1080,7 @@
       },
       "genie2@aladdin" : {
          "damage" : "5",
-         "location" : "tower",
+         "location" : "tower@aladdin",
          "armor" : "100",
          "name" : "genie2",
          "description" : "\nAn all powerful, blue Genie floats here looking at you with hopeful eyes.\nHe longs to be free and all you have to do is say it.",
@@ -1094,7 +1094,7 @@
       },
       "beast@aladdin" : {
          "damage" : "12",
-         "location" : "cliff",
+         "location" : "cliff@aladdin",
          "armor" : "5",
          "name" : "beast",
          "description" : "The Icy Beast roars at the sight of its new found dinner.",
@@ -1105,7 +1105,7 @@
       },
       "sultan@aladdin" : {
          "damage" : "5",
-         "location" : "palace",
+         "location" : "palace@aladdin",
          "armor" : "100",
          "name" : "sultan",
          "description" : "The Sultan of Agrabah, Jasmine's father, is very pleased to see you.",
@@ -1119,7 +1119,7 @@
       },
       "genie1@aladdin" : {
          "damage" : "5",
-         "location" : "lamp1",
+         "location" : "lamp1@aladdin",
          "armor" : "100",
          "name" : "genie1",
          "description" : "An allpowerful, blue Genie floats here.",
@@ -1133,7 +1133,7 @@
       },
       "guard3@aladdin" : {
          "damage" : "10",
-         "location" : "palace4",
+         "location" : "palace4@aladdin",
          "armor" : "0",
          "name" : "guard3",
          "description" : "Mohammed, a castle guard, prepares to attack.",
@@ -1144,7 +1144,7 @@
       },
       "guard4@aladdin" : {
          "damage" : "10",
-         "location" : "palace5",
+         "location" : "palace5@aladdin",
          "armor" : "0",
          "name" : "guard4",
          "description" : "\nHooman the guard sharpens his sword looking forward to killing you.",
@@ -1155,7 +1155,7 @@
       },
       "snake@aladdin" : {
          "damage" : "10",
-         "location" : "oasis3",
+         "location" : "oasis3@aladdin",
          "armor" : "0",
          "name" : "snake",
          "description" : "Slimey the Snake hung quietly from a tree... until you wandered in.",
@@ -1166,7 +1166,7 @@
       },
       "guard1@aladdin" : {
          "damage" : "10",
-         "location" : "palace2",
+         "location" : "palace2@aladdin",
          "armor" : "0",
          "name" : "guard1",
          "description" : "Abdul is one of the more fashionably dressed castle guards.",
@@ -1177,7 +1177,7 @@
       },
       "guard7@aladdin" : {
          "damage" : "10",
-         "location" : "palace4",
+         "location" : "palace4@aladdin",
          "armor" : "0",
          "name" : "guard7",
          "description" : "Amon, a castle guard, prepares to attack.",
@@ -1188,7 +1188,7 @@
       },
       "iago@aladdin" : {
          "damage" : "12",
-         "location" : "palace8",
+         "location" : "palace8@aladdin",
          "armor" : "0",
          "name" : "iago",
          "description" : "Iago screechs 'I will kill you if you give me another cracker!'",

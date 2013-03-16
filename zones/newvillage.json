@@ -2,7 +2,7 @@
    "obj" : {
       "coins1@newvillage" : {
          "desc[1]" : "Resting on the grate are a few scattered coins.",
-         "location" : "IN_ROOM:downoldwell",
+         "location" : "IN_ROOM:downoldwell@newvillage",
          "oflags" : [
             "GetFlips"
          ],
@@ -17,7 +17,7 @@
       },
       "innerdoor@newvillage" : {
          "desc[1]" : "\nThe room is dark except for light showing through a few cracks in the wall.",
-         "location" : "IN_ROOM:hidden",
+         "location" : "IN_ROOM:hidden@newvillage",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -32,7 +32,7 @@
       },
       "coins@newvillage" : {
          "desc[1]" : "In the bottom of the rotted chest are two gold coins.",
-         "location" : "IN_ROOM:hidden",
+         "location" : "IN_ROOM:hidden@newvillage",
          "name" : "coins",
          "examine" : "\nThe coins are of a currency foreign to you.  You wonder how old they might be.",
          "size" : "1",
@@ -44,7 +44,7 @@
       },
       "outerdoor@newvillage" : {
          "desc[1]" : "There is a piece of sheet metal attached to the wall.",
-         "location" : "IN_ROOM:under",
+         "location" : "IN_ROOM:under@newvillage",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -61,7 +61,7 @@
    "loc" : {
       "bank@newvillage" : {
          "exits" : {
-            "n" : "road1w"
+            "n" : "road1w@newvillage"
          },
          "flags" : [],
          "zone" : "newvillage",
@@ -72,8 +72,8 @@
       },
       "down2@newvillage" : {
          "exits" : {
-            "e" : "cave",
-            "u" : "downfall"
+            "e" : "cave@newvillage",
+            "u" : "downfall@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -86,9 +86,9 @@
       },
       "stream@newvillage" : {
          "exits" : {
-            "e" : "streameast",
-            "w" : "stwest1",
-            "s" : "road3n"
+            "e" : "streameast@newvillage",
+            "w" : "stwest1@newvillage",
+            "s" : "road3n@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -101,8 +101,8 @@
       },
       "inn@newvillage" : {
          "exits" : {
-            "e" : "bar",
-            "n" : "road1e"
+            "e" : "bar@newvillage",
+            "n" : "road1e@newvillage"
          },
          "flags" : [],
          "zone" : "newvillage",
@@ -113,8 +113,8 @@
       },
       "newwell@newvillage" : {
          "exits" : {
-            "d" : "downnewwell",
-            "s" : "road1e"
+            "d" : "downnewwell@newvillage",
+            "s" : "road1e@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -127,10 +127,10 @@
       },
       "road2e@newvillage" : {
          "exits" : {
-            "e" : "road3e",
-            "w" : "road1e",
-            "n" : "road1n",
-            "s" : "bar"
+            "e" : "road3e@newvillage",
+            "w" : "road1e@newvillage",
+            "n" : "road1n@newvillage",
+            "s" : "bar@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -143,10 +143,10 @@
       },
       "green@newvillage" : {
          "exits" : {
-            "w" : "road1w",
-            "e" : "road1e",
-            "n" : "hall",
-            "s" : "smith"
+            "w" : "road1w@newvillage",
+            "e" : "road1e@newvillage",
+            "n" : "hall@newvillage",
+            "s" : "smith@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -159,10 +159,10 @@
       },
       "road2n@newvillage" : {
          "exits" : {
-            "e" : "armor",
-            "w" : "weapons1",
-            "n" : "road3n",
-            "s" : "road1n"
+            "e" : "armor@newvillage",
+            "w" : "weapons1@newvillage",
+            "n" : "road3n@newvillage",
+            "s" : "road1n@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -175,9 +175,9 @@
       },
       "jetty@newvillage" : {
          "exits" : {
-            "e" : "road2w",
-            "d" : "under",
-            "s" : "beachQQ01@nwbeaches"
+            "e" : "road2w@newvillage",
+            "d" : "under@newvillage",
+            "s" : "beachqq01@nwbeaches"
          },
          "flags" : [
             "Outdoors"
@@ -190,8 +190,8 @@
       },
       "stwest1@newvillage" : {
          "exits" : {
-            "w" : "stwest2",
-            "e" : "stream"
+            "w" : "stwest2@newvillage",
+            "e" : "stream@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -204,10 +204,10 @@
       },
       "road1w@newvillage" : {
          "exits" : {
-            "w" : "road2w",
-            "e" : "green",
-            "n" : "oldwell",
-            "s" : "bank"
+            "w" : "road2w@newvillage",
+            "e" : "green@newvillage",
+            "n" : "oldwell@newvillage",
+            "s" : "bank@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -220,7 +220,7 @@
       },
       "cave@newvillage" : {
          "exits" : {
-            "w" : "down2"
+            "w" : "down2@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -233,8 +233,8 @@
       },
       "stwest2@newvillage" : {
          "exits" : {
-            "w" : "waterfall",
-            "e" : "stwest1"
+            "w" : "waterfall@newvillage",
+            "e" : "stwest1@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -247,8 +247,8 @@
       },
       "weapons1@newvillage" : {
          "exits" : {
-            "e" : "road2n",
-            "w" : "weapons2"
+            "e" : "road2n@newvillage",
+            "w" : "weapons2@newvillage"
          },
          "flags" : [],
          "zone" : "newvillage",
@@ -259,7 +259,7 @@
       },
       "mill@newvillage" : {
          "exits" : {
-            "n" : "road2w"
+            "n" : "road2w@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -272,7 +272,7 @@
       },
       "genstore@newvillage" : {
          "exits" : {
-            "w" : "road3n"
+            "w" : "road3n@newvillage"
          },
          "flags" : [],
          "zone" : "newvillage",
@@ -283,8 +283,8 @@
       },
       "road6e@newvillage" : {
          "exits" : {
-            "e" : "road7e",
-            "w" : "road5e"
+            "e" : "road7e@newvillage",
+            "w" : "road5e@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -297,8 +297,8 @@
       },
       "road1n@newvillage" : {
          "exits" : {
-            "n" : "road2n",
-            "s" : "road2e"
+            "n" : "road2n@newvillage",
+            "s" : "road2e@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -311,10 +311,10 @@
       },
       "road2w@newvillage" : {
          "exits" : {
-            "w" : "jetty",
-            "e" : "road1w",
-            "n" : "shipyard",
-            "s" : "mill"
+            "w" : "jetty@newvillage",
+            "e" : "road1w@newvillage",
+            "n" : "shipyard@newvillage",
+            "s" : "mill@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -327,10 +327,10 @@
       },
       "road1e@newvillage" : {
          "exits" : {
-            "e" : "road2e",
-            "w" : "green",
-            "n" : "newwell",
-            "s" : "inn"
+            "e" : "road2e@newvillage",
+            "w" : "green@newvillage",
+            "n" : "newwell@newvillage",
+            "s" : "inn@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -343,8 +343,8 @@
       },
       "waterfall@newvillage" : {
          "exits" : {
-            "e" : "stwest2",
-            "d" : "downfall"
+            "e" : "stwest2@newvillage",
+            "d" : "downfall@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -357,7 +357,7 @@
       },
       "locksmith@newvillage" : {
          "exits" : {
-            "e" : "road3n"
+            "e" : "road3n@newvillage"
          },
          "flags" : [],
          "zone" : "newvillage",
@@ -368,9 +368,9 @@
       },
       "oldwell@newvillage" : {
          "exits" : {
-            "w" : "shipyard",
-            "d" : "downoldwell",
-            "s" : "road1w"
+            "w" : "shipyard@newvillage",
+            "d" : "downoldwell@newvillage",
+            "s" : "road1w@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -383,8 +383,8 @@
       },
       "road3e@newvillage" : {
          "exits" : {
-            "e" : "road4e",
-            "w" : "road2e",
+            "e" : "road4e@newvillage",
+            "w" : "road2e@newvillage",
             "n" : "^rubble@opera"
          },
          "flags" : [
@@ -398,8 +398,8 @@
       },
       "road4e@newvillage" : {
          "exits" : {
-            "e" : "road5e",
-            "w" : "road3e"
+            "e" : "road5e@newvillage",
+            "w" : "road3e@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -412,7 +412,7 @@
       },
       "weapons2@newvillage" : {
          "exits" : {
-            "e" : "weapons1"
+            "e" : "weapons1@newvillage"
          },
          "flags" : [],
          "zone" : "newvillage",
@@ -435,7 +435,7 @@
       },
       "hall@newvillage" : {
          "exits" : {
-            "s" : "green"
+            "s" : "green@newvillage"
          },
          "flags" : [
             "Party",
@@ -449,7 +449,7 @@
       },
       "armor@newvillage" : {
          "exits" : {
-            "w" : "road2n"
+            "w" : "road2n@newvillage"
          },
          "flags" : [],
          "zone" : "newvillage",
@@ -460,8 +460,8 @@
       },
       "road5e@newvillage" : {
          "exits" : {
-            "e" : "road6e",
-            "w" : "road4e"
+            "e" : "road6e@newvillage",
+            "w" : "road4e@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -474,8 +474,8 @@
       },
       "under@newvillage" : {
          "exits" : {
-            "e" : "^outerdoor",
-            "u" : "jetty"
+            "e" : "^outerdoor@newvillage",
+            "u" : "jetty@newvillage"
          },
          "flags" : [],
          "zone" : "newvillage",
@@ -486,8 +486,8 @@
       },
       "downfall@newvillage" : {
          "exits" : {
-            "u" : "waterfall",
-            "d" : "down2"
+            "u" : "waterfall@newvillage",
+            "d" : "down2@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -500,7 +500,7 @@
       },
       "hidden@newvillage" : {
          "exits" : {
-            "w" : "^innerdoor"
+            "w" : "^innerdoor@newvillage"
          },
          "flags" : [],
          "zone" : "newvillage",
@@ -511,8 +511,8 @@
       },
       "bar@newvillage" : {
          "exits" : {
-            "w" : "inn",
-            "n" : "road2e"
+            "w" : "inn@newvillage",
+            "n" : "road2e@newvillage"
          },
          "flags" : [],
          "zone" : "newvillage",
@@ -523,8 +523,8 @@
       },
       "road7e@newvillage" : {
          "exits" : {
-            "e" : "Rocky@moor",
-            "w" : "road6e"
+            "e" : "rocky@moor",
+            "w" : "road6e@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -537,7 +537,7 @@
       },
       "streameast@newvillage" : {
          "exits" : {
-            "w" : "stream"
+            "w" : "stream@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -550,8 +550,8 @@
       },
       "shipyard@newvillage" : {
          "exits" : {
-            "e" : "oldwell",
-            "s" : "road2w"
+            "e" : "oldwell@newvillage",
+            "s" : "road2w@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -564,7 +564,7 @@
       },
       "smith@newvillage" : {
          "exits" : {
-            "n" : "green"
+            "n" : "green@newvillage"
          },
          "flags" : [],
          "zone" : "newvillage",
@@ -575,7 +575,7 @@
       },
       "downoldwell@newvillage" : {
          "exits" : {
-            "u" : "oldwell"
+            "u" : "oldwell@newvillage"
          },
          "flags" : [],
          "zone" : "newvillage",
@@ -586,10 +586,10 @@
       },
       "road3n@newvillage" : {
          "exits" : {
-            "w" : "locksmith",
-            "e" : "genstore",
-            "n" : "stream",
-            "s" : "road2n"
+            "w" : "locksmith@newvillage",
+            "e" : "genstore@newvillage",
+            "n" : "stream@newvillage",
+            "s" : "road2n@newvillage"
          },
          "flags" : [
             "Outdoors"
@@ -604,7 +604,7 @@
    "mob" : {
       "crab@newvillage" : {
          "damage" : "12",
-         "location" : "under",
+         "location" : "under@newvillage",
          "speed" : "5",
          "armor" : "30",
          "pname" : "The Crab",
@@ -615,7 +615,7 @@
       },
       "owner@newvillage" : {
          "damage" : "10",
-         "location" : "genstore",
+         "location" : "genstore@newvillage",
          "name" : "owner",
          "examine" : "\nHe looks like a miserly fellow, and apparently doesn't want to be disturbed.",
          "description" : "\nThe owner of the store is sorting goods in the back of the store.",
@@ -626,7 +626,7 @@
       },
       "drunk@newvillage" : {
          "damage" : "10",
-         "location" : "road2e",
+         "location" : "road2e@newvillage",
          "speed" : "0",
          "pname" : "The Drunk",
          "name" : "drunk",
@@ -636,7 +636,7 @@
       },
       "blacksmith@newvillage" : {
          "damage" : "20",
-         "location" : "smith",
+         "location" : "smith@newvillage",
          "name" : "blacksmith",
          "examine" : "\nThe man before you is burly and very sweaty.  He is covered in soot.",
          "description" : "A burly and sweaty blacksmith is at work over the forge.",
@@ -647,7 +647,7 @@
       },
       "locksmith@newvillage" : {
          "damage" : "10",
-         "location" : "locksmith",
+         "location" : "locksmith@newvillage",
          "name" : "locksmith",
          "examine" : "\nThe Locksmith is a short, balding man with white hair.  He seems to be busy\nworking on a project.",
          "description" : "The locksmith is hard at work behind the counter.",
@@ -658,7 +658,7 @@
       },
       "weaponsmith@newvillage" : {
          "damage" : "20",
-         "location" : "weapons2",
+         "location" : "weapons2@newvillage",
          "name" : "weaponsmith",
          "examine" : "The Weaponsmith is a burly man of middle age.",
          "description" : "The weaponsmith is forging a new sword for a customer.",
@@ -669,7 +669,7 @@
       },
       "sailor@newvillage" : {
          "damage" : "10",
-         "location" : "shipyard",
+         "location" : "shipyard@newvillage",
          "speed" : "0",
          "pname" : "The Sailor",
          "name" : "sailor",
@@ -679,7 +679,7 @@
       },
       "armorer@newvillage" : {
          "damage" : "10",
-         "location" : "armor",
+         "location" : "armor@newvillage",
          "armor" : "15",
          "name" : "armorer",
          "examine" : "He also seems to be wearing a shirt of his best mail.",
@@ -691,7 +691,7 @@
       },
       "bartender@newvillage" : {
          "damage" : "20",
-         "location" : "bar",
+         "location" : "bar@newvillage",
          "name" : "bartender",
          "examine" : "\nThe Bartender is a no-nonsense kind of guy, and he doesn't seem to like you.",
          "description" : "The bartender is serving drinks to his customers.",
@@ -702,7 +702,7 @@
       },
       "teller@newvillage" : {
          "damage" : "10",
-         "location" : "bank",
+         "location" : "bank@newvillage",
          "name" : "teller",
          "examine" : "He seems very wise in the ways of money, but not much else.",
          "description" : "The bank teller is adding up figures at his desk.",

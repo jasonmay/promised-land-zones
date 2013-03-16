@@ -1,7 +1,7 @@
 {
    "obj" : {
       "leaf@novice" : {
-         "location" : "IN_ROOM:clearing",
+         "location" : "IN_ROOM:clearing@novice",
          "weight" : "2",
          "name" : "leaf",
          "examine" : "The leaf is very beautiful and seems to shine with inner magic.",
@@ -10,7 +10,7 @@
          "size" : "1"
       },
       "stone@novice" : {
-         "location" : "CARRIED_BY:Molley",
+         "location" : "CARRIED_BY:molley@novice",
          "weight" : "2",
          "altname" : "rock",
          "name" : "stone",
@@ -21,7 +21,7 @@
       },
       "diamond@novice" : {
          "desc[1]" : "A small diamond chip is a bit loose from the wall...",
-         "location" : "IN_ROOM:mine",
+         "location" : "IN_ROOM:mine@novice",
          "altname" : "chip",
          "name" : "diamond",
          "examine" : "This little chip doesn't look too valuable, but it is light to carry.",
@@ -33,7 +33,7 @@
          "desc[0]" : "A small diamond chip lies here."
       },
       "clover@novice" : {
-         "location" : "IN_ROOM:hut",
+         "location" : "IN_ROOM:hut@novice",
          "armor" : "28",
          "oflags" : [
             "Armor",
@@ -52,7 +52,7 @@
          ]
       },
       "shield@novice" : {
-         "location" : "IN_ROOM:top",
+         "location" : "IN_ROOM:top@novice",
          "armor" : "45",
          "oflags" : [
             "Armor",
@@ -69,7 +69,7 @@
       },
       "pitchfork@novice" : {
          "damage" : "15",
-         "location" : "IN_ROOM:cellar",
+         "location" : "IN_ROOM:cellar@novice",
          "oflags" : [
             "Newbie",
             "Weapon"
@@ -83,7 +83,7 @@
          "desc[0]" : "An old rusty pitchfork lies here.  Perhaps you should pick it up."
       },
       "pot@novice" : {
-         "location" : "CARRIED_BY:Mike",
+         "location" : "CARRIED_BY:mike@novice",
          "weight" : "4",
          "oflags" : [
             "Container"
@@ -95,7 +95,7 @@
          "size" : "15"
       },
       "moss@novice" : {
-         "location" : "IN_ROOM:dead",
+         "location" : "IN_ROOM:dead@novice",
          "weight" : "1",
          "name" : "moss",
          "examine" : "The moss is fragile and looks like it could fall apart in your hands.",
@@ -104,7 +104,7 @@
          "size" : "1"
       },
       "root@novice" : {
-         "location" : "IN_ROOM:tree",
+         "location" : "IN_ROOM:tree@novice",
          "weight" : "2",
          "name" : "root",
          "examine" : "It's just a twisted brown root.  What did you expect to see?",
@@ -116,8 +116,8 @@
    "loc" : {
       "corner_2@novice" : {
          "exits" : {
-            "e" : "southern",
-            "n" : "western"
+            "e" : "southern@novice",
+            "n" : "western@novice"
          },
          "flags" : [
             "Outdoors",
@@ -131,8 +131,8 @@
       },
       "tree@novice" : {
          "exits" : {
-            "w" : "mine",
-            "u" : "roots"
+            "w" : "mine@novice",
+            "u" : "roots@novice"
          },
          "flags" : [],
          "zone" : "novice",
@@ -143,8 +143,8 @@
       },
       "lawn@novice" : {
          "exits" : {
-            "w" : "track",
-            "s" : "valley"
+            "w" : "track@novice",
+            "s" : "valley@novice"
          },
          "flags" : [
             "Outdoors",
@@ -158,8 +158,8 @@
       },
       "roots@novice" : {
          "exits" : {
-            "u" : "corner_2",
-            "d" : "fall"
+            "u" : "corner_2@novice",
+            "d" : "fall@novice"
          },
          "flags" : [],
          "zone" : "novice",
@@ -170,11 +170,11 @@
       },
       "grand@novice" : {
          "exits" : {
-            "w" : "western",
-            "e" : "clearing",
-            "u" : "top",
-            "n" : "northern",
-            "s" : "southern"
+            "w" : "western@novice",
+            "e" : "clearing@novice",
+            "u" : "top@novice",
+            "n" : "northern@novice",
+            "s" : "southern@novice"
          },
          "flags" : [
             "Outdoors",
@@ -188,7 +188,7 @@
       },
       "fall@novice" : {
          "exits" : {
-            "s" : "tree"
+            "s" : "tree@novice"
          },
          "flags" : [],
          "zone" : "novice",
@@ -199,8 +199,8 @@
       },
       "trail_2@novice" : {
          "exits" : {
-            "w" : "clearing",
-            "e" : "trail_1"
+            "w" : "clearing@novice",
+            "e" : "trail_1@novice"
          },
          "flags" : [
             "Outdoors",
@@ -214,10 +214,10 @@
       },
       "clearing@novice" : {
          "exits" : {
-            "w" : "grand",
-            "e" : "trail_2",
-            "n" : "dead",
-            "s" : "enchanting"
+            "w" : "grand@novice",
+            "e" : "trail_2@novice",
+            "n" : "dead@novice",
+            "s" : "enchanting@novice"
          },
          "flags" : [
             "Outdoors",
@@ -231,9 +231,9 @@
       },
       "northern@novice" : {
          "exits" : {
-            "w" : "small",
-            "e" : "dead",
-            "s" : "grand"
+            "w" : "small@novice",
+            "e" : "dead@novice",
+            "s" : "grand@novice"
          },
          "flags" : [
             "Outdoors",
@@ -247,7 +247,7 @@
       },
       "cellar@novice" : {
          "exits" : {
-            "u" : "hut"
+            "u" : "hut@novice"
          },
          "flags" : [
             "Real"
@@ -260,9 +260,9 @@
       },
       "valley@novice" : {
          "exits" : {
-            "w" : "square",
-            "n" : "lawn",
-            "s" : "tunnel"
+            "w" : "square@novice",
+            "n" : "lawn@novice",
+            "s" : "tunnel@novice"
          },
          "flags" : [
             "Outdoors",
@@ -276,10 +276,10 @@
       },
       "bottom@novice" : {
          "exits" : {
-            "w" : "entrance",
-            "e" : "hill",
-            "u" : "hill",
-            "s" : "lawn"
+            "w" : "entrance@novice",
+            "e" : "hill@novice",
+            "u" : "hill@novice",
+            "s" : "lawn@novice"
          },
          "flags" : [
             "Outdoors",
@@ -293,9 +293,9 @@
       },
       "western@novice" : {
          "exits" : {
-            "e" : "grand",
-            "n" : "small",
-            "s" : "corner"
+            "e" : "grand@novice",
+            "n" : "small@novice",
+            "s" : "corner@novice"
          },
          "flags" : [
             "Outdoors",
@@ -309,8 +309,8 @@
       },
       "stream@novice" : {
          "exits" : {
-            "e" : "entrance",
-            "s" : "pool"
+            "e" : "entrance@novice",
+            "s" : "pool@novice"
          },
          "flags" : [
             "Outdoors",
@@ -324,9 +324,9 @@
       },
       "entrance@novice" : {
          "exits" : {
-            "w" : "stream",
-            "e" : "bottom",
-            "s" : "track"
+            "w" : "stream@novice",
+            "e" : "bottom@novice",
+            "s" : "track@novice"
          },
          "flags" : [
             "Outdoors",
@@ -340,8 +340,8 @@
       },
       "hut@novice" : {
          "exits" : {
-            "d" : "cellar",
-            "s" : "trail_1"
+            "d" : "cellar@novice",
+            "s" : "trail_1@novice"
          },
          "flags" : [
             "Real"
@@ -354,9 +354,9 @@
       },
       "small@novice" : {
          "exits" : {
-            "e" : "northern",
-            "n" : "trail_3",
-            "s" : "western"
+            "e" : "northern@novice",
+            "n" : "trail_3@novice",
+            "s" : "western@novice"
          },
          "flags" : [
             "Outdoors",
@@ -370,7 +370,7 @@
       },
       "entry@novice" : {
          "exits" : {
-            "w" : "trail_1",
+            "w" : "trail_1@novice",
             "n" : "haunted_0@haunted",
             "s" : "trail1@aephir"
          },
@@ -387,9 +387,9 @@
       },
       "trail_1@novice" : {
          "exits" : {
-            "w" : "trail_2",
-            "e" : "entry",
-            "n" : "hut"
+            "w" : "trail_2@novice",
+            "e" : "entry@novice",
+            "n" : "hut@novice"
          },
          "flags" : [
             "Outdoors",
@@ -403,9 +403,9 @@
       },
       "stream_2@novice" : {
          "exits" : {
-            "e" : "square",
-            "n" : "pool",
-            "s" : "stream_3"
+            "e" : "square@novice",
+            "n" : "pool@novice",
+            "s" : "stream_3@novice"
          },
          "flags" : [
             "Outdoors",
@@ -419,8 +419,8 @@
       },
       "corner@novice" : {
          "exits" : {
-            "e" : "southern",
-            "n" : "western"
+            "e" : "southern@novice",
+            "n" : "western@novice"
          },
          "flags" : [
             "Outdoors",
@@ -434,8 +434,8 @@
       },
       "trail_3@novice" : {
          "exits" : {
-            "w" : "hill",
-            "s" : "small"
+            "w" : "hill@novice",
+            "s" : "small@novice"
          },
          "flags" : [
             "Outdoors",
@@ -449,8 +449,8 @@
       },
       "dead@novice" : {
          "exits" : {
-            "w" : "northern",
-            "s" : "clearing"
+            "w" : "northern@novice",
+            "s" : "clearing@novice"
          },
          "flags" : [
             "Outdoors",
@@ -464,9 +464,9 @@
       },
       "southern@novice" : {
          "exits" : {
-            "w" : "corner",
-            "e" : "enchanting",
-            "n" : "grand"
+            "w" : "corner@novice",
+            "e" : "enchanting@novice",
+            "n" : "grand@novice"
          },
          "flags" : [
             "Outdoors",
@@ -480,9 +480,9 @@
       },
       "hill@novice" : {
          "exits" : {
-            "w" : "bottom",
-            "e" : "trail_3",
-            "d" : "bottom"
+            "w" : "bottom@novice",
+            "e" : "trail_3@novice",
+            "d" : "bottom@novice"
          },
          "flags" : [
             "Outdoors",
@@ -496,8 +496,8 @@
       },
       "enchanting@novice" : {
          "exits" : {
-            "w" : "southern",
-            "n" : "clearing"
+            "w" : "southern@novice",
+            "n" : "clearing@novice"
          },
          "flags" : [
             "Outdoors",
@@ -511,7 +511,7 @@
       },
       "top@novice" : {
          "exits" : {
-            "d" : "grand"
+            "d" : "grand@novice"
          },
          "flags" : [
             "Outdoors",
@@ -525,9 +525,9 @@
       },
       "pool@novice" : {
          "exits" : {
-            "e" : "track",
-            "n" : "stream",
-            "s" : "stream_2"
+            "e" : "track@novice",
+            "n" : "stream@novice",
+            "s" : "stream_2@novice"
          },
          "flags" : [
             "Outdoors",
@@ -541,10 +541,10 @@
       },
       "square@novice" : {
          "exits" : {
-            "w" : "stream_2",
-            "e" : "valley",
-            "n" : "track",
-            "s" : "end"
+            "w" : "stream_2@novice",
+            "e" : "valley@novice",
+            "n" : "track@novice",
+            "s" : "end@novice"
          },
          "flags" : [
             "Outdoors",
@@ -558,8 +558,8 @@
       },
       "stream_3@novice" : {
          "exits" : {
-            "e" : "end",
-            "n" : "stream_2",
+            "e" : "end@novice",
+            "n" : "stream_2@novice",
             "s" : "path1@princess"
          },
          "flags" : [
@@ -574,8 +574,8 @@
       },
       "mine@novice" : {
          "exits" : {
-            "e" : "tree",
-            "n" : "tunnel"
+            "e" : "tree@novice",
+            "n" : "tunnel@novice"
          },
          "flags" : [],
          "zone" : "novice",
@@ -586,9 +586,9 @@
       },
       "tunnel@novice" : {
          "exits" : {
-            "w" : "end",
-            "n" : "valley",
-            "s" : "mine"
+            "w" : "end@novice",
+            "n" : "valley@novice",
+            "s" : "mine@novice"
          },
          "flags" : [],
          "zone" : "novice",
@@ -599,9 +599,9 @@
       },
       "end@novice" : {
          "exits" : {
-            "w" : "stream_3",
-            "e" : "tunnel",
-            "n" : "square"
+            "w" : "stream_3@novice",
+            "e" : "tunnel@novice",
+            "n" : "square@novice"
          },
          "flags" : [
             "Outdoors",
@@ -615,10 +615,10 @@
       },
       "track@novice" : {
          "exits" : {
-            "w" : "pool",
-            "e" : "lawn",
-            "n" : "entrance",
-            "s" : "square"
+            "w" : "pool@novice",
+            "e" : "lawn@novice",
+            "n" : "entrance@novice",
+            "s" : "square@novice"
          },
          "flags" : [
             "Outdoors",
@@ -634,7 +634,7 @@
    "mob" : {
       "erik@novice" : {
          "damage" : "10",
-         "location" : "square",
+         "location" : "square@novice",
          "pname" : "erik",
          "name" : "erik",
          "examine" : "Erik has light hair and a mischevious grin.",
@@ -643,7 +643,7 @@
       },
       "samson@novice" : {
          "damage" : "10",
-         "location" : "tunnel",
+         "location" : "tunnel@novice",
          "pname" : "samson",
          "name" : "samson",
          "examine" : "Samson is very excited about his find!",
@@ -652,7 +652,7 @@
       },
       "tallie@novice" : {
          "damage" : "10",
-         "location" : "stream_3",
+         "location" : "stream_3@novice",
          "pname" : "tallie",
          "name" : "tallie",
          "examine" : "Tallie seems young and very shy.",
@@ -664,7 +664,7 @@
       },
       "shanon@novice" : {
          "damage" : "10",
-         "location" : "pool",
+         "location" : "pool@novice",
          "pname" : "shanon",
          "name" : "shanon",
          "examine" : "Shanon is a very giggly child.",
@@ -676,7 +676,7 @@
       },
       "colleen@novice" : {
          "damage" : "10",
-         "location" : "track",
+         "location" : "track@novice",
          "pname" : "colleen",
          "name" : "colleen",
          "examine" : "Colleen seems to be preoccupied with her flowers.",
@@ -688,7 +688,7 @@
       },
       "danny@novice" : {
          "damage" : "10",
-         "location" : "valley",
+         "location" : "valley@novice",
          "pname" : "danny",
          "name" : "danny",
          "examine" : "He is a clever-looking boy with red hair and freckles.",
@@ -697,7 +697,7 @@
       },
       "sally@novice" : {
          "damage" : "10",
-         "location" : "mine",
+         "location" : "mine@novice",
          "pname" : "sally",
          "name" : "sally",
          "examine" : "She looks older than some of the others, but she does not seem to be taller.",
@@ -709,7 +709,7 @@
       },
       "clyde@novice" : {
          "damage" : "10",
-         "location" : "tree",
+         "location" : "tree@novice",
          "pname" : "clyde",
          "name" : "clyde",
          "examine" : "Clyde is eagerly anticipating Sally's specialty stew.",
@@ -718,7 +718,7 @@
       },
       "mike@novice" : {
          "damage" : "10",
-         "location" : "hill",
+         "location" : "hill@novice",
          "name" : "mike",
          "examine" : "Mike is a jolly little fellow with red hair.  He is holding an empty pot.",
          "description" : "Mike thinks he's doing a pretty good job at blocking your way west.",
@@ -733,7 +733,7 @@
       },
       "tricia@novice" : {
          "damage" : "10",
-         "location" : "stream",
+         "location" : "stream@novice",
          "pname" : "tricia",
          "name" : "tricia",
          "examine" : "Tricia seems to be the pensive type.  With long, dark hair, she looks very\nbeautiful as she daydreams.",
@@ -745,7 +745,7 @@
       },
       "paddy@novice" : {
          "damage" : "10",
-         "location" : "bottom",
+         "location" : "bottom@novice",
          "pname" : "paddy",
          "name" : "paddy",
          "examine" : "Paddy is a gruff little man.  He has a red beard and is dressed in green.",
@@ -754,7 +754,7 @@
       },
       "millie@novice" : {
          "damage" : "10",
-         "location" : "end",
+         "location" : "end@novice",
          "pname" : "millie",
          "name" : "millie",
          "examine" : "Millie is singing to herself gleefully.",
@@ -766,7 +766,7 @@
       },
       "scottie@novice" : {
          "damage" : "10",
-         "location" : "roots",
+         "location" : "roots@novice",
          "pname" : "scottie",
          "name" : "scottie",
          "examine" : "Scottie is old and worn by years of work.",
@@ -775,7 +775,7 @@
       },
       "molley@novice" : {
          "damage" : "10",
-         "location" : "stream_2",
+         "location" : "stream_2@novice",
          "pname" : "molley",
          "name" : "molley",
          "examine" : "Molley's raven hair catches the light in a very attractive way.",
@@ -787,7 +787,7 @@
       },
       "malcomb@novice" : {
          "damage" : "10",
-         "location" : "lawn",
+         "location" : "lawn@novice",
          "pname" : "malcomb",
          "name" : "malcomb",
          "examine" : "He seems to be proud of his clover bouquet.",
@@ -796,7 +796,7 @@
       },
       "stanley@novice" : {
          "damage" : "10",
-         "location" : "entrance",
+         "location" : "entrance@novice",
          "pname" : "stanley",
          "name" : "stanley",
          "examine" : "Stanley, too, is short with red hair.",

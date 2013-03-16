@@ -1,7 +1,7 @@
 {
    "obj" : {
       "earthstone@crystalcave" : {
-         "location" : "CARRIED_BY:willie",
+         "location" : "CARRIED_BY:willie@crystalcave",
          "oflags" : "{ }",
          "altname" : "brown",
          "name" : "earthstone",
@@ -13,7 +13,7 @@
          "desc[0]" : "A dull &+ybrown&N stone lies forgotten here."
       },
       "torn_papyrus@crystalcave" : {
-         "location" : "CARRIED_BY:moor",
+         "location" : "CARRIED_BY:moor@crystalcave",
          "weight" : "5",
          "pname" : "papyrus",
          "name" : "torn_papyrus",
@@ -23,7 +23,7 @@
          "size" : "5"
       },
       "knapsack@crystalcave" : {
-         "location" : "IN_ROOM:crystalcave4",
+         "location" : "IN_ROOM:crystalcave4@crystalcave",
          "oflags" : [
             "Wearable",
             "Container"
@@ -40,7 +40,7 @@
          ]
       },
       "windstone@crystalcave" : {
-         "location" : "CARRIED_BY:moor",
+         "location" : "CARRIED_BY:moor@crystalcave",
          "oflags" : "{ }",
          "altname" : "white",
          "name" : "windstone",
@@ -52,7 +52,7 @@
          "desc[0]" : "A glowing &+Wwhite&N stone has been dropped here."
       },
       "seastone@crystalcave" : {
-         "location" : "CARRIED_BY:sphinx",
+         "location" : "CARRIED_BY:sphinx@crystalcave",
          "oflags" : [
             "Hitchance"
          ],
@@ -66,7 +66,7 @@
          "desc[0]" : "A stone the color of the &+bsea&N has been carelessly dropped \nhere."
       },
       "journal@crystalcave" : {
-         "location" : "CARRIED_BY:archaeologist",
+         "location" : "CARRIED_BY:archaeologist@crystalcave",
          "weight" : "5",
          "name" : "journal",
          "examine" : "\nOpening the book, you realize that this is the private journal of the famed \narchaeologist, Dr Phinas Pilsner who disappeared log ago.  It reads:\n\n         'Finally, I've found the way to defeat the high priestess, Neferteri.\nThe secret lies in harnessing the four elements, Earth, Wind, Fire and Water.\nHidden vast distances apart in the land, I've discovered the possible \nlocations of two of the stones.  One is said to lie protected deep in the \nheart of the crystal caves.  The other is in the hands of a moor who traveled\nfar to the east in search of a great wizard to help unlock the power of the\nstone and is reported to be lost in the caves west of Camelot.\n     But alas, my search has ended in failure.  Neferteri's curse has finally\ncaught up with me.  Only now as my sight slowly fades, do I realize there \nmight be a fifth stone hidden that is the key to Neferteri's power.'\n",
@@ -75,7 +75,7 @@
          "size" : "2"
       },
       "opalshield@crystalcave" : {
-         "location" : "IN_ROOM:crystalcave12",
+         "location" : "IN_ROOM:crystalcave12@crystalcave",
          "armor" : "80",
          "oflags" : [
             "Wearable",
@@ -92,7 +92,7 @@
          "desc[0]" : "A &+cshield&N decorated with semi-precious jewels lies here."
       },
       "bleached_papyrus@crystalcave" : {
-         "location" : "CARRIED_BY:chimera",
+         "location" : "CARRIED_BY:chimera@crystalcave",
          "weight" : "5",
          "pname" : "papyrus",
          "name" : "bleached_papyrus",
@@ -101,7 +101,7 @@
          "size" : "30"
       },
       "hiddenexit1@crystalcave" : {
-         "location" : "IN_ROOM:crystalcave11",
+         "location" : "IN_ROOM:crystalcave11@crystalcave",
          "oflags" : [
             "NoGet"
          ],
@@ -115,7 +115,7 @@
          "desc[0]" : ""
       },
       "sunstone@crystalcave" : {
-         "location" : "CARRIED_BY:chimera",
+         "location" : "CARRIED_BY:chimera@crystalcave",
          "oflags" : [
             "Lit",
             "SpellChance"
@@ -130,7 +130,7 @@
          "desc[0]" : "A deep &+rred&N stone the color of &+rfire&N lies here."
       },
       "brandy@crystalcave" : {
-         "location" : "IN_CONTAINER:knapsack",
+         "location" : "IN_CONTAINER:knapsack@crystalcave",
          "weight" : "0",
          "oflags" : [
             "Food"
@@ -142,7 +142,7 @@
          "size" : "5"
       },
       "stained_papyrus@crystalcave" : {
-         "location" : "CARRIED_BY:willie",
+         "location" : "CARRIED_BY:willie@crystalcave",
          "weight" : "5",
          "pname" : "papyrus",
          "name" : "stained_papyrus",
@@ -152,7 +152,7 @@
          "size" : "5"
       },
       "hiddenexit2@crystalcave" : {
-         "location" : "IN_ROOM:crystalcave12",
+         "location" : "IN_ROOM:crystalcave12@crystalcave",
          "oflags" : [
             "NoGet"
          ],
@@ -169,10 +169,10 @@
    "loc" : {
       "crystalcave11@crystalcave" : {
          "exits" : {
-            "w" : "^hiddenexit1",
-            "e" : "crystalcave10",
-            "n" : "crystalcave9",
-            "s" : "crystalcave6"
+            "w" : "^hiddenexit1@crystalcave",
+            "e" : "crystalcave10@crystalcave",
+            "n" : "crystalcave9@crystalcave",
+            "s" : "crystalcave6@crystalcave"
          },
          "flags" : [],
          "zone" : "crystalcave",
@@ -183,10 +183,10 @@
       },
       "crystalcave7@crystalcave" : {
          "exits" : {
-            "w" : "crystalcave3",
-            "e" : "crystalcave8",
-            "n" : "crystalcave6",
-            "s" : "crystalcave5"
+            "w" : "crystalcave3@crystalcave",
+            "e" : "crystalcave8@crystalcave",
+            "n" : "crystalcave6@crystalcave",
+            "s" : "crystalcave5@crystalcave"
          },
          "flags" : [],
          "zone" : "crystalcave",
@@ -197,10 +197,10 @@
       },
       "crystalcave6@crystalcave" : {
          "exits" : {
-            "w" : "crystalcave4",
-            "e" : "crystalcave5",
-            "n" : "crystalcave2",
-            "s" : "crystalcave7"
+            "w" : "crystalcave4@crystalcave",
+            "e" : "crystalcave5@crystalcave",
+            "n" : "crystalcave2@crystalcave",
+            "s" : "crystalcave7@crystalcave"
          },
          "flags" : [],
          "zone" : "crystalcave",
@@ -211,8 +211,8 @@
       },
       "crystalcave2@crystalcave" : {
          "exits" : {
-            "e" : "crystalcave1",
-            "n" : "crystalcave3"
+            "e" : "crystalcave1@crystalcave",
+            "n" : "crystalcave3@crystalcave"
          },
          "flags" : [],
          "zone" : "crystalcave",
@@ -223,10 +223,10 @@
       },
       "crystalcave5@crystalcave" : {
          "exits" : {
-            "w" : "crystalcave6",
-            "e" : "crystalcave1",
-            "n" : "crystalcave4",
-            "s" : "crystalcave3"
+            "w" : "crystalcave6@crystalcave",
+            "e" : "crystalcave1@crystalcave",
+            "n" : "crystalcave4@crystalcave",
+            "s" : "crystalcave3@crystalcave"
          },
          "flags" : [],
          "zone" : "crystalcave",
@@ -237,10 +237,10 @@
       },
       "crystalcave3@crystalcave" : {
          "exits" : {
-            "w" : "crystalcave4",
-            "e" : "crystalcave2",
-            "n" : "crystalcave2",
-            "s" : "crystalcave2"
+            "w" : "crystalcave4@crystalcave",
+            "e" : "crystalcave2@crystalcave",
+            "n" : "crystalcave2@crystalcave",
+            "s" : "crystalcave2@crystalcave"
          },
          "flags" : [],
          "zone" : "crystalcave",
@@ -251,10 +251,10 @@
       },
       "crystalcave4@crystalcave" : {
          "exits" : {
-            "w" : "crystalcave2",
-            "e" : "crystalcave3",
-            "n" : "crystalcave1",
-            "s" : "crystalcave5"
+            "w" : "crystalcave2@crystalcave",
+            "e" : "crystalcave3@crystalcave",
+            "n" : "crystalcave1@crystalcave",
+            "s" : "crystalcave5@crystalcave"
          },
          "flags" : [],
          "zone" : "crystalcave",
@@ -265,10 +265,10 @@
       },
       "crystalcave8@crystalcave" : {
          "exits" : {
-            "w" : "crystalcave7",
-            "e" : "crystalcave9",
-            "n" : "crystalcave6",
-            "s" : "crystalcave3"
+            "w" : "crystalcave7@crystalcave",
+            "e" : "crystalcave9@crystalcave",
+            "n" : "crystalcave6@crystalcave",
+            "s" : "crystalcave3@crystalcave"
          },
          "flags" : [],
          "zone" : "crystalcave",
@@ -279,10 +279,10 @@
       },
       "crystalcave10@crystalcave" : {
          "exits" : {
-            "w" : "crystalcave11",
-            "e" : "crystalcave7",
-            "n" : "crystalcave9",
-            "s" : "crystalcave6"
+            "w" : "crystalcave11@crystalcave",
+            "e" : "crystalcave7@crystalcave",
+            "n" : "crystalcave9@crystalcave",
+            "s" : "crystalcave6@crystalcave"
          },
          "flags" : [],
          "zone" : "crystalcave",
@@ -293,8 +293,8 @@
       },
       "crystalcave1@crystalcave" : {
          "exits" : {
-            "w" : "crystalcave2",
-            "u" : "Cragg@island"
+            "w" : "crystalcave2@crystalcave",
+            "u" : "cragg@island"
          },
          "flags" : [
             "NoMobiles"
@@ -307,7 +307,7 @@
       },
       "crystalcave12@crystalcave" : {
          "exits" : {
-            "e" : "^hiddenexit2"
+            "e" : "^hiddenexit2@crystalcave"
          },
          "flags" : [],
          "zone" : "crystalcave",
@@ -318,10 +318,10 @@
       },
       "crystalcave9@crystalcave" : {
          "exits" : {
-            "w" : "crystalcave8",
-            "e" : "crystalcave4",
-            "n" : "crystalcave6",
-            "s" : "crystalcave10"
+            "w" : "crystalcave8@crystalcave",
+            "e" : "crystalcave4@crystalcave",
+            "n" : "crystalcave6@crystalcave",
+            "s" : "crystalcave10@crystalcave"
          },
          "flags" : [],
          "zone" : "crystalcave",
@@ -368,7 +368,7 @@
       },
       "sphinx@crystalcave" : {
          "damage" : "1",
-         "location" : "crystalcave12",
+         "location" : "crystalcave12@crystalcave",
          "armor" : "0",
          "name" : "sphinx",
          "examine" : "\nNoble and proud, this sphinx posseses a secret smile and ageless eyes.\nYet with skin so smooth, you are tempted to pet him.",
@@ -383,7 +383,7 @@
       },
       "archaeologist@crystalcave" : {
          "damage" : "0",
-         "location" : "crystalcave5",
+         "location" : "crystalcave5@crystalcave",
          "armor" : "0",
          "name" : "archaeologist",
          "examine" : "\nGaunt and gray, not even a miracle worker could help this man.",
@@ -430,7 +430,7 @@
       },
       "burrower@crystalcave" : {
          "damage" : "15",
-         "location" : "crystalcave3",
+         "location" : "crystalcave3@crystalcave",
          "speed" : "50",
          "aggression" : "50",
          "armor" : "5",
@@ -441,7 +441,7 @@
       },
       "tunnelrat@crystalcave" : {
          "damage" : "5",
-         "location" : "crystalcave8",
+         "location" : "crystalcave8@crystalcave",
          "speed" : "3",
          "aggression" : "10",
          "armor" : "0",
@@ -452,7 +452,7 @@
       },
       "asp@crystalcave" : {
          "damage" : "10",
-         "location" : "crystalcave10",
+         "location" : "crystalcave10@crystalcave",
          "armor" : "5",
          "name" : "asp",
          "examine" : "Sometimes, it's not easy being green.",

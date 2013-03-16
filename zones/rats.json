@@ -2,7 +2,7 @@
    "obj" : {
       "d_coalstore@rats" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Coldstore",
+         "location" : "IN_ROOM:coldstore@rats",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -15,7 +15,7 @@
          "desc[0]" : "The door is open."
       },
       "pipe@rats" : {
-         "location" : "IN_ROOM:Rat4",
+         "location" : "IN_ROOM:rat4@rats",
          "oflags" : [
             "NoGet"
          ],
@@ -26,7 +26,7 @@
       },
       "rattrap@rats" : {
          "desc[1]" : "A rat trap with a spring is here.",
-         "location" : "IN_CONTAINER:Drawer",
+         "location" : "IN_CONTAINER:drawer@rats",
          "oflags" : "{ }",
          "altname" : "trap",
          "name" : "Rattrap",
@@ -40,7 +40,7 @@
          "desc[0]" : "You see a rat trap lacking a spring."
       },
       "bench@rats" : {
-         "location" : "IN_ROOM:Workroom",
+         "location" : "IN_ROOM:workroom@rats",
          "oflags" : [
             "NoGet"
          ],
@@ -55,7 +55,7 @@
       },
       "d_hallway12@rats" : {
          "desc[1]" : "The toliet room door is closed.",
-         "location" : "IN_ROOM:Toilet",
+         "location" : "IN_ROOM:toilet@rats",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -70,7 +70,7 @@
       },
       "d_garden@rats" : {
          "desc[1]" : "The front door is closed.",
-         "location" : "IN_ROOM:Hallway_1",
+         "location" : "IN_ROOM:hallway_1@rats",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -85,7 +85,7 @@
       },
       "d_saw@rats" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:ChBedRoom",
+         "location" : "IN_ROOM:chbedroom@rats",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -99,7 +99,7 @@
       },
       "d_guestroom@rats" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:StairsUp",
+         "location" : "IN_ROOM:stairsup@rats",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -112,7 +112,7 @@
          "desc[0]" : "The door is open."
       },
       "drawer@rats" : {
-         "location" : "IN_ROOM:Workroom",
+         "location" : "IN_ROOM:workroom@rats",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -128,7 +128,7 @@
          "desc[0]" : "A drawer has been opened here."
       },
       "bookcase@rats" : {
-         "location" : "IN_ROOM:LivRoom",
+         "location" : "IN_ROOM:livroom@rats",
          "oflags" : [
             "NoGet",
             "Pushable"
@@ -143,7 +143,7 @@
          "bvalue" : "24"
       },
       "ring@rats" : {
-         "location" : "IN_CONTAINER:Chest",
+         "location" : "IN_CONTAINER:chest@rats",
          "armor" : "0",
          "oflags" : [
             "RegenMana",
@@ -160,7 +160,7 @@
       },
       "d_chbedroom@rats" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Saw",
+         "location" : "IN_ROOM:saw@rats",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -173,7 +173,7 @@
          "desc[0]" : "The door is open."
       },
       "dust@rats" : {
-         "location" : "IN_CONTAINER:Ratthrone",
+         "location" : "IN_CONTAINER:ratthrone@rats",
          "oflags" : [
             "Destroyed"
          ],
@@ -185,7 +185,7 @@
       },
       "d_toilet@rats" : {
          "desc[1]" : "The toliet room door is closed.",
-         "location" : "IN_ROOM:Hallway_1",
+         "location" : "IN_ROOM:hallway_1@rats",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -199,7 +199,7 @@
          "desc[0]" : "The toliet room door is open."
       },
       "hole@rats" : {
-         "location" : "IN_ROOM:Laundry",
+         "location" : "IN_ROOM:laundry@rats",
          "oflags" : [
             "NoGet"
          ],
@@ -212,7 +212,7 @@
       },
       "d_foodstore@rats" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:LivRoom",
+         "location" : "IN_ROOM:livroom@rats",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -226,7 +226,7 @@
       },
       "d_hallway_1@rats" : {
          "desc[1]" : "The front door is closed.",
-         "location" : "IN_ROOM:Garden",
+         "location" : "IN_ROOM:garden@rats",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -241,7 +241,7 @@
       },
       "d_kitchen@rats" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Cutlet",
+         "location" : "IN_ROOM:cutlet@rats",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -255,7 +255,7 @@
       },
       "d_cutlet@rats" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Kitchen",
+         "location" : "IN_ROOM:kitchen@rats",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -268,7 +268,7 @@
          "desc[0]" : "The door is open."
       },
       "ratcounter@rats" : {
-         "location" : "IN_ROOM:Credits",
+         "location" : "IN_ROOM:credits@rats",
          "armor" : "8",
          "oflags" : [
             "NoGet"
@@ -279,7 +279,7 @@
       },
       "d_livroom@rats" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Foodstore",
+         "location" : "IN_ROOM:foodstore@rats",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -292,7 +292,7 @@
          "desc[0]" : "The door is open."
       },
       "ratthrone@rats" : {
-         "location" : "IN_ROOM:Rat4",
+         "location" : "IN_ROOM:rat4@rats",
          "oflags" : [
             "NoGet",
             "Container"
@@ -309,7 +309,7 @@
       },
       "d_coldstore@rats" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Coalstore",
+         "location" : "IN_ROOM:coalstore@rats",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -322,7 +322,7 @@
          "desc[0]" : "The door is open."
       },
       "wall@rats" : {
-         "location" : "IN_ROOM:Laundry",
+         "location" : "IN_ROOM:laundry@rats",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -335,7 +335,7 @@
       },
       "chest@rats" : {
          "desc[1]" : "An old chest is unlocked here.",
-         "location" : "IN_ROOM:Roof",
+         "location" : "IN_ROOM:roof@rats",
          "armor" : "8",
          "oflags" : [
             "NoGet",
@@ -351,7 +351,7 @@
       },
       "bed@rats" : {
          "desc[1]" : "Child's bed is standing here.",
-         "location" : "IN_ROOM:ChBedRoom",
+         "location" : "IN_ROOM:chbedroom@rats",
          "oflags" : [
             "NoGet",
             "Pushable"
@@ -366,7 +366,7 @@
          "desc[0]" : "Child's bed is standing here."
       },
       "wall2@rats" : {
-         "location" : "IN_ROOM:Rat1",
+         "location" : "IN_ROOM:rat1@rats",
          "oflags" : [
             "NoGet"
          ],
@@ -378,7 +378,7 @@
          "desc[0]" : "The destroyed wall reveals you an exit to south."
       },
       "spring@rats" : {
-         "location" : "IN_ROOM:Credits",
+         "location" : "IN_ROOM:credits@rats",
          "oflags" : [
             "Destroyed"
          ],
@@ -392,7 +392,7 @@
          "desc[0]" : "A spring is laying here."
       },
       "sink@rats" : {
-         "location" : "IN_ROOM:Bathroom",
+         "location" : "IN_ROOM:bathroom@rats",
          "oflags" : [
             "NoGet"
          ],
@@ -406,7 +406,7 @@
       },
       "wardrobe@rats" : {
          "desc[1]" : "There is a white, closed wardrobe here.",
-         "location" : "IN_ROOM:Bedroom",
+         "location" : "IN_ROOM:bedroom@rats",
          "oflags" : [
             "NoGet"
          ],
@@ -422,7 +422,7 @@
       },
       "d_stairsup@rats" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Guestroom",
+         "location" : "IN_ROOM:guestroom@rats",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -438,8 +438,8 @@
    "loc" : {
       "woodstore@rats" : {
          "exits" : {
-            "u" : "Coalstore",
-            "s" : "Cutlet"
+            "u" : "coalstore@rats",
+            "s" : "cutlet@rats"
          },
          "flags" : [
             "Dark"
@@ -452,8 +452,8 @@
       },
       "rat2@rats" : {
          "exits" : {
-            "w" : "Rat1",
-            "n" : "Rat3"
+            "w" : "rat1@rats",
+            "n" : "rat3@rats"
          },
          "flags" : [
             "Dark"
@@ -466,8 +466,8 @@
       },
       "coldstore@rats" : {
          "exits" : {
-            "n" : "^D_Coalstore",
-            "s" : "Foodstore"
+            "n" : "^d_coalstore@rats",
+            "s" : "foodstore@rats"
          },
          "flags" : [
             "Cold",
@@ -481,7 +481,7 @@
       },
       "rat4@rats" : {
          "exits" : {
-            "s" : "Rat3"
+            "s" : "rat3@rats"
          },
          "flags" : [
             "Dark"
@@ -494,9 +494,9 @@
       },
       "chbedroom@rats" : {
          "exits" : {
-            "e" : "StairsUp",
-            "n" : "^D_Saw",
-            "s" : "Bedroom"
+            "e" : "stairsup@rats",
+            "n" : "^d_saw@rats",
+            "s" : "bedroom@rats"
          },
          "flags" : [],
          "zone" : "rats",
@@ -507,7 +507,7 @@
       },
       "chimney@rats" : {
          "exits" : {
-            "d" : "Roof"
+            "d" : "roof@rats"
          },
          "flags" : [],
          "zone" : "rats",
@@ -518,7 +518,7 @@
       },
       "bedroom@rats" : {
          "exits" : {
-            "n" : "ChBedRoom"
+            "n" : "chbedroom@rats"
          },
          "flags" : [],
          "zone" : "rats",
@@ -529,7 +529,7 @@
       },
       "guestroom@rats" : {
          "exits" : {
-            "w" : "^D_StairsUp"
+            "w" : "^d_stairsup@rats"
          },
          "flags" : [],
          "zone" : "rats",
@@ -540,8 +540,8 @@
       },
       "laundry@rats" : {
          "exits" : {
-            "n" : "^Wall",
-            "s" : "Bathroom"
+            "n" : "^wall@rats",
+            "s" : "bathroom@rats"
          },
          "flags" : [
             "Dark"
@@ -554,8 +554,8 @@
       },
       "saw@rats" : {
          "exits" : {
-            "u" : "Hallway_3",
-            "s" : "^D_ChBedRoom"
+            "u" : "hallway_3@rats",
+            "s" : "^d_chbedroom@rats"
          },
          "flags" : [
             "Dark"
@@ -568,7 +568,7 @@
       },
       "terrace@rats" : {
          "exits" : {
-            "s" : "Hallway_1"
+            "s" : "hallway_1@rats"
          },
          "flags" : [],
          "zone" : "rats",
@@ -579,8 +579,8 @@
       },
       "rat3@rats" : {
          "exits" : {
-            "n" : "Rat4",
-            "s" : "Rat2"
+            "n" : "rat4@rats",
+            "s" : "rat2@rats"
          },
          "flags" : [
             "Dark"
@@ -593,8 +593,8 @@
       },
       "rat1@rats" : {
          "exits" : {
-            "e" : "Rat2",
-            "s" : "^Wall2"
+            "e" : "rat2@rats",
+            "s" : "^wall2@rats"
          },
          "flags" : [
             "Dark"
@@ -607,8 +607,8 @@
       },
       "foodstore@rats" : {
          "exits" : {
-            "w" : "^D_LivRoom",
-            "n" : "Coldstore"
+            "w" : "^d_livroom@rats",
+            "n" : "coldstore@rats"
          },
          "flags" : [
             "Dark"
@@ -621,8 +621,8 @@
       },
       "coalstore@rats" : {
          "exits" : {
-            "d" : "Woodstore",
-            "s" : "^D_Coldstore"
+            "d" : "woodstore@rats",
+            "s" : "^d_coldstore@rats"
          },
          "flags" : [
             "Dark"
@@ -635,9 +635,9 @@
       },
       "stairsup@rats" : {
          "exits" : {
-            "e" : "^D_Guestroom",
-            "w" : "ChBedroom",
-            "d" : "StairsDown"
+            "e" : "^d_guestroom@rats",
+            "w" : "chbedroom@rats",
+            "d" : "stairsdown@rats"
          },
          "flags" : [],
          "zone" : "rats",
@@ -648,7 +648,7 @@
       },
       "toilet@rats" : {
          "exits" : {
-            "e" : "^D_Hallway12"
+            "e" : "^d_hallway12@rats"
          },
          "flags" : [],
          "zone" : "rats",
@@ -659,8 +659,8 @@
       },
       "hallway_3@rats" : {
          "exits" : {
-            "d" : "Saw",
-            "s" : "Workroom"
+            "d" : "saw@rats",
+            "s" : "workroom@rats"
          },
          "flags" : [
             "Dark"
@@ -673,10 +673,10 @@
       },
       "hallway_1@rats" : {
          "exits" : {
-            "w" : "^D_Toilet",
-            "e" : "Hallway_2",
-            "n" : "Terrace",
-            "s" : "^D_Garden"
+            "w" : "^d_toilet@rats",
+            "e" : "hallway_2@rats",
+            "n" : "terrace@rats",
+            "s" : "^d_garden@rats"
          },
          "flags" : [],
          "zone" : "rats",
@@ -687,8 +687,8 @@
       },
       "kitchen@rats" : {
          "exits" : {
-            "n" : "^D_Cutlet",
-            "s" : "LivRoom"
+            "n" : "^d_cutlet@rats",
+            "s" : "livroom@rats"
          },
          "flags" : [],
          "zone" : "rats",
@@ -699,8 +699,8 @@
       },
       "stairsdown@rats" : {
          "exits" : {
-            "u" : "StairsUp",
-            "d" : "Hallway_2"
+            "u" : "stairsup@rats",
+            "d" : "hallway_2@rats"
          },
          "flags" : [],
          "zone" : "rats",
@@ -712,7 +712,7 @@
       "garden@rats" : {
          "exits" : {
             "w" : "road10@village",
-            "n" : "^D_Hallway_1"
+            "n" : "^d_hallway_1@rats"
          },
          "flags" : [
             "NoMobiles",
@@ -726,8 +726,8 @@
       },
       "cutlet@rats" : {
          "exits" : {
-            "n" : "Woodstore",
-            "s" : "^D_Kitchen"
+            "n" : "woodstore@rats",
+            "s" : "^d_kitchen@rats"
          },
          "flags" : [
             "Dark",
@@ -750,8 +750,8 @@
       },
       "bathroom@rats" : {
          "exits" : {
-            "n" : "Laundry",
-            "s" : "Hallway_2"
+            "n" : "laundry@rats",
+            "s" : "hallway_2@rats"
          },
          "flags" : [],
          "zone" : "rats",
@@ -762,7 +762,7 @@
       },
       "roof@rats" : {
          "exits" : {
-            "u" : "Chimney"
+            "u" : "chimney@rats"
          },
          "flags" : [
             "Dark"
@@ -775,7 +775,7 @@
       },
       "workroom@rats" : {
          "exits" : {
-            "n" : "Hallway_3"
+            "n" : "hallway_3@rats"
          },
          "flags" : [],
          "zone" : "rats",
@@ -786,9 +786,9 @@
       },
       "livroom@rats" : {
          "exits" : {
-            "w" : "Hallway_2",
-            "e" : "^D_Foodstore",
-            "n" : "Kitchen"
+            "w" : "hallway_2@rats",
+            "e" : "^d_foodstore@rats",
+            "n" : "kitchen@rats"
          },
          "flags" : [],
          "zone" : "rats",
@@ -799,10 +799,10 @@
       },
       "hallway_2@rats" : {
          "exits" : {
-            "w" : "Hallway_1",
-            "u" : "StairsDown",
-            "n" : "Bathroom",
-            "s" : "LivRoom"
+            "w" : "hallway_1@rats",
+            "u" : "stairsdown@rats",
+            "n" : "bathroom@rats",
+            "s" : "livroom@rats"
          },
          "flags" : [],
          "zone" : "rats",
@@ -815,7 +815,7 @@
    "mob" : {
       "erat4@rats" : {
          "damage" : "10",
-         "location" : "Foodstore",
+         "location" : "foodstore@rats",
          "armor" : "10",
          "name" : "ERat4",
          "description" : "It's Rat-tat-touille!",
@@ -827,7 +827,7 @@
       },
       "masterrat@rats" : {
          "damage" : "24",
-         "location" : "Rat4",
+         "location" : "rat4@rats",
          "armor" : "2",
          "name" : "MasterRat",
          "description" : "\nThe master rat is licking the &+Ggreen&* liquid coming out of the pipe.",
@@ -841,7 +841,7 @@
       },
       "eagle@rats" : {
          "damage" : "8",
-         "location" : "Nibelung59@nibelung",
+         "location" : "nibelung59@nibelung",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "0",
@@ -852,7 +852,7 @@
       },
       "guardrat@rats" : {
          "damage" : "12",
-         "location" : "Rat2",
+         "location" : "rat2@rats",
          "armor" : "12",
          "name" : "GuardRat",
          "description" : "A guard rat is guarding here.",
@@ -866,7 +866,7 @@
       },
       "credit@rats" : {
          "damage" : "0",
-         "location" : "Credits",
+         "location" : "credits@rats",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "0",
@@ -877,7 +877,7 @@
       },
       "erat8@rats" : {
          "damage" : "10",
-         "location" : "Hallway_1",
+         "location" : "hallway_1@rats",
          "armor" : "10",
          "name" : "ERat8",
          "description" : "A rat is running here.",
@@ -889,7 +889,7 @@
       },
       "erat7@rats" : {
          "damage" : "10",
-         "location" : "Cutlet",
+         "location" : "cutlet@rats",
          "armor" : "10",
          "name" : "ERat7",
          "description" : "A smoke rat is running here.",
@@ -901,7 +901,7 @@
       },
       "erat2@rats" : {
          "damage" : "10",
-         "location" : "Credits",
+         "location" : "credits@rats",
          "armor" : "10",
          "name" : "ERat2",
          "description" : "A sink rat is running here.",
@@ -913,7 +913,7 @@
       },
       "guardrat3@rats" : {
          "damage" : "12",
-         "location" : "Rat3",
+         "location" : "rat3@rats",
          "armor" : "12",
          "name" : "GuardRat3",
          "description" : "Ratty the guard rat is guarding here.",
@@ -927,7 +927,7 @@
       },
       "mrat@rats" : {
          "damage" : "10",
-         "location" : "Rat1",
+         "location" : "rat1@rats",
          "armor" : "10",
          "name" : "MRat",
          "description" : "A fat rat is running here.",
@@ -939,7 +939,7 @@
       },
       "guardrat4@rats" : {
          "damage" : "12",
-         "location" : "Rat3",
+         "location" : "rat3@rats",
          "armor" : "12",
          "name" : "GuardRat4",
          "description" : "An elite guardrat is guarding here.",
@@ -953,7 +953,7 @@
       },
       "erat6@rats" : {
          "damage" : "10",
-         "location" : "Credits",
+         "location" : "credits@rats",
          "armor" : "10",
          "name" : "ERat6",
          "description" : "A bed rat is running here.",
@@ -965,7 +965,7 @@
       },
       "erat3@rats" : {
          "damage" : "10",
-         "location" : "Credits",
+         "location" : "credits@rats",
          "armor" : "10",
          "name" : "ERat3",
          "description" : "A robe rat is running here.",
@@ -977,7 +977,7 @@
       },
       "erat1@rats" : {
          "damage" : "10",
-         "location" : "Credits",
+         "location" : "credits@rats",
          "armor" : "10",
          "name" : "ERat1",
          "description" : "A book rat is running here.",
@@ -989,7 +989,7 @@
       },
       "erat5@rats" : {
          "damage" : "10",
-         "location" : "Foodstore",
+         "location" : "foodstore@rats",
          "armor" : "10",
          "name" : "ERat5",
          "description" : "It's Rat-tat-tailie!",
@@ -1001,7 +1001,7 @@
       },
       "mom@rats" : {
          "damage" : "1",
-         "location" : "LivRoom",
+         "location" : "livroom@rats",
          "armor" : "0",
          "name" : "Mom",
          "description" : "Mom, holding her baby, is standing here. She says, 'Help us from the rats.'",
@@ -1018,7 +1018,7 @@
       },
       "guardrat2@rats" : {
          "damage" : "12",
-         "location" : "Rat2",
+         "location" : "rat2@rats",
          "armor" : "12",
          "name" : "GuardRat2",
          "description" : "It's Ratta-tat-tat!.",

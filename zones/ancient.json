@@ -2,7 +2,7 @@
    "obj" : {
       "warmask@ancient" : {
          "desc[1]" : "A heavy golden mask is hanging on the wall.",
-         "location" : "IN_ROOM:Anc27",
+         "location" : "IN_ROOM:anc27@ancient",
          "armor" : "42",
          "oflags" : [
             "Armor",
@@ -26,7 +26,7 @@
       },
       "abroom@ancient" : {
          "damage" : "5",
-         "location" : "WIELDED_BY:anara",
+         "location" : "WIELDED_BY:anara@ancient",
          "oflags" : [
             "Weapon"
          ],
@@ -39,7 +39,7 @@
          "desc[0]" : "An old broom has been left here."
       },
       "canoe@ancient" : {
-         "location" : "IN_ROOM:Anc19",
+         "location" : "IN_ROOM:anc19@ancient",
          "weight" : "5",
          "oflags" : [
             "Boat"
@@ -51,7 +51,7 @@
          "size" : "5"
       },
       "sunaltar@ancient" : {
-         "location" : "IN_ROOM:Anc35",
+         "location" : "IN_ROOM:anc35@ancient",
          "oflags" : [
             "NoGet"
          ],
@@ -61,7 +61,7 @@
          "desc[0]" : ""
       },
       "sunrod@ancient" : {
-         "location" : "IN_ROOM:Anc33",
+         "location" : "IN_ROOM:anc33@ancient",
          "oflags" : "{}",
          "name" : "SunRod",
          "examine" : "The rod might be used by priests or lords in ceremonies.",
@@ -72,7 +72,7 @@
          "desc[0]" : "A silver rod twinkles before you."
       },
       "uranium@ancient" : {
-         "location" : "IN_ROOM:Anc42",
+         "location" : "IN_ROOM:anc42@ancient",
          "oflags" : "{}",
          "name" : "Uranium",
          "examine" : "As you examine this stone you feel a sudden headache.",
@@ -84,7 +84,7 @@
       },
       "sunpot@ancient" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:Anc33",
+         "location" : "IN_ROOM:anc33@ancient",
          "oflags" : [
             "Container",
             "GetFlips"
@@ -100,7 +100,7 @@
          "desc[0]" : "A big pot made of clay stands before you."
       },
       "white_jewel@ancient" : {
-         "location" : "IN_ROOM:Anc43",
+         "location" : "IN_ROOM:anc43@ancient",
          "oflags" : "{}",
          "altname" : "gem",
          "name" : "White_Jewel",
@@ -112,7 +112,7 @@
          "desc[0]" : "\nIn the hand of the poor fellow you discover a glistening white jewel."
       },
       "fountain_of_youth@ancient" : {
-         "location" : "IN_ROOM:Anc41",
+         "location" : "IN_ROOM:anc41@ancient",
          "oflags" : [
             "NoGet"
          ],
@@ -122,7 +122,7 @@
          "desc[0]" : ""
       },
       "rplate@ancient" : {
-         "location" : "IN_ROOM:Anc55",
+         "location" : "IN_ROOM:anc55@ancient",
          "oflags" : "{}",
          "name" : "RPlate",
          "examine" : "Pure gold!",
@@ -134,7 +134,7 @@
       },
       "pedestal@ancient" : {
          "desc[1]" : "\nYour toe hits a cylindrical object standing on the ground, but the blinding\nlight makes it difficult to see what it is.",
-         "location" : "IN_ROOM:Anc36",
+         "location" : "IN_ROOM:anc36@ancient",
          "oflags" : [
             "NoGet"
          ],
@@ -146,7 +146,7 @@
          "maxstate" : "1"
       },
       "sunthrone@ancient" : {
-         "location" : "IN_ROOM:Anc50",
+         "location" : "IN_ROOM:anc50@ancient",
          "oflags" : [
             "NoGet"
          ],
@@ -156,7 +156,7 @@
          "desc[0]" : "The throne is set on the north wall."
       },
       "rblock@ancient" : {
-         "location" : "IN_ROOM:Anc55",
+         "location" : "IN_ROOM:anc55@ancient",
          "oflags" : "{}",
          "name" : "RBlock",
          "examine" : "Might be valuable.",
@@ -167,7 +167,7 @@
          "desc[0]" : "A huge silver block twinkles before you."
       },
       "meal@ancient" : {
-         "location" : "CARRIED_BY:cuezcon",
+         "location" : "CARRIED_BY:cuezcon@ancient",
          "oflags" : [
             "Food"
          ],
@@ -182,7 +182,7 @@
       },
       "sundisc@ancient" : {
          "desc[1]" : "\nThere's an extremely bright golden disc attached to the ceiling. It looks as\nyou will need more then just 'two hands and a Black & Decker' if you want to\nremove it....",
-         "location" : "IN_ROOM:Anc49",
+         "location" : "IN_ROOM:anc49@ancient",
          "oflags" : [
             "lit"
          ],
@@ -198,7 +198,7 @@
          "desc[0]" : "A giant Sun Disc is shining brightly here."
       },
       "rcoins@ancient" : {
-         "location" : "IN_ROOM:Anc55",
+         "location" : "IN_ROOM:anc55@ancient",
          "oflags" : "{}",
          "name" : "RCoins",
          "examine" : "\nThe coins have a hole in the center and beautiful carvings around it.",
@@ -209,7 +209,7 @@
          "desc[0]" : "There are small silver and gold coins all over the place."
       },
       "acloak@ancient" : {
-         "location" : "WORN_BY:arantxa",
+         "location" : "WORN_BY:arantxa@ancient",
          "armor" : "30",
          "oflags" : [
             "Armor",
@@ -227,7 +227,7 @@
          ]
       },
       "slamp@ancient" : {
-         "location" : "IN_ROOM:Anc48",
+         "location" : "IN_ROOM:anc48@ancient",
          "oflags" : [
             "Lit"
          ],
@@ -240,7 +240,7 @@
          "desc[0]" : "A lit lamp is bringing light in the otherwise dim chamber."
       },
       "healbalsam@ancient" : {
-         "location" : "IN_CONTAINER:SunPot",
+         "location" : "IN_CONTAINER:sunpot@ancient",
          "oflags" : "{}",
          "altname" : "cream",
          "name" : "HealBalsam",
@@ -252,7 +252,7 @@
          "bvalue" : "25"
       },
       "tlalocstatue@ancient" : {
-         "location" : "IN_ROOM:Anc15",
+         "location" : "IN_ROOM:anc15@ancient",
          "oflags" : [
             "Container",
             "NoGet"
@@ -265,7 +265,7 @@
       },
       "skymap@ancient" : {
          "desc[1]" : "There's a map lying on the floor.",
-         "location" : "IN_ROOM:Anc26",
+         "location" : "IN_ROOM:anc26@ancient",
          "oflags" : "{}",
          "name" : "SkyMap",
          "examine" : "",
@@ -279,7 +279,7 @@
       },
       "stonyknife@ancient" : {
          "damage" : "14",
-         "location" : "IN_ROOM:Anc8",
+         "location" : "IN_ROOM:anc8@ancient",
          "oflags" : [
             "Weapon"
          ],
@@ -293,7 +293,7 @@
          "desc[0]" : "A stone knife has been left here."
       },
       "lbook@ancient" : {
-         "location" : "IN_ROOM:Anc58",
+         "location" : "IN_ROOM:anc58@ancient",
          "oflags" : [
             "GetFlips"
          ],
@@ -309,7 +309,7 @@
       },
       "cheese1@ancient" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:Anc37",
+         "location" : "IN_ROOM:anc37@ancient",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -326,7 +326,7 @@
          "desc[0]" : "A slice of tasty Emmental cheese has been dropped here."
       },
       "atalisman@ancient" : {
-         "location" : "WORN_BY:aczuma",
+         "location" : "WORN_BY:aczuma@ancient",
          "oflags" : [
             "MissileSpell",
             "Wearable"
@@ -344,7 +344,7 @@
       },
       "embpot@ancient" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:Anc22",
+         "location" : "IN_ROOM:anc22@ancient",
          "oflags" : [
             "GetFlips",
             "Container"
@@ -359,7 +359,7 @@
          "desc[0]" : "A small clay pot has been tossed here."
       },
       "qfeather@ancient" : {
-         "location" : "IN_ROOM:Anc17",
+         "location" : "IN_ROOM:anc17@ancient",
          "oflags" : "{}",
          "name" : "QFeather",
          "examine" : "The feather glistens in all the colors of rainbow.",
@@ -370,7 +370,7 @@
          "desc[0]" : "There's a big colorful feather on the ground."
       },
       "qaltar@ancient" : {
-         "location" : "IN_ROOM:Anc8",
+         "location" : "IN_ROOM:anc8@ancient",
          "oflags" : [
             "NoGet"
          ],
@@ -380,7 +380,7 @@
          "desc[0]" : "An altar to Quetzalcoatl stands here before the monolith."
       },
       "bluegem@ancient" : {
-         "location" : "IN_CONTAINER:TlalocStatue",
+         "location" : "IN_CONTAINER:tlalocstatue@ancient",
          "oflags" : "{}",
          "altname" : "blue",
          "name" : "BlueGem",
@@ -393,7 +393,7 @@
       },
       "hole_anc31@ancient" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:Anc31",
+         "location" : "IN_ROOM:anc31@ancient",
          "oflags" : [
             "NoGet"
          ],
@@ -406,7 +406,7 @@
          "desc[0]" : "A large hole leads to a cave under the pyramid."
       },
       "whitegem@ancient" : {
-         "location" : "IN_CONTAINER:TlalocStatue",
+         "location" : "IN_CONTAINER:tlalocstatue@ancient",
          "oflags" : "{}",
          "altname" : "white",
          "name" : "WhiteGem",
@@ -419,7 +419,7 @@
       },
       "bigcross@ancient" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:Anc20",
+         "location" : "IN_ROOM:anc20@ancient",
          "oflags" : [
             "NoGet"
          ],
@@ -431,7 +431,7 @@
          "desc[0]" : "Looks like someone had moved the cross a bit..."
       },
       "chain@ancient" : {
-         "location" : "IN_ROOM:Anc55",
+         "location" : "IN_ROOM:anc55@ancient",
          "oflags" : "{}",
          "name" : "Chain",
          "examine" : "It looks like it has been torn apart from something.",
@@ -443,7 +443,7 @@
       },
       "mooncross@ancient" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:Anc30",
+         "location" : "IN_ROOM:anc30@ancient",
          "oflags" : [
             "NoGet"
          ],
@@ -456,7 +456,7 @@
       },
       "cheese2@ancient" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:Anc37",
+         "location" : "IN_ROOM:anc37@ancient",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -473,7 +473,7 @@
          "desc[0]" : "A slice of tasty Emmental cheese has been dropped here."
       },
       "bshield@ancient" : {
-         "location" : "IN_ROOM:Anc27",
+         "location" : "IN_ROOM:anc27@ancient",
          "armor" : "50",
          "oflags" : [
             "Armor",
@@ -491,7 +491,7 @@
       },
       "oldspear@ancient" : {
          "damage" : "8",
-         "location" : "IN_ROOM:Anc2",
+         "location" : "IN_ROOM:anc2@ancient",
          "oflags" : [
             "Weapon"
          ],
@@ -504,7 +504,7 @@
          "desc[0]" : "An old spear lies here on the ground."
       },
       "estone@ancient" : {
-         "location" : "IN_ROOM:Anc60",
+         "location" : "IN_ROOM:anc60@ancient",
          "oflags" : "{}",
          "altname" : "block",
          "name" : "EStone",
@@ -516,7 +516,7 @@
          "desc[0]" : "A small stone block fills the emptiness."
       },
       "pwand@ancient" : {
-         "location" : "CARRIED_BY:mano",
+         "location" : "CARRIED_BY:mano@ancient",
          "oflags" : "{}",
          "name" : "PWand",
          "examine" : "It's garnished with silver and small jewels.",
@@ -528,7 +528,7 @@
       },
       "hole_anc38@ancient" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:Anc38",
+         "location" : "IN_ROOM:anc38@ancient",
          "oflags" : [
             "NoGet"
          ],
@@ -541,7 +541,7 @@
          "desc[0]" : "A large hole leads out to the daylight."
       },
       "embbalsam@ancient" : {
-         "location" : "IN_CONTAINER:EmbPot",
+         "location" : "IN_CONTAINER:embpot@ancient",
          "oflags" : "{}",
          "altname" : "cream",
          "name" : "EmbBalsam",
@@ -556,9 +556,9 @@
    "loc" : {
       "anc10@ancient" : {
          "exits" : {
-            "e" : "Anc11",
-            "n" : "Anc16",
-            "s" : "Anc9"
+            "e" : "anc11@ancient",
+            "n" : "anc16@ancient",
+            "s" : "anc9@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -571,7 +571,7 @@
       },
       "anc54@ancient" : {
          "exits" : {
-            "n" : "Anc52"
+            "n" : "anc52@ancient"
          },
          "flags" : [],
          "zone" : "ancient",
@@ -582,8 +582,8 @@
       },
       "anc15@ancient" : {
          "exits" : {
-            "e" : "AncLearn",
-            "s" : "Anc44"
+            "e" : "anclearn@ancient",
+            "s" : "anc44@ancient"
          },
          "flags" : [
             "NoMagic"
@@ -596,8 +596,8 @@
       },
       "anc44@ancient" : {
          "exits" : {
-            "n" : "Anc15",
-            "s" : "Anc13"
+            "n" : "anc15@ancient",
+            "s" : "anc13@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -610,9 +610,9 @@
       },
       "anc31@ancient" : {
          "exits" : {
-            "w" : "Anc21",
-            "e" : "^Hole_Anc31",
-            "u" : "Anc32"
+            "w" : "anc21@ancient",
+            "e" : "^hole_anc31@ancient",
+            "u" : "anc32@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -625,8 +625,8 @@
       },
       "anc17@ancient" : {
          "exits" : {
-            "w" : "Anc18",
-            "e" : "Anc16"
+            "w" : "anc18@ancient",
+            "e" : "anc16@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -639,9 +639,9 @@
       },
       "anc16@ancient" : {
          "exits" : {
-            "w" : "Anc17",
-            "n" : "Anc20",
-            "s" : "Anc10"
+            "w" : "anc17@ancient",
+            "n" : "anc20@ancient",
+            "s" : "anc10@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -654,8 +654,8 @@
       },
       "anc38@ancient" : {
          "exits" : {
-            "w" : "^Hole_Anc38",
-            "e" : "Anc39"
+            "w" : "^hole_anc38@ancient",
+            "e" : "anc39@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -681,7 +681,7 @@
       },
       "anc22@ancient" : {
          "exits" : {
-            "e" : "Anc21"
+            "e" : "anc21@ancient"
          },
          "flags" : [],
          "zone" : "ancient",
@@ -692,9 +692,9 @@
       },
       "anc39@ancient" : {
          "exits" : {
-            "w" : "Anc38",
-            "e" : "Anc40",
-            "s" : "Anc42"
+            "w" : "anc38@ancient",
+            "e" : "anc40@ancient",
+            "s" : "anc42@ancient"
          },
          "flags" : [
             "Dark"
@@ -707,7 +707,7 @@
       },
       "anclearn@ancient" : {
          "exits" : {
-            "w" : "Anc15"
+            "w" : "anc15@ancient"
          },
          "flags" : [
             "Peaceful"
@@ -720,7 +720,7 @@
       },
       "anc41@ancient" : {
          "exits" : {
-            "w" : "Anc40"
+            "w" : "anc40@ancient"
          },
          "flags" : [
             "Dark"
@@ -733,7 +733,7 @@
       },
       "anc26@ancient" : {
          "exits" : {
-            "w" : "Anc25"
+            "w" : "anc25@ancient"
          },
          "flags" : [],
          "zone" : "ancient",
@@ -744,7 +744,7 @@
       },
       "anc1@ancient" : {
          "exits" : {
-            "e" : "Anc2",
+            "e" : "anc2@ancient",
             "s" : "mount1@rainforest"
          },
          "flags" : [
@@ -770,9 +770,9 @@
       },
       "anc40@ancient" : {
          "exits" : {
-            "w" : "Anc39",
-            "e" : "Anc41",
-            "n" : "Anc45"
+            "w" : "anc39@ancient",
+            "e" : "anc41@ancient",
+            "n" : "anc45@ancient"
          },
          "flags" : [
             "Dark"
@@ -785,11 +785,11 @@
       },
       "anc47@ancient" : {
          "exits" : {
-            "w" : "Anc48",
-            "e" : "Anc52",
-            "n" : "Anc49",
-            "d" : "Anc55",
-            "s" : "Anc46"
+            "w" : "anc48@ancient",
+            "e" : "anc52@ancient",
+            "n" : "anc49@ancient",
+            "d" : "anc55@ancient",
+            "s" : "anc46@ancient"
          },
          "flags" : [],
          "zone" : "ancient",
@@ -800,8 +800,8 @@
       },
       "anc20@ancient" : {
          "exits" : {
-            "n" : "Anc21",
-            "s" : "Anc16"
+            "n" : "anc21@ancient",
+            "s" : "anc16@ancient"
          },
          "flags" : [
             "OutDoors",
@@ -815,8 +815,8 @@
       },
       "anc35@ancient" : {
          "exits" : {
-            "e" : "Anc36",
-            "d" : "Anc34"
+            "e" : "anc36@ancient",
+            "d" : "anc34@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -829,7 +829,7 @@
       },
       "anc53@ancient" : {
          "exits" : {
-            "w" : "Anc52"
+            "w" : "anc52@ancient"
          },
          "flags" : [],
          "zone" : "ancient",
@@ -840,8 +840,8 @@
       },
       "anc45@ancient" : {
          "exits" : {
-            "n" : "Anc46",
-            "s" : "Anc40"
+            "n" : "anc46@ancient",
+            "s" : "anc40@ancient"
          },
          "flags" : [
             "NoMobiles"
@@ -854,10 +854,10 @@
       },
       "anc28@ancient" : {
          "exits" : {
-            "u" : "Anc29",
-            "n" : "Anc29",
-            "d" : "Anc25",
-            "s" : "Anc25"
+            "u" : "anc29@ancient",
+            "n" : "anc29@ancient",
+            "d" : "anc25@ancient",
+            "s" : "anc25@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -870,9 +870,9 @@
       },
       "anc30@ancient" : {
          "exits" : {
-            "n" : "Anc37",
-            "d" : "Anc29",
-            "s" : "Anc29"
+            "n" : "anc37@ancient",
+            "d" : "anc29@ancient",
+            "s" : "anc29@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -885,10 +885,10 @@
       },
       "anc3@ancient" : {
          "exits" : {
-            "w" : "Anc2",
-            "e" : "Anc6",
-            "n" : "Anc9",
-            "s" : "Anc4"
+            "w" : "anc2@ancient",
+            "e" : "anc6@ancient",
+            "n" : "anc9@ancient",
+            "s" : "anc4@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -901,10 +901,10 @@
       },
       "anc52@ancient" : {
          "exits" : {
-            "w" : "Anc47",
-            "e" : "Anc53",
-            "n" : "Anc51",
-            "s" : "Anc54"
+            "w" : "anc47@ancient",
+            "e" : "anc53@ancient",
+            "n" : "anc51@ancient",
+            "s" : "anc54@ancient"
          },
          "flags" : [],
          "zone" : "ancient",
@@ -915,7 +915,7 @@
       },
       "anc36@ancient" : {
          "exits" : {
-            "w" : "Anc35"
+            "w" : "anc35@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -928,8 +928,8 @@
       },
       "anc34@ancient" : {
          "exits" : {
-            "u" : "Anc35",
-            "d" : "Anc32"
+            "u" : "anc35@ancient",
+            "d" : "anc32@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -942,10 +942,10 @@
       },
       "anc21@ancient" : {
          "exits" : {
-            "w" : "Anc22",
-            "e" : "Anc31",
-            "n" : "Anc23",
-            "s" : "Anc20"
+            "w" : "anc22@ancient",
+            "e" : "anc31@ancient",
+            "n" : "anc23@ancient",
+            "s" : "anc20@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -958,9 +958,9 @@
       },
       "anc6@ancient" : {
          "exits" : {
-            "w" : "Anc3",
-            "e" : "Anc7",
-            "u" : "Anc7"
+            "w" : "anc3@ancient",
+            "e" : "anc7@ancient",
+            "u" : "anc7@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -973,11 +973,11 @@
       },
       "anc25@ancient" : {
          "exits" : {
-            "w" : "Anc27",
-            "e" : "Anc26",
-            "u" : "Anc28",
-            "n" : "Anc28",
-            "s" : "Anc24"
+            "w" : "anc27@ancient",
+            "e" : "anc26@ancient",
+            "u" : "anc28@ancient",
+            "n" : "anc28@ancient",
+            "s" : "anc24@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -990,8 +990,8 @@
       },
       "anc4@ancient" : {
          "exits" : {
-            "n" : "Anc3",
-            "s" : "Anc5"
+            "n" : "anc3@ancient",
+            "s" : "anc5@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -1004,7 +1004,7 @@
       },
       "anc48@ancient" : {
          "exits" : {
-            "e" : "Anc47"
+            "e" : "anc47@ancient"
          },
          "flags" : [],
          "zone" : "ancient",
@@ -1015,10 +1015,10 @@
       },
       "anc43@ancient" : {
          "exits" : {
-            "w" : "Anc43",
-            "e" : "Anc43",
-            "n" : "Anc43",
-            "s" : "Anc43"
+            "w" : "anc43@ancient",
+            "e" : "anc43@ancient",
+            "n" : "anc43@ancient",
+            "s" : "anc43@ancient"
          },
          "flags" : [
             "Dark",
@@ -1033,8 +1033,8 @@
       },
       "anc11@ancient" : {
          "exits" : {
-            "w" : "Anc10",
-            "e" : "Anc12"
+            "w" : "anc10@ancient",
+            "e" : "anc12@ancient"
          },
          "flags" : [
             "OutDoors",
@@ -1048,8 +1048,8 @@
       },
       "anc23@ancient" : {
          "exits" : {
-            "n" : "Anc24",
-            "s" : "Anc21"
+            "n" : "anc24@ancient",
+            "s" : "anc21@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -1062,7 +1062,7 @@
       },
       "anc56@ancient" : {
          "exits" : {
-            "d" : "Anc57"
+            "d" : "anc57@ancient"
          },
          "flags" : [
             "Cold"
@@ -1076,7 +1076,7 @@
       "anc19@ancient" : {
          "exits" : {
             "w" : "pyramid1@pyramid",
-            "n" : "Anc18"
+            "n" : "anc18@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -1089,9 +1089,9 @@
       },
       "anc24@ancient" : {
          "exits" : {
-            "w" : "Mou5@Mountain",
-            "n" : "Anc25",
-            "s" : "Anc23"
+            "w" : "mou5@mountain",
+            "n" : "anc25@ancient",
+            "s" : "anc23@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -1104,8 +1104,8 @@
       },
       "anc9@ancient" : {
          "exits" : {
-            "n" : "Anc10",
-            "s" : "Anc3"
+            "n" : "anc10@ancient",
+            "s" : "anc3@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -1118,7 +1118,7 @@
       },
       "anc50@ancient" : {
          "exits" : {
-            "s" : "Anc49"
+            "s" : "anc49@ancient"
          },
          "flags" : [],
          "zone" : "ancient",
@@ -1129,7 +1129,7 @@
       },
       "anc51@ancient" : {
          "exits" : {
-            "s" : "Anc52"
+            "s" : "anc52@ancient"
          },
          "flags" : [],
          "zone" : "ancient",
@@ -1140,8 +1140,8 @@
       },
       "anc46@ancient" : {
          "exits" : {
-            "n" : "Anc47",
-            "s" : "Anc45"
+            "n" : "anc47@ancient",
+            "s" : "anc45@ancient"
          },
          "flags" : [],
          "zone" : "ancient",
@@ -1152,7 +1152,7 @@
       },
       "anc37@ancient" : {
          "exits" : {
-            "s" : "Anc30"
+            "s" : "anc30@ancient"
          },
          "flags" : [],
          "zone" : "ancient",
@@ -1163,7 +1163,7 @@
       },
       "anc60@ancient" : {
          "exits" : {
-            "w" : "Anc57"
+            "w" : "anc57@ancient"
          },
          "flags" : [
             "Cold"
@@ -1176,10 +1176,10 @@
       },
       "anc57@ancient" : {
          "exits" : {
-            "w" : "Anc58",
-            "e" : "Anc60",
-            "u" : "Anc56",
-            "s" : "Anc59"
+            "w" : "anc58@ancient",
+            "e" : "anc60@ancient",
+            "u" : "anc56@ancient",
+            "s" : "anc59@ancient"
          },
          "flags" : [
             "Cold"
@@ -1192,8 +1192,8 @@
       },
       "anc42@ancient" : {
          "exits" : {
-            "n" : "Anc39",
-            "s" : "Anc43"
+            "n" : "anc39@ancient",
+            "s" : "anc43@ancient"
          },
          "flags" : [
             "Dark"
@@ -1206,10 +1206,10 @@
       },
       "anc29@ancient" : {
          "exits" : {
-            "u" : "Anc30",
-            "n" : "Anc30",
-            "d" : "Anc28",
-            "s" : "Anc28"
+            "u" : "anc30@ancient",
+            "n" : "anc30@ancient",
+            "d" : "anc28@ancient",
+            "s" : "anc28@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -1222,9 +1222,9 @@
       },
       "anc32@ancient" : {
          "exits" : {
-            "e" : "Anc33",
-            "u" : "Anc34",
-            "d" : "Anc31"
+            "e" : "anc33@ancient",
+            "u" : "anc34@ancient",
+            "d" : "anc31@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -1237,8 +1237,8 @@
       },
       "anc18@ancient" : {
          "exits" : {
-            "e" : "Anc17",
-            "s" : "Anc19"
+            "e" : "anc17@ancient",
+            "s" : "anc19@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -1251,8 +1251,8 @@
       },
       "anc49@ancient" : {
          "exits" : {
-            "n" : "Anc50",
-            "s" : "Anc47"
+            "n" : "anc50@ancient",
+            "s" : "anc47@ancient"
          },
          "flags" : [],
          "zone" : "ancient",
@@ -1263,9 +1263,9 @@
       },
       "anc13@ancient" : {
          "exits" : {
-            "w" : "Anc12",
-            "e" : "Anc14",
-            "n" : "Anc44",
+            "w" : "anc12@ancient",
+            "e" : "anc14@ancient",
+            "n" : "anc44@ancient",
             "s" : "thyrannen1@thyrannen"
          },
          "flags" : [
@@ -1280,8 +1280,8 @@
       },
       "anc12@ancient" : {
          "exits" : {
-            "w" : "Anc11",
-            "e" : "Anc13"
+            "w" : "anc11@ancient",
+            "e" : "anc13@ancient"
          },
          "flags" : [
             "OutDoors",
@@ -1295,7 +1295,7 @@
       },
       "anc33@ancient" : {
          "exits" : {
-            "w" : "Anc32"
+            "w" : "anc32@ancient"
          },
          "flags" : [],
          "zone" : "ancient",
@@ -1306,7 +1306,7 @@
       },
       "anc58@ancient" : {
          "exits" : {
-            "e" : "Anc57"
+            "e" : "anc57@ancient"
          },
          "flags" : [
             "Cold",
@@ -1321,8 +1321,8 @@
       },
       "anc8@ancient" : {
          "exits" : {
-            "w" : "Anc7",
-            "d" : "Anc7"
+            "w" : "anc7@ancient",
+            "d" : "anc7@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -1347,7 +1347,7 @@
       },
       "anc59@ancient" : {
          "exits" : {
-            "n" : "Anc57"
+            "n" : "anc57@ancient"
          },
          "flags" : [
             "Cold",
@@ -1366,7 +1366,7 @@
       },
       "anc27@ancient" : {
          "exits" : {
-            "e" : "Anc25"
+            "e" : "anc25@ancient"
          },
          "flags" : [],
          "zone" : "ancient",
@@ -1377,7 +1377,7 @@
       },
       "anc55@ancient" : {
          "exits" : {
-            "u" : "Anc47"
+            "u" : "anc47@ancient"
          },
          "flags" : [
             "Dark"
@@ -1390,8 +1390,8 @@
       },
       "anc2@ancient" : {
          "exits" : {
-            "w" : "Anc1",
-            "e" : "Anc3"
+            "w" : "anc1@ancient",
+            "e" : "anc3@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -1404,10 +1404,10 @@
       },
       "anc7@ancient" : {
          "exits" : {
-            "w" : "Anc6",
-            "e" : "Anc8",
-            "u" : "Anc8",
-            "d" : "Anc6"
+            "w" : "anc6@ancient",
+            "e" : "anc8@ancient",
+            "u" : "anc8@ancient",
+            "d" : "anc6@ancient"
          },
          "flags" : [
             "OutDoors"
@@ -1422,7 +1422,7 @@
    "mob" : {
       "pacamac@ancient" : {
          "damage" : "10",
-         "location" : "Anc46",
+         "location" : "anc46@ancient",
          "armor" : "0",
          "name" : "pacamac",
          "description" : "Pacamac the town guardsman is blocking your way.",
@@ -1439,7 +1439,7 @@
             "immdeaf"
          ],
          "damage" : "15",
-         "location" : "Anc55",
+         "location" : "anc55@ancient",
          "armor" : "0",
          "name" : "rattlesnake",
          "description" : "The rattlesnake is keeping horrifying noises before you.",
@@ -1457,7 +1457,7 @@
       },
       "anara@ancient" : {
          "damage" : "10",
-         "location" : "Anc48",
+         "location" : "anc48@ancient",
          "armor" : "0",
          "name" : "anara",
          "description" : "A female servant is cleaning the floor with a broom.",
@@ -1471,7 +1471,7 @@
       },
       "cockroach@ancient" : {
          "damage" : "12",
-         "location" : "Anc42",
+         "location" : "anc42@ancient",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "50",
@@ -1482,7 +1482,7 @@
       },
       "tiny@ancient" : {
          "damage" : "10",
-         "location" : "Anc18",
+         "location" : "anc18@ancient",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "90",
@@ -1495,7 +1495,7 @@
       },
       "old@ancient" : {
          "damage" : "8",
-         "location" : "Anc18",
+         "location" : "anc18@ancient",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "50",
@@ -1508,7 +1508,7 @@
       },
       "hungry@ancient" : {
          "damage" : "12",
-         "location" : "Anc18",
+         "location" : "anc18@ancient",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "80",
@@ -1524,7 +1524,7 @@
             "ImmBlind"
          ],
          "damage" : "20",
-         "location" : "Anc7",
+         "location" : "anc7@ancient",
          "armor" : "0",
          "name" : "quetzalcoatl",
          "description" : "This monolith is alive!!!",
@@ -1542,7 +1542,7 @@
       },
       "cuezcon@ancient" : {
          "damage" : "10",
-         "location" : "Anc46",
+         "location" : "anc46@ancient",
          "armor" : "0",
          "aggression" : "25",
          "pname" : "Cuezcon",
@@ -1552,7 +1552,7 @@
       },
       "mosquito@ancient" : {
          "damage" : "10",
-         "location" : "Anc18",
+         "location" : "anc18@ancient",
          "armor" : "0",
          "name" : "mosquito",
          "description" : "A giant mosquito is thinking no good about you.",
@@ -1566,7 +1566,7 @@
       },
       "bloodthirsty@ancient" : {
          "damage" : "10",
-         "location" : "Anc18",
+         "location" : "anc18@ancient",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "80",
@@ -1585,7 +1585,7 @@
             "ImmCripple"
          ],
          "damage" : "10",
-         "location" : "Anc51",
+         "location" : "anc51@ancient",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "60",
@@ -1601,7 +1601,7 @@
             "Mute"
          ],
          "damage" : "10",
-         "location" : "Anc53",
+         "location" : "anc53@ancient",
          "armor" : "0",
          "name" : "arantxa",
          "description" : "\nArantxa the Astronomer is radiating the light of ancient wisdom around her.",
@@ -1622,7 +1622,7 @@
             "ImmMute"
          ],
          "damage" : "10",
-         "location" : "Anc50",
+         "location" : "anc50@ancient",
          "armor" : "0",
          "name" : "emperor",
          "description" : "The Son of the Sun God is sitting here on his throne.",
@@ -1633,7 +1633,7 @@
       },
       "bloodyjaws@ancient" : {
          "damage" : "10",
-         "location" : "Anc44",
+         "location" : "anc44@ancient",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "75",
@@ -1643,7 +1643,7 @@
       },
       "monolith@ancient" : {
          "damage" : "10",
-         "location" : "Anc25",
+         "location" : "anc25@ancient",
          "speed" : "0",
          "armor" : "30",
          "aggression" : "0",
@@ -1654,7 +1654,7 @@
       },
       "tenoc@ancient" : {
          "damage" : "8",
-         "location" : "Anc46",
+         "location" : "anc46@ancient",
          "armor" : "0",
          "name" : "tenoc",
          "description" : "Tenoc the younger guardsman looks at you curiously.",
@@ -1668,7 +1668,7 @@
       },
       "mummy@ancient" : {
          "damage" : "12",
-         "location" : "Anc22",
+         "location" : "anc22@ancient",
          "armor" : "0",
          "name" : "mummy",
          "description" : "There's something rotten in the corner.",
@@ -1682,7 +1682,7 @@
       },
       "alligator@ancient" : {
          "damage" : "10",
-         "location" : "Anc44",
+         "location" : "anc44@ancient",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "75",
@@ -1700,7 +1700,7 @@
             "ImmMute"
          ],
          "damage" : "10",
-         "location" : "Anc54",
+         "location" : "anc54@ancient",
          "armor" : "0",
          "name" : "mano",
          "description" : "\nAn evil glance of Mano the Priest nails your boots to the floor.",

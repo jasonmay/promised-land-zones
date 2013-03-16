@@ -2,7 +2,7 @@
    "obj" : {
       "ladder@avairy" : {
          "desc[1]" : "An old wooden ladder sits in the fireplace.",
-         "location" : "IN_ROOM:build1",
+         "location" : "IN_ROOM:build1@avairy",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -16,7 +16,7 @@
       },
       "bird@avairy" : {
          "desc[1]" : "A very large golden bird is pirched here.",
-         "location" : "IN_ROOM:build2",
+         "location" : "IN_ROOM:build2@avairy",
          "oflags" : [
             "NoGet"
          ],
@@ -29,7 +29,7 @@
          "desc[0]" : "A large golden bird has kneeled for you to sit."
       },
       "cracker@avairy" : {
-         "location" : "IN_CONTAINER:cabinet",
+         "location" : "IN_CONTAINER:cabinet@avairy",
          "oflags" : [
             "Food"
          ],
@@ -42,7 +42,7 @@
          "desc[0]" : "A cracker has been left here."
       },
       "lava_pit@avairy" : {
-         "location" : "IN_ROOM:shore10",
+         "location" : "IN_ROOM:shore10@avairy",
          "oflags" : [
             "NoGet",
             "Lit"
@@ -53,7 +53,7 @@
          "desc[0]" : "A lava pit spits hot lava and flames here."
       },
       "panel@avairy" : {
-         "location" : "IN_ROOM:fall1",
+         "location" : "IN_ROOM:fall1@avairy",
          "oflags" : [
             "NoGet"
          ],
@@ -68,7 +68,7 @@
       },
       "beans@avairy" : {
          "desc[1]" : "A bowl of beans sits on the stove.",
-         "location" : "IN_ROOM:build1",
+         "location" : "IN_ROOM:build1@avairy",
          "oflags" : [
             "GetFlips",
             "Food"
@@ -85,7 +85,7 @@
       "axe@avairy" : {
          "desc[1]" : "A brilliantly shining golden axe hangs on the wall.",
          "damage" : "21",
-         "location" : "IN_ROOM:fall2",
+         "location" : "IN_ROOM:fall2@avairy",
          "oflags" : [
             "Weapon",
             "Glowing",
@@ -101,7 +101,7 @@
          "desc[0]" : "A stunning golden axe has been discarded here."
       },
       "swan_obj@avairy" : {
-         "location" : "IN_ROOM:castle28",
+         "location" : "IN_ROOM:castle28@avairy",
          "oflags" : [
             "NoGet"
          ],
@@ -118,7 +118,7 @@
       },
       "bed@avairy" : {
          "desc[1]" : "There appears to be some type of book on the bed.",
-         "location" : "IN_ROOM:build1",
+         "location" : "IN_ROOM:build1@avairy",
          "oflags" : [
             "NoGet"
          ],
@@ -129,7 +129,7 @@
       },
       "worm_cage@avairy" : {
          "desc[1]" : "A small worm cage sits on a table, closed.",
-         "location" : "IN_ROOM:castle7",
+         "location" : "IN_ROOM:castle7@avairy",
          "oflags" : [
             "Openable",
             "Container",
@@ -145,7 +145,7 @@
       },
       "cabinet@avairy" : {
          "desc[1]" : "An old wooden cabinet sit on a counter, closed.",
-         "location" : "IN_ROOM:fall1",
+         "location" : "IN_ROOM:fall1@avairy",
          "oflags" : [
             "Openable",
             "Container",
@@ -160,7 +160,7 @@
          "desc[0]" : "An old wooden cabinet has been left open."
       },
       "worm@avairy" : {
-         "location" : "IN_CONTAINER:worm_cage",
+         "location" : "IN_CONTAINER:worm_cage@avairy",
          "oflags" : "{ }",
          "name" : "worm",
          "size" : "4",
@@ -173,7 +173,7 @@
       },
       "umbrella@avairy" : {
          "desc[1]" : "An umbrella lies here, opened.",
-         "location" : "IN_ROOM:jungle5",
+         "location" : "IN_ROOM:jungle5@avairy",
          "oflags" : [
             "Openable"
          ],
@@ -188,7 +188,7 @@
       },
       "driftwood@avairy" : {
          "desc[1]" : "A sizeable piece of driftwood has washed ashore here.",
-         "location" : "IN_ROOM:shore13",
+         "location" : "IN_ROOM:shore13@avairy",
          "oflags" : [
             "Lightable",
             "GetFlips"
@@ -204,7 +204,7 @@
       },
       "knife@avairy" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:chef",
+         "location" : "WIELDED_BY:chef@avairy",
          "oflags" : [
             "Weapon"
          ],
@@ -230,7 +230,7 @@
       },
       "gold_egg@avairy" : {
          "desc[1]" : "\nA golden egg sits here in a nest.",
-         "location" : "IN_ROOM:tree1",
+         "location" : "IN_ROOM:tree1@avairy",
          "oflags" : "{  }",
          "name" : "gold_egg",
          "size" : "1",
@@ -243,7 +243,7 @@
       },
       "shirt@avairy" : {
          "desc[1]" : "A steel shirt has just been dug up.",
-         "location" : "IN_ROOM:cave1",
+         "location" : "IN_ROOM:cave1@avairy",
          "armor" : "39",
          "oflags" : [
             "Armor",
@@ -262,7 +262,7 @@
          ]
       },
       "traptop@avairy" : {
-         "location" : "IN_ROOM:castle14",
+         "location" : "IN_ROOM:castle14@avairy",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -279,7 +279,7 @@
          "desc[0]" : "\nA trapdoor has been opened allowing passage under the stage."
       },
       "steak@avairy" : {
-         "location" : "IN_ROOM:cave1",
+         "location" : "IN_ROOM:cave1@avairy",
          "oflags" : [
             "Food"
          ],
@@ -293,7 +293,7 @@
          "desc[0]" : "A piece of steak lies here."
       },
       "banana@avairy" : {
-         "location" : "IN_ROOM:jungle5",
+         "location" : "IN_ROOM:jungle5@avairy",
          "oflags" : [
             "Food"
          ],
@@ -307,7 +307,7 @@
          "desc[0]" : "A fallen banana lies here."
       },
       "fireplace@avairy" : {
-         "location" : "IN_ROOM:build1",
+         "location" : "IN_ROOM:build1@avairy",
          "oflags" : [
             "Container",
             "NoGet"
@@ -319,7 +319,7 @@
          "bvalue" : "0"
       },
       "trapbottom@avairy" : {
-         "location" : "IN_ROOM:castle26",
+         "location" : "IN_ROOM:castle26@avairy",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -337,7 +337,7 @@
       },
       "dirt@avairy" : {
          "desc[1]" : "A pile of dirt looks like it was just used to cover something up.",
-         "location" : "IN_ROOM:cave1",
+         "location" : "IN_ROOM:cave1@avairy",
          "oflags" : [
             "NoGet"
          ],
@@ -349,7 +349,7 @@
          "desc[0]" : "Some dirt has been dug up here."
       },
       "diary@avairy" : {
-         "location" : "IN_ROOM:build1",
+         "location" : "IN_ROOM:build1@avairy",
          "oflags" : [
             "Destroyed"
          ],
@@ -364,7 +364,7 @@
    "loc" : {
       "cave2@avairy" : {
          "exits" : {
-            "w" : "shore14"
+            "w" : "shore14@avairy"
          },
          "flags" : [
             "Dark"
@@ -377,9 +377,9 @@
       },
       "castle22@avairy" : {
          "exits" : {
-            "w" : "castle24",
-            "e" : "castle23",
-            "s" : "castle21"
+            "w" : "castle24@avairy",
+            "e" : "castle23@avairy",
+            "s" : "castle21@avairy"
          },
          "flags" : [
             "Light"
@@ -392,8 +392,8 @@
       },
       "castle10@avairy" : {
          "exits" : {
-            "e" : "castle11",
-            "s" : "castle5"
+            "e" : "castle11@avairy",
+            "s" : "castle5@avairy"
          },
          "flags" : [
             "Light"
@@ -406,9 +406,9 @@
       },
       "jungle4@avairy" : {
          "exits" : {
-            "e" : "shore4",
-            "w" : "jungle8",
-            "n" : "jungle4"
+            "e" : "shore4@avairy",
+            "w" : "jungle8@avairy",
+            "n" : "jungle4@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -422,9 +422,9 @@
       },
       "jungle1@avairy" : {
          "exits" : {
-            "e" : "shore1",
-            "w" : "jungle5",
-            "s" : "jungle2"
+            "e" : "shore1@avairy",
+            "w" : "jungle5@avairy",
+            "s" : "jungle2@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -438,8 +438,8 @@
       },
       "shore18@avairy" : {
          "exits" : {
-            "e" : "shore19",
-            "w" : "shore17"
+            "e" : "shore19@avairy",
+            "w" : "shore17@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -453,9 +453,9 @@
       },
       "shore7@avairy" : {
          "exits" : {
-            "e" : "shore6",
-            "w" : "shore8",
-            "n" : "jungle8"
+            "e" : "shore6@avairy",
+            "w" : "shore8@avairy",
+            "n" : "jungle8@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -469,7 +469,7 @@
       },
       "fall2@avairy" : {
          "exits" : {
-            "e" : "fall1"
+            "e" : "fall1@avairy"
          },
          "flags" : [
             "Dark",
@@ -483,8 +483,8 @@
       },
       "jungle10@avairy" : {
          "exits" : {
-            "e" : "jungle8",
-            "w" : "build1"
+            "e" : "jungle8@avairy",
+            "w" : "build1@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -498,9 +498,9 @@
       },
       "castle11@avairy" : {
          "exits" : {
-            "w" : "castle10",
-            "e" : "castle12",
-            "n" : "castle16"
+            "w" : "castle10@avairy",
+            "e" : "castle12@avairy",
+            "n" : "castle16@avairy"
          },
          "flags" : [
             "Light"
@@ -513,8 +513,8 @@
       },
       "jungle5@avairy" : {
          "exits" : {
-            "e" : "jungle1",
-            "s" : "jungle6"
+            "e" : "jungle1@avairy",
+            "s" : "jungle6@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -528,10 +528,10 @@
       },
       "castle2@avairy" : {
          "exits" : {
-            "e" : "castle4",
-            "w" : "castle3",
-            "n" : "castle9",
-            "s" : "castle1"
+            "e" : "castle4@avairy",
+            "w" : "castle3@avairy",
+            "n" : "castle9@avairy",
+            "s" : "castle1@avairy"
          },
          "flags" : [
             "Light"
@@ -544,8 +544,8 @@
       },
       "jungle11@avairy" : {
          "exits" : {
-            "e" : "jungle9",
-            "w" : "shore12"
+            "e" : "jungle9@avairy",
+            "w" : "shore12@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -559,7 +559,7 @@
       },
       "castle18@avairy" : {
          "exits" : {
-            "e" : "castle17"
+            "e" : "castle17@avairy"
          },
          "flags" : [
             "Light"
@@ -572,7 +572,7 @@
       },
       "castle28@avairy" : {
          "exits" : {
-            "w" : "castle27"
+            "w" : "castle27@avairy"
          },
          "flags" : [
             "Light"
@@ -585,8 +585,8 @@
       },
       "shore9@avairy" : {
          "exits" : {
-            "e" : "shore8",
-            "w" : "shore10"
+            "e" : "shore8@avairy",
+            "w" : "shore10@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -600,7 +600,7 @@
       },
       "tower@avairy" : {
          "exits" : {
-            "s" : "forest5"
+            "s" : "forest5@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -614,8 +614,8 @@
       },
       "castle21@avairy" : {
          "exits" : {
-            "n" : "castle22",
-            "s" : "castle20"
+            "n" : "castle22@avairy",
+            "s" : "castle20@avairy"
          },
          "flags" : [
             "Light"
@@ -628,8 +628,8 @@
       },
       "shore15@avairy" : {
          "exits" : {
-            "e" : "shore16",
-            "s" : "shore14"
+            "e" : "shore16@avairy",
+            "s" : "shore14@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -643,8 +643,8 @@
       },
       "castle27@avairy" : {
          "exits" : {
-            "e" : "castle28",
-            "s" : "castle18"
+            "e" : "castle28@avairy",
+            "s" : "castle18@avairy"
          },
          "flags" : [
             "Light"
@@ -657,8 +657,8 @@
       },
       "pond1@avairy" : {
          "exits" : {
-            "e" : "jungle6",
-            "w" : "water1"
+            "e" : "jungle6@avairy",
+            "w" : "water1@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -673,8 +673,8 @@
       },
       "forest2@avairy" : {
          "exits" : {
-            "e" : "forest1",
-            "n" : "forest3"
+            "e" : "forest1@avairy",
+            "n" : "forest3@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -688,7 +688,7 @@
       },
       "castle24@avairy" : {
          "exits" : {
-            "e" : "castle22"
+            "e" : "castle22@avairy"
          },
          "flags" : [
             "Light"
@@ -701,7 +701,7 @@
       },
       "castle19@avairy" : {
          "exits" : {
-            "w" : "castle17"
+            "w" : "castle17@avairy"
          },
          "flags" : [
             "Light"
@@ -714,9 +714,9 @@
       },
       "jungle2@avairy" : {
          "exits" : {
-            "e" : "shore2",
-            "w" : "jungle6",
-            "n" : "jungle1"
+            "e" : "shore2@avairy",
+            "w" : "jungle6@avairy",
+            "n" : "jungle1@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -730,8 +730,8 @@
       },
       "shore11@avairy" : {
          "exits" : {
-            "n" : "shore12",
-            "s" : "shore10"
+            "n" : "shore12@avairy",
+            "s" : "shore10@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -745,7 +745,7 @@
       },
       "castle25@avairy" : {
          "exits" : {
-            "s" : "castle23"
+            "s" : "castle23@avairy"
          },
          "flags" : [
             "Light"
@@ -758,8 +758,8 @@
       },
       "castle23@avairy" : {
          "exits" : {
-            "w" : "castle22",
-            "n" : "castle25"
+            "w" : "castle22@avairy",
+            "n" : "castle25@avairy"
          },
          "flags" : [
             "Light"
@@ -772,7 +772,7 @@
       },
       "fall1@avairy" : {
          "exits" : {
-            "u" : "water1"
+            "u" : "water1@avairy"
          },
          "flags" : [
             "Dark",
@@ -786,9 +786,9 @@
       },
       "shore2@avairy" : {
          "exits" : {
-            "w" : "jungle2",
-            "n" : "shore1",
-            "s" : "shore3"
+            "w" : "jungle2@avairy",
+            "n" : "shore1@avairy",
+            "s" : "shore3@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -802,8 +802,8 @@
       },
       "shore13@avairy" : {
          "exits" : {
-            "n" : "shore14",
-            "s" : "shore12"
+            "n" : "shore14@avairy",
+            "s" : "shore12@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -817,8 +817,8 @@
       },
       "castle20@avairy" : {
          "exits" : {
-            "n" : "castle21",
-            "d" : "castle16"
+            "n" : "castle21@avairy",
+            "d" : "castle16@avairy"
          },
          "flags" : [
             "Light"
@@ -831,7 +831,7 @@
       },
       "tree1@avairy" : {
          "exits" : {
-            "d" : "forest5"
+            "d" : "forest5@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -845,9 +845,9 @@
       },
       "jungle7@avairy" : {
          "exits" : {
-            "e" : "jungle3",
-            "w" : "jungle9",
-            "s" : "jungle8"
+            "e" : "jungle3@avairy",
+            "w" : "jungle9@avairy",
+            "s" : "jungle8@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -861,8 +861,8 @@
       },
       "castle9@avairy" : {
          "exits" : {
-            "e" : "castle8",
-            "s" : "castle2"
+            "e" : "castle8@avairy",
+            "s" : "castle2@avairy"
          },
          "flags" : [
             "Light"
@@ -875,7 +875,7 @@
       },
       "castle1@avairy" : {
          "exits" : {
-            "n" : "castle2"
+            "n" : "castle2@avairy"
          },
          "flags" : [
             "OutDoors",
@@ -889,9 +889,9 @@
       },
       "shore14@avairy" : {
          "exits" : {
-            "e" : "cave2",
-            "n" : "shore15",
-            "s" : "shore13"
+            "e" : "cave2@avairy",
+            "n" : "shore15@avairy",
+            "s" : "shore13@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -905,9 +905,9 @@
       },
       "shore1@avairy" : {
          "exits" : {
-            "w" : "jungle1",
-            "n" : "shore20",
-            "s" : "shore2"
+            "w" : "jungle1@avairy",
+            "n" : "shore20@avairy",
+            "s" : "shore2@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -921,9 +921,9 @@
       },
       "castle16@avairy" : {
          "exits" : {
-            "u" : "castle20",
-            "n" : "castle17",
-            "s" : "castle11"
+            "u" : "castle20@avairy",
+            "n" : "castle17@avairy",
+            "s" : "castle11@avairy"
          },
          "flags" : [
             "Light"
@@ -936,8 +936,8 @@
       },
       "forest5@avairy" : {
          "exits" : {
-            "w" : "forest4",
-            "u" : "tree1"
+            "w" : "forest4@avairy",
+            "u" : "tree1@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -951,7 +951,7 @@
       },
       "castle7@avairy" : {
          "exits" : {
-            "s" : "castle6"
+            "s" : "castle6@avairy"
          },
          "flags" : [
             "Light"
@@ -964,8 +964,8 @@
       },
       "forest3@avairy" : {
          "exits" : {
-            "n" : "forest4",
-            "s" : "forest2"
+            "n" : "forest4@avairy",
+            "s" : "forest2@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -979,7 +979,7 @@
       },
       "build2@avairy" : {
          "exits" : {
-            "d" : "build1"
+            "d" : "build1@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -993,9 +993,9 @@
       },
       "castle17@avairy" : {
          "exits" : {
-            "w" : "castle18",
-            "e" : "castle19",
-            "s" : "castle16"
+            "w" : "castle18@avairy",
+            "e" : "castle19@avairy",
+            "s" : "castle16@avairy"
          },
          "flags" : [
             "Light"
@@ -1008,7 +1008,7 @@
       },
       "castle15@avairy" : {
          "exits" : {
-            "w" : "castle12"
+            "w" : "castle12@avairy"
          },
          "flags" : [
             "Light"
@@ -1021,10 +1021,10 @@
       },
       "jungle8@avairy" : {
          "exits" : {
-            "e" : "jungle4",
-            "w" : "jungle10",
-            "n" : "jungle7",
-            "s" : "shore7"
+            "e" : "jungle4@avairy",
+            "w" : "jungle10@avairy",
+            "n" : "jungle7@avairy",
+            "s" : "shore7@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -1038,7 +1038,7 @@
       },
       "castle26@avairy" : {
          "exits" : {
-            "u" : "^trapbottom"
+            "u" : "^trapbottom@avairy"
          },
          "flags" : [
             "Light"
@@ -1051,8 +1051,8 @@
       },
       "shore10@avairy" : {
          "exits" : {
-            "e" : "shore9",
-            "n" : "shore11"
+            "e" : "shore9@avairy",
+            "n" : "shore11@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -1066,8 +1066,8 @@
       },
       "jungle9@avairy" : {
          "exits" : {
-            "e" : "jungle7",
-            "w" : "jungle11"
+            "e" : "jungle7@avairy",
+            "w" : "jungle11@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -1081,8 +1081,8 @@
       },
       "castle14@avairy" : {
          "exits" : {
-            "d" : "^traptop",
-            "s" : "castle13"
+            "d" : "^traptop@avairy",
+            "s" : "castle13@avairy"
          },
          "flags" : [
             "Light"
@@ -1095,7 +1095,7 @@
       },
       "forest1@avairy" : {
          "exits" : {
-            "w" : "forest2",
+            "w" : "forest2@avairy",
             "s" : "sundhaven6748@sundhaven"
          },
          "flags" : [
@@ -1110,9 +1110,9 @@
       },
       "jungle3@avairy" : {
          "exits" : {
-            "e" : "shore3",
-            "w" : "jungle7",
-            "s" : "jungle4"
+            "e" : "shore3@avairy",
+            "w" : "jungle7@avairy",
+            "s" : "jungle4@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -1126,9 +1126,9 @@
       },
       "castle8@avairy" : {
          "exits" : {
-            "w" : "castle9",
-            "n" : "castle12",
-            "s" : "castle4"
+            "w" : "castle9@avairy",
+            "n" : "castle12@avairy",
+            "s" : "castle4@avairy"
          },
          "flags" : [
             "Light"
@@ -1141,8 +1141,8 @@
       },
       "shore19@avairy" : {
          "exits" : {
-            "e" : "shore20",
-            "w" : "shore18"
+            "e" : "shore20@avairy",
+            "w" : "shore18@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -1156,8 +1156,8 @@
       },
       "water1@avairy" : {
          "exits" : {
-            "e" : "pond1",
-            "d" : "fall1"
+            "e" : "pond1@avairy",
+            "d" : "fall1@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -1172,8 +1172,8 @@
       },
       "shore5@avairy" : {
          "exits" : {
-            "w" : "shore6",
-            "n" : "shore4"
+            "w" : "shore6@avairy",
+            "n" : "shore4@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -1187,8 +1187,8 @@
       },
       "castle6@avairy" : {
          "exits" : {
-            "e" : "castle5",
-            "n" : "castle7"
+            "e" : "castle5@avairy",
+            "n" : "castle7@avairy"
          },
          "flags" : [
             "Light"
@@ -1201,9 +1201,9 @@
       },
       "shore17@avairy" : {
          "exits" : {
-            "e" : "shore18",
-            "w" : "shore16",
-            "s" : "cave1"
+            "e" : "shore18@avairy",
+            "w" : "shore16@avairy",
+            "s" : "cave1@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -1217,9 +1217,9 @@
       },
       "shore12@avairy" : {
          "exits" : {
-            "e" : "jungle11",
-            "n" : "shore13",
-            "s" : "shore11"
+            "e" : "jungle11@avairy",
+            "n" : "shore13@avairy",
+            "s" : "shore11@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -1233,9 +1233,9 @@
       },
       "shore4@avairy" : {
          "exits" : {
-            "w" : "jungle4",
-            "n" : "shore3",
-            "s" : "shore5"
+            "w" : "jungle4@avairy",
+            "n" : "shore3@avairy",
+            "s" : "shore5@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -1249,9 +1249,9 @@
       },
       "castle4@avairy" : {
          "exits" : {
-            "w" : "castle2",
-            "e" : "castle13",
-            "n" : "castle8"
+            "w" : "castle2@avairy",
+            "e" : "castle13@avairy",
+            "n" : "castle8@avairy"
          },
          "flags" : [
             "Light"
@@ -1264,9 +1264,9 @@
       },
       "castle5@avairy" : {
          "exits" : {
-            "w" : "castle6",
-            "n" : "castle10",
-            "s" : "castle3"
+            "w" : "castle6@avairy",
+            "n" : "castle10@avairy",
+            "s" : "castle3@avairy"
          },
          "flags" : [
             "Light"
@@ -1279,8 +1279,8 @@
       },
       "shore8@avairy" : {
          "exits" : {
-            "e" : "shore7",
-            "w" : "shore9"
+            "e" : "shore7@avairy",
+            "w" : "shore9@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -1294,7 +1294,7 @@
       },
       "cave1@avairy" : {
          "exits" : {
-            "n" : "shore17"
+            "n" : "shore17@avairy"
          },
          "flags" : [
             "Dark"
@@ -1307,8 +1307,8 @@
       },
       "castle13@avairy" : {
          "exits" : {
-            "w" : "castle4",
-            "n" : "castle14"
+            "w" : "castle4@avairy",
+            "n" : "castle14@avairy"
          },
          "flags" : [
             "Light"
@@ -1321,9 +1321,9 @@
       },
       "jungle6@avairy" : {
          "exits" : {
-            "e" : "jungle2",
-            "w" : "pond1",
-            "n" : "jungle5"
+            "e" : "jungle2@avairy",
+            "w" : "pond1@avairy",
+            "n" : "jungle5@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -1337,8 +1337,8 @@
       },
       "castle3@avairy" : {
          "exits" : {
-            "e" : "castle2",
-            "n" : "castle5"
+            "e" : "castle2@avairy",
+            "n" : "castle5@avairy"
          },
          "flags" : [
             "Light"
@@ -1351,9 +1351,9 @@
       },
       "shore3@avairy" : {
          "exits" : {
-            "w" : "jungle3",
-            "n" : "shore2",
-            "s" : "shore4"
+            "w" : "jungle3@avairy",
+            "n" : "shore2@avairy",
+            "s" : "shore4@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -1367,9 +1367,9 @@
       },
       "castle12@avairy" : {
          "exits" : {
-            "w" : "castle11",
-            "e" : "castle15",
-            "s" : "castle8"
+            "w" : "castle11@avairy",
+            "e" : "castle15@avairy",
+            "s" : "castle8@avairy"
          },
          "flags" : [
             "Light"
@@ -1382,8 +1382,8 @@
       },
       "shore20@avairy" : {
          "exits" : {
-            "w" : "shore19",
-            "s" : "shore1"
+            "w" : "shore19@avairy",
+            "s" : "shore1@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -1397,8 +1397,8 @@
       },
       "shore6@avairy" : {
          "exits" : {
-            "e" : "shore5",
-            "w" : "shore7"
+            "e" : "shore5@avairy",
+            "w" : "shore7@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -1412,7 +1412,7 @@
       },
       "build1@avairy" : {
          "exits" : {
-            "e" : "jungle10"
+            "e" : "jungle10@avairy"
          },
          "flags" : [
             "Dark"
@@ -1425,8 +1425,8 @@
       },
       "forest4@avairy" : {
          "exits" : {
-            "e" : "forest5",
-            "s" : "forest3"
+            "e" : "forest5@avairy",
+            "s" : "forest3@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -1440,8 +1440,8 @@
       },
       "shore16@avairy" : {
          "exits" : {
-            "e" : "shore17",
-            "w" : "shore15"
+            "e" : "shore17@avairy",
+            "w" : "shore15@avairy"
          },
          "flags" : [
             "Outdoors",
@@ -1457,7 +1457,7 @@
    "mob" : {
       "blackswan@avairy" : {
          "damage" : "10",
-         "location" : "pond1",
+         "location" : "pond1@avairy",
          "name" : "blackswan",
          "examine" : "\nIs this the Swan Princess?  No way...swans aren't naturally all black.  This\none appears to be trying to get you to pledge your undivided love to her.\nShe must be the daughter of that evil Rothbart in the form of a swan.",
          "description" : "A black swan stands here trying to seduce you.",
@@ -1474,7 +1474,7 @@
       },
       "chef@avairy" : {
          "damage" : "7",
-         "location" : "castle6",
+         "location" : "castle6@avairy",
          "armor" : "2",
          "name" : "chef",
          "description" : "\nThe cooking bird is chopping up some steamed words.",
@@ -1487,7 +1487,7 @@
          ]
       },
       "crab3@avairy" : {
-         "location" : "shore5",
+         "location" : "shore5@avairy",
          "speed" : "0",
          "pname" : "Crabbie",
          "name" : "crab3",
@@ -1496,7 +1496,7 @@
       },
       "crab2@avairy" : {
          "damage" : "7",
-         "location" : "shore15",
+         "location" : "shore15@avairy",
          "armor" : "4",
          "name" : "crab2",
          "description" : "\nAn abnormally large crab tries to grab you.",
@@ -1507,7 +1507,7 @@
       },
       "parrot@avairy" : {
          "damage" : "10",
-         "location" : "cave2",
+         "location" : "cave2@avairy",
          "armor" : "100",
          "name" : "parrot",
          "description" : "\nThe WiZe Parr0t stand here with a straw cane.",
@@ -1530,7 +1530,7 @@
             "Mute"
          ],
          "damage" : "20",
-         "location" : "castle27",
+         "location" : "castle27@avairy",
          "name" : "Rothbart",
          "examine" : "\nHow does one evil sorceror take over a kingdom?  By kidnapping the king's\ndaughter and force her to marry him.  And if she refuses, turn her into a\nswan, along with all the other madiens and damsels of the kingdom.  He was\nexpecting Prince Siegfried to attempt a rescue, but is surprised you're here.\nNo matter, he will do anything to prevent you from saving the Swan Princess.\n",
          "description" : "The evil sorceror Rothbart wonders who the stool pigeon was that ratted him \nout.  Now he has to totally anniliate you.",
@@ -1543,7 +1543,7 @@
       },
       "humming3@avairy" : {
          "damage" : "8",
-         "location" : "castle17",
+         "location" : "castle17@avairy",
          "armor" : "0",
          "name" : "humming3",
          "description" : "\nA humming bird guard buzzes busily.",
@@ -1557,7 +1557,7 @@
       },
       "vulture2@avairy" : {
          "damage" : "10",
-         "location" : "jungle3",
+         "location" : "jungle3@avairy",
          "armor" : "0",
          "name" : "vulture2",
          "description" : "\nA large vulture flies through the trees above.",
@@ -1571,7 +1571,7 @@
       },
       "crow4@avairy" : {
          "damage" : "10",
-         "location" : "jungle11",
+         "location" : "jungle11@avairy",
          "armor" : "0",
          "name" : "crow4",
          "description" : "\nA crow flies through the trees above.",
@@ -1585,7 +1585,7 @@
       },
       "humming1@avairy" : {
          "damage" : "8",
-         "location" : "castle2",
+         "location" : "castle2@avairy",
          "armor" : "0",
          "name" : "humming1",
          "description" : "\nA humming bird guard buzzes busily.",
@@ -1599,7 +1599,7 @@
       },
       "crab1@avairy" : {
          "damage" : "7",
-         "location" : "shore10",
+         "location" : "shore10@avairy",
          "armor" : "4",
          "name" : "crab1",
          "description" : "\nAn abnormally large crab tries to grab you.",
@@ -1610,7 +1610,7 @@
       },
       "humming6@avairy" : {
          "damage" : "8",
-         "location" : "castle10",
+         "location" : "castle10@avairy",
          "armor" : "0",
          "name" : "humming6",
          "description" : "\nA humming bird guard buzzes busily.",
@@ -1624,7 +1624,7 @@
       },
       "humming4@avairy" : {
          "damage" : "8",
-         "location" : "castle13",
+         "location" : "castle13@avairy",
          "armor" : "0",
          "name" : "humming4",
          "description" : "\nA humming bird guard buzzes busily.",
@@ -1638,7 +1638,7 @@
       },
       "vulture@avairy" : {
          "damage" : "10",
-         "location" : "jungle1",
+         "location" : "jungle1@avairy",
          "armor" : "0",
          "name" : "vulture",
          "description" : "\nA large vulture flies through the trees above.",
@@ -1652,7 +1652,7 @@
       },
       "humming5@avairy" : {
          "damage" : "8",
-         "location" : "castle20",
+         "location" : "castle20@avairy",
          "armor" : "0",
          "name" : "humming5",
          "description" : "\nA humming bird guard buzzes busily.",
@@ -1666,7 +1666,7 @@
       },
       "crow1@avairy" : {
          "damage" : "10",
-         "location" : "jungle5",
+         "location" : "jungle5@avairy",
          "armor" : "0",
          "name" : "crow1",
          "description" : "\nA crow flies through the trees above.",
@@ -1680,7 +1680,7 @@
       },
       "humming2@avairy" : {
          "damage" : "8",
-         "location" : "castle2",
+         "location" : "castle2@avairy",
          "armor" : "0",
          "name" : "humming2",
          "description" : "\nA humming bird guard buzzes busily.",
@@ -1694,7 +1694,7 @@
       },
       "swan@avairy" : {
          "damage" : "10",
-         "location" : "tower",
+         "location" : "tower@avairy",
          "armor" : "100",
          "name" : "swan",
          "examine" : "\nThis is Odoette, the princess of the Avairy Kingdom.  She was turned into a\nswan by the evil sorceror Rothbart after he tried to force her into a marriage\nwith him.  Now the only thing that can break the spell is that a handsome\nprince expresses his undivided love to her.",
@@ -1709,7 +1709,7 @@
       },
       "crow3@avairy" : {
          "damage" : "10",
-         "location" : "jungle11",
+         "location" : "jungle11@avairy",
          "armor" : "0",
          "name" : "crow3",
          "description" : "\nA crow flies through the trees above.",
@@ -1723,7 +1723,7 @@
       },
       "pigeon@avairy" : {
          "damage" : "10",
-         "location" : "castle26",
+         "location" : "castle26@avairy",
          "armor" : "100",
          "name" : "pigeon",
          "examine" : "Maybe he can be made into a stool pigeon...",
@@ -1738,7 +1738,7 @@
       },
       "crow2@avairy" : {
          "damage" : "10",
-         "location" : "jungle4",
+         "location" : "jungle4@avairy",
          "armor" : "0",
          "name" : "crow2",
          "description" : "\nA crow flies through the trees above.",

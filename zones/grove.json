@@ -20,7 +20,7 @@
          ]
       },
       "thread@grove" : {
-         "location" : "CARRIED_BY:clotho",
+         "location" : "CARRIED_BY:clotho@grove",
          "weight" : "1",
          "oflags" : [
             "RegenHealth"
@@ -32,7 +32,7 @@
          "size" : "1"
       },
       "sculpture@grove" : {
-         "location" : "IN_ROOM:flower_garden",
+         "location" : "IN_ROOM:flower_garden@grove",
          "weight" : "8",
          "name" : "sculpture",
          "examine" : "\nThis seems to be very priceless, and you've decided to steal it.",
@@ -42,7 +42,7 @@
       },
       "beaker@grove" : {
          "desc[1]" : "The beaker is filled with a sickeningly pink fluid.",
-         "location" : "CARRIED_BY:platydonk",
+         "location" : "CARRIED_BY:platydonk@grove",
          "armor" : "-1",
          "name" : "beaker",
          "linked" : "pipetman",
@@ -54,7 +54,7 @@
          "desc[0]" : "An empty beaker lies here."
       },
       "donut@grove" : {
-         "location" : "IN_ROOM:study",
+         "location" : "IN_ROOM:study@grove",
          "weight" : "1",
          "oflags" : [
             "Food"
@@ -66,7 +66,7 @@
          "size" : "4"
       },
       "figleaf@grove" : {
-         "location" : "IN_ROOM:fig_garden",
+         "location" : "IN_ROOM:fig_garden@grove",
          "armor" : "25",
          "oflags" : [
             "Armor",
@@ -83,7 +83,7 @@
          ]
       },
       "glove@grove" : {
-         "location" : "IN_ROOM:dark_hole",
+         "location" : "IN_ROOM:dark_hole@grove",
          "oflags" : [
             "Wearable",
             "Glowing",
@@ -101,7 +101,7 @@
       },
       "pipetman@grove" : {
          "desc[1]" : "Someone has left a perfectly useable pipetman here.",
-         "location" : "IN_ROOM:out_back",
+         "location" : "IN_ROOM:out_back@grove",
          "name" : "pipetman",
          "examine" : "The end is full of an odd fluid, and you wonder what from.",
          "linked" : "beaker",
@@ -116,8 +116,8 @@
    "loc" : {
       "glen@grove" : {
          "exits" : {
-            "e" : "cottage",
-            "s" : "grove_path"
+            "e" : "cottage@grove",
+            "s" : "grove_path@grove"
          },
          "flags" : [
             "soundproof",
@@ -133,10 +133,10 @@
       },
       "over_view@grove" : {
          "exits" : {
-            "w" : "fig_garden",
-            "e" : "recluse",
-            "n" : "grove_path",
-            "s" : "entrance"
+            "w" : "fig_garden@grove",
+            "e" : "recluse@grove",
+            "n" : "grove_path@grove",
+            "s" : "entrance@grove"
          },
          "flags" : [
             "soundproof",
@@ -152,7 +152,7 @@
       },
       "dark_hole@grove" : {
          "exits" : {
-            "n" : "gate"
+            "n" : "gate@grove"
          },
          "flags" : [
             "soundproof",
@@ -168,8 +168,8 @@
       },
       "grove_path@grove" : {
          "exits" : {
-            "n" : "glen",
-            "s" : "over_view"
+            "n" : "glen@grove",
+            "s" : "over_view@grove"
          },
          "flags" : [
             "soundproof",
@@ -185,7 +185,7 @@
       },
       "study@grove" : {
          "exits" : {
-            "w" : "dwelling"
+            "w" : "dwelling@grove"
          },
          "flags" : [
             "soundproof",
@@ -200,7 +200,7 @@
       },
       "lab@grove" : {
          "exits" : {
-            "n" : "dwelling"
+            "n" : "dwelling@grove"
          },
          "flags" : [
             "soundproof",
@@ -215,7 +215,7 @@
       },
       "out_back@grove" : {
          "exits" : {
-            "n" : "ferns"
+            "n" : "ferns@grove"
          },
          "flags" : [
             "soundproof",
@@ -231,9 +231,9 @@
       },
       "dwelling@grove" : {
          "exits" : {
-            "e" : "study",
-            "n" : "entrance",
-            "s" : "lab"
+            "e" : "study@grove",
+            "n" : "entrance@grove",
+            "s" : "lab@grove"
          },
          "flags" : [
             "soundproof"
@@ -246,9 +246,9 @@
       },
       "flower_garden@grove" : {
          "exits" : {
-            "w" : "ferns",
-            "n" : "fig_garden",
-            "s" : "gate"
+            "w" : "ferns@grove",
+            "n" : "fig_garden@grove",
+            "s" : "gate@grove"
          },
          "flags" : [
             "soundproof",
@@ -264,8 +264,8 @@
       },
       "ferns@grove" : {
          "exits" : {
-            "e" : "flower_garden",
-            "s" : "out_back"
+            "e" : "flower_garden@grove",
+            "s" : "out_back@grove"
          },
          "flags" : [
             "soundproof",
@@ -281,7 +281,7 @@
       },
       "cottage@grove" : {
          "exits" : {
-            "w" : "glen"
+            "w" : "glen@grove"
          },
          "flags" : [
             "soundproof",
@@ -296,9 +296,9 @@
       },
       "entrance@grove" : {
          "exits" : {
-            "e" : "grand",
-            "n" : "over_view",
-            "s" : "dwelling"
+            "e" : "grand@grove",
+            "n" : "over_view@grove",
+            "s" : "dwelling@grove"
          },
          "flags" : [
             "soundproof",
@@ -314,8 +314,8 @@
       },
       "fig_garden@grove" : {
          "exits" : {
-            "e" : "over_view",
-            "s" : "flower_garden"
+            "e" : "over_view@grove",
+            "s" : "flower_garden@grove"
          },
          "flags" : [
             "soundproof",
@@ -331,8 +331,8 @@
       },
       "recluse@grove" : {
          "exits" : {
-            "w" : "over_view",
-            "n" : "fates_cavern"
+            "w" : "over_view@grove",
+            "n" : "fates_cavern@grove"
          },
          "flags" : [
             "soundproof",
@@ -348,8 +348,8 @@
       },
       "gate@grove" : {
          "exits" : {
-            "n" : "flower_garden",
-            "s" : "dark_hole"
+            "n" : "flower_garden@grove",
+            "s" : "dark_hole@grove"
          },
          "flags" : [
             "soundproof",
@@ -365,7 +365,7 @@
       },
       "fates_cavern@grove" : {
          "exits" : {
-            "s" : "recluse"
+            "s" : "recluse@grove"
          },
          "flags" : [
             "soundproof",
@@ -381,7 +381,7 @@
       },
       "grand@grove" : {
          "exits" : {
-            "w" : "entrance"
+            "w" : "entrance@grove"
          },
          "flags" : [
             "soundproof",
@@ -398,7 +398,7 @@
    "mob" : {
       "atropos@grove" : {
          "damage" : "10",
-         "location" : "fates_cavern",
+         "location" : "fates_cavern@grove",
          "armor" : "0",
          "name" : "atropos",
          "description" : "Old wise Atropos sits here, cutting the thread of life.",
@@ -412,7 +412,7 @@
       },
       "clotho@grove" : {
          "damage" : "10",
-         "location" : "fates_cavern",
+         "location" : "fates_cavern@grove",
          "armor" : "0",
          "name" : "clotho",
          "description" : "Young Clotho sits here, spinning the thread of life.",
@@ -432,7 +432,7 @@
             "Frost"
          ],
          "damage" : "20",
-         "location" : "cottage",
+         "location" : "cottage@grove",
          "armor" : "0",
          "name" : "dinthiar",
          "description" : "Dinthiar, King of the Elves, sits here waiting for you.",
@@ -446,7 +446,7 @@
       },
       "platydonk@grove" : {
          "damage" : "25",
-         "location" : "lab",
+         "location" : "lab@grove",
          "armor" : "0",
          "name" : "platydonk",
          "description" : "\nThe PlatyDonk, Nature's horrific mutation, shuffles here, drooling on \nthe floor.",
@@ -460,7 +460,7 @@
       },
       "lachesis@grove" : {
          "damage" : "10",
-         "location" : "fates_cavern",
+         "location" : "fates_cavern@grove",
          "armor" : "0",
          "name" : "lachesis",
          "description" : "Middle-aged Lachesis is here, weaving the tapestry of life.",

@@ -2,7 +2,7 @@
    "obj" : {
       "door1stchamber@icecave" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:hall",
+         "location" : "IN_ROOM:hall@icecave",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -18,7 +18,7 @@
       },
       "pillowcase@icecave" : {
          "desc[1]" : "A soggy pillowcase has been dumped here. It is closed.",
-         "location" : "IN_ROOM:bedroom",
+         "location" : "IN_ROOM:bedroom@icecave",
          "oflags" : [
             "Container",
             "Openable",
@@ -35,7 +35,7 @@
          "desc[0]" : "A soggy pillowcase has been dumped here."
       },
       "pendant@icecave" : {
-         "location" : "IN_ROOM:magician",
+         "location" : "IN_ROOM:magician@icecave",
          "oflags" : [
             "AidSpell",
             "Wearable",
@@ -54,7 +54,7 @@
       },
       "door2stchamber@icecave" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:storage",
+         "location" : "IN_ROOM:storage@icecave",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -69,7 +69,7 @@
          "desc[0]" : "The door is open."
       },
       "key@icecave" : {
-         "location" : "IN_CONTAINER:pillowcase",
+         "location" : "IN_CONTAINER:pillowcase@icecave",
          "weight" : "1",
          "oflags" : [
             "Key"
@@ -80,7 +80,7 @@
          "size" : "1"
       },
       "hole_snow_cave@icecave" : {
-         "location" : "IN_ROOM:S_Cave",
+         "location" : "IN_ROOM:s_cave@icecave",
          "oflags" : [
             "NoGet"
          ],
@@ -90,7 +90,7 @@
          "desc[0]" : "A hole has been dug south through the snow."
       },
       "iceball@icecave" : {
-         "location" : "IN_ROOM:storage",
+         "location" : "IN_ROOM:storage@icecave",
          "weight" : "5",
          "oflags" : [
             "IStormSpell"
@@ -103,7 +103,7 @@
       },
       "chest@icecave" : {
          "desc[1]" : "A huge iron bound chest lies before you.",
-         "location" : "IN_ROOM:store",
+         "location" : "IN_ROOM:store@icecave",
          "oflags" : [
             "Openable",
             "Container",
@@ -118,7 +118,7 @@
       },
       "dagger@icecave" : {
          "damage" : "18",
-         "location" : "IN_ROOM:palace",
+         "location" : "IN_ROOM:palace@icecave",
          "oflags" : [
             "Weapon"
          ],
@@ -131,7 +131,7 @@
       },
       "hole_g_hall@icecave" : {
          "desc[1]" : "\nThe entrance to the cave is blocked!  You need something to &+CDIG&* a hole\nthrough the thick ice and snow.",
-         "location" : "IN_ROOM:G_hall",
+         "location" : "IN_ROOM:g_hall@icecave",
          "oflags" : [
             "NoGet"
          ],
@@ -143,7 +143,7 @@
          "desc[0]" : "A hole has been dug north through the snow."
       },
       "coronet@icecave" : {
-         "location" : "IN_CONTAINER:chest",
+         "location" : "IN_CONTAINER:chest@icecave",
          "oflags" : [
             "Wearable"
          ],
@@ -157,7 +157,7 @@
          "desc[0]" : "A jewelled coronet glitters before you."
       },
       "fountain@icecave" : {
-         "location" : "IN_ROOM:palace",
+         "location" : "IN_ROOM:palace@icecave",
          "oflags" : [
             "NoGet"
          ],
@@ -167,7 +167,7 @@
       },
       "westicethrone@icecave" : {
          "desc[1]" : "A huge crystal throne of pure ice dominates the east wall.",
-         "location" : "IN_ROOM:throne",
+         "location" : "IN_ROOM:throne@icecave",
          "oflags" : [
             "NoGet"
          ],
@@ -181,7 +181,7 @@
       },
       "cupboard_store@icecave" : {
          "desc[1]" : "The cupboard is closed.",
-         "location" : "IN_ROOM:store",
+         "location" : "IN_ROOM:store@icecave",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -198,7 +198,7 @@
       },
       "cupboard_bedroom@icecave" : {
          "desc[1]" : "The cupboard is closed.",
-         "location" : "IN_ROOM:bedroom",
+         "location" : "IN_ROOM:bedroom@icecave",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -215,7 +215,7 @@
       },
       "easticethrone@icecave" : {
          "desc[1]" : "\nThe western exit is blocked by what appears to be the back of a throne.",
-         "location" : "IN_ROOM:cave",
+         "location" : "IN_ROOM:cave@icecave",
          "oflags" : [
             "NoGet"
          ],
@@ -230,7 +230,7 @@
    "loc" : {
       "icelearn@icecave" : {
          "exits" : {
-            "e" : "Magician",
+            "e" : "magician@icecave",
             "u" : "newbie13@newbie"
          },
          "flags" : [
@@ -245,8 +245,8 @@
       },
       "bedroom@icecave" : {
          "exits" : {
-            "n" : "Palace",
-            "s" : "^cupboard_bedroom"
+            "n" : "palace@icecave",
+            "s" : "^cupboard_bedroom@icecave"
          },
          "flags" : [],
          "zone" : "icecave",
@@ -258,7 +258,7 @@
       "s_cave@icecave" : {
          "exits" : {
             "e" : "pass2@blizzard",
-            "s" : "^hole_snow_cave"
+            "s" : "^hole_snow_cave@icecave"
          },
          "flags" : [],
          "zone" : "icecave",
@@ -269,7 +269,7 @@
       },
       "storage@icecave" : {
          "exits" : {
-            "s" : "^Door2StChamber"
+            "s" : "^door2stchamber@icecave"
          },
          "flags" : [],
          "zone" : "icecave",
@@ -292,8 +292,8 @@
       },
       "passage@icecave" : {
          "exits" : {
-            "w" : "Cave",
-            "e" : "Shrine"
+            "w" : "cave@icecave",
+            "e" : "shrine@icecave"
          },
          "flags" : [],
          "zone" : "icecave",
@@ -304,7 +304,7 @@
       },
       "store@icecave" : {
          "exits" : {
-            "n" : "^cupboard_store"
+            "n" : "^cupboard_store@icecave"
          },
          "flags" : [],
          "zone" : "icecave",
@@ -315,8 +315,8 @@
       },
       "tunnel@icecave" : {
          "exits" : {
-            "n" : "Cave",
-            "s" : "N_Tunnel"
+            "n" : "cave@icecave",
+            "s" : "n_tunnel@icecave"
          },
          "flags" : [],
          "zone" : "icecave",
@@ -327,8 +327,8 @@
       },
       "hall@icecave" : {
          "exits" : {
-            "w" : "Pool",
-            "n" : "^Door1StChamber"
+            "w" : "pool@icecave",
+            "n" : "^door1stchamber@icecave"
          },
          "flags" : [],
          "zone" : "icecave",
@@ -339,9 +339,9 @@
       },
       "pool@icecave" : {
          "exits" : {
-            "w" : "Gambling",
-            "e" : "Hall",
-            "n" : "N_Tunnel"
+            "w" : "gambling@icecave",
+            "e" : "hall@icecave",
+            "n" : "n_tunnel@icecave"
          },
          "flags" : [],
          "zone" : "icecave",
@@ -352,8 +352,8 @@
       },
       "magician@icecave" : {
          "exits" : {
-            "w" : "Icelearn",
-            "e" : "Palace"
+            "w" : "icelearn@icecave",
+            "e" : "palace@icecave"
          },
          "flags" : [],
          "zone" : "icecave",
@@ -364,8 +364,8 @@
       },
       "n_tunnel@icecave" : {
          "exits" : {
-            "n" : "Tunnel",
-            "s" : "Pool"
+            "n" : "tunnel@icecave",
+            "s" : "pool@icecave"
          },
          "flags" : [],
          "zone" : "icecave",
@@ -376,7 +376,7 @@
       },
       "shrine@icecave" : {
          "exits" : {
-            "w" : "Passage"
+            "w" : "passage@icecave"
          },
          "flags" : [],
          "zone" : "icecave",
@@ -387,7 +387,7 @@
       },
       "home@icecave" : {
          "exits" : {
-            "s" : "Cave"
+            "s" : "cave@icecave"
          },
          "flags" : [
             "Private",
@@ -401,7 +401,7 @@
       },
       "gambling@icecave" : {
          "exits" : {
-            "e" : "Pool"
+            "e" : "pool@icecave"
          },
          "flags" : [],
          "zone" : "icecave",
@@ -412,10 +412,10 @@
       },
       "palace@icecave" : {
          "exits" : {
-            "w" : "Magician",
-            "e" : "Throne",
-            "n" : "G_Hall",
-            "s" : "Bedroom"
+            "w" : "magician@icecave",
+            "e" : "throne@icecave",
+            "n" : "g_hall@icecave",
+            "s" : "bedroom@icecave"
          },
          "flags" : [],
          "zone" : "icecave",
@@ -426,8 +426,8 @@
       },
       "throne@icecave" : {
          "exits" : {
-            "w" : "Palace",
-            "e" : "^WestIceThrone"
+            "w" : "palace@icecave",
+            "e" : "^westicethrone@icecave"
          },
          "flags" : [],
          "zone" : "icecave",
@@ -438,10 +438,10 @@
       },
       "cave@icecave" : {
          "exits" : {
-            "w" : "^EastIceThrone",
-            "e" : "Passage",
-            "n" : "Home",
-            "s" : "Tunnel"
+            "w" : "^easticethrone@icecave",
+            "e" : "passage@icecave",
+            "n" : "home@icecave",
+            "s" : "tunnel@icecave"
          },
          "flags" : [],
          "zone" : "icecave",
@@ -452,8 +452,8 @@
       },
       "g_hall@icecave" : {
          "exits" : {
-            "n" : "^hole_g_hall",
-            "s" : "Palace"
+            "n" : "^hole_g_hall@icecave",
+            "s" : "palace@icecave"
          },
          "flags" : [],
          "zone" : "icecave",
@@ -469,7 +469,7 @@
             "NegFrost"
          ],
          "damage" : "10",
-         "location" : "store",
+         "location" : "store@icecave",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "30",
@@ -480,7 +480,7 @@
       },
       "gambler@icecave" : {
          "damage" : "10",
-         "location" : "gambling",
+         "location" : "gambling@icecave",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "0",
@@ -491,7 +491,7 @@
       },
       "unicorn@icecave" : {
          "damage" : "10",
-         "location" : "pool",
+         "location" : "pool@icecave",
          "armor" : "0",
          "name" : "unicorn",
          "examine" : "\n         .\n        /'\n       //\n   .  //\n   |\\//7\n  /' \" \\ \n .   . .\n | (    \\     '._\n |  '._  '    '. '\n /    \\'-'_---. ) )\n.              :.'\n|               \\ \n| .    .   .     .\n' .    |  |      |\n \\'   /_-':     /\n / | |    '\\  .'\n/ /| |     \\\\  |\n\\ \\( )     // /\n \\ | |    // /\n  L! !   // /\n   [_]  L[_|\n",

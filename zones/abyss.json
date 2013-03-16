@@ -2,7 +2,7 @@
    "obj" : {
       "mat@abyss" : {
          "desc[1]" : "A welcome mat has been placed here.",
-         "location" : "IN_ROOM:Home",
+         "location" : "IN_ROOM:home@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -15,7 +15,7 @@
          "desc[0]" : "A welcome mat has been placed here."
       },
       "potion1@abyss" : {
-         "location" : "IN_ROOM:Treasury",
+         "location" : "IN_ROOM:treasury@abyss",
          "oflags" : "{}",
          "altname" : "milkey",
          "name" : "Potion1",
@@ -28,7 +28,7 @@
          "desc[0]" : "A milky potion has been left here."
       },
       "slot1@abyss" : {
-         "location" : "IN_ROOM:Home",
+         "location" : "IN_ROOM:home@abyss",
          "weight" : "0",
          "oflags" : [
             "Container",
@@ -41,7 +41,7 @@
          "size" : "1"
       },
       "rope@abyss" : {
-         "location" : "IN_ROOM:Swamp3",
+         "location" : "IN_ROOM:swamp3@abyss",
          "oflags" : "{}",
          "name" : "rope",
          "size" : "10",
@@ -51,7 +51,7 @@
          "desc[0]" : "A rope has been coiled up here."
       },
       "stone@abyss" : {
-         "location" : "IN_ROOM:Swamp7",
+         "location" : "IN_ROOM:swamp7@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -65,7 +65,7 @@
       },
       "diadem@abyss" : {
          "desc[1]" : "A finely crafted gold diadem inset with a pearl is on the altar.",
-         "location" : "IN_ROOM:Web",
+         "location" : "IN_ROOM:web@abyss",
          "oflags" : [
             "GetFlips",
             "Wearable"
@@ -84,7 +84,7 @@
       "lance@abyss" : {
          "desc[1]" : "A dull iron lance lays here gathering rust.",
          "damage" : "16",
-         "location" : "WIELDED_BY:Death",
+         "location" : "WIELDED_BY:death@abyss",
          "oflags" : [
             "Weapon"
          ],
@@ -99,7 +99,7 @@
       },
       "cityweb@abyss" : {
          "desc[1]" : "A thick mass of webs are blocking the tunnel entrance.",
-         "location" : "IN_ROOM:City",
+         "location" : "IN_ROOM:city@abyss",
          "oflags" : [
             "Lightable",
             "NoGet"
@@ -114,7 +114,7 @@
       },
       "l664rope@abyss" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:L664",
+         "location" : "IN_ROOM:l664@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -126,7 +126,7 @@
          "desc[0]" : "A rope spans the gap allowing you to climb down."
       },
       "cheese@abyss" : {
-         "location" : "IN_ROOM:Ledge",
+         "location" : "IN_ROOM:ledge@abyss",
          "oflags" : [
             "Food"
          ],
@@ -140,7 +140,7 @@
       },
       "pearls@abyss" : {
          "desc[1]" : "A string of pearls is on the altar.",
-         "location" : "IN_ROOM:Web",
+         "location" : "IN_ROOM:web@abyss",
          "armor" : "45",
          "oflags" : [
             "GetFlips",
@@ -160,7 +160,7 @@
          ]
       },
       "coin2@abyss" : {
-         "location" : "IN_ROOM:Lolth",
+         "location" : "IN_ROOM:lolth@abyss",
          "oflags" : "{}",
          "altname" : "silver",
          "name" : "Coin2",
@@ -172,7 +172,7 @@
          "desc[0]" : "A silver coin is lying here."
       },
       "box@abyss" : {
-         "location" : "IN_ROOM:Charon",
+         "location" : "IN_ROOM:charon@abyss",
          "weight" : "0",
          "oflags" : [
             "Container",
@@ -191,7 +191,7 @@
          "name" : "weapon"
       },
       "carbuncle@abyss" : {
-         "location" : "IN_ROOM:Cell",
+         "location" : "IN_ROOM:cell@abyss",
          "oflags" : "{}",
          "altname" : "gem",
          "name" : "carbuncle",
@@ -203,7 +203,7 @@
          "desc[0]" : "A dragon's carbuncle is lying here."
       },
       "graffiti@abyss" : {
-         "location" : "IN_ROOM:Netherhells",
+         "location" : "IN_ROOM:netherhells@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -216,7 +216,7 @@
       },
       "potion2@abyss" : {
          "desc[1]" : "A clear potion sits on the shelf.",
-         "location" : "IN_ROOM:Booth4",
+         "location" : "IN_ROOM:booth4@abyss",
          "oflags" : [
             "GetFlips"
          ],
@@ -233,7 +233,7 @@
       },
       "slimyboulder@abyss" : {
          "desc[1]" : "A huge boulder blocks the tunnel.",
-         "location" : "IN_ROOM:Slimy",
+         "location" : "IN_ROOM:slimy@abyss",
          "oflags" : [
             "Pushable",
             "Noget"
@@ -245,7 +245,7 @@
          "state" : "1"
       },
       "dust@abyss" : {
-         "location" : "IN_ROOM:Shelf",
+         "location" : "IN_ROOM:shelf@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -258,7 +258,7 @@
       },
       "l663boulder@abyss" : {
          "desc[1]" : "A huge slimy boulder has been jammed into the tunnel.",
-         "location" : "IN_ROOM:L663",
+         "location" : "IN_ROOM:l663@abyss",
          "oflags" : [
             "Pushable",
             "NoGet"
@@ -271,7 +271,7 @@
          "desc[0]" : "A huge slimy boulder sits beside the tunnel."
       },
       "doorbell@abyss" : {
-         "location" : "IN_ROOM:Home",
+         "location" : "IN_ROOM:home@abyss",
          "weight" : "0",
          "oflags" : [
             "NoGet"
@@ -284,7 +284,7 @@
       },
       "storedoor@abyss" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:StoreRoom",
+         "location" : "IN_ROOM:storeroom@abyss",
          "oflags" : [
             "NoGet",
             "Lockable",
@@ -302,7 +302,7 @@
       "longsword@abyss" : {
          "desc[1]" : "A broken longsword lies half buried in the dust.",
          "damage" : "8",
-         "location" : "IN_ROOM:Bones",
+         "location" : "IN_ROOM:bones@abyss",
          "oflags" : [
             "Weapon",
             "GetFlips"
@@ -319,7 +319,7 @@
       },
       "plainstairs@abyss" : {
          "desc[1]" : "A stairway leading up is blocked by rubble.",
-         "location" : "IN_ROOM:Plain",
+         "location" : "IN_ROOM:plain@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -331,7 +331,7 @@
          "desc[0]" : "A stairway leads upward here."
       },
       "tooth@abyss" : {
-         "location" : "IN_ROOM:Cell",
+         "location" : "IN_ROOM:cell@abyss",
          "oflags" : "{}",
          "name" : "tooth",
          "size" : "3",
@@ -341,7 +341,7 @@
          "desc[0]" : "A dragon's tooth has been dropped here."
       },
       "bank2timber@abyss" : {
-         "location" : "IN_ROOM:Bank2",
+         "location" : "IN_ROOM:bank2@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -353,7 +353,7 @@
          "desc[0]" : "A timber spans the river allowing you to cross to the west bank."
       },
       "goblet@abyss" : {
-         "location" : "IN_ROOM:Swamp7",
+         "location" : "IN_ROOM:swamp7@abyss",
          "oflags" : "{}",
          "altname" : "cup",
          "name" : "goblet",
@@ -364,7 +364,7 @@
          "desc[0]" : "A gem encrusted goblet is lying here."
       },
       "ring@abyss" : {
-         "location" : "IN_ROOM:Pile",
+         "location" : "IN_ROOM:pile@abyss",
          "oflags" : [
             "Wearable",
             "Destroyed"
@@ -383,7 +383,7 @@
       },
       "bonesstairs@abyss" : {
          "desc[1]" : "The ceiling has collapsed blocking a stairway leading down.",
-         "location" : "IN_ROOM:Bones",
+         "location" : "IN_ROOM:bones@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -395,7 +395,7 @@
          "desc[0]" : "A stairway leading downward has been cleared of rubble."
       },
       "volume@abyss" : {
-         "location" : "IN_ROOM:Pile",
+         "location" : "IN_ROOM:pile@abyss",
          "oflags" : [
             "Noget"
          ],
@@ -407,7 +407,7 @@
       },
       "timber@abyss" : {
          "desc[1]" : "There is a good sized timber among the fallen trees.",
-         "location" : "IN_ROOM:Trees",
+         "location" : "IN_ROOM:trees@abyss",
          "oflags" : [
             "GetFlips",
             "Lightable",
@@ -423,7 +423,7 @@
       },
       "bodyarmor@abyss" : {
          "desc[1]" : "Hanging on the coat rack is Abaddon's body-armor.",
-         "location" : "IN_ROOM:secret",
+         "location" : "IN_ROOM:secret@abyss",
          "armor" : "60",
          "oflags" : [
             "GetFlips",
@@ -446,7 +446,7 @@
          ]
       },
       "cellwall@abyss" : {
-         "location" : "IN_ROOM:Cell",
+         "location" : "IN_ROOM:cell@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -459,7 +459,7 @@
       },
       "netherdoor@abyss" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Netherhells",
+         "location" : "IN_ROOM:netherhells@abyss",
          "oflags" : [
             "NoGet",
             "Lockable",
@@ -475,7 +475,7 @@
          "desc[0]" : "The door is open."
       },
       "netherwall@abyss" : {
-         "location" : "IN_ROOM:Netherhells",
+         "location" : "IN_ROOM:netherhells@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -488,7 +488,7 @@
       },
       "bellows@abyss" : {
          "desc[1]" : "The bellows is pumping air into the forge.",
-         "location" : "IN_ROOM:Forge",
+         "location" : "IN_ROOM:forge@abyss",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -502,7 +502,7 @@
          "desc[0]" : "The bellows is not moving."
       },
       "button2@abyss" : {
-         "location" : "IN_ROOM:Hall",
+         "location" : "IN_ROOM:hall@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -516,7 +516,7 @@
       },
       "halldoor@abyss" : {
          "desc[1]" : "The front door is closed.",
-         "location" : "IN_ROOM:Hall",
+         "location" : "IN_ROOM:hall@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -530,7 +530,7 @@
       },
       "elevatordoor@abyss" : {
          "desc[1]" : "The elevator door is closed tightly.",
-         "location" : "IN_ROOM:Elevator",
+         "location" : "IN_ROOM:elevator@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -542,7 +542,7 @@
          "desc[0]" : "The elevator door is open."
       },
       "closetpanel@abyss" : {
-         "location" : "IN_ROOM:Closet",
+         "location" : "IN_ROOM:closet@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -555,7 +555,7 @@
       },
       "celldoor@abyss" : {
          "desc[1]" : "The cell door is closed.",
-         "location" : "IN_ROOM:Cell",
+         "location" : "IN_ROOM:cell@abyss",
          "oflags" : [
             "NoGet",
             "Lockable",
@@ -571,7 +571,7 @@
          "desc[0]" : "The cell door is open."
       },
       "oats@abyss" : {
-         "location" : "IN_ROOM:StoreRoom",
+         "location" : "IN_ROOM:storeroom@abyss",
          "oflags" : [
             "Food"
          ],
@@ -584,7 +584,7 @@
       },
       "vaultdoor@abyss" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Vault",
+         "location" : "IN_ROOM:vault@abyss",
          "oflags" : [
             "NoGet",
             "Lockable",
@@ -600,7 +600,7 @@
          "desc[0]" : "The door is open."
       },
       "bank1timber@abyss" : {
-         "location" : "IN_ROOM:Bank1",
+         "location" : "IN_ROOM:bank1@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -612,7 +612,7 @@
          "desc[0]" : "A timber spans the river allowing you to cross to the east bank."
       },
       "card2@abyss" : {
-         "location" : "IN_ROOM:Home",
+         "location" : "IN_ROOM:home@abyss",
          "oflags" : [
             "Destroyed"
          ],
@@ -628,7 +628,7 @@
       },
       "l665rope@abyss" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:L665",
+         "location" : "IN_ROOM:l665@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -640,7 +640,7 @@
          "desc[0]" : "A rope hangs down here allowing you to climb up."
       },
       "card1@abyss" : {
-         "location" : "IN_ROOM:Treasury",
+         "location" : "IN_ROOM:treasury@abyss",
          "oflags" : "{}",
          "altname" : "orange",
          "name" : "Card1",
@@ -653,7 +653,7 @@
          "desc[0]" : "A small orange card has been left here."
       },
       "secretpanel@abyss" : {
-         "location" : "IN_ROOM:Secret",
+         "location" : "IN_ROOM:secret@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -665,7 +665,7 @@
          "desc[0]" : "A secret panel has been opened in the northern wall."
       },
       "rice@abyss" : {
-         "location" : "IN_ROOM:StoreRoom",
+         "location" : "IN_ROOM:storeroom@abyss",
          "oflags" : [
             "Food"
          ],
@@ -678,7 +678,7 @@
       },
       "snaredoor@abyss" : {
          "desc[1]" : "The cell door is closed.",
-         "location" : "IN_ROOM:Snare7",
+         "location" : "IN_ROOM:snare7@abyss",
          "oflags" : [
             "NoGet",
             "Lockable",
@@ -695,7 +695,7 @@
       },
       "button1@abyss" : {
          "desc[1]" : "The dust has been cleared from a square button here.",
-         "location" : "IN_ROOM:Shelf",
+         "location" : "IN_ROOM:shelf@abyss",
          "oflags" : [
             "Destroyed",
             "NoGet"
@@ -710,7 +710,7 @@
          "desc[0]" : "The dust has been cleared from a square button here."
       },
       "slot2@abyss" : {
-         "location" : "IN_ROOM:Cell",
+         "location" : "IN_ROOM:cell@abyss",
          "oflags" : [
             "Container",
             "NoGet"
@@ -725,7 +725,7 @@
       },
       "forge@abyss" : {
          "desc[1]" : "The forge is glowing hotly.",
-         "location" : "IN_ROOM:Forge",
+         "location" : "IN_ROOM:forge@abyss",
          "oflags" : [
             "NoGet",
             "Lightable"
@@ -739,7 +739,7 @@
          "desc[0]" : "The forge is lit."
       },
       "button3@abyss" : {
-         "location" : "IN_ROOM:Elevator",
+         "location" : "IN_ROOM:elevator@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -752,7 +752,7 @@
          "bvalue" : "0"
       },
       "coin1@abyss" : {
-         "location" : "IN_ROOM:Lolth",
+         "location" : "IN_ROOM:lolth@abyss",
          "oflags" : "{}",
          "altname" : "golden",
          "name" : "Coin1",
@@ -765,7 +765,7 @@
       },
       "hallelevatordoor@abyss" : {
          "desc[1]" : "The southern door is closed tightly.",
-         "location" : "IN_ROOM:Hall",
+         "location" : "IN_ROOM:hall@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -779,7 +779,7 @@
       },
       "soda@abyss" : {
          "desc[1]" : "There is one can of Mountain Dew left.",
-         "location" : "IN_CONTAINER:icebox",
+         "location" : "IN_CONTAINER:icebox@abyss",
          "oflags" : [
             "Food"
          ],
@@ -793,7 +793,7 @@
          "desc[0]" : "A can of Mountain Dew has been dropped here."
       },
       "husks@abyss" : {
-         "location" : "IN_ROOM:Pile",
+         "location" : "IN_ROOM:pile@abyss",
          "weight" : "0",
          "oflags" : [
             "NoGet"
@@ -805,7 +805,7 @@
       },
       "homedoor@abyss" : {
          "desc[1]" : "The front door is closed.",
-         "location" : "IN_ROOM:Home",
+         "location" : "IN_ROOM:home@abyss",
          "oflags" : [
             "NoGet"
          ],
@@ -819,7 +819,7 @@
       },
       "l662web@abyss" : {
          "desc[1]" : "A thick mass of webs are blocking the tunnel entrance.",
-         "location" : "IN_ROOM:L662",
+         "location" : "IN_ROOM:l662@abyss",
          "oflags" : [
             "Lightable",
             "NoGet"
@@ -834,7 +834,7 @@
       },
       "icebox@abyss" : {
          "desc[1]" : "The icebox door is closed.",
-         "location" : "IN_ROOM:Treasure",
+         "location" : "IN_ROOM:treasure@abyss",
          "oflags" : [
             "Container",
             "Openable",
@@ -850,7 +850,7 @@
          "desc[0]" : "The icebox door is open."
       },
       "flask@abyss" : {
-         "location" : "IN_ROOM:Swamp7",
+         "location" : "IN_ROOM:swamp7@abyss",
          "oflags" : [
             "Food"
          ],
@@ -864,7 +864,7 @@
       },
       "l664door@abyss" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:L664",
+         "location" : "IN_ROOM:l664@abyss",
          "oflags" : [
             "NoGet",
             "Lockable",
@@ -882,9 +882,9 @@
    "loc" : {
       "control@abyss" : {
          "exits" : {
-            "e" : "Hall",
-            "n" : "Treasure",
-            "s" : "Closet"
+            "e" : "hall@abyss",
+            "n" : "treasure@abyss",
+            "s" : "closet@abyss"
          },
          "flags" : [
             "NoSummon"
@@ -897,8 +897,8 @@
       },
       "pillars3@abyss" : {
          "exits" : {
-            "w" : "Pillars4",
-            "n" : "Pillars1"
+            "w" : "pillars4@abyss",
+            "n" : "pillars1@abyss"
          },
          "flags" : [
             "Dark"
@@ -911,10 +911,10 @@
       },
       "snare2@abyss" : {
          "exits" : {
-            "w" : "Snare2",
-            "e" : "Snare2",
-            "n" : "Snare3",
-            "s" : "Snare1"
+            "w" : "snare2@abyss",
+            "e" : "snare2@abyss",
+            "n" : "snare3@abyss",
+            "s" : "snare1@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -925,9 +925,9 @@
       },
       "bank1@abyss" : {
          "exits" : {
-            "e" : "^Bank1Timber",
-            "d" : "Goo",
-            "s" : "Trees"
+            "e" : "^bank1timber@abyss",
+            "d" : "goo@abyss",
+            "s" : "trees@abyss"
          },
          "flags" : [
             "Outdoors"
@@ -940,10 +940,10 @@
       },
       "pillars1@abyss" : {
          "exits" : {
-            "w" : "pillars5",
-            "e" : "Vault",
-            "n" : "Pillars2",
-            "s" : "Pillars3"
+            "w" : "pillars5@abyss",
+            "e" : "vault@abyss",
+            "n" : "pillars2@abyss",
+            "s" : "pillars3@abyss"
          },
          "flags" : [
             "Dark",
@@ -957,7 +957,7 @@
       },
       "booth4@abyss" : {
          "exits" : {
-            "n" : "Road2"
+            "n" : "road2@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -968,8 +968,8 @@
       },
       "vault@abyss" : {
          "exits" : {
-            "w" : "Pillars1",
-            "e" : "^VaultDoor"
+            "w" : "pillars1@abyss",
+            "e" : "^vaultdoor@abyss"
          },
          "flags" : [
             "Dark",
@@ -983,8 +983,8 @@
       },
       "head@abyss" : {
          "exits" : {
-            "u" : "City",
-            "n" : "Wicket"
+            "u" : "city@abyss",
+            "n" : "wicket@abyss"
          },
          "flags" : [
             "NoSummon"
@@ -997,7 +997,7 @@
       },
       "south@abyss" : {
          "exits" : {
-            "n" : "Pillars4"
+            "n" : "pillars4@abyss"
          },
          "flags" : [
             "Dark",
@@ -1011,8 +1011,8 @@
       },
       "closet@abyss" : {
          "exits" : {
-            "n" : "Control",
-            "s" : "^ClosetPanel"
+            "n" : "control@abyss",
+            "s" : "^closetpanel@abyss"
          },
          "flags" : [
             "Dark"
@@ -1025,7 +1025,7 @@
       },
       "secret@abyss" : {
          "exits" : {
-            "n" : "^SecretPanel"
+            "n" : "^secretpanel@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1036,10 +1036,10 @@
       },
       "road1@abyss" : {
          "exits" : {
-            "w" : "Bottom",
-            "e" : "Road2",
-            "n" : "Booth1",
-            "s" : "Booth2"
+            "w" : "bottom@abyss",
+            "e" : "road2@abyss",
+            "n" : "booth1@abyss",
+            "s" : "booth2@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1050,8 +1050,8 @@
       },
       "bank2@abyss" : {
          "exits" : {
-            "w" : "^Bank2Timber",
-            "s" : "Boggy"
+            "w" : "^bank2timber@abyss",
+            "s" : "boggy@abyss"
          },
          "flags" : [
             "Outdoors"
@@ -1064,8 +1064,8 @@
       },
       "bones@abyss" : {
          "exits" : {
-            "w" : "Silent@Church",
-            "d" : "^BonesStairs"
+            "w" : "silent@church",
+            "d" : "^bonesstairs@abyss"
          },
          "flags" : [
             "Dark"
@@ -1078,10 +1078,10 @@
       },
       "river@abyss" : {
          "exits" : {
-            "w" : "Charon",
-            "e" : "Plain",
-            "u" : "Rocks",
-            "n" : "Rocks"
+            "w" : "charon@abyss",
+            "e" : "plain@abyss",
+            "u" : "rocks@abyss",
+            "n" : "rocks@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1092,7 +1092,7 @@
       },
       "north@abyss" : {
          "exits" : {
-            "s" : "Pillars6"
+            "s" : "pillars6@abyss"
          },
          "flags" : [
             "Dark",
@@ -1106,8 +1106,8 @@
       },
       "slimy@abyss" : {
          "exits" : {
-            "w" : "^SlimyBoulder",
-            "n" : "Trees"
+            "w" : "^slimyboulder@abyss",
+            "n" : "trees@abyss"
          },
          "flags" : [
             "Outdoors"
@@ -1120,7 +1120,7 @@
       },
       "pile@abyss" : {
          "exits" : {
-            "u" : "Widow"
+            "u" : "widow@abyss"
          },
          "flags" : [
             "Dark"
@@ -1133,8 +1133,8 @@
       },
       "pain@abyss" : {
          "exits" : {
-            "w" : "Orcus",
-            "e" : "Pillars8"
+            "w" : "orcus@abyss",
+            "e" : "pillars8@abyss"
          },
          "flags" : [
             "NoSummon"
@@ -1147,10 +1147,10 @@
       },
       "web@abyss" : {
          "exits" : {
-            "w" : "Westside",
-            "e" : "Eastside",
-            "n" : "Lolth",
-            "s" : "Tunnel"
+            "w" : "westside@abyss",
+            "e" : "eastside@abyss",
+            "n" : "lolth@abyss",
+            "s" : "tunnel@abyss"
          },
          "flags" : [
             "Dark"
@@ -1163,8 +1163,8 @@
       },
       "stairway@abyss" : {
          "exits" : {
-            "u" : "Stairs",
-            "d" : "L662"
+            "u" : "stairs@abyss",
+            "d" : "l662@abyss"
          },
          "flags" : [
             "Dark"
@@ -1177,10 +1177,10 @@
       },
       "pillars8@abyss" : {
          "exits" : {
-            "w" : "Pain",
-            "e" : "Pillars5",
-            "n" : "Pillars7",
-            "s" : "Pillars9"
+            "w" : "pain@abyss",
+            "e" : "pillars5@abyss",
+            "n" : "pillars7@abyss",
+            "s" : "pillars9@abyss"
          },
          "flags" : [
             "Dark"
@@ -1193,10 +1193,10 @@
       },
       "swamp2@abyss" : {
          "exits" : {
-            "w" : "swamp3",
-            "e" : "swamp4",
-            "n" : "swamp1",
-            "s" : "swamp5"
+            "w" : "swamp3@abyss",
+            "e" : "swamp4@abyss",
+            "n" : "swamp1@abyss",
+            "s" : "swamp5@abyss"
          },
          "flags" : [
             "Dark"
@@ -1209,8 +1209,8 @@
       },
       "snare6@abyss" : {
          "exits" : {
-            "e" : "Snare3",
-            "n" : "Snare4"
+            "e" : "snare3@abyss",
+            "n" : "snare4@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1221,9 +1221,9 @@
       },
       "swamp3@abyss" : {
          "exits" : {
-            "w" : "Swamp3",
-            "n" : "Swamp2",
-            "s" : "Swamp3"
+            "w" : "swamp3@abyss",
+            "n" : "swamp2@abyss",
+            "s" : "swamp3@abyss"
          },
          "flags" : [
             "Dark"
@@ -1248,8 +1248,8 @@
       },
       "tunnel@abyss" : {
          "exits" : {
-            "n" : "Web",
-            "s" : "Wicket"
+            "n" : "web@abyss",
+            "s" : "wicket@abyss"
          },
          "flags" : [
             "Dark",
@@ -1263,10 +1263,10 @@
       },
       "netherhells@abyss" : {
          "exits" : {
-            "w" : "Snare1",
-            "e" : "^NetherWall",
-            "n" : "^NetherDoor",
-            "s" : "L665"
+            "w" : "snare1@abyss",
+            "e" : "^netherwall@abyss",
+            "n" : "^netherdoor@abyss",
+            "s" : "l665@abyss"
          },
          "flags" : [
             "Peaceful",
@@ -1280,8 +1280,8 @@
       },
       "widow@abyss" : {
          "exits" : {
-            "d" : "Pile",
-            "s" : "Ledge"
+            "d" : "pile@abyss",
+            "s" : "ledge@abyss"
          },
          "flags" : [
             "Dark"
@@ -1294,9 +1294,9 @@
       },
       "wicket@abyss" : {
          "exits" : {
-            "u" : "Ledge",
-            "n" : "Tunnel",
-            "s" : "Head"
+            "u" : "ledge@abyss",
+            "n" : "tunnel@abyss",
+            "s" : "head@abyss"
          },
          "flags" : [
             "NoSummon"
@@ -1309,9 +1309,9 @@
       },
       "l662@abyss" : {
          "exits" : {
-            "w" : "^L662Web",
-            "u" : "Stairway",
-            "d" : "L663"
+            "w" : "^l662web@abyss",
+            "u" : "stairway@abyss",
+            "d" : "l663@abyss"
          },
          "flags" : [
             "Dark"
@@ -1324,8 +1324,8 @@
       },
       "trees@abyss" : {
          "exits" : {
-            "n" : "Bank1",
-            "s" : "Slimy"
+            "n" : "bank1@abyss",
+            "s" : "slimy@abyss"
          },
          "flags" : [
             "Outdoors"
@@ -1338,10 +1338,10 @@
       },
       "road2@abyss" : {
          "exits" : {
-            "w" : "Road1",
-            "e" : "Road3",
-            "n" : "Booth3",
-            "s" : "Booth4"
+            "w" : "road1@abyss",
+            "e" : "road3@abyss",
+            "n" : "booth3@abyss",
+            "s" : "booth4@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1352,8 +1352,8 @@
       },
       "pillars7@abyss" : {
          "exits" : {
-            "e" : "Pillars6",
-            "s" : "Pillars8"
+            "e" : "pillars6@abyss",
+            "s" : "pillars8@abyss"
          },
          "flags" : [
             "Dark"
@@ -1366,9 +1366,9 @@
       },
       "snare7@abyss" : {
          "exits" : {
-            "w" : "^SnareDoor",
-            "n" : "Snare5",
-            "s" : "Snare6"
+            "w" : "^snaredoor@abyss",
+            "n" : "snare5@abyss",
+            "s" : "snare6@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1379,10 +1379,10 @@
       },
       "pillars6@abyss" : {
          "exits" : {
-            "w" : "Pillars7",
-            "e" : "Pillars2",
-            "n" : "North",
-            "s" : "Pillars5"
+            "w" : "pillars7@abyss",
+            "e" : "pillars2@abyss",
+            "n" : "north@abyss",
+            "s" : "pillars5@abyss"
          },
          "flags" : [
             "Dark"
@@ -1395,9 +1395,9 @@
       },
       "hall@abyss" : {
          "exits" : {
-            "w" : "Control",
-            "e" : "^HallDoor",
-            "s" : "^HallElevatorDoor"
+            "w" : "control@abyss",
+            "e" : "^halldoor@abyss",
+            "s" : "^hallelevatordoor@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1408,8 +1408,8 @@
       },
       "swamp1@abyss" : {
          "exits" : {
-            "e" : "Swamp2",
-            "n" : "Boggy"
+            "e" : "swamp2@abyss",
+            "n" : "boggy@abyss"
          },
          "flags" : [
             "Dark",
@@ -1424,8 +1424,8 @@
       },
       "stairs@abyss" : {
          "exits" : {
-            "u" : "Abyss",
-            "d" : "Stairway"
+            "u" : "abyss@abyss",
+            "d" : "stairway@abyss"
          },
          "flags" : [
             "Dark"
@@ -1438,7 +1438,7 @@
       },
       "treasury@abyss" : {
          "exits" : {
-            "e" : "Orcus"
+            "e" : "orcus@abyss"
          },
          "flags" : [
             "Dark"
@@ -1451,7 +1451,7 @@
       },
       "stop@abyss" : {
          "exits" : {
-            "w" : "Abyss"
+            "w" : "abyss@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1462,7 +1462,7 @@
       },
       "treasure@abyss" : {
          "exits" : {
-            "s" : "Control"
+            "s" : "control@abyss"
          },
          "flags" : [
             "NoMobiles"
@@ -1475,7 +1475,7 @@
       },
       "westside@abyss" : {
          "exits" : {
-            "e" : "Web"
+            "e" : "web@abyss"
          },
          "flags" : [
             "Dark"
@@ -1488,8 +1488,8 @@
       },
       "snare4@abyss" : {
          "exits" : {
-            "w" : "Snare7",
-            "e" : "Snare3"
+            "w" : "snare7@abyss",
+            "e" : "snare3@abyss"
          },
          "flags" : [
             "Peaceful"
@@ -1502,10 +1502,10 @@
       },
       "boggy@abyss" : {
          "exits" : {
-            "w" : "Downstream",
-            "n" : "Bank2",
-            "d" : "Downstream",
-            "s" : "Swamp1"
+            "w" : "downstream@abyss",
+            "n" : "bank2@abyss",
+            "d" : "downstream@abyss",
+            "s" : "swamp1@abyss"
          },
          "flags" : [
             "Outdoors"
@@ -1518,8 +1518,8 @@
       },
       "pillars9@abyss" : {
          "exits" : {
-            "e" : "Pillars4",
-            "n" : "Pillars8"
+            "e" : "pillars4@abyss",
+            "n" : "pillars8@abyss"
          },
          "flags" : [
             "Dark"
@@ -1532,9 +1532,9 @@
       },
       "l663@abyss" : {
          "exits" : {
-            "e" : "^L663Boulder",
-            "u" : "L662",
-            "d" : "L664"
+            "e" : "^l663boulder@abyss",
+            "u" : "l662@abyss",
+            "d" : "l664@abyss"
          },
          "flags" : [
             "Dark"
@@ -1547,9 +1547,9 @@
       },
       "l665@abyss" : {
          "exits" : {
-            "u" : "^L665Rope",
-            "n" : "Netherhells",
-            "d" : "L666"
+            "u" : "^l665rope@abyss",
+            "n" : "netherhells@abyss",
+            "d" : "l666@abyss"
          },
          "flags" : [
             "Dark"
@@ -1562,8 +1562,8 @@
       },
       "city@abyss" : {
          "exits" : {
-            "e" : "^CityWeb",
-            "d" : "Head"
+            "e" : "^cityweb@abyss",
+            "d" : "head@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1574,8 +1574,8 @@
       },
       "goo@abyss" : {
          "exits" : {
-            "u" : "Bank1",
-            "s" : "Downstream"
+            "u" : "bank1@abyss",
+            "s" : "downstream@abyss"
          },
          "flags" : [
             "OnWater",
@@ -1589,8 +1589,8 @@
       },
       "plain@abyss" : {
          "exits" : {
-            "w" : "River",
-            "u" : "^PlainStairs"
+            "w" : "river@abyss",
+            "u" : "^plainstairs@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1601,10 +1601,10 @@
       },
       "pillars5@abyss" : {
          "exits" : {
-            "w" : "Pillars8",
-            "e" : "Pillars1",
-            "n" : "Pillars6",
-            "s" : "Pillars4"
+            "w" : "pillars8@abyss",
+            "e" : "pillars1@abyss",
+            "n" : "pillars6@abyss",
+            "s" : "pillars4@abyss"
          },
          "flags" : [
             "Dark"
@@ -1617,7 +1617,7 @@
       },
       "swamp5@abyss" : {
          "exits" : {
-            "w" : "Swamp2"
+            "w" : "swamp2@abyss"
          },
          "flags" : [
             "Dark"
@@ -1630,9 +1630,9 @@
       },
       "home@abyss" : {
          "exits" : {
-            "w" : "^HomeDoor",
-            "n" : "Area",
-            "d" : "Cellar"
+            "w" : "^homedoor@abyss",
+            "n" : "area@abyss",
+            "d" : "cellar@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1643,7 +1643,7 @@
       },
       "shelf@abyss" : {
          "exits" : {
-            "d" : "Closet"
+            "d" : "closet@abyss"
          },
          "flags" : [
             "Dark",
@@ -1657,8 +1657,8 @@
       },
       "ledge@abyss" : {
          "exits" : {
-            "n" : "Widow",
-            "d" : "Wicket"
+            "n" : "widow@abyss",
+            "d" : "wicket@abyss"
          },
          "flags" : [
             "OnePerson"
@@ -1671,8 +1671,8 @@
       },
       "rocks@abyss" : {
          "exits" : {
-            "d" : "River",
-            "s" : "River"
+            "d" : "river@abyss",
+            "s" : "river@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1683,8 +1683,8 @@
       },
       "pillars2@abyss" : {
          "exits" : {
-            "w" : "Pillars6",
-            "s" : "Pillars1"
+            "w" : "pillars6@abyss",
+            "s" : "pillars1@abyss"
          },
          "flags" : [
             "Dark"
@@ -1697,7 +1697,7 @@
       },
       "lolth@abyss" : {
          "exits" : {
-            "s" : "Web"
+            "s" : "web@abyss"
          },
          "flags" : [
             "Dark",
@@ -1711,8 +1711,8 @@
       },
       "l666@abyss" : {
          "exits" : {
-            "u" : "L665",
-            "s" : "Bottom"
+            "u" : "l665@abyss",
+            "s" : "bottom@abyss"
          },
          "flags" : [
             "Dark"
@@ -1725,7 +1725,7 @@
       },
       "styx@abyss" : {
          "exits" : {
-            "s" : "Stop"
+            "s" : "stop@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1736,7 +1736,7 @@
       },
       "swamp7@abyss" : {
          "exits" : {
-            "w" : "Swamp5"
+            "w" : "swamp5@abyss"
          },
          "flags" : [
             "Dark"
@@ -1749,8 +1749,8 @@
       },
       "area@abyss" : {
          "exits" : {
-            "n" : "Road3",
-            "s" : "Home"
+            "n" : "road3@abyss",
+            "s" : "home@abyss"
          },
          "flags" : [
             "Dark",
@@ -1764,9 +1764,9 @@
       },
       "snare3@abyss" : {
          "exits" : {
-            "e" : "Snare2",
-            "n" : "Snare5",
-            "s" : "Snare6"
+            "e" : "snare2@abyss",
+            "n" : "snare5@abyss",
+            "s" : "snare6@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1777,8 +1777,8 @@
       },
       "cellar@abyss" : {
          "exits" : {
-            "u" : "Home",
-            "s" : "Forge"
+            "u" : "home@abyss",
+            "s" : "forge@abyss"
          },
          "flags" : [
             "Dark"
@@ -1791,9 +1791,9 @@
       },
       "charon@abyss" : {
          "exits" : {
-            "e" : "River",
-            "n" : "Creek",
-            "s" : "Styx"
+            "e" : "river@abyss",
+            "n" : "creek@abyss",
+            "s" : "styx@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1804,7 +1804,7 @@
       },
       "elevator@abyss" : {
          "exits" : {
-            "n" : "^ElevatorDoor"
+            "n" : "^elevatordoor@abyss"
          },
          "flags" : [
             "OnePerson"
@@ -1817,9 +1817,9 @@
       },
       "snare1@abyss" : {
          "exits" : {
-            "w" : "Snare2",
-            "e" : "Snare1",
-            "s" : "Snare1"
+            "w" : "snare2@abyss",
+            "e" : "snare1@abyss",
+            "s" : "snare1@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1830,10 +1830,10 @@
       },
       "pillars4@abyss" : {
          "exits" : {
-            "w" : "Pillars9",
-            "e" : "Pillars3",
-            "n" : "Pillars5",
-            "s" : "South"
+            "w" : "pillars9@abyss",
+            "e" : "pillars3@abyss",
+            "n" : "pillars5@abyss",
+            "s" : "south@abyss"
          },
          "flags" : [
             "Dark"
@@ -1846,7 +1846,7 @@
       },
       "booth2@abyss" : {
          "exits" : {
-            "n" : "Road1"
+            "n" : "road1@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1857,7 +1857,7 @@
       },
       "eastside@abyss" : {
          "exits" : {
-            "w" : "Web"
+            "w" : "web@abyss"
          },
          "flags" : [
             "Dark"
@@ -1870,8 +1870,8 @@
       },
       "bottom@abyss" : {
          "exits" : {
-            "e" : "Road1",
-            "n" : "L666"
+            "e" : "road1@abyss",
+            "n" : "l666@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1882,9 +1882,9 @@
       },
       "l664@abyss" : {
          "exits" : {
-            "w" : "^L664Door",
-            "u" : "L663",
-            "d" : "^L664Rope"
+            "w" : "^l664door@abyss",
+            "u" : "l663@abyss",
+            "d" : "^l664rope@abyss"
          },
          "flags" : [
             "Dark"
@@ -1897,7 +1897,7 @@
       },
       "booth3@abyss" : {
          "exits" : {
-            "s" : "Road2"
+            "s" : "road2@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1908,8 +1908,8 @@
       },
       "snare5@abyss" : {
          "exits" : {
-            "e" : "Snare3",
-            "s" : "Snare4"
+            "e" : "snare3@abyss",
+            "s" : "snare4@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1920,7 +1920,7 @@
       },
       "forge@abyss" : {
          "exits" : {
-            "n" : "Cellar"
+            "n" : "cellar@abyss"
          },
          "flags" : [
             "Dark"
@@ -1933,10 +1933,10 @@
       },
       "downstream@abyss" : {
          "exits" : {
-            "e" : "Boggy",
-            "u" : "boggy",
-            "n" : "goo",
-            "s" : "Whirlpool"
+            "e" : "boggy@abyss",
+            "u" : "boggy@abyss",
+            "n" : "goo@abyss",
+            "s" : "whirlpool@abyss"
          },
          "flags" : [
             "OnWater",
@@ -1950,8 +1950,8 @@
       },
       "swamp4@abyss" : {
          "exits" : {
-            "e" : "Swamp6",
-            "s" : "Swamp2"
+            "e" : "swamp6@abyss",
+            "s" : "swamp2@abyss"
          },
          "flags" : [
             "Dark"
@@ -1964,7 +1964,7 @@
       },
       "booth1@abyss" : {
          "exits" : {
-            "s" : "Road1"
+            "s" : "road1@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1975,8 +1975,8 @@
       },
       "orcus@abyss" : {
          "exits" : {
-            "w" : "Treasury",
-            "e" : "Pain"
+            "w" : "treasury@abyss",
+            "e" : "pain@abyss"
          },
          "flags" : [],
          "zone" : "abyss",
@@ -1998,8 +1998,8 @@
       },
       "abyss@abyss" : {
          "exits" : {
-            "e" : "Stop",
-            "d" : "Stairs"
+            "e" : "stop@abyss",
+            "d" : "stairs@abyss"
          },
          "flags" : [
             "Dark",
@@ -2013,8 +2013,8 @@
       },
       "road3@abyss" : {
          "exits" : {
-            "w" : "Road2",
-            "s" : "Area"
+            "w" : "road2@abyss",
+            "s" : "area@abyss"
          },
          "flags" : [
             "Dark"
@@ -2027,7 +2027,7 @@
       },
       "storeroom@abyss" : {
          "exits" : {
-            "s" : "^StoreDoor"
+            "s" : "^storedoor@abyss"
          },
          "flags" : [
             "Dark"
@@ -2040,8 +2040,8 @@
       },
       "cell@abyss" : {
          "exits" : {
-            "w" : "^CellWall",
-            "e" : "^CellDoor"
+            "w" : "^cellwall@abyss",
+            "e" : "^celldoor@abyss"
          },
          "flags" : [
             "Dark",
@@ -2055,8 +2055,8 @@
       },
       "swamp6@abyss" : {
          "exits" : {
-            "w" : "Swamp5",
-            "s" : "Swamp7"
+            "w" : "swamp5@abyss",
+            "s" : "swamp7@abyss"
          },
          "flags" : [
             "Dark"
@@ -2071,7 +2071,7 @@
    "mob" : {
       "guxx@abyss" : {
          "damage" : "25",
-         "location" : "Cell",
+         "location" : "cell@abyss",
          "armor" : "0",
          "name" : "Guxx",
          "description" : "\nThe Grand Hoohah Guxx Unfufadoo is standing here testing his razor sharp claws.",
@@ -2086,7 +2086,7 @@
       },
       "blue@abyss" : {
          "damage" : "6",
-         "location" : "Web",
+         "location" : "web@abyss",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "80",
@@ -2096,7 +2096,7 @@
       },
       "jubilex@abyss" : {
          "damage" : "15",
-         "location" : "Swamp6",
+         "location" : "swamp6@abyss",
          "speed" : "2",
          "armor" : "0",
          "aggression" : "30",
@@ -2107,7 +2107,7 @@
       },
       "beebop@abyss" : {
          "damage" : "12",
-         "location" : "Control",
+         "location" : "control@abyss",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "98",
@@ -2117,7 +2117,7 @@
       },
       "widow@abyss" : {
          "damage" : "20",
-         "location" : "Widow",
+         "location" : "widow@abyss",
          "armor" : "15",
          "name" : "Widow",
          "description" : "The Black Widow sits here spinning her web.",
@@ -2133,7 +2133,7 @@
       },
       "daemon@abyss" : {
          "damage" : "8",
-         "location" : "Stairs",
+         "location" : "stairs@abyss",
          "speed" : "1",
          "armor" : "0",
          "aggression" : "1",
@@ -2144,7 +2144,7 @@
       },
       "pink@abyss" : {
          "damage" : "6",
-         "location" : "Web",
+         "location" : "web@abyss",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "80",
@@ -2154,7 +2154,7 @@
       },
       "mucus@abyss" : {
          "damage" : "15",
-         "location" : "Downstream",
+         "location" : "downstream@abyss",
          "speed" : "1",
          "armor" : "0",
          "aggression" : "15",
@@ -2164,7 +2164,7 @@
       },
       "chuck@abyss" : {
          "damage" : "10",
-         "location" : "Pillars5",
+         "location" : "pillars5@abyss",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "99",
@@ -2174,7 +2174,7 @@
       },
       "qbert@abyss" : {
          "damage" : "20",
-         "location" : "Secret",
+         "location" : "secret@abyss",
          "armor" : "0",
          "name" : "Qbert",
          "description" : "\nQbert the Quasit is sitting at his desk going over the financial records.",
@@ -2187,7 +2187,7 @@
       },
       "death@abyss" : {
          "damage" : "10",
-         "location" : "Pain",
+         "location" : "pain@abyss",
          "armor" : "0",
          "name" : "Death",
          "description" : "The Death Knight stands ready to challenge you.",
@@ -2203,7 +2203,7 @@
       },
       "mush@abyss" : {
          "damage" : "8",
-         "location" : "Swamp3",
+         "location" : "swamp3@abyss",
          "armor" : "0",
          "name" : "Mush",
          "description" : "The brown mush sits here bubbling.",
@@ -2216,7 +2216,7 @@
       },
       "rocksteady@abyss" : {
          "damage" : "12",
-         "location" : "Control",
+         "location" : "control@abyss",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "98",
@@ -2226,7 +2226,7 @@
       },
       "lolth@abyss" : {
          "damage" : "18",
-         "location" : "Lolth",
+         "location" : "lolth@abyss",
          "armor" : "0",
          "name" : "Lolth",
          "description" : "\nLolth, Demon Queen of the Spiders sits here waiting for her next victim.",
@@ -2240,7 +2240,7 @@
       },
       "white@abyss" : {
          "damage" : "6",
-         "location" : "Web",
+         "location" : "web@abyss",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "80",
@@ -2250,7 +2250,7 @@
       },
       "braxx@abyss" : {
          "damage" : "10",
-         "location" : "Road1",
+         "location" : "road1@abyss",
          "armor" : "0",
          "name" : "Braxx",
          "description" : "\nSmilin' Braxx the Salesdemon is here selling souvenirs and used weapons.",
@@ -2261,7 +2261,7 @@
       },
       "orcus@abyss" : {
          "damage" : "20",
-         "location" : "Orcus",
+         "location" : "orcus@abyss",
          "armor" : "0",
          "name" : "Orcus",
          "description" : "The Demon Lord Orcus is here sizing up your skull.",
@@ -2272,7 +2272,7 @@
       },
       "green@abyss" : {
          "damage" : "6",
-         "location" : "Web",
+         "location" : "web@abyss",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "80",
@@ -2282,7 +2282,7 @@
       },
       "ooze@abyss" : {
          "damage" : "8",
-         "location" : "Swamp7",
+         "location" : "swamp7@abyss",
          "speed" : "2",
          "armor" : "0",
          "aggression" : "25",
@@ -2292,7 +2292,7 @@
       },
       "brown@abyss" : {
          "damage" : "6",
-         "location" : "Web",
+         "location" : "web@abyss",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "80",

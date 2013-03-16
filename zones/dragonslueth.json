@@ -1,7 +1,7 @@
 {
    "obj" : {
       "hyeel@dragonslueth" : {
-         "location" : "IN_ROOM:ds19",
+         "location" : "IN_ROOM:ds19@dragonslueth",
          "oflags" : [
             "NoGet"
          ],
@@ -11,7 +11,7 @@
          "desc[0]" : "You spot a volume that has for a title, 'Hyeel Made Easy'."
       },
       "skull@dragonslueth" : {
-         "location" : "IN_ROOM:ds28",
+         "location" : "IN_ROOM:ds28@dragonslueth",
          "weight" : "2",
          "pname" : "skull",
          "name" : "skull",
@@ -21,7 +21,7 @@
          "size" : "1"
       },
       "armor@dragonslueth" : {
-         "location" : "WORN_BY:armorer",
+         "location" : "WORN_BY:armorer@dragonslueth",
          "oflags" : [
             "Armor",
             "Wearable"
@@ -40,7 +40,7 @@
          ]
       },
       "throne@dragonslueth" : {
-         "location" : "IN_ROOM:ds39",
+         "location" : "IN_ROOM:ds39@dragonslueth",
          "oflags" : [
             "NoGet"
          ],
@@ -50,7 +50,7 @@
          "desc[0]" : "A big gold &+Bthrone&* with all kinds of writings on it is here."
       },
       "sign2@dragonslueth" : {
-         "location" : "IN_ROOM:ds35",
+         "location" : "IN_ROOM:ds35@dragonslueth",
          "oflags" : [
             "NoGet"
          ],
@@ -61,7 +61,7 @@
       },
       "outside_door@dragonslueth" : {
          "desc[1]" : "The &+Bdoor&* is closed.",
-         "location" : "IN_ROOM:ds32",
+         "location" : "IN_ROOM:ds32@dragonslueth",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -76,7 +76,7 @@
          "desc[0]" : "The &+Bdoor&* is open."
       },
       "diary@dragonslueth" : {
-         "location" : "IN_ROOM:ds39",
+         "location" : "IN_ROOM:ds39@dragonslueth",
          "weight" : "1",
          "pname" : "diary",
          "name" : "diary",
@@ -86,7 +86,7 @@
          "size" : "1"
       },
       "key@dragonslueth" : {
-         "location" : "IN_ROOM:ds2",
+         "location" : "IN_ROOM:ds2@dragonslueth",
          "oflags" : [
             "Key"
          ],
@@ -99,7 +99,7 @@
          "desc[0]" : "A small &+Bkey&* is here."
       },
       "chelmet@dragonslueth" : {
-         "location" : "IN_ROOM:ds24",
+         "location" : "IN_ROOM:ds24@dragonslueth",
          "oflags" : [
             "Armor",
             "Wearable"
@@ -117,7 +117,7 @@
          ]
       },
       "dragonblood@dragonslueth" : {
-         "location" : "IN_ROOM:ds29",
+         "location" : "IN_ROOM:ds29@dragonslueth",
          "oflags" : [
             "Food"
          ],
@@ -131,7 +131,7 @@
          "desc[0]" : "A small bottle of &+Bdragonblood&* has been placed here."
       },
       "crown@dragonslueth" : {
-         "location" : "IN_ROOM:ds39",
+         "location" : "IN_ROOM:ds39@dragonslueth",
          "oflags" : [
             "Wearable"
          ],
@@ -145,7 +145,7 @@
       },
       "battleaxe@dragonslueth" : {
          "damage" : "30",
-         "location" : "IN_ROOM:ds18",
+         "location" : "IN_ROOM:ds18@dragonslueth",
          "oflags" : [
             "Weapon"
          ],
@@ -159,7 +159,7 @@
          "desc[0]" : "A huge &+BBattleAxe&* has been placed here."
       },
       "jewels@dragonslueth" : {
-         "location" : "IN_ROOM:ds18",
+         "location" : "IN_ROOM:ds18@dragonslueth",
          "name" : "jewels",
          "examine" : "\nThe jewels look quite valuable to your untrained eye.",
          "bvalue" : "700",
@@ -167,7 +167,7 @@
          "size" : "5"
       },
       "dragon_claw@dragonslueth" : {
-         "location" : "IN_ROOM:ds6",
+         "location" : "IN_ROOM:ds6@dragonslueth",
          "weight" : "2",
          "pname" : "claw",
          "name" : "dragon_claw",
@@ -178,7 +178,7 @@
       },
       "inside_door@dragonslueth" : {
          "desc[1]" : "The &+Bdoor&* is closed.",
-         "location" : "IN_ROOM:ds31",
+         "location" : "IN_ROOM:ds31@dragonslueth",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -193,7 +193,7 @@
          "desc[0]" : "The &+Bdoor&* is open."
       },
       "dragonskin@dragonslueth" : {
-         "location" : "IN_ROOM:ds18",
+         "location" : "IN_ROOM:ds18@dragonslueth",
          "oflags" : [
             "Armor",
             "Wearable"
@@ -215,7 +215,7 @@
          ]
       },
       "sign1@dragonslueth" : {
-         "location" : "IN_ROOM:ds2",
+         "location" : "IN_ROOM:ds2@dragonslueth",
          "oflags" : [
             "NoGet"
          ],
@@ -228,7 +228,7 @@
    "loc" : {
       "ds24@dragonslueth" : {
          "exits" : {
-            "n" : "ds21"
+            "n" : "ds21@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -239,9 +239,9 @@
       },
       "ds17@dragonslueth" : {
          "exits" : {
-            "e" : "ds18",
-            "n" : "ds1",
-            "s" : "ds19"
+            "e" : "ds18@dragonslueth",
+            "n" : "ds1@dragonslueth",
+            "s" : "ds19@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -252,7 +252,7 @@
       },
       "ds5@dragonslueth" : {
          "exits" : {
-            "w" : "ds2"
+            "w" : "ds2@dragonslueth"
          },
          "flags" : [
             "Death"
@@ -265,7 +265,7 @@
       },
       "ds18@dragonslueth" : {
          "exits" : {
-            "w" : "ds17"
+            "w" : "ds17@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -276,8 +276,8 @@
       },
       "ds9@dragonslueth" : {
          "exits" : {
-            "n" : "ds6",
-            "s" : "ds10"
+            "n" : "ds6@dragonslueth",
+            "s" : "ds10@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -288,9 +288,9 @@
       },
       "ds4@dragonslueth" : {
          "exits" : {
-            "e" : "ds3",
-            "n" : "ds7",
-            "s" : "ds6"
+            "e" : "ds3@dragonslueth",
+            "n" : "ds7@dragonslueth",
+            "s" : "ds6@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -301,8 +301,8 @@
       },
       "ds14@dragonslueth" : {
          "exits" : {
-            "n" : "ds20",
-            "s" : "ds13"
+            "n" : "ds20@dragonslueth",
+            "s" : "ds13@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -313,8 +313,8 @@
       },
       "ds36@dragonslueth" : {
          "exits" : {
-            "w" : "ds39",
-            "e" : "ds35"
+            "w" : "ds39@dragonslueth",
+            "e" : "ds35@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -325,7 +325,7 @@
       },
       "ds12@dragonslueth" : {
          "exits" : {
-            "s" : "ds8"
+            "s" : "ds8@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -336,11 +336,11 @@
       },
       "ds2@dragonslueth" : {
          "exits" : {
-            "w" : "ds6",
-            "e" : "ds5",
-            "u" : "ds10",
-            "n" : "ds3",
-            "s" : "ds1"
+            "w" : "ds6@dragonslueth",
+            "e" : "ds5@dragonslueth",
+            "u" : "ds10@dragonslueth",
+            "n" : "ds3@dragonslueth",
+            "s" : "ds1@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -351,9 +351,9 @@
       },
       "ds22@dragonslueth" : {
          "exits" : {
-            "e" : "ds21",
-            "w" : "ds23",
-            "u" : "ds25"
+            "e" : "ds21@dragonslueth",
+            "w" : "ds23@dragonslueth",
+            "u" : "ds25@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -364,9 +364,9 @@
       },
       "ds31@dragonslueth" : {
          "exits" : {
-            "e" : "^inside_door",
-            "w" : "ds33",
-            "u" : "ds26"
+            "e" : "^inside_door@dragonslueth",
+            "w" : "ds33@dragonslueth",
+            "u" : "ds26@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -377,10 +377,10 @@
       },
       "ds13@dragonslueth" : {
          "exits" : {
-            "e" : "ds6",
-            "w" : "ds15",
-            "n" : "ds14",
-            "s" : "ds16"
+            "e" : "ds6@dragonslueth",
+            "w" : "ds15@dragonslueth",
+            "n" : "ds14@dragonslueth",
+            "s" : "ds16@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -391,7 +391,7 @@
       },
       "ds39@dragonslueth" : {
          "exits" : {
-            "e" : "ds36"
+            "e" : "ds36@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -402,9 +402,9 @@
       },
       "ds35@dragonslueth" : {
          "exits" : {
-            "w" : "ds36",
-            "n" : "ds34",
-            "s" : "ds37"
+            "w" : "ds36@dragonslueth",
+            "n" : "ds34@dragonslueth",
+            "s" : "ds37@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -415,7 +415,7 @@
       },
       "ds28@dragonslueth" : {
          "exits" : {
-            "s" : "ds27"
+            "s" : "ds27@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -426,9 +426,9 @@
       },
       "ds6@dragonslueth" : {
          "exits" : {
-            "w" : "ds13",
-            "n" : "ds4",
-            "s" : "ds9"
+            "w" : "ds13@dragonslueth",
+            "n" : "ds4@dragonslueth",
+            "s" : "ds9@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -439,10 +439,10 @@
       },
       "ds15@dragonslueth" : {
          "exits" : {
-            "e" : "ds13",
-            "n" : "ds26",
-            "d" : "ds31",
-            "s" : "ds21"
+            "e" : "ds13@dragonslueth",
+            "n" : "ds26@dragonslueth",
+            "d" : "ds31@dragonslueth",
+            "s" : "ds21@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -453,7 +453,7 @@
       },
       "ds10@dragonslueth" : {
          "exits" : {
-            "n" : "ds9"
+            "n" : "ds9@dragonslueth"
          },
          "flags" : [
             "OnePerson"
@@ -466,8 +466,8 @@
       },
       "ds25@dragonslueth" : {
          "exits" : {
-            "u" : "ds30",
-            "d" : "ds22"
+            "u" : "ds30@dragonslueth",
+            "d" : "ds22@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -478,7 +478,7 @@
       },
       "ds23@dragonslueth" : {
          "exits" : {
-            "e" : "ds22"
+            "e" : "ds22@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -489,8 +489,8 @@
       },
       "ds37@dragonslueth" : {
          "exits" : {
-            "n" : "ds35",
-            "s" : "ds38"
+            "n" : "ds35@dragonslueth",
+            "s" : "ds38@dragonslueth"
          },
          "flags" : [
             "Outdoors"
@@ -503,8 +503,8 @@
       },
       "ds8@dragonslueth" : {
          "exits" : {
-            "n" : "ds12",
-            "s" : "ds7"
+            "n" : "ds12@dragonslueth",
+            "s" : "ds7@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -515,7 +515,7 @@
       },
       "ds19@dragonslueth" : {
          "exits" : {
-            "n" : "ds17"
+            "n" : "ds17@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -526,7 +526,7 @@
       },
       "ds32@dragonslueth" : {
          "exits" : {
-            "w" : "^outside_door"
+            "w" : "^outside_door@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -537,9 +537,9 @@
       },
       "ds3@dragonslueth" : {
          "exits" : {
-            "w" : "ds4",
-            "n" : "ds11",
-            "s" : "ds2"
+            "w" : "ds4@dragonslueth",
+            "n" : "ds11@dragonslueth",
+            "s" : "ds2@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -550,7 +550,7 @@
       },
       "ds16@dragonslueth" : {
          "exits" : {
-            "n" : "ds13"
+            "n" : "ds13@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -561,8 +561,8 @@
       },
       "ds34@dragonslueth" : {
          "exits" : {
-            "u" : "ds33",
-            "s" : "ds35"
+            "u" : "ds33@dragonslueth",
+            "s" : "ds35@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -574,7 +574,7 @@
       "ds1@dragonslueth" : {
          "exits" : {
             "e" : "bottom@blizzard",
-            "n" : "ds2"
+            "n" : "ds2@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -585,9 +585,9 @@
       },
       "ds27@dragonslueth" : {
          "exits" : {
-            "w" : "ds29",
-            "n" : "ds28",
-            "s" : "ds26"
+            "w" : "ds29@dragonslueth",
+            "n" : "ds28@dragonslueth",
+            "s" : "ds26@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -598,8 +598,8 @@
       },
       "ds7@dragonslueth" : {
          "exits" : {
-            "n" : "ds8",
-            "s" : "ds4"
+            "n" : "ds8@dragonslueth",
+            "s" : "ds4@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -621,7 +621,7 @@
       },
       "ds20@dragonslueth" : {
          "exits" : {
-            "s" : "ds14"
+            "s" : "ds14@dragonslueth"
          },
          "flags" : [
             "OnePerson"
@@ -634,9 +634,9 @@
       },
       "ds21@dragonslueth" : {
          "exits" : {
-            "w" : "ds22",
-            "n" : "ds15",
-            "s" : "ds24"
+            "w" : "ds22@dragonslueth",
+            "n" : "ds15@dragonslueth",
+            "s" : "ds24@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -647,7 +647,7 @@
       },
       "ds29@dragonslueth" : {
          "exits" : {
-            "e" : "ds27"
+            "e" : "ds27@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -658,7 +658,7 @@
       },
       "ds11@dragonslueth" : {
          "exits" : {
-            "s" : "ds3"
+            "s" : "ds3@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -669,8 +669,8 @@
       },
       "ds33@dragonslueth" : {
          "exits" : {
-            "e" : "ds31",
-            "d" : "ds34"
+            "e" : "ds31@dragonslueth",
+            "d" : "ds34@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -681,7 +681,7 @@
       },
       "ds30@dragonslueth" : {
          "exits" : {
-            "d" : "ds25"
+            "d" : "ds25@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -692,8 +692,8 @@
       },
       "ds26@dragonslueth" : {
          "exits" : {
-            "n" : "ds27",
-            "s" : "ds15"
+            "n" : "ds27@dragonslueth",
+            "s" : "ds15@dragonslueth"
          },
          "flags" : [],
          "zone" : "dragonslueth",
@@ -706,7 +706,7 @@
    "mob" : {
       "mike@dragonslueth" : {
          "damage" : "10",
-         "location" : "ds22",
+         "location" : "ds22@dragonslueth",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "80",
@@ -718,7 +718,7 @@
       },
       "assistant@dragonslueth" : {
          "damage" : "18",
-         "location" : "ds23",
+         "location" : "ds23@dragonslueth",
          "speed" : "0",
          "armor" : "10",
          "aggression" : "20",
@@ -730,7 +730,7 @@
       },
       "guildonstern@dragonslueth" : {
          "damage" : "20",
-         "location" : "ds2",
+         "location" : "ds2@dragonslueth",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "0",
@@ -746,7 +746,7 @@
             "negfireball"
          ],
          "damage" : "20",
-         "location" : "ds21",
+         "location" : "ds21@dragonslueth",
          "armor" : "20",
          "name" : "teenage",
          "examine" : "His long, gangly body is dyed a brilliant chartreuse with a wide stripe\nof green down his back, and his tail is pierced in at least 25 places.\n",
@@ -763,7 +763,7 @@
             "negmissile"
          ],
          "damage" : "25",
-         "location" : "ds12",
+         "location" : "ds12@dragonslueth",
          "armor" : "30",
          "name" : "black",
          "examine" : "His scales shine like polished obsidian, and he moves with regal grace as\nhe slowly lifts his heavy head to regard you from intelligent, hooded eyes.\n",
@@ -779,7 +779,7 @@
             "negmissile"
          ],
          "damage" : "24",
-         "location" : "ds6",
+         "location" : "ds6@dragonslueth",
          "armor" : "20",
          "name" : "green",
          "examine" : "A few gold scales are interspersed among scales of a hundred shades of\ngreen, as though he were clothed in sunlight seen through a pattern of\nleaves in a densely wooded forest.\n",
@@ -796,7 +796,7 @@
             "negmissile"
          ],
          "damage" : "25",
-         "location" : "ds13",
+         "location" : "ds13@dragonslueth",
          "armor" : "20",
          "name" : "purple",
          "examine" : "A fine looking dragon in his youth, his scales are now patchy and in need\nof repair.\n",
@@ -808,7 +808,7 @@
       },
       "biff@dragonslueth" : {
          "damage" : "22",
-         "location" : "ds32",
+         "location" : "ds32@dragonslueth",
          "speed" : "0",
          "armor" : "10",
          "aggression" : "99",
@@ -819,7 +819,7 @@
       },
       "knight@dragonslueth" : {
          "damage" : "30",
-         "location" : "ds27",
+         "location" : "ds27@dragonslueth",
          "speed" : "0",
          "armor" : "20",
          "aggression" : "0",
@@ -835,7 +835,7 @@
             "icestorm"
          ],
          "damage" : "35",
-         "location" : "ds17",
+         "location" : "ds17@dragonslueth",
          "armor" : "0",
          "name" : "dragonsluth",
          "examine" : "His cheeks are raked with the deep scars of dragon's claws, and you know\nimmediately that he has survived enemies a hundred times more fearsome than\nyou feel right now.\n",
@@ -856,7 +856,7 @@
             "negfireball"
          ],
          "damage" : "18",
-         "location" : "ds4",
+         "location" : "ds4@dragonslueth",
          "armor" : "20",
          "name" : "white",
          "examine" : "You are momentarily dazzled by this majestic beast.  His snow white scales\nglisten and ripple like water as he raises himself up to his full, awesome\nheight and stares down at you with eyes of flaming pink.\n",
@@ -868,7 +868,7 @@
       },
       "armorer@dragonslueth" : {
          "damage" : "18",
-         "location" : "ds24",
+         "location" : "ds24@dragonslueth",
          "speed" : "0",
          "armor" : "10",
          "aggression" : "0",
@@ -884,7 +884,7 @@
             "negfrost"
          ],
          "damage" : "20",
-         "location" : "ds30",
+         "location" : "ds30@dragonslueth",
          "armor" : "10",
          "name" : "baby",
          "examine" : "His baby teeth gleam as he gurgles and waves his little claws at you\nplayfully.\n",
@@ -896,7 +896,7 @@
       },
       "rosencrit@dragonslueth" : {
          "damage" : "20",
-         "location" : "ds2",
+         "location" : "ds2@dragonslueth",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "0",
@@ -912,7 +912,7 @@
             "negshock"
          ],
          "damage" : "20",
-         "location" : "ds9",
+         "location" : "ds9@dragonslueth",
          "armor" : "15",
          "name" : "red",
          "examine" : "You see only a flash of red as he streaks towards you, flames billowing\nfrom his open jaws.\n",
@@ -929,7 +929,7 @@
             "negfrost"
          ],
          "damage" : "25",
-         "location" : "ds3",
+         "location" : "ds3@dragonslueth",
          "armor" : "20",
          "name" : "blue",
          "examine" : "The blue dragon looks at you and belches up the remains of his last victim.\n",
@@ -941,7 +941,7 @@
       },
       "thief@dragonslueth" : {
          "damage" : "20",
-         "location" : "ds39",
+         "location" : "ds39@dragonslueth",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "80",
@@ -955,7 +955,7 @@
       },
       "buff@dragonslueth" : {
          "damage" : "10",
-         "location" : "ds32",
+         "location" : "ds32@dragonslueth",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "99",

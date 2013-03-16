@@ -2,7 +2,7 @@
    "obj" : {
       "helmet@noxypickle" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:nest",
+         "location" : "IN_CONTAINER:nest@noxypickle",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -21,7 +21,7 @@
       },
       "nest@noxypickle" : {
          "damage" : "0",
-         "location" : "IN_ROOM:bough",
+         "location" : "IN_ROOM:bough@noxypickle",
          "oflags" : [
             "NoGet",
             "Container"
@@ -38,7 +38,7 @@
       "echidna@noxypickle" : {
          "desc[1]" : "A very spiky echidna is foraging for food on the forest floor.",
          "damage" : "21",
-         "location" : "IN_ROOM:forest",
+         "location" : "IN_ROOM:forest@noxypickle",
          "oflags" : [
             "GetFlips",
             "Weapon"
@@ -54,7 +54,7 @@
       },
       "skeleton@noxypickle" : {
          "damage" : "0",
-         "location" : "IN_ROOM:chamber",
+         "location" : "IN_ROOM:chamber@noxypickle",
          "oflags" : [
             "NoGet"
          ],
@@ -69,7 +69,7 @@
       },
       "eye@noxypickle" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:cloak",
+         "location" : "IN_CONTAINER:cloak@noxypickle",
          "armor" : "0",
          "altname" : "stone",
          "name" : "eye",
@@ -83,7 +83,7 @@
       "statue@noxypickle" : {
          "desc[1]" : "The statue of Polyphemus stands here, impressive, but missing its one eye.",
          "damage" : "0",
-         "location" : "IN_ROOM:temple",
+         "location" : "IN_ROOM:temple@noxypickle",
          "oflags" : [
             "NoGet"
          ],
@@ -99,7 +99,7 @@
       },
       "puddle@noxypickle" : {
          "damage" : "0",
-         "location" : "IN_ROOM:trap",
+         "location" : "IN_ROOM:trap@noxypickle",
          "oflags" : [
             "NoGet"
          ],
@@ -116,7 +116,7 @@
       "cloak@noxypickle" : {
          "desc[1]" : "A tattered cloak is draped about the shoulders of the skeleton.",
          "damage" : "0",
-         "location" : "IN_ROOM:chamber",
+         "location" : "IN_ROOM:chamber@noxypickle",
          "oflags" : [
             "Getflips",
             "Wearable",
@@ -141,8 +141,8 @@
    "loc" : {
       "chamber@noxypickle" : {
          "exits" : {
-            "e" : "door",
-            "d" : "ladder"
+            "e" : "door@noxypickle",
+            "d" : "ladder@noxypickle"
          },
          "flags" : [
             "Dark"
@@ -155,7 +155,7 @@
       },
       "trap@noxypickle" : {
          "exits" : {
-            "s" : "pit"
+            "s" : "pit@noxypickle"
          },
          "flags" : [
             "Dark"
@@ -168,7 +168,7 @@
       },
       "slide@noxypickle" : {
          "exits" : {
-            "w" : "bank"
+            "w" : "bank@noxypickle"
          },
          "flags" : [],
          "zone" : "noxypickle",
@@ -179,7 +179,7 @@
       },
       "cesspit@noxypickle" : {
          "exits" : {
-            "s" : "temple"
+            "s" : "temple@noxypickle"
          },
          "flags" : [],
          "zone" : "noxypickle",
@@ -190,8 +190,8 @@
       },
       "pit@noxypickle" : {
          "exits" : {
-            "u" : "ladder",
-            "n" : "trap"
+            "u" : "ladder@noxypickle",
+            "n" : "trap@noxypickle"
          },
          "flags" : [
             "Dark"
@@ -204,8 +204,8 @@
       },
       "ladder@noxypickle" : {
          "exits" : {
-            "u" : "chamber",
-            "d" : "pit"
+            "u" : "chamber@noxypickle",
+            "d" : "pit@noxypickle"
          },
          "flags" : [
             "Dark"
@@ -218,7 +218,7 @@
       },
       "bough@noxypickle" : {
          "exits" : {
-            "d" : "tree"
+            "d" : "tree@noxypickle"
          },
          "flags" : [],
          "zone" : "noxypickle",
@@ -229,8 +229,8 @@
       },
       "door@noxypickle" : {
          "exits" : {
-            "w" : "chamber",
-            "e" : "flag"
+            "w" : "chamber@noxypickle",
+            "e" : "flag@noxypickle"
          },
          "flags" : [],
          "zone" : "noxypickle",
@@ -241,7 +241,7 @@
       },
       "tree@noxypickle" : {
          "exits" : {
-            "u" : "bough"
+            "u" : "bough@noxypickle"
          },
          "flags" : [],
          "zone" : "noxypickle",
@@ -252,8 +252,8 @@
       },
       "temple@noxypickle" : {
          "exits" : {
-            "e" : "step",
-            "n" : "cesspit"
+            "e" : "step@noxypickle",
+            "n" : "cesspit@noxypickle"
          },
          "flags" : [],
          "zone" : "noxypickle",
@@ -264,8 +264,8 @@
       },
       "step@noxypickle" : {
          "exits" : {
-            "w" : "temple",
-            "s" : "bank"
+            "w" : "temple@noxypickle",
+            "s" : "bank@noxypickle"
          },
          "flags" : [],
          "zone" : "noxypickle",
@@ -276,7 +276,7 @@
       },
       "forest@noxypickle" : {
          "exits" : {
-            "e" : "bank"
+            "e" : "bank@noxypickle"
          },
          "flags" : [],
          "zone" : "noxypickle",
@@ -287,8 +287,8 @@
       },
       "bank@noxypickle" : {
          "exits" : {
-            "w" : "forest",
-            "n" : "step"
+            "w" : "forest@noxypickle",
+            "n" : "step@noxypickle"
          },
          "flags" : [],
          "zone" : "noxypickle",
@@ -299,8 +299,8 @@
       },
       "flag@noxypickle" : {
          "exits" : {
-            "w" : "door",
-            "n" : "Inn_Yard@village"
+            "w" : "door@noxypickle",
+            "n" : "inn_yard@village"
          },
          "flags" : [
             "Outdoors"

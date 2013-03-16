@@ -1,7 +1,7 @@
 {
    "obj" : {
       "signature@brookmere" : {
-         "location" : "IN_ROOM:Brookmere32",
+         "location" : "IN_ROOM:brookmere32@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -11,7 +11,7 @@
       },
       "stool@brookmere" : {
          "damage" : "7",
-         "location" : "IN_ROOM:Brookmere11",
+         "location" : "IN_ROOM:brookmere11@brookmere",
          "oflags" : [
             "Weapon"
          ],
@@ -23,7 +23,7 @@
          "desc[0]" : "A rather chunky stool squats here."
       },
       "block@brookmere" : {
-         "location" : "Brookmere53",
+         "location" : "brookmere53@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -33,7 +33,7 @@
          "examine" : "\nThe block and its pillars look like they were cut from the same block of \nmarble that yielded Orobius' throne. Scratched into the surface are the \nletters `T O  A L R M S'."
       },
       "goblin_bulletin_board@brookmere" : {
-         "location" : "IN_ROOM:Brookmere23",
+         "location" : "IN_ROOM:brookmere23@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -43,7 +43,7 @@
          "examine" : "\nThere isn't much to speak of on this bulletin board; a calendar, an \nadvertisment for a slightly used size 4 helmet, some silly cartoons and a \nnotice saying ` MEETING TONIGHT, 9 O'CLOCK'  signed Taurig."
       },
       "slip@brookmere" : {
-         "location" : "CARRIED_BY:Taurig",
+         "location" : "CARRIED_BY:taurig@brookmere",
          "oflags" : [
             "GetFlips"
          ],
@@ -56,7 +56,7 @@
          "desc[0]" : "A slip of paper has been forgotten here."
       },
       "block2@brookmere" : {
-         "location" : "IN_ROOM:Brookmere4",
+         "location" : "IN_ROOM:brookmere4@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -66,14 +66,14 @@
          "examine" : "\nThis marble block in every way mimics the one in Orobius' workroom, with the \nexception of some letters carved into its surface that read: `T O  W R K  R M'."
       },
       "sand@brookmere" : {
-         "location" : "IN_ROOM:Brookmere57B",
+         "location" : "IN_ROOM:brookmere57b@brookmere",
          "oflags" : [
             "NoGet"
          ],
          "name" : "sand"
       },
       "footprints@brookmere" : {
-         "location" : "IN_ROOM:Brookmere54",
+         "location" : "IN_ROOM:brookmere54@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -83,7 +83,7 @@
       },
       "chest@brookmere" : {
          "desc[1]" : "An old battered chest sits here.",
-         "location" : "IN_ROOM:Brookmere48",
+         "location" : "IN_ROOM:brookmere48@brookmere",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -99,7 +99,7 @@
          "desc[0]" : "An old battered chest sits here."
       },
       "pipe_end@brookmere" : {
-         "location" : "IN_ROOM:Brookmere25",
+         "location" : "IN_ROOM:brookmere25@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -110,7 +110,7 @@
          "desc[0]" : "There is a curious hole in the wall near the ceiling."
       },
       "south_door@brookmere" : {
-         "location" : "IN_ROOM:Brookmere45",
+         "location" : "IN_ROOM:brookmere45@brookmere",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -124,7 +124,7 @@
          "maxstate" : "0"
       },
       "hole@brookmere" : {
-         "location" : "IN_ROOM:Brookmere40",
+         "location" : "IN_ROOM:brookmere40@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -132,7 +132,7 @@
          "examine" : " \nAlthough from your side the hole feels perfectly smooth, putting your hand \naround the rim you feel only jagged edges and sharp rocks. The hole is \nunderwater, so if you wish to get through it you will have to swim."
       },
       "fish@brookmere" : {
-         "location" : "IN_ROOM:Brookmere8",
+         "location" : "IN_ROOM:brookmere8@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -140,7 +140,7 @@
          "examine" : "\nTrying to catch any of these fish to eat would be a bad idea as they are almost \ncertainly very unhealthy for you. They don't even look healthy themselves."
       },
       "dust2@brookmere" : {
-         "location" : "IN_ROOM:Brookmere29",
+         "location" : "IN_ROOM:brookmere29@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -153,7 +153,7 @@
       },
       "waterfall_door2@brookmere" : {
          "desc[1]" : "The end of the tunnel appears to be blocked by a large lump of sandstone.",
-         "location" : "IN_ROOM:Brookmere54",
+         "location" : "IN_ROOM:brookmere54@brookmere",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -168,7 +168,7 @@
          "desc[0]" : "A large block of sandstone has been moved aside from the end of the tunnel, \nallowing passage east."
       },
       "mirrors@brookmere" : {
-         "location" : "IN_ROOM:Brookmere28",
+         "location" : "IN_ROOM:brookmere28@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -176,7 +176,7 @@
          "examine" : " \nThese mirrors all look exactly the same, but for one with a &+Ccrack&* in it and \nanother that looks slightly &+Cwarped&*. You can see no clear way out of your \npredicament."
       },
       "north_door2@brookmere" : {
-         "location" : "IN_ROOM:Brookmere46",
+         "location" : "IN_ROOM:brookmere46@brookmere",
          "oflags" : [
             "Noget"
          ],
@@ -189,7 +189,7 @@
          "desc[0]" : "The hinges on the door to the south have rusted, leaving the door stuck half \nopen."
       },
       "wall@brookmere" : {
-         "location" : "IN_ROOM:Brookmere17",
+         "location" : "IN_ROOM:brookmere17@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -198,7 +198,7 @@
          "desc[0]" : "Part of the wall has been badly damaged."
       },
       "shield@brookmere" : {
-         "location" : "IN_ROOM:Brookmere23",
+         "location" : "IN_ROOM:brookmere23@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -206,7 +206,7 @@
          "examine" : "Yuck! You don't want to use that! it's covered with squashed peas and gravy!"
       },
       "torch@brookmere" : {
-         "location" : "IN_ROOM:Brookmere13",
+         "location" : "IN_ROOM:brookmere13@brookmere",
          "oflags" : [
             "Lit",
             "NoGet"
@@ -216,7 +216,7 @@
          "desc[0]" : "A burning torch flickers in a torch bracket."
       },
       "bench@brookmere" : {
-         "location" : "IN_ROOM:Brookmere4",
+         "location" : "IN_ROOM:brookmere4@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -225,7 +225,7 @@
          "desc[0]" : "A chunky stone bench occupies the centre of the room."
       },
       "salamanders@brookmere" : {
-         "location" : "IN_ROOM:Brookmere8",
+         "location" : "IN_ROOM:brookmere8@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -234,7 +234,7 @@
       },
       "goblin_helmet@brookmere" : {
          "desc[1]" : "A dented goblin helmet hangs on the wall.",
-         "location" : "IN_ROOM:Brookmere15",
+         "location" : "IN_ROOM:brookmere15@brookmere",
          "armor" : "23",
          "oflags" : [
             "Wearable",
@@ -256,7 +256,7 @@
          ]
       },
       "arrow56@brookmere" : {
-         "location" : "IN_ROOM:Brookmere55",
+         "location" : "IN_ROOM:brookmere55@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -267,7 +267,7 @@
       },
       "wooden_door@brookmere" : {
          "desc[1]" : "There is a huge wooden door on the east wall.",
-         "location" : "IN_ROOM:Brookmere26",
+         "location" : "IN_ROOM:brookmere26@brookmere",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -282,7 +282,7 @@
       },
       "solid_door2@brookmere" : {
          "desc[1]" : "A solid door blocks any leakage of noise or goblin from this room to the next.",
-         "location" : "IN_ROOM:Brookmere26",
+         "location" : "IN_ROOM:brookmere26@brookmere",
          "oflags" : [
             "openable",
             "NoGet"
@@ -296,7 +296,7 @@
          "desc[0]" : "The door to the next room stands wide open."
       },
       "arrow55b@brookmere" : {
-         "location" : "IN_ROOM:Brookmere56B",
+         "location" : "IN_ROOM:brookmere56b@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -306,7 +306,7 @@
          "examine" : "\nThe stairs are clean and unscuffed, but in the shadow of a riser you spy a \nsmall arrow scratched into the stone, pointing north."
       },
       "brick@brookmere" : {
-         "location" : "IN_ROOM:Brookmere51",
+         "location" : "IN_ROOM:brookmere51@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -314,7 +314,7 @@
          "examine" : "\nYou poke and pry at the mortar surrounding the brick, trying to prise it \nloose.  Suddenly it slips from its place and falls to the floor, with a \nmini - avalanche of not mortar, but plaster. Where the brick was, you see \na small, triangle shaped hole."
       },
       "cracked_mirror2@brookmere" : {
-         "location" : "IN_ROOM:Brookmere32",
+         "location" : "IN_ROOM:brookmere32@brookmere",
          "oflags" : [
             "Noget"
          ],
@@ -328,7 +328,7 @@
          "oflag" : [
             "Food"
          ],
-         "location" : "IN_ROOM:Brookmere23",
+         "location" : "IN_ROOM:brookmere23@brookmere",
          "weight" : "3",
          "name" : "dinner",
          "examine" : "A standard rank-and-file goblin army issue meal.",
@@ -337,7 +337,7 @@
          "size" : "4"
       },
       "pipe12@brookmere" : {
-         "location" : "IN_ROOM:Brookmere12",
+         "location" : "IN_ROOM:brookmere12@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -347,7 +347,7 @@
          "desc[0]" : "The broken end of a pipe sticks out from behind a beam."
       },
       "uni_button2@brookmere" : {
-         "location" : "IN_ROOM:Brookmere5",
+         "location" : "IN_ROOM:brookmere5@brookmere",
          "oflags" : [
             "Noget"
          ],
@@ -356,7 +356,7 @@
          "linked" : "unicorn_button"
       },
       "south_door2@brookmere" : {
-         "location" : "IN_ROOM:Brookmere47",
+         "location" : "IN_ROOM:brookmere47@brookmere",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -369,7 +369,7 @@
          "maxstate" : "0"
       },
       "mirrored_door@brookmere" : {
-         "location" : "IN_ROOM:Brookmere28",
+         "location" : "IN_ROOM:brookmere28@brookmere",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -384,7 +384,7 @@
          "desc[0]" : "A mirrored door is open on the west wall."
       },
       "pipe49@brookmere" : {
-         "location" : "IN_ROOM:Brookmere49",
+         "location" : "IN_ROOM:brookmere49@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -394,7 +394,7 @@
          "desc[0]" : "A pipe emerges from the wall and crosses the ceiling in front of you."
       },
       "dragon_button@brookmere" : {
-         "location" : "IN_ROOM:Brookmere4",
+         "location" : "IN_ROOM:brookmere4@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -403,7 +403,7 @@
          "name" : "dragon_button"
       },
       "wall_hanging@brookmere" : {
-         "location" : "IN_ROOM:Brookmere35",
+         "location" : "IN_ROOM:brookmere35@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -413,7 +413,7 @@
          "examine" : " \nAs you slide by you lean towards the hanging to try and get a closer look, \nbut all you see is a blur of gold and green before you past it by."
       },
       "waterfall@brookmere" : {
-         "location" : "IN_ROOM:Brookmere18",
+         "location" : "IN_ROOM:brookmere18@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -421,7 +421,7 @@
          "examine" : "\nThe waterfall is truly magnificent; a miracle of Mother Nature. You run your \nhand over the stony drops of water and marvel to think how many centuries \nwent into the creation of these frozen falls. But although it does look \nspectacular, you can't help thinking that a living, moving waterfall is far \nsuperior.  Underneath the arc of the waterfall you spy a large chunk of \n&+Csandstone&* that seems out of place."
       },
       "dust@brookmere" : {
-         "location" : "IN_ROOM:Brookmere30",
+         "location" : "IN_ROOM:brookmere30@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -432,7 +432,7 @@
          "state" : "1"
       },
       "throne@brookmere" : {
-         "location" : "IN_ROOM:Brookmere18",
+         "location" : "IN_ROOM:brookmere18@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -441,7 +441,7 @@
          "desc[0]" : "The throne is very imposing, set high up on the waterfall."
       },
       "gnoll_bulletin_board@brookmere" : {
-         "location" : "IN_ROOM:Brookmere25",
+         "location" : "IN_ROOM:brookmere25@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -451,7 +451,7 @@
          "examine" : "Amidst the layers of paper you find a note reading:\n\t\t\tATTENTION GNOLLS\nWe will soon be ready to take over Brookmere and get rid of the foolish orcs \nand goblins. Practice your combat charms and be ready to attack at a moments \nnotice.  A signal will be given through the message pipes - as soon as we \nfigure out how to use them.\n\nHmmm, so the gnolls are planning to take over Brookmere. What are those \nmessage pipes?"
       },
       "glasses@brookmere" : {
-         "location" : "IN_CONTAINER:chest",
+         "location" : "IN_CONTAINER:chest@brookmere",
          "armor" : "5",
          "oflags" : [
             "Wearable",
@@ -468,7 +468,7 @@
          ]
       },
       "instructions@brookmere" : {
-         "location" : "IN_ROOM:Brookmere30",
+         "location" : "IN_ROOM:brookmere30@brookmere",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -479,7 +479,7 @@
          "examine" : " \nThe runes are some sort of evacuation plan. There is a map showing emergency \nexits in case of fire, flood, earthquake or invasion and a set of \ninstructions. The instructions read : `On the sounding of the dragon alarm \nfrom the throne room all residents of Brookmere apart from soldiers and \nemergency services will evacuate using the exits indicated and regroup at \nthe secret outpost in the forest. The sounding of the unicorn alarm will \nindicate that it is safe to return and all residents may do so immediately.' \nBut surely evacuation alarms wouldn't be placed in the throne room, the first \nplace in any castle to be looted? Maybe there is more than one in Brookmere."
       },
       "goldnuggets@brookmere" : {
-         "location" : "IN_ROOM:Brookmere57B",
+         "location" : "IN_ROOM:brookmere57b@brookmere",
          "oflags" : [
             "GetFlips",
             "Destroyed"
@@ -496,7 +496,7 @@
          "desc[0]" : "Someone has lost the fruits of their mining claim here."
       },
       "package@brookmere" : {
-         "location" : "IN_ROOM:Brookmere36",
+         "location" : "IN_ROOM:brookmere36@brookmere",
          "weight" : "5",
          "name" : "package",
          "examine" : "\nThis package, like the others, is well sealed. No amount of prising at its \nfolds will undo it. It is a very bulky package, and very heavy. Whatever is \nin here, you bet it's valuable in one way or another.",
@@ -505,7 +505,7 @@
          "size" : "6"
       },
       "cheese@brookmere" : {
-         "location" : "IN_ROOM:Brookmere11",
+         "location" : "IN_ROOM:brookmere11@brookmere",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -520,7 +520,7 @@
          "desc[0]" : "A lump of good cheese has been thoughtlessly left here."
       },
       "wax@brookmere" : {
-         "location" : "IN_ROOM:Brookmere22",
+         "location" : "IN_ROOM:brookmere22@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -528,7 +528,7 @@
          "examine" : " Ouch! That wax is hot!"
       },
       "arrow55c@brookmere" : {
-         "location" : "IN_ROOM:Brookmere56C",
+         "location" : "IN_ROOM:brookmere56c@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -538,7 +538,7 @@
          "examine" : "\nThe stairs are blank and uniform, but in a corner you find a small arrow \ncarved into the stone, pointing west."
       },
       "cards@brookmere" : {
-         "location" : "IN_ROOM:Brookmere27",
+         "location" : "IN_ROOM:brookmere27@brookmere",
          "weight" : "1",
          "altname" : "card",
          "name" : "cards",
@@ -548,7 +548,7 @@
          "size" : "1"
       },
       "arrow56b@brookmere" : {
-         "location" : "IN_ROOM:Brookmere55B",
+         "location" : "IN_ROOM:brookmere55b@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -558,7 +558,7 @@
          "examine" : "\nThe stairs are clean and unscuffed, but in the shadow of a riser you spy a \nsmall arrow scratched into the stone, pointing south."
       },
       "arrow55@brookmere" : {
-         "location" : "IN_ROOM:Brookmere56",
+         "location" : "IN_ROOM:brookmere56@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -568,7 +568,7 @@
          "examine" : "\nThe stairs are smooth and well worn, but on the wall, close to the ground, \nyou find a small arrow inscribed, pointing upwards."
       },
       "pipe13@brookmere" : {
-         "location" : "IN_ROOM:Brookmere13",
+         "location" : "IN_ROOM:brookmere13@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -579,7 +579,7 @@
          "desc[0]" : "Something is sticking out of the ceiling."
       },
       "moss@brookmere" : {
-         "location" : "IN_ROOM:Brookmere43",
+         "location" : "IN_ROOM:brookmere43@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -588,7 +588,7 @@
          "desc[0]" : "The moss grows very thickly just here."
       },
       "crack@brookmere" : {
-         "location" : "IN_ROOM:Brookmere28",
+         "location" : "IN_ROOM:brookmere28@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -597,7 +597,7 @@
       },
       "brick_wall@brookmere" : {
          "desc[1]" : "A brick has fallen out of the wall, revealing a triangle-shaped hole in \nit's place.",
-         "location" : "IN_ROOM:Brookmere51",
+         "location" : "IN_ROOM:brookmere51@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -611,7 +611,7 @@
          "desc[0]" : "A false wall has been swung open revealing a secret room."
       },
       "arrow56c@brookmere" : {
-         "location" : "IN_ROOM:Brookmere55C",
+         "location" : "IN_ROOM:brookmere55c@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -621,7 +621,7 @@
          "examine" : "\nThe stairs are blank and uniform, but in a corner you find a small arrow \ncarved into the stone, pointing east."
       },
       "waterfall_door@brookmere" : {
-         "location" : "IN_ROOM:Brookmere18",
+         "location" : "IN_ROOM:brookmere18@brookmere",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -635,7 +635,7 @@
          "maxstate" : "1"
       },
       "duster@brookmere" : {
-         "location" : "IN_CONTAINER:stonestore",
+         "location" : "IN_CONTAINER:stonestore@brookmere",
          "oflags" : [
             "GetFlips",
             "Cross"
@@ -649,7 +649,7 @@
          "desc[0]" : "This feather duster has been left here to gather....well, dust."
       },
       "warped_mirror@brookmere" : {
-         "location" : "IN_ROOM:Brookmere28",
+         "location" : "IN_ROOM:brookmere28@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -664,7 +664,7 @@
       },
       "solid_door@brookmere" : {
          "desc[1]" : "A solid door blocks any noise that may be coming from the room beyond.",
-         "location" : "IN_ROOM:Brookmere21",
+         "location" : "IN_ROOM:brookmere21@brookmere",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -678,7 +678,7 @@
          "desc[0]" : "The door to the next room has been opened, letting in all the noise."
       },
       "north_door@brookmere" : {
-         "location" : "IN_ROOM:Brookmere45",
+         "location" : "IN_ROOM:brookmere45@brookmere",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -694,7 +694,7 @@
       },
       "fungus@brookmere" : {
          "desc[1]" : "Some green fungus is growing here.",
-         "location" : "IN_ROOM:Brookmere9",
+         "location" : "IN_ROOM:brookmere9@brookmere",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -709,7 +709,7 @@
          "desc[0]" : "Some green fungus lies here."
       },
       "schooner@brookmere" : {
-         "location" : "CARRIED_BY:Grout",
+         "location" : "CARRIED_BY:grout@brookmere",
          "weight" : "2",
          "oflags" : [
             "Food",
@@ -721,7 +721,7 @@
          "size" : "2"
       },
       "mantle@brookmere" : {
-         "location" : "IN_ROOM:Brookmere14",
+         "location" : "IN_ROOM:brookmere14@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -730,7 +730,7 @@
          "desc[0]" : "A large wooden mantle lies in the corner."
       },
       "table@brookmere" : {
-         "location" : "IN_ROOM:Brookmere11",
+         "location" : "IN_ROOM:brookmere11@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -739,7 +739,7 @@
          "desc[0]" : "A wobbly table has been placed here."
       },
       "dice@brookmere" : {
-         "location" : "IN_ROOM:Brookmere27",
+         "location" : "IN_ROOM:brookmere27@brookmere",
          "weight" : "1",
          "altname" : "die",
          "name" : "dice",
@@ -750,7 +750,7 @@
       },
       "head@brookmere" : {
          "desc[1]" : "This shovel is encrusted with mud.",
-         "location" : "IN_ROOM:Brookmere13",
+         "location" : "IN_ROOM:brookmere13@brookmere",
          "armor" : "24",
          "oflags" : [
             "Wearable",
@@ -771,7 +771,7 @@
       },
       "other_mirrored_door@brookmere" : {
          "desc[1]" : "A funny looking door bars the way east.",
-         "location" : "IN_ROOM:Brookmere35",
+         "location" : "IN_ROOM:brookmere35@brookmere",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -786,7 +786,7 @@
          "desc[0]" : "This mirror is currently occupied being a door and leads east."
       },
       "arrow56x@brookmere" : {
-         "location" : "IN_ROOM:Brookmere55X",
+         "location" : "IN_ROOM:brookmere55x@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -796,7 +796,7 @@
          "examine" : "\nThe stairs are dull and monotonus, but on one wall you see a small cross \nscribed. Its four arms point up, down, north and south."
       },
       "unicorn_button@brookmere" : {
-         "location" : "IN_ROOM:Brookmere4",
+         "location" : "IN_ROOM:brookmere4@brookmere",
          "oflags" : [
             "Pushable",
             "NoGet"
@@ -809,7 +809,7 @@
          "state" : "1"
       },
       "triangle@brookmere" : {
-         "location" : "IN_ROOM:Brookmere36",
+         "location" : "IN_ROOM:brookmere36@brookmere",
          "weight" : "1",
          "oflags" : [
             "Unlocatable",
@@ -823,7 +823,7 @@
       },
       "brick_wall2@brookmere" : {
          "desc[1]" : "The door bars the way west.",
-         "location" : "IN_ROOM:Brookmere52",
+         "location" : "IN_ROOM:brookmere52@brookmere",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -839,7 +839,7 @@
          "desc[0]" : "An open door leads west."
       },
       "boots@brookmere" : {
-         "location" : "IN_ROOM:Brookmere12",
+         "location" : "IN_ROOM:brookmere12@brookmere",
          "weight" : "4",
          "name" : "boots",
          "examine" : "\nThey look way too big to be of any use to you, but the fine leatherwork makes \nyou think any plunderer would be glad to count them as part of his booty.",
@@ -849,7 +849,7 @@
       },
       "fork@brookmere" : {
          "desc[1]" : "An ordinary, two - pronged fork is stuck into a potato here.",
-         "location" : "IN_ROOM:Brookmere23",
+         "location" : "IN_ROOM:brookmere23@brookmere",
          "oflags" : [
             "GetFlips"
          ],
@@ -863,7 +863,7 @@
          "desc[0]" : "A funny looking fork lies here."
       },
       "goblin_cloak@brookmere" : {
-         "location" : "IN_ROOM:Brookmere15",
+         "location" : "IN_ROOM:brookmere15@brookmere",
          "armor" : "18",
          "oflags" : [
             "Wearable",
@@ -885,7 +885,7 @@
          ]
       },
       "pipe54@brookmere" : {
-         "location" : "IN_ROOM:Brookmere54",
+         "location" : "IN_ROOM:brookmere54@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -896,7 +896,7 @@
       },
       "door@brookmere" : {
          "desc[1]" : "The door has fallen off its hinges into the room.",
-         "location" : "IN_ROOM:Brookmere36",
+         "location" : "IN_ROOM:brookmere36@brookmere",
          "oflags" : [
             "Boat",
             "GetFlips"
@@ -911,7 +911,7 @@
          "desc[0]" : "A door has been torn from its hinges and flung into a corner."
       },
       "tapestry@brookmere" : {
-         "location" : "IN_ROOM:Brookmere29",
+         "location" : "IN_ROOM:brookmere29@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -922,7 +922,7 @@
          "desc[0]" : "One tapestry has been spared by the spiders, if not the dust."
       },
       "cushion@brookmere" : {
-         "location" : "IN_ROOM:Brookmere18",
+         "location" : "IN_ROOM:brookmere18@brookmere",
          "oflags" : [
             "Container"
          ],
@@ -935,7 +935,7 @@
          "bvalue" : "15"
       },
       "cracked_mirror@brookmere" : {
-         "location" : "IN_ROOM:Brookmere28",
+         "location" : "IN_ROOM:brookmere28@brookmere",
          "oflags" : [
             "NoGet",
             "Pushable"
@@ -950,7 +950,7 @@
          "desc[0]" : "A crackedmirror has been pushed aside, revealing an opening north."
       },
       "pipe24@brookmere" : {
-         "location" : "IN_ROOM:Brookmere24",
+         "location" : "IN_ROOM:brookmere24@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -960,7 +960,7 @@
          "desc[0]" : "A small rusted pipe runs along the ceiling here."
       },
       "arrow55x@brookmere" : {
-         "location" : "IN_ROOM:Brookmere56X",
+         "location" : "IN_ROOM:brookmere56x@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -970,7 +970,7 @@
          "examine" : "\nThe stairs are dull and monotonus, but on one wall you see a small cross \nscribed. Its four arms point up, down, east and west."
       },
       "stonestore@brookmere" : {
-         "location" : "IN_ROOM:Brookmere17",
+         "location" : "IN_ROOM:brookmere17@brookmere",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -987,7 +987,7 @@
       },
       "chestkey@brookmere" : {
          "desc[1]" : "Something shiny is half-buried in the silt at the edge of the river.",
-         "location" : "IN_ROOM:Brookmere42",
+         "location" : "IN_ROOM:brookmere42@brookmere",
          "oflags" : [
             "GetFlips",
             "Key",
@@ -1005,7 +1005,7 @@
       },
       "treasure_door@brookmere" : {
          "desc[1]" : "There is a huge wooden door on the west wall.",
-         "location" : "IN_ROOM:Brookmere27",
+         "location" : "IN_ROOM:brookmere27@brookmere",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -1020,7 +1020,7 @@
       },
       "backing@brookmere" : {
          "desc[1]" : "The end of the tunnel appears to be blocked by some kind of backing",
-         "location" : "IN_ROOM:Brookmere12",
+         "location" : "IN_ROOM:brookmere12@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -1032,7 +1032,7 @@
          "desc[0]" : "Shards of glass are scattered around an opening leading northwards."
       },
       "chests@brookmere" : {
-         "location" : "IN_ROOM:Brookmere46",
+         "location" : "IN_ROOM:brookmere46@brookmere",
          "oflags" : [
             "NoGet"
          ],
@@ -1043,7 +1043,7 @@
    "loc" : {
       "brookmere40@brookmere" : {
          "exits" : {
-            "e" : "Brookmere39"
+            "e" : "brookmere39@brookmere"
          },
          "flags" : [
             "Dark",
@@ -1072,12 +1072,12 @@
       },
       "brookmere37@brookmere" : {
          "exits" : {
-            "w" : "Brookmere56X",
-            "e" : "Brookmere55X",
-            "u" : "Brookmere56",
-            "n" : "Brookmere35",
-            "d" : "Brookmere55",
-            "s" : "Brookmere38"
+            "w" : "brookmere56x@brookmere",
+            "e" : "brookmere55x@brookmere",
+            "u" : "brookmere56@brookmere",
+            "n" : "brookmere35@brookmere",
+            "d" : "brookmere55@brookmere",
+            "s" : "brookmere38@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1088,8 +1088,8 @@
       },
       "brookmere25@brookmere" : {
          "exits" : {
-            "w" : "Brookmere24",
-            "e" : "Brookmere26"
+            "w" : "brookmere24@brookmere",
+            "e" : "brookmere26@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1100,11 +1100,11 @@
       },
       "brookmere56x@brookmere" : {
          "exits" : {
-            "e" : "Brookmere56X",
-            "n" : "Brookmere56B",
-            "u" : "Brookmere56C",
-            "d" : "Brookmere56",
-            "s" : "Brookmere56"
+            "e" : "brookmere56x@brookmere",
+            "n" : "brookmere56b@brookmere",
+            "u" : "brookmere56c@brookmere",
+            "d" : "brookmere56@brookmere",
+            "s" : "brookmere56@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1115,9 +1115,9 @@
       },
       "brookmere43@brookmere" : {
          "exits" : {
-            "w" : "Brookmere44",
-            "n" : "Brookmere10",
-            "s" : "Brookmere42"
+            "w" : "brookmere44@brookmere",
+            "n" : "brookmere10@brookmere",
+            "s" : "brookmere42@brookmere"
          },
          "flags" : [
             "Dark",
@@ -1131,8 +1131,8 @@
       },
       "brookmere57@brookmere" : {
          "exits" : {
-            "n" : "Brookmere42",
-            "s" : "Brookmere57B"
+            "n" : "brookmere42@brookmere",
+            "s" : "brookmere57b@brookmere"
          },
          "flags" : [
             "OnWater"
@@ -1145,10 +1145,10 @@
       },
       "brookmere55c@brookmere" : {
          "exits" : {
-            "e" : "Brookmere55D",
-            "n" : "Brookmere55B",
-            "u" : "Brookmere55X",
-            "d" : "Brookmere55X"
+            "e" : "brookmere55d@brookmere",
+            "n" : "brookmere55b@brookmere",
+            "u" : "brookmere55x@brookmere",
+            "d" : "brookmere55x@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1159,10 +1159,10 @@
       },
       "brookmere55@brookmere" : {
          "exits" : {
-            "e" : "Brookmere55X",
-            "u" : "Brookmere55X",
-            "d" : "Brookmere55B",
-            "s" : "Brookmere55X"
+            "e" : "brookmere55x@brookmere",
+            "u" : "brookmere55x@brookmere",
+            "d" : "brookmere55b@brookmere",
+            "s" : "brookmere55x@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1173,8 +1173,8 @@
       },
       "brookmere49b@brookmere" : {
          "exits" : {
-            "n" : "Brookmere50",
-            "s" : "Brookmere49"
+            "n" : "brookmere50@brookmere",
+            "s" : "brookmere49@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1185,8 +1185,8 @@
       },
       "brookmere21@brookmere" : {
          "exits" : {
-            "w" : "Brookmere20",
-            "s" : "^solid_door"
+            "w" : "brookmere20@brookmere",
+            "s" : "^solid_door@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1197,8 +1197,8 @@
       },
       "brookmere51@brookmere" : {
          "exits" : {
-            "w" : "Brookmere49",
-            "e" : "^brick_wall"
+            "w" : "brookmere49@brookmere",
+            "e" : "^brick_wall@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1209,8 +1209,8 @@
       },
       "brookmere31@brookmere" : {
          "exits" : {
-            "e" : "Brookmere14",
-            "s" : "Brookmere30"
+            "e" : "brookmere14@brookmere",
+            "s" : "brookmere30@brookmere"
          },
          "flags" : [
             "Dark",
@@ -1224,10 +1224,10 @@
       },
       "brookmere10@brookmere" : {
          "exits" : {
-            "e" : "Brookmere9",
-            "w" : "Brookmere12",
-            "n" : "Brookmere11",
-            "s" : "Brookmere43"
+            "e" : "brookmere9@brookmere",
+            "w" : "brookmere12@brookmere",
+            "n" : "brookmere11@brookmere",
+            "s" : "brookmere43@brookmere"
          },
          "flags" : [
             "Dark"
@@ -1240,10 +1240,10 @@
       },
       "brookmere19@brookmere" : {
          "exits" : {
-            "w" : "Brookmere18",
-            "e" : "Brookmere24",
-            "n" : "Brookmere20",
-            "s" : "Brookmere22"
+            "w" : "brookmere18@brookmere",
+            "e" : "brookmere24@brookmere",
+            "n" : "brookmere20@brookmere",
+            "s" : "brookmere22@brookmere"
          },
          "flags" : [
             "dark"
@@ -1256,7 +1256,7 @@
       },
       "brookmere46@brookmere" : {
          "exits" : {
-            "s" : "^north_door2"
+            "s" : "^north_door2@brookmere"
          },
          "flags" : [
             "Dark"
@@ -1269,9 +1269,9 @@
       },
       "brookmere49@brookmere" : {
          "exits" : {
-            "e" : "Brookmere51",
-            "n" : "Brookmere49B",
-            "s" : "Brookmere7"
+            "e" : "brookmere51@brookmere",
+            "n" : "brookmere49b@brookmere",
+            "s" : "brookmere7@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1282,9 +1282,9 @@
       },
       "brookmere7@brookmere" : {
          "exits" : {
-            "w" : "Brookmere8",
-            "u" : "Brookmere3",
-            "n" : "Brookmere49"
+            "w" : "brookmere8@brookmere",
+            "u" : "brookmere3@brookmere",
+            "n" : "brookmere49@brookmere"
          },
          "flags" : [
             "Dark"
@@ -1297,8 +1297,8 @@
       },
       "brookmere9@brookmere" : {
          "exits" : {
-            "w" : "Brookmere10",
-            "e" : "Brookmere8"
+            "w" : "brookmere10@brookmere",
+            "e" : "brookmere8@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1309,8 +1309,8 @@
       },
       "brookmere12@brookmere" : {
          "exits" : {
-            "e" : "Brookmere10",
-            "n" : "^backing"
+            "e" : "brookmere10@brookmere",
+            "n" : "^backing@brookmere"
          },
          "flags" : [
             "Dark",
@@ -1324,10 +1324,10 @@
       },
       "brookmere56@brookmere" : {
          "exits" : {
-            "w" : "Brookmere56X",
-            "n" : "Brookmere56X",
-            "u" : "Brookmere56B",
-            "d" : "Brookmere56X"
+            "w" : "brookmere56x@brookmere",
+            "n" : "brookmere56x@brookmere",
+            "u" : "brookmere56b@brookmere",
+            "d" : "brookmere56x@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1338,8 +1338,8 @@
       },
       "brookmere16@brookmere" : {
          "exits" : {
-            "n" : "Brookmere17",
-            "s" : "Brookmere14"
+            "n" : "brookmere17@brookmere",
+            "s" : "brookmere14@brookmere"
          },
          "flags" : [
             "dark"
@@ -1352,10 +1352,10 @@
       },
       "brookmere55d@brookmere" : {
          "exits" : {
-            "w" : "Brookmere55C",
-            "n" : "Brookmere55X",
-            "u" : "Brookmere28",
-            "d" : "Brookmere55X"
+            "w" : "brookmere55c@brookmere",
+            "n" : "brookmere55x@brookmere",
+            "u" : "brookmere28@brookmere",
+            "d" : "brookmere55x@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1366,7 +1366,7 @@
       },
       "brookmere57b@brookmere" : {
          "exits" : {
-            "n" : "Brookmere57"
+            "n" : "brookmere57@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1377,9 +1377,9 @@
       },
       "brookmere35@brookmere" : {
          "exits" : {
-            "w" : "Brookmere37",
-            "e" : "Brookmere28",
-            "s" : "Brookmere36"
+            "w" : "brookmere37@brookmere",
+            "e" : "brookmere28@brookmere",
+            "s" : "brookmere36@brookmere"
          },
          "flags" : [
             "Dark"
@@ -1392,7 +1392,7 @@
       },
       "brookmere5@brookmere" : {
          "exits" : {
-            "w" : "Brookmere6"
+            "w" : "brookmere6@brookmere"
          },
          "flags" : [
             "Outdoors"
@@ -1405,10 +1405,10 @@
       },
       "brookmere26@brookmere" : {
          "exits" : {
-            "w" : "Brookmere25",
-            "e" : "^wooden_door",
-            "n" : "^solid_door2",
-            "s" : "Brookmere23"
+            "w" : "brookmere25@brookmere",
+            "e" : "^wooden_door@brookmere",
+            "n" : "^solid_door2@brookmere",
+            "s" : "brookmere23@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1419,10 +1419,10 @@
       },
       "brookmere56b@brookmere" : {
          "exits" : {
-            "w" : "Brookmere55X",
-            "n" : "Brookmere55C",
-            "u" : "Brookmere56X",
-            "d" : "Brookmere56"
+            "w" : "brookmere55x@brookmere",
+            "n" : "brookmere55c@brookmere",
+            "u" : "brookmere56x@brookmere",
+            "d" : "brookmere56@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1433,8 +1433,8 @@
       },
       "brookmere3@brookmere" : {
          "exits" : {
-            "u" : "Brookmere2",
-            "d" : "Brookmere7"
+            "u" : "brookmere2@brookmere",
+            "d" : "brookmere7@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1445,8 +1445,8 @@
       },
       "brookmere32@brookmere" : {
          "exits" : {
-            "w" : "Brookmere33",
-            "s" : "Brookmere28"
+            "w" : "brookmere33@brookmere",
+            "s" : "brookmere28@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1457,7 +1457,7 @@
       },
       "brookmere15@brookmere" : {
          "exits" : {
-            "n" : "Brookmere14"
+            "n" : "brookmere14@brookmere"
          },
          "flags" : [
             "dark"
@@ -1470,8 +1470,8 @@
       },
       "brookmere38@brookmere" : {
          "exits" : {
-            "w" : "Brookmere39",
-            "n" : "Brookmere37"
+            "w" : "brookmere39@brookmere",
+            "n" : "brookmere37@brookmere"
          },
          "flags" : [
             "Dark"
@@ -1486,7 +1486,7 @@
          "exits" : {
             "w" : "hills2@caledonia",
             "n" : "hills7@caledonia",
-            "d" : "Brookmere2",
+            "d" : "brookmere2@brookmere",
             "s" : "hills8@caledonia"
          },
          "flags" : [
@@ -1500,8 +1500,8 @@
       },
       "brookmere44@brookmere" : {
          "exits" : {
-            "w" : "Brookmere45",
-            "e" : "Brookmere43"
+            "w" : "brookmere45@brookmere",
+            "e" : "brookmere43@brookmere"
          },
          "flags" : [
             "Dark"
@@ -1514,8 +1514,8 @@
       },
       "brookmere13@brookmere" : {
          "exits" : {
-            "w" : "Brookmere14",
-            "s" : "Brookmere11"
+            "w" : "brookmere14@brookmere",
+            "s" : "brookmere11@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1526,10 +1526,10 @@
       },
       "brookmere56d@brookmere" : {
          "exits" : {
-            "e" : "Brookmere56C",
-            "n" : "Brookmere56X",
-            "u" : "Brookmere56X",
-            "d" : "Brookmere28"
+            "e" : "brookmere56c@brookmere",
+            "n" : "brookmere56x@brookmere",
+            "u" : "brookmere56x@brookmere",
+            "d" : "brookmere28@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1540,8 +1540,8 @@
       },
       "brookmere22@brookmere" : {
          "exits" : {
-            "e" : "Brookmere23",
-            "n" : "Brookmere19"
+            "e" : "brookmere23@brookmere",
+            "n" : "brookmere19@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1552,8 +1552,8 @@
       },
       "brookmere17@brookmere" : {
          "exits" : {
-            "n" : "Brookmere18",
-            "s" : "Brookmere16"
+            "n" : "brookmere18@brookmere",
+            "s" : "brookmere16@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1564,8 +1564,8 @@
       },
       "brookmere33@brookmere" : {
          "exits" : {
-            "e" : "Brookmere32",
-            "n" : "Brookmere34"
+            "e" : "brookmere32@brookmere",
+            "n" : "brookmere34@brookmere"
          },
          "flags" : [
             "Dark"
@@ -1578,7 +1578,7 @@
       },
       "brookmere53@brookmere" : {
          "exits" : {
-            "w" : "Brookmere52"
+            "w" : "brookmere52@brookmere"
          },
          "flags" : [
             "Dark",
@@ -1592,8 +1592,8 @@
       },
       "brookmere54@brookmere" : {
          "exits" : {
-            "w" : "Brookmere34",
-            "e" : "^waterfall_door2"
+            "w" : "brookmere34@brookmere",
+            "e" : "^waterfall_door2@brookmere"
          },
          "flags" : [
             "Dark"
@@ -1606,8 +1606,8 @@
       },
       "brookmere8@brookmere" : {
          "exits" : {
-            "w" : "Brookmere9",
-            "e" : "Brookmere7"
+            "w" : "brookmere9@brookmere",
+            "e" : "brookmere7@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1618,7 +1618,7 @@
       },
       "brookmere41@brookmere" : {
          "exits" : {
-            "e" : "Brookmere42"
+            "e" : "brookmere42@brookmere"
          },
          "flags" : [
             "Dark"
@@ -1631,9 +1631,9 @@
       },
       "brookmere18@brookmere" : {
          "exits" : {
-            "w" : "^waterfall_door",
-            "e" : "Brookmere19",
-            "s" : "Brookmere17"
+            "w" : "^waterfall_door@brookmere",
+            "e" : "brookmere19@brookmere",
+            "s" : "brookmere17@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1644,11 +1644,11 @@
       },
       "brookmere55x@brookmere" : {
          "exits" : {
-            "e" : "Brookmere55",
-            "w" : "Brookmere55B",
-            "u" : "Brookmere55",
-            "d" : "Brookmere55C",
-            "s" : "Brookmere55X"
+            "e" : "brookmere55@brookmere",
+            "w" : "brookmere55b@brookmere",
+            "u" : "brookmere55@brookmere",
+            "d" : "brookmere55c@brookmere",
+            "s" : "brookmere55x@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1659,7 +1659,7 @@
       },
       "brookmere27@brookmere" : {
          "exits" : {
-            "w" : "^treasure_door"
+            "w" : "^treasure_door@brookmere"
          },
          "flags" : [
             "Dark"
@@ -1672,7 +1672,7 @@
       },
       "brookmere36@brookmere" : {
          "exits" : {
-            "n" : "Brookmere35"
+            "n" : "brookmere35@brookmere"
          },
          "flags" : [
             "Dark"
@@ -1685,8 +1685,8 @@
       },
       "brookmere24@brookmere" : {
          "exits" : {
-            "w" : "Brookmere19",
-            "e" : "Brookmere25"
+            "w" : "brookmere19@brookmere",
+            "e" : "brookmere25@brookmere"
          },
          "flags" : [
             "Dark"
@@ -1699,8 +1699,8 @@
       },
       "brookmere34@brookmere" : {
          "exits" : {
-            "e" : "Brookmere54",
-            "s" : "Brookmere33"
+            "e" : "brookmere54@brookmere",
+            "s" : "brookmere33@brookmere"
          },
          "flags" : [
             "Death"
@@ -1713,8 +1713,8 @@
       },
       "brookmere52@brookmere" : {
          "exits" : {
-            "w" : "^brick_wall2",
-            "e" : "Brookmere53"
+            "w" : "^brick_wall2@brookmere",
+            "e" : "brookmere53@brookmere"
          },
          "flags" : [
             "Dark",
@@ -1728,7 +1728,7 @@
       },
       "brookmere4@brookmere" : {
          "exits" : {
-            "u" : "^unicorn_button"
+            "u" : "^unicorn_button@brookmere"
          },
          "flags" : [
             "NoSummon",
@@ -1742,8 +1742,8 @@
       },
       "brookmere30@brookmere" : {
          "exits" : {
-            "n" : "Brookmere31",
-            "s" : "^dust"
+            "n" : "brookmere31@brookmere",
+            "s" : "^dust@brookmere"
          },
          "flags" : [
             "Dark"
@@ -1756,7 +1756,7 @@
       },
       "brookmere48@brookmere" : {
          "exits" : {
-            "e" : "Brookmere45"
+            "e" : "brookmere45@brookmere"
          },
          "flags" : [
             "Dark"
@@ -1769,8 +1769,8 @@
       },
       "brookmere20@brookmere" : {
          "exits" : {
-            "e" : "Brookmere21",
-            "s" : "Brookmere19"
+            "e" : "brookmere21@brookmere",
+            "s" : "brookmere19@brookmere"
          },
          "flags" : [
             "dark"
@@ -1794,8 +1794,8 @@
       },
       "brookmere29@brookmere" : {
          "exits" : {
-            "w" : "Brookmere28",
-            "n" : "Brookmere30"
+            "w" : "brookmere28@brookmere",
+            "n" : "brookmere30@brookmere"
          },
          "flags" : [
             "Dark"
@@ -1808,10 +1808,10 @@
       },
       "brookmere56c@brookmere" : {
          "exits" : {
-            "w" : "Brookmere56D",
-            "u" : "Brookmere56X",
-            "d" : "Brookmere56X",
-            "s" : "Brookmere56B"
+            "w" : "brookmere56d@brookmere",
+            "u" : "brookmere56x@brookmere",
+            "d" : "brookmere56x@brookmere",
+            "s" : "brookmere56b@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1822,9 +1822,9 @@
       },
       "brookmere28@brookmere" : {
          "exits" : {
-            "w" : "^mirrored_door",
-            "n" : "^cracked_mirror",
-            "s" : "^warped_mirror"
+            "w" : "^mirrored_door@brookmere",
+            "n" : "^cracked_mirror@brookmere",
+            "s" : "^warped_mirror@brookmere"
          },
          "flags" : [
             "NoSummon",
@@ -1838,8 +1838,8 @@
       },
       "brookmere2@brookmere" : {
          "exits" : {
-            "u" : "Brookmere1",
-            "d" : "Brookmere3"
+            "u" : "brookmere1@brookmere",
+            "d" : "brookmere3@brookmere"
          },
          "flags" : [
             "NoMobiles"
@@ -1852,10 +1852,10 @@
       },
       "brookmere55b@brookmere" : {
          "exits" : {
-            "w" : "Brookmere55X",
-            "u" : "Brookmere55",
-            "d" : "Brookmere55X",
-            "s" : "Brookmere55C"
+            "w" : "brookmere55x@brookmere",
+            "u" : "brookmere55@brookmere",
+            "d" : "brookmere55x@brookmere",
+            "s" : "brookmere55c@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1866,8 +1866,8 @@
       },
       "brookmere39@brookmere" : {
          "exits" : {
-            "w" : "Brookmere40",
-            "e" : "Brookmere38"
+            "w" : "brookmere40@brookmere",
+            "e" : "brookmere38@brookmere"
          },
          "flags" : [
             "Dark"
@@ -1880,8 +1880,8 @@
       },
       "brookmere23@brookmere" : {
          "exits" : {
-            "w" : "Brookmere22",
-            "n" : "Brookmere26"
+            "w" : "brookmere22@brookmere",
+            "n" : "brookmere26@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1892,8 +1892,8 @@
       },
       "brookmere11@brookmere" : {
          "exits" : {
-            "n" : "Brookmere13",
-            "s" : "Brookmere10"
+            "n" : "brookmere13@brookmere",
+            "s" : "brookmere10@brookmere"
          },
          "flags" : [
             "dark"
@@ -1906,9 +1906,9 @@
       },
       "brookmere42@brookmere" : {
          "exits" : {
-            "w" : "Brookmere41",
-            "n" : "Brookmere43",
-            "s" : "Brookmere57"
+            "w" : "brookmere41@brookmere",
+            "n" : "brookmere43@brookmere",
+            "s" : "brookmere57@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1919,10 +1919,10 @@
       },
       "brookmere45@brookmere" : {
          "exits" : {
-            "w" : "Brookmere48",
-            "e" : "Brookmere44",
-            "n" : "^north_door",
-            "s" : "^south_door"
+            "w" : "brookmere48@brookmere",
+            "e" : "brookmere44@brookmere",
+            "n" : "^north_door@brookmere",
+            "s" : "^south_door@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1933,10 +1933,10 @@
       },
       "brookmere14@brookmere" : {
          "exits" : {
-            "e" : "Brookmere13",
-            "w" : "Brookmere31",
-            "n" : "Brookmere16",
-            "s" : "Brookmere15"
+            "e" : "brookmere13@brookmere",
+            "w" : "brookmere31@brookmere",
+            "n" : "brookmere16@brookmere",
+            "s" : "brookmere15@brookmere"
          },
          "flags" : [],
          "zone" : "brookmere",
@@ -1947,7 +1947,7 @@
       },
       "brookmere47@brookmere" : {
          "exits" : {
-            "n" : "^south_door2"
+            "n" : "^south_door2@brookmere"
          },
          "flags" : [
             "Dark"
@@ -1962,7 +1962,7 @@
    "mob" : {
       "lug@brookmere" : {
          "damage" : "12",
-         "location" : "Brookmere48",
+         "location" : "brookmere48@brookmere",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -1977,7 +1977,7 @@
       },
       "murguth@brookmere" : {
          "damage" : "11",
-         "location" : "Brookmere26",
+         "location" : "brookmere26@brookmere",
          "speed" : "7",
          "aggression" : "8",
          "armor" : "0",
@@ -1991,7 +1991,7 @@
       },
       "taurig@brookmere" : {
          "damage" : "9",
-         "location" : "Brookmere14",
+         "location" : "brookmere14@brookmere",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2008,7 +2008,7 @@
             "Cripple"
          ],
          "damage" : "10",
-         "location" : "Brookmere1",
+         "location" : "brookmere1@brookmere",
          "armor" : "0",
          "name" : "Nasnath",
          "examine" : "\nNasnath is one of the race of mountain dwellers called gnolls, cousins to the \ngoblins and orcs. Gnolls are the slightest of the three, being hardly bigger \nthan a man, but are also the cleverest, possesing some crude magic that \nenables them to compete with the other two. Nasnath signed up for their army \nto learn combat charms, but hates violence of any kind and refuses to attack \nanything. The only reason she is here guarding the entrance to Brookmere is \nthat no-one ever visits this bleak part of the forest anyway - except you of \ncourse.",
@@ -2025,7 +2025,7 @@
       },
       "frang@brookmere" : {
          "damage" : "15",
-         "location" : "Brookmere18",
+         "location" : "brookmere18@brookmere",
          "speed" : "0",
          "aggression" : "55",
          "armor" : "0",
@@ -2039,7 +2039,7 @@
       },
       "rooke@brookmere" : {
          "damage" : "9",
-         "location" : "Brookmere14",
+         "location" : "brookmere14@brookmere",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2053,7 +2053,7 @@
       },
       "kurak@brookmere" : {
          "damage" : "8",
-         "location" : "Brookmere14",
+         "location" : "brookmere14@brookmere",
          "speed" : "15",
          "aggression" : "5",
          "armor" : "0",
@@ -2067,7 +2067,7 @@
       },
       "swart@brookmere" : {
          "damage" : "13",
-         "location" : "Brookmere15",
+         "location" : "brookmere15@brookmere",
          "speed" : "0",
          "armor" : "0",
          "name" : "Swart",
@@ -2080,7 +2080,7 @@
       },
       "sprak@brookmere" : {
          "damage" : "7",
-         "location" : "Brookmere31",
+         "location" : "brookmere31@brookmere",
          "speed" : "0",
          "aggression" : "55",
          "armor" : "0",
@@ -2098,7 +2098,7 @@
             "Deaf"
          ],
          "damage" : "10",
-         "location" : "Brookmere26",
+         "location" : "brookmere26@brookmere",
          "armor" : "0",
          "name" : "Grout",
          "examine" : " Grout nuzzles his drink and glances up at you with a sinister air.",

@@ -1,7 +1,7 @@
 {
    "obj" : {
       "coconut@beach" : {
-         "location" : "IN_ROOM:beach25",
+         "location" : "IN_ROOM:beach25@beach",
          "weight" : "4",
          "oflags" : [
             "Food"
@@ -12,7 +12,7 @@
          "size" : "4"
       },
       "fruit@beach" : {
-         "location" : "IN_CONTAINER:basket",
+         "location" : "IN_CONTAINER:basket@beach",
          "weight" : "2",
          "oflags" : [
             "Food"
@@ -23,7 +23,7 @@
          "size" : "2"
       },
       "yacht@beach" : {
-         "location" : "IN_ROOM:beach3",
+         "location" : "IN_ROOM:beach3@beach",
          "armor" : "15",
          "oflags" : [
             "Boat"
@@ -36,7 +36,7 @@
          "desc[0]" : "The famed Savannah Jane is here, she is a beauty of a sailingship."
       },
       "basket@beach" : {
-         "location" : "IN_ROOM:beach4",
+         "location" : "IN_ROOM:beach4@beach",
          "weight" : "5",
          "oflags" : [
             "Container"
@@ -47,7 +47,7 @@
          "size" : "60"
       },
       "chicken@beach" : {
-         "location" : "IN_CONTAINER:basket",
+         "location" : "IN_CONTAINER:basket@beach",
          "weight" : "2",
          "oflags" : [
             "Food"
@@ -58,7 +58,7 @@
          "size" : "2"
       },
       "evening_gloves@beach" : {
-         "location" : "IN_ROOM:beach1",
+         "location" : "IN_ROOM:beach1@beach",
          "armor" : "30",
          "oflags" : [
             "Wearable",
@@ -80,8 +80,8 @@
    "loc" : {
       "beach19@beach" : {
          "exits" : {
-            "n" : "beach18",
-            "s" : "beach20"
+            "n" : "beach18@beach",
+            "s" : "beach20@beach"
          },
          "flags" : [
             "Outdoors",
@@ -95,10 +95,10 @@
       },
       "beach14@beach" : {
          "exits" : {
-            "e" : "beach17",
-            "w" : "beach8",
-            "n" : "beach13",
-            "s" : "beach15"
+            "e" : "beach17@beach",
+            "w" : "beach8@beach",
+            "n" : "beach13@beach",
+            "s" : "beach15@beach"
          },
          "flags" : [
             "Outdoors",
@@ -112,8 +112,8 @@
       },
       "beach18@beach" : {
          "exits" : {
-            "w" : "beach17",
-            "s" : "beach19"
+            "w" : "beach17@beach",
+            "s" : "beach19@beach"
          },
          "flags" : [
             "Outdoors",
@@ -127,9 +127,9 @@
       },
       "beach13@beach" : {
          "exits" : {
-            "e" : "beach16",
-            "w" : "beach9",
-            "s" : "beach14"
+            "e" : "beach16@beach",
+            "w" : "beach9@beach",
+            "s" : "beach14@beach"
          },
          "flags" : [
             "Outdoors",
@@ -143,8 +143,8 @@
       },
       "beach17@beach" : {
          "exits" : {
-            "e" : "beach18",
-            "w" : "beach14"
+            "e" : "beach18@beach",
+            "w" : "beach14@beach"
          },
          "flags" : [
             "Outdoors",
@@ -159,7 +159,7 @@
       "beach4@beach" : {
          "exits" : {
             "n" : "ledge51@ledge",
-            "s" : "beach3"
+            "s" : "beach3@beach"
          },
          "flags" : [
             "Outdoors"
@@ -172,7 +172,7 @@
       },
       "beach23@beach" : {
          "exits" : {
-            "w" : "beach21"
+            "w" : "beach21@beach"
          },
          "flags" : [
             "Outdoors"
@@ -185,8 +185,8 @@
       },
       "beach27@beach" : {
          "exits" : {
-            "e" : "beach25",
-            "n" : "beach26"
+            "e" : "beach25@beach",
+            "n" : "beach26@beach"
          },
          "flags" : [
             "Outdoors"
@@ -199,8 +199,8 @@
       },
       "beach20@beach" : {
          "exits" : {
-            "n" : "beach19",
-            "s" : "beach21"
+            "n" : "beach19@beach",
+            "s" : "beach21@beach"
          },
          "flags" : [
             "Outdoors"
@@ -214,7 +214,7 @@
       "beach10@beach" : {
          "exits" : {
             "w" : "town1@town",
-            "s" : "beach9"
+            "s" : "beach9@beach"
          },
          "flags" : [
             "Outdoors",
@@ -228,8 +228,8 @@
       },
       "beach6@beach" : {
          "exits" : {
-            "e" : "beach7",
-            "w" : "beach3"
+            "e" : "beach7@beach",
+            "w" : "beach3@beach"
          },
          "flags" : [
             "Outdoors",
@@ -243,9 +243,9 @@
       },
       "beach24@beach" : {
          "exits" : {
-            "w" : "beach26",
-            "n" : "beach21",
-            "s" : "beach25"
+            "w" : "beach26@beach",
+            "n" : "beach21@beach",
+            "s" : "beach25@beach"
          },
          "flags" : [
             "Outdoors"
@@ -258,7 +258,7 @@
       },
       "beach5@beach" : {
          "exits" : {
-            "e" : "beach2"
+            "e" : "beach2@beach"
          },
          "flags" : [
             "Outdoors",
@@ -272,8 +272,8 @@
       },
       "beach25@beach" : {
          "exits" : {
-            "w" : "beach27",
-            "n" : "beach24"
+            "w" : "beach27@beach",
+            "n" : "beach24@beach"
          },
          "flags" : [
             "Outdoors"
@@ -286,9 +286,9 @@
       },
       "beach9@beach" : {
          "exits" : {
-            "e" : "beach13",
-            "n" : "beach10",
-            "s" : "beach8"
+            "e" : "beach13@beach",
+            "n" : "beach10@beach",
+            "s" : "beach8@beach"
          },
          "flags" : [
             "Outdoors",
@@ -302,7 +302,7 @@
       },
       "beach16@beach" : {
          "exits" : {
-            "w" : "beach13"
+            "w" : "beach13@beach"
          },
          "flags" : [
             "Outdoors",
@@ -316,10 +316,10 @@
       },
       "beach11@beach" : {
          "exits" : {
-            "e" : "beach15",
+            "e" : "beach15@beach",
             "w" : "ledge58@ledge",
-            "n" : "beach8",
-            "s" : "beach12"
+            "n" : "beach8@beach",
+            "s" : "beach12@beach"
          },
          "flags" : [
             "Outdoors",
@@ -333,8 +333,8 @@
       },
       "beach26@beach" : {
          "exits" : {
-            "e" : "beach24",
-            "s" : "beach27"
+            "e" : "beach24@beach",
+            "s" : "beach27@beach"
          },
          "flags" : [
             "Outdoors"
@@ -347,10 +347,10 @@
       },
       "beach8@beach" : {
          "exits" : {
-            "e" : "beach14",
-            "w" : "beach7",
-            "n" : "beach9",
-            "s" : "beach11"
+            "e" : "beach14@beach",
+            "w" : "beach7@beach",
+            "n" : "beach9@beach",
+            "s" : "beach11@beach"
          },
          "flags" : [
             "Outdoors",
@@ -364,7 +364,7 @@
       },
       "beach22@beach" : {
          "exits" : {
-            "e" : "beach21"
+            "e" : "beach21@beach"
          },
          "flags" : [
             "Outdoors"
@@ -377,8 +377,8 @@
       },
       "beach7@beach" : {
          "exits" : {
-            "e" : "beach8",
-            "w" : "beach6"
+            "e" : "beach8@beach",
+            "w" : "beach6@beach"
          },
          "flags" : [
             "Outdoors",
@@ -392,7 +392,7 @@
       },
       "beach12@beach" : {
          "exits" : {
-            "n" : "beach11"
+            "n" : "beach11@beach"
          },
          "flags" : [
             "Outdoors",
@@ -406,8 +406,8 @@
       },
       "beach15@beach" : {
          "exits" : {
-            "w" : "beach11",
-            "n" : "beach14"
+            "w" : "beach11@beach",
+            "n" : "beach14@beach"
          },
          "flags" : [
             "Outdoors",
@@ -421,10 +421,10 @@
       },
       "beach21@beach" : {
          "exits" : {
-            "e" : "beach23",
-            "w" : "beach22",
-            "n" : "beach20",
-            "s" : "beach24"
+            "e" : "beach23@beach",
+            "w" : "beach22@beach",
+            "n" : "beach20@beach",
+            "s" : "beach24@beach"
          },
          "flags" : [
             "Outdoors"
@@ -437,9 +437,9 @@
       },
       "beach3@beach" : {
          "exits" : {
-            "e" : "beach6",
-            "n" : "beach4",
-            "s" : "beach2"
+            "e" : "beach6@beach",
+            "n" : "beach4@beach",
+            "s" : "beach2@beach"
          },
          "flags" : [
             "Outdoors"
@@ -452,9 +452,9 @@
       },
       "beach2@beach" : {
          "exits" : {
-            "w" : "beach5",
-            "n" : "beach3",
-            "s" : "beach1"
+            "w" : "beach5@beach",
+            "n" : "beach3@beach",
+            "s" : "beach1@beach"
          },
          "flags" : [
             "Outdoors"
@@ -467,7 +467,7 @@
       },
       "beach1@beach" : {
          "exits" : {
-            "n" : "beach2",
+            "n" : "beach2@beach",
             "s" : "shore@village"
          },
          "flags" : [
@@ -483,7 +483,7 @@
    "mob" : {
       "whale@beach" : {
          "damage" : "5",
-         "location" : "beach15",
+         "location" : "beach15@beach",
          "armor" : "0",
          "name" : "whale",
          "description" : "A large humpbacked whale is here, enjoying the calm open water. ",
@@ -497,7 +497,7 @@
       },
       "dove@beach" : {
          "damage" : "5",
-         "location" : "beach24",
+         "location" : "beach24@beach",
          "armor" : "0",
          "name" : "dove",
          "description" : "A peaceful white dove is perched here, resting. ",
@@ -511,7 +511,7 @@
       },
       "finch@beach" : {
          "damage" : "5",
-         "location" : "beach25",
+         "location" : "beach25@beach",
          "armor" : "0",
          "name" : "finch",
          "description" : "A lovely long-tailed finch is perched on a tree here.",
@@ -525,7 +525,7 @@
       },
       "flamingo@beach" : {
          "damage" : "5",
-         "location" : "beach27",
+         "location" : "beach27@beach",
          "armor" : "0",
          "name" : "flamingo",
          "description" : "There is a large pink flamingo here, looking for food",
@@ -539,7 +539,7 @@
       },
       "parrot@beach" : {
          "damage" : "5",
-         "location" : "beach24",
+         "location" : "beach24@beach",
          "armor" : "0",
          "name" : "parrot",
          "description" : "A beautiful parrot is here, maybe you could teach him to talk?",
@@ -553,7 +553,7 @@
       },
       "porpoise@beach" : {
          "damage" : "5",
-         "location" : "beach17",
+         "location" : "beach17@beach",
          "armor" : "5",
          "name" : "porpoise",
          "description" : "A playful porpoise is here, playing some games.",
@@ -567,7 +567,7 @@
       },
       "cockatiel@beach" : {
          "damage" : "5",
-         "location" : "beach26",
+         "location" : "beach26@beach",
          "armor" : "0",
          "name" : "cockatiel",
          "description" : "A bright Cockatiel is here, looking beautiful. ",

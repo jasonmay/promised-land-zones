@@ -2,7 +2,7 @@
    "obj" : {
       "badge@sherwood" : {
          "damage" : "0",
-         "location" : "WORN_BY:sheriff",
+         "location" : "WORN_BY:sheriff@sherwood",
          "armor" : "5",
          "oflags" : [
             "Wearable",
@@ -20,7 +20,7 @@
       },
       "point@sherwood" : {
          "damage" : "10",
-         "location" : "IN_ROOM:sherwood10",
+         "location" : "IN_ROOM:sherwood10@sherwood",
          "armor" : "0",
          "oflags" : [
             "Weapon"
@@ -33,7 +33,7 @@
          "desc[0]" : "A sharp point has been left here."
       },
       "beer@sherwood" : {
-         "location" : "IN_ROOM:sherwood8",
+         "location" : "IN_ROOM:sherwood8@sherwood",
          "oflags" : [
             "Food",
             "Alcohol"
@@ -48,7 +48,7 @@
       },
       "stick@sherwood" : {
          "damage" : "5",
-         "location" : "IN_ROOM:sherwood4",
+         "location" : "IN_ROOM:sherwood4@sherwood",
          "armor" : "0",
          "oflags" : [
             "Lightable",
@@ -63,7 +63,7 @@
       },
       "sticker@sherwood" : {
          "damage" : "10",
-         "location" : "IN_ROOM:sherwood17",
+         "location" : "IN_ROOM:sherwood17@sherwood",
          "armor" : "0",
          "oflags" : [
             "Weapon"
@@ -78,7 +78,7 @@
       },
       "clip@sherwood" : {
          "damage" : "5",
-         "location" : "IN_ROOM:sherwood30",
+         "location" : "IN_ROOM:sherwood30@sherwood",
          "armor" : "0",
          "oflags" : [
             "Weapon"
@@ -92,7 +92,7 @@
          "desc[0]" : "A paper clip can barely be seen in the grass."
       },
       "quiver@sherwood" : {
-         "location" : "WORN_BY:robin",
+         "location" : "WORN_BY:robin@sherwood",
          "armor" : "35",
          "oflags" : [
             "Armor",
@@ -109,7 +109,7 @@
          "desc[0]" : "A very well fashioned quiver lies here waiting for someone to pick it up."
       },
       "ppipe@sherwood" : {
-         "location" : "IN_ROOM:LIMBO@LIMBO",
+         "location" : "IN_ROOM:limbo@limbo",
          "oflags" : [
             "Destroyed"
          ],
@@ -129,7 +129,7 @@
          "size" : "0"
       },
       "brush@sherwood" : {
-         "location" : "IN_ROOM:sherwood34",
+         "location" : "IN_ROOM:sherwood34@sherwood",
          "oflags" : [
             "NoGet",
             "Container"
@@ -141,7 +141,7 @@
       },
       "ironwood@sherwood" : {
          "damage" : "26",
-         "location" : "IN_CONTAINER:brush",
+         "location" : "IN_CONTAINER:brush@sherwood",
          "armor" : "0",
          "oflags" : [
             "Weapon"
@@ -156,7 +156,7 @@
       },
       "parry@sherwood" : {
          "damage" : "10",
-         "location" : "CARRIED_BY:little",
+         "location" : "CARRIED_BY:little@sherwood",
          "armor" : "0",
          "oflags" : [
             "Weapon"
@@ -170,7 +170,7 @@
          "desc[0]" : "Little John's parry staff sits here."
       },
       "volume@sherwood" : {
-         "location" : "IN_ROOM:hut3",
+         "location" : "IN_ROOM:hut3@sherwood",
          "oflags" : [
             "Noget"
          ],
@@ -181,7 +181,7 @@
          "size" : "15"
       },
       "necklace@sherwood" : {
-         "location" : "WORN_BY:marian",
+         "location" : "WORN_BY:marian@sherwood",
          "oflags" : [
             "Wearable"
          ],
@@ -208,9 +208,9 @@
    "loc" : {
       "sherwood21@sherwood" : {
          "exits" : {
-            "e" : "sherwood6",
-            "w" : "sherwood20",
-            "n" : "sherwood22"
+            "e" : "sherwood6@sherwood",
+            "w" : "sherwood20@sherwood",
+            "n" : "sherwood22@sherwood"
          },
          "flags" : [
             "Outdoors"
@@ -223,8 +223,8 @@
       },
       "sherwood29@sherwood" : {
          "exits" : {
-            "n" : "sherwood30",
-            "s" : "sherwood28"
+            "n" : "sherwood30@sherwood",
+            "s" : "sherwood28@sherwood"
          },
          "flags" : [
             "Outdoors",
@@ -238,7 +238,7 @@
       },
       "sherwood20@sherwood" : {
          "exits" : {
-            "e" : "sherwood21"
+            "e" : "sherwood21@sherwood"
          },
          "flags" : [
             "Outdoors",
@@ -253,9 +253,9 @@
       },
       "sherwood31@sherwood" : {
          "exits" : {
-            "e" : "hut2",
-            "n" : "sherwood32",
-            "s" : "sherwood30"
+            "e" : "hut2@sherwood",
+            "n" : "sherwood32@sherwood",
+            "s" : "sherwood30@sherwood"
          },
          "flags" : [
             "Outdoors",
@@ -269,8 +269,8 @@
       },
       "sherwood10@sherwood" : {
          "exits" : {
-            "n" : "sherwood11",
-            "s" : "sherwood9"
+            "n" : "sherwood11@sherwood",
+            "s" : "sherwood9@sherwood"
          },
          "flags" : [
             "Outdoors"
@@ -283,7 +283,7 @@
       },
       "sherwood34@sherwood" : {
          "exits" : {
-            "s" : "sherwood33"
+            "s" : "sherwood33@sherwood"
          },
          "flags" : [
             "Outdoors",
@@ -297,7 +297,7 @@
       },
       "hut4@sherwood" : {
          "exits" : {
-            "w" : "sherwood33"
+            "w" : "sherwood33@sherwood"
          },
          "flags" : [
             "Dark",
@@ -311,9 +311,9 @@
       },
       "sherwood13@sherwood" : {
          "exits" : {
-            "w" : "sherwood14",
-            "e" : "sherwood12",
-            "n" : "sherwood16"
+            "w" : "sherwood14@sherwood",
+            "e" : "sherwood12@sherwood",
+            "n" : "sherwood16@sherwood"
          },
          "flags" : [
             "Outdoors"
@@ -326,8 +326,8 @@
       },
       "sherwood18@sherwood" : {
          "exits" : {
-            "n" : "sherwood19",
-            "s" : "sherwood17"
+            "n" : "sherwood19@sherwood",
+            "s" : "sherwood17@sherwood"
          },
          "flags" : [
             "Outdoors"
@@ -340,8 +340,8 @@
       },
       "sherwood9@sherwood" : {
          "exits" : {
-            "w" : "sherwood8",
-            "n" : "sherwood10"
+            "w" : "sherwood8@sherwood",
+            "n" : "sherwood10@sherwood"
          },
          "flags" : [
             "Outdoors"
@@ -365,9 +365,9 @@
       },
       "sherwood6@sherwood" : {
          "exits" : {
-            "w" : "sherwood21",
-            "n" : "sherwood7",
-            "s" : "sherwood5"
+            "w" : "sherwood21@sherwood",
+            "n" : "sherwood7@sherwood",
+            "s" : "sherwood5@sherwood"
          },
          "flags" : [
             "Outdoors"
@@ -380,8 +380,8 @@
       },
       "sherwood5@sherwood" : {
          "exits" : {
-            "e" : "sherwood4",
-            "n" : "sherwood6"
+            "e" : "sherwood4@sherwood",
+            "n" : "sherwood6@sherwood"
          },
          "flags" : [
             "Outdoors"
@@ -394,9 +394,9 @@
       },
       "sherwood33@sherwood" : {
          "exits" : {
-            "e" : "hut4",
-            "n" : "sherwood34",
-            "s" : "sherwood32"
+            "e" : "hut4@sherwood",
+            "n" : "sherwood34@sherwood",
+            "s" : "sherwood32@sherwood"
          },
          "flags" : [
             "Outdoors",
@@ -410,8 +410,8 @@
       },
       "sherwood23@sherwood" : {
          "exits" : {
-            "n" : "sherwood24",
-            "s" : "sherwood22"
+            "n" : "sherwood24@sherwood",
+            "s" : "sherwood22@sherwood"
          },
          "flags" : [
             "Outdoors"
@@ -424,8 +424,8 @@
       },
       "sherwood25@sherwood" : {
          "exits" : {
-            "e" : "sherwood24",
-            "n" : "sherwood26"
+            "e" : "sherwood24@sherwood",
+            "n" : "sherwood26@sherwood"
          },
          "flags" : [
             "Outdoors",
@@ -439,8 +439,8 @@
       },
       "sherwood22@sherwood" : {
          "exits" : {
-            "n" : "sherwood23",
-            "s" : "sherwood21"
+            "n" : "sherwood23@sherwood",
+            "s" : "sherwood21@sherwood"
          },
          "flags" : [
             "Outdoors"
@@ -464,8 +464,8 @@
       },
       "sherwood16@sherwood" : {
          "exits" : {
-            "n" : "sherwood17",
-            "s" : "sherwood13"
+            "n" : "sherwood17@sherwood",
+            "s" : "sherwood13@sherwood"
          },
          "flags" : [
             "Outdoors"
@@ -478,9 +478,9 @@
       },
       "sherwood30@sherwood" : {
          "exits" : {
-            "e" : "hut1",
-            "n" : "sherwood31",
-            "s" : "sherwood29"
+            "e" : "hut1@sherwood",
+            "n" : "sherwood31@sherwood",
+            "s" : "sherwood29@sherwood"
          },
          "flags" : [
             "Outdoors",
@@ -494,8 +494,8 @@
       },
       "sherwood7@sherwood" : {
          "exits" : {
-            "n" : "sherwood8",
-            "s" : "sherwood6"
+            "n" : "sherwood8@sherwood",
+            "s" : "sherwood6@sherwood"
          },
          "flags" : [
             "Outdoors"
@@ -508,9 +508,9 @@
       },
       "sherwood32@sherwood" : {
          "exits" : {
-            "e" : "hut3",
-            "n" : "sherwood33",
-            "s" : "sherwood31"
+            "e" : "hut3@sherwood",
+            "n" : "sherwood33@sherwood",
+            "s" : "sherwood31@sherwood"
          },
          "flags" : [
             "Outdoors",
@@ -524,8 +524,8 @@
       },
       "sherwood4@sherwood" : {
          "exits" : {
-            "w" : "sherwood5",
-            "e" : "sherwood1"
+            "w" : "sherwood5@sherwood",
+            "e" : "sherwood1@sherwood"
          },
          "flags" : [
             "Outdoors"
@@ -538,8 +538,8 @@
       },
       "sherwood27@sherwood" : {
          "exits" : {
-            "n" : "sherwood28",
-            "s" : "sherwood26"
+            "n" : "sherwood28@sherwood",
+            "s" : "sherwood26@sherwood"
          },
          "flags" : [
             "Outdoors",
@@ -553,8 +553,8 @@
       },
       "sherwood8@sherwood" : {
          "exits" : {
-            "e" : "sherwood9",
-            "s" : "sherwood7"
+            "e" : "sherwood9@sherwood",
+            "s" : "sherwood7@sherwood"
          },
          "flags" : [
             "Outdoors"
@@ -567,8 +567,8 @@
       },
       "sherwood14@sherwood" : {
          "exits" : {
-            "e" : "sherwood13",
-            "s" : "sherwood15"
+            "e" : "sherwood13@sherwood",
+            "s" : "sherwood15@sherwood"
          },
          "flags" : [
             "Outdoors",
@@ -582,8 +582,8 @@
       },
       "sherwood26@sherwood" : {
          "exits" : {
-            "n" : "sherwood27",
-            "s" : "sherwood25"
+            "n" : "sherwood27@sherwood",
+            "s" : "sherwood25@sherwood"
          },
          "flags" : [
             "Outdoors",
@@ -597,7 +597,7 @@
       },
       "hut1@sherwood" : {
          "exits" : {
-            "w" : "sherwood30"
+            "w" : "sherwood30@sherwood"
          },
          "flags" : [
             "Dark"
@@ -610,8 +610,8 @@
       },
       "sherwood17@sherwood" : {
          "exits" : {
-            "n" : "sherwood18",
-            "s" : "sherwood16"
+            "n" : "sherwood18@sherwood",
+            "s" : "sherwood16@sherwood"
          },
          "flags" : [
             "Outdoors"
@@ -624,8 +624,8 @@
       },
       "sherwood24@sherwood" : {
          "exits" : {
-            "w" : "sherwood25",
-            "s" : "sherwood23"
+            "w" : "sherwood25@sherwood",
+            "s" : "sherwood23@sherwood"
          },
          "flags" : [
             "Outdoors"
@@ -638,7 +638,7 @@
       },
       "hut3@sherwood" : {
          "exits" : {
-            "w" : "sherwood32"
+            "w" : "sherwood32@sherwood"
          },
          "flags" : [
             "Dark"
@@ -651,8 +651,8 @@
       },
       "sherwood3@sherwood" : {
          "exits" : {
-            "n" : "bullZZ01@bull",
-            "s" : "sherwood1"
+            "n" : "bullzz01@bull",
+            "s" : "sherwood1@sherwood"
          },
          "flags" : [],
          "zone" : "sherwood",
@@ -663,7 +663,7 @@
       },
       "hut2@sherwood" : {
          "exits" : {
-            "w" : "sherwood31"
+            "w" : "sherwood31@sherwood"
          },
          "flags" : [
             "Dark",
@@ -677,8 +677,8 @@
       },
       "sherwood11@sherwood" : {
          "exits" : {
-            "n" : "sherwood12",
-            "s" : "sherwood10"
+            "n" : "sherwood12@sherwood",
+            "s" : "sherwood10@sherwood"
          },
          "flags" : [
             "Outdoors"
@@ -691,8 +691,8 @@
       },
       "sherwood12@sherwood" : {
          "exits" : {
-            "w" : "sherwood13",
-            "s" : "sherwood11"
+            "w" : "sherwood13@sherwood",
+            "s" : "sherwood11@sherwood"
          },
          "flags" : [
             "Outdoors"
@@ -706,7 +706,7 @@
       "sherwood2@sherwood" : {
          "exits" : {
             "e" : "origins1@origins",
-            "w" : "sherwood1"
+            "w" : "sherwood1@sherwood"
          },
          "flags" : [],
          "zone" : "sherwood",
@@ -717,9 +717,9 @@
       },
       "sherwood1@sherwood" : {
          "exits" : {
-            "w" : "sherwood4",
-            "e" : "sherwood2",
-            "n" : "sherwood3",
+            "w" : "sherwood4@sherwood",
+            "e" : "sherwood2@sherwood",
+            "n" : "sherwood3@sherwood",
             "s" : "eforest@eforest"
          },
          "flags" : [
@@ -735,8 +735,8 @@
       },
       "sherwood28@sherwood" : {
          "exits" : {
-            "n" : "sherwood29",
-            "s" : "sherwood27"
+            "n" : "sherwood29@sherwood",
+            "s" : "sherwood27@sherwood"
          },
          "flags" : [
             "Outdoors",
@@ -752,7 +752,7 @@
    "mob" : {
       "stacy@sherwood" : {
          "damage" : "4",
-         "location" : "sherwood22",
+         "location" : "sherwood22@sherwood",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -763,7 +763,7 @@
       },
       "sheriff@sherwood" : {
          "damage" : "10",
-         "location" : "sherwood14",
+         "location" : "sherwood14@sherwood",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -774,7 +774,7 @@
       },
       "mike@sherwood" : {
          "damage" : "10",
-         "location" : "sherwood28",
+         "location" : "sherwood28@sherwood",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -785,7 +785,7 @@
       },
       "marian@sherwood" : {
          "damage" : "10",
-         "location" : "sherwood13",
+         "location" : "sherwood13@sherwood",
          "sflag" : [
             "Female"
          ],
@@ -799,7 +799,7 @@
       },
       "jason@sherwood" : {
          "damage" : "10",
-         "location" : "sherwood27",
+         "location" : "sherwood27@sherwood",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -810,7 +810,7 @@
       },
       "emmy@sherwood" : {
          "damage" : "2",
-         "location" : "sherwood20",
+         "location" : "sherwood20@sherwood",
          "armor" : "0",
          "name" : "emmy",
          "examine" : "\nEmmy is a little girl with big brown eyes, and dark brown hair. You \nwouldn't want to attack her, now would you?",
@@ -830,7 +830,7 @@
       },
       "greg@sherwood" : {
          "damage" : "10",
-         "location" : "sherwood22",
+         "location" : "sherwood22@sherwood",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -841,7 +841,7 @@
       },
       "lars@sherwood" : {
          "damage" : "20",
-         "location" : "sherwood31",
+         "location" : "sherwood31@sherwood",
          "armor" : "10",
          "name" : "lars",
          "description" : "Merryman Lars is here, puking after completing the Century Club.",
@@ -856,7 +856,7 @@
       },
       "little@sherwood" : {
          "damage" : "10",
-         "location" : "sherwood20",
+         "location" : "sherwood20@sherwood",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -867,7 +867,7 @@
       },
       "scott@sherwood" : {
          "damage" : "20",
-         "location" : "sherwood33",
+         "location" : "sherwood33@sherwood",
          "armor" : "10",
          "name" : "scott",
          "description" : "Merryman Scott is here, spitting in his little sisters mouth.",
@@ -882,7 +882,7 @@
       },
       "sil@sherwood" : {
          "damage" : "20",
-         "location" : "sherwood30",
+         "location" : "sherwood30@sherwood",
          "armor" : "10",
          "name" : "sil",
          "description" : "Merryman Sil is here awaiting Amy's next command.",
@@ -897,7 +897,7 @@
       },
       "friar@sherwood" : {
          "damage" : "8",
-         "location" : "sherwood8",
+         "location" : "sherwood8@sherwood",
          "speed" : "0",
          "aggression" : "20",
          "armor" : "0",
@@ -908,7 +908,7 @@
       },
       "robin@sherwood" : {
          "damage" : "25",
-         "location" : "sherwood34",
+         "location" : "sherwood34@sherwood",
          "speed" : "0",
          "aggression" : "40",
          "armor" : "15",
@@ -919,7 +919,7 @@
       },
       "tim@sherwood" : {
          "damage" : "10",
-         "location" : "sherwood26",
+         "location" : "sherwood26@sherwood",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -930,7 +930,7 @@
       },
       "dan@sherwood" : {
          "damage" : "20",
-         "location" : "sherwood32",
+         "location" : "sherwood32@sherwood",
          "armor" : "10",
          "name" : "dan",
          "description" : "Merryman Dan is saying, \"You just better give it back!\"",
@@ -945,7 +945,7 @@
       },
       "butch@sherwood" : {
          "damage" : "10",
-         "location" : "sherwood29",
+         "location" : "sherwood29@sherwood",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -956,7 +956,7 @@
       },
       "chad@sherwood" : {
          "damage" : "10",
-         "location" : "sherwood25",
+         "location" : "sherwood25@sherwood",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -967,7 +967,7 @@
       },
       "jim@sherwood" : {
          "damage" : "10",
-         "location" : "sherwood11",
+         "location" : "sherwood11@sherwood",
          "speed" : "0",
          "aggression" : "40",
          "armor" : "0",

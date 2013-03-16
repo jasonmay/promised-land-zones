@@ -2,7 +2,7 @@
    "obj" : {
       "door@talon" : {
          "desc[1]" : "The floor here is constructed of grey stone.",
-         "location" : "IN_ROOM:talon4",
+         "location" : "IN_ROOM:talon4@talon",
          "oflags" : [
             "NoGet"
          ],
@@ -19,7 +19,7 @@
          "desc[0]" : "There is a hole here leading down, beside which lies a large slab of stone."
       },
       "claw@talon" : {
-         "location" : "IN_ROOM:talon51",
+         "location" : "IN_ROOM:talon51@talon",
          "weight" : "4",
          "oflags" : [
             "DamageSpell"
@@ -31,7 +31,7 @@
          "size" : "4"
       },
       "ruby@talon" : {
-         "location" : "IN_ROOM:talon4",
+         "location" : "IN_ROOM:talon4@talon",
          "weight" : "7",
          "oflags" : [
             "Destroyed"
@@ -57,7 +57,7 @@
          "desc[0]" : "A golden staff lies here, a ruby fixed to it making it glow with a violent red\nfire."
       },
       "volume@talon" : {
-         "location" : "IN_ROOM:talon37",
+         "location" : "IN_ROOM:talon37@talon",
          "oflags" : [
             "Noget"
          ],
@@ -68,7 +68,7 @@
          "size" : "10"
       },
       "talonshield@talon" : {
-         "location" : "IN_ROOM:innercave",
+         "location" : "IN_ROOM:innercave@talon",
          "armor" : "78",
          "oflags" : [
             "Wearable",
@@ -89,7 +89,7 @@
          ]
       },
       "desk@talon" : {
-         "location" : "IN_ROOM:talon4",
+         "location" : "IN_ROOM:talon4@talon",
          "weight" : "30",
          "oflags" : [
             "Container",
@@ -102,7 +102,7 @@
          "size" : "30"
       },
       "potion@talon" : {
-         "location" : "IN_ROOM:innercave",
+         "location" : "IN_ROOM:innercave@talon",
          "weight" : "3",
          "oflags" : [
             "Potion"
@@ -114,7 +114,7 @@
          "size" : "3"
       },
       "diamond@talon" : {
-         "location" : "IN_ROOM:talon51",
+         "location" : "IN_ROOM:talon51@talon",
          "weight" : "2",
          "name" : "diamond",
          "examine" : "It seems priceless.",
@@ -123,7 +123,7 @@
          "size" : "2"
       },
       "spring@talon" : {
-         "location" : "IN_ROOM:talon24",
+         "location" : "IN_ROOM:talon24@talon",
          "weight" : "20",
          "oflags" : [
             "NoGet"
@@ -136,7 +136,7 @@
       },
       "door3@talon" : {
          "desc[1]" : "There are no apparent exits to this room.",
-         "location" : "IN_ROOM:talon26",
+         "location" : "IN_ROOM:talon26@talon",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -153,7 +153,7 @@
       },
       "door1@talon" : {
          "desc[1]" : "The ceiling here seems to end in a solid slab of stone.",
-         "location" : "IN_ROOM:talon5",
+         "location" : "IN_ROOM:talon5@talon",
          "oflags" : [
             "Openable",
             "Pushable",
@@ -173,7 +173,7 @@
       },
       "door5@talon" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:talon46",
+         "location" : "IN_ROOM:talon46@talon",
          "oflags" : [
             "GetFlips",
             "Lockable",
@@ -194,7 +194,7 @@
       },
       "door4@talon" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:talon45",
+         "location" : "IN_ROOM:talon45@talon",
          "oflags" : [
             "Getflips",
             "Lockable",
@@ -214,7 +214,7 @@
          "desc[0]" : "The door is open."
       },
       "staff@talon" : {
-         "location" : "IN_ROOM:talon64",
+         "location" : "IN_ROOM:talon64@talon",
          "weight" : "10",
          "oflags" : [
             "Glowing"
@@ -227,7 +227,7 @@
       },
       "door2@talon" : {
          "desc[1]" : "The side of the wall is completely smooth as if hand crafted, yet no purpose\nto its existence is evident.",
-         "location" : "IN_ROOM:talon25",
+         "location" : "IN_ROOM:talon25@talon",
          "oflags" : [
             "NoGet"
          ],
@@ -242,7 +242,7 @@
          "desc[0]" : "An opening is evident in the cliffside to the north."
       },
       "jug@talon" : {
-         "location" : "IN_ROOM:talon3",
+         "location" : "IN_ROOM:talon3@talon",
          "weight" : "2",
          "oflags" : [
             "Food"
@@ -255,7 +255,7 @@
       },
       "talonsword@talon" : {
          "damage" : "30",
-         "location" : "IN_ROOM:talon51",
+         "location" : "IN_ROOM:talon51@talon",
          "oflags" : [
             "Glowing",
             "Weapon"
@@ -270,7 +270,7 @@
       },
       "china_fig@talon" : {
          "desc[1]" : "A small china figurine seems to catch your eye.",
-         "location" : "IN_ROOM:talon4",
+         "location" : "IN_ROOM:talon4@talon",
          "oflags" : [
             "NoGet",
             "Pushable",
@@ -288,7 +288,7 @@
          "desc[0]" : "The figurine has been pushed slightly."
       },
       "bread@talon" : {
-         "location" : "IN_ROOM:talon3",
+         "location" : "IN_ROOM:talon3@talon",
          "weight" : "2",
          "oflags" : [
             "Food"
@@ -303,10 +303,10 @@
    "loc" : {
       "talon56@talon" : {
          "exits" : {
-            "w" : "talon54",
-            "e" : "talon57",
-            "n" : "talon55",
-            "s" : "talon55"
+            "w" : "talon54@talon",
+            "e" : "talon57@talon",
+            "n" : "talon55@talon",
+            "s" : "talon55@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -317,8 +317,8 @@
       },
       "talon42@talon" : {
          "exits" : {
-            "e" : "talon43",
-            "n" : "talon40"
+            "e" : "talon43@talon",
+            "n" : "talon40@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -329,8 +329,8 @@
       },
       "talon47@talon" : {
          "exits" : {
-            "w" : "talon44",
-            "u" : "talon48"
+            "w" : "talon44@talon",
+            "u" : "talon48@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -341,8 +341,8 @@
       },
       "talon50@talon" : {
          "exits" : {
-            "w" : "talon49",
-            "e" : "talon51"
+            "w" : "talon49@talon",
+            "e" : "talon51@talon"
          },
          "flags" : [
             "Dark"
@@ -355,7 +355,7 @@
       },
       "talon1@talon" : {
          "exits" : {
-            "n" : "talon2",
+            "n" : "talon2@talon",
             "s" : "tops@valley"
          },
          "flags" : [
@@ -369,9 +369,9 @@
       },
       "talon58@talon" : {
          "exits" : {
-            "w" : "talon57",
-            "e" : "talon59",
-            "d" : "talon61"
+            "w" : "talon57@talon",
+            "e" : "talon59@talon",
+            "d" : "talon61@talon"
          },
          "flags" : [
             "Dark"
@@ -384,8 +384,8 @@
       },
       "talon6@talon" : {
          "exits" : {
-            "u" : "talon5",
-            "d" : "talon7"
+            "u" : "talon5@talon",
+            "d" : "talon7@talon"
          },
          "flags" : [
             "Dark"
@@ -398,8 +398,8 @@
       },
       "talon29@talon" : {
          "exits" : {
-            "w" : "talon28",
-            "e" : "talon66"
+            "w" : "talon28@talon",
+            "e" : "talon66@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -410,8 +410,8 @@
       },
       "talon18@talon" : {
          "exits" : {
-            "w" : "talon19",
-            "s" : "talon17"
+            "w" : "talon19@talon",
+            "s" : "talon17@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -422,8 +422,8 @@
       },
       "talon36@talon" : {
          "exits" : {
-            "u" : "talon37",
-            "s" : "talon35"
+            "u" : "talon37@talon",
+            "s" : "talon35@talon"
          },
          "flags" : [
             "NoMobiles"
@@ -436,9 +436,9 @@
       },
       "talon44@talon" : {
          "exits" : {
-            "w" : "talon40",
-            "e" : "talon47",
-            "u" : "talon45"
+            "w" : "talon40@talon",
+            "e" : "talon47@talon",
+            "u" : "talon45@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -449,8 +449,8 @@
       },
       "talon55@talon" : {
          "exits" : {
-            "n" : "talon56",
-            "s" : "talon55"
+            "n" : "talon56@talon",
+            "s" : "talon55@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -461,8 +461,8 @@
       },
       "talon5@talon" : {
          "exits" : {
-            "u" : "^door1",
-            "d" : "talon6"
+            "u" : "^door1@talon",
+            "d" : "talon6@talon"
          },
          "flags" : [
             "Dark"
@@ -475,7 +475,7 @@
       },
       "talon3@talon" : {
          "exits" : {
-            "s" : "talon2"
+            "s" : "talon2@talon"
          },
          "flags" : [
             "Dark"
@@ -488,7 +488,7 @@
       },
       "innercave@talon" : {
          "exits" : {
-            "s" : "talon26"
+            "s" : "talon26@talon"
          },
          "flags" : [
             "Dark"
@@ -501,8 +501,8 @@
       },
       "talon57@talon" : {
          "exits" : {
-            "w" : "talon56",
-            "e" : "talon58"
+            "w" : "talon56@talon",
+            "e" : "talon58@talon"
          },
          "flags" : [
             "Dark"
@@ -515,7 +515,7 @@
       },
       "talon51@talon" : {
          "exits" : {
-            "w" : "talon50"
+            "w" : "talon50@talon"
          },
          "flags" : [
             "Dark"
@@ -528,8 +528,8 @@
       },
       "talon52@talon" : {
          "exits" : {
-            "w" : "talon54",
-            "e" : "talon53"
+            "w" : "talon54@talon",
+            "e" : "talon53@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -540,8 +540,8 @@
       },
       "talon9@talon" : {
          "exits" : {
-            "e" : "talon8",
-            "s" : "talon12"
+            "e" : "talon8@talon",
+            "s" : "talon12@talon"
          },
          "flags" : [
             "Dark",
@@ -555,8 +555,8 @@
       },
       "talon14@talon" : {
          "exits" : {
-            "e" : "talon16",
-            "n" : "talon13"
+            "e" : "talon16@talon",
+            "n" : "talon13@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -567,8 +567,8 @@
       },
       "talon26@talon" : {
          "exits" : {
-            "n" : "innercave",
-            "s" : "^door3"
+            "n" : "innercave@talon",
+            "s" : "^door3@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -579,8 +579,8 @@
       },
       "talon16@talon" : {
          "exits" : {
-            "w" : "talon14",
-            "d" : "talon53"
+            "w" : "talon14@talon",
+            "d" : "talon53@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -591,8 +591,8 @@
       },
       "talon53@talon" : {
          "exits" : {
-            "w" : "talon52",
-            "u" : "talon16"
+            "w" : "talon52@talon",
+            "u" : "talon16@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -603,9 +603,9 @@
       },
       "talon22@talon" : {
          "exits" : {
-            "w" : "talon23",
-            "u" : "talon20",
-            "d" : "talon62"
+            "w" : "talon23@talon",
+            "u" : "talon20@talon",
+            "d" : "talon62@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -616,9 +616,9 @@
       },
       "talon12@talon" : {
          "exits" : {
-            "w" : "talon13",
-            "e" : "talon10",
-            "n" : "talon9"
+            "w" : "talon13@talon",
+            "e" : "talon10@talon",
+            "n" : "talon9@talon"
          },
          "flags" : [
             "Dark"
@@ -631,9 +631,9 @@
       },
       "talon13@talon" : {
          "exits" : {
-            "w" : "talon15",
-            "e" : "talon12",
-            "s" : "talon14"
+            "w" : "talon15@talon",
+            "e" : "talon12@talon",
+            "s" : "talon14@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -644,9 +644,9 @@
       },
       "talon17@talon" : {
          "exits" : {
-            "e" : "talon15",
-            "n" : "talon18",
-            "s" : "talon21"
+            "e" : "talon15@talon",
+            "n" : "talon18@talon",
+            "s" : "talon21@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -657,7 +657,7 @@
       },
       "talon27@talon" : {
          "exits" : {
-            "n" : "talon10"
+            "n" : "talon10@talon"
          },
          "flags" : [
             "Dark"
@@ -670,8 +670,8 @@
       },
       "talon59@talon" : {
          "exits" : {
-            "w" : "talon58",
-            "e" : "talon60"
+            "w" : "talon58@talon",
+            "e" : "talon60@talon"
          },
          "flags" : [
             "Dark"
@@ -684,7 +684,7 @@
       },
       "talon37@talon" : {
          "exits" : {
-            "d" : "talon36"
+            "d" : "talon36@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -695,8 +695,8 @@
       },
       "talon45@talon" : {
          "exits" : {
-            "e" : "^door4",
-            "d" : "talon44"
+            "e" : "^door4@talon",
+            "d" : "talon44@talon"
          },
          "flags" : [
             "NoMobiles"
@@ -709,9 +709,9 @@
       },
       "talon2@talon" : {
          "exits" : {
-            "e" : "talon4",
-            "n" : "talon3",
-            "s" : "talon1"
+            "e" : "talon4@talon",
+            "n" : "talon3@talon",
+            "s" : "talon1@talon"
          },
          "flags" : [
             "Dark"
@@ -724,8 +724,8 @@
       },
       "talon11@talon" : {
          "exits" : {
-            "w" : "talon10",
-            "e" : "talon28"
+            "w" : "talon10@talon",
+            "e" : "talon28@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -736,10 +736,10 @@
       },
       "talon40@talon" : {
          "exits" : {
-            "w" : "talon35",
-            "e" : "talon44",
-            "n" : "talon41",
-            "s" : "talon42"
+            "w" : "talon35@talon",
+            "e" : "talon44@talon",
+            "n" : "talon41@talon",
+            "s" : "talon42@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -750,7 +750,7 @@
       },
       "talon24@talon" : {
          "exits" : {
-            "s" : "talon23"
+            "s" : "talon23@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -761,7 +761,7 @@
       },
       "talon62@talon" : {
          "exits" : {
-            "u" : "talon22"
+            "u" : "talon22@talon"
          },
          "flags" : [
             "Death"
@@ -774,8 +774,8 @@
       },
       "talon7@talon" : {
          "exits" : {
-            "u" : "talon6",
-            "d" : "talon8"
+            "u" : "talon6@talon",
+            "d" : "talon8@talon"
          },
          "flags" : [
             "Dark"
@@ -788,7 +788,7 @@
       },
       "talon64@talon" : {
          "exits" : {
-            "w" : "talon63"
+            "w" : "talon63@talon"
          },
          "flags" : [
             "Dark"
@@ -801,8 +801,8 @@
       },
       "talon48@talon" : {
          "exits" : {
-            "u" : "talon49",
-            "d" : "talon47"
+            "u" : "talon49@talon",
+            "d" : "talon47@talon"
          },
          "flags" : [
             "NoMobiles"
@@ -815,7 +815,7 @@
       },
       "talon43@talon" : {
          "exits" : {
-            "w" : "talon42"
+            "w" : "talon42@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -826,10 +826,10 @@
       },
       "talon35@talon" : {
          "exits" : {
-            "w" : "talon34",
-            "e" : "talon40",
-            "n" : "talon36",
-            "s" : "talon38"
+            "w" : "talon34@talon",
+            "e" : "talon40@talon",
+            "n" : "talon36@talon",
+            "s" : "talon38@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -840,8 +840,8 @@
       },
       "talon31@talon" : {
          "exits" : {
-            "w" : "talon30",
-            "e" : "talon32"
+            "w" : "talon30@talon",
+            "e" : "talon32@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -852,10 +852,10 @@
       },
       "talon67@talon" : {
          "exits" : {
-            "w" : "talon29",
-            "e" : "talon29",
-            "n" : "talon29",
-            "s" : "talon68"
+            "w" : "talon29@talon",
+            "e" : "talon29@talon",
+            "n" : "talon29@talon",
+            "s" : "talon68@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -866,7 +866,7 @@
       },
       "talon61@talon" : {
          "exits" : {
-            "u" : "talon58"
+            "u" : "talon58@talon"
          },
          "flags" : [
             "Dark"
@@ -879,8 +879,8 @@
       },
       "talon32@talon" : {
          "exits" : {
-            "w" : "talon31",
-            "u" : "talon33"
+            "w" : "talon31@talon",
+            "u" : "talon33@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -891,7 +891,7 @@
       },
       "talon41@talon" : {
          "exits" : {
-            "s" : "talon40"
+            "s" : "talon40@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -902,8 +902,8 @@
       },
       "talon49@talon" : {
          "exits" : {
-            "e" : "talon50",
-            "d" : "talon48"
+            "e" : "talon50@talon",
+            "d" : "talon48@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -914,8 +914,8 @@
       },
       "talon15@talon" : {
          "exits" : {
-            "w" : "talon17",
-            "e" : "talon13"
+            "w" : "talon17@talon",
+            "e" : "talon13@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -926,10 +926,10 @@
       },
       "talon10@talon" : {
          "exits" : {
-            "w" : "talon12",
-            "e" : "talon11",
-            "u" : "talon8",
-            "s" : "talon27"
+            "w" : "talon12@talon",
+            "e" : "talon11@talon",
+            "u" : "talon8@talon",
+            "s" : "talon27@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -940,8 +940,8 @@
       },
       "talon63@talon" : {
          "exits" : {
-            "e" : "talon64",
-            "u" : "talon60"
+            "e" : "talon64@talon",
+            "u" : "talon60@talon"
          },
          "flags" : [
             "Dark"
@@ -954,7 +954,7 @@
       },
       "talon65@talon" : {
          "exits" : {
-            "e" : "talon20"
+            "e" : "talon20@talon"
          },
          "flags" : [
             "Dark"
@@ -967,9 +967,9 @@
       },
       "talon66@talon" : {
          "exits" : {
-            "w" : "talon29",
-            "e" : "talon29",
-            "n" : "talon67"
+            "w" : "talon29@talon",
+            "e" : "talon29@talon",
+            "n" : "talon67@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -980,8 +980,8 @@
       },
       "talon28@talon" : {
          "exits" : {
-            "w" : "talon11",
-            "e" : "talon29"
+            "w" : "talon11@talon",
+            "e" : "talon29@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -992,8 +992,8 @@
       },
       "talon33@talon" : {
          "exits" : {
-            "e" : "talon34",
-            "d" : "talon32"
+            "e" : "talon34@talon",
+            "d" : "talon32@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -1004,8 +1004,8 @@
       },
       "talon8@talon" : {
          "exits" : {
-            "w" : "talon9",
-            "d" : "talon10"
+            "w" : "talon9@talon",
+            "d" : "talon10@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -1016,8 +1016,8 @@
       },
       "talon54@talon" : {
          "exits" : {
-            "e" : "talon52",
-            "d" : "talon56"
+            "e" : "talon52@talon",
+            "d" : "talon56@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -1028,8 +1028,8 @@
       },
       "talon38@talon" : {
          "exits" : {
-            "u" : "talon39",
-            "n" : "talon35"
+            "u" : "talon39@talon",
+            "n" : "talon35@talon"
          },
          "flags" : [
             "NoMobiles"
@@ -1042,8 +1042,8 @@
       },
       "talon19@talon" : {
          "exits" : {
-            "w" : "talon20",
-            "e" : "talon18"
+            "w" : "talon20@talon",
+            "e" : "talon18@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -1054,7 +1054,7 @@
       },
       "talon21@talon" : {
          "exits" : {
-            "n" : "talon17"
+            "n" : "talon17@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -1065,8 +1065,8 @@
       },
       "talon68@talon" : {
          "exits" : {
-            "w" : "talon29",
-            "e" : "talon30"
+            "w" : "talon29@talon",
+            "e" : "talon30@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -1077,7 +1077,7 @@
       },
       "talon46@talon" : {
          "exits" : {
-            "w" : "^door5"
+            "w" : "^door5@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -1088,8 +1088,8 @@
       },
       "talon30@talon" : {
          "exits" : {
-            "w" : "talon68",
-            "e" : "talon31"
+            "w" : "talon68@talon",
+            "e" : "talon31@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -1100,7 +1100,7 @@
       },
       "talon39@talon" : {
          "exits" : {
-            "d" : "talon38"
+            "d" : "talon38@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -1111,9 +1111,9 @@
       },
       "talon20@talon" : {
          "exits" : {
-            "w" : "talon65",
-            "e" : "talon19",
-            "d" : "talon22"
+            "w" : "talon65@talon",
+            "e" : "talon19@talon",
+            "d" : "talon22@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -1124,8 +1124,8 @@
       },
       "talon23@talon" : {
          "exits" : {
-            "e" : "talon22",
-            "n" : "talon24"
+            "e" : "talon22@talon",
+            "n" : "talon24@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -1136,7 +1136,7 @@
       },
       "talon25@talon" : {
          "exits" : {
-            "n" : "^door2"
+            "n" : "^door2@talon"
          },
          "flags" : [],
          "zone" : "talon",
@@ -1147,8 +1147,8 @@
       },
       "talon34@talon" : {
          "exits" : {
-            "w" : "talon33",
-            "e" : "talon35"
+            "w" : "talon33@talon",
+            "e" : "talon35@talon"
          },
          "flags" : [
             "NoMobiles"
@@ -1161,8 +1161,8 @@
       },
       "talon60@talon" : {
          "exits" : {
-            "w" : "talon59",
-            "d" : "talon63"
+            "w" : "talon59@talon",
+            "d" : "talon63@talon"
          },
          "flags" : [
             "Dark"
@@ -1175,8 +1175,8 @@
       },
       "talon4@talon" : {
          "exits" : {
-            "w" : "talon2",
-            "d" : "^door"
+            "w" : "talon2@talon",
+            "d" : "^door@talon"
          },
          "flags" : [
             "Dark"
@@ -1191,7 +1191,7 @@
    "mob" : {
       "rynor@talon" : {
          "damage" : "10",
-         "location" : "talon43",
+         "location" : "talon43@talon",
          "speed" : "5",
          "aggression" : "50",
          "armor" : "0",
@@ -1201,7 +1201,7 @@
       },
       "asengar@talon" : {
          "damage" : "10",
-         "location" : "talon10",
+         "location" : "talon10@talon",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "0",
@@ -1211,7 +1211,7 @@
       },
       "fog@talon" : {
          "damage" : "20",
-         "location" : "talon29",
+         "location" : "talon29@talon",
          "armor" : "0",
          "name" : "fog",
          "description" : "All around, the fog enshrouds... as if it were choking the very life out of you.",
@@ -1228,7 +1228,7 @@
       },
       "talgur@talon" : {
          "damage" : "10",
-         "location" : "talon4",
+         "location" : "talon4@talon",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -1243,7 +1243,7 @@
             "Frost"
          ],
          "damage" : "15",
-         "location" : "talon46",
+         "location" : "talon46@talon",
          "armor" : "0",
          "name" : "morrum",
          "description" : "Morrum, the evil dragonmaster, grins wickedly as he steps towards you.",
@@ -1256,7 +1256,7 @@
       },
       "lirad@talon" : {
          "damage" : "10",
-         "location" : "talon10",
+         "location" : "talon10@talon",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "0",
@@ -1266,7 +1266,7 @@
       },
       "dyral@talon" : {
          "damage" : "10",
-         "location" : "talon43",
+         "location" : "talon43@talon",
          "speed" : "5",
          "aggression" : "50",
          "armor" : "0",
@@ -1276,7 +1276,7 @@
       },
       "daelan@talon" : {
          "damage" : "10",
-         "location" : "talon41",
+         "location" : "talon41@talon",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "0",
@@ -1286,7 +1286,7 @@
       },
       "gatemaster@talon" : {
          "damage" : "15",
-         "location" : "talon33",
+         "location" : "talon33@talon",
          "armor" : "0",
          "name" : "gatemaster",
          "description" : "A gatemaster guards the entrance to the stronghold.",
@@ -1306,7 +1306,7 @@
             "NegBHands"
          ],
          "damage" : "15",
-         "location" : "talon18",
+         "location" : "talon18@talon",
          "armor" : "0",
          "name" : "cyrlan",
          "examine" : "\n&+Y    )     (\n&+Y    )     (\n&+Y   /(_   _)\\ \n&+w)/'\\_\\-=-/_/`\\( \n&+w/o &+R(@)&+w/.\\&+R(@)&+w o\\ \n&+w\\/ \"__ \" __\" \\/ \n&+w   \\|&+Y\\VVV/&+w|/ \n&+w    \\\\&+YAAA&+w// \n&+w     \\~~~/ \n&+w     ))|(( \n",
@@ -1320,7 +1320,7 @@
       },
       "sarac@talon" : {
          "damage" : "20",
-         "location" : "talon1",
+         "location" : "talon1@talon",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -1340,7 +1340,7 @@
             "NegBhands"
          ],
          "damage" : "15",
-         "location" : "talon21",
+         "location" : "talon21@talon",
          "speed" : "0",
          "aggression" : "20",
          "armor" : "0",
@@ -1354,7 +1354,7 @@
             "Shock"
          ],
          "damage" : "10",
-         "location" : "talon24",
+         "location" : "talon24@talon",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -1364,7 +1364,7 @@
       },
       "alnor@talon" : {
          "damage" : "25",
-         "location" : "talon36",
+         "location" : "talon36@talon",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "20",
@@ -1383,7 +1383,7 @@
             "NegBHands"
          ],
          "damage" : "15",
-         "location" : "talon19",
+         "location" : "talon19@talon",
          "armor" : "0",
          "name" : "makir",
          "examine" : "\n&+Y  \\    \\\\  )\\ \n&+Y    )   __\\\\ ||\n&+Y   /      //_/        |\n&+Y_/     __||_|(__      |\n&+Y  \\       \\\\_)  ~-\\   |      / \n&+Y   )       /'  /~~~  ___   / \n&+Y  /__     /   \\'    /   \\ \n&+Y /   `\\  |  \\  |-- |     | --- \n&+Y       |/\\   \\  \\___\\,_,/ \n&+Y       |   \\   \\-------/'  \\ \n&+Y             \\   \\    |      \\ \n&+Y           )  )  |    |\n&+Y            \\/  /     |\n&+Y            / /\\ \n&+Y           | (_)|\n&+Y            \\___/ \n",
@@ -1397,7 +1397,7 @@
       },
       "grum@talon" : {
          "damage" : "10",
-         "location" : "talon10",
+         "location" : "talon10@talon",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "0",
@@ -1407,7 +1407,7 @@
       },
       "sentul@talon" : {
          "damage" : "10",
-         "location" : "talon10",
+         "location" : "talon10@talon",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "0",
@@ -1425,7 +1425,7 @@
             "NegShock"
          ],
          "damage" : "50",
-         "location" : "talon50",
+         "location" : "talon50@talon",
          "armor" : "20",
          "name" : "talon",
          "examine" : "\n&+w  .:'                                  &+w`:.\n&+w ::'                                    &+w`::\n&+w:: :.                                  &+w.: ::\n&+w `:. `:.             &+L.             &+w.:'  .:'\n&+w  `::. `::           &+L!           &+w::' .::'\n&+w      `::.`::.    &+L.' ! `.    &+w.::'.::'\n&+w        `:.  `:&+L:::'':!:``:::&+w:'   ::'\n&+L        :'*:::.  .:' ! `:.  .:::*`:\n&+L       :: &+rHHH&+L::.   ` ! '   .::&+rHHH&+L ::\n&+L      ::: &+r`H TH&+L::.  `!'  .::&+rHT H'&+L :::\n&+L      ::..  &+r`THHH&+L:`:   :':&+rHHHT'&+L  ..::\n&+L      `::      &+r`T:&+L `. .' &+r:T'&+L      ::'\n&+L        `:. .   :         :   . .:'\n&+L          `::'               `::'\n&+L            :'  .`.  .  .'.  `:\n&+L            :' ::.       .:: `:\n&+L            :' `:::     :::' `:\n&+L             `.  ``     ''  .'\n&+L              :`...........':\n&+L              ` :`.     .': '\n&+L               `:  `~~~'  :'\nYou notice well developed horns on the dragon.\n",
@@ -1439,7 +1439,7 @@
       },
       "reptile@talon" : {
          "damage" : "15",
-         "location" : "talon13",
+         "location" : "talon13@talon",
          "armor" : "0",
          "name" : "reptile",
          "examine" : "\n&+y::          .:::.            &+R,  ,&+y        .:.     .:::.       .:\n&+y:::.    ..::::::::.       &+R, &+g(,,(,&+R  ,&+y   .::::. ..:::::::    .:::\n&+y::::. .::::::::::::.    &+G(,'     `(  &+y.::.:::.:::::::::::.:.::::\n&+y::::..:::::::::::::::.  &+G(,'  ,--.  `(&+y  .:::.::::::.:::.::::::::\n&+y::::::::::::::::::::::. &+G{c' )&+y.::.&+G\\  ;(&+y.::::.::::::::.::::::::::\n&+B:~~~~~~~~~~~~~~~~~~~~~~ &+g{/7/ &+B~~~~&+g/  ,(&+B~~~~~~~~~~~~~~~~~~~~~~~~~\n&+B      ~         ~         ~     &+g/  ,(   ,(-/_,    ,(-/_, &+B..&+g /~>\n&+B ~      ~~   ~~~~      ~~    ~ &+g/  ,( &+b..&+g/  _  ( &+b.&+g /  _  (   / /\n&+b   ~\"~   ~~~~~    ~~~~    ~~~  ~~~~    ~~~ ~~~   ~~~ ~~~   ~~\n&+b  `:::::::'  `::::::'   `::::..`:::    `::.::'   `::.::'   `::\n&+y~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n",
@@ -1455,7 +1455,7 @@
       },
       "almerus@talon" : {
          "damage" : "10",
-         "location" : "talon39",
+         "location" : "talon39@talon",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "0",

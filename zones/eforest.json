@@ -1,7 +1,7 @@
 {
    "obj" : {
       "sceptre@eforest" : {
-         "location" : "IN_CONTAINER:chest",
+         "location" : "IN_CONTAINER:chest@eforest",
          "altname" : "gold",
          "name" : "sceptre",
          "bvalue" : "250",
@@ -9,7 +9,7 @@
          "size" : "1"
       },
       "coat@eforest" : {
-         "location" : "IN_ROOM:Coat",
+         "location" : "IN_ROOM:coat@eforest",
          "oflags" : [
             "Wearable",
             "GetFlips"
@@ -28,7 +28,7 @@
       },
       "wdoor@eforest" : {
          "desc[1]" : "To the West is a closed door.",
-         "location" : "IN_ROOM:Stairs",
+         "location" : "IN_ROOM:stairs@eforest",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -43,7 +43,7 @@
          "desc[0]" : "To the West is an open door."
       },
       "purse@eforest" : {
-         "location" : "IN_ROOM:Temple_Guard",
+         "location" : "IN_ROOM:temple_guard@eforest",
          "oflags" : [
             "Container",
             "Destroyed"
@@ -56,7 +56,7 @@
       },
       "lich_door@eforest" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Lich",
+         "location" : "IN_ROOM:lich@eforest",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -71,7 +71,7 @@
          "desc[0]" : "The door is open."
       },
       "bracelet@eforest" : {
-         "location" : "IN_ROOM:Asmodeus",
+         "location" : "IN_ROOM:asmodeus@eforest",
          "oflags" : [
             "Wearable"
          ],
@@ -85,7 +85,7 @@
          "desc[0]" : "A platinum bracelet has been discarded here."
       },
       "captain_key@eforest" : {
-         "location" : "IN_ROOM:Quarters",
+         "location" : "IN_ROOM:quarters@eforest",
          "oflags" : [
             "GetFlips",
             "Key"
@@ -96,7 +96,7 @@
          "size" : "1"
       },
       "coins@eforest" : {
-         "location" : "IN_ROOM:Asmodeus",
+         "location" : "IN_ROOM:asmodeus@eforest",
          "altname" : "gold",
          "name" : "coins",
          "bvalue" : "200",
@@ -104,7 +104,7 @@
          "size" : "10"
       },
       "chair@eforest" : {
-         "location" : "IN_ROOM:Asmodeus",
+         "location" : "IN_ROOM:asmodeus@eforest",
          "oflags" : [
             "NoGet"
          ],
@@ -112,7 +112,7 @@
          "name" : "chair"
       },
       "ring@eforest" : {
-         "location" : "IN_ROOM:Asmodeus",
+         "location" : "IN_ROOM:asmodeus@eforest",
          "oflags" : [
             "Wearable",
             "Destroyed"
@@ -128,7 +128,7 @@
          "desc[0]" : "A diamond ring has been set here."
       },
       "note@eforest" : {
-         "location" : "IN_ROOM:Art",
+         "location" : "IN_ROOM:art@eforest",
          "oflags" : [
             "Destroyed"
          ],
@@ -139,7 +139,7 @@
          "size" : "1"
       },
       "table@eforest" : {
-         "location" : "IN_ROOM:Guard",
+         "location" : "IN_ROOM:guard@eforest",
          "oflags" : [
             "NoGet"
          ],
@@ -147,14 +147,14 @@
          "name" : "table"
       },
       "painting@eforest" : {
-         "location" : "IN_ROOM:Art",
+         "location" : "IN_ROOM:art@eforest",
          "oflags" : [
             "NoGet"
          ],
          "name" : "painting"
       },
       "robe@eforest" : {
-         "location" : "IN_CONTAINER:chest",
+         "location" : "IN_CONTAINER:chest@eforest",
          "oflags" : [
             "Wearable"
          ],
@@ -172,7 +172,7 @@
          "desc[0]" : "A regal robe lies neatly folded on the ground."
       },
       "desk_lich@eforest" : {
-         "location" : "IN_ROOM:Office",
+         "location" : "IN_ROOM:office@eforest",
          "oflags" : [
             "NoGet"
          ],
@@ -182,7 +182,7 @@
       },
       "mushroom@eforest" : {
          "desc[1]" : "One large mushroom looks quite edible.",
-         "location" : "IN_ROOM:Fungus",
+         "location" : "IN_ROOM:fungus@eforest",
          "oflags" : [
             "GetFlips"
          ],
@@ -196,7 +196,7 @@
          "desc[0]" : "An edible looking mushroom has been left here."
       },
       "thorns@eforest" : {
-         "location" : "IN_ROOM:Thorny",
+         "location" : "IN_ROOM:thorny@eforest",
          "oflags" : [
             "NoGet"
          ],
@@ -210,7 +210,7 @@
       },
       "edoor@eforest" : {
          "desc[1]" : "To the East is a closed door.",
-         "location" : "IN_ROOM:Guard",
+         "location" : "IN_ROOM:guard@eforest",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -226,7 +226,7 @@
       },
       "bowl@eforest" : {
          "desc[1]" : "A golden place sits on the dark altar.",
-         "location" : "IN_ROOM:Priest",
+         "location" : "IN_ROOM:priest@eforest",
          "oflags" : [
             "GetFlips"
          ],
@@ -238,7 +238,7 @@
          "size" : "6"
       },
       "sandwich@eforest" : {
-         "location" : "IN_ROOM:Storage",
+         "location" : "IN_ROOM:storage@eforest",
          "oflags" : [
             "Food"
          ],
@@ -249,7 +249,7 @@
          "size" : "2"
       },
       "lake@eforest" : {
-         "location" : "IN_ROOM:Lake",
+         "location" : "IN_ROOM:lake@eforest",
          "oflags" : [
             "NoGet"
          ],
@@ -263,7 +263,7 @@
       },
       "sponge@eforest" : {
          "desc[1]" : "A large sponge is lying here, bloated with water.",
-         "location" : "IN_CONTAINER:fountain",
+         "location" : "IN_CONTAINER:fountain@eforest",
          "name" : "sponge",
          "examine" : "\nThis sponge looks like it could hold quite a bit of water, \nmaybe even a whole lake full of water...\n",
          "state" : "0",
@@ -273,7 +273,7 @@
          "desc[0]" : "A large sponge is lying here."
       },
       "trash@eforest" : {
-         "location" : "IN_ROOM:Barracks2",
+         "location" : "IN_ROOM:barracks2@eforest",
          "oflags" : [
             "NoGet"
          ],
@@ -281,7 +281,7 @@
       },
       "hole@eforest" : {
          "desc[1]" : "The stone door is tightly shut.",
-         "location" : "IN_ROOM:Hot",
+         "location" : "IN_ROOM:hot@eforest",
          "oflags" : [
             "NoGet"
          ],
@@ -294,14 +294,14 @@
          "desc[0]" : "The stone door rests open."
       },
       "papers@eforest" : {
-         "location" : "IN_ROOM:Office",
+         "location" : "IN_ROOM:office@eforest",
          "oflags" : [
             "NoGet"
          ],
          "name" : "papers"
       },
       "sign@eforest" : {
-         "location" : "IN_ROOM:Stone",
+         "location" : "IN_ROOM:stone@eforest",
          "oflags" : [
             "NoGet"
          ],
@@ -310,7 +310,7 @@
          "desc[0]" : "A sign sits above the door here."
       },
       "purse_coin@eforest" : {
-         "location" : "IN_CONTAINER:purse",
+         "location" : "IN_CONTAINER:purse@eforest",
          "altname" : "golden",
          "pname" : "coin",
          "name" : "Purse_Coin",
@@ -321,7 +321,7 @@
       },
       "bust@eforest" : {
          "desc[1]" : "A bust of Asmodeus, the demon lord, sits on a table here.",
-         "location" : "IN_ROOM:Museum",
+         "location" : "IN_ROOM:museum@eforest",
          "oflags" : [
             "GetFlips"
          ],
@@ -334,7 +334,7 @@
          "desc[0]" : "A bust of Asmodeus has been left here."
       },
       "coin@eforest" : {
-         "location" : "IN_ROOM:Coat",
+         "location" : "IN_ROOM:coat@eforest",
          "oflags" : [
             "Destroyed"
          ],
@@ -343,7 +343,7 @@
          "desc[0]" : "A beautiful elven coin has been carefully placed here."
       },
       "flask@eforest" : {
-         "location" : "IN_ROOM:Storage",
+         "location" : "IN_ROOM:storage@eforest",
          "oflags" : [
             "Food"
          ],
@@ -355,7 +355,7 @@
       },
       "journal@eforest" : {
          "desc[1]" : "On the table lies the journal of Dinthiar, the Elven King.",
-         "location" : "IN_ROOM:Cottage",
+         "location" : "IN_ROOM:cottage@eforest",
          "oflags" : [
             "GetFlips"
          ],
@@ -369,7 +369,7 @@
          "desc[0]" : "The journal of Dinthiar lies here."
       },
       "emerald@eforest" : {
-         "location" : "IN_ROOM:Office",
+         "location" : "IN_ROOM:office@eforest",
          "oflags" : [
             "Destroyed"
          ],
@@ -381,7 +381,7 @@
          "size" : "4"
       },
       "desk@eforest" : {
-         "location" : "IN_ROOM:Captain",
+         "location" : "IN_ROOM:captain@eforest",
          "oflags" : [
             "NoGet"
          ],
@@ -389,7 +389,7 @@
          "name" : "desk"
       },
       "rack@eforest" : {
-         "location" : "IN_ROOM:Interrogation",
+         "location" : "IN_ROOM:interrogation@eforest",
          "oflags" : [
             "NoGet"
          ],
@@ -398,7 +398,7 @@
       },
       "lake2@eforest" : {
          "desc[1]" : "\nAbove your head, you see water, apparently suspended in thin air.  You\nhave no idea why it does not rush down the tunnel towards you.  You must\nbe under a lake.  How strange!",
-         "location" : "IN_ROOM:Ladder",
+         "location" : "IN_ROOM:ladder@eforest",
          "oflags" : [
             "NoGet"
          ],
@@ -410,7 +410,7 @@
          "state" : "1"
       },
       "button@eforest" : {
-         "location" : "IN_ROOM:Captain",
+         "location" : "IN_ROOM:captain@eforest",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -420,7 +420,7 @@
          "state" : "0"
       },
       "crown_lich@eforest" : {
-         "location" : "IN_CONTAINER:chest",
+         "location" : "IN_CONTAINER:chest@eforest",
          "oflags" : [
             "Wearable"
          ],
@@ -437,7 +437,7 @@
       },
       "chest@eforest" : {
          "desc[1]" : "A large chest is on the floor.",
-         "location" : "IN_ROOM:Room",
+         "location" : "IN_ROOM:room@eforest",
          "oflags" : [
             "NoGet",
             "Container",
@@ -453,7 +453,7 @@
          "desc[0]" : "A large chest is on the floor. It is open."
       },
       "statue@eforest" : {
-         "location" : "IN_ROOM:Priest",
+         "location" : "IN_ROOM:priest@eforest",
          "oflags" : [
             "Destroyed"
          ],
@@ -465,7 +465,7 @@
       },
       "torch@eforest" : {
          "desc[1]" : "A burnt out torch lies here.",
-         "location" : "IN_ROOM:Cave",
+         "location" : "IN_ROOM:cave@eforest",
          "oflags" : [
             "Lightable",
             "Extinguish",
@@ -478,7 +478,7 @@
          "size" : "2"
       },
       "gauntlets@eforest" : {
-         "location" : "IN_ROOM:Guard",
+         "location" : "IN_ROOM:guard@eforest",
          "armor" : "48",
          "oflags" : [
             "Wearable",
@@ -495,7 +495,7 @@
       },
       "elvensword@eforest" : {
          "damage" : "30",
-         "location" : "IN_ROOM:Cottage",
+         "location" : "IN_ROOM:cottage@eforest",
          "oflags" : [
             "Weapon",
             "NoGet"
@@ -505,7 +505,7 @@
       },
       "prison_door@eforest" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Prison",
+         "location" : "IN_ROOM:prison@eforest",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -520,7 +520,7 @@
          "desc[0]" : "The door is open."
       },
       "crown@eforest" : {
-         "location" : "IN_ROOM:Inside",
+         "location" : "IN_ROOM:inside@eforest",
          "oflags" : [
             "Wearable",
             "Destroyed"
@@ -536,7 +536,7 @@
          "desc[0]" : "You see a golden crown gleaming here!"
       },
       "bracelet2@eforest" : {
-         "location" : "IN_ROOM:Storage",
+         "location" : "IN_ROOM:storage@eforest",
          "oflags" : [
             "Wearable"
          ],
@@ -551,14 +551,14 @@
          ]
       },
       "mattress@eforest" : {
-         "location" : "IN_ROOM:Temple_Guard",
+         "location" : "IN_ROOM:temple_guard@eforest",
          "oflags" : [
             "NoGet"
          ],
          "name" : "mattress"
       },
       "volume@eforest" : {
-         "location" : "IN_ROOM:Volumeroom",
+         "location" : "IN_ROOM:volumeroom@eforest",
          "oflags" : [
             "Noget"
          ],
@@ -569,7 +569,7 @@
          "size" : "3"
       },
       "black_journal@eforest" : {
-         "location" : "IN_ROOM:Priest",
+         "location" : "IN_ROOM:priest@eforest",
          "altname" : "black",
          "pname" : "journal",
          "name" : "Black_Journal",
@@ -579,7 +579,7 @@
          "size" : "10"
       },
       "throne_wood@eforest" : {
-         "location" : "IN_ROOM:Inside",
+         "location" : "IN_ROOM:inside@eforest",
          "oflags" : [
             "NoGet"
          ],
@@ -589,7 +589,7 @@
       },
       "door@eforest" : {
          "desc[1]" : "You see a closed door here.",
-         "location" : "IN_ROOM:Inside",
+         "location" : "IN_ROOM:inside@eforest",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -601,7 +601,7 @@
          "state" : "1"
       },
       "shield@eforest" : {
-         "location" : "WORN_BY:Commander",
+         "location" : "WORN_BY:commander@eforest",
          "armor" : "45",
          "oflags" : [
             "Wearable",
@@ -616,7 +616,7 @@
       },
       "thornseast@eforest" : {
          "desc[1]" : "The passage to the West is blocked by thorns.",
-         "location" : "IN_ROOM:Entrance",
+         "location" : "IN_ROOM:entrance@eforest",
          "oflags" : [
             "NoGet"
          ],
@@ -629,7 +629,7 @@
       },
       "stonedoor@eforest" : {
          "desc[1]" : "There is a closed door to the East.",
-         "location" : "IN_ROOM:Boiling",
+         "location" : "IN_ROOM:boiling@eforest",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -642,7 +642,7 @@
          "desc[0]" : "There is an open door to the East."
       },
       "tree@eforest" : {
-         "location" : "IN_ROOM:Shattered",
+         "location" : "IN_ROOM:shattered@eforest",
          "oflags" : [
             "NoGet"
          ],
@@ -653,7 +653,7 @@
          "state" : "1"
       },
       "trash_coin@eforest" : {
-         "location" : "IN_ROOM:Barracks2",
+         "location" : "IN_ROOM:barracks2@eforest",
          "oflags" : [
             "Destroyed"
          ],
@@ -666,7 +666,7 @@
       },
       "throne@eforest" : {
          "desc[1]" : "A throne blocks your way up!",
-         "location" : "IN_ROOM:Bottom",
+         "location" : "IN_ROOM:bottom@eforest",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -682,7 +682,7 @@
          "desc[0]" : "\nJust to the side of the passage heading up is a throne."
       },
       "scarf@eforest" : {
-         "location" : "IN_ROOM:Asmodeus",
+         "location" : "IN_ROOM:asmodeus@eforest",
          "oflags" : [
             "Wearable"
          ],
@@ -697,7 +697,7 @@
          "desc[0]" : "A mink scarf has been carefully placed in a pile here."
       },
       "key@eforest" : {
-         "location" : "CARRIED_BY:Jailor",
+         "location" : "CARRIED_BY:jailor@eforest",
          "oflags" : [
             "Key"
          ],
@@ -707,14 +707,14 @@
          "size" : "1"
       },
       "altar@eforest" : {
-         "location" : "IN_ROOM:Priest",
+         "location" : "IN_ROOM:priest@eforest",
          "oflags" : [
             "NoGet"
          ],
          "name" : "altar"
       },
       "fountain@eforest" : {
-         "location" : "IN_ROOM:Home",
+         "location" : "IN_ROOM:home@eforest",
          "oflags" : [
             "NoGet",
             "Container"
@@ -725,7 +725,7 @@
          "desc[0]" : "A curiously dried-up fountain sits in the middle of this glen."
       },
       "treaty@eforest" : {
-         "location" : "IN_ROOM:Office",
+         "location" : "IN_ROOM:office@eforest",
          "oflags" : [
             "Destroyed"
          ],
@@ -737,7 +737,7 @@
       },
       "sulphur@eforest" : {
          "desc[1]" : "A pile of sulphur lies amidst the ashes of a warped tree.",
-         "location" : "IN_ROOM:Glen",
+         "location" : "IN_ROOM:glen@eforest",
          "oflags" : [
             "FireballSpell",
             "GetFlips"
@@ -751,7 +751,7 @@
          "desc[0]" : "A pile of sulphur lies here."
       },
       "hope@eforest" : {
-         "location" : "IN_ROOM:Treasury",
+         "location" : "IN_ROOM:treasury@eforest",
          "oflags" : [
             "Wearable"
          ],
@@ -767,7 +767,7 @@
       },
       "storage_door@eforest" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Storage",
+         "location" : "IN_ROOM:storage@eforest",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -782,7 +782,7 @@
          "desc[0]" : "The door is open."
       },
       "gargoyles@eforest" : {
-         "location" : "IN_ROOM:Cathedral",
+         "location" : "IN_ROOM:cathedral@eforest",
          "oflags" : [
             "NoGet"
          ],
@@ -790,7 +790,7 @@
          "examine" : "\nYou notice that one gargoyle seems to be missing.\n"
       },
       "scarab@eforest" : {
-         "location" : "IN_ROOM:Interrogation",
+         "location" : "IN_ROOM:interrogation@eforest",
          "oflags" : [
             "Wearable",
             "Destroyed"
@@ -805,7 +805,7 @@
          "desc[0]" : "A golden scarab lies on the ground at your feet."
       },
       "throne_cathedral@eforest" : {
-         "location" : "IN_ROOM:EastEnd",
+         "location" : "IN_ROOM:eastend@eforest",
          "oflags" : [
             "NoGet"
          ],
@@ -820,7 +820,7 @@
       },
       "captain_door@eforest" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:Captain",
+         "location" : "IN_ROOM:captain@eforest",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -836,7 +836,7 @@
       },
       "contracts@eforest" : {
          "desc[1]" : "A pile of contracts lies on the desk.",
-         "location" : "IN_ROOM:Den",
+         "location" : "IN_ROOM:den@eforest",
          "oflags" : [
             "GetFlips"
          ],
@@ -851,7 +851,7 @@
       },
       "toadstool@eforest" : {
          "desc[1]" : "One toadstool sitting here looks quite edible.",
-         "location" : "IN_ROOM:Glade",
+         "location" : "IN_ROOM:glade@eforest",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -865,7 +865,7 @@
          "desc[0]" : "A tasty-looking toadstool has been tossed here."
       },
       "fungoid_altar@eforest" : {
-         "location" : "IN_ROOM:Fungoid",
+         "location" : "IN_ROOM:fungoid@eforest",
          "oflags" : [
             "Destroyed"
          ],
@@ -878,7 +878,7 @@
    "loc" : {
       "treasury@eforest" : {
          "exits" : {
-            "n" : "Guard"
+            "n" : "guard@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -889,7 +889,7 @@
       },
       "coat@eforest" : {
          "exits" : {
-            "s" : "Entry"
+            "s" : "entry@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -900,9 +900,9 @@
       },
       "entry@eforest" : {
          "exits" : {
-            "e" : "Cave",
-            "n" : "Coat",
-            "d" : "Guard"
+            "e" : "cave@eforest",
+            "n" : "coat@eforest",
+            "d" : "guard@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -913,7 +913,7 @@
       },
       "temple@eforest" : {
          "exits" : {
-            "e" : "InTemple"
+            "e" : "intemple@eforest"
          },
          "flags" : [
             "Dark"
@@ -926,7 +926,7 @@
       },
       "art@eforest" : {
          "exits" : {
-            "n" : "Museum"
+            "n" : "museum@eforest"
          },
          "flags" : [
             "Hot"
@@ -939,9 +939,9 @@
       },
       "worn@eforest" : {
          "exits" : {
-            "w" : "Lich",
-            "n" : "Zombie",
-            "s" : "Narrow"
+            "w" : "lich@eforest",
+            "n" : "zombie@eforest",
+            "s" : "narrow@eforest"
          },
          "flags" : [
             "Dark"
@@ -954,9 +954,9 @@
       },
       "entrance@eforest" : {
          "exits" : {
-            "w" : "^ThornsEast",
-            "e" : "Cathedral",
-            "d" : "Cathedral"
+            "w" : "^thornseast@eforest",
+            "e" : "cathedral@eforest",
+            "d" : "cathedral@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -967,8 +967,8 @@
       },
       "fungus@eforest" : {
          "exits" : {
-            "n" : "Hot",
-            "s" : "Lake"
+            "n" : "hot@eforest",
+            "s" : "lake@eforest"
          },
          "flags" : [
             "Dark"
@@ -981,8 +981,8 @@
       },
       "tainted@eforest" : {
          "exits" : {
-            "e" : "Corrupted",
-            "n" : "Oaks"
+            "e" : "corrupted@eforest",
+            "n" : "oaks@eforest"
          },
          "flags" : [
             "OutDoors"
@@ -995,9 +995,9 @@
       },
       "corrupted@eforest" : {
          "exits" : {
-            "w" : "Tainted",
-            "e" : "Scenic",
-            "n" : "Shattered"
+            "w" : "tainted@eforest",
+            "e" : "scenic@eforest",
+            "n" : "shattered@eforest"
          },
          "flags" : [
             "OutDoors"
@@ -1010,8 +1010,8 @@
       },
       "lake@eforest" : {
          "exits" : {
-            "n" : "Fungus",
-            "d" : "^lake"
+            "n" : "fungus@eforest",
+            "d" : "^lake@eforest"
          },
          "flags" : [
             "Dark"
@@ -1024,7 +1024,7 @@
       },
       "hate@eforest" : {
          "exits" : {
-            "s" : "Museum"
+            "s" : "museum@eforest"
          },
          "flags" : [
             "Hot"
@@ -1037,8 +1037,8 @@
       },
       "bottom@eforest" : {
          "exits" : {
-            "u" : "^throne",
-            "s" : "Guarded"
+            "u" : "^throne@eforest",
+            "s" : "guarded@eforest"
          },
          "flags" : [
             "Dark"
@@ -1051,7 +1051,7 @@
       },
       "mosaic@eforest" : {
          "exits" : {
-            "w" : "Museum"
+            "w" : "museum@eforest"
          },
          "flags" : [
             "Hot"
@@ -1064,7 +1064,7 @@
       },
       "quarters@eforest" : {
          "exits" : {
-            "n" : "Barracks2"
+            "n" : "barracks2@eforest"
          },
          "flags" : [
             "Dark"
@@ -1077,9 +1077,9 @@
       },
       "narrow@eforest" : {
          "exits" : {
-            "w" : "Captain",
-            "n" : "Worn",
-            "s" : "Cathedral"
+            "w" : "captain@eforest",
+            "n" : "worn@eforest",
+            "s" : "cathedral@eforest"
          },
          "flags" : [
             "Dark"
@@ -1092,9 +1092,9 @@
       },
       "scenic@eforest" : {
          "exits" : {
-            "w" : "Corrupted",
-            "n" : "Thorny",
-            "s" : "Climb"
+            "w" : "corrupted@eforest",
+            "n" : "thorny@eforest",
+            "s" : "climb@eforest"
          },
          "flags" : [
             "OutDoors"
@@ -1107,7 +1107,7 @@
       },
       "bedroom@eforest" : {
          "exits" : {
-            "n" : "Den"
+            "n" : "den@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -1118,8 +1118,8 @@
       },
       "barracks2@eforest" : {
          "exits" : {
-            "n" : "Cavern",
-            "s" : "Quarters"
+            "n" : "cavern@eforest",
+            "s" : "quarters@eforest"
          },
          "flags" : [
             "Dark"
@@ -1132,7 +1132,7 @@
       },
       "cottage@eforest" : {
          "exits" : {
-            "w" : "Home"
+            "w" : "home@eforest"
          },
          "flags" : [
             "Party"
@@ -1145,7 +1145,7 @@
       },
       "inside@eforest" : {
          "exits" : {
-            "w" : "^door"
+            "w" : "^door@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -1156,7 +1156,7 @@
       },
       "room@eforest" : {
          "exits" : {
-            "n" : "Office"
+            "n" : "office@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -1167,7 +1167,7 @@
       },
       "fungoid@eforest" : {
          "exits" : {
-            "n" : "Glowing"
+            "n" : "glowing@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -1178,8 +1178,8 @@
       },
       "ladder@eforest" : {
          "exits" : {
-            "u" : "^lake2",
-            "d" : "Cavern"
+            "u" : "^lake2@eforest",
+            "d" : "cavern@eforest"
          },
          "flags" : [
             "Dark"
@@ -1192,9 +1192,9 @@
       },
       "thorny@eforest" : {
          "exits" : {
-            "e" : "^thorns",
-            "n" : "EForest",
-            "s" : "Scenic"
+            "e" : "^thorns@eforest",
+            "n" : "eforest@eforest",
+            "s" : "scenic@eforest"
          },
          "flags" : [
             "OutDoors"
@@ -1207,8 +1207,8 @@
       },
       "stairs@eforest" : {
          "exits" : {
-            "w" : "^Wdoor",
-            "d" : "Hot"
+            "w" : "^wdoor@eforest",
+            "d" : "hot@eforest"
          },
          "flags" : [
             "Hot"
@@ -1221,8 +1221,8 @@
       },
       "undead@eforest" : {
          "exits" : {
-            "e" : "Office",
-            "n" : "Guarded"
+            "e" : "office@eforest",
+            "n" : "guarded@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -1233,7 +1233,7 @@
       },
       "planning@eforest" : {
          "exits" : {
-            "s" : "EastEnd"
+            "s" : "eastend@eforest"
          },
          "flags" : [
             "Dark"
@@ -1246,8 +1246,8 @@
       },
       "stone@eforest" : {
          "exits" : {
-            "n" : "Throne",
-            "s" : "Boiling"
+            "n" : "throne@eforest",
+            "s" : "boiling@eforest"
          },
          "flags" : [
             "Hot"
@@ -1260,9 +1260,9 @@
       },
       "lich@eforest" : {
          "exits" : {
-            "w" : "Interrogation",
-            "e" : "Worn",
-            "n" : "^Lich_Door"
+            "w" : "interrogation@eforest",
+            "e" : "worn@eforest",
+            "n" : "^lich_door@eforest"
          },
          "flags" : [
             "Dark"
@@ -1275,9 +1275,9 @@
       },
       "den@eforest" : {
          "exits" : {
-            "e" : "Throne",
-            "n" : "Asmodeus",
-            "s" : "Bedroom"
+            "e" : "throne@eforest",
+            "n" : "asmodeus@eforest",
+            "s" : "bedroom@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -1288,9 +1288,9 @@
       },
       "intemple@eforest" : {
          "exits" : {
-            "w" : "Temple",
-            "n" : "Priest",
-            "s" : "Elf"
+            "w" : "temple@eforest",
+            "n" : "priest@eforest",
+            "s" : "elf@eforest"
          },
          "flags" : [
             "Dark"
@@ -1303,8 +1303,8 @@
       },
       "glowing@eforest" : {
          "exits" : {
-            "w" : "Cavern",
-            "s" : "Fungoid"
+            "w" : "cavern@eforest",
+            "s" : "fungoid@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -1315,7 +1315,7 @@
       },
       "zombie@eforest" : {
          "exits" : {
-            "s" : "Worn"
+            "s" : "worn@eforest"
          },
          "flags" : [
             "Death"
@@ -1328,8 +1328,8 @@
       },
       "office@eforest" : {
          "exits" : {
-            "w" : "Undead",
-            "s" : "Room"
+            "w" : "undead@eforest",
+            "s" : "room@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -1340,8 +1340,8 @@
       },
       "path@eforest" : {
          "exits" : {
-            "n" : "Home",
-            "s" : "Glade"
+            "n" : "home@eforest",
+            "s" : "glade@eforest"
          },
          "flags" : [
             "OutDoors"
@@ -1354,7 +1354,7 @@
       },
       "asmodeus@eforest" : {
          "exits" : {
-            "s" : "Den"
+            "s" : "den@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -1365,10 +1365,10 @@
       },
       "museum@eforest" : {
          "exits" : {
-            "w" : "Hot",
-            "e" : "Mosaic",
-            "n" : "Hate",
-            "s" : "Art"
+            "w" : "hot@eforest",
+            "e" : "mosaic@eforest",
+            "n" : "hate@eforest",
+            "s" : "art@eforest"
          },
          "flags" : [
             "Hot"
@@ -1381,11 +1381,11 @@
       },
       "cavern@eforest" : {
          "exits" : {
-            "w" : "Barracks",
-            "e" : "Glowing",
-            "u" : "Ladder",
-            "n" : "Elf",
-            "s" : "Barracks2"
+            "w" : "barracks@eforest",
+            "e" : "glowing@eforest",
+            "u" : "ladder@eforest",
+            "n" : "elf@eforest",
+            "s" : "barracks2@eforest"
          },
          "flags" : [
             "Dark"
@@ -1398,8 +1398,8 @@
       },
       "glen@eforest" : {
          "exits" : {
-            "e" : "Glade",
-            "s" : "Oaks"
+            "e" : "glade@eforest",
+            "s" : "oaks@eforest"
          },
          "flags" : [
             "OutDoors"
@@ -1412,8 +1412,8 @@
       },
       "climb@eforest" : {
          "exits" : {
-            "e" : "Crest",
-            "n" : "Scenic",
+            "e" : "crest@eforest",
+            "n" : "scenic@eforest",
             "s" : "hills14@caledonia"
          },
          "flags" : [
@@ -1427,7 +1427,7 @@
       },
       "volumeroom@eforest" : {
          "exits" : {
-            "s" : "Priest"
+            "s" : "priest@eforest"
          },
          "flags" : [
             "Dark"
@@ -1440,8 +1440,8 @@
       },
       "guarded@eforest" : {
          "exits" : {
-            "n" : "Bottom",
-            "s" : "Undead"
+            "n" : "bottom@eforest",
+            "s" : "undead@eforest"
          },
          "flags" : [
             "Dark"
@@ -1454,8 +1454,8 @@
       },
       "priest@eforest" : {
          "exits" : {
-            "n" : "Volumeroom",
-            "s" : "InTemple"
+            "n" : "volumeroom@eforest",
+            "s" : "intemple@eforest"
          },
          "flags" : [
             "Dark"
@@ -1468,8 +1468,8 @@
       },
       "home@eforest" : {
          "exits" : {
-            "e" : "Cottage",
-            "s" : "Path"
+            "e" : "cottage@eforest",
+            "s" : "path@eforest"
          },
          "flags" : [
             "OutDoors"
@@ -1482,7 +1482,7 @@
       },
       "interrogation@eforest" : {
          "exits" : {
-            "e" : "Lich"
+            "e" : "lich@eforest"
          },
          "flags" : [
             "Dark"
@@ -1495,9 +1495,9 @@
       },
       "guard@eforest" : {
          "exits" : {
-            "e" : "^Edoor",
-            "u" : "Entry",
-            "s" : "Treasury"
+            "e" : "^edoor@eforest",
+            "u" : "entry@eforest",
+            "s" : "treasury@eforest"
          },
          "flags" : [
             "Hot"
@@ -1510,10 +1510,10 @@
       },
       "hot@eforest" : {
          "exits" : {
-            "w" : "^hole",
-            "e" : "Museum",
-            "u" : "Stairs",
-            "s" : "Fungus"
+            "w" : "^hole@eforest",
+            "e" : "museum@eforest",
+            "u" : "stairs@eforest",
+            "s" : "fungus@eforest"
          },
          "flags" : [
             "Hot"
@@ -1526,8 +1526,8 @@
       },
       "freshly@eforest" : {
          "exits" : {
-            "w" : "Cave",
-            "e" : "Oaks"
+            "w" : "cave@eforest",
+            "e" : "oaks@eforest"
          },
          "flags" : [
             "OutDoors"
@@ -1540,8 +1540,8 @@
       },
       "passage@eforest" : {
          "exits" : {
-            "w" : "EForest",
-            "e" : "NWcorner@valley"
+            "w" : "eforest@eforest",
+            "e" : "nwcorner@valley"
          },
          "flags" : [
             "NoMobiles"
@@ -1554,9 +1554,9 @@
       },
       "cathedral@eforest" : {
          "exits" : {
-            "e" : "EastEnd",
-            "u" : "Entrance",
-            "n" : "Narrow"
+            "e" : "eastend@eforest",
+            "u" : "entrance@eforest",
+            "n" : "narrow@eforest"
          },
          "flags" : [
             "Dark"
@@ -1569,7 +1569,7 @@
       },
       "temple_guard@eforest" : {
          "exits" : {
-            "w" : "Elf"
+            "w" : "elf@eforest"
          },
          "flags" : [
             "Dark"
@@ -1582,8 +1582,8 @@
       },
       "boiling@eforest" : {
          "exits" : {
-            "e" : "^StoneDoor",
-            "n" : "Stone"
+            "e" : "^stonedoor@eforest",
+            "n" : "stone@eforest"
          },
          "flags" : [
             "Hot"
@@ -1596,8 +1596,8 @@
       },
       "throne@eforest" : {
          "exits" : {
-            "w" : "Den",
-            "s" : "Stone"
+            "w" : "den@eforest",
+            "s" : "stone@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -1608,7 +1608,7 @@
       },
       "prison@eforest" : {
          "exits" : {
-            "s" : "^Prison_Door"
+            "s" : "^prison_door@eforest"
          },
          "flags" : [
             "Dark"
@@ -1621,8 +1621,8 @@
       },
       "barracks@eforest" : {
          "exits" : {
-            "w" : "Commander",
-            "e" : "Cavern"
+            "w" : "commander@eforest",
+            "e" : "cavern@eforest"
          },
          "flags" : [
             "Dark"
@@ -1635,9 +1635,9 @@
       },
       "elf@eforest" : {
          "exits" : {
-            "e" : "Temple_Guard",
-            "n" : "InTemple",
-            "s" : "Cavern"
+            "e" : "temple_guard@eforest",
+            "n" : "intemple@eforest",
+            "s" : "cavern@eforest"
          },
          "flags" : [
             "Dark"
@@ -1650,10 +1650,10 @@
       },
       "shattered@eforest" : {
          "exits" : {
-            "w" : "Oaks",
-            "e" : "^tree",
-            "n" : "Glade",
-            "s" : "Corrupted"
+            "w" : "oaks@eforest",
+            "e" : "^tree@eforest",
+            "n" : "glade@eforest",
+            "s" : "corrupted@eforest"
          },
          "flags" : [
             "OutDoors"
@@ -1666,8 +1666,8 @@
       },
       "cave@eforest" : {
          "exits" : {
-            "w" : "Entry",
-            "e" : "Freshly"
+            "w" : "entry@eforest",
+            "e" : "freshly@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -1678,8 +1678,8 @@
       },
       "crest@eforest" : {
          "exits" : {
-            "w" : "Climb",
-            "e" : "RClearing@valley"
+            "w" : "climb@eforest",
+            "e" : "rclearing@valley"
          },
          "flags" : [
             "OutDoors",
@@ -1693,7 +1693,7 @@
       },
       "storage@eforest" : {
          "exits" : {
-            "e" : "^Storage_Door"
+            "e" : "^storage_door@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -1704,8 +1704,8 @@
       },
       "captain@eforest" : {
          "exits" : {
-            "w" : "^Captain_Door",
-            "e" : "Narrow"
+            "w" : "^captain_door@eforest",
+            "e" : "narrow@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -1716,10 +1716,10 @@
       },
       "oaks@eforest" : {
          "exits" : {
-            "w" : "Freshly",
-            "e" : "Shattered",
-            "n" : "Glen",
-            "s" : "Tainted"
+            "w" : "freshly@eforest",
+            "e" : "shattered@eforest",
+            "n" : "glen@eforest",
+            "s" : "tainted@eforest"
          },
          "flags" : [
             "OutDoors"
@@ -1732,10 +1732,10 @@
       },
       "eforest@eforest" : {
          "exits" : {
-            "w" : "Glade",
-            "e" : "Passage",
+            "w" : "glade@eforest",
+            "e" : "passage@eforest",
             "n" : "sherwood1@sherwood",
-            "s" : "Thorny"
+            "s" : "thorny@eforest"
          },
          "flags" : [
             "OutDoors"
@@ -1748,10 +1748,10 @@
       },
       "glade@eforest" : {
          "exits" : {
-            "w" : "Glen",
-            "e" : "EForest",
-            "n" : "Path",
-            "s" : "Shattered"
+            "w" : "glen@eforest",
+            "e" : "eforest@eforest",
+            "n" : "path@eforest",
+            "s" : "shattered@eforest"
          },
          "flags" : [
             "OutDoors"
@@ -1764,9 +1764,9 @@
       },
       "eastend@eforest" : {
          "exits" : {
-            "w" : "Cathedral",
-            "n" : "Planning",
-            "d" : "^Throne_Cathedral"
+            "w" : "cathedral@eforest",
+            "n" : "planning@eforest",
+            "d" : "^throne_cathedral@eforest"
          },
          "flags" : [],
          "zone" : "eforest",
@@ -1777,7 +1777,7 @@
       },
       "commander@eforest" : {
          "exits" : {
-            "e" : "Barracks"
+            "e" : "barracks@eforest"
          },
          "flags" : [
             "Dark"
@@ -1792,7 +1792,7 @@
    "mob" : {
       "gorden@eforest" : {
          "damage" : "10",
-         "location" : "Elf",
+         "location" : "elf@eforest",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "81",
@@ -1802,7 +1802,7 @@
       },
       "keldar@eforest" : {
          "damage" : "10",
-         "location" : "Elf",
+         "location" : "elf@eforest",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "81",
@@ -1812,7 +1812,7 @@
       },
       "cerberus@eforest" : {
          "damage" : "13",
-         "location" : "Cave",
+         "location" : "cave@eforest",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "0",
@@ -1825,7 +1825,7 @@
       },
       "bear@eforest" : {
          "damage" : "10",
-         "location" : "Glen",
+         "location" : "glen@eforest",
          "aggression" : "100",
          "armor" : "0",
          "pname" : "The Bear",
@@ -1835,7 +1835,7 @@
       },
       "jailor@eforest" : {
          "damage" : "10",
-         "location" : "Lich",
+         "location" : "lich@eforest",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "100",
@@ -1846,7 +1846,7 @@
       },
       "lich@eforest" : {
          "damage" : "15",
-         "location" : "Room",
+         "location" : "room@eforest",
          "armor" : "0",
          "aggression" : "66",
          "pname" : "The Lich",
@@ -1856,7 +1856,7 @@
       },
       "succubus@eforest" : {
          "damage" : "8",
-         "location" : "Bedroom",
+         "location" : "bedroom@eforest",
          "armor" : "0",
          "name" : "Succubus",
          "description" : "The Succubus looks at you greedily.",
@@ -1871,7 +1871,7 @@
       },
       "asmodeus@eforest" : {
          "damage" : "15",
-         "location" : "Den",
+         "location" : "den@eforest",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "88",
@@ -1881,7 +1881,7 @@
       },
       "guido@eforest" : {
          "damage" : "10",
-         "location" : "Guarded",
+         "location" : "guarded@eforest",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "50",
@@ -1891,7 +1891,7 @@
       },
       "loonitherin@eforest" : {
          "damage" : "10",
-         "location" : "Inside",
+         "location" : "inside@eforest",
          "aggression" : "36",
          "armor" : "0",
          "name" : "Loonitherin",
@@ -1900,7 +1900,7 @@
       },
       "rotty@eforest" : {
          "damage" : "8",
-         "location" : "Tainted",
+         "location" : "tainted@eforest",
          "aggression" : "35",
          "armor" : "0",
          "name" : "rotty",
@@ -1909,7 +1909,7 @@
       },
       "gargoyle@eforest" : {
          "damage" : "13",
-         "location" : "Bottom",
+         "location" : "bottom@eforest",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "100",
@@ -1920,7 +1920,7 @@
       },
       "nunzio@eforest" : {
          "damage" : "10",
-         "location" : "Guarded",
+         "location" : "guarded@eforest",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "50",
@@ -1930,7 +1930,7 @@
       },
       "truffle@eforest" : {
          "damage" : "25",
-         "location" : "Fungoid",
+         "location" : "fungoid@eforest",
          "armor" : "0",
          "name" : "Truffle",
          "description" : "Truffle the Fungus Monster shuffles across the room.",
@@ -1943,7 +1943,7 @@
       },
       "captain@eforest" : {
          "damage" : "10",
-         "location" : "Captain",
+         "location" : "captain@eforest",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "94",
@@ -1954,7 +1954,7 @@
       },
       "asmadeus@eforest" : {
          "damage" : "10",
-         "location" : "Museum",
+         "location" : "museum@eforest",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "0",
@@ -1968,7 +1968,7 @@
             "NegFireball"
          ],
          "damage" : "30",
-         "location" : "priest",
+         "location" : "priest@eforest",
          "armor" : "30",
          "name" : "priest",
          "description" : "The Dark Elven Priest prepares to do you in.",
@@ -1982,7 +1982,7 @@
       },
       "commander@eforest" : {
          "damage" : "12",
-         "location" : "Commander",
+         "location" : "commander@eforest",
          "speed" : "0",
          "armor" : "0",
          "aggression" : "92",
@@ -1992,7 +1992,7 @@
       },
       "prisoner@eforest" : {
          "damage" : "6",
-         "location" : "Prison",
+         "location" : "prison@eforest",
          "armor" : "0",
          "aggression" : "5",
          "pname" : "The Prisoner",

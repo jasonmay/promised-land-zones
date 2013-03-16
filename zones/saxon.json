@@ -1,7 +1,7 @@
 {
    "obj" : {
       "sign@saxon" : {
-         "location" : "IN_ROOM:saxon3",
+         "location" : "IN_ROOM:saxon3@saxon",
          "oflags" : [
             "NoGet"
          ],
@@ -14,7 +14,7 @@
       },
       "door1@saxon" : {
          "desc[1]" : "The door into Heorot is closed.",
-         "location" : "IN_ROOM:saxon7",
+         "location" : "IN_ROOM:saxon7@saxon",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -30,7 +30,7 @@
       },
       "axe@saxon" : {
          "damage" : "25",
-         "location" : "WIELDED_BY:demon",
+         "location" : "WIELDED_BY:demon@saxon",
          "oflags" : [
             "Weapon"
          ],
@@ -45,7 +45,7 @@
          "desc[0]" : "A large axe covered in blood rests here."
       },
       "flyer@saxon" : {
-         "location" : "IN_ROOM:saxon1",
+         "location" : "IN_ROOM:saxon1@saxon",
          "name" : "flyer",
          "examine" : "\nHear Ye! Hear Ye!\nThe great mead hall Heorot is being subjected to the attacks of an evil\ncreature of the dark. If any person think that they are brave enough,\nstrong enough, and in need of money, take this flyer to Beowulf in the\ngreat mead hall.\n                                        Thank You,\n                                        Hrothgar",
          "size" : "2",
@@ -56,7 +56,7 @@
          "desc[0]" : "A piece of paper lays on the ground, perhaps you should look at it."
       },
       "flask@saxon" : {
-         "location" : "CARRIED_BY:Wealhtheow",
+         "location" : "CARRIED_BY:wealhtheow@saxon",
          "oflags" : [
             "Food",
             "Potion"
@@ -72,7 +72,7 @@
          "desc[0]" : "A clear flask with a glowing liquid inside of it sits here."
       },
       "corpse@saxon" : {
-         "location" : "IN_ROOM:saxon29",
+         "location" : "IN_ROOM:saxon29@saxon",
          "oflags" : [
             "NoGet"
          ],
@@ -86,7 +86,7 @@
          "desc[0]" : "A bloodied and mangled corpse lies here, one eye hanging from a socket."
       },
       "helmet@saxon" : {
-         "location" : "WORN_BY:beowulf",
+         "location" : "WORN_BY:beowulf@saxon",
          "oflags" : [
             "Armor",
             "Wearable"
@@ -105,7 +105,7 @@
          "desc[0]" : "A shiny helmet, decorated with jewels sparkles in the light."
       },
       "throne@saxon" : {
-         "location" : "IN_ROOM:saxon18",
+         "location" : "IN_ROOM:saxon18@saxon",
          "oflags" : [
             "NoGet"
          ],
@@ -120,7 +120,7 @@
       },
       "raft@saxon" : {
          "desc[1]" : "A raft has been left here on the Sandy Shoreline.",
-         "location" : "IN_ROOM:saxon26",
+         "location" : "IN_ROOM:saxon26@saxon",
          "oflags" : [
             "GetFlips"
          ],
@@ -136,7 +136,7 @@
       },
       "pear@saxon" : {
          "desc[1]" : "There is a pear hanging from a tree, ready to be picked.",
-         "location" : "IN_ROOM:saxon41",
+         "location" : "IN_ROOM:saxon41@saxon",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -152,7 +152,7 @@
       },
       "door2@saxon" : {
          "desc[1]" : "The door leading outside is closed.",
-         "location" : "IN_ROOM:saxon10",
+         "location" : "IN_ROOM:saxon10@saxon",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -168,7 +168,7 @@
       },
       "mace@saxon" : {
          "damage" : "27",
-         "location" : "WIELDED_BY:guard2",
+         "location" : "WIELDED_BY:guard2@saxon",
          "oflags" : [
             "Weapon"
          ],
@@ -198,7 +198,7 @@
          "desc[0]" : "A golden necklace has been dropped here, attached to it is a glowing cross."
       },
       "shield@saxon" : {
-         "location" : "WORN_BY:gateguard",
+         "location" : "WORN_BY:gateguard@saxon",
          "oflags" : [
             "Shield",
             "Armor",
@@ -230,7 +230,7 @@
       },
       "knife@saxon" : {
          "damage" : "15",
-         "location" : "WIELDED_BY:bandit1",
+         "location" : "WIELDED_BY:bandit1@saxon",
          "oflags" : [
             "Weapon"
          ],
@@ -243,7 +243,7 @@
       },
       "hrunting@saxon" : {
          "damage" : "28",
-         "location" : "WIELDED_BY:beowulf",
+         "location" : "WIELDED_BY:beowulf@saxon",
          "oflags" : [
             "Weapon",
             "Lit"
@@ -260,7 +260,7 @@
          "desc[0]" : "Hrunting, the finest sword ever crafted is stuck in the ground here."
       },
       "mail@saxon" : {
-         "location" : "WORN_BY:beowulf",
+         "location" : "WORN_BY:beowulf@saxon",
          "oflags" : [
             "Armor",
             "Wearable"
@@ -282,7 +282,7 @@
          "desc[0]" : "A well polished coat of mail has been tossed aside."
       },
       "mask@saxon" : {
-         "location" : "WORN_BY:guard3",
+         "location" : "WORN_BY:guard3@saxon",
          "oflags" : [
             "Armor",
             "Wearable"
@@ -302,7 +302,7 @@
       },
       "boots@saxon" : {
          "damage" : "0",
-         "location" : "WORN_BY:bandit2",
+         "location" : "WORN_BY:bandit2@saxon",
          "oflags" : [
             "Armor",
             "Wearable"
@@ -321,7 +321,7 @@
       },
       "dagger@saxon" : {
          "damage" : "18",
-         "location" : "WIELDED_BY:guard1",
+         "location" : "WIELDED_BY:guard1@saxon",
          "oflags" : [
             "Weapon"
          ],
@@ -337,7 +337,7 @@
       },
       "mead@saxon" : {
          "desc[1]" : "There is a bottle of mead sitting on the cook's counter.",
-         "location" : "IN_ROOM:saxon16",
+         "location" : "IN_ROOM:saxon16@saxon",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -353,7 +353,7 @@
       },
       "gold@saxon" : {
          "desc[1]" : "The Red Dragon's treasure is stowed in the corner.",
-         "location" : "IN_ROOM:saxon52",
+         "location" : "IN_ROOM:saxon52@saxon",
          "oflags" : [
             "GetFlips"
          ],
@@ -370,11 +370,11 @@
    "loc" : {
       "saxon34@saxon" : {
          "exits" : {
-            "w" : "saxon31",
-            "e" : "saxon31",
-            "n" : "saxon31",
-            "d" : "saxon35",
-            "s" : "saxon31"
+            "w" : "saxon31@saxon",
+            "e" : "saxon31@saxon",
+            "n" : "saxon31@saxon",
+            "d" : "saxon35@saxon",
+            "s" : "saxon31@saxon"
          },
          "flags" : [
             "Dark",
@@ -390,11 +390,11 @@
       },
       "saxon33@saxon" : {
          "exits" : {
-            "w" : "saxon31",
-            "e" : "saxon31",
-            "n" : "saxon34",
-            "d" : "saxon31",
-            "s" : "saxon31"
+            "w" : "saxon31@saxon",
+            "e" : "saxon31@saxon",
+            "n" : "saxon34@saxon",
+            "d" : "saxon31@saxon",
+            "s" : "saxon31@saxon"
          },
          "flags" : [
             "Dark",
@@ -410,8 +410,8 @@
       },
       "saxon27@saxon" : {
          "exits" : {
-            "d" : "saxon28",
-            "s" : "saxon19"
+            "d" : "saxon28@saxon",
+            "s" : "saxon19@saxon"
          },
          "flags" : [
             "Dark",
@@ -425,10 +425,10 @@
       },
       "saxon47@saxon" : {
          "exits" : {
-            "ne" : "saxon54",
-            "w" : "saxon46",
-            "n" : "saxon48",
-            "nw" : "saxon53"
+            "ne" : "saxon54@saxon",
+            "w" : "saxon46@saxon",
+            "n" : "saxon48@saxon",
+            "nw" : "saxon53@saxon"
          },
          "flags" : [
             "Light",
@@ -443,8 +443,8 @@
       },
       "saxon11@saxon" : {
          "exits" : {
-            "e" : "saxon10",
-            "s" : "saxon12"
+            "e" : "saxon10@saxon",
+            "s" : "saxon12@saxon"
          },
          "flags" : [
             "Light"
@@ -457,8 +457,8 @@
       },
       "saxon29@saxon" : {
          "exits" : {
-            "e" : "saxon28",
-            "n" : "saxon30"
+            "e" : "saxon28@saxon",
+            "n" : "saxon30@saxon"
          },
          "flags" : [
             "Dark",
@@ -472,10 +472,10 @@
       },
       "saxon23@saxon" : {
          "exits" : {
-            "w" : "saxon24",
-            "e" : "saxon22",
-            "n" : "saxon23",
-            "s" : "saxon24"
+            "w" : "saxon24@saxon",
+            "e" : "saxon22@saxon",
+            "n" : "saxon23@saxon",
+            "s" : "saxon24@saxon"
          },
          "flags" : [
             "Light",
@@ -490,9 +490,9 @@
       },
       "saxon9@saxon" : {
          "exits" : {
-            "w" : "saxon6",
-            "e" : "saxon41",
-            "n" : "saxon8"
+            "w" : "saxon6@saxon",
+            "e" : "saxon41@saxon",
+            "n" : "saxon8@saxon"
          },
          "flags" : [
             "Light",
@@ -506,10 +506,10 @@
       },
       "saxon24@saxon" : {
          "exits" : {
-            "w" : "saxon24",
-            "e" : "saxon24",
-            "n" : "saxon23",
-            "s" : "saxon25"
+            "w" : "saxon24@saxon",
+            "e" : "saxon24@saxon",
+            "n" : "saxon23@saxon",
+            "s" : "saxon25@saxon"
          },
          "flags" : [
             "Light",
@@ -524,8 +524,8 @@
       },
       "saxon7@saxon" : {
          "exits" : {
-            "n" : "saxon6",
-            "s" : "^door1"
+            "n" : "saxon6@saxon",
+            "s" : "^door1@saxon"
          },
          "flags" : [
             "Light",
@@ -540,7 +540,7 @@
       },
       "saxon52@saxon" : {
          "exits" : {
-            "s" : "saxon51"
+            "s" : "saxon51@saxon"
          },
          "flags" : [
             "Dark",
@@ -555,10 +555,10 @@
       },
       "saxon44@saxon" : {
          "exits" : {
-            "w" : "saxon44",
-            "e" : "saxon45",
-            "n" : "saxon44",
-            "s" : "saxon44"
+            "w" : "saxon44@saxon",
+            "e" : "saxon45@saxon",
+            "n" : "saxon44@saxon",
+            "s" : "saxon44@saxon"
          },
          "flags" : [
             "Light",
@@ -572,7 +572,7 @@
       },
       "saxon30@saxon" : {
          "exits" : {
-            "s" : "saxon29"
+            "s" : "saxon29@saxon"
          },
          "flags" : [
             "Dark",
@@ -587,7 +587,7 @@
       },
       "saxon40@saxon" : {
          "exits" : {
-            "u" : "saxon39"
+            "u" : "saxon39@saxon"
          },
          "flags" : [
             "Dark",
@@ -602,8 +602,8 @@
       },
       "saxon41@saxon" : {
          "exits" : {
-            "w" : "saxon9",
-            "e" : "saxon42"
+            "w" : "saxon9@saxon",
+            "e" : "saxon42@saxon"
          },
          "flags" : [
             "Light",
@@ -618,12 +618,12 @@
       },
       "saxon39@saxon" : {
          "exits" : {
-            "w" : "saxon39",
-            "e" : "saxon39",
-            "u" : "saxon39",
-            "n" : "saxon39",
-            "d" : "saxon40",
-            "s" : "saxon38"
+            "w" : "saxon39@saxon",
+            "e" : "saxon39@saxon",
+            "u" : "saxon39@saxon",
+            "n" : "saxon39@saxon",
+            "d" : "saxon40@saxon",
+            "s" : "saxon38@saxon"
          },
          "flags" : [
             "Dark",
@@ -639,12 +639,12 @@
       },
       "saxon31@saxon" : {
          "exits" : {
-            "w" : "saxon31",
-            "e" : "saxon32",
-            "u" : "saxon21",
-            "n" : "saxon31",
-            "d" : "saxon31",
-            "s" : "saxon31"
+            "w" : "saxon31@saxon",
+            "e" : "saxon32@saxon",
+            "u" : "saxon21@saxon",
+            "n" : "saxon31@saxon",
+            "d" : "saxon31@saxon",
+            "s" : "saxon31@saxon"
          },
          "flags" : [
             "Dark",
@@ -660,8 +660,8 @@
       },
       "saxon8@saxon" : {
          "exits" : {
-            "w" : "saxon4",
-            "s" : "saxon9"
+            "w" : "saxon4@saxon",
+            "s" : "saxon9@saxon"
          },
          "flags" : [
             "Light",
@@ -675,8 +675,8 @@
       },
       "saxon51@saxon" : {
          "exits" : {
-            "n" : "saxon52",
-            "d" : "saxon50"
+            "n" : "saxon52@saxon",
+            "d" : "saxon50@saxon"
          },
          "flags" : [
             "Dark"
@@ -689,8 +689,8 @@
       },
       "saxon50@saxon" : {
          "exits" : {
-            "u" : "saxon51",
-            "s" : "saxon49"
+            "u" : "saxon51@saxon",
+            "s" : "saxon49@saxon"
          },
          "flags" : [
             "Light",
@@ -704,11 +704,11 @@
       },
       "saxon32@saxon" : {
          "exits" : {
-            "w" : "saxon31",
-            "e" : "saxon31",
-            "n" : "saxon31",
-            "d" : "saxon33",
-            "s" : "saxon31"
+            "w" : "saxon31@saxon",
+            "e" : "saxon31@saxon",
+            "n" : "saxon31@saxon",
+            "d" : "saxon33@saxon",
+            "s" : "saxon31@saxon"
          },
          "flags" : [
             "Dark",
@@ -724,10 +724,10 @@
       },
       "saxon43@saxon" : {
          "exits" : {
-            "w" : "saxon44",
-            "e" : "saxon43",
-            "n" : "saxon43",
-            "s" : "saxon43"
+            "w" : "saxon44@saxon",
+            "e" : "saxon43@saxon",
+            "n" : "saxon43@saxon",
+            "s" : "saxon43@saxon"
          },
          "flags" : [
             "Light",
@@ -741,8 +741,8 @@
       },
       "saxon28@saxon" : {
          "exits" : {
-            "w" : "saxon29",
-            "u" : "saxon27"
+            "w" : "saxon29@saxon",
+            "u" : "saxon27@saxon"
          },
          "flags" : [
             "Dark",
@@ -756,10 +756,10 @@
       },
       "saxon22@saxon" : {
          "exits" : {
-            "w" : "saxon23",
-            "e" : "saxon1",
-            "n" : "saxon23",
-            "s" : "saxon23"
+            "w" : "saxon23@saxon",
+            "e" : "saxon1@saxon",
+            "n" : "saxon23@saxon",
+            "s" : "saxon23@saxon"
          },
          "flags" : [
             "Light",
@@ -774,10 +774,10 @@
       },
       "saxon45@saxon" : {
          "exits" : {
-            "w" : "saxon45",
-            "e" : "saxon45",
-            "n" : "saxon46",
-            "s" : "saxon45"
+            "w" : "saxon45@saxon",
+            "e" : "saxon45@saxon",
+            "n" : "saxon46@saxon",
+            "s" : "saxon45@saxon"
          },
          "flags" : [
             "Light",
@@ -791,10 +791,10 @@
       },
       "saxon13@saxon" : {
          "exits" : {
-            "w" : "saxon12",
-            "e" : "saxon14",
-            "n" : "saxon10",
-            "s" : "saxon18"
+            "w" : "saxon12@saxon",
+            "e" : "saxon14@saxon",
+            "n" : "saxon10@saxon",
+            "s" : "saxon18@saxon"
          },
          "flags" : [
             "Light"
@@ -807,12 +807,12 @@
       },
       "saxon37@saxon" : {
          "exits" : {
-            "w" : "saxon37",
-            "e" : "saxon38",
-            "u" : "saxon37",
-            "n" : "saxon37",
-            "d" : "saxon37",
-            "s" : "saxon36"
+            "w" : "saxon37@saxon",
+            "e" : "saxon38@saxon",
+            "u" : "saxon37@saxon",
+            "n" : "saxon37@saxon",
+            "d" : "saxon37@saxon",
+            "s" : "saxon36@saxon"
          },
          "flags" : [
             "Dark",
@@ -827,8 +827,8 @@
       },
       "saxon20@saxon" : {
          "exits" : {
-            "e" : "saxon19",
-            "d" : "saxon21"
+            "e" : "saxon19@saxon",
+            "d" : "saxon21@saxon"
          },
          "flags" : [
             "Light",
@@ -842,9 +842,9 @@
       },
       "saxon4@saxon" : {
          "exits" : {
-            "e" : "saxon8",
-            "n" : "saxon3",
-            "s" : "saxon6"
+            "e" : "saxon8@saxon",
+            "n" : "saxon3@saxon",
+            "s" : "saxon6@saxon"
          },
          "flags" : [
             "Light",
@@ -858,8 +858,8 @@
       },
       "saxon2@saxon" : {
          "exits" : {
-            "u" : "saxon3",
-            "d" : "saxon1"
+            "u" : "saxon3@saxon",
+            "d" : "saxon1@saxon"
          },
          "flags" : [
             "Light",
@@ -873,7 +873,7 @@
       },
       "saxon18@saxon" : {
          "exits" : {
-            "n" : "saxon13"
+            "n" : "saxon13@saxon"
          },
          "flags" : [
             "Light"
@@ -886,9 +886,9 @@
       },
       "saxon19@saxon" : {
          "exits" : {
-            "w" : "saxon20",
-            "n" : "saxon27",
-            "s" : "saxon5"
+            "w" : "saxon20@saxon",
+            "n" : "saxon27@saxon",
+            "s" : "saxon5@saxon"
          },
          "flags" : [
             "Dark",
@@ -902,8 +902,8 @@
       },
       "saxon1@saxon" : {
          "exits" : {
-            "w" : "saxon22",
-            "u" : "saxon2"
+            "w" : "saxon22@saxon",
+            "u" : "saxon2@saxon"
          },
          "flags" : [
             "Light",
@@ -917,12 +917,12 @@
       },
       "saxon36@saxon" : {
          "exits" : {
-            "w" : "saxon37",
-            "e" : "saxon37",
-            "u" : "saxon35",
-            "n" : "saxon37",
-            "d" : "saxon37",
-            "s" : "saxon37"
+            "w" : "saxon37@saxon",
+            "e" : "saxon37@saxon",
+            "u" : "saxon35@saxon",
+            "n" : "saxon37@saxon",
+            "d" : "saxon37@saxon",
+            "s" : "saxon37@saxon"
          },
          "flags" : [
             "Dark",
@@ -938,9 +938,9 @@
       },
       "saxon6@saxon" : {
          "exits" : {
-            "e" : "saxon9",
-            "n" : "saxon4",
-            "s" : "saxon7"
+            "e" : "saxon9@saxon",
+            "n" : "saxon4@saxon",
+            "s" : "saxon7@saxon"
          },
          "flags" : [
             "Light",
@@ -954,9 +954,9 @@
       },
       "saxon12@saxon" : {
          "exits" : {
-            "e" : "saxon13",
-            "n" : "saxon11",
-            "s" : "saxon16"
+            "e" : "saxon13@saxon",
+            "n" : "saxon11@saxon",
+            "s" : "saxon16@saxon"
          },
          "flags" : [
             "Light"
@@ -969,8 +969,8 @@
       },
       "saxon21@saxon" : {
          "exits" : {
-            "u" : "saxon20",
-            "d" : "saxon31"
+            "u" : "saxon20@saxon",
+            "d" : "saxon31@saxon"
          },
          "flags" : [
             "Light",
@@ -985,9 +985,9 @@
       },
       "saxon14@saxon" : {
          "exits" : {
-            "w" : "saxon13",
-            "n" : "saxon15",
-            "s" : "saxon17"
+            "w" : "saxon13@saxon",
+            "n" : "saxon15@saxon",
+            "s" : "saxon17@saxon"
          },
          "flags" : [
             "Light"
@@ -1000,8 +1000,8 @@
       },
       "saxon53@saxon" : {
          "exits" : {
-            "ne" : "saxon49",
-            "se" : "saxon47"
+            "ne" : "saxon49@saxon",
+            "se" : "saxon47@saxon"
          },
          "flags" : [
             "Outdoors"
@@ -1014,8 +1014,8 @@
       },
       "saxon54@saxon" : {
          "exits" : {
-            "sw" : "saxon47",
-            "nw" : "saxon49"
+            "sw" : "saxon47@saxon",
+            "nw" : "saxon49@saxon"
          },
          "flags" : [
             "Outdoors"
@@ -1028,12 +1028,12 @@
       },
       "saxon35@saxon" : {
          "exits" : {
-            "w" : "saxon34",
-            "e" : "saxon33",
-            "u" : "saxon34",
-            "n" : "saxon33",
-            "d" : "saxon36",
-            "s" : "saxon32"
+            "w" : "saxon34@saxon",
+            "e" : "saxon33@saxon",
+            "u" : "saxon34@saxon",
+            "n" : "saxon33@saxon",
+            "d" : "saxon36@saxon",
+            "s" : "saxon32@saxon"
          },
          "flags" : [
             "Dark",
@@ -1050,7 +1050,7 @@
       "saxon26@saxon" : {
          "exits" : {
             "w" : "town53@town",
-            "e" : "saxon25"
+            "e" : "saxon25@saxon"
          },
          "flags" : [
             "Light",
@@ -1064,10 +1064,10 @@
       },
       "saxon49@saxon" : {
          "exits" : {
-            "n" : "saxon50",
-            "se" : "saxon54",
-            "sw" : "saxon53",
-            "s" : "saxon48"
+            "n" : "saxon50@saxon",
+            "se" : "saxon54@saxon",
+            "sw" : "saxon53@saxon",
+            "s" : "saxon48@saxon"
          },
          "flags" : [
             "Light",
@@ -1081,8 +1081,8 @@
       },
       "saxon15@saxon" : {
          "exits" : {
-            "w" : "saxon10",
-            "s" : "saxon14"
+            "w" : "saxon10@saxon",
+            "s" : "saxon14@saxon"
          },
          "flags" : [
             "Light"
@@ -1095,10 +1095,10 @@
       },
       "saxon10@saxon" : {
          "exits" : {
-            "w" : "saxon11",
-            "e" : "saxon15",
-            "n" : "^door2",
-            "s" : "saxon13"
+            "w" : "saxon11@saxon",
+            "e" : "saxon15@saxon",
+            "n" : "^door2@saxon",
+            "s" : "saxon13@saxon"
          },
          "flags" : [
             "Light"
@@ -1111,8 +1111,8 @@
       },
       "saxon5@saxon" : {
          "exits" : {
-            "n" : "saxon19",
-            "s" : "saxon3"
+            "n" : "saxon19@saxon",
+            "s" : "saxon3@saxon"
          },
          "flags" : [
             "Light",
@@ -1126,10 +1126,10 @@
       },
       "saxon46@saxon" : {
          "exits" : {
-            "w" : "saxon42",
-            "e" : "saxon47",
-            "n" : "saxon44",
-            "s" : "saxon43"
+            "w" : "saxon42@saxon",
+            "e" : "saxon47@saxon",
+            "n" : "saxon44@saxon",
+            "s" : "saxon43@saxon"
          },
          "flags" : [
             "Light",
@@ -1143,9 +1143,9 @@
       },
       "saxon3@saxon" : {
          "exits" : {
-            "n" : "saxon5",
-            "d" : "saxon2",
-            "s" : "saxon4"
+            "n" : "saxon5@saxon",
+            "d" : "saxon2@saxon",
+            "s" : "saxon4@saxon"
          },
          "flags" : [
             "Light",
@@ -1159,10 +1159,10 @@
       },
       "saxon25@saxon" : {
          "exits" : {
-            "e" : "saxon23",
-            "w" : "saxon26",
-            "n" : "saxon24",
-            "s" : "saxon23"
+            "e" : "saxon23@saxon",
+            "w" : "saxon26@saxon",
+            "n" : "saxon24@saxon",
+            "s" : "saxon23@saxon"
          },
          "flags" : [
             "Light",
@@ -1177,7 +1177,7 @@
       },
       "saxon16@saxon" : {
          "exits" : {
-            "n" : "saxon12"
+            "n" : "saxon12@saxon"
          },
          "flags" : [
             "Light"
@@ -1190,8 +1190,8 @@
       },
       "saxon48@saxon" : {
          "exits" : {
-            "n" : "saxon49",
-            "s" : "saxon47"
+            "n" : "saxon49@saxon",
+            "s" : "saxon47@saxon"
          },
          "flags" : [
             "Light",
@@ -1207,10 +1207,10 @@
       },
       "saxon42@saxon" : {
          "exits" : {
-            "w" : "saxon41",
-            "e" : "saxon43",
-            "n" : "saxon43",
-            "s" : "saxon43"
+            "w" : "saxon41@saxon",
+            "e" : "saxon43@saxon",
+            "n" : "saxon43@saxon",
+            "s" : "saxon43@saxon"
          },
          "flags" : [
             "Light",
@@ -1224,12 +1224,12 @@
       },
       "saxon38@saxon" : {
          "exits" : {
-            "w" : "saxon37",
-            "e" : "saxon37",
-            "u" : "saxon37",
-            "n" : "saxon39",
-            "d" : "saxon37",
-            "s" : "saxon37"
+            "w" : "saxon37@saxon",
+            "e" : "saxon37@saxon",
+            "u" : "saxon37@saxon",
+            "n" : "saxon39@saxon",
+            "d" : "saxon37@saxon",
+            "s" : "saxon37@saxon"
          },
          "flags" : [
             "Dark",
@@ -1244,7 +1244,7 @@
       },
       "saxon17@saxon" : {
          "exits" : {
-            "n" : "saxon14"
+            "n" : "saxon14@saxon"
          },
          "flags" : [
             "Light"
@@ -1259,7 +1259,7 @@
    "mob" : {
       "wealhtheow@saxon" : {
          "damage" : "12",
-         "location" : "saxon17",
+         "location" : "saxon17@saxon",
          "armor" : "10",
          "name" : "Wealhtheow",
          "sflags" : [
@@ -1278,7 +1278,7 @@
       },
       "guard2@saxon" : {
          "damage" : "15",
-         "location" : "saxon11",
+         "location" : "saxon11@saxon",
          "armor" : "5",
          "name" : "guard2",
          "description" : "James stands here pondering how to kill the awesome monster Grendel.",
@@ -1289,7 +1289,7 @@
       },
       "gateguard@saxon" : {
          "damage" : "15",
-         "location" : "saxon7",
+         "location" : "saxon7@saxon",
          "armor" : "10",
          "name" : "gateguard",
          "description" : "Thomas stares at you, trying to decipher if you pose a threat to the king.",
@@ -1300,7 +1300,7 @@
       },
       "guard3@saxon" : {
          "damage" : "10",
-         "location" : "saxon15",
+         "location" : "saxon15@saxon",
          "armor" : "20",
          "name" : "guard3",
          "description" : "Peter is staring at the wall, pictures of the cruel monster Grendel running\nthrough his mind.",
@@ -1311,7 +1311,7 @@
       },
       "whale@saxon" : {
          "damage" : "20",
-         "location" : "saxon23",
+         "location" : "saxon23@saxon",
          "armor" : "5",
          "name" : "whale",
          "description" : "There is a killer whale frolicking here in the sea.",
@@ -1329,7 +1329,7 @@
             "Fireball"
          ],
          "damage" : "10",
-         "location" : "saxon38",
+         "location" : "saxon38@saxon",
          "armor" : "3",
          "name" : "demon",
          "description" : "A Demon made of blood and fire draws his axe at the site of you.",
@@ -1343,7 +1343,7 @@
       },
       "hrothgar@saxon" : {
          "damage" : "20",
-         "location" : "saxon18",
+         "location" : "saxon18@saxon",
          "armor" : "10",
          "name" : "Hrothgar",
          "description" : "Hrothgar, son of Healfdene, lord of the Danes is here.",
@@ -1362,7 +1362,7 @@
             "Frost"
          ],
          "damage" : "15",
-         "location" : "saxon30",
+         "location" : "saxon30@saxon",
          "armor" : "25",
          "name" : "Grendel",
          "description" : "The midnight marauder of Heorot growls angrily at your approach.",
@@ -1379,7 +1379,7 @@
       },
       "peasant@saxon" : {
          "damage" : "5",
-         "location" : "saxon9",
+         "location" : "saxon9@saxon",
          "armor" : "5",
          "name" : "peasant",
          "description" : "A peasant is here tending to his flock.",
@@ -1390,7 +1390,7 @@
       },
       "hawk@saxon" : {
          "damage" : "15",
-         "location" : "saxon3",
+         "location" : "saxon3@saxon",
          "armor" : "5",
          "name" : "hawk",
          "description" : "A red tailed hawk swoops out of the sky and tears at your face.",
@@ -1410,7 +1410,7 @@
             "NegFrost"
          ],
          "damage" : "30",
-         "location" : "saxon52",
+         "location" : "saxon52@saxon",
          "armor" : "15",
          "name" : "dragon",
          "description" : "A hulking mass emerges from the shadows, flames erupting from it's \nnostrils.",
@@ -1431,7 +1431,7 @@
       },
       "guard1@saxon" : {
          "damage" : "10",
-         "location" : "saxon10",
+         "location" : "saxon10@saxon",
          "armor" : "10",
          "name" : "guard1",
          "description" : "Andrew paces back and forth, readying himself for another attack on Heorot.",
@@ -1442,7 +1442,7 @@
       },
       "bandit2@saxon" : {
          "damage" : "15",
-         "location" : "saxon42",
+         "location" : "saxon42@saxon",
          "armor" : "0",
          "name" : "bandit2",
          "description" : "A figure lurks in the shadows, contemplating how much you value your life.",
@@ -1460,7 +1460,7 @@
             "Fireball"
          ],
          "damage" : "15",
-         "location" : "saxon31",
+         "location" : "saxon31@saxon",
          "armor" : "5",
          "name" : "reptile",
          "description" : "A massive Sea Reptile lurks here, hungry to feed on you.",
@@ -1474,7 +1474,7 @@
       },
       "bass@saxon" : {
          "damage" : "5",
-         "location" : "saxon25",
+         "location" : "saxon25@saxon",
          "armor" : "5",
          "name" : "bass",
          "description" : "A small mouth bass swims by you, its back glittering in the sun.",
@@ -1488,7 +1488,7 @@
       },
       "beowulf@saxon" : {
          "damage" : "25",
-         "location" : "saxon13",
+         "location" : "saxon13@saxon",
          "armor" : "10",
          "name" : "beowulf",
          "description" : "Beowulf, the greatest warrior ever born, stands proudly here.",
@@ -1510,7 +1510,7 @@
       },
       "bandit1@saxon" : {
          "damage" : "10",
-         "location" : "saxon46",
+         "location" : "saxon46@saxon",
          "armor" : "5",
          "name" : "bandit1",
          "description" : "A bandit eyes you from a distance, wondering if you are worth killing.",
@@ -1524,7 +1524,7 @@
       },
       "rat@saxon" : {
          "damage" : "10",
-         "location" : "saxon27",
+         "location" : "saxon27@saxon",
          "armor" : "0",
          "name" : "rat",
          "description" : "A rat scrambles here on the floor, looking for food.",
@@ -1539,7 +1539,7 @@
             "Fireball"
          ],
          "damage" : "30",
-         "location" : "saxon40",
+         "location" : "saxon40@saxon",
          "armor" : "20",
          "name" : "mother",
          "sflags" : [
@@ -1564,7 +1564,7 @@
             "FearFrost"
          ],
          "damage" : "10",
-         "location" : "saxon36",
+         "location" : "saxon36@saxon",
          "armor" : "10",
          "name" : "shark",
          "description" : "A flame swims by, and you notice it resembles a Great White shark.",
@@ -1578,7 +1578,7 @@
       },
       "crab@saxon" : {
          "damage" : "10",
-         "location" : "saxon1",
+         "location" : "saxon1@saxon",
          "armor" : "0",
          "name" : "crab",
          "description" : "A small crab, about the size of a baseball nips at your toes.",
@@ -1594,7 +1594,7 @@
             "Fireball"
          ],
          "damage" : "10",
-         "location" : "saxon34",
+         "location" : "saxon34@saxon",
          "armor" : "5",
          "name" : "serpent",
          "sflags" : [
@@ -1609,7 +1609,7 @@
       },
       "widow@saxon" : {
          "damage" : "5",
-         "location" : "saxon48",
+         "location" : "saxon48@saxon",
          "armor" : "5",
          "name" : "widow",
          "sflags" : [
@@ -1631,7 +1631,7 @@
       },
       "cook@saxon" : {
          "damage" : "15",
-         "location" : "saxon16",
+         "location" : "saxon16@saxon",
          "armor" : "5",
          "name" : "cook",
          "description" : "Hrothgar's cook is preparing a feast for the warriors.",

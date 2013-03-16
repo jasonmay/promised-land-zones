@@ -2,7 +2,7 @@
    "obj" : {
       "statue_up@blizzard" : {
          "desc[1]" : "\nA huge stone statue of a sorceror stands proudly against the north wall.",
-         "location" : "IN_ROOM:stonewalled",
+         "location" : "IN_ROOM:stonewalled@blizzard",
          "oflags" : [
             "PushToggle",
             "NoGet"
@@ -16,7 +16,7 @@
          "desc[0]" : "\nA huge stone statue of a sorceror stands here, beside a hole leading down."
       },
       "scarlet@blizzard" : {
-         "location" : "IN_ROOM:robing",
+         "location" : "IN_ROOM:robing@blizzard",
          "oflags" : [
             "Wearable"
          ],
@@ -35,7 +35,7 @@
          ]
       },
       "necklace@blizzard" : {
-         "location" : "IN_ROOM:treasure",
+         "location" : "IN_ROOM:treasure@blizzard",
          "armor" : "45",
          "oflags" : [
             "Wearable",
@@ -52,7 +52,7 @@
       },
       "door_shadowy@blizzard" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:shadowy",
+         "location" : "IN_ROOM:shadowy@blizzard",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -67,7 +67,7 @@
          "desc[0]" : "The door is open."
       },
       "bridge_fire@blizzard" : {
-         "location" : "IN_ROOM:fire_gate",
+         "location" : "IN_ROOM:fire_gate@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -82,7 +82,7 @@
       },
       "door_laboratory@blizzard" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:laboratory",
+         "location" : "IN_ROOM:laboratory@blizzard",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -97,7 +97,7 @@
          "desc[0]" : "The door is open."
       },
       "pass_stone@blizzard" : {
-         "location" : "IN_ROOM:stone_cell",
+         "location" : "IN_ROOM:stone_cell@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -109,7 +109,7 @@
          "desc[0]" : "A secret passage leads eastwards."
       },
       "pass_fissure@blizzard" : {
-         "location" : "IN_ROOM:fissure",
+         "location" : "IN_ROOM:fissure@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -122,7 +122,7 @@
       },
       "pick@blizzard" : {
          "damage" : "11",
-         "location" : "IN_ROOM:snow_temple",
+         "location" : "IN_ROOM:snow_temple@blizzard",
          "oflags" : [
             "Weapon"
          ],
@@ -134,7 +134,7 @@
          "desc[0]" : "A small but well made ice pick has been dropped here."
       },
       "soap@blizzard" : {
-         "location" : "IN_ROOM:storage",
+         "location" : "IN_ROOM:storage@blizzard",
          "weight" : "1",
          "name" : "soap",
          "examine" : "Stamped in the soap are the strange runes \"Neutrogena\"",
@@ -143,7 +143,7 @@
          "size" : "1"
       },
       "platform_under@blizzard" : {
-         "location" : "IN_ROOM:underruined",
+         "location" : "IN_ROOM:underruined@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -154,7 +154,7 @@
          "state" : "2"
       },
       "rod@blizzard" : {
-         "location" : "IN_ROOM:workroom",
+         "location" : "IN_ROOM:workroom@blizzard",
          "weight" : "2",
          "name" : "rod",
          "bvalue" : "150",
@@ -162,7 +162,7 @@
          "size" : "20"
       },
       "moonstone@blizzard" : {
-         "location" : "IN_ROOM:workroom",
+         "location" : "IN_ROOM:workroom@blizzard",
          "weight" : "3",
          "name" : "moonstone",
          "bvalue" : "200",
@@ -170,7 +170,7 @@
          "size" : "10"
       },
       "bridge_hall@blizzard" : {
-         "location" : "IN_ROOM:hall",
+         "location" : "IN_ROOM:hall@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -184,7 +184,7 @@
          "desc[0]" : "A huge iron drawbridge crosses the lava to the west."
       },
       "coins@blizzard" : {
-         "location" : "IN_ROOM:treasure",
+         "location" : "IN_ROOM:treasure@blizzard",
          "weight" : "1",
          "altname" : "copper",
          "name" : "coins",
@@ -193,7 +193,7 @@
          "size" : "2"
       },
       "powerstone2@blizzard" : {
-         "location" : "IN_ROOM:library",
+         "location" : "IN_ROOM:library@blizzard",
          "oflags" : [
             "SpellChance"
          ],
@@ -207,7 +207,7 @@
       },
       "scimitar@blizzard" : {
          "damage" : "7",
-         "location" : "IN_ROOM:shady",
+         "location" : "IN_ROOM:shady@blizzard",
          "oflags" : [
             "Weapon"
          ],
@@ -220,7 +220,7 @@
          "desc[0]" : "A long, curved scimitar has been placed here."
       },
       "riatha_fire@blizzard" : {
-         "location" : "IN_ROOM:temple",
+         "location" : "IN_ROOM:temple@blizzard",
          "oflags" : [
             "Extinguish",
             "Lit",
@@ -232,7 +232,7 @@
          "examine" : "It looks a trifle hot for any mortal to handle."
       },
       "runesmagic@blizzard" : {
-         "location" : "IN_ROOM:rune_cave",
+         "location" : "IN_ROOM:rune_cave@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -242,7 +242,7 @@
          "examine" : "\nThe runes are apparently part of an educational guide to spell casting and\nlist several basic pieces of magic.  These are:\n\n                DEAF, MUTE, CRIPPLE, BLIND and CURE\n\nThe runes also allude to a spell for summoning people, SUMMON, but\nnote that several amulets and talismans can protect the victim from\nits effects.\n        A spell for finding the exact locations of players, objects\nand mobiles, WHERE, is also mentioned."
       },
       "pumice@blizzard" : {
-         "location" : "IN_ROOM:lava_path2",
+         "location" : "IN_ROOM:lava_path2@blizzard",
          "weight" : "1",
          "name" : "pumice",
          "bvalue" : "100",
@@ -250,7 +250,7 @@
          "size" : "1"
       },
       "signbridge@blizzard" : {
-         "location" : "IN_ROOM:bridge",
+         "location" : "IN_ROOM:bridge@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -260,7 +260,7 @@
          "desc[0]" : "A sign has been posted by the bridge."
       },
       "scroll@blizzard" : {
-         "location" : "IN_ROOM:rocky_can",
+         "location" : "IN_ROOM:rocky_can@blizzard",
          "weight" : "1",
          "oflags" : [
             "Destroyed",
@@ -272,7 +272,7 @@
          "size" : "12"
       },
       "brick@blizzard" : {
-         "location" : "IN_ROOM:ruined",
+         "location" : "IN_ROOM:ruined@blizzard",
          "oflags" : [
             "Pushable",
             "NoGet"
@@ -283,7 +283,7 @@
          "state" : "1"
       },
       "shield2@blizzard" : {
-         "location" : "IN_ROOM:pillared",
+         "location" : "IN_ROOM:pillared@blizzard",
          "armor" : "40",
          "oflags" : [
             "Armor",
@@ -301,7 +301,7 @@
          "desc[0]" : "A small wooden shield has been left here."
       },
       "pillar_east@blizzard" : {
-         "location" : "IN_ROOM:narrow",
+         "location" : "IN_ROOM:narrow@blizzard",
          "oflags" : [
             "PushToggle",
             "NoGet"
@@ -314,7 +314,7 @@
          "desc[0]" : "A huge stone pillar bridges the gap to the west."
       },
       "orange_gem@blizzard" : {
-         "location" : "IN_ROOM:secret",
+         "location" : "IN_ROOM:secret@blizzard",
          "altname" : "orange",
          "name" : "Orange_Gem",
          "size" : "1",
@@ -324,7 +324,7 @@
          "desc[0]" : "A small orange gem has been dropped here."
       },
       "well@blizzard" : {
-         "location" : "IN_ROOM:large_cav",
+         "location" : "IN_ROOM:large_cav@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -333,7 +333,7 @@
       },
       "broom@blizzard" : {
          "damage" : "8",
-         "location" : "IN_ROOM:storage",
+         "location" : "IN_ROOM:storage@blizzard",
          "oflags" : [
             "Weapon"
          ],
@@ -346,7 +346,7 @@
       },
       "rough_curtains@blizzard" : {
          "desc[1]" : "To the south the passage passes through some curtains.",
-         "location" : "IN_ROOM:rough",
+         "location" : "IN_ROOM:rough@blizzard",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -360,7 +360,7 @@
          "desc[0]" : "To the south the passage leads into a curtained hall."
       },
       "coinplat@blizzard" : {
-         "location" : "IN_ROOM:well",
+         "location" : "IN_ROOM:well@blizzard",
          "altname" : "platinum",
          "name" : "CoinPlat",
          "size" : "1",
@@ -370,7 +370,7 @@
          "desc[0]" : "A few small platinum coins have been dropped here."
       },
       "bookcase@blizzard" : {
-         "location" : "IN_ROOM:library",
+         "location" : "IN_ROOM:library@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -380,7 +380,7 @@
       },
       "snow_iceb@blizzard" : {
          "desc[1]" : "Ice-encrusted snow is piled up against one ruined wall.",
-         "location" : "IN_ROOM:snow_temple",
+         "location" : "IN_ROOM:snow_temple@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -393,7 +393,7 @@
       },
       "pillar_west@blizzard" : {
          "desc[1]" : "A huge stone pillar lies fallen on the floor.",
-         "location" : "IN_ROOM:shattered",
+         "location" : "IN_ROOM:shattered@blizzard",
          "oflags" : [
             "PushToggle",
             "NoGet"
@@ -406,7 +406,7 @@
          "desc[0]" : "A huge stone pillar bridges the gap and allows you to go east."
       },
       "orb@blizzard" : {
-         "location" : "IN_ROOM:workroom",
+         "location" : "IN_ROOM:workroom@blizzard",
          "weight" : "1",
          "altname" : "white",
          "name" : "orb",
@@ -415,7 +415,7 @@
          "size" : "1"
       },
       "bridge_lever@blizzard" : {
-         "location" : "IN_ROOM:hall",
+         "location" : "IN_ROOM:hall@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -425,7 +425,7 @@
       },
       "knife@blizzard" : {
          "damage" : "3",
-         "location" : "IN_ROOM:dark_chmb",
+         "location" : "IN_ROOM:dark_chmb@blizzard",
          "oflags" : [
             "Weapon"
          ],
@@ -436,7 +436,7 @@
          "desc[0]" : "A small, curved surgeon's knife has been dropped here."
       },
       "shield1@blizzard" : {
-         "location" : "IN_ROOM:pillared",
+         "location" : "IN_ROOM:pillared@blizzard",
          "armor" : "60",
          "oflags" : [
             "Armor",
@@ -455,7 +455,7 @@
       },
       "ball@blizzard" : {
          "desc[1]" : "A crystal ball has been placed here, glowing a pale red.",
-         "location" : "IN_CONTAINER:bag",
+         "location" : "IN_CONTAINER:bag@blizzard",
          "desc[3]" : "A crystal ball has been placed here, glowing a pale green.",
          "altname" : "crystal",
          "name" : "ball",
@@ -468,7 +468,7 @@
       },
       "door_dungeon@blizzard" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:dungeon",
+         "location" : "IN_ROOM:dungeon@blizzard",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -483,7 +483,7 @@
          "desc[0]" : "The door is open."
       },
       "harp@blizzard" : {
-         "location" : "IN_ROOM:glittering",
+         "location" : "IN_ROOM:glittering@blizzard",
          "weight" : "20",
          "altname" : "gold",
          "name" : "harp",
@@ -492,7 +492,7 @@
          "size" : "70"
       },
       "lever@blizzard" : {
-         "location" : "IN_ROOM:pillared2",
+         "location" : "IN_ROOM:pillared2@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -500,7 +500,7 @@
          "desc[0]" : "A heavy iron lever is set into the south wall."
       },
       "rations1@blizzard" : {
-         "location" : "IN_ROOM:gloomy",
+         "location" : "IN_ROOM:gloomy@blizzard",
          "oflags" : [
             "Food"
          ],
@@ -513,7 +513,7 @@
          "desc[0]" : "Some old rations have been left here."
       },
       "reset_stone@blizzard" : {
-         "location" : "IN_ROOM:shady",
+         "location" : "IN_ROOM:shady@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -525,7 +525,7 @@
       "stick@blizzard" : {
          "desc[1]" : "An old stick lies on the ground.",
          "damage" : "2",
-         "location" : "IN_ROOM:valley",
+         "location" : "IN_ROOM:valley@blizzard",
          "oflags" : [
             "Lightable",
             "Extinguish",
@@ -541,7 +541,7 @@
          "desc[0]" : "A burning stick lies on the ground."
       },
       "bag@blizzard" : {
-         "location" : "CARRIED_BY:hermit",
+         "location" : "CARRIED_BY:hermit@blizzard",
          "weight" : "20",
          "oflags" : [
             "Container"
@@ -552,7 +552,7 @@
          "size" : "25"
       },
       "altar@blizzard" : {
-         "location" : "IN_ROOM:ruined",
+         "location" : "IN_ROOM:ruined@blizzard",
          "oflags" : [
             "Pushable",
             "NoGet"
@@ -564,7 +564,7 @@
          "state" : "1"
       },
       "garland@blizzard" : {
-         "location" : "IN_ROOM:shady",
+         "location" : "IN_ROOM:shady@blizzard",
          "oflags" : [
             "Wearable"
          ],
@@ -580,7 +580,7 @@
          ]
       },
       "powerstone@blizzard" : {
-         "location" : "IN_CONTAINER:coffin",
+         "location" : "IN_CONTAINER:coffin@blizzard",
          "oflags" : [
             "SpellChance"
          ],
@@ -592,7 +592,7 @@
          "desc[0]" : "A magical powerstone has been put here by someone."
       },
       "littablet@blizzard" : {
-         "location" : "IN_ROOM:underruined",
+         "location" : "IN_ROOM:underruined@blizzard",
          "oflags" : [
             "LightSpell"
          ],
@@ -605,7 +605,7 @@
          "desc[0]" : "An ancient tablet has been discarded here."
       },
       "rations@blizzard" : {
-         "location" : "IN_ROOM:gloomy",
+         "location" : "IN_ROOM:gloomy@blizzard",
          "oflags" : [
             "Food"
          ],
@@ -617,12 +617,12 @@
          "desc[0]" : "Some rations have been left here, old but edible."
       },
       "shield@blizzard" : {
-         "location" : "IN_ROOM:pillared",
+         "location" : "IN_ROOM:pillared@blizzard",
          "oflags" : "{  }",
          "name" : "shield"
       },
       "hole_gallery@blizzard" : {
-         "location" : "IN_ROOM:gallery",
+         "location" : "IN_ROOM:gallery@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -635,7 +635,7 @@
          "desc[0]" : "A hole allows you to go west."
       },
       "talisman@blizzard" : {
-         "location" : "IN_ROOM:elemental",
+         "location" : "IN_ROOM:elemental@blizzard",
          "oflags" : [
             "MissileSpell",
             "Wearable",
@@ -653,7 +653,7 @@
          ]
       },
       "obsidian@blizzard" : {
-         "location" : "IN_ROOM:lava_path2",
+         "location" : "IN_ROOM:lava_path2@blizzard",
          "weight" : "1",
          "altname" : "rock",
          "name" : "obsidian",
@@ -663,7 +663,7 @@
       },
       "wintergreen@blizzard" : {
          "desc[1]" : "Peeking out of the snow you spy some wintergreen.",
-         "location" : "IN_ROOM:ravine",
+         "location" : "IN_ROOM:ravine@blizzard",
          "oflags" : [
             "FrostSpell",
             "GetFlips"
@@ -679,7 +679,7 @@
          "desc[0]" : "A sprig of wintergreen has been left here."
       },
       "ironbar@blizzard" : {
-         "location" : "IN_ROOM:stone_cell",
+         "location" : "IN_ROOM:stone_cell@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -688,7 +688,7 @@
          "desc[0]" : "An iron bar is set into the wall."
       },
       "worn@blizzard" : {
-         "location" : "IN_ROOM:robing",
+         "location" : "IN_ROOM:robing@blizzard",
          "oflags" : [
             "Wearable"
          ],
@@ -707,7 +707,7 @@
          ]
       },
       "key@blizzard" : {
-         "location" : "IN_ROOM:robing",
+         "location" : "IN_ROOM:robing@blizzard",
          "oflags" : [
             "Key",
             "Destroyed"
@@ -720,7 +720,7 @@
          "desc[0]" : "A small silver key has been dropped here."
       },
       "blackrobe@blizzard" : {
-         "location" : "IN_ROOM:robing",
+         "location" : "IN_ROOM:robing@blizzard",
          "oflags" : [
             "Wearable"
          ],
@@ -741,7 +741,7 @@
       },
       "grille_treasure@blizzard" : {
          "desc[1]" : "The grille is closed.",
-         "location" : "IN_ROOM:treasure",
+         "location" : "IN_ROOM:treasure@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -754,7 +754,7 @@
       },
       "door_cell@blizzard" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:stone_cell",
+         "location" : "IN_ROOM:stone_cell@blizzard",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -769,7 +769,7 @@
          "desc[0]" : "The door is open."
       },
       "tripwire@blizzard" : {
-         "location" : "IN_ROOM:moldy",
+         "location" : "IN_ROOM:moldy@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -780,7 +780,7 @@
       },
       "grille@blizzard" : {
          "desc[1]" : "The grille is closed.",
-         "location" : "IN_ROOM:stonew_room",
+         "location" : "IN_ROOM:stonew_room@blizzard",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -794,7 +794,7 @@
       "branch_village@blizzard" : {
          "desc[1]" : "An old branch has been dropped here.",
          "damage" : "2",
-         "location" : "IN_ROOM:R_Land",
+         "location" : "IN_ROOM:r_land@blizzard",
          "oflags" : [
             "Lightable",
             "Extinguish",
@@ -811,7 +811,7 @@
       },
       "throne_curtains@blizzard" : {
          "desc[1]" : "The curtains are closed.",
-         "location" : "IN_ROOM:throne",
+         "location" : "IN_ROOM:throne@blizzard",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -825,7 +825,7 @@
          "desc[0]" : "A narrow passage leads north, through a gap in the curtains."
       },
       "volume@blizzard" : {
-         "location" : "IN_ROOM:library",
+         "location" : "IN_ROOM:library@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -837,7 +837,7 @@
       },
       "coffin@blizzard" : {
          "desc[1]" : "An ornate coffin is set in the centre of the room.",
-         "location" : "IN_ROOM:crypt",
+         "location" : "IN_ROOM:crypt@blizzard",
          "oflags" : [
             "Openable",
             "Container",
@@ -852,7 +852,7 @@
          "desc[0]" : "\nAn ornate coffin is set in the centre of the room.  The coffin is open."
       },
       "garlic@blizzard" : {
-         "location" : "IN_ROOM:window",
+         "location" : "IN_ROOM:window@blizzard",
          "oflags" : [
             "Food"
          ],
@@ -865,7 +865,7 @@
          "desc[0]" : "Some garlic lies at your feet, its smell wafting upwards."
       },
       "boulder@blizzard" : {
-         "location" : "IN_ROOM:crack",
+         "location" : "IN_ROOM:crack@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -874,7 +874,7 @@
          "desc[0]" : "A huge boulder rests against one of the walls."
       },
       "statuette@blizzard" : {
-         "location" : "IN_ROOM:secret",
+         "location" : "IN_ROOM:secret@blizzard",
          "weight" : "15",
          "altname" : "gold",
          "name" : "statuette",
@@ -883,7 +883,7 @@
          "size" : "10"
       },
       "effigy@blizzard" : {
-         "location" : "IN_ROOM:secret",
+         "location" : "IN_ROOM:secret@blizzard",
          "weight" : "30",
          "name" : "effigy",
          "bvalue" : "75",
@@ -891,7 +891,7 @@
          "size" : "20"
       },
       "bridge_wand@blizzard" : {
-         "location" : "IN_ROOM:laboratory",
+         "location" : "IN_ROOM:laboratory@blizzard",
          "weight" : "4",
          "pname" : "wand",
          "name" : "Bridge_Wand",
@@ -902,7 +902,7 @@
       },
       "platform_altar@blizzard" : {
          "desc[1]" : "The platform is uncovered now that the altar is out of the way.",
-         "location" : "IN_ROOM:ruined",
+         "location" : "IN_ROOM:ruined@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -916,7 +916,7 @@
       },
       "slime_pit@blizzard" : {
          "desc[1]" : "There is a pit of slime in the floor.",
-         "location" : "IN_ROOM:damp",
+         "location" : "IN_ROOM:damp@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -928,7 +928,7 @@
          "desc[0]" : "There is a pit in the floor."
       },
       "hole_crack@blizzard" : {
-         "location" : "IN_ROOM:crack",
+         "location" : "IN_ROOM:crack@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -941,7 +941,7 @@
          "desc[0]" : "A hole allows you to clamber eastwards."
       },
       "powerstone1@blizzard" : {
-         "location" : "IN_ROOM:slime",
+         "location" : "IN_ROOM:slime@blizzard",
          "oflags" : [
             "SpellChance"
          ],
@@ -954,7 +954,7 @@
          "desc[0]" : "A magical powerstone has been placed here."
       },
       "hat@blizzard" : {
-         "location" : "IN_ROOM:slime",
+         "location" : "IN_ROOM:slime@blizzard",
          "oflags" : [
             "Wearable"
          ],
@@ -969,7 +969,7 @@
       },
       "statue_down@blizzard" : {
          "desc[1]" : "\nThere is a hole in the roof above you,but it is blocked by the statue's base.",
-         "location" : "IN_ROOM:secret",
+         "location" : "IN_ROOM:secret@blizzard",
          "oflags" : [
             "NoGet"
          ],
@@ -981,7 +981,7 @@
          "desc[0]" : "There is a hole in the roof above you."
       },
       "tube@blizzard" : {
-         "location" : "IN_ROOM:rocky_can",
+         "location" : "IN_ROOM:rocky_can@blizzard",
          "weight" : "1",
          "altname" : "ivory",
          "name" : "tube",
@@ -993,7 +993,7 @@
    "loc" : {
       "glittering@blizzard" : {
          "exits" : {
-            "s" : "rough"
+            "s" : "rough@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1004,7 +1004,7 @@
       },
       "lava_path2@blizzard" : {
          "exits" : {
-            "w" : "lava_path"
+            "w" : "lava_path@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1015,9 +1015,9 @@
       },
       "passage@blizzard" : {
          "exits" : {
-            "w" : "stonewalled",
-            "e" : "crypt",
-            "n" : "chamber"
+            "w" : "stonewalled@blizzard",
+            "e" : "crypt@blizzard",
+            "n" : "chamber@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1028,7 +1028,7 @@
       },
       "workroom@blizzard" : {
          "exits" : {
-            "w" : "temple"
+            "w" : "temple@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1039,8 +1039,8 @@
       },
       "entrance@blizzard" : {
          "exits" : {
-            "n" : "crypt",
-            "s" : "library"
+            "n" : "crypt@blizzard",
+            "s" : "library@blizzard"
          },
          "flags" : [
             "peaceful"
@@ -1053,9 +1053,9 @@
       },
       "waterfall@blizzard" : {
          "exits" : {
-            "w" : "woods",
-            "e" : "woods3",
-            "s" : "grassy"
+            "w" : "woods@blizzard",
+            "e" : "woods3@blizzard",
+            "s" : "grassy@blizzard"
          },
          "flags" : [
             "outdoors"
@@ -1068,9 +1068,9 @@
       },
       "crypt@blizzard" : {
          "exits" : {
-            "w" : "passage",
-            "e" : "large_cav",
-            "s" : "entrance"
+            "w" : "passage@blizzard",
+            "e" : "large_cav@blizzard",
+            "s" : "entrance@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1081,7 +1081,7 @@
       },
       "elemental@blizzard" : {
          "exits" : {
-            "w" : "bottom"
+            "w" : "bottom@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1092,7 +1092,7 @@
       },
       "slime@blizzard" : {
          "exits" : {
-            "u" : "damp"
+            "u" : "damp@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1103,8 +1103,8 @@
       },
       "lava_ledge@blizzard" : {
          "exits" : {
-            "w" : "hall",
-            "s" : "lava_led2"
+            "w" : "hall@blizzard",
+            "s" : "lava_led2@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1115,9 +1115,9 @@
       },
       "pass3@blizzard" : {
          "exits" : {
-            "e" : "ravine",
-            "n" : "n_pass",
-            "s" : "s_pass"
+            "e" : "ravine@blizzard",
+            "n" : "n_pass@blizzard",
+            "s" : "s_pass@blizzard"
          },
          "flags" : [
             "cold",
@@ -1131,7 +1131,7 @@
       },
       "robing@blizzard" : {
          "exits" : {
-            "s" : "stonewalled"
+            "s" : "stonewalled@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1154,10 +1154,10 @@
       },
       "pass@blizzard" : {
          "exits" : {
-            "e" : "Mithdan1@mithdan",
-            "u" : "window",
-            "n" : "blizzard",
-            "s" : "pass2"
+            "e" : "mithdan1@mithdan",
+            "u" : "window@blizzard",
+            "n" : "blizzard@blizzard",
+            "s" : "pass2@blizzard"
          },
          "flags" : [
             "outdoors",
@@ -1171,8 +1171,8 @@
       },
       "fissure@blizzard" : {
          "exits" : {
-            "w" : "^pass_fissure",
-            "d" : "fis_bottom"
+            "w" : "^pass_fissure@blizzard",
+            "d" : "fis_bottom@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1183,9 +1183,9 @@
       },
       "woods2@blizzard" : {
          "exits" : {
-            "e" : "r_land",
-            "n" : "woods3",
-            "s" : "woods2"
+            "e" : "r_land@blizzard",
+            "n" : "woods3@blizzard",
+            "s" : "woods2@blizzard"
          },
          "flags" : [
             "outdoors"
@@ -1198,10 +1198,10 @@
       },
       "blizzard@blizzard" : {
          "exits" : {
-            "w" : "gate",
-            "e" : "crevasse",
+            "w" : "gate@blizzard",
+            "e" : "crevasse@blizzard",
             "n" : "haven@haven",
-            "s" : "pass"
+            "s" : "pass@blizzard"
          },
          "flags" : [
             "outdoors",
@@ -1215,10 +1215,10 @@
       },
       "woods3@blizzard" : {
          "exits" : {
-            "w" : "waterfall",
-            "e" : "woods3",
+            "w" : "waterfall@blizzard",
+            "e" : "woods3@blizzard",
             "n" : "village45@village",
-            "s" : "woods2"
+            "s" : "woods2@blizzard"
          },
          "flags" : [
             "outdoors"
@@ -1231,9 +1231,9 @@
       },
       "bridge@blizzard" : {
          "exits" : {
-            "w" : "valley",
+            "w" : "valley@blizzard",
             "e" : "village45@village",
-            "s" : "stream"
+            "s" : "stream@blizzard"
          },
          "flags" : [
             "outdoors"
@@ -1246,10 +1246,10 @@
       },
       "dungeon@blizzard" : {
          "exits" : {
-            "w" : "dark_chmb",
-            "e" : "^door_dungeon",
-            "n" : "moldy",
-            "s" : "messy"
+            "w" : "dark_chmb@blizzard",
+            "e" : "^door_dungeon@blizzard",
+            "n" : "moldy@blizzard",
+            "s" : "messy@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1260,8 +1260,8 @@
       },
       "ruined@blizzard" : {
          "exits" : {
-            "n" : "secret",
-            "d" : "^platform_altar"
+            "n" : "secret@blizzard",
+            "d" : "^platform_altar@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1272,7 +1272,7 @@
       },
       "dark_chmb@blizzard" : {
          "exits" : {
-            "e" : "dungeon"
+            "e" : "dungeon@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1283,8 +1283,8 @@
       },
       "shattered@blizzard" : {
          "exits" : {
-            "w" : "landing",
-            "e" : "^pillar_west"
+            "w" : "landing@blizzard",
+            "e" : "^pillar_west@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1295,9 +1295,9 @@
       },
       "snow_temple@blizzard" : {
          "exits" : {
-            "w" : "ravine",
+            "w" : "ravine@blizzard",
             "e" : "f1@doom",
-            "d" : "^snow_iceb"
+            "d" : "^snow_iceb@blizzard"
          },
          "flags" : [
             "cold",
@@ -1332,7 +1332,7 @@
       },
       "rune_cave@blizzard" : {
          "exits" : {
-            "w" : "pillared"
+            "w" : "pillared@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1343,8 +1343,8 @@
       },
       "lava_led2@blizzard" : {
          "exits" : {
-            "n" : "lava_ledge",
-            "s" : "temple"
+            "n" : "lava_ledge@blizzard",
+            "s" : "temple@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1355,10 +1355,10 @@
       },
       "woods@blizzard" : {
          "exits" : {
-            "w" : "Mpath@valley",
-            "e" : "waterfall",
-            "n" : "valley",
-            "s" : "shady"
+            "w" : "mpath@valley",
+            "e" : "waterfall@blizzard",
+            "n" : "valley@blizzard",
+            "s" : "shady@blizzard"
          },
          "flags" : [
             "outdoors"
@@ -1371,9 +1371,9 @@
       },
       "guard2@blizzard" : {
          "exits" : {
-            "w" : "pass",
-            "e" : "guard",
-            "u" : "landing"
+            "w" : "pass@blizzard",
+            "e" : "guard@blizzard",
+            "u" : "landing@blizzard"
          },
          "flags" : [
             "death"
@@ -1386,9 +1386,9 @@
       },
       "chamber@blizzard" : {
          "exits" : {
-            "e" : "window",
-            "n" : "gloomy",
-            "s" : "passage"
+            "e" : "window@blizzard",
+            "n" : "gloomy@blizzard",
+            "s" : "passage@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1399,8 +1399,8 @@
       },
       "dark_cave@blizzard" : {
          "exits" : {
-            "w" : "narrow",
-            "e" : "shadowy"
+            "w" : "narrow@blizzard",
+            "e" : "shadowy@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1411,9 +1411,9 @@
       },
       "catacomb2@blizzard" : {
          "exits" : {
-            "w" : "catacomb3",
-            "n" : "priests",
-            "s" : "catacomb1"
+            "w" : "catacomb3@blizzard",
+            "n" : "priests@blizzard",
+            "s" : "catacomb1@blizzard"
          },
          "flags" : [
             "Soundproof",
@@ -1428,8 +1428,8 @@
       "treravine@blizzard" : {
          "exits" : {
             "w" : "outside@maeron",
-            "e" : "pasture",
-            "d" : "window"
+            "e" : "pasture@blizzard",
+            "d" : "window@blizzard"
          },
          "flags" : [
             "outdoors"
@@ -1442,8 +1442,8 @@
       },
       "moldy@blizzard" : {
          "exits" : {
-            "n" : "limestone",
-            "s" : "dungeon"
+            "n" : "limestone@blizzard",
+            "s" : "dungeon@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1454,7 +1454,7 @@
       },
       "underruined@blizzard" : {
          "exits" : {
-            "u" : "^platform_under",
+            "u" : "^platform_under@blizzard",
             "d" : "start@ruins"
          },
          "flags" : [],
@@ -1466,7 +1466,7 @@
       },
       "grassy@blizzard" : {
          "exits" : {
-            "n" : "waterfall"
+            "n" : "waterfall@blizzard"
          },
          "flags" : [
             "outdoors"
@@ -1479,10 +1479,10 @@
       },
       "e_pass@blizzard" : {
          "exits" : {
-            "w" : "Path1@Orchold",
-            "e" : "valley",
-            "u" : "Path1@Orchold",
-            "n" : "s_pass"
+            "w" : "path1@orchold",
+            "e" : "valley@blizzard",
+            "u" : "path1@orchold",
+            "n" : "s_pass@blizzard"
          },
          "flags" : [
             "outdoors"
@@ -1495,9 +1495,9 @@
       },
       "huge_cav@blizzard" : {
          "exits" : {
-            "e" : "rocky",
-            "d" : "canyon",
-            "s" : "flickering"
+            "e" : "rocky@blizzard",
+            "d" : "canyon@blizzard",
+            "s" : "flickering@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1508,7 +1508,7 @@
       },
       "well@blizzard" : {
          "exits" : {
-            "u" : "large_cav"
+            "u" : "large_cav@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1519,8 +1519,8 @@
       },
       "canyon@blizzard" : {
          "exits" : {
-            "e" : "rocky_can",
-            "u" : "huge_cav"
+            "e" : "rocky_can@blizzard",
+            "u" : "huge_cav@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1531,10 +1531,10 @@
       },
       "crevasse@blizzard" : {
          "exits" : {
-            "w" : "blizzard",
-            "n" : "blizzard",
-            "d" : "bottom",
-            "s" : "blizzard"
+            "w" : "blizzard@blizzard",
+            "n" : "blizzard@blizzard",
+            "d" : "bottom@blizzard",
+            "s" : "blizzard@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1545,8 +1545,8 @@
       },
       "hall@blizzard" : {
          "exits" : {
-            "w" : "^bridge_hall",
-            "e" : "lava_ledge"
+            "w" : "^bridge_hall@blizzard",
+            "e" : "lava_ledge@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1557,7 +1557,7 @@
       },
       "rocky@blizzard" : {
          "exits" : {
-            "w" : "huge_cav"
+            "w" : "huge_cav@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1568,7 +1568,7 @@
       },
       "restch@blizzard" : {
          "exits" : {
-            "n" : "narrow"
+            "n" : "narrow@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1579,7 +1579,7 @@
       },
       "catacomb1@blizzard" : {
          "exits" : {
-            "n" : "catacomb2"
+            "n" : "catacomb2@blizzard"
          },
          "flags" : [
             "Soundproof",
@@ -1593,7 +1593,7 @@
       },
       "hut@blizzard" : {
          "exits" : {
-            "s" : "pasture"
+            "s" : "pasture@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1604,7 +1604,7 @@
       },
       "secret_chmb@blizzard" : {
          "exits" : {
-            "w" : "well"
+            "w" : "well@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1615,9 +1615,9 @@
       },
       "pass2@blizzard" : {
          "exits" : {
-            "w" : "S_Cave@icecave",
-            "n" : "pass",
-            "s" : "n_pass"
+            "w" : "s_cave@icecave",
+            "n" : "pass@blizzard",
+            "s" : "n_pass@blizzard"
          },
          "flags" : [
             "cold",
@@ -1633,7 +1633,7 @@
          "exits" : {
             "e" : "haven@haven",
             "n" : "dark@valley",
-            "s" : "blizzard"
+            "s" : "blizzard@blizzard"
          },
          "flags" : [
             "cold",
@@ -1647,9 +1647,9 @@
       },
       "bottom@blizzard" : {
          "exits" : {
-            "e" : "elemental",
+            "e" : "elemental@blizzard",
             "w" : "ds1@dragonslueth",
-            "u" : "crevasse"
+            "u" : "crevasse@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1661,8 +1661,8 @@
       "shady@blizzard" : {
          "exits" : {
             "e" : "start@fantasy",
-            "n" : "woods",
-            "s" : "Mou1@Mountain"
+            "n" : "woods@blizzard",
+            "s" : "mou1@mountain"
          },
          "flags" : [
             "outdoors",
@@ -1676,9 +1676,9 @@
       },
       "corridor@blizzard" : {
          "exits" : {
-            "w" : "pentacle",
-            "e" : "dark",
-            "n" : "storage"
+            "w" : "pentacle@blizzard",
+            "e" : "dark@blizzard",
+            "n" : "storage@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1689,7 +1689,7 @@
       },
       "library@blizzard" : {
          "exits" : {
-            "n" : "entrance"
+            "n" : "entrance@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1700,8 +1700,8 @@
       },
       "ravine@blizzard" : {
          "exits" : {
-            "w" : "pass3",
-            "e" : "snow_temple"
+            "w" : "pass3@blizzard",
+            "e" : "snow_temple@blizzard"
          },
          "flags" : [
             "cold",
@@ -1715,7 +1715,7 @@
       },
       "laboratory@blizzard" : {
          "exits" : {
-            "n" : "^door_laboratory"
+            "n" : "^door_laboratory@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1726,7 +1726,7 @@
       },
       "gloomy@blizzard" : {
          "exits" : {
-            "s" : "chamber"
+            "s" : "chamber@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1737,10 +1737,10 @@
       },
       "stonewalled@blizzard" : {
          "exits" : {
-            "w" : "dark",
-            "e" : "passage",
-            "n" : "robing",
-            "d" : "^statue_up"
+            "w" : "dark@blizzard",
+            "e" : "passage@blizzard",
+            "n" : "robing@blizzard",
+            "d" : "^statue_up@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1751,8 +1751,8 @@
       },
       "lava_cav@blizzard" : {
          "exits" : {
-            "n" : "pillared",
-            "d" : "lava_path"
+            "n" : "pillared@blizzard",
+            "d" : "lava_path@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1763,7 +1763,7 @@
       },
       "narrow_ledge@blizzard" : {
          "exits" : {
-            "w" : "stone_cell"
+            "w" : "stone_cell@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1774,8 +1774,8 @@
       },
       "n_pass@blizzard" : {
          "exits" : {
-            "n" : "pass2",
-            "s" : "pass3"
+            "n" : "pass2@blizzard",
+            "s" : "pass3@blizzard"
          },
          "flags" : [
             "cold",
@@ -1789,8 +1789,8 @@
       },
       "stonew_room@blizzard" : {
          "exits" : {
-            "w" : "pillared2",
-            "d" : "^grille"
+            "w" : "pillared2@blizzard",
+            "d" : "^grille@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1801,7 +1801,7 @@
       },
       "pentacle@blizzard" : {
          "exits" : {
-            "e" : "corridor"
+            "e" : "corridor@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1812,7 +1812,7 @@
       },
       "storage@blizzard" : {
          "exits" : {
-            "s" : "corridor"
+            "s" : "corridor@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1823,8 +1823,8 @@
       },
       "rocky_can@blizzard" : {
          "exits" : {
-            "w" : "canyon",
-            "e" : "damp"
+            "w" : "canyon@blizzard",
+            "e" : "damp@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1835,8 +1835,8 @@
       },
       "stream@blizzard" : {
          "exits" : {
-            "w" : "F6@Forest",
-            "n" : "bridge"
+            "w" : "f6@forest",
+            "n" : "bridge@blizzard"
          },
          "flags" : [
             "outdoors"
@@ -1849,8 +1849,8 @@
       },
       "lava_path@blizzard" : {
          "exits" : {
-            "e" : "lava_path2",
-            "u" : "lava_cav"
+            "e" : "lava_path2@blizzard",
+            "u" : "lava_cav@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1861,7 +1861,7 @@
       },
       "priests@blizzard" : {
          "exits" : {
-            "s" : "catacomb2"
+            "s" : "catacomb2@blizzard"
          },
          "flags" : [
             "Soundproof",
@@ -1875,8 +1875,8 @@
       },
       "fire_gate@blizzard" : {
          "exits" : {
-            "e" : "^bridge_fire",
-            "w" : "flickering"
+            "e" : "^bridge_fire@blizzard",
+            "w" : "flickering@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1887,8 +1887,8 @@
       },
       "pasture@blizzard" : {
          "exits" : {
-            "w" : "treravine",
-            "n" : "hut"
+            "w" : "treravine@blizzard",
+            "n" : "hut@blizzard"
          },
          "flags" : [
             "outdoors"
@@ -1901,9 +1901,9 @@
       },
       "window@blizzard" : {
          "exits" : {
-            "w" : "chamber",
-            "u" : "treravine",
-            "d" : "pass"
+            "w" : "chamber@blizzard",
+            "u" : "treravine@blizzard",
+            "d" : "pass@blizzard"
          },
          "flags" : [
             "outdoors",
@@ -1918,9 +1918,9 @@
       },
       "pillared@blizzard" : {
          "exits" : {
-            "e" : "rune_cave",
-            "n" : "large_cav",
-            "s" : "lava_cav"
+            "e" : "rune_cave@blizzard",
+            "n" : "large_cav@blizzard",
+            "s" : "lava_cav@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1931,7 +1931,7 @@
       },
       "fis_bottom@blizzard" : {
          "exits" : {
-            "s" : "crack"
+            "s" : "crack@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1942,8 +1942,8 @@
       },
       "s_pass@blizzard" : {
          "exits" : {
-            "n" : "pass3",
-            "s" : "e_pass"
+            "n" : "pass3@blizzard",
+            "s" : "e_pass@blizzard"
          },
          "flags" : [
             "cold",
@@ -1957,8 +1957,8 @@
       },
       "temple@blizzard" : {
          "exits" : {
-            "e" : "workroom",
-            "n" : "lava_led2"
+            "e" : "workroom@blizzard",
+            "n" : "lava_led2@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1969,9 +1969,9 @@
       },
       "flickering@blizzard" : {
          "exits" : {
-            "w" : "guard",
-            "e" : "fire_gate",
-            "n" : "huge_cav"
+            "w" : "guard@blizzard",
+            "e" : "fire_gate@blizzard",
+            "n" : "huge_cav@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -1982,10 +1982,10 @@
       },
       "valley@blizzard" : {
          "exits" : {
-            "w" : "e_pass",
-            "e" : "bridge",
+            "w" : "e_pass@blizzard",
+            "e" : "bridge@blizzard",
             "n" : "grove@oaktree",
-            "s" : "woods"
+            "s" : "woods@blizzard"
          },
          "flags" : [
             "outdoors"
@@ -1998,8 +1998,8 @@
       },
       "gallery@blizzard" : {
          "exits" : {
-            "w" : "^hole_gallery",
-            "d" : "guard"
+            "w" : "^hole_gallery@blizzard",
+            "d" : "guard@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -2010,8 +2010,8 @@
       },
       "limestone@blizzard" : {
          "exits" : {
-            "w" : "shadowy",
-            "s" : "moldy"
+            "w" : "shadowy@blizzard",
+            "s" : "moldy@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -2022,8 +2022,8 @@
       },
       "damp@blizzard" : {
          "exits" : {
-            "w" : "rocky_can",
-            "e" : "pillared2"
+            "w" : "rocky_can@blizzard",
+            "e" : "pillared2@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -2034,8 +2034,8 @@
       },
       "throne@blizzard" : {
          "exits" : {
-            "n" : "^throne_curtains",
-            "s" : "pillared2"
+            "n" : "^throne_curtains@blizzard",
+            "s" : "pillared2@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -2046,9 +2046,9 @@
       },
       "pillared2@blizzard" : {
          "exits" : {
-            "w" : "damp",
-            "e" : "stonew_room",
-            "n" : "throne"
+            "w" : "damp@blizzard",
+            "e" : "stonew_room@blizzard",
+            "n" : "throne@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -2059,9 +2059,9 @@
       },
       "large_cav@blizzard" : {
          "exits" : {
-            "w" : "crypt",
-            "d" : "well",
-            "s" : "pillared"
+            "w" : "crypt@blizzard",
+            "d" : "well@blizzard",
+            "s" : "pillared@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -2072,7 +2072,7 @@
       },
       "messy@blizzard" : {
          "exits" : {
-            "n" : "dungeon"
+            "n" : "dungeon@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -2083,9 +2083,9 @@
       },
       "guard@blizzard" : {
          "exits" : {
-            "w" : "guard2",
-            "e" : "flickering",
-            "u" : "gallery"
+            "w" : "guard2@blizzard",
+            "e" : "flickering@blizzard",
+            "u" : "gallery@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -2096,7 +2096,7 @@
       },
       "specsimp@blizzard" : {
          "exits" : {
-            "s" : "store"
+            "s" : "store@blizzard"
          },
          "flags" : [
             "Peace"
@@ -2109,8 +2109,8 @@
       },
       "stone_cell@blizzard" : {
          "exits" : {
-            "w" : "^door_cell",
-            "e" : "^pass_stone"
+            "w" : "^door_cell@blizzard",
+            "e" : "^pass_stone@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -2121,10 +2121,10 @@
       },
       "dark@blizzard" : {
          "exits" : {
-            "w" : "corridor",
-            "e" : "stonewalled",
-            "n" : "chessQQ00@chess",
-            "d" : "landing"
+            "w" : "corridor@blizzard",
+            "e" : "stonewalled@blizzard",
+            "n" : "chessqq00@chess",
+            "d" : "landing@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -2135,8 +2135,8 @@
       },
       "secret@blizzard" : {
          "exits" : {
-            "u" : "^statue_down",
-            "s" : "ruined"
+            "u" : "^statue_down@blizzard",
+            "s" : "ruined@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -2147,7 +2147,7 @@
       },
       "catacomb3@blizzard" : {
          "exits" : {
-            "e" : "catacomb3"
+            "e" : "catacomb3@blizzard"
          },
          "flags" : [
             "Soundproof",
@@ -2161,8 +2161,8 @@
       },
       "crack@blizzard" : {
          "exits" : {
-            "e" : "^hole_crack",
-            "n" : "fis_bottom"
+            "e" : "^hole_crack@blizzard",
+            "n" : "fis_bottom@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -2173,10 +2173,10 @@
       },
       "r_land@blizzard" : {
          "exits" : {
-            "w" : "woods2",
+            "w" : "woods2@blizzard",
             "e" : "drop@quarry",
-            "n" : "woods3",
-            "s" : "WindPath@nrose"
+            "n" : "woods3@blizzard",
+            "s" : "windpath@nrose"
          },
          "flags" : [
             "outdoors"
@@ -2189,9 +2189,9 @@
       },
       "shadowy@blizzard" : {
          "exits" : {
-            "w" : "dark_cave",
-            "e" : "limestone",
-            "s" : "^door_shadowy"
+            "w" : "dark_cave@blizzard",
+            "e" : "limestone@blizzard",
+            "s" : "^door_shadowy@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -2202,9 +2202,9 @@
       },
       "narrow@blizzard" : {
          "exits" : {
-            "w" : "^pillar_east",
-            "e" : "dark_cave",
-            "s" : "restch"
+            "w" : "^pillar_east@blizzard",
+            "e" : "dark_cave@blizzard",
+            "s" : "restch@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -2215,9 +2215,9 @@
       },
       "landing@blizzard" : {
          "exits" : {
-            "e" : "shattered",
-            "u" : "dark",
-            "d" : "guard2"
+            "e" : "shattered@blizzard",
+            "u" : "dark@blizzard",
+            "d" : "guard2@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -2228,8 +2228,8 @@
       },
       "rough@blizzard" : {
          "exits" : {
-            "n" : "glittering",
-            "s" : "^rough_curtains"
+            "n" : "glittering@blizzard",
+            "s" : "^rough_curtains@blizzard"
          },
          "flags" : [],
          "zone" : "blizzard",
@@ -2240,7 +2240,7 @@
       },
       "store@blizzard" : {
          "exits" : {
-            "n" : "specsimp",
+            "n" : "specsimp@blizzard",
             "s" : "village44@village"
          },
          "flags" : [
@@ -2256,7 +2256,7 @@
    "mob" : {
       "ogre@blizzard" : {
          "damage" : "14",
-         "location" : "guard",
+         "location" : "guard@blizzard",
          "aggression" : "30",
          "armor" : "0",
          "pname" : "The Ogre",
@@ -2266,7 +2266,7 @@
       },
       "ghoul@blizzard" : {
          "damage" : "10",
-         "location" : "crypt",
+         "location" : "crypt@blizzard",
          "armor" : "0",
          "name" : "ghoul",
          "description" : "An evil looking ghoul skulks in the shadows.",
@@ -2285,7 +2285,7 @@
             "Missile"
          ],
          "damage" : "10",
-         "location" : "hut",
+         "location" : "hut@blizzard",
          "armor" : "0",
          "name" : "hermit",
          "description" : "A hungry, unwashed hermit sits here.",
@@ -2302,7 +2302,7 @@
       },
       "giant@blizzard" : {
          "damage" : "11",
-         "location" : "glittering",
+         "location" : "glittering@blizzard",
          "armor" : "0",
          "name" : "giant",
          "description" : "A giant snores loudly in one corner.",
@@ -2316,7 +2316,7 @@
             "ImmFrost"
          ],
          "damage" : "10",
-         "location" : "pass2",
+         "location" : "pass2@blizzard",
          "armor" : "0",
          "name" : "yeti",
          "description" : "A huge, furry yeti rears up threateningly in front of you!",
@@ -2330,7 +2330,7 @@
       },
       "seamas@blizzard" : {
          "damage" : "10",
-         "location" : "stream",
+         "location" : "stream@blizzard",
          "aggression" : "0",
          "armor" : "0",
          "name" : "seamas",
@@ -2342,7 +2342,7 @@
       },
       "riatha@blizzard" : {
          "damage" : "15",
-         "location" : "temple",
+         "location" : "temple@blizzard",
          "aggression" : "31",
          "armor" : "0",
          "name" : "riatha",
@@ -2351,7 +2351,7 @@
       },
       "teacher@blizzard" : {
          "damage" : "25",
-         "location" : "specsimp",
+         "location" : "specsimp@blizzard",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "25",
@@ -2362,7 +2362,7 @@
       },
       "figure@blizzard" : {
          "damage" : "14",
-         "location" : "entrance",
+         "location" : "entrance@blizzard",
          "armor" : "0",
          "name" : "figure",
          "description" : "A huge magical figure stands on guard.",

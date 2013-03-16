@@ -1,7 +1,7 @@
 {
    "obj" : {
       "leather@village" : {
-         "location" : "WORN_BY:armorer",
+         "location" : "WORN_BY:armorer@village",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -21,7 +21,7 @@
       },
       "beer@village" : {
          "desc[1]" : "There is a draught beer on the counter here.",
-         "location" : "IN_ROOM:saloon1",
+         "location" : "IN_ROOM:saloon1@village",
          "oflags" : [
             "GetFlips",
             "Alcohol",
@@ -37,7 +37,7 @@
          "desc[0]" : "Someone has thoughtlessly left a draught beer here."
       },
       "map@village" : {
-         "location" : "IN_ROOM:slanted",
+         "location" : "IN_ROOM:slanted@village",
          "weight" : "1",
          "name" : "map",
          "examine" : "Jetty: east, east, east; south, east; north, east: Beach",
@@ -46,7 +46,7 @@
          "size" : "1"
       },
       "bread@village" : {
-         "location" : "CARRIED_BY:baker",
+         "location" : "CARRIED_BY:baker@village",
          "oflags" : [
             "Food"
          ],
@@ -59,7 +59,7 @@
       },
       "outer_door@village" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:vault1",
+         "location" : "IN_ROOM:vault1@village",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -75,7 +75,7 @@
       },
       "sack@village" : {
          "desc[1]" : "A very large sack has been left here. The sack is closed.",
-         "location" : "IN_ROOM:alley",
+         "location" : "IN_ROOM:alley@village",
          "oflags" : [
             "Container",
             "Openable"
@@ -88,7 +88,7 @@
          "desc[0]" : "A very large sack has been left here."
       },
       "boat@village" : {
-         "location" : "IN_ROOM:jetty",
+         "location" : "IN_ROOM:jetty@village",
          "weight" : "100",
          "oflags" : [
             "Boat"
@@ -99,7 +99,7 @@
          "size" : "100"
       },
       "silvercoins@village" : {
-         "location" : "IN_CONTAINER:box",
+         "location" : "IN_CONTAINER:box@village",
          "weight" : "3",
          "pname" : "coins",
          "name" : "silvercoins",
@@ -108,7 +108,7 @@
          "size" : "3"
       },
       "sheets@village" : {
-         "location" : "IN_ROOM:barman",
+         "location" : "IN_ROOM:barman@village",
          "weight" : "30",
          "name" : "sheets",
          "bvalue" : "10",
@@ -116,7 +116,7 @@
          "size" : "20"
       },
       "fire@village" : {
-         "location" : "IN_ROOM:seadog",
+         "location" : "IN_ROOM:seadog@village",
          "oflags" : [
             "Extinguish",
             "Lit",
@@ -127,7 +127,7 @@
          "desc[0]" : "A huge fire burns in the center of the room."
       },
       "gates2@village" : {
-         "location" : "IN_ROOM:village44",
+         "location" : "IN_ROOM:village44@village",
          "oflags" : [
             "NoGet"
          ],
@@ -141,7 +141,7 @@
       },
       "inner_door@village" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:vault2",
+         "location" : "IN_ROOM:vault2@village",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -156,7 +156,7 @@
          "desc[0]" : "The door is open."
       },
       "silk@village" : {
-         "location" : "IN_ROOM:chamber",
+         "location" : "IN_ROOM:chamber@village",
          "weight" : "40",
          "altname" : "bale",
          "name" : "silk",
@@ -165,7 +165,7 @@
          "size" : "40"
       },
       "flag@village" : {
-         "location" : "IN_ROOM:chamber",
+         "location" : "IN_ROOM:chamber@village",
          "weight" : "5",
          "altname" : "jolly",
          "name" : "flag",
@@ -175,7 +175,7 @@
       },
       "box@village" : {
          "desc[1]" : "A closed safety deposit box has been left here.",
-         "location" : "IN_ROOM:vault2",
+         "location" : "IN_ROOM:vault2@village",
          "oflags" : [
             "Container",
             "Openable"
@@ -189,7 +189,7 @@
          "desc[0]" : "A safety deposit box has been left here."
       },
       "money@village" : {
-         "location" : "IN_ROOM:vault2",
+         "location" : "IN_ROOM:vault2@village",
          "weight" : "1",
          "altname" : "cash",
          "name" : "money",
@@ -199,7 +199,7 @@
          "size" : "1"
       },
       "pen@village" : {
-         "location" : "IN_ROOM:office",
+         "location" : "IN_ROOM:office@village",
          "weight" : "1",
          "altname" : "biro",
          "name" : "pen",
@@ -209,7 +209,7 @@
       },
       "oar@village" : {
          "damage" : "5",
-         "location" : "IN_ROOM:shed",
+         "location" : "IN_ROOM:shed@village",
          "oflags" : [
             "Weapon"
          ],
@@ -221,7 +221,7 @@
       },
       "poker@village" : {
          "damage" : "5",
-         "location" : "IN_ROOM:seadog",
+         "location" : "IN_ROOM:seadog@village",
          "oflags" : [
             "Weapon"
          ],
@@ -233,7 +233,7 @@
          "desc[0]" : "A heavy iron poker has been left here."
       },
       "leggings@village" : {
-         "location" : "IN_ROOM:Cave",
+         "location" : "IN_ROOM:cave@village",
          "armor" : "18",
          "oflags" : [
             "Wearable",
@@ -254,7 +254,7 @@
          ]
       },
       "jug@village" : {
-         "location" : "IN_ROOM:barman",
+         "location" : "IN_ROOM:barman@village",
          "weight" : "2",
          "name" : "jug",
          "examine" : "\nThis jug is shaped somewhat like a stout man with a cocked hat for the brim.",
@@ -263,7 +263,7 @@
          "size" : "4"
       },
       "desk@village" : {
-         "location" : "IN_ROOM:office",
+         "location" : "IN_ROOM:office@village",
          "oflags" : [
             "NoGet"
          ],
@@ -271,7 +271,7 @@
          "desc[0]" : "The manager's desk is here covered with papers."
       },
       "bed@village" : {
-         "location" : "IN_ROOM:barman",
+         "location" : "IN_ROOM:barman@village",
          "weight" : "200",
          "oflags" : [
             "NoGet"
@@ -281,7 +281,7 @@
          "size" : "100"
       },
       "rat@village" : {
-         "location" : "IN_CONTAINER:barrel",
+         "location" : "IN_CONTAINER:barrel@village",
          "weight" : "1",
          "name" : "rat",
          "bvalue" : "1",
@@ -290,7 +290,7 @@
       },
       "barrel@village" : {
          "desc[1]" : "A large wooden barrel squats in a corner.",
-         "location" : "IN_ROOM:cellar",
+         "location" : "IN_ROOM:cellar@village",
          "oflags" : [
             "Openable",
             "Container",
@@ -305,7 +305,7 @@
          "desc[0]" : "An open wooden barrel stands before you."
       },
       "bot_boards@village" : {
-         "location" : "IN_ROOM:passage",
+         "location" : "IN_ROOM:passage@village",
          "oflags" : [
             "NoGet"
          ],
@@ -320,7 +320,7 @@
          "desc[0]" : "\nThe floorboards above you have been lifted, to allow access to some kind of\nroom above."
       },
       "gates1@village" : {
-         "location" : "IN_ROOM:village45",
+         "location" : "IN_ROOM:village45@village",
          "oflags" : [
             "NoGet"
          ],
@@ -333,7 +333,7 @@
          "desc[0]" : "The gates of the village are open."
       },
       "pebble@village" : {
-         "location" : "IN_ROOM:cove",
+         "location" : "IN_ROOM:cove@village",
          "weight" : "1",
          "altname" : "stone",
          "name" : "pebble",
@@ -342,7 +342,7 @@
       },
       "knife@village" : {
          "damage" : "4",
-         "location" : "IN_ROOM:yard",
+         "location" : "IN_ROOM:yard@village",
          "oflags" : [
             "Weapon"
          ],
@@ -353,7 +353,7 @@
          "desc[0]" : "A small filleting knife has been left here carelessly."
       },
       "top_boards@village" : {
-         "location" : "IN_ROOM:cellar",
+         "location" : "IN_ROOM:cellar@village",
          "oflags" : [
             "NoGet"
          ],
@@ -368,7 +368,7 @@
          "desc[0]" : "\nOne of the floorboards has been lifted, allowing access down under the cellar,\nto some kind of passage."
       },
       "raft@village" : {
-         "location" : "IN_ROOM:cove",
+         "location" : "IN_ROOM:cove@village",
          "weight" : "100",
          "oflags" : [
             "Boat"
@@ -379,7 +379,7 @@
          "size" : "100"
       },
       "bell@village" : {
-         "location" : "IN_ROOM:barman",
+         "location" : "IN_ROOM:barman@village",
          "weight" : "40",
          "name" : "bell",
          "bvalue" : "120",
@@ -387,7 +387,7 @@
          "size" : "30"
       },
       "donut@village" : {
-         "location" : "CARRIED_BY:baker",
+         "location" : "CARRIED_BY:baker@village",
          "oflags" : [
             "Food"
          ],
@@ -400,7 +400,7 @@
       },
       "batten@village" : {
          "damage" : "6",
-         "location" : "WIELDED_BY:bankguard",
+         "location" : "WIELDED_BY:bankguard@village",
          "oflags" : [
             "Weapon"
          ],
@@ -414,7 +414,7 @@
    "loc" : {
       "vault2@village" : {
          "exits" : {
-            "s" : "^Inner_door"
+            "s" : "^inner_door@village"
          },
          "flags" : [],
          "zone" : "village",
@@ -425,8 +425,8 @@
       },
       "chamber@village" : {
          "exits" : {
-            "w" : "Dirt",
-            "s" : "Passage"
+            "w" : "dirt@village",
+            "s" : "passage@village"
          },
          "flags" : [
             "Dark"
@@ -439,8 +439,8 @@
       },
       "inn_yard@village" : {
          "exits" : {
-            "e" : "Seadog",
-            "n" : "Road2",
+            "e" : "seadog@village",
+            "n" : "road2@village",
             "s" : "flag@noxypickle"
          },
          "flags" : [
@@ -455,8 +455,8 @@
       "road7@village" : {
          "exits" : {
             "w" : "1@stjames",
-            "e" : "Road6",
-            "n" : "Bank"
+            "e" : "road6@village",
+            "n" : "bank@village"
          },
          "flags" : [
             "Outdoors"
@@ -469,9 +469,9 @@
       },
       "behind@village" : {
          "exits" : {
-            "w" : "Seadog",
-            "e" : "Barman",
-            "d" : "Steps"
+            "w" : "seadog@village",
+            "e" : "barman@village",
+            "d" : "steps@village"
          },
          "flags" : [],
          "zone" : "village",
@@ -482,7 +482,7 @@
       },
       "village45@village" : {
          "exits" : {
-            "e" : "village44",
+            "e" : "village44@village",
             "w" : "bridge@blizzard",
             "s" : "woods3@blizzard"
          },
@@ -497,8 +497,8 @@
       },
       "seadog@village" : {
          "exits" : {
-            "w" : "Inn_Yard",
-            "e" : "Behind"
+            "w" : "inn_yard@village",
+            "e" : "behind@village"
          },
          "flags" : [],
          "zone" : "village",
@@ -509,10 +509,10 @@
       },
       "road8@village" : {
          "exits" : {
-            "w" : "Weaponshop",
-            "e" : "Armory",
-            "n" : "Road9",
-            "s" : "Road4"
+            "w" : "weaponshop@village",
+            "e" : "armory@village",
+            "n" : "road9@village",
+            "s" : "road4@village"
          },
          "flags" : [
             "Outdoors"
@@ -525,8 +525,8 @@
       },
       "slanted@village" : {
          "exits" : {
-            "n" : "Narrow",
-            "s" : "Dirt"
+            "n" : "narrow@village",
+            "s" : "dirt@village"
          },
          "flags" : [
             "Dark"
@@ -539,10 +539,10 @@
       },
       "road2@village" : {
          "exits" : {
-            "w" : "Road1",
-            "e" : "Shore",
-            "n" : "Road3",
-            "s" : "Inn_Yard"
+            "w" : "road1@village",
+            "e" : "shore@village",
+            "n" : "road3@village",
+            "s" : "inn_yard@village"
          },
          "flags" : [
             "Outdoors"
@@ -555,7 +555,7 @@
       },
       "villlearn@village" : {
          "exits" : {
-            "w" : "Alley",
+            "w" : "alley@village",
             "u" : "newbie12@newbie"
          },
          "flags" : [
@@ -570,7 +570,7 @@
       },
       "cove@village" : {
          "exits" : {
-            "w" : "Cave",
+            "w" : "cave@village",
             "e" : "7@sea",
             "u" : "^ladder2pirate@pirate"
          },
@@ -583,8 +583,8 @@
       },
       "vault1@village" : {
          "exits" : {
-            "u" : "Bank",
-            "n" : "^Outer_door"
+            "u" : "bank@village",
+            "n" : "^outer_door@village"
          },
          "flags" : [],
          "zone" : "village",
@@ -595,9 +595,9 @@
       },
       "bank@village" : {
          "exits" : {
-            "w" : "Office",
-            "d" : "Vault1",
-            "s" : "Road7"
+            "w" : "office@village",
+            "d" : "vault1@village",
+            "s" : "road7@village"
          },
          "flags" : [],
          "zone" : "village",
@@ -608,9 +608,9 @@
       },
       "well2@village" : {
          "exits" : {
-            "e" : "Tunnel",
-            "u" : "Alley",
-            "d" : "Well1"
+            "e" : "tunnel@village",
+            "u" : "alley@village",
+            "d" : "well1@village"
          },
          "flags" : [],
          "zone" : "village",
@@ -621,7 +621,7 @@
       },
       "jetty@village" : {
          "exits" : {
-            "w" : "Shore",
+            "w" : "shore@village",
             "e" : "2@sea",
             "d" : "camb1@evolution"
          },
@@ -636,9 +636,9 @@
       },
       "road4@village" : {
          "exits" : {
-            "w" : "Road6",
-            "n" : "Road5",
-            "s" : "Road3"
+            "w" : "road6@village",
+            "n" : "road5@village",
+            "s" : "road3@village"
          },
          "flags" : [
             "Outdoors"
@@ -651,8 +651,8 @@
       },
       "narrow@village" : {
          "exits" : {
-            "e" : "Cave",
-            "s" : "Slanted"
+            "e" : "cave@village",
+            "s" : "slanted@village"
          },
          "flags" : [
             "Dark"
@@ -665,8 +665,8 @@
       },
       "village44@village" : {
          "exits" : {
-            "e" : "green",
-            "w" : "village45",
+            "e" : "green@village",
+            "w" : "village45@village",
             "n" : "store@blizzard"
          },
          "flags" : [
@@ -680,7 +680,7 @@
       },
       "barman@village" : {
          "exits" : {
-            "w" : "Behind"
+            "w" : "behind@village"
          },
          "flags" : [],
          "zone" : "village",
@@ -691,7 +691,7 @@
       },
       "locksmith@village" : {
          "exits" : {
-            "e" : "Road9"
+            "e" : "road9@village"
          },
          "flags" : [],
          "zone" : "village",
@@ -702,9 +702,9 @@
       },
       "alley@village" : {
          "exits" : {
-            "e" : "Villlearn",
-            "n" : "Road1",
-            "d" : "Well2"
+            "e" : "villlearn@village",
+            "n" : "road1@village",
+            "d" : "well2@village"
          },
          "flags" : [
             "Outdoors"
@@ -717,10 +717,10 @@
       },
       "road1@village" : {
          "exits" : {
-            "w" : "Track",
-            "e" : "Road2",
-            "n" : "Yard",
-            "s" : "Alley"
+            "w" : "track@village",
+            "e" : "road2@village",
+            "n" : "yard@village",
+            "s" : "alley@village"
          },
          "flags" : [
             "Outdoors"
@@ -733,8 +733,8 @@
       },
       "yard@village" : {
          "exits" : {
-            "w" : "Shed",
-            "s" : "Road1"
+            "w" : "shed@village",
+            "s" : "road1@village"
          },
          "flags" : [
             "Outdoors"
@@ -747,8 +747,8 @@
       },
       "shore@village" : {
          "exits" : {
-            "w" : "Road2",
-            "e" : "Jetty",
+            "w" : "road2@village",
+            "e" : "jetty@village",
             "n" : "beach1@beach",
             "s" : "tread15@treadmill"
          },
@@ -763,7 +763,7 @@
       },
       "office@village" : {
          "exits" : {
-            "e" : "Bank"
+            "e" : "bank@village"
          },
          "flags" : [],
          "zone" : "village",
@@ -774,7 +774,7 @@
       },
       "armory@village" : {
          "exits" : {
-            "w" : "Road8"
+            "w" : "road8@village"
          },
          "flags" : [],
          "zone" : "village",
@@ -785,8 +785,8 @@
       },
       "cellar@village" : {
          "exits" : {
-            "u" : "Steps",
-            "d" : "^top_boards"
+            "u" : "steps@village",
+            "d" : "^top_boards@village"
          },
          "flags" : [
             "Dark"
@@ -799,9 +799,9 @@
       },
       "green@village" : {
          "exits" : {
-            "w" : "village44",
-            "e" : "Track",
-            "n" : "Church@start"
+            "w" : "village44@village",
+            "e" : "track@village",
+            "n" : "church@start"
          },
          "flags" : [
             "Outdoors"
@@ -814,8 +814,8 @@
       },
       "passage@village" : {
          "exits" : {
-            "u" : "^bot_boards",
-            "n" : "Chamber"
+            "u" : "^bot_boards@village",
+            "n" : "chamber@village"
          },
          "flags" : [
             "Dark"
@@ -828,9 +828,9 @@
       },
       "road5@village" : {
          "exits" : {
-            "w" : "Saloon1",
-            "n" : "Road8",
-            "s" : "Road4"
+            "w" : "saloon1@village",
+            "n" : "road8@village",
+            "s" : "road4@village"
          },
          "flags" : [
             "Outdoors"
@@ -843,9 +843,9 @@
       },
       "road10@village" : {
          "exits" : {
-            "e" : "Garden@rats",
+            "e" : "garden@rats",
             "n" : "graye5501@graye",
-            "s" : "Road9"
+            "s" : "road9@village"
          },
          "flags" : [
             "Outdoors",
@@ -859,10 +859,10 @@
       },
       "track@village" : {
          "exits" : {
-            "w" : "Green",
-            "e" : "Road1",
+            "w" : "green@village",
+            "e" : "road1@village",
             "n" : "hick1@hick",
-            "s" : "Hospital"
+            "s" : "hospital@village"
          },
          "flags" : [
             "Outdoors"
@@ -875,8 +875,8 @@
       },
       "cave@village" : {
          "exits" : {
-            "w" : "Narrow",
-            "e" : "Cove"
+            "w" : "narrow@village",
+            "e" : "cove@village"
          },
          "flags" : [],
          "zone" : "village",
@@ -899,7 +899,7 @@
       },
       "hospital@village" : {
          "exits" : {
-            "n" : "Track"
+            "n" : "track@village"
          },
          "flags" : [
             "Peace",
@@ -924,7 +924,7 @@
       },
       "shed@village" : {
          "exits" : {
-            "e" : "Yard"
+            "e" : "yard@village"
          },
          "flags" : [
             "Dark"
@@ -938,8 +938,8 @@
       "road3@village" : {
          "exits" : {
             "e" : "house1@playhouse",
-            "n" : "Road4",
-            "s" : "Road2"
+            "n" : "road4@village",
+            "s" : "road2@village"
          },
          "flags" : [
             "Outdoors"
@@ -952,8 +952,8 @@
       },
       "tunnel@village" : {
          "exits" : {
-            "w" : "Well2",
-            "e" : "Dirt"
+            "w" : "well2@village",
+            "e" : "dirt@village"
          },
          "flags" : [
             "Dark"
@@ -966,8 +966,8 @@
       },
       "steps@village" : {
          "exits" : {
-            "u" : "Behind",
-            "d" : "Cellar"
+            "u" : "behind@village",
+            "d" : "cellar@village"
          },
          "flags" : [],
          "zone" : "village",
@@ -978,9 +978,9 @@
       },
       "dirt@village" : {
          "exits" : {
-            "w" : "Tunnel",
-            "e" : "Chamber",
-            "n" : "Slanted"
+            "w" : "tunnel@village",
+            "e" : "chamber@village",
+            "n" : "slanted@village"
          },
          "flags" : [
             "Dark"
@@ -993,9 +993,9 @@
       },
       "road6@village" : {
          "exits" : {
-            "w" : "Road7",
-            "e" : "Road4",
-            "n" : "Saloon1"
+            "w" : "road7@village",
+            "e" : "road4@village",
+            "n" : "saloon1@village"
          },
          "flags" : [
             "Outdoors"
@@ -1008,7 +1008,7 @@
       },
       "store@village" : {
          "exits" : {
-            "w" : "Road9"
+            "w" : "road9@village"
          },
          "flags" : [],
          "zone" : "village",
@@ -1031,8 +1031,8 @@
       },
       "saloon1@village" : {
          "exits" : {
-            "e" : "Road4",
-            "s" : "Road6"
+            "e" : "road4@village",
+            "s" : "road6@village"
          },
          "flags" : [],
          "zone" : "village",
@@ -1043,10 +1043,10 @@
       },
       "road9@village" : {
          "exits" : {
-            "w" : "Locksmith",
-            "e" : "Store",
-            "n" : "Road10",
-            "s" : "Road8"
+            "w" : "locksmith@village",
+            "e" : "store@village",
+            "n" : "road10@village",
+            "s" : "road8@village"
          },
          "flags" : [
             "Outdoors"
@@ -1059,7 +1059,7 @@
       },
       "weaponshop@village" : {
          "exits" : {
-            "e" : "Road8"
+            "e" : "road8@village"
          },
          "flags" : [],
          "zone" : "village",
@@ -1072,7 +1072,7 @@
    "mob" : {
       "armorer@village" : {
          "damage" : "10",
-         "location" : "armory",
+         "location" : "armory@village",
          "armor" : "10",
          "name" : "armorer",
          "description" : "A bulky armorer stands before you.",
@@ -1088,7 +1088,7 @@
       },
       "barman@village" : {
          "damage" : "8",
-         "location" : "saloon1",
+         "location" : "saloon1@village",
          "speed" : "0",
          "pname" : "The Barman",
          "name" : "barman",
@@ -1097,7 +1097,7 @@
       },
       "kenny@village" : {
          "damage" : "7",
-         "location" : "Yard",
+         "location" : "yard@village",
          "speed" : "60",
          "aggression" : "0",
          "armor" : "0",
@@ -1114,7 +1114,7 @@
             "NegMissile"
          ],
          "damage" : "8",
-         "location" : "locksmith",
+         "location" : "locksmith@village",
          "name" : "locksmith",
          "description" : "A crazy-looking man stands here looking at you.",
          "strength" : "90",
@@ -1127,7 +1127,7 @@
       },
       "drunk1@village" : {
          "damage" : "5",
-         "location" : "saloon1",
+         "location" : "saloon1@village",
          "speed" : "4",
          "aggression" : "20",
          "pname" : "Bobby",
@@ -1137,7 +1137,7 @@
       },
       "drunk2@village" : {
          "damage" : "5",
-         "location" : "saloon1",
+         "location" : "saloon1@village",
          "speed" : "0",
          "aggression" : "40",
          "pname" : "The Drunk",
@@ -1148,7 +1148,7 @@
       "professor@village" : {
          "visibility" : "0",
          "damage" : "8",
-         "location" : "seadog",
+         "location" : "seadog@village",
          "speed" : "5",
          "aggression" : "0",
          "armor" : "0",
@@ -1158,7 +1158,7 @@
       },
       "bankteller@village" : {
          "damage" : "6",
-         "location" : "bank",
+         "location" : "bank@village",
          "name" : "bankteller",
          "description" : "A bank teller waits here patiently.",
          "sflags" : [
@@ -1176,7 +1176,7 @@
       },
       "baker@village" : {
          "damage" : "8",
-         "location" : "store",
+         "location" : "store@village",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "2",
@@ -1187,7 +1187,7 @@
       },
       "bankmanager@village" : {
          "damage" : "8",
-         "location" : "office",
+         "location" : "office@village",
          "name" : "bankmanager",
          "description" : "A chubby bank manager stands here wearing a suit.",
          "strength" : "100",
@@ -1203,7 +1203,7 @@
             "NegFireball"
          ],
          "damage" : "8",
-         "location" : "vault1",
+         "location" : "vault1@village",
          "name" : "bankguard",
          "description" : "The bank's security guard stands here.",
          "strength" : "160",
@@ -1219,7 +1219,7 @@
       },
       "child@village" : {
          "damage" : "4",
-         "location" : "road10",
+         "location" : "road10@village",
          "name" : "child",
          "description" : "A small child looks very lost.",
          "sflags" : [
@@ -1235,7 +1235,7 @@
       },
       "lady@village" : {
          "damage" : "8",
-         "location" : "store",
+         "location" : "store@village",
          "name" : "lady",
          "description" : "A lady stands here looking around for something.",
          "sflags" : [

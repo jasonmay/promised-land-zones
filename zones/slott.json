@@ -1,7 +1,7 @@
 {
    "obj" : {
       "necklace@slott" : {
-         "location" : "IN_CONTAINER:Box",
+         "location" : "IN_CONTAINER:box@slott",
          "oflags" : [
             "Wearable"
          ],
@@ -16,7 +16,7 @@
       },
       "shield@slott" : {
          "desc[1]" : "You almost oversaw a dusty Shield in the corner, haven't it been for the \nlight from the window you would never spotted it.",
-         "location" : "IN_ROOM:slott24",
+         "location" : "IN_ROOM:slott24@slott",
          "oflags" : [
             "Armor",
             "GetFlips",
@@ -32,7 +32,7 @@
          "desc[0]" : "A shield has been dropped here."
       },
       "sandwich@slott" : {
-         "location" : "CARRIED_BY:William",
+         "location" : "CARRIED_BY:william@slott",
          "oflags" : [
             "Food"
          ],
@@ -44,7 +44,7 @@
          "desc[0]" : "A freshly made sandwich lies here."
       },
       "table3@slott" : {
-         "location" : "IN_ROOM:slott30",
+         "location" : "IN_ROOM:slott30@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -57,7 +57,7 @@
       },
       "insidedoor4@slott" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:slott15",
+         "location" : "IN_ROOM:slott15@slott",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -74,7 +74,7 @@
       "whip@slott" : {
          "desc[1]" : "A whip hangs on the northern wall.",
          "damage" : "12",
-         "location" : "IN_ROOM:slott2",
+         "location" : "IN_ROOM:slott2@slott",
          "oflags" : [
             "Weapon",
             "GetFlips"
@@ -88,7 +88,7 @@
       },
       "insidedoor6@slott" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:slott44",
+         "location" : "IN_ROOM:slott44@slott",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -103,7 +103,7 @@
          "desc[0]" : "The door is open."
       },
       "benches@slott" : {
-         "location" : "IN_ROOM:slott10",
+         "location" : "IN_ROOM:slott10@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -116,7 +116,7 @@
       },
       "drawer@slott" : {
          "desc[1]" : "There is a drawer in the cupboard, it is closed.",
-         "location" : "IN_ROOM:slott11",
+         "location" : "IN_ROOM:slott11@slott",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -130,7 +130,7 @@
          "desc[0]" : "The drawer has been opened."
       },
       "bed@slott" : {
-         "location" : "IN_ROOM:slott30",
+         "location" : "IN_ROOM:slott30@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -143,7 +143,7 @@
       },
       "bowl@slott" : {
          "desc[1]" : "A bowl has been placed here.",
-         "location" : "IN_CONTAINER:Drawer",
+         "location" : "IN_CONTAINER:drawer@slott",
          "oflags" : [
             "GetFlips",
             "Armor",
@@ -163,7 +163,7 @@
       },
       "bag@slott" : {
          "desc[1]" : "Something is sticking out of the manure!",
-         "location" : "IN_ROOM:slott49",
+         "location" : "IN_ROOM:slott49@slott",
          "oflags" : [
             "GetFlips",
             "Container"
@@ -176,7 +176,7 @@
          "desc[0]" : "A bag has been dropped here ."
       },
       "krusefix@slott" : {
-         "location" : "IN_ROOM:slott10",
+         "location" : "IN_ROOM:slott10@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -188,7 +188,7 @@
          "maxstate" : "0"
       },
       "diary@slott" : {
-         "location" : "IN_CONTAINER:Cupboards2",
+         "location" : "IN_CONTAINER:cupboards2@slott",
          "oflags" : "{ }",
          "name" : "Diary",
          "examine" : "This is the diary of the butler Manfred.\n    The page you have look up is about what happened a dark night\n    for many years ago. The night when the castle was over taken\n    by the evil creature that you now is searching for.\n    The butler has written down the following:\n    'It was a dark and stormy autumn night when we first heard \n    an awful scream, it was the &+Rmrs&* of the house that had \n    Encountered the creature in the library. When I got there \n    she was gone. Then later that night the &+Rson&* and the \n    &+Rdoughter&* disappeared, now one has ever seen them again. \n    But every night when there is a fullmoon, the screams of the\n    missing family members are heard echoing through the castle. \n    I have hidden my &+Rmaster&* in the northeast tower hoping \n    that the creature will not find him there. I don't know why\n    the creature haven't taken me, couse I know it could have,\n    I woke up one night and saw it standing in the doorway to \n    my room but it backed away from me when I stood up and was to\n    jump it. I thought I could capture it and lock it inside the\n    closet. &+YBut it ran away, as if I would SMELL bad or something&*.\n    OH god if I was 30 years younger, I would have gone down into\n    the basement to kill this horrible monster, but ack I'm to old\n    and weakened to wield a sword nore less to hit with it. I'm \n    glad that I had the strength to destroy the stairs down to \n    the basement, preventing IT from coming up here again. Now \n    there is only &+Cone&* way left down there, but that way only \n    leads down &+bso the one who dares to go down might be stuck \n    &+bthere for ever&*! The way down is a &+Csecret passage&* that my \n    &+Rmaster&* only knows of and he won't reveal it to me, maybe \n    he's afraid that I would do something stupid.'",
@@ -199,7 +199,7 @@
          "desc[0]" : "Someone has misplaced their diary here."
       },
       "hole3@slott" : {
-         "location" : "IN_ROOM:slott25",
+         "location" : "IN_ROOM:slott25@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -212,7 +212,7 @@
          "maxstate" : "0"
       },
       "altar@slott" : {
-         "location" : "IN_ROOM:slott10",
+         "location" : "IN_ROOM:slott10@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -224,7 +224,7 @@
          "desc[0]" : "An altar stands at the southern end of the room."
       },
       "table@slott" : {
-         "location" : "IN_ROOM:slott5",
+         "location" : "IN_ROOM:slott5@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -238,7 +238,7 @@
       },
       "footlinks@slott" : {
          "desc[1]" : "The footlinks are unlocked.",
-         "location" : "IN_ROOM:slott43",
+         "location" : "IN_ROOM:slott43@slott",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -255,7 +255,7 @@
       },
       "insidedoor5@slott" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:slott35",
+         "location" : "IN_ROOM:slott35@slott",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -270,7 +270,7 @@
          "desc[0]" : "The door is open."
       },
       "shelf@slott" : {
-         "location" : "IN_ROOM:slott4",
+         "location" : "IN_ROOM:slott4@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -282,7 +282,7 @@
          "maxstate" : "0"
       },
       "window2@slott" : {
-         "location" : "IN_ROOM:slott24",
+         "location" : "IN_ROOM:slott24@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -294,7 +294,7 @@
          "maxstate" : "0"
       },
       "bathtub@slott" : {
-         "location" : "IN_ROOM:slott25",
+         "location" : "IN_ROOM:slott25@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -308,7 +308,7 @@
       },
       "candle@slott" : {
          "desc[1]" : "A candle stands on one of the tables.",
-         "location" : "IN_ROOM:slott5",
+         "location" : "IN_ROOM:slott5@slott",
          "oflags" : [
             "Lightable",
             "Extinguish",
@@ -323,7 +323,7 @@
       },
       "outsidedoor3@slott" : {
          "desc[1]" : "There is a panel in the wall.",
-         "location" : "IN_ROOM:slott6",
+         "location" : "IN_ROOM:slott6@slott",
          "oflags" : [
             "Pushable",
             "NoGet"
@@ -337,7 +337,7 @@
          "desc[0]" : "The panel is open."
       },
       "windows@slott" : {
-         "location" : "IN_ROOM:slott12",
+         "location" : "IN_ROOM:slott12@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -350,7 +350,7 @@
       },
       "outsidedoor5@slott" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:slott36",
+         "location" : "IN_ROOM:slott36@slott",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -367,7 +367,7 @@
       "note@slott" : {
          "desc[1]" : "A small note lies on the table.",
          "damage" : "0",
-         "location" : "IN_ROOM:slott3",
+         "location" : "IN_ROOM:slott3@slott",
          "oflags" : "{ }",
          "name" : "Note",
          "examine" : "\n&+CThe note seems to be written by the lord of the house, and it reads:\n\n'I fear for my familie lives, so I have barrikaded myself on the \nsecondfloor, waiting for some help from the outside. My dear family has \nbeen taken by the evil that haunts the house. Help me free my family and \nI will richly reward you. find a way to trapp the evil creatur that lives \nin the darkest holes! But beware, one mistake can trapp you down in the \ndark forever....\n\t\t    \nPs: The only one that don't seems to be affected is my butler, and he is \nto cowered to enter the dark place where the evil lurks. We don't know why \nhe's mot affected by this evil creature but maybe you can find out the \nsecret he carries on..'",
@@ -377,7 +377,7 @@
          "desc[0]" : "A small note lies here."
       },
       "hole2@slott" : {
-         "location" : "IN_ROOM:slott41",
+         "location" : "IN_ROOM:slott41@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -390,7 +390,7 @@
       },
       "key@slott" : {
          "desc[1]" : "A small key lies on a table.",
-         "location" : "IN_ROOM:slott15",
+         "location" : "IN_ROOM:slott15@slott",
          "oflags" : [
             "Key",
             "GetFlips"
@@ -403,7 +403,7 @@
          "desc[0]" : "A small key has been dropped here."
       },
       "woddenbowl@slott" : {
-         "location" : "IN_ROOM:slott14",
+         "location" : "IN_ROOM:slott14@slott",
          "oflags" : [
             "Noget",
             "Container"
@@ -417,7 +417,7 @@
          "desc[0]" : "A woddenbowl stands on the table."
       },
       "sign@slott" : {
-         "location" : "IN_ROOM:slott1",
+         "location" : "IN_ROOM:slott1@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -429,7 +429,7 @@
       },
       "box@slott" : {
          "desc[1]" : "There is a closed box on the table.",
-         "location" : "IN_ROOM:slott30",
+         "location" : "IN_ROOM:slott30@slott",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -445,7 +445,7 @@
          "desc[0]" : "The jewlery box has been opened."
       },
       "hook@slott" : {
-         "location" : "IN_ROOM:slott4",
+         "location" : "IN_ROOM:slott4@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -458,7 +458,7 @@
       },
       "insidedoor@slott" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:slott3",
+         "location" : "IN_ROOM:slott3@slott",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -471,7 +471,7 @@
          "desc[0]" : "The door is open."
       },
       "bench_bot@slott" : {
-         "location" : "IN_ROOM:slott40",
+         "location" : "IN_ROOM:slott40@slott",
          "oflags" : [
             "Noget"
          ],
@@ -481,7 +481,7 @@
       },
       "cupboards2@slott" : {
          "desc[1]" : "The cupboard is closed.",
-         "location" : "IN_ROOM:slott26",
+         "location" : "IN_ROOM:slott26@slott",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -496,7 +496,7 @@
          "desc[0]" : "The cupboard has been opened."
       },
       "table2@slott" : {
-         "location" : "IN_ROOM:slott14",
+         "location" : "IN_ROOM:slott14@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -509,7 +509,7 @@
       },
       "outsidedoor6@slott" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:slott43",
+         "location" : "IN_ROOM:slott43@slott",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -524,7 +524,7 @@
          "desc[0]" : "The door is open."
       },
       "garlics@slott" : {
-         "location" : "IN_CONTAINER:Cupboards",
+         "location" : "IN_CONTAINER:cupboards@slott",
          "oflags" : [
             "Food"
          ],
@@ -537,7 +537,7 @@
          "desc[0]" : "A garlic has been dropped here."
       },
       "bench_button@slott" : {
-         "location" : "IN_ROOM:slott10",
+         "location" : "IN_ROOM:slott10@slott",
          "oflags" : [
             "PushToggle",
             "Noget"
@@ -550,7 +550,7 @@
          "state" : "1"
       },
       "books@slott" : {
-         "location" : "IN_ROOM:slott45",
+         "location" : "IN_ROOM:slott45@slott",
          "oflags" : "{ }",
          "altname" : "Book",
          "name" : "Books",
@@ -562,7 +562,7 @@
       },
       "coat@slott" : {
          "desc[1]" : "A coat hangs here on a hook.",
-         "location" : "IN_ROOM:slott4",
+         "location" : "IN_ROOM:slott4@slott",
          "oflags" : [
             "Wearable",
             "GetFlips"
@@ -577,7 +577,7 @@
       },
       "outsidedoor@slott" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:slott1",
+         "location" : "IN_ROOM:slott1@slott",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -590,7 +590,7 @@
          "desc[0]" : "The door is open."
       },
       "stove@slott" : {
-         "location" : "IN_ROOM:slott11",
+         "location" : "IN_ROOM:slott11@slott",
          "oflags" : [
             "Lit",
             "NoGet"
@@ -604,7 +604,7 @@
       },
       "insidedoor2@slott" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:slott5",
+         "location" : "IN_ROOM:slott5@slott",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -619,7 +619,7 @@
          "desc[0]" : "The door is open."
       },
       "hole@slott" : {
-         "location" : "IN_ROOM:slott19",
+         "location" : "IN_ROOM:slott19@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -632,7 +632,7 @@
       },
       "outsidedoor4@slott" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:slott10",
+         "location" : "IN_ROOM:slott10@slott",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -649,7 +649,7 @@
       "knife@slott" : {
          "desc[1]" : "There is an small knife on the table.",
          "damage" : "7",
-         "location" : "IN_ROOM:slott14",
+         "location" : "IN_ROOM:slott14@slott",
          "oflags" : [
             "Weapon"
          ],
@@ -661,7 +661,7 @@
          "desc[0]" : "A small knife lies here."
       },
       "ring@slott" : {
-         "location" : "WORN_BY:HouseMaster",
+         "location" : "WORN_BY:housemaster@slott",
          "oflags" : [
             "Wearable",
             "Lit",
@@ -678,7 +678,7 @@
          "desc[0]" : "A diamond ring lies here."
       },
       "portraits@slott" : {
-         "location" : "IN_ROOM:slott12",
+         "location" : "IN_ROOM:slott12@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -691,7 +691,7 @@
       },
       "outsidedoor2@slott" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:slott7",
+         "location" : "IN_ROOM:slott7@slott",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -706,7 +706,7 @@
          "desc[0]" : "The door is open."
       },
       "rods2@slott" : {
-         "location" : "IN_ROOM:slott19",
+         "location" : "IN_ROOM:slott19@slott",
          "oflags" : [
             "Noget"
          ],
@@ -718,7 +718,7 @@
          "desc[0]" : "You see a rope hanging downward, but its just out of reach."
       },
       "door@slott" : {
-         "location" : "IN_ROOM:slott23",
+         "location" : "IN_ROOM:slott23@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -730,7 +730,7 @@
       },
       "cupboards@slott" : {
          "desc[1]" : "The cupboard is closed.",
-         "location" : "IN_ROOM:slott11",
+         "location" : "IN_ROOM:slott11@slott",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -746,7 +746,7 @@
       },
       "insidedoor3@slott" : {
          "desc[1]" : "A shelf stands against the wall.",
-         "location" : "IN_ROOM:slott8",
+         "location" : "IN_ROOM:slott8@slott",
          "oflags" : [
             "Pushable",
             "NoGet"
@@ -760,7 +760,7 @@
          "desc[0]" : "The shelf has been pushed aside."
       },
       "rods@slott" : {
-         "location" : "IN_ROOM:slott41",
+         "location" : "IN_ROOM:slott41@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -775,7 +775,7 @@
       },
       "woodpiece@slott" : {
          "desc[1]" : "A piece of a wood door lies here.",
-         "location" : "IN_ROOM:slott5",
+         "location" : "IN_ROOM:slott5@slott",
          "oflags" : [
             "Lightable",
             "Extinguish",
@@ -792,7 +792,7 @@
       },
       "closet@slott" : {
          "desc[1]" : "The closet is closed.",
-         "location" : "IN_ROOM:slott26",
+         "location" : "IN_ROOM:slott26@slott",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -806,7 +806,7 @@
          "desc[0]" : "The closet has been opened."
       },
       "carpet@slott" : {
-         "location" : "IN_ROOM:slott32",
+         "location" : "IN_ROOM:slott32@slott",
          "oflags" : [
             "NoGet"
          ],
@@ -818,7 +818,7 @@
          "maxstate" : "0"
       },
       "orange@slott" : {
-         "location" : "IN_CONTAINER:Woddenbowl",
+         "location" : "IN_CONTAINER:woddenbowl@slott",
          "oflags" : [
             "Food"
          ],
@@ -833,7 +833,7 @@
    "loc" : {
       "slott49@slott" : {
          "exits" : {
-            "e" : "slott48"
+            "e" : "slott48@slott"
          },
          "flags" : [
             "outdoors"
@@ -846,9 +846,9 @@
       },
       "slott33@slott" : {
          "exits" : {
-            "w" : "slott32",
-            "n" : "slott34",
-            "s" : "slott28"
+            "w" : "slott32@slott",
+            "n" : "slott34@slott",
+            "s" : "slott28@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -859,9 +859,9 @@
       },
       "slott37@slott" : {
          "exits" : {
-            "w" : "slott38",
-            "e" : "slott36",
-            "s" : "slott31"
+            "w" : "slott38@slott",
+            "e" : "slott36@slott",
+            "s" : "slott31@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -872,9 +872,9 @@
       },
       "slott11@slott" : {
          "exits" : {
-            "w" : "slott12",
-            "n" : "slott14",
-            "s" : "slott5"
+            "w" : "slott12@slott",
+            "n" : "slott14@slott",
+            "s" : "slott5@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -885,8 +885,8 @@
       },
       "slott38@slott" : {
          "exits" : {
-            "e" : "slott37",
-            "s" : "slott30"
+            "e" : "slott37@slott",
+            "s" : "slott30@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -897,8 +897,8 @@
       },
       "slott27@slott" : {
          "exits" : {
-            "n" : "slott29",
-            "d" : "slott7"
+            "n" : "slott29@slott",
+            "d" : "slott7@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -909,9 +909,9 @@
       },
       "slott13@slott" : {
          "exits" : {
-            "e" : "slott14",
-            "n" : "slott19",
-            "s" : "slott12"
+            "e" : "slott14@slott",
+            "n" : "slott19@slott",
+            "s" : "slott12@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -931,8 +931,8 @@
       },
       "slott39@slott" : {
          "exits" : {
-            "d" : "slott19",
-            "s" : "slott29"
+            "d" : "slott19@slott",
+            "s" : "slott29@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -943,8 +943,8 @@
       },
       "slott8@slott" : {
          "exits" : {
-            "w" : "slott9",
-            "s" : "^insidedoor3"
+            "w" : "slott9@slott",
+            "s" : "^insidedoor3@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -955,8 +955,8 @@
       },
       "slott25@slott" : {
          "exits" : {
-            "e" : "slott24",
-            "n" : "slott30"
+            "e" : "slott24@slott",
+            "n" : "slott30@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -967,10 +967,10 @@
       },
       "slott24@slott" : {
          "exits" : {
-            "w" : "slott25",
-            "e" : "slott26",
-            "n" : "slott31",
-            "d" : "slott3"
+            "w" : "slott25@slott",
+            "e" : "slott26@slott",
+            "n" : "slott31@slott",
+            "d" : "slott3@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -981,10 +981,10 @@
       },
       "slott3@slott" : {
          "exits" : {
-            "e" : "slott4",
-            "w" : "slott5",
-            "u" : "slott24",
-            "s" : "^insidedoor"
+            "e" : "slott4@slott",
+            "w" : "slott5@slott",
+            "u" : "slott24@slott",
+            "s" : "^insidedoor@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -995,8 +995,8 @@
       },
       "slott31@slott" : {
          "exits" : {
-            "n" : "slott37",
-            "s" : "slott24"
+            "n" : "slott37@slott",
+            "s" : "slott24@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1007,9 +1007,9 @@
       },
       "slott15@slott" : {
          "exits" : {
-            "e" : "slott16",
-            "n" : "slott21",
-            "s" : "^insidedoor4"
+            "e" : "slott16@slott",
+            "n" : "slott21@slott",
+            "s" : "^insidedoor4@slott"
          },
          "flags" : [
             "Peaceful"
@@ -1022,8 +1022,8 @@
       },
       "slott42@slott" : {
          "exits" : {
-            "w" : "slott40",
-            "e" : "slott43"
+            "w" : "slott40@slott",
+            "e" : "slott43@slott"
          },
          "flags" : [
             "dark"
@@ -1036,9 +1036,9 @@
       },
       "slott16@slott" : {
          "exits" : {
-            "w" : "slott15",
-            "e" : "slott17",
-            "s" : "slott9"
+            "w" : "slott15@slott",
+            "e" : "slott17@slott",
+            "s" : "slott9@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1049,10 +1049,10 @@
       },
       "slott1@slott" : {
          "exits" : {
-            "e" : "slott2",
-            "n" : "^outsidedoor",
-            "d" : "EscPath@eastcoast",
-            "s" : "EscPath@eastcoast"
+            "e" : "slott2@slott",
+            "n" : "^outsidedoor@slott",
+            "d" : "escpath@eastcoast",
+            "s" : "escpath@eastcoast"
          },
          "flags" : [
             "outdoors"
@@ -1065,8 +1065,8 @@
       },
       "slott6@slott" : {
          "exits" : {
-            "n" : "^outsidedoor3",
-            "u" : "slott28"
+            "n" : "^outsidedoor3@slott",
+            "u" : "slott28@slott"
          },
          "flags" : [
             "dark"
@@ -1079,8 +1079,8 @@
       },
       "slott48@slott" : {
          "exits" : {
-            "w" : "slott49",
-            "n" : "slott47"
+            "w" : "slott49@slott",
+            "n" : "slott47@slott"
          },
          "flags" : [
             "outdoors"
@@ -1093,8 +1093,8 @@
       },
       "slott20@slott" : {
          "exits" : {
-            "e" : "slott21",
-            "s" : "slott14"
+            "e" : "slott21@slott",
+            "s" : "slott14@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1105,8 +1105,8 @@
       },
       "slott41@slott" : {
          "exits" : {
-            "e" : "slott40",
-            "u" : "^Rods"
+            "e" : "slott40@slott",
+            "u" : "^rods@slott"
          },
          "flags" : [
             "dark"
@@ -1119,10 +1119,10 @@
       },
       "slott36@slott" : {
          "exits" : {
-            "e" : "slott34",
-            "w" : "slott37",
-            "n" : "^outsidedoor5",
-            "s" : "slott32"
+            "e" : "slott34@slott",
+            "w" : "slott37@slott",
+            "n" : "^outsidedoor5@slott",
+            "s" : "slott32@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1133,9 +1133,9 @@
       },
       "slott28@slott" : {
          "exits" : {
-            "w" : "slott26",
-            "n" : "slott33",
-            "d" : "slott6"
+            "w" : "slott26@slott",
+            "n" : "slott33@slott",
+            "d" : "slott6@slott"
          },
          "flags" : [
             "outdoor"
@@ -1148,7 +1148,7 @@
       },
       "slott44@slott" : {
          "exits" : {
-            "s" : "^insidedoor6"
+            "s" : "^insidedoor6@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1159,8 +1159,8 @@
       },
       "slott18@slott" : {
          "exits" : {
-            "w" : "slott17",
-            "s" : "slott46"
+            "w" : "slott17@slott",
+            "s" : "slott46@slott"
          },
          "flags" : [
             "outdoors"
@@ -1173,9 +1173,9 @@
       },
       "slott14@slott" : {
          "exits" : {
-            "w" : "slott13",
-            "n" : "slott20",
-            "s" : "slott11"
+            "w" : "slott13@slott",
+            "n" : "slott20@slott",
+            "s" : "slott11@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1186,7 +1186,7 @@
       },
       "slott23@slott" : {
          "exits" : {
-            "u" : "slott35"
+            "u" : "slott35@slott"
          },
          "flags" : [
             "dark"
@@ -1199,8 +1199,8 @@
       },
       "slott35@slott" : {
          "exits" : {
-            "d" : "slott23",
-            "s" : "^insidedoor5"
+            "d" : "slott23@slott",
+            "s" : "^insidedoor5@slott"
          },
          "flags" : [
             "Peaceful",
@@ -1214,8 +1214,8 @@
       },
       "slott9@slott" : {
          "exits" : {
-            "e" : "slott8",
-            "n" : "slott16"
+            "e" : "slott8@slott",
+            "n" : "slott16@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1226,8 +1226,8 @@
       },
       "slott12@slott" : {
          "exits" : {
-            "e" : "slott11",
-            "n" : "slott13"
+            "e" : "slott11@slott",
+            "n" : "slott13@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1238,9 +1238,9 @@
       },
       "slott21@slott" : {
          "exits" : {
-            "w" : "slott20",
-            "e" : "slott22",
-            "s" : "slott15"
+            "w" : "slott20@slott",
+            "e" : "slott22@slott",
+            "s" : "slott15@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1251,9 +1251,9 @@
       },
       "slott30@slott" : {
          "exits" : {
-            "w" : "slott29",
-            "n" : "slott38",
-            "s" : "slott25"
+            "w" : "slott29@slott",
+            "n" : "slott38@slott",
+            "s" : "slott25@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1264,8 +1264,8 @@
       },
       "slott7@slott" : {
          "exits" : {
-            "e" : "^outsidedoor2",
-            "u" : "slott27"
+            "e" : "^outsidedoor2@slott",
+            "u" : "slott27@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1276,8 +1276,8 @@
       },
       "slott46@slott" : {
          "exits" : {
-            "n" : "slott18",
-            "s" : "slott47"
+            "n" : "slott18@slott",
+            "s" : "slott47@slott"
          },
          "flags" : [
             "outdoors"
@@ -1290,8 +1290,8 @@
       },
       "slott17@slott" : {
          "exits" : {
-            "w" : "slott16",
-            "e" : "slott18"
+            "w" : "slott16@slott",
+            "e" : "slott18@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1313,7 +1313,7 @@
       },
       "slott4@slott" : {
          "exits" : {
-            "w" : "slott3"
+            "w" : "slott3@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1324,8 +1324,8 @@
       },
       "slott10@slott" : {
          "exits" : {
-            "n" : "slott15",
-            "d" : "^bench_button"
+            "n" : "slott15@slott",
+            "d" : "^bench_button@slott"
          },
          "flags" : [
             "dark"
@@ -1338,9 +1338,9 @@
       },
       "slott29@slott" : {
          "exits" : {
-            "e" : "slott30",
-            "n" : "slott39",
-            "s" : "slott27"
+            "e" : "slott30@slott",
+            "n" : "slott39@slott",
+            "s" : "slott27@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1351,8 +1351,8 @@
       },
       "slott26@slott" : {
          "exits" : {
-            "w" : "slott24",
-            "e" : "slott28"
+            "w" : "slott24@slott",
+            "e" : "slott28@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1363,8 +1363,8 @@
       },
       "slott43@slott" : {
          "exits" : {
-            "w" : "slott42",
-            "n" : "^outsidedoor6"
+            "w" : "slott42@slott",
+            "n" : "^outsidedoor6@slott"
          },
          "flags" : [
             "dark"
@@ -1377,7 +1377,7 @@
       },
       "slott45@slott" : {
          "exits" : {
-            "n" : "slott40"
+            "n" : "slott40@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1388,9 +1388,9 @@
       },
       "slott19@slott" : {
          "exits" : {
-            "u" : "slott39",
-            "d" : "slott50",
-            "s" : "slott13"
+            "u" : "slott39@slott",
+            "d" : "slott50@slott",
+            "s" : "slott13@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1401,7 +1401,7 @@
       },
       "slott2@slott" : {
          "exits" : {
-            "w" : "slott1"
+            "w" : "slott1@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1412,9 +1412,9 @@
       },
       "slott40@slott" : {
          "exits" : {
-            "e" : "slott42",
-            "w" : "slott41",
-            "s" : "slott45"
+            "e" : "slott42@slott",
+            "w" : "slott41@slott",
+            "s" : "slott45@slott"
          },
          "flags" : [
             "dark"
@@ -1427,8 +1427,8 @@
       },
       "slott47@slott" : {
          "exits" : {
-            "n" : "slott46",
-            "s" : "slott48"
+            "n" : "slott46@slott",
+            "s" : "slott48@slott"
          },
          "flags" : [
             "outdoors"
@@ -1441,9 +1441,9 @@
       },
       "slott5@slott" : {
          "exits" : {
-            "w" : "^insideDoor2",
-            "e" : "slott3",
-            "n" : "slott11"
+            "w" : "^insidedoor2@slott",
+            "e" : "slott3@slott",
+            "n" : "slott11@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1454,8 +1454,8 @@
       },
       "slott34@slott" : {
          "exits" : {
-            "w" : "slott36",
-            "s" : "slott33"
+            "w" : "slott36@slott",
+            "s" : "slott33@slott"
          },
          "flags" : [
             "dark"
@@ -1468,8 +1468,8 @@
       },
       "slott32@slott" : {
          "exits" : {
-            "e" : "slott33",
-            "n" : "slott36"
+            "e" : "slott33@slott",
+            "n" : "slott36@slott"
          },
          "flags" : [],
          "zone" : "slott",
@@ -1482,7 +1482,7 @@
    "mob" : {
       "housemaster@slott" : {
          "damage" : "5",
-         "location" : "slott35",
+         "location" : "slott35@slott",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "5",
@@ -1494,7 +1494,7 @@
       },
       "redcap3@slott" : {
          "damage" : "10",
-         "location" : "slott13",
+         "location" : "slott13@slott",
          "speed" : "15",
          "aggression" : "100",
          "armor" : "5",
@@ -1506,7 +1506,7 @@
       },
       "stableboy@slott" : {
          "damage" : "15",
-         "location" : "slott2",
+         "location" : "slott2@slott",
          "speed" : "0",
          "aggression" : "0",
          "pname" : "The Stableboy",
@@ -1517,7 +1517,7 @@
       },
       "redcap5@slott" : {
          "damage" : "10",
-         "location" : "slott38",
+         "location" : "slott38@slott",
          "speed" : "15",
          "aggression" : "75",
          "armor" : "5",
@@ -1529,7 +1529,7 @@
       },
       "redcap2@slott" : {
          "damage" : "10",
-         "location" : "slott8",
+         "location" : "slott8@slott",
          "speed" : "15",
          "aggression" : "65",
          "armor" : "5",
@@ -1541,7 +1541,7 @@
       },
       "redcap6@slott" : {
          "damage" : "10",
-         "location" : "slott32",
+         "location" : "slott32@slott",
          "speed" : "15",
          "aggression" : "75",
          "armor" : "5",
@@ -1553,7 +1553,7 @@
       },
       "redcap1@slott" : {
          "damage" : "10",
-         "location" : "slott22",
+         "location" : "slott22@slott",
          "speed" : "15",
          "aggression" : "75",
          "armor" : "5",
@@ -1565,7 +1565,7 @@
       },
       "redcap4@slott" : {
          "damage" : "10",
-         "location" : "slott7",
+         "location" : "slott7@slott",
          "speed" : "15",
          "aggression" : "80",
          "armor" : "5",
@@ -1577,7 +1577,7 @@
       },
       "william@slott" : {
          "damage" : "10",
-         "location" : "slott11",
+         "location" : "slott11@slott",
          "speed" : "0",
          "aggression" : "40",
          "armor" : "5",
@@ -1588,7 +1588,7 @@
       },
       "family@slott" : {
          "damage" : "0",
-         "location" : "slott43",
+         "location" : "slott43@slott",
          "armor" : "0",
          "name" : "Family",
          "examine" : "\nThis is the rest of the family of the castle! Standing from the left, \nmother, son and daughter.",
@@ -1603,7 +1603,7 @@
       },
       "manfred@slott" : {
          "damage" : "10",
-         "location" : "slott3",
+         "location" : "slott3@slott",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "5",
@@ -1615,7 +1615,7 @@
       },
       "muryan@slott" : {
          "damage" : "20",
-         "location" : "slott43",
+         "location" : "slott43@slott",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "15",

@@ -2,7 +2,7 @@
    "obj" : {
       "ladder2cove@pirate" : {
          "desc[1]" : "A rope ladder is here, curled up neatly.",
-         "location" : "IN_ROOM:pirate0",
+         "location" : "IN_ROOM:pirate0@pirate",
          "oflags" : [
             "NoGet"
          ],
@@ -14,7 +14,7 @@
          "desc[0]" : "A rope ladder is thrown over the side of the ship."
       },
       "wall@pirate" : {
-         "location" : "IN_ROOM:pirate24",
+         "location" : "IN_ROOM:pirate24@pirate",
          "oflags" : [
             "NoGet"
          ],
@@ -29,7 +29,7 @@
       },
       "powder_door@pirate" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:pirate9",
+         "location" : "IN_ROOM:pirate9@pirate",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -45,7 +45,7 @@
       },
       "bush@pirate" : {
          "desc[1]" : "A small berry bush is here, covered with ripe berries.",
-         "location" : "IN_ROOM:pirate16",
+         "location" : "IN_ROOM:pirate16@pirate",
          "oflags" : [
             "NoGet"
          ],
@@ -63,7 +63,7 @@
       },
       "mess_door@pirate" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:pirate5",
+         "location" : "IN_ROOM:pirate5@pirate",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -79,7 +79,7 @@
       },
       "boulder1@pirate" : {
          "desc[1]" : "A huge boulder block the doorway.",
-         "location" : "IN_ROOM:pirate30",
+         "location" : "IN_ROOM:pirate30@pirate",
          "oflags" : [
             "NoGet"
          ],
@@ -96,7 +96,7 @@
          "desc[0]" : "Fragments from a boulder cover the floor."
       },
       "volume@pirate" : {
-         "location" : "IN_ROOM:piratevol",
+         "location" : "IN_ROOM:piratevol@pirate",
          "oflags" : [
             "Noget"
          ],
@@ -108,7 +108,7 @@
       },
       "hallway_door@pirate" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:pirate7",
+         "location" : "IN_ROOM:pirate7@pirate",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -124,7 +124,7 @@
       },
       "hold_door@pirate" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:pirate4",
+         "location" : "IN_ROOM:pirate4@pirate",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -139,7 +139,7 @@
          "desc[0]" : "The door is open."
       },
       "coral@pirate" : {
-         "location" : "IN_ROOM:pirate28",
+         "location" : "IN_ROOM:pirate28@pirate",
          "oflags" : "{}",
          "altname" : "piece",
          "name" : "coral",
@@ -152,7 +152,7 @@
       },
       "plank2@pirate" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:pirate13",
+         "location" : "IN_ROOM:pirate13@pirate",
          "oflags" : [
             "NoGet"
          ],
@@ -167,7 +167,7 @@
          "desc[0]" : "There is a plank leading east onto the pirate ship."
       },
       "ruby@pirate" : {
-         "location" : "IN_ROOM:pirate31",
+         "location" : "IN_ROOM:pirate31@pirate",
          "oflags" : "{}",
          "altname" : "gem",
          "name" : "ruby",
@@ -179,7 +179,7 @@
          "desc[0]" : "A large ruby is lying on the floor."
       },
       "table@pirate" : {
-         "location" : "IN_ROOM:pirate11",
+         "location" : "IN_ROOM:pirate11@pirate",
          "oflags" : [
             "NoGet"
          ],
@@ -190,7 +190,7 @@
       },
       "plank1@pirate" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:pirate0",
+         "location" : "IN_ROOM:pirate0@pirate",
          "oflags" : [
             "NoGet"
          ],
@@ -205,7 +205,7 @@
          "desc[0]" : "A plank extends west to the shore."
       },
       "keg@pirate" : {
-         "location" : "IN_ROOM:pirate9",
+         "location" : "IN_ROOM:pirate9@pirate",
          "oflags" : "{}",
          "altname" : "gunpowder",
          "name" : "keg",
@@ -218,7 +218,7 @@
       },
       "boulder2@pirate" : {
          "desc[1]" : "A huge boulder block the doorway.",
-         "location" : "IN_ROOM:pirate31",
+         "location" : "IN_ROOM:pirate31@pirate",
          "oflags" : [
             "NoGet"
          ],
@@ -235,7 +235,7 @@
          "desc[0]" : "Fragments from a boulder cover the floor."
       },
       "telescope@pirate" : {
-         "location" : "IN_ROOM:pirate1",
+         "location" : "IN_ROOM:pirate1@pirate",
          "oflags" : [
             "BlurSpell",
             "NoPit"
@@ -250,7 +250,7 @@
          "desc[0]" : "A small telescope is laying here."
       },
       "oranges@pirate" : {
-         "location" : "IN_ROOM:pirate6",
+         "location" : "IN_ROOM:pirate6@pirate",
          "oflags" : [
             "Food"
          ],
@@ -265,7 +265,7 @@
       },
       "sabre@pirate" : {
          "damage" : "16",
-         "location" : "BOTH_BY:Redbeard",
+         "location" : "BOTH_BY:redbeard@pirate",
          "oflags" : [
             "Weapon",
             "Wearable"
@@ -280,7 +280,7 @@
          "desc[0]" : "A large sabre has been left here."
       },
       "coins@pirate" : {
-         "location" : "IN_ROOM:pirate31",
+         "location" : "IN_ROOM:pirate31@pirate",
          "oflags" : "{}",
          "altname" : "platinum",
          "name" : "coins",
@@ -292,7 +292,7 @@
          "desc[0]" : "Coins lay scattered across the floor."
       },
       "keychain@pirate" : {
-         "location" : "IN_ROOM:pirate27",
+         "location" : "IN_ROOM:pirate27@pirate",
          "oflags" : "{}",
          "altname" : "foot",
          "name" : "keychain",
@@ -305,7 +305,7 @@
       },
       "sail@pirate" : {
          "desc[1]" : "A sail is raised and billowing in the wind.",
-         "location" : "IN_ROOM:pirate0",
+         "location" : "IN_ROOM:pirate0@pirate",
          "oflags" : [
             "NoGet"
          ],
@@ -317,7 +317,7 @@
          "desc[0]" : "A sail lies here, furled."
       },
       "mastrope@pirate" : {
-         "location" : "IN_ROOM:pirate0",
+         "location" : "IN_ROOM:pirate0@pirate",
          "oflags" : [
             "NoGet"
          ],
@@ -328,7 +328,7 @@
       },
       "aft_door@pirate" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:pirate10",
+         "location" : "IN_ROOM:pirate10@pirate",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -344,7 +344,7 @@
       },
       "ladder2pirate@pirate" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:Cove@village",
+         "location" : "IN_ROOM:cove@village",
          "oflags" : [
             "NoGet"
          ],
@@ -357,7 +357,7 @@
       },
       "berries@pirate" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:pirate16",
+         "location" : "IN_ROOM:pirate16@pirate",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -376,7 +376,7 @@
       },
       "captains_door@pirate" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:pirate11",
+         "location" : "IN_ROOM:pirate11@pirate",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -391,7 +391,7 @@
          "desc[0]" : "The door is open."
       },
       "lemon@pirate" : {
-         "location" : "IN_ROOM:pirate6",
+         "location" : "IN_ROOM:pirate6@pirate",
          "oflags" : [
             "Food"
          ],
@@ -408,9 +408,9 @@
    "loc" : {
       "pirate7@pirate" : {
          "exits" : {
-            "w" : "pirate8",
-            "n" : "pirate5",
-            "s" : "^hallway_door"
+            "w" : "pirate8@pirate",
+            "n" : "pirate5@pirate",
+            "s" : "^hallway_door@pirate"
          },
          "flags" : [],
          "zone" : "pirate",
@@ -421,8 +421,8 @@
       },
       "pirate26@pirate" : {
          "exits" : {
-            "w" : "pirate27",
-            "e" : "pirate25"
+            "w" : "pirate27@pirate",
+            "e" : "pirate25@pirate"
          },
          "flags" : [
             "UnderWater",
@@ -436,7 +436,7 @@
       },
       "pirate9@pirate" : {
          "exits" : {
-            "n" : "^powder_door"
+            "n" : "^powder_door@pirate"
          },
          "flags" : [],
          "zone" : "pirate",
@@ -447,10 +447,10 @@
       },
       "pirate20@pirate" : {
          "exits" : {
-            "e" : "pirate18",
-            "u" : "pirate19",
-            "d" : "pirate18",
-            "s" : "pirate19"
+            "e" : "pirate18@pirate",
+            "u" : "pirate19@pirate",
+            "d" : "pirate18@pirate",
+            "s" : "pirate19@pirate"
          },
          "flags" : [
             "Outdoors"
@@ -463,10 +463,10 @@
       },
       "pirate17@pirate" : {
          "exits" : {
-            "w" : "pirate21",
-            "u" : "pirate18",
-            "n" : "pirate16",
-            "s" : "pirate18"
+            "w" : "pirate21@pirate",
+            "u" : "pirate18@pirate",
+            "n" : "pirate16@pirate",
+            "s" : "pirate18@pirate"
          },
          "flags" : [
             "Outdoors",
@@ -480,9 +480,9 @@
       },
       "pirate14@pirate" : {
          "exits" : {
-            "w" : "pirate22",
-            "e" : "pirate13",
-            "s" : "pirate16"
+            "w" : "pirate22@pirate",
+            "e" : "pirate13@pirate",
+            "s" : "pirate16@pirate"
          },
          "flags" : [
             "Outdoors"
@@ -495,9 +495,9 @@
       },
       "pirate13@pirate" : {
          "exits" : {
-            "w" : "pirate14",
-            "e" : "^plank2",
-            "s" : "pirate15"
+            "w" : "pirate14@pirate",
+            "e" : "^plank2@pirate",
+            "s" : "pirate15@pirate"
          },
          "flags" : [],
          "zone" : "pirate",
@@ -508,7 +508,7 @@
       },
       "piratevol@pirate" : {
          "exits" : {
-            "n" : "pirate11"
+            "n" : "pirate11@pirate"
          },
          "flags" : [
             "Dark"
@@ -521,8 +521,8 @@
       },
       "pirate24@pirate" : {
          "exits" : {
-            "e" : "pirate23",
-            "d" : "pirate23"
+            "e" : "pirate23@pirate",
+            "d" : "pirate23@pirate"
          },
          "flags" : [
             "Outdoors"
@@ -535,7 +535,7 @@
       },
       "pirate8@pirate" : {
          "exits" : {
-            "e" : "pirate7"
+            "e" : "pirate7@pirate"
          },
          "flags" : [],
          "zone" : "pirate",
@@ -546,8 +546,8 @@
       },
       "pirate30@pirate" : {
          "exits" : {
-            "w" : "^boulder1",
-            "d" : "pirate29"
+            "w" : "^boulder1@pirate",
+            "d" : "pirate29@pirate"
          },
          "flags" : [
             "Dark"
@@ -560,8 +560,8 @@
       },
       "pirate15@pirate" : {
          "exits" : {
-            "w" : "pirate16",
-            "n" : "pirate13"
+            "w" : "pirate16@pirate",
+            "n" : "pirate13@pirate"
          },
          "flags" : [
             "Outdoors"
@@ -574,7 +574,7 @@
       },
       "pirate1@pirate" : {
          "exits" : {
-            "d" : "pirate0"
+            "d" : "pirate0@pirate"
          },
          "flags" : [
             "Outdoors"
@@ -587,9 +587,9 @@
       },
       "pirate2@pirate" : {
          "exits" : {
-            "e" : "pirate3",
-            "d" : "pirate4",
-            "s" : "pirate0"
+            "e" : "pirate3@pirate",
+            "d" : "pirate4@pirate",
+            "s" : "pirate0@pirate"
          },
          "flags" : [
             "Outdoors"
@@ -602,7 +602,7 @@
       },
       "pirate6@pirate" : {
          "exits" : {
-            "e" : "pirate5"
+            "e" : "pirate5@pirate"
          },
          "flags" : [],
          "zone" : "pirate",
@@ -613,9 +613,9 @@
       },
       "pirate27@pirate" : {
          "exits" : {
-            "w" : "pirate28",
-            "e" : "pirate26",
-            "s" : "pirate29"
+            "w" : "pirate28@pirate",
+            "e" : "pirate26@pirate",
+            "s" : "pirate29@pirate"
          },
          "flags" : [
             "NoMobiles",
@@ -642,9 +642,9 @@
       },
       "pirate25@pirate" : {
          "exits" : {
-            "w" : "pirate26",
-            "e" : "pirate21",
-            "u" : "pirate21"
+            "w" : "pirate26@pirate",
+            "e" : "pirate21@pirate",
+            "u" : "pirate21@pirate"
          },
          "flags" : [
             "Underwater"
@@ -657,9 +657,9 @@
       },
       "pirate5@pirate" : {
          "exits" : {
-            "w" : "pirate6",
-            "n" : "^mess_door",
-            "s" : "pirate7"
+            "w" : "pirate6@pirate",
+            "n" : "^mess_door@pirate",
+            "s" : "pirate7@pirate"
          },
          "flags" : [],
          "zone" : "pirate",
@@ -670,8 +670,8 @@
       },
       "pirate11@pirate" : {
          "exits" : {
-            "n" : "^captains_door",
-            "s" : "piratevol"
+            "n" : "^captains_door@pirate",
+            "s" : "piratevol@pirate"
          },
          "flags" : [],
          "zone" : "pirate",
@@ -682,7 +682,7 @@
       },
       "pirate12@pirate" : {
          "exits" : {
-            "d" : "pirate10"
+            "d" : "pirate10@pirate"
          },
          "flags" : [],
          "zone" : "pirate",
@@ -693,9 +693,9 @@
       },
       "pirate16@pirate" : {
          "exits" : {
-            "e" : "pirate15",
-            "n" : "pirate14",
-            "s" : "pirate17"
+            "e" : "pirate15@pirate",
+            "n" : "pirate14@pirate",
+            "s" : "pirate17@pirate"
          },
          "flags" : [
             "Outdoors"
@@ -708,8 +708,8 @@
       },
       "pirate29@pirate" : {
          "exits" : {
-            "u" : "pirate30",
-            "n" : "pirate27"
+            "u" : "pirate30@pirate",
+            "n" : "pirate27@pirate"
          },
          "flags" : [
             "UnderWater",
@@ -723,9 +723,9 @@
       },
       "pirate10@pirate" : {
          "exits" : {
-            "u" : "pirate12",
-            "n" : "pirate0",
-            "s" : "^aft_door"
+            "u" : "pirate12@pirate",
+            "n" : "pirate0@pirate",
+            "s" : "^aft_door@pirate"
          },
          "flags" : [],
          "zone" : "pirate",
@@ -736,10 +736,10 @@
       },
       "pirate22@pirate" : {
          "exits" : {
-            "e" : "pirate14",
-            "u" : "pirate23",
-            "n" : "pirate23",
-            "d" : "pirate14"
+            "e" : "pirate14@pirate",
+            "u" : "pirate23@pirate",
+            "n" : "pirate23@pirate",
+            "d" : "pirate14@pirate"
          },
          "flags" : [
             "Outdoors"
@@ -752,8 +752,8 @@
       },
       "pirate4@pirate" : {
          "exits" : {
-            "u" : "pirate2",
-            "s" : "^hold_door"
+            "u" : "pirate2@pirate",
+            "s" : "^hold_door@pirate"
          },
          "flags" : [],
          "zone" : "pirate",
@@ -764,7 +764,7 @@
       },
       "pirate31@pirate" : {
          "exits" : {
-            "e" : "^boulder2"
+            "e" : "^boulder2@pirate"
          },
          "flags" : [
             "Dark"
@@ -777,9 +777,9 @@
       },
       "pirate21@pirate" : {
          "exits" : {
-            "w" : "pirate25",
-            "e" : "pirate17",
-            "d" : "pirate25"
+            "w" : "pirate25@pirate",
+            "e" : "pirate17@pirate",
+            "d" : "pirate25@pirate"
          },
          "flags" : [
             "NoMobiles",
@@ -793,9 +793,9 @@
       },
       "pirate19@pirate" : {
          "exits" : {
-            "n" : "pirate20",
-            "d" : "pirate20",
-            "s" : "Circle@moor"
+            "n" : "pirate20@pirate",
+            "d" : "pirate20@pirate",
+            "s" : "circle@moor"
          },
          "flags" : [
             "Outdoors",
@@ -809,11 +809,11 @@
       },
       "pirate0@pirate" : {
          "exits" : {
-            "w" : "^plank1",
-            "u" : "pirate1",
-            "n" : "pirate2",
-            "d" : "^ladder2Cove",
-            "s" : "pirate10"
+            "w" : "^plank1@pirate",
+            "u" : "pirate1@pirate",
+            "n" : "pirate2@pirate",
+            "d" : "^ladder2cove@pirate",
+            "s" : "pirate10@pirate"
          },
          "flags" : [
             "Outdoors"
@@ -826,7 +826,7 @@
       },
       "pirate28@pirate" : {
          "exits" : {
-            "e" : "pirate27",
+            "e" : "pirate27@pirate",
             "n" : "grassy@blizzard"
          },
          "flags" : [
@@ -841,10 +841,10 @@
       },
       "pirate18@pirate" : {
          "exits" : {
-            "w" : "pirate20",
-            "u" : "pirate20",
-            "n" : "pirate17",
-            "d" : "pirate17"
+            "w" : "pirate20@pirate",
+            "u" : "pirate20@pirate",
+            "n" : "pirate17@pirate",
+            "d" : "pirate17@pirate"
          },
          "flags" : [
             "Outdoors"
@@ -857,10 +857,10 @@
       },
       "pirate23@pirate" : {
          "exits" : {
-            "w" : "pirate24",
-            "u" : "pirate24",
-            "d" : "pirate22",
-            "s" : "pirate22"
+            "w" : "pirate24@pirate",
+            "u" : "pirate24@pirate",
+            "d" : "pirate22@pirate",
+            "s" : "pirate22@pirate"
          },
          "flags" : [
             "Outdoors"
@@ -875,7 +875,7 @@
    "mob" : {
       "redbeard@pirate" : {
          "damage" : "18",
-         "location" : "pirate11",
+         "location" : "pirate11@pirate",
          "armor" : "10",
          "name" : "Redbeard",
          "description" : "Redbeard the cutthroat pirate, scurge of the sea, is here.",
@@ -889,7 +889,7 @@
       },
       "hook@pirate" : {
          "damage" : "14",
-         "location" : "pirate8",
+         "location" : "pirate8@pirate",
          "speed" : "5",
          "aggression" : "98",
          "armor" : "0",
@@ -900,7 +900,7 @@
       },
       "mermaid@pirate" : {
          "damage" : "10",
-         "location" : "pirate28",
+         "location" : "pirate28@pirate",
          "armor" : "0",
          "name" : "Mermaid",
          "description" : "A lovely mermaid is here, singing a beautiful song.",
@@ -921,7 +921,7 @@
       },
       "scurvy@pirate" : {
          "damage" : "10",
-         "location" : "pirate0",
+         "location" : "pirate0@pirate",
          "armor" : "0",
          "name" : "Scurvy",
          "description" : "A sailor with scurvy looks at you preparing to attack.",
@@ -932,7 +932,7 @@
       },
       "pegleg@pirate" : {
          "damage" : "12",
-         "location" : "pirate4",
+         "location" : "pirate4@pirate",
          "speed" : "0",
          "aggression" : "56",
          "armor" : "0",
@@ -943,7 +943,7 @@
       },
       "gruel@pirate" : {
          "damage" : "12",
-         "location" : "pirate6",
+         "location" : "pirate6@pirate",
          "speed" : "0",
          "aggression" : "56",
          "armor" : "0",
@@ -954,7 +954,7 @@
       },
       "scurge@pirate" : {
          "damage" : "14",
-         "location" : "pirate8",
+         "location" : "pirate8@pirate",
          "speed" : "5",
          "aggression" : "98",
          "armor" : "0",
@@ -965,7 +965,7 @@
       },
       "shark@pirate" : {
          "damage" : "15",
-         "location" : "pirate25",
+         "location" : "pirate25@pirate",
          "armor" : "0",
          "name" : "shark",
          "description" : "A shark circles you warily, preparing to attack.",
@@ -982,7 +982,7 @@
       },
       "headhunter@pirate" : {
          "damage" : "10",
-         "location" : "pirate14",
+         "location" : "pirate14@pirate",
          "speed" : "15",
          "aggression" : "40",
          "pname" : "The Headhunter",
@@ -992,7 +992,7 @@
       },
       "patch@pirate" : {
          "damage" : "12",
-         "location" : "pirate1",
+         "location" : "pirate1@pirate",
          "speed" : "0",
          "aggression" : "56",
          "armor" : "0",

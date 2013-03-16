@@ -1,7 +1,7 @@
 {
    "obj" : {
       "white_flame@lost" : {
-         "location" : "IN_ROOM:lost1",
+         "location" : "IN_ROOM:lost1@lost",
          "oflags" : [
             "Lit",
             "NoGet"
@@ -12,7 +12,7 @@
          "examine" : "The pure white flame hovers over the shimmering pit suspended in mid-air.\nIt burns nothing, and never goes out.\n"
       },
       "shimmering_pit@lost" : {
-         "location" : "IN_ROOM:lost1",
+         "location" : "IN_ROOM:lost1@lost",
          "oflags" : [
             "NoGet"
          ],
@@ -24,8 +24,8 @@
    "loc" : {
       "lost2@lost" : {
          "exits" : {
-            "w" : "lost1",
-            "s" : "lost3"
+            "w" : "lost1@lost",
+            "s" : "lost3@lost"
          },
          "flags" : [
             "Outdoors",
@@ -40,7 +40,7 @@
       },
       "lost9@lost" : {
          "exits" : {
-            "s" : "lost8"
+            "s" : "lost8@lost"
          },
          "flags" : [
             "Outdoors",
@@ -54,10 +54,10 @@
       },
       "lost4@lost" : {
          "exits" : {
-            "w" : "lost5",
-            "e" : "lost3",
-            "n" : "lost7",
-            "s" : "lost10"
+            "w" : "lost5@lost",
+            "e" : "lost3@lost",
+            "n" : "lost7@lost",
+            "s" : "lost10@lost"
          },
          "flags" : [
             "Outdoors"
@@ -70,8 +70,8 @@
       },
       "lost6@lost" : {
          "exits" : {
-            "e" : "lost5",
-            "u" : "RBend@eastcoast"
+            "e" : "lost5@lost",
+            "u" : "rbend@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -84,9 +84,9 @@
       },
       "lost12@lost" : {
          "exits" : {
-            "w" : "Mou1@mountain",
-            "d" : "lost11",
-            "s" : "lost11"
+            "w" : "mou1@mountain",
+            "d" : "lost11@lost",
+            "s" : "lost11@lost"
          },
          "flags" : [
             "Outdoors"
@@ -99,8 +99,8 @@
       },
       "lost11@lost" : {
          "exits" : {
-            "n" : "lost10",
-            "s" : "lost12"
+            "n" : "lost10@lost",
+            "s" : "lost12@lost"
          },
          "flags" : [
             "Outdoors"
@@ -113,8 +113,8 @@
       },
       "lost10@lost" : {
          "exits" : {
-            "n" : "lost4",
-            "s" : "lost11"
+            "n" : "lost4@lost",
+            "s" : "lost11@lost"
          },
          "flags" : [
             "Outdoors"
@@ -127,7 +127,7 @@
       },
       "lost1@lost" : {
          "exits" : {
-            "e" : "lost2"
+            "e" : "lost2@lost"
          },
          "flags" : [
             "Outdoors",
@@ -143,8 +143,8 @@
       },
       "lost8@lost" : {
          "exits" : {
-            "n" : "lost9",
-            "s" : "lost7"
+            "n" : "lost9@lost",
+            "s" : "lost7@lost"
          },
          "flags" : [
             "Outdoors",
@@ -158,8 +158,8 @@
       },
       "lost3@lost" : {
          "exits" : {
-            "w" : "lost4",
-            "n" : "lost2"
+            "w" : "lost4@lost",
+            "n" : "lost2@lost"
          },
          "flags" : [
             "Outdoors"
@@ -172,8 +172,8 @@
       },
       "lost5@lost" : {
          "exits" : {
-            "w" : "lost6",
-            "e" : "lost4"
+            "w" : "lost6@lost",
+            "e" : "lost4@lost"
          },
          "flags" : [
             "Outdoors"
@@ -186,8 +186,8 @@
       },
       "lost7@lost" : {
          "exits" : {
-            "n" : "lost8",
-            "s" : "lost4"
+            "n" : "lost8@lost",
+            "s" : "lost4@lost"
          },
          "flags" : [
             "Outdoors"

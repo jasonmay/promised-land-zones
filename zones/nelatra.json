@@ -3,7 +3,7 @@
    "loc" : {
       "nelatra@nelatra" : {
          "exits" : {
-            "s" : "Gold@eastcoast"
+            "s" : "gold@eastcoast"
          },
          "flags" : [
             "Nelatra",
@@ -20,7 +20,7 @@
    "mob" : {
       "nelatra@nelatra" : {
          "damage" : "10000",
-         "location" : "nelatra",
+         "location" : "nelatra@nelatra",
          "armor" : "10000",
          "name" : "nelatra",
          "description" : "&+BN&+Ce&+Bl&+Ca&+Bt&+Cr&+Ba&* is here glowing with magical power.",

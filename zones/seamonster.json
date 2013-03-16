@@ -1,7 +1,7 @@
 {
    "obj" : {
       "water@seamonster" : {
-         "location" : "IN_ROOM:smon10",
+         "location" : "IN_ROOM:smon10@seamonster",
          "oflags" : [
             "NoGet"
          ],
@@ -10,7 +10,7 @@
       },
       "axe@seamonster" : {
          "damage" : "8",
-         "location" : "IN_ROOM:smon10",
+         "location" : "IN_ROOM:smon10@seamonster",
          "weight" : "2",
          "oflags" : [
             "Destroyed",
@@ -22,7 +22,7 @@
          "size" : "12"
       },
       "trees_1@seamonster" : {
-         "location" : "IN_ROOM:smon17",
+         "location" : "IN_ROOM:smon17@seamonster",
          "oflags" : [
             "NoGet"
          ],
@@ -31,7 +31,7 @@
          "linked" : "trees"
       },
       "trees@seamonster" : {
-         "location" : "IN_ROOM:smon14",
+         "location" : "IN_ROOM:smon14@seamonster",
          "oflags" : [
             "NoGet"
          ],
@@ -43,7 +43,7 @@
          "desc[0]" : "A free way has been cut through the trees."
       },
       "inscription@seamonster" : {
-         "location" : "IN_ROOM:smon16",
+         "location" : "IN_ROOM:smon16@seamonster",
          "weight" : "2",
          "oflags" : [
             "NoGet"
@@ -53,7 +53,7 @@
          "size" : "1"
       },
       "banana@seamonster" : {
-         "location" : "IN_ROOM:smon12",
+         "location" : "IN_ROOM:smon12@seamonster",
          "weight" : "2",
          "oflags" : [
             "Food"
@@ -65,7 +65,7 @@
          "size" : "1"
       },
       "boat@seamonster" : {
-         "location" : "IN_ROOM:smon21",
+         "location" : "IN_ROOM:smon21@seamonster",
          "oflags" : [
             "NoGet",
             "Boat"
@@ -76,7 +76,7 @@
       },
       "dirt@seamonster" : {
          "desc[1]" : "Some dirt is laying here.",
-         "location" : "IN_ROOM:smon23",
+         "location" : "IN_ROOM:smon23@seamonster",
          "oflags" : [
             "GetFlips"
          ],
@@ -90,7 +90,7 @@
          "desc[0]" : "Someone dropped some dirt here."
       },
       "energit@seamonster" : {
-         "location" : "IN_ROOM:smon16",
+         "location" : "IN_ROOM:smon16@seamonster",
          "oflags" : [
             "Destroyed"
          ],
@@ -106,8 +106,8 @@
    "loc" : {
       "smon20@seamonster" : {
          "exits" : {
-            "w" : "smon19",
-            "e" : "smon21"
+            "w" : "smon19@seamonster",
+            "e" : "smon21@seamonster"
          },
          "flags" : [
             "OutDoors"
@@ -120,10 +120,10 @@
       },
       "smon19@seamonster" : {
          "exits" : {
-            "w" : "smon18",
-            "e" : "smon20",
-            "n" : "smon22",
-            "s" : "smon22"
+            "w" : "smon18@seamonster",
+            "e" : "smon20@seamonster",
+            "n" : "smon22@seamonster",
+            "s" : "smon22@seamonster"
          },
          "flags" : [
             "OnWater"
@@ -139,7 +139,7 @@
             "w" : "7@sea",
             "e" : "7@sea",
             "n" : "5@sea",
-            "s" : "smon2"
+            "s" : "smon2@seamonster"
          },
          "flags" : [
             "OnWater"
@@ -152,8 +152,8 @@
       },
       "smon17@seamonster" : {
          "exits" : {
-            "w" : "^trees_1",
-            "e" : "smon18"
+            "w" : "^trees_1@seamonster",
+            "e" : "smon18@seamonster"
          },
          "flags" : [
             "OutDoors"
@@ -167,8 +167,8 @@
       "smon2@seamonster" : {
          "exits" : {
             "w" : "7@sea",
-            "e" : "smon3",
-            "n" : "smon1",
+            "e" : "smon3@seamonster",
+            "n" : "smon1@seamonster",
             "s" : "7@sea"
          },
          "flags" : [
@@ -182,7 +182,7 @@
       },
       "smon12@seamonster" : {
          "exits" : {
-            "d" : "smon11"
+            "d" : "smon11@seamonster"
          },
          "flags" : [
             "OutDoors"
@@ -195,7 +195,7 @@
       },
       "smon23@seamonster" : {
          "exits" : {
-            "s" : "smon11"
+            "s" : "smon11@seamonster"
          },
          "flags" : [
             "OutDoors"
@@ -208,8 +208,8 @@
       },
       "smon18@seamonster" : {
          "exits" : {
-            "w" : "smon17",
-            "e" : "smon19",
+            "w" : "smon17@seamonster",
+            "e" : "smon19@seamonster",
             "n" : "7@sea",
             "s" : "7@sea"
          },
@@ -224,7 +224,7 @@
       },
       "smon3@seamonster" : {
          "exits" : {
-            "w" : "smon2"
+            "w" : "smon2@seamonster"
          },
          "flags" : [],
          "zone" : "seamonster",
@@ -246,7 +246,7 @@
       },
       "smon21@seamonster" : {
          "exits" : {
-            "w" : "smon20"
+            "w" : "smon20@seamonster"
          },
          "flags" : [
             "OutDoors"
@@ -259,8 +259,8 @@
       },
       "smon14@seamonster" : {
          "exits" : {
-            "e" : "^trees",
-            "w" : "smon11"
+            "e" : "^trees@seamonster",
+            "w" : "smon11@seamonster"
          },
          "flags" : [
             "OutDoors"
@@ -273,7 +273,7 @@
       },
       "smon10@seamonster" : {
          "exits" : {
-            "e" : "smon11"
+            "e" : "smon11@seamonster"
          },
          "flags" : [
             "OutDoors"
@@ -286,8 +286,8 @@
       },
       "smon15@seamonster" : {
          "exits" : {
-            "n" : "smon13",
-            "s" : "smon16"
+            "n" : "smon13@seamonster",
+            "s" : "smon16@seamonster"
          },
          "flags" : [
             "OutDoors"
@@ -300,8 +300,8 @@
       },
       "smon13@seamonster" : {
          "exits" : {
-            "n" : "smon11",
-            "s" : "smon15"
+            "n" : "smon11@seamonster",
+            "s" : "smon15@seamonster"
          },
          "flags" : [
             "OutDoors"
@@ -325,11 +325,11 @@
       },
       "smon11@seamonster" : {
          "exits" : {
-            "w" : "smon10",
-            "e" : "smon14",
-            "u" : "smon12",
-            "n" : "smon23",
-            "s" : "smon13"
+            "w" : "smon10@seamonster",
+            "e" : "smon14@seamonster",
+            "u" : "smon12@seamonster",
+            "n" : "smon23@seamonster",
+            "s" : "smon13@seamonster"
          },
          "flags" : [
             "OutDoors"
@@ -342,7 +342,7 @@
       },
       "smon16@seamonster" : {
          "exits" : {
-            "n" : "smon15"
+            "n" : "smon15@seamonster"
          },
          "flags" : [
             "Dark"
@@ -357,7 +357,7 @@
    "mob" : {
       "boatsman@seamonster" : {
          "damage" : "8",
-         "location" : "smon21",
+         "location" : "smon21@seamonster",
          "armor" : "0",
          "name" : "Boatsman",
          "examine" : "The boatsman says 'Sit down, I will take you to the village.'",
@@ -377,7 +377,7 @@
             "ImmMissile"
          ],
          "damage" : "38",
-         "location" : "smon20",
+         "location" : "smon20@seamonster",
          "armor" : "12",
          "name" : "Seamonster",
          "examine" : "He will be very mad if you wake him!",

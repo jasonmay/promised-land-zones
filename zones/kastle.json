@@ -1,7 +1,7 @@
 {
    "obj" : {
       "snow_ice@kastle" : {
-         "location" : "IN_ROOM:14",
+         "location" : "IN_ROOM:14@kastle",
          "oflags" : [
             "NoGet"
          ],
@@ -14,7 +14,7 @@
          "desc[0]" : "A hole has been chipped through the ice."
       },
       "gold_chain@kastle" : {
-         "location" : "IN_ROOM:1",
+         "location" : "IN_ROOM:1@kastle",
          "oflags" : [
             "PushToggle",
             "NoGet"
@@ -28,7 +28,7 @@
       },
       "skis@kastle" : {
          "desc[1]" : "A pair of wooden skis stand in the corner, gathering dust.",
-         "location" : "IN_ROOM:5",
+         "location" : "IN_ROOM:5@kastle",
          "oflags" : [
             "GetFlips",
             "Wearable"
@@ -43,7 +43,7 @@
       },
       "fireplace@kastle" : {
          "desc[1]" : "There is a cold draft coming from the stone cold fireplace.",
-         "location" : "IN_ROOM:4",
+         "location" : "IN_ROOM:4@kastle",
          "oflags" : [
             "Lit",
             "Extinguish",
@@ -57,7 +57,7 @@
          "desc[0]" : "\nA cheerful fire blazing in the fireplace makes the room feel quite toasty."
       },
       "check@kastle" : {
-         "location" : "IN_CONTAINER:chest",
+         "location" : "IN_CONTAINER:chest@kastle",
          "name" : "check",
          "examine" : "It is made out to His Royal Highness for $50.",
          "size" : "1",
@@ -69,7 +69,7 @@
       },
       "bar_stone@kastle" : {
          "desc[1]" : "\nThe stairway is blocked by a large block of stone that is barred in place.",
-         "location" : "IN_ROOM:18",
+         "location" : "IN_ROOM:18@kastle",
          "oflags" : [
             "Pushable",
             "NoGet"
@@ -83,7 +83,7 @@
          "desc[0]" : "\nA block of stone is sitting on the stairs here beside an opening leading up."
       },
       "hole@kastle" : {
-         "location" : "IN_ROOM:12",
+         "location" : "IN_ROOM:12@kastle",
          "oflags" : [
             "NoGet"
          ],
@@ -94,7 +94,7 @@
          "state" : "1"
       },
       "armor_suit@kastle" : {
-         "location" : "IN_ROOM:2",
+         "location" : "IN_ROOM:2@kastle",
          "oflags" : [
             "Container",
             "NoGet"
@@ -106,7 +106,7 @@
       },
       "null_door@kastle" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:2",
+         "location" : "IN_ROOM:2@kastle",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -122,7 +122,7 @@
       },
       "chest@kastle" : {
          "desc[1]" : "The chest is closed.",
-         "location" : "IN_ROOM:19",
+         "location" : "IN_ROOM:19@kastle",
          "oflags" : [
             "Container",
             "Lockable",
@@ -136,7 +136,7 @@
          "desc[0]" : "The chest is open."
       },
       "chamber_pot@kastle" : {
-         "location" : "IN_ROOM:6",
+         "location" : "IN_ROOM:6@kastle",
          "oflags" : [
             "Container"
          ],
@@ -149,7 +149,7 @@
       },
       "chair_lazyboy@kastle" : {
          "desc[1]" : "The lazyboy looks inviting.",
-         "location" : "IN_ROOM:4",
+         "location" : "IN_ROOM:4@kastle",
          "oflags" : [
             "Container",
             "PushToggle",
@@ -165,7 +165,7 @@
       },
       "bread@kastle" : {
          "desc[1]" : "The only thing left on the shelves is some stale bread.",
-         "location" : "IN_ROOM:5",
+         "location" : "IN_ROOM:5@kastle",
          "oflags" : [
             "GetFlips",
             "Food"
@@ -180,7 +180,7 @@
          "desc[0]" : "Some stale bread has been left here."
       },
       "hole_1@kastle" : {
-         "location" : "IN_ROOM:13",
+         "location" : "IN_ROOM:13@kastle",
          "oflags" : [
             "NoGet"
          ],
@@ -192,7 +192,7 @@
          "desc[0]" : "A hole has been dug through the thick crusty snow."
       },
       "tapestry@kastle" : {
-         "location" : "IN_ROOM:4",
+         "location" : "IN_ROOM:4@kastle",
          "oflags" : [
             "NoGet"
          ],
@@ -201,7 +201,7 @@
       },
       "rock_wall@kastle" : {
          "desc[1]" : "The passage ends to the north in a solid rock wall.",
-         "location" : "IN_ROOM:1",
+         "location" : "IN_ROOM:1@kastle",
          "oflags" : [
             "PushToggle",
             "NoGet"
@@ -216,7 +216,7 @@
       "sword_cuthbert@kastle" : {
          "desc[1]" : "\nA magnificent-looking sword is displayed above the fireplace.",
          "damage" : "13",
-         "location" : "IN_ROOM:4",
+         "location" : "IN_ROOM:4@kastle",
          "oflags" : [
             "Weapon"
          ],
@@ -233,7 +233,7 @@
       },
       "oak_door_1@kastle" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:4",
+         "location" : "IN_ROOM:4@kastle",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -248,7 +248,7 @@
       },
       "oak_door@kastle" : {
          "desc[1]" : "The oak door is closed.",
-         "location" : "IN_ROOM:3",
+         "location" : "IN_ROOM:3@kastle",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -263,7 +263,7 @@
          "desc[0]" : "The oak door is open."
       },
       "old_coins@kastle" : {
-         "location" : "IN_CONTAINER:chair_lazyboy",
+         "location" : "IN_CONTAINER:chair_lazyboy@kastle",
          "weight" : "3",
          "pname" : "coins",
          "name" : "old_coins",
@@ -272,7 +272,7 @@
          "size" : "3"
       },
       "nest_egg@kastle" : {
-         "location" : "IN_ROOM:7",
+         "location" : "IN_ROOM:7@kastle",
          "oflags" : [
             "Destroyed"
          ],
@@ -285,7 +285,7 @@
       },
       "heavy_door@kastle" : {
          "desc[1]" : "The heavy door is closed.",
-         "location" : "IN_ROOM:3",
+         "location" : "IN_ROOM:3@kastle",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -301,7 +301,7 @@
          "desc[0]" : "The heavy door is open."
       },
       "ball@kastle" : {
-         "location" : "IN_ROOM:17",
+         "location" : "IN_ROOM:17@kastle",
          "weight" : "10",
          "name" : "ball",
          "examine" : "\nThis is actually a very large black pearl with some holes drilled in it.",
@@ -310,7 +310,7 @@
          "size" : "20"
       },
       "ledge@kastle" : {
-         "location" : "IN_ROOM:7",
+         "location" : "IN_ROOM:7@kastle",
          "oflags" : [
             "NoGet"
          ],
@@ -318,7 +318,7 @@
       },
       "door_1@kastle" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:21",
+         "location" : "IN_ROOM:21@kastle",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -333,7 +333,7 @@
          "desc[0]" : "The door is open."
       },
       "fancy_key@kastle" : {
-         "location" : "IN_CONTAINER:armor_suit",
+         "location" : "IN_CONTAINER:armor_suit@kastle",
          "oflags" : [
             "Key"
          ],
@@ -346,7 +346,7 @@
       },
       "door@kastle" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:20",
+         "location" : "IN_ROOM:20@kastle",
          "oflags" : [
             "Lockable",
             "NoGet",
@@ -363,8 +363,8 @@
    "loc" : {
       "14@kastle" : {
          "exits" : {
-            "u" : "^snow_ice",
-            "s" : "13"
+            "u" : "^snow_ice@kastle",
+            "s" : "13@kastle"
          },
          "flags" : [
             "Cold",
@@ -378,8 +378,8 @@
       },
       "13@kastle" : {
          "exits" : {
-            "u" : "^hole_1",
-            "n" : "14"
+            "u" : "^hole_1@kastle",
+            "n" : "14@kastle"
          },
          "flags" : [
             "Dark",
@@ -395,10 +395,10 @@
       },
       "18@kastle" : {
          "exits" : {
-            "e" : "20",
-            "u" : "^bar_stone",
-            "n" : "19",
-            "s" : "15"
+            "e" : "20@kastle",
+            "u" : "^bar_stone@kastle",
+            "n" : "19@kastle",
+            "s" : "15@kastle"
          },
          "flags" : [
             "Dark"
@@ -411,9 +411,9 @@
       },
       "10@kastle" : {
          "exits" : {
-            "w" : "9",
-            "d" : "11",
-            "s" : "11"
+            "w" : "9@kastle",
+            "d" : "11@kastle",
+            "s" : "11@kastle"
          },
          "flags" : [
             "Outdoors",
@@ -427,8 +427,8 @@
       },
       "3@kastle" : {
          "exits" : {
-            "e" : "^heavy_door",
-            "s" : "^oak_door"
+            "e" : "^heavy_door@kastle",
+            "s" : "^oak_door@kastle"
          },
          "flags" : [],
          "zone" : "kastle",
@@ -439,7 +439,7 @@
       },
       "22@kastle" : {
          "exits" : {
-            "d" : "17"
+            "d" : "17@kastle"
          },
          "flags" : [
             "Dark",
@@ -456,7 +456,7 @@
       },
       "17@kastle" : {
          "exits" : {
-            "u" : "16"
+            "u" : "16@kastle"
          },
          "flags" : [
             "Dark",
@@ -470,7 +470,7 @@
       },
       "21@kastle" : {
          "exits" : {
-            "w" : "^door_1"
+            "w" : "^door_1@kastle"
          },
          "flags" : [
             "Dark"
@@ -483,8 +483,8 @@
       },
       "16@kastle" : {
          "exits" : {
-            "n" : "15",
-            "d" : "23"
+            "n" : "15@kastle",
+            "d" : "23@kastle"
          },
          "flags" : [
             "Dark"
@@ -497,8 +497,8 @@
       },
       "15@kastle" : {
          "exits" : {
-            "n" : "18",
-            "s" : "16"
+            "n" : "18@kastle",
+            "s" : "16@kastle"
          },
          "flags" : [
             "Dark"
@@ -511,7 +511,7 @@
       },
       "19@kastle" : {
          "exits" : {
-            "s" : "18"
+            "s" : "18@kastle"
          },
          "flags" : [],
          "zone" : "kastle",
@@ -522,7 +522,7 @@
       },
       "7@kastle" : {
          "exits" : {
-            "d" : "4"
+            "d" : "4@kastle"
          },
          "flags" : [
             "Dark",
@@ -549,8 +549,8 @@
       },
       "1@kastle" : {
          "exits" : {
-            "n" : "^rock_wall",
-            "s" : "2"
+            "n" : "^rock_wall@kastle",
+            "s" : "2@kastle"
          },
          "flags" : [],
          "zone" : "kastle",
@@ -561,8 +561,8 @@
       },
       "12@kastle" : {
          "exits" : {
-            "n" : "11",
-            "d" : "^hole"
+            "n" : "11@kastle",
+            "d" : "^hole@kastle"
          },
          "flags" : [
             "Outdoors",
@@ -576,9 +576,9 @@
       },
       "2@kastle" : {
          "exits" : {
-            "w" : "^null_door",
-            "n" : "1",
-            "s" : "8"
+            "w" : "^null_door@kastle",
+            "n" : "1@kastle",
+            "s" : "8@kastle"
          },
          "flags" : [],
          "zone" : "kastle",
@@ -589,7 +589,7 @@
       },
       "5@kastle" : {
          "exits" : {
-            "e" : "4"
+            "e" : "4@kastle"
          },
          "flags" : [
             "Dark"
@@ -602,8 +602,8 @@
       },
       "20@kastle" : {
          "exits" : {
-            "w" : "18",
-            "e" : "^door"
+            "w" : "18@kastle",
+            "e" : "^door@kastle"
          },
          "flags" : [
             "Dark"
@@ -629,7 +629,7 @@
       },
       "6@kastle" : {
          "exits" : {
-            "n" : "4"
+            "n" : "4@kastle"
          },
          "flags" : [
             "Peaceful"
@@ -642,8 +642,8 @@
       },
       "8@kastle" : {
          "exits" : {
-            "n" : "2",
-            "s" : "9"
+            "n" : "2@kastle",
+            "s" : "9@kastle"
          },
          "flags" : [
             "Dark",
@@ -657,7 +657,7 @@
       },
       "11@kastle" : {
          "exits" : {
-            "s" : "12"
+            "s" : "12@kastle"
          },
          "flags" : [
             "Outdoors",
@@ -671,9 +671,9 @@
       },
       "4@kastle" : {
          "exits" : {
-            "u" : "7",
-            "n" : "^oak_door_1",
-            "s" : "6"
+            "u" : "7@kastle",
+            "n" : "^oak_door_1@kastle",
+            "s" : "6@kastle"
          },
          "flags" : [],
          "zone" : "kastle",
@@ -684,8 +684,8 @@
       },
       "9@kastle" : {
          "exits" : {
-            "u" : "10",
-            "n" : "8"
+            "u" : "10@kastle",
+            "n" : "8@kastle"
          },
          "flags" : [
             "Outdoors",
@@ -701,7 +701,7 @@
    "mob" : {
       "flosi@kastle" : {
          "damage" : "10",
-         "location" : "19",
+         "location" : "19@kastle",
          "speed" : "0",
          "aggression" : "80",
          "name" : "flosi",
@@ -711,7 +711,7 @@
       },
       "knight@kastle" : {
          "damage" : "10",
-         "location" : "4",
+         "location" : "4@kastle",
          "speed" : "0",
          "aggression" : "30",
          "pname" : "The Knight",
@@ -722,7 +722,7 @@
       },
       "skapti@kastle" : {
          "damage" : "10",
-         "location" : "19",
+         "location" : "19@kastle",
          "speed" : "0",
          "aggression" : "80",
          "name" : "skapti",
@@ -732,7 +732,7 @@
       },
       "crud@kastle" : {
          "damage" : "10",
-         "location" : "16",
+         "location" : "16@kastle",
          "name" : "crud",
          "description" : "A Creeping Crud is slushing around, trying to get at you.",
          "sflags" : [
@@ -744,7 +744,7 @@
       },
       "blix@kastle" : {
          "damage" : "10",
-         "location" : "13",
+         "location" : "13@kastle",
          "speed" : "2",
          "name" : "blix",
          "description" : "Blix the Goblin looks happy to see you.",

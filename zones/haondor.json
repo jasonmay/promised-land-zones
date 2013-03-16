@@ -1,7 +1,7 @@
 {
    "obj" : {
       "obj6022_1@haondor" : {
-         "location" : "IN_CONTAINER:obj6021",
+         "location" : "IN_CONTAINER:obj6021@haondor",
          "oflags" : [
             "Food"
          ],
@@ -17,7 +17,7 @@
          "desc[0]" : "A small bluish egg has been left here."
       },
       "animal@haondor" : {
-         "location" : "IN_ROOM:sundforest6030",
+         "location" : "IN_ROOM:sundforest6030@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -26,7 +26,7 @@
          "examine" : "\nFrom here it looks &+Cfeline&*.  You still don't think it has noticed you, despite\nthe noise you made while climbing up here.\n"
       },
       "grass_sundforest6025@haondor" : {
-         "location" : "IN_ROOM:sundforest6025",
+         "location" : "IN_ROOM:sundforest6025@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -35,7 +35,7 @@
          "examine" : "\nThe tall grass makes a nice hiding place for animals.\n"
       },
       "obj6023@haondor" : {
-         "location" : "CARRIED_BY:mob6001",
+         "location" : "CARRIED_BY:mob6001@haondor",
          "oflags" : [
             "Food"
          ],
@@ -50,7 +50,7 @@
          "desc[0]" : "A large piece of rabbit meat."
       },
       "obj6022_2@haondor" : {
-         "location" : "IN_CONTAINER:obj6021",
+         "location" : "IN_CONTAINER:obj6021@haondor",
          "oflags" : [
             "Food"
          ],
@@ -66,7 +66,7 @@
          "desc[0]" : "A small bluish egg has been left here."
       },
       "hill_sundforest6073@haondor" : {
-         "location" : "IN_ROOM:sundforest6073",
+         "location" : "IN_ROOM:sundforest6073@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -76,7 +76,7 @@
          "examine" : "\nTo the northwest you see hills covered by dense forest.\n"
       },
       "bird_1@haondor" : {
-         "location" : "IN_ROOM:sundforest6032",
+         "location" : "IN_ROOM:sundforest6032@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -86,7 +86,7 @@
          "examine" : "\nA variety of squirrels, chipmunks, and birds make their homes in this and the\nsurrounding trees.  If you look closely you may be able to see some of their\nrapidly emptying nests.\n"
       },
       "branch@haondor" : {
-         "location" : "IN_ROOM:sundforest6017",
+         "location" : "IN_ROOM:sundforest6017@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -96,7 +96,7 @@
          "examine" : "\nThe branch of a large oak stretches out above the path from the east.\n"
       },
       "log_sundforest6008@haondor" : {
-         "location" : "IN_ROOM:sundforest6008",
+         "location" : "IN_ROOM:sundforest6008@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -105,7 +105,7 @@
          "examine" : "\nEven though the logs have been chopped to shorter pieces, they are quite heavy\nas they are fresh and still filled with sap.\n"
       },
       "obj6001@haondor" : {
-         "location" : "WORN_BY:mob6000",
+         "location" : "WORN_BY:mob6000@haondor",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -126,7 +126,7 @@
          ]
       },
       "mountain_sundforest6033@haondor" : {
-         "location" : "IN_ROOM:sundforest6033",
+         "location" : "IN_ROOM:sundforest6033@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -136,7 +136,7 @@
          "examine" : "\nA long mountain range stretches across the horizon to the north and northeast.\nYou have heard rumors of many different sorts of creatures living there,\nvarying from Dwarves and Humans to Ogres and various humanoid creatures.  Some\nsay that evil Dark Elves dwell in the underworld deep below the lands of the\nDwarves.  The caves of Moria also are found there, populated by all sorts of\nevil creatures.\n"
       },
       "animal_1@haondor" : {
-         "location" : "IN_ROOM:sundforest6031",
+         "location" : "IN_ROOM:sundforest6031@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -146,7 +146,7 @@
          "examine" : "\nFrom here it looks feline.  You still don't think it has noticed you, despite\nthe noise you made while climbing up here.\n"
       },
       "obj6011_4@haondor" : {
-         "location" : "IN_ROOM:sundforest6065",
+         "location" : "IN_ROOM:sundforest6065@haondor",
          "oflags" : [
             "Food"
          ],
@@ -161,7 +161,7 @@
          "desc[0]" : "A small mushroom grows nearby."
       },
       "obj6007@haondor" : {
-         "location" : "IN_CONTAINER:obj6005",
+         "location" : "IN_CONTAINER:obj6005@haondor",
          "oflags" : "{  }",
          "altname" : "gold",
          "name" : "obj6007",
@@ -175,7 +175,7 @@
          "desc[0]" : "Some gold coins lie piled up in a heap on the floor."
       },
       "limb_sundforest6031@haondor" : {
-         "location" : "IN_ROOM:sundforest6031",
+         "location" : "IN_ROOM:sundforest6031@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -184,7 +184,7 @@
          "examine" : "\nThe limbs look quite sturdy, certainly capable of holding your weight should\nyou decide to climb around in the tree using them.\n"
       },
       "stake_sundforest6008@haondor" : {
-         "location" : "IN_ROOM:sundforest6008",
+         "location" : "IN_ROOM:sundforest6008@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -193,7 +193,7 @@
          "examine" : "\nThe stakes keep the logs from rolling down.\n"
       },
       "obj6019@haondor" : {
-         "location" : "IN_ROOM:sundforest6026",
+         "location" : "IN_ROOM:sundforest6026@haondor",
          "oflags" : "{  }",
          "altname" : "boar",
          "name" : "obj6019",
@@ -207,7 +207,7 @@
          "desc[0]" : "A pair of large boar tusks have been dropped here."
       },
       "tree_sundforest6061@haondor" : {
-         "location" : "IN_ROOM:sundforest6061",
+         "location" : "IN_ROOM:sundforest6061@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -216,7 +216,7 @@
          "examine" : "\nThe crowns of the old trees leave the forest in an unreal twilight\nillumination.  A large branch looms above you, over the path.\n"
       },
       "animal_sundforest6026@haondor" : {
-         "location" : "IN_ROOM:sundforest6026",
+         "location" : "IN_ROOM:sundforest6026@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -226,7 +226,7 @@
          "examine" : "\nSeveral pairs of eyes peer out at you, urging you to leave.  The just might\ndecide that en masse they could kill you, so you probably don't want to tarry\nhere.\n"
       },
       "obj6011_1@haondor" : {
-         "location" : "IN_ROOM:sundforest6013",
+         "location" : "IN_ROOM:sundforest6013@haondor",
          "oflags" : [
             "Food"
          ],
@@ -241,7 +241,7 @@
          "desc[0]" : "A small mushroom grows nearby."
       },
       "clearing_sundforest6067@haondor" : {
-         "location" : "IN_ROOM:sundforest6067",
+         "location" : "IN_ROOM:sundforest6067@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -250,7 +250,7 @@
          "examine" : "\nWhen the large tree fell it must have brought a few of the smaller trees down\nwith it in order to make a clearing like this.\n"
       },
       "woods_1@haondor" : {
-         "location" : "IN_ROOM:sundforest6033",
+         "location" : "IN_ROOM:sundforest6033@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -260,7 +260,7 @@
          "examine" : "\nOff to the southwest you can see a grass covered field, and a small lake;\nnortwest of you is a small cabin and a large pile of wood.  Far to west the\ntreetops form a tight canopy, blocking out almost all sunlight and your view.\nIt is said that large wolves live there.  You've also heard rumors of horrible\nspiders and drow living there.  \n"
       },
       "birds_sundforest6023@haondor" : {
-         "location" : "IN_ROOM:sundforest6023",
+         "location" : "IN_ROOM:sundforest6023@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -270,7 +270,7 @@
          "examine" : "\nMany carrion birds are circling to the north, you presume they are waiting for\ntheir turn to feast on a corpse.\n"
       },
       "obj6006@haondor" : {
-         "location" : "IN_CONTAINER:obj6003",
+         "location" : "IN_CONTAINER:obj6003@haondor",
          "oflags" : [
             "Key"
          ],
@@ -286,7 +286,7 @@
          "desc[0]" : "A small brass key lies here."
       },
       "top_sundforest6031@haondor" : {
-         "location" : "IN_ROOM:sundforest6031",
+         "location" : "IN_ROOM:sundforest6031@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -296,7 +296,7 @@
          "examine" : "\nYou could probably see most of the forest, and perhaps even the city from the\ntop of the tree... of course, you would have to deal with whatever that shape\nis that you see pacing on one of the upper limbs.\n"
       },
       "obj6012@haondor" : {
-         "location" : "IN_ROOM:sundforest6000",
+         "location" : "IN_ROOM:sundforest6000@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -312,7 +312,7 @@
          "desc[0]" : "A large sign mounted on a pole is standing by the roadside."
       },
       "tree_2@haondor" : {
-         "location" : "IN_ROOM:sundforest6067",
+         "location" : "IN_ROOM:sundforest6067@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -322,7 +322,7 @@
          "examine" : "\nThe tree has mostly rotted away, providing nourishment to many small plants\ngrowing here in the clearing.  The few pieces that remain are not all that\nlarge, but one log in particular catches your eye and seems to remind you of\nsomething.  Under one of these logs would be a great place for an &+Canimal&* to\nmake its den...\n"
       },
       "obj6024@haondor" : {
-         "location" : "CARRIED_BY:mob6004",
+         "location" : "CARRIED_BY:mob6004@haondor",
          "oflags" : [
             "Food"
          ],
@@ -336,7 +336,7 @@
          "desc[0]" : "A large piece of venison."
       },
       "animals_sundforest6030@haondor" : {
-         "location" : "IN_ROOM:sundforest6030",
+         "location" : "IN_ROOM:sundforest6030@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -346,7 +346,7 @@
          "examine" : "\nA variety of squirrels, chipmunks, and birds make their homes in this and the\nsurrounding trees.  If you look closely you may be able to see some of their\nrapidly emptying nests.\n"
       },
       "air_sundforest6022@haondor" : {
-         "location" : "IN_ROOM:sundforest6022",
+         "location" : "IN_ROOM:sundforest6022@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -355,7 +355,7 @@
          "examine" : "\nKind of transparent, but quite noticeable nevertheless.\n"
       },
       "tree_sundforest6004@haondor" : {
-         "location" : "IN_ROOM:sundforest6004",
+         "location" : "IN_ROOM:sundforest6004@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -364,7 +364,7 @@
          "examine" : "\nThe crowns of the old trees almost cut out all light.\n"
       },
       "obj6018@haondor" : {
-         "location" : "IN_ROOM:sundforest6026",
+         "location" : "IN_ROOM:sundforest6026@haondor",
          "oflags" : [
             "Food"
          ],
@@ -379,7 +379,7 @@
          "desc[0]" : "A large piece of freshly cut boar meat is on the ground here."
       },
       "feline_sundforest6031@haondor" : {
-         "location" : "IN_ROOM:sundforest6031",
+         "location" : "IN_ROOM:sundforest6031@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -388,7 +388,7 @@
          "examine" : "\nThe shape above you moves with definite grace and confidence.  You think that\nit must be a Bobcat, stalking smaller tree-dwelling animals.\n"
       },
       "obj6003@haondor" : {
-         "location" : "IN_ROOM:sundforest6010",
+         "location" : "IN_ROOM:sundforest6010@haondor",
          "oflags" : [
             "Container",
             "Noget"
@@ -404,7 +404,7 @@
          "desc[0]" : "A fireplace made from stone is set against the east wall."
       },
       "large_sundforest6029@haondor" : {
-         "location" : "IN_ROOM:sundforest6029",
+         "location" : "IN_ROOM:sundforest6029@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -414,7 +414,7 @@
          "examine" : "\nIt has some lower branches that you think you could reach if you stretched.\nYou might even be able to climb all the top, though from here it looks like\nsomething else had that idea before you.  There is a faint &+Canimal&* shape pacing\non one of the highest branches.\n"
       },
       "grass_sundforest6023@haondor" : {
-         "location" : "IN_ROOM:sundforest6023",
+         "location" : "IN_ROOM:sundforest6023@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -423,7 +423,7 @@
          "examine" : "\nThe tall grass makes a nice hiding place for animals.\n"
       },
       "obj6023_2@haondor" : {
-         "location" : "CARRIED_BY:mob6001_2",
+         "location" : "CARRIED_BY:mob6001_2@haondor",
          "oflags" : [
             "Food"
          ],
@@ -438,7 +438,7 @@
          "desc[0]" : "A large piece of rabbit meat."
       },
       "tree_sundforest6027@haondor" : {
-         "location" : "IN_ROOM:sundforest6027",
+         "location" : "IN_ROOM:sundforest6027@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -448,7 +448,7 @@
          "examine" : "\nTrees cover the bank on most sides, preventing you from docking there.\n"
       },
       "hills_sundforest6078@haondor" : {
-         "location" : "IN_ROOM:sundforest6078",
+         "location" : "IN_ROOM:sundforest6078@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -457,7 +457,7 @@
          "examine" : "\nThe terrian is very hilly and rough to the north and west.  You have heard\nthat there is a halfling village somewhere in the hills.\n"
       },
       "reed_sundforest6027@haondor" : {
-         "location" : "IN_ROOM:sundforest6027",
+         "location" : "IN_ROOM:sundforest6027@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -466,7 +466,7 @@
          "examine" : "\nReeds grow up around the edges of the lake, providing cover for the small\nwater fowl that live here.\n"
       },
       "limb_sundforest6032@haondor" : {
-         "location" : "IN_ROOM:sundforest6032",
+         "location" : "IN_ROOM:sundforest6032@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -475,7 +475,7 @@
          "examine" : "\nThey look quite sturdy, certainly capable of holding your weight should you\ndecide to climb around in the tree using them.\n"
       },
       "floor@haondor" : {
-         "location" : "IN_ROOM:sundforest6022",
+         "location" : "IN_ROOM:sundforest6022@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -485,7 +485,7 @@
          "examine" : "\nThere are a lot of tracks here, including some drag marks.\n"
       },
       "obj6023_5@haondor" : {
-         "location" : "CARRIED_BY:mob6001_1",
+         "location" : "CARRIED_BY:mob6001_1@haondor",
          "oflags" : [
             "Food"
          ],
@@ -500,7 +500,7 @@
          "desc[0]" : "A large piece of rabbit meat."
       },
       "river_sundforest6033@haondor" : {
-         "location" : "IN_ROOM:sundforest6033",
+         "location" : "IN_ROOM:sundforest6033@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -509,7 +509,7 @@
          "examine" : "\nTo the south you see a river flowing roughly from the northeast to the west.\nIt emerges from a dark opening in the side of a mountain and flows through\nMidgaard, and on into the forest.  It has eroded a deep chasm in the soft stone\nunder the forest floor, and is not visible for long after it enters the forest\nproper.\n"
       },
       "bed_sundforest6010@haondor" : {
-         "location" : "IN_ROOM:sundforest6010",
+         "location" : "IN_ROOM:sundforest6010@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -518,7 +518,7 @@
          "examine" : "\nIt is definitely not the most comfortable bed you have seen in your life.\n"
       },
       "obj6022@haondor" : {
-         "location" : "IN_CONTAINER:obj6021",
+         "location" : "IN_CONTAINER:obj6021@haondor",
          "oflags" : [
             "Food"
          ],
@@ -534,7 +534,7 @@
          "desc[0]" : "A small bluish egg has been left here."
       },
       "birds_sundforest6001@haondor" : {
-         "location" : "IN_ROOM:sundforest6001",
+         "location" : "IN_ROOM:sundforest6001@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -544,7 +544,7 @@
          "examine" : "\nVery cute little creatures, they seem to enjoy life.\n"
       },
       "carving_sundforest6010@haondor" : {
-         "location" : "IN_ROOM:sundforest6010",
+         "location" : "IN_ROOM:sundforest6010@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -554,7 +554,7 @@
          "examine" : "\nOn the table is carved :\n                                                  /) /)\n          Danny and Mari, Oct 31, 1991           ( o o )\n                                                  = x =\n                                                 m     m\n                                              ***(========-\n"
       },
       "obj6024_1@haondor" : {
-         "location" : "CARRIED_BY:mob6016",
+         "location" : "CARRIED_BY:mob6016@haondor",
          "oflags" : [
             "Food"
          ],
@@ -568,7 +568,7 @@
          "desc[0]" : "A large piece of venison."
       },
       "obj6011_6@haondor" : {
-         "location" : "IN_ROOM:sundforest6069",
+         "location" : "IN_ROOM:sundforest6069@haondor",
          "oflags" : [
             "Food"
          ],
@@ -583,7 +583,7 @@
          "desc[0]" : "A small mushroom grows nearby."
       },
       "nest_sundforest6031@haondor" : {
-         "location" : "IN_ROOM:sundforest6031",
+         "location" : "IN_ROOM:sundforest6031@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -592,7 +592,7 @@
          "examine" : "\nYou notice that several of the squirrels sought refuge in a large nest that is\nwell within your reach.  Looking into the nest, you see two pairs of eyes\nstaring back at you.\n"
       },
       "obj6023_1@haondor" : {
-         "location" : "CARRIED_BY:mob6001_1",
+         "location" : "CARRIED_BY:mob6001_1@haondor",
          "oflags" : [
             "Food"
          ],
@@ -608,7 +608,7 @@
       },
       "obj6016@haondor" : {
          "damage" : "7",
-         "location" : "IN_ROOM:sundforest6033",
+         "location" : "IN_ROOM:sundforest6033@haondor",
          "oflags" : [
             "Weapon"
          ],
@@ -624,7 +624,7 @@
          "desc[0]" : "A limb has fallen here."
       },
       "hills_sundforest6075@haondor" : {
-         "location" : "IN_ROOM:sundforest6075",
+         "location" : "IN_ROOM:sundforest6075@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -634,7 +634,7 @@
          "examine" : "\nTo the northwest the ground becomes more hilly. You have heard that a halfling\nvillage is somewhere in the hills.\n"
       },
       "tree_sundforest6009@haondor" : {
-         "location" : "IN_ROOM:sundforest6009",
+         "location" : "IN_ROOM:sundforest6009@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -643,7 +643,7 @@
          "examine" : "\nThe trees are fairly young, not much more than a hundred years or so.\n"
       },
       "birds_sundforest6025@haondor" : {
-         "location" : "IN_ROOM:sundforest6025",
+         "location" : "IN_ROOM:sundforest6025@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -653,7 +653,7 @@
          "examine" : "\nMany carrion birds are circling to the west, you presume they are waiting for\ntheir turn to feast on a corpse.\n"
       },
       "table_sundforest6010@haondor" : {
-         "location" : "IN_ROOM:sundforest6010",
+         "location" : "IN_ROOM:sundforest6010@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -662,7 +662,7 @@
          "examine" : "\nA heavy table that doesn't even appear to rock.  It seems to have something\ncarved on it.\n"
       },
       "lake_sundforest6025@haondor" : {
-         "location" : "IN_ROOM:sundforest6025",
+         "location" : "IN_ROOM:sundforest6025@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -671,7 +671,7 @@
          "examine" : "\nAnimals from all around come here to drink.  The lake itself is not very big,\nbut it stretches off to the north from here.\n"
       },
       "obj6023_4@haondor" : {
-         "location" : "CARRIED_BY:mob6001",
+         "location" : "CARRIED_BY:mob6001@haondor",
          "oflags" : [
             "Food"
          ],
@@ -686,7 +686,7 @@
          "desc[0]" : "A large piece of rabbit meat."
       },
       "birds_sundforest6026@haondor" : {
-         "location" : "IN_ROOM:sundforest6026",
+         "location" : "IN_ROOM:sundforest6026@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -695,7 +695,7 @@
          "examine" : "\nMany birds of varying size circle overhead, waiting for you to leave.  You\nhope they don't decide that you could be a corpse with just a little effort.\n"
       },
       "obj6010@haondor" : {
-         "location" : "IN_ROOM:sundforest6023",
+         "location" : "IN_ROOM:sundforest6023@haondor",
          "oflags" : [
             "Food"
          ],
@@ -710,7 +710,7 @@
          "desc[0]" : "Some blackberries grow on a bush nearby."
       },
       "tree_sundforest6001@haondor" : {
-         "location" : "IN_ROOM:sundforest6001",
+         "location" : "IN_ROOM:sundforest6001@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -719,7 +719,7 @@
          "examine" : "\nThe trees here are quite young and fresh.  They seem to accommodate many kinds\nof birds, insects and other small animals.\n"
       },
       "feline_sundforest6030@haondor" : {
-         "location" : "IN_ROOM:sundforest6030",
+         "location" : "IN_ROOM:sundforest6030@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -728,7 +728,7 @@
          "examine" : "\nThe shape above you moves with definite grace and confidence.  You think that\nit must be a Bobcat, stalking smaller tree-dwelling animals.\n"
       },
       "cabin_sundforest6009@haondor" : {
-         "location" : "IN_ROOM:sundforest6009",
+         "location" : "IN_ROOM:sundforest6009@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -738,7 +738,7 @@
          "examine" : "\nIt looks simple but comfortable and the slender trees make the whole place seem\npretty idyllic.  It is a cabin built from wooden logs.\n"
       },
       "top_sundforest6032@haondor" : {
-         "location" : "IN_ROOM:sundforest6032",
+         "location" : "IN_ROOM:sundforest6032@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -748,7 +748,7 @@
          "examine" : "\nYou could probably see most of the forest, and perhaps even the city from the\ntop of the tree... of course, you would have to deal with whatever that &+Cshape\nis that you see pacing on an the upper &+Climb.\n"
       },
       "obj6011_2@haondor" : {
-         "location" : "IN_ROOM:sundforest6016",
+         "location" : "IN_ROOM:sundforest6016@haondor",
          "oflags" : [
             "Food"
          ],
@@ -763,7 +763,7 @@
          "desc[0]" : "A small mushroom grows nearby."
       },
       "obj6004@haondor" : {
-         "location" : "IN_ROOM:sundforest6010",
+         "location" : "IN_ROOM:sundforest6010@haondor",
          "oflags" : [
             "Lightable",
             "Extinguish"
@@ -780,7 +780,7 @@
          "desc[0]" : "A hooded brass lantern has been left here."
       },
       "forest_sundforest6092@haondor" : {
-         "location" : "IN_ROOM:sundforest6092",
+         "location" : "IN_ROOM:sundforest6092@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -790,7 +790,7 @@
       },
       "door_sundforest6009@haondor" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:sundforest6010",
+         "location" : "IN_ROOM:sundforest6010@haondor",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -807,7 +807,7 @@
          "desc[0]" : "The door is open."
       },
       "obj6023_7@haondor" : {
-         "location" : "CARRIED_BY:mob6001_3",
+         "location" : "CARRIED_BY:mob6001_3@haondor",
          "oflags" : [
             "Food"
          ],
@@ -822,7 +822,7 @@
          "desc[0]" : "A large piece of rabbit meat."
       },
       "obj6014_3@haondor" : {
-         "location" : "IN_ROOM:sundforest6013",
+         "location" : "IN_ROOM:sundforest6013@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -837,7 +837,7 @@
          "desc[0]" : "A small brook trickles through the forest beside the path."
       },
       "obj6011_7@haondor" : {
-         "location" : "IN_ROOM:sundforest6078",
+         "location" : "IN_ROOM:sundforest6078@haondor",
          "oflags" : [
             "Food"
          ],
@@ -852,7 +852,7 @@
          "desc[0]" : "A small mushroom grows nearby."
       },
       "tree_sundforest6003@haondor" : {
-         "location" : "IN_ROOM:sundforest6003",
+         "location" : "IN_ROOM:sundforest6003@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -861,7 +861,7 @@
          "examine" : "\nThe dense crowns of the mature trees leave only a fraction of the sky to be\nseen through the leaves.\n"
       },
       "obj6023_8@haondor" : {
-         "location" : "CARRIED_BY:mob6001_4",
+         "location" : "CARRIED_BY:mob6001_4@haondor",
          "oflags" : [
             "Food"
          ],
@@ -876,7 +876,7 @@
          "desc[0]" : "A large piece of rabbit meat."
       },
       "obj6021@haondor" : {
-         "location" : "IN_ROOM:sundforest6032",
+         "location" : "IN_ROOM:sundforest6032@haondor",
          "oflags" : [
             "Container",
             "Noget"
@@ -893,7 +893,7 @@
          "desc[0]" : "There's a bird nest here."
       },
       "debris_sundforest6022@haondor" : {
-         "location" : "IN_ROOM:sundforest6022",
+         "location" : "IN_ROOM:sundforest6022@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -902,7 +902,7 @@
          "examine" : "\nIt consists mostly of gnawed bones mixed with small pieces of torn fur.\n"
       },
       "tree_sundforest6002@haondor" : {
-         "location" : "IN_ROOM:sundforest6002",
+         "location" : "IN_ROOM:sundforest6002@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -911,7 +911,7 @@
          "examine" : "\nThe young, slender trees look beautiful, their fresh, green leaves moving\nlightly in the wind.\n"
       },
       "obj6023_3@haondor" : {
-         "location" : "CARRIED_BY:mob6001_3",
+         "location" : "CARRIED_BY:mob6001_3@haondor",
          "oflags" : [
             "Food"
          ],
@@ -926,7 +926,7 @@
          "desc[0]" : "A large piece of rabbit meat."
       },
       "chair_sundforest6010@haondor" : {
-         "location" : "IN_ROOM:sundforest6010",
+         "location" : "IN_ROOM:sundforest6010@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -935,7 +935,7 @@
          "examine" : "\nIt is made from oak and looks strong and sturdy.\n"
       },
       "stump_sundforest6008@haondor" : {
-         "location" : "IN_ROOM:sundforest6008",
+         "location" : "IN_ROOM:sundforest6008@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -944,7 +944,7 @@
          "examine" : "\nThere are more stumps than logs and some of the stumps are partly covered in\nmoss.\n"
       },
       "lake_sundforest6027@haondor" : {
-         "location" : "IN_ROOM:sundforest6027",
+         "location" : "IN_ROOM:sundforest6027@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -953,7 +953,7 @@
          "examine" : "\nAnimals from all around come here to drink.  The lake itself is not very big,\nbut it stretches off to the north from here.\n"
       },
       "animal_sundforest6029@haondor" : {
-         "location" : "IN_ROOM:sundforest6029",
+         "location" : "IN_ROOM:sundforest6029@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -962,7 +962,7 @@
          "examine" : "\nFrom here it looks vaguely feline, though you could get a much better view\nfrom in the tree.  You are not sure if it has seen you yet.\n"
       },
       "obj6020@haondor" : {
-         "location" : "IN_ROOM:sundforest6067",
+         "location" : "IN_ROOM:sundforest6067@haondor",
          "oflags" : [
             "Boat"
          ],
@@ -978,7 +978,7 @@
          "desc[0]" : "There is a hollow log here."
       },
       "tree_sundforest6017@haondor" : {
-         "location" : "IN_ROOM:sundforest6017",
+         "location" : "IN_ROOM:sundforest6017@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -988,7 +988,7 @@
          "desc[0]" : "A large tree stands before you."
       },
       "tree_sundforest6091@haondor" : {
-         "location" : "IN_ROOM:sundforest6091",
+         "location" : "IN_ROOM:sundforest6091@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -997,7 +997,7 @@
          "examine" : "\nSome small trees grow amongst the underbrush of the plains.  These slowly gain\nin height as you travel farther westward towards Haon-Dor.\n"
       },
       "fish_sundforest6027@haondor" : {
-         "location" : "IN_ROOM:sundforest6027",
+         "location" : "IN_ROOM:sundforest6027@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -1006,7 +1006,7 @@
          "examine" : "\nTrout and perhaps a catfish or two swim about below you, totally ignoring\nyour presence.\n"
       },
       "up_sundforest6032@haondor" : {
-         "location" : "IN_ROOM:sundforest6032",
+         "location" : "IN_ROOM:sundforest6032@haondor",
          "oflags" : [
             "NoGet"
          ],
@@ -1015,7 +1015,7 @@
          "examine" : "\nAbove you the tree narrows farther, but it still looks like you could climb up\nthere.  A feline shape is pacing about above you, trying to get to a large\nwounded bird.  Perhaps you should try to see what sort of cat this is before\nyou interrupt its hunt... it might eat you instead of the bird.\n"
       },
       "obj6011_3@haondor" : {
-         "location" : "IN_ROOM:sundforest6019",
+         "location" : "IN_ROOM:sundforest6019@haondor",
          "oflags" : [
             "Food"
          ],
@@ -1031,7 +1031,7 @@
       },
       "obj6005@haondor" : {
          "desc[1]" : "The chest is open.",
-         "location" : "IN_ROOM:sundforest6010",
+         "location" : "IN_ROOM:sundforest6010@haondor",
          "oflags" : [
             "Container",
             "Openable",
@@ -1052,7 +1052,7 @@
       },
       "door_sundforest6010@haondor" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:sundforest6009",
+         "location" : "IN_ROOM:sundforest6009@haondor",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -1069,7 +1069,7 @@
          "desc[0]" : "The door is open."
       },
       "animals_sundforest6031@haondor" : {
-         "location" : "IN_ROOM:sundforest6031",
+         "location" : "IN_ROOM:sundforest6031@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -1079,7 +1079,7 @@
          "examine" : "\nA variety of squirrels, chipmunks, and birds make their homes in this and the\nsurrounding trees.  If you look closely you may be able to see some of their\nrapidly emptying nests.\n"
       },
       "obj6013@haondor" : {
-         "location" : "IN_ROOM:sundforest6010",
+         "location" : "IN_ROOM:sundforest6010@haondor",
          "oflags" : [
             "Container",
             "Noget"
@@ -1095,7 +1095,7 @@
       },
       "obj6000@haondor" : {
          "damage" : "6",
-         "location" : "WIELDED_BY:mob6000",
+         "location" : "WIELDED_BY:mob6000@haondor",
          "oflags" : [
             "Weapon"
          ],
@@ -1111,7 +1111,7 @@
          "desc[0]" : "A heavy lumber axe lies here."
       },
       "obj6011_5@haondor" : {
-         "location" : "IN_ROOM:sundforest6062",
+         "location" : "IN_ROOM:sundforest6062@haondor",
          "oflags" : [
             "Food"
          ],
@@ -1126,7 +1126,7 @@
          "desc[0]" : "A small mushroom grows nearby."
       },
       "obj6014_4@haondor" : {
-         "location" : "IN_ROOM:sundforest6014",
+         "location" : "IN_ROOM:sundforest6014@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -1141,7 +1141,7 @@
          "desc[0]" : "A small brook trickles through the forest beside the path."
       },
       "cave_sundforest6021@haondor" : {
-         "location" : "IN_ROOM:sundforest6021",
+         "location" : "IN_ROOM:sundforest6021@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -1150,7 +1150,7 @@
          "examine" : "\nThe irregular opening is eight feet wide and six feet tall.  An acrid smell\nemanates from within.\n"
       },
       "obj6023_6@haondor" : {
-         "location" : "CARRIED_BY:mob6001_2",
+         "location" : "CARRIED_BY:mob6001_2@haondor",
          "oflags" : [
             "Food"
          ],
@@ -1165,7 +1165,7 @@
          "desc[0]" : "A large piece of rabbit meat."
       },
       "down_sundforest6033@haondor" : {
-         "location" : "IN_ROOM:sundforest6033",
+         "location" : "IN_ROOM:sundforest6033@haondor",
          "oflags" : [
             "NoGet"
          ],
@@ -1174,7 +1174,7 @@
          "examine" : "\nBelow you many of the animals you frightened earlier have returned to their\nvarious nests and homes.  You can see a small hint of the path far below you\nthrough the branches.\n"
       },
       "obj6014_2@haondor" : {
-         "location" : "IN_ROOM:sundforest6008",
+         "location" : "IN_ROOM:sundforest6008@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -1189,7 +1189,7 @@
          "desc[0]" : "A small brook trickles through the forest beside the path."
       },
       "grass_sundforest6026@haondor" : {
-         "location" : "IN_ROOM:sundforest6026",
+         "location" : "IN_ROOM:sundforest6026@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -1198,7 +1198,7 @@
          "examine" : "\nThe tall grass makes a nice hiding place for animals.  You see some of the\nanimals you frightened away peeking furtively out at you.\n"
       },
       "track_sundforest6025@haondor" : {
-         "location" : "IN_ROOM:sundforest6025",
+         "location" : "IN_ROOM:sundforest6025@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -1208,7 +1208,7 @@
          "examine" : "\nYou see tracks of both hooved and other sorts of animals.  Evidence of all\nsizes of animals is here in the mud, showing just how lively the forest is.\n"
       },
       "obj6014_1@haondor" : {
-         "location" : "IN_ROOM:sundforest6007",
+         "location" : "IN_ROOM:sundforest6007@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -1223,7 +1223,7 @@
          "desc[0]" : "A small brook trickles through the forest beside the path."
       },
       "obj6014@haondor" : {
-         "location" : "IN_ROOM:sundforest6006",
+         "location" : "IN_ROOM:sundforest6006@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -1238,7 +1238,7 @@
          "desc[0]" : "A small brook trickles through the forest beside the path."
       },
       "pace_1@haondor" : {
-         "location" : "IN_ROOM:sundforest6032",
+         "location" : "IN_ROOM:sundforest6032@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -1248,7 +1248,7 @@
          "examine" : "\nIt looks like a Bobcat, and it seems quite intent on getting to a large bird\nthat it has wounded.  It has not seen you yet, or perhaps just thinks you are\ntoo easy a meal.\n"
       },
       "top_sundforest6030@haondor" : {
-         "location" : "IN_ROOM:sundforest6030",
+         "location" : "IN_ROOM:sundforest6030@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -1258,7 +1258,7 @@
          "examine" : "\nYou could probably see most of the forest, and perhaps even the city from the\ntop of the tree... of course, you would have to deal with whatever that &+Cshape\nis that you see pacing on one of the upper limbs.\n"
       },
       "obj6011@haondor" : {
-         "location" : "IN_ROOM:sundforest6006",
+         "location" : "IN_ROOM:sundforest6006@haondor",
          "oflags" : [
             "Food"
          ],
@@ -1273,7 +1273,7 @@
          "desc[0]" : "A small mushroom grows nearby."
       },
       "under_sundforest6067@haondor" : {
-         "location" : "IN_ROOM:sundforest6067",
+         "location" : "IN_ROOM:sundforest6067@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -1283,7 +1283,7 @@
          "examine" : "\nUnder a log you think you see some sort of hole, or animal's den.  Looking\ncloser, you can make out the form of what you believe to be a Badger resting\ninside of the den.\n"
       },
       "grass_sundforest6024@haondor" : {
-         "location" : "IN_ROOM:sundforest6024",
+         "location" : "IN_ROOM:sundforest6024@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -1292,7 +1292,7 @@
          "examine" : "\nThe tall grass makes a nice hiding place for animals.\n"
       },
       "tree_sundforest6023@haondor" : {
-         "location" : "IN_ROOM:sundforest6023",
+         "location" : "IN_ROOM:sundforest6023@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -1302,7 +1302,7 @@
          "examine" : "\nThe trees form a close thicket, blocking any exit to the west.\n"
       },
       "tree_sundforest6000@haondor" : {
-         "location" : "IN_ROOM:sundforest6000",
+         "location" : "IN_ROOM:sundforest6000@haondor",
          "oflags" : [
             "Noget"
          ],
@@ -1311,7 +1311,7 @@
          "examine" : "\nThe trees are quite tall considering most of them appear to be quite young.\nOn one of the trees, crude letters forming the word 'Haon-Dor' have been\ncarved into the bark.\n"
       },
       "obj6002@haondor" : {
-         "location" : "WORN_BY:mob6000",
+         "location" : "WORN_BY:mob6000@haondor",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -1335,9 +1335,9 @@
    "loc" : {
       "sundforest6002@haondor" : {
          "exits" : {
-            "e" : "sundforest6001",
-            "w" : "sundforest6003",
-            "s" : "sundforest6011"
+            "e" : "sundforest6001@haondor",
+            "w" : "sundforest6003@haondor",
+            "s" : "sundforest6011@haondor"
          },
          "flags" : [
             "Real",
@@ -1351,9 +1351,9 @@
       },
       "sundforest6082@haondor" : {
          "exits" : {
-            "e" : "sundforest6079",
-            "n" : "sundforest6081",
-            "s" : "sundforest6076"
+            "e" : "sundforest6079@haondor",
+            "n" : "sundforest6081@haondor",
+            "s" : "sundforest6076@haondor"
          },
          "flags" : [
             "NoMobiles",
@@ -1367,8 +1367,8 @@
       },
       "sundforest6026@haondor" : {
          "exits" : {
-            "e" : "sundforest6025",
-            "s" : "sundforest6023"
+            "e" : "sundforest6025@haondor",
+            "s" : "sundforest6023@haondor"
          },
          "flags" : [
             "Outdoors"
@@ -1381,10 +1381,10 @@
       },
       "sundforest6074@haondor" : {
          "exits" : {
-            "e" : "sundforest6070",
-            "w" : "sundforest6075",
-            "n" : "sundforest6074",
-            "s" : "sundforest6070"
+            "e" : "sundforest6070@haondor",
+            "w" : "sundforest6075@haondor",
+            "n" : "sundforest6074@haondor",
+            "s" : "sundforest6070@haondor"
          },
          "flags" : [
             "Real",
@@ -1398,8 +1398,8 @@
       },
       "sundforest6060@haondor" : {
          "exits" : {
-            "n" : "sundforest6065",
-            "s" : "sundforest6001"
+            "n" : "sundforest6065@haondor",
+            "s" : "sundforest6001@haondor"
          },
          "flags" : [
             "Real",
@@ -1413,9 +1413,9 @@
       },
       "sundforest6021@haondor" : {
          "exits" : {
-            "e" : "sundforest6020",
-            "w" : "sundforest6022",
-            "n" : "sundforest6012"
+            "e" : "sundforest6020@haondor",
+            "w" : "sundforest6022@haondor",
+            "n" : "sundforest6012@haondor"
          },
          "flags" : [
             "Real",
@@ -1429,9 +1429,9 @@
       },
       "sundforest6007@haondor" : {
          "exits" : {
-            "e" : "sundforest6008",
-            "w" : "sundforest6006",
-            "s" : "sundforest6012"
+            "e" : "sundforest6008@haondor",
+            "w" : "sundforest6006@haondor",
+            "s" : "sundforest6012@haondor"
          },
          "flags" : [
             "Real",
@@ -1445,7 +1445,7 @@
       },
       "sundforest6027@haondor" : {
          "exits" : {
-            "s" : "sundforest6025"
+            "s" : "sundforest6025@haondor"
          },
          "flags" : [
             "OnWater",
@@ -1460,7 +1460,7 @@
       "sundforest6092@haondor" : {
          "exits" : {
             "e" : "sundhaven6748@sundhaven",
-            "w" : "sundforest6091"
+            "w" : "sundforest6091@haondor"
          },
          "flags" : [
             "NoMobiles",
@@ -1474,8 +1474,8 @@
       },
       "sundforest6091@haondor" : {
          "exits" : {
-            "e" : "sundforest6092",
-            "w" : "sundforest6090"
+            "e" : "sundforest6092@haondor",
+            "w" : "sundforest6090@haondor"
          },
          "flags" : [
             "NoMobiles",
@@ -1490,7 +1490,7 @@
       "sundforest6078@haondor" : {
          "exits" : {
             "n" : "oni1@oni",
-            "s" : "sundforest6075"
+            "s" : "sundforest6075@haondor"
          },
          "flags" : [
             "Outdoors"
@@ -1503,9 +1503,9 @@
       },
       "sundforest6030@haondor" : {
          "exits" : {
-            "w" : "sundforest6031",
-            "u" : "sundforest6032",
-            "d" : "sundforest6029"
+            "w" : "sundforest6031@haondor",
+            "u" : "sundforest6032@haondor",
+            "d" : "sundforest6029@haondor"
          },
          "flags" : [
             "Outdoors",
@@ -1519,9 +1519,9 @@
       },
       "sundforest6023@haondor" : {
          "exits" : {
-            "e" : "sundforest6024",
-            "n" : "sundforest6026",
-            "s" : "sundforest6018"
+            "e" : "sundforest6024@haondor",
+            "n" : "sundforest6026@haondor",
+            "s" : "sundforest6018@haondor"
          },
          "flags" : [
             "Outdoors"
@@ -1534,8 +1534,8 @@
       },
       "sundforest6019@haondor" : {
          "exits" : {
-            "e" : "sundforest6018",
-            "n" : "sundforest6020"
+            "e" : "sundforest6018@haondor",
+            "n" : "sundforest6020@haondor"
          },
          "flags" : [
             "Real",
@@ -1549,8 +1549,8 @@
       },
       "sundforest6061@haondor" : {
          "exits" : {
-            "w" : "sundforest6062",
-            "n" : "sundforest6066"
+            "w" : "sundforest6062@haondor",
+            "n" : "sundforest6066@haondor"
          },
          "flags" : [
             "Real",
@@ -1564,8 +1564,8 @@
       },
       "sundforest6024@haondor" : {
          "exits" : {
-            "w" : "sundforest6023",
-            "n" : "sundforest6025"
+            "w" : "sundforest6023@haondor",
+            "n" : "sundforest6025@haondor"
          },
          "flags" : [
             "Outdoors"
@@ -1578,9 +1578,9 @@
       },
       "sundforest6025@haondor" : {
          "exits" : {
-            "w" : "sundforest6026",
-            "n" : "sundforest6027",
-            "s" : "sundforest6024"
+            "w" : "sundforest6026@haondor",
+            "n" : "sundforest6027@haondor",
+            "s" : "sundforest6024@haondor"
          },
          "flags" : [
             "Outdoors"
@@ -1593,8 +1593,8 @@
       },
       "sundforest6020@haondor" : {
          "exits" : {
-            "w" : "sundforest6021",
-            "s" : "sundforest6019"
+            "w" : "sundforest6021@haondor",
+            "s" : "sundforest6019@haondor"
          },
          "flags" : [
             "Real",
@@ -1608,10 +1608,10 @@
       },
       "sundforest6077@haondor" : {
          "exits" : {
-            "e" : "sundforest6076",
-            "w" : "sundforest6077",
-            "n" : "sundforest6081",
-            "s" : "sundforest6079"
+            "e" : "sundforest6076@haondor",
+            "w" : "sundforest6077@haondor",
+            "n" : "sundforest6081@haondor",
+            "s" : "sundforest6079@haondor"
          },
          "flags" : [
             "NoMobiles",
@@ -1625,10 +1625,10 @@
       },
       "sundforest6070@haondor" : {
          "exits" : {
-            "e" : "sundforest6070",
-            "w" : "sundforest6072",
-            "n" : "sundforest6078",
-            "s" : "sundforest6061"
+            "e" : "sundforest6070@haondor",
+            "w" : "sundforest6072@haondor",
+            "n" : "sundforest6078@haondor",
+            "s" : "sundforest6061@haondor"
          },
          "flags" : [
             "Real",
@@ -1642,9 +1642,9 @@
       },
       "sundforest6008@haondor" : {
          "exits" : {
-            "e" : "sundforest6009",
-            "w" : "sundforest6007",
-            "n" : "sundforest6011"
+            "e" : "sundforest6009@haondor",
+            "w" : "sundforest6007@haondor",
+            "n" : "sundforest6011@haondor"
          },
          "flags" : [
             "Real",
@@ -1658,9 +1658,9 @@
       },
       "sundforest6075@haondor" : {
          "exits" : {
-            "e" : "sundforest6074",
-            "n" : "sundforest6078",
-            "s" : "sundforest6072"
+            "e" : "sundforest6074@haondor",
+            "n" : "sundforest6078@haondor",
+            "s" : "sundforest6072@haondor"
          },
          "flags" : [
             "Real",
@@ -1674,9 +1674,9 @@
       },
       "sundforest6071@haondor" : {
          "exits" : {
-            "e" : "sundforest6070",
-            "w" : "sundforest6072",
-            "s" : "sundforest6066"
+            "e" : "sundforest6070@haondor",
+            "w" : "sundforest6072@haondor",
+            "s" : "sundforest6066@haondor"
          },
          "flags" : [
             "Real",
@@ -1690,8 +1690,8 @@
       },
       "sundforest6028@haondor" : {
          "exits" : {
-            "w" : "sundforest6016",
-            "s" : "sundforest6029"
+            "w" : "sundforest6016@haondor",
+            "s" : "sundforest6029@haondor"
          },
          "flags" : [
             "Real",
@@ -1705,8 +1705,8 @@
       },
       "sundforest6022@haondor" : {
          "exits" : {
-            "e" : "sundforest6021",
-            "s" : "Fire16@fire"
+            "e" : "sundforest6021@haondor",
+            "s" : "fire16@fire"
          },
          "flags" : [
             "Dark"
@@ -1719,10 +1719,10 @@
       },
       "sundforest6080@haondor" : {
          "exits" : {
-            "e" : "sundforest6082",
-            "w" : "sundforest6081",
-            "n" : "sundforest6081",
-            "s" : "sundforest6076"
+            "e" : "sundforest6082@haondor",
+            "w" : "sundforest6081@haondor",
+            "n" : "sundforest6081@haondor",
+            "s" : "sundforest6076@haondor"
          },
          "flags" : [
             "NoMobiles",
@@ -1736,8 +1736,8 @@
       },
       "sundforest6090@haondor" : {
          "exits" : {
-            "e" : "sundforest6091",
-            "w" : "sundforest6000",
+            "e" : "sundforest6091@haondor",
+            "w" : "sundforest6000@haondor",
             "n" : "fire0@fire"
          },
          "flags" : [
@@ -1752,8 +1752,8 @@
       },
       "sundforest6013@haondor" : {
          "exits" : {
-            "e" : "sundforest6014",
-            "w" : "sundforest6012"
+            "e" : "sundforest6014@haondor",
+            "w" : "sundforest6012@haondor"
          },
          "flags" : [
             "Real",
@@ -1767,9 +1767,9 @@
       },
       "sundforest6066@haondor" : {
          "exits" : {
-            "e" : "sundforest6065",
-            "n" : "sundforest6071",
-            "s" : "sundforest6061"
+            "e" : "sundforest6065@haondor",
+            "n" : "sundforest6071@haondor",
+            "s" : "sundforest6061@haondor"
          },
          "flags" : [
             "Real",
@@ -1783,9 +1783,9 @@
       },
       "sundforest6018@haondor" : {
          "exits" : {
-            "e" : "sundforest6017",
-            "w" : "sundforest6019",
-            "n" : "sundforest6023"
+            "e" : "sundforest6017@haondor",
+            "w" : "sundforest6019@haondor",
+            "n" : "sundforest6023@haondor"
          },
          "flags" : [
             "Real",
@@ -1799,8 +1799,8 @@
       },
       "sundforest6000@haondor" : {
          "exits" : {
-            "e" : "sundforest6090",
-            "w" : "sundforest6001"
+            "e" : "sundforest6090@haondor",
+            "w" : "sundforest6001@haondor"
          },
          "flags" : [
             "Outdoors"
@@ -1813,9 +1813,9 @@
       },
       "sundforest6072@haondor" : {
          "exits" : {
-            "e" : "sundforest6071",
-            "n" : "sundforest6075",
-            "s" : "sundforest6067"
+            "e" : "sundforest6071@haondor",
+            "n" : "sundforest6075@haondor",
+            "s" : "sundforest6067@haondor"
          },
          "flags" : [
             "Real",
@@ -1829,9 +1829,9 @@
       },
       "sundforest6062@haondor" : {
          "exits" : {
-            "e" : "sundforest6061",
-            "w" : "sundforest6063",
-            "n" : "sundforest6067"
+            "e" : "sundforest6061@haondor",
+            "w" : "sundforest6063@haondor",
+            "n" : "sundforest6067@haondor"
          },
          "flags" : [
             "Real",
@@ -1845,10 +1845,10 @@
       },
       "sundforest6076@haondor" : {
          "exits" : {
-            "e" : "sundforest6077",
-            "w" : "sundforest6073",
-            "n" : "sundforest6081",
-            "s" : "sundforest6076"
+            "e" : "sundforest6077@haondor",
+            "w" : "sundforest6073@haondor",
+            "n" : "sundforest6081@haondor",
+            "s" : "sundforest6076@haondor"
          },
          "flags" : [
             "NoMobiles",
@@ -1862,8 +1862,8 @@
       },
       "sundforest6067@haondor" : {
          "exits" : {
-            "n" : "sundforest6072",
-            "s" : "sundforest6062"
+            "n" : "sundforest6072@haondor",
+            "s" : "sundforest6062@haondor"
          },
          "flags" : [
             "Real",
@@ -1877,8 +1877,8 @@
       },
       "sundforest6031@haondor" : {
          "exits" : {
-            "e" : "sundforest6030",
-            "d" : "sundforest6016"
+            "e" : "sundforest6030@haondor",
+            "d" : "sundforest6016@haondor"
          },
          "flags" : [
             "NoMobiles",
@@ -1893,9 +1893,9 @@
       },
       "sundforest6068@haondor" : {
          "exits" : {
-            "w" : "sundforest6069",
-            "n" : "sundforest6073",
-            "s" : "sundforest6063"
+            "w" : "sundforest6069@haondor",
+            "n" : "sundforest6073@haondor",
+            "s" : "sundforest6063@haondor"
          },
          "flags" : [
             "Real",
@@ -1909,9 +1909,9 @@
       },
       "sundforest6016@haondor" : {
          "exits" : {
-            "e" : "sundforest6028",
-            "n" : "sundforest6015",
-            "s" : "sundforest6017"
+            "e" : "sundforest6028@haondor",
+            "n" : "sundforest6015@haondor",
+            "s" : "sundforest6017@haondor"
          },
          "flags" : [
             "Real",
@@ -1925,8 +1925,8 @@
       },
       "sundforest6005@haondor" : {
          "exits" : {
-            "n" : "sundforest6004",
-            "s" : "sundforest6006"
+            "n" : "sundforest6004@haondor",
+            "s" : "sundforest6006@haondor"
          },
          "flags" : [
             "Real",
@@ -1940,10 +1940,10 @@
       },
       "sundforest6081@haondor" : {
          "exits" : {
-            "e" : "sundforest6077",
-            "w" : "sundforest6073",
-            "n" : "sundforest6078",
-            "s" : "sundforest6076"
+            "e" : "sundforest6077@haondor",
+            "w" : "sundforest6073@haondor",
+            "n" : "sundforest6078@haondor",
+            "s" : "sundforest6076@haondor"
          },
          "flags" : [
             "NoMobiles",
@@ -1957,8 +1957,8 @@
       },
       "sundforest6073@haondor" : {
          "exits" : {
-            "n" : "sundforest6076",
-            "s" : "sundforest6068"
+            "n" : "sundforest6076@haondor",
+            "s" : "sundforest6068@haondor"
          },
          "flags" : [
             "Outdoors"
@@ -1971,9 +1971,9 @@
       },
       "sundforest6014@haondor" : {
          "exits" : {
-            "e" : "sundforest6015",
-            "w" : "sundforest6013",
-            "n" : "sundforest6009"
+            "e" : "sundforest6015@haondor",
+            "w" : "sundforest6013@haondor",
+            "n" : "sundforest6009@haondor"
          },
          "flags" : [
             "Real",
@@ -1987,8 +1987,8 @@
       },
       "sundforest6003@haondor" : {
          "exits" : {
-            "e" : "sundforest6002",
-            "w" : "sundforest6004"
+            "e" : "sundforest6002@haondor",
+            "w" : "sundforest6004@haondor"
          },
          "flags" : [
             "Real",
@@ -2002,10 +2002,10 @@
       },
       "sundforest6079@haondor" : {
          "exits" : {
-            "e" : "sundforest6078",
-            "w" : "sundforest6080",
-            "n" : "sundforest6081",
-            "s" : "sundforest6073"
+            "e" : "sundforest6078@haondor",
+            "w" : "sundforest6080@haondor",
+            "n" : "sundforest6081@haondor",
+            "s" : "sundforest6073@haondor"
          },
          "flags" : [
             "NoMobiles",
@@ -2019,8 +2019,8 @@
       },
       "sundforest6063@haondor" : {
          "exits" : {
-            "e" : "sundforest6062",
-            "n" : "sundforest6068"
+            "e" : "sundforest6062@haondor",
+            "n" : "sundforest6068@haondor"
          },
          "flags" : [
             "Real",
@@ -2034,7 +2034,7 @@
       },
       "sundforest6033@haondor" : {
          "exits" : {
-            "d" : "sundforest6032"
+            "d" : "sundforest6032@haondor"
          },
          "flags" : [
             "Outdoors",
@@ -2048,9 +2048,9 @@
       },
       "sundforest6001@haondor" : {
          "exits" : {
-            "e" : "sundforest6000",
-            "w" : "sundforest6002",
-            "n" : "sundforest6060"
+            "e" : "sundforest6000@haondor",
+            "w" : "sundforest6002@haondor",
+            "n" : "sundforest6060@haondor"
          },
          "flags" : [
             "Real",
@@ -2064,8 +2064,8 @@
       },
       "sundforest6011@haondor" : {
          "exits" : {
-            "n" : "sundforest6002",
-            "s" : "sundforest6008"
+            "n" : "sundforest6002@haondor",
+            "s" : "sundforest6008@haondor"
          },
          "flags" : [
             "Real",
@@ -2079,8 +2079,8 @@
       },
       "sundforest6017@haondor" : {
          "exits" : {
-            "w" : "sundforest6018",
-            "n" : "sundforest6016"
+            "w" : "sundforest6018@haondor",
+            "n" : "sundforest6016@haondor"
          },
          "flags" : [
             "Real",
@@ -2094,7 +2094,7 @@
       },
       "sundforest6064@haondor" : {
          "exits" : {
-            "n" : "sundforest6069",
+            "n" : "sundforest6069@haondor",
             "s" : "^grate_grave3400@grave"
          },
          "flags" : [
@@ -2109,9 +2109,9 @@
       },
       "sundforest6012@haondor" : {
          "exits" : {
-            "e" : "sundforest6013",
-            "n" : "sundforest6007",
-            "s" : "sundforest6021"
+            "e" : "sundforest6013@haondor",
+            "n" : "sundforest6007@haondor",
+            "s" : "sundforest6021@haondor"
          },
          "flags" : [
             "Real",
@@ -2125,8 +2125,8 @@
       },
       "sundforest6065@haondor" : {
          "exits" : {
-            "w" : "sundforest6066",
-            "s" : "sundforest6060"
+            "w" : "sundforest6066@haondor",
+            "s" : "sundforest6060@haondor"
          },
          "flags" : [
             "Real",
@@ -2140,9 +2140,9 @@
       },
       "sundforest6009@haondor" : {
          "exits" : {
-            "w" : "sundforest6008",
-            "n" : "^door_sundforest6010",
-            "s" : "sundforest6014"
+            "w" : "sundforest6008@haondor",
+            "n" : "^door_sundforest6010@haondor",
+            "s" : "sundforest6014@haondor"
          },
          "flags" : [
             "Real",
@@ -2156,8 +2156,8 @@
       },
       "sundforest6006@haondor" : {
          "exits" : {
-            "e" : "sundforest6007",
-            "n" : "sundforest6005"
+            "e" : "sundforest6007@haondor",
+            "n" : "sundforest6005@haondor"
          },
          "flags" : [
             "Real",
@@ -2171,9 +2171,9 @@
       },
       "sundforest6004@haondor" : {
          "exits" : {
-            "e" : "sundforest6003",
-            "w" : "sundforest6010",
-            "s" : "sundforest6005"
+            "e" : "sundforest6003@haondor",
+            "w" : "sundforest6010@haondor",
+            "s" : "sundforest6005@haondor"
          },
          "flags" : [
             "Real",
@@ -2187,8 +2187,8 @@
       },
       "sundforest6029@haondor" : {
          "exits" : {
-            "u" : "sundforest6030",
-            "n" : "sundforest6028"
+            "u" : "sundforest6030@haondor",
+            "n" : "sundforest6028@haondor"
          },
          "flags" : [
             "NoMobiles",
@@ -2203,8 +2203,8 @@
       },
       "sundforest6069@haondor" : {
          "exits" : {
-            "e" : "sundforest6068",
-            "s" : "sundforest6064"
+            "e" : "sundforest6068@haondor",
+            "s" : "sundforest6064@haondor"
          },
          "flags" : [
             "Real",
@@ -2218,8 +2218,8 @@
       },
       "sundforest6015@haondor" : {
          "exits" : {
-            "w" : "sundforest6014",
-            "s" : "sundforest6016"
+            "w" : "sundforest6014@haondor",
+            "s" : "sundforest6016@haondor"
          },
          "flags" : [
             "Real",
@@ -2233,8 +2233,8 @@
       },
       "sundforest6032@haondor" : {
          "exits" : {
-            "u" : "sundforest6033",
-            "d" : "sundforest6030"
+            "u" : "sundforest6033@haondor",
+            "d" : "sundforest6030@haondor"
          },
          "flags" : [
             "Outdoors",
@@ -2248,7 +2248,7 @@
       },
       "sundforest6010@haondor" : {
          "exits" : {
-            "s" : "^door_sundforest6009"
+            "s" : "^door_sundforest6009@haondor"
          },
          "flags" : [],
          "zone" : "haondor",
@@ -2261,7 +2261,7 @@
    "mob" : {
       "mob6006@haondor" : {
          "damage" : "3",
-         "location" : "sundforest6033",
+         "location" : "sundforest6033@haondor",
          "name" : "mob6006",
          "examine" : "\nThe bird isn't going to live much longer, by the looks of it.\n",
          "description" : "A large bird with a broken wing has been cornered here.",
@@ -2276,7 +2276,7 @@
       },
       "mob6003@haondor" : {
          "damage" : "8",
-         "location" : "sundforest6065",
+         "location" : "sundforest6065@haondor",
          "armor" : "8",
          "name" : "mob6003",
          "examine" : "\nThis small, furry creature with long ears and big feet has been attacked\nby the dreaded rabbit rabies, a horrible disease that turns helpless and\ninnocent rabbits into ferocious and bloodthirsty monsters.\n",
@@ -2292,7 +2292,7 @@
       },
       "mob6014_3@haondor" : {
          "damage" : "6",
-         "location" : "sundforest6027",
+         "location" : "sundforest6027@haondor",
          "armor" : "4",
          "name" : "mob6014_3",
          "examine" : "\nThe bird eyes you warily, but continues with its meal.\n",
@@ -2311,7 +2311,7 @@
       },
       "mob6005@haondor" : {
          "damage" : "6",
-         "location" : "sundforest6014",
+         "location" : "sundforest6014@haondor",
          "armor" : "8",
          "name" : "mob6005",
          "examine" : "\nIt is a large fox with beautiful, red-brown fur and a long, thick bushy tail.\n",
@@ -2327,7 +2327,7 @@
       },
       "mob6017@haondor" : {
          "damage" : "3",
-         "location" : "sundforest6027",
+         "location" : "sundforest6027@haondor",
          "name" : "mob6017",
          "examine" : "\nThe fish looks about the right size for a meal.\n",
          "description" : "A fish is swimming about here.",
@@ -2344,7 +2344,7 @@
       },
       "mob6019_1@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6027",
+         "location" : "sundforest6027@haondor",
          "name" : "mob6019_1",
          "examine" : "\nThe duck is quite fat.  It looks like it is enjoying life.\n",
          "description" : "A duck is here, quacking happily.",
@@ -2361,7 +2361,7 @@
       },
       "mob6014_1@haondor" : {
          "damage" : "6",
-         "location" : "sundforest6026",
+         "location" : "sundforest6026@haondor",
          "armor" : "4",
          "name" : "mob6014_1",
          "examine" : "\nThe bird eyes you warily, but continues with its meal.\n",
@@ -2379,7 +2379,7 @@
       },
       "mob6011@haondor" : {
          "damage" : "8",
-         "location" : "sundforest6067",
+         "location" : "sundforest6067@haondor",
          "armor" : "10",
          "name" : "mob6011",
          "examine" : "\nThe badger is slowly awakening and peering up at you from its burrow. You\nknow that it won't be moving this slow for long.  Its sharp claws and teeth\ncatch your attention when you consider killing it.\n",
@@ -2394,7 +2394,7 @@
       },
       "mob6002@haondor" : {
          "damage" : "14",
-         "location" : "sundforest6022",
+         "location" : "sundforest6022@haondor",
          "armor" : "14",
          "name" : "mob6002",
          "examine" : "\nThe bear is a big, brown, furry animal with very large claws and very sharp\nteeth.  It doesn't resemble those cute little dolls from toy shops at all.\n",
@@ -2410,7 +2410,7 @@
       },
       "mob6018@haondor" : {
          "damage" : "1",
-         "location" : "sundforest6027",
+         "location" : "sundforest6027@haondor",
          "name" : "mob6018",
          "examine" : "\nThe duckling is adorable, it looks most of all like a tiny furball.\n",
          "description" : "A duckling is swimming around in the pond.",
@@ -2427,7 +2427,7 @@
       },
       "mob6007@haondor" : {
          "damage" : "11",
-         "location" : "sundforest6033",
+         "location" : "sundforest6033@haondor",
          "armor" : "10",
          "name" : "mob6007",
          "examine" : "\nThe bobcat has sharp claws and teeth, and will probably eat you instead of\nthe bird if you give it the chance.\n",
@@ -2443,7 +2443,7 @@
       },
       "mob6016@haondor" : {
          "damage" : "8",
-         "location" : "sundforest6025",
+         "location" : "sundforest6025@haondor",
          "armor" : "12",
          "name" : "mob6016",
          "examine" : "\nThis young male deer is drinking from the edge of the lake and watching you\nwarily.  His antlers are not full size yet, and will no doubt be quite \nimpressive in a few years.\n",
@@ -2459,7 +2459,7 @@
       },
       "mob6008@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6005",
+         "location" : "sundforest6005@haondor",
          "armor" : "2",
          "name" : "mob6008",
          "examine" : "\nThe sparrow looks like it is enjoying life.\n",
@@ -2477,7 +2477,7 @@
       },
       "mob6013@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6030",
+         "location" : "sundforest6030@haondor",
          "armor" : "10",
          "name" : "mob6013",
          "examine" : "\nThe absolute zenith of hyperactivity, this small rodent seems to never tire\nof running up, down, and around the trees in this area.  If you could ever\ncatch it, you imagine it would make an easy meal.\n",
@@ -2493,7 +2493,7 @@
       },
       "mob6001_2@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6017",
+         "location" : "sundforest6017@haondor",
          "armor" : "8",
          "name" : "mob6001_2",
          "examine" : "\nIt is a small, furry creature with long ears and big feet.\n",
@@ -2509,7 +2509,7 @@
       },
       "mob6001@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6012",
+         "location" : "sundforest6012@haondor",
          "armor" : "8",
          "name" : "mob6001",
          "examine" : "\nIt is a small, furry creature with long ears and big feet.\n",
@@ -2525,7 +2525,7 @@
       },
       "mob6019@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6027",
+         "location" : "sundforest6027@haondor",
          "name" : "mob6019",
          "examine" : "\nThe duck is quite fat.  It looks like it is enjoying life.\n",
          "description" : "A duck is here, quacking happily.",
@@ -2542,7 +2542,7 @@
       },
       "mob6005_2@haondor" : {
          "damage" : "6",
-         "location" : "sundforest6074",
+         "location" : "sundforest6074@haondor",
          "armor" : "8",
          "name" : "mob6005_2",
          "examine" : "\nIt is a large fox with beautiful, red-brown fur and a long, thick bushy tail.\n",
@@ -2558,7 +2558,7 @@
       },
       "mob6018_1@haondor" : {
          "damage" : "1",
-         "location" : "sundforest6027",
+         "location" : "sundforest6027@haondor",
          "name" : "mob6018_1",
          "examine" : "\nThe duckling is adorable, it looks most of all like a tiny furball.\n",
          "description" : "A duckling is swimming around in the pond.",
@@ -2575,7 +2575,7 @@
       },
       "mob6001_7@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6070",
+         "location" : "sundforest6070@haondor",
          "armor" : "8",
          "name" : "mob6001_7",
          "examine" : "\nIt is a small, furry creature with long ears and big feet.\n",
@@ -2591,7 +2591,7 @@
       },
       "mob6012_5@haondor" : {
          "damage" : "6",
-         "location" : "sundforest6064",
+         "location" : "sundforest6064@haondor",
          "armor" : "4",
          "name" : "mob6012_5",
          "examine" : "\nThis happy creature seems to pay you no heed as it goes about its search for\nnuts among the leaves and twigs on the ground here.\n",
@@ -2607,7 +2607,7 @@
       },
       "mob6009_2@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6013",
+         "location" : "sundforest6013@haondor",
          "armor" : "2",
          "name" : "mob6009_2",
          "examine" : "\nThe robin looks quite intent on finding a bug or worm to eat.\n",
@@ -2625,7 +2625,7 @@
       },
       "mob6015@haondor" : {
          "damage" : "8",
-         "location" : "sundforest6026",
+         "location" : "sundforest6026@haondor",
          "armor" : "12",
          "name" : "mob6015",
          "examine" : "\nIt sickens you to even look at this foul bird.  Bits of dried gore stick to\nits beak, and unidentifiable organs hang from its talons and feathers.  \nIt sees you and attacks, protecting its horrible feast!\n",
@@ -2644,7 +2644,7 @@
       },
       "mob6014@haondor" : {
          "damage" : "6",
-         "location" : "sundforest6026",
+         "location" : "sundforest6026@haondor",
          "armor" : "4",
          "name" : "mob6014",
          "examine" : "\nThe bird eyes you warily, but continues with its meal.\n",
@@ -2663,7 +2663,7 @@
       },
       "mob6009_1@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6066",
+         "location" : "sundforest6066@haondor",
          "armor" : "2",
          "name" : "mob6009_1",
          "examine" : "\nThe robin looks quite intent on finding a bug or worm to eat.\n",
@@ -2681,7 +2681,7 @@
       },
       "mob6010@haondor" : {
          "damage" : "5",
-         "location" : "sundforest6030",
+         "location" : "sundforest6030@haondor",
          "armor" : "4",
          "name" : "mob6010",
          "examine" : "\nIt peers out of its nest at you anxiously, seeming to plead silently with\nyou to leave it alone.\n",
@@ -2696,7 +2696,7 @@
       },
       "mob6017_2@haondor" : {
          "damage" : "3",
-         "location" : "sundforest6027",
+         "location" : "sundforest6027@haondor",
          "name" : "mob6017_2",
          "examine" : "\nThe fish looks about the right size for a meal.\n",
          "description" : "A fish is swimming about here.",
@@ -2713,7 +2713,7 @@
       },
       "mob6012_3@haondor" : {
          "damage" : "6",
-         "location" : "sundforest6032",
+         "location" : "sundforest6032@haondor",
          "armor" : "4",
          "name" : "mob6012_3",
          "examine" : "\nThis happy creature seems to pay you no heed as it goes about its search for\nnuts among the leaves and twigs on the ground here.\n",
@@ -2729,7 +2729,7 @@
       },
       "mob6000@haondor" : {
          "damage" : "7",
-         "location" : "sundforest6009",
+         "location" : "sundforest6009@haondor",
          "armor" : "8",
          "name" : "mob6000",
          "examine" : "\nHe is six feet tall and looks quite strong, muscles bulging under his heavy,\nchequered shirt.  His features are worn with hard work and his expression is\none of a peaceful man leading a simple life.\n",
@@ -2747,7 +2747,7 @@
       },
       "mob6001_4@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6068",
+         "location" : "sundforest6068@haondor",
          "armor" : "8",
          "name" : "mob6001_4",
          "examine" : "\nIt is a small, furry creature with long ears and big feet.\n",
@@ -2763,7 +2763,7 @@
       },
       "mob6013_3@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6061",
+         "location" : "sundforest6061@haondor",
          "armor" : "10",
          "name" : "mob6013_3",
          "examine" : "\nThe absolute zenith of hyperactivity, this small rodent seems to never tire\nof running up, down, and around the trees in this area.  If you could ever\ncatch it, you imagine it would make an easy meal.\n",
@@ -2779,7 +2779,7 @@
       },
       "mob6012@haondor" : {
          "damage" : "6",
-         "location" : "sundforest6003",
+         "location" : "sundforest6003@haondor",
          "armor" : "4",
          "name" : "mob6012",
          "examine" : "\nThis happy creature seems to pay you no heed as it goes about its search for\nnuts among the leaves and twigs on the ground here.\n",
@@ -2795,7 +2795,7 @@
       },
       "mob6012_2@haondor" : {
          "damage" : "6",
-         "location" : "sundforest6028",
+         "location" : "sundforest6028@haondor",
          "armor" : "4",
          "name" : "mob6012_2",
          "examine" : "\nThis happy creature seems to pay you no heed as it goes about its search for\nnuts among the leaves and twigs on the ground here.\n",
@@ -2811,7 +2811,7 @@
       },
       "mob6017_1@haondor" : {
          "damage" : "3",
-         "location" : "sundforest6027",
+         "location" : "sundforest6027@haondor",
          "name" : "mob6017_1",
          "examine" : "\nThe fish looks about the right size for a meal.\n",
          "description" : "A fish is swimming about here.",
@@ -2828,7 +2828,7 @@
       },
       "mob6009@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6032",
+         "location" : "sundforest6032@haondor",
          "armor" : "2",
          "name" : "mob6009",
          "examine" : "\nThe robin looks quite intent on finding a bug or worm to eat.\n",
@@ -2846,7 +2846,7 @@
       },
       "mob6005_3@haondor" : {
          "damage" : "6",
-         "location" : "sundforest6060",
+         "location" : "sundforest6060@haondor",
          "armor" : "8",
          "name" : "mob6005_3",
          "examine" : "\nIt is a large fox with beautiful, red-brown fur and a long, thick bushy tail.\n",
@@ -2862,7 +2862,7 @@
       },
       "mob6012_1@haondor" : {
          "damage" : "6",
-         "location" : "sundforest6007",
+         "location" : "sundforest6007@haondor",
          "armor" : "4",
          "name" : "mob6012_1",
          "examine" : "\nThis happy creature seems to pay you no heed as it goes about its search for\nnuts among the leaves and twigs on the ground here.\n",
@@ -2878,7 +2878,7 @@
       },
       "mob6013_2@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6067",
+         "location" : "sundforest6067@haondor",
          "armor" : "10",
          "name" : "mob6013_2",
          "examine" : "\nThe absolute zenith of hyperactivity, this small rodent seems to never tire\nof running up, down, and around the trees in this area.  If you could ever\ncatch it, you imagine it would make an easy meal.\n",
@@ -2894,7 +2894,7 @@
       },
       "mob6005_1@haondor" : {
          "damage" : "6",
-         "location" : "sundforest6069",
+         "location" : "sundforest6069@haondor",
          "armor" : "8",
          "name" : "mob6005_1",
          "examine" : "\nIt is a large fox with beautiful, red-brown fur and a long, thick bushy tail.\n",
@@ -2910,7 +2910,7 @@
       },
       "mob6008_1@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6013",
+         "location" : "sundforest6013@haondor",
          "armor" : "2",
          "name" : "mob6008_1",
          "examine" : "\nThe sparrow looks like it is enjoying life.\n",
@@ -2928,7 +2928,7 @@
       },
       "mob6001_6@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6071",
+         "location" : "sundforest6071@haondor",
          "armor" : "8",
          "name" : "mob6001_6",
          "examine" : "\nIt is a small, furry creature with long ears and big feet.\n",
@@ -2944,7 +2944,7 @@
       },
       "mob6001_3@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6019",
+         "location" : "sundforest6019@haondor",
          "armor" : "8",
          "name" : "mob6001_3",
          "examine" : "\nIt is a small, furry creature with long ears and big feet.\n",
@@ -2960,7 +2960,7 @@
       },
       "mob6012_4@haondor" : {
          "damage" : "6",
-         "location" : "sundforest6030",
+         "location" : "sundforest6030@haondor",
          "armor" : "4",
          "name" : "mob6012_4",
          "examine" : "\nThis happy creature seems to pay you no heed as it goes about its search for\nnuts among the leaves and twigs on the ground here.\n",
@@ -2976,7 +2976,7 @@
       },
       "mob6001_8@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6060",
+         "location" : "sundforest6060@haondor",
          "armor" : "8",
          "name" : "mob6001_8",
          "examine" : "\nIt is a small, furry creature with long ears and big feet.\n",
@@ -2992,7 +2992,7 @@
       },
       "mob6013_1@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6021",
+         "location" : "sundforest6021@haondor",
          "armor" : "10",
          "name" : "mob6013_1",
          "examine" : "\nThe absolute zenith of hyperactivity, this small rodent seems to never tire\nof running up, down, and around the trees in this area.  If you could ever\ncatch it, you imagine it would make an easy meal.\n",
@@ -3008,7 +3008,7 @@
       },
       "mob6001_5@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6062",
+         "location" : "sundforest6062@haondor",
          "armor" : "8",
          "name" : "mob6001_5",
          "examine" : "\nIt is a small, furry creature with long ears and big feet.\n",
@@ -3024,7 +3024,7 @@
       },
       "mob6010_1@haondor" : {
          "damage" : "5",
-         "location" : "sundforest6030",
+         "location" : "sundforest6030@haondor",
          "armor" : "4",
          "name" : "mob6010_1",
          "examine" : "\nIt peers out of its nest at you anxiously, seeming to plead silently with\nyou to leave it alone.\n",
@@ -3039,7 +3039,7 @@
       },
       "mob6008_2@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6062",
+         "location" : "sundforest6062@haondor",
          "armor" : "2",
          "name" : "mob6008_2",
          "examine" : "\nThe sparrow looks like it is enjoying life.\n",
@@ -3057,7 +3057,7 @@
       },
       "mob6012_6@haondor" : {
          "damage" : "6",
-         "location" : "sundforest6075",
+         "location" : "sundforest6075@haondor",
          "armor" : "4",
          "name" : "mob6012_6",
          "examine" : "\nThis happy creature seems to pay you no heed as it goes about its search for\nnuts among the leaves and twigs on the ground here.\n",
@@ -3073,7 +3073,7 @@
       },
       "mob6009_3@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6016",
+         "location" : "sundforest6016@haondor",
          "armor" : "2",
          "name" : "mob6009_3",
          "examine" : "\nThe robin looks quite intent on finding a bug or worm to eat.\n",
@@ -3091,7 +3091,7 @@
       },
       "mob6001_1@haondor" : {
          "damage" : "4",
-         "location" : "sundforest6015",
+         "location" : "sundforest6015@haondor",
          "armor" : "8",
          "name" : "mob6001_1",
          "examine" : "\nIt is a small, furry creature with long ears and big feet.\n",
@@ -3107,7 +3107,7 @@
       },
       "mob6004@haondor" : {
          "damage" : "6",
-         "location" : "sundforest6023",
+         "location" : "sundforest6023@haondor",
          "armor" : "10",
          "name" : "mob6004",
          "examine" : "\nShe is a graceful creature on long, slender legs, and with large, brown eyes\nlooking back at you with an air of watchful interest.\n",
@@ -3125,7 +3125,7 @@
       },
       "mob6014_2@haondor" : {
          "damage" : "6",
-         "location" : "sundforest6026",
+         "location" : "sundforest6026@haondor",
          "armor" : "4",
          "name" : "mob6014_2",
          "examine" : "\nThe bird eyes you warily, but continues with its meal.\n",

@@ -1,7 +1,7 @@
 {
    "obj" : {
       "jacket@cresso" : {
-         "location" : "IN_ROOM:Closet1",
+         "location" : "IN_ROOM:closet1@cresso",
          "armor" : "100",
          "oflags" : [
             "NoGet"
@@ -14,7 +14,7 @@
          "desc[0]" : "Cresso's Jacket has been thrown aside here, gathering dust."
       },
       "hat@cresso" : {
-         "location" : "IN_ROOM:Closet1",
+         "location" : "IN_ROOM:closet1@cresso",
          "armor" : "100",
          "oflags" : [
             "NoGet"
@@ -29,7 +29,7 @@
       "narsya@cresso" : {
          "desc[1]" : "The fabled ring &+mNarsya&* is here, glowing.",
          "damage" : "99999",
-         "location" : "IN_ROOM:Cresso1",
+         "location" : "IN_ROOM:cresso1@cresso",
          "armor" : "0",
          "oflags" : [
             "Getflips",
@@ -56,8 +56,8 @@
    "loc" : {
       "cresso1@cresso" : {
          "exits" : {
-            "n" : "Church@start",
-            "s" : "Closet1"
+            "n" : "church@start",
+            "s" : "closet1@cresso"
          },
          "flags" : [
             "party",
@@ -74,7 +74,7 @@
       },
       "closet1@cresso" : {
          "exits" : {
-            "n" : "Cresso1"
+            "n" : "cresso1@cresso"
          },
          "flags" : [],
          "zone" : "cresso",
@@ -87,7 +87,7 @@
    "mob" : {
       "guardian@cresso" : {
          "damage" : "100",
-         "location" : "Closet1",
+         "location" : "closet1@cresso",
          "armor" : "100",
          "name" : "Guardian",
          "examine" : "\nThe Guardian of Cresso's Closet blocks your way to his bedroom. Mortals, you\nstand NO chance against him.",
@@ -101,7 +101,7 @@
          ]
       },
       "charlie@cresso" : {
-         "location" : "Closet1",
+         "location" : "closet1@cresso",
          "speed" : "0",
          "pname" : "Charlie the Hamster",
          "name" : "Charlie",
@@ -111,7 +111,7 @@
       },
       "cathy@cresso" : {
          "damage" : "500",
-         "location" : "Cresso1",
+         "location" : "cresso1@cresso",
          "armor" : "400",
          "name" : "Cathy",
          "examine" : "She is awfully obese. She looks very old and tired. When you look\nat her, you feel an intense feeling of respect. She has been\nliving on the Promised Land for a very long time and her power is almost\ninfinite.",

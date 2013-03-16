@@ -1,7 +1,7 @@
 {
    "obj" : {
       "meats@eastcoast" : {
-         "location" : "IN_ROOM:Storeroom",
+         "location" : "IN_ROOM:storeroom@eastcoast",
          "weight" : "2",
          "oflags" : [
             "Food"
@@ -14,7 +14,7 @@
       },
       "dollar@eastcoast" : {
          "desc[1]" : "\nA small and perfectly round sand dollar winks at you through the water.",
-         "location" : "IN_ROOM:Shoal",
+         "location" : "IN_ROOM:shoal@eastcoast",
          "oflags" : [
             "Getflips"
          ],
@@ -28,7 +28,7 @@
       },
       "conch@eastcoast" : {
          "desc[1]" : "\nA good-sized conch shell lies partially buried in the sand.",
-         "location" : "IN_ROOM:Gentle",
+         "location" : "IN_ROOM:gentle@eastcoast",
          "oflags" : [
             "Getflips"
          ],
@@ -42,7 +42,7 @@
          "desc[0]" : "\nA conch shell lies forgotten here."
       },
       "robe@eastcoast" : {
-         "location" : "WORN_BY:shepherd",
+         "location" : "WORN_BY:shepherd@eastcoast",
          "oflags" : [
             "Wearable"
          ],
@@ -61,7 +61,7 @@
       },
       "lantern@eastcoast" : {
          "desc[1]" : "\nYou see a lantern tossed carelessly aside.",
-         "location" : "CARRIED_BY:trapper",
+         "location" : "CARRIED_BY:trapper@eastcoast",
          "oflags" : [
             "Extinguish",
             "Lightable"
@@ -76,7 +76,7 @@
       },
       "trap@eastcoast" : {
          "desc[1]" : "\nA large, and nasty claw trap lies uncovered here, set to go.",
-         "location" : "IN_ROOM:CliffPath",
+         "location" : "IN_ROOM:cliffpath@eastcoast",
          "oflags" : [
             "NoGet"
          ],
@@ -87,7 +87,7 @@
          "desc[0]" : "\nA large and nasty claw trap lies uncovered here, set off, and covered in \nblood."
       },
       "braes@eastcoast" : {
-         "location" : "IN_ROOM:Hillock",
+         "location" : "IN_ROOM:hillock@eastcoast",
          "armor" : "30",
          "oflags" : [
             "Wearable",
@@ -109,7 +109,7 @@
       "visor@eastcoast" : {
          "desc[1]" : "\nA lightweight but sturdy steel-slatted visor is hanging from one of the rocks.",
          "damage" : "0",
-         "location" : "IN_ROOM:Coastal",
+         "location" : "IN_ROOM:coastal@eastcoast",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -130,7 +130,7 @@
          "desc[0]" : "\nOn the ground lies a lightweight but sturdy steel-slatted visor."
       },
       "neckplate@eastcoast" : {
-         "location" : "IN_ROOM:Escarpment",
+         "location" : "IN_ROOM:escarpment@eastcoast",
          "armor" : "45",
          "oflags" : [
             "Wearable",
@@ -151,7 +151,7 @@
       },
       "chain@eastcoast" : {
          "damage" : "6",
-         "location" : "WIELDED_BY:trapper",
+         "location" : "WIELDED_BY:trapper@eastcoast",
          "armor" : "20",
          "oflags" : [
             "Weapon",
@@ -171,7 +171,7 @@
          ]
       },
       "furs@eastcoast" : {
-         "location" : "IN_ROOM:Niche",
+         "location" : "IN_ROOM:niche@eastcoast",
          "weight" : "8",
          "name" : "furs",
          "examine" : "\nAn assortment of beaver, squirrel, bear, tiger, grue, and shark skins make \nup the majority of the fur in this pile.  You can only guess to the rest of \nthe exotic, colorful furs.\n\nOne fur, though, looks a faded pink, and has a long pink tail trailing from \nit.\n",
@@ -181,7 +181,7 @@
       },
       "buttercup@eastcoast" : {
          "desc[1]" : "\nYou see a pretty buttercup flower laying limp nearby, awaiting some \nattention.",
-         "location" : "IN_ROOM:Gold",
+         "location" : "IN_ROOM:gold@eastcoast",
          "oflags" : [
             "Getflips",
             "Wearable"
@@ -199,7 +199,7 @@
       },
       "pile@eastcoast" : {
          "desc[1]" : "\nPiles of leaves and plant matter are strewn about.",
-         "location" : "IN_ROOM:CliffPath",
+         "location" : "IN_ROOM:cliffpath@eastcoast",
          "oflags" : [
             "NoGet"
          ],
@@ -210,7 +210,7 @@
          "desc[0]" : "\nPiles of leaves are spread about, save for a swept path through the center \nof the trail."
       },
       "cloak@eastcoast" : {
-         "location" : "IN_ROOM:Peril",
+         "location" : "IN_ROOM:peril@eastcoast",
          "armor" : "25",
          "oflags" : [
             "Wearable",
@@ -231,7 +231,7 @@
       },
       "berries@eastcoast" : {
          "desc[1]" : "\nSome juicy-looking brambleberries grow here in the bushes.",
-         "location" : "IN_ROOM:Brambles",
+         "location" : "IN_ROOM:brambles@eastcoast",
          "oflags" : [
             "Getflips",
             "Food"
@@ -244,7 +244,7 @@
       },
       "artifact@eastcoast" : {
          "desc[1]" : "\nA jade artifact rests next to the book.",
-         "location" : "IN_ROOM:Storeroom",
+         "location" : "IN_ROOM:storeroom@eastcoast",
          "oflags" : [
             "Getflips"
          ],
@@ -259,7 +259,7 @@
       },
       "backpack@eastcoast" : {
          "desc[1]" : "\nAn equipment backpack, old and dusty, lies useless here in a corner.",
-         "location" : "IN_ROOM:Storeroom",
+         "location" : "IN_ROOM:storeroom@eastcoast",
          "oflags" : [
             "Container",
             "Getflips",
@@ -279,7 +279,7 @@
       },
       "diary@eastcoast" : {
          "desc[1]" : "\nA small book labeled 'My Diary' rests here on a small shelf.",
-         "location" : "IN_ROOM:Niche",
+         "location" : "IN_ROOM:niche@eastcoast",
          "name" : "diary",
          "examine" : "\nThis appears to be a poorly written diary of a trapper that practices his \ntrade in the swamplands.   Most of the entries recount mundane catches and \nplaces that the trapper has been to, but one entry catches your attention:\n\nReset 509, 2 hours and 45 minutes:\n        I hav wanderd far into the swamplans in the hopes of settin some new \ntrapps, wheir I stumbeld into a small, peeramid-like buildin.  This plase\ndidn't evn show up on my map, which I uuz to saafly travle the swamps.  I\nlooked insyde this thingy-ma-bob, onlee to fynd a small jayde figgurine.  It\nseem to have a tenglin feeling whin I tuch it.  I plan on keepin it unteal I\nfiggur out what it myte meen.\n",
          "size" : "8",
@@ -291,7 +291,7 @@
       "branch@eastcoast" : {
          "desc[1]" : "\nA burning branch of brambleweed lies here.",
          "damage" : "5",
-         "location" : "IN_ROOM:MStream",
+         "location" : "IN_ROOM:mstream@eastcoast",
          "oflags" : [
             "Weapon",
             "Extinguish",
@@ -310,9 +310,9 @@
    "loc" : {
       "cave@eastcoast" : {
          "exits" : {
-            "e" : "StoreRoom",
-            "n" : "Niche",
-            "s" : "Entrance"
+            "e" : "storeroom@eastcoast",
+            "n" : "niche@eastcoast",
+            "s" : "entrance@eastcoast"
          },
          "flags" : [
             "Dark",
@@ -326,8 +326,8 @@
       },
       "rbend@eastcoast" : {
          "exits" : {
-            "w" : "Waste@Moor",
-            "s" : "LLPath"
+            "w" : "waste@moor",
+            "s" : "llpath@eastcoast"
          },
          "flags" : [
             "Outdoors",
@@ -341,11 +341,11 @@
       },
       "gentle@eastcoast" : {
          "exits" : {
-            "w" : "Glade",
-            "e" : "Lagoon",
-            "u" : "Glade",
-            "n" : "FootCliff",
-            "s" : "MStream"
+            "w" : "glade@eastcoast",
+            "e" : "lagoon@eastcoast",
+            "u" : "glade@eastcoast",
+            "n" : "footcliff@eastcoast",
+            "s" : "mstream@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -358,8 +358,8 @@
       },
       "coastal@eastcoast" : {
          "exits" : {
-            "u" : "CliffTop",
-            "d" : "EndBeach"
+            "u" : "clifftop@eastcoast",
+            "d" : "endbeach@eastcoast"
          },
          "flags" : [
             "Outdoors",
@@ -373,7 +373,7 @@
       },
       "shepherd@eastcoast" : {
          "exits" : {
-            "w" : "Field"
+            "w" : "field@eastcoast"
          },
          "flags" : [
             "NoMobiles"
@@ -398,7 +398,7 @@
       "lagoon@eastcoast" : {
          "exits" : {
             "e" : "tread16@treadmill",
-            "w" : "Gentle"
+            "w" : "gentle@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -411,8 +411,8 @@
       },
       "scedge@eastcoast" : {
          "exits" : {
-            "w" : "SECliff",
-            "n" : "Field"
+            "w" : "secliff@eastcoast",
+            "n" : "field@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -425,9 +425,9 @@
       },
       "cliffpath@eastcoast" : {
          "exits" : {
-            "w" : "Swamplands",
-            "e" : "Entrance",
-            "u" : "Entrance"
+            "w" : "swamplands@eastcoast",
+            "e" : "entrance@eastcoast",
+            "u" : "entrance@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -440,10 +440,10 @@
       },
       "brambles@eastcoast" : {
          "exits" : {
-            "w" : "BStream",
-            "e" : "Rocks",
-            "n" : "BStream",
-            "s" : "Dunes"
+            "w" : "bstream@eastcoast",
+            "e" : "rocks@eastcoast",
+            "n" : "bstream@eastcoast",
+            "s" : "dunes@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -456,11 +456,11 @@
       },
       "entrance@eastcoast" : {
          "exits" : {
-            "w" : "CliffPath",
-            "e" : "FootCliff",
-            "n" : "Cave",
-            "d" : "FootCliff",
-            "s" : "Glade"
+            "w" : "cliffpath@eastcoast",
+            "e" : "footcliff@eastcoast",
+            "n" : "cave@eastcoast",
+            "d" : "footcliff@eastcoast",
+            "s" : "glade@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -473,10 +473,10 @@
       },
       "field@eastcoast" : {
          "exits" : {
-            "w" : "Meadow",
-            "e" : "Shepherd",
-            "n" : "Gold",
-            "s" : "SCEdge"
+            "w" : "meadow@eastcoast",
+            "e" : "shepherd@eastcoast",
+            "n" : "gold@eastcoast",
+            "s" : "scedge@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -489,8 +489,8 @@
       },
       "llpath@eastcoast" : {
          "exits" : {
-            "n" : "RBend",
-            "s" : "Grass"
+            "n" : "rbend@eastcoast",
+            "s" : "grass@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -503,8 +503,8 @@
       },
       "secliff@eastcoast" : {
          "exits" : {
-            "w" : "Meadow",
-            "e" : "SCEdge"
+            "w" : "meadow@eastcoast",
+            "e" : "scedge@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -517,8 +517,8 @@
       },
       "shore@eastcoast" : {
          "exits" : {
-            "n" : "EndBeach",
-            "s" : "RockyBeach"
+            "n" : "endbeach@eastcoast",
+            "s" : "rockybeach@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -531,11 +531,11 @@
       },
       "rocks@eastcoast" : {
          "exits" : {
-            "w" : "Brambles",
-            "e" : "Bank",
-            "u" : "Dunes",
-            "n" : "MStream",
-            "s" : "Surf"
+            "w" : "brambles@eastcoast",
+            "e" : "bank@eastcoast",
+            "u" : "dunes@eastcoast",
+            "n" : "mstream@eastcoast",
+            "s" : "surf@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -548,7 +548,7 @@
       },
       "niche@eastcoast" : {
          "exits" : {
-            "s" : "Cave"
+            "s" : "cave@eastcoast"
          },
          "flags" : [
             "Dark",
@@ -562,8 +562,8 @@
       },
       "escarpment@eastcoast" : {
          "exits" : {
-            "e" : "Swamplands",
-            "u" : "EscPath"
+            "e" : "swamplands@eastcoast",
+            "u" : "escpath@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -576,7 +576,7 @@
       },
       "seshoal@eastcoast" : {
          "exits" : {
-            "n" : "SShoal"
+            "n" : "sshoal@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -589,10 +589,10 @@
       },
       "gold@eastcoast" : {
          "exits" : {
-            "w" : "Hillock",
-            "e" : "CliffTop",
+            "w" : "hillock@eastcoast",
+            "e" : "clifftop@eastcoast",
             "n" : "nelatra@nelatra",
-            "s" : "Field"
+            "s" : "field@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -605,8 +605,8 @@
       },
       "dunes@eastcoast" : {
          "exits" : {
-            "w" : "Brambles",
-            "d" : "Rocks"
+            "w" : "brambles@eastcoast",
+            "d" : "rocks@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -619,8 +619,8 @@
       },
       "waistdeep@eastcoast" : {
          "exits" : {
-            "w" : "SandyBeach",
-            "n" : "KneeDeep",
+            "w" : "sandybeach@eastcoast",
+            "n" : "kneedeep@eastcoast",
             "s" : "ledge53@ledge"
          },
          "flags" : [
@@ -634,9 +634,9 @@
       },
       "kneedeep@eastcoast" : {
          "exits" : {
-            "w" : "Surf",
-            "e" : "SShoal",
-            "s" : "WaistDeep"
+            "w" : "surf@eastcoast",
+            "e" : "sshoal@eastcoast",
+            "s" : "waistdeep@eastcoast"
          },
          "flags" : [
             "Outdoors",
@@ -650,8 +650,8 @@
       },
       "rockybeach@eastcoast" : {
          "exits" : {
-            "n" : "Shore",
-            "s" : "FootCliff"
+            "n" : "shore@eastcoast",
+            "s" : "footcliff@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -664,9 +664,9 @@
       },
       "endbeach@eastcoast" : {
          "exits" : {
-            "u" : "Coastal",
-            "n" : "SharpRocks",
-            "s" : "Shore"
+            "u" : "coastal@eastcoast",
+            "n" : "sharprocks@eastcoast",
+            "s" : "shore@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -679,8 +679,8 @@
       },
       "swamplands@eastcoast" : {
          "exits" : {
-            "w" : "Escarpment",
-            "e" : "CliffPath"
+            "w" : "escarpment@eastcoast",
+            "e" : "cliffpath@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -693,9 +693,9 @@
       },
       "bstream@eastcoast" : {
          "exits" : {
-            "w" : "Peril",
-            "e" : "MStream",
-            "n" : "Glade"
+            "w" : "peril@eastcoast",
+            "e" : "mstream@eastcoast",
+            "n" : "glade@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -708,10 +708,10 @@
       },
       "clifftop@eastcoast" : {
          "exits" : {
-            "w" : "Gold",
+            "w" : "gold@eastcoast",
             "n" : "chlyon1@chlyon",
-            "d" : "Coastal",
-            "s" : "Point"
+            "d" : "coastal@eastcoast",
+            "s" : "point@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -724,7 +724,7 @@
       },
       "bank@eastcoast" : {
          "exits" : {
-            "w" : "Rocks"
+            "w" : "rocks@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -748,7 +748,7 @@
       },
       "shoal@eastcoast" : {
          "exits" : {
-            "s" : "SShoal"
+            "s" : "sshoal@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -761,9 +761,9 @@
       },
       "meadow@eastcoast" : {
          "exits" : {
-            "e" : "Field",
-            "n" : "Hillock",
-            "s" : "SECliff"
+            "e" : "field@eastcoast",
+            "n" : "hillock@eastcoast",
+            "s" : "secliff@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -777,7 +777,7 @@
       "escpath@eastcoast" : {
          "exits" : {
             "u" : "slott1@slott",
-            "d" : "Escarpment"
+            "d" : "escarpment@eastcoast"
          },
          "flags" : [
             "Outdoors",
@@ -791,9 +791,9 @@
       },
       "mstream@eastcoast" : {
          "exits" : {
-            "w" : "BStream",
-            "n" : "Glade",
-            "s" : "Rocks"
+            "w" : "bstream@eastcoast",
+            "n" : "glade@eastcoast",
+            "s" : "rocks@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -806,7 +806,7 @@
       },
       "point@eastcoast" : {
          "exits" : {
-            "n" : "CliffTop"
+            "n" : "clifftop@eastcoast"
          },
          "flags" : [
             "Outdoors",
@@ -821,10 +821,10 @@
       },
       "glade@eastcoast" : {
          "exits" : {
-            "e" : "Gentle",
-            "n" : "Entrance",
-            "d" : "Gentle",
-            "s" : "BStream"
+            "e" : "gentle@eastcoast",
+            "n" : "entrance@eastcoast",
+            "d" : "gentle@eastcoast",
+            "s" : "bstream@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -837,7 +837,7 @@
       },
       "peril@eastcoast" : {
          "exits" : {
-            "e" : "BStream"
+            "e" : "bstream@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -850,10 +850,10 @@
       },
       "footcliff@eastcoast" : {
          "exits" : {
-            "w" : "Entrance",
-            "e" : "RockyBeach",
-            "u" : "Entrance",
-            "s" : "Gentle"
+            "w" : "entrance@eastcoast",
+            "e" : "rockybeach@eastcoast",
+            "u" : "entrance@eastcoast",
+            "s" : "gentle@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -866,7 +866,7 @@
       },
       "storeroom@eastcoast" : {
          "exits" : {
-            "w" : "Cave"
+            "w" : "cave@eastcoast"
          },
          "flags" : [
             "Dark",
@@ -880,8 +880,8 @@
       },
       "grass@eastcoast" : {
          "exits" : {
-            "n" : "LLPath",
-            "s" : "Hillock"
+            "n" : "llpath@eastcoast",
+            "s" : "hillock@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -894,8 +894,8 @@
       },
       "sandybeach@eastcoast" : {
          "exits" : {
-            "e" : "WaistDeep",
-            "n" : "Surf",
+            "e" : "waistdeep@eastcoast",
+            "n" : "surf@eastcoast",
             "s" : "ledge51@ledge"
          },
          "flags" : [
@@ -910,9 +910,9 @@
       },
       "surf@eastcoast" : {
          "exits" : {
-            "e" : "KneeDeep",
-            "n" : "Rocks",
-            "s" : "SandyBeach"
+            "e" : "kneedeep@eastcoast",
+            "n" : "rocks@eastcoast",
+            "s" : "sandybeach@eastcoast"
          },
          "flags" : [
             "Outdoors",
@@ -926,9 +926,9 @@
       },
       "sshoal@eastcoast" : {
          "exits" : {
-            "w" : "KneeDeep",
-            "n" : "Shoal",
-            "s" : "SEShoal"
+            "w" : "kneedeep@eastcoast",
+            "n" : "shoal@eastcoast",
+            "s" : "seshoal@eastcoast"
          },
          "flags" : [
             "Outdoors"
@@ -941,10 +941,10 @@
       },
       "hillock@eastcoast" : {
          "exits" : {
-            "w" : "Rbank@Valley",
-            "e" : "Gold",
-            "n" : "Grass",
-            "s" : "Meadow"
+            "w" : "rbank@valley",
+            "e" : "gold@eastcoast",
+            "n" : "grass@eastcoast",
+            "s" : "meadow@eastcoast"
          },
          "flags" : [
             "Outdoors",
@@ -960,7 +960,7 @@
    "mob" : {
       "trapper@eastcoast" : {
          "damage" : "10",
-         "location" : "Cave",
+         "location" : "cave@eastcoast",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -971,7 +971,7 @@
       },
       "maya@eastcoast" : {
          "damage" : "10",
-         "location" : "Gold",
+         "location" : "gold@eastcoast",
          "armor" : "0",
          "name" : "maya",
          "description" : "\nMaya the Bee flits from flower to flower here, looking terminally happy.",
@@ -989,7 +989,7 @@
       },
       "blackie@eastcoast" : {
          "damage" : "10",
-         "location" : "Grass",
+         "location" : "grass@eastcoast",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -1000,7 +1000,7 @@
       },
       "sheepdog@eastcoast" : {
          "damage" : "10",
-         "location" : "Meadow",
+         "location" : "meadow@eastcoast",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -1011,7 +1011,7 @@
       },
       "clammy@eastcoast" : {
          "damage" : "10",
-         "location" : "Lagoon",
+         "location" : "lagoon@eastcoast",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -1022,7 +1022,7 @@
       },
       "herman@eastcoast" : {
          "damage" : "10",
-         "location" : "Rocks",
+         "location" : "rocks@eastcoast",
          "armor" : "0",
          "name" : "herman",
          "description" : "\nHerman the Pelican waddles nearby, looking for a fish.",
@@ -1036,7 +1036,7 @@
       },
       "shepherd@eastcoast" : {
          "damage" : "10",
-         "location" : "Field",
+         "location" : "field@eastcoast",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -1047,7 +1047,7 @@
       },
       "dreamer@eastcoast" : {
          "damage" : "10",
-         "location" : "Point",
+         "location" : "point@eastcoast",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -1058,7 +1058,7 @@
       },
       "swallowtail@eastcoast" : {
          "damage" : "10",
-         "location" : "Gold",
+         "location" : "gold@eastcoast",
          "armor" : "0",
          "name" : "swallowtail",
          "description" : "\nA Zebra Swallowtail flys nearby, fluttering gracefully in the breeze.",
@@ -1075,7 +1075,7 @@
       },
       "manta@eastcoast" : {
          "damage" : "10",
-         "location" : "Bank",
+         "location" : "bank@eastcoast",
          "armor" : "0",
          "name" : "manta",
          "description" : "\nFlat against the sandy bottom of the shallow sea floor, a manta ray rests\nhere.",
@@ -1092,7 +1092,7 @@
       },
       "flock@eastcoast" : {
          "damage" : "10",
-         "location" : "Field",
+         "location" : "field@eastcoast",
          "armor" : "0",
          "name" : "flock",
          "description" : "\nA flock of sheep bleat contentedly here, nibbling at anything plant-like.",
@@ -1103,7 +1103,7 @@
       },
       "jaws@eastcoast" : {
          "damage" : "10",
-         "location" : "WaistDeep",
+         "location" : "waistdeep@eastcoast",
          "armor" : "0",
          "name" : "jaws",
          "description" : "\nA big shark fin sticks out from the water, approaching you, and it's no fake!",

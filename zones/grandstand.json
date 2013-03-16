@@ -3,8 +3,8 @@
    "loc" : {
       "party@grandstand" : {
          "exits" : {
-            "w" : "grandstand",
-            "s" : "betting"
+            "w" : "grandstand@grandstand",
+            "s" : "betting@grandstand"
          },
          "flags" : [
             "Peace",
@@ -18,8 +18,8 @@
       },
       "betting@grandstand" : {
          "exits" : {
-            "e" : "party",
-            "n" : "grandstand"
+            "e" : "party@grandstand",
+            "n" : "grandstand@grandstand"
          },
          "flags" : [
             "Peaceful"
@@ -32,8 +32,8 @@
       },
       "grandstand@grandstand" : {
          "exits" : {
-            "e" : "party",
-            "s" : "betting"
+            "e" : "party@grandstand",
+            "s" : "betting@grandstand"
          },
          "flags" : [
             "Peaceful"
@@ -48,7 +48,7 @@
    "mob" : {
       "bookie@grandstand" : {
          "damage" : "10",
-         "location" : "betting",
+         "location" : "betting@grandstand",
          "armor" : "100",
          "name" : "bookie",
          "description" : "A tall, lean elf stands behind the grilled window.",
@@ -59,7 +59,7 @@
       },
       "sportscaster@grandstand" : {
          "damage" : "10",
-         "location" : "grandstand",
+         "location" : "grandstand@grandstand",
          "armor" : "100",
          "name" : "sportscaster",
          "description" : "The fangs on the Sportscaster suggest it's just &+Rblood&+g that he likes.",

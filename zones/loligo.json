@@ -2,7 +2,7 @@
    "obj" : {
       "suit@loligo" : {
          "damage" : "0",
-         "location" : "IN_ROOM:surface1",
+         "location" : "IN_ROOM:surface1@loligo",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -34,10 +34,10 @@
    "loc" : {
       "surface4@loligo" : {
          "exits" : {
-            "w" : "surface3",
-            "e" : "surface6",
-            "n" : "surface5",
-            "s" : "surface5"
+            "w" : "surface3@loligo",
+            "e" : "surface6@loligo",
+            "n" : "surface5@loligo",
+            "s" : "surface5@loligo"
          },
          "flags" : [
             "Outdoors",
@@ -51,8 +51,8 @@
       },
       "surface3@loligo" : {
          "exits" : {
-            "w" : "surface2",
-            "e" : "surface4"
+            "w" : "surface2@loligo",
+            "e" : "surface4@loligo"
          },
          "flags" : [
             "Outdoors",
@@ -66,10 +66,10 @@
       },
       "surface8@loligo" : {
          "exits" : {
-            "w" : "surface7",
+            "w" : "surface7@loligo",
             "e" : "fareast_bay@fareast",
-            "n" : "surface6",
-            "s" : "surface6"
+            "n" : "surface6@loligo",
+            "s" : "surface6@loligo"
          },
          "flags" : [
             "Outdoors",
@@ -83,10 +83,10 @@
       },
       "surface6@loligo" : {
          "exits" : {
-            "w" : "surface4",
-            "e" : "surface6",
-            "n" : "surface7",
-            "s" : "surface7"
+            "w" : "surface4@loligo",
+            "e" : "surface6@loligo",
+            "n" : "surface7@loligo",
+            "s" : "surface7@loligo"
          },
          "flags" : [
             "Outdoors",
@@ -100,8 +100,8 @@
       },
       "surface2@loligo" : {
          "exits" : {
-            "w" : "surface1",
-            "e" : "surface3"
+            "w" : "surface1@loligo",
+            "e" : "surface3@loligo"
          },
          "flags" : [
             "Outdoors",
@@ -115,10 +115,10 @@
       },
       "surface7@loligo" : {
          "exits" : {
-            "w" : "surface5",
-            "e" : "surface8",
-            "n" : "surface6",
-            "s" : "surface6"
+            "w" : "surface5@loligo",
+            "e" : "surface8@loligo",
+            "n" : "surface6@loligo",
+            "s" : "surface6@loligo"
          },
          "flags" : [
             "Outdoors",
@@ -132,10 +132,10 @@
       },
       "surface5@loligo" : {
          "exits" : {
-            "w" : "surface3",
-            "e" : "surface7",
-            "n" : "surface4",
-            "s" : "surface4"
+            "w" : "surface3@loligo",
+            "e" : "surface7@loligo",
+            "n" : "surface4@loligo",
+            "s" : "surface4@loligo"
          },
          "flags" : [
             "Outdoors",
@@ -149,8 +149,8 @@
       },
       "surface1@loligo" : {
          "exits" : {
-            "w" : "Waste1@island",
-            "e" : "surface2"
+            "w" : "waste1@island",
+            "e" : "surface2@loligo"
          },
          "flags" : [
             "Outdoors",

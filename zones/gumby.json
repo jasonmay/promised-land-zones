@@ -1,7 +1,7 @@
 {
    "obj" : {
       "note@gumby" : {
-         "location" : "IN_ROOM:gumby2",
+         "location" : "IN_ROOM:gumby2@gumby",
          "weight" : "1",
          "pname" : "note",
          "name" : "note",
@@ -11,7 +11,7 @@
          "size" : "1"
       },
       "portrait2@gumby" : {
-         "location" : "IN_ROOM:gumby3",
+         "location" : "IN_ROOM:gumby3@gumby",
          "altname" : "poly_portrait",
          "name" : "portrait2",
          "examine" : "\n  A heavy screen of light gray smoke wells up from the ground, stays \nfor a few moments, then dissipates almost as mysteriously as it \narrived.  As the smoke fades into oblivion, a figure steps out. He \nwears a suit of black armor with a golden pattern of a rose etched on\nthe breastplate.  Over it, a billowing black robe hangs lightly over \nhis shoulders and absorbs all of the nearby light, casting a pallor of\ndarkness over him.  His dark brown pants are tucked into the tops of \nhis soft, knee high, sheepskin boots, which have been dyed and \npolished to an almost gleaming blackness.\n  Wavy, shoulder length auburn hair frames a pale white aristrocratic\nface highlighted by his two glowing, silver eyes.  His lips are pursed\ninto an impish grin as he gazes calmly at you. One of his hands \nreaches up to move a lock of his hair that hangs just in front of his \neye, and brushes it over his ears, leaving you to see a small tip \nstick out beyond it.  Then, he gazes deep into your eyes, as though he\nwere trying to read your soul.  The tip of his gleaming sword which is\nimmersed in a dark blue fire is held by the pommel with a gloved fist.",
@@ -22,7 +22,7 @@
          "desc[0]" : "\nPolyeucte's portrait leans against the wall."
       },
       "portrait1@gumby" : {
-         "location" : "IN_ROOM:gumby3",
+         "location" : "IN_ROOM:gumby3@gumby",
          "oflags" : [
             "NoGet"
          ],
@@ -36,7 +36,7 @@
          "desc[0]" : "\nA portrait of Azazel hangs weakly against the wall."
       },
       "cloak@gumby" : {
-         "location" : "IN_ROOM:gumby6",
+         "location" : "IN_ROOM:gumby6@gumby",
          "oflags" : [
             "Wearable"
          ],
@@ -49,7 +49,7 @@
          "desc[0]" : "A snowy white cloak lies carefully folded here."
       },
       "rose@gumby" : {
-         "location" : "IN_ROOM:gumby2",
+         "location" : "IN_ROOM:gumby2@gumby",
          "weight" : "1",
          "pname" : "rose",
          "name" : "rose",
@@ -62,7 +62,7 @@
    "loc" : {
       "gumby6@gumby" : {
          "exits" : {
-            "w" : "gumby5"
+            "w" : "gumby5@gumby"
          },
          "flags" : [
             "Private",
@@ -77,9 +77,9 @@
       },
       "gumby5@gumby" : {
          "exits" : {
-            "w" : "gumby2",
-            "e" : "gumby6",
-            "u" : "gumby4"
+            "w" : "gumby2@gumby",
+            "e" : "gumby6@gumby",
+            "u" : "gumby4@gumby"
          },
          "flags" : [
             "Private",
@@ -97,8 +97,8 @@
       "gumby3@gumby" : {
          "exits" : {
             "n" : "temple@start",
-            "u" : "gumby1",
-            "s" : "Before@waste"
+            "u" : "gumby1@gumby",
+            "s" : "before@waste"
          },
          "flags" : [
             "Private",
@@ -114,8 +114,8 @@
       },
       "gumby2@gumby" : {
          "exits" : {
-            "e" : "gumby5",
-            "n" : "gumby1"
+            "e" : "gumby5@gumby",
+            "n" : "gumby1@gumby"
          },
          "flags" : [
             "Private",
@@ -131,7 +131,7 @@
       },
       "gumby4@gumby" : {
          "exits" : {
-            "d" : "gumby5"
+            "d" : "gumby5@gumby"
          },
          "flags" : [
             "Private",
@@ -145,8 +145,8 @@
       },
       "gumby1@gumby" : {
          "exits" : {
-            "d" : "gumby3",
-            "s" : "gumby2"
+            "d" : "gumby3@gumby",
+            "s" : "gumby2@gumby"
          },
          "flags" : [
             "NoSnoop",
@@ -164,7 +164,7 @@
    "mob" : {
       "panther@gumby" : {
          "damage" : "10",
-         "location" : "gumby1",
+         "location" : "gumby1@gumby",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -176,7 +176,7 @@
       },
       "arissa@gumby" : {
          "damage" : "5",
-         "location" : "gumby4",
+         "location" : "gumby4@gumby",
          "name" : "Arissa",
          "examine" : "  Soft to the touch and dark to the eye, this cat is dear to Gumby's\nheart.  She's very playful and very spoiled.  Don't be surprised if\nshe rubs her head against you until you get the hint to start\npetting her.\n  If she ever looks up at you for food, prepare to have your heart\nmelt at her feet.",
          "description" : "A playful little kitten looks up at you at you and\nmeows.",

@@ -1,7 +1,7 @@
 {
    "obj" : {
       "golden_trumpet@fairytale" : {
-         "location" : "IN_ROOM:fairytale41",
+         "location" : "IN_ROOM:fairytale41@fairytale",
          "altname" : "golden",
          "name" : "golden_trumpet",
          "examine" : "The trumpet has the words 'Don't call me a mirafone' engraved into the bell.\n",
@@ -13,7 +13,7 @@
       },
       "door_heavy@fairytale" : {
          "desc[1]" : "The heavy double doors are closed.",
-         "location" : "IN_ROOM:fairytale82",
+         "location" : "IN_ROOM:fairytale82@fairytale",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -30,7 +30,7 @@
       },
       "door_window_1@fairytale" : {
          "desc[1]" : "The window is closed.",
-         "location" : "IN_ROOM:fairytale35",
+         "location" : "IN_ROOM:fairytale35@fairytale",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -46,7 +46,7 @@
          "desc[0]" : "The window is open."
       },
       "top_lid@fairytale" : {
-         "location" : "IN_ROOM:fairytale63",
+         "location" : "IN_ROOM:fairytale63@fairytale",
          "altname" : "top",
          "name" : "top_lid",
          "examine" : "The lid is securable to the top of the coffin.\n",
@@ -57,7 +57,7 @@
          "desc[0]" : "The lid of the coffin is transparent."
       },
       "snake_rug@fairytale" : {
-         "location" : "IN_ROOM:fairytale85",
+         "location" : "IN_ROOM:fairytale85@fairytale",
          "oflags" : [
             "NoGet"
          ],
@@ -72,7 +72,7 @@
          "desc[0]" : "A rug lies under your feet."
       },
       "xara@fairytale" : {
-         "location" : "IN_ROOM:fairytale21",
+         "location" : "IN_ROOM:fairytale21@fairytale",
          "oflags" : [
             "NoGet"
          ],
@@ -82,7 +82,7 @@
          "desc[0]" : "In the center of the fun house sits a volume that teaches the Xara language."
       },
       "magic_wand@fairytale" : {
-         "location" : "IN_ROOM:fairytale90",
+         "location" : "IN_ROOM:fairytale90@fairytale",
          "altname" : "magic",
          "name" : "magic_wand",
          "examine" : "It looks like a magic wand!\n",
@@ -93,7 +93,7 @@
          "desc[0]" : "You think you can see a stick protruding from the mouse-hole."
       },
       "bird_nest@fairytale" : {
-         "location" : "IN_ROOM:fairytale36",
+         "location" : "IN_ROOM:fairytale36@fairytale",
          "oflags" : [
             "Container"
          ],
@@ -107,7 +107,7 @@
          "desc[0]" : "An empty nest is nestled among the branches."
       },
       "hanging_shield@fairytale" : {
-         "location" : "IN_ROOM:fairytale84",
+         "location" : "IN_ROOM:fairytale84@fairytale",
          "armor" : "35",
          "oflags" : [
             "Armor",
@@ -125,7 +125,7 @@
       },
       "hanging_sword@fairytale" : {
          "damage" : "20",
-         "location" : "IN_ROOM:fairytale84",
+         "location" : "IN_ROOM:fairytale84@fairytale",
          "oflags" : [
             "Weapon"
          ],
@@ -139,7 +139,7 @@
          "desc[0]" : "A sword hangs here, waiting for its owner."
       },
       "null_drawbridge@fairytale" : {
-         "location" : "IN_ROOM:fairytale25",
+         "location" : "IN_ROOM:fairytale25@fairytale",
          "oflags" : [
             "NoGet"
          ],
@@ -156,7 +156,7 @@
          "desc[0]" : "A drawbridge extends across the chasm."
       },
       "stone_altar@fairytale" : {
-         "location" : "IN_ROOM:fairytale33",
+         "location" : "IN_ROOM:fairytale33@fairytale",
          "oflags" : [
             "NoGet"
          ],
@@ -170,7 +170,7 @@
       },
       "tiny_door@fairytale" : {
          "desc[1]" : "The tiny door is closed.",
-         "location" : "IN_ROOM:fairytale31",
+         "location" : "IN_ROOM:fairytale31@fairytale",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -186,7 +186,7 @@
          "desc[0]" : "The tiny door is open."
       },
       "pink_egg@fairytale" : {
-         "location" : "IN_ROOM:fairytale36",
+         "location" : "IN_ROOM:fairytale36@fairytale",
          "altname" : "pink",
          "name" : "pink_egg",
          "examine" : "You wonder what kind of bird would lay a pink egg.\n",
@@ -197,7 +197,7 @@
          "desc[0]" : "A pink egg lies in the nest"
       },
       "g_bod_bot@fairytale" : {
-         "location" : "IN_ROOM:fairytale39",
+         "location" : "IN_ROOM:fairytale39@fairytale",
          "oflags" : [
             "NoGet"
          ],
@@ -211,7 +211,7 @@
          "desc[0]" : "The giant's body provides a way upto the table."
       },
       "beauty_coffin@fairytale" : {
-         "location" : "IN_ROOM:fairytale137",
+         "location" : "IN_ROOM:fairytale137@fairytale",
          "oflags" : [
             "Openable",
             "Container",
@@ -229,7 +229,7 @@
          "desc[0]" : "Sleeping Beauty lies inside her coffin, sleeping."
       },
       "display_case@fairytale" : {
-         "location" : "IN_ROOM:fairytale91",
+         "location" : "IN_ROOM:fairytale91@fairytale",
          "oflags" : [
             "Container",
             "NoGet"
@@ -245,7 +245,7 @@
          "desc[0]" : "A display case stands in the corner"
       },
       "black_pot@fairytale" : {
-         "location" : "IN_ROOM:fairytale91",
+         "location" : "IN_ROOM:fairytale91@fairytale",
          "oflags" : [
             "Container",
             "NoGet"
@@ -262,7 +262,7 @@
       },
       "bastard_sword@fairytale" : {
          "damage" : "20",
-         "location" : "IN_ROOM:fairytale24",
+         "location" : "IN_ROOM:fairytale24@fairytale",
          "oflags" : [
             "Weapon"
          ],
@@ -276,7 +276,7 @@
          "desc[0]" : "A huge bastard sword lies among the rocks."
       },
       "tarnished_chest@fairytale" : {
-         "location" : "IN_ROOM:fairytale77",
+         "location" : "IN_ROOM:fairytale77@fairytale",
          "oflags" : [
             "Container"
          ],
@@ -290,7 +290,7 @@
          "desc[0]" : "A chest lies here, its locks tarnished with age."
       },
       "green_balloon@fairytale" : {
-         "location" : "IN_ROOM:fairytale12",
+         "location" : "IN_ROOM:fairytale12@fairytale",
          "altname" : "green",
          "pname" : "balloon",
          "name" : "green_balloon",
@@ -300,7 +300,7 @@
       },
       "jeweled_egg@fairytale" : {
          "desc[1]" : "A large, jeweled egg is carefully balanced on the bars.",
-         "location" : "IN_ROOM:fairytale31",
+         "location" : "IN_ROOM:fairytale31@fairytale",
          "altname" : "jeweled",
          "name" : "jeweled_egg",
          "examine" : "The egg has been carefully carved by a master jeweller.\n",
@@ -312,7 +312,7 @@
          "desc[0]" : "A large, jeweled egg lies here."
       },
       "porcelain_pig@fairytale" : {
-         "location" : "IN_CONTAINER:display_case",
+         "location" : "IN_CONTAINER:display_case@fairytale",
          "altname" : "porcelain",
          "name" : "porcelain_pig",
          "examine" : "The pig turns up his nose at you.\n",
@@ -323,7 +323,7 @@
          "desc[0]" : "A tiny porcelain pig stands inside the case."
       },
       "wolf_stew@fairytale" : {
-         "location" : "IN_ROOM:fairytale91",
+         "location" : "IN_ROOM:fairytale91@fairytale",
          "oflags" : [
             "Food"
          ],
@@ -337,7 +337,7 @@
          "desc[0]" : "A large portion of wolf stew is bubbling here."
       },
       "large_tapestry@fairytale" : {
-         "location" : "IN_ROOM:fairytale29",
+         "location" : "IN_ROOM:fairytale29@fairytale",
          "altname" : "large",
          "name" : "large_tapestry",
          "examine" : "The tapestry is embroidered with dragons and knights riding across a plain.\n",
@@ -348,7 +348,7 @@
          "desc[0]" : "A large tapestry hangs here."
       },
       "silvery_scythe@fairytale" : {
-         "location" : "IN_ROOM:fairytale59",
+         "location" : "IN_ROOM:fairytale59@fairytale",
          "altname" : "silvery",
          "name" : "silvery_scythe",
          "examine" : "The scythe has some words carved into the handle: 'If found, please return to\nthe reaper.'\n",
@@ -359,7 +359,7 @@
          "desc[0]" : "A wicked-looking scythe lies here."
       },
       "eye_cats@fairytale" : {
-         "location" : "IN_ROOM:fairytale86",
+         "location" : "IN_ROOM:fairytale86@fairytale",
          "oflags" : [
             "Key"
          ],
@@ -373,7 +373,7 @@
          "desc[0]" : "A tiny cat's eye marble has been dropped here."
       },
       "sting_stinger@fairytale" : {
-         "location" : "CARRIED_BY:bumblebee",
+         "location" : "CARRIED_BY:bumblebee@fairytale",
          "altname" : "Sting",
          "name" : "Sting_Stinger",
          "examine" : "A giant bee's stinger rests here, dripping with poison.\n",
@@ -384,7 +384,7 @@
          "desc[0]" : "The bee's stinger drips poison."
       },
       "large_pearl@fairytale" : {
-         "location" : "IN_ROOM:fairytale4",
+         "location" : "IN_ROOM:fairytale4@fairytale",
          "altname" : "large",
          "name" : "large_pearl",
          "examine" : "You wonder how such a large pearl got so far from the seashore.\nCarrier pigeons come to mind.\n",
@@ -396,7 +396,7 @@
       },
       "door_heavy_1@fairytale" : {
          "desc[1]" : "The heavy double doors are closed.",
-         "location" : "IN_ROOM:fairytale83",
+         "location" : "IN_ROOM:fairytale83@fairytale",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -412,7 +412,7 @@
          "desc[0]" : "The heavy double doors are open."
       },
       "rock_stone@fairytale" : {
-         "location" : "IN_ROOM:fairytale76",
+         "location" : "IN_ROOM:fairytale76@fairytale",
          "oflags" : [
             "NoGet"
          ],
@@ -427,7 +427,7 @@
          "desc[0]" : "One of the stones looks different from the rest."
       },
       "null_bridge@fairytale" : {
-         "location" : "IN_ROOM:fairytale27",
+         "location" : "IN_ROOM:fairytale27@fairytale",
          "oflags" : [
             "NoGet"
          ],
@@ -444,7 +444,7 @@
          "desc[0]" : "A drawbridge extends across the chasm."
       },
       "singing_harp@fairytale" : {
-         "location" : "IN_ROOM:fairytale41",
+         "location" : "IN_ROOM:fairytale41@fairytale",
          "altname" : "singing",
          "name" : "singing_harp",
          "examine" : "A beautiful woman seems to have grown into the harp somehow.  She smiles.\n",
@@ -455,7 +455,7 @@
          "desc[0]" : "A harp lies here, singing softly to itself."
       },
       "diamond_ring@fairytale" : {
-         "location" : "IN_ROOM:fairytale11",
+         "location" : "IN_ROOM:fairytale11@fairytale",
          "oflags" : [
             "Wearable"
          ],
@@ -473,7 +473,7 @@
       },
       "tiny_door_1@fairytale" : {
          "desc[1]" : "The tiny door is closed.",
-         "location" : "IN_ROOM:fairytale32",
+         "location" : "IN_ROOM:fairytale32@fairytale",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -489,7 +489,7 @@
          "desc[0]" : "The tiny door is open."
       },
       "red_balloon@fairytale" : {
-         "location" : "IN_ROOM:fairytale12",
+         "location" : "IN_ROOM:fairytale12@fairytale",
          "altname" : "red",
          "pname" : "balloon",
          "name" : "red_balloon",
@@ -498,7 +498,7 @@
          "desc[0]" : "An inflated red balloon dances merrily."
       },
       "magic_bean@fairytale" : {
-         "location" : "IN_ROOM:fairytale4",
+         "location" : "IN_ROOM:fairytale4@fairytale",
          "oflags" : [
             "Food"
          ],
@@ -512,7 +512,7 @@
          "desc[0]" : "A bean lies here on the ground, dropped from someone's pocket."
       },
       "g_bod_top@fairytale" : {
-         "location" : "IN_ROOM:fairytale38",
+         "location" : "IN_ROOM:fairytale38@fairytale",
          "oflags" : [
             "NoGet"
          ],
@@ -526,7 +526,7 @@
          "desc[0]" : "The giant's body provides a way off of the table."
       },
       "blue_balloon@fairytale" : {
-         "location" : "IN_ROOM:fairytale12",
+         "location" : "IN_ROOM:fairytale12@fairytale",
          "altname" : "blue",
          "pname" : "balloon",
          "name" : "blue_balloon",
@@ -535,7 +535,7 @@
          "desc[0]" : "An inflated blue balloon dances merrily."
       },
       "food_fish@fairytale" : {
-         "location" : "IN_ROOM:fairytale64",
+         "location" : "IN_ROOM:fairytale64@fairytale",
          "oflags" : [
             "Food"
          ],
@@ -549,7 +549,7 @@
          "desc[0]" : "A school of fish swims idly around the lake."
       },
       "birds_key@fairytale" : {
-         "location" : "IN_ROOM:fairytale36",
+         "location" : "IN_ROOM:fairytale36@fairytale",
          "oflags" : [
             "Key"
          ],
@@ -563,7 +563,7 @@
          "desc[0]" : "A key is hidden among the branches of the nest."
       },
       "plaque_rock@fairytale" : {
-         "location" : "IN_ROOM:fairytale23",
+         "location" : "IN_ROOM:fairytale23@fairytale",
          "altname" : "plaque",
          "name" : "plaque_rock",
          "examine" : "The plaque is engraved 'Beware of sleeping giants!'\n",
@@ -575,7 +575,7 @@
          "desc[0]" : "A large rock is balanced upon the limestone.  It seems to have writing on it."
       },
       "null_coffin@fairytale" : {
-         "location" : "IN_ROOM:fairytale63",
+         "location" : "IN_ROOM:fairytale63@fairytale",
          "oflags" : [
             "Container",
             "NoGet"
@@ -591,7 +591,7 @@
          "desc[0]" : "A coffin lies here, carved from a block of crystal."
       },
       "gold_key@fairytale" : {
-         "location" : "IN_CONTAINER:null_coffin",
+         "location" : "IN_CONTAINER:null_coffin@fairytale",
          "oflags" : [
             "Key"
          ],
@@ -605,7 +605,7 @@
          "desc[0]" : "A silver and gold key lies inside the coffin."
       },
       "rose_seed@fairytale" : {
-         "location" : "IN_ROOM:fairytale8",
+         "location" : "IN_ROOM:fairytale8@fairytale",
          "oflags" : [
             "Food"
          ],
@@ -619,7 +619,7 @@
          "desc[0]" : "There is a seed here, almost ready to sprout."
       },
       "hanging_banner@fairytale" : {
-         "location" : "IN_ROOM:fairytale84",
+         "location" : "IN_ROOM:fairytale84@fairytale",
          "altname" : "hanging",
          "name" : "hanging_banner",
          "examine" : "The banner presents a large 'E' in a circle, the mark of Ender.\n",
@@ -630,7 +630,7 @@
          "desc[0]" : "A banner hangs here, waiting to be carried into battle."
       },
       "rotted_chest@fairytale" : {
-         "location" : "IN_ROOM:fairytale77",
+         "location" : "IN_ROOM:fairytale77@fairytale",
          "oflags" : [
             "Container"
          ],
@@ -644,7 +644,7 @@
          "desc[0]" : "A chest lies here, its hinges rotted away."
       },
       "mossy_chest@fairytale" : {
-         "location" : "IN_ROOM:fairytale77",
+         "location" : "IN_ROOM:fairytale77@fairytale",
          "oflags" : [
             "Container"
          ],
@@ -658,7 +658,7 @@
          "desc[0]" : "A chest lies here, covered with moss."
       },
       "feather_pillow@fairytale" : {
-         "location" : "IN_ROOM:fairytale90",
+         "location" : "IN_ROOM:fairytale90@fairytale",
          "altname" : "feather",
          "name" : "feather_pillow",
          "examine" : "It sure looks comfortable.  You find yourself growing tired...\n",
@@ -669,7 +669,7 @@
          "desc[0]" : "A large feather pillow lies atop the others."
       },
       "golden_egg@fairytale" : {
-         "location" : "IN_ROOM:fairytale36",
+         "location" : "IN_ROOM:fairytale36@fairytale",
          "altname" : "golden",
          "name" : "golden_egg",
          "examine" : "You wonder what kind of bird laid this golden egg.\n",
@@ -680,7 +680,7 @@
          "desc[0]" : "A golden egg lies in the nest."
       },
       "curtain_tapestry@fairytale" : {
-         "location" : "IN_ROOM:fairytale29",
+         "location" : "IN_ROOM:fairytale29@fairytale",
          "altname" : "Curtain",
          "pname" : "Tapestry",
          "name" : "Curtain_Tapestry",
@@ -690,7 +690,7 @@
          "state" : "0"
       },
       "wine_flagon@fairytale" : {
-         "location" : "IN_ROOM:fairytale59",
+         "location" : "IN_ROOM:fairytale59@fairytale",
          "oflags" : [
             "Food",
             "Alcohol"
@@ -705,7 +705,7 @@
          "desc[0]" : "A flagon of wine lies here."
       },
       "large_shovel@fairytale" : {
-         "location" : "IN_ROOM:fairytale53",
+         "location" : "IN_ROOM:fairytale53@fairytale",
          "altname" : "large",
          "name" : "large_shovel",
          "examine" : "What kind of kid leaves his or her toys out in the playground?  Sheesh!\n",
@@ -717,7 +717,7 @@
       },
       "steam_pipe_1@fairytale" : {
          "desc[1]" : "The pipe is closed.",
-         "location" : "IN_ROOM:fairytale136",
+         "location" : "IN_ROOM:fairytale136@fairytale",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -733,7 +733,7 @@
          "desc[0]" : "The pipe is open."
       },
       "full_glass@fairytale" : {
-         "location" : "IN_ROOM:fairytale38",
+         "location" : "IN_ROOM:fairytale38@fairytale",
          "altname" : "full",
          "name" : "full_glass",
          "examine" : "The glass is full of something which smells awful!\n",
@@ -744,7 +744,7 @@
          "desc[0]" : "A glass stands before you, full of a bubbling liquid."
       },
       "salty_cracker@fairytale" : {
-         "location" : "IN_ROOM:fairytale59",
+         "location" : "IN_ROOM:fairytale59@fairytale",
          "oflags" : [
             "Food"
          ],
@@ -758,7 +758,7 @@
          "desc[0]" : "A cracker lies here."
       },
       "stone_cup@fairytale" : {
-         "location" : "IN_ROOM:fairytale38",
+         "location" : "IN_ROOM:fairytale38@fairytale",
          "altname" : "stone",
          "name" : "stone_cup",
          "examine" : "The cup is full of a greenish liquid.  It smells awful!\n",
@@ -770,7 +770,7 @@
       },
       "stole_mink@fairytale" : {
          "desc[1]" : "A mink stole is woven carefully into the nest.",
-         "location" : "IN_ROOM:fairytale88",
+         "location" : "IN_ROOM:fairytale88@fairytale",
          "oflags" : [
             "GetFlips",
             "Wearable"
@@ -791,7 +791,7 @@
       },
       "door_window@fairytale" : {
          "desc[1]" : "The window is closed.",
-         "location" : "IN_ROOM:fairytale33",
+         "location" : "IN_ROOM:fairytale33@fairytale",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -807,7 +807,7 @@
          "desc[0]" : "The window is open."
       },
       "puce_egg@fairytale" : {
-         "location" : "IN_ROOM:fairytale36",
+         "location" : "IN_ROOM:fairytale36@fairytale",
          "altname" : "puce",
          "name" : "puce_egg",
          "examine" : "You wonder what kind of bird would lay a puce egg.\n",
@@ -819,7 +819,7 @@
       },
       "king_chest@fairytale" : {
          "desc[1]" : "A chest is in the corner, padlock dangling.",
-         "location" : "IN_ROOM:fairytale100",
+         "location" : "IN_ROOM:fairytale100@fairytale",
          "oflags" : [
             "Openable",
             "Container",
@@ -837,7 +837,7 @@
          "desc[0]" : "An open chest is in the corner."
       },
       "beauty_crown@fairytale" : {
-         "location" : "IN_CONTAINER:king_chest",
+         "location" : "IN_CONTAINER:king_chest@fairytale",
          "oflags" : [
             "Wearable"
          ],
@@ -854,7 +854,7 @@
       },
       "prison_door@fairytale" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:fairytale37",
+         "location" : "IN_ROOM:fairytale37@fairytale",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -871,7 +871,7 @@
       },
       "spray_raid@fairytale" : {
          "damage" : "25",
-         "location" : "CARRIED_BY:exterminator",
+         "location" : "CARRIED_BY:exterminator@fairytale",
          "oflags" : [
             "Weapon"
          ],
@@ -884,7 +884,7 @@
       },
       "prison_door_1@fairytale" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:fairytale38",
+         "location" : "IN_ROOM:fairytale38@fairytale",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -900,7 +900,7 @@
          "desc[0]" : "The door is open."
       },
       "beauty_robe@fairytale" : {
-         "location" : "IN_CONTAINER:king_chest",
+         "location" : "IN_CONTAINER:king_chest@fairytale",
          "oflags" : [
             "Wearable"
          ],
@@ -921,7 +921,7 @@
       },
       "steam_pipe@fairytale" : {
          "desc[1]" : "The pipe is closed.",
-         "location" : "IN_ROOM:fairytale135",
+         "location" : "IN_ROOM:fairytale135@fairytale",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -951,9 +951,9 @@
       },
       "fairytale25@fairytale" : {
          "exits" : {
-            "e" : "^null_drawbridge",
-            "w" : "fairytale22",
-            "d" : "fairytale26"
+            "e" : "^null_drawbridge@fairytale",
+            "w" : "fairytale22@fairytale",
+            "d" : "fairytale26@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -964,8 +964,8 @@
       },
       "fairytale136@fairytale" : {
          "exits" : {
-            "u" : "fairytale137",
-            "s" : "^steam_pipe_1"
+            "u" : "fairytale137@fairytale",
+            "s" : "^steam_pipe_1@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -978,7 +978,7 @@
       },
       "fairytale71@fairytale" : {
          "exits" : {
-            "s" : "fairytale70"
+            "s" : "fairytale70@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -991,8 +991,8 @@
       },
       "fairytale75@fairytale" : {
          "exits" : {
-            "e" : "fairytale76",
-            "u" : "fairytale70"
+            "e" : "fairytale76@fairytale",
+            "u" : "fairytale70@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1003,8 +1003,8 @@
       },
       "fairytale37@fairytale" : {
          "exits" : {
-            "w" : "fairytale33",
-            "e" : "^prison_door"
+            "w" : "fairytale33@fairytale",
+            "e" : "^prison_door@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1015,7 +1015,7 @@
       },
       "fairytale52@fairytale" : {
          "exits" : {
-            "d" : "fairytale51"
+            "d" : "fairytale51@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -1028,7 +1028,7 @@
       },
       "fairytale12@fairytale" : {
          "exits" : {
-            "e" : "fairytale9"
+            "e" : "fairytale9@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -1041,9 +1041,9 @@
       },
       "fairytale80@fairytale" : {
          "exits" : {
-            "e" : "fairytale82",
-            "u" : "fairytale78",
-            "d" : "fairytale79"
+            "e" : "fairytale82@fairytale",
+            "u" : "fairytale78@fairytale",
+            "d" : "fairytale79@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1054,10 +1054,10 @@
       },
       "fairytale15@fairytale" : {
          "exits" : {
-            "w" : "fairytale15",
-            "e" : "fairytale16",
-            "n" : "fairytale15",
-            "s" : "fairytale14"
+            "w" : "fairytale15@fairytale",
+            "e" : "fairytale16@fairytale",
+            "n" : "fairytale15@fairytale",
+            "s" : "fairytale14@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1068,8 +1068,8 @@
       },
       "fairytale130@fairytale" : {
          "exits" : {
-            "n" : "fairytale131",
-            "d" : "fairytale129"
+            "n" : "fairytale131@fairytale",
+            "d" : "fairytale129@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1080,10 +1080,10 @@
       },
       "fairytale58@fairytale" : {
          "exits" : {
-            "w" : "fairytale98",
-            "e" : "fairytale97",
-            "n" : "fairytale57",
-            "s" : "fairytale59"
+            "w" : "fairytale98@fairytale",
+            "e" : "fairytale97@fairytale",
+            "n" : "fairytale57@fairytale",
+            "s" : "fairytale59@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1094,8 +1094,8 @@
       },
       "fairytale84@fairytale" : {
          "exits" : {
-            "u" : "fairytale85",
-            "d" : "fairytale83"
+            "u" : "fairytale85@fairytale",
+            "d" : "fairytale83@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1106,12 +1106,12 @@
       },
       "fairytale48@fairytale" : {
          "exits" : {
-            "w" : "fairytale49",
-            "e" : "fairytale48",
-            "u" : "fairytale46",
-            "n" : "fairytale48",
-            "d" : "fairytale50",
-            "s" : "fairytale47"
+            "w" : "fairytale49@fairytale",
+            "e" : "fairytale48@fairytale",
+            "u" : "fairytale46@fairytale",
+            "n" : "fairytale48@fairytale",
+            "d" : "fairytale50@fairytale",
+            "s" : "fairytale47@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1122,8 +1122,8 @@
       },
       "fairytale131@fairytale" : {
          "exits" : {
-            "w" : "fairytale132",
-            "e" : "fairytale130"
+            "w" : "fairytale132@fairytale",
+            "e" : "fairytale130@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1134,7 +1134,7 @@
       },
       "fairytale117@fairytale" : {
          "exits" : {
-            "n" : "fairytale115"
+            "n" : "fairytale115@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1145,9 +1145,9 @@
       },
       "fairytale105@fairytale" : {
          "exits" : {
-            "w" : "fairytale102",
-            "n" : "fairytale101",
-            "d" : "fairytale109"
+            "w" : "fairytale102@fairytale",
+            "n" : "fairytale101@fairytale",
+            "d" : "fairytale109@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1158,7 +1158,7 @@
       },
       "fairytale36@fairytale" : {
          "exits" : {
-            "d" : "fairytale35"
+            "d" : "fairytale35@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -1171,7 +1171,7 @@
       },
       "fairytale4@fairytale" : {
          "exits" : {
-            "w" : "fairytale3"
+            "w" : "fairytale3@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1182,7 +1182,7 @@
       },
       "fairytale59@fairytale" : {
          "exits" : {
-            "n" : "fairytale58"
+            "n" : "fairytale58@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -1195,10 +1195,10 @@
       },
       "fairytale55@fairytale" : {
          "exits" : {
-            "w" : "fairytale91",
-            "e" : "fairytale89",
-            "n" : "fairytale54",
-            "s" : "fairytale56"
+            "w" : "fairytale91@fairytale",
+            "e" : "fairytale89@fairytale",
+            "n" : "fairytale54@fairytale",
+            "s" : "fairytale56@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1209,8 +1209,8 @@
       },
       "fairytale122@fairytale" : {
          "exits" : {
-            "d" : "fairytale113",
-            "s" : "fairytale123"
+            "d" : "fairytale113@fairytale",
+            "s" : "fairytale123@fairytale"
          },
          "flags" : [
             "Dark"
@@ -1223,8 +1223,8 @@
       },
       "fairytale23@fairytale" : {
          "exits" : {
-            "n" : "fairytale24",
-            "s" : "fairytale22"
+            "n" : "fairytale24@fairytale",
+            "s" : "fairytale22@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1235,8 +1235,8 @@
       },
       "fairytale118@fairytale" : {
          "exits" : {
-            "e" : "fairytale116",
-            "s" : "fairytale119"
+            "e" : "fairytale116@fairytale",
+            "s" : "fairytale119@fairytale"
          },
          "flags" : [
             "Dark"
@@ -1249,7 +1249,7 @@
       },
       "fairytale93@fairytale" : {
          "exits" : {
-            "d" : "fairytale92"
+            "d" : "fairytale92@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -1262,8 +1262,8 @@
       },
       "fairytale104@fairytale" : {
          "exits" : {
-            "w" : "fairytale103",
-            "s" : "fairytale101"
+            "w" : "fairytale103@fairytale",
+            "s" : "fairytale101@fairytale"
          },
          "flags" : [
             "Dark"
@@ -1276,8 +1276,8 @@
       },
       "fairytale35@fairytale" : {
          "exits" : {
-            "u" : "fairytale36",
-            "n" : "^door_window_1"
+            "u" : "fairytale36@fairytale",
+            "n" : "^door_window_1@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1288,8 +1288,8 @@
       },
       "fairytale89@fairytale" : {
          "exits" : {
-            "w" : "fairytale55",
-            "u" : "fairytale90"
+            "w" : "fairytale55@fairytale",
+            "u" : "fairytale90@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1300,8 +1300,8 @@
       },
       "fairytale1@fairytale" : {
          "exits" : {
-            "u" : "fairytale2",
-            "s" : "Gardens@oaktree"
+            "u" : "fairytale2@fairytale",
+            "s" : "gardens@oaktree"
          },
          "flags" : [
             "NoMobiles"
@@ -1314,8 +1314,8 @@
       },
       "fairytale40@fairytale" : {
          "exits" : {
-            "u" : "fairytale41",
-            "d" : "Heaven1@heaven"
+            "u" : "fairytale41@fairytale",
+            "d" : "heaven1@heaven"
          },
          "flags" : [
             "NoMobiles"
@@ -1328,10 +1328,10 @@
       },
       "fairytale9@fairytale" : {
          "exits" : {
-            "w" : "fairytale12",
-            "e" : "fairytale13",
-            "n" : "fairytale10",
-            "s" : "fairytale6"
+            "w" : "fairytale12@fairytale",
+            "e" : "fairytale13@fairytale",
+            "n" : "fairytale10@fairytale",
+            "s" : "fairytale6@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1342,7 +1342,7 @@
       },
       "fairytale53@fairytale" : {
          "exits" : {
-            "s" : "fairytale42"
+            "s" : "fairytale42@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -1355,12 +1355,12 @@
       },
       "fairytale50@fairytale" : {
          "exits" : {
-            "w" : "fairytale48",
-            "e" : "fairytale50",
-            "u" : "fairytale51",
-            "n" : "fairytale47",
-            "d" : "fairytale50",
-            "s" : "fairytale49"
+            "w" : "fairytale48@fairytale",
+            "e" : "fairytale50@fairytale",
+            "u" : "fairytale51@fairytale",
+            "n" : "fairytale47@fairytale",
+            "d" : "fairytale50@fairytale",
+            "s" : "fairytale49@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1371,10 +1371,10 @@
       },
       "fairytale18@fairytale" : {
          "exits" : {
-            "w" : "fairytale17",
-            "e" : "fairytale18",
-            "n" : "fairytale19",
-            "s" : "fairytale18"
+            "w" : "fairytale17@fairytale",
+            "e" : "fairytale18@fairytale",
+            "n" : "fairytale19@fairytale",
+            "s" : "fairytale18@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1385,8 +1385,8 @@
       },
       "fairytale64@fairytale" : {
          "exits" : {
-            "n" : "fairytale65",
-            "s" : "fairytale60"
+            "n" : "fairytale65@fairytale",
+            "s" : "fairytale60@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1397,10 +1397,10 @@
       },
       "fairytale57@fairytale" : {
          "exits" : {
-            "e" : "fairytale96",
-            "w" : "fairytale95",
-            "n" : "fairytale56",
-            "s" : "fairytale58"
+            "e" : "fairytale96@fairytale",
+            "w" : "fairytale95@fairytale",
+            "n" : "fairytale56@fairytale",
+            "s" : "fairytale58@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1411,8 +1411,8 @@
       },
       "fairytale83@fairytale" : {
          "exits" : {
-            "w" : "^door_heavy_1",
-            "u" : "fairytale84"
+            "w" : "^door_heavy_1@fairytale",
+            "u" : "fairytale84@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1423,7 +1423,7 @@
       },
       "fairytale100@fairytale" : {
          "exits" : {
-            "d" : "fairytale137"
+            "d" : "fairytale137@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1434,8 +1434,8 @@
       },
       "fairytale137@fairytale" : {
          "exits" : {
-            "u" : "fairytale100",
-            "d" : "fairytale136"
+            "u" : "fairytale100@fairytale",
+            "d" : "fairytale136@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -1448,10 +1448,10 @@
       },
       "fairytale20@fairytale" : {
          "exits" : {
-            "w" : "fairytale21",
-            "e" : "fairytale20",
-            "n" : "fairytale20",
-            "s" : "fairytale19"
+            "w" : "fairytale21@fairytale",
+            "e" : "fairytale20@fairytale",
+            "n" : "fairytale20@fairytale",
+            "s" : "fairytale19@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1462,7 +1462,7 @@
       },
       "fairytale21@fairytale" : {
          "exits" : {
-            "e" : "fairytale20"
+            "e" : "fairytale20@fairytale"
          },
          "flags" : [
             "NoSummon"
@@ -1475,7 +1475,7 @@
       },
       "fairytale77@fairytale" : {
          "exits" : {
-            "u" : "fairytale76"
+            "u" : "fairytale76@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -1499,8 +1499,8 @@
       },
       "fairytale86@fairytale" : {
          "exits" : {
-            "u" : "fairytale87",
-            "s" : "fairytale85"
+            "u" : "fairytale87@fairytale",
+            "s" : "fairytale85@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1511,7 +1511,7 @@
       },
       "fairytale94@fairytale" : {
          "exits" : {
-            "e" : "fairytale56"
+            "e" : "fairytale56@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -1524,8 +1524,8 @@
       },
       "fairytale116@fairytale" : {
          "exits" : {
-            "w" : "fairytale118",
-            "s" : "fairytale115"
+            "w" : "fairytale118@fairytale",
+            "s" : "fairytale115@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1536,8 +1536,8 @@
       },
       "fairytale39@fairytale" : {
          "exits" : {
-            "u" : "^g_bod_bot",
-            "d" : "fairytale40"
+            "u" : "^g_bod_bot@fairytale",
+            "d" : "fairytale40@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -1550,11 +1550,11 @@
       },
       "fairytale45@fairytale" : {
          "exits" : {
-            "w" : "fairytale45",
-            "e" : "fairytale49",
-            "u" : "fairytale45",
-            "d" : "fairytale44",
-            "s" : "fairytale46"
+            "w" : "fairytale45@fairytale",
+            "e" : "fairytale49@fairytale",
+            "u" : "fairytale45@fairytale",
+            "d" : "fairytale44@fairytale",
+            "s" : "fairytale46@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1565,8 +1565,8 @@
       },
       "fairytale107@fairytale" : {
          "exits" : {
-            "u" : "fairytale113",
-            "s" : "fairytale106"
+            "u" : "fairytale113@fairytale",
+            "s" : "fairytale106@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1577,9 +1577,9 @@
       },
       "fairytale114@fairytale" : {
          "exits" : {
-            "w" : "fairytale115",
-            "n" : "fairytale113",
-            "s" : "fairytale121"
+            "w" : "fairytale115@fairytale",
+            "n" : "fairytale113@fairytale",
+            "s" : "fairytale121@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1590,10 +1590,10 @@
       },
       "fairytale56@fairytale" : {
          "exits" : {
-            "w" : "fairytale94",
-            "e" : "fairytale92",
-            "n" : "fairytale55",
-            "s" : "fairytale57"
+            "w" : "fairytale94@fairytale",
+            "e" : "fairytale92@fairytale",
+            "n" : "fairytale55@fairytale",
+            "s" : "fairytale57@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1604,9 +1604,9 @@
       },
       "fairytale113@fairytale" : {
          "exits" : {
-            "u" : "fairytale122",
-            "d" : "fairytale107",
-            "s" : "fairytale118"
+            "u" : "fairytale122@fairytale",
+            "d" : "fairytale107@fairytale",
+            "s" : "fairytale118@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1617,9 +1617,9 @@
       },
       "fairytale3@fairytale" : {
          "exits" : {
-            "e" : "fairytale4",
-            "u" : "fairytale5",
-            "d" : "fairytale2"
+            "e" : "fairytale4@fairytale",
+            "u" : "fairytale5@fairytale",
+            "d" : "fairytale2@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1630,8 +1630,8 @@
       },
       "fairytale41@fairytale" : {
          "exits" : {
-            "e" : "fairytale42",
-            "d" : "fairytale40"
+            "e" : "fairytale42@fairytale",
+            "d" : "fairytale40@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1642,9 +1642,9 @@
       },
       "fairytale106@fairytale" : {
          "exits" : {
-            "w" : "fairytale101",
-            "n" : "fairytale107",
-            "s" : "fairytale108"
+            "w" : "fairytale101@fairytale",
+            "n" : "fairytale107@fairytale",
+            "s" : "fairytale108@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1655,7 +1655,7 @@
       },
       "fairytale91@fairytale" : {
          "exits" : {
-            "e" : "fairytale55"
+            "e" : "fairytale55@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1666,9 +1666,9 @@
       },
       "fairytale69@fairytale" : {
          "exits" : {
-            "w" : "fairytale67",
-            "n" : "fairytale70",
-            "d" : "fairytale68"
+            "w" : "fairytale67@fairytale",
+            "n" : "fairytale70@fairytale",
+            "d" : "fairytale68@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1679,10 +1679,10 @@
       },
       "fairytale6@fairytale" : {
          "exits" : {
-            "w" : "fairytale7",
-            "e" : "fairytale22",
-            "n" : "fairytale9",
-            "d" : "fairytale5"
+            "w" : "fairytale7@fairytale",
+            "e" : "fairytale22@fairytale",
+            "n" : "fairytale9@fairytale",
+            "d" : "fairytale5@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1704,10 +1704,10 @@
       },
       "fairytale96@fairytale" : {
          "exits" : {
-            "w" : "fairytale57",
-            "e" : "fairytale101",
-            "n" : "fairytale103",
-            "s" : "fairytale102"
+            "w" : "fairytale57@fairytale",
+            "e" : "fairytale101@fairytale",
+            "n" : "fairytale103@fairytale",
+            "s" : "fairytale102@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1718,11 +1718,11 @@
       },
       "fairytale46@fairytale" : {
          "exits" : {
-            "e" : "fairytale48",
-            "u" : "fairytale46",
-            "n" : "fairytale47",
-            "d" : "fairytale45",
-            "s" : "fairytale47"
+            "e" : "fairytale48@fairytale",
+            "u" : "fairytale46@fairytale",
+            "n" : "fairytale47@fairytale",
+            "d" : "fairytale45@fairytale",
+            "s" : "fairytale47@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1745,8 +1745,8 @@
       },
       "fairytale7@fairytale" : {
          "exits" : {
-            "e" : "fairytale6",
-            "u" : "fairytale8"
+            "e" : "fairytale6@fairytale",
+            "u" : "fairytale8@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1757,8 +1757,8 @@
       },
       "fairytale27@fairytale" : {
          "exits" : {
-            "w" : "^null_bridge",
-            "e" : "fairytale28"
+            "w" : "^null_bridge@fairytale",
+            "e" : "fairytale28@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1769,12 +1769,12 @@
       },
       "fairytale51@fairytale" : {
          "exits" : {
-            "w" : "fairytale49",
-            "e" : "fairytale50",
-            "u" : "fairytale52",
-            "n" : "fairytale47",
-            "d" : "fairytale51",
-            "s" : "fairytale51"
+            "w" : "fairytale49@fairytale",
+            "e" : "fairytale50@fairytale",
+            "u" : "fairytale52@fairytale",
+            "n" : "fairytale47@fairytale",
+            "d" : "fairytale51@fairytale",
+            "s" : "fairytale51@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1785,7 +1785,7 @@
       },
       "fairytale8@fairytale" : {
          "exits" : {
-            "d" : "fairytale7"
+            "d" : "fairytale7@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -1798,9 +1798,9 @@
       },
       "fairytale22@fairytale" : {
          "exits" : {
-            "w" : "fairytale6",
-            "e" : "fairytale25",
-            "n" : "fairytale23"
+            "w" : "fairytale6@fairytale",
+            "e" : "fairytale25@fairytale",
+            "n" : "fairytale23@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1811,9 +1811,9 @@
       },
       "fairytale119@fairytale" : {
          "exits" : {
-            "e" : "fairytale115",
-            "n" : "fairytale118",
-            "s" : "fairytale120"
+            "e" : "fairytale115@fairytale",
+            "n" : "fairytale118@fairytale",
+            "s" : "fairytale120@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -1826,8 +1826,8 @@
       },
       "fairytale102@fairytale" : {
          "exits" : {
-            "e" : "fairytale105",
-            "n" : "fairytale96"
+            "e" : "fairytale105@fairytale",
+            "n" : "fairytale96@fairytale"
          },
          "flags" : [
             "Dark"
@@ -1840,8 +1840,8 @@
       },
       "fairytale2@fairytale" : {
          "exits" : {
-            "u" : "fairytale3",
-            "d" : "fairytale1"
+            "u" : "fairytale3@fairytale",
+            "d" : "fairytale1@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1852,8 +1852,8 @@
       },
       "fairytale61@fairytale" : {
          "exits" : {
-            "w" : "fairytale60",
-            "e" : "fairytale62"
+            "w" : "fairytale60@fairytale",
+            "e" : "fairytale62@fairytale"
          },
          "flags" : [
             "OnWater"
@@ -1866,7 +1866,7 @@
       },
       "fairytale112@fairytale" : {
          "exits" : {
-            "e" : "fairytale111"
+            "e" : "fairytale111@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1877,10 +1877,10 @@
       },
       "fairytale44@fairytale" : {
          "exits" : {
-            "w" : "fairytale45",
-            "e" : "fairytale43",
-            "u" : "fairytale44",
-            "d" : "fairytale49"
+            "w" : "fairytale45@fairytale",
+            "e" : "fairytale43@fairytale",
+            "u" : "fairytale44@fairytale",
+            "d" : "fairytale49@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1891,7 +1891,7 @@
       },
       "fairytale126@fairytale" : {
          "exits" : {
-            "w" : "fairytale125"
+            "w" : "fairytale125@fairytale"
          },
          "flags" : [
             "Dark",
@@ -1905,12 +1905,12 @@
       },
       "fairytale70@fairytale" : {
          "exits" : {
-            "w" : "fairytale74",
-            "e" : "fairytale72",
-            "u" : "fairytale69",
-            "n" : "fairytale71",
-            "d" : "fairytale75",
-            "s" : "fairytale73"
+            "w" : "fairytale74@fairytale",
+            "e" : "fairytale72@fairytale",
+            "u" : "fairytale69@fairytale",
+            "n" : "fairytale71@fairytale",
+            "d" : "fairytale75@fairytale",
+            "s" : "fairytale73@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1921,9 +1921,9 @@
       },
       "fairytale125@fairytale" : {
          "exits" : {
-            "e" : "fairytale126",
-            "n" : "fairytale124",
-            "s" : "fairytale128"
+            "e" : "fairytale126@fairytale",
+            "n" : "fairytale124@fairytale",
+            "s" : "fairytale128@fairytale"
          },
          "flags" : [
             "Dark",
@@ -1937,8 +1937,8 @@
       },
       "fairytale38@fairytale" : {
          "exits" : {
-            "w" : "^prison_door_1",
-            "d" : "^g_bod_top"
+            "w" : "^prison_door_1@fairytale",
+            "d" : "^g_bod_top@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1949,8 +1949,8 @@
       },
       "fairytale87@fairytale" : {
          "exits" : {
-            "u" : "fairytale88",
-            "d" : "fairytale86"
+            "u" : "fairytale88@fairytale",
+            "d" : "fairytale86@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1961,8 +1961,8 @@
       },
       "fairytale31@fairytale" : {
          "exits" : {
-            "w" : "^tiny_door",
-            "u" : "fairytale30"
+            "w" : "^tiny_door@fairytale",
+            "u" : "fairytale30@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1973,9 +1973,9 @@
       },
       "fairytale66@fairytale" : {
          "exits" : {
-            "e" : "fairytale67",
-            "n" : "fairytale68",
-            "s" : "fairytale65"
+            "e" : "fairytale67@fairytale",
+            "n" : "fairytale68@fairytale",
+            "s" : "fairytale65@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1986,8 +1986,8 @@
       },
       "fairytale30@fairytale" : {
          "exits" : {
-            "d" : "fairytale31",
-            "s" : "fairytale29"
+            "d" : "fairytale31@fairytale",
+            "s" : "fairytale29@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -1998,8 +1998,8 @@
       },
       "fairytale110@fairytale" : {
          "exits" : {
-            "n" : "fairytale111",
-            "s" : "fairytale109"
+            "n" : "fairytale111@fairytale",
+            "s" : "fairytale109@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2010,8 +2010,8 @@
       },
       "fairytale92@fairytale" : {
          "exits" : {
-            "w" : "fairytale56",
-            "u" : "fairytale93"
+            "w" : "fairytale56@fairytale",
+            "u" : "fairytale93@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2022,7 +2022,7 @@
       },
       "fairytale82@fairytale" : {
          "exits" : {
-            "e" : "^door_heavy"
+            "e" : "^door_heavy@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2035,7 +2035,7 @@
          "exits" : {
             "w" : "fairybook81@fairybook",
             "e" : "fairybook3@fairybook",
-            "n" : "Mansion@oaktree",
+            "n" : "mansion@oaktree",
             "s" : "fairybook106@fairybook"
          },
          "flags" : [
@@ -2049,8 +2049,8 @@
       },
       "fairytale76@fairytale" : {
          "exits" : {
-            "w" : "fairytale75",
-            "d" : "fairytale77"
+            "w" : "fairytale75@fairytale",
+            "d" : "fairytale77@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2061,7 +2061,7 @@
       },
       "fairytale98@fairytale" : {
          "exits" : {
-            "e" : "fairytale58"
+            "e" : "fairytale58@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2072,7 +2072,7 @@
       },
       "fairytale120@fairytale" : {
          "exits" : {
-            "n" : "fairytale119"
+            "n" : "fairytale119@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -2085,8 +2085,8 @@
       },
       "fairytale103@fairytale" : {
          "exits" : {
-            "e" : "fairytale104",
-            "s" : "fairytale96"
+            "e" : "fairytale104@fairytale",
+            "s" : "fairytale96@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2097,8 +2097,8 @@
       },
       "fairytale128@fairytale" : {
          "exits" : {
-            "w" : "fairytale126",
-            "e" : "fairytale127"
+            "w" : "fairytale126@fairytale",
+            "e" : "fairytale127@fairytale"
          },
          "flags" : [
             "Dark"
@@ -2111,8 +2111,8 @@
       },
       "fairytale109@fairytale" : {
          "exits" : {
-            "u" : "fairytale105",
-            "n" : "fairytale110"
+            "u" : "fairytale105@fairytale",
+            "n" : "fairytale110@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2123,8 +2123,8 @@
       },
       "fairytale13@fairytale" : {
          "exits" : {
-            "w" : "fairytale9",
-            "n" : "fairytale14"
+            "w" : "fairytale9@fairytale",
+            "n" : "fairytale14@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2135,8 +2135,8 @@
       },
       "fairytale88@fairytale" : {
          "exits" : {
-            "u" : "Den@oaktree",
-            "d" : "fairytale87"
+            "u" : "den@oaktree",
+            "d" : "fairytale87@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2147,10 +2147,10 @@
       },
       "fairytale101@fairytale" : {
          "exits" : {
-            "w" : "fairytale96",
-            "e" : "fairytale106",
-            "n" : "fairytale104",
-            "s" : "fairytale105"
+            "w" : "fairytale96@fairytale",
+            "e" : "fairytale106@fairytale",
+            "n" : "fairytale104@fairytale",
+            "s" : "fairytale105@fairytale"
          },
          "flags" : [
             "Dark"
@@ -2163,8 +2163,8 @@
       },
       "fairytale134@fairytale" : {
          "exits" : {
-            "e" : "fairytale135",
-            "s" : "fairytale133"
+            "e" : "fairytale135@fairytale",
+            "s" : "fairytale133@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2175,10 +2175,10 @@
       },
       "fairytale19@fairytale" : {
          "exits" : {
-            "w" : "fairytale19",
-            "e" : "fairytale19",
-            "n" : "fairytale18",
-            "s" : "fairytale20"
+            "w" : "fairytale19@fairytale",
+            "e" : "fairytale19@fairytale",
+            "n" : "fairytale18@fairytale",
+            "s" : "fairytale20@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2189,10 +2189,10 @@
       },
       "fairytale54@fairytale" : {
          "exits" : {
-            "w" : "fairytale34",
-            "e" : "fairytale60",
-            "n" : "fairytale42",
-            "s" : "fairytale55"
+            "w" : "fairytale34@fairytale",
+            "e" : "fairytale60@fairytale",
+            "n" : "fairytale42@fairytale",
+            "s" : "fairytale55@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2203,8 +2203,8 @@
       },
       "fairytale108@fairytale" : {
          "exits" : {
-            "u" : "fairytale121",
-            "n" : "fairytale106"
+            "u" : "fairytale121@fairytale",
+            "n" : "fairytale106@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -2217,10 +2217,10 @@
       },
       "fairytale14@fairytale" : {
          "exits" : {
-            "w" : "fairytale14",
-            "e" : "fairytale15",
-            "n" : "fairytale14",
-            "s" : "fairytale13"
+            "w" : "fairytale14@fairytale",
+            "e" : "fairytale15@fairytale",
+            "n" : "fairytale14@fairytale",
+            "s" : "fairytale13@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2242,7 +2242,7 @@
       },
       "fairytale97@fairytale" : {
          "exits" : {
-            "w" : "fairytale58"
+            "w" : "fairytale58@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -2255,9 +2255,9 @@
       },
       "fairytale60@fairytale" : {
          "exits" : {
-            "w" : "fairytale54",
-            "e" : "fairytale61",
-            "n" : "fairytale64"
+            "w" : "fairytale54@fairytale",
+            "e" : "fairytale61@fairytale",
+            "n" : "fairytale64@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2268,10 +2268,10 @@
       },
       "fairytale16@fairytale" : {
          "exits" : {
-            "w" : "fairytale16",
-            "e" : "fairytale16",
-            "n" : "fairytale15",
-            "s" : "fairytale17"
+            "w" : "fairytale16@fairytale",
+            "e" : "fairytale16@fairytale",
+            "n" : "fairytale15@fairytale",
+            "s" : "fairytale17@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2282,7 +2282,7 @@
       },
       "fairytale95@fairytale" : {
          "exits" : {
-            "e" : "fairytale57"
+            "e" : "fairytale57@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -2295,8 +2295,8 @@
       },
       "fairytale124@fairytale" : {
          "exits" : {
-            "e" : "fairytale123",
-            "s" : "fairytale125"
+            "e" : "fairytale123@fairytale",
+            "s" : "fairytale125@fairytale"
          },
          "flags" : [
             "Dark"
@@ -2309,11 +2309,11 @@
       },
       "fairytale42@fairytale" : {
          "exits" : {
-            "w" : "fairytale41",
-            "e" : "fairytale78",
-            "u" : "fairytale43",
-            "n" : "fairytale53",
-            "s" : "fairytale54"
+            "w" : "fairytale41@fairytale",
+            "e" : "fairytale78@fairytale",
+            "u" : "fairytale43@fairytale",
+            "n" : "fairytale53@fairytale",
+            "s" : "fairytale54@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2324,8 +2324,8 @@
       },
       "fairytale129@fairytale" : {
          "exits" : {
-            "u" : "fairytale130",
-            "n" : "fairytale127"
+            "u" : "fairytale130@fairytale",
+            "n" : "fairytale127@fairytale"
          },
          "flags" : [
             "Dark"
@@ -2338,10 +2338,10 @@
       },
       "fairytale17@fairytale" : {
          "exits" : {
-            "w" : "fairytale16",
-            "e" : "fairytale18",
-            "n" : "fairytale17",
-            "s" : "fairytale17"
+            "w" : "fairytale16@fairytale",
+            "e" : "fairytale18@fairytale",
+            "n" : "fairytale17@fairytale",
+            "s" : "fairytale17@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2352,8 +2352,8 @@
       },
       "fairytale65@fairytale" : {
          "exits" : {
-            "n" : "fairytale66",
-            "s" : "fairytale64"
+            "n" : "fairytale66@fairytale",
+            "s" : "fairytale64@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2364,9 +2364,9 @@
       },
       "fairytale33@fairytale" : {
          "exits" : {
-            "w" : "fairytale29",
-            "e" : "fairytale37",
-            "s" : "^door_window"
+            "w" : "fairytale29@fairytale",
+            "e" : "fairytale37@fairytale",
+            "s" : "^door_window@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2377,8 +2377,8 @@
       },
       "fairytale5@fairytale" : {
          "exits" : {
-            "u" : "fairytale6",
-            "d" : "fairytale3"
+            "u" : "fairytale6@fairytale",
+            "d" : "fairytale3@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2389,8 +2389,8 @@
       },
       "fairytale62@fairytale" : {
          "exits" : {
-            "w" : "fairytale61",
-            "e" : "fairytale63"
+            "w" : "fairytale61@fairytale",
+            "e" : "fairytale63@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2412,12 +2412,12 @@
       },
       "fairytale43@fairytale" : {
          "exits" : {
-            "w" : "fairytale43",
-            "e" : "fairytale47",
-            "u" : "fairytale44",
-            "n" : "fairytale43",
-            "d" : "fairytale42",
-            "s" : "fairytale49"
+            "w" : "fairytale43@fairytale",
+            "e" : "fairytale47@fairytale",
+            "u" : "fairytale44@fairytale",
+            "n" : "fairytale43@fairytale",
+            "d" : "fairytale42@fairytale",
+            "s" : "fairytale49@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2428,8 +2428,8 @@
       },
       "fairytale111@fairytale" : {
          "exits" : {
-            "w" : "fairytale112",
-            "s" : "fairytale110"
+            "w" : "fairytale112@fairytale",
+            "s" : "fairytale110@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2440,8 +2440,8 @@
       },
       "fairytale132@fairytale" : {
          "exits" : {
-            "e" : "fairytale131",
-            "n" : "fairytale133"
+            "e" : "fairytale131@fairytale",
+            "n" : "fairytale133@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2452,7 +2452,7 @@
       },
       "fairytale73@fairytale" : {
          "exits" : {
-            "n" : "fairytale70"
+            "n" : "fairytale70@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -2465,7 +2465,7 @@
       },
       "fairytale32@fairytale" : {
          "exits" : {
-            "e" : "^tiny_door_1"
+            "e" : "^tiny_door_1@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2476,10 +2476,10 @@
       },
       "fairytale115@fairytale" : {
          "exits" : {
-            "w" : "fairytale119",
-            "e" : "fairytale114",
-            "n" : "fairytale116",
-            "s" : "fairytale117"
+            "w" : "fairytale119@fairytale",
+            "e" : "fairytale114@fairytale",
+            "n" : "fairytale116@fairytale",
+            "s" : "fairytale117@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2490,7 +2490,7 @@
       },
       "fairytale72@fairytale" : {
          "exits" : {
-            "w" : "fairytale70"
+            "w" : "fairytale70@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2501,8 +2501,8 @@
       },
       "fairytale28@fairytale" : {
          "exits" : {
-            "w" : "fairytale27",
-            "e" : "fairytale29"
+            "w" : "fairytale27@fairytale",
+            "e" : "fairytale29@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2513,8 +2513,8 @@
       },
       "fairytale10@fairytale" : {
          "exits" : {
-            "n" : "fairytale11",
-            "s" : "fairytale9"
+            "n" : "fairytale11@fairytale",
+            "s" : "fairytale9@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2525,9 +2525,9 @@
       },
       "fairytale29@fairytale" : {
          "exits" : {
-            "w" : "fairytale28",
-            "e" : "fairytale33",
-            "n" : "fairytale30"
+            "w" : "fairytale28@fairytale",
+            "e" : "fairytale33@fairytale",
+            "n" : "fairytale30@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2538,8 +2538,8 @@
       },
       "fairytale85@fairytale" : {
          "exits" : {
-            "n" : "fairytale86",
-            "d" : "fairytale84"
+            "n" : "fairytale86@fairytale",
+            "d" : "fairytale84@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2550,9 +2550,9 @@
       },
       "fairytale121@fairytale" : {
          "exits" : {
-            "u" : "fairytale129",
-            "n" : "fairytale114",
-            "d" : "fairytale108"
+            "u" : "fairytale129@fairytale",
+            "n" : "fairytale114@fairytale",
+            "d" : "fairytale108@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2563,7 +2563,7 @@
       },
       "fairytale90@fairytale" : {
          "exits" : {
-            "d" : "fairytale89"
+            "d" : "fairytale89@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -2576,7 +2576,7 @@
       },
       "fairytale63@fairytale" : {
          "exits" : {
-            "w" : "fairytale62"
+            "w" : "fairytale62@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -2589,7 +2589,7 @@
       },
       "fairytale74@fairytale" : {
          "exits" : {
-            "e" : "fairytale70"
+            "e" : "fairytale70@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2600,7 +2600,7 @@
       },
       "fairytale11@fairytale" : {
          "exits" : {
-            "s" : "fairytale10"
+            "s" : "fairytale10@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -2613,8 +2613,8 @@
       },
       "fairytale123@fairytale" : {
          "exits" : {
-            "w" : "fairytale124",
-            "e" : "fairytale122"
+            "w" : "fairytale124@fairytale",
+            "e" : "fairytale122@fairytale"
          },
          "flags" : [
             "Dark"
@@ -2627,7 +2627,7 @@
       },
       "fairytale24@fairytale" : {
          "exits" : {
-            "s" : "fairytale23"
+            "s" : "fairytale23@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -2640,8 +2640,8 @@
       },
       "fairytale127@fairytale" : {
          "exits" : {
-            "w" : "fairytale128",
-            "e" : "fairytale129"
+            "w" : "fairytale128@fairytale",
+            "e" : "fairytale129@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2652,7 +2652,7 @@
       },
       "fairytale34@fairytale" : {
          "exits" : {
-            "e" : "fairytale54"
+            "e" : "fairytale54@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2663,9 +2663,9 @@
       },
       "fairytale67@fairytale" : {
          "exits" : {
-            "w" : "fairytale66",
-            "e" : "fairytale69",
-            "d" : "fairytale68"
+            "w" : "fairytale66@fairytale",
+            "e" : "fairytale69@fairytale",
+            "d" : "fairytale68@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2676,8 +2676,8 @@
       },
       "fairytale135@fairytale" : {
          "exits" : {
-            "w" : "fairytale134",
-            "n" : "^steam_pipe"
+            "w" : "fairytale134@fairytale",
+            "n" : "^steam_pipe@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2688,8 +2688,8 @@
       },
       "fairytale133@fairytale" : {
          "exits" : {
-            "n" : "fairytale134",
-            "s" : "fairytale132"
+            "n" : "fairytale134@fairytale",
+            "s" : "fairytale132@fairytale"
          },
          "flags" : [],
          "zone" : "fairytale",
@@ -2700,8 +2700,8 @@
       },
       "fairytale78@fairytale" : {
          "exits" : {
-            "w" : "fairytale42",
-            "d" : "fairytale80"
+            "w" : "fairytale42@fairytale",
+            "d" : "fairytale80@fairytale"
          },
          "flags" : [
             "NoMobiles"
@@ -2716,7 +2716,7 @@
    "mob" : {
       "operator@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale10",
+         "location" : "fairytale10@fairytale",
          "speed" : "0",
          "aggression" : "25",
          "armor" : "0",
@@ -2727,7 +2727,7 @@
       },
       "burning@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale29",
+         "location" : "fairytale29@fairytale",
          "speed" : "0",
          "aggression" : "30",
          "armor" : "0",
@@ -2738,7 +2738,7 @@
       },
       "trog@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale71",
+         "location" : "fairytale71@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -2749,7 +2749,7 @@
       },
       "cockroach@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale6",
+         "location" : "fairytale6@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -2760,7 +2760,7 @@
       },
       "exterminator@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale2",
+         "location" : "fairytale2@fairytale",
          "speed" : "2",
          "aggression" : "3",
          "armor" : "0",
@@ -2771,7 +2771,7 @@
       },
       "proprietor@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale59",
+         "location" : "fairytale59@fairytale",
          "speed" : "0",
          "aggression" : "34",
          "armor" : "0",
@@ -2782,7 +2782,7 @@
       },
       "porridge@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale4",
+         "location" : "fairytale4@fairytale",
          "armor" : "0",
          "name" : "porridge",
          "description" : "A bowl of porridge rests on the table.",
@@ -2796,7 +2796,7 @@
       },
       "golden@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale36",
+         "location" : "fairytale36@fairytale",
          "armor" : "0",
          "name" : "golden",
          "description" : "The Golden Goose flies about angrily, protecting her eggs.",
@@ -2813,7 +2813,7 @@
       },
       "big@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale38",
+         "location" : "fairytale38@fairytale",
          "armor" : "0",
          "name" : "big",
          "examine" : "Fight him?!?  Are you nuts?",
@@ -2828,7 +2828,7 @@
       },
       "fatman@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale9",
+         "location" : "fairytale9@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -2839,7 +2839,7 @@
       },
       "hubbard@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale94",
+         "location" : "fairytale94@fairytale",
          "armor" : "0",
          "name" : "hubbard",
          "description" : "Mother Hubbard searches the cupboard for a bone.",
@@ -2853,7 +2853,7 @@
       },
       "mantis@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale7",
+         "location" : "fairytale7@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -2864,7 +2864,7 @@
       },
       "bearded@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale9",
+         "location" : "fairytale9@fairytale",
          "armor" : "0",
          "name" : "bearded",
          "description" : "A bearded woman laughs, pointing at you.",
@@ -2878,7 +2878,7 @@
       },
       "aphid@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale4",
+         "location" : "fairytale4@fairytale",
          "speed" : "0",
          "aggression" : "25",
          "armor" : "0",
@@ -2889,7 +2889,7 @@
       },
       "cloud@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale24",
+         "location" : "fairytale24@fairytale",
          "speed" : "0",
          "aggression" : "18",
          "armor" : "0",
@@ -2900,7 +2900,7 @@
       },
       "momma@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale92",
+         "location" : "fairytale92@fairytale",
          "armor" : "0",
          "name" : "momma",
          "description" : "Momma Bear hides behind her husband.",
@@ -2914,7 +2914,7 @@
       },
       "girl@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale42",
+         "location" : "fairytale42@fairytale",
          "armor" : "0",
          "name" : "girl",
          "description" : "A girl sits on one end of the see-saw, playing with dolls.",
@@ -2928,7 +2928,7 @@
       },
       "reflection@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale21",
+         "location" : "fairytale21@fairytale",
          "armor" : "0",
          "name" : "reflection",
          "examine" : "Uh oh, that looks like a demonic version of yourself!",
@@ -2946,7 +2946,7 @@
       },
       "monkey@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale45",
+         "location" : "fairytale45@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -2957,7 +2957,7 @@
       },
       "piggy@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale55",
+         "location" : "fairytale55@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -2968,7 +2968,7 @@
       },
       "young@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale42",
+         "location" : "fairytale42@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -2979,7 +2979,7 @@
       },
       "burrower@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale71",
+         "location" : "fairytale71@fairytale",
          "speed" : "2",
          "aggression" : "1",
          "armor" : "0",
@@ -2990,7 +2990,7 @@
       },
       "godmother@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale89",
+         "location" : "fairytale89@fairytale",
          "armor" : "0",
          "name" : "godmother",
          "description" : "Your Fairy Godmother is here, awaiting your command.",
@@ -3004,7 +3004,7 @@
       },
       "piglet@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale55",
+         "location" : "fairytale55@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -3015,7 +3015,7 @@
       },
       "musician@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale41",
+         "location" : "fairytale41@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -3026,7 +3026,7 @@
       },
       "spider@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale7",
+         "location" : "fairytale7@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -3037,7 +3037,7 @@
       },
       "hawker@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale9",
+         "location" : "fairytale9@fairytale",
          "speed" : "0",
          "aggression" : "25",
          "armor" : "0",
@@ -3048,7 +3048,7 @@
       },
       "fish@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale61",
+         "location" : "fairytale61@fairytale",
          "armor" : "0",
          "name" : "fish",
          "description" : "A fish rises out of the water and spits at you!",
@@ -3062,7 +3062,7 @@
       },
       "ladybug@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale7",
+         "location" : "fairytale7@fairytale",
          "armor" : "0",
          "name" : "ladybug",
          "description" : "A huge ladybug walks peacefully past you.",
@@ -3076,7 +3076,7 @@
       },
       "trogdylite@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale71",
+         "location" : "fairytale71@fairytale",
          "speed" : "2",
          "aggression" : "1",
          "armor" : "0",
@@ -3102,7 +3102,7 @@
       },
       "poppa@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale92",
+         "location" : "fairytale92@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -3113,7 +3113,7 @@
       },
       "kidder@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale42",
+         "location" : "fairytale42@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -3124,7 +3124,7 @@
       },
       "horsefly@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale7",
+         "location" : "fairytale7@fairytale",
          "armor" : "0",
          "name" : "horsefly",
          "description" : "A horsefly buzzes around your head, looking for a place to land.",
@@ -3138,7 +3138,7 @@
       },
       "baby@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale92",
+         "location" : "fairytale92@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -3149,7 +3149,7 @@
       },
       "storm@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale28",
+         "location" : "fairytale28@fairytale",
          "speed" : "0",
          "aggression" : "30",
          "armor" : "0",
@@ -3160,7 +3160,7 @@
       },
       "adolescent@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale42",
+         "location" : "fairytale42@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -3171,7 +3171,7 @@
       },
       "roc@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale4",
+         "location" : "fairytale4@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -3182,7 +3182,7 @@
       },
       "ice@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale28",
+         "location" : "fairytale28@fairytale",
          "speed" : "0",
          "aggression" : "30",
          "armor" : "0",
@@ -3193,7 +3193,7 @@
       },
       "boyeee@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale42",
+         "location" : "fairytale42@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -3204,7 +3204,7 @@
       },
       "bumblebee@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale8",
+         "location" : "fairytale8@fairytale",
          "armor" : "0",
          "name" : "bumblebee",
          "description" : "A bee buzzes gently here, poison dripping from its stinger.",
@@ -3218,7 +3218,7 @@
       },
       "sprite@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale4",
+         "location" : "fairytale4@fairytale",
          "armor" : "0",
          "name" : "sprite",
          "description" : "The sprite dances in the moonlight, eyeing you warily.",
@@ -3235,7 +3235,7 @@
       },
       "rug@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale85",
+         "location" : "fairytale85@fairytale",
          "armor" : "0",
          "name" : "rug",
          "description" : "Suddenly, the rug comes to life!",
@@ -3252,7 +3252,7 @@
       },
       "clown@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale9",
+         "location" : "fairytale9@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -3263,7 +3263,7 @@
       },
       "oldman@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale32",
+         "location" : "fairytale32@fairytale",
          "speed" : "0",
          "aggression" : "25",
          "armor" : "0",
@@ -3274,7 +3274,7 @@
       },
       "cinderella@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale55",
+         "location" : "fairytale55@fairytale",
          "armor" : "0",
          "name" : "cinderella",
          "description" : "Cinderella stands before you, dressed for the Hunt.",
@@ -3288,7 +3288,7 @@
       },
       "pig@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale55",
+         "location" : "fairytale55@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -3299,7 +3299,7 @@
       },
       "philip@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale63",
+         "location" : "fairytale63@fairytale",
          "pname" : "Prince Philip",
          "name" : "Philip",
          "examine" : "\nHis state of grief appears to have overcome the rage that has taken\nover the rest of Fairyville. He looks charming, if he weren't in sadness.\n",
@@ -3311,7 +3311,7 @@
       },
       "dog@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale94",
+         "location" : "fairytale94@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",
@@ -3322,7 +3322,7 @@
       },
       "child@fairytale" : {
          "damage" : "10",
-         "location" : "fairytale42",
+         "location" : "fairytale42@fairytale",
          "speed" : "2",
          "aggression" : "25",
          "armor" : "0",

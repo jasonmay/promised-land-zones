@@ -1,7 +1,7 @@
 {
    "obj" : {
       "pillow@marriage" : {
-         "location" : "CARRIED_BY:ring_bearer",
+         "location" : "CARRIED_BY:ring_bearer@marriage",
          "weight" : "0",
          "oflags" : [
             "Container"
@@ -29,7 +29,7 @@
    "mob" : {
       "preacher@marriage" : {
          "damage" : "0",
-         "location" : "marriage1",
+         "location" : "marriage1@marriage",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -39,7 +39,7 @@
       },
       "ring_bearer@marriage" : {
          "damage" : "0",
-         "location" : "marriage1",
+         "location" : "marriage1@marriage",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",

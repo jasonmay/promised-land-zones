@@ -2,7 +2,7 @@
    "obj" : {
       "pick@quarry" : {
          "damage" : "10",
-         "location" : "IN_ROOM:store",
+         "location" : "IN_ROOM:store@quarry",
          "oflags" : [
             "Weapon"
          ],
@@ -14,7 +14,7 @@
          "desc[0]" : "An old pick has been dumped here."
       },
       "gem@quarry" : {
-         "location" : "IN_ROOM:south",
+         "location" : "IN_ROOM:south@quarry",
          "oflags" : [
             "Destroyed"
          ],
@@ -27,7 +27,7 @@
          "desc[0]" : "A small, uncut gem lies before you."
       },
       "nugget1@quarry" : {
-         "location" : "IN_ROOM:n_face",
+         "location" : "IN_ROOM:n_face@quarry",
          "altname" : "gold",
          "name" : "Nugget1",
          "examine" : "It's just a large gold nugget, shaped like a rock.",
@@ -38,7 +38,7 @@
          "desc[0]" : "A large gold nugget twinkles before you."
       },
       "nugget@quarry" : {
-         "location" : "IN_ROOM:r_face",
+         "location" : "IN_ROOM:r_face@quarry",
          "weight" : "5",
          "altname" : "gold",
          "name" : "nugget",
@@ -48,7 +48,7 @@
          "size" : "1"
       },
       "rock@quarry" : {
-         "location" : "IN_ROOM:south",
+         "location" : "IN_ROOM:south@quarry",
          "weight" : "1",
          "name" : "rock",
          "examine" : "\nThe rock appears to have some kind of gemstone imprisoned within it.  If only\nyou could find a suitable tool to smash the rock with.",
@@ -57,7 +57,7 @@
          "size" : "1"
       },
       "ale@quarry" : {
-         "location" : "IN_ROOM:store",
+         "location" : "IN_ROOM:store@quarry",
          "oflags" : [
             "Food",
             "Alcohol"
@@ -71,7 +71,7 @@
          "desc[0]" : "A skin of ale has been dropped here."
       },
       "golddust@quarry" : {
-         "location" : "IN_ROOM:end",
+         "location" : "IN_ROOM:end@quarry",
          "weight" : "5",
          "altname" : "dust",
          "name" : "golddust",
@@ -82,7 +82,7 @@
       },
       "hammer@quarry" : {
          "damage" : "5",
-         "location" : "IN_ROOM:north",
+         "location" : "IN_ROOM:north@quarry",
          "oflags" : [
             "Weapon"
          ],
@@ -94,7 +94,7 @@
          "desc[0]" : "A large hammer has been left around here for some reason."
       },
       "sandwich@quarry" : {
-         "location" : "IN_ROOM:store",
+         "location" : "IN_ROOM:store@quarry",
          "oflags" : [
             "Food"
          ],
@@ -110,9 +110,9 @@
    "loc" : {
       "drop@quarry" : {
          "exits" : {
-            "w" : "r_land@Blizzard",
-            "e" : "South",
-            "d" : "South"
+            "w" : "r_land@blizzard",
+            "e" : "south@quarry",
+            "d" : "south@quarry"
          },
          "flags" : [],
          "zone" : "quarry",
@@ -123,8 +123,8 @@
       },
       "tunnel@quarry" : {
          "exits" : {
-            "w" : "South",
-            "d" : "Ladder_UU"
+            "w" : "south@quarry",
+            "d" : "ladder_uu@quarry"
          },
          "flags" : [
             "NoMobiles"
@@ -137,9 +137,9 @@
       },
       "ladder_uu@quarry" : {
          "exits" : {
-            "e" : "End",
-            "u" : "Tunnel",
-            "d" : "Ladder_UD"
+            "e" : "end@quarry",
+            "u" : "tunnel@quarry",
+            "d" : "ladder_ud@quarry"
          },
          "flags" : [
             "Dark"
@@ -163,8 +163,8 @@
       },
       "north@quarry" : {
          "exits" : {
-            "e" : "Store",
-            "s" : "South"
+            "e" : "store@quarry",
+            "s" : "south@quarry"
          },
          "flags" : [],
          "zone" : "quarry",
@@ -175,8 +175,8 @@
       },
       "ladder_ud@quarry" : {
          "exits" : {
-            "e" : "Mine_T",
-            "u" : "Ladder_UU"
+            "e" : "mine_t@quarry",
+            "u" : "ladder_uu@quarry"
          },
          "flags" : [
             "Dark"
@@ -189,7 +189,7 @@
       },
       "r_face@quarry" : {
          "exits" : {
-            "w" : "Ledge"
+            "w" : "ledge@quarry"
          },
          "flags" : [
             "Dark"
@@ -202,7 +202,7 @@
       },
       "store@quarry" : {
          "exits" : {
-            "w" : "North"
+            "w" : "north@quarry"
          },
          "flags" : [],
          "zone" : "quarry",
@@ -213,7 +213,7 @@
       },
       "end@quarry" : {
          "exits" : {
-            "w" : "Ladder_UU"
+            "w" : "ladder_uu@quarry"
          },
          "flags" : [
             "Dark"
@@ -226,9 +226,9 @@
       },
       "ledge@quarry" : {
          "exits" : {
-            "e" : "R_Face",
-            "u" : "Ladder_D1",
-            "d" : "Ladder_D2"
+            "e" : "r_face@quarry",
+            "u" : "ladder_d1@quarry",
+            "d" : "ladder_d2@quarry"
          },
          "flags" : [
             "Dark"
@@ -241,8 +241,8 @@
       },
       "ladder_d3@quarry" : {
          "exits" : {
-            "u" : "Ladder_D2",
-            "d" : "Ladder_D4"
+            "u" : "ladder_d2@quarry",
+            "d" : "ladder_d4@quarry"
          },
          "flags" : [
             "Dark"
@@ -255,8 +255,8 @@
       },
       "ladder_d2@quarry" : {
          "exits" : {
-            "u" : "Ledge",
-            "d" : "Ladder_D3"
+            "u" : "ledge@quarry",
+            "d" : "ladder_d3@quarry"
          },
          "flags" : [
             "Dark"
@@ -269,10 +269,10 @@
       },
       "south@quarry" : {
          "exits" : {
-            "w" : "Drop",
-            "e" : "Tunnel",
-            "u" : "Drop",
-            "n" : "North"
+            "w" : "drop@quarry",
+            "e" : "tunnel@quarry",
+            "u" : "drop@quarry",
+            "n" : "north@quarry"
          },
          "flags" : [],
          "zone" : "quarry",
@@ -283,8 +283,8 @@
       },
       "ladder_d4@quarry" : {
          "exits" : {
-            "u" : "Ladder_D3",
-            "d" : "Bottom"
+            "u" : "ladder_d3@quarry",
+            "d" : "bottom@quarry"
          },
          "flags" : [
             "Dark"
@@ -297,8 +297,8 @@
       },
       "ladder_d1@quarry" : {
          "exits" : {
-            "u" : "Mine_T",
-            "d" : "Ledge"
+            "u" : "mine_t@quarry",
+            "d" : "ledge@quarry"
          },
          "flags" : [
             "Dark"
@@ -311,8 +311,8 @@
       },
       "mine_t@quarry" : {
          "exits" : {
-            "w" : "Ladder_UD",
-            "d" : "Ladder_D1"
+            "w" : "ladder_ud@quarry",
+            "d" : "ladder_d1@quarry"
          },
          "flags" : [
             "Dark"
@@ -325,7 +325,7 @@
       },
       "n_face@quarry" : {
          "exits" : {
-            "e" : "Bottom"
+            "e" : "bottom@quarry"
          },
          "flags" : [
             "Dark"
@@ -339,9 +339,9 @@
       "bottom@quarry" : {
          "exits" : {
             "e" : "bishop1@bishop",
-            "w" : "N_Face",
-            "u" : "Ladder_D4",
-            "d" : "Mine"
+            "w" : "n_face@quarry",
+            "u" : "ladder_d4@quarry",
+            "d" : "mine@quarry"
          },
          "flags" : [
             "Dark"

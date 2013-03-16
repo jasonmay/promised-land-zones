@@ -2,7 +2,7 @@
    "obj" : {
       "rose@mountain" : {
          "desc[1]" : "\nAn extremely beautiful white desert rose peeks out of the flower mat.",
-         "location" : "IN_ROOM:Mou6",
+         "location" : "IN_ROOM:mou6@mountain",
          "oflags" : [
             "GetFlips"
          ],
@@ -18,7 +18,7 @@
       },
       "skull@mountain" : {
          "desc[1]" : "\nA bleached skull of ox reminds you about your fate, if you stay here for long.",
-         "location" : "IN_ROOM:Mou3",
+         "location" : "IN_ROOM:mou3@mountain",
          "oflags" : [
             "GetFlips"
          ],
@@ -35,8 +35,8 @@
    "loc" : {
       "mou4@mountain" : {
          "exits" : {
-            "e" : "Mou5",
-            "w" : "Mou3"
+            "e" : "mou5@mountain",
+            "w" : "mou3@mountain"
          },
          "flags" : [
             "Outdoors"
@@ -49,8 +49,8 @@
       },
       "mou6@mountain" : {
          "exits" : {
-            "e" : "Mou3",
-            "s" : "desertSD00@sdesert"
+            "e" : "mou3@mountain",
+            "s" : "desertsd00@sdesert"
          },
          "flags" : [
             "OutDoors",
@@ -65,8 +65,8 @@
       },
       "mou2@mountain" : {
          "exits" : {
-            "n" : "Mou1",
-            "s" : "Mou3"
+            "n" : "mou1@mountain",
+            "s" : "mou3@mountain"
          },
          "flags" : [
             "OutDoors"
@@ -79,8 +79,8 @@
       },
       "mou5@mountain" : {
          "exits" : {
-            "e" : "Anc24@Ancient",
-            "w" : "Mou4"
+            "e" : "anc24@ancient",
+            "w" : "mou4@mountain"
          },
          "flags" : [
             "Outdoors",
@@ -94,9 +94,9 @@
       },
       "mou3@mountain" : {
          "exits" : {
-            "w" : "Mou6",
-            "e" : "Mou4",
-            "n" : "Mou2"
+            "w" : "mou6@mountain",
+            "e" : "mou4@mountain",
+            "n" : "mou2@mountain"
          },
          "flags" : [
             "Outdoors"
@@ -110,7 +110,7 @@
       "mou1@mountain" : {
          "exits" : {
             "n" : "shady@blizzard",
-            "s" : "Mou2"
+            "s" : "mou2@mountain"
          },
          "flags" : [
             "OutDoors",
@@ -126,7 +126,7 @@
    "mob" : {
       "vulture@mountain" : {
          "damage" : "10",
-         "location" : "Mou6",
+         "location" : "mou6@mountain",
          "armor" : "0",
          "name" : "vulture",
          "description" : "A vulture is hovering above you searching for prey.",

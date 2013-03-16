@@ -1,7 +1,7 @@
 {
    "obj" : {
       "red_dress@limbo" : {
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "oflags" : [
             "Wearable"
          ],
@@ -18,7 +18,7 @@
          "desc[0]" : "A beautiful, red dress has been carefully folded here."
       },
       "yellow_dress@limbo" : {
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "oflags" : [
             "Wearable"
          ],
@@ -35,7 +35,7 @@
          "desc[0]" : "A yellow dress covered with small flowers has been left here."
       },
       "reset@limbo" : {
-         "location" : "IN_ROOM:Limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "weight" : "1",
          "name" : "reset",
          "examine" : "\nReset in progress....\nReset Completed....\n>\nA voice shouts 'Who the hell reset the game???????'\n\n",
@@ -44,7 +44,7 @@
          "size" : "1"
       },
       "tuxedo_5@limbo" : {
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "oflags" : [
             "Wearable"
          ],
@@ -80,7 +80,7 @@
          "desc[0]" : "A bulletin board hangs on the wall here."
       },
       "tuxedo_4@limbo" : {
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "oflags" : [
             "Wearable"
          ],
@@ -97,7 +97,7 @@
       },
       "rope@limbo" : {
          "desc[1]" : "A rope has been coiled here.",
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "oflags" : [
             "Destroyed"
          ],
@@ -109,7 +109,7 @@
          "desc[0]" : "A coiled rope ladder lies here."
       },
       "tuxedo_1@limbo" : {
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "oflags" : [
             "Wearable"
          ],
@@ -125,7 +125,7 @@
          ]
       },
       "white_gown@limbo" : {
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "oflags" : [
             "Wearable"
          ],
@@ -152,7 +152,7 @@
          "desc[0]" : "A bulletin board hangs on the wall here."
       },
       "blue_dress@limbo" : {
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "oflags" : [
             "Wearable"
          ],
@@ -169,7 +169,7 @@
          "desc[0]" : "A dress with the same blue colour as summer nights, has been left here."
       },
       "tuxedo_2@limbo" : {
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "oflags" : [
             "Wearable"
          ],
@@ -185,7 +185,7 @@
          ]
       },
       "green_dress@limbo" : {
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "oflags" : [
             "Wearable"
          ],
@@ -202,7 +202,7 @@
          "desc[0]" : "Someone has left a wonderful green dress here."
       },
       "tuxedo_6@limbo" : {
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "oflags" : [
             "Wearable"
          ],
@@ -218,7 +218,7 @@
          ]
       },
       "tuxedo_3@limbo" : {
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "oflags" : [
             "Wearable"
          ],
@@ -234,7 +234,7 @@
          ]
       },
       "body@limbo" : {
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "altname" : "body",
          "name" : "body",
          "examine" : "It is still warm.",
@@ -242,7 +242,7 @@
          "desc[0]" : "The body of the person you just killed is here."
       },
       "pouncie@limbo" : {
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "oflags" : [
             "Wearable"
          ],
@@ -256,7 +256,7 @@
          ]
       },
       "purple_dress@limbo" : {
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "oflags" : [
             "Wearable"
          ],
@@ -273,7 +273,7 @@
          "desc[0]" : "A magnificent purple dress has been hung here on a peg."
       },
       "ringman@limbo" : {
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "oflags" : [
             "Wearable",
             "Lightable"
@@ -290,7 +290,7 @@
          ]
       },
       "ringwoman@limbo" : {
-         "location" : "IN_ROOM:limbo",
+         "location" : "IN_ROOM:limbo@limbo",
          "oflags" : [
             "Wearable",
             "Lightable",

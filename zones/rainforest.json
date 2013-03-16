@@ -2,7 +2,7 @@
    "obj" : {
       "statuette@rainforest" : {
          "damage" : "0",
-         "location" : "IN_ROOM:city3",
+         "location" : "IN_ROOM:city3@rainforest",
          "armor" : "0",
          "name" : "statuette",
          "examine" : "It is very beautiful - and very valuable.",
@@ -16,7 +16,7 @@
       "branches@rainforest" : {
          "desc[1]" : "A tangled mass of branches in the archway blocks the western exit.",
          "damage" : "0",
-         "location" : "IN_ROOM:city1",
+         "location" : "IN_ROOM:city1@rainforest",
          "oflags" : [
             "NoGet"
          ],
@@ -32,7 +32,7 @@
       },
       "machete@rainforest" : {
          "damage" : "24",
-         "location" : "IN_ROOM:forest17",
+         "location" : "IN_ROOM:forest17@rainforest",
          "oflags" : [
             "Weapon"
          ],
@@ -49,7 +49,7 @@
       },
       "shield@rainforest" : {
          "damage" : "0",
-         "location" : "IN_ROOM:forest117",
+         "location" : "IN_ROOM:forest117@rainforest",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -66,7 +66,7 @@
       },
       "egg@rainforest" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:nest",
+         "location" : "IN_CONTAINER:nest@rainforest",
          "oflags" : [
             "Food"
          ],
@@ -82,7 +82,7 @@
       },
       "pendant@rainforest" : {
          "damage" : "0",
-         "location" : "IN_ROOM:city4",
+         "location" : "IN_ROOM:city4@rainforest",
          "oflags" : [
             "Wearable"
          ],
@@ -102,7 +102,7 @@
       "figs@rainforest" : {
          "desc[1]" : "A bunch of ripe figs has dropped to the forest floor beneath the tree.",
          "damage" : "0",
-         "location" : "IN_ROOM:forest90",
+         "location" : "IN_ROOM:forest90@rainforest",
          "oflags" : [
             "GetFlips",
             "Food"
@@ -118,7 +118,7 @@
       },
       "crown@rainforest" : {
          "damage" : "0",
-         "location" : "IN_ROOM:city4",
+         "location" : "IN_ROOM:city4@rainforest",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -138,7 +138,7 @@
       },
       "skull@rainforest" : {
          "damage" : "0",
-         "location" : "IN_ROOM:city3",
+         "location" : "IN_ROOM:city3@rainforest",
          "armor" : "0",
          "name" : "skull",
          "examine" : "It is rather macabre, but definitely a work of art.",
@@ -152,7 +152,7 @@
       "bananas@rainforest" : {
          "desc[1]" : "A bunch of bananas is hanging low enough for you to reach.",
          "damage" : "0",
-         "location" : "IN_ROOM:forest96",
+         "location" : "IN_ROOM:forest96@rainforest",
          "oflags" : [
             "GetFlips",
             "Food"
@@ -168,7 +168,7 @@
       },
       "stick@rainforest" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:nest",
+         "location" : "IN_CONTAINER:nest@rainforest",
          "oflags" : [
             "Lightable",
             "Extinguish"
@@ -186,7 +186,7 @@
       },
       "dagger@rainforest" : {
          "damage" : "6",
-         "location" : "IN_ROOM:city3",
+         "location" : "IN_ROOM:city3@rainforest",
          "oflags" : [
             "Weapon"
          ],
@@ -202,7 +202,7 @@
       },
       "gloves@rainforest" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:rucksack",
+         "location" : "IN_CONTAINER:rucksack@rainforest",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -221,7 +221,7 @@
       },
       "flask@rainforest" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:rucksack",
+         "location" : "IN_CONTAINER:rucksack@rainforest",
          "oflags" : [
             "Food"
          ],
@@ -237,7 +237,7 @@
       },
       "nest@rainforest" : {
          "damage" : "0",
-         "location" : "IN_ROOM:mount17",
+         "location" : "IN_ROOM:mount17@rainforest",
          "oflags" : [
             "Container",
             "NoGet"
@@ -253,7 +253,7 @@
       },
       "porkpie@rainforest" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:rucksack",
+         "location" : "IN_CONTAINER:rucksack@rainforest",
          "oflags" : [
             "Food"
          ],
@@ -269,7 +269,7 @@
       },
       "feather@rainforest" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:nest",
+         "location" : "IN_CONTAINER:nest@rainforest",
          "armor" : "0",
          "name" : "feather",
          "examine" : "It is a thing of great beauty.",
@@ -282,7 +282,7 @@
       },
       "diary@rainforest" : {
          "damage" : "0",
-         "location" : "CARRIED_BY:explorer",
+         "location" : "CARRIED_BY:explorer@rainforest",
          "armor" : "0",
          "name" : "diary",
          "examine" : "\nThe diary is old and many of its pages are missing.  As you read it, an\nincredible tale unfolds.  The writer of the diary was part of an expedition\nwhich set out three months ago to find El Dorado, a mythical city which\nsupposedly lies in the great rainforest to the south-east.  The expedition\ncrossed this great mountain range, then descended into the rainforest and set\nout on their ambitious quest.  After some time they had a major disagreement\nand the group split up, one half continuing to battle through the forest while\nthe other built a raft and floated down the river.  The writer of the diary was\nin the party which took the slow route through the jungle.  During weeks of\nfruitless searching the party gradually dwindled, one by one falling victim to\none or other of the jungle's manifold hazards.  When there were only a handful\nleft, they abandoned their quest and attempted to return home.  The final\nentries in the diary are increasingly surreal, and it is plain that the writer\nwas steadily losing his grip on reality.",
@@ -295,7 +295,7 @@
       },
       "rucksack@rainforest" : {
          "damage" : "0",
-         "location" : "IN_ROOM:mount8",
+         "location" : "IN_ROOM:mount8@rainforest",
          "oflags" : [
             "Wearable",
             "Container",
@@ -315,7 +315,7 @@
       },
       "raft@rainforest" : {
          "damage" : "0",
-         "location" : "IN_ROOM:forest18",
+         "location" : "IN_ROOM:forest18@rainforest",
          "armor" : "0",
          "oflags" : [
             "Boat"
@@ -333,7 +333,7 @@
       "branches2@rainforest" : {
          "desc[1]" : "A tangled mass of branches in the archway blocks the eastern exit.",
          "damage" : "0",
-         "location" : "IN_ROOM:city2",
+         "location" : "IN_ROOM:city2@rainforest",
          "oflags" : [
             "NoGet"
          ],
@@ -352,8 +352,8 @@
    "loc" : {
       "forest105@rainforest" : {
          "exits" : {
-            "e" : "forest107",
-            "s" : "forest103"
+            "e" : "forest107@rainforest",
+            "s" : "forest103@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -366,8 +366,8 @@
       },
       "mount41@rainforest" : {
          "exits" : {
-            "u" : "mount40",
-            "d" : "mount42"
+            "u" : "mount40@rainforest",
+            "d" : "mount42@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -380,7 +380,7 @@
       },
       "mount20@rainforest" : {
          "exits" : {
-            "n" : "mount19"
+            "n" : "mount19@rainforest"
          },
          "flags" : [
             "Death",
@@ -394,9 +394,9 @@
       },
       "forest2@rainforest" : {
          "exits" : {
-            "w" : "forest1",
-            "e" : "forest7",
-            "n" : "forest3"
+            "w" : "forest1@rainforest",
+            "e" : "forest7@rainforest",
+            "n" : "forest3@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -410,9 +410,9 @@
       },
       "forest136@rainforest" : {
          "exits" : {
-            "w" : "forest132",
-            "n" : "forest131",
-            "s" : "forest137"
+            "w" : "forest132@rainforest",
+            "n" : "forest131@rainforest",
+            "s" : "forest137@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -426,7 +426,7 @@
       },
       "forest55@rainforest" : {
          "exits" : {
-            "e" : "forest54"
+            "e" : "forest54@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -440,8 +440,8 @@
       },
       "forest21@rainforest" : {
          "exits" : {
-            "e" : "forest19",
-            "n" : "forest20"
+            "e" : "forest19@rainforest",
+            "n" : "forest20@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -455,8 +455,8 @@
       },
       "forest64@rainforest" : {
          "exits" : {
-            "e" : "forest65",
-            "n" : "forest61"
+            "e" : "forest65@rainforest",
+            "n" : "forest61@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -469,9 +469,9 @@
       },
       "forest78@rainforest" : {
          "exits" : {
-            "w" : "forest77",
-            "e" : "forest81",
-            "s" : "forest82"
+            "w" : "forest77@rainforest",
+            "e" : "forest81@rainforest",
+            "s" : "forest82@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -485,9 +485,9 @@
       },
       "forest60@rainforest" : {
          "exits" : {
-            "w" : "forest58",
-            "e" : "forest63",
-            "n" : "forest62"
+            "w" : "forest58@rainforest",
+            "e" : "forest63@rainforest",
+            "n" : "forest62@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -500,8 +500,8 @@
       },
       "forest135@rainforest" : {
          "exits" : {
-            "w" : "city1",
-            "e" : "forest130"
+            "w" : "city1@rainforest",
+            "e" : "forest130@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -516,8 +516,8 @@
       },
       "forest20@rainforest" : {
          "exits" : {
-            "e" : "forest17",
-            "s" : "forest21"
+            "e" : "forest17@rainforest",
+            "s" : "forest21@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -531,9 +531,9 @@
       },
       "river6@rainforest" : {
          "exits" : {
-            "w" : "river5",
-            "e" : "river7",
-            "n" : "forest147"
+            "w" : "river5@rainforest",
+            "e" : "river7@rainforest",
+            "n" : "forest147@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -548,7 +548,7 @@
       },
       "forest73@rainforest" : {
          "exits" : {
-            "w" : "forest72"
+            "w" : "forest72@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -561,8 +561,8 @@
       },
       "forest111@rainforest" : {
          "exits" : {
-            "e" : "forest112",
-            "n" : "forest109"
+            "e" : "forest112@rainforest",
+            "n" : "forest109@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -576,9 +576,9 @@
       },
       "forest95@rainforest" : {
          "exits" : {
-            "w" : "forest92",
-            "e" : "forest99",
-            "n" : "forest90"
+            "w" : "forest92@rainforest",
+            "e" : "forest99@rainforest",
+            "n" : "forest90@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -591,8 +591,8 @@
       },
       "mount42@rainforest" : {
          "exits" : {
-            "u" : "mount41",
-            "n" : "mount43"
+            "u" : "mount41@rainforest",
+            "n" : "mount43@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -605,9 +605,9 @@
       },
       "forest1@rainforest" : {
          "exits" : {
-            "w" : "mount46",
-            "e" : "forest2",
-            "u" : "mount46"
+            "w" : "mount46@rainforest",
+            "e" : "forest2@rainforest",
+            "u" : "mount46@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -621,8 +621,8 @@
       },
       "forest147@rainforest" : {
          "exits" : {
-            "w" : "forest148",
-            "s" : "river6"
+            "w" : "forest148@rainforest",
+            "s" : "river6@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -635,8 +635,8 @@
       },
       "city1@rainforest" : {
          "exits" : {
-            "w" : "^branches",
-            "e" : "forest135"
+            "w" : "^branches@rainforest",
+            "e" : "forest135@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -650,10 +650,10 @@
       },
       "mount26@rainforest" : {
          "exits" : {
-            "w" : "mount20",
-            "e" : "mount25",
-            "n" : "mount20",
-            "s" : "mount27"
+            "w" : "mount20@rainforest",
+            "e" : "mount25@rainforest",
+            "n" : "mount20@rainforest",
+            "s" : "mount27@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -667,11 +667,11 @@
       },
       "forest27@rainforest" : {
          "exits" : {
-            "w" : "forest26",
-            "e" : "forest25",
-            "u" : "forest36",
-            "n" : "forest28",
-            "s" : "forest26"
+            "w" : "forest26@rainforest",
+            "e" : "forest25@rainforest",
+            "u" : "forest36@rainforest",
+            "n" : "forest28@rainforest",
+            "s" : "forest26@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -686,10 +686,10 @@
       },
       "forest140@rainforest" : {
          "exits" : {
-            "w" : "forest140",
-            "e" : "forest138",
-            "n" : "forest139",
-            "s" : "forest141"
+            "w" : "forest140@rainforest",
+            "e" : "forest138@rainforest",
+            "n" : "forest139@rainforest",
+            "s" : "forest141@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -703,10 +703,10 @@
       },
       "forest130@rainforest" : {
          "exits" : {
-            "w" : "forest135",
-            "e" : "forest134",
-            "n" : "forest126",
-            "s" : "forest131"
+            "w" : "forest135@rainforest",
+            "e" : "forest134@rainforest",
+            "n" : "forest126@rainforest",
+            "s" : "forest131@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -720,10 +720,10 @@
       },
       "forest77@rainforest" : {
          "exits" : {
-            "w" : "forest80",
-            "e" : "forest78",
-            "n" : "river2",
-            "s" : "forest79"
+            "w" : "forest80@rainforest",
+            "e" : "forest78@rainforest",
+            "n" : "river2@rainforest",
+            "s" : "forest79@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -736,9 +736,9 @@
       },
       "forest143@rainforest" : {
          "exits" : {
-            "w" : "forest145",
-            "n" : "forest144",
-            "s" : "river5"
+            "w" : "forest145@rainforest",
+            "n" : "forest144@rainforest",
+            "s" : "river5@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -751,9 +751,9 @@
       },
       "forest16@rainforest" : {
          "exits" : {
-            "w" : "forest14",
-            "e" : "forest18",
-            "n" : "river1"
+            "w" : "forest14@rainforest",
+            "e" : "forest18@rainforest",
+            "n" : "river1@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -766,7 +766,7 @@
       },
       "forest117@rainforest" : {
          "exits" : {
-            "n" : "forest115"
+            "n" : "forest115@rainforest"
          },
          "flags" : [],
          "zone" : "rainforest",
@@ -777,7 +777,7 @@
       },
       "forest116@rainforest" : {
          "exits" : {
-            "s" : "forest115"
+            "s" : "forest115@rainforest"
          },
          "flags" : [],
          "zone" : "rainforest",
@@ -788,10 +788,10 @@
       },
       "river7@rainforest" : {
          "exits" : {
-            "w" : "river9",
-            "e" : "river8",
-            "n" : "river6",
-            "s" : "river10"
+            "w" : "river9@rainforest",
+            "e" : "river8@rainforest",
+            "n" : "river6@rainforest",
+            "s" : "river10@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -805,8 +805,8 @@
       },
       "mount4@rainforest" : {
          "exits" : {
-            "w" : "mount5",
-            "d" : "mount3"
+            "w" : "mount5@rainforest",
+            "d" : "mount3@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -819,10 +819,10 @@
       },
       "forest107@rainforest" : {
          "exits" : {
-            "w" : "forest105",
-            "e" : "forest108",
-            "n" : "river3",
-            "s" : "forest106"
+            "w" : "forest105@rainforest",
+            "e" : "forest108@rainforest",
+            "n" : "river3@rainforest",
+            "s" : "forest106@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -835,9 +835,9 @@
       },
       "forest11@rainforest" : {
          "exits" : {
-            "w" : "forest9",
-            "e" : "forest12",
-            "s" : "forest10"
+            "w" : "forest9@rainforest",
+            "e" : "forest12@rainforest",
+            "s" : "forest10@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -850,9 +850,9 @@
       },
       "forest120@rainforest" : {
          "exits" : {
-            "e" : "forest123",
-            "n" : "forest121",
-            "s" : "forest118"
+            "e" : "forest123@rainforest",
+            "n" : "forest121@rainforest",
+            "s" : "forest118@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -866,7 +866,7 @@
       },
       "forest6@rainforest" : {
          "exits" : {
-            "e" : "forest5"
+            "e" : "forest5@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -879,9 +879,9 @@
       },
       "mount16@rainforest" : {
          "exits" : {
-            "e" : "mount18",
-            "u" : "mount17",
-            "d" : "mount15"
+            "e" : "mount18@rainforest",
+            "u" : "mount17@rainforest",
+            "d" : "mount15@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -895,9 +895,9 @@
       },
       "mount18@rainforest" : {
          "exits" : {
-            "w" : "mount16",
-            "d" : "mount19",
-            "s" : "mount19"
+            "w" : "mount16@rainforest",
+            "d" : "mount19@rainforest",
+            "s" : "mount19@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -911,7 +911,7 @@
       },
       "forest88@rainforest" : {
          "exits" : {
-            "e" : "forest83"
+            "e" : "forest83@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -925,8 +925,8 @@
       },
       "forest15@rainforest" : {
          "exits" : {
-            "n" : "forest13",
-            "s" : "forest17"
+            "n" : "forest13@rainforest",
+            "s" : "forest17@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -941,8 +941,8 @@
       },
       "forest7@rainforest" : {
          "exits" : {
-            "w" : "forest2",
-            "e" : "forest8"
+            "w" : "forest2@rainforest",
+            "e" : "forest8@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -956,8 +956,8 @@
       },
       "forest104@rainforest" : {
          "exits" : {
-            "w" : "forest101",
-            "n" : "forest100"
+            "w" : "forest101@rainforest",
+            "n" : "forest100@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -971,9 +971,9 @@
       },
       "forest93@rainforest" : {
          "exits" : {
-            "w" : "forest89",
-            "e" : "forest97",
-            "s" : "forest98"
+            "w" : "forest89@rainforest",
+            "e" : "forest97@rainforest",
+            "s" : "forest98@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -986,9 +986,9 @@
       },
       "river8@rainforest" : {
          "exits" : {
-            "w" : "river7",
-            "n" : "river6",
-            "s" : "river11"
+            "w" : "river7@rainforest",
+            "n" : "river6@rainforest",
+            "s" : "river11@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1002,11 +1002,11 @@
       },
       "forest23@rainforest" : {
          "exits" : {
-            "w" : "forest22",
-            "e" : "forest24",
-            "u" : "forest32",
-            "n" : "forest22",
-            "s" : "forest23"
+            "w" : "forest22@rainforest",
+            "e" : "forest24@rainforest",
+            "u" : "forest32@rainforest",
+            "n" : "forest22@rainforest",
+            "s" : "forest23@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1021,8 +1021,8 @@
       },
       "mount32@rainforest" : {
          "exits" : {
-            "e" : "mount31",
-            "n" : "mount30"
+            "e" : "mount31@rainforest",
+            "n" : "mount30@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1036,8 +1036,8 @@
       },
       "mount38@rainforest" : {
          "exits" : {
-            "d" : "mount39",
-            "s" : "mount37"
+            "d" : "mount39@rainforest",
+            "s" : "mount37@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1051,8 +1051,8 @@
       },
       "forest94@rainforest" : {
          "exits" : {
-            "w" : "forest90",
-            "n" : "forest98"
+            "w" : "forest90@rainforest",
+            "n" : "forest98@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1066,9 +1066,9 @@
       },
       "forest47@rainforest" : {
          "exits" : {
-            "w" : "forest44",
-            "e" : "forest49",
-            "n" : "forest48"
+            "w" : "forest44@rainforest",
+            "e" : "forest49@rainforest",
+            "n" : "forest48@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1083,7 +1083,7 @@
       },
       "forest5@rainforest" : {
          "exits" : {
-            "w" : "forest4"
+            "w" : "forest4@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1096,8 +1096,8 @@
       },
       "forest101@rainforest" : {
          "exits" : {
-            "w" : "forest98",
-            "e" : "forest104"
+            "w" : "forest98@rainforest",
+            "e" : "forest104@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1111,10 +1111,10 @@
       },
       "mount19@rainforest" : {
          "exits" : {
-            "w" : "mount21",
-            "e" : "mount23",
-            "u" : "mount18",
-            "s" : "mount20"
+            "w" : "mount21@rainforest",
+            "e" : "mount23@rainforest",
+            "u" : "mount18@rainforest",
+            "s" : "mount20@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1129,8 +1129,8 @@
       },
       "forest91@rainforest" : {
          "exits" : {
-            "w" : "forest87",
-            "n" : "forest86"
+            "w" : "forest87@rainforest",
+            "n" : "forest86@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1144,7 +1144,7 @@
       },
       "current1@rainforest" : {
          "exits" : {
-            "n" : "current2"
+            "n" : "current2@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1159,9 +1159,9 @@
       },
       "forest13@rainforest" : {
          "exits" : {
-            "e" : "forest14",
-            "u" : "forest12",
-            "s" : "forest15"
+            "e" : "forest14@rainforest",
+            "u" : "forest12@rainforest",
+            "s" : "forest15@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1189,7 +1189,7 @@
       },
       "city5@rainforest" : {
          "exits" : {
-            "e" : "city2"
+            "e" : "city2@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1202,11 +1202,11 @@
       },
       "forest26@rainforest" : {
          "exits" : {
-            "w" : "forest27",
-            "e" : "forest24",
-            "u" : "forest35",
-            "n" : "forest26",
-            "s" : "forest22"
+            "w" : "forest27@rainforest",
+            "e" : "forest24@rainforest",
+            "u" : "forest35@rainforest",
+            "n" : "forest26@rainforest",
+            "s" : "forest22@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1221,8 +1221,8 @@
       },
       "mount39@rainforest" : {
          "exits" : {
-            "u" : "mount38",
-            "s" : "mount40"
+            "u" : "mount38@rainforest",
+            "s" : "mount40@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1235,8 +1235,8 @@
       },
       "forest132@rainforest" : {
          "exits" : {
-            "e" : "forest136",
-            "n" : "forest127"
+            "e" : "forest136@rainforest",
+            "n" : "forest127@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1250,8 +1250,8 @@
       },
       "forest56@rainforest" : {
          "exits" : {
-            "e" : "forest58",
-            "s" : "forest54"
+            "e" : "forest58@rainforest",
+            "s" : "forest54@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1265,10 +1265,10 @@
       },
       "forest39@rainforest" : {
          "exits" : {
-            "w" : "forest38",
-            "n" : "forest33",
-            "d" : "forest30",
-            "s" : "forest36"
+            "w" : "forest38@rainforest",
+            "n" : "forest33@rainforest",
+            "d" : "forest30@rainforest",
+            "s" : "forest36@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1281,9 +1281,9 @@
       },
       "forest118@rainforest" : {
          "exits" : {
-            "w" : "forest115",
-            "e" : "forest119",
-            "n" : "forest120"
+            "w" : "forest115@rainforest",
+            "e" : "forest119@rainforest",
+            "n" : "forest120@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1297,9 +1297,9 @@
       },
       "river2@rainforest" : {
          "exits" : {
-            "e" : "river4",
-            "n" : "forest19",
-            "s" : "forest77"
+            "e" : "river4@rainforest",
+            "n" : "forest19@rainforest",
+            "s" : "forest77@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1313,9 +1313,9 @@
       },
       "forest85@rainforest" : {
          "exits" : {
-            "w" : "forest81",
-            "n" : "forest89",
-            "s" : "forest90"
+            "w" : "forest81@rainforest",
+            "n" : "forest89@rainforest",
+            "s" : "forest90@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1329,10 +1329,10 @@
       },
       "mount46@rainforest" : {
          "exits" : {
-            "w" : "mount45",
-            "e" : "forest1",
-            "u" : "mount45",
-            "d" : "forest1"
+            "w" : "mount45@rainforest",
+            "e" : "forest1@rainforest",
+            "u" : "mount45@rainforest",
+            "d" : "forest1@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1345,8 +1345,8 @@
       },
       "forest59@rainforest" : {
          "exits" : {
-            "w" : "forest57",
-            "e" : "forest61"
+            "w" : "forest57@rainforest",
+            "e" : "forest61@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1360,7 +1360,7 @@
       },
       "river1@rainforest" : {
          "exits" : {
-            "e" : "river3"
+            "e" : "river3@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1375,8 +1375,8 @@
       },
       "mount35@rainforest" : {
          "exits" : {
-            "u" : "mount34",
-            "s" : "mount36"
+            "u" : "mount34@rainforest",
+            "s" : "mount36@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1390,7 +1390,7 @@
       },
       "forest113@rainforest" : {
          "exits" : {
-            "s" : "forest112"
+            "s" : "forest112@rainforest"
          },
          "flags" : [],
          "zone" : "rainforest",
@@ -1401,8 +1401,8 @@
       },
       "forest106@rainforest" : {
          "exits" : {
-            "w" : "forest103",
-            "n" : "forest107"
+            "w" : "forest103@rainforest",
+            "n" : "forest107@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1415,8 +1415,8 @@
       },
       "forest12@rainforest" : {
          "exits" : {
-            "w" : "forest11",
-            "d" : "forest13"
+            "w" : "forest11@rainforest",
+            "d" : "forest13@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1430,8 +1430,8 @@
       },
       "forest14@rainforest" : {
          "exits" : {
-            "w" : "forest13",
-            "e" : "forest16"
+            "w" : "forest13@rainforest",
+            "e" : "forest16@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1444,9 +1444,9 @@
       },
       "forest48@rainforest" : {
          "exits" : {
-            "w" : "forest46",
-            "e" : "forest50",
-            "s" : "forest47"
+            "w" : "forest46@rainforest",
+            "e" : "forest50@rainforest",
+            "s" : "forest47@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1460,9 +1460,9 @@
       },
       "forest58@rainforest" : {
          "exits" : {
-            "w" : "forest56",
-            "e" : "forest60",
-            "s" : "forest57"
+            "w" : "forest56@rainforest",
+            "e" : "forest60@rainforest",
+            "s" : "forest57@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1476,10 +1476,10 @@
       },
       "river5@rainforest" : {
          "exits" : {
-            "w" : "river3",
-            "e" : "river6",
-            "n" : "forest143",
-            "s" : "forest121"
+            "w" : "river3@rainforest",
+            "e" : "river6@rainforest",
+            "n" : "forest143@rainforest",
+            "s" : "forest121@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1494,9 +1494,9 @@
       },
       "mount44@rainforest" : {
          "exits" : {
-            "e" : "mount45",
-            "u" : "mount43",
-            "d" : "mount45"
+            "e" : "mount45@rainforest",
+            "u" : "mount43@rainforest",
+            "d" : "mount45@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1509,7 +1509,7 @@
       },
       "city4@rainforest" : {
          "exits" : {
-            "n" : "city2"
+            "n" : "city2@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1522,7 +1522,7 @@
       },
       "forest102@rainforest" : {
          "exits" : {
-            "n" : "forest99"
+            "n" : "forest99@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1535,8 +1535,8 @@
       },
       "forest89@rainforest" : {
          "exits" : {
-            "e" : "forest93",
-            "s" : "forest85"
+            "e" : "forest93@rainforest",
+            "s" : "forest85@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1549,8 +1549,8 @@
       },
       "mount2@rainforest" : {
          "exits" : {
-            "w" : "mount3",
-            "n" : "mount1"
+            "w" : "mount3@rainforest",
+            "n" : "mount1@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1563,10 +1563,10 @@
       },
       "river10@rainforest" : {
          "exits" : {
-            "w" : "river7",
-            "e" : "river13",
-            "n" : "river11",
-            "s" : "river12"
+            "w" : "river7@rainforest",
+            "e" : "river13@rainforest",
+            "n" : "river11@rainforest",
+            "s" : "river12@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1580,7 +1580,7 @@
       },
       "forest128@rainforest" : {
          "exits" : {
-            "s" : "forest126"
+            "s" : "forest126@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1594,9 +1594,9 @@
       },
       "forest103@rainforest" : {
          "exits" : {
-            "w" : "forest100",
-            "e" : "forest106",
-            "n" : "forest105"
+            "w" : "forest100@rainforest",
+            "e" : "forest106@rainforest",
+            "n" : "forest105@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1609,10 +1609,10 @@
       },
       "forest35@rainforest" : {
          "exits" : {
-            "w" : "forest34",
-            "e" : "forest36",
-            "n" : "forest38",
-            "d" : "forest26"
+            "w" : "forest34@rainforest",
+            "e" : "forest36@rainforest",
+            "n" : "forest38@rainforest",
+            "d" : "forest26@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1625,7 +1625,7 @@
       },
       "city3@rainforest" : {
          "exits" : {
-            "s" : "city2"
+            "s" : "city2@rainforest"
          },
          "flags" : [],
          "zone" : "rainforest",
@@ -1636,7 +1636,7 @@
       },
       "forest62@rainforest" : {
          "exits" : {
-            "s" : "forest60"
+            "s" : "forest60@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1650,11 +1650,11 @@
       },
       "forest28@rainforest" : {
          "exits" : {
-            "w" : "forest26",
-            "e" : "forest29",
-            "u" : "forest37",
-            "n" : "forest25",
-            "s" : "forest24"
+            "w" : "forest26@rainforest",
+            "e" : "forest29@rainforest",
+            "u" : "forest37@rainforest",
+            "n" : "forest25@rainforest",
+            "s" : "forest24@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1669,8 +1669,8 @@
       },
       "mount1@rainforest" : {
          "exits" : {
-            "n" : "Anc1@ancient",
-            "s" : "mount2"
+            "n" : "anc1@ancient",
+            "s" : "mount2@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1683,9 +1683,9 @@
       },
       "forest98@rainforest" : {
          "exits" : {
-            "e" : "forest101",
-            "n" : "forest93",
-            "s" : "forest94"
+            "e" : "forest101@rainforest",
+            "n" : "forest93@rainforest",
+            "s" : "forest94@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1699,7 +1699,7 @@
       },
       "mount22@rainforest" : {
          "exits" : {
-            "e" : "mount21"
+            "e" : "mount21@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1713,7 +1713,7 @@
       },
       "forest40@rainforest" : {
          "exits" : {
-            "d" : "forest31"
+            "d" : "forest31@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1726,7 +1726,7 @@
       },
       "forest124@rainforest" : {
          "exits" : {
-            "w" : "forest123"
+            "w" : "forest123@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1740,9 +1740,9 @@
       },
       "forest69@rainforest" : {
          "exits" : {
-            "w" : "forest67",
-            "n" : "forest68",
-            "s" : "forest70"
+            "w" : "forest67@rainforest",
+            "n" : "forest68@rainforest",
+            "s" : "forest70@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1756,9 +1756,9 @@
       },
       "forest71@rainforest" : {
          "exits" : {
-            "w" : "forest70",
-            "e" : "forest72",
-            "s" : "river3"
+            "w" : "forest70@rainforest",
+            "e" : "forest72@rainforest",
+            "s" : "river3@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1772,10 +1772,10 @@
       },
       "forest138@rainforest" : {
          "exits" : {
-            "w" : "forest139",
-            "e" : "forest137",
-            "n" : "forest138",
-            "s" : "forest139"
+            "w" : "forest139@rainforest",
+            "e" : "forest137@rainforest",
+            "n" : "forest138@rainforest",
+            "s" : "forest139@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1789,8 +1789,8 @@
       },
       "forest122@rainforest" : {
          "exits" : {
-            "w" : "forest121",
-            "s" : "forest123"
+            "w" : "forest121@rainforest",
+            "s" : "forest123@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1803,8 +1803,8 @@
       },
       "forest99@rainforest" : {
          "exits" : {
-            "w" : "forest95",
-            "s" : "forest102"
+            "w" : "forest95@rainforest",
+            "s" : "forest102@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1818,7 +1818,7 @@
       },
       "forest84@rainforest" : {
          "exits" : {
-            "n" : "forest80"
+            "n" : "forest80@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1832,9 +1832,9 @@
       },
       "forest72@rainforest" : {
          "exits" : {
-            "w" : "forest71",
-            "e" : "forest73",
-            "n" : "forest74"
+            "w" : "forest71@rainforest",
+            "e" : "forest73@rainforest",
+            "n" : "forest74@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1847,9 +1847,9 @@
       },
       "forest83@rainforest" : {
          "exits" : {
-            "w" : "forest88",
-            "n" : "forest79",
-            "s" : "forest87"
+            "w" : "forest88@rainforest",
+            "n" : "forest79@rainforest",
+            "s" : "forest87@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1862,9 +1862,9 @@
       },
       "river3@rainforest" : {
          "exits" : {
-            "e" : "river5",
-            "n" : "forest71",
-            "s" : "forest107"
+            "e" : "river5@rainforest",
+            "n" : "forest71@rainforest",
+            "s" : "forest107@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1879,10 +1879,10 @@
       },
       "forest126@rainforest" : {
          "exits" : {
-            "w" : "forest125",
-            "e" : "forest129",
-            "n" : "forest128",
-            "s" : "forest130"
+            "w" : "forest125@rainforest",
+            "e" : "forest129@rainforest",
+            "n" : "forest128@rainforest",
+            "s" : "forest130@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1896,9 +1896,9 @@
       },
       "forest121@rainforest" : {
          "exits" : {
-            "e" : "forest122",
-            "n" : "river5",
-            "s" : "forest120"
+            "e" : "forest122@rainforest",
+            "n" : "river5@rainforest",
+            "s" : "forest120@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1911,9 +1911,9 @@
       },
       "forest100@rainforest" : {
          "exits" : {
-            "w" : "forest97",
-            "e" : "forest103",
-            "s" : "forest104"
+            "w" : "forest97@rainforest",
+            "e" : "forest103@rainforest",
+            "s" : "forest104@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1928,10 +1928,10 @@
       },
       "river17@rainforest" : {
          "exits" : {
-            "w" : "river13",
-            "e" : "river20",
-            "n" : "river18",
-            "s" : "river19"
+            "w" : "river13@rainforest",
+            "e" : "river20@rainforest",
+            "n" : "river18@rainforest",
+            "s" : "river19@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1945,7 +1945,7 @@
       },
       "forest53@rainforest" : {
          "exits" : {
-            "e" : "forest52"
+            "e" : "forest52@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1958,7 +1958,7 @@
       },
       "forest50@rainforest" : {
          "exits" : {
-            "w" : "forest48"
+            "w" : "forest48@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -1971,10 +1971,10 @@
       },
       "forest115@rainforest" : {
          "exits" : {
-            "w" : "forest112",
-            "e" : "forest118",
-            "n" : "forest116",
-            "s" : "forest117"
+            "w" : "forest112@rainforest",
+            "e" : "forest118@rainforest",
+            "n" : "forest116@rainforest",
+            "s" : "forest117@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -1988,10 +1988,10 @@
       },
       "forest37@rainforest" : {
          "exits" : {
-            "e" : "forest38",
-            "n" : "forest31",
-            "d" : "forest28",
-            "s" : "forest34"
+            "e" : "forest38@rainforest",
+            "n" : "forest31@rainforest",
+            "d" : "forest28@rainforest",
+            "s" : "forest34@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2004,10 +2004,10 @@
       },
       "river15@rainforest" : {
          "exits" : {
-            "w" : "river12",
-            "e" : "river19",
-            "n" : "river13",
-            "s" : "river16"
+            "w" : "river12@rainforest",
+            "e" : "river19@rainforest",
+            "n" : "river13@rainforest",
+            "s" : "river16@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2021,8 +2021,8 @@
       },
       "mount3@rainforest" : {
          "exits" : {
-            "e" : "mount2",
-            "d" : "mount11"
+            "e" : "mount2@rainforest",
+            "d" : "mount11@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2036,8 +2036,8 @@
       },
       "mount15@rainforest" : {
          "exits" : {
-            "u" : "mount16",
-            "d" : "mount14"
+            "u" : "mount16@rainforest",
+            "d" : "mount14@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2051,10 +2051,10 @@
       },
       "river19@rainforest" : {
          "exits" : {
-            "w" : "river15",
-            "e" : "river22",
-            "n" : "river17",
-            "s" : "river16"
+            "w" : "river15@rainforest",
+            "e" : "river22@rainforest",
+            "n" : "river17@rainforest",
+            "s" : "river16@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2068,8 +2068,8 @@
       },
       "forest68@rainforest" : {
          "exits" : {
-            "w" : "forest66",
-            "s" : "forest69"
+            "w" : "forest66@rainforest",
+            "s" : "forest69@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2083,8 +2083,8 @@
       },
       "mount27@rainforest" : {
          "exits" : {
-            "u" : "mount28",
-            "n" : "mount26"
+            "u" : "mount28@rainforest",
+            "n" : "mount26@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2098,9 +2098,9 @@
       },
       "mount21@rainforest" : {
          "exits" : {
-            "w" : "mount22",
-            "e" : "mount19",
-            "s" : "mount20"
+            "w" : "mount22@rainforest",
+            "e" : "mount19@rainforest",
+            "s" : "mount20@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2114,7 +2114,7 @@
       },
       "forest110@rainforest" : {
          "exits" : {
-            "w" : "forest109"
+            "w" : "forest109@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2128,9 +2128,9 @@
       },
       "forest125@rainforest" : {
          "exits" : {
-            "e" : "forest126",
-            "n" : "forest123",
-            "s" : "forest127"
+            "e" : "forest126@rainforest",
+            "n" : "forest123@rainforest",
+            "s" : "forest127@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2144,8 +2144,8 @@
       },
       "mount24@rainforest" : {
          "exits" : {
-            "w" : "mount23",
-            "s" : "mount20"
+            "w" : "mount23@rainforest",
+            "s" : "mount20@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2160,7 +2160,7 @@
       "mount17@rainforest" : {
          "exits" : {
             "u" : "windy29@windy",
-            "d" : "mount16"
+            "d" : "mount16@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2175,10 +2175,10 @@
       },
       "mount9@rainforest" : {
          "exits" : {
-            "w" : "mount12",
-            "e" : "mount10",
-            "u" : "mount6",
-            "n" : "mount6"
+            "w" : "mount12@rainforest",
+            "e" : "mount10@rainforest",
+            "u" : "mount6@rainforest",
+            "n" : "mount6@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2191,9 +2191,9 @@
       },
       "forest49@rainforest" : {
          "exits" : {
-            "w" : "forest47",
-            "e" : "forest51",
-            "s" : "forest52"
+            "w" : "forest47@rainforest",
+            "e" : "forest51@rainforest",
+            "s" : "forest52@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2207,8 +2207,8 @@
       },
       "mount36@rainforest" : {
          "exits" : {
-            "n" : "mount35",
-            "d" : "mount37"
+            "n" : "mount35@rainforest",
+            "d" : "mount37@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2222,7 +2222,7 @@
       },
       "forest76@rainforest" : {
          "exits" : {
-            "s" : "forest75"
+            "s" : "forest75@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2236,11 +2236,11 @@
       },
       "forest24@rainforest" : {
          "exits" : {
-            "w" : "forest22",
-            "e" : "forest25",
-            "u" : "forest33",
-            "n" : "forest24",
-            "s" : "forest23"
+            "w" : "forest22@rainforest",
+            "e" : "forest25@rainforest",
+            "u" : "forest33@rainforest",
+            "n" : "forest24@rainforest",
+            "s" : "forest23@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2255,7 +2255,7 @@
       },
       "forest41@rainforest" : {
          "exits" : {
-            "d" : "forest33"
+            "d" : "forest33@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2268,10 +2268,10 @@
       },
       "river13@rainforest" : {
          "exits" : {
-            "w" : "river10",
-            "e" : "river17",
-            "n" : "river14",
-            "s" : "river15"
+            "w" : "river10@rainforest",
+            "e" : "river17@rainforest",
+            "n" : "river14@rainforest",
+            "s" : "river15@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2285,9 +2285,9 @@
       },
       "forest86@rainforest" : {
          "exits" : {
-            "e" : "forest92",
-            "n" : "forest82",
-            "s" : "forest91"
+            "e" : "forest92@rainforest",
+            "n" : "forest82@rainforest",
+            "s" : "forest91@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2300,10 +2300,10 @@
       },
       "forest44@rainforest" : {
          "exits" : {
-            "w" : "forest30",
-            "e" : "forest47",
-            "n" : "forest46",
-            "s" : "forest45"
+            "w" : "forest30@rainforest",
+            "e" : "forest47@rainforest",
+            "n" : "forest46@rainforest",
+            "s" : "forest45@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2317,9 +2317,9 @@
       },
       "forest82@rainforest" : {
          "exits" : {
-            "w" : "forest79",
-            "n" : "forest78",
-            "s" : "forest86"
+            "w" : "forest79@rainforest",
+            "n" : "forest78@rainforest",
+            "s" : "forest86@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2333,9 +2333,9 @@
       },
       "forest4@rainforest" : {
          "exits" : {
-            "w" : "forest6",
-            "e" : "forest5",
-            "s" : "forest3"
+            "w" : "forest6@rainforest",
+            "e" : "forest5@rainforest",
+            "s" : "forest3@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2348,7 +2348,7 @@
       },
       "forest133@rainforest" : {
          "exits" : {
-            "w" : "forest129"
+            "w" : "forest129@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2362,9 +2362,9 @@
       },
       "forest129@rainforest" : {
          "exits" : {
-            "w" : "forest126",
-            "e" : "forest133",
-            "s" : "forest134"
+            "w" : "forest126@rainforest",
+            "e" : "forest133@rainforest",
+            "s" : "forest134@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2378,10 +2378,10 @@
       },
       "mount30@rainforest" : {
          "exits" : {
-            "e" : "mount33",
-            "u" : "mount33",
-            "n" : "mount29",
-            "s" : "mount31"
+            "e" : "mount33@rainforest",
+            "u" : "mount33@rainforest",
+            "n" : "mount29@rainforest",
+            "s" : "mount31@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2395,9 +2395,9 @@
       },
       "river11@rainforest" : {
          "exits" : {
-            "w" : "river8",
-            "e" : "river14",
-            "s" : "river10"
+            "w" : "river8@rainforest",
+            "e" : "river14@rainforest",
+            "s" : "river10@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2411,7 +2411,7 @@
       },
       "forest119@rainforest" : {
          "exits" : {
-            "w" : "forest118"
+            "w" : "forest118@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2425,9 +2425,9 @@
       },
       "mount33@rainforest" : {
          "exits" : {
-            "w" : "mount30",
-            "e" : "mount34",
-            "d" : "mount30"
+            "w" : "mount30@rainforest",
+            "e" : "mount34@rainforest",
+            "d" : "mount30@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2442,7 +2442,7 @@
       },
       "mount11@rainforest" : {
          "exits" : {
-            "d" : "mount10"
+            "d" : "mount10@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2455,10 +2455,10 @@
       },
       "forest90@rainforest" : {
          "exits" : {
-            "w" : "forest96",
-            "e" : "forest94",
-            "n" : "forest85",
-            "s" : "forest95"
+            "w" : "forest96@rainforest",
+            "e" : "forest94@rainforest",
+            "n" : "forest85@rainforest",
+            "s" : "forest95@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2473,10 +2473,10 @@
       },
       "forest17@rainforest" : {
          "exits" : {
-            "w" : "forest20",
-            "e" : "forest22",
-            "n" : "forest15",
-            "s" : "forest19"
+            "w" : "forest20@rainforest",
+            "e" : "forest22@rainforest",
+            "n" : "forest15@rainforest",
+            "s" : "forest19@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2490,8 +2490,8 @@
       },
       "forest75@rainforest" : {
          "exits" : {
-            "w" : "forest74",
-            "n" : "forest76"
+            "w" : "forest74@rainforest",
+            "n" : "forest76@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2505,8 +2505,8 @@
       },
       "forest46@rainforest" : {
          "exits" : {
-            "e" : "forest48",
-            "s" : "forest44"
+            "e" : "forest48@rainforest",
+            "s" : "forest44@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2520,8 +2520,8 @@
       },
       "mount14@rainforest" : {
          "exits" : {
-            "u" : "mount15",
-            "n" : "mount13"
+            "u" : "mount15@rainforest",
+            "n" : "mount13@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2534,10 +2534,10 @@
       },
       "forest112@rainforest" : {
          "exits" : {
-            "w" : "forest111",
-            "e" : "forest115",
-            "n" : "forest113",
-            "s" : "forest114"
+            "w" : "forest111@rainforest",
+            "e" : "forest115@rainforest",
+            "n" : "forest113@rainforest",
+            "s" : "forest114@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2551,10 +2551,10 @@
       },
       "mount45@rainforest" : {
          "exits" : {
-            "w" : "mount44",
-            "e" : "mount46",
-            "u" : "mount44",
-            "d" : "mount46"
+            "w" : "mount44@rainforest",
+            "e" : "mount46@rainforest",
+            "u" : "mount44@rainforest",
+            "d" : "mount46@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2567,10 +2567,10 @@
       },
       "forest32@rainforest" : {
          "exits" : {
-            "w" : "forest31",
-            "e" : "forest33",
-            "d" : "forest23",
-            "s" : "forest38"
+            "w" : "forest31@rainforest",
+            "e" : "forest33@rainforest",
+            "d" : "forest23@rainforest",
+            "s" : "forest38@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2583,7 +2583,7 @@
       },
       "forest146@rainforest" : {
          "exits" : {
-            "w" : "forest144"
+            "w" : "forest144@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2597,10 +2597,10 @@
       },
       "mount25@rainforest" : {
          "exits" : {
-            "w" : "mount26",
-            "e" : "mount20",
-            "n" : "mount23",
-            "s" : "mount20"
+            "w" : "mount26@rainforest",
+            "e" : "mount20@rainforest",
+            "n" : "mount23@rainforest",
+            "s" : "mount20@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2614,10 +2614,10 @@
       },
       "forest34@rainforest" : {
          "exits" : {
-            "e" : "forest35",
-            "u" : "forest42",
-            "n" : "forest37",
-            "d" : "forest25"
+            "e" : "forest35@rainforest",
+            "u" : "forest42@rainforest",
+            "n" : "forest37@rainforest",
+            "d" : "forest25@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2630,10 +2630,10 @@
       },
       "forest123@rainforest" : {
          "exits" : {
-            "w" : "forest120",
-            "e" : "forest124",
-            "n" : "forest122",
-            "s" : "forest125"
+            "w" : "forest120@rainforest",
+            "e" : "forest124@rainforest",
+            "n" : "forest122@rainforest",
+            "s" : "forest125@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2647,9 +2647,9 @@
       },
       "forest92@rainforest" : {
          "exits" : {
-            "w" : "forest86",
-            "e" : "forest95",
-            "n" : "forest96"
+            "w" : "forest86@rainforest",
+            "e" : "forest95@rainforest",
+            "n" : "forest96@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2662,10 +2662,10 @@
       },
       "forest31@rainforest" : {
          "exits" : {
-            "e" : "forest32",
-            "u" : "forest40",
-            "d" : "forest22",
-            "s" : "forest37"
+            "e" : "forest32@rainforest",
+            "u" : "forest40@rainforest",
+            "d" : "forest22@rainforest",
+            "s" : "forest37@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2678,8 +2678,8 @@
       },
       "mount37@rainforest" : {
          "exits" : {
-            "u" : "mount36",
-            "n" : "mount38"
+            "u" : "mount36@rainforest",
+            "n" : "mount38@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2693,9 +2693,9 @@
       },
       "mount5@rainforest" : {
          "exits" : {
-            "e" : "mount4",
-            "d" : "mount6",
-            "s" : "mount6"
+            "e" : "mount4@rainforest",
+            "d" : "mount6@rainforest",
+            "s" : "mount6@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2708,8 +2708,8 @@
       },
       "river4@rainforest" : {
          "exits" : {
-            "e" : "river3",
-            "s" : "forest97"
+            "e" : "river3@rainforest",
+            "s" : "forest97@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2724,8 +2724,8 @@
       },
       "forest108@rainforest" : {
          "exits" : {
-            "w" : "forest107",
-            "e" : "forest109"
+            "w" : "forest107@rainforest",
+            "e" : "forest109@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2738,8 +2738,8 @@
       },
       "forest52@rainforest" : {
          "exits" : {
-            "w" : "forest53",
-            "n" : "forest49"
+            "w" : "forest53@rainforest",
+            "n" : "forest49@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2752,10 +2752,10 @@
       },
       "river18@rainforest" : {
          "exits" : {
-            "w" : "river14",
-            "e" : "river21",
-            "n" : "river16",
-            "s" : "river17"
+            "w" : "river14@rainforest",
+            "e" : "river21@rainforest",
+            "n" : "river16@rainforest",
+            "s" : "river17@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2769,9 +2769,9 @@
       },
       "river12@rainforest" : {
          "exits" : {
-            "w" : "river8",
-            "e" : "river15",
-            "n" : "river10"
+            "w" : "river8@rainforest",
+            "e" : "river15@rainforest",
+            "n" : "river10@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2785,8 +2785,8 @@
       },
       "mount12@rainforest" : {
          "exits" : {
-            "w" : "mount13",
-            "e" : "mount9"
+            "w" : "mount13@rainforest",
+            "e" : "mount9@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2799,9 +2799,9 @@
       },
       "forest61@rainforest" : {
          "exits" : {
-            "w" : "forest59",
-            "n" : "forest63",
-            "s" : "forest64"
+            "w" : "forest59@rainforest",
+            "n" : "forest63@rainforest",
+            "s" : "forest64@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2816,9 +2816,9 @@
       },
       "river9@rainforest" : {
          "exits" : {
-            "e" : "river7",
-            "n" : "river6",
-            "s" : "river12"
+            "e" : "river7@rainforest",
+            "n" : "river6@rainforest",
+            "s" : "river12@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2832,8 +2832,8 @@
       },
       "mount29@rainforest" : {
          "exits" : {
-            "d" : "mount28",
-            "s" : "mount30"
+            "d" : "mount28@rainforest",
+            "s" : "mount30@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2847,8 +2847,8 @@
       },
       "mount34@rainforest" : {
          "exits" : {
-            "w" : "mount33",
-            "d" : "mount35"
+            "w" : "mount33@rainforest",
+            "d" : "mount35@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2862,10 +2862,10 @@
       },
       "river20@rainforest" : {
          "exits" : {
-            "w" : "river17",
-            "e" : "current1",
-            "n" : "river21",
-            "s" : "river22"
+            "w" : "river17@rainforest",
+            "e" : "current1@rainforest",
+            "n" : "river21@rainforest",
+            "s" : "river22@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2879,9 +2879,9 @@
       },
       "forest8@rainforest" : {
          "exits" : {
-            "w" : "forest7",
-            "e" : "forest10",
-            "n" : "forest9"
+            "w" : "forest7@rainforest",
+            "e" : "forest10@rainforest",
+            "n" : "forest9@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2895,9 +2895,9 @@
       },
       "forest57@rainforest" : {
          "exits" : {
-            "w" : "forest54",
-            "e" : "forest59",
-            "n" : "forest58"
+            "w" : "forest54@rainforest",
+            "e" : "forest59@rainforest",
+            "n" : "forest58@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2910,9 +2910,9 @@
       },
       "river21@rainforest" : {
          "exits" : {
-            "w" : "river18",
-            "e" : "current1",
-            "s" : "river20"
+            "w" : "river18@rainforest",
+            "e" : "current1@rainforest",
+            "s" : "river20@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2926,9 +2926,9 @@
       },
       "forest134@rainforest" : {
          "exits" : {
-            "w" : "forest130",
-            "e" : "forest133",
-            "n" : "forest129"
+            "w" : "forest130@rainforest",
+            "e" : "forest133@rainforest",
+            "n" : "forest129@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2942,8 +2942,8 @@
       },
       "forest3@rainforest" : {
          "exits" : {
-            "n" : "forest4",
-            "s" : "forest2"
+            "n" : "forest4@rainforest",
+            "s" : "forest2@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -2957,7 +2957,7 @@
       },
       "forest43@rainforest" : {
          "exits" : {
-            "d" : "forest36"
+            "d" : "forest36@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2970,10 +2970,10 @@
       },
       "city2@rainforest" : {
          "exits" : {
-            "w" : "city5",
-            "e" : "^branches2",
-            "n" : "city3",
-            "s" : "city4"
+            "w" : "city5@rainforest",
+            "e" : "^branches2@rainforest",
+            "n" : "city3@rainforest",
+            "s" : "city4@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -2986,7 +2986,7 @@
       },
       "mount8@rainforest" : {
          "exits" : {
-            "e" : "mount7"
+            "e" : "mount7@rainforest"
          },
          "flags" : [
             "Dark"
@@ -2999,8 +2999,8 @@
       },
       "forest109@rainforest" : {
          "exits" : {
-            "e" : "forest110",
-            "s" : "forest111"
+            "e" : "forest110@rainforest",
+            "s" : "forest111@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -3013,8 +3013,8 @@
       },
       "mount31@rainforest" : {
          "exits" : {
-            "w" : "mount32",
-            "n" : "mount30"
+            "w" : "mount32@rainforest",
+            "n" : "mount30@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3028,7 +3028,7 @@
       },
       "forest51@rainforest" : {
          "exits" : {
-            "w" : "forest49"
+            "w" : "forest49@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -3041,8 +3041,8 @@
       },
       "forest70@rainforest" : {
          "exits" : {
-            "e" : "forest71",
-            "n" : "forest69"
+            "e" : "forest71@rainforest",
+            "n" : "forest69@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -3055,8 +3055,8 @@
       },
       "forest80@rainforest" : {
          "exits" : {
-            "e" : "forest77",
-            "s" : "forest84"
+            "e" : "forest77@rainforest",
+            "s" : "forest84@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3070,10 +3070,10 @@
       },
       "forest137@rainforest" : {
          "exits" : {
-            "w" : "forest139",
-            "e" : "forest138",
-            "n" : "forest136",
-            "s" : "forest137"
+            "w" : "forest139@rainforest",
+            "e" : "forest138@rainforest",
+            "n" : "forest136@rainforest",
+            "s" : "forest137@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3087,8 +3087,8 @@
       },
       "forest63@rainforest" : {
          "exits" : {
-            "w" : "forest60",
-            "s" : "forest61"
+            "w" : "forest60@rainforest",
+            "s" : "forest61@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3102,10 +3102,10 @@
       },
       "forest139@rainforest" : {
          "exits" : {
-            "w" : "forest137",
-            "e" : "forest140",
-            "n" : "forest138",
-            "s" : "forest139"
+            "w" : "forest137@rainforest",
+            "e" : "forest140@rainforest",
+            "n" : "forest138@rainforest",
+            "s" : "forest139@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3119,7 +3119,7 @@
       },
       "forest148@rainforest" : {
          "exits" : {
-            "e" : "forest147"
+            "e" : "forest147@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -3132,11 +3132,11 @@
       },
       "forest22@rainforest" : {
          "exits" : {
-            "w" : "forest17",
-            "e" : "forest23",
-            "u" : "forest31",
-            "n" : "forest23",
-            "s" : "forest24"
+            "w" : "forest17@rainforest",
+            "e" : "forest23@rainforest",
+            "u" : "forest31@rainforest",
+            "n" : "forest23@rainforest",
+            "s" : "forest24@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3151,11 +3151,11 @@
       },
       "forest30@rainforest" : {
          "exits" : {
-            "w" : "forest27",
-            "e" : "forest44",
-            "u" : "forest39",
-            "n" : "forest24",
-            "s" : "forest25"
+            "w" : "forest27@rainforest",
+            "e" : "forest44@rainforest",
+            "u" : "forest39@rainforest",
+            "n" : "forest24@rainforest",
+            "s" : "forest25@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3170,8 +3170,8 @@
       },
       "forest10@rainforest" : {
          "exits" : {
-            "w" : "forest8",
-            "n" : "forest11"
+            "w" : "forest8@rainforest",
+            "n" : "forest11@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3185,7 +3185,7 @@
       },
       "forest45@rainforest" : {
          "exits" : {
-            "n" : "forest44"
+            "n" : "forest44@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3199,11 +3199,11 @@
       },
       "mount6@rainforest" : {
          "exits" : {
-            "w" : "mount7",
-            "u" : "mount5",
-            "n" : "mount5",
-            "d" : "mount9",
-            "s" : "mount9"
+            "w" : "mount7@rainforest",
+            "u" : "mount5@rainforest",
+            "n" : "mount5@rainforest",
+            "d" : "mount9@rainforest",
+            "s" : "mount9@rainforest"
          },
          "flags" : [],
          "zone" : "rainforest",
@@ -3214,10 +3214,10 @@
       },
       "forest54@rainforest" : {
          "exits" : {
-            "w" : "forest55",
-            "e" : "forest57",
-            "n" : "forest56",
-            "s" : "river1"
+            "w" : "forest55@rainforest",
+            "e" : "forest57@rainforest",
+            "n" : "forest56@rainforest",
+            "s" : "river1@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -3230,8 +3230,8 @@
       },
       "mount10@rainforest" : {
          "exits" : {
-            "w" : "mount9",
-            "u" : "mount11"
+            "w" : "mount9@rainforest",
+            "u" : "mount11@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -3244,8 +3244,8 @@
       },
       "mount13@rainforest" : {
          "exits" : {
-            "e" : "mount12",
-            "s" : "mount14"
+            "e" : "mount12@rainforest",
+            "s" : "mount14@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -3258,10 +3258,10 @@
       },
       "river14@rainforest" : {
          "exits" : {
-            "w" : "river11",
-            "e" : "river18",
-            "n" : "river16",
-            "s" : "river13"
+            "w" : "river11@rainforest",
+            "e" : "river18@rainforest",
+            "n" : "river16@rainforest",
+            "s" : "river13@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3275,7 +3275,7 @@
       },
       "forest114@rainforest" : {
          "exits" : {
-            "n" : "forest112"
+            "n" : "forest112@rainforest"
          },
          "flags" : [],
          "zone" : "rainforest",
@@ -3286,10 +3286,10 @@
       },
       "forest141@rainforest" : {
          "exits" : {
-            "w" : "forest138",
-            "e" : "forest139",
-            "n" : "forest142",
-            "s" : "forest140"
+            "w" : "forest138@rainforest",
+            "e" : "forest139@rainforest",
+            "n" : "forest142@rainforest",
+            "s" : "forest140@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3303,8 +3303,8 @@
       },
       "forest96@rainforest" : {
          "exits" : {
-            "e" : "forest90",
-            "s" : "forest92"
+            "e" : "forest90@rainforest",
+            "s" : "forest92@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3318,7 +3318,7 @@
       },
       "river16@rainforest" : {
          "exits" : {
-            "n" : "river13"
+            "n" : "river13@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3334,7 +3334,7 @@
       },
       "forest18@rainforest" : {
          "exits" : {
-            "w" : "forest16"
+            "w" : "forest16@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -3347,8 +3347,8 @@
       },
       "forest9@rainforest" : {
          "exits" : {
-            "e" : "forest11",
-            "s" : "forest8"
+            "e" : "forest11@rainforest",
+            "s" : "forest8@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -3361,7 +3361,7 @@
       },
       "forest142@rainforest" : {
          "exits" : {
-            "n" : "forest137"
+            "n" : "forest137@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3375,8 +3375,8 @@
       },
       "forest87@rainforest" : {
          "exits" : {
-            "e" : "forest91",
-            "n" : "forest83"
+            "e" : "forest91@rainforest",
+            "n" : "forest83@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3390,8 +3390,8 @@
       },
       "mount7@rainforest" : {
          "exits" : {
-            "w" : "mount8",
-            "e" : "mount6"
+            "w" : "mount8@rainforest",
+            "e" : "mount6@rainforest"
          },
          "flags" : [
             "Dark",
@@ -3405,9 +3405,9 @@
       },
       "forest97@rainforest" : {
          "exits" : {
-            "w" : "forest93",
-            "e" : "forest100",
-            "n" : "river4"
+            "w" : "forest93@rainforest",
+            "e" : "forest100@rainforest",
+            "n" : "river4@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -3420,8 +3420,8 @@
       },
       "mount40@rainforest" : {
          "exits" : {
-            "n" : "mount39",
-            "d" : "mount41"
+            "n" : "mount39@rainforest",
+            "d" : "mount41@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3435,9 +3435,9 @@
       },
       "forest65@rainforest" : {
          "exits" : {
-            "w" : "forest64",
-            "n" : "forest66",
-            "s" : "forest67"
+            "w" : "forest64@rainforest",
+            "n" : "forest66@rainforest",
+            "s" : "forest67@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3451,9 +3451,9 @@
       },
       "forest79@rainforest" : {
          "exits" : {
-            "e" : "forest82",
-            "n" : "forest77",
-            "s" : "forest83"
+            "e" : "forest82@rainforest",
+            "n" : "forest77@rainforest",
+            "s" : "forest83@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3467,9 +3467,9 @@
       },
       "forest19@rainforest" : {
          "exits" : {
-            "w" : "forest21",
-            "n" : "forest17",
-            "s" : "river2"
+            "w" : "forest21@rainforest",
+            "n" : "forest17@rainforest",
+            "s" : "river2@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -3482,8 +3482,8 @@
       },
       "forest74@rainforest" : {
          "exits" : {
-            "e" : "forest75",
-            "s" : "forest72"
+            "e" : "forest75@rainforest",
+            "s" : "forest72@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3497,8 +3497,8 @@
       },
       "mount28@rainforest" : {
          "exits" : {
-            "u" : "mount29",
-            "d" : "mount27"
+            "u" : "mount29@rainforest",
+            "d" : "mount27@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3513,7 +3513,7 @@
       },
       "forest145@rainforest" : {
          "exits" : {
-            "e" : "forest143"
+            "e" : "forest143@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3527,10 +3527,10 @@
       },
       "forest33@rainforest" : {
          "exits" : {
-            "w" : "forest32",
-            "u" : "forest41",
-            "d" : "forest24",
-            "s" : "forest39"
+            "w" : "forest32@rainforest",
+            "u" : "forest41@rainforest",
+            "d" : "forest24@rainforest",
+            "s" : "forest39@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -3543,10 +3543,10 @@
       },
       "forest36@rainforest" : {
          "exits" : {
-            "w" : "forest35",
-            "u" : "forest43",
-            "n" : "forest39",
-            "d" : "forest27"
+            "w" : "forest35@rainforest",
+            "u" : "forest43@rainforest",
+            "n" : "forest39@rainforest",
+            "d" : "forest27@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -3559,7 +3559,7 @@
       },
       "forest42@rainforest" : {
          "exits" : {
-            "d" : "forest34"
+            "d" : "forest34@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -3572,8 +3572,8 @@
       },
       "forest67@rainforest" : {
          "exits" : {
-            "e" : "forest69",
-            "n" : "forest65"
+            "e" : "forest69@rainforest",
+            "n" : "forest65@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3587,9 +3587,9 @@
       },
       "forest127@rainforest" : {
          "exits" : {
-            "e" : "forest131",
-            "n" : "forest125",
-            "s" : "forest132"
+            "e" : "forest131@rainforest",
+            "n" : "forest125@rainforest",
+            "s" : "forest132@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3603,9 +3603,9 @@
       },
       "river22@rainforest" : {
          "exits" : {
-            "w" : "river19",
-            "e" : "current1",
-            "n" : "river20"
+            "w" : "river19@rainforest",
+            "e" : "current1@rainforest",
+            "n" : "river20@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3619,11 +3619,11 @@
       },
       "forest38@rainforest" : {
          "exits" : {
-            "w" : "forest37",
-            "e" : "forest39",
-            "n" : "forest32",
-            "d" : "forest29",
-            "s" : "forest35"
+            "w" : "forest37@rainforest",
+            "e" : "forest39@rainforest",
+            "n" : "forest32@rainforest",
+            "d" : "forest29@rainforest",
+            "s" : "forest35@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -3636,9 +3636,9 @@
       },
       "forest131@rainforest" : {
          "exits" : {
-            "w" : "forest127",
-            "n" : "forest130",
-            "s" : "forest136"
+            "w" : "forest127@rainforest",
+            "n" : "forest130@rainforest",
+            "s" : "forest136@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3652,8 +3652,8 @@
       },
       "forest66@rainforest" : {
          "exits" : {
-            "e" : "forest68",
-            "s" : "forest65"
+            "e" : "forest68@rainforest",
+            "s" : "forest65@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3667,9 +3667,9 @@
       },
       "mount23@rainforest" : {
          "exits" : {
-            "w" : "mount19",
-            "e" : "mount24",
-            "s" : "mount25"
+            "w" : "mount19@rainforest",
+            "e" : "mount24@rainforest",
+            "s" : "mount25@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3683,8 +3683,8 @@
       },
       "forest81@rainforest" : {
          "exits" : {
-            "w" : "forest78",
-            "e" : "forest85"
+            "w" : "forest78@rainforest",
+            "e" : "forest85@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3699,8 +3699,8 @@
       },
       "mount43@rainforest" : {
          "exits" : {
-            "d" : "mount44",
-            "s" : "mount42"
+            "d" : "mount44@rainforest",
+            "s" : "mount42@rainforest"
          },
          "flags" : [
             "Outdoors"
@@ -3713,8 +3713,8 @@
       },
       "forest144@rainforest" : {
          "exits" : {
-            "e" : "forest146",
-            "s" : "forest143"
+            "e" : "forest146@rainforest",
+            "s" : "forest143@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3728,11 +3728,11 @@
       },
       "forest29@rainforest" : {
          "exits" : {
-            "w" : "forest30",
-            "e" : "forest28",
-            "u" : "forest38",
-            "n" : "forest26",
-            "s" : "forest24"
+            "w" : "forest30@rainforest",
+            "e" : "forest28@rainforest",
+            "u" : "forest38@rainforest",
+            "n" : "forest26@rainforest",
+            "s" : "forest24@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3747,11 +3747,11 @@
       },
       "forest25@rainforest" : {
          "exits" : {
-            "w" : "forest24",
-            "e" : "forest25",
-            "u" : "forest34",
-            "n" : "forest23",
-            "s" : "forest26"
+            "w" : "forest24@rainforest",
+            "e" : "forest25@rainforest",
+            "u" : "forest34@rainforest",
+            "n" : "forest23@rainforest",
+            "s" : "forest26@rainforest"
          },
          "flags" : [
             "Outdoors",
@@ -3768,7 +3768,7 @@
    "mob" : {
       "pataniku@rainforest" : {
          "damage" : "10",
-         "location" : "forest112",
+         "location" : "forest112@rainforest",
          "speed" : "0",
          "aggression" : "60",
          "armor" : "0",
@@ -3778,7 +3778,7 @@
       },
       "llama@rainforest" : {
          "damage" : "10",
-         "location" : "mount34",
+         "location" : "mount34@rainforest",
          "armor" : "0",
          "name" : "Llama",
          "description" : "A llama is here, protected from the cold by her thick fur.",
@@ -3791,7 +3791,7 @@
       },
       "scarlet@rainforest" : {
          "damage" : "8",
-         "location" : "forest45",
+         "location" : "forest45@rainforest",
          "armor" : "0",
          "name" : "Scarlet",
          "description" : "A scarlet macaw flies to and from his nest in the cliff.",
@@ -3805,7 +3805,7 @@
       },
       "kinkajou@rainforest" : {
          "damage" : "10",
-         "location" : "forest75",
+         "location" : "forest75@rainforest",
          "speed" : "2",
          "aggression" : "0",
          "armor" : "0",
@@ -3815,7 +3815,7 @@
       },
       "leech7@rainforest" : {
          "damage" : "7",
-         "location" : "forest67",
+         "location" : "forest67@rainforest",
          "armor" : "0",
          "name" : "Leech7",
          "description" : "A big hungry leech eagerly begins to feast on your blood.",
@@ -3830,7 +3830,7 @@
       },
       "swordbill@rainforest" : {
          "damage" : "3",
-         "location" : "forest81",
+         "location" : "forest81@rainforest",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -3843,7 +3843,7 @@
       },
       "leech2@rainforest" : {
          "damage" : "7",
-         "location" : "forest67",
+         "location" : "forest67@rainforest",
          "armor" : "0",
          "name" : "Leech2",
          "description" : "A big hungry leech eagerly begins to feast on your blood.",
@@ -3858,7 +3858,7 @@
       },
       "jaguar@rainforest" : {
          "damage" : "15",
-         "location" : "forest118",
+         "location" : "forest118@rainforest",
          "speed" : "3",
          "aggression" : "100",
          "armor" : "0",
@@ -3869,7 +3869,7 @@
       },
       "curassow@rainforest" : {
          "damage" : "10",
-         "location" : "forest106",
+         "location" : "forest106@rainforest",
          "speed" : "5",
          "aggression" : "0",
          "armor" : "0",
@@ -3879,7 +3879,7 @@
       },
       "leech5@rainforest" : {
          "damage" : "7",
-         "location" : "forest67",
+         "location" : "forest67@rainforest",
          "armor" : "0",
          "name" : "Leech5",
          "description" : "A big hungry leech eagerly begins to feast on your blood.",
@@ -3894,7 +3894,7 @@
       },
       "tricops@rainforest" : {
          "damage" : "8",
-         "location" : "forest126",
+         "location" : "forest126@rainforest",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -3904,7 +3904,7 @@
       },
       "nakorehu@rainforest" : {
          "damage" : "10",
-         "location" : "forest148",
+         "location" : "forest148@rainforest",
          "speed" : "0",
          "aggression" : "40",
          "armor" : "0",
@@ -3914,7 +3914,7 @@
       },
       "anaconda@rainforest" : {
          "damage" : "9",
-         "location" : "forest79",
+         "location" : "forest79@rainforest",
          "armor" : "0",
          "name" : "Anaconda",
          "description" : "A giant anaconda glides towards you over the wet ground.",
@@ -3928,7 +3928,7 @@
       },
       "howler@rainforest" : {
          "damage" : "8",
-         "location" : "forest38",
+         "location" : "forest38@rainforest",
          "speed" : "4",
          "aggression" : "0",
          "armor" : "0",
@@ -3939,7 +3939,7 @@
       },
       "mogani@rainforest" : {
          "damage" : "10",
-         "location" : "forest124",
+         "location" : "forest124@rainforest",
          "speed" : "3",
          "aggression" : "40",
          "armor" : "0",
@@ -3949,7 +3949,7 @@
       },
       "tamandua@rainforest" : {
          "damage" : "12",
-         "location" : "forest20",
+         "location" : "forest20@rainforest",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -3959,7 +3959,7 @@
       },
       "tapir@rainforest" : {
          "damage" : "10",
-         "location" : "forest49",
+         "location" : "forest49@rainforest",
          "speed" : "2",
          "aggression" : "0",
          "armor" : "0",
@@ -3969,7 +3969,7 @@
       },
       "piranha2@rainforest" : {
          "damage" : "12",
-         "location" : "forest87",
+         "location" : "forest87@rainforest",
          "armor" : "0",
          "name" : "Piranha2",
          "description" : "A vicious piranha attacks your legs.",
@@ -3984,7 +3984,7 @@
       },
       "tanacu@rainforest" : {
          "damage" : "10",
-         "location" : "forest114",
+         "location" : "forest114@rainforest",
          "speed" : "0",
          "aggression" : "90",
          "armor" : "0",
@@ -3994,7 +3994,7 @@
       },
       "alpaca@rainforest" : {
          "damage" : "10",
-         "location" : "mount38",
+         "location" : "mount38@rainforest",
          "speed" : "2",
          "aggression" : "0",
          "armor" : "0",
@@ -4004,7 +4004,7 @@
       },
       "agouti@rainforest" : {
          "damage" : "7",
-         "location" : "forest144",
+         "location" : "forest144@rainforest",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -4015,7 +4015,7 @@
       },
       "caiman@rainforest" : {
          "damage" : "15",
-         "location" : "forest57",
+         "location" : "forest57@rainforest",
          "speed" : "0",
          "aggression" : "40",
          "armor" : "0",
@@ -4026,7 +4026,7 @@
       },
       "iguana@rainforest" : {
          "damage" : "8",
-         "location" : "forest93",
+         "location" : "forest93@rainforest",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -4037,7 +4037,7 @@
       },
       "horse@rainforest" : {
          "damage" : "12",
-         "location" : "mount44",
+         "location" : "mount44@rainforest",
          "speed" : "2",
          "aggression" : "0",
          "armor" : "0",
@@ -4048,7 +4048,7 @@
       },
       "capuchin@rainforest" : {
          "damage" : "8",
-         "location" : "forest37",
+         "location" : "forest37@rainforest",
          "armor" : "0",
          "name" : "Capuchin",
          "description" : "A black capuchin monkey leaps about here among the branches.",
@@ -4062,7 +4062,7 @@
       },
       "piranha7@rainforest" : {
          "damage" : "12",
-         "location" : "forest91",
+         "location" : "forest91@rainforest",
          "armor" : "0",
          "name" : "Piranha7",
          "description" : "A vicious piranha attacks your legs.",
@@ -4077,7 +4077,7 @@
       },
       "ants@rainforest" : {
          "damage" : "5",
-         "location" : "forest68",
+         "location" : "forest68@rainforest",
          "speed" : "0",
          "aggression" : "4",
          "armor" : "0",
@@ -4089,7 +4089,7 @@
       },
       "manatee@rainforest" : {
          "damage" : "8",
-         "location" : "river18",
+         "location" : "river18@rainforest",
          "armor" : "0",
          "name" : "Manatee",
          "description" : "A mournful-looking manatee surfaces just next to you.",
@@ -4102,7 +4102,7 @@
       },
       "duck@rainforest" : {
          "damage" : "7",
-         "location" : "forest5",
+         "location" : "forest5@rainforest",
          "armor" : "0",
          "name" : "Duck",
          "description" : "A torrent duck is plucking stonefly larvae from one of the rocks here.",
@@ -4116,7 +4116,7 @@
       },
       "hoatzin@rainforest" : {
          "damage" : "10",
-         "location" : "forest131",
+         "location" : "forest131@rainforest",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -4129,7 +4129,7 @@
       },
       "peccary@rainforest" : {
          "damage" : "8",
-         "location" : "forest128",
+         "location" : "forest128@rainforest",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -4140,7 +4140,7 @@
       },
       "leech@rainforest" : {
          "damage" : "10",
-         "location" : "forest64",
+         "location" : "forest64@rainforest",
          "armor" : "0",
          "name" : "Leech",
          "description" : "A truly elephantine leech fastens itself securely to your leg.",
@@ -4154,7 +4154,7 @@
       },
       "egret@rainforest" : {
          "damage" : "10",
-         "location" : "forest122",
+         "location" : "forest122@rainforest",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -4165,7 +4165,7 @@
       },
       "parakeet@rainforest" : {
          "damage" : "8",
-         "location" : "forest17",
+         "location" : "forest17@rainforest",
          "armor" : "0",
          "name" : "Parakeet",
          "description" : "A beautiful but noisy parakeet flaps about your head annoyingly.",
@@ -4178,7 +4178,7 @@
       },
       "bear@rainforest" : {
          "damage" : "15",
-         "location" : "mount45",
+         "location" : "mount45@rainforest",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -4189,7 +4189,7 @@
       },
       "piranha5@rainforest" : {
          "damage" : "12",
-         "location" : "forest91",
+         "location" : "forest91@rainforest",
          "armor" : "0",
          "name" : "Piranha5",
          "description" : "A vicious piranha attacks your legs.",
@@ -4204,7 +4204,7 @@
       },
       "condor@rainforest" : {
          "damage" : "15",
-         "location" : "mount17",
+         "location" : "mount17@rainforest",
          "speed" : "0",
          "aggression" : "40",
          "armor" : "0",
@@ -4215,7 +4215,7 @@
       },
       "uacari@rainforest" : {
          "damage" : "8",
-         "location" : "forest36",
+         "location" : "forest36@rainforest",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -4227,7 +4227,7 @@
       },
       "owl@rainforest" : {
          "damage" : "8",
-         "location" : "forest10",
+         "location" : "forest10@rainforest",
          "armor" : "0",
          "name" : "Owl",
          "description" : "A horned owl scans the ground for mouse oppossums.",
@@ -4241,7 +4241,7 @@
       },
       "ocelot@rainforest" : {
          "damage" : "11",
-         "location" : "forest59",
+         "location" : "forest59@rainforest",
          "speed" : "4",
          "aggression" : "0",
          "armor" : "0",
@@ -4252,7 +4252,7 @@
       },
       "tortoise@rainforest" : {
          "damage" : "8",
-         "location" : "forest109",
+         "location" : "forest109@rainforest",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "25",
@@ -4262,7 +4262,7 @@
       },
       "harpy@rainforest" : {
          "damage" : "15",
-         "location" : "forest41",
+         "location" : "forest41@rainforest",
          "armor" : "0",
          "name" : "Harpy",
          "description" : "A harpy eagle reaches for you with massive talons.",
@@ -4276,7 +4276,7 @@
       },
       "piranha3@rainforest" : {
          "damage" : "12",
-         "location" : "forest87",
+         "location" : "forest87@rainforest",
          "armor" : "0",
          "name" : "Piranha3",
          "description" : "A vicious piranha attacks your legs.",
@@ -4291,7 +4291,7 @@
       },
       "spider@rainforest" : {
          "damage" : "8",
-         "location" : "forest32",
+         "location" : "forest32@rainforest",
          "armor" : "0",
          "name" : "Spider",
          "description" : "A spider monkey chatters at you from an adjacent branch.",
@@ -4306,7 +4306,7 @@
       },
       "turtle@rainforest" : {
          "damage" : "5",
-         "location" : "forest82",
+         "location" : "forest82@rainforest",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -4316,7 +4316,7 @@
       },
       "green@rainforest" : {
          "damage" : "8",
-         "location" : "forest45",
+         "location" : "forest45@rainforest",
          "armor" : "0",
          "name" : "Green",
          "description" : "A green macaw mobs you, agitated by your presence.",
@@ -4330,7 +4330,7 @@
       },
       "latuka@rainforest" : {
          "damage" : "10",
-         "location" : "forest134",
+         "location" : "forest134@rainforest",
          "armor" : "0",
          "name" : "Latuka",
          "description" : "Latuka the Indian is gathering herbs here.",
@@ -4343,7 +4343,7 @@
       },
       "bat@rainforest" : {
          "damage" : "10",
-         "location" : "forest16",
+         "location" : "forest16@rainforest",
          "armor" : "0",
          "name" : "Bat",
          "description" : "An evil blackbat vampire wants to taste your blood!",
@@ -4357,7 +4357,7 @@
       },
       "chinchilla@rainforest" : {
          "damage" : "5",
-         "location" : "mount16",
+         "location" : "mount16@rainforest",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -4368,7 +4368,7 @@
       },
       "axape@rainforest" : {
          "damage" : "12",
-         "location" : "forest116",
+         "location" : "forest116@rainforest",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -4378,7 +4378,7 @@
       },
       "explorer@rainforest" : {
          "damage" : "8",
-         "location" : "mount1",
+         "location" : "mount1@rainforest",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -4389,7 +4389,7 @@
       },
       "pirarucu@rainforest" : {
          "damage" : "10",
-         "location" : "river7",
+         "location" : "river7@rainforest",
          "armor" : "0",
          "name" : "Pirarucu",
          "description" : "A pirarucu, an enormous freshwater fish, is swimming by the side of the raft.",
@@ -4405,7 +4405,7 @@
       },
       "caracara@rainforest" : {
          "damage" : "10",
-         "location" : "mount23",
+         "location" : "mount23@rainforest",
          "armor" : "0",
          "name" : "Caracara",
          "description" : "A caracara flies close by you, mobbing you.  Maybe you are near his nest.",
@@ -4418,7 +4418,7 @@
       },
       "biguli@rainforest" : {
          "damage" : "10",
-         "location" : "forest148",
+         "location" : "forest148@rainforest",
          "speed" : "0",
          "aggression" : "40",
          "armor" : "0",
@@ -4428,7 +4428,7 @@
       },
       "stag@rainforest" : {
          "damage" : "12",
-         "location" : "mount12",
+         "location" : "mount12@rainforest",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -4438,7 +4438,7 @@
       },
       "vulture@rainforest" : {
          "damage" : "12",
-         "location" : "forest43",
+         "location" : "forest43@rainforest",
          "armor" : "0",
          "name" : "Vulture",
          "description" : "A yellow-headed vulture swoops down on you from above.",
@@ -4452,7 +4452,7 @@
       },
       "potona@rainforest" : {
          "damage" : "10",
-         "location" : "forest115",
+         "location" : "forest115@rainforest",
          "speed" : "0",
          "aggression" : "40",
          "armor" : "0",
@@ -4462,7 +4462,7 @@
       },
       "nineband@rainforest" : {
          "damage" : "10",
-         "location" : "forest48",
+         "location" : "forest48@rainforest",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "20",
@@ -4473,7 +4473,7 @@
       },
       "piranha6@rainforest" : {
          "damage" : "12",
-         "location" : "forest91",
+         "location" : "forest91@rainforest",
          "armor" : "0",
          "name" : "Piranha6",
          "description" : "A vicious piranha attacks your legs.",
@@ -4488,7 +4488,7 @@
       },
       "guanaco@rainforest" : {
          "damage" : "12",
-         "location" : "mount4",
+         "location" : "mount4@rainforest",
          "speed" : "3",
          "aggression" : "0",
          "armor" : "0",
@@ -4499,7 +4499,7 @@
       },
       "leech4@rainforest" : {
          "damage" : "7",
-         "location" : "forest67",
+         "location" : "forest67@rainforest",
          "armor" : "0",
          "name" : "Leech4",
          "description" : "A big hungry leech eagerly begins to feast on your blood.",
@@ -4514,7 +4514,7 @@
       },
       "puma@rainforest" : {
          "damage" : "17",
-         "location" : "mount7",
+         "location" : "mount7@rainforest",
          "speed" : "0",
          "aggression" : "20",
          "armor" : "0",
@@ -4524,7 +4524,7 @@
       },
       "leech3@rainforest" : {
          "damage" : "7",
-         "location" : "forest67",
+         "location" : "forest67@rainforest",
          "armor" : "0",
          "name" : "Leech3",
          "description" : "A big hungry leech eagerly begins to feast on your blood.",
@@ -4539,7 +4539,7 @@
       },
       "umbrellabird@rainforest" : {
          "damage" : "8",
-         "location" : "forest7",
+         "location" : "forest7@rainforest",
          "armor" : "0",
          "name" : "Umbrellabird",
          "description" : "The umbrella bird is the ugliest bird you have ever seen.",
@@ -4553,7 +4553,7 @@
       },
       "pudu@rainforest" : {
          "damage" : "8",
-         "location" : "mount38",
+         "location" : "mount38@rainforest",
          "speed" : "2",
          "aggression" : "0",
          "armor" : "0",
@@ -4563,7 +4563,7 @@
       },
       "piranha1@rainforest" : {
          "damage" : "12",
-         "location" : "forest87",
+         "location" : "forest87@rainforest",
          "armor" : "0",
          "name" : "Piranha1",
          "description" : "A vicious piranha attacks your legs.",
@@ -4578,7 +4578,7 @@
       },
       "toucan@rainforest" : {
          "damage" : "5",
-         "location" : "forest133",
+         "location" : "forest133@rainforest",
          "armor" : "0",
          "name" : "Toucan",
          "description" : "A huge-beaked toucan squawks at you unattractively.",
@@ -4591,7 +4591,7 @@
       },
       "leech1@rainforest" : {
          "damage" : "7",
-         "location" : "forest67",
+         "location" : "forest67@rainforest",
          "armor" : "0",
          "name" : "Leech1",
          "description" : "A big hungry leech eagerly begins to feast on your blood.",
@@ -4606,7 +4606,7 @@
       },
       "corixi@rainforest" : {
          "damage" : "10",
-         "location" : "forest117",
+         "location" : "forest117@rainforest",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "0",
@@ -4616,7 +4616,7 @@
       },
       "capybara@rainforest" : {
          "damage" : "9",
-         "location" : "forest56",
+         "location" : "forest56@rainforest",
          "speed" : "2",
          "aggression" : "0",
          "armor" : "0",
@@ -4629,7 +4629,7 @@
             "Shock"
          ],
          "damage" : "10",
-         "location" : "forest113",
+         "location" : "forest113@rainforest",
          "speed" : "0",
          "aggression" : "90",
          "armor" : "0",
@@ -4639,7 +4639,7 @@
       },
       "tegu@rainforest" : {
          "damage" : "9",
-         "location" : "forest72",
+         "location" : "forest72@rainforest",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -4650,7 +4650,7 @@
       },
       "king@rainforest" : {
          "damage" : "15",
-         "location" : "river12",
+         "location" : "river12@rainforest",
          "armor" : "0",
          "name" : "King",
          "description" : "A brightly-coloured king vulture swoops down on you from above!",
@@ -4664,7 +4664,7 @@
       },
       "piranha4@rainforest" : {
          "damage" : "12",
-         "location" : "forest87",
+         "location" : "forest87@rainforest",
          "armor" : "0",
          "name" : "Piranha4",
          "description" : "A vicious piranha attacks your legs.",
@@ -4679,7 +4679,7 @@
       },
       "dolphin@rainforest" : {
          "damage" : "10",
-         "location" : "river15",
+         "location" : "river15@rainforest",
          "armor" : "0",
          "name" : "Dolphin",
          "description" : "A freshwater dolphin leaps playfully in the water beside your raft.",
@@ -4692,7 +4692,7 @@
       },
       "squirrel@rainforest" : {
          "damage" : "8",
-         "location" : "forest34",
+         "location" : "forest34@rainforest",
          "armor" : "0",
          "name" : "Squirrel",
          "description" : "A squirrel monkey dangles from the branches using its prehensile tail.",
@@ -4707,7 +4707,7 @@
       },
       "karitu@rainforest" : {
          "damage" : "10",
-         "location" : "forest119",
+         "location" : "forest119@rainforest",
          "speed" : "4",
          "aggression" : "40",
          "armor" : "0",
@@ -4717,7 +4717,7 @@
       },
       "sloth@rainforest" : {
          "damage" : "8",
-         "location" : "forest94",
+         "location" : "forest94@rainforest",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -4728,7 +4728,7 @@
       },
       "leech6@rainforest" : {
          "damage" : "7",
-         "location" : "forest67",
+         "location" : "forest67@rainforest",
          "armor" : "0",
          "name" : "Leech6",
          "description" : "A big hungry leech eagerly begins to feast on your blood.",

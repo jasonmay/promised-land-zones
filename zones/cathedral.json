@@ -1,7 +1,7 @@
 {
    "obj" : {
       "holy_robes@cathedral" : {
-         "location" : "WORN_BY:Priest",
+         "location" : "WORN_BY:priest@cathedral",
          "armor" : "5",
          "oflags" : [
             "Armor",
@@ -21,7 +21,7 @@
          ]
       },
       "portal_c@cathedral" : {
-         "location" : "IN_ROOM:c_portal",
+         "location" : "IN_ROOM:c_portal@cathedral",
          "oflags" : [
             "NoGet"
          ],
@@ -32,7 +32,7 @@
       },
       "door_sside@cathedral" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:side1",
+         "location" : "IN_ROOM:side1@cathedral",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -47,7 +47,7 @@
          "desc[0]" : "The door is open."
       },
       "plate@cathedral" : {
-         "location" : "IN_ROOM:inchurch",
+         "location" : "IN_ROOM:inchurch@cathedral",
          "oflags" : [
             "NoGet"
          ],
@@ -56,13 +56,13 @@
          "desc[0]" : "There is a plate here for offerings to the church. \nYour contribution will be very appreciated."
       },
       "platemail@cathedral" : {
-         "location" : "IN_ROOM:armhall",
+         "location" : "IN_ROOM:armhall@cathedral",
          "pname" : "Platemail",
          "name" : "Platemail",
          "desc[0]" : "A beautiful set of Platemail is displayed to your right."
       },
       "window@cathedral" : {
-         "location" : "IN_ROOM:n_top",
+         "location" : "IN_ROOM:n_top@cathedral",
          "oflags" : [
             "NoGet"
          ],
@@ -83,7 +83,7 @@
       },
       "bushes_s@cathedral" : {
          "desc[1]" : "Thick &+Gbushes&* form a wall to the north.",
-         "location" : "IN_ROOM:path2",
+         "location" : "IN_ROOM:path2@cathedral",
          "oflags" : [
             "NoGet"
          ],
@@ -97,7 +97,7 @@
          "desc[0]" : "The &+Gbushes&* to the north have been shredded."
       },
       "mural@cathedral" : {
-         "location" : "IN_ROOM:se_chap",
+         "location" : "IN_ROOM:se_chap@cathedral",
          "oflags" : [
             "NoGet"
          ],
@@ -108,7 +108,7 @@
       },
       "door_crypt@cathedral" : {
          "desc[1]" : "The door is shut tightly.",
-         "location" : "IN_ROOM:cryptent",
+         "location" : "IN_ROOM:cryptent@cathedral",
          "oflags" : [
             "NoGet"
          ],
@@ -120,7 +120,7 @@
          "desc[0]" : "Through some clever mechanism, the door has been opened."
       },
       "churchkey@cathedral" : {
-         "location" : "CARRIED_BY:Priest",
+         "location" : "CARRIED_BY:priest@cathedral",
          "oflags" : [
             "Key"
          ],
@@ -135,7 +135,7 @@
       },
       "door_reliq@cathedral" : {
          "desc[1]" : "The door is shut tightly.",
-         "location" : "IN_ROOM:reliq",
+         "location" : "IN_ROOM:reliq@cathedral",
          "oflags" : [
             "NoGet"
          ],
@@ -148,7 +148,7 @@
       },
       "fountain_pure@cathedral" : {
          "desc[1]" : "The fountain here runs with &+Ccool &+Bwater&*.",
-         "location" : "IN_ROOM:reliq",
+         "location" : "IN_ROOM:reliq@cathedral",
          "oflags" : [
             "NoGet"
          ],
@@ -160,7 +160,7 @@
          "desc[0]" : "The fountain is temporarily out of service."
       },
       "sliver@cathedral" : {
-         "location" : "IN_CONTAINER:coffin_tower",
+         "location" : "IN_CONTAINER:coffin_tower@cathedral",
          "altname" : "piece",
          "name" : "sliver",
          "examine" : "Why look! It's a piece of the crucifix! (Yeah right..)",
@@ -172,7 +172,7 @@
       },
       "fountain_up@cathedral" : {
          "desc[1]" : "A &+Cmagnificent&* fountain of &+rblood&* dominates the room.",
-         "location" : "IN_ROOM:crossbay",
+         "location" : "IN_ROOM:crossbay@cathedral",
          "oflags" : [
             "PushToggle",
             "NoGet"
@@ -187,7 +187,7 @@
       },
       "door_vambed@cathedral" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:vambed",
+         "location" : "IN_ROOM:vambed@cathedral",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -214,7 +214,7 @@
       },
       "bushes_n@cathedral" : {
          "desc[1]" : "Thick &+Gbushes&* form a wall to the south.",
-         "location" : "IN_ROOM:path1",
+         "location" : "IN_ROOM:path1@cathedral",
          "oflags" : [
             "NoGet"
          ],
@@ -229,7 +229,7 @@
       },
       "door_trap@cathedral" : {
          "desc[1]" : "The door is closed, and no amount of fiddling will open it.",
-         "location" : "IN_ROOM:side2",
+         "location" : "IN_ROOM:side2@cathedral",
          "oflags" : [
             "NoGet"
          ],
@@ -242,7 +242,7 @@
          "desc[0]" : "The door is open."
       },
       "grail@cathedral" : {
-         "location" : "IN_ROOM:reliq",
+         "location" : "IN_ROOM:reliq@cathedral",
          "altname" : "cup",
          "pname" : "grail",
          "name" : "grail",
@@ -252,7 +252,7 @@
       },
       "door_secroom@cathedral" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:secroom",
+         "location" : "IN_ROOM:secroom@cathedral",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -267,7 +267,7 @@
          "desc[0]" : "The door is open."
       },
       "portal_n@cathedral" : {
-         "location" : "IN_ROOM:n_portal",
+         "location" : "IN_ROOM:n_portal@cathedral",
          "oflags" : [
             "NoGet"
          ],
@@ -277,19 +277,19 @@
          "examine" : "The portal is open, but as you look through you cant see much of anything."
       },
       "ironmail@cathedral" : {
-         "location" : "IN_ROOM:armhall",
+         "location" : "IN_ROOM:armhall@cathedral",
          "pname" : "Ironmail",
          "name" : "Ironmail",
          "desc[0]" : "The &+LIronmail&* stands proudly at your left.  It looks to be finely\ncrafted."
       },
       "wolfarmor@cathedral" : {
-         "location" : "IN_ROOM:armhall",
+         "location" : "IN_ROOM:armhall@cathedral",
          "pname" : "WolfArmor",
          "name" : "WolfArmor",
          "desc[0]" : "A tastefully sculpted suit of &+yWolfArmor&* stands here &+Cmagestically&*."
       },
       "picture@cathedral" : {
-         "location" : "IN_ROOM:s_portal",
+         "location" : "IN_ROOM:s_portal@cathedral",
          "oflags" : [
             "NoGet"
          ],
@@ -299,7 +299,7 @@
          "examine" : "It's a &+RRed&* Herring.  &+W(Get moving there's nothing useful here.)&*"
       },
       "mantle@cathedral" : {
-         "location" : "WORN_BY:Astasia",
+         "location" : "WORN_BY:astasia@cathedral",
          "oflags" : [
             "Wearable",
             "Glowing"
@@ -314,7 +314,7 @@
       },
       "door_library@cathedral" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:library",
+         "location" : "IN_ROOM:library@cathedral",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -330,7 +330,7 @@
       },
       "door_astbed@cathedral" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:astbed",
+         "location" : "IN_ROOM:astbed@cathedral",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -346,7 +346,7 @@
       },
       "coffin_tower@cathedral" : {
          "desc[1]" : "The sacred &+ycoffin&* of Vladimir is here.",
-         "location" : "IN_ROOM:n_top",
+         "location" : "IN_ROOM:n_top@cathedral",
          "oflags" : [
             "Container",
             "NoGet"
@@ -359,7 +359,7 @@
          "desc[0]" : "The &+ycoffin&* has been ripped open."
       },
       "darkarmor@cathedral" : {
-         "location" : "WORN_BY:ashram",
+         "location" : "WORN_BY:ashram@cathedral",
          "armor" : "25",
          "oflags" : [
             "Armor",
@@ -378,7 +378,7 @@
          ]
       },
       "portal_s@cathedral" : {
-         "location" : "IN_ROOM:s_portal",
+         "location" : "IN_ROOM:s_portal@cathedral",
          "oflags" : [
             "NoGet"
          ],
@@ -389,7 +389,7 @@
       },
       "door_armor@cathedral" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:armhall",
+         "location" : "IN_ROOM:armhall@cathedral",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -404,7 +404,7 @@
          "desc[0]" : "The door is open."
       },
       "coin@cathedral" : {
-         "location" : "IN_ROOM:library",
+         "location" : "IN_ROOM:library@cathedral",
          "weight" : "5",
          "pname" : "coin",
          "name" : "coin",
@@ -415,7 +415,7 @@
       },
       "door_catacomb@cathedral" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:catacomb",
+         "location" : "IN_ROOM:catacomb@cathedral",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -431,7 +431,7 @@
       },
       "door_saisle@cathedral" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:s_aisle1",
+         "location" : "IN_ROOM:s_aisle1@cathedral",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -447,7 +447,7 @@
       },
       "door_sorbtomb@cathedral" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:sorbtomb",
+         "location" : "IN_ROOM:sorbtomb@cathedral",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -463,7 +463,7 @@
       },
       "door_nside@cathedral" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:n_aisle1",
+         "location" : "IN_ROOM:n_aisle1@cathedral",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -479,7 +479,7 @@
       },
       "door_lowhall@cathedral" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:lowhall",
+         "location" : "IN_ROOM:lowhall@cathedral",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -494,7 +494,7 @@
          "desc[0]" : "The door is open."
       },
       "china@cathedral" : {
-         "location" : "IN_ROOM:milbed",
+         "location" : "IN_ROOM:milbed@cathedral",
          "weight" : "5",
          "pname" : "china",
          "name" : "china",
@@ -504,7 +504,7 @@
          "size" : "5"
       },
       "sarcophagus@cathedral" : {
-         "location" : "IN_ROOM:vamcrypt",
+         "location" : "IN_ROOM:vamcrypt@cathedral",
          "oflags" : [
             "NoGet"
          ],
@@ -514,7 +514,7 @@
       },
       "fountain_down@cathedral" : {
          "desc[1]" : "The hole in the roof is covered by the bottom of the fountain.",
-         "location" : "IN_ROOM:vaulcham",
+         "location" : "IN_ROOM:vaulcham@cathedral",
          "oflags" : [
             "NoGet"
          ],
@@ -529,9 +529,9 @@
    "loc" : {
       "e_amb@cathedral" : {
          "exits" : {
-            "e" : "e_chap",
-            "n" : "ne_amb",
-            "s" : "se_amb"
+            "e" : "e_chap@cathedral",
+            "n" : "ne_amb@cathedral",
+            "s" : "se_amb@cathedral"
          },
          "flags" : [
             "Dark"
@@ -544,7 +544,7 @@
       },
       "n_porch@cathedral" : {
          "exits" : {
-            "s" : "n_tran"
+            "s" : "n_tran@cathedral"
          },
          "flags" : [
             "Dark",
@@ -558,7 +558,7 @@
       },
       "milbed@cathedral" : {
          "exits" : {
-            "e" : "cobwebs"
+            "e" : "cobwebs@cathedral"
          },
          "flags" : [
             "Light"
@@ -571,9 +571,9 @@
       },
       "path1@cathedral" : {
          "exits" : {
-            "w" : "church",
-            "e" : "royal",
-            "s" : "^bushes_n"
+            "w" : "church@cathedral",
+            "e" : "royal@cathedral",
+            "s" : "^bushes_n@cathedral"
          },
          "flags" : [
             "Light",
@@ -587,9 +587,9 @@
       },
       "wolven@cathedral" : {
          "exits" : {
-            "e" : "weaphall",
-            "w" : "armhall",
-            "n" : "westcat"
+            "e" : "weaphall@cathedral",
+            "w" : "armhall@cathedral",
+            "n" : "westcat@cathedral"
          },
          "flags" : [
             "Light"
@@ -602,7 +602,7 @@
       },
       "s_chap@cathedral" : {
          "exits" : {
-            "n" : "s_amb"
+            "n" : "s_amb@cathedral"
          },
          "flags" : [
             "Dark",
@@ -616,7 +616,7 @@
       },
       "e_chap@cathedral" : {
          "exits" : {
-            "w" : "e_amb"
+            "w" : "e_amb@cathedral"
          },
          "flags" : [
             "Dark",
@@ -630,8 +630,8 @@
       },
       "armhall@cathedral" : {
          "exits" : {
-            "e" : "wolven",
-            "s" : "^door_armor"
+            "e" : "wolven@cathedral",
+            "s" : "^door_armor@cathedral"
          },
          "flags" : [
             "Light"
@@ -644,7 +644,7 @@
       },
       "s_portal@cathedral" : {
          "exits" : {
-            "w" : "royal"
+            "w" : "royal@cathedral"
          },
          "flags" : [
             "Light",
@@ -658,10 +658,10 @@
       },
       "royal@cathedral" : {
          "exits" : {
-            "e" : "c_portal",
-            "w" : "path1",
-            "n" : "n_portal",
-            "s" : "s_portal"
+            "e" : "c_portal@cathedral",
+            "w" : "path1@cathedral",
+            "n" : "n_portal@cathedral",
+            "s" : "s_portal@cathedral"
          },
          "flags" : [
             "Light",
@@ -675,8 +675,8 @@
       },
       "n_portal@cathedral" : {
          "exits" : {
-            "e" : "eterdark",
-            "w" : "royal"
+            "e" : "eterdark@cathedral",
+            "w" : "royal@cathedral"
          },
          "flags" : [
             "Dark",
@@ -690,8 +690,8 @@
       },
       "eastcat@cathedral" : {
          "exits" : {
-            "w" : "catacomb",
-            "s" : "vaulhall"
+            "w" : "catacomb@cathedral",
+            "s" : "vaulhall@cathedral"
          },
          "flags" : [
             "Dark"
@@ -704,8 +704,8 @@
       },
       "lowpass@cathedral" : {
          "exits" : {
-            "n" : "lowhall",
-            "s" : "cobwebs"
+            "n" : "lowhall@cathedral",
+            "s" : "cobwebs@cathedral"
          },
          "flags" : [
             "Dark"
@@ -718,9 +718,9 @@
       },
       "ne_amb@cathedral" : {
          "exits" : {
-            "w" : "n_amb",
-            "n" : "ne_chap",
-            "s" : "e_amb"
+            "w" : "n_amb@cathedral",
+            "n" : "ne_chap@cathedral",
+            "s" : "e_amb@cathedral"
          },
          "flags" : [
             "Dark"
@@ -733,9 +733,9 @@
       },
       "s_amb@cathedral" : {
          "exits" : {
-            "e" : "se_amb",
-            "w" : "s_aisle3",
-            "s" : "s_chap"
+            "e" : "se_amb@cathedral",
+            "w" : "s_aisle3@cathedral",
+            "s" : "s_chap@cathedral"
          },
          "flags" : [
             "Dark"
@@ -748,9 +748,9 @@
       },
       "vaulcham@cathedral" : {
          "exits" : {
-            "e" : "lowhall",
-            "n" : "vaulhall",
-            "u" : "^fountain_down"
+            "e" : "lowhall@cathedral",
+            "n" : "vaulhall@cathedral",
+            "u" : "^fountain_down@cathedral"
          },
          "flags" : [
             "Dark"
@@ -763,8 +763,8 @@
       },
       "carnage2@cathedral" : {
          "exits" : {
-            "w" : "cryptent",
-            "n" : "carnage1"
+            "w" : "cryptent@cathedral",
+            "n" : "carnage1@cathedral"
          },
          "flags" : [
             "Dark"
@@ -777,8 +777,8 @@
       },
       "s_tower@cathedral" : {
          "exits" : {
-            "u" : "s_stairs",
-            "n" : "nave1"
+            "u" : "s_stairs@cathedral",
+            "n" : "nave1@cathedral"
          },
          "flags" : [
             "Dark"
@@ -791,10 +791,10 @@
       },
       "n_tran@cathedral" : {
          "exits" : {
-            "e" : "n_aisle3",
-            "w" : "n_aisle2",
-            "n" : "n_porch",
-            "s" : "crossbay"
+            "e" : "n_aisle3@cathedral",
+            "w" : "n_aisle2@cathedral",
+            "n" : "n_porch@cathedral",
+            "s" : "crossbay@cathedral"
          },
          "flags" : [
             "Dark"
@@ -807,9 +807,9 @@
       },
       "s_aisle1@cathedral" : {
          "exits" : {
-            "e" : "s_aisle2",
-            "n" : "nave2",
-            "s" : "^door_saisle"
+            "e" : "s_aisle2@cathedral",
+            "n" : "nave2@cathedral",
+            "s" : "^door_saisle@cathedral"
          },
          "flags" : [
             "Dark"
@@ -822,9 +822,9 @@
       },
       "s_aisle3@cathedral" : {
          "exits" : {
-            "e" : "s_amb",
-            "w" : "s_tran",
-            "n" : "choir"
+            "e" : "s_amb@cathedral",
+            "w" : "s_tran@cathedral",
+            "n" : "choir@cathedral"
          },
          "flags" : [
             "Dark"
@@ -837,10 +837,10 @@
       },
       "cryptent@cathedral" : {
          "exits" : {
-            "e" : "carnage2",
-            "w" : "^door_crypt",
-            "n" : "vamcrypt",
-            "s" : "vambed"
+            "e" : "carnage2@cathedral",
+            "w" : "^door_crypt@cathedral",
+            "n" : "vamcrypt@cathedral",
+            "s" : "vambed@cathedral"
          },
          "flags" : [
             "Dark"
@@ -853,8 +853,8 @@
       },
       "path5@cathedral" : {
          "exits" : {
-            "e" : "side1",
-            "w" : "path4"
+            "e" : "side1@cathedral",
+            "w" : "path4@cathedral"
          },
          "flags" : [
             "Dark",
@@ -868,7 +868,7 @@
       },
       "ne_chap@cathedral" : {
          "exits" : {
-            "s" : "ne_amb"
+            "s" : "ne_amb@cathedral"
          },
          "flags" : [
             "Dark",
@@ -882,8 +882,8 @@
       },
       "n_tower@cathedral" : {
          "exits" : {
-            "u" : "n_stairs",
-            "s" : "nave1"
+            "u" : "n_stairs@cathedral",
+            "s" : "nave1@cathedral"
          },
          "flags" : [
             "Dark"
@@ -896,7 +896,7 @@
       },
       "sorbtomb@cathedral" : {
          "exits" : {
-            "s" : "^door_sorbtomb"
+            "s" : "^door_sorbtomb@cathedral"
          },
          "flags" : [
             "Light"
@@ -909,9 +909,9 @@
       },
       "n_aisle3@cathedral" : {
          "exits" : {
-            "e" : "n_amb",
-            "w" : "n_tran",
-            "s" : "choir"
+            "e" : "n_amb@cathedral",
+            "w" : "n_tran@cathedral",
+            "s" : "choir@cathedral"
          },
          "flags" : [
             "Dark"
@@ -924,7 +924,7 @@
       },
       "apse@cathedral" : {
          "exits" : {
-            "w" : "crossbay"
+            "w" : "crossbay@cathedral"
          },
          "flags" : [
             "Dark"
@@ -937,7 +937,7 @@
       },
       "inchurch@cathedral" : {
          "exits" : {
-            "n" : "church"
+            "n" : "church@cathedral"
          },
          "flags" : [
             "Light",
@@ -951,9 +951,9 @@
       },
       "se_amb@cathedral" : {
          "exits" : {
-            "w" : "s_amb",
-            "n" : "e_amb",
-            "s" : "se_chap"
+            "w" : "s_amb@cathedral",
+            "n" : "e_amb@cathedral",
+            "s" : "se_chap@cathedral"
          },
          "flags" : [
             "Dark"
@@ -966,8 +966,8 @@
       },
       "cobwebs@cathedral" : {
          "exits" : {
-            "w" : "milbed",
-            "n" : "lowpass"
+            "w" : "milbed@cathedral",
+            "n" : "lowpass@cathedral"
          },
          "flags" : [
             "Dark"
@@ -980,8 +980,8 @@
       },
       "path4@cathedral" : {
          "exits" : {
-            "e" : "path5",
-            "w" : "path3"
+            "e" : "path5@cathedral",
+            "w" : "path3@cathedral"
          },
          "flags" : [
             "Dark",
@@ -995,9 +995,9 @@
       },
       "nave1@cathedral" : {
          "exits" : {
-            "e" : "nave2",
-            "n" : "n_tower",
-            "s" : "s_tower"
+            "e" : "nave2@cathedral",
+            "n" : "n_tower@cathedral",
+            "s" : "s_tower@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1010,9 +1010,9 @@
       },
       "lowhall@cathedral" : {
          "exits" : {
-            "e" : "^door_lowhall",
-            "w" : "vaulcham",
-            "s" : "lowpass"
+            "e" : "^door_lowhall@cathedral",
+            "w" : "vaulcham@cathedral",
+            "s" : "lowpass@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1025,9 +1025,9 @@
       },
       "catacomb@cathedral" : {
          "exits" : {
-            "w" : "westcat",
-            "e" : "eastcat",
-            "n" : "^door_catacomb"
+            "w" : "westcat@cathedral",
+            "e" : "eastcat@cathedral",
+            "n" : "^door_catacomb@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1040,10 +1040,10 @@
       },
       "choir@cathedral" : {
          "exits" : {
-            "e" : "apse",
-            "w" : "crossbay",
-            "n" : "n_aisle3",
-            "s" : "s_aisle3"
+            "e" : "apse@cathedral",
+            "w" : "crossbay@cathedral",
+            "n" : "n_aisle3@cathedral",
+            "s" : "s_aisle3@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1056,8 +1056,8 @@
       },
       "vaulhall@cathedral" : {
          "exits" : {
-            "n" : "eastcat",
-            "s" : "vaulcham"
+            "n" : "eastcat@cathedral",
+            "s" : "vaulcham@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1070,7 +1070,7 @@
       },
       "s_top@cathedral" : {
          "exits" : {
-            "d" : "s_stairs"
+            "d" : "s_stairs@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1083,8 +1083,8 @@
       },
       "westcat@cathedral" : {
          "exits" : {
-            "e" : "catacomb",
-            "s" : "wolven"
+            "e" : "catacomb@cathedral",
+            "s" : "wolven@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1097,9 +1097,9 @@
       },
       "church@cathedral" : {
          "exits" : {
-            "e" : "path1",
-            "w" : "Misty2@moor",
-            "s" : "inchurch"
+            "e" : "path1@cathedral",
+            "w" : "misty2@moor",
+            "s" : "inchurch@cathedral"
          },
          "flags" : [
             "Light",
@@ -1113,9 +1113,9 @@
       },
       "n_aisle2@cathedral" : {
          "exits" : {
-            "e" : "n_tran",
-            "w" : "n_aisle1",
-            "s" : "nave3"
+            "e" : "n_tran@cathedral",
+            "w" : "n_aisle1@cathedral",
+            "s" : "nave3@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1128,7 +1128,7 @@
       },
       "secroom@cathedral" : {
          "exits" : {
-            "n" : "^door_secroom"
+            "n" : "^door_secroom@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1141,10 +1141,10 @@
       },
       "nave2@cathedral" : {
          "exits" : {
-            "e" : "nave3",
-            "w" : "nave1",
-            "n" : "n_aisle1",
-            "s" : "s_aisle1"
+            "e" : "nave3@cathedral",
+            "w" : "nave1@cathedral",
+            "n" : "n_aisle1@cathedral",
+            "s" : "s_aisle1@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1157,7 +1157,7 @@
       },
       "n_top@cathedral" : {
          "exits" : {
-            "d" : "n_stairs"
+            "d" : "n_stairs@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1170,10 +1170,10 @@
       },
       "s_tran@cathedral" : {
          "exits" : {
-            "e" : "s_aisle3",
-            "w" : "s_aisle2",
-            "n" : "crossbay",
-            "s" : "s_porch"
+            "e" : "s_aisle3@cathedral",
+            "w" : "s_aisle2@cathedral",
+            "n" : "crossbay@cathedral",
+            "s" : "s_porch@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1186,7 +1186,7 @@
       },
       "astbed@cathedral" : {
          "exits" : {
-            "w" : "^door_astbed"
+            "w" : "^door_astbed@cathedral"
          },
          "flags" : [
             "Light"
@@ -1199,7 +1199,7 @@
       },
       "se_chap@cathedral" : {
          "exits" : {
-            "n" : "se_amb"
+            "n" : "se_amb@cathedral"
          },
          "flags" : [
             "Dark",
@@ -1213,7 +1213,7 @@
       },
       "reliq@cathedral" : {
          "exits" : {
-            "e" : "^door_reliq"
+            "e" : "^door_reliq@cathedral"
          },
          "flags" : [
             "Dark",
@@ -1227,8 +1227,8 @@
       },
       "path2@cathedral" : {
          "exits" : {
-            "n" : "^bushes_s",
-            "s" : "path3"
+            "n" : "^bushes_s@cathedral",
+            "s" : "path3@cathedral"
          },
          "flags" : [
             "Light",
@@ -1242,10 +1242,10 @@
       },
       "nave3@cathedral" : {
          "exits" : {
-            "e" : "crossbay",
-            "w" : "nave2",
-            "n" : "n_aisle2",
-            "s" : "s_aisle2"
+            "e" : "crossbay@cathedral",
+            "w" : "nave2@cathedral",
+            "n" : "n_aisle2@cathedral",
+            "s" : "s_aisle2@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1258,8 +1258,8 @@
       },
       "path3@cathedral" : {
          "exits" : {
-            "e" : "path4",
-            "n" : "path2"
+            "e" : "path4@cathedral",
+            "n" : "path2@cathedral"
          },
          "flags" : [
             "Dark",
@@ -1273,8 +1273,8 @@
       },
       "vambed@cathedral" : {
          "exits" : {
-            "w" : "^door_vambed",
-            "n" : "cryptent"
+            "w" : "^door_vambed@cathedral",
+            "n" : "cryptent@cathedral"
          },
          "flags" : [
             "Light"
@@ -1287,11 +1287,11 @@
       },
       "crossbay@cathedral" : {
          "exits" : {
-            "e" : "choir",
-            "w" : "nave3",
-            "n" : "n_tran",
-            "d" : "^fountain_up",
-            "s" : "s_tran"
+            "e" : "choir@cathedral",
+            "w" : "nave3@cathedral",
+            "n" : "n_tran@cathedral",
+            "d" : "^fountain_up@cathedral",
+            "s" : "s_tran@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1315,7 +1315,7 @@
       },
       "s_porch@cathedral" : {
          "exits" : {
-            "n" : "s_tran"
+            "n" : "s_tran@cathedral"
          },
          "flags" : [
             "Dark",
@@ -1329,9 +1329,9 @@
       },
       "s_aisle2@cathedral" : {
          "exits" : {
-            "e" : "s_tran",
-            "w" : "s_aisle1",
-            "n" : "nave3"
+            "e" : "s_tran@cathedral",
+            "w" : "s_aisle1@cathedral",
+            "n" : "nave3@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1344,7 +1344,7 @@
       },
       "c_portal@cathedral" : {
          "exits" : {
-            "w" : "royal"
+            "w" : "royal@cathedral"
          },
          "flags" : [
             "Light",
@@ -1358,7 +1358,7 @@
       },
       "vamcrypt@cathedral" : {
          "exits" : {
-            "s" : "cryptent"
+            "s" : "cryptent@cathedral"
          },
          "flags" : [
             "Light"
@@ -1371,8 +1371,8 @@
       },
       "carnage1@cathedral" : {
          "exits" : {
-            "n" : "weaphall",
-            "s" : "carnage2"
+            "n" : "weaphall@cathedral",
+            "s" : "carnage2@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1385,9 +1385,9 @@
       },
       "n_aisle1@cathedral" : {
          "exits" : {
-            "e" : "n_aisle2",
-            "n" : "^door_nside",
-            "s" : "nave2"
+            "e" : "n_aisle2@cathedral",
+            "n" : "^door_nside@cathedral",
+            "s" : "nave2@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1400,8 +1400,8 @@
       },
       "n_stairs@cathedral" : {
          "exits" : {
-            "u" : "n_top",
-            "d" : "n_tower"
+            "u" : "n_top@cathedral",
+            "d" : "n_tower@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1414,8 +1414,8 @@
       },
       "s_stairs@cathedral" : {
          "exits" : {
-            "u" : "s_top",
-            "d" : "s_tower"
+            "u" : "s_top@cathedral",
+            "d" : "s_tower@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1428,9 +1428,9 @@
       },
       "n_amb@cathedral" : {
          "exits" : {
-            "e" : "ne_amb",
-            "w" : "n_aisle3",
-            "n" : "n_chap"
+            "e" : "ne_amb@cathedral",
+            "w" : "n_aisle3@cathedral",
+            "n" : "n_chap@cathedral"
          },
          "flags" : [
             "Dark"
@@ -1443,7 +1443,7 @@
       },
       "library@cathedral" : {
          "exits" : {
-            "e" : "^door_library"
+            "e" : "^door_library@cathedral"
          },
          "flags" : [
             "Light",
@@ -1458,7 +1458,7 @@
       },
       "side2@cathedral" : {
          "exits" : {
-            "s" : "^door_trap"
+            "s" : "^door_trap@cathedral"
          },
          "flags" : [
             "Dark",
@@ -1472,8 +1472,8 @@
       },
       "side1@cathedral" : {
          "exits" : {
-            "w" : "path5",
-            "n" : "^door_sside"
+            "w" : "path5@cathedral",
+            "n" : "^door_sside@cathedral"
          },
          "flags" : [
             "Dark",
@@ -1487,8 +1487,8 @@
       },
       "weaphall@cathedral" : {
          "exits" : {
-            "w" : "wolven",
-            "s" : "carnage1"
+            "w" : "wolven@cathedral",
+            "s" : "carnage1@cathedral"
          },
          "flags" : [
             "Light"
@@ -1501,7 +1501,7 @@
       },
       "n_chap@cathedral" : {
          "exits" : {
-            "s" : "n_amb"
+            "s" : "n_amb@cathedral"
          },
          "flags" : [
             "Dark",
@@ -1528,7 +1528,7 @@
       },
       "priest@cathedral" : {
          "damage" : "10",
-         "location" : "inchurch",
+         "location" : "inchurch@cathedral",
          "armor" : "0",
          "name" : "Priest",
          "description" : "The Priest stands here, looking upon you solemnly.",
@@ -1543,7 +1543,7 @@
       },
       "astasia@cathedral" : {
          "damage" : "15",
-         "location" : "astbed",
+         "location" : "astbed@cathedral",
          "armor" : "0",
          "name" : "Astasia",
          "description" : "\nYou have disturbed Astasia the Seductress's well deserved beauty sleep!",
@@ -1569,7 +1569,7 @@
       },
       "gwendolyn@cathedral" : {
          "damage" : "14",
-         "location" : "vambed",
+         "location" : "vambed@cathedral",
          "armor" : "0",
          "name" : "Gwendolyn",
          "description" : "Gwendolyn smiles coyly and beckons you closer.",
@@ -1583,7 +1583,7 @@
       },
       "vladimir@cathedral" : {
          "damage" : "20",
-         "location" : "n_top",
+         "location" : "n_top@cathedral",
          "armor" : "10",
          "name" : "Vladimir",
          "examine" : "It appears as if he is about to take a bite out of you!.",
@@ -1600,7 +1600,7 @@
       },
       "stinkie@cathedral" : {
          "damage" : "10",
-         "location" : "side2",
+         "location" : "side2@cathedral",
          "armor" : "0",
          "name" : "Stinkie",
          "description" : "\n&+yStinky&* the &+WApparition&* hovers above your head menacingly.",
@@ -1616,7 +1616,7 @@
       },
       "inky@cathedral" : {
          "damage" : "10",
-         "location" : "side2",
+         "location" : "side2@cathedral",
          "armor" : "0",
          "name" : "Inky",
          "description" : "\n&+BInky&* the &+WApparition&* hovers above your head menacingly.",
@@ -1632,7 +1632,7 @@
       },
       "countess@cathedral" : {
          "damage" : "18",
-         "location" : "s_top",
+         "location" : "s_top@cathedral",
          "armor" : "0",
          "name" : "Countess",
          "description" : "Countess Bathory &+Rscreams&* as you walk in on her bath!",
@@ -1652,7 +1652,7 @@
             "NegMissile"
          ],
          "damage" : "20",
-         "location" : "s_porch",
+         "location" : "s_porch@cathedral",
          "armor" : "0",
          "name" : "Lasher",
          "description" : "\nLasher, spirit of the &+cwinds&*, rips through your path savagely!",
@@ -1668,7 +1668,7 @@
       },
       "millarca@cathedral" : {
          "damage" : "20",
-         "location" : "milbed",
+         "location" : "milbed@cathedral",
          "armor" : "0",
          "name" : "Millarca",
          "description" : "Countess Millarca, the Vampiress invites you in for a bite.",
@@ -1682,7 +1682,7 @@
       },
       "ashram@cathedral" : {
          "damage" : "15",
-         "location" : "secroom",
+         "location" : "secroom@cathedral",
          "armor" : "0",
          "name" : "Ashram",
          "description" : "Ashram the &+RDemon &+LKnight&* peers at you &+bcoldly&*, calculating your\nweaknesses.",
@@ -1699,7 +1699,7 @@
       },
       "spit@cathedral" : {
          "damage" : "15",
-         "location" : "royal",
+         "location" : "royal@cathedral",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "0",
@@ -1712,7 +1712,7 @@
       },
       "benji@cathedral" : {
          "damage" : "8",
-         "location" : "wolven",
+         "location" : "wolven@cathedral",
          "speed" : "0",
          "aggression" : "20",
          "armor" : "0",
@@ -1732,7 +1732,7 @@
             "Shock"
          ],
          "damage" : "40",
-         "location" : "vamcrypt",
+         "location" : "vamcrypt@cathedral",
          "armor" : "20",
          "name" : "LeSuorac",
          "description" : "\nLeSuorac the &+RVampire&* grins as he prepares to &+Rslaughter&* you\n&+Wmercilessly!",
@@ -1756,7 +1756,7 @@
       },
       "sorbet@cathedral" : {
          "damage" : "20",
-         "location" : "sorbtomb",
+         "location" : "sorbtomb@cathedral",
          "armor" : "0",
          "name" : "Sorbet",
          "description" : "\nYou have awakened Sorbet the &+LDark&* from his (almost) eternal slumber.",
@@ -1769,7 +1769,7 @@
       },
       "blinky@cathedral" : {
          "damage" : "10",
-         "location" : "side2",
+         "location" : "side2@cathedral",
          "armor" : "0",
          "name" : "Blinky",
          "description" : "\n&+MBlinky&* the &+WApparition&* hovers above your head menacingly.",
@@ -1785,7 +1785,7 @@
       },
       "elisabeth@cathedral" : {
          "damage" : "16",
-         "location" : "vambed",
+         "location" : "vambed@cathedral",
          "armor" : "0",
          "name" : "Elisabeth",
          "description" : "Elisabeth stares at you with &+Rlust&* in her eyes.",
@@ -1799,7 +1799,7 @@
       },
       "drool@cathedral" : {
          "damage" : "15",
-         "location" : "royal",
+         "location" : "royal@cathedral",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "0",
@@ -1815,7 +1815,7 @@
             "Missile"
          ],
          "damage" : "15",
-         "location" : "cobwebs",
+         "location" : "cobwebs@cathedral",
          "armor" : "0",
          "name" : "Spiderman",
          "description" : "The Spider Man is having you for dinner tonight!",
@@ -1828,7 +1828,7 @@
       },
       "spot@cathedral" : {
          "damage" : "8",
-         "location" : "wolven",
+         "location" : "wolven@cathedral",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "0",
@@ -1842,7 +1842,7 @@
       },
       "rintintin@cathedral" : {
          "damage" : "8",
-         "location" : "wolven",
+         "location" : "wolven@cathedral",
          "speed" : "0",
          "aggression" : "20",
          "armor" : "0",
@@ -1857,7 +1857,7 @@
       },
       "drolza@cathedral" : {
          "damage" : "12",
-         "location" : "vambed",
+         "location" : "vambed@cathedral",
          "armor" : "0",
          "name" : "Drolza",
          "description" : "\nDrolza longs to suck out your &+rblood&* as slowly as possible!",

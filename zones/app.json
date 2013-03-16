@@ -2,7 +2,7 @@
    "obj" : {
       "crystal@app" : {
          "desc[1]" : "A crystal ball sits upon a pedestal.",
-         "location" : "IN_ROOM:app32",
+         "location" : "IN_ROOM:app32@app",
          "oflags" : [
             "lit",
             "getflips"
@@ -18,7 +18,7 @@
          "desc[0]" : "A crystal ball has been left here on the ground."
       },
       "ring@app" : {
-         "location" : "IN_CONTAINER:sack",
+         "location" : "IN_CONTAINER:sack@app",
          "armor" : "20",
          "oflags" : [
             "Wearable",
@@ -37,7 +37,7 @@
          ]
       },
       "nail@app" : {
-         "location" : "IN_CONTAINER:sack",
+         "location" : "IN_CONTAINER:sack@app",
          "name" : "nail",
          "state" : "0",
          "size" : "1",
@@ -48,7 +48,7 @@
       },
       "sack@app" : {
          "desc[1]" : "A small, closed sack has been left here.",
-         "location" : "CARRIED_BY:hermit",
+         "location" : "CARRIED_BY:hermit@app",
          "oflags" : [
             "Container",
             "Openable"
@@ -63,7 +63,7 @@
          "desc[0]" : "Someone left an open sack here."
       },
       "sign@app" : {
-         "location" : "IN_ROOM:app2",
+         "location" : "IN_ROOM:app2@app",
          "oflags" : [
             "NoGet"
          ],
@@ -72,7 +72,7 @@
          "desc[0]" : "A flashing sign seems to be trying to get your attention."
       },
       "body@app" : {
-         "location" : "IN_ROOM:app30",
+         "location" : "IN_ROOM:app30@app",
          "oflags" : [
             "NoGet",
             "Container"
@@ -85,7 +85,7 @@
       },
       "staff@app" : {
          "damage" : "30",
-         "location" : "WIELDED_BY:Almin",
+         "location" : "WIELDED_BY:almin@app",
          "oflags" : [
             "weapon",
             "lit"
@@ -102,7 +102,7 @@
       },
       "prison_in@app" : {
          "desc[1]" : "The southern door is closed.",
-         "location" : "IN_ROOM:app28",
+         "location" : "IN_ROOM:app28@app",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -118,7 +118,7 @@
          "desc[0]" : "The southern door is open."
       },
       "glass@app" : {
-         "location" : "IN_CONTAINER:sack",
+         "location" : "IN_CONTAINER:sack@app",
          "name" : "glass",
          "state" : "0",
          "size" : "1",
@@ -129,7 +129,7 @@
       },
       "wand@app" : {
          "desc[1]" : "A somewhat invisible wand lies hidden here.",
-         "location" : "IN_ROOM:app34",
+         "location" : "IN_ROOM:app34@app",
          "oflags" : "{ }",
          "name" : "wand",
          "examine" : "\nThough this wand looks magical, you can't seem to figure\nout how it works.",
@@ -142,7 +142,7 @@
       },
       "hold_in@app" : {
          "desc[1]" : "The western door is closed.",
-         "location" : "IN_ROOM:app28",
+         "location" : "IN_ROOM:app28@app",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -159,7 +159,7 @@
       },
       "portal_in@app" : {
          "desc[1]" : "What once was a portal is now nothing, it is sealed up.",
-         "location" : "IN_ROOM:app2",
+         "location" : "IN_ROOM:app2@app",
          "oflags" : [
             "NoGet"
          ],
@@ -172,7 +172,7 @@
          "desc[0]" : "A portal lies to the north."
       },
       "cork@app" : {
-         "location" : "IN_CONTAINER:sack",
+         "location" : "IN_CONTAINER:sack@app",
          "name" : "cork",
          "state" : "0",
          "size" : "1",
@@ -183,7 +183,7 @@
       },
       "tower_in@app" : {
          "desc[1]" : "The gate is closed.",
-         "location" : "IN_ROOM:app2",
+         "location" : "IN_ROOM:app2@app",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -197,7 +197,7 @@
          "desc[0]" : "The gate to the outside is open."
       },
       "diamond@app" : {
-         "location" : "IN_ROOM:app34",
+         "location" : "IN_ROOM:app34@app",
          "oflags" : "{ }",
          "name" : "diamond",
          "examine" : "This diamond is probably worth some money.",
@@ -209,7 +209,7 @@
       },
       "prison_out@app" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:app30",
+         "location" : "IN_ROOM:app30@app",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -225,7 +225,7 @@
          "desc[0]" : "The door is open."
       },
       "robe@app" : {
-         "location" : "WORN_BY:Almin",
+         "location" : "WORN_BY:almin@app",
          "armor" : "40",
          "oflags" : [
             "wearable",
@@ -250,7 +250,7 @@
          ]
       },
       "spellbook@app" : {
-         "location" : "IN_CONTAINER:body",
+         "location" : "IN_CONTAINER:body@app",
          "altname" : "book",
          "name" : "spellbook",
          "examine" : "\nThis is a spell book from the Tower of Sorcery. Looks valuable\nto any mage. Too bad you don't have time to study the spells.",
@@ -261,7 +261,7 @@
          "desc[0]" : "Some apprentice must have lost their spell book."
       },
       "wood@app" : {
-         "location" : "IN_CONTAINER:sack",
+         "location" : "IN_CONTAINER:sack@app",
          "name" : "wood",
          "state" : "0",
          "size" : "1",
@@ -271,7 +271,7 @@
          "desc[0]" : "A piece of wood lies here."
       },
       "metal@app" : {
-         "location" : "IN_CONTAINER:sack",
+         "location" : "IN_CONTAINER:sack@app",
          "name" : "metal",
          "state" : "0",
          "size" : "1",
@@ -281,7 +281,7 @@
          "desc[0]" : "A piece of metal lies here."
       },
       "napkin@app" : {
-         "location" : "IN_CONTAINER:sack",
+         "location" : "IN_CONTAINER:sack@app",
          "name" : "napkin",
          "state" : "0",
          "size" : "1",
@@ -291,7 +291,7 @@
          "desc[0]" : "A folded napkin lies here."
       },
       "bulletin@app" : {
-         "location" : "IN_ROOM:app1",
+         "location" : "IN_ROOM:app1@app",
          "oflags" : [
             "NoGet"
          ],
@@ -302,7 +302,7 @@
       },
       "bone@app" : {
          "damage" : "10",
-         "location" : "IN_ROOM:app15",
+         "location" : "IN_ROOM:app15@app",
          "oflags" : [
             "weapon"
          ],
@@ -317,7 +317,7 @@
          "desc[0]" : "Looks like someone lost their femur."
       },
       "portal_out@app" : {
-         "location" : "IN_ROOM:app5",
+         "location" : "IN_ROOM:app5@app",
          "oflags" : [
             "NoGet"
          ],
@@ -330,7 +330,7 @@
       },
       "tower_out@app" : {
          "desc[1]" : "The gate into the tower is closed.",
-         "location" : "IN_ROOM:app1",
+         "location" : "IN_ROOM:app1@app",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -344,7 +344,7 @@
          "desc[0]" : "The gate to the north is open."
       },
       "fork@app" : {
-         "location" : "IN_CONTAINER:sack",
+         "location" : "IN_CONTAINER:sack@app",
          "name" : "fork",
          "state" : "0",
          "size" : "1",
@@ -355,7 +355,7 @@
       },
       "hold_out@app" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:app31",
+         "location" : "IN_ROOM:app31@app",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -371,7 +371,7 @@
          "desc[0]" : "The door is open."
       },
       "stonekey@app" : {
-         "location" : "IN_ROOM:app28",
+         "location" : "IN_ROOM:app28@app",
          "oflags" : [
             "Key"
          ],
@@ -385,7 +385,7 @@
          "desc[0]" : "A large stone key lies here."
       },
       "can@app" : {
-         "location" : "IN_CONTAINER:sack",
+         "location" : "IN_CONTAINER:sack@app",
          "name" : "can",
          "state" : "0",
          "size" : "1",
@@ -398,9 +398,9 @@
    "loc" : {
       "app24@app" : {
          "exits" : {
-            "w" : "app22",
-            "u" : "app25",
-            "d" : "app27"
+            "w" : "app22@app",
+            "u" : "app25@app",
+            "d" : "app27@app"
          },
          "flags" : [],
          "zone" : "app",
@@ -411,10 +411,10 @@
       },
       "app17@app" : {
          "exits" : {
-            "w" : "app11",
-            "e" : "app9",
-            "n" : "app12",
-            "s" : "app13"
+            "w" : "app11@app",
+            "e" : "app9@app",
+            "n" : "app12@app",
+            "s" : "app13@app"
          },
          "flags" : [
             "Outdoors"
@@ -427,7 +427,7 @@
       },
       "app7@app" : {
          "exits" : {
-            "e" : "app6"
+            "e" : "app6@app"
          },
          "flags" : [],
          "zone" : "app",
@@ -438,8 +438,8 @@
       },
       "app21@app" : {
          "exits" : {
-            "n" : "app20",
-            "s" : "app22"
+            "n" : "app20@app",
+            "s" : "app22@app"
          },
          "flags" : [
             "NoMobiles",
@@ -453,10 +453,10 @@
       },
       "app16@app" : {
          "exits" : {
-            "w" : "app18",
-            "e" : "app12",
-            "n" : "app9",
-            "s" : "app11"
+            "w" : "app18@app",
+            "e" : "app12@app",
+            "n" : "app9@app",
+            "s" : "app11@app"
          },
          "flags" : [
             "Outdoors"
@@ -469,7 +469,7 @@
       },
       "app5@app" : {
          "exits" : {
-            "s" : "^portal_out"
+            "s" : "^portal_out@app"
          },
          "flags" : [
             "NoMagic"
@@ -482,10 +482,10 @@
       },
       "app8@app" : {
          "exits" : {
-            "w" : "app12",
-            "e" : "app9",
-            "n" : "app6",
-            "s" : "app10"
+            "w" : "app12@app",
+            "e" : "app9@app",
+            "n" : "app6@app",
+            "s" : "app10@app"
          },
          "flags" : [
             "Outdoors"
@@ -498,9 +498,9 @@
       },
       "app22@app" : {
          "exits" : {
-            "e" : "app24",
-            "n" : "app21",
-            "s" : "app23"
+            "e" : "app24@app",
+            "n" : "app21@app",
+            "s" : "app23@app"
          },
          "flags" : [],
          "zone" : "app",
@@ -511,10 +511,10 @@
       },
       "app11@app" : {
          "exits" : {
-            "w" : "app19",
-            "e" : "app14",
-            "n" : "app17",
-            "s" : "app17"
+            "w" : "app19@app",
+            "e" : "app14@app",
+            "n" : "app17@app",
+            "s" : "app17@app"
          },
          "flags" : [
             "Outdoors"
@@ -527,10 +527,10 @@
       },
       "app32@app" : {
          "exits" : {
-            "w" : "app35",
-            "e" : "app26",
-            "n" : "app33",
-            "s" : "app34"
+            "w" : "app35@app",
+            "e" : "app26@app",
+            "n" : "app33@app",
+            "s" : "app34@app"
          },
          "flags" : [
             "NoMagic",
@@ -548,8 +548,8 @@
       },
       "app27@app" : {
          "exits" : {
-            "w" : "app28",
-            "u" : "app24"
+            "w" : "app28@app",
+            "u" : "app24@app"
          },
          "flags" : [],
          "zone" : "app",
@@ -560,7 +560,7 @@
       },
       "app23@app" : {
          "exits" : {
-            "n" : "app22"
+            "n" : "app22@app"
          },
          "flags" : [],
          "zone" : "app",
@@ -571,8 +571,8 @@
       },
       "app6@app" : {
          "exits" : {
-            "w" : "app7",
-            "s" : "app8"
+            "w" : "app7@app",
+            "s" : "app8@app"
          },
          "flags" : [
             "Outdoors",
@@ -586,10 +586,10 @@
       },
       "app14@app" : {
          "exits" : {
-            "w" : "app15",
-            "e" : "app13",
-            "n" : "app9",
-            "s" : "app16"
+            "w" : "app15@app",
+            "e" : "app13@app",
+            "n" : "app9@app",
+            "s" : "app16@app"
          },
          "flags" : [
             "Outdoors"
@@ -602,10 +602,10 @@
       },
       "app19@app" : {
          "exits" : {
-            "w" : "app8",
-            "e" : "app10",
-            "n" : "app15",
-            "s" : "app15"
+            "w" : "app8@app",
+            "e" : "app10@app",
+            "n" : "app15@app",
+            "s" : "app15@app"
          },
          "flags" : [
             "Outdoors"
@@ -619,7 +619,7 @@
       "app1@app" : {
          "exits" : {
             "e" : "town43@town",
-            "n" : "^tower_out"
+            "n" : "^tower_out@app"
          },
          "flags" : [
             "Outdoors"
@@ -632,7 +632,7 @@
       },
       "app4@app" : {
          "exits" : {
-            "e" : "app2"
+            "e" : "app2@app"
          },
          "flags" : [
             "Death"
@@ -645,10 +645,10 @@
       },
       "app13@app" : {
          "exits" : {
-            "w" : "app13",
-            "e" : "app19",
-            "n" : "app17",
-            "s" : "app20"
+            "w" : "app13@app",
+            "e" : "app19@app",
+            "n" : "app17@app",
+            "s" : "app20@app"
          },
          "flags" : [
             "Outdoors"
@@ -661,10 +661,10 @@
       },
       "app2@app" : {
          "exits" : {
-            "w" : "app4",
-            "e" : "app3",
-            "n" : "^portal_in",
-            "s" : "^tower_in"
+            "w" : "app4@app",
+            "e" : "app3@app",
+            "n" : "^portal_in@app",
+            "s" : "^tower_in@app"
          },
          "flags" : [],
          "zone" : "app",
@@ -675,7 +675,7 @@
       },
       "app35@app" : {
          "exits" : {
-            "e" : "app32"
+            "e" : "app32@app"
          },
          "flags" : [
             "Outdoors"
@@ -688,7 +688,7 @@
       },
       "app34@app" : {
          "exits" : {
-            "n" : "app32"
+            "n" : "app32@app"
          },
          "flags" : [],
          "zone" : "app",
@@ -699,7 +699,7 @@
       },
       "app30@app" : {
          "exits" : {
-            "n" : "^prison_out"
+            "n" : "^prison_out@app"
          },
          "flags" : [],
          "zone" : "app",
@@ -710,10 +710,10 @@
       },
       "app20@app" : {
          "exits" : {
-            "w" : "app19",
-            "e" : "app8",
-            "n" : "app17",
-            "s" : "app21"
+            "w" : "app19@app",
+            "e" : "app8@app",
+            "n" : "app17@app",
+            "s" : "app21@app"
          },
          "flags" : [
             "Outdoors"
@@ -726,8 +726,8 @@
       },
       "app26@app" : {
          "exits" : {
-            "w" : "app32",
-            "e" : "app25"
+            "w" : "app32@app",
+            "e" : "app25@app"
          },
          "flags" : [],
          "zone" : "app",
@@ -738,7 +738,7 @@
       },
       "app29@app" : {
          "exits" : {
-            "s" : "app28"
+            "s" : "app28@app"
          },
          "flags" : [],
          "zone" : "app",
@@ -749,8 +749,8 @@
       },
       "app25@app" : {
          "exits" : {
-            "w" : "app26",
-            "d" : "app24"
+            "w" : "app26@app",
+            "d" : "app24@app"
          },
          "flags" : [],
          "zone" : "app",
@@ -761,10 +761,10 @@
       },
       "app28@app" : {
          "exits" : {
-            "w" : "^hold_in",
-            "e" : "app27",
-            "n" : "app29",
-            "s" : "^prison_in"
+            "w" : "^hold_in@app",
+            "e" : "app27@app",
+            "n" : "app29@app",
+            "s" : "^prison_in@app"
          },
          "flags" : [],
          "zone" : "app",
@@ -775,10 +775,10 @@
       },
       "app9@app" : {
          "exits" : {
-            "w" : "app12",
-            "e" : "app9",
-            "n" : "app16",
-            "s" : "app8"
+            "w" : "app12@app",
+            "e" : "app9@app",
+            "n" : "app16@app",
+            "s" : "app8@app"
          },
          "flags" : [
             "Outdoors"
@@ -791,10 +791,10 @@
       },
       "app15@app" : {
          "exits" : {
-            "w" : "app13",
-            "e" : "app12",
-            "n" : "app16",
-            "s" : "app16"
+            "w" : "app13@app",
+            "e" : "app12@app",
+            "n" : "app16@app",
+            "s" : "app16@app"
          },
          "flags" : [
             "Outdoors"
@@ -807,10 +807,10 @@
       },
       "app12@app" : {
          "exits" : {
-            "w" : "app17",
-            "e" : "app9",
-            "n" : "app12",
-            "s" : "app15"
+            "w" : "app17@app",
+            "e" : "app9@app",
+            "n" : "app12@app",
+            "s" : "app15@app"
          },
          "flags" : [
             "Outdoors"
@@ -823,10 +823,10 @@
       },
       "app10@app" : {
          "exits" : {
-            "w" : "app8",
-            "e" : "app9",
-            "n" : "app10",
-            "s" : "app8"
+            "w" : "app8@app",
+            "e" : "app9@app",
+            "n" : "app10@app",
+            "s" : "app8@app"
          },
          "flags" : [
             "Outdoors"
@@ -839,7 +839,7 @@
       },
       "app3@app" : {
          "exits" : {
-            "w" : "app2"
+            "w" : "app2@app"
          },
          "flags" : [
             "Death"
@@ -852,7 +852,7 @@
       },
       "app33@app" : {
          "exits" : {
-            "s" : "app32"
+            "s" : "app32@app"
          },
          "flags" : [
             "FastHeal",
@@ -867,10 +867,10 @@
       },
       "app18@app" : {
          "exits" : {
-            "w" : "app12",
-            "e" : "app19",
-            "n" : "app16",
-            "s" : "app15"
+            "w" : "app12@app",
+            "e" : "app19@app",
+            "n" : "app16@app",
+            "s" : "app15@app"
          },
          "flags" : [
             "Outdoors"
@@ -883,7 +883,7 @@
       },
       "app31@app" : {
          "exits" : {
-            "e" : "^hold_out"
+            "e" : "^hold_out@app"
          },
          "flags" : [],
          "zone" : "app",
@@ -899,7 +899,7 @@
             "Frost"
          ],
          "damage" : "15",
-         "location" : "app13",
+         "location" : "app13@app",
          "armor" : "10",
          "name" : "wolf_3",
          "examine" : "\nFrost wolves are known for their icy breath, better be careful.",
@@ -916,7 +916,7 @@
             "Missile"
          ],
          "damage" : "15",
-         "location" : "app22",
+         "location" : "app22@app",
          "armor" : "15",
          "name" : "Utgar",
          "examine" : "\nI must congratulate you. You have proven yourself worthy to join\nthe dark master's rank of apprentices. By passing through the Dead\nWoods, you are more than ready to help take what is rightfully ours!",
@@ -934,7 +934,7 @@
             "Protect"
          ],
          "damage" : "20",
-         "location" : "app5",
+         "location" : "app5@app",
          "armor" : "35",
          "name" : "Elaine",
          "description" : "Elaine looks up and says, 'Are you here to help us?'.",
@@ -950,7 +950,7 @@
             "Frost"
          ],
          "damage" : "15",
-         "location" : "app13",
+         "location" : "app13@app",
          "armor" : "10",
          "name" : "wolf_2",
          "examine" : "\nFrost wolves are known for their icy breath, better be careful.",
@@ -965,7 +965,7 @@
             "Frost"
          ],
          "damage" : "15",
-         "location" : "app13",
+         "location" : "app13@app",
          "armor" : "10",
          "name" : "wolf_1",
          "examine" : "\nFrost wolves are known for their icy breath, better be careful.",
@@ -980,7 +980,7 @@
             "Frost"
          ],
          "damage" : "15",
-         "location" : "app11",
+         "location" : "app11@app",
          "armor" : "10",
          "name" : "wolf",
          "examine" : "\nFrost wolves are known for their icy breath, better be careful.",
@@ -992,7 +992,7 @@
       },
       "creation@app" : {
          "damage" : "30",
-         "location" : "app31",
+         "location" : "app31@app",
          "speed" : "1",
          "aggression" : "50",
          "armor" : "35",
@@ -1004,7 +1004,7 @@
       "hermit@app" : {
          "eflags" : "{ }",
          "damage" : "8",
-         "location" : "app7",
+         "location" : "app7@app",
          "armor" : "0",
          "name" : "hermit",
          "description" : "An old hermit stares at you from the corner of the room.",
@@ -1029,7 +1029,7 @@
             "Protect"
          ],
          "damage" : "8",
-         "location" : "app32",
+         "location" : "app32@app",
          "armor" : "0",
          "name" : "Almin",
          "examine" : "\nYou see the target of your mission. He looks scrawny to you, but most mages \ndo. One lesson you've learned over the years is to never underestimate a mage.",

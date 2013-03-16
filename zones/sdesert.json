@@ -1,7 +1,7 @@
 {
    "obj" : {
       "north_desertsd39@sdesert" : {
-         "location" : "IN_ROOM:desertSD39",
+         "location" : "IN_ROOM:desertsd39@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -10,7 +10,7 @@
          "examine" : "You see more desert to the north.\n"
       },
       "rock@sdesert" : {
-         "location" : "IN_ROOM:desertSD46",
+         "location" : "IN_ROOM:desertsd46@sdesert",
          "oflags" : [
             "Noget"
          ],
@@ -19,7 +19,7 @@
          "examine" : "It looks as if it is movable...\n"
       },
       "east_desertsd44@sdesert" : {
-         "location" : "IN_ROOM:desertSD44",
+         "location" : "IN_ROOM:desertsd44@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -28,7 +28,7 @@
          "examine" : "You see more brush to the east.\n"
       },
       "objsd01_7@sdesert" : {
-         "location" : "IN_ROOM:desertSD62",
+         "location" : "IN_ROOM:desertsd62@sdesert",
          "oflags" : [
             "Cursed",
             "Food"
@@ -44,7 +44,7 @@
          "desc[0]" : "A strange, dry weed attempts to grow out of the dust."
       },
       "south_desertsd05@sdesert" : {
-         "location" : "IN_ROOM:desertSD05",
+         "location" : "IN_ROOM:desertsd05@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -53,7 +53,7 @@
          "examine" : "You see a shimmering image to the east.\n"
       },
       "west_desertsd24@sdesert" : {
-         "location" : "IN_ROOM:desertSD24",
+         "location" : "IN_ROOM:desertsd24@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -62,7 +62,7 @@
          "examine" : "The Southern desert stretches out to the western horizon.\n"
       },
       "desert3@sdesert" : {
-         "location" : "IN_ROOM:desertSD64",
+         "location" : "IN_ROOM:desertsd64@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -72,7 +72,7 @@
          "examine" : "You see the desert...\n"
       },
       "south_desertsd03@sdesert" : {
-         "location" : "IN_ROOM:desertSD03",
+         "location" : "IN_ROOM:desertsd03@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -81,7 +81,7 @@
          "examine" : "There is a mesa near to the south.\n"
       },
       "west_desertsd19@sdesert" : {
-         "location" : "IN_ROOM:desertSD19",
+         "location" : "IN_ROOM:desertsd19@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -90,7 +90,7 @@
          "examine" : "Off to the west you see more desert.\n"
       },
       "north_desertsd38@sdesert" : {
-         "location" : "IN_ROOM:desertSD38",
+         "location" : "IN_ROOM:desertsd38@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -99,7 +99,7 @@
          "examine" : "You see more desert to the north.\n"
       },
       "east_desertsd17@sdesert" : {
-         "location" : "IN_ROOM:desertSD17",
+         "location" : "IN_ROOM:desertsd17@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -108,7 +108,7 @@
          "examine" : "The path leads east, where it turns into a road.\n"
       },
       "south_desertsd15@sdesert" : {
-         "location" : "IN_ROOM:desertSD15",
+         "location" : "IN_ROOM:desertsd15@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -117,7 +117,7 @@
          "examine" : "You see a bend up ahead.\n"
       },
       "south_desertsd11@sdesert" : {
-         "location" : "IN_ROOM:desertSD11",
+         "location" : "IN_ROOM:desertsd11@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -126,7 +126,7 @@
          "examine" : "You see more of the mountainous road.\n"
       },
       "west_desertsd37@sdesert" : {
-         "location" : "IN_ROOM:desertSD37",
+         "location" : "IN_ROOM:desertsd37@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -136,7 +136,7 @@
       },
       "objsd00@sdesert" : {
          "damage" : "6",
-         "location" : "CARRIED_BY:mobSD05",
+         "location" : "CARRIED_BY:mobsd05@sdesert",
          "oflags" : [
             "Weapon"
          ],
@@ -151,7 +151,7 @@
          "desc[0]" : "A chipped rock is lying here, half-hidden in the weeds."
       },
       "east_desertsd43@sdesert" : {
-         "location" : "IN_ROOM:desertSD43",
+         "location" : "IN_ROOM:desertsd43@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -160,7 +160,7 @@
          "examine" : "You might be able to walk east through the brush...\n"
       },
       "north_desertsd19@sdesert" : {
-         "location" : "IN_ROOM:desertSD19",
+         "location" : "IN_ROOM:desertsd19@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -170,7 +170,7 @@
       },
       "objsd02_1@sdesert" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:mobSD07_1",
+         "location" : "WIELDED_BY:mobsd07_1@sdesert",
          "oflags" : [
             "Enchanted",
             "Weapon"
@@ -186,7 +186,7 @@
          "desc[0]" : "A strange little axe is here, abandoned on the ground."
       },
       "east_desertsd27@sdesert" : {
-         "location" : "IN_ROOM:desertSD27",
+         "location" : "IN_ROOM:desertsd27@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -195,7 +195,7 @@
          "examine" : "A small footpath runs east.\n"
       },
       "objsd01_6@sdesert" : {
-         "location" : "IN_ROOM:desertSD63",
+         "location" : "IN_ROOM:desertsd63@sdesert",
          "oflags" : [
             "Cursed",
             "Food"
@@ -212,7 +212,7 @@
       },
       "boulder_desertsd66@sdesert" : {
          "desc[1]" : "A boulder stands in front of you.",
-         "location" : "IN_ROOM:desertSD46",
+         "location" : "IN_ROOM:desertsd46@sdesert",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -227,7 +227,7 @@
          "desc[0]" : "The boulder has been moved aside revealing an opening."
       },
       "east_desertsd09@sdesert" : {
-         "location" : "IN_ROOM:desertSD09",
+         "location" : "IN_ROOM:desertsd09@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -237,7 +237,7 @@
       },
       "objsd08@sdesert" : {
          "damage" : "3",
-         "location" : "IN_ROOM:desertSD08",
+         "location" : "IN_ROOM:desertsd08@sdesert",
          "oflags" : [
             "Weapon"
          ],
@@ -254,7 +254,7 @@
       },
       "objsd00_5@sdesert" : {
          "damage" : "6",
-         "location" : "IN_ROOM:desertSD00",
+         "location" : "IN_ROOM:desertsd00@sdesert",
          "oflags" : [
             "Weapon"
          ],
@@ -269,7 +269,7 @@
          "desc[0]" : "A chipped rock is lying here, half-hidden in the weeds."
       },
       "west_desertsd11@sdesert" : {
-         "location" : "IN_ROOM:desertSD11",
+         "location" : "IN_ROOM:desertsd11@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -279,7 +279,7 @@
       },
       "objsd03_1@sdesert" : {
          "damage" : "16",
-         "location" : "CARRIED_BY:mobSD09_1",
+         "location" : "CARRIED_BY:mobsd09_1@sdesert",
          "oflags" : [
             "Weapon"
          ],
@@ -295,7 +295,7 @@
       },
       "objsd08_1@sdesert" : {
          "damage" : "3",
-         "location" : "IN_ROOM:desertSD23",
+         "location" : "IN_ROOM:desertsd23@sdesert",
          "oflags" : [
             "Weapon"
          ],
@@ -311,7 +311,7 @@
          "desc[0]" : "A cactus thorn lies here, almost under your feet."
       },
       "objsd05_2@sdesert" : {
-         "location" : "WORN_BY:mobSD10",
+         "location" : "WORN_BY:mobsd10@sdesert",
          "oflags" : [
             "Enchanted",
             "Wearable",
@@ -333,7 +333,7 @@
          ]
       },
       "south_desertsd12@sdesert" : {
-         "location" : "IN_ROOM:desertSD12",
+         "location" : "IN_ROOM:desertsd12@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -342,7 +342,7 @@
          "examine" : "You are displeased with the thought of travelling uphill.\n"
       },
       "east_desertsd64@sdesert" : {
-         "location" : "IN_ROOM:desertSD64",
+         "location" : "IN_ROOM:desertsd64@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -351,7 +351,7 @@
          "examine" : "A small clearing lies to the east.\n"
       },
       "desert@sdesert" : {
-         "location" : "IN_ROOM:desertSD48",
+         "location" : "IN_ROOM:desertsd48@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -360,7 +360,7 @@
          "examine" : "This is the largest desert you have ever seen...\n"
       },
       "west_desertsd18@sdesert" : {
-         "location" : "IN_ROOM:desertSD18",
+         "location" : "IN_ROOM:desertsd18@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -369,7 +369,7 @@
          "examine" : "The road fades into a path to the west.\n"
       },
       "north_desertsd09@sdesert" : {
-         "location" : "IN_ROOM:desertSD09",
+         "location" : "IN_ROOM:desertsd09@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -379,7 +379,7 @@
       },
       "objsd00_4@sdesert" : {
          "damage" : "6",
-         "location" : "WIELDED_BY:mobSD08",
+         "location" : "WIELDED_BY:mobsd08@sdesert",
          "oflags" : [
             "Weapon"
          ],
@@ -394,7 +394,7 @@
          "desc[0]" : "A chipped rock is lying here, half-hidden in the weeds."
       },
       "east_desertsd37@sdesert" : {
-         "location" : "IN_ROOM:desertSD37",
+         "location" : "IN_ROOM:desertsd37@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -403,7 +403,7 @@
          "examine" : "The trail wanders off to the east.\n"
       },
       "south_desertsd02@sdesert" : {
-         "location" : "IN_ROOM:desertSD02",
+         "location" : "IN_ROOM:desertsd02@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -412,7 +412,7 @@
          "examine" : "Far to the south you can barely make out a large rock of some sort.\n"
       },
       "north_desertsd17@sdesert" : {
-         "location" : "IN_ROOM:desertSD17",
+         "location" : "IN_ROOM:desertsd17@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -421,7 +421,7 @@
          "examine" : "The path leads north into the heart of the desert mountains.\n"
       },
       "south_desertsd08@sdesert" : {
-         "location" : "IN_ROOM:desertSD08",
+         "location" : "IN_ROOM:desertsd08@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -431,7 +431,7 @@
       },
       "boulder_desertsd46@sdesert" : {
          "desc[1]" : "There is a large boulder here.",
-         "location" : "IN_ROOM:desertSD66",
+         "location" : "IN_ROOM:desertsd66@sdesert",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -446,7 +446,7 @@
          "desc[0]" : "The boulder has been pushed aside, revealing an opening."
       },
       "north_desertsd42@sdesert" : {
-         "location" : "IN_ROOM:desertSD42",
+         "location" : "IN_ROOM:desertsd42@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -455,7 +455,7 @@
          "examine" : "To the north you see the desert.\n"
       },
       "north_desertsd44@sdesert" : {
-         "location" : "IN_ROOM:desertSD44",
+         "location" : "IN_ROOM:desertsd44@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -465,7 +465,7 @@
       },
       "door_desertsd65@sdesert" : {
          "desc[1]" : "The stone door is closed.",
-         "location" : "IN_ROOM:desertSD67",
+         "location" : "IN_ROOM:desertsd67@sdesert",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -482,7 +482,7 @@
          "desc[0]" : "The stone door is open."
       },
       "east_desertsd55@sdesert" : {
-         "location" : "IN_ROOM:desertSD55",
+         "location" : "IN_ROOM:desertsd55@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -491,7 +491,7 @@
          "examine" : "You can go east from here.\n"
       },
       "north_desertsd45@sdesert" : {
-         "location" : "IN_ROOM:desertSD45",
+         "location" : "IN_ROOM:desertsd45@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -500,7 +500,7 @@
          "examine" : "You see more brush to the north.\n"
       },
       "north_desertsd37@sdesert" : {
-         "location" : "IN_ROOM:desertSD37",
+         "location" : "IN_ROOM:desertsd37@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -509,7 +509,7 @@
          "examine" : "You see more desert to the north.\n"
       },
       "north_desertsd13@sdesert" : {
-         "location" : "IN_ROOM:desertSD13",
+         "location" : "IN_ROOM:desertsd13@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -518,7 +518,7 @@
          "examine" : "You see a dangerous road, almost unfit for travel.\n"
       },
       "south_desertsd13@sdesert" : {
-         "location" : "IN_ROOM:desertSD13",
+         "location" : "IN_ROOM:desertsd13@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -527,7 +527,7 @@
          "examine" : "To the south the road leads through the mountains.\n"
       },
       "east_desertsd61@sdesert" : {
-         "location" : "IN_ROOM:desertSD61",
+         "location" : "IN_ROOM:desertsd61@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -536,7 +536,7 @@
          "examine" : "The path disappears to the east.\n"
       },
       "north_desertsd16@sdesert" : {
-         "location" : "IN_ROOM:desertSD16",
+         "location" : "IN_ROOM:desertsd16@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -545,7 +545,7 @@
          "examine" : "The road leads north into the Southern Desert.\n"
       },
       "east_desertsd14@sdesert" : {
-         "location" : "IN_ROOM:desertSD14",
+         "location" : "IN_ROOM:desertsd14@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -554,7 +554,7 @@
          "examine" : "You gaze upon the Southern desert.\n"
       },
       "north_desertsd04@sdesert" : {
-         "location" : "IN_ROOM:desertSD04",
+         "location" : "IN_ROOM:desertsd04@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -564,7 +564,7 @@
       },
       "objsd00_1@sdesert" : {
          "damage" : "6",
-         "location" : "CARRIED_BY:mobSD05_1",
+         "location" : "CARRIED_BY:mobsd05_1@sdesert",
          "oflags" : [
             "Weapon"
          ],
@@ -579,7 +579,7 @@
          "desc[0]" : "A chipped rock is lying here, half-hidden in the weeds."
       },
       "west_desertsd45@sdesert" : {
-         "location" : "IN_ROOM:desertSD45",
+         "location" : "IN_ROOM:desertsd45@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -588,7 +588,7 @@
          "examine" : "You see more brush to the west.\n"
       },
       "west_desertsd65@sdesert" : {
-         "location" : "IN_ROOM:desertSD65",
+         "location" : "IN_ROOM:desertsd65@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -597,7 +597,7 @@
          "examine" : "You see Brush to the west.\n"
       },
       "east_desertsd13@sdesert" : {
-         "location" : "IN_ROOM:desertSD13",
+         "location" : "IN_ROOM:desertsd13@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -606,7 +606,7 @@
          "examine" : "You see an overgrown trail, complete with fallen rocks.\n"
       },
       "objsd07@sdesert" : {
-         "location" : "WORN_BY:mobSD10",
+         "location" : "WORN_BY:mobsd10@sdesert",
          "oflags" : [
             "Lit",
             "Enchanted",
@@ -629,7 +629,7 @@
          ]
       },
       "objsd01_8@sdesert" : {
-         "location" : "IN_ROOM:desertSD65",
+         "location" : "IN_ROOM:desertsd65@sdesert",
          "oflags" : [
             "Cursed",
             "Food"
@@ -645,7 +645,7 @@
          "desc[0]" : "A strange, dry weed attempts to grow out of the dust."
       },
       "north_desertsd25@sdesert" : {
-         "location" : "IN_ROOM:desertSD25",
+         "location" : "IN_ROOM:desertsd25@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -654,7 +654,7 @@
          "examine" : "You see a more-travelled path to the north.\n"
       },
       "objsd06_1@sdesert" : {
-         "location" : "WORN_BY:mobSD07_1",
+         "location" : "WORN_BY:mobsd07_1@sdesert",
          "oflags" : [
             "Enchanted",
             "Wearable",
@@ -676,7 +676,7 @@
          ]
       },
       "east_desertsd18@sdesert" : {
-         "location" : "IN_ROOM:desertSD18",
+         "location" : "IN_ROOM:desertsd18@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -686,7 +686,7 @@
       },
       "objsd00_3@sdesert" : {
          "damage" : "6",
-         "location" : "CARRIED_BY:mobSD05_3",
+         "location" : "CARRIED_BY:mobsd05_3@sdesert",
          "oflags" : [
             "Weapon"
          ],
@@ -701,7 +701,7 @@
          "desc[0]" : "A chipped rock is lying here, half-hidden in the weeds."
       },
       "west_desertsd06@sdesert" : {
-         "location" : "IN_ROOM:desertSD06",
+         "location" : "IN_ROOM:desertsd06@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -711,7 +711,7 @@
       },
       "objsd00_6@sdesert" : {
          "damage" : "6",
-         "location" : "IN_ROOM:desertSD14",
+         "location" : "IN_ROOM:desertsd14@sdesert",
          "oflags" : [
             "Weapon"
          ],
@@ -726,7 +726,7 @@
          "desc[0]" : "A chipped rock is lying here, half-hidden in the weeds."
       },
       "objsd01_3@sdesert" : {
-         "location" : "IN_ROOM:desertSD13",
+         "location" : "IN_ROOM:desertsd13@sdesert",
          "oflags" : [
             "Cursed",
             "Food"
@@ -742,7 +742,7 @@
          "desc[0]" : "A strange, dry weed attempts to grow out of the dust."
       },
       "desert2@sdesert" : {
-         "location" : "IN_ROOM:desertSD63",
+         "location" : "IN_ROOM:desertsd63@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -752,7 +752,7 @@
          "examine" : "You see the desert...\n"
       },
       "objsd06_3@sdesert" : {
-         "location" : "WORN_BY:mobSD07_3",
+         "location" : "WORN_BY:mobsd07_3@sdesert",
          "oflags" : [
             "Enchanted",
             "Wearable",
@@ -775,7 +775,7 @@
       },
       "objsd02@sdesert" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:mobSD07",
+         "location" : "WIELDED_BY:mobsd07@sdesert",
          "oflags" : [
             "Enchanted",
             "Weapon"
@@ -791,7 +791,7 @@
          "desc[0]" : "A strange little axe is here, abandoned on the ground."
       },
       "west_desertsd10@sdesert" : {
-         "location" : "IN_ROOM:desertSD10",
+         "location" : "IN_ROOM:desertsd10@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -800,7 +800,7 @@
          "examine" : "To the west you see a dreary little fork in the weed-choked path.\n"
       },
       "south_desertsd40@sdesert" : {
-         "location" : "IN_ROOM:desertSD40",
+         "location" : "IN_ROOM:desertsd40@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -809,7 +809,7 @@
          "examine" : "The mesa to the south ominously begins to blot out the sky.\n"
       },
       "objsd01@sdesert" : {
-         "location" : "IN_ROOM:desertSD02",
+         "location" : "IN_ROOM:desertsd02@sdesert",
          "oflags" : [
             "Cursed",
             "Food"
@@ -826,7 +826,7 @@
       },
       "objsd02_3@sdesert" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:mobSD07_3",
+         "location" : "WIELDED_BY:mobsd07_3@sdesert",
          "oflags" : [
             "Enchanted",
             "Weapon"
@@ -842,7 +842,7 @@
          "desc[0]" : "A strange little axe is here, abandoned on the ground."
       },
       "east_desertsd51@sdesert" : {
-         "location" : "IN_ROOM:desertSD51",
+         "location" : "IN_ROOM:desertsd51@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -851,7 +851,7 @@
          "examine" : "You see a desert path, deserted.\n"
       },
       "south_desertsd00@sdesert" : {
-         "location" : "IN_ROOM:desertSD00",
+         "location" : "IN_ROOM:desertsd00@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -860,7 +860,7 @@
          "examine" : "A huge cactus-dotted desert spreads out before you.\n"
       },
       "east_desertsd45@sdesert" : {
-         "location" : "IN_ROOM:desertSD45",
+         "location" : "IN_ROOM:desertsd45@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -869,7 +869,7 @@
          "examine" : "You see more brush to the east.\n"
       },
       "painting@sdesert" : {
-         "location" : "IN_ROOM:desertSD67",
+         "location" : "IN_ROOM:desertsd67@sdesert",
          "oflags" : [
             "Noget"
          ],
@@ -879,7 +879,7 @@
          "examine" : "The paintings you see are very beautiful, and magic seems\nto emanate from them.\n"
       },
       "south_desertsd41@sdesert" : {
-         "location" : "IN_ROOM:desertSD41",
+         "location" : "IN_ROOM:desertsd41@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -888,7 +888,7 @@
          "examine" : "The trail continues to the south, through the desert weeds.\n"
       },
       "west_desertsd55@sdesert" : {
-         "location" : "IN_ROOM:desertSD55",
+         "location" : "IN_ROOM:desertsd55@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -897,7 +897,7 @@
          "examine" : "A small trail goes west from here.\n"
       },
       "west_desertsd05@sdesert" : {
-         "location" : "IN_ROOM:desertSD05",
+         "location" : "IN_ROOM:desertsd05@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -906,7 +906,7 @@
          "examine" : "A fork in the path lies to the west.\n"
       },
       "east_desertsd10@sdesert" : {
-         "location" : "IN_ROOM:desertSD10",
+         "location" : "IN_ROOM:desertsd10@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -915,7 +915,7 @@
          "examine" : "To the east the mountains begin to rise, as your spirits fall.\n"
       },
       "west_desertsd52@sdesert" : {
-         "location" : "IN_ROOM:desertSD52",
+         "location" : "IN_ROOM:desertsd52@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -924,7 +924,7 @@
          "examine" : "A small trail goes west from here.\n"
       },
       "south_desertsd44@sdesert" : {
-         "location" : "IN_ROOM:desertSD44",
+         "location" : "IN_ROOM:desertsd44@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -933,7 +933,7 @@
          "examine" : "You see more brush to the south. \n"
       },
       "objsd06@sdesert" : {
-         "location" : "WORN_BY:mobSD07",
+         "location" : "WORN_BY:mobsd07@sdesert",
          "oflags" : [
             "Enchanted",
             "Wearable",
@@ -955,7 +955,7 @@
          ]
       },
       "objsd01_2@sdesert" : {
-         "location" : "IN_ROOM:desertSD10",
+         "location" : "IN_ROOM:desertsd10@sdesert",
          "oflags" : [
             "Cursed",
             "Food"
@@ -971,7 +971,7 @@
          "desc[0]" : "A strange, dry weed attempts to grow out of the dust."
       },
       "objsd01_5@sdesert" : {
-         "location" : "IN_ROOM:desertSD47",
+         "location" : "IN_ROOM:desertsd47@sdesert",
          "oflags" : [
             "Cursed",
             "Food"
@@ -987,7 +987,7 @@
          "desc[0]" : "A strange, dry weed attempts to grow out of the dust."
       },
       "south_desertsd45@sdesert" : {
-         "location" : "IN_ROOM:desertSD45",
+         "location" : "IN_ROOM:desertsd45@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -997,7 +997,7 @@
       },
       "objsd00_2@sdesert" : {
          "damage" : "6",
-         "location" : "CARRIED_BY:mobSD05_2",
+         "location" : "CARRIED_BY:mobsd05_2@sdesert",
          "oflags" : [
             "Weapon"
          ],
@@ -1012,7 +1012,7 @@
          "desc[0]" : "A chipped rock is lying here, half-hidden in the weeds."
       },
       "objsd05_1@sdesert" : {
-         "location" : "WORN_BY:mobSD09_1",
+         "location" : "WORN_BY:mobsd09_1@sdesert",
          "oflags" : [
             "Enchanted",
             "Wearable",
@@ -1034,7 +1034,7 @@
          ]
       },
       "west_desertsd64@sdesert" : {
-         "location" : "IN_ROOM:desertSD64",
+         "location" : "IN_ROOM:desertsd64@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1043,7 +1043,7 @@
          "examine" : "You see more brush to the west.\n"
       },
       "west_desertsd56@sdesert" : {
-         "location" : "IN_ROOM:desertSD56",
+         "location" : "IN_ROOM:desertsd56@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1053,7 +1053,7 @@
       },
       "door_desertsd67@sdesert" : {
          "desc[1]" : "The stone wigwam is closed.",
-         "location" : "IN_ROOM:desertSD65",
+         "location" : "IN_ROOM:desertsd65@sdesert",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -1071,7 +1071,7 @@
       },
       "objsd08_3@sdesert" : {
          "damage" : "3",
-         "location" : "IN_ROOM:desertSD53",
+         "location" : "IN_ROOM:desertsd53@sdesert",
          "oflags" : [
             "Weapon"
          ],
@@ -1087,7 +1087,7 @@
          "desc[0]" : "A cactus thorn lies here, almost under your feet."
       },
       "objsd05@sdesert" : {
-         "location" : "WORN_BY:mobSD09",
+         "location" : "WORN_BY:mobsd09@sdesert",
          "oflags" : [
             "Enchanted",
             "Wearable",
@@ -1109,7 +1109,7 @@
          ]
       },
       "south_desertsd01@sdesert" : {
-         "location" : "IN_ROOM:desertSD01",
+         "location" : "IN_ROOM:desertsd01@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1118,7 +1118,7 @@
          "examine" : "The heat makes the desert to the south shimmer. \n"
       },
       "south_desertsd16@sdesert" : {
-         "location" : "IN_ROOM:desertSD16",
+         "location" : "IN_ROOM:desertsd16@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1127,7 +1127,7 @@
          "examine" : "The road to the south ends in a 'T'. \n"
       },
       "south_desertsd06@sdesert" : {
-         "location" : "IN_ROOM:desertSD06",
+         "location" : "IN_ROOM:desertsd06@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1136,7 +1136,7 @@
          "examine" : "The path look like it disappears to the east.\n"
       },
       "south_desertsd04@sdesert" : {
-         "location" : "IN_ROOM:desertSD04",
+         "location" : "IN_ROOM:desertsd04@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1145,7 +1145,7 @@
          "examine" : "A large mesa looms up in the south.\n"
       },
       "south_desertsd25@sdesert" : {
-         "location" : "IN_ROOM:desertSD25",
+         "location" : "IN_ROOM:desertsd25@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1154,7 +1154,7 @@
          "examine" : "You see more desert to the south.\n"
       },
       "objsd01_4@sdesert" : {
-         "location" : "IN_ROOM:desertSD22",
+         "location" : "IN_ROOM:desertsd22@sdesert",
          "oflags" : [
             "Cursed",
             "Food"
@@ -1171,7 +1171,7 @@
       },
       "objsd04@sdesert" : {
          "damage" : "30",
-         "location" : "WIELDED_BY:mobSD10",
+         "location" : "WIELDED_BY:mobsd10@sdesert",
          "oflags" : [
             "Lit",
             "Enchanted",
@@ -1190,7 +1190,7 @@
       },
       "objsd03@sdesert" : {
          "damage" : "16",
-         "location" : "CARRIED_BY:mobSD09",
+         "location" : "CARRIED_BY:mobsd09@sdesert",
          "oflags" : [
             "Weapon"
          ],
@@ -1205,7 +1205,7 @@
          "desc[0]" : "A vicious spear is struck into the earth here, daring you to take it."
       },
       "west_desertsd07@sdesert" : {
-         "location" : "IN_ROOM:desertSD07",
+         "location" : "IN_ROOM:desertsd07@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1214,7 +1214,7 @@
          "examine" : "The west doesn't seem as glorious as it does in all those old movies.\n"
       },
       "south_desertsd07@sdesert" : {
-         "location" : "IN_ROOM:desertSD07",
+         "location" : "IN_ROOM:desertsd07@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1223,7 +1223,7 @@
          "examine" : "You rub your eyes and try to make out the split in the path to the south.\n"
       },
       "east_desertsd62@sdesert" : {
-         "location" : "IN_ROOM:desertSD62",
+         "location" : "IN_ROOM:desertsd62@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1233,7 +1233,7 @@
       },
       "objsd02_2@sdesert" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:mobSD07_2",
+         "location" : "WIELDED_BY:mobsd07_2@sdesert",
          "oflags" : [
             "Enchanted",
             "Weapon"
@@ -1249,7 +1249,7 @@
          "desc[0]" : "A strange little axe is here, abandoned on the ground."
       },
       "north_desertsd12@sdesert" : {
-         "location" : "IN_ROOM:desertSD12",
+         "location" : "IN_ROOM:desertsd12@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1258,7 +1258,7 @@
          "examine" : "To the north you look down onto flatter ground.\n"
       },
       "west_desertsd44@sdesert" : {
-         "location" : "IN_ROOM:desertSD44",
+         "location" : "IN_ROOM:desertsd44@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1267,7 +1267,7 @@
          "examine" : "You see more brush to the west.\n"
       },
       "north_desertsd30@sdesert" : {
-         "location" : "IN_ROOM:desertSD30",
+         "location" : "IN_ROOM:desertsd30@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1276,7 +1276,7 @@
          "examine" : "You see the trail here leads north.\n"
       },
       "west_desertsd14@sdesert" : {
-         "location" : "IN_ROOM:desertSD14",
+         "location" : "IN_ROOM:desertsd14@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1285,7 +1285,7 @@
          "examine" : "You look back to the desert mountains.\n"
       },
       "south_desertsd09@sdesert" : {
-         "location" : "IN_ROOM:desertSD09",
+         "location" : "IN_ROOM:desertsd09@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1294,7 +1294,7 @@
          "examine" : "Your eyes hurt, due to the continuous desert scene.\n"
       },
       "south_desertsd37@sdesert" : {
-         "location" : "IN_ROOM:desertSD37",
+         "location" : "IN_ROOM:desertsd37@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1303,7 +1303,7 @@
          "examine" : "You see more desert to the south.\n"
       },
       "north_desertsd41@sdesert" : {
-         "location" : "IN_ROOM:desertSD41",
+         "location" : "IN_ROOM:desertsd41@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1312,7 +1312,7 @@
          "examine" : "You see more desert to the north.\n"
       },
       "objsd01_9@sdesert" : {
-         "location" : "IN_ROOM:desertSD56",
+         "location" : "IN_ROOM:desertsd56@sdesert",
          "oflags" : [
             "Cursed",
             "Food"
@@ -1328,7 +1328,7 @@
          "desc[0]" : "A strange, dry weed attempts to grow out of the dust."
       },
       "south_desertsd51@sdesert" : {
-         "location" : "IN_ROOM:desertSD51",
+         "location" : "IN_ROOM:desertsd51@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1338,7 +1338,7 @@
       },
       "objsd08_2@sdesert" : {
          "damage" : "3",
-         "location" : "IN_ROOM:desertSD53",
+         "location" : "IN_ROOM:desertsd53@sdesert",
          "oflags" : [
             "Weapon"
          ],
@@ -1354,7 +1354,7 @@
          "desc[0]" : "A cactus thorn lies here, almost under your feet."
       },
       "south_desertsd32@sdesert" : {
-         "location" : "IN_ROOM:desertSD32",
+         "location" : "IN_ROOM:desertsd32@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1363,7 +1363,7 @@
          "examine" : "A rocky mesa lies to the south.\n"
       },
       "pottery@sdesert" : {
-         "location" : "IN_ROOM:desertSD66",
+         "location" : "IN_ROOM:desertsd66@sdesert",
          "oflags" : [
             "Container"
          ],
@@ -1376,7 +1376,7 @@
          "desc[0]" : "A well made piece of Indian pottery remains here."
       },
       "west_desertsd23@sdesert" : {
-         "location" : "IN_ROOM:desertSD23",
+         "location" : "IN_ROOM:desertsd23@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1385,7 +1385,7 @@
          "examine" : "You see the Southern desert to the west.\n"
       },
       "objsd06_2@sdesert" : {
-         "location" : "WORN_BY:mobSD07_2",
+         "location" : "WORN_BY:mobsd07_2@sdesert",
          "oflags" : [
             "Enchanted",
             "Wearable",
@@ -1407,7 +1407,7 @@
          ]
       },
       "east_desertsd04@sdesert" : {
-         "location" : "IN_ROOM:desertSD04",
+         "location" : "IN_ROOM:desertsd04@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1416,7 +1416,7 @@
          "examine" : "The path forks off to the east, where it disappears into the brush.\n"
       },
       "north_desertsd43@sdesert" : {
-         "location" : "IN_ROOM:desertSD43",
+         "location" : "IN_ROOM:desertsd43@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1425,7 +1425,7 @@
          "examine" : "You see more desert to the north.\n"
       },
       "east_desertsd23@sdesert" : {
-         "location" : "IN_ROOM:desertSD23",
+         "location" : "IN_ROOM:desertsd23@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1434,7 +1434,7 @@
          "examine" : "You see mountains to the east.\n"
       },
       "objsd01_1@sdesert" : {
-         "location" : "IN_ROOM:desertSD06",
+         "location" : "IN_ROOM:desertsd06@sdesert",
          "oflags" : [
             "Cursed",
             "Food"
@@ -1450,7 +1450,7 @@
          "desc[0]" : "A strange, dry weed attempts to grow out of the dust."
       },
       "south_desertsd42@sdesert" : {
-         "location" : "IN_ROOM:desertSD42",
+         "location" : "IN_ROOM:desertsd42@sdesert",
          "oflags" : [
             "NoGet"
          ],
@@ -1459,7 +1459,7 @@
          "examine" : "You begin to fear the mesa to the south...\n"
       },
       "objsd67@sdesert" : {
-         "location" : "IN_ROOM:desertSD66",
+         "location" : "IN_ROOM:desertsd66@sdesert",
          "oflags" : [
             "Key"
          ],
@@ -1478,10 +1478,10 @@
    "loc" : {
       "desertsd34@sdesert" : {
          "exits" : {
-            "e" : "desertSD35",
-            "w" : "desertSD33",
-            "n" : "desertSD34",
-            "s" : "desertSD34"
+            "e" : "desertsd35@sdesert",
+            "w" : "desertsd33@sdesert",
+            "n" : "desertsd34@sdesert",
+            "s" : "desertsd34@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1495,9 +1495,9 @@
       },
       "desertsd27@sdesert" : {
          "exits" : {
-            "e" : "desertSD28",
-            "n" : "desertSD25",
-            "s" : "desertSD31"
+            "e" : "desertsd28@sdesert",
+            "n" : "desertsd25@sdesert",
+            "s" : "desertsd31@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1511,10 +1511,10 @@
       },
       "desertsd63@sdesert" : {
          "exits" : {
-            "e" : "desertSD64",
-            "w" : "desertSD62",
-            "n" : "desertSD63",
-            "s" : "desertSD63"
+            "e" : "desertsd64@sdesert",
+            "w" : "desertsd62@sdesert",
+            "n" : "desertsd63@sdesert",
+            "s" : "desertsd63@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1528,8 +1528,8 @@
       },
       "desertsd58@sdesert" : {
          "exits" : {
-            "n" : "desertSD55",
-            "s" : "desertSD59"
+            "n" : "desertsd55@sdesert",
+            "s" : "desertsd59@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1543,8 +1543,8 @@
       },
       "desertsd02@sdesert" : {
          "exits" : {
-            "n" : "desertSD01",
-            "s" : "desertSD03"
+            "n" : "desertsd01@sdesert",
+            "s" : "desertsd03@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1558,8 +1558,8 @@
       },
       "desertsd62@sdesert" : {
          "exits" : {
-            "e" : "desertSD63",
-            "w" : "desertSD61"
+            "e" : "desertsd63@sdesert",
+            "w" : "desertsd61@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1573,8 +1573,8 @@
       },
       "desertsd12@sdesert" : {
          "exits" : {
-            "n" : "desertSD09",
-            "s" : "desertSD15"
+            "n" : "desertsd09@sdesert",
+            "s" : "desertsd15@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1588,9 +1588,9 @@
       },
       "desertsd37@sdesert" : {
          "exits" : {
-            "e" : "desertSD38",
-            "w" : "desertSD36",
-            "n" : "desertSD31"
+            "e" : "desertsd38@sdesert",
+            "w" : "desertsd36@sdesert",
+            "n" : "desertsd31@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1604,8 +1604,8 @@
       },
       "desertsd59@sdesert" : {
          "exits" : {
-            "n" : "desertSD58",
-            "s" : "desertSD60"
+            "n" : "desertsd58@sdesert",
+            "s" : "desertsd60@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1619,10 +1619,10 @@
       },
       "desertsd35@sdesert" : {
          "exits" : {
-            "e" : "desertSD36",
-            "w" : "desertSD34",
-            "n" : "desertSD35",
-            "s" : "desertSD35"
+            "e" : "desertsd36@sdesert",
+            "w" : "desertsd34@sdesert",
+            "n" : "desertsd35@sdesert",
+            "s" : "desertsd35@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1636,9 +1636,9 @@
       },
       "desertsd24@sdesert" : {
          "exits" : {
-            "w" : "desertSD23",
-            "n" : "desertSD24",
-            "s" : "desertSD24"
+            "w" : "desertsd23@sdesert",
+            "n" : "desertsd24@sdesert",
+            "s" : "desertsd24@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1652,8 +1652,8 @@
       },
       "desertsd05@sdesert" : {
          "exits" : {
-            "e" : "desertSD06",
-            "w" : "desertSD04"
+            "e" : "desertsd06@sdesert",
+            "w" : "desertsd04@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1667,8 +1667,8 @@
       },
       "desertsd30@sdesert" : {
          "exits" : {
-            "w" : "desertSD29",
-            "n" : "desertSD26"
+            "w" : "desertsd29@sdesert",
+            "n" : "desertsd26@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1682,10 +1682,10 @@
       },
       "desertsd23@sdesert" : {
          "exits" : {
-            "e" : "desertSD24",
-            "w" : "desertSD22",
-            "n" : "desertSD23",
-            "s" : "desertSD23"
+            "e" : "desertsd24@sdesert",
+            "w" : "desertsd22@sdesert",
+            "n" : "desertsd23@sdesert",
+            "s" : "desertsd23@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1699,10 +1699,10 @@
       },
       "desertsd20@sdesert" : {
          "exits" : {
-            "e" : "desertSD21",
-            "w" : "desertSD20",
-            "n" : "desertSD20",
-            "s" : "desertSD26"
+            "e" : "desertsd21@sdesert",
+            "w" : "desertsd20@sdesert",
+            "n" : "desertsd20@sdesert",
+            "s" : "desertsd26@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1716,8 +1716,8 @@
       },
       "desertsd10@sdesert" : {
          "exits" : {
-            "e" : "desertSD11",
-            "w" : "desertSD09"
+            "e" : "desertsd11@sdesert",
+            "w" : "desertsd09@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1731,10 +1731,10 @@
       },
       "desertsd54@sdesert" : {
          "exits" : {
-            "e" : "desertSD55",
-            "w" : "desertSD54",
-            "n" : "desertSD53",
-            "s" : "desertSD54"
+            "e" : "desertsd55@sdesert",
+            "w" : "desertsd54@sdesert",
+            "n" : "desertsd53@sdesert",
+            "s" : "desertsd54@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1748,10 +1748,10 @@
       },
       "desertsd22@sdesert" : {
          "exits" : {
-            "e" : "desertSD23",
-            "w" : "desertSD21",
-            "n" : "desertSD22",
-            "s" : "desertSD22"
+            "e" : "desertsd23@sdesert",
+            "w" : "desertsd21@sdesert",
+            "n" : "desertsd22@sdesert",
+            "s" : "desertsd22@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1765,9 +1765,9 @@
       },
       "desertsd29@sdesert" : {
          "exits" : {
-            "e" : "desertSD30",
-            "w" : "desertSD28",
-            "s" : "desertSD39"
+            "e" : "desertsd30@sdesert",
+            "w" : "desertsd28@sdesert",
+            "s" : "desertsd39@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1781,7 +1781,7 @@
       },
       "desertsd66@sdesert" : {
          "exits" : {
-            "n" : "^boulder_desertSD46"
+            "n" : "^boulder_desertsd46@sdesert"
          },
          "flags" : [],
          "zone" : "sdesert",
@@ -1792,10 +1792,10 @@
       },
       "desertsd56@sdesert" : {
          "exits" : {
-            "e" : "desertSD57",
-            "w" : "desertSD55",
-            "n" : "desertSD56",
-            "s" : "desertSD56"
+            "e" : "desertsd57@sdesert",
+            "w" : "desertsd55@sdesert",
+            "n" : "desertsd56@sdesert",
+            "s" : "desertsd56@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1809,10 +1809,10 @@
       },
       "desertsd48@sdesert" : {
          "exits" : {
-            "e" : "desertSD49",
+            "e" : "desertsd49@sdesert",
             "w" : "sdesert@aladdin",
-            "n" : "desertSD48",
-            "s" : "desertSD48"
+            "n" : "desertsd48@sdesert",
+            "s" : "desertsd48@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1826,10 +1826,10 @@
       },
       "desertsd55@sdesert" : {
          "exits" : {
-            "e" : "desertSD56",
-            "w" : "desertSD54",
-            "n" : "desertSD52",
-            "s" : "desertSD58"
+            "e" : "desertsd56@sdesert",
+            "w" : "desertsd54@sdesert",
+            "n" : "desertsd52@sdesert",
+            "s" : "desertsd58@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1843,10 +1843,10 @@
       },
       "desertsd44@sdesert" : {
          "exits" : {
-            "e" : "desertSD45",
-            "w" : "desertSD43",
-            "n" : "desertSD44",
-            "s" : "desertSD44"
+            "e" : "desertsd45@sdesert",
+            "w" : "desertsd43@sdesert",
+            "n" : "desertsd44@sdesert",
+            "s" : "desertsd44@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1860,7 +1860,7 @@
       },
       "desertsd14@sdesert" : {
          "exits" : {
-            "w" : "desertSD13"
+            "w" : "desertsd13@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1874,10 +1874,10 @@
       },
       "desertsd36@sdesert" : {
          "exits" : {
-            "e" : "desertSD37",
-            "w" : "desertSD35",
-            "n" : "desertSD31",
-            "s" : "desertSD36"
+            "e" : "desertsd37@sdesert",
+            "w" : "desertsd35@sdesert",
+            "n" : "desertsd31@sdesert",
+            "s" : "desertsd36@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1891,10 +1891,10 @@
       },
       "desertsd32@sdesert" : {
          "exits" : {
-            "e" : "desertSD33",
+            "e" : "desertsd33@sdesert",
             "w" : "rome67@rome",
-            "n" : "desertSD32",
-            "s" : "desertSD40"
+            "n" : "desertsd32@sdesert",
+            "s" : "desertsd40@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1908,10 +1908,10 @@
       },
       "desertsd33@sdesert" : {
          "exits" : {
-            "e" : "desertSD34",
-            "w" : "desertSD32",
-            "n" : "desertSD33",
-            "s" : "desertSD33"
+            "e" : "desertsd34@sdesert",
+            "w" : "desertsd32@sdesert",
+            "n" : "desertsd33@sdesert",
+            "s" : "desertsd33@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1925,8 +1925,8 @@
       },
       "desertsd41@sdesert" : {
          "exits" : {
-            "n" : "desertSD39",
-            "s" : "desertSD43"
+            "n" : "desertsd39@sdesert",
+            "s" : "desertsd43@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1940,8 +1940,8 @@
       },
       "desertsd03@sdesert" : {
          "exits" : {
-            "n" : "desertSD02",
-            "s" : "desertSD04"
+            "n" : "desertsd02@sdesert",
+            "s" : "desertsd04@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1955,9 +1955,9 @@
       },
       "desertsd52@sdesert" : {
          "exits" : {
-            "w" : "desertSD51",
-            "n" : "desertSD50",
-            "s" : "desertSD55"
+            "w" : "desertsd51@sdesert",
+            "n" : "desertsd50@sdesert",
+            "s" : "desertsd55@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1971,8 +1971,8 @@
       },
       "desertsd11@sdesert" : {
          "exits" : {
-            "w" : "desertSD10",
-            "s" : "desertSD13"
+            "w" : "desertsd10@sdesert",
+            "s" : "desertsd13@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -1986,8 +1986,8 @@
       },
       "desertsd18@sdesert" : {
          "exits" : {
-            "e" : "desertSD19",
-            "w" : "desertSD17"
+            "e" : "desertsd19@sdesert",
+            "w" : "desertsd17@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2001,8 +2001,8 @@
       },
       "desertsd47@sdesert" : {
          "exits" : {
-            "n" : "desertSD43",
-            "s" : "desertSD49"
+            "n" : "desertsd43@sdesert",
+            "s" : "desertsd49@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2016,8 +2016,8 @@
       },
       "desertsd60@sdesert" : {
          "exits" : {
-            "n" : "desertSD59",
-            "s" : "desertSD61"
+            "n" : "desertsd59@sdesert",
+            "s" : "desertsd61@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2031,8 +2031,8 @@
       },
       "desertsd00@sdesert" : {
          "exits" : {
-            "n" : "Mou6@mountain",
-            "s" : "desertSD01"
+            "n" : "mou6@mountain",
+            "s" : "desertsd01@sdesert"
          },
          "flags" : [
             "Outdoors"
@@ -2045,8 +2045,8 @@
       },
       "desertsd19@sdesert" : {
          "exits" : {
-            "w" : "desertSD18",
-            "n" : "desertSD16"
+            "w" : "desertsd18@sdesert",
+            "n" : "desertsd16@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2060,8 +2060,8 @@
       },
       "desertsd42@sdesert" : {
          "exits" : {
-            "n" : "desertSD40",
-            "s" : "desertSD46"
+            "n" : "desertsd40@sdesert",
+            "s" : "desertsd46@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2075,8 +2075,8 @@
       },
       "desertsd61@sdesert" : {
          "exits" : {
-            "e" : "desertSD62",
-            "n" : "desertSD60",
+            "e" : "desertsd62@sdesert",
+            "n" : "desertsd60@sdesert",
             "s" : "sommerlund1@sommerlund"
          },
          "flags" : [
@@ -2091,8 +2091,8 @@
       },
       "desertsd06@sdesert" : {
          "exits" : {
-            "e" : "desertSD07",
-            "w" : "desertSD05"
+            "e" : "desertsd07@sdesert",
+            "w" : "desertsd05@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2106,8 +2106,8 @@
       },
       "desertsd51@sdesert" : {
          "exits" : {
-            "e" : "desertSD52",
-            "s" : "desertSD53"
+            "e" : "desertsd52@sdesert",
+            "s" : "desertsd53@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2121,8 +2121,8 @@
       },
       "desertsd53@sdesert" : {
          "exits" : {
-            "n" : "desertSD51",
-            "s" : "desertSD54"
+            "n" : "desertsd51@sdesert",
+            "s" : "desertsd54@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2136,10 +2136,10 @@
       },
       "desertsd64@sdesert" : {
          "exits" : {
-            "e" : "desertSD65",
-            "w" : "desertSD63",
-            "n" : "desertSD63",
-            "s" : "desertSD63"
+            "e" : "desertsd65@sdesert",
+            "w" : "desertsd63@sdesert",
+            "n" : "desertsd63@sdesert",
+            "s" : "desertsd63@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2153,9 +2153,9 @@
       },
       "desertsd43@sdesert" : {
          "exits" : {
-            "e" : "desertSD44",
-            "n" : "desertSD41",
-            "s" : "desertSD47"
+            "e" : "desertsd44@sdesert",
+            "n" : "desertsd41@sdesert",
+            "s" : "desertsd47@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2169,9 +2169,9 @@
       },
       "desertsd17@sdesert" : {
          "exits" : {
-            "e" : "desertSD18",
-            "n" : "desertSD15",
-            "s" : "desertSD25"
+            "e" : "desertsd18@sdesert",
+            "n" : "desertsd15@sdesert",
+            "s" : "desertsd25@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2185,10 +2185,10 @@
       },
       "desertsd21@sdesert" : {
          "exits" : {
-            "e" : "desertSD22",
-            "w" : "desertSD20",
-            "n" : "desertSD21",
-            "s" : "desertSD21"
+            "e" : "desertsd22@sdesert",
+            "w" : "desertsd20@sdesert",
+            "n" : "desertsd21@sdesert",
+            "s" : "desertsd21@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2202,8 +2202,8 @@
       },
       "desertsd25@sdesert" : {
          "exits" : {
-            "n" : "desertSD17",
-            "s" : "desertSD27"
+            "n" : "desertsd17@sdesert",
+            "s" : "desertsd27@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2217,9 +2217,9 @@
       },
       "desertsd28@sdesert" : {
          "exits" : {
-            "e" : "desertSD29",
-            "w" : "desertSD27",
-            "s" : "desertSD38"
+            "e" : "desertsd29@sdesert",
+            "w" : "desertsd27@sdesert",
+            "s" : "desertsd38@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2233,9 +2233,9 @@
       },
       "desertsd39@sdesert" : {
          "exits" : {
-            "w" : "desertSD38",
-            "n" : "desertSD29",
-            "s" : "desertSD41"
+            "w" : "desertsd38@sdesert",
+            "n" : "desertsd29@sdesert",
+            "s" : "desertsd41@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2249,8 +2249,8 @@
       },
       "desertsd16@sdesert" : {
          "exits" : {
-            "n" : "desertSD13",
-            "s" : "desertSD19"
+            "n" : "desertsd13@sdesert",
+            "s" : "desertsd19@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2264,9 +2264,9 @@
       },
       "desertsd38@sdesert" : {
          "exits" : {
-            "e" : "desertSD39",
-            "w" : "desertSD37",
-            "n" : "desertSD28"
+            "e" : "desertsd39@sdesert",
+            "w" : "desertsd37@sdesert",
+            "n" : "desertsd28@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2280,9 +2280,9 @@
       },
       "desertsd09@sdesert" : {
          "exits" : {
-            "e" : "desertSD10",
-            "n" : "desertSD07",
-            "s" : "desertSD12"
+            "e" : "desertsd10@sdesert",
+            "n" : "desertsd07@sdesert",
+            "s" : "desertsd12@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2296,8 +2296,8 @@
       },
       "desertsd40@sdesert" : {
          "exits" : {
-            "n" : "desertSD32",
-            "s" : "desertSD42"
+            "n" : "desertsd32@sdesert",
+            "s" : "desertsd42@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2311,7 +2311,7 @@
       },
       "desertsd67@sdesert" : {
          "exits" : {
-            "w" : "^door_desertSD65"
+            "w" : "^door_desertsd65@sdesert"
          },
          "flags" : [
             "Dark",
@@ -2326,9 +2326,9 @@
       },
       "desertsd49@sdesert" : {
          "exits" : {
-            "w" : "desertSD48",
-            "n" : "desertSD47",
-            "s" : "desertSD50"
+            "w" : "desertsd48@sdesert",
+            "n" : "desertsd47@sdesert",
+            "s" : "desertsd50@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2342,8 +2342,8 @@
       },
       "desertsd07@sdesert" : {
          "exits" : {
-            "w" : "desertSD06",
-            "s" : "desertSD09"
+            "w" : "desertsd06@sdesert",
+            "s" : "desertsd09@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2357,8 +2357,8 @@
       },
       "desertsd50@sdesert" : {
          "exits" : {
-            "n" : "desertSD49",
-            "s" : "desertSD52"
+            "n" : "desertsd49@sdesert",
+            "s" : "desertsd52@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2372,8 +2372,8 @@
       },
       "desertsd65@sdesert" : {
          "exits" : {
-            "e" : "^door_desertSD67",
-            "w" : "desertSD64"
+            "e" : "^door_desertsd67@sdesert",
+            "w" : "desertsd64@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2387,10 +2387,10 @@
       },
       "desertsd45@sdesert" : {
          "exits" : {
-            "e" : "desertSD44",
-            "w" : "desertSD44",
-            "n" : "desertSD44",
-            "s" : "desertSD44"
+            "e" : "desertsd44@sdesert",
+            "w" : "desertsd44@sdesert",
+            "n" : "desertsd44@sdesert",
+            "s" : "desertsd44@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2404,8 +2404,8 @@
       },
       "desertsd46@sdesert" : {
          "exits" : {
-            "n" : "desertSD42",
-            "s" : "^boulder_desertSD66"
+            "n" : "desertsd42@sdesert",
+            "s" : "^boulder_desertsd66@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2419,8 +2419,8 @@
       },
       "desertsd26@sdesert" : {
          "exits" : {
-            "n" : "desertSD20",
-            "s" : "desertSD30"
+            "n" : "desertsd20@sdesert",
+            "s" : "desertsd30@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2434,9 +2434,9 @@
       },
       "desertsd04@sdesert" : {
          "exits" : {
-            "e" : "desertSD05",
-            "n" : "desertSD03",
-            "s" : "desertSD08"
+            "e" : "desertsd05@sdesert",
+            "n" : "desertsd03@sdesert",
+            "s" : "desertsd08@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2450,7 +2450,7 @@
       },
       "desertsd08@sdesert" : {
          "exits" : {
-            "n" : "desertSD04"
+            "n" : "desertsd04@sdesert"
          },
          "flags" : [
             "Outdoors"
@@ -2463,8 +2463,8 @@
       },
       "desertsd15@sdesert" : {
          "exits" : {
-            "n" : "desertSD12",
-            "s" : "desertSD17"
+            "n" : "desertsd12@sdesert",
+            "s" : "desertsd17@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2478,10 +2478,10 @@
       },
       "desertsd57@sdesert" : {
          "exits" : {
-            "e" : "desertSD57",
-            "w" : "desertSD56",
-            "n" : "desertSD57",
-            "s" : "desertSD57"
+            "e" : "desertsd57@sdesert",
+            "w" : "desertsd56@sdesert",
+            "n" : "desertsd57@sdesert",
+            "s" : "desertsd57@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2495,9 +2495,9 @@
       },
       "desertsd31@sdesert" : {
          "exits" : {
-            "w" : "desertSD36",
-            "n" : "desertSD27",
-            "s" : "desertSD37"
+            "w" : "desertsd36@sdesert",
+            "n" : "desertsd27@sdesert",
+            "s" : "desertsd37@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2511,8 +2511,8 @@
       },
       "desertsd01@sdesert" : {
          "exits" : {
-            "n" : "desertSD00",
-            "s" : "desertSD02"
+            "n" : "desertsd00@sdesert",
+            "s" : "desertsd02@sdesert"
          },
          "flags" : [
             "Outdoors"
@@ -2525,9 +2525,9 @@
       },
       "desertsd13@sdesert" : {
          "exits" : {
-            "e" : "desertSD14",
-            "n" : "desertSD11",
-            "s" : "desertSD16"
+            "e" : "desertsd14@sdesert",
+            "n" : "desertsd11@sdesert",
+            "s" : "desertsd16@sdesert"
          },
          "flags" : [
             "Outdoors",
@@ -2544,7 +2544,7 @@
       "mobsd07_2@sdesert" : {
          "visibility" : "0",
          "damage" : "14",
-         "location" : "desertSD57",
+         "location" : "desertsd57@sdesert",
          "armor" : "10",
          "name" : "mobSD07_2",
          "examine" : "This man is sent out into the desert for one reason,\nto keep you away from something.\n",
@@ -2560,7 +2560,7 @@
       "mobsd05_1@sdesert" : {
          "visibility" : "0",
          "damage" : "25",
-         "location" : "desertSD15",
+         "location" : "desertsd15@sdesert",
          "armor" : "10",
          "name" : "mobSD05_1",
          "examine" : "This vicious-looking animal looks both angry and hungry.\nProvocation would surely bring him to a spastic frenzy!\n",
@@ -2576,7 +2576,7 @@
       "mobsd05@sdesert" : {
          "visibility" : "0",
          "damage" : "25",
-         "location" : "desertSD12",
+         "location" : "desertsd12@sdesert",
          "armor" : "10",
          "name" : "mobSD05",
          "examine" : "This vicious-looking animal looks both angry and hungry.\nProvocation would surely bring him to a spastic frenzy!\n",
@@ -2591,7 +2591,7 @@
       },
       "ostrich@sdesert" : {
          "damage" : "13",
-         "location" : "desertSD61",
+         "location" : "desertsd61@sdesert",
          "speed" : "3",
          "armor" : "0",
          "name" : "ostrich",
@@ -2602,7 +2602,7 @@
       "mobsd11_1@sdesert" : {
          "visibility" : "0",
          "damage" : "11",
-         "location" : "desertSD31",
+         "location" : "desertsd31@sdesert",
          "armor" : "10",
          "name" : "mobSD11_1",
          "examine" : "You are amazed at this bird's size.  You are awed at its grand\npresence.  You really shouldn't kill it, it might be illegal.\n",
@@ -2623,7 +2623,7 @@
       "mobsd11_4@sdesert" : {
          "visibility" : "0",
          "damage" : "11",
-         "location" : "desertSD61",
+         "location" : "desertsd61@sdesert",
          "armor" : "10",
          "name" : "mobSD11_4",
          "examine" : "You are amazed at this bird's size.  You are awed at its grand\npresence.  You really shouldn't kill it, it might be illegal.\n",
@@ -2644,7 +2644,7 @@
       "mobsd02_1@sdesert" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "desertSD13",
+         "location" : "desertsd13@sdesert",
          "armor" : "4",
          "name" : "mobSD02_1",
          "examine" : "You have never seen anything like it. This plant can actually change its\nposition over time! Sharp spines stick out dangerously, threatening to\nprick you.\n",
@@ -2666,7 +2666,7 @@
       "mobsd00_8@sdesert" : {
          "visibility" : "0",
          "damage" : "6",
-         "location" : "desertSD41",
+         "location" : "desertsd41@sdesert",
          "armor" : "38",
          "name" : "mobSD00_8",
          "examine" : "This wee armadillo looks fairly well-armored.  Doesn't look like\nhe could do much damage, but would still be difficult to kill.\n",
@@ -2682,7 +2682,7 @@
       "mobsd07_3@sdesert" : {
          "visibility" : "0",
          "damage" : "14",
-         "location" : "desertSD62",
+         "location" : "desertsd62@sdesert",
          "armor" : "10",
          "name" : "mobSD07_3",
          "examine" : "This man is sent out into the desert for one reason,\nto keep you away from something.\n",
@@ -2698,7 +2698,7 @@
       "mobsd00_6@sdesert" : {
          "visibility" : "0",
          "damage" : "6",
-         "location" : "desertSD37",
+         "location" : "desertsd37@sdesert",
          "armor" : "38",
          "name" : "mobSD00_6",
          "examine" : "This wee armadillo looks fairly well-armored.  Doesn't look like\nhe could do much damage, but would still be difficult to kill.\n",
@@ -2714,7 +2714,7 @@
       "mobsd03@sdesert" : {
          "visibility" : "0",
          "damage" : "20",
-         "location" : "desertSD15",
+         "location" : "desertsd15@sdesert",
          "armor" : "2",
          "name" : "mobSD03",
          "examine" : "This dog looks like it has never been tamed. Its fur stands\non end, and it is full of brambles. You don't think you should \npet it.\n",
@@ -2730,7 +2730,7 @@
       "mobsd02_6@sdesert" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "desertSD47",
+         "location" : "desertsd47@sdesert",
          "armor" : "4",
          "name" : "mobSD02_6",
          "examine" : "You have never seen anything like it. This plant can actually change its\nposition over time! Sharp spines stick out dangerously, threatening to\nprick you.\n",
@@ -2751,7 +2751,7 @@
       },
       "kangaroorat@sdesert" : {
          "damage" : "3",
-         "location" : "desertSD17",
+         "location" : "desertsd17@sdesert",
          "speed" : "1",
          "armor" : "0",
          "pname" : "Kangaroo Rat",
@@ -2762,7 +2762,7 @@
       "mobsd07_1@sdesert" : {
          "visibility" : "0",
          "damage" : "14",
-         "location" : "desertSD55",
+         "location" : "desertsd55@sdesert",
          "armor" : "10",
          "name" : "mobSD07_1",
          "examine" : "This man is sent out into the desert for one reason,\nto keep you away from something.\n",
@@ -2778,7 +2778,7 @@
       "mobsd04@sdesert" : {
          "visibility" : "0",
          "damage" : "5",
-         "location" : "desertSD14",
+         "location" : "desertsd14@sdesert",
          "armor" : "0",
          "name" : "mobSD04",
          "examine" : "This small but feisty rodent has absolutely no brains.\nIt is sitting here, just waiting to follow a crowd.\n",
@@ -2795,7 +2795,7 @@
       "mobsd01_1@sdesert" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "desertSD07",
+         "location" : "desertsd07@sdesert",
          "armor" : "0",
          "name" : "mobSD01_1",
          "examine" : "The tarantula loves its privacy, and hopes you will soon leave.\n",
@@ -2812,7 +2812,7 @@
       "mobsd09@sdesert" : {
          "visibility" : "0",
          "damage" : "15",
-         "location" : "desertSD66",
+         "location" : "desertsd66@sdesert",
          "armor" : "0",
          "name" : "mobSD09",
          "examine" : "This large man has very dark skin, from standing at attention\nin the desert sun for hours on end. He eats cactus thorns for \nbreakfast, and sleeps on rocks. You wish you were this tough.\n",
@@ -2829,7 +2829,7 @@
       "mobsd04_2@sdesert" : {
          "visibility" : "0",
          "damage" : "5",
-         "location" : "desertSD14",
+         "location" : "desertsd14@sdesert",
          "armor" : "0",
          "name" : "mobSD04_2",
          "examine" : "This small but feisty rodent has absolutely no brains.\nIt is sitting here, just waiting to follow a crowd.\n",
@@ -2846,7 +2846,7 @@
       "mobsd06_6@sdesert" : {
          "visibility" : "0",
          "damage" : "5",
-         "location" : "desertSD57",
+         "location" : "desertsd57@sdesert",
          "armor" : "0",
          "name" : "mobSD06_6",
          "examine" : "This snake is doing its best to blend in with its surroundings.\nMost of its victims usually get attacked because they step on it.\n",
@@ -2867,7 +2867,7 @@
       "mobsd06_3@sdesert" : {
          "visibility" : "0",
          "damage" : "5",
-         "location" : "desertSD57",
+         "location" : "desertsd57@sdesert",
          "armor" : "0",
          "name" : "mobSD06_3",
          "examine" : "This snake is doing its best to blend in with its surroundings.\nMost of its victims usually get attacked because they step on it.\n",
@@ -2888,7 +2888,7 @@
       "mobsd12_2@sdesert" : {
          "visibility" : "0",
          "damage" : "9",
-         "location" : "desertSD04",
+         "location" : "desertsd04@sdesert",
          "armor" : "6",
          "name" : "mobSD12_2",
          "examine" : "This little beast would be very frightening if it were larger.\n",
@@ -2907,7 +2907,7 @@
       "mobsd00@sdesert" : {
          "visibility" : "0",
          "damage" : "6",
-         "location" : "desertSD01",
+         "location" : "desertsd01@sdesert",
          "armor" : "38",
          "name" : "mobSD00",
          "examine" : "This wee armadillo looks fairly well-armored.  Doesn't look like\nhe could do much damage, but would still be difficult to kill.\n",
@@ -2923,7 +2923,7 @@
       "mobsd12_3@sdesert" : {
          "visibility" : "0",
          "damage" : "9",
-         "location" : "desertSD06",
+         "location" : "desertsd06@sdesert",
          "armor" : "6",
          "name" : "mobSD12_3",
          "examine" : "This little beast would be very frightening if it were larger.\n",
@@ -2942,7 +2942,7 @@
       "mobsd00_4@sdesert" : {
          "visibility" : "0",
          "damage" : "6",
-         "location" : "desertSD32",
+         "location" : "desertsd32@sdesert",
          "armor" : "38",
          "name" : "mobSD00_4",
          "examine" : "This wee armadillo looks fairly well-armored.  Doesn't look like\nhe could do much damage, but would still be difficult to kill.\n",
@@ -2958,7 +2958,7 @@
       "mobsd02_4@sdesert" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "desertSD37",
+         "location" : "desertsd37@sdesert",
          "armor" : "4",
          "name" : "mobSD02_4",
          "examine" : "You have never seen anything like it. This plant can actually change its\nposition over time! Sharp spines stick out dangerously, threatening to\nprick you.\n",
@@ -2980,7 +2980,7 @@
       "mobsd11_2@sdesert" : {
          "visibility" : "0",
          "damage" : "11",
-         "location" : "desertSD41",
+         "location" : "desertsd41@sdesert",
          "armor" : "10",
          "name" : "mobSD11_2",
          "examine" : "You are amazed at this bird's size.  You are awed at its grand\npresence.  You really shouldn't kill it, it might be illegal.\n",
@@ -3001,7 +3001,7 @@
       "mobsd03_4@sdesert" : {
          "visibility" : "0",
          "damage" : "20",
-         "location" : "desertSD32",
+         "location" : "desertsd32@sdesert",
          "armor" : "2",
          "name" : "mobSD03_4",
          "examine" : "This dog looks like it has never been tamed. Its fur stands\non end, and it is full of brambles. You don't think you should pet it.\n",
@@ -3017,7 +3017,7 @@
       "mobsd00_5@sdesert" : {
          "visibility" : "0",
          "damage" : "6",
-         "location" : "desertSD44",
+         "location" : "desertsd44@sdesert",
          "armor" : "38",
          "name" : "mobSD00_5",
          "examine" : "This wee armadillo looks fairly well-armored.  Doesn't look like\nhe could do much damage, but would still be difficult to kill.\n",
@@ -3033,7 +3033,7 @@
       "mobsd03_5@sdesert" : {
          "visibility" : "0",
          "damage" : "20",
-         "location" : "desertSD45",
+         "location" : "desertsd45@sdesert",
          "armor" : "2",
          "name" : "mobSD03_5",
          "examine" : "This dog looks like it has never been tamed. Its fur stands\non end, and it is full of brambles. You don't think you should pet it.\n",
@@ -3049,7 +3049,7 @@
       "mobsd06_5@sdesert" : {
          "visibility" : "0",
          "damage" : "5",
-         "location" : "desertSD47",
+         "location" : "desertsd47@sdesert",
          "armor" : "0",
          "name" : "mobSD06_5",
          "examine" : "This snake is doing its best to blend in with its surroundings.\nMost of its victims usually get attacked because they step on it.\n",
@@ -3070,7 +3070,7 @@
       "mobsd12@sdesert" : {
          "visibility" : "0",
          "damage" : "9",
-         "location" : "desertSD00",
+         "location" : "desertsd00@sdesert",
          "armor" : "6",
          "name" : "mobSD12",
          "examine" : "This little beast would be very frightening if it were larger.\n",
@@ -3089,7 +3089,7 @@
       "mobsd02_5@sdesert" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "desertSD17",
+         "location" : "desertsd17@sdesert",
          "armor" : "4",
          "name" : "mobSD02_5",
          "examine" : "You have never seen anything like it. This plant can actually change its\nposition over time! Sharp spines stick out dangerously, threatening to\nprick you.\n",
@@ -3111,7 +3111,7 @@
       "mobsd06_7@sdesert" : {
          "visibility" : "0",
          "damage" : "5",
-         "location" : "desertSD65",
+         "location" : "desertsd65@sdesert",
          "armor" : "0",
          "name" : "mobSD06_7",
          "examine" : "This snake is doing its best to blend in with its surroundings.\nMost of its victims usually get attacked because they step on it.\n",
@@ -3132,7 +3132,7 @@
       "mobsd00_9@sdesert" : {
          "visibility" : "0",
          "damage" : "6",
-         "location" : "desertSD56",
+         "location" : "desertsd56@sdesert",
          "armor" : "38",
          "name" : "mobSD00_9",
          "examine" : "This wee armadillo looks fairly well-armored.  Doesn't look like\nhe could do much damage, but would still be difficult to kill.\n",
@@ -3148,7 +3148,7 @@
       "mobsd01_5@sdesert" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "desertSD34",
+         "location" : "desertsd34@sdesert",
          "armor" : "0",
          "name" : "mobSD01_5",
          "examine" : "The tarantula loves its privacy, and hopes you will soon leave.\n",
@@ -3165,7 +3165,7 @@
       "mobsd02_7@sdesert" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "desertSD32",
+         "location" : "desertsd32@sdesert",
          "armor" : "4",
          "name" : "mobSD02_7",
          "examine" : "You have never seen anything like it. This plant can actually change its\nposition over time! Sharp spines stick out dangerously, threatening to\nprick you.\n",
@@ -3187,7 +3187,7 @@
       "mobsd02_3@sdesert" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "desertSD27",
+         "location" : "desertsd27@sdesert",
          "armor" : "4",
          "name" : "mobSD02_3",
          "examine" : "You have never seen anything like it. This plant can actually change its\nposition over time! Sharp spines stick out dangerously, threatening to\nprick you.\n",
@@ -3209,7 +3209,7 @@
       "mobsd09_1@sdesert" : {
          "visibility" : "0",
          "damage" : "10",
-         "location" : "desertSD65",
+         "location" : "desertsd65@sdesert",
          "armor" : "0",
          "name" : "mobSD09_1",
          "examine" : "This large man has very dark skin, from standing at attention\nin the desert sun for hours on end. He eats cactus thorns for \nbreakfast, and sleeps on rocks. You wish you were this tough.\n",
@@ -3226,7 +3226,7 @@
       "mobsd02_2@sdesert" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "desertSD55",
+         "location" : "desertsd55@sdesert",
          "armor" : "4",
          "name" : "mobSD02_2",
          "examine" : "You have never seen anything like it. This plant can actually change its\nposition over time! Sharp spines stick out dangerously, threatening to\nprick you.\n",
@@ -3248,7 +3248,7 @@
       "mobsd04_3@sdesert" : {
          "visibility" : "0",
          "damage" : "5",
-         "location" : "desertSD54",
+         "location" : "desertsd54@sdesert",
          "armor" : "0",
          "name" : "mobSD04_3",
          "examine" : "This small but feisty rodent has absolutely no brains.\nIt is sitting here, just waiting to follow a crowd.\n",
@@ -3265,7 +3265,7 @@
       "mobsd06_2@sdesert" : {
          "visibility" : "0",
          "damage" : "5",
-         "location" : "desertSD08",
+         "location" : "desertsd08@sdesert",
          "armor" : "0",
          "name" : "mobSD06_2",
          "examine" : "This snake is doing its best to blend in with its surroundings.\nMost of its victims usually get attacked because they step on it.\n",
@@ -3286,7 +3286,7 @@
       "mobsd04_1@sdesert" : {
          "visibility" : "0",
          "damage" : "5",
-         "location" : "desertSD13",
+         "location" : "desertsd13@sdesert",
          "armor" : "0",
          "name" : "mobSD04_1",
          "examine" : "This small but feisty rodent has absolutely no brains.\nIt is sitting here, just waiting to follow a crowd.\n",
@@ -3303,7 +3303,7 @@
       "mobsd01_2@sdesert" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "desertSD03",
+         "location" : "desertsd03@sdesert",
          "armor" : "0",
          "name" : "mobSD01_2",
          "examine" : "The tarantula loves its privacy, and hopes you will soon leave.\n",
@@ -3320,7 +3320,7 @@
       "mobsd06@sdesert" : {
          "visibility" : "0",
          "damage" : "5",
-         "location" : "desertSD16",
+         "location" : "desertsd16@sdesert",
          "armor" : "0",
          "name" : "mobSD06",
          "examine" : "This snake is doing its best to blend in with its surroundings.\nMost of its victims usually get attacked because they step on it.\n",
@@ -3341,7 +3341,7 @@
       "mobsd01_3@sdesert" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "desertSD00",
+         "location" : "desertsd00@sdesert",
          "armor" : "0",
          "name" : "mobSD01_3",
          "examine" : "The tarantula loves its privacy, and hopes you will soon leave.\n",
@@ -3358,7 +3358,7 @@
       "mobsd01@sdesert" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "desertSD19",
+         "location" : "desertsd19@sdesert",
          "armor" : "0",
          "name" : "mobSD01",
          "examine" : "The tarantula loves its privacy, and hopes you will soon leave.\n",
@@ -3375,7 +3375,7 @@
       "mobsd11_3@sdesert" : {
          "visibility" : "0",
          "damage" : "11",
-         "location" : "desertSD51",
+         "location" : "desertsd51@sdesert",
          "armor" : "10",
          "name" : "mobSD11_3",
          "examine" : "You are amazed at this bird's size.  You are awed at its grand\npresence.  You really shouldn't kill it, it might be illegal.\n",
@@ -3396,7 +3396,7 @@
       "mobsd10@sdesert" : {
          "visibility" : "0",
          "damage" : "8",
-         "location" : "desertSD67",
+         "location" : "desertsd67@sdesert",
          "armor" : "0",
          "name" : "mobSD10",
          "examine" : "Slashing Boar looks right back at you, and you can somehow sense\nthat he would just as soon kill you as look at you.\n",
@@ -3417,7 +3417,7 @@
       "mobsd07@sdesert" : {
          "visibility" : "0",
          "damage" : "14",
-         "location" : "desertSD53",
+         "location" : "desertsd53@sdesert",
          "armor" : "10",
          "name" : "mobSD07",
          "examine" : "This man is sent out into the desert for one reason,\nto keep you away from something.\n",
@@ -3433,7 +3433,7 @@
       "mobsd11@sdesert" : {
          "visibility" : "0",
          "damage" : "11",
-         "location" : "desertSD21",
+         "location" : "desertsd21@sdesert",
          "armor" : "10",
          "name" : "mobSD11",
          "examine" : "You are amazed at this bird's size.  You are awed at its grand\npresence.  You really shouldn't kill it, it might be illegal.\n",
@@ -3454,7 +3454,7 @@
       "mobsd03_7@sdesert" : {
          "visibility" : "0",
          "damage" : "20",
-         "location" : "desertSD62",
+         "location" : "desertsd62@sdesert",
          "armor" : "2",
          "name" : "mobSD03_7",
          "examine" : "This dog looks like it has never been tamed. Its fur stands\non end, and it is full of brambles. You don't think you should pet it.\n",
@@ -3470,7 +3470,7 @@
       "mobsd05_2@sdesert" : {
          "visibility" : "0",
          "damage" : "25",
-         "location" : "desertSD34",
+         "location" : "desertsd34@sdesert",
          "armor" : "10",
          "name" : "mobSD05_2",
          "examine" : "This vicious-looking animal looks both angry and hungry.\nProvocation would surely bring him to a spastic frenzy!\n",
@@ -3486,7 +3486,7 @@
       "mobsd05_3@sdesert" : {
          "visibility" : "0",
          "damage" : "25",
-         "location" : "desertSD34",
+         "location" : "desertsd34@sdesert",
          "armor" : "10",
          "name" : "mobSD05_3",
          "examine" : "This vicious-looking animal looks both angry and hungry.\nProvocation would surely bring him to a spastic frenzy!\n",
@@ -3502,7 +3502,7 @@
       "mobsd00_2@sdesert" : {
          "visibility" : "0",
          "damage" : "6",
-         "location" : "desertSD12",
+         "location" : "desertsd12@sdesert",
          "armor" : "38",
          "name" : "mobSD00_2",
          "examine" : "This wee armadillo looks fairly well-armored.  Doesn't look like\nhe could do much damage, but would still be difficult to kill.\n",
@@ -3518,7 +3518,7 @@
       "mobsd00_7@sdesert" : {
          "visibility" : "0",
          "damage" : "6",
-         "location" : "desertSD55",
+         "location" : "desertsd55@sdesert",
          "armor" : "38",
          "name" : "mobSD00_7",
          "examine" : "This wee armadillo looks fairly well-armored.  Doesn't look like\nhe could do much damage, but would still be difficult to kill.\n",
@@ -3534,7 +3534,7 @@
       "mobsd01_6@sdesert" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "desertSD43",
+         "location" : "desertsd43@sdesert",
          "armor" : "0",
          "name" : "mobSD01_6",
          "examine" : "The tarantula loves its privacy, and hopes you will soon leave.\n",
@@ -3551,7 +3551,7 @@
       "mobsd03_3@sdesert" : {
          "visibility" : "0",
          "damage" : "20",
-         "location" : "desertSD29",
+         "location" : "desertsd29@sdesert",
          "armor" : "2",
          "name" : "mobSD03_3",
          "examine" : "This dog looks like it has never been tamed. Its fur stands\non end, and it is full of brambles. You don't think you should pet it.\n",
@@ -3567,7 +3567,7 @@
       "mobsd06_4@sdesert" : {
          "visibility" : "0",
          "damage" : "5",
-         "location" : "desertSD21",
+         "location" : "desertsd21@sdesert",
          "armor" : "0",
          "name" : "mobSD06_4",
          "examine" : "This snake is doing its best to blend in with its surroundings.\nMost of its victims usually get attacked because they step on it.\n",
@@ -3588,7 +3588,7 @@
       "mobsd02@sdesert" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "desertSD55",
+         "location" : "desertsd55@sdesert",
          "armor" : "4",
          "name" : "mobSD02",
          "examine" : "You have never seen anything like it. This plant can actually change its\nposition over time! Sharp spines stick out dangerously, threatening to\nprick you.\n",
@@ -3610,7 +3610,7 @@
       "mobsd03_2@sdesert" : {
          "visibility" : "0",
          "damage" : "20",
-         "location" : "desertSD28",
+         "location" : "desertsd28@sdesert",
          "armor" : "2",
          "name" : "mobSD03_2",
          "examine" : "This dog looks like it has never been tamed. Its fur stands\non end, and it is full of brambles. You don't think you should \npet it.\n",
@@ -3626,7 +3626,7 @@
       "mobsd01_7@sdesert" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "desertSD66",
+         "location" : "desertsd66@sdesert",
          "armor" : "0",
          "name" : "mobSD01_7",
          "examine" : "The tarantula loves its privacy, and hopes you will soon leave.\n",
@@ -3643,7 +3643,7 @@
       "mobsd03_6@sdesert" : {
          "visibility" : "0",
          "damage" : "20",
-         "location" : "desertSD57",
+         "location" : "desertsd57@sdesert",
          "armor" : "2",
          "name" : "mobSD03_6",
          "examine" : "This dog looks like it has never been tamed. Its fur stands\non end, and it is full of brambles. You don't think you should pet it.\n",
@@ -3659,7 +3659,7 @@
       "mobsd00_3@sdesert" : {
          "visibility" : "0",
          "damage" : "6",
-         "location" : "desertSD21",
+         "location" : "desertsd21@sdesert",
          "armor" : "38",
          "name" : "mobSD00_3",
          "examine" : "This wee armadillo looks fairly well-armored.  Doesn't look like\nhe could do much damage, but would still be difficult to kill.\n",
@@ -3675,7 +3675,7 @@
       "mobsd01_4@sdesert" : {
          "visibility" : "0",
          "damage" : "7",
-         "location" : "desertSD22",
+         "location" : "desertsd22@sdesert",
          "armor" : "0",
          "name" : "mobSD01_4",
          "examine" : "The tarantula loves its privacy, and hopes you will soon leave.\n",
@@ -3692,7 +3692,7 @@
       "mobsd03_1@sdesert" : {
          "visibility" : "0",
          "damage" : "20",
-         "location" : "desertSD62",
+         "location" : "desertsd62@sdesert",
          "armor" : "2",
          "name" : "mobSD03_1",
          "examine" : "This dog looks like it has never been tamed. Its fur stands\non end, and it is full of brambles. You don't think you should \npet it.\n",
@@ -3708,7 +3708,7 @@
       "mobsd08@sdesert" : {
          "visibility" : "10",
          "damage" : "30",
-         "location" : "desertSD45",
+         "location" : "desertsd45@sdesert",
          "armor" : "10",
          "name" : "mobSD08",
          "examine" : "\nYou see an old man, covered with wrinkles and other deformities. \nHe is obviously very displeased with your presence, and wants to \nkill you for your knowledge of where he lives.\n",
@@ -3725,7 +3725,7 @@
       "mobsd06_1@sdesert" : {
          "visibility" : "0",
          "damage" : "5",
-         "location" : "desertSD57",
+         "location" : "desertsd57@sdesert",
          "armor" : "0",
          "name" : "mobSD06_1",
          "examine" : "This snake is doing its best to blend in with its surroundings.\nMost of its victims usually get attacked because they step on it.\n",
@@ -3746,7 +3746,7 @@
       "mobsd12_1@sdesert" : {
          "visibility" : "0",
          "damage" : "9",
-         "location" : "desertSD02",
+         "location" : "desertsd02@sdesert",
          "armor" : "6",
          "name" : "mobSD12_1",
          "examine" : "This little beast would be very frightening if it were larger.\n",
@@ -3765,7 +3765,7 @@
       "mobsd12_4@sdesert" : {
          "visibility" : "0",
          "damage" : "9",
-         "location" : "desertSD17",
+         "location" : "desertsd17@sdesert",
          "armor" : "6",
          "name" : "mobSD12_4",
          "examine" : "This little beast would be very frightening if it were larger.\n",
@@ -3784,7 +3784,7 @@
       "mobsd00_1@sdesert" : {
          "visibility" : "0",
          "damage" : "6",
-         "location" : "desertSD17",
+         "location" : "desertsd17@sdesert",
          "armor" : "38",
          "name" : "mobSD00_1",
          "examine" : "This wee armadillo looks fairly well-armored.  Doesn't look like\nhe could do much damage, but would still be difficult to kill.\n",

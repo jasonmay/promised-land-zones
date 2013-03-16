@@ -1,7 +1,7 @@
 {
    "obj" : {
       "frag1@ghenna" : {
-         "location" : "WORN_BY:mob9997",
+         "location" : "WORN_BY:mob9997@ghenna",
          "oflags" : [
             "SpellChance",
             "MissileSpell",
@@ -17,7 +17,7 @@
       },
       "obj9964@ghenna" : {
          "damage" : "4",
-         "location" : "WIELDED_BY:mob9964",
+         "location" : "WIELDED_BY:mob9964@ghenna",
          "oflags" : [
             "Glowing",
             "Weapon"
@@ -33,7 +33,7 @@
       },
       "secret_ghenna9906@ghenna" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:ghenna9910",
+         "location" : "IN_ROOM:ghenna9910@ghenna",
          "oflags" : [
             "NoGet"
          ],
@@ -45,7 +45,7 @@
          "desc[0]" : ""
       },
       "frag8@ghenna" : {
-         "location" : "WORN_BY:mob9907",
+         "location" : "WORN_BY:mob9907@ghenna",
          "oflags" : [
             "SpellChance",
             "BlurSpell",
@@ -71,7 +71,7 @@
       },
       "platform_ghenna9900@ghenna" : {
          "desc[1]" : "There's a platform up above, closed.",
-         "location" : "IN_ROOM:ghenna9901",
+         "location" : "IN_ROOM:ghenna9901@ghenna",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -96,7 +96,7 @@
          "desc[0]" : "Police tape has been strung up here, indicating a crime scene."
       },
       "obj9921@ghenna" : {
-         "location" : "WORN_BY:mob9913",
+         "location" : "WORN_BY:mob9913@ghenna",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -116,7 +116,7 @@
          ]
       },
       "obj9995@ghenna" : {
-         "location" : "WORN_BY:mob9909",
+         "location" : "WORN_BY:mob9909@ghenna",
          "oflags" : [
             "Glowing",
             "Wearable",
@@ -138,7 +138,7 @@
          ]
       },
       "obj9958@ghenna" : {
-         "location" : "WORN_BY:mob9958",
+         "location" : "WORN_BY:mob9958@ghenna",
          "oflags" : [
             "Cursed",
             "MissChance",
@@ -160,7 +160,7 @@
          ]
       },
       "obj9909@ghenna" : {
-         "location" : "CARRIED_BY:mob9907",
+         "location" : "CARRIED_BY:mob9907@ghenna",
          "oflags" : "{ }",
          "altname" : "dead",
          "name" : "obj9909",
@@ -174,7 +174,7 @@
          "desc[0]" : "A dead fly lays on its back with its legs twitching slightly."
       },
       "obj9908@ghenna" : {
-         "location" : "IN_ROOM:ghenna9901",
+         "location" : "IN_ROOM:ghenna9901@ghenna",
          "oflags" : "{  }",
          "altname" : "rotting",
          "name" : "obj9908",
@@ -189,7 +189,7 @@
       },
       "door_ghenna9933@ghenna" : {
          "desc[1]" : "The door leading out of the cave is closed.",
-         "location" : "IN_ROOM:ghenna9934",
+         "location" : "IN_ROOM:ghenna9934@ghenna",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -205,7 +205,7 @@
       },
       "ddt@ghenna" : {
          "desc[1]" : "It appears only a can of bug spray remains intact on the dais.",
-         "location" : "IN_ROOM:ghenna9961",
+         "location" : "IN_ROOM:ghenna9961@ghenna",
          "oflags" : [
             "Getflips",
             "Poison"
@@ -219,7 +219,7 @@
          "desc[0]" : "A large can of bug spray has been left in here."
       },
       "obj9929@ghenna" : {
-         "location" : "WORN_BY:mob9923",
+         "location" : "WORN_BY:mob9923@ghenna",
          "oflags" : [
             "Glowing",
             "Wearable",
@@ -240,7 +240,7 @@
          ]
       },
       "frag9@ghenna" : {
-         "location" : "IN_ROOM:ghenna100",
+         "location" : "IN_ROOM:ghenna100@ghenna",
          "oflags" : [
             "Spellchance",
             "VTouchSpell"
@@ -255,7 +255,7 @@
       },
       "fountain@ghenna" : {
          "desc[1]" : "&+CA bright blue beam is shooting straight up from the center of the fountain.",
-         "location" : "IN_ROOM:ghenna9902",
+         "location" : "IN_ROOM:ghenna9902@ghenna",
          "oflags" : [
             "NoGet",
             "Cross"
@@ -268,7 +268,7 @@
          "desc[0]" : ""
       },
       "frag4@ghenna" : {
-         "location" : "WORN_BY:mob9923",
+         "location" : "WORN_BY:mob9923@ghenna",
          "oflags" : [
             "SpellChance",
             "ShockSpell",
@@ -283,7 +283,7 @@
          "desc[0]" : "A fragment of a blue jewel has fallen from the monster's body."
       },
       "obj9924@ghenna" : {
-         "location" : "WORN_BY:mob9923",
+         "location" : "WORN_BY:mob9923@ghenna",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -304,7 +304,7 @@
          ]
       },
       "aidstaff@ghenna" : {
-         "location" : "CARRIED_BY:mob9900",
+         "location" : "CARRIED_BY:mob9900@ghenna",
          "oflags" : [
             "RegenHealth",
             "Enchanted"
@@ -319,7 +319,7 @@
          "desc[0]" : "The staff of aid sits here, waiting to aid the wounded."
       },
       "obj9997@ghenna" : {
-         "location" : "WORN_BY:mob9997",
+         "location" : "WORN_BY:mob9997@ghenna",
          "oflags" : [
             "Enchanted",
             "Wearable",
@@ -341,7 +341,7 @@
          ]
       },
       "obj9909_2@ghenna" : {
-         "location" : "CARRIED_BY:mob9907",
+         "location" : "CARRIED_BY:mob9907@ghenna",
          "altname" : "dead",
          "name" : "obj9909_2",
          "examine" : "It appears the plant lost its taste for insects.",
@@ -355,7 +355,7 @@
       },
       "obj9902@ghenna" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:mob9911",
+         "location" : "WIELDED_BY:mob9911@ghenna",
          "oflags" : [
             "Weapon"
          ],
@@ -370,7 +370,7 @@
       },
       "obj9918@ghenna" : {
          "damage" : "28",
-         "location" : "WIELDED_BY:mob9910",
+         "location" : "WIELDED_BY:mob9910@ghenna",
          "oflags" : [
             "Weapon"
          ],
@@ -386,7 +386,7 @@
       },
       "mirror_ghenna9923@ghenna" : {
          "desc[1]" : "The passage ends at the back of a mirror.",
-         "location" : "IN_ROOM:ghenna9943",
+         "location" : "IN_ROOM:ghenna9943@ghenna",
          "oflags" : [
             "Pushtoggle",
             "NoGet"
@@ -400,7 +400,7 @@
       },
       "door_ghenna9921@ghenna" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:ghenna9922",
+         "location" : "IN_ROOM:ghenna9922@ghenna",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -415,7 +415,7 @@
          "desc[0]" : "The door is open."
       },
       "obj9909_1@ghenna" : {
-         "location" : "CARRIED_BY:mob9907",
+         "location" : "CARRIED_BY:mob9907@ghenna",
          "altname" : "dead",
          "name" : "obj9909_1",
          "examine" : "It appears the plant lost its taste for insects.",
@@ -428,7 +428,7 @@
          "desc[0]" : "A dead fly lays on its back with its legs twitching slightly."
       },
       "obj9935@ghenna" : {
-         "location" : "WORN_BY:mob9958",
+         "location" : "WORN_BY:mob9958@ghenna",
          "oflags" : [
             "Cursed",
             "SpellMiss",
@@ -452,7 +452,7 @@
       },
       "grotto_ghenna9934@ghenna" : {
          "desc[1]" : "The door leading into a grotto is closed.",
-         "location" : "IN_ROOM:ghenna9938",
+         "location" : "IN_ROOM:ghenna9938@ghenna",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -469,7 +469,7 @@
       },
       "obj9902_1@ghenna" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:mob9911_1",
+         "location" : "WIELDED_BY:mob9911_1@ghenna",
          "oflags" : [
             "Weapon"
          ],
@@ -484,7 +484,7 @@
       },
       "port_ghenna9948@ghenna" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:ghenna9947",
+         "location" : "IN_ROOM:ghenna9947@ghenna",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -497,7 +497,7 @@
          "desc[0]" : "A secret tunnel was hidden inside the cask!"
       },
       "acid@ghenna" : {
-         "location" : "IN_ROOM:ghenna9915",
+         "location" : "IN_ROOM:ghenna9915@ghenna",
          "oflags" : "{ }",
          "altname" : "vial",
          "name" : "acid",
@@ -538,7 +538,7 @@
          "desc[0]" : "Police tape has been strung up here, indicating a crime scene."
       },
       "obj9914@ghenna" : {
-         "location" : "WORN_BY:mob9909",
+         "location" : "WORN_BY:mob9909@ghenna",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -559,7 +559,7 @@
       },
       "secret_ghenna9937@ghenna" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:ghenna9953",
+         "location" : "IN_ROOM:ghenna9953@ghenna",
          "oflags" : [
             "NoGet"
          ],
@@ -571,7 +571,7 @@
          "desc[0]" : ""
       },
       "obj9981@ghenna" : {
-         "location" : "WORN_BY:mob9981",
+         "location" : "WORN_BY:mob9981@ghenna",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -591,7 +591,7 @@
          ]
       },
       "obj9965@ghenna" : {
-         "location" : "IN_CONTAINER:shoebox_ghenna9911",
+         "location" : "IN_CONTAINER:shoebox_ghenna9911@ghenna",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -611,7 +611,7 @@
       },
       "obj9931@ghenna" : {
          "desc[1]" : "A bound footlocker of black leather sits unlocked.",
-         "location" : "IN_ROOM:ghenna9950",
+         "location" : "IN_ROOM:ghenna9950@ghenna",
          "oflags" : [
             "Container",
             "Noget",
@@ -629,7 +629,7 @@
          "desc[0]" : "A bound footlocker of black leather sits open gainst the wall."
       },
       "obj9927@ghenna" : {
-         "location" : "WORN_BY:mob9923",
+         "location" : "WORN_BY:mob9923@ghenna",
          "oflags" : [
             "Glowing",
             "Wearable",
@@ -648,7 +648,7 @@
          "desc[0]" : "Some slick, shiny chrome lies glinting in the sunlight--a shield!"
       },
       "frag3@ghenna" : {
-         "location" : "WORN_BY:mob9933",
+         "location" : "WORN_BY:mob9933@ghenna",
          "oflags" : [
             "SpellChance",
             "AidSpell",
@@ -664,7 +664,7 @@
       },
       "air_ghenna9948@ghenna" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:ghenna9949",
+         "location" : "IN_ROOM:ghenna9949@ghenna",
          "oflags" : [
             "NoGet"
          ],
@@ -676,7 +676,7 @@
          "desc[0]" : ""
       },
       "obj9912@ghenna" : {
-         "location" : "WORN_BY:mob9908",
+         "location" : "WORN_BY:mob9908@ghenna",
          "oflags" : [
             "Glowing",
             "Wearable",
@@ -699,7 +699,7 @@
       },
       "secret_ghenna9910@ghenna" : {
          "desc[1]" : "The dirt is a little loose under your feet.",
-         "location" : "IN_ROOM:ghenna9906",
+         "location" : "IN_ROOM:ghenna9906@ghenna",
          "oflags" : [
             "NoGet"
          ],
@@ -712,7 +712,7 @@
       },
       "tavern_ghenna9915@ghenna" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:ghenna9904",
+         "location" : "IN_ROOM:ghenna9904@ghenna",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -729,7 +729,7 @@
          "desc[0]" : "The door is open, leading into the tavern."
       },
       "obj9932@ghenna" : {
-         "location" : "IN_CONTAINER:obj9931",
+         "location" : "IN_CONTAINER:obj9931@ghenna",
          "oflags" : "{ }",
          "altname" : "book",
          "name" : "obj9932",
@@ -744,7 +744,7 @@
       },
       "pit_ghenna9933@ghenna" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:ghenna9999",
+         "location" : "IN_ROOM:ghenna9999@ghenna",
          "oflags" : [
             "NoGet"
          ],
@@ -758,7 +758,7 @@
          "desc[0]" : "Look where you're going next time...."
       },
       "obj9930@ghenna" : {
-         "location" : "WORN_BY:mob9923",
+         "location" : "WORN_BY:mob9923@ghenna",
          "oflags" : [
             "Glowing",
             "Wearable",
@@ -779,7 +779,7 @@
          ]
       },
       "obj9986@ghenna" : {
-         "location" : "WORN_BY:mob9986",
+         "location" : "WORN_BY:mob9986@ghenna",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -800,7 +800,7 @@
          ]
       },
       "obj9998@ghenna" : {
-         "location" : "IN_ROOM:ghenna9907",
+         "location" : "IN_ROOM:ghenna9907@ghenna",
          "oflags" : [
             "Container"
          ],
@@ -815,7 +815,7 @@
          "desc[0]" : "A human skull sits here."
       },
       "obj9996@ghenna" : {
-         "location" : "WORN_BY:mob9997",
+         "location" : "WORN_BY:mob9997@ghenna",
          "oflags" : [
             "Enchanted",
             "Wearable",
@@ -838,7 +838,7 @@
       },
       "coins@ghenna" : {
          "desc[1]" : "There are a few scattered coins in the fountain.",
-         "location" : "IN_ROOM:ghenna9902",
+         "location" : "IN_ROOM:ghenna9902@ghenna",
          "oflags" : [
             "Getflips"
          ],
@@ -851,7 +851,7 @@
       },
       "obj9933@ghenna" : {
          "damage" : "15",
-         "location" : "WIELDED_BY:mob9958",
+         "location" : "WIELDED_BY:mob9958@ghenna",
          "oflags" : [
             "Weapon"
          ],
@@ -866,7 +866,7 @@
          "desc[0]" : "A flimsy black leather whip lies here."
       },
       "frag7@ghenna" : {
-         "location" : "WORN_BY:mob9908",
+         "location" : "WORN_BY:mob9908@ghenna",
          "oflags" : [
             "SpellChance",
             "FireballSpell",
@@ -881,7 +881,7 @@
          "desc[0]" : "A fragment of a blue jewel has fallen from the monster's body."
       },
       "obj9904@ghenna" : {
-         "location" : "CARRIED_BY:mob9918",
+         "location" : "CARRIED_BY:mob9918@ghenna",
          "oflags" : [
             "Container"
          ],
@@ -906,7 +906,7 @@
          "desc[0]" : "Police tape has been strung up here, indicating a crime scene."
       },
       "obj9934@ghenna" : {
-         "location" : "WORN_BY:mob9958",
+         "location" : "WORN_BY:mob9958@ghenna",
          "oflags" : [
             "Cursed",
             "SpellMiss",
@@ -929,7 +929,7 @@
       },
       "red_ghenna9957@ghenna" : {
          "desc[1]" : "The red door is closed.",
-         "location" : "IN_ROOM:ghenna9958",
+         "location" : "IN_ROOM:ghenna9958@ghenna",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -945,7 +945,7 @@
          "desc[0]" : "The red door is open."
       },
       "obj9928@ghenna" : {
-         "location" : "WORN_BY:mob9923",
+         "location" : "WORN_BY:mob9923@ghenna",
          "oflags" : [
             "Wearable",
             "Container"
@@ -965,7 +965,7 @@
          ]
       },
       "obj9922@ghenna" : {
-         "location" : "WORN_BY:mob9913",
+         "location" : "WORN_BY:mob9913@ghenna",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -985,7 +985,7 @@
          ]
       },
       "lamp@ghenna" : {
-         "location" : "IN_ROOM:ghenna9941",
+         "location" : "IN_ROOM:ghenna9941@ghenna",
          "oflags" : [
             "Container",
             "Noget"
@@ -999,7 +999,7 @@
          "desc[0]" : "The genie's magic lamp is sitting here."
       },
       "frag5@ghenna" : {
-         "location" : "WORN_BY:mob9913",
+         "location" : "WORN_BY:mob9913@ghenna",
          "oflags" : [
             "SpellChance",
             "BHandsSpell",
@@ -1014,7 +1014,7 @@
          "desc[0]" : "A fragment of a blue jewel has fallen from the monster's body."
       },
       "obj9919@ghenna" : {
-         "location" : "IN_ROOM:ghenna9941",
+         "location" : "IN_ROOM:ghenna9941@ghenna",
          "oflags" : [
             "Container"
          ],
@@ -1030,7 +1030,7 @@
          "desc[0]" : "An oriental rug lays here, its fringes blowing in the breeze."
       },
       "obj9966_1@ghenna" : {
-         "location" : "CARRIED_BY:mob9909",
+         "location" : "CARRIED_BY:mob9909@ghenna",
          "oflags" : [
             "Cursed",
             "Lit"
@@ -1048,7 +1048,7 @@
       },
       "obj9911@ghenna" : {
          "damage" : "8",
-         "location" : "WIELDED_BY:mob9906",
+         "location" : "WIELDED_BY:mob9906@ghenna",
          "oflags" : [
             "Weapon"
          ],
@@ -1063,7 +1063,7 @@
          "desc[0]" : "A wooden spear, with a crudely fashioned stone tip, sits here."
       },
       "obj9966@ghenna" : {
-         "location" : "CARRIED_BY:mob9914",
+         "location" : "CARRIED_BY:mob9914@ghenna",
          "oflags" : [
             "Cursed",
             "Lit"
@@ -1081,7 +1081,7 @@
       },
       "mirror_ghenna9943@ghenna" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:ghenna9923",
+         "location" : "IN_ROOM:ghenna9923@ghenna",
          "oflags" : [
             "Pushtoggle",
             "NoGet"
@@ -1105,7 +1105,7 @@
          "desc[0]" : "Police tape has been strung up here, indicating a crime scene."
       },
       "obj9926@ghenna" : {
-         "location" : "WORN_BY:mob9923",
+         "location" : "WORN_BY:mob9923@ghenna",
          "oflags" : [
             "Glowing",
             "Wearable",
@@ -1126,7 +1126,7 @@
          ]
       },
       "obj9925@ghenna" : {
-         "location" : "WORN_BY:mob9923",
+         "location" : "WORN_BY:mob9923@ghenna",
          "oflags" : [
             "Glowing",
             "Wearable",
@@ -1148,7 +1148,7 @@
       },
       "platform_ghenna9901@ghenna" : {
          "desc[1]" : "There is a &+Bplatform&* here, exposed from underneath the mound.",
-         "location" : "IN_ROOM:ghenna9900",
+         "location" : "IN_ROOM:ghenna9900@ghenna",
          "oflags" : [
             "Openable",
             "Noget",
@@ -1164,7 +1164,7 @@
       },
       "guts_ghenna9903@ghenna" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:ghenna9912",
+         "location" : "IN_ROOM:ghenna9912@ghenna",
          "oflags" : [
             "NoGet"
          ],
@@ -1176,7 +1176,7 @@
          "desc[0]" : ""
       },
       "cards@ghenna" : {
-         "location" : "IN_ROOM:ghenna9917",
+         "location" : "IN_ROOM:ghenna9917@ghenna",
          "oflags" : [
             "Noget"
          ],
@@ -1195,7 +1195,7 @@
       },
       "bramble_ghenna9998@ghenna" : {
          "desc[1]" : "The brambles are too think to pass through.",
-         "location" : "IN_ROOM:ghenna9905",
+         "location" : "IN_ROOM:ghenna9905@ghenna",
          "oflags" : [
             "NoGet"
          ],
@@ -1207,7 +1207,7 @@
          "desc[0]" : "A path has been cut through the brambles, allowing passage."
       },
       "obj9903@ghenna" : {
-         "location" : "CARRIED_BY:mob9901",
+         "location" : "CARRIED_BY:mob9901@ghenna",
          "oflags" : "{}",
          "altname" : "dead",
          "name" : "obj9903",
@@ -1220,7 +1220,7 @@
          "desc[0]" : "A dead fly lies on its back with its legs twitching."
       },
       "obj9907@ghenna" : {
-         "location" : "IN_ROOM:ghenna9937",
+         "location" : "IN_ROOM:ghenna9937@ghenna",
          "oflags" : [
             "Noget"
          ],
@@ -1237,7 +1237,7 @@
       },
       "door_ghenna9922@ghenna" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:ghenna9921",
+         "location" : "IN_ROOM:ghenna9921@ghenna",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -1253,7 +1253,7 @@
       },
       "boulder_ghenna9991@ghenna" : {
          "desc[1]" : "You are trapped behind a boulder.",
-         "location" : "IN_ROOM:ghenna100",
+         "location" : "IN_ROOM:ghenna100@ghenna",
          "oflags" : [
             "PushToggle",
             "NoGet"
@@ -1266,7 +1266,7 @@
          "desc[0]" : "The boulder has been moved out of the way."
       },
       "obj9915@ghenna" : {
-         "location" : "WORN_BY:mob9910",
+         "location" : "WORN_BY:mob9910@ghenna",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -1288,7 +1288,7 @@
       },
       "red_ghenna9958@ghenna" : {
          "desc[1]" : "The red door is closed.",
-         "location" : "IN_ROOM:ghenna9957",
+         "location" : "IN_ROOM:ghenna9957@ghenna",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -1304,7 +1304,7 @@
          "desc[0]" : "The red door is open."
       },
       "obj9999@ghenna" : {
-         "location" : "CARRIED_BY:mob9923",
+         "location" : "CARRIED_BY:mob9923@ghenna",
          "oflags" : "{ }",
          "altname" : "voodoo",
          "name" : "obj9999",
@@ -1319,7 +1319,7 @@
       },
       "obj9900@ghenna" : {
          "desc[1]" : "A candelabra is sitting here, not lit.",
-         "location" : "IN_ROOM:ghenna9922",
+         "location" : "IN_ROOM:ghenna9922@ghenna",
          "oflags" : [
             "Lit",
             "Lightable",
@@ -1337,7 +1337,7 @@
          "desc[0]" : "A candelabra is sitting here, emitting a soft glow."
       },
       "obj9977@ghenna" : {
-         "location" : "IN_ROOM:ghenna1",
+         "location" : "IN_ROOM:ghenna1@ghenna",
          "oflags" : [
             "NoGet"
          ],
@@ -1353,7 +1353,7 @@
       },
       "pit_ghenna9999@ghenna" : {
          "desc[1]" : "The trapdoor leading downwards is closed.",
-         "location" : "IN_ROOM:ghenna9933",
+         "location" : "IN_ROOM:ghenna9933@ghenna",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -1371,7 +1371,7 @@
       },
       "port_ghenna9947@ghenna" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:ghenna9948",
+         "location" : "IN_ROOM:ghenna9948@ghenna",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -1384,7 +1384,7 @@
       },
       "shoebox_ghenna9911@ghenna" : {
          "desc[1]" : "An old shoebox sits in a corner.",
-         "location" : "IN_ROOM:ghenna9965",
+         "location" : "IN_ROOM:ghenna9965@ghenna",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -1401,7 +1401,7 @@
       },
       "obj9901@ghenna" : {
          "damage" : "1",
-         "location" : "IN_ROOM:ghenna9941",
+         "location" : "IN_ROOM:ghenna9941@ghenna",
          "oflags" : [
             "Weapon"
          ],
@@ -1418,7 +1418,7 @@
       },
       "door_ghenna9904@ghenna" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:ghenna9915",
+         "location" : "IN_ROOM:ghenna9915@ghenna",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -1434,7 +1434,7 @@
       },
       "boulder_ghenna100@ghenna" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:ghenna9991",
+         "location" : "IN_ROOM:ghenna9991@ghenna",
          "oflags" : [
             "PushToggle",
             "NoGet"
@@ -1447,7 +1447,7 @@
          "desc[0]" : "The boulder has been moved out of the way."
       },
       "obj9917@ghenna" : {
-         "location" : "WORN_BY:mob9910",
+         "location" : "WORN_BY:mob9910@ghenna",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -1467,7 +1467,7 @@
       },
       "guts_ghenna9912@ghenna" : {
          "desc[1]" : "Would YOU like to take up the cause of digging graves?",
-         "location" : "IN_ROOM:ghenna9903",
+         "location" : "IN_ROOM:ghenna9903@ghenna",
          "oflags" : [
             "NoGet"
          ],
@@ -1480,7 +1480,7 @@
          "desc[0]" : "You have dug a hole exposing an open pit, from which you can't see the bottom."
       },
       "obj9910@ghenna" : {
-         "location" : "WORN_BY:mob9913",
+         "location" : "WORN_BY:mob9913@ghenna",
          "oflags" : [
             "Glowing",
             "Wearable",
@@ -1501,7 +1501,7 @@
          ]
       },
       "obj9913@ghenna" : {
-         "location" : "CARRIED_BY:mob9910",
+         "location" : "CARRIED_BY:mob9910@ghenna",
          "oflags" : "{ }",
          "altname" : "Suzerain",
          "name" : "obj9913",
@@ -1515,7 +1515,7 @@
          "desc[0]" : "A human jawbone is laying here, biting the dirt."
       },
       "frag6@ghenna" : {
-         "location" : "WORN_BY:mob9910",
+         "location" : "WORN_BY:mob9910@ghenna",
          "oflags" : [
             "SpellChance",
             "IStormSpell",
@@ -1531,7 +1531,7 @@
       },
       "obj9911_3@ghenna" : {
          "damage" : "8",
-         "location" : "WIELDED_BY:mob9915",
+         "location" : "WIELDED_BY:mob9915@ghenna",
          "oflags" : [
             "Weapon"
          ],
@@ -1547,7 +1547,7 @@
       },
       "obj9911_2@ghenna" : {
          "damage" : "8",
-         "location" : "WIELDED_BY:mob9906_2",
+         "location" : "WIELDED_BY:mob9906_2@ghenna",
          "oflags" : [
             "Weapon"
          ],
@@ -1563,7 +1563,7 @@
       },
       "air_ghenna9949@ghenna" : {
          "desc[1]" : "There is a cover over the air hole.",
-         "location" : "IN_ROOM:ghenna9948",
+         "location" : "IN_ROOM:ghenna9948@ghenna",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -1578,7 +1578,7 @@
       },
       "grotto_ghenna9938@ghenna" : {
          "desc[1]" : "The door leading into a grotto is closed.",
-         "location" : "IN_ROOM:ghenna9934",
+         "location" : "IN_ROOM:ghenna9934@ghenna",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -1594,7 +1594,7 @@
       },
       "bramble_ghenna9905@ghenna" : {
          "desc[1]" : "The brambles are too think to pass through.",
-         "location" : "IN_ROOM:ghenna9998",
+         "location" : "IN_ROOM:ghenna9998@ghenna",
          "oflags" : [
             "NoGet"
          ],
@@ -1608,7 +1608,7 @@
       },
       "door_ghenna9919@ghenna" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:ghenna9920",
+         "location" : "IN_ROOM:ghenna9920@ghenna",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -1624,7 +1624,7 @@
       },
       "forge@ghenna" : {
          "desc[1]" : "The forge sits here, burning with intense heat.  The tray has been pushed \ninto the forge, molding something.",
-         "location" : "IN_ROOM:ghenna9949",
+         "location" : "IN_ROOM:ghenna9949@ghenna",
          "oflags" : [
             "Noget",
             "Container",
@@ -1641,7 +1641,7 @@
       },
       "secret_ghenna9953@ghenna" : {
          "desc[1]" : "The chute cover is closed.",
-         "location" : "IN_ROOM:ghenna9937",
+         "location" : "IN_ROOM:ghenna9937@ghenna",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -1656,7 +1656,7 @@
       },
       "obj9911_1@ghenna" : {
          "damage" : "8",
-         "location" : "WIELDED_BY:mob9906_1",
+         "location" : "WIELDED_BY:mob9906_1@ghenna",
          "oflags" : [
             "Weapon"
          ],
@@ -1672,7 +1672,7 @@
       },
       "door_ghenna9920@ghenna" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:ghenna9919",
+         "location" : "IN_ROOM:ghenna9919@ghenna",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -1687,7 +1687,7 @@
          "desc[0]" : "The door is open."
       },
       "mound_ghenna9901@ghenna" : {
-         "location" : "IN_ROOM:ghenna9900",
+         "location" : "IN_ROOM:ghenna9900@ghenna",
          "oflags" : [
             "NoGet"
          ],
@@ -1697,7 +1697,7 @@
       },
       "obj9923@ghenna" : {
          "damage" : "33",
-         "location" : "WIELDED_BY:mob9923",
+         "location" : "WIELDED_BY:mob9923@ghenna",
          "oflags" : [
             "Cursed",
             "Weapon"
@@ -1715,7 +1715,7 @@
       },
       "door_ghenna9934@ghenna" : {
          "desc[1]" : "The door leading upwards is closed.",
-         "location" : "IN_ROOM:ghenna9933",
+         "location" : "IN_ROOM:ghenna9933@ghenna",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -1731,7 +1731,7 @@
       },
       "obj9902_2@ghenna" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:mob9900",
+         "location" : "WIELDED_BY:mob9900@ghenna",
          "oflags" : [
             "Weapon"
          ],
@@ -1745,7 +1745,7 @@
          "desc[0]" : "A bardiche leans against the wall, casting a long shadow."
       },
       "obj9916@ghenna" : {
-         "location" : "WORN_BY:mob9916",
+         "location" : "WORN_BY:mob9916@ghenna",
          "oflags" : [
             "Wearable",
             "Key"
@@ -1780,7 +1780,7 @@
       },
       "obj9900_1@ghenna" : {
          "desc[1]" : "A candelabra is sitting here, not lit.",
-         "location" : "IN_ROOM:ghenna9941",
+         "location" : "IN_ROOM:ghenna9941@ghenna",
          "oflags" : [
             "Lit",
             "Lightable",
@@ -1818,7 +1818,7 @@
          "desc[0]" : "Police tape has been strung up here, indicating a crime scene."
       },
       "frag2@ghenna" : {
-         "location" : "WORN_BY:mob9994",
+         "location" : "WORN_BY:mob9994@ghenna",
          "oflags" : [
             "SpellChance",
             "FrostSpell",
@@ -1833,7 +1833,7 @@
          "desc[0]" : "A fragment of a blue jewel has fallen from the monster's body."
       },
       "obj9920@ghenna" : {
-         "location" : "WORN_BY:mob9914",
+         "location" : "WORN_BY:mob9914@ghenna",
          "oflags" : [
             "Glowing",
             "Wearable",
@@ -1856,7 +1856,7 @@
       },
       "obj9987@ghenna" : {
          "damage" : "18",
-         "location" : "WIELDED_BY:mob9987",
+         "location" : "WIELDED_BY:mob9987@ghenna",
          "oflags" : [
             "Cross",
             "Glowing",
@@ -1876,8 +1876,8 @@
    "loc" : {
       "ghenna9935@ghenna" : {
          "exits" : {
-            "n" : "ghenna9936",
-            "s" : "ghenna9934"
+            "n" : "ghenna9936@ghenna",
+            "s" : "ghenna9934@ghenna"
          },
          "flags" : [
             "Dark"
@@ -1890,8 +1890,8 @@
       },
       "ghenna9978@ghenna" : {
          "exits" : {
-            "n" : "ghenna9966",
-            "d" : "ghenna9979"
+            "n" : "ghenna9966@ghenna",
+            "d" : "ghenna9979@ghenna"
          },
          "flags" : [
             "Dark"
@@ -1904,10 +1904,10 @@
       },
       "ghenna9926@ghenna" : {
          "exits" : {
-            "e" : "ghenna9927",
-            "w" : "ghenna9927",
-            "n" : "ghenna9925",
-            "s" : "ghenna9926"
+            "e" : "ghenna9927@ghenna",
+            "w" : "ghenna9927@ghenna",
+            "n" : "ghenna9925@ghenna",
+            "s" : "ghenna9926@ghenna"
          },
          "flags" : [
             "Dark",
@@ -1921,8 +1921,8 @@
       },
       "ghenna9973@ghenna" : {
          "exits" : {
-            "w" : "ghenna9974",
-            "d" : "ghenna9972"
+            "w" : "ghenna9974@ghenna",
+            "d" : "ghenna9972@ghenna"
          },
          "flags" : [],
          "zone" : "ghenna",
@@ -1933,8 +1933,8 @@
       },
       "ghenna9900@ghenna" : {
          "exits" : {
-            "d" : "^platform_ghenna9901",
-            "s" : "ghenna1"
+            "d" : "^platform_ghenna9901@ghenna",
+            "s" : "ghenna1@ghenna"
          },
          "flags" : [
             "NoMobiles",
@@ -1949,8 +1949,8 @@
       },
       "ghenna9986@ghenna" : {
          "exits" : {
-            "n" : "ghenna9985",
-            "s" : "ghenna9987"
+            "n" : "ghenna9985@ghenna",
+            "s" : "ghenna9987@ghenna"
          },
          "flags" : [
             "Dark"
@@ -1963,10 +1963,10 @@
       },
       "ghenna9928@ghenna" : {
          "exits" : {
-            "e" : "ghenna9926",
-            "w" : "ghenna9925",
-            "n" : "ghenna9927",
-            "s" : "ghenna9929"
+            "e" : "ghenna9926@ghenna",
+            "w" : "ghenna9925@ghenna",
+            "n" : "ghenna9927@ghenna",
+            "s" : "ghenna9929@ghenna"
          },
          "flags" : [
             "Dark",
@@ -1980,7 +1980,7 @@
       },
       "ghenna9965@ghenna" : {
          "exits" : {
-            "e" : "ghenna9964"
+            "e" : "ghenna9964@ghenna"
          },
          "flags" : [
             "Dark"
@@ -1993,8 +1993,8 @@
       },
       "ghenna9904@ghenna" : {
          "exits" : {
-            "e" : "ghenna9902",
-            "n" : "^tavern_ghenna9915"
+            "e" : "ghenna9902@ghenna",
+            "n" : "^tavern_ghenna9915@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2008,8 +2008,8 @@
       },
       "ghenna9963@ghenna" : {
          "exits" : {
-            "n" : "ghenna9964",
-            "d" : "ghenna9962"
+            "n" : "ghenna9964@ghenna",
+            "d" : "ghenna9962@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2022,11 +2022,11 @@
       },
       "ghenna9906@ghenna" : {
          "exits" : {
-            "e" : "ghenna9906",
-            "w" : "ghenna9908",
-            "n" : "ghenna9909",
-            "d" : "^secret_ghenna9910",
-            "s" : "ghenna9905"
+            "e" : "ghenna9906@ghenna",
+            "w" : "ghenna9908@ghenna",
+            "n" : "ghenna9909@ghenna",
+            "d" : "^secret_ghenna9910@ghenna",
+            "s" : "ghenna9905@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2041,8 +2041,8 @@
       },
       "ghenna9981@ghenna" : {
          "exits" : {
-            "w" : "ghenna9982",
-            "s" : "ghenna9980"
+            "w" : "ghenna9982@ghenna",
+            "s" : "ghenna9980@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2056,8 +2056,8 @@
       },
       "ghenna9952@ghenna" : {
          "exits" : {
-            "u" : "ghenna9953",
-            "s" : "ghenna9949"
+            "u" : "ghenna9953@ghenna",
+            "s" : "ghenna9949@ghenna"
          },
          "flags" : [
             "NegRegen"
@@ -2070,7 +2070,7 @@
       },
       "ghenna9948@ghenna" : {
          "exits" : {
-            "d" : "^air_ghenna9949"
+            "d" : "^air_ghenna9949@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2083,11 +2083,11 @@
       },
       "ghenna9997@ghenna" : {
          "exits" : {
-            "e" : "ghenna9953",
-            "w" : "ghenna9985",
-            "n" : "ghenna9912",
-            "d" : "ghenna9924",
-            "s" : "ghenna9911"
+            "e" : "ghenna9953@ghenna",
+            "w" : "ghenna9985@ghenna",
+            "n" : "ghenna9912@ghenna",
+            "d" : "ghenna9924@ghenna",
+            "s" : "ghenna9911@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2100,7 +2100,7 @@
       },
       "ghenna100@ghenna" : {
          "exits" : {
-            "e" : "^boulder_ghenna9991"
+            "e" : "^boulder_ghenna9991@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2114,8 +2114,8 @@
       },
       "ghenna9969@ghenna" : {
          "exits" : {
-            "w" : "ghenna9967",
-            "s" : "ghenna9968"
+            "w" : "ghenna9967@ghenna",
+            "s" : "ghenna9968@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2129,10 +2129,10 @@
       },
       "ghenna9908@ghenna" : {
          "exits" : {
-            "e" : "ghenna9903",
-            "w" : "ghenna9905",
-            "n" : "ghenna9905",
-            "s" : "ghenna9906"
+            "e" : "ghenna9903@ghenna",
+            "w" : "ghenna9905@ghenna",
+            "n" : "ghenna9905@ghenna",
+            "s" : "ghenna9906@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2147,10 +2147,10 @@
       },
       "ghenna9909@ghenna" : {
          "exits" : {
-            "e" : "ghenna9908",
-            "w" : "ghenna9905",
-            "n" : "ghenna9908",
-            "s" : "ghenna9907"
+            "e" : "ghenna9908@ghenna",
+            "w" : "ghenna9905@ghenna",
+            "n" : "ghenna9908@ghenna",
+            "s" : "ghenna9907@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2165,9 +2165,9 @@
       },
       "ghenna9974@ghenna" : {
          "exits" : {
-            "e" : "ghenna9973",
-            "w" : "ghenna9976",
-            "n" : "ghenna9975"
+            "e" : "ghenna9973@ghenna",
+            "w" : "ghenna9976@ghenna",
+            "n" : "ghenna9975@ghenna"
          },
          "flags" : [],
          "zone" : "ghenna",
@@ -2178,8 +2178,8 @@
       },
       "ghenna9971@ghenna" : {
          "exits" : {
-            "w" : "ghenna9972",
-            "n" : "ghenna9970"
+            "w" : "ghenna9972@ghenna",
+            "n" : "ghenna9970@ghenna"
          },
          "flags" : [],
          "zone" : "ghenna",
@@ -2190,9 +2190,9 @@
       },
       "ghenna9966@ghenna" : {
          "exits" : {
-            "w" : "ghenna9960",
-            "n" : "ghenna9968",
-            "s" : "ghenna9978"
+            "w" : "ghenna9960@ghenna",
+            "n" : "ghenna9968@ghenna",
+            "s" : "ghenna9978@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2206,9 +2206,9 @@
       },
       "ghenna9992@ghenna" : {
          "exits" : {
-            "w" : "ghenna9989",
-            "n" : "ghenna9985",
-            "s" : "ghenna9993"
+            "w" : "ghenna9989@ghenna",
+            "n" : "ghenna9985@ghenna",
+            "s" : "ghenna9993@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2221,8 +2221,8 @@
       },
       "ghenna9923@ghenna" : {
          "exits" : {
-            "e" : "ghenna9922",
-            "n" : "^mirror_ghenna9943"
+            "e" : "ghenna9922@ghenna",
+            "n" : "^mirror_ghenna9943@ghenna"
          },
          "flags" : [],
          "zone" : "ghenna",
@@ -2233,7 +2233,7 @@
       },
       "ghenna9979@ghenna" : {
          "exits" : {
-            "w" : "ghenna9980"
+            "w" : "ghenna9980@ghenna"
          },
          "flags" : [
             "NoMobiles",
@@ -2248,9 +2248,9 @@
       },
       "ghenna9934@ghenna" : {
          "exits" : {
-            "u" : "^grotto_ghenna9938",
-            "n" : "ghenna9935",
-            "d" : "ghenna9933"
+            "u" : "^grotto_ghenna9938@ghenna",
+            "n" : "ghenna9935@ghenna",
+            "d" : "ghenna9933@ghenna"
          },
          "flags" : [
             "NoMobiles",
@@ -2264,8 +2264,8 @@
       },
       "ghenna9922@ghenna" : {
          "exits" : {
-            "w" : "ghenna9923",
-            "n" : "ghenna9921"
+            "w" : "ghenna9923@ghenna",
+            "n" : "ghenna9921@ghenna"
          },
          "flags" : [],
          "zone" : "ghenna",
@@ -2276,9 +2276,9 @@
       },
       "ghenna9915@ghenna" : {
          "exits" : {
-            "w" : "ghenna9917",
-            "n" : "ghenna9916",
-            "s" : "^door_ghenna9904"
+            "w" : "ghenna9917@ghenna",
+            "n" : "ghenna9916@ghenna",
+            "s" : "^door_ghenna9904@ghenna"
          },
          "flags" : [],
          "zone" : "ghenna",
@@ -2301,8 +2301,8 @@
       },
       "ghenna9947@ghenna" : {
          "exits" : {
-            "w" : "ghenna9944",
-            "s" : "^port_ghenna9948"
+            "w" : "ghenna9944@ghenna",
+            "s" : "^port_ghenna9948@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2315,9 +2315,9 @@
       },
       "ghenna9918@ghenna" : {
          "exits" : {
-            "e" : "ghenna9919",
-            "w" : "ghenna9921",
-            "d" : "ghenna9916"
+            "e" : "ghenna9919@ghenna",
+            "w" : "ghenna9921@ghenna",
+            "d" : "ghenna9916@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2330,8 +2330,8 @@
       },
       "ghenna9942@ghenna" : {
          "exits" : {
-            "u" : "ghenna9941",
-            "s" : "ghenna9941"
+            "u" : "ghenna9941@ghenna",
+            "s" : "ghenna9941@ghenna"
          },
          "flags" : [
             "NoMobiles",
@@ -2345,10 +2345,10 @@
       },
       "ghenna9932@ghenna" : {
          "exits" : {
-            "e" : "ghenna9925",
-            "w" : "ghenna9920",
-            "n" : "ghenna9933",
-            "s" : "ghenna9900"
+            "e" : "ghenna9925@ghenna",
+            "w" : "ghenna9920@ghenna",
+            "n" : "ghenna9933@ghenna",
+            "s" : "ghenna9900@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2362,8 +2362,8 @@
       },
       "ghenna9970@ghenna" : {
          "exits" : {
-            "e" : "ghenna9968",
-            "s" : "ghenna9971"
+            "e" : "ghenna9968@ghenna",
+            "s" : "ghenna9971@ghenna"
          },
          "flags" : [],
          "zone" : "ghenna",
@@ -2374,8 +2374,8 @@
       },
       "ghenna9951@ghenna" : {
          "exits" : {
-            "e" : "ghenna9903",
-            "w" : "ghenna9954"
+            "e" : "ghenna9903@ghenna",
+            "w" : "ghenna9954@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2389,7 +2389,7 @@
       },
       "ghenna9958@ghenna" : {
          "exits" : {
-            "s" : "^red_ghenna9957"
+            "s" : "^red_ghenna9957@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2403,9 +2403,9 @@
       },
       "ghenna9910@ghenna" : {
          "exits" : {
-            "u" : "ghenna9905",
-            "n" : "ghenna9911",
-            "s" : "ghenna9901"
+            "u" : "ghenna9905@ghenna",
+            "n" : "ghenna9911@ghenna",
+            "s" : "ghenna9901@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2420,7 +2420,7 @@
       },
       "ghenna9920@ghenna" : {
          "exits" : {
-            "s" : "ghenna9919"
+            "s" : "ghenna9919@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2433,8 +2433,8 @@
       },
       "ghenna9984@ghenna" : {
          "exits" : {
-            "n" : "ghenna9983",
-            "d" : "ghenna9985"
+            "n" : "ghenna9983@ghenna",
+            "d" : "ghenna9985@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2448,8 +2448,8 @@
       },
       "ghenna9982@ghenna" : {
          "exits" : {
-            "e" : "ghenna9981",
-            "s" : "ghenna9983"
+            "e" : "ghenna9981@ghenna",
+            "s" : "ghenna9983@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2464,7 +2464,7 @@
       "ghenna1@ghenna" : {
          "exits" : {
             "w" : "grave3408@grave",
-            "n" : "ghenna9900"
+            "n" : "ghenna9900@ghenna"
          },
          "flags" : [
             "Nomobiles",
@@ -2478,8 +2478,8 @@
       },
       "ghenna9919@ghenna" : {
          "exits" : {
-            "w" : "ghenna9918",
-            "n" : "^door_ghenna9920"
+            "w" : "ghenna9918@ghenna",
+            "n" : "^door_ghenna9920@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2492,8 +2492,8 @@
       },
       "ghenna9944@ghenna" : {
          "exits" : {
-            "e" : "ghenna9947",
-            "u" : "ghenna9945"
+            "e" : "ghenna9947@ghenna",
+            "u" : "ghenna9945@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2506,12 +2506,12 @@
       },
       "ghenna9933@ghenna" : {
          "exits" : {
-            "e" : "ghenna9928",
-            "w" : "ghenna9925",
-            "u" : "^door_ghenna9934",
-            "n" : "ghenna9925",
-            "d" : "^pit_ghenna9999",
-            "s" : "ghenna9927"
+            "e" : "ghenna9928@ghenna",
+            "w" : "ghenna9925@ghenna",
+            "u" : "^door_ghenna9934@ghenna",
+            "n" : "ghenna9925@ghenna",
+            "d" : "^pit_ghenna9999@ghenna",
+            "s" : "ghenna9927@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2525,8 +2525,8 @@
       },
       "ghenna9962@ghenna" : {
          "exits" : {
-            "u" : "ghenna9963",
-            "n" : "ghenna9960"
+            "u" : "ghenna9963@ghenna",
+            "n" : "ghenna9960@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2539,9 +2539,9 @@
       },
       "ghenna9955@ghenna" : {
          "exits" : {
-            "e" : "ghenna9956",
-            "n" : "ghenna9957",
-            "s" : "ghenna9954"
+            "e" : "ghenna9956@ghenna",
+            "n" : "ghenna9957@ghenna",
+            "s" : "ghenna9954@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2555,8 +2555,8 @@
       },
       "ghenna9917@ghenna" : {
          "exits" : {
-            "e" : "ghenna9915",
-            "n" : "ghenna9916"
+            "e" : "ghenna9915@ghenna",
+            "n" : "ghenna9916@ghenna"
          },
          "flags" : [],
          "zone" : "ghenna",
@@ -2567,11 +2567,11 @@
       },
       "ghenna9911@ghenna" : {
          "exits" : {
-            "e" : "ghenna9924",
-            "w" : "ghenna9906",
-            "u" : "ghenna9901",
-            "n" : "ghenna9912",
-            "s" : "ghenna9910"
+            "e" : "ghenna9924@ghenna",
+            "w" : "ghenna9906@ghenna",
+            "u" : "ghenna9901@ghenna",
+            "n" : "ghenna9912@ghenna",
+            "s" : "ghenna9910@ghenna"
          },
          "flags" : [
             "NoMobiles",
@@ -2588,10 +2588,10 @@
       },
       "ghenna9994@ghenna" : {
          "exits" : {
-            "e" : "ghenna9953",
-            "w" : "ghenna9995",
-            "n" : "ghenna9993",
-            "s" : "ghenna9912"
+            "e" : "ghenna9953@ghenna",
+            "w" : "ghenna9995@ghenna",
+            "n" : "ghenna9993@ghenna",
+            "s" : "ghenna9912@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2604,8 +2604,8 @@
       },
       "ghenna9964@ghenna" : {
          "exits" : {
-            "w" : "ghenna9965",
-            "s" : "ghenna9963"
+            "w" : "ghenna9965@ghenna",
+            "s" : "ghenna9963@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2618,8 +2618,8 @@
       },
       "ghenna9916@ghenna" : {
          "exits" : {
-            "u" : "ghenna9918",
-            "s" : "ghenna9915"
+            "u" : "ghenna9918@ghenna",
+            "s" : "ghenna9915@ghenna"
          },
          "flags" : [],
          "zone" : "ghenna",
@@ -2630,10 +2630,10 @@
       },
       "ghenna9929@ghenna" : {
          "exits" : {
-            "e" : "ghenna9928",
-            "w" : "ghenna9930",
-            "n" : "ghenna9925",
-            "s" : "ghenna9927"
+            "e" : "ghenna9928@ghenna",
+            "w" : "ghenna9930@ghenna",
+            "n" : "ghenna9925@ghenna",
+            "s" : "ghenna9927@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2647,7 +2647,7 @@
       },
       "ghenna9996@ghenna" : {
          "exits" : {
-            "w" : "ghenna9997"
+            "w" : "ghenna9997@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2660,7 +2660,7 @@
       },
       "ghenna9950@ghenna" : {
          "exits" : {
-            "w" : "ghenna9949"
+            "w" : "ghenna9949@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2673,7 +2673,7 @@
       },
       "ghenna9977@ghenna" : {
          "exits" : {
-            "n" : "ghenna9976"
+            "n" : "ghenna9976@ghenna"
          },
          "flags" : [],
          "zone" : "ghenna",
@@ -2684,9 +2684,9 @@
       },
       "ghenna9902@ghenna" : {
          "exits" : {
-            "w" : "ghenna9904",
-            "n" : "ghenna9967",
-            "s" : "ghenna9901"
+            "w" : "ghenna9904@ghenna",
+            "n" : "ghenna9967@ghenna",
+            "s" : "ghenna9901@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2700,10 +2700,10 @@
       },
       "ghenna9907@ghenna" : {
          "exits" : {
-            "e" : "ghenna9906",
-            "w" : "ghenna9909",
-            "n" : "ghenna9905",
-            "s" : "ghenna9905"
+            "e" : "ghenna9906@ghenna",
+            "w" : "ghenna9909@ghenna",
+            "n" : "ghenna9905@ghenna",
+            "s" : "ghenna9905@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2718,9 +2718,9 @@
       },
       "ghenna9989@ghenna" : {
          "exits" : {
-            "e" : "ghenna9992",
-            "w" : "ghenna9990",
-            "n" : "ghenna9988"
+            "e" : "ghenna9992@ghenna",
+            "w" : "ghenna9990@ghenna",
+            "n" : "ghenna9988@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2733,10 +2733,10 @@
       },
       "ghenna9905@ghenna" : {
          "exits" : {
-            "e" : "ghenna9908",
-            "w" : "ghenna9906",
-            "n" : "^bramble_ghenna9998",
-            "s" : "ghenna9905"
+            "e" : "ghenna9908@ghenna",
+            "w" : "ghenna9906@ghenna",
+            "n" : "^bramble_ghenna9998@ghenna",
+            "s" : "ghenna9905@ghenna"
          },
          "flags" : [
             "Maze",
@@ -2752,9 +2752,9 @@
       },
       "ghenna9939@ghenna" : {
          "exits" : {
-            "e" : "ghenna9938",
-            "w" : "ghenna9912",
-            "n" : "ghenna9940"
+            "e" : "ghenna9938@ghenna",
+            "w" : "ghenna9912@ghenna",
+            "n" : "ghenna9940@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2767,9 +2767,9 @@
       },
       "ghenna9941@ghenna" : {
          "exits" : {
-            "w" : "ghenna9940",
-            "u" : "ghenna9953",
-            "n" : "ghenna9942"
+            "w" : "ghenna9940@ghenna",
+            "u" : "ghenna9953@ghenna",
+            "n" : "ghenna9942@ghenna"
          },
          "flags" : [],
          "zone" : "ghenna",
@@ -2780,7 +2780,7 @@
       },
       "ghenna9961@ghenna" : {
          "exits" : {
-            "s" : "ghenna9960"
+            "s" : "ghenna9960@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2794,7 +2794,7 @@
       },
       "ghenna9975@ghenna" : {
          "exits" : {
-            "s" : "ghenna9974"
+            "s" : "ghenna9974@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2807,8 +2807,8 @@
       },
       "ghenna9943@ghenna" : {
          "exits" : {
-            "d" : "ghenna9946",
-            "s" : "ghenna9923"
+            "d" : "ghenna9946@ghenna",
+            "s" : "ghenna9923@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2821,8 +2821,8 @@
       },
       "ghenna9987@ghenna" : {
          "exits" : {
-            "n" : "ghenna9986",
-            "s" : "ghenna9988"
+            "n" : "ghenna9986@ghenna",
+            "s" : "ghenna9988@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2835,11 +2835,11 @@
       },
       "ghenna9901@ghenna" : {
          "exits" : {
-            "e" : "ghenna9959",
-            "w" : "ghenna9957",
-            "u" : "^platform_ghenna9900",
-            "n" : "ghenna9902",
-            "s" : "ghenna9903"
+            "e" : "ghenna9959@ghenna",
+            "w" : "ghenna9957@ghenna",
+            "u" : "^platform_ghenna9900@ghenna",
+            "n" : "ghenna9902@ghenna",
+            "s" : "ghenna9903@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2853,8 +2853,8 @@
       },
       "ghenna9946@ghenna" : {
          "exits" : {
-            "u" : "ghenna9943",
-            "d" : "ghenna9945"
+            "u" : "ghenna9943@ghenna",
+            "d" : "ghenna9945@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2867,9 +2867,9 @@
       },
       "ghenna9949@ghenna" : {
          "exits" : {
-            "e" : "ghenna9950",
-            "w" : "ghenna9947",
-            "n" : "ghenna9952"
+            "e" : "ghenna9950@ghenna",
+            "w" : "ghenna9947@ghenna",
+            "n" : "ghenna9952@ghenna"
          },
          "flags" : [
             "NegRegen"
@@ -2882,8 +2882,8 @@
       },
       "ghenna9959@ghenna" : {
          "exits" : {
-            "e" : "ghenna9960",
-            "w" : "ghenna9901"
+            "e" : "ghenna9960@ghenna",
+            "w" : "ghenna9901@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2897,8 +2897,8 @@
       },
       "ghenna9988@ghenna" : {
          "exits" : {
-            "n" : "ghenna9987",
-            "s" : "ghenna9989"
+            "n" : "ghenna9987@ghenna",
+            "s" : "ghenna9989@ghenna"
          },
          "flags" : [
             "Dark"
@@ -2911,8 +2911,8 @@
       },
       "ghenna9983@ghenna" : {
          "exits" : {
-            "n" : "ghenna9982",
-            "s" : "ghenna9984"
+            "n" : "ghenna9982@ghenna",
+            "s" : "ghenna9984@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2926,9 +2926,9 @@
       },
       "ghenna9957@ghenna" : {
          "exits" : {
-            "e" : "ghenna9901",
-            "n" : "^red_ghenna9958",
-            "s" : "ghenna9955"
+            "e" : "ghenna9901@ghenna",
+            "n" : "^red_ghenna9958@ghenna",
+            "s" : "ghenna9955@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2942,8 +2942,8 @@
       },
       "ghenna9990@ghenna" : {
          "exits" : {
-            "e" : "ghenna9989",
-            "w" : "ghenna9991"
+            "e" : "ghenna9989@ghenna",
+            "w" : "ghenna9991@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2957,10 +2957,10 @@
       },
       "ghenna9903@ghenna" : {
          "exits" : {
-            "w" : "ghenna9951",
-            "n" : "ghenna9901",
-            "d" : "^guts_ghenna9912",
-            "s" : "ghenna9905"
+            "w" : "ghenna9951@ghenna",
+            "n" : "ghenna9901@ghenna",
+            "d" : "^guts_ghenna9912@ghenna",
+            "s" : "ghenna9905@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2974,8 +2974,8 @@
       },
       "ghenna9985@ghenna" : {
          "exits" : {
-            "u" : "ghenna9984",
-            "s" : "ghenna9986"
+            "u" : "ghenna9984@ghenna",
+            "s" : "ghenna9986@ghenna"
          },
          "flags" : [
             "Dark",
@@ -2989,8 +2989,8 @@
       },
       "ghenna9967@ghenna" : {
          "exits" : {
-            "e" : "ghenna9969",
-            "s" : "ghenna9902"
+            "e" : "ghenna9969@ghenna",
+            "s" : "ghenna9902@ghenna"
          },
          "flags" : [
             "Dark",
@@ -3004,8 +3004,8 @@
       },
       "ghenna9914@ghenna" : {
          "exits" : {
-            "e" : "ghenna9904",
-            "w" : "ghenna9943"
+            "e" : "ghenna9904@ghenna",
+            "w" : "ghenna9943@ghenna"
          },
          "flags" : [
             "Dark",
@@ -3019,10 +3019,10 @@
       },
       "ghenna9931@ghenna" : {
          "exits" : {
-            "e" : "ghenna9911",
-            "w" : "ghenna9928",
-            "n" : "ghenna9912",
-            "s" : "ghenna9932"
+            "e" : "ghenna9911@ghenna",
+            "w" : "ghenna9928@ghenna",
+            "n" : "ghenna9912@ghenna",
+            "s" : "ghenna9932@ghenna"
          },
          "flags" : [
             "Dark",
@@ -3036,10 +3036,10 @@
       },
       "ghenna9960@ghenna" : {
          "exits" : {
-            "e" : "ghenna9966",
-            "w" : "ghenna9959",
-            "n" : "ghenna9961",
-            "s" : "ghenna9962"
+            "e" : "ghenna9966@ghenna",
+            "w" : "ghenna9959@ghenna",
+            "n" : "ghenna9961@ghenna",
+            "s" : "ghenna9962@ghenna"
          },
          "flags" : [
             "Dark",
@@ -3053,12 +3053,12 @@
       },
       "ghenna9924@ghenna" : {
          "exits" : {
-            "e" : "ghenna9905",
-            "w" : "ghenna9905",
-            "u" : "ghenna9911",
-            "n" : "ghenna9900",
-            "d" : "ghenna9914",
-            "s" : "ghenna9925"
+            "e" : "ghenna9905@ghenna",
+            "w" : "ghenna9905@ghenna",
+            "u" : "ghenna9911@ghenna",
+            "n" : "ghenna9900@ghenna",
+            "d" : "ghenna9914@ghenna",
+            "s" : "ghenna9925@ghenna"
          },
          "flags" : [
             "NoMobiles",
@@ -3073,7 +3073,7 @@
       },
       "ghenna9953@ghenna" : {
          "exits" : {
-            "u" : "ghenna9903"
+            "u" : "ghenna9903@ghenna"
          },
          "flags" : [
             "NoMobiles",
@@ -3087,8 +3087,8 @@
       },
       "ghenna9976@ghenna" : {
          "exits" : {
-            "e" : "ghenna9974",
-            "s" : "ghenna9977"
+            "e" : "ghenna9974@ghenna",
+            "s" : "ghenna9977@ghenna"
          },
          "flags" : [
             "Dark"
@@ -3101,9 +3101,9 @@
       },
       "ghenna9968@ghenna" : {
          "exits" : {
-            "w" : "ghenna9970",
-            "n" : "ghenna9969",
-            "s" : "ghenna9966"
+            "w" : "ghenna9970@ghenna",
+            "n" : "ghenna9969@ghenna",
+            "s" : "ghenna9966@ghenna"
          },
          "flags" : [
             "Dark",
@@ -3117,10 +3117,10 @@
       },
       "ghenna9927@ghenna" : {
          "exits" : {
-            "e" : "ghenna9925",
-            "w" : "ghenna9928",
-            "n" : "ghenna9926",
-            "s" : "ghenna9928"
+            "e" : "ghenna9925@ghenna",
+            "w" : "ghenna9928@ghenna",
+            "n" : "ghenna9926@ghenna",
+            "s" : "ghenna9928@ghenna"
          },
          "flags" : [
             "Dark",
@@ -3134,8 +3134,8 @@
       },
       "ghenna9937@ghenna" : {
          "exits" : {
-            "u" : "^secret_ghenna9953",
-            "d" : "ghenna9936"
+            "u" : "^secret_ghenna9953@ghenna",
+            "d" : "ghenna9936@ghenna"
          },
          "flags" : [
             "Dark"
@@ -3148,7 +3148,7 @@
       },
       "ghenna9940@ghenna" : {
          "exits" : {
-            "e" : "ghenna9941"
+            "e" : "ghenna9941@ghenna"
          },
          "flags" : [
             "OnePerson",
@@ -3162,7 +3162,7 @@
       },
       "ghenna9956@ghenna" : {
          "exits" : {
-            "w" : "ghenna9955"
+            "w" : "ghenna9955@ghenna"
          },
          "flags" : [
             "Dark",
@@ -3176,12 +3176,12 @@
       },
       "ghenna9912@ghenna" : {
          "exits" : {
-            "e" : "ghenna9913",
-            "w" : "ghenna9913",
-            "u" : "ghenna9913",
-            "n" : "ghenna9913",
-            "d" : "ghenna9913",
-            "s" : "ghenna9913"
+            "e" : "ghenna9913@ghenna",
+            "w" : "ghenna9913@ghenna",
+            "u" : "ghenna9913@ghenna",
+            "n" : "ghenna9913@ghenna",
+            "d" : "ghenna9913@ghenna",
+            "s" : "ghenna9913@ghenna"
          },
          "flags" : [
             "NoMobiles",
@@ -3195,8 +3195,8 @@
       },
       "ghenna9980@ghenna" : {
          "exits" : {
-            "e" : "ghenna9979",
-            "n" : "ghenna9981"
+            "e" : "ghenna9979@ghenna",
+            "n" : "ghenna9981@ghenna"
          },
          "flags" : [
             "Dark",
@@ -3210,7 +3210,7 @@
       },
       "ghenna9995@ghenna" : {
          "exits" : {
-            "n" : "ghenna9996"
+            "n" : "ghenna9996@ghenna"
          },
          "flags" : [
             "Dark"
@@ -3223,9 +3223,9 @@
       },
       "ghenna9954@ghenna" : {
          "exits" : {
-            "e" : "ghenna9951",
-            "n" : "ghenna9955",
-            "s" : "ghenna9998"
+            "e" : "ghenna9951@ghenna",
+            "n" : "ghenna9955@ghenna",
+            "s" : "ghenna9998@ghenna"
          },
          "flags" : [
             "Dark",
@@ -3239,8 +3239,8 @@
       },
       "ghenna9998@ghenna" : {
          "exits" : {
-            "n" : "ghenna9954",
-            "s" : "^bramble_ghenna9905"
+            "n" : "ghenna9954@ghenna",
+            "s" : "^bramble_ghenna9905@ghenna"
          },
          "flags" : [
             "Dark",
@@ -3254,8 +3254,8 @@
       },
       "ghenna9921@ghenna" : {
          "exits" : {
-            "e" : "ghenna9918",
-            "s" : "^door_ghenna9922"
+            "e" : "ghenna9918@ghenna",
+            "s" : "^door_ghenna9922@ghenna"
          },
          "flags" : [
             "Dark"
@@ -3268,10 +3268,10 @@
       },
       "ghenna9925@ghenna" : {
          "exits" : {
-            "e" : "ghenna9926",
-            "w" : "ghenna9925",
-            "n" : "ghenna9926",
-            "s" : "ghenna9926"
+            "e" : "ghenna9926@ghenna",
+            "w" : "ghenna9925@ghenna",
+            "n" : "ghenna9926@ghenna",
+            "s" : "ghenna9926@ghenna"
          },
          "flags" : [
             "Dark",
@@ -3285,8 +3285,8 @@
       },
       "ghenna9972@ghenna" : {
          "exits" : {
-            "e" : "ghenna9971",
-            "u" : "ghenna9973"
+            "e" : "ghenna9971@ghenna",
+            "u" : "ghenna9973@ghenna"
          },
          "flags" : [
             "Dark"
@@ -3299,10 +3299,10 @@
       },
       "ghenna9930@ghenna" : {
          "exits" : {
-            "e" : "ghenna9931",
-            "w" : "ghenna9926",
-            "n" : "ghenna9930",
-            "s" : "ghenna9930"
+            "e" : "ghenna9931@ghenna",
+            "w" : "ghenna9926@ghenna",
+            "n" : "ghenna9930@ghenna",
+            "s" : "ghenna9930@ghenna"
          },
          "flags" : [
             "Dark",
@@ -3316,8 +3316,8 @@
       },
       "ghenna9936@ghenna" : {
          "exits" : {
-            "u" : "ghenna9937",
-            "s" : "ghenna9935"
+            "u" : "ghenna9937@ghenna",
+            "s" : "ghenna9935@ghenna"
          },
          "flags" : [
             "Dark"
@@ -3330,12 +3330,12 @@
       },
       "ghenna9913@ghenna" : {
          "exits" : {
-            "e" : "ghenna9913",
-            "w" : "ghenna9913",
-            "u" : "ghenna9913",
-            "n" : "ghenna9913",
-            "d" : "ghenna9913",
-            "s" : "ghenna9913"
+            "e" : "ghenna9913@ghenna",
+            "w" : "ghenna9913@ghenna",
+            "u" : "ghenna9913@ghenna",
+            "n" : "ghenna9913@ghenna",
+            "d" : "ghenna9913@ghenna",
+            "s" : "ghenna9913@ghenna"
          },
          "flags" : [
             "NoMobiles",
@@ -3349,8 +3349,8 @@
       },
       "ghenna9938@ghenna" : {
          "exits" : {
-            "w" : "ghenna9939",
-            "d" : "ghenna9934"
+            "w" : "ghenna9939@ghenna",
+            "d" : "ghenna9934@ghenna"
          },
          "flags" : [
             "Dark",
@@ -3364,8 +3364,8 @@
       },
       "ghenna9993@ghenna" : {
          "exits" : {
-            "n" : "ghenna9992",
-            "s" : "ghenna9994"
+            "n" : "ghenna9992@ghenna",
+            "s" : "ghenna9994@ghenna"
          },
          "flags" : [
             "Dark"
@@ -3378,8 +3378,8 @@
       },
       "ghenna9991@ghenna" : {
          "exits" : {
-            "e" : "ghenna9990",
-            "w" : "^boulder_ghenna100"
+            "e" : "ghenna9990@ghenna",
+            "w" : "^boulder_ghenna100@ghenna"
          },
          "flags" : [
             "NoMobiles",
@@ -3394,8 +3394,8 @@
       },
       "ghenna9945@ghenna" : {
          "exits" : {
-            "u" : "ghenna9946",
-            "d" : "ghenna9944"
+            "u" : "ghenna9946@ghenna",
+            "d" : "ghenna9944@ghenna"
          },
          "flags" : [
             "Dark"
@@ -3410,7 +3410,7 @@
    "mob" : {
       "mob9917_6@ghenna" : {
          "damage" : "15",
-         "location" : "ghenna9955",
+         "location" : "ghenna9955@ghenna",
          "armor" : "-38",
          "name" : "mob9917_6",
          "examine" : "You see a grungy human, long since gone insane at the fall of his once\nproud city.\n",
@@ -3428,7 +3428,7 @@
       },
       "mob9904_1@ghenna" : {
          "damage" : "16",
-         "location" : "ghenna9902",
+         "location" : "ghenna9902@ghenna",
          "armor" : "0",
          "name" : "mob9904_1",
          "examine" : "Large and very muscular, this guy is covered in brick red fur.  Though\nvaguely humanoid in appearance, he seems to contain the blood of some large\ncarnivore.\n",
@@ -3449,7 +3449,7 @@
             "ImmBlind"
          ],
          "damage" : "61",
-         "location" : "ghenna9997",
+         "location" : "ghenna9997@ghenna",
          "armor" : "40",
          "name" : "mob9997",
          "examine" : "It looks like a large, rubbery shpere of mottled grey and brown.  Six\narms project from its body; three are tentacle-arms, and three are jaw-arms,\nending in mouths of many teeth.  It also has about 40 long, retractable,\nflexible eye stalks that wave at you menacingly.  \n",
@@ -3468,7 +3468,7 @@
       },
       "mob9931_3@ghenna" : {
          "damage" : "12",
-         "location" : "ghenna9929",
+         "location" : "ghenna9929@ghenna",
          "armor" : "-20",
          "name" : "mob9931_3",
          "examine" : "It looks just like a foot sticking out of the wall. ",
@@ -3486,7 +3486,7 @@
       },
       "mob9994@ghenna" : {
          "damage" : "68",
-         "location" : "ghenna9994",
+         "location" : "ghenna9994@ghenna",
          "armor" : "40",
          "name" : "mob9994",
          "examine" : "You see a cockroach about 8 feet tall - apparently a mutant breed.",
@@ -3509,7 +3509,7 @@
             "Shock"
          ],
          "damage" : "33",
-         "location" : "ghenna9941",
+         "location" : "ghenna9941@ghenna",
          "armor" : "10",
          "name" : "mob9913",
          "examine" : "You see a powerful mage naked to the waist, wearing only a pair of\nslippers, some baggy purple pants, and a bracelet which sparkles with a \nmulti-hued color.  As for granting wishes...don't press your luck.\n",
@@ -3527,7 +3527,7 @@
       },
       "mob9905_1@ghenna" : {
          "damage" : "22",
-         "location" : "ghenna9910",
+         "location" : "ghenna9910@ghenna",
          "armor" : "-20",
          "name" : "mob9905_1",
          "examine" : "This guy sure is ugly!  He has the head of an ogre, one webbed foot, one\nhuman foot, and various other body parts that don't match.\n",
@@ -3546,7 +3546,7 @@
       },
       "mob9985@ghenna" : {
          "damage" : "19",
-         "location" : "ghenna9985",
+         "location" : "ghenna9985@ghenna",
          "armor" : "20",
          "name" : "mob9985",
          "examine" : "You see a muscular, hairless humanoid male dressed in a tunic.",
@@ -3566,7 +3566,7 @@
             "ImmVTouch"
          ],
          "damage" : "32",
-         "location" : "ghenna9910",
+         "location" : "ghenna9910@ghenna",
          "armor" : "0",
          "name" : "mob9902",
          "examine" : "This is the spirit of an evil female elf, a very rare thing indeed.  Her\nhair is wild and unkempt, and she is dressed in tattered rags.\n",
@@ -3588,7 +3588,7 @@
       },
       "mob9932_1@ghenna" : {
          "damage" : "13",
-         "location" : "ghenna9926",
+         "location" : "ghenna9926@ghenna",
          "armor" : "-20",
          "name" : "mob9932_1",
          "examine" : "It looks just like an arm sticking out of the wall. \n",
@@ -3606,7 +3606,7 @@
       },
       "mob9901@ghenna" : {
          "damage" : "30",
-         "location" : "ghenna9900",
+         "location" : "ghenna9900@ghenna",
          "armor" : "0",
          "name" : "mob9901",
          "examine" : "You see an undead being whose sole purpose is to protect its barrow\nmound.  Flesh hangs from its wretched body, and it looks more dead\nthan alive.\n",
@@ -3627,7 +3627,7 @@
       },
       "mob9923@ghenna" : {
          "damage" : "8",
-         "location" : "ghenna9952",
+         "location" : "ghenna9952@ghenna",
          "armor" : "20",
          "name" : "mob9923",
          "examine" : "A huge man with a long black beard, the Ghenna Swordmaster is tatooed\nwith rune-like scars from head to toe.  Shrouded in vermillion, he wields a\nsword of stunning beauty, which sings through the air as he attacks you.\nDid I say praying?  I meant PREYING!\n",
@@ -3643,7 +3643,7 @@
       },
       "mob9904_2@ghenna" : {
          "damage" : "16",
-         "location" : "ghenna9906",
+         "location" : "ghenna9906@ghenna",
          "armor" : "0",
          "name" : "mob9904_2",
          "examine" : "Large and very muscular, this guy is covered in brick red fur.  Though\nvaguely humanoid in appearance, he seems to contain the blood of some large\ncarnivore.\n",
@@ -3661,7 +3661,7 @@
       },
       "mob9906_2@ghenna" : {
          "damage" : "21",
-         "location" : "ghenna9935",
+         "location" : "ghenna9935@ghenna",
          "armor" : "8",
          "name" : "mob9906_2",
          "examine" : "This guy looks kinda like a ninja turtle, except he's a frog.",
@@ -3681,7 +3681,7 @@
             "NegFireball"
          ],
          "damage" : "9",
-         "location" : "ghenna9989",
+         "location" : "ghenna9989@ghenna",
          "armor" : "20",
          "name" : "mob9989",
          "examine" : "You see what appears to be a tiny dragon, about the size of a chihuahua.\nWhat a pansy he is too!\n",
@@ -3700,7 +3700,7 @@
             "ImmVTouch"
          ],
          "damage" : "32",
-         "location" : "ghenna9903",
+         "location" : "ghenna9903@ghenna",
          "armor" : "0",
          "name" : "mob9902_1",
          "examine" : "This is the spirit of an evil female elf, a very rare thing indeed.  Her\nhair is wild and unkempt, and she is dressed in tattered rags.\n",
@@ -3728,7 +3728,7 @@
             "ImmCripple"
          ],
          "damage" : "37",
-         "location" : "ghenna9956",
+         "location" : "ghenna9956@ghenna",
          "armor" : "0",
          "name" : "mob9909",
          "examine" : "A hulking skeleton, its face a blackened skull covered with shards of\nshriveled rotting flesh, chillingly returns your gaze.\n",
@@ -3750,7 +3750,7 @@
       },
       "mob9972@ghenna" : {
          "damage" : "20",
-         "location" : "ghenna9972",
+         "location" : "ghenna9972@ghenna",
          "armor" : "20",
          "name" : "mob9972",
          "examine" : "You see a sicko with bulging eyes, and a tiny bit of white spittle in\nthe corners of his mouth.  This guy doesn't deserve help.\n",
@@ -3768,7 +3768,7 @@
       },
       "mob9918@ghenna" : {
          "damage" : "8",
-         "location" : "ghenna9902",
+         "location" : "ghenna9902@ghenna",
          "armor" : "0",
          "name" : "mob9918",
          "examine" : "You see a little old lady, dressed all in pink chiffon.  On her arm\nshe carries a heart shaped box made of crepe paper.  Get her outta here!\n",
@@ -3788,7 +3788,7 @@
       },
       "mob9917_4@ghenna" : {
          "damage" : "15",
-         "location" : "ghenna9954",
+         "location" : "ghenna9954@ghenna",
          "armor" : "0",
          "name" : "mob9917_4",
          "examine" : "You see a grungy human, long since gone insane at the fall of his once\nproud city.\n",
@@ -3806,7 +3806,7 @@
       },
       "mob9915_1@ghenna" : {
          "damage" : "13",
-         "location" : "ghenna9959",
+         "location" : "ghenna9959@ghenna",
          "armor" : "-20",
          "name" : "mob9915_1",
          "examine" : "Landy's just ugly as sin... lets leave it at that.\nHe apparently didn't want to stick around the Orc King's kingdom.\n",
@@ -3824,7 +3824,7 @@
       },
       "mob9971@ghenna" : {
          "damage" : "20",
-         "location" : "ghenna9971",
+         "location" : "ghenna9971@ghenna",
          "armor" : "20",
          "name" : "mob9971",
          "examine" : "She is so cute that you wonder how she ever fell into a lifestyle such\nas this. She notices your gaze, and gives you a cloying look.  Maybe that\naid station would help clean up her life?\n",
@@ -3844,7 +3844,7 @@
       },
       "mob9911@ghenna" : {
          "damage" : "15",
-         "location" : "ghenna9935",
+         "location" : "ghenna9935@ghenna",
          "armor" : "20",
          "name" : "mob9911",
          "examine" : "You see a dwarf with glowing white eyes which have no pupils.  His skin\nis pasty white, but he looks stout enough.\n",
@@ -3862,7 +3862,7 @@
       },
       "mob9911_1@ghenna" : {
          "damage" : "15",
-         "location" : "ghenna9935",
+         "location" : "ghenna9935@ghenna",
          "armor" : "20",
          "name" : "mob9911_1",
          "examine" : "You see a dwarf with glowing white eyes which have no pupils.  His skin\nis pasty white, but he looks stout enough.\n",
@@ -3880,7 +3880,7 @@
       },
       "mob9916@ghenna" : {
          "damage" : "30",
-         "location" : "ghenna9916",
+         "location" : "ghenna9916@ghenna",
          "armor" : "20",
          "name" : "mob9916",
          "examine" : "The barkeep is a waifish little guy, with safety pins piercing the flesh\nall over his face... he even has safety pins through his eyelids.\n",
@@ -3896,7 +3896,7 @@
       },
       "mob9917_5@ghenna" : {
          "damage" : "15",
-         "location" : "ghenna9955",
+         "location" : "ghenna9955@ghenna",
          "armor" : "0",
          "name" : "mob9917_5",
          "examine" : "You see a grungy human, long since gone insane at the fall of his once\nproud city.\n",
@@ -3914,7 +3914,7 @@
       },
       "mob9917_2@ghenna" : {
          "damage" : "15",
-         "location" : "ghenna9998",
+         "location" : "ghenna9998@ghenna",
          "armor" : "0",
          "name" : "mob9917_2",
          "examine" : "You see a grungy human, long since gone insane at the fall of his once\nproud city.\n",
@@ -3938,7 +3938,7 @@
             "ImmCripple"
          ],
          "damage" : "13",
-         "location" : "ghenna9937",
+         "location" : "ghenna9937@ghenna",
          "armor" : "10",
          "name" : "mob9910",
          "examine" : "The Deep Dragon is an iridescent maroon colored beast about 25 feet long. \nKnown for assuming various shapes, this animal is highly dangerous and\nyou would do best to exit its lair immediately.\n",
@@ -3956,7 +3956,7 @@
       },
       "mob9931@ghenna" : {
          "damage" : "12",
-         "location" : "ghenna9926",
+         "location" : "ghenna9926@ghenna",
          "armor" : "-20",
          "name" : "mob9931",
          "examine" : "It looks just like a foot sticking out of the wall. ",
@@ -3974,7 +3974,7 @@
       },
       "mob9906_1@ghenna" : {
          "damage" : "21",
-         "location" : "ghenna9935",
+         "location" : "ghenna9935@ghenna",
          "armor" : "8",
          "name" : "mob9906_1",
          "examine" : "This guy looks kinda like a ninja turtle, except he's a frog.",
@@ -3990,7 +3990,7 @@
       },
       "mob9932@ghenna" : {
          "damage" : "13",
-         "location" : "ghenna9932",
+         "location" : "ghenna9932@ghenna",
          "armor" : "-20",
          "name" : "mob9932",
          "examine" : "It looks just like an arm sticking out of the wall. \n",
@@ -4008,7 +4008,7 @@
       },
       "mob9932_2@ghenna" : {
          "damage" : "13",
-         "location" : "ghenna9926",
+         "location" : "ghenna9926@ghenna",
          "armor" : "-20",
          "name" : "mob9932_2",
          "examine" : "It looks just like an arm sticking out of the wall. \n",
@@ -4026,7 +4026,7 @@
       },
       "mob9931_2@ghenna" : {
          "damage" : "12",
-         "location" : "ghenna9927",
+         "location" : "ghenna9927@ghenna",
          "armor" : "-20",
          "name" : "mob9931_2",
          "examine" : "It looks just like a foot sticking out of the wall. ",
@@ -4048,7 +4048,7 @@
             "NegFireball"
          ],
          "damage" : "9",
-         "location" : "ghenna9903",
+         "location" : "ghenna9903@ghenna",
          "armor" : "20",
          "name" : "mob9989_1",
          "examine" : "You see what appears to be a tiny dragon, about the size of a chihuahua.\nWhat a pansy he is too!\n",
@@ -4063,7 +4063,7 @@
       },
       "mob9915_2@ghenna" : {
          "damage" : "13",
-         "location" : "ghenna9901",
+         "location" : "ghenna9901@ghenna",
          "armor" : "-20",
          "name" : "mob9915_2",
          "examine" : "Dandy's just ugly as sin... lets leave it at that.\nHe also got bored living in the Orc King's kingdom.\n",
@@ -4081,7 +4081,7 @@
       },
       "mob9917_1@ghenna" : {
          "damage" : "15",
-         "location" : "ghenna9901",
+         "location" : "ghenna9901@ghenna",
          "armor" : "0",
          "name" : "mob9917_1",
          "examine" : "You see a grungy human, long since gone insane at the fall of his once\nproud city.\n",
@@ -4099,7 +4099,7 @@
       },
       "mob9900@ghenna" : {
          "damage" : "30",
-         "location" : "ghenna9901",
+         "location" : "ghenna9901@ghenna",
          "armor" : "-10",
          "name" : "mob9900",
          "examine" : "You see a human male, bald of head and thick of frame, wearing a white \nrobe.  He has heard tales of this city of evil, and has come here as a \nmissionary.  He's motioning you to speak with him before going further.\n",
@@ -4121,7 +4121,7 @@
             "Immblind"
          ],
          "damage" : "34",
-         "location" : "ghenna9959",
+         "location" : "ghenna9959@ghenna",
          "armor" : "10",
          "name" : "mob9903",
          "examine" : "This is a large, amoeba-like being with one central eye which has a\ntripartite pupil, and a hundred lashless inhuman eyes set above many \nsharp-toothed mouths..\n",
@@ -4141,7 +4141,7 @@
       },
       "mob9906_3@ghenna" : {
          "damage" : "21",
-         "location" : "ghenna9935",
+         "location" : "ghenna9935@ghenna",
          "armor" : "8",
          "name" : "mob9906_3",
          "examine" : "This guy looks kinda like a ninja turtle, except he's a frog.",
@@ -4157,7 +4157,7 @@
       },
       "mob9917@ghenna" : {
          "damage" : "15",
-         "location" : "ghenna9957",
+         "location" : "ghenna9957@ghenna",
          "armor" : "0",
          "name" : "mob9917",
          "examine" : "You see a grungy human, long since gone insane at the fall of his once\nproud city.\n",
@@ -4175,7 +4175,7 @@
       },
       "mob9958@ghenna" : {
          "damage" : "23",
-         "location" : "ghenna9958",
+         "location" : "ghenna9958@ghenna",
          "armor" : "10",
          "name" : "mob9958",
          "examine" : "This ugly wench is clad in studded black leather from head to toe.  Her\nnipples protrude conspicuously from a leather push-up bra.  A thong \naround her waist disappears into her crotch, which hasnt been waxed in a \nmellenia. \n",
@@ -4197,7 +4197,7 @@
       },
       "mob9981@ghenna" : {
          "damage" : "15",
-         "location" : "ghenna9981",
+         "location" : "ghenna9981@ghenna",
          "armor" : "20",
          "name" : "mob9981",
          "examine" : "This guy is barely alive, appears to have suffered at the hands of one\nof these beasts running around.  Better transport him out.",
@@ -4213,7 +4213,7 @@
       },
       "mob9932_3@ghenna" : {
          "damage" : "13",
-         "location" : "ghenna9927",
+         "location" : "ghenna9927@ghenna",
          "armor" : "-20",
          "name" : "mob9932_3",
          "examine" : "It looks just like an arm sticking out of the wall. \n",
@@ -4231,7 +4231,7 @@
       },
       "mob9906@ghenna" : {
          "damage" : "21",
-         "location" : "ghenna9935",
+         "location" : "ghenna9935@ghenna",
          "armor" : "8",
          "name" : "mob9906",
          "examine" : "This guy looks kinda like a ninja turtle, except he's a frog.",
@@ -4250,7 +4250,7 @@
             "Immblind"
          ],
          "damage" : "34",
-         "location" : "ghenna9988",
+         "location" : "ghenna9988@ghenna",
          "armor" : "10",
          "name" : "mob9903_1",
          "examine" : "This is a large, amoeba-like being with one central eye which has a\ntripartite pupil, and a hundred lashless inhuman eyes set above many \nsharp-toothed mouths..\n",
@@ -4270,7 +4270,7 @@
       },
       "mob9917_3@ghenna" : {
          "damage" : "15",
-         "location" : "ghenna9902",
+         "location" : "ghenna9902@ghenna",
          "armor" : "0",
          "name" : "mob9917_3",
          "examine" : "You see a grungy human, long since gone insane at the fall of his once\nproud city.\n",
@@ -4288,7 +4288,7 @@
       },
       "mob9912_1@ghenna" : {
          "damage" : "23",
-         "location" : "ghenna9987",
+         "location" : "ghenna9987@ghenna",
          "armor" : "0",
          "name" : "mob9912_1",
          "examine" : "You see an attractive young man, about 5 feet tall, with gleaming eyes\nand a pale complexion.  Though small, he appears to be very lithe and agile.\nIt's one of the missing students of Shamus, identified as Peter!\n",
@@ -4308,7 +4308,7 @@
       },
       "mob9975@ghenna" : {
          "damage" : "18",
-         "location" : "ghenna9975",
+         "location" : "ghenna9975@ghenna",
          "armor" : "14",
          "name" : "mob9975",
          "examine" : "One eye, no teeth and pasty white skin, this chick looks like your worst\nnightmare.\n",
@@ -4325,7 +4325,7 @@
       },
       "mob9904@ghenna" : {
          "damage" : "16",
-         "location" : "ghenna9903",
+         "location" : "ghenna9903@ghenna",
          "armor" : "0",
          "name" : "mob9904",
          "examine" : "Large and very muscular, this guy is covered in brick red fur.  Though\nvaguely humanoid in appearance, he seems to contain the blood of some large\ncarnivore.\n",
@@ -4343,7 +4343,7 @@
       },
       "mob9932_4@ghenna" : {
          "damage" : "13",
-         "location" : "ghenna9929",
+         "location" : "ghenna9929@ghenna",
          "armor" : "-20",
          "name" : "mob9932_4",
          "examine" : "It looks just like an arm sticking out of the wall. \n",
@@ -4361,7 +4361,7 @@
       },
       "mob9907@ghenna" : {
          "damage" : "23",
-         "location" : "ghenna9907",
+         "location" : "ghenna9907@ghenna",
          "armor" : "-20",
          "name" : "mob9907",
          "examine" : "You see a giant, venus fly trap with 6 inch fangs.",
@@ -4383,7 +4383,7 @@
       },
       "mob9933@ghenna" : {
          "damage" : "55",
-         "location" : "ghenna9933",
+         "location" : "ghenna9933@ghenna",
          "armor" : "40",
          "name" : "mob9933",
          "examine" : "It looks like a stone sculpture of Frankenstein's monster.  It stands\ntwelve feet tall, casting a long shadow over you.\n",
@@ -4403,7 +4403,7 @@
       },
       "mob9986@ghenna" : {
          "damage" : "19",
-         "location" : "ghenna9985",
+         "location" : "ghenna9985@ghenna",
          "armor" : "20",
          "name" : "mob9986",
          "examine" : "You see a muscular, hairless humanoid male dressed in a tunic.",
@@ -4419,7 +4419,7 @@
       },
       "mob9986_1@ghenna" : {
          "damage" : "19",
-         "location" : "ghenna9986",
+         "location" : "ghenna9986@ghenna",
          "armor" : "20",
          "name" : "mob9986_1",
          "examine" : "You see a muscular, hairless humanoid male dressed in a tunic.",
@@ -4435,7 +4435,7 @@
       },
       "mob9975_1@ghenna" : {
          "damage" : "18",
-         "location" : "ghenna9977",
+         "location" : "ghenna9977@ghenna",
          "armor" : "14",
          "name" : "mob9975_1",
          "examine" : "One eye, no teeth and pasty white skin, this chick looks like your worst\nnightmare.\n",
@@ -4452,7 +4452,7 @@
       },
       "mob9915@ghenna" : {
          "damage" : "13",
-         "location" : "ghenna9957",
+         "location" : "ghenna9957@ghenna",
          "armor" : "-20",
          "name" : "mob9915",
          "examine" : "Candy's just ugly as sin... lets leave it at that.\nShe left the Orc King's kingdom for some bigger, better things\nthough you can hardly figure what those would be.\n",
@@ -4472,7 +4472,7 @@
       },
       "mob9964@ghenna" : {
          "damage" : "20",
-         "location" : "ghenna9964",
+         "location" : "ghenna9964@ghenna",
          "armor" : "20",
          "name" : "mob9964",
          "examine" : "This looks like your typical child's doll.  Its about one foot tall, and\nlooks like it is made of plastic.  Better be happy that this isn't Chucky...\nuh, did you just notice it twitched?",
@@ -4488,7 +4488,7 @@
       },
       "mob9914@ghenna" : {
          "damage" : "24",
-         "location" : "ghenna9920",
+         "location" : "ghenna9920@ghenna",
          "armor" : "20",
          "name" : "mob9914",
          "examine" : "Well, you probably shouldn't have looked at this chick, cause she sure\nis ugly. But I guess you are about to see HOW ugly.\n",
@@ -4514,7 +4514,7 @@
             "ImmCripple"
          ],
          "damage" : "75",
-         "location" : "ghenna9936",
+         "location" : "ghenna9936@ghenna",
          "armor" : "40",
          "name" : "mob9908",
          "examine" : "\nThis monster has three heads, those of a gorgon, a lion, and a fierce\ndragon. It has the hindquarters of a large, black gorgon and the \nforequarters of a huge, tawny lion, with brownish-black wings like those \nof a dragon.  This creature obviously is very terratorial...\n",
@@ -4532,7 +4532,7 @@
       },
       "mob9912@ghenna" : {
          "damage" : "23",
-         "location" : "ghenna9957",
+         "location" : "ghenna9957@ghenna",
          "armor" : "0",
          "name" : "mob9912",
          "examine" : "You see an attractive young man, about 5 feet tall, with gleaming eyes\nand a pale complexion.  Though small, he appears to be very lithe and agile.\nIt's one of the missing students of Shamus, identified as Erik!\n",
@@ -4552,7 +4552,7 @@
       },
       "mob9905@ghenna" : {
          "damage" : "22",
-         "location" : "ghenna9908",
+         "location" : "ghenna9908@ghenna",
          "armor" : "-20",
          "name" : "mob9905",
          "examine" : "This guy sure is ugly!  He has the head of an ogre, one webbed foot, one\nhuman foot, and various other body parts that don't match.\n",
@@ -4571,7 +4571,7 @@
       },
       "mob9931_1@ghenna" : {
          "damage" : "12",
-         "location" : "ghenna9931",
+         "location" : "ghenna9931@ghenna",
          "armor" : "-20",
          "name" : "mob9931_1",
          "examine" : "It looks just like a foot sticking out of the wall.",
@@ -4589,7 +4589,7 @@
       },
       "mob9987@ghenna" : {
          "damage" : "18",
-         "location" : "ghenna9987",
+         "location" : "ghenna9987@ghenna",
          "armor" : "20",
          "name" : "mob9987",
          "examine" : "You see a young elf, only about 13 years old, who acts as though he is \non a crusade.  Dressed in light armor, he seeks out evil doers in order to\neradicate them from the face of the planet.  Just what exactly did Shamus \nexpect from him?  \n",
@@ -4606,7 +4606,7 @@
       },
       "mob9915_4@ghenna" : {
          "damage" : "13",
-         "location" : "ghenna9987",
+         "location" : "ghenna9987@ghenna",
          "armor" : "-20",
          "name" : "mob9915_4",
          "examine" : "Handy's just ugly as sin... lets leave it at that.\nAfter he left the Orc King's kingdom, he tried to become a \nhandyman of sorts, but his looks made it hard for him to get\nhired on.\n",
@@ -4628,7 +4628,7 @@
             "NegFireball"
          ],
          "damage" : "9",
-         "location" : "ghenna9909",
+         "location" : "ghenna9909@ghenna",
          "armor" : "20",
          "name" : "mob9989_2",
          "examine" : "You see what appears to be a tiny dragon, about the size of a chihuahua.\nWhat a pansy he is too!\n",
@@ -4643,7 +4643,7 @@
       },
       "mob9915_3@ghenna" : {
          "damage" : "13",
-         "location" : "ghenna9927",
+         "location" : "ghenna9927@ghenna",
          "armor" : "-20",
          "name" : "mob9915_3",
          "examine" : "Tandy's just ugly as sin... lets leave it at that.\nIs that a laptop computer he's toting around with him?\n",

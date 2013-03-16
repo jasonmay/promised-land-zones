@@ -2,7 +2,7 @@
    "obj" : {
       "sinkhandle@playhouse" : {
          "desc[1]" : "The sink handle is turned off.",
-         "location" : "IN_ROOM:house13",
+         "location" : "IN_ROOM:house13@playhouse",
          "oflags" : [
             "PushToggle",
             "NoGet"
@@ -15,7 +15,7 @@
          "desc[0]" : "The sink handle has been turned on."
       },
       "cracker@playhouse" : {
-         "location" : "CARRIED_BY:Cody",
+         "location" : "CARRIED_BY:cody@playhouse",
          "oflags" : [
             "Food"
          ],
@@ -25,7 +25,7 @@
          "size" : "1"
       },
       "playpen@playhouse" : {
-         "location" : "IN_ROOM:house22",
+         "location" : "IN_ROOM:house22@playhouse",
          "oflags" : [
             "NoGet"
          ],
@@ -34,7 +34,7 @@
          "desc[0]" : "A playpen sets here."
       },
       "pacifier@playhouse" : {
-         "location" : "CARRIED_BY:Maggie",
+         "location" : "CARRIED_BY:maggie@playhouse",
          "altname" : "nuk",
          "name" : "pacifier",
          "examine" : "Wow! That's real &+YGOLD&+W!!&*",
@@ -44,7 +44,7 @@
       },
       "rattle@playhouse" : {
          "damage" : "5",
-         "location" : "WIELDED_BY:Tot",
+         "location" : "WIELDED_BY:tot@playhouse",
          "oflags" : [
             "Weapon"
          ],
@@ -56,7 +56,7 @@
       },
       "basket@playhouse" : {
          "desc[1]" : "A picnic basket rests on the grass.",
-         "location" : "IN_ROOM:yard7",
+         "location" : "IN_ROOM:yard7@playhouse",
          "oflags" : [
             "Container",
             "GetFlips"
@@ -69,7 +69,7 @@
          "desc[0]" : "A little picnic basket has been left here."
       },
       "halo@playhouse" : {
-         "location" : "WORN_BY:Peter",
+         "location" : "WORN_BY:peter@playhouse",
          "armor" : "35",
          "oflags" : [
             "Wearable",
@@ -87,7 +87,7 @@
       },
       "pillow@playhouse" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:Grandie",
+         "location" : "WIELDED_BY:grandie@playhouse",
          "oflags" : [
             "Weapon"
          ],
@@ -98,7 +98,7 @@
          "size" : "2"
       },
       "toilet@playhouse" : {
-         "location" : "IN_ROOM:house4",
+         "location" : "IN_ROOM:house4@playhouse",
          "oflags" : [
             "NoGet"
          ],
@@ -108,7 +108,7 @@
          "state" : "0"
       },
       "blankie@playhouse" : {
-         "location" : "CARRIED_BY:Sweetie",
+         "location" : "CARRIED_BY:sweetie@playhouse",
          "name" : "blankie",
          "examine" : "It's a cute little blankie.",
          "bvalue" : "150",
@@ -117,7 +117,7 @@
       },
       "pepsi@playhouse" : {
          "desc[1]" : "An ice-cold can of Pepsi rests on the shelf.",
-         "location" : "IN_CONTAINER:refridgerator",
+         "location" : "IN_CONTAINER:refridgerator@playhouse",
          "oflags" : [
             "GetFlips",
             "Food"
@@ -131,7 +131,7 @@
          "desc[0]" : "A can of Pepsi has been left here."
       },
       "dirtydiaper@playhouse" : {
-         "location" : "WORN_BY:Tony",
+         "location" : "WORN_BY:tony@playhouse",
          "oflags" : [
             "Wearable"
          ],
@@ -144,7 +144,7 @@
       },
       "coke@playhouse" : {
          "desc[1]" : "An ice-cold can of Coca-Cola Classic rests on the shelf.",
-         "location" : "IN_CONTAINER:refridgerator",
+         "location" : "IN_CONTAINER:refridgerator@playhouse",
          "oflags" : [
             "GetFlips",
             "Food"
@@ -159,7 +159,7 @@
       },
       "house26door@playhouse" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:house26",
+         "location" : "IN_ROOM:house26@playhouse",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -175,7 +175,7 @@
       },
       "house27edoor@playhouse" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:house27",
+         "location" : "IN_ROOM:house27@playhouse",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -191,7 +191,7 @@
       },
       "key@playhouse" : {
          "desc[1]" : "A shiny key lies on the bottom of the drawer.",
-         "location" : "IN_CONTAINER:drawer",
+         "location" : "IN_CONTAINER:drawer@playhouse",
          "oflags" : [
             "Key",
             "GetFlips"
@@ -204,7 +204,7 @@
          "desc[0]" : "A shiny key has been dropped here."
       },
       "babyfood@playhouse" : {
-         "location" : "IN_CONTAINER:jar",
+         "location" : "IN_CONTAINER:jar@playhouse",
          "oflags" : [
             "Food"
          ],
@@ -217,7 +217,7 @@
       },
       "closetindoor@playhouse" : {
          "desc[1]" : "The closet door is closed.",
-         "location" : "IN_ROOM:house25",
+         "location" : "IN_ROOM:house25@playhouse",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -233,7 +233,7 @@
       },
       "jar@playhouse" : {
          "desc[1]" : "A baby food jar rests on a shelf.",
-         "location" : "IN_CONTAINER:refridgerator",
+         "location" : "IN_CONTAINER:refridgerator@playhouse",
          "oflags" : [
             "Container",
             "Openable"
@@ -247,7 +247,7 @@
          "desc[0]" : "A baby food jar has been left behind here."
       },
       "piano@playhouse" : {
-         "location" : "IN_ROOM:house28",
+         "location" : "IN_ROOM:house28@playhouse",
          "name" : "piano",
          "examine" : "Wow! It even plays music!",
          "bvalue" : "120",
@@ -255,7 +255,7 @@
          "size" : "3"
       },
       "babydoll@playhouse" : {
-         "location" : "CARRIED_BY:Angelica",
+         "location" : "CARRIED_BY:angelica@playhouse",
          "altname" : "doll",
          "name" : "babydoll",
          "examine" : "It's a Cabbage Patch Doll!",
@@ -265,7 +265,7 @@
       },
       "drawer@playhouse" : {
          "desc[1]" : "The dresser drawer is closed.",
-         "location" : "IN_ROOM:house7",
+         "location" : "IN_ROOM:house7@playhouse",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -279,7 +279,7 @@
          "desc[0]" : "The dresser drawer is open."
       },
       "puddle@playhouse" : {
-         "location" : "IN_ROOM:house17",
+         "location" : "IN_ROOM:house17@playhouse",
          "oflags" : [
             "Container",
             "NoGet"
@@ -291,7 +291,7 @@
       },
       "pitchfork@playhouse" : {
          "damage" : "8",
-         "location" : "WIELDED_BY:Mikey",
+         "location" : "WIELDED_BY:mikey@playhouse",
          "oflags" : [
             "Weapon"
          ],
@@ -303,7 +303,7 @@
       },
       "house27wdoor@playhouse" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:house27",
+         "location" : "IN_ROOM:house27@playhouse",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -319,7 +319,7 @@
       },
       "pinkyring@playhouse" : {
          "desc[1]" : "A ring floats in the puddle.",
-         "location" : "IN_CONTAINER:puddle",
+         "location" : "IN_CONTAINER:puddle@playhouse",
          "oflags" : [
             "Wearable",
             "GetFlips"
@@ -335,7 +335,7 @@
       },
       "gun@playhouse" : {
          "damage" : "5",
-         "location" : "WIELDED_BY:Soldier",
+         "location" : "WIELDED_BY:soldier@playhouse",
          "oflags" : [
             "Weapon"
          ],
@@ -347,7 +347,7 @@
       },
       "closetoutdoor@playhouse" : {
          "desc[1]" : "The closet door is closed.",
-         "location" : "IN_ROOM:house24",
+         "location" : "IN_ROOM:house24@playhouse",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -363,7 +363,7 @@
       },
       "refridgerator@playhouse" : {
          "desc[1]" : "The large refridgerator door is closed.",
-         "location" : "IN_ROOM:house10",
+         "location" : "IN_ROOM:house10@playhouse",
          "oflags" : [
             "Openable",
             "Container",
@@ -379,7 +379,7 @@
       },
       "toy@playhouse" : {
          "damage" : "6",
-         "location" : "WIELDED_BY:Buffy",
+         "location" : "WIELDED_BY:buffy@playhouse",
          "oflags" : [
             "Weapon"
          ],
@@ -390,7 +390,7 @@
          "size" : "4"
       },
       "tiara@playhouse" : {
-         "location" : "WORN_BY:Prissy",
+         "location" : "WORN_BY:prissy@playhouse",
          "armor" : "35",
          "oflags" : [
             "Wearable",
@@ -407,7 +407,7 @@
       },
       "budweiser@playhouse" : {
          "desc[1]" : "An ice-cold can of Budweiser rests on the shelf.",
-         "location" : "IN_CONTAINER:refridgerator",
+         "location" : "IN_CONTAINER:refridgerator@playhouse",
          "oflags" : [
             "GetFlips",
             "Food"
@@ -422,7 +422,7 @@
          "desc[0]" : "A can of Budweiser has been left by the frogs here."
       },
       "teethingring@playhouse" : {
-         "location" : "CARRIED_BY:Andrea",
+         "location" : "CARRIED_BY:andrea@playhouse",
          "altname" : "teether",
          "name" : "teethingring",
          "examine" : "It's blue! And it's cold! Go figure!",
@@ -432,7 +432,7 @@
       },
       "backpack@playhouse" : {
          "desc[1]" : "A child's backpack rests against the fence.",
-         "location" : "IN_ROOM:yard5",
+         "location" : "IN_ROOM:yard5@playhouse",
          "oflags" : [
             "Container",
             "GetFlips"
@@ -447,7 +447,7 @@
       },
       "mountaindew@playhouse" : {
          "desc[1]" : "An ice-cold can of Mountain Dew rests on the shelf.",
-         "location" : "IN_CONTAINER:refridgerator",
+         "location" : "IN_CONTAINER:refridgerator@playhouse",
          "oflags" : [
             "GetFlips",
             "Food"
@@ -462,7 +462,7 @@
          "desc[0]" : "A can of Mountain Dew has been left here."
       },
       "hotwheel@playhouse" : {
-         "location" : "IN_ROOM:yard2",
+         "location" : "IN_ROOM:yard2@playhouse",
          "altname" : "car",
          "name" : "hotwheel",
          "examine" : "It's a hot-red chariot! And the doors really open!",
@@ -472,7 +472,7 @@
       },
       "milk@playhouse" : {
          "desc[1]" : "A cold bottle of milk rests on the shelf.",
-         "location" : "IN_CONTAINER:refridgerator",
+         "location" : "IN_CONTAINER:refridgerator@playhouse",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -487,7 +487,7 @@
       },
       "house28door@playhouse" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:house28",
+         "location" : "IN_ROOM:house28@playhouse",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -502,7 +502,7 @@
          "desc[0]" : "The door is open."
       },
       "sink@playhouse" : {
-         "location" : "IN_ROOM:house13",
+         "location" : "IN_ROOM:house13@playhouse",
          "oflags" : [
             "NoGet"
          ],
@@ -510,7 +510,7 @@
          "examine" : "It is a really neat sink."
       },
       "dresser@playhouse" : {
-         "location" : "IN_ROOM:house7",
+         "location" : "IN_ROOM:house7@playhouse",
          "oflags" : [
             "NoGet"
          ],
@@ -518,7 +518,7 @@
          "desc[0]" : "A fine oak dresser sits here with a loose drawer."
       },
       "toiletlid@playhouse" : {
-         "location" : "IN_ROOM:house4",
+         "location" : "IN_ROOM:house4@playhouse",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -531,7 +531,7 @@
       },
       "plasticsack@playhouse" : {
          "desc[1]" : "A plastic sack has been left on the counter.",
-         "location" : "IN_ROOM:house10",
+         "location" : "IN_ROOM:house10@playhouse",
          "oflags" : [
             "GetFlips",
             "Container"
@@ -549,8 +549,8 @@
    "loc" : {
       "house6@playhouse" : {
          "exits" : {
-            "w" : "house5",
-            "s" : "house3"
+            "w" : "house5@playhouse",
+            "s" : "house3@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -561,8 +561,8 @@
       },
       "house25@playhouse" : {
          "exits" : {
-            "u" : "house26",
-            "s" : "^closetindoor"
+            "u" : "house26@playhouse",
+            "s" : "^closetindoor@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -573,10 +573,10 @@
       },
       "house3@playhouse" : {
          "exits" : {
-            "w" : "house2",
-            "e" : "house10",
-            "n" : "house6",
-            "s" : "house9"
+            "w" : "house2@playhouse",
+            "e" : "house10@playhouse",
+            "n" : "house6@playhouse",
+            "s" : "house9@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -587,7 +587,7 @@
       },
       "house4@playhouse" : {
          "exits" : {
-            "e" : "house5"
+            "e" : "house5@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -598,8 +598,8 @@
       },
       "house26@playhouse" : {
          "exits" : {
-            "w" : "^house26door",
-            "d" : "house25"
+            "w" : "^house26door@playhouse",
+            "d" : "house25@playhouse"
          },
          "flags" : [
             "Dark"
@@ -612,8 +612,8 @@
       },
       "yard5@playhouse" : {
          "exits" : {
-            "w" : "yard4",
-            "s" : "yard2"
+            "w" : "yard4@playhouse",
+            "s" : "yard2@playhouse"
          },
          "flags" : [
             "Outdoors"
@@ -626,9 +626,9 @@
       },
       "house8@playhouse" : {
          "exits" : {
-            "w" : "house7",
-            "e" : "house9",
-            "n" : "house2"
+            "w" : "house7@playhouse",
+            "e" : "house9@playhouse",
+            "n" : "house2@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -639,8 +639,8 @@
       },
       "house12@playhouse" : {
          "exits" : {
-            "w" : "house11",
-            "s" : "house13"
+            "w" : "house11@playhouse",
+            "s" : "house13@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -651,7 +651,7 @@
       },
       "house28@playhouse" : {
          "exits" : {
-            "e" : "^house28door"
+            "e" : "^house28door@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -662,9 +662,9 @@
       },
       "house5@playhouse" : {
          "exits" : {
-            "w" : "house4",
-            "e" : "house6",
-            "s" : "house2"
+            "w" : "house4@playhouse",
+            "e" : "house6@playhouse",
+            "s" : "house2@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -675,8 +675,8 @@
       },
       "house17@playhouse" : {
          "exits" : {
-            "w" : "house18",
-            "e" : "house11"
+            "w" : "house18@playhouse",
+            "e" : "house11@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -687,8 +687,8 @@
       },
       "house13@playhouse" : {
          "exits" : {
-            "w" : "house14",
-            "n" : "house12"
+            "w" : "house14@playhouse",
+            "n" : "house12@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -699,8 +699,8 @@
       },
       "house15@playhouse" : {
          "exits" : {
-            "w" : "house16",
-            "e" : "house14"
+            "w" : "house16@playhouse",
+            "e" : "house14@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -711,8 +711,8 @@
       },
       "house18@playhouse" : {
          "exits" : {
-            "e" : "house17",
-            "n" : "house19"
+            "e" : "house17@playhouse",
+            "n" : "house19@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -723,8 +723,8 @@
       },
       "house22@playhouse" : {
          "exits" : {
-            "w" : "house21",
-            "s" : "house23"
+            "w" : "house21@playhouse",
+            "s" : "house23@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -735,8 +735,8 @@
       },
       "yard8@playhouse" : {
          "exits" : {
-            "w" : "yard7",
-            "n" : "yard2"
+            "w" : "yard7@playhouse",
+            "n" : "yard2@playhouse"
          },
          "flags" : [
             "Outdoors"
@@ -749,11 +749,11 @@
       },
       "house2@playhouse" : {
          "exits" : {
-            "w" : "house1",
-            "e" : "house3",
-            "u" : "house11",
-            "n" : "house5",
-            "s" : "house8"
+            "w" : "house1@playhouse",
+            "e" : "house3@playhouse",
+            "u" : "house11@playhouse",
+            "n" : "house5@playhouse",
+            "s" : "house8@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -764,9 +764,9 @@
       },
       "yard4@playhouse" : {
          "exits" : {
-            "w" : "yard3",
-            "e" : "yard5",
-            "s" : "yard1"
+            "w" : "yard3@playhouse",
+            "e" : "yard5@playhouse",
+            "s" : "yard1@playhouse"
          },
          "flags" : [
             "Outdoors"
@@ -779,8 +779,8 @@
       },
       "house19@playhouse" : {
          "exits" : {
-            "n" : "house20",
-            "s" : "house18"
+            "n" : "house20@playhouse",
+            "s" : "house18@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -791,8 +791,8 @@
       },
       "house1@playhouse" : {
          "exits" : {
-            "w" : "Road3@village",
-            "e" : "house2"
+            "w" : "road3@village",
+            "e" : "house2@playhouse"
          },
          "flags" : [
             "NoMobiles"
@@ -805,9 +805,9 @@
       },
       "yard2@playhouse" : {
          "exits" : {
-            "w" : "yard1",
-            "n" : "yard5",
-            "s" : "yard8"
+            "w" : "yard1@playhouse",
+            "n" : "yard5@playhouse",
+            "s" : "yard8@playhouse"
          },
          "flags" : [
             "Outdoors"
@@ -820,8 +820,8 @@
       },
       "house24@playhouse" : {
          "exits" : {
-            "w" : "house23",
-            "n" : "^closetoutdoor"
+            "w" : "house23@playhouse",
+            "n" : "^closetoutdoor@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -832,7 +832,7 @@
       },
       "yard6@playhouse" : {
          "exits" : {
-            "e" : "yard7"
+            "e" : "yard7@playhouse"
          },
          "flags" : [
             "Outdoors"
@@ -845,10 +845,10 @@
       },
       "yard1@playhouse" : {
          "exits" : {
-            "w" : "house10",
-            "e" : "yard2",
-            "n" : "yard4",
-            "s" : "yard7"
+            "w" : "house10@playhouse",
+            "e" : "yard2@playhouse",
+            "n" : "yard4@playhouse",
+            "s" : "yard7@playhouse"
          },
          "flags" : [
             "Outdoors"
@@ -861,9 +861,9 @@
       },
       "yard7@playhouse" : {
          "exits" : {
-            "w" : "yard6",
-            "e" : "yard8",
-            "n" : "yard1"
+            "w" : "yard6@playhouse",
+            "e" : "yard8@playhouse",
+            "n" : "yard1@playhouse"
          },
          "flags" : [
             "Outdoors"
@@ -876,7 +876,7 @@
       },
       "house16@playhouse" : {
          "exits" : {
-            "e" : "house15"
+            "e" : "house15@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -887,8 +887,8 @@
       },
       "house9@playhouse" : {
          "exits" : {
-            "w" : "house8",
-            "n" : "house3"
+            "w" : "house8@playhouse",
+            "n" : "house3@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -899,8 +899,8 @@
       },
       "house20@playhouse" : {
          "exits" : {
-            "e" : "house21",
-            "s" : "house19"
+            "e" : "house21@playhouse",
+            "s" : "house19@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -911,7 +911,7 @@
       },
       "house7@playhouse" : {
          "exits" : {
-            "e" : "house8"
+            "e" : "house8@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -922,8 +922,8 @@
       },
       "house10@playhouse" : {
          "exits" : {
-            "w" : "house3",
-            "e" : "yard1"
+            "w" : "house3@playhouse",
+            "e" : "yard1@playhouse"
          },
          "flags" : [
             "NoMobiles"
@@ -936,8 +936,8 @@
       },
       "house23@playhouse" : {
          "exits" : {
-            "e" : "house24",
-            "n" : "house22"
+            "e" : "house24@playhouse",
+            "n" : "house22@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -948,9 +948,9 @@
       },
       "house14@playhouse" : {
          "exits" : {
-            "w" : "house15",
-            "e" : "house13",
-            "n" : "house11"
+            "w" : "house15@playhouse",
+            "e" : "house13@playhouse",
+            "n" : "house11@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -961,8 +961,8 @@
       },
       "house27@playhouse" : {
          "exits" : {
-            "w" : "^house27wdoor",
-            "e" : "^house27edoor"
+            "w" : "^house27wdoor@playhouse",
+            "e" : "^house27edoor@playhouse"
          },
          "flags" : [
             "Dark"
@@ -975,10 +975,10 @@
       },
       "house11@playhouse" : {
          "exits" : {
-            "w" : "house17",
-            "e" : "house12",
-            "d" : "house2",
-            "s" : "house14"
+            "w" : "house17@playhouse",
+            "e" : "house12@playhouse",
+            "d" : "house2@playhouse",
+            "s" : "house14@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -989,7 +989,7 @@
       },
       "yard3@playhouse" : {
          "exits" : {
-            "e" : "yard4"
+            "e" : "yard4@playhouse"
          },
          "flags" : [
             "Outdoors"
@@ -1002,8 +1002,8 @@
       },
       "house21@playhouse" : {
          "exits" : {
-            "w" : "house20",
-            "e" : "house22"
+            "w" : "house20@playhouse",
+            "e" : "house22@playhouse"
          },
          "flags" : [],
          "zone" : "playhouse",
@@ -1016,7 +1016,7 @@
    "mob" : {
       "tot@playhouse" : {
          "damage" : "5",
-         "location" : "house3",
+         "location" : "house3@playhouse",
          "speed" : "0",
          "aggression" : "20",
          "armor" : "0",
@@ -1026,7 +1026,7 @@
       },
       "john@playhouse" : {
          "damage" : "8",
-         "location" : "house6",
+         "location" : "house6@playhouse",
          "speed" : "2",
          "aggression" : "40",
          "armor" : "0",
@@ -1036,7 +1036,7 @@
       },
       "biff@playhouse" : {
          "damage" : "6",
-         "location" : "house9",
+         "location" : "house9@playhouse",
          "speed" : "0",
          "aggression" : "40",
          "armor" : "0",
@@ -1046,7 +1046,7 @@
       },
       "mikey@playhouse" : {
          "damage" : "5",
-         "location" : "house20",
+         "location" : "house20@playhouse",
          "speed" : "0",
          "aggression" : "20",
          "armor" : "0",
@@ -1056,7 +1056,7 @@
       },
       "chester@playhouse" : {
          "damage" : "6",
-         "location" : "house5",
+         "location" : "house5@playhouse",
          "speed" : "0",
          "aggression" : "20",
          "armor" : "0",
@@ -1066,7 +1066,7 @@
       },
       "kara@playhouse" : {
          "damage" : "5",
-         "location" : "yard1",
+         "location" : "yard1@playhouse",
          "armor" : "0",
          "name" : "Kara",
          "description" : "Kara is here screaming for her mommy.",
@@ -1079,7 +1079,7 @@
       },
       "dinosaur@playhouse" : {
          "damage" : "14",
-         "location" : "house26",
+         "location" : "house26@playhouse",
          "speed" : "0",
          "aggression" : "45",
          "armor" : "10",
@@ -1089,7 +1089,7 @@
       },
       "grandie@playhouse" : {
          "damage" : "8",
-         "location" : "house12",
+         "location" : "house12@playhouse",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -1099,7 +1099,7 @@
       },
       "robot@playhouse" : {
          "damage" : "14",
-         "location" : "house28",
+         "location" : "house28@playhouse",
          "speed" : "0",
          "aggression" : "45",
          "armor" : "10",
@@ -1109,7 +1109,7 @@
       },
       "teddy@playhouse" : {
          "damage" : "14",
-         "location" : "house27",
+         "location" : "house27@playhouse",
          "speed" : "0",
          "aggression" : "45",
          "armor" : "10",
@@ -1119,7 +1119,7 @@
       },
       "nanny@playhouse" : {
          "damage" : "12",
-         "location" : "house15",
+         "location" : "house15@playhouse",
          "armor" : "0",
          "name" : "Nanny",
          "description" : "The Nanny is here watching the babies.",
@@ -1132,7 +1132,7 @@
       },
       "peter@playhouse" : {
          "damage" : "5",
-         "location" : "house8",
+         "location" : "house8@playhouse",
          "speed" : "1",
          "aggression" : "15",
          "armor" : "0",
@@ -1142,7 +1142,7 @@
       },
       "darla@playhouse" : {
          "damage" : "4",
-         "location" : "house2",
+         "location" : "house2@playhouse",
          "armor" : "0",
          "name" : "Darla",
          "description" : "Darla is here waiting to chat.",
@@ -1155,7 +1155,7 @@
       },
       "bully@playhouse" : {
          "damage" : "8",
-         "location" : "yard2",
+         "location" : "yard2@playhouse",
          "speed" : "0",
          "aggression" : "40",
          "armor" : "0",
@@ -1165,7 +1165,7 @@
       },
       "buffy@playhouse" : {
          "damage" : "6",
-         "location" : "house9",
+         "location" : "house9@playhouse",
          "armor" : "0",
          "name" : "Buffy",
          "description" : "Buffy is here making out with Biff.",
@@ -1178,7 +1178,7 @@
       },
       "prissy@playhouse" : {
          "damage" : "5",
-         "location" : "house20",
+         "location" : "house20@playhouse",
          "armor" : "0",
          "name" : "Prissy",
          "description" : "Prissy is here acting like a little princess.",
@@ -1191,7 +1191,7 @@
       },
       "soldier@playhouse" : {
          "damage" : "14",
-         "location" : "house26",
+         "location" : "house26@playhouse",
          "speed" : "0",
          "aggression" : "45",
          "armor" : "10",
@@ -1201,7 +1201,7 @@
       },
       "coatrack@playhouse" : {
          "damage" : "14",
-         "location" : "house28",
+         "location" : "house28@playhouse",
          "armor" : "10",
          "name" : "Coatrack",
          "description" : "A Coat Rack is here, waiting to attack.",
@@ -1212,7 +1212,7 @@
       },
       "angelica@playhouse" : {
          "damage" : "5",
-         "location" : "house1",
+         "location" : "house1@playhouse",
          "armor" : "0",
          "name" : "Angelica",
          "description" : "Everyone's little Angelica is here.",
@@ -1225,7 +1225,7 @@
       },
       "patrick@playhouse" : {
          "damage" : "8",
-         "location" : "house11",
+         "location" : "house11@playhouse",
          "speed" : "0",
          "aggression" : "60",
          "armor" : "0",
@@ -1235,7 +1235,7 @@
       },
       "stretch@playhouse" : {
          "damage" : "14",
-         "location" : "house28",
+         "location" : "house28@playhouse",
          "armor" : "10",
          "name" : "Stretch",
          "description" : "Stretch Armstrong is here waiting to reach out and touch someone.",
@@ -1246,7 +1246,7 @@
       },
       "snotty@playhouse" : {
          "damage" : "5",
-         "location" : "house25",
+         "location" : "house25@playhouse",
          "armor" : "0",
          "name" : "Snotty",
          "description" : "Snotty is here, and his nose looks like it needs to be wiped.",
@@ -1262,7 +1262,7 @@
       },
       "cody@playhouse" : {
          "damage" : "5",
-         "location" : "house10",
+         "location" : "house10@playhouse",
          "speed" : "0",
          "aggression" : "20",
          "armor" : "0",
@@ -1272,7 +1272,7 @@
       },
       "sweetie@playhouse" : {
          "damage" : "8",
-         "location" : "house12",
+         "location" : "house12@playhouse",
          "armor" : "0",
          "name" : "Sweetie",
          "description" : "Sweetie is here, and she wants to grow up to be just like Sweetums.",
@@ -1285,7 +1285,7 @@
       },
       "nellie@playhouse" : {
          "damage" : "5",
-         "location" : "house17",
+         "location" : "house17@playhouse",
          "armor" : "0",
          "name" : "Nellie",
          "examine" : "I think she had an accident.",
@@ -1299,7 +1299,7 @@
       },
       "elephant@playhouse" : {
          "damage" : "14",
-         "location" : "house27",
+         "location" : "house27@playhouse",
          "speed" : "0",
          "aggression" : "45",
          "armor" : "10",
@@ -1309,7 +1309,7 @@
       },
       "jack@playhouse" : {
          "damage" : "14",
-         "location" : "house19",
+         "location" : "house19@playhouse",
          "speed" : "0",
          "aggression" : "45",
          "armor" : "0",
@@ -1319,7 +1319,7 @@
       },
       "maggie@playhouse" : {
          "damage" : "2",
-         "location" : "house22",
+         "location" : "house22@playhouse",
          "armor" : "0",
          "name" : "Maggie",
          "description" : "Maggie is here sucking on a shiny pacifier.",
@@ -1332,7 +1332,7 @@
       },
       "andrea@playhouse" : {
          "damage" : "5",
-         "location" : "house16",
+         "location" : "house16@playhouse",
          "armor" : "0",
          "name" : "Andrea",
          "description" : "Baby Andrea is here chewing on a teething ring.",
@@ -1345,7 +1345,7 @@
       },
       "brat@playhouse" : {
          "damage" : "8",
-         "location" : "yard3",
+         "location" : "yard3@playhouse",
          "speed" : "4",
          "aggression" : "40",
          "armor" : "0",
@@ -1355,7 +1355,7 @@
       },
       "tony@playhouse" : {
          "damage" : "5",
-         "location" : "house21",
+         "location" : "house21@playhouse",
          "speed" : "0",
          "aggression" : "20",
          "armor" : "0",

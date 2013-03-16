@@ -2,7 +2,7 @@
    "obj" : {
       "staff@oni" : {
          "damage" : "7",
-         "location" : "IN_ROOM:oni4",
+         "location" : "IN_ROOM:oni4@oni",
          "oflags" : [
             "Weapon"
          ],
@@ -19,7 +19,7 @@
       },
       "slot44n@oni" : {
          "desc[1]" : "There is a slot cut into the north edge of the pillar.",
-         "location" : "IN_ROOM:oni44",
+         "location" : "IN_ROOM:oni44@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -33,7 +33,7 @@
       },
       "slot43s@oni" : {
          "desc[1]" : "There is a slot cut into the south edge of the pillar.",
-         "location" : "IN_ROOM:oni43",
+         "location" : "IN_ROOM:oni43@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -47,7 +47,7 @@
       },
       "slot38e@oni" : {
          "desc[1]" : "There is a slot cut into the east edge of the pillar.",
-         "location" : "IN_ROOM:oni38",
+         "location" : "IN_ROOM:oni38@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -60,7 +60,7 @@
          "desc[0]" : "A plank inserted into a slot extends to the east."
       },
       "altar@oni" : {
-         "location" : "IN_ROOM:oni102",
+         "location" : "IN_ROOM:oni102@oni",
          "oflags" : [
             "NoGet"
          ],
@@ -72,7 +72,7 @@
       },
       "slot40s@oni" : {
          "desc[1]" : "There is a slot cut into the south edge of the pillar.",
-         "location" : "IN_ROOM:oni40",
+         "location" : "IN_ROOM:oni40@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -86,7 +86,7 @@
       },
       "slot49n@oni" : {
          "desc[1]" : "There is a slot cut into the north edge of the pillar.",
-         "location" : "IN_ROOM:oni49",
+         "location" : "IN_ROOM:oni49@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -101,7 +101,7 @@
       "sword2@oni" : {
          "desc[1]" : "A short sword with a gem in the hilt lies on the ground.",
          "damage" : "30",
-         "location" : "IN_ROOM:oni999",
+         "location" : "IN_ROOM:oni999@oni",
          "oflags" : [
             "Weapon",
             "UnLocatable"
@@ -119,7 +119,7 @@
          "desc[0]" : "A sword as tall as you with a gem in the hilt has been left here."
       },
       "warningsign@oni" : {
-         "location" : "IN_ROOM:oni2",
+         "location" : "IN_ROOM:oni2@oni",
          "oflags" : [
             "NoGet"
          ],
@@ -132,7 +132,7 @@
          "desc[0]" : "A sign is nailed on to one of the trees."
       },
       "plank3b@oni" : {
-         "location" : "IN_CONTAINER:slot41w",
+         "location" : "IN_CONTAINER:slot41w@oni",
          "oflags" : [
             "Unlocatable"
          ],
@@ -145,7 +145,7 @@
       },
       "slot48w@oni" : {
          "desc[1]" : "There is a slot cut into the west edge of the pillar.",
-         "location" : "IN_ROOM:oni48",
+         "location" : "IN_ROOM:oni48@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -159,7 +159,7 @@
       },
       "slot40w@oni" : {
          "desc[1]" : "There is a slot cut into the west edge of the pillar.",
-         "location" : "IN_ROOM:oni40",
+         "location" : "IN_ROOM:oni40@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -173,7 +173,7 @@
       },
       "slot45w@oni" : {
          "desc[1]" : "There is a slot cut into the west edge of the pillar.",
-         "location" : "IN_ROOM:oni45",
+         "location" : "IN_ROOM:oni45@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -187,7 +187,7 @@
       },
       "slot43n@oni" : {
          "desc[1]" : "There is a slot cut into the north edge of the pillar.",
-         "location" : "IN_ROOM:oni43",
+         "location" : "IN_ROOM:oni43@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -200,7 +200,7 @@
          "desc[0]" : "A plank inserted into a slot extends to the north."
       },
       "treasure@oni" : {
-         "location" : "IN_ROOM:oni100",
+         "location" : "IN_ROOM:oni100@oni",
          "oflags" : "{ }",
          "name" : "treasure",
          "examine" : "A pile of treasure, what more needs to be said.",
@@ -214,7 +214,7 @@
       },
       "slot53w@oni" : {
          "desc[1]" : "There is a slot cut into the west edge of the room.",
-         "location" : "IN_ROOM:oni53",
+         "location" : "IN_ROOM:oni53@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -228,7 +228,7 @@
       },
       "slot50w@oni" : {
          "desc[1]" : "There is a slot cut into the west edge of the pillar.",
-         "location" : "IN_ROOM:oni50",
+         "location" : "IN_ROOM:oni50@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -241,7 +241,7 @@
          "desc[0]" : "A plank inserted into a slot extends to the west."
       },
       "bulletin@oni" : {
-         "location" : "IN_ROOM:oni63",
+         "location" : "IN_ROOM:oni63@oni",
          "oflags" : [
             "NoGet"
          ],
@@ -254,7 +254,7 @@
       },
       "slot37e@oni" : {
          "desc[1]" : "There is a slot cut into the east edge of the room.",
-         "location" : "IN_ROOM:oni37",
+         "location" : "IN_ROOM:oni37@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -268,7 +268,7 @@
       },
       "slot49e@oni" : {
          "desc[1]" : "There is a slot cut into the east edge of the pillar.",
-         "location" : "IN_ROOM:oni49",
+         "location" : "IN_ROOM:oni49@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -281,7 +281,7 @@
          "desc[0]" : "A plank inserted into a slot extends to the east."
       },
       "resetwand@oni" : {
-         "location" : "IN_ROOM:oni37",
+         "location" : "IN_ROOM:oni37@oni",
          "pname" : "wand",
          "name" : "resetwand",
          "examine" : "Wave me if you become stuck or wish to start over.",
@@ -289,7 +289,7 @@
       },
       "slot41e@oni" : {
          "desc[1]" : "There is a slot cut into the east edge of the pillar.",
-         "location" : "IN_ROOM:oni41",
+         "location" : "IN_ROOM:oni41@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -303,7 +303,7 @@
       },
       "slot41w@oni" : {
          "desc[1]" : "There is a slot cut into the west edge of the pillar.",
-         "location" : "IN_ROOM:oni41",
+         "location" : "IN_ROOM:oni41@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -316,7 +316,7 @@
          "desc[0]" : "A plank inserted into a slot extends to the west."
       },
       "plank5a@oni" : {
-         "location" : "IN_CONTAINER:slot42s",
+         "location" : "IN_CONTAINER:slot42s@oni",
          "oflags" : [
             "Unlocatable"
          ],
@@ -329,7 +329,7 @@
       },
       "pdoore3_out@oni" : {
          "desc[1]" : "The prison door prevents you from exiting.",
-         "location" : "IN_ROOM:oni93",
+         "location" : "IN_ROOM:oni93@oni",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -346,7 +346,7 @@
       },
       "slot46w@oni" : {
          "desc[1]" : "There is a slot cut into the west edge of the pillar.",
-         "location" : "IN_ROOM:oni46",
+         "location" : "IN_ROOM:oni46@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -360,7 +360,7 @@
       },
       "pdoorw1_in@oni" : {
          "desc[1]" : "A prison door bars you from the west.",
-         "location" : "IN_ROOM:oni86",
+         "location" : "IN_ROOM:oni86@oni",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -377,7 +377,7 @@
       },
       "pdoorw2_out@oni" : {
          "desc[1]" : "The prison door prevents you from exiting.",
-         "location" : "IN_ROOM:oni91",
+         "location" : "IN_ROOM:oni91@oni",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -394,7 +394,7 @@
       },
       "slot46s@oni" : {
          "desc[1]" : "There is a slot cut into the south edge of the pillar.",
-         "location" : "IN_ROOM:oni46",
+         "location" : "IN_ROOM:oni46@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -408,7 +408,7 @@
       },
       "slot47n@oni" : {
          "desc[1]" : "There is a slot cut into the north edge of the pillar.",
-         "location" : "IN_ROOM:oni47",
+         "location" : "IN_ROOM:oni47@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -421,7 +421,7 @@
          "desc[0]" : "A plank inserted into a slot extends to the north."
       },
       "plank1b@oni" : {
-         "location" : "IN_CONTAINER:slot50w",
+         "location" : "IN_CONTAINER:slot50w@oni",
          "oflags" : [
             "Unlocatable"
          ],
@@ -433,7 +433,7 @@
          "desc[0]" : "There is a small plank here."
       },
       "notice@oni" : {
-         "location" : "IN_ROOM:oni92",
+         "location" : "IN_ROOM:oni92@oni",
          "oflags" : [
             "NoGet"
          ],
@@ -446,7 +446,7 @@
       },
       "slot51e@oni" : {
          "desc[1]" : "There is a slot cut into the east edge of the pillar.",
-         "location" : "IN_ROOM:oni51",
+         "location" : "IN_ROOM:oni51@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -460,7 +460,7 @@
       },
       "slot47e@oni" : {
          "desc[1]" : "There is a slot cut into the east edge of the pillar.",
-         "location" : "IN_ROOM:oni47",
+         "location" : "IN_ROOM:oni47@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -474,7 +474,7 @@
       },
       "pdoore1_in@oni" : {
          "desc[1]" : "A prison door bars you from the east.",
-         "location" : "IN_ROOM:oni86",
+         "location" : "IN_ROOM:oni86@oni",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -490,7 +490,7 @@
          "desc[0]" : "The prison door to the east has been open."
       },
       "plank1a@oni" : {
-         "location" : "IN_CONTAINER:slot49e",
+         "location" : "IN_CONTAINER:slot49e@oni",
          "oflags" : [
             "Unlocatable"
          ],
@@ -504,7 +504,7 @@
       "sword1@oni" : {
          "desc[1]" : "A sword as tall as you floats above the water.",
          "damage" : "30",
-         "location" : "IN_ROOM:oni59",
+         "location" : "IN_ROOM:oni59@oni",
          "oflags" : [
             "Weapon",
             "UnLocatable",
@@ -528,7 +528,7 @@
       },
       "slot39e@oni" : {
          "desc[1]" : "There is a slot cut into the east edge of the pillar.",
-         "location" : "IN_ROOM:oni39",
+         "location" : "IN_ROOM:oni39@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -542,7 +542,7 @@
       },
       "slot45e@oni" : {
          "desc[1]" : "There is a slot cut into the east edge of the pillar.",
-         "location" : "IN_ROOM:oni45",
+         "location" : "IN_ROOM:oni45@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -556,7 +556,7 @@
       },
       "door1_in@oni" : {
          "desc[1]" : "Two large metal temple doors bar you from continuing.",
-         "location" : "IN_ROOM:oni25",
+         "location" : "IN_ROOM:oni25@oni",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -572,7 +572,7 @@
       },
       "pdoore2_in@oni" : {
          "desc[1]" : "A prison door bars you from the east.",
-         "location" : "IN_ROOM:oni89",
+         "location" : "IN_ROOM:oni89@oni",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -588,7 +588,7 @@
          "desc[0]" : "The prison door to the east has been open."
       },
       "note@oni" : {
-         "location" : "IN_ROOM:oni37",
+         "location" : "IN_ROOM:oni37@oni",
          "oflags" : "{ }",
          "altname" : "paper",
          "name" : "note",
@@ -599,7 +599,7 @@
          "desc[0]" : "A note sits precariously at the edge of the room."
       },
       "poem@oni" : {
-         "location" : "IN_ROOM:oni999",
+         "location" : "IN_ROOM:oni999@oni",
          "oflags" : "{ }",
          "name" : "poem",
          "examine" : "\nSent into the fire\nAcross the fire\nYearning the fire\n\nArtificial in nature\nTested for nature\n\nAway from the light\nLoved by the light\nTormented by the light\nAffected by the light\nRendered by the light\n\n'oninoken'\n",
@@ -610,7 +610,7 @@
       },
       "pdoorw1_out@oni" : {
          "desc[1]" : "The prison door prevents you from exiting.",
-         "location" : "IN_ROOM:oni88",
+         "location" : "IN_ROOM:oni88@oni",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -627,7 +627,7 @@
       },
       "pdoore2_out@oni" : {
          "desc[1]" : "The prison door prevents you from exiting.",
-         "location" : "IN_ROOM:oni90",
+         "location" : "IN_ROOM:oni90@oni",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -643,7 +643,7 @@
          "desc[0]" : "The prison door has been open."
       },
       "free@oni" : {
-         "location" : "IN_ROOM:oni66",
+         "location" : "IN_ROOM:oni66@oni",
          "oflags" : [
             "NoGet"
          ],
@@ -654,7 +654,7 @@
       },
       "pdoorw3_in@oni" : {
          "desc[1]" : "A prison door bars you from the west.",
-         "location" : "IN_ROOM:oni92",
+         "location" : "IN_ROOM:oni92@oni",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -671,7 +671,7 @@
       },
       "medallion@oni" : {
          "desc[1]" : "\nA gold medallion is caught on one of the rocks, you might be able to\nreach for it as you pass by.",
-         "location" : "IN_ROOM:oni8",
+         "location" : "IN_ROOM:oni8@oni",
          "oflags" : [
             "Wearable",
             "GetFlips"
@@ -691,7 +691,7 @@
          ]
       },
       "statue2@oni" : {
-         "location" : "IN_ROOM:oni56",
+         "location" : "IN_ROOM:oni56@oni",
          "oflags" : [
             "NoGet"
          ],
@@ -704,7 +704,7 @@
       },
       "slot41n@oni" : {
          "desc[1]" : "There is a slot cut into the north edge of the pillar.",
-         "location" : "IN_ROOM:oni41",
+         "location" : "IN_ROOM:oni41@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -717,7 +717,7 @@
          "desc[0]" : "A plank inserted into a slot extends to the north."
       },
       "plank5b@oni" : {
-         "location" : "IN_CONTAINER:slot51n",
+         "location" : "IN_CONTAINER:slot51n@oni",
          "oflags" : [
             "Unlocatable"
          ],
@@ -729,7 +729,7 @@
          "desc[0]" : "There is a large plank here."
       },
       "notes@oni" : {
-         "location" : "IN_ROOM:oni999",
+         "location" : "IN_ROOM:oni999@oni",
          "oflags" : [
             "GetFlips"
          ],
@@ -746,7 +746,7 @@
       },
       "slot39w@oni" : {
          "desc[1]" : "There is a slot cut into the west edge of the pillar.",
-         "location" : "IN_ROOM:oni39",
+         "location" : "IN_ROOM:oni39@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -760,7 +760,7 @@
       },
       "slot50e@oni" : {
          "desc[1]" : "There is a slot cut into the east edge of the pillar.",
-         "location" : "IN_ROOM:oni50",
+         "location" : "IN_ROOM:oni50@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -773,7 +773,7 @@
          "desc[0]" : "A plank inserted into a slot extends to the east."
       },
       "statue1@oni" : {
-         "location" : "IN_ROOM:oni55",
+         "location" : "IN_ROOM:oni55@oni",
          "oflags" : [
             "NoGet"
          ],
@@ -786,7 +786,7 @@
       },
       "slot48e@oni" : {
          "desc[1]" : "There is a slot cut into the east edge of the pillar.",
-         "location" : "IN_ROOM:oni48",
+         "location" : "IN_ROOM:oni48@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -800,7 +800,7 @@
       },
       "slot38s@oni" : {
          "desc[1]" : "There is a slot cut into the south edge of the pillar.",
-         "location" : "IN_ROOM:oni38",
+         "location" : "IN_ROOM:oni38@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -815,7 +815,7 @@
       "armor@oni" : {
          "desc[1]" : "A full plate of armor as dark as night floats above the water.",
          "damage" : "0",
-         "location" : "IN_ROOM:oni59",
+         "location" : "IN_ROOM:oni59@oni",
          "oflags" : [
             "Armor",
             "Wearable",
@@ -849,7 +849,7 @@
       },
       "pdoorw3_out@oni" : {
          "desc[1]" : "The prison door prevents you from exiting.",
-         "location" : "IN_ROOM:oni94",
+         "location" : "IN_ROOM:oni94@oni",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -866,7 +866,7 @@
       },
       "prisonkey@oni" : {
          "desc[1]" : "The demon prison key hangs on the wall.",
-         "location" : "IN_ROOM:oni200",
+         "location" : "IN_ROOM:oni200@oni",
          "oflags" : [
             "Getflips",
             "Key"
@@ -879,7 +879,7 @@
          "desc[0]" : "Someone has carelessly left the demon prison key here."
       },
       "forestsign@oni" : {
-         "location" : "IN_ROOM:oni13",
+         "location" : "IN_ROOM:oni13@oni",
          "oflags" : [
             "NoGet"
          ],
@@ -892,7 +892,7 @@
       },
       "door1_out@oni" : {
          "desc[1]" : "Two large metal temple doors bar you from continuing.",
-         "location" : "IN_ROOM:oni26",
+         "location" : "IN_ROOM:oni26@oni",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -908,7 +908,7 @@
       },
       "slot43w@oni" : {
          "desc[1]" : "There is a slot cut into the west edge of the pillar.",
-         "location" : "IN_ROOM:oni43",
+         "location" : "IN_ROOM:oni43@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -922,7 +922,7 @@
       },
       "gem@oni" : {
          "desc[1]" : "A small gem lies upon the altar.",
-         "location" : "IN_ROOM:oni999",
+         "location" : "IN_ROOM:oni999@oni",
          "oflags" : [
             "GetFlips"
          ],
@@ -938,7 +938,7 @@
       },
       "slot47s@oni" : {
          "desc[1]" : "There is a slot cut into the south edge of the pillar.",
-         "location" : "IN_ROOM:oni47",
+         "location" : "IN_ROOM:oni47@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -951,7 +951,7 @@
          "desc[0]" : "A plank inserted into a slot extends to the south."
       },
       "plank3a@oni" : {
-         "location" : "IN_CONTAINER:slot37e",
+         "location" : "IN_CONTAINER:slot37e@oni",
          "oflags" : [
             "Unlocatable"
          ],
@@ -964,7 +964,7 @@
       },
       "slot50n@oni" : {
          "desc[1]" : "There is a slot cut into the north edge of the pillar.",
-         "location" : "IN_ROOM:oni50",
+         "location" : "IN_ROOM:oni50@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -978,7 +978,7 @@
       },
       "slot51w@oni" : {
          "desc[1]" : "There is a slot cut into the west edge of the pillar.",
-         "location" : "IN_ROOM:oni51",
+         "location" : "IN_ROOM:oni51@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -992,7 +992,7 @@
       },
       "slot45s@oni" : {
          "desc[1]" : "There is a slot cut into the south edge of the pillar.",
-         "location" : "IN_ROOM:oni45",
+         "location" : "IN_ROOM:oni45@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -1006,7 +1006,7 @@
       },
       "slot52n@oni" : {
          "desc[1]" : "There is a slot cut into the north edge of the pillar.",
-         "location" : "IN_ROOM:oni52",
+         "location" : "IN_ROOM:oni52@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -1020,7 +1020,7 @@
       },
       "pdoore3_in@oni" : {
          "desc[1]" : "A prison door bars you from the east.",
-         "location" : "IN_ROOM:oni92",
+         "location" : "IN_ROOM:oni92@oni",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -1037,7 +1037,7 @@
       },
       "slot42w@oni" : {
          "desc[1]" : "There is a slot cut into the west edge of the pillar.",
-         "location" : "IN_ROOM:oni42",
+         "location" : "IN_ROOM:oni42@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -1050,7 +1050,7 @@
          "desc[0]" : "A plank inserted into a slot extends to the west."
       },
       "shelves@oni" : {
-         "location" : "IN_ROOM:oni65",
+         "location" : "IN_ROOM:oni65@oni",
          "armor" : "15",
          "oflags" : [
             "NoGet"
@@ -1062,7 +1062,7 @@
       },
       "slot44e@oni" : {
          "desc[1]" : "There is a slot cut into the east edge of the pillar.",
-         "location" : "IN_ROOM:oni44",
+         "location" : "IN_ROOM:oni44@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -1076,7 +1076,7 @@
       },
       "slot46n@oni" : {
          "desc[1]" : "There is a slot cut into the north edge of the pillar.",
-         "location" : "IN_ROOM:oni46",
+         "location" : "IN_ROOM:oni46@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -1090,7 +1090,7 @@
       },
       "slot48n@oni" : {
          "desc[1]" : "There is a slot cut into the north edge of the pillar.",
-         "location" : "IN_ROOM:oni48",
+         "location" : "IN_ROOM:oni48@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -1104,7 +1104,7 @@
       },
       "slot51n@oni" : {
          "desc[1]" : "There is a slot cut into the north edge of the pillar.",
-         "location" : "IN_ROOM:oni51",
+         "location" : "IN_ROOM:oni51@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -1118,7 +1118,7 @@
       },
       "slot41s@oni" : {
          "desc[1]" : "There is a slot cut into the south edge of the pillar.",
-         "location" : "IN_ROOM:oni41",
+         "location" : "IN_ROOM:oni41@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -1132,7 +1132,7 @@
       },
       "slot52w@oni" : {
          "desc[1]" : "There is a slot cut into the west edge of the pillar.",
-         "location" : "IN_ROOM:oni52",
+         "location" : "IN_ROOM:oni52@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -1146,7 +1146,7 @@
       },
       "slot44s@oni" : {
          "desc[1]" : "There is a slot cut into the south edge of the pillar.",
-         "location" : "IN_ROOM:oni44",
+         "location" : "IN_ROOM:oni44@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -1160,7 +1160,7 @@
       },
       "slot42e@oni" : {
          "desc[1]" : "There is a slot cut into the east edge of the pillar.",
-         "location" : "IN_ROOM:oni42",
+         "location" : "IN_ROOM:oni42@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -1173,7 +1173,7 @@
          "desc[0]" : "A plank inserted into a slot extends to the east."
       },
       "tome@oni" : {
-         "location" : "IN_ROOM:oni66",
+         "location" : "IN_ROOM:oni66@oni",
          "oflags" : [
             "NoGet"
          ],
@@ -1184,7 +1184,7 @@
       },
       "pdoore1_out@oni" : {
          "desc[1]" : "The prison door prevents you from exiting.",
-         "location" : "IN_ROOM:oni87",
+         "location" : "IN_ROOM:oni87@oni",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -1201,7 +1201,7 @@
       },
       "slot39s@oni" : {
          "desc[1]" : "There is a slot cut into the south edge of the pillar.",
-         "location" : "IN_ROOM:oni39",
+         "location" : "IN_ROOM:oni39@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -1215,7 +1215,7 @@
       },
       "pdoorw2_in@oni" : {
          "desc[1]" : "A prison door bars you from the west.",
-         "location" : "IN_ROOM:oni89",
+         "location" : "IN_ROOM:oni89@oni",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -1232,7 +1232,7 @@
       },
       "slot42s@oni" : {
          "desc[1]" : "There is a slot cut into the south edge of the pillar.",
-         "location" : "IN_ROOM:oni42",
+         "location" : "IN_ROOM:oni42@oni",
          "oflags" : [
             "NoGet",
             "Container"
@@ -1246,7 +1246,7 @@
       },
       "bushes@oni" : {
          "desc[1]" : "\nA group of large bushes blocks your path, but you can make out a small \nbuilding to the north over the top.",
-         "location" : "IN_ROOM:oni5",
+         "location" : "IN_ROOM:oni5@oni",
          "oflags" : [
             "NoGet"
          ],
@@ -1273,7 +1273,7 @@
       },
       "oni4@oni" : {
          "exits" : {
-            "w" : "oni3"
+            "w" : "oni3@oni"
          },
          "flags" : [
             "Outdoors"
@@ -1286,7 +1286,7 @@
       },
       "oni200@oni" : {
          "exits" : {
-            "w" : "oni82"
+            "w" : "oni82@oni"
          },
          "flags" : [
             "CantSummon",
@@ -1300,8 +1300,8 @@
       },
       "oni77@oni" : {
          "exits" : {
-            "w" : "oni76",
-            "e" : "oni78"
+            "w" : "oni76@oni",
+            "e" : "oni78@oni"
          },
          "flags" : [
             "CantSummon"
@@ -1314,7 +1314,7 @@
       },
       "oni91@oni" : {
          "exits" : {
-            "e" : "^pdoorw2_out"
+            "e" : "^pdoorw2_out@oni"
          },
          "flags" : [
             "CantSummon"
@@ -1327,9 +1327,9 @@
       },
       "oni95@oni" : {
          "exits" : {
-            "w" : "oni97",
-            "e" : "oni96",
-            "n" : "oni99"
+            "w" : "oni97@oni",
+            "e" : "oni96@oni",
+            "n" : "oni99@oni"
          },
          "flags" : [
             "CantSummon"
@@ -1342,8 +1342,8 @@
       },
       "oni84@oni" : {
          "exits" : {
-            "n" : "oni83",
-            "s" : "oni68"
+            "n" : "oni83@oni",
+            "s" : "oni68@oni"
          },
          "flags" : [
             "Outdoors",
@@ -1369,8 +1369,8 @@
       },
       "oni5@oni" : {
          "exits" : {
-            "n" : "oni6",
-            "s" : "oni3"
+            "n" : "oni6@oni",
+            "s" : "oni3@oni"
          },
          "flags" : [
             "Outdoors"
@@ -1383,7 +1383,7 @@
       },
       "oni49@oni" : {
          "exits" : {
-            "e" : "oni50"
+            "e" : "oni50@oni"
          },
          "flags" : [
             "CantSummon"
@@ -1396,7 +1396,7 @@
       },
       "oni85@oni" : {
          "exits" : {
-            "n" : "oni69"
+            "n" : "oni69@oni"
          },
          "flags" : [
             "Outdoors",
@@ -1411,7 +1411,7 @@
       },
       "oni6@oni" : {
          "exits" : {
-            "d" : "oni8"
+            "d" : "oni8@oni"
          },
          "flags" : [
             "Outdoors",
@@ -1425,7 +1425,7 @@
       },
       "oni50@oni" : {
          "exits" : {
-            "w" : "oni49"
+            "w" : "oni49@oni"
          },
          "flags" : [
             "CantSummon"
@@ -1449,8 +1449,8 @@
       },
       "oni83@oni" : {
          "exits" : {
-            "n" : "oni82",
-            "s" : "oni84"
+            "n" : "oni82@oni",
+            "s" : "oni84@oni"
          },
          "flags" : [
             "Outdoors",
@@ -1464,7 +1464,7 @@
       },
       "oni60@oni" : {
          "exits" : {
-            "w" : "oni61"
+            "w" : "oni61@oni"
          },
          "flags" : [
             "CantSummon"
@@ -1477,8 +1477,8 @@
       },
       "oni29@oni" : {
          "exits" : {
-            "w" : "oni28",
-            "n" : "oni32"
+            "w" : "oni28@oni",
+            "n" : "oni32@oni"
          },
          "flags" : [],
          "zone" : "oni",
@@ -1489,7 +1489,7 @@
       },
       "oni93@oni" : {
          "exits" : {
-            "w" : "^pdoore3_out"
+            "w" : "^pdoore3_out@oni"
          },
          "flags" : [
             "CantSummon"
@@ -1502,7 +1502,7 @@
       },
       "oni9@oni" : {
          "exits" : {
-            "e" : "oni10"
+            "e" : "oni10@oni"
          },
          "flags" : [
             "Outdoors"
@@ -1515,8 +1515,8 @@
       },
       "oni97@oni" : {
          "exits" : {
-            "e" : "oni95",
-            "n" : "oni100"
+            "e" : "oni95@oni",
+            "n" : "oni100@oni"
          },
          "flags" : [
             "CantSummon"
@@ -1529,8 +1529,8 @@
       },
       "oni68@oni" : {
          "exits" : {
-            "n" : "oni84",
-            "s" : "oni67"
+            "n" : "oni84@oni",
+            "s" : "oni67@oni"
          },
          "flags" : [
             "Outdoors",
@@ -1553,9 +1553,9 @@
       },
       "oni74@oni" : {
          "exits" : {
-            "e" : "oni73",
-            "u" : "oni75",
-            "d" : "oni76"
+            "e" : "oni73@oni",
+            "u" : "oni75@oni",
+            "d" : "oni76@oni"
          },
          "flags" : [
             "CantSummon"
@@ -1568,10 +1568,10 @@
       },
       "oni64@oni" : {
          "exits" : {
-            "w" : "oni67",
-            "e" : "oni63",
-            "n" : "oni65",
-            "s" : "oni66"
+            "w" : "oni67@oni",
+            "e" : "oni63@oni",
+            "n" : "oni65@oni",
+            "s" : "oni66@oni"
          },
          "flags" : [
             "Outdoors",
@@ -1585,8 +1585,8 @@
       },
       "oni36@oni" : {
          "exits" : {
-            "e" : "oni54",
-            "s" : "oni34"
+            "e" : "oni54@oni",
+            "s" : "oni34@oni"
          },
          "flags" : [
             "NoMobiles"
@@ -1621,7 +1621,7 @@
       },
       "oni75@oni" : {
          "exits" : {
-            "d" : "oni74"
+            "d" : "oni74@oni"
          },
          "flags" : [
             "CantSummon"
@@ -1634,9 +1634,9 @@
       },
       "oni99@oni" : {
          "exits" : {
-            "w" : "oni100",
-            "e" : "oni98",
-            "s" : "oni95"
+            "w" : "oni100@oni",
+            "e" : "oni98@oni",
+            "s" : "oni95@oni"
          },
          "flags" : [
             "CantSummon"
@@ -1649,8 +1649,8 @@
       },
       "oni69@oni" : {
          "exits" : {
-            "n" : "oni67",
-            "s" : "oni85"
+            "n" : "oni67@oni",
+            "s" : "oni85@oni"
          },
          "flags" : [
             "Outdoors",
@@ -1664,10 +1664,10 @@
       },
       "oni28@oni" : {
          "exits" : {
-            "w" : "oni27",
-            "e" : "oni29",
-            "n" : "oni31",
-            "s" : "oni26"
+            "w" : "oni27@oni",
+            "e" : "oni29@oni",
+            "n" : "oni31@oni",
+            "s" : "oni26@oni"
          },
          "flags" : [],
          "zone" : "oni",
@@ -1678,8 +1678,8 @@
       },
       "oni101@oni" : {
          "exits" : {
-            "u" : "oni201",
-            "s" : "oni102"
+            "u" : "oni201@oni",
+            "s" : "oni102@oni"
          },
          "flags" : [
             "CantSummon",
@@ -1693,8 +1693,8 @@
       },
       "oni27@oni" : {
          "exits" : {
-            "e" : "oni28",
-            "n" : "oni30"
+            "e" : "oni28@oni",
+            "n" : "oni30@oni"
          },
          "flags" : [],
          "zone" : "oni",
@@ -1705,7 +1705,7 @@
       },
       "oni1@oni" : {
          "exits" : {
-            "n" : "oni2",
+            "n" : "oni2@oni",
             "s" : "sundforest6078@haondor"
          },
          "flags" : [
@@ -1720,10 +1720,10 @@
       },
       "oni16@oni" : {
          "exits" : {
-            "e" : "oni16",
-            "w" : "oni17",
-            "n" : "oni14",
-            "s" : "oni14"
+            "e" : "oni16@oni",
+            "w" : "oni17@oni",
+            "n" : "oni14@oni",
+            "s" : "oni14@oni"
          },
          "flags" : [
             "Outdoors",
@@ -1737,8 +1737,8 @@
       },
       "oni73@oni" : {
          "exits" : {
-            "w" : "oni74",
-            "e" : "oni72"
+            "w" : "oni74@oni",
+            "e" : "oni72@oni"
          },
          "flags" : [
             "Outdoors",
@@ -1752,9 +1752,9 @@
       },
       "oni70@oni" : {
          "exits" : {
-            "w" : "oni72",
-            "e" : "oni67",
-            "s" : "oni71"
+            "w" : "oni72@oni",
+            "e" : "oni67@oni",
+            "s" : "oni71@oni"
          },
          "flags" : [
             "Outdoors",
@@ -1768,8 +1768,8 @@
       },
       "oni98@oni" : {
          "exits" : {
-            "w" : "oni99",
-            "s" : "oni96"
+            "w" : "oni99@oni",
+            "s" : "oni96@oni"
          },
          "flags" : [
             "CantSummon"
@@ -1795,8 +1795,8 @@
       },
       "oni33@oni" : {
          "exits" : {
-            "e" : "oni34",
-            "s" : "oni30"
+            "e" : "oni34@oni",
+            "s" : "oni30@oni"
          },
          "flags" : [],
          "zone" : "oni",
@@ -1807,10 +1807,10 @@
       },
       "oni15@oni" : {
          "exits" : {
-            "w" : "oni14",
-            "e" : "oni15",
-            "n" : "oni16",
-            "s" : "oni14"
+            "w" : "oni14@oni",
+            "e" : "oni15@oni",
+            "n" : "oni16@oni",
+            "s" : "oni14@oni"
          },
          "flags" : [
             "Outdoors",
@@ -1824,10 +1824,10 @@
       },
       "oni23@oni" : {
          "exits" : {
-            "w" : "oni14",
-            "e" : "oni14",
-            "n" : "oni24",
-            "s" : "oni23"
+            "w" : "oni14@oni",
+            "e" : "oni14@oni",
+            "n" : "oni24@oni",
+            "s" : "oni23@oni"
          },
          "flags" : [
             "Outdoors",
@@ -1841,7 +1841,7 @@
       },
       "oni42@oni" : {
          "exits" : {
-            "s" : "oni51"
+            "s" : "oni51@oni"
          },
          "flags" : [
             "CantSummon"
@@ -1854,10 +1854,10 @@
       },
       "oni14@oni" : {
          "exits" : {
-            "w" : "oni14",
-            "e" : "oni15",
-            "n" : "oni14",
-            "s" : "oni13"
+            "w" : "oni14@oni",
+            "e" : "oni15@oni",
+            "n" : "oni14@oni",
+            "s" : "oni13@oni"
          },
          "flags" : [
             "Outdoors",
@@ -1886,8 +1886,8 @@
       },
       "oni58@oni" : {
          "exits" : {
-            "w" : "oni56",
-            "n" : "oni59"
+            "w" : "oni56@oni",
+            "n" : "oni59@oni"
          },
          "flags" : [],
          "zone" : "oni",
@@ -1898,8 +1898,8 @@
       },
       "oni201@oni" : {
          "exits" : {
-            "n" : "oni85",
-            "d" : "oni101"
+            "n" : "oni85@oni",
+            "d" : "oni101@oni"
          },
          "flags" : [
             "CantSummon",
@@ -1913,7 +1913,7 @@
       },
       "oni65@oni" : {
          "exits" : {
-            "s" : "oni64"
+            "s" : "oni64@oni"
          },
          "flags" : [
             "CantSummon"
@@ -1926,8 +1926,8 @@
       },
       "oni2@oni" : {
          "exits" : {
-            "n" : "oni3",
-            "s" : "oni1"
+            "n" : "oni3@oni",
+            "s" : "oni1@oni"
          },
          "flags" : [
             "Outdoors"
@@ -1940,8 +1940,8 @@
       },
       "oni76@oni" : {
          "exits" : {
-            "e" : "oni77",
-            "u" : "oni74"
+            "e" : "oni77@oni",
+            "u" : "oni74@oni"
          },
          "flags" : [
             "CantSummon"
@@ -1954,10 +1954,10 @@
       },
       "oni19@oni" : {
          "exits" : {
-            "w" : "oni14",
-            "e" : "oni14",
-            "n" : "oni14",
-            "s" : "oni20"
+            "w" : "oni14@oni",
+            "e" : "oni14@oni",
+            "n" : "oni14@oni",
+            "s" : "oni20@oni"
          },
          "flags" : [
             "Outdoors",
@@ -1971,8 +1971,8 @@
       },
       "oni63@oni" : {
          "exits" : {
-            "w" : "oni64",
-            "e" : "oni62"
+            "w" : "oni64@oni",
+            "e" : "oni62@oni"
          },
          "flags" : [
             "Outdoors",
@@ -1987,9 +1987,9 @@
       },
       "oni3@oni" : {
          "exits" : {
-            "e" : "oni4",
-            "n" : "oni5",
-            "s" : "oni2"
+            "e" : "oni4@oni",
+            "n" : "oni5@oni",
+            "s" : "oni2@oni"
          },
          "flags" : [
             "Outdoors"
@@ -2002,7 +2002,7 @@
       },
       "oni90@oni" : {
          "exits" : {
-            "w" : "^pdoore2_out"
+            "w" : "^pdoore2_out@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2015,8 +2015,8 @@
       },
       "oni11@oni" : {
          "exits" : {
-            "w" : "oni10",
-            "e" : "oni12"
+            "w" : "oni10@oni",
+            "e" : "oni12@oni"
          },
          "flags" : [
             "Outdoors"
@@ -2029,8 +2029,8 @@
       },
       "oni79@oni" : {
          "exits" : {
-            "n" : "oni81",
-            "s" : "oni78"
+            "n" : "oni81@oni",
+            "s" : "oni78@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2043,10 +2043,10 @@
       },
       "oni20@oni" : {
          "exits" : {
-            "w" : "oni14",
-            "e" : "oni14",
-            "n" : "oni14",
-            "s" : "oni21"
+            "w" : "oni14@oni",
+            "e" : "oni14@oni",
+            "n" : "oni14@oni",
+            "s" : "oni21@oni"
          },
          "flags" : [
             "Outdoors",
@@ -2060,10 +2060,10 @@
       },
       "oni34@oni" : {
          "exits" : {
-            "w" : "oni33",
-            "e" : "oni35",
-            "n" : "oni36",
-            "s" : "oni31"
+            "w" : "oni33@oni",
+            "e" : "oni35@oni",
+            "n" : "oni36@oni",
+            "s" : "oni31@oni"
          },
          "flags" : [],
          "zone" : "oni",
@@ -2074,7 +2074,7 @@
       },
       "oni51@oni" : {
          "exits" : {
-            "n" : "oni42"
+            "n" : "oni42@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2087,9 +2087,9 @@
       },
       "oni32@oni" : {
          "exits" : {
-            "w" : "oni31",
-            "n" : "oni35",
-            "s" : "oni29"
+            "w" : "oni31@oni",
+            "n" : "oni35@oni",
+            "s" : "oni29@oni"
          },
          "flags" : [],
          "zone" : "oni",
@@ -2100,7 +2100,7 @@
       },
       "oni102@oni" : {
          "exits" : {
-            "n" : "oni101"
+            "n" : "oni101@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2113,8 +2113,8 @@
       },
       "oni72@oni" : {
          "exits" : {
-            "w" : "oni73",
-            "e" : "oni70"
+            "w" : "oni73@oni",
+            "e" : "oni70@oni"
          },
          "flags" : [
             "Outdoors",
@@ -2139,10 +2139,10 @@
       },
       "oni86@oni" : {
          "exits" : {
-            "w" : "^pdoorw1_in",
-            "e" : "^pdoore1_in",
-            "u" : "oni53",
-            "n" : "oni89"
+            "w" : "^pdoorw1_in@oni",
+            "e" : "^pdoore1_in@oni",
+            "u" : "oni53@oni",
+            "n" : "oni89@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2155,8 +2155,8 @@
       },
       "oni61@oni" : {
          "exits" : {
-            "w" : "oni62",
-            "e" : "oni60"
+            "w" : "oni62@oni",
+            "e" : "oni60@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2169,8 +2169,8 @@
       },
       "oni56@oni" : {
          "exits" : {
-            "e" : "oni58",
-            "n" : "oni54"
+            "e" : "oni58@oni",
+            "n" : "oni54@oni"
          },
          "flags" : [],
          "zone" : "oni",
@@ -2181,10 +2181,10 @@
       },
       "oni21@oni" : {
          "exits" : {
-            "w" : "oni21",
-            "e" : "oni22",
-            "n" : "oni14",
-            "s" : "oni14"
+            "w" : "oni21@oni",
+            "e" : "oni22@oni",
+            "n" : "oni14@oni",
+            "s" : "oni14@oni"
          },
          "flags" : [
             "Outdoors",
@@ -2198,10 +2198,10 @@
       },
       "oni18@oni" : {
          "exits" : {
-            "w" : "oni14",
-            "e" : "oni19",
-            "n" : "oni14",
-            "s" : "oni14"
+            "w" : "oni14@oni",
+            "e" : "oni19@oni",
+            "n" : "oni14@oni",
+            "s" : "oni14@oni"
          },
          "flags" : [
             "Outdoors",
@@ -2215,7 +2215,7 @@
       },
       "oni71@oni" : {
          "exits" : {
-            "n" : "oni70"
+            "n" : "oni70@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2228,7 +2228,7 @@
       },
       "oni94@oni" : {
          "exits" : {
-            "e" : "^pdoorw3_out"
+            "e" : "^pdoorw3_out@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2241,8 +2241,8 @@
       },
       "oni37@oni" : {
          "exits" : {
-            "e" : "oni41",
-            "s" : "oni81"
+            "e" : "oni41@oni",
+            "s" : "oni81@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2255,8 +2255,8 @@
       },
       "oni13@oni" : {
          "exits" : {
-            "n" : "oni14",
-            "s" : "oni12"
+            "n" : "oni14@oni",
+            "s" : "oni12@oni"
          },
          "flags" : [
             "Outdoors"
@@ -2269,8 +2269,8 @@
       },
       "oni10@oni" : {
          "exits" : {
-            "w" : "oni9",
-            "e" : "oni11"
+            "w" : "oni9@oni",
+            "e" : "oni11@oni"
          },
          "flags" : [
             "Outdoors"
@@ -2283,8 +2283,8 @@
       },
       "oni96@oni" : {
          "exits" : {
-            "w" : "oni95",
-            "n" : "oni98"
+            "w" : "oni95@oni",
+            "n" : "oni98@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2297,8 +2297,8 @@
       },
       "oni55@oni" : {
          "exits" : {
-            "e" : "oni57",
-            "s" : "oni54"
+            "e" : "oni57@oni",
+            "s" : "oni54@oni"
          },
          "flags" : [],
          "zone" : "oni",
@@ -2309,10 +2309,10 @@
       },
       "oni67@oni" : {
          "exits" : {
-            "w" : "oni70",
-            "e" : "oni64",
-            "n" : "oni68",
-            "s" : "oni69"
+            "w" : "oni70@oni",
+            "e" : "oni64@oni",
+            "n" : "oni68@oni",
+            "s" : "oni69@oni"
          },
          "flags" : [
             "Outdoors",
@@ -2326,8 +2326,8 @@
       },
       "oni24@oni" : {
          "exits" : {
-            "n" : "oni25",
-            "s" : "oni23"
+            "n" : "oni25@oni",
+            "s" : "oni23@oni"
          },
          "flags" : [
             "Outdoors",
@@ -2341,10 +2341,10 @@
       },
       "oni89@oni" : {
          "exits" : {
-            "w" : "^pdoorw2_in",
-            "e" : "^pdoore2_in",
-            "n" : "oni92",
-            "s" : "oni86"
+            "w" : "^pdoorw2_in@oni",
+            "e" : "^pdoore2_in@oni",
+            "n" : "oni92@oni",
+            "s" : "oni86@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2357,7 +2357,7 @@
       },
       "oni87@oni" : {
          "exits" : {
-            "w" : "^pdoore1_out"
+            "w" : "^pdoore1_out@oni"
          },
          "flags" : [
             "CantSummon",
@@ -2371,10 +2371,10 @@
       },
       "oni22@oni" : {
          "exits" : {
-            "w" : "oni14",
-            "e" : "oni14",
-            "n" : "oni23",
-            "s" : "oni14"
+            "w" : "oni14@oni",
+            "e" : "oni14@oni",
+            "n" : "oni23@oni",
+            "s" : "oni14@oni"
          },
          "flags" : [
             "Outdoors",
@@ -2388,8 +2388,8 @@
       },
       "oni62@oni" : {
          "exits" : {
-            "w" : "oni63",
-            "e" : "oni61"
+            "w" : "oni63@oni",
+            "e" : "oni61@oni"
          },
          "flags" : [
             "Outdoors",
@@ -2403,7 +2403,7 @@
       },
       "oni103@oni" : {
          "exits" : {
-            "d" : "oni59"
+            "d" : "oni59@oni"
          },
          "flags" : [
             "NoGoto",
@@ -2417,9 +2417,9 @@
       },
       "oni54@oni" : {
          "exits" : {
-            "w" : "oni36",
-            "n" : "oni55",
-            "s" : "oni56"
+            "w" : "oni36@oni",
+            "n" : "oni55@oni",
+            "s" : "oni56@oni"
          },
          "flags" : [],
          "zone" : "oni",
@@ -2430,8 +2430,8 @@
       },
       "oni81@oni" : {
          "exits" : {
-            "u" : "oni82",
-            "n" : "oni37"
+            "u" : "oni82@oni",
+            "n" : "oni37@oni"
          },
          "flags" : [
             "CantSummon",
@@ -2445,7 +2445,7 @@
       },
       "oni66@oni" : {
          "exits" : {
-            "n" : "oni64"
+            "n" : "oni64@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2458,10 +2458,10 @@
       },
       "oni92@oni" : {
          "exits" : {
-            "w" : "^pdoorw3_in",
-            "e" : "^pdoore3_in",
-            "n" : "oni95",
-            "s" : "oni89"
+            "w" : "^pdoorw3_in@oni",
+            "e" : "^pdoore3_in@oni",
+            "n" : "oni95@oni",
+            "s" : "oni89@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2474,10 +2474,10 @@
       },
       "oni17@oni" : {
          "exits" : {
-            "w" : "oni17",
-            "e" : "oni14",
-            "n" : "oni18",
-            "s" : "oni14"
+            "w" : "oni17@oni",
+            "e" : "oni14@oni",
+            "n" : "oni18@oni",
+            "s" : "oni14@oni"
          },
          "flags" : [
             "Outdoors",
@@ -2491,10 +2491,10 @@
       },
       "oni31@oni" : {
          "exits" : {
-            "w" : "oni30",
-            "e" : "oni32",
-            "n" : "oni34",
-            "s" : "oni28"
+            "w" : "oni30@oni",
+            "e" : "oni32@oni",
+            "n" : "oni34@oni",
+            "s" : "oni28@oni"
          },
          "flags" : [],
          "zone" : "oni",
@@ -2516,9 +2516,9 @@
       },
       "oni78@oni" : {
          "exits" : {
-            "w" : "oni77",
-            "n" : "oni79",
-            "s" : "oni80"
+            "w" : "oni77@oni",
+            "n" : "oni79@oni",
+            "s" : "oni80@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2531,8 +2531,8 @@
       },
       "oni100@oni" : {
          "exits" : {
-            "e" : "oni99",
-            "s" : "oni97"
+            "e" : "oni99@oni",
+            "s" : "oni97@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2545,8 +2545,8 @@
       },
       "oni35@oni" : {
          "exits" : {
-            "w" : "oni34",
-            "s" : "oni32"
+            "w" : "oni34@oni",
+            "s" : "oni32@oni"
          },
          "flags" : [],
          "zone" : "oni",
@@ -2557,9 +2557,9 @@
       },
       "oni30@oni" : {
          "exits" : {
-            "e" : "oni31",
-            "n" : "oni33",
-            "s" : "oni27"
+            "e" : "oni31@oni",
+            "n" : "oni33@oni",
+            "s" : "oni27@oni"
          },
          "flags" : [],
          "zone" : "oni",
@@ -2570,8 +2570,8 @@
       },
       "oni25@oni" : {
          "exits" : {
-            "n" : "^door1_in",
-            "s" : "oni24"
+            "n" : "^door1_in@oni",
+            "s" : "oni24@oni"
          },
          "flags" : [
             "Outdoors",
@@ -2607,7 +2607,7 @@
       },
       "oni53@oni" : {
          "exits" : {
-            "d" : "oni86"
+            "d" : "oni86@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2620,7 +2620,7 @@
       },
       "oni88@oni" : {
          "exits" : {
-            "e" : "^pdoorw1_out"
+            "e" : "^pdoorw1_out@oni"
          },
          "flags" : [
             "CantSummon",
@@ -2634,7 +2634,7 @@
       },
       "oni41@oni" : {
          "exits" : {
-            "w" : "oni37"
+            "w" : "oni37@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2647,8 +2647,8 @@
       },
       "oni57@oni" : {
          "exits" : {
-            "w" : "oni55",
-            "s" : "oni59"
+            "w" : "oni55@oni",
+            "s" : "oni59@oni"
          },
          "flags" : [],
          "zone" : "oni",
@@ -2659,8 +2659,8 @@
       },
       "oni26@oni" : {
          "exits" : {
-            "n" : "oni28",
-            "s" : "^door1_out"
+            "n" : "oni28@oni",
+            "s" : "^door1_out@oni"
          },
          "flags" : [],
          "zone" : "oni",
@@ -2682,8 +2682,8 @@
       },
       "oni80@oni" : {
          "exits" : {
-            "n" : "oni78",
-            "s" : "oni101"
+            "n" : "oni78@oni",
+            "s" : "oni101@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2696,8 +2696,8 @@
       },
       "oni12@oni" : {
          "exits" : {
-            "w" : "oni11",
-            "n" : "oni13"
+            "w" : "oni11@oni",
+            "n" : "oni13@oni"
          },
          "flags" : [
             "Outdoors",
@@ -2711,9 +2711,9 @@
       },
       "oni82@oni" : {
          "exits" : {
-            "e" : "oni200",
-            "d" : "oni81",
-            "s" : "oni83"
+            "e" : "oni200@oni",
+            "d" : "oni81@oni",
+            "s" : "oni83@oni"
          },
          "flags" : [
             "CantSummon"
@@ -2743,7 +2743,7 @@
             "ImmBlind"
          ],
          "damage" : "20",
-         "location" : "oni200",
+         "location" : "oni200@oni",
          "armor" : "30",
          "name" : "knight1",
          "examine" : "\nProtected by a full suit of armor and a large shield and wielding a large\nbroadsword, the Knights of the White Phoenix are prepared to battle anything,\neven a dangerous demon.",
@@ -2761,7 +2761,7 @@
             "Cripple"
          ],
          "damage" : "10",
-         "location" : "oni999",
+         "location" : "oni999@oni",
          "armor" : "30",
          "name" : "statue2",
          "examine" : "\nThis creature reminds you of one of the statues you saw in the hallway. \nProtruding out of its long snout like mouth are numerous canine like teeth.\nAll that can be said about the rest of its face is that it is a malformed \nmass of flesh with two bead like eyes set into it. Below the head he is \ncovered in a thick armor.",
@@ -2773,7 +2773,7 @@
       },
       "treefrog3@oni" : {
          "damage" : "7",
-         "location" : "oni13",
+         "location" : "oni13@oni",
          "speed" : "5",
          "aggression" : "50",
          "armor" : "0",
@@ -2792,7 +2792,7 @@
             "IceStorm"
          ],
          "damage" : "7",
-         "location" : "oni201",
+         "location" : "oni201@oni",
          "armor" : "10",
          "name" : "wizard5",
          "examine" : "\nThe Wizards of the White Phoenix have been trained to battle demons even\nwithout the aid of their brethren knights. Their arsenal of attack spells\nmakes them very dangerous.",
@@ -2815,7 +2815,7 @@
             "ImmBlind"
          ],
          "damage" : "30",
-         "location" : "oni200",
+         "location" : "oni200@oni",
          "armor" : "20",
          "name" : "knight5",
          "examine" : "\nProtected by a full suit of armor and a large shield and wielding a large\nbroadsword, the Knights of the White Phoenix are prepared to battle anything,\neven a dangerous demon.",
@@ -2827,7 +2827,7 @@
       },
       "citizen3@oni" : {
          "damage" : "7",
-         "location" : "oni69",
+         "location" : "oni69@oni",
          "armor" : "0",
          "name" : "citizen3",
          "examine" : "\nThe citizen quickens her pace as you look at her.",
@@ -2842,7 +2842,7 @@
       },
       "chipmunk@oni" : {
          "damage" : "4",
-         "location" : "oni2",
+         "location" : "oni2@oni",
          "name" : "chipmunk",
          "examine" : "Aww...what a cute chipmunk.",
          "description" : "A cute little chipmunk stares intently at you.",
@@ -2858,7 +2858,7 @@
             "Fireball"
          ],
          "damage" : "60",
-         "location" : "oni99",
+         "location" : "oni99@oni",
          "armor" : "40",
          "name" : "xergon",
          "examine" : "\nYears of imprisonment has caused Xergon's rage to build up to a point that\nhe now blindly attacks anything that moves near him. He does so in a berserker\nlike rage that makes him a terrifying opponent.\n",
@@ -2873,7 +2873,7 @@
       },
       "citizen1@oni" : {
          "damage" : "7",
-         "location" : "oni64",
+         "location" : "oni64@oni",
          "speed" : "4",
          "aggression" : "0",
          "armor" : "0",
@@ -2889,7 +2889,7 @@
             "ImmBlind"
          ],
          "damage" : "20",
-         "location" : "oni200",
+         "location" : "oni200@oni",
          "armor" : "30",
          "name" : "knight4",
          "examine" : "\nProtected by a full suit of armor and a large shield and wielding a large\nbroadsword, the Knights of the White Phoenix are prepared to battle anything,\neven a dangerous demon.",
@@ -2907,7 +2907,7 @@
             "Cripple"
          ],
          "damage" : "10",
-         "location" : "oni999",
+         "location" : "oni999@oni",
          "armor" : "40",
          "name" : "statue1",
          "examine" : "\nThis creature reminds you of one of the statues you saw in the hallway. \nProtruding out of its long snout like mouth are numerous canine like teeth. \nAll that can be said about the rest of its face is that it is a malformed \nmass of flesh with two bead like eyes set into it. Below the head he is \ncovered in a thick armor.",
@@ -2919,7 +2919,7 @@
       },
       "spider@oni" : {
          "damage" : "15",
-         "location" : "oni31",
+         "location" : "oni31@oni",
          "armor" : "5",
          "name" : "spider",
          "examine" : "\nThe large spider stares back at you with its many unmoving eyes.",
@@ -2941,7 +2941,7 @@
             "IceStorm"
          ],
          "damage" : "7",
-         "location" : "oni201",
+         "location" : "oni201@oni",
          "armor" : "10",
          "name" : "wizard6",
          "examine" : "\nThe Wizards of the White Phoenix have been trained to battle demons even\nwithout the aid of their brethren knights. Their arsenal of attack spells\nmakes them very dangerous.",
@@ -2958,7 +2958,7 @@
       },
       "demon1@oni" : {
          "damage" : "10",
-         "location" : "oni87",
+         "location" : "oni87@oni",
          "speed" : "5",
          "aggression" : "0",
          "armor" : "10",
@@ -2970,7 +2970,7 @@
       },
       "corrin@oni" : {
          "damage" : "7",
-         "location" : "oni70",
+         "location" : "oni70@oni",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -2988,7 +2988,7 @@
             "VTouch"
          ],
          "damage" : "7",
-         "location" : "oni66",
+         "location" : "oni66@oni",
          "armor" : "0",
          "name" : "klink",
          "examine" : "\nKlink sits behind the counter reading a large tome. He answers any customer\nquestions or sales, but promptly returns to reading.",
@@ -3007,7 +3007,7 @@
             "IceStorm"
          ],
          "damage" : "7",
-         "location" : "oni201",
+         "location" : "oni201@oni",
          "armor" : "10",
          "name" : "wizard1",
          "examine" : "\nThe Wizards of the White Phoenix have been trained to battle demons even\nwithout the aid of their brethren knights. Their arsenal of attack spells\nmakes them very dangerous.",
@@ -3025,7 +3025,7 @@
       },
       "citizen2@oni" : {
          "damage" : "7",
-         "location" : "oni68",
+         "location" : "oni68@oni",
          "speed" : "6",
          "aggression" : "0",
          "armor" : "0",
@@ -3037,7 +3037,7 @@
       },
       "demon3@oni" : {
          "damage" : "5",
-         "location" : "oni90",
+         "location" : "oni90@oni",
          "armor" : "40",
          "name" : "demon3",
          "examine" : "\nThe demon is of immense size and has a hardened shell that protects it from\nmost physical damage and magical damage. Luckily it's too slow to do any\nreal damage.",
@@ -3052,7 +3052,7 @@
       },
       "citizen4@oni" : {
          "damage" : "7",
-         "location" : "oni70",
+         "location" : "oni70@oni",
          "armor" : "0",
          "name" : "citizen4",
          "examine" : "\nAs you stare at the citizen, she gives you a sneer and continues on.",
@@ -3067,7 +3067,7 @@
       },
       "treefrog1@oni" : {
          "damage" : "7",
-         "location" : "oni13",
+         "location" : "oni13@oni",
          "speed" : "5",
          "aggression" : "50",
          "pname" : "Frog",
@@ -3085,7 +3085,7 @@
             "IceStorm"
          ],
          "damage" : "7",
-         "location" : "oni201",
+         "location" : "oni201@oni",
          "armor" : "10",
          "name" : "wizard2",
          "examine" : "\nThe Wizards of the White Phoenix have been trained to battle demons even\nwithout the aid of their brethren knights. Their arsenal of attack spells\nmakes them very dangerous.",
@@ -3102,7 +3102,7 @@
       },
       "demon2@oni" : {
          "damage" : "20",
-         "location" : "oni91",
+         "location" : "oni91@oni",
          "armor" : "5",
          "name" : "demon2",
          "examine" : "\nThis medium demon is difficult to kill because of it immunity to\nmagic and its ability to weaken its victim in experience.",
@@ -3124,7 +3124,7 @@
             "ImmBlind"
          ],
          "damage" : "30",
-         "location" : "oni200",
+         "location" : "oni200@oni",
          "armor" : "20",
          "name" : "knight2",
          "examine" : "\nProtected by a full suit of armor and a large shield and wielding a large\nbroadsword, the Knights of the White Phoenix are prepared to battle anything,\neven a dangerous demon.",
@@ -3143,7 +3143,7 @@
             "IceStorm"
          ],
          "damage" : "7",
-         "location" : "oni201",
+         "location" : "oni201@oni",
          "armor" : "10",
          "name" : "wizard4",
          "examine" : "\nThe Wizards of the White Phoenix have been trained to battle demons even\nwithout the aid of their brethren knights. Their arsenal of attack spells\nmakes them very dangerous.",
@@ -3168,7 +3168,7 @@
             "NegBHands"
          ],
          "damage" : "50",
-         "location" : "oni93",
+         "location" : "oni93@oni",
          "armor" : "40",
          "name" : "demon4",
          "examine" : "\nThe demon has trapped you within its own body.  It doesn't look like there\nis anyway to escape except to hack through it.",
@@ -3190,7 +3190,7 @@
       },
       "ghoul2@oni" : {
          "damage" : "15",
-         "location" : "oni31",
+         "location" : "oni31@oni",
          "armor" : "0",
          "name" : "ghoul2",
          "examine" : "\nPieces of flesh hang from multiple places, providing you with an indecent \nview of the ghoul's internals.",
@@ -3205,7 +3205,7 @@
       },
       "ghoul1@oni" : {
          "damage" : "15",
-         "location" : "oni31",
+         "location" : "oni31@oni",
          "armor" : "0",
          "name" : "ghoul1",
          "examine" : "\nPieces of flesh hang from multiple places, providing you with an indecent \nview of the ghoul's internals.",
@@ -3224,7 +3224,7 @@
             "ImmBlind"
          ],
          "damage" : "20",
-         "location" : "oni200",
+         "location" : "oni200@oni",
          "armor" : "30",
          "name" : "knight3",
          "examine" : "\nProtected by a full suit of armor and a large shield and wielding a large\nbroadsword, the Knights of the White Phoenix are prepared to battle anything,\neven a dangerous demon.",
@@ -3239,7 +3239,7 @@
       },
       "treefrog2@oni" : {
          "damage" : "7",
-         "location" : "oni13",
+         "location" : "oni13@oni",
          "speed" : "5",
          "aggression" : "50",
          "pname" : "Frog",
@@ -3254,7 +3254,7 @@
             "ImmBlind"
          ],
          "damage" : "20",
-         "location" : "oni200",
+         "location" : "oni200@oni",
          "armor" : "30",
          "name" : "knight6",
          "examine" : "\nProtected by a full suit of armor and a large shield and wielding a large\nbroadsword, the Knights of the White Phoenix are prepared to battle anything,\neven a dangerous demon.",
@@ -3276,7 +3276,7 @@
             "IceStorm"
          ],
          "damage" : "7",
-         "location" : "oni201",
+         "location" : "oni201@oni",
          "armor" : "10",
          "name" : "wizard3",
          "examine" : "\nThe Wizards of the White Phoenix have been trained to battle demons even\nwithout the aid of their brethren knights. Their arsenal of attack spells\nmakes them very dangerous.",

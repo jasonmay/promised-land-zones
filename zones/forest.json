@@ -1,7 +1,7 @@
 {
    "obj" : {
       "venison@forest" : {
-         "location" : "IN_ROOM:cave",
+         "location" : "IN_ROOM:cave@forest",
          "weight" : "40",
          "oflags" : [
             "Food"
@@ -12,7 +12,7 @@
          "size" : "40"
       },
       "earring@forest" : {
-         "location" : "IN_ROOM:cave",
+         "location" : "IN_ROOM:cave@forest",
          "oflags" : [
             "Wearable"
          ],
@@ -27,7 +27,7 @@
       },
       "torch@forest" : {
          "desc[1]" : "A greasy animal fat torch has been dumped here.",
-         "location" : "IN_ROOM:cave",
+         "location" : "IN_ROOM:cave@forest",
          "oflags" : [
             "Lightable",
             "Extinguish"
@@ -41,7 +41,7 @@
          "desc[0]" : "\nA lit torch sizzles and sparkles on the ground, making a horrible smell."
       },
       "pot@forest" : {
-         "location" : "IN_ROOM:cave",
+         "location" : "IN_ROOM:cave@forest",
          "weight" : "30",
          "oflags" : [
             "Container"
@@ -52,7 +52,7 @@
          "size" : "30"
       },
       "treeeating@forest" : {
-         "location" : "IN_ROOM:F4",
+         "location" : "IN_ROOM:f4@forest",
          "oflags" : [
             "NoGet"
          ],
@@ -60,7 +60,7 @@
          "name" : "TreeEating"
       },
       "brass@forest" : {
-         "location" : "IN_ROOM:cave",
+         "location" : "IN_ROOM:cave@forest",
          "weight" : "1",
          "altname" : "piece",
          "name" : "brass",
@@ -70,7 +70,7 @@
       },
       "club@forest" : {
          "damage" : "4",
-         "location" : "IN_ROOM:cave",
+         "location" : "IN_ROOM:cave@forest",
          "oflags" : [
             "Weapon"
          ],
@@ -81,7 +81,7 @@
          "desc[0]" : "A heavy wooden club has been dropped here."
       },
       "insidetree@forest" : {
-         "location" : "IN_ROOM:InTree",
+         "location" : "IN_ROOM:intree@forest",
          "oflags" : [
             "NoGet"
          ],
@@ -89,13 +89,13 @@
          "name" : "InsideTree"
       },
       "pipes@forest" : {
-         "location" : "IN_ROOM:F8",
+         "location" : "IN_ROOM:f8@forest",
          "name" : "pipes",
          "bvalue" : "100",
          "desc[0]" : "A set of small pipes have been left here."
       },
       "key@forest" : {
-         "location" : "IN_ROOM:cave",
+         "location" : "IN_ROOM:cave@forest",
          "weight" : "1",
          "oflags" : [
             "Key"
@@ -108,10 +108,10 @@
    "loc" : {
       "f10@forest" : {
          "exits" : {
-            "w" : "F9",
-            "e" : "F11",
-            "n" : "F1",
-            "s" : "F2"
+            "w" : "f9@forest",
+            "e" : "f11@forest",
+            "n" : "f1@forest",
+            "s" : "f2@forest"
          },
          "flags" : [
             "Outdoors"
@@ -124,10 +124,10 @@
       },
       "f8@forest" : {
          "exits" : {
-            "w" : "F1",
-            "e" : "F9",
-            "n" : "F7",
-            "s" : "F2"
+            "w" : "f1@forest",
+            "e" : "f9@forest",
+            "n" : "f7@forest",
+            "s" : "f2@forest"
          },
          "flags" : [
             "outdoors"
@@ -140,10 +140,10 @@
       },
       "f6@forest" : {
          "exits" : {
-            "w" : "F7",
-            "e" : "Stream@Blizzard",
-            "n" : "F5",
-            "s" : "F1"
+            "w" : "f7@forest",
+            "e" : "stream@blizzard",
+            "n" : "f5@forest",
+            "s" : "f1@forest"
          },
          "flags" : [
             "Outdoors"
@@ -156,10 +156,10 @@
       },
       "f11@forest" : {
          "exits" : {
-            "w" : "F10",
-            "e" : "F9",
-            "n" : "F6",
-            "s" : "clearing"
+            "w" : "f10@forest",
+            "e" : "f9@forest",
+            "n" : "f6@forest",
+            "s" : "clearing@forest"
          },
          "flags" : [
             "Outdoors"
@@ -172,10 +172,10 @@
       },
       "f5@forest" : {
          "exits" : {
-            "w" : "F4",
-            "e" : "F4",
-            "n" : "F6",
-            "s" : "F5"
+            "w" : "f4@forest",
+            "e" : "f4@forest",
+            "n" : "f6@forest",
+            "s" : "f5@forest"
          },
          "flags" : [
             "Outdoors"
@@ -199,10 +199,10 @@
       },
       "f1@forest" : {
          "exits" : {
-            "w" : "Path",
-            "e" : "F2",
-            "n" : "F3",
-            "s" : "Path"
+            "w" : "path@forest",
+            "e" : "f2@forest",
+            "n" : "f3@forest",
+            "s" : "path@forest"
          },
          "flags" : [
             "Outdoors"
@@ -216,9 +216,9 @@
       "f2@forest" : {
          "exits" : {
             "w" : "tread12@treadmill",
-            "e" : "Path",
-            "n" : "Path",
-            "s" : "F1"
+            "e" : "path@forest",
+            "n" : "path@forest",
+            "s" : "f1@forest"
          },
          "flags" : [
             "Outdoors"
@@ -231,10 +231,10 @@
       },
       "f7@forest" : {
          "exits" : {
-            "w" : "F8",
-            "e" : "F6",
-            "n" : "F4",
-            "s" : "F6"
+            "w" : "f8@forest",
+            "e" : "f6@forest",
+            "n" : "f4@forest",
+            "s" : "f6@forest"
          },
          "flags" : [
             "Outdoors"
@@ -247,10 +247,10 @@
       },
       "f4@forest" : {
          "exits" : {
-            "w" : "F3",
-            "e" : "F2",
-            "n" : "F2",
-            "s" : "F5"
+            "w" : "f3@forest",
+            "e" : "f2@forest",
+            "n" : "f2@forest",
+            "s" : "f5@forest"
          },
          "flags" : [
             "Outdoors"
@@ -263,7 +263,7 @@
       },
       "cave@forest" : {
          "exits" : {
-            "n" : "Clearing"
+            "n" : "clearing@forest"
          },
          "flags" : [],
          "zone" : "forest",
@@ -274,9 +274,9 @@
       },
       "path@forest" : {
          "exits" : {
-            "w" : "F2",
-            "e" : "F1",
-            "s" : "F3"
+            "w" : "f2@forest",
+            "e" : "f1@forest",
+            "s" : "f3@forest"
          },
          "flags" : [
             "Outdoors"
@@ -289,10 +289,10 @@
       },
       "clearing@forest" : {
          "exits" : {
-            "w" : "F4",
-            "e" : "F4",
-            "n" : "F10",
-            "s" : "Cave"
+            "w" : "f4@forest",
+            "e" : "f4@forest",
+            "n" : "f10@forest",
+            "s" : "cave@forest"
          },
          "flags" : [
             "Outdoors"
@@ -305,10 +305,10 @@
       },
       "f9@forest" : {
          "exits" : {
-            "w" : "F8",
-            "e" : "F2",
-            "n" : "F10",
-            "s" : "F5"
+            "w" : "f8@forest",
+            "e" : "f2@forest",
+            "n" : "f10@forest",
+            "s" : "f5@forest"
          },
          "flags" : [
             "Outdoors"
@@ -321,10 +321,10 @@
       },
       "f3@forest" : {
          "exits" : {
-            "w" : "F2",
-            "e" : "F4",
-            "n" : "Path",
-            "s" : "F1"
+            "w" : "f2@forest",
+            "e" : "f4@forest",
+            "n" : "path@forest",
+            "s" : "f1@forest"
          },
          "flags" : [
             "Outdoors"
@@ -339,7 +339,7 @@
    "mob" : {
       "troll@forest" : {
          "damage" : "20",
-         "location" : "cave",
+         "location" : "cave@forest",
          "armor" : "0",
          "aggression" : "30",
          "pname" : "The Troll",

@@ -1,7 +1,7 @@
 {
    "obj" : {
       "twig@adept" : {
-         "location" : "IN_ROOM:adept4",
+         "location" : "IN_ROOM:adept4@adept",
          "pname" : "twig",
          "name" : "twig",
          "examine" : "It's an ordinary piece of wood.",
@@ -10,7 +10,7 @@
          "size" : "1"
       },
       "bung@adept" : {
-         "location" : "IN_CONTAINER:hcord",
+         "location" : "IN_CONTAINER:hcord@adept",
          "oflags" : [
             "Destroyed"
          ],
@@ -22,7 +22,7 @@
          "size" : "2"
       },
       "plant2@adept" : {
-         "location" : "IN_ROOM:adept69",
+         "location" : "IN_ROOM:adept69@adept",
          "oflags" : [
             "NoGet"
          ],
@@ -32,7 +32,7 @@
          "desc[0]" : "A well-built plant snakes its way across the the ground."
       },
       "cross@adept" : {
-         "location" : "IN_ROOM:adept72",
+         "location" : "IN_ROOM:adept72@adept",
          "oflags" : [
             "Glowing",
             "Cross"
@@ -45,7 +45,7 @@
          "size" : "3"
       },
       "decree@adept" : {
-         "location" : "CARRIED_BY:executioner",
+         "location" : "CARRIED_BY:executioner@adept",
          "pname" : "decree",
          "name" : "decree",
          "examine" : "\n      ______________________________________________________\n     '                                                      `\n     |                                                      |\n     |    &+gAll elves are to be slaughtered&*              |\n     |    &+gunconditionally on sight!&*                    |\n     |                                                      |\n     |                       &+g-- King Joseph&*            |\n     |                                                      |\n     `------------------------------------------------------'",
@@ -53,7 +53,7 @@
          "desc[0]" : "\nThere is a royal decree blowing freely in the wind here."
       },
       "gadget@adept" : {
-         "location" : "IN_ROOM:adept72",
+         "location" : "IN_ROOM:adept72@adept",
          "pname" : "gadget",
          "name" : "gadget",
          "examine" : "\n&+y   Many immobile things don't require a second glance,\n&+y   just those that resemble gigantic plants.\n\nWhat else do you expect of a confusing piece of junk that may have been lying\naround in someone's dusty basement for decades?",
@@ -62,7 +62,7 @@
          "size" : "2"
       },
       "bauble@adept" : {
-         "location" : "IN_ROOM:adept72",
+         "location" : "IN_ROOM:adept72@adept",
          "pname" : "bauble",
          "name" : "bauble",
          "examine" : "\n&+y   Piercing through those stormy winter clouds of gloom\n&+y   is for all other seasons a tender area of bloom.\n\nWhat else do you expect of a confusing piece of junk that may have been lying\naround in someone's dusty basement for decades?",
@@ -72,7 +72,7 @@
       },
       "cap@adept" : {
          "desc[1]" : "A dark green elven tricorne cap is here.",
-         "location" : "WORN_BY:adept",
+         "location" : "WORN_BY:adept@adept",
          "armor" : "1",
          "oflags" : [
             "Wearable",
@@ -89,7 +89,7 @@
          "desc[0]" : "A dark green elven tricorne cap is here."
       },
       "sign@adept" : {
-         "location" : "IN_ROOM:adept57",
+         "location" : "IN_ROOM:adept57@adept",
          "oflags" : [
             "NoGet"
          ],
@@ -99,7 +99,7 @@
          "desc[0]" : "&+wA weather-beaten sign is here."
       },
       "bark2@adept" : {
-         "location" : "IN_ROOM:adept72",
+         "location" : "IN_ROOM:adept72@adept",
          "altname" : "scroll",
          "pname" : "bark",
          "name" : "bark2",
@@ -110,7 +110,7 @@
       },
       "hole@adept" : {
          "desc[1]" : "An immensely gnarled vine shoots skyward out of the hole.",
-         "location" : "IN_ROOM:adept57",
+         "location" : "IN_ROOM:adept57@adept",
          "oflags" : [
             "NoGet",
             "Destroyed",
@@ -126,7 +126,7 @@
       },
       "door1@adept" : {
          "desc[1]" : "The door is rusted shut.",
-         "location" : "IN_ROOM:adept23",
+         "location" : "IN_ROOM:adept23@adept",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -140,7 +140,7 @@
          "desc[0]" : "The door creaks in the wind."
       },
       "bark3@adept" : {
-         "location" : "IN_ROOM:adept72",
+         "location" : "IN_ROOM:adept72@adept",
          "altname" : "scroll",
          "pname" : "bark",
          "name" : "bark3",
@@ -151,7 +151,7 @@
       },
       "swingblade@adept" : {
          "damage" : "19",
-         "location" : "WIELDED_BY:yinkit",
+         "location" : "WIELDED_BY:yinkit@adept",
          "oflags" : [
             "Weapon"
          ],
@@ -163,7 +163,7 @@
          "desc[0]" : "\nA swingblade sticks out of the ground at an oblique angle."
       },
       "rock1@adept" : {
-         "location" : "IN_ROOM:adept5",
+         "location" : "IN_ROOM:adept5@adept",
          "oflags" : [
             "NoGet"
          ],
@@ -176,7 +176,7 @@
          "desc[0]" : "An engraved rock sulks at being shoved from its central position."
       },
       "waistcoat@adept" : {
-         "location" : "IN_ROOM:adept18",
+         "location" : "IN_ROOM:adept18@adept",
          "armor" : "16",
          "oflags" : [
             "Armor",
@@ -196,7 +196,7 @@
          ]
       },
       "bark4@adept" : {
-         "location" : "IN_ROOM:adept72",
+         "location" : "IN_ROOM:adept72@adept",
          "oflags" : [
             "Destroyed"
          ],
@@ -209,7 +209,7 @@
          "desc[0]" : "An old bark scroll tries to avoid the termites."
       },
       "trinket@adept" : {
-         "location" : "IN_ROOM:adept72",
+         "location" : "IN_ROOM:adept72@adept",
          "pname" : "trinket",
          "name" : "trinket",
          "examine" : "\n&+y   No one knows how these trees ever grew so tall,\n&+y   but they live where time has yet to fall.\n\nWhat else do you expect of a confusing piece of junk that may have been \nlying around in the corner of someone's dusty basement for decades?",
@@ -218,7 +218,7 @@
          "size" : "3"
       },
       "chunk@adept" : {
-         "location" : "IN_ROOM:adept69",
+         "location" : "IN_ROOM:adept69@adept",
          "oflags" : [
             "Destroyed"
          ],
@@ -230,7 +230,7 @@
          "desc[0]" : "A chunk of a thin viney plant with a single root is here."
       },
       "statue@adept" : {
-         "location" : "IN_ROOM:adept14",
+         "location" : "IN_ROOM:adept14@adept",
          "oflags" : [
             "NoGet"
          ],
@@ -240,7 +240,7 @@
          "desc[0]" : "The statue remains proud for all the pigeons to unload on."
       },
       "acid@adept" : {
-         "location" : "IN_ROOM:adept41",
+         "location" : "IN_ROOM:adept41@adept",
          "pname" : "acid",
          "name" : "acid",
          "examine" : "\nMedieval strength carbolic - perfect for growing vines!",
@@ -249,7 +249,7 @@
          "size" : "3"
       },
       "gizmo@adept" : {
-         "location" : "IN_ROOM:adept72",
+         "location" : "IN_ROOM:adept72@adept",
          "pname" : "gizmo",
          "name" : "gizmo",
          "examine" : "\n&+y   For most people, a home is their bread and butter,\n&+y   so how can one be so messy and live in such a clutter?\n\nWhat else do you expect of a confusing piece of junk that may have been lying\naround in someone's dusty basement for decades?",
@@ -259,7 +259,7 @@
       },
       "knob@adept" : {
          "desc[1]" : "A gnarly knob pokes above the gnarl.",
-         "location" : "IN_ROOM:adept45",
+         "location" : "IN_ROOM:adept45@adept",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -273,7 +273,7 @@
          "desc[0]" : "A knob has been turned."
       },
       "nightshade@adept" : {
-         "location" : "IN_ROOM:adept72",
+         "location" : "IN_ROOM:adept72@adept",
          "altname" : "reagent",
          "pname" : "nightshade",
          "name" : "nightshade",
@@ -283,7 +283,7 @@
          "size" : "2"
       },
       "puffle@adept" : {
-         "location" : "IN_ROOM:adept10",
+         "location" : "IN_ROOM:adept10@adept",
          "oflags" : [
             "Food"
          ],
@@ -296,7 +296,7 @@
          "desc[0]" : "A cream and air filled puffle steams here."
       },
       "bed@adept" : {
-         "location" : "IN_ROOM:adept64",
+         "location" : "IN_ROOM:adept64@adept",
          "oflags" : [
             "NoGet"
          ],
@@ -305,7 +305,7 @@
          "examine" : "\nThis bed is sturdy, functional, and reasonably comfortable looking."
       },
       "flask@adept" : {
-         "location" : "IN_ROOM:adept36",
+         "location" : "IN_ROOM:adept36@adept",
          "oflags" : [
             "NoGet",
             "Container"
@@ -318,7 +318,7 @@
       },
       "door2@adept" : {
          "desc[1]" : "The door is rusted shut.",
-         "location" : "IN_ROOM:adept24",
+         "location" : "IN_ROOM:adept24@adept",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -332,7 +332,7 @@
          "desc[0]" : "The door creaks in the wind."
       },
       "bark1@adept" : {
-         "location" : "IN_ROOM:adept72",
+         "location" : "IN_ROOM:adept72@adept",
          "altname" : "scroll",
          "pname" : "bark",
          "name" : "bark1",
@@ -342,7 +342,7 @@
          "size" : "3"
       },
       "gully@adept" : {
-         "location" : "IN_ROOM:adept50",
+         "location" : "IN_ROOM:adept50@adept",
          "oflags" : [
             "NoGet",
             "Container"
@@ -354,7 +354,7 @@
       },
       "hcord@adept" : {
          "desc[1]" : "There is a beautifully polished harpsichord in the center of the cradle.",
-         "location" : "IN_ROOM:adept73",
+         "location" : "IN_ROOM:adept73@adept",
          "armor" : "0",
          "oflags" : [
             "Container",
@@ -369,7 +369,7 @@
          "desc[0]" : "A harpsichord lays in a broken pile here, keys flung everywhere."
       },
       "plant1@adept" : {
-         "location" : "IN_ROOM:adept68",
+         "location" : "IN_ROOM:adept68@adept",
          "oflags" : [
             "NoGet"
          ],
@@ -379,7 +379,7 @@
          "desc[0]" : "A well-built plant stands tall, dropping fungus on you."
       },
       "cape@adept" : {
-         "location" : "IN_ROOM:adept24",
+         "location" : "IN_ROOM:adept24@adept",
          "oflags" : [
             "Wearable"
          ],
@@ -391,7 +391,7 @@
          "size" : "9"
       },
       "anvil@adept" : {
-         "location" : "IN_ROOM:adept30",
+         "location" : "IN_ROOM:adept30@adept",
          "oflags" : [
             "NoGet"
          ],
@@ -401,7 +401,7 @@
          "desc[0]" : "Elements of hard work lay strewn on the anvil."
       },
       "clutter@adept" : {
-         "location" : "IN_ROOM:adept47",
+         "location" : "IN_ROOM:adept47@adept",
          "oflags" : [
             "NoGet"
          ],
@@ -413,7 +413,7 @@
       },
       "bunghole@adept" : {
          "desc[1]" : "The planks bend inward ever so slightly as water leaks through the bunghole.",
-         "location" : "IN_ROOM:adept65",
+         "location" : "IN_ROOM:adept65@adept",
          "oflags" : [
             "NoGet"
          ],
@@ -425,7 +425,7 @@
          "desc[0]" : "The bunghole leak has been properly stuffed with a bung."
       },
       "branch@adept" : {
-         "location" : "IN_ROOM:adept3",
+         "location" : "IN_ROOM:adept3@adept",
          "altname" : "limb",
          "pname" : "branch",
          "name" : "branch",
@@ -436,7 +436,7 @@
       },
       "rock2@adept" : {
          "desc[1]" : "A mud-covered rock drops mud from above.",
-         "location" : "IN_ROOM:adept66",
+         "location" : "IN_ROOM:adept66@adept",
          "oflags" : [
             "NoGet",
             "Pushtoggle"
@@ -449,7 +449,7 @@
          "desc[0]" : "A rock has been shoved aside to reveal blue sky."
       },
       "ringmail@adept" : {
-         "location" : "WORN_BY:yinkit",
+         "location" : "WORN_BY:yinkit@adept",
          "armor" : "40",
          "oflags" : [
             "Wearable",
@@ -470,7 +470,7 @@
       },
       "teeth@adept" : {
          "damage" : "2",
-         "location" : "BOTH_BY:beaver",
+         "location" : "BOTH_BY:beaver@adept",
          "oflags" : [
             "Weapon",
             "Wearable"
@@ -484,7 +484,7 @@
       },
       "sword@adept" : {
          "damage" : "10",
-         "location" : "IN_ROOM:adept20",
+         "location" : "IN_ROOM:adept20@adept",
          "oflags" : [
             "Weapon"
          ],
@@ -498,7 +498,7 @@
       },
       "shovel@adept" : {
          "damage" : "10",
-         "location" : "IN_ROOM:adept24",
+         "location" : "IN_ROOM:adept24@adept",
          "oflags" : [
             "Weapon"
          ],
@@ -510,7 +510,7 @@
          "desc[0]" : "A shovel covered in two inches of rust is here."
       },
       "kika@adept" : {
-         "location" : "IN_ROOM:adept65",
+         "location" : "IN_ROOM:adept65@adept",
          "oflags" : [
             "Destroyed"
          ],
@@ -522,7 +522,7 @@
          "size" : "8"
       },
       "door3@adept" : {
-         "location" : "IN_ROOM:adept47",
+         "location" : "IN_ROOM:adept47@adept",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -535,7 +535,7 @@
          "maxstate" : "1"
       },
       "mandrake@adept" : {
-         "location" : "IN_ROOM:adept72",
+         "location" : "IN_ROOM:adept72@adept",
          "altname" : "reagent",
          "pname" : "mandrake",
          "name" : "mandrake",
@@ -548,8 +548,8 @@
    "loc" : {
       "adept54@adept" : {
          "exits" : {
-            "w" : "adept55",
-            "s" : "adept53"
+            "w" : "adept55@adept",
+            "s" : "adept53@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -560,7 +560,7 @@
       },
       "adept57@adept" : {
          "exits" : {
-            "d" : "adept56"
+            "d" : "adept56@adept"
          },
          "flags" : [
             "Cold"
@@ -573,7 +573,7 @@
       },
       "adept47@adept" : {
          "exits" : {
-            "s" : "^door3"
+            "s" : "^door3@adept"
          },
          "flags" : [
             "Dark"
@@ -586,11 +586,11 @@
       },
       "adept5@adept" : {
          "exits" : {
-            "w" : "adept51",
-            "e" : "adept42",
-            "n" : "adept31",
-            "d" : "^rock1",
-            "s" : "adept6"
+            "w" : "adept51@adept",
+            "e" : "adept42@adept",
+            "n" : "adept31@adept",
+            "d" : "^rock1@adept",
+            "s" : "adept6@adept"
          },
          "flags" : [
             "Peaceful"
@@ -603,9 +603,9 @@
       },
       "adept17@adept" : {
          "exits" : {
-            "e" : "adept19",
-            "w" : "adept16",
-            "n" : "adept18"
+            "e" : "adept19@adept",
+            "w" : "adept16@adept",
+            "n" : "adept18@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -616,7 +616,7 @@
       },
       "adept65@adept" : {
          "exits" : {
-            "u" : "adept63"
+            "u" : "adept63@adept"
          },
          "flags" : [
             "Dark"
@@ -629,7 +629,7 @@
       },
       "adept68@adept" : {
          "exits" : {
-            "w" : "adept67"
+            "w" : "adept67@adept"
          },
          "flags" : [
             "Dark"
@@ -642,9 +642,9 @@
       },
       "adept23@adept" : {
          "exits" : {
-            "e" : "adept25",
-            "w" : "adept22",
-            "s" : "^door1"
+            "e" : "adept25@adept",
+            "w" : "adept22@adept",
+            "s" : "^door1@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -655,8 +655,8 @@
       },
       "adept61@adept" : {
          "exits" : {
-            "w" : "adept62",
-            "e" : "adept60"
+            "w" : "adept62@adept",
+            "e" : "adept60@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -667,7 +667,7 @@
       },
       "adept73@adept" : {
          "exits" : {
-            "d" : "adept57"
+            "d" : "adept57@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -678,8 +678,8 @@
       },
       "adept56@adept" : {
          "exits" : {
-            "u" : "adept57",
-            "s" : "adept55"
+            "u" : "adept57@adept",
+            "s" : "adept55@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -690,7 +690,7 @@
       },
       "adept36@adept" : {
          "exits" : {
-            "s" : "adept35"
+            "s" : "adept35@adept"
          },
          "flags" : [
             "Dark"
@@ -703,8 +703,8 @@
       },
       "adept13@adept" : {
          "exits" : {
-            "e" : "adept14",
-            "w" : "adept12"
+            "e" : "adept14@adept",
+            "w" : "adept12@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -715,7 +715,7 @@
       },
       "adept41@adept" : {
          "exits" : {
-            "e" : "adept40"
+            "e" : "adept40@adept"
          },
          "flags" : [
             "Dark"
@@ -728,7 +728,7 @@
       },
       "adept11@adept" : {
          "exits" : {
-            "e" : "adept9"
+            "e" : "adept9@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -739,8 +739,8 @@
       },
       "adept26@adept" : {
          "exits" : {
-            "w" : "adept25",
-            "e" : "adept27"
+            "w" : "adept25@adept",
+            "e" : "adept27@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -751,8 +751,8 @@
       },
       "adept16@adept" : {
          "exits" : {
-            "e" : "adept17",
-            "w" : "adept14"
+            "e" : "adept17@adept",
+            "w" : "adept14@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -763,8 +763,8 @@
       },
       "adept58@adept" : {
          "exits" : {
-            "n" : "adept52",
-            "s" : "adept59"
+            "n" : "adept52@adept",
+            "s" : "adept59@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -775,10 +775,10 @@
       },
       "adept14@adept" : {
          "exits" : {
-            "w" : "adept13",
-            "e" : "adept16",
-            "n" : "adept15",
-            "s" : "adept22"
+            "w" : "adept13@adept",
+            "e" : "adept16@adept",
+            "n" : "adept15@adept",
+            "s" : "adept22@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -789,7 +789,7 @@
       },
       "adept18@adept" : {
          "exits" : {
-            "s" : "adept17"
+            "s" : "adept17@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -800,8 +800,8 @@
       },
       "adept62@adept" : {
          "exits" : {
-            "w" : "adept63",
-            "e" : "adept61"
+            "w" : "adept63@adept",
+            "e" : "adept61@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -812,7 +812,7 @@
       },
       "adept3@adept" : {
          "exits" : {
-            "e" : "adept2"
+            "e" : "adept2@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -823,8 +823,8 @@
       },
       "adept53@adept" : {
          "exits" : {
-            "e" : "adept52",
-            "n" : "adept54"
+            "e" : "adept52@adept",
+            "n" : "adept54@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -835,8 +835,8 @@
       },
       "adept48@adept" : {
          "exits" : {
-            "w" : "adept44",
-            "u" : "adept49"
+            "w" : "adept44@adept",
+            "u" : "adept49@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -847,7 +847,7 @@
       },
       "adept39@adept" : {
          "exits" : {
-            "d" : "adept38"
+            "d" : "adept38@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -858,7 +858,7 @@
       },
       "adept50@adept" : {
          "exits" : {
-            "d" : "adept49"
+            "d" : "adept49@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -869,10 +869,10 @@
       },
       "adept67@adept" : {
          "exits" : {
-            "w" : "adept69",
-            "e" : "adept68",
-            "u" : "adept66",
-            "d" : "adept70"
+            "w" : "adept69@adept",
+            "e" : "adept68@adept",
+            "u" : "adept66@adept",
+            "d" : "adept70@adept"
          },
          "flags" : [
             "Dark"
@@ -885,7 +885,7 @@
       },
       "adept46@adept" : {
          "exits" : {
-            "w" : "adept45"
+            "w" : "adept45@adept"
          },
          "flags" : [
             "Death"
@@ -898,9 +898,9 @@
       },
       "adept52@adept" : {
          "exits" : {
-            "w" : "adept53",
-            "e" : "adept51",
-            "s" : "adept58"
+            "w" : "adept53@adept",
+            "e" : "adept51@adept",
+            "s" : "adept58@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -911,8 +911,8 @@
       },
       "adept70@adept" : {
          "exits" : {
-            "u" : "adept67",
-            "d" : "adept71"
+            "u" : "adept67@adept",
+            "d" : "adept71@adept"
          },
          "flags" : [
             "Dark"
@@ -925,7 +925,7 @@
       },
       "adept64@adept" : {
          "exits" : {
-            "e" : "adept63"
+            "e" : "adept63@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -936,7 +936,7 @@
       },
       "adept34@adept" : {
          "exits" : {
-            "s" : "adept33"
+            "s" : "adept33@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -947,8 +947,8 @@
       },
       "adept22@adept" : {
          "exits" : {
-            "e" : "adept23",
-            "n" : "adept14"
+            "e" : "adept23@adept",
+            "n" : "adept14@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -959,7 +959,7 @@
       },
       "adept10@adept" : {
          "exits" : {
-            "s" : "adept9"
+            "s" : "adept9@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -970,7 +970,7 @@
       },
       "adept69@adept" : {
          "exits" : {
-            "e" : "adept67"
+            "e" : "adept67@adept"
          },
          "flags" : [
             "Dark"
@@ -983,7 +983,7 @@
       },
       "adept20@adept" : {
          "exits" : {
-            "n" : "adept19"
+            "n" : "adept19@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -994,8 +994,8 @@
       },
       "adept6@adept" : {
          "exits" : {
-            "n" : "adept5",
-            "s" : "adept7"
+            "n" : "adept5@adept",
+            "s" : "adept7@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1006,9 +1006,9 @@
       },
       "adept7@adept" : {
          "exits" : {
-            "e" : "adept12",
-            "w" : "adept8",
-            "n" : "adept6"
+            "e" : "adept12@adept",
+            "w" : "adept8@adept",
+            "n" : "adept6@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1019,8 +1019,8 @@
       },
       "adept43@adept" : {
          "exits" : {
-            "e" : "adept44",
-            "w" : "adept42"
+            "e" : "adept44@adept",
+            "w" : "adept42@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1031,7 +1031,7 @@
       },
       "adept1@adept" : {
          "exits" : {
-            "u" : "adept2",
+            "u" : "adept2@adept",
             "d" : "greattree@balharbor"
          },
          "flags" : [],
@@ -1043,8 +1043,8 @@
       },
       "adept42@adept" : {
          "exits" : {
-            "e" : "adept43",
-            "w" : "adept5"
+            "e" : "adept43@adept",
+            "w" : "adept5@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1055,8 +1055,8 @@
       },
       "adept28@adept" : {
          "exits" : {
-            "u" : "adept29",
-            "d" : "adept27"
+            "u" : "adept29@adept",
+            "d" : "adept27@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1067,9 +1067,9 @@
       },
       "adept38@adept" : {
          "exits" : {
-            "w" : "adept33",
-            "u" : "adept39",
-            "d" : "adept40"
+            "w" : "adept33@adept",
+            "u" : "adept39@adept",
+            "d" : "adept40@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1080,8 +1080,8 @@
       },
       "adept74@adept" : {
          "exits" : {
-            "u" : "adept75",
-            "d" : "adept2"
+            "u" : "adept75@adept",
+            "d" : "adept2@adept"
          },
          "flags" : [
             "Outdoors"
@@ -1094,9 +1094,9 @@
       },
       "adept19@adept" : {
          "exits" : {
-            "e" : "adept21",
-            "w" : "adept17",
-            "s" : "adept20"
+            "e" : "adept21@adept",
+            "w" : "adept17@adept",
+            "s" : "adept20@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1107,9 +1107,9 @@
       },
       "adept44@adept" : {
          "exits" : {
-            "w" : "adept43",
-            "e" : "adept48",
-            "n" : "adept45"
+            "w" : "adept43@adept",
+            "e" : "adept48@adept",
+            "n" : "adept45@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1120,10 +1120,10 @@
       },
       "adept33@adept" : {
          "exits" : {
-            "e" : "adept38",
-            "w" : "adept35",
-            "n" : "adept34",
-            "s" : "adept32"
+            "e" : "adept38@adept",
+            "w" : "adept35@adept",
+            "n" : "adept34@adept",
+            "s" : "adept32@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1134,8 +1134,8 @@
       },
       "adept29@adept" : {
          "exits" : {
-            "e" : "adept30",
-            "d" : "adept28"
+            "e" : "adept30@adept",
+            "d" : "adept28@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1146,8 +1146,8 @@
       },
       "adept60@adept" : {
          "exits" : {
-            "w" : "adept61",
-            "e" : "adept59"
+            "w" : "adept61@adept",
+            "e" : "adept59@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1158,9 +1158,9 @@
       },
       "adept63@adept" : {
          "exits" : {
-            "w" : "adept64",
-            "e" : "adept62",
-            "d" : "adept65"
+            "w" : "adept64@adept",
+            "e" : "adept62@adept",
+            "d" : "adept65@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1171,7 +1171,7 @@
       },
       "adept75@adept" : {
          "exits" : {
-            "d" : "adept74"
+            "d" : "adept74@adept"
          },
          "flags" : [
             "Outdoors"
@@ -1184,7 +1184,7 @@
       },
       "adept21@adept" : {
          "exits" : {
-            "w" : "adept19"
+            "w" : "adept19@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1195,8 +1195,8 @@
       },
       "adept51@adept" : {
          "exits" : {
-            "w" : "adept52",
-            "e" : "adept5"
+            "w" : "adept52@adept",
+            "e" : "adept5@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1216,9 +1216,9 @@
       },
       "adept45@adept" : {
          "exits" : {
-            "e" : "adept46",
-            "n" : "^knob",
-            "s" : "adept44"
+            "e" : "adept46@adept",
+            "n" : "^knob@adept",
+            "s" : "adept44@adept"
          },
          "flags" : [
             "Dark"
@@ -1231,7 +1231,7 @@
       },
       "adept71@adept" : {
          "exits" : {
-            "u" : "adept70"
+            "u" : "adept70@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1242,8 +1242,8 @@
       },
       "adept25@adept" : {
          "exits" : {
-            "e" : "adept26",
-            "w" : "adept23"
+            "e" : "adept26@adept",
+            "w" : "adept23@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1254,8 +1254,8 @@
       },
       "adept59@adept" : {
          "exits" : {
-            "w" : "adept60",
-            "n" : "adept58"
+            "w" : "adept60@adept",
+            "n" : "adept58@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1266,8 +1266,8 @@
       },
       "adept31@adept" : {
          "exits" : {
-            "n" : "adept32",
-            "s" : "adept5"
+            "n" : "adept32@adept",
+            "s" : "adept5@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1278,7 +1278,7 @@
       },
       "adept30@adept" : {
          "exits" : {
-            "w" : "adept29"
+            "w" : "adept29@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1289,9 +1289,9 @@
       },
       "adept35@adept" : {
          "exits" : {
-            "w" : "adept37",
-            "e" : "adept33",
-            "n" : "adept36"
+            "w" : "adept37@adept",
+            "e" : "adept33@adept",
+            "n" : "adept36@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1302,8 +1302,8 @@
       },
       "adept12@adept" : {
          "exits" : {
-            "e" : "adept13",
-            "w" : "adept7"
+            "e" : "adept13@adept",
+            "w" : "adept7@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1314,9 +1314,9 @@
       },
       "adept9@adept" : {
          "exits" : {
-            "w" : "adept11",
-            "e" : "adept8",
-            "n" : "adept10"
+            "w" : "adept11@adept",
+            "e" : "adept8@adept",
+            "n" : "adept10@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1336,9 +1336,9 @@
       },
       "adept2@adept" : {
          "exits" : {
-            "w" : "adept3",
-            "u" : "adept74",
-            "d" : "adept1"
+            "w" : "adept3@adept",
+            "u" : "adept74@adept",
+            "d" : "adept1@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1349,8 +1349,8 @@
       },
       "adept66@adept" : {
          "exits" : {
-            "u" : "^rock2",
-            "d" : "adept67"
+            "u" : "^rock2@adept",
+            "d" : "adept67@adept"
          },
          "flags" : [
             "Dark"
@@ -1363,7 +1363,7 @@
       },
       "adept24@adept" : {
          "exits" : {
-            "n" : "^door2"
+            "n" : "^door2@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1374,8 +1374,8 @@
       },
       "adept8@adept" : {
          "exits" : {
-            "w" : "adept9",
-            "e" : "adept7"
+            "w" : "adept9@adept",
+            "e" : "adept7@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1386,7 +1386,7 @@
       },
       "adept15@adept" : {
          "exits" : {
-            "s" : "adept14"
+            "s" : "adept14@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1397,8 +1397,8 @@
       },
       "adept40@adept" : {
          "exits" : {
-            "w" : "adept41",
-            "u" : "adept38"
+            "w" : "adept41@adept",
+            "u" : "adept38@adept"
          },
          "flags" : [
             "Dark"
@@ -1411,8 +1411,8 @@
       },
       "adept32@adept" : {
          "exits" : {
-            "n" : "adept33",
-            "s" : "adept31"
+            "n" : "adept33@adept",
+            "s" : "adept31@adept"
          },
          "flags" : [
             "NoMobiles"
@@ -1425,8 +1425,8 @@
       },
       "adept55@adept" : {
          "exits" : {
-            "e" : "adept54",
-            "n" : "adept56"
+            "e" : "adept54@adept",
+            "n" : "adept56@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1437,8 +1437,8 @@
       },
       "adept49@adept" : {
          "exits" : {
-            "u" : "adept50",
-            "d" : "adept48"
+            "u" : "adept50@adept",
+            "d" : "adept48@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1449,7 +1449,7 @@
       },
       "adept37@adept" : {
          "exits" : {
-            "e" : "adept35"
+            "e" : "adept35@adept"
          },
          "flags" : [
             "Dark"
@@ -1462,8 +1462,8 @@
       },
       "adept27@adept" : {
          "exits" : {
-            "w" : "adept26",
-            "u" : "adept28"
+            "w" : "adept26@adept",
+            "u" : "adept28@adept"
          },
          "flags" : [],
          "zone" : "adept",
@@ -1475,7 +1475,7 @@
    },
    "mob" : {
       "adept@adept" : {
-         "location" : "adept71",
+         "location" : "adept71@adept",
          "name" : "adept",
          "examine" : "Who said confusion is not a disease?",
          "description" : "This confused fossil of an elven cleric is an adept in many magical arts.",
@@ -1491,7 +1491,7 @@
       },
       "ramol@adept" : {
          "damage" : "8",
-         "location" : "adept32",
+         "location" : "adept32@adept",
          "armor" : "0",
          "name" : "ramol",
          "examine" : "\nNo doubt about it - this guy should be put of his misery.",
@@ -1506,7 +1506,7 @@
       },
       "bear@adept" : {
          "damage" : "12",
-         "location" : "adept5",
+         "location" : "adept5@adept",
          "armor" : "2",
          "name" : "bear",
          "examine" : "\nRemain calm. Don't let him smell fear. If you run up a tree, kiss you AND\nthat tree good-bye!",
@@ -1518,7 +1518,7 @@
       },
       "fleeci@adept" : {
          "damage" : "20",
-         "location" : "adept34",
+         "location" : "adept34@adept",
          "armor" : "0",
          "name" : "fleeci",
          "examine" : "\nShe wonders if you are her next opponent.",
@@ -1533,7 +1533,7 @@
       },
       "chipmunk@adept" : {
          "damage" : "5",
-         "location" : "adept5",
+         "location" : "adept5@adept",
          "armor" : "0",
          "name" : "chipmunk",
          "examine" : "He's cross-eyed and manic, but likeable.",
@@ -1545,7 +1545,7 @@
       },
       "robin@adept" : {
          "damage" : "10",
-         "location" : "adept5",
+         "location" : "adept5@adept",
          "armor" : "0",
          "name" : "robin",
          "examine" : "\nDid you ever notice how robins bounce, rather than walk?",
@@ -1560,7 +1560,7 @@
       },
       "digger@adept" : {
          "damage" : "11",
-         "location" : "adept11",
+         "location" : "adept11@adept",
          "armor" : "0",
          "name" : "digger",
          "examine" : "\nI'm going to add you to my fertilizer bin!",
@@ -1572,7 +1572,7 @@
       },
       "cactus@adept" : {
          "damage" : "10",
-         "location" : "adept59",
+         "location" : "adept59@adept",
          "armor" : "3",
          "name" : "cactus",
          "examine" : "Funny, it's a sagauro with no Gila monsters around...",
@@ -1588,7 +1588,7 @@
       },
       "executioner@adept" : {
          "damage" : "14",
-         "location" : "adept41",
+         "location" : "adept41@adept",
          "armor" : "7",
          "name" : "executioner",
          "examine" : "\nStanding nearly seven feet tall and weighing into your existence at nearly\n300 pounds, this unmoving statue of muscle takes orders when it suits him.",
@@ -1602,7 +1602,7 @@
          ]
       },
       "woodchuck@adept" : {
-         "location" : "adept5",
+         "location" : "adept5@adept",
          "speed" : "4",
          "aggression" : "20",
          "pname" : "Woodchuck",
@@ -1613,7 +1613,7 @@
       },
       "baker@adept" : {
          "damage" : "8",
-         "location" : "adept10",
+         "location" : "adept10@adept",
          "armor" : "0",
          "name" : "baker",
          "examine" : "Don't mess with this guy. He's MUCH bigger than you.",
@@ -1625,7 +1625,7 @@
       },
       "anwar@adept" : {
          "damage" : "13",
-         "location" : "adept49",
+         "location" : "adept49@adept",
          "armor" : "3",
          "name" : "anwar",
          "examine" : "\nHe isn't letting anyone near his commandress, much less a human.",
@@ -1644,7 +1644,7 @@
             "Bhands"
          ],
          "damage" : "15",
-         "location" : "adept50",
+         "location" : "adept50@adept",
          "armor" : "5",
          "name" : "intendant",
          "examine" : "\nIt's hard to believe the nature loving elves would do this to make a\ncommander!",
@@ -1659,7 +1659,7 @@
       },
       "mudclot@adept" : {
          "damage" : "7",
-         "location" : "adept66",
+         "location" : "adept66@adept",
          "armor" : "0",
          "name" : "mudclot",
          "examine" : "\nThe earth elementals have way too much time on their hands.",
@@ -1681,7 +1681,7 @@
             "Vtouch"
          ],
          "damage" : "7",
-         "location" : "adept72",
+         "location" : "adept72@adept",
          "armor" : "0",
          "name" : "captain",
          "description" : "The phantasm of Le Capitan is a direct result of &+LDEATH &*by scurvy!",
@@ -1699,7 +1699,7 @@
       },
       "bluejay@adept" : {
          "damage" : "10",
-         "location" : "adept5",
+         "location" : "adept5@adept",
          "armor" : "0",
          "name" : "bluejay",
          "examine" : "\nThis intelligent bird is looking for a mate and failing quite miserably.",
@@ -1713,7 +1713,7 @@
          ]
       },
       "imp@adept" : {
-         "location" : "adept73",
+         "location" : "adept73@adept",
          "name" : "imp",
          "examine" : "\nHe is wearing only a cummerbund and hiccoughing melodies to himself.",
          "description" : "A thoroughly intoxicated imp is perched daintily on the harpsichord.",
@@ -1731,7 +1731,7 @@
       },
       "soldier@adept" : {
          "damage" : "13",
-         "location" : "adept26",
+         "location" : "adept26@adept",
          "armor" : "10",
          "name" : "soldier",
          "examine" : "\nHe requests your identifying cape.",
@@ -1751,7 +1751,7 @@
       },
       "swabbie@adept" : {
          "damage" : "12",
-         "location" : "adept62",
+         "location" : "adept62@adept",
          "armor" : "0",
          "name" : "swabbie",
          "examine" : "\nHis morale is really low as he is the scapegoat of the crew.",
@@ -1763,7 +1763,7 @@
       },
       "earthworm@adept" : {
          "damage" : "2",
-         "location" : "adept4",
+         "location" : "adept4@adept",
          "armor" : "0",
          "name" : "earthworm",
          "examine" : "\nThe worm wriggles itself into impossible shapes and then proceeds to spell\nout 'With wood, put T into B' with its body, one letter at a time. After \nthat, it weaves its tail(?) into a cross and waves at you.",
@@ -1784,7 +1784,7 @@
       },
       "cropley@adept" : {
          "damage" : "10",
-         "location" : "adept37",
+         "location" : "adept37@adept",
          "armor" : "0",
          "name" : "cropley",
          "examine" : "\nThe pay sucks, but at least you get to meet people!",
@@ -1796,7 +1796,7 @@
       },
       "oldfart@adept" : {
          "damage" : "13",
-         "location" : "adept53",
+         "location" : "adept53@adept",
          "armor" : "10",
          "name" : "oldfart",
          "examine" : "\nThis ent has seen it all and no longer cares what happens.",
@@ -1812,7 +1812,7 @@
       },
       "hepquan@adept" : {
          "damage" : "16",
-         "location" : "adept49",
+         "location" : "adept49@adept",
          "armor" : "10",
          "name" : "hepquan",
          "description" : "\nWhistling while he works (aka sitting on his behind). Hepquan the elven\nnorcor twirls his spear and generally makes a nuisance of himself.",
@@ -1832,7 +1832,7 @@
             "NegIcestorm"
          ],
          "damage" : "11",
-         "location" : "adept21",
+         "location" : "adept21@adept",
          "armor" : "0",
          "name" : "blob",
          "examine" : "\nYou can see a skeleton floating around within the clear innards.",
@@ -1851,7 +1851,7 @@
       },
       "woodpecker@adept" : {
          "damage" : "7",
-         "location" : "adept39",
+         "location" : "adept39@adept",
          "armor" : "0",
          "name" : "woodpecker",
          "examine" : "\nA flyswatter would merely annoy this bird.",
@@ -1866,7 +1866,7 @@
       },
       "kelvin@adept" : {
          "damage" : "12",
-         "location" : "adept20",
+         "location" : "adept20@adept",
          "armor" : "0",
          "name" : "kelvin",
          "examine" : "\nPractically born and bread by a forge.",
@@ -1878,7 +1878,7 @@
       },
       "creeper@adept" : {
          "damage" : "16",
-         "location" : "adept67",
+         "location" : "adept67@adept",
          "armor" : "0",
          "name" : "creeper",
          "examine" : "\nThis particular species takes a healthy delight in relieving bipeds of\ntheir Achilles tendons. (At least they have a hobby!)",
@@ -1896,7 +1896,7 @@
             "Frost"
          ],
          "damage" : "14",
-         "location" : "adept14",
+         "location" : "adept14@adept",
          "armor" : "0",
          "name" : "teenager",
          "examine" : "\nHe has been waiting all day for the statue to talk back to him!",
@@ -1908,7 +1908,7 @@
       },
       "cricket@adept" : {
          "damage" : "8",
-         "location" : "adept5",
+         "location" : "adept5@adept",
          "armor" : "0",
          "name" : "cricket",
          "examine" : "\nLike all crickets, he claims to be directly descended from Jiminy, but\nyou don't see the resemblance.",
@@ -1920,7 +1920,7 @@
       },
       "beaver@adept" : {
          "damage" : "15",
-         "location" : "adept5",
+         "location" : "adept5@adept",
          "armor" : "3",
          "name" : "beaver",
          "examine" : "\nOnce the Ipana poster beaver, he now skulks around the forest\nboring the other beavers with stories of the stars he knew.",
@@ -1932,7 +1932,7 @@
       },
       "termite@adept" : {
          "damage" : "12",
-         "location" : "adept47",
+         "location" : "adept47@adept",
          "armor" : "0",
          "name" : "termite",
          "examine" : "\nIt would seem this bug is here for more than wood.",
@@ -1949,7 +1949,7 @@
             "Shock"
          ],
          "damage" : "9",
-         "location" : "adept36",
+         "location" : "adept36@adept",
          "armor" : "0",
          "name" : "westfall",
          "examine" : "\nSparks fly from the rim of his cauldron.",
@@ -1961,7 +1961,7 @@
       },
       "yinkit@adept" : {
          "damage" : "11",
-         "location" : "adept32",
+         "location" : "adept32@adept",
          "armor" : "0",
          "name" : "yinkit",
          "examine" : "\nWhile growing up in the far northern village of Squamol, he was kicked in\nthe head several times a year by a horse. He'd just get back up and keep\ncoming, so guard duty fit his character profile after it was shown that he\nlacked aptitude to do anything but breathe and stare...",
@@ -1979,7 +1979,7 @@
       },
       "peter@adept" : {
          "damage" : "9",
-         "location" : "adept18",
+         "location" : "adept18@adept",
          "armor" : "0",
          "name" : "peter",
          "examine" : "\nLooking for a good suit of armor? Don't come to me.",
@@ -1991,7 +1991,7 @@
       },
       "dog@adept" : {
          "damage" : "12",
-         "location" : "adept57",
+         "location" : "adept57@adept",
          "armor" : "0",
          "name" : "dog",
          "examine" : "\nThis hound is totally catatonic to peaceful travelers, but don't provoke\nhim. He doesn't beg for food, but to go out in a blaze of glory and heavy\nharpsichords.",

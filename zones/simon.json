@@ -3,7 +3,7 @@
       "swordoflight@simon" : {
          "desc[1]" : "The powerful &+BSword &+Wof &+YLight&* is here.",
          "damage" : "200",
-         "location" : "IN_ROOM:siegfried1",
+         "location" : "IN_ROOM:siegfried1@simon",
          "oflags" : [
             "weapon",
             "key",
@@ -24,7 +24,7 @@
       },
       "gauntletsoflight@simon" : {
          "desc[1]" : "The beautiful &+BGauntlets &+Wof &+YLight&* are here on their\nstand.",
-         "location" : "IN_ROOM:siegfried1",
+         "location" : "IN_ROOM:siegfried1@simon",
          "armor" : "200",
          "oflags" : [
             "armor",
@@ -49,7 +49,7 @@
       },
       "armoroflight@simon" : {
          "desc[1]" : "The majestic &+BArmor &+Wof &+YLight&* is standing here on its\nstand.",
-         "location" : "IN_ROOM:siegfried2",
+         "location" : "IN_ROOM:siegfried2@simon",
          "armor" : "200",
          "oflags" : [
             "armor",
@@ -79,7 +79,7 @@
       },
       "bootsoflight@simon" : {
          "desc[1]" : "The magnificient &+BBoots &+Wof &+YLight&* rest here on their\nstand.",
-         "location" : "IN_ROOM:siegfried2",
+         "location" : "IN_ROOM:siegfried2@simon",
          "armor" : "200",
          "oflags" : [
             "armor",
@@ -104,7 +104,7 @@
       },
       "helmetoflight@simon" : {
          "desc[1]" : "The beautiful &+BHelmet &+Wof &+YLight&* is standing here on its\nstand.",
-         "location" : "IN_ROOM:siegfried2",
+         "location" : "IN_ROOM:siegfried2@simon",
          "armor" : "200",
          "oflags" : [
             "armor",
@@ -133,7 +133,7 @@
    "loc" : {
       "siegfried1@simon" : {
          "exits" : {
-            "d" : "siegfried2"
+            "d" : "siegfried2@simon"
          },
          "flags" : [
             "party"
@@ -146,8 +146,8 @@
       },
       "siegfried2@simon" : {
          "exits" : {
-            "u" : "siegfried1",
-            "d" : "Church@start"
+            "u" : "siegfried1@simon",
+            "d" : "church@start"
          },
          "flags" : [
             "party"
@@ -162,7 +162,7 @@
    "mob" : {
       "didier@simon" : {
          "damage" : "1",
-         "location" : "siegfried1",
+         "location" : "siegfried1@simon",
          "speed" : "0",
          "armor" : "0",
          "name" : "Didier",

@@ -1,7 +1,7 @@
 {
    "obj" : {
       "shelf@doom" : {
-         "location" : "IN_ROOM:14",
+         "location" : "IN_ROOM:14@doom",
          "oflags" : [
             "NoGet",
             "Container"
@@ -10,7 +10,7 @@
          "examine" : "There seem to be a few interesting books here."
       },
       "heavy@doom" : {
-         "location" : "WORN_BY:huge",
+         "location" : "WORN_BY:huge@doom",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -27,7 +27,7 @@
       },
       "door2@doom" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:14",
+         "location" : "IN_ROOM:14@doom",
          "oflags" : [
             "NoGet",
             "Lockable",
@@ -43,7 +43,7 @@
       },
       "gate1@doom" : {
          "desc[1]" : "The gate is closed.",
-         "location" : "IN_ROOM:1",
+         "location" : "IN_ROOM:1@doom",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -60,7 +60,7 @@
       },
       "doomblade@doom" : {
          "damage" : "20",
-         "location" : "IN_CONTAINER:chest",
+         "location" : "IN_CONTAINER:chest@doom",
          "oflags" : [
             "Weapon"
          ],
@@ -73,7 +73,7 @@
          "desc[0]" : "The Doomblade lies before your feet."
       },
       "book@doom" : {
-         "location" : "IN_CONTAINER:shelf",
+         "location" : "IN_CONTAINER:shelf@doom",
          "weight" : "5",
          "name" : "book",
          "examine" : "\nThe cover is dusty.  Wiping it off you can barely make out the word 'Death'.",
@@ -83,7 +83,7 @@
       },
       "pie@doom" : {
          "desc[1]" : "There is an apple pie resting beside the window.",
-         "location" : "IN_ROOM:5",
+         "location" : "IN_ROOM:5@doom",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -100,7 +100,7 @@
       },
       "door1@doom" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:13",
+         "location" : "IN_ROOM:13@doom",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -115,7 +115,7 @@
          "desc[0]" : "The door is open."
       },
       "lairkey@doom" : {
-         "location" : "WORN_BY:doom",
+         "location" : "WORN_BY:doom@doom",
          "oflags" : [
             "Key",
             "Wearable"
@@ -133,7 +133,7 @@
       },
       "gate2@doom" : {
          "desc[1]" : "The gate is closed.",
-         "location" : "IN_ROOM:2",
+         "location" : "IN_ROOM:2@doom",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -149,7 +149,7 @@
          "desc[0]" : "The gate is open."
       },
       "gatekey@doom" : {
-         "location" : "WORN_BY:doomguard",
+         "location" : "WORN_BY:doomguard@doom",
          "oflags" : [
             "Key",
             "Wearable"
@@ -166,7 +166,7 @@
          ]
       },
       "carvings@doom" : {
-         "location" : "IN_ROOM:13",
+         "location" : "IN_ROOM:13@doom",
          "oflags" : [
             "NoGet"
          ],
@@ -176,7 +176,7 @@
       },
       "knife@doom" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:rudy",
+         "location" : "WIELDED_BY:rudy@doom",
          "oflags" : [
             "Weapon"
          ],
@@ -189,7 +189,7 @@
       },
       "chest@doom" : {
          "desc[1]" : "The chest is closed.",
-         "location" : "IN_ROOM:15",
+         "location" : "IN_ROOM:15@doom",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -207,9 +207,9 @@
    "loc" : {
       "11@doom" : {
          "exits" : {
-            "w" : "13",
-            "n" : "12",
-            "s" : "10"
+            "w" : "13@doom",
+            "n" : "12@doom",
+            "s" : "10@doom"
          },
          "flags" : [
             "Outdoors"
@@ -222,9 +222,9 @@
       },
       "4@doom" : {
          "exits" : {
-            "w" : "5",
-            "n" : "7",
-            "s" : "2"
+            "w" : "5@doom",
+            "n" : "7@doom",
+            "s" : "2@doom"
          },
          "flags" : [
             "Outdoors"
@@ -237,7 +237,7 @@
       },
       "3@doom" : {
          "exits" : {
-            "w" : "2"
+            "w" : "2@doom"
          },
          "flags" : [],
          "zone" : "doom",
@@ -259,10 +259,10 @@
       },
       "f1@doom" : {
          "exits" : {
-            "w" : "SNOW_TEMPLE@BLIZZARD",
-            "e" : "f2",
-            "u" : "SNOW_TEMPLE@BLIZZARD",
-            "d" : "f2"
+            "w" : "snow_temple@blizzard",
+            "e" : "f2@doom",
+            "u" : "snow_temple@blizzard",
+            "d" : "f2@doom"
          },
          "flags" : [
             "Cold",
@@ -276,8 +276,8 @@
       },
       "13@doom" : {
          "exits" : {
-            "w" : "^door1",
-            "e" : "11"
+            "w" : "^door1@doom",
+            "e" : "11@doom"
          },
          "flags" : [
             "Outdoors"
@@ -301,7 +301,7 @@
       },
       "14@doom" : {
          "exits" : {
-            "e" : "^door2"
+            "e" : "^door2@doom"
          },
          "flags" : [],
          "zone" : "doom",
@@ -312,8 +312,8 @@
       },
       "10@doom" : {
          "exits" : {
-            "w" : "9",
-            "n" : "11"
+            "w" : "9@doom",
+            "n" : "11@doom"
          },
          "flags" : [
             "Outdoors"
@@ -326,8 +326,8 @@
       },
       "f3@doom" : {
          "exits" : {
-            "n" : "1",
-            "s" : "f2"
+            "n" : "1@doom",
+            "s" : "f2@doom"
          },
          "flags" : [
             "Outdoors"
@@ -340,8 +340,8 @@
       },
       "1@doom" : {
          "exits" : {
-            "n" : "^gate1",
-            "s" : "f3"
+            "n" : "^gate1@doom",
+            "s" : "f3@doom"
          },
          "flags" : [
             "Outdoors"
@@ -354,9 +354,9 @@
       },
       "2@doom" : {
          "exits" : {
-            "e" : "3",
-            "n" : "4",
-            "s" : "^gate2"
+            "e" : "3@doom",
+            "n" : "4@doom",
+            "s" : "^gate2@doom"
          },
          "flags" : [
             "NoMobiles",
@@ -370,8 +370,8 @@
       },
       "5@doom" : {
          "exits" : {
-            "w" : "6",
-            "e" : "4"
+            "w" : "6@doom",
+            "e" : "4@doom"
          },
          "flags" : [],
          "zone" : "doom",
@@ -382,9 +382,9 @@
       },
       "f2@doom" : {
          "exits" : {
-            "w" : "f1",
-            "n" : "f3",
-            "u" : "f1"
+            "w" : "f1@doom",
+            "n" : "f3@doom",
+            "u" : "f1@doom"
          },
          "flags" : [
             "Cold",
@@ -398,7 +398,7 @@
       },
       "6@doom" : {
          "exits" : {
-            "e" : "5"
+            "e" : "5@doom"
          },
          "flags" : [
             "Outdoors"
@@ -411,8 +411,8 @@
       },
       "12@doom" : {
          "exits" : {
-            "d" : "16",
-            "s" : "11"
+            "d" : "16@doom",
+            "s" : "11@doom"
          },
          "flags" : [],
          "zone" : "doom",
@@ -423,8 +423,8 @@
       },
       "9@doom" : {
          "exits" : {
-            "e" : "10",
-            "s" : "7"
+            "e" : "10@doom",
+            "s" : "7@doom"
          },
          "flags" : [
             "Outdoors"
@@ -437,7 +437,7 @@
       },
       "8@doom" : {
          "exits" : {
-            "w" : "7"
+            "w" : "7@doom"
          },
          "flags" : [],
          "zone" : "doom",
@@ -448,9 +448,9 @@
       },
       "7@doom" : {
          "exits" : {
-            "e" : "8",
-            "n" : "9",
-            "s" : "4"
+            "e" : "8@doom",
+            "n" : "9@doom",
+            "s" : "4@doom"
          },
          "flags" : [
             "Outdoors"
@@ -465,7 +465,7 @@
    "mob" : {
       "jeffery@doom" : {
          "damage" : "15",
-         "location" : "6",
+         "location" : "6@doom",
          "speed" : "0",
          "armor" : "0",
          "pname" : "Jeffery",
@@ -476,7 +476,7 @@
       },
       "rudy@doom" : {
          "damage" : "20",
-         "location" : "7",
+         "location" : "7@doom",
          "name" : "rudy",
          "examine" : "She is a huge fat and ugly cook with a big knife.",
          "description" : "Rudy the Cook is here brandishing her knives at you.",
@@ -489,7 +489,7 @@
       },
       "skeleton@doom" : {
          "damage" : "10",
-         "location" : "11",
+         "location" : "11@doom",
          "speed" : "0",
          "aggression" : "1",
          "pname" : "The Skeleton",
@@ -503,7 +503,7 @@
       },
       "drunk@doom" : {
          "damage" : "10",
-         "location" : "8",
+         "location" : "8@doom",
          "name" : "drunk",
          "examine" : "Yuck! He is talking to his own vomit!",
          "description" : "There is a drunk here.",
@@ -516,7 +516,7 @@
       },
       "doomguard@doom" : {
          "damage" : "10",
-         "location" : "1",
+         "location" : "1@doom",
          "armor" : "2",
          "name" : "doomguard",
          "description" : "There is a guard standing here looking down on you.",
@@ -529,7 +529,7 @@
       },
       "huge@doom" : {
          "damage" : "10",
-         "location" : "14",
+         "location" : "14@doom",
          "speed" : "0",
          "aggression" : "60",
          "pname" : "Huge",
@@ -539,7 +539,7 @@
       },
       "nathan@doom" : {
          "damage" : "12",
-         "location" : "12",
+         "location" : "12@doom",
          "speed" : "0",
          "aggression" : "60",
          "pname" : "Nathan",
@@ -553,7 +553,7 @@
             "Blind"
          ],
          "damage" : "30",
-         "location" : "15",
+         "location" : "15@doom",
          "name" : "doom",
          "examine" : "He is a tall and muscled man that doesn't seem to care\nabout personnal hygien. He looks quite mean, you should be careful.",
          "description" : "Doom, the town Lord is standing here laughing at you.",
@@ -567,7 +567,7 @@
       },
       "oldman@doom" : {
          "damage" : "10",
-         "location" : "3",
+         "location" : "3@doom",
          "speed" : "0",
          "aggression" : "70",
          "pname" : "The Man",

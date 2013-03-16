@@ -2,7 +2,7 @@
    "obj" : {
       "door_crawlspace@pensalon" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:pensalon25",
+         "location" : "IN_ROOM:pensalon25@pensalon",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -17,7 +17,7 @@
          "desc[0]" : "The door is open."
       },
       "draken@pensalon" : {
-         "location" : "IN_ROOM:pensalon28",
+         "location" : "IN_ROOM:pensalon28@pensalon",
          "oflags" : [
             "NoGet"
          ],
@@ -28,7 +28,7 @@
       },
       "rockfall_cavern@pensalon" : {
          "desc[1]" : "A large rockfall covers the northern wall.",
-         "location" : "IN_ROOM:pensalon24",
+         "location" : "IN_ROOM:pensalon24@pensalon",
          "oflags" : [
             "NoGet"
          ],
@@ -40,7 +40,7 @@
       },
       "door_room@pensalon" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:pensalon26",
+         "location" : "IN_ROOM:pensalon26@pensalon",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -56,7 +56,7 @@
       },
       "flail@pensalon" : {
          "damage" : "8",
-         "location" : "IN_ROOM:pensalon37",
+         "location" : "IN_ROOM:pensalon37@pensalon",
          "oflags" : [
             "Weapon"
          ],
@@ -68,7 +68,7 @@
       },
       "dias_throne@pensalon" : {
          "desc[1]" : "A large golden throne sits on top a Dias.",
-         "location" : "IN_ROOM:pensalon21",
+         "location" : "IN_ROOM:pensalon21@pensalon",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -82,7 +82,7 @@
       },
       "door_storeroom@pensalon" : {
          "desc[1]" : "A wooden door bars your forward progress.",
-         "location" : "IN_ROOM:pensalon52",
+         "location" : "IN_ROOM:pensalon52@pensalon",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -99,7 +99,7 @@
       },
       "plank@pensalon" : {
          "damage" : "6",
-         "location" : "IN_ROOM:pensalon9",
+         "location" : "IN_ROOM:pensalon9@pensalon",
          "oflags" : [
             "Lightable",
             "Extinguish",
@@ -112,7 +112,7 @@
       },
       "forge_workshop@pensalon" : {
          "desc[1]" : "A large forge sits in the center of the room.",
-         "location" : "IN_ROOM:pensalon38",
+         "location" : "IN_ROOM:pensalon38@pensalon",
          "oflags" : [
             "Pushtoggle",
             "NoGet"
@@ -128,7 +128,7 @@
       },
       "door_passage@pensalon" : {
          "desc[1]" : "A wooden door bars your forward progress.",
-         "location" : "IN_ROOM:pensalon51",
+         "location" : "IN_ROOM:pensalon51@pensalon",
          "oflags" : [
             "Lockable",
             "Openable",
@@ -145,7 +145,7 @@
       },
       "throne_throne@pensalon" : {
          "desc[1]" : "The back of the King's throne is here, blocking the passage.",
-         "location" : "IN_ROOM:pensalon22",
+         "location" : "IN_ROOM:pensalon22@pensalon",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -159,7 +159,7 @@
       },
       "knife@pensalon" : {
          "damage" : "5",
-         "location" : "WIELDED_BY:chef",
+         "location" : "WIELDED_BY:chef@pensalon",
          "oflags" : [
             "Weapon"
          ],
@@ -169,7 +169,7 @@
          "size" : "8"
       },
       "forge_passage@pensalon" : {
-         "location" : "IN_ROOM:pensalon51",
+         "location" : "IN_ROOM:pensalon51@pensalon",
          "oflags" : [
             "Pushtoggle",
             "NoGet"
@@ -183,7 +183,7 @@
          "desc[0]" : "The wall is pushed aside, revealing a passage."
       },
       "bread@pensalon" : {
-         "location" : "IN_ROOM:pensalon33",
+         "location" : "IN_ROOM:pensalon33@pensalon",
          "oflags" : [
             "Food"
          ],
@@ -196,7 +196,7 @@
       "dragonslayer@pensalon" : {
          "desc[1]" : "A huge two handed sword stands straight up, stuck tip first into the ground.",
          "damage" : "25",
-         "location" : "WIELDED_BY:crazed",
+         "location" : "WIELDED_BY:crazed@pensalon",
          "armor" : "70",
          "oflags" : [
             "Weapon",
@@ -214,7 +214,7 @@
          ]
       },
       "helm@pensalon" : {
-         "location" : "WORN_BY:Symber",
+         "location" : "WORN_BY:symber@pensalon",
          "armor" : "62",
          "oflags" : [
             "Wearable",
@@ -231,7 +231,7 @@
       },
       "chest@pensalon" : {
          "desc[1]" : "A large chest sits closed against the far wall.",
-         "location" : "IN_ROOM:pensalon52",
+         "location" : "IN_ROOM:pensalon52@pensalon",
          "oflags" : [
             "Container",
             "Openable",
@@ -244,7 +244,7 @@
       },
       "rockfall_crawlspace@pensalon" : {
          "desc[1]" : "A large rockfall covers the southern wall.",
-         "location" : "IN_ROOM:pensalon25",
+         "location" : "IN_ROOM:pensalon25@pensalon",
          "oflags" : [
             "NoGet"
          ],
@@ -255,7 +255,7 @@
          "state" : "1"
       },
       "chainmail@pensalon" : {
-         "location" : "WORN_BY:jinx",
+         "location" : "WORN_BY:jinx@pensalon",
          "armor" : "42",
          "oflags" : [
             "Armor",
@@ -274,7 +274,7 @@
          ]
       },
       "ball@pensalon" : {
-         "location" : "IN_ROOM:pensalon50",
+         "location" : "IN_ROOM:pensalon50@pensalon",
          "oflags" : [
             "NoGet",
             "Lit"
@@ -287,8 +287,8 @@
    "loc" : {
       "pensalon37@pensalon" : {
          "exits" : {
-            "e" : "pensalon38",
-            "s" : "pensalon10"
+            "e" : "pensalon38@pensalon",
+            "s" : "pensalon10@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -299,8 +299,8 @@
       },
       "pensalon22@pensalon" : {
          "exits" : {
-            "w" : "pensalon23",
-            "u" : "^throne_throne"
+            "w" : "pensalon23@pensalon",
+            "u" : "^throne_throne@pensalon"
          },
          "flags" : [
             "Dark",
@@ -314,8 +314,8 @@
       },
       "pensalon33@pensalon" : {
          "exits" : {
-            "w" : "pensalon34",
-            "s" : "pensalon29"
+            "w" : "pensalon34@pensalon",
+            "s" : "pensalon29@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -326,8 +326,8 @@
       },
       "pensalon21@pensalon" : {
          "exits" : {
-            "d" : "^dias_throne",
-            "s" : "pensalon20"
+            "d" : "^dias_throne@pensalon",
+            "s" : "pensalon20@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -338,7 +338,7 @@
       },
       "pensalon35@pensalon" : {
          "exits" : {
-            "n" : "pensalon34"
+            "n" : "pensalon34@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -349,8 +349,8 @@
       },
       "pensalon30@pensalon" : {
          "exits" : {
-            "e" : "pensalon31",
-            "u" : "pensalon29"
+            "e" : "pensalon31@pensalon",
+            "u" : "pensalon29@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -361,10 +361,10 @@
       },
       "pensalon45@pensalon" : {
          "exits" : {
-            "w" : "pensalon42",
-            "e" : "pensalon42",
-            "n" : "pensalon42",
-            "s" : "pensalon46"
+            "w" : "pensalon42@pensalon",
+            "e" : "pensalon42@pensalon",
+            "n" : "pensalon42@pensalon",
+            "s" : "pensalon46@pensalon"
          },
          "flags" : [
             "dark",
@@ -378,8 +378,8 @@
       },
       "pensalon31@pensalon" : {
          "exits" : {
-            "w" : "pensalon30",
-            "e" : "pensalon32"
+            "w" : "pensalon30@pensalon",
+            "e" : "pensalon32@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -390,7 +390,7 @@
       },
       "pensalon18@pensalon" : {
          "exits" : {
-            "e" : "pensalon16"
+            "e" : "pensalon16@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -401,8 +401,8 @@
       },
       "pensalon34@pensalon" : {
          "exits" : {
-            "e" : "pensalon33",
-            "s" : "pensalon35"
+            "e" : "pensalon33@pensalon",
+            "s" : "pensalon35@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -413,10 +413,10 @@
       },
       "pensalon47@pensalon" : {
          "exits" : {
-            "w" : "pensalon42",
-            "e" : "pensalon42",
-            "n" : "pensalon48",
-            "s" : "pensalon42"
+            "w" : "pensalon42@pensalon",
+            "e" : "pensalon42@pensalon",
+            "n" : "pensalon48@pensalon",
+            "s" : "pensalon42@pensalon"
          },
          "flags" : [
             "dark",
@@ -430,8 +430,8 @@
       },
       "pensalon7@pensalon" : {
          "exits" : {
-            "n" : "pensalon8",
-            "s" : "pensalon6"
+            "n" : "pensalon8@pensalon",
+            "s" : "pensalon6@pensalon"
          },
          "flags" : [
             "Outdoors"
@@ -444,7 +444,7 @@
       },
       "pensalon52@pensalon" : {
          "exits" : {
-            "w" : "^door_storeroom"
+            "w" : "^door_storeroom@pensalon"
          },
          "flags" : [
             "Dark",
@@ -458,10 +458,10 @@
       },
       "pensalon46@pensalon" : {
          "exits" : {
-            "w" : "pensalon42",
-            "e" : "pensalon47",
-            "n" : "pensalon42",
-            "s" : "pensalon42"
+            "w" : "pensalon42@pensalon",
+            "e" : "pensalon47@pensalon",
+            "n" : "pensalon42@pensalon",
+            "s" : "pensalon42@pensalon"
          },
          "flags" : [
             "dark",
@@ -475,8 +475,8 @@
       },
       "pensalon36@pensalon" : {
          "exits" : {
-            "w" : "pensalon41",
-            "e" : "pensalon24"
+            "w" : "pensalon41@pensalon",
+            "e" : "pensalon24@pensalon"
          },
          "flags" : [
             "NoMobiles"
@@ -489,9 +489,9 @@
       },
       "pensalon10@pensalon" : {
          "exits" : {
-            "w" : "pensalon9",
-            "e" : "pensalon12",
-            "n" : "pensalon37"
+            "w" : "pensalon9@pensalon",
+            "e" : "pensalon12@pensalon",
+            "n" : "pensalon37@pensalon"
          },
          "flags" : [
             "Outdoors",
@@ -505,7 +505,7 @@
       },
       "pensalon28@pensalon" : {
          "exits" : {
-            "w" : "pensalon27"
+            "w" : "pensalon27@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -516,10 +516,10 @@
       },
       "pensalon41@pensalon" : {
          "exits" : {
-            "w" : "pensalon42",
-            "e" : "pensalon36",
-            "n" : "pensalon41",
-            "s" : "pensalon41"
+            "w" : "pensalon42@pensalon",
+            "e" : "pensalon36@pensalon",
+            "n" : "pensalon41@pensalon",
+            "s" : "pensalon41@pensalon"
          },
          "flags" : [
             "Dark",
@@ -533,8 +533,8 @@
       },
       "pensalon25@pensalon" : {
          "exits" : {
-            "n" : "^door_crawlspace",
-            "s" : "^rockfall_crawlspace"
+            "n" : "^door_crawlspace@pensalon",
+            "s" : "^rockfall_crawlspace@pensalon"
          },
          "flags" : [
             "Dark",
@@ -548,10 +548,10 @@
       },
       "pensalon48@pensalon" : {
          "exits" : {
-            "w" : "pensalon42",
-            "e" : "pensalon49",
-            "n" : "pensalon42",
-            "s" : "pensalon42"
+            "w" : "pensalon42@pensalon",
+            "e" : "pensalon49@pensalon",
+            "n" : "pensalon42@pensalon",
+            "s" : "pensalon42@pensalon"
          },
          "flags" : [
             "dark",
@@ -566,8 +566,8 @@
       },
       "pensalon51@pensalon" : {
          "exits" : {
-            "w" : "^forge_passage",
-            "e" : "^door_passage"
+            "w" : "^forge_passage@pensalon",
+            "e" : "^door_passage@pensalon"
          },
          "flags" : [
             "Dark"
@@ -580,8 +580,8 @@
       },
       "pensalon13@pensalon" : {
          "exits" : {
-            "u" : "pensalon14",
-            "d" : "pensalon12"
+            "u" : "pensalon14@pensalon",
+            "d" : "pensalon12@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -592,8 +592,8 @@
       },
       "pensalon11@pensalon" : {
          "exits" : {
-            "n" : "pensalon19",
-            "d" : "pensalon9"
+            "n" : "pensalon19@pensalon",
+            "d" : "pensalon9@pensalon"
          },
          "flags" : [
             "Outdoors"
@@ -606,8 +606,8 @@
       },
       "pensalon49@pensalon" : {
          "exits" : {
-            "n" : "pensalon50",
-            "s" : "pensalon48"
+            "n" : "pensalon50@pensalon",
+            "s" : "pensalon48@pensalon"
          },
          "flags" : [
             "dark",
@@ -621,8 +621,8 @@
       },
       "pensalon12@pensalon" : {
          "exits" : {
-            "w" : "pensalon10",
-            "u" : "pensalon13"
+            "w" : "pensalon10@pensalon",
+            "u" : "pensalon13@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -633,7 +633,7 @@
       },
       "pensalon17@pensalon" : {
          "exits" : {
-            "d" : "pensalon15"
+            "d" : "pensalon15@pensalon"
          },
          "flags" : [
             "Outdoors"
@@ -646,10 +646,10 @@
       },
       "pensalon42@pensalon" : {
          "exits" : {
-            "w" : "pensalon43",
-            "e" : "pensalon41",
-            "n" : "pensalon42",
-            "s" : "pensalon42"
+            "w" : "pensalon43@pensalon",
+            "e" : "pensalon41@pensalon",
+            "n" : "pensalon42@pensalon",
+            "s" : "pensalon42@pensalon"
          },
          "flags" : [
             "Dark",
@@ -663,8 +663,8 @@
       },
       "pensalon20@pensalon" : {
          "exits" : {
-            "n" : "pensalon21",
-            "s" : "pensalon19"
+            "n" : "pensalon21@pensalon",
+            "s" : "pensalon19@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -675,9 +675,9 @@
       },
       "pensalon29@pensalon" : {
          "exits" : {
-            "e" : "pensalon19",
-            "n" : "pensalon33",
-            "d" : "pensalon30"
+            "e" : "pensalon19@pensalon",
+            "n" : "pensalon33@pensalon",
+            "d" : "pensalon30@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -688,9 +688,9 @@
       },
       "pensalon9@pensalon" : {
          "exits" : {
-            "e" : "pensalon10",
-            "u" : "pensalon11",
-            "s" : "pensalon8"
+            "e" : "pensalon10@pensalon",
+            "u" : "pensalon11@pensalon",
+            "s" : "pensalon8@pensalon"
          },
          "flags" : [
             "Outdoors"
@@ -703,8 +703,8 @@
       },
       "pensalon16@pensalon" : {
          "exits" : {
-            "w" : "pensalon18",
-            "e" : "pensalon15"
+            "w" : "pensalon18@pensalon",
+            "e" : "pensalon15@pensalon"
          },
          "flags" : [
             "Outdoors"
@@ -717,8 +717,8 @@
       },
       "pensalon38@pensalon" : {
          "exits" : {
-            "w" : "pensalon37",
-            "e" : "^forge_workshop"
+            "w" : "pensalon37@pensalon",
+            "e" : "^forge_workshop@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -729,7 +729,7 @@
       },
       "pensalon26@pensalon" : {
          "exits" : {
-            "s" : "^door_room"
+            "s" : "^door_room@pensalon"
          },
          "flags" : [
             "Dark"
@@ -742,8 +742,8 @@
       },
       "pensalon27@pensalon" : {
          "exits" : {
-            "w" : "pensalon19",
-            "e" : "pensalon28"
+            "w" : "pensalon19@pensalon",
+            "e" : "pensalon28@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -754,7 +754,7 @@
       },
       "pensalon32@pensalon" : {
          "exits" : {
-            "w" : "pensalon31"
+            "w" : "pensalon31@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -765,10 +765,10 @@
       },
       "pensalon43@pensalon" : {
          "exits" : {
-            "w" : "pensalon42",
-            "e" : "pensalon42",
-            "n" : "pensalon42",
-            "s" : "pensalon44"
+            "w" : "pensalon42@pensalon",
+            "e" : "pensalon42@pensalon",
+            "n" : "pensalon42@pensalon",
+            "s" : "pensalon44@pensalon"
          },
          "flags" : [
             "dark",
@@ -782,9 +782,9 @@
       },
       "pensalon15@pensalon" : {
          "exits" : {
-            "w" : "pensalon16",
-            "u" : "pensalon17",
-            "n" : "pensalon14"
+            "w" : "pensalon16@pensalon",
+            "u" : "pensalon17@pensalon",
+            "n" : "pensalon14@pensalon"
          },
          "flags" : [
             "Outdoors"
@@ -797,7 +797,7 @@
       },
       "pensalon6@pensalon" : {
          "exits" : {
-            "n" : "pensalon7",
+            "n" : "pensalon7@pensalon",
             "s" : "town55@town"
          },
          "flags" : [
@@ -811,10 +811,10 @@
       },
       "pensalon19@pensalon" : {
          "exits" : {
-            "w" : "pensalon29",
-            "e" : "pensalon27",
-            "n" : "pensalon20",
-            "s" : "pensalon11"
+            "w" : "pensalon29@pensalon",
+            "e" : "pensalon27@pensalon",
+            "n" : "pensalon20@pensalon",
+            "s" : "pensalon11@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -825,10 +825,10 @@
       },
       "pensalon44@pensalon" : {
          "exits" : {
-            "w" : "pensalon45",
-            "e" : "pensalon42",
-            "n" : "pensalon42",
-            "s" : "pensalon42"
+            "w" : "pensalon45@pensalon",
+            "e" : "pensalon42@pensalon",
+            "n" : "pensalon42@pensalon",
+            "s" : "pensalon42@pensalon"
          },
          "flags" : [
             "dark",
@@ -842,7 +842,7 @@
       },
       "pensalon50@pensalon" : {
          "exits" : {
-            "s" : "pensalon49"
+            "s" : "pensalon49@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -853,9 +853,9 @@
       },
       "pensalon24@pensalon" : {
          "exits" : {
-            "w" : "pensalon36",
-            "e" : "pensalon23",
-            "n" : "^rockfall_cavern"
+            "w" : "pensalon36@pensalon",
+            "e" : "pensalon23@pensalon",
+            "n" : "^rockfall_cavern@pensalon"
          },
          "flags" : [
             "Dark"
@@ -868,8 +868,8 @@
       },
       "pensalon23@pensalon" : {
          "exits" : {
-            "w" : "pensalon24",
-            "e" : "pensalon22"
+            "w" : "pensalon24@pensalon",
+            "e" : "pensalon22@pensalon"
          },
          "flags" : [
             "Dark"
@@ -882,8 +882,8 @@
       },
       "pensalon14@pensalon" : {
          "exits" : {
-            "d" : "pensalon13",
-            "s" : "pensalon15"
+            "d" : "pensalon13@pensalon",
+            "s" : "pensalon15@pensalon"
          },
          "flags" : [],
          "zone" : "pensalon",
@@ -894,8 +894,8 @@
       },
       "pensalon8@pensalon" : {
          "exits" : {
-            "n" : "pensalon9",
-            "s" : "pensalon7"
+            "n" : "pensalon9@pensalon",
+            "s" : "pensalon7@pensalon"
          },
          "flags" : [
             "Outdoors"
@@ -910,7 +910,7 @@
    "mob" : {
       "tinglera@pensalon" : {
          "damage" : "10",
-         "location" : "pensalon13",
+         "location" : "pensalon13@pensalon",
          "speed" : "5",
          "aggression" : "35",
          "pname" : "Tinglera",
@@ -920,7 +920,7 @@
       },
       "chef@pensalon" : {
          "damage" : "10",
-         "location" : "pensalon33",
+         "location" : "pensalon33@pensalon",
          "aggression" : "25",
          "pname" : "Chef",
          "name" : "Chef",
@@ -929,7 +929,7 @@
       },
       "smuggler@pensalon" : {
          "damage" : "10",
-         "location" : "pensalon32",
+         "location" : "pensalon32@pensalon",
          "aggression" : "8",
          "pname" : "Smuggler",
          "name" : "Smuggler",
@@ -938,7 +938,7 @@
       },
       "crazed@pensalon" : {
          "damage" : "10",
-         "location" : "pensalon26",
+         "location" : "pensalon26@pensalon",
          "aggression" : "9",
          "pname" : "Crazed",
          "name" : "Crazed",
@@ -950,7 +950,7 @@
             "Shock"
          ],
          "damage" : "10",
-         "location" : "pensalon42",
+         "location" : "pensalon42@pensalon",
          "name" : "Serpeant",
          "description" : "A large Serpeant swims around the lake.",
          "sflags" : [
@@ -964,7 +964,7 @@
       },
       "symber@pensalon" : {
          "damage" : "10",
-         "location" : "pensalon18",
+         "location" : "pensalon18@pensalon",
          "name" : "Symber",
          "description" : "Symber the skeleton guard rambles around the room.",
          "sflags" : [

@@ -1,7 +1,7 @@
 {
    "obj" : {
       "sign_2@haunted" : {
-         "location" : "IN_ROOM:haunted_23",
+         "location" : "IN_ROOM:haunted_23@haunted",
          "oflags" : [
             "NoGet"
          ],
@@ -11,7 +11,7 @@
          "desc[0]" : "A sign hangs beside the door."
       },
       "pumpkin_2@haunted" : {
-         "location" : "IN_CONTAINER:boulder",
+         "location" : "IN_CONTAINER:boulder@haunted",
          "pname" : "pumpkin",
          "name" : "Pumpkin_2",
          "examine" : "To win the quest, you must find my two siblings. They are hidden throughout \nthe zone.  Only with the three of us, can you defeat the Jack O' Lantern Demon!",
@@ -19,14 +19,14 @@
          "desc[0]" : "A pumpkin is lying here."
       },
       "journal@haunted" : {
-         "location" : "IN_ROOM:haunted_19",
+         "location" : "IN_ROOM:haunted_19@haunted",
          "name" : "journal",
          "examine" : "\nThe journal tells about the journey of three students to find the Blair Witch.\nThe last entry sends chills down your spine as you read the words.\n'I am so scared.  She has already gotten the others.  Now all that is left is \nme.  Where do I run? What am I going to do?  Maybe I should just surrender to \nher and let her make of me what she wants.'",
          "bvalue" : "60",
          "desc[0]" : "As you bend down, you see a torn journal laying here."
       },
       "mask@haunted" : {
-         "location" : "WORN_BY:Jason",
+         "location" : "WORN_BY:jason@haunted",
          "armor" : "10",
          "oflags" : [
             "Armor"
@@ -42,7 +42,7 @@
          "desc[0]" : "A hockey mask lies here."
       },
       "girl@haunted" : {
-         "location" : "IN_CONTAINER:bathtub",
+         "location" : "IN_CONTAINER:bathtub@haunted",
          "oflags" : [
             "NoGet"
          ],
@@ -50,7 +50,7 @@
          "examine" : "The girl's body sits up, and her eyes open.  Her head turns toward you and\nshe says, Freddy's coming for you!"
       },
       "pumpkin_1@haunted" : {
-         "location" : "CARRIED_BY:Freddy",
+         "location" : "CARRIED_BY:freddy@haunted",
          "pname" : "pumpkin",
          "name" : "Pumpkin_1",
          "examine" : "\nTo win the quest, you must find my two siblings.  They are hidden throughout \nthe haunt.  Only with the three of us, can you defeat the Jack O' Lantern Demon!",
@@ -58,7 +58,7 @@
          "desc[0]" : "A pumpkin rests here."
       },
       "pumpkin_3@haunted" : {
-         "location" : "CARRIED_BY:Blob",
+         "location" : "CARRIED_BY:blob@haunted",
          "pname" : "pumpkin",
          "name" : "Pumpkin_3",
          "examine" : "To win the quest, you must find my two siblings. They are hidden throughout \nthe zone.  Only with the three of us, can you defeat the Jack O' Lantern Demon!",
@@ -66,7 +66,7 @@
          "desc[0]" : "A pumpkin lies here."
       },
       "sofa@haunted" : {
-         "location" : "IN_ROOM:haunted_5",
+         "location" : "IN_ROOM:haunted_5@haunted",
          "oflags" : [
             "NoGet"
          ],
@@ -77,7 +77,7 @@
       },
       "door_2@haunted" : {
          "desc[1]" : "The door to the house is closed.",
-         "location" : "IN_ROOM:haunted_5",
+         "location" : "IN_ROOM:haunted_5@haunted",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -90,7 +90,7 @@
          "desc[0]" : "The door to the house is opened."
       },
       "mirror@haunted" : {
-         "location" : "IN_ROOM:haunted_7",
+         "location" : "IN_ROOM:haunted_7@haunted",
          "oflags" : [
             "NoGet"
          ],
@@ -100,7 +100,7 @@
       },
       "knife@haunted" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:Jason",
+         "location" : "WIELDED_BY:jason@haunted",
          "oflags" : [
             "Weapon"
          ],
@@ -113,7 +113,7 @@
       },
       "boulder@haunted" : {
          "desc[1]" : "A boulder is sitting here.",
-         "location" : "IN_ROOM:haunted_20",
+         "location" : "IN_ROOM:haunted_20@haunted",
          "oflags" : [
             "Container",
             "NoGet",
@@ -126,7 +126,7 @@
          "desc[0]" : "Someone has opened up a boulder."
       },
       "tent@haunted" : {
-         "location" : "IN_ROOM:haunted_19",
+         "location" : "IN_ROOM:haunted_19@haunted",
          "oflags" : [
             "NoGet"
          ],
@@ -135,7 +135,7 @@
          "desc[0]" : "A collapsed tent lies torn on the ground."
       },
       "sign@haunted" : {
-         "location" : "IN_ROOM:haunted_0",
+         "location" : "IN_ROOM:haunted_0@haunted",
          "oflags" : [
             "NoGet"
          ],
@@ -145,7 +145,7 @@
          "desc[0]" : "A moss-covered, rotting sign sits beside the path."
       },
       "bathtub@haunted" : {
-         "location" : "IN_ROOM:haunted_8",
+         "location" : "IN_ROOM:haunted_8@haunted",
          "oflags" : [
             "NoGet",
             "Container"
@@ -157,7 +157,7 @@
       },
       "door_1@haunted" : {
          "desc[1]" : "The door to the house is closed.",
-         "location" : "IN_ROOM:haunted_4",
+         "location" : "IN_ROOM:haunted_4@haunted",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -173,10 +173,10 @@
    "loc" : {
       "haunted_18@haunted" : {
          "exits" : {
-            "w" : "haunted_21",
-            "e" : "haunted_20",
-            "n" : "haunted_19",
-            "s" : "haunted_19"
+            "w" : "haunted_21@haunted",
+            "e" : "haunted_20@haunted",
+            "n" : "haunted_19@haunted",
+            "s" : "haunted_19@haunted"
          },
          "flags" : [
             "Real",
@@ -190,8 +190,8 @@
       },
       "haunted_23@haunted" : {
          "exits" : {
-            "e" : "haunted_16",
-            "s" : "haunted_24"
+            "e" : "haunted_16@haunted",
+            "s" : "haunted_24@haunted"
          },
          "flags" : [
             "Real"
@@ -204,10 +204,10 @@
       },
       "haunted_1@haunted" : {
          "exits" : {
-            "w" : "haunted_14",
-            "e" : "haunted_2",
-            "n" : "haunted_16",
-            "s" : "haunted_0"
+            "w" : "haunted_14@haunted",
+            "e" : "haunted_2@haunted",
+            "n" : "haunted_16@haunted",
+            "s" : "haunted_0@haunted"
          },
          "flags" : [
             "Real",
@@ -221,7 +221,7 @@
       },
       "haunted_0@haunted" : {
          "exits" : {
-            "n" : "haunted_1",
+            "n" : "haunted_1@haunted",
             "s" : "entry@novice"
          },
          "flags" : [
@@ -236,7 +236,7 @@
       },
       "haunted_29@haunted" : {
          "exits" : {
-            "e" : "haunted_27"
+            "e" : "haunted_27@haunted"
          },
          "flags" : [
             "Real"
@@ -249,7 +249,7 @@
       },
       "haunted_28@haunted" : {
          "exits" : {
-            "s" : "haunted_27"
+            "s" : "haunted_27@haunted"
          },
          "flags" : [
             "Dark"
@@ -262,10 +262,10 @@
       },
       "haunted_27@haunted" : {
          "exits" : {
-            "e" : "haunted_30",
-            "w" : "haunted_29",
-            "n" : "haunted_28",
-            "s" : "haunted_16"
+            "e" : "haunted_30@haunted",
+            "w" : "haunted_29@haunted",
+            "n" : "haunted_28@haunted",
+            "s" : "haunted_16@haunted"
          },
          "flags" : [
             "Real"
@@ -278,10 +278,10 @@
       },
       "haunted_19@haunted" : {
          "exits" : {
-            "w" : "haunted_20",
-            "e" : "haunted_21",
-            "n" : "haunted_18",
-            "s" : "haunted_20"
+            "w" : "haunted_20@haunted",
+            "e" : "haunted_21@haunted",
+            "n" : "haunted_18@haunted",
+            "s" : "haunted_20@haunted"
          },
          "flags" : [
             "Real",
@@ -306,7 +306,7 @@
       },
       "haunted_38@haunted" : {
          "exits" : {
-            "n" : "haunted_37"
+            "n" : "haunted_37@haunted"
          },
          "flags" : [],
          "zone" : "haunted",
@@ -317,8 +317,8 @@
       },
       "haunted_35@haunted" : {
          "exits" : {
-            "e" : "haunted_34",
-            "w" : "haunted_36"
+            "e" : "haunted_34@haunted",
+            "w" : "haunted_36@haunted"
          },
          "flags" : [],
          "zone" : "haunted",
@@ -329,10 +329,10 @@
       },
       "haunted_34@haunted" : {
          "exits" : {
-            "w" : "haunted_35",
-            "e" : "haunted_32",
-            "n" : "haunted_33",
-            "s" : "haunted_31"
+            "w" : "haunted_35@haunted",
+            "e" : "haunted_32@haunted",
+            "n" : "haunted_33@haunted",
+            "s" : "haunted_31@haunted"
          },
          "flags" : [
             "Real"
@@ -367,10 +367,10 @@
       },
       "haunted_30@haunted" : {
          "exits" : {
-            "w" : "haunted_27",
-            "e" : "haunted_32",
-            "n" : "haunted_31",
-            "s" : "haunted_32"
+            "w" : "haunted_27@haunted",
+            "e" : "haunted_32@haunted",
+            "n" : "haunted_31@haunted",
+            "s" : "haunted_32@haunted"
          },
          "flags" : [
             "Real"
@@ -383,9 +383,9 @@
       },
       "haunted_5@haunted" : {
          "exits" : {
-            "e" : "haunted_7",
-            "n" : "haunted_6",
-            "s" : "^door_2"
+            "e" : "haunted_7@haunted",
+            "n" : "haunted_6@haunted",
+            "s" : "^door_2@haunted"
          },
          "flags" : [
             "Dark"
@@ -409,10 +409,10 @@
       },
       "haunted_20@haunted" : {
          "exits" : {
-            "w" : "haunted_21",
-            "e" : "haunted_18",
-            "n" : "haunted_19",
-            "s" : "haunted_20"
+            "w" : "haunted_21@haunted",
+            "e" : "haunted_18@haunted",
+            "n" : "haunted_19@haunted",
+            "s" : "haunted_20@haunted"
          },
          "flags" : [
             "Real",
@@ -426,7 +426,7 @@
       },
       "haunted_6@haunted" : {
          "exits" : {
-            "s" : "haunted_5"
+            "s" : "haunted_5@haunted"
          },
          "flags" : [
             "Dark"
@@ -439,8 +439,8 @@
       },
       "haunted_3@haunted" : {
          "exits" : {
-            "n" : "haunted_4",
-            "s" : "haunted_2"
+            "n" : "haunted_4@haunted",
+            "s" : "haunted_2@haunted"
          },
          "flags" : [
             "Real",
@@ -454,8 +454,8 @@
       },
       "haunted_2@haunted" : {
          "exits" : {
-            "w" : "haunted_1",
-            "n" : "haunted_3"
+            "w" : "haunted_1@haunted",
+            "n" : "haunted_3@haunted"
          },
          "flags" : [
             "Outdoors",
@@ -469,9 +469,9 @@
       },
       "haunted_7@haunted" : {
          "exits" : {
-            "w" : "haunted_5",
-            "n" : "haunted_9",
-            "s" : "haunted_8"
+            "w" : "haunted_5@haunted",
+            "n" : "haunted_9@haunted",
+            "s" : "haunted_8@haunted"
          },
          "flags" : [
             "Dark"
@@ -484,9 +484,9 @@
       },
       "haunted_24@haunted" : {
          "exits" : {
-            "e" : "haunted_25",
-            "n" : "haunted_23",
-            "s" : "haunted_26"
+            "e" : "haunted_25@haunted",
+            "n" : "haunted_23@haunted",
+            "s" : "haunted_26@haunted"
          },
          "flags" : [
             "Dark"
@@ -499,10 +499,10 @@
       },
       "haunted_9@haunted" : {
          "exits" : {
-            "w" : "haunted_10",
-            "e" : "haunted_12",
-            "n" : "haunted_11",
-            "s" : "haunted_13"
+            "w" : "haunted_10@haunted",
+            "e" : "haunted_12@haunted",
+            "n" : "haunted_11@haunted",
+            "s" : "haunted_13@haunted"
          },
          "flags" : [
             "Dark"
@@ -515,10 +515,10 @@
       },
       "haunted_33@haunted" : {
          "exits" : {
-            "w" : "haunted_33",
-            "e" : "haunted_31",
-            "n" : "haunted_34",
-            "s" : "haunted_32"
+            "w" : "haunted_33@haunted",
+            "e" : "haunted_31@haunted",
+            "n" : "haunted_34@haunted",
+            "s" : "haunted_32@haunted"
          },
          "flags" : [
             "Real"
@@ -531,7 +531,7 @@
       },
       "haunted_26@haunted" : {
          "exits" : {
-            "n" : "haunted_24"
+            "n" : "haunted_24@haunted"
          },
          "flags" : [
             "Dark"
@@ -544,7 +544,7 @@
       },
       "haunted_13@haunted" : {
          "exits" : {
-            "e" : "haunted_1"
+            "e" : "haunted_1@haunted"
          },
          "flags" : [
             "NoSnoop",
@@ -558,7 +558,7 @@
       },
       "haunted_22@haunted" : {
          "exits" : {
-            "e" : "haunted_16"
+            "e" : "haunted_16@haunted"
          },
          "flags" : [
             "Real"
@@ -571,8 +571,8 @@
       },
       "haunted_14@haunted" : {
          "exits" : {
-            "w" : "haunted_15",
-            "e" : "haunted_1"
+            "w" : "haunted_15@haunted",
+            "e" : "haunted_1@haunted"
          },
          "flags" : [
             "Real"
@@ -585,10 +585,10 @@
       },
       "haunted_17@haunted" : {
          "exits" : {
-            "w" : "haunted_21",
-            "e" : "haunted_19",
-            "n" : "haunted_18",
-            "s" : "haunted_20"
+            "w" : "haunted_21@haunted",
+            "e" : "haunted_19@haunted",
+            "n" : "haunted_18@haunted",
+            "s" : "haunted_20@haunted"
          },
          "flags" : [
             "Real",
@@ -602,10 +602,10 @@
       },
       "haunted_32@haunted" : {
          "exits" : {
-            "w" : "haunted_32",
-            "e" : "haunted_33",
-            "n" : "haunted_31",
-            "s" : "haunted_31"
+            "w" : "haunted_32@haunted",
+            "e" : "haunted_33@haunted",
+            "n" : "haunted_31@haunted",
+            "s" : "haunted_31@haunted"
          },
          "flags" : [
             "Real"
@@ -618,10 +618,10 @@
       },
       "haunted_31@haunted" : {
          "exits" : {
-            "w" : "haunted_30",
-            "e" : "haunted_33",
-            "n" : "haunted_32",
-            "s" : "haunted_31"
+            "w" : "haunted_30@haunted",
+            "e" : "haunted_33@haunted",
+            "n" : "haunted_32@haunted",
+            "s" : "haunted_31@haunted"
          },
          "flags" : [
             "Real"
@@ -634,7 +634,7 @@
       },
       "haunted_15@haunted" : {
          "exits" : {
-            "e" : "haunted_14"
+            "e" : "haunted_14@haunted"
          },
          "flags" : [
             "Real"
@@ -647,7 +647,7 @@
       },
       "haunted_8@haunted" : {
          "exits" : {
-            "n" : "haunted_7"
+            "n" : "haunted_7@haunted"
          },
          "flags" : [
             "Dark"
@@ -660,10 +660,10 @@
       },
       "haunted_16@haunted" : {
          "exits" : {
-            "w" : "haunted_23",
-            "e" : "haunted_17",
-            "n" : "haunted_27",
-            "s" : "haunted_1"
+            "w" : "haunted_23@haunted",
+            "e" : "haunted_17@haunted",
+            "n" : "haunted_27@haunted",
+            "s" : "haunted_1@haunted"
          },
          "flags" : [
             "Real"
@@ -676,8 +676,8 @@
       },
       "haunted_36@haunted" : {
          "exits" : {
-            "w" : "haunted_37",
-            "e" : "haunted_35"
+            "w" : "haunted_37@haunted",
+            "e" : "haunted_35@haunted"
          },
          "flags" : [],
          "zone" : "haunted",
@@ -688,10 +688,10 @@
       },
       "haunted_21@haunted" : {
          "exits" : {
-            "w" : "haunted_22",
-            "e" : "haunted_19",
-            "n" : "haunted_18",
-            "s" : "haunted_20"
+            "w" : "haunted_22@haunted",
+            "e" : "haunted_19@haunted",
+            "n" : "haunted_18@haunted",
+            "s" : "haunted_20@haunted"
          },
          "flags" : [
             "Real",
@@ -705,8 +705,8 @@
       },
       "haunted_37@haunted" : {
          "exits" : {
-            "e" : "haunted_36",
-            "s" : "haunted_38"
+            "e" : "haunted_36@haunted",
+            "s" : "haunted_38@haunted"
          },
          "flags" : [],
          "zone" : "haunted",
@@ -717,8 +717,8 @@
       },
       "haunted_4@haunted" : {
          "exits" : {
-            "n" : "^door_1",
-            "s" : "haunted_3"
+            "n" : "^door_1@haunted",
+            "s" : "haunted_3@haunted"
          },
          "flags" : [
             "Outdoors",
@@ -734,7 +734,7 @@
    "mob" : {
       "norman@haunted" : {
          "damage" : "10",
-         "location" : "haunted_29",
+         "location" : "haunted_29@haunted",
          "speed" : "2",
          "aggression" : "2",
          "name" : "Norman",
@@ -743,7 +743,7 @@
       },
       "blob@haunted" : {
          "damage" : "10",
-         "location" : "haunted_29",
+         "location" : "haunted_29@haunted",
          "name" : "Blob",
          "description" : "The Blob is just....sitting, er lying here.",
          "sflags" : [
@@ -757,7 +757,7 @@
       },
       "linus@haunted" : {
          "damage" : "10",
-         "location" : "haunted_31",
+         "location" : "haunted_31@haunted",
          "speed" : "0",
          "name" : "Linus",
          "examine" : "\nLinus starts to tell you about a evil demon that has taken over the pumpkin \npatch.  Long ago, the Jack O' Lantern demon took over the patch, and possessed \nhis friends.  Every Halloween they reek havoc in the streets and rob little \nkids of their precious candy.  Thanks to him, Halloween for the little kids \nwill never be the same.  Can you find him and destroy him before Halloween is \ncanceled all together?\n",
@@ -766,7 +766,7 @@
       },
       "shawn@haunted" : {
          "damage" : "10",
-         "location" : "haunted_16",
+         "location" : "haunted_16@haunted",
          "speed" : "2",
          "name" : "Shawn",
          "examine" : "Shawn decided to go as Marilyn Monroe this year.",
@@ -775,7 +775,7 @@
       },
       "pigpen@haunted" : {
          "damage" : "10",
-         "location" : "haunted_35",
+         "location" : "haunted_35@haunted",
          "speed" : "0",
          "name" : "PigPen",
          "description" : "Pig Pen is gathering dust as he pops some gum in his mouth.",
@@ -786,7 +786,7 @@
       },
       "leatherface@haunted" : {
          "damage" : "10",
-         "location" : "haunted_26",
+         "location" : "haunted_26@haunted",
          "speed" : "0",
          "aggression" : "25",
          "name" : "Leatherface",
@@ -796,7 +796,7 @@
       },
       "freda@haunted" : {
          "damage" : "10",
-         "location" : "haunted_4",
+         "location" : "haunted_4@haunted",
          "speed" : "0",
          "name" : "Freda",
          "examine" : "\n&+ROne, two, Freddy's coming for you.\n&+RThree, four, better lock your door.\n&+RFive, six, grab your crucifix.\n&+RSeven, eight, gonna stay up late.\n&+RNine, ten, never sleep again.  ",
@@ -808,7 +808,7 @@
       },
       "tim@haunted" : {
          "damage" : "5",
-         "location" : "haunted_3",
+         "location" : "haunted_3@haunted",
          "name" : "Tim",
          "examine" : "Tim decided to dress up as a zombie this year.",
          "description" : "Tim is here, trying to figure out which house to toilet paper first.",
@@ -816,7 +816,7 @@
       },
       "roxanne@haunted" : {
          "damage" : "10",
-         "location" : "haunted_20",
+         "location" : "haunted_20@haunted",
          "speed" : "2",
          "name" : "Roxanne",
          "examine" : "Roxanne decided to go as a amazon princess this year.",
@@ -828,7 +828,7 @@
       },
       "vince@haunted" : {
          "damage" : "10",
-         "location" : "haunted_15",
+         "location" : "haunted_15@haunted",
          "speed" : "2",
          "name" : "Vince",
          "examine" : "\nVince decided to trick or treat as a seven inch giant space mutant hamster \nthis year.",
@@ -837,7 +837,7 @@
       },
       "freddy@haunted" : {
          "damage" : "10",
-         "location" : "haunted_13",
+         "location" : "haunted_13@haunted",
          "armor" : "5",
          "name" : "Freddy",
          "examine" : "Man, is this guy UGLY!",
@@ -852,7 +852,7 @@
       },
       "jas@haunted" : {
          "damage" : "10",
-         "location" : "haunted_15",
+         "location" : "haunted_15@haunted",
          "speed" : "2",
          "name" : "Jas",
          "examine" : "Jas decided to dress up as the Highlander this year.",
@@ -861,7 +861,7 @@
       },
       "elease@haunted" : {
          "damage" : "10",
-         "location" : "haunted_2",
+         "location" : "haunted_2@haunted",
          "name" : "Elease",
          "examine" : "Elease decided this year to dress up as a sorceress.",
          "description" : "Elease is running around ringing doorbells.",
@@ -880,7 +880,7 @@
             "BHands"
          ],
          "damage" : "10",
-         "location" : "haunted_22",
+         "location" : "haunted_22@haunted",
          "name" : "blair",
          "examine" : "\nHer red eyes penetrate through your soul.  Her long fingers point to you, as\nif to say, Try to cross me.",
          "description" : "The Blair Witch cackles at you, daring you to leave her woods.",
@@ -897,7 +897,7 @@
       },
       "steven@haunted" : {
          "damage" : "10",
-         "location" : "haunted_1",
+         "location" : "haunted_1@haunted",
          "speed" : "2",
          "aggression" : "2",
          "name" : "Steven",
@@ -907,7 +907,7 @@
       },
       "jackolantern@haunted" : {
          "damage" : "10",
-         "location" : "haunted_38",
+         "location" : "haunted_38@haunted",
          "speed" : "0",
          "armor" : "5",
          "name" : "JackOLantern",
@@ -920,7 +920,7 @@
       },
       "scream@haunted" : {
          "damage" : "10",
-         "location" : "haunted_29",
+         "location" : "haunted_29@haunted",
          "aggression" : "0",
          "name" : "Scream",
          "description" : "Scream is here relaxing and reading a book.",
@@ -928,7 +928,7 @@
       },
       "lucy@haunted" : {
          "damage" : "5",
-         "location" : "haunted_32",
+         "location" : "haunted_32@haunted",
          "name" : "Lucy",
          "examine" : "\nLooks like little Lucy wants your candy.  The fire in her eyes tells you that \nyou had better hurry and give it to her!",
          "description" : "Lucy is trying to steal your candy!",
@@ -944,7 +944,7 @@
       },
       "snake@haunted" : {
          "damage" : "10",
-         "location" : "haunted_7",
+         "location" : "haunted_7@haunted",
          "speed" : "2",
          "name" : "Snake",
          "examine" : "\nUpon closer inspection, you see that the face of this gastly creature is \nburnt.  It's body is slimy and icky.  As it slithers around you, you see that \nit's face resembles a man you have seen in dreams before.",
@@ -957,7 +957,7 @@
       },
       "sally@haunted" : {
          "damage" : "5",
-         "location" : "haunted_33",
+         "location" : "haunted_33@haunted",
          "speed" : "0",
          "name" : "Sally",
          "examine" : "\nSally's eyes light up as you come into view, until she finds out you're not \nLinus. Now she growls at you and demands to know where her sweet 'babboo' is!",
@@ -969,7 +969,7 @@
       },
       "jason@haunted" : {
          "damage" : "10",
-         "location" : "haunted_15",
+         "location" : "haunted_15@haunted",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "15",
@@ -980,7 +980,7 @@
       },
       "charlie@haunted" : {
          "damage" : "10",
-         "location" : "haunted_35",
+         "location" : "haunted_35@haunted",
          "speed" : "0",
          "aggression" : "2",
          "name" : "Charlie",

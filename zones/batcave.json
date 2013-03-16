@@ -1,7 +1,7 @@
 {
    "obj" : {
       "sofa@batcave" : {
-         "location" : "IN_ROOM:batcave10",
+         "location" : "IN_ROOM:batcave10@batcave",
          "oflags" : [
             "NoGet"
          ],
@@ -10,7 +10,7 @@
          "examine" : "\nOne of the &+ycushions&* appears lumpier than the rest.  You wonder if the\nWerewolves ever lose loose change . . ."
       },
       "sofa_cushion@batcave" : {
-         "location" : "IN_ROOM:batcave10",
+         "location" : "IN_ROOM:batcave10@batcave",
          "oflags" : [
             "NoGet",
             "Container",
@@ -22,7 +22,7 @@
          "size" : "3"
       },
       "utilitybelt@batcave" : {
-         "location" : "IN_CONTAINER:batmobile",
+         "location" : "IN_CONTAINER:batmobile@batcave",
          "armor" : "5",
          "oflags" : [
             "Container",
@@ -38,7 +38,7 @@
          "desc[0]" : "A utility belt lies here."
       },
       "bandedmail@batcave" : {
-         "location" : "IN_ROOM:batcave21",
+         "location" : "IN_ROOM:batcave21@batcave",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -57,7 +57,7 @@
       },
       "tofu_treat@batcave" : {
          "desc[1]" : "A high-protein tofu treat sits on the table.",
-         "location" : "IN_ROOM:batcave10",
+         "location" : "IN_ROOM:batcave10@batcave",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -74,7 +74,7 @@
          "desc[0]" : "A tasteless tofu treat sits here."
       },
       "riddles@batcave" : {
-         "location" : "IN_ROOM:batcave16",
+         "location" : "IN_ROOM:batcave16@batcave",
          "oflags" : [
             "NoGet"
          ],
@@ -82,7 +82,7 @@
          "examine" : "\nThere are all manner of mind-boggling riddles written on these walls.  \nYou spend some time pondering the more difficult ones before an \nintriguing rhyme catches your eye:\n\t\t\tThe ways to solve are more than one,\n\t\t\tIt may be fine to use a pun.\n\t\t\tOf ironic paths the gods are fond,\n\t\t\tBe not afraid of double entendre."
       },
       "fur@batcave" : {
-         "location" : "IN_ROOM:batcave11",
+         "location" : "IN_ROOM:batcave11@batcave",
          "oflags" : [
             "Wearable",
             "Unlocatable",
@@ -99,7 +99,7 @@
          "desc[0]" : "Some fur has been dropped in a pile here."
       },
       "runes@batcave" : {
-         "location" : "IN_ROOM:batcave13",
+         "location" : "IN_ROOM:batcave13@batcave",
          "oflags" : [
             "NoGet"
          ],
@@ -108,7 +108,7 @@
       },
       "aa_doors@batcave" : {
          "desc[1]" : "The doors are closed and held in place by an enormous oak beam.",
-         "location" : "IN_ROOM:batcave19",
+         "location" : "IN_ROOM:batcave19@batcave",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -123,7 +123,7 @@
          "desc[0]" : "The giant beam is propped against the wall and the doors are open."
       },
       "mosaics@batcave" : {
-         "location" : "IN_ROOM:batcave21",
+         "location" : "IN_ROOM:batcave21@batcave",
          "oflags" : [
             "NoGet"
          ],
@@ -132,7 +132,7 @@
       },
       "journal_page@batcave" : {
          "desc[1]" : "Under the cushion is a page fragment.",
-         "location" : "IN_CONTAINER:sofa_cushion",
+         "location" : "IN_CONTAINER:sofa_cushion@batcave",
          "oflags" : [
             "GetFlips"
          ],
@@ -147,7 +147,7 @@
          "desc[0]" : "Here lies the fragment of a journal page."
       },
       "stalagmites@batcave" : {
-         "location" : "IN_ROOM:batcave21",
+         "location" : "IN_ROOM:batcave21@batcave",
          "oflags" : [
             "NoGet"
          ],
@@ -155,7 +155,7 @@
          "examine" : "They are carved into figures of the Egyptian gods and goddesses."
       },
       "flowers@batcave" : {
-         "location" : "IN_ROOM:batcave20",
+         "location" : "IN_ROOM:batcave20@batcave",
          "oflags" : [
             "NoGet"
          ],
@@ -163,7 +163,7 @@
          "examine" : "\nThere are so many varieties covering most of the floor, that you feel \nlike you're walking in a garden."
       },
       "ruby@batcave" : {
-         "location" : "IN_ROOM:batcave21",
+         "location" : "IN_ROOM:batcave21@batcave",
          "weight" : "10",
          "name" : "ruby",
          "examine" : "It's a spectacular gemstone!",
@@ -172,7 +172,7 @@
          "size" : "10"
       },
       "glue_jar@batcave" : {
-         "location" : "IN_CONTAINER:utilitybelt",
+         "location" : "IN_CONTAINER:utilitybelt@batcave",
          "oflags" : [
             "Container"
          ],
@@ -187,7 +187,7 @@
       },
       "quiche@batcave" : {
          "desc[1]" : "A quiche is cooling on the table.",
-         "location" : "IN_ROOM:batcave10",
+         "location" : "IN_ROOM:batcave10@batcave",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -202,7 +202,7 @@
          "desc[0]" : "A quiche sits here steaming."
       },
       "sign@batcave" : {
-         "location" : "IN_ROOM:batcave1",
+         "location" : "IN_ROOM:batcave1@batcave",
          "oflags" : [
             "Noget"
          ],
@@ -211,7 +211,7 @@
          "desc[0]" : "A battered old sign sits on the floor here."
       },
       "gold_nugget@batcave" : {
-         "location" : "IN_ROOM:batcave21",
+         "location" : "IN_ROOM:batcave21@batcave",
          "altname" : "nugget",
          "name" : "gold_nugget",
          "examine" : "It's a rather hefty gold nugget.",
@@ -241,7 +241,7 @@
       },
       "bb_doors@batcave" : {
          "desc[1]" : "The doors are closed!  Someone has barred the door shut on you!",
-         "location" : "IN_ROOM:batcave20",
+         "location" : "IN_ROOM:batcave20@batcave",
          "oflags" : [
             "NoGet"
          ],
@@ -254,7 +254,7 @@
          "desc[0]" : "The doors are opened allowing passage."
       },
       "frescos@batcave" : {
-         "location" : "IN_ROOM:batcave21",
+         "location" : "IN_ROOM:batcave21@batcave",
          "oflags" : [
             "NoGet"
          ],
@@ -262,7 +262,7 @@
          "examine" : "\nThey display such fine craftsmanship that there is no doubt in your \nmind that their creator is one of the greatest artists in history.\nOn one you find the signature, 'Marius', and are surprised you've \nnever heard of him."
       },
       "diamond@batcave" : {
-         "location" : "IN_ROOM:batcave21",
+         "location" : "IN_ROOM:batcave21@batcave",
          "weight" : "10",
          "name" : "diamond",
          "examine" : "Dazzling.  And huge!",
@@ -272,7 +272,7 @@
       },
       "sword_katana@batcave" : {
          "damage" : "17",
-         "location" : "IN_ROOM:batcave4",
+         "location" : "IN_ROOM:batcave4@batcave",
          "oflags" : [
             "Weapon",
             "Glowing"
@@ -287,7 +287,7 @@
          "desc[0]" : "A magnificent katana rests here."
       },
       "candles@batcave" : {
-         "location" : "IN_ROOM:batcave21",
+         "location" : "IN_ROOM:batcave21@batcave",
          "oflags" : [
             "NoGet",
             "Lit"
@@ -296,7 +296,7 @@
          "examine" : "There are too many to count, in all shapes and sizes."
       },
       "batmobile@batcave" : {
-         "location" : "IN_ROOM:batcave5",
+         "location" : "IN_ROOM:batcave5@batcave",
          "oflags" : [
             "NoGet",
             "Container"
@@ -309,7 +309,7 @@
          "size" : "30"
       },
       "oil_lamps@batcave" : {
-         "location" : "IN_ROOM:batcave19",
+         "location" : "IN_ROOM:batcave19@batcave",
          "oflags" : [
             "NoGet",
             "Lit"
@@ -320,7 +320,7 @@
          "examine" : "They are polished oil lamps set on tall stands on either side of the doors."
       },
       "paper@batcave" : {
-         "location" : "IN_ROOM:batcave5",
+         "location" : "IN_ROOM:batcave5@batcave",
          "altname" : "note",
          "name" : "paper",
          "examine" : "\nIt reads:  'A man-wolf keeps Those Who Must Be Kept.  It is recommended \nthat' and here the paper is torn off.\n",
@@ -331,7 +331,7 @@
          "desc[0]" : "A paper has fallen from the slot of some sort of machine..."
       },
       "katana_scabbard@batcave" : {
-         "location" : "IN_ROOM:batcave4",
+         "location" : "IN_ROOM:batcave4@batcave",
          "weight" : "10",
          "pname" : "scabbard",
          "name" : "katana_scabbard",
@@ -341,7 +341,7 @@
          "size" : "30"
       },
       "hand@batcave" : {
-         "location" : "IN_ROOM:batcave1",
+         "location" : "IN_ROOM:batcave1@batcave",
          "weight" : "7",
          "oflags" : [
             "Container",
@@ -354,7 +354,7 @@
          "size" : "7"
       },
       "votive_candles@batcave" : {
-         "location" : "IN_ROOM:batcave20",
+         "location" : "IN_ROOM:batcave20@batcave",
          "oflags" : [
             "NoGet",
             "Lit"
@@ -365,7 +365,7 @@
          "examine" : "\nThe votive candles are arranged haphazardly all over the floor, so be \ncareful where you step!"
       },
       "book@batcave" : {
-         "location" : "IN_ROOM:batcave12",
+         "location" : "IN_ROOM:batcave12@batcave",
          "oflags" : [
             "NoGet"
          ],
@@ -374,7 +374,7 @@
          "desc[0]" : "There is a book lying open here."
       },
       "hero_body@batcave" : {
-         "location" : "IN_ROOM:batcave4",
+         "location" : "IN_ROOM:batcave4@batcave",
          "oflags" : [
             "NoGet"
          ],
@@ -385,7 +385,7 @@
          "desc[0]" : "\nThe body of a dead hero lays here.  It has been stripped of all its armor, \nadornments and dignity."
       },
       "solution@batcave" : {
-         "location" : "IN_ROOM:batcave5",
+         "location" : "IN_ROOM:batcave5@batcave",
          "oflags" : [
             "Food"
          ],
@@ -399,8 +399,8 @@
    "loc" : {
       "batcave25@batcave" : {
          "exits" : {
-            "u" : "batcave7",
-            "n" : "batcave26"
+            "u" : "batcave7@batcave",
+            "n" : "batcave26@batcave"
          },
          "flags" : [
             "Dark"
@@ -413,7 +413,7 @@
       },
       "batcave4@batcave" : {
          "exits" : {
-            "n" : "batcave3"
+            "n" : "batcave3@batcave"
          },
          "flags" : [
             "NoSummon"
@@ -426,8 +426,8 @@
       },
       "batcave19@batcave" : {
          "exits" : {
-            "n" : "^aa_doors",
-            "s" : "batcave18"
+            "n" : "^aa_doors@batcave",
+            "s" : "batcave18@batcave"
          },
          "flags" : [
             "NoSummon"
@@ -440,8 +440,8 @@
       },
       "batcave16@batcave" : {
          "exits" : {
-            "w" : "batcave15",
-            "n" : "batcave18"
+            "w" : "batcave15@batcave",
+            "n" : "batcave18@batcave"
          },
          "flags" : [
             "CantSummon",
@@ -457,7 +457,7 @@
       },
       "batcave21@batcave" : {
          "exits" : {
-            "s" : "batcave20"
+            "s" : "batcave20@batcave"
          },
          "flags" : [
             "NoSummon"
@@ -470,7 +470,7 @@
       },
       "batcave24@batcave" : {
          "exits" : {
-            "s" : "batcave9"
+            "s" : "batcave9@batcave"
          },
          "flags" : [
             "Dark",
@@ -484,8 +484,8 @@
       },
       "batcave2@batcave" : {
          "exits" : {
-            "w" : "batcave1",
-            "e" : "batcave3"
+            "w" : "batcave1@batcave",
+            "e" : "batcave3@batcave"
          },
          "flags" : [
             "Dark",
@@ -499,9 +499,9 @@
       },
       "batcave15@batcave" : {
          "exits" : {
-            "w" : "batcave14",
-            "e" : "batcave16",
-            "n" : "batcave17"
+            "w" : "batcave14@batcave",
+            "e" : "batcave16@batcave",
+            "n" : "batcave17@batcave"
          },
          "flags" : [
             "Dark",
@@ -515,8 +515,8 @@
       },
       "batcave17@batcave" : {
          "exits" : {
-            "e" : "batcave18",
-            "s" : "batcave15"
+            "e" : "batcave18@batcave",
+            "s" : "batcave15@batcave"
          },
          "flags" : [
             "Death"
@@ -529,8 +529,8 @@
       },
       "batcave13@batcave" : {
          "exits" : {
-            "e" : "batcave14",
-            "s" : "batcave12"
+            "e" : "batcave14@batcave",
+            "s" : "batcave12@batcave"
          },
          "flags" : [
             "NoMagic",
@@ -546,9 +546,9 @@
       },
       "batcave23@batcave" : {
          "exits" : {
-            "e" : "batcave7",
-            "n" : "batcave9",
-            "s" : "batcave22"
+            "e" : "batcave7@batcave",
+            "n" : "batcave9@batcave",
+            "s" : "batcave22@batcave"
          },
          "flags" : [
             "Dark",
@@ -562,8 +562,8 @@
       },
       "batcave1@batcave" : {
          "exits" : {
-            "w" : "batcave5",
-            "e" : "batcave2",
+            "w" : "batcave5@batcave",
+            "e" : "batcave2@batcave",
             "n" : "falls@valley"
          },
          "flags" : [
@@ -589,8 +589,8 @@
       },
       "batcave20@batcave" : {
          "exits" : {
-            "n" : "batcave21",
-            "s" : "^bb_doors"
+            "n" : "batcave21@batcave",
+            "s" : "^bb_doors@batcave"
          },
          "flags" : [
             "NoSummon"
@@ -603,10 +603,10 @@
       },
       "batcave7@batcave" : {
          "exits" : {
-            "w" : "batcave23",
-            "n" : "batcave8",
-            "d" : "batcave25",
-            "s" : "batcave6"
+            "w" : "batcave23@batcave",
+            "n" : "batcave8@batcave",
+            "d" : "batcave25@batcave",
+            "s" : "batcave6@batcave"
          },
          "flags" : [
             "Dark",
@@ -620,9 +620,9 @@
       },
       "batcave18@batcave" : {
          "exits" : {
-            "w" : "batcave17",
-            "n" : "batcave19",
-            "s" : "batcave16"
+            "w" : "batcave17@batcave",
+            "n" : "batcave19@batcave",
+            "s" : "batcave16@batcave"
          },
          "flags" : [
             "Dark",
@@ -636,8 +636,8 @@
       },
       "batcave8@batcave" : {
          "exits" : {
-            "w" : "batcave9",
-            "s" : "batcave7"
+            "w" : "batcave9@batcave",
+            "s" : "batcave7@batcave"
          },
          "flags" : [
             "Dark",
@@ -651,8 +651,8 @@
       },
       "batcave3@batcave" : {
          "exits" : {
-            "w" : "batcave2",
-            "s" : "batcave4"
+            "w" : "batcave2@batcave",
+            "s" : "batcave4@batcave"
          },
          "flags" : [
             "Dark",
@@ -666,8 +666,8 @@
       },
       "batcave14@batcave" : {
          "exits" : {
-            "w" : "batcave13",
-            "e" : "batcave15"
+            "w" : "batcave13@batcave",
+            "e" : "batcave15@batcave"
          },
          "flags" : [
             "Dark",
@@ -682,9 +682,9 @@
       },
       "batcave10@batcave" : {
          "exits" : {
-            "w" : "batcave26",
-            "e" : "batcave11",
-            "n" : "batcave12"
+            "w" : "batcave26@batcave",
+            "e" : "batcave11@batcave",
+            "n" : "batcave12@batcave"
          },
          "flags" : [
             "Dark",
@@ -698,9 +698,9 @@
       },
       "batcave6@batcave" : {
          "exits" : {
-            "w" : "batcave22",
-            "e" : "batcave5",
-            "n" : "batcave7"
+            "w" : "batcave22@batcave",
+            "e" : "batcave5@batcave",
+            "n" : "batcave7@batcave"
          },
          "flags" : [
             "Dark",
@@ -714,8 +714,8 @@
       },
       "batcave5@batcave" : {
          "exits" : {
-            "w" : "batcave6",
-            "e" : "batcave1"
+            "w" : "batcave6@batcave",
+            "e" : "batcave1@batcave"
          },
          "flags" : [
             "Dark",
@@ -729,7 +729,7 @@
       },
       "batcave11@batcave" : {
          "exits" : {
-            "w" : "batcave10"
+            "w" : "batcave10@batcave"
          },
          "flags" : [
             "Dark",
@@ -743,8 +743,8 @@
       },
       "batcave12@batcave" : {
          "exits" : {
-            "n" : "batcave13",
-            "s" : "batcave10"
+            "n" : "batcave13@batcave",
+            "s" : "batcave10@batcave"
          },
          "flags" : [
             "Dark",
@@ -758,9 +758,9 @@
       },
       "batcave9@batcave" : {
          "exits" : {
-            "e" : "batcave8",
-            "n" : "batcave24",
-            "s" : "batcave23"
+            "e" : "batcave8@batcave",
+            "n" : "batcave24@batcave",
+            "s" : "batcave23@batcave"
          },
          "flags" : [
             "Dark",
@@ -774,8 +774,8 @@
       },
       "batcave26@batcave" : {
          "exits" : {
-            "e" : "batcave10",
-            "s" : "batcave25"
+            "e" : "batcave10@batcave",
+            "s" : "batcave25@batcave"
          },
          "flags" : [
             "Dark"
@@ -790,7 +790,7 @@
    "mob" : {
       "bat3@batcave" : {
          "damage" : "10",
-         "location" : "batcave2",
+         "location" : "batcave2@batcave",
          "armor" : "0",
          "name" : "bat3",
          "description" : "A bat is hanging out here, sensing fresh warm blood.",
@@ -804,7 +804,7 @@
       },
       "bat5@batcave" : {
          "damage" : "10",
-         "location" : "batcave2",
+         "location" : "batcave2@batcave",
          "armor" : "0",
          "name" : "bat5",
          "description" : "A Bat is hanging out here, sensing fresh warm blood.",
@@ -819,7 +819,7 @@
       },
       "spirit@batcave" : {
          "damage" : "10",
-         "location" : "batcave4",
+         "location" : "batcave4@batcave",
          "armor" : "0",
          "name" : "spirit",
          "examine" : "\nHe must have been tall and good looking when he was alive.  And\nrich.  Even his death shroud is embroidered with his initials:  BW.",
@@ -842,7 +842,7 @@
       },
       "bat4@batcave" : {
          "damage" : "10",
-         "location" : "batcave2",
+         "location" : "batcave2@batcave",
          "armor" : "0",
          "name" : "bat4",
          "description" : "A bat is hanging out here, sensing fresh warm blood.",
@@ -860,7 +860,7 @@
       },
       "bat2@batcave" : {
          "damage" : "10",
-         "location" : "batcave2",
+         "location" : "batcave2@batcave",
          "armor" : "0",
          "name" : "bat2",
          "description" : "A bat is hanging out here, sensing fresh warm blood.",
@@ -881,7 +881,7 @@
             "ImmVtouch"
          ],
          "damage" : "10",
-         "location" : "batcave20",
+         "location" : "batcave20@batcave",
          "armor" : "5",
          "name" : "Enkil",
          "examine" : "\nThis is no statue!  As you get in for a closer look you realize the 'statue' \nis a living being.  He is a vampire so old and powerful his skin has since \nturned white and is cold and hard as marble.",
@@ -899,7 +899,7 @@
       },
       "werewolf@batcave" : {
          "damage" : "15",
-         "location" : "batcave11",
+         "location" : "batcave11@batcave",
          "armor" : "0",
          "name" : "Werewolf",
          "examine" : "\nHis wife's attempts to turn him vegetarian seem only to have made him \ncrave meat more strongly.",
@@ -914,7 +914,7 @@
       },
       "mrs_werewolf@batcave" : {
          "damage" : "10",
-         "location" : "batcave10",
+         "location" : "batcave10@batcave",
          "armor" : "0",
          "name" : "Mrs_Werewolf",
          "examine" : "\nShe looks up from polishing the fixtures and growls, 'You're tracking \nbat dung all over my carpet!'",
@@ -933,7 +933,7 @@
             "ImmVTouch"
          ],
          "damage" : "10",
-         "location" : "batcave21",
+         "location" : "batcave21@batcave",
          "armor" : "5",
          "name" : "Akasha",
          "examine" : "\nShe is as old as Enkil, and perhaps even more powerful.  Her skin, like\nhis, is white and hard as marble.  She exudes power.  You are quite\nrelieved that she does not need to feed at the moment.",
@@ -949,7 +949,7 @@
       },
       "bat1@batcave" : {
          "damage" : "10",
-         "location" : "batcave2",
+         "location" : "batcave2@batcave",
          "armor" : "0",
          "name" : "bat1",
          "description" : "A bat is hanging out here, sensing fresh warm blood.",
@@ -963,7 +963,7 @@
       },
       "riddlemaster@batcave" : {
          "damage" : "10",
-         "location" : "batcave16",
+         "location" : "batcave16@batcave",
          "name" : "Riddlemaster",
          "examine" : "\nThe relationship is simple:  give him what he's looking for, and he'll let \nyou continue on.  He is a nondescript man except for the fact that he glows \nfaintly.  His enigmatic expression is directed at you.",
          "description" : "The Master of Riddles stands firmly before the north exit.",

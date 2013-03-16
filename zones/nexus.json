@@ -1,14 +1,14 @@
 {
    "obj" : {
       "grapple@nexus" : {
-         "location" : "IN_ROOM:nexus53",
+         "location" : "IN_ROOM:nexus53@nexus",
          "pname" : "grapple",
          "name" : "grapple",
          "desc[0]" : "This mountain grapple can allow people to cover great heights and\nslopes easily.",
          "size" : "7"
       },
       "alloy2@nexus" : {
-         "location" : "IN_ROOM:nexus32",
+         "location" : "IN_ROOM:nexus32@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -19,7 +19,7 @@
       },
       "cube@nexus" : {
          "desc[1]" : "A cube juts out halfway from the rock.",
-         "location" : "IN_ROOM:nexus19",
+         "location" : "IN_ROOM:nexus19@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -32,7 +32,7 @@
          "desc[0]" : "The cube is inset into the rock, having triggered an opening."
       },
       "platinum@nexus" : {
-         "location" : "IN_ROOM:nexus28",
+         "location" : "IN_ROOM:nexus28@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -43,7 +43,7 @@
          "desc[0]" : "A bright, shiny element is here."
       },
       "stump1@nexus" : {
-         "location" : "IN_ROOM:nexus23",
+         "location" : "IN_ROOM:nexus23@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -55,7 +55,7 @@
       },
       "door1@nexus" : {
          "desc[1]" : "The heavy metal door is closed.",
-         "location" : "IN_ROOM:nexus68",
+         "location" : "IN_ROOM:nexus68@nexus",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -71,7 +71,7 @@
       "nexus@nexus" : {
          "desc[1]" : "The nexus vibrates with a significant amount of positive potential energy.",
          "damage" : "1",
-         "location" : "IN_ROOM:nexus72",
+         "location" : "IN_ROOM:nexus72@nexus",
          "desc[3]" : "The Nexus Staff has resumed its rightful place of holding in the\nThrone of Torture.",
          "oflags" : [
             "Weapon"
@@ -86,7 +86,7 @@
          "desc[0]" : "The almost entirely usless Nexus Staff is propped by magical means here."
       },
       "hulk@nexus" : {
-         "location" : "IN_ROOM:nexus42",
+         "location" : "IN_ROOM:nexus42@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -95,7 +95,7 @@
          "desc[0]" : "The shattered and burned-out hulk of a ship has been beached here."
       },
       "leaves7@nexus" : {
-         "location" : "IN_ROOM:nexus35",
+         "location" : "IN_ROOM:nexus35@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -103,7 +103,7 @@
          "name" : "leaves7"
       },
       "clay@nexus" : {
-         "location" : "IN_ROOM:nexus36",
+         "location" : "IN_ROOM:nexus36@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -113,7 +113,7 @@
          "desc[0]" : "A clump of mucky clay is here."
       },
       "pinecone@nexus" : {
-         "location" : "IN_ROOM:nexus22",
+         "location" : "IN_ROOM:nexus22@nexus",
          "oflags" : [
             "Food"
          ],
@@ -134,7 +134,7 @@
       },
       "bottle@nexus" : {
          "desc[1]" : "A wine bottle is three-quarters covered by the sand.",
-         "location" : "IN_ROOM:nexus45",
+         "location" : "IN_ROOM:nexus45@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -147,21 +147,21 @@
          "desc[0]" : "This seaweed-green wine bottle has sailed the seven seas for generations."
       },
       "trout@nexus" : {
-         "location" : "IN_CONTAINER:pelican",
+         "location" : "IN_CONTAINER:pelican@nexus",
          "pname" : "trout",
          "name" : "trout",
          "desc[0]" : "The catch of the day, a trout, flops around here.",
          "size" : "5"
       },
       "acid@nexus" : {
-         "location" : "CARRIED_BY:rockqueen",
+         "location" : "CARRIED_BY:rockqueen@nexus",
          "pname" : "acid",
          "name" : "acid",
          "examine" : "It is an industrial-strength chemical solvent.",
          "desc[0]" : "Noxious fumes emanate from this flask of acid."
       },
       "scissors@nexus" : {
-         "location" : "IN_ROOM:nexus37",
+         "location" : "IN_ROOM:nexus37@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -171,7 +171,7 @@
          "desc[0]" : "A small, precise pair of scissors sticks blades-first into the ground."
       },
       "silver@nexus" : {
-         "location" : "IN_ROOM:nexus24",
+         "location" : "IN_ROOM:nexus24@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -182,7 +182,7 @@
          "desc[0]" : "A bright, shiny element is here."
       },
       "rock@nexus" : {
-         "location" : "IN_ROOM:nexus19",
+         "location" : "IN_ROOM:nexus19@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -191,7 +191,7 @@
          "desc[0]" : "The rock appears to have some designs engraved in its surface."
       },
       "leaves2@nexus" : {
-         "location" : "IN_ROOM:nexus24",
+         "location" : "IN_ROOM:nexus24@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -199,7 +199,7 @@
          "name" : "leaves2"
       },
       "overalls@nexus" : {
-         "location" : "WORN_BY:minion4",
+         "location" : "WORN_BY:minion4@nexus",
          "oflags" : [
             "Wearable"
          ],
@@ -209,7 +209,7 @@
          "desc[0]" : "A set of crumpled overalls lays in a pile of grease."
       },
       "aura@nexus" : {
-         "location" : "IN_ROOM:nexus65",
+         "location" : "IN_ROOM:nexus65@nexus",
          "armor" : "25",
          "oflags" : [
             "Wearable",
@@ -226,7 +226,7 @@
          ]
       },
       "leaves8@nexus" : {
-         "location" : "IN_ROOM:nexus36",
+         "location" : "IN_ROOM:nexus36@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -234,7 +234,7 @@
          "name" : "leaves8"
       },
       "letter5@nexus" : {
-         "location" : "IN_ROOM:nexus48",
+         "location" : "IN_ROOM:nexus48@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -245,7 +245,7 @@
          "size" : "1"
       },
       "scales@nexus" : {
-         "location" : "WORN_BY:minion1",
+         "location" : "WORN_BY:minion1@nexus",
          "oflags" : [
             "Wearable"
          ],
@@ -256,7 +256,7 @@
       },
       "chain@nexus" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:minion4",
+         "location" : "WIELDED_BY:minion4@nexus",
          "oflags" : [
             "Weapon"
          ],
@@ -266,7 +266,7 @@
          "desc[0]" : "A heavily greased chain has caused many a welt."
       },
       "fuse@nexus" : {
-         "location" : "IN_ROOM:nexus72",
+         "location" : "IN_ROOM:nexus72@nexus",
          "pname" : "fuse",
          "name" : "fuse",
          "examine" : "Hell's Wire - a division of Cannonball Inc. Attach only after a\ncannonball has been loaded!",
@@ -274,7 +274,7 @@
          "size" : "1"
       },
       "shell@nexus" : {
-         "location" : "WORN_BY:minion5",
+         "location" : "WORN_BY:minion5@nexus",
          "oflags" : [
             "Wearable"
          ],
@@ -284,7 +284,7 @@
          "desc[0]" : "The cracked and broken shell of a fish is here."
       },
       "stump6@nexus" : {
-         "location" : "IN_ROOM:nexus32",
+         "location" : "IN_ROOM:nexus32@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -295,7 +295,7 @@
          "desc[0]" : "An ancient stump sits here, acting important."
       },
       "leaves5@nexus" : {
-         "location" : "IN_ROOM:nexus31",
+         "location" : "IN_ROOM:nexus31@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -304,7 +304,7 @@
       },
       "ore5@nexus" : {
          "desc[1]" : "The ore is black with the heavy oil on it.",
-         "location" : "IN_ROOM:nexus31",
+         "location" : "IN_ROOM:nexus31@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -317,7 +317,7 @@
          "desc[0]" : "A chunk of metallic ore is here, freshly dug up."
       },
       "stump4@nexus" : {
-         "location" : "IN_ROOM:nexus28",
+         "location" : "IN_ROOM:nexus28@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -328,7 +328,7 @@
          "desc[0]" : "An ancient stump sits here, acting important."
       },
       "block@nexus" : {
-         "location" : "IN_ROOM:nexus5",
+         "location" : "IN_ROOM:nexus5@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -338,7 +338,7 @@
          "desc[0]" : "A block of the same crystal as the plain stands here."
       },
       "copper@nexus" : {
-         "location" : "IN_ROOM:nexus23",
+         "location" : "IN_ROOM:nexus23@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -349,7 +349,7 @@
          "desc[0]" : "A bright, shiny element is here."
       },
       "stump8@nexus" : {
-         "location" : "IN_ROOM:nexus36",
+         "location" : "IN_ROOM:nexus36@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -360,7 +360,7 @@
          "desc[0]" : "An ancient stump sits here, acting important."
       },
       "letter4@nexus" : {
-         "location" : "IN_ROOM:nexus45",
+         "location" : "IN_ROOM:nexus45@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -371,7 +371,7 @@
          "size" : "1"
       },
       "brick@nexus" : {
-         "location" : "IN_ROOM:nexus48",
+         "location" : "IN_ROOM:nexus48@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -381,7 +381,7 @@
          "desc[0]" : "One brick has come loose."
       },
       "desk@nexus" : {
-         "location" : "IN_ROOM:nexus14",
+         "location" : "IN_ROOM:nexus14@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -391,7 +391,7 @@
       },
       "baton@nexus" : {
          "damage" : "3",
-         "location" : "WIELDED_BY:minion2",
+         "location" : "WIELDED_BY:minion2@nexus",
          "oflags" : [
             "Weapon"
          ],
@@ -401,7 +401,7 @@
          "desc[0]" : "The baton of famous conductors is here."
       },
       "cake@nexus" : {
-         "location" : "IN_ROOM:nexus8",
+         "location" : "IN_ROOM:nexus8@nexus",
          "oflags" : [
             "Food"
          ],
@@ -413,7 +413,7 @@
          "desc[0]" : "A slab of cheesecake is here."
       },
       "debris@nexus" : {
-         "location" : "IN_ROOM:nexus70",
+         "location" : "IN_ROOM:nexus70@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -423,7 +423,7 @@
          "desc[0]" : "A small pile of debris from a once glorious cannon is neatly stacked here."
       },
       "net@nexus" : {
-         "location" : "IN_ROOM:nexus2",
+         "location" : "IN_ROOM:nexus2@nexus",
          "pname" : "net",
          "name" : "net",
          "examine" : "It's a new invention in this realm. Perhaps the old ways of fishing should\nbe replaced with this. Know anyone in need?",
@@ -431,7 +431,7 @@
          "size" : "10"
       },
       "oil@nexus" : {
-         "location" : "CARRIED_BY:ent",
+         "location" : "CARRIED_BY:ent@nexus",
          "pname" : "oil",
          "name" : "oil",
          "examine" : "\nIt is an industrial fuel used often to burn away unwanted compounds from \nmined minerals, especailly those minerals that were previously encase in\nwood.",
@@ -439,7 +439,7 @@
          "desc[0]" : "A fresh can of oil stands here."
       },
       "leaves4@nexus" : {
-         "location" : "IN_ROOM:nexus28",
+         "location" : "IN_ROOM:nexus28@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -447,7 +447,7 @@
          "name" : "leaves4"
       },
       "lock@nexus" : {
-         "location" : "IN_ROOM:nexus42",
+         "location" : "IN_ROOM:nexus42@nexus",
          "oflags" : [
             "Destroyed",
             "NoGet"
@@ -458,7 +458,7 @@
       },
       "gate2@nexus" : {
          "desc[1]" : "The rusty velvet gates are closed.",
-         "location" : "IN_ROOM:nexus13",
+         "location" : "IN_ROOM:nexus13@nexus",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -474,7 +474,7 @@
       },
       "berries@nexus" : {
          "desc[1]" : "Here are berries ripe for the picking!",
-         "location" : "IN_ROOM:nexus30",
+         "location" : "IN_ROOM:nexus30@nexus",
          "oflags" : [
             "Food",
             "NoGet"
@@ -489,7 +489,7 @@
          "desc[0]" : "Some berries have been dumped here."
       },
       "pelican@nexus" : {
-         "location" : "IN_ROOM:nexus38",
+         "location" : "IN_ROOM:nexus38@nexus",
          "oflags" : [
             "NoGet",
             "Container"
@@ -502,7 +502,7 @@
       },
       "ore4@nexus" : {
          "desc[1]" : "The ore is black with the heavy oil on it.",
-         "location" : "IN_ROOM:nexus28",
+         "location" : "IN_ROOM:nexus28@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -515,7 +515,7 @@
          "desc[0]" : "A chunk of metallic ore is here, freshly dug up."
       },
       "script@nexus" : {
-         "location" : "IN_ROOM:nexus48",
+         "location" : "IN_ROOM:nexus48@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -526,7 +526,7 @@
       },
       "mold@nexus" : {
          "desc[1]" : "The mold has been haplessly scattered about so it can infect everything.",
-         "location" : "IN_ROOM:nexus18",
+         "location" : "IN_ROOM:nexus18@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -539,7 +539,7 @@
          "desc[0]" : "A significant amount of mold grows here."
       },
       "disc@nexus" : {
-         "location" : "IN_ROOM:nexus18",
+         "location" : "IN_ROOM:nexus18@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -551,7 +551,7 @@
       },
       "cannonball@nexus" : {
          "desc[1]" : "There is an RNA strand attached to this cannonball.",
-         "location" : "IN_ROOM:nexus5",
+         "location" : "IN_ROOM:nexus5@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -565,7 +565,7 @@
          "desc[0]" : "A shiny cannonball lies on the ground."
       },
       "line@nexus" : {
-         "location" : "IN_ROOM:nexus72",
+         "location" : "IN_ROOM:nexus72@nexus",
          "pname" : "line",
          "name" : "line",
          "examine" : "Shorter lines would prove to be more efficient.",
@@ -573,14 +573,14 @@
          "size" : "2"
       },
       "message@nexus" : {
-         "location" : "IN_ROOM:nexus72",
+         "location" : "IN_ROOM:nexus72@nexus",
          "pname" : "message",
          "name" : "message",
          "desc[0]" : "Some message sent by sea the old-fashioned way is here."
       },
       "torch@nexus" : {
          "desc[1]" : "The torch flashes light everywhere.",
-         "location" : "IN_ROOM:nexus17",
+         "location" : "IN_ROOM:nexus17@nexus",
          "oflags" : [
             "NoGet",
             "Lightable",
@@ -595,7 +595,7 @@
       },
       "door2@nexus" : {
          "desc[1]" : "The heavy metal door is closed.",
-         "location" : "IN_ROOM:nexus69",
+         "location" : "IN_ROOM:nexus69@nexus",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -609,7 +609,7 @@
          "desc[0]" : "The heavy metal door is open."
       },
       "letter2@nexus" : {
-         "location" : "CARRIED_BY:troutmonster",
+         "location" : "CARRIED_BY:troutmonster@nexus",
          "pname" : "letter",
          "name" : "letter2",
          "examine" : "You see the shape of an 'h'.",
@@ -617,7 +617,7 @@
          "size" : "1"
       },
       "stump2@nexus" : {
-         "location" : "IN_ROOM:nexus24",
+         "location" : "IN_ROOM:nexus24@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -628,7 +628,7 @@
          "desc[0]" : "An ancient stump sits here, acting important."
       },
       "sceptre@nexus" : {
-         "location" : "CARRIED_BY:rockqueen",
+         "location" : "CARRIED_BY:rockqueen@nexus",
          "pname" : "sceptre",
          "name" : "sceptre",
          "examine" : "I have the power to remove you from this domain if you treat me like a\nmagic wand.",
@@ -638,7 +638,7 @@
       },
       "cannon@nexus" : {
          "desc[1]" : "A state-of-the-art and loaded cannon looks blankly toward a wall,\nfeeling a little defused.",
-         "location" : "IN_ROOM:nexus70",
+         "location" : "IN_ROOM:nexus70@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -651,7 +651,7 @@
          "desc[0]" : "A state-of-the-art and unloaded cannon looks blankly toward a wall."
       },
       "elixir@nexus" : {
-         "location" : "IN_ROOM:nexus61",
+         "location" : "IN_ROOM:nexus61@nexus",
          "oflags" : [
             "Food"
          ],
@@ -663,7 +663,7 @@
          "size" : "3"
       },
       "stump5@nexus" : {
-         "location" : "IN_ROOM:nexus31",
+         "location" : "IN_ROOM:nexus31@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -674,7 +674,7 @@
          "desc[0]" : "An ancient stump sits here, acting important."
       },
       "stump3@nexus" : {
-         "location" : "IN_ROOM:nexus27",
+         "location" : "IN_ROOM:nexus27@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -685,7 +685,7 @@
          "desc[0]" : "An ancient stump sits here, acting important."
       },
       "mass@nexus" : {
-         "location" : "IN_ROOM:nexus70",
+         "location" : "IN_ROOM:nexus70@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -695,7 +695,7 @@
          "desc[0]" : "A mass of an unknown material squats absently on the floor, humming\nto itself."
       },
       "sign@nexus" : {
-         "location" : "IN_ROOM:nexus69",
+         "location" : "IN_ROOM:nexus69@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -705,7 +705,7 @@
          "desc[0]" : "A sign made of flowing human blood is here, its letters written in\nglowing red corpuscles."
       },
       "gold@nexus" : {
-         "location" : "IN_ROOM:nexus27",
+         "location" : "IN_ROOM:nexus27@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -716,7 +716,7 @@
          "desc[0]" : "A bright, shiny element is here."
       },
       "rod@nexus" : {
-         "location" : "CARRIED_BY:fisherman",
+         "location" : "CARRIED_BY:fisherman@nexus",
          "altname" : "pole",
          "pname" : "rod",
          "name" : "rod",
@@ -725,7 +725,7 @@
          "size" : "5"
       },
       "bed@nexus" : {
-         "location" : "IN_ROOM:nexus18",
+         "location" : "IN_ROOM:nexus18@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -734,7 +734,7 @@
          "desc[0]" : "A bed of rotting timbers is the furniture for one wall in this\ndecrepit chamber."
       },
       "leaves6@nexus" : {
-         "location" : "IN_ROOM:nexus32",
+         "location" : "IN_ROOM:nexus32@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -743,7 +743,7 @@
       },
       "rake@nexus" : {
          "damage" : "9",
-         "location" : "WIELDED_BY:minion5",
+         "location" : "WIELDED_BY:minion5@nexus",
          "oflags" : [
             "Weapon"
          ],
@@ -754,7 +754,7 @@
       },
       "nuts@nexus" : {
          "desc[1]" : "Delectable nuts hang on nearby branches.",
-         "location" : "IN_ROOM:nexus34",
+         "location" : "IN_ROOM:nexus34@nexus",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -768,7 +768,7 @@
          "desc[0]" : "A pile of nuts is scattered here."
       },
       "throne@nexus" : {
-         "location" : "IN_ROOM:nexus71",
+         "location" : "IN_ROOM:nexus71@nexus",
          "oflags" : [
             "Destroyed",
             "NoGet"
@@ -779,7 +779,7 @@
          "desc[0]" : "A flaming throne made of bone well-dipped in adamantine is Quaron's\nfavorite chair. "
       },
       "mirror@nexus" : {
-         "location" : "IN_ROOM:nexus14",
+         "location" : "IN_ROOM:nexus14@nexus",
          "pname" : "mirror",
          "name" : "mirror",
          "examine" : "Nightmarish images of grues stare back at you as they brush their teeth.",
@@ -788,7 +788,7 @@
          "size" : "5"
       },
       "leaves1@nexus" : {
-         "location" : "IN_ROOM:nexus23",
+         "location" : "IN_ROOM:nexus23@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -797,7 +797,7 @@
       },
       "ore6@nexus" : {
          "desc[1]" : "The ore is black with the heavy oil on it.",
-         "location" : "IN_ROOM:nexus32",
+         "location" : "IN_ROOM:nexus32@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -810,7 +810,7 @@
          "desc[0]" : "A chunk of metallic ore is here, freshly dug up."
       },
       "alloy3@nexus" : {
-         "location" : "IN_ROOM:nexus35",
+         "location" : "IN_ROOM:nexus35@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -820,7 +820,7 @@
          "desc[0]" : "A carbon-colored alloy is here."
       },
       "lnote@nexus" : {
-         "location" : "IN_CONTAINER:pelican",
+         "location" : "IN_CONTAINER:pelican@nexus",
          "altname" : "paper",
          "pname" : "note",
          "name" : "lnote",
@@ -829,7 +829,7 @@
          "size" : "2"
       },
       "square@nexus" : {
-         "location" : "IN_ROOM:nexus19",
+         "location" : "IN_ROOM:nexus19@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -841,7 +841,7 @@
       },
       "ore3@nexus" : {
          "desc[1]" : "The ore is black with the heavy oil on it.",
-         "location" : "IN_ROOM:nexus27",
+         "location" : "IN_ROOM:nexus27@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -854,7 +854,7 @@
          "desc[0]" : "A chunk of metallic ore is here, freshly dug up."
       },
       "cairn@nexus" : {
-         "location" : "IN_ROOM:nexus48",
+         "location" : "IN_ROOM:nexus48@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -863,7 +863,7 @@
          "size" : "15"
       },
       "letter1@nexus" : {
-         "location" : "IN_ROOM:nexus38",
+         "location" : "IN_ROOM:nexus38@nexus",
          "pname" : "letter",
          "name" : "letter1",
          "examine" : "You see the shape of an 's'.",
@@ -871,7 +871,7 @@
          "size" : "1"
       },
       "shaft@nexus" : {
-         "location" : "CARRIED_BY:screwball",
+         "location" : "CARRIED_BY:screwball@nexus",
          "pname" : "shaft",
          "name" : "shaft",
          "examine" : "The clamps on the top are designed to hold something.",
@@ -881,7 +881,7 @@
       },
       "dustbunny@nexus" : {
          "desc[1]" : "A dustbunny cooked to the proper temperature simmers here.",
-         "location" : "IN_ROOM:nexus17",
+         "location" : "IN_ROOM:nexus17@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -894,7 +894,7 @@
          "desc[0]" : "A raw dustbunny of unusual size can cause major allergies."
       },
       "shard@nexus" : {
-         "location" : "IN_ROOM:nexus1",
+         "location" : "IN_ROOM:nexus1@nexus",
          "altname" : "piece",
          "pname" : "shard",
          "name" : "shard",
@@ -903,7 +903,7 @@
          "size" : "4"
       },
       "stump7@nexus" : {
-         "location" : "IN_ROOM:nexus35",
+         "location" : "IN_ROOM:nexus35@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -914,7 +914,7 @@
          "desc[0]" : "An ancient stump sits here, acting important."
       },
       "fishhook@nexus" : {
-         "location" : "IN_ROOM:nexus38",
+         "location" : "IN_ROOM:nexus38@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -926,7 +926,7 @@
       },
       "ore8@nexus" : {
          "desc[1]" : "The ore is black with the heavy oil on it.",
-         "location" : "IN_ROOM:nexus36",
+         "location" : "IN_ROOM:nexus36@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -940,7 +940,7 @@
       },
       "ore1@nexus" : {
          "desc[1]" : "The ore is black with the heavy oil on it.",
-         "location" : "IN_ROOM:nexus23",
+         "location" : "IN_ROOM:nexus23@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -954,7 +954,7 @@
       },
       "ore2@nexus" : {
          "desc[1]" : "The ore is black with the heavy oil on it.",
-         "location" : "IN_ROOM:nexus24",
+         "location" : "IN_ROOM:nexus24@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -967,7 +967,7 @@
          "desc[0]" : "A chunk of metallic ore is here, freshly dug up."
       },
       "buckle@nexus" : {
-         "location" : "WORN_BY:quaron",
+         "location" : "WORN_BY:quaron@nexus",
          "armor" : "5",
          "oflags" : [
             "Wearable",
@@ -984,7 +984,7 @@
       },
       "box@nexus" : {
          "desc[1]" : "A valuable box here is tightly closed.",
-         "location" : "IN_ROOM:nexus42",
+         "location" : "IN_ROOM:nexus42@nexus",
          "desc[3]" : "A valuable box here is sealed with an immense lock.",
          "oflags" : [
             "NoGet",
@@ -999,7 +999,7 @@
       },
       "bones@nexus" : {
          "desc[1]" : "Some bones from a thoroughly searched corpse lay scattered mindlessly.",
-         "location" : "IN_ROOM:nexus37",
+         "location" : "IN_ROOM:nexus37@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -1010,7 +1010,7 @@
          "state" : "0"
       },
       "letter3@nexus" : {
-         "location" : "IN_CONTAINER:box",
+         "location" : "IN_CONTAINER:box@nexus",
          "pname" : "letter",
          "name" : "letter3",
          "examine" : "You see the shape of an 'a'.",
@@ -1019,7 +1019,7 @@
       },
       "ore7@nexus" : {
          "desc[1]" : "The ore is black with the heavy oil on it.",
-         "location" : "IN_ROOM:nexus35",
+         "location" : "IN_ROOM:nexus35@nexus",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -1032,7 +1032,7 @@
          "desc[0]" : "A chunk of metallic ore is here, freshly dug up."
       },
       "alloy1@nexus" : {
-         "location" : "IN_ROOM:nexus31",
+         "location" : "IN_ROOM:nexus31@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -1042,7 +1042,7 @@
          "desc[0]" : "A carbon-colored alloy is here."
       },
       "helix@nexus" : {
-         "location" : "IN_ROOM:nexus14",
+         "location" : "IN_ROOM:nexus14@nexus",
          "oflags" : [
             "Destroyed"
          ],
@@ -1054,7 +1054,7 @@
       },
       "gate1@nexus" : {
          "desc[1]" : "The rusty velvet gates are closed.",
-         "location" : "IN_ROOM:nexus12",
+         "location" : "IN_ROOM:nexus12@nexus",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -1069,7 +1069,7 @@
          "desc[0]" : "The rusty velvet gates are open."
       },
       "leaves3@nexus" : {
-         "location" : "IN_ROOM:nexus27",
+         "location" : "IN_ROOM:nexus27@nexus",
          "oflags" : [
             "NoGet"
          ],
@@ -1080,7 +1080,7 @@
    "loc" : {
       "nexus32@nexus" : {
          "exits" : {
-            "s" : "nexus30"
+            "s" : "nexus30@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1096,8 +1096,8 @@
       },
       "nexus53@nexus" : {
          "exits" : {
-            "w" : "nexus52",
-            "s" : "nexus54"
+            "w" : "nexus52@nexus",
+            "s" : "nexus54@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1113,11 +1113,11 @@
       },
       "nexus20@nexus" : {
          "exits" : {
-            "w" : "nexus29",
-            "e" : "nexus21",
-            "u" : "nexus19",
-            "n" : "nexus33",
-            "s" : "nexus25"
+            "w" : "nexus29@nexus",
+            "e" : "nexus21@nexus",
+            "u" : "nexus19@nexus",
+            "n" : "nexus33@nexus",
+            "s" : "nexus25@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1133,8 +1133,8 @@
       },
       "nexus44@nexus" : {
          "exits" : {
-            "e" : "nexus45",
-            "w" : "nexus43"
+            "e" : "nexus45@nexus",
+            "w" : "nexus43@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1150,7 +1150,7 @@
       },
       "nexus36@nexus" : {
          "exits" : {
-            "w" : "nexus34"
+            "w" : "nexus34@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1166,8 +1166,8 @@
       },
       "nexus68@nexus" : {
          "exits" : {
-            "e" : "^door1",
-            "u" : "nexus67"
+            "e" : "^door1@nexus",
+            "u" : "nexus67@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1183,7 +1183,7 @@
       },
       "nexus14@nexus" : {
          "exits" : {
-            "w" : "nexus13"
+            "w" : "nexus13@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1199,8 +1199,8 @@
       },
       "nexus7@nexus" : {
          "exits" : {
-            "n" : "nexus8",
-            "s" : "nexus6"
+            "n" : "nexus8@nexus",
+            "s" : "nexus6@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1217,9 +1217,9 @@
       },
       "nexus21@nexus" : {
          "exits" : {
-            "w" : "nexus20",
-            "n" : "nexus34",
-            "s" : "nexus22"
+            "w" : "nexus20@nexus",
+            "n" : "nexus34@nexus",
+            "s" : "nexus22@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1235,8 +1235,8 @@
       },
       "nexus3@nexus" : {
          "exits" : {
-            "e" : "nexus4",
-            "w" : "nexus2"
+            "e" : "nexus4@nexus",
+            "w" : "nexus2@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1253,8 +1253,8 @@
       },
       "nexus15@nexus" : {
          "exits" : {
-            "n" : "nexus16",
-            "s" : "nexus13"
+            "n" : "nexus16@nexus",
+            "s" : "nexus13@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1270,7 +1270,7 @@
       },
       "nexus23@nexus" : {
          "exits" : {
-            "w" : "nexus22"
+            "w" : "nexus22@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1286,7 +1286,7 @@
       },
       "nexus54@nexus" : {
          "exits" : {
-            "n" : "nexus53"
+            "n" : "nexus53@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1302,7 +1302,7 @@
       },
       "nexus1@nexus" : {
          "exits" : {
-            "e" : "nexus2"
+            "e" : "nexus2@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1319,10 +1319,10 @@
       },
       "nexus34@nexus" : {
          "exits" : {
-            "w" : "nexus33",
-            "e" : "nexus36",
-            "n" : "nexus35",
-            "s" : "nexus21"
+            "w" : "nexus33@nexus",
+            "e" : "nexus36@nexus",
+            "n" : "nexus35@nexus",
+            "s" : "nexus21@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1338,8 +1338,8 @@
       },
       "nexus8@nexus" : {
          "exits" : {
-            "n" : "nexus9",
-            "s" : "nexus7"
+            "n" : "nexus9@nexus",
+            "s" : "nexus7@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1355,8 +1355,8 @@
       },
       "nexus9@nexus" : {
          "exits" : {
-            "n" : "nexus10",
-            "s" : "nexus8"
+            "n" : "nexus10@nexus",
+            "s" : "nexus8@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1373,8 +1373,8 @@
       },
       "nexus67@nexus" : {
          "exits" : {
-            "u" : "nexus66",
-            "d" : "nexus68"
+            "u" : "nexus66@nexus",
+            "d" : "nexus68@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1390,9 +1390,9 @@
       },
       "nexus69@nexus" : {
          "exits" : {
-            "w" : "^door2",
-            "u" : "nexus70",
-            "d" : "nexus71"
+            "w" : "^door2@nexus",
+            "u" : "nexus70@nexus",
+            "d" : "nexus71@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1409,8 +1409,8 @@
       },
       "nexus41@nexus" : {
          "exits" : {
-            "e" : "nexus40",
-            "w" : "nexus42"
+            "e" : "nexus40@nexus",
+            "w" : "nexus42@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1426,8 +1426,8 @@
       },
       "nexus63@nexus" : {
          "exits" : {
-            "n" : "nexus64",
-            "s" : "nexus62"
+            "n" : "nexus64@nexus",
+            "s" : "nexus62@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1445,8 +1445,8 @@
       },
       "nexus60@nexus" : {
          "exits" : {
-            "n" : "nexus61",
-            "s" : "nexus59"
+            "n" : "nexus61@nexus",
+            "s" : "nexus59@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1464,8 +1464,8 @@
       },
       "nexus39@nexus" : {
          "exits" : {
-            "n" : "nexus38",
-            "s" : "nexus40"
+            "n" : "nexus38@nexus",
+            "s" : "nexus40@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1481,7 +1481,7 @@
       },
       "nexus35@nexus" : {
          "exits" : {
-            "s" : "nexus34"
+            "s" : "nexus34@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1497,8 +1497,8 @@
       },
       "nexus65@nexus" : {
          "exits" : {
-            "d" : "nexus66",
-            "s" : "nexus64"
+            "d" : "nexus66@nexus",
+            "s" : "nexus64@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1515,7 +1515,7 @@
       },
       "nexus18@nexus" : {
          "exits" : {
-            "w" : "nexus16"
+            "w" : "nexus16@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1531,7 +1531,7 @@
       },
       "nexus62@nexus" : {
          "exits" : {
-            "n" : "nexus63"
+            "n" : "nexus63@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1549,7 +1549,7 @@
       },
       "nexus58@nexus" : {
          "exits" : {
-            "n" : "nexus59"
+            "n" : "nexus59@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1566,8 +1566,8 @@
       },
       "nexus51@nexus" : {
          "exits" : {
-            "e" : "nexus52",
-            "s" : "nexus50"
+            "e" : "nexus52@nexus",
+            "s" : "nexus50@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1583,7 +1583,7 @@
       },
       "nexus27@nexus" : {
          "exits" : {
-            "n" : "nexus26"
+            "n" : "nexus26@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1599,8 +1599,8 @@
       },
       "nexus52@nexus" : {
          "exits" : {
-            "w" : "nexus51",
-            "e" : "nexus53"
+            "w" : "nexus51@nexus",
+            "e" : "nexus53@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1616,9 +1616,9 @@
       },
       "nexus47@nexus" : {
          "exits" : {
-            "w" : "nexus46",
-            "n" : "nexus49",
-            "s" : "nexus48"
+            "w" : "nexus46@nexus",
+            "n" : "nexus49@nexus",
+            "s" : "nexus48@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1634,8 +1634,8 @@
       },
       "nexus49@nexus" : {
          "exits" : {
-            "n" : "nexus50",
-            "s" : "nexus47"
+            "n" : "nexus50@nexus",
+            "s" : "nexus47@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1651,7 +1651,7 @@
       },
       "nexus70@nexus" : {
          "exits" : {
-            "d" : "nexus69"
+            "d" : "nexus69@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1668,7 +1668,7 @@
       },
       "nexus19@nexus" : {
          "exits" : {
-            "d" : "nexus20"
+            "d" : "nexus20@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1685,8 +1685,8 @@
       },
       "nexus45@nexus" : {
          "exits" : {
-            "e" : "nexus46",
-            "w" : "nexus44"
+            "e" : "nexus46@nexus",
+            "w" : "nexus44@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1702,7 +1702,7 @@
       },
       "nexus38@nexus" : {
          "exits" : {
-            "s" : "nexus39"
+            "s" : "nexus39@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1718,7 +1718,7 @@
       },
       "nexus48@nexus" : {
          "exits" : {
-            "n" : "nexus47"
+            "n" : "nexus47@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1734,7 +1734,7 @@
       },
       "nexus61@nexus" : {
          "exits" : {
-            "s" : "nexus60"
+            "s" : "nexus60@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1752,9 +1752,9 @@
       },
       "nexus4@nexus" : {
          "exits" : {
-            "e" : "nexus5",
-            "w" : "nexus3",
-            "n" : "nexus6"
+            "e" : "nexus5@nexus",
+            "w" : "nexus3@nexus",
+            "n" : "nexus6@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1771,7 +1771,7 @@
       },
       "nexus28@nexus" : {
          "exits" : {
-            "e" : "nexus26"
+            "e" : "nexus26@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1787,9 +1787,9 @@
       },
       "nexus33@nexus" : {
          "exits" : {
-            "e" : "nexus34",
-            "w" : "nexus30",
-            "s" : "nexus20"
+            "e" : "nexus34@nexus",
+            "w" : "nexus30@nexus",
+            "s" : "nexus20@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1805,9 +1805,9 @@
       },
       "nexus29@nexus" : {
          "exits" : {
-            "e" : "nexus20",
-            "n" : "nexus30",
-            "s" : "nexus26"
+            "e" : "nexus20@nexus",
+            "n" : "nexus30@nexus",
+            "s" : "nexus26@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1823,7 +1823,7 @@
       },
       "nexus11@nexus" : {
          "exits" : {
-            "u" : "nexus12"
+            "u" : "nexus12@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1839,9 +1839,9 @@
       },
       "nexus13@nexus" : {
          "exits" : {
-            "e" : "nexus14",
-            "n" : "nexus15",
-            "s" : "^gate2"
+            "e" : "nexus14@nexus",
+            "n" : "nexus15@nexus",
+            "s" : "^gate2@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1857,8 +1857,8 @@
       },
       "nexus64@nexus" : {
          "exits" : {
-            "n" : "nexus65",
-            "s" : "nexus63"
+            "n" : "nexus65@nexus",
+            "s" : "nexus63@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1876,7 +1876,7 @@
       },
       "nexus71@nexus" : {
          "exits" : {
-            "u" : "nexus69"
+            "u" : "nexus69@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1893,9 +1893,9 @@
       },
       "nexus16@nexus" : {
          "exits" : {
-            "e" : "nexus18",
-            "w" : "nexus17",
-            "s" : "nexus15"
+            "e" : "nexus18@nexus",
+            "w" : "nexus17@nexus",
+            "s" : "nexus15@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1911,8 +1911,8 @@
       },
       "nexus6@nexus" : {
          "exits" : {
-            "n" : "nexus7",
-            "s" : "nexus4"
+            "n" : "nexus7@nexus",
+            "s" : "nexus4@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1929,8 +1929,8 @@
       },
       "nexus2@nexus" : {
          "exits" : {
-            "e" : "nexus3",
-            "w" : "nexus1"
+            "e" : "nexus3@nexus",
+            "w" : "nexus1@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1947,8 +1947,8 @@
       },
       "nexus56@nexus" : {
          "exits" : {
-            "u" : "nexus57",
-            "d" : "nexus55"
+            "u" : "nexus57@nexus",
+            "d" : "nexus55@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1964,8 +1964,8 @@
       },
       "nexus43@nexus" : {
          "exits" : {
-            "e" : "nexus44",
-            "w" : "nexus40"
+            "e" : "nexus44@nexus",
+            "w" : "nexus40@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1981,7 +1981,7 @@
       },
       "nexus17@nexus" : {
          "exits" : {
-            "e" : "nexus16"
+            "e" : "nexus16@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -1997,9 +1997,9 @@
       },
       "nexus25@nexus" : {
          "exits" : {
-            "w" : "nexus26",
-            "e" : "nexus22",
-            "n" : "nexus20"
+            "w" : "nexus26@nexus",
+            "e" : "nexus22@nexus",
+            "n" : "nexus20@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2015,8 +2015,8 @@
       },
       "nexus66@nexus" : {
          "exits" : {
-            "u" : "nexus65",
-            "d" : "nexus67"
+            "u" : "nexus65@nexus",
+            "d" : "nexus67@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2032,8 +2032,8 @@
       },
       "nexus12@nexus" : {
          "exits" : {
-            "n" : "^gate1",
-            "d" : "nexus11"
+            "n" : "^gate1@nexus",
+            "d" : "nexus11@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2049,8 +2049,8 @@
       },
       "nexus59@nexus" : {
          "exits" : {
-            "n" : "nexus60",
-            "s" : "nexus58"
+            "n" : "nexus60@nexus",
+            "s" : "nexus58@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2068,7 +2068,7 @@
       },
       "nexus5@nexus" : {
          "exits" : {
-            "w" : "nexus4"
+            "w" : "nexus4@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2084,8 +2084,8 @@
       },
       "nexus46@nexus" : {
          "exits" : {
-            "e" : "nexus47",
-            "w" : "nexus45"
+            "e" : "nexus47@nexus",
+            "w" : "nexus45@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2101,8 +2101,8 @@
       },
       "nexus50@nexus" : {
          "exits" : {
-            "n" : "nexus51",
-            "s" : "nexus49"
+            "n" : "nexus51@nexus",
+            "s" : "nexus49@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2118,7 +2118,7 @@
       },
       "nexus24@nexus" : {
          "exits" : {
-            "n" : "nexus22"
+            "n" : "nexus22@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2134,7 +2134,7 @@
       },
       "nexus31@nexus" : {
          "exits" : {
-            "e" : "nexus30"
+            "e" : "nexus30@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2150,9 +2150,9 @@
       },
       "nexus40@nexus" : {
          "exits" : {
-            "e" : "nexus43",
-            "w" : "nexus41",
-            "n" : "nexus39"
+            "e" : "nexus43@nexus",
+            "w" : "nexus41@nexus",
+            "n" : "nexus39@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2168,10 +2168,10 @@
       },
       "nexus26@nexus" : {
          "exits" : {
-            "w" : "nexus28",
-            "e" : "nexus25",
-            "n" : "nexus29",
-            "s" : "nexus27"
+            "w" : "nexus28@nexus",
+            "e" : "nexus25@nexus",
+            "n" : "nexus29@nexus",
+            "s" : "nexus27@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2187,7 +2187,7 @@
       },
       "nexus10@nexus" : {
          "exits" : {
-            "s" : "nexus9"
+            "s" : "nexus9@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2203,7 +2203,7 @@
       },
       "nexus42@nexus" : {
          "exits" : {
-            "e" : "nexus41"
+            "e" : "nexus41@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2219,8 +2219,8 @@
       },
       "nexus55@nexus" : {
          "exits" : {
-            "u" : "nexus56",
-            "d" : "nexus54"
+            "u" : "nexus56@nexus",
+            "d" : "nexus54@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2251,7 +2251,7 @@
       },
       "nexus57@nexus" : {
          "exits" : {
-            "d" : "nexus56"
+            "d" : "nexus56@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2267,10 +2267,10 @@
       },
       "nexus30@nexus" : {
          "exits" : {
-            "w" : "nexus31",
-            "e" : "nexus33",
-            "n" : "nexus32",
-            "s" : "nexus29"
+            "w" : "nexus31@nexus",
+            "e" : "nexus33@nexus",
+            "n" : "nexus32@nexus",
+            "s" : "nexus29@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2286,10 +2286,10 @@
       },
       "nexus22@nexus" : {
          "exits" : {
-            "w" : "nexus25",
-            "e" : "nexus23",
-            "n" : "nexus21",
-            "s" : "nexus24"
+            "w" : "nexus25@nexus",
+            "e" : "nexus23@nexus",
+            "n" : "nexus21@nexus",
+            "s" : "nexus24@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2305,7 +2305,7 @@
       },
       "nexus37@nexus" : {
          "exits" : {
-            "s" : "nexus19"
+            "s" : "nexus19@nexus"
          },
          "flags" : [
             "Soundproof",
@@ -2324,7 +2324,7 @@
    "mob" : {
       "quaron@nexus" : {
          "damage" : "99",
-         "location" : "nexus71",
+         "location" : "nexus71@nexus",
          "armor" : "99",
          "name" : "quaron",
          "description" : "The demon lord Quaron awaits his next slave.",
@@ -2338,7 +2338,7 @@
       },
       "swarm@nexus" : {
          "damage" : "14",
-         "location" : "nexus20",
+         "location" : "nexus20@nexus",
          "armor" : "0",
          "name" : "swarm",
          "description" : "A swarm of gnats buzzes angrily around you.",
@@ -2355,7 +2355,7 @@
       },
       "minion4@nexus" : {
          "damage" : "17",
-         "location" : "nexus72",
+         "location" : "nexus72@nexus",
          "armor" : "0",
          "name" : "minion4",
          "description" : "The maintainence man of torture is going to grease his machines with you. \nHexnogon adjusts his tool belt and sneers at you.",
@@ -2370,7 +2370,7 @@
          ]
       },
       "fisherman@nexus" : {
-         "location" : "nexus16",
+         "location" : "nexus16@nexus",
          "name" : "fisherman",
          "description" : "A fisherman tries out his new pole and curses his ill luck.",
          "strength" : "100",
@@ -2384,7 +2384,7 @@
          ]
       },
       "bagofwind@nexus" : {
-         "location" : "nexus72",
+         "location" : "nexus72@nexus",
          "name" : "bagofwind",
          "description" : "A large airhead floats before you, full of useless wisdom.",
          "sflags" : [
@@ -2406,7 +2406,7 @@
       },
       "deer@nexus" : {
          "damage" : "12",
-         "location" : "nexus20",
+         "location" : "nexus20@nexus",
          "armor" : "1",
          "name" : "deer",
          "description" : "A well-muscled deer whips by you.",
@@ -2420,7 +2420,7 @@
             "Blind"
          ],
          "damage" : "6",
-         "location" : "nexus20",
+         "location" : "nexus20@nexus",
          "armor" : "0",
          "name" : "fatbird",
          "description" : "A rather fat bird attempts to poke your eyes out!",
@@ -2434,7 +2434,7 @@
       },
       "snake2@nexus" : {
          "damage" : "11",
-         "location" : "nexus7",
+         "location" : "nexus7@nexus",
          "armor" : "7",
          "name" : "snake2",
          "description" : "A crystalline snake attempts to serrate you quite painfully.",
@@ -2449,7 +2449,7 @@
       },
       "mosquitoes@nexus" : {
          "damage" : "7",
-         "location" : "nexus20",
+         "location" : "nexus20@nexus",
          "armor" : "0",
          "name" : "mosquitoes",
          "description" : "A swarm of mosquitoes quickly sink their shnozzes into you.",
@@ -2466,7 +2466,7 @@
       },
       "crab@nexus" : {
          "damage" : "9",
-         "location" : "nexus45",
+         "location" : "nexus45@nexus",
          "armor" : "1",
          "name" : "crab",
          "description" : "A crab crawls across the ground, attemping to nab your toe!",
@@ -2477,7 +2477,7 @@
       },
       "troutmonster@nexus" : {
          "damage" : "15",
-         "location" : "nexus72",
+         "location" : "nexus72@nexus",
          "armor" : "5",
          "name" : "troutmonster",
          "description" : "Never fear! Troutmonster and all its teeth are here!",
@@ -2488,7 +2488,7 @@
       },
       "fox@nexus" : {
          "damage" : "8",
-         "location" : "nexus20",
+         "location" : "nexus20@nexus",
          "armor" : "0",
          "name" : "fox",
          "description" : "This quick &+Bblue &*fox couldn't jump if it wanted to.",
@@ -2499,7 +2499,7 @@
       },
       "snake1@nexus" : {
          "damage" : "10",
-         "location" : "nexus3",
+         "location" : "nexus3@nexus",
          "armor" : "10",
          "name" : "snake1",
          "description" : "A crystalline snake attempts to serrate you quite painfully.",
@@ -2514,7 +2514,7 @@
       },
       "screwball@nexus" : {
          "damage" : "0",
-         "location" : "nexus57",
+         "location" : "nexus57@nexus",
          "name" : "screwball",
          "description" : "A lanky Screwball failing at life is here.",
          "strength" : "100",
@@ -2529,7 +2529,7 @@
       },
       "minion2@nexus" : {
          "damage" : "11",
-         "location" : "nexus72",
+         "location" : "nexus72@nexus",
          "armor" : "0",
          "name" : "minion2",
          "description" : "The decomposing conductor Maestro waves his baton at you.",
@@ -2546,7 +2546,7 @@
       },
       "minion5@nexus" : {
          "damage" : "20",
-         "location" : "nexus72",
+         "location" : "nexus72@nexus",
          "armor" : "0",
          "name" : "minion5",
          "description" : "\nAn aquamarine-skinned spawn of the deep, Riffraff, is here to defend\nits master.",
@@ -2562,7 +2562,7 @@
       },
       "lobster@nexus" : {
          "damage" : "10",
-         "location" : "nexus45",
+         "location" : "nexus45@nexus",
          "armor" : "3",
          "name" : "lobster",
          "description" : "A rather symmetrical lobster crawls across the ground.",
@@ -2573,7 +2573,7 @@
       },
       "minion3@nexus" : {
          "damage" : "14",
-         "location" : "nexus72",
+         "location" : "nexus72@nexus",
          "armor" : "5",
          "name" : "minion3",
          "description" : "Alberto the wind spirit is going to huff and puff and blow you down!",
@@ -2593,7 +2593,7 @@
       },
       "skeleton@nexus" : {
          "damage" : "9",
-         "location" : "nexus14",
+         "location" : "nexus14@nexus",
          "armor" : "3",
          "name" : "skeleton",
          "description" : "Slurking about is a skeleton with a still-beating heart.",
@@ -2607,7 +2607,7 @@
       },
       "chipmunk2@nexus" : {
          "damage" : "7",
-         "location" : "nexus20",
+         "location" : "nexus20@nexus",
          "armor" : "0",
          "name" : "chipmunk2",
          "description" : "Renwad the chipmunk somersaults down a nearby tree.",
@@ -2618,7 +2618,7 @@
       },
       "chipmunk1@nexus" : {
          "damage" : "6",
-         "location" : "nexus20",
+         "location" : "nexus20@nexus",
          "armor" : "0",
          "name" : "chipmunk1",
          "description" : "Klathox the chipmunk has gone rabid in his senility.",
@@ -2629,7 +2629,7 @@
       },
       "minion1@nexus" : {
          "damage" : "8",
-         "location" : "nexus69",
+         "location" : "nexus69@nexus",
          "armor" : "10",
          "name" : "minion1",
          "description" : "One of Quaron's minions, a scaly, orange reptile, has decided to pay \nyou a visit. Skaraug has determined your livingness is just plain wrong.",
@@ -2644,7 +2644,7 @@
             "Missile"
          ],
          "damage" : "10",
-         "location" : "nexus36",
+         "location" : "nexus36@nexus",
          "armor" : "0",
          "name" : "wizardess",
          "description" : "A wizardess of the earth tries to become one with nature.",
@@ -2663,7 +2663,7 @@
             "FearIceStorm"
          ],
          "damage" : "20",
-         "location" : "nexus67",
+         "location" : "nexus67@nexus",
          "armor" : "0",
          "name" : "whale",
          "description" : "The shadow of a bulky whale looms over you.",
@@ -2677,7 +2677,7 @@
       },
       "snake3@nexus" : {
          "damage" : "15",
-         "location" : "nexus10",
+         "location" : "nexus10@nexus",
          "armor" : "10",
          "name" : "snake3",
          "description" : "A thick crystalline snake attempts to sleep soundly.",
@@ -2692,7 +2692,7 @@
       },
       "slug@nexus" : {
          "damage" : "14",
-         "location" : "nexus50",
+         "location" : "nexus50@nexus",
          "armor" : "0",
          "name" : "slug",
          "description" : "There is a slug of inordinate size here. It is immune to salt.",
@@ -2711,7 +2711,7 @@
             "FearIcestorm"
          ],
          "damage" : "10",
-         "location" : "nexus66",
+         "location" : "nexus66@nexus",
          "armor" : "0",
          "name" : "minnow",
          "description" : "A small minnow made out of pure molten rock swims toward you.",
@@ -2728,7 +2728,7 @@
             "Missile"
          ],
          "damage" : "8",
-         "location" : "nexus72",
+         "location" : "nexus72@nexus",
          "armor" : "0",
          "name" : "moldy",
          "description" : "The thick arms of Mold Monster attempt to rot your pristine throat.",
@@ -2739,7 +2739,7 @@
       },
       "ent@nexus" : {
          "damage" : "15",
-         "location" : "nexus20",
+         "location" : "nexus20@nexus",
          "armor" : "9",
          "name" : "ent",
          "description" : "One tree is very out of place here. Redwood Ent stands defiantly.",
@@ -2756,7 +2756,7 @@
       },
       "rockqueen@nexus" : {
          "damage" : "13",
-         "location" : "nexus37",
+         "location" : "nexus37@nexus",
          "armor" : "10",
          "name" : "rockqueen",
          "description" : "Grand Poomba Rockqueen of the rock stares sullenly at your mug.",
@@ -2773,7 +2773,7 @@
       },
       "bee@nexus" : {
          "damage" : "12",
-         "location" : "nexus20",
+         "location" : "nexus20@nexus",
          "armor" : "0",
          "name" : "bee",
          "description" : "Words fail as you spot a bloated bee.",

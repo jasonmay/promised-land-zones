@@ -1,7 +1,7 @@
 {
    "obj" : {
       "staircase_newbee18647@newbee" : {
-         "location" : "IN_ROOM:newbee18647",
+         "location" : "IN_ROOM:newbee18647@newbee",
          "oflags" : [
             "Noget"
          ],
@@ -11,7 +11,7 @@
          "examine" : "\nThey are constructed of smooth, beautiful marble.\n"
       },
       "floor_newbee18646@newbee" : {
-         "location" : "IN_ROOM:newbee18646",
+         "location" : "IN_ROOM:newbee18646@newbee",
          "oflags" : [
             "Noget"
          ],
@@ -20,7 +20,7 @@
          "examine" : "\nIt appears to be the crest of the Harlequin Guild.\n"
       },
       "fountain@newbee" : {
-         "location" : "IN_ROOM:newbee18640",
+         "location" : "IN_ROOM:newbee18640@newbee",
          "oflags" : [
             "NoGet"
          ],
@@ -29,7 +29,7 @@
          "desc[0]" : "A small icy fountain burbles gently in the centre of the room."
       },
       "statue_newbee18640@newbee" : {
-         "location" : "IN_ROOM:newbee18640",
+         "location" : "IN_ROOM:newbee18640@newbee",
          "oflags" : [
             "Noget"
          ],
@@ -39,7 +39,7 @@
       },
       "door_newbee18603@newbee" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:newbee18646",
+         "location" : "IN_ROOM:newbee18646@newbee",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -56,7 +56,7 @@
       },
       "door_newbee18612_s@newbee" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:newbee18604",
+         "location" : "IN_ROOM:newbee18604@newbee",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -73,7 +73,7 @@
       },
       "obj18614@newbee" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:mob18615",
+         "location" : "WIELDED_BY:mob18615@newbee",
          "oflags" : [
             "Glowing",
             "Newbie",
@@ -90,7 +90,7 @@
          "desc[0]" : "A finely crafted newbie mace is waiting for a worthy owner."
       },
       "obj18612@newbee" : {
-         "location" : "WORN_BY:mob18615",
+         "location" : "WORN_BY:mob18615@newbee",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -111,7 +111,7 @@
          ]
       },
       "obj18604@newbee" : {
-         "location" : "WORN_BY:mob18601",
+         "location" : "WORN_BY:mob18601@newbee",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -131,7 +131,7 @@
          ]
       },
       "obj18610@newbee" : {
-         "location" : "WORN_BY:mob18609",
+         "location" : "WORN_BY:mob18609@newbee",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -152,7 +152,7 @@
          ]
       },
       "wall_newbee18639@newbee" : {
-         "location" : "IN_ROOM:newbee18639",
+         "location" : "IN_ROOM:newbee18639@newbee",
          "oflags" : [
             "Noget"
          ],
@@ -162,7 +162,7 @@
       },
       "door_newbee18603_s@newbee" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:newbee18644",
+         "location" : "IN_ROOM:newbee18644@newbee",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -178,7 +178,7 @@
          "desc[0]" : "The door is open."
       },
       "obj18607@newbee" : {
-         "location" : "WORN_BY:mob18603",
+         "location" : "WORN_BY:mob18603@newbee",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -199,7 +199,7 @@
          ]
       },
       "obj18602_2@newbee" : {
-         "location" : "WORN_BY:mob18615",
+         "location" : "WORN_BY:mob18615@newbee",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -220,7 +220,7 @@
          ]
       },
       "obj18602_1@newbee" : {
-         "location" : "WORN_BY:mob18613",
+         "location" : "WORN_BY:mob18613@newbee",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -242,7 +242,7 @@
       },
       "obj18601@newbee" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:mob18613",
+         "location" : "WIELDED_BY:mob18613@newbee",
          "oflags" : [
             "Glowing",
             "Weapon",
@@ -259,7 +259,7 @@
          "desc[0]" : "A shiny newbie sword is lying here waiting to be possessed."
       },
       "plaque_newbee18640@newbee" : {
-         "location" : "IN_ROOM:newbee18640",
+         "location" : "IN_ROOM:newbee18640@newbee",
          "oflags" : [
             "Noget"
          ],
@@ -269,7 +269,7 @@
          "examine" : "\nIt says:\n\nMaynard, Death Jester of the Harlequins.\n\n"
       },
       "obj18613@newbee" : {
-         "location" : "WORN_BY:mob18615",
+         "location" : "WORN_BY:mob18615@newbee",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -291,7 +291,7 @@
       },
       "grate_newbee18605@newbee" : {
          "desc[1]" : "The grate is closed.",
-         "location" : "IN_ROOM:newbee18606",
+         "location" : "IN_ROOM:newbee18606@newbee",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -308,7 +308,7 @@
       },
       "door_newbee18646@newbee" : {
          "desc[1]" : "The eastdoor is closed.",
-         "location" : "IN_ROOM:newbee18603",
+         "location" : "IN_ROOM:newbee18603@newbee",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -326,7 +326,7 @@
       },
       "door_newbee18602@newbee" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:newbee18606",
+         "location" : "IN_ROOM:newbee18606@newbee",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -342,7 +342,7 @@
          "desc[0]" : "The door is open."
       },
       "floor_newbee18644@newbee" : {
-         "location" : "IN_ROOM:newbee18644",
+         "location" : "IN_ROOM:newbee18644@newbee",
          "oflags" : [
             "Noget"
          ],
@@ -351,7 +351,7 @@
          "examine" : "\nIt appears to be the Crest of the Harlequin Guild.\n"
       },
       "obj18611@newbee" : {
-         "location" : "WORN_BY:mob18609",
+         "location" : "WORN_BY:mob18609@newbee",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -373,7 +373,7 @@
          ]
       },
       "staircase_newbee18642@newbee" : {
-         "location" : "IN_ROOM:newbee18642",
+         "location" : "IN_ROOM:newbee18642@newbee",
          "oflags" : [
             "Noget"
          ],
@@ -384,7 +384,7 @@
       },
       "door_newbee18607@newbee" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:newbee18606",
+         "location" : "IN_ROOM:newbee18606@newbee",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -401,7 +401,7 @@
       },
       "door_newbee18611@newbee" : {
          "desc[1]" : "The westdoor is closed.",
-         "location" : "IN_ROOM:newbee18612",
+         "location" : "IN_ROOM:newbee18612@newbee",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -418,7 +418,7 @@
          "desc[0]" : "The westdoor is open."
       },
       "obj18609@newbee" : {
-         "location" : "CARRIED_BY:mob18605",
+         "location" : "CARRIED_BY:mob18605@newbee",
          "oflags" : [
             "Glowing"
          ],
@@ -433,7 +433,7 @@
          "desc[0]" : "A jar of glowing fluid wants to brighten your day."
       },
       "obj18605@newbee" : {
-         "location" : "WORN_BY:mob18604",
+         "location" : "WORN_BY:mob18604@newbee",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -455,7 +455,7 @@
       },
       "door_newbee18606_s@newbee" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:newbee18602",
+         "location" : "IN_ROOM:newbee18602@newbee",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -471,7 +471,7 @@
          "desc[0]" : "The door is open."
       },
       "obj18603@newbee" : {
-         "location" : "WORN_BY:mob18604",
+         "location" : "WORN_BY:mob18604@newbee",
          "oflags" : [
             "Glowing",
             "Wearable",
@@ -494,7 +494,7 @@
       },
       "obj18606_1@newbee" : {
          "damage" : "7",
-         "location" : "WIELDED_BY:mob18611",
+         "location" : "WIELDED_BY:mob18611@newbee",
          "oflags" : [
             "Weapon",
             "Newbie"
@@ -511,7 +511,7 @@
       },
       "door_newbee18604@newbee" : {
          "desc[1]" : "The northdoor is closed.",
-         "location" : "IN_ROOM:newbee18612",
+         "location" : "IN_ROOM:newbee18612@newbee",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -529,7 +529,7 @@
       },
       "door_newbee18606@newbee" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:newbee18607",
+         "location" : "IN_ROOM:newbee18607@newbee",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -544,7 +544,7 @@
          "desc[0]" : "The door is open."
       },
       "portal_newbee18629@newbee" : {
-         "location" : "IN_ROOM:newbee18629",
+         "location" : "IN_ROOM:newbee18629@newbee",
          "oflags" : [
             "Noget"
          ],
@@ -553,7 +553,7 @@
          "examine" : "\nIt looks as if you could go down into it... but you can't be sure of where\nyou will end up, or if you can get back.\n"
       },
       "sign_newbee18612@newbee" : {
-         "location" : "IN_ROOM:newbee18612",
+         "location" : "IN_ROOM:newbee18612@newbee",
          "oflags" : [
             "Noget"
          ],
@@ -564,7 +564,7 @@
       },
       "obj18606@newbee" : {
          "damage" : "7",
-         "location" : "WIELDED_BY:mob18602_1",
+         "location" : "WIELDED_BY:mob18602_1@newbee",
          "oflags" : [
             "Weapon",
             "Newbie"
@@ -581,7 +581,7 @@
       },
       "door_newbee18612@newbee" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:newbee18611",
+         "location" : "IN_ROOM:newbee18611@newbee",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -597,7 +597,7 @@
          "desc[0]" : "The door is open."
       },
       "obj18602@newbee" : {
-         "location" : "WORN_BY:mob18602",
+         "location" : "WORN_BY:mob18602@newbee",
          "oflags" : [
             "Wearable",
             "Armor",
@@ -619,7 +619,7 @@
       },
       "door_newbee18644_s@newbee" : {
          "desc[1]" : "The northdoor is closed.",
-         "location" : "IN_ROOM:newbee18603",
+         "location" : "IN_ROOM:newbee18603@newbee",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -635,7 +635,7 @@
          "desc[0]" : "The northdoor is open."
       },
       "obj18608@newbee" : {
-         "location" : "CARRIED_BY:mob18604",
+         "location" : "CARRIED_BY:mob18604@newbee",
          "oflags" : [
             "Key",
             "Newbie"
@@ -650,7 +650,7 @@
          "desc[0]" : "A key with the newbie crest on it is here."
       },
       "writing_newbee18639@newbee" : {
-         "location" : "IN_ROOM:newbee18639",
+         "location" : "IN_ROOM:newbee18639@newbee",
          "oflags" : [
             "Noget"
          ],
@@ -660,7 +660,7 @@
       },
       "grate_newbee18606@newbee" : {
          "desc[1]" : "The grate is closed.",
-         "location" : "IN_ROOM:newbee18605",
+         "location" : "IN_ROOM:newbee18605@newbee",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -679,8 +679,8 @@
    "loc" : {
       "newbee18609@newbee" : {
          "exits" : {
-            "e" : "newbee18610",
-            "w" : "newbee18608"
+            "e" : "newbee18610@newbee",
+            "w" : "newbee18608@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -691,9 +691,9 @@
       },
       "newbee18631@newbee" : {
          "exits" : {
-            "e" : "newbee18632",
-            "n" : "newbee18625",
-            "s" : "newbee18638"
+            "e" : "newbee18632@newbee",
+            "n" : "newbee18625@newbee",
+            "s" : "newbee18638@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -704,8 +704,8 @@
       },
       "newbee18629@newbee" : {
          "exits" : {
-            "e" : "newbee18630",
-            "n" : "newbee18620",
+            "e" : "newbee18630@newbee",
+            "n" : "newbee18620@newbee",
             "d" : "palace@icecave"
          },
          "flags" : [
@@ -719,8 +719,8 @@
       },
       "newbee18641@newbee" : {
          "exits" : {
-            "e" : "newbee18642",
-            "w" : "newbee18640"
+            "e" : "newbee18642@newbee",
+            "w" : "newbee18640@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -731,10 +731,10 @@
       },
       "newbee18603@newbee" : {
          "exits" : {
-            "e" : "^door_newbee18646",
-            "w" : "newbee18602",
-            "n" : "^door_newbee18644_s",
-            "s" : "newbee18607"
+            "e" : "^door_newbee18646@newbee",
+            "w" : "newbee18602@newbee",
+            "n" : "^door_newbee18644_s@newbee",
+            "s" : "newbee18607@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -745,7 +745,7 @@
       },
       "newbee18608@newbee" : {
          "exits" : {
-            "e" : "newbee18609",
+            "e" : "newbee18609@newbee",
             "n" : "grassy@blizzard"
          },
          "flags" : [
@@ -759,8 +759,8 @@
       },
       "newbee18600@newbee" : {
          "exits" : {
-            "e" : "newbee13",
-            "n" : "newbee18601"
+            "e" : "newbee13@newbee",
+            "n" : "newbee18601@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -771,9 +771,9 @@
       },
       "newbee18634@newbee" : {
          "exits" : {
-            "w" : "newbee18633",
-            "n" : "newbee18630",
-            "s" : "newbee18637"
+            "w" : "newbee18633@newbee",
+            "n" : "newbee18630@newbee",
+            "s" : "newbee18637@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -784,10 +784,10 @@
       },
       "newbee18632@newbee" : {
          "exits" : {
-            "w" : "newbee18631",
-            "u" : "newbee18612",
-            "n" : "newbee18627",
-            "s" : "newbee18635"
+            "w" : "newbee18631@newbee",
+            "u" : "newbee18612@newbee",
+            "n" : "newbee18627@newbee",
+            "s" : "newbee18635@newbee"
          },
          "flags" : [
             "Dark"
@@ -800,9 +800,9 @@
       },
       "newbee18630@newbee" : {
          "exits" : {
-            "w" : "newbee18629",
-            "n" : "newbee18624",
-            "s" : "newbee18634"
+            "w" : "newbee18629@newbee",
+            "n" : "newbee18624@newbee",
+            "s" : "newbee18634@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -813,7 +813,7 @@
       },
       "newbee18605@newbee" : {
          "exits" : {
-            "u" : "^grate_newbee18606"
+            "u" : "^grate_newbee18606@newbee"
          },
          "flags" : [
             "Dark"
@@ -826,8 +826,8 @@
       },
       "newbee18604@newbee" : {
          "exits" : {
-            "n" : "newbee18647",
-            "s" : "^door_newbee18612_s"
+            "n" : "newbee18647@newbee",
+            "s" : "^door_newbee18612_s@newbee"
          },
          "flags" : [
             "Dark"
@@ -840,8 +840,8 @@
       },
       "newbee18644@newbee" : {
          "exits" : {
-            "n" : "newbee18640",
-            "s" : "^door_newbee18603_s"
+            "n" : "newbee18640@newbee",
+            "s" : "^door_newbee18603_s@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -852,8 +852,8 @@
       },
       "newbee18637@newbee" : {
          "exits" : {
-            "w" : "newbee18636",
-            "n" : "newbee18634"
+            "w" : "newbee18636@newbee",
+            "n" : "newbee18634@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -864,8 +864,8 @@
       },
       "newbee18633@newbee" : {
          "exits" : {
-            "e" : "newbee18634",
-            "n" : "newbee18621"
+            "e" : "newbee18634@newbee",
+            "n" : "newbee18621@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -876,8 +876,8 @@
       },
       "newbee18635@newbee" : {
          "exits" : {
-            "e" : "newbee18636",
-            "n" : "newbee18632"
+            "e" : "newbee18636@newbee",
+            "n" : "newbee18632@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -888,8 +888,8 @@
       },
       "newbee18601@newbee" : {
          "exits" : {
-            "e" : "newbee18602",
-            "s" : "newbee18600"
+            "e" : "newbee18602@newbee",
+            "s" : "newbee18600@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -900,8 +900,8 @@
       },
       "newbee18623@newbee" : {
          "exits" : {
-            "e" : "newbee18624",
-            "s" : "newbee18627"
+            "e" : "newbee18624@newbee",
+            "s" : "newbee18627@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -912,8 +912,8 @@
       },
       "newbee18639@newbee" : {
          "exits" : {
-            "w" : "newbee18638",
-            "n" : "newbee18636"
+            "w" : "newbee18638@newbee",
+            "n" : "newbee18636@newbee"
          },
          "flags" : [
             "Dark"
@@ -926,9 +926,9 @@
       },
       "newbee18606@newbee" : {
          "exits" : {
-            "e" : "^door_newbee18607",
-            "n" : "^door_newbee18602",
-            "d" : "^grate_newbee18605"
+            "e" : "^door_newbee18607@newbee",
+            "n" : "^door_newbee18602@newbee",
+            "d" : "^grate_newbee18605@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -939,8 +939,8 @@
       },
       "newbee18620@newbee" : {
          "exits" : {
-            "e" : "newbee18621",
-            "s" : "newbee18629"
+            "e" : "newbee18621@newbee",
+            "s" : "newbee18629@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -951,8 +951,8 @@
       },
       "newbee18646@newbee" : {
          "exits" : {
-            "e" : "newbee18647",
-            "w" : "^door_newbee18603"
+            "e" : "newbee18647@newbee",
+            "w" : "^door_newbee18603@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -963,8 +963,8 @@
       },
       "newbee18626@newbee" : {
          "exits" : {
-            "e" : "newbee18627",
-            "w" : "newbee18625"
+            "e" : "newbee18627@newbee",
+            "w" : "newbee18625@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -975,9 +975,9 @@
       },
       "newbee18642@newbee" : {
          "exits" : {
-            "w" : "newbee18641",
-            "u" : "newbee18643",
-            "s" : "newbee18647"
+            "w" : "newbee18641@newbee",
+            "u" : "newbee18643@newbee",
+            "s" : "newbee18647@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -988,8 +988,8 @@
       },
       "newbee18640@newbee" : {
          "exits" : {
-            "e" : "newbee18641",
-            "s" : "newbee18644"
+            "e" : "newbee18641@newbee",
+            "s" : "newbee18644@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -1000,8 +1000,8 @@
       },
       "newbee18643@newbee" : {
          "exits" : {
-            "d" : "newbee18642",
-            "s" : "newbee18645"
+            "d" : "newbee18642@newbee",
+            "s" : "newbee18645@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -1012,10 +1012,10 @@
       },
       "newbee18647@newbee" : {
          "exits" : {
-            "w" : "newbee18646",
-            "u" : "newbee18645",
-            "n" : "newbee18642",
-            "s" : "newbee18604"
+            "w" : "newbee18646@newbee",
+            "u" : "newbee18645@newbee",
+            "n" : "newbee18642@newbee",
+            "s" : "newbee18604@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -1026,9 +1026,9 @@
       },
       "newbee18602@newbee" : {
          "exits" : {
-            "e" : "newbee18603",
-            "w" : "newbee18601",
-            "s" : "^door_newbee18606_s"
+            "e" : "newbee18603@newbee",
+            "w" : "newbee18601@newbee",
+            "s" : "^door_newbee18606_s@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -1039,8 +1039,8 @@
       },
       "newbee18628@newbee" : {
          "exits" : {
-            "w" : "newbee18627",
-            "n" : "newbee18622"
+            "w" : "newbee18627@newbee",
+            "n" : "newbee18622@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -1051,8 +1051,8 @@
       },
       "newbee18622@newbee" : {
          "exits" : {
-            "w" : "newbee18621",
-            "s" : "newbee18628"
+            "w" : "newbee18621@newbee",
+            "s" : "newbee18628@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -1063,8 +1063,8 @@
       },
       "newbee18625@newbee" : {
          "exits" : {
-            "e" : "newbee18626",
-            "s" : "newbee18631"
+            "e" : "newbee18626@newbee",
+            "s" : "newbee18631@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -1075,9 +1075,9 @@
       },
       "newbee18621@newbee" : {
          "exits" : {
-            "e" : "newbee18622",
-            "w" : "newbee18620",
-            "s" : "newbee18633"
+            "e" : "newbee18622@newbee",
+            "w" : "newbee18620@newbee",
+            "s" : "newbee18633@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -1089,7 +1089,7 @@
       "newbee13@newbee" : {
          "exits" : {
             "e" : "newbie18@newbie",
-            "w" : "newbee18600"
+            "w" : "newbee18600@newbee"
          },
          "flags" : [
             "Nomobiles"
@@ -1102,8 +1102,8 @@
       },
       "newbee18638@newbee" : {
          "exits" : {
-            "e" : "newbee18639",
-            "n" : "newbee18631"
+            "e" : "newbee18639@newbee",
+            "n" : "newbee18631@newbee"
          },
          "flags" : [
             "Dark"
@@ -1116,9 +1116,9 @@
       },
       "newbee18611@newbee" : {
          "exits" : {
-            "e" : "^door_newbee18612",
-            "w" : "newbee18610",
-            "n" : "newbee18607"
+            "e" : "^door_newbee18612@newbee",
+            "w" : "newbee18610@newbee",
+            "n" : "newbee18607@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -1129,8 +1129,8 @@
       },
       "newbee18610@newbee" : {
          "exits" : {
-            "e" : "newbee18611",
-            "w" : "newbee18609"
+            "e" : "newbee18611@newbee",
+            "w" : "newbee18609@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -1141,9 +1141,9 @@
       },
       "newbee18607@newbee" : {
          "exits" : {
-            "w" : "^door_newbee18606",
-            "n" : "newbee18603",
-            "s" : "newbee18611"
+            "w" : "^door_newbee18606@newbee",
+            "n" : "newbee18603@newbee",
+            "s" : "newbee18611@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -1154,8 +1154,8 @@
       },
       "newbee18624@newbee" : {
          "exits" : {
-            "w" : "newbee18623",
-            "s" : "newbee18630"
+            "w" : "newbee18623@newbee",
+            "s" : "newbee18630@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -1166,10 +1166,10 @@
       },
       "newbee18627@newbee" : {
          "exits" : {
-            "e" : "newbee18628",
-            "w" : "newbee18626",
-            "n" : "newbee18623",
-            "s" : "newbee18632"
+            "e" : "newbee18628@newbee",
+            "w" : "newbee18626@newbee",
+            "n" : "newbee18623@newbee",
+            "s" : "newbee18632@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -1180,9 +1180,9 @@
       },
       "newbee18612@newbee" : {
          "exits" : {
-            "w" : "^door_newbee18611",
-            "n" : "^door_newbee18604",
-            "d" : "newbee18632"
+            "w" : "^door_newbee18611@newbee",
+            "n" : "^door_newbee18604@newbee",
+            "d" : "newbee18632@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -1193,9 +1193,9 @@
       },
       "newbee18636@newbee" : {
          "exits" : {
-            "e" : "newbee18637",
-            "w" : "newbee18635",
-            "s" : "newbee18639"
+            "e" : "newbee18637@newbee",
+            "w" : "newbee18635@newbee",
+            "s" : "newbee18639@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -1206,8 +1206,8 @@
       },
       "newbee18645@newbee" : {
          "exits" : {
-            "n" : "newbee18643",
-            "d" : "newbee18647"
+            "n" : "newbee18643@newbee",
+            "d" : "newbee18647@newbee"
          },
          "flags" : [],
          "zone" : "newbee",
@@ -1221,7 +1221,7 @@
       "mob18611@newbee" : {
          "eflags" : "{}",
          "damage" : "4",
-         "location" : "newbee18646",
+         "location" : "newbee18646@newbee",
          "armor" : "0",
          "name" : "mob18611",
          "examine" : "\nWhat a jerk!  He won't shut up, and he keeps making the most irritating\ncomments about everything.  Better silence him with cold, tempered steel\nMUHAHAHAHAHAHAHAHAHAHA!\n",
@@ -1240,7 +1240,7 @@
       "mob18604@newbee" : {
          "eflags" : "{}",
          "damage" : "7",
-         "location" : "newbee18606",
+         "location" : "newbee18606@newbee",
          "armor" : "6",
          "name" : "mob18604",
          "examine" : "\nThe Guard also had the job of taking care of the Alchemist's pet dragon,\nbut he doesn't seem to be doing a good job of it.  He looks at you and\nsays, 'Have you seen that dragon?  Master will have my head if I don't find\nhim.'\n",
@@ -1257,7 +1257,7 @@
       "mob18609@newbee" : {
          "eflags" : "{}",
          "damage" : "9",
-         "location" : "newbee18620",
+         "location" : "newbee18620@newbee",
          "armor" : "10",
          "name" : "mob18609",
          "examine" : "\nA massive man, with the head of a bull.  He looks as strong as bull too,\nbut not nearly as smart.  Actually, now that you consider it... he looks\na heck of a lot meaner than any bull you have ever seen... and he is\ncoming this way!\n",
@@ -1276,7 +1276,7 @@
       "mob18608_2@newbee" : {
          "eflags" : "{}",
          "damage" : "5",
-         "location" : "newbee18638",
+         "location" : "newbee18638@newbee",
          "armor" : "6",
          "name" : "mob18608_2",
          "examine" : "\nLittle green, vaguely humoniod shaped creature, with a long pointed tail.\nIt is hard to say because before you ever get a good look at it, it darts\nback into the shadows.\n",
@@ -1295,7 +1295,7 @@
       "mob18607_3@newbee" : {
          "eflags" : "{}",
          "damage" : "8",
-         "location" : "newbee18633",
+         "location" : "newbee18633@newbee",
          "armor" : "10",
          "name" : "mob18607_3",
          "examine" : "\nThis guy has been lost in here too long... it is more zombie than man\nnow.  You would feel sorry for it, but it is moving in to attack!\n",
@@ -1315,7 +1315,7 @@
       "mob18605@newbee" : {
          "eflags" : "{}",
          "damage" : "8",
-         "location" : "newbee18612",
+         "location" : "newbee18612@newbee",
          "armor" : "10",
          "name" : "mob18605",
          "examine" : "\nHe is a funny looking, furry little dude.  He looks really busy trying to\nmix up a batch of something or other.\n",
@@ -1332,7 +1332,7 @@
       "mob18606_2@newbee" : {
          "eflags" : "{}",
          "damage" : "4",
-         "location" : "newbee18609",
+         "location" : "newbee18609@newbee",
          "armor" : "0",
          "name" : "mob18606_2",
          "examine" : "\nYuck!  If they'd ever clean this place maybe it wouldn't attract vermin\nlike this disgusting, little, six-legged, brown bug.\n",
@@ -1349,7 +1349,7 @@
       "mob18601@newbee" : {
          "eflags" : "{}",
          "damage" : "6",
-         "location" : "newbee18605",
+         "location" : "newbee18605@newbee",
          "armor" : "10",
          "name" : "mob18601",
          "examine" : "\nIck... what a disgusting creature!  It is black and green and slimy\nand it is drooling everywhere... looks mean too.\n",
@@ -1368,7 +1368,7 @@
       "mob18608_1@newbee" : {
          "eflags" : "{}",
          "damage" : "5",
-         "location" : "newbee18636",
+         "location" : "newbee18636@newbee",
          "armor" : "6",
          "name" : "mob18608_1",
          "examine" : "\nLittle green, vaguely humoniod shaped creature, with a long pointed tail.\nIt is hard to say because before you ever get a good look at it, it darts\nback into the shadows.\n",
@@ -1387,7 +1387,7 @@
       "mob18606_1@newbee" : {
          "eflags" : "{}",
          "damage" : "4",
-         "location" : "newbee18606",
+         "location" : "newbee18606@newbee",
          "armor" : "0",
          "name" : "mob18606_1",
          "examine" : "\nYuck!  If they'd ever clean this place maybe it wouldn't attract vermin\nlike this disgusting, little, six-legged, brown bug.\n",
@@ -1405,7 +1405,7 @@
          "eflags" : "{}",
          "visibility" : "10",
          "damage" : "8",
-         "location" : "newbee18639",
+         "location" : "newbee18639@newbee",
          "armor" : "14",
          "name" : "mob18610",
          "examine" : "\nThe soul of a long since passed on adventurer... it lurks here waiting for\na chance to bring death to any who cross its path.\n",
@@ -1426,7 +1426,7 @@
       "mob18612@newbee" : {
          "eflags" : "{}",
          "damage" : "4",
-         "location" : "newbee18642",
+         "location" : "newbee18642@newbee",
          "armor" : "0",
          "name" : "mob18612",
          "examine" : "\nWhat a moron!  Every question that is answered in the help files, he will\nask and he will probably ask 2 or 3 times too.  This guy just doesn't get\nit, best put him out of his misery.\n",
@@ -1445,7 +1445,7 @@
       "mob18606@newbee" : {
          "eflags" : "{}",
          "damage" : "4",
-         "location" : "newbee18602",
+         "location" : "newbee18602@newbee",
          "armor" : "0",
          "name" : "mob18606",
          "examine" : "\nYuck!  If they'd ever clean this place maybe it wouldn't attract vermin\nlike this disgusting, little, six-legged, brown bug.\n",
@@ -1462,7 +1462,7 @@
       "mob18608_3@newbee" : {
          "eflags" : "{}",
          "damage" : "5",
-         "location" : "newbee18621",
+         "location" : "newbee18621@newbee",
          "armor" : "6",
          "name" : "mob18608_3",
          "examine" : "\nLittle green, vaguely humoniod shaped creature, with a long pointed tail.\nIt is hard to say because before you ever get a good look at it, it darts\nback into the shadows.\n",
@@ -1481,7 +1481,7 @@
       "mob18603@newbee" : {
          "eflags" : "{}",
          "damage" : "7",
-         "location" : "newbee18602",
+         "location" : "newbee18602@newbee",
          "armor" : "8",
          "name" : "mob18603",
          "examine" : "\nAwwww... how cute!  A little baby dragon.  He's about 3 feet long and you\njust want to cuddle him to death... no, you really want to kill him to tell\nthe truth.  But, remember, even a little dragon can be a big problem.\n",
@@ -1498,7 +1498,7 @@
       "mob18614@newbee" : {
          "eflags" : "{}",
          "damage" : "7",
-         "location" : "newbee18604",
+         "location" : "newbee18604@newbee",
          "armor" : "8",
          "name" : "mob18614",
          "examine" : "\nHmmm... looks like he has been around a while, but he wandered a little\ntoo far from home this time.  Don't think he knows quite where he is,\nmaybe you should help him out?\n",
@@ -1515,7 +1515,7 @@
       "mob18607_1@newbee" : {
          "eflags" : "{}",
          "damage" : "8",
-         "location" : "newbee18624",
+         "location" : "newbee18624@newbee",
          "armor" : "10",
          "name" : "mob18607_1",
          "examine" : "\nThis guy has been lost in here too long... it is more zombie than man\nnow.  You would feel sorry for it, but it is moving in to attack!\n",
@@ -1535,7 +1535,7 @@
       "mob18607_2@newbee" : {
          "eflags" : "{}",
          "damage" : "8",
-         "location" : "newbee18637",
+         "location" : "newbee18637@newbee",
          "armor" : "10",
          "name" : "mob18607_2",
          "examine" : "\nThis guy has been lost in here too long... it is more zombie than man\nnow.  You would feel sorry for it, but it is moving in to attack!\n",
@@ -1555,7 +1555,7 @@
       "mob18615@newbee" : {
          "eflags" : "{}",
          "damage" : "8",
-         "location" : "newbee18645",
+         "location" : "newbee18645@newbee",
          "armor" : "2",
          "name" : "mob18615",
          "examine" : "\nHere is a guy who has it all together.  Nice equipment too, must have read\nthe help files, Eh?\n",
@@ -1574,7 +1574,7 @@
       "mob18608@newbee" : {
          "eflags" : "{}",
          "damage" : "5",
-         "location" : "newbee18627",
+         "location" : "newbee18627@newbee",
          "armor" : "6",
          "name" : "mob18608",
          "examine" : "\nLittle green, vaguely humoniod shaped creature, with a long pointed tail.\nIt is hard to say because before you ever get a good look at it, it darts\nback into the shadows.\n",
@@ -1593,7 +1593,7 @@
       "mob18602@newbee" : {
          "eflags" : "{}",
          "damage" : "5",
-         "location" : "newbee18600",
+         "location" : "newbee18600@newbee",
          "armor" : "2",
          "name" : "mob18602",
          "examine" : "\nWhat an odd looking little beast.  He looks harmless, but you never can\ntell.  He is only about 4 feet tall, but he pretty muscular looking...\nmaybe you should ask if he needs help?  Nah... kill him.\n",
@@ -1612,7 +1612,7 @@
       "mob18602_1@newbee" : {
          "eflags" : "{}",
          "damage" : "5",
-         "location" : "newbee18607",
+         "location" : "newbee18607@newbee",
          "armor" : "2",
          "name" : "mob18602_1",
          "examine" : "\nWhat an odd looking little beast.  He looks harmless, but you never can\ntell.  He is only about 4 feet tall, but hes pretty muscular looking...\nmaybe you should ask if he needs help?  Nah... kill him.\n",
@@ -1630,7 +1630,7 @@
       },
       "mob18616@newbee" : {
          "damage" : "8",
-         "location" : "newbee18610",
+         "location" : "newbee18610@newbee",
          "speed" : "2",
          "aggression" : "25",
          "pname" : "The Kamikaze Newbie",
@@ -1642,7 +1642,7 @@
       "mob18613@newbee" : {
          "eflags" : "{}",
          "damage" : "8",
-         "location" : "newbee18640",
+         "location" : "newbee18640@newbee",
          "armor" : "4",
          "name" : "mob18613",
          "examine" : "\nWell, at least this gal seems pretty cool.  Talks a lot, but she's a\nfriendly, interesting sort.  Seems to have a clue what she's doing also,\nunlike some others you might see.\n",
@@ -1661,7 +1661,7 @@
       "mob18607@newbee" : {
          "eflags" : "{}",
          "damage" : "8",
-         "location" : "newbee18620",
+         "location" : "newbee18620@newbee",
          "armor" : "10",
          "name" : "mob18607",
          "examine" : "\nThis guy has been lost in here too long... it is more zombie than man\nnow.  You would feel sorry for it, but it is moving in to attack!\n",

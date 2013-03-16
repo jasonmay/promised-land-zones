@@ -2,7 +2,7 @@
    "obj" : {
       "door_foyer@jbs" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:foyer",
+         "location" : "IN_ROOM:foyer@jbs",
          "oflags" : [
             "Openable",
             "lockable",
@@ -17,7 +17,7 @@
          "desc[0]" : "The door is open."
       },
       "ruby@jbs" : {
-         "location" : "IN_ROOM:glade",
+         "location" : "IN_ROOM:glade@jbs",
          "weight" : "2",
          "name" : "ruby",
          "examine" : "Looks like a ruby.",
@@ -27,7 +27,7 @@
       },
       "door_treasury@jbs" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:treasury",
+         "location" : "IN_ROOM:treasury@jbs",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -43,7 +43,7 @@
       },
       "door_hall@jbs" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:hall",
+         "location" : "IN_ROOM:hall@jbs",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -59,7 +59,7 @@
       },
       "gate_farmpath@jbs" : {
          "desc[1]" : "The gate is closed.",
-         "location" : "IN_ROOM:farmpath",
+         "location" : "IN_ROOM:farmpath@jbs",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -76,7 +76,7 @@
       },
       "door_cell4@jbs" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:cell4",
+         "location" : "IN_ROOM:cell4@jbs",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -92,7 +92,7 @@
       },
       "brick_storage@jbs" : {
          "desc[1]" : "There is a loose brick in the south wall.",
-         "location" : "IN_ROOM:storage",
+         "location" : "IN_ROOM:storage@jbs",
          "oflags" : [
             "PushToggle",
             "NoGet"
@@ -105,7 +105,7 @@
          "desc[0]" : "A loose brick has been pushed aside revealing a hole leading south."
       },
       "peas@jbs" : {
-         "location" : "IN_ROOM:pantry",
+         "location" : "IN_ROOM:pantry@jbs",
          "oflags" : [
             "Food"
          ],
@@ -118,7 +118,7 @@
       },
       "hatch_head@jbs" : {
          "desc[1]" : "The hatch is closed.",
-         "location" : "IN_ROOM:head",
+         "location" : "IN_ROOM:head@jbs",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -135,7 +135,7 @@
       },
       "hole_secret7@jbs" : {
          "desc[1]" : "There is a lever here that looks like it might open a secret door.",
-         "location" : "IN_ROOM:secret7",
+         "location" : "IN_ROOM:secret7@jbs",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -149,7 +149,7 @@
       },
       "steaknife@jbs" : {
          "damage" : "22",
-         "location" : "IN_ROOM:banquet",
+         "location" : "IN_ROOM:banquet@jbs",
          "oflags" : [
             "destroyed",
             "weapon"
@@ -163,7 +163,7 @@
          "desc[0]" : "There is a huge steaknife lying here."
       },
       "fireplace@jbs" : {
-         "location" : "IN_ROOM:parlor",
+         "location" : "IN_ROOM:parlor@jbs",
          "oflags" : [
             "Lit",
             "NoGet"
@@ -174,7 +174,7 @@
          "desc[0]" : "\nA huge fireplace is set in the north wall with a fire blazing fiercely in it."
       },
       "coffee@jbs" : {
-         "location" : "IN_ROOM:green",
+         "location" : "IN_ROOM:green@jbs",
          "oflags" : [
             "food"
          ],
@@ -187,7 +187,7 @@
          "desc[0]" : "There is a fragrant cup of coffee sitting here."
       },
       "panel_bed@jbs" : {
-         "location" : "under",
+         "location" : "under@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -199,7 +199,7 @@
          "desc[0]" : "There is an open panel in the floor."
       },
       "throne@jbs" : {
-         "location" : "IN_ROOM:throne",
+         "location" : "IN_ROOM:throne@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -207,7 +207,7 @@
          "examine" : "If only you could haul this treasure off!"
       },
       "mugwump@jbs" : {
-         "location" : "IN_ROOM:mugwumps",
+         "location" : "IN_ROOM:mugwumps@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -216,7 +216,7 @@
          "desc[0]" : "\nThere's a mugwump right in front of you oozing plenty of goo to keep you here\nforever if you want it."
       },
       "peephole@jbs" : {
-         "location" : "IN_ROOM:secret4",
+         "location" : "IN_ROOM:secret4@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -227,7 +227,7 @@
       },
       "hole_secret3@jbs" : {
          "desc[1]" : "There is a lever here that looks like it might open a secret door.",
-         "location" : "IN_ROOM:secret3",
+         "location" : "IN_ROOM:secret3@jbs",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -240,7 +240,7 @@
          "desc[0]" : "A lever has been pulled revealing a hole in the north wall."
       },
       "giant@jbs" : {
-         "location" : "IN_ROOM:giants_bed",
+         "location" : "IN_ROOM:giants_bed@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -248,7 +248,7 @@
          "examine" : "Looks bloody big from here."
       },
       "egg@jbs" : {
-         "location" : "IN_ROOM:secret_treasury",
+         "location" : "IN_ROOM:secret_treasury@jbs",
          "weight" : "20",
          "altname" : "gold",
          "name" : "egg",
@@ -259,7 +259,7 @@
       },
       "flop_glade@jbs" : {
          "desc[1]" : "\nThere is a large, nasty pile of flop here blocking the way west.",
-         "location" : "IN_ROOM:glade",
+         "location" : "IN_ROOM:glade@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -272,7 +272,7 @@
       },
       "plunger@jbs" : {
          "damage" : "8",
-         "location" : "IN_ROOM:storage",
+         "location" : "IN_ROOM:storage@jbs",
          "oflags" : [
             "weapon"
          ],
@@ -285,7 +285,7 @@
          "desc[0]" : "A huge toilet plunger is standing in the corner."
       },
       "stalk_top@jbs" : {
-         "location" : "beanstalk",
+         "location" : "beanstalk@jbs",
          "oflags" : [
             "noget"
          ],
@@ -312,7 +312,7 @@
          ]
       },
       "fish@jbs" : {
-         "location" : "IN_ROOM:fish",
+         "location" : "IN_ROOM:fish@jbs",
          "weight" : "2",
          "oflags" : [
             "Food",
@@ -325,7 +325,7 @@
          "size" : "2"
       },
       "necklace@jbs" : {
-         "location" : "IN_ROOM:treasury",
+         "location" : "IN_ROOM:treasury@jbs",
          "oflags" : [
             "Wearable"
          ],
@@ -341,7 +341,7 @@
          ]
       },
       "toilet@jbs" : {
-         "location" : "IN_ROOM:bathroom",
+         "location" : "IN_ROOM:bathroom@jbs",
          "oflags" : [
             "NoGet",
             "Container"
@@ -352,7 +352,7 @@
          "size" : "500"
       },
       "book2@jbs" : {
-         "location" : "IN_ROOM:library",
+         "location" : "IN_ROOM:library@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -363,7 +363,7 @@
       },
       "pitchfork@jbs" : {
          "damage" : "13",
-         "location" : "WIELDED_BY:bob",
+         "location" : "WIELDED_BY:bob@jbs",
          "oflags" : [
             "weapon"
          ],
@@ -377,7 +377,7 @@
       },
       "gate_gate@jbs" : {
          "desc[1]" : "The gate is closed.",
-         "location" : "IN_ROOM:gate",
+         "location" : "IN_ROOM:gate@jbs",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -394,7 +394,7 @@
       },
       "door_top@jbs" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:top",
+         "location" : "IN_ROOM:top@jbs",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -409,7 +409,7 @@
          "desc[0]" : "The door is open."
       },
       "lodestone@jbs" : {
-         "location" : "IN_ROOM:glade",
+         "location" : "IN_ROOM:glade@jbs",
          "oflags" : [
             "Shockspell"
          ],
@@ -423,7 +423,7 @@
       },
       "book@jbs" : {
          "desc[1]" : "There is an old book lying open on the desk.",
-         "location" : "IN_ROOM:study",
+         "location" : "IN_ROOM:study@jbs",
          "oflags" : [
             "GetFlips"
          ],
@@ -438,7 +438,7 @@
       },
       "hole_secret@jbs" : {
          "desc[1]" : "There is a lever here that looks like it might open a secret door.",
-         "location" : "IN_ROOM:secret",
+         "location" : "IN_ROOM:secret@jbs",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -452,7 +452,7 @@
       },
       "shrooms@jbs" : {
          "desc[1]" : "\nThere are three nice looking mushrooms growing in a pile of flop here.",
-         "location" : "IN_ROOM:sepasture",
+         "location" : "IN_ROOM:sepasture@jbs",
          "oflags" : [
             "food",
             "getflips"
@@ -468,7 +468,7 @@
          "desc[0]" : "Three fragrant mushrooms have been left on the ground here."
       },
       "panel_secret@jbs" : {
-         "location" : "secret_treasury",
+         "location" : "secret_treasury@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -481,7 +481,7 @@
       },
       "hatch_nose@jbs" : {
          "desc[1]" : "The hatch is closed.",
-         "location" : "IN_ROOM:nose_chamber",
+         "location" : "IN_ROOM:nose_chamber@jbs",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -497,7 +497,7 @@
          "desc[0]" : "The hatch is open."
       },
       "door_entry@jbs" : {
-         "location" : "IN_ROOM:entry",
+         "location" : "IN_ROOM:entry@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -510,7 +510,7 @@
          "desc[0]" : "The door is open just enough for you to squeeze through."
       },
       "window@jbs" : {
-         "location" : "IN_ROOM:eyes",
+         "location" : "IN_ROOM:eyes@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -520,7 +520,7 @@
       },
       "brick@jbs" : {
          "desc[1]" : "There is a loose brick in the south wall.",
-         "location" : "IN_ROOM:torture",
+         "location" : "IN_ROOM:torture@jbs",
          "oflags" : [
             "NoGet",
             "Pushtoggle"
@@ -535,7 +535,7 @@
       "stick@jbs" : {
          "desc[1]" : "An old stick lies on the ground.",
          "damage" : "5",
-         "location" : "IN_ROOM:pond",
+         "location" : "IN_ROOM:pond@jbs",
          "oflags" : [
             "Lightable",
             "Extinguish",
@@ -552,7 +552,7 @@
       },
       "bookcase@jbs" : {
          "desc[1]" : "There is a large bookcase against the north wall.",
-         "location" : "IN_ROOM:sitting",
+         "location" : "IN_ROOM:sitting@jbs",
          "oflags" : [
             "NoGet",
             "Pushtoggle"
@@ -567,7 +567,7 @@
       },
       "staff@jbs" : {
          "damage" : "15",
-         "location" : "WIELDED_BY:jesse",
+         "location" : "WIELDED_BY:jesse@jbs",
          "oflags" : [
             "Weapon"
          ],
@@ -580,7 +580,7 @@
       },
       "flop_pasture@jbs" : {
          "desc[1]" : "A large, nasty pile of flop blocks the way east.",
-         "location" : "IN_ROOM:pasture",
+         "location" : "IN_ROOM:pasture@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -593,7 +593,7 @@
       },
       "door_sbedroom@jbs" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:sbedroom",
+         "location" : "IN_ROOM:sbedroom@jbs",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -608,7 +608,7 @@
          "desc[0]" : "The door is open."
       },
       "seeds@jbs" : {
-         "location" : "IN_ROOM:green",
+         "location" : "IN_ROOM:green@jbs",
          "oflags" : [
             "food"
          ],
@@ -621,7 +621,7 @@
          "desc[0]" : "There are some seeds sitting here in a small pile."
       },
       "hole_ground@jbs" : {
-         "location" : "IN_ROOM:fallow3",
+         "location" : "IN_ROOM:fallow3@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -632,7 +632,7 @@
          "size" : "30"
       },
       "stalk_bottom@jbs" : {
-         "location" : "fallow3",
+         "location" : "fallow3@jbs",
          "oflags" : [
             "noget"
          ],
@@ -645,7 +645,7 @@
       },
       "door_corridor3@jbs" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:corridor3",
+         "location" : "IN_ROOM:corridor3@jbs",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -661,7 +661,7 @@
       },
       "door_corridor1@jbs" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:corridor1",
+         "location" : "IN_ROOM:corridor1@jbs",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -677,7 +677,7 @@
       },
       "door_front@jbs" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:front",
+         "location" : "IN_ROOM:front@jbs",
          "oflags" : [
             "openable",
             "noget",
@@ -693,7 +693,7 @@
       },
       "door_pantry@jbs" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:pantry",
+         "location" : "IN_ROOM:pantry@jbs",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -708,7 +708,7 @@
          "desc[0]" : "The door is open."
       },
       "line@jbs" : {
-         "location" : "IN_ROOM:pond",
+         "location" : "IN_ROOM:pond@jbs",
          "weight" : "1",
          "altname" : "fishing",
          "name" : "line",
@@ -718,7 +718,7 @@
       },
       "can@jbs" : {
          "desc[1]" : "There is an old tin can lying on the ground here.",
-         "location" : "IN_ROOM:path4",
+         "location" : "IN_ROOM:path4@jbs",
          "altname" : "tin",
          "name" : "can",
          "state" : "1",
@@ -730,7 +730,7 @@
       },
       "door_bathroom@jbs" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:bathroom",
+         "location" : "IN_ROOM:bathroom@jbs",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -746,7 +746,7 @@
       },
       "door_side@jbs" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:side",
+         "location" : "IN_ROOM:side@jbs",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -761,7 +761,7 @@
          "desc[0]" : "The door is open."
       },
       "door_courtyard@jbs" : {
-         "location" : "IN_ROOM:courtyard",
+         "location" : "IN_ROOM:courtyard@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -774,7 +774,7 @@
          "desc[0]" : "The door is open just enough for you to squeeze through."
       },
       "table@jbs" : {
-         "location" : "IN_ROOM:banquet",
+         "location" : "IN_ROOM:banquet@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -782,7 +782,7 @@
          "name" : "table"
       },
       "bail@jbs" : {
-         "location" : "IN_ROOM:sloft",
+         "location" : "IN_ROOM:sloft@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -791,7 +791,7 @@
          "desc[0]" : "There is a bail of hay sitting by the wall."
       },
       "pond@jbs" : {
-         "location" : "IN_ROOM:fish",
+         "location" : "IN_ROOM:fish@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -801,7 +801,7 @@
          "state" : "1"
       },
       "fountain_coins@jbs" : {
-         "location" : "IN_ROOM:fountain5",
+         "location" : "IN_ROOM:fountain5@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -813,7 +813,7 @@
       "shovel@jbs" : {
          "desc[1]" : "There is a shovel leaning against the wall here.",
          "damage" : "6",
-         "location" : "IN_ROOM:nbarn",
+         "location" : "IN_ROOM:nbarn@jbs",
          "oflags" : [
             "weapon",
             "getflips"
@@ -828,7 +828,7 @@
          "desc[0]" : "Someone has left an old shovel here."
       },
       "hole@jbs" : {
-         "location" : "IN_ROOM:garden3",
+         "location" : "IN_ROOM:garden3@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -836,7 +836,7 @@
          "examine" : "\nAround the edges of the hole, you see many large claw marks."
       },
       "gems@jbs" : {
-         "location" : "IN_ROOM:glade",
+         "location" : "IN_ROOM:glade@jbs",
          "weight" : "3",
          "name" : "gems",
          "examine" : "\nThe gems seem to glow with an inner beauty that could only have been inspired by\nnature itself.",
@@ -845,7 +845,7 @@
          "size" : "3"
       },
       "clock@jbs" : {
-         "location" : "IN_ROOM:clock",
+         "location" : "IN_ROOM:clock@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -854,7 +854,7 @@
       },
       "door_corridor2@jbs" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:corridor2",
+         "location" : "IN_ROOM:corridor2@jbs",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -869,7 +869,7 @@
          "desc[0]" : "The door is open."
       },
       "key@jbs" : {
-         "location" : "IN_ROOM:sloft",
+         "location" : "IN_ROOM:sloft@jbs",
          "weight" : "1",
          "oflags" : [
             "Destroyed",
@@ -881,7 +881,7 @@
          "size" : "1"
       },
       "sign@jbs" : {
-         "location" : "IN_ROOM:barn",
+         "location" : "IN_ROOM:barn@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -890,7 +890,7 @@
          "desc[0]" : "There is a small sign hanging over the barn door"
       },
       "hole_bed@jbs" : {
-         "location" : "under",
+         "location" : "under@jbs",
          "oflags" : [
             "NoGet"
          ],
@@ -900,7 +900,7 @@
          "desc[0]" : "There is a small hole in the floor here."
       },
       "coins@jbs" : {
-         "location" : "IN_ROOM:treasury",
+         "location" : "IN_ROOM:treasury@jbs",
          "weight" : "9",
          "name" : "coins",
          "examine" : "Look like coins.",
@@ -909,7 +909,7 @@
          "size" : "7"
       },
       "emerald@jbs" : {
-         "location" : "IN_ROOM:treasury",
+         "location" : "IN_ROOM:treasury@jbs",
          "weight" : "5",
          "name" : "emerald",
          "examine" : "Looks like an emerald.",
@@ -918,7 +918,7 @@
          "size" : "6"
       },
       "okra@jbs" : {
-         "location" : "IN_ROOM:pantry",
+         "location" : "IN_ROOM:pantry@jbs",
          "oflags" : [
             "food"
          ],
@@ -930,7 +930,7 @@
          "desc[0]" : "Some fried okra is here."
       },
       "coin@jbs" : {
-         "location" : "IN_ROOM:fountain5",
+         "location" : "IN_ROOM:fountain5@jbs",
          "weight" : "15",
          "altname" : "gold",
          "name" : "coin",
@@ -941,7 +941,7 @@
       },
       "door_backdoor@jbs" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:backdoor",
+         "location" : "IN_ROOM:backdoor@jbs",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -959,7 +959,7 @@
    "loc" : {
       "garden2@jbs" : {
          "exits" : {
-            "e" : "garden"
+            "e" : "garden@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -970,8 +970,8 @@
       },
       "loft@jbs" : {
          "exits" : {
-            "d" : "nbarn",
-            "s" : "sloft"
+            "d" : "nbarn@jbs",
+            "s" : "sloft@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -982,11 +982,11 @@
       },
       "lhall2@jbs" : {
          "exits" : {
-            "w" : "lhall1",
-            "u" : "first_step",
-            "n" : "banquet",
-            "d" : "half_way_d",
-            "s" : "lhall3"
+            "w" : "lhall1@jbs",
+            "u" : "first_step@jbs",
+            "n" : "banquet@jbs",
+            "d" : "half_way_d@jbs",
+            "s" : "lhall3@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -997,9 +997,9 @@
       },
       "lhall8@jbs" : {
          "exits" : {
-            "e" : "guest2",
-            "n" : "entry",
-            "s" : "lhall7"
+            "e" : "guest2@jbs",
+            "n" : "entry@jbs",
+            "s" : "lhall7@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1010,8 +1010,8 @@
       },
       "barn@jbs" : {
          "exits" : {
-            "n" : "path4",
-            "s" : "nbarn"
+            "n" : "path4@jbs",
+            "s" : "nbarn@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1024,9 +1024,9 @@
       },
       "lhall1@jbs" : {
          "exits" : {
-            "e" : "lhall2",
-            "w" : "entry",
-            "n" : "library"
+            "e" : "lhall2@jbs",
+            "w" : "entry@jbs",
+            "n" : "library@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1037,10 +1037,10 @@
       },
       "corridor3@jbs" : {
          "exits" : {
-            "e" : "corridor2",
-            "w" : "torture",
-            "n" : "cell3",
-            "s" : "^door_corridor3"
+            "e" : "corridor2@jbs",
+            "w" : "torture@jbs",
+            "n" : "cell3@jbs",
+            "s" : "^door_corridor3@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1051,9 +1051,9 @@
       },
       "fountain2@jbs" : {
          "exits" : {
-            "u" : "fountain4",
-            "n" : "fountain3",
-            "s" : "fountain"
+            "u" : "fountain4@jbs",
+            "n" : "fountain3@jbs",
+            "s" : "fountain@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1064,10 +1064,10 @@
       },
       "fountain@jbs" : {
          "exits" : {
-            "w" : "fountain2",
-            "e" : "fountain1",
-            "u" : "fountain4",
-            "s" : "courtyard"
+            "w" : "fountain2@jbs",
+            "e" : "fountain1@jbs",
+            "u" : "fountain4@jbs",
+            "s" : "courtyard@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1078,8 +1078,8 @@
       },
       "lhall3@jbs" : {
          "exits" : {
-            "w" : "lhall4",
-            "n" : "lhall2"
+            "w" : "lhall4@jbs",
+            "n" : "lhall2@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1090,8 +1090,8 @@
       },
       "beanstalk@jbs" : {
          "exits" : {
-            "u" : "beanstalk1",
-            "d" : "^stalk_top"
+            "u" : "beanstalk1@jbs",
+            "d" : "^stalk_top@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1104,10 +1104,10 @@
       },
       "top@jbs" : {
          "exits" : {
-            "e" : "master",
-            "n" : "hall",
-            "d" : "foyer",
-            "s" : "^door_top"
+            "e" : "master@jbs",
+            "n" : "hall@jbs",
+            "d" : "foyer@jbs",
+            "s" : "^door_top@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1118,8 +1118,8 @@
       },
       "secret_stairs@jbs" : {
          "exits" : {
-            "u" : "secret6",
-            "d" : "secret5"
+            "u" : "secret6@jbs",
+            "d" : "secret5@jbs"
          },
          "flags" : [
             "dark"
@@ -1132,11 +1132,11 @@
       },
       "fwood6@jbs" : {
          "exits" : {
-            "e" : "fwood",
-            "w" : "fwood3",
-            "u" : "fwood6",
-            "n" : "fwood2",
-            "s" : "vines"
+            "e" : "fwood@jbs",
+            "w" : "fwood3@jbs",
+            "u" : "fwood6@jbs",
+            "n" : "fwood2@jbs",
+            "s" : "vines@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1149,8 +1149,8 @@
       },
       "beanstalk1@jbs" : {
          "exits" : {
-            "u" : "top_beanstalk",
-            "d" : "beanstalk"
+            "u" : "top_beanstalk@jbs",
+            "d" : "beanstalk@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1163,8 +1163,8 @@
       },
       "front@jbs" : {
          "exits" : {
-            "e" : "^door_front",
-            "w" : "farmpath"
+            "e" : "^door_front@jbs",
+            "w" : "farmpath@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1177,9 +1177,9 @@
       },
       "path4@jbs" : {
          "exits" : {
-            "e" : "field",
-            "w" : "epond",
-            "s" : "barn"
+            "e" : "field@jbs",
+            "w" : "epond@jbs",
+            "s" : "barn@jbs"
          },
          "flags" : [
             "outdoors",
@@ -1193,7 +1193,7 @@
       },
       "quarters@jbs" : {
          "exits" : {
-            "n" : "seargent"
+            "n" : "seargent@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1204,8 +1204,8 @@
       },
       "fallow@jbs" : {
          "exits" : {
-            "e" : "fallow1",
-            "s" : "field"
+            "e" : "fallow1@jbs",
+            "s" : "field@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1218,11 +1218,11 @@
       },
       "nbarn@jbs" : {
          "exits" : {
-            "w" : "nwstall",
-            "e" : "nestall",
-            "u" : "loft",
-            "n" : "barn",
-            "s" : "sbarn"
+            "w" : "nwstall@jbs",
+            "e" : "nestall@jbs",
+            "u" : "loft@jbs",
+            "n" : "barn@jbs",
+            "s" : "sbarn@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1233,9 +1233,9 @@
       },
       "hall@jbs" : {
          "exits" : {
-            "e" : "^door_hall",
-            "n" : "nbedroom",
-            "s" : "top"
+            "e" : "^door_hall@jbs",
+            "n" : "nbedroom@jbs",
+            "s" : "top@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1246,7 +1246,7 @@
       },
       "gopher_den@jbs" : {
          "exits" : {
-            "u" : "end"
+            "u" : "end@jbs"
          },
          "flags" : [
             "dark"
@@ -1259,10 +1259,10 @@
       },
       "dreams@jbs" : {
          "exits" : {
-            "w" : "bears",
-            "n" : "campfire",
-            "u" : "mugwumps",
-            "d" : "brown"
+            "w" : "bears@jbs",
+            "n" : "campfire@jbs",
+            "u" : "mugwumps@jbs",
+            "d" : "brown@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1275,8 +1275,8 @@
       },
       "storage@jbs" : {
          "exits" : {
-            "n" : "lhall5",
-            "s" : "^brick_storage"
+            "n" : "lhall5@jbs",
+            "s" : "^brick_storage@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1287,10 +1287,10 @@
       },
       "throne@jbs" : {
          "exits" : {
-            "e" : "balcony",
-            "w" : "waiting",
-            "n" : "sitting",
-            "s" : "side"
+            "e" : "balcony@jbs",
+            "w" : "waiting@jbs",
+            "n" : "sitting@jbs",
+            "s" : "side@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1301,8 +1301,8 @@
       },
       "den@jbs" : {
          "exits" : {
-            "e" : "dining",
-            "n" : "foyer"
+            "e" : "dining@jbs",
+            "n" : "foyer@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1313,9 +1313,9 @@
       },
       "garden@jbs" : {
          "exits" : {
-            "w" : "garden2",
-            "e" : "garden1",
-            "n" : "courtyard"
+            "w" : "garden2@jbs",
+            "e" : "garden1@jbs",
+            "n" : "courtyard@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1326,8 +1326,8 @@
       },
       "farmpath@jbs" : {
          "exits" : {
-            "w" : "^gate_farmpath",
-            "e" : "front"
+            "w" : "^gate_farmpath@jbs",
+            "e" : "front@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1340,11 +1340,11 @@
       },
       "fountain4@jbs" : {
          "exits" : {
-            "w" : "fountain2",
-            "e" : "fountain1",
-            "n" : "fountain3",
-            "d" : "fountain5",
-            "s" : "fountain"
+            "w" : "fountain2@jbs",
+            "e" : "fountain1@jbs",
+            "n" : "fountain3@jbs",
+            "d" : "fountain5@jbs",
+            "s" : "fountain@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1355,7 +1355,7 @@
       },
       "nestall@jbs" : {
          "exits" : {
-            "w" : "nbarn"
+            "w" : "nbarn@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1366,12 +1366,12 @@
       },
       "green@jbs" : {
          "exits" : {
-            "w" : "bears",
-            "e" : "dreams",
-            "u" : "mugwumps",
-            "n" : "clock",
-            "d" : "fgate",
-            "s" : "fsun"
+            "w" : "bears@jbs",
+            "e" : "dreams@jbs",
+            "u" : "mugwumps@jbs",
+            "n" : "clock@jbs",
+            "d" : "fgate@jbs",
+            "s" : "fsun@jbs"
          },
          "flags" : [
             "outdoors",
@@ -1385,8 +1385,8 @@
       },
       "secret4@jbs" : {
          "exits" : {
-            "n" : "secret5",
-            "s" : "intersection"
+            "n" : "secret5@jbs",
+            "s" : "intersection@jbs"
          },
          "flags" : [
             "dark"
@@ -1399,7 +1399,7 @@
       },
       "treasury@jbs" : {
          "exits" : {
-            "e" : "^door_treasury"
+            "e" : "^door_treasury@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1410,8 +1410,8 @@
       },
       "cloudy1@jbs" : {
          "exits" : {
-            "e" : "cloud_gate",
-            "w" : "cloudy"
+            "e" : "cloud_gate@jbs",
+            "w" : "cloudy@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1422,12 +1422,12 @@
       },
       "fgate@jbs" : {
          "exits" : {
-            "w" : "fwood",
-            "e" : "fwood",
-            "u" : "fwood",
-            "n" : "fwood",
-            "d" : "fwood",
-            "s" : "fwood"
+            "w" : "fwood@jbs",
+            "e" : "fwood@jbs",
+            "u" : "fwood@jbs",
+            "n" : "fwood@jbs",
+            "d" : "fwood@jbs",
+            "s" : "fwood@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1440,8 +1440,8 @@
       },
       "torture@jbs" : {
          "exits" : {
-            "e" : "corridor3",
-            "s" : "^brick"
+            "e" : "corridor3@jbs",
+            "s" : "^brick@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1452,8 +1452,8 @@
       },
       "bridge@jbs" : {
          "exits" : {
-            "e" : "courtyard",
-            "w" : "cloud_gate"
+            "e" : "courtyard@jbs",
+            "w" : "cloud_gate@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1464,7 +1464,7 @@
       },
       "study@jbs" : {
          "exits" : {
-            "s" : "foyer"
+            "s" : "foyer@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1475,8 +1475,8 @@
       },
       "seargent@jbs" : {
          "exits" : {
-            "n" : "corridor1",
-            "s" : "quarters"
+            "n" : "corridor1@jbs",
+            "s" : "quarters@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1487,10 +1487,10 @@
       },
       "corridor1@jbs" : {
          "exits" : {
-            "w" : "^door_corridor1",
-            "e" : "bottom_stairs",
-            "n" : "guard",
-            "s" : "seargent"
+            "w" : "^door_corridor1@jbs",
+            "e" : "bottom_stairs@jbs",
+            "n" : "guard@jbs",
+            "s" : "seargent@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1501,10 +1501,10 @@
       },
       "entry@jbs" : {
          "exits" : {
-            "e" : "lhall1",
-            "w" : "^door_entry",
-            "n" : "parlor",
-            "s" : "lhall8"
+            "e" : "lhall1@jbs",
+            "w" : "^door_entry@jbs",
+            "n" : "parlor@jbs",
+            "s" : "lhall8@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1515,10 +1515,10 @@
       },
       "pasture@jbs" : {
          "exits" : {
-            "e" : "^flop_pasture",
-            "w" : "path2",
-            "n" : "nwpasture",
-            "s" : "swpasture"
+            "e" : "^flop_pasture@jbs",
+            "w" : "path2@jbs",
+            "n" : "nwpasture@jbs",
+            "s" : "swpasture@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1531,8 +1531,8 @@
       },
       "top_beanstalk@jbs" : {
          "exits" : {
-            "n" : "cloudy",
-            "d" : "beanstalk"
+            "n" : "cloudy@jbs",
+            "d" : "beanstalk@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1543,7 +1543,7 @@
       },
       "bathroom@jbs" : {
          "exits" : {
-            "w" : "^door_bathroom"
+            "w" : "^door_bathroom@jbs"
          },
          "flags" : [
             "soundproof",
@@ -1557,10 +1557,10 @@
       },
       "giants_bed@jbs" : {
          "exits" : {
-            "w" : "under",
-            "e" : "sitting",
-            "u" : "bed",
-            "s" : "chambers"
+            "w" : "under@jbs",
+            "e" : "sitting@jbs",
+            "u" : "bed@jbs",
+            "s" : "chambers@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1571,9 +1571,9 @@
       },
       "path2@jbs" : {
          "exits" : {
-            "e" : "pasture",
-            "w" : "path1",
-            "n" : "path3"
+            "e" : "pasture@jbs",
+            "w" : "path1@jbs",
+            "n" : "path3@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1586,8 +1586,8 @@
       },
       "nwpasture@jbs" : {
          "exits" : {
-            "e" : "deeppasture",
-            "s" : "pasture"
+            "e" : "deeppasture@jbs",
+            "s" : "pasture@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1600,8 +1600,8 @@
       },
       "garden3@jbs" : {
          "exits" : {
-            "n" : "garden1",
-            "d" : "hole"
+            "n" : "garden1@jbs",
+            "d" : "hole@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1612,8 +1612,8 @@
       },
       "end@jbs" : {
          "exits" : {
-            "n" : "damp",
-            "d" : "gopher_den"
+            "n" : "damp@jbs",
+            "d" : "gopher_den@jbs"
          },
          "flags" : [
             "dark"
@@ -1626,8 +1626,8 @@
       },
       "path1@jbs" : {
          "exits" : {
-            "w" : "path0",
-            "e" : "path2"
+            "w" : "path0@jbs",
+            "e" : "path2@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1640,9 +1640,9 @@
       },
       "gate@jbs" : {
          "exits" : {
-            "e" : "^gate_gate",
-            "w" : "deeppasture",
-            "s" : "sepasture"
+            "e" : "^gate_gate@jbs",
+            "w" : "deeppasture@jbs",
+            "s" : "sepasture@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1655,7 +1655,7 @@
       },
       "glade@jbs" : {
          "exits" : {
-            "w" : "^flop_glade"
+            "w" : "^flop_glade@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1668,7 +1668,7 @@
       },
       "lavatory@jbs" : {
          "exits" : {
-            "s" : "lhall4"
+            "s" : "lhall4@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1679,8 +1679,8 @@
       },
       "cliff@jbs" : {
          "exits" : {
-            "e" : "fwood6",
-            "s" : "fwood5"
+            "e" : "fwood6@jbs",
+            "s" : "fwood5@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1693,9 +1693,9 @@
       },
       "nose_chamber@jbs" : {
          "exits" : {
-            "e" : "nose",
-            "u" : "^hatch_nose",
-            "d" : "nose"
+            "e" : "nose@jbs",
+            "u" : "^hatch_nose@jbs",
+            "d" : "nose@jbs"
          },
          "flags" : [
             "dark"
@@ -1708,7 +1708,7 @@
       },
       "eyes@jbs" : {
          "exits" : {
-            "w" : "head"
+            "w" : "head@jbs"
          },
          "flags" : [
             "dark"
@@ -1721,8 +1721,8 @@
       },
       "swpasture@jbs" : {
          "exits" : {
-            "e" : "sepasture",
-            "n" : "pasture"
+            "e" : "sepasture@jbs",
+            "n" : "pasture@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1735,8 +1735,8 @@
       },
       "secret6@jbs" : {
          "exits" : {
-            "e" : "secret7",
-            "d" : "secret_stairs"
+            "e" : "secret7@jbs",
+            "d" : "secret_stairs@jbs"
          },
          "flags" : [
             "dark"
@@ -1749,8 +1749,8 @@
       },
       "tunnel1@jbs" : {
          "exits" : {
-            "w" : "blocked",
-            "e" : "bottom"
+            "w" : "blocked@jbs",
+            "e" : "bottom@jbs"
          },
          "flags" : [
             "dark"
@@ -1763,10 +1763,10 @@
       },
       "steep@jbs" : {
          "exits" : {
-            "w" : "sloping",
-            "e" : "damp",
-            "u" : "damp",
-            "d" : "sloping"
+            "w" : "sloping@jbs",
+            "e" : "damp@jbs",
+            "u" : "damp@jbs",
+            "d" : "sloping@jbs"
          },
          "flags" : [
             "dark"
@@ -1779,8 +1779,8 @@
       },
       "tunnel@jbs" : {
          "exits" : {
-            "w" : "bottom",
-            "s" : "damp"
+            "w" : "bottom@jbs",
+            "s" : "damp@jbs"
          },
          "flags" : [
             "dark"
@@ -1793,8 +1793,8 @@
       },
       "under@jbs" : {
          "exits" : {
-            "e" : "giants_bed",
-            "d" : "^panel_bed"
+            "e" : "giants_bed@jbs",
+            "d" : "^panel_bed@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1805,8 +1805,8 @@
       },
       "secret5@jbs" : {
          "exits" : {
-            "u" : "secret_stairs",
-            "s" : "secret4"
+            "u" : "secret_stairs@jbs",
+            "s" : "secret4@jbs"
          },
          "flags" : [
             "dark"
@@ -1819,7 +1819,7 @@
       },
       "cell2@jbs" : {
          "exits" : {
-            "n" : "corridor2"
+            "n" : "corridor2@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1830,8 +1830,8 @@
       },
       "antechamber@jbs" : {
          "exits" : {
-            "e" : "waiting",
-            "s" : "archway"
+            "e" : "waiting@jbs",
+            "s" : "archway@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1842,8 +1842,8 @@
       },
       "dining@jbs" : {
          "exits" : {
-            "w" : "den",
-            "n" : "kitchen"
+            "w" : "den@jbs",
+            "n" : "kitchen@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1854,8 +1854,8 @@
       },
       "hole@jbs" : {
          "exits" : {
-            "u" : "garden3",
-            "d" : "bottom"
+            "u" : "garden3@jbs",
+            "d" : "bottom@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1867,7 +1867,7 @@
       "jbs163@jbs" : {
          "exits" : {
             "n" : "fjord1@fjord",
-            "s" : "jbs162"
+            "s" : "jbs162@jbs"
          },
          "flags" : [
             "Outdoors"
@@ -1880,11 +1880,11 @@
       },
       "fsun@jbs" : {
          "exits" : {
-            "w" : "campfire",
-            "n" : "dreams",
-            "u" : "mugwumps",
-            "d" : "mugwumps",
-            "s" : "bears"
+            "w" : "campfire@jbs",
+            "n" : "dreams@jbs",
+            "u" : "mugwumps@jbs",
+            "d" : "mugwumps@jbs",
+            "s" : "bears@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1897,8 +1897,8 @@
       },
       "bottom_stairs@jbs" : {
          "exits" : {
-            "w" : "corridor1",
-            "u" : "half_way_d"
+            "w" : "corridor1@jbs",
+            "u" : "half_way_d@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1909,9 +1909,9 @@
       },
       "space@jbs" : {
          "exits" : {
-            "w" : "fsun",
-            "u" : "dreams",
-            "d" : "other_side"
+            "w" : "fsun@jbs",
+            "u" : "dreams@jbs",
+            "d" : "other_side@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1924,8 +1924,8 @@
       },
       "jbs162@jbs" : {
          "exits" : {
-            "n" : "jbs163",
-            "s" : "path0"
+            "n" : "jbs163@jbs",
+            "s" : "path0@jbs"
          },
          "flags" : [
             "Outdoors"
@@ -1938,8 +1938,8 @@
       },
       "lhall7@jbs" : {
          "exits" : {
-            "e" : "lhall6",
-            "n" : "lhall8"
+            "e" : "lhall6@jbs",
+            "n" : "lhall8@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1950,7 +1950,7 @@
       },
       "clock@jbs" : {
          "exits" : {
-            "s" : "green"
+            "s" : "green@jbs"
          },
          "flags" : [
             "Peaceful",
@@ -1964,8 +1964,8 @@
       },
       "bed@jbs" : {
          "exits" : {
-            "u" : "giant",
-            "d" : "giants_bed"
+            "u" : "giant@jbs",
+            "d" : "giants_bed@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -1976,10 +1976,10 @@
       },
       "fallow2@jbs" : {
          "exits" : {
-            "e" : "fallow4",
-            "w" : "field",
-            "n" : "fallow1",
-            "s" : "backdoor"
+            "e" : "fallow4@jbs",
+            "w" : "field@jbs",
+            "n" : "fallow1@jbs",
+            "s" : "backdoor@jbs"
          },
          "flags" : [
             "outdoors"
@@ -1992,8 +1992,8 @@
       },
       "sepasture@jbs" : {
          "exits" : {
-            "w" : "swpasture",
-            "n" : "gate"
+            "w" : "swpasture@jbs",
+            "n" : "gate@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2006,10 +2006,10 @@
       },
       "corridor2@jbs" : {
          "exits" : {
-            "e" : "^door_corridor2",
-            "w" : "corridor3",
-            "n" : "cell1",
-            "s" : "cell2"
+            "e" : "^door_corridor2@jbs",
+            "w" : "corridor3@jbs",
+            "n" : "cell1@jbs",
+            "s" : "cell2@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2020,7 +2020,7 @@
       },
       "guard@jbs" : {
          "exits" : {
-            "s" : "corridor1"
+            "s" : "corridor1@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2031,9 +2031,9 @@
       },
       "field@jbs" : {
          "exits" : {
-            "e" : "fallow2",
-            "w" : "path4",
-            "n" : "fallow"
+            "e" : "fallow2@jbs",
+            "w" : "path4@jbs",
+            "n" : "fallow@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2046,8 +2046,8 @@
       },
       "secret7@jbs" : {
          "exits" : {
-            "w" : "secret6",
-            "s" : "^hole_secret7"
+            "w" : "secret6@jbs",
+            "s" : "^hole_secret7@jbs"
          },
          "flags" : [
             "dark"
@@ -2060,7 +2060,7 @@
       },
       "balcony@jbs" : {
          "exits" : {
-            "w" : "throne"
+            "w" : "throne@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2073,7 +2073,7 @@
       },
       "large@jbs" : {
          "exits" : {
-            "s" : "smelly"
+            "s" : "smelly@jbs"
          },
          "flags" : [
             "dark"
@@ -2086,9 +2086,9 @@
       },
       "fallow1@jbs" : {
          "exits" : {
-            "e" : "fallow3",
-            "w" : "fallow",
-            "s" : "fallow2"
+            "e" : "fallow3@jbs",
+            "w" : "fallow@jbs",
+            "s" : "fallow2@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2101,7 +2101,7 @@
       },
       "secret_treasury@jbs" : {
          "exits" : {
-            "u" : "^panel_secret"
+            "u" : "^panel_secret@jbs"
          },
          "flags" : [
             "dark"
@@ -2114,8 +2114,8 @@
       },
       "first_step@jbs" : {
          "exits" : {
-            "u" : "top_step",
-            "d" : "lhall2"
+            "u" : "top_step@jbs",
+            "d" : "lhall2@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2126,8 +2126,8 @@
       },
       "fallow4@jbs" : {
          "exits" : {
-            "w" : "fallow2",
-            "n" : "fallow3"
+            "w" : "fallow2@jbs",
+            "n" : "fallow3@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2140,7 +2140,7 @@
       },
       "cell4@jbs" : {
          "exits" : {
-            "n" : "^door_cell4"
+            "n" : "^door_cell4@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2151,10 +2151,10 @@
       },
       "sloping@jbs" : {
          "exits" : {
-            "e" : "steep",
-            "u" : "steep",
-            "d" : "landing",
-            "s" : "landing"
+            "e" : "steep@jbs",
+            "u" : "steep@jbs",
+            "d" : "landing@jbs",
+            "s" : "landing@jbs"
          },
          "flags" : [
             "dark"
@@ -2167,8 +2167,8 @@
       },
       "banquet@jbs" : {
          "exits" : {
-            "n" : "lkitchen",
-            "s" : "lhall2"
+            "n" : "lkitchen@jbs",
+            "s" : "lhall2@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2179,9 +2179,9 @@
       },
       "kitchen@jbs" : {
          "exits" : {
-            "w" : "foyer",
-            "n" : "pantry",
-            "s" : "dining"
+            "w" : "foyer@jbs",
+            "n" : "pantry@jbs",
+            "s" : "dining@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2192,12 +2192,12 @@
       },
       "fwood5@jbs" : {
          "exits" : {
-            "w" : "fwood",
-            "e" : "fwood3",
-            "u" : "fwood5",
-            "n" : "fwood2",
-            "d" : "fwood1",
-            "s" : "fwood2"
+            "w" : "fwood@jbs",
+            "e" : "fwood3@jbs",
+            "u" : "fwood5@jbs",
+            "n" : "fwood2@jbs",
+            "d" : "fwood1@jbs",
+            "s" : "fwood2@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2210,7 +2210,7 @@
       },
       "cell3@jbs" : {
          "exits" : {
-            "s" : "corridor3"
+            "s" : "corridor3@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2221,8 +2221,8 @@
       },
       "cloud_gate@jbs" : {
          "exits" : {
-            "e" : "bridge",
-            "w" : "cloudy1"
+            "e" : "bridge@jbs",
+            "w" : "cloudy1@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2233,11 +2233,11 @@
       },
       "mugwumps@jbs" : {
          "exits" : {
-            "e" : "space",
-            "w" : "bears",
-            "u" : "campfire",
-            "d" : "brown",
-            "s" : "dreams"
+            "e" : "space@jbs",
+            "w" : "bears@jbs",
+            "u" : "campfire@jbs",
+            "d" : "brown@jbs",
+            "s" : "dreams@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2248,7 +2248,7 @@
       },
       "cell1@jbs" : {
          "exits" : {
-            "s" : "corridor2"
+            "s" : "corridor2@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2259,8 +2259,8 @@
       },
       "path3@jbs" : {
          "exits" : {
-            "n" : "pond",
-            "s" : "path2"
+            "n" : "pond@jbs",
+            "s" : "path2@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2273,7 +2273,7 @@
       },
       "lpantry@jbs" : {
          "exits" : {
-            "w" : "lkitchen"
+            "w" : "lkitchen@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2284,9 +2284,9 @@
       },
       "sbarn@jbs" : {
          "exits" : {
-            "w" : "swstall",
-            "e" : "sestall",
-            "n" : "nbarn"
+            "w" : "swstall@jbs",
+            "e" : "sestall@jbs",
+            "n" : "nbarn@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2297,7 +2297,7 @@
       },
       "guest1@jbs" : {
          "exits" : {
-            "n" : "lhall6"
+            "n" : "lhall6@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2308,9 +2308,9 @@
       },
       "epond@jbs" : {
          "exits" : {
-            "e" : "path4",
-            "n" : "npond",
-            "s" : "pond"
+            "e" : "path4@jbs",
+            "n" : "npond@jbs",
+            "s" : "pond@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2323,8 +2323,8 @@
       },
       "path0@jbs" : {
          "exits" : {
-            "e" : "path1",
-            "n" : "jbs162",
+            "e" : "path1@jbs",
+            "n" : "jbs162@jbs",
             "s" : "jungle33@balharbor"
          },
          "flags" : [
@@ -2338,7 +2338,7 @@
       },
       "nwstall@jbs" : {
          "exits" : {
-            "e" : "nbarn"
+            "e" : "nbarn@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2349,7 +2349,7 @@
       },
       "master@jbs" : {
          "exits" : {
-            "w" : "top"
+            "w" : "top@jbs"
          },
          "flags" : [
             "private",
@@ -2363,8 +2363,8 @@
       },
       "giant@jbs" : {
          "exits" : {
-            "w" : "nose",
-            "d" : "bed"
+            "w" : "nose@jbs",
+            "d" : "bed@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2375,9 +2375,9 @@
       },
       "lhall4@jbs" : {
          "exits" : {
-            "w" : "lhall5",
-            "e" : "lhall3",
-            "n" : "lavatory"
+            "w" : "lhall5@jbs",
+            "e" : "lhall3@jbs",
+            "n" : "lavatory@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2388,9 +2388,9 @@
       },
       "fallow3@jbs" : {
          "exits" : {
-            "w" : "fallow1",
-            "u" : "^stalk_bottom",
-            "s" : "fallow4"
+            "w" : "fallow1@jbs",
+            "u" : "^stalk_bottom@jbs",
+            "s" : "fallow4@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2403,10 +2403,10 @@
       },
       "damp@jbs" : {
          "exits" : {
-            "w" : "steep",
-            "n" : "tunnel",
-            "d" : "steep",
-            "s" : "end"
+            "w" : "steep@jbs",
+            "n" : "tunnel@jbs",
+            "d" : "steep@jbs",
+            "s" : "end@jbs"
          },
          "flags" : [
             "dark"
@@ -2419,9 +2419,9 @@
       },
       "lhall6@jbs" : {
          "exits" : {
-            "w" : "lhall7",
-            "e" : "lhall5",
-            "s" : "guest1"
+            "w" : "lhall7@jbs",
+            "e" : "lhall5@jbs",
+            "s" : "guest1@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2432,8 +2432,8 @@
       },
       "fish@jbs" : {
          "exits" : {
-            "n" : "npond",
-            "s" : "pond"
+            "n" : "npond@jbs",
+            "s" : "pond@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2446,7 +2446,7 @@
       },
       "sloft@jbs" : {
          "exits" : {
-            "n" : "loft"
+            "n" : "loft@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2457,10 +2457,10 @@
       },
       "courtyard@jbs" : {
          "exits" : {
-            "e" : "^door_courtyard",
-            "w" : "bridge",
-            "n" : "fountain",
-            "s" : "garden"
+            "e" : "^door_courtyard@jbs",
+            "w" : "bridge@jbs",
+            "n" : "fountain@jbs",
+            "s" : "garden@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2471,8 +2471,8 @@
       },
       "top_step@jbs" : {
          "exits" : {
-            "u" : "landing1",
-            "d" : "first_step"
+            "u" : "landing1@jbs",
+            "d" : "first_step@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2483,9 +2483,9 @@
       },
       "fountain1@jbs" : {
          "exits" : {
-            "u" : "fountain4",
-            "n" : "fountain3",
-            "s" : "fountain"
+            "u" : "fountain4@jbs",
+            "n" : "fountain3@jbs",
+            "s" : "fountain@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2496,8 +2496,8 @@
       },
       "parlor@jbs" : {
          "exits" : {
-            "w" : "library",
-            "s" : "entry"
+            "w" : "library@jbs",
+            "s" : "entry@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2508,9 +2508,9 @@
       },
       "sitting@jbs" : {
          "exits" : {
-            "w" : "giants_bed",
-            "n" : "^bookcase",
-            "s" : "throne"
+            "w" : "giants_bed@jbs",
+            "n" : "^bookcase@jbs",
+            "s" : "throne@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2521,9 +2521,9 @@
       },
       "intersection@jbs" : {
          "exits" : {
-            "w" : "secret3",
-            "n" : "secret4",
-            "d" : "secret2"
+            "w" : "secret3@jbs",
+            "n" : "secret4@jbs",
+            "d" : "secret2@jbs"
          },
          "flags" : [
             "dark"
@@ -2536,9 +2536,9 @@
       },
       "fountain3@jbs" : {
          "exits" : {
-            "w" : "fountain2",
-            "e" : "fountain1",
-            "u" : "fountain4"
+            "w" : "fountain2@jbs",
+            "e" : "fountain1@jbs",
+            "u" : "fountain4@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2549,12 +2549,12 @@
       },
       "fwood1@jbs" : {
          "exits" : {
-            "w" : "fwood4",
-            "e" : "fwood5",
-            "u" : "fwood3",
-            "n" : "fwood",
-            "d" : "fgate",
-            "s" : "fwood"
+            "w" : "fwood4@jbs",
+            "e" : "fwood5@jbs",
+            "u" : "fwood3@jbs",
+            "n" : "fwood@jbs",
+            "d" : "fgate@jbs",
+            "s" : "fwood@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2567,8 +2567,8 @@
       },
       "other_side@jbs" : {
          "exits" : {
-            "w" : "space",
-            "s" : "green"
+            "w" : "space@jbs",
+            "s" : "green@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2581,8 +2581,8 @@
       },
       "landing1@jbs" : {
          "exits" : {
-            "e" : "archway",
-            "d" : "top_step"
+            "e" : "archway@jbs",
+            "d" : "top_step@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2593,8 +2593,8 @@
       },
       "secret3@jbs" : {
          "exits" : {
-            "e" : "intersection",
-            "n" : "^hole_secret3"
+            "e" : "intersection@jbs",
+            "n" : "^hole_secret3@jbs"
          },
          "flags" : [
             "dark"
@@ -2607,8 +2607,8 @@
       },
       "backdoor@jbs" : {
          "exits" : {
-            "n" : "fallow2",
-            "s" : "^door_backdoor"
+            "n" : "fallow2@jbs",
+            "s" : "^door_backdoor@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2621,7 +2621,7 @@
       },
       "fountain5@jbs" : {
          "exits" : {
-            "u" : "fountain4"
+            "u" : "fountain4@jbs"
          },
          "flags" : [
             "underwater",
@@ -2635,8 +2635,8 @@
       },
       "secret1@jbs" : {
          "exits" : {
-            "w" : "secret",
-            "u" : "secret2"
+            "w" : "secret@jbs",
+            "u" : "secret2@jbs"
          },
          "flags" : [
             "dark"
@@ -2649,8 +2649,8 @@
       },
       "npond@jbs" : {
          "exits" : {
-            "e" : "epond",
-            "w" : "fish"
+            "e" : "epond@jbs",
+            "w" : "fish@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2663,8 +2663,8 @@
       },
       "lkitchen@jbs" : {
          "exits" : {
-            "e" : "lpantry",
-            "s" : "banquet"
+            "e" : "lpantry@jbs",
+            "s" : "banquet@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2675,9 +2675,9 @@
       },
       "bottom@jbs" : {
          "exits" : {
-            "w" : "tunnel1",
-            "e" : "tunnel",
-            "u" : "hole"
+            "w" : "tunnel1@jbs",
+            "e" : "tunnel@jbs",
+            "u" : "hole@jbs"
          },
          "flags" : [
             "dark"
@@ -2690,9 +2690,9 @@
       },
       "bears@jbs" : {
          "exits" : {
-            "e" : "dreams",
-            "n" : "campfire",
-            "u" : "fsun"
+            "e" : "dreams@jbs",
+            "n" : "campfire@jbs",
+            "u" : "fsun@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2705,8 +2705,8 @@
       },
       "chambers@jbs" : {
          "exits" : {
-            "n" : "giants_bed",
-            "s" : "waiting"
+            "n" : "giants_bed@jbs",
+            "s" : "waiting@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2717,7 +2717,7 @@
       },
       "brown@jbs" : {
          "exits" : {
-            "s" : "mugwumps"
+            "s" : "mugwumps@jbs"
          },
          "flags" : [
             "death"
@@ -2730,11 +2730,11 @@
       },
       "foyer@jbs" : {
          "exits" : {
-            "w" : "^door_foyer",
-            "e" : "kitchen",
-            "n" : "study",
-            "u" : "top",
-            "s" : "den"
+            "w" : "^door_foyer@jbs",
+            "e" : "kitchen@jbs",
+            "n" : "study@jbs",
+            "u" : "top@jbs",
+            "s" : "den@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2745,12 +2745,12 @@
       },
       "fwood4@jbs" : {
          "exits" : {
-            "e" : "fwood4",
-            "w" : "fwood5",
-            "u" : "fwood",
-            "n" : "fwood1",
-            "d" : "fwood4",
-            "s" : "fwood"
+            "e" : "fwood4@jbs",
+            "w" : "fwood5@jbs",
+            "u" : "fwood@jbs",
+            "n" : "fwood1@jbs",
+            "d" : "fwood4@jbs",
+            "s" : "fwood@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2763,8 +2763,8 @@
       },
       "cloudy@jbs" : {
          "exits" : {
-            "e" : "cloudy1",
-            "s" : "top_beanstalk"
+            "e" : "cloudy1@jbs",
+            "s" : "top_beanstalk@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2775,12 +2775,12 @@
       },
       "fwood2@jbs" : {
          "exits" : {
-            "e" : "fwood4",
-            "w" : "fwood1",
-            "u" : "fwood",
-            "n" : "fwood3",
-            "d" : "fwood5",
-            "s" : "fwood"
+            "e" : "fwood4@jbs",
+            "w" : "fwood1@jbs",
+            "u" : "fwood@jbs",
+            "n" : "fwood3@jbs",
+            "d" : "fwood5@jbs",
+            "s" : "fwood@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2793,9 +2793,9 @@
       },
       "smelly@jbs" : {
          "exits" : {
-            "w" : "landing",
-            "n" : "large",
-            "s" : "slippery"
+            "w" : "landing@jbs",
+            "n" : "large@jbs",
+            "s" : "slippery@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2806,9 +2806,9 @@
       },
       "nose@jbs" : {
          "exits" : {
-            "w" : "nose_chamber",
-            "e" : "giant",
-            "u" : "nose_chamber"
+            "w" : "nose_chamber@jbs",
+            "e" : "giant@jbs",
+            "u" : "nose_chamber@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2819,8 +2819,8 @@
       },
       "half_way_d@jbs" : {
          "exits" : {
-            "u" : "lhall2",
-            "d" : "bottom_stairs"
+            "u" : "lhall2@jbs",
+            "d" : "bottom_stairs@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2831,8 +2831,8 @@
       },
       "side@jbs" : {
          "exits" : {
-            "w" : "^door_side",
-            "n" : "throne"
+            "w" : "^door_side@jbs",
+            "n" : "throne@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2843,9 +2843,9 @@
       },
       "landing@jbs" : {
          "exits" : {
-            "e" : "smelly",
-            "n" : "sloping",
-            "s" : "mountains"
+            "e" : "smelly@jbs",
+            "n" : "sloping@jbs",
+            "s" : "mountains@jbs"
          },
          "flags" : [
             "nomobiles"
@@ -2858,7 +2858,7 @@
       },
       "swstall@jbs" : {
          "exits" : {
-            "e" : "sbarn"
+            "e" : "sbarn@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2869,12 +2869,12 @@
       },
       "fwood3@jbs" : {
          "exits" : {
-            "w" : "fwood5",
-            "e" : "fwood1",
-            "u" : "fwood3",
-            "n" : "cliff",
-            "d" : "fgate",
-            "s" : "fwood4"
+            "w" : "fwood5@jbs",
+            "e" : "fwood1@jbs",
+            "u" : "fwood3@jbs",
+            "n" : "cliff@jbs",
+            "d" : "fgate@jbs",
+            "s" : "fwood4@jbs"
          },
          "flags" : [
             "outdoors"
@@ -2887,8 +2887,8 @@
       },
       "archway@jbs" : {
          "exits" : {
-            "w" : "landing1",
-            "n" : "antechamber"
+            "w" : "landing1@jbs",
+            "n" : "antechamber@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2899,7 +2899,7 @@
       },
       "nbedroom@jbs" : {
          "exits" : {
-            "s" : "hall"
+            "s" : "hall@jbs"
          },
          "flags" : [
             "private",
@@ -2913,7 +2913,7 @@
       },
       "sbedroom@jbs" : {
          "exits" : {
-            "n" : "^door_sbedroom"
+            "n" : "^door_sbedroom@jbs"
          },
          "flags" : [
             "soundproof",
@@ -2928,9 +2928,9 @@
       },
       "lhall5@jbs" : {
          "exits" : {
-            "w" : "lhall6",
-            "e" : "lhall4",
-            "s" : "storage"
+            "w" : "lhall6@jbs",
+            "e" : "lhall4@jbs",
+            "s" : "storage@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2941,7 +2941,7 @@
       },
       "sestall@jbs" : {
          "exits" : {
-            "w" : "sbarn"
+            "w" : "sbarn@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2952,7 +2952,7 @@
       },
       "slippery@jbs" : {
          "exits" : {
-            "n" : "smelly"
+            "n" : "smelly@jbs"
          },
          "flags" : [
             "dark"
@@ -2965,8 +2965,8 @@
       },
       "library@jbs" : {
          "exits" : {
-            "e" : "parlor",
-            "s" : "lhall1"
+            "e" : "parlor@jbs",
+            "s" : "lhall1@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -2977,8 +2977,8 @@
       },
       "secret2@jbs" : {
          "exits" : {
-            "u" : "intersection",
-            "d" : "secret1"
+            "u" : "intersection@jbs",
+            "d" : "secret1@jbs"
          },
          "flags" : [
             "dark"
@@ -2991,9 +2991,9 @@
       },
       "waiting@jbs" : {
          "exits" : {
-            "e" : "throne",
-            "w" : "antechamber",
-            "n" : "chambers"
+            "e" : "throne@jbs",
+            "w" : "antechamber@jbs",
+            "n" : "chambers@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -3004,8 +3004,8 @@
       },
       "head@jbs" : {
          "exits" : {
-            "e" : "eyes",
-            "d" : "^hatch_head"
+            "e" : "eyes@jbs",
+            "d" : "^hatch_head@jbs"
          },
          "flags" : [
             "dark"
@@ -3018,9 +3018,9 @@
       },
       "campfire@jbs" : {
          "exits" : {
-            "e" : "fsun",
-            "w" : "vines",
-            "n" : "bears"
+            "e" : "fsun@jbs",
+            "w" : "vines@jbs",
+            "n" : "bears@jbs"
          },
          "flags" : [
             "outdoors"
@@ -3033,9 +3033,9 @@
       },
       "pond@jbs" : {
          "exits" : {
-            "w" : "fish",
-            "e" : "epond",
-            "s" : "path3"
+            "w" : "fish@jbs",
+            "e" : "epond@jbs",
+            "s" : "path3@jbs"
          },
          "flags" : [
             "outdoors"
@@ -3048,7 +3048,7 @@
       },
       "blocked@jbs" : {
          "exits" : {
-            "e" : "tunnel1"
+            "e" : "tunnel1@jbs"
          },
          "flags" : [
             "dark"
@@ -3061,8 +3061,8 @@
       },
       "garden1@jbs" : {
          "exits" : {
-            "w" : "garden",
-            "s" : "garden3"
+            "w" : "garden@jbs",
+            "s" : "garden3@jbs"
          },
          "flags" : [
             "nomobiles"
@@ -3075,8 +3075,8 @@
       },
       "secret@jbs" : {
          "exits" : {
-            "e" : "secret1",
-            "n" : "^hole_secret"
+            "e" : "secret1@jbs",
+            "n" : "^hole_secret@jbs"
          },
          "flags" : [
             "dark",
@@ -3102,8 +3102,8 @@
       },
       "deeppasture@jbs" : {
          "exits" : {
-            "e" : "gate",
-            "w" : "nwpasture"
+            "e" : "gate@jbs",
+            "w" : "nwpasture@jbs"
          },
          "flags" : [
             "outdoors"
@@ -3116,10 +3116,10 @@
       },
       "vines@jbs" : {
          "exits" : {
-            "e" : "campfire",
-            "w" : "fwood4",
-            "n" : "fwood2",
-            "s" : "fwood5"
+            "e" : "campfire@jbs",
+            "w" : "fwood4@jbs",
+            "n" : "fwood2@jbs",
+            "s" : "fwood5@jbs"
          },
          "flags" : [
             "outdoors",
@@ -3133,11 +3133,11 @@
       },
       "fwood@jbs" : {
          "exits" : {
-            "e" : "fwood5",
-            "w" : "fgate",
-            "u" : "fwood3",
-            "n" : "fwood2",
-            "s" : "fwood1"
+            "e" : "fwood5@jbs",
+            "w" : "fgate@jbs",
+            "u" : "fwood3@jbs",
+            "n" : "fwood2@jbs",
+            "s" : "fwood1@jbs"
          },
          "flags" : [
             "outdoors"
@@ -3150,8 +3150,8 @@
       },
       "pantry@jbs" : {
          "exits" : {
-            "n" : "^door_pantry",
-            "s" : "kitchen"
+            "n" : "^door_pantry@jbs",
+            "s" : "kitchen@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -3162,7 +3162,7 @@
       },
       "guest2@jbs" : {
          "exits" : {
-            "w" : "lhall8"
+            "w" : "lhall8@jbs"
          },
          "flags" : [],
          "zone" : "jbs",
@@ -3175,7 +3175,7 @@
    "mob" : {
       "chef@jbs" : {
          "damage" : "25",
-         "location" : "lkitchen",
+         "location" : "lkitchen@jbs",
          "armor" : "0",
          "name" : "chef",
          "description" : "\nThe Swedish Chef is here throwing things at you!  Bork Bork Bork!",
@@ -3186,7 +3186,7 @@
       },
       "john@jbs" : {
          "damage" : "12",
-         "location" : "guard",
+         "location" : "guard@jbs",
          "armor" : "0",
          "name" : "john",
          "description" : "John the guard is here, and he doesn't look happy to see you.",
@@ -3197,7 +3197,7 @@
       },
       "jesse@jbs" : {
          "damage" : "10",
-         "location" : "eyes",
+         "location" : "eyes@jbs",
          "armor" : "0",
          "name" : "jesse",
          "examine" : "\nWell, this gentleman thought he could rule the land of the giants by being\na giant...but he didn't count on you foiling his plan to eventually take\nover the 'normal-sized' world with an army of giants.",
@@ -3212,7 +3212,7 @@
       },
       "jane@jbs" : {
          "damage" : "13",
-         "location" : "fwood6",
+         "location" : "fwood6@jbs",
          "armor" : "0",
          "name" : "jane",
          "description" : "Mary Jane is here wondering where up is.",
@@ -3225,7 +3225,7 @@
       },
       "hedgehog@jbs" : {
          "damage" : "10",
-         "location" : "fwood1",
+         "location" : "fwood1@jbs",
          "armor" : "0",
          "name" : "hedgehog",
          "description" : "A viscious little hedgehog leaps out of the mist at you!",
@@ -3236,7 +3236,7 @@
       },
       "belinda@jbs" : {
          "damage" : "10",
-         "location" : "sbedroom",
+         "location" : "sbedroom@jbs",
          "armor" : "0",
          "name" : "belinda",
          "description" : "The farmer's daughter Belinda is here with her boyfriend.",
@@ -3250,7 +3250,7 @@
       },
       "goat@jbs" : {
          "damage" : "15",
-         "location" : "sestall",
+         "location" : "sestall@jbs",
          "armor" : "0",
          "name" : "goat",
          "description" : "There's a goat here with it's belly rumbling.",
@@ -3261,7 +3261,7 @@
       },
       "fish@jbs" : {
          "damage" : "13",
-         "location" : "fountain5",
+         "location" : "fountain5@jbs",
          "armor" : "0",
          "name" : "fish",
          "description" : "\nA huge fish is here making you finally realize what fish-food must feel like.",
@@ -3275,7 +3275,7 @@
       },
       "goose@jbs" : {
          "damage" : "10",
-         "location" : "secret_treasury",
+         "location" : "secret_treasury@jbs",
          "armor" : "0",
          "name" : "goose",
          "sflags" : [
@@ -3289,7 +3289,7 @@
       },
       "mac@jbs" : {
          "damage" : "15",
-         "location" : "fwood6",
+         "location" : "fwood6@jbs",
          "aggression" : "40",
          "armor" : "0",
          "pname" : "Seargent Big Mac",
@@ -3299,7 +3299,7 @@
       },
       "people_eater@jbs" : {
          "damage" : "20",
-         "location" : "large",
+         "location" : "large@jbs",
          "armor" : "0",
          "name" : "people_eater",
          "description" : "The One-eyed-one-horned-flying-purple-people-eater is here\nand he's hungry!",
@@ -3310,7 +3310,7 @@
       },
       "hector@jbs" : {
          "damage" : "13",
-         "location" : "campfire",
+         "location" : "campfire@jbs",
          "aggression" : "0",
          "armor" : "0",
          "pname" : "Hector",
@@ -3320,7 +3320,7 @@
       },
       "gatekeeper@jbs" : {
          "damage" : "15",
-         "location" : "cloud_gate",
+         "location" : "cloud_gate@jbs",
          "armor" : "0",
          "name" : "gatekeeper",
          "description" : "There is a giant gatekeeper here keeping you out.",
@@ -3334,7 +3334,7 @@
       },
       "sheep@jbs" : {
          "damage" : "10",
-         "location" : "fallow1",
+         "location" : "fallow1@jbs",
          "aggression" : "0",
          "armor" : "0",
          "pname" : "The sheep",
@@ -3344,7 +3344,7 @@
       },
       "ruffles@jbs" : {
          "damage" : "13",
-         "location" : "fallow2",
+         "location" : "fallow2@jbs",
          "aggression" : "60",
          "armor" : "0",
          "pname" : "Ruffles",
@@ -3354,7 +3354,7 @@
       },
       "tree@jbs" : {
          "damage" : "11",
-         "location" : "vines",
+         "location" : "vines@jbs",
          "armor" : "0",
          "name" : "tree",
          "description" : "A large tree is looming over you preparing to do you in",
@@ -3371,7 +3371,7 @@
       },
       "eugene@jbs" : {
          "damage" : "10",
-         "location" : "npond",
+         "location" : "npond@jbs",
          "aggression" : "0",
          "armor" : "0",
          "pname" : "Eugene",
@@ -3381,7 +3381,7 @@
       },
       "jack@jbs" : {
          "damage" : "15",
-         "location" : "sbedroom",
+         "location" : "sbedroom@jbs",
          "armor" : "0",
          "name" : "jack",
          "description" : "Belinda's boyfriend Jack is here fondling his girlfriend.",
@@ -3392,7 +3392,7 @@
       },
       "rosebud@jbs" : {
          "damage" : "13",
-         "location" : "gate",
+         "location" : "gate@jbs",
          "armor" : "0",
          "name" : "rosebud",
          "description" : "Rosebud the killer attack cow is here guarding the gate.",
@@ -3409,7 +3409,7 @@
       },
       "bob@jbs" : {
          "damage" : "10",
-         "location" : "foyer",
+         "location" : "foyer@jbs",
          "armor" : "0",
          "name" : "bob",
          "description" : "\nFarmer Bob is here, and he wants you to stay away from his daughter.",
@@ -3420,7 +3420,7 @@
       },
       "crier@jbs" : {
          "damage" : "17",
-         "location" : "waiting",
+         "location" : "waiting@jbs",
          "armor" : "0",
          "name" : "crier",
          "description" : "The king's crier is here waiting to announce the guests of\nthe king.  He knows that you are not a guest.",
@@ -3431,7 +3431,7 @@
       },
       "gopherr@jbs" : {
          "damage" : "13",
-         "location" : "gopher_den",
+         "location" : "gopher_den@jbs",
          "aggression" : "60",
          "armor" : "0",
          "pname" : "The Gopher",
@@ -3441,7 +3441,7 @@
       },
       "guest@jbs" : {
          "damage" : "15",
-         "location" : "guest1",
+         "location" : "guest1@jbs",
          "armor" : "0",
          "name" : "guest",
          "description" : "There is a giant dinnerguest sitting in this giant room.",
@@ -3452,7 +3452,7 @@
       },
       "mugwump@jbs" : {
          "damage" : "17",
-         "location" : "mugwumps",
+         "location" : "mugwumps@jbs",
          "aggression" : "0",
          "armor" : "0",
          "pname" : "The mugwump",

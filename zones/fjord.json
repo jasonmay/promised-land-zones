@@ -1,7 +1,7 @@
 {
    "obj" : {
       "nests@fjord" : {
-         "location" : "IN_ROOM:fjord7",
+         "location" : "IN_ROOM:fjord7@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -10,7 +10,7 @@
          "examine" : "The nests contain some still unhatched eggs and hungry baby birds."
       },
       "headdress@fjord" : {
-         "location" : "IN_CONTAINER:locker",
+         "location" : "IN_CONTAINER:locker@fjord",
          "oflags" : [
             "Wearable"
          ],
@@ -21,7 +21,7 @@
          "size" : "10"
       },
       "dollars@fjord" : {
-         "location" : "IN_ROOM:fjord27",
+         "location" : "IN_ROOM:fjord27@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -30,7 +30,7 @@
          "examine" : "These small white shells are long abandoned by their owners."
       },
       "crown@fjord" : {
-         "location" : "WORN_BY:lyddakin",
+         "location" : "WORN_BY:lyddakin@fjord",
          "oflags" : [
             "Wearable"
          ],
@@ -43,7 +43,7 @@
       },
       "lava@fjord" : {
          "desc[1]" : "&+RAn immense flow of liquid rock streams down the side of the volcano.",
-         "location" : "IN_ROOM:fjord100",
+         "location" : "IN_ROOM:fjord100@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -56,7 +56,7 @@
          "desc[0]" : "A lava flow has solidified here, forming crunchy, porous rock."
       },
       "skull@fjord" : {
-         "location" : "IN_ROOM:fjord5",
+         "location" : "IN_ROOM:fjord5@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -65,7 +65,7 @@
          "examine" : "A full-grown moose head stares out with empty sockets."
       },
       "pots@fjord" : {
-         "location" : "IN_ROOM:fjord3",
+         "location" : "IN_ROOM:fjord3@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -75,7 +75,7 @@
       },
       "paper@fjord" : {
          "desc[1]" : "A piece of paper rests on a desk here.",
-         "location" : "IN_ROOM:fjord94",
+         "location" : "IN_ROOM:fjord94@fjord",
          "oflags" : [
             "GetFlips"
          ],
@@ -89,7 +89,7 @@
       "icicle@fjord" : {
          "desc[1]" : "A long icicle remains from the shattering.",
          "damage" : "10",
-         "location" : "IN_ROOM:fjord47",
+         "location" : "IN_ROOM:fjord47@fjord",
          "oflags" : [
             "Weapon",
             "GetFlips",
@@ -105,7 +105,7 @@
       },
       "bullion@fjord" : {
          "desc[1]" : "This small fortune of bullion would glow in a ghoul's dark sockets for\nquite some time.",
-         "location" : "IN_ROOM:fjord74",
+         "location" : "IN_ROOM:fjord74@fjord",
          "oflags" : [
             "GetFlips"
          ],
@@ -119,7 +119,7 @@
       },
       "bottle@fjord" : {
          "desc[1]" : "An effervescent bottle of nutrigenic acid bubbles away on a desk.",
-         "location" : "IN_ROOM:fjord73",
+         "location" : "IN_ROOM:fjord73@fjord",
          "oflags" : [
             "Destroyed",
             "GetFlips"
@@ -132,7 +132,7 @@
          "desc[0]" : "A bottle of nutrigenic acid is here."
       },
       "locker@fjord" : {
-         "location" : "IN_ROOM:fjord98",
+         "location" : "IN_ROOM:fjord98@fjord",
          "oflags" : [
             "NoGet",
             "Container"
@@ -145,7 +145,7 @@
       },
       "limb@fjord" : {
          "damage" : "3",
-         "location" : "IN_ROOM:fjord2",
+         "location" : "IN_ROOM:fjord2@fjord",
          "oflags" : [
             "Lightable",
             "Extinguish",
@@ -160,7 +160,7 @@
          "desc[0]" : "A thin tree limb has been tossed aside here."
       },
       "netrope@fjord" : {
-         "location" : "IN_ROOM:fjord100",
+         "location" : "IN_ROOM:fjord100@fjord",
          "altname" : "rope",
          "pname" : "lazaro",
          "name" : "netrope",
@@ -169,7 +169,7 @@
          "size" : "3"
       },
       "grain_food@fjord" : {
-         "location" : "IN_ROOM:fjord12",
+         "location" : "IN_ROOM:fjord12@fjord",
          "oflags" : [
             "Food",
             "Destroyed"
@@ -182,7 +182,7 @@
       },
       "dial@fjord" : {
          "damage" : "0",
-         "location" : "IN_ROOM:fjord99",
+         "location" : "IN_ROOM:fjord99@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -193,7 +193,7 @@
          "desc[0]" : "A sundial stands off to one side of grass."
       },
       "buoy@fjord" : {
-         "location" : "IN_ROOM:fjord18",
+         "location" : "IN_ROOM:fjord18@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -202,7 +202,7 @@
          "examine" : "The paint has been chipped off one eyeball."
       },
       "droppings@fjord" : {
-         "location" : "IN_ROOM:fjord9",
+         "location" : "IN_ROOM:fjord9@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -211,7 +211,7 @@
          "examine" : "YUCK! They're fresh and smelly!!!"
       },
       "pinecones@fjord" : {
-         "location" : "IN_ROOM:fjord29",
+         "location" : "IN_ROOM:fjord29@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -220,7 +220,7 @@
          "examine" : "The resident of this tree obviously is good at interior decorating."
       },
       "crest@fjord" : {
-         "location" : "WORN_BY:pop",
+         "location" : "WORN_BY:pop@fjord",
          "armor" : "50",
          "oflags" : [
             "Wearable",
@@ -235,7 +235,7 @@
          "desc[0]" : "The royal crest of the House of Snordsyk has been emblazoned on this shield."
       },
       "tear@fjord" : {
-         "location" : "WORN_BY:lyddakin",
+         "location" : "WORN_BY:lyddakin@fjord",
          "oflags" : [
             "Wearable",
             "Unlocatable"
@@ -248,7 +248,7 @@
          "size" : "4"
       },
       "indentation@fjord" : {
-         "location" : "IN_ROOM:fjord41",
+         "location" : "IN_ROOM:fjord41@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -258,7 +258,7 @@
       },
       "berries@fjord" : {
          "desc[1]" : "Some edible berries hang from a nearby bush.",
-         "location" : "IN_ROOM:fjord9",
+         "location" : "IN_ROOM:fjord9@fjord",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -274,7 +274,7 @@
       },
       "axe@fjord" : {
          "damage" : "24",
-         "location" : "CARRIED_BY:lyddakin",
+         "location" : "CARRIED_BY:lyddakin@fjord",
          "oflags" : [
             "Weapon"
          ],
@@ -287,7 +287,7 @@
          "desc[0]" : "A double-bladed battleaxe with serrated edges glistens violently here."
       },
       "marker@fjord" : {
-         "location" : "IN_ROOM:fjord45",
+         "location" : "IN_ROOM:fjord45@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -297,7 +297,7 @@
          "desc[0]" : "&+CAn icy marker has been erected here."
       },
       "twave@fjord" : {
-         "location" : "IN_ROOM:fjord100",
+         "location" : "IN_ROOM:fjord100@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -308,7 +308,7 @@
          "desc[0]" : "&+BA mile-high tidal wave looms over the inlet."
       },
       "lizard2@fjord" : {
-         "location" : "IN_ROOM:fjord77",
+         "location" : "IN_ROOM:fjord77@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -319,7 +319,7 @@
          "desc[0]" : "\nThe decapitated body of Lizard Officer Morgok has been chained to a wheel\nnear the middle of the room, which slowly creaks in the sulfur currents."
       },
       "cast_iron@fjord" : {
-         "location" : "IN_ROOM:fjord4",
+         "location" : "IN_ROOM:fjord4@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -328,7 +328,7 @@
          "examine" : "The inside is filled with maggots that feasted on the remains of \nsome gruel!"
       },
       "jaden@fjord" : {
-         "location" : "CARRIED_BY:gator",
+         "location" : "CARRIED_BY:gator@fjord",
          "pname" : "jaden",
          "name" : "jaden",
          "examine" : "Jade will repel those who would take your life with but a touch.",
@@ -336,7 +336,7 @@
          "desc[0]" : "A pocket-sized jaden stone is here."
       },
       "fountain@fjord" : {
-         "location" : "IN_ROOM:fjord66",
+         "location" : "IN_ROOM:fjord66@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -347,7 +347,7 @@
       },
       "jhata@fjord" : {
          "desc[1]" : "A jhata rests woodenly admist the debris.",
-         "location" : "IN_ROOM:fjord15",
+         "location" : "IN_ROOM:fjord15@fjord",
          "oflags" : [
             "Boat",
             "GetFlips",
@@ -363,7 +363,7 @@
          "desc[0]" : "A jhata rests woodenly on its side here."
       },
       "key@fjord" : {
-         "location" : "IN_CONTAINER:chest",
+         "location" : "IN_CONTAINER:chest@fjord",
          "oflags" : [
             "Key"
          ],
@@ -375,7 +375,7 @@
       },
       "angler@fjord" : {
          "desc[1]" : "Hanging from a nearby hook is a perfect angler specimen.",
-         "location" : "IN_ROOM:fjord97",
+         "location" : "IN_ROOM:fjord97@fjord",
          "oflags" : [
             "GetFlips"
          ],
@@ -387,7 +387,7 @@
       },
       "toy@fjord" : {
          "desc[1]" : "A child's toy remains thouroughly lost here.",
-         "location" : "IN_ROOM:fjord31",
+         "location" : "IN_ROOM:fjord31@fjord",
          "oflags" : [
             "GetFlips"
          ],
@@ -401,7 +401,7 @@
          "desc[0]" : "The child who lost this toy will rejoice now that it has been found!"
       },
       "p_stone@fjord" : {
-         "location" : "IN_ROOM:fjord4",
+         "location" : "IN_ROOM:fjord4@fjord",
          "oflags" : [
             "Destroyed",
             "SpellChance"
@@ -412,7 +412,7 @@
          "desc[0]" : "A powerstone somehow got lost here."
       },
       "weeds@fjord" : {
-         "location" : "IN_ROOM:fjord24",
+         "location" : "IN_ROOM:fjord24@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -421,7 +421,7 @@
          "examine" : "The weeds smell of the lake."
       },
       "pine@fjord" : {
-         "location" : "IN_ROOM:fjord7",
+         "location" : "IN_ROOM:fjord7@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -431,7 +431,7 @@
          "desc[0]" : "A really innocent-looking pine stands off to one side of the grove."
       },
       "poster@fjord" : {
-         "location" : "IN_ROOM:fjord70",
+         "location" : "IN_ROOM:fjord70@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -441,7 +441,7 @@
          "desc[0]" : "A &+Cpropaganda poster&* has been attached to the wall here."
       },
       "book@fjord" : {
-         "location" : "IN_ROOM:fjord94",
+         "location" : "IN_ROOM:fjord94@fjord",
          "oflags" : [
             "Lit",
             "Destroyed"
@@ -453,7 +453,7 @@
       },
       "ice_in@fjord" : {
          "desc[1]" : "A wall of icicles blocks the cave entrance.",
-         "location" : "IN_ROOM:fjord48",
+         "location" : "IN_ROOM:fjord48@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -466,7 +466,7 @@
          "desc[0]" : "The icicles have been utterly smashed."
       },
       "leggings@fjord" : {
-         "location" : "IN_ROOM:fjord4",
+         "location" : "IN_ROOM:fjord4@fjord",
          "armor" : "24",
          "oflags" : [
             "Wearable",
@@ -482,7 +482,7 @@
          ]
       },
       "ear@fjord" : {
-         "location" : "IN_ROOM:fjord80",
+         "location" : "IN_ROOM:fjord80@fjord",
          "oflags" : [
             "Destroyed"
          ],
@@ -494,7 +494,7 @@
          "size" : "3"
       },
       "lichen@fjord" : {
-         "location" : "IN_ROOM:fjord9",
+         "location" : "IN_ROOM:fjord9@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -503,7 +503,7 @@
          "examine" : "While not the most delectable dinner, lichen is often harvested by the\nanimals for another high energy source of food."
       },
       "cake@fjord" : {
-         "location" : "IN_ROOM:fjord95",
+         "location" : "IN_ROOM:fjord95@fjord",
          "oflags" : [
             "Food"
          ],
@@ -516,7 +516,7 @@
          "desc[0]" : "A slice of cheesecake has been left here."
       },
       "grain_plant@fjord" : {
-         "location" : "IN_ROOM:fjord12",
+         "location" : "IN_ROOM:fjord12@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -526,7 +526,7 @@
          "desc[0]" : "Healthy, golden grains blow gently in the wind."
       },
       "effigy@fjord" : {
-         "location" : "IN_ROOM:fjord100",
+         "location" : "IN_ROOM:fjord100@fjord",
          "name" : "effigy",
          "examine" : "All ghouls shall be afraid if their master is reawakened.",
          "state" : "3",
@@ -537,7 +537,7 @@
       },
       "door115@fjord" : {
          "desc[1]" : "There is a door with the symbol of a moon on it.",
-         "location" : "IN_ROOM:fjord115",
+         "location" : "IN_ROOM:fjord115@fjord",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -551,7 +551,7 @@
          "desc[0]" : "The door has been thrown open, smacking gently in the wind."
       },
       "torso@fjord" : {
-         "location" : "IN_ROOM:fjord75",
+         "location" : "IN_ROOM:fjord75@fjord",
          "oflags" : [
             "Destroyed"
          ],
@@ -564,7 +564,7 @@
       },
       "door116@fjord" : {
          "desc[1]" : "There is a door with the symbol of a moon on it.",
-         "location" : "IN_ROOM:fjord116",
+         "location" : "IN_ROOM:fjord116@fjord",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -579,7 +579,7 @@
       },
       "vats@fjord" : {
          "desc[1]" : "Many scores of vats sit in perfect condition.",
-         "location" : "IN_ROOM:fjord78",
+         "location" : "IN_ROOM:fjord78@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -591,7 +591,7 @@
          "desc[0]" : "The vats have been rendered a third inoperable."
       },
       "head@fjord" : {
-         "location" : "IN_ROOM:fjord77",
+         "location" : "IN_ROOM:fjord77@fjord",
          "oflags" : [
             "Destroyed"
          ],
@@ -603,7 +603,7 @@
          "size" : "10"
       },
       "lizard1@fjord" : {
-         "location" : "IN_ROOM:fjord80",
+         "location" : "IN_ROOM:fjord80@fjord",
          "armor" : "0",
          "oflags" : [
             "NoGet"
@@ -615,7 +615,7 @@
          "desc[0]" : "The body of Lizard Jagonk lies mutilated here."
       },
       "logs@fjord" : {
-         "location" : "IN_ROOM:fjord31",
+         "location" : "IN_ROOM:fjord31@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -624,7 +624,7 @@
          "examine" : "\nYou break open one section to see a collection of little forest critters\nthat any nearby bird could survive for weeks on."
       },
       "bucket@fjord" : {
-         "location" : "IN_ROOM:fjord90",
+         "location" : "IN_ROOM:fjord90@fjord",
          "oflags" : [
             "Container"
          ],
@@ -637,7 +637,7 @@
       },
       "dictionary@fjord" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:librarian",
+         "location" : "WIELDED_BY:librarian@fjord",
          "oflags" : [
             "Weapon"
          ],
@@ -649,7 +649,7 @@
       },
       "desk@fjord" : {
          "desc[1]" : "A stout desk is in one corner, looking way too organized.",
-         "location" : "IN_ROOM:fjord73",
+         "location" : "IN_ROOM:fjord73@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -660,7 +660,7 @@
          "state" : "1"
       },
       "helmet@fjord" : {
-         "location" : "IN_ROOM:fjord4",
+         "location" : "IN_ROOM:fjord4@fjord",
          "armor" : "24",
          "oflags" : [
             "Wearable",
@@ -676,7 +676,7 @@
          "desc[0]" : "A slightly dented helmet has been left here."
       },
       "jerky@fjord" : {
-         "location" : "IN_ROOM:fjord4",
+         "location" : "IN_ROOM:fjord4@fjord",
          "oflags" : [
             "Food",
             "Destroyed"
@@ -688,7 +688,7 @@
       },
       "nugget@fjord" : {
          "desc[1]" : "A rather large silver nugget is embedded in the gnarly knobs.",
-         "location" : "IN_ROOM:fjord41",
+         "location" : "IN_ROOM:fjord41@fjord",
          "oflags" : [
             "GetFlips"
          ],
@@ -701,7 +701,7 @@
          "desc[0]" : "A rather large silver nugget is here."
       },
       "twi_altar@fjord" : {
-         "location" : "IN_ROOM:fjord6",
+         "location" : "IN_ROOM:fjord6@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -711,7 +711,7 @@
          "desc[0]" : "The altar of confluence, a mix of all forces, stays well-preserved."
       },
       "geyser@fjord" : {
-         "location" : "IN_ROOM:fjord113",
+         "location" : "IN_ROOM:fjord113@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -721,7 +721,7 @@
          "desc[0]" : "The &+Bgeyser&* continues to shoot water into the air."
       },
       "iceberg@fjord" : {
-         "location" : "IN_ROOM:fjord104",
+         "location" : "IN_ROOM:fjord104@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -732,7 +732,7 @@
       },
       "c_gate_moor@fjord" : {
          "desc[1]" : "The cattle gate is closed.",
-         "location" : "IN_ROOM:fjord1",
+         "location" : "IN_ROOM:fjord1@fjord",
          "desc[3]" : "\nThe cattle gate has been left secure by a rusty padlock, but the lock\nseems it could be easily broken off.",
          "oflags" : [
             "NoGet",
@@ -748,7 +748,7 @@
       },
       "paddle@fjord" : {
          "desc[1]" : "A boat paddle is propped lengthwise in a corner.",
-         "location" : "IN_ROOM:fjord90",
+         "location" : "IN_ROOM:fjord90@fjord",
          "oflags" : [
             "GetFlips"
          ],
@@ -762,7 +762,7 @@
       },
       "pinecone@fjord" : {
          "desc[1]" : "One of the multicolored cones seems to have fallen off.",
-         "location" : "IN_ROOM:fjord38",
+         "location" : "IN_ROOM:fjord38@fjord",
          "oflags" : [
             "GetFlips"
          ],
@@ -775,7 +775,7 @@
          "desc[0]" : "A multicolored pine cone has been left here."
       },
       "mattress@fjord" : {
-         "location" : "IN_ROOM:fjord4",
+         "location" : "IN_ROOM:fjord4@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -784,7 +784,7 @@
          "examine" : "It looks well-slept in, given the permanent curvature in its weaves."
       },
       "tools@fjord" : {
-         "location" : "IN_ROOM:fjord3",
+         "location" : "IN_ROOM:fjord3@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -793,7 +793,7 @@
          "examine" : "\nThe amount of rust on one of the spades proves no one has tended this\ngarden for a very long time, but its position of being stuck halfway in\nthe ground means it was in use when the digger stopped. Also strewn about\nare a pair of bush clippers and handsaw for cutting back trees."
       },
       "tree@fjord" : {
-         "location" : "IN_ROOM:fjord10",
+         "location" : "IN_ROOM:fjord10@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -803,7 +803,7 @@
          "examine" : "The tree has plenty of limbs for easy climbing."
       },
       "flame@fjord" : {
-         "location" : "IN_ROOM:fjord22",
+         "location" : "IN_ROOM:fjord22@fjord",
          "oflags" : [
             "NoGet",
             "Lit"
@@ -814,7 +814,7 @@
          "desc[0]" : "The &+Cblue flame&* of tranquility can be hotter than the core of the sun."
       },
       "lizard3@fjord" : {
-         "location" : "IN_ROOM:fjord75",
+         "location" : "IN_ROOM:fjord75@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -825,7 +825,7 @@
          "desc[0]" : "Dried-up guts from Lizard Slyzek decorate one side of the avenue."
       },
       "duck@fjord" : {
-         "location" : "IN_ROOM:fjord98",
+         "location" : "IN_ROOM:fjord98@fjord",
          "oflags" : [
             "Food"
          ],
@@ -838,7 +838,7 @@
       },
       "ice_out@fjord" : {
          "desc[1]" : "A wall of icicles blocks the cave entrance.",
-         "location" : "IN_ROOM:fjord47",
+         "location" : "IN_ROOM:fjord47@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -852,7 +852,7 @@
       },
       "c_gate_fj1@fjord" : {
          "desc[1]" : "The cattle gate is closed.",
-         "location" : "IN_ROOM:fjord2",
+         "location" : "IN_ROOM:fjord2@fjord",
          "desc[3]" : "\nThe cattle gate has been left secure by a rusty padlock, but the lock\nseems it be easily broken off.",
          "oflags" : [
             "NoGet",
@@ -868,7 +868,7 @@
       },
       "pbear@fjord" : {
          "desc[1]" : "A &+Rpolar bear &*is happy to be reunited with his family.",
-         "location" : "IN_ROOM:fjord100",
+         "location" : "IN_ROOM:fjord100@fjord",
          "name" : "pbear",
          "examine" : "\nIt is obvious that a natural drug is at work, considering the dilation of\nthe bear's eyes.",
          "pname" : "polarbear",
@@ -878,7 +878,7 @@
       },
       "net@fjord" : {
          "desc[1]" : "Tacked hard against the back wall is a giant net made out of these jewels, \nshining color everywhere.",
-         "location" : "IN_ROOM:fjord74",
+         "location" : "IN_ROOM:fjord74@fjord",
          "oflags" : [
             "GetFlips"
          ],
@@ -895,7 +895,7 @@
       },
       "chair@fjord" : {
          "desc[1]" : "A rotting chair stands in one corner, slowly decaying.",
-         "location" : "IN_ROOM:fjord4",
+         "location" : "IN_ROOM:fjord4@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -907,7 +907,7 @@
          "desc[0]" : "A once proud chair now lies in an unrecogniazble heap of rotting wood."
       },
       "needles@fjord" : {
-         "location" : "IN_ROOM:fjord4",
+         "location" : "IN_ROOM:fjord4@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -919,7 +919,7 @@
          "desc[0]" : "The pine needles have been shoved aside in a search."
       },
       "onyx@fjord" : {
-         "location" : "IN_ROOM:fjord100",
+         "location" : "IN_ROOM:fjord100@fjord",
          "oflags" : [
             "Wearable",
             "Breathe"
@@ -931,7 +931,7 @@
          "desc[0]" : "The darkness of an onyx medallion absorbs the light."
       },
       "hand@fjord" : {
-         "location" : "IN_ROOM:fjord81",
+         "location" : "IN_ROOM:fjord81@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -941,7 +941,7 @@
          "desc[0]" : "\n&+CA frozen hand sticks above the ground, fingers locked forever in a clawing\n&+Cgesture."
       },
       "fishbait@fjord" : {
-         "location" : "IN_CONTAINER:bucket",
+         "location" : "IN_CONTAINER:bucket@fjord",
          "oflags" : [
             "Food"
          ],
@@ -954,7 +954,7 @@
       },
       "shelf@fjord" : {
          "desc[1]" : "There is a bookshelf glowing with a faint divine residue here.",
-         "location" : "IN_ROOM:fjord94",
+         "location" : "IN_ROOM:fjord94@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -967,7 +967,7 @@
       },
       "totem@fjord" : {
          "desc[1]" : "The teardrop has been restored to the divine winds!",
-         "location" : "IN_ROOM:fjord99",
+         "location" : "IN_ROOM:fjord99@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -979,7 +979,7 @@
          "desc[0]" : "A totem of the five divine winds is here, acting self-important."
       },
       "feet@fjord" : {
-         "location" : "IN_ROOM:fjord33",
+         "location" : "IN_ROOM:fjord33@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -988,7 +988,7 @@
          "examine" : "Whatever made these was not only large, but &+mHEAVY &*as well."
       },
       "chaos_altar@fjord" : {
-         "location" : "IN_ROOM:fjord64",
+         "location" : "IN_ROOM:fjord64@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -998,7 +998,7 @@
          "desc[0]" : "\nThe altar of chaos gives off a low hum and pulses with destructive potential \nfor all those with the power to use it."
       },
       "dam@fjord" : {
-         "location" : "IN_ROOM:fjord15",
+         "location" : "IN_ROOM:fjord15@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -1007,7 +1007,7 @@
          "examine" : "\nFormerly an extremely strong pine of the Muskrat forest, the minerals of\nthis petrified tree shine and glisten. The water level of the lake has\ndropped way below that which required the formation of the dam."
       },
       "cask@fjord" : {
-         "location" : "IN_ROOM:fjord4",
+         "location" : "IN_ROOM:fjord4@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -1017,7 +1017,7 @@
       },
       "antlers@fjord" : {
          "damage" : "9",
-         "location" : "BOTH_BY:buck",
+         "location" : "BOTH_BY:buck@fjord",
          "oflags" : [
             "Weapon",
             "Wearable"
@@ -1029,7 +1029,7 @@
          "desc[0]" : "A huge mass of deer-type antlers is here."
       },
       "chest@fjord" : {
-         "location" : "IN_ROOM:fjord4",
+         "location" : "IN_ROOM:fjord4@fjord",
          "oflags" : [
             "NoGet",
             "Container"
@@ -1042,7 +1042,7 @@
       },
       "bass@fjord" : {
          "desc[1]" : "On one of the blocks rests a perfect specimen of striped bass.",
-         "location" : "IN_ROOM:fjord97",
+         "location" : "IN_ROOM:fjord97@fjord",
          "oflags" : [
             "GetFlips"
          ],
@@ -1053,7 +1053,7 @@
          "desc[0]" : "A fishly two-foot, ten-pound striped bass is here, looking rather dead."
       },
       "daisy@fjord" : {
-         "location" : "IN_ROOM:fjord100",
+         "location" : "IN_ROOM:fjord100@fjord",
          "armor" : "0",
          "oflags" : [
             "Wearable"
@@ -1066,7 +1066,7 @@
       "whistler@fjord" : {
          "desc[1]" : "A medium blade of good quality is stuck in the branches.",
          "damage" : "22",
-         "location" : "IN_ROOM:fjord121",
+         "location" : "IN_ROOM:fjord121@fjord",
          "oflags" : [
             "Destroyed",
             "Weapon",
@@ -1082,7 +1082,7 @@
       },
       "mat@fjord" : {
          "desc[1]" : "The sleeping bed of a fox is here, resting comfortably.",
-         "location" : "IN_ROOM:fjord29",
+         "location" : "IN_ROOM:fjord29@fjord",
          "oflags" : [
             "GetFlips"
          ],
@@ -1094,7 +1094,7 @@
          "size" : "10"
       },
       "marks@fjord" : {
-         "location" : "IN_ROOM:fjord29",
+         "location" : "IN_ROOM:fjord29@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -1104,7 +1104,7 @@
          "desc[0]" : "Scratching marks left by practiced hands scar the pine."
       },
       "cradle@fjord" : {
-         "location" : "IN_ROOM:fjord121",
+         "location" : "IN_ROOM:fjord121@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -1113,7 +1113,7 @@
          "examine" : "During the rainy season, the cradle catches water rather well."
       },
       "rock@fjord" : {
-         "location" : "IN_ROOM:fjord26",
+         "location" : "IN_ROOM:fjord26@fjord",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -1125,7 +1125,7 @@
          "desc[0]" : "A recently uncovered rock is here, still covered with fine sand particles."
       },
       "bark@fjord" : {
-         "location" : "IN_ROOM:fjord24",
+         "location" : "IN_ROOM:fjord24@fjord",
          "oflags" : [
             "NoGet"
          ],
@@ -1134,7 +1134,7 @@
          "examine" : "\nOccasionally a windstorm will knock loose pieces of fallen bark from the\nforest into the waters."
       },
       "drug@fjord" : {
-         "location" : "CARRIED_BY:mom",
+         "location" : "CARRIED_BY:mom@fjord",
          "altname" : "drug",
          "pname" : "plofra",
          "name" : "drug",
@@ -1143,7 +1143,7 @@
       },
       "cloak@fjord" : {
          "desc[1]" : "A thick, warm cloak is hung on a hook here, awaiting use.",
-         "location" : "IN_ROOM:fjord95",
+         "location" : "IN_ROOM:fjord95@fjord",
          "armor" : "40",
          "oflags" : [
             "Wearable",
@@ -1166,8 +1166,8 @@
    "loc" : {
       "fjord111@fjord" : {
          "exits" : {
-            "w" : "fjord89",
-            "n" : "fjord109"
+            "w" : "fjord89@fjord",
+            "n" : "fjord109@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -1182,8 +1182,8 @@
       },
       "fjord42@fjord" : {
          "exits" : {
-            "n" : "fjord43",
-            "s" : "fjord39"
+            "n" : "fjord43@fjord",
+            "s" : "fjord39@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -1196,8 +1196,8 @@
       },
       "fjord32@fjord" : {
          "exits" : {
-            "e" : "fjord33",
-            "s" : "fjord31"
+            "e" : "fjord33@fjord",
+            "s" : "fjord31@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -1210,7 +1210,7 @@
       },
       "fjord79@fjord" : {
          "exits" : {
-            "s" : "fjord68"
+            "s" : "fjord68@fjord"
          },
          "flags" : [
             "Dark"
@@ -1223,8 +1223,8 @@
       },
       "fjord16@fjord" : {
          "exits" : {
-            "e" : "fjord17",
-            "s" : "fjord13"
+            "e" : "fjord17@fjord",
+            "s" : "fjord13@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -1237,8 +1237,8 @@
       },
       "fjord104@fjord" : {
          "exits" : {
-            "e" : "fjord105",
-            "s" : "fjord107"
+            "e" : "fjord105@fjord",
+            "s" : "fjord107@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -1253,8 +1253,8 @@
       },
       "fjord85@fjord" : {
          "exits" : {
-            "u" : "fjord84",
-            "d" : "fjord86"
+            "u" : "fjord84@fjord",
+            "d" : "fjord86@fjord"
          },
          "flags" : [
             "Cold",
@@ -1268,9 +1268,9 @@
       },
       "fjord47@fjord" : {
          "exits" : {
-            "e" : "^ice_out",
-            "n" : "fjord49",
-            "d" : "fjord46"
+            "e" : "^ice_out@fjord",
+            "n" : "fjord49@fjord",
+            "d" : "fjord46@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -1285,9 +1285,9 @@
       },
       "fjord107@fjord" : {
          "exits" : {
-            "e" : "fjord108",
-            "n" : "fjord104",
-            "s" : "fjord110"
+            "e" : "fjord108@fjord",
+            "n" : "fjord104@fjord",
+            "s" : "fjord110@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -1302,9 +1302,9 @@
       },
       "fjord81@fjord" : {
          "exits" : {
-            "e" : "fjord102",
-            "w" : "fjord82",
-            "n" : "fjord83"
+            "e" : "fjord102@fjord",
+            "w" : "fjord82@fjord",
+            "n" : "fjord83@fjord"
          },
          "flags" : [
             "Cold",
@@ -1319,7 +1319,7 @@
       },
       "fjord36@fjord" : {
          "exits" : {
-            "n" : "fjord34"
+            "n" : "fjord34@fjord"
          },
          "flags" : [
             "Dark",
@@ -1333,8 +1333,8 @@
       },
       "fjord49@fjord" : {
          "exits" : {
-            "w" : "fjord50",
-            "s" : "fjord47"
+            "w" : "fjord50@fjord",
+            "s" : "fjord47@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -1349,7 +1349,7 @@
       },
       "fjord98@fjord" : {
          "exits" : {
-            "n" : "fjord96"
+            "n" : "fjord96@fjord"
          },
          "flags" : [],
          "zone" : "fjord",
@@ -1360,8 +1360,8 @@
       },
       "fjord75@fjord" : {
          "exits" : {
-            "n" : "fjord76",
-            "s" : "fjord72"
+            "n" : "fjord76@fjord",
+            "s" : "fjord72@fjord"
          },
          "flags" : [
             "Dark"
@@ -1374,8 +1374,8 @@
       },
       "fjord60@fjord" : {
          "exits" : {
-            "w" : "fjord61",
-            "s" : "fjord59"
+            "w" : "fjord61@fjord",
+            "s" : "fjord59@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -1390,8 +1390,8 @@
       },
       "fjord11@fjord" : {
          "exits" : {
-            "e" : "fjord12",
-            "w" : "fjord10"
+            "e" : "fjord12@fjord",
+            "w" : "fjord10@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -1404,8 +1404,8 @@
       },
       "fjord23@fjord" : {
          "exits" : {
-            "n" : "fjord19",
-            "s" : "fjord24"
+            "n" : "fjord19@fjord",
+            "s" : "fjord24@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -1419,9 +1419,9 @@
       },
       "fjord39@fjord" : {
          "exits" : {
-            "w" : "fjord40",
-            "e" : "fjord38",
-            "n" : "fjord42"
+            "w" : "fjord40@fjord",
+            "e" : "fjord38@fjord",
+            "n" : "fjord42@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -1434,8 +1434,8 @@
       },
       "fjord9@fjord" : {
          "exits" : {
-            "w" : "fjord8",
-            "n" : "fjord10"
+            "w" : "fjord8@fjord",
+            "n" : "fjord10@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -1448,7 +1448,7 @@
       },
       "fjord65@fjord" : {
          "exits" : {
-            "d" : "fjord66"
+            "d" : "fjord66@fjord"
          },
          "flags" : [
             "Dark"
@@ -1461,7 +1461,7 @@
       },
       "fjord52@fjord" : {
          "exits" : {
-            "e" : "fjord51"
+            "e" : "fjord51@fjord"
          },
          "flags" : [
             "Cold",
@@ -1476,8 +1476,8 @@
       },
       "fjord50@fjord" : {
          "exits" : {
-            "e" : "fjord49",
-            "n" : "fjord51"
+            "e" : "fjord49@fjord",
+            "n" : "fjord51@fjord"
          },
          "flags" : [
             "Cold",
@@ -1493,7 +1493,7 @@
       },
       "fjord15@fjord" : {
          "exits" : {
-            "n" : "fjord14"
+            "n" : "fjord14@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -1506,8 +1506,8 @@
       },
       "fjord5@fjord" : {
          "exits" : {
-            "w" : "fjord4",
-            "d" : "fjord6"
+            "w" : "fjord4@fjord",
+            "d" : "fjord6@fjord"
          },
          "flags" : [
             "Dark"
@@ -1520,7 +1520,7 @@
       },
       "fjord78@fjord" : {
          "exits" : {
-            "s" : "fjord70"
+            "s" : "fjord70@fjord"
          },
          "flags" : [
             "Dark"
@@ -1533,8 +1533,8 @@
       },
       "fjord12@fjord" : {
          "exits" : {
-            "e" : "fjord13",
-            "w" : "fjord11"
+            "e" : "fjord13@fjord",
+            "w" : "fjord11@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -1547,7 +1547,7 @@
       },
       "fjord45@fjord" : {
          "exits" : {
-            "w" : "fjord44"
+            "w" : "fjord44@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -1561,8 +1561,8 @@
       },
       "fjord40@fjord" : {
          "exits" : {
-            "e" : "fjord39",
-            "d" : "fjord41"
+            "e" : "fjord39@fjord",
+            "d" : "fjord41@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -1575,10 +1575,10 @@
       },
       "fjord66@fjord" : {
          "exits" : {
-            "w" : "fjord69",
-            "e" : "fjord67",
-            "u" : "fjord65",
-            "n" : "fjord71"
+            "w" : "fjord69@fjord",
+            "e" : "fjord67@fjord",
+            "u" : "fjord65@fjord",
+            "n" : "fjord71@fjord"
          },
          "flags" : [
             "Dark"
@@ -1591,7 +1591,7 @@
       },
       "fjord74@fjord" : {
          "exits" : {
-            "e" : "fjord72"
+            "e" : "fjord72@fjord"
          },
          "flags" : [
             "Dark"
@@ -1604,8 +1604,8 @@
       },
       "fjord20@fjord" : {
          "exits" : {
-            "n" : "fjord21",
-            "s" : "fjord19"
+            "n" : "fjord21@fjord",
+            "s" : "fjord19@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -1619,8 +1619,8 @@
       },
       "fjord82@fjord" : {
          "exits" : {
-            "e" : "fjord81",
-            "n" : "fjord101"
+            "e" : "fjord81@fjord",
+            "n" : "fjord101@fjord"
          },
          "flags" : [
             "Cold",
@@ -1635,8 +1635,8 @@
       },
       "fjord21@fjord" : {
          "exits" : {
-            "n" : "fjord22",
-            "s" : "fjord20"
+            "n" : "fjord22@fjord",
+            "s" : "fjord20@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -1650,7 +1650,7 @@
       },
       "fjord120@fjord" : {
          "exits" : {
-            "u" : "fjord119"
+            "u" : "fjord119@fjord"
          },
          "flags" : [
             "Dark"
@@ -1663,7 +1663,7 @@
       },
       "fjord48@fjord" : {
          "exits" : {
-            "w" : "^ice_in"
+            "w" : "^ice_in@fjord"
          },
          "flags" : [
             "Dark"
@@ -1676,9 +1676,9 @@
       },
       "fjord87@fjord" : {
          "exits" : {
-            "e" : "fjord90",
-            "n" : "fjord88",
-            "s" : "fjord86"
+            "e" : "fjord90@fjord",
+            "n" : "fjord88@fjord",
+            "s" : "fjord86@fjord"
          },
          "flags" : [
             "Cold",
@@ -1692,8 +1692,8 @@
       },
       "fjord38@fjord" : {
          "exits" : {
-            "w" : "fjord39",
-            "s" : "fjord37"
+            "w" : "fjord39@fjord",
+            "s" : "fjord37@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -1706,8 +1706,8 @@
       },
       "fjord92@fjord" : {
          "exits" : {
-            "e" : "fjord93",
-            "w" : "fjord91"
+            "e" : "fjord93@fjord",
+            "w" : "fjord91@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -1721,8 +1721,8 @@
       },
       "fjord4@fjord" : {
          "exits" : {
-            "e" : "fjord5",
-            "w" : "fjord3"
+            "e" : "fjord5@fjord",
+            "w" : "fjord3@fjord"
          },
          "flags" : [
             "Dark"
@@ -1735,10 +1735,10 @@
       },
       "fjord72@fjord" : {
          "exits" : {
-            "w" : "fjord74",
-            "e" : "fjord73",
-            "n" : "fjord75",
-            "s" : "fjord71"
+            "w" : "fjord74@fjord",
+            "e" : "fjord73@fjord",
+            "n" : "fjord75@fjord",
+            "s" : "fjord71@fjord"
          },
          "flags" : [
             "Dark"
@@ -1751,7 +1751,7 @@
       },
       "fjord118@fjord" : {
          "exits" : {
-            "w" : "fjord117"
+            "w" : "fjord117@fjord"
          },
          "flags" : [],
          "zone" : "fjord",
@@ -1762,7 +1762,7 @@
       },
       "fjord97@fjord" : {
          "exits" : {
-            "s" : "fjord96"
+            "s" : "fjord96@fjord"
          },
          "flags" : [],
          "zone" : "fjord",
@@ -1773,8 +1773,8 @@
       },
       "fjord71@fjord" : {
          "exits" : {
-            "n" : "fjord72",
-            "s" : "fjord66"
+            "n" : "fjord72@fjord",
+            "s" : "fjord66@fjord"
          },
          "flags" : [
             "Dark"
@@ -1787,9 +1787,9 @@
       },
       "fjord2@fjord" : {
          "exits" : {
-            "e" : "fjord3",
-            "n" : "fjord7",
-            "s" : "^c_gate_fj1"
+            "e" : "fjord3@fjord",
+            "n" : "fjord7@fjord",
+            "s" : "^c_gate_fj1@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -1802,10 +1802,10 @@
       },
       "fjord93@fjord" : {
          "exits" : {
-            "e" : "fjord96",
-            "w" : "fjord92",
-            "n" : "fjord95",
-            "s" : "fjord94"
+            "e" : "fjord96@fjord",
+            "w" : "fjord92@fjord",
+            "n" : "fjord95@fjord",
+            "s" : "fjord94@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -1819,7 +1819,7 @@
       },
       "fjord77@fjord" : {
          "exits" : {
-            "n" : "fjord70"
+            "n" : "fjord70@fjord"
          },
          "flags" : [
             "Dark"
@@ -1832,7 +1832,7 @@
       },
       "fjord121@fjord" : {
          "exits" : {
-            "d" : "fjord10"
+            "d" : "fjord10@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -1846,10 +1846,10 @@
       },
       "fjord96@fjord" : {
          "exits" : {
-            "e" : "fjord113",
-            "w" : "fjord93",
-            "n" : "fjord97",
-            "s" : "fjord98"
+            "e" : "fjord113@fjord",
+            "w" : "fjord93@fjord",
+            "n" : "fjord97@fjord",
+            "s" : "fjord98@fjord"
          },
          "flags" : [
             "Cold",
@@ -1863,9 +1863,9 @@
       },
       "fjord117@fjord" : {
          "exits" : {
-            "w" : "fjord119",
-            "e" : "fjord118",
-            "s" : "fjord115"
+            "w" : "fjord119@fjord",
+            "e" : "fjord118@fjord",
+            "s" : "fjord115@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -1878,7 +1878,7 @@
       },
       "fjord112@fjord" : {
          "exits" : {
-            "d" : "fjord108"
+            "d" : "fjord108@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -1893,8 +1893,8 @@
       },
       "fjord7@fjord" : {
          "exits" : {
-            "n" : "fjord8",
-            "s" : "fjord2"
+            "n" : "fjord8@fjord",
+            "s" : "fjord2@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -1907,9 +1907,9 @@
       },
       "fjord33@fjord" : {
          "exits" : {
-            "w" : "fjord32",
-            "e" : "fjord34",
-            "n" : "fjord37"
+            "w" : "fjord32@fjord",
+            "e" : "fjord34@fjord",
+            "n" : "fjord37@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -1922,7 +1922,7 @@
       },
       "fjord99@fjord" : {
          "exits" : {
-            "w" : "fjord113"
+            "w" : "fjord113@fjord"
          },
          "flags" : [],
          "zone" : "fjord",
@@ -1933,8 +1933,8 @@
       },
       "fjord103@fjord" : {
          "exits" : {
-            "n" : "fjord89",
-            "s" : "fjord88"
+            "n" : "fjord89@fjord",
+            "s" : "fjord88@fjord"
          },
          "flags" : [
             "Cold",
@@ -1949,8 +1949,8 @@
       },
       "fjord67@fjord" : {
          "exits" : {
-            "e" : "fjord68",
-            "w" : "fjord66"
+            "e" : "fjord68@fjord",
+            "w" : "fjord66@fjord"
          },
          "flags" : [
             "Dark"
@@ -1963,7 +1963,7 @@
       },
       "fjord1@fjord" : {
          "exits" : {
-            "n" : "^c_gate_moor",
+            "n" : "^c_gate_moor@fjord",
             "s" : "jbs163@jbs"
          },
          "flags" : [
@@ -1978,8 +1978,8 @@
       },
       "fjord28@fjord" : {
          "exits" : {
-            "e" : "fjord29",
-            "s" : "fjord27"
+            "e" : "fjord29@fjord",
+            "s" : "fjord27@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -1992,8 +1992,8 @@
       },
       "fjord30@fjord" : {
          "exits" : {
-            "n" : "fjord31",
-            "s" : "fjord10"
+            "n" : "fjord31@fjord",
+            "s" : "fjord10@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -2006,7 +2006,7 @@
       },
       "fjord90@fjord" : {
          "exits" : {
-            "w" : "fjord87"
+            "w" : "fjord87@fjord"
          },
          "flags" : [],
          "zone" : "fjord",
@@ -2017,7 +2017,7 @@
       },
       "fjord64@fjord" : {
          "exits" : {
-            "n" : "fjord63"
+            "n" : "fjord63@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2031,9 +2031,9 @@
       },
       "fjord105@fjord" : {
          "exits" : {
-            "e" : "fjord106",
-            "w" : "fjord104",
-            "s" : "fjord108"
+            "e" : "fjord106@fjord",
+            "w" : "fjord104@fjord",
+            "s" : "fjord108@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2048,8 +2048,8 @@
       },
       "fjord91@fjord" : {
          "exits" : {
-            "e" : "fjord92",
-            "w" : "fjord86"
+            "e" : "fjord92@fjord",
+            "w" : "fjord86@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2063,7 +2063,7 @@
       },
       "fjord6@fjord" : {
          "exits" : {
-            "u" : "fjord5"
+            "u" : "fjord5@fjord"
          },
          "flags" : [
             "Dark"
@@ -2076,8 +2076,8 @@
       },
       "fjord58@fjord" : {
          "exits" : {
-            "n" : "fjord59",
-            "d" : "fjord57"
+            "n" : "fjord59@fjord",
+            "d" : "fjord57@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2091,7 +2091,7 @@
       },
       "fjord76@fjord" : {
          "exits" : {
-            "s" : "fjord75"
+            "s" : "fjord75@fjord"
          },
          "flags" : [
             "Dark"
@@ -2104,9 +2104,9 @@
       },
       "fjord34@fjord" : {
          "exits" : {
-            "w" : "fjord33",
-            "e" : "fjord35",
-            "s" : "fjord36"
+            "w" : "fjord33@fjord",
+            "e" : "fjord35@fjord",
+            "s" : "fjord36@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -2119,8 +2119,8 @@
       },
       "fjord114@fjord" : {
          "exits" : {
-            "n" : "fjord115",
-            "s" : "fjord113"
+            "n" : "fjord115@fjord",
+            "s" : "fjord113@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -2133,8 +2133,8 @@
       },
       "fjord83@fjord" : {
          "exits" : {
-            "n" : "fjord84",
-            "s" : "fjord81"
+            "n" : "fjord84@fjord",
+            "s" : "fjord81@fjord"
          },
          "flags" : [
             "Cold",
@@ -2149,8 +2149,8 @@
       },
       "fjord62@fjord" : {
          "exits" : {
-            "u" : "fjord63",
-            "d" : "fjord61"
+            "u" : "fjord63@fjord",
+            "d" : "fjord61@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2165,8 +2165,8 @@
       },
       "fjord3@fjord" : {
          "exits" : {
-            "e" : "fjord4",
-            "w" : "fjord2"
+            "e" : "fjord4@fjord",
+            "w" : "fjord2@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -2179,8 +2179,8 @@
       },
       "fjord43@fjord" : {
          "exits" : {
-            "e" : "fjord44",
-            "s" : "fjord42"
+            "e" : "fjord44@fjord",
+            "s" : "fjord42@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -2193,9 +2193,9 @@
       },
       "fjord115@fjord" : {
          "exits" : {
-            "e" : "^door115",
-            "n" : "fjord117",
-            "s" : "fjord114"
+            "e" : "^door115@fjord",
+            "n" : "fjord117@fjord",
+            "s" : "fjord114@fjord"
          },
          "flags" : [],
          "zone" : "fjord",
@@ -2206,7 +2206,7 @@
       },
       "fjord35@fjord" : {
          "exits" : {
-            "w" : "fjord34"
+            "w" : "fjord34@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2220,8 +2220,8 @@
       },
       "fjord37@fjord" : {
          "exits" : {
-            "n" : "fjord38",
-            "s" : "fjord33"
+            "n" : "fjord38@fjord",
+            "s" : "fjord33@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -2234,8 +2234,8 @@
       },
       "fjord63@fjord" : {
          "exits" : {
-            "d" : "fjord62",
-            "s" : "fjord64"
+            "d" : "fjord62@fjord",
+            "s" : "fjord64@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2249,10 +2249,10 @@
       },
       "fjord89@fjord" : {
          "exits" : {
-            "e" : "fjord111",
-            "w" : "fjord110",
-            "n" : "fjord108",
-            "s" : "fjord103"
+            "e" : "fjord111@fjord",
+            "w" : "fjord110@fjord",
+            "n" : "fjord108@fjord",
+            "s" : "fjord103@fjord"
          },
          "flags" : [
             "Cold",
@@ -2267,10 +2267,10 @@
       },
       "fjord51@fjord" : {
          "exits" : {
-            "e" : "fjord54",
-            "w" : "fjord52",
-            "n" : "fjord53",
-            "s" : "fjord50"
+            "e" : "fjord54@fjord",
+            "w" : "fjord52@fjord",
+            "n" : "fjord53@fjord",
+            "s" : "fjord50@fjord"
          },
          "flags" : [
             "Cold",
@@ -2285,8 +2285,8 @@
       },
       "fjord27@fjord" : {
          "exits" : {
-            "w" : "fjord25",
-            "n" : "fjord28"
+            "w" : "fjord25@fjord",
+            "n" : "fjord28@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -2299,7 +2299,7 @@
       },
       "fjord29@fjord" : {
          "exits" : {
-            "w" : "fjord28"
+            "w" : "fjord28@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -2312,9 +2312,9 @@
       },
       "fjord55@fjord" : {
          "exits" : {
-            "u" : "fjord57",
-            "n" : "fjord56",
-            "s" : "fjord54"
+            "u" : "fjord57@fjord",
+            "n" : "fjord56@fjord",
+            "s" : "fjord54@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2329,8 +2329,8 @@
       },
       "fjord110@fjord" : {
          "exits" : {
-            "e" : "fjord89",
-            "n" : "fjord107"
+            "e" : "fjord89@fjord",
+            "n" : "fjord107@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2345,7 +2345,7 @@
       },
       "fjord95@fjord" : {
          "exits" : {
-            "s" : "fjord93"
+            "s" : "fjord93@fjord"
          },
          "flags" : [],
          "zone" : "fjord",
@@ -2356,7 +2356,7 @@
       },
       "fjord94@fjord" : {
          "exits" : {
-            "n" : "fjord93"
+            "n" : "fjord93@fjord"
          },
          "flags" : [],
          "zone" : "fjord",
@@ -2367,8 +2367,8 @@
       },
       "fjord8@fjord" : {
          "exits" : {
-            "e" : "fjord9",
-            "s" : "fjord7"
+            "e" : "fjord9@fjord",
+            "s" : "fjord7@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2382,8 +2382,8 @@
       },
       "fjord101@fjord" : {
          "exits" : {
-            "e" : "fjord83",
-            "s" : "fjord82"
+            "e" : "fjord83@fjord",
+            "s" : "fjord82@fjord"
          },
          "flags" : [
             "Cold",
@@ -2397,7 +2397,7 @@
       },
       "fjord56@fjord" : {
          "exits" : {
-            "s" : "fjord55"
+            "s" : "fjord55@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2412,8 +2412,8 @@
       },
       "fjord18@fjord" : {
          "exits" : {
-            "e" : "fjord19",
-            "w" : "fjord17"
+            "e" : "fjord19@fjord",
+            "w" : "fjord17@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2427,7 +2427,7 @@
       },
       "fjord41@fjord" : {
          "exits" : {
-            "u" : "fjord40"
+            "u" : "fjord40@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -2440,8 +2440,8 @@
       },
       "fjord106@fjord" : {
          "exits" : {
-            "w" : "fjord105",
-            "s" : "fjord109"
+            "w" : "fjord105@fjord",
+            "s" : "fjord109@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2456,8 +2456,8 @@
       },
       "fjord88@fjord" : {
          "exits" : {
-            "n" : "fjord103",
-            "s" : "fjord87"
+            "n" : "fjord103@fjord",
+            "s" : "fjord87@fjord"
          },
          "flags" : [
             "Cold",
@@ -2473,8 +2473,8 @@
       },
       "fjord59@fjord" : {
          "exits" : {
-            "n" : "fjord60",
-            "s" : "fjord58"
+            "n" : "fjord60@fjord",
+            "s" : "fjord58@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2489,7 +2489,7 @@
       },
       "fjord26@fjord" : {
          "exits" : {
-            "n" : "fjord25"
+            "n" : "fjord25@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -2502,7 +2502,7 @@
       },
       "fjord53@fjord" : {
          "exits" : {
-            "s" : "fjord51"
+            "s" : "fjord51@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2516,8 +2516,8 @@
       },
       "fjord31@fjord" : {
          "exits" : {
-            "n" : "fjord32",
-            "s" : "fjord30"
+            "n" : "fjord32@fjord",
+            "s" : "fjord30@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -2530,8 +2530,8 @@
       },
       "fjord69@fjord" : {
          "exits" : {
-            "w" : "fjord70",
-            "e" : "fjord66"
+            "w" : "fjord70@fjord",
+            "e" : "fjord66@fjord"
          },
          "flags" : [
             "Dark"
@@ -2556,9 +2556,9 @@
       },
       "fjord86@fjord" : {
          "exits" : {
-            "e" : "fjord91",
-            "n" : "fjord87",
-            "u" : "fjord85"
+            "e" : "fjord91@fjord",
+            "n" : "fjord87@fjord",
+            "u" : "fjord85@fjord"
          },
          "flags" : [
             "Cold",
@@ -2572,8 +2572,8 @@
       },
       "fjord14@fjord" : {
          "exits" : {
-            "n" : "fjord13",
-            "s" : "fjord15"
+            "n" : "fjord13@fjord",
+            "s" : "fjord15@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -2586,11 +2586,11 @@
       },
       "fjord108@fjord" : {
          "exits" : {
-            "e" : "fjord109",
-            "w" : "fjord107",
-            "u" : "fjord112",
-            "n" : "fjord105",
-            "s" : "fjord89"
+            "e" : "fjord109@fjord",
+            "w" : "fjord107@fjord",
+            "u" : "fjord112@fjord",
+            "n" : "fjord105@fjord",
+            "s" : "fjord89@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2605,8 +2605,8 @@
       },
       "fjord17@fjord" : {
          "exits" : {
-            "e" : "fjord18",
-            "w" : "fjord16"
+            "e" : "fjord18@fjord",
+            "w" : "fjord16@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2620,8 +2620,8 @@
       },
       "fjord61@fjord" : {
          "exits" : {
-            "e" : "fjord60",
-            "u" : "fjord62"
+            "e" : "fjord60@fjord",
+            "u" : "fjord62@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2636,9 +2636,9 @@
       },
       "fjord70@fjord" : {
          "exits" : {
-            "e" : "fjord69",
-            "n" : "fjord78",
-            "s" : "fjord77"
+            "e" : "fjord69@fjord",
+            "n" : "fjord78@fjord",
+            "s" : "fjord77@fjord"
          },
          "flags" : [
             "Dark"
@@ -2651,8 +2651,8 @@
       },
       "fjord24@fjord" : {
          "exits" : {
-            "e" : "fjord25",
-            "n" : "fjord23"
+            "e" : "fjord25@fjord",
+            "n" : "fjord23@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2666,7 +2666,7 @@
       },
       "fjord73@fjord" : {
          "exits" : {
-            "w" : "fjord72"
+            "w" : "fjord72@fjord"
          },
          "flags" : [
             "Dark"
@@ -2679,7 +2679,7 @@
       },
       "fjord22@fjord" : {
          "exits" : {
-            "s" : "fjord21"
+            "s" : "fjord21@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2693,8 +2693,8 @@
       },
       "fjord54@fjord" : {
          "exits" : {
-            "w" : "fjord51",
-            "n" : "fjord55"
+            "w" : "fjord51@fjord",
+            "n" : "fjord55@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2709,8 +2709,8 @@
       },
       "fjord84@fjord" : {
          "exits" : {
-            "d" : "fjord85",
-            "s" : "fjord83"
+            "d" : "fjord85@fjord",
+            "s" : "fjord83@fjord"
          },
          "flags" : [
             "Cold",
@@ -2726,9 +2726,9 @@
       },
       "fjord13@fjord" : {
          "exits" : {
-            "w" : "fjord12",
-            "n" : "fjord16",
-            "s" : "fjord14"
+            "w" : "fjord12@fjord",
+            "n" : "fjord16@fjord",
+            "s" : "fjord14@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -2741,7 +2741,7 @@
       },
       "fjord116@fjord" : {
          "exits" : {
-            "w" : "^door116"
+            "w" : "^door116@fjord"
          },
          "flags" : [],
          "zone" : "fjord",
@@ -2752,10 +2752,10 @@
       },
       "fjord10@fjord" : {
          "exits" : {
-            "e" : "fjord11",
-            "u" : "fjord121",
-            "n" : "fjord30",
-            "s" : "fjord9"
+            "e" : "fjord11@fjord",
+            "u" : "fjord121@fjord",
+            "n" : "fjord30@fjord",
+            "s" : "fjord9@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -2768,8 +2768,8 @@
       },
       "fjord119@fjord" : {
          "exits" : {
-            "e" : "fjord117",
-            "d" : "fjord120"
+            "e" : "fjord117@fjord",
+            "d" : "fjord120@fjord"
          },
          "flags" : [],
          "zone" : "fjord",
@@ -2780,7 +2780,7 @@
       },
       "fjord80@fjord" : {
          "exits" : {
-            "n" : "fjord68"
+            "n" : "fjord68@fjord"
          },
          "flags" : [
             "Dark"
@@ -2793,8 +2793,8 @@
       },
       "fjord46@fjord" : {
          "exits" : {
-            "u" : "fjord47",
-            "d" : "fjord44"
+            "u" : "fjord47@fjord",
+            "d" : "fjord44@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2808,9 +2808,9 @@
       },
       "fjord113@fjord" : {
          "exits" : {
-            "w" : "fjord96",
-            "e" : "fjord99",
-            "n" : "fjord114"
+            "w" : "fjord96@fjord",
+            "e" : "fjord99@fjord",
+            "n" : "fjord114@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -2823,9 +2823,9 @@
       },
       "fjord25@fjord" : {
          "exits" : {
-            "e" : "fjord27",
-            "w" : "fjord24",
-            "s" : "fjord26"
+            "e" : "fjord27@fjord",
+            "w" : "fjord24@fjord",
+            "s" : "fjord26@fjord"
          },
          "flags" : [
             "Outdoors"
@@ -2838,9 +2838,9 @@
       },
       "fjord68@fjord" : {
          "exits" : {
-            "w" : "fjord67",
-            "n" : "fjord79",
-            "s" : "fjord80"
+            "w" : "fjord67@fjord",
+            "n" : "fjord79@fjord",
+            "s" : "fjord80@fjord"
          },
          "flags" : [
             "Dark",
@@ -2854,9 +2854,9 @@
       },
       "fjord44@fjord" : {
          "exits" : {
-            "e" : "fjord45",
-            "w" : "fjord43",
-            "u" : "fjord46"
+            "e" : "fjord45@fjord",
+            "w" : "fjord43@fjord",
+            "u" : "fjord46@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2870,9 +2870,9 @@
       },
       "fjord109@fjord" : {
          "exits" : {
-            "w" : "fjord108",
-            "n" : "fjord106",
-            "s" : "fjord111"
+            "w" : "fjord108@fjord",
+            "n" : "fjord106@fjord",
+            "s" : "fjord111@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2887,7 +2887,7 @@
       },
       "fjord102@fjord" : {
          "exits" : {
-            "w" : "fjord81"
+            "w" : "fjord81@fjord"
          },
          "flags" : [
             "Cold",
@@ -2901,9 +2901,9 @@
       },
       "fjord19@fjord" : {
          "exits" : {
-            "w" : "fjord18",
-            "n" : "fjord20",
-            "s" : "fjord23"
+            "w" : "fjord18@fjord",
+            "n" : "fjord20@fjord",
+            "s" : "fjord23@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2917,8 +2917,8 @@
       },
       "fjord57@fjord" : {
          "exits" : {
-            "u" : "fjord58",
-            "d" : "fjord55"
+            "u" : "fjord58@fjord",
+            "d" : "fjord55@fjord"
          },
          "flags" : [
             "Outdoors",
@@ -2937,7 +2937,7 @@
             "Shock"
          ],
          "damage" : "9",
-         "location" : "fjord11",
+         "location" : "fjord11@fjord",
          "armor" : "0",
          "name" : "fawn",
          "examine" : "Completely covered in brown and beige spots.",
@@ -2952,7 +2952,7 @@
       },
       "shade2@fjord" : {
          "damage" : "7",
-         "location" : "fjord51",
+         "location" : "fjord51@fjord",
          "armor" : "0",
          "name" : "shade2",
          "examine" : "You can see straight through it at the caldera beyond.",
@@ -2974,7 +2974,7 @@
             "Shock"
          ],
          "damage" : "10",
-         "location" : "fjord4",
+         "location" : "fjord4@fjord",
          "armor" : "0",
          "name" : "rusting",
          "examine" : "Some fool sorceror left this thing enchanted!",
@@ -2993,7 +2993,7 @@
       },
       "librarian@fjord" : {
          "damage" : "5",
-         "location" : "fjord94",
+         "location" : "fjord94@fjord",
          "armor" : "0",
          "name" : "librarian",
          "examine" : "She's almost ready to go postal.",
@@ -3008,7 +3008,7 @@
       },
       "cap@fjord" : {
          "damage" : "13",
-         "location" : "fjord100",
+         "location" : "fjord100@fjord",
          "armor" : "0",
          "name" : "cap",
          "examine" : "Don't lose your head over this!",
@@ -3026,7 +3026,7 @@
       },
       "dunkster@fjord" : {
          "damage" : "7",
-         "location" : "fjord100",
+         "location" : "fjord100@fjord",
          "armor" : "0",
          "name" : "dunkster",
          "examine" : "\nComplete with a rusty black sword, fangs, sunken eyes, and flesh-shredding \nclaws, what else do you need?",
@@ -3041,7 +3041,7 @@
       },
       "faun@fjord" : {
          "damage" : "10",
-         "location" : "fjord33",
+         "location" : "fjord33@fjord",
          "armor" : "2",
          "name" : "faun",
          "examine" : "Completely covered in brown and beige stripes.",
@@ -3053,7 +3053,7 @@
       },
       "bastard@fjord" : {
          "damage" : "9",
-         "location" : "fjord98",
+         "location" : "fjord98@fjord",
          "armor" : "0",
          "name" : "bastard",
          "examine" : "You could feel hammered just by looking at this guy!",
@@ -3065,7 +3065,7 @@
       },
       "gutter@fjord" : {
          "damage" : "13",
-         "location" : "fjord97",
+         "location" : "fjord97@fjord",
          "armor" : "0",
          "name" : "gutter",
          "examine" : "He is totally professional and nonsensical in his daily work habits.",
@@ -3077,7 +3077,7 @@
       },
       "blarg@fjord" : {
          "damage" : "7",
-         "location" : "fjord100",
+         "location" : "fjord100@fjord",
          "armor" : "0",
          "name" : "blarg",
          "examine" : "\nComplete with a rusty black sword, fangs, sunken eyes, and flesh-shredding \nclaws, what else do you need?",
@@ -3092,7 +3092,7 @@
       },
       "fireguy@fjord" : {
          "damage" : "70",
-         "location" : "fjord48",
+         "location" : "fjord48@fjord",
          "armor" : "35",
          "name" : "fireguy",
          "examine" : "Loving the smell of fresh fish, he tries to find it as often as he can.",
@@ -3113,7 +3113,7 @@
             "Mute"
          ],
          "damage" : "9",
-         "location" : "fjord49",
+         "location" : "fjord49@fjord",
          "armor" : "0",
          "name" : "eagle",
          "examine" : "Starvation does blind an animal's judgement on food.",
@@ -3128,7 +3128,7 @@
       },
       "shade4@fjord" : {
          "damage" : "7",
-         "location" : "fjord83",
+         "location" : "fjord83@fjord",
          "armor" : "0",
          "name" : "shade4",
          "examine" : "You can see straight through it at the caldera beyond.",
@@ -3147,7 +3147,7 @@
       },
       "swarmer@fjord" : {
          "damage" : "9",
-         "location" : "fjord100",
+         "location" : "fjord100@fjord",
          "armor" : "0",
          "name" : "swarmer",
          "description" : "One of the Sap Swarmers has made a serious mistake!",
@@ -3161,7 +3161,7 @@
       },
       "glosh@fjord" : {
          "damage" : "7",
-         "location" : "fjord100",
+         "location" : "fjord100@fjord",
          "armor" : "0",
          "name" : "glosh",
          "examine" : "\nComplete with a rusty black sword, fangs, sunken eyes, and flesh-shredding \nclaws, what else do you need?",
@@ -3176,7 +3176,7 @@
       },
       "elk@fjord" : {
          "damage" : "14",
-         "location" : "fjord45",
+         "location" : "fjord45@fjord",
          "armor" : "10",
          "name" : "elk",
          "examine" : "Elks of this region were never known for their intelligence.",
@@ -3188,7 +3188,7 @@
       },
       "lyddakin@fjord" : {
          "damage" : "15",
-         "location" : "fjord100",
+         "location" : "fjord100@fjord",
          "armor" : "90",
          "name" : "lyddakin",
          "examine" : "\nHe wears an eyepatch to hold his injured eye in from a snake-like\nparasite that is slowly feasting off him.",
@@ -3205,7 +3205,7 @@
       },
       "gump@fjord" : {
          "damage" : "6",
-         "location" : "fjord66",
+         "location" : "fjord66@fjord",
          "armor" : "0",
          "name" : "gump",
          "examine" : "\nComplete with a rusty black sword, fangs, sunken eyes, and flesh-shredding \nclaws, what else do you need?",
@@ -3220,7 +3220,7 @@
       },
       "hog@fjord" : {
          "damage" : "8",
-         "location" : "fjord12",
+         "location" : "fjord12@fjord",
          "armor" : "0",
          "name" : "hog",
          "examine" : "They can leave nice welts when they bite.",
@@ -3232,7 +3232,7 @@
       },
       "minddude@fjord" : {
          "damage" : "8",
-         "location" : "fjord100",
+         "location" : "fjord100@fjord",
          "armor" : "0",
          "name" : "minddude",
          "examine" : "Out of the Fallenthorp ghouls, this guy is a runt.",
@@ -3244,7 +3244,7 @@
       },
       "pop@fjord" : {
          "damage" : "16",
-         "location" : "fjord118",
+         "location" : "fjord118@fjord",
          "armor" : "0",
          "name" : "pop",
          "examine" : "Bulging muscles allow this mighty warrior to have his say.",
@@ -3265,7 +3265,7 @@
             "IceStorm"
          ],
          "damage" : "16",
-         "location" : "fjord40",
+         "location" : "fjord40@fjord",
          "armor" : "4",
          "name" : "bear",
          "examine" : "\nAble to call down the power of severe arctic storms, this breed of bear is\noften revered and sought ought as personal guardians.",
@@ -3277,7 +3277,7 @@
       },
       "baldour@fjord" : {
          "damage" : "6",
-         "location" : "fjord66",
+         "location" : "fjord66@fjord",
          "armor" : "0",
          "name" : "baldour",
          "examine" : "\nComplete with a rusty black sword, fangs, sunken eyes, and flesh-shredding \nclaws, what else do you need?",
@@ -3292,7 +3292,7 @@
       },
       "shade7@fjord" : {
          "damage" : "7",
-         "location" : "fjord64",
+         "location" : "fjord64@fjord",
          "armor" : "0",
          "name" : "shade7",
          "examine" : "You can see straight through it at the horizon beyond.",
@@ -3311,7 +3311,7 @@
       },
       "icexand@fjord" : {
          "damage" : "6",
-         "location" : "fjord66",
+         "location" : "fjord66@fjord",
          "armor" : "0",
          "name" : "icexand",
          "examine" : "\nComplete with a rusty black sword, fangs, sunken eyes, and flesh-shredding \nclaws, what else do you need?",
@@ -3326,7 +3326,7 @@
       },
       "kid@fjord" : {
          "damage" : "10",
-         "location" : "fjord118",
+         "location" : "fjord118@fjord",
          "armor" : "0",
          "name" : "kid",
          "examine" : "This kid really, REALLY needs to be smacked.",
@@ -3343,7 +3343,7 @@
       },
       "mayor@fjord" : {
          "damage" : "12",
-         "location" : "fjord96",
+         "location" : "fjord96@fjord",
          "armor" : "4",
          "name" : "mayor",
          "description" : "The leader of Kyerstarn stands debating with some fish merchants.",
@@ -3354,7 +3354,7 @@
       },
       "snork@fjord" : {
          "damage" : "10",
-         "location" : "fjord79",
+         "location" : "fjord79@fjord",
          "armor" : "0",
          "name" : "snork",
          "examine" : "Need anything ghoul-related fixed?",
@@ -3374,7 +3374,7 @@
       },
       "porto@fjord" : {
          "damage" : "7",
-         "location" : "fjord66",
+         "location" : "fjord66@fjord",
          "armor" : "0",
          "name" : "porto",
          "examine" : "\nComplete with a rusty black sword, fangs, sunken eyes, and flesh-shredding \nclaws, what else do you need?",
@@ -3389,7 +3389,7 @@
       },
       "shade6@fjord" : {
          "damage" : "7",
-         "location" : "fjord83",
+         "location" : "fjord83@fjord",
          "armor" : "0",
          "name" : "shade6",
          "examine" : "You can see straight through it at the caldera beyond.",
@@ -3408,7 +3408,7 @@
       },
       "gator@fjord" : {
          "damage" : "18",
-         "location" : "fjord19",
+         "location" : "fjord19@fjord",
          "armor" : "10",
          "name" : "gator",
          "examine" : "Did you bring your wrestling gear?",
@@ -3425,7 +3425,7 @@
       },
       "squid@fjord" : {
          "damage" : "10",
-         "location" : "fjord108",
+         "location" : "fjord108@fjord",
          "armor" : "0",
          "name" : "squid",
          "examine" : "Ten eyes stare at you while ten tentacles flee the squid elsewhere.",
@@ -3440,7 +3440,7 @@
       },
       "bjorlak@fjord" : {
          "damage" : "5",
-         "location" : "fjord66",
+         "location" : "fjord66@fjord",
          "armor" : "0",
          "name" : "bjorlak",
          "examine" : "\nComplete with a rusty black sword, fangs, sunken eyes, and flesh-shredding \nclaws, what else do you need?",
@@ -3455,7 +3455,7 @@
       },
       "bugs@fjord" : {
          "damage" : "10",
-         "location" : "fjord35",
+         "location" : "fjord35@fjord",
          "armor" : "0",
          "name" : "bugs",
          "description" : "\nThe main mass of buzzing, humming, and flying critters invades you!",
@@ -3472,7 +3472,7 @@
       },
       "scrapheap@fjord" : {
          "damage" : "7",
-         "location" : "fjord100",
+         "location" : "fjord100@fjord",
          "armor" : "0",
          "name" : "scrapheap",
          "examine" : "\nComplete with a rusty black sword, fangs, sunken eyes, and flesh-shredding \nclaws, what else do you need?",
@@ -3487,7 +3487,7 @@
       },
       "octopus@fjord" : {
          "damage" : "12",
-         "location" : "fjord108",
+         "location" : "fjord108@fjord",
          "armor" : "3",
          "name" : "octopus",
          "examine" : "If thrown right, these guys make excellent boomerangs.",
@@ -3505,7 +3505,7 @@
       },
       "skullos@fjord" : {
          "damage" : "7",
-         "location" : "fjord100",
+         "location" : "fjord100@fjord",
          "armor" : "0",
          "name" : "skullos",
          "examine" : "\nComplete with a rusty black sword, fangs, sunken eyes, and flesh-shredding \nclaws, what else do you need?",
@@ -3520,7 +3520,7 @@
       },
       "creepazoid@fjord" : {
          "damage" : "7",
-         "location" : "fjord100",
+         "location" : "fjord100@fjord",
          "armor" : "0",
          "name" : "creepazoid",
          "examine" : "\nComplete with a rusty black sword, fangs, sunken eyes, and flesh-shredding \nclaws, what else do you need?",
@@ -3535,7 +3535,7 @@
       },
       "owner@fjord" : {
          "damage" : "10",
-         "location" : "fjord98",
+         "location" : "fjord98@fjord",
          "armor" : "0",
          "name" : "owner",
          "examine" : "He smiles and welcomes you warmly to his inn.",
@@ -3547,7 +3547,7 @@
       },
       "shade3@fjord" : {
          "damage" : "7",
-         "location" : "fjord51",
+         "location" : "fjord51@fjord",
          "armor" : "0",
          "name" : "shade3",
          "examine" : "You can see straight through it at the caldera beyond.",
@@ -3566,7 +3566,7 @@
       },
       "halofish@fjord" : {
          "damage" : "11",
-         "location" : "fjord108",
+         "location" : "fjord108@fjord",
          "armor" : "0",
          "name" : "halofish",
          "examine" : "The glow is WAY far out in a groovy sort of way!",
@@ -3581,7 +3581,7 @@
       },
       "discera@fjord" : {
          "damage" : "6",
-         "location" : "fjord66",
+         "location" : "fjord66@fjord",
          "armor" : "0",
          "name" : "discera",
          "examine" : "\nComplete with a rusty black sword, fangs, sunken eyes, and flesh-shredding \nclaws, what else do you need?",
@@ -3599,7 +3599,7 @@
             "Cripple"
          ],
          "damage" : "11",
-         "location" : "fjord33",
+         "location" : "fjord33@fjord",
          "armor" : "2",
          "name" : "schmuck",
          "examine" : "Yup, 100% pure loser!",
@@ -3611,7 +3611,7 @@
       },
       "flatface@fjord" : {
          "damage" : "11",
-         "location" : "fjord100",
+         "location" : "fjord100@fjord",
          "armor" : "4",
          "name" : "flatface",
          "examine" : "Your bones would go perfect as a altar snack.",
@@ -3629,7 +3629,7 @@
       },
       "f_duck@fjord" : {
          "damage" : "13",
-         "location" : "fjord36",
+         "location" : "fjord36@fjord",
          "armor" : "3",
          "name" : "f_duck",
          "examine" : "\nThank goodness it can never breed.",
@@ -3647,7 +3647,7 @@
       },
       "kraken@fjord" : {
          "damage" : "10",
-         "location" : "fjord89",
+         "location" : "fjord89@fjord",
          "armor" : "2",
          "name" : "kraken",
          "examine" : "A kraken afraid? Not a good sign.",
@@ -3659,7 +3659,7 @@
       },
       "dopey@fjord" : {
          "damage" : "10",
-         "location" : "fjord100",
+         "location" : "fjord100@fjord",
          "armor" : "0",
          "name" : "dopey",
          "examine" : "\nNothing would suit this guy better than a roast duck!",
@@ -3675,7 +3675,7 @@
       "pbear2@fjord" : {
          "visibility" : "22",
          "damage" : "15",
-         "location" : "fjord100",
+         "location" : "fjord100@fjord",
          "armor" : "6",
          "name" : "pbear2",
          "description" : "A &+Rpolar bear &*is happy to be reunited with his family.",
@@ -3685,7 +3685,7 @@
       },
       "rembrant@fjord" : {
          "damage" : "7",
-         "location" : "fjord100",
+         "location" : "fjord100@fjord",
          "armor" : "0",
          "name" : "rembrant",
          "examine" : "\nComplete with a rusty black sword, fangs, sunken eyes, and flesh-shredding \nclaws, what else do you need?",
@@ -3700,7 +3700,7 @@
       },
       "whiffle@fjord" : {
          "damage" : "7",
-         "location" : "fjord100",
+         "location" : "fjord100@fjord",
          "armor" : "0",
          "name" : "whiffle",
          "examine" : "\nComplete with a rusty black sword, fangs, sunken eyes, and flesh-shredding \nclaws, what else do you need?",
@@ -3715,7 +3715,7 @@
       },
       "shade1@fjord" : {
          "damage" : "7",
-         "location" : "fjord51",
+         "location" : "fjord51@fjord",
          "armor" : "0",
          "name" : "shade1",
          "examine" : "You can see straight through it at the caldera beyond.",
@@ -3734,7 +3734,7 @@
       },
       "pbear@fjord" : {
          "damage" : "15",
-         "location" : "fjord104",
+         "location" : "fjord104@fjord",
          "armor" : "6",
          "name" : "pbear",
          "examine" : "He looks imploringly at you.",
@@ -3746,7 +3746,7 @@
       },
       "shade8@fjord" : {
          "damage" : "7",
-         "location" : "fjord51",
+         "location" : "fjord51@fjord",
          "armor" : "0",
          "name" : "shade8",
          "examine" : "You can see straight through it at the caldera beyond.",
@@ -3765,7 +3765,7 @@
       },
       "mom@fjord" : {
          "damage" : "9",
-         "location" : "fjord118",
+         "location" : "fjord118@fjord",
          "armor" : "0",
          "name" : "mom",
          "examine" : "She beseeches your help in determining what is wrong with her son.",
@@ -3785,7 +3785,7 @@
       },
       "adarkar@fjord" : {
          "damage" : "10",
-         "location" : "fjord66",
+         "location" : "fjord66@fjord",
          "armor" : "0",
          "name" : "adarkar",
          "examine" : "\nComplete with a rusty black sword, fangs, sunken eyes, and flesh-shredding \nclaws, what else do you need?",
@@ -3800,7 +3800,7 @@
       },
       "shade5@fjord" : {
          "damage" : "7",
-         "location" : "fjord83",
+         "location" : "fjord83@fjord",
          "armor" : "0",
          "name" : "shade5",
          "examine" : "You can see straight through it at the caldera beyond.",
@@ -3819,7 +3819,7 @@
       },
       "catfish@fjord" : {
          "damage" : "8",
-         "location" : "fjord19",
+         "location" : "fjord19@fjord",
          "armor" : "0",
          "name" : "catfish",
          "description" : "A good-sized catfish swims innocently here, looking for small minnows.",
@@ -3833,7 +3833,7 @@
       },
       "buck@fjord" : {
          "damage" : "12",
-         "location" : "fjord30",
+         "location" : "fjord30@fjord",
          "armor" : "5",
          "name" : "buck",
          "examine" : "He could poke some nice holes in an attacker.",
@@ -3849,7 +3849,7 @@
             "Frost"
          ],
          "damage" : "10",
-         "location" : "fjord99",
+         "location" : "fjord99@fjord",
          "armor" : "4",
          "name" : "goodwind",
          "examine" : "His body crackles with magical potential.",
@@ -3866,7 +3866,7 @@
             "Fireball"
          ],
          "damage" : "11",
-         "location" : "fjord9",
+         "location" : "fjord9@fjord",
          "armor" : "0",
          "name" : "doe",
          "examine" : "She's got a dainty little nose and pair of soft ears.",
@@ -3881,7 +3881,7 @@
       },
       "fox@fjord" : {
          "damage" : "10",
-         "location" : "fjord29",
+         "location" : "fjord29@fjord",
          "armor" : "0",
          "name" : "fox",
          "description" : "\nA furry red fox attempts to avoid being stepped on.",
@@ -3892,7 +3892,7 @@
       },
       "watergal@fjord" : {
          "damage" : "50",
-         "location" : "fjord89",
+         "location" : "fjord89@fjord",
          "armor" : "40",
          "name" : "watergal",
          "examine" : "\nShe gives size a new definition and can flatten frigates with fire-hose\nintensive blasts of water from her snout. When no kraken is to be found,\nshe'll settle for the local fish.",
@@ -3912,7 +3912,7 @@
       },
       "slimy@fjord" : {
          "damage" : "9",
-         "location" : "fjord35",
+         "location" : "fjord35@fjord",
          "armor" : "0",
          "name" : "slimy",
          "description" : "\nSomething cold and slimy slips down the inside of your shirt and feels its\nway along your chest, stopping its teeth directly above your living, beating \nheart!",
@@ -3929,7 +3929,7 @@
       },
       "vine@fjord" : {
          "damage" : "10",
-         "location" : "fjord80",
+         "location" : "fjord80@fjord",
          "armor" : "5",
          "name" : "vine",
          "examine" : "Acidic and moldy to the last!",
@@ -3948,7 +3948,7 @@
             "Frost"
          ],
          "damage" : "10",
-         "location" : "fjord116",
+         "location" : "fjord116@fjord",
          "armor" : "0",
          "name" : "dendine",
          "examine" : "She is truly a failure at the spiritual laws, however.",
@@ -3971,7 +3971,7 @@
             "Blind"
          ],
          "damage" : "9",
-         "location" : "fjord8",
+         "location" : "fjord8@fjord",
          "armor" : "0",
          "name" : "chipmunk",
          "examine" : "Although not rabid, they are annoying.",

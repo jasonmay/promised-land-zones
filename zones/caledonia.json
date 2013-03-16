@@ -3,7 +3,7 @@
       "puffball@caledonia" : {
          "desc[1]" : "A large puffball is growing here.",
          "damage" : "0",
-         "location" : "IN_ROOM:hills12",
+         "location" : "IN_ROOM:hills12@caledonia",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -19,7 +19,7 @@
       },
       "dirk@caledonia" : {
          "damage" : "8",
-         "location" : "IN_ROOM:hills7",
+         "location" : "IN_ROOM:hills7@caledonia",
          "oflags" : [
             "Weapon"
          ],
@@ -37,7 +37,7 @@
       "thistle@caledonia" : {
          "desc[1]" : "A tall spiky thistle is growing here.",
          "damage" : "15",
-         "location" : "IN_ROOM:hills15",
+         "location" : "IN_ROOM:hills15@caledonia",
          "oflags" : [
             "Weapon",
             "GetFlips"
@@ -54,7 +54,7 @@
       },
       "cowpat@caledonia" : {
          "damage" : "0",
-         "location" : "IN_ROOM:hills2",
+         "location" : "IN_ROOM:hills2@caledonia",
          "oflags" : [
             "NoGet",
             "Container"
@@ -72,7 +72,7 @@
       },
       "cap@caledonia" : {
          "damage" : "0",
-         "location" : "IN_ROOM:hills19",
+         "location" : "IN_ROOM:hills19@caledonia",
          "oflags" : [
             "Wearable"
          ],
@@ -92,7 +92,7 @@
       "branch@caledonia" : {
          "desc[1]" : "The branch of a fir tree is lying here.",
          "damage" : "2",
-         "location" : "IN_ROOM:hills13",
+         "location" : "IN_ROOM:hills13@caledonia",
          "oflags" : [
             "Lightable",
             "Extinguish",
@@ -109,7 +109,7 @@
       },
       "pinecone@caledonia" : {
          "damage" : "0",
-         "location" : "IN_ROOM:hills8",
+         "location" : "IN_ROOM:hills8@caledonia",
          "armor" : "0",
          "name" : "pinecone",
          "examine" : "It looks ripe for the planting.",
@@ -122,7 +122,7 @@
       },
       "sapling@caledonia" : {
          "damage" : "0",
-         "location" : "IN_ROOM:hills2",
+         "location" : "IN_ROOM:hills2@caledonia",
          "oflags" : [
             "NoGet",
             "Destroyed"
@@ -139,7 +139,7 @@
       "blueberries@caledonia" : {
          "desc[1]" : "You spy a large number of dark blue berries in amongst the heather.",
          "damage" : "0",
-         "location" : "IN_ROOM:hills5",
+         "location" : "IN_ROOM:hills5@caledonia",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -158,8 +158,8 @@
    "loc" : {
       "hills20@caledonia" : {
          "exits" : {
-            "w" : "Nibelung4@nibelung",
-            "e" : "hills17"
+            "w" : "nibelung4@nibelung",
+            "e" : "hills17@caledonia"
          },
          "flags" : [
             "Outdoors",
@@ -173,9 +173,9 @@
       },
       "hills13@caledonia" : {
          "exits" : {
-            "w" : "hills17",
-            "e" : "hills9",
-            "s" : "hills16"
+            "w" : "hills17@caledonia",
+            "e" : "hills9@caledonia",
+            "s" : "hills16@caledonia"
          },
          "flags" : [
             "Outdoors",
@@ -189,8 +189,8 @@
       },
       "hills18@caledonia" : {
          "exits" : {
-            "w" : "hills16",
-            "e" : "hills15"
+            "w" : "hills16@caledonia",
+            "e" : "hills15@caledonia"
          },
          "flags" : [
             "Outdoors"
@@ -203,8 +203,8 @@
       },
       "hills6@caledonia" : {
          "exits" : {
-            "w" : "hills11",
-            "s" : "hills3"
+            "w" : "hills11@caledonia",
+            "s" : "hills3@caledonia"
          },
          "flags" : [
             "Outdoors"
@@ -217,9 +217,9 @@
       },
       "hills4@caledonia" : {
          "exits" : {
-            "e" : "hills8",
-            "n" : "hills2",
-            "s" : "hills9"
+            "e" : "hills8@caledonia",
+            "n" : "hills2@caledonia",
+            "s" : "hills9@caledonia"
          },
          "flags" : [
             "Outdoors",
@@ -233,9 +233,9 @@
       },
       "hills3@caledonia" : {
          "exits" : {
-            "e" : "hills7",
-            "n" : "hills6",
-            "s" : "hills2"
+            "e" : "hills7@caledonia",
+            "n" : "hills6@caledonia",
+            "s" : "hills2@caledonia"
          },
          "flags" : [
             "Outdoors"
@@ -248,9 +248,9 @@
       },
       "hills9@caledonia" : {
          "exits" : {
-            "w" : "hills13",
-            "e" : "hills12",
-            "n" : "hills4"
+            "w" : "hills13@caledonia",
+            "e" : "hills12@caledonia",
+            "n" : "hills4@caledonia"
          },
          "flags" : [
             "Outdoors"
@@ -263,10 +263,10 @@
       },
       "hills2@caledonia" : {
          "exits" : {
-            "w" : "hills5",
-            "e" : "Brookmere1@brookmere",
-            "n" : "hills3",
-            "s" : "hills4"
+            "w" : "hills5@caledonia",
+            "e" : "brookmere1@brookmere",
+            "n" : "hills3@caledonia",
+            "s" : "hills4@caledonia"
          },
          "flags" : [
             "Outdoors"
@@ -279,7 +279,7 @@
       },
       "hills10@caledonia" : {
          "exits" : {
-            "n" : "hills5"
+            "n" : "hills5@caledonia"
          },
          "flags" : [
             "Outdoors",
@@ -293,9 +293,9 @@
       },
       "hills15@caledonia" : {
          "exits" : {
-            "e" : "hills1",
-            "w" : "hills18",
-            "n" : "hills12"
+            "e" : "hills1@caledonia",
+            "w" : "hills18@caledonia",
+            "n" : "hills12@caledonia"
          },
          "flags" : [
             "Outdoors"
@@ -308,9 +308,9 @@
       },
       "hills8@caledonia" : {
          "exits" : {
-            "w" : "hills4",
-            "n" : "Brookmere1@brookmere",
-            "s" : "hills12"
+            "w" : "hills4@caledonia",
+            "n" : "brookmere1@brookmere",
+            "s" : "hills12@caledonia"
          },
          "flags" : [
             "Outdoors"
@@ -323,8 +323,8 @@
       },
       "hills5@caledonia" : {
          "exits" : {
-            "e" : "hills2",
-            "s" : "hills10"
+            "e" : "hills2@caledonia",
+            "s" : "hills10@caledonia"
          },
          "flags" : [
             "Outdoors"
@@ -337,8 +337,8 @@
       },
       "hills16@caledonia" : {
          "exits" : {
-            "e" : "hills18",
-            "n" : "hills13"
+            "e" : "hills18@caledonia",
+            "n" : "hills13@caledonia"
          },
          "flags" : [
             "Outdoors"
@@ -351,9 +351,9 @@
       },
       "hills17@caledonia" : {
          "exits" : {
-            "w" : "hills20",
-            "e" : "hills13",
-            "n" : "hills19"
+            "w" : "hills20@caledonia",
+            "e" : "hills13@caledonia",
+            "n" : "hills19@caledonia"
          },
          "flags" : [
             "Outdoors"
@@ -366,8 +366,8 @@
       },
       "hills14@caledonia" : {
          "exits" : {
-            "n" : "Climb@eforest",
-            "s" : "hills11"
+            "n" : "climb@eforest",
+            "s" : "hills11@caledonia"
          },
          "flags" : [
             "Outdoors",
@@ -381,9 +381,9 @@
       },
       "hills12@caledonia" : {
          "exits" : {
-            "w" : "hills9",
-            "n" : "hills8",
-            "s" : "hills15"
+            "w" : "hills9@caledonia",
+            "n" : "hills8@caledonia",
+            "s" : "hills15@caledonia"
          },
          "flags" : [
             "Outdoors"
@@ -396,8 +396,8 @@
       },
       "hills7@caledonia" : {
          "exits" : {
-            "w" : "hills3",
-            "s" : "Brookmere1@brookmere"
+            "w" : "hills3@caledonia",
+            "s" : "brookmere1@brookmere"
          },
          "flags" : [
             "Outdoors"
@@ -411,8 +411,8 @@
       "hills1@caledonia" : {
          "exits" : {
             "e" : "mountain@eirias",
-            "w" : "hills15",
-            "d" : "Gap@valley"
+            "w" : "hills15@caledonia",
+            "d" : "gap@valley"
          },
          "flags" : [
             "Outdoors",
@@ -426,8 +426,8 @@
       },
       "hills11@caledonia" : {
          "exits" : {
-            "e" : "hills6",
-            "n" : "hills14"
+            "e" : "hills6@caledonia",
+            "n" : "hills14@caledonia"
          },
          "flags" : [
             "Outdoors"
@@ -440,7 +440,7 @@
       },
       "hills19@caledonia" : {
          "exits" : {
-            "s" : "hills17"
+            "s" : "hills17@caledonia"
          },
          "flags" : [
             "NoMobiles"
@@ -455,7 +455,7 @@
    "mob" : {
       "otter@caledonia" : {
          "damage" : "8",
-         "location" : "hills3",
+         "location" : "hills3@caledonia",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -465,7 +465,7 @@
       },
       "buck@caledonia" : {
          "damage" : "8",
-         "location" : "hills8",
+         "location" : "hills8@caledonia",
          "speed" : "1",
          "aggression" : "0",
          "armor" : "0",
@@ -476,7 +476,7 @@
       },
       "eagle@caledonia" : {
          "damage" : "10",
-         "location" : "hills10",
+         "location" : "hills10@caledonia",
          "armor" : "0",
          "name" : "Eagle",
          "description" : "A golden eagle is perched proudly on the rocky peak.",
@@ -490,7 +490,7 @@
       },
       "badger@caledonia" : {
          "damage" : "10",
-         "location" : "hills9",
+         "location" : "hills9@caledonia",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -500,7 +500,7 @@
       },
       "cow@caledonia" : {
          "damage" : "8",
-         "location" : "hills2",
+         "location" : "hills2@caledonia",
          "armor" : "0",
          "name" : "Cow",
          "description" : "A highland cow is here, chewing the cud.",
@@ -514,7 +514,7 @@
       },
       "marten@caledonia" : {
          "damage" : "8",
-         "location" : "hills12",
+         "location" : "hills12@caledonia",
          "armor" : "0",
          "name" : "Marten",
          "description" : "A vicious little pine marten nips at your heels.",
@@ -528,7 +528,7 @@
       },
       "adder@caledonia" : {
          "damage" : "10",
-         "location" : "hills2",
+         "location" : "hills2@caledonia",
          "armor" : "0",
          "name" : "Adder",
          "description" : "An adder hisses at you when you almost step on her.",

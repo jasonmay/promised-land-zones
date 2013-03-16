@@ -1,7 +1,7 @@
 {
    "obj" : {
       "weathercock@church" : {
-         "location" : "IN_ROOM:bells",
+         "location" : "IN_ROOM:bells@church",
          "weight" : "20",
          "altname" : "cock",
          "name" : "weathercock",
@@ -12,7 +12,7 @@
       "stick@church" : {
          "desc[1]" : "An old stick lies here.",
          "damage" : "3",
-         "location" : "IN_ROOM:decaying",
+         "location" : "IN_ROOM:decaying@church",
          "oflags" : [
             "Lightable",
             "Extinguish",
@@ -28,7 +28,7 @@
          "desc[0]" : "A burning stick has been left here."
       },
       "cross@church" : {
-         "location" : "IN_ROOM:behind",
+         "location" : "IN_ROOM:behind@church",
          "oflags" : [
             "Cross"
          ],
@@ -41,7 +41,7 @@
          "desc[0]" : "A hefty gold cross lies sparkling before you!"
       },
       "wreath@church" : {
-         "location" : "IN_ROOM:silent",
+         "location" : "IN_ROOM:silent@church",
          "oflags" : [
             "Wearable"
          ],
@@ -56,7 +56,7 @@
       },
       "slab_top@church" : {
          "desc[1]" : "A heavy stone slab appears to bar an exit downwards.",
-         "location" : "IN_ROOM:t_barrow",
+         "location" : "IN_ROOM:t_barrow@church",
          "oflags" : [
             "Destroyed",
             "Openable",
@@ -71,7 +71,7 @@
          "desc[0]" : "\nA heavy stone slab has been shifted to one side, allowing access down."
       },
       "lead@church" : {
-         "location" : "IN_ROOM:tower",
+         "location" : "IN_ROOM:tower@church",
          "weight" : "50",
          "name" : "lead",
          "examine" : "\nThe roofing is very heavy, being made out of lead.  Do you know any roofs that\nneed mending?",
@@ -81,7 +81,7 @@
       },
       "slab_bot@church" : {
          "desc[1]" : "A heavy stone slab seals the barrow from above.",
-         "location" : "IN_ROOM:silent",
+         "location" : "IN_ROOM:silent@church",
          "oflags" : [
             "NoGet"
          ],
@@ -94,7 +94,7 @@
          "desc[0]" : "\nA heavy stone slab has been shifted to one side, allowing access upwards."
       },
       "shroud@church" : {
-         "location" : "IN_ROOM:silent",
+         "location" : "IN_ROOM:silent@church",
          "oflags" : [
             "Wearable"
          ],
@@ -109,7 +109,7 @@
          "desc[0]" : "A silk shroud has been placed here."
       },
       "key@church" : {
-         "location" : "IN_ROOM:pulpit",
+         "location" : "IN_ROOM:pulpit@church",
          "oflags" : [
             "Key"
          ],
@@ -126,7 +126,7 @@
             "NoGet"
          ],
          "damage" : "12",
-         "location" : "IN_ROOM:bell",
+         "location" : "IN_ROOM:bell@church",
          "name" : "rope"
       }
    },
@@ -134,9 +134,9 @@
       "n_barrow@church" : {
          "exits" : {
             "e" : "gold1a@gold",
-            "w" : "NW_Barrow",
-            "n" : "BarrowLearn",
-            "s" : "Barrow"
+            "w" : "nw_barrow@church",
+            "n" : "barrowlearn@church",
+            "s" : "barrow@church"
          },
          "flags" : [
             "Outdoors"
@@ -149,9 +149,9 @@
       },
       "altar@church" : {
          "exits" : {
-            "e" : "Stairs1",
-            "n" : "Church2",
-            "s" : "Behind"
+            "e" : "stairs1@church",
+            "n" : "church2@church",
+            "s" : "behind@church"
          },
          "flags" : [],
          "zone" : "church",
@@ -162,7 +162,7 @@
       },
       "behind@church" : {
          "exits" : {
-            "n" : "Altar"
+            "n" : "altar@church"
          },
          "flags" : [],
          "zone" : "church",
@@ -173,9 +173,9 @@
       },
       "church2@church" : {
          "exits" : {
-            "w" : "Entry",
-            "n" : "Church1",
-            "s" : "Altar"
+            "w" : "entry@church",
+            "n" : "church1@church",
+            "s" : "altar@church"
          },
          "flags" : [],
          "zone" : "church",
@@ -186,9 +186,9 @@
       },
       "church1@church" : {
          "exits" : {
-            "e" : "Decaying",
+            "e" : "decaying@church",
             "n" : "way@blackknight",
-            "s" : "Church2"
+            "s" : "church2@church"
          },
          "flags" : [],
          "zone" : "church",
@@ -199,8 +199,8 @@
       },
       "g_yard2@church" : {
          "exits" : {
-            "n" : "Barrow",
-            "s" : "G_Yard"
+            "n" : "barrow@church",
+            "s" : "g_yard@church"
          },
          "flags" : [
             "Outdoors"
@@ -224,7 +224,7 @@
       },
       "barrowlearn@church" : {
          "exits" : {
-            "s" : "N_Barrow"
+            "s" : "n_barrow@church"
          },
          "flags" : [
             "Peaceful"
@@ -237,8 +237,8 @@
       },
       "entry@church" : {
          "exits" : {
-            "w" : "C_Yard",
-            "e" : "Church2"
+            "w" : "c_yard@church",
+            "e" : "church2@church"
          },
          "flags" : [],
          "zone" : "church",
@@ -249,7 +249,7 @@
       },
       "pulpit@church" : {
          "exits" : {
-            "e" : "Stairs2"
+            "e" : "stairs2@church"
          },
          "flags" : [],
          "zone" : "church",
@@ -260,8 +260,8 @@
       },
       "bells@church" : {
          "exits" : {
-            "n" : "Tower",
-            "d" : "Bell"
+            "n" : "tower@church",
+            "d" : "bell@church"
          },
          "flags" : [],
          "zone" : "church",
@@ -272,8 +272,8 @@
       },
       "tower@church" : {
          "exits" : {
-            "d" : "GiveWay",
-            "s" : "Bells"
+            "d" : "giveway@church",
+            "s" : "bells@church"
          },
          "flags" : [],
          "zone" : "church",
@@ -284,7 +284,7 @@
       },
       "decaying@church" : {
          "exits" : {
-            "w" : "Church1"
+            "w" : "church1@church"
          },
          "flags" : [],
          "zone" : "church",
@@ -295,8 +295,8 @@
       },
       "silent@church" : {
          "exits" : {
-            "e" : "Bones@abyss",
-            "u" : "^slab_bot"
+            "e" : "bones@abyss",
+            "u" : "^slab_bot@church"
          },
          "flags" : [],
          "zone" : "church",
@@ -307,8 +307,8 @@
       },
       "bell@church" : {
          "exits" : {
-            "u" : "Bells",
-            "n" : "Stairs1"
+            "u" : "bells@church",
+            "n" : "stairs1@church"
          },
          "flags" : [],
          "zone" : "church",
@@ -319,9 +319,9 @@
       },
       "barrow@church" : {
          "exits" : {
-            "e" : "T_Barrow",
-            "n" : "N_Barrow",
-            "s" : "G_Yard2"
+            "e" : "t_barrow@church",
+            "n" : "n_barrow@church",
+            "s" : "g_yard2@church"
          },
          "flags" : [
             "Outdoors"
@@ -345,10 +345,10 @@
       },
       "g_yard@church" : {
          "exits" : {
-            "w" : "Gloop",
+            "w" : "gloop@church",
             "e" : "1@saic",
-            "n" : "G_Yard2",
-            "s" : "C_Yard"
+            "n" : "g_yard2@church",
+            "s" : "c_yard@church"
          },
          "flags" : [
             "Outdoors"
@@ -361,9 +361,9 @@
       },
       "stairs2@church" : {
          "exits" : {
-            "w" : "Pulpit",
-            "u" : "GiveWay",
-            "d" : "Stairs1"
+            "w" : "pulpit@church",
+            "u" : "giveway@church",
+            "d" : "stairs1@church"
          },
          "flags" : [],
          "zone" : "church",
@@ -375,8 +375,8 @@
       "t_barrow@church" : {
          "exits" : {
             "e" : "ildharas00@ildharas",
-            "w" : "Barrow",
-            "d" : "^slab_top"
+            "w" : "barrow@church",
+            "d" : "^slab_top@church"
          },
          "flags" : [
             "Outdoors"
@@ -389,10 +389,10 @@
       },
       "stairs1@church" : {
          "exits" : {
-            "w" : "Altar",
-            "u" : "Stairs2",
-            "d" : "Crypt@Catacomb",
-            "s" : "Bell"
+            "w" : "altar@church",
+            "u" : "stairs2@church",
+            "d" : "crypt@catacomb",
+            "s" : "bell@church"
          },
          "flags" : [],
          "zone" : "church",
@@ -415,7 +415,7 @@
       },
       "nw_barrow@church" : {
          "exits" : {
-            "e" : "N_Barrow"
+            "e" : "n_barrow@church"
          },
          "flags" : [
             "Outdoors"
@@ -428,9 +428,9 @@
       },
       "c_yard@church" : {
          "exits" : {
-            "e" : "Entry",
-            "n" : "G_Yard",
-            "s" : "Path@valley"
+            "e" : "entry@church",
+            "n" : "g_yard@church",
+            "s" : "path@valley"
          },
          "flags" : [
             "Outdoors"
@@ -445,7 +445,7 @@
    "mob" : {
       "teacher@church" : {
          "damage" : "20",
-         "location" : "barrowlearn",
+         "location" : "barrowlearn@church",
          "armor" : "5",
          "name" : "teacher",
          "examine" : "\nMoog somehow notices yo looking, and directs an opaque stare at you.",
@@ -457,7 +457,7 @@
       },
       "zombie@church" : {
          "damage" : "10",
-         "location" : "church2",
+         "location" : "church2@church",
          "armor" : "0",
          "name" : "zombie",
          "description" : "A rotting zombie stomps past.",

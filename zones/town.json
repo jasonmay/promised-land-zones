@@ -1,7 +1,7 @@
 {
    "obj" : {
       "boat@town" : {
-         "location" : "IN_ROOM:town11",
+         "location" : "IN_ROOM:town11@town",
          "weight" : "10",
          "oflags" : [
             "Boat"
@@ -13,7 +13,7 @@
          "size" : "100"
       },
       "bag_waterskin@town" : {
-         "location" : "CARRIED_BY:traveler",
+         "location" : "CARRIED_BY:traveler@town",
          "oflags" : [
             "Container"
          ],
@@ -27,7 +27,7 @@
          "desc[0]" : "A small bag of water lies carelessly discarded on the ground."
       },
       "tuna@town" : {
-         "location" : "IN_ROOM:town21",
+         "location" : "IN_ROOM:town21@town",
          "weight" : "2",
          "oflags" : [
             "Food"
@@ -39,7 +39,7 @@
          "size" : "2"
       },
       "paper_paperwork@town" : {
-         "location" : "IN_ROOM:town13",
+         "location" : "IN_ROOM:town13@town",
          "oflags" : [
             "NoGet"
          ],
@@ -51,7 +51,7 @@
       },
       "boulder_door_1@town" : {
          "desc[1]" : "A large boulder blocks the exit.",
-         "location" : "IN_ROOM:town62",
+         "location" : "IN_ROOM:town62@town",
          "oflags" : [
             "NoGet"
          ],
@@ -65,7 +65,7 @@
          "desc[0]" : "A large boulder is rolled to the side, letting some light trickle in."
       },
       "ring@town" : {
-         "location" : "WORN_BY:wench",
+         "location" : "WORN_BY:wench@town",
          "oflags" : [
             "Wearable"
          ],
@@ -80,7 +80,7 @@
          "desc[0]" : "A golden ring with a small diamond is here."
       },
       "guppy@town" : {
-         "location" : "IN_ROOM:town30",
+         "location" : "IN_ROOM:town30@town",
          "weight" : "10",
          "oflags" : [
             "Food"
@@ -93,7 +93,7 @@
       },
       "knife@town" : {
          "damage" : "10",
-         "location" : "IN_ROOM:town15",
+         "location" : "IN_ROOM:town15@town",
          "oflags" : [
             "Weapon"
          ],
@@ -106,7 +106,7 @@
       },
       "staff_wizardstaff@town" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:wizard",
+         "location" : "WIELDED_BY:wizard@town",
          "oflags" : [
             "Weapon",
             "Glowing",
@@ -124,7 +124,7 @@
       },
       "knife_stiletto@town" : {
          "damage" : "6",
-         "location" : "IN_ROOM:town47",
+         "location" : "IN_ROOM:town47@town",
          "oflags" : [
             "Weapon"
          ],
@@ -138,7 +138,7 @@
          "desc[0]" : "A small, sharp stiletto lies on the ground."
       },
       "horseshoe@town" : {
-         "location" : "IN_ROOM:town40",
+         "location" : "IN_ROOM:town40@town",
          "weight" : "3",
          "oflags" : [
             "Hitchance"
@@ -150,7 +150,7 @@
          "size" : "3"
       },
       "dried_meat@town" : {
-         "location" : "IN_ROOM:town51",
+         "location" : "IN_ROOM:town51@town",
          "oflags" : [
             "Food"
          ],
@@ -164,7 +164,7 @@
          "desc[0]" : "A dried piece of meat lies here."
       },
       "coins@town" : {
-         "location" : "IN_ROOM:town36",
+         "location" : "IN_ROOM:town36@town",
          "weight" : "10",
          "name" : "coins",
          "examine" : "They appear to be gold.\n",
@@ -174,7 +174,7 @@
       },
       "leather_whip@town" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:wench",
+         "location" : "WIELDED_BY:wench@town",
          "oflags" : [
             "Weapon"
          ],
@@ -189,7 +189,7 @@
       },
       "dart@town" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:assassin",
+         "location" : "WIELDED_BY:assassin@town",
          "oflags" : [
             "Weapon"
          ],
@@ -201,7 +201,7 @@
          "desc[0]" : "A rather sharp dart sits here."
       },
       "pack_backpack@town" : {
-         "location" : "IN_ROOM:town9",
+         "location" : "IN_ROOM:town9@town",
          "oflags" : [
             "Container",
             "Wearable"
@@ -219,7 +219,7 @@
          ]
       },
       "whiskey@town" : {
-         "location" : "CARRIED_BY:mercenary",
+         "location" : "CARRIED_BY:mercenary@town",
          "weight" : "10",
          "oflags" : [
             "Food",
@@ -233,7 +233,7 @@
       },
       "sword_bastardsword@town" : {
          "damage" : "15",
-         "location" : "WIELDED_BY:veteran",
+         "location" : "WIELDED_BY:veteran@town",
          "oflags" : [
             "Weapon"
          ],
@@ -248,7 +248,7 @@
       },
       "boulder_door@town" : {
          "desc[1]" : "A large boulder seems to be covering a hole in the mountainside.",
-         "location" : "IN_ROOM:town61",
+         "location" : "IN_ROOM:town61@town",
          "oflags" : [
             "Pushable",
             "NoGet"
@@ -266,8 +266,8 @@
    "loc" : {
       "town23@town" : {
          "exits" : {
-            "n" : "town22",
-            "s" : "town24"
+            "n" : "town22@town",
+            "s" : "town24@town"
          },
          "flags" : [],
          "zone" : "town",
@@ -278,8 +278,8 @@
       },
       "town54@town" : {
          "exits" : {
-            "n" : "town55",
-            "s" : "town50"
+            "n" : "town55@town",
+            "s" : "town50@town"
          },
          "flags" : [
             "Outdoors"
@@ -292,8 +292,8 @@
       },
       "town18@town" : {
          "exits" : {
-            "e" : "town15",
-            "n" : "town19"
+            "e" : "town15@town",
+            "n" : "town19@town"
          },
          "flags" : [
             "Outdoors"
@@ -306,10 +306,10 @@
       },
       "town25@town" : {
          "exits" : {
-            "w" : "town38",
-            "e" : "town20",
-            "n" : "town24",
-            "s" : "town26"
+            "w" : "town38@town",
+            "e" : "town20@town",
+            "n" : "town24@town",
+            "s" : "town26@town"
          },
          "flags" : [
             "Outdoors"
@@ -322,7 +322,7 @@
       },
       "town14@town" : {
          "exits" : {
-            "e" : "town9"
+            "e" : "town9@town"
          },
          "flags" : [],
          "zone" : "town",
@@ -333,8 +333,8 @@
       },
       "town2@town" : {
          "exits" : {
-            "w" : "town3",
-            "e" : "town1"
+            "w" : "town3@town",
+            "e" : "town1@town"
          },
          "flags" : [
             "Outdoors",
@@ -348,9 +348,9 @@
       },
       "town37@town" : {
          "exits" : {
-            "e" : "town26",
-            "n" : "town38",
-            "s" : "town35"
+            "e" : "town26@town",
+            "n" : "town38@town",
+            "s" : "town35@town"
          },
          "flags" : [
             "Outdoors"
@@ -363,8 +363,8 @@
       },
       "town29@town" : {
          "exits" : {
-            "w" : "town30",
-            "d" : "town17"
+            "w" : "town30@town",
+            "d" : "town17@town"
          },
          "flags" : [
             "Outdoors"
@@ -377,10 +377,10 @@
       },
       "town58@town" : {
          "exits" : {
-            "w" : "town59",
-            "e" : "town57",
-            "n" : "town58",
-            "s" : "town56"
+            "w" : "town59@town",
+            "e" : "town57@town",
+            "n" : "town58@town",
+            "s" : "town56@town"
          },
          "flags" : [
             "Outdoors"
@@ -393,8 +393,8 @@
       },
       "town42@town" : {
          "exits" : {
-            "w" : "town43",
-            "e" : "town41",
+            "w" : "town43@town",
+            "e" : "town41@town",
             "s" : "chlyon2@chlyon"
          },
          "flags" : [
@@ -408,10 +408,10 @@
       },
       "town35@town" : {
          "exits" : {
-            "w" : "town36",
-            "e" : "town27",
-            "u" : "town33",
-            "n" : "town37"
+            "w" : "town36@town",
+            "e" : "town27@town",
+            "u" : "town33@town",
+            "n" : "town37@town"
          },
          "flags" : [
             "Party",
@@ -426,8 +426,8 @@
       },
       "town52@town" : {
          "exits" : {
-            "w" : "town51",
-            "e" : "town53"
+            "w" : "town51@town",
+            "e" : "town53@town"
          },
          "flags" : [
             "Outdoors"
@@ -440,9 +440,9 @@
       },
       "town39@town" : {
          "exits" : {
-            "e" : "town24",
-            "n" : "town40",
-            "s" : "town38"
+            "e" : "town24@town",
+            "n" : "town40@town",
+            "s" : "town38@town"
          },
          "flags" : [
             "Outdoors"
@@ -455,9 +455,9 @@
       },
       "town27@town" : {
          "exits" : {
-            "w" : "town35",
-            "n" : "town26",
-            "s" : "town28"
+            "w" : "town35@town",
+            "n" : "town26@town",
+            "s" : "town28@town"
          },
          "flags" : [],
          "zone" : "town",
@@ -468,8 +468,8 @@
       },
       "town60@town" : {
          "exits" : {
-            "u" : "town61",
-            "d" : "town59"
+            "u" : "town61@town",
+            "d" : "town59@town"
          },
          "flags" : [
             "Outdoors"
@@ -482,10 +482,10 @@
       },
       "town38@town" : {
          "exits" : {
-            "w" : "town41",
-            "e" : "town25",
-            "n" : "town39",
-            "s" : "town37"
+            "w" : "town41@town",
+            "e" : "town25@town",
+            "n" : "town39@town",
+            "s" : "town37@town"
          },
          "flags" : [
             "Outdoors"
@@ -498,8 +498,8 @@
       },
       "town3@town" : {
          "exits" : {
-            "w" : "town4",
-            "e" : "town2"
+            "w" : "town4@town",
+            "e" : "town2@town"
          },
          "flags" : [
             "Outdoors",
@@ -513,10 +513,10 @@
       },
       "town24@town" : {
          "exits" : {
-            "w" : "town39",
-            "e" : "town21",
-            "n" : "town23",
-            "s" : "town25"
+            "w" : "town39@town",
+            "e" : "town21@town",
+            "n" : "town23@town",
+            "s" : "town25@town"
          },
          "flags" : [
             "Outdoors"
@@ -529,7 +529,7 @@
       },
       "town6@town" : {
          "exits" : {
-            "s" : "town5"
+            "s" : "town5@town"
          },
          "flags" : [
             "Outdoors",
@@ -543,8 +543,8 @@
       },
       "town21@town" : {
          "exits" : {
-            "w" : "town24",
-            "s" : "town20"
+            "w" : "town24@town",
+            "s" : "town20@town"
          },
          "flags" : [],
          "zone" : "town",
@@ -555,7 +555,7 @@
       },
       "town40@town" : {
          "exits" : {
-            "s" : "town39"
+            "s" : "town39@town"
          },
          "flags" : [],
          "zone" : "town",
@@ -566,8 +566,8 @@
       },
       "town4@town" : {
          "exits" : {
-            "w" : "town5",
-            "e" : "town3"
+            "w" : "town5@town",
+            "e" : "town3@town"
          },
          "flags" : [
             "Outdoors",
@@ -581,9 +581,9 @@
       },
       "town50@town" : {
          "exits" : {
-            "e" : "town51",
-            "n" : "town54",
-            "s" : "town48"
+            "e" : "town51@town",
+            "n" : "town54@town",
+            "s" : "town48@town"
          },
          "flags" : [
             "Outdoors"
@@ -596,10 +596,10 @@
       },
       "town49@town" : {
          "exits" : {
-            "w" : "town56",
-            "e" : "town48",
-            "n" : "town56",
-            "s" : "town57"
+            "w" : "town56@town",
+            "e" : "town48@town",
+            "n" : "town56@town",
+            "s" : "town57@town"
          },
          "flags" : [
             "Outdoors",
@@ -614,8 +614,8 @@
       "town43@town" : {
          "exits" : {
             "w" : "app1@app",
-            "e" : "town42",
-            "n" : "town44"
+            "e" : "town42@town",
+            "n" : "town44@town"
          },
          "flags" : [
             "Outdoors"
@@ -628,8 +628,8 @@
       },
       "town33@town" : {
          "exits" : {
-            "d" : "town35",
-            "s" : "town32"
+            "d" : "town35@town",
+            "s" : "town32@town"
          },
          "flags" : [],
          "zone" : "town",
@@ -640,8 +640,8 @@
       },
       "town30@town" : {
          "exits" : {
-            "w" : "town32",
-            "e" : "town29"
+            "w" : "town32@town",
+            "e" : "town29@town"
          },
          "flags" : [],
          "zone" : "town",
@@ -652,8 +652,8 @@
       },
       "town44@town" : {
          "exits" : {
-            "n" : "town45",
-            "s" : "town43"
+            "n" : "town45@town",
+            "s" : "town43@town"
          },
          "flags" : [
             "Outdoors"
@@ -666,10 +666,10 @@
       },
       "town32@town" : {
          "exits" : {
-            "w" : "town34",
-            "e" : "town30",
-            "n" : "town33",
-            "s" : "town31"
+            "w" : "town34@town",
+            "e" : "town30@town",
+            "n" : "town33@town",
+            "s" : "town31@town"
          },
          "flags" : [],
          "zone" : "town",
@@ -680,10 +680,10 @@
       },
       "town12@town" : {
          "exits" : {
-            "w" : "town20",
-            "e" : "town10",
-            "n" : "town13",
-            "s" : "town11"
+            "w" : "town20@town",
+            "e" : "town10@town",
+            "n" : "town13@town",
+            "s" : "town11@town"
          },
          "flags" : [
             "Outdoors"
@@ -697,7 +697,7 @@
       "town55@town" : {
          "exits" : {
             "n" : "pensalon6@pensalon",
-            "s" : "town54"
+            "s" : "town54@town"
          },
          "flags" : [
             "Outdoors",
@@ -711,8 +711,8 @@
       },
       "town16@town" : {
          "exits" : {
-            "w" : "town17",
-            "n" : "town15"
+            "w" : "town17@town",
+            "n" : "town15@town"
          },
          "flags" : [
             "Outdoors"
@@ -725,8 +725,8 @@
       },
       "town61@town" : {
          "exits" : {
-            "n" : "^boulder_door",
-            "d" : "town60"
+            "n" : "^boulder_door@town",
+            "d" : "town60@town"
          },
          "flags" : [
             "Outdoors"
@@ -739,10 +739,10 @@
       },
       "town56@town" : {
          "exits" : {
-            "w" : "town58",
-            "e" : "town58",
-            "n" : "town57",
-            "s" : "town49"
+            "w" : "town58@town",
+            "e" : "town58@town",
+            "n" : "town57@town",
+            "s" : "town49@town"
          },
          "flags" : [
             "Outdoors"
@@ -755,8 +755,8 @@
       },
       "town17@town" : {
          "exits" : {
-            "e" : "town16",
-            "u" : "town29"
+            "e" : "town16@town",
+            "u" : "town29@town"
          },
          "flags" : [
             "Outdoors"
@@ -769,7 +769,7 @@
       },
       "town63@town" : {
          "exits" : {
-            "s" : "town62"
+            "s" : "town62@town"
          },
          "flags" : [
             "Dark"
@@ -782,8 +782,8 @@
       },
       "town7@town" : {
          "exits" : {
-            "n" : "town5",
-            "s" : "town8"
+            "n" : "town5@town",
+            "s" : "town8@town"
          },
          "flags" : [
             "Outdoors",
@@ -797,8 +797,8 @@
       },
       "town41@town" : {
          "exits" : {
-            "w" : "town42",
-            "e" : "town38"
+            "w" : "town42@town",
+            "e" : "town38@town"
          },
          "flags" : [
             "Outdoors",
@@ -812,10 +812,10 @@
       },
       "town20@town" : {
          "exits" : {
-            "w" : "town25",
-            "e" : "town12",
-            "n" : "town21",
-            "s" : "town19"
+            "w" : "town25@town",
+            "e" : "town12@town",
+            "n" : "town21@town",
+            "s" : "town19@town"
          },
          "flags" : [
             "Outdoors"
@@ -828,8 +828,8 @@
       },
       "town15@town" : {
          "exits" : {
-            "w" : "town18",
-            "s" : "town16"
+            "w" : "town18@town",
+            "s" : "town16@town"
          },
          "flags" : [],
          "zone" : "town",
@@ -840,8 +840,8 @@
       },
       "town59@town" : {
          "exits" : {
-            "u" : "town60",
-            "d" : "town58"
+            "u" : "town60@town",
+            "d" : "town58@town"
          },
          "flags" : [
             "Outdoors"
@@ -854,7 +854,7 @@
       },
       "town22@town" : {
          "exits" : {
-            "s" : "town23"
+            "s" : "town23@town"
          },
          "flags" : [],
          "zone" : "town",
@@ -866,7 +866,7 @@
       "town53@town" : {
          "exits" : {
             "e" : "saxon26@saxon",
-            "w" : "town52"
+            "w" : "town52@town"
          },
          "flags" : [
             "Outdoors"
@@ -879,10 +879,10 @@
       },
       "town5@town" : {
          "exits" : {
-            "w" : "town10",
-            "e" : "town4",
-            "n" : "town6",
-            "s" : "town7"
+            "w" : "town10@town",
+            "e" : "town4@town",
+            "n" : "town6@town",
+            "s" : "town7@town"
          },
          "flags" : [
             "Outdoors",
@@ -896,8 +896,8 @@
       },
       "town45@town" : {
          "exits" : {
-            "n" : "town46",
-            "s" : "town44"
+            "n" : "town46@town",
+            "s" : "town44@town"
          },
          "flags" : [
             "Outdoors"
@@ -910,7 +910,7 @@
       },
       "town13@town" : {
          "exits" : {
-            "s" : "town12"
+            "s" : "town12@town"
          },
          "flags" : [],
          "zone" : "town",
@@ -921,9 +921,9 @@
       },
       "town48@town" : {
          "exits" : {
-            "w" : "town49",
-            "n" : "town50",
-            "s" : "town46"
+            "w" : "town49@town",
+            "n" : "town50@town",
+            "s" : "town46@town"
          },
          "flags" : [
             "Outdoors"
@@ -937,7 +937,7 @@
       "town11@town" : {
          "exits" : {
             "w" : "cottage18@cottage",
-            "n" : "town12",
+            "n" : "town12@town",
             "d" : "cottage18@cottage"
          },
          "flags" : [
@@ -951,7 +951,7 @@
       },
       "town31@town" : {
          "exits" : {
-            "n" : "town32"
+            "n" : "town32@town"
          },
          "flags" : [],
          "zone" : "town",
@@ -962,7 +962,7 @@
       },
       "town47@town" : {
          "exits" : {
-            "w" : "town46"
+            "w" : "town46@town"
          },
          "flags" : [
             "Outdoors",
@@ -976,7 +976,7 @@
       },
       "town36@town" : {
          "exits" : {
-            "e" : "town35"
+            "e" : "town35@town"
          },
          "flags" : [],
          "zone" : "town",
@@ -987,7 +987,7 @@
       },
       "town28@town" : {
          "exits" : {
-            "n" : "town27"
+            "n" : "town27@town"
          },
          "flags" : [],
          "zone" : "town",
@@ -998,9 +998,9 @@
       },
       "town46@town" : {
          "exits" : {
-            "e" : "town47",
-            "n" : "town48",
-            "s" : "town45"
+            "e" : "town47@town",
+            "n" : "town48@town",
+            "s" : "town45@town"
          },
          "flags" : [
             "Outdoors"
@@ -1013,9 +1013,9 @@
       },
       "town57@town" : {
          "exits" : {
-            "e" : "town58",
-            "n" : "town57",
-            "s" : "town56"
+            "e" : "town58@town",
+            "n" : "town57@town",
+            "s" : "town56@town"
          },
          "flags" : [
             "Outdoors"
@@ -1028,7 +1028,7 @@
       },
       "town34@town" : {
          "exits" : {
-            "e" : "town32"
+            "e" : "town32@town"
          },
          "flags" : [
             "Party",
@@ -1043,8 +1043,8 @@
       },
       "town8@town" : {
          "exits" : {
-            "n" : "town7",
-            "s" : "town9"
+            "n" : "town7@town",
+            "s" : "town9@town"
          },
          "flags" : [
             "Outdoors"
@@ -1057,8 +1057,8 @@
       },
       "town62@town" : {
          "exits" : {
-            "n" : "town63",
-            "s" : "^boulder_door_1"
+            "n" : "town63@town",
+            "s" : "^boulder_door_1@town"
          },
          "flags" : [
             "Dark"
@@ -1071,9 +1071,9 @@
       },
       "town26@town" : {
          "exits" : {
-            "w" : "town37",
-            "n" : "town25",
-            "s" : "town27"
+            "w" : "town37@town",
+            "n" : "town25@town",
+            "s" : "town27@town"
          },
          "flags" : [
             "Outdoors"
@@ -1086,8 +1086,8 @@
       },
       "town10@town" : {
          "exits" : {
-            "w" : "town12",
-            "e" : "town5"
+            "w" : "town12@town",
+            "e" : "town5@town"
          },
          "flags" : [
             "Outdoors"
@@ -1100,7 +1100,7 @@
       },
       "town1@town" : {
          "exits" : {
-            "w" : "town2",
+            "w" : "town2@town",
             "e" : "beach10@beach"
          },
          "flags" : [
@@ -1115,8 +1115,8 @@
       },
       "town9@town" : {
          "exits" : {
-            "w" : "town14",
-            "n" : "town8"
+            "w" : "town14@town",
+            "n" : "town8@town"
          },
          "flags" : [
             "Outdoors"
@@ -1129,8 +1129,8 @@
       },
       "town51@town" : {
          "exits" : {
-            "w" : "town50",
-            "e" : "town52"
+            "w" : "town50@town",
+            "e" : "town52@town"
          },
          "flags" : [
             "Outdoors",
@@ -1144,8 +1144,8 @@
       },
       "town19@town" : {
          "exits" : {
-            "n" : "town20",
-            "s" : "town18"
+            "n" : "town20@town",
+            "s" : "town18@town"
          },
          "flags" : [
             "Outdoors"
@@ -1160,7 +1160,7 @@
    "mob" : {
       "raider@town" : {
          "damage" : "10",
-         "location" : "town47",
+         "location" : "town47@town",
          "speed" : "0",
          "aggression" : "5",
          "armor" : "0",
@@ -1174,7 +1174,7 @@
             "Shock"
          ],
          "damage" : "10",
-         "location" : "town52",
+         "location" : "town52@town",
          "armor" : "0",
          "name" : "mage",
          "description" : "A hired mage prepares to help the Ambusher kill you.",
@@ -1188,7 +1188,7 @@
       },
       "ambusher@town" : {
          "damage" : "10",
-         "location" : "town52",
+         "location" : "town52@town",
          "speed" : "0",
          "aggression" : "7",
          "armor" : "0",
@@ -1199,7 +1199,7 @@
       },
       "assassin@town" : {
          "damage" : "10",
-         "location" : "town38",
+         "location" : "town38@town",
          "speed" : "5",
          "aggression" : "6",
          "armor" : "0",
@@ -1210,7 +1210,7 @@
       },
       "thief@town" : {
          "damage" : "10",
-         "location" : "town9",
+         "location" : "town9@town",
          "armor" : "0",
          "name" : "thief",
          "description" : "A sly thief lurks in the corners waiting to steal everything you have.",
@@ -1224,7 +1224,7 @@
       },
       "clerk@town" : {
          "damage" : "10",
-         "location" : "town21",
+         "location" : "town21@town",
          "speed" : "5",
          "aggression" : "20",
          "armor" : "0",
@@ -1235,7 +1235,7 @@
       },
       "wench@town" : {
          "damage" : "10",
-         "location" : "town34",
+         "location" : "town34@town",
          "armor" : "0",
          "name" : "wench",
          "description" : "The Lustful Wench lies here waiting for fulfillment.",
@@ -1249,7 +1249,7 @@
       },
       "krakken@town" : {
          "damage" : "10",
-         "location" : "town1",
+         "location" : "town1@town",
          "armor" : "0",
          "name" : "krakken",
          "description" : "A giant Krakken sits here ready to bash all boats that pass to a pulp!",
@@ -1263,7 +1263,7 @@
       },
       "traveler@town" : {
          "damage" : "10",
-         "location" : "town54",
+         "location" : "town54@town",
          "speed" : "5",
          "aggression" : "26",
          "armor" : "0",
@@ -1274,7 +1274,7 @@
       },
       "veteran@town" : {
          "damage" : "10",
-         "location" : "town22",
+         "location" : "town22@town",
          "speed" : "5",
          "aggression" : "2",
          "armor" : "0",
@@ -1285,7 +1285,7 @@
       },
       "mercenary@town" : {
          "damage" : "10",
-         "location" : "town27",
+         "location" : "town27@town",
          "speed" : "5",
          "aggression" : "3",
          "armor" : "0",
@@ -1300,7 +1300,7 @@
             "Fireball"
          ],
          "damage" : "10",
-         "location" : "town63",
+         "location" : "town63@town",
          "armor" : "0",
          "name" : "wizard",
          "description" : "An old and very wise wizard sits here in the cave, studying an old tome.",

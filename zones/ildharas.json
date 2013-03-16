@@ -2,7 +2,7 @@
    "obj" : {
       "cell_door_46s@ildharas" : {
          "desc[1]" : "The cell door is closed.",
-         "location" : "IN_ROOM:ildharas45",
+         "location" : "IN_ROOM:ildharas45@ildharas",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -17,7 +17,7 @@
          "desc[0]" : "The cell door is open."
       },
       "paintings@ildharas" : {
-         "location" : "IN_ROOM:ildharas20",
+         "location" : "IN_ROOM:ildharas20@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -28,7 +28,7 @@
       },
       "bowl@ildharas" : {
          "desc[1]" : "A golden bowl lies under the table.",
-         "location" : "IN_ROOM:ildharas32",
+         "location" : "IN_ROOM:ildharas32@ildharas",
          "oflags" : [
             "GetFlips"
          ],
@@ -44,7 +44,7 @@
       },
       "cell_door_51@ildharas" : {
          "desc[1]" : "The northern cell door is closed.",
-         "location" : "IN_ROOM:ildharas52",
+         "location" : "IN_ROOM:ildharas52@ildharas",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -60,7 +60,7 @@
          "desc[0]" : "The northern cell door is open."
       },
       "yorjudek_door_1@ildharas" : {
-         "location" : "IN_ROOM:ildharas49",
+         "location" : "IN_ROOM:ildharas49@ildharas",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -74,7 +74,7 @@
       },
       "cell_door_45@ildharas" : {
          "desc[1]" : "The southern cell door is closed.",
-         "location" : "IN_ROOM:ildharas46",
+         "location" : "IN_ROOM:ildharas46@ildharas",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -91,7 +91,7 @@
       },
       "force63@ildharas" : {
          "desc[1]" : "A powerful force field blocks your way, you can only stand and watch.",
-         "location" : "IN_ROOM:ildharas62",
+         "location" : "IN_ROOM:ildharas62@ildharas",
          "oflags" : [
             "Noget"
          ],
@@ -103,7 +103,7 @@
       },
       "cell_door_47@ildharas" : {
          "desc[1]" : "The northern cell door is closed.",
-         "location" : "IN_ROOM:ildharas46",
+         "location" : "IN_ROOM:ildharas46@ildharas",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -119,7 +119,7 @@
          "desc[0]" : "The northern cell door is open."
       },
       "crown@ildharas" : {
-         "location" : "IN_CONTAINER:satchel",
+         "location" : "IN_CONTAINER:satchel@ildharas",
          "oflags" : [
             "Wearable"
          ],
@@ -135,7 +135,7 @@
       },
       "candelabra@ildharas" : {
          "desc[1]" : "A strange candelabra sits by the desk, it's candles casting a rich light\nabout the room.",
-         "location" : "IN_ROOM:ildharas58",
+         "location" : "IN_ROOM:ildharas58@ildharas",
          "oflags" : [
             "GetFlips",
             "Lightable",
@@ -154,7 +154,7 @@
       },
       "iron_door_2@ildharas" : {
          "desc[1]" : "The doors are closed.",
-         "location" : "IN_ROOM:ildharas62",
+         "location" : "IN_ROOM:ildharas62@ildharas",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -168,7 +168,7 @@
       },
       "ring_signet@ildharas" : {
          "desc[1]" : "A signet ring lies on the table.",
-         "location" : "IN_ROOM:ildharas58",
+         "location" : "IN_ROOM:ildharas58@ildharas",
          "oflags" : [
             "Wearable",
             "GetFlips"
@@ -183,7 +183,7 @@
       },
       "king_door_2@ildharas" : {
          "desc[1]" : "The king's door is closed.",
-         "location" : "IN_ROOM:ildharas41",
+         "location" : "IN_ROOM:ildharas41@ildharas",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -198,7 +198,7 @@
          "desc[0]" : "The king's door is open."
       },
       "page_torn@ildharas" : {
-         "location" : "IN_ROOM:ildharas23",
+         "location" : "IN_ROOM:ildharas23@ildharas",
          "oflags" : "{  }",
          "altname" : "torn",
          "name" : "page_torn",
@@ -210,7 +210,7 @@
       },
       "iron_door_1@ildharas" : {
          "desc[1]" : "The doors are closed.",
-         "location" : "IN_ROOM:ildharas61",
+         "location" : "IN_ROOM:ildharas61@ildharas",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -223,7 +223,7 @@
          "desc[0]" : "The doors are open."
       },
       "sign@ildharas" : {
-         "location" : "IN_ROOM:ildharas49",
+         "location" : "IN_ROOM:ildharas49@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -233,7 +233,7 @@
          "desc[0]" : "A sign has been posted on the southern wall."
       },
       "area@ildharas" : {
-         "location" : "IN_ROOM:ildharas21",
+         "location" : "IN_ROOM:ildharas21@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -243,7 +243,7 @@
          "examine" : " \nThe flames were so hot they melted the stone around them.  Certainly not an \nordinary blaze."
       },
       "sigil@ildharas" : {
-         "location" : "IN_ROOM:ildharas63",
+         "location" : "IN_ROOM:ildharas63@ildharas",
          "oflags" : [
             "NoGet",
             "Container"
@@ -258,7 +258,7 @@
          "maxstate" : "1"
       },
       "ruby@ildharas" : {
-         "location" : "IN_ROOM:ildharas55",
+         "location" : "IN_ROOM:ildharas55@ildharas",
          "oflags" : "{ }",
          "altname" : "large",
          "name" : "ruby",
@@ -271,7 +271,7 @@
       "demonslayer@ildharas" : {
          "desc[1]" : "Lusitan's Demonslayer lies gleaming on the desk.",
          "damage" : "25",
-         "location" : "IN_ROOM:ildharas58",
+         "location" : "IN_ROOM:ildharas58@ildharas",
          "oflags" : [
             "Weapon",
             "GetFlips"
@@ -289,7 +289,7 @@
       },
       "cell_door_49@ildharas" : {
          "desc[1]" : "The cell door is closed.",
-         "location" : "IN_ROOM:ildharas48",
+         "location" : "IN_ROOM:ildharas48@ildharas",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -304,7 +304,7 @@
          "desc[0]" : "The cell door is open."
       },
       "junk@ildharas" : {
-         "location" : "IN_ROOM:ildharas12",
+         "location" : "IN_ROOM:ildharas12@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -317,7 +317,7 @@
       },
       "stick@ildharas" : {
          "damage" : "5",
-         "location" : "WIELDED_BY:Ardast",
+         "location" : "WIELDED_BY:ardast@ildharas",
          "oflags" : [
             "Weapon",
             "Lightable",
@@ -332,7 +332,7 @@
          "desc[0]" : "A gnarled stick lies here."
       },
       "map@ildharas" : {
-         "location" : "IN_ROOM:ildharas31",
+         "location" : "IN_ROOM:ildharas31@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -342,7 +342,7 @@
       },
       "medallion@ildharas" : {
          "damage" : "0",
-         "location" : "WORN_BY:Maric",
+         "location" : "WORN_BY:maric@ildharas",
          "oflags" : [
             "Armor",
             "Wearable"
@@ -361,7 +361,7 @@
       },
       "coins@ildharas" : {
          "desc[1]" : "Some gold coins lie scattered on the table.",
-         "location" : "IN_ROOM:ildharas66",
+         "location" : "IN_ROOM:ildharas66@ildharas",
          "oflags" : [
             "GetFlips"
          ],
@@ -376,7 +376,7 @@
          "desc[0]" : "Some gold coins lie scattered upon the ground."
       },
       "yorjudek_door_2@ildharas" : {
-         "location" : "IN_ROOM:ildharas50",
+         "location" : "IN_ROOM:ildharas50@ildharas",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -389,7 +389,7 @@
          "desc[0]" : "The northern wall has vanished, allowing you to exit the cell."
       },
       "letters@ildharas" : {
-         "location" : "IN_ROOM:ildharas33",
+         "location" : "IN_ROOM:ildharas33@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -399,7 +399,7 @@
          "examine" : " \nLooks like I've won, Lusitan.  I've killed your legend. --Falathzar"
       },
       "statue@ildharas" : {
-         "location" : "IN_ROOM:ildharas22",
+         "location" : "IN_ROOM:ildharas22@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -410,7 +410,7 @@
          "desc[0]" : "The statue of Lusitan witnesses all that happens in the hall.\nThough it's covered with urine and feces, you still feel a sense of awe."
       },
       "stair_door_22@ildharas" : {
-         "location" : "IN_ROOM:ildharas56",
+         "location" : "IN_ROOM:ildharas56@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -423,7 +423,7 @@
       },
       "starstone@ildharas" : {
          "desc[1]" : "Lying on the desk to one side is a reddish starstone.",
-         "location" : "IN_ROOM:ildharas41",
+         "location" : "IN_ROOM:ildharas41@ildharas",
          "oflags" : [
             "Glowing",
             "GetFlips"
@@ -438,7 +438,7 @@
          "desc[0]" : "A reddish starstone lies here, emitting a soft light."
       },
       "cards@ildharas" : {
-         "location" : "IN_ROOM:ildharas41",
+         "location" : "IN_ROOM:ildharas41@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -448,7 +448,7 @@
          "examine" : " \nThe reading starts with hope but then becomes rather grim.  The Two of \nSwords lies in the conclusionary position."
       },
       "walls@ildharas" : {
-         "location" : "IN_ROOM:ildharas55",
+         "location" : "IN_ROOM:ildharas55@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -458,7 +458,7 @@
          "examine" : "The breaks correspond perfectly to the breaches outside.\n"
       },
       "chink@ildharas" : {
-         "location" : "IN_ROOM:ildharas49",
+         "location" : "IN_ROOM:ildharas49@ildharas",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -472,7 +472,7 @@
       },
       "journal@ildharas" : {
          "desc[1]" : "A journal lies open on the table.",
-         "location" : "IN_ROOM:ildharas66",
+         "location" : "IN_ROOM:ildharas66@ildharas",
          "oflags" : [
             "GetFlips"
          ],
@@ -502,7 +502,7 @@
       "dagger@ildharas" : {
          "desc[1]" : "A flame-bladed dagger lies where it was dropped.",
          "damage" : "18",
-         "location" : "IN_ROOM:ildharas30",
+         "location" : "IN_ROOM:ildharas30@ildharas",
          "oflags" : [
             "Weapon",
             "GetFlips"
@@ -519,7 +519,7 @@
          "desc[0]" : "A flame-bladed dagger lies discarded next to the stain, covered in blood."
       },
       "parchment@ildharas" : {
-         "location" : "IN_ROOM:ildharas58",
+         "location" : "IN_ROOM:ildharas58@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -529,7 +529,7 @@
          "desc[0]" : "A parchment has been left on the table."
       },
       "stair_door_56@ildharas" : {
-         "location" : "IN_ROOM:ildharas22",
+         "location" : "IN_ROOM:ildharas22@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -543,7 +543,7 @@
       },
       "cell_door_48@ildharas" : {
          "desc[1]" : "The northern cell door is closed.",
-         "location" : "IN_ROOM:ildharas49",
+         "location" : "IN_ROOM:ildharas49@ildharas",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -559,7 +559,7 @@
          "desc[0]" : "The northern cell door is open."
       },
       "treasures@ildharas" : {
-         "location" : "IN_ROOM:ildharas21",
+         "location" : "IN_ROOM:ildharas21@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -569,7 +569,7 @@
          "examine" : " \nThe destruction was systematic.  You can find nothing of value, or even \nintact, for that matter."
       },
       "croissant@ildharas" : {
-         "location" : "IN_ROOM:ildharas32",
+         "location" : "IN_ROOM:ildharas32@ildharas",
          "oflags" : [
             "Food"
          ],
@@ -581,7 +581,7 @@
          "size" : "1"
       },
       "necklace_golden@ildharas" : {
-         "location" : "IN_CONTAINER:satchel",
+         "location" : "IN_CONTAINER:satchel@ildharas",
          "oflags" : [
             "Wearable"
          ],
@@ -594,7 +594,7 @@
          "desc[0]" : "A golden necklace lies here, glittering with rubies."
       },
       "bodies@ildharas" : {
-         "location" : "IN_ROOM:ildharas55",
+         "location" : "IN_ROOM:ildharas55@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -604,7 +604,7 @@
          "examine" : "Dead bodies everywhere!  A gruesome sight--what did you expect?\n"
       },
       "page_crumpled@ildharas" : {
-         "location" : "IN_ROOM:ildharas23",
+         "location" : "IN_ROOM:ildharas23@ildharas",
          "oflags" : "{  }",
          "altname" : "crumpled",
          "name" : "page_crumpled",
@@ -615,7 +615,7 @@
          "desc[0]" : "\nA crumpled page lies nearby."
       },
       "wall_outer@ildharas" : {
-         "location" : "IN_ROOM:ildharas07",
+         "location" : "IN_ROOM:ildharas07@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -625,7 +625,7 @@
       },
       "king_door_1@ildharas" : {
          "desc[1]" : "The door to the king's chambers is closed.",
-         "location" : "IN_ROOM:ildharas38",
+         "location" : "IN_ROOM:ildharas38@ildharas",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -640,7 +640,7 @@
          "desc[0]" : "The door to the king's chambers is open."
       },
       "floor@ildharas" : {
-         "location" : "IN_ROOM:ildharas54",
+         "location" : "IN_ROOM:ildharas54@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -650,7 +650,7 @@
       },
       "cell_door_52@ildharas" : {
          "desc[1]" : "The cell door is closed.",
-         "location" : "IN_ROOM:ildharas51",
+         "location" : "IN_ROOM:ildharas51@ildharas",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -666,7 +666,7 @@
       },
       "roll@ildharas" : {
          "desc[1]" : "A small buttered roll lies atop a dirty plate.",
-         "location" : "IN_ROOM:ildharas32",
+         "location" : "IN_ROOM:ildharas32@ildharas",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -683,7 +683,7 @@
       },
       "cell_door_46n@ildharas" : {
          "desc[1]" : "The cell door is closed.",
-         "location" : "IN_ROOM:ildharas47",
+         "location" : "IN_ROOM:ildharas47@ildharas",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -698,7 +698,7 @@
          "desc[0]" : "The cell door is open."
       },
       "project@ildharas" : {
-         "location" : "IN_ROOM:ildharas16",
+         "location" : "IN_ROOM:ildharas16@ildharas",
          "oflags" : "{  }",
          "pname" : "project",
          "name" : "project",
@@ -708,7 +708,7 @@
          "size" : "1"
       },
       "pile@ildharas" : {
-         "location" : "IN_ROOM:ildharas42",
+         "location" : "IN_ROOM:ildharas42@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -718,7 +718,7 @@
          "examine" : "The pile has already been gone through."
       },
       "satchel@ildharas" : {
-         "location" : "WORN_BY:Periol",
+         "location" : "WORN_BY:periol@ildharas",
          "oflags" : [
             "Wearable",
             "Container",
@@ -736,7 +736,7 @@
          "desc[0]" : "A large satchel sits on the floor."
       },
       "carpet@ildharas" : {
-         "location" : "IN_ROOM:ildharas30",
+         "location" : "IN_ROOM:ildharas30@ildharas",
          "oflags" : [
             "NoGet"
          ],
@@ -747,7 +747,7 @@
       },
       "sign_wiz@ildharas" : {
          "visibility" : "25",
-         "location" : "IN_ROOM:ildharas00",
+         "location" : "IN_ROOM:ildharas00@ildharas",
          "oflags" : [
             "Noget"
          ],
@@ -760,9 +760,9 @@
    "loc" : {
       "ildharas37@ildharas" : {
          "exits" : {
-            "n" : "ildharas40",
-            "d" : "ildharas23",
-            "s" : "ildharas35"
+            "n" : "ildharas40@ildharas",
+            "d" : "ildharas23@ildharas",
+            "s" : "ildharas35@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -773,7 +773,7 @@
       },
       "ildharas58@ildharas" : {
          "exits" : {
-            "w" : "ildharas57"
+            "w" : "ildharas57@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -784,8 +784,8 @@
       },
       "ildharas10@ildharas" : {
          "exits" : {
-            "w" : "ildharas07",
-            "e" : "ildharas11"
+            "w" : "ildharas07@ildharas",
+            "e" : "ildharas11@ildharas"
          },
          "flags" : [
             "Outdoors"
@@ -798,8 +798,8 @@
       },
       "ildharas00@ildharas" : {
          "exits" : {
-            "w" : "T_Barrow@church",
-            "n" : "ildharas01"
+            "w" : "t_barrow@church",
+            "n" : "ildharas01@ildharas"
          },
          "flags" : [
             "Outdoors"
@@ -812,9 +812,9 @@
       },
       "ildharas06@ildharas" : {
          "exits" : {
-            "u" : "ildharas07",
-            "n" : "ildharas07",
-            "s" : "ildharas05"
+            "u" : "ildharas07@ildharas",
+            "n" : "ildharas07@ildharas",
+            "s" : "ildharas05@ildharas"
          },
          "flags" : [
             "Outdoors"
@@ -827,8 +827,8 @@
       },
       "ildharas32@ildharas" : {
          "exits" : {
-            "n" : "ildharas35",
-            "s" : "ildharas30"
+            "n" : "ildharas35@ildharas",
+            "s" : "ildharas30@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -839,8 +839,8 @@
       },
       "ildharas20@ildharas" : {
          "exits" : {
-            "w" : "ildharas18",
-            "n" : "ildharas23"
+            "w" : "ildharas18@ildharas",
+            "n" : "ildharas23@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -851,7 +851,7 @@
       },
       "ildharas48@ildharas" : {
          "exits" : {
-            "s" : "^cell_door_49"
+            "s" : "^cell_door_49@ildharas"
          },
          "flags" : [
             "Dark"
@@ -864,8 +864,8 @@
       },
       "ildharas03@ildharas" : {
          "exits" : {
-            "u" : "ildharas04",
-            "s" : "ildharas02"
+            "u" : "ildharas04@ildharas",
+            "s" : "ildharas02@ildharas"
          },
          "flags" : [
             "Outdoors"
@@ -878,7 +878,7 @@
       },
       "ildharas47@ildharas" : {
          "exits" : {
-            "s" : "^cell_door_46n"
+            "s" : "^cell_door_46n@ildharas"
          },
          "flags" : [
             "Dark"
@@ -891,8 +891,8 @@
       },
       "ildharas44@ildharas" : {
          "exits" : {
-            "e" : "ildharas46",
-            "u" : "ildharas43"
+            "e" : "ildharas46@ildharas",
+            "u" : "ildharas43@ildharas"
          },
          "flags" : [
             "Dark"
@@ -905,7 +905,7 @@
       },
       "ildharas63@ildharas" : {
          "exits" : {
-            "s" : "^sigil"
+            "s" : "^sigil@ildharas"
          },
          "flags" : [
             "CantSummon"
@@ -918,9 +918,9 @@
       },
       "ildharas24@ildharas" : {
          "exits" : {
-            "e" : "ildharas25",
-            "n" : "ildharas28",
-            "d" : "ildharas27"
+            "e" : "ildharas25@ildharas",
+            "n" : "ildharas28@ildharas",
+            "d" : "ildharas27@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -931,9 +931,9 @@
       },
       "ildharas38@ildharas" : {
          "exits" : {
-            "e" : "ildharas39",
-            "n" : "^king_door_1",
-            "s" : "ildharas36"
+            "e" : "ildharas39@ildharas",
+            "n" : "^king_door_1@ildharas",
+            "s" : "ildharas36@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -944,9 +944,9 @@
       },
       "ildharas23@ildharas" : {
          "exits" : {
-            "w" : "ildharas22",
-            "u" : "ildharas37",
-            "s" : "ildharas20"
+            "w" : "ildharas22@ildharas",
+            "u" : "ildharas37@ildharas",
+            "s" : "ildharas20@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -957,7 +957,7 @@
       },
       "ildharas50@ildharas" : {
          "exits" : {
-            "n" : "^yorjudek_door_2"
+            "n" : "^yorjudek_door_2@ildharas"
          },
          "flags" : [
             "Dark",
@@ -974,8 +974,8 @@
          "exits" : {
             "e" : "gold1b@gold",
             "w" : "gold1a@gold",
-            "n" : "ildharas02",
-            "s" : "ildharas00"
+            "n" : "ildharas02@ildharas",
+            "s" : "ildharas00@ildharas"
          },
          "flags" : [
             "Outdoors"
@@ -988,9 +988,9 @@
       },
       "ildharas05@ildharas" : {
          "exits" : {
-            "n" : "ildharas06",
-            "d" : "ildharas04",
-            "s" : "ildharas04"
+            "n" : "ildharas06@ildharas",
+            "d" : "ildharas04@ildharas",
+            "s" : "ildharas04@ildharas"
          },
          "flags" : [
             "Outdoors"
@@ -1003,8 +1003,8 @@
       },
       "ildharas61@ildharas" : {
          "exits" : {
-            "n" : "^iron_door_1",
-            "s" : "ildharas60"
+            "n" : "^iron_door_1@ildharas",
+            "s" : "ildharas60@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1015,8 +1015,8 @@
       },
       "ildharas19@ildharas" : {
          "exits" : {
-            "e" : "ildharas18",
-            "d" : "ildharas43"
+            "e" : "ildharas18@ildharas",
+            "d" : "ildharas43@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1027,8 +1027,8 @@
       },
       "ildharas29@ildharas" : {
          "exits" : {
-            "u" : "ildharas39",
-            "s" : "ildharas25"
+            "u" : "ildharas39@ildharas",
+            "s" : "ildharas25@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1039,8 +1039,8 @@
       },
       "ildharas62@ildharas" : {
          "exits" : {
-            "n" : "^force63",
-            "s" : "^iron_door_2"
+            "n" : "^force63@ildharas",
+            "s" : "^iron_door_2@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1051,8 +1051,8 @@
       },
       "ildharas17@ildharas" : {
          "exits" : {
-            "n" : "ildharas18",
-            "s" : "ildharas15"
+            "n" : "ildharas18@ildharas",
+            "s" : "ildharas15@ildharas"
          },
          "flags" : [
             "Outdoors",
@@ -1066,7 +1066,7 @@
       },
       "ildharas66@ildharas" : {
          "exits" : {
-            "e" : "ildharas41"
+            "e" : "ildharas41@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1077,7 +1077,7 @@
       },
       "ildharas12@ildharas" : {
          "exits" : {
-            "d" : "ildharas11"
+            "d" : "ildharas11@ildharas"
          },
          "flags" : [
             "Outdoors"
@@ -1090,11 +1090,11 @@
       },
       "ildharas22@ildharas" : {
          "exits" : {
-            "w" : "ildharas21",
-            "e" : "ildharas23",
-            "n" : "ildharas25",
-            "d" : "^stair_door_56",
-            "s" : "ildharas18"
+            "w" : "ildharas21@ildharas",
+            "e" : "ildharas23@ildharas",
+            "n" : "ildharas25@ildharas",
+            "d" : "^stair_door_56@ildharas",
+            "s" : "ildharas18@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1105,10 +1105,10 @@
       },
       "ildharas18@ildharas" : {
          "exits" : {
-            "w" : "ildharas19",
-            "e" : "ildharas20",
-            "n" : "ildharas22",
-            "s" : "ildharas17"
+            "w" : "ildharas19@ildharas",
+            "e" : "ildharas20@ildharas",
+            "n" : "ildharas22@ildharas",
+            "s" : "ildharas17@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1119,7 +1119,7 @@
       },
       "ildharas51@ildharas" : {
          "exits" : {
-            "s" : "^cell_door_52"
+            "s" : "^cell_door_52@ildharas"
          },
          "flags" : [
             "Dark"
@@ -1132,10 +1132,10 @@
       },
       "ildharas49@ildharas" : {
          "exits" : {
-            "w" : "ildharas46",
-            "e" : "ildharas52",
-            "n" : "^cell_door_48",
-            "s" : "^yorjudek_door_1"
+            "w" : "ildharas46@ildharas",
+            "e" : "ildharas52@ildharas",
+            "n" : "^cell_door_48@ildharas",
+            "s" : "^yorjudek_door_1@ildharas"
          },
          "flags" : [
             "Dark"
@@ -1148,9 +1148,9 @@
       },
       "ildharas40@ildharas" : {
          "exits" : {
-            "w" : "ildharas39",
-            "n" : "ildharas42",
-            "s" : "ildharas37"
+            "w" : "ildharas39@ildharas",
+            "n" : "ildharas42@ildharas",
+            "s" : "ildharas37@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1161,10 +1161,10 @@
       },
       "ildharas15@ildharas" : {
          "exits" : {
-            "w" : "ildharas14",
-            "e" : "ildharas16",
-            "n" : "ildharas17",
-            "s" : "ildharas07"
+            "w" : "ildharas14@ildharas",
+            "e" : "ildharas16@ildharas",
+            "n" : "ildharas17@ildharas",
+            "s" : "ildharas07@ildharas"
          },
          "flags" : [
             "Outdoors"
@@ -1177,7 +1177,7 @@
       },
       "ildharas31@ildharas" : {
          "exits" : {
-            "n" : "ildharas33"
+            "n" : "ildharas33@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1188,9 +1188,9 @@
       },
       "ildharas36@ildharas" : {
          "exits" : {
-            "n" : "ildharas38",
-            "d" : "ildharas21",
-            "s" : "ildharas33"
+            "n" : "ildharas38@ildharas",
+            "d" : "ildharas21@ildharas",
+            "s" : "ildharas33@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1201,8 +1201,8 @@
       },
       "ildharas60@ildharas" : {
          "exits" : {
-            "w" : "ildharas59",
-            "n" : "ildharas61"
+            "w" : "ildharas59@ildharas",
+            "n" : "ildharas61@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1213,8 +1213,8 @@
       },
       "ildharas11@ildharas" : {
          "exits" : {
-            "w" : "ildharas10",
-            "u" : "ildharas12"
+            "w" : "ildharas10@ildharas",
+            "u" : "ildharas12@ildharas"
          },
          "flags" : [
             "Outdoors"
@@ -1227,11 +1227,11 @@
       },
       "ildharas07@ildharas" : {
          "exits" : {
-            "w" : "ildharas09",
-            "e" : "ildharas10",
-            "n" : "ildharas15",
-            "d" : "ildharas06",
-            "s" : "ildharas06"
+            "w" : "ildharas09@ildharas",
+            "e" : "ildharas10@ildharas",
+            "n" : "ildharas15@ildharas",
+            "d" : "ildharas06@ildharas",
+            "s" : "ildharas06@ildharas"
          },
          "flags" : [
             "Outdoors"
@@ -1244,7 +1244,7 @@
       },
       "ildharas16@ildharas" : {
          "exits" : {
-            "w" : "ildharas15"
+            "w" : "ildharas15@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1255,8 +1255,8 @@
       },
       "ildharas04@ildharas" : {
          "exits" : {
-            "n" : "ildharas05",
-            "d" : "ildharas03"
+            "n" : "ildharas05@ildharas",
+            "d" : "ildharas03@ildharas"
          },
          "flags" : [
             "Outdoors"
@@ -1269,8 +1269,8 @@
       },
       "ildharas57@ildharas" : {
          "exits" : {
-            "e" : "ildharas58",
-            "u" : "ildharas56"
+            "e" : "ildharas58@ildharas",
+            "u" : "ildharas56@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1281,8 +1281,8 @@
       },
       "ildharas56@ildharas" : {
          "exits" : {
-            "u" : "^stair_door_22",
-            "d" : "ildharas57"
+            "u" : "^stair_door_22@ildharas",
+            "d" : "ildharas57@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1293,7 +1293,7 @@
       },
       "ildharas55@ildharas" : {
          "exits" : {
-            "n" : "ildharas54"
+            "n" : "ildharas54@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1304,9 +1304,9 @@
       },
       "ildharas09@ildharas" : {
          "exits" : {
-            "w" : "ildharas08",
-            "e" : "ildharas07",
-            "n" : "ildharas14"
+            "w" : "ildharas08@ildharas",
+            "e" : "ildharas07@ildharas",
+            "n" : "ildharas14@ildharas"
          },
          "flags" : [
             "Outdoors"
@@ -1319,7 +1319,7 @@
       },
       "ildharas08@ildharas" : {
          "exits" : {
-            "e" : "ildharas09"
+            "e" : "ildharas09@ildharas"
          },
          "flags" : [
             "Outdoors"
@@ -1341,8 +1341,8 @@
       },
       "ildharas02@ildharas" : {
          "exits" : {
-            "n" : "ildharas03",
-            "s" : "ildharas01"
+            "n" : "ildharas03@ildharas",
+            "s" : "ildharas01@ildharas"
          },
          "flags" : [
             "Outdoors"
@@ -1355,10 +1355,10 @@
       },
       "ildharas46@ildharas" : {
          "exits" : {
-            "w" : "ildharas44",
-            "e" : "ildharas49",
-            "n" : "^cell_door_47",
-            "s" : "^cell_door_45"
+            "w" : "ildharas44@ildharas",
+            "e" : "ildharas49@ildharas",
+            "n" : "^cell_door_47@ildharas",
+            "s" : "^cell_door_45@ildharas"
          },
          "flags" : [
             "Dark"
@@ -1371,8 +1371,8 @@
       },
       "ildharas53@ildharas" : {
          "exits" : {
-            "w" : "ildharas52",
-            "e" : "ildharas54"
+            "w" : "ildharas52@ildharas",
+            "e" : "ildharas54@ildharas"
          },
          "flags" : [
             "Dark"
@@ -1385,10 +1385,10 @@
       },
       "ildharas25@ildharas" : {
          "exits" : {
-            "w" : "ildharas24",
-            "e" : "ildharas26",
-            "n" : "ildharas29",
-            "s" : "ildharas22"
+            "w" : "ildharas24@ildharas",
+            "e" : "ildharas26@ildharas",
+            "n" : "ildharas29@ildharas",
+            "s" : "ildharas22@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1399,7 +1399,7 @@
       },
       "ildharas28@ildharas" : {
          "exits" : {
-            "s" : "ildharas24"
+            "s" : "ildharas24@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1410,7 +1410,7 @@
       },
       "ildharas27@ildharas" : {
          "exits" : {
-            "u" : "ildharas24"
+            "u" : "ildharas24@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1421,7 +1421,7 @@
       },
       "ildharas30@ildharas" : {
          "exits" : {
-            "n" : "ildharas32"
+            "n" : "ildharas32@ildharas"
          },
          "flags" : [
             "NoMobiles"
@@ -1434,8 +1434,8 @@
       },
       "ildharas34@ildharas" : {
          "exits" : {
-            "w" : "ildharas33",
-            "e" : "ildharas35"
+            "w" : "ildharas33@ildharas",
+            "e" : "ildharas35@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1455,9 +1455,9 @@
       },
       "ildharas35@ildharas" : {
          "exits" : {
-            "w" : "ildharas34",
-            "n" : "ildharas37",
-            "s" : "ildharas32"
+            "w" : "ildharas34@ildharas",
+            "n" : "ildharas37@ildharas",
+            "s" : "ildharas32@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1468,8 +1468,8 @@
       },
       "ildharas54@ildharas" : {
          "exits" : {
-            "w" : "ildharas53",
-            "s" : "ildharas55"
+            "w" : "ildharas53@ildharas",
+            "s" : "ildharas55@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1480,9 +1480,9 @@
       },
       "ildharas39@ildharas" : {
          "exits" : {
-            "w" : "ildharas38",
-            "e" : "ildharas40",
-            "d" : "ildharas29"
+            "w" : "ildharas38@ildharas",
+            "e" : "ildharas40@ildharas",
+            "d" : "ildharas29@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1493,7 +1493,7 @@
       },
       "ildharas26@ildharas" : {
          "exits" : {
-            "w" : "ildharas25"
+            "w" : "ildharas25@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1504,7 +1504,7 @@
       },
       "ildharas42@ildharas" : {
          "exits" : {
-            "s" : "ildharas40"
+            "s" : "ildharas40@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1515,9 +1515,9 @@
       },
       "ildharas52@ildharas" : {
          "exits" : {
-            "w" : "ildharas49",
-            "e" : "ildharas53",
-            "n" : "^cell_door_51"
+            "w" : "ildharas49@ildharas",
+            "e" : "ildharas53@ildharas",
+            "n" : "^cell_door_51@ildharas"
          },
          "flags" : [
             "Dark"
@@ -1530,8 +1530,8 @@
       },
       "ildharas59@ildharas" : {
          "exits" : {
-            "e" : "ildharas60",
-            "u" : "ildharas21"
+            "e" : "ildharas60@ildharas",
+            "u" : "ildharas21@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1542,7 +1542,7 @@
       },
       "ildharas45@ildharas" : {
          "exits" : {
-            "n" : "^cell_door_46s"
+            "n" : "^cell_door_46s@ildharas"
          },
          "flags" : [
             "Dark"
@@ -1555,9 +1555,9 @@
       },
       "ildharas14@ildharas" : {
          "exits" : {
-            "e" : "ildharas15",
-            "w" : "ildharas13",
-            "s" : "ildharas09"
+            "e" : "ildharas15@ildharas",
+            "w" : "ildharas13@ildharas",
+            "s" : "ildharas09@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1568,8 +1568,8 @@
       },
       "ildharas41@ildharas" : {
          "exits" : {
-            "w" : "ildharas66",
-            "s" : "^king_door_2"
+            "w" : "ildharas66@ildharas",
+            "s" : "^king_door_2@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1580,9 +1580,9 @@
       },
       "ildharas33@ildharas" : {
          "exits" : {
-            "e" : "ildharas34",
-            "n" : "ildharas36",
-            "s" : "ildharas31"
+            "e" : "ildharas34@ildharas",
+            "n" : "ildharas36@ildharas",
+            "s" : "ildharas31@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1593,8 +1593,8 @@
       },
       "ildharas43@ildharas" : {
          "exits" : {
-            "u" : "ildharas19",
-            "d" : "ildharas44"
+            "u" : "ildharas19@ildharas",
+            "d" : "ildharas44@ildharas"
          },
          "flags" : [
             "Dark"
@@ -1607,9 +1607,9 @@
       },
       "ildharas21@ildharas" : {
          "exits" : {
-            "e" : "ildharas22",
-            "u" : "ildharas36",
-            "d" : "ildharas59"
+            "e" : "ildharas22@ildharas",
+            "u" : "ildharas36@ildharas",
+            "d" : "ildharas59@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1620,7 +1620,7 @@
       },
       "ildharas13@ildharas" : {
          "exits" : {
-            "e" : "ildharas14"
+            "e" : "ildharas14@ildharas"
          },
          "flags" : [],
          "zone" : "ildharas",
@@ -1633,7 +1633,7 @@
    "mob" : {
       "maric@ildharas" : {
          "damage" : "5",
-         "location" : "ildharas64",
+         "location" : "ildharas64@ildharas",
          "armor" : "0",
          "name" : "Maric",
          "examine" : "\nYou see a somber man in a sumptuous black doublet. The unwilling dupe for \nthe Ildharas demise, he carries so much bad karma that it may be unlucky to \nkill him before his time.",
@@ -1657,7 +1657,7 @@
             "Shock"
          ],
          "damage" : "18",
-         "location" : "ildharas50",
+         "location" : "ildharas50@ildharas",
          "armor" : "0",
          "name" : "Yorjudek",
          "examine" : "\nImprisoned by Falathzar, Yorjudek has cooled his heels until the seal of his \ncell was broken.  Now he's pissed and ready to destroy everything he sees.",
@@ -1672,7 +1672,7 @@
       },
       "periol@ildharas" : {
          "damage" : "10",
-         "location" : "ildharas40",
+         "location" : "ildharas40@ildharas",
          "armor" : "0",
          "name" : "Periol",
          "examine" : "\nYou see a young man with an easy smile and laughing eyes.  His garments look \nclean, albeit threadbare.  He gestures broadly with deft, graceful hands.",
@@ -1694,7 +1694,7 @@
             "NegFireball"
          ],
          "damage" : "20",
-         "location" : "ildharas65",
+         "location" : "ildharas65@ildharas",
          "armor" : "15",
          "name" : "Falathzar",
          "examine" : "\nFalathzar chooses to appear as a tall man of courtly stature, wearing a\nscarlet doublet, matching half-cape, and broad brimmed hat. His expression \nis distant and disdainful, and his hair is the color of sullen flame. ",
@@ -1721,7 +1721,7 @@
             "Frost"
          ],
          "damage" : "10",
-         "location" : "ildharas31",
+         "location" : "ildharas31@ildharas",
          "armor" : "0",
          "name" : "Dijek",
          "examine" : "\nA tall, scholarly type, Dijek inspects the damage and notes where the magic \nis still strong.",
@@ -1741,7 +1741,7 @@
             "NegFireball"
          ],
          "damage" : "15",
-         "location" : "ildharas55",
+         "location" : "ildharas55@ildharas",
          "armor" : "0",
          "name" : "Haog",
          "examine" : "\nYou see a large white rat with a bloated body and spindly legs.  \nHis eyes are pink and feral.",
@@ -1756,7 +1756,7 @@
       },
       "bear@ildharas" : {
          "damage" : "12",
-         "location" : "ildharas18",
+         "location" : "ildharas18@ildharas",
          "speed" : "4",
          "aggression" : "0",
          "armor" : "0",
@@ -1772,7 +1772,7 @@
             "NegFireball"
          ],
          "damage" : "20",
-         "location" : "ildharas23",
+         "location" : "ildharas23@ildharas",
          "armor" : "0",
          "name" : "Tarphalir",
          "examine" : "\nYou behold a scaled demon with burning eyes and a toothy leer.  Vestigal \nwings sprout from lumpy shoulders, and he exudes a foul, putrefying stench.",
@@ -1791,7 +1791,7 @@
             "Shock"
          ],
          "damage" : "10",
-         "location" : "ildharas25",
+         "location" : "ildharas25@ildharas",
          "speed" : "3",
          "aggression" : "30",
          "armor" : "0",
@@ -1802,7 +1802,7 @@
       },
       "fluffy@ildharas" : {
          "damage" : "8",
-         "location" : "ildharas04",
+         "location" : "ildharas04@ildharas",
          "armor" : "0",
          "name" : "Fluffy",
          "examine" : "\nFluffy has perky ears, cute button eyes, and a long bushy tail.  She runs\nup to you and waits expectantly.  Rather annoying, isn't she?",
@@ -1821,7 +1821,7 @@
       },
       "rodney@ildharas" : {
          "damage" : "8",
-         "location" : "ildharas11",
+         "location" : "ildharas11@ildharas",
          "armor" : "0",
          "name" : "Rodney",
          "examine" : "\nYou see a plump little bird with sooty feathers and a scavenging tendency.",

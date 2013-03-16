@@ -2,7 +2,7 @@
    "obj" : {
       "firearmor@mithdan" : {
          "desc[1]" : "\nAn armor suit of fire is against one wall, ice strands growing over it.",
-         "location" : "IN_ROOM:Mithdan47",
+         "location" : "IN_ROOM:mithdan47@mithdan",
          "oflags" : [
             "wearable",
             "armor",
@@ -30,7 +30,7 @@
       "shard@mithdan" : {
          "desc[1]" : "\nA shard of crystal from the shattered branches lies near your feet.",
          "damage" : "15",
-         "location" : "IN_ROOM:Mithdan54",
+         "location" : "IN_ROOM:mithdan54@mithdan",
          "oflags" : [
             "weapon",
             "getflips"
@@ -50,7 +50,7 @@
       "crystal@mithdan" : {
          "desc[1]" : "\nA crystal sculpure rests in the middle of the clearing, glowing internally with\nlight.",
          "damage" : "0",
-         "location" : "IN_ROOM:Mithdan51",
+         "location" : "IN_ROOM:mithdan51@mithdan",
          "oflags" : [
             "getflips"
          ],
@@ -68,7 +68,7 @@
       },
       "inscription_stone@mithdan" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Mithdan35",
+         "location" : "IN_ROOM:mithdan35@mithdan",
          "oflags" : [
             "noget"
          ],
@@ -86,7 +86,7 @@
       },
       "stoutstick@mithdan" : {
          "damage" : "6",
-         "location" : "IN_ROOM:Mithdan11",
+         "location" : "IN_ROOM:mithdan11@mithdan",
          "oflags" : [
             "weapon",
             "lightable"
@@ -106,7 +106,7 @@
       "berries@mithdan" : {
          "desc[1]" : "\nA small cluster of berries growns on a nearby bush.",
          "damage" : "0",
-         "location" : "IN_ROOM:Mithdan9",
+         "location" : "IN_ROOM:mithdan9@mithdan",
          "oflags" : [
             "food",
             "getflips"
@@ -126,7 +126,7 @@
       "torch@mithdan" : {
          "desc[1]" : "\nA torch made of dried reeds rests in a wrought-iron sconce.",
          "damage" : "0",
-         "location" : "IN_ROOM:Mithdan39",
+         "location" : "IN_ROOM:mithdan39@mithdan",
          "oflags" : [
             "lightable",
             "extinguish",
@@ -146,7 +146,7 @@
       },
       "fountain@mithdan" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Mithdan40",
+         "location" : "IN_ROOM:mithdan40@mithdan",
          "oflags" : [
             "noget"
          ],
@@ -165,7 +165,7 @@
       "iceblade@mithdan" : {
          "desc[1]" : "\nA blade of ice is here, seeming to bust into flames in patches.",
          "damage" : "13",
-         "location" : "IN_ROOM:Mithdan47",
+         "location" : "IN_ROOM:mithdan47@mithdan",
          "oflags" : [
             "weapon",
             "getflips"
@@ -183,7 +183,7 @@
       },
       "prettystone@mithdan" : {
          "desc[1]" : "\nA shiny stone sits on the edge of the pool, the waves gently rocking it.",
-         "location" : "IN_ROOM:Mithdan75",
+         "location" : "IN_ROOM:mithdan75@mithdan",
          "oflags" : [
             "getflips"
          ],
@@ -201,7 +201,7 @@
       },
       "ivyarmor@mithdan" : {
          "desc[1]" : "\nA vest made of ivy hangs on a hook, strands of ivy slightly clinging to\nthe walls of the hut.",
-         "location" : "IN_ROOM:Mithdan65",
+         "location" : "IN_ROOM:mithdan65@mithdan",
          "oflags" : [
             "wearable",
             "armor",
@@ -229,8 +229,8 @@
    "loc" : {
       "mithdan35@mithdan" : {
          "exits" : {
-            "n" : "Mithdan34",
-            "s" : "Mithdan50"
+            "n" : "mithdan34@mithdan",
+            "s" : "mithdan50@mithdan"
          },
          "flags" : [],
          "zone" : "mithdan",
@@ -250,7 +250,7 @@
       },
       "mithdan2@mithdan" : {
          "exits" : {
-            "w" : "Mithdan1"
+            "w" : "mithdan1@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -264,8 +264,8 @@
       },
       "mithdan59@mithdan" : {
          "exits" : {
-            "e" : "Mithdan51",
-            "w" : "Mithdan58"
+            "e" : "mithdan51@mithdan",
+            "w" : "mithdan58@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -278,8 +278,8 @@
       },
       "mithdan32@mithdan" : {
          "exits" : {
-            "e" : "Mithdan33",
-            "w" : "Mithdan31"
+            "e" : "mithdan33@mithdan",
+            "w" : "mithdan31@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -293,8 +293,8 @@
       },
       "mithdan12@mithdan" : {
          "exits" : {
-            "e" : "Mithdan67",
-            "w" : "Mithdan11"
+            "e" : "mithdan67@mithdan",
+            "w" : "mithdan11@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -308,7 +308,7 @@
       },
       "mithdan75@mithdan" : {
          "exits" : {
-            "w" : "Mithdan74"
+            "w" : "mithdan74@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -334,8 +334,8 @@
       },
       "mithdan38@mithdan" : {
          "exits" : {
-            "w" : "Mithdan37",
-            "s" : "Mithdan41"
+            "w" : "mithdan37@mithdan",
+            "s" : "mithdan41@mithdan"
          },
          "flags" : [],
          "zone" : "mithdan",
@@ -346,8 +346,8 @@
       },
       "mithdan36@mithdan" : {
          "exits" : {
-            "e" : "Mithdan37",
-            "s" : "Mithdan39"
+            "e" : "mithdan37@mithdan",
+            "s" : "mithdan39@mithdan"
          },
          "flags" : [],
          "zone" : "mithdan",
@@ -358,7 +358,7 @@
       },
       "mithdan40@mithdan" : {
          "exits" : {
-            "s" : "Mithdan43"
+            "s" : "mithdan43@mithdan"
          },
          "flags" : [],
          "zone" : "mithdan",
@@ -369,8 +369,8 @@
       },
       "mithdan63@mithdan" : {
          "exits" : {
-            "w" : "Mithdan62",
-            "s" : "Mithdan65"
+            "w" : "mithdan62@mithdan",
+            "s" : "mithdan65@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -383,9 +383,9 @@
       },
       "mithdan55@mithdan" : {
          "exits" : {
-            "w" : "Mithdan54",
-            "n" : "Mithdan52",
-            "s" : "Mithdan56"
+            "w" : "mithdan54@mithdan",
+            "n" : "mithdan52@mithdan",
+            "s" : "mithdan56@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -398,8 +398,8 @@
       },
       "mithdan47@mithdan" : {
          "exits" : {
-            "n" : "Mithdan43",
-            "s" : "Mithdan49"
+            "n" : "mithdan43@mithdan",
+            "s" : "mithdan49@mithdan"
          },
          "flags" : [],
          "zone" : "mithdan",
@@ -410,9 +410,9 @@
       },
       "mithdan71@mithdan" : {
          "exits" : {
-            "e" : "Mithdan72",
-            "w" : "Mithdan70",
-            "s" : "Mithdan73"
+            "e" : "mithdan72@mithdan",
+            "w" : "mithdan70@mithdan",
+            "s" : "mithdan73@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -437,8 +437,8 @@
       },
       "mithdan46@mithdan" : {
          "exits" : {
-            "n" : "Mithdan44",
-            "s" : "Mithdan47"
+            "n" : "mithdan44@mithdan",
+            "s" : "mithdan47@mithdan"
          },
          "flags" : [],
          "zone" : "mithdan",
@@ -449,9 +449,9 @@
       },
       "mithdan44@mithdan" : {
          "exits" : {
-            "w" : "Mithdan43",
-            "n" : "Mithdan41",
-            "s" : "Mithdan46"
+            "w" : "mithdan43@mithdan",
+            "n" : "mithdan41@mithdan",
+            "s" : "mithdan46@mithdan"
          },
          "flags" : [],
          "zone" : "mithdan",
@@ -462,8 +462,8 @@
       },
       "mithdan3@mithdan" : {
          "exits" : {
-            "e" : "Mithdan4",
-            "s" : "Mithdan8"
+            "e" : "mithdan4@mithdan",
+            "s" : "mithdan8@mithdan"
          },
          "flags" : [
             "Outdoors"
@@ -476,9 +476,9 @@
       },
       "mithdan14@mithdan" : {
          "exits" : {
-            "e" : "Mithdan15",
-            "w" : "Mithdan13",
-            "n" : "Mithdan9"
+            "e" : "mithdan15@mithdan",
+            "w" : "mithdan13@mithdan",
+            "n" : "mithdan9@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -491,8 +491,8 @@
       },
       "mithdan57@mithdan" : {
          "exits" : {
-            "w" : "Mithdan56",
-            "s" : "Mithdan51"
+            "w" : "mithdan56@mithdan",
+            "s" : "mithdan51@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -505,9 +505,9 @@
       },
       "mithdan8@mithdan" : {
          "exits" : {
-            "e" : "Mithdan9",
-            "n" : "Mithdan3",
-            "s" : "Mithdan13"
+            "e" : "mithdan9@mithdan",
+            "n" : "mithdan3@mithdan",
+            "s" : "mithdan13@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -520,8 +520,8 @@
       },
       "mithdan70@mithdan" : {
          "exits" : {
-            "e" : "Mithdan71",
-            "n" : "Mithdan68"
+            "e" : "mithdan71@mithdan",
+            "n" : "mithdan68@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -535,8 +535,8 @@
       },
       "mithdan64@mithdan" : {
          "exits" : {
-            "n" : "Mithdan61",
-            "s" : "Mithdan1"
+            "n" : "mithdan61@mithdan",
+            "s" : "mithdan1@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -549,8 +549,8 @@
       },
       "mithdan52@mithdan" : {
          "exits" : {
-            "e" : "Mithdan53",
-            "s" : "Mithdan55"
+            "e" : "mithdan53@mithdan",
+            "s" : "mithdan55@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -563,10 +563,10 @@
       },
       "mithdan17@mithdan" : {
          "exits" : {
-            "e" : "Mithdan18",
-            "u" : "Mithdan19",
-            "d" : "Mithdan18",
-            "s" : "Mithdan19"
+            "e" : "mithdan18@mithdan",
+            "u" : "mithdan19@mithdan",
+            "d" : "mithdan18@mithdan",
+            "s" : "mithdan19@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -580,9 +580,9 @@
       },
       "mithdan37@mithdan" : {
          "exits" : {
-            "e" : "Mithdan38",
-            "w" : "Mithdan36",
-            "n" : "Mithdan35"
+            "e" : "mithdan38@mithdan",
+            "w" : "mithdan36@mithdan",
+            "n" : "mithdan35@mithdan"
          },
          "flags" : [],
          "zone" : "mithdan",
@@ -593,8 +593,8 @@
       },
       "mithdan28@mithdan" : {
          "exits" : {
-            "w" : "Mithdan27",
-            "s" : "Mithdan34"
+            "w" : "mithdan27@mithdan",
+            "s" : "mithdan34@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -608,8 +608,8 @@
       },
       "mithdan58@mithdan" : {
          "exits" : {
-            "e" : "Mithdan59",
-            "s" : "Mithdan61"
+            "e" : "mithdan59@mithdan",
+            "s" : "mithdan61@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -622,8 +622,8 @@
       },
       "mithdan61@mithdan" : {
          "exits" : {
-            "n" : "Mithdan58",
-            "s" : "Mithdan64"
+            "n" : "mithdan58@mithdan",
+            "s" : "mithdan64@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -636,10 +636,10 @@
       },
       "mithdan68@mithdan" : {
          "exits" : {
-            "e" : "Mithdan69",
-            "w" : "Mithdan67",
-            "n" : "Mithdan66",
-            "s" : "Mithdan70"
+            "e" : "mithdan69@mithdan",
+            "w" : "mithdan67@mithdan",
+            "n" : "mithdan66@mithdan",
+            "s" : "mithdan70@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -652,8 +652,8 @@
       },
       "mithdan67@mithdan" : {
          "exits" : {
-            "e" : "Mithdan68",
-            "w" : "Mithdan12"
+            "e" : "mithdan68@mithdan",
+            "w" : "mithdan12@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -666,7 +666,7 @@
       },
       "mithdan54@mithdan" : {
          "exits" : {
-            "e" : "mithdan55"
+            "e" : "mithdan55@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -679,9 +679,9 @@
       },
       "mithdan19@mithdan" : {
          "exits" : {
-            "e" : "Mithdan20",
-            "n" : "Mithdan17",
-            "d" : "Mithdan17"
+            "e" : "mithdan20@mithdan",
+            "n" : "mithdan17@mithdan",
+            "d" : "mithdan17@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -695,9 +695,9 @@
       },
       "mithdan11@mithdan" : {
          "exits" : {
-            "e" : "Mithdan12",
-            "w" : "Mithdan10",
-            "s" : "Mithdan16"
+            "e" : "mithdan12@mithdan",
+            "w" : "mithdan10@mithdan",
+            "s" : "mithdan16@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -710,9 +710,9 @@
       },
       "mithdan9@mithdan" : {
          "exits" : {
-            "w" : "Mithdan8",
-            "n" : "Mithdan4",
-            "s" : "Mithdan14"
+            "w" : "mithdan8@mithdan",
+            "n" : "mithdan4@mithdan",
+            "s" : "mithdan14@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -725,7 +725,7 @@
       },
       "mithdan53@mithdan" : {
          "exits" : {
-            "w" : "Mithdan52"
+            "w" : "mithdan52@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -739,7 +739,7 @@
       },
       "mithdan7@mithdan" : {
          "exits" : {
-            "w" : "Mithdan6"
+            "w" : "mithdan6@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -753,8 +753,8 @@
       },
       "mithdan69@mithdan" : {
          "exits" : {
-            "e" : "MithLearn",
-            "w" : "Mithdan68"
+            "e" : "mithlearn@mithdan",
+            "w" : "mithdan68@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -768,8 +768,8 @@
       },
       "mithdan39@mithdan" : {
          "exits" : {
-            "n" : "Mithdan36",
-            "s" : "Mithdan42"
+            "n" : "mithdan36@mithdan",
+            "s" : "mithdan42@mithdan"
          },
          "flags" : [],
          "zone" : "mithdan",
@@ -781,8 +781,8 @@
       "mithdan49@mithdan" : {
          "exits" : {
             "e" : "lounge@mrealms",
-            "w" : "temple@Start",
-            "n" : "church@Start",
+            "w" : "temple@start",
+            "n" : "church@start",
             "s" : "mrealms@mrealms"
          },
          "flags" : [],
@@ -794,8 +794,8 @@
       },
       "mithdan10@mithdan" : {
          "exits" : {
-            "e" : "Mithdan11",
-            "n" : "Mithdan6"
+            "e" : "mithdan11@mithdan",
+            "n" : "mithdan6@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -808,8 +808,8 @@
       },
       "mithdan26@mithdan" : {
          "exits" : {
-            "e" : "Mithdan27",
-            "s" : "Mithdan33"
+            "e" : "mithdan27@mithdan",
+            "s" : "mithdan33@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -823,8 +823,8 @@
       },
       "mithdan15@mithdan" : {
          "exits" : {
-            "w" : "Mithdan14",
-            "s" : "Mithdan18"
+            "w" : "mithdan14@mithdan",
+            "s" : "mithdan18@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -838,10 +838,10 @@
       },
       "mithdan51@mithdan" : {
          "exits" : {
-            "e" : "Mithdan60",
-            "w" : "Mithdan59",
-            "n" : "Mithdan57",
-            "s" : "Mithdan62"
+            "e" : "mithdan60@mithdan",
+            "w" : "mithdan59@mithdan",
+            "n" : "mithdan57@mithdan",
+            "s" : "mithdan62@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -855,9 +855,9 @@
       },
       "mithdan42@mithdan" : {
          "exits" : {
-            "e" : "Mithdan43",
-            "n" : "Mithdan39",
-            "s" : "Mithdan45"
+            "e" : "mithdan43@mithdan",
+            "n" : "mithdan39@mithdan",
+            "s" : "mithdan45@mithdan"
          },
          "flags" : [],
          "zone" : "mithdan",
@@ -869,8 +869,8 @@
       "mithdan1@mithdan" : {
          "exits" : {
             "w" : "pass@blizzard",
-            "e" : "Mithdan2",
-            "s" : "Mithdan6"
+            "e" : "mithdan2@mithdan",
+            "s" : "mithdan6@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -884,8 +884,8 @@
       },
       "mithdan27@mithdan" : {
          "exits" : {
-            "e" : "Mithdan28",
-            "w" : "Mithdan26"
+            "e" : "mithdan28@mithdan",
+            "w" : "mithdan26@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -899,7 +899,7 @@
       },
       "mithdan66@mithdan" : {
          "exits" : {
-            "s" : "Mithdan68"
+            "s" : "mithdan68@mithdan"
          },
          "flags" : [
             "peaceful"
@@ -912,8 +912,8 @@
       },
       "mithdan74@mithdan" : {
          "exits" : {
-            "e" : "Mithdan75",
-            "n" : "mithdan73"
+            "e" : "mithdan75@mithdan",
+            "n" : "mithdan73@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -927,8 +927,8 @@
       },
       "mithdan41@mithdan" : {
          "exits" : {
-            "n" : "Mithdan38",
-            "s" : "Mithdan44"
+            "n" : "mithdan38@mithdan",
+            "s" : "mithdan44@mithdan"
          },
          "flags" : [],
          "zone" : "mithdan",
@@ -939,8 +939,8 @@
       },
       "mithdan20@mithdan" : {
          "exits" : {
-            "e" : "Mithdan21",
-            "w" : "Mithdan19"
+            "e" : "mithdan21@mithdan",
+            "w" : "mithdan19@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -954,8 +954,8 @@
       },
       "mithdan13@mithdan" : {
          "exits" : {
-            "e" : "Mithdan14",
-            "n" : "Mithdan8"
+            "e" : "mithdan14@mithdan",
+            "n" : "mithdan8@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -968,9 +968,9 @@
       },
       "mithdan4@mithdan" : {
          "exits" : {
-            "e" : "Mithdan5",
-            "w" : "Mithdan3",
-            "s" : "Mithdan9"
+            "e" : "mithdan5@mithdan",
+            "w" : "mithdan3@mithdan",
+            "s" : "mithdan9@mithdan"
          },
          "flags" : [],
          "zone" : "mithdan",
@@ -981,9 +981,9 @@
       },
       "mithdan22@mithdan" : {
          "exits" : {
-            "e" : "Mithdan23",
-            "w" : "Mithdan21",
-            "s" : "Mithdan24"
+            "e" : "mithdan23@mithdan",
+            "w" : "mithdan21@mithdan",
+            "s" : "mithdan24@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -997,8 +997,8 @@
       },
       "mithdan45@mithdan" : {
          "exits" : {
-            "n" : "Mithdan42",
-            "s" : "Mithdan47"
+            "n" : "mithdan42@mithdan",
+            "s" : "mithdan47@mithdan"
          },
          "flags" : [],
          "zone" : "mithdan",
@@ -1009,7 +1009,7 @@
       },
       "mithdan65@mithdan" : {
          "exits" : {
-            "n" : "Mithdan63"
+            "n" : "mithdan63@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -1022,7 +1022,7 @@
       },
       "mithlearn@mithdan" : {
          "exits" : {
-            "w" : "Mithdan69"
+            "w" : "mithdan69@mithdan"
          },
          "flags" : [
             "Peaceful"
@@ -1035,9 +1035,9 @@
       },
       "mithdan30@mithdan" : {
          "exits" : {
-            "e" : "Mithdan31",
-            "w" : "Mithdan29",
-            "n" : "Mithdan24"
+            "e" : "mithdan31@mithdan",
+            "w" : "mithdan29@mithdan",
+            "n" : "mithdan24@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -1051,8 +1051,8 @@
       },
       "mithdan24@mithdan" : {
          "exits" : {
-            "n" : "Mithdan22",
-            "s" : "Mithdan30"
+            "n" : "mithdan22@mithdan",
+            "s" : "mithdan30@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -1066,10 +1066,10 @@
       },
       "mithdan6@mithdan" : {
          "exits" : {
-            "e" : "Mithdan7",
-            "w" : "Mithdan5",
-            "n" : "Mithdan1",
-            "s" : "Mithdan10"
+            "e" : "mithdan7@mithdan",
+            "w" : "mithdan5@mithdan",
+            "n" : "mithdan1@mithdan",
+            "s" : "mithdan10@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -1082,7 +1082,7 @@
       },
       "mithdan72@mithdan" : {
          "exits" : {
-            "w" : "Mithdan71"
+            "w" : "mithdan71@mithdan"
          },
          "flags" : [
             "Outdoors",
@@ -1096,8 +1096,8 @@
       },
       "mithdan34@mithdan" : {
          "exits" : {
-            "n" : "Mithdan28",
-            "s" : "Mithdan35"
+            "n" : "mithdan28@mithdan",
+            "s" : "mithdan35@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -1111,8 +1111,8 @@
       },
       "mithdan21@mithdan" : {
          "exits" : {
-            "e" : "Mithdan22",
-            "w" : "Mithdan20"
+            "e" : "mithdan22@mithdan",
+            "w" : "mithdan20@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -1126,7 +1126,7 @@
       },
       "mithdan23@mithdan" : {
          "exits" : {
-            "w" : "Mithdan22"
+            "w" : "mithdan22@mithdan"
          },
          "flags" : [
             "Outdoors",
@@ -1141,8 +1141,8 @@
       },
       "mithdan33@mithdan" : {
          "exits" : {
-            "w" : "Mithdan32",
-            "n" : "Mithdan26"
+            "w" : "mithdan32@mithdan",
+            "n" : "mithdan26@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -1156,7 +1156,7 @@
       },
       "mithdan25@mithdan" : {
          "exits" : {
-            "s" : "Mithdan31"
+            "s" : "mithdan31@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -1171,9 +1171,9 @@
       },
       "mithdan43@mithdan" : {
          "exits" : {
-            "e" : "Mithdan44",
-            "w" : "Mithdan42",
-            "n" : "Mithdan40"
+            "e" : "mithdan44@mithdan",
+            "w" : "mithdan42@mithdan",
+            "n" : "mithdan40@mithdan"
          },
          "flags" : [],
          "zone" : "mithdan",
@@ -1184,8 +1184,8 @@
       },
       "mithdan31@mithdan" : {
          "exits" : {
-            "e" : "Mithdan32",
-            "w" : "Mithdan30"
+            "e" : "mithdan32@mithdan",
+            "w" : "mithdan30@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -1199,7 +1199,7 @@
       },
       "mithdan60@mithdan" : {
          "exits" : {
-            "w" : "Mithdan51"
+            "w" : "mithdan51@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -1212,7 +1212,7 @@
       },
       "mithdan16@mithdan" : {
          "exits" : {
-            "n" : "Mithdan11"
+            "n" : "mithdan11@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -1239,8 +1239,8 @@
       },
       "mithdan73@mithdan" : {
          "exits" : {
-            "n" : "Mithdan71",
-            "s" : "Mithdan74"
+            "n" : "mithdan71@mithdan",
+            "s" : "mithdan74@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -1254,8 +1254,8 @@
       },
       "mithdan5@mithdan" : {
          "exits" : {
-            "e" : "Mithdan6",
-            "w" : "Mithdan4"
+            "e" : "mithdan6@mithdan",
+            "w" : "mithdan4@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -1268,8 +1268,8 @@
       },
       "mithdan56@mithdan" : {
          "exits" : {
-            "e" : "Mithdan57",
-            "n" : "Mithdan55"
+            "e" : "mithdan57@mithdan",
+            "n" : "mithdan55@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -1282,8 +1282,8 @@
       },
       "mithdan62@mithdan" : {
          "exits" : {
-            "e" : "Mithdan63",
-            "n" : "Mithdan51"
+            "e" : "mithdan63@mithdan",
+            "n" : "mithdan51@mithdan"
          },
          "flags" : [
             "outdoors"
@@ -1296,9 +1296,9 @@
       },
       "mithdan18@mithdan" : {
          "exits" : {
-            "w" : "Mithdan17",
-            "n" : "Mithdan15",
-            "u" : "Mithdan17"
+            "w" : "mithdan17@mithdan",
+            "n" : "mithdan15@mithdan",
+            "u" : "mithdan17@mithdan"
          },
          "flags" : [
             "outdoors",
@@ -1314,7 +1314,7 @@
    "mob" : {
       "beast@mithdan" : {
          "damage" : "25",
-         "location" : "Mithdan47",
+         "location" : "mithdan47@mithdan",
          "armor" : "0",
          "name" : "Beast",
          "examine" : "\nHuge and incredibly powerful in appearance, the beast rears up on its hind legs\nand roars at you.",
@@ -1331,7 +1331,7 @@
       },
       "snowcritter@mithdan" : {
          "damage" : "25",
-         "location" : "Mithdan24",
+         "location" : "mithdan24@mithdan",
          "armor" : "0",
          "name" : "SnowCritter",
          "description" : "\nA creature with glowing red eyes and snow-white fur snarls and leaps at you!",
@@ -1345,7 +1345,7 @@
       },
       "red_dragon@mithdan" : {
          "damage" : "100",
-         "location" : "Mithdan40",
+         "location" : "mithdan40@mithdan",
          "armor" : "50",
          "name" : "Red_Dragon",
          "examine" : "\nThe dragon's scales glitter in the magical light, and it keeps one eye\nhalf open to gaze back at you.",
@@ -1360,7 +1360,7 @@
       },
       "druid2@mithdan" : {
          "damage" : "5",
-         "location" : "Mithdan69",
+         "location" : "mithdan69@mithdan",
          "armor" : "0",
          "name" : "Druid2",
          "examine" : "\nThe druids robes appear to be made of soft cotton or a similar cloth.\nHis face is hidden in the shadow of his cowl.",
@@ -1375,7 +1375,7 @@
       },
       "beauty@mithdan" : {
          "damage" : "10",
-         "location" : "Mithdan74",
+         "location" : "mithdan74@mithdan",
          "armor" : "0",
          "name" : "Beauty",
          "examine" : "\nThe woman is exquisitely beautiful, and your heart yearns for her. However,\nshe seems very cold and aloof.",
@@ -1392,7 +1392,7 @@
       },
       "druid@mithdan" : {
          "damage" : "5",
-         "location" : "Mithdan69",
+         "location" : "mithdan69@mithdan",
          "armor" : "0",
          "name" : "Druid",
          "examine" : "\nThe druids robes appear to be made of soft cotton or a similar cloth.\nHis face is hidden in the shadow of his cowl.",
@@ -1407,7 +1407,7 @@
       },
       "earth_elemental@mithdan" : {
          "damage" : "30",
-         "location" : "Mithdan3",
+         "location" : "mithdan3@mithdan",
          "armor" : "8",
          "name" : "Earth_Elemental",
          "examine" : "\nThe elemental is formed of rocks, earth, and living greenery. Although it is\nthin and graceful, beneath its features ripples immense strength.",

@@ -3,7 +3,7 @@
       "manacles1@undead" : {
          "desc[1]" : "A set of heavy iron &+Bmanacles&* lie here attached to the floor.",
          "damage" : "1",
-         "location" : "IN_ROOM:Dungeon5",
+         "location" : "IN_ROOM:dungeon5@undead",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -22,7 +22,7 @@
       },
       "wheat4@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Larder4",
+         "location" : "IN_ROOM:larder4@undead",
          "oflags" : [
             "Food"
          ],
@@ -38,7 +38,7 @@
       },
       "s_dagger@undead" : {
          "damage" : "4",
-         "location" : "WIELDED_BY:Mercenary4",
+         "location" : "WIELDED_BY:mercenary4@undead",
          "oflags" : [
             "Weapon"
          ],
@@ -51,7 +51,7 @@
          "desc[0]" : "A small inadequate &+Bdagger&* lies here."
       },
       "g_tooth7@undead" : {
-         "location" : "IN_CONTAINER:A_corpse",
+         "location" : "IN_CONTAINER:a_corpse@undead",
          "oflags" : "{ }",
          "name" : "G_tooth7",
          "examine" : "A bleached white alligator's &+Btooth&*.",
@@ -63,7 +63,7 @@
       },
       "book3@undead" : {
          "damage" : "1",
-         "location" : "IN_CONTAINER:BCase",
+         "location" : "IN_CONTAINER:bcase@undead",
          "oflags" : [
             "Weapon"
          ],
@@ -77,7 +77,7 @@
       },
       "u_candle2@undead" : {
          "damage" : "3",
-         "location" : "IN_ROOM:BanquetHall",
+         "location" : "IN_ROOM:banquethall@undead",
          "oflags" : [
             "GetFlips",
             "Weapon"
@@ -92,7 +92,7 @@
          "desc[0]" : "A large valuable &+Bcandlestick&* has been left here."
       },
       "mulberries1@undead" : {
-         "location" : "IN_ROOM:stony_path3",
+         "location" : "IN_ROOM:stony_path3@undead",
          "oflags" : [
             "Food",
             "GetFlips"
@@ -109,7 +109,7 @@
       },
       "b_armor@undead" : {
          "damage" : "0",
-         "location" : "WORN_BY:Mercenary3",
+         "location" : "WORN_BY:mercenary3@undead",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -131,7 +131,7 @@
       },
       "g_halberd@undead" : {
          "damage" : "15",
-         "location" : "WIELDED_BY:Mercenary3",
+         "location" : "WIELDED_BY:mercenary3@undead",
          "oflags" : [
             "Weapon"
          ],
@@ -145,7 +145,7 @@
          "desc[0]" : "A beautiful jewelled &+Bhalberd&* lies here."
       },
       "udiamond@undead" : {
-         "location" : "IN_ROOM:PR_Room",
+         "location" : "IN_ROOM:pr_room@undead",
          "weight" : "100",
          "pname" : "diamond",
          "name" : "uDiamond",
@@ -156,7 +156,7 @@
       },
       "iot1@undead" : {
          "damage" : "1",
-         "location" : "IN_CONTAINER:U_Brazier",
+         "location" : "IN_CONTAINER:u_brazier@undead",
          "oflags" : [
             "Weapon",
             "Lit"
@@ -171,7 +171,7 @@
       },
       "beef3@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Larder6",
+         "location" : "IN_ROOM:larder6@undead",
          "oflags" : [
             "Food"
          ],
@@ -186,7 +186,7 @@
          "desc[0]" : "A large side of &+Bbeef&* has been left here."
       },
       "g_tooth6@undead" : {
-         "location" : "IN_CONTAINER:A_corpse",
+         "location" : "IN_CONTAINER:a_corpse@undead",
          "oflags" : "{ }",
          "name" : "G_tooth6",
          "examine" : "\nWOW!.... Although this looks like a &+Btooth&* it is in fact a large diamond, \nI have heard of eating richly but this gator takes the biscuit.",
@@ -197,7 +197,7 @@
          "desc[0]" : "A sparkling diamond gator's &+Btooth&* lies here."
       },
       "l_statue@undead" : {
-         "location" : "IN_ROOM:mountain_path6",
+         "location" : "IN_ROOM:mountain_path6@undead",
          "oflags" : [
             "NoGet"
          ],
@@ -210,7 +210,7 @@
       },
       "bcase_b@undead" : {
          "desc[1]" : "The doorway out is blocked by the back of a bookcase.",
-         "location" : "IN_ROOM:SecretPassage1",
+         "location" : "IN_ROOM:secretpassage1@undead",
          "oflags" : [
             "Noget"
          ],
@@ -222,7 +222,7 @@
       },
       "wheat@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Larder4",
+         "location" : "IN_ROOM:larder4@undead",
          "oflags" : [
             "Food"
          ],
@@ -237,7 +237,7 @@
       },
       "beef2@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Larder6",
+         "location" : "IN_ROOM:larder6@undead",
          "oflags" : [
             "Food"
          ],
@@ -252,7 +252,7 @@
          "desc[0]" : "A large side of &+Bbeef&* has been left here."
       },
       "bread2@undead" : {
-         "location" : "IN_ROOM:Larder1",
+         "location" : "IN_ROOM:larder1@undead",
          "oflags" : [
             "Food"
          ],
@@ -267,7 +267,7 @@
       },
       "bread1@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Larder1",
+         "location" : "IN_ROOM:larder1@undead",
          "oflags" : [
             "Food"
          ],
@@ -282,7 +282,7 @@
          "desc[0]" : "A stale loaf of &+Bbread&* lies here."
       },
       "mulberry_tree@undead" : {
-         "location" : "IN_ROOM:stony_path3",
+         "location" : "IN_ROOM:stony_path3@undead",
          "oflags" : [
             "NoGet"
          ],
@@ -293,7 +293,7 @@
       },
       "bread3@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Larder1",
+         "location" : "IN_ROOM:larder1@undead",
          "oflags" : [
             "Food"
          ],
@@ -308,7 +308,7 @@
       },
       "a_corpse@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:stony_path10",
+         "location" : "IN_ROOM:stony_path10@undead",
          "oflags" : [
             "Container",
             "Openable",
@@ -324,7 +324,7 @@
          "desc[0]" : "The &+Bcorpse&* of a brave adventurer lies here."
       },
       "button@undead" : {
-         "location" : "IN_ROOM:Library",
+         "location" : "IN_ROOM:library@undead",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -337,7 +337,7 @@
       },
       "g_rose@undead" : {
          "damage" : "4",
-         "location" : "IN_ROOM:Swamp_Land6",
+         "location" : "IN_ROOM:swamp_land6@undead",
          "oflags" : [
             "Food",
             "Weapon",
@@ -353,7 +353,7 @@
       },
       "u_candle4@undead" : {
          "damage" : "3",
-         "location" : "IN_ROOM:BanquetHall",
+         "location" : "IN_ROOM:banquethall@undead",
          "oflags" : [
             "GetFlips",
             "Weapon"
@@ -369,7 +369,7 @@
       },
       "u_candle3@undead" : {
          "damage" : "3",
-         "location" : "IN_ROOM:BanquetHall",
+         "location" : "IN_ROOM:banquethall@undead",
          "oflags" : [
             "GetFlips",
             "Weapon"
@@ -385,7 +385,7 @@
       },
       "g_tooth1@undead" : {
          "damage" : "2",
-         "location" : "IN_CONTAINER:A_corpse",
+         "location" : "IN_CONTAINER:a_corpse@undead",
          "oflags" : [
             "Weapon"
          ],
@@ -400,7 +400,7 @@
       },
       "cupboards@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Kitchen",
+         "location" : "IN_ROOM:kitchen@undead",
          "oflags" : [
             "Container",
             "Openable",
@@ -417,7 +417,7 @@
       },
       "book2@undead" : {
          "damage" : "1",
-         "location" : "IN_CONTAINER:BCase",
+         "location" : "IN_CONTAINER:bcase@undead",
          "oflags" : [
             "Weapon"
          ],
@@ -432,7 +432,7 @@
       "manacles3@undead" : {
          "desc[1]" : "A set of heavy iron &+Bmanacles&* lie here attached to the floor.",
          "damage" : "1",
-         "location" : "IN_ROOM:Dungeon8",
+         "location" : "IN_ROOM:dungeon8@undead",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -450,7 +450,7 @@
          "desc[0]" : "A set of heavy iron &+Bmanacles&* lie here open."
       },
       "hole@undead" : {
-         "location" : "IN_ROOM:ThroneRoom",
+         "location" : "IN_ROOM:throneroom@undead",
          "oflags" : [
             "NoGet",
             "Container"
@@ -465,7 +465,7 @@
       },
       "beam@undead" : {
          "desc[1]" : "",
-         "location" : "IN_ROOM:Battlements5",
+         "location" : "IN_ROOM:battlements5@undead",
          "oflags" : [
             "NoGet",
             "PushToggle"
@@ -482,7 +482,7 @@
       },
       "a_heart@undead" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:A_corpse",
+         "location" : "IN_CONTAINER:a_corpse@undead",
          "oflags" : [
             "Food"
          ],
@@ -498,7 +498,7 @@
       },
       "librarydust@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Library",
+         "location" : "IN_ROOM:library@undead",
          "oflags" : [
             "NoGet"
          ],
@@ -510,7 +510,7 @@
          "bvalue" : "0"
       },
       "moss_tree4@undead" : {
-         "location" : "IN_ROOM:moss_maze5",
+         "location" : "IN_ROOM:moss_maze5@undead",
          "oflags" : [
             "NoGet"
          ],
@@ -520,7 +520,7 @@
       },
       "wheat3@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Larder4",
+         "location" : "IN_ROOM:larder4@undead",
          "oflags" : [
             "Food"
          ],
@@ -536,7 +536,7 @@
       },
       "corkscrew@undead" : {
          "damage" : "8",
-         "location" : "IN_CONTAINER:Cupboards",
+         "location" : "IN_CONTAINER:cupboards@undead",
          "oflags" : [
             "Weapon",
             "Wearable"
@@ -551,7 +551,7 @@
       },
       "w_axe@undead" : {
          "damage" : "21",
-         "location" : "WIELDED_BY:Mercenary2",
+         "location" : "WIELDED_BY:mercenary2@undead",
          "oflags" : [
             "Weapon",
             "Glowing",
@@ -567,7 +567,7 @@
       },
       "ham2@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Larder2",
+         "location" : "IN_ROOM:larder2@undead",
          "oflags" : [
             "Food"
          ],
@@ -583,7 +583,7 @@
       },
       "g_skin@undead" : {
          "damage" : "0",
-         "location" : "WORN_BY:U_gator1",
+         "location" : "WORN_BY:u_gator1@undead",
          "oflags" : [
             "Armor",
             "Wearable"
@@ -603,7 +603,7 @@
          "desc[0]" : "A large piece of gator &+Bskin&* lies here."
       },
       "moss_tree1@undead" : {
-         "location" : "IN_ROOM:moss_maze2",
+         "location" : "IN_ROOM:moss_maze2@undead",
          "oflags" : [
             "NoGet"
          ],
@@ -612,7 +612,7 @@
          "examine" : "\nAs you look at the &+Btree&* you see that the &+Cwest&* side is covered in moss."
       },
       "moss_tree3@undead" : {
-         "location" : "IN_ROOM:moss_maze4",
+         "location" : "IN_ROOM:moss_maze4@undead",
          "oflags" : [
             "NoGet"
          ],
@@ -622,7 +622,7 @@
       },
       "g_tooth2@undead" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:A_corpse",
+         "location" : "IN_CONTAINER:a_corpse@undead",
          "oflags" : "{ }",
          "armor" : "0",
          "name" : "G_tooth2",
@@ -634,7 +634,7 @@
          "desc[0]" : "A gator's &+Btooth&* lies here."
       },
       "s_book@undead" : {
-         "location" : "CARRIED_BY:Mercenary4",
+         "location" : "CARRIED_BY:mercenary4@undead",
          "weight" : "1",
          "pname" : "book",
          "name" : "S_book",
@@ -645,7 +645,7 @@
       },
       "ucrown@undead" : {
          "damage" : "2",
-         "location" : "WORN_BY:Undead_King",
+         "location" : "WORN_BY:undead_king@undead",
          "oflags" : [
             "Weapon",
             "Wearable"
@@ -660,7 +660,7 @@
       },
       "book4@undead" : {
          "damage" : "1",
-         "location" : "IN_CONTAINER:BCase",
+         "location" : "IN_CONTAINER:bcase@undead",
          "oflags" : [
             "Weapon"
          ],
@@ -675,7 +675,7 @@
       "manacles2@undead" : {
          "desc[1]" : "A set of heavy iron &+Bmanacles&* lie here attached to the floor.",
          "damage" : "1",
-         "location" : "IN_ROOM:Dungeon7",
+         "location" : "IN_ROOM:dungeon7@undead",
          "oflags" : [
             "NoGet",
             "Openable",
@@ -693,7 +693,7 @@
          "desc[0]" : "A set of heavy iron &+Bmanacles&* lie here open."
       },
       "s_horn@undead" : {
-         "location" : "IN_ROOM:mountain_path6",
+         "location" : "IN_ROOM:mountain_path6@undead",
          "weight" : "5",
          "pname" : "horn",
          "name" : "S_horn",
@@ -703,7 +703,7 @@
          "size" : "10"
       },
       "moss_sign@undead" : {
-         "location" : "IN_ROOM:moss_maze1",
+         "location" : "IN_ROOM:moss_maze1@undead",
          "oflags" : [
             "NoGet"
          ],
@@ -714,7 +714,7 @@
       },
       "stool@undead" : {
          "damage" : "1",
-         "location" : "IN_ROOM:PR_Room",
+         "location" : "IN_ROOM:pr_room@undead",
          "oflags" : [
             "Weapon",
             "GetFlips"
@@ -730,7 +730,7 @@
       },
       "g_tooth3@undead" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:A_corpse",
+         "location" : "IN_CONTAINER:a_corpse@undead",
          "oflags" : "{ }",
          "armor" : "0",
          "name" : "G_tooth3",
@@ -744,7 +744,7 @@
       "undeadkingssoul@undead" : {
          "desc[1]" : "A dark &+Bshadow&* has been left here.",
          "damage" : "1",
-         "location" : "IN_ROOM:PersonalHellA",
+         "location" : "IN_ROOM:personalhella@undead",
          "oflags" : [
             "GetFlips"
          ],
@@ -760,7 +760,7 @@
       },
       "u_candle1@undead" : {
          "damage" : "3",
-         "location" : "IN_ROOM:BanquetHall",
+         "location" : "IN_ROOM:banquethall@undead",
          "oflags" : [
             "GetFlips",
             "Weapon"
@@ -775,7 +775,7 @@
          "desc[0]" : "A large valuable &+Bcandlestick&* has been left here."
       },
       "sack@undead" : {
-         "location" : "IN_ROOM:forest_path4",
+         "location" : "IN_ROOM:forest_path4@undead",
          "oflags" : [
             "Container"
          ],
@@ -789,7 +789,7 @@
       },
       "uk_desk@undead" : {
          "damage" : "1",
-         "location" : "IN_ROOM:Library",
+         "location" : "IN_ROOM:library@undead",
          "oflags" : [
             "NoGet"
          ],
@@ -801,7 +801,7 @@
          "bvalue" : "0"
       },
       "bcase@undead" : {
-         "location" : "IN_ROOM:Library",
+         "location" : "IN_ROOM:library@undead",
          "oflags" : [
             "NoGet",
             "container"
@@ -818,7 +818,7 @@
          "desc[0]" : "\nThe &+Bbookcase&* on the eastern wall has opened revealing a hidden passage."
       },
       "rice2@undead" : {
-         "location" : "IN_ROOM:paddy_field1",
+         "location" : "IN_ROOM:paddy_field1@undead",
          "oflags" : [
             "Food"
          ],
@@ -833,7 +833,7 @@
       },
       "b_table@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:BanquetHall",
+         "location" : "IN_ROOM:banquethall@undead",
          "oflags" : [
             "NoGet"
          ],
@@ -848,7 +848,7 @@
       },
       "m_boulder@undead" : {
          "desc[1]" : " A large &+Bboulder&* is balanced precariously on the ledge.",
-         "location" : "IN_ROOM:mountain_path3",
+         "location" : "IN_ROOM:mountain_path3@undead",
          "oflags" : [
             "Pushable",
             "noget"
@@ -865,7 +865,7 @@
       },
       "g_tooth4@undead" : {
          "damage" : "0",
-         "location" : "IN_CONTAINER:A_corpse",
+         "location" : "IN_CONTAINER:a_corpse@undead",
          "oflags" : "{ }",
          "armor" : "0",
          "name" : "G_tooth4",
@@ -879,7 +879,7 @@
       "diary@undead" : {
          "desc[1]" : "Shrouded in darkness sits a &+Bdiary&*.",
          "damage" : "1",
-         "location" : "IN_ROOM:PR_Room",
+         "location" : "IN_ROOM:pr_room@undead",
          "oflags" : [
             "Weapon",
             "GetFlips"
@@ -895,7 +895,7 @@
       },
       "g_dagger@undead" : {
          "damage" : "6",
-         "location" : "WIELDED_BY:Mercenary1",
+         "location" : "WIELDED_BY:mercenary1@undead",
          "oflags" : [
             "Weapon"
          ],
@@ -909,7 +909,7 @@
       },
       "book1@undead" : {
          "damage" : "1",
-         "location" : "IN_CONTAINER:BCase",
+         "location" : "IN_CONTAINER:bcase@undead",
          "oflags" : [
             "Weapon"
          ],
@@ -923,7 +923,7 @@
       },
       "g_robe@undead" : {
          "damage" : "0",
-         "location" : "WORN_BY:Mercenary1",
+         "location" : "WORN_BY:mercenary1@undead",
          "oflags" : [
             "Wearable",
             "armor"
@@ -942,7 +942,7 @@
       },
       "wheat2@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Larder4",
+         "location" : "IN_ROOM:larder4@undead",
          "oflags" : [
             "Food"
          ],
@@ -957,7 +957,7 @@
          "desc[0]" : "A few grains of &+Bwheat&* lie scattered here."
       },
       "throne@undead" : {
-         "location" : "IN_ROOM:ThroneRoom",
+         "location" : "IN_ROOM:throneroom@undead",
          "oflags" : [
             "NoGet"
          ],
@@ -971,7 +971,7 @@
       },
       "iot2@undead" : {
          "damage" : "15",
-         "location" : "IN_CONTAINER:U_Brazier",
+         "location" : "IN_CONTAINER:u_brazier@undead",
          "oflags" : [
             "Weapon",
             "Lit"
@@ -986,7 +986,7 @@
       },
       "iot3@undead" : {
          "damage" : "15",
-         "location" : "IN_CONTAINER:U_Brazier",
+         "location" : "IN_CONTAINER:u_brazier@undead",
          "oflags" : [
             "Lit",
             "Weapon"
@@ -1001,7 +1001,7 @@
       },
       "elfsoul@undead" : {
          "damage" : "1",
-         "location" : "IN_ROOM:Dungeon5",
+         "location" : "IN_ROOM:dungeon5@undead",
          "oflags" : [
             "GetFlips"
          ],
@@ -1016,7 +1016,7 @@
       },
       "mist_sword@undead" : {
          "damage" : "20",
-         "location" : "WIELDED_BY:Mist_Leader",
+         "location" : "WIELDED_BY:mist_leader@undead",
          "oflags" : [
             "Weapon",
             "Glowing",
@@ -1033,7 +1033,7 @@
       },
       "drawbridge@undead" : {
          "desc[1]" : "A raised &+Bdrawbridge&* blocks your passage &+Cnorth&*.",
-         "location" : "IN_ROOM:before_castle",
+         "location" : "IN_ROOM:before_castle@undead",
          "oflags" : [
             "NoGet"
          ],
@@ -1045,7 +1045,7 @@
          "desc[0]" : "A lowered &+Bdrawbridge&* leads north."
       },
       "moss_tree2@undead" : {
-         "location" : "IN_ROOM:moss_maze3",
+         "location" : "IN_ROOM:moss_maze3@undead",
          "oflags" : [
             "NoGet"
          ],
@@ -1055,7 +1055,7 @@
       },
       "beef1@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Larder6",
+         "location" : "IN_ROOM:larder6@undead",
          "oflags" : [
             "Food"
          ],
@@ -1071,7 +1071,7 @@
       },
       "u_brazier@undead" : {
          "damage" : "2",
-         "location" : "IN_ROOM:Dungeon8",
+         "location" : "IN_ROOM:dungeon8@undead",
          "oflags" : [
             "NoGet",
             "Lit",
@@ -1086,7 +1086,7 @@
          "desc[0]" : " "
       },
       "g_tooth5@undead" : {
-         "location" : "IN_CONTAINER:A_corpse",
+         "location" : "IN_CONTAINER:a_corpse@undead",
          "oflags" : "{ }",
          "name" : "G_tooth5",
          "examine" : "A bleached white alligator's &+Btooth&*.",
@@ -1098,7 +1098,7 @@
       },
       "book5@undead" : {
          "damage" : "1",
-         "location" : "IN_CONTAINER:BCase",
+         "location" : "IN_CONTAINER:bcase@undead",
          "oflags" : [
             "Weapon"
          ],
@@ -1111,7 +1111,7 @@
          "desc[0]" : "\nA large leather &+Bbook&* has been left here."
       },
       "rice1@undead" : {
-         "location" : "IN_ROOM:paddy_field1",
+         "location" : "IN_ROOM:paddy_field1@undead",
          "oflags" : [
             "Food"
          ],
@@ -1126,7 +1126,7 @@
       },
       "nothing@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Purgatory",
+         "location" : "IN_ROOM:purgatory@undead",
          "oflags" : [
             "Container"
          ],
@@ -1141,7 +1141,7 @@
       },
       "ham1@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Larder2",
+         "location" : "IN_ROOM:larder2@undead",
          "oflags" : [
             "Food"
          ],
@@ -1156,7 +1156,7 @@
          "desc[0]" : "\nA large chunk of boned &+Bham&* lies here."
       },
       "sandals@undead" : {
-         "location" : "WORN_BY:Mercenary1",
+         "location" : "WORN_BY:mercenary1@undead",
          "oflags" : [
             "Wearable"
          ],
@@ -1172,7 +1172,7 @@
          "desc[0]" : "A pair of leather &+Bsandals&* lie here."
       },
       "d_stump@undead" : {
-         "location" : "IN_ROOM:stony_path18",
+         "location" : "IN_ROOM:stony_path18@undead",
          "oflags" : [
             "Container",
             "Openable",
@@ -1188,7 +1188,7 @@
       },
       "wheat5@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Larder4",
+         "location" : "IN_ROOM:larder4@undead",
          "oflags" : [
             "Food"
          ],
@@ -1204,7 +1204,7 @@
       },
       "m_hat@undead" : {
          "damage" : "0",
-         "location" : "WORN_BY:Mercenary1",
+         "location" : "WORN_BY:mercenary1@undead",
          "oflags" : [
             "wearable",
             "armor",
@@ -1224,7 +1224,7 @@
       },
       "s_boots@undead" : {
          "damage" : "4",
-         "location" : "WORN_BY:Mercenary4",
+         "location" : "WORN_BY:mercenary4@undead",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -1243,7 +1243,7 @@
       },
       "bullheart@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Larder6",
+         "location" : "IN_ROOM:larder6@undead",
          "oflags" : [
             "Food"
          ],
@@ -1259,7 +1259,7 @@
       },
       "k_platemail@undead" : {
          "damage" : "0",
-         "location" : "WORN_BY:Mercenary2",
+         "location" : "WORN_BY:mercenary2@undead",
          "oflags" : [
             "Wearable",
             "armor"
@@ -1281,7 +1281,7 @@
       },
       "pigheart@undead" : {
          "damage" : "0",
-         "location" : "IN_ROOM:Larder3",
+         "location" : "IN_ROOM:larder3@undead",
          "oflags" : [
             "Food"
          ],
@@ -1296,7 +1296,7 @@
          "desc[0]" : "The bloody &+Bheart&* of a boar has been left here."
       },
       "mulberries2@undead" : {
-         "location" : "IN_ROOM:stony_path3",
+         "location" : "IN_ROOM:stony_path3@undead",
          "oflags" : [
             "food",
             "getflips"
@@ -1312,7 +1312,7 @@
          "desc[0]" : "Someone dropped some good looking &+Bberries&* here."
       },
       "moss_tree@undead" : {
-         "location" : "IN_ROOM:moss_maze1",
+         "location" : "IN_ROOM:moss_maze1@undead",
          "oflags" : [
             "NoGet"
          ],
@@ -1322,7 +1322,7 @@
       },
       "k_shield@undead" : {
          "damage" : "0",
-         "location" : "WORN_BY:Mercenary2",
+         "location" : "WORN_BY:mercenary2@undead",
          "oflags" : [
             "Wearable",
             "Shield",
@@ -1338,7 +1338,7 @@
          "desc[0]" : "A bright shiny &+Bshield&* has been left here."
       },
       "v_cross@undead" : {
-         "location" : "IN_CONTAINER:D_stump",
+         "location" : "IN_CONTAINER:d_stump@undead",
          "oflags" : [
             "Wearable",
             "Glowing",
@@ -1356,8 +1356,8 @@
    "loc" : {
       "larder6@undead" : {
          "exits" : {
-            "w" : "Larder5",
-            "n" : "Larder1"
+            "w" : "larder5@undead",
+            "n" : "larder1@undead"
          },
          "flags" : [
             "Dark"
@@ -1370,8 +1370,8 @@
       },
       "courtyard9@undead" : {
          "exits" : {
-            "w" : "Courtyard8",
-            "s" : "Courtyard6"
+            "w" : "courtyard8@undead",
+            "s" : "courtyard6@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1384,8 +1384,8 @@
       },
       "stony_path12@undead" : {
          "exits" : {
-            "e" : "stony_path11",
-            "w" : "stony_path13"
+            "e" : "stony_path11@undead",
+            "w" : "stony_path13@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1398,9 +1398,9 @@
       },
       "moss_maze1@undead" : {
          "exits" : {
-            "e" : "moss_maze1",
-            "w" : "moss_maze1",
-            "n" : "moss_maze2",
+            "e" : "moss_maze1@undead",
+            "w" : "moss_maze1@undead",
+            "n" : "moss_maze2@undead",
             "s" : "camelot90@camelot"
          },
          "flags" : [
@@ -1415,8 +1415,8 @@
       },
       "larder2@undead" : {
          "exits" : {
-            "w" : "Larder3",
-            "s" : "Larder4"
+            "w" : "larder3@undead",
+            "s" : "larder4@undead"
          },
          "flags" : [
             "Dark"
@@ -1429,7 +1429,7 @@
       },
       "dungeon5@undead" : {
          "exits" : {
-            "s" : "Dungeon4"
+            "s" : "dungeon4@undead"
          },
          "flags" : [
             "Hot"
@@ -1442,9 +1442,9 @@
       },
       "stony_path4@undead" : {
          "exits" : {
-            "w" : "stony_path3",
-            "n" : "stony_path5",
-            "s" : "paddy_field1"
+            "w" : "stony_path3@undead",
+            "n" : "stony_path5@undead",
+            "s" : "paddy_field1@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1457,8 +1457,8 @@
       },
       "dungeon2@undead" : {
          "exits" : {
-            "w" : "Dungeon1",
-            "d" : "dungeon3"
+            "w" : "dungeon1@undead",
+            "d" : "dungeon3@undead"
          },
          "flags" : [],
          "zone" : "undead",
@@ -1469,7 +1469,7 @@
       },
       "pr_room@undead" : {
          "exits" : {
-            "s" : "SecretPassage3"
+            "s" : "secretpassage3@undead"
          },
          "flags" : [
             "Dark",
@@ -1485,8 +1485,8 @@
       },
       "stony_path16@undead" : {
          "exits" : {
-            "n" : "stony_path15",
-            "s" : "stony_path17"
+            "n" : "stony_path15@undead",
+            "s" : "stony_path17@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1499,8 +1499,8 @@
       },
       "forest_path3@undead" : {
          "exits" : {
-            "w" : "forest_path4",
-            "s" : "forest_path2"
+            "w" : "forest_path4@undead",
+            "s" : "forest_path2@undead"
          },
          "flags" : [
             "outdoors"
@@ -1513,10 +1513,10 @@
       },
       "moss_maze5@undead" : {
          "exits" : {
-            "e" : "moss_maze1",
-            "w" : "moss_maze1",
-            "n" : "moss_maze6",
-            "s" : "moss_maze1"
+            "e" : "moss_maze1@undead",
+            "w" : "moss_maze1@undead",
+            "n" : "moss_maze6@undead",
+            "s" : "moss_maze1@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1529,8 +1529,8 @@
       },
       "stony_path20@undead" : {
          "exits" : {
-            "e" : "before_castle",
-            "w" : "stony_path19"
+            "e" : "before_castle@undead",
+            "w" : "stony_path19@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1543,9 +1543,9 @@
       },
       "stony_path9@undead" : {
          "exits" : {
-            "e" : "stony_path8",
-            "w" : "stony_path10",
-            "n" : "mountain_path"
+            "e" : "stony_path8@undead",
+            "w" : "stony_path10@undead",
+            "n" : "mountain_path@undead"
          },
          "flags" : [
             "outdoors"
@@ -1558,8 +1558,8 @@
       },
       "library@undead" : {
          "exits" : {
-            "e" : "^BCase",
-            "w" : "BanquetHall"
+            "e" : "^bcase@undead",
+            "w" : "banquethall@undead"
          },
          "flags" : [
             "Fastheal",
@@ -1574,10 +1574,10 @@
       },
       "courtyard2@undead" : {
          "exits" : {
-            "w" : "Courtyard1",
-            "e" : "Courtyard3",
-            "n" : "Courtyard5",
-            "s" : "Portcullis"
+            "w" : "courtyard1@undead",
+            "e" : "courtyard3@undead",
+            "n" : "courtyard5@undead",
+            "s" : "portcullis@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1590,9 +1590,9 @@
       },
       "swamp_land5@undead" : {
          "exits" : {
-            "w" : "swamp_land6",
-            "e" : "swamp_land1",
-            "n" : "swamp_land3"
+            "w" : "swamp_land6@undead",
+            "e" : "swamp_land1@undead",
+            "n" : "swamp_land3@undead"
          },
          "flags" : [
             "Outdoors",
@@ -1607,8 +1607,8 @@
       },
       "personalhell6@undead" : {
          "exits" : {
-            "w" : "PersonalHell7",
-            "s" : "PersonalHellA"
+            "w" : "personalhell7@undead",
+            "s" : "personalhella@undead"
          },
          "flags" : [
             "Soundproof"
@@ -1621,8 +1621,8 @@
       },
       "kitchen@undead" : {
          "exits" : {
-            "e" : "BanquetHall",
-            "w" : "larder1"
+            "e" : "banquethall@undead",
+            "w" : "larder1@undead"
          },
          "flags" : [
             "Dark",
@@ -1636,10 +1636,10 @@
       },
       "moss_maze6@undead" : {
          "exits" : {
-            "e" : "moss_maze1",
-            "w" : "moss_maze1",
-            "n" : "before_castle",
-            "s" : "moss_maze1"
+            "e" : "moss_maze1@undead",
+            "w" : "moss_maze1@undead",
+            "n" : "before_castle@undead",
+            "s" : "moss_maze1@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1652,9 +1652,9 @@
       },
       "courtyard8@undead" : {
          "exits" : {
-            "e" : "courtyard9",
-            "w" : "Courtyard7",
-            "s" : "Courtyard5"
+            "e" : "courtyard9@undead",
+            "w" : "courtyard7@undead",
+            "s" : "courtyard5@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1667,7 +1667,7 @@
       },
       "dungeon9@undead" : {
          "exits" : {
-            "w" : "Dungeon6"
+            "w" : "dungeon6@undead"
          },
          "flags" : [
             "Hot"
@@ -1680,7 +1680,7 @@
       },
       "larder7@undead" : {
          "exits" : {
-            "u" : "Larder5"
+            "u" : "larder5@undead"
          },
          "flags" : [
             "Dark"
@@ -1693,8 +1693,8 @@
       },
       "personalhell7@undead" : {
          "exits" : {
-            "e" : "PersonalHell6",
-            "s" : "PersonalHell8"
+            "e" : "personalhell6@undead",
+            "s" : "personalhell8@undead"
          },
          "flags" : [
             "Soundproof"
@@ -1707,9 +1707,9 @@
       },
       "courtyard6@undead" : {
          "exits" : {
-            "w" : "Courtyard5",
-            "n" : "Courtyard9",
-            "s" : "Courtyard3"
+            "w" : "courtyard5@undead",
+            "n" : "courtyard9@undead",
+            "s" : "courtyard3@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1722,8 +1722,8 @@
       },
       "secretpassage1@undead" : {
          "exits" : {
-            "w" : "^BCase_b",
-            "n" : "SecretPassage2"
+            "w" : "^bcase_b@undead",
+            "n" : "secretpassage2@undead"
          },
          "flags" : [],
          "zone" : "undead",
@@ -1734,8 +1734,8 @@
       },
       "battlements2@undead" : {
          "exits" : {
-            "w" : "Battlements1",
-            "n" : "battlements3"
+            "w" : "battlements1@undead",
+            "n" : "battlements3@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1748,9 +1748,9 @@
       },
       "courtyard3@undead" : {
          "exits" : {
-            "w" : "Courtyard2",
-            "u" : "Battlements1",
-            "n" : "Courtyard6"
+            "w" : "courtyard2@undead",
+            "u" : "battlements1@undead",
+            "n" : "courtyard6@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1763,9 +1763,9 @@
       },
       "stony_path17@undead" : {
          "exits" : {
-            "e" : "stony_path18",
-            "w" : "forest_path1",
-            "n" : "stony_path16"
+            "e" : "stony_path18@undead",
+            "w" : "forest_path1@undead",
+            "n" : "stony_path16@undead"
          },
          "flags" : [
             "Outdoor"
@@ -1778,7 +1778,7 @@
       },
       "mountain_path3@undead" : {
          "exits" : {
-            "d" : "mountain_path2"
+            "d" : "mountain_path2@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1791,8 +1791,8 @@
       },
       "stony_path6@undead" : {
          "exits" : {
-            "n" : "stony_path7",
-            "s" : "stony_path5"
+            "n" : "stony_path7@undead",
+            "s" : "stony_path5@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1805,10 +1805,10 @@
       },
       "moss_maze7@undead" : {
          "exits" : {
-            "e" : "moss_maze4",
-            "w" : "moss_maze1",
-            "n" : "moss_maze1",
-            "s" : "moss_maze1"
+            "e" : "moss_maze4@undead",
+            "w" : "moss_maze1@undead",
+            "n" : "moss_maze1@undead",
+            "s" : "moss_maze1@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1821,8 +1821,8 @@
       },
       "mountain_path5@undead" : {
          "exits" : {
-            "u" : "mountain_path6",
-            "d" : "mountain_path4"
+            "u" : "mountain_path6@undead",
+            "d" : "mountain_path4@undead"
          },
          "flags" : [
             "Outdoors",
@@ -1836,9 +1836,9 @@
       },
       "mountain_path2@undead" : {
          "exits" : {
-            "u" : "mountain_path3",
-            "n" : "mountain_path4",
-            "s" : "mountain_path"
+            "u" : "mountain_path3@undead",
+            "n" : "mountain_path4@undead",
+            "s" : "mountain_path@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1851,10 +1851,10 @@
       },
       "moss_maze4@undead" : {
          "exits" : {
-            "e" : "moss_maze5",
-            "w" : "moss_maze7",
-            "n" : "moss_maze1",
-            "s" : "moss_maze1"
+            "e" : "moss_maze5@undead",
+            "w" : "moss_maze7@undead",
+            "n" : "moss_maze1@undead",
+            "s" : "moss_maze1@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1867,8 +1867,8 @@
       },
       "stony_path10@undead" : {
          "exits" : {
-            "e" : "stony_path9",
-            "w" : "stony_path11"
+            "e" : "stony_path9@undead",
+            "w" : "stony_path11@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1881,7 +1881,7 @@
       },
       "dungeon7@undead" : {
          "exits" : {
-            "s" : "Dungeon6"
+            "s" : "dungeon6@undead"
          },
          "flags" : [
             "Hot"
@@ -1894,8 +1894,8 @@
       },
       "stony_path1@undead" : {
          "exits" : {
-            "e" : "stony_path2",
-            "w" : "before_castle"
+            "e" : "stony_path2@undead",
+            "w" : "before_castle@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1908,8 +1908,8 @@
       },
       "personalhell9@undead" : {
          "exits" : {
-            "e" : "PersonalHell2",
-            "n" : "PersonalHell8"
+            "e" : "personalhell2@undead",
+            "n" : "personalhell8@undead"
          },
          "flags" : [
             "Soundproof"
@@ -1922,8 +1922,8 @@
       },
       "personalhell3@undead" : {
          "exits" : {
-            "w" : "PersonalHell2",
-            "n" : "PersonalHell4"
+            "w" : "personalhell2@undead",
+            "n" : "personalhell4@undead"
          },
          "flags" : [
             "Soundproof"
@@ -1936,10 +1936,10 @@
       },
       "larder1@undead" : {
          "exits" : {
-            "e" : "Kitchen",
-            "w" : "Larder4",
-            "n" : "Larder2",
-            "s" : "Larder6"
+            "e" : "kitchen@undead",
+            "w" : "larder4@undead",
+            "n" : "larder2@undead",
+            "s" : "larder6@undead"
          },
          "flags" : [
             "Dark"
@@ -1966,8 +1966,8 @@
       },
       "corridor1@undead" : {
          "exits" : {
-            "n" : "BanquetHall",
-            "s" : "Courtyard8"
+            "n" : "banquethall@undead",
+            "s" : "courtyard8@undead"
          },
          "flags" : [
             "Cold",
@@ -1982,8 +1982,8 @@
       },
       "stony_path2@undead" : {
          "exits" : {
-            "e" : "stony_path3",
-            "w" : "stony_path1"
+            "e" : "stony_path3@undead",
+            "w" : "stony_path1@undead"
          },
          "flags" : [
             "Outdoors"
@@ -1996,8 +1996,8 @@
       },
       "stony_path14@undead" : {
          "exits" : {
-            "n" : "stony_path13",
-            "s" : "stony_path15"
+            "n" : "stony_path13@undead",
+            "s" : "stony_path15@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2010,7 +2010,7 @@
       },
       "personalhell1@undead" : {
          "exits" : {
-            "n" : "PersonalHell2"
+            "n" : "personalhell2@undead"
          },
          "flags" : [
             "Soundproof"
@@ -2023,8 +2023,8 @@
       },
       "forest_path4@undead" : {
          "exits" : {
-            "e" : "forest_path3",
-            "s" : "forest_path5"
+            "e" : "forest_path3@undead",
+            "s" : "forest_path5@undead"
          },
          "flags" : [
             "outdoors"
@@ -2037,9 +2037,9 @@
       },
       "courtyard4@undead" : {
          "exits" : {
-            "e" : "Courtyard5",
-            "n" : "Courtyard7",
-            "s" : "Courtyard1"
+            "e" : "courtyard5@undead",
+            "n" : "courtyard7@undead",
+            "s" : "courtyard1@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2052,9 +2052,9 @@
       },
       "larder4@undead" : {
          "exits" : {
-            "e" : "Larder1",
-            "n" : "Larder3",
-            "s" : "Larder5"
+            "e" : "larder1@undead",
+            "n" : "larder3@undead",
+            "s" : "larder5@undead"
          },
          "flags" : [
             "Dark"
@@ -2067,8 +2067,8 @@
       },
       "personalhell8@undead" : {
          "exits" : {
-            "n" : "PersonalHell7",
-            "s" : "PersonalHell9"
+            "n" : "personalhell7@undead",
+            "s" : "personalhell9@undead"
          },
          "flags" : [
             "Soundproof"
@@ -2081,7 +2081,7 @@
       },
       "corn_field1@undead" : {
          "exits" : {
-            "w" : "stony_path8"
+            "w" : "stony_path8@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2094,8 +2094,8 @@
       },
       "battlements1@undead" : {
          "exits" : {
-            "e" : "Battlements2",
-            "d" : "Courtyard3"
+            "e" : "battlements2@undead",
+            "d" : "courtyard3@undead"
          },
          "flags" : [
             "Outdoors",
@@ -2109,7 +2109,7 @@
       },
       "dungeon8@undead" : {
          "exits" : {
-            "n" : "Dungeon6"
+            "n" : "dungeon6@undead"
          },
          "flags" : [
             "Hot"
@@ -2144,8 +2144,8 @@
       },
       "swamp_land4@undead" : {
          "exits" : {
-            "w" : "swamp_land1",
-            "n" : "swamp_land2"
+            "w" : "swamp_land1@undead",
+            "n" : "swamp_land2@undead"
          },
          "flags" : [
             "Outdoors",
@@ -2160,9 +2160,9 @@
       },
       "before_castle@undead" : {
          "exits" : {
-            "e" : "stony_path1",
-            "w" : "stony_path20",
-            "s" : "moss_maze6"
+            "e" : "stony_path1@undead",
+            "w" : "stony_path20@undead",
+            "s" : "moss_maze6@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2175,10 +2175,10 @@
       },
       "dungeon6@undead" : {
          "exits" : {
-            "w" : "dungeon4",
-            "e" : "dungeon9",
-            "n" : "dungeon7",
-            "s" : "Dungeon8"
+            "w" : "dungeon4@undead",
+            "e" : "dungeon9@undead",
+            "n" : "dungeon7@undead",
+            "s" : "dungeon8@undead"
          },
          "flags" : [
             "Peaceful",
@@ -2192,9 +2192,9 @@
       },
       "swamp_land1@undead" : {
          "exits" : {
-            "w" : "swamp_land5",
-            "e" : "swamp_land4",
-            "n" : "paddy_field1"
+            "w" : "swamp_land5@undead",
+            "e" : "swamp_land4@undead",
+            "n" : "paddy_field1@undead"
          },
          "flags" : [
             "Outdoors",
@@ -2209,10 +2209,10 @@
       },
       "moss_maze3@undead" : {
          "exits" : {
-            "e" : "moss_maze1",
-            "w" : "moss_maze1",
-            "n" : "moss_maze4",
-            "s" : "moss_maze1"
+            "e" : "moss_maze1@undead",
+            "w" : "moss_maze1@undead",
+            "n" : "moss_maze4@undead",
+            "s" : "moss_maze1@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2236,8 +2236,8 @@
       },
       "personalhell4@undead" : {
          "exits" : {
-            "n" : "PersonalHell5",
-            "s" : "PersonalHell3"
+            "n" : "personalhell5@undead",
+            "s" : "personalhell3@undead"
          },
          "flags" : [
             "Soundproof"
@@ -2250,8 +2250,8 @@
       },
       "battlements8@undead" : {
          "exits" : {
-            "n" : "battlements9",
-            "s" : "Battlements7"
+            "n" : "battlements9@undead",
+            "s" : "battlements7@undead"
          },
          "flags" : [
             "Outdoors",
@@ -2265,8 +2265,8 @@
       },
       "forest_path2@undead" : {
          "exits" : {
-            "n" : "forest_path3",
-            "s" : "forest_path1"
+            "n" : "forest_path3@undead",
+            "s" : "forest_path1@undead"
          },
          "flags" : [
             "outdoors"
@@ -2279,7 +2279,7 @@
       },
       "throneroom@undead" : {
          "exits" : {
-            "s" : "WaitingRoom"
+            "s" : "waitingroom@undead"
          },
          "flags" : [],
          "zone" : "undead",
@@ -2290,8 +2290,8 @@
       },
       "dungeon1@undead" : {
          "exits" : {
-            "e" : "Dungeon2",
-            "w" : "ThroneRoom"
+            "e" : "dungeon2@undead",
+            "w" : "throneroom@undead"
          },
          "flags" : [],
          "zone" : "undead",
@@ -2302,8 +2302,8 @@
       },
       "secretpassage2@undead" : {
          "exits" : {
-            "n" : "SecretPassage3",
-            "s" : "SecretPassage1"
+            "n" : "secretpassage3@undead",
+            "s" : "secretpassage1@undead"
          },
          "flags" : [
             "Dark"
@@ -2316,8 +2316,8 @@
       },
       "stony_path5@undead" : {
          "exits" : {
-            "n" : "stony_path6",
-            "s" : "stony_path4"
+            "n" : "stony_path6@undead",
+            "s" : "stony_path4@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2330,8 +2330,8 @@
       },
       "stony_path18@undead" : {
          "exits" : {
-            "e" : "stony_path19",
-            "w" : "stony_path17"
+            "e" : "stony_path19@undead",
+            "w" : "stony_path17@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2344,7 +2344,7 @@
       },
       "swamp_land6@undead" : {
          "exits" : {
-            "e" : "swamp_land5"
+            "e" : "swamp_land5@undead"
          },
          "flags" : [
             "Outdoors",
@@ -2359,8 +2359,8 @@
       },
       "swamp_land3@undead" : {
          "exits" : {
-            "e" : "paddy_field1",
-            "s" : "swamp_land5"
+            "e" : "paddy_field1@undead",
+            "s" : "swamp_land5@undead"
          },
          "flags" : [
             "Outdoors",
@@ -2375,8 +2375,8 @@
       },
       "battlements9@undead" : {
          "exits" : {
-            "n" : "battlements10",
-            "s" : "Battlements8"
+            "n" : "battlements10@undead",
+            "s" : "battlements8@undead"
          },
          "flags" : [
             "Outdoors",
@@ -2390,9 +2390,9 @@
       },
       "larder5@undead" : {
          "exits" : {
-            "e" : "Larder6",
-            "n" : "Larder4",
-            "d" : "Larder7"
+            "e" : "larder6@undead",
+            "n" : "larder4@undead",
+            "d" : "larder7@undead"
          },
          "flags" : [
             "Dark"
@@ -2405,9 +2405,9 @@
       },
       "dungeon4@undead" : {
          "exits" : {
-            "w" : "Dungeon3",
-            "e" : "Dungeon6",
-            "n" : "Dungeon5"
+            "w" : "dungeon3@undead",
+            "e" : "dungeon6@undead",
+            "n" : "dungeon5@undead"
          },
          "flags" : [
             "Hot"
@@ -2420,8 +2420,8 @@
       },
       "secretpassage3@undead" : {
          "exits" : {
-            "n" : "PR_Room",
-            "s" : "SecretPassage2"
+            "n" : "pr_room@undead",
+            "s" : "secretpassage2@undead"
          },
          "flags" : [
             "Dark"
@@ -2434,8 +2434,8 @@
       },
       "battlements3@undead" : {
          "exits" : {
-            "n" : "battlements4",
-            "s" : "Battlements2"
+            "n" : "battlements4@undead",
+            "s" : "battlements2@undead"
          },
          "flags" : [
             "Outdoors",
@@ -2449,8 +2449,8 @@
       },
       "stony_path7@undead" : {
          "exits" : {
-            "n" : "stony_path8",
-            "s" : "stony_path6"
+            "n" : "stony_path8@undead",
+            "s" : "stony_path6@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2463,8 +2463,8 @@
       },
       "battlements7@undead" : {
          "exits" : {
-            "e" : "Battlements6",
-            "n" : "battlements8"
+            "e" : "battlements6@undead",
+            "n" : "battlements8@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2477,8 +2477,8 @@
       },
       "forest_path1@undead" : {
          "exits" : {
-            "e" : "stony_path17",
-            "n" : "forest_path2"
+            "e" : "stony_path17@undead",
+            "n" : "forest_path2@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2491,9 +2491,9 @@
       },
       "personalhell2@undead" : {
          "exits" : {
-            "w" : "PersonalHell9",
-            "e" : "PersonalHell3",
-            "s" : "PersonalHell1"
+            "w" : "personalhell9@undead",
+            "e" : "personalhell3@undead",
+            "s" : "personalhell1@undead"
          },
          "flags" : [
             "Soundproof"
@@ -2506,8 +2506,8 @@
       },
       "mountain_path4@undead" : {
          "exits" : {
-            "u" : "mountain_path5",
-            "s" : "mountain_path2"
+            "u" : "mountain_path5@undead",
+            "s" : "mountain_path2@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2520,9 +2520,9 @@
       },
       "stony_path8@undead" : {
          "exits" : {
-            "e" : "corn_field1",
-            "w" : "stony_path9",
-            "s" : "stony_path7"
+            "e" : "corn_field1@undead",
+            "w" : "stony_path9@undead",
+            "s" : "stony_path7@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2535,10 +2535,10 @@
       },
       "moss_maze2@undead" : {
          "exits" : {
-            "e" : "moss_maze1",
-            "w" : "moss_maze3",
-            "n" : "moss_maze1",
-            "s" : "moss_maze1"
+            "e" : "moss_maze1@undead",
+            "w" : "moss_maze3@undead",
+            "n" : "moss_maze1@undead",
+            "s" : "moss_maze1@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2551,8 +2551,8 @@
       },
       "dungeon3@undead" : {
          "exits" : {
-            "e" : "Dungeon4",
-            "u" : "Dungeon2"
+            "e" : "dungeon4@undead",
+            "u" : "dungeon2@undead"
          },
          "flags" : [],
          "zone" : "undead",
@@ -2563,8 +2563,8 @@
       },
       "stony_path3@undead" : {
          "exits" : {
-            "e" : "stony_path4",
-            "w" : "stony_path2"
+            "e" : "stony_path4@undead",
+            "w" : "stony_path2@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2577,7 +2577,7 @@
       },
       "drawbridge@undead" : {
          "exits" : {
-            "s" : "before_castle"
+            "s" : "before_castle@undead"
          },
          "flags" : [
             "Outdoors",
@@ -2591,10 +2591,10 @@
       },
       "courtyard5@undead" : {
          "exits" : {
-            "w" : "Courtyard4",
-            "e" : "Courtyard6",
-            "n" : "Courtyard8",
-            "s" : "Courtyard2"
+            "w" : "courtyard4@undead",
+            "e" : "courtyard6@undead",
+            "n" : "courtyard8@undead",
+            "s" : "courtyard2@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2607,8 +2607,8 @@
       },
       "battlements6@undead" : {
          "exits" : {
-            "w" : "Battlements7",
-            "d" : "Courtyard1"
+            "w" : "battlements7@undead",
+            "d" : "courtyard1@undead"
          },
          "flags" : [
             "Outdoors",
@@ -2622,8 +2622,8 @@
       },
       "larder3@undead" : {
          "exits" : {
-            "e" : "Larder2",
-            "s" : "Larder4"
+            "e" : "larder2@undead",
+            "s" : "larder4@undead"
          },
          "flags" : [
             "Dark"
@@ -2636,8 +2636,8 @@
       },
       "courtyard7@undead" : {
          "exits" : {
-            "e" : "Courtyard8",
-            "s" : "Courtyard4"
+            "e" : "courtyard8@undead",
+            "s" : "courtyard4@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2650,7 +2650,7 @@
       },
       "battlements5@undead" : {
          "exits" : {
-            "s" : "Battlements4"
+            "s" : "battlements4@undead"
          },
          "flags" : [
             "Outdoors",
@@ -2664,8 +2664,8 @@
       },
       "stony_path19@undead" : {
          "exits" : {
-            "e" : "stony_path20",
-            "w" : "stony_path18"
+            "e" : "stony_path20@undead",
+            "w" : "stony_path18@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2678,9 +2678,9 @@
       },
       "courtyard1@undead" : {
          "exits" : {
-            "e" : "Courtyard2",
-            "u" : "Battlements6",
-            "n" : "Courtyard4"
+            "e" : "courtyard2@undead",
+            "u" : "battlements6@undead",
+            "n" : "courtyard4@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2704,9 +2704,9 @@
       },
       "stony_path13@undead" : {
          "exits" : {
-            "e" : "stony_path12",
-            "n" : "green_field1",
-            "s" : "stony_path14"
+            "e" : "stony_path12@undead",
+            "n" : "green_field1@undead",
+            "s" : "stony_path14@undead"
          },
          "flags" : [
             "Outdoor"
@@ -2719,8 +2719,8 @@
       },
       "stony_path11@undead" : {
          "exits" : {
-            "e" : "stony_path10",
-            "w" : "stony_path12"
+            "e" : "stony_path10@undead",
+            "w" : "stony_path12@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2733,10 +2733,10 @@
       },
       "banquethall@undead" : {
          "exits" : {
-            "w" : "kitchen",
-            "e" : "library",
-            "n" : "waitingroom",
-            "s" : "corridor1"
+            "w" : "kitchen@undead",
+            "e" : "library@undead",
+            "n" : "waitingroom@undead",
+            "s" : "corridor1@undead"
          },
          "flags" : [
             "Hot",
@@ -2750,7 +2750,7 @@
       },
       "mountain_path6@undead" : {
          "exits" : {
-            "d" : "mountain_path5"
+            "d" : "mountain_path5@undead"
          },
          "flags" : [
             "Outdoors",
@@ -2765,7 +2765,7 @@
       },
       "portcullis@undead" : {
          "exits" : {
-            "n" : "Courtyard2",
+            "n" : "courtyard2@undead",
             "s" : "drawbridge@undead"
          },
          "flags" : [
@@ -2779,8 +2779,8 @@
       },
       "swamp_land2@undead" : {
          "exits" : {
-            "w" : "paddy_field1",
-            "s" : "swamp_land4"
+            "w" : "paddy_field1@undead",
+            "s" : "swamp_land4@undead"
          },
          "flags" : [
             "Outdoors",
@@ -2795,8 +2795,8 @@
       },
       "waitingroom@undead" : {
          "exits" : {
-            "n" : "ThroneRoom",
-            "s" : "BanquetHall"
+            "n" : "throneroom@undead",
+            "s" : "banquethall@undead"
          },
          "flags" : [
             "Cold"
@@ -2809,8 +2809,8 @@
       },
       "stony_path15@undead" : {
          "exits" : {
-            "n" : "stony_path14",
-            "s" : "stony_path16"
+            "n" : "stony_path14@undead",
+            "s" : "stony_path16@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2823,8 +2823,8 @@
       },
       "mountain_path@undead" : {
          "exits" : {
-            "n" : "mountain_path2",
-            "s" : "stony_path9"
+            "n" : "mountain_path2@undead",
+            "s" : "stony_path9@undead"
          },
          "flags" : [
             "Outdoors",
@@ -2838,10 +2838,10 @@
       },
       "paddy_field1@undead" : {
          "exits" : {
-            "w" : "swamp_land3",
-            "e" : "swamp_land2",
-            "n" : "stony_path4",
-            "s" : "swamp_land1"
+            "w" : "swamp_land3@undead",
+            "e" : "swamp_land2@undead",
+            "n" : "stony_path4@undead",
+            "s" : "swamp_land1@undead"
          },
          "flags" : [
             "Outdoors",
@@ -2857,8 +2857,8 @@
       },
       "personalhell5@undead" : {
          "exits" : {
-            "w" : "PersonalHell6",
-            "s" : "PersonalHell4"
+            "w" : "personalhell6@undead",
+            "s" : "personalhell4@undead"
          },
          "flags" : [
             "Soundproof"
@@ -2871,8 +2871,8 @@
       },
       "battlements4@undead" : {
          "exits" : {
-            "n" : "battlements5",
-            "s" : "Battlements3"
+            "n" : "battlements5@undead",
+            "s" : "battlements3@undead"
          },
          "flags" : [
             "Outdoors",
@@ -2886,7 +2886,7 @@
       },
       "green_field1@undead" : {
          "exits" : {
-            "s" : "stony_path13"
+            "s" : "stony_path13@undead"
          },
          "flags" : [
             "Outdoors"
@@ -2901,7 +2901,7 @@
    "mob" : {
       "s_rat6@undead" : {
          "damage" : "6",
-         "location" : "swamp_land1",
+         "location" : "swamp_land1@undead",
          "armor" : "0",
          "name" : "S_rat6",
          "examine" : "\nIt's small, furry and &+Rrat&* shaped. Ideal shape and size for a rat it\nwould appear.",
@@ -2924,7 +2924,7 @@
             "VTouch"
          ],
          "damage" : "10",
-         "location" : "WaitingRoom",
+         "location" : "waitingroom@undead",
          "armor" : "10",
          "name" : "Hydra10",
          "examine" : "The Mighty eleven headed &+Rhydra&*, Destroyer of Worlds attacks you.",
@@ -2951,7 +2951,7 @@
             "NegShock"
          ],
          "damage" : "15",
-         "location" : "CourtYard1",
+         "location" : "courtyard1@undead",
          "armor" : "10",
          "name" : "S_warriorg3",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle creature.\nWhatever evil produced the corruption of nature needs to be stopped. You \nstare into the undead eye sockets of this beast for some small flicker\nof life, all you get in return is the darkness of the void.",
@@ -2973,7 +2973,7 @@
       },
       "corn_field_crow@undead" : {
          "damage" : "6",
-         "location" : "corn_field1",
+         "location" : "corn_field1@undead",
          "armor" : "0",
          "name" : "Corn_field_crow",
          "examine" : "\nThis &+Rcrow&* looks like all it is doing is sadly waiting for either its \nfriends to return or the corn ripen.",
@@ -2997,7 +2997,7 @@
             "NegMissile"
          ],
          "damage" : "20",
-         "location" : "stony_path6",
+         "location" : "stony_path6@undead",
          "armor" : "8",
          "name" : "U_gator1",
          "examine" : "\nYou notice that this &+Rgator&* is WAY to thin to be alive.  Rotting\nskin hangs limply from the bleached white bones.",
@@ -3023,7 +3023,7 @@
             "NegShock"
          ],
          "damage" : "5",
-         "location" : "Larder1",
+         "location" : "larder1@undead",
          "armor" : "10",
          "name" : "S_Rat10b",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle\ncreature. You wonder,  'Is there no end to the undead creatures here?' ",
@@ -3050,7 +3050,7 @@
             "NegMissile"
          ],
          "damage" : "10",
-         "location" : "stony_path8",
+         "location" : "stony_path8@undead",
          "armor" : "10",
          "name" : "S_warrior4",
          "examine" : "\nYou stare into the empty eye sockets of this hideous deformation.  Whatever \nevil created this monstrosity certainly should not be taken lightly.",
@@ -3075,7 +3075,7 @@
             "Frost"
          ],
          "damage" : "10",
-         "location" : "WaitingRoom",
+         "location" : "waitingroom@undead",
          "armor" : "10",
          "name" : "Hydra2",
          "examine" : "The Mighty eleven headed &+Rhydra&*, Destroyer of Worlds attacks you.",
@@ -3102,7 +3102,7 @@
             "NegShock"
          ],
          "damage" : "5",
-         "location" : "Larder1",
+         "location" : "larder1@undead",
          "armor" : "10",
          "name" : "S_Rat2b",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle\ncreature. You wonder,  'Is there no end to the undead creatures here?' ",
@@ -3125,7 +3125,7 @@
       },
       "mercenary2@undead" : {
          "damage" : "8",
-         "location" : "forest_path4",
+         "location" : "forest_path4@undead",
          "armor" : "2",
          "name" : "Mercenary2",
          "examine" : "\nAs you look at &+RKhaos&* he turns and fixes you with an impassive \nglare that chills you to very core of your being.  He considers you\nas one might consider an insect,  moments later he turns his attention\nback to more pressing matters, obviously unimpressed.  You breathe a \nsigh of relief, with the knowledge that he considers you too \ninsignificant to waste any time or effort on.",
@@ -3147,7 +3147,7 @@
       },
       "mercenary3@undead" : {
          "damage" : "8",
-         "location" : "forest_path4",
+         "location" : "forest_path4@undead",
          "armor" : "2",
          "name" : "Mercenary3",
          "examine" : "\n&+RGiovanna&* looks at you with a sparkle in her eye. She looks you over \nand gets a look on her face that somehow says 'poor, weak little thing'.",
@@ -3172,7 +3172,7 @@
       },
       "mist_lion2@undead" : {
          "damage" : "15",
-         "location" : "moss_maze6",
+         "location" : "moss_maze6@undead",
          "speed" : "0",
          "aggression" : "99",
          "armor" : "10",
@@ -3184,7 +3184,7 @@
       },
       "s_rat1@undead" : {
          "damage" : "6",
-         "location" : "swamp_land6",
+         "location" : "swamp_land6@undead",
          "armor" : "0",
          "name" : "S_rat1",
          "examine" : "\nIt's small, furry and &+Rrat&* shaped. Ideal shape and size for a rat it\nwould appear.",
@@ -3211,7 +3211,7 @@
             "NegShock"
          ],
          "damage" : "5",
-         "location" : "Larder1",
+         "location" : "larder1@undead",
          "armor" : "10",
          "name" : "S_Rat9b",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle\ncreature. You wonder,  'Is there no end to the undead creatures here?' ",
@@ -3239,7 +3239,7 @@
             "NegShock"
          ],
          "damage" : "5",
-         "location" : "Larder1",
+         "location" : "larder1@undead",
          "armor" : "10",
          "name" : "S_Rat3b",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle\ncreature. You wonder,  'Is there no end to the undead creatures here?' ",
@@ -3262,7 +3262,7 @@
       },
       "nightmare2@undead" : {
          "damage" : "15",
-         "location" : "PersonalHell2",
+         "location" : "personalhell2@undead",
          "armor" : "0",
          "name" : "Nightmare2",
          "examine" : "\nAs you examine this creature of the void, its shape alters as it slowly\ntransforms into your worst &+Rnightmare&*.",
@@ -3277,7 +3277,7 @@
       },
       "s_rat2@undead" : {
          "damage" : "6",
-         "location" : "swamp_land5",
+         "location" : "swamp_land5@undead",
          "armor" : "0",
          "name" : "S_rat2",
          "examine" : "\nIt's small, furry and &+Rrat&* shaped. Ideal shape and size for a rat it\nwould appear.",
@@ -3300,7 +3300,7 @@
             "Cripple"
          ],
          "damage" : "10",
-         "location" : "WaitingRoom",
+         "location" : "waitingroom@undead",
          "armor" : "10",
          "name" : "Hydra7",
          "examine" : "The Mighty eleven headed &+Rhydra&*, Destroyer of Worlds attacks you.",
@@ -3325,7 +3325,7 @@
             "Mute"
          ],
          "damage" : "10",
-         "location" : "WaitingRoom",
+         "location" : "waitingroom@undead",
          "armor" : "10",
          "name" : "Hydra9",
          "examine" : "The Mighty eleven headed &+Rhydra&*, Destroyer of Worlds attacks you.",
@@ -3347,7 +3347,7 @@
       },
       "hellhound667@undead" : {
          "damage" : "15",
-         "location" : "PersonalHellA",
+         "location" : "personalhella@undead",
          "armor" : "0",
          "name" : "HellHound667",
          "examine" : "\nThis large fiery dog looks you over as though waiting for something.",
@@ -3372,7 +3372,7 @@
             "NegShock"
          ],
          "damage" : "30",
-         "location" : "ThroneRoom",
+         "location" : "throneroom@undead",
          "armor" : "50",
          "name" : "Undead_King",
          "examine" : "\n&+RThe Undead King&* &+rlooks at you contemptuously through empty eye sockets,\n&+rand speaks....\n  &+w'You have done well to reach me my friend, and I congratulate you on\n&+wbeing far more powerful than I gave you credit for.  In return for your\n&+wgreat success, I will offer you in return your life.  You may leave now;\n&+wit is your last chance.  You see you forgot one thing, while my minions\n&+wmay be susceptible to you, I am truly undead,  I have lived for many\n&+wthousands of years.  The simple reason being I cannot be killed.  You\n&+wcannot kill the undead, this is something you seem to have over looked.'\n&+RThe Undead king&* &+rthen turns and looks you squarely in the face, sighs,\n&+rand puts his hand on your shoulder.\n\n&+rHe continues ...\n     &+w'I was once as you are now, we are very much alike you and I. You\n&+wknow I have seen few with such a passion for killing, I think we would\n&+wmake a good team no?'",
@@ -3397,7 +3397,7 @@
       },
       "nightmare9@undead" : {
          "damage" : "15",
-         "location" : "PersonalHell9",
+         "location" : "personalhell9@undead",
          "armor" : "0",
          "name" : "Nightmare9",
          "examine" : "\nAs you examine this creature of the void, its shape alters as it slowly\ntransforms into your worst &+Rnightmare&*.",
@@ -3417,7 +3417,7 @@
             "NegShock"
          ],
          "damage" : "5",
-         "location" : "Larder1",
+         "location" : "larder1@undead",
          "armor" : "10",
          "name" : "S_Rat11b",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle\ncreature. You wonder,  'Is there no end to the undead creatures here?' ",
@@ -3440,7 +3440,7 @@
       },
       "s_rat4@undead" : {
          "damage" : "6",
-         "location" : "swamp_land3",
+         "location" : "swamp_land3@undead",
          "armor" : "0",
          "name" : "S_rat4",
          "examine" : "\nIt's small, furry and &+Rrat&* shaped. Ideal shape and size for a rat it\nwould appear.",
@@ -3464,7 +3464,7 @@
             "NegMissile"
          ],
          "damage" : "10",
-         "location" : "stony_path13",
+         "location" : "stony_path13@undead",
          "armor" : "10",
          "name" : "S_warrior5",
          "examine" : "\nYou stare into the empty eye sockets of this hideous deformation.  Whatever \nevil created this monstrosity certainly should not be taken lightly.",
@@ -3490,7 +3490,7 @@
             "NegMissile"
          ],
          "damage" : "10",
-         "location" : "stony_path17",
+         "location" : "stony_path17@undead",
          "armor" : "10",
          "name" : "S_warrior6",
          "examine" : "\nYou stare into the empty eye sockets of this hideous deformation.  Whatever \nevil created this monstrosity certainly should not be taken lightly.",
@@ -3512,7 +3512,7 @@
       },
       "prisonguard@undead" : {
          "damage" : "20",
-         "location" : "Dungeon4",
+         "location" : "dungeon4@undead",
          "armor" : "0",
          "name" : "PrisonGuard",
          "examine" : "\nYou look Tinkerbell up and down and think, her name really does not fit.  \nAt 6 foot 2 and with a physique Conan would be proud of you think that \nJumbo may be a more appropriate name, but you are in no mood to tell her \nthat.  On her left well muscled arm is a tattoo reading 'I luv mum'.",
@@ -3539,7 +3539,7 @@
             "NegShock"
          ],
          "damage" : "5",
-         "location" : "Larder1",
+         "location" : "larder1@undead",
          "armor" : "10",
          "name" : "S_Rat5b",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle\ncreature. You wonder,  'Is there no end to the undead creatures here?' ",
@@ -3567,7 +3567,7 @@
             "NegShock"
          ],
          "damage" : "5",
-         "location" : "Larder1",
+         "location" : "larder1@undead",
          "armor" : "10",
          "name" : "S_Rat8b",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle\ncreature. You wonder,  'Is there no end to the undead creatures here?' ",
@@ -3595,7 +3595,7 @@
             "NegShock"
          ],
          "damage" : "10",
-         "location" : "Portcullis",
+         "location" : "portcullis@undead",
          "armor" : "10",
          "name" : "S_warriorg1",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle creature.\nWhatever evil produced the corruption of nature needs to be stopped.  You \nstare into the undead eye sockets of this beast for some small flicker of \nlife, all you get in return is the darkness of the void.",
@@ -3621,7 +3621,7 @@
             "Blind"
          ],
          "damage" : "10",
-         "location" : "WaitingRoom",
+         "location" : "waitingroom@undead",
          "armor" : "10",
          "name" : "Hydra5",
          "examine" : "The Mighty eleven headed &+Rhydra&*, Destroyer of Worlds attacks you.",
@@ -3643,7 +3643,7 @@
       },
       "nightmare5@undead" : {
          "damage" : "15",
-         "location" : "PersonalHell5",
+         "location" : "personalhell5@undead",
          "armor" : "0",
          "name" : "Nightmare5",
          "examine" : "\nAs you examine this creature of the void, its shape alters as it slowly\ntransforms into your worst &+Rnightmare&*.",
@@ -3661,7 +3661,7 @@
             "Deaf"
          ],
          "damage" : "10",
-         "location" : "WaitingRoom",
+         "location" : "waitingroom@undead",
          "armor" : "10",
          "name" : "Hydra8",
          "examine" : "The Mighty eleven headed &+Rhydra&*, Destroyer of Worlds attacks you.",
@@ -3686,7 +3686,7 @@
             "Fireball"
          ],
          "damage" : "10",
-         "location" : "WaitingRoom",
+         "location" : "waitingroom@undead",
          "armor" : "10",
          "name" : "Hydra1",
          "examine" : "The Mighty eleven headed &+Rhydra&*, Destroyer of Worlds attacks you.",
@@ -3708,7 +3708,7 @@
       },
       "s_rat3@undead" : {
          "damage" : "6",
-         "location" : "swamp_land4",
+         "location" : "swamp_land4@undead",
          "armor" : "0",
          "name" : "S_rat3",
          "examine" : "\nIt's small, furry and &+Rrat&* shaped. Ideal shape and size for a rat it\nwould appear.",
@@ -3735,7 +3735,7 @@
             "NegShock"
          ],
          "damage" : "5",
-         "location" : "Larder1",
+         "location" : "larder1@undead",
          "armor" : "10",
          "name" : "S_Rat1b",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle creature.\nYou wonder,  'Is there no end to the undead creatures here?'",
@@ -3762,7 +3762,7 @@
             "NegMissile"
          ],
          "damage" : "10",
-         "location" : "stony_path20",
+         "location" : "stony_path20@undead",
          "armor" : "10",
          "name" : "S_warrior2",
          "examine" : "\nYou stare into the empty eye sockets of this hideous deformation.  Whatever \nevil created this monstrosity certainly should not be taken lightly.",
@@ -3787,7 +3787,7 @@
             "Shock"
          ],
          "damage" : "10",
-         "location" : "WaitingRoom",
+         "location" : "waitingroom@undead",
          "armor" : "10",
          "name" : "Hydra3",
          "examine" : "The Mighty eleven headed &+Rhydra&*, Destroyer of Worlds attacks you.",
@@ -3809,7 +3809,7 @@
       },
       "amanda@undead" : {
          "damage" : "0",
-         "location" : "Dungeon5",
+         "location" : "dungeon5@undead",
          "armor" : "0",
          "name" : "Amanda",
          "examine" : "\nThis girl was surely once very beautiful - even with her blood soaked\nhair, and badly broken and twisted limbs this is obvious.  There is\nsomething strange about this place. You can see her very &+Bsoul&* clutching \nonto her, fighting for every precious moment of life it may possess. You\ntry to talk to her, but she is incoherent.  Momentarily her eyes clear.\nShe looks you straight in the eyes and pleads 'help me...' in a low weak\nvoice. She then lapses into unconsciousness...\n",
@@ -3826,7 +3826,7 @@
       },
       "nightmare4@undead" : {
          "damage" : "15",
-         "location" : "PersonalHell4",
+         "location" : "personalhell4@undead",
          "armor" : "0",
          "name" : "Nightmare4",
          "examine" : "\nAs you examine this creature of the void, its shape alters as it slowly\ntransforms into your worst &+Rnightmare&*.",
@@ -3846,7 +3846,7 @@
             "NegShock"
          ],
          "damage" : "5",
-         "location" : "Larder1",
+         "location" : "larder1@undead",
          "armor" : "10",
          "name" : "S_Rat12b",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle creature.\nYou wonder,  'Is there no end to the undead creatures here?' ",
@@ -3869,7 +3869,7 @@
       },
       "mist_lion1@undead" : {
          "damage" : "15",
-         "location" : "moss_maze7",
+         "location" : "moss_maze7@undead",
          "armor" : "10",
          "name" : "Mist_lion1",
          "examine" : "You see a large powerful &+RLion&* as it leaps at you.",
@@ -3892,7 +3892,7 @@
             "NegShock"
          ],
          "damage" : "20",
-         "location" : "CourtYard3",
+         "location" : "courtyard3@undead",
          "armor" : "10",
          "name" : "S_warriorg4",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle creature.\nWhatever evil produced the corruption of nature needs to be stopped.  You \nstare into the undead eye sockets of this beast for some small flicker\nof life, all you get in return is the darkness of the void.",
@@ -3914,7 +3914,7 @@
       },
       "akoo@undead" : {
          "damage" : "10",
-         "location" : "ThroneRoom",
+         "location" : "throneroom@undead",
          "armor" : "0",
          "name" : "Akoo",
          "examine" : "\nAs you examine the mighty &+RAkoo&* she crackles with magical fire. Her eyes \nblaze with hatred as she prepares to guard her master to the last.  She rises \nto twice her height producing a very impressive vision of power and might. \nShe says,  'I am &+RAkoo P Mai&*; eater of worlds.  Do not trifle with me\nlightly for my power is unsurpassed.'",
@@ -3931,7 +3931,7 @@
       },
       "nightmare7@undead" : {
          "damage" : "15",
-         "location" : "PersonalHell7",
+         "location" : "personalhell7@undead",
          "armor" : "0",
          "name" : "Nightmare7",
          "examine" : "\nAs you examine this creature of the void, its shape alters as it slowly\ntransforms into your worst &+Rnightmare&*.",
@@ -3950,7 +3950,7 @@
             "NegMissile"
          ],
          "damage" : "10",
-         "location" : "stony_path11",
+         "location" : "stony_path11@undead",
          "armor" : "0",
          "name" : "U_gator2",
          "examine" : "\nThis &+Ralligator&* looks as though it has been through a tremendous\nbattle.  It may have escaped but it is mortally wounded.  It looks\nat you with empty eye sockets.  Maybe this monstrosity wishes for\nmercy....",
@@ -3967,7 +3967,7 @@
       },
       "hellhound1@undead" : {
          "damage" : "15",
-         "location" : "PersonalHellA",
+         "location" : "personalhella@undead",
          "armor" : "0",
          "name" : "HellHound1",
          "examine" : "\nThis large fiery dog has guarded these regions for thousands of years, she\ndoes not seem impressed by your intrusion.",
@@ -3986,7 +3986,7 @@
       },
       "m_golem@undead" : {
          "damage" : "6",
-         "location" : "forest_path2",
+         "location" : "forest_path2@undead",
          "armor" : "0",
          "name" : "M_golem",
          "examine" : "\nThis thing is huge.  It has been constructed using arcane powers beyond your \ncomprehension.  It's massive bulk provides an effective barrier.",
@@ -4006,7 +4006,7 @@
       },
       "mist_lion4@undead" : {
          "damage" : "15",
-         "location" : "moss_maze7",
+         "location" : "moss_maze7@undead",
          "armor" : "10",
          "name" : "Mist_lion4",
          "examine" : "You see a large powerful &+RLion&* as it leaps at you.",
@@ -4028,7 +4028,7 @@
             "NegMissile"
          ],
          "damage" : "10",
-         "location" : "stony_path4",
+         "location" : "stony_path4@undead",
          "armor" : "10",
          "name" : "S_warrior3",
          "examine" : "\nYou stare into the empty eye sockets of this hideous deformation.  Whatever \nevil created this monstrosity certainly should not be taken lightly.",
@@ -4055,7 +4055,7 @@
             "NegShock"
          ],
          "damage" : "25",
-         "location" : "SecretPassage1",
+         "location" : "secretpassage1@undead",
          "armor" : "30",
          "name" : "S_Guard",
          "examine" : "\nYou stare at the bleached white bones of this once mighty creature.  You\nwonder,  'Is there no end to the undead creatures here?' ",
@@ -4081,7 +4081,7 @@
             "NegMissile"
          ],
          "damage" : "20",
-         "location" : "stony_path15",
+         "location" : "stony_path15@undead",
          "armor" : "8",
          "name" : "U_gator3",
          "examine" : "\nYou notice that this &+Ralligator&* is WAY to thin to actually be alive.\nRotting skin hangs limply from the bleached white bones.",
@@ -4107,7 +4107,7 @@
             "NegShock"
          ],
          "damage" : "15",
-         "location" : "Battlements8",
+         "location" : "battlements8@undead",
          "armor" : "10",
          "name" : "S_warriorg7",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle creature.\nYou wonder, is there no end to the undead creatures here.",
@@ -4132,7 +4132,7 @@
       },
       "m_giant@undead" : {
          "damage" : "20",
-         "location" : "mountain_path2",
+         "location" : "mountain_path2@undead",
          "armor" : "0",
          "name" : "M_giant",
          "examine" : "\nThis guy is truly HUGE.  His muscles bulge as he looks at you\ncontemptuously.  You can see on his belt the head of his various\ntrophies such as harpies, unicorns, fractal dragons. This is \ncertainly not a giant to be taken lightly.  Do you feel lucky?",
@@ -4156,7 +4156,7 @@
             "IceStorm"
          ],
          "damage" : "10",
-         "location" : "WaitingRoom",
+         "location" : "waitingroom@undead",
          "armor" : "10",
          "name" : "Hydra6",
          "examine" : "The Mighty eleven headed &+Rhydra&*, Destroyer of Worlds attacks you.",
@@ -4183,7 +4183,7 @@
             "NegShock"
          ],
          "damage" : "40",
-         "location" : "Portcullis",
+         "location" : "portcullis@undead",
          "armor" : "10",
          "name" : "S_warriorg2",
          "examine" : "\nYou stare at the bleached white bones of this once beautiful creature.\nWhatever evil produced the corruption of nature needs to be stopped. You \nstare into the undead eye sockets of this beast for some small flicker\nof life, all you get in return is the darkness of the void.",
@@ -4209,7 +4209,7 @@
             "Missile"
          ],
          "damage" : "8",
-         "location" : "forest_path4",
+         "location" : "forest_path4@undead",
          "armor" : "2",
          "name" : "Mercenary4",
          "examine" : "\nYou look from &+RSpooky&* to his compatriots and wonder WHY is this guy here?  \nHe tries to fix you with an icy glare but fails miserably which makes you \nchuckle slightly under your breath.",
@@ -4230,7 +4230,7 @@
       },
       "mist_lion3@undead" : {
          "damage" : "15",
-         "location" : "moss_maze7",
+         "location" : "moss_maze7@undead",
          "armor" : "10",
          "name" : "Mist_lion3",
          "examine" : "You see a large powerful &+RLion&* as it leaps at you.",
@@ -4248,7 +4248,7 @@
       },
       "nightmare3@undead" : {
          "damage" : "15",
-         "location" : "PersonalHell3",
+         "location" : "personalhell3@undead",
          "armor" : "0",
          "name" : "Nightmare3",
          "examine" : "\nAs you examine this creature of the void, its shape alters as it slowly\ntransforms into your worst &+Rnightmare&*.",
@@ -4268,7 +4268,7 @@
             "NegShock"
          ],
          "damage" : "5",
-         "location" : "Larder1",
+         "location" : "larder1@undead",
          "armor" : "10",
          "name" : "S_Rat6b",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle\ncreature. You wonder,  'Is there no end to the undead creatures here?' ",
@@ -4294,7 +4294,7 @@
             "Missile"
          ],
          "damage" : "8",
-         "location" : "forest_path4",
+         "location" : "forest_path4@undead",
          "armor" : "2",
          "name" : "Mercenary1",
          "examine" : "\n&+RGrenfield&* stares coldly at you crackling with magical fire.  He is very \ngood at what he does.  What he does is not very nice.  You just KNOW you don't \nwant to mess with this guy.",
@@ -4321,7 +4321,7 @@
             "NegShock"
          ],
          "damage" : "5",
-         "location" : "Larder1",
+         "location" : "larder1@undead",
          "armor" : "10",
          "name" : "S_Rat7b",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle\ncreature. You wonder,  'Is there no end to the undead creatures here?' ",
@@ -4344,7 +4344,7 @@
       },
       "nightmare8@undead" : {
          "damage" : "15",
-         "location" : "PersonalHell8",
+         "location" : "personalhell8@undead",
          "armor" : "0",
          "name" : "Nightmare8",
          "examine" : "\nAs you examine this creature of the void, its shape alters as it slowly\ntransforms into your worst &+Rnightmare&*.",
@@ -4362,7 +4362,7 @@
             "NegFireBall"
          ],
          "damage" : "666",
-         "location" : "PersonalHell6",
+         "location" : "personalhell6@undead",
          "armor" : "666",
          "name" : "LUCIFER",
          "examine" : "\nAs you look into the sparkling blue eyes of this handsome young man you\nsense a power the likes of which you have NEVER before experienced.  You\nfeel your very soul freeze as you finally realize - &+RLUCIFER&*.\nHe smiles at you warmly, knowingly. After what seems like an eternity he\nspeaks.\n\n&+w'We have no quarrel my friend. I understand you wish to destroy one of\n&+wmy servants. I have no problem with that, he has served his purpose.\n&+wBut I am a business man, it would be unworthy of me to simply break a\n&+wbargain...'\n\nSmiling warmly he leans over and rests his arm across your shoulders. He\ncontinues, &+w'You know we are both grown ups maybe we can come to some\n&+wsort of...arrangement? '\n",
@@ -4383,7 +4383,7 @@
       },
       "s_rat5@undead" : {
          "damage" : "6",
-         "location" : "swamp_land2",
+         "location" : "swamp_land2@undead",
          "armor" : "0",
          "name" : "S_rat5",
          "examine" : "\nIt's small, furry and &+Rrat&* shaped. Ideal shape and size for a rat it\nwould appear.",
@@ -4410,7 +4410,7 @@
             "NegShock"
          ],
          "damage" : "15",
-         "location" : "Battlements3",
+         "location" : "battlements3@undead",
          "armor" : "10",
          "name" : "S_warriorg8",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle\ncreature. You wonder, is there no end to the undead creatures here.",
@@ -4438,7 +4438,7 @@
             "Missile"
          ],
          "damage" : "10",
-         "location" : "WaitingRoom",
+         "location" : "waitingroom@undead",
          "armor" : "10",
          "name" : "Hydra4",
          "examine" : "The Mighty eleven headed &+Rhydra&*, Destroyer of Worlds attacks you'.",
@@ -4460,7 +4460,7 @@
       },
       "hellhound666@undead" : {
          "damage" : "15",
-         "location" : "PersonalHellA",
+         "location" : "personalhella@undead",
          "armor" : "0",
          "name" : "HellHound666",
          "examine" : "\nThis large fiery dog looks you over as though waiting for something.",
@@ -4485,7 +4485,7 @@
             "NegMissile"
          ],
          "damage" : "10",
-         "location" : "stony_path1",
+         "location" : "stony_path1@undead",
          "armor" : "10",
          "name" : "S_warrior1",
          "examine" : "\nYou stare into the empty eye sockets of this hideous deformation.  Whatever \nevil created this monstrosity certainly should not be taken lightly.",
@@ -4512,7 +4512,7 @@
             "NegShock"
          ],
          "damage" : "5",
-         "location" : "Larder1",
+         "location" : "larder1@undead",
          "armor" : "10",
          "name" : "S_Rat4b",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle\ncreature. You wonder,  'Is there no end to the undead creatures here?' ",
@@ -4538,7 +4538,7 @@
             "Bhands"
          ],
          "damage" : "10",
-         "location" : "WaitingRoom",
+         "location" : "waitingroom@undead",
          "armor" : "10",
          "name" : "Hydra11",
          "examine" : "The Mighty eleven headed &+Rhydra&*, Destroyer of Worlds attacks you.",
@@ -4565,7 +4565,7 @@
             "NegShock"
          ],
          "damage" : "15",
-         "location" : "CourtYard8",
+         "location" : "courtyard8@undead",
          "armor" : "0",
          "name" : "S_warriorg5",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle creature.\nThis female and her mate conscientiously guard the way north as they \nhave for decades.  She stares at you with empty dead eye sockets, not\ncomprehending, simply guarding the entrance.",
@@ -4594,7 +4594,7 @@
             "Frost"
          ],
          "damage" : "8",
-         "location" : "moss_maze7",
+         "location" : "moss_maze7@undead",
          "armor" : "10",
          "name" : "Mist_Leader",
          "examine" : "\nYou manage to glimpse a brief look at her before she attacks you, enough\nto tell she looks very powerful.",
@@ -4615,7 +4615,7 @@
       },
       "hellhound2@undead" : {
          "damage" : "15",
-         "location" : "PersonalHellA",
+         "location" : "personalhella@undead",
          "armor" : "0",
          "name" : "HellHound2",
          "examine" : "\nThis large fiery dog has guarded these regions for thousands of years, she\ndoes not seem impressed by your intrusion.",
@@ -4639,7 +4639,7 @@
             "NegShock"
          ],
          "damage" : "10",
-         "location" : "CourtYard8",
+         "location" : "courtyard8@undead",
          "armor" : "10",
          "name" : "S_warriorg6",
          "examine" : "\nYou stare at the bleached white bones of this once mighty jungle creature.\nThis male and his mate conscientiously guard the way north as they have\nfor decades.  He stares at you with empty dead eye sockets, not\ncomprehending, simply guarding the entrance.",

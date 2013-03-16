@@ -1,7 +1,7 @@
 {
    "obj" : {
       "exo_book@bishop" : {
-         "location" : "IN_ROOM:bishop17",
+         "location" : "IN_ROOM:bishop17@bishop",
          "oflags" : "{ }",
          "pname" : "book",
          "name" : "exo_book",
@@ -11,7 +11,7 @@
          "size" : "3"
       },
       "vial1@bishop" : {
-         "location" : "IN_ROOM:bishop8",
+         "location" : "IN_ROOM:bishop8@bishop",
          "oflags" : [
             "NoGet"
          ],
@@ -22,7 +22,7 @@
          "size" : "1"
       },
       "blessing@bishop" : {
-         "location" : "CARRIED_BY:packrat",
+         "location" : "CARRIED_BY:packrat@bishop",
          "pname" : "blessing",
          "name" : "blessing",
          "examine" : "It can definitely purify freshly made water.",
@@ -30,7 +30,7 @@
       },
       "safe@bishop" : {
          "desc[1]" : "A heavily dented safe squats here.",
-         "location" : "IN_ROOM:bishop20",
+         "location" : "IN_ROOM:bishop20@bishop",
          "desc[3]" : "A cracked and dented safe squats here.",
          "armor" : "0",
          "oflags" : [
@@ -47,7 +47,7 @@
       },
       "pawn@bishop" : {
          "desc[1]" : "A black chess pawn is here.",
-         "location" : "IN_ROOM:bishop3",
+         "location" : "IN_ROOM:bishop3@bishop",
          "oflags" : [
             "Destroyed"
          ],
@@ -60,7 +60,7 @@
          "desc[0]" : "A white chess pawn is here."
       },
       "scrap@bishop" : {
-         "location" : "IN_ROOM:bishop3",
+         "location" : "IN_ROOM:bishop3@bishop",
          "pname" : "scrap",
          "name" : "scrap",
          "examine" : "Perhaps the debris clinging to it could be cut away.",
@@ -68,7 +68,7 @@
          "size" : "2"
       },
       "vapor@bishop" : {
-         "location" : "IN_ROOM:bishop52",
+         "location" : "IN_ROOM:bishop52@bishop",
          "oflags" : [
             "Destroyed"
          ],
@@ -78,7 +78,7 @@
          "desc[0]" : "A large cloud of steam swirls gently."
       },
       "condenser@bishop" : {
-         "location" : "CARRIED_BY:packrat",
+         "location" : "CARRIED_BY:packrat@bishop",
          "pname" : "condenser",
          "name" : "condenser",
          "examine" : "Cool annoying vapors in seconds!",
@@ -86,7 +86,7 @@
          "size" : "70"
       },
       "hydrogen@bishop" : {
-         "location" : "IN_ROOM:bishop45",
+         "location" : "IN_ROOM:bishop45@bishop",
          "altname" : "bottle",
          "pname" : "hydrogen",
          "name" : "hydrogen",
@@ -95,7 +95,7 @@
          "size" : "4"
       },
       "bible2@bishop" : {
-         "location" : "IN_ROOM:bishop56",
+         "location" : "IN_ROOM:bishop56@bishop",
          "altname" : "flowery",
          "pname" : "bible",
          "name" : "bible2",
@@ -105,7 +105,7 @@
          "size" : "4"
       },
       "plaque@bishop" : {
-         "location" : "IN_ROOM:bishop20",
+         "location" : "IN_ROOM:bishop20@bishop",
          "armor" : "0",
          "oflags" : [
             "NoGet",
@@ -117,7 +117,7 @@
          "desc[0]" : "An engraved plaque rests on the safe."
       },
       "bishop@bishop" : {
-         "location" : "IN_ROOM:bishop10",
+         "location" : "IN_ROOM:bishop10@bishop",
          "oflags" : [
             "Destroyed"
          ],
@@ -128,7 +128,7 @@
          "desc[0]" : "\nA chess bishop carved of white marble is here."
       },
       "paint@bishop" : {
-         "location" : "IN_ROOM:bishop5",
+         "location" : "IN_ROOM:bishop5@bishop",
          "oflags" : [
             "NoGet"
          ],
@@ -138,7 +138,7 @@
          "desc[0]" : "A wooden bucket of black paint stands here."
       },
       "sign@bishop" : {
-         "location" : "IN_ROOM:bishop5",
+         "location" : "IN_ROOM:bishop5@bishop",
          "oflags" : [
             "NoGet"
          ],
@@ -148,7 +148,7 @@
          "desc[0]" : "A small sign is posted here."
       },
       "cake@bishop" : {
-         "location" : "IN_ROOM:bishop18",
+         "location" : "IN_ROOM:bishop18@bishop",
          "oflags" : [
             "Food"
          ],
@@ -161,7 +161,7 @@
          "desc[0]" : "A slab of cheesecake is here."
       },
       "flagon@bishop" : {
-         "location" : "CARRIED_BY:crabapple",
+         "location" : "CARRIED_BY:crabapple@bishop",
          "oflags" : [
             "Food",
             "Alcohol"
@@ -174,7 +174,7 @@
          "size" : "3"
       },
       "vial2@bishop" : {
-         "location" : "IN_ROOM:bishop56",
+         "location" : "IN_ROOM:bishop56@bishop",
          "oflags" : [
             "Food",
             "Alcohol"
@@ -186,7 +186,7 @@
          "size" : "1"
       },
       "safekey@bishop" : {
-         "location" : "IN_ROOM:bishop17",
+         "location" : "IN_ROOM:bishop17@bishop",
          "oflags" : [
             "Destroyed"
          ],
@@ -197,7 +197,7 @@
          "desc[0]" : "A thick silver safekey lies here."
       },
       "stake@bishop" : {
-         "location" : "CARRIED_BY:ghoul",
+         "location" : "CARRIED_BY:ghoul@bishop",
          "armor" : "1",
          "pname" : "stake",
          "name" : "stake",
@@ -207,7 +207,7 @@
          "size" : "7"
       },
       "bible3@bishop" : {
-         "location" : "IN_ROOM:bishop56",
+         "location" : "IN_ROOM:bishop56@bishop",
          "altname" : "relic",
          "pname" : "bible",
          "name" : "bible3",
@@ -218,7 +218,7 @@
       },
       "rake@bishop" : {
          "damage" : "15",
-         "location" : "WIELDED_BY:fred",
+         "location" : "WIELDED_BY:fred@bishop",
          "oflags" : [
             "Weapon"
          ],
@@ -231,7 +231,7 @@
       },
       "door2@bishop" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:bishop15",
+         "location" : "IN_ROOM:bishop15@bishop",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -245,7 +245,7 @@
       },
       "calcite@bishop" : {
          "desc[1]" : "\nA chunk of calcite has broken off a tunnel wall.",
-         "location" : "IN_ROOM:bishop4",
+         "location" : "IN_ROOM:bishop4@bishop",
          "oflags" : [
             "GetFlips"
          ],
@@ -258,7 +258,7 @@
          "desc[0]" : "\nA calcite clod awaits a new master here."
       },
       "doll@bishop" : {
-         "location" : "IN_ROOM:bishop17",
+         "location" : "IN_ROOM:bishop17@bishop",
          "armor" : "0",
          "pname" : "doll",
          "name" : "doll",
@@ -268,7 +268,7 @@
       },
       "water@bishop" : {
          "desc[1]" : "\nA consecrated aquaglobe of water glistens with potent magical energy here.",
-         "location" : "IN_ROOM:bishop56",
+         "location" : "IN_ROOM:bishop56@bishop",
          "oflags" : [
             "Destroyed"
          ],
@@ -282,7 +282,7 @@
       },
       "cross@bishop" : {
          "desc[1]" : "A glowing cross is here.",
-         "location" : "IN_ROOM:bishop56",
+         "location" : "IN_ROOM:bishop56@bishop",
          "oflags" : [
             "Destroyed"
          ],
@@ -296,7 +296,7 @@
          "desc[0]" : "A broken cross is here."
       },
       "bible1@bishop" : {
-         "location" : "IN_ROOM:bishop56",
+         "location" : "IN_ROOM:bishop56@bishop",
          "altname" : "rooty",
          "pname" : "bible",
          "name" : "bible1",
@@ -306,7 +306,7 @@
          "size" : "4"
       },
       "board@bishop" : {
-         "location" : "IN_ROOM:bishop10",
+         "location" : "IN_ROOM:bishop10@bishop",
          "oflags" : [
             "NoGet"
          ],
@@ -318,7 +318,7 @@
       },
       "door1@bishop" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:bishop14",
+         "location" : "IN_ROOM:bishop14@bishop",
          "oflags" : [
             "NoGet",
             "Openable"
@@ -331,7 +331,7 @@
          "desc[0]" : "The door is open."
       },
       "altar@bishop" : {
-         "location" : "IN_ROOM:bishop30",
+         "location" : "IN_ROOM:bishop30@bishop",
          "armor" : "0",
          "oflags" : [
             "NoGet"
@@ -342,7 +342,7 @@
          "desc[0]" : "\nA marble altar devoted to the immortal rulers of Korisla sits here."
       },
       "note@bishop" : {
-         "location" : "IN_ROOM:bishop20",
+         "location" : "IN_ROOM:bishop20@bishop",
          "oflags" : [
             "Food",
             "Destroyed"
@@ -358,7 +358,7 @@
    "loc" : {
       "bishop30@bishop" : {
          "exits" : {
-            "s" : "bishop25"
+            "s" : "bishop25@bishop"
          },
          "flags" : [
             "Private",
@@ -375,8 +375,8 @@
       },
       "bishop16@bishop" : {
          "exits" : {
-            "n" : "bishop17",
-            "d" : "bishop15"
+            "n" : "bishop17@bishop",
+            "d" : "bishop15@bishop"
          },
          "flags" : [],
          "zone" : "bishop",
@@ -387,7 +387,7 @@
       },
       "bishop7@bishop" : {
          "exits" : {
-            "d" : "bishop1"
+            "d" : "bishop1@bishop"
          },
          "flags" : [
             "Dark"
@@ -400,8 +400,8 @@
       },
       "bishop23@bishop" : {
          "exits" : {
-            "e" : "bishop24",
-            "w" : "bishop22"
+            "e" : "bishop24@bishop",
+            "w" : "bishop22@bishop"
          },
          "flags" : [
             "Outdoors",
@@ -415,8 +415,8 @@
       },
       "bishop33@bishop" : {
          "exits" : {
-            "e" : "bishop34",
-            "w" : "bishop32"
+            "e" : "bishop34@bishop",
+            "w" : "bishop32@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -440,7 +440,7 @@
       },
       "bishop42@bishop" : {
          "exits" : {
-            "s" : "bishop41"
+            "s" : "bishop41@bishop"
          },
          "flags" : [
             "Dark"
@@ -453,9 +453,9 @@
       },
       "bishop34@bishop" : {
          "exits" : {
-            "e" : "bishop35",
-            "w" : "bishop33",
-            "n" : "bishop41"
+            "e" : "bishop35@bishop",
+            "w" : "bishop33@bishop",
+            "n" : "bishop41@bishop"
          },
          "flags" : [
             "Outdoors",
@@ -469,9 +469,9 @@
       },
       "bishop51@bishop" : {
          "exits" : {
-            "w" : "bishop52",
-            "e" : "bishop50",
-            "n" : "bishop55"
+            "w" : "bishop52@bishop",
+            "e" : "bishop50@bishop",
+            "n" : "bishop55@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -484,8 +484,8 @@
       },
       "bishop45@bishop" : {
          "exits" : {
-            "n" : "bishop44",
-            "s" : "bishop46"
+            "n" : "bishop44@bishop",
+            "s" : "bishop46@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -498,8 +498,8 @@
       },
       "bishop43@bishop" : {
          "exits" : {
-            "n" : "bishop28",
-            "s" : "bishop44"
+            "n" : "bishop28@bishop",
+            "s" : "bishop44@bishop"
          },
          "flags" : [
             "Outdoors",
@@ -513,8 +513,8 @@
       },
       "bishop18@bishop" : {
          "exits" : {
-            "d" : "bishop19",
-            "s" : "bishop15"
+            "d" : "bishop19@bishop",
+            "s" : "bishop15@bishop"
          },
          "flags" : [],
          "zone" : "bishop",
@@ -525,10 +525,10 @@
       },
       "bishop47@bishop" : {
          "exits" : {
-            "w" : "bishop54",
-            "e" : "bishop48",
-            "n" : "bishop46",
-            "s" : "bishop55"
+            "w" : "bishop54@bishop",
+            "e" : "bishop48@bishop",
+            "n" : "bishop46@bishop",
+            "s" : "bishop55@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -541,8 +541,8 @@
       },
       "bishop4@bishop" : {
          "exits" : {
-            "u" : "bishop5",
-            "d" : "bishop3"
+            "u" : "bishop5@bishop",
+            "d" : "bishop3@bishop"
          },
          "flags" : [
             "Dark"
@@ -555,8 +555,8 @@
       },
       "bishop2@bishop" : {
          "exits" : {
-            "e" : "bishop3",
-            "w" : "bishop1"
+            "e" : "bishop3@bishop",
+            "w" : "bishop1@bishop"
          },
          "flags" : [
             "Dark"
@@ -569,8 +569,8 @@
       },
       "bishop52@bishop" : {
          "exits" : {
-            "e" : "bishop51",
-            "n" : "bishop53"
+            "e" : "bishop51@bishop",
+            "n" : "bishop53@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -583,10 +583,10 @@
       },
       "bishop55@bishop" : {
          "exits" : {
-            "w" : "bishop53",
-            "e" : "bishop49",
-            "n" : "bishop47",
-            "s" : "bishop51"
+            "w" : "bishop53@bishop",
+            "e" : "bishop49@bishop",
+            "n" : "bishop47@bishop",
+            "s" : "bishop51@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -599,8 +599,8 @@
       },
       "bishop48@bishop" : {
          "exits" : {
-            "w" : "bishop47",
-            "s" : "bishop49"
+            "w" : "bishop47@bishop",
+            "s" : "bishop49@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -613,8 +613,8 @@
       },
       "bishop46@bishop" : {
          "exits" : {
-            "n" : "bishop45",
-            "s" : "bishop47"
+            "n" : "bishop45@bishop",
+            "s" : "bishop47@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -627,7 +627,7 @@
       },
       "bishop10@bishop" : {
          "exits" : {
-            "e" : "bishop11"
+            "e" : "bishop11@bishop"
          },
          "flags" : [
             "Outdoors",
@@ -641,8 +641,8 @@
       },
       "bishop37@bishop" : {
          "exits" : {
-            "w" : "bishop39",
-            "n" : "bishop38"
+            "w" : "bishop39@bishop",
+            "n" : "bishop38@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -655,8 +655,8 @@
       },
       "bishop11@bishop" : {
          "exits" : {
-            "e" : "bishop12",
-            "w" : "bishop10"
+            "e" : "bishop12@bishop",
+            "w" : "bishop10@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -669,8 +669,8 @@
       },
       "bishop19@bishop" : {
          "exits" : {
-            "u" : "bishop18",
-            "s" : "bishop20"
+            "u" : "bishop18@bishop",
+            "s" : "bishop20@bishop"
          },
          "flags" : [
             "Dark"
@@ -683,8 +683,8 @@
       },
       "bishop50@bishop" : {
          "exits" : {
-            "w" : "bishop51",
-            "n" : "bishop49"
+            "w" : "bishop51@bishop",
+            "n" : "bishop49@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -697,8 +697,8 @@
       },
       "bishop44@bishop" : {
          "exits" : {
-            "n" : "bishop43",
-            "s" : "bishop45"
+            "n" : "bishop43@bishop",
+            "s" : "bishop45@bishop"
          },
          "flags" : [
             "Outdoors",
@@ -712,10 +712,10 @@
       },
       "bishop6@bishop" : {
          "exits" : {
-            "e" : "bishop8",
-            "w" : "bishop5",
-            "n" : "bishop7",
-            "s" : "bishop7"
+            "e" : "bishop8@bishop",
+            "w" : "bishop5@bishop",
+            "n" : "bishop7@bishop",
+            "s" : "bishop7@bishop"
          },
          "flags" : [
             "Dark"
@@ -728,7 +728,7 @@
       },
       "bishop40@bishop" : {
          "exits" : {
-            "s" : "bishop39"
+            "s" : "bishop39@bishop"
          },
          "flags" : [
             "Dark"
@@ -741,8 +741,8 @@
       },
       "bishop32@bishop" : {
          "exits" : {
-            "e" : "bishop33",
-            "w" : "bishop31"
+            "e" : "bishop33@bishop",
+            "w" : "bishop31@bishop"
          },
          "flags" : [
             "Outdoors",
@@ -756,9 +756,9 @@
       },
       "bishop41@bishop" : {
          "exits" : {
-            "e" : "bishop39",
-            "n" : "bishop42",
-            "s" : "bishop34"
+            "e" : "bishop39@bishop",
+            "n" : "bishop42@bishop",
+            "s" : "bishop34@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -771,7 +771,7 @@
       },
       "bishop36@bishop" : {
          "exits" : {
-            "w" : "bishop35"
+            "w" : "bishop35@bishop"
          },
          "flags" : [
             "Dark"
@@ -784,9 +784,9 @@
       },
       "bishop15@bishop" : {
          "exits" : {
-            "u" : "bishop16",
-            "n" : "bishop18",
-            "s" : "^door2"
+            "u" : "bishop16@bishop",
+            "n" : "bishop18@bishop",
+            "s" : "^door2@bishop"
          },
          "flags" : [],
          "zone" : "bishop",
@@ -797,10 +797,10 @@
       },
       "bishop25@bishop" : {
          "exits" : {
-            "w" : "bishop24",
-            "e" : "bishop26",
-            "n" : "bishop30",
-            "s" : "bishop28"
+            "w" : "bishop24@bishop",
+            "e" : "bishop26@bishop",
+            "n" : "bishop30@bishop",
+            "s" : "bishop28@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -813,8 +813,8 @@
       },
       "bishop27@bishop" : {
          "exits" : {
-            "w" : "bishop28",
-            "n" : "bishop26"
+            "w" : "bishop28@bishop",
+            "n" : "bishop26@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -827,8 +827,8 @@
       },
       "bishop54@bishop" : {
          "exits" : {
-            "e" : "bishop47",
-            "s" : "bishop53"
+            "e" : "bishop47@bishop",
+            "s" : "bishop53@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -841,9 +841,9 @@
       },
       "bishop12@bishop" : {
          "exits" : {
-            "e" : "bishop21",
-            "w" : "bishop11",
-            "n" : "bishop13"
+            "e" : "bishop21@bishop",
+            "w" : "bishop11@bishop",
+            "n" : "bishop13@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -856,9 +856,9 @@
       },
       "bishop26@bishop" : {
          "exits" : {
-            "w" : "bishop25",
-            "e" : "bishop31",
-            "s" : "bishop27"
+            "w" : "bishop25@bishop",
+            "e" : "bishop31@bishop",
+            "s" : "bishop27@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -871,7 +871,7 @@
       },
       "bishop20@bishop" : {
          "exits" : {
-            "n" : "bishop19"
+            "n" : "bishop19@bishop"
          },
          "flags" : [
             "Dark"
@@ -884,9 +884,9 @@
       },
       "bishop24@bishop" : {
          "exits" : {
-            "e" : "bishop25",
-            "w" : "bishop23",
-            "s" : "bishop29"
+            "e" : "bishop25@bishop",
+            "w" : "bishop23@bishop",
+            "s" : "bishop29@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -899,8 +899,8 @@
       },
       "bishop14@bishop" : {
          "exits" : {
-            "n" : "^door1",
-            "s" : "bishop13"
+            "n" : "^door1@bishop",
+            "s" : "bishop13@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -913,10 +913,10 @@
       },
       "bishop39@bishop" : {
          "exits" : {
-            "w" : "bishop41",
-            "e" : "bishop37",
-            "n" : "bishop40",
-            "s" : "bishop35"
+            "w" : "bishop41@bishop",
+            "e" : "bishop37@bishop",
+            "n" : "bishop40@bishop",
+            "s" : "bishop35@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -929,7 +929,7 @@
       },
       "bishop1@bishop" : {
          "exits" : {
-            "e" : "bishop2",
+            "e" : "bishop2@bishop",
             "w" : "bottom@quarry"
          },
          "flags" : [
@@ -943,8 +943,8 @@
       },
       "bishop13@bishop" : {
          "exits" : {
-            "n" : "bishop14",
-            "s" : "bishop12"
+            "n" : "bishop14@bishop",
+            "s" : "bishop12@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -957,8 +957,8 @@
       },
       "bishop21@bishop" : {
          "exits" : {
-            "e" : "bishop22",
-            "w" : "bishop12"
+            "e" : "bishop22@bishop",
+            "w" : "bishop12@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -971,7 +971,7 @@
       },
       "bishop8@bishop" : {
          "exits" : {
-            "w" : "bishop6"
+            "w" : "bishop6@bishop"
          },
          "flags" : [
             "Dark"
@@ -984,10 +984,10 @@
       },
       "bishop28@bishop" : {
          "exits" : {
-            "w" : "bishop29",
-            "e" : "bishop27",
-            "n" : "bishop25",
-            "s" : "bishop43"
+            "w" : "bishop29@bishop",
+            "e" : "bishop27@bishop",
+            "n" : "bishop25@bishop",
+            "s" : "bishop43@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -1000,9 +1000,9 @@
       },
       "bishop35@bishop" : {
          "exits" : {
-            "e" : "bishop36",
-            "w" : "bishop34",
-            "n" : "bishop39"
+            "e" : "bishop36@bishop",
+            "w" : "bishop34@bishop",
+            "n" : "bishop39@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -1026,9 +1026,9 @@
       },
       "bishop53@bishop" : {
          "exits" : {
-            "e" : "bishop55",
-            "n" : "bishop54",
-            "s" : "bishop52"
+            "e" : "bishop55@bishop",
+            "n" : "bishop54@bishop",
+            "s" : "bishop52@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -1041,8 +1041,8 @@
       },
       "bishop31@bishop" : {
          "exits" : {
-            "e" : "bishop32",
-            "w" : "bishop26"
+            "e" : "bishop32@bishop",
+            "w" : "bishop26@bishop"
          },
          "flags" : [
             "Outdoors",
@@ -1056,8 +1056,8 @@
       },
       "bishop5@bishop" : {
          "exits" : {
-            "e" : "bishop6",
-            "d" : "bishop4"
+            "e" : "bishop6@bishop",
+            "d" : "bishop4@bishop"
          },
          "flags" : [
             "Dark"
@@ -1070,9 +1070,9 @@
       },
       "bishop49@bishop" : {
          "exits" : {
-            "w" : "bishop55",
-            "n" : "bishop48",
-            "s" : "bishop50"
+            "w" : "bishop55@bishop",
+            "n" : "bishop48@bishop",
+            "s" : "bishop50@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -1085,7 +1085,7 @@
       },
       "bishop17@bishop" : {
          "exits" : {
-            "s" : "bishop16"
+            "s" : "bishop16@bishop"
          },
          "flags" : [],
          "zone" : "bishop",
@@ -1096,8 +1096,8 @@
       },
       "bishop3@bishop" : {
          "exits" : {
-            "w" : "bishop2",
-            "u" : "bishop4"
+            "w" : "bishop2@bishop",
+            "u" : "bishop4@bishop"
          },
          "flags" : [
             "Dark"
@@ -1110,7 +1110,7 @@
       },
       "bishop38@bishop" : {
          "exits" : {
-            "s" : "bishop37"
+            "s" : "bishop37@bishop"
          },
          "flags" : [
             "Dark"
@@ -1123,8 +1123,8 @@
       },
       "bishop22@bishop" : {
          "exits" : {
-            "e" : "bishop23",
-            "w" : "bishop21"
+            "e" : "bishop23@bishop",
+            "w" : "bishop21@bishop"
          },
          "flags" : [
             "Outdoors",
@@ -1138,8 +1138,8 @@
       },
       "bishop29@bishop" : {
          "exits" : {
-            "e" : "bishop28",
-            "n" : "bishop24"
+            "e" : "bishop28@bishop",
+            "n" : "bishop24@bishop"
          },
          "flags" : [
             "Outdoors"
@@ -1154,7 +1154,7 @@
    "mob" : {
       "body@bishop" : {
          "damage" : "15",
-         "location" : "bishop56",
+         "location" : "bishop56@bishop",
          "armor" : "0",
          "name" : "body",
          "description" : "\nThe possessed Archbishop waves his ankhed staff in preparation to \ndecapitate you.",
@@ -1168,7 +1168,7 @@
             "Mute"
          ],
          "damage" : "13",
-         "location" : "bishop40",
+         "location" : "bishop40@bishop",
          "armor" : "0",
          "name" : "corpse2",
          "description" : "A corpse skulks in the shadows.",
@@ -1182,7 +1182,7 @@
       },
       "corpse3@bishop" : {
          "damage" : "5",
-         "location" : "bishop38",
+         "location" : "bishop38@bishop",
          "armor" : "0",
          "name" : "corpse3",
          "description" : "The smell of a corpse lingers in the air.",
@@ -1196,7 +1196,7 @@
       },
       "mosquito@bishop" : {
          "damage" : "7",
-         "location" : "bishop50",
+         "location" : "bishop50@bishop",
          "armor" : "0",
          "name" : "mosquito",
          "description" : "\nA hovering mosquito divebombs at a pulsing artery.",
@@ -1210,7 +1210,7 @@
       },
       "corpse1@bishop" : {
          "damage" : "9",
-         "location" : "bishop42",
+         "location" : "bishop42@bishop",
          "armor" : "2",
          "name" : "corpse1",
          "description" : "A corpse launches itself at you!",
@@ -1224,7 +1224,7 @@
       },
       "spirit@bishop" : {
          "damage" : "15",
-         "location" : "bishop56",
+         "location" : "bishop56@bishop",
          "armor" : "5",
          "name" : "spirit",
          "examine" : "\nOne mistake with me and you will forfeit your immortal soul!",
@@ -1242,7 +1242,7 @@
          ]
       },
       "monk2@bishop" : {
-         "location" : "bishop31",
+         "location" : "bishop31@bishop",
          "name" : "monk2",
          "description" : "\nOne of the armor-clad brothers, Grizzdel, of the monastery is here.",
          "strength" : "250",
@@ -1259,7 +1259,7 @@
       },
       "crabapple@bishop" : {
          "damage" : "12",
-         "location" : "bishop30",
+         "location" : "bishop30@bishop",
          "armor" : "0",
          "name" : "crabapple",
          "description" : "\nThe head of domestic affairs, Crabapple, drinks to his demise.",
@@ -1270,7 +1270,7 @@
       },
       "vampire@bishop" : {
          "damage" : "20",
-         "location" : "bishop40",
+         "location" : "bishop40@bishop",
          "armor" : "0",
          "name" : "vampire",
          "examine" : "\nThis particular member of the undead struts around silently, proudly, and\ngracefully. His dark black hair is pulled back in an elegant pony tail,\nand mother-of-pearl cufflings are ruffled perfectly on his shirt sleeves.\nA crisp boutinerre rises from the left lapel of his immaculet jacket.\n\nA well-cooked stake could make a nice tartare out of this guy.",
@@ -1289,7 +1289,7 @@
       },
       "ghoul@bishop" : {
          "damage" : "15",
-         "location" : "bishop36",
+         "location" : "bishop36@bishop",
          "armor" : "5",
          "name" : "ghoul",
          "description" : "\nThe master mechanic, Handyghoul, mutters something about its stolen tool set.",
@@ -1305,7 +1305,7 @@
          ]
       },
       "monk3@bishop" : {
-         "location" : "bishop43",
+         "location" : "bishop43@bishop",
          "name" : "monk3",
          "description" : "\nOne of the armor-clad brothers, Illkoy, of the monastery is here.",
          "strength" : "250",
@@ -1322,7 +1322,7 @@
       },
       "fatrat@bishop" : {
          "damage" : "8",
-         "location" : "bishop10",
+         "location" : "bishop10@bishop",
          "armor" : "0",
          "name" : "fatrat",
          "description" : "\nFatrat squeaks in delight as he waddles through the plains.",
@@ -1333,7 +1333,7 @@
       },
       "fred@bishop" : {
          "damage" : "12",
-         "location" : "bishop15",
+         "location" : "bishop15@bishop",
          "armor" : "5",
          "name" : "fred",
          "description" : "\nFred is the head honcho of this house, and he is ordering you out!",
@@ -1348,7 +1348,7 @@
       },
       "packrat@bishop" : {
          "damage" : "10",
-         "location" : "bishop46",
+         "location" : "bishop46@bishop",
          "armor" : "0",
          "name" : "packrat",
          "description" : "\nA hulking packrat of the marshland is here.",
@@ -1361,7 +1361,7 @@
          ]
       },
       "monk1@bishop" : {
-         "location" : "bishop23",
+         "location" : "bishop23@bishop",
          "name" : "monk1",
          "description" : "\nOne of the armor-clad brothers, Jon, of the monastery is here.",
          "strength" : "250",
@@ -1378,7 +1378,7 @@
       },
       "gator@bishop" : {
          "damage" : "18",
-         "location" : "bishop54",
+         "location" : "bishop54@bishop",
          "armor" : "9",
          "name" : "gator",
          "description" : "\nThere is a red-scaled gator walking about.",

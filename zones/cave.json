@@ -1,7 +1,7 @@
 {
    "obj" : {
       "ore@cave" : {
-         "location" : "IN_ROOM:342",
+         "location" : "IN_ROOM:342@cave",
          "oflags" : [
             "Lightable",
             "Lit"
@@ -15,7 +15,7 @@
          "desc[0]" : "A large clump of mithril ore lays at your feet."
       },
       "ruby@cave" : {
-         "location" : "IN_ROOM:treasury",
+         "location" : "IN_ROOM:treasury@cave",
          "weight" : "2",
          "altname" : "gem",
          "name" : "ruby",
@@ -26,7 +26,7 @@
       },
       "door_armory@cave" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:armory",
+         "location" : "IN_ROOM:armory@cave",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -42,7 +42,7 @@
          "desc[0]" : "The door is open."
       },
       "cutlery@cave" : {
-         "location" : "IN_ROOM:dining",
+         "location" : "IN_ROOM:dining@cave",
          "weight" : "10",
          "altname" : "gold",
          "name" : "cutlery",
@@ -52,7 +52,7 @@
          "size" : "2"
       },
       "bat@cave" : {
-         "location" : "IN_ROOM:long",
+         "location" : "IN_ROOM:long@cave",
          "weight" : "5",
          "name" : "bat",
          "examine" : "\nThis bat is dead, deceased, it has gone away, it is no longer a bat, it has\nflown away to the great perch in the sky.  Leave the poor thing alone...",
@@ -61,7 +61,7 @@
       },
       "door_long@cave" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:long",
+         "location" : "IN_ROOM:long@cave",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -76,7 +76,7 @@
          "desc[0]" : "The door is open."
       },
       "dwarfcoin@cave" : {
-         "location" : "IN_ROOM:store",
+         "location" : "IN_ROOM:store@cave",
          "altname" : "silver",
          "name" : "DwarfCoin",
          "examine" : "\nThe coin bears a profile view of Jim Morrison on one side.  On the other side\nis engraved a fiery ring with people walking through it.",
@@ -88,7 +88,7 @@
       },
       "gates2@cave" : {
          "desc[1]" : "Large gates block any further passage.",
-         "location" : "IN_ROOM:336",
+         "location" : "IN_ROOM:336@cave",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -104,7 +104,7 @@
       },
       "gates@cave" : {
          "desc[1]" : "The dwarven gates are closed.",
-         "location" : "IN_ROOM:gatehall",
+         "location" : "IN_ROOM:gatehall@cave",
          "oflags" : [
             "NoGet"
          ],
@@ -115,7 +115,7 @@
          "desc[0]" : "The dwarven gates are open."
       },
       "wall@cave" : {
-         "location" : "IN_ROOM:333",
+         "location" : "IN_ROOM:333@cave",
          "oflags" : [
             "NoGet"
          ],
@@ -127,7 +127,7 @@
          "desc[0]" : "The wall here is shifted, allowing an exit to the south."
       },
       "diamond@cave" : {
-         "location" : "IN_ROOM:treasury",
+         "location" : "IN_ROOM:treasury@cave",
          "weight" : "2",
          "altname" : "gem",
          "name" : "diamond",
@@ -138,7 +138,7 @@
       },
       "forge@cave" : {
          "desc[1]" : "A large forge sits in the middle of the room awaiting use.",
-         "location" : "IN_ROOM:336",
+         "location" : "IN_ROOM:336@cave",
          "oflags" : [
             "NoGet"
          ],
@@ -152,7 +152,7 @@
       },
       "door_treasury@cave" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:treasury",
+         "location" : "IN_ROOM:treasury@cave",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -168,7 +168,7 @@
       },
       "door_hall@cave" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:hall",
+         "location" : "IN_ROOM:hall@cave",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -184,7 +184,7 @@
          "desc[0]" : "The door is open."
       },
       "armor@cave" : {
-         "location" : "IN_ROOM:small",
+         "location" : "IN_ROOM:small@cave",
          "armor" : "20",
          "oflags" : [
             "Armor",
@@ -202,7 +202,7 @@
       },
       "door_wide@cave" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:wide",
+         "location" : "IN_ROOM:wide@cave",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -217,7 +217,7 @@
          "desc[0]" : "The door is open."
       },
       "drakeshield@cave" : {
-         "location" : "IN_ROOM:342",
+         "location" : "IN_ROOM:342@cave",
          "armor" : "52",
          "oflags" : [
             "Armor",
@@ -236,7 +236,7 @@
       },
       "claymore@cave" : {
          "damage" : "13",
-         "location" : "IN_ROOM:claymore",
+         "location" : "IN_ROOM:claymore@cave",
          "oflags" : [
             "Weapon"
          ],
@@ -249,7 +249,7 @@
          "desc[0]" : "\nA wicked looking claymore, decorated with silver wire lies at your feet."
       },
       "sporran@cave" : {
-         "location" : "IN_ROOM:piper",
+         "location" : "IN_ROOM:piper@cave",
          "oflags" : [
             "Wearable",
             "Container"
@@ -266,7 +266,7 @@
          ]
       },
       "ceiling@cave" : {
-         "location" : "IN_ROOM:337",
+         "location" : "IN_ROOM:337@cave",
          "oflags" : [
             "NoGet"
          ],
@@ -279,7 +279,7 @@
       },
       "door_dw_st_room@cave" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:store2",
+         "location" : "IN_ROOM:store2@cave",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -295,7 +295,7 @@
       },
       "door_n_stairs@cave" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:n_stairs2",
+         "location" : "IN_ROOM:n_stairs2@cave",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -311,7 +311,7 @@
       },
       "warhammer@cave" : {
          "damage" : "11",
-         "location" : "IN_ROOM:armory",
+         "location" : "IN_ROOM:armory@cave",
          "oflags" : [
             "Weapon"
          ],
@@ -325,7 +325,7 @@
       },
       "door_dw_top_east@cave" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:top_east",
+         "location" : "IN_ROOM:top_east@cave",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -342,7 +342,7 @@
       "mithril@cave" : {
          "desc[1]" : "The newly Great Death axe of Mithril lies on the forge, glowing with an inner\nlight.",
          "damage" : "25",
-         "location" : "IN_ROOM:336",
+         "location" : "IN_ROOM:336@cave",
          "oflags" : [
             "Destroyed",
             "GetFlips",
@@ -361,7 +361,7 @@
       },
       "door_dw_store@cave" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:store",
+         "location" : "IN_ROOM:store@cave",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -376,7 +376,7 @@
          "desc[0]" : "The door is open."
       },
       "bagpipes@cave" : {
-         "location" : "IN_ROOM:piper",
+         "location" : "IN_ROOM:piper@cave",
          "weight" : "10",
          "name" : "bagpipes",
          "examine" : "It looks like a dead animal, and sounds even worse.",
@@ -386,7 +386,7 @@
       },
       "axe@cave" : {
          "damage" : "10",
-         "location" : "IN_ROOM:smithy",
+         "location" : "IN_ROOM:smithy@cave",
          "oflags" : [
             "Weapon"
          ],
@@ -399,7 +399,7 @@
       },
       "gates1@cave" : {
          "desc[1]" : "Large gates block any further passage.",
-         "location" : "IN_ROOM:335",
+         "location" : "IN_ROOM:335@cave",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -414,7 +414,7 @@
          "desc[0]" : "Large stone gates are pushed open."
       },
       "sapphire@cave" : {
-         "location" : "IN_ROOM:treasury",
+         "location" : "IN_ROOM:treasury@cave",
          "weight" : "2",
          "altname" : "gem",
          "name" : "sapphire",
@@ -424,7 +424,7 @@
          "size" : "2"
       },
       "biscuit@cave" : {
-         "location" : "IN_ROOM:cellars",
+         "location" : "IN_ROOM:cellars@cave",
          "weight" : "1",
          "oflags" : [
             "Food"
@@ -436,7 +436,7 @@
          "size" : "1"
       },
       "volume@cave" : {
-         "location" : "IN_ROOM:cavevol",
+         "location" : "IN_ROOM:cavevol@cave",
          "oflags" : [
             "Noget"
          ],
@@ -447,7 +447,7 @@
          "size" : "7"
       },
       "whistle@cave" : {
-         "location" : "WORN_BY:diamar",
+         "location" : "WORN_BY:diamar@cave",
          "oflags" : [
             "Wearable"
          ],
@@ -464,7 +464,7 @@
          ]
       },
       "dwarfcrystal@cave" : {
-         "location" : "IN_ROOM:side_hall",
+         "location" : "IN_ROOM:side_hall@cave",
          "oflags" : [
             "BlurSpell"
          ],
@@ -477,7 +477,7 @@
          "desc[0]" : "A beautiful, well cut crystal glints in front of you."
       },
       "hole@cave" : {
-         "location" : "IN_ROOM:armory",
+         "location" : "IN_ROOM:armory@cave",
          "oflags" : [
             "NoGet"
          ],
@@ -491,7 +491,7 @@
          "desc[0]" : "The wall here is shifted, allowing an entrance to the north."
       },
       "dwarfale@cave" : {
-         "location" : "IN_ROOM:side",
+         "location" : "IN_ROOM:side@cave",
          "oflags" : [
             "Food",
             "Alcohol"
@@ -506,7 +506,7 @@
          "desc[0]" : "A large bottle of strong ale has been left here."
       },
       "platesilver@cave" : {
-         "location" : "IN_ROOM:pantry",
+         "location" : "IN_ROOM:pantry@cave",
          "altname" : "silver",
          "name" : "PlateSilver",
          "examine" : "\nAn engraving on the plate reads:\n\"This plate was made to commemorate the exploits of one Cannonfod The Killer.\n                          The Phantom\"",
@@ -518,7 +518,7 @@
       },
       "door_guard@cave" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:guardroom",
+         "location" : "IN_ROOM:guardroom@cave",
          "oflags" : [
             "Openable",
             "Lockable",
@@ -536,8 +536,8 @@
    "loc" : {
       "341@cave" : {
          "exits" : {
-            "w" : "340",
-            "e" : "342"
+            "w" : "340@cave",
+            "e" : "342@cave"
          },
          "flags" : [
             "Dark"
@@ -550,8 +550,8 @@
       },
       "long@cave" : {
          "exits" : {
-            "w" : "^door_long",
-            "n" : "hall"
+            "w" : "^door_long@cave",
+            "n" : "hall@cave"
          },
          "flags" : [
             "dark"
@@ -564,8 +564,8 @@
       },
       "haggis@cave" : {
          "exits" : {
-            "n" : "piper",
-            "s" : "claymore"
+            "n" : "piper@cave",
+            "s" : "claymore@cave"
          },
          "flags" : [
             "dark"
@@ -578,8 +578,8 @@
       },
       "342@cave" : {
          "exits" : {
-            "e" : "cavevol",
-            "w" : "341"
+            "e" : "cavevol@cave",
+            "w" : "341@cave"
          },
          "flags" : [
             "NoMagic",
@@ -593,11 +593,11 @@
       },
       "landing@cave" : {
          "exits" : {
-            "w" : "passage",
-            "e" : "n_passage",
-            "n" : "throne",
-            "d" : "great",
-            "s" : "bedroom"
+            "w" : "passage@cave",
+            "e" : "n_passage@cave",
+            "n" : "throne@cave",
+            "d" : "great@cave",
+            "s" : "bedroom@cave"
          },
          "flags" : [
             "dark"
@@ -610,7 +610,7 @@
       },
       "n_stairs3@cave" : {
          "exits" : {
-            "u" : "n_stairs2"
+            "u" : "n_stairs2@cave"
          },
          "flags" : [
             "dark"
@@ -623,8 +623,8 @@
       },
       "passage@cave" : {
          "exits" : {
-            "w" : "w_tower",
-            "e" : "landing"
+            "w" : "w_tower@cave",
+            "e" : "landing@cave"
          },
          "flags" : [
             "dark"
@@ -637,9 +637,9 @@
       },
       "tunnel@cave" : {
          "exits" : {
-            "e" : "store2",
-            "n" : "wide",
-            "s" : "stairs"
+            "e" : "store2@cave",
+            "n" : "wide@cave",
+            "s" : "stairs@cave"
          },
          "flags" : [
             "dark"
@@ -652,8 +652,8 @@
       },
       "w_tower@cave" : {
          "exits" : {
-            "e" : "passage",
-            "u" : "top_west"
+            "e" : "passage@cave",
+            "u" : "top_west@cave"
          },
          "flags" : [
             "dark"
@@ -666,8 +666,8 @@
       },
       "top_east@cave" : {
          "exits" : {
-            "w" : "^door_dw_top_east",
-            "d" : "e_tower"
+            "w" : "^door_dw_top_east@cave",
+            "d" : "e_tower@cave"
          },
          "flags" : [
             "dark"
@@ -680,9 +680,9 @@
       },
       "wide@cave" : {
          "exits" : {
-            "w" : "hall",
-            "n" : "^door_wide",
-            "s" : "tunnel"
+            "w" : "hall@cave",
+            "n" : "^door_wide@cave",
+            "s" : "tunnel@cave"
          },
          "flags" : [
             "dark"
@@ -695,7 +695,7 @@
       },
       "throne@cave" : {
          "exits" : {
-            "s" : "landing"
+            "s" : "landing@cave"
          },
          "flags" : [
             "dark"
@@ -708,7 +708,7 @@
       },
       "guardroom@cave" : {
          "exits" : {
-            "s" : "^door_guard"
+            "s" : "^door_guard@cave"
          },
          "flags" : [
             "dark"
@@ -721,8 +721,8 @@
       },
       "335@cave" : {
          "exits" : {
-            "n" : "^gates1",
-            "s" : "334"
+            "n" : "^gates1@cave",
+            "s" : "334@cave"
          },
          "flags" : [
             "Dark"
@@ -736,7 +736,7 @@
       "small@cave" : {
          "exits" : {
             "w" : "tread14@treadmill",
-            "d" : "n_stairs"
+            "d" : "n_stairs@cave"
          },
          "flags" : [
             "dark"
@@ -749,8 +749,8 @@
       },
       "kitchen@cave" : {
          "exits" : {
-            "e" : "dining",
-            "n" : "pantry"
+            "e" : "dining@cave",
+            "n" : "pantry@cave"
          },
          "flags" : [
             "dark"
@@ -763,8 +763,8 @@
       },
       "336@cave" : {
          "exits" : {
-            "d" : "^forge",
-            "s" : "^gates2"
+            "d" : "^forge@cave",
+            "s" : "^gates2@cave"
          },
          "flags" : [
             "NoMagic"
@@ -777,7 +777,7 @@
       },
       "smithy@cave" : {
          "exits" : {
-            "w" : "great"
+            "w" : "great@cave"
          },
          "flags" : [
             "dark"
@@ -790,7 +790,7 @@
       },
       "side@cave" : {
          "exits" : {
-            "w" : "cellars"
+            "w" : "cellars@cave"
          },
          "flags" : [
             "dark"
@@ -803,8 +803,8 @@
       },
       "333@cave" : {
          "exits" : {
-            "n" : "334",
-            "s" : "^wall"
+            "n" : "334@cave",
+            "s" : "^wall@cave"
          },
          "flags" : [
             "Dark"
@@ -817,7 +817,7 @@
       },
       "bedroom@cave" : {
          "exits" : {
-            "n" : "landing"
+            "n" : "landing@cave"
          },
          "flags" : [
             "dark"
@@ -830,7 +830,7 @@
       },
       "pantry@cave" : {
          "exits" : {
-            "s" : "kitchen"
+            "s" : "kitchen@cave"
          },
          "flags" : [
             "dark"
@@ -843,7 +843,7 @@
       },
       "side_hall@cave" : {
          "exits" : {
-            "w" : "dining"
+            "w" : "dining@cave"
          },
          "flags" : [
             "dark"
@@ -856,8 +856,8 @@
       },
       "334@cave" : {
          "exits" : {
-            "n" : "335",
-            "s" : "333"
+            "n" : "335@cave",
+            "s" : "333@cave"
          },
          "flags" : [
             "Dark"
@@ -870,9 +870,9 @@
       },
       "337@cave" : {
          "exits" : {
-            "e" : "340",
-            "u" : "^ceiling",
-            "n" : "338"
+            "e" : "340@cave",
+            "u" : "^ceiling@cave",
+            "n" : "338@cave"
          },
          "flags" : [
             "Dark"
@@ -885,9 +885,9 @@
       },
       "hall@cave" : {
          "exits" : {
-            "e" : "wide",
-            "n" : "^door_hall",
-            "s" : "long"
+            "e" : "wide@cave",
+            "n" : "^door_hall@cave",
+            "s" : "long@cave"
          },
          "flags" : [
             "dark"
@@ -900,9 +900,9 @@
       },
       "cellars@cave" : {
          "exits" : {
-            "e" : "side",
-            "u" : "great",
-            "d" : "stairs"
+            "e" : "side@cave",
+            "u" : "great@cave",
+            "d" : "stairs@cave"
          },
          "flags" : [
             "dark"
@@ -915,7 +915,7 @@
       },
       "claymore@cave" : {
          "exits" : {
-            "n" : "haggis"
+            "n" : "haggis@cave"
          },
          "flags" : [
             "dark"
@@ -928,8 +928,8 @@
       },
       "armory@cave" : {
          "exits" : {
-            "n" : "^hole",
-            "s" : "^door_armory"
+            "n" : "^hole@cave",
+            "s" : "^door_armory@cave"
          },
          "flags" : [
             "dark"
@@ -943,7 +943,7 @@
       "top_west@cave" : {
          "exits" : {
             "u" : "amgstars@zodiac",
-            "d" : "w_tower"
+            "d" : "w_tower@cave"
          },
          "flags" : [
             "dark"
@@ -956,8 +956,8 @@
       },
       "340@cave" : {
          "exits" : {
-            "w" : "337",
-            "e" : "341"
+            "w" : "337@cave",
+            "e" : "341@cave"
          },
          "flags" : [
             "Dark"
@@ -970,7 +970,7 @@
       },
       "cavevol@cave" : {
          "exits" : {
-            "w" : "342"
+            "w" : "342@cave"
          },
          "flags" : [
             "dark"
@@ -995,7 +995,7 @@
       },
       "treasury@cave" : {
          "exits" : {
-            "e" : "^door_treasury"
+            "e" : "^door_treasury@cave"
          },
          "flags" : [
             "dark"
@@ -1008,8 +1008,8 @@
       },
       "stairs@cave" : {
          "exits" : {
-            "u" : "cellars",
-            "n" : "tunnel"
+            "u" : "cellars@cave",
+            "n" : "tunnel@cave"
          },
          "flags" : [
             "dark"
@@ -1022,9 +1022,9 @@
       },
       "dining@cave" : {
          "exits" : {
-            "w" : "kitchen",
-            "e" : "side_hall",
-            "n" : "great"
+            "w" : "kitchen@cave",
+            "e" : "side_hall@cave",
+            "n" : "great@cave"
          },
          "flags" : [
             "dark"
@@ -1037,8 +1037,8 @@
       },
       "338@cave" : {
          "exits" : {
-            "n" : "339",
-            "s" : "337"
+            "n" : "339@cave",
+            "s" : "337@cave"
          },
          "flags" : [
             "Dark"
@@ -1051,8 +1051,8 @@
       },
       "n_passage@cave" : {
          "exits" : {
-            "w" : "landing",
-            "e" : "e_tower"
+            "w" : "landing@cave",
+            "e" : "e_tower@cave"
          },
          "flags" : [
             "dark"
@@ -1065,9 +1065,9 @@
       },
       "n_stairs2@cave" : {
          "exits" : {
-            "e" : "^door_n_stairs",
-            "u" : "n_stairs",
-            "d" : "n_stairs3"
+            "e" : "^door_n_stairs@cave",
+            "u" : "n_stairs@cave",
+            "d" : "n_stairs3@cave"
          },
          "flags" : [
             "dark"
@@ -1080,11 +1080,11 @@
       },
       "great@cave" : {
          "exits" : {
-            "e" : "smithy",
-            "u" : "landing",
-            "n" : "gatehall",
-            "d" : "cellars",
-            "s" : "dining"
+            "e" : "smithy@cave",
+            "u" : "landing@cave",
+            "n" : "gatehall@cave",
+            "d" : "cellars@cave",
+            "s" : "dining@cave"
          },
          "flags" : [
             "dark"
@@ -1097,8 +1097,8 @@
       },
       "e_tower@cave" : {
          "exits" : {
-            "w" : "n_passage",
-            "u" : "top_east"
+            "w" : "n_passage@cave",
+            "u" : "top_east@cave"
          },
          "flags" : [
             "dark"
@@ -1111,8 +1111,8 @@
       },
       "gatehall@cave" : {
          "exits" : {
-            "n" : "^gates",
-            "s" : "great"
+            "n" : "^gates@cave",
+            "s" : "great@cave"
          },
          "flags" : [
             "dark"
@@ -1125,8 +1125,8 @@
       },
       "store2@cave" : {
          "exits" : {
-            "w" : "tunnel",
-            "s" : "^door_dw_st_room"
+            "w" : "tunnel@cave",
+            "s" : "^door_dw_st_room@cave"
          },
          "flags" : [
             "dark"
@@ -1139,7 +1139,7 @@
       },
       "store@cave" : {
          "exits" : {
-            "n" : "^door_dw_store"
+            "n" : "^door_dw_store@cave"
          },
          "flags" : [
             "dark"
@@ -1152,8 +1152,8 @@
       },
       "n_stairs@cave" : {
          "exits" : {
-            "u" : "small",
-            "d" : "n_stairs2"
+            "u" : "small@cave",
+            "d" : "n_stairs2@cave"
          },
          "flags" : [
             "dark"
@@ -1166,8 +1166,8 @@
       },
       "piper@cave" : {
          "exits" : {
-            "n" : "Npath@Valley",
-            "s" : "haggis"
+            "n" : "npath@valley",
+            "s" : "haggis@cave"
          },
          "flags" : [
             "dark"
@@ -1182,7 +1182,7 @@
    "mob" : {
       "forgemaster@cave" : {
          "damage" : "10",
-         "location" : "336",
+         "location" : "336@cave",
          "armor" : "0",
          "name" : "forgemaster",
          "description" : "The Forgemaster, Master Craftsman of Thorbadin, works here on some powerful\nmagical weapon.",
@@ -1197,7 +1197,7 @@
             "Fireball"
          ],
          "damage" : "20",
-         "location" : "342",
+         "location" : "342@cave",
          "armor" : "25",
          "name" : "firedrake",
          "description" : "The Firedrake of Thorbadin rests lazily on a pile of treasure.",
@@ -1224,7 +1224,7 @@
       },
       "haggis@cave" : {
          "damage" : "10",
-         "location" : "haggis",
+         "location" : "haggis@cave",
          "armor" : "0",
          "name" : "haggis",
          "description" : "A large, vicious looking haggis runs around squeaking.",
@@ -1236,7 +1236,7 @@
       },
       "smythe@cave" : {
          "damage" : "8",
-         "location" : "smithy",
+         "location" : "smithy@cave",
          "armor" : "0",
          "aggression" : "13",
          "name" : "smythe",
@@ -1245,7 +1245,7 @@
       },
       "diamar@cave" : {
          "damage" : "10",
-         "location" : "w_tower",
+         "location" : "w_tower@cave",
          "armor" : "0",
          "name" : "diamar",
          "description" : "Diamar says 'Have you seen my axe?  I wrote on it to return it to me.'",
@@ -1257,7 +1257,7 @@
       },
       "bomber@cave" : {
          "damage" : "8",
-         "location" : "guardroom",
+         "location" : "guardroom@cave",
          "armor" : "0",
          "aggression" : "10",
          "name" : "bomber",
@@ -1266,7 +1266,7 @@
       },
       "owin@cave" : {
          "damage" : "8",
-         "location" : "store2",
+         "location" : "store2@cave",
          "armor" : "0",
          "aggression" : "11",
          "name" : "owin",
@@ -1278,7 +1278,7 @@
             "ImmFireball"
          ],
          "damage" : "32",
-         "location" : "treasury",
+         "location" : "treasury@cave",
          "armor" : "0",
          "name" : "dragon",
          "description" : "\nA huge fire-breathing dragon stares menacingly in your direction.",
@@ -1294,7 +1294,7 @@
       },
       "glowin@cave" : {
          "damage" : "8",
-         "location" : "great",
+         "location" : "great@cave",
          "armor" : "0",
          "aggression" : "12",
          "name" : "glowin",
@@ -1303,7 +1303,7 @@
       },
       "dio@cave" : {
          "damage" : "8",
-         "location" : "gatehall",
+         "location" : "gatehall@cave",
          "armor" : "0",
          "aggression" : "14",
          "name" : "dio",

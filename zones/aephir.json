@@ -3,8 +3,8 @@
    "loc" : {
       "nwsacred@aephir" : {
          "exits" : {
-            "e" : "nsacred",
-            "s" : "wsacred"
+            "e" : "nsacred@aephir",
+            "s" : "wsacred@aephir"
          },
          "flags" : [
             "outdoors",
@@ -19,8 +19,8 @@
       },
       "forbid@aephir" : {
          "exits" : {
-            "w" : "sesacred",
-            "n" : "sesacred"
+            "w" : "sesacred@aephir",
+            "n" : "sesacred@aephir"
          },
          "flags" : [
             "nogoto",
@@ -36,9 +36,9 @@
       },
       "esacred@aephir" : {
          "exits" : {
-            "w" : "Aephir",
-            "n" : "nesacred",
-            "s" : "sesacred"
+            "w" : "aephir@aephir",
+            "n" : "nesacred@aephir",
+            "s" : "sesacred@aephir"
          },
          "flags" : [
             "outdoors",
@@ -53,8 +53,8 @@
       },
       "trail2@aephir" : {
          "exits" : {
-            "e" : "trail3",
-            "w" : "trail1"
+            "e" : "trail3@aephir",
+            "w" : "trail1@aephir"
          },
          "flags" : [
             "outdoors",
@@ -69,10 +69,10 @@
       },
       "nsacred@aephir" : {
          "exits" : {
-            "e" : "nesacred",
-            "w" : "nwsacred",
-            "n" : "trail1",
-            "s" : "aephir"
+            "e" : "nesacred@aephir",
+            "w" : "nwsacred@aephir",
+            "n" : "trail1@aephir",
+            "s" : "aephir@aephir"
          },
          "flags" : [
             "outdoors",
@@ -87,8 +87,8 @@
       },
       "nesacred@aephir" : {
          "exits" : {
-            "e" : "nsacred",
-            "s" : "esacred"
+            "e" : "nsacred@aephir",
+            "s" : "esacred@aephir"
          },
          "flags" : [
             "outdoors",
@@ -103,8 +103,8 @@
       },
       "swsacred@aephir" : {
          "exits" : {
-            "e" : "ssacred",
-            "n" : "wsacred"
+            "e" : "ssacred@aephir",
+            "n" : "wsacred@aephir"
          },
          "flags" : [
             "outdoors",
@@ -119,9 +119,9 @@
       },
       "ssacred@aephir" : {
          "exits" : {
-            "w" : "swsacred",
-            "e" : "sesacred",
-            "n" : "aephir"
+            "w" : "swsacred@aephir",
+            "e" : "sesacred@aephir",
+            "n" : "aephir@aephir"
          },
          "flags" : [
             "outdoors",
@@ -136,8 +136,8 @@
       },
       "trail4@aephir" : {
          "exits" : {
-            "e" : "Falls@valley",
-            "w" : "trail3"
+            "e" : "falls@valley",
+            "w" : "trail3@aephir"
          },
          "flags" : [
             "outdoors",
@@ -153,9 +153,9 @@
       },
       "trail1@aephir" : {
          "exits" : {
-            "e" : "trail2",
+            "e" : "trail2@aephir",
             "n" : "entry@novice",
-            "s" : "nsacred"
+            "s" : "nsacred@aephir"
          },
          "flags" : [
             "outdoors",
@@ -170,8 +170,8 @@
       },
       "trail3@aephir" : {
          "exits" : {
-            "e" : "trail4",
-            "w" : "trail2"
+            "e" : "trail4@aephir",
+            "w" : "trail2@aephir"
          },
          "flags" : [
             "outdoors",
@@ -186,11 +186,11 @@
       },
       "aephir@aephir" : {
          "exits" : {
-            "e" : "esacred",
-            "w" : "wsacred",
-            "u" : "climb",
-            "n" : "nsacred",
-            "s" : "ssacred"
+            "e" : "esacred@aephir",
+            "w" : "wsacred@aephir",
+            "u" : "climb@aephir",
+            "n" : "nsacred@aephir",
+            "s" : "ssacred@aephir"
          },
          "flags" : [
             "Aephir",
@@ -208,7 +208,7 @@
       },
       "climb@aephir" : {
          "exits" : {
-            "d" : "aephir"
+            "d" : "aephir@aephir"
          },
          "flags" : [
             "nogoto",
@@ -223,9 +223,9 @@
       },
       "wsacred@aephir" : {
          "exits" : {
-            "e" : "aephir",
-            "n" : "nwsacred",
-            "s" : "swsacred"
+            "e" : "aephir@aephir",
+            "n" : "nwsacred@aephir",
+            "s" : "swsacred@aephir"
          },
          "flags" : [
             "outdoors",
@@ -240,10 +240,10 @@
       },
       "sesacred@aephir" : {
          "exits" : {
-            "e" : "forbid",
-            "w" : "ssacred",
-            "n" : "esacred",
-            "s" : "forbid"
+            "e" : "forbid@aephir",
+            "w" : "ssacred@aephir",
+            "n" : "esacred@aephir",
+            "s" : "forbid@aephir"
          },
          "flags" : [
             "outdoors",
@@ -260,7 +260,7 @@
    "mob" : {
       "runner@aephir" : {
          "damage" : "45",
-         "location" : "aephir",
+         "location" : "aephir@aephir",
          "armor" : "8",
          "name" : "Runner",
          "examine" : "\nThe Elven Runners are well known to be one of the deadliest hand-to-hand opponents\nin the land.  While they have excellent dexterity, their strength is\nsomewhat lacking, and their armor is light.",
@@ -279,7 +279,7 @@
       },
       "aephir@aephir" : {
          "damage" : "100000",
-         "location" : "aephir",
+         "location" : "aephir@aephir",
          "armor" : "100000",
          "name" : "Aephir",
          "examine" : "Aephir, the Goddess of Nature is dressed in a simple robe of pure shimmery\nwhite which complements her silvery hair. She notices you, her forest-green\neyes looking into your own. You feel very weak and insignificant, but\nutterly protected and at peace.\nShe then smiles at you and turns her head and stares out into space.",

@@ -2,7 +2,7 @@
    "obj" : {
       "tunneast@ledge" : {
          "desc[1]" : "\nA huge rockfall to the west has sealed off the only exit to this chamber.",
-         "location" : "IN_ROOM:ledge9",
+         "location" : "IN_ROOM:ledge9@ledge",
          "oflags" : [
             "NoGet"
          ],
@@ -14,7 +14,7 @@
          "maxstate" : "1"
       },
       "earplugs@ledge" : {
-         "location" : "IN_CONTAINER:minecart",
+         "location" : "IN_CONTAINER:minecart@ledge",
          "oflags" : [
             "Wearable"
          ],
@@ -27,7 +27,7 @@
          "desc[0]" : "A set of earplugs got discarded here."
       },
       "gag@ledge" : {
-         "location" : "IN_ROOM:ledge18",
+         "location" : "IN_ROOM:ledge18@ledge",
          "oflags" : [
             "Wearable"
          ],
@@ -42,7 +42,7 @@
          ]
       },
       "sign@ledge" : {
-         "location" : "IN_ROOM:ledge50",
+         "location" : "IN_ROOM:ledge50@ledge",
          "oflags" : [
             "Noget"
          ],
@@ -51,7 +51,7 @@
          "desc[0]" : "A large warning sign is stuck here in the sand."
       },
       "cooler@ledge" : {
-         "location" : "IN_ROOM:ledge52",
+         "location" : "IN_ROOM:ledge52@ledge",
          "oflags" : [
             "Container",
             "Noget"
@@ -61,7 +61,7 @@
       },
       "vswitch@ledge" : {
          "desc[1]" : "A switch on the wall is in the NO VANCANY position.",
-         "location" : "IN_ROOM:ledge52",
+         "location" : "IN_ROOM:ledge52@ledge",
          "oflags" : [
             "Noget",
             "Pushtoggle"
@@ -93,7 +93,7 @@
       },
       "vancany@ledge" : {
          "desc[1]" : "The sign on the front reads NO VANCANY, come back later.",
-         "location" : "IN_ROOM:ledge50",
+         "location" : "IN_ROOM:ledge50@ledge",
          "oflags" : [
             "Noget"
          ],
@@ -106,7 +106,7 @@
          "desc[0]" : "The sign on the front reads VANCANY."
       },
       "lovepotion@ledge" : {
-         "location" : "IN_ROOM:ledge52",
+         "location" : "IN_ROOM:ledge52@ledge",
          "oflags" : [
             "Alcohol",
             "Food"
@@ -121,7 +121,7 @@
          "desc[0]" : "A bottle of a pink liquid has been placed here."
       },
       "inscription@ledge" : {
-         "location" : "IN_ROOM:ledge23",
+         "location" : "IN_ROOM:ledge23@ledge",
          "oflags" : [
             "Noget"
          ],
@@ -133,7 +133,7 @@
       },
       "koboldkey@ledge" : {
          "desc[1]" : "The kobold's keychain remains from the vanished kobold.",
-         "location" : "WORN_BY:kobold",
+         "location" : "WORN_BY:kobold@ledge",
          "oflags" : [
             "Key",
             "Wearable"
@@ -153,7 +153,7 @@
          "desc[0]" : "A key on a chain lies here."
       },
       "pushcart@ledge" : {
-         "location" : "IN_ROOM:ledge19",
+         "location" : "IN_ROOM:ledge19@ledge",
          "oflags" : [
             "Container",
             "Noget"
@@ -166,7 +166,7 @@
          "size" : "30"
       },
       "minecart@ledge" : {
-         "location" : "IN_ROOM:ledge15",
+         "location" : "IN_ROOM:ledge15@ledge",
          "oflags" : [
             "Container",
             "Noget"
@@ -179,7 +179,7 @@
          "size" : "30"
       },
       "hardhat@ledge" : {
-         "location" : "IN_CONTAINER:minecart",
+         "location" : "IN_CONTAINER:minecart@ledge",
          "oflags" : [
             "Armor",
             "Wearable"
@@ -198,7 +198,7 @@
          "desc[0]" : "An old miner's hardhat got left here."
       },
       "budice@ledge" : {
-         "location" : "IN_CONTAINER:cooler",
+         "location" : "IN_CONTAINER:cooler@ledge",
          "oflags" : [
             "Alcohol",
             "Food"
@@ -211,7 +211,7 @@
       },
       "snorkelone@ledge" : {
          "desc[1]" : "A snorkel has been left here, apparently by an underwater cave explorer.",
-         "location" : "IN_ROOM:ledge37",
+         "location" : "IN_ROOM:ledge37@ledge",
          "oflags" : [
             "Wearable",
             "Breathe"
@@ -227,7 +227,7 @@
          "desc[0]" : "Someone left a snorkel here, wanna go swimming?"
       },
       "chain@ledge" : {
-         "location" : "IN_ROOM:ledge38",
+         "location" : "IN_ROOM:ledge38@ledge",
          "oflags" : [
             "Openable",
             "Noget"
@@ -239,7 +239,7 @@
          "state" : "2"
       },
       "volume@ledge" : {
-         "location" : "IN_ROOM:forgotten",
+         "location" : "IN_ROOM:forgotten@ledge",
          "oflags" : [
             "Noget"
          ],
@@ -251,7 +251,7 @@
       },
       "tunnwest@ledge" : {
          "desc[1]" : "A large rockfall blocks the passage to the east.",
-         "location" : "IN_ROOM:tunnel",
+         "location" : "IN_ROOM:tunnel@ledge",
          "oflags" : [
             "NoGet"
          ],
@@ -264,7 +264,7 @@
       },
       "ropebotpit@ledge" : {
          "desc[1]" : "A rope leads up out of the pit.",
-         "location" : "IN_ROOM:pit",
+         "location" : "IN_ROOM:pit@ledge",
          "oflags" : [
             "Destroyed",
             "NoGet"
@@ -280,7 +280,7 @@
       },
       "ropewest@ledge" : {
          "desc[1]" : "A rope hangs west across to the steps.",
-         "location" : "IN_ROOM:On",
+         "location" : "IN_ROOM:on@ledge",
          "oflags" : [
             "Destroyed",
             "NoGet"
@@ -297,7 +297,7 @@
       "pickaxe@ledge" : {
          "desc[1]" : "A pickaxe stands against the side of the cavern.",
          "damage" : "12",
-         "location" : "IN_CONTAINER:minecart",
+         "location" : "IN_CONTAINER:minecart@ledge",
          "oflags" : [
             "Weapon"
          ],
@@ -311,7 +311,7 @@
          "desc[0]" : "A miner's pickaxe lies flat on the ground."
       },
       "blindfold@ledge" : {
-         "location" : "IN_ROOM:ledge18",
+         "location" : "IN_ROOM:ledge18@ledge",
          "oflags" : [
             "Wearable"
          ],
@@ -326,7 +326,7 @@
          ]
       },
       "orb@ledge" : {
-         "location" : "IN_ROOM:forgotten",
+         "location" : "IN_ROOM:forgotten@ledge",
          "altname" : "platinum",
          "name" : "orb",
          "bvalue" : "400",
@@ -334,7 +334,7 @@
       },
       "coal@ledge" : {
          "desc[1]" : "A lump of coal burns on the ground, too hot to pick up.",
-         "location" : "IN_ROOM:ledge10",
+         "location" : "IN_ROOM:ledge10@ledge",
          "oflags" : [
             "Extinguish",
             "Lightable"
@@ -353,8 +353,8 @@
    "loc" : {
       "ledge25@ledge" : {
          "exits" : {
-            "n" : "ledge26",
-            "s" : "ledge24"
+            "n" : "ledge26@ledge",
+            "s" : "ledge24@ledge"
          },
          "flags" : [
             "Dark"
@@ -367,8 +367,8 @@
       },
       "ledge@ledge" : {
          "exits" : {
-            "w" : "Cavemouth",
-            "e" : "Death"
+            "w" : "cavemouth@ledge",
+            "e" : "death@ledge"
          },
          "flags" : [
             "Outdoors"
@@ -381,10 +381,10 @@
       },
       "ledge53@ledge" : {
          "exits" : {
-            "e" : "ledge54",
-            "w" : "ledge51",
-            "n" : "WaistDeep@eastcoast",
-            "s" : "ledge53"
+            "e" : "ledge54@ledge",
+            "w" : "ledge51@ledge",
+            "n" : "waistdeep@eastcoast",
+            "s" : "ledge53@ledge"
          },
          "flags" : [
             "Outdoors"
@@ -397,10 +397,10 @@
       },
       "ledge10@ledge" : {
          "exits" : {
-            "e" : "ledge11",
-            "w" : "ledge9",
-            "u" : "ledge9",
-            "d" : "ledge11"
+            "e" : "ledge11@ledge",
+            "w" : "ledge9@ledge",
+            "u" : "ledge9@ledge",
+            "d" : "ledge11@ledge"
          },
          "flags" : [
             "Dark"
@@ -413,8 +413,8 @@
       },
       "ledge35@ledge" : {
          "exits" : {
-            "e" : "ledge36",
-            "n" : "ledge24"
+            "e" : "ledge36@ledge",
+            "n" : "ledge24@ledge"
          },
          "flags" : [
             "Dark"
@@ -427,9 +427,9 @@
       },
       "ledge15@ledge" : {
          "exits" : {
-            "n" : "ledge18",
-            "d" : "ledge18",
-            "s" : "ledge13"
+            "n" : "ledge18@ledge",
+            "d" : "ledge18@ledge",
+            "s" : "ledge13@ledge"
          },
          "flags" : [
             "Dark"
@@ -442,9 +442,9 @@
       },
       "cave@ledge" : {
          "exits" : {
-            "e" : "Tunnel",
-            "n" : "Pit",
-            "s" : "Cavemouth"
+            "e" : "tunnel@ledge",
+            "n" : "pit@ledge",
+            "s" : "cavemouth@ledge"
          },
          "flags" : [],
          "zone" : "ledge",
@@ -455,9 +455,9 @@
       },
       "ledge51@ledge" : {
          "exits" : {
-            "e" : "ledge53",
-            "w" : "ledge52",
-            "n" : "SandyBeach@eastcoast",
+            "e" : "ledge53@ledge",
+            "w" : "ledge52@ledge",
+            "n" : "sandybeach@eastcoast",
             "s" : "beach4@beach"
          },
          "flags" : [
@@ -471,10 +471,10 @@
       },
       "ledge32@ledge" : {
          "exits" : {
-            "w" : "ledge31",
-            "u" : "ledge34",
-            "n" : "ledge34",
-            "s" : "ledge37"
+            "w" : "ledge31@ledge",
+            "u" : "ledge34@ledge",
+            "n" : "ledge34@ledge",
+            "s" : "ledge37@ledge"
          },
          "flags" : [
             "Dark"
@@ -487,10 +487,10 @@
       },
       "ledge57@ledge" : {
          "exits" : {
-            "e" : "ledge58",
-            "w" : "ledge56",
-            "d" : "ledge45",
-            "s" : "ledge57"
+            "e" : "ledge58@ledge",
+            "w" : "ledge56@ledge",
+            "d" : "ledge45@ledge",
+            "s" : "ledge57@ledge"
          },
          "flags" : [
             "Outdoors"
@@ -503,10 +503,10 @@
       },
       "ledge20@ledge" : {
          "exits" : {
-            "e" : "ledge21",
-            "w" : "ledge17",
-            "u" : "ledge17",
-            "d" : "ledge21"
+            "e" : "ledge21@ledge",
+            "w" : "ledge17@ledge",
+            "u" : "ledge17@ledge",
+            "d" : "ledge21@ledge"
          },
          "flags" : [
             "Dark"
@@ -519,10 +519,10 @@
       },
       "ledge11@ledge" : {
          "exits" : {
-            "e" : "ledge12",
-            "w" : "ledge10",
-            "u" : "ledge10",
-            "d" : "ledge12"
+            "e" : "ledge12@ledge",
+            "w" : "ledge10@ledge",
+            "u" : "ledge10@ledge",
+            "d" : "ledge12@ledge"
          },
          "flags" : [
             "Dark"
@@ -535,9 +535,9 @@
       },
       "ledge56@ledge" : {
          "exits" : {
-            "e" : "ledge57",
-            "w" : "ledge55",
-            "s" : "ledge56"
+            "e" : "ledge57@ledge",
+            "w" : "ledge55@ledge",
+            "s" : "ledge56@ledge"
          },
          "flags" : [
             "Outdoors"
@@ -550,10 +550,10 @@
       },
       "ledge46@ledge" : {
          "exits" : {
-            "e" : "ledge47",
-            "u" : "ledge57",
-            "n" : "ledge45",
-            "s" : "ledge46"
+            "e" : "ledge47@ledge",
+            "u" : "ledge57@ledge",
+            "n" : "ledge45@ledge",
+            "s" : "ledge46@ledge"
          },
          "flags" : [
             "Underwater"
@@ -566,7 +566,7 @@
       },
       "ledge23@ledge" : {
          "exits" : {
-            "e" : "ledge24"
+            "e" : "ledge24@ledge"
          },
          "flags" : [
             "Dark"
@@ -591,11 +591,11 @@
       },
       "ledge49@ledge" : {
          "exits" : {
-            "e" : "ledge49",
-            "w" : "ledge48",
-            "u" : "ledge58",
-            "n" : "ledge49",
-            "s" : "ledge50"
+            "e" : "ledge49@ledge",
+            "w" : "ledge48@ledge",
+            "u" : "ledge58@ledge",
+            "n" : "ledge49@ledge",
+            "s" : "ledge50@ledge"
          },
          "flags" : [
             "Underwater"
@@ -608,9 +608,9 @@
       },
       "ledge14@ledge" : {
          "exits" : {
-            "e" : "ledge17",
-            "w" : "ledge13",
-            "d" : "ledge17"
+            "e" : "ledge17@ledge",
+            "w" : "ledge13@ledge",
+            "d" : "ledge17@ledge"
          },
          "flags" : [
             "Dark"
@@ -623,10 +623,10 @@
       },
       "ledge17@ledge" : {
          "exits" : {
-            "e" : "ledge20",
-            "w" : "ledge14",
-            "u" : "ledge14",
-            "d" : "ledge20"
+            "e" : "ledge20@ledge",
+            "w" : "ledge14@ledge",
+            "u" : "ledge14@ledge",
+            "d" : "ledge20@ledge"
          },
          "flags" : [
             "Dark"
@@ -639,10 +639,10 @@
       },
       "ledge12@ledge" : {
          "exits" : {
-            "e" : "ledge13",
-            "w" : "ledge11",
-            "u" : "ledge11",
-            "d" : "ledge13"
+            "e" : "ledge13@ledge",
+            "w" : "ledge11@ledge",
+            "u" : "ledge11@ledge",
+            "d" : "ledge13@ledge"
          },
          "flags" : [
             "Dark"
@@ -656,8 +656,8 @@
       "ledge58@ledge" : {
          "exits" : {
             "e" : "beach11@beach",
-            "w" : "ledge57",
-            "d" : "ledge50"
+            "w" : "ledge57@ledge",
+            "d" : "ledge50@ledge"
          },
          "flags" : [
             "Outdoors",
@@ -671,9 +671,9 @@
       },
       "ledge31@ledge" : {
          "exits" : {
-            "e" : "ledge32",
-            "w" : "ledge24",
-            "s" : "ledge36"
+            "e" : "ledge32@ledge",
+            "w" : "ledge24@ledge",
+            "s" : "ledge36@ledge"
          },
          "flags" : [
             "Dark"
@@ -686,8 +686,8 @@
       },
       "tunnel@ledge" : {
          "exits" : {
-            "w" : "Cave",
-            "e" : "^TunnWest"
+            "w" : "cave@ledge",
+            "e" : "^tunnwest@ledge"
          },
          "flags" : [],
          "zone" : "ledge",
@@ -698,8 +698,8 @@
       },
       "on@ledge" : {
          "exits" : {
-            "w" : "^RopeWest",
-            "e" : "Cavemouth"
+            "w" : "^ropewest@ledge",
+            "e" : "cavemouth@ledge"
          },
          "flags" : [
             "Outdoors"
@@ -712,8 +712,8 @@
       },
       "ledge43@ledge" : {
          "exits" : {
-            "e" : "ledge44",
-            "w" : "ledge42"
+            "e" : "ledge44@ledge",
+            "w" : "ledge42@ledge"
          },
          "flags" : [
             "Underwater"
@@ -726,8 +726,8 @@
       },
       "ledge38@ledge" : {
          "exits" : {
-            "n" : "ledge39",
-            "s" : "ledge34"
+            "n" : "ledge39@ledge",
+            "s" : "ledge34@ledge"
          },
          "flags" : [
             "Dark"
@@ -740,8 +740,8 @@
       },
       "ledge26@ledge" : {
          "exits" : {
-            "w" : "ledge27",
-            "s" : "ledge25"
+            "w" : "ledge27@ledge",
+            "s" : "ledge25@ledge"
          },
          "flags" : [],
          "zone" : "ledge",
@@ -752,7 +752,7 @@
       },
       "ledge39@ledge" : {
          "exits" : {
-            "s" : "ledge38"
+            "s" : "ledge38@ledge"
          },
          "flags" : [
             "Dark"
@@ -765,7 +765,7 @@
       },
       "ledge33@ledge" : {
          "exits" : {
-            "n" : "ledge27"
+            "n" : "ledge27@ledge"
          },
          "flags" : [],
          "zone" : "ledge",
@@ -776,7 +776,7 @@
       },
       "forgotten@ledge" : {
          "exits" : {
-            "e" : "ledge27"
+            "e" : "ledge27@ledge"
          },
          "flags" : [],
          "zone" : "ledge",
@@ -787,11 +787,11 @@
       },
       "ledge50@ledge" : {
          "exits" : {
-            "e" : "ledge50",
-            "w" : "ledge45",
-            "u" : "ledge58",
-            "n" : "ledge49",
-            "s" : "ledge47"
+            "e" : "ledge50@ledge",
+            "w" : "ledge45@ledge",
+            "u" : "ledge58@ledge",
+            "n" : "ledge49@ledge",
+            "s" : "ledge47@ledge"
          },
          "flags" : [
             "Underwater"
@@ -804,8 +804,8 @@
       },
       "ledge41@ledge" : {
          "exits" : {
-            "e" : "ledge42",
-            "w" : "ledge40"
+            "e" : "ledge42@ledge",
+            "w" : "ledge40@ledge"
          },
          "flags" : [
             "Underwater"
@@ -818,9 +818,9 @@
       },
       "ledge27@ledge" : {
          "exits" : {
-            "e" : "ledge26",
-            "n" : "ledge28",
-            "s" : "ledge33"
+            "e" : "ledge26@ledge",
+            "n" : "ledge28@ledge",
+            "s" : "ledge33@ledge"
          },
          "flags" : [],
          "zone" : "ledge",
@@ -831,10 +831,10 @@
       },
       "ledge24@ledge" : {
          "exits" : {
-            "e" : "ledge31",
-            "w" : "ledge23",
-            "n" : "ledge25",
-            "s" : "ledge35"
+            "e" : "ledge31@ledge",
+            "w" : "ledge23@ledge",
+            "n" : "ledge25@ledge",
+            "s" : "ledge35@ledge"
          },
          "flags" : [
             "Dark"
@@ -847,9 +847,9 @@
       },
       "ledge28@ledge" : {
          "exits" : {
-            "e" : "ledge29",
-            "w" : "forgotten",
-            "s" : "ledge27"
+            "e" : "ledge29@ledge",
+            "w" : "forgotten@ledge",
+            "s" : "ledge27@ledge"
          },
          "flags" : [],
          "zone" : "ledge",
@@ -860,7 +860,7 @@
       },
       "ledge52@ledge" : {
          "exits" : {
-            "e" : "ledge51"
+            "e" : "ledge51@ledge"
          },
          "flags" : [
             "Party",
@@ -876,8 +876,8 @@
       },
       "ledge44@ledge" : {
          "exits" : {
-            "e" : "ledge45",
-            "w" : "ledge43"
+            "e" : "ledge45@ledge",
+            "w" : "ledge43@ledge"
          },
          "flags" : [
             "Underwater"
@@ -890,10 +890,10 @@
       },
       "ledge37@ledge" : {
          "exits" : {
-            "e" : "ledge40",
-            "w" : "ledge36",
-            "n" : "ledge32",
-            "d" : "ledge40"
+            "e" : "ledge40@ledge",
+            "w" : "ledge36@ledge",
+            "n" : "ledge32@ledge",
+            "d" : "ledge40@ledge"
          },
          "flags" : [
             "Dark"
@@ -906,9 +906,9 @@
       },
       "ledge48@ledge" : {
          "exits" : {
-            "e" : "ledge49",
-            "u" : "ledge57",
-            "s" : "ledge45"
+            "e" : "ledge49@ledge",
+            "u" : "ledge57@ledge",
+            "s" : "ledge45@ledge"
          },
          "flags" : [
             "Underwater"
@@ -921,11 +921,11 @@
       },
       "ledge47@ledge" : {
          "exits" : {
-            "e" : "ledge47",
-            "w" : "ledge46",
-            "u" : "ledge58",
-            "n" : "ledge50",
-            "s" : "ledge47"
+            "e" : "ledge47@ledge",
+            "w" : "ledge46@ledge",
+            "u" : "ledge58@ledge",
+            "n" : "ledge50@ledge",
+            "s" : "ledge47@ledge"
          },
          "flags" : [
             "Underwater"
@@ -938,8 +938,8 @@
       },
       "ledge18@ledge" : {
          "exits" : {
-            "u" : "ledge15",
-            "s" : "ledge15"
+            "u" : "ledge15@ledge",
+            "s" : "ledge15@ledge"
          },
          "flags" : [
             "Dark"
@@ -952,8 +952,8 @@
       },
       "pit@ledge" : {
          "exits" : {
-            "u" : "^RopeBotPit",
-            "s" : "Cave"
+            "u" : "^ropebotpit@ledge",
+            "s" : "cave@ledge"
          },
          "flags" : [
             "Outdoors"
@@ -966,9 +966,9 @@
       },
       "ledge36@ledge" : {
          "exits" : {
-            "e" : "ledge37",
-            "w" : "ledge35",
-            "n" : "ledge31"
+            "e" : "ledge37@ledge",
+            "w" : "ledge35@ledge",
+            "n" : "ledge31@ledge"
          },
          "flags" : [
             "Dark"
@@ -981,8 +981,8 @@
       },
       "ledge29@ledge" : {
          "exits" : {
-            "e" : "ledge30",
-            "w" : "ledge28"
+            "e" : "ledge30@ledge",
+            "w" : "ledge28@ledge"
          },
          "flags" : [
             "Hot"
@@ -995,9 +995,9 @@
       },
       "ledge54@ledge" : {
          "exits" : {
-            "e" : "ledge55",
-            "w" : "ledge53",
-            "s" : "ledge54"
+            "e" : "ledge55@ledge",
+            "w" : "ledge53@ledge",
+            "s" : "ledge54@ledge"
          },
          "flags" : [
             "Outdoors"
@@ -1010,11 +1010,11 @@
       },
       "ledge13@ledge" : {
          "exits" : {
-            "e" : "ledge14",
-            "w" : "ledge12",
-            "u" : "ledge12",
-            "n" : "ledge15",
-            "s" : "ledge16"
+            "e" : "ledge14@ledge",
+            "w" : "ledge12@ledge",
+            "u" : "ledge12@ledge",
+            "n" : "ledge15@ledge",
+            "s" : "ledge16@ledge"
          },
          "flags" : [
             "Dark"
@@ -1027,11 +1027,11 @@
       },
       "ledge45@ledge" : {
          "exits" : {
-            "e" : "ledge50",
-            "w" : "ledge44",
-            "u" : "ledge57",
-            "n" : "ledge48",
-            "s" : "ledge46"
+            "e" : "ledge50@ledge",
+            "w" : "ledge44@ledge",
+            "u" : "ledge57@ledge",
+            "n" : "ledge48@ledge",
+            "s" : "ledge46@ledge"
          },
          "flags" : [
             "Underwater"
@@ -1044,9 +1044,9 @@
       },
       "ledge40@ledge" : {
          "exits" : {
-            "e" : "ledge41",
-            "w" : "ledge37",
-            "u" : "ledge37"
+            "e" : "ledge41@ledge",
+            "w" : "ledge37@ledge",
+            "u" : "ledge37@ledge"
          },
          "flags" : [
             "Underwater"
@@ -1059,8 +1059,8 @@
       },
       "ledge34@ledge" : {
          "exits" : {
-            "n" : "ledge38",
-            "s" : "ledge32"
+            "n" : "ledge38@ledge",
+            "s" : "ledge32@ledge"
          },
          "flags" : [
             "Dark"
@@ -1073,9 +1073,9 @@
       },
       "ledge55@ledge" : {
          "exits" : {
-            "e" : "ledge56",
-            "w" : "ledge54",
-            "s" : "ledge55"
+            "e" : "ledge56@ledge",
+            "w" : "ledge54@ledge",
+            "s" : "ledge55@ledge"
          },
          "flags" : [
             "Outdoors"
@@ -1088,9 +1088,9 @@
       },
       "cavemouth@ledge" : {
          "exits" : {
-            "w" : "On",
-            "e" : "Ledge",
-            "n" : "Cave"
+            "w" : "on@ledge",
+            "e" : "ledge@ledge",
+            "n" : "cave@ledge"
          },
          "flags" : [
             "Outdoors"
@@ -1103,9 +1103,9 @@
       },
       "ledge19@ledge" : {
          "exits" : {
-            "w" : "Death",
-            "u" : "ledge16",
-            "n" : "ledge16"
+            "w" : "death@ledge",
+            "u" : "ledge16@ledge",
+            "n" : "ledge16@ledge"
          },
          "flags" : [
             "Dark"
@@ -1118,7 +1118,7 @@
       },
       "ledge30@ledge" : {
          "exits" : {
-            "w" : "ledge29"
+            "w" : "ledge29@ledge"
          },
          "flags" : [
             "Hot",
@@ -1132,9 +1132,9 @@
       },
       "ledge16@ledge" : {
          "exits" : {
-            "n" : "ledge13",
-            "d" : "ledge19",
-            "s" : "ledge19"
+            "n" : "ledge13@ledge",
+            "d" : "ledge19@ledge",
+            "s" : "ledge19@ledge"
          },
          "flags" : [
             "Dark"
@@ -1147,8 +1147,8 @@
       },
       "ledge22@ledge" : {
          "exits" : {
-            "w" : "ledge21",
-            "u" : "ledge21"
+            "w" : "ledge21@ledge",
+            "u" : "ledge21@ledge"
          },
          "flags" : [
             "Death"
@@ -1161,10 +1161,10 @@
       },
       "ledge21@ledge" : {
          "exits" : {
-            "e" : "ledge22",
-            "w" : "ledge20",
-            "u" : "ledge20",
-            "d" : "ledge22"
+            "e" : "ledge22@ledge",
+            "w" : "ledge20@ledge",
+            "u" : "ledge20@ledge",
+            "d" : "ledge22@ledge"
          },
          "flags" : [
             "Dark"
@@ -1177,8 +1177,8 @@
       },
       "ledge42@ledge" : {
          "exits" : {
-            "e" : "ledge43",
-            "w" : "ledge41"
+            "e" : "ledge43@ledge",
+            "w" : "ledge41@ledge"
          },
          "flags" : [
             "Underwater"
@@ -1191,9 +1191,9 @@
       },
       "ledge9@ledge" : {
          "exits" : {
-            "e" : "ledge10",
-            "w" : "^TunnEast",
-            "d" : "ledge10"
+            "e" : "ledge10@ledge",
+            "w" : "^tunneast@ledge",
+            "d" : "ledge10@ledge"
          },
          "flags" : [
             "Dark"
@@ -1222,7 +1222,7 @@
       },
       "evil@ledge" : {
          "damage" : "10",
-         "location" : "ledge28",
+         "location" : "ledge28@ledge",
          "speed" : "0",
          "name" : "Evil",
          "examine" : "\nYou want to get by him?  You have to totally block him out of your mind!\nPicking a fight with him is totally out of the question--unless you have\na death wish...or you're a battletank!",
@@ -1236,7 +1236,7 @@
       },
       "pike@ledge" : {
          "damage" : "9",
-         "location" : "ledge45",
+         "location" : "ledge45@ledge",
          "name" : "pike",
          "examine" : "These are great game fish, but can really whip someone with its fins.",
          "description" : "A northern pike fish swims by your head looking for minnows.",
@@ -1253,7 +1253,7 @@
       },
       "bear@ledge" : {
          "damage" : "20",
-         "location" : "ledge38",
+         "location" : "ledge38@ledge",
          "name" : "bear",
          "examine" : "\nObviously this bear is being held against its will, but someone is using\nhim to keep intruders out.  Still, picking a fight with him would not be\nwise as the noise could alert whoever lives here.",
          "description" : "A large bear sits across the cavern bound by chains.",
@@ -1267,7 +1267,7 @@
       },
       "flounder@ledge" : {
          "damage" : "5",
-         "location" : "ledge44",
+         "location" : "ledge44@ledge",
          "name" : "flounder",
          "description" : "An eatin' size flounder skirts by.",
          "sflags" : [
@@ -1284,7 +1284,7 @@
             "Shock"
          ],
          "damage" : "5",
-         "location" : "ledge49",
+         "location" : "ledge49@ledge",
          "name" : "Jellyfish",
          "examine" : "These things have been known to paralyze swimmers that bump into them.\nThis variety is the only kind that can live along this coastline.",
          "description" : "A jellyfish floats in the water.",
@@ -1300,7 +1300,7 @@
       },
       "grayshark@ledge" : {
          "damage" : "10",
-         "location" : "ledge49",
+         "location" : "ledge49@ledge",
          "armor" : "0",
          "name" : "grayshark",
          "examine" : "Sharks aren't known for coming around this part of the coastline, but this\none has been searching for warmer waters for days.  He looks weak and tired.",
@@ -1318,7 +1318,7 @@
       },
       "salmon@ledge" : {
          "damage" : "5",
-         "location" : "ledge42",
+         "location" : "ledge42@ledge",
          "name" : "salmon",
          "description" : "An ocean salmon swims by your head.",
          "sflags" : [
@@ -1346,7 +1346,7 @@
          "strength" : "60"
       },
       "dummy@ledge" : {
-         "location" : "ledge51",
+         "location" : "ledge51@ledge",
          "name" : "Dummy",
          "examine" : "\nIt's a dummy variable, used by programmers to show something hasn't \nbeen implemented.",
          "description" : "A dummy mobile wanders around, having escaped from the testing area.",
@@ -1354,7 +1354,7 @@
       },
       "cod@ledge" : {
          "damage" : "6",
-         "location" : "ledge47",
+         "location" : "ledge47@ledge",
          "name" : "cod",
          "description" : "A swedish cod fish swims along the ocean floor.",
          "sflags" : [
@@ -1370,7 +1370,7 @@
       },
       "cavebat@ledge" : {
          "damage" : "5",
-         "location" : "ledge19",
+         "location" : "ledge19@ledge",
          "speed" : "1",
          "aggression" : "20",
          "pname" : "A cave bat",
@@ -1384,7 +1384,7 @@
             "Missile"
          ],
          "damage" : "10",
-         "location" : "ledge39",
+         "location" : "ledge39@ledge",
          "name" : "kobold",
          "examine" : "\nHe apparently is the one who lives here, and doesn't like visitors.  That\nkey around his neck looks mighty interesting.",
          "description" : "A kobold sits on a boulder asleep.",

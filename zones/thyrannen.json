@@ -1,7 +1,7 @@
 {
    "obj" : {
       "sausage@thyrannen" : {
-         "location" : "IN_ROOM:thyrannen27",
+         "location" : "IN_ROOM:thyrannen27@thyrannen",
          "weight" : "3",
          "oflags" : [
             "Food"
@@ -12,7 +12,7 @@
          "size" : "3"
       },
       "gold@thyrannen" : {
-         "location" : "IN_ROOM:thyrannen64",
+         "location" : "IN_ROOM:thyrannen64@thyrannen",
          "weight" : "6",
          "altname" : "Ore",
          "name" : "Gold",
@@ -21,7 +21,7 @@
          "size" : "6"
       },
       "iron@thyrannen" : {
-         "location" : "IN_ROOM:thyrannen62",
+         "location" : "IN_ROOM:thyrannen62@thyrannen",
          "weight" : "7",
          "altname" : "Ore",
          "name" : "Iron",
@@ -31,7 +31,7 @@
          "size" : "7"
       },
       "harmonica@thyrannen" : {
-         "location" : "IN_ROOM:thyrannen1",
+         "location" : "IN_ROOM:thyrannen1@thyrannen",
          "weight" : "3",
          "name" : "harmonica",
          "bvalue" : "50",
@@ -40,7 +40,7 @@
       },
       "pot@thyrannen" : {
          "desc[1]" : "A pot with the beautiful flower of life blooming in it is here.",
-         "location" : "IN_ROOM:thyrannen13",
+         "location" : "IN_ROOM:thyrannen13@thyrannen",
          "name" : "pot",
          "examine" : "This Is a small, brownish tinted flowerpot, not any bigger than your backpack.",
          "state" : "0",
@@ -51,7 +51,7 @@
          "desc[0]" : "An empty flower pot sits here."
       },
       "hood@thyrannen" : {
-         "location" : "WORN_BY:Draknor",
+         "location" : "WORN_BY:draknor@thyrannen",
          "armor" : "75",
          "oflags" : [
             "Wearable",
@@ -69,7 +69,7 @@
          "desc[0]" : "Draknor's Hood of Protection lies here, glowing with a dark evil energy."
       },
       "seed@thyrannen" : {
-         "location" : "IN_ROOM:thyrannen17",
+         "location" : "IN_ROOM:thyrannen17@thyrannen",
          "weight" : "2",
          "name" : "seed",
          "bvalue" : "25",
@@ -77,7 +77,7 @@
          "size" : "2"
       },
       "guano@thyrannen" : {
-         "location" : "IN_ROOM:thyrannen40",
+         "location" : "IN_ROOM:thyrannen40@thyrannen",
          "weight" : "2",
          "name" : "guano",
          "examine" : "So this is the stinky stuff witches use eh? What about alchemists?",
@@ -87,7 +87,7 @@
       },
       "cauldron@thyrannen" : {
          "desc[1]" : "The cauldron is cracked and drained of all liquid.",
-         "location" : "IN_ROOM:thyrannen35",
+         "location" : "IN_ROOM:thyrannen35@thyrannen",
          "oflags" : [
             "NoGet",
             "Container"
@@ -119,7 +119,7 @@
          "desc[0]" : "A wonderful Charm neclace is here, emanating magic."
       },
       "volume@thyrannen" : {
-         "location" : "IN_ROOM:thyrannen42",
+         "location" : "IN_ROOM:thyrannen42@thyrannen",
          "oflags" : [
             "Noget"
          ],
@@ -130,7 +130,7 @@
          "size" : "17"
       },
       "spade@thyrannen" : {
-         "location" : "IN_ROOM:thyrannen10",
+         "location" : "IN_ROOM:thyrannen10@thyrannen",
          "weight" : "5",
          "name" : "spade",
          "examine" : "This is a small spade, it looks perfect for growing flowers.",
@@ -140,7 +140,7 @@
       },
       "axe@thyrannen" : {
          "damage" : "25",
-         "location" : "WIELDED_BY:miner",
+         "location" : "WIELDED_BY:miner@thyrannen",
          "oflags" : [
             "Weapon"
          ],
@@ -152,7 +152,7 @@
          "desc[0]" : "A very well made ancient dwarven axe is here."
       },
       "soil@thyrannen" : {
-         "location" : "IN_ROOM:thyrannen23",
+         "location" : "IN_ROOM:thyrannen23@thyrannen",
          "weight" : "5",
          "name" : "soil",
          "bvalue" : "20",
@@ -160,7 +160,7 @@
          "size" : "5"
       },
       "sign@thyrannen" : {
-         "location" : "IN_ROOM:thyrannen1",
+         "location" : "IN_ROOM:thyrannen1@thyrannen",
          "weight" : "0",
          "oflags" : [
             "NoGet"
@@ -175,7 +175,7 @@
    "loc" : {
       "thyrannen64@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen63"
+            "w" : "thyrannen63@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -188,8 +188,8 @@
       },
       "thyrannen6@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen9",
-            "n" : "thyrannen5"
+            "w" : "thyrannen9@thyrannen",
+            "n" : "thyrannen5@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -202,8 +202,8 @@
       },
       "thyrannen46@thyrannen" : {
          "exits" : {
-            "n" : "thyrannen45",
-            "s" : "thyrannen47"
+            "n" : "thyrannen45@thyrannen",
+            "s" : "thyrannen47@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -216,8 +216,8 @@
       },
       "thyrannen48@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen50",
-            "n" : "thyrannen47"
+            "w" : "thyrannen50@thyrannen",
+            "n" : "thyrannen47@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -230,7 +230,7 @@
       },
       "thyrannen35@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen34"
+            "w" : "thyrannen34@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -243,8 +243,8 @@
       },
       "thyrannen19@thyrannen" : {
          "exits" : {
-            "n" : "thyrannen18",
-            "s" : "thyrannen20"
+            "n" : "thyrannen18@thyrannen",
+            "s" : "thyrannen20@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -257,9 +257,9 @@
       },
       "thyrannen54@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen50",
-            "e" : "thyrannen55",
-            "n" : "thyrannen53"
+            "w" : "thyrannen50@thyrannen",
+            "e" : "thyrannen55@thyrannen",
+            "n" : "thyrannen53@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -272,9 +272,9 @@
       },
       "thyrannen22@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen2",
-            "e" : "thyrannen23",
-            "s" : "thyrannen43"
+            "w" : "thyrannen2@thyrannen",
+            "e" : "thyrannen23@thyrannen",
+            "s" : "thyrannen43@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -287,8 +287,8 @@
       },
       "thyrannen60@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen59",
-            "d" : "thyrannen61"
+            "e" : "thyrannen59@thyrannen",
+            "d" : "thyrannen61@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -301,8 +301,8 @@
       },
       "thyrannen32@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen31",
-            "n" : "thyrannen33"
+            "w" : "thyrannen31@thyrannen",
+            "n" : "thyrannen33@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -315,8 +315,8 @@
       },
       "thyrannen41@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen38",
-            "s" : "thyrannen42"
+            "w" : "thyrannen38@thyrannen",
+            "s" : "thyrannen42@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -329,7 +329,7 @@
       },
       "thyrannen16@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen14"
+            "w" : "thyrannen14@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -342,8 +342,8 @@
       },
       "thyrannen63@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen64",
-            "n" : "thyrannen62"
+            "e" : "thyrannen64@thyrannen",
+            "n" : "thyrannen62@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -356,7 +356,7 @@
       },
       "thyrannen49@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen48"
+            "w" : "thyrannen48@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -369,8 +369,8 @@
       },
       "thyrannen23@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen24",
-            "w" : "thyrannen22"
+            "e" : "thyrannen24@thyrannen",
+            "w" : "thyrannen22@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -383,7 +383,7 @@
       },
       "thyrannen21@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen20"
+            "e" : "thyrannen20@thyrannen"
          },
          "flags" : [],
          "zone" : "thyrannen",
@@ -394,8 +394,8 @@
       },
       "thyrannen11@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen12",
-            "e" : "thyrannen8"
+            "w" : "thyrannen12@thyrannen",
+            "e" : "thyrannen8@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -408,8 +408,8 @@
       },
       "thyrannen1@thyrannen" : {
          "exits" : {
-            "n" : "Anc13@ancient",
-            "s" : "thyrannen2"
+            "n" : "anc13@ancient",
+            "s" : "thyrannen2@thyrannen"
          },
          "flags" : [
             "NoMobiles",
@@ -423,8 +423,8 @@
       },
       "thyrannen24@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen23",
-            "n" : "thyrannen25"
+            "w" : "thyrannen23@thyrannen",
+            "n" : "thyrannen25@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -437,9 +437,9 @@
       },
       "thyrannen51@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen50",
-            "n" : "thyrannen50",
-            "s" : "thyrannen52"
+            "e" : "thyrannen50@thyrannen",
+            "n" : "thyrannen50@thyrannen",
+            "s" : "thyrannen52@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -452,8 +452,8 @@
       },
       "thyrannen13@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen15",
-            "s" : "thyrannen12"
+            "e" : "thyrannen15@thyrannen",
+            "s" : "thyrannen12@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -466,8 +466,8 @@
       },
       "thyrannen34@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen35",
-            "w" : "thyrannen33"
+            "e" : "thyrannen35@thyrannen",
+            "w" : "thyrannen33@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -480,7 +480,7 @@
       },
       "thyrannen10@thyrannen" : {
          "exits" : {
-            "n" : "thyrannen9"
+            "n" : "thyrannen9@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -493,8 +493,8 @@
       },
       "thyrannen25@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen26",
-            "s" : "thyrannen24"
+            "e" : "thyrannen26@thyrannen",
+            "s" : "thyrannen24@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -507,8 +507,8 @@
       },
       "thyrannen27@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen26",
-            "s" : "thyrannen28"
+            "w" : "thyrannen26@thyrannen",
+            "s" : "thyrannen28@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -521,8 +521,8 @@
       },
       "thyrannen37@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen36",
-            "n" : "thyrannen38"
+            "w" : "thyrannen36@thyrannen",
+            "n" : "thyrannen38@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -535,7 +535,7 @@
       },
       "thyrannen58@thyrannen" : {
          "exits" : {
-            "n" : "thyrannen57"
+            "n" : "thyrannen57@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -548,8 +548,8 @@
       },
       "thyrannen43@thyrannen" : {
          "exits" : {
-            "n" : "thyrannen22",
-            "s" : "thyrannen44"
+            "n" : "thyrannen22@thyrannen",
+            "s" : "thyrannen44@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -562,8 +562,8 @@
       },
       "thyrannen59@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen60",
-            "n" : "thyrannen28"
+            "w" : "thyrannen60@thyrannen",
+            "n" : "thyrannen28@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -576,10 +576,10 @@
       },
       "thyrannen12@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen18",
-            "e" : "thyrannen11",
-            "n" : "thyrannen13",
-            "s" : "thyrannen14"
+            "w" : "thyrannen18@thyrannen",
+            "e" : "thyrannen11@thyrannen",
+            "n" : "thyrannen13@thyrannen",
+            "s" : "thyrannen14@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -592,7 +592,7 @@
       },
       "thyrannen17@thyrannen" : {
          "exits" : {
-            "s" : "thyrannen15"
+            "s" : "thyrannen15@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -605,8 +605,8 @@
       },
       "thyrannen3@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen2",
-            "w" : "thyrannen5"
+            "e" : "thyrannen2@thyrannen",
+            "w" : "thyrannen5@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -619,8 +619,8 @@
       },
       "thyrannen39@thyrannen" : {
          "exits" : {
-            "u" : "thyrannen38",
-            "n" : "thyrannen40"
+            "u" : "thyrannen38@thyrannen",
+            "n" : "thyrannen40@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -633,8 +633,8 @@
       },
       "thyrannen4@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen8",
-            "s" : "thyrannen5"
+            "w" : "thyrannen8@thyrannen",
+            "s" : "thyrannen5@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -647,9 +647,9 @@
       },
       "thyrannen29@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen28",
-            "n" : "thyrannen30",
-            "s" : "thyrannen31"
+            "w" : "thyrannen28@thyrannen",
+            "n" : "thyrannen30@thyrannen",
+            "s" : "thyrannen31@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -662,7 +662,7 @@
       },
       "thyrannen42@thyrannen" : {
          "exits" : {
-            "n" : "thyrannen41"
+            "n" : "thyrannen41@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -675,9 +675,9 @@
       },
       "thyrannen9@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen6",
-            "n" : "thyrannen8",
-            "s" : "thyrannen10"
+            "e" : "thyrannen6@thyrannen",
+            "n" : "thyrannen8@thyrannen",
+            "s" : "thyrannen10@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -690,8 +690,8 @@
       },
       "thyrannen14@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen16",
-            "n" : "thyrannen12"
+            "e" : "thyrannen16@thyrannen",
+            "n" : "thyrannen12@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -704,9 +704,9 @@
       },
       "thyrannen5@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen3",
-            "w" : "thyrannen9",
-            "s" : "thyrannen6"
+            "e" : "thyrannen3@thyrannen",
+            "w" : "thyrannen9@thyrannen",
+            "s" : "thyrannen6@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -719,8 +719,8 @@
       },
       "thyrannen33@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen34",
-            "s" : "thyrannen32"
+            "e" : "thyrannen34@thyrannen",
+            "s" : "thyrannen32@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -733,8 +733,8 @@
       },
       "thyrannen15@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen13",
-            "n" : "thyrannen17"
+            "w" : "thyrannen13@thyrannen",
+            "n" : "thyrannen17@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -747,8 +747,8 @@
       },
       "thyrannen7@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen4",
-            "s" : "thyrannen8"
+            "e" : "thyrannen4@thyrannen",
+            "s" : "thyrannen8@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -761,10 +761,10 @@
       },
       "thyrannen8@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen11",
-            "e" : "thyrannen5",
-            "n" : "thyrannen7",
-            "s" : "thyrannen9"
+            "w" : "thyrannen11@thyrannen",
+            "e" : "thyrannen5@thyrannen",
+            "n" : "thyrannen7@thyrannen",
+            "s" : "thyrannen9@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -777,8 +777,8 @@
       },
       "thyrannen50@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen48",
-            "w" : "thyrannen51"
+            "e" : "thyrannen48@thyrannen",
+            "w" : "thyrannen51@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -791,9 +791,9 @@
       },
       "thyrannen55@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen49",
-            "n" : "thyrannen53",
-            "s" : "thyrannen56"
+            "e" : "thyrannen49@thyrannen",
+            "n" : "thyrannen53@thyrannen",
+            "s" : "thyrannen56@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -806,9 +806,9 @@
       },
       "thyrannen56@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen48",
-            "w" : "thyrannen57",
-            "s" : "thyrannen49"
+            "e" : "thyrannen48@thyrannen",
+            "w" : "thyrannen57@thyrannen",
+            "s" : "thyrannen49@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -821,9 +821,9 @@
       },
       "thyrannen28@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen29",
-            "n" : "thyrannen27",
-            "s" : "thyrannen59"
+            "e" : "thyrannen29@thyrannen",
+            "n" : "thyrannen27@thyrannen",
+            "s" : "thyrannen59@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -836,8 +836,8 @@
       },
       "thyrannen20@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen21",
-            "n" : "thyrannen19"
+            "w" : "thyrannen21@thyrannen",
+            "n" : "thyrannen19@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -850,8 +850,8 @@
       },
       "thyrannen45@thyrannen" : {
          "exits" : {
-            "n" : "thyrannen44",
-            "s" : "thyrannen46"
+            "n" : "thyrannen44@thyrannen",
+            "s" : "thyrannen46@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -864,9 +864,9 @@
       },
       "thyrannen38@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen41",
-            "d" : "thyrannen39",
-            "s" : "thyrannen37"
+            "e" : "thyrannen41@thyrannen",
+            "d" : "thyrannen39@thyrannen",
+            "s" : "thyrannen37@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -879,8 +879,8 @@
       },
       "thyrannen62@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen61",
-            "s" : "thyrannen63"
+            "w" : "thyrannen61@thyrannen",
+            "s" : "thyrannen63@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -893,8 +893,8 @@
       },
       "thyrannen26@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen25",
-            "e" : "thyrannen27"
+            "w" : "thyrannen25@thyrannen",
+            "e" : "thyrannen27@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -907,8 +907,8 @@
       },
       "thyrannen31@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen32",
-            "n" : "thyrannen29"
+            "e" : "thyrannen32@thyrannen",
+            "n" : "thyrannen29@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -921,8 +921,8 @@
       },
       "thyrannen44@thyrannen" : {
          "exits" : {
-            "n" : "thyrannen43",
-            "s" : "thyrannen45"
+            "n" : "thyrannen43@thyrannen",
+            "s" : "thyrannen45@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -935,9 +935,9 @@
       },
       "thyrannen2@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen22",
-            "w" : "thyrannen3",
-            "n" : "thyrannen1"
+            "e" : "thyrannen22@thyrannen",
+            "w" : "thyrannen3@thyrannen",
+            "n" : "thyrannen1@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -950,9 +950,9 @@
       },
       "thyrannen57@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen56",
-            "n" : "thyrannen52",
-            "s" : "thyrannen58"
+            "e" : "thyrannen56@thyrannen",
+            "n" : "thyrannen52@thyrannen",
+            "s" : "thyrannen58@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -965,9 +965,9 @@
       },
       "thyrannen53@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen52",
-            "n" : "thyrannen51",
-            "s" : "thyrannen54"
+            "w" : "thyrannen52@thyrannen",
+            "n" : "thyrannen51@thyrannen",
+            "s" : "thyrannen54@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -980,8 +980,8 @@
       },
       "thyrannen30@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen36",
-            "s" : "thyrannen29"
+            "e" : "thyrannen36@thyrannen",
+            "s" : "thyrannen29@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -994,8 +994,8 @@
       },
       "thyrannen18@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen12",
-            "s" : "thyrannen19"
+            "e" : "thyrannen12@thyrannen",
+            "s" : "thyrannen19@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -1008,8 +1008,8 @@
       },
       "thyrannen61@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen62",
-            "u" : "thyrannen60"
+            "e" : "thyrannen62@thyrannen",
+            "u" : "thyrannen60@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -1022,8 +1022,8 @@
       },
       "thyrannen47@thyrannen" : {
          "exits" : {
-            "n" : "thyrannen46",
-            "s" : "thyrannen48"
+            "n" : "thyrannen46@thyrannen",
+            "s" : "thyrannen48@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -1036,9 +1036,9 @@
       },
       "thyrannen52@thyrannen" : {
          "exits" : {
-            "w" : "thyrannen49",
-            "e" : "thyrannen53",
-            "n" : "thyrannen51"
+            "w" : "thyrannen49@thyrannen",
+            "e" : "thyrannen53@thyrannen",
+            "n" : "thyrannen51@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -1051,8 +1051,8 @@
       },
       "thyrannen36@thyrannen" : {
          "exits" : {
-            "e" : "thyrannen37",
-            "w" : "thyrannen30"
+            "e" : "thyrannen37@thyrannen",
+            "w" : "thyrannen30@thyrannen"
          },
          "flags" : [
             "Outdoors"
@@ -1065,7 +1065,7 @@
       },
       "thyrannen40@thyrannen" : {
          "exits" : {
-            "s" : "thyrannen39"
+            "s" : "thyrannen39@thyrannen"
          },
          "flags" : [
             "Dark"
@@ -1080,7 +1080,7 @@
    "mob" : {
       "lazz@thyrannen" : {
          "damage" : "20",
-         "location" : "thyrannen41",
+         "location" : "thyrannen41@thyrannen",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "10",
@@ -1093,7 +1093,7 @@
       },
       "miner@thyrannen" : {
          "damage" : "5",
-         "location" : "thyrannen64",
+         "location" : "thyrannen64@thyrannen",
          "speed" : "0",
          "aggression" : "50",
          "armor" : "0",
@@ -1104,7 +1104,7 @@
       },
       "fred@thyrannen" : {
          "damage" : "4",
-         "location" : "thyrannen10",
+         "location" : "thyrannen10@thyrannen",
          "speed" : "0",
          "aggression" : "40",
          "armor" : "0",
@@ -1114,7 +1114,7 @@
       },
       "bill@thyrannen" : {
          "damage" : "4",
-         "location" : "thyrannen54",
+         "location" : "thyrannen54@thyrannen",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -1124,7 +1124,7 @@
       },
       "adam@thyrannen" : {
          "damage" : "4",
-         "location" : "thyrannen10",
+         "location" : "thyrannen10@thyrannen",
          "speed" : "1",
          "aggression" : "40",
          "armor" : "0",
@@ -1134,7 +1134,7 @@
       },
       "puddle@thyrannen" : {
          "damage" : "8",
-         "location" : "thyrannen46",
+         "location" : "thyrannen46@thyrannen",
          "armor" : "0",
          "name" : "Puddle",
          "description" : "\nAt your feet lies a puddle of black goo, another failed attempt by Draknor at\ncreating life.",
@@ -1150,7 +1150,7 @@
       },
       "ghouly@thyrannen" : {
          "damage" : "8",
-         "location" : "thyrannen50",
+         "location" : "thyrannen50@thyrannen",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -1160,7 +1160,7 @@
       },
       "bugbear@thyrannen" : {
          "damage" : "13",
-         "location" : "thyrannen26",
+         "location" : "thyrannen26@thyrannen",
          "speed" : "1",
          "aggression" : "99",
          "armor" : "10",
@@ -1170,7 +1170,7 @@
       },
       "yergun@thyrannen" : {
          "damage" : "4",
-         "location" : "thyrannen10",
+         "location" : "thyrannen10@thyrannen",
          "speed" : "1",
          "aggression" : "40",
          "armor" : "0",
@@ -1180,7 +1180,7 @@
       },
       "commander@thyrannen" : {
          "damage" : "6",
-         "location" : "thyrannen10",
+         "location" : "thyrannen10@thyrannen",
          "speed" : "1",
          "aggression" : "55",
          "armor" : "5",
@@ -1190,7 +1190,7 @@
       },
       "brother2@thyrannen" : {
          "damage" : "5",
-         "location" : "thyrannen35",
+         "location" : "thyrannen35@thyrannen",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -1202,7 +1202,7 @@
       },
       "razmataz@thyrannen" : {
          "damage" : "5",
-         "location" : "thyrannen40",
+         "location" : "thyrannen40@thyrannen",
          "armor" : "0",
          "name" : "RazMataz",
          "description" : "RazMataz the Mutant Vampire bat is here, putting on a show.",
@@ -1215,7 +1215,7 @@
       },
       "jason@thyrannen" : {
          "damage" : "4",
-         "location" : "thyrannen10",
+         "location" : "thyrannen10@thyrannen",
          "speed" : "0",
          "aggression" : "40",
          "armor" : "0",
@@ -1225,7 +1225,7 @@
       },
       "grog@thyrannen" : {
          "damage" : "10",
-         "location" : "thyrannen5",
+         "location" : "thyrannen5@thyrannen",
          "armor" : "0",
          "name" : "Grog",
          "description" : "Grog the ugly Tree Giant stands here, glaring down at you.",
@@ -1239,7 +1239,7 @@
       },
       "callous@thyrannen" : {
          "damage" : "5",
-         "location" : "thyrannen51",
+         "location" : "thyrannen51@thyrannen",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -1249,7 +1249,7 @@
       },
       "flog@thyrannen" : {
          "damage" : "10",
-         "location" : "thyrannen13",
+         "location" : "thyrannen13@thyrannen",
          "armor" : "0",
          "name" : "Flog",
          "description" : "Flog the ugly Tree Giant stands here, looking at you, his breakfast.",
@@ -1263,7 +1263,7 @@
       },
       "brother1@thyrannen" : {
          "damage" : "5",
-         "location" : "thyrannen21",
+         "location" : "thyrannen21@thyrannen",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -1275,7 +1275,7 @@
       },
       "waaz@thyrannen" : {
          "damage" : "3",
-         "location" : "thyrannen38",
+         "location" : "thyrannen38@thyrannen",
          "armor" : "0",
          "name" : "Waaz",
          "description" : "\nWaaz the mutant vampire bat swoops down from the ceiling, flying straight\nfor your neck!",
@@ -1288,7 +1288,7 @@
       },
       "spaz@thyrannen" : {
          "damage" : "3",
-         "location" : "thyrannen38",
+         "location" : "thyrannen38@thyrannen",
          "armor" : "0",
          "name" : "Spaz",
          "description" : "\nSpaz the mutant vampire bat swoops down from the ceiling, flying straight\nfor your neck!",
@@ -1301,7 +1301,7 @@
       },
       "grimy@thyrannen" : {
          "damage" : "8",
-         "location" : "thyrannen52",
+         "location" : "thyrannen52@thyrannen",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -1311,7 +1311,7 @@
       },
       "craz@thyrannen" : {
          "damage" : "3",
-         "location" : "thyrannen38",
+         "location" : "thyrannen38@thyrannen",
          "armor" : "0",
          "name" : "Craz",
          "description" : "\nCraz the mutant vampire bat swoops down from the ceiling, flying straight\nfor your neck!",
@@ -1324,7 +1324,7 @@
       },
       "slart@thyrannen" : {
          "damage" : "8",
-         "location" : "thyrannen56",
+         "location" : "thyrannen56@thyrannen",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -1334,7 +1334,7 @@
       },
       "daniel@thyrannen" : {
          "damage" : "5",
-         "location" : "thyrannen54",
+         "location" : "thyrannen54@thyrannen",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -1348,7 +1348,7 @@
             "Fireball"
          ],
          "damage" : "8",
-         "location" : "thyrannen58",
+         "location" : "thyrannen58@thyrannen",
          "speed" : "0",
          "aggression" : "10",
          "armor" : "5",
@@ -1358,7 +1358,7 @@
       },
       "slimy@thyrannen" : {
          "damage" : "4",
-         "location" : "thyrannen45",
+         "location" : "thyrannen45@thyrannen",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -1368,7 +1368,7 @@
       },
       "plato@thyrannen" : {
          "damage" : "3",
-         "location" : "thyrannen54",
+         "location" : "thyrannen54@thyrannen",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -1378,7 +1378,7 @@
       },
       "ghastly@thyrannen" : {
          "damage" : "5",
-         "location" : "thyrannen48",
+         "location" : "thyrannen48@thyrannen",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "0",
@@ -1388,7 +1388,7 @@
       },
       "conrad@thyrannen" : {
          "damage" : "4",
-         "location" : "thyrannen10",
+         "location" : "thyrannen10@thyrannen",
          "speed" : "0",
          "aggression" : "40",
          "armor" : "0",
@@ -1398,7 +1398,7 @@
       },
       "jazz@thyrannen" : {
          "damage" : "5",
-         "location" : "thyrannen39",
+         "location" : "thyrannen39@thyrannen",
          "armor" : "0",
          "name" : "Jazz",
          "description" : "\nJazz the huge mutant vampire bat swoops down from the ceiling, flying straight\nfor your neck!",
@@ -1411,7 +1411,7 @@
       },
       "gazz@thyrannen" : {
          "damage" : "5",
-         "location" : "thyrannen40",
+         "location" : "thyrannen40@thyrannen",
          "armor" : "0",
          "name" : "Gazz",
          "description" : "\nGazz the Mutant Vampire bat, swoops down from the ceiling, begging for\nforgiveness.",

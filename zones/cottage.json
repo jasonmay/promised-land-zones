@@ -2,7 +2,7 @@
    "obj" : {
       "basalt_door_1@cottage" : {
          "desc[1]" : "A large basalt door bars any southern progression.",
-         "location" : "IN_ROOM:cottage16",
+         "location" : "IN_ROOM:cottage16@cottage",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -18,7 +18,7 @@
       },
       "garage_door_1@cottage" : {
          "desc[1]" : "The barn door is closed.",
-         "location" : "IN_ROOM:cottage8",
+         "location" : "IN_ROOM:cottage8@cottage",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -32,7 +32,7 @@
          "desc[0]" : "The barn door is open."
       },
       "skiff@cottage" : {
-         "location" : "IN_ROOM:cottage18",
+         "location" : "IN_ROOM:cottage18@cottage",
          "weight" : "10",
          "name" : "skiff",
          "examine" : "This skiff is not seaworthy.\n",
@@ -41,7 +41,7 @@
          "size" : "100"
       },
       "crumbs@cottage" : {
-         "location" : "IN_ROOM:cottage16",
+         "location" : "IN_ROOM:cottage16@cottage",
          "weight" : "3",
          "oflags" : [
             "Food"
@@ -53,7 +53,7 @@
          "size" : "3"
       },
       "runes_1@cottage" : {
-         "location" : "IN_ROOM:cottage15",
+         "location" : "IN_ROOM:cottage15@cottage",
          "oflags" : [
             "NoGet"
          ],
@@ -63,7 +63,7 @@
       },
       "memoirs_tome@cottage" : {
          "desc[1]" : "There is a huge tome of memoirs on the desk.",
-         "location" : "IN_ROOM:cottage16",
+         "location" : "IN_ROOM:cottage16@cottage",
          "oflags" : [
             "GetFlips"
          ],
@@ -79,7 +79,7 @@
       },
       "gate_door@cottage" : {
          "desc[1]" : "The gate to the fence is closed.",
-         "location" : "IN_ROOM:cottage2",
+         "location" : "IN_ROOM:cottage2@cottage",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -94,7 +94,7 @@
       },
       "knife_cleaver@cottage" : {
          "damage" : "15",
-         "location" : "IN_ROOM:cottage5",
+         "location" : "IN_ROOM:cottage5@cottage",
          "oflags" : [
             "Weapon"
          ],
@@ -109,7 +109,7 @@
       },
       "scarab@cottage" : {
          "desc[1]" : "A beautiful scarab lies in the sarcophagus.",
-         "location" : "IN_CONTAINER:sarcophagus",
+         "location" : "IN_CONTAINER:sarcophagus@cottage",
          "oflags" : [
             "GetFlips"
          ],
@@ -123,7 +123,7 @@
       },
       "garage_door@cottage" : {
          "desc[1]" : "The barn door is closed.",
-         "location" : "IN_ROOM:cottage7",
+         "location" : "IN_ROOM:cottage7@cottage",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -137,7 +137,7 @@
          "desc[0]" : "The barn door is open."
       },
       "door_wheel@cottage" : {
-         "location" : "IN_ROOM:cottage21",
+         "location" : "IN_ROOM:cottage21@cottage",
          "oflags" : [
             "Container",
             "Pushable",
@@ -155,7 +155,7 @@
       "crowbar@cottage" : {
          "desc[1]" : "A heavy crowbar lies here bracing the kitchen door.",
          "damage" : "10",
-         "location" : "IN_ROOM:cottage8",
+         "location" : "IN_ROOM:cottage8@cottage",
          "oflags" : [
             "Weapon",
             "GetFlips"
@@ -169,7 +169,7 @@
          "desc[0]" : "A very heavy steel crowbar is here."
       },
       "gate_door_1@cottage" : {
-         "location" : "IN_ROOM:cottage3",
+         "location" : "IN_ROOM:cottage3@cottage",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -183,7 +183,7 @@
       },
       "gilded_cowl@cottage" : {
          "desc[1]" : "A gilded cowl becons you to wear it.",
-         "location" : "IN_CONTAINER:sarcophagus",
+         "location" : "IN_CONTAINER:sarcophagus@cottage",
          "oflags" : [
             "Wearable"
          ],
@@ -202,7 +202,7 @@
       },
       "sphere@cottage" : {
          "desc[1]" : "A small golden sphere winks up at you.",
-         "location" : "IN_CONTAINER:sarcophagus",
+         "location" : "IN_CONTAINER:sarcophagus@cottage",
          "oflags" : [
             "Glowing",
             "GetFlips"
@@ -216,7 +216,7 @@
          "desc[0]" : "A small golden sphere shimmers off to one side."
       },
       "angelfood_cake@cottage" : {
-         "location" : "IN_ROOM:cottage5",
+         "location" : "IN_ROOM:cottage5@cottage",
          "oflags" : [
             "Food"
          ],
@@ -230,7 +230,7 @@
          "desc[0]" : "There is a cake here."
       },
       "sarcophagus@cottage" : {
-         "location" : "IN_ROOM:cottage24",
+         "location" : "IN_ROOM:cottage24@cottage",
          "oflags" : [
             "Container",
             "NoGet"
@@ -240,7 +240,7 @@
          "examine" : "You are strnangely drawn to this ancient coffin, but despite your\ncuriosity, the fear of some unknown curse lingers in the back of your mind.\n"
       },
       "door@cottage" : {
-         "location" : "IN_ROOM:cottage8",
+         "location" : "IN_ROOM:cottage8@cottage",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -253,7 +253,7 @@
       },
       "door_1@cottage" : {
          "desc[1]" : "The door is closed.",
-         "location" : "IN_ROOM:cottage5",
+         "location" : "IN_ROOM:cottage5@cottage",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -268,7 +268,7 @@
       "flail@cottage" : {
          "desc[1]" : "A gorgeous flail rests in the corner of the sarcophagus.",
          "damage" : "14",
-         "location" : "IN_CONTAINER:sarcophagus",
+         "location" : "IN_CONTAINER:sarcophagus@cottage",
          "oflags" : [
             "Weapon"
          ],
@@ -281,7 +281,7 @@
          "desc[0]" : "The Flail of Isis lies here."
       },
       "runes@cottage" : {
-         "location" : "IN_ROOM:cottage22",
+         "location" : "IN_ROOM:cottage22@cottage",
          "oflags" : [
             "NoGet"
          ],
@@ -290,7 +290,7 @@
       },
       "basalt_door@cottage" : {
          "desc[1]" : "The basalt door is closed.",
-         "location" : "IN_ROOM:cottage15",
+         "location" : "IN_ROOM:cottage15@cottage",
          "oflags" : [
             "Openable",
             "NoGet"
@@ -305,7 +305,7 @@
          "desc[0]" : "The basalt door is open."
       },
       "door_wheel_1@cottage" : {
-         "location" : "IN_ROOM:cottage22",
+         "location" : "IN_ROOM:cottage22@cottage",
          "oflags" : [
             "Container",
             "Pushable",
@@ -322,8 +322,8 @@
    "loc" : {
       "cottage19@cottage" : {
          "exits" : {
-            "n" : "cottage18",
-            "s" : "cottage20"
+            "n" : "cottage18@cottage",
+            "s" : "cottage20@cottage"
          },
          "flags" : [
             "Dark"
@@ -337,9 +337,9 @@
       "cottage18@cottage" : {
          "exits" : {
             "e" : "town11@town",
-            "u" : "cottage17",
-            "n" : "cottage17",
-            "s" : "cottage19"
+            "u" : "cottage17@cottage",
+            "n" : "cottage17@cottage",
+            "s" : "cottage19@cottage"
          },
          "flags" : [
             "Dark"
@@ -352,8 +352,8 @@
       },
       "cottage7@cottage" : {
          "exits" : {
-            "w" : "cottage6",
-            "n" : "^garage_door"
+            "w" : "cottage6@cottage",
+            "n" : "^garage_door@cottage"
          },
          "flags" : [],
          "zone" : "cottage",
@@ -364,8 +364,8 @@
       },
       "cottage12@cottage" : {
          "exits" : {
-            "n" : "cottage11",
-            "s" : "cottage13"
+            "n" : "cottage11@cottage",
+            "s" : "cottage13@cottage"
          },
          "flags" : [
             "Outdoors"
@@ -378,8 +378,8 @@
       },
       "cottage11@cottage" : {
          "exits" : {
-            "n" : "cottage9",
-            "s" : "cottage12"
+            "n" : "cottage9@cottage",
+            "s" : "cottage12@cottage"
          },
          "flags" : [
             "Outdoors"
@@ -392,8 +392,8 @@
       },
       "cottage9@cottage" : {
          "exits" : {
-            "e" : "cottage10",
-            "s" : "cottage11"
+            "e" : "cottage10@cottage",
+            "s" : "cottage11@cottage"
          },
          "flags" : [
             "Outdoors"
@@ -406,9 +406,9 @@
       },
       "cottage22@cottage" : {
          "exits" : {
-            "w" : "cottage23",
-            "e" : "cottage18",
-            "u" : "^door_wheel_1"
+            "w" : "cottage23@cottage",
+            "e" : "cottage18@cottage",
+            "u" : "^door_wheel_1@cottage"
          },
          "flags" : [
             "Dark",
@@ -422,8 +422,8 @@
       },
       "cottage20@cottage" : {
          "exits" : {
-            "e" : "cottage19",
-            "u" : "cottage21"
+            "e" : "cottage19@cottage",
+            "u" : "cottage21@cottage"
          },
          "flags" : [
             "Dark"
@@ -447,7 +447,7 @@
       },
       "cottage21@cottage" : {
          "exits" : {
-            "d" : "^door_wheel"
+            "d" : "^door_wheel@cottage"
          },
          "flags" : [
             "Dark"
@@ -460,10 +460,10 @@
       },
       "cottage2@cottage" : {
          "exits" : {
-            "e" : "cottage9",
-            "n" : "^gate_door",
-            "d" : "cottage9",
-            "s" : "cottage1"
+            "e" : "cottage9@cottage",
+            "n" : "^gate_door@cottage",
+            "d" : "cottage9@cottage",
+            "s" : "cottage1@cottage"
          },
          "flags" : [
             "Outdoors"
@@ -476,8 +476,8 @@
       },
       "cottage15@cottage" : {
          "exits" : {
-            "w" : "cottage14",
-            "n" : "^basalt_door"
+            "w" : "cottage14@cottage",
+            "n" : "^basalt_door@cottage"
          },
          "flags" : [
             "Outdoors",
@@ -491,8 +491,8 @@
       },
       "cottage14@cottage" : {
          "exits" : {
-            "w" : "cottage13",
-            "e" : "cottage15"
+            "w" : "cottage13@cottage",
+            "e" : "cottage15@cottage"
          },
          "flags" : [
             "Outdoors"
@@ -505,7 +505,7 @@
       },
       "cottage24@cottage" : {
          "exits" : {
-            "e" : "cottage23"
+            "e" : "cottage23@cottage"
          },
          "flags" : [
             "Dark",
@@ -520,8 +520,8 @@
       },
       "cottage4@cottage" : {
          "exits" : {
-            "e" : "cottage5",
-            "s" : "cottage3"
+            "e" : "cottage5@cottage",
+            "s" : "cottage3@cottage"
          },
          "flags" : [],
          "zone" : "cottage",
@@ -532,8 +532,8 @@
       },
       "cottage8@cottage" : {
          "exits" : {
-            "w" : "^door",
-            "s" : "^garage_door_1"
+            "w" : "^door@cottage",
+            "s" : "^garage_door_1@cottage"
          },
          "flags" : [],
          "zone" : "cottage",
@@ -544,9 +544,9 @@
       },
       "cottage17@cottage" : {
          "exits" : {
-            "w" : "cottage16",
-            "d" : "cottage18",
-            "s" : "cottage18"
+            "w" : "cottage16@cottage",
+            "d" : "cottage18@cottage",
+            "s" : "cottage18@cottage"
          },
          "flags" : [
             "NoMobiles"
@@ -560,9 +560,9 @@
       "cottage1@cottage" : {
          "exits" : {
             "w" : "chlyon2@chlyon",
-            "e" : "cottage11",
-            "n" : "cottage2",
-            "d" : "cottage11"
+            "e" : "cottage11@cottage",
+            "n" : "cottage2@cottage",
+            "d" : "cottage11@cottage"
          },
          "flags" : [
             "Outdoors",
@@ -576,8 +576,8 @@
       },
       "cottage13@cottage" : {
          "exits" : {
-            "e" : "cottage14",
-            "n" : "cottage12"
+            "e" : "cottage14@cottage",
+            "n" : "cottage12@cottage"
          },
          "flags" : [
             "Outdoors"
@@ -590,9 +590,9 @@
       },
       "cottage3@cottage" : {
          "exits" : {
-            "e" : "cottage6",
-            "n" : "cottage4",
-            "s" : "^gate_door_1"
+            "e" : "cottage6@cottage",
+            "n" : "cottage4@cottage",
+            "s" : "^gate_door_1@cottage"
          },
          "flags" : [
             "Outdoors"
@@ -605,8 +605,8 @@
       },
       "cottage5@cottage" : {
          "exits" : {
-            "w" : "cottage4",
-            "e" : "^door_1"
+            "w" : "cottage4@cottage",
+            "e" : "^door_1@cottage"
          },
          "flags" : [],
          "zone" : "cottage",
@@ -617,8 +617,8 @@
       },
       "cottage6@cottage" : {
          "exits" : {
-            "w" : "cottage3",
-            "e" : "cottage7"
+            "w" : "cottage3@cottage",
+            "e" : "cottage7@cottage"
          },
          "flags" : [],
          "zone" : "cottage",
@@ -629,8 +629,8 @@
       },
       "cottage16@cottage" : {
          "exits" : {
-            "e" : "cottage17",
-            "s" : "^basalt_door_1"
+            "e" : "cottage17@cottage",
+            "s" : "^basalt_door_1@cottage"
          },
          "flags" : [],
          "zone" : "cottage",
@@ -641,8 +641,8 @@
       },
       "cottage23@cottage" : {
          "exits" : {
-            "w" : "cottage24",
-            "e" : "cottage22"
+            "w" : "cottage24@cottage",
+            "e" : "cottage22@cottage"
          },
          "flags" : [
             "Dark",
@@ -659,7 +659,7 @@
    "mob" : {
       "cousin@cottage" : {
          "damage" : "10",
-         "location" : "cottage2",
+         "location" : "cottage2@cottage",
          "speed" : "0",
          "aggression" : "99",
          "armor" : "0",
@@ -670,7 +670,7 @@
       },
       "vet@cottage" : {
          "damage" : "10",
-         "location" : "cottage16",
+         "location" : "cottage16@cottage",
          "speed" : "5",
          "aggression" : "4",
          "armor" : "0",
@@ -681,7 +681,7 @@
       },
       "kitty@cottage" : {
          "damage" : "10",
-         "location" : "cottage7",
+         "location" : "cottage7@cottage",
          "armor" : "0",
          "name" : "kitty",
          "description" : "Kitty da kitty-cat is amusing herself with a ball of yarn.",
@@ -695,7 +695,7 @@
       },
       "doggy@cottage" : {
          "damage" : "10",
-         "location" : "cottage6",
+         "location" : "cottage6@cottage",
          "speed" : "0",
          "aggression" : "87",
          "armor" : "0",
@@ -706,7 +706,7 @@
       },
       "prowler@cottage" : {
          "damage" : "10",
-         "location" : "cottage8",
+         "location" : "cottage8@cottage",
          "speed" : "0",
          "aggression" : "87",
          "armor" : "0",
@@ -717,7 +717,7 @@
       },
       "brother@cottage" : {
          "damage" : "10",
-         "location" : "cottage2",
+         "location" : "cottage2@cottage",
          "speed" : "0",
          "aggression" : "99",
          "armor" : "0",
@@ -728,7 +728,7 @@
       },
       "father@cottage" : {
          "damage" : "10",
-         "location" : "cottage4",
+         "location" : "cottage4@cottage",
          "speed" : "5",
          "aggression" : "90",
          "armor" : "0",
@@ -739,7 +739,7 @@
       },
       "mother@cottage" : {
          "damage" : "10",
-         "location" : "cottage5",
+         "location" : "cottage5@cottage",
          "armor" : "0",
          "name" : "mother",
          "description" : "Mother is preparing dinner and she doesn't look too happy about it.",
@@ -753,7 +753,7 @@
       },
       "sister@cottage" : {
          "damage" : "10",
-         "location" : "cottage5",
+         "location" : "cottage5@cottage",
          "armor" : "0",
          "name" : "sister",
          "description" : "Sister Kate is sneaking pieces of cake as she eyes her mom's movements.",
@@ -767,7 +767,7 @@
       },
       "ramses@cottage" : {
          "damage" : "10",
-         "location" : "cottage24",
+         "location" : "cottage24@cottage",
          "speed" : "0",
          "aggression" : "87",
          "armor" : "0",

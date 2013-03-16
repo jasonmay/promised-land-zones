@@ -2,7 +2,7 @@
    "obj" : {
       "portcullis_1@opera" : {
          "desc[1]" : "A heavy iron portcullis bars the way south.",
-         "location" : "IN_ROOM:opera35",
+         "location" : "IN_ROOM:opera35@opera",
          "oflags" : [
             "NoGet"
          ],
@@ -15,7 +15,7 @@
          "desc[0]" : "A raised portcullis allows you to go south."
       },
       "box@opera" : {
-         "location" : "IN_ROOM:opera35",
+         "location" : "IN_ROOM:opera35@opera",
          "weight" : "10",
          "oflags" : [
             "Container"
@@ -27,7 +27,7 @@
       },
       "chandelier_1@opera" : {
          "desc[1]" : "You see a chandelier hanging above you.",
-         "location" : "IN_ROOM:opera9",
+         "location" : "IN_ROOM:opera9@opera",
          "oflags" : [
             "NoGet"
          ],
@@ -39,7 +39,7 @@
       },
       "portcullis@opera" : {
          "desc[1]" : "The heavy iron portcullis bars the way north.",
-         "location" : "IN_ROOM:opera34",
+         "location" : "IN_ROOM:opera34@opera",
          "oflags" : [
             "NoGet"
          ],
@@ -52,7 +52,7 @@
       },
       "rubble_1@opera" : {
          "desc[1]" : "Uh oh, the opera's only exit is blocked by rubble!",
-         "location" : "IN_ROOM:opera8",
+         "location" : "IN_ROOM:opera8@opera",
          "oflags" : [
             "Noget"
          ],
@@ -64,7 +64,7 @@
       },
       "rope@opera" : {
          "desc[1]" : "A tightly streched rope supports the chandelier.",
-         "location" : "IN_ROOM:opera25",
+         "location" : "IN_ROOM:opera25@opera",
          "oflags" : [
             "NoGet"
          ],
@@ -76,7 +76,7 @@
          "desc[0]" : "A frayed rope hangs here."
       },
       "music_book@opera" : {
-         "location" : "IN_ROOM:opera35",
+         "location" : "IN_ROOM:opera35@opera",
          "altname" : "music",
          "name" : "music_book",
          "examine" : "It is titled \"Don Juan Triumphant.\"\n",
@@ -88,7 +88,7 @@
       },
       "crossbow@opera" : {
          "damage" : "5",
-         "location" : "IN_ROOM:opera10",
+         "location" : "IN_ROOM:opera10@opera",
          "oflags" : [
             "Weapon"
          ],
@@ -100,7 +100,7 @@
          "desc[0]" : "A heavy crossbow is lying here."
       },
       "boat@opera" : {
-         "location" : "IN_ROOM:opera9",
+         "location" : "IN_ROOM:opera9@opera",
          "weight" : "10",
          "oflags" : [
             "Boat"
@@ -112,7 +112,7 @@
          "size" : "100"
       },
       "evening_gloves@opera" : {
-         "location" : "WORN_BY:carlotta",
+         "location" : "WORN_BY:carlotta@opera",
          "armor" : "8",
          "oflags" : [
             "Wearable",
@@ -130,7 +130,7 @@
          ]
       },
       "scorpion@opera" : {
-         "location" : "IN_CONTAINER:box_ebony",
+         "location" : "IN_CONTAINER:box_ebony@opera",
          "weight" : "10",
          "name" : "scorpion",
          "bvalue" : "500",
@@ -138,7 +138,7 @@
          "size" : "20"
       },
       "note@opera" : {
-         "location" : "CARRIED_BY:andre",
+         "location" : "CARRIED_BY:andre@opera",
          "weight" : "1",
          "name" : "note",
          "examine" : "The note reads:\n\tDear Mr. Manager:\n\t\tI am sorry to have to trouble you at a time when you must\n\tbe so very busy, renewing important engagements, signing fresh ones\n\tand generally displaying your excellent taste.  I know what you\n\thave done for Carlotta and for a few others whose admirable\n\tqualities of talent or genius you have suspected.  Of course when I\n\tuse these words, I do not mean to apply them to La Carlotta, who\n\tsings like a squirt and who ought never to have been allowed to\n\tleave the Cafe Jacquine.  And I am not speaking of Christine Daae\n\teither, though her genius is certain, whereas your jealousy prevents\n\ther from creating any important part.  All the same I should like\n\tto take advantage of the fact that you have not yet turned her out\n\tof doors by hearing her this evening.  I will watch the performance\n\tfrom my normal seat in Box 5, which will be kept empty for me.\n\tShould these commands be ignored, a disaster beyond your\n\timagination will occur.\n\t\t\t\tYour Most Humble and Obedient Servant,\n\t\t\t\tOpera Ghost\n",
@@ -148,7 +148,7 @@
       },
       "mirror@opera" : {
          "desc[1]" : "There is a large mirror against the north wall.",
-         "location" : "IN_ROOM:opera12",
+         "location" : "IN_ROOM:opera12@opera",
          "oflags" : [
             "NoGet",
             "Pushtoggle"
@@ -161,7 +161,7 @@
          "desc[0]" : "A large mirror on the north wall has been moved to reveal a secret passage\nleading north."
       },
       "hole@opera" : {
-         "location" : "IN_ROOM:opera13",
+         "location" : "IN_ROOM:opera13@opera",
          "oflags" : [
             "NoGet"
          ],
@@ -173,7 +173,7 @@
          "desc[0]" : "A secret passage leads south."
       },
       "stone@opera" : {
-         "location" : "IN_ROOM:opera15",
+         "location" : "IN_ROOM:opera15@opera",
          "oflags" : [
             "NoGet"
          ],
@@ -183,7 +183,7 @@
       },
       "chandelier@opera" : {
          "desc[1]" : "You see the chandelier hanging from the ceiling below your feet.",
-         "location" : "IN_ROOM:opera25",
+         "location" : "IN_ROOM:opera25@opera",
          "oflags" : [
             "NoGet"
          ],
@@ -206,7 +206,7 @@
       },
       "box_ivory@opera" : {
          "desc[1]" : "A white ivory box sits on the mantle.",
-         "location" : "IN_ROOM:opera35",
+         "location" : "IN_ROOM:opera35@opera",
          "oflags" : [
             "Container",
             "Openable",
@@ -221,7 +221,7 @@
       },
       "box_ebony@opera" : {
          "desc[1]" : "An black ebony box sits on the mantle.",
-         "location" : "IN_ROOM:opera35",
+         "location" : "IN_ROOM:opera35@opera",
          "oflags" : [
             "Container",
             "Openable",
@@ -236,7 +236,7 @@
       },
       "grasshopper@opera" : {
          "desc[1]" : "A cunningly crafted grasshopper is inside the box.",
-         "location" : "IN_CONTAINER:box_ivory",
+         "location" : "IN_CONTAINER:box_ivory@opera",
          "oflags" : [
             "GetFlips"
          ],
@@ -247,7 +247,7 @@
          "desc[0]" : "A cunningly crafted grasshopper lies on the ground here."
       },
       "tux_tuxedo@opera" : {
-         "location" : "WORN_BY:andre",
+         "location" : "WORN_BY:andre@opera",
          "oflags" : [
             "Wearable"
          ],
@@ -264,10 +264,10 @@
    "loc" : {
       "opera33@opera" : {
          "exits" : {
-            "w" : "opera29",
-            "e" : "opera31",
-            "n" : "opera34",
-            "s" : "opera30"
+            "w" : "opera29@opera",
+            "e" : "opera31@opera",
+            "n" : "opera34@opera",
+            "s" : "opera30@opera"
          },
          "flags" : [
             "OnWater"
@@ -280,7 +280,7 @@
       },
       "opera25@opera" : {
          "exits" : {
-            "w" : "opera24"
+            "w" : "opera24@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -291,8 +291,8 @@
       },
       "opera14@opera" : {
          "exits" : {
-            "e" : "opera16",
-            "u" : "opera13"
+            "e" : "opera16@opera",
+            "u" : "opera13@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -303,8 +303,8 @@
       },
       "opera9@opera" : {
          "exits" : {
-            "n" : "opera10",
-            "s" : "opera8"
+            "n" : "opera10@opera",
+            "s" : "opera8@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -315,9 +315,9 @@
       },
       "opera22@opera" : {
          "exits" : {
-            "u" : "opera23",
-            "d" : "opera26",
-            "s" : "opera21"
+            "u" : "opera23@opera",
+            "d" : "opera26@opera",
+            "s" : "opera21@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -328,8 +328,8 @@
       },
       "opera27@opera" : {
          "exits" : {
-            "w" : "opera26",
-            "n" : "opera28"
+            "w" : "opera26@opera",
+            "n" : "opera28@opera"
          },
          "flags" : [
             "OnWater"
@@ -342,10 +342,10 @@
       },
       "opera16@opera" : {
          "exits" : {
-            "w" : "opera14",
-            "e" : "opera18",
-            "n" : "opera17",
-            "s" : "opera16"
+            "w" : "opera14@opera",
+            "e" : "opera18@opera",
+            "n" : "opera17@opera",
+            "s" : "opera16@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -356,7 +356,7 @@
       },
       "opera35@opera" : {
          "exits" : {
-            "s" : "opera34"
+            "s" : "opera34@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -367,10 +367,10 @@
       },
       "opera29@opera" : {
          "exits" : {
-            "w" : "opera29",
-            "e" : "opera31",
-            "n" : "opera30",
-            "s" : "opera29"
+            "w" : "opera29@opera",
+            "e" : "opera31@opera",
+            "n" : "opera30@opera",
+            "s" : "opera29@opera"
          },
          "flags" : [
             "OnWater"
@@ -394,10 +394,10 @@
       },
       "opera30@opera" : {
          "exits" : {
-            "w" : "opera31",
-            "e" : "opera29",
-            "n" : "opera30",
-            "s" : "opera28"
+            "w" : "opera31@opera",
+            "e" : "opera29@opera",
+            "n" : "opera30@opera",
+            "s" : "opera28@opera"
          },
          "flags" : [
             "OnWater"
@@ -410,8 +410,8 @@
       },
       "opera24@opera" : {
          "exits" : {
-            "e" : "opera25",
-            "d" : "opera23"
+            "e" : "opera25@opera",
+            "d" : "opera23@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -422,9 +422,9 @@
       },
       "opera8@opera" : {
          "exits" : {
-            "u" : "opera9",
-            "n" : "opera9",
-            "s" : "^rubble_1"
+            "u" : "opera9@opera",
+            "n" : "opera9@opera",
+            "s" : "^rubble_1@opera"
          },
          "flags" : [
             "Nomobiles"
@@ -437,10 +437,10 @@
       },
       "opera17@opera" : {
          "exits" : {
-            "w" : "opera16",
-            "e" : "opera16",
-            "n" : "opera18",
-            "s" : "opera17"
+            "w" : "opera16@opera",
+            "e" : "opera16@opera",
+            "n" : "opera18@opera",
+            "s" : "opera17@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -451,10 +451,10 @@
       },
       "opera19@opera" : {
          "exits" : {
-            "w" : "opera15",
-            "e" : "opera17",
-            "n" : "opera20",
-            "s" : "opera18"
+            "w" : "opera15@opera",
+            "e" : "opera17@opera",
+            "n" : "opera20@opera",
+            "s" : "opera18@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -465,10 +465,10 @@
       },
       "opera20@opera" : {
          "exits" : {
-            "w" : "opera36",
-            "e" : "opera16",
-            "n" : "opera17",
-            "s" : "opera21"
+            "w" : "opera36@opera",
+            "e" : "opera16@opera",
+            "n" : "opera17@opera",
+            "s" : "opera21@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -479,8 +479,8 @@
       },
       "opera34@opera" : {
          "exits" : {
-            "n" : "opera35",
-            "s" : "opera33"
+            "n" : "opera35@opera",
+            "s" : "opera33@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -491,8 +491,8 @@
       },
       "opera10@opera" : {
          "exits" : {
-            "w" : "opera11",
-            "s" : "opera9"
+            "w" : "opera11@opera",
+            "s" : "opera9@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -503,10 +503,10 @@
       },
       "opera32@opera" : {
          "exits" : {
-            "w" : "opera31",
-            "e" : "opera30",
-            "n" : "opera29",
-            "s" : "opera33"
+            "w" : "opera31@opera",
+            "e" : "opera30@opera",
+            "n" : "opera29@opera",
+            "s" : "opera33@opera"
          },
          "flags" : [
             "OnWater"
@@ -519,8 +519,8 @@
       },
       "opera13@opera" : {
          "exits" : {
-            "d" : "opera14",
-            "s" : "^hole"
+            "d" : "opera14@opera",
+            "s" : "^hole@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -531,8 +531,8 @@
       },
       "opera23@opera" : {
          "exits" : {
-            "u" : "opera24",
-            "d" : "opera22"
+            "u" : "opera24@opera",
+            "d" : "opera22@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -543,8 +543,8 @@
       },
       "opera11@opera" : {
          "exits" : {
-            "w" : "opera12",
-            "e" : "opera10"
+            "w" : "opera12@opera",
+            "e" : "opera10@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -555,10 +555,10 @@
       },
       "opera31@opera" : {
          "exits" : {
-            "w" : "opera30",
-            "e" : "opera32",
-            "n" : "opera31",
-            "s" : "opera29"
+            "w" : "opera30@opera",
+            "e" : "opera32@opera",
+            "n" : "opera31@opera",
+            "s" : "opera29@opera"
          },
          "flags" : [
             "OnWater"
@@ -571,10 +571,10 @@
       },
       "opera21@opera" : {
          "exits" : {
-            "w" : "opera17",
-            "e" : "opera19",
-            "n" : "opera22",
-            "s" : "opera36"
+            "w" : "opera17@opera",
+            "e" : "opera19@opera",
+            "n" : "opera22@opera",
+            "s" : "opera36@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -585,8 +585,8 @@
       },
       "opera15@opera" : {
          "exits" : {
-            "e" : "opera19",
-            "u" : "opera10"
+            "e" : "opera19@opera",
+            "u" : "opera10@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -597,10 +597,10 @@
       },
       "opera18@opera" : {
          "exits" : {
-            "w" : "opera17",
-            "e" : "opera36",
-            "n" : "opera16",
-            "s" : "opera19"
+            "w" : "opera17@opera",
+            "e" : "opera36@opera",
+            "n" : "opera16@opera",
+            "s" : "opera19@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -611,8 +611,8 @@
       },
       "opera12@opera" : {
          "exits" : {
-            "e" : "opera11",
-            "n" : "^mirror"
+            "e" : "opera11@opera",
+            "n" : "^mirror@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -623,10 +623,10 @@
       },
       "opera28@opera" : {
          "exits" : {
-            "w" : "opera30",
-            "e" : "opera28",
-            "n" : "opera29",
-            "s" : "opera27"
+            "w" : "opera30@opera",
+            "e" : "opera28@opera",
+            "n" : "opera29@opera",
+            "s" : "opera27@opera"
          },
          "flags" : [
             "OnWater"
@@ -639,8 +639,8 @@
       },
       "opera26@opera" : {
          "exits" : {
-            "e" : "opera27",
-            "u" : "opera22"
+            "e" : "opera27@opera",
+            "u" : "opera22@opera"
          },
          "flags" : [],
          "zone" : "opera",
@@ -664,7 +664,7 @@
       },
       "joseph@opera" : {
          "damage" : "10",
-         "location" : "opera25",
+         "location" : "opera25@opera",
          "speed" : "2",
          "aggression" : "10",
          "armor" : "0",
@@ -675,7 +675,7 @@
       },
       "carlotta@opera" : {
          "damage" : "10",
-         "location" : "opera10",
+         "location" : "opera10@opera",
          "armor" : "0",
          "name" : "carlotta",
          "description" : "La Carlotta says \"Out of my way, churl!\"",
@@ -689,7 +689,7 @@
       },
       "andre@opera" : {
          "damage" : "10",
-         "location" : "opera9",
+         "location" : "opera9@opera",
          "speed" : "2",
          "aggression" : "19",
          "armor" : "0",
@@ -700,7 +700,7 @@
       },
       "ratcatcher@opera" : {
          "damage" : "10",
-         "location" : "opera17",
+         "location" : "opera17@opera",
          "speed" : "2",
          "aggression" : "17",
          "armor" : "0",

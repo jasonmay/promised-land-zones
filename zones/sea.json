@@ -3,7 +3,7 @@
       "excalibur@sea" : {
          "desc[1]" : "A hand holds up the sword Excalibur from out of the waves.",
          "damage" : "20",
-         "location" : "IN_ROOM:7",
+         "location" : "IN_ROOM:7@sea",
          "oflags" : [
             "GetFlips",
             "Weapon",
@@ -20,7 +20,7 @@
          "desc[0]" : "The sword Excalibur rests at your feet, its pure silvery blade gleaming in the\nlight."
       },
       "hole@sea" : {
-         "location" : "IN_ROOM:Holes",
+         "location" : "IN_ROOM:holes@sea",
          "oflags" : [
             "GetFlips"
          ],
@@ -35,12 +35,12 @@
    "loc" : {
       "holes@sea" : {
          "exits" : {
-            "w" : "7",
+            "w" : "7@sea",
             "e" : "pit@pit",
-            "u" : "Jetty@village",
+            "u" : "jetty@village",
             "n" : "eaten@dead",
-            "d" : "Beach@Island",
-            "s" : "Treasure"
+            "d" : "beach@island",
+            "s" : "treasure@sea"
          },
          "flags" : [
             "OnWater",
@@ -54,10 +54,10 @@
       },
       "9@sea" : {
          "exits" : {
-            "w" : "2",
-            "e" : "8",
-            "n" : "7",
-            "s" : "7"
+            "w" : "2@sea",
+            "e" : "8@sea",
+            "n" : "7@sea",
+            "s" : "7@sea"
          },
          "flags" : [
             "OnWater",
@@ -71,10 +71,10 @@
       },
       "4@sea" : {
          "exits" : {
-            "w" : "6",
-            "e" : "7",
-            "n" : "3",
-            "s" : "5"
+            "w" : "6@sea",
+            "e" : "7@sea",
+            "n" : "3@sea",
+            "s" : "5@sea"
          },
          "flags" : [
             "OnWater",
@@ -88,10 +88,10 @@
       },
       "10@sea" : {
          "exits" : {
-            "w" : "7",
-            "e" : "7",
-            "n" : "7",
-            "s" : "Holes"
+            "w" : "7@sea",
+            "e" : "7@sea",
+            "n" : "7@sea",
+            "s" : "holes@sea"
          },
          "flags" : [
             "OnWater",
@@ -105,10 +105,10 @@
       },
       "6@sea" : {
          "exits" : {
-            "w" : "5",
-            "e" : "4",
-            "n" : "8",
-            "s" : "10"
+            "w" : "5@sea",
+            "e" : "4@sea",
+            "n" : "8@sea",
+            "s" : "10@sea"
          },
          "flags" : [
             "OnWater",
@@ -134,10 +134,10 @@
       },
       "8@sea" : {
          "exits" : {
-            "w" : "9",
-            "e" : "5",
-            "n" : "7",
-            "s" : "6"
+            "w" : "9@sea",
+            "e" : "5@sea",
+            "n" : "7@sea",
+            "s" : "6@sea"
          },
          "flags" : [
             "OnWater",
@@ -163,10 +163,10 @@
       },
       "1@sea" : {
          "exits" : {
-            "w" : "3",
-            "e" : "Beach@island",
-            "n" : "7",
-            "s" : "7"
+            "w" : "3@sea",
+            "e" : "beach@island",
+            "n" : "7@sea",
+            "s" : "7@sea"
          },
          "flags" : [
             "NoMobiles",
@@ -181,11 +181,11 @@
       },
       "2@sea" : {
          "exits" : {
-            "w" : "Jetty@village",
-            "e" : "9",
-            "n" : "7",
-            "d" : "7",
-            "s" : "7"
+            "w" : "jetty@village",
+            "e" : "9@sea",
+            "n" : "7@sea",
+            "d" : "7@sea",
+            "s" : "7@sea"
          },
          "flags" : [
             "NoMobiles",
@@ -200,10 +200,10 @@
       },
       "3@sea" : {
          "exits" : {
-            "w" : "7",
-            "e" : "1",
-            "n" : "7",
-            "s" : "4"
+            "w" : "7@sea",
+            "e" : "1@sea",
+            "n" : "7@sea",
+            "s" : "4@sea"
          },
          "flags" : [
             "OnWater",
@@ -217,9 +217,9 @@
       },
       "5@sea" : {
          "exits" : {
-            "w" : "7",
-            "e" : "7",
-            "n" : "4",
+            "w" : "7@sea",
+            "e" : "7@sea",
+            "n" : "4@sea",
             "s" : "smon1@seamonster"
          },
          "flags" : [

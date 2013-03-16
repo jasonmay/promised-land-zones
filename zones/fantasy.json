@@ -2,7 +2,7 @@
    "obj" : {
       "silverarmor@fantasy" : {
          "desc[1]" : "A full suit of silver armor rests behind the counter.",
-         "location" : "IN_ROOM:DForestShop",
+         "location" : "IN_ROOM:dforestshop@fantasy",
          "armor" : "60",
          "oflags" : [
             "Armor",
@@ -27,7 +27,7 @@
          ]
       },
       "diamond@fantasy" : {
-         "location" : "IN_ROOM:dcave17",
+         "location" : "IN_ROOM:dcave17@fantasy",
          "name" : "diamond",
          "examine" : "A very beautiful diamond.",
          "size" : "1",
@@ -39,7 +39,7 @@
          "desc[0]" : "A gleaming diamond rests of the ground for the taking."
       },
       "glaivearmor@fantasy" : {
-         "location" : "WORN_BY:glaive",
+         "location" : "WORN_BY:glaive@fantasy",
          "armor" : "60",
          "oflags" : [
             "Armor",
@@ -63,7 +63,7 @@
          ]
       },
       "treeforest@fantasy" : {
-         "location" : "IN_ROOM:dforest14",
+         "location" : "IN_ROOM:dforest14@fantasy",
          "oflags" : [
             "Pushable",
             "NoGet"
@@ -78,7 +78,7 @@
          "desc[0]" : "A fallen tree reveals an entrance to a cave."
       },
       "goldnugget@fantasy" : {
-         "location" : "CARRIED_BY:goldminer",
+         "location" : "CARRIED_BY:goldminer@fantasy",
          "altname" : "gold",
          "name" : "goldnugget",
          "examine" : "A real 24 karet hunk of gold, probably good for trading.",
@@ -91,7 +91,7 @@
          "desc[0]" : "A large gold nugget rests on the ground nearby."
       },
       "stonesword@fantasy" : {
-         "location" : "IN_ROOM:dcave14",
+         "location" : "IN_ROOM:dcave14@fantasy",
          "oflags" : [
             "NoGet"
          ],
@@ -104,7 +104,7 @@
       },
       "minerpick@fantasy" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:goldminer",
+         "location" : "WIELDED_BY:goldminer@fantasy",
          "oflags" : [
             "Weapon"
          ],
@@ -120,7 +120,7 @@
       },
       "glaivesword@fantasy" : {
          "damage" : "25",
-         "location" : "WIELDED_BY:glaive",
+         "location" : "WIELDED_BY:glaive@fantasy",
          "oflags" : [
             "Weapon"
          ],
@@ -135,7 +135,7 @@
          "desc[0]" : "Lord Glaive's longsword has been dropped here."
       },
       "cavewallout@fantasy" : {
-         "location" : "IN_ROOM:dcave16",
+         "location" : "IN_ROOM:dcave16@fantasy",
          "oflags" : [
             "NoGet"
          ],
@@ -148,7 +148,7 @@
          "desc[0]" : "A collapsed wall gives an exit to the west."
       },
       "silver@fantasy" : {
-         "location" : "IN_ROOM:dcave17",
+         "location" : "IN_ROOM:dcave17@fantasy",
          "name" : "silver",
          "examine" : "A large bag with a good amount of silver in it.",
          "size" : "3",
@@ -160,7 +160,7 @@
          "desc[0]" : "A bag full of silver has been left on the ground."
       },
       "dwarfarmor@fantasy" : {
-         "location" : "WORN_BY:dwarf",
+         "location" : "WORN_BY:dwarf@fantasy",
          "armor" : "45",
          "oflags" : [
             "Armor",
@@ -187,7 +187,7 @@
       "swordinstone@fantasy" : {
          "desc[1]" : "A mighty greatsword sticks out of the stone.",
          "damage" : "20",
-         "location" : "IN_ROOM:dcave14",
+         "location" : "IN_ROOM:dcave14@fantasy",
          "oflags" : [
             "GetFlips",
             "Weapon"
@@ -204,7 +204,7 @@
          "desc[0]" : "A finely crafted greatsword rests on the ground."
       },
       "guardarmor@fantasy" : {
-         "location" : "WORN_BY:guard",
+         "location" : "WORN_BY:guard@fantasy",
          "armor" : "55",
          "oflags" : [
             "Armor",
@@ -227,7 +227,7 @@
          ]
       },
       "dcavefire@fantasy" : {
-         "location" : "IN_ROOM:dcave2",
+         "location" : "IN_ROOM:dcave2@fantasy",
          "oflags" : [
             "NoGet",
             "Lit"
@@ -243,7 +243,7 @@
       "goldsword@fantasy" : {
          "desc[1]" : "A finely crafted golden sword rests behind the counter.",
          "damage" : "18",
-         "location" : "IN_ROOM:ForestShop",
+         "location" : "IN_ROOM:forestshop@fantasy",
          "oflags" : [
             "Weapon"
          ],
@@ -260,7 +260,7 @@
       },
       "bag@fantasy" : {
          "desc[1]" : "A nice sized bag rests in the corner.",
-         "location" : "IN_ROOM:dcave17",
+         "location" : "IN_ROOM:dcave17@fantasy",
          "oflags" : [
             "GetFlips",
             "Container"
@@ -275,7 +275,7 @@
          "desc[0]" : "A nice sized bag rests on the ground."
       },
       "volume@fantasy" : {
-         "location" : "IN_ROOM:mountain13",
+         "location" : "IN_ROOM:mountain13@fantasy",
          "oflags" : [
             "Noget"
          ],
@@ -286,7 +286,7 @@
          "size" : "13"
       },
       "gauntlets@fantasy" : {
-         "location" : "IN_ROOM:dcave17",
+         "location" : "IN_ROOM:dcave17@fantasy",
          "armor" : "70",
          "oflags" : [
             "Armor",
@@ -306,7 +306,7 @@
          ]
       },
       "sign@fantasy" : {
-         "location" : "IN_ROOM:mountain1",
+         "location" : "IN_ROOM:mountain1@fantasy",
          "oflags" : [
             "Noget"
          ],
@@ -316,7 +316,7 @@
       },
       "dwarfaxe@fantasy" : {
          "damage" : "12",
-         "location" : "WIELDED_BY:dwarf",
+         "location" : "WIELDED_BY:dwarf@fantasy",
          "oflags" : [
             "Weapon"
          ],
@@ -332,7 +332,7 @@
          "desc[0]" : "A large battleaxe has been left here."
       },
       "cavewallin@fantasy" : {
-         "location" : "IN_ROOM:dcave17",
+         "location" : "IN_ROOM:dcave17@fantasy",
          "oflags" : [
             "NoGet"
          ],
@@ -345,7 +345,7 @@
          "desc[0]" : "A collapsed wall gives an exit to the east."
       },
       "leafshield@fantasy" : {
-         "location" : "IN_ROOM:tree1",
+         "location" : "IN_ROOM:tree1@fantasy",
          "armor" : "65",
          "oflags" : [
             "Wearable",
@@ -366,7 +366,7 @@
          ]
       },
       "treecave@fantasy" : {
-         "location" : "IN_ROOM:dcave1",
+         "location" : "IN_ROOM:dcave1@fantasy",
          "oflags" : [
             "NoGet"
          ],
@@ -378,7 +378,7 @@
          "maxstate" : "1"
       },
       "shield@fantasy" : {
-         "location" : "IN_ROOM:dcave17",
+         "location" : "IN_ROOM:dcave17@fantasy",
          "armor" : "55",
          "oflags" : [
             "Armor",
@@ -397,7 +397,7 @@
       "silversword@fantasy" : {
          "desc[1]" : "A beautiful silver greatsword rests behind the counter.",
          "damage" : "25",
-         "location" : "IN_ROOM:DForestShop",
+         "location" : "IN_ROOM:dforestshop@fantasy",
          "oflags" : [
             "Weapon"
          ],
@@ -414,7 +414,7 @@
       },
       "pick@fantasy" : {
          "damage" : "10",
-         "location" : "WIELDED_BY:miner",
+         "location" : "WIELDED_BY:miner@fantasy",
          "oflags" : [
             "Weapon"
          ],
@@ -428,7 +428,7 @@
          "desc[0]" : "A miner's pick has been left here."
       },
       "branch@fantasy" : {
-         "location" : "IN_ROOM:dcave1",
+         "location" : "IN_ROOM:dcave1@fantasy",
          "oflags" : [
             "Lightable"
          ],
@@ -443,7 +443,7 @@
          "desc[0]" : "A nice sized branch rests on the ground."
       },
       "mana@fantasy" : {
-         "location" : "WORN_BY:glaive",
+         "location" : "WORN_BY:glaive@fantasy",
          "oflags" : [
             "Wearable",
             "SpellChance"
@@ -460,7 +460,7 @@
       },
       "guardsword@fantasy" : {
          "damage" : "20",
-         "location" : "WIELDED_BY:guard",
+         "location" : "WIELDED_BY:guard@fantasy",
          "oflags" : [
             "Weapon"
          ],
@@ -475,7 +475,7 @@
          "desc[0]" : "A longsword has been dropped here."
       },
       "ruby@fantasy" : {
-         "location" : "IN_ROOM:dcave17",
+         "location" : "IN_ROOM:dcave17@fantasy",
          "name" : "ruby",
          "examine" : "A fine ruby, sure to please the Gods.",
          "size" : "1",
@@ -490,8 +490,8 @@
    "loc" : {
       "swamp2@fantasy" : {
          "exits" : {
-            "w" : "swamp1",
-            "s" : "swamp3"
+            "w" : "swamp1@fantasy",
+            "s" : "swamp3@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -504,7 +504,7 @@
       },
       "mountain13@fantasy" : {
          "exits" : {
-            "w" : "mountain12"
+            "w" : "mountain12@fantasy"
          },
          "flags" : [],
          "zone" : "fantasy",
@@ -515,8 +515,8 @@
       },
       "mountain12@fantasy" : {
          "exits" : {
-            "e" : "mountain13",
-            "w" : "mmaze7"
+            "e" : "mountain13@fantasy",
+            "w" : "mmaze7@fantasy"
          },
          "flags" : [],
          "zone" : "fantasy",
@@ -527,8 +527,8 @@
       },
       "mountain1@fantasy" : {
          "exits" : {
-            "n" : "mountain2",
-            "s" : "forest2"
+            "n" : "mountain2@fantasy",
+            "s" : "forest2@fantasy"
          },
          "flags" : [
             "Outdoors",
@@ -542,8 +542,8 @@
       },
       "dcave15@fantasy" : {
          "exits" : {
-            "n" : "dcave11",
-            "d" : "dcave16"
+            "n" : "dcave11@fantasy",
+            "d" : "dcave16@fantasy"
          },
          "flags" : [
             "Dark"
@@ -556,8 +556,8 @@
       },
       "dforest3@fantasy" : {
          "exits" : {
-            "e" : "dforest2",
-            "w" : "dforest4"
+            "e" : "dforest2@fantasy",
+            "w" : "dforest4@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -570,9 +570,9 @@
       },
       "dforest12@fantasy" : {
          "exits" : {
-            "w" : "dforest15",
-            "e" : "dforest11",
-            "n" : "dforest13"
+            "w" : "dforest15@fantasy",
+            "e" : "dforest11@fantasy",
+            "n" : "dforest13@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -585,9 +585,9 @@
       },
       "dforest5@fantasy" : {
          "exits" : {
-            "w" : "dforest7",
-            "e" : "dforest4",
-            "u" : "dforest6"
+            "w" : "dforest7@fantasy",
+            "e" : "dforest4@fantasy",
+            "u" : "dforest6@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -600,8 +600,8 @@
       },
       "castle7@fantasy" : {
          "exits" : {
-            "n" : "castle8",
-            "s" : "castle6"
+            "n" : "castle8@fantasy",
+            "s" : "castle6@fantasy"
          },
          "flags" : [],
          "zone" : "fantasy",
@@ -612,10 +612,10 @@
       },
       "mmaze4@fantasy" : {
          "exits" : {
-            "w" : "mmaze6",
-            "e" : "mmaze2",
-            "n" : "mmaze1",
-            "s" : "mmaze3"
+            "w" : "mmaze6@fantasy",
+            "e" : "mmaze2@fantasy",
+            "n" : "mmaze1@fantasy",
+            "s" : "mmaze3@fantasy"
          },
          "flags" : [
             "Maze"
@@ -628,8 +628,8 @@
       },
       "dcave5@fantasy" : {
          "exits" : {
-            "w" : "dcave6",
-            "e" : "dcave4"
+            "w" : "dcave6@fantasy",
+            "e" : "dcave4@fantasy"
          },
          "flags" : [
             "Dark"
@@ -642,8 +642,8 @@
       },
       "dforest9@fantasy" : {
          "exits" : {
-            "n" : "dforest10",
-            "s" : "dforest8"
+            "n" : "dforest10@fantasy",
+            "s" : "dforest8@fantasy"
          },
          "flags" : [
             "Outdoors",
@@ -657,7 +657,7 @@
       },
       "airship2@fantasy" : {
          "exits" : {
-            "w" : "castle1"
+            "w" : "castle1@fantasy"
          },
          "flags" : [
             "Outdoors",
@@ -671,7 +671,7 @@
       },
       "dcave14@fantasy" : {
          "exits" : {
-            "n" : "dcave13"
+            "n" : "dcave13@fantasy"
          },
          "flags" : [],
          "zone" : "fantasy",
@@ -682,10 +682,10 @@
       },
       "mmaze8@fantasy" : {
          "exits" : {
-            "w" : "mmaze6",
-            "e" : "mmaze5",
-            "n" : "mmaze7",
-            "s" : "mmaze2"
+            "w" : "mmaze6@fantasy",
+            "e" : "mmaze5@fantasy",
+            "n" : "mmaze7@fantasy",
+            "s" : "mmaze2@fantasy"
          },
          "flags" : [
             "Maze"
@@ -699,7 +699,7 @@
       "start@fantasy" : {
          "exits" : {
             "w" : "shady@blizzard",
-            "e" : "forest1"
+            "e" : "forest1@fantasy"
          },
          "flags" : [
             "Outdoors",
@@ -713,8 +713,8 @@
       },
       "mountain6@fantasy" : {
          "exits" : {
-            "e" : "mountain7",
-            "w" : "mountain4"
+            "e" : "mountain7@fantasy",
+            "w" : "mountain4@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -727,8 +727,8 @@
       },
       "mountain7@fantasy" : {
          "exits" : {
-            "e" : "mountain8",
-            "w" : "mountain6"
+            "e" : "mountain8@fantasy",
+            "w" : "mountain6@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -741,8 +741,8 @@
       },
       "dforest13@fantasy" : {
          "exits" : {
-            "w" : "dforest14",
-            "s" : "dforest12"
+            "w" : "dforest14@fantasy",
+            "s" : "dforest12@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -755,7 +755,7 @@
       },
       "forestshop@fantasy" : {
          "exits" : {
-            "s" : "forest4"
+            "s" : "forest4@fantasy"
          },
          "flags" : [
             "NoMobiles",
@@ -769,8 +769,8 @@
       },
       "gaia1@fantasy" : {
          "exits" : {
-            "n" : "gaia2",
-            "s" : "dforest6"
+            "n" : "gaia2@fantasy",
+            "s" : "dforest6@fantasy"
          },
          "flags" : [
             "Dark",
@@ -784,8 +784,8 @@
       },
       "mountain3@fantasy" : {
          "exits" : {
-            "u" : "mountain4",
-            "d" : "mountain2"
+            "u" : "mountain4@fantasy",
+            "d" : "mountain2@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -798,9 +798,9 @@
       },
       "forest2@fantasy" : {
          "exits" : {
-            "e" : "forest3",
-            "w" : "forest1",
-            "n" : "mountain1"
+            "e" : "forest3@fantasy",
+            "w" : "forest1@fantasy",
+            "n" : "mountain1@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -813,8 +813,8 @@
       },
       "forest3@fantasy" : {
          "exits" : {
-            "e" : "forest4",
-            "w" : "forest2"
+            "e" : "forest4@fantasy",
+            "w" : "forest2@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -827,8 +827,8 @@
       },
       "dforest17@fantasy" : {
          "exits" : {
-            "e" : "dforest16",
-            "w" : "dforest18"
+            "e" : "dforest16@fantasy",
+            "w" : "dforest18@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -841,8 +841,8 @@
       },
       "dforest6@fantasy" : {
          "exits" : {
-            "n" : "gaia1",
-            "d" : "dforest5"
+            "n" : "gaia1@fantasy",
+            "d" : "dforest5@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -855,8 +855,8 @@
       },
       "mountain2@fantasy" : {
          "exits" : {
-            "u" : "mountain3",
-            "s" : "mountain1"
+            "u" : "mountain3@fantasy",
+            "s" : "mountain1@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -869,8 +869,8 @@
       },
       "dcave3@fantasy" : {
          "exits" : {
-            "n" : "dcave4",
-            "s" : "dcave2"
+            "n" : "dcave4@fantasy",
+            "s" : "dcave2@fantasy"
          },
          "flags" : [
             "Dark"
@@ -883,8 +883,8 @@
       },
       "swamp5@fantasy" : {
          "exits" : {
-            "n" : "swamp4",
-            "s" : "swamp6"
+            "n" : "swamp4@fantasy",
+            "s" : "swamp6@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -897,9 +897,9 @@
       },
       "dcave11@fantasy" : {
          "exits" : {
-            "w" : "dcave10",
-            "e" : "dcave12",
-            "s" : "dcave15"
+            "w" : "dcave10@fantasy",
+            "e" : "dcave12@fantasy",
+            "s" : "dcave15@fantasy"
          },
          "flags" : [
             "Dark"
@@ -912,8 +912,8 @@
       },
       "gaia5@fantasy" : {
          "exits" : {
-            "n" : "dforest16",
-            "s" : "gaia4"
+            "n" : "dforest16@fantasy",
+            "s" : "gaia4@fantasy"
          },
          "flags" : [
             "Dark",
@@ -927,8 +927,8 @@
       },
       "castle6@fantasy" : {
          "exits" : {
-            "w" : "castle5",
-            "n" : "castle7"
+            "w" : "castle5@fantasy",
+            "n" : "castle7@fantasy"
          },
          "flags" : [],
          "zone" : "fantasy",
@@ -939,7 +939,7 @@
       },
       "mountain8a@fantasy" : {
          "exits" : {
-            "w" : "mountain8"
+            "w" : "mountain8@fantasy"
          },
          "flags" : [
             "Death"
@@ -952,8 +952,8 @@
       },
       "dforest16@fantasy" : {
          "exits" : {
-            "w" : "dforest17",
-            "s" : "gaia5"
+            "w" : "dforest17@fantasy",
+            "s" : "gaia5@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -966,9 +966,9 @@
       },
       "mountain9@fantasy" : {
          "exits" : {
-            "w" : "mountain10",
-            "e" : "mountain11",
-            "s" : "mountain8"
+            "w" : "mountain10@fantasy",
+            "e" : "mountain11@fantasy",
+            "s" : "mountain8@fantasy"
          },
          "flags" : [],
          "zone" : "fantasy",
@@ -979,8 +979,8 @@
       },
       "dcave8@fantasy" : {
          "exits" : {
-            "e" : "dcave7",
-            "s" : "dcave9"
+            "e" : "dcave7@fantasy",
+            "s" : "dcave9@fantasy"
          },
          "flags" : [
             "Dark"
@@ -993,10 +993,10 @@
       },
       "mmaze7@fantasy" : {
          "exits" : {
-            "w" : "mmaze2",
-            "e" : "mountain12",
-            "n" : "mmaze6",
-            "s" : "mmaze5"
+            "w" : "mmaze2@fantasy",
+            "e" : "mountain12@fantasy",
+            "n" : "mmaze6@fantasy",
+            "s" : "mmaze5@fantasy"
          },
          "flags" : [
             "Maze"
@@ -1009,8 +1009,8 @@
       },
       "dcave9@fantasy" : {
          "exits" : {
-            "n" : "dcave8",
-            "s" : "dcave10"
+            "n" : "dcave8@fantasy",
+            "s" : "dcave10@fantasy"
          },
          "flags" : [
             "Dark"
@@ -1023,7 +1023,7 @@
       },
       "dforestshop@fantasy" : {
          "exits" : {
-            "s" : "dforest4"
+            "s" : "dforest4@fantasy"
          },
          "flags" : [
             "NoMobiles",
@@ -1037,8 +1037,8 @@
       },
       "dforest11@fantasy" : {
          "exits" : {
-            "w" : "dforest12",
-            "e" : "dforest10"
+            "w" : "dforest12@fantasy",
+            "e" : "dforest10@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -1051,7 +1051,7 @@
       },
       "airship1@fantasy" : {
          "exits" : {
-            "e" : "dforest18"
+            "e" : "dforest18@fantasy"
          },
          "flags" : [
             "Outdoors",
@@ -1065,10 +1065,10 @@
       },
       "mmaze3@fantasy" : {
          "exits" : {
-            "w" : "mmaze4",
-            "e" : "mmaze2",
-            "n" : "mmaze8",
-            "s" : "mmaze3"
+            "w" : "mmaze4@fantasy",
+            "e" : "mmaze2@fantasy",
+            "n" : "mmaze8@fantasy",
+            "s" : "mmaze3@fantasy"
          },
          "flags" : [
             "Maze"
@@ -1081,8 +1081,8 @@
       },
       "swamp7@fantasy" : {
          "exits" : {
-            "n" : "swamp6",
-            "s" : "dforest1"
+            "n" : "swamp6@fantasy",
+            "s" : "dforest1@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -1095,8 +1095,8 @@
       },
       "castle1@fantasy" : {
          "exits" : {
-            "e" : "airship2",
-            "n" : "castle2"
+            "e" : "airship2@fantasy",
+            "n" : "castle2@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -1109,8 +1109,8 @@
       },
       "swamp3@fantasy" : {
          "exits" : {
-            "n" : "swamp2",
-            "s" : "swamp4"
+            "n" : "swamp2@fantasy",
+            "s" : "swamp4@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -1123,9 +1123,9 @@
       },
       "mountain4@fantasy" : {
          "exits" : {
-            "e" : "mountain6",
-            "u" : "mountain5",
-            "d" : "mountain3"
+            "e" : "mountain6@fantasy",
+            "u" : "mountain5@fantasy",
+            "d" : "mountain3@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -1138,8 +1138,8 @@
       },
       "dforest15@fantasy" : {
          "exits" : {
-            "e" : "dforest12",
-            "n" : "dforest14"
+            "e" : "dforest12@fantasy",
+            "n" : "dforest14@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -1152,9 +1152,9 @@
       },
       "dforest14@fantasy" : {
          "exits" : {
-            "w" : "^treeforest",
-            "e" : "dforest13",
-            "s" : "dforest15"
+            "w" : "^treeforest@fantasy",
+            "e" : "dforest13@fantasy",
+            "s" : "dforest15@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -1167,10 +1167,10 @@
       },
       "mmaze1@fantasy" : {
          "exits" : {
-            "w" : "mmaze5",
-            "e" : "mountain10",
-            "n" : "mmaze2",
-            "s" : "mmaze3"
+            "w" : "mmaze5@fantasy",
+            "e" : "mountain10@fantasy",
+            "n" : "mmaze2@fantasy",
+            "s" : "mmaze3@fantasy"
          },
          "flags" : [
             "Maze"
@@ -1183,8 +1183,8 @@
       },
       "gaia2@fantasy" : {
          "exits" : {
-            "w" : "gaia3",
-            "s" : "gaia1"
+            "w" : "gaia3@fantasy",
+            "s" : "gaia1@fantasy"
          },
          "flags" : [
             "Dark"
@@ -1197,8 +1197,8 @@
       },
       "dforest8@fantasy" : {
          "exits" : {
-            "e" : "dforest7",
-            "n" : "dforest9"
+            "e" : "dforest7@fantasy",
+            "n" : "dforest9@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -1211,8 +1211,8 @@
       },
       "dcave10@fantasy" : {
          "exits" : {
-            "e" : "dcave11",
-            "n" : "dcave9"
+            "e" : "dcave11@fantasy",
+            "n" : "dcave9@fantasy"
          },
          "flags" : [
             "Dark"
@@ -1225,9 +1225,9 @@
       },
       "forest4@fantasy" : {
          "exits" : {
-            "e" : "swamp1",
-            "w" : "forest3",
-            "n" : "forestshop"
+            "e" : "swamp1@fantasy",
+            "w" : "forest3@fantasy",
+            "n" : "forestshop@fantasy"
          },
          "flags" : [
             "Outdoors",
@@ -1241,8 +1241,8 @@
       },
       "castle4@fantasy" : {
          "exits" : {
-            "e" : "castle5",
-            "s" : "castle3"
+            "e" : "castle5@fantasy",
+            "s" : "castle3@fantasy"
          },
          "flags" : [],
          "zone" : "fantasy",
@@ -1253,10 +1253,10 @@
       },
       "mmaze5@fantasy" : {
          "exits" : {
-            "w" : "mmaze5",
-            "e" : "mmaze5",
-            "n" : "mmaze1",
-            "s" : "mmaze4"
+            "w" : "mmaze5@fantasy",
+            "e" : "mmaze5@fantasy",
+            "n" : "mmaze1@fantasy",
+            "s" : "mmaze4@fantasy"
          },
          "flags" : [
             "Maze"
@@ -1269,8 +1269,8 @@
       },
       "dforest10@fantasy" : {
          "exits" : {
-            "w" : "dforest11",
-            "s" : "dforest9"
+            "w" : "dforest11@fantasy",
+            "s" : "dforest9@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -1283,8 +1283,8 @@
       },
       "dcave1@fantasy" : {
          "exits" : {
-            "w" : "dcave2",
-            "e" : "^treecave"
+            "w" : "dcave2@fantasy",
+            "e" : "^treecave@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -1297,8 +1297,8 @@
       },
       "dcave12@fantasy" : {
          "exits" : {
-            "w" : "dcave11",
-            "e" : "dcave13"
+            "w" : "dcave11@fantasy",
+            "e" : "dcave13@fantasy"
          },
          "flags" : [
             "Dark"
@@ -1311,8 +1311,8 @@
       },
       "dforest2@fantasy" : {
          "exits" : {
-            "w" : "dforest3",
-            "e" : "dforest1"
+            "w" : "dforest3@fantasy",
+            "e" : "dforest1@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -1325,8 +1325,8 @@
       },
       "dcave6@fantasy" : {
          "exits" : {
-            "e" : "dcave5",
-            "s" : "dcave7"
+            "e" : "dcave5@fantasy",
+            "s" : "dcave7@fantasy"
          },
          "flags" : [
             "Dark"
@@ -1339,8 +1339,8 @@
       },
       "dforest18@fantasy" : {
          "exits" : {
-            "e" : "dforest17",
-            "w" : "airship1"
+            "e" : "dforest17@fantasy",
+            "w" : "airship1@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -1353,8 +1353,8 @@
       },
       "dcave7@fantasy" : {
          "exits" : {
-            "w" : "dcave8",
-            "n" : "dcave6"
+            "w" : "dcave8@fantasy",
+            "n" : "dcave6@fantasy"
          },
          "flags" : [
             "Dark"
@@ -1367,10 +1367,10 @@
       },
       "mmaze6@fantasy" : {
          "exits" : {
-            "w" : "mmaze6",
-            "e" : "mmaze7",
-            "n" : "mmaze3",
-            "s" : "mmaze7"
+            "w" : "mmaze6@fantasy",
+            "e" : "mmaze7@fantasy",
+            "n" : "mmaze3@fantasy",
+            "s" : "mmaze7@fantasy"
          },
          "flags" : [
             "Maze"
@@ -1383,8 +1383,8 @@
       },
       "castle3@fantasy" : {
          "exits" : {
-            "n" : "castle4",
-            "s" : "castle2"
+            "n" : "castle4@fantasy",
+            "s" : "castle2@fantasy"
          },
          "flags" : [],
          "zone" : "fantasy",
@@ -1395,8 +1395,8 @@
       },
       "dforest1@fantasy" : {
          "exits" : {
-            "w" : "dforest2",
-            "n" : "swamp7"
+            "w" : "dforest2@fantasy",
+            "n" : "swamp7@fantasy"
          },
          "flags" : [
             "Outdoors",
@@ -1410,8 +1410,8 @@
       },
       "gaia3@fantasy" : {
          "exits" : {
-            "w" : "gaia4",
-            "e" : "gaia2"
+            "w" : "gaia4@fantasy",
+            "e" : "gaia2@fantasy"
          },
          "flags" : [
             "Dark"
@@ -1424,8 +1424,8 @@
       },
       "swamp4@fantasy" : {
          "exits" : {
-            "n" : "swamp3",
-            "s" : "swamp5"
+            "n" : "swamp3@fantasy",
+            "s" : "swamp5@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -1438,8 +1438,8 @@
       },
       "dcave2@fantasy" : {
          "exits" : {
-            "e" : "dcave1",
-            "n" : "dcave3"
+            "e" : "dcave1@fantasy",
+            "n" : "dcave3@fantasy"
          },
          "flags" : [
             "NoMobiles"
@@ -1452,8 +1452,8 @@
       },
       "castle2@fantasy" : {
          "exits" : {
-            "n" : "castle3",
-            "s" : "castle1"
+            "n" : "castle3@fantasy",
+            "s" : "castle1@fantasy"
          },
          "flags" : [],
          "zone" : "fantasy",
@@ -1476,8 +1476,8 @@
       },
       "dcave16@fantasy" : {
          "exits" : {
-            "w" : "^cavewallout",
-            "n" : "dcave15"
+            "w" : "^cavewallout@fantasy",
+            "n" : "dcave15@fantasy"
          },
          "flags" : [
             "Dark"
@@ -1490,8 +1490,8 @@
       },
       "castle5@fantasy" : {
          "exits" : {
-            "w" : "castle4",
-            "e" : "castle6"
+            "w" : "castle4@fantasy",
+            "e" : "castle6@fantasy"
          },
          "flags" : [],
          "zone" : "fantasy",
@@ -1502,8 +1502,8 @@
       },
       "mountain10@fantasy" : {
          "exits" : {
-            "w" : "mmaze1",
-            "e" : "mountain9"
+            "w" : "mmaze1@fantasy",
+            "e" : "mountain9@fantasy"
          },
          "flags" : [],
          "zone" : "fantasy",
@@ -1514,8 +1514,8 @@
       },
       "dcave13@fantasy" : {
          "exits" : {
-            "w" : "dcave12",
-            "s" : "dcave14"
+            "w" : "dcave12@fantasy",
+            "s" : "dcave14@fantasy"
          },
          "flags" : [
             "Dark"
@@ -1528,8 +1528,8 @@
       },
       "gaia4@fantasy" : {
          "exits" : {
-            "e" : "gaia3",
-            "n" : "gaia5"
+            "e" : "gaia3@fantasy",
+            "n" : "gaia5@fantasy"
          },
          "flags" : [
             "Dark"
@@ -1542,7 +1542,7 @@
       },
       "castle8@fantasy" : {
          "exits" : {
-            "s" : "castle7"
+            "s" : "castle7@fantasy"
          },
          "flags" : [],
          "zone" : "fantasy",
@@ -1553,10 +1553,10 @@
       },
       "mmaze2@fantasy" : {
          "exits" : {
-            "w" : "mmaze2",
-            "e" : "mmaze4",
-            "n" : "mmaze3",
-            "s" : "mmaze4"
+            "w" : "mmaze2@fantasy",
+            "e" : "mmaze4@fantasy",
+            "n" : "mmaze3@fantasy",
+            "s" : "mmaze4@fantasy"
          },
          "flags" : [
             "Maze"
@@ -1569,8 +1569,8 @@
       },
       "dforest7@fantasy" : {
          "exits" : {
-            "w" : "dforest8",
-            "e" : "dforest5"
+            "w" : "dforest8@fantasy",
+            "e" : "dforest5@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -1583,7 +1583,7 @@
       },
       "tree1@fantasy" : {
          "exits" : {
-            "n" : "tree2"
+            "n" : "tree2@fantasy"
          },
          "flags" : [
             "FastHeal",
@@ -1597,8 +1597,8 @@
       },
       "mountain11@fantasy" : {
          "exits" : {
-            "e" : "mmaze1",
-            "w" : "mountain9"
+            "e" : "mmaze1@fantasy",
+            "w" : "mountain9@fantasy"
          },
          "flags" : [
             "Death"
@@ -1611,9 +1611,9 @@
       },
       "mountain8@fantasy" : {
          "exits" : {
-            "e" : "mountain8a",
-            "w" : "mountain7",
-            "n" : "mountain9"
+            "e" : "mountain8a@fantasy",
+            "w" : "mountain7@fantasy",
+            "n" : "mountain9@fantasy"
          },
          "flags" : [
             "NoMobiles"
@@ -1626,7 +1626,7 @@
       },
       "tree2@fantasy" : {
          "exits" : {
-            "s" : "tree1"
+            "s" : "tree1@fantasy"
          },
          "flags" : [
             "FastHeal",
@@ -1640,7 +1640,7 @@
       },
       "dcave17@fantasy" : {
          "exits" : {
-            "e" : "^cavewallin"
+            "e" : "^cavewallin@fantasy"
          },
          "flags" : [
             "Dark"
@@ -1653,8 +1653,8 @@
       },
       "forest1@fantasy" : {
          "exits" : {
-            "e" : "forest2",
-            "w" : "start"
+            "e" : "forest2@fantasy",
+            "w" : "start@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -1667,8 +1667,8 @@
       },
       "dcave4@fantasy" : {
          "exits" : {
-            "w" : "dcave5",
-            "s" : "dcave3"
+            "w" : "dcave5@fantasy",
+            "s" : "dcave3@fantasy"
          },
          "flags" : [
             "Dark"
@@ -1681,8 +1681,8 @@
       },
       "swamp6@fantasy" : {
          "exits" : {
-            "n" : "swamp5",
-            "s" : "swamp7"
+            "n" : "swamp5@fantasy",
+            "s" : "swamp7@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -1695,9 +1695,9 @@
       },
       "dforest4@fantasy" : {
          "exits" : {
-            "w" : "dforest5",
-            "e" : "dforest3",
-            "n" : "dforestshop"
+            "w" : "dforest5@fantasy",
+            "e" : "dforest3@fantasy",
+            "n" : "dforestshop@fantasy"
          },
          "flags" : [
             "Outdoors"
@@ -1710,8 +1710,8 @@
       },
       "swamp1@fantasy" : {
          "exits" : {
-            "e" : "swamp2",
-            "w" : "forest4"
+            "e" : "swamp2@fantasy",
+            "w" : "forest4@fantasy"
          },
          "flags" : [
             "Outdoors",
@@ -1727,7 +1727,7 @@
    "mob" : {
       "muckman@fantasy" : {
          "damage" : "10",
-         "location" : "swamp3",
+         "location" : "swamp3@fantasy",
          "speed" : "2",
          "aggression" : "90",
          "armor" : "0",
@@ -1738,7 +1738,7 @@
       },
       "goldminer@fantasy" : {
          "damage" : "10",
-         "location" : "mmaze7",
+         "location" : "mmaze7@fantasy",
          "armor" : "0",
          "name" : "goldminer",
          "description" : "An old miner is here digging away with a gleam in his eye for gold.",
@@ -1752,7 +1752,7 @@
       },
       "wolf@fantasy" : {
          "damage" : "10",
-         "location" : "dforest9",
+         "location" : "dforest9@fantasy",
          "speed" : "4",
          "aggression" : "70",
          "armor" : "0",
@@ -1763,7 +1763,7 @@
       },
       "bat@fantasy" : {
          "damage" : "8",
-         "location" : "dcave11",
+         "location" : "dcave11@fantasy",
          "armor" : "0",
          "name" : "bat",
          "description" : "A large black bat hovers above you.",
@@ -1777,7 +1777,7 @@
       },
       "dwarf@fantasy" : {
          "damage" : "8",
-         "location" : "dcave7",
+         "location" : "dcave7@fantasy",
          "speed" : "5",
          "aggression" : "80",
          "armor" : "0",
@@ -1788,7 +1788,7 @@
       },
       "shopkeepertwo@fantasy" : {
          "damage" : "0",
-         "location" : "DForestShop",
+         "location" : "dforestshop@fantasy",
          "armor" : "0",
          "name" : "shopkeepertwo",
          "description" : "An old dwarven shopkeeper stands at his counter eager to serve you.",
@@ -1807,7 +1807,7 @@
             "Missile"
          ],
          "damage" : "12",
-         "location" : "castle8",
+         "location" : "castle8@fantasy",
          "armor" : "10",
          "name" : "julius",
          "description" : "Lord Glaive's magician Julius is here studying various spells.",
@@ -1821,7 +1821,7 @@
       },
       "miner@fantasy" : {
          "damage" : "15",
-         "location" : "mountain12",
+         "location" : "mountain12@fantasy",
          "armor" : "20",
          "name" : "miner",
          "description" : "A dwarven miner is here chipping away at the rocks.",
@@ -1835,7 +1835,7 @@
       },
       "squirrel@fantasy" : {
          "damage" : "8",
-         "location" : "forest2",
+         "location" : "forest2@fantasy",
          "speed" : "10",
          "aggression" : "10",
          "armor" : "0",
@@ -1846,7 +1846,7 @@
       },
       "crow@fantasy" : {
          "damage" : "8",
-         "location" : "dforest4",
+         "location" : "dforest4@fantasy",
          "armor" : "0",
          "name" : "crow",
          "description" : "A black crow is perched on a nearby tree.",
@@ -1860,7 +1860,7 @@
       },
       "snake@fantasy" : {
          "damage" : "10",
-         "location" : "swamp5",
+         "location" : "swamp5@fantasy",
          "armor" : "0",
          "name" : "snake",
          "description" : "A rather large snake is here hissing at you.",
@@ -1875,7 +1875,7 @@
       },
       "guard@fantasy" : {
          "damage" : "14",
-         "location" : "castle3",
+         "location" : "castle3@fantasy",
          "armor" : "10",
          "name" : "guard",
          "description" : "A castle guard stands here, not letting you pass to the north.",
@@ -1889,7 +1889,7 @@
       },
       "silvermonster@fantasy" : {
          "damage" : "15",
-         "location" : "dcave16",
+         "location" : "dcave16@fantasy",
          "speed" : "0",
          "aggression" : "100",
          "armor" : "10",
@@ -1900,7 +1900,7 @@
       },
       "glaive@fantasy" : {
          "damage" : "15",
-         "location" : "tree2",
+         "location" : "tree2@fantasy",
          "armor" : "15",
          "name" : "glaive",
          "description" : "Lord Glaive is standing here with his sword at his side.",
@@ -1914,7 +1914,7 @@
       },
       "shopkeeperone@fantasy" : {
          "damage" : "0",
-         "location" : "ForestShop",
+         "location" : "forestshop@fantasy",
          "armor" : "0",
          "name" : "shopkeeperone",
          "description" : "An old elven shopkeeper stands at his counter eager to serve you.",

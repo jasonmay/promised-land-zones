@@ -1,7 +1,7 @@
 {
    "obj" : {
       "obj5523@graye" : {
-         "location" : "IN_ROOM:graye5557",
+         "location" : "IN_ROOM:graye5557@graye",
          "oflags" : [
             "Key"
          ],
@@ -18,7 +18,7 @@
       },
       "door_graye5555@graye" : {
          "desc[1]" : "The ebony door is closed.",
-         "location" : "IN_ROOM:graye5556",
+         "location" : "IN_ROOM:graye5556@graye",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -36,7 +36,7 @@
       },
       "obj5517@graye" : {
          "desc[1]" : "A black candle rests here, unlit but still threatening.",
-         "location" : "CARRIED_BY:mob5515",
+         "location" : "CARRIED_BY:mob5515@graye",
          "oflags" : [
             "Cursed",
             "Lit",
@@ -57,7 +57,7 @@
          "desc[0]" : "A black candle rests here, making sooty smoke."
       },
       "north_graye5537@graye" : {
-         "location" : "IN_ROOM:graye5537",
+         "location" : "IN_ROOM:graye5537@graye",
          "oflags" : [
             "NoGet"
          ],
@@ -66,7 +66,7 @@
          "examine" : "You see the castle.\n"
       },
       "west_graye5527@graye" : {
-         "location" : "IN_ROOM:graye5527",
+         "location" : "IN_ROOM:graye5527@graye",
          "oflags" : [
             "NoGet"
          ],
@@ -75,7 +75,7 @@
          "examine" : "The forest looks VERY dark.\n"
       },
       "desk@graye" : {
-         "location" : "IN_ROOM:graye5545",
+         "location" : "IN_ROOM:graye5545@graye",
          "oflags" : [
             "Noget"
          ],
@@ -83,7 +83,7 @@
          "examine" : "It is a bare desk, no drawers or anything.\n"
       },
       "west_graye5530@graye" : {
-         "location" : "IN_ROOM:graye5530",
+         "location" : "IN_ROOM:graye5530@graye",
          "oflags" : [
             "NoGet"
          ],
@@ -92,7 +92,7 @@
          "examine" : "The forest looks VERY dark.\n"
       },
       "cliffd@graye" : {
-         "location" : "IN_ROOM:graye5517",
+         "location" : "IN_ROOM:graye5517@graye",
          "oflags" : [
             "Noget"
          ],
@@ -101,7 +101,7 @@
          "examine" : "It seems that if you put your toe right here, and your left hand\nover here, that you just might be able to climb it.\n"
       },
       "obj5507_2@graye" : {
-         "location" : "CARRIED_BY:mob5501_2",
+         "location" : "CARRIED_BY:mob5501_2@graye",
          "oflags" : [
             "Lightable",
             "Extinguish"
@@ -118,7 +118,7 @@
          "desc[0]" : "a green stick lies here"
       },
       "obj5505@graye" : {
-         "location" : "IN_ROOM:graye5543",
+         "location" : "IN_ROOM:graye5543@graye",
          "altname" : "book",
          "name" : "obj5505",
          "examine" : "You open the book and begin to read:\n\n\tMany ages ago, the great paladin knight Graye defeated\nthe Demon lord, and his disciples Irgon and Scrytin, and banished\nthem to to bowels of the earth from which they came.  Years passed\nand Graye's descendants prospered.  The city of Graye has been ruled\nfor many hundreds of years by wise kings, directly descended from \nGraye himself.\n\nThe book goes on to list dozens of names of kings..\n",
@@ -131,7 +131,7 @@
          "desc[0]" : "The chronicles of Graye rest on the desk here"
       },
       "obj5522@graye" : {
-         "location" : "IN_ROOM:graye5557",
+         "location" : "IN_ROOM:graye5557@graye",
          "oflags" : "{  }",
          "altname" : "scrawled",
          "name" : "obj5522",
@@ -146,7 +146,7 @@
       },
       "ivory_graye5557@graye" : {
          "desc[1]" : "The ivory door is closed.",
-         "location" : "IN_ROOM:graye5556",
+         "location" : "IN_ROOM:graye5556@graye",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -164,7 +164,7 @@
       },
       "secret_graye5544@graye" : {
          "desc[1]" : "The door back to the throne room stands closed.",
-         "location" : "IN_ROOM:graye5546",
+         "location" : "IN_ROOM:graye5546@graye",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -182,7 +182,7 @@
       },
       "obj5516_1@graye" : {
          "damage" : "20",
-         "location" : "WIELDED_BY:mob5513_1",
+         "location" : "WIELDED_BY:mob5513_1@graye",
          "oflags" : [
             "Cursed",
             "Glowing",
@@ -201,7 +201,7 @@
          "desc[0]" : "A whip, encrusted with dried blood, is coiled up here"
       },
       "obj5509@graye" : {
-         "location" : "WORN_BY:mob5504",
+         "location" : "WORN_BY:mob5504@graye",
          "oflags" : [
             "Wearable"
          ],
@@ -217,7 +217,7 @@
          "desc[0]" : "a woodsman's belt lies coiled here"
       },
       "obj5519@graye" : {
-         "location" : "IN_ROOM:graye5561",
+         "location" : "IN_ROOM:graye5561@graye",
          "oflags" : [
             "Cross",
             "Lit",
@@ -240,7 +240,7 @@
          ]
       },
       "obj5501@graye" : {
-         "location" : "IN_CONTAINER:obj5506",
+         "location" : "IN_CONTAINER:obj5506@graye",
          "oflags" : [
             "Key"
          ],
@@ -257,7 +257,7 @@
       },
       "door_graye5548@graye" : {
          "desc[1]" : "The trapdoor was found here but left closed.",
-         "location" : "IN_ROOM:graye5549",
+         "location" : "IN_ROOM:graye5549@graye",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -275,7 +275,7 @@
       },
       "floorboards_graye5543@graye" : {
          "desc[1]" : "You see floorboards above you, and they look openable.",
-         "location" : "IN_ROOM:graye5559",
+         "location" : "IN_ROOM:graye5559@graye",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -292,7 +292,7 @@
          "desc[0]" : "Light streams down from a room above."
       },
       "up_graye5553@graye" : {
-         "location" : "IN_ROOM:graye5553",
+         "location" : "IN_ROOM:graye5553@graye",
          "oflags" : [
             "NoGet"
          ],
@@ -301,7 +301,7 @@
          "examine" : "I wouldn't try to climb that! What if you fell?!\n"
       },
       "down_graye5523@graye" : {
-         "location" : "IN_ROOM:graye5523",
+         "location" : "IN_ROOM:graye5523@graye",
          "oflags" : [
             "NoGet"
          ],
@@ -310,7 +310,7 @@
          "examine" : "I wouldn't try it...\n"
       },
       "west_graye5523@graye" : {
-         "location" : "IN_ROOM:graye5523",
+         "location" : "IN_ROOM:graye5523@graye",
          "oflags" : [
             "NoGet"
          ],
@@ -319,7 +319,7 @@
          "examine" : "The ledge widens considerably over there.\n"
       },
       "north_graye5531@graye" : {
-         "location" : "IN_ROOM:graye5531",
+         "location" : "IN_ROOM:graye5531@graye",
          "oflags" : [
             "NoGet"
          ],
@@ -328,7 +328,7 @@
          "examine" : "Looks like safety.\n"
       },
       "west_graye5536@graye" : {
-         "location" : "IN_ROOM:graye5536",
+         "location" : "IN_ROOM:graye5536@graye",
          "oflags" : [
             "NoGet"
          ],
@@ -338,7 +338,7 @@
       },
       "obj5516@graye" : {
          "damage" : "20",
-         "location" : "WIELDED_BY:mob5513",
+         "location" : "WIELDED_BY:mob5513@graye",
          "oflags" : [
             "Cursed",
             "Glowing",
@@ -357,7 +357,7 @@
          "desc[0]" : "A whip, encrusted with dried blood, is coiled up here"
       },
       "obj5503@graye" : {
-         "location" : "CARRIED_BY:mob5515",
+         "location" : "CARRIED_BY:mob5515@graye",
          "oflags" : [
             "Key"
          ],
@@ -373,7 +373,7 @@
          "desc[0]" : "An intricate ebony key is here"
       },
       "obj5515@graye" : {
-         "location" : "WORN_BY:mob5512",
+         "location" : "WORN_BY:mob5512@graye",
          "oflags" : [
             "Wearable",
             "Armor"
@@ -394,7 +394,7 @@
          ]
       },
       "east_graye5534@graye" : {
-         "location" : "IN_ROOM:graye5534",
+         "location" : "IN_ROOM:graye5534@graye",
          "oflags" : [
             "NoGet"
          ],
@@ -403,7 +403,7 @@
          "examine" : "Safety!\n"
       },
       "obj5510@graye" : {
-         "location" : "WORN_BY:mob5504",
+         "location" : "WORN_BY:mob5504@graye",
          "oflags" : [
             "Wearable",
             "Boat"
@@ -423,7 +423,7 @@
          ]
       },
       "obj5520@graye" : {
-         "location" : "IN_ROOM:graye5561",
+         "location" : "IN_ROOM:graye5561@graye",
          "oflags" : [
             "Cross",
             "Glowing",
@@ -447,7 +447,7 @@
          ]
       },
       "ledgea@graye" : {
-         "location" : "IN_ROOM:graye5522",
+         "location" : "IN_ROOM:graye5522@graye",
          "oflags" : [
             "Noget"
          ],
@@ -457,7 +457,7 @@
       },
       "door_graye5549@graye" : {
          "desc[1]" : "The trapdoor was found here but left closed.",
-         "location" : "IN_ROOM:graye5548",
+         "location" : "IN_ROOM:graye5548@graye",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -474,7 +474,7 @@
          "desc[0]" : "The trapdoor is open, beckoning you to hop in."
       },
       "obj5512_2@graye" : {
-         "location" : "WORN_BY:mob5506_2",
+         "location" : "WORN_BY:mob5506_2@graye",
          "oflags" : [
             "Cross",
             "Glowing",
@@ -497,7 +497,7 @@
          ]
       },
       "poster@graye" : {
-         "location" : "IN_ROOM:graye5538",
+         "location" : "IN_ROOM:graye5538@graye",
          "oflags" : [
             "Noget"
          ],
@@ -505,7 +505,7 @@
          "examine" : "The poster reads:\n\nGreat rewards will be given to anyone who can \nrescue the benevolent King Relnar.\n"
       },
       "obj5511_1@graye" : {
-         "location" : "WORN_BY:mob5506_1",
+         "location" : "WORN_BY:mob5506_1@graye",
          "oflags" : [
             "Cross",
             "Glowing",
@@ -529,7 +529,7 @@
          ]
       },
       "cliffa@graye" : {
-         "location" : "IN_ROOM:graye5509",
+         "location" : "IN_ROOM:graye5509@graye",
          "oflags" : [
             "Noget"
          ],
@@ -539,7 +539,7 @@
          "examine" : "The face of the cliff seems impossible to scale.\n"
       },
       "cliffc@graye" : {
-         "location" : "IN_ROOM:graye5514",
+         "location" : "IN_ROOM:graye5514@graye",
          "oflags" : [
             "Noget"
          ],
@@ -549,7 +549,7 @@
          "examine" : "The cliff face seems impossible to scale.\n"
       },
       "obj5518@graye" : {
-         "location" : "WORN_BY:mob5516",
+         "location" : "WORN_BY:mob5516@graye",
          "oflags" : [
             "Cursed",
             "Lit",
@@ -572,7 +572,7 @@
          "desc[0]" : "The dark shield of Scrytin rests here"
       },
       "east_graye5533@graye" : {
-         "location" : "IN_ROOM:graye5533",
+         "location" : "IN_ROOM:graye5533@graye",
          "oflags" : [
             "NoGet"
          ],
@@ -581,7 +581,7 @@
          "examine" : "Safety!\n"
       },
       "east_graye5532@graye" : {
-         "location" : "IN_ROOM:graye5532",
+         "location" : "IN_ROOM:graye5532@graye",
          "oflags" : [
             "NoGet"
          ],
@@ -591,7 +591,7 @@
       },
       "obj5513_2@graye" : {
          "damage" : "16",
-         "location" : "WIELDED_BY:mob5506_2",
+         "location" : "WIELDED_BY:mob5506_2@graye",
          "oflags" : [
             "Cross",
             "Glowing",
@@ -609,7 +609,7 @@
          "desc[0]" : "A crimson emblazoned longsword is stuck in the ground here"
       },
       "obj5502@graye" : {
-         "location" : "IN_CONTAINER:obj5506",
+         "location" : "IN_CONTAINER:obj5506@graye",
          "oflags" : [
             "Key"
          ],
@@ -625,7 +625,7 @@
          "desc[0]" : "A key to a trapdoor has been left here"
       },
       "obj5512@graye" : {
-         "location" : "WORN_BY:mob5506",
+         "location" : "WORN_BY:mob5506@graye",
          "oflags" : [
             "Cross",
             "Glowing",
@@ -649,7 +649,7 @@
       },
       "obj5506@graye" : {
          "desc[1]" : "Relnar's desk is in the corner.",
-         "location" : "IN_ROOM:graye5543",
+         "location" : "IN_ROOM:graye5543@graye",
          "oflags" : [
             "NoGet",
             "Container",
@@ -668,7 +668,7 @@
       },
       "obj5513@graye" : {
          "damage" : "16",
-         "location" : "WIELDED_BY:mob5506",
+         "location" : "WIELDED_BY:mob5506@graye",
          "oflags" : [
             "Cross",
             "Glowing",
@@ -686,7 +686,7 @@
          "desc[0]" : "A crimson emblazoned longsword is stuck in the ground here"
       },
       "bed@graye" : {
-         "location" : "IN_ROOM:graye5545",
+         "location" : "IN_ROOM:graye5545@graye",
          "oflags" : [
             "Noget"
          ],
@@ -694,7 +694,7 @@
          "examine" : "It is a tidy, well made bed.\n"
       },
       "ladderb@graye" : {
-         "location" : "IN_ROOM:graye5524",
+         "location" : "IN_ROOM:graye5524@graye",
          "oflags" : [
             "Noget",
             "Destroyed"
@@ -707,7 +707,7 @@
       },
       "floorboards_graye5559@graye" : {
          "desc[1]" : "The floorboards look like they can be opened now.",
-         "location" : "IN_ROOM:graye5543",
+         "location" : "IN_ROOM:graye5543@graye",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -724,7 +724,7 @@
          "desc[0]" : "The floorboards have been opened like a trapdoor."
       },
       "down_graye5552@graye" : {
-         "location" : "IN_ROOM:graye5552",
+         "location" : "IN_ROOM:graye5552@graye",
          "oflags" : [
             "NoGet"
          ],
@@ -734,7 +734,7 @@
       },
       "obj5513_1@graye" : {
          "damage" : "16",
-         "location" : "WIELDED_BY:mob5506_1",
+         "location" : "WIELDED_BY:mob5506_1@graye",
          "oflags" : [
             "Cross",
             "Glowing",
@@ -753,7 +753,7 @@
       },
       "secret_graye5546@graye" : {
          "desc[1]" : "A secret door was discovered here next to the throne but left closed.",
-         "location" : "IN_ROOM:graye5544",
+         "location" : "IN_ROOM:graye5544@graye",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -769,7 +769,7 @@
          "desc[0]" : "A secret door was left open next to the throne."
       },
       "obj5504@graye" : {
-         "location" : "CARRIED_BY:mob5516",
+         "location" : "CARRIED_BY:mob5516@graye",
          "oflags" : [
             "Key"
          ],
@@ -785,7 +785,7 @@
          "desc[0]" : "An ivory key has been left here"
       },
       "west_graye5535@graye" : {
-         "location" : "IN_ROOM:graye5535",
+         "location" : "IN_ROOM:graye5535@graye",
          "oflags" : [
             "NoGet"
          ],
@@ -794,7 +794,7 @@
          "examine" : "Safety!\n"
       },
       "torch@graye" : {
-         "location" : "IN_ROOM:graye5546",
+         "location" : "IN_ROOM:graye5546@graye",
          "oflags" : [
             "Noget",
             "Lit"
@@ -805,7 +805,7 @@
          "examine" : "They provide light with a soft magical glow.\n"
       },
       "obj5507_4@graye" : {
-         "location" : "CARRIED_BY:mob5501_4",
+         "location" : "CARRIED_BY:mob5501_4@graye",
          "oflags" : [
             "Lightable",
             "Extinguish"
@@ -822,7 +822,7 @@
          "desc[0]" : "a green stick lies here"
       },
       "obj5512_1@graye" : {
-         "location" : "WORN_BY:mob5506_1",
+         "location" : "WORN_BY:mob5506_1@graye",
          "oflags" : [
             "Cross",
             "Glowing",
@@ -845,7 +845,7 @@
          ]
       },
       "obj5507_3@graye" : {
-         "location" : "CARRIED_BY:mob5501_3",
+         "location" : "CARRIED_BY:mob5501_3@graye",
          "oflags" : [
             "Lightable",
             "Extinguish"
@@ -862,7 +862,7 @@
          "desc[0]" : "a green stick lies here"
       },
       "signb@graye" : {
-         "location" : "IN_ROOM:graye5537",
+         "location" : "IN_ROOM:graye5537@graye",
          "oflags" : [
             "Noget"
          ],
@@ -871,7 +871,7 @@
          "examine" : "There is a sign posted here, it says:\n\n\t  ATTENTION CITIZENS OF GRAYE!\n\nDue to the demons beseiging our city, their\nnight-time raids, and their recent kidnapping\nof King Relnar, we ask all citizens to observe\nthe 7 pm curfew!  Those out on the streets after\ndark run the risk of being mistaken for the enemy \nand killed!\n\nsigned,\n\nThe Graye Guard\n"
       },
       "laddera@graye" : {
-         "location" : "IN_ROOM:graye5517",
+         "location" : "IN_ROOM:graye5517@graye",
          "oflags" : [
             "Noget",
             "Destroyed"
@@ -883,7 +883,7 @@
          "desc[0]" : "A very long rope ladder extends down to here from way high."
       },
       "thronex@graye" : {
-         "location" : "IN_ROOM:graye5544",
+         "location" : "IN_ROOM:graye5544@graye",
          "oflags" : [
             "Noget"
          ],
@@ -892,7 +892,7 @@
          "examine" : "It's a throne fit for a king..."
       },
       "obj5521@graye" : {
-         "location" : "IN_ROOM:graye5543",
+         "location" : "IN_ROOM:graye5543@graye",
          "oflags" : "{  }",
          "altname" : "personal",
          "name" : "obj5521",
@@ -907,7 +907,7 @@
       },
       "door_graye5556@graye" : {
          "desc[1]" : "The ebony door is closed.",
-         "location" : "IN_ROOM:graye5555",
+         "location" : "IN_ROOM:graye5555@graye",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -925,7 +925,7 @@
       },
       "ivory_graye5556@graye" : {
          "desc[1]" : "The ivory door is closed.",
-         "location" : "IN_ROOM:graye5557",
+         "location" : "IN_ROOM:graye5557@graye",
          "oflags" : [
             "Openable",
             "NoGet",
@@ -942,7 +942,7 @@
          "desc[0]" : "The ivory door is open."
       },
       "obj5507_1@graye" : {
-         "location" : "CARRIED_BY:mob5501_1",
+         "location" : "CARRIED_BY:mob5501_1@graye",
          "oflags" : [
             "Lightable",
             "Extinguish"
@@ -959,7 +959,7 @@
          "desc[0]" : "a green stick lies here"
       },
       "stone@graye" : {
-         "location" : "IN_ROOM:graye5561",
+         "location" : "IN_ROOM:graye5561@graye",
          "oflags" : [
             "Noget"
          ],
@@ -967,7 +967,7 @@
          "examine" : "It is a giant stone tablet supporting the coffin of Graye.\n"
       },
       "cliffb@graye" : {
-         "location" : "IN_ROOM:graye5510",
+         "location" : "IN_ROOM:graye5510@graye",
          "oflags" : [
             "Noget"
          ],
@@ -977,7 +977,7 @@
          "examine" : "The face of the cliff seems impossible to scale.\n"
       },
       "sign@graye" : {
-         "location" : "IN_ROOM:graye5509",
+         "location" : "IN_ROOM:graye5509@graye",
          "oflags" : [
             "Noget"
          ],
@@ -985,7 +985,7 @@
          "examine" : "The sign reads:\n\n******************************\n*                            *\n*       The Graye Area       *   \n*         Written By:        *\n*      Aten of GenericMUD    *\n*         April 1994         *\n*                            *\n******************************\n* 2/98 Converted & modified  *\n* using ZGEN by Crimefighter *\n******************************\n"
       },
       "east_graye5523@graye" : {
-         "location" : "IN_ROOM:graye5523",
+         "location" : "IN_ROOM:graye5523@graye",
          "oflags" : [
             "NoGet"
          ],
@@ -994,7 +994,7 @@
          "examine" : "The rocks look kinda unstable over there.\n"
       },
       "obj5511@graye" : {
-         "location" : "WORN_BY:mob5506",
+         "location" : "WORN_BY:mob5506@graye",
          "oflags" : [
             "Cross",
             "Glowing",
@@ -1018,7 +1018,7 @@
          ]
       },
       "basin@graye" : {
-         "location" : "IN_ROOM:graye5545",
+         "location" : "IN_ROOM:graye5545@graye",
          "oflags" : [
             "Noget"
          ],
@@ -1028,7 +1028,7 @@
          "examine" : "It is a very nice washbasin.\n"
       },
       "obj5507@graye" : {
-         "location" : "CARRIED_BY:mob5501",
+         "location" : "CARRIED_BY:mob5501@graye",
          "oflags" : [
             "Lightable",
             "Extinguish"
@@ -1045,7 +1045,7 @@
          "desc[0]" : "a green stick lies here"
       },
       "obj5511_2@graye" : {
-         "location" : "WORN_BY:mob5506_2",
+         "location" : "WORN_BY:mob5506_2@graye",
          "oflags" : [
             "Cross",
             "Glowing",
@@ -1069,7 +1069,7 @@
          ]
       },
       "obj5508@graye" : {
-         "location" : "WORN_BY:mob5504",
+         "location" : "WORN_BY:mob5504@graye",
          "oflags" : [
             "Wearable",
             "Container",
@@ -1092,7 +1092,7 @@
          ]
       },
       "coffin@graye" : {
-         "location" : "IN_ROOM:graye5561",
+         "location" : "IN_ROOM:graye5561@graye",
          "oflags" : [
             "Noget"
          ],
@@ -1100,7 +1100,7 @@
          "examine" : "The coffin holds the remains of Graye.  His gift to you\nis not within it.\n"
       },
       "obj5514@graye" : {
-         "location" : "CARRIED_BY:mob5511",
+         "location" : "CARRIED_BY:mob5511@graye",
          "oflags" : [
             "Cursed",
             "Wearable",
@@ -1124,7 +1124,7 @@
    "loc" : {
       "graye5545@graye" : {
          "exits" : {
-            "w" : "graye5544"
+            "w" : "graye5544@graye"
          },
          "flags" : [],
          "zone" : "graye",
@@ -1135,8 +1135,8 @@
       },
       "graye5521@graye" : {
          "exits" : {
-            "e" : "graye5522",
-            "d" : "graye5520"
+            "e" : "graye5522@graye",
+            "d" : "graye5520@graye"
          },
          "flags" : [
             "Outdoors",
@@ -1161,8 +1161,8 @@
       },
       "graye5547@graye" : {
          "exits" : {
-            "n" : "graye5548",
-            "s" : "graye5546"
+            "n" : "graye5548@graye",
+            "s" : "graye5546@graye"
          },
          "flags" : [
             "NoMobiles"
@@ -1175,10 +1175,10 @@
       },
       "graye5522@graye" : {
          "exits" : {
-            "e" : "graye5525",
-            "w" : "graye5525",
-            "u" : "graye5523",
-            "d" : "graye5525"
+            "e" : "graye5525@graye",
+            "w" : "graye5525@graye",
+            "u" : "graye5523@graye",
+            "d" : "graye5525@graye"
          },
          "flags" : [
             "Outdoors",
@@ -1192,9 +1192,9 @@
       },
       "graye5507@graye" : {
          "exits" : {
-            "w" : "graye5512",
-            "n" : "graye5504",
-            "s" : "graye5508"
+            "w" : "graye5512@graye",
+            "n" : "graye5504@graye",
+            "s" : "graye5508@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1207,8 +1207,8 @@
       },
       "graye5556@graye" : {
          "exits" : {
-            "e" : "^ivory_graye5557",
-            "s" : "^door_graye5555"
+            "e" : "^ivory_graye5557@graye",
+            "s" : "^door_graye5555@graye"
          },
          "flags" : [
             "Dark"
@@ -1221,8 +1221,8 @@
       },
       "graye5555@graye" : {
          "exits" : {
-            "n" : "^door_graye5556",
-            "s" : "graye5554"
+            "n" : "^door_graye5556@graye",
+            "s" : "graye5554@graye"
          },
          "flags" : [
             "Dark"
@@ -1235,8 +1235,8 @@
       },
       "graye5553@graye" : {
          "exits" : {
-            "u" : "graye5558",
-            "n" : "graye5554"
+            "u" : "graye5558@graye",
+            "n" : "graye5554@graye"
          },
          "flags" : [
             "Dark",
@@ -1250,8 +1250,8 @@
       },
       "graye5536@graye" : {
          "exits" : {
-            "w" : "graye5529",
-            "n" : "graye5535"
+            "w" : "graye5529@graye",
+            "n" : "graye5535@graye"
          },
          "flags" : [
             "Dark",
@@ -1265,9 +1265,9 @@
       },
       "graye5518@graye" : {
          "exits" : {
-            "e" : "graye5515",
-            "n" : "graye5517",
-            "s" : "graye5519"
+            "e" : "graye5515@graye",
+            "n" : "graye5517@graye",
+            "s" : "graye5519@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1280,10 +1280,10 @@
       },
       "graye5544@graye" : {
          "exits" : {
-            "e" : "graye5545",
-            "w" : "graye5543",
-            "d" : "^secret_graye5546",
-            "s" : "graye5541"
+            "e" : "graye5545@graye",
+            "w" : "graye5543@graye",
+            "d" : "^secret_graye5546@graye",
+            "s" : "graye5541@graye"
          },
          "flags" : [
             "NoMobiles"
@@ -1296,8 +1296,8 @@
       },
       "graye5552@graye" : {
          "exits" : {
-            "d" : "graye5553",
-            "s" : "graye5551"
+            "d" : "graye5553@graye",
+            "s" : "graye5551@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1310,8 +1310,8 @@
       },
       "graye5519@graye" : {
          "exits" : {
-            "e" : "graye5516",
-            "n" : "graye5518"
+            "e" : "graye5516@graye",
+            "n" : "graye5518@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1324,8 +1324,8 @@
       },
       "graye5543@graye" : {
          "exits" : {
-            "e" : "graye5544",
-            "d" : "^floorboards_graye5559"
+            "e" : "graye5544@graye",
+            "d" : "^floorboards_graye5559@graye"
          },
          "flags" : [],
          "zone" : "graye",
@@ -1336,8 +1336,8 @@
       },
       "graye5531@graye" : {
          "exits" : {
-            "n" : "graye5537",
-            "s" : "graye5528"
+            "n" : "graye5537@graye",
+            "s" : "graye5528@graye"
          },
          "flags" : [
             "Outdoors",
@@ -1351,9 +1351,9 @@
       },
       "graye5513@graye" : {
          "exits" : {
-            "e" : "graye5508",
-            "w" : "graye5516",
-            "n" : "graye5512"
+            "e" : "graye5508@graye",
+            "w" : "graye5516@graye",
+            "n" : "graye5512@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1366,7 +1366,7 @@
       },
       "graye5540@graye" : {
          "exits" : {
-            "e" : "graye5541"
+            "e" : "graye5541@graye"
          },
          "flags" : [],
          "zone" : "graye",
@@ -1377,8 +1377,8 @@
       },
       "graye5548@graye" : {
          "exits" : {
-            "u" : "^door_graye5549",
-            "s" : "graye5547"
+            "u" : "^door_graye5549@graye",
+            "s" : "graye5547@graye"
          },
          "flags" : [
             "NoMobiles"
@@ -1391,9 +1391,9 @@
       },
       "graye5529@graye" : {
          "exits" : {
-            "e" : "graye5536",
-            "w" : "graye5528",
-            "n" : "graye5532"
+            "e" : "graye5536@graye",
+            "w" : "graye5528@graye",
+            "n" : "graye5532@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1406,8 +1406,8 @@
       },
       "graye5501@graye" : {
          "exits" : {
-            "n" : "graye5502",
-            "s" : "Road10@village"
+            "n" : "graye5502@graye",
+            "s" : "road10@village"
          },
          "flags" : [
             "Outdoors"
@@ -1420,10 +1420,10 @@
       },
       "graye5504@graye" : {
          "exits" : {
-            "e" : "graye5503",
-            "w" : "graye5511",
-            "n" : "graye5506",
-            "s" : "graye5507"
+            "e" : "graye5503@graye",
+            "w" : "graye5511@graye",
+            "n" : "graye5506@graye",
+            "s" : "graye5507@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1436,8 +1436,8 @@
       },
       "graye5549@graye" : {
          "exits" : {
-            "n" : "graye5550",
-            "d" : "^door_graye5548"
+            "n" : "graye5550@graye",
+            "d" : "^door_graye5548@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1450,8 +1450,8 @@
       },
       "graye5546@graye" : {
          "exits" : {
-            "u" : "^secret_graye5544",
-            "n" : "graye5547"
+            "u" : "^secret_graye5544@graye",
+            "n" : "graye5547@graye"
          },
          "flags" : [
             "NoMobiles"
@@ -1464,9 +1464,9 @@
       },
       "graye5527@graye" : {
          "exits" : {
-            "e" : "graye5528",
-            "w" : "graye5533",
-            "n" : "graye5530"
+            "e" : "graye5528@graye",
+            "w" : "graye5533@graye",
+            "n" : "graye5530@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1479,9 +1479,9 @@
       },
       "graye5517@graye" : {
          "exits" : {
-            "e" : "graye5514",
-            "u" : "graye5520",
-            "s" : "graye5518"
+            "e" : "graye5514@graye",
+            "u" : "graye5520@graye",
+            "s" : "graye5518@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1494,8 +1494,8 @@
       },
       "graye5509@graye" : {
          "exits" : {
-            "e" : "graye5505",
-            "s" : "graye5510"
+            "e" : "graye5505@graye",
+            "s" : "graye5510@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1508,8 +1508,8 @@
       },
       "graye5557@graye" : {
          "exits" : {
-            "e" : "graye5543",
-            "w" : "^ivory_graye5556"
+            "e" : "graye5543@graye",
+            "w" : "^ivory_graye5556@graye"
          },
          "flags" : [],
          "zone" : "graye",
@@ -1520,10 +1520,10 @@
       },
       "graye5511@graye" : {
          "exits" : {
-            "e" : "graye5504",
-            "w" : "graye5514",
-            "n" : "graye5510",
-            "s" : "graye5512"
+            "e" : "graye5504@graye",
+            "w" : "graye5514@graye",
+            "n" : "graye5510@graye",
+            "s" : "graye5512@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1536,8 +1536,8 @@
       },
       "graye5559@graye" : {
          "exits" : {
-            "u" : "^floorboards_graye5543",
-            "n" : "graye5560"
+            "u" : "^floorboards_graye5543@graye",
+            "n" : "graye5560@graye"
          },
          "flags" : [
             "Dark"
@@ -1550,7 +1550,7 @@
       },
       "graye5542@graye" : {
          "exits" : {
-            "w" : "graye5541"
+            "w" : "graye5541@graye"
          },
          "flags" : [],
          "zone" : "graye",
@@ -1561,8 +1561,8 @@
       },
       "graye5505@graye" : {
          "exits" : {
-            "w" : "graye5509",
-            "s" : "graye5506"
+            "w" : "graye5509@graye",
+            "s" : "graye5506@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1575,10 +1575,10 @@
       },
       "graye5537@graye" : {
          "exits" : {
-            "e" : "graye5539",
-            "w" : "graye5538",
-            "n" : "graye5541",
-            "s" : "graye5531"
+            "e" : "graye5539@graye",
+            "w" : "graye5538@graye",
+            "n" : "graye5541@graye",
+            "s" : "graye5531@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1591,8 +1591,8 @@
       },
       "graye5534@graye" : {
          "exits" : {
-            "e" : "graye5530",
-            "s" : "graye5533"
+            "e" : "graye5530@graye",
+            "s" : "graye5533@graye"
          },
          "flags" : [
             "Dark",
@@ -1606,10 +1606,10 @@
       },
       "graye5512@graye" : {
          "exits" : {
-            "e" : "graye5507",
-            "w" : "graye5515",
-            "n" : "graye5511",
-            "s" : "graye5513"
+            "e" : "graye5507@graye",
+            "w" : "graye5515@graye",
+            "n" : "graye5511@graye",
+            "s" : "graye5513@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1622,9 +1622,9 @@
       },
       "graye5523@graye" : {
          "exits" : {
-            "e" : "graye5525",
-            "w" : "graye5524",
-            "d" : "graye5525"
+            "e" : "graye5525@graye",
+            "w" : "graye5524@graye",
+            "d" : "graye5525@graye"
          },
          "flags" : [
             "Outdoors",
@@ -1638,10 +1638,10 @@
       },
       "graye5524@graye" : {
          "exits" : {
-            "e" : "graye5523",
-            "u" : "graye5526",
-            "d" : "graye5525",
-            "s" : "graye5525"
+            "e" : "graye5523@graye",
+            "u" : "graye5526@graye",
+            "d" : "graye5525@graye",
+            "s" : "graye5525@graye"
          },
          "flags" : [
             "Outdoors",
@@ -1655,8 +1655,8 @@
       },
       "graye5535@graye" : {
          "exits" : {
-            "w" : "graye5532",
-            "s" : "graye5536"
+            "w" : "graye5532@graye",
+            "s" : "graye5536@graye"
          },
          "flags" : [
             "Dark",
@@ -1670,8 +1670,8 @@
       },
       "graye5526@graye" : {
          "exits" : {
-            "n" : "graye5528",
-            "d" : "graye5524"
+            "n" : "graye5528@graye",
+            "d" : "graye5524@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1684,8 +1684,8 @@
       },
       "graye5508@graye" : {
          "exits" : {
-            "w" : "graye5513",
-            "n" : "graye5507"
+            "w" : "graye5513@graye",
+            "n" : "graye5507@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1698,8 +1698,8 @@
       },
       "graye5550@graye" : {
          "exits" : {
-            "n" : "graye5551",
-            "s" : "graye5549"
+            "n" : "graye5551@graye",
+            "s" : "graye5549@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1712,8 +1712,8 @@
       },
       "graye5532@graye" : {
          "exits" : {
-            "e" : "graye5535",
-            "s" : "graye5529"
+            "e" : "graye5535@graye",
+            "s" : "graye5529@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1726,8 +1726,8 @@
       },
       "graye5533@graye" : {
          "exits" : {
-            "e" : "graye5527",
-            "n" : "graye5534"
+            "e" : "graye5527@graye",
+            "n" : "graye5534@graye"
          },
          "flags" : [
             "Dark",
@@ -1741,8 +1741,8 @@
       },
       "graye5502@graye" : {
          "exits" : {
-            "w" : "graye5503",
-            "s" : "graye5501"
+            "w" : "graye5503@graye",
+            "s" : "graye5501@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1755,7 +1755,7 @@
       },
       "graye5538@graye" : {
          "exits" : {
-            "e" : "graye5537"
+            "e" : "graye5537@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1768,10 +1768,10 @@
       },
       "graye5541@graye" : {
          "exits" : {
-            "e" : "graye5542",
-            "w" : "graye5540",
-            "n" : "graye5544",
-            "s" : "graye5537"
+            "e" : "graye5542@graye",
+            "w" : "graye5540@graye",
+            "n" : "graye5544@graye",
+            "s" : "graye5537@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1784,9 +1784,9 @@
       },
       "graye5506@graye" : {
          "exits" : {
-            "w" : "graye5510",
-            "n" : "graye5505",
-            "s" : "graye5504"
+            "w" : "graye5510@graye",
+            "n" : "graye5505@graye",
+            "s" : "graye5504@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1799,10 +1799,10 @@
       },
       "graye5528@graye" : {
          "exits" : {
-            "e" : "graye5529",
-            "w" : "graye5527",
-            "n" : "graye5531",
-            "s" : "graye5526"
+            "e" : "graye5529@graye",
+            "w" : "graye5527@graye",
+            "n" : "graye5531@graye",
+            "s" : "graye5526@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1815,8 +1815,8 @@
       },
       "graye5520@graye" : {
          "exits" : {
-            "u" : "graye5521",
-            "d" : "graye5517"
+            "u" : "graye5521@graye",
+            "d" : "graye5517@graye"
          },
          "flags" : [
             "Outdoors",
@@ -1831,7 +1831,7 @@
       },
       "graye5561@graye" : {
          "exits" : {
-            "s" : "graye5560"
+            "s" : "graye5560@graye"
          },
          "flags" : [],
          "zone" : "graye",
@@ -1842,9 +1842,9 @@
       },
       "graye5514@graye" : {
          "exits" : {
-            "e" : "graye5511",
-            "w" : "graye5517",
-            "s" : "graye5515"
+            "e" : "graye5511@graye",
+            "w" : "graye5517@graye",
+            "s" : "graye5515@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1857,8 +1857,8 @@
       },
       "graye5551@graye" : {
          "exits" : {
-            "n" : "graye5552",
-            "s" : "graye5550"
+            "n" : "graye5552@graye",
+            "s" : "graye5550@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1871,9 +1871,9 @@
       },
       "graye5516@graye" : {
          "exits" : {
-            "e" : "graye5513",
-            "w" : "graye5519",
-            "n" : "graye5515"
+            "e" : "graye5513@graye",
+            "w" : "graye5519@graye",
+            "n" : "graye5515@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1897,8 +1897,8 @@
       },
       "graye5503@graye" : {
          "exits" : {
-            "e" : "graye5502",
-            "w" : "graye5504"
+            "e" : "graye5502@graye",
+            "w" : "graye5504@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1911,8 +1911,8 @@
       },
       "graye5554@graye" : {
          "exits" : {
-            "n" : "graye5555",
-            "s" : "graye5553"
+            "n" : "graye5555@graye",
+            "s" : "graye5553@graye"
          },
          "flags" : [
             "Dark"
@@ -1925,8 +1925,8 @@
       },
       "graye5560@graye" : {
          "exits" : {
-            "n" : "graye5561",
-            "s" : "graye5559"
+            "n" : "graye5561@graye",
+            "s" : "graye5559@graye"
          },
          "flags" : [],
          "zone" : "graye",
@@ -1937,7 +1937,7 @@
       },
       "graye5539@graye" : {
          "exits" : {
-            "w" : "graye5537"
+            "w" : "graye5537@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1950,9 +1950,9 @@
       },
       "graye5510@graye" : {
          "exits" : {
-            "e" : "graye5506",
-            "n" : "graye5509",
-            "s" : "graye5511"
+            "e" : "graye5506@graye",
+            "n" : "graye5509@graye",
+            "s" : "graye5511@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1965,8 +1965,8 @@
       },
       "graye5530@graye" : {
          "exits" : {
-            "w" : "graye5534",
-            "s" : "graye5527"
+            "w" : "graye5534@graye",
+            "s" : "graye5527@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1979,10 +1979,10 @@
       },
       "graye5515@graye" : {
          "exits" : {
-            "e" : "graye5512",
-            "w" : "graye5518",
-            "n" : "graye5514",
-            "s" : "graye5516"
+            "e" : "graye5512@graye",
+            "w" : "graye5518@graye",
+            "n" : "graye5514@graye",
+            "s" : "graye5516@graye"
          },
          "flags" : [
             "Outdoors"
@@ -1998,7 +1998,7 @@
       "mob5513@graye" : {
          "visibility" : "0",
          "damage" : "13",
-         "location" : "graye5554",
+         "location" : "graye5554@graye",
          "armor" : "20",
          "name" : "mob5513",
          "examine" : "The guard seems to be..well...mostly human.  He is covered\nin boils and tufts of hair.  He glares at you with his one\ngood eye and says, 'Put down that weapon..prisoner!'\n",
@@ -2017,7 +2017,7 @@
       "mob5501_4@graye" : {
          "visibility" : "0",
          "damage" : "15",
-         "location" : "graye5514",
+         "location" : "graye5514@graye",
          "armor" : "16",
          "name" : "mob5501_4",
          "examine" : "The forest brownie winks at you and scurries away.\nQuite an amicable fellow.\n",
@@ -2038,7 +2038,7 @@
       "mob5506_3@graye" : {
          "visibility" : "0",
          "damage" : "25",
-         "location" : "graye5538",
+         "location" : "graye5538@graye",
          "armor" : "10",
          "name" : "mob5506_3",
          "examine" : "The guardsman smiles at you kindly.  He says, 'better stick\nwith me guy-- its a dangerous world out there.'\n",
@@ -2055,7 +2055,7 @@
       "mob5503_2@graye" : {
          "visibility" : "0",
          "damage" : "3",
-         "location" : "graye5513",
+         "location" : "graye5513@graye",
          "armor" : "6",
          "name" : "mob5503_2",
          "examine" : "The rabbit looks up at you with big brown eyes,\nthen scoots away..hey..there goes lunch!\n",
@@ -2072,7 +2072,7 @@
       "mob5503_1@graye" : {
          "visibility" : "0",
          "damage" : "3",
-         "location" : "graye5516",
+         "location" : "graye5516@graye",
          "armor" : "6",
          "name" : "mob5503_1",
          "examine" : "The rabbit looks up at you with big brown eyes,\nthen scoots away..hey..there goes lunch!\n",
@@ -2089,7 +2089,7 @@
       "mob5513_1@graye" : {
          "visibility" : "0",
          "damage" : "13",
-         "location" : "graye5553",
+         "location" : "graye5553@graye",
          "armor" : "20",
          "name" : "mob5513_1",
          "examine" : "The guard seems to be..well...mostly human.  He is covered\nin boils and tufts of hair.  He glares at you with his one\ngood eye and says, 'Put down that weapon..prisoner!'\n",
@@ -2108,7 +2108,7 @@
       "mob5509@graye" : {
          "visibility" : "0",
          "damage" : "18",
-         "location" : "graye5538",
+         "location" : "graye5538@graye",
          "armor" : "14",
          "name" : "mob5509",
          "examine" : "The citizen looks rather nervous- You would too if your town was\nbeseiged by demons.\n",
@@ -2125,7 +2125,7 @@
       "mob5502@graye" : {
          "visibility" : "0",
          "damage" : "10",
-         "location" : "graye5509",
+         "location" : "graye5509@graye",
          "armor" : "10",
          "name" : "mob5502",
          "examine" : "The wolf looks rather hungry.  You see him trying to decide\nif YOU taste like rabbit.\n",
@@ -2148,7 +2148,7 @@
          ],
          "visibility" : "0",
          "damage" : "32",
-         "location" : "graye5555",
+         "location" : "graye5555@graye",
          "armor" : "16",
          "name" : "mob5515",
          "examine" : "Irgon frowns down upon you.  His oily black skin reflects\nthe torchlight.  A thick white claw points at you, and\nhe utters, 'prepare to die.'\n",
@@ -2164,7 +2164,7 @@
       "mob5502_2@graye" : {
          "visibility" : "0",
          "damage" : "10",
-         "location" : "graye5511",
+         "location" : "graye5511@graye",
          "armor" : "10",
          "name" : "mob5502_2",
          "examine" : "The wolf looks rather hungry.  You see him trying to decide\nif YOU taste like rabbit.\n",
@@ -2183,7 +2183,7 @@
       "mob5510_1@graye" : {
          "visibility" : "0",
          "damage" : "15",
-         "location" : "graye5539",
+         "location" : "graye5539@graye",
          "armor" : "14",
          "name" : "mob5510_1",
          "examine" : "The citizen looks rather nervous- You would too if your town was\nbeseiged by demons.\n",
@@ -2202,7 +2202,7 @@
       "mob5514@graye" : {
          "visibility" : "0",
          "damage" : "28",
-         "location" : "graye5545",
+         "location" : "graye5545@graye",
          "armor" : "20",
          "name" : "mob5514",
          "examine" : "He looks at you and begs, 'please! they have taken him! I\ncan see that you are a great adventurer..please bring him\nback to us!'  The advisor turns from you and continues to\nsob uncontrollably.\n",
@@ -2240,7 +2240,7 @@
       "mob5508_1@graye" : {
          "visibility" : "0",
          "damage" : "16",
-         "location" : "graye5551",
+         "location" : "graye5551@graye",
          "armor" : "18",
          "name" : "mob5508_1",
          "examine" : "The demon resembles little, but a sinewy mass of flesh,\ntendons, and teeth.  It glares at you with pure fury in\nit's eyes.\n",
@@ -2278,7 +2278,7 @@
       "mob5505_2@graye" : {
          "visibility" : "0",
          "damage" : "35",
-         "location" : "graye5535",
+         "location" : "graye5535@graye",
          "armor" : "30",
          "name" : "mob5505_2",
          "examine" : "You see a nightmarish array of teeth and claws, the \nguardian demon is determined to rip your guts out.\n",
@@ -2301,7 +2301,7 @@
          ],
          "visibility" : "0",
          "damage" : "37",
-         "location" : "graye5556",
+         "location" : "graye5556@graye",
          "armor" : "10",
          "name" : "mob5516",
          "examine" : "Scrytin looks at you kindly, and suddenly you feel very \npeaceful and relaxed.  You stare directly into his eyes,\nand feel yourself slipping deeper and deeper...NOOO!!\nScrytin growls, 'Won't become a minion of mine eh?..then\nyou shall DIE!'\n",
@@ -2317,7 +2317,7 @@
       "mob5502_1@graye" : {
          "visibility" : "0",
          "damage" : "10",
-         "location" : "graye5510",
+         "location" : "graye5510@graye",
          "armor" : "10",
          "name" : "mob5502_1",
          "examine" : "The wolf looks rather hungry.  You see him trying to decide\nif YOU taste like rabbit.\n",
@@ -2336,7 +2336,7 @@
       "mob5501_3@graye" : {
          "visibility" : "0",
          "damage" : "15",
-         "location" : "graye5517",
+         "location" : "graye5517@graye",
          "armor" : "16",
          "name" : "mob5501_3",
          "examine" : "The forest brownie winks at you and scurries away.\nQuite an amicable fellow.\n",
@@ -2357,7 +2357,7 @@
       "mob5503@graye" : {
          "visibility" : "0",
          "damage" : "3",
-         "location" : "graye5519",
+         "location" : "graye5519@graye",
          "armor" : "6",
          "name" : "mob5503",
          "examine" : "The rabbit looks up at you with big brown eyes,\nthen scoots away..hey..there goes lunch!\n",
@@ -2374,7 +2374,7 @@
       "mob5501_1@graye" : {
          "visibility" : "0",
          "damage" : "15",
-         "location" : "graye5508",
+         "location" : "graye5508@graye",
          "armor" : "16",
          "name" : "mob5501_1",
          "examine" : "The forest brownie winks at you and scurries away.\nQuite an amicable fellow.\n",
@@ -2395,7 +2395,7 @@
       "mob5512@graye" : {
          "visibility" : "0",
          "damage" : "26",
-         "location" : "graye5552",
+         "location" : "graye5552@graye",
          "armor" : "10",
          "name" : "mob5512",
          "examine" : "All you see is a fog-like apparition, with two glowing\nred eyes...\n",
@@ -2416,7 +2416,7 @@
       "mob5501_2@graye" : {
          "visibility" : "0",
          "damage" : "15",
-         "location" : "graye5516",
+         "location" : "graye5516@graye",
          "armor" : "16",
          "name" : "mob5501_2",
          "examine" : "The forest brownie winks at you and scurries away.\nQuite an amicable fellow.\n",
@@ -2437,7 +2437,7 @@
       "mob5505@graye" : {
          "visibility" : "0",
          "damage" : "35",
-         "location" : "graye5533",
+         "location" : "graye5533@graye",
          "armor" : "30",
          "name" : "mob5505",
          "examine" : "You see a nightmarish array of teeth and claws, the \nguardian demon is determined to rip your guts out.\n",
@@ -2456,7 +2456,7 @@
       "mob5506@graye" : {
          "visibility" : "0",
          "damage" : "25",
-         "location" : "graye5537",
+         "location" : "graye5537@graye",
          "armor" : "10",
          "name" : "mob5506",
          "examine" : "The guardsman smiles at you kindly.  He says, 'better stick\nwith me guy-- its a dangerous world out there.'\n",
@@ -2473,7 +2473,7 @@
       "mob5502_4@graye" : {
          "visibility" : "0",
          "damage" : "10",
-         "location" : "graye5517",
+         "location" : "graye5517@graye",
          "armor" : "10",
          "name" : "mob5502_4",
          "examine" : "The wolf looks rather hungry.  You see him trying to decide\nif YOU taste like rabbit.\n",
@@ -2492,7 +2492,7 @@
       "mob5505_3@graye" : {
          "visibility" : "0",
          "damage" : "35",
-         "location" : "graye5536",
+         "location" : "graye5536@graye",
          "armor" : "30",
          "name" : "mob5505_3",
          "examine" : "You see a nightmarish array of teeth and claws, the \nguardian demon is determined to rip your guts out.\n",
@@ -2511,7 +2511,7 @@
       "mob5506_1@graye" : {
          "visibility" : "0",
          "damage" : "25",
-         "location" : "graye5537",
+         "location" : "graye5537@graye",
          "armor" : "10",
          "name" : "mob5506_1",
          "examine" : "The guardsman smiles at you kindly.  He says, 'better stick\nwith me guy-- its a dangerous world out there.'\n",
@@ -2528,7 +2528,7 @@
       "mob5507@graye" : {
          "visibility" : "0",
          "damage" : "17",
-         "location" : "graye5550",
+         "location" : "graye5550@graye",
          "armor" : "14",
          "name" : "mob5507",
          "examine" : "It seems like a relatively harmless little demon, but \nthose sharp teeth might hurt if they were wrapped around\nyour arm.\n",
@@ -2548,7 +2548,7 @@
       "mob5510@graye" : {
          "visibility" : "0",
          "damage" : "15",
-         "location" : "graye5538",
+         "location" : "graye5538@graye",
          "armor" : "14",
          "name" : "mob5510",
          "examine" : "The citizen looks rather nervous- You would too if your town was\nbeseiged by demons.\n",
@@ -2567,7 +2567,7 @@
       "mob5509_1@graye" : {
          "visibility" : "0",
          "damage" : "18",
-         "location" : "graye5539",
+         "location" : "graye5539@graye",
          "armor" : "14",
          "name" : "mob5509_1",
          "examine" : "The citizen looks rather nervous- You would too if your town was\nbeseiged by demons.\n",
@@ -2584,7 +2584,7 @@
       "mob5506_2@graye" : {
          "visibility" : "0",
          "damage" : "25",
-         "location" : "graye5537",
+         "location" : "graye5537@graye",
          "armor" : "10",
          "name" : "mob5506_2",
          "examine" : "The guardsman smiles at you kindly.  He says, 'better stick\nwith me guy-- its a dangerous world out there.'\n",
@@ -2601,7 +2601,7 @@
       "mob5508@graye" : {
          "visibility" : "0",
          "damage" : "16",
-         "location" : "graye5550",
+         "location" : "graye5550@graye",
          "armor" : "18",
          "name" : "mob5508",
          "examine" : "The demon resembles little, but a sinewy mass of flesh,\ntendons, and teeth.  It glares at you with pure fury in\nit's eyes.\n",
@@ -2622,7 +2622,7 @@
       "mob5504@graye" : {
          "visibility" : "0",
          "damage" : "26",
-         "location" : "graye5515",
+         "location" : "graye5515@graye",
          "armor" : "24",
          "name" : "mob5504",
          "examine" : "The woodsman chuckles and says, 'Howdy stranger- the name is \nTomal..howya doing?'\n",
@@ -2641,7 +2641,7 @@
       "mob5511@graye" : {
          "visibility" : "0",
          "damage" : "29",
-         "location" : "graye5550",
+         "location" : "graye5550@graye",
          "armor" : "22",
          "name" : "mob5511",
          "examine" : "You look deep into the eyes of the beast.  You sense no absolutely \nno intellect, only raw power and rage.\n",
@@ -2663,7 +2663,7 @@
       "mob5502_3@graye" : {
          "visibility" : "0",
          "damage" : "10",
-         "location" : "graye5514",
+         "location" : "graye5514@graye",
          "armor" : "10",
          "name" : "mob5502_3",
          "examine" : "The wolf looks rather hungry.  You see him trying to decide\nif YOU taste like rabbit.\n",
@@ -2682,7 +2682,7 @@
       "mob5501@graye" : {
          "visibility" : "0",
          "damage" : "15",
-         "location" : "graye5505",
+         "location" : "graye5505@graye",
          "armor" : "16",
          "name" : "mob5501",
          "examine" : "The forest brownie winks at you and scurries away.\nQuite an amicable fellow.\n",
@@ -2703,7 +2703,7 @@
       "mob5507_1@graye" : {
          "visibility" : "0",
          "damage" : "17",
-         "location" : "graye5551",
+         "location" : "graye5551@graye",
          "armor" : "14",
          "name" : "mob5507_1",
          "examine" : "It seems like a relatively harmless little demon, but \nthose sharp teeth might hurt if they were wrapped around\nyour arm.\n",
@@ -2723,7 +2723,7 @@
       "mob5505_1@graye" : {
          "visibility" : "0",
          "damage" : "35",
-         "location" : "graye5534",
+         "location" : "graye5534@graye",
          "armor" : "30",
          "name" : "mob5505_1",
          "examine" : "You see a nightmarish array of teeth and claws, the \nguardian demon is determined to rip your guts out.\n",
@@ -2742,7 +2742,7 @@
       "mob5506_4@graye" : {
          "visibility" : "0",
          "damage" : "25",
-         "location" : "graye5539",
+         "location" : "graye5539@graye",
          "armor" : "10",
          "name" : "mob5506_4",
          "examine" : "The guardsman smiles at you kindly.  He says, 'better stick\nwith me guy-- its a dangerous world out there.'\n",

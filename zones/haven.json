@@ -1,7 +1,7 @@
 {
    "obj" : {
       "applications@haven" : {
-         "location" : "CARRIED_BY:Applicant",
+         "location" : "CARRIED_BY:applicant@haven",
          "weight" : "10",
          "name" : "applications",
          "examine" : "\nIt appears to be one application from each individual company that exists\non the planet!  Wouldn't it be easier on us if they'd just have one uniform\napplication so you can run it through a copy machine?\n",
@@ -10,7 +10,7 @@
          "size" : "5"
       },
       "fire@haven" : {
-         "location" : "IN_ROOM:haven",
+         "location" : "IN_ROOM:haven@haven",
          "oflags" : [
             "NoGet",
             "Extinguish"
@@ -18,7 +18,7 @@
          "name" : "fire"
       },
       "mistletoe@haven" : {
-         "location" : "IN_ROOM:haven",
+         "location" : "IN_ROOM:haven@haven",
          "oflags" : [
             "NoGet"
          ],
@@ -47,7 +47,7 @@
    "mob" : {
       "bard@haven" : {
          "damage" : "10",
-         "location" : "haven",
+         "location" : "haven@haven",
          "speed" : "0",
          "aggression" : "0",
          "armor" : "0",
@@ -58,7 +58,7 @@
       },
       "applicant@haven" : {
          "damage" : "10",
-         "location" : "haven",
+         "location" : "haven@haven",
          "speed" : "0",
          "name" : "Applicant",
          "examine" : "\nThe applicant stands here in total misery filling out one application after\nanother knowing that he will never be hired because he has little or no work \nexperience to prove to an employer that he's qualified.  You too, can join\nin on this horrible existance when you're old enough.",

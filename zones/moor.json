@@ -2,7 +2,7 @@
    "obj" : {
       "heather@moor" : {
          "desc[1]" : "Some white heather is growing here.",
-         "location" : "IN_ROOM:rocky",
+         "location" : "IN_ROOM:rocky@moor",
          "oflags" : [
             "GetFlips"
          ],
@@ -16,7 +16,7 @@
       },
       "ropetoppit@moor" : {
          "desc[1]" : "A rope leads down into the pit.",
-         "location" : "IN_ROOM:pit",
+         "location" : "IN_ROOM:pit@moor",
          "oflags" : [
             "Destroyed",
             "NoGet"
@@ -32,7 +32,7 @@
       },
       "bucket@moor" : {
          "desc[1]" : "An overturned bucket lies in a corner.",
-         "location" : "IN_ROOM:Inside",
+         "location" : "IN_ROOM:inside@moor",
          "oflags" : [
             "Container",
             "Getflips"
@@ -47,7 +47,7 @@
       },
       "altar@moor" : {
          "desc[1]" : "A chalice rests upon the altar.",
-         "location" : "IN_ROOM:circle",
+         "location" : "IN_ROOM:circle@moor",
          "oflags" : [
             "NoGet"
          ],
@@ -57,7 +57,7 @@
          "maxstate" : "1"
       },
       "chalice@moor" : {
-         "location" : "IN_ROOM:circle",
+         "location" : "IN_ROOM:circle@moor",
          "weight" : "5",
          "name" : "chalice",
          "bvalue" : "40",
@@ -68,10 +68,10 @@
    "loc" : {
       "circle@moor" : {
          "exits" : {
-            "w" : "Edge",
-            "e" : "Lost1",
-            "n" : "Lost2",
-            "s" : "Misty2"
+            "w" : "edge@moor",
+            "e" : "lost1@moor",
+            "n" : "lost2@moor",
+            "s" : "misty2@moor"
          },
          "flags" : [
             "Outdoors"
@@ -84,7 +84,7 @@
       },
       "inside@moor" : {
          "exits" : {
-            "w" : "Cottage"
+            "w" : "cottage@moor"
          },
          "flags" : [
             "Outdoors"
@@ -97,9 +97,9 @@
       },
       "cottage@moor" : {
          "exits" : {
-            "w" : "Lost1",
-            "e" : "Inside",
-            "n" : "Waste"
+            "w" : "lost1@moor",
+            "e" : "inside@moor",
+            "n" : "waste@moor"
          },
          "flags" : [
             "Outdoors"
@@ -112,8 +112,8 @@
       },
       "pit@moor" : {
          "exits" : {
-            "u" : "Lost1",
-            "d" : "^RopeTopPit"
+            "u" : "lost1@moor",
+            "d" : "^ropetoppit@moor"
          },
          "flags" : [
             "Outdoors"
@@ -126,9 +126,9 @@
       },
       "edge@moor" : {
          "exits" : {
-            "e" : "Circle",
-            "n" : "Rocky",
-            "s" : "Misty1"
+            "e" : "circle@moor",
+            "n" : "rocky@moor",
+            "s" : "misty1@moor"
          },
          "flags" : [
             "Outdoors"
@@ -141,9 +141,9 @@
       },
       "lost2@moor" : {
          "exits" : {
-            "w" : "Rocky",
-            "e" : "Waste",
-            "s" : "Lost1"
+            "w" : "rocky@moor",
+            "e" : "waste@moor",
+            "s" : "lost1@moor"
          },
          "flags" : [
             "Outdoors",
@@ -157,8 +157,8 @@
       },
       "misty2@moor" : {
          "exits" : {
-            "w" : "Misty1",
-            "n" : "Circle",
+            "w" : "misty1@moor",
+            "n" : "circle@moor",
             "se" : "church@cathedral",
             "d" : "descent10@oshul"
          },
@@ -174,9 +174,9 @@
       "rocky@moor" : {
          "exits" : {
             "w" : "road7e@newvillage",
-            "e" : "Lost2",
+            "e" : "lost2@moor",
             "n" : "camelot@camelot",
-            "s" : "Edge"
+            "s" : "edge@moor"
          },
          "flags" : [
             "Outdoors"
@@ -189,9 +189,9 @@
       },
       "misty1@moor" : {
          "exits" : {
-            "e" : "Misty2",
-            "n" : "Edge",
-            "s" : "Moorpath@valley"
+            "e" : "misty2@moor",
+            "n" : "edge@moor",
+            "s" : "moorpath@valley"
          },
          "flags" : [
             "Outdoors"
@@ -204,9 +204,9 @@
       },
       "waste@moor" : {
          "exits" : {
-            "e" : "RBend@eastcoast",
-            "w" : "Lost2",
-            "s" : "Cottage"
+            "e" : "rbend@eastcoast",
+            "w" : "lost2@moor",
+            "s" : "cottage@moor"
          },
          "flags" : [
             "Outdoors"
@@ -219,10 +219,10 @@
       },
       "lost1@moor" : {
          "exits" : {
-            "e" : "Cottage",
-            "w" : "Circle",
-            "n" : "Lost2",
-            "d" : "pit"
+            "e" : "cottage@moor",
+            "w" : "circle@moor",
+            "n" : "lost2@moor",
+            "d" : "pit@moor"
          },
          "flags" : [
             "Outdoors",
