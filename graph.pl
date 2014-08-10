@@ -44,25 +44,38 @@ my %opp = (
     d => 'u',
 );
 
-my $g = Graph
 my %unseen = map {; $_ => 1} keys %graph;
 while (scalar keys(%unseen)) {
     my $node = (keys %unseen)[0];
+
+    my $g = GraphViz->new(layout => 'fdp', directed => 0);
+    $g->add_node($node, cluster => $count);
 
     my %subgraph;
 
     my $recur;
     $recur = sub {
-        my $node = shift;
+        my ($node, $from) = @_;
         return unless delete($unseen{$node});
-        while (my $exit, $dest) = each $graph{$node}) {
-            if ($graph{$dest}{$opp{$exit}} eq $node) {
-                $subgraph{$node}{$exit} = 
-                $recur->($graph{$node}{$exit});
+
+        $g->add_edge($from => $node) if $from;
+
+        while (my ($exit, $dest) = each $graph{$node}) {
+            next unless length($exit) == 1; # skip diagonals for now
+            if (($graph{$dest}{$opp{$exit}}||'') eq $node) {
+                no warnings 'recursion';
+                $recur->($graph{$node}{$exit}, $node);
             }
         }
     };
     $recur->($node);
+
+    open my $fh, '>', "$count.png";
+    binmode $fh;
+    print $fh $g->as_png;
+    close $fh;
+    warn "Wrote to $count.png\n";
+
+    ++$count;
 }
 
-print JSON->new->pretty->encode(\%graph);
