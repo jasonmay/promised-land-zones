@@ -2,12 +2,12 @@ import glob
 import json
 import os
 
-namespace = os.environ["PL_NAMESPACE"]
-gen_directory = os.environ["PL_GEN_DIRECTORY"]
+PL_NAMESPACE = os.environ["PL_NAMESPACE"]
+GEN_DIRECTORY = os.environ["PL_GEN_DIRECTORY"]
 
 # global neptune namespace
 def g_namespace():
-    return 'org.jarsonmar.awesomud'
+    return PL_NAMESPACE
 
 def set_nested_value(o, k, p, v):
     if k not in o:
@@ -189,6 +189,6 @@ def ensure_zone(val, zone):
     return ':'.join(reversed(ret.split("@"))).lower()
 
 
-f = open(gen_directory + "/zones.json", "w")
+f = open(GEN_DIRECTORY + "/zones.json", "w")
 f.write(json.dumps(generate_data(), indent=2))
 f.close()
