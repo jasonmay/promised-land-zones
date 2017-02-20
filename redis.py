@@ -51,7 +51,7 @@ def generate_data():
             out_data[ns("properties")] = {}
 
         for data_key in ["title", "description", "altitude"]:
-            add_to_nested_value(out_data, ns("properties"), data_key, loc_data[data_key])
+            out_data[ns("properties")][data_key] = loc_data[data_key]
 
         if "flags" in loc_data:
             out_data[ns("flags")] = loc_data["flags"]
