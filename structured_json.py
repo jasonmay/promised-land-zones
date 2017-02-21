@@ -46,15 +46,14 @@ def generate_data():
         local_id, zone = loc_id.split('@')
 
         ns = lambda key: "%s:loc:%s:%s:%s" % (g_namespace(), zone, local_id, key)
-
-        if ns("properties") not in out_data:
-            out_data[ns("properties")] = {}
+        fqid = '{}:{}'.format(local_id, zone)
 
         for data_key in ["title", "description", "altitude"]:
-            out_data[ns("properties")][data_key] = loc_data[data_key]
+            prop = {'name': data_key, 'value': loc_data[data_key]}
+            add_to_nested_value(out_data, fqid, 'properties', prop)
 
         if "flags" in loc_data:
-            out_data[ns("flags")] = loc_data["flags"]
+            set_nested_value(out_data, fqid, 'flags', loc_data['flags'])
 
         for direction in ["n", "s", "e", "w", "u", "d"]:
             if direction not in loc_data["exits"]:
@@ -64,12 +63,15 @@ def generate_data():
             exit_value = ensure_zone(ex.lstrip("^"), zone)
 
             if ex.startswith("^"):
+                # XXX
                 object_link_key = "%s:%s:%s:%s:links" % (g_namespace(), "obj", zone, local_id)
                 set_nested_value(out_data, object_link_key, direction, exit_value)
             else:
                 if ns("exits") not in out_data:
                     out_data[ns("exits")] = {}
-                out_data[ns("exits")][direction] = exit_value
+
+                exit_datum = {'direction': direction, 'loc': exit_value}
+                add_to_nested_value(out_data, fqid, 'exits', exit_datum)
 
     objects = combined["obj"]
     for obj_id, obj_data, in objects.iteritems():
