@@ -77,6 +77,9 @@ def generate_data():
                 exit_datum['type'] = 'loc'
             loc['exits'].append(exit_datum)
 
+        loc["id"] = loc_id
+        loc["properties"] = props
+
         out_data["loc"].append(loc)
 
     for obj_id, obj_data, in combined["obj"].iteritems():
@@ -105,8 +108,10 @@ def generate_data():
                     p = obj_data[prop]
 
                 add_prop(props, prop, p)
+
         out_data["obj"].append({
-            'properties': props
+            'id': obj_id,
+            'properties': props,
         })
 
     for mob_id, mob_data, in combined["mob"].iteritems():
@@ -133,7 +138,8 @@ def generate_data():
                 add_prop(props, prop, mob_data[prop])
 
         out_data["mob"].append({
-            'properties': props
+            'id': mob_id,
+            'properties': props,
         })
 
     return out_data
