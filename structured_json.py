@@ -32,29 +32,34 @@ def generate_data():
     movables_key = "%s:%s" % (g_namespace(), 'movables')
     hostiles_key = "%s:%s" % (g_namespace(), 'hostiles')
 
-    mob_metadata = {}
-
-    out_data = {}
+    out_data = {"loc": [], "obj": [], "mob": []}
     combined = {"loc": {}, "obj": {}, "mob": {}}
     for path in iter:
         d = json.loads(open(path, "r").read())
         for key in ["loc", "obj", "mob"]:
             combined[key] = dict(combined[key].items() + d[key].items())
 
-    locations = combined["loc"]
-    for loc_id, loc_data, in locations.iteritems():
-        local_id, zone = loc_id.split('@')
+    def add_prop(props, name, value):
+        prop_datum = {'name': name, 'value': value}
+        props.append(prop_datum)
 
-        ns = lambda key: "%s:loc:%s:%s:%s" % (g_namespace(), zone, local_id, key)
+    for loc_id, loc_data, in combined["loc"].iteritems():
+        local_id, zone = loc_id.split('@')
+        loc = {}
+
         fqid = '{}:{}'.format(local_id, zone)
 
-        for data_key in ["title", "description", "altitude"]:
-            prop = {'name': data_key, 'value': loc_data[data_key]}
-            add_to_nested_value(out_data, fqid, 'properties', prop)
+        props = []
+
+        for data_key in ["title", "description"]:
+            loc[data_key] = loc_data[data_key]
+
+        add_prop(props, "altitude", loc_data["altitude"])
 
         if "flags" in loc_data:
-            set_nested_value(out_data, fqid, 'flags', loc_data['flags'])
+            add_prop(props, 'flags', loc_data['flags'])
 
+        loc['exits'] = []
         for direction in ["n", "s", "e", "w", "u", "d"]:
             if direction not in loc_data["exits"]:
                 continue
@@ -62,103 +67,75 @@ def generate_data():
             ex = loc_data["exits"][direction]
             exit_value = ensure_zone(ex.lstrip("^"), zone)
 
+            exit_datum = {
+                'direction': direction,
+                'entity': exit_value,
+            }
             if ex.startswith("^"):
-                # XXX
-                object_link_key = "%s:%s:%s:%s:links" % (g_namespace(), "obj", zone, local_id)
-                set_nested_value(out_data, object_link_key, direction, exit_value)
+                exit_datum['type'] = 'obj'
             else:
-                if ns("exits") not in out_data:
-                    out_data[ns("exits")] = {}
+                exit_datum['type'] = 'loc'
+            loc['exits'].append(exit_datum)
 
-                exit_datum = {'direction': direction, 'loc': exit_value}
-                add_to_nested_value(out_data, fqid, 'exits', exit_datum)
+        out_data["loc"].append(loc)
 
-    objects = combined["obj"]
-    for obj_id, obj_data, in objects.iteritems():
+    for obj_id, obj_data, in combined["obj"].iteritems():
         local_id, zone = obj_id.split('@')
 
-        ns = lambda key: "%s:obj:%s:%s:%s" % (g_namespace(), zone, local_id, key)
-
-        if ns("properties") not in out_data:
-            out_data[ns("properties")] = {}
-        for prop in ["visibility", "state", "examine[0]", "weight", "bvalue",
-                    "desc[3]", "name", "desc[2]", "pname",
-                    "examine[1]", "desc[0]", "damage", "examine", "size",
-                    "desc[]", "maxstate", "desc[1]", "altname", "armor", "linked"]:
-            if prop in obj_data:
-                if prop == "linked":
-                    out_data[ns("properties")][prop] = ensure_zone(obj_data["linked"], zone)
-                else:
-                    out_data[ns("properties")][prop] = obj_data[prop]
+        props = []
 
         if "oflag" in obj_data:
-            out_data[ns("oflags")] = obj_data["oflag"]
-        for flags in ["oflags", "aflags"]:
-            if flags in obj_data:
-                out_data[ns(flags)] = obj_data[flags]
+            obj_data['oflags'] = obj_data.pop('oflag', None)
+        if "aflag" in obj_data:
+            obj_data['aflags'] = obj_data.pop('aflag', None)
 
         if "location" in obj_data:
             if ":" not in obj_data["location"]:
                 obj_data["location"] += ":" + zone
 
-            loc_type, dest = obj_data["location"].split(":")
-            dest_value = ensure_zone(dest, zone)
+        for prop in ["visibility", "state", "examine[0]", "weight", "bvalue",
+                    "desc[3]", "name", "desc[2]", "pname",
+                    "examine[1]", "desc[0]", "damage", "examine", "size",
+                    "desc[]", "maxstate", "desc[1]", "altname", "armor", "linked",
+                    "location", "oflags", "aflags"]:
+            if prop in obj_data:
+                if prop == "linked":
+                    p = ensure_zone(obj_data["linked"], zone)
+                else:
+                    p = obj_data[prop]
 
-            val = ':'.join([zone, local_id])
-            add_to_redis_sets(ns, out_data, loc_type, dest_value, val)
+                add_prop(props, prop, p)
+        out_data["obj"].append({
+            'properties': props
+        })
 
-    mobiles = combined["mob"]
-    for mob_id, mob_data, in mobiles.iteritems():
+    for mob_id, mob_data, in combined["mob"].iteritems():
         local_id, zone = mob_id.split('@')
         mob_key = ":".join([zone, local_id])
 
-        ns = lambda key: "%s:mob:%s:%s:%s" % (g_namespace(), zone, local_id, key)
+        props = []
 
-        if ns("properties") not in out_data:
-            out_data[ns("properties")] = {}
+        for flag_key in ["eflags", "sflag", "sflags",
+                    "pflag", "pflags", "mflag", "mflags"]:
+            if flag_key in mob_data:
+                if flag_key.endswith("flag"):
+                    flag_key_plural = flag_key + "s"
+                    mob_data[flag_key_plural] = mob_data.pop(flag_key, None)
+                    add_prop(props, flag_key_plural, mob_data[flag_key_plural])
+
         for prop in ["visibility", "damage", "examine", "strength", "desc", "speed",
                     "aggression", "location", "name", "armor", "description",
                     "wimpy", "pname"]:
             if prop in mob_data:
-                out_data[ns("properties")][prop] = mob_data[prop]
                 if prop == "location":
                     dest = mob_data["location"]
-                    dest_value = ensure_zone(dest, zone)
+                    mob_data[prop] = ensure_zone(dest, zone)
+                add_prop(props, prop, mob_data[prop])
 
-                    room_key = ":".join([g_namespace(), "loc", dest_value, "mobs"])
-                    add_to_value(out_data, room_key, mob_key)
-                    out_data[ns("properties")]["location"] = dest_value
+        out_data["mob"].append({
+            'properties': props
+        })
 
-        # when are mobiles ...immobile:
-        #   In a room with NO exits (TODO)
-        #   In a room where every exit is any of the following:
-        #     1) a closed door (TODO)
-        #     2) a room with the NoMobiles flag (TODO)
-        #   Has no speed or speed is 0
-        if "speed" in mob_data:
-            if int(mob_data["speed"]) > 0:
-                set_nested_value(mob_metadata, mob_key, "movable", 1)
-
-        if "aggression" in mob_data:
-            if int(mob_data["aggression"]) > 0:
-                set_nested_value(mob_metadata, mob_key, "hostile", 1)
-
-        for flags in ["eflags", "sflag", "sflags",
-                    "pflag", "pflags", "mflag", "mflags"]:
-            if prop in mob_data:
-                flag_key = prop
-                if flag_key.endswith("g"):
-                    flag_key += "s"
-                out_data[ns("properties")][flag_key] = mob_data[prop]
-
-    # movables set
-    out_data[movables_key] = [ mk for mk, mv, in mob_metadata.iteritems()
-                               if "movable" in mv ]
-
-
-    # hostiles set
-    out_data[hostiles_key] = [ mk for mk, mv, in mob_metadata.iteritems()
-                               if "hostile" in mv ]
     return out_data
 
 def add_to_redis_sets(ns, out_data, loc_type, dest_value, val):
