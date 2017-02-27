@@ -47,8 +47,6 @@ def generate_data():
         local_id, zone = loc_id.split('@')
         loc = {}
 
-        fqid = '{}:{}'.format(local_id, zone)
-
         props = []
 
         for data_key in ["title", "description"]:
@@ -171,7 +169,8 @@ def ensure_zone(val, zone):
     if "@" not in ret:
         ret += "@" + zone
 
-    return ':'.join(reversed(ret.split("@"))).lower()
+    return ret
+    #return ':'.join(reversed(ret.split("@"))).lower()
 
 
 f = open(GEN_DIRECTORY + "/zones.json", "w")
